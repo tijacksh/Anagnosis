@@ -1,9 +1,9 @@
 {
-  "id": "bio-echographie-doppler",
+  "id": "med-echographie-doppler",
   "slug": "echographie-doppler",
   "titre": "Écouter le sang couler",
   "accroche": "Le premier appareil Doppler médical ne regardait pas le sang : il écoutait bouger un muscle cardiaque",
-  "discipline": "biologie",
+  "discipline": "medecine",
   "theme": "effet-doppler",
   "theme_ordre": 6,
   "niveau": "introductif",
@@ -63,10 +63,27 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le code couleur ne traduit qu'un sens de circulation par rapport à la sonde, déduit du signe du décalage Doppler. Une même artère apparaît rouge ou bleue selon l'orientation de la sonde. Ni l'oxygénation, ni la nature du vaisseau, ni la température n'entrent en jeu.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

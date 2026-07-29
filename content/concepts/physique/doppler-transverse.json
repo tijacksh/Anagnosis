@@ -66,10 +66,27 @@
     ],
     "bonne_reponse": 0,
     "explication": "À 90°, la composante d'approche est nulle : la géométrie des ondes ne prédit aucun décalage. Ce qui subsiste vient du ralentissement de l'horloge en mouvement — une source lumineuse étant une horloge, sa fréquence perçue baisse. C'est un effet purement relativiste, sans équivalent pour le son. Le rougissement gravitationnel, lui, est un phénomène distinct, lié à la masse et non à la vitesse.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

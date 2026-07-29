@@ -65,10 +65,27 @@
     ],
     "bonne_reponse": 3,
     "explication": "Son système auditif concentre une densité exceptionnelle de neurones sur une bande de fréquences très étroite — la fovéa acoustique. En compensant le décalage Doppler dû à son propre vol, l'animal maintient l'écho dans cette fenêtre de netteté, ce qui lui permet de détecter la modulation produite par les battements d'ailes d'une proie.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

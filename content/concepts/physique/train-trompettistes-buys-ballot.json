@@ -68,10 +68,27 @@
     ],
     "bonne_reponse": 2,
     "explication": "Buys Ballot était un adversaire déclaré de Doppler et espérait le prendre en défaut. L'expérience confirma pourtant le décalage acoustique — tandis que l'objection de fond de Buys Ballot, elle, était juste : la couleur des étoiles ne s'explique pas par leur mouvement. La vitesse du son, quant à elle, était mesurée depuis le XVIIe siècle.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

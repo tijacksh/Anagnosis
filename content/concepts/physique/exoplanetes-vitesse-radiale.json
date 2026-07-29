@@ -64,10 +64,27 @@
     ],
     "bonne_reponse": 2,
     "explication": "La planète reste invisible : c'est le décalage spectral périodique de l'étoile, alternativement vers le bleu et vers le rouge, qui trahit sa présence. La baisse de luminosité correspond à une autre méthode, celle des transits ; la lumière réfléchie relève de l'imagerie directe, bien plus difficile.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

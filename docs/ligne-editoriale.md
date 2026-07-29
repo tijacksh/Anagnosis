@@ -64,6 +64,10 @@ Le brief (§8) prévoit un champ `citation` + `citation_auteur`. En pratique, ex
 une citation d'auteur sur chaque fiche pousse mécaniquement à la fabrication : sur
 beaucoup de concepts, il n'existe pas de phrase célèbre et authentifiable.
 
+**Décidé (voir `docs/decisions.md`) : les deux, selon ce qui existe réellement.**
+Une vraie citation quand il y en a une ; un repère sinon. Jamais de citation
+reconstituée pour remplir l'emplacement.
+
 Le schéma retient donc **deux** champs, dont un au moins doit être rempli :
 
 - `citation` — une citation véritable, avec `texte`, `auteur`, `source`
@@ -73,8 +77,8 @@ Le schéma retient donc **deux** champs, dont un au moins doit être rempli :
   visuel qu'une citation dans la fiche (encadré, typographie détachée). Zéro
   risque de fabrication, même fonction de respiration dans la page.
 
-C'est un arbitrage à confirmer côté design (Lot 5) : les deux doivent avoir un
-traitement graphique cohérent.
+Reste à traiter au Lot 5 : les deux occupent le même emplacement et doivent
+recevoir un traitement graphique cohérent.
 
 ## 5. Ton
 

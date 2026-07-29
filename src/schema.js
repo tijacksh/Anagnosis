@@ -6,13 +6,20 @@
  * à faire tourner pour le Lot 0, ce qui garde le pipeline déployable sur le NAS.
  */
 
-/** Disciplines lancées en V1 (brief §7). */
+/**
+ * Disciplines lancées en V1 (brief §7).
+ *
+ * « Médecine / Santé » ne figure pas dans la taxonomie du brief : elle a été
+ * ajoutée après le premier lot, l'imagerie médicale se classant mal en Biologie
+ * (voir docs/decisions.md).
+ */
 export const DISCIPLINES_V1 = {
   philosophie: 'Philosophie',
   sociologie: 'Sociologie',
   anthropologie: 'Anthropologie',
   psychologie: 'Psychologie',
   biologie: 'Biologie',
+  medecine: 'Médecine / Santé',
   mathematiques: 'Mathématiques',
   physique: 'Physique',
   litterature: 'Littérature',

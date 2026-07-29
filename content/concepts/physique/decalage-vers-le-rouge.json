@@ -73,10 +73,27 @@
     ],
     "bonne_reponse": 0,
     "explication": "La relativité interdit de dépasser la vitesse de la lumière en se déplaçant à travers l'espace. L'expansion n'est pas un déplacement : c'est la distance elle-même qui croît, et rien ne borne ce taux de croissance. C'est pour cette raison que le décalage vers le rouge cosmologique ne se calcule pas avec la formule de Doppler.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

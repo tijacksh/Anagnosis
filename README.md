@@ -86,8 +86,13 @@ exige une note — sans motif, la regénération n'a rien pour travailler.
 
 ## Statut
 
-Lot 0 en cours. Premier lot thématique produit : **8 fiches sur l'effet Doppler**
-(6 physique, 2 biologie), en attente de validation.
+Lot 0 en cours. Premier lot thématique **validé** : 8 fiches sur l'effet Doppler
+(6 physique, 1 biologie, 1 médecine), passées par le pipeline complet.
 
-Objectif avant lancement public : 200 à 300 fiches validées, soit 60 à 90 jours
-d'avance (brief §9).
+| | |
+|---|---|
+| Fiches validées | 8 |
+| Cible Lot 0 (brief §13) | 20-30 |
+| Cible avant lancement public (brief §9) | 200-300, soit 60-90 jours d'avance |
+
+Les décisions prises depuis le brief sont consignées dans `docs/decisions.md`.

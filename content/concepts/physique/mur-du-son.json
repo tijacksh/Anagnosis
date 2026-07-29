@@ -64,10 +64,27 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le bang n'est pas l'événement du franchissement mais la signature permanente du vol supersonique : le cône traîne derrière l'appareil et balaie le sol en continu. Un observateur donné n'entend qu'une détonation, celle du passage du cône sur lui — d'où l'illusion d'un événement unique. L'altitude atténue le bang, elle ne le supprime pas.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-29T19:34:48.946Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-29T19:34:48.946Z",
+        "note": "Revue du lot Doppler — validée sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

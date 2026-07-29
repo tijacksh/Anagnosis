@@ -89,6 +89,10 @@ export function appliquerDecision(fiche, { statut, action, note, par, quand }) {
   return {
     ...fiche,
     statut,
+    // Le quiz n'a pas de cycle de vie propre : il est relu en même temps que sa
+    // fiche (brief §9). Son statut suit donc celui de la fiche, sinon une fiche
+    // validée exporte un quiz encore marqué « brouillon ».
+    ...(fiche.quiz ? { quiz: { ...fiche.quiz, statut } } : {}),
     validation: { decide_par: par || 'admin', decide_le: quand, historique },
   };
 }

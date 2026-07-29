@@ -14,6 +14,7 @@ code client, d'UI produit ou d'appel réseau vers un backend.
 
 - `docs/brief-produit.md` — le produit, le positionnement, le modèle économique
 - `docs/ligne-editoriale.md` — **la référence pour toute génération de contenu**
+- `docs/decisions.md` — ce qui a été tranché depuis le brief, et pourquoi
 
 ## Commandes
 
@@ -63,11 +64,24 @@ Avant de proposer un lot à la relecture :
 - **Décompte de mots.** `motsDe()` retire les marqueurs d'emphase sans insérer
   d'espace, sinon « l'*italique* » compte pour deux mots.
 
+## Produire un pack de discipline
+
+La production continue se fait **par lots d'une discipline entière**
+(`docs/decisions.md`). Deux points à ne pas perdre de vue :
+
+- L'app sert un concept par jour parmi les disciplines choisies par
+  l'utilisateur. Un stock déséquilibré rend le service inutilisable pour qui n'a
+  pas coché la discipline remplie — viser un socle sur toutes les disciplines
+  actives avant publication, même en produisant pack par pack.
+- À l'intérieur d'un pack, varier les registres et les niveaux. Huit fiches
+  construites sur le même schéma se lisent comme une seule.
+
 ## Ce qui reste ouvert
 
 - Nom de l'app (le dépôt s'appelle Epignosis, le brief parle d'un nom provisoire)
 - Direction artistique des illustrations — les `illustration.prompt` actuels sont
   des points de départ, à reprendre au Lot 5 avec Claude Design. Exigence non
   négociable : le rendu ne doit jamais être identifiable comme généré par IA
-- Une discipline « Médecine / Santé » manque à la taxonomie : les fiches
-  d'imagerie médicale sont pour l'instant classées en Biologie
+- Prix des paliers premium (brief §14)
+- Lancer les 9 disciplines d'emblée, ou un sous-ensemble (brief §14, amendé par
+  l'ajout de Médecine / Santé)
