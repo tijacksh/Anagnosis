@@ -14,6 +14,11 @@ function ficheValide(patch = {}) {
     discipline: 'physique',
     contenu_vulgarise: Array.from({ length: 420 }, (_, i) => `mot${i}`).join(' '),
     repere: { texte: 'Un fait sourcé', source: 'Une référence' },
+    carte: {
+      punch: 'Une accroche qui arrête le pouce',
+      idee: "L'idée de la fiche, formulée pour tenir debout toute seule dans une story, sans renvoyer à l'app.",
+      source_courte: 'Auteur, 2000',
+    },
     sources: [
       { type: 'article', titre: 'Source A', auteur: 'Auteur A', annee: 2000 },
       { type: 'web', titre: 'Source B', url: 'https://example.org/b' },
@@ -56,6 +61,40 @@ test('accepte une citation correctement sourcée', () => {
 test('exige un encadré : ni citation ni repère est refusé', () => {
   const { erreurs } = validerFiche(ficheValide({ citation: null, repere: null }));
   assert.ok(erreurs.some((e) => e.includes('encadré sourcé')));
+});
+
+test('signale une fiche sans carte sans la bloquer', () => {
+  const { erreurs, alertes } = validerFiche(ficheValide({ carte: null }));
+  assert.deepEqual(erreurs, []);
+  assert.ok(alertes.some((a) => a.includes('partageable')));
+});
+
+test('refuse une carte sans crédit source visible', () => {
+  const { erreurs } = validerFiche(
+    ficheValide({ carte: { ...ficheValide().carte, source_courte: '' } }),
+  );
+  assert.ok(erreurs.some((e) => e.includes('source_courte')));
+});
+
+test('borne le punch et l\'idée de la carte', () => {
+  const punchLong = validerFiche(ficheValide({ carte: { ...ficheValide().carte, punch: 'x'.repeat(150) } }));
+  assert.ok(punchLong.erreurs.some((e) => e.includes('punch')));
+
+  const ideeCourte = validerFiche(ficheValide({ carte: { ...ficheValide().carte, idee: 'Trop court.' } }));
+  assert.ok(ideeCourte.erreurs.some((e) => e.includes('idee')));
+});
+
+test('accepte une source antique (année négative)', () => {
+  const { erreurs, alertes } = validerFiche(
+    ficheValide({
+      sources: [
+        { titre: 'La République', auteur: 'Platon', annee: -375 },
+        { titre: 'B', url: 'https://example.org/b' },
+      ],
+    }),
+  );
+  assert.deepEqual(erreurs, []);
+  assert.deepEqual(alertes, []);
 });
 
 test('refuse une source non traçable (ni url, ni auteur+année)', () => {

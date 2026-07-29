@@ -117,18 +117,59 @@ un pack potentiel (brief §12) et doivent :
 - varier les **disciplines** et les **registres** (histoire des sciences, biologie,
   instrumentation, théorie), pour que le pack ne soit pas huit fois la même fiche.
 
-## 8. Illustrations
+## 8. La carte partageable
 
-Chaque fiche porte un `illustration.prompt` rédigé pour une génération locale
-(brief §10). Contraintes de style, à figer avec Claude Design au Lot 5 :
+Le partage en story est le moteur de croissance retenu (`docs/decisions.md`). La
+carte n'est donc pas un sous-produit de la fiche : c'est souvent le **premier**
+contact avec le produit, et parfois le seul. Elle s'écrit avec la fiche.
 
-- illustration conceptuelle et abstraite, pas de rendu photoréaliste ;
+Trois champs, tous obligatoires dès que `carte` est renseignée :
+
+| Champ | Rôle | Limite |
+|---|---|---|
+| `punch` | l'accroche qui arrête le pouce | 100 caractères |
+| `idee` | l'idée, complète et autonome | 90-300 caractères |
+| `source_courte` | le crédit affiché sur le visuel | 60 caractères |
+
+Règles d'écriture :
+
+- **La carte doit tenir debout sans l'app.** Quelqu'un qui la voit en story et ne
+  télécharge rien doit malgré tout avoir appris quelque chose. Une carte qui n'est
+  qu'une bande-annonce (« vous ne devinerez jamais pourquoi… ») trahit la
+  proposition de valeur : c'est exactement le teasing creux qu'on prétend remplacer.
+- **`source_courte` n'est jamais vide.** C'est le seul élément qui distingue notre
+  carte d'une infographie anonyme. « Arendt, 1963 » ou « Nature, 1995 » en bas
+  d'un visuel, c'est la différence entre une affirmation et une affirmation
+  vérifiable — et c'est tout le positionnement, rendu visible en un coup d'œil.
+- **Pas de superlatif, pas de chiffre rond inventé.** Le `punch` accroche par le
+  contenu, jamais par l'emballage.
+
+## 9. Illustrations et direction visuelle
+
+**Direction retenue : graphique, coloré, assumé.** Le référent n'est pas le manuel
+scolaire, c'est le compte Instagram ou TikTok qui explique un concept en une slide
+— sauf que le nôtre est sourcé.
+
+C'est le point important, et il lève une contradiction apparente : **la crédibilité
+est portée par la source affichée, pas par une palette austère.** Une fiche sourcée
+peut donc être visuellement franche, saturée, ludique, sans rien perdre de son
+sérieux. Le gris et le serif ne sont pas des preuves ; la référence en est une.
+
+Contraintes de style, à figer avec Claude Design au Lot 5 :
+
+- formes géométriques nettes, aplats saturés, contrastes francs — lisible en
+  vignette comme en plein écran vertical ;
+- illustration **conceptuelle**, jamais décorative : la forme dit quelque chose du
+  concept, elle ne remplit pas un cadre ;
 - pas de texte ni de chiffre dans l'image (illisible en petit, et piège classique
   des générateurs) ;
 - pas de visage humain identifiable ;
-- palette contrainte et constante sur toute la base, pour que 300 fiches se
-  ressemblent sans se confondre.
+- palette large mais **systématique** — une famille de couleurs par discipline
+  serait un candidat sérieux, pour que la discipline se reconnaisse avant d'être lue.
 
 **Exigence non négociable (brief §11) : le rendu final ne doit jamais être
-identifiable comme « généré par IA ».** Les prompts actuels sont des points de
-départ, pas une direction artistique validée.
+identifiable comme « généré par IA ».** C'est le vrai risque du registre coloré :
+le dégradé violet-bleu, les formes molles et les compositions centrées sont
+précisément la signature des générateurs. « Coloré » doit vouloir dire *graphique
+et composé*, pas *effet automatique*. Les prompts actuels sont des points de départ,
+pas une direction artistique validée.

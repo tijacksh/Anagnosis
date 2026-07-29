@@ -1,0 +1,78 @@
+{
+  "id": "phi-chambre-chinoise",
+  "slug": "chambre-chinoise",
+  "titre": "La chambre chinoise",
+  "accroche": "Un homme enfermé applique un manuel de règles et répond parfaitement en chinois. Comprend-il le chinois ?",
+  "discipline": "philosophie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1980, le philosophe John Searle publie dans *Behavioral and Brain Sciences* une expérience de pensée qui n'a pas cessé d'être discutée depuis.\n\nUn homme est enfermé dans une pièce. On lui glisse sous la porte des feuilles couvertes de caractères chinois. Il ne connaît pas un mot de chinois. Mais il dispose d'un manuel, rédigé dans sa langue, qui lui indique quels caractères produire en réponse à quels caractères reçus. Il applique les règles et renvoie ses feuilles.\n\nÀ l'extérieur, un locuteur chinois trouve les réponses impeccables. Il en conclut que son interlocuteur comprend le chinois.\n\n## L'argument\n\nSearle demande : l'homme dans la pièce comprend-il le chinois ?\n\nNon, manifestement. Il manipule des symboles d'après leur forme, sans accéder à ce qu'ils signifient. Or c'est exactement, dit Searle, ce que fait un programme : transformer des symboles selon des règles.\n\nD'où sa conclusion. Un système peut réussir n'importe quel test de comportement linguistique sans rien comprendre. La syntaxe ne suffit pas à produire de la sémantique — manipuler correctement des symboles n'est pas saisir leur sens.\n\nLa cible est précise : ce que Searle nomme l'IA forte, la thèse selon laquelle un programme convenablement conçu aurait par là même un esprit. Il ne conteste pas qu'une machine puisse être utile, ni même qu'elle puisse un jour penser. Il conteste qu'exécuter un programme y suffise.\n\n## L'objection sérieuse\n\nLa réponse la plus discutée est celle dite du système. L'homme seul ne comprend pas, soit — mais la question porte sur l'ensemble : l'homme, le manuel, les feuilles, la pièce. C'est peut-être ce système global qui comprend, de même qu'aucun neurone isolé ne comprend le français.\n\nSearle réplique en proposant d'imaginer qu'il mémorise le manuel entier : il devient à lui seul tout le système, et ne comprend toujours pas. L'échange n'est pas tranché, et il structure quarante ans de débat.\n\n## Ce que ça déplace\n\nL'expérience a pris une actualité que Searle n'avait pas anticipée. Des systèmes conversent aujourd'hui de façon fluide sur presque tout, et savoir ce qui se passe — ou ne se passe pas — à l'intérieur n'est plus une question académique.\n\nElle est aussi devenue plus difficile à manier. Le manuel de Searle était fini, écrit à la main, et l'on pouvait dire ce qu'il contenait. Un modèle contemporain n'a pas de manuel consultable. On ne peut donc plus, comme lui, décrire la pièce de l'intérieur et conclure tranquillement. L'expérience de pensée demeure ; l'intuition sur laquelle elle reposait se convoque moins facilement.",
+  "citation": null,
+  "repere": {
+    "texte": "L'argument vise ce que Searle appelle l'« IA forte » : la thèse qu'un programme convenablement conçu aurait, de ce seul fait, un esprit. Il ne prétend pas qu'une machine ne pourra jamais penser.",
+    "source": "John Searle, « Minds, Brains, and Programs », Behavioral and Brain Sciences, 1980"
+  },
+  "carte": {
+    "punch": "Il répond parfaitement en chinois sans connaître un mot de chinois.",
+    "idee": "L'homme de Searle applique un manuel de règles : ses réponses sont impeccables, il ne comprend rien. Sa thèse — manipuler des symboles selon leur forme ne produit pas du sens. Le débat, ouvert en 1980, n'a jamais été tranché.",
+    "source_courte": "Searle, Behavioral and Brain Sciences, 1980"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Searle, John R.",
+      "titre": "Minds, Brains, and Programs",
+      "publication": "Behavioral and Brain Sciences, 3(3), p. 417-457",
+      "annee": 1980,
+      "note": "Article d'origine, publié avec les réponses de nombreux commentateurs."
+    },
+    {
+      "type": "institution",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "The Chinese Room Argument",
+      "publication": "plato.stanford.edu",
+      "annee": 2020,
+      "url": "https://plato.stanford.edu/entries/chinese-room/",
+      "note": "Recense les principales objections, dont la réponse du système."
+    },
+    {
+      "type": "article",
+      "auteur": "Turing, Alan M.",
+      "titre": "Computing Machinery and Intelligence",
+      "publication": "Mind, 59(236)",
+      "annee": 1950,
+      "note": "Le test de comportement que l'argument de Searle vise à disqualifier."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — The Chinese Room Argument",
+      "url": "https://plato.stanford.edu/entries/chinese-room/",
+      "note": "Quarante ans d'objections, classées et discutées."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : un carré fermé au centre, une fente sur le côté gauche par laquelle entre une bande de formes géométriques, une fente à droite par laquelle sort une bande de formes identiques réordonnées. L'intérieur du carré est un aplat uni, entièrement vide. Vert émeraude, rose vif, noir. Contours nets, aucun dégradé, aucun caractère d'écriture dans l'image.",
+    "alt": "Carré fermé et vide, bandes de formes entrant d'un côté et ressortant réordonnées de l'autre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Quelle thèse précise l'argument de la chambre chinoise cherche-t-il à réfuter ?",
+    "choix": [
+      "Qu'une machine pourrait un jour égaler l'intelligence humaine",
+      "Que le langage est le meilleur indicateur de la présence d'un esprit",
+      "Que les réseaux de neurones artificiels imitent mal le cerveau biologique",
+      "Qu'exécuter le bon programme suffit à avoir un esprit"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Searle vise ce qu'il nomme l'« IA forte » : l'idée qu'un programme convenablement conçu posséderait par là même un esprit. Il n'exclut pas qu'une machine puisse penser un jour — il conteste que l'exécution d'un programme y suffise. Son argument porte sur la nature du calcul symbolique, pas sur la fidélité biologique des modèles.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+}

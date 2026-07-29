@@ -6,6 +6,79 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-07-29 — Le partage en story devient le moteur de croissance
+
+**Décidé :** le partage d'une carte-image du concept du jour passe de V1.5
+(brief §6) à **fonction centrale de V1**. C'est la boucle d'acquisition retenue.
+
+**Le raisonnement :** il existe déjà une audience installée pour ce format — les
+comptes TikTok et les carrousels Instagram qui expliquent un concept de physique,
+de philo ou de psycho en une slide, et que les gens repartagent. Cette audience
+consomme exactement notre contenu, mais sans source ni suite. L'objectif est de la
+capter : la story partagée fait connaître l'app, l'app apporte le rituel quotidien
+et la rigueur que ces comptes n'ont pas.
+
+**Conséquence sur le modèle de données :** ajout du champ `carte`
+(`punch`, `idee`, `source_courte`). La carte est du **contenu**, pas de la mise en
+page : elle s'écrit avec la fiche, sinon il faudrait rouvrir chaque fiche plus tard.
+Les trois champs sont obligatoires dès que `carte` est renseignée, et le validateur
+refuse une carte sans `source_courte`.
+
+**Règle éditoriale associée :** la carte doit tenir debout sans l'app. Quelqu'un qui
+la voit en story sans rien télécharger doit avoir appris quelque chose. Une carte
+réduite à une bande-annonce (« vous ne devinerez jamais… ») reproduit le teasing
+creux qu'on prétend remplacer.
+
+**Reste à trancher :** qui fabrique l'image ? Deux options — le pipeline la génère
+en amont, comme les illustrations (brief §10), ou l'app la compose à la volée pour
+pouvoir y afficher le pseudo ou la série de l'utilisateur. La seconde est plus
+virale, la première plus contrôlable. À décider avant le Lot 2.
+
+---
+
+## 2026-07-29 — Direction visuelle : graphique et coloré, pas austère
+
+**Décidé :** identité visuelle franche, colorée, ludique — le référent est le compte
+Instagram ou TikTok qui explique un concept en une slide, pas le manuel scolaire.
+
+**Ce qui lève la contradiction apparente** avec l'exigence de sérieux : **la
+crédibilité est portée par la source affichée, pas par une palette austère.** Le
+gris et le serif ne prouvent rien ; « Arendt, 1963 » en bas d'un visuel, si. Une
+fois le crédit source rendu visible et systématique, le visuel est libre d'être
+saturé et joyeux sans rien concéder sur le fond.
+
+**Le vrai risque du registre coloré**, à rappeler à Claude Design au Lot 5 : le
+dégradé violet-bleu, les formes molles et les compositions centrées sont la
+signature même des générateurs d'images. « Coloré » doit vouloir dire *graphique et
+composé*, jamais *effet automatique*. L'exigence du brief §11 — un rendu jamais
+identifiable comme généré par IA — devient plus difficile à tenir dans ce registre,
+pas moins.
+
+**Piste à évaluer :** une famille de couleurs par discipline, pour que la discipline
+se reconnaisse avant d'être lue.
+
+**Dette assumée :** les `illustration.prompt` des 8 fiches Doppler ont été rédigés
+dans la direction sobre précédente (encre fine, papier crème). Ils sont conservés
+tels quels plutôt que réécrits deux fois : la direction artistique n'étant pas
+arrêtée, une passe unique au Lot 5 coûtera moins qu'une réécriture maintenant. Les
+12 fiches de philosophie sont, elles, écrites dans la nouvelle direction.
+
+---
+
+## 2026-07-29 — Pack Philosophie produit
+
+12 fiches, de Platon à Searle, en attente de validation. Registres et niveaux
+volontairement variés : histoire des idées, épistémologie, morale, existentialisme,
+philosophie de l'esprit.
+
+Sept des douze corrigent un contresens répandu — la fin de l'allégorie de la
+caverne, la formule d'Ockham qui n'est pas d'Ockham, la banalité du mal, l'absurde
+de Camus, le pari de Pascal, l'impératif catégorique confondu avec la règle d'or,
+l'éternel retour lu comme une cosmologie. C'est l'angle le plus rentable pour le
+positionnement : le lecteur repart avec quelque chose qu'il croyait déjà savoir.
+
+---
+
 ## 2026-07-29 — Lot Doppler validé
 
 Les 8 fiches du premier lot thématique (effet Doppler) sont validées sans

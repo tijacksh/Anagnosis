@@ -307,6 +307,17 @@ export function vueFiche({ fiche, erreurs, alertes, mots, precedente, suivante }
 
     ${plusLoin ? `<div class="panel"><h4>Pour aller plus loin</h4><ul>${plusLoin}</ul></div>` : ''}
 
+    ${
+      f.carte
+        ? `<div class="panel">
+      <h4>Carte partageable</h4>
+      <p style="margin:0 0 8px;font-weight:600;font-size:15px">${escape(f.carte.punch)}</p>
+      <p style="margin:0 0 8px">${escape(f.carte.idee)}</p>
+      <p style="margin:0;color:#8b8377;font-size:12.5px">${escape(f.carte.source_courte)}</p>
+    </div>`
+        : ''
+    }
+
     ${quiz}
 
     <form class="panel actions" method="POST" action="/fiche/${encodeURIComponent(f.id)}/decision">

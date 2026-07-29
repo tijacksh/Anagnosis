@@ -50,8 +50,11 @@ Avant de proposer un lot à la relecture :
    fiche. C'est le cœur du positionnement produit (brief §3).
 2. **Ne jamais fabriquer une citation.** En l'absence de citation authentique et
    sourçable, utiliser le champ `repere` (ligne éditoriale §4).
-3. Lancer `npm run validate` — zéro erreur, zéro alerte.
-4. Lancer `npm test` — les tests contrôlent aussi le contenu réel du dépôt
+3. **Écrire la carte partageable en même temps que la fiche.** C'est du contenu,
+   pas de la mise en page : le partage en story est le moteur de croissance
+   (`docs/decisions.md`), et `carte.source_courte` n'est jamais vide.
+4. Lancer `npm run validate` — zéro erreur, zéro alerte.
+5. Lancer `npm test` — les tests contrôlent aussi le contenu réel du dépôt
    (équilibre des quiz, unicité des sources).
 
 ## Pièges déjà rencontrés

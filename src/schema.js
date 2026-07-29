@@ -86,6 +86,12 @@ export const REGLES = {
   quizChoixMin: 3,
   quizChoixMax: 4,
   explicationMin: 40,
+  // Carte partageable en story : lisible en 2 secondes sur un écran vertical,
+  // le pouce déjà prêt à passer au suivant.
+  cartePunchMax: 100,
+  carteIdeeMin: 90,
+  carteIdeeMax: 300,
+  carteSourceMax: 60,
 };
 
 /** Marqueurs qui trahissent un brouillon non terminé. */
@@ -124,6 +130,10 @@ export function fresh(partial = {}) {
     contenu_vulgarise: '',
     citation: null,
     repere: null,
+    // Carte partageable en story (docs/decisions.md) : le contenu du visuel que
+    // le lecteur poste sur les réseaux. `source_courte` y est toujours visible —
+    // c'est le signal qui distingue la carte d'un post d'infographie anonyme.
+    carte: null,
     sources: [],
     pour_aller_plus_loin: [],
     illustration: { prompt: '', alt: '', url: null, statut: 'a_generer' },

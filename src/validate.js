@@ -101,6 +101,30 @@ export function validerFiche(fiche, ctx = {}) {
     if (!fiche.repere.source) err('`repere.source` manquante');
   }
 
+  // --- Carte partageable ------------------------------------------------
+  // Le partage en story est le moteur de croissance retenu (docs/decisions.md) :
+  // une fiche sans carte est lisible, mais elle ne circule pas.
+  if (!fiche.carte) {
+    warn('pas de `carte` : la fiche ne sera pas partageable en story');
+  } else {
+    const { punch, idee, source_courte: src } = fiche.carte;
+    if (!punch) err('`carte.punch` manquant');
+    else if (punch.length > REGLES.cartePunchMax)
+      err(`\`carte.punch\` trop long pour un écran vertical (${punch.length} > ${REGLES.cartePunchMax})`);
+
+    if (!idee) err('`carte.idee` manquante');
+    else if (idee.length < REGLES.carteIdeeMin)
+      err(`\`carte.idee\` trop courte pour tenir debout seule (${idee.length} < ${REGLES.carteIdeeMin})`);
+    else if (idee.length > REGLES.carteIdeeMax)
+      err(`\`carte.idee\` trop longue (${idee.length} > ${REGLES.carteIdeeMax})`);
+
+    // Le crédit visible sur l'image est ce qui distingue la carte d'une
+    // infographie anonyme : il n'est pas optionnel.
+    if (!src) err('`carte.source_courte` manquante — le crédit visible est le cœur du positionnement');
+    else if (src.length > REGLES.carteSourceMax)
+      err(`\`carte.source_courte\` trop longue (${src.length} > ${REGLES.carteSourceMax})`);
+  }
+
   // --- Sources ----------------------------------------------------------
   const sources = fiche.sources ?? [];
   if (sources.length < REGLES.sourcesMin) err(`${sources.length} source(s) — minimum ${REGLES.sourcesMin} (brief §3 : rigueur des sources)`);
@@ -112,7 +136,9 @@ export function validerFiche(fiche, ctx = {}) {
     if (s.url && !urlValide(s.url)) err(`${ref}.url invalide : ${s.url}`);
     // Une source doit être retrouvable : soit une URL, soit auteur + année.
     if (!s.url && !(s.auteur && s.annee)) err(`${ref} non traçable : il faut une \`url\`, ou \`auteur\` + \`annee\``);
-    if (s.annee && (s.annee < 1500 || s.annee > 2100)) warn(`${ref}.annee suspecte : ${s.annee}`);
+    // Les sources antiques sont normales en philosophie : une année négative
+    // note une date avant notre ère (Platon, La République → -375).
+    if (s.annee && (s.annee < -800 || s.annee > 2100)) warn(`${ref}.annee suspecte : ${s.annee}`);
   });
 
   (fiche.pour_aller_plus_loin ?? []).forEach((l, i) => {
