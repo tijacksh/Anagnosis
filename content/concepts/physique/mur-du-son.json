@@ -1,0 +1,73 @@
+{
+  "id": "phy-mur-du-son",
+  "slug": "mur-du-son",
+  "titre": "Le mur du son",
+  "accroche": "Le bang supersonique n'est pas un instant qu'on franchit, mais une traînée de bruit qu'on laisse derrière soi",
+  "discipline": "physique",
+  "theme": "effet-doppler",
+  "theme_ordre": 3,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Poussez l'effet Doppler jusqu'à sa limite. Une source qui s'approche tasse les crêtes de son onde ; plus elle va vite, plus elles se serrent. Que se passe-t-il lorsqu'elle atteint la vitesse de ses propres ondes ?\n\nElles cessent de la précéder. Toutes les crêtes émises s'accumulent au même endroit, sur un front unique où les surpressions s'additionnent. C'est le mur du son — un nom trompeur pour quelque chose qui n'a rien d'un mur.\n\n## Un cône, pas un instant\n\nL'image d'Épinal montre un avion qui « franchit » quelque chose, dans un claquement, une fois. La réalité est autre. Au-delà de Mach 1, l'appareil traîne en permanence derrière lui un cône de surpression, comme le sillage en V d'un bateau. Ce cône balaie le sol pendant toute la durée du vol supersonique.\n\nLe bang n'est donc pas un événement, c'est une trace. Chaque personne survolée entend une détonation au moment où le cône l'atteint, et l'avion en produit sans discontinuer. Le pilote, lui, se trouve en amont du front : il n'entend rien.\n\nC'est ce couloir de bruit qui a condamné le Concorde au-dessus des terres. Interdit de vol supersonique sur la plupart des zones habitées, il ne pouvait tirer parti de sa vitesse qu'au-dessus de l'Atlantique.\n\n## Le nuage qui ne prouve rien\n\nOn a tous vu ces photographies d'avions de chasse enveloppés d'un disque de vapeur, légendées « l'instant où l'appareil passe le mur du son ». La légende est fausse.\n\nCe nuage est de la condensation. Là où l'air accélère brutalement autour de la cellule, la pression et la température chutent, et l'humidité ambiante se condense en gouttelettes. Le phénomène apparaît en régime transsonique, en dessous comme au-dessus de Mach 1, et dépend surtout de l'humidité de l'air. Par temps sec, un avion peut dépasser Mach 1 sans le moindre nuage ; par temps humide, un appareil peut en produire un sans être supersonique.\n\n## Pourquoi « mur », alors\n\nLe terme date des années 1940. À l'approche de Mach 1, la traînée grimpe brutalement et les commandes deviennent erratiques ; plusieurs prototypes se sont désintégrés. On a cru à une limite physique infranchissable. Le 14 octobre 1947, Chuck Yeager emmène le Bell X-1 à Mach 1,06 : il n'y avait pas de mur, seulement un régime aérodynamique mal compris.\n\nLe bang, lui, n'a pas disparu. Des programmes de recherche travaillent aujourd'hui à le ramener à un bruit sourd plutôt qu'une détonation — condition pour rouvrir un jour le vol supersonique commercial au-dessus des terres.",
+  "citation": null,
+  "repere": {
+    "texte": "Le couloir de bang au sol s'élargit d'environ 1,6 km par tranche de 300 m d'altitude. À 15 000 m, un avion supersonique balaie une bande de près de 80 km de large, sur toute la longueur de son trajet.",
+    "source": "NASA, fiche technique « Sonic Booms » (FS-016-DFRC) — règle empirique d'un mile de largeur pour 1 000 pieds d'altitude"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "NASA Dryden Flight Research Center",
+      "titre": "Sonic Booms (NASA Facts FS-016-DFRC)",
+      "publication": "nasa.gov",
+      "annee": 2004,
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf",
+      "note": "Largeur du tapis de bang, mécanisme du cône de Mach."
+    },
+    {
+      "type": "institution",
+      "auteur": "Campbell, James F. & Chambers, Joseph R.",
+      "titre": "Patterns in the Sky: Natural Visualization of Aircraft Flow Fields (NASA Reference Publication 1385)",
+      "publication": "NASA",
+      "annee": 1994,
+      "note": "Référence sur les nuages de condensation autour des cellules en transsonique."
+    },
+    {
+      "type": "article",
+      "auteur": "National Geographic",
+      "titre": "What is a sonic boom — and is it dangerous?",
+      "publication": "nationalgeographic.com",
+      "annee": 2023,
+      "url": "https://www.nationalgeographic.com/science/article/sonic-boom-cause-shock-wave-physics"
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NASA — fiche « Sonic Booms »",
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf",
+      "note": "Quatre pages, avec les schémas du cône de Mach."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : cercles concentriques dont les enveloppes se rejoignent en une tangente formant un cône ouvert vers l'arrière. Géométrie pure, trait fin à l'encre sur papier crème, un seul accent ocre sur la ligne du cône. Pas d'avion figuratif, pas de personnage.",
+    "alt": "Cercles d'onde tangents formant un cône",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Un avion vole à Mach 1,5 pendant une heure. Que se passe-t-il au sol ?",
+    "choix": [
+      "Un bang unique, produit à l'instant où il a dépassé Mach 1",
+      "Un bang toutes les dix minutes environ, tant qu'il reste supersonique",
+      "Aucun bang, tant que l'appareil vole au-dessus de 10 000 mètres",
+      "Un couloir de bang continu, balayé par le cône tout au long du vol"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Le bang n'est pas l'événement du franchissement mais la signature permanente du vol supersonique : le cône traîne derrière l'appareil et balaie le sol en continu. Un observateur donné n'entend qu'une détonation, celle du passage du cône sur lui — d'où l'illusion d'un événement unique. L'altitude atténue le bang, elle ne le supprime pas.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+}

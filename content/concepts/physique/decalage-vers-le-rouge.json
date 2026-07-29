@@ -1,0 +1,82 @@
+{
+  "id": "phy-decalage-vers-le-rouge",
+  "slug": "decalage-vers-le-rouge",
+  "titre": "Le décalage vers le rouge",
+  "accroche": "Les galaxies lointaines s'éloignent de nous. Mais ce n'est pas un effet Doppler — et la nuance change tout.",
+  "discipline": "physique",
+  "theme": "effet-doppler",
+  "theme_ordre": 4,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1929, Edwin Hubble publie une observation dérangeante : presque toutes les galaxies s'éloignent de nous, et plus elles sont lointaines, plus elles s'éloignent vite. La signature est spectrale — la lumière qui nous parvient est décalée vers les grandes longueurs d'onde, vers le rouge.\n\nLa lecture immédiate est doppler : les galaxies fileraient à travers l'espace, comme des ambulances cosmiques. C'est l'image qu'on retient partout. Elle décrit mal ce qui se passe.\n\n## Ce que le rougissement enregistre\n\nDeux ans plus tôt, en 1927, le chanoine et physicien belge Georges Lemaître avait tiré des équations d'Einstein une conclusion que personne n'attendait : l'univers ne peut pas être statique, il se dilate. Il avait même estimé le taux de cette expansion à partir des données disponibles — dans un article publié en français, dans une revue bruxelloise peu lue, et resté longtemps ignoré.\n\nDans ce cadre, les galaxies lointaines ne traversent pas l'espace pour s'écarter de nous. C'est l'espace entre elles et nous qui s'étire. La lumière émise il y a des milliards d'années a voyagé dans un espace qui grandissait pendant tout son trajet, et sa longueur d'onde a grandi avec lui. Le décalage vers le rouge n'enregistre donc pas une vitesse : il enregistre de combien l'univers s'est dilaté depuis l'émission.\n\n## Pourquoi ce n'est pas un détail\n\nUn décalage Doppler ordinaire est plafonné : rien ne se déplace plus vite que la lumière, le décalage reste donc borné. Un décalage d'expansion, lui, ne l'est pas. Des galaxies s'éloignent aujourd'hui de nous plus vite que la lumière sans violer la relativité — précisément parce qu'elles ne se déplacent pas : c'est la distance qui augmente entre elles et nous.\n\nConfondre les deux mène à des questions insolubles, du genre « où était le centre de l'explosion ? ». Il n'y en a pas. Aucun point de l'univers n'est le centre de sa propre dilatation : depuis n'importe quelle galaxie, on verrait toutes les autres fuir exactement de la même façon.\n\nL'analogie Doppler garde son utilité pour les mouvements locaux. Andromède, notre voisine, s'approche réellement de nous, et son spectre est décalé vers le bleu. Mais au-delà de quelques dizaines de millions d'années-lumière, l'expansion domine, et le vocabulaire de la sirène devient trompeur.\n\n## Une réparation tardive\n\nEn octobre 2018, l'Union astronomique internationale a soumis à ses membres une recommandation : parler désormais de loi de Hubble-Lemaître. Sur les 4 060 votants, 78 % l'ont approuvée. Quatre-vingt-onze ans après un article que presque personne n'avait lu.",
+  "citation": {
+    "texte": "L'évolution du monde peut être comparée à un feu d'artifice qui vient de se terminer : quelques mèches rouges, cendres et fumée.",
+    "auteur": "Georges Lemaître",
+    "source": "L'Hypothèse de l'atome primitif (1946)",
+    "url": null
+  },
+  "repere": null,
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Lemaître, Georges",
+      "titre": "Un univers homogène de masse constante et de rayon croissant rendant compte de la vitesse radiale des nébuleuses extra-galactiques",
+      "publication": "Annales de la Société Scientifique de Bruxelles, A47",
+      "annee": 1927
+    },
+    {
+      "type": "article",
+      "auteur": "Hubble, Edwin",
+      "titre": "A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae",
+      "publication": "Proceedings of the National Academy of Sciences, 15(3)",
+      "annee": 1929,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.15.3.168"
+    },
+    {
+      "type": "article",
+      "auteur": "Davis, Tamara M. & Lineweaver, Charles H.",
+      "titre": "Expanding Confusion: Common Misconceptions of Cosmological Horizons and the Superluminal Expansion of the Universe",
+      "publication": "Publications of the Astronomical Society of Australia, 21(1)",
+      "annee": 2004,
+      "url": "https://arxiv.org/abs/astro-ph/0310808",
+      "note": "Référence sur la distinction décalage d'expansion / décalage Doppler."
+    },
+    {
+      "type": "institution",
+      "auteur": "Union astronomique internationale",
+      "titre": "IAU members vote to recommend renaming the Hubble law as the Hubble–Lemaître law",
+      "publication": "iau.org",
+      "annee": 2018,
+      "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau1812/"
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Davis & Lineweaver — Expanding Confusion",
+      "url": "https://arxiv.org/abs/astro-ph/0310808",
+      "note": "Le texte de référence sur les malentendus courants, très lisible malgré les équations."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : grille souple dont les mailles s'agrandissent régulièrement de gauche à droite, avec de petits points régulièrement répartis qui s'écartent avec elle. Une onde sinusoïdale traverse la grille en s'étirant progressivement. Trait fin à l'encre sur papier crème, un seul accent ocre virant au rouge à droite. Pas de galaxie figurative.",
+    "alt": "Grille qui se dilate et onde qui s'étire en la traversant",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi certaines galaxies peuvent-elles s'éloigner de nous plus vite que la lumière sans contredire la relativité ?",
+    "choix": [
+      "Parce que ce n'est pas un déplacement : c'est l'espace entre elles et nous qui s'étire",
+      "Parce que la limite de la vitesse de la lumière ne vaut pas pour les objets massifs",
+      "Parce que leur lumière met si longtemps à nous parvenir que la mesure en est faussée",
+      "Parce qu'elles s'éloignent en réalité moins vite : c'est une illusion de distance"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La relativité interdit de dépasser la vitesse de la lumière en se déplaçant à travers l'espace. L'expansion n'est pas un déplacement : c'est la distance elle-même qui croît, et rien ne borne ce taux de croissance. C'est pour cette raison que le décalage vers le rouge cosmologique ne se calcule pas avec la formule de Doppler.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+}

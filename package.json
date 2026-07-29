@@ -1,0 +1,18 @@
+{
+  "name": "epignosis-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Lot 0 — pipeline de generation de fiches concepts + outil de validation Admin",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "admin": "node src/admin/server.js",
+    "validate": "node src/cli.js validate",
+    "stats": "node src/cli.js stats",
+    "queue": "node src/cli.js queue",
+    "export": "node src/cli.js export",
+    "test": "node --test \"test/*.test.js\""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "bio-echographie-doppler",
+  "slug": "echographie-doppler",
+  "titre": "Écouter le sang couler",
+  "accroche": "Le premier appareil Doppler médical ne regardait pas le sang : il écoutait bouger un muscle cardiaque",
+  "discipline": "biologie",
+  "theme": "effet-doppler",
+  "theme_ordre": 6,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Il y a une chose qu'une image d'échographie ordinaire ne montre pas : le mouvement. Elle donne des formes, des densités, des contours. Elle ne dit pas si le sang circule, dans quel sens, ni à quelle vitesse.\n\nC'est exactement ce que l'effet Doppler permet de récupérer.\n\n## Le principe\n\nLa sonde envoie un faisceau d'ultrasons dans les tissus. L'essentiel se réfléchit sur des structures immobiles et revient à la fréquence de départ. Mais les globules rouges, eux, se déplacent : l'onde qu'ils renvoient revient décalée — vers le haut s'ils s'approchent de la sonde, vers le bas s'ils s'en éloignent.\n\nL'appareil compare la fréquence émise et la fréquence reçue. L'écart donne une vitesse, son signe donne un sens. Le son rauque et battant qu'on entend en consultation est précisément cette différence de fréquences, ramenée dans le domaine audible.\n\n## Une découverte qui n'a pas commencé par le sang\n\nL'histoire est souvent racontée à l'envers. Shigeo Satomura, à l'université d'Osaka, publie ses premiers travaux en 1956 en japonais, puis en 1957 en anglais. Sa cible n'est pas la circulation sanguine : ce sont les mouvements du muscle cardiaque lui-même. Le tout premier appareil Doppler médical est donc, techniquement, un appareil de Doppler tissulaire.\n\nLe sang vient ensuite. En 1959, Satomura publie l'étude des flux dans les artères périphériques et met au point, avec Ziro Kaneko, le premier débitmètre Doppler, commercialisé la même année. Il meurt en 1960, l'année suivante, sans voir ce que son principe allait devenir.\n\n## Ce qu'on en fait aujourd'hui\n\nLe Doppler couleur superpose à l'image anatomique une cartographie des vitesses : rouge pour ce qui vient vers la sonde, bleu pour ce qui s'en éloigne. Ces couleurs ne représentent ni la température, ni l'oxygénation, ni la nature du vaisseau — uniquement un sens de circulation par rapport à la sonde. Une même artère change de couleur si l'opérateur retourne sa sonde.\n\nLe reste suit : un rétrécissement artériel accélère localement le flux, et l'accélération se lit directement ; une valve cardiaque qui fuit renvoie un flux à contresens ; le Doppler obstétrical suit la circulation dans le cordon ombilical.\n\nUne conséquence pratique déroute souvent les patients. La mesure dépend de l'angle : un flux strictement perpendiculaire au faisceau ne produit aucun décalage et devient invisible. D'où les positions inconfortables que l'opérateur impose à la sonde — il ne cherche pas la plus belle image, il cherche le bon angle.",
+  "citation": null,
+  "repere": {
+    "texte": "Le premier appareil Doppler médical, publié en 1956, ne mesurait pas le sang mais les mouvements du muscle cardiaque. La première étude de flux sanguin date de 1959.",
+    "source": "Cardiovascular Ultrasound, « Shigeo Satomura: 60 years of Doppler ultrasound in medicine », 2015"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Cardiovascular Ultrasound",
+      "titre": "Shigeo Satomura: 60 years of Doppler ultrasound in medicine",
+      "publication": "Cardiovascular Ultrasound, 13:58",
+      "annee": 2015,
+      "url": "https://cardiovascularultrasound.biomedcentral.com/articles/10.1186/s12947-015-0042-3",
+      "note": "Chronologie précise des publications de 1956, 1957 et 1959."
+    },
+    {
+      "type": "article",
+      "auteur": "Hoskins, Peter R.",
+      "titre": "History of Doppler Ultrasound",
+      "publication": "Medical Physics International Journal",
+      "annee": 2021,
+      "url": "http://www.mpijournal.org/pdf/2021-SI-06/MPI-2021-SI-06-p622.pdf"
+    },
+    {
+      "type": "article",
+      "auteur": "Satomura, Shigeo",
+      "titre": "Study of the flow patterns in peripheral arteries by ultrasonics",
+      "publication": "Journal of the Acoustical Society of Japan, 15",
+      "annee": 1959
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Shigeo Satomura : 60 ans de Doppler en médecine",
+      "url": "https://cardiovascularultrasound.biomedcentral.com/articles/10.1186/s12947-015-0042-3",
+      "note": "Article en libre accès, avec les photographies des premiers appareils."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : un faisceau conique de lignes fines partant du haut, rencontrant un flux de petits disques en mouvement le long d'une courbe douce. Les lignes réfléchies reviennent avec un espacement différent. Trait fin à l'encre sur papier crème, deux accents seulement (ocre et bleu ardoise) marquant les deux sens de circulation. Aucune figuration anatomique réaliste.",
+    "alt": "Faisceau conique rencontrant un flux de particules, échos d'espacement différent",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Sur une échographie Doppler couleur, que signifie exactement le rouge ?",
+    "choix": [
+      "Que le sang qui circule là est artériel, donc oxygéné",
+      "Que le flux se rapproche de la sonde, quelle qu'en soit la nature",
+      "Que la circulation y est anormalement rapide à cet endroit",
+      "Que la température des tissus traversés y est plus élevée"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le code couleur ne traduit qu'un sens de circulation par rapport à la sonde, déduit du signe du décalage Doppler. Une même artère apparaît rouge ou bleue selon l'orientation de la sonde. Ni l'oxygénation, ni la nature du vaisseau, ni la température n'entrent en jeu.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+
+# Exports générés pour le backend de l'app (régénérables via `npm run export`)
+export/
+
+# Illustrations binaires générées localement (voir docs/brief-produit.md §10)
+content/illustrations/*.png
+content/illustrations/*.jpg
+content/illustrations/*.webp
+!content/illustrations/.gitkeep
