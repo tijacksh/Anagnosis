@@ -5,7 +5,7 @@ traduction opérationnelle de `docs/direction-artistique.md` ; en cas de
 divergence, c'est la direction artistique qui tranche sur l'intention, ce
 document sur les valeurs.
 
-Maquettes de référence : `Anagnosis — UX·UI.dc.html` (repères 1a à 1j).
+Maquettes de référence : `design/claude-design/livraison-anagnosis/maquettes/Anagnosis - UX·UI.dc.html` (repères 1a à 1j).
 
 ---
 

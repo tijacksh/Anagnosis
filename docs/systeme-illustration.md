@@ -1,6 +1,6 @@
 # Système d'illustration — Anagnosis
 
-Référence visuelle : `Anagnosis — UX·UI.dc.html`, repère 1i.
+Référence visuelle : `design/claude-design/livraison-anagnosis/maquettes/Anagnosis - UX·UI.dc.html`, repère 1i.
 
 ## 1. La grille
 

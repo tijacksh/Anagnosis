@@ -6,6 +6,50 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-07-30 — Direction artistique arrêtée, livraison Claude Design intégrée
+
+**Décidé :** la direction artistique est **finale**. La livraison de Claude Design
+fait référence : `docs/charte-visuelle.md`, `docs/systeme-illustration.md` et
+`docs/ecrans.md` pour les valeurs, `docs/direction-artistique.md` pour l'intention,
+et les maquettes dans `design/claude-design/livraison-anagnosis/maquettes/`.
+
+En cas de divergence : l'intention tranche sur le pourquoi, la charte sur les valeurs.
+
+**La branche de travail a été fusionnée dans `main`.** Jusqu'ici `main` ne contenait
+que le commit initial — c'est précisément pourquoi Claude Design a travaillé sans voir
+le contenu et a dû inventer cinq fiches pour maquetter.
+
+### Ce que la livraison a tranché
+
+- **La carte est composée sur l'appareil**, pas en amont par le pipeline. C'est ce qui
+  permet d'y porter la série ou le pseudo du lecteur. Le rendu appartient donc au
+  client iOS et devra rester stable d'une version d'iOS à l'autre.
+- **Le mode sombre garde grain et surimpression** : noir chaud `#241F1A`, encre
+  remontée en clarté, mélange en `screen`, grain à 7 %.
+- **Rayon 0 partout**, base d'espacement 4, cibles tactiles jamais sous 44 px.
+
+### Ce qui a été amendé après revue
+
+- **Liquid Glass devient une préférence utilisateur**, pas une exception subie. Le
+  lecteur choisit entre le verre et l'aplat riso sur la barre d'onglets. Le verre ne
+  remonte sur aucune autre surface.
+- **L'onglet Calendrier est conservé**, et sa justification est commerciale : rendre
+  le passé visible mais verrouillé est le principal levier vers Premium, qui ouvre la
+  consultation rétroactive illimitée. L'objection initiale — que naviguer dans le passé
+  affaiblirait le verrou du un-par-jour — tombe : c'est la frustration réglée qui vend.
+- **Les prix sont reportés.** 3,49 €/mois et 29 €/an figurent dans les maquettes comme
+  espace réservé. Priorité au build — rattachement des cartes et des domaines d'abord.
+
+### Deux réserves consignées
+
+- **Les cinq fiches des maquettes sont fictives** et n'ont pas passé le validateur.
+  Sources réelles, texte de démonstration. Elles ne doivent pas alimenter le pipeline.
+- **Le fichier de maquettes ne s'ouvre pas hors ligne** : il charge React depuis
+  unpkg.com et les polices depuis Google Fonts. À rapatrier en local si l'on veut que
+  la référence visuelle survive à ses CDN.
+
+---
+
 ## 2026-07-30 — L'app s'appelle Anagnosis
 
 **Décidé :** le nom est **Anagnosis**. Le brief laissait la question ouverte

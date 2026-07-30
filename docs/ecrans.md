@@ -1,6 +1,6 @@
 # Écrans — Anagnosis
 
-Référence visuelle : `Anagnosis — UX·UI.dc.html`. Cadre iPhone 402 × 874,
+Référence visuelle : `design/claude-design/livraison-anagnosis/maquettes/Anagnosis - UX·UI.dc.html`. Cadre iPhone 402 × 874,
 zone sûre haute 62 px, indicateur d'accueil 34 px.
 
 ## 1. Carte partageable — 1080 × 1920

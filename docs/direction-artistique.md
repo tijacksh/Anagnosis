@@ -1,8 +1,16 @@
 # Direction artistique — dossier pour Claude Design
 
-> Direction retenue : **C · Risographie**. Ce document est le cahier des charges
-> complet à reprendre au Lot 5. Il fixe ce qui est tranché, ce qui reste ouvert, et
-> ce qui est explicitement interdit.
+> **Statut : livrée et arrêtée (30 juillet 2026).** Ce document reste la pièce
+> d'intention — il dit *pourquoi* la direction est ce qu'elle est. Les **valeurs**
+> font désormais foi dans les trois documents livrés par Claude Design :
+>
+> - `docs/charte-visuelle.md` — couleur, surimpression, grain, typographie, espacement
+> - `docs/systeme-illustration.md` — grille, six opérations, structure du champ illustration
+> - `docs/ecrans.md` — carte partageable, lecture, notification, onboarding, quiz, profil, verrou
+>
+> **En cas de divergence : ce document tranche sur l'intention, la charte sur les
+> valeurs.** Les maquettes de référence sont dans
+> `design/claude-design/livraison-anagnosis/maquettes/` (repères 1a à 1j).
 >
 > À lire avec `docs/brief-produit.md` (§10 illustrations, §11 exigence de rendu) et
 > `docs/ligne-editoriale.md` (§8 carte partageable, §9 direction visuelle).
@@ -250,17 +258,28 @@ rendu généré, et leur présence annule la raison d'être de la direction rete
 Le contenu de test doit venir du dépôt, pas de faux texte. Les fiches validées sont
 exportables via `npm run export`.
 
-## 13. Ce qui reste ouvert
+## 13. Ce qui a été tranché à la livraison
 
-- **Qui fabrique l'image de la carte ?** Le pipeline en amont, comme les
-  illustrations (contrôle total, rendu garanti), ou l'app à la volée (permet d'y
-  afficher le pseudo ou la série du lecteur, plus viral). À trancher avant le Lot 2 :
-  la réponse change la maquette autant que l'architecture.
+- **Qui fabrique l'image de la carte ?** → **L'app, sur l'appareil.** C'est ce qui
+  permet d'y porter la série ou le pseudo du lecteur. Conséquence à assumer : le
+  rendu appartient au client et doit rester identique d'une version d'iOS à l'autre.
+  Deux réglages seulement — format 9:16 ou 1:1, et série ou pseudo.
+- **Le mode sombre** conserve grain et surimpression : papier remplacé par le noir
+  chaud `#241F1A`, encre remontée en clarté, mélange passé en `screen`, grain à 7 %.
+- **Liquid Glass sur la barre d'onglets** → **préférence utilisateur**, à côté de
+  l'aplat riso. Ce n'est pas une exception subie mais un choix offert au lecteur.
+  Le verre ne remonte sur aucune autre surface.
+
+## 14. Ce qui reste ouvert
+
 - **Le logotype.** Le nom est arrêté — *Anagnosis* — mais son traitement
   typographique reste à dessiner. Il doit tenir en très petit sur la carte
   partagée (bas de visuel, ~10 px à l'échelle 1080) comme en grand à l'ouverture
   de l'app. Le mot est long : c'est la contrainte principale.
-- **Le mode sombre** conserve-t-il le grain et la surimpression, ou bascule-t-il sur
-  un traitement distinct ?
 - **Les encres des quatre disciplines d'extension**, à attribuer quand elles seront
   activées.
+- **Les six encres sous 4,5:1 de contraste** (charte §2.2). Cantonnées aux aplats et
+  aux libellés de 15 px en graisse forte. À assombrir si l'on veut un jour pouvoir
+  les employer en libellé fin.
+- **Les prix.** 3,49 €/mois et 29 €/an figurent dans les maquettes du paywall à titre
+  d'espace réservé. Non tranchés — décision reportée après le build.
