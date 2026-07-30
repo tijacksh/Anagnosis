@@ -15,6 +15,7 @@ code client, d'UI produit ou d'appel réseau vers un backend.
 - `docs/brief-produit.md` — le produit, le positionnement, le modèle économique
 - `docs/ligne-editoriale.md` — **la référence pour toute génération de contenu**
 - `docs/decisions.md` — ce qui a été tranché depuis le brief, et pourquoi
+- `docs/direction-artistique.md` — le cahier des charges visuel (direction risographie)
 
 ## Commandes
 

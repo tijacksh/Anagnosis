@@ -88,12 +88,14 @@ exige une note — sans motif, la regénération n'a rien pour travailler.
 
 | | |
 |---|---|
-| Fiches en base | 20 |
+| Fiches en base | 32 |
 | Validées | 20 |
+| En attente de relecture | 12 (pack Psychologie) |
 | Cible Lot 0 (brief §13) | 20-30 — **atteinte** |
 | Cible avant lancement public (brief §9) | 200-300, soit 60-90 jours d'avance |
 
-Répartition : 12 philosophie, 6 physique, 1 biologie, 1 médecine.
+Répartition : 12 philosophie, 12 psychologie, 6 physique, 1 biologie, 1 médecine.
 
-Les décisions prises depuis le brief — dont le passage du partage en story de V1.5
-à fonction centrale de V1 — sont consignées dans `docs/decisions.md`.
+Les décisions prises depuis le brief — dont le passage du partage en story de V1.5 à
+fonction centrale de V1 — sont consignées dans `docs/decisions.md`. La direction
+visuelle retenue et son cahier des charges sont dans `docs/direction-artistique.md`.

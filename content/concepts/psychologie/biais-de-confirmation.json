@@ -1,0 +1,84 @@
+{
+  "id": "psy-biais-de-confirmation",
+  "slug": "biais-de-confirmation",
+  "titre": "Le biais de confirmation",
+  "accroche": "Quatre cartes, une règle à vérifier. Moins d'un adulte instruit sur dix choisit la bonne combinaison.",
+  "discipline": "psychologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Quatre cartes sont posées devant vous : **E**, **K**, **4**, **7**. Chacune porte une lettre sur une face et un chiffre sur l'autre.\n\nVoici la règle à vérifier : *si une carte porte une voyelle sur une face, alors elle porte un nombre pair sur l'autre.*\n\nQuelles cartes devez-vous retourner — et uniquement celles-là — pour savoir si la règle est respectée ?\n\n## La réponse, et pourquoi on la rate\n\nLa plupart des gens retournent le **E**, souvent le **E** et le **4**. C'est faux.\n\nIl faut retourner le **E** et le **7**.\n\nLe E est évident : c'est une voyelle, il faut vérifier qu'un nombre pair se trouve au dos. Le 4, en revanche, ne sert à rien : que la lettre cachée soit une voyelle ou une consonne, la règle n'est pas violée — elle ne dit rien de ce que doivent porter les nombres pairs. Le 7 est décisif : s'il cache une voyelle, la règle est fausse.\n\nPeter Wason conçoit cette tâche dans les années 1960. Le taux de réussite chez des adultes instruits est très faible, souvent inférieur à dix pour cent.\n\n## Ce que l'erreur révèle\n\nNous cherchons spontanément ce qui confirmerait la règle — une voyelle accompagnée d'un nombre pair — et non ce qui pourrait la démentir. Retourner le 7 revient à chercher un contre-exemple, c'est-à-dire à tenter de se donner tort. Ce mouvement-là n'a rien de naturel.\n\nC'est le biais de confirmation : la tendance à rechercher, à remarquer et à retenir ce qui appuie ce qu'on pense déjà, en négligeant ce qui pourrait l'attaquer.\n\n## Ce que ça déplace\n\nLe biais n'est pas une paresse. Dans la vie ordinaire, chercher des confirmations est souvent efficace et bien moins coûteux que de tout remettre en doute en permanence.\n\nIl devient coûteux dès qu'on cherche la vérité plutôt que la commodité : dans un diagnostic médical, une enquête, un recrutement, une expérience. C'est exactement pour cela que la méthode scientifique est construite à rebours du réflexe — on ne cherche pas à confirmer une hypothèse, on cherche à la faire tomber.\n\nLe protocole n'existe pas parce que les chercheurs seraient plus honnêtes que les autres. Il existe parce qu'ils ne le sont pas davantage, et qu'ils le savent.\n\nUne conséquence pratique en découle. La question utile, devant une conviction, n'est pas « qu'est-ce qui la confirme ? » mais « qu'est-ce qui, si je l'observais, me forcerait à en changer ? ». Si rien ne vient à l'esprit, ce n'était pas une conviction — c'était une préférence.",
+  "citation": null,
+  "repere": {
+    "texte": "Sur la tâche des quatre cartes, le taux de réussite chez des adultes instruits est souvent inférieur à dix pour cent — l'erreur consiste presque toujours à chercher une confirmation plutôt qu'un contre-exemple.",
+    "source": "Peter Wason, tâche de sélection, 1966"
+  },
+  "carte": {
+    "punch": "Quatre cartes, une règle. Moins d'un adulte sur dix trouve la bonne réponse.",
+    "idee": "E, K, 4, 7. Règle : une voyelle d'un côté implique un nombre pair de l'autre. Presque tout le monde retourne le 4, qui ne prouve rien. Il faut retourner le 7 — autrement dit, chercher à se donner tort.",
+    "source_courte": "Wason, 1966 · Nickerson, 1998"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Wason, Peter C.",
+      "titre": "Reasoning, dans New Horizons in Psychology",
+      "publication": "Penguin Books",
+      "annee": 1966,
+      "note": "Première présentation de la tâche de sélection."
+    },
+    {
+      "type": "article",
+      "auteur": "Wason, Peter C.",
+      "titre": "On the failure to eliminate hypotheses in a conceptual task",
+      "publication": "Quarterly Journal of Experimental Psychology, 12(3)",
+      "annee": 1960,
+      "note": "La tâche 2-4-6, à l'origine de la notion."
+    },
+    {
+      "type": "article",
+      "auteur": "Nickerson, Raymond S.",
+      "titre": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+      "publication": "Review of General Psychology, 2(2)",
+      "annee": 1998,
+      "note": "La revue de référence sur l'étendue du phénomène."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Nickerson (1998) — Confirmation Bias",
+      "note": "Une revue longue mais très lisible, discipline par discipline."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : quatre rectangles alignés vus de face, deux d'entre eux basculés pour montrer leur revers, les deux autres restant fermés. Une flèche épaisse désigne le premier et le dernier, sautant celui du milieu. Violet profond, papier crème, encre noire. Contours nets, aucun dégradé, aucun signe typographique dans l'image.",
+    "alt": "Quatre rectangles alignés, deux retournés, une flèche désignant le premier et le dernier",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Cartes E, K, 4, 7. Règle : voyelle d'un côté implique nombre pair de l'autre. Lesquelles retourner ?",
+    "choix": [
+      "E et 4 — la voyelle et le nombre pair de la règle",
+      "E seulement : c'est la seule voyelle visible",
+      "E et 7 — la voyelle, et le nombre impair",
+      "E, 4 et 7 — toutes celles qui peuvent la violer"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le 4 ne peut rien démentir : la règle ne dit rien de ce que portent les nombres pairs, donc n'importe quelle lettre à son dos est compatible. Le 7, lui, la réfute s'il cache une voyelle. Le E reste nécessaire. Retourner le 4 revient à chercher une confirmation ; retourner le 7, à chercher un contre-exemple.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

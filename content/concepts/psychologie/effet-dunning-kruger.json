@@ -1,0 +1,82 @@
+{
+  "id": "psy-effet-dunning-kruger",
+  "slug": "effet-dunning-kruger",
+  "titre": "L'effet Dunning-Kruger",
+  "accroche": "La courbe célèbre avec son « pic de la bêtise » ne figure dans aucun article de Dunning ni de Kruger.",
+  "discipline": "psychologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Vous l'avez vue passer : une courbe qui grimpe en flèche vers un sommet baptisé « montagne de la stupidité », plonge dans une « vallée du désespoir », puis remonte doucement vers la sagesse. C'est censé illustrer l'effet Dunning-Kruger.\n\nCette courbe ne figure dans aucun de leurs articles. Elle a été fabriquée en ligne, puis attribuée rétrospectivement à des chercheurs qui ne l'ont jamais tracée.\n\n## Ce que l'article dit vraiment\n\nEn 1999, Justin Kruger et David Dunning publient « Unskilled and Unaware of It ». Ils font passer des tests — grammaire, logique, humour — puis demandent aux participants d'estimer leur propre classement.\n\nLe résultat a deux volets, et on n'en retient jamais qu'un.\n\nLes moins performants surestiment nettement leur niveau, c'est le volet célèbre. Mais les plus performants le **sous-estiment** : ils supposent que ce qui leur est facile l'est pour tout le monde. L'effet ne dit donc pas que les incompétents se croient géniaux — il décrit un défaut d'étalonnage qui joue aux deux extrémités.\n\nLa thèse est plus fine encore. Ce qui manque aux moins compétents, c'est précisément la compétence qui leur permettrait de mesurer leur incompétence : juger la qualité d'un raisonnement et produire un bon raisonnement mobilisent les mêmes ressources.\n\n## L'objection statistique\n\nUne critique sérieuse est apparue depuis. En 2020, Gilles Gignac et Marcin Zajenkowski soutiennent dans *Intelligence* que l'effet est en bonne partie un artefact.\n\nL'argument : quand on demande à n'importe qui d'estimer son niveau, les estimations sont bruitées et tirent vers la moyenne. Les faibles se surestiment donc mécaniquement, les forts se sous-estiment — et l'on obtiendrait un graphique très semblable à partir de données purement aléatoires. Une partie de l'effet serait une régression vers la moyenne prise pour un phénomène psychologique.\n\nReste que le défaut d'étalonnage a été observé dans des domaines très divers, de la conduite automobile à la pratique médicale, et qu'il ne dépend pas entièrement du graphique contesté. C'est l'ampleur de l'effet qui est en cause, plus que son existence.\n\nLe débat n'est pas tranché. Il ne supprime pas l'idée d'un défaut d'étalonnage, mais il en réduit sensiblement la portée.\n\n## Ce que ça déplace\n\nReste une ironie difficile à esquiver. L'effet Dunning-Kruger est massivement invoqué pour disqualifier quelqu'un d'autre, jamais soi-même. Or s'il existe, il implique exactement l'inverse : on ne peut pas repérer de l'intérieur les domaines dans lesquels on est mal étalonné.\n\nL'utiliser comme argument contre autrui, c'est déjà avoir manqué ce qu'il dit.",
+  "citation": null,
+  "repere": {
+    "texte": "Les moins performants surestiment leur niveau, mais les plus performants le sous-estiment : l'effet décrit un défaut d'étalonnage aux deux extrémités, pas une arrogance des ignorants.",
+    "source": "Kruger & Dunning, « Unskilled and Unaware of It », Journal of Personality and Social Psychology, 1999"
+  },
+  "carte": {
+    "punch": "La courbe du « pic de la bêtise » ne vient pas de Dunning-Kruger.",
+    "idee": "Elle a été fabriquée en ligne. L'article de 1999 dit autre chose : les moins compétents se surestiment, mais les plus compétents se sous-estiment. Et une critique de 2020 soutient qu'une bonne part de l'effet est un artefact statistique.",
+    "source_courte": "Kruger & Dunning, 1999 · Gignac & Zajenkowski, 2020"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Kruger, Justin & Dunning, David",
+      "titre": "Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments",
+      "publication": "Journal of Personality and Social Psychology, 77(6)",
+      "annee": 1999
+    },
+    {
+      "type": "article",
+      "auteur": "Gignac, Gilles E. & Zajenkowski, Marcin",
+      "titre": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data",
+      "publication": "Intelligence, 80",
+      "annee": 2020
+    },
+    {
+      "type": "article",
+      "auteur": "Dunning, David",
+      "titre": "The Dunning-Kruger Effect: On Being Ignorant of One's Own Ignorance",
+      "publication": "Advances in Experimental Social Psychology, 44",
+      "annee": 2011,
+      "note": "Reprise par l'un des auteurs, douze ans après."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Gignac & Zajenkowski (2020), Intelligence",
+      "note": "La critique statistique la plus citée, à lire avec l'article de 1999."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : deux barres verticales aux extrémités d'un axe horizontal, l'une dépassant nettement vers le haut d'une ligne de référence, l'autre restant nettement en dessous, la ligne de référence traversant tout le cadre. Aucune courbe en cloche, aucun pic. Violet profond, papier crème, encre noire. Contours nets, aucun dégradé, pas d'inscription dans l'image.",
+    "alt": "Deux barres opposées de part et d'autre d'une ligne de référence horizontale",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que décrit réellement l'article de Kruger et Dunning de 1999 ?",
+    "choix": [
+      "Une courbe de confiance passant par un pic puis une longue vallée",
+      "Une tendance des experts à surestimer systématiquement leur niveau",
+      "Un lien direct entre faible intelligence et forte assurance en soi",
+      "Une mauvaise calibration aux deux extrémités, faibles comme forts"
+    ],
+    "bonne_reponse": 3,
+    "explication": "L'article décrit une mauvaise calibration symétrique, pas une arrogance des ignorants : les meilleurs se sous-estiment en supposant que ce qui leur est facile l'est pour tous. La fameuse courbe avec son pic n'apparaît nulle part chez les auteurs — elle a été fabriquée en ligne puis attribuée après coup.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

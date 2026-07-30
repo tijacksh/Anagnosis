@@ -6,6 +6,52 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-07-30 — Direction artistique : risographie
+
+**Décidé :** direction **C · Risographie**, retenue parmi quatre propositions (deux
+épurées, deux colorées). Encres à plat surimprimées, hors-repérage assumé, grain de
+papier. Le cahier des charges complet est dans `docs/direction-artistique.md`.
+
+**Pourquoi celle-là.** C'est la seule des quatre à satisfaire les deux exigences sans
+en sacrifier une : franchement colorée et chaleureuse, et **structurellement** hostile
+au soupçon d'IA. La surimpression d'encres et le décalage de repérage sont des
+accidents mécaniques d'imprimerie que les générateurs ne reproduisent pas de façon
+convaincante. Là où une direction concurrente doit *éviter* de ressembler à une image
+générée, celle-ci ne peut pas y ressembler.
+
+Elle offre en prime le meilleur système de déclinaison : une encre par discipline, le
+papier et l'encre noire ne bougeant jamais. Neuf disciplines et trois cents fiches y
+tiennent sans que l'ensemble se délite.
+
+**Le risque, à surveiller en production :** un rendu riso mal exécuté tourne au filtre.
+Le hors-repérage doit rester léger, discret et **constant** — un décalage aléatoire par
+élément trahit l'effet appliqué après coup.
+
+**Dette :** les `illustration.prompt` des 8 fiches Doppler restent rédigés dans la
+direction sobre initiale. Une passe unique au Lot 5 les reprendra, plutôt que deux
+réécritures successives.
+
+---
+
+## 2026-07-30 — Pack Psychologie produit
+
+12 fiches en attente de validation. C'est la discipline où l'angle rigueur paie le
+plus cher : une bonne partie de ce qui circule en psychologie populaire a été révisée
+ou démentie depuis, et presque personne ne le répercute.
+
+Six fiches reposent sur une révision documentée — l'expérience de Stanford défaite par
+les archives, la pyramide que Maslow n'a jamais dessinée, le test du marshmallow réduit
+par sa réplication, les trente-huit témoins qui n'ont pas existé, les styles
+d'apprentissage sans preuve, la courbe de Dunning-Kruger fabriquée en ligne.
+
+Les six autres sont des expositions classiques, choisies parce qu'elles **tiennent** :
+dissonance cognitive, biais de confirmation, faux souvenirs, obéissance, cécité
+d'inattention, attachement. L'équilibre est délibéré. Un pack entièrement composé de
+démolitions donnerait le sentiment que rien ne tient dans la discipline, ce qui serait
+faux et, à terme, aussi trompeur que les mythes qu'on corrige.
+
+---
+
 ## 2026-07-30 — Pack Philosophie validé : cible du Lot 0 atteinte
 
 Les 12 fiches de philosophie sont validées sans réserve. La base compte
