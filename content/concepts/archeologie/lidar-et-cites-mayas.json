@@ -1,0 +1,89 @@
+{
+  "id": "arc-lidar-et-cites-mayas",
+  "slug": "lidar-et-cites-mayas",
+  "titre": "Un laser a compté ce qu'un siècle de machette n'avait pas vu",
+  "accroche": "En 2018, un survol laser du Petén révèle sous la forêt une occupation maya sans commune mesure avec l'estimée",
+  "discipline": "archeologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Fouiller sous une forêt tropicale dense est une opération lente. On dégage à la machette, on relève, on avance de quelques dizaines de mètres. Un siècle de travail dans les basses terres mayas avait produit une carte faite de sites ponctuels, séparés par du blanc.\n\nCe blanc n'était pas du vide. C'était de la forêt qu'on n'avait pas ouverte.\n\n## Voir à travers les arbres\n\nLe LiDAR renverse le rapport. Un avion balaie le sol avec un laser et mesure le temps de retour de chaque impulsion.\n\nSous couvert forestier, la plupart des impulsions rebondissent sur les feuilles. Mais une fraction passe entre elles, atteint le sol et revient. Il suffit alors de ne garder que les retours les plus tardifs, ceux qui ont voyagé le plus loin, pour reconstituer le relief débarrassé de la végétation.\n\nCe modèle du terrain nu fait apparaître ce qu'un archéologue au sol ne peut pas percevoir : des alignements, des plateformes, des talus, des dépressions régulières — c'est-à-dire des constructions arasées et recouvertes.\n\n## Ce que le survol de 2016 a livré\n\nUne campagne menée au nord du Guatemala a balayé plus de deux mille kilomètres carrés de forêt du Petén, cœur de la civilisation maya classique. Les résultats paraissent dans *Science* en 2018.\n\nOn y dénombre plus de soixante mille structures nouvelles. Des chaussées reliant des cités qu'on croyait indépendantes. Des systèmes de terrasses et de canaux couvrant des surfaces agricoles considérables. Et surtout des fortifications — remparts, fossés, ouvrages défensifs — beaucoup plus nombreux que prévu.\n\nLes conséquences dépassent le décompte. Une population révisée fortement à la hausse impose de réviser aussi l'agriculture qui la nourrissait, donc l'organisation du travail, donc la nature du pouvoir. Et l'abondance des défenses contrarie l'image, longtemps répandue, de cités-États cérémonielles peu portées à la guerre.\n\n## Ce que l'instrument ne fait pas\n\nUn point mérite d'être tenu fermement, parce que l'enthousiasme médiatique l'efface régulièrement.\n\nLe LiDAR ne date rien. Il livre un relief, pas une chronologie : deux structures voisines sur le modèle peuvent être séparées de six siècles. Il ne distingue pas davantage un monument d'un tas de pierres, ni une occupation continue d'un abandon suivi d'une réoccupation.\n\nToute interprétation reste suspendue à des sondages au sol, à de la céramique, à des datations. Le laser ne remplace pas la fouille : il lui dit où creuser, et surtout il donne enfin un dénominateur — ce qu'on a fouillé rapporté à ce qui existe.\n\nC'est peut-être le vrai apport. Pendant un siècle, l'archéologie maya a raisonné sur un échantillon dont elle ignorait la taille.",
+  "citation": null,
+  "repere": {
+    "texte": "Le survol laser de 2016 a couvert plus de 2 000 km² de forêt du Petén et révélé plus de 60 000 structures inédites, dont des chaussées, des terrasses agricoles et de nombreuses fortifications.",
+    "source": "Canuto et al., « Ancient lowland Maya complexity as revealed by airborne laser scanning of northern Guatemala », Science, 361, 2018",
+    "url": "https://www.science.org/doi/10.1126/science.aau0137"
+  },
+  "carte": {
+    "punch": "Un laser a compté en un survol ce qu'un siècle de machette n'avait pas vu.",
+    "idee": "Sous la forêt du Petén, un balayage laser a révélé plus de 60 000 structures mayas inédites : chaussées, terrasses, fortifications. L'archéologie raisonnait depuis un siècle sur un échantillon dont elle ignorait la taille.",
+    "source_courte": "Canuto et al., Science, 2018"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Canuto, Marcello A. ; Estrada-Belli, Francisco ; Garrison, Thomas G. et al.",
+      "titre": "Ancient lowland Maya complexity as revealed by airborne laser scanning of northern Guatemala",
+      "publication": "Science, 361 (6409)",
+      "annee": 2018,
+      "url": "https://www.science.org/doi/10.1126/science.aau0137",
+      "note": "Article eaau0137. Résultats de l'initiative LiDAR PACUNAM."
+    },
+    {
+      "type": "web",
+      "auteur": "Phys.org",
+      "titre": "Unprecedented study confirms massive scale of lowland Maya civilization",
+      "publication": "Phys.org",
+      "annee": 2018,
+      "url": "https://phys.org/news/2018-09-unprecedented-massive-scale-lowland-maya.html",
+      "note": "Présentation des résultats par les auteurs, avec les ordres de grandeur commentés."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Phys.org — Unprecedented study confirms massive scale of lowland Maya civilization",
+      "url": "https://phys.org/news/2018-09-unprecedented-massive-scale-lowland-maya.html",
+      "note": "En anglais ; résume l'étude et ce qu'elle change aux estimations de population."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une trame dense de courtes hachures verticales occupe la moitié gauche de la composition ; sur la moitié droite, ces hachures s'effacent et laissent apparaître un réseau régulier de plateformes rectangulaires et de longues chaussées rectilignes. Aplat jaune safran saturé pour le réseau révélé, encre sombre pour la trame, papier crème. Léger hors-repérage. Aucune figure humaine, aucun appareil.",
+    "alt": "Une trame dense qui s'efface à droite sur un réseau de plateformes et de chaussées",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que le LiDAR ne permet-il pas de faire ?",
+    "choix": [
+      "Détecter des structures entièrement recouvertes par la végétation",
+      "Couvrir en quelques jours des surfaces inaccessibles à pied",
+      "Repérer des ouvrages arasés que rien ne signale au sol",
+      "Établir de quelle époque datent les structures qu'il révèle"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Le laser restitue un relief débarrassé de la végétation : il excelle à repérer ce qui est enfoui ou arasé, sur de vastes surfaces et en peu de temps. Mais un modèle du terrain ne porte aucune information chronologique — deux structures voisines peuvent être séparées de plusieurs siècles, et seuls des sondages au sol permettent de trancher.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:40:36.703Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:40:36.703Z",
+        "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
