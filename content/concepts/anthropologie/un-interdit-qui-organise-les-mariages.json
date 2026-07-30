@@ -24,9 +24,9 @@
   "sources": [
     {
       "type": "revue",
-      "auteur": "Population (revue de l'INED)",
+      "auteur": "Jean Sutter",
       "titre": "Levi-Strauss Claude. — Les structures élémentaires de la parenté",
-      "publication": "Population, 4e année, n°4, 1949",
+      "publication": "Population (INED), 4e année, n°4, 1949, p. 772-774",
       "annee": 1949,
       "url": "https://www.persee.fr/doc/pop_0032-4663_1949_num_4_4_2199",
       "note": "Compte rendu académique de l'ouvrage, plateforme Persée (CNRS)."
@@ -35,17 +35,17 @@
       "type": "livre",
       "auteur": "Bernard Dantier",
       "titre": "Structuralisme et rapports sociaux : Claude Lévi-Strauss et les structures élémentaires de la parenté",
-      "publication": "Les classiques des sciences sociales, UQAC",
-      "annee": 2007,
+      "publication": "Les classiques des sciences sociales, coll. « Méthodologie »",
+      "annee": 2008,
       "url": "https://classiques.uqam.ca/collection_methodologie/levi_strauss_claude/structuralisme_rapports_sociaux/structuralisme_rapports_sociaux_texte.html",
-      "note": "Reproduit et contextualise la citation sur la « règle du don »."
+      "note": "Extraits présentés le 10 janvier 2008 ; reproduit la citation sur la « règle du don », d'après l'édition Mouton, 1967, p. 548-570."
     }
   ],
   "pour_aller_plus_loin": [
     {
       "titre": "Les Structures élémentaires de la parenté, de Claude Lévi-Strauss (1949)",
       "url": "https://shs.cairn.info/la-parente-en-questions--9782361060350-page-11?lang=fr",
-      "note": "Présentation de l'ouvrage et de sa réception."
+      "note": "Chapitre de La parenté en question(s), Éditions Sciences Humaines, 2013, p. 11-15 : présentation de l'ouvrage et de sa réception."
     }
   ],
   "illustration": {
@@ -64,10 +64,38 @@
     ],
     "bonne_reponse": 1,
     "explication": "Lévi-Strauss ne présente pas l'interdit comme une simple défense biologique : il y voit une règle positive qui oblige à donner mère, sœur ou fille à un autre groupe, forçant ainsi l'échange et l'alliance entre familles plutôt que le repli sur soi.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-30", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:40:36.703Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:40:36.703Z",
+        "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "corrige",
+    "empreinte": "6fd6aead2a39682f",
+    "notes": [
+      "Citation vérifiée mot pour mot sur la source. La page des Classiques des sciences sociales porte bien : « La prohibition de l'inceste est moins une règle qui interdit d'épouser mère, sœur ou fille, qu'une règle qui oblige à donner mère, sœur ou fille à autrui. C'est la règle du don par excellence. », d'après l'édition Mouton, 1967, pp. 548-570.",
+      "Corrigé : le compte rendu de Persée était attribué à la revue. Il est signé Jean Sutter, Population, 4e année, n°4, 1949, p. 772-774 — auteur et pagination ajoutés. La présentation de Bernard Dantier est datée du 10 janvier 2008, non de 2007. Référence Cairn complétée : chapitre de La parenté en question(s), Éditions Sciences Humaines, 2013, p. 11-15.",
+      "À l'appréciation du relecteur : le dernier paragraphe, sur Westermarck et l'aversion entre enfants élevés ensemble, n'est adossé à aucune des deux sources de la fiche — le compte rendu de 1949 ne l'aborde pas. Une source propre y serait à sa place.",
+      "Note : la page Dantier indique « 1re édition, 1947 » pour Les Structures élémentaires de la parenté ; c'est une erreur de cette page. La fiche dit 1949, ce que confirme le compte rendu de Persée, paru cette année-là sur l'édition PUF."
+    ]
+  }
 }

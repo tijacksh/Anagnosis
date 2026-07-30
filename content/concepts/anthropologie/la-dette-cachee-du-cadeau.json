@@ -31,13 +31,13 @@
       "note": "Texte intégral, collection Les Classiques des sciences sociales (UQAC)."
     },
     {
-      "type": "livre",
+      "type": "revue",
       "auteur": "Jacques T. Godbout",
-      "titre": "Les bonnes raisons de donner — commentaire de l'Essai sur le don de Marcel Mauss",
-      "publication": "Les classiques des sciences sociales, UQAC",
-      "annee": 2002,
+      "titre": "Les « bonnes raisons » de donner",
+      "publication": "Anthropologie et Sociétés, vol. 19, n°1-2, p. 45-56",
+      "annee": 1995,
       "url": "https://classiques.uqam.ca/contemporains/godbout_jacques_t/bonnes_raison_de_donner/bonnes_raison_de_donner.html",
-      "note": "Relecture de la triple obligation donner-recevoir-rendre."
+      "note": "Relecture de la triple obligation donner-recevoir-rendre. Numérisation Les Classiques des sciences sociales."
     }
   ],
   "pour_aller_plus_loin": [
@@ -63,10 +63,37 @@
     ],
     "bonne_reponse": 2,
     "explication": "Mauss montre que recevoir est une obligation au même titre que donner : refuser un don revient, dans les sociétés qu'il étudie, à refuser la relation elle-même, ce qui peut être perçu comme une rupture, voire une hostilité déclarée.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-30", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:40:36.703Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:40:36.703Z",
+        "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "corrige",
+    "empreinte": "00bb74f73d5f9d9a",
+    "notes": [
+      "Sources rouvertes. Le texte intégral de l'Essai sur le don confirme mot pour mot le passage utilisé : Tamati Ranaipiri est bien « l'un des meilleurs informateurs maori de R. Elsdon Best », le taonga porte le hau qui « veut revenir au lieu de sa naissance », et « Refuser de donner, négliger d'inviter, comme refuser de prendre, équivaut à déclarer la guerre ». Publication dans l'Année Sociologique, seconde série, tome I (1923-1924) confirmée.",
+      "Corrigé : la source Godbout était référencée comme un livre de 2002 avec un sous-titre ajouté. C'est un article de revue — Jacques T. Godbout, « Les bonnes raisons de donner », Anthropologie et Sociétés, vol. 19, n°1-2, 1995, p. 45-56 — dont 2002 n'était que la date de numérisation. Type, titre, revue, pagination et année rectifiés.",
+      "À l'appréciation du relecteur : la fiche présente Ranaipiri comme « un sage maori » ; Mauss le désigne comme un informateur, puis comme « le juriste maori »."
+    ]
+  }
 }
