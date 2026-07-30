@@ -17,6 +17,7 @@ npm run validate   # contrôle qualité de toutes les fiches
 npm run queue      # file d'attente de relecture, par discipline
 npm run stats      # état de la base et avance de publication
 npm run export     # export des fiches publiables → export/concepts.json
+npm run apercu     # aperçu cliquable autonome → export/apercu.html
 npm test           # tests du validateur + contrôle du contenu du dépôt
 ```
 
@@ -70,6 +71,20 @@ avec Clara et le radar (brief §11).
 
 Ce choix vaut pour l'ordre de grandeur visé — quelques centaines de fiches.
 Au-delà de quelques milliers, une vraie base deviendrait justifiée.
+
+## Montrer le contenu à quelqu'un
+
+`npm run apercu` produit un **fichier HTML unique et autonome** dans `export/`, avec
+les fiches validées : onboarding, concept du jour, lecture, quiz, carte partageable,
+archive et profil. Aucune dépendance, aucun appel réseau, il fonctionne hors ligne.
+
+C'est fait pour être envoyé par mail ou messagerie à quelqu'un qui n'a accès ni au
+dépôt ni à quoi que ce soit d'autre : il ouvre le fichier dans son navigateur, et
+c'est tout. La maquette est régénérée à chaque fois — elle suit donc le contenu
+validé sans travail supplémentaire.
+
+Ce n'est pas l'app, et ce ne doit pas en devenir la base : c'est un outil pour faire
+réagir des gens sur le contenu et la direction visuelle avant d'écrire du code client.
 
 ## Cycle de vie d'une fiche
 

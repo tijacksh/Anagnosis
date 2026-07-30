@@ -13,6 +13,7 @@
     "stats": "node src/cli.js stats",
     "queue": "node src/cli.js queue",
     "export": "node src/cli.js export",
-    "test": "node --test \"test/*.test.js\""
+    "test": "node --test \"test/*.test.js\"",
+    "apercu": "node src/apercu.js"
   }
 }

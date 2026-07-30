@@ -10,6 +10,10 @@ contrôle qualité, outil de validation Admin, export vers le backend.
 Ce n'est **pas** l'app iOS, qui vivra dans un dépôt séparé. Ne pas ajouter ici de
 code client, d'UI produit ou d'appel réseau vers un backend.
 
+Seule exception : `src/apercu.js`, qui génère une **maquette jetable** à partir des
+fiches validées. C'est un outil de test utilisateur, pas le début de l'app — il ne
+doit jamais devenir la base du client iOS.
+
 ## À lire avant toute tâche de fond
 
 - `docs/brief-produit.md` — le produit, le positionnement, le modèle économique
@@ -25,6 +29,7 @@ npm run validate   # contrôle qualité (sortie 1 si erreur)
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
+npm run apercu     # aperçu cliquable autonome → export/apercu.html
 npm test           # tests
 ```
 
