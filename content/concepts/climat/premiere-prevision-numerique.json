@@ -1,0 +1,98 @@
+{
+  "id": "cli-premiere-prevision-numerique",
+  "slug": "premiere-prevision-numerique",
+  "titre": "Six semaines de calcul pour une prévision fausse à six heures",
+  "accroche": "Richardson calcule à la main la météo du lendemain. Le résultat est absurde, et la méthode est celle d'aujourd'hui",
+  "discipline": "climat",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Jusqu'au début du XXe siècle, prévoir le temps consiste à reconnaître des situations. On compare la carte du jour aux cartes anciennes, on repère celle qui lui ressemble le plus, et on annonce ce qui a suivi la dernière fois.\n\nLewis Fry Richardson veut remplacer cette érudition par un calcul.\n\n## L'idée\n\nL'atmosphère obéit à des lois physiques connues : conservation de la masse, de l'énergie, équations du mouvement d'un fluide. Rien n'interdit, en principe, de partir de l'état observé et de calculer l'état suivant.\n\nRichardson découpe l'Europe en cellules, relève dans chacune la pression, la température, l'humidité et le vent, puis applique les équations pas à pas pour obtenir l'état six heures plus tard.\n\nIl fait ce calcul à la main, en partie pendant la Première Guerre mondiale, alors qu'il conduit une ambulance sur le front. Le travail lui prend plusieurs semaines.\n\n## L'échec\n\nLe résultat est un désastre. Sa prévision annonce une variation de pression d'une ampleur que l'atmosphère ne produit jamais.\n\nRichardson publie tout en 1922, l'échec compris.\n\nLa cause n'a été comprise que bien plus tard, et elle n'est pas dans la méthode. Les observations de départ contenaient de minuscules incohérences — des déséquilibres physiquement impossibles entre pression et vent. Le calcul, fidèle, les a amplifiées en ondes parasites qui ont noyé le signal météorologique.\n\nIl fallait, avant de calculer, ajuster les données initiales pour les rendre mutuellement compatibles. Cette étape s'appelle aujourd'hui l'initialisation, et aucun centre de prévision ne s'en passe.\n\n## L'usine à prévisions\n\nRichardson avait par ailleurs mesuré ce que sa méthode coûterait en temps de calcul, et il en tire une image restée célèbre.\n\nIl imagine un vaste amphithéâtre dont les murs portent une carte du monde. Des dizaines de milliers de personnes y calculent en parallèle, chacune responsable d'une région, un chef d'orchestre coordonnant les rythmes avec des faisceaux lumineux. Il estime le personnel nécessaire à soixante-quatre mille calculateurs — pour que la prévision avance à la même vitesse que le temps réel.\n\nC'est la description d'un processeur massivement parallèle, faite en 1922, avec des humains à la place des circuits.\n\n## Ce que l'échec a fondé\n\nTrente ans plus tard, sur les premiers ordinateurs électroniques, la même méthode donne enfin des prévisions utilisables.\n\nRichardson n'avait manqué ni la physique, ni l'architecture du calcul. Il lui manquait la vitesse, et une étape de préparation des données que son propre échec a rendue visible.\n\nOn cite rarement des travaux pour leurs résultats faux. Celui-ci fait exception : la prévision était absurde, et le chemin était le bon.",
+  "citation": null,
+  "repere": {
+    "texte": "Richardson estime à 64 000 le nombre de calculateurs humains nécessaires pour que la prévision avance aussi vite que le temps réel. Son propre essai lui a demandé plusieurs semaines pour six heures de prévision.",
+    "source": "Peter Lynch, « Richardson's Forecast-factory: the 64,000 question », University College Dublin",
+    "url": "https://maths.ucd.ie/~plynch/Publications/64000.html"
+  },
+  "carte": {
+    "punch": "Sa prévision était absurde. Sa méthode est celle des centres météo d'aujourd'hui.",
+    "idee": "Richardson calcule à la main, en 1922, l'état de l'atmosphère six heures plus tard. Le résultat est aberrant — non par erreur de méthode, mais parce que ses données de départ étaient physiquement incohérentes.",
+    "source_courte": "Lynch, University College Dublin"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Lynch, Peter",
+      "titre": "Richardson's Forecast-factory: the 64,000 question",
+      "publication": "School of Mathematics and Statistics, University College Dublin",
+      "annee": 1993,
+      "url": "https://maths.ucd.ie/~plynch/Publications/64000.html",
+      "note": "Reconstitue l'usine à prévisions et le décompte des calculateurs."
+    },
+    {
+      "type": "article",
+      "auteur": "Lynch, Peter",
+      "titre": "Richardson's Forecast: the Dream and the Fantasy",
+      "publication": "Prépublication arXiv:2210.01674",
+      "annee": 2022,
+      "url": "https://arxiv.org/pdf/2210.01674",
+      "note": "Accès libre. Analyse l'échec de 1922 et l'origine des données déséquilibrées."
+    },
+    {
+      "type": "institution",
+      "auteur": "European Meteorological Society",
+      "titre": "Richardson's Fantastic Forecast Factory",
+      "publication": "EMS",
+      "annee": 2016,
+      "url": "https://www.emetsoc.org/resources/rff/",
+      "note": "Reconstitution visuelle de l'amphithéâtre décrit en 1922."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Lynch (2022) — Richardson's Forecast: the Dream and the Fantasy",
+      "url": "https://arxiv.org/pdf/2210.01674",
+      "note": "En anglais, en accès libre ; explique pourquoi le calcul a divergé."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une grande enceinte circulaire vue en plan, subdivisée en un damier régulier de petites cases, chacune portant un point unique ; au centre, une forme rayonnante émet de fins traits vers plusieurs secteurs. Aplat turquoise pâle saturé pour les traits rayonnants, encre sombre pour le damier, papier crème. Léger hors-repérage. Aucune figure humaine, aucune carte reconnaissable.",
+    "alt": "Enceinte circulaire divisée en damier, avec une forme rayonnante au centre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la prévision de Richardson a-t-elle donné un résultat aberrant ?",
+    "choix": [
+      "Parce que les lois physiques de l'atmosphère étaient alors mal connues",
+      "Parce qu'il avait commis des erreurs de calcul en travaillant à la main",
+      "Parce que son découpage en cellules était beaucoup trop grossier",
+      "Parce que ses données de départ contenaient des déséquilibres que le calcul a amplifiés"
+    ],
+    "bonne_reponse": 3,
+    "explication": "La méthode était juste — c'est celle des centres de prévision actuels. Ce sont les observations initiales qui portaient de minuscules incohérences entre pression et vent, amplifiées par le calcul en ondes parasites. D'où l'étape d'initialisation, aujourd'hui systématique, que cet échec a rendue visible.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:57:28.283Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:57:28.283Z",
+        "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

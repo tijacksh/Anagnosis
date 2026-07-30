@@ -1,0 +1,98 @@
+{
+  "id": "cli-effet-papillon-de-lorenz",
+  "slug": "effet-papillon-de-lorenz",
+  "titre": "Une décimale tronquée, et la météo n'est plus la même",
+  "accroche": "Lorenz relance un calcul avec des valeurs arrondies. Deux mois de temps simulé plus tard, plus rien ne coïncide",
+  "discipline": "climat",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1961, Edward Lorenz fait tourner sur un ordinateur de bureau un modèle d'atmosphère très simplifié. Il veut réexaminer une séquence déjà calculée, et pour gagner du temps, il la relance à partir du milieu plutôt que du début.\n\nIl saisit les valeurs relevées sur son listage. Elles y figurent arrondies à quelques décimales, alors que la machine en gardait davantage.\n\nIl part boire un café. À son retour, la nouvelle séquence a d'abord suivi l'ancienne, puis s'en est écartée — jusqu'à n'avoir plus aucun rapport avec elle.\n\n## Ce que l'écart signifie\n\nLa première réaction devant un tel résultat est de soupçonner la machine. Lorenz vérifie : le calcul est correct.\n\nCe qu'il tient est autre chose. Un système entièrement déterministe — les mêmes équations, sans le moindre hasard — peut amplifier un écart initial minuscule jusqu'à ce qu'il domine tout le résultat.\n\nDéterminisme et prévisibilité, qu'on tenait pour la même chose depuis Laplace, se séparent. Les équations disent exactement ce qui va se passer ; elles ne servent à rien si l'on ne connaît pas l'état de départ avec une précision infinie.\n\nLorenz réduit ensuite son modèle à trois équations, assez simples pour qu'on les écrive sur une ligne, et qui montrent le même comportement. Son article de 1963 paraît dans une revue de météorologie et reste à peu près ignoré pendant dix ans.\n\n## Ce que le papillon dit, et ce qu'il ne dit pas\n\nLa formule vient d'une conférence de 1972, dont le titre demandait si le battement d'ailes d'un papillon au Brésil peut déclencher une tornade au Texas.\n\nElle est régulièrement mal comprise. Elle ne dit pas qu'un papillon *cause* une tornade, au sens où l'on pourrait remonter de l'une à l'autre. Elle dit qu'une perturbation trop petite pour être mesurée finit par changer l'état du système — donc qu'il est vain d'espérer prévoir au-delà d'un certain horizon, quelle que soit la puissance de calcul.\n\nCet horizon est aujourd'hui d'environ deux semaines pour la météorologie. Il ne recule presque plus, et ce n'est pas faute d'ordinateurs : c'est une propriété de l'atmosphère.\n\n## Pourquoi le climat, lui, se projette\n\nUne confusion s'installe souvent ici. Si l'on ne sait pas le temps qu'il fera dans un mois, comment prétendre parler de 2100 ?\n\nParce que les deux questions ne portent pas sur le même objet. Prévoir la météo, c'est suivre une trajectoire particulière, et c'est elle qui devient imprévisible. Projeter le climat, c'est décrire les propriétés statistiques de l'ensemble des trajectoires possibles — leur moyenne, leur dispersion.\n\nOn ne sait pas dire à quelle heure une casserole se mettra à bouillir en un point donné. On sait très bien dire qu'elle bouillira si on augmente le feu.",
+  "citation": null,
+  "repere": {
+    "texte": "L'article de 1963 paraît dans le Journal of the Atmospheric Sciences et reste ignoré des mathématiciens pendant une dizaine d'années. La formule du papillon vient d'une conférence donnée par Lorenz en 1972.",
+    "source": "Étienne Ghys, « The Butterfly Effect », ENS de Lyon",
+    "url": "https://perso.ens-lyon.fr/ghys/articles/butterflyeffect.pdf"
+  },
+  "carte": {
+    "punch": "Déterministe ne veut pas dire prévisible. Lorenz l'a découvert en tronquant trois décimales.",
+    "idee": "En relançant un calcul avec des valeurs arrondies, Lorenz obtient une météo entièrement différente. Les mêmes équations, sans le moindre hasard, amplifient un écart invisible jusqu'à ce qu'il domine tout.",
+    "source_courte": "Ghys, ENS de Lyon"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Ghys, Étienne",
+      "titre": "The Butterfly Effect",
+      "publication": "École normale supérieure de Lyon",
+      "annee": 2012,
+      "url": "https://perso.ens-lyon.fr/ghys/articles/butterflyeffect.pdf",
+      "note": "Reconstitue la découverte de 1961 et la réception de l'article de 1963."
+    },
+    {
+      "type": "article",
+      "auteur": "Shen, Bo-Wen et al.",
+      "titre": "The 50th Anniversary of the Metaphorical Butterfly Effect since Lorenz (1972)",
+      "publication": "NOAA Institutional Repository",
+      "annee": 2022,
+      "url": "https://repository.library.noaa.gov/view/noaa/69596/noaa_69596_DS1.pdf",
+      "note": "Accès libre. Distingue précisément ce que la métaphore dit et ce qu'on lui fait dire."
+    },
+    {
+      "type": "web",
+      "auteur": "MIT Technology Review",
+      "titre": "When the Butterfly Effect Took Flight",
+      "publication": "MIT Technology Review",
+      "annee": 2011,
+      "url": "https://www.technologyreview.com/2011/02/22/196987/when-the-butterfly-effect-took-flight/",
+      "note": "Récit de l'épisode de 1961, d'après les témoignages recueillis auprès de Lorenz."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Shen et al. — Les 50 ans de la métaphore du papillon",
+      "url": "https://repository.library.noaa.gov/view/noaa/69596/noaa_69596_DS1.pdf",
+      "note": "En anglais, en accès libre ; démêle les usages abusifs de la formule."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux trajectoires en trait fin partant du même point à gauche, superposées sur le premier tiers, puis divergeant en spirales entrelacées qui ne se recoupent jamais. L'une est en turquoise pâle saturé, l'autre en encre sombre, sur papier crème. Léger hors-repérage constant. Aucun insecte, aucune figure humaine, aucune graduation.",
+    "alt": "Deux trajectoires confondues puis divergeant en spirales entrelacées",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi peut-on projeter le climat de 2100 sans savoir le temps qu'il fera dans un mois ?",
+    "choix": [
+      "Parce que les modèles climatiques utilisent des équations plus fiables",
+      "Parce que le climat décrit des propriétés statistiques, pas une trajectoire particulière",
+      "Parce que la puissance de calcul disponible a levé la limite de prévisibilité",
+      "Parce que les perturbations minuscules finissent par se compenser à long terme"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Ce sont deux questions différentes : suivre une trajectoire précise devient impossible au-delà d'une quinzaine de jours, mais décrire la moyenne et la dispersion de l'ensemble des trajectoires reste faisable. L'horizon de prévisibilité est une propriété de l'atmosphère, qu'aucune puissance de calcul ne repousse.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:57:28.283Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:57:28.283Z",
+        "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
