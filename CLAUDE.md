@@ -34,7 +34,9 @@ avoir.
 
 ```bash
 npm run admin      # outil de validation → http://localhost:4321
-npm run validate   # contrôle qualité (sortie 1 si erreur)
+npm run validate   # contrôle qualité de la forme (sortie 1 si erreur)
+npm run cible      # quelle discipline alimenter maintenant, et combien
+npm run acontroler # quelles fiches restent à relire au fond
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
@@ -68,9 +70,32 @@ Avant de proposer un lot à la relecture :
 3. **Écrire la carte partageable en même temps que la fiche.** C'est du contenu,
    pas de la mise en page : le partage en story est le moteur de croissance
    (`docs/decisions.md`), et `carte.source_courte` n'est jamais vide.
-4. Lancer `npm run validate` — zéro erreur, zéro alerte.
-5. Lancer `npm test` — les tests contrôlent aussi le contenu réel du dépôt
+4. **Toute source est cliquable.** `url` est obligatoire sur chaque `sources[]`, sur
+   `citation`, sur `repere` et sur chaque `pour_aller_plus_loin` — la validation le
+   refuse sinon. Une source qu'on ne peut pas aller ouvrir ne prouve rien, et c'est
+   la preuve qui est le produit. Il n'existe pas de source légitime sans adresse
+   stable : un article a un DOI, un texte ancien une numérisation (Wikisource,
+   Gallica, archive.org), un livre récent une notice Open Library ou une page
+   d'éditeur. Si rien n'existe, c'est la source qu'il faut changer.
+5. Lancer `npm run validate` — zéro erreur, zéro alerte.
+6. Lancer `npm test` — les tests contrôlent aussi le contenu réel du dépôt
    (équilibre des quiz, unicité des sources).
+
+## Contrôler les fiches
+
+`npm run validate` vérifie la **forme**. Il ne sait pas si une source existe ni si elle
+dit ce que la fiche lui fait dire — c'est le travail de `/controler`
+(`.claude/commands/controler.md`), qui rouvre les sources en ligne.
+
+`npm run acontroler` dit quelles fiches restent à relire : celles sans trace de
+contrôle, et celles retouchées depuis. La trace se pose avec
+`node src/cli.js controle <id> <ok|corrige|a_revoir> "note"`, qui calcule l'empreinte
+du contenu — une fiche modifiée après contrôle repasse toute seule dans la file.
+
+La frontière compte plus que le reste : une coquille, un lien mort ou une référence
+incomplète se corrigent seuls ; **tout ce qui touche au sens se signale** (`a_revoir` +
+statut `en_retouche`). `statut: valide` est la trace d'une décision humaine, et une
+réécriture de fond faite en silence par une routine la vide de son contenu.
 
 ## Pièges déjà rencontrés
 

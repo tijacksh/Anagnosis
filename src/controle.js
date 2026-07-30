@@ -81,6 +81,38 @@ export async function file() {
   };
 }
 
+/**
+ * Pose la trace de contrôle sur une fiche.
+ *
+ *     node src/cli.js controle <id> <ok|corrige|a_revoir> [note] [note...]
+ *
+ * L'empreinte est calculée ici, pas recopiée à la main : une empreinte fausse rendrait
+ * la fiche éternellement « à contrôler », ou pire, masquerait une retouche ultérieure.
+ */
+export async function marquer(id, verdict, notes = []) {
+  const VERDICTS = ['ok', 'corrige', 'a_revoir'];
+  if (!VERDICTS.includes(verdict)) {
+    throw new Error(`verdict inconnu « ${verdict} » — attendu : ${VERDICTS.join(', ')}`);
+  }
+  const fiches = await loadAll();
+  const fiche = fiches.find((f) => f.id === id);
+  if (!fiche) throw new Error(`fiche introuvable : ${id}`);
+  if (verdict === 'a_revoir' && !notes.length) {
+    throw new Error('un verdict « a_revoir » sans note ne dit pas quoi revoir');
+  }
+
+  const { readFile, writeFile } = await import('node:fs/promises');
+  const brut = JSON.parse(await readFile(fiche._path, 'utf8'));
+  brut.controle = {
+    fait_le: new Date().toISOString().slice(0, 10),
+    verdict,
+    empreinte: empreinte(brut),
+    notes,
+  };
+  await writeFile(fiche._path, `${JSON.stringify(brut, null, 2)}\n`, 'utf8');
+  return brut.controle;
+}
+
 export function afficher(f) {
   const t = (s) => process.stdout.write(s + '\n');
   t('');

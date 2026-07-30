@@ -15,7 +15,7 @@ import { loadAll, ROOT } from './store.js';
 import { validerLot } from './validate.js';
 import { DISCIPLINES, STATUTS_LABELS } from './schema.js';
 import { cible as choisirCible, afficher } from './cible.js';
-import { file as fileControle, afficher as afficherControle } from './controle.js';
+import { file as fileControle, afficher as afficherControle, marquer } from './controle.js';
 
 const C = {
   reset: '\x1b[0m', dim: '\x1b[2m', bold: '\x1b[1m',
@@ -145,7 +145,7 @@ async function cmdExport() {
 
 const commandes = {
   validate: cmdValidate, queue: cmdQueue, stats: cmdStats, export: cmdExport,
-  cible: cmdCible, acontroler: cmdAControler,
+  cible: cmdCible, acontroler: cmdAControler, controle: cmdControle,
 };
 const commande = process.argv[2];
 
@@ -163,4 +163,21 @@ async function cmdCible() {
 /** Que relire au fond maintenant ? La décision est dans `src/controle.js`. */
 async function cmdAControler() {
   afficherControle(await fileControle());
+}
+
+/** Pose la trace de contrôle : `controle <id> <verdict> [note...]`. */
+async function cmdControle() {
+  const [id, verdict, ...notes] = process.argv.slice(3);
+  if (!id || !verdict) {
+    console.error('Usage : node src/cli.js controle <id> <ok|corrige|a_revoir> [note...]');
+    return 2;
+  }
+  try {
+    const trace = await marquer(id, verdict, notes);
+    console.log(c('green', `${id} — ${trace.verdict} (empreinte ${trace.empreinte})`));
+  } catch (e) {
+    console.error(c('red', e.message));
+    return 1;
+  }
+  return 0;
 }
