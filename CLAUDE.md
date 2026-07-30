@@ -38,7 +38,7 @@ npm run validate   # contrôle qualité (sortie 1 si erreur)
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
-npm run app        # assemble l'esquisse jouable → export/app/
+npm run app        # assemble l'esquisse jouable → export/app/ et export/site/
 npm test           # tests
 ```
 

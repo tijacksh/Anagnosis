@@ -1,0 +1,48 @@
+# Déploiement du banc d'essai — voir README §« L'esquisse jouable ».
+#
+# Netlify reconstruit le site à chaque push : `npm run app` assemble export/site/
+# à partir des fiches validées du dépôt. Rien n'est committé : ce qui est en
+# ligne est toujours le reflet exact du contenu validé sur main.
+#
+# Le dépôt n'a aucune dépendance runtime : l'installation est un no-op et la
+# construction tient en quelques secondes.
+
+[build]
+  command = "npm run app"
+  publish = "export/site"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Un service worker périmé est le piège classique : un testeur reste bloqué sur
+# une version de la veille sans comprendre pourquoi. Rien de tout ça ne se met
+# en cache côté navigateur — le CDN, lui, sert toujours le dernier déploiement.
+[[headers]]
+  for = "/app/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/app/contenu.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/app/app.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/app/styles.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Le banc d'essai n'est pas une page publique : elle ne doit pas être indexée,
+# et seule notre propre page a le droit de l'encadrer.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Robots-Tag = "noindex, nofollow"

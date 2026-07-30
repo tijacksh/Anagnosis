@@ -2,7 +2,9 @@
 /**
  * Assemble l'application à partir des fiches validées.
  *
- *   npm run app     → export/app/  (PWA complète, à servir ou à déployer)
+ *   npm run app     → export/app/   (PWA complète, à servir ou à déployer)
+ *                   → export/site/  (la même, sous /app/, avec le banc d'essai
+ *                                    à la racine : c'est ce que publie Netlify)
  *
  * L'app est statique et autonome : tout le contenu validé est embarqué dans
  * `contenu.js`, il n'y a aucun appel réseau en usage normal et aucun serveur.
@@ -31,6 +33,8 @@ const ENCRES = {
 
 const SRC = path.join(ROOT, 'app');
 const DEST = path.join(ROOT, 'export', 'app');
+const BANC = path.join(ROOT, 'banc');
+const SITE = path.join(ROOT, 'export', 'site');
 
 const fiches = (await loadAll())
   .filter((f) => ['valide', 'publie'].includes(f.statut) && DISCIPLINES_V1[f.discipline])
@@ -79,7 +83,23 @@ const seul = html
   .replace('<script src="./app.js"></script>', `<script>\n${js}\n</script>`);
 await writeFile(path.join(ROOT, 'export', 'anagnosis-autonome.html'), seul, 'utf8');
 
+// Le site publié : le banc d'essai à la racine, l'app dans /app/.
+//
+// L'app n'est pas à la racine à dessein — son service worker sert la coquille
+// pour toute navigation dans sa portée, et finirait par servir l'app à la place
+// du banc. Sous /app/, sa portée s'arrête à l'app.
+await mkdir(path.join(SITE, 'app'), { recursive: true });
+for (const f of await readdir(DEST)) {
+  await copyFile(path.join(DEST, f), path.join(SITE, 'app', f));
+}
+const banc = (await readFile(path.join(BANC, 'index.html'), 'utf8')).replace(
+  '{{INFO}}',
+  `${fiches.length} fiches · ${presentes.length} disciplines · ${new Date().toISOString().slice(0, 10)}`,
+);
+await writeFile(path.join(SITE, 'index.html'), banc, 'utf8');
+
 const ko = (n) => `${Math.round(n / 1024)} Ko`;
 console.log(`${fiches.length} fiches · ${presentes.length} disciplines`);
 console.log(`  ${path.relative(ROOT, DEST)}/            PWA installable (${ko(contenu.length)} de contenu)`);
 console.log(`  export/anagnosis-autonome.html   fichier unique (${ko(seul.length)})`);
+console.log(`  export/site/                     site à publier (banc d'essai + /app/)`);

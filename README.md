@@ -17,7 +17,7 @@ npm run validate   # contrôle qualité de toutes les fiches
 npm run queue      # file d'attente de relecture, par discipline
 npm run stats      # état de la base et avance de publication
 npm run export     # export des fiches publiables → export/concepts.json
-npm run app        # assemble l'esquisse jouable (PWA) → export/app/
+npm run app        # assemble l'esquisse jouable (PWA) → export/app/ + export/site/
 npm test           # tests du validateur + contrôle du contenu du dépôt
 ```
 
@@ -84,11 +84,29 @@ grain, rayon 0 — et propose les deux matériaux de barre de menu.
 **Tout est local.** La progression vit dans le navigateur, il n'y a aucun serveur,
 aucun compte et aucun suivi. Après la première visite, l'app fonctionne hors ligne.
 
-Deux formes en sortie :
+Trois formes en sortie :
 
 - `export/app/` — installable sur l'écran d'accueil d'un iPhone, à servir depuis
   n'importe quel hébergement statique ;
-- `export/anagnosis-autonome.html` — fichier unique, envoyable par message.
+- `export/anagnosis-autonome.html` — fichier unique, envoyable par message ;
+- `export/site/` — ce que publie Netlify : le banc d'essai à la racine, l'app
+  dans `/app/`.
+
+## Le banc d'essai
+
+`banc/index.html` pose l'app dans un cadre aux dimensions logiques réelles d'un
+iPhone (SE, 16, 16 Pro Max), zones sûres comprises. C'est le support de
+démonstration : sur un écran d'ordinateur, on regarde à plusieurs la même chose,
+au même format que sur l'appareil. Sur téléphone, le cadre s'efface et renvoie
+vers `/app/` en plein écran.
+
+L'app est servie depuis `/app/` et non depuis la racine à dessein : son service
+worker sert la coquille pour toute navigation dans sa portée et finirait par
+servir l'app à la place du banc.
+
+`netlify.toml` déclare la construction (`npm run app`) et le dossier publié
+(`export/site`). Rien n'est committé : ce qui est en ligne est toujours le reflet
+exact des fiches validées sur `main`.
 
 Ce n'est pas le client iOS et ce ne doit pas en devenir la base. Le natif aura son
 dépôt et la synchronisation iCloud, qu'un navigateur ne peut pas avoir.
