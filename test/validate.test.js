@@ -154,10 +154,15 @@ test('contrôle la cohérence du quiz', () => {
   assert.ok(explicationCourte.erreurs.some((e) => e.includes('explication')));
 });
 
-test('signale une discipline hors taxonomie V1 sans bloquer', () => {
-  const { erreurs, alertes } = validerFiche(ficheValide({ discipline: 'astronomie' }));
-  assert.deepEqual(erreurs, []);
-  assert.ok(alertes.some((a) => a.includes('hors taxonomie V1')));
+test('accepte sans réserve toute discipline déclarée', () => {
+  // Il n'y a plus de taxonomie « V1 » restreinte : les trente-trois disciplines sont
+  // déclarées d'un bloc et toutes exportées. C'est le client qui décide de ce qu'il
+  // offre, selon le stock et l'encre disponibles.
+  for (const discipline of ['astronomie', 'archeologie', 'cinema', 'droit']) {
+    const { erreurs, alertes } = validerFiche(ficheValide({ discipline }));
+    assert.deepEqual(erreurs, [], `${discipline} devrait passer sans erreur`);
+    assert.ok(!alertes.some((a) => a.includes('taxonomie')), `${discipline} sans alerte`);
+  }
 });
 
 test('refuse une discipline inconnue', () => {

@@ -1,0 +1,99 @@
+{
+  "id": "mat-conjecture-de-collatz",
+  "slug": "conjecture-de-collatz",
+  "titre": "Une règle qu'un enfant comprend et que personne ne sait démontrer",
+  "accroche": "Pair, divisez par deux ; impair, multipliez par trois et ajoutez un. Toute suite retombe-t-elle sur 1 ?",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Prenez un entier. S'il est pair, divisez-le par deux. S'il est impair, multipliez-le par trois et ajoutez un. Recommencez.\n\nPartez de 6 : 6, 3, 10, 5, 16, 8, 4, 2, 1. Neuf termes et c'est fini.\nPartez de 7 : la suite grimpe jusqu'à 52, redescend, remonte à 26, et met dix-sept étapes à retomber sur 1.\nPartez de 27 : elle culmine à 9 232 et demande cent onze étapes.\n\nLa conjecture affirme que toute suite finit par atteindre 1, quel que soit l'entier de départ. On peut l'énoncer à un enfant de dix ans. Personne ne sait la démontrer.\n\n## Pourquoi c'est difficile\n\nUn argument approché explique à la fois pourquoi on y croit et pourquoi on ne conclut pas.\n\nUne étape impaire est forcément suivie d'une étape paire, puisque 3n+1 est pair. Sur ces deux coups, le nombre est multiplié par 3/2 environ. Mais une étape paire sur deux est elle-même suivie d'une autre étape paire, et ainsi de suite. En moyenne, sur une longue suite, chaque étape multiplie le nombre par un facteur légèrement inférieur à 1 : la suite doit décroître.\n\nL'argument est solide statistiquement et sans valeur logiquement. Il décrit ce que fait un nombre typique ; il n'interdit rien à un nombre particulier. Deux échappatoires restent ouvertes : une suite pourrait croître indéfiniment, ou tomber dans un cycle qui ne contient pas 1.\n\nRien ne les exclut. Et la vérification par ordinateur, aussi loin qu'elle aille, ne les exclura jamais — une conjecture portant sur une infinité d'entiers ne se démontre pas en les essayant un par un.\n\n## Où en est-on\n\nLe calcul a tout de même été poussé loin : tous les entiers jusqu'à 2⁶⁸, soit environ 295 milliards de milliards, retombent sur 1.\n\nDu côté des démonstrations, le résultat le plus fort est de Terence Tao, en 2019. Il établit que presque tous les entiers — au sens d'une densité logarithmique — finissent par descendre en dessous de n'importe quelle fonction qui tend vers l'infini, si lentement soit-elle. C'est le plus près qu'on soit parvenu du but. Ce n'est toujours pas la conjecture : « presque tous » laisse place à un ensemble d'exceptions, et il suffirait d'une.\n\n## Ce que la résistance enseigne\n\nIl y a une leçon dans cet échec collectif, et elle porte sur la nature des questions arithmétiques.\n\nLe problème mélange deux structures qui ne communiquent pas. La division par deux est limpide en écriture binaire : elle décale les positions d'un cran. La multiplication par trois est limpide en écriture ternaire. Aucun système de représentation ne rend les deux opérations simples à la fois, et l'itération passe son temps à traduire de l'une vers l'autre, en détruisant à chaque passage la régularité que l'autre offrait.\n\nLes outils de la théorie des nombres supposent presque tous qu'on tienne une structure. Ici, la structure est précisément ce que la règle détruit — d'où le jugement rapporté par Jeffrey Lagarias, devenu la formule attachée au problème.",
+  "citation": {
+    "texte": "Mathematics is not yet ready for such problems.",
+    "auteur": "Paul Erdős",
+    "source": "rapporté par Jeffrey Lagarias, « The 3x+1 problem and its generalizations », American Mathematical Monthly, 92, 1985",
+    "url": "http://www.cecm.sfu.ca/organics/papers/lagarias/"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Une règle qu'un enfant comprend, et que personne n'a su démontrer.",
+    "idee": "Pair : divisez par deux. Impair : multipliez par trois et ajoutez un. La conjecture de Collatz affirme que toute suite retombe sur 1. Vérifiée jusqu'à 2⁶⁸, elle résiste toujours à la moindre démonstration.",
+    "source_courte": "Lagarias, Amer. Math. Monthly, 1985"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Tao, Terence",
+      "titre": "Almost all orbits of the Collatz map attain almost bounded values",
+      "publication": "Prépublication arXiv:1909.03562",
+      "annee": 2019,
+      "url": "https://arxiv.org/abs/1909.03562",
+      "note": "Publiée ensuite dans Forum of Mathematics, Pi. Le résultat partiel le plus fort à ce jour."
+    },
+    {
+      "type": "article",
+      "auteur": "Lagarias, Jeffrey C.",
+      "titre": "The 3x+1 problem and its generalizations",
+      "publication": "American Mathematical Monthly, 92",
+      "annee": 1985,
+      "url": "http://www.cecm.sfu.ca/organics/papers/lagarias/",
+      "note": "Synthèse de référence sur le problème ; c'est là qu'est rapporté le mot d'Erdős."
+    },
+    {
+      "type": "article",
+      "auteur": "Bařina, David",
+      "titre": "Convergence verification of the Collatz problem",
+      "publication": "The Journal of Supercomputing",
+      "annee": 2020,
+      "url": "https://pcbarina.fit.vutbr.cz/",
+      "note": "Vérification exhaustive jusqu'à 2⁶⁸, depuis étendue."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Terence Tao — Almost all Collatz orbits attain almost bounded values",
+      "url": "https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/",
+      "note": "Le billet de blog où Tao explique son propre résultat, plus accessible que l'article."
+    }
+  ],
+  "illustration": {
+    "prompt": "Ligne brisée continue traçant une trajectoire en dents de scie très irrégulière : quelques pics hauts et étroits, de longues descentes en escalier, jusqu'à un palier bas et plat à droite. Trait teal saturé et épais sur papier crème, ligne de base sombre. Composition asymétrique, léger hors-repérage. Aucune graduation, aucune légende, aucune figure humaine.",
+    "alt": "Trajectoire en dents de scie qui culmine puis retombe sur un palier bas",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la vérification informatique ne démontre-t-elle pas la conjecture ?",
+    "choix": [
+      "Parce qu'aucun calcul fini ne couvre une infinité d'entiers",
+      "Parce que les ordinateurs commettent des erreurs d'arrondi sur les très grands nombres",
+      "Parce que les entiers testés ont été choisis au hasard plutôt qu'exhaustivement",
+      "Parce que la conjecture porte aussi sur les entiers négatifs, qui n'ont pas été testés"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Une conjecture portant sur tous les entiers ne se démontre pas en les essayant : il en restera toujours une infinité au-delà du dernier vérifié, et c'est là que pourrait se cacher une suite divergente ou un cycle. Le calcul est exact et exhaustif jusqu'à sa borne — ce n'est ni une question de précision ni d'échantillonnage.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T17:12:26.085Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T17:12:26.085Z",
+        "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

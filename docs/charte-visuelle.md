@@ -33,20 +33,62 @@ autre chose, le crédit gagne.
 
 ### 2.2 Une encre par discipline
 
+La taxonomie compte **trente-trois disciplines**, groupées en six familles. Vingt-trois
+ont une encre attribuée ; une discipline sans encre n'est pas offerte par le client.
+
 | Discipline | Encre Riso | Hex | Contraste sur papier |
 |---|---|---|---|
-| Philosophie | Federal Blue | `#3D5588` | 6,4:1 |
-| Sociologie | Burgundy | `#914E72` | 5,2:1 |
-| Anthropologie | Orange | `#FF6C2F` | 2,4:1 ⚠ |
-| Psychologie | Purple | `#765BA7` | 4,6:1 |
-| Biologie | Green | `#00A95C` | 2,6:1 ⚠ |
-| Médecine / Santé | Bright Red | `#FF665E` | 2,6:1 ⚠ |
+| **Sciences exactes** | | | |
 | Mathématiques | Teal | `#00838A` | 4,0:1 ⚠ |
 | Physique | Blue | `#0078BF` | 4,3:1 ⚠ |
+| Chimie | Kelly Green | `#67B346` | 2,3:1 ⚠ |
+| Astronomie | Violet | `#9D7AD2` | 3,0:1 ⚠ |
+| Informatique | Aqua | `#5EC8E5` | 1,7:1 ⚠ |
+| Statistiques | Metallic Gold | `#AC936E` | 2,6:1 ⚠ |
+| **Vivant et santé** | | | |
+| Biologie | Green | `#00A95C` | 2,6:1 ⚠ |
+| Médecine / Santé | Red | `#FF665E` | 2,6:1 ⚠ |
+| Neurosciences | Coral | `#FF8E91` | 1,9:1 ⚠ |
+| Génétique | Fluorescent Orange | `#FF7477` | 2,3:1 ⚠ |
+| Écologie | Grass | `#397E58` | 4,3:1 ⚠ |
+| Nutrition | Light Lime | `#E3ED55` | 1,1:1 ⚠ |
+| **Terre et environnement** | | | |
+| Sciences de la Terre | Mahogany | `#8E595A` | 4,9:1 |
+| Climat et météorologie | Mint | `#82D8D5` | 1,4:1 ⚠ |
+| Océanographie | Cornflower | `#62A8E5` | 2,2:1 ⚠ |
+| Paléontologie | Flat Gold | `#BB8B41` | 2,7:1 ⚠ |
+| **Sciences humaines** | | | |
+| Philosophie | Federal Blue | `#3D5588` | 6,4:1 |
+| Psychologie | Purple | `#765BA7` | 4,6:1 |
+| Sociologie | Burgundy | `#914E72` | 5,2:1 |
+| Anthropologie | Orange | `#FF6C2F` | 2,4:1 ⚠ |
+| Linguistique | Bright Red | `#F15060` | 3,0:1 ⚠ |
+| Archéologie | Sunflower | `#FFB511` | 1,5:1 ⚠ |
+| Géographie | — | — | encre à attribuer |
+| **Société** | | | |
+| Histoire · Économie · Droit · Sciences politiques · Religions et mythologies | — | — | encres à attribuer |
+| **Arts et lettres** | | | |
 | Littérature | Fluorescent Pink | `#FF48B0` | 2,9:1 ⚠ |
+| Histoire de l'art · Musique · Cinéma · Architecture | — | — | encres à attribuer |
 
-Extensions non lancées, encres à attribuer : Histoire, Économie, Histoire de
-l'art, Astronomie. Garder un écart de teinte suffisant avec les neuf ci-dessus.
+**Les hex Riso ne sont normalisés nulle part.** Le même Bright Red vaut `#F15060`
+chez un studio et `#CC231F` chez un autre — ce ne sont pas des arrondis, ce sont
+deux jeux de valeurs distincts. Toutes celles ci-dessus viennent d'une seule
+famille, celle du nuancier stencil.wiki / Outlet PDX. Ne jamais y panacher une
+valeur venue d'ailleurs : les encres jureraient entre elles.
+
+Correction : l'encre de Médecine était donnée pour « Bright Red ». `#FF665E` est
+en réalité l'encre **Red** ; Bright Red est `#F15060`, aujourd'hui attribuée à
+Linguistique. La couleur n'a pas changé, le nom était faux.
+
+**L'écart de teinte n'est plus un critère.** Il figurait ici, mais les neuf encres
+d'origine étaient déjà à 1,9° d'écart minimum entre elles — il n'a jamais été tenu.
+Ce qui compte est qu'elles se distinguent **à l'intérieur de la sélection d'un
+lecteur** : il en coche trois à six, jamais trente-trois. Et la discipline est
+toujours aussi écrite.
+
+Dix disciplines attendent leur encre. Elles ne sont pas offertes tant que c'est le
+cas — le client exige du stock **et** une encre pour proposer une discipline.
 
 ⚠ = sous 4,5:1. Ces encres n'apparaissent qu'en aplat, filet ou libellé de
 15 px et plus en graisse forte. **Jamais en texte courant, jamais en corps de

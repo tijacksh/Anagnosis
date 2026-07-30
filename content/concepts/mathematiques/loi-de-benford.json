@@ -1,0 +1,89 @@
+{
+  "id": "mat-loi-de-benford",
+  "slug": "loi-de-benford",
+  "titre": "Les pages sales d'une table de logarithmes",
+  "accroche": "Dans les données réelles, un nombre sur trois commence par 1. Les nombres inventés, eux, l'ignorent",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1881, l'astronome Simon Newcomb consulte une table de logarithmes dans une bibliothèque. Il remarque un détail sans importance apparente : les premières pages du volume sont plus usées que les dernières. Or les premières pages servent aux nombres commençant par 1.\n\nIl en tire une note de deux pages, publiée dans l'American Journal of Mathematics, et l'oublie. Elle reste sans écho pendant cinquante-sept ans.\n\n## Ce que compte Frank Benford\n\nEn 1938, l'ingénieur Frank Benford, chez General Electric, refait l'observation et décide de la mesurer. Il rassemble des milliers de nombres pris n'importe où : surfaces de bassins fluviaux, populations de villes, constantes physiques, adresses de personnalités, nombres croisés dans des articles de journaux.\n\nLe premier chiffre de ces nombres n'est pas réparti comme on l'attendrait. Un 1 ouvre environ 30 % des nombres. Un 2, un peu moins de 18 %. Un 9, moins de 5 %. Une répartition uniforme donnerait 11 % à chacun.\n\nLa formule qui décrit cette pente est simple : la fréquence du chiffre *d* vaut le logarithme décimal de 1 + 1/*d*.\n\n## Pourquoi cette pente\n\nL'explication tient à ce que signifie « passer d'un chiffre de tête au suivant ».\n\nPrenez une grandeur qui croît régulièrement, une population par exemple. Pour passer de 1 000 à 2 000 habitants, elle doit doubler. Pour passer de 8 000 à 9 000, elle n'a besoin de croître que d'un huitième. La grandeur passe donc beaucoup plus de temps avec un 1 en tête qu'avec un 8.\n\nD'où la condition d'application, souvent oubliée : la loi vaut pour des grandeurs qui s'étalent sur plusieurs ordres de grandeur et ne sont bornées ni en haut ni en bas. Les tailles humaines en centimètres, toutes comprises entre 150 et 200, n'obéissent à rien de tel. Les codes postaux, les numéros de téléphone et les prix psychologiques non plus.\n\n## L'usage judiciaire, et sa limite\n\nUn fraudeur qui invente des écritures comptables produit des nombres qui lui paraissent quelconques. Ils ne le sont pas : les nombres inventés partent trop souvent d'un 5, d'un 6 ou d'un 7, et pas assez d'un 1. L'écart à la loi de Benford se mesure, et il a servi en expertise comptable comme en analyse de résultats électoraux.\n\nLe renversement mérite d'être noté. Ce n'est pas la présence d'une régularité qui trahit la fraude, c'est son absence. Le faussaire échoue précisément là où il se croit libre — en choisissant au hasard.\n\nReste que le test ne prouve rien à lui seul. Un écart signale un jeu de données à regarder de plus près ; il ne désigne aucun coupable, et une comptabilité honnête portant sur des montants bornés peut s'en écarter sans que personne ait triché. La loi de Benford ouvre une enquête, elle ne la referme pas.",
+  "citation": null,
+  "repere": {
+    "texte": "La loi prédit qu'un 1 ouvre 30,1 % des nombres et un 9 seulement 4,6 % : la fréquence du chiffre d vaut log₁₀(1 + 1/d).",
+    "source": "Benford, « The Law of Anomalous Numbers », Proceedings of the American Philosophical Society, 78, 1938",
+    "url": "https://isidore.co/misc/Physics%20papers%20and%20books/Zotero/storage/ZEBWDL73/Benford%20-%201938%20-%20The%20Law%20of%20Anomalous%20Numbers.pdf"
+  },
+  "carte": {
+    "punch": "Un comptable qui invente des nombres met trop de 5 et pas assez de 1.",
+    "idee": "Dans les données réelles étalées sur plusieurs ordres de grandeur, un 1 ouvre 30 % des nombres et un 9 moins de 5 %. Les nombres inventés, eux, sont trop uniformes — et c'est ce qui les trahit en expertise comptable.",
+    "source_courte": "Benford, 1938"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Newcomb, Simon",
+      "titre": "Note on the Frequency of Use of the Different Digits in Natural Numbers",
+      "publication": "American Journal of Mathematics, 4",
+      "annee": 1881,
+      "note": "La note d'origine, p. 39-40, restée sans écho jusqu'en 1938.",
+      "url": "https://archive.org/details/jstor-2369148"
+    },
+    {
+      "type": "article",
+      "auteur": "Benford, Frank",
+      "titre": "The Law of Anomalous Numbers",
+      "publication": "Proceedings of the American Philosophical Society, 78",
+      "annee": 1938,
+      "url": "https://isidore.co/misc/Physics%20papers%20and%20books/Zotero/storage/ZEBWDL73/Benford%20-%201938%20-%20The%20Law%20of%20Anomalous%20Numbers.pdf",
+      "note": "L'article qui a donné son nom à la loi, p. 551-572."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Benford (1938) — The Law of Anomalous Numbers",
+      "url": "https://isidore.co/misc/Physics%20papers%20and%20books/Zotero/storage/ZEBWDL73/Benford%20-%201938%20-%20The%20Law%20of%20Anomalous%20Numbers.pdf",
+      "note": "En anglais ; les tableaux de données se lisent seuls."
+    }
+  ],
+  "illustration": {
+    "prompt": "Neuf barres verticales côte à côte, de hauteurs fortement décroissantes de gauche à droite, la première près de trois fois plus haute que la moyenne. Aplats teal saturés sur papier crème, une ligne d'horizon sombre en base. Composition graphique franche, léger hors-repérage constant. Aucune graduation, aucune légende, aucune figure humaine.",
+    "alt": "Neuf barres verticales de hauteurs décroissantes, la première dominant nettement",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le 1 ouvre-t-il près d'un tiers des nombres réels ?",
+    "choix": [
+      "Parce que les petits nombres sont plus fréquents que les grands dans la nature",
+      "Parce que les mesures humaines s'arrêtent souvent sur un compte rond",
+      "Parce que les erreurs d'arrondi tirent les valeurs mesurées vers le bas",
+      "Parce qu'une grandeur qui croît doit doubler pour quitter le 1, et bien moins pour quitter le 8"
+    ],
+    "bonne_reponse": 3,
+    "explication": "La loi ne dit rien sur la taille des nombres, seulement sur le temps qu'une grandeur passe avec chaque chiffre en tête : franchir la barre du 1 exige de doubler, celle du 8 seulement d'ajouter un huitième. Ni les arrondis ni les habitudes humaines n'entrent en jeu — la loi vaut aussi pour des constantes physiques que personne n'a choisies.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T17:12:26.085Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T17:12:26.085Z",
+        "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

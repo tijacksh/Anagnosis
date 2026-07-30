@@ -1,0 +1,89 @@
+{
+  "id": "mat-probleme-de-monty-hall",
+  "slug": "probleme-de-monty-hall",
+  "titre": "Trois portes, une voiture, et des milliers de lettres de protestation",
+  "accroche": "Changer de porte double les chances de gagner. Des universitaires ont écrit pour dire le contraire",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Septembre 1990. Marilyn vos Savant tient une rubrique dans l'hebdomadaire américain *Parade*. Un lecteur lui soumet une situation inspirée d'un jeu télévisé.\n\nTrois portes. Derrière l'une, une voiture ; derrière les deux autres, une chèvre. Vous en désignez une. L'animateur, qui sait où est la voiture, ouvre alors l'une des deux portes restantes et montre une chèvre. Il vous propose de changer d'avis. Faut-il changer ?\n\nElle répond qu'il faut changer, et que la probabilité de gagner passe d'un tiers à deux tiers.\n\nLa rubrique reçoit des milliers de lettres de protestation, dont beaucoup signées par des universitaires. Le consensus des correspondants est net : les deux portes restantes se valent, une chance sur deux, changer ne sert à rien.\n\n## Pourquoi les deux portes ne se valent pas\n\nL'erreur consiste à croire que l'animateur a apporté une information sur votre porte. Il n'en a apporté aucune.\n\nAu moment du choix initial, vous aviez une chance sur trois de viser juste. Cette probabilité ne bouge plus, parce que rien de ce qui suit ne dépend de votre porte : l'animateur ouvrira une porte à chèvre quoi qu'il arrive.\n\nLes deux chances sur trois restantes se répartissaient entre les deux autres portes. L'animateur en élimine une — pas au hasard, mais en connaissance de cause, en évitant systématiquement la voiture. Toute cette probabilité se reporte sur la porte qu'il a laissée fermée.\n\nUne variante rend l'affaire plus lisible. Prenez cent portes, une voiture, et un animateur qui, après votre choix, ouvre quatre-vingt-dix-huit portes à chèvre. Il en reste deux : la vôtre, choisie parmi cent, et l'unique porte que l'animateur a soigneusement épargnée. Peu de gens hésitent encore.\n\n## Le vrai piège est dans l'énoncé\n\nCe qui fait de Monty Hall un cas d'école n'est pas le calcul, qui tient en trois lignes. C'est qu'il dépend entièrement d'une hypothèse que l'énoncé courant ne formule pas.\n\nSupposons un animateur qui ouvre une porte au hasard parmi les deux restantes, et qui tombe par chance sur une chèvre. Le raisonnement s'effondre : dans ce cas, les deux portes restantes valent bien une chance sur deux chacune, et changer ne rapporte rien.\n\nMême énoncé apparent, même porte ouverte, même chèvre — et deux réponses différentes, selon une règle de comportement de l'animateur dont le lecteur n'a rien su.\n\nC'est le déplacement que le problème opère, et qui a survécu à la polémique. Une probabilité n'est jamais attachée à la seule configuration visible : elle dépend du processus qui a produit ce qu'on observe. La question « quelle est la probabilité ? » reste incomplète tant qu'on n'a pas décrit ce que l'observation aurait donné dans les autres cas.\n\nLe problème circulait d'ailleurs bien avant 1990. Steve Selvin l'avait posé dès 1975 dans une lettre à *The American Statistician* — avec des boîtes plutôt que des portes, et déjà la même réponse.",
+  "citation": null,
+  "repere": {
+    "texte": "Steve Selvin pose le problème dès 1975 dans une lettre à The American Statistician : trois boîtes étiquetées A, B et C, dont une contient les clés d'une voiture. La réponse — changer — y figure déjà.",
+    "source": "Selvin, « A Problem in Probability », The American Statistician, 29, 1975",
+    "url": "https://philpapers.org/rec/SELAPI-2"
+  },
+  "carte": {
+    "punch": "Changer de porte double vos chances. Des milliers de lecteurs ont écrit pour dire le contraire.",
+    "idee": "Trois portes, une voiture. Vous choisissez, l'animateur — qui sait où elle est — ouvre une porte à chèvre et vous propose de changer. Il faut changer : votre porte vaut toujours un tiers, l'autre vaut désormais deux tiers.",
+    "source_courte": "Selvin, American Statistician, 1975"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Selvin, Steve",
+      "titre": "A Problem in Probability (Letter to the Editor)",
+      "publication": "The American Statistician, 29",
+      "annee": 1975,
+      "url": "https://philpapers.org/rec/SELAPI-2",
+      "note": "Première formulation publiée du problème, quinze ans avant la polémique."
+    },
+    {
+      "type": "web",
+      "auteur": "Encyclopædia Britannica",
+      "titre": "Monty Hall problem",
+      "publication": "Encyclopædia Britannica",
+      "annee": 2024,
+      "url": "https://www.britannica.com/topic/Monty-Hall-problem",
+      "note": "Rappelle la chronologie et le rôle de la rubrique de Marilyn vos Savant en 1990."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Utah State University — The Monty Hall Problem",
+      "url": "https://www.usu.edu/math/schneit/StatsHistory/ProbabilityPrompts/MontyHall",
+      "note": "En anglais ; revient sur la controverse de 1990 et sur les courriers reçus."
+    }
+  ],
+  "illustration": {
+    "prompt": "Trois rectangles verticaux identiques alignés sur papier crème. Celui du milieu est ouvert et vide, les deux autres restent fermés ; l'un des deux fermés est empli d'un aplat teal saturé qui déborde légèrement de son cadre, l'autre reste en réserve. Formes géométriques nettes, ombres portées franches, léger hors-repérage. Aucun animal, aucun véhicule, aucune figure humaine.",
+    "alt": "Trois portes alignées, celle du milieu ouverte, l'une des deux fermées saturée de couleur",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi changer de porte double-t-il les chances de gagner ?",
+    "choix": [
+      "Parce que le nombre de portes fermées a diminué, ce qui améliore le tirage",
+      "Parce que l'animateur évite la voiture, ce qui concentre les deux tiers sur la porte qu'il laisse",
+      "Parce que la voiture a été placée avant votre choix et ne bouge plus ensuite",
+      "Parce qu'un premier choix pris au hasard est moins fiable qu'un second, mieux informé"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Tout tient au fait que l'animateur sait où est la voiture et l'évite délibérément : son ouverture n'apprend rien sur votre porte, qui reste à un tiers, et reporte les deux tiers restants sur l'unique porte qu'il a épargnée. S'il ouvrait au hasard et tombait par chance sur une chèvre, les deux portes vaudraient une chance sur deux et changer ne servirait à rien.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T17:12:26.085Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T17:12:26.085Z",
+        "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

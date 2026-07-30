@@ -4,6 +4,8 @@
  *
  *   npm run validate   contrôle toutes les fiches (code de sortie 1 si erreur)
  *   npm run queue      file d'attente de relecture, par discipline
+ *   npm run cible      quelle discipline alimenter maintenant, et combien
+ *   npm run acontroler quelles fiches restent à relire au fond
  *   npm run stats      état de la base
  *   npm run export     export des fiches publiables vers export/
  */
@@ -11,7 +13,9 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
 import { validerLot } from './validate.js';
-import { DISCIPLINES, DISCIPLINES_V1, STATUTS_LABELS } from './schema.js';
+import { DISCIPLINES, STATUTS_LABELS } from './schema.js';
+import { cible as choisirCible, afficher } from './cible.js';
+import { file as fileControle, afficher as afficherControle } from './controle.js';
 
 const C = {
   reset: '\x1b[0m', dim: '\x1b[2m', bold: '\x1b[1m',
@@ -94,8 +98,7 @@ async function cmdStats() {
 
   console.log(c('bold', '\nPar discipline'));
   for (const [discipline, n] of [...parDiscipline].sort((a, b) => b[1] - a[1])) {
-    const horsV1 = DISCIPLINES_V1[discipline] ? '' : c('dim', ' (hors V1)');
-    console.log(`  ${String(n).padStart(4)}  ${DISCIPLINES[discipline] ?? discipline}${horsV1}`);
+    console.log(`  ${String(n).padStart(4)}  ${DISCIPLINES[discipline] ?? discipline}`);
   }
 
   // Brief §9 : viser 200-300 fiches validées avant lancement (60-90 jours d'avance).
@@ -118,13 +121,16 @@ async function cmdExport() {
     return 1;
   }
 
-  // On n'exporte que les disciplines actives en V1 : une fiche rattachée à une
-  // discipline d'extension reste en base mais n'est pas servie à l'app.
+  // Toutes les disciplines sont exportées : l'export livre la base, il ne décide
+  // pas de ce qui est servi. C'est le client qui n'offre une discipline qu'une fois
+  // qu'elle a du stock et une encre (docs/charte-visuelle.md §2.2) — retenir ici une
+  // fiche écrite et validée reviendrait à la perdre deux fois.
   const aExporter = resultats
     .filter((r) => ['valide', 'publie'].includes(r.fiche.statut))
-    .filter((r) => DISCIPLINES_V1[r.fiche.discipline])
     .map(({ fiche }) => {
-      const { _path, validation, meta, ...publique } = fiche;
+      // `controle` reste au pipeline, comme `validation` et `meta` : l'app n'a que
+      // faire de savoir quand on a rouvert les sources, seulement qu'elles tiennent.
+      const { _path, validation, meta, controle, ...publique } = fiche;
       return publique;
     });
 
@@ -134,14 +140,13 @@ async function cmdExport() {
   await writeFile(cible, `${JSON.stringify({ concepts: aExporter }, null, 2)}\n`, 'utf8');
 
   console.log(c('green', `${aExporter.length} fiche(s) exportée(s) → ${path.relative(ROOT, cible)}`));
-  const exclues = resultats.filter(
-    (r) => ['valide', 'publie'].includes(r.fiche.statut) && !DISCIPLINES_V1[r.fiche.discipline],
-  );
-  if (exclues.length) console.log(c('dim', `  ${exclues.length} exclue(s) : discipline hors taxonomie V1`));
   return 0;
 }
 
-const commandes = { validate: cmdValidate, queue: cmdQueue, stats: cmdStats, export: cmdExport };
+const commandes = {
+  validate: cmdValidate, queue: cmdQueue, stats: cmdStats, export: cmdExport,
+  cible: cmdCible, acontroler: cmdAControler,
+};
 const commande = process.argv[2];
 
 if (!commandes[commande]) {
@@ -149,3 +154,13 @@ if (!commandes[commande]) {
   process.exit(2);
 }
 process.exit(await commandes[commande]());
+
+/** Que produire maintenant ? La décision est dans `src/cible.js`. */
+async function cmdCible() {
+  afficher(await choisirCible());
+}
+
+/** Que relire au fond maintenant ? La décision est dans `src/controle.js`. */
+async function cmdAControler() {
+  afficherControle(await fileControle());
+}

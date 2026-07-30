@@ -1,0 +1,89 @@
+{
+  "id": "mat-theoreme-des-quatre-couleurs",
+  "slug": "theoreme-des-quatre-couleurs",
+  "titre": "La première démonstration que personne n'a pu relire",
+  "accroche": "En 1976, un ordinateur règle un problème vieux de 124 ans. La communauté se divise sur ce qu'est une preuve",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1852, un étudiant londonien nommé Francis Guthrie colorie une carte des comtés d'Angleterre. Il cherche à ce que deux comtés voisins ne reçoivent jamais la même couleur, et constate que quatre lui suffisent toujours. Il demande à son frère si c'est un hasard. La question remonte au mathématicien Augustus De Morgan, puis circule.\n\nElle a l'apparence d'un exercice. Elle va résister cent vingt-quatre ans.\n\n## Ce qui rend l'énoncé coriace\n\nVérifier qu'une carte donnée se colorie avec quatre couleurs est facile. Démontrer qu'aucune carte, parmi une infinité de cartes possibles, n'en exige cinq est d'un autre ordre.\n\nDeux fausses preuves ont été publiées et acceptées — celle d'Alfred Kempe, en 1879, a tenu onze ans avant qu'on y trouve une faille. L'idée de Kempe survit pourtant à sa démonstration, et elle structure toute la suite. On cherche un ensemble *inévitable* de configurations, c'est-à-dire un catalogue de motifs tel que toute carte en contienne au moins un ; et l'on montre que chacun de ces motifs est *réductible* — s'il apparaît, on sait ramener le problème à une carte plus petite.\n\nSi le catalogue est fini, la démonstration se ferme par récurrence. Toute la difficulté est de le construire.\n\n## Un mois de calcul\n\nEn 1976, à l'université de l'Illinois, Kenneth Appel et Wolfgang Haken y parviennent, avec John Koch pour la partie informatique. Leur catalogue compte plus de mille huit cents configurations, et la vérification de leur réductibilité demande plus d'un mois de temps machine.\n\nLa démonstration paraît en deux parties dans l'Illinois Journal of Mathematics l'année suivante. Elle est correcte. Elle est aussi illisible : aucun mathématicien ne peut suivre à la main l'énumération des cas.\n\n## Ce qu'est devenue l'idée de preuve\n\nLa communauté se divise, et le désaccord ne porte pas sur le résultat. Il porte sur ce qu'on attend d'une démonstration.\n\nUne preuve n'a jamais eu pour seule fonction d'établir qu'un énoncé est vrai. Elle sert aussi à faire comprendre *pourquoi* il l'est — et une énumération de mille huit cents cas n'explique rien. L'objection est restée intacte : le théorème est acquis, la compréhension manque toujours.\n\nL'autre objection, celle qui portait sur la fiabilité, a reçu sa réponse en 2005. Georges Gonthier et Benjamin Werner ont reconstruit la démonstration entière dans l'assistant de preuve Coq, partie combinatoire comprise, de sorte que sa correction ne repose plus que sur un noyau de vérification de quelques milliers de lignes.\n\nLe doute a donc changé d'objet plutôt que de disparaître. On ne fait plus confiance à un programme qui énumère des cas ; on fait confiance à un programme qui vérifie des démonstrations. Les preuves assistées par ordinateur sont depuis devenues ordinaires, et la question posée en 1976 — une démonstration qu'aucun humain ne peut parcourir est-elle encore une démonstration ? — n'a jamais reçu de réponse tranchée.",
+  "citation": null,
+  "repere": {
+    "texte": "La démonstration d'Appel et Haken paraît en deux parties dans l'Illinois Journal of Mathematics en 1977 ; la vérification informatique avait demandé plus d'un mois de temps machine.",
+    "source": "Appel & Haken, « Every Planar Map is Four Colorable », Illinois Journal of Mathematics, 21, 1977",
+    "url": "https://celebratio.org/Appel_KI/article/796/"
+  },
+  "carte": {
+    "punch": "Le premier grand théorème démontré par une machine, et que personne n'a pu relire.",
+    "idee": "Quatre couleurs suffisent à colorier n'importe quelle carte sans que deux voisins se ressemblent. Appel et Haken l'ont prouvé en 1976 en faisant vérifier plus de mille huit cents configurations par ordinateur : un mois de calcul, illisible à la main.",
+    "source_courte": "Appel & Haken, 1977"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Appel, Kenneth & Haken, Wolfgang",
+      "titre": "Every Planar Map is Four Colorable (Part I: Discharging ; Part II: Reducibility)",
+      "publication": "Illinois Journal of Mathematics, 21",
+      "annee": 1977,
+      "url": "https://celebratio.org/Appel_KI/article/796/",
+      "note": "La partie II est co-signée par John Koch. Dossier Celebratio Mathematica sur la genèse de la preuve."
+    },
+    {
+      "type": "article",
+      "auteur": "Gonthier, Georges",
+      "titre": "Formal Proof — The Four-Color Theorem",
+      "publication": "Notices of the American Mathematical Society, 55",
+      "annee": 2008,
+      "url": "https://www.ams.org/notices/200811/tx081101382p.pdf",
+      "note": "Récit de la formalisation complète en Coq, achevée en 2005, p. 1382-1393."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Gonthier (2008) — Formal Proof: The Four-Color Theorem",
+      "url": "https://www.ams.org/notices/200811/tx081101382p.pdf",
+      "note": "En anglais ; les premières pages racontent l'histoire sans formalisme."
+    }
+  ],
+  "illustration": {
+    "prompt": "Pavage irrégulier de régions accolées aux contours nets, couvrant toute la surface, colorié avec exactement quatre aplats distincts dont un teal saturé ; deux régions adjacentes ne partagent jamais leur teinte. Papier crème visible dans les interstices, léger hors-repérage constant. Aucune frontière géographique reconnaissable, aucune figure humaine.",
+    "alt": "Pavage de régions accolées colorié avec quatre teintes seulement",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la démonstration de 1976 a-t-elle été contestée ?",
+    "choix": [
+      "Parce qu'elle laissait de côté les cartes comportant des enclaves",
+      "Parce qu'une erreur de calcul y a été découverte quelques années plus tard",
+      "Parce qu'aucun humain ne pouvait vérifier l'énumération des cas à la main",
+      "Parce qu'elle ne valait que pour les cartes planes, et pas à la surface d'une sphère"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La contestation ne portait pas sur le résultat, qui n'a jamais été mis en défaut, mais sur le statut d'une preuve dont la partie décisive est hors de portée de la lecture humaine — d'où la double objection : fiabilité, et absence d'explication. La formalisation en Coq de 2005 a répondu à la première, pas à la seconde. Le cas de la sphère, lui, est équivalent à celui du plan.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T17:12:26.085Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T17:12:26.085Z",
+        "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

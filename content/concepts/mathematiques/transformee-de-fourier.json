@@ -1,0 +1,98 @@
+{
+  "id": "mat-transformee-de-fourier",
+  "slug": "transformee-de-fourier",
+  "titre": "Le mémoire refusé qui fait tourner le JPEG et l'IRM",
+  "accroche": "Lagrange et Laplace ont rejeté l'idée de Fourier en 1807. Elle décrit aujourd'hui presque tous les signaux",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 21 décembre 1807, Joseph Fourier dépose à l'Académie des sciences un mémoire sur la propagation de la chaleur dans les solides. Lagrange et Laplace le rejettent.\n\nLe point de discorde n'est pas la physique. C'est une affirmation que Fourier utilise en chemin, et qui paraît alors indéfendable : toute fonction périodique, y compris celles qui présentent des angles ou des sauts brusques, peut s'écrire comme une somme de sinusoïdes.\n\nLagrange tient la chose pour fausse. Fourier remporte pourtant le grand prix de l'Académie en 1812 avec une version remaniée, sans obtenir sa publication. Il faudra attendre 1822 et la *Théorie analytique de la chaleur* — puis un siècle de travaux pour établir dans quelles conditions exactes il avait raison.\n\n## Changer de point de vue, pas d'objet\n\nL'idée se décrit sans calcul.\n\nUn signal — une note de musique, une variation de température, un cours de bourse — se donne d'ordinaire comme une valeur qui change au fil du temps. C'est une description parmi d'autres, pas *la* description.\n\nLa transformation de Fourier propose la description conjuguée. Elle ne demande plus « que vaut le signal à chaque instant », mais « quelle quantité de chaque fréquence le compose ». Un la de diapason devient une raie unique à 440 hertz. Un accord devient trois raies. Un claquement sec, qui ne dure presque pas, devient un étalement sur toutes les fréquences.\n\nRien n'est perdu au passage : l'opération est réversible, on revient au signal d'origine. On a seulement changé d'axe de lecture.\n\n## Ce que le changement d'axe rend possible\n\nBeaucoup d'opérations impraticables d'un côté deviennent élémentaires de l'autre.\n\nFiltrer un bruit de fond, dans le temps, exigerait de décider quoi faire de chaque instant. Dans le domaine des fréquences, c'est une soustraction : on retire les raies indésirables.\n\nCompresser une image revient à remarquer que l'œil humain est peu sensible aux variations spatiales rapides ; on décompose l'image en fréquences et l'on jette les plus hautes. C'est le principe du format JPEG, et le MP3 procède de même sur le son. Une IRM, elle, ne mesure pas une image : elle mesure directement des composantes fréquentielles, et l'image n'apparaît qu'après la transformation inverse.\n\nCe déplacement de charge de travail explique l'importance de l'algorithme publié en 1965 par James Cooley et John Tukey, qui abaisse le coût du calcul au point de le rendre praticable en temps réel. Sans lui, la plupart de ces applications seraient restées théoriques.\n\n## Une limite qui n'est pas technique\n\nUn signal parfaitement localisé dans le temps est totalement étalé en fréquence, et réciproquement. On ne peut pas connaître avec précision, en même temps, l'instant et la fréquence.\n\nCe n'est pas un défaut d'instrument, c'est une propriété de la transformation elle-même. Un musicien la connaît sous une autre forme : une note très brève n'a pas de hauteur bien définie.\n\nLa même relation, appliquée à la fonction d'onde d'une particule, porte un autre nom — le principe d'indétermination de Heisenberg. La contrainte y est identique, et elle est mathématique avant d'être physique.",
+  "citation": null,
+  "repere": {
+    "texte": "Fourier dépose son mémoire le 21 décembre 1807. Rejeté par Lagrange et Laplace, primé par l'Académie en 1812 sans être publié, il ne paraîtra qu'en 1822 dans la Théorie analytique de la chaleur.",
+    "source": "Fourier, Théorie analytique de la chaleur, Firmin Didot, 1822",
+    "url": "http://sites.mathdoc.fr/cgi-bin/oetoc?id=OE_FOURIER__2"
+  },
+  "carte": {
+    "punch": "Un mémoire refusé par Lagrange fait tourner le JPEG, le MP3 et l'IRM.",
+    "idee": "Fourier, 1807 : tout signal peut s'écrire comme une somme de sinusoïdes. Lu dans le temps, un son est une courbe ; lu en fréquences, c'est un dosage de notes. Rien n'est perdu au passage — et presque tout devient plus simple.",
+    "source_courte": "Fourier, 1822"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Fourier, Joseph",
+      "titre": "Théorie analytique de la chaleur",
+      "publication": "Firmin Didot, Paris (Œuvres complètes, tome 1)",
+      "annee": 1822,
+      "url": "http://sites.mathdoc.fr/cgi-bin/oetoc?id=OE_FOURIER__2",
+      "note": "Numérisation des Œuvres complètes par le Centre de diffusion des revues académiques mathématiques."
+    },
+    {
+      "type": "article",
+      "auteur": "Cooley, James W. & Tukey, John W.",
+      "titre": "An Algorithm for the Machine Calculation of Complex Fourier Series",
+      "publication": "Mathematics of Computation, 19 (90)",
+      "annee": 1965,
+      "url": "https://www.semanticscholar.org/paper/An-algorithm-for-the-machine-calculation-of-complex-Cooley-Tukey/0e6beb95b5150ce99b108acdefabf70ccd3fee30",
+      "note": "p. 297-301. L'algorithme qui a rendu la transformation calculable en temps réel."
+    },
+    {
+      "type": "article",
+      "auteur": "Bibliothèque de l'École polytechnique",
+      "titre": "« La théorie analytique de la chaleur » : notes on Fourier et Lamé",
+      "publication": "Bulletin de la Sabix, 44",
+      "annee": 2009,
+      "url": "https://journals.openedition.org/sabix/683",
+      "note": "Revient sur le rejet de 1807 et sur les objections de Lagrange."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Bulletin de la Sabix — Fourier et la Théorie analytique de la chaleur",
+      "url": "https://journals.openedition.org/sabix/683",
+      "note": "En français, en accès libre ; retrace la réception du mémoire de 1807."
+    }
+  ],
+  "illustration": {
+    "prompt": "À gauche, une courbe ondulée irrégulière tracée d'un trait continu ; à droite, une série de barres verticales isolées de hauteurs inégales, alignées sur une même base. Une flèche épaisse relie les deux moitiés. Teal saturé pour les barres, encre sombre pour la courbe, papier crème, léger hors-repérage. Aucune graduation, aucune légende, aucune figure humaine.",
+    "alt": "Une courbe ondulée à gauche, des barres verticales isolées à droite",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que fait la transformation de Fourier à un signal ?",
+    "choix": [
+      "Elle le débarrasse de son bruit en lissant les variations trop rapides",
+      "Elle le réécrit comme un dosage de fréquences, sans rien lui retirer",
+      "Elle le comprime en supprimant les portions les moins audibles",
+      "Elle en calcule la moyenne sur des intervalles de temps successifs"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La transformation ne retire ni n'ajoute rien : elle est réversible, et l'on retrouve le signal d'origine intact. Le filtrage et la compression sont des opérations qu'on effectue ensuite, une fois passé dans le domaine des fréquences — c'est justement ce changement d'axe qui les rend simples, mais il ne les contient pas.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T17:12:26.085Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T17:12:26.085Z",
+        "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

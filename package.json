@@ -14,6 +14,8 @@
     "queue": "node src/cli.js queue",
     "export": "node src/cli.js export",
     "test": "node --test \"test/*.test.js\"",
-    "app": "node src/build-app.js"
+    "app": "node src/build-app.js",
+    "cible": "node src/cli.js cible",
+    "acontroler": "node src/cli.js acontroler"
   }
 }

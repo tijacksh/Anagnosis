@@ -14,28 +14,65 @@
  * (voir docs/decisions.md).
  */
 export const DISCIPLINES_V1 = {
-  philosophie: 'Philosophie',
-  sociologie: 'Sociologie',
-  anthropologie: 'Anthropologie',
-  psychologie: 'Psychologie',
-  biologie: 'Biologie',
-  medecine: 'Médecine / Santé',
+  // Sciences exactes
   mathematiques: 'Mathématiques',
   physique: 'Physique',
+  chimie: 'Chimie',
+  astronomie: 'Astronomie',
+  informatique: 'Informatique',
+  statistiques: 'Statistiques',
+
+  // Vivant et santé
+  biologie: 'Biologie',
+  medecine: 'Médecine / Santé',
+  neurosciences: 'Neurosciences',
+  genetique: 'Génétique',
+  ecologie: 'Écologie',
+  nutrition: 'Nutrition',
+
+  // Terre et environnement
+  geologie: 'Sciences de la Terre',
+  climat: 'Climat et météorologie',
+  oceanographie: 'Océanographie',
+  paleontologie: 'Paléontologie',
+
+  // Sciences humaines
+  philosophie: 'Philosophie',
+  psychologie: 'Psychologie',
+  sociologie: 'Sociologie',
+  anthropologie: 'Anthropologie',
+  linguistique: 'Linguistique',
+  archeologie: 'Archéologie',
+  geographie: 'Géographie',
+
+  // Société
+  histoire: 'Histoire',
+  economie: 'Économie',
+  droit: 'Droit',
+  sciences_politiques: 'Sciences politiques',
+  religions: 'Religions et mythologies',
+
+  // Arts et lettres
   litterature: 'Littérature',
+  histoire_art: "Histoire de l'art",
+  musique: 'Musique',
+  cinema: 'Cinéma',
+  architecture: 'Architecture',
 };
 
 /**
- * Extensions prévues dans le modèle de données mais non lancées en V1 (brief §7).
- * Une fiche peut déjà s'y rattacher : elle sera simplement filtrée à l'export
- * tant que la discipline n'est pas activée.
+ * Plus d'extensions séparées : les trente-trois disciplines sont déclarées d'un bloc
+ * et **toutes exportées**.
+ *
+ * Le filtrage a changé de côté. Retenir une discipline à l'export revenait à décider
+ * ici de ce que le client peut servir, alors que la seule question qui vaille est
+ * « y a-t-il de quoi lire ? ». C'est donc le client qui n'offre une discipline que
+ * lorsqu'elle a du stock et une encre attribuée. La taxonomie peut ainsi être posée
+ * en entier tout de suite, et s'ouvrir au fil du remplissage — sans date de lancement
+ * à repousser, et sans qu'une fiche écrite reste invisible parce qu'un drapeau
+ * n'a pas été levé.
  */
-export const DISCIPLINES_EXTENSIONS = {
-  histoire: 'Histoire',
-  economie: 'Économie',
-  histoire_art: "Histoire de l'art",
-  astronomie: 'Astronomie',
-};
+export const DISCIPLINES_EXTENSIONS = {};
 
 export const DISCIPLINES = { ...DISCIPLINES_V1, ...DISCIPLINES_EXTENSIONS };
 
@@ -105,14 +142,23 @@ export const MARQUEURS_INTERDITS = ['TODO', 'FIXME', 'Lorem ipsum', 'XXX', '[à 
  *   discipline, theme, niveau, duree_lecture_min,
  *   contenu_vulgarise,            // markdown léger (## et **)
  *   citation: { texte, auteur, source, url } | null,
- *   repere:   { texte, source } | null,        // alternative sourcée à la citation
+ *   repere:   { texte, source, url } | null,   // alternative sourcée à la citation
  *   sources:  [{ type, auteur, titre, publication, annee, url, note }],
  *   pour_aller_plus_loin: [{ titre, url, note }],
  *   illustration: { prompt, alt, url, statut },
  *   quiz: { question, choix: [], bonne_reponse: int, explication },
  *   statut, validation: { decide_par, decide_le, historique: [] },
+ *   controle: { fait_le, verdict, empreinte, notes: [] } | null,
  *   meta: { genere_le, genere_par, version }
  * }
+ *
+ * **Toute `url` de source est obligatoire** — `sources`, `citation`, `repere`,
+ * `pour_aller_plus_loin`. Une source qu'on ne peut pas ouvrir ne prouve rien, et c'est
+ * la preuve qui est le produit (brief §3). Voir `src/validate.js`.
+ *
+ * `controle` est la trace de la relecture de fond (`src/controle.js`) : sources
+ * réellement ouvertes, sens vérifié. Interne au pipeline — dépouillé à l'export, comme
+ * `validation` et `meta`.
  */
 export function fresh(partial = {}) {
   return {
@@ -141,6 +187,8 @@ export function fresh(partial = {}) {
     statut: 'brouillon',
     date_publication_prevue: null,
     validation: { decide_par: null, decide_le: null, historique: [] },
+    // Relecture de fond : absente tant que personne n'a rouvert les sources.
+    controle: null,
     meta: { genere_le: null, genere_par: 'claude-code', version: 1 },
     ...partial,
   };

@@ -1,0 +1,89 @@
+{
+  "id": "mat-paradoxe-des-anniversaires",
+  "slug": "paradoxe-des-anniversaires",
+  "titre": "Vingt-trois personnes suffisent",
+  "accroche": "Dans une salle de 23 personnes, il y a plus d'une chance sur deux que deux d'entre elles soient nées le même jour",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Dans une salle de vingt-trois personnes, il y a plus d'une chance sur deux que deux d'entre elles soient nées le même jour de l'année.\n\nLe résultat heurte, parce qu'on le confronte spontanément aux 365 jours du calendrier. Vingt-trois contre 365 : l'intuition dit « très improbable ». Elle se trompe d'objet.\n\n## On ne compte pas des personnes\n\nLa question ne porte pas sur des personnes, mais sur des paires.\n\nVingt-trois personnes forment 253 paires — chacune peut être appariée aux vingt-deux autres, et l'on divise par deux pour ne pas compter deux fois la même paire. Chacune de ces 253 paires est une occasion de coïncidence. Rapportées à 365 jours, 253 occasions ne sont plus négligeables.\n\nLe calcul exact passe par le complément. La probabilité que toutes les dates soient distinctes vaut 365/365 × 364/365 × 363/365, et ainsi de suite jusqu'à la vingt-troisième personne. Ce produit tombe juste en dessous de 0,5 — donc plus d'une chance sur deux qu'au moins deux dates coïncident.\n\nUne nuance échappe souvent. On ne demande pas qu'une date *précise* soit partagée. Pour avoir une chance sur deux de trouver quelqu'un né le même jour que vous, il faut réunir environ 253 personnes — soit exactement le nombre de paires de tout à l'heure, ce qui n'est pas un hasard.\n\n## Le seuil est en racine carrée\n\nDerrière l'exemple se cache une règle générale, et c'est elle qui a fait la fortune du problème hors des salles de classe.\n\nQuand on tire au hasard dans un ensemble de N possibilités, la première répétition survient typiquement après environ racine de N tirages — et non après N/2, comme le suggère l'intuition. Pour N = 365, la racine vaut un peu plus de 19, et le seuil de 50 % s'établit à 23.\n\n## Ce que cela coûte en cryptographie\n\nUne empreinte numérique — le résultat d'une fonction de hachage — associe à un document une signature de longueur fixe. Deux documents différents produisant la même empreinte constituent une collision, et une collision fabriquée à volonté ruine une signature électronique.\n\nUne empreinte de 128 bits offre 2¹²⁸ valeurs possibles. On pourrait croire qu'il faut essayer de l'ordre de 2¹²⁸ documents pour tomber sur une collision. Le raisonnement précédent dit autre chose : il en faut de l'ordre de la racine, soit 2⁶⁴.\n\nL'écart n'est pas une nuance. Il ramène un travail hors de portée à un travail réalisable, et c'est ce qui a condamné plusieurs fonctions de hachage autrefois standard. Le NIST en tire une règle explicite : une empreinte de n bits n'offre que n/2 bits de résistance aux collisions. Les concepteurs appellent cette attaque *l'attaque des anniversaires*, du nom du problème de salle de classe qui la rend intelligible.\n\nLa coïncidence rare est donc affaire de point de vue. Rare pour une paire donnée ; presque certaine dès qu'on accepte de ne pas dire laquelle.",
+  "citation": null,
+  "repere": {
+    "texte": "Une empreinte numérique de n bits n'offre que n/2 bits de résistance aux collisions : SHA-256 en fournit 128, pas 256. C'est le problème des anniversaires, transposé.",
+    "source": "NIST, Recommendation for Applications Using Approved Hash Algorithms (SP 800-107 Rev. 1), 2012",
+    "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-107r1.pdf"
+  },
+  "carte": {
+    "punch": "Vingt-trois personnes dans une salle, et le pari est déjà favorable.",
+    "idee": "On croit comparer 23 personnes à 365 jours. En réalité, 23 personnes forment 253 paires, et chacune est une occasion de coïncidence — d'où plus d'une chance sur deux que deux dates de naissance se rejoignent.",
+    "source_courte": "NIST SP 800-107, 2012"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "NTT Research and Development",
+      "titre": "Security of Hash Functions against Attacks Using Quantum Computers",
+      "publication": "NTT R&D Website",
+      "annee": 2023,
+      "url": "https://www.rd.ntt/e/research/JN202305_21871.html",
+      "note": "Pose explicitement la complexité 2^(n/2) de l'attaque des anniversaires."
+    },
+    {
+      "type": "institution",
+      "auteur": "National Institute of Standards and Technology",
+      "titre": "Recommendation for Applications Using Approved Hash Algorithms (SP 800-107 Rev. 1)",
+      "publication": "NIST Special Publication 800-107",
+      "annee": 2012,
+      "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-107r1.pdf",
+      "note": "Fixe la résistance aux collisions d'une empreinte de n bits à n/2 bits — conséquence directe du problème."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NIST SP 800-107 Rev. 1 — Applications Using Approved Hash Algorithms",
+      "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-107r1.pdf",
+      "note": "En anglais ; la section sur la résistance aux collisions est courte et explicite."
+    }
+  ],
+  "illustration": {
+    "prompt": "Vingt-trois petits disques répartis sans ordre sur papier crème, reliés deux à deux par un réseau très dense de traits fins qui sature l'espace entre eux. Deux disques seulement sont peints en teal saturé, le reste en encre sombre. Composition asymétrique, trame de liens perceptible comme un voile, léger hors-repérage. Aucune figure humaine, aucun calendrier.",
+    "alt": "Vingt-trois disques reliés par un réseau dense de traits, deux d'entre eux colorés",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi vingt-trois personnes suffisent-elles à dépasser une chance sur deux ?",
+    "choix": [
+      "Parce que les naissances se concentrent sur certains mois de l'année",
+      "Parce qu'on néglige le 29 février, ce qui resserre le calendrier",
+      "Parce que vingt-trois personnes forment 253 paires, et non vingt-trois occasions",
+      "Parce que la probabilité s'ajoute à chaque nouvelle personne entrant dans la salle"
+    ],
+    "bonne_reponse": 2,
+    "explication": "L'intuition compare vingt-trois personnes à 365 jours, alors que la coïncidence se joue entre paires : il y en a 253, chacune étant une occasion. Le résultat tient même avec des naissances parfaitement uniformes sur l'année — la saisonnalité réelle ne fait que le renforcer légèrement — et les probabilités ne s'additionnent pas, elles se composent.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T17:12:26.085Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T17:12:26.085Z",
+        "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

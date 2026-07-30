@@ -11,7 +11,6 @@
  */
 import {
   DISCIPLINES,
-  DISCIPLINES_V1,
   NIVEAUX,
   STATUTS,
   TYPES_SOURCE,
@@ -67,10 +66,12 @@ export function validerFiche(fiche, ctx = {}) {
     err(`\`accroche\` trop longue pour une notification (${accroche.length} > ${REGLES.accrocheMax})`);
 
   // --- Classement -------------------------------------------------------
+  // Plus d'alerte « hors taxonomie V1 » : les trente-trois disciplines sont déclarées
+  // d'un bloc et toutes exportées. C'est le client qui n'offre une discipline que
+  // lorsqu'elle a du stock et une encre — retenir une fiche écrite à cause d'un drapeau
+  // n'avait plus de raison d'être.
   if (!fiche.discipline) err('`discipline` manquante');
   else if (!DISCIPLINES[fiche.discipline]) err(`\`discipline\` inconnue : « ${fiche.discipline} »`);
-  else if (!DISCIPLINES_V1[fiche.discipline])
-    warn(`discipline « ${DISCIPLINES[fiche.discipline]} » hors taxonomie V1 : la fiche sera exclue de l'export tant qu'elle n'est pas activée`);
 
   if (fiche.niveau && !NIVEAUX.includes(fiche.niveau)) err(`\`niveau\` inconnu : « ${fiche.niveau} »`);
   if (!STATUTS.includes(fiche.statut)) err(`\`statut\` inconnu : « ${fiche.statut} »`);
@@ -95,10 +96,16 @@ export function validerFiche(fiche, ctx = {}) {
     if (!fiche.citation.auteur) err('`citation.auteur` manquant');
     if (!fiche.citation.source) err('`citation.source` manquante — une citation non sourcée est refusée (ligne éditoriale §4)');
     if (fiche.citation.url && !urlValide(fiche.citation.url)) err(`\`citation.url\` invalide : ${fiche.citation.url}`);
+    // Le champ le plus exposé à la fabrication est aussi celui qui doit s'ouvrir le
+    // plus vite : une citation qu'on peut aller lire en contexte est une citation
+    // qu'on ne peut pas avoir inventée.
+    if (!fiche.citation.url) err('`citation.url` manquante — une citation doit pouvoir être ouverte (ligne éditoriale §4)');
   }
   if (fiche.repere) {
     if (!fiche.repere.texte) err('`repere.texte` manquant');
     if (!fiche.repere.source) err('`repere.source` manquante');
+    if (fiche.repere.url && !urlValide(fiche.repere.url)) err(`\`repere.url\` invalide : ${fiche.repere.url}`);
+    if (!fiche.repere.url) err('`repere.url` manquante — le repère est un fait chiffré, il s\'ouvre');
   }
 
   // --- Carte partageable ------------------------------------------------
@@ -134,8 +141,19 @@ export function validerFiche(fiche, ctx = {}) {
     if (!s.titre) err(`${ref}.titre manquant`);
     if (s.type && !TYPES_SOURCE.includes(s.type)) warn(`${ref}.type inconnu : « ${s.type} »`);
     if (s.url && !urlValide(s.url)) err(`${ref}.url invalide : ${s.url}`);
-    // Une source doit être retrouvable : soit une URL, soit auteur + année.
-    if (!s.url && !(s.auteur && s.annee)) err(`${ref} non traçable : il faut une \`url\`, ou \`auteur\` + \`annee\``);
+    // Une source doit être **atteignable d'un doigt**, pas seulement citée.
+    //
+    // La règle était « une URL, ou auteur + année ». Elle laissait la moitié du corpus
+    // non cliquable : le lecteur voyait une référence bibliographique qu'il ne pouvait
+    // pas ouvrir, et l'app n'avait rien d'autre à en faire que de l'afficher en texte
+    // mort. Or la source visible est tout le positionnement (brief §3) — une source
+    // qu'on ne peut pas aller vérifier ne prouve rien.
+    //
+    // Il n'existe pas de source légitime sans adresse stable : un article a un DOI, une
+    // revue une notice Persée ou Cairn, un livre du domaine public une numérisation
+    // Gallica ou archive.org, un ouvrage récent une page d'éditeur, un texte antique une
+    // édition en ligne. Si aucune adresse n'existe, c'est la source qu'il faut changer.
+    if (!s.url) err(`${ref} sans \`url\` — toute source doit être cliquable (brief §3)`);
     // Les sources antiques sont normales en philosophie : une année négative
     // note une date avant notre ère (Platon, La République → -375).
     if (s.annee && (s.annee < -800 || s.annee > 2100)) warn(`${ref}.annee suspecte : ${s.annee}`);
@@ -144,6 +162,9 @@ export function validerFiche(fiche, ctx = {}) {
   (fiche.pour_aller_plus_loin ?? []).forEach((l, i) => {
     if (!l.titre) err(`pour_aller_plus_loin[${i}].titre manquant`);
     if (l.url && !urlValide(l.url)) err(`pour_aller_plus_loin[${i}].url invalide : ${l.url}`);
+    // Une lecture conseillée sans adresse est un titre à recopier dans un moteur de
+    // recherche : autant ne rien conseiller.
+    if (!l.url) err(`pour_aller_plus_loin[${i}] sans \`url\` — une lecture conseillée s'ouvre`);
   });
 
   // --- Illustration -----------------------------------------------------
