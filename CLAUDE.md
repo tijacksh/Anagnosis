@@ -10,9 +10,14 @@ contrôle qualité, outil de validation Admin, export vers le backend.
 Ce n'est **pas** l'app iOS, qui vivra dans un dépôt séparé. Ne pas ajouter ici de
 code client, d'UI produit ou d'appel réseau vers un backend.
 
-Seule exception : `src/apercu.js`, qui génère une **maquette jetable** à partir des
-fiches validées. C'est un outil de test utilisateur, pas le début de l'app — il ne
-doit jamais devenir la base du client iOS.
+Seule exception : le dossier `app/` et `src/build-app.js`, qui produisent
+l'**esquisse jouable** — une PWA assemblée à partir des fiches validées. Elle sert à
+éprouver le parcours et la direction visuelle sur un vrai téléphone, sans Xcode ni
+App Store.
+
+Ce n'est pas le client iOS et ça ne doit pas en devenir la base. Le natif vivra dans
+son propre dépôt, avec la synchronisation iCloud (CloudKit) que le web ne peut pas
+avoir.
 
 ## À lire avant toute tâche de fond
 
@@ -32,7 +37,7 @@ npm run validate   # contrôle qualité (sortie 1 si erreur)
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
-npm run apercu     # aperçu cliquable autonome → export/apercu.html
+npm run app        # assemble l'esquisse jouable → export/app/
 npm test           # tests
 ```
 

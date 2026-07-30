@@ -17,7 +17,7 @@ npm run validate   # contrôle qualité de toutes les fiches
 npm run queue      # file d'attente de relecture, par discipline
 npm run stats      # état de la base et avance de publication
 npm run export     # export des fiches publiables → export/concepts.json
-npm run apercu     # aperçu cliquable autonome → export/apercu.html
+npm run app        # assemble l'esquisse jouable (PWA) → export/app/
 npm test           # tests du validateur + contrôle du contenu du dépôt
 ```
 
@@ -72,19 +72,26 @@ avec Clara et le radar (brief §11).
 Ce choix vaut pour l'ordre de grandeur visé — quelques centaines de fiches.
 Au-delà de quelques milliers, une vraie base deviendrait justifiée.
 
-## Montrer le contenu à quelqu'un
+## L'esquisse jouable
 
-`npm run apercu` produit un **fichier HTML unique et autonome** dans `export/`, avec
-les fiches validées : onboarding, concept du jour, lecture, quiz, carte partageable,
-archive et profil. Aucune dépendance, aucun appel réseau, il fonctionne hors ligne.
+`npm run app` assemble une **PWA complète** dans `export/app/` à partir des fiches
+validées : onboarding, concept du jour, lecture, quiz, carte partageable composée sur
+l'appareil, calendrier, archive, profil, réglages et verrou quotidien.
 
-C'est fait pour être envoyé par mail ou messagerie à quelqu'un qui n'a accès ni au
-dépôt ni à quoi que ce soit d'autre : il ouvre le fichier dans son navigateur, et
-c'est tout. La maquette est régénérée à chaque fois — elle suit donc le contenu
-validé sans travail supplémentaire.
+Elle applique `docs/charte-visuelle.md` — papier, encre par discipline, surimpression,
+grain, rayon 0 — et propose les deux matériaux de barre de menu.
 
-Ce n'est pas l'app, et ce ne doit pas en devenir la base : c'est un outil pour faire
-réagir des gens sur le contenu et la direction visuelle avant d'écrire du code client.
+**Tout est local.** La progression vit dans le navigateur, il n'y a aucun serveur,
+aucun compte et aucun suivi. Après la première visite, l'app fonctionne hors ligne.
+
+Deux formes en sortie :
+
+- `export/app/` — installable sur l'écran d'accueil d'un iPhone, à servir depuis
+  n'importe quel hébergement statique ;
+- `export/anagnosis-autonome.html` — fichier unique, envoyable par message.
+
+Ce n'est pas le client iOS et ce ne doit pas en devenir la base. Le natif aura son
+dépôt et la synchronisation iCloud, qu'un navigateur ne peut pas avoir.
 
 ## Cycle de vie d'une fiche
 

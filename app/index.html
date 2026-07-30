@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+<meta name="theme-color" content="#F4EFE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#241F1A" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Anagnosis">
+<meta name="description" content="Un concept par jour, expliqué en trois minutes et sourcé.">
+<title>Anagnosis</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icone-180.png">
+<!-- Les polices améliorent le rendu si le réseau est là ; la pile de repli
+     couvre le hors-ligne et le premier lancement. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Martian+Mono:wght@400..600&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<div id="toast" class="toast" role="status"></div>
+<script src="./contenu.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
