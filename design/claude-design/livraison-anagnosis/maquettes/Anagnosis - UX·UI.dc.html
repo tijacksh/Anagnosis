@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Archivo:wdth,wght@62..125,400..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Martian+Mono:wght@300..700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ana-grain-img:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22140%22 height=%22140%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22140%22 height=%22140%22 filter=%22url%28%23n%29%22/%3E%3C/svg%3E');
+  --ana-grain:.045;
+  --ana-mx:2px;
+  --ana-my:3px;
+  --ana-ink-op:.88;
+  --ana-display:'Bricolage Grotesque';
+  --ana-barbg:#F4EFE1;
+  --ana-barbg2:#241F1A;
+  --ana-barborder:2px solid #1B1A17;
+  --ana-barborder2:2px solid rgba(237,227,208,.55);
+  --ana-barblur:none;
+  --ana-barshadow:none;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#E4E0D6}
+a{color:#1B1A17;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#914E72}
+</style>
+</helmet>
+
+<section style="display:flex;flex-direction:column;align-items:flex-start;gap:64px;width:max-content;min-width:100%;padding:88px 96px 140px;background:#E4E0D6;color:#1B1A17;font-family:'Newsreader',Georgia,serif">
+
+<div style="display:flex;flex-direction:column;gap:20px;max-width:980px">
+<div style="display:flex;align-items:center;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">TOUR 1</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.55">DA · C RISOGRAPHIE · 30.07.26</span>
+</div>
+<h1 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:76px;line-height:.92;letter-spacing:-.02em;margin:0;font-stretch:92%">Anagnosis — système visuel<br>et surfaces principales</h1>
+<p style="font-size:21px;line-height:1.55;max-width:720px;margin:0;text-wrap:pretty">Trois encres au maximum par surface, une par discipline, le crédit source jamais négociable. Le grain, la surimpression et le hors-repérage sont des constantes du système, réglables mais jamais aléatoires.</p>
+<p style="font-family:'Martian Mono',monospace;font-size:11px;line-height:1.9;letter-spacing:.02em;opacity:.6;margin:0;max-width:720px">Le dépôt ne contenait qu'un README — les fiches ci-dessous sont écrites à la ligne éditoriale, sources réelles, à repasser au validateur. Repères : <a href="#1a">1a</a> charte · <a href="#1b">1b</a> <a href="#1c">1c</a> <a href="#1d">1d</a> cartes · <a href="#1e">1e</a> cas limites · <a href="#1f">1f</a> <a href="#1g">1g</a> lecture · <a href="#1h">1h</a> sombre · <a href="#1i">1i</a> illustration · <a href="#1j">1j</a> parcours</p>
+</div>
+
+<div id="1a" style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">1a</span>
+<span style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.06em;opacity:.6">CHARTE — PALETTE · SURIMPRESSION · TYPO · ESPACEMENT · GRAIN</span>
+</div>
+
+<div style="position:relative;width:1120px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.16);padding:56px 60px 64px;display:flex;flex-direction:column;gap:52px">
+
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">01 · CONSTANTES</div>
+<div style="display:flex;gap:20px">
+<div style="flex:1;display:flex;flex-direction:column;gap:10px"><div style="height:96px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.28)"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Papier</div><div style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.6;line-height:1.6">#F4EFE1<br>Fond de toutes les surfaces</div></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px"><div style="height:96px;background:#1B1A17"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Encre noire</div><div style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.6;line-height:1.6">#1B1A17<br>Texte courant, filets</div></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px"><div style="height:96px;background:#FFE800"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Jaune commun</div><div style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.6;line-height:1.6">#FFE800<br>Carte partageable seulement</div></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px"><div style="height:96px;background:#241F1A"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Noir chaud</div><div style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.6;line-height:1.6">#241F1A<br>Papier du mode sombre</div></div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">02 · UNE ENCRE PAR DISCIPLINE — LE NOM EST TOUJOURS ÉCRIT, LA COULEUR NE PORTE JAMAIS SEULE L'INFORMATION</div>
+<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px">
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#3D5588"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Philosophie</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">FEDERAL BLUE<br>#3D5588 · 4,9:1</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#914E72"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Sociologie</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">BURGUNDY<br>#914E72 · 5,2:1</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#FF6C2F"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Anthropologie</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">ORANGE<br>#FF6C2F · 2,4:1 ⚠</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#765BA7"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Psychologie</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">PURPLE<br>#765BA7 · 4,6:1</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#00A95C"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Biologie</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">GREEN<br>#00A95C · 2,6:1 ⚠</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#FF665E"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Médecine</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">BRIGHT RED<br>#FF665E · 2,6:1 ⚠</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#00838A"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Mathématiques</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">TEAL<br>#00838A · 4,0:1 ⚠</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#0078BF"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Physique</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">BLUE<br>#0078BF · 4,3:1 ⚠</div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><div style="height:80px;background:#FF48B0"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Littérature</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">FLUO PINK<br>#FF48B0 · 2,9:1 ⚠</div></div>
+<div style="display:flex;flex-direction:column;gap:8px;justify-content:flex-start"><div style="height:80px;background:repeating-linear-gradient(45deg,rgba(27,26,23,.14) 0 6px,transparent 6px 12px);outline:1px dashed rgba(27,26,23,.35)"></div><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;line-height:1.15">Extensions</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.55">HISTOIRE · ÉCONOMIE<br>ART · ASTRONOMIE</div></div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.7;padding:14px 16px;background:rgba(27,26,23,.06);border-left:3px solid #1B1A17">⚠ = contraste &lt; 4,5:1 sur papier. Ces encres n'apparaissent qu'en aplat, filet ou libellé de 15 px et plus en graisse forte. Jamais en texte courant, jamais en corps de fiche.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">03 · SURIMPRESSIONS DOCUMENTÉES — MULTIPLY, ENCRE À 88 %</div>
+<div style="display:flex;gap:28px;flex-wrap:wrap">
+<div style="display:flex;flex-direction:column;gap:9px"><div style="position:relative;width:130px;height:88px;background:#3D5588"><div style="position:absolute;left:44px;top:0;width:86px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div></div><div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.65">BLEU × JAUNE<br>→ #3D4D00</div></div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="position:relative;width:130px;height:88px;background:#FF6C2F"><div style="position:absolute;left:44px;top:0;width:86px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div></div><div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.65">ORANGE × JAUNE<br>→ #FF6200</div></div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="position:relative;width:130px;height:88px;background:#0078BF"><div style="position:absolute;left:44px;top:0;width:86px;height:88px;background:#FF48B0;mix-blend-mode:multiply"></div></div><div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.65">PHYSIQUE × LITTÉRATURE<br>→ #002284</div></div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="position:relative;width:130px;height:88px;background:#00A95C"><div style="position:absolute;left:44px;top:0;width:86px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div></div><div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.65">VERT × JAUNE<br>→ #009A00</div></div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="position:relative;width:130px;height:88px;background:#914E72"><div style="position:absolute;left:44px;top:0;width:86px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div></div><div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.65">BURGUNDY × JAUNE<br>→ #914700</div></div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="position:relative;width:130px;height:88px;background:#F4EFE1"><div style="position:absolute;left:0;top:0;width:130px;height:88px;background:#3D5588;mix-blend-mode:multiply;opacity:.88"></div></div><div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.65">ENCRE SUR PAPIER 88 %<br>→ #3A5078</div></div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">04 · TROIS RÔLES TYPOGRAPHIQUES — RETENU : BRICOLAGE GROTESQUE / NEWSREADER / MARTIAN MONO</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:36px 56px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.5">DISPLAY · BRICOLAGE GROTESQUE 700–800</div>
+<div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:64px;line-height:.9;letter-spacing:-.02em">La banalité du mal</div>
+<div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.6">Accroches de carte 78–94 px @1080 · titres de fiche 34–40 px · grotesque à formes datées, pas neutre</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.5">ALTERNATIVE ÉVALUÉE · ARCHIVO EXPANDED 800 — VOIR <a href="#1d">1d</a></div>
+<div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:60px;line-height:.9;letter-spacing:-.015em;font-stretch:118%">L'effet Matthieu</div>
+<div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.6">Plus large, plus froid, meilleure tenue en capitales — moins de caractère imprimé</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.5">CORPS · NEWSREADER 400 / ITALIQUE</div>
+<div style="font-family:'Newsreader',serif;font-size:17px;line-height:1.62;max-width:420px">En avril 1961, Arendt s'installe dans la tribune de presse du tribunal de Jérusalem. Elle attend un monstre. Elle trouve <em>un homme qui se plaint de ses migraines</em> et récite des règlements.</div>
+<div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.6">15–17 px sur écran · interlignage 1,62 · longueur de ligne 38–45 caractères</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.5">CRÉDITS &amp; DONNÉES · MARTIAN MONO 400–600</div>
+<div style="font-family:'Martian Mono',monospace;font-size:14px;line-height:1.7;letter-spacing:.01em">ARENDT, 1963<br>1234567890 · SÉRIE 41 J</div>
+<div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.6">9–11 px sur écran, 26–30 px @1080 sur la carte · chiffres tabulaires · jamais sous 11 px @1080</div>
+</div>
+</div>
+</div>
+
+<div style="display:flex;gap:56px;flex-wrap:wrap">
+<div style="display:flex;flex-direction:column;gap:18px;flex:1;min-width:380px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">05 · ESPACEMENT — BASE 4</div>
+<div style="display:flex;align-items:flex-end;gap:10px">
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:4px;height:4px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">4</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:8px;height:8px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">8</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:12px;height:12px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">12</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:16px;height:16px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">16</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:24px;height:24px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">24</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:32px;height:32px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">32</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:48px;height:48px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">48</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:64px;height:64px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">64</div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:center"><div style="width:96px;height:96px;background:#1B1A17"></div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5">96</div></div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65">Marge d'écran 20 · gouttière de liste 12 · bloc à bloc 32 · section à section 48. Rayon : 0 partout, sauf cibles tactiles pleines à 2 px. Pas d'arrondi uniforme.</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:18px;flex:1;min-width:380px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">06 · GRAIN &amp; HORS-REPÉRAGE</div>
+<div style="display:flex;gap:20px">
+<div style="display:flex;flex-direction:column;gap:9px">
+<div style="position:relative;width:168px;height:120px;background:#F4EFE1;overflow:hidden;outline:1px solid rgba(27,26,23,.2)">
+<div style="position:absolute;left:26px;top:22px;width:76px;height:76px;background:#1B1A17"></div>
+<div style="position:absolute;left:66px;top:22px;width:76px;height:76px;background:#0078BF;mix-blend-mode:multiply;opacity:var(--ana-ink-op)"></div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.6">REPÉRAGE PARFAIT<br>lisse, donc suspect</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:9px">
+<div style="position:relative;width:168px;height:120px;background:#F4EFE1;overflow:hidden;outline:1px solid rgba(27,26,23,.2)">
+<div style="position:absolute;left:26px;top:22px;width:76px;height:76px;background:#1B1A17"></div>
+<div style="position:absolute;left:66px;top:22px;width:76px;height:76px;background:#0078BF;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:150px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:9px;line-height:1.7;opacity:.6">+2 X / +3 Y, GRAIN 4,5 %<br>retenu</div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65">Décalage constant dans une composition, toujours porté par l'encre de discipline, jamais par le noir. Grain appliqué une seule fois sur la composition entière, en multiply, 3–5 %. Ni ombre ni assombrissement : l'encre se décale, elle ne s'empile pas.</div>
+</div>
+</div>
+
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">1b–1d</span>
+<span style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.06em;opacity:.6">CARTE PARTAGEABLE 1080×1920 — TROIS DISCIPLINES, TROIS PARTIS DE COMPOSITION</span>
+</div>
+<div style="display:flex;gap:44px;flex-wrap:wrap;align-items:flex-start">
+
+<div id="1b" style="display:flex;flex-direction:column;gap:12px;width:378px">
+<div style="position:relative;width:378px;height:672px;overflow:hidden;outline:1px solid rgba(27,26,23,.18)">
+<div style="width:1080px;height:1920px;transform:scale(.35);transform-origin:top left;position:relative;background:#F4EFE1;overflow:hidden">
+<div style="position:absolute;left:72px;top:196px;width:936px;display:flex;flex-wrap:wrap;gap:24px">
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:relative;width:168px;height:168px;background:#FFE800;mix-blend-mode:multiply"><div style="position:absolute;left:0;top:0;width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(30px,24px)"></div></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:168px;height:168px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+</div>
+<div style="position:absolute;left:72px;top:100px;font-family:'Martian Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.14em;color:#1B1A17">PHILOSOPHIE</div>
+<div style="position:absolute;left:72px;top:824px;width:900px;font-family:var(--ana-display),sans-serif;font-weight:800;font-size:94px;line-height:.94;letter-spacing:-.025em;color:#1B1A17;text-wrap:pretty">Le mal le plus massif du siècle a été commis sans mobile.</div>
+<div style="position:absolute;left:72px;top:1188px;width:876px;font-family:'Newsreader',serif;font-size:41px;line-height:1.45;color:#1B1A17;text-wrap:pretty">Arendt n'excuse rien : elle observe qu'Eichmann n'avait ni haine ni conviction, seulement le zèle d'un fonctionnaire qui veut bien faire. Le mal n'a pas besoin de monstres, il lui suffit de gens qui ne pensent pas.</div>
+<div style="position:absolute;left:72px;top:1524px;display:flex"><div style="background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);padding:18px 26px 16px"><span style="font-family:'Martian Mono',monospace;font-size:27px;font-weight:500;letter-spacing:.04em;color:#F4EFE1">ARENDT, EICHMANN À JÉRUSALEM, 1963</span></div></div>
+<div style="position:absolute;left:72px;top:1712px;right:72px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:20px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:32px;letter-spacing:-.01em;color:#1B1A17">ANAGNOSIS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:22px;letter-spacing:.08em;color:#1B1A17;opacity:.6">UN CONCEPT PAR JOUR</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:340px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">1b · PHILOSOPHIE</strong><br>Grille de carrés identiques, un seul hors-rang en surimpression jaune : la forme dit la conformité. Encre en trame haute, texte sur papier nu.</div>
+</div>
+
+<div id="1c" style="display:flex;flex-direction:column;gap:12px;width:378px">
+<div style="position:relative;width:378px;height:672px;overflow:hidden;outline:1px solid rgba(27,26,23,.18)">
+<div style="width:1080px;height:1920px;transform:scale(.35);transform-origin:top left;position:relative;background:#F4EFE1;overflow:hidden">
+<div style="position:absolute;left:0;top:0;width:1080px;height:1088px;background:#0078BF;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:520px;top:-270px;width:960px;height:960px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:600px;top:-190px;width:800px;height:800px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:672px;top:-118px;width:656px;height:656px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:730px;top:-60px;width:540px;height:540px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:774px;top:-16px;width:452px;height:452px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:806px;top:16px;width:388px;height:388px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:828px;top:38px;width:344px;height:344px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:960px;top:170px;width:80px;height:80px;background:#FFE800;border-radius:50%"></div>
+<div style="position:absolute;left:72px;top:100px;font-family:'Martian Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.14em;color:#F4EFE1">PHYSIQUE</div>
+<div style="position:absolute;left:72px;top:730px;width:860px;font-family:var(--ana-display),sans-serif;font-weight:800;font-size:88px;line-height:.95;letter-spacing:-.025em;color:#F4EFE1;text-wrap:pretty">La note du train change au moment où il vous croise. Rien n'a bougé dans le sifflet.</div>
+<div style="position:absolute;left:72px;top:1176px;width:876px;font-family:'Newsreader',serif;font-size:42px;line-height:1.44;color:#1B1A17;text-wrap:pretty">Ce n'est pas le son qui change, c'est la distance entre vous et sa source. Les crêtes d'onde vous arrivent serrées quand elle approche, étirées quand elle s'éloigne.</div>
+<div style="position:absolute;left:0;top:1490px;display:flex"><div style="background:#1B1A17;padding:20px 26px 18px 72px"><span style="font-family:'Martian Mono',monospace;font-size:27px;font-weight:500;letter-spacing:.04em;color:#FFE800">DOPPLER, PRAGUE, 25 MAI 1842</span></div></div>
+<div style="position:absolute;left:72px;top:1712px;right:72px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:20px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:32px;letter-spacing:-.01em;color:#1B1A17">ANAGNOSIS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:22px;letter-spacing:.08em;color:#1B1A17;opacity:.6">SÉRIE 41 JOURS</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:340px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">1c · PHYSIQUE</strong><br>Aplat d'encre plein cadre sur la moitié haute, punch réservé en papier. Fronts d'onde tassés d'un côté, dilatés de l'autre, débordant hors cadre. Crédit à fond perdu.</div>
+</div>
+
+<div id="1d" style="display:flex;flex-direction:column;gap:12px;width:378px">
+<div style="position:relative;width:378px;height:672px;overflow:hidden;outline:1px solid rgba(27,26,23,.18)">
+<div style="width:1080px;height:1920px;transform:scale(.35);transform-origin:top left;position:relative;background:#F4EFE1;overflow:hidden">
+<div style="position:absolute;left:72px;top:172px;width:190px;height:520px;background-image:radial-gradient(#914E72 4px,transparent 4.5px);background-size:26px 26px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:302px;top:172px;width:190px;height:520px;background-image:radial-gradient(#914E72 7px,transparent 7.5px);background-size:26px 26px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:532px;top:172px;width:190px;height:520px;background-image:radial-gradient(#914E72 10px,transparent 10.5px);background-size:26px 26px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:762px;top:172px;width:246px;height:520px;background:#914E72;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:762px;top:172px;width:246px;height:96px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:72px;top:100px;font-family:'Martian Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.14em;color:#1B1A17">SOCIOLOGIE</div>
+<div style="position:absolute;left:72px;top:756px;width:900px;font-family:'Archivo',sans-serif;font-weight:800;font-size:92px;line-height:.94;letter-spacing:-.02em;font-stretch:112%;color:#1B1A17;text-wrap:pretty">À travail égal, c'est le nom déjà connu qui reçoit le crédit.</div>
+<div style="position:absolute;left:72px;top:1076px;display:flex"><div style="background:#914E72;mix-blend-mode:multiply;opacity:var(--ana-ink-op);padding:18px 26px 16px"><span style="font-family:'Martian Mono',monospace;font-size:27px;font-weight:500;letter-spacing:.04em;color:#F4EFE1">MERTON, SCIENCE, 1968</span></div></div>
+<div style="position:absolute;left:72px;top:1236px;width:876px;font-family:'Newsreader',serif;font-size:41px;line-height:1.45;color:#1B1A17;text-wrap:pretty">Merton l'a mesuré dans les sciences : deux chercheurs signent la même découverte, la reconnaissance va au plus établi. L'avantage ne récompense pas le mérite, il récompense l'avantage déjà acquis.</div>
+<div style="position:absolute;left:72px;top:1712px;right:72px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:20px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:32px;letter-spacing:-.01em;color:#1B1A17">ANAGNOSIS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:22px;letter-spacing:.08em;color:#1B1A17;opacity:.6">@LOUVIGNY</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:340px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">1d · SOCIOLOGIE — variante de hiérarchie et de typo</strong><br>Crédit remonté juste sous le punch, avant l'idée. Display en Archivo étendu. Trames de densité croissante puis aplat plein : l'avantage cumulatif.</div>
+</div>
+
+</div>
+</div>
+
+<div id="1e" style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">1e</span>
+<span style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.06em;opacity:.6">CAS LIMITES DE LONGUEUR + VARIANTE CARRÉE 1080×1080</span>
+</div>
+<div style="display:flex;gap:44px;flex-wrap:wrap;align-items:flex-start">
+
+<div style="display:flex;flex-direction:column;gap:12px;width:378px">
+<div style="position:relative;width:378px;height:672px;overflow:hidden;outline:1px solid rgba(27,26,23,.18)">
+<div style="width:1080px;height:1920px;transform:scale(.35);transform-origin:top left;position:relative;background:#F4EFE1;overflow:hidden">
+<div style="position:absolute;left:72px;top:180px;width:936px;height:500px;background-image:radial-gradient(#00838A 5px,transparent 5.5px);background-size:52px 52px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:76px;top:184px;width:88px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:232px;top:288px;width:88px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:388px;top:392px;width:88px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:544px;top:496px;width:88px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:700px;top:600px;width:88px;height:88px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:72px;top:100px;font-family:'Martian Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.14em;color:#1B1A17">MATHÉMATIQUES</div>
+<div style="position:absolute;left:72px;top:824px;width:900px;font-family:var(--ana-display),sans-serif;font-weight:800;font-size:118px;line-height:.92;letter-spacing:-.03em;color:#1B1A17;text-wrap:pretty">Il y a plus de nombres réels que d'entiers.</div>
+<div style="position:absolute;left:72px;top:1188px;width:876px;font-family:'Newsreader',serif;font-size:48px;line-height:1.4;color:#1B1A17;text-wrap:pretty">Cantor l'a démontré en 1891 : aucune liste, même infinie, ne peut contenir tous les réels.</div>
+<div style="position:absolute;left:72px;top:1524px;display:flex"><div style="background:#00838A;mix-blend-mode:multiply;opacity:var(--ana-ink-op);padding:18px 26px 16px"><span style="font-family:'Martian Mono',monospace;font-size:27px;font-weight:500;letter-spacing:.04em;color:#F4EFE1">CANTOR, 1891</span></div></div>
+<div style="position:absolute;left:72px;top:1712px;right:72px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:20px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:32px;letter-spacing:-.01em;color:#1B1A17">ANAGNOSIS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:22px;letter-spacing:.08em;color:#1B1A17;opacity:.6">UN CONCEPT PAR JOUR</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:340px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">CAS COURT · PUNCH 42 CAR. / IDÉE 89 CAR.</strong><br>Les zones ne bougent pas, seul le corps grossit : punch 118 px, idée 48 px. Le vide est assumé comme respiration, pas comblé par de l'ornement.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px;width:378px">
+<div style="position:relative;width:378px;height:672px;overflow:hidden;outline:1px solid rgba(27,26,23,.18)">
+<div style="width:1080px;height:1920px;transform:scale(.35);transform-origin:top left;position:relative;background:#F4EFE1;overflow:hidden">
+<div style="position:absolute;left:0;top:172px;width:1080px;height:300px;background:#FF48B0;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:196px;top:236px;width:1080px;height:300px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:196px;top:172px;width:6px;height:428px;background:#1B1A17"></div>
+<div style="position:absolute;left:72px;top:100px;font-family:'Martian Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.14em;color:#1B1A17">LITTÉRATURE</div>
+<div style="position:absolute;left:72px;top:672px;width:930px;font-family:var(--ana-display),sans-serif;font-weight:800;font-size:76px;line-height:.96;letter-spacing:-.025em;color:#1B1A17;text-wrap:pretty">Madame Bovary a inventé une phrase qui pense comme un personnage sans jamais lui donner la parole.</div>
+<div style="position:absolute;left:72px;top:1088px;width:900px;font-family:'Newsreader',serif;font-size:37px;line-height:1.42;color:#1B1A17;text-wrap:pretty">Flaubert glisse les pensées d'Emma dans le récit sans guillemets ni « elle pensait que » : le narrateur parle, mais c'est elle qu'on entend. Ce discours indirect libre devient au XX<sup style="font-size:.62em">e</sup> siècle l'outil ordinaire du roman — et la raison pour laquelle on ne sait jamais tout à fait qui juge, dans une page.</div>
+<div style="position:absolute;left:72px;top:1560px;display:flex"><div style="background:#FF48B0;mix-blend-mode:multiply;opacity:var(--ana-ink-op);padding:18px 26px 16px"><span style="font-family:'Martian Mono',monospace;font-size:27px;font-weight:500;letter-spacing:.04em;color:#1B1A17">FLAUBERT, MADAME BOVARY, 1857</span></div></div>
+<div style="position:absolute;left:72px;top:1712px;right:72px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:20px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:32px;letter-spacing:-.01em;color:#1B1A17">ANAGNOSIS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:22px;letter-spacing:.08em;color:#1B1A17;opacity:.6">SÉRIE 41 JOURS</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:340px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">CAS LONG · PUNCH 97 CAR. / IDÉE 295 CAR.</strong><br>Zone d'encre réduite à une bande, punch 76 px, idée 37 px. Le crédit reste au-dessus de la réserve basse de 12 % : c'est lui qui fixe le plancher, jamais le texte.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px;width:378px">
+<div style="position:relative;width:378px;height:378px;overflow:hidden;outline:1px solid rgba(27,26,23,.18)">
+<div style="width:1080px;height:1080px;transform:scale(.35);transform-origin:top left;position:relative;background:#F4EFE1;overflow:hidden">
+<div style="position:absolute;left:600px;top:56px;width:180px;height:390px;background-image:radial-gradient(#00A95C 8px,transparent 8.5px);background-size:30px 30px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:828px;top:146px;width:180px;height:300px;background-image:radial-gradient(#00A95C 8px,transparent 8.5px);background-size:30px 30px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:828px;top:146px;width:180px;height:74px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:600px;top:446px;width:408px;height:5px;background:#1B1A17"></div>
+<div style="position:absolute;left:60px;top:60px;font-family:'Martian Mono',monospace;font-size:23px;font-weight:600;letter-spacing:.14em;color:#1B1A17">BIOLOGIE</div>
+<div style="position:absolute;left:60px;top:290px;width:500px;font-family:var(--ana-display),sans-serif;font-weight:800;font-size:64px;line-height:.95;letter-spacing:-.025em;color:#1B1A17;text-wrap:pretty">Le fameux « 10 bactéries pour 1 cellule humaine » n'a jamais été mesuré.</div>
+<div style="position:absolute;left:60px;top:610px;width:900px;font-family:'Newsreader',serif;font-size:38px;line-height:1.42;color:#1B1A17;text-wrap:pretty">Recompté en 2016, le rapport tombe autour de 1,3 pour 1 — et une seule selle le fait varier d'un tiers.</div>
+<div style="position:absolute;left:60px;top:816px;display:flex"><div style="background:#00A95C;mix-blend-mode:multiply;opacity:var(--ana-ink-op);padding:16px 22px 14px"><span style="font-family:'Martian Mono',monospace;font-size:25px;font-weight:500;letter-spacing:.04em;color:#1B1A17">SENDER &amp; MILO, PLOS BIOLOGY, 2016</span></div></div>
+<div style="position:absolute;left:60px;top:952px;right:60px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:18px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:30px;letter-spacing:-.01em;color:#1B1A17">ANAGNOSIS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:21px;letter-spacing:.08em;color:#1B1A17;opacity:.6">UN CONCEPT PAR JOUR</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:340px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">CARRÉE 1080×1080 · FEED</strong><br>Même hiérarchie, encre repoussée en angle haut-droit pour libérer la colonne de texte. Deux champs de cellules dans un rapport de 1,3 — la forme dit le chiffre sans l'écrire.</div>
+</div>
+
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">1f–1h</span>
+<span style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.06em;opacity:.6">ÉCRAN DE LECTURE — DEUX PARTIS D'ENCRE, PUIS LE MODE SOMBRE</span>
+</div>
+<div style="display:flex;gap:44px;flex-wrap:wrap;align-items:flex-start">
+
+<div id="1f" style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:absolute;inset:0;overflow:hidden;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17">
+<div style="position:absolute;left:0;right:0;top:0;z-index:5;background:#F4EFE1;padding-top:62px">
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:8px 20px 10px">
+<div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+<div style="display:flex;align-items:center;gap:7px"><div style="width:8px;height:8px;background:#3D5588;flex-shrink:0"></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.12em;opacity:.6">PHILOSOPHIE · JOUR 41</span></div>
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">La banalité du mal</span>
+</div>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;opacity:.45;flex-shrink:0;padding-bottom:3px">38 %</span>
+</div>
+<div style="height:2px;background:rgba(27,26,23,.16)"><div style="width:38%;height:2px;background:#1B1A17"></div></div>
+</div>
+<div style="position:absolute;left:0;right:0;top:116px;bottom:0;overflow:auto">
+<div style="position:relative;height:300px;overflow:hidden;background:#F4EFE1">
+<div style="position:absolute;left:20px;top:28px;width:362px;display:flex;flex-wrap:wrap;gap:10px">
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:relative;width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(14px,11px)"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+</div>
+</div>
+<div style="padding:0 20px 124px;display:flex;flex-direction:column;gap:24px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.45;padding-top:6px">30 JUILLET 2026 · 3 MIN DE LECTURE</div>
+<h2 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:37px;line-height:.96;letter-spacing:-.025em;margin:0">La banalité du mal</h2>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">En avril 1961, Hannah Arendt s'installe dans la tribune de presse du tribunal de Jérusalem. Elle vient voir un monstre. Elle trouve un homme de cinquante-cinq ans, enrhumé, qui se plaint de la lumière, corrige la traduction de son grade et récite des règlements administratifs pendant des heures.</p>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="width:44px;height:3px;background:#3D5588"></div><h3 style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:19px;line-height:1.15;letter-spacing:-.01em;margin:0">Ce qu'elle voit</h3></div>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">Adolf Eichmann a organisé la déportation de centaines de milliers de personnes. Interrogé sur ses motifs, il n'en produit aucun : pas de doctrine, pas de haine formulée, pas de plaisir. Il parle d'avancement, de collègues, de consignes mal transmises. Arendt note qu'il ne s'exprime qu'en formules toutes faites — dès qu'une phrase sort du registre du bureau, il ne la trouve plus.</p>
+<div style="position:relative;padding:22px 20px 20px;background:#3D5588;overflow:hidden">
+<div style="position:absolute;left:0;top:0;bottom:0;width:6px;background:#1B1A17"></div>
+<div style="font-family:'Newsreader',serif;font-style:italic;font-size:20px;line-height:1.45;color:#F4EFE1;margin-bottom:14px;text-wrap:pretty">« la banalité terrifiante du mal, qui défie le mot et la pensée »</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.7;letter-spacing:.04em;color:#F4EFE1;opacity:.85">HANNAH ARENDT<br>EICHMANN À JÉRUSALEM, ÉPILOGUE, 1963</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="width:44px;height:3px;background:#3D5588"></div><h3 style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:19px;line-height:1.15;letter-spacing:-.01em;margin:0">Le mécanisme</h3></div>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">L'hypothèse d'Arendt n'est pas que le mal serait ordinaire, ni excusable. Elle est plus précise : ce mal-là n'a pas eu besoin de mobile. Il a suffi d'un homme qui exécute correctement, qui veut bien faire, et qui n'a jamais examiné ce que « bien faire » impliquait ici. Elle nomme cette absence d'examen une <em>incapacité de penser</em> — non pas une bêtise, mais le refus de se représenter le point de vue d'un autre. En première approximation : l'administration fournit les fins, le fonctionnaire optimise les moyens.</p>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="width:44px;height:3px;background:#3D5588"></div><h3 style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:19px;line-height:1.15;letter-spacing:-.01em;margin:0">Le déplacement</h3></div>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">Le renversement a coûté cher à Arendt : on lui a reproché de banaliser le crime, alors qu'elle décrivait son mode de production. Car la conséquence est plus inconfortable que la thèse du monstre. Un monstre est rare et reconnaissable ; un rouage ne l'est pas. Si le mal de masse peut être commis par des gens sans conviction particulière, la garantie ne se trouve ni dans le caractère ni dans les bonnes intentions — elle est dans l'habitude de s'arrêter pour juger, seul, ce qu'on est en train de faire.</p>
+<div style="display:flex;flex-direction:column;gap:12px;padding-top:8px;border-top:2px solid #1B1A17">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em">SOURCES</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.85;opacity:.72">01 · H. ARENDT, <em>EICHMANN À JÉRUSALEM. RAPPORT SUR LA BANALITÉ DU MAL</em>, VIKING PRESS, 1963 — TRAD. FR. GALLIMARD, 1966<br>02 · H. ARENDT, « THINKING AND MORAL CONSIDERATIONS », <em>SOCIAL RESEARCH</em>, VOL. 38, 1971</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;padding-top:8px;border-top:1px solid rgba(27,26,23,.25)">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em">POUR ALLER PLUS LOIN</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.85;opacity:.72">B. STANGNETH, <em>EICHMANN BEFORE JERUSALEM</em>, KNOPF, 2014 — LA THÈSE CONTESTÉE À PARTIR DES ARCHIVES ARGENTINES</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;padding-top:12px">
+<div style="display:flex;align-items:center;justify-content:space-between;background:#1B1A17;padding:19px 20px;cursor:pointer" style-hover="background:#3D5588">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;letter-spacing:-.005em;color:#F4EFE1">Partager cette idée</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;color:#FFE800">1080×1920 →</span>
+</div>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:17px 20px;outline:2px solid #1B1A17;cursor:pointer" style-hover="background:rgba(27,26,23,.06)">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;letter-spacing:-.005em">Une question pour vérifier</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.5">30 S</span>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;text-align:center;opacity:.45;padding-top:10px">PROCHAIN CONCEPT DEMAIN À 8 H 10</div>
+</div>
+</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;z-index:8;background:var(--ana-barbg);backdrop-filter:var(--ana-barblur);-webkit-backdrop-filter:var(--ana-barblur);border-top:var(--ana-barborder);box-shadow:var(--ana-barshadow);padding:9px 0 30px;display:flex"><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="position:absolute;left:24%;right:24%;top:-11px;height:3px;background:#1B1A17"></div><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;background:#1B1A17"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.01em;color:#1B1A17;white-space:nowrap">AUJOURD'HUI</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:grid;grid-template-columns:repeat(3,3px);grid-template-rows:repeat(3,3px);gap:2px"><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">CALENDRIER</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:flex;flex-direction:column;gap:3px;width:15px"><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">ARCHIVE</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;border:2.5px solid rgba(27,26,23,.4);border-radius:50%"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">PROFIL</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:12px;height:12px;background:rgba(27,26,23,.4);transform:rotate(45deg)"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">RÉGLAGES</span></div></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">1f · LECTURE — PARTI « ENCRE HABILLÉE »</strong><br>Illustration pleine largeur en tête, encadré <em>citation</em> en aplat d'encre, intertitres marqués d'un filet de discipline. Le partage est un bloc plein en fin de lecture, pas une icône en coin.<br><br>Barre de titre fixe commune aux trois écrans : elle réserve les 62 px de la barre d'état — aucun contenu ne passe sous l'heure ou la batterie — et garde discipline, jour, titre et avancement sous les yeux pendant toute la lecture. Le filet de progression en forme le bord bas. La zone de défilement commence sous elle, donc l'ascenseur latéral aussi.<br><br>Barre de menu fixe en bas, onglet actif marqué d'un tiret plein. Deux matériaux au choix dans les réglages : <strong style="font-weight:600">Aplat riso</strong> (papier opaque, filet d'encre de 2 px) et <strong style="font-weight:600">Liquid Glass</strong> (translucide, flou de 20 px, saturation 185 %, liseré clair en haut). Le second est une exception assumée à la DA §11 — à consigner dans la charte comme telle, cantonnée à la barre de menu : le verre ne remonte ni sur les cartes ni sur les encadrés.</div>
+</div>
+
+<div id="1g" style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:absolute;inset:0;overflow:hidden;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17">
+<div style="position:absolute;left:0;right:0;top:0;z-index:5;background:#F4EFE1;padding-top:62px">
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:8px 22px 10px">
+<div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+<div style="display:flex;align-items:center;gap:7px"><div style="width:8px;height:8px;background:#0078BF;flex-shrink:0"></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.12em;opacity:.6">PHYSIQUE · JOUR 42</span></div>
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">L'effet Doppler</span>
+</div>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;opacity:.45;flex-shrink:0;padding-bottom:3px">22 %</span>
+</div>
+<div style="height:2px;background:rgba(27,26,23,.16)"><div style="width:22%;height:2px;background:#1B1A17"></div></div>
+</div>
+<div style="position:absolute;left:0;right:0;top:116px;bottom:0;overflow:auto">
+<div style="padding:20px 22px 124px;display:flex;flex-direction:column;gap:22px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.45">29 JUILLET 2026 · 3 MIN DE LECTURE</div>
+<h2 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:44px;line-height:.94;letter-spacing:-.03em;margin:0">L'effet Doppler</h2>
+<div style="position:relative;height:128px;overflow:hidden">
+<div style="position:absolute;left:-30px;top:8px;width:216px;height:216px;border:7px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:16px;top:34px;width:164px;height:164px;border:7px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:52px;top:56px;width:120px;height:120px;border:7px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:80px;top:74px;width:84px;height:84px;border:7px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:104px;top:88px;width:56px;height:56px;background:#0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;right:0;top:60px;width:132px;height:6px;background:#1B1A17"></div>
+</div>
+<p style="font-size:16.5px;line-height:1.64;margin:0;text-wrap:pretty">Une ambulance approche. La sirène monte, puis bascule vers le grave à l'instant exact où elle passe devant vous. Le conducteur n'a rien touché : le son émis n'a pas changé d'un hertz.</p>
+<div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;color:#1B1A17">— LE MÉCANISME</span></div>
+<p style="font-size:16.5px;line-height:1.64;margin:0;text-wrap:pretty">Une source émet des crêtes de pression à intervalle régulier. Si elle se rapproche, chaque crête part d'un point un peu plus proche de vous que la précédente : elles vous parviennent resserrées, donc plus souvent, et la fréquence perçue monte. Si elle s'éloigne, les crêtes s'espacent. Ce qui varie n'est pas l'onde, c'est la distance qu'elle a à parcourir. Le basculement est net au croisement parce que c'est là que la vitesse de rapprochement s'annule, puis change de signe.</p>
+<div style="position:relative;padding:20px;outline:2px solid #1B1A17;background:#F4EFE1">
+<div style="position:absolute;right:0;top:0;background:#0078BF;mix-blend-mode:multiply;opacity:var(--ana-ink-op);padding:6px 10px 5px"><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.12em;color:#F4EFE1">REPÈRE</span></div>
+<div style="font-family:'Newsreader',serif;font-size:18px;line-height:1.5;margin:18px 0 14px;text-wrap:pretty">En juin 1845, sur la ligne Utrecht–Maarssen, Buys Ballot fait jouer des trompettistes sur un wagon lancé à environ 70 km/h et poste le long de la voie des musiciens à l'oreille absolue, chargés de noter la note entendue.</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.7;letter-spacing:.04em;opacity:.7">BUYS BALLOT, <em>ANNALEN DER PHYSIK</em>, VOL. 66, 1845</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;color:#1B1A17">— CE QUE ÇA MESURE</span></div>
+<p style="font-size:16.5px;line-height:1.64;margin:0;text-wrap:pretty">Le même calcul s'applique à la lumière. Le décalage des raies spectrales d'une étoile donne sa vitesse radiale : c'est ainsi qu'on a détecté la majorité des exoplanètes, et c'est aussi ce que lit un radar routier. L'échographie Doppler écoute le sang plutôt que les voitures.</p>
+<div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;color:#1B1A17">— LE DÉPLACEMENT</span></div>
+<p style="font-size:16.5px;line-height:1.64;margin:0;text-wrap:pretty">Une confusion tenace : le décalage vers le rouge des galaxies lointaines n'est pas un effet Doppler. Elles ne s'éloignent pas dans l'espace comme une ambulance dans une rue — c'est l'espace entre elles et nous qui s'étire, et l'onde s'allonge avec lui. Le résultat ressemble à du Doppler, la cause est autre. Les deux coexistent d'ailleurs : une galaxie a aussi un mouvement propre, qui s'ajoute au décalage cosmologique ou s'en retranche.</p>
+<div style="display:flex;flex-direction:column;gap:12px;padding-top:8px;border-top:2px solid #1B1A17">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em">SOURCES</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.85;opacity:.72">01 · C. DOPPLER, « ÜBER DAS FARBIGE LICHT DER DOPPELSTERNE », <em>ABHANDLUNGEN DER KÖNIGL. BÖHM. GESELLSCHAFT DER WISSENSCHAFTEN</em>, PRAGUE, 1842<br>02 · C. H. D. BUYS BALLOT, « AKUSTISCHE VERSUCHE AUF DER EISENBAHN », <em>ANNALEN DER PHYSIK</em>, VOL. 66, 1845</div>
+</div>
+<div style="display:flex;gap:10px;padding-top:12px">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;background:#1B1A17;padding:17px 18px;cursor:pointer" style-hover="background:#0078BF">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px;color:#F4EFE1">Partager</span>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;color:#FFE800">STORY 9:16</span>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;outline:2px solid #1B1A17;padding:15px 18px;cursor:pointer" style-hover="background:rgba(27,26,23,.06)">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px">Quiz</span>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;opacity:.5">1 QUESTION</span>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;text-align:center;opacity:.45">VOUS AVEZ LU LES 42 CONCEPTS DE VOTRE SÉRIE</div>
+</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;z-index:8;background:var(--ana-barbg);backdrop-filter:var(--ana-barblur);-webkit-backdrop-filter:var(--ana-barblur);border-top:var(--ana-barborder);box-shadow:var(--ana-barshadow);padding:9px 0 30px;display:flex"><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="position:absolute;left:24%;right:24%;top:-11px;height:3px;background:#1B1A17"></div><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;background:#1B1A17"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.01em;color:#1B1A17;white-space:nowrap">AUJOURD'HUI</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:grid;grid-template-columns:repeat(3,3px);grid-template-rows:repeat(3,3px);gap:2px"><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">CALENDRIER</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:flex;flex-direction:column;gap:3px;width:15px"><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">ARCHIVE</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;border:2.5px solid rgba(27,26,23,.4);border-radius:50%"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">PROFIL</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:12px;height:12px;background:rgba(27,26,23,.4);transform:rotate(45deg)"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">RÉGLAGES</span></div></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">1g · LECTURE — PARTI « DÉPOUILLÉ »</strong><br>Pas d'illustration en tête : le titre entre le premier, la figure vient s'intercaler dans le flux. Intertitres en monospace tiretés au lieu du grotesque. Encadré <em>repère</em> en filet plein avec étiquette d'encre — même emplacement, même poids que la citation de <a href="#1f">1f</a>.</div>
+</div>
+
+<div id="1h" style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" dark="1" hint-size="402px,874px">
+<div style="position:absolute;inset:0;overflow:hidden;background:#241F1A;font-family:'Newsreader',serif;color:#EDE3D0">
+<div style="position:absolute;left:0;right:0;top:0;z-index:5;background:#241F1A;padding-top:62px">
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:8px 20px 10px">
+<div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+<div style="display:flex;align-items:center;gap:7px"><div style="width:8px;height:8px;background:#5C7CBF;flex-shrink:0"></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.12em;opacity:.65">PHILOSOPHIE · JOUR 41</span></div>
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">La banalité du mal</span>
+</div>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;opacity:.45;flex-shrink:0;padding-bottom:3px">38 %</span>
+</div>
+<div style="height:2px;background:rgba(237,227,208,.18)"><div style="width:38%;height:2px;background:#EDE3D0"></div></div>
+</div>
+<div style="position:absolute;left:0;right:0;top:116px;bottom:0;overflow:auto">
+<div style="position:relative;height:300px;overflow:hidden">
+<div style="position:absolute;left:20px;top:28px;width:362px;display:flex;flex-wrap:wrap;gap:10px">
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(14px,11px)"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:62px;height:62px;background:#5C7CBF;mix-blend-mode:screen;opacity:.82;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+</div>
+</div>
+<div style="padding:0 20px 124px;display:flex;flex-direction:column;gap:24px">
+<div style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.1em;opacity:.45;padding-top:6px">30 JUILLET 2026 · 3 MIN DE LECTURE</div>
+<h2 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:37px;line-height:.96;letter-spacing:-.025em;margin:0">La banalité du mal</h2>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">En avril 1961, Hannah Arendt s'installe dans la tribune de presse du tribunal de Jérusalem. Elle vient voir un monstre. Elle trouve un homme de cinquante-cinq ans, enrhumé, qui se plaint de la lumière, corrige la traduction de son grade et récite des règlements administratifs pendant des heures.</p>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="width:44px;height:3px;background:#5C7CBF"></div><h3 style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:19px;line-height:1.15;letter-spacing:-.01em;margin:0">Ce qu'elle voit</h3></div>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">Adolf Eichmann a organisé la déportation de centaines de milliers de personnes. Interrogé sur ses motifs, il n'en produit aucun : pas de doctrine, pas de haine formulée, pas de plaisir. Il parle d'avancement, de collègues, de consignes mal transmises.</p>
+<div style="position:relative;padding:22px 20px 20px;background:#33436B;overflow:hidden">
+<div style="position:absolute;left:0;top:0;bottom:0;width:6px;background:#EDE3D0"></div>
+<div style="font-family:'Newsreader',serif;font-style:italic;font-size:20px;line-height:1.45;color:#F4EFE1;margin-bottom:14px;text-wrap:pretty">« la banalité terrifiante du mal, qui défie le mot et la pensée »</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.7;letter-spacing:.04em;color:#F4EFE1;opacity:.85">HANNAH ARENDT<br>EICHMANN À JÉRUSALEM, ÉPILOGUE, 1963</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:9px"><div style="width:44px;height:3px;background:#5C7CBF"></div><h3 style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:19px;line-height:1.15;letter-spacing:-.01em;margin:0">Le mécanisme</h3></div>
+<p style="font-size:16.5px;line-height:1.62;margin:0;text-wrap:pretty">L'hypothèse d'Arendt n'est pas que le mal serait ordinaire, ni excusable. Elle est plus précise : ce mal-là n'a pas eu besoin de mobile. Il a suffi d'un homme qui exécute correctement et qui n'a jamais examiné ce que « bien faire » impliquait ici.</p>
+<div style="display:flex;flex-direction:column;gap:10px;padding-top:12px">
+<div style="display:flex;align-items:center;justify-content:space-between;background:#EDE3D0;padding:19px 20px;cursor:pointer" style-hover="background:#5C7CBF">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;letter-spacing:-.005em;color:#241F1A">Partager cette idée</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;color:#241F1A;opacity:.6">1080×1920 →</span>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;text-align:center;opacity:.4;padding-top:10px">PROCHAIN CONCEPT DEMAIN À 8 H 10</div>
+</div>
+</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;z-index:8;background:var(--ana-barbg2);backdrop-filter:var(--ana-barblur);-webkit-backdrop-filter:var(--ana-barblur);border-top:var(--ana-barborder2);box-shadow:var(--ana-barshadow);padding:9px 0 30px;display:flex"><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="position:absolute;left:24%;right:24%;top:-11px;height:3px;background:#EDE3D0"></div><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;background:#EDE3D0"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.01em;color:#EDE3D0;white-space:nowrap">AUJOURD'HUI</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:grid;grid-template-columns:repeat(3,3px);grid-template-rows:repeat(3,3px);gap:2px"><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div><div style="background:rgba(237,227,208,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(237,227,208,.4);white-space:nowrap">CALENDRIER</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:flex;flex-direction:column;gap:3px;width:15px"><div style="height:2.5px;background:rgba(237,227,208,.4)"></div><div style="height:2.5px;background:rgba(237,227,208,.4)"></div><div style="height:2.5px;background:rgba(237,227,208,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(237,227,208,.4);white-space:nowrap">ARCHIVE</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;border:2.5px solid rgba(237,227,208,.4);border-radius:50%"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(237,227,208,.4);white-space:nowrap">PROFIL</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:12px;height:12px;background:rgba(237,227,208,.4);transform:rotate(45deg)"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(237,227,208,.4);white-space:nowrap">RÉGLAGES</span></div></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:.07;mix-blend-mode:screen;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">1h · MODE SOMBRE</strong><br>Le papier devient un noir chaud <strong style="font-weight:600">#241F1A</strong>, jamais un noir neutre. L'encre de discipline est remontée en clarté (#5C7CBF) et passe en <em>screen</em> : sur fond sombre, la surimpression s'inverse mécaniquement — deux encres qui se croisent éclaircissent au lieu d'assombrir. Le grain reste, à 7 %.</div>
+</div>
+
+</div>
+</div>
+
+<div id="1i" style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">1i</span>
+<span style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.06em;opacity:.6">SYSTÈME D'ILLUSTRATION — GRILLE, SIX OPÉRATIONS, RÈGLES DE PRODUCTION</span>
+</div>
+<div style="position:relative;width:1120px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.16);padding:56px 60px 64px;display:flex;flex-direction:column;gap:44px">
+
+<div style="display:flex;gap:56px;align-items:flex-start">
+<div style="position:relative;width:340px;height:340px;flex-shrink:0;background:#F4EFE1;outline:2px solid #1B1A17;overflow:hidden">
+<div style="position:absolute;inset:0;background-image:repeating-linear-gradient(90deg,rgba(27,26,23,.2) 0 1px,transparent 1px 42.5px),repeating-linear-gradient(0deg,rgba(27,26,23,.2) 0 1px,transparent 1px 42.5px)"></div>
+<div style="position:absolute;left:42.5px;top:85px;width:170px;height:170px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:170px;top:42.5px;width:127.5px;height:255px;background:#FFE800;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:0;top:255px;width:340px;height:5px;background:#1B1A17"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:150px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:22px;flex:1">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">LA GRILLE — 8 × 8 MODULES</div>
+<p style="font-size:18px;line-height:1.6;margin:0;max-width:620px;text-wrap:pretty">Toute illustration se construit sur une grille de huit modules par huit. Les formes s'y alignent au module près : c'est ce qui empêche les compositions molles, et ce qui rend deux illustrations de la même discipline reconnaissables entre elles sans être identiques.</p>
+<div style="display:flex;flex-direction:column;gap:11px;font-family:'Martian Mono',monospace;font-size:11px;line-height:1.75">
+<div style="display:flex;gap:14px"><span style="opacity:.4;flex-shrink:0">01</span><span>Deux encres au plus : celle de la discipline, et le noir. Le jaune uniquement sur la carte partageable.</span></div>
+<div style="display:flex;gap:14px"><span style="opacity:.4;flex-shrink:0">02</span><span>Une seule asymétrie forte par composition. Jamais de centrage symétrique.</span></div>
+<div style="display:flex;gap:14px"><span style="opacity:.4;flex-shrink:0">03</span><span>Au moins une forme sort du cadre. La composition est un fragment, pas un logo.</span></div>
+<div style="display:flex;gap:14px"><span style="opacity:.4;flex-shrink:0">04</span><span>Aplats pleins ou trames régulières. Aucun dégradé, aucun flou, aucune ombre.</span></div>
+<div style="display:flex;gap:14px"><span style="opacity:.4;flex-shrink:0">05</span><span>Aucun texte, aucun chiffre, aucun visage. La forme dit le concept ou elle ne sert à rien.</span></div>
+<div style="display:flex;gap:14px"><span style="opacity:.4;flex-shrink:0">06</span><span>Hors-repérage constant sur l'encre de discipline uniquement. Grain une seule fois, à la fin.</span></div>
+</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;padding-bottom:10px;border-bottom:2px solid #1B1A17">SIX OPÉRATIONS — LE VOCABULAIRE COMPLET, DÉCLINABLE SUR TROIS CENTS FICHES</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px">
+
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;height:250px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.2);overflow:hidden">
+<div style="position:absolute;left:24px;top:24px;width:212px;display:flex;flex-wrap:wrap;gap:8px">
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(22px,18px)"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="width:60px;height:60px;background:#3D5588;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:140px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Répétition &amp; écart</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.75;opacity:.65">PHILOSOPHIE · #3D5588<br>Conformité, norme, exception. Ici : la banalité du mal.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;height:250px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.2);overflow:hidden">
+<div style="position:absolute;left:24px;top:34px;width:60px;height:182px;background-image:radial-gradient(#914E72 2px,transparent 2.5px);background-size:15px 15px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:98px;top:34px;width:60px;height:182px;background-image:radial-gradient(#914E72 4px,transparent 4.5px);background-size:15px 15px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:172px;top:34px;width:110px;height:182px;background:#914E72;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:140px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Densité graduée</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.75;opacity:.65">SOCIOLOGIE · #914E72<br>Accumulation, seuil, inégalité. Ici : l'effet Matthieu.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;height:250px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.2);overflow:hidden">
+<div style="position:absolute;left:40px;top:-24px;width:298px;height:298px;border:9px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:82px;top:18px;width:214px;height:214px;border:9px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:114px;top:50px;width:150px;height:150px;border:9px solid #0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:138px;top:74px;width:102px;height:102px;background:#0078BF;border-radius:50%;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:0;top:118px;width:78px;height:6px;background:#1B1A17"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:140px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Concentricité décalée</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.75;opacity:.65">PHYSIQUE · #0078BF<br>Propagation, émission, décalage. Ici : l'effet Doppler.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;height:250px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.2);overflow:hidden">
+<div style="position:absolute;left:24px;top:24px;width:290px;height:202px;background-image:radial-gradient(#00838A 3px,transparent 3.5px);background-size:29px 29px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:26px;top:26px;width:25px;height:25px;background:#00838A;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:84px;top:84px;width:25px;height:25px;background:#00838A;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:142px;top:142px;width:25px;height:25px;background:#00838A;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:200px;top:200px;width:25px;height:25px;background:#00838A;mix-blend-mode:multiply"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:140px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Partition</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.75;opacity:.65">MATHÉMATIQUES · #00838A<br>Énumération, coupure, diagonale. Ici : Cantor, 1891.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;height:250px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.2);overflow:hidden">
+<div style="position:absolute;left:-20px;top:44px;width:210px;height:150px;background:#FF48B0;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:130px;top:78px;width:210px;height:150px;background:#1B1A17;mix-blend-mode:multiply;opacity:.9"></div>
+<div style="position:absolute;left:130px;top:0;width:5px;height:250px;background:#1B1A17"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:140px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Recouvrement</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.75;opacity:.65">LITTÉRATURE · #FF48B0<br>Deux voix dans une phrase. Ici : le discours indirect libre.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;height:250px;background:#F4EFE1;outline:1px solid rgba(27,26,23,.2);overflow:hidden">
+<div style="position:absolute;left:34px;top:26px;width:104px;height:198px;background-image:radial-gradient(#00A95C 5px,transparent 5.5px);background-size:26px 26px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:178px;top:74px;width:104px;height:150px;background-image:radial-gradient(#00A95C 5px,transparent 5.5px);background-size:26px 26px;mix-blend-mode:multiply;opacity:var(--ana-ink-op);transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:34px;top:224px;width:248px;height:5px;background:#1B1A17"></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:140px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px">Rapport</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.75;opacity:.65">BIOLOGIE · #00A95C<br>Proportion, révision d'un chiffre. Ici : 1,3 bactérie pour 1 cellule.</div>
+</div>
+
+</div>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65;max-width:820px">Le pipeline ne reçoit donc pas un prompt libre mais une opération + une encre + un concept. C'est ce qui rend trois cents pièces cohérentes sans LoRA : la variété vient du concept, pas du style.</div>
+</div>
+
+<div id="1j" style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em;background:#1B1A17;color:#F4EFE1;padding:5px 9px 4px">1j</span>
+<span style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.06em;opacity:.6">PARCOURS DE BOUT EN BOUT — NOTIFICATION · ONBOARDING · LECTURE (<a href="#1f">1f</a>) · QUIZ · PARTAGE · PROFIL · VERROU</span>
+</div>
+<div style="display:flex;gap:44px;flex-wrap:wrap;align-items:flex-start">
+
+<div style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" dark="1" hint-size="402px,874px">
+<div style="position:relative;min-height:100%;background:#241F1A;font-family:'Newsreader',serif;color:#EDE3D0;overflow:hidden">
+<div style="position:absolute;left:-90px;top:430px;width:420px;height:420px;border:14px solid #3D5588;border-radius:50%;opacity:.5"></div>
+<div style="position:absolute;left:180px;top:560px;width:300px;height:300px;background:#3D5588;opacity:.35"></div>
+<div style="padding:96px 22px 0;display:flex;flex-direction:column;align-items:center;gap:2px">
+<div style="font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:.14em;opacity:.65">JEUDI 30 JUILLET</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:400;font-size:88px;line-height:1;letter-spacing:-.03em">8:10</div>
+</div>
+<div style="margin:44px 14px 0;position:relative;background:#F4EFE1;color:#1B1A17;padding:16px 18px;display:flex;flex-direction:column;gap:9px">
+<div style="position:absolute;left:0;top:0;bottom:0;width:5px;background:#3D5588"></div>
+<div style="display:flex;align-items:center;justify-content:space-between">
+<div style="display:flex;align-items:center;gap:8px">
+<div style="width:19px;height:19px;background:#1B1A17;display:flex;align-items:center;justify-content:center"><span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:12px;color:#FFE800">A</span></div>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em">ANAGNOSIS</span>
+</div>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;opacity:.5">MAINTENANT</span>
+</div>
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;line-height:1.2">Philosophie · La banalité du mal</div>
+<div style="font-size:15.5px;line-height:1.5;text-wrap:pretty">Arendt attendait un monstre au procès d'Eichmann. Elle a trouvé un fonctionnaire.</div>
+</div>
+<div style="margin:14px 14px 0;padding:14px 18px;background:rgba(237,227,208,.1);display:flex;align-items:center;justify-content:space-between">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.08em;opacity:.7">SÉRIE EN COURS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:12px;font-weight:600;letter-spacing:.06em">40 JOURS</span>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:.07;mix-blend-mode:screen;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">NOTIFICATION · 8 H 10</strong><br>L'accroche éditoriale sert de texte de push, telle quelle. Discipline nommée en premier, filet d'encre sur le bord : la bannière est reconnaissable avant d'être lue.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:relative;min-height:100%;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17">
+<div style="padding:74px 22px 40px;display:flex;flex-direction:column;gap:22px">
+<div style="display:flex;align-items:center;gap:8px">
+<div style="width:34px;height:3px;background:#1B1A17"></div><div style="width:34px;height:3px;background:#1B1A17"></div><div style="width:34px;height:3px;background:rgba(27,26,23,.2)"></div>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.45;margin-left:6px">ÉTAPE 2 / 3</span>
+</div>
+<h2 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:38px;line-height:.96;letter-spacing:-.03em;margin:0">Qu'est-ce que vous voulez comprendre&nbsp;?</h2>
+<p style="font-size:16px;line-height:1.6;margin:0;opacity:.75;text-wrap:pretty">Trois disciplines suffisent pour commencer. Vous pourrez en ajouter à tout moment — mais toujours un seul concept par jour.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+<div style="display:flex;align-items:center;gap:10px;padding:16px 14px;background:#3D5588;cursor:pointer"><div style="width:14px;height:14px;background:#F4EFE1;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;color:#F4EFE1">Philosophie</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:16px 14px;background:#0078BF;cursor:pointer"><div style="width:14px;height:14px;background:#F4EFE1;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;color:#F4EFE1">Physique</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:16px 14px;background:#914E72;cursor:pointer"><div style="width:14px;height:14px;background:#F4EFE1;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px;color:#F4EFE1">Sociologie</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:14px 12px;outline:2px solid rgba(27,26,23,.28);cursor:pointer" style-hover="outline-color:#1B1A17"><div style="width:14px;height:14px;background:#FF6C2F;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Anthropologie</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:14px 12px;outline:2px solid rgba(27,26,23,.28);cursor:pointer" style-hover="outline-color:#1B1A17"><div style="width:14px;height:14px;background:#765BA7;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Psychologie</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:14px 12px;outline:2px solid rgba(27,26,23,.28);cursor:pointer" style-hover="outline-color:#1B1A17"><div style="width:14px;height:14px;background:#00A95C;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Biologie</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:14px 12px;outline:2px solid rgba(27,26,23,.28);cursor:pointer" style-hover="outline-color:#1B1A17"><div style="width:14px;height:14px;background:#FF665E;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Médecine</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:14px 12px;outline:2px solid rgba(27,26,23,.28);cursor:pointer" style-hover="outline-color:#1B1A17"><div style="width:14px;height:14px;background:#00838A;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Mathématiques</span></div>
+<div style="display:flex;align-items:center;gap:10px;padding:14px 12px;outline:2px solid rgba(27,26,23,.28);cursor:pointer;grid-column:span 2" style-hover="outline-color:#1B1A17"><div style="width:14px;height:14px;background:#FF48B0;flex-shrink:0"></div><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Littérature</span></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;padding-top:6px;border-top:2px solid #1B1A17">
+<div style="display:flex;align-items:baseline;justify-content:space-between">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.6">HEURE DE LA NOTIFICATION</span>
+<span style="font-family:'Martian Mono',monospace;font-size:16px;font-weight:600;letter-spacing:.04em">08 : 10</span>
+</div>
+<div style="position:relative;height:26px;display:flex;align-items:center">
+<div style="position:absolute;left:0;right:0;height:2px;background:rgba(27,26,23,.2)"></div>
+<div style="position:absolute;left:0;width:34%;height:2px;background:#1B1A17"></div>
+<div style="position:absolute;left:34%;width:14px;height:22px;background:#1B1A17;transform:translateX(-7px)"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;opacity:.4"><span>05:00</span><span>13:00</span><span>23:00</span></div>
+</div>
+<div style="display:flex;align-items:center;justify-content:space-between;background:#1B1A17;padding:19px 20px;cursor:pointer" style-hover="background:#3D5588">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;color:#F4EFE1">Commencer demain matin</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;color:#FFE800">3 CHOISIES →</span>
+</div>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">ONBOARDING · DISCIPLINES + HEURE</strong><br>La sélection remplit la tuile de l'encre de la discipline : on voit la palette de sa série se composer. Le bouton dit « demain matin », pas « commencer » — la cadence est posée avant la première fiche.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:relative;min-height:100%;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17">
+<div style="padding:74px 22px 40px;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;align-items:center;justify-content:space-between">
+<div style="display:flex;align-items:center;gap:8px"><div style="width:9px;height:9px;background:#0078BF"></div><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em">PHYSIQUE · VÉRIFICATION</span></div>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.45">FACULTATIF</span>
+</div>
+<h2 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:29px;line-height:1.05;letter-spacing:-.02em;margin:0;text-wrap:pretty">Pourquoi la note bascule-t-elle au moment précis du croisement&nbsp;?</h2>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="display:flex;gap:12px;padding:15px 14px;outline:2px solid rgba(27,26,23,.28);opacity:.5">
+<span style="font-family:'Martian Mono',monospace;font-size:11px;font-weight:600;flex-shrink:0;padding-top:2px">A</span>
+<span style="font-size:15.5px;line-height:1.45;text-decoration:line-through;text-decoration-thickness:1.5px">La sirène change de fréquence à cet instant.</span>
+</div>
+<div style="display:flex;gap:12px;padding:15px 14px;background:#0078BF">
+<span style="font-family:'Martian Mono',monospace;font-size:11px;font-weight:600;flex-shrink:0;padding-top:2px;color:#F4EFE1">B</span>
+<span style="font-size:15.5px;line-height:1.45;color:#F4EFE1">La vitesse de rapprochement s'annule, puis change de signe.</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;color:#FFE800;flex-shrink:0;padding-top:3px">✓</span>
+</div>
+<div style="display:flex;gap:12px;padding:15px 14px;outline:2px solid rgba(27,26,23,.28);opacity:.5">
+<span style="font-family:'Martian Mono',monospace;font-size:11px;font-weight:600;flex-shrink:0;padding-top:2px">C</span>
+<span style="font-size:15.5px;line-height:1.45;text-decoration:line-through;text-decoration-thickness:1.5px">Le son met plus de temps à vous atteindre quand la source s'éloigne.</span>
+</div>
+</div>
+<div style="position:relative;padding:20px;background:#F4EFE1;outline:2px solid #1B1A17;display:flex;flex-direction:column;gap:12px">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em">POURQUOI LES AUTRES SONT FAUSSES</div>
+<p style="font-size:15.5px;line-height:1.55;margin:0;text-wrap:pretty"><strong style="font-weight:600">A</strong> confond l'onde émise et l'onde reçue : le sifflet, lui, ne varie pas. <strong style="font-weight:600">C</strong> est vraie mais ne produit aucune bascule — un retard, même croissant, ne modifie pas la fréquence tant qu'il croît de façon régulière. Au croisement, c'est la composante de vitesse dirigée vers vous qui passe par zéro : le décalage s'inverse là, et nulle part ailleurs.</p>
+</div>
+<div style="display:flex;align-items:center;justify-content:space-between;background:#1B1A17;padding:19px 20px;cursor:pointer" style-hover="background:#0078BF">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;color:#F4EFE1">Partager cette idée</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;color:#FFE800">1080×1920 →</span>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;text-align:center;opacity:.45">LE QUIZ NE COMPTE PAS DANS VOTRE SÉRIE</div>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">QUIZ · APRÈS RÉPONSE</strong><br>La bonne réponse prend l'aplat d'encre, les distracteurs sont barrés et non colorés en rouge : rien à punir. L'explication traite les deux mauvaises réponses, comme l'exige la ligne éditoriale §6.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:relative;min-height:100%;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17">
+<div style="padding:74px 22px 40px;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;align-items:center;justify-content:space-between">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em">PARTAGER</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.45">GÉNÉRÉE SUR L'APPAREIL</span>
+</div>
+<div style="display:flex;gap:16px;align-items:flex-start">
+<div style="position:relative;width:189px;height:336px;flex-shrink:0;overflow:hidden;outline:1px solid rgba(27,26,23,.25)">
+<div style="width:1080px;height:1920px;transform:scale(.175);transform-origin:top left;position:relative;background:#F4EFE1">
+<div style="position:absolute;left:0;top:0;width:1080px;height:1088px;background:#0078BF;mix-blend-mode:multiply;opacity:var(--ana-ink-op)"></div>
+<div style="position:absolute;left:520px;top:-270px;width:960px;height:960px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:672px;top:-118px;width:656px;height:656px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:806px;top:16px;width:388px;height:388px;border:16px solid #FFE800;border-radius:50%;opacity:.95"></div>
+<div style="position:absolute;left:960px;top:170px;width:80px;height:80px;background:#FFE800;border-radius:50%"></div>
+<div style="position:absolute;left:72px;top:100px;font-family:'Martian Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.14em;color:#F4EFE1">PHYSIQUE</div>
+<div style="position:absolute;left:72px;top:730px;width:860px;font-family:var(--ana-display),sans-serif;font-weight:800;font-size:88px;line-height:.95;letter-spacing:-.025em;color:#F4EFE1">La note du train change au moment où il vous croise.</div>
+<div style="position:absolute;left:72px;top:1176px;width:876px;font-family:'Newsreader',serif;font-size:42px;line-height:1.44;color:#1B1A17">Ce n'est pas le son qui change, c'est la distance entre vous et sa source.</div>
+<div style="position:absolute;left:0;top:1490px;background:#1B1A17;padding:20px 26px 18px 72px"><span style="font-family:'Martian Mono',monospace;font-size:27px;font-weight:500;letter-spacing:.04em;color:#FFE800">DOPPLER, PRAGUE, 25 MAI 1842</span></div>
+<div style="position:absolute;left:72px;top:1712px;right:72px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1B1A17;padding-top:20px"><span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:32px;color:#1B1A17">ANAGNOSIS</span><span style="font-family:'Martian Mono',monospace;font-size:22px;letter-spacing:.08em;color:#1B1A17;opacity:.6">SÉRIE 42 JOURS</span></div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:9px;flex:1">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.5;margin-bottom:2px">FORMAT</div>
+<div style="display:flex;gap:7px">
+<div style="flex:1;padding:11px 0;text-align:center;background:#1B1A17;cursor:pointer"><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.06em;color:#F4EFE1">9:16</span></div>
+<div style="flex:1;padding:9px 0;text-align:center;outline:2px solid rgba(27,26,23,.28);cursor:pointer" style-hover="outline-color:#1B1A17"><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.06em">1:1</span></div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.5;margin:10px 0 2px">CE QUE LA CARTE AFFICHE</div>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 12px;outline:1px solid rgba(27,26,23,.25);cursor:pointer"><span style="font-family:'Martian Mono',monospace;font-size:10px">MA SÉRIE</span><div style="width:26px;height:14px;background:#1B1A17;display:flex;justify-content:flex-end;align-items:center;padding:2px"><div style="width:10px;height:10px;background:#FFE800"></div></div></div>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 12px;outline:1px solid rgba(27,26,23,.25);cursor:pointer"><span style="font-family:'Martian Mono',monospace;font-size:10px">MON PSEUDO</span><div style="width:26px;height:14px;outline:1px solid rgba(27,26,23,.4);display:flex;align-items:center;padding:2px"><div style="width:10px;height:10px;background:rgba(27,26,23,.3)"></div></div></div>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 12px;background:rgba(27,26,23,.07)"><span style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.55">LE CRÉDIT SOURCE</span><span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;opacity:.55">TOUJOURS</span></div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;padding-top:6px;border-top:2px solid #1B1A17">
+<div style="display:flex;align-items:center;justify-content:space-between;background:#1B1A17;padding:19px 20px;cursor:pointer" style-hover="background:#0078BF">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;color:#F4EFE1">Publier en story</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;color:#FFE800">→</span>
+</div>
+<div style="display:flex;gap:10px">
+<div style="flex:1;padding:15px 0;text-align:center;outline:2px solid #1B1A17;cursor:pointer" style-hover="background:rgba(27,26,23,.06)"><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Enregistrer</span></div>
+<div style="flex:1;padding:15px 0;text-align:center;outline:2px solid #1B1A17;cursor:pointer" style-hover="background:rgba(27,26,23,.06)"><span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">Copier le lien</span></div>
+</div>
+</div>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;text-align:center;opacity:.45">L'IMAGE EST COMPOSÉE SUR L'APPAREIL — AUCUN APPEL RÉSEAU</div>
+</div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">PARTAGE · CARTE COMPOSÉE À LA VOLÉE</strong><br>Le choix retenu (DA §13) : l'app fabrique l'image, ce qui permet d'y porter la série ou le pseudo. Deux réglages seulement, et une ligne non négociable affichée comme telle — le crédit source n'est pas une option.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:absolute;inset:0;overflow:hidden;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17">
+<div style="position:absolute;inset:0;overflow:auto">
+<div style="padding:74px 22px 124px;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;align-items:flex-end;justify-content:space-between">
+<div style="display:flex;flex-direction:column"><span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.12em;opacity:.5">SÉRIE EN COURS</span><span style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:76px;line-height:.9;letter-spacing:-.04em">41</span></div>
+<div style="display:flex;flex-direction:column;align-items:flex-end;gap:3px;padding-bottom:8px"><span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.5">RECORD 58</span><span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.5">312 CONCEPTS LUS</span></div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px">
+<div style="height:24px;background:#3D5588"></div><div style="height:24px;background:#0078BF"></div><div style="height:24px;background:#914E72"></div><div style="height:24px;background:#3D5588"></div><div style="height:24px;background:#00A95C"></div><div style="height:24px;background:#00838A"></div><div style="height:24px;background:#3D5588"></div><div style="height:24px;background:#765BA7"></div><div style="height:24px;background:#0078BF"></div><div style="height:24px;background:#FF48B0"></div><div style="height:24px;background:#914E72"></div><div style="height:24px;background:#3D5588"></div><div style="height:24px;background:#00A95C"></div><div style="height:24px;outline:2px solid #1B1A17;outline-offset:-2px"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;opacity:.4;margin-top:-14px"><span>17 JUIL.</span><span>AUJOURD'HUI</span></div>
+<div style="display:flex;flex-direction:column;gap:14px;padding-top:6px;border-top:2px solid #1B1A17">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em">RÉPARTITION</div>
+<div style="display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">PHILOSOPHIE</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:24%;height:14px;background:#3D5588"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">24</span></div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">PHYSIQUE</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:19%;height:14px;background:#0078BF"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">19</span></div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">SOCIOLOGIE</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:15%;height:14px;background:#914E72"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">15</span></div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">BIOLOGIE</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:12%;height:14px;background:#00A95C"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">12</span></div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">MATHÉMAT.</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:12%;height:14px;background:#00838A"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">12</span></div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">PSYCHOLOGIE</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:10%;height:14px;background:#765BA7"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">10</span></div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-family:'Martian Mono',monospace;font-size:10px;width:104px;flex-shrink:0">LITTÉRATURE</span><div style="flex:1;height:14px;background:rgba(27,26,23,.08)"><div style="width:8%;height:14px;background:#FF48B0"></div></div><span style="font-family:'Martian Mono',monospace;font-size:10px;width:30px;text-align:right;flex-shrink:0">8</span></div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:11px;padding-top:6px;border-top:2px solid #1B1A17">
+<div style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em">ARCHIVE</div>
+<div style="display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(27,26,23,.15)"><div style="width:9px;height:9px;background:#3D5588;flex-shrink:0"></div><div style="flex:1"><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">La banalité du mal</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5;margin-top:2px">30 JUIL. · PHILOSOPHIE</div></div></div>
+<div style="display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(27,26,23,.15)"><div style="width:9px;height:9px;background:#0078BF;flex-shrink:0"></div><div style="flex:1"><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">L'effet Doppler</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5;margin-top:2px">29 JUIL. · PHYSIQUE</div></div></div>
+<div style="display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(27,26,23,.15)"><div style="width:9px;height:9px;background:#914E72;flex-shrink:0"></div><div style="flex:1"><div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:15px">L'effet Matthieu</div><div style="font-family:'Martian Mono',monospace;font-size:9px;opacity:.5;margin-top:2px">28 JUIL. · SOCIOLOGIE</div></div></div>
+<div style="position:relative;margin-top:6px;padding:18px;background:#1B1A17;display:flex;flex-direction:column;gap:10px">
+<div style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:17px;color:#F4EFE1;line-height:1.2">Les 309 concepts précédents</div>
+<div style="font-size:15px;line-height:1.5;color:#F4EFE1;opacity:.75;text-wrap:pretty">L'archive complète est dans Premium. La cadence, elle, reste la même : un concept par jour.</div>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-top:4px;padding-top:12px;border-top:1px solid rgba(244,239,225,.25)"><span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.08em;color:#FFE800">3,49 € / MOIS · 29 € / AN</span><span style="font-family:'Martian Mono',monospace;font-size:10px;color:#F4EFE1">→</span></div>
+</div>
+</div>
+</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;z-index:8;background:var(--ana-barbg);backdrop-filter:var(--ana-barblur);-webkit-backdrop-filter:var(--ana-barblur);border-top:var(--ana-barborder);box-shadow:var(--ana-barshadow);padding:9px 0 30px;display:flex"><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;background:rgba(27,26,23,.4)"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">AUJOURD'HUI</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:grid;grid-template-columns:repeat(3,3px);grid-template-rows:repeat(3,3px);gap:2px"><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">CALENDRIER</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:flex;flex-direction:column;gap:3px;width:15px"><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">ARCHIVE</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="position:absolute;left:24%;right:24%;top:-11px;height:3px;background:#1B1A17"></div><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;border:2.5px solid #1B1A17;border-radius:50%"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.01em;color:#1B1A17;white-space:nowrap">PROFIL</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:12px;height:12px;background:rgba(27,26,23,.4);transform:rotate(45deg)"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">RÉGLAGES</span></div></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">PROFIL · SÉRIE, RÉPARTITION, ARCHIVE</strong><br>La bande des jours est faite des encres réellement lues : le profil est un relevé d'impression, pas une collection de badges. Le paywall ne vend jamais du volume quotidien — seulement le droit de relire.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:14px;width:402px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="position:absolute;inset:0;background:#F4EFE1;font-family:'Newsreader',serif;color:#1B1A17;overflow:hidden">
+<div style="position:absolute;left:-140px;top:392px;width:520px;height:520px;background-image:radial-gradient(#3D5588 6px,transparent 6.5px);background-size:34px 34px;mix-blend-mode:multiply;opacity:.5;transform:translate(var(--ana-mx),var(--ana-my))"></div>
+<div style="position:absolute;left:236px;top:520px;width:220px;height:220px;background:#FFE800;mix-blend-mode:multiply;opacity:.75"></div>
+<div style="position:relative;padding:74px 22px 40px;display:flex;flex-direction:column;gap:22px">
+<div style="display:flex;align-items:center;justify-content:space-between">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.12em">LU AUJOURD'HUI</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.45">SÉRIE 41 JOURS</span>
+</div>
+<h2 style="font-family:var(--ana-display),sans-serif;font-weight:800;font-size:52px;line-height:.92;letter-spacing:-.035em;margin:0">C'est tout pour aujourd'hui.</h2>
+<p style="font-size:17px;line-height:1.55;margin:0;max-width:300px;text-wrap:pretty">Un concept par jour, et rien à enchaîner. C'est le principe, pas une limite technique.</p>
+<div style="display:flex;flex-direction:column;gap:6px;padding:18px 0;background:#F4EFE1;border-top:2px solid #1B1A17;border-bottom:2px solid #1B1A17;align-self:stretch">
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.12em;opacity:.55">PROCHAIN CONCEPT DANS</span>
+<span style="font-family:'Martian Mono',monospace;font-size:32px;font-weight:600;letter-spacing:.02em;white-space:nowrap">14 : 22 : 07</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;letter-spacing:.1em;opacity:.55">DEMAIN À 8 H 10 · ANTHROPOLOGIE</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;max-width:340px">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;background:#F4EFE1;outline:2px solid #1B1A17;cursor:pointer" style-hover="background:#EFE7D3">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px">Relire la fiche du jour</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.5">→</span>
+</div>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:15px 18px;background:#F4EFE1;outline:2px solid #1B1A17;cursor:pointer" style-hover="background:#EFE7D3">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px">Partager cette idée</span>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;opacity:.5">→</span>
+</div>
+</div>
+</div>
+<div style="position:absolute;left:22px;right:22px;bottom:104px">
+<div style="padding:15px 18px;background:#1B1A17;display:flex;align-items:center;justify-content:space-between;cursor:pointer">
+<div style="display:flex;flex-direction:column;gap:3px">
+<span style="font-family:var(--ana-display),sans-serif;font-weight:700;font-size:16px;color:#F4EFE1">Vous êtes Premium</span>
+<span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;color:#F4EFE1;opacity:.7">L'ARCHIVE EST OUVERTE · 312 FICHES</span>
+</div>
+<span style="font-family:'Martian Mono',monospace;font-size:10px;color:#FFE800">→</span>
+</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;z-index:8;background:var(--ana-barbg);backdrop-filter:var(--ana-barblur);-webkit-backdrop-filter:var(--ana-barblur);border-top:var(--ana-barborder);box-shadow:var(--ana-barshadow);padding:9px 0 30px;display:flex"><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="position:absolute;left:24%;right:24%;top:-11px;height:3px;background:#1B1A17"></div><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;background:#1B1A17"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.01em;color:#1B1A17;white-space:nowrap">AUJOURD'HUI</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:grid;grid-template-columns:repeat(3,3px);grid-template-rows:repeat(3,3px);gap:2px"><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div><div style="background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">CALENDRIER</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="display:flex;flex-direction:column;gap:3px;width:15px"><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div><div style="height:2.5px;background:rgba(27,26,23,.4)"></div></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">ARCHIVE</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:15px;height:15px;border:2.5px solid rgba(27,26,23,.4);border-radius:50%"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">PROFIL</span></div><div style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 2px;cursor:pointer"><div style="height:16px;display:flex;align-items:center;justify-content:center"><div style="width:12px;height:12px;background:rgba(27,26,23,.4);transform:rotate(45deg)"></div></div><span style="font-family:'Martian Mono',monospace;font-size:9px;font-weight:400;letter-spacing:.01em;color:rgba(27,26,23,.4);white-space:nowrap">RÉGLAGES</span></div></div>
+<div style="position:absolute;inset:0;background-image:var(--ana-grain-img);background-size:170px;opacity:var(--ana-grain);mix-blend-mode:multiply;pointer-events:none"></div>
+</div>
+</x-import>
+<div style="font-family:'Martian Mono',monospace;font-size:10px;line-height:1.8;opacity:.65"><strong style="font-weight:600">VERROU · L'ÉCRAN QUI DIT NON</strong><br>Mis en scène, comme demandé : le compte à rebours occupe la place qu'un fil infini aurait prise. La discipline de demain est annoncée — de l'attente, pas du teasing. Sur un compte Premium, la bande basse ouvre l'archive ; sur un compte gratuit, elle propose l'abonnement — le compte à rebours ne change jamais.</div>
+</div>
+
+</div>
+</div>
+
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;bottomBarStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;Aplat riso&quot;,&quot;options&quot;:[&quot;Aplat riso&quot;,&quot;Liquid Glass&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Barre de menu&quot;},&quot;grainOpacity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:4.5,&quot;min&quot;:0,&quot;max&quot;:10,&quot;step&quot;:0.5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Riso&quot;},&quot;misregX&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:2,&quot;min&quot;:0,&quot;max&quot;:8,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Riso&quot;},&quot;misregY&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:3,&quot;min&quot;:0,&quot;max&quot;:8,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Riso&quot;},&quot;inkOpacity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:88,&quot;min&quot;:60,&quot;max&quot;:100,&quot;step&quot;:1,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Riso&quot;},&quot;displayFont&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;Bricolage Grotesque&quot;,&quot;options&quot;:[&quot;Bricolage Grotesque&quot;,&quot;Archivo&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Typographie&quot;}}">
+class Component extends DCLogic {
+  syncVars() {
+    const r = document.documentElement, p = this.props;
+    r.style.setProperty('--ana-grain', String((p.grainOpacity ?? 4.5) / 100));
+    r.style.setProperty('--ana-mx', (p.misregX ?? 2) + 'px');
+    r.style.setProperty('--ana-my', (p.misregY ?? 3) + 'px');
+    r.style.setProperty('--ana-ink-op', String((p.inkOpacity ?? 88) / 100));
+    r.style.setProperty('--ana-display', "'" + (p.displayFont ?? 'Bricolage Grotesque') + "'");
+    const glass = (p.bottomBarStyle ?? 'Aplat riso') === 'Liquid Glass';
+    r.style.setProperty('--ana-barbg', glass ? 'rgba(244,239,225,0.6)' : '#F4EFE1');
+    r.style.setProperty('--ana-barbg2', glass ? 'rgba(36,31,26,0.52)' : '#241F1A');
+    r.style.setProperty('--ana-barborder', glass ? '1px solid rgba(27,26,23,0.16)' : '2px solid #1B1A17');
+    r.style.setProperty('--ana-barborder2', glass ? '1px solid rgba(237,227,208,0.18)' : '2px solid rgba(237,227,208,.55)');
+    r.style.setProperty('--ana-barblur', glass ? 'blur(20px) saturate(185%)' : 'none');
+    r.style.setProperty('--ana-barshadow', glass ? 'inset 0 1px 0 rgba(255,255,255,0.35)' : 'none');
+  }
+  componentDidMount() { this.syncVars(); }
+  componentDidUpdate() { this.syncVars(); }
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
