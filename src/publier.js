@@ -52,14 +52,37 @@ export function serialiser(fiches) {
  * site (le banc d'essai n'a rien à signer). C'est l'appelant qui décide si publier
  * sans signature est acceptable — et pour le contenu du client iOS, ça ne l'est pas.
  */
+/**
+ * Remet un PEM d'aplomb, quelle que soit la façon dont il a voyagé.
+ *
+ * Un champ de variable d'environnement n'est pas un éditeur de texte : Netlify a rendu
+ * la clé **sur une seule ligne**, les retours à la ligne devenus des espaces. D'autres
+ * CI les échappent en « \n » littéraux. Le journal de build disait :
+ *
+ *     première ligne reçue : « -----BEGIN PRIVATE KEY----- MC4CAQAwBQYD »
+ *
+ * Plutôt que de chercher la manière de coller qui préserve les sauts de ligne — sur
+ * laquelle on retombe au premier changement d'interface, et qui ne se voit qu'au
+ * déploiement suivant — on ne garde que ce qui compte : le corps en base64. Les
+ * en-têtes sont réécrits, le corps recoupé en lignes de 64. Toute forme de collage
+ * fonctionne alors, y compris le corps seul sans en-tête.
+ */
+function normaliserPem(brut) {
+  const corps = brut
+    .replace(/\\n/g, '\n')
+    .replace(/-----[^-]*-----/g, ' ')
+    .replace(/[^A-Za-z0-9+/=]/g, '');
+  if (!corps) return brut;
+  const lignes = corps.match(/.{1,64}/g) ?? [];
+  return `-----BEGIN PRIVATE KEY-----\n${lignes.join('\n')}\n-----END PRIVATE KEY-----\n`;
+}
+
 export async function signer(octets) {
   let pem = process.env[CLE_ENV];
   if (!pem) {
     try { pem = await readFile(CLE_FICHIER, 'utf8'); } catch { return null; }
   }
-  // Les variables d'environnement d'un CI transportent mal les retours à la ligne :
-  // on accepte la forme aplatie avec des « \n » littéraux.
-  if (!pem.includes('\n')) pem = pem.replace(/\\n/g, '\n');
+  pem = normaliserPem(pem);
 
   // Une clé mal formée ne doit pas emporter le site avec elle.
   //
