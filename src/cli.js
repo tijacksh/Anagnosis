@@ -16,6 +16,7 @@ import { validerLot } from './validate.js';
 import { DISCIPLINES, STATUTS_LABELS } from './schema.js';
 import { cible as choisirCible, afficher } from './cible.js';
 import { file as fileControle, afficher as afficherControle, marquer } from './controle.js';
+import { fichesPubliables, serialiser } from './publier.js';
 
 const C = {
   reset: '\x1b[0m', dim: '\x1b[2m', bold: '\x1b[1m',
@@ -125,19 +126,17 @@ async function cmdExport() {
   // pas de ce qui est servi. C'est le client qui n'offre une discipline qu'une fois
   // qu'elle a du stock et une encre (docs/charte-visuelle.md §2.2) — retenir ici une
   // fiche écrite et validée reviendrait à la perdre deux fois.
-  const aExporter = resultats
-    .filter((r) => ['valide', 'publie'].includes(r.fiche.statut))
-    .map(({ fiche }) => {
-      // `controle` reste au pipeline, comme `validation` et `meta` : l'app n'a que
-      // faire de savoir quand on a rouvert les sources, seulement qu'elles tiennent.
-      const { _path, validation, meta, controle, ...publique } = fiche;
-      return publique;
-    });
+  // La projection vient de `src/publier.js` : c'est la **même** que celle du fichier
+  // téléchargé par l'app. Si les deux divergeaient, une fiche n'aurait pas la même
+  // forme selon qu'elle est embarquée ou reçue par le réseau, et le décodeur du
+  // client casserait sur l'une des deux — en clientèle, et seulement chez les gens
+  // qui ont déjà téléchargé.
+  const aExporter = await fichesPubliables(resultats.map((r) => r.fiche));
 
   const dir = path.join(ROOT, 'export');
   await mkdir(dir, { recursive: true });
   const cible = path.join(dir, 'concepts.json');
-  await writeFile(cible, `${JSON.stringify({ concepts: aExporter }, null, 2)}\n`, 'utf8');
+  await writeFile(cible, serialiser(aExporter));
 
   console.log(c('green', `${aExporter.length} fiche(s) exportée(s) → ${path.relative(ROOT, cible)}`));
   return 0;

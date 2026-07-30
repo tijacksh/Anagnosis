@@ -22,7 +22,7 @@
  * `statut: valide` doit rester la trace d'une décision humaine.
  */
 import { loadAll } from './store.js';
-import { DISCIPLINES } from './schema.js';
+import { DISCIPLINES, ENCRES } from './schema.js';
 
 /** Fiches en attente de relecture au-delà desquelles on cesse de produire. */
 export const FILE_MAX = 24;
@@ -54,7 +54,16 @@ export async function cible() {
   const enCours = {};
   for (const f of enAttente) enCours[f.discipline] = (enCours[f.discipline] ?? 0) + 1;
 
-  const classement = Object.keys(DISCIPLINES)
+  // On ne vise que les disciplines habillées. Le client n'offre une discipline que
+  // lorsqu'elle a du stock **et** une encre (docs/charte-visuelle.md §2.2) : produire
+  // pour une discipline sans encre écrit des fiches que `npm run app` écartera, et
+  // que personne ne lira. Le stock le plus mince n'est le bon critère qu'à l'intérieur
+  // de ce qui est servable — sinon la cible désigne indéfiniment les dix disciplines
+  // en attente d'encre, qui resteront à zéro quoi qu'on écrive.
+  const servables = Object.keys(DISCIPLINES).filter((cle) => ENCRES[cle]);
+  const sansEncre = Object.keys(DISCIPLINES).length - servables.length;
+
+  const classement = servables
     .map((cle) => ({
       discipline: cle,
       nom: DISCIPLINES[cle],
@@ -79,6 +88,7 @@ export async function cible() {
     combien: PAR_PASSAGE,
     fileDAttente: enAttente.length,
     total: publiables.length,
+    sansEncre,
     classement,
   };
 }
@@ -101,6 +111,10 @@ export function afficher(c) {
   t('  les cinq disciplines les plus minces :');
   for (const d of c.classement.slice(0, 5)) {
     t(`    ${String(d.publiables).padStart(3)} publiables  ${String(d.enAttente).padStart(2)} en attente   ${d.nom}`);
+  }
+  if (c.sansEncre) {
+    t('');
+    t(`  ${c.sansEncre} discipline(s) hors classement — pas encore d'encre attribuée`);
   }
   t('');
 }

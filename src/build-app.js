@@ -17,50 +17,8 @@ import { readFile, writeFile, mkdir, readdir, copyFile } from 'node:fs/promises'
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
-import { DISCIPLINES } from './schema.js';
-
-/**
- * Encres par discipline — docs/charte-visuelle.md §2.2.
- *
- * Vingt-trois des trente-trois disciplines déclarées ont une encre. Les dix
- * autres — Géographie, les cinq disciplines de « Société », et quatre des
- * « Arts et lettres » — attendent la leur, et sont absentes d'ici à dessein :
- * c'est cette table qui décide de ce que le client peut offrir (voir plus bas).
- */
-const ENCRES = {
-  // Sciences exactes
-  mathematiques: '#00838A',
-  physique: '#0078BF',
-  chimie: '#67B346',
-  astronomie: '#9D7AD2',
-  informatique: '#5EC8E5',
-  statistiques: '#AC936E',
-
-  // Vivant et santé
-  biologie: '#00A95C',
-  medecine: '#FF665E',
-  neurosciences: '#FF8E91',
-  genetique: '#FF7477',
-  ecologie: '#397E58',
-  nutrition: '#E3ED55',
-
-  // Terre et environnement
-  geologie: '#8E595A',
-  climat: '#82D8D5',
-  oceanographie: '#62A8E5',
-  paleontologie: '#BB8B41',
-
-  // Sciences humaines
-  philosophie: '#3D5588',
-  psychologie: '#765BA7',
-  sociologie: '#914E72',
-  anthropologie: '#FF6C2F',
-  linguistique: '#F15060',
-  archeologie: '#FFB511',
-
-  // Arts et lettres
-  litterature: '#FF48B0',
-};
+import { DISCIPLINES, ENCRES } from './schema.js';
+import { fichesPubliables, serialiser, signer, CLE_ENV } from './publier.js';
 
 const SRC = path.join(ROOT, 'app');
 const DEST = path.join(ROOT, 'export', 'app');
@@ -154,9 +112,29 @@ const banc = (await readFile(path.join(BANC, 'index.html'), 'utf8')).replace(
 );
 await writeFile(path.join(SITE, 'index.html'), banc, 'utf8');
 
+// Le contenu du client iOS, signé.
+//
+// C'est ce fichier que l'app télécharge pour recevoir de nouvelles fiches sans passer
+// par l'App Store. Il est publié à côté de l'esquisse, sur le même hébergement.
+//
+// **Sans clé, on ne publie rien.** Un `concepts.json` non signé serait refusé par
+// l'app de toute façon ; le publier quand même donnerait un endpoint qui a l'air de
+// marcher et ne marche pas. Mieux vaut qu'il soit absent, et que le build le dise.
+const octetsContenu = serialiser(await fichesPubliables(publiables));
+const signature = await signer(octetsContenu);
+if (signature) {
+  const dossier = path.join(SITE, 'contenu');
+  await mkdir(dossier, { recursive: true });
+  await writeFile(path.join(dossier, 'concepts.json'), octetsContenu);
+  await writeFile(path.join(dossier, 'concepts.json.sig'), `${signature}\n`, 'utf8');
+}
+
 const ko = (n) => `${Math.round(n / 1024)} Ko`;
 console.log(`${fiches.length} fiches · ${presentes.length} disciplines`);
 console.log(`  ${path.relative(ROOT, DEST)}/            PWA installable (${ko(contenu.length)} de contenu)`);
 console.log(`  export/anagnosis-autonome.html   fichier unique (${ko(seul.length)})`);
 console.log(`  export/site/                     site à publier (banc d'essai + /app/)`);
+console.log(signature
+  ? `  export/site/contenu/             contenu iOS signé (${ko(octetsContenu.length)})`
+  : `  export/site/contenu/             NON PUBLIÉ — aucune clé de signature (${CLE_ENV})`);
 console.log(`  empreinte ${empreinte} — change à chaque modification de l'app`);

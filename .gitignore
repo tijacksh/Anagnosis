@@ -15,3 +15,17 @@ content/illustrations/*.webp
 
 # Réglages Claude Code propres à la machine
 .claude/settings.local.json
+
+# Clé de signature du contenu publié — ne doit JAMAIS entrer dans le dépôt.
+#
+# La clé privée vit dans ~/.anagnosis/signature-privee.pem et, pour la construction
+# Netlify, dans la variable d'environnement ANAGNOSIS_CLE_PRIVEE. Elle seule autorise
+# à publier du contenu que les apps installées accepteront : la divulguer permettrait
+# de réécrire les sources de toutes les fiches chez tous les lecteurs.
+#
+# Ces motifs sont un filet, pas la protection : la protection, c'est que la clé n'est
+# pas ici.
+*.pem
+*.key
+signature-privee*
+.anagnosis/

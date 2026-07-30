@@ -76,6 +76,53 @@ export const DISCIPLINES_EXTENSIONS = {};
 
 export const DISCIPLINES = { ...DISCIPLINES_V1, ...DISCIPLINES_EXTENSIONS };
 
+/**
+ * Encres par discipline — docs/charte-visuelle.md §2.2.
+ *
+ * Vingt-trois des trente-trois disciplines ont une encre. Les dix autres —
+ * Géographie, les cinq disciplines de « Société », et quatre des « Arts et lettres »
+ * — attendent la leur, et sont absentes d'ici à dessein.
+ *
+ * Cette table décide de ce que le client peut offrir : une discipline n'est servie
+ * que si elle a du stock **et** une encre. Elle vit donc dans le schéma, à côté de la
+ * taxonomie, et non dans le seul assembleur de l'app — la production la consulte
+ * aussi, pour ne pas écrire des fiches que personne ne pourra lire.
+ */
+export const ENCRES = {
+  // Sciences exactes
+  mathematiques: '#00838A',
+  physique: '#0078BF',
+  chimie: '#67B346',
+  astronomie: '#9D7AD2',
+  informatique: '#5EC8E5',
+  statistiques: '#AC936E',
+
+  // Vivant et santé
+  biologie: '#00A95C',
+  medecine: '#FF665E',
+  neurosciences: '#FF8E91',
+  genetique: '#FF7477',
+  ecologie: '#397E58',
+  nutrition: '#E3ED55',
+
+  // Terre et environnement
+  geologie: '#8E595A',
+  climat: '#82D8D5',
+  oceanographie: '#62A8E5',
+  paleontologie: '#BB8B41',
+
+  // Sciences humaines
+  philosophie: '#3D5588',
+  psychologie: '#765BA7',
+  sociologie: '#914E72',
+  anthropologie: '#FF6C2F',
+  linguistique: '#F15060',
+  archeologie: '#FFB511',
+
+  // Arts et lettres
+  litterature: '#FF48B0',
+};
+
 export const NIVEAUX = ['introductif', 'intermediaire'];
 
 /**

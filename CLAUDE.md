@@ -81,6 +81,28 @@ Avant de proposer un lot à la relecture :
 6. Lancer `npm test` — les tests contrôlent aussi le contenu réel du dépôt
    (équilibre des quiz, unicité des sources).
 
+## Publier le contenu vers le client iOS
+
+`npm run app` écrit aussi `export/site/contenu/concepts.json` et sa signature Ed25519.
+C'est le fichier que l'app télécharge pour recevoir de nouvelles fiches **sans passer
+par l'App Store** : le corpus embarqué reste le plancher, le fichier reçu ne fait
+qu'ajouter.
+
+La projection des fiches vient de `src/publier.js`, et c'est la **même** que celle de
+`npm run export`. Ne pas en écrire une seconde : une fiche n'aurait plus la même forme
+selon qu'elle est embarquée ou reçue, et le décodeur du client casserait sur l'une des
+deux — chez les seuls lecteurs qui ont déjà téléchargé.
+
+**La clé privée n'entre jamais dans le dépôt.** Elle vit dans
+`~/.anagnosis/signature-privee.pem` et, pour la construction Netlify, dans la variable
+`ANAGNOSIS_CLE_PRIVEE`. Sans clé, `npm run app` ne publie **pas** le dossier `contenu/`
+et le dit : mieux vaut un endpoint absent qu'un endpoint que l'app rejettera.
+
+La clé publique correspondante est dans
+`Anagnosis/Contenu/ContenuDistant.swift`. Un test de l'app vérifie que les deux
+s'accordent — si elles divergent, tout se compile et se déploie, et la mise à jour ne
+fonctionne jamais, sans message nulle part.
+
 ## Contrôler les fiches
 
 `npm run validate` vérifie la **forme**. Il ne sait pas si une source existe ni si elle
