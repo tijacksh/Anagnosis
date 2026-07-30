@@ -4,7 +4,7 @@ Contexte de travail pour Claude Code sur ce dépôt.
 
 ## Ce qu'est ce dépôt
 
-Le **pipeline de contenu** d'Epignosis (Lot 0) : génération des fiches concepts,
+Le **pipeline de contenu** d'Anagnosis (Lot 0) : génération des fiches concepts,
 contrôle qualité, outil de validation Admin, export vers le backend.
 
 Ce n'est **pas** l'app iOS, qui vivra dans un dépôt séparé. Ne pas ajouter ici de
@@ -87,7 +87,6 @@ La production continue se fait **par lots d'une discipline entière**
 
 ## Ce qui reste ouvert
 
-- Nom de l'app (le dépôt s'appelle Epignosis, le brief parle d'un nom provisoire)
 - Direction artistique des illustrations — les `illustration.prompt` actuels sont
   des points de départ, à reprendre au Lot 5 avec Claude Design. Exigence non
   négociable : le rendu ne doit jamais être identifiable comme généré par IA

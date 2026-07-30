@@ -1,6 +1,6 @@
-# Epignosis — pipeline de contenu (Lot 0)
+# Anagnosis — pipeline de contenu (Lot 0)
 
-Génération et validation éditoriale des fiches concepts de l'app Epignosis.
+Génération et validation éditoriale des fiches concepts de l'app Anagnosis.
 
 Ce dépôt **n'est pas l'app**. Il contient la chaîne de production du contenu :
 génération assistée par Claude Code, contrôle qualité automatique, outil de

@@ -1,5 +1,5 @@
 /**
- * Schéma de la base de connaissance Epignosis.
+ * Schéma de la base de connaissance Anagnosis.
  *
  * Source de vérité : les fichiers JSON de `content/concepts/<discipline>/<slug>.json`.
  * Git sert de journal d'audit (qui a validé quoi, quand) — pas de base de données

@@ -198,7 +198,7 @@ const JS = `
 const FICHES = __DATA__;
 const DISCIPLINES = __DISC__;
 const ENCRES = __ENC__;
-const CLE = 'epignosis-apercu-v1';
+const CLE = 'anagnosis-apercu-v1';
 
 const defaut = { onboarde:false, actives:[], jour:0, vues:[], quiz:{} };
 let S = { ...defaut, ...JSON.parse(localStorage.getItem(CLE) || '{}') };
@@ -295,7 +295,7 @@ function ecranPartage() {
     + '<div class="share"><span class="ink i1"></span><span class="ink i2"></span><span class="ink i3"></span>'
     + '<span class="grain"></span>'
     + '<div class="sct"><div class="zone"></div><p class="p">' + esc(c.punch) + '</p><p class="i">' + esc(c.idee) + '</p>'
-    + '<div class="f"><span class="s">' + esc(c.source_courte) + '</span><span class="b">Epignosis</span></div>'
+    + '<div class="f"><span class="s">' + esc(c.source_courte) + '</span><span class="b">Anagnosis</span></div>'
     + '</div></div>'
     + '<button class="cta act-s" id="envoyer" style="max-width:300px">Partager en story</button>'
     + '<button class="cta ghost" id="retour" style="max-width:300px;margin-top:0">Retour</button>'
@@ -427,7 +427,7 @@ rendre();
 const corpsHtml = `<div class="demo">
   <header class="demo-head">
     <div>
-      <h1>Epignosis — aperçu cliquable</h1>
+      <h1>Anagnosis — aperçu cliquable</h1>
       <p>Maquette de démonstration, avec ${fiches.length} concepts réels et validés. Ce n'est pas l'app :
       c'est un aperçu pour réagir au contenu et à la direction visuelle. Vos choix restent dans ce navigateur.</p>
     </div>
@@ -447,13 +447,13 @@ ${JS
 
 const artifact = process.argv.includes('--artifact');
 const html = artifact
-  ? `<title>Epignosis — aperçu cliquable</title>\n<style>${CSS}</style>\n${corpsHtml}`
+  ? `<title>Anagnosis — aperçu cliquable</title>\n<style>${CSS}</style>\n${corpsHtml}`
   : `<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Epignosis — aperçu cliquable</title>
+<title>Anagnosis — aperçu cliquable</title>
 <style>${CSS}</style>
 </head>
 <body>

@@ -6,6 +6,28 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-07-30 — L'app s'appelle Anagnosis
+
+**Décidé :** le nom est **Anagnosis**. Le brief laissait la question ouverte
+(§14, avec des pistes en §16) ; elle est close. Le dépôt est désormais
+`github.com/tijacksh/anagnosis`, et toutes les références dans le code, les
+documents et la maquette ont été renommées.
+
+**Ce que ça ferme :** la ligne « Nom de l'app » disparaît des points ouverts.
+Reste à dessiner le **logotype** — voir `docs/direction-artistique.md` §13.
+
+**Point à surveiller côté design :** le mot est long. Il doit rester lisible en
+très petit en bas de la carte partagée (~10 px à l'échelle 1080) et fonctionner
+en grand à l'ouverture de l'app. C'est la contrainte principale du logotype, et
+elle a été ajoutée au cahier des charges.
+
+**Le brief n'a pas été réécrit.** `docs/brief-produit.md` reste le document
+d'origine, avec son « [Nom provisoire] » en titre : c'est la pièce de référence
+datée, et la réécrire effacerait la trace de ce qui a été décidé depuis. Ce
+journal fait foi pour tout ce qui a changé après le brief.
+
+---
+
 ## 2026-07-30 — Direction artistique : risographie
 
 **Décidé :** direction **C · Risographie**, retenue parmi quatre propositions (deux

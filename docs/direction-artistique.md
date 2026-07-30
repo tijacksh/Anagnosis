@@ -11,7 +11,7 @@
 
 ## 1. Le mandat
 
-Concevoir l'identité visuelle d'Epignosis : un concept par jour, expliqué en 2-3
+Concevoir l'identité visuelle d'Anagnosis : un concept par jour, expliqué en 2-3
 minutes, sourcé, et **partageable en story**. Le partage est le moteur de croissance
 (`docs/decisions.md`) — la carte partageable est donc le premier livrable, pas un
 sous-produit de l'écran de lecture.
@@ -256,8 +256,10 @@ exportables via `npm run export`.
   illustrations (contrôle total, rendu garanti), ou l'app à la volée (permet d'y
   afficher le pseudo ou la série du lecteur, plus viral). À trancher avant le Lot 2 :
   la réponse change la maquette autant que l'architecture.
-- **Nom de l'app.** Le dépôt s'appelle Epignosis, le brief parle d'un nom provisoire
-  (§16). L'identité typographique du logotype en dépend.
+- **Le logotype.** Le nom est arrêté — *Anagnosis* — mais son traitement
+  typographique reste à dessiner. Il doit tenir en très petit sur la carte
+  partagée (bas de visuel, ~10 px à l'échelle 1080) comme en grand à l'ouverture
+  de l'app. Le mot est long : c'est la contrainte principale.
 - **Le mode sombre** conserve-t-il le grain et la surimpression, ou bascule-t-il sur
   un traitement distinct ?
 - **Les encres des quatre disciplines d'extension**, à attribuer quand elles seront

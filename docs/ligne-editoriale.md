@@ -1,4 +1,4 @@
-# Ligne éditoriale — Epignosis
+# Ligne éditoriale — Anagnosis
 
 Ce document est la référence de génération. Toute fiche produite par le pipeline
 doit pouvoir être relue à l'aune de ce texte. Il complète `docs/brief-produit.md`
@@ -9,7 +9,7 @@ doit pouvoir être relue à l'aune de ce texte. Il complète `docs/brief-produit
 Le brief (§3) identifie un seul angle réellement libre sur le marché :
 **la profondeur et la rigueur des sources, plutôt que le trivia**.
 
-Concrètement, cela veut dire qu'une fiche Epignosis doit être *jugeable*. Un
+Concrètement, cela veut dire qu'une fiche Anagnosis doit être *jugeable*. Un
 lecteur qui connaît déjà le sujet ne doit pas hausser les épaules ; un lecteur
 qui ne le connaît pas doit repartir avec quelque chose de solide, pas avec une
 anecdote de dîner. C'est la contrainte la plus coûteuse du projet, et c'est la
@@ -36,7 +36,7 @@ Le corps suit une structure en trois temps :
 3. **Le déplacement** — ce qui change une fois qu'on a compris : une conséquence
    inattendue, une idée reçue qui tombe, un prolongement vers un autre champ.
 
-Le troisième temps est celui qui distingue Epignosis d'une fiche Wikipédia
+Le troisième temps est celui qui distingue Anagnosis d'une fiche Wikipédia
 abrégée. S'il n'y a pas de déplacement, la fiche n'a pas lieu d'être.
 
 ## 3. Règles de rigueur

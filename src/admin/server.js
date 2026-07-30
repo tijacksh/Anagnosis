@@ -154,7 +154,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, HOST, () => {
-  console.log(`\n  Epignosis — outil de validation`);
+  console.log(`\n  Anagnosis — outil de validation`);
   console.log(`  http://${HOST}:${PORT}\n`);
   console.log(`  Raccourcis : V valider · R retouche · X rejeter · J/K naviguer · Échap file\n`);
 });

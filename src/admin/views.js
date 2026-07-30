@@ -129,12 +129,12 @@ export function page({ titre, corps, sousTitre = '' }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escape(titre)} — Epignosis Admin</title>
+<title>${escape(titre)} — Anagnosis Admin</title>
 <style>${CSS}</style>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <h1>Epignosis</h1>
+  <h1>Anagnosis</h1>
   <span class="sub">Validation éditoriale${sousTitre ? ` — ${escape(sousTitre)}` : ''}</span>
   <nav><a href="/">File d'attente</a><a href="/?statut=valide">Validées</a><a href="/?statut=rejete">Rejetées</a></nav>
 </div></header>
