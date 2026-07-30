@@ -104,8 +104,7 @@ exige une note — sans motif, la regénération n'a rien pour travailler.
 | | |
 |---|---|
 | Fiches en base | 32 |
-| Validées | 20 |
-| En attente de relecture | 12 (pack Psychologie) |
+| Validées | 32 — soit un mois de contenu |
 | Cible Lot 0 (brief §13) | 20-30 — **atteinte** |
 | Cible avant lancement public (brief §9) | 200-300, soit 60-90 jours d'avance |
 
