@@ -24,6 +24,7 @@ avoir.
 - `docs/brief-produit.md` — le produit, le positionnement, le modèle économique
 - `docs/ligne-editoriale.md` — **la référence pour toute génération de contenu**
 - `docs/decisions.md` — ce qui a été tranché depuis le brief, et pourquoi
+- `docs/passation-ios.md` — **le brief du client iOS**, à lire depuis le dépôt de l'app
 - `docs/direction-artistique.md` — l'intention visuelle (direction risographie)
 - `docs/charte-visuelle.md` — **les valeurs** : couleur, surimpression, grain, typo
 - `docs/systeme-illustration.md` — grille, six opérations, champ `illustration`
