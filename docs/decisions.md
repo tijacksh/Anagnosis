@@ -6,6 +6,23 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-07-30 — Pack Philosophie validé : cible du Lot 0 atteinte
+
+Les 12 fiches de philosophie sont validées sans réserve. La base compte
+**20 fiches validées**, ce qui atteint la cible du Lot 0 (20-30 fiches produites et
+validées via le pipeline complet, brief §13).
+
+Le pipeline a donc fait son tour complet deux fois, sur deux registres très
+différents — sciences expérimentales et histoire des idées — sans que le schéma ni
+la ligne éditoriale aient eu besoin d'être refondus. Les seuls ajustements ont été
+l'ajout de la discipline Médecine / Santé, le champ `carte`, et l'autorisation des
+années négatives pour les sources antiques.
+
+Reste à faire avant lancement public : passer de 20 à 200-300 fiches, en gardant un
+socle sur toutes les disciplines actives.
+
+---
+
 ## 2026-07-29 — Le partage en story devient le moteur de croissance
 
 **Décidé :** le partage d'une carte-image du concept du jour passe de V1.5

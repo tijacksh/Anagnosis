@@ -70,10 +70,27 @@
     ],
     "bonne_reponse": 2,
     "explication": "Dire « ce principe a toujours fonctionné, donc il fonctionnera » utilise précisément l'inférence qu'il s'agissait de fonder : le raisonnement présuppose sa conclusion. Le problème n'est ni le nombre d'observations ni leur précision — même une expérience parfaite et illimitée laisserait le cercle intact.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-29", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T04:54:15.328Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T04:54:15.328Z",
+        "note": "Revue du pack Philosophie — validé sans réserve"
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

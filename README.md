@@ -89,9 +89,8 @@ exige une note — sans motif, la regénération n'a rien pour travailler.
 | | |
 |---|---|
 | Fiches en base | 20 |
-| Validées | 8 (lot Doppler) |
-| En attente de relecture | 12 (pack Philosophie) |
-| Cible Lot 0 (brief §13) | 20-30 |
+| Validées | 20 |
+| Cible Lot 0 (brief §13) | 20-30 — **atteinte** |
 | Cible avant lancement public (brief §9) | 200-300, soit 60-90 jours d'avance |
 
 Répartition : 12 philosophie, 6 physique, 1 biologie, 1 médecine.
