@@ -35,7 +35,7 @@ autre chose, le crédit gagne.
 
 | Discipline | Encre Riso | Hex | Contraste sur papier |
 |---|---|---|---|
-| Philosophie | Federal Blue | `#3D5588` | 4,9:1 |
+| Philosophie | Federal Blue | `#3D5588` | 6,4:1 |
 | Sociologie | Burgundy | `#914E72` | 5,2:1 |
 | Anthropologie | Orange | `#FF6C2F` | 2,4:1 ⚠ |
 | Psychologie | Purple | `#765BA7` | 4,6:1 |
