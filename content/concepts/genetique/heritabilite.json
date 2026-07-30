@@ -1,0 +1,80 @@
+{
+  "id": "gen-heritabilite",
+  "slug": "heritabilite",
+  "titre": "L'héritabilité ne dit rien de vous",
+  "accroche": "« La taille est héritable à 80 % » ne signifie pas que 80 % de votre taille vient de vos gènes. Ce n'est pas la même phrase",
+  "discipline": "genetique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "On lit régulièrement que tel caractère est héritable à tant pour cent. Et l'on comprend spontanément : cette part de mon caractère vient de mes gènes, le reste de mon environnement.\n\nCe n'est pas ce que le nombre signifie. Pas approximativement — pas du tout.\n\n## Ce que la grandeur mesure\n\nL'héritabilité est un rapport de variances. Elle répond à la question : dans cette population, quelle part des *différences* observées entre individus s'explique par les *différences* génétiques entre eux ?\n\nTrois conséquences en découlent, et chacune contredit l'usage courant.\n\nElle ne s'applique pas à un individu. Un rapport entre des écarts n'a de sens que sur un groupe : demander la part génétique de votre taille à vous est une question mal formée, comme demander le taux de natalité d'une personne.\n\nElle dépend de la population mesurée. Dans un pays où tous les enfants mangent à leur faim, les différences de taille tiennent surtout aux gènes : l'héritabilité y est élevée. Dans un pays où l'alimentation varie fortement, la même caractéristique, dans la même espèce, donne un chiffre plus bas. La grandeur décrit une situation, pas une nature.\n\nElle ne dit rien sur la modifiabilité. Le port de lunettes est fortement héritable — la myopie l'est — et parfaitement corrigeable. Un caractère très héritable peut être changé par un moyen extérieur, et un caractère peu héritable peut être impossible à modifier.\n\n## Le cas qui rend l'affaire concrète\n\nPrenez deux champs semés avec le même mélange de graines. L'un est bien arrosé, l'autre non.\n\nÀ l'intérieur de chaque champ, les différences de hauteur entre plants tiennent presque entièrement aux graines : l'héritabilité y est très forte, disons proche de 1.\n\nEt pourtant l'écart de hauteur *entre les deux champs* est intégralement dû à l'arrosage.\n\nUne héritabilité élevée à l'intérieur de groupes n'autorise donc aucune conclusion sur l'origine des écarts entre ces groupes. C'est l'erreur la plus lourde de conséquences que la notion permette, et elle a servi à beaucoup de choses.\n\n## Pourquoi on continue de s'en servir\n\nLa grandeur reste utile là où elle a été forgée : la sélection animale et végétale. Un éleveur veut savoir dans quelle mesure choisir les meilleurs reproducteurs déplacera la moyenne à la génération suivante — c'est exactement ce que l'héritabilité prédit, dans cette population et dans cet élevage.\n\nLe malentendu naît de son transport hors de ce cadre, où le mot « héritable » se met à évoquer « inné », « fixé », « transmis ».\n\nUn nombre bien défini peut être parfaitement inutilisable dès qu'on le sort de la question à laquelle il répond.",
+  "citation": null,
+  "repere": {
+    "texte": "L'héritabilité mesure la part de la variance d'un caractère, dans une population donnée, attribuable aux différences génétiques entre individus. Elle change de valeur si la population ou l'environnement changent.",
+    "source": "Dominique de Vienne, « Une notion fondamentale en génétique quantitative : l'héritabilité », INRA / Université Paris-Saclay",
+    "url": "http://moulon.inra.fr/~ddevienne/UE_GPop_2016-2017/He%CC%81ritabilite%CC%81_D_de_Vienne.pdf"
+  },
+  "carte": {
+    "punch": "Demander la part génétique de votre taille est aussi mal formé que demander votre taux de natalité.",
+    "idee": "L'héritabilité mesure la part des différences entre individus d'une population attribuable à leurs différences génétiques. Elle ne s'applique pas à un individu, change avec la population, et ne dit rien de ce qu'on peut modifier.",
+    "source_courte": "de Vienne, INRA"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "de Vienne, Dominique",
+      "titre": "Une notion fondamentale en génétique quantitative : l'héritabilité",
+      "publication": "INRA, Le Moulon / Université Paris-Saclay",
+      "annee": 2017,
+      "url": "http://moulon.inra.fr/~ddevienne/UE_GPop_2016-2017/He%CC%81ritabilite%CC%81_D_de_Vienne.pdf",
+      "note": "En français, en accès libre. Définition rigoureuse et contresens les plus fréquents."
+    },
+    {
+      "type": "web",
+      "auteur": "Pirinen, Matti",
+      "titre": "GWAS 8: Heritability and mixed models",
+      "publication": "Université d'Helsinki",
+      "annee": 2023,
+      "url": "https://www.mv.helsinki.fi/home/mjxpirin/GWAS_course/material/GWAS8.html",
+      "note": "Support de cours ; formalise pourquoi la grandeur est propre à une population."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "de Vienne — L'héritabilité (INRA)",
+      "url": "http://moulon.inra.fr/~ddevienne/UE_GPop_2016-2017/He%CC%81ritabilite%CC%81_D_de_Vienne.pdf",
+      "note": "En français ; les premières pages suffisent à lever le malentendu principal."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux rectangles côte à côte, chacun contenant une rangée de barres verticales de hauteurs très variées ; les barres du rectangle de droite sont toutes nettement plus hautes que celles de gauche, mais la dispersion interne est identique dans les deux. Barres de droite en aplat orange fluorescent saturé, barres de gauche en encre sombre, papier crème. Léger hors-repérage. Aucune plante, aucune figure humaine.",
+    "alt": "Deux groupes de barres à dispersion identique, l'un décalé vers le haut",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que mesure exactement l'héritabilité d'un caractère ?",
+    "choix": [
+      "La part de ce caractère, chez un individu, qui provient de ses gènes",
+      "La probabilité qu'un parent transmette ce caractère à son enfant",
+      "La part des différences entre individus d'une population due à leurs différences génétiques",
+      "Le degré auquel un caractère résiste aux interventions extérieures"
+    ],
+    "bonne_reponse": 2,
+    "explication": "C'est un rapport entre des variances, donc une propriété de population : il n'a pas de sens pour un individu, et il change si la population ou l'environnement changent. Il ne dit rien non plus de la modifiabilité — la myopie est fortement héritable, et une paire de lunettes la corrige.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "gen-donnees-de-mendel",
+  "slug": "donnees-de-mendel",
+  "titre": "Les résultats de Mendel collent trop bien à sa théorie",
+  "accroche": "En 1936, Fisher reprend les comptages de pois de Mendel. Ils sont statistiquement trop proches de l'attendu",
+  "discipline": "genetique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Gregor Mendel cultive des pois pendant huit ans et compte. Combien de graines lisses, combien de ridées ; combien de fleurs pourpres, combien de blanches. Des dizaines de milliers de plants.\n\nDe ces comptages sortent des rapports simples — trois pour un, neuf pour trois pour trois pour un — dont il tire les lois qui fondent la génétique.\n\nEn 1936, le statisticien Ronald Fisher reprend ces données. Il ne conteste pas les lois. Il examine la qualité de l'accord entre les comptages et les proportions théoriques.\n\n## Ce qu'un bon résultat doit avoir d'imparfait\n\nUne théorie qui prédit trois pour un ne prédit pas exactement trois pour un dans un échantillon fini.\n\nSi vous jouez à pile ou face cent fois, vous n'obtenez pas cinquante et cinquante, mais quarante-sept, ou cinquante-trois. L'écart au résultat attendu est lui-même prévisible : il a une taille typique, que le calcul donne.\n\nDes données réelles doivent donc s'écarter de la théorie, dans une mesure calculable. Un accord trop parfait est aussi suspect qu'un désaccord.\n\n## Ce que Fisher trouve\n\nLes comptages de Mendel s'écartent de l'attendu beaucoup moins qu'ils ne le devraient. Pas sur une expérience — sur l'ensemble, à travers des dizaines de séries, sur huit ans.\n\nFisher évalue la probabilité d'obtenir par hasard un accord aussi bon sur autant d'expériences. Elle est très faible.\n\nSa conclusion est prudente, et il faut la citer telle qu'elle est. Il loue longuement la rigueur du dispositif expérimental. Il n'accuse pas Mendel de fraude, et suggère notamment qu'un assistant, sachant ce qu'on attendait, ait pu ajuster des comptages.\n\n## Ce que le débat est devenu\n\nLa controverse dure depuis. Plusieurs explications ont été avancées, sans qu'aucune emporte tout.\n\nUn biais de classement, d'abord : certaines graines sont ambiguës, et la main hésite du côté attendu sans intention de tricher. L'arrêt sélectif ensuite — cesser de compter quand le rapport est joli est un geste qu'aucune norme de l'époque n'interdisait. Certains ont proposé des modèles statistiques rendant compte de l'écart sans fraude.\n\nCe qu'aucun n'a fait, c'est montrer que les données sont ordinaires.\n\n## Pourquoi ça n'invalide rien\n\nLes lois de Mendel sont vraies. Elles ont été redécouvertes indépendamment en 1900, vérifiées sur d'innombrables espèces, et expliquées ensuite par la mécanique des chromosomes.\n\nC'est précisément ce qui rend le cas intéressant. On peut avoir raison et produire des données douteuses ; on peut fonder une science et avoir arrangé ses comptages.\n\nLe résultat ne tient pas parce que Mendel était rigoureux. Il tient parce que d'autres ont refait ses expériences.",
+  "citation": null,
+  "repere": {
+    "texte": "Fisher évalue par des tests du chi carré des dizaines d'expériences menées sur huit ans : l'accord entre les comptages de Mendel et les proportions théoriques est systématiquement meilleur que ce que le hasard produit.",
+    "source": "Fisher, « Has Mendel's work been rediscovered? », Annals of Science, 1, 1936",
+    "url": "https://genepi.qimr.edu.au/contents/p/staff/1936_Fisher_AnnalsScience.pdf"
+  },
+  "carte": {
+    "punch": "Des données réelles doivent s'écarter de la théorie. Celles de Mendel s'en écartent trop peu.",
+    "idee": "Fisher reprend en 1936 les comptages de pois de Mendel : l'accord avec les proportions attendues est meilleur que ce que le hasard permet. Les lois n'en restent pas moins vraies — parce que d'autres ont refait les expériences.",
+    "source_courte": "Fisher, Annals of Science, 1936"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Fisher, Ronald A.",
+      "titre": "Has Mendel's work been rediscovered?",
+      "publication": "Annals of Science, 1 (2)",
+      "annee": 1936,
+      "url": "https://genepi.qimr.edu.au/contents/p/staff/1936_Fisher_AnnalsScience.pdf",
+      "note": "p. 115-137. Numérisation en accès libre de l'article original."
+    },
+    {
+      "type": "article",
+      "auteur": "Pires, Ana M. & Branco, João A.",
+      "titre": "A Statistical Model to Explain the Mendel–Fisher Controversy",
+      "publication": "Statistical Science, 25 (4)",
+      "annee": 2010,
+      "url": "https://arxiv.org/pdf/1104.2975",
+      "note": "Accès libre. Propose un modèle rendant compte de l'écart sans supposer de fraude."
+    },
+    {
+      "type": "article",
+      "auteur": "Piegorsch, Walter W.",
+      "titre": "Whatever happened to the Gregor Mendel controversy?",
+      "publication": "Cornell University eCommons",
+      "annee": 1990,
+      "url": "https://ecommons.cornell.edu/bitstreams/e701bfb8-db34-4c80-8ad2-945a2caec083/download",
+      "note": "Accès libre. Passe en revue les explications avancées depuis 1936."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Pires & Branco (2010) — A Statistical Model to Explain the Mendel–Fisher Controversy",
+      "url": "https://arxiv.org/pdf/1104.2975",
+      "note": "En anglais, en accès libre ; l'introduction résume un siècle de débat."
+    }
+  ],
+  "illustration": {
+    "prompt": "Un nuage de points dispersés autour d'une ligne horizontale à gauche de la composition, se resserrant à droite jusqu'à former une file presque parfaitement alignée sur cette ligne. Points en aplat orange fluorescent saturé, ligne en encre sombre sur papier crème. Léger hors-repérage constant. Aucune graine, aucune plante, aucune graduation.",
+    "alt": "Nuage de points dispersé à gauche, resserré sur une ligne à droite",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi un accord trop bon entre données et théorie est-il suspect ?",
+    "choix": [
+      "Parce qu'il signale que la théorie a été construite après coup sur les données",
+      "Parce qu'il indique que l'échantillon était trop petit pour être représentatif",
+      "Parce que la théorie ne peut jamais prédire exactement ce qu'on observe",
+      "Parce que l'écart au résultat attendu a une taille typique, que le calcul donne"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Cent lancers de pièce ne donnent pas cinquante et cinquante : ils s'en écartent d'une quantité prévisible. Des comptages qui collent systématiquement mieux que cette marge sont donc improbables. Fisher n'a pas conclu à la fraude — il a montré que l'accord dépassait ce que le hasard produit, sur des dizaines d'expériences.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "ok",
+    "empreinte": "b9a35adfdfcaf849",
+    "notes": [
+      "Sources rouvertes (Fisher 1936 Annals of Science en accès libre, Pires & Branco 2010 Statistical Science/arXiv, Piegorsch 1990 Cornell eCommons — titre et auteur confirmés par recoupement indépendant malgré blocage anti-robot direct). Contenu, citation/repère, carte et quiz conformes aux sources."
+    ]
+  }
+}

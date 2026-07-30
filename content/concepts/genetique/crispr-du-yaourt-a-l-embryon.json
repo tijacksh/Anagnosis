@@ -1,0 +1,97 @@
+{
+  "id": "gen-crispr-du-yaourt-a-l-embryon",
+  "slug": "crispr-du-yaourt-a-l-embryon",
+  "titre": "L'outil qui réécrit le vivant vient d'un problème de yaourt",
+  "accroche": "CRISPR a été découvert par des industriels cherchant des bactéries qui résistent aux virus dans les ferments",
+  "discipline": "genetique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Fabriquer du yaourt suppose des bactéries vivantes. Ces bactéries ont des virus — les bactériophages — et une contamination peut ruiner une production entière. C'est un problème industriel banal, coûteux, et vieux comme la fermentation.\n\nDans les années 2000, une entreprise danoise de ferments cherche à sélectionner des souches naturellement résistantes. Ses chercheurs comparent les génomes de bactéries qui survivent aux attaques et de celles qui n'y survivent pas.\n\n## Ce qu'ils trouvent dans le génome\n\nCertaines régions du génome bactérien avaient intrigué depuis les années 1980 sans qu'on sache à quoi elles servaient : des séquences courtes, répétées à intervalles réguliers, séparées par des segments variables. On les appelait CRISPR, d'après leur description.\n\nEn 2005, l'équipe remarque que ces segments variables ressemblent à de l'ADN de virus.\n\nLa lecture qui s'impose alors est spectaculaire dans sa simplicité. Ces régions sont une archive : quand une bactérie survit à une attaque, elle range un fragment du virus dans son génome. Ce fragment sert ensuite de modèle de reconnaissance — une protéine associée le compare à l'ADN entrant, et coupe s'il correspond.\n\nUne bactérie possède donc une mémoire immunitaire, héritable, dont on peut lire l'historique des infections.\n\nL'article de 2007 le démontre expérimentalement. Depuis 2011, les ferments industriels sont sélectionnés sur cette base.\n\n## Du système naturel à l'outil\n\nCe qui suit tient au fait qu'un mécanisme de reconnaissance est un mécanisme d'adressage.\n\nSi la protéine coupe l'ADN qui correspond au fragment archivé, alors changer le fragment change la cible. On peut donc lui fournir un guide de son choix et lui faire couper une séquence précise, dans n'importe quel génome.\n\nCette reformulation a valu le prix Nobel de chimie 2020, et transformé l'édition du génome en opération de laboratoire courante.\n\n## Ce que l'histoire a d'instructif\n\nOn cite volontiers CRISPR comme argument en faveur de la recherche fondamentale. Ce n'est pas tout à fait exact, et le cas est plus intéressant que ça.\n\nLes séquences répétées ont été décrites par curiosité, sans usage en vue — c'est bien de la recherche fondamentale. Mais leur fonction a été élucidée par des industriels sur un problème très appliqué : sauver des cuves de yaourt.\n\nNi l'un ni l'autre n'aurait suffi. Ceux qui avaient l'objet n'avaient pas la question ; ceux qui avaient la question ne cherchaient pas cet objet.\n\nEt personne, dans aucune des deux équipes, ne travaillait à réécrire le génome humain.",
+  "citation": null,
+  "repere": {
+    "texte": "En 2005, des chercheurs de l'industrie laitière remarquent que les segments variables des régions CRISPR bactériennes ressemblent à de l'ADN de bactériophage. Depuis 2011, les ferments industriels sont sélectionnés sur cette immunité.",
+    "source": "« QnAs with Rodolphe Barrangou », Proceedings of the National Academy of Sciences, 2017",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1710348114"
+  },
+  "carte": {
+    "punch": "L'outil qui réécrit le vivant vient d'un problème de cuve à yaourt.",
+    "idee": "Les régions CRISPR intriguaient depuis les années 1980. Leur fonction a été élucidée par des industriels du ferment cherchant des bactéries résistantes aux virus : c'est une archive des infections passées, donc un système d'adressage.",
+    "source_courte": "PNAS, QnAs with Barrangou"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Nair, Prashant",
+      "titre": "QnAs with Rodolphe Barrangou",
+      "publication": "PNAS, 114",
+      "annee": 2017,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1710348114",
+      "note": "Barrangou revient sur le problème industriel qui a mené à la démonstration de 2007."
+    },
+    {
+      "type": "article",
+      "auteur": "Davis, Tinsley H.",
+      "titre": "Profile of Rodolphe Barrangou",
+      "publication": "PNAS, 116",
+      "annee": 2019,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1911079116",
+      "note": "Chronologie des travaux chez Danisco et de leur passage à l'édition du génome."
+    },
+    {
+      "type": "web",
+      "auteur": "Barrangou, Rodolphe",
+      "titre": "CRISPR-Cas: from bacterial adaptive immunity to a genome editing revolution",
+      "publication": "Explore Biology",
+      "annee": 2022,
+      "url": "https://explorebiology.org/collections/genetics/crispr-cas:-from-bacterial-adaptive-immunity-to-a-genome-editing-revolution",
+      "note": "Exposé du mécanisme, de l'immunité bactérienne à l'outil d'édition."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "iBiology — The CRISPR Apostle: Rodolphe Barrangou",
+      "url": "https://www.ibiology.org/microbiology/crispr-apostle/",
+      "note": "En anglais ; l'histoire racontée par l'un de ceux qui l'ont faite."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une bande horizontale composée de motifs identiques régulièrement espacés, séparés par des segments tous différents les uns des autres ; une flèche part de l'un de ces segments variables et pointe vers un brin isolé placé en dessous, qu'une forme en pince vient sectionner. Segments variables en aplat orange fluorescent saturé, motifs répétés en encre sombre, papier crème. Léger hors-repérage. Aucune bactérie figurative, aucune figure humaine.",
+    "alt": "Bande de motifs répétés séparés par des segments variables, l'un pointant vers un brin sectionné",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que sont les segments variables des régions CRISPR bactériennes ?",
+    "choix": [
+      "Des fragments d'ADN de virus, archivés après une infection survécue",
+      "Des erreurs de copie accumulées au fil des divisions cellulaires",
+      "Des gènes de résistance échangés entre bactéries voisines",
+      "Des séquences de régulation qui contrôlent la vitesse de reproduction"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Une bactérie qui survit à une attaque range un fragment du virus dans son génome : la région CRISPR est une archive des infections passées, lisible comme un historique. Ce fragment sert ensuite de modèle de reconnaissance — et c'est ce mécanisme d'adressage qu'on a détourné pour couper n'importe quelle séquence choisie.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "corrige",
+    "empreinte": "e4ec8b2deb726ce2",
+    "notes": [
+      "Sources rouvertes (QnAs Barrangou PNAS 2017, Profile Barrangou PNAS 2019, Explore Biology 2022, iBiology) : contenu conforme (Danisco, 2005, article 2007, sélection 2011). Corrigé : champ auteur des deux articles PNAS renseignait le nom de la revue au lieu de l'auteur réel (Nair, Prashant ; Davis, Tinsley H.)."
+    ]
+  }
+}
