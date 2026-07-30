@@ -14,20 +14,51 @@
  * Xcode ni App Store. Le client natif vivra dans son propre dépôt.
  */
 import { readFile, writeFile, mkdir, readdir, copyFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
-import { DISCIPLINES, DISCIPLINES_V1 } from './schema.js';
+import { DISCIPLINES } from './schema.js';
 
-/** Encres par discipline — docs/charte-visuelle.md §2.2 */
+/**
+ * Encres par discipline — docs/charte-visuelle.md §2.2.
+ *
+ * Vingt-trois des trente-trois disciplines déclarées ont une encre. Les dix
+ * autres — Géographie, les cinq disciplines de « Société », et quatre des
+ * « Arts et lettres » — attendent la leur, et sont absentes d'ici à dessein :
+ * c'est cette table qui décide de ce que le client peut offrir (voir plus bas).
+ */
 const ENCRES = {
-  philosophie: '#3D5588',
-  sociologie: '#914E72',
-  anthropologie: '#FF6C2F',
-  psychologie: '#765BA7',
-  biologie: '#00A95C',
-  medecine: '#FF665E',
+  // Sciences exactes
   mathematiques: '#00838A',
   physique: '#0078BF',
+  chimie: '#67B346',
+  astronomie: '#9D7AD2',
+  informatique: '#5EC8E5',
+  statistiques: '#AC936E',
+
+  // Vivant et santé
+  biologie: '#00A95C',
+  medecine: '#FF665E',
+  neurosciences: '#FF8E91',
+  genetique: '#FF7477',
+  ecologie: '#397E58',
+  nutrition: '#E3ED55',
+
+  // Terre et environnement
+  geologie: '#8E595A',
+  climat: '#82D8D5',
+  oceanographie: '#62A8E5',
+  paleontologie: '#BB8B41',
+
+  // Sciences humaines
+  philosophie: '#3D5588',
+  psychologie: '#765BA7',
+  sociologie: '#914E72',
+  anthropologie: '#FF6C2F',
+  linguistique: '#F15060',
+  archeologie: '#FFB511',
+
+  // Arts et lettres
   litterature: '#FF48B0',
 };
 
@@ -36,8 +67,16 @@ const DEST = path.join(ROOT, 'export', 'app');
 const BANC = path.join(ROOT, 'banc');
 const SITE = path.join(ROOT, 'export', 'site');
 
-const fiches = (await loadAll())
-  .filter((f) => ['valide', 'publie'].includes(f.statut) && DISCIPLINES_V1[f.discipline])
+const publiables = (await loadAll()).filter((f) => ['valide', 'publie'].includes(f.statut));
+
+// Une discipline n'est offerte que lorsqu'elle a du stock **et** une encre
+// (docs/charte-visuelle.md §2.2). Le stock se constate — une discipline sans fiche
+// validée n'entre pas dans `presentes`. L'encre, elle, se vérifie ici : la taxonomie
+// peut être posée en entier sans qu'une discipline s'ouvre avant d'être habillée.
+const sansEncre = publiables.filter((f) => !ENCRES[f.discipline]);
+
+const fiches = publiables
+  .filter((f) => ENCRES[f.discipline])
   .map(({ _path, validation, meta, pour_aller_plus_loin, sources, ...f }) => ({
     ...f,
     // Les sources restent embarquées : c'est le cœur du positionnement, une app
@@ -50,6 +89,15 @@ const fiches = (await loadAll())
     })),
   }))
   .sort((a, b) => a.id.localeCompare(b.id));
+
+// Une fiche écrite et validée qui disparaît de l'export sans un mot est un piège :
+// on la croit servie. On dit donc ce qui est écarté, et pourquoi.
+if (sansEncre.length) {
+  const disciplines = [...new Set(sansEncre.map((f) => f.discipline))]
+    .map((d) => DISCIPLINES[d] ?? d)
+    .join(', ');
+  console.warn(`${sansEncre.length} fiche(s) validée(s) écartée(s), faute d'encre attribuée : ${disciplines}`);
+}
 
 if (!fiches.length) {
   console.error('Aucune fiche validée — rien à embarquer. Lancez d\'abord la validation.');
@@ -70,10 +118,18 @@ for (const f of await readdir(SRC)) {
 }
 await writeFile(path.join(DEST, 'contenu.js'), contenu, 'utf8');
 
-// Variante mono-fichier, pour envoyer l'app par message ou la publier telle quelle.
 const [html, css, js] = await Promise.all(
   ['index.html', 'styles.css', 'app.js'].map((f) => readFile(path.join(SRC, f), 'utf8')),
 );
+
+// Le service worker porte l'empreinte de ce qu'il sert. Deux assemblages
+// identiques donnent le même nom de cache — rien ne bouge inutilement ; un
+// changement en donne un nouveau, et l'ancien est purgé à l'activation.
+const empreinte = createHash('sha256').update(html + css + js + contenu).digest('hex').slice(0, 10);
+const sw = (await readFile(path.join(SRC, 'sw.js'), 'utf8')).replace('__EMPREINTE__', empreinte);
+await writeFile(path.join(DEST, 'sw.js'), sw, 'utf8');
+
+// Variante mono-fichier, pour envoyer l'app par message ou la publier telle quelle.
 const seul = html
   .replace(/<link rel="manifest"[^>]*>/, '')
   .replace(/<link rel="icon"[^>]*>/, '')
@@ -103,3 +159,4 @@ console.log(`${fiches.length} fiches · ${presentes.length} disciplines`);
 console.log(`  ${path.relative(ROOT, DEST)}/            PWA installable (${ko(contenu.length)} de contenu)`);
 console.log(`  export/anagnosis-autonome.html   fichier unique (${ko(seul.length)})`);
 console.log(`  export/site/                     site à publier (banc d'essai + /app/)`);
+console.log(`  empreinte ${empreinte} — change à chaque modification de l'app`);
