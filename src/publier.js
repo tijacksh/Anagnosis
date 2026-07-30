@@ -60,8 +60,31 @@ export async function signer(octets) {
   // Les variables d'environnement d'un CI transportent mal les retours à la ligne :
   // on accepte la forme aplatie avec des « \n » littéraux.
   if (!pem.includes('\n')) pem = pem.replace(/\\n/g, '\n');
-  const cle = createPrivateKey(pem);
-  // Ed25519 signe le message entier, sans pré-hachage : l'algorithme passé à `sign`
-  // doit être `null`, sans quoi Node refuse la clé.
-  return signerBrut(null, octets, cle).toString('base64');
+
+  // Une clé mal formée ne doit pas emporter le site avec elle.
+  //
+  // `createPrivateKey` lève, et l'exception remontait jusqu'à faire échouer
+  // `npm run app`. Sur Netlify, un build en échec ne déploie rien : le site entier
+  // restait figé sur la version précédente à cause d'une variable d'environnement mal
+  // collée. Le symptôme était trompeur — `/contenu/` en 404, comme si la clé était
+  // simplement absente, alors que rien du tout ne se déployait plus.
+  //
+  // On rend donc `null`, comme pour une clé absente : le site part sans le dossier
+  // `contenu/`, et le journal de build dit précisément ce qui cloche.
+  try {
+    const cle = createPrivateKey(pem);
+    // Ed25519 signe le message entier, sans pré-hachage : l'algorithme passé à `sign`
+    // doit être `null`, sans quoi Node refuse la clé.
+    return signerBrut(null, octets, cle).toString('base64');
+  } catch (e) {
+    // La première ligne suffit à diagnostiquer sans divulguer quoi que ce soit : une
+    // clé correcte commence par « -----BEGIN PRIVATE KEY----- ». Tout autre chose
+    // signale un collage de travers — invite du terminal recopiée, guillemets ajoutés,
+    // en-tête perdu.
+    const debut = pem.split('\n')[0].slice(0, 40);
+    console.error(`Clé de signature inutilisable (${e.code ?? e.message}).`);
+    console.error(`  première ligne reçue : « ${debut} »`);
+    console.error('  attendu              : « -----BEGIN PRIVATE KEY----- »');
+    return null;
+  }
 }
