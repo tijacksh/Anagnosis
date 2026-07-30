@@ -269,7 +269,9 @@ function ecranLecture() {
   const src = (f.sources || []).map((s) => `<li>${s.auteur ? esc(s.auteur) + ', ' : ''}<b>${esc(s.titre)}</b>${
     s.publication ? ', ' + esc(s.publication) : ''}${
     s.annee ? ', ' + (s.annee < 0 ? (-s.annee) + ' av. J.-C.' : s.annee) : ''}</li>`).join('');
-  return `<div class="ecran sans-barre">
+  // La lecture garde la barre de menu — écrans §2 : c'est une destination, pas
+  // une séquence. Seuls le quiz et la feuille de partage s'en passent.
+  return `<div class="ecran">
     <header class="barre-titre">
       <div class="ligne">
         <button data-act="retour" aria-label="Retour" style="padding:4px 8px 4px 0"><svg class="glyphe" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2 4 8l6 6"/></svg></button>
@@ -295,7 +297,7 @@ function ecranLecture() {
         </div>
       </div>
     </div>
-  </div>`;
+  </div>${barreOnglets()}`;
 }
 
 function ecranQuiz() {
@@ -626,10 +628,22 @@ function lancerCompte() {
 
 function suivreProgression() {
   const z = $('#lecture'); const p = $('#prog'); if (!z || !p) return;
-  z.addEventListener('scroll', () => {
-    const max = z.scrollHeight - z.clientHeight;
-    p.style.width = (max > 0 ? Math.min(100, z.scrollTop / max * 100) : 0) + '%';
-  }, { passive: true });
+  // `#lecture` n'a pas de hauteur contrainte : c'est le document qui défile.
+  // Écouter la div ne déclenchait donc jamais rien, et le filet restait à 0 %.
+  // On vise le défileur réel, quel qu'il soit — la zone si elle défile un jour.
+  const zone = z.scrollHeight > z.clientHeight;
+  const cible = zone ? z : window;
+  const mesurer = () => {
+    // Le rendu remplace le DOM sans prévenir : l'écouteur se retire lui-même
+    // quand le filet qu'il pilote n'est plus dans la page.
+    if (!p.isConnected) return cible.removeEventListener('scroll', mesurer);
+    const pos = zone ? z.scrollTop : window.scrollY;
+    const max = zone ? z.scrollHeight - z.clientHeight
+      : document.documentElement.scrollHeight - window.innerHeight;
+    p.style.width = (max > 0 ? Math.min(100, pos / max * 100) : 0) + '%';
+  };
+  cible.addEventListener('scroll', mesurer, { passive: true });
+  mesurer();
 }
 
 /* ---------- interactions ---------- */
