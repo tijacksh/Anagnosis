@@ -13,14 +13,14 @@ function ficheValide(patch = {}) {
     accroche: 'Une accroche suffisamment longue pour passer le seuil',
     discipline: 'physique',
     contenu_vulgarise: Array.from({ length: 420 }, (_, i) => `mot${i}`).join(' '),
-    repere: { texte: 'Un fait sourcé', source: 'Une référence' },
+    repere: { texte: 'Un fait sourcé', source: 'Une référence', url: 'https://example.org/repere' },
     carte: {
       punch: 'Une accroche qui arrête le pouce',
       idee: "L'idée de la fiche, formulée pour tenir debout toute seule dans une story, sans renvoyer à l'app.",
       source_courte: 'Auteur, 2000',
     },
     sources: [
-      { type: 'article', titre: 'Source A', auteur: 'Auteur A', annee: 2000 },
+      { type: 'article', titre: 'Source A', auteur: 'Auteur A', annee: 2000, url: 'https://example.org/a' },
       { type: 'web', titre: 'Source B', url: 'https://example.org/b' },
     ],
     illustration: { prompt: 'Composition abstraite', alt: 'Description', url: null, statut: 'a_generer' },
@@ -52,7 +52,12 @@ test('accepte une citation correctement sourcée', () => {
   const { ok } = validerFiche(
     ficheValide({
       repere: null,
-      citation: { texte: 'Une phrase', auteur: 'Quelqu\'un', source: 'Une œuvre, 1900' },
+      citation: {
+        texte: 'Une phrase',
+        auteur: 'Quelqu\'un',
+        source: 'Une œuvre, 1900',
+        url: 'https://example.org/citation',
+      },
     }),
   );
   assert.ok(ok);
@@ -88,7 +93,7 @@ test('accepte une source antique (année négative)', () => {
   const { erreurs, alertes } = validerFiche(
     ficheValide({
       sources: [
-        { titre: 'La République', auteur: 'Platon', annee: -375 },
+        { titre: 'La République', auteur: 'Platon', annee: -375, url: 'https://example.org/platon' },
         { titre: 'B', url: 'https://example.org/b' },
       ],
     }),
@@ -97,11 +102,19 @@ test('accepte une source antique (année négative)', () => {
   assert.deepEqual(alertes, []);
 });
 
-test('refuse une source non traçable (ni url, ni auteur+année)', () => {
+test('refuse une source sans url, même complètement référencée', () => {
+  // La règle « une url, ou auteur + année » laissait la moitié du corpus non
+  // cliquable. Une référence bibliographique complète ne suffit donc plus : le
+  // lecteur doit pouvoir ouvrir la source, sinon elle ne prouve rien (brief §3).
   const { erreurs } = validerFiche(
-    ficheValide({ sources: [{ titre: 'Sans rien' }, { titre: 'B', url: 'https://example.org' }] }),
+    ficheValide({
+      sources: [
+        { titre: 'Référencée mais fermée', auteur: 'Auteur A', annee: 2000 },
+        { titre: 'B', url: 'https://example.org' },
+      ],
+    }),
   );
-  assert.ok(erreurs.some((e) => e.includes('non traçable')));
+  assert.ok(erreurs.some((e) => e.includes('cliquable')));
 });
 
 test('refuse moins de deux sources', () => {
