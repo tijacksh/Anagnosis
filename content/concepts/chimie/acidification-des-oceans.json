@@ -1,0 +1,89 @@
+{
+  "id": "chi-acidification-des-oceans",
+  "slug": "acidification-des-oceans",
+  "titre": "Ajouter du carbone à l'eau empêche d'y fabriquer une coquille",
+  "accroche": "L'océan absorbe une grande part du CO₂ rejeté. Ce carbone n'a pas disparu : il a changé de problème",
+  "discipline": "chimie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "L'océan a absorbé une part importante du dioxyde de carbone rejeté depuis deux siècles. On présente souvent ce fait comme une bonne nouvelle : sans lui, le réchauffement serait plus marqué.\n\nC'est exact, et incomplet. Ce carbone n'a pas disparu. Il a changé de problème.\n\n## Ce que devient le CO₂ dissous\n\nLe dioxyde de carbone qui entre dans l'eau ne s'y contente pas de séjourner. Il réagit.\n\nIl forme de l'acide carbonique, lequel se dissocie et libère des ions hydrogène. Or le pH mesure précisément la concentration de ces ions : plus il y en a, plus il baisse.\n\nDepuis le début de l'ère industrielle, le pH moyen de surface a perdu de l'ordre d'un dixième d'unité. Le nombre semble dérisoire ; l'échelle est logarithmique. Un dixième d'unité correspond à une hausse d'environ 30 % de la concentration en ions hydrogène.\n\nUne précision de vocabulaire s'impose : l'océan ne devient pas acide. Il reste basique, autour de 8,1. Il s'*acidifie*, ce qui désigne une direction, pas un état.\n\n## Le paradoxe du carbonate\n\nLa conséquence la plus lourde tient à une réaction contre-intuitive.\n\nCoquilles, squelettes de coraux, tests de plancton sont faits de carbonate de calcium. On pourrait croire qu'ajouter du carbone à l'eau facilite leur construction.\n\nC'est l'inverse. Les ions hydrogène libérés se combinent aux ions carbonate déjà présents et les convertissent en bicarbonate. La quantité de carbonate disponible pour bâtir une coquille diminue donc à mesure qu'on ajoute du carbone.\n\nAu-delà d'un certain seuil, l'eau devient corrosive pour ces structures : une coquille non protégée s'y dissout. Ce seuil dépend de la température et de la pression, et il est déjà franchi dans certaines eaux froides et profondes.\n\n## Ce qui distingue ce dossier du climat\n\nL'acidification est parfois appelée « l'autre problème du CO₂ », et la formule est juste sur un point précis.\n\nLe réchauffement passe par un mécanisme radiatif complexe, sensible aux rétroactions, aux nuages, aux aérosols — d'où des marges d'incertitude réelles sur son ampleur, et des décennies de travaux pour les réduire.\n\nL'acidification, elle, relève d'une chimie de paillasse, mesurée depuis un siècle et reproductible dans un bécher. La quantité de CO₂ dissous détermine le pH par des équilibres connus et stables. Il n'y a pas de modèle à contester, seulement une réaction à écrire.\n\nC'est ce qui rend le dossier singulier. Sur ce point précis, la seule variable est la quantité de carbone émise. Tout le reste est de la stœchiométrie.",
+  "citation": null,
+  "repere": {
+    "texte": "Depuis l'ère préindustrielle, le pH moyen de surface des océans a baissé d'environ 0,1 unité. L'échelle étant logarithmique, cela représente une hausse d'environ 30 % de la concentration en ions hydrogène.",
+    "source": "NOAA, « Ocean acidification », National Oceanic and Atmospheric Administration",
+    "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification"
+  },
+  "carte": {
+    "punch": "Ajouter du carbone à l'eau rend plus difficile, et non plus facile, d'y bâtir une coquille.",
+    "idee": "Le CO₂ dissous libère des ions hydrogène qui capturent les carbonates — la brique des coquilles et des coraux. Depuis l'ère industrielle, le pH de surface a perdu 0,1 unité, soit 30 % d'ions hydrogène en plus.",
+    "source_courte": "Caldeira & Wickett, Nature, 2003"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Caldeira, Ken & Wickett, Michael E.",
+      "titre": "Anthropogenic carbon and ocean pH",
+      "publication": "Nature, 425 (6956)",
+      "annee": 2003,
+      "url": "https://www.nature.com/articles/425365a",
+      "note": "p. 365. Établit que les changements de pH à venir dépassent tout ce que le registre géologique des 300 derniers millions d'années donne à lire."
+    },
+    {
+      "type": "institution",
+      "auteur": "National Oceanic and Atmospheric Administration",
+      "titre": "Ocean acidification",
+      "publication": "NOAA Education",
+      "annee": 2024,
+      "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification",
+      "note": "Chiffres de référence sur la baisse de pH et ses effets sur les organismes calcifiants."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Caldeira & Wickett (2003) — Anthropogenic carbon and ocean pH",
+      "url": "https://www.mbari.org/wp-content/uploads/2015/11/Caldeira_Wickett_BriefComm.pdf",
+      "note": "En anglais, une page en accès libre ; le graphique se lit sans commentaire."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une rangée de formes spiralées aux contours nets dont les bords se délitent progressivement de gauche à droite, jusqu'à ne plus laisser qu'un liseré fragmenté. Un semis de petits points de plus en plus dense envahit l'espace à mesure. Aplats vert saturé sur papier crème, encre sombre pour les contours. Léger hors-repérage constant. Aucun animal reconnaissable, aucune figure humaine.",
+    "alt": "Rangée de formes spiralées dont les contours se délitent de gauche à droite",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'acidification gêne-t-elle la formation des coquilles ?",
+    "choix": [
+      "Parce que les ions hydrogène capturent les carbonates dont les coquilles sont faites",
+      "Parce que l'acidité dissout directement le calcium contenu dans l'eau de mer",
+      "Parce que le CO₂ dissous prend la place du calcium dans les tissus des mollusques",
+      "Parce que la chaleur associée empêche les larves de fixer leur première coquille"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Les ions hydrogène libérés convertissent les carbonates en bicarbonates : la brique de construction se raréfie alors même qu'on ajoute du carbone au système. Ce n'est donc pas le calcium qui manque, ni un effet thermique — c'est la forme chimique sous laquelle le carbone devient disponible qui change.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:13:45.683Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:13:45.683Z",
+        "note": "Validation en lot du pack Chimie, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "chi-anomalie-de-l-eau",
+  "slug": "anomalie-de-l-eau",
+  "titre": "Si la glace coulait, aucun poisson ne passerait l'hiver",
+  "accroche": "L'eau atteint sa densité maximale à 4 °C, pas à 0. Cette anomalie décide de la façon dont un lac gèle",
+  "discipline": "chimie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Presque tous les liquides se contractent en refroidissant, et leur forme solide est plus dense que leur forme liquide. Un glaçon devrait donc couler.\n\nIl flotte. La glace est environ 8 % moins dense que l'eau liquide, et l'eau liquide atteint sa densité maximale non pas au point de congélation, mais quatre degrés au-dessus.\n\nCette anomalie n'est pas une curiosité de laboratoire. Elle décide de la façon dont un lac gèle, et donc de ce qui peut y vivre.\n\n## Une molécule qui tient ses voisines à distance\n\nUne molécule d'eau est coudée : deux hydrogènes d'un côté, deux paires d'électrons libres de l'autre. Cette géométrie lui permet de nouer jusqu'à quatre liaisons hydrogène — faibles prises une à une, mais nombreuses.\n\nCes liaisons sont *directionnelles*. Elles ne se contentent pas d'attirer, elles imposent un angle. Chaque molécule tend à s'entourer de quatre voisines disposées aux sommets d'un tétraèdre.\n\nOr un arrangement tétraédrique est ajouré. Il laisse du vide entre les molécules — bien plus que si elles s'empilaient comme des billes dans un sac.\n\n## Les deux effets qui se croisent\n\nRefroidir un liquide produit ordinairement un seul effet : l'agitation thermique baisse, les molécules se rapprochent, le volume diminue.\n\nDans l'eau, un second effet joue en sens inverse. À mesure que l'agitation faiblit, le réseau de liaisons hydrogène se structure — et cette structure écarte les molécules.\n\nEntre 100 et 4 degrés, la contraction l'emporte : l'eau devient plus dense. En dessous de 4 degrés, la structuration l'emporte : l'eau se dilate en refroidissant. À la solidification, le réseau se fige entièrement et le volume fait un bond.\n\nLe maximum de densité à 4 degrés est le point exact où les deux effets s'annulent.\n\n## Ce que ça change pour un lac\n\nUn lac qui refroidit se comporte d'abord normalement. L'eau de surface, plus froide et donc plus dense, plonge ; la colonne se brasse, et le refroidissement gagne toute la profondeur.\n\nCe brassage s'arrête à 4 degrés. En dessous, l'eau refroidie devient plus légère et reste en surface. Elle gèle sur place, et la glace formée — plus légère encore — demeure au-dessus.\n\nLe lac gèle donc par le haut, et la couche de glace isole ce qui se trouve dessous. Le fond reste liquide, autour de 4 degrés.\n\nSi l'eau se comportait comme les autres liquides, la glace coulerait à mesure de sa formation, et un lac gèlerait de bas en haut jusqu'à prendre en masse. Ce que nous appelons une propriété anormale est la condition pour qu'un poisson passe l'hiver.",
+  "citation": null,
+  "repere": {
+    "texte": "La glace est environ 8 % moins dense que l'eau liquide, et l'eau atteint sa densité maximale à 4 °C — non à 0 °C, comme le voudrait le comportement ordinaire d'un liquide.",
+    "source": "« The structure of water: A historical perspective », The Journal of Chemical Physics, 160, 2024",
+    "url": "https://pubs.aip.org/aip/jcp/article/160/6/060901/3262785/The-structure-of-water-A-historical-perspective"
+  },
+  "carte": {
+    "punch": "Si la glace coulait, aucun poisson ne passerait l'hiver.",
+    "idee": "L'eau atteint sa densité maximale à 4 °C, pas à 0. En dessous, les liaisons hydrogène structurent un réseau ajouré qui la dilate — d'où une glace plus légère, qui gèle en surface et isole le fond du lac.",
+    "source_courte": "Bernal & Fowler, J. Chem. Phys., 1933"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Bernal, John Desmond & Fowler, Ralph H.",
+      "titre": "A Theory of Water and Ionic Solution, with Particular Reference to Hydrogen and Hydroxyl Ions",
+      "publication": "The Journal of Chemical Physics, 1",
+      "annee": 1933,
+      "url": "https://www.semanticscholar.org/paper/A-Theory-of-Water-and-Ionic-Solution,-with-to-and-Bernal-Fowler/c4d55bd2d5b49cd214de60ce743e7fd806a527bb",
+      "note": "p. 515. Pose l'arrangement tétraédrique des molécules d'eau — les « règles de Bernal-Fowler »."
+    },
+    {
+      "type": "article",
+      "auteur": "The Journal of Chemical Physics",
+      "titre": "The structure of water: A historical perspective",
+      "publication": "The Journal of Chemical Physics, 160 (6)",
+      "annee": 2024,
+      "url": "https://pubs.aip.org/aip/jcp/article/160/6/060901/3262785/The-structure-of-water-A-historical-perspective",
+      "note": "Synthèse récente : ce qui est établi et ce qui reste discuté sur la structure de l'eau liquide."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "The structure of water: A historical perspective (2024)",
+      "url": "https://pubs.aip.org/aip/jcp/article/160/6/060901/3262785/The-structure-of-water-A-historical-perspective",
+      "note": "En anglais ; retrace un siècle de modèles, des règles de Bernal-Fowler à aujourd'hui."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux assemblages de sphères identiques côte à côte : à gauche un empilement compact et serré, à droite un réseau tétraédrique régulier, manifestement plus ajouré et occupant davantage de surface. Aplat vert saturé pour le réseau ajouré, encre sombre pour l'empilement, papier crème. Léger hors-repérage constant. Aucun paysage, aucune figure humaine.",
+    "alt": "Un empilement compact de sphères à gauche, un réseau tétraédrique ajouré à droite",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'eau se dilate-t-elle en refroidissant sous 4 °C ?",
+    "choix": [
+      "Parce que l'air dissous s'en échappe et occupe davantage de place",
+      "Parce que les liaisons hydrogène imposent un réseau ajouré qui écarte les molécules",
+      "Parce que les molécules s'agitent davantage à l'approche de la congélation",
+      "Parce que la pression exercée par l'atmosphère diminue avec la température"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les liaisons hydrogène ne font pas qu'attirer : elles imposent un angle, et l'arrangement tétraédrique qui en résulte laisse plus de vide qu'un empilement compact. Sous 4 °C, cette structuration l'emporte sur la contraction thermique — laquelle continue pourtant de jouer, puisque l'agitation ne cesse de diminuer.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-30T18:13:45.683Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-30T18:13:45.683Z",
+        "note": "Validation en lot du pack Chimie, sur instruction du relecteur."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
