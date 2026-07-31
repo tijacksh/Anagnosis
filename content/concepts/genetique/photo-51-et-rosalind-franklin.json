@@ -8,10 +8,10 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "Le récit est devenu si familier qu'on l'énonce sans y penser. Rosalind Franklin obtient au King's College une image de diffraction de l'ADN, dite photographie 51. Son collègue Maurice Wilkins la montre à James Watson à son insu. Watson y voit immédiatement l'hélice, court à Cambridge, et publie avec Crick la structure de l'ADN. Franklin, spoliée, meurt à trente-sept ans sans savoir ce qu'on lui a pris.\n\nDeux historiens des sciences ont repris le dossier en 2023, avec des documents jusque-là inexploités. Leur conclusion ne rétablit pas Watson et Crick. Elle conteste le rôle qu'on assigne à Franklin.\n\n## Ce que les documents montrent\n\nLe premier est une lettre adressée à Crick par une collaboratrice de Franklin. Le second est un article de presse rédigé en 1953, resté non publié.\n\nOn y voit que les deux équipes — King's College et Cavendish — travaillaient bien plus en coopération que le récit de rivalité ne le laisse croire. Que Franklin savait ce que son image impliquait, et qu'elle avançait vers la structure hélicoïdale. Et que le partage d'informations était, au moins en partie, connu et organisé.\n\nCrick, par ailleurs, n'a jamais vu la photographie 51 avant sa publication.\n\n## Ce que le récit de victime coûte\n\nL'argument des deux auteurs mérite d'être suivi, parce qu'il n'est pas celui qu'on attend.\n\nFaire de Franklin une victime, disent-ils, c'est lui retirer ce qu'elle a fait. Une victime subit ; elle ne travaille pas. Le récit du vol la transforme en productrice d'une donnée que d'autres auraient su lire — ce qui est exactement le rôle subalterne qu'on assignait aux femmes dans les laboratoires de l'époque.\n\nLes documents décrivent une chercheuse qui menait son programme, comprenait ses résultats, et a contribué à la solution en tant que partie prenante.\n\n## Ce qui reste vrai\n\nRien de tout cela n'efface le sexisme du King's College, réel et documenté, ni le ton avec lequel Watson parle d'elle dans son livre de souvenirs — une caricature qui a beaucoup fait pour installer l'image d'une technicienne butée.\n\nLe prix Nobel de 1962 ne pouvait de toute façon pas lui revenir : il n'est pas décerné à titre posthume, et elle était morte en 1958.\n\nCe que ce cas déplace est plus général. Une injustice bien réelle a produit un récit compensatoire, à son tour inexact — et le récit compensatoire diminue celle qu'il prétend réhabiliter.\n\nRendre justice à quelqu'un consiste d'abord à décrire ce qu'il a fait.",
+  "contenu_vulgarise": "Le récit est devenu si familier qu'on l'énonce sans y penser. Rosalind Franklin obtient au King's College une image de diffraction de l'ADN, dite photographie 51. Son collègue Maurice Wilkins la montre à James Watson à son insu. Watson y voit immédiatement l'hélice, court à Cambridge, et publie avec Crick la structure de l'ADN. Franklin, spoliée, meurt à trente-sept ans sans savoir ce qu'on lui a pris.\n\nDeux historiens des sciences ont repris le dossier en 2023, avec des documents jusque-là inexploités. Leur conclusion ne rétablit pas Watson et Crick. Elle conteste le rôle qu'on assigne à Franklin.\n\n## Ce que les documents montrent\n\nLe premier est une lettre adressée à Crick par une collaboratrice de Franklin. Le second est un article de presse rédigé en 1953, resté non publié.\n\nOn y voit que les deux équipes — King's College et Cavendish — travaillaient bien plus en coopération que le récit de rivalité ne le laisse croire. Que Franklin savait ce que son image impliquait, et qu'elle avançait vers la structure hélicoïdale. Et que le partage d'informations était, au moins en partie, connu et organisé.\n\nC'est Watson, et non Crick, à qui Wilkins a montré la photographie 51 — un détail que le récit courant efface, alors qu'il change qui a vu quoi, et quand.\n\n## Ce que le récit de victime coûte\n\nL'argument des deux auteurs mérite d'être suivi, parce qu'il n'est pas celui qu'on attend.\n\nFaire de Franklin une victime, disent-ils, c'est lui retirer ce qu'elle a fait. Une victime subit ; elle ne travaille pas. Le récit du vol la transforme en productrice d'une donnée que d'autres auraient su lire — ce qui est exactement le rôle subalterne qu'on assignait aux femmes dans les laboratoires de l'époque.\n\nLes documents décrivent une chercheuse qui menait son programme, comprenait ses résultats, et a contribué à la solution en tant que partie prenante.\n\n## Ce qui reste vrai\n\nRien de tout cela n'efface le sexisme du King's College, réel et documenté, ni le ton avec lequel Watson parle d'elle dans son livre de souvenirs — une caricature qui a beaucoup fait pour installer l'image d'une technicienne butée.\n\nLe prix Nobel de 1962 ne pouvait de toute façon pas lui revenir : il n'est pas décerné à titre posthume, et elle était morte en 1958.\n\nCe que ce cas déplace est plus général. Une injustice bien réelle a produit un récit compensatoire, à son tour inexact — et le récit compensatoire diminue celle qu'il prétend réhabiliter.\n\nRendre justice à quelqu'un consiste d'abord à décrire ce qu'il a fait.",
   "citation": null,
   "repere": {
-    "texte": "Une lettre adressée à Crick et un article de presse de 1953 resté non publié montrent que Franklin savait ce que son image impliquait, et que les deux équipes coopéraient. Crick n'a jamais vu la photographie 51 avant sa publication.",
+    "texte": "Une lettre adressée à Crick et un article de presse de 1953 resté non publié montrent que Franklin savait ce que son image impliquait, et que les deux équipes coopéraient.",
     "source": "Cobb & Comfort, « What Rosalind Franklin truly contributed to the discovery of DNA's structure », Nature, 2023",
     "url": "https://www.nature.com/articles/d41586-023-01313-5"
   },
@@ -79,7 +79,16 @@
   "validation": {
     "decide_par": null,
     "decide_le": null,
-    "historique": []
+    "historique": [
+      {
+        "action": "complement",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "claude-code",
+        "le": "2026-07-31T07:34:42.587Z",
+        "note": "Contrôle : « Crick n'a jamais vu la photographie 51 avant sa publication » n'est affirmé ni par Cobb & Comfort ni par aucune source secondaire trouvée. Retiré du repère et remplacé dans le corps par ce que la source soutient effectivement."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-07-30",
@@ -87,11 +96,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-30",
-    "verdict": "a_revoir",
-    "empreinte": "a92041f5d68eeb92",
+    "fait_le": "2026-07-31",
+    "verdict": "ok",
+    "empreinte": "4aebdc0dd20f1310",
     "notes": [
-      "A REVOIR : la source principale (Cobb & Comfort, Nature 2023, texte intégral lu) confirme la thèse générale, la lettre de Pauline Cowan à Crick, l'article de presse Bruce non publié, et que Watson (pas Crick) a vu la photo 51 montrée par Wilkins. Mais ni cet article ni le podcast Nature compagnon (« How Rosalind Franklin's story was rewritten », transcript lu en entier) n'affirment explicitement que « Crick n'a jamais vu la photographie 51 avant sa publication » — affirmation présente dans le repere ET dans le corps du texte. Aucune source secondaire trouvée ne confirme non plus ce point précis. À vérifier auprès des sources (le livre de Cobb ou Comfort, ou une interview) avant publication, ou à assouplir la formulation si la source exacte n'est pas retrouvée."
+      "Recontrôle après retouche : la phrase problématique (« Crick n'a jamais vu la photographie 51 avant sa publication ») a bien été retirée du repere. La nouvelle formulation du corps (« C'est Watson, et non Crick, à qui Wilkins a montré la photographie 51 ») est confirmée par une nouvelle lecture de Cobb & Comfort (Nature, 2023, https://www.nature.com/articles/d41586-023-01313-5) : l'article cite explicitement Watson comme celui à qui Wilkins a montré la photo 51 (« Wilkins... then showed him Photograph 51 », « Watson was shown an X-ray image of DNA taken by Franklin — without her permission or knowledge »). La coopération entre King's College et Cavendish (lettre de Pauline Cowan à Crick) et le fait que Franklin comprenait l'implication hélicoïdale de son image (forme B) sont également confirmés par le texte. Reste du contenu (carte, quiz, sources, pour_aller_plus_loin) relu et cohérent avec la source ; aucune correction nécessaire."
     ]
   }
 }

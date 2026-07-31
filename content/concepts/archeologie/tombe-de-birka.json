@@ -17,7 +17,7 @@
   },
   "carte": {
     "punch": "Pendant un siècle, les armes ont suffi à dire « guerrier ». Puis on a lu l'ADN.",
-    "idee": "La tombe viking Bj 581, la mieux armée de Birka, abritait une femme. Le débat s'est alors déplacé : un mobilier funéraire prouve-t-il un métier ? Il ne le prouvait pas davantage avant qu'on connaisse le sexe.",
+    "idee": "La tombe viking Bj 581, l'une des mieux armées de Birka, abritait une femme. Le débat s'est alors déplacé : un mobilier funéraire prouve-t-il un métier ? Il ne le prouvait pas davantage avant qu'on connaisse le sexe.",
     "source_courte": "Hedenstierna-Jonson et al., 2017"
   },
   "sources": [
@@ -65,11 +65,11 @@
     "explication": "Le sexe biologique est établi et peu discuté. Ce que l'affaire révèle, c'est que l'inférence « armes donc guerrier », tenue pour évidente pendant un siècle, n'a été soumise à examen qu'une fois le résultat inattendu. Une seule tombe ne dit rien de la fréquence des combattantes, et le mobilier n'est pas pour autant arbitraire — il est simplement ambigu.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:40:36.703Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T07:52:53.130Z",
     "historique": [
       {
         "action": "valider",
@@ -78,6 +78,22 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:40:36.703Z",
         "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      },
+      {
+        "action": "complement",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "claude-code",
+        "le": "2026-07-31T07:33:27.197Z",
+        "note": "Contrôle : la carte affirmait un superlatif exclusif que Price et al. 2019 ne soutiennent pas. Corrigé."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T07:52:53.130Z",
+        "note": "Sources rouvertes (Price et al. 2019, PMC5724682) : carte.idee ramenée à « l'une des mieux armées de Birka », conforme au « one of only two burials with a full complement of weapons » de la source. Superlatif exclusif retiré."
       }
     ]
   },
@@ -88,10 +104,10 @@
   },
   "controle": {
     "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "6a6dff70670ee24d",
+    "verdict": "ok",
+    "empreinte": "fa7bf682fdbab1be",
     "notes": [
-      "Sources rouvertes et vérifiées (PMC5724682 et Antiquity Price et al. 2019) : toutes les affirmations datées/chiffrées du corps sont soutenues (fouille 1878, R_Y≈0,001 confirmant 2X/0Y, réponse aux deux objections dans Price 2019). Point signalé : carte.idee affirme que Bj 581 est « la mieux armée de Birka » (superlatif exclusif) alors que Price et al. 2019 la décrivent comme « one of only two burials... with a full complement of weapons... grouped among the 20 richest graves » sur 1100+ tombes — donc l'une des mieux armées, pas la seule/la meilleure. Le corps du texte est correctement prudent (« l'une des... les mieux dotées ») ; seule la carte partageable surenchérit. À reformuler sans l'exclusivité avant revalidation."
+      "Retouche vérifiée : carte.idee reformulée en « l'une des mieux armées de Birka » — conforme à Price et al. 2019 (« one of only two burials... with a full complement of weapons... grouped among the 20 richest graves » sur 1100+ tombes de Birka), qui exclut le superlatif exclusif précédemment signalé. PMC5724682 confirme par ailleurs le résultat génomique (R_Y≈0,001) et le mobilier funéraire. Seule la carte a changé depuis le dernier contrôle (diff vérifié) ; corps, repere et quiz restent conformes à la vérification précédente. Statut laissé à en_retouche pour revalidation humaine."
     ]
   }
 }

@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "McClintock présente ses résultats sur les éléments mobiles au symposium de Cold Spring Harbor en 1951 : la communication est accueillie en silence. Le prix Nobel lui est décerné en 1983.",
-    "source": "Nature Education, « Barbara McClintock and the Discovery of Jumping Genes »",
-    "url": "https://www.nature.com/scitable/topicpage/barbara-mcclintock-and-the-discovery-of-jumping-34083/"
+    "source": "Ravindran, « Barbara McClintock and the discovery of jumping genes », PNAS, 109, 2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3528533/"
   },
   "carte": {
     "punch": "Un résultat n'est pas admis parce qu'il est démontré, mais quand on peut le refaire.",
@@ -21,6 +21,15 @@
     "source_courte": "Nature Education, Scitable"
   },
   "sources": [
+    {
+      "type": "article",
+      "auteur": "Ravindran, Sandeep",
+      "titre": "Barbara McClintock and the discovery of jumping genes",
+      "publication": "Proceedings of the National Academy of Sciences, 109",
+      "annee": 2012,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3528533/",
+      "note": "Accès libre. Rapporte le témoignage d'Evelyn Witkin sur l'accueil du symposium de 1951."
+    },
     {
       "type": "web",
       "auteur": "Nature Education",
@@ -46,7 +55,7 @@
       "publication": "Encyclopædia Britannica",
       "annee": 2024,
       "url": "https://www.britannica.com/biography/Barbara-McClintock",
-      "note": "Chronologie des travaux, du symposium de 1951 au Nobel de 1983."
+      "note": "Chronologie des travaux et attribution du Nobel de 1983."
     }
   ],
   "pour_aller_plus_loin": [
@@ -79,7 +88,16 @@
   "validation": {
     "decide_par": null,
     "decide_le": null,
-    "historique": []
+    "historique": [
+      {
+        "action": "complement",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "claude-code",
+        "le": "2026-07-31T07:34:42.587Z",
+        "note": "Contrôle : l'accueil silencieux du symposium de 1951 n'était documenté par aucune des trois sources citées. Ajout de Ravindran (PNAS 2012), qui rapporte le témoignage d'Evelyn Witkin, et repère rattaché à cette source. Note Britannica corrigée : la page ne mentionne ni 1951 ni le symposium."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-07-30",
@@ -87,13 +105,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-30",
-    "verdict": "a_revoir",
-    "empreinte": "87411e0ff876f331",
+    "fait_le": "2026-07-31",
+    "verdict": "ok",
+    "empreinte": "5b0e29144cf65e2f",
     "notes": [
-      "Le repere (Nature Scitable) et le titre/carte reposent sur le symposium Cold Spring Harbor 1951 et son accueil « en silence » : aucune des 3 sources citées (Nature Scitable, CSHL, Britannica) ne documente cet épisode daté — vérifié par lecture intégrale des 3 pages. Le fait est réel et bien documenté ailleurs (Ravindran, PNAS/PMC3528533, 2012 : témoignage d'Evelyn Witkin, « dead silence »), mais cette source n'est pas celle citée dans la fiche.",
-      "La note de sources[] pour Britannica (« Chronologie des travaux, du symposium de 1951 au Nobel de 1983 ») surclaime : la page ne contient ni « 1951 » ni « symposium ».",
-      "À trancher : reformuler le repere pour ne dire que ce que Nature Scitable soutient réellement, ou ajouter une source qui documente explicitement 1951 (candidat vérifié : PMC3528533)."
+      "Re-contrôle après retouche : les 5 urls vérifiées (Ravindran/PMC3528533 avec redirection vers pmc.ncbi.nlm.nih.gov corrigée dans repere.url et sources[0].url, Nature Scitable, CSHL, Britannica, Smithsonian). Ravindran (PNAS 2012) confirme mot pour mot le témoignage d'Evelyn Witkin : « When she finished, geneticist Evelyn Witkin recalls, there was dead silence » au symposium de Cold Spring Harbor 1951, travail non réfuté mais ignoré, redécouverte chez les bactéries (bactériophages fin 1960s) puis la drosophile, Nobel 1983 non partagé. Britannica confirmée sans mention de 1951/symposium (note déjà corrigée, exacte) mais confirme Nobel 1983 et McClintock première femme récipiendaire unique du prix. Corps, repere, carte et quiz cohérents avec les sources. Le point signalé au contrôle précédent est résolu."
     ]
   }
 }

@@ -73,14 +73,23 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le bug logiciel — une race condition entre deux tâches du programme de commande — existait déjà sur le Therac-20. Il y restait sans conséquence parce que la machine disposait de circuits de protection matériels indépendants, qui empêchaient physiquement un faisceau dangereux de se déclencher. Le Therac-25 avait retiré ce filet de sécurité matériel, en confiant seul au logiciel la fonction que le matériel assurait auparavant.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-31T07:33:47.168Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-31T07:33:47.168Z",
+        "note": "Validation en lot après contrôle des sources (verdict corrige)."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-07-31",

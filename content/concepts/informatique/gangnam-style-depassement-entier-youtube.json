@@ -64,14 +64,23 @@
     ],
     "bonne_reponse": 2,
     "explication": "2 147 483 647 est exactement 2 puissance 31 moins 1 — la plus grande valeur positive qu'un entier signé sur 32 bits peut stocker. Le compteur de YouTube utilisait ce format ; au-delà, il n'y avait plus de case mémoire disponible pour continuer à compter, jusqu'à la migration vers des entiers 64 bits.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "arnaud@louvigny.pro",
+    "decide_le": "2026-07-31T07:33:47.168Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "arnaud@louvigny.pro",
+        "le": "2026-07-31T07:33:47.168Z",
+        "note": "Validation en lot après contrôle des sources (verdict ok)."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-07-30",

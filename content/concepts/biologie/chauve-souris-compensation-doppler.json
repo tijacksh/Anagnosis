@@ -36,7 +36,7 @@
     },
     {
       "type": "article",
-      "auteur": "Journal of Neurophysiology",
+      "auteur": "Smotherman, Michael & Metzner, Walter",
       "titre": "Effects of Echo Intensity on Doppler-Shift Compensation Behavior in Horseshoe Bats",
       "publication": "Journal of Neurophysiology, 89",
       "annee": 2003,
@@ -101,5 +101,13 @@
     "punch": "Cette chauve-souris chante faux exprès, pour entendre juste.",
     "idee": "En vol, le grand rhinolophe abaisse la fréquence de son cri d'exactement ce qu'il faut pour annuler son propre effet Doppler. L'écho lui revient toujours à 83 kHz — là où son oreille concentre sa netteté maximale.",
     "source_courte": "Schnitzler & Denzinger, 2011"
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "db88febcbaa29659",
+    "notes": [
+      "Sources rouvertes (Schnitzler & Denzinger 2011, Schuller & Pollak 1979, Smotherman & Metzner 2003) : titres, auteurs, revues, années confirmés via WebSearch/PubMed malgré paywall Springer/APS empêchant l'accès direct au texte intégral. Faits vérifiés conformes : découverte de la compensation Doppler par Schnitzler en 1968, fréquence de référence ~83 kHz chez le grand rhinolophe (Schuller & Pollak : 83,0-84,5 kHz surreprésentés), fovéa acoustique (Schuller & Pollak 1979), fonction de détection du flutter des ailes d'insecte (Schnitzler & Denzinger 2011). Fenêtre de tolérance 'quelques dizaines de hertz' cohérente avec les écarts-types rapportés dans la littérature (30-120 Hz selon les études). Correction : champ auteur de la 3e source contenait le nom de la revue au lieu des auteurs réels ; corrigé en Smotherman, Michael & Metzner, Walter (confirmé PubMed 12574459)."
+    ]
   }
 }

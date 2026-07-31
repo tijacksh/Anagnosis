@@ -40,9 +40,33 @@ export async function fichesPubliables(fiches = null) {
     .map(({ _path, validation, meta, controle, ...publique }) => publique);
 }
 
+/**
+ * Les identifiants sortis de la circulation.
+ *
+ * **Corriger une fiche a toujours marché ; la retirer, non.** Le client fusionne le
+ * fichier reçu avec son corpus embarqué par une union — c'est ce qui empêche un export
+ * tronqué de faire disparaître des fiches déjà lues — et une union ne sait pas
+ * soustraire. Une fiche dont le contrôle révèle qu'elle affirme ce que ses sources ne
+ * disent pas restait donc servie sur tous les appareils installés.
+ *
+ * On publie donc, à côté des fiches, la liste de celles qui n'ont plus à tomber :
+ * `en_retouche` (sortie le temps d'être réparée) et `rejete` (sortie pour de bon).
+ * `brouillon` n'y figure pas — une fiche jamais publiée n'est chez personne.
+ *
+ * La liste voyage dans le fichier signé : aucune requête de plus, et un retrait ne peut
+ * pas être injecté par qui n'a pas la clé. Elle est **remplacée** à chaque publication,
+ * jamais cumulée : c'est ainsi qu'une fiche corrigée puis revalidée revient en jeu.
+ */
+export function retirees(fiches) {
+  return fiches
+    .filter((f) => ['en_retouche', 'rejete'].includes(f.statut))
+    .map((f) => f.id)
+    .sort();
+}
+
 /** Les octets exacts qui seront servis, et signés. */
-export function serialiser(fiches) {
-  return Buffer.from(`${JSON.stringify({ concepts: fiches }, null, 2)}\n`, 'utf8');
+export function serialiser(fiches, retires = []) {
+  return Buffer.from(`${JSON.stringify({ concepts: fiches, retirees: retires }, null, 2)}\n`, 'utf8');
 }
 
 /**

@@ -15,8 +15,9 @@ import { loadAll, ROOT } from './store.js';
 import { validerLot } from './validate.js';
 import { DISCIPLINES, STATUTS_LABELS } from './schema.js';
 import { cible as choisirCible, afficher } from './cible.js';
-import { file as fileControle, afficher as afficherControle, marquer } from './controle.js';
-import { fichesPubliables, serialiser } from './publier.js';
+import { file as fileControle, afficher as afficherControle, marquer, reparation } from './controle.js';
+import { file as fileReparer, afficher as afficherReparer } from './reparer.js';
+import { fichesPubliables, serialiser, retirees } from './publier.js';
 
 const C = {
   reset: '\x1b[0m', dim: '\x1b[2m', bold: '\x1b[1m',
@@ -136,7 +137,8 @@ async function cmdExport() {
   const dir = path.join(ROOT, 'export');
   await mkdir(dir, { recursive: true });
   const cible = path.join(dir, 'concepts.json');
-  await writeFile(cible, serialiser(aExporter));
+  const sorties = retirees(resultats.map((r) => r.fiche));
+  await writeFile(cible, serialiser(aExporter, sorties));
 
   console.log(c('green', `${aExporter.length} fiche(s) exportée(s) → ${path.relative(ROOT, cible)}`));
   return 0;
@@ -145,6 +147,7 @@ async function cmdExport() {
 const commandes = {
   validate: cmdValidate, queue: cmdQueue, stats: cmdStats, export: cmdExport,
   cible: cmdCible, acontroler: cmdAControler, controle: cmdControle,
+  areparer: cmdAReparer, reparation: cmdReparation,
 };
 const commande = process.argv[2];
 
@@ -162,6 +165,28 @@ async function cmdCible() {
 /** Que relire au fond maintenant ? La décision est dans `src/controle.js`. */
 async function cmdAControler() {
   afficherControle(await fileControle());
+}
+
+/** Que réparer maintenant ? La décision est dans `src/reparer.js`. */
+async function cmdAReparer() {
+  afficherReparer(await fileReparer());
+}
+
+/** Pose la décision d'une réparation : `reparation <id> <statut> "note"`. */
+async function cmdReparation() {
+  const [id, statut, ...notes] = process.argv.slice(3);
+  if (!id || !statut) {
+    console.error('Usage : node src/cli.js reparation <id> <valide|en_retouche|rejete> "note"');
+    return 2;
+  }
+  try {
+    const f = await reparation(id, statut, notes);
+    console.log(c('green', `${id} — ${f.statut} (par ${f.validation.decide_par})`));
+  } catch (e) {
+    console.error(c('red', e.message));
+    return 1;
+  }
+  return 0;
 }
 
 /** Pose la trace de contrôle : `controle <id> <verdict> [note...]`. */

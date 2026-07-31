@@ -37,6 +37,7 @@ npm run admin      # outil de validation → http://localhost:4321
 npm run validate   # contrôle qualité de la forme (sortie 1 si erreur)
 npm run cible      # quelle discipline alimenter maintenant, et combien
 npm run acontroler # quelles fiches restent à relire au fond
+npm run areparer   # quelles fiches en retouche attendent d'être réparées
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
@@ -116,8 +117,27 @@ du contenu — une fiche modifiée après contrôle repasse toute seule dans la 
 
 La frontière compte plus que le reste : une coquille, un lien mort ou une référence
 incomplète se corrigent seuls ; **tout ce qui touche au sens se signale** (`a_revoir` +
-statut `en_retouche`). `statut: valide` est la trace d'une décision humaine, et une
-réécriture de fond faite en silence par une routine la vide de son contenu.
+statut `en_retouche`). Une réécriture de fond faite en silence par le contrôle viderait
+la relecture de son objet — le contrôle détecte, il ne répare pas.
+
+## Réparer les fiches sorties
+
+`/reparer` (`.claude/commands/reparer.md`) traite ce que le contrôle a signalé :
+`npm run areparer` donne les fiches `en_retouche` **avec les notes qui les ont sorties**,
+et la routine rouvre les sources pour rendre le texte exact — ou constater qu'il ne peut
+pas l'être.
+
+Cette routine **revalide ce qu'elle a vérifié**. C'est un écart assumé au principe selon
+lequel `valide` est la trace d'une décision humaine, et il est rendu visible plutôt que
+dissimulé : la fiche porte `decide_par: routine-reparation`, jamais une adresse
+personnelle. On sait donc toujours ce qui a été relu par un humain.
+
+Deux bornes le compensent : une réparation qui **touche au texte** change l'empreinte,
+donc la fiche repasse au contrôle et un passage indépendant revérifie ; et une fiche qui
+revient une troisième fois est rejetée plutôt que réparée encore.
+
+Le cycle complet, toutes les quatre heures : produire (:04) → contrôler (:34) →
+réparer (:54).
 
 ## Pièges déjà rencontrés
 

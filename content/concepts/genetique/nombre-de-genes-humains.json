@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "Le pari ouvert en 2000 a recueilli des centaines de mises, dont la moyenne avoisinait 60 000 gènes. Le génome humain en compte environ 20 000 codant des protéines — l'ordre de grandeur d'un ver d'un millimètre.",
-    "source": "Agence de la biomédecine, « Combien un être humain a-t-il de gènes ? »",
-    "url": "https://www.agence-biomedecine.fr/fr/genetique-medicale-et-diagnostics/combien-un-etre-humain-a-t-il-de-genes"
+    "source": "GeneSweep, le pari ouvert par Ewan Birney et David Stewart, Ensembl",
+    "url": "https://web.archive.org/web/20001017192401/http://www.ensembl.org:80/genesweep.html"
   },
   "carte": {
     "punch": "Nous avons à peu près autant de gènes qu'un ver d'un millimètre.",
@@ -23,10 +23,19 @@
   "sources": [
     {
       "type": "institution",
+      "auteur": "Birney, Ewan & Stewart, David",
+      "titre": "GeneSweep — le pari sur le nombre de gènes humains",
+      "publication": "Ensembl, EMBL-EBI / Wellcome Sanger Institute",
+      "annee": 2003,
+      "url": "https://web.archive.org/web/20001017192401/http://www.ensembl.org:80/genesweep.html",
+      "note": "La page originale du pari, désormais disparue du site Ensembl (ensembl.org/genesweep.html renvoie une 404) ; archivée par la Wayback Machine avec le décompte en cours : 228 mises, moyenne 62 598 gènes."
+    },
+    {
+      "type": "institution",
       "auteur": "Agence de la biomédecine",
       "titre": "Combien un être humain a-t-il de gènes ?",
       "publication": "Agence de la biomédecine",
-      "annee": 2023,
+      "annee": 2024,
       "url": "https://www.agence-biomedecine.fr/fr/genetique-medicale-et-diagnostics/combien-un-etre-humain-a-t-il-de-genes",
       "note": "En français ; le décompte actuel et ce qu'il recouvre."
     },
@@ -79,7 +88,16 @@
   "validation": {
     "decide_par": null,
     "decide_le": null,
-    "historique": []
+    "historique": [
+      {
+        "action": "complement",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "claude-code",
+        "le": "2026-07-31T07:34:42.587Z",
+        "note": "Contrôle : les chiffres du pari GeneSweep n'étaient soutenus par aucune des sources citées — la page de l'Agence de la biomédecine ne donne que le décompte actuel. Ajout de la page officielle du pari, à laquelle le repère est désormais rattaché."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-07-30",
@@ -87,12 +105,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-30",
-    "verdict": "a_revoir",
-    "empreinte": "182fcb60200cc6cb",
+    "fait_le": "2026-07-31",
+    "verdict": "ok",
+    "empreinte": "7f2f2b0443f7e8e6",
     "notes": [
-      "Corrigé : référence Inserm complétée (auteurs réels Roest Crollius & Jaillon, titre complet incluant « les paris sont ouverts ») ; année et auteur de la source Science corrigés (Kaiser, Jocelyn, 2018 et non 2017).",
-      "A REVOIR : le repere cite uniquement l'Agence de la biomédecine comme source, or cette page (vérifiée en ligne) ne dit que « environ 20 000 gènes » et ne mentionne ni pari ni chiffres associés. La phrase du repere sur le pari GeneSweep ouvert en 2000 (« des centaines de mises, moyenne ~60 000 ») est factuellement exacte (GeneSweep, Ewan Birney & David Stewart, Cold Spring Harbor mai 2000, 228 mises, moyenne 62 598 — Science 2003 « A Low Number Wins the GeneSweep Pool » et ensembl.org/genesweep.html) mais n'est sourcée par AUCUNE des sources de la fiche : l'article Inserm 2000 mentionne bien qu'« des paris sont organisés » mais sans ces chiffres précis. Il faut soit ajouter une source qui documente ces chiffres (Science 2003 ou la page ensembl.org/genesweep.html), soit reformuler le repere pour ne garder que ce que les sources actuelles soutiennent."
+      "Recontrôle après retouche : vérifié en ligne que les chiffres du repere (228 mises, moyenne 62 598 ≈ 60 000) correspondent bien à la page GeneSweep archivée (Wayback Machine, capture du 17/10/2000) — la page live ensembl.org/genesweep.html a disparu depuis (404), donc url de la source et du repere basculées sur l'archive. Confirmé aussi par genome.gov/virtual-exhibits/GeneSweep (460 mises au total en 2003, 228 dès mai 2000) et par Wikipedia (moyenne 62 598). Résultat final ~20 000 gènes confirmé par l'Agence de la biomédecine (source recorrigée en 2024, date de publication réelle de la page) et Science 2018. Reste du contenu (corps, carte, quiz) cohérent avec ces chiffres."
     ]
   }
 }

@@ -18,7 +18,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
 import { DISCIPLINES, ENCRES } from './schema.js';
-import { fichesPubliables, serialiser, signer, CLE_ENV } from './publier.js';
+import { fichesPubliables, serialiser, signer, retirees, CLE_ENV } from './publier.js';
 
 const SRC = path.join(ROOT, 'app');
 const DEST = path.join(ROOT, 'export', 'app');
@@ -120,7 +120,10 @@ await writeFile(path.join(SITE, 'index.html'), banc, 'utf8');
 // **Sans clé, on ne publie rien.** Un `concepts.json` non signé serait refusé par
 // l'app de toute façon ; le publier quand même donnerait un endpoint qui a l'air de
 // marcher et ne marche pas. Mieux vaut qu'il soit absent, et que le build le dise.
-const octetsContenu = serialiser(await fichesPubliables(publiables));
+// `publiables` ne contient que les fiches servables : la liste des retraits se calcule
+// donc sur la base entière, sans quoi elle serait toujours vide.
+const toutes = await loadAll();
+const octetsContenu = serialiser(await fichesPubliables(publiables), retirees(toutes));
 const signature = await signer(octetsContenu);
 if (signature) {
   const dossier = path.join(SITE, 'contenu');

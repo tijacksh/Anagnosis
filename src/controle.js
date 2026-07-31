@@ -113,6 +113,55 @@ export async function marquer(id, verdict, notes = []) {
   return brut.controle;
 }
 
+/**
+ * Applique la décision d'une réparation, avec sa trace.
+ *
+ *     node src/cli.js reparation <id> <valide|en_retouche|rejete> "note"
+ *
+ * `decide_par` vaut **`routine-reparation`**, jamais l'adresse d'une personne : c'est la
+ * seule chose qui permette, plus tard, de savoir ce qui a été relu par un humain et ce
+ * qui ne l'a pas été. Une routine qui signerait du nom du relecteur rendrait cette
+ * question définitivement sans réponse.
+ *
+ * La trace de contrôle n'est **pas** rafraîchie ici, à dessein — mais il faut être précis
+ * sur ce que ça garantit :
+ *
+ * - la réparation a **changé le texte** : l'empreinte enregistrée ne correspond plus, la
+ *   fiche retourne dans `npm run acontroler`, et un passage indépendant revérifie le
+ *   travail avant qu'elle ne soit servie longtemps ;
+ * - la réparation n'a **rien changé** — le texte avait déjà été corrigé lors d'un contrôle
+ *   antérieur, il ne restait qu'à décider : l'empreinte correspond toujours, la fiche ne
+ *   repasse pas. C'est correct : elle a bien été contrôlée, sur ce texte exactement.
+ *
+ * Autrement dit le filet attrape les réécritures, pas les simples décisions. Dire qu'il
+ * attrape tout serait faux.
+ */
+export async function reparation(id, statut, notes = []) {
+  const STATUTS = ['valide', 'en_retouche', 'rejete'];
+  if (!STATUTS.includes(statut)) {
+    throw new Error(`statut inconnu « ${statut} » — attendu : ${STATUTS.join(', ')}`);
+  }
+  if (!notes.length) {
+    throw new Error('une réparation sans note ne dit pas ce qui a été fait');
+  }
+
+  const { appliquerDecision, save } = await import('./store.js');
+  const fiches = await loadAll();
+  const fiche = fiches.find((f) => f.id === id);
+  if (!fiche) throw new Error(`fiche introuvable : ${id}`);
+  if (fiche.statut !== 'en_retouche') {
+    throw new Error(`${id} n'est pas en retouche (statut : ${fiche.statut})`);
+  }
+
+  const action = statut === 'valide' ? 'valider' : statut === 'rejete' ? 'rejeter' : 'retoucher';
+  const decidee = appliquerDecision(fiche, {
+    statut, action, note: notes.join(' — '),
+    par: 'routine-reparation', quand: new Date().toISOString(),
+  });
+  await save(decidee);
+  return decidee;
+}
+
 export function afficher(f) {
   const t = (s) => process.stdout.write(s + '\n');
   t('');

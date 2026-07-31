@@ -12,13 +12,13 @@
   "citation": null,
   "repere": {
     "texte": "Bessel mesure en 1838 un déplacement d'environ un tiers de seconde d'arc pour 61 du Cygne, soit une distance d'à peu près dix années-lumière. Copernic avait publié 295 ans plus tôt.",
-    "source": "Carnegie Science, « 1838: Friedrich Bessel Measures Distance to a Star », Everyday Cosmology",
-    "url": "https://cosmology.carnegiescience.edu/timeline/1838.html"
+    "source": "Karl M. Menten, « The Distances of the Stars », Institut Max-Planck de radioastronomie",
+    "url": "https://blog.mpifr-bonn.mpg.de/karlmenten/?p=1821"
   },
   "carte": {
     "punch": "Ne rien observer ne réfute pas une théorie. Cela mesure votre instrument.",
     "idee": "Si la Terre orbite, les étoiles doivent osciller dans le ciel. On ne voyait rien, et l'argument servait contre Copernic. Bessel mesure enfin l'oscillation en 1838 : un tiers de seconde d'arc, et dix années-lumière.",
-    "source_courte": "Carnegie Science, Everyday Cosmology"
+    "source_courte": "Menten, MPI de radioastronomie"
   },
   "sources": [
     {
@@ -87,6 +87,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:40:36.703Z",
         "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      },
+      {
+        "action": "complement",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "claude-code",
+        "le": "2026-07-31T07:33:27.197Z",
+        "note": "Contrôle : le repère citait Carnegie pour « dix années-lumière », or cette page indique 11,4 — valeur moderne, non celle de Bessel. Repère rattaché à Menten, qui donne 10,4."
       }
     ]
   },
@@ -97,10 +105,10 @@
   },
   "controle": {
     "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "df9afe27b69d2096",
+    "verdict": "corrige",
+    "empreinte": "6fee2faf155487d4",
     "notes": [
-      "Le repere/carte affirment 'environ dix années-lumière' pour 61 du Cygne en citant Carnegie Science comme source. Or la page Carnegie citée (cosmology.carnegiescience.edu/timeline/1838.html) dit explicitement '11.4 light years' attribués au calcul de Bessel en 1838, pas dix. La valeur historique correcte (0,314 sec d'arc -> ~10,3-10,4 a.l.) est bien confirmée par la source Menten/MPIfR (sources[1], deja citee dans la fiche : '10.4 light years') et par une verification independante (parallaxe moderne 0,286 sec d'arc = 11,4 a.l., qui est le chiffre MODERNE, pas celui de Bessel) : Carnegie semble avoir confondu le chiffre de Bessel avec le chiffre moderne. Le contenu de la fiche est donc factuellement juste, mais la source precise citee dans le repere le contredit litteralement. A trancher par un humain : soit corriger la citation du repere pour pointer vers Menten (qui confirme exactement 10.4 a.l.), soit reformuler. Reste verifie et conforme : choix de 61 du Cygne motive par le mouvement propre (confirme independamment, hors des 3 sources citees mais fait etabli) ; calcul '295 ans' depuis 1543 (Copernic) jusqu'en 1838, coherent avec Carnegie ('nearly 300 years') ; mesures rivales Henderson (Alpha Centauri) et Struve (Vega) publiees quasi au meme moment, confirmees par Menten et Phys.org ; quiz (bonne reponse index 2) coherent avec le texte de Carnegie sur l'oscillation attendue. Aucune correction de forme necessaire (pas de coquille, pas d'url morte)."
+      "Re-contrôle après retouche : la page Menten/MPIfR confirme 10,4 années-lumière pour 61 du Cygne (Bessel, 1838), cohérent avec le repère « environ dix années-lumière » et sa source Menten. Reste du contenu inchangé et conforme (choix de l'étoile, angle, 295 ans, mesures rivales Henderson/Struve, quiz). Incohérence supplémentaire relevée et corrigée : carte.source_courte citait encore Carnegie Science (11,4 a.l., valeur moderne) pour le même chiffre de dix années-lumière — recâblée sur Menten, en cohérence avec repere.source. statut laissé à en_retouche pour revalidation humaine."
     ]
   }
 }

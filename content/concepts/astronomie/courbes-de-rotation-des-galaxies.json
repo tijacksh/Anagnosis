@@ -32,12 +32,12 @@
     },
     {
       "type": "web",
-      "auteur": "Rubin, Vera C.",
+      "auteur": "Johnson, Benjamin",
       "titre": "Vera Rubin and Dark Matter",
       "publication": "Contributions of 20th Century Women to Physics, UCLA",
       "annee": 1997,
       "url": "http://cwp.library.ucla.edu/articles/rubindm/rubindm.html",
-      "note": "Rubin y raconte elle-même la série de mesures et sa réception."
+      "note": "Page du projet Contributions of 20th Century Women to Physics : retrace la série de mesures et sa réception."
     },
     {
       "type": "article",
@@ -53,7 +53,7 @@
     {
       "titre": "Vera Rubin and Dark Matter (UCLA, CWP)",
       "url": "http://cwp.library.ucla.edu/articles/rubindm/rubindm.html",
-      "note": "En anglais, court ; Rubin décrit ce qu'elle attendait et ce qu'elle a trouvé."
+      "note": "En anglais, court ; retrace ce que Rubin attendait et ce qu'elle a trouvé."
     }
   ],
   "illustration": {
@@ -87,6 +87,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:40:36.703Z",
         "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      },
+      {
+        "action": "complement",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "claude-code",
+        "le": "2026-07-31T07:33:27.197Z",
+        "note": "Contrôle : la source UCLA était attribuée à Rubin et présentée comme un récit à la première personne. Auteur réel rétabli et notes reformulées."
       }
     ]
   },
@@ -97,10 +105,10 @@
   },
   "controle": {
     "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "a42a960cd8a808f4",
+    "verdict": "ok",
+    "empreinte": "dac1978cb4723f4c",
     "notes": [
-      "Sources ré-ouvertes : ADS (redirige vers l'app JS, contenu illisible via fetch, mais bibcode 1970ApJ...159..379R confirmé légitime via DOI 10.1086/150317 et via l'ancien service adsabs classique, qui redirigent tous deux vers ce même bibcode ; pagination 379-403 confirmée par OSTI.gov et Scientific Research Publishing). Corps, repere, carte et quiz confirmés exacts par recoupement avec 3 sources secondaires indépendantes (NED/Bertone, NED/Sofue&Rubin, arXiv Bertone&Hooper via ar5iv) : courbe qui ne décline pas jusqu'à 24 kpc, rapport masse/lumière croissant vers l'extérieur, hypothèse de Zwicky (1933, amas de Coma, théorème du viriel) confirmée. PROBLÈME : la source UCLA CWP (sources[1] et pour_aller_plus_loin[0], http://cwp.library.ucla.edu/articles/rubindm/rubindm.html, vérifiée en direct, répond 200 en http seulement) est en réalité signée « By Benjamin Johnson » — un texte biographique à la troisième personne sur les travaux de Rubin, PAS un récit de Rubin elle-même. Or le champ auteur de sources[1] indique « Rubin, Vera C. » et les deux notes affirment à tort que « Rubin y raconte elle-même » / « Rubin décrit ce qu'elle attendait et ce qu'elle a trouvé ». À corriger : auteur réel (Benjamin Johnson, page du projet Contributions of 20th Century Women to Physics, UCLA) et reformulation des deux notes pour ne plus prêter à Rubin un récit à la première personne qu'elle n'a pas écrit ici."
+      "Retouche vérifiée : page UCLA CWP (http://cwp.library.ucla.edu/articles/rubindm/rubindm.html, HTTP 200 confirmé, HTTPS indisponible) re-ouverte en direct — byline « By Benjamin Johnson » et balise meta Author confirment l'auteur réel, texte à la troisième personne sur Rubin (« Rubin found that... », « She studied... »), aucun récit à la première personne. sources[1].auteur = « Johnson, Benjamin » désormais exact ; sources[1].note et pour_aller_plus_loin[0].note décrivent la page sans prétendre que Rubin l'a écrite elle-même. Reste du contenu (corps, repere, carte, quiz, autres sources) inchangé depuis le contrôle précédent qui les avait déjà validés."
     ]
   }
 }
