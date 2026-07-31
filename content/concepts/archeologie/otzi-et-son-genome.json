@@ -12,7 +12,7 @@
   "citation": null,
   "repere": {
     "texte": "La réanalyse de 2023 fait disparaître l'ascendance steppique attribuée à Ötzi en 2012 : c'était une contamination par de l'ADN moderne. Sa part d'ascendance anatolienne est la plus élevée connue pour l'Europe de son époque.",
-    "source": "Wang, Keller et al., « High-coverage genome of the Tyrolean Iceman reveals unusually high Anatolian farmer ancestry », Cell Genomics, 2023",
+    "source": "Wang, Prüfer et al., « High-coverage genome of the Tyrolean Iceman reveals unusually high Anatolian farmer ancestry », Cell Genomics, 2023",
     "url": "https://cell.com/cell-genomics/fulltext/S2666-979X(23)00174-X"
   },
   "carte": {
@@ -23,7 +23,7 @@
   "sources": [
     {
       "type": "article",
-      "auteur": "Wang, Ke ; Prüfer, Kay ; Krause-Kyora, Ben ; Keller, Andreas et al.",
+      "auteur": "Wang, Ke ; Prüfer, Kay ; Krause-Kyora, Ben ; Childebayeva, Ainash et al.",
       "titre": "High-coverage genome of the Tyrolean Iceman reveals unusually high Anatolian farmer ancestry",
       "publication": "Cell Genomics, 3 (9)",
       "annee": 2023,
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "3ffe7a94fd247dfa",
+    "notes": [
+      "Attribution d'auteur corrigée : « Keller, Andreas » n'est pas coauteur de Wang et al. 2023 (il est l'auteur de l'étude de 2012 que cet article corrige) ; remplacé par le véritable 4e coauteur (Childebayeva) dans repere.source et sources[0].auteur."
+    ]
   }
 }

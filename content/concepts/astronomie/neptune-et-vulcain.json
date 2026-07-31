@@ -74,7 +74,7 @@
     "explication": "L'écart était réel et correctement calculé — c'est même le chiffre de Le Verrier qu'Einstein a expliqué en 1915, par la courbure de l'espace-temps et sans ajouter aucun corps. Face à un écart, compléter l'inventaire ou réviser la théorie restent deux réponses ouvertes, et rien dans l'écart ne dit laquelle s'impose.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "fc6c79d8d44c80a2",
+    "notes": [
+      "Durée du calcul de Le Verrier surévaluée : la fiche affirme 'deux ans' (titre de section, corps, et repere) mais la source BibNum citée elle-même situe le travail entre l'été 1845 et le 31 août 1846 (~14 mois, dont 'moins de trois mois' pour la phase finale), et Wikipédia FR/EN convergent vers 9-15 mois selon le point de départ retenu (mémoire du 10 nov. 1845 ou commande d'Arago mi-1845) — aucune source ne mentionne deux ans. À vérifier et corriger le chiffre (heading '## Deux ans de calcul...', corps 'Le Verrier y consacre deux ans', et repere.texte 'après deux ans de travail'). Par ailleurs source[1] (http://expositions.obspm.fr/leverrier/Le-Verrier/neptune/p6-mercure.html, sur Vulcain) renvoie 404 ; le site expositions.obspm.fr/leverrier/ semble hors ligne dans son ensemble — je n'ai pas trouvé de remplacement vérifiable en ligne, à chercher (peut-être web.archive.org) ou à remplacer par une autre source sur l'hypothèse Vulcain."
+    ]
   }
 }

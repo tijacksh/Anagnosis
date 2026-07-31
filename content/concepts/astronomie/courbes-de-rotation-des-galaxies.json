@@ -74,7 +74,7 @@
     "explication": "Si la masse suivait la lumière, concentrée au centre, les vitesses devraient décliner vers l'extérieur comme celles des planètes lointaines. Elles restent plates. L'écart impose soit une masse invisible en halo, soit une gravité différente à faible accélération — la mesure ne tranche pas entre les deux.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "a42a960cd8a808f4",
+    "notes": [
+      "Sources ré-ouvertes : ADS (redirige vers l'app JS, contenu illisible via fetch, mais bibcode 1970ApJ...159..379R confirmé légitime via DOI 10.1086/150317 et via l'ancien service adsabs classique, qui redirigent tous deux vers ce même bibcode ; pagination 379-403 confirmée par OSTI.gov et Scientific Research Publishing). Corps, repere, carte et quiz confirmés exacts par recoupement avec 3 sources secondaires indépendantes (NED/Bertone, NED/Sofue&Rubin, arXiv Bertone&Hooper via ar5iv) : courbe qui ne décline pas jusqu'à 24 kpc, rapport masse/lumière croissant vers l'extérieur, hypothèse de Zwicky (1933, amas de Coma, théorème du viriel) confirmée. PROBLÈME : la source UCLA CWP (sources[1] et pour_aller_plus_loin[0], http://cwp.library.ucla.edu/articles/rubindm/rubindm.html, vérifiée en direct, répond 200 en http seulement) est en réalité signée « By Benjamin Johnson » — un texte biographique à la troisième personne sur les travaux de Rubin, PAS un récit de Rubin elle-même. Or le champ auteur de sources[1] indique « Rubin, Vera C. » et les deux notes affirment à tort que « Rubin y raconte elle-même » / « Rubin décrit ce qu'elle attendait et ce qu'elle a trouvé ». À corriger : auteur réel (Benjamin Johnson, page du projet Contributions of 20th Century Women to Physics, UCLA) et reformulation des deux notes pour ne plus prêter à Rubin un récit à la première personne qu'elle n'a pas écrit ici."
+    ]
   }
 }

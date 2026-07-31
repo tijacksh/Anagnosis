@@ -41,7 +41,7 @@
     },
     {
       "type": "article",
-      "auteur": "American Geophysical Union",
+      "auteur": "Rodrigues, Meghie",
       "titre": "What's Next for the Anthropocene?",
       "publication": "Eos",
       "annee": 2024,
@@ -70,6 +70,23 @@
   },
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "meta": { "genere_le": "2026-07-30", "genere_par": "claude-code", "version": 1 }
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "corrige",
+    "empreinte": "106a09d9706560e9",
+    "notes": [
+      "Corrigé : sources[2].auteur « American Geophysical Union » (nom de la revue Eos, pas un auteur) → « Rodrigues, Meghie », signataire réelle de l'article « What's Next for the Anthropocene? » (Eos, 23 avril 2024), vérifié en ouvrant la page.",
+      "Tout le reste confirmé mot pour mot via le communiqué IUGS/ICS étendu du 20 mars 2024 (PDF) : vote 4/12/3, validation 15/1 par les présidents de sous-commissions, site du lac Crawford, ~1952, raisons du rejet, statut Holocène/Méghalayen."
+    ]
+  }
 }

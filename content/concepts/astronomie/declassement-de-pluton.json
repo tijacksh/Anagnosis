@@ -74,7 +74,7 @@
     "explication": "Pluton remplit les deux premiers critères : elle orbite autour du Soleil et sa gravité l'a rendue sphérique. C'est le troisième, ajouté en 2006, qui la range parmi les planètes naines — elle circule dans une population de la ceinture de Kuiper qu'elle n'a ni capturée ni éjectée. L'inclinaison et les lunes n'entrent pas dans la définition.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "ae9fea43125b1b73",
+    "notes": [
+      "Deux points à vérifier. (1) contenu_vulgarise affirme qu'en 2005 Éris 'est mesuré comme au moins aussi massif que Pluton' : les sources historiques (Brown, Trujillo & Rabinowitz, ApJ nov. 2005 ; Brown & Schaller, Science juin 2007) montrent qu'en 2005 seule la TAILLE (diamètre, via luminosité et émission thermique) a été estimée comme égale ou supérieure à celle de Pluton — la MASSE n'a été mesurée qu'en 2007, via l'orbite de la lune Dysnomia (découverte sept. 2005), confirmant Éris ~27% plus massive que Pluton. La phrase mélange donc taille (2005) et masse (2007) ; à reformuler ou redater. (2) sources[1].url (NASA NSSDC, nssdc.gsfc.nasa.gov/planetary/text/pluto_iau_res_20060824.txt) est morte : tout le domaine redirige (307) vers https://www.nasa.gov/nssdc/, page de maintenance sans le texte. Le même texte de résolution est disponible et vérifié sur https://ssd.jpl.nasa.gov/planets/def.html (JPL, institution différente de NSSDC/GSFC) — remplacement possible mais change auteur/publication, donc non appliqué sans décision humaine. Le reste (repère iau0603, résolution 5A du 24/08/2006, trois critères, création simultanée de la catégorie planète naine, quiz) est confirmé par les sources rouvertes."
+    ]
   }
 }

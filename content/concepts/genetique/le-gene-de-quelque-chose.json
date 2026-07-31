@@ -26,16 +26,16 @@
       "auteur": "Boyle, Evan A. ; Li, Yang I. & Pritchard, Jonathan K.",
       "titre": "The Omnigenic Model: Response from the Authors",
       "publication": "Journal of Psychiatry and Brain Science",
-      "annee": 2019,
+      "annee": 2017,
       "url": "https://jpbs.hapres.com/htmls/JPBS_923_Detail.html",
       "note": "Les auteurs précisent eux-mêmes la portée et les limites de leur modèle."
     },
     {
       "type": "article",
-      "auteur": "Journal of Psychiatry and Brain Science",
+      "auteur": "Franke, Barbara",
       "titre": "What's in a Name: the “Omnigenic” Model as a Point of Departure for Polygenic Psychiatric Disorders",
       "publication": "Journal of Psychiatry and Brain Science",
-      "annee": 2019,
+      "annee": 2017,
       "url": "https://jpbs.hapres.com/htmls/JPBS_922_Detail.html",
       "note": "Discussion critique du modèle et de son usage en psychiatrie."
     },
@@ -74,7 +74,7 @@
     "explication": "Les grandes études trouvent des milliers de variants dispersés, chacun d'effet infime : isoler l'un d'eux et l'appeler « le gène de » ne dit à peu près rien. Les associations sont pourtant bien réelles et reproductibles — c'est leur nombre et la petitesse de leurs effets qui rendent la formule trompeuse.",
     "statut": "brouillon"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": null,
@@ -85,5 +85,15 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "a_revoir",
+    "empreinte": "700af786d7437fe4",
+    "notes": [
+      "Corrigé : sources[0].annee et sources[1].annee 2019→2017 (les deux articles JPBS datent du 12 octobre 2017, vérifié sur les métadonnées de page) ; sources[1].auteur « Journal of Psychiatry and Brain Science » (nom de revue) → « Franke, Barbara », autrice réelle de l'article.",
+      "À signaler : sources[2] (auteur/titre/revue/année) ne correspond à aucun document identifiable — l'URL héberge en réalité Akula, Devendra, Manahan & Geisler, « Understanding Complex Trait Heritability: The Polygenic Approach », International Journal of Academic Medicine and Pharmacy, 2025, 7(3):699-704, pas « Journal of Advanced Medical and Dental Sciences Research » 2019. Le contenu réel soutient le sujet, mais la référence telle qu'écrite est fausse.",
+      "À signaler : « quelques dixièmes de millimètre pour la taille » n'est appuyé par aucune des 3 sources et semble sous-estimé (littérature GWAS : plutôt 1-2 mm par variant significatif)."
+    ]
   }
 }

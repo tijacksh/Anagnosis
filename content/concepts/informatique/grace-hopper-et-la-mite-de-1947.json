@@ -1,0 +1,88 @@
+{
+  "id": "inf-grace-hopper-et-la-mite-de-1947",
+  "slug": "grace-hopper-et-la-mite-de-1947",
+  "titre": "Grace Hopper n'a sans doute pas trouvé le premier « bug »",
+  "accroche": "Elle a raconté l'histoire pendant quarante-cinq ans de conférences. Mais rien n'indique qu'elle ait elle-même trouvé la mite collée dans le journal.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 9 septembre 1947, sur le Harvard Mark II, un relais électromécanique refuse de fonctionner. L'équipe l'ouvre, trouve une mite écrasée entre deux contacts, l'extrait à la pince et la colle dans le journal de bord avec la mention : « First actual case of bug being found » — le premier cas réel où un « bug » a été trouvé. La page existe encore ; elle est aujourd'hui conservée au Smithsonian, National Museum of American History.\n\nCe fragment de journal a fini par circuler comme l'anecdote fondatrice de l'informatique : Grace Hopper, la future amirale et papesse du langage COBOL, aurait inventé le mot « bug » ce jour-là. Elle a elle-même beaucoup contribué à cette version en racontant l'histoire pendant des décennies, dans quantité de conférences.\n\n## Ce que le journal dit vraiment\n\nHopper travaillait bien sur l'équipe du Mark II en 1947 — elle en faisait partie depuis l'année précédente. Mais le Smithsonian, qui conserve la page, est explicite : ce carnet n'était probablement pas le sien, et rien ne prouve qu'elle ait personnellement repéré l'insecte ou rédigé la ligne. Certains historiens attribuent l'écriture à un technicien de la marine présent ce jour-là ; aucune source primaire ne permet de trancher avec certitude qui, dans l'équipe, a tenu la pince et le stylo.\n\nLe mot « bug » lui-même est plus vieux que le Mark II. Thomas Edison l'employait déjà en 1878, dans une lettre à son associé Theodore Puskás, pour décrire les petits défauts qui surgissent entre l'intuition d'une invention et sa réussite commerciale : « This thing gives out and then that — Bugs — as such little faults and difficulties are called. » Le terme était même entré dans les dictionnaires américains bien avant la guerre : l'édition 1934 du Webster's donne déjà « bug » comme argot désignant un défaut d'appareil.\n\n## Ce que Hopper a réellement fait\n\nCe que l'équipe du Mark II a inventé ce jour-là, ce n'est pas le mot, mais son usage littéral et sa mise en scène : coller le vrai insecte au regard d'un mot déjà argotique donnait une preuve matérielle, drôle et mémorable, d'un incident technique. Hopper, elle, a fait le travail qui reste le sien sans conteste : elle a popularisé l'anecdote et le verbe qui en découle, « debug », jusqu'à en faire un réflexe de vocabulaire dans toute une profession.\n\nL'histoire garde une dernière ironie. La légende officielle de la photographie d'archive de cette page, diffusée par la marine américaine, portait longtemps une date fautive : 1945, alors que le Mark II n'a été achevé qu'à l'été 1947, ce qui rend un tel incident matériellement impossible cette année-là. Même l'article savant qui a établi l'histoire du mot en 1987 reprenait encore cette date erronée. Le document qui devait clore un mythe en a, un temps, entretenu un second — la preuve qu'une source d'archive elle-même se corrige, et qu'il faut la rouvrir plutôt que la recopier.",
+  "citation": null,
+  "repere": {
+    "texte": "Le journal de bord du Harvard Mark II porte, à la date du 9 septembre 1947, la mention « First actual case of bug being found », à côté d'une mite véritable. Le Smithsonian, qui conserve la page, précise que ce carnet n'appartenait probablement pas à Grace Hopper elle-même.",
+    "source": "Computer History Museum, « This Day in History: September 9 »",
+    "url": "https://www.computerhistory.org/tdih/september/9/"
+  },
+  "carte": {
+    "punch": "Le premier « bug » informatique n'a probablement pas été trouvé par Grace Hopper.",
+    "idee": "Une mite écrasée dans un relais du Harvard Mark II, le 9 septembre 1947 : le journal de bord la documente. Mais le mot « bug » existait déjà depuis Edison, et rien ne prouve que Hopper ait elle-même trouvé l'insecte — elle en a surtout raconté l'histoire pendant quarante-cinq ans.",
+    "source_courte": "Computer History Museum"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Computer History Museum",
+      "titre": "This Day in History: September 9",
+      "publication": "computerhistory.org",
+      "annee": null,
+      "url": "https://www.computerhistory.org/tdih/september/9/",
+      "note": "Date exacte (9 septembre 1947), citation du journal, et précision sur le rôle de Hopper (présente, mais popularisatrice plutôt qu'autrice établie de l'entrée)."
+    },
+    {
+      "type": "article",
+      "auteur": "Shapiro, Fred R.",
+      "titre": "Etymology of the Computer Bug: History and Folklore",
+      "publication": "American Speech, vol. 62, n° 4",
+      "annee": 1987,
+      "url": "https://gwern.net/doc/cs/hardware/1987-shapiro.pdf",
+      "note": "Article de référence (à comité de lecture) qui établit l'antériorité du mot « bug » chez Edison (lettre du 18 novembre 1878 à Theodore Puskás) et cite le journal du Mark II."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikimedia Commons — First Computer Bug (photographie de la page de journal, avec l'historique de l'erreur de date 1945/1947)",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1945.jpg",
+      "note": "Reproduit la légende d'archive originale de la marine américaine et explique la confusion de date."
+    }
+  ],
+  "illustration": {
+    "prompt": "Un unique polygone anguleux et asymétrique (l'insecte, stylisé, jamais figuratif) posé entre deux rectangles pleins qui se touchent presque, comme deux contacts de relais. Aplat noir sur encre aqua saturée, papier crème, léger hors-repérage sur l'aqua uniquement. Une des pointes du polygone déborde du cadre. Aucune figure humaine, aucun symbole reconnaissable.",
+    "alt": "Un petit polygone anguleux coincé entre deux rectangles pleins qui se touchent presque",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'anecdote de la mite trouvée en 1947 ne prouve-t-elle pas que Grace Hopper a inventé le mot « bug » ?",
+    "choix": [
+      "Parce que l'incident s'est en réalité produit en 1945 et non en 1947",
+      "Parce que le mot désignait déjà un défaut technique bien avant 1947, notamment chez Edison dès 1878",
+      "Parce que Grace Hopper n'a jamais travaillé sur le Harvard Mark II",
+      "Parce que la page du journal de bord a été perdue et ne peut plus être consultée"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le mot « bug » circulait comme argot technique bien avant 1947 — Edison l'employait déjà en 1878. Hopper faisait bien partie de l'équipe du Mark II en 1947, et la page du journal est conservée au Smithsonian ; ce qui manque, c'est la preuve qu'elle ait elle-même rédigé l'entrée ou trouvé l'insecte, plutôt que d'avoir surtout popularisé l'histoire ensuite.",
+    "statut": "brouillon"
+  },
+  "statut": "en_retouche",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-07-30",
+    "verdict": "a_revoir",
+    "empreinte": "27d86c92631c6242",
+    "notes": [
+      "À REVOIR : le champ repere attribue à la page Computer History Museum (citée en source) l'affirmation « le Smithsonian précise que ce carnet n'appartenait probablement pas à Grace Hopper elle-même ». Or la page CHM ouverte ne mentionne ni le Smithsonian ni cette précision — elle dit seulement « one of the team members wrote in the log » et présente Hopper comme présente et popularisatrice, sans plus. Le fond de l'affirmation semble correct (la propre fiche objet du Smithsonian, americanhistory.si.edu/collections/object/nmah_334663, et plusieurs reprises sérieuses — Silicon Canals, Make Tech Easier — vont dans ce sens), mais je n'ai pas pu ouvrir cette page Smithsonian moi-même (403 bloqué) pour la sourcer proprement. Le reste de la fiche est solide : citation Edison vérifiée mot pour mot sur l'article de Shapiro (1987, texte primaire consulté), et l'erreur de date 1945/1947 reprise par Shapiro lui-même est confirmée dans le texte de son article."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

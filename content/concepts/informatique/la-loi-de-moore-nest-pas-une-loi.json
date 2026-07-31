@@ -1,0 +1,94 @@
+{
+  "id": "inf-la-loi-de-moore-nest-pas-une-loi",
+  "slug": "la-loi-de-moore-nest-pas-une-loi",
+  "titre": "La « loi » de Moore n'a jamais été une loi",
+  "accroche": "Le nombre de transistors sur une puce double régulièrement depuis soixante ans. Ce n'est pourtant ni une loi physique ni une prédiction : c'est un objectif.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 19 avril 1965, dans la revue Electronics, un directeur de recherche de Fairchild Semiconductor nommé Gordon Moore publie un article de quatre pages, « Cramming more components onto integrated circuits ». Il y observe que le nombre de composants qu'on peut placer à moindre coût sur un circuit intégré a doublé chaque année depuis l'invention du circuit intégré, et il extrapole : la tendance devrait, écrit-il, « rester à peu près constante pendant au moins dix ans ». Cette phrase prudente d'ingénieur est devenue, sous le nom de « loi de Moore », l'un des énoncés les plus cités de toute l'histoire des techniques — et l'un des plus mal nommés.\n\n## Une observation, révisée une fois, puis déformée\n\nMoore lui-même révise son rythme dès 1975 : le doublement, dit-il alors, se fera plutôt tous les deux ans. Le chiffre de dix-huit mois, que l'on attribue souvent à tort à Moore, vient en réalité d'un autre dirigeant d'Intel, David House, qui combinait le doublement du nombre de transistors avec l'augmentation de leur vitesse individuelle pour estimer le gain de performance globale des puces — un calcul différent, que Moore n'a jamais revendiqué comme le sien.\n\nLe mot « loi » n'est même pas de Moore : c'est le physicien Carver Mead, de Caltech, qui l'a mis en circulation vers 1970, en étant lui-même incertain, des décennies plus tard, d'en être vraiment l'auteur. Intel le dit sans ambages dans son propre dossier de presse officiel : « Moore's Law is not a scientific law (it's not a natural phenomenon). » Rien, dans la physique du silicium, n'impose un doublement régulier — contrairement à une loi de la thermodynamique, aucune contrainte de l'univers ne garantissait que l'industrie tiendrait ce rythme.\n\n## D'une observation à un objectif d'industrie\n\nCe qui a réellement tenu ce rythme pendant des décennies, ce n'est donc pas une régularité de la nature, mais une régularité fabriquée. Le même dossier Intel le formule ainsi : « What started as an empirical observation became a motivating objective, a target for Intel and its competitors to deliver against time and again. » Année après année, l'industrie entière — Intel en tête, mais aussi ses concurrents et les fournisseurs d'équipements — a pris cette extrapolation comme feuille de route à tenir plutôt que comme simple description : ne pas suivre le rythme revenait à prendre du retard sur tout le monde à la fois. La prédiction s'est en partie réalisée elle-même, à force d'être crue.\n\n## Ce que soixante ans plus tard, on en dit encore\n\nLe débat n'est toujours pas clos, et les avis divergent au sommet même de l'industrie. En septembre 2022, le PDG de Nvidia, Jensen Huang, déclarait la loi de Moore purement et simplement morte. Quinze mois plus tard, en décembre 2023, celui d'Intel, Pat Gelsinger, reconnaissait un net ralentissement — un doublement plus proche de trois ans que de deux — sans pour autant la considérer révolue. Deux dirigeants, deux avis opposés, sur une observation qui n'a jamais été une loi : c'est peut-être la meilleure preuve qu'elle n'en était pas une.",
+  "citation": null,
+  "repere": {
+    "texte": "Le dossier de presse officiel d'Intel le dit sans détour : « Moore's Law is not a scientific law (it's not a natural phenomenon) ». Ce qui a commencé comme une observation empirique de Gordon Moore, en 1965, est devenu, selon les mots mêmes d'Intel, « a motivating objective, a target for Intel and its competitors to deliver against time and again ».",
+    "source": "Intel Newsroom, « Press Kit: Moore's Law »",
+    "url": "https://newsroom.intel.com/press-kit/moores-law"
+  },
+  "carte": {
+    "punch": "La loi de Moore n'a jamais été une loi. Intel le dit lui-même.",
+    "idee": "Gordon Moore n'a fait, en 1965, qu'observer et extrapoler un rythme de doublement des transistors. Le mot « loi » vient d'un autre chercheur ; les fameux « 18 mois » d'un troisième. Ce qui a vraiment tenu ce rythme, c'est que toute l'industrie en a fait un objectif à atteindre.",
+    "source_courte": "Intel Newsroom"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Intel Newsroom",
+      "titre": "Press Kit: Moore's Law",
+      "publication": "newsroom.intel.com",
+      "annee": null,
+      "url": "https://newsroom.intel.com/press-kit/moores-law",
+      "note": "Source institutionnelle : cite explicitement que ce n'est pas une loi scientifique et retrace le passage d'observation à objectif d'industrie."
+    },
+    {
+      "type": "institution",
+      "auteur": "Computer History Museum",
+      "titre": "Fiche catalogue — Gordon E. Moore, « Cramming more components onto integrated circuits », Electronics, 1965",
+      "publication": "computerhistory.org",
+      "annee": 1965,
+      "url": "https://www.computerhistory.org/collections/catalog/102770822",
+      "note": "Référence bibliographique exacte de l'article original (revue, date, poste de Moore chez Fairchild Semiconductor)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "IEEE Spectrum — The Murky Origins of \"Moore's Law\"",
+      "url": "https://spectrum.ieee.org/the-murky-origins-of-moores-law",
+      "note": "Sur l'origine du terme « loi de Moore », attribuée à Carver Mead plutôt qu'à Moore lui-même."
+    },
+    {
+      "titre": "TechSpot — Nvidia's Jensen Huang once again claims Moore's law is dead",
+      "url": "https://www.techspot.com/news/96094-nvidia-jensen-huang-once-again-claims-moore-law.html",
+      "note": "Déclaration de Jensen Huang, 24 septembre 2022."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une suite de carrés pleins dont la taille double régulièrement de gauche à droite, en progression rigoureusement géométrique, jusqu'à ce que le dernier déborde nettement du cadre. Aplat noir sur encre aqua, papier crème, léger hors-repérage sur l'aqua uniquement. Aucun symbole ni figure reconnaissable.",
+    "alt": "Une suite de carrés dont la taille double régulièrement, le dernier débordant du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la « loi de Moore » a-t-elle tenu son rythme de doublement pendant plusieurs décennies ?",
+    "choix": [
+      "Parce qu'il s'agit d'une contrainte physique du silicium qui impose ce rythme précis",
+      "Parce que Gordon Moore a personnellement supervisé la conception de chaque nouvelle génération de puces",
+      "Parce qu'un brevet déposé par Intel empêchait ses concurrents de ralentir le rythme",
+      "Parce que l'industrie entière en a fait un objectif de feuille de route à tenir, plutôt qu'une simple observation à constater"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Rien dans la physique n'imposait ce rythme : Intel le reconnaît lui-même, ce n'est pas une loi naturelle. Ce qui l'a fait tenir, c'est que l'industrie tout entière — Intel et ses concurrents — a transformé l'extrapolation de 1965 en objectif à atteindre à chaque génération, au risque de prendre du retard sur les autres sinon.",
+    "statut": "brouillon"
+  },
+  "statut": "en_retouche",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "157e01855c2608bc",
+    "notes": [
+      "Attribution du chiffre « 18 mois » à David House (avec le mécanisme décrit : doublement des transistors combiné à la hausse de leur vitesse) non confirmée par aucune des sources citées (dossier Intel, IEEE Spectrum).",
+      "Déclaration de Pat Gelsinger (décembre 2023, ralentissement à ~3 ans) non confirmée par aucune source citée ; le dossier de presse Intel semble antérieur à cette date."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

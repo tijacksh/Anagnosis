@@ -74,7 +74,7 @@
     "explication": "Deux positions de la Terre séparées de six mois forment deux points de vue très écartés : les étoiles proches devraient s'en trouver déplacées par rapport au fond. Ne rien voir laissait deux issues — la Terre est immobile, ou les étoiles sont bien plus lointaines qu'on ne l'imaginait. Bessel a tranché en mesurant enfin l'angle.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "df9afe27b69d2096",
+    "notes": [
+      "Le repere/carte affirment 'environ dix années-lumière' pour 61 du Cygne en citant Carnegie Science comme source. Or la page Carnegie citée (cosmology.carnegiescience.edu/timeline/1838.html) dit explicitement '11.4 light years' attribués au calcul de Bessel en 1838, pas dix. La valeur historique correcte (0,314 sec d'arc -> ~10,3-10,4 a.l.) est bien confirmée par la source Menten/MPIfR (sources[1], deja citee dans la fiche : '10.4 light years') et par une verification independante (parallaxe moderne 0,286 sec d'arc = 11,4 a.l., qui est le chiffre MODERNE, pas celui de Bessel) : Carnegie semble avoir confondu le chiffre de Bessel avec le chiffre moderne. Le contenu de la fiche est donc factuellement juste, mais la source precise citee dans le repere le contredit litteralement. A trancher par un humain : soit corriger la citation du repere pour pointer vers Menten (qui confirme exactement 10.4 a.l.), soit reformuler. Reste verifie et conforme : choix de 61 du Cygne motive par le mouvement propre (confirme independamment, hors des 3 sources citees mais fait etabli) ; calcul '295 ans' depuis 1543 (Copernic) jusqu'en 1838, coherent avec Carnegie ('nearly 300 years') ; mesures rivales Henderson (Alpha Centauri) et Struve (Vega) publiees quasi au meme moment, confirmees par Menten et Phys.org ; quiz (bonne reponse index 2) coherent avec le texte de Carnegie sur l'oscillation attendue. Aucune correction de forme necessaire (pas de coquille, pas d'url morte)."
+    ]
   }
 }

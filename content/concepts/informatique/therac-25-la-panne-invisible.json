@@ -1,0 +1,98 @@
+{
+  "id": "inf-therac-25-la-panne-invisible",
+  "slug": "therac-25-la-panne-invisible",
+  "titre": "Un bug logiciel a tué en radiothérapie parce qu'on a retiré le matériel",
+  "accroche": "Entre 1985 et 1987, un appareil de radiothérapie a délivré des surdoses massives. La cause n'était pas un composant défaillant, mais une décision de conception.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Le Therac-25 est un appareil de radiothérapie construit par Atomic Energy of Canada Limited, capable de traiter au choix par faisceau d'électrons, à faible dose, ou par rayons X, dans un mode qui exige un filtre physique pour étaler et atténuer un faisceau bien plus puissant. Entre juin 1985 et janvier 1987, six accidents documentés surviennent sur ces machines, aux États-Unis et au Canada, provoquant des surdoses massives. Deux patients traités au East Texas Cancer Center de Tyler meurent dans les mois qui suivent leur traitement ; un troisième, à Yakima, dans l'État de Washington, en avril 1987.\n\n## Une panne qui n'apparaît qu'à la vitesse d'un geste habile\n\nLa cause identifiée par l'enquête menée par la chercheuse Nancy Leveson n'est ni un composant électronique ni une erreur de calcul isolée : c'est une situation de compétition entre deux tâches du logiciel de commande, une race condition. Sur les machines de Tyler, une opératrice expérimentée pouvait, en quelques secondes, sélectionner le mode rayons X par erreur, s'en apercevoir, corriger vers le mode électrons à l'aide de la touche de curseur, puis valider — plus vite que les huit secondes que prenait le réglage mécanique du champ magnétique. Le logiciel affichait bien la correction à l'écran. Mais une variable interne, déjà réinitialisée avant que la correction ne soit prise en compte, ne la répercutait pas dans les faits : la machine déclenchait alors un faisceau de puissance rayons X, sans que le filtre atténuateur correspondant ne soit en place.\n\n## Ce que le Therac-20 avait, et que le Therac-25 n'avait plus\n\nCe même bug logiciel existait déjà sur le modèle précédent, le Therac-20 — sans jamais blesser personne. La raison ne tient à aucune différence de code : elle tient à ce que Leveson et son co-auteur Clark Turner formulent ainsi dans leur article de référence, publié dans IEEE Computer en 1993 : le Therac-20 disposait de circuits de protection matériels indépendants, qui empêchaient physiquement le faisceau de s'activer dans une configuration dangereuse, tandis que le Therac-25 reposait presque entièrement sur le logiciel pour cette même fonction. Autrement dit, les modèles antérieurs avaient un filet de sécurité qui ne dépendait pas du code ; le Therac-25 a fait le pari inverse, en confiant au seul programme la tâche que le matériel assurait auparavant en double.\n\n## Ce que l'épisode déplace\n\nLe Therac-25 n'était pas moins bien conçu par malveillance ou par incompétence : ses ingénieurs avaient simplement fait confiance à leur logiciel pour remplir un rôle que l'on confiait auparavant, en plus, à des interrupteurs physiques. L'accident ne vient pas d'un bug qu'on aurait pu éviter en programmant mieux dans l'absolu — un bug similaire dormait déjà, inoffensif, dans la génération précédente. Il vient d'avoir retiré la dernière ligne de défense qui rendait ce bug sans conséquence. C'est devenu, depuis, un cas d'école obligé du génie logiciel : la fiabilité d'un système ne se loge pas dans un seul de ses étages, mais dans le fait qu'aucune erreur unique, à elle seule, ne puisse traverser tous les étages à la fois.",
+  "citation": {
+    "texte": "The software error is just a nuisance on the Therac-20 because this machine has independent hardware protective circuits for monitoring the electron-beam scanning... While the Therac-20 relies on mechanical interlocks for monitoring the machine, the Therac-25 relies largely on software.",
+    "auteur": "Nancy G. Leveson et Clark S. Turner",
+    "source": "An Investigation of the Therac-25 Accidents, IEEE Computer, vol. 26, n° 7, juillet 1993",
+    "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_2.html"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Un bug logiciel identique existait déjà sur l'appareil précédent, sans jamais blesser personne.",
+    "idee": "Entre 1985 et 1987, le Therac-25 a provoqué des surdoses mortelles à cause d'une race condition logicielle. Le même bug existait sur le modèle précédent, le Therac-20 — protégé par des sécurités matérielles que le Therac-25 avait retirées, en confiant tout au seul logiciel.",
+    "source_courte": "Leveson & Turner, IEEE Computer, 1993"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Leveson, Nancy G. ; Turner, Clark S.",
+      "titre": "An Investigation of the Therac-25 Accidents",
+      "publication": "IEEE Computer, vol. 26, n° 7",
+      "annee": 1993,
+      "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_2.html",
+      "note": "Deuxième partie de l'article de référence : mécanisme précis de la race condition et comparaison avec le Therac-20."
+    },
+    {
+      "type": "revue",
+      "auteur": "Leveson, Nancy G. ; Turner, Clark S.",
+      "titre": "An Investigation of the Therac-25 Accidents (chronologie des accidents)",
+      "publication": "IEEE Computer, vol. 26, n° 7",
+      "annee": 1993,
+      "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_1.html",
+      "note": "Première partie du même article : dates et lieux détaillés des deux premiers accidents (Marietta, juin 1985 ; Hamilton, juillet 1985)."
+    },
+    {
+      "type": "revue",
+      "auteur": "Leveson, Nancy G. ; Turner, Clark S.",
+      "titre": "An Investigation of the Therac-25 Accidents (accident de Yakima)",
+      "publication": "IEEE Computer, vol. 26, n° 7",
+      "annee": 1993,
+      "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_3.html",
+      "note": "Troisième partie du même article : accident de Yakima du 17 janvier 1987 et décès du patient en avril 1987."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "IEEE Computer — An Investigation of the Therac-25 Accidents (DOI)",
+      "url": "https://doi.org/10.1109/MC.1993.274940",
+      "note": "Référence éditeur stable de l'article original de Leveson et Turner."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux colonnes verticales identiques, l'une entourée d'un double cadre net (l'une des lignes du cadre sortant du dessin), l'autre entourée d'un seul cadre incomplet, ouvert sur un côté. Aplat noir sur encre aqua, papier crème, léger hors-repérage sur l'aqua uniquement. Aucune figure humaine, aucun symbole médical reconnaissable.",
+    "alt": "Deux colonnes identiques, l'une entourée d'un double cadre complet, l'autre d'un cadre ouvert sur un côté",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le même bug logiciel a-t-il causé des surdoses mortelles sur le Therac-25, alors qu'il existait déjà sans dommage sur le modèle précédent, le Therac-20 ?",
+    "choix": [
+      "Parce que le Therac-25 utilisait un langage de programmation nettement moins fiable que celui du Therac-20",
+      "Parce que le Therac-20 gardait des sécurités matérielles indépendantes, retirées sur le Therac-25 au profit du seul logiciel",
+      "Parce que le Therac-25 délivrait systématiquement des doses plus fortes, quel que soit le mode de traitement choisi",
+      "Parce que les opérateurs du Therac-25 recevaient une formation nettement plus courte que ceux du Therac-20"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le bug logiciel — une race condition entre deux tâches du programme de commande — existait déjà sur le Therac-20. Il y restait sans conséquence parce que la machine disposait de circuits de protection matériels indépendants, qui empêchaient physiquement un faisceau dangereux de se déclencher. Le Therac-25 avait retiré ce filet de sécurité matériel, en confiant seul au logiciel la fonction que le matériel assurait auparavant.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "9322bf76ff56be52",
+    "notes": [
+      "Ajout d'une troisième source (Therac_3.html, accident de Yakima du 17 janvier 1987) manquante à l'appui du troisième décès mentionné dans le corps. Note de la source Therac_1.html corrigée : elle ne couvre que les deux premiers accidents (Marietta, Hamilton), pas les six."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "inf-le-probleme-de-l-arret-de-turing",
+  "slug": "le-probleme-de-l-arret-de-turing",
+  "titre": "Aucun programme ne peut prédire si un autre va boucler",
+  "accroche": "En 1936, un article de 36 pages démontre qu'aucun algorithme ne peut dire à l'avance si un programme quelconque va s'arrêter ou tourner indéfiniment.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Un logiciel plante, reste bloqué, tourne sans fin. La question paraît anodine : pourquoi personne n'a-t-il jamais écrit un programme capable de dire à l'avance, pour n'importe quel autre programme, s'il va un jour s'arrêter ? Ce n'est pas un problème d'ingénierie non résolu. C'est un problème dont on a démontré, en 1936, qu'il n'a pas de solution générale — quels que soient les moyens de calcul disponibles, aujourd'hui ou dans mille ans.\n\n## Un problème de décision, posé par Hilbert\n\nEn 1928, le mathématicien David Hilbert avait posé l'Entscheidungsproblem : existe-t-il une méthode mécanique qui, appliquée à n'importe quel énoncé logique, dise en un nombre fini d'étapes s'il est vrai ou faux ? Alan Turing, alors âgé de 23 ans et récent fellow de King's College à Cambridge, s'attaque à cette question dans un article soumis le 28 mai 1936, « On Computable Numbers, with an Application to the Entscheidungsproblem ». Pour y répondre, il invente d'abord un objet théorique : une machine réduite à sa plus simple expression — un ruban, une tête de lecture, une table d'instructions — capable, en principe, d'exécuter tout calcul qu'un humain pourrait mener pas à pas. C'est la machine de Turing. Alonzo Church, à Princeton, publie une conclusion équivalente quelques mois plus tôt par une autre voie, le lambda-calcul ; les deux résultats seront reconnus comme identiques.\n\n## La preuve qui se mord la queue\n\nParmi les questions que Turing pose à sa machine théorique, il y en a une décisive : peut-on construire une machine capable de dire, pour toute autre machine et toute entrée, si celle-ci s'arrêtera ? Supposons que oui : appelons-la H. Turing construit alors une machine D qui interroge H à son propre sujet, puis fait l'exact contraire de ce que H prédit — elle boucle si H annonce un arrêt, elle s'arrête si H annonce une boucle. Que se passe-t-il quand on applique D à elle-même ? Si D s'arrête, c'est qu'elle ne devait pas s'arrêter ; si elle boucle, c'est qu'elle devait s'arrêter. La contradiction est totale, et elle ne vient que d'une hypothèse : que H existe. H ne peut donc pas exister. Le raisonnement reprend le procédé de diagonalisation que Georg Cantor avait utilisé pour ses travaux sur l'infini — se retourner contre sa propre définition jusqu'à la faire s'effondrer.\n\n## Ce que cela ferme, définitivement\n\nLe résultat de Turing a été généralisé plus tard sous le nom de théorème de Rice : aucune propriété non triviale du comportement d'un programme — pas seulement s'arrêter, mais aussi par exemple « calcule-t-il toujours la bonne réponse ? » — n'est décidable en général. C'est pour cette raison qu'aucun antivirus ne peut détecter, avec une garantie absolue, tous les programmes malveillants possibles : le chercheur Fred Cohen l'a démontré formellement en 1987, par une réduction directe au problème de l'arrêt. Un détecteur parfait permettrait de construire un programme qui échapperait à sa propre détection, exactement comme la machine D échappait à H.\n\nCela n'empêche personne d'écrire des logiciels qui fonctionnent : cela interdit seulement une garantie universelle et automatique. Les vérificateurs de programmes, les antivirus, les analyseurs de bugs avancent tous par approximations — heuristiques, cas particuliers, hypothèses restrictives — parce que la solution générale, elle, n'existe nulle part à découvrir.",
+  "citation": null,
+  "repere": {
+    "texte": "Turing soumet « On Computable Numbers, with an Application to the Entscheidungsproblem » le 28 mai 1936, à 23 ans. L'article paraît dans les Proceedings of the London Mathematical Society, avec pour indécidable le problème de savoir si un programme quelconque s'arrête — un résultat depuis généralisé à toute propriété non triviale du comportement d'un programme (théorème de Rice).",
+    "source": "Oxford University Press, notice bibliographique de l'article original",
+    "url": "https://academic.oup.com/plms/article-abstract/s2-42/1/230/1491926"
+  },
+  "carte": {
+    "punch": "Aucun logiciel ne peut jamais prédire, en général, si un autre va boucler indéfiniment.",
+    "idee": "Alan Turing l'a démontré en 1936 par l'absurde : une telle machine, appliquée à sa propre description, se contredirait forcément. La conséquence dure encore aujourd'hui — aucun antivirus ne peut détecter, à coup sûr, tous les programmes malveillants possibles.",
+    "source_courte": "Turing, Proc. London Math. Soc., 1936"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Turing, Alan M.",
+      "titre": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "publication": "Proceedings of the London Mathematical Society, Series 2, vol. 42",
+      "annee": 1936,
+      "url": "https://academic.oup.com/plms/article-abstract/s2-42/1/230/1491926",
+      "note": "Article original, date de réception confirmée (28 mai 1936) sur la notice bibliographique de l'éditeur."
+    },
+    {
+      "type": "web",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "Turing Machines",
+      "publication": "plato.stanford.edu",
+      "annee": null,
+      "url": "https://plato.stanford.edu/entries/turing-machine/",
+      "note": "Section 2.4.3 : reconstruction précise et vérifiée du raisonnement par l'absurde sur le problème de l'arrêt."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — Rice's theorem",
+      "url": "https://en.wikipedia.org/wiki/Rice%27s_theorem",
+      "note": "La généralisation du résultat de Turing à toute propriété non triviale du comportement d'un programme."
+    },
+    {
+      "titre": "Bletchley Park Trust — 10 things to know about Alan Turing",
+      "url": "https://www.bletchleypark.org.uk/our-story/10-things-to-know-about-alan-turing/",
+      "note": "Contexte biographique : élection de Turing comme fellow de King's College en 1935, un an avant l'article."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une flèche en aplat noir qui part d'un rectangle, traverse une trame régulière en encre aqua, et revient se planter dans son propre point de départ, formant une boucle fermée légèrement asymétrique. Une portion de la boucle sort du cadre. Papier crème, léger hors-repérage sur l'aqua uniquement, aucun symbole ni figure reconnaissable.",
+    "alt": "Une flèche qui boucle sur son propre point de départ, une partie du tracé sortant du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi ne peut-on pas construire un programme capable de dire, pour tout autre programme, s'il va s'arrêter ou tourner indéfiniment ?",
+    "choix": [
+      "Parce qu'aucun ordinateur actuel n'a la puissance de calcul suffisante pour effectuer cette vérification",
+      "Parce que la plupart des langages de programmation ne permettent pas d'analyser leur propre code",
+      "Parce qu'un tel programme, appliqué à lui-même, se contredirait forcément dans les deux cas possibles",
+      "Parce que cela n'a jamais été tenté sérieusement par la recherche en informatique"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Ce n'est pas une limite de puissance de calcul ni un manque de recherche : Turing a montré qu'un tel programme, confronté à sa propre description, produirait une contradiction logique pure — il devrait à la fois s'arrêter et ne pas s'arrêter. C'est ce qui rend le problème indécidable en toute généralité, quels que soient les moyens disponibles.",
+    "statut": "brouillon"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "92659751cec564da",
+    "notes": [
+      "Accroche corrigée : « article de 35 pages » → « article de 36 pages » (pp. 230-265 confirmées sur la notice OUP)."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-07-30",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
