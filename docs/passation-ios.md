@@ -89,6 +89,37 @@ répondus. `NSUbiquitousKeyValueStore` fait exactement ça : clé-valeur, synchr
 iCloud, 1 Mo de quota, aucun schéma à déclarer, aucune migration. Passer à CloudKit
 seulement si l'état dépasse ce cadre.
 
+C'est aussi **toute la réponse à la conservation de l'historique** : suppression de
+l'app et changement d'iPhone sont couverts par l'Apple ID, sans compte, sans backend,
+sans inscription (`decisions.md`, 2026-07-31). Une année de lecture quotidienne pèse
+29 Ko — mesuré sur les identifiants réels du pipeline — contre 1 Mo de quota. Il n'y
+a pas de dimensionnement à prévoir.
+
+Les clés à synchroniser sont celles de l'esquisse (`app/app.js`, objet `DEFAUT`) :
+`onboarde`, `disciplines`, `heure`, `debut`, `pseudo`, `premium`, `journal`,
+`record`. `theme` et `materiau` sont des préférences d'affichage : les
+synchroniser ou non est sans conséquence.
+
+**La fusion tient en trois règles**, et il faut les tenir : deux appareils écrivent,
+iCloud ne tranche pas à votre place.
+
+- `journal` fusionne par **union sur la date**. Les entrées sont idempotentes
+  (`'AAAA-MM-JJ' -> { id, quiz }`) ; en cas de collision sur un même jour, garder
+  celle qui porte une réponse de quiz.
+- `record` fusionne par **maximum**. `debut` par **minimum**.
+- **Rien de dérivé ne se synchronise.** La série se recalcule à partir du journal
+  fusionné, jamais ne se réconcilie — deux séries additionnées ou choisies au hasard
+  donnent un chiffre faux que rien ne rattrape ensuite.
+
+Écrire un numéro de version de schéma à côté de l'état. Il ne coûte rien aujourd'hui
+et rend possible une migration qui, sans lui, obligerait à jeter les historiques.
+
+**Le compte et le coffre chiffré sont hors périmètre V1.** Ils ne servent qu'au
+passage iOS → Android, qui n'existe pas tant qu'il n'y a qu'un client. La conception
+est consignée dans `decisions.md` (2026-07-31) : ne pas l'anticiper dans le code, mais
+ne pas non plus stocker l'état d'une façon qui la rendrait impossible — d'où les
+règles de fusion ci-dessus, qui sont exactement ce dont un coffre aurait besoin.
+
 ## 5. L'esquisse existe déjà
 
 `app/` dans ce dépôt contient une **PWA fonctionnelle** avec le parcours complet :
@@ -136,6 +167,9 @@ licence, puis `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`.
 ## 8. Ce qu'il ne faut pas faire
 
 - Ne pas ajouter de dépendance sans raison forte. Le projet tient sans, jusqu'ici.
+- Ne pas introduire de compte, d'inscription ni de backend pour conserver
+  l'historique. `NSUbiquitousKeyValueStore` couvre le besoin (§4), et l'app affiche
+  « aucun compte, aucun serveur, aucun suivi » — ce qui doit rester vrai.
 - Ne pas inventer de contenu. Les fiches viennent du pipeline et de nulle part
   ailleurs. Les cinq fiches présentes dans les maquettes de Claude Design sont
   fictives et n'ont pas passé le validateur.

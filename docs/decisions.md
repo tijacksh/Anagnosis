@@ -6,6 +6,49 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-07-31 — L'historique se conserve par la plateforme, pas par un compte
+
+**Décidé :** la persistance de l'historique passe par la synchronisation native de
+l'appareil — `NSUbiquitousKeyValueStore` sur iOS, Auto Backup for Apps sur Android
+le jour venu. **Pas de compte, pas de backend, pas d'inscription.** La règle de
+fusion et la liste des clés sont dans `docs/passation-ios.md` §4.
+
+**Pourquoi :** les deux cas qui inquiètent — suppression de l'app, changement
+d'appareil — sont déjà couverts, gratuitement, par l'Apple ID ou le compte Google
+que tout utilisateur possède nécessairement. L'état à conserver pèse 29 Ko pour une
+année de lecture quotidienne, mesuré sur les identifiants réels ; le quota iCloud
+clé-valeur est de 1 Mo, soit trente ans. Construire un compte pour ce service
+reviendrait à payer le prix positionnel — « aucun compte, aucun serveur, aucun
+suivi » est écrit dans le README et en pied du banc d'essai — pour quelque chose
+que la plateforme rend déjà.
+
+**Ce que ça ne couvre pas :** le passage d'iOS à Android. Aucune sauvegarde
+iCloud ne se restaure sur Android, et réciproquement. C'est le seul trou, et il
+n'existe pas tant qu'il n'y a qu'un seul client.
+
+**Reporté — le coffre chiffré.** Pour ce trou, la réponse conçue est un coffre à
+connaissance nulle : un secret aléatoire tiré sur l'appareil, dont on dérive une
+clé de chiffrement et un identifiant de dépôt par deux HKDF distincts, l'état
+chiffré en AES-GCM, et deux routes `PUT`/`GET` qui ne voient que des octets
+opaques. Trois conséquences à assumer le jour où on l'ouvrira : secret perdu =
+données perdues sans recours ; c'est un porteur, pas une connexion ; les droits
+premium ne peuvent pas s'y adosser et restent côté App Store et Play Store.
+
+**Pourquoi pas maintenant, et pourquoi pas chez OVH.** Le coffre ne sert à rien
+tant qu'il n'y a qu'un écosystème. Et l'hébergement inclus avec le domaine
+(100 Mo) ne convient pas : il ne permet pas à un client d'écrire, il plafonne
+silencieusement à ~3 500 coffres d'un an, et il serait la copie unique d'une
+donnée que le chiffrement rend irrécupérable — personne, nous compris, ne pourrait
+la reconstruire. Si un serveur devient nécessaire, une fonction sur l'hébergement
+du site suffit : deux routes, pas de nouveau fournisseur.
+
+**Le pseudo n'est pas une identité.** Il existe déjà (`app/app.js`, `ecrans.md`
+§1) pour signer la carte partageable. Il reste cosmétique, vit à l'intérieur de
+l'état, et ne sert jamais de clé de récupération : un nom se devine, se squatte et
+permet d'énumérer les utilisateurs.
+
+---
+
 ## 2026-07-30 — Direction artistique arrêtée, livraison Claude Design intégrée
 
 **Décidé :** la direction artistique est **finale**. La livraison de Claude Design
