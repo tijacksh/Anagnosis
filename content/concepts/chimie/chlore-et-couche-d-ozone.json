@@ -63,13 +63,13 @@
     ],
     "bonne_reponse": 2,
     "explication": "Les CFC ont justement été retenus pour leur innocuité chimique : ils ne sont ni toxiques ni corrosifs, et c'est ce qui leur permet de traverser la basse atmosphère sans être détruits. Le danger naît de cette stabilité, pas d'un poison ni d'un tonnage — un gaz réactif, même produit en masse, ne monterait jamais jusqu'à la stratosphère.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:13:45.683Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-07-31T08:11:31.543Z",
     "historique": [
       {
         "action": "valider",
@@ -78,6 +78,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:13:45.683Z",
         "note": "Validation en lot du pack Chimie, sur instruction du relecteur."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-07-31T08:11:31.543Z",
+        "note": "Contrôle des sources : le chiffre « des dizaines de milliers » de molécules d'ozone détruites par atome de chlore (contenu_vulgarise, repere.texte, carte.idee) ne correspond pas précisément à la source citée. Rowland, Nobel Lecture in Chemistry (1995, sources[1]) donne « about 100,000 ozone molecules removed per chlorine atom » — soit environ cent mille, pas des dizaines de milliers. L'article original de Molina & Rowland, Nature 249, 1974 (sources[0]), décrit la chaîne catalytique mais ne quantifie pas ce chiffre dans son texte accessible. Le reste de la fiche est confirmé."
       }
     ]
   },
@@ -85,5 +93,14 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "a14be52699727045",
+    "notes": [
+      "Le chiffre « des dizaines de milliers » de molécules d'ozone détruites par atome de chlore (contenu_vulgarise, repere.texte, carte.idee) ne correspond pas précisément à la source citée : Rowland, Nobel Lecture in Chemistry (1995, sources[1], nobelprize.org/uploads/2018/06/rowland-lecture.pdf) donne « about 100,000 ozone molecules removed per chlorine atom » — environ cent mille, pas des dizaines de milliers. L'article original Molina & Rowland, Nature 249, 810-812, 1974 (sources[0], nature.com/articles/249810a0) décrit la chaîne catalytique mais ne quantifie pas ce chiffre dans son texte accessible (résumé + version PDF vérifiée). À trancher par un relecteur : reprendre le chiffre du Nobel Lecture ('une centaine de milliers') ou vérifier le texte intégral du papier de 1974.",
+      "Reste confirmé : mécanisme CFC/photodissociation/chlore/destruction catalytique de l'ozone (Nature 249, 1974) ; découverte du trou d'ozone antarctique en 1985 par Farman et al., mécanisme via les nuages stratosphériques polaires (confirmé dans le Nobel Lecture) ; protocole de Montréal signé en septembre 1987 ; prix Nobel de chimie 1995 partagé Crutzen/Molina/Rowland (nobelprize.org/prizes/chemistry/1995/summary). Quiz, repere.url et sources[].url vérifiés et fonctionnels."
+    ]
   }
 }

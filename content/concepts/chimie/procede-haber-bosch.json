@@ -65,7 +65,7 @@
     "explication": "Comprimer un équilibre gazeux le déplace vers le côté qui occupe le moins de volume : ici, deux molécules d'ammoniac contre quatre de réactifs. La haute pression compense en partie la chaleur, nécessaire à la vitesse mais défavorable au rendement. Le catalyseur, lui, accélère sans déplacer l'équilibre, et la séparation de l'azote de l'air est une étape distincte.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -85,5 +85,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "44d25bbec5417425",
+    "notes": [
+      "Sources rouvertes (Nature Geoscience/Erisman et al. 2008, MIT Press/Smil). Confirmé : brevet Haber 13/10/1908 (citation exacte trouvée dans l'article), filet continu 1909, Nobel Haber 1918 / Bosch 1931, conditions 400-500°C + haute pression + catalyseur fer, Haber a dirigé l'attaque au chlore à Ypres en 1915, chiffre 40-50% des protéines largement corroboré par des citations indépendantes de l'article (accès intégral bloqué par paywall, non vérifié mot pour mot). A VERIFIER : la fiche dit que Bosch a passé 'les dix années suivantes' (1909) à industrialiser le procédé. Plusieurs sources convergentes et indépendantes (Wikipedia Carl Bosch, madehow.com, chm.bris.ac.uk, résumés scientifiques) situent la mise en service du premier site industriel (Oppau) au 9 septembre 1913, soit environ 4 ans après 1909, pas 10. Ni l'abstract d'Erisman et al. ni la fiche MIT Press du livre de Smil (403 sur fetch direct, mais URL confirmée légitime via recherche) ne permettent de confirmer les 'dix ans'. A reformuler ou sourcer précisément (peut-être Leuna/expansion de guerre si c'est l'intention), sinon corriger vers ~4 ans jusqu'à Oppau 1913."
+    ]
   }
 }

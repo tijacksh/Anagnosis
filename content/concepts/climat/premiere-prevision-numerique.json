@@ -12,7 +12,7 @@
   "citation": null,
   "repere": {
     "texte": "Richardson estime à 64 000 le nombre de calculateurs humains nécessaires pour que la prévision avance aussi vite que le temps réel. Son propre essai lui a demandé plusieurs semaines pour six heures de prévision.",
-    "source": "Peter Lynch, « Richardson's Forecast-factory: the 64,000 question », University College Dublin",
+    "source": "Peter Lynch, « Richardson's Forecast-factory: the $64,000 Question », The Meteorological Magazine, 122, 69-70 (1993)",
     "url": "https://maths.ucd.ie/~plynch/Publications/64000.html"
   },
   "carte": {
@@ -24,8 +24,8 @@
     {
       "type": "article",
       "auteur": "Lynch, Peter",
-      "titre": "Richardson's Forecast-factory: the 64,000 question",
-      "publication": "School of Mathematics and Statistics, University College Dublin",
+      "titre": "Richardson's Forecast-factory: the $64,000 Question",
+      "publication": "The Meteorological Magazine, 122, 69-70",
       "annee": 1993,
       "url": "https://maths.ucd.ie/~plynch/Publications/64000.html",
       "note": "Reconstitue l'usine à prévisions et le décompte des calculateurs."
@@ -41,10 +41,10 @@
     },
     {
       "type": "institution",
-      "auteur": "European Meteorological Society",
+      "auteur": "Lynch, Peter",
       "titre": "Richardson's Fantastic Forecast Factory",
-      "publication": "EMS",
-      "annee": 2016,
+      "publication": "European Meteorological Society",
+      "annee": 2015,
       "url": "https://www.emetsoc.org/resources/rff/",
       "note": "Reconstitution visuelle de l'amphithéâtre décrit en 1922."
     }
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "5693fbe2324f5c92",
+    "notes": [
+      "Sources rouvertes (UCD/Lynch 1993, arXiv:2210.01674, EMS 2015) : calcul manuel pendant la conduite d'ambulance, résultat aberrant dû aux déséquilibres pression/vent amplifiés en ondes parasites, initialisation, usine à 64000 calculateurs — tout confirmé par les sources. Corrigé : titre exact avec le signe $ ($64,000 Question), revue d'origine (The Meteorological Magazine, 1993) au lieu de l'UCD comme lieu de publication, et pour la source EMS l'auteur réel (Lynch, pas EMS) et l'année réelle (2015, pas 2016)."
+    ]
   }
 }

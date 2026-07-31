@@ -37,7 +37,16 @@
       "publication": "Rachel Carson Center",
       "annee": 2014,
       "url": "https://www.environmentandsociety.org/tools/keywords/arrhenius-anticipates-greenhouse-effect",
-      "note": "Replace le calcul dans la question qui l'a motivé : l'origine des glaciations."
+      "note": "Notice bio-bibliographique brève ; confirme la référence exacte de l'article de 1896 et le situe dans l'histoire de la découverte de l'effet de serre."
+    },
+    {
+      "type": "web",
+      "auteur": "Weart, Spencer",
+      "titre": "The Carbon Dioxide Greenhouse Effect",
+      "publication": "The Discovery of Global Warming, American Institute of Physics",
+      "annee": 2026,
+      "url": "https://history.aip.org/climate/co2.htm",
+      "note": "Histoire du sujet par un historien des sciences, avec renvois précis à Arrhenius (1896, p. 266 et p. 269-73) : le calcul du doublement du CO2 à 5-6°C, l'estimation d'environ trois mille ans pour l'atteindre au rythme de combustion de 1896, et le fait qu'Arrhenius ne voyait pas cela comme un problème."
     }
   ],
   "pour_aller_plus_loin": [
@@ -63,13 +72,13 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le principe était établi avant lui, son chiffre reste dans le bon ordre de grandeur, et il avait bien intégré l'amplification par la vapeur d'eau. Son erreur porte sur le rythme humain : il tablait sur des millénaires de combustion là où un siècle a suffi — ce qui rendait sa conclusion sereine.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:57:28.283Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-07-31T08:13:25.000Z",
     "historique": [
       {
         "action": "valider",
@@ -78,6 +87,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:57:28.283Z",
         "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-07-31T08:13:25.000Z",
+        "note": "Contrôle des sources : l'accroche et carte.punch affirment qu'Arrhenius « espère que ça arrive vite »/« espérait qu'il arrive vite ». Les sources (Arrhenius 1896, p. 269-73 ; Weart, AIP, « The Carbon Dioxide Greenhouse Effect ») montrent qu'il anticipait le doublement du CO2 sur environ trois mille ans au rythme de combustion de 1896, et qu'il « n'y voyait pas un problème » / trouvait la perspective agréable — pas qu'il souhaitait que ça arrive vite. Aucune source de la fiche ne soutient l'idée d'un souhait de rapidité, qui contredit même son propre horizon de trois mille ans. À reformuler (retirer « vite ») ou à sourcer précisément avant revalidation."
       }
     ]
   },
@@ -85,5 +102,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "268ccafdf01b5cff",
+    "notes": [
+      "Sources rouvertes (Arrhenius 1896 intégral relu p.237-276, notice Rachel Carson Center, essai de S. Weart AIP). Vérifiés et confirmés : article authentique et bien référencé, doublement du CO2 -> 5-6°C (Table VII, p.266), sensibilité moderne ~3°C, prise en compte de la vapeur d'eau comme amplificateur, calcul impliquant une échelle de temps de l'ordre du millénaire pour le charbon (p.270, repris par Weart : ~3000 ans). Corrigé sans signalement : note de la source Rachel Carson Center (ne parle pas de l'origine des glaciations, contrairement à ce qu'affirmait la note) et ajout d'une source (Weart/AIP) pour étayer l'estimation des trois mille ans et l'absence d'inquiétude d'Arrhenius. Signalé (statut passé à en_retouche) : l'accroche et carte.punch affirment qu'Arrhenius espérait que le réchauffement arrive VITE, ce qu'aucune source ne soutient — il l'anticipait sur des millénaires et ne s'en inquiétait pas, ce qui est différent d'un souhait de rapidité."
+    ]
   }
 }

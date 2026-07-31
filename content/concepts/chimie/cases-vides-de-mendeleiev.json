@@ -12,20 +12,20 @@
   "citation": null,
   "repere": {
     "texte": "Mendeleïev annonce pour l'oxyde d'eka-silicium une densité voisine de 4,7. En 1886, Winkler mesure 4,70 sur l'oxyde de germanium.",
-    "source": "Scerri, « Prediction and the periodic table », Studies in History and Philosophy of Science, 2001",
+    "source": "Scerri & Worrall, « Prediction and the periodic table », Studies in History and Philosophy of Science, 2001",
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0039368101000231"
   },
   "carte": {
     "punch": "Il a laissé des cases vides, et décrit les éléments qui viendraient les remplir.",
     "idee": "Mendeleïev, 1869 : là où la suite des masses ne collait pas, il laisse un trou et annonce les propriétés de l'absent. Gallium en 1875, germanium en 1886 — les mesures tombent sur ses prédictions.",
-    "source_courte": "Scerri, Stud. Hist. Phil. Sci., 2001"
+    "source_courte": "Scerri & Worrall, Stud. Hist. Phil. Sci., 2001"
   },
   "sources": [
     {
       "type": "article",
-      "auteur": "Scerri, Eric R.",
+      "auteur": "Scerri, Eric R. & Worrall, John",
       "titre": "Prediction and the periodic table",
-      "publication": "Studies in History and Philosophy of Science, 32(3)",
+      "publication": "Studies in History and Philosophy of Science, 32(3), p. 407-452",
       "annee": 2001,
       "url": "https://www.sciencedirect.com/science/article/abs/pii/S0039368101000231",
       "note": "Discute précisément ce qui, de la prédiction ou de l'accommodation, a emporté l'adhésion."
@@ -37,14 +37,23 @@
       "publication": "Classic Chemistry, Le Moyne College",
       "annee": 2005,
       "url": "https://web.lemoyne.edu/~giunta/EA/MENDELann.HTML",
-      "note": "Textes de Mendeleïev en traduction, dont son récit de l'affaire du gallium."
+      "note": "Textes de Mendeleïev en traduction (conférence Faraday, 1889), dont sa mention de la découverte du gallium."
+    },
+    {
+      "type": "article",
+      "auteur": "Sztejnberg, Aleksander",
+      "titre": "Paul-Émile (François) Lecoq de Boisbaudran (1838-1912) - the Important French chemist of the Second Half of the XIX Century and the First Decade of the XX Century",
+      "publication": "Revista CENIC Ciencias Químicas, 53(Esp.1), p. 120-134",
+      "annee": 2022,
+      "url": "https://www.redalyc.org/journal/1816/181676110008/html/",
+      "note": "Détaille la mesure initiale de densité du gallium (4,7), sa révision après purification (5,935) et la note de Mendeleïev aux Comptes Rendus."
     }
   ],
   "pour_aller_plus_loin": [
     {
       "titre": "Classic Chemistry — Mendeleev's later reflections on the periodic law",
       "url": "https://web.lemoyne.edu/~giunta/EA/MENDELann.HTML",
-      "note": "En anglais ; Mendeleïev raconte lui-même l'épisode du gallium."
+      "note": "En anglais ; Mendeleïev évoque lui-même la découverte du gallium."
     }
   ],
   "illustration": {
@@ -85,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "6662f227a4fcecfe",
+    "notes": [
+      "Sources rouvertes en ligne (article Scerri & Worrall via copie libre hébergée par johnworrall.org — 47 pages lues en entier, ScienceDirect confirmé identique par DOI mais 403 bot ; page Giunta ; recherches croisées). Faits vérifiés exacts : mars 1869 / Société russe de chimie / 63 éléments ; prédictions eka-aluminium, eka-silicium, eka-bore ; Boisbaudran isole le gallium en 1875 (l'article Scerri&Worrall cite par erreur '1874' en reprenant une citation de Maher 1988, mais toutes les sources primaires et indépendantes datent bien la découverte de 1875) ; densité de l'oxyde de germanium mesurée à 4,70 par Winkler en 1886, conforme à la prédiction ~4,7 (confirmé texte intégral de la conférence Faraday 1889 de Mendeleïev) ; éther/newtonium prédit dans un groupe zéro avant l'hydrogène et jamais trouvé, résistance initiale aux gaz nobles (argon pris pour de l'azote triatomique) — les deux confirmés en détail dans Scerri & Worrall p.419-446. Quiz et carte cohérents avec les sources. Corrections appliquées : auteur incomplet du papier Scerri & Worrall (le nom de John Worrall manquait dans sources[], repere.source et carte.source_courte) ; pagination ajoutée (32(3), p.407-452) ; note de sources[1] et de pour_aller_plus_loin corrigée (elle disait que Mendeleïev 'raconte' l'affaire du gallium dans la conférence Faraday traduite par Giunta, alors qu'il n'y consacre qu'une seule phrase, sans aucun détail) ; source ajoutée (Sztejnberg, Revista CENIC Ciencias Quimicas, 2022, en accès libre) pour appuyer l'épisode chiffré et daté de la densité du gallium (4,7 puis 5,935 après purification), qu'aucune des deux sources d'origine de la fiche ne documentait en fait."
+    ]
   }
 }

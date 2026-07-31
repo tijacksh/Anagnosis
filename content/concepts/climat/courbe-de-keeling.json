@@ -74,7 +74,7 @@
     "explication": "L'essentiel des terres émergées se trouve au nord : quand leur végétation pousse, elle prélève du carbone, et elle en relâche à l'automne. Cette respiration se lit depuis un point unique du Pacifique. La dérive instrumentale est justement ce que l'étalonnage obstiné de Keeling avait pour but d'écarter.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,14 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "bdbac83c075d0d64",
+    "notes": [
+      "Accroche et carte.idee affirment qu'« un même appareil » mesure le CO2 au Mauna Loa depuis 1958. Or l'analyseur infrarouge original installé en mars 1958 a fonctionné ~48 ans puis a été retiré (chevauchement puis remplacement par un analyseur Siemens vers 2006) : la continuité documentée par les sources est celle du site et de la méthode (« au même endroit, avec la même méthode », comme le dit déjà le corps du texte), pas celle d'un unique appareil physique. À reformuler dans l'accroche et la carte.",
+      "repere.texte affirme que « la série n'a pas été interrompue depuis » mars 1958. La source APS citée (aps.org/apsnews/2025/02/keeling-measurements-co2-mauna-loa) dit explicitement l'inverse : les mesures ont été interrompues à deux reprises, une fois pour raisons de financement (années 1960), une fois pour cause naturelle (l'éruption du Mauna Loa a coupé l'accès et l'alimentation de l'observatoire de nov. 2022 à juil. 2023, mesures alors prises à Maunakea). La source Scripps (keelingcurve.ucsd.edu) confirme un « gap » dans la courbe en 1964 dû à des coupes budgétaires. Affirmation à corriger ou nuancer."
+    ]
   }
 }

@@ -74,7 +74,7 @@
     "explication": "L'animal introduit et le ravageur visé n'occupaient pas le même espace : c'est une question de rencontre, pas de régime alimentaire ni de nombre. Le crapaud est bien un prédateur vorace — il a simplement mangé tout autre chose, et prospéré au point de coloniser plus d'un million de kilomètres carrés.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "cbaf157bc4c907c4",
+    "notes": [
+      "Deux problèmes de sourçage réels. (1) sources[1] mal attribuée : le DOI 10.1371/journal.pone.0156950 est de Hudson, McCurry, Lundgren, McHenry & Shine (PLOS ONE 11(9):e0156950, 22/09/2016, 'futile attempt to control insect pests' — confirme l'échec), pas de 'Phillips et al.' ; la fiche donne aussi le mauvais numéro (11(6) au lieu de 11(9)) et la note 'dix ans de suivi' est fausse (l'étude couvre 80 ans depuis 1935) ; son résultat est en outre plus nuancé que 'pattes plus longues' (pattes arrière PLUS COURTES, pattes avant plus robustes, changement de mode de locomotion). (2) sources[2] (Le Blob/AFP, lu en entier sur le site) affirme '62 000 crapauds-buffles importés... se sont parfaitement acquittés de leur mission' — contredit frontalement le nombre (2 400) et l'échec du contrôle biologique que la fiche affirme. Par ailleurs, aucune source actuellement citée ne donne explicitement '2 400 à Gordonvale' : ce chiffre est bien attesté ailleurs (PestSmart : '2400 toads released into sites around Gordonvale' le 19/08/1935 ; confirme aussi l'absence de test préalable) mais pas dans les 3 sources de la fiche. Vérifié en revanche et exact : repere/sources[0] (Phillips et al., Nature 439:803, 2006, lu en entier) — facteur ~5, pattes plus longues au front, >1 million de km² colonisés, tout est verbatim dans l'article. pour_aller_plus_loin (PDF William & Mary) est bien authentique malgré un premier outil de lecture défaillant. Quiz, carte, repere : cohérents avec les sources. À reprendre : corriger l'attribution/le contenu de sources[1], décider du sort de sources[2] (l'AFP se trompe très probablement, mais ce n'est pas à une routine de trancher), envisager d'ajouter une source pour le chiffre de 2 400/Gordonvale."
+    ]
   }
 }

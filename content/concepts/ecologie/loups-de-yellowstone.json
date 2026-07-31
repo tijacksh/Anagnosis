@@ -32,19 +32,19 @@
     },
     {
       "type": "article",
-      "auteur": "Biological Conservation",
+      "auteur": "Ripple, William J.; Beschta, Robert L.; Wolf, Christopher; Painter, Luke E.; Wirsing, Aaron J.",
       "titre": "The strength of the Yellowstone trophic cascade after wolf reintroduction",
-      "publication": "Biological Conservation",
+      "publication": "Global Ecology and Conservation",
       "annee": 2025,
       "url": "https://www.sciencedirect.com/science/article/pii/S2351989425000290",
       "note": "Réévaluation récente de l'intensité de l'effet, trente ans après la réintroduction."
     },
     {
       "type": "web",
-      "auteur": "International Wolf Center",
+      "auteur": "Rabe, Jack (International Wolf Center)",
       "titre": "Do Wolves Really Change Rivers?",
       "publication": "International Wolf Magazine",
-      "annee": 2020,
+      "annee": 2024,
       "url": "https://wolf.org/wolf-info/international-wolf-magazine/do-wolves-really-change-rivers-2/",
       "note": "Expose les objections des spécialistes du loup au récit populaire."
     }
@@ -74,11 +74,11 @@
     "explication": "La baisse des wapitis et le recul du broutage sont documentés, et les cascades trophiques sont un mécanisme établi. Mais chaque maillon supplémentaire multiplie les explications concurrentes — chasse, sécheresse, autres prédateurs, eau disponible — et le tracé des rivières est le plus lointain de tous.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:57:28.283Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-07-31T08:34:52.000Z",
     "historique": [
       {
         "action": "valider",
@@ -87,6 +87,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:57:28.283Z",
         "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-07-31T08:34:52.000Z",
+        "note": "Contrôle des sources : deux points à revoir avant revalidation. (1) La source Ripple et al. 2025 (« The strength of the Yellowstone trophic cascade... ») est présentée comme une « réévaluation récente » sans réserve, alors qu'elle a été contestée frontalement par un commentaire publié dans la même revue : MacNulty, Cooper et al., « Flawed analysis invalidates claim of a strong Yellowstone trophic cascade after wolf reintroduction: A comment on Ripple et al. (2025) », Global Ecology and Conservation, 2025 (DOI 10.1016/j.gecco.2025.e03899) — raisonnement circulaire dans le calcul du volume des saules (la hauteur sert à la fois à calculer et à prédire le volume), parcelles non appariées entre 2001 et 2020 ; conclusion des auteurs : « no evidence that predator recovery caused a large or system-wide increase in willow growth ». (2) Le repere et le paragraphe « Ce qui est solidement établi » présentent le recul du broutage (100 % en 1998 à <25 %/<20 % en 2010, Ripple & Beschta 2012 — chiffres exacts, vérifiés dans le texte) sans la réserve que les auteurs posent eux-mêmes : la mesure porte sur les cinq tiges les plus hautes de chaque parcelle, un indicateur de « front d'avancée » et non un échantillon aléatoire. Cette réserve est reprise par la source wolf.org déjà citée dans la fiche : un échantillonnage aléatoire indépendant trouve une surestimation de 4 à 7 fois par rapport à cette méthode (Brice et al. 2022), et le couvert de trembles continue de décliner à l'échelle du paysage (environ 4 % au début du XXe siècle, 1 % au milieu des années 1990, 0,25 % en 2021). Les chiffres cités ne sont pas faux, mais leur portée est présentée avec plus d'assurance que ne le permettent les sources. Corrigé par ailleurs sans signalement : revue et auteurs de la source Ripple et al. 2025 (c'était « Biological Conservation » par erreur — la revue exacte est « Global Ecology and Conservation », les auteurs Ripple, Beschta, Wolf, Painter, Wirsing, pas « Biological Conservation » comme auteur), et année de la source wolf.org (2024 et non 2020 — édition Winter 2024, partie 1/2, signée Jack Rabe)."
       }
     ]
   },
@@ -94,5 +102,14 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "624766df7fd4752c",
+    "notes": [
+      "Réévaluation Ripple et al. 2025 (sources[1]) présentée sans réserve alors qu'elle est contestée frontalement par un commentaire publié dans la même revue (MacNulty, Cooper et al., Global Ecology and Conservation, 2025, DOI 10.1016/j.gecco.2025.e03899 : raisonnement circulaire dans le calcul du volume des saules, parcelles non appariées ; conclusion : pas de preuve d'un effet fort ou généralisé). À arbitrer : citer aussi ce commentaire, ou reformuler la note.",
+      "Repere/paragraphe 'solidement établi' : le recul du broutage (100% en 1998 à <25%/<20% en 2010, Ripple & Beschta 2012) est exact mais présenté sans la réserve méthodologique que les auteurs posent eux-mêmes (mesure sur les 5 tiges les plus hautes par parcelle, indicateur de front d'avancée, pas un échantillon aléatoire) — réserve reprise par la source wolf.org déjà citée : surestimation de 4 à 7x en échantillonnage aléatoire (Brice et al. 2022), déclin du couvert de trembles à l'échelle du paysage (4% début XXe, 1% mi-1990s, 0,25% en 2021). Corrigé sans signalement : revue/auteurs de sources[1] (Global Ecology and Conservation, pas Biological Conservation) et année de la source wolf.org (2024, Winter 2024 part 1/2, Jack Rabe, pas 2020)."
+    ]
   }
 }

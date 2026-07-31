@@ -74,11 +74,11 @@
     "explication": "Si la masse suivait la lumière, concentrée au centre, les vitesses devraient décliner vers l'extérieur comme celles des planètes lointaines. Elles restent plates. L'écart impose soit une masse invisible en halo, soit une gravité différente à faible accélération — la mesure ne tranche pas entre les deux.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:40:36.703Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T08:47:53.984Z",
     "historique": [
       {
         "action": "valider",
@@ -95,6 +95,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:33:27.197Z",
         "note": "Contrôle : la source UCLA était attribuée à Rubin et présentée comme un récit à la première personne. Auteur réel rétabli et notes reformulées."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T08:47:53.984Z",
+        "note": "Sources rouvertes en ligne : UCLA CWP (http, HTTPS indisponible — fetch direct en HTTP) confirme byline « By Benjamin Johnson », meta Author idem, texte entièrement à la 3e personne sur Rubin ; sources[1].auteur et notes désormais exacts. Article original Rubin & Ford 1970 (ApJ 159, 379) retrouvé via le serveur ADS legacy (scan PDF) : confirme le titre, les auteurs, la courbe de rotation ne redescendant pas au-delà de R=4-14 kpc, et le tableau 5 montrant le rapport masse/lumière croissant de 0,64 à 1,37 avec la distance — conforme au repere et au corps. Bertone & Hooper 2016 (arXiv:1605.04909, PDF extrait via pdftotext) confirme situer Zwicky (années 1930, amas de galaxies) et Rubin (années 1970, courbes de rotation) dans la même chronologie, et consacre un chapitre entier à MOND/gravité modifiée. Corps, carte et quiz relus en entier et conformes ; bonne réponse en position 3 sur 4 ; aucune correction nécessaire au-delà de celle déjà faite lors du contrôle."
       }
     ]
   },
