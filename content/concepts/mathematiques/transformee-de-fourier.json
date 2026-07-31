@@ -13,7 +13,7 @@
   "repere": {
     "texte": "Fourier dépose son mémoire le 21 décembre 1807. Rejeté par Lagrange et Laplace, primé par l'Académie en 1812 sans être publié, il ne paraîtra qu'en 1822 dans la Théorie analytique de la chaleur.",
     "source": "Fourier, Théorie analytique de la chaleur, Firmin Didot, 1822",
-    "url": "http://sites.mathdoc.fr/cgi-bin/oetoc?id=OE_FOURIER__2"
+    "url": "https://archive.org/details/thorieanalytiq00four"
   },
   "carte": {
     "punch": "Un mémoire refusé par Lagrange fait tourner le JPEG, le MP3 et l'IRM.",
@@ -25,10 +25,10 @@
       "type": "livre",
       "auteur": "Fourier, Joseph",
       "titre": "Théorie analytique de la chaleur",
-      "publication": "Firmin Didot, Paris (Œuvres complètes, tome 1)",
+      "publication": "Firmin Didot, Paris",
       "annee": 1822,
-      "url": "http://sites.mathdoc.fr/cgi-bin/oetoc?id=OE_FOURIER__2",
-      "note": "Numérisation des Œuvres complètes par le Centre de diffusion des revues académiques mathématiques."
+      "url": "https://archive.org/details/thorieanalytiq00four",
+      "note": "Édition originale de 1822, numérisée par la Thomas Fisher Rare Book Library (Université de Toronto)."
     },
     {
       "type": "article",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "123f5b1aa9cd2484",
+    "notes": [
+      "Sources rouvertes : mémoire du 21/12/1807 et rejet par Lagrange/Laplace, prix de 1812 sans publication, et Théorie analytique de la chaleur (1822) confirmés par Bulletin de la Sabix n°44 (2009, openedition, lu en entier). Cooley & Tukey 1965, Mathematics of Computation vol.19 n°90 p.297-301 confirmés (AMS, Semantic Scholar). Correction : l'URL de sources[0] et de repere pointait vers sites.mathdoc.fr id=OE_FOURIER__2, qui est le tome 2 des Oeuvres de Fourier (Darboux, Gauthier-Villars, 1888-90 : mémoires divers, PAS la Théorie analytique de la chaleur, qui est entièrement dans le tome 1 — vérifié en lisant le contenu de la page tome 2 via curl). Remplacée par l'édition originale de 1822 (Firmin Didot) numérisée sur archive.org (thorieanalytiq00four), qui correspond exactement à la référence bibliographique donnée. Note de la source et mention (Oeuvres complètes, tome 1) corrigées en conséquence. Reste : carte, quiz et repere cohérents avec les sources."
+    ]
   }
 }

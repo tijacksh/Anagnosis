@@ -32,12 +32,12 @@
     },
     {
       "type": "web",
-      "auteur": "Hopkins, Brian & Wilson, Robin",
+      "auteur": "Paoletti, Teo",
       "titre": "Leonard Euler's Solution to the Konigsberg Bridge Problem",
-      "publication": "MAA Convergence, Mathematical Association of America",
-      "annee": 2010,
+      "publication": "Convergence, Mathematical Association of America",
+      "annee": 2011,
       "url": "https://old.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem",
-      "note": "Reconstitution détaillée de l'argument d'Euler, avec la traduction du mémoire."
+      "note": "Rapport de recherche étudiant (The College of New Jersey), publié dans Convergence vol. 3 (2006) puis republié en mai 2011 ; reconstitution détaillée de l'argument d'Euler. Cite Hopkins & Wilson, « The Truth about Königsberg », College Mathematics Journal, 2004, 35, p. 198-207."
     }
   ],
   "pour_aller_plus_loin": [
@@ -85,5 +85,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "b365c7f479834935",
+    "notes": [
+      "Sources rouvertes (Euler Archive E53 confirmé : Commentarii vol. 8, p. 128-140, 1741 ; 26 août 1735 confirmé via l'article MAA). Correction : la source n°2 était attribuée à tort à Hopkins & Wilson — l'auteur réel de la page MAA Convergence est Teo Paoletti (The College of New Jersey), qui cite Hopkins & Wilson (2004) comme référence secondaire. Auteur et année corrigés (Paoletti, 2011, republication de Convergence vol. 3, 2006). Contenu vulgarisé, repère, carte et quiz confirmés exacts sur tous les points (4 masses de terre, 5+3+3+3 ponts, argument de parité, geometria situs emprunté à Leibniz). Note : old.maa.org a renvoyé une erreur serveur (521) au moment du contrôle ; l'URL reste la bonne adresse (confirmée par capture PDF de la page et recoupements), probable panne temporaire du site MAA."
+    ]
   }
 }

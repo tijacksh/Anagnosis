@@ -23,7 +23,7 @@
   "sources": [
     {
       "type": "web",
-      "auteur": "NTT Research and Development",
+      "auteur": "Hosoyamada, Akinori",
       "titre": "Security of Hash Functions against Attacks Using Quantum Computers",
       "publication": "NTT R&D Website",
       "annee": 2023,
@@ -85,5 +85,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "233531abac886cf7",
+    "notes": [
+      "Sources rouvertes et vérifiées : NIST SP 800-107 Rev.1 (2012, PDF récupéré et texte extrait via pdftotext) confirme section 4.1 que la résistance aux collisions vaut L/2 bits, SHA-256 -> 128 bits, exactement ce que dit le repere. NTT R&D (Hosoyamada, 2023) confirme l'attaque des anniversaires en 2^(n/2) et une note explicite sur le paradoxe des anniversaires (365 jours, ~20 personnes). Calculs refaits : produit 365/365x...x343/365 = 0.4927 (donc >50% de coïncidence à 23), C(23,2)=253 confirmé, seuil de partage avec une personne donnée = 253 autres personnes (passage exact de 50% entre 252 et 253 autres), et 365*ln(2)=253.0 explique que ce ne soit pas un hasard. Racine(365)=19.1, cohérent avec le seuil de 23. Une seule correction : le champ auteur de la source NTT indiquait 'NTT Research and Development' (nom d'organisation) alors que l'article a un auteur nommé, Akinori Hosoyamada (NTT Social Informatics Laboratories) - corrigé en 'Hosoyamada, Akinori' pour suivre la convention des autres fiches du pack (nom, prénom). Rien d'autre à signaler : citation/repere, carte et quiz tiennent face aux sources."
+    ]
   }
 }

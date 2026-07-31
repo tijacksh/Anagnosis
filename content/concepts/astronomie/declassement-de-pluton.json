@@ -45,8 +45,26 @@
       "titre": "Pluton n'a plus le statut de planète",
       "publication": "CNES",
       "annee": 2006,
-      "url": "https://cnes.fr/en/folders/pluto-is-no-longer-a-planet",
-      "note": "En français ; contexte de la ceinture de Kuiper et de la découverte d'Éris."
+      "url": "https://cnes.fr/dossiers/pluton-na-plus-le-statut-de-planete",
+      "note": "En français ; identifie 2003 UB313 (future Éris) comme exemple de planète naine."
+    },
+    {
+      "type": "article",
+      "auteur": "Brown, Michael E. & Trujillo, Chad A. & Rabinowitz, David L.",
+      "titre": "Discovery of a Planetary-sized Object in the Scattered Kuiper Belt",
+      "publication": "The Astrophysical Journal, 635, L97-L100",
+      "annee": 2005,
+      "url": "https://arxiv.org/abs/astro-ph/0508633",
+      "note": "Annonce de la découverte d'Éris (alors 2003 UB313) : « certain to be larger than Pluto » pour toute valeur raisonnable de l'albédo."
+    },
+    {
+      "type": "article",
+      "auteur": "Brown, Michael E. & Schaller, Emily L.",
+      "titre": "The Mass of Dwarf Planet Eris",
+      "publication": "Science, 316",
+      "annee": 2007,
+      "url": "https://doi.org/10.1126/science.1139415",
+      "note": "Masse d'Éris établie via l'orbite de sa lune Dysnomia : 1,27 fois celle de Pluton."
     }
   ],
   "pour_aller_plus_loin": [
@@ -74,11 +92,11 @@
     "explication": "Pluton remplit les deux premiers critères : elle orbite autour du Soleil et sa gravité l'a rendue sphérique. C'est le troisième, ajouté en 2006, qui la range parmi les planètes naines — elle circule dans une population de la ceinture de Kuiper qu'elle n'a ni capturée ni éjectée. L'inclinaison et les lunes n'entrent pas dans la définition.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:40:36.703Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T08:53:08.489Z",
     "historique": [
       {
         "action": "valider",
@@ -95,6 +113,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:33:27.197Z",
         "note": "Contrôle : la fiche confondait la taille d'Éris (mesurée en 2005) et sa masse (2007). Corrigé. Source NSSDC morte, remplacée par le JPL."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T08:53:08.489Z",
+        "note": "Sources rouvertes en ligne : IAU archive (résolutions 5A/6A, texte vérifié mot pour mot) et JPL SSD (miroir identique) confirment les trois critères et leur formulation exacte, ainsi que la définition de planète naine. La source CNES pointait vers la version anglaise du site (/en/) alors que titre et note affirmaient « en français » — corrigée vers la page française réelle (cnes.fr/dossiers/pluton-na-plus-le-statut-de-planete, vérifiée, qui cite bien 2003 UB313 comme exemple de planète naine). Point non couvert par aucune source de la fiche : l'affirmation datée sur la taille (2005) et la masse (2007, supérieure) d'Éris n'avait pas de source dédiée — ajouté sources[3] Brown, Trujillo & Rabinowitz 2005 (arXiv:astro-ph/0508633, vérifié : « certain to be larger than Pluto ») et sources[4] Brown & Schaller 2007 (Science, DOI 10.1126/science.1139415, résumé vérifié via Crossref : masse d'Éris = 1,27× celle de Pluton, mesurée via l'orbite de Dysnomia). Corps, repere, carte et quiz relus en entier, conformes aux sources désormais complètes."
       }
     ]
   },
@@ -106,9 +132,9 @@
   "controle": {
     "fait_le": "2026-07-31",
     "verdict": "ok",
-    "empreinte": "1dffc6843299c8c1",
+    "empreinte": "5ad03f46fbdf88b7",
     "notes": [
-      "Recontrôle après retouche du 2026-07-31 (empreinte du dernier contrôle obsolète). Les deux points signalés sont corrigés : contenu_vulgarise distingue maintenant clairement la taille d'Éris (mesurée en 2005) de sa masse (établie deux ans plus tard, en 2007, via l'orbite de Dysnomia) — formulation cohérente avec l'historique réel (Brown, Trujillo & Rabinowitz 2005 pour la taille ; Brown & Schaller 2007 pour la masse). La source NSSDC morte a été remplacée par sources[1] = JPL Solar System Dynamics (https://ssd.jpl.nasa.gov/planets/def.html), revérifiée en ligne : la page est active et contient bien le texte de la résolution 5A avec les trois critères (orbite autour du Soleil, forme sphérique par autogravité, nettoyage du voisinage orbital). Reste du contenu (repere, carte, sources iauarchive/CNES, quiz) inchangé depuis le contrôle précédent et toujours cohérent. Statut laissé à en_retouche pour revalidation humaine."
+      "Re-contrôle après retouche de routine-reparation : sondage confirme la page CNES française (2003 UB313 cité comme planète naine) et les deux nouvelles sources Brown et al. 2005/2007 sur taille/masse d'Éris. Contenu conforme."
     ]
   }
 }

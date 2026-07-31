@@ -65,11 +65,11 @@
     "explication": "Le théorème porte sur ce qu'un système formel peut démontrer, pas sur la vérité des énoncés eux-mêmes : l'énoncé de Gödel est vrai, il est simplement hors d'atteinte du système. L'arithmétique ne devient pas contradictoire, et la vérification mécanique d'une démonstration donnée reste possible — c'est justement ce qui permet le codage.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T17:12:26.085Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-07-31T00:00:00.000Z",
     "historique": [
       {
         "action": "valider",
@@ -78,6 +78,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T17:12:26.085Z",
         "note": "Validation en lot du pack Mathématiques, sur instruction du relecteur."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-07-31T00:00:00.000Z",
+        "note": "Contrôle des sources : Bologne 1928, la publication 1931 (Monatshefte für Mathematik und Physik, vol. 38, p. 173-198), l'âge de Gödel (25 ans, né le 28 avril 1906), l'énoncé des deux théorèmes, la citation en repère et le « I » du titre resté sans suite (Gödel l'explique lui-même par l'accueil rapide de son résultat) sont tous confirmés par les sources ouvertes, y compris la traduction anglaise intégrale de l'article (PDF UC Cincinnati). Un point à revoir dans contenu_vulgarise : le troisième objectif prêté à Hilbert (« qu'un procédé mécanique décide de la validité d'une démonstration ») décrit en réalité la vérification mécanique d'une preuve déjà donnée — automatique par construction dans tout système formel, et c'est justement ce que l'explication du quiz de cette même fiche donne comme resté intact après Gödel. Le vrai troisième objectif du programme de Hilbert (Bologne 1928) est la décidabilité de la démontrabilité d'un énoncé quelconque, l'Entscheidungsproblem : « an algorithm for deciding the truth or falsity of any mathematical statement » (en.wikipedia.org/wiki/Hilbert's_program), « déterminer de façon mécanique si un énoncé est un théorème » (fr.wikipedia.org/wiki/Entscheidungsproblem) — question distincte, non résolue par Gödel mais par Church et Turing en 1936. À reformuler pour ne pas confondre les deux avant revalidation."
       }
     ]
   },
@@ -85,5 +93,14 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "297f1b4b61b60ac1",
+    "notes": [
+      "Sources rouvertes en ligne : Bologne 1928, publication Monatshefte 1931 vol. 38 p.173-198, âge de Gödel (25 ans), énoncés des deux théorèmes, citation en repère et « I » du titre sans suite tous confirmés (traduction anglaise intégrale UC Cincinnati vérifiée).",
+      "Point signalé : le troisième objectif prêté à Hilbert dans contenu_vulgarise (« un procédé mécanique décide de la validité d'une démonstration ») décrit la vérification mécanique d'une preuve déjà donnée, pas le véritable troisième objectif de Bologne 1928 (Entscheidungsproblem : décider mécaniquement si un énoncé quelconque est démontrable, non résolu par Gödel mais par Church/Turing en 1936). Passé en_retouche pour reformulation avant revalidation."
+    ]
   }
 }
