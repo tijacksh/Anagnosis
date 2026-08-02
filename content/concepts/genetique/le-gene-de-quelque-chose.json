@@ -41,7 +41,7 @@
     },
     {
       "type": "article",
-      "auteur": "Akula, Devendra ; Manahan & Geisler",
+      "auteur": "Akula, Uma Sankar ; Devendra, Nagadharshan ; Manahan, Kelly & Geisler, John",
       "titre": "Understanding Complex Trait Heritability: The Polygenic Approach",
       "publication": "International Journal of Academic Medicine and Pharmacy, 7 (3)",
       "annee": 2025,
@@ -72,13 +72,13 @@
     ],
     "bonne_reponse": 3,
     "explication": "Les grandes études trouvent des milliers de variants dispersés, chacun d'effet infime : isoler l'un d'eux et l'appeler « le gène de » ne dit à peu près rien. Les associations sont pourtant bien réelles et reproductibles — c'est leur nombre et la petitesse de leurs effets qui rendent la formule trompeuse.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T14:59:23.144Z",
     "historique": [
       {
         "action": "complement",
@@ -87,6 +87,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:34:42.587Z",
         "note": "Contrôle : la troisième référence ne correspondait à aucun document identifiable — l'adresse héberge Akula et al. (2025), pas le titre indiqué. Référence rétablie. L'ordre de grandeur par variant, non sourcé et sous-estimé, corrigé."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T14:59:23.144Z",
+        "note": "Vérification indépendante complète (pas de reprise à l'identique du contrôle précédent) : sources[0] et sources[1] rouvertes par WebFetch (jpbs.hapres.com, JPBS_923 et JPBS_922) — auteurs, revue et date (12/10/2017) confirmés ; citation du repère vérifiée mot pour mot dans sources[0] (« most of the heritability for a typical complex trait is driven by genetic variation at loci that seem unrelated to the trait »). sources[2] rouverte et lue en entier (PDF academicmed.org, Akula, Devendra, Manahan & Geisler, Int J Acad Med Pharm 2025;7(3):699-704) : confirme le modèle omnigénique avec gènes 'core'/'peripheral' et effets à distance dans le réseau régulateur, comme le dit le corps de la fiche. pour_aller_plus_loin (même URL que sources[0]) revérifiée. Chiffre « un ou deux millimètres » pour l'effet d'un variant sur la taille recoupé par recherche indépendante sur Yengo et al. 2022 (5,4M individus, 12111 SNP) : effet moyen ~1,2 mm/allèle pour les variants communs, cohérent avec la fiche (accès au texte intégral Nature bloqué par paywall, corroboré par plusieurs sources secondaires convergentes). Carte et quiz relus : punch/idee/source_courte conformes, bonne réponse du quiz (index 3) et distracteurs vérifiés faux mais plausibles au vu des sources. Correction apportée : sources[2].auteur était mal formé (« Akula, Devendra ; Manahan & Geisler » fusionnait à tort Akula et Devendra en une seule entrée sans prénoms) — corrigé en « Akula, Uma Sankar ; Devendra, Nagadharshan ; Manahan, Kelly & Geisler, John » conformément aux noms complets lus dans le PDF et à la convention du dépôt. Aucune autre anomalie relevée."
       }
     ]
   },
@@ -96,11 +104,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
+    "fait_le": "2026-08-02",
     "verdict": "ok",
-    "empreinte": "9675b7ac4bc4f8e3",
+    "empreinte": "e12c6fb768e6d053",
     "notes": [
-      "Re-contrôle après retouche : (1) sources[2] vérifiée par lecture du PDF (academicmed.org) — bien Akula, Devendra, Manahan & Geisler, « Understanding Complex Trait Heritability: The Polygenic Approach », Int J Acad Med Pharm 2025;7(3):699-704 ; l'article décrit explicitement le modèle omnigénique (gènes « core »/« peripheral », effets à distance dans le réseau régulateur) et soutient le repere. (2) sources[0]/[1] revérifiées (JPBS, 12/10/2017, auteurs corrects) ; la citation du repere est vérifiée mot pour mot dans sources[0] (« most of the heritability for a typical complex trait is driven by genetic variation at loci that seem unrelated to the trait »). (3) « un ou deux millimètres » pour l'effet d'un variant sur la taille est cohérent avec la littérature GWAS (Yengo et al. 2022, ~5,4M individus : effet moyen ~1,2 mm/allèle sur variants communs, ~1,71 mm en moyenne pour les SNP significatifs) — corrige bien la sous-estimation précédente. Aucune autre anomalie relevée dans le corps, la carte ou le quiz."
+      "Re-contrôle après réparation du 31/07. Boyle, Li & Pritchard (JPBS) confirme mot pour mot le repère (« most of the heritability for a typical complex trait is driven by genetic variation at loci that seem unrelated to the trait »). Franke (JPBS) confirmée comme discussion critique du modèle. Akula et al. (PDF academicmed.org relu intégralement) : les 4 auteurs, le titre exact, la revue et les pages 699-704 sont désormais tous corrects (l'ancienne fusion Akula/Devendra est bien corrigée). Chiffre « un ou deux millimètres » pour l'effet d'un variant sur la taille recoupé indépendamment (Yengo et al. 2022, ~1,2mm/allèle). Rien à corriger."
     ]
   }
 }

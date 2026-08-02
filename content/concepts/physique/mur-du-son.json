@@ -12,23 +12,23 @@
   "citation": null,
   "repere": {
     "texte": "Le couloir de bang au sol s'élargit d'environ 1,6 km par tranche de 300 m d'altitude. À 15 000 m, un avion supersonique balaie une bande de près de 80 km de large, sur toute la longueur de son trajet.",
-    "source": "NASA, fiche technique « Sonic Booms » (FS-016-DFRC) — règle empirique d'un mile de largeur pour 1 000 pieds d'altitude",
+    "source": "NASA, fiche technique « Sonic Booms » (FS-2003-11-016-DFRC) — règle empirique d'un mile de largeur pour 1 000 pieds d'altitude",
     "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf"
   },
   "sources": [
     {
       "type": "institution",
       "auteur": "NASA Dryden Flight Research Center",
-      "titre": "Sonic Booms (NASA Facts FS-016-DFRC)",
+      "titre": "Sonic Booms (NASA Facts FS-2003-11-016-DFRC)",
       "publication": "nasa.gov",
-      "annee": 2004,
+      "annee": 2003,
       "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf",
       "note": "Largeur du tapis de bang, mécanisme du cône de Mach."
     },
     {
       "type": "institution",
       "auteur": "Campbell, James F. & Chambers, Joseph R.",
-      "titre": "Patterns in the Sky: Natural Visualization of Aircraft Flow Fields (NASA Reference Publication 1385)",
+      "titre": "Patterns in the Sky: Natural Visualization of Aircraft Flow Fields (NASA-SP-514)",
       "publication": "NASA",
       "annee": 1994,
       "note": "Référence sur les nuages de condensation autour des cellules en transsonique.",
@@ -41,13 +41,22 @@
       "publication": "nationalgeographic.com",
       "annee": 2023,
       "url": "https://www.nationalgeographic.com/science/article/sonic-boom-cause-shock-wave-physics"
+    },
+    {
+      "type": "institution",
+      "auteur": "NASA Dryden Flight Research Center",
+      "titre": "Research Airplane Program (NASA Facts FS-2003-11-031-DFRC)",
+      "publication": "nasa.gov",
+      "annee": 2003,
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/09/124162main_fs-031-dfrc.pdf",
+      "note": "Date du vol (14 octobre 1947), pilote Chuck Yeager, vitesse de 700 mph atteinte par le Bell X-1 — première ligne à Mach 1."
     }
   ],
   "pour_aller_plus_loin": [
     {
       "titre": "NASA — fiche « Sonic Booms »",
       "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf",
-      "note": "Quatre pages, avec les schémas du cône de Mach."
+      "note": "Deux pages, texte seul (sans schéma)."
     }
   ],
   "illustration": {
@@ -101,5 +110,13 @@
     "punch": "Le bang supersonique n'est pas un instant. C'est une traînée de 80 km de large.",
     "idee": "Le cône de surpression suit l'avion en permanence et balaie le sol pendant tout le vol. Chaque personne survolée entend une détonation — d'où l'illusion d'un événement unique. Le pilote, lui, n'entend rien.",
     "source_courte": "NASA, fiche « Sonic Booms »"
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "7efaec8a30c5136d",
+    "notes": [
+      "Sources rouvertes (WebFetch) : NASA FS-2003-11-016-DFRC (Sonic Booms), NASA-SP-514 Campbell/Chambers 1994, National Geographic 2023. Cône continu, largeur du couloir (1 mile/1000ft, conversion 1,6km/300m et 80km à 15000m) et nuage de condensation dépendant de l'humidité tous confirmés par les sources. Corrigé : désignation exacte FS-2003-11-016-DFRC (pas FS-016-DFRC) et année 2003 (pas 2004) ; référence NASA-SP-514 (pas RP-1385, introuvable) pour Campbell/Chambers ; note pour_aller_plus_loin corrigée (2 pages sans schéma, pas 4 pages avec schémas — vérifié par rendu PDF). Ajouté une source (NASA FS-2003-11-031-DFRC, Research Airplane Program) pour appuyer la date du 14 octobre 1947, Yeager et le Bell X-1 (700 mph, ~Mach 1,06), qui n'étaient soutenus par aucune des sources déjà citées. Rien signalé à revoir : aucune affirmation de sens non soutenue."
+    ]
   }
 }

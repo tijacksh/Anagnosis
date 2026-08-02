@@ -72,7 +72,7 @@
     "explication": "Vingt dollars fournissent une justification externe suffisante : la contradiction se règle sans rien changer à ses convictions. Un dollar n'en fournit aucune, et la tension ne peut se dissoudre qu'en révisant l'opinion elle-même. C'est le cœur de la théorie : moins l'incitation externe est forte, plus le changement interne est profond.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -92,5 +92,13 @@
     "genere_le": "2026-07-30",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "e42b6ccbb79502f5",
+    "notes": [
+      "Faits centraux vérifiés et confirmés en rouvrant les textes intégraux : Festinger & Carlsmith 1959 (Stanford, 71 étudiants, tâche bobines+chevilles ~1h, groupes 1$/20$, résultat exact : 1$ = +1.35, 20$ = -.05, contrôle = -.45 sur l'échelle -5/+5 — le groupe 1$ trouve bien la tâche plus agréable) et Aronson & Mills 1959 (rites d'initiation sévères et attachement au groupe, confirmé). A REVOIR : l'affirmation 'reproduite de nombreuses fois depuis 1959... compte parmi les plus solides de la psychologie sociale' n'est pas soutenue par une source de la fiche et semble datée. Une réplication multi-labos préenregistrée de 2024 (Vaidis et al., 39 labos, 19 pays, N=4898, Advances in Methods and Practices in Psychological Science, https://journals.sagepub.com/doi/full/10.1177/25152459231213375, relayée par l'APS Observer) n'a PAS confirmé la prédiction centrale du paradigme de conformité induite (pas de différence significative entre choix libre/contraint sur le changement d'attitude), ce qui contredit directement le cadrage de la fiche présentant l'effet comme un contre-exemple net à la crise de la reproductibilité. Des méta-analyses antérieures (Kenworthy et al. 2011, d=0.81 ; Kim et al. 2014, d=0.51) montrent un effet réel mais plus modeste qu'un simple 'parmi les plus solides'. Ce passage touche au sens (état de la science) : à retoucher avec une source de replication à l'appui plutôt qu'à réécrire seul."
+    ]
   }
 }

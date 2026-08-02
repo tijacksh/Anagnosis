@@ -34,10 +34,10 @@
     {
       "type": "institution",
       "auteur": "Stanford Encyclopedia of Philosophy",
-      "titre": "Plato's Republic",
+      "titre": "Plato's Ethics and Politics in The Republic",
       "publication": "plato.stanford.edu",
-      "annee": 2022,
-      "url": "https://plato.stanford.edu/entries/plato-republic/",
+      "annee": 2017,
+      "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
       "note": "Sur la structure du livre VII et la place du retour dans l'argument."
     },
     {
@@ -47,13 +47,13 @@
       "publication": "Athènes",
       "annee": -390,
       "note": "Le procès de 399 av. J.-C., arrière-plan probable du passage sur la mise à mort.",
-      "url": "https://fr.wikisource.org/wiki/Apologie_de_Socrate"
+      "url": "https://fr.wikisource.org/wiki/Apologie_de_Socrate_(Platon)"
     }
   ],
   "pour_aller_plus_loin": [
     {
-      "titre": "Stanford Encyclopedia of Philosophy — Plato's Republic",
-      "url": "https://plato.stanford.edu/entries/plato-republic/",
+      "titre": "Stanford Encyclopedia of Philosophy — Plato's Ethics and Politics in The Republic",
+      "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
       "note": "En anglais, mais la section sur le livre VII est autonome."
     }
   ],
@@ -75,7 +75,7 @@
     "explication": "Le récit ne s'arrête pas à la sortie : Platon fait redescendre celui qui a vu le soleil. Aveuglé par la pénombre, il devient malhabile là où les autres sont à l'aise, et Platon suggère qu'on pourrait le tuer — écho probable au procès de Socrate. C'est cette seconde moitié qui fait de la caverne un texte politique, et non un simple éloge de l'instruction.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -95,5 +95,13 @@
     "genere_le": "2026-07-29",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "4c1333a48bbbdab0",
+    "notes": [
+      "Sources rouvertes : trad. Cousin sur Wikisource (livre VII, lu en intégral via curl) confirme l'allégorie, la montée progressive, le retour du prisonnier aveuglé, les moqueries et la menace de mort si on le tenait — mais avec un texte réel qui dit « ... il faut le saisir et le tuer, s'il est possible », très différent mot pour mot de citation.texte (« Et si celui-là entreprenait de les délier et de les faire monter, ne le tueraient-ils pas, s'ils pouvaient s'emparer de lui ? »). La formule de la fiche est proche d'une autre traduction en ligne (proche de celle de Bernard Suzanne sur plato-dialogues.org, 516a-517a) mais n'est identique ni à celle-ci ni à Cousin. citation.url pointe donc vers un texte qui ne porte pas cette phrase mot pour mot : à corriger soit en réécrivant citation.texte pour coller à Cousin, soit en re-sourçant vers la traduction dont la phrase est réellement extraite. Corrigé de mon côté (urls/références mineures vérifiées) : url SEP cassée (plato-republic, 404) remplacée par l'entrée réelle plato-ethics-politics (titre et année de révision substantielle 2017 corrigés, dans sources[] et pour_aller_plus_loin[]) ; url Apologie de Socrate précisée vers Apologie_de_Socrate_(Platon) plutôt que la page de désambiguïsation Platon/Xénophon. Reste conforme aux sources : structure du récit, lien avec le procès de Socrate (399 av. J.-C., présenté à juste titre comme une lecture probable et non un fait établi), carte et quiz."
+    ]
   }
 }

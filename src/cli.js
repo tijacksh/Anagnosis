@@ -17,6 +17,7 @@ import { DISCIPLINES, STATUTS_LABELS } from './schema.js';
 import { cible as choisirCible, afficher } from './cible.js';
 import { file as fileControle, afficher as afficherControle, marquer, reparation } from './controle.js';
 import { file as fileReparer, afficher as afficherReparer } from './reparer.js';
+import { file as fileRelire, afficher as afficherRelire, relecture } from './relire.js';
 import { fichesPubliables, serialiser, retirees } from './publier.js';
 
 const C = {
@@ -148,6 +149,7 @@ const commandes = {
   validate: cmdValidate, queue: cmdQueue, stats: cmdStats, export: cmdExport,
   cible: cmdCible, acontroler: cmdAControler, controle: cmdControle,
   areparer: cmdAReparer, reparation: cmdReparation,
+  arelire: cmdARelire, relecture: cmdRelecture,
 };
 const commande = process.argv[2];
 
@@ -170,6 +172,28 @@ async function cmdAControler() {
 /** Que réparer maintenant ? La décision est dans `src/reparer.js`. */
 async function cmdAReparer() {
   afficherReparer(await fileReparer());
+}
+
+/** Quels brouillons sont décidables maintenant ? La décision est dans `src/relire.js`. */
+async function cmdARelire() {
+  afficherRelire(await fileRelire());
+}
+
+/** Pose la décision d'une relecture : `relecture <id> <statut> "note"`. */
+async function cmdRelecture() {
+  const [id, statut, ...notes] = process.argv.slice(3);
+  if (!id || !statut) {
+    console.error('Usage : node src/cli.js relecture <id> <valide|en_retouche|rejete> "note"');
+    return 2;
+  }
+  try {
+    const f = await relecture(id, statut, notes);
+    console.log(c('green', `${id} — ${f.statut} (par ${f.validation.decide_par})`));
+  } catch (e) {
+    console.error(c('red', e.message));
+    return 1;
+  }
+  return 0;
 }
 
 /** Pose la décision d'une réparation : `reparation <id> <statut> "note"`. */

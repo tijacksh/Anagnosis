@@ -36,10 +36,10 @@
     },
     {
       "type": "article",
-      "auteur": "Physics Today",
+      "auteur": "Nolte, David D.",
       "titre": "The fall and rise of the Doppler effect",
-      "publication": "Physics Today, AIP Publishing",
-      "annee": 2021,
+      "publication": "Physics Today, vol. 73, n° 3, AIP Publishing",
+      "annee": 2020,
       "url": "https://physicstoday.aip.org/features/the-fall-and-rise-of-the-doppler-effect"
     }
   ],
@@ -101,5 +101,13 @@
     "punch": "La sirène ne change pas de note. C'est vous qui la recevez autrement.",
     "idee": "Une source qui s'approche tasse ses ondes : votre oreille en compte davantage par seconde, la note monte. Le basculement est brutal parce qu'il dépend de la vitesse d'approche, pas de la distance — il change de signe au croisement.",
     "source_courte": "Doppler, Prague, 1842"
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "d4249c5a479b3de5",
+    "notes": [
+      "Sources rouvertes : mémoire Doppler (wikisource + archive.org, réédition 1903 Studnička) confirme la lecture du 25 mai 1842 devant la Société royale des sciences de Prague ; Feynman Lectures §34-6 (via proxy, Cloudflare bloque le fetch direct) confirme l'équivalence des formules source-mobile/observateur-mobile pour la lumière, contrairement au son qui dépend du milieu (air) ; article Physics Today confirme date et lieu. Calcul du repère refait à la main (f'=fc/(c-v), c=343 m/s, v=16,67 m/s) : décalage à l'approche ~86 cents, à l'éloignement ~82 cents, écart total ~168 cents — cohérent avec 'environ un demi-ton' et 'près d'un ton' compte tenu du langage approximatif déjà utilisé. Quiz et carte conformes aux sources. Corrigé : référence Physics Today avait un auteur erroné ('Physics Today' au lieu de l'auteur réel) et une année erronée (2021 au lieu de 2020, vol. 73 n°3) — corrigé en 'Nolte, David D.', 2020."
+    ]
   }
 }

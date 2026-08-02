@@ -46,7 +46,7 @@
       "publication": "Phys.org",
       "annee": 2023,
       "url": "https://phys.org/news/2023-04-rosalind-franklin-contributed-discovery-dna.html",
-      "note": "Présentation des conclusions, avec les réactions qu'elles ont suscitées."
+      "note": "Présentation condensée des conclusions de Cobb & Comfort (mêmes documents, même thèse)."
     }
   ],
   "pour_aller_plus_loin": [
@@ -72,13 +72,13 @@
     ],
     "bonne_reponse": 1,
     "explication": "Leur argument n'est pas de réhabiliter Watson et Crick : le sexisme du laboratoire est réel et documenté. C'est que le récit du vol réduit Franklin à une productrice de données que d'autres auraient su lire — précisément le rôle subalterne qu'on assignait alors aux femmes. Les documents montrent qu'elle savait ce que son image impliquait.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T19:01:22.104Z",
     "historique": [
       {
         "action": "complement",
@@ -87,6 +87,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:34:42.587Z",
         "note": "Contrôle : « Crick n'a jamais vu la photographie 51 avant sa publication » n'est affirmé ni par Cobb & Comfort ni par aucune source secondaire trouvée. Retiré du repère et remplacé dans le corps par ce que la source soutient effectivement."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T19:01:22.104Z",
+        "note": "Sources rouvertes : Cobb & Comfort (Nature, 2023, https://www.nature.com/articles/d41586-023-01313-5), \"How Rosalind Franklin's story was rewritten\" (Nature, 2023, https://www.nature.com/articles/d41586-023-01443-w), Phys.org. Confirmé : Wilkins a montré la photo 51 à Watson, pas à Crick (« Wilkins... then showed him Photograph 51 » ; « Watson was shown an X-ray image of DNA taken by Franklin — without her permission or knowledge »). Lettre de Pauline Cowan à Crick et article TIME inédit de Joan Bruce confirment la coopération King's-Cavendish et la compréhension par Franklin de l'implication hélicoïdale (« Franklin and everyone else at King's recognized that it was some kind of helix »). Dates de naissance/mort de Franklin (1920-1958, 37 ans) vérifiées sur Wikipédia. Règle Nobel non posthume vérifiée (statuts depuis 1974, et aucun précédent d'attribution 4 ans après un décès). Reste du texte (carte, quiz, sources, pour_aller_plus_loin) relu, cohérent avec les sources. Rien à corriger."
       }
     ]
   },
@@ -96,11 +104,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "4aebdc0dd20f1310",
+    "fait_le": "2026-08-02",
+    "verdict": "corrige",
+    "empreinte": "46ddf213a9dfc379",
     "notes": [
-      "Recontrôle après retouche : la phrase problématique (« Crick n'a jamais vu la photographie 51 avant sa publication ») a bien été retirée du repere. La nouvelle formulation du corps (« C'est Watson, et non Crick, à qui Wilkins a montré la photographie 51 ») est confirmée par une nouvelle lecture de Cobb & Comfort (Nature, 2023, https://www.nature.com/articles/d41586-023-01313-5) : l'article cite explicitement Watson comme celui à qui Wilkins a montré la photo 51 (« Wilkins... then showed him Photograph 51 », « Watson was shown an X-ray image of DNA taken by Franklin — without her permission or knowledge »). La coopération entre King's College et Cavendish (lettre de Pauline Cowan à Crick) et le fait que Franklin comprenait l'implication hélicoïdale de son image (forme B) sont également confirmés par le texte. Reste du contenu (carte, quiz, sources, pour_aller_plus_loin) relu et cohérent avec la source ; aucune correction nécessaire."
+      "Re-contrôle après réparation du 31/07. Cobb & Comfort (Nature 2023) confirme mot pour mot que c'est Watson (pas Crick) à qui Wilkins a montré la photo 51, que Franklin et son entourage reconnaissaient la forme B comme une hélice, et identifie bien la lettre de Pauline Cowan à Crick et l'article TIME inédit de Joan Bruce comme les deux documents attestant la coopération King's/Cavendish. Dates de Franklin (1920-1958, 37 ans) confirmées. Nature 'story rewritten' confirme la construction du récit de vol par Watson. Correction : sources[2].note (Phys.org) affirmait à tort que l'article présentait 'les réactions qu'elles ont suscitées' — l'article ne contient aucune réaction/débat, c'est une simple présentation condensée des conclusions de Cobb & Comfort ; note reformulée en conséquence."
     ]
   }
 }

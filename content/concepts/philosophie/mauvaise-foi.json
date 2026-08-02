@@ -29,7 +29,7 @@
       "publication": "Gallimard",
       "annee": 1943,
       "note": "L'exemple du garçon de café s'y trouve.",
-      "url": "https://www.gallimard.fr/catalogue/l-etre-et-le-neant/9782070293889"
+      "url": "https://www.librairie-gallimard.com/livre/9782070293889"
     },
     {
       "type": "livre",
@@ -45,7 +45,7 @@
       "auteur": "Stanford Encyclopedia of Philosophy",
       "titre": "Jean-Paul Sartre",
       "publication": "plato.stanford.edu",
-      "annee": 2022,
+      "annee": 2026,
       "url": "https://plato.stanford.edu/entries/sartre/"
     }
   ],
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-29",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "corrige",
+    "empreinte": "cd032de0c2efe034",
+    "notes": [
+      "Sources rouvertes : L'Être et le Néant, 1re partie ch.2 'La mauvaise foi' (confirmé via SEP + libraires : le garçon de café y figure bien) ; L'existentialisme est un humanisme, 1946, Nagel (confirmé via librairie-gallimard.com et Wikipédia FR : titre, éditeur, année corrects) ; SEP 'Jean-Paul Sartre' (confirmé, aborde mauvaise foi/garçon de café et existence précède essence). Citation vérifiée avec un soin particulier : « L'homme est condamné à être libre » retrouvée mot pour mot dans L'existentialisme est un humanisme (contexte : « Condamné, parce qu'il ne s'est pas créé lui-même... »), confirmée par plusieurs sources indépendantes (Wikipédia FR, sites pédagogiques). Distinction mauvaise foi/hypocrisie et existence précède essence conformes à la littérature secondaire. Corrigé : url gallimard.fr de L'Être et le Néant bloquée par un WAF (Request Rejected, y compris hors navigateur automatisé) remplacée par la même édition (même ISBN 9782070293889) sur librairie-gallimard.com, vérifiée ; année SEP mise à jour 2022->2026 (révision substantielle du 10 juillet 2026). Carte et quiz conformes au fond des sources, bonne réponse en 2e position. Rien signalé au fond."
+    ]
   }
 }

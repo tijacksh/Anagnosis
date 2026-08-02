@@ -46,7 +46,7 @@
     {
       "titre": "Mayor & Queloz (1995), Nature",
       "url": "https://www.nature.com/articles/378355a0",
-      "note": "Deux pages, dont une courbe de vitesse radiale qui suffit à comprendre la méthode."
+      "note": "Cinq pages (Nature, 378, p. 355-359), dont une courbe de vitesse radiale qui suffit à comprendre la méthode."
     }
   ],
   "illustration": {
@@ -67,7 +67,7 @@
     "explication": "La planète reste invisible : c'est le décalage spectral périodique de l'étoile, alternativement vers le bleu et vers le rouge, qui trahit sa présence. La baisse de luminosité correspond à une autre méthode, celle des transits ; la lumière réfléchie relève de l'imagerie directe, bien plus difficile.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -100,5 +100,14 @@
     "punch": "On n'a pas vu la première exoplanète. On a vu son étoile tituber.",
     "idee": "51 Pegasi se déplace de 55 m/s sous l'effet de sa planète — assez pour décaler son spectre de deux dix-millionièmes. D'autres équipes avaient les instruments : elles cherchaient des orbites de plusieurs années, pas de quatre jours.",
     "source_courte": "Mayor & Queloz, Nature, 1995"
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "8d88c1af6796d3bb",
+    "notes": [
+      "Sources rouvertes (Nature 378/355, Nobel 2019 facts, ESO ann19049) : chiffres (55 m/s pour 51 Peg, 13 m/s Soleil/Jupiter, 9 cm/s Soleil/Terre), période 4,2 j, distance ~50 al, ELODIE/OHP, Nobel 2019 — tous confirmés. Correction mineure faite : pagination de l'article corrigée dans pour_aller_plus_loin (« Deux pages » -> « Cinq pages, p. 355-359 »).",
+      "À REVOIR : la phrase d'ouverture « Le 6 octobre 1995, Michel Mayor et Didier Queloz annoncent dans Nature la découverte » conflate deux événements distincts. D'après le Comité Nobel (nobelprize.org/prizes/physics/2019/popular-information/) et NCCR PlanetS (nccr-planets.ch/media-outreach/20th-anniversary/), l'annonce du 6 octobre 1995 a eu lieu lors d'une conférence à Florence (9th Cambridge Workshop on Cool Stars), et l'article Nature (A Jupiter-mass companion to a solar-type star) n'a été publié que le 23 novembre 1995, six semaines plus tard. À reformuler pour distinguer l'annonce en conférence et la publication Nature."
+    ]
   }
 }

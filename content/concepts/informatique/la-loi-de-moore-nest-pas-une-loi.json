@@ -38,6 +38,24 @@
       "annee": 1965,
       "url": "https://www.computerhistory.org/collections/catalog/102770822",
       "note": "Référence bibliographique exacte de l'article original (revue, date, poste de Moore chez Fairchild Semiconductor)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Moore's law",
+      "publication": "Wikipédia (en anglais)",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+      "note": "Attribution du chiffre de 18 mois à David House (combinaison du doublement des transistors et de la hausse de leur vitesse, via le Dennard scaling) et révision par Moore en 1975 du rythme à deux ans, sourcées à Moore, Gordon (1975), IEEE Technical Digest."
+    },
+    {
+      "type": "web",
+      "auteur": "TechSpot",
+      "titre": "Intel CEO Pat Gelsinger says Moore's Law isn't dead, but it has slowed down",
+      "publication": "TechSpot",
+      "annee": 2023,
+      "url": "https://www.techspot.com/news/101330-intel-ceo-pat-gelsinger-moore-law-isnt-dead.html",
+      "note": "Déclaration de Gelsinger (27 décembre 2023, propos tenus au MIT) : doublement des transistors plus proche de trois ans que de deux, « Golden Age » de la loi de Moore terminé."
     }
   ],
   "pour_aller_plus_loin": [
@@ -68,14 +86,23 @@
     ],
     "bonne_reponse": 3,
     "explication": "Rien dans la physique n'imposait ce rythme : Intel le reconnaît lui-même, ce n'est pas une loi naturelle. Ce qui l'a fait tenir, c'est que l'industrie tout entière — Intel et ses concurrents — a transformé l'extrapolation de 1965 en objectif à atteindre à chaque génération, au risque de prendre du retard sur les autres sinon.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T22:11:29.475Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T22:11:29.475Z",
+        "note": "Sources rouvertes : Intel Newsroom press kit (citations vérifiées mot pour mot : « Moore's Law is not a scientific law », « What started as an empirical observation... »), fiche catalogue Computer History Museum (article original confirmé : Electronics vol.38 n°8, 19 avril 1965, 4 pages, poste de Moore chez Fairchild), IEEE Spectrum (origine floue du terme chez Carver Mead, confirmée). Ajouté 2 sources pour les points signalés par le contrôle : Wikipédia 'Moore's law' (confirme l'attribution du chiffre de 18 mois à David House en 1975, combinant doublement des transistors et hausse de vitesse via le Dennard scaling, sourcé à Moore 1975 IEEE Technical Digest ; confirme la révision de Moore en 1975 vers un rythme de deux ans) et TechSpot (confirme la déclaration de Pat Gelsinger du 27 décembre 2023, doublement plus proche de trois ans que deux, 'Golden Age' terminé — l'article TechSpot déjà cité pour Jensen Huang confirme aussi la date de septembre 2022 pour sa déclaration). Reste du texte (carte, quiz) relu et cohérent avec les sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-07-31",

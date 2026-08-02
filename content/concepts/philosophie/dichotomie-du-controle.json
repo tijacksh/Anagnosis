@@ -74,7 +74,7 @@
     "explication": "La version moderne conserve la technique — se concentrer sur ce qu'on maîtrise — mais abandonne ce qui la fondait : une physique où le monde suit un ordre rationnel auquel on s'accorde. Privée de ce cadre, la dichotomie devient un outil de gestion du stress. Épictète, ancien esclave, ne s'adressait par ailleurs pas aux puissants.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -94,5 +94,13 @@
     "genere_le": "2026-07-29",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "bedc7806b021a2a6",
+    "notes": [
+      "Citation (Manuel I) : le texte réel de la page Wikisource citée (trad. Guyau, vérifié par curl direct du HTML) commence par « Parmi les choses, les unes dépendent de nous, les autres n'en dépendent pas. » — sans « qui existent ». La fiche cite « Parmi les choses qui existent, les unes dépendent de nous... », formulation qui ne se retrouve pas mot pour mot dans la source pointée par citation.url. Cette formulation ('qui existent', rendu littéral du grec ontôn) circule largement en ligne mais semble venir d'une autre traduction que celle de Guyau/Wikisource référencée. À vérifier : soit ajuster citation.texte pour coller exactement à la traduction Guyau, soit remplacer l'url par une traduction authentique et vérifiable qui porte réellement 'qui existent'. Reste de la fiche (biographie d'Épictète, Manuel/Entretiens rédigés par Arrien, boiterie aux causes disputées, physique stoïcienne comme fondement de l'acceptation, carte, quiz) confirmé conforme aux sources (Wikisource, SEP Epictetus) après lecture directe des pages."
+    ]
   }
 }

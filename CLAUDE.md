@@ -38,6 +38,7 @@ npm run validate   # contrôle qualité de la forme (sortie 1 si erreur)
 npm run cible      # quelle discipline alimenter maintenant, et combien
 npm run acontroler # quelles fiches restent à relire au fond
 npm run areparer   # quelles fiches en retouche attendent d'être réparées
+npm run arelire    # quels brouillons sont prêts à être tranchés
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
@@ -136,8 +137,28 @@ Deux bornes le compensent : une réparation qui **touche au texte** change l'emp
 donc la fiche repasse au contrôle et un passage indépendant revérifie ; et une fiche qui
 revient une troisième fois est rejetée plutôt que réparée encore.
 
-Le cycle complet, toutes les quatre heures : produire (:04) → contrôler (:34) →
-réparer (:54).
+## Trancher les brouillons
+
+`/relire` (`.claude/commands/relire.md`) met les brouillons en circulation, ou les écarte.
+`npm run arelire` donne ceux qui sont prêts, et la routine rouvre **toutes** leurs sources
+avant de décider.
+
+**C'est la seule routine qui valide du contenu neuf sans relecteur**, et l'écart au principe
+d'origine est assumé plutôt que dissimulé : la fiche porte `decide_par: routine-relecture`,
+jamais une adresse personnelle.
+
+Le garde-fou tient en une règle : **elle ne prend que des brouillons déjà contrôlés**, avec
+une empreinte à jour et un verdict sans réserve. Autrement dit, deux passages indépendants
+séparés dans le temps, partant chacun du texte brut. Un passage unique qui vérifie et valide
+dans la foulée ne se contredit jamais lui-même — il refait la même lecture avec les mêmes
+angles morts. Ça ne coûte aucun délai : le contrôle tourne six fois par jour et traite les
+brouillons en premier.
+
+Et si la relecture **touche au texte**, l'empreinte change : la fiche repasse au contrôle, et
+un troisième passage la revérifie avant qu'elle ne soit servie longtemps.
+
+Le cycle : produire (:04) → contrôler (:34) → réparer (:54), toutes les quatre heures ;
+relire une fois par jour, à 7 h 51.
 
 ## Pièges déjà rencontrés
 

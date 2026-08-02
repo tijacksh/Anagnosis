@@ -37,14 +37,14 @@
       "publication": "Scitable, Nature Education",
       "annee": 2008,
       "url": "https://www.nature.com/scitable/topicpage/barbara-mcclintock-and-the-discovery-of-jumping-34083/",
-      "note": "Le raisonnement sur les motifs de coloration et la réception de 1951."
+      "note": "Le raisonnement sur les motifs de coloration (système Ac/Ds) ; confirme un accueil critique du concept, sans mentionner le symposium de 1951."
     },
     {
       "type": "institution",
       "auteur": "Cold Spring Harbor Laboratory",
       "titre": "One experiment: McClintock's historic discovery",
       "publication": "Cold Spring Harbor Laboratory",
-      "annee": 2021,
+      "annee": 2014,
       "url": "https://www.cshl.edu/one-experiment-mcclintocks-historic-discovery/",
       "note": "Par l'institution où elle a travaillé et présenté ses résultats."
     },
@@ -62,7 +62,7 @@
     {
       "titre": "Smithsonian — By Studying Corn, Barbara McClintock Unlocked the Secrets of Life",
       "url": "https://www.smithsonianmag.com/smithsonian-institution/by-studying-corn-barbara-mcclintock-unlocked-secrets-life-180981555/",
-      "note": "En anglais ; portrait et conditions de travail, avec des images de ses épis annotés."
+      "note": "En anglais ; portrait et conditions de travail, avec des photos de son microscope et de son laboratoire à Cold Spring Harbor."
     }
   ],
   "illustration": {
@@ -81,13 +81,13 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le travail a été publié et n'a jamais été réfuté : il a été mis de côté. Les éléments mobiles n'ont été admis qu'une fois retrouvés chez les bactéries puis la drosophile, avec les outils de la biologie moléculaire. Ils se sont d'ailleurs révélés généraux, et occupent une part considérable de notre propre génome.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T14:58:03.985Z",
     "historique": [
       {
         "action": "complement",
@@ -96,6 +96,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:34:42.587Z",
         "note": "Contrôle : l'accueil silencieux du symposium de 1951 n'était documenté par aucune des trois sources citées. Ajout de Ravindran (PNAS 2012), qui rapporte le témoignage d'Evelyn Witkin, et repère rattaché à cette source. Note Britannica corrigée : la page ne mentionne ni 1951 ni le symposium."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T14:58:03.985Z",
+        "note": "Revalidation indépendante après le re-contrôle du 2026-07-31. Les 5 sources ont été rouvertes une à une (Ravindran/PMC3528533, Nature Scitable, CSHL, Britannica, Smithsonian) : Ravindran confirme mot pour mot le témoignage d'Evelyn Witkin ('there was dead silence') au symposium de Cold Spring Harbor 1951, la réaction de 'puzzlement, even hostility', la redécouverte des éléments mobiles chez les bactériophages/bactéries fin 1960s puis la drosophile, et le Nobel 1983 non partagé. Britannica confirme (sans mentionner 1951/le symposium) qu'elle a cessé de publier et de donner des conférences tout en poursuivant ses recherches, la vérification tardive fin 1960s/70s, et qu'elle est la première femme seule récipiendaire du prix. Smithsonian confirme le Nobel non partagé et 'first and only woman' à le recevoir seule ; CSHL confirme le mécanisme des motifs de coloration et le Nobel 1983, sans évoquer le symposium (cohérent avec la note de la fiche qui ne le lui attribue pas). Corps, repere, carte et quiz vérifiés phrase par phrase : rien à corriger sur le fond. Deux notes de sources corrigées car elles surinterprétaient leur source : sources[1] (Nature Scitable) attribuait à tort 'la réception de 1951' à cette page, qui ne mentionne ni 1951 ni le symposium (seulement une critique générale à l'époque) ; pour_aller_plus_loin[0] (Smithsonian) prétendait à tort montrer 'des images de ses épis annotés', alors que l'article ne contient que des photos de son microscope et d'elle en laboratoire. Le point signalé par le contrôle précédent (accueil silencieux de 1951 rattaché à Ravindran) reste correctement sourcé et est confirmé indépendamment."
       }
     ]
   },
@@ -105,11 +113,12 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "5b0e29144cf65e2f",
+    "fait_le": "2026-08-02",
+    "verdict": "corrige",
+    "empreinte": "1444a4b334b2d409",
     "notes": [
-      "Re-contrôle après retouche : les 5 urls vérifiées (Ravindran/PMC3528533 avec redirection vers pmc.ncbi.nlm.nih.gov corrigée dans repere.url et sources[0].url, Nature Scitable, CSHL, Britannica, Smithsonian). Ravindran (PNAS 2012) confirme mot pour mot le témoignage d'Evelyn Witkin : « When she finished, geneticist Evelyn Witkin recalls, there was dead silence » au symposium de Cold Spring Harbor 1951, travail non réfuté mais ignoré, redécouverte chez les bactéries (bactériophages fin 1960s) puis la drosophile, Nobel 1983 non partagé. Britannica confirmée sans mention de 1951/symposium (note déjà corrigée, exacte) mais confirme Nobel 1983 et McClintock première femme récipiendaire unique du prix. Corps, repere, carte et quiz cohérents avec les sources. Le point signalé au contrôle précédent est résolu."
+      "Re-contrôle indépendant après réparation du 2026-07-31 (empreinte modifiée). Les 4 sources principales rouvertes une à une : Ravindran/PMC3528533 confirme mot pour mot le témoignage d'Evelyn Witkin ('there was dead silence') au symposium de Cold Spring Harbor 1951 et le Nobel 1983 'unshared' ; Britannica confirme l'absence de toute mention de 1951/symposium, l'arrêt de publication, la vérification tardive fin 1960s/70s et le Nobel 1983 ; Nature Scitable confirme le système Ac/Ds et l'accueil critique de l'époque, sans mentionner le symposium de 1951 (seule une référence bibliographique à un article de 1951 apparaît, distinct du symposium) ; CSHL confirme le mécanisme et le Nobel 1983, sans évoquer le symposium. Corps, repere, carte et quiz vérifiés phrase par phrase : rien à corriger sur le fond, les corrections de notes posées par la réparation précédente (Nature Scitable, Smithsonian) sont exactes.",
+      "Erreur trouvée et corrigée : sources[2] (CSHL) portait 'annee': 2021 ; la page affiche 'Monday, 1 December 2014' et les métadonnées (article:published_time) confirment 2014-12-01 (modifiée 2019-11-20). Aucune trace de 2021 sur la page. Corrigé en 2014."
     ]
   }
 }

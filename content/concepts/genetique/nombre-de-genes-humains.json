@@ -81,13 +81,13 @@
     ],
     "bonne_reponse": 1,
     "explication": "Un même gène produit plusieurs protéines selon la façon dont sa séquence est découpée et recollée, et ce qui fait un organisme tient au réseau de régulations plutôt qu'au nombre de composants. L'intuition d'un catalogue « une ligne, une fonction » est ce qui a conduit à surestimer — pas une limite technique.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T14:59:20.912Z",
     "historique": [
       {
         "action": "complement",
@@ -96,6 +96,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:34:42.587Z",
         "note": "Contrôle : les chiffres du pari GeneSweep n'étaient soutenus par aucune des sources citées — la page de l'Agence de la biomédecine ne donne que le décompte actuel. Ajout de la page officielle du pari, à laquelle le repère est désormais rattaché."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T14:59:20.912Z",
+        "note": "Recontrôle indépendant, sources rouvertes une à une (pas de reprise de la conclusion précédente sans vérification) : (1) page GeneSweep archivée (Wayback Machine, capture du 17/10/2000, récupérée via curl car web.archive.org inaccessible en WebFetch) — table de statistiques lue telle quelle : Bets 228, Mean 62 598, Median 53 700, Lowest 27 462, Highest 200 000 ; correspond exactement au repere et à la note de sources[0]. (2) genome.gov/virtual-exhibits/GeneSweep — confirme 228 mises dès mai 2000 et plus de 460 mises à la clôture en avril 2003 ; donne aussi le chiffre provisoire de 2003 (24 847 gènes, revu depuis à ~20 000), cohérent avec le récit de la fiche. (3) Agence de la biomédecine — page consultée : 'Chaque être humain possède environ 20 000 gènes', publiée le 23/12/2024, cohérent avec la date en sources[]. (4) Science, Kaiser 2018 (récupéré via miroir Wayback puis extraction du texte car science.org renvoie 403 en accès direct) — byline '18 Sep 2018', texte : 'roughly 19,000 human genes that code for proteins' et recherche concentrée sur environ 2000 d'entre eux, cohérent avec le dernier paragraphe du corps et avec sources[3]. (5) Médecine/Sciences 2000 (PDF récupéré et converti en texte, la première tentative WebFetch avait échoué sur le PDF) — confirme le contexte historique : estimations à 60 000-80 000 puis chiffre non officiel de 100 000 gènes fin 1999, mention explicite du pari GeneSweep et de la conférence de Cold Spring Harbor. (6) Recoupement externe : l'annonce du consortium international en 2001 (Nature 409, 860-921) donne bien 30 000-40 000 gènes contre les 100 000 attendus, ce qui confirme le paragraphe sur le résultat de 2001. (7) Universalis (pour_aller_plus_loin) confirme ~21 000 gènes aujourd'hui. Quiz vérifié : bonne_reponse=1 (0-indexé) pointe vers le choix qui porte sur l'équivalence fausse gène/protéine/fonction, pas en première position ; les distracteurs sont plausibles et de longueur comparable. Aucune incohérence trouvée entre corps, repere, carte, sources et quiz : rien à changer dans le fichier. npm run validate (0 erreur, 0 alerte) et npm test (23/23) passent sans modification."
       }
     ]
   },
@@ -105,11 +113,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
+    "fait_le": "2026-08-02",
     "verdict": "ok",
-    "empreinte": "7f2f2b0443f7e8e6",
+    "empreinte": "9efcf7036b3fa9b6",
     "notes": [
-      "Recontrôle après retouche : vérifié en ligne que les chiffres du repere (228 mises, moyenne 62 598 ≈ 60 000) correspondent bien à la page GeneSweep archivée (Wayback Machine, capture du 17/10/2000) — la page live ensembl.org/genesweep.html a disparu depuis (404), donc url de la source et du repere basculées sur l'archive. Confirmé aussi par genome.gov/virtual-exhibits/GeneSweep (460 mises au total en 2003, 228 dès mai 2000) et par Wikipedia (moyenne 62 598). Résultat final ~20 000 gènes confirmé par l'Agence de la biomédecine (source recorrigée en 2024, date de publication réelle de la page) et Science 2018. Reste du contenu (corps, carte, quiz) cohérent avec ces chiffres."
+      "Re-contrôle après réparation du 31/07. GeneSweep archivé (Wayback, récupéré via curl) confirme 228 mises, moyenne 62 598. Agence de la biomédecine (23/12/2024) confirme ~20 000 gènes. Médecine/Sciences 2000 (PDF) confirme le contexte historique (60 000-100 000 attendus, pari GeneSweep, Cold Spring Harbor). Science/Kaiser 2018 (via miroir Wayback, science.org bloque l'accès direct) confirme ~19 000 gènes codants et la concentration de la recherche sur une fraction d'entre eux. Rien à corriger."
     ]
   }
 }

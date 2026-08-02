@@ -76,7 +76,7 @@
     "explication": "La relativité interdit de dépasser la vitesse de la lumière en se déplaçant à travers l'espace. L'expansion n'est pas un déplacement : c'est la distance elle-même qui croît, et rien ne borne ce taux de croissance. C'est pour cette raison que le décalage vers le rouge cosmologique ne se calcule pas avec la formule de Doppler.",
     "statut": "valide"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -109,5 +109,14 @@
     "punch": "Les galaxies lointaines fuient. Ce n'est pas un effet Doppler.",
     "idee": "Elles ne traversent pas l'espace : c'est l'espace entre elles et nous qui s'étire. D'où le fait que certaines s'éloignent plus vite que la lumière sans violer la relativité — elles ne se déplacent pas.",
     "source_courte": "Davis & Lineweaver, PASA, 2004"
+  },
+  "controle": {
+    "fait_le": "2026-07-31",
+    "verdict": "a_revoir",
+    "empreinte": "b561557eaba21fac",
+    "notes": [
+      "Sources rouvertes en ligne et confirmées : Lemaître 1927 (ADS, rendu vérifié par navigateur — G. Lemaître, Annales de la Société Scientifique de Bruxelles A47, 1927, bibcode 1927ASSB...47...49L, titre exact) ; Hubble 1929 (DOI résout vers pnas.org/doi/full/10.1073/pnas.15.3.168 — 403 anti-bot au fetch direct, mais contenu identique confirmé via le miroir PMC522427 : PNAS 15(3), p.168-173, 1929) ; Davis & Lineweaver 2004 (arXiv astro-ph/0310808 confirmé : PASA 21(1), le résumé établit que des galaxies peuvent avoir une vitesse de récession supérieure à c sans violer la relativité et exclut l'interprétation Doppler à 23 sigma — soutient le corps et la carte) ; IAU 2018 (iauarchive.eso.org/news/pressreleases/detail/iau1812 confirmé : vote clos le 26 octobre 2018, résultat annoncé le 29 octobre 2018, 4060 votants sur 11072 invités (37%), 78% pour / 20% contre / 2% abstention — chiffres exacts). Quiz et carte relus, cohérents avec les sources ; distracteurs bien faux et non 'moins bons' ; pas de déséquilibre de longueur.",
+      "À REVOIR — citation Lemaître : citation.source attribue la phrase du feu d'artifice à « L'Hypothèse de l'atome primitif (1946) » (url OpenLibrary OL1297510W, vérifiée : c'est bien le bon ouvrage au catalogue). Mais Jean-Pierre Luminet, historien des sciences spécialiste de Lemaître (arXiv:1503.08304, « Lemaître's Big Bang »), cite ce même passage exact comme provenant de l'article « The Expanding Universe », Lemaître, M.N.R.A.S. 91, 490-501 (mars 1931) — pas du livre de 1946/1950 (ADS confirmé : https://ui.adsabs.harvard.edu/abs/1931MNRAS..91..490L/abstract, DOI 10.1093/mnras/91.5.490). Des sources de vulgarisation (Wikiquote, blogs scientifiques) attribuent au contraire la citation au livre de 1946/1950, mais aucune ne donne de page précise. Je n'ai pas pu accéder au texte intégral du livre de 1946 pour trancher (archive.org le restreint en emprunt sans recherche interne, Google Books ne montre pas d'extrait, la page Kolbe Foundation qui héberge une version partielle de 'On the Primeval Atom' ne contient pas le passage). Impossible de confirmer mot pour mot dans l'œuvre indiquée par la fiche. À trancher par un relecteur humain : soit vérifier le texte intégral du livre de 1946/1950 pour s'assurer que Lemaître y a repris ce passage de 1931, soit corriger citation.source vers 'The Expanding Universe, M.N.R.A.S. 91, 490 (1931)' avec l'URL ADS ci-dessus."
+    ]
   }
 }

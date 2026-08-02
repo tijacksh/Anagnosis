@@ -23,7 +23,7 @@
   "sources": [
     {
       "type": "article",
-      "auteur": "BibNum",
+      "auteur": "Lequeux, James",
       "titre": "La découverte de Neptune par Le Verrier (1846)",
       "publication": "BibNum, OpenEdition Journals",
       "annee": 2010,
@@ -46,7 +46,7 @@
       "publication": "Observatoire de Paris — PSL",
       "annee": 2016,
       "url": "https://observatoiredeparis.psl.eu/les-170-ans-de-la-decouverte.html",
-      "note": "Chronologie détaillée de la prédiction et de l'observation berlinoise."
+      "note": "Chronologie de la prédiction et de l'observation berlinoise."
     }
   ],
   "pour_aller_plus_loin": [
@@ -71,14 +71,14 @@
       "Parce que les télescopes de l'époque ne pouvaient pas observer près du Soleil"
     ],
     "bonne_reponse": 0,
-    "explication": "L'écart était réel et correctement calculé — c'est même le chiffre de Le Verrier qu'Einstein a expliqué en 1915, par la courbure de l'espace-temps et sans ajouter aucun corps. Face à un écart, compléter l'inventaire ou réviser la théorie restent deux réponses ouvertes, et rien dans l'écart ne dit laquelle s'impose.",
+    "explication": "L'écart était réel et correctement calculé — c'est l'anomalie que Le Verrier avait établie qu'Einstein a expliquée en 1915, par la courbure de l'espace-temps et sans ajouter aucun corps. Face à un écart, compléter l'inventaire ou réviser la théorie restent deux réponses ouvertes, et rien dans l'écart ne dit laquelle s'impose.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:40:36.703Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T11:09:03.690Z",
     "historique": [
       {
         "action": "valider",
@@ -95,6 +95,22 @@
         "par": "claude-code",
         "le": "2026-07-31T07:34:05.968Z",
         "note": "Contrôle : « deux ans » n'était soutenu par aucune source — BibNum situe le travail entre l'été 1845 et août 1846. Corrigé en trois endroits. Source Observatoire de Paris sur Mercure hors service (404), remplacée par Lequeux (arXiv)."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T11:09:03.690Z",
+        "note": "Sources rouvertes indépendamment : BibNum/OpenEdition (existe, 200 OK, confirme été 1845 (Arago charge Le Verrier) à découverte 23-24 sept 1846, écart ~1 degré) ; PDF arXiv:1710.03688 lu directement page par page (et non via résumé WebFetch, qui a d'abord renvoyé un contenu erroné sans rapport) — confirme Jacques Laskar (ASD/IMCCE, Observatoire de Paris) comme auteur, titre exact, 2017, et section 10 'Retour sur la théorie de Mercure et épilogue' qui traite bien de l'anomalie du périhélie (38''/siècle selon Le Verrier) et de l'hypothèse Vulcain (nommée par Le Verrier, observation Lescarbault non confirmée, jamais retrouvée) ; volume 18 p.504-519 de Comptes Rendus Physique confirmé par recherche complémentaire (CrossRef/HAL) ; Observatoire de Paris (170 ans) existe et confirme la trame Bouvard-Arago-Le Verrier-Galle mais sans le détail de la nuit exacte ni de l'écart angulaire — note de source corrigée en conséquence (retrait de 'détaillée'). Vérifié aussi, hors des points signalés par le contrôle précédent : date 1915 et valeur ~43''/siècle de la relativité générale (confirmées dans l'article Laskar, qui précise que 43'' est 'très proche' du 38'' de Le Verrier, pas identique) — explication du quiz corrigée ('même le chiffre de Le Verrier' minimisé en 'l'anomalie que Le Verrier avait établie', pour ne pas laisser croire à une valeur numérique identique) ; campagnes d'observation de Vulcain lors des éclipses confirmées par recherche complémentaire (éclipses de 1860, 1901, 1905, 1908) ; quiz revérifié point par point, bonne réponse et les 3 distracteurs confirmés faux au vu des sources. Rien d'autre à changer dans le corps, la carte ou le repère."
+      },
+      {
+        "action": "complement",
+        "de": "valide",
+        "vers": "valide",
+        "par": "claude-code",
+        "le": "2026-07-31T11:11:46.001Z",
+        "note": "Contrôle croisé de la réparation ci-dessus : sources[0].auteur indiquait « BibNum » (le nom de la revue en ligne), alors que la page journals.openedition.org/bibnum/692 rouverte porte la signature explicite de James Lequeux, ancien élève de l'ENS, astronome à l'Observatoire de Paris. Le champ auteur d'une source de type « article » doit nommer la personne, pas le support — comme le fait déjà sources[1] (« Laskar, Jacques »). Corrigé en « Lequeux, James »."
       }
     ]
   },
@@ -105,10 +121,10 @@
   },
   "controle": {
     "fait_le": "2026-07-31",
-    "verdict": "corrige",
-    "empreinte": "5e20803b20dd4a7d",
+    "verdict": "ok",
+    "empreinte": "f16d7a5aa21eed9e",
     "notes": [
-      "Retouche vérifiée : durée « un peu plus d'un an » / « quatorze mois » (été 1845 à fin août 1846) cohérente avec BibNum (confirmé par relecture : Arago charge Le Verrier été 1845, publication finale le 31 août 1846, soit ~14-15 mois). Nouvelle source Lequeux/arXiv:1710.03688 vérifiée en ligne (accès libre, existe, section finale traite bien de l'anomalie de Mercure et de l'hypothèse Vulcain) — mais son auteur réel est Jacques Laskar (ASD/IMCCE, Observatoire de Paris), pas James Lequeux : champ auteur corrigé. Titre, année (2017) et revue (Comptes Rendus Physique, vol. 18, p.504-519) confirmés exacts. Lien Observatoire de Paris (170 ans de la découverte) et lien BibNum tous deux actifs (200 OK). Reste cohérent (carte, quiz, repere)."
+      "Recontrôle après correction de l'auteur de la source BibNum (Lequeux, James), appliquée par le passage précédent. Sources revérifiées indépendamment : BibNum/OpenEdition (existe, confirme auteur James Lequeux, titre exact, 2010, chronologie été 1845 -> 31 août 1846 -> nuit du 23 septembre, position à moins d'un degré) ; PDF arXiv:1710.03688 relu intégralement page par page (auteur Jacques Laskar confirmé, ASD/IMCCE-Observatoire de Paris, Comptes Rendus Physique 2017 ; section 10 confirme l'excès de 38''/siècle, l'épisode Vulcain/Lescarbault de 1859-1860, jamais confirmé, et l'explication par la relativité générale d'Einstein en 1915 à 43''/siècle, 'très proche' de la valeur de Le Verrier, pas identique) ; Observatoire de Paris (170 ans) toujours actif, confirme la trame Le Verrier-Galle. Carte, repère et quiz cohérents avec les sources. Rien à corriger."
     ]
   }
 }

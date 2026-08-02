@@ -47,6 +47,24 @@
       "annee": 2020,
       "url": "https://phys.org/news/2020-11-long-standing-mysteries-parallaxes-astronomy.html",
       "note": "Sur les mesures rivales de Henderson et Struve, publiées presque en même temps."
+    },
+    {
+      "type": "web",
+      "auteur": "Paul Gilster",
+      "titre": "Calculating the Distance to a Star",
+      "publication": "Centauri Dreams",
+      "annee": 2006,
+      "url": "https://www.centauri-dreams.org/2006/07/24/calculating-the-distance-to-a-star/",
+      "note": "Sur le choix de 61 du Cygne, étoile faible mais au mouvement propre le plus élevé connu de Bessel, et sur la course avec Henderson et Struve."
+    },
+    {
+      "type": "web",
+      "auteur": "freestarcharts.com",
+      "titre": "61 Cygni - Measuring the distance to the stars",
+      "publication": "freestarcharts.com",
+      "annee": 2020,
+      "url": "https://freestarcharts.com/61-cygni",
+      "note": "Donne la valeur précise de la parallaxe mesurée par Bessel en 1838 (0,3136 seconde d'arc), absente des autres sources, qui ne citent que la distance en années-lumière."
     }
   ],
   "pour_aller_plus_loin": [
@@ -74,11 +92,11 @@
     "explication": "Deux positions de la Terre séparées de six mois forment deux points de vue très écartés : les étoiles proches devraient s'en trouver déplacées par rapport au fond. Ne rien voir laissait deux issues — la Terre est immobile, ou les étoiles sont bien plus lointaines qu'on ne l'imaginait. Bessel a tranché en mesurant enfin l'angle.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:40:36.703Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-07-31T11:06:56.614Z",
     "historique": [
       {
         "action": "valider",
@@ -95,6 +113,14 @@
         "par": "claude-code",
         "le": "2026-07-31T07:33:27.197Z",
         "note": "Contrôle : le repère citait Carnegie pour « dix années-lumière », or cette page indique 11,4 — valeur moderne, non celle de Bessel. Repère rattaché à Menten, qui donne 10,4."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-07-31T11:06:56.614Z",
+        "note": "Réparation indépendante après re-contrôle. Sources rouvertes : Menten/MPIfR (blog.mpifr-bonn.mpg.de, confirme 10,4 années-lumière et le déplacement pour 61 du Cygne mesuré par Bessel en 1838, ainsi que la course avec Henderson/Struve, sans donner l'angle en secondes d'arc) ; Carnegie Science (cosmology.carnegiescience.edu/timeline/1838.html, confirme 61 du Cygne et une mesure d'angle infime, mais donne 11,4 années-lumière = valeur moderne, non celle de Bessel — non utilisée pour ce chiffre, carte.source_courte déjà recâblée sur Menten par le contrôle précédent, vérifié cohérent) ; Phys.org (confirme les mesures rivales de Henderson sur Alpha Centauri et Struve sur Vega, publiées presque au même moment, avec sous-estimation de leurs incertitudes). Corps, repère et carte revérifiés phrase à phrase : angle 'un tiers de seconde d'arc' conforme à la valeur historique de 0,3136 seconde d'arc rapportée par Bessel (recoupée via freestarcharts.com et Centauri Dreams/Paul Gilster) ; 295 ans conforme à l'écart 1543 (De revolutionibus) - 1838 ; choix de 61 du Cygne pour son mouvement propre élevé confirmé par une source supplémentaire faute d'appui dans les trois sources existantes. Quiz revérifié : bonne réponse (index 2, 'une Terre en orbite devrait faire osciller les étoiles proches') conforme au mécanisme décrit et aux sources ; les trois distracteurs sont bien faux et de longueur comparable. Changement : ajout d'une source (Paul Gilster, 'Calculating the Distance to a Star', Centauri Dreams, 2006, url vérifiée) pour appuyer l'affirmation du choix de 61 du Cygne par son mouvement propre, absente des trois sources précédentes. Aucune autre correction nécessaire."
       }
     ]
   },
@@ -106,9 +132,9 @@
   "controle": {
     "fait_le": "2026-07-31",
     "verdict": "corrige",
-    "empreinte": "6fee2faf155487d4",
+    "empreinte": "f9c39b5f3ecd41c7",
     "notes": [
-      "Re-contrôle après retouche : la page Menten/MPIfR confirme 10,4 années-lumière pour 61 du Cygne (Bessel, 1838), cohérent avec le repère « environ dix années-lumière » et sa source Menten. Reste du contenu inchangé et conforme (choix de l'étoile, angle, 295 ans, mesures rivales Henderson/Struve, quiz). Incohérence supplémentaire relevée et corrigée : carte.source_courte citait encore Carnegie Science (11,4 a.l., valeur moderne) pour le même chiffre de dix années-lumière — recâblée sur Menten, en cohérence avec repere.source. statut laissé à en_retouche pour revalidation humaine."
+      "Recontrôle après la réparation précédente (ajout source Gilster). Sources revérifiées : Carnegie (confirme 61 Cygni choisi pour son mouvement propre, mais donne 11,4 a.l. = valeur moderne, non utilisée pour le chiffre du repère) ; Menten/MPIfR (confirme 10,4 a.l., ne donne pas l'angle en secondes d'arc) ; Phys.org (confirme la course Henderson/Struve, avec une nuance : Struve a annoncé une valeur provisoire pour Véga un an avant Bessel, Henderson a publié peu après — la fiche ne date pas cette course dans le corps, seulement dans une note de source, donc pas de correction nécessaire) ; Gilster/Centauri Dreams (confirme le choix de 61 Cygni pour son mouvement propre élevé). Lacune trouvée : aucune des quatre sources ne donne la valeur numérique de l'angle ('un tiers de seconde d'arc', repris dans le corps et le repère). Recherche complémentaire et vérification de freestarcharts.com/61-cygni : confirme 0,3136 seconde d'arc et 10,4 années-lumière pour la mesure de Bessel en 1838 — source ajoutée à sources[] pour combler ce trou, sans changer le sens de la fiche (le chiffre était déjà exact, seulement non sourcé dans la fiche). Reste du corps, carte et quiz cohérents avec les sources (295 ans = 1838-1543, choix de l'étoile, quiz revérifié point par point)."
     ]
   }
 }
