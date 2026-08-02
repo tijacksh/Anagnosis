@@ -87,22 +87,36 @@ const FOURNISSEURS = {
   elevenlabs: {
     cle: 'ELEVENLABS_API_KEY',
     extension: 'mp3',
-    // Les identifiants de voix ne sont pas stables dans le temps : on les demande au
-    // compte plutôt que de les figer ici, où ils pourrissent en silence.
+    /**
+     * Les voix retenues, **choisies et non devinées**.
+     *
+     * Un compte ElevenLabs neuf n'expose que ses voix par défaut, qui sont toutes
+     * anglophones — américaines, britanniques, australiennes. Les faire lire du français
+     * donne du français à l'accent américain, et on conclurait que le moteur lit mal notre
+     * langue alors qu'on lui aurait donné la mauvaise voix. Ces deux-là viennent de la
+     * bibliothèque partagée, sont annoncées francophones, et couvrent nos deux registres :
+     * l'exposition documentaire et la narration réflexive.
+     */
+    voix: [
+      { nom: 'helene', id: 'a2NqrzzRklNWkb04aqW1' },  // documentaire, posée
+      { nom: 'jerome', id: 'TES2Z4FdTbwd5F5uHmLW' },  // narration, réflexive
+    ],
     async variantes(cle) {
+      // On vérifie qu'elles sont bien sur le compte : sans ça, l'erreur n'arriverait qu'à
+      // la génération, une voix sur deux, et se lirait comme un défaut du modèle.
       const r = await fetch('https://api.elevenlabs.io/v1/voices', { headers: { 'xi-api-key': cle } });
       if (!r.ok) throw new Error(`liste des voix ${r.status} — ${(await r.text()).slice(0, 200)}`);
       const { voices = [] } = await r.json();
-      // Une voix d'homme et une de femme, en préférant celles annoncées pour le français.
-      const parle = (v) => /french|français/i.test(JSON.stringify(v.labels ?? {}) + (v.description ?? ''));
-      const choisir = (genre) => {
-        const duGenre = voices.filter((v) => v.labels?.gender === genre);
-        return duGenre.find(parle) ?? duGenre[0];
-      };
-      const retenues = [choisir('male'), choisir('female')].filter(Boolean);
-      if (!retenues.length) throw new Error('aucune voix sur ce compte');
-      return retenues.flatMap((v) => ['eleven_v3', 'eleven_multilingual_v2'].map((modele) => ({
-        id: `${v.name}-${modele.replace('eleven_', '')}`, voix: v.voice_id, modele,
+      const presentes = new Set(voices.map((v) => v.voice_id));
+      const manquantes = this.voix.filter((v) => !presentes.has(v.id));
+      if (manquantes.length) {
+        throw new Error(`voix absentes du compte : ${manquantes.map((v) => v.nom).join(', ')}`
+          + ' — les ajouter depuis la bibliothèque partagée');
+      }
+      // Chaque voix sur les deux modèles : v3 est plus expressif, v2 annoncé plus stable
+      // sur le format long. On tranche à l'oreille, pas sur l'argumentaire.
+      return this.voix.flatMap((v) => ['eleven_v3', 'eleven_multilingual_v2'].map((modele) => ({
+        id: `${v.nom}-${modele.replace('eleven_', '')}`, voix: v.id, modele,
       })));
     },
     async fabriquer(texte, v, cle) {
