@@ -6,6 +6,85 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-08-02 — L'écoute : voix de synthèse choisie, fichiers pré-produits
+
+**Décidé :** l'audio est **produit à l'avance et téléchargé**, jamais synthétisé sur
+l'appareil. Moteur **ElevenLabs, modèle `eleven_v3`**, deux voix françaises de la
+bibliothèque partagée — *Helene* (documentaire) et *Jerome* (narration réflexive) —
+que le lecteur choisit dans les réglages. Deux fichiers par fiche.
+
+**Pourquoi le pré-produit plutôt que la synthèse embarquée.** `AVSpeechSynthesizer`
+donne un résultat robotique que le lecteur entend immédiatement comme de la machine.
+C'est le même critère non négociable que pour les illustrations : *le rendu ne doit
+jamais être identifiable comme généré par IA*. Une voix qui sonne synthétique
+décrédibilise une fiche dont tout le propos est l'exactitude.
+
+**Pourquoi ce moteur.** Le critère qui élimine n'est pas le naturel mais la
+**prononciation dirigeable** : le corpus fait prononcer 832 noms propres distincts,
+1 484 occurrences, une douzaine par fiche — Doppler, Whorf, Boas, Eichmann, Ockham.
+OpenAI n'offre aucun moyen de figer une prononciation (pas de SSML, pas de
+dictionnaire phonétique) : écarté malgré un tarif inférieur. ElevenLabs accepte des
+règles IPA, mais **seulement sur `eleven_v3` et `eleven_flash_v2`** — pas sur
+`multilingual_v2`.
+
+**Pourquoi `v3` malgré l'absence de recouture de prosodie.** `eleven_v3` ne supporte
+pas le *request stitching*, qui recoud la prosodie entre deux requêtes. Sur du long
+format ce serait rédhibitoire ; ici ça ne mord jamais : sa limite est de 5 000
+caractères et la fiche la plus longue du corpus en fait 3 874. **Une fiche tient
+toujours en une requête**, donc il n'y a rien à recoudre. Vérifié à l'écoute sur deux
+registres opposés (Doppler, technique ; *Banalité du mal*, grave) : noms propres
+justes, et la pause devant les titres de section s'entend comme une section.
+
+**Les classements publics n'ont pas servi à trancher.** L'arène Artificial Analysis
+fait voter **en anglais**, sur des extraits d'agent conversationnel, et place
+plusieurs modèles devant ElevenLabs. Nous lisons de l'exposition en français avec des
+noms allemands : rien ne garantissait que l'ordre tienne. Il a fallu écouter.
+
+**Un compte neuf n'a que des voix anglophones.** Les 21 voix par défaut sont
+américaines, britanniques ou australiennes. Les faire lire du français donne du
+français à l'accent américain — et on aurait conclu que le moteur lit mal notre
+langue alors qu'on lui aurait imposé l'accent. Les deux voix retenues viennent de la
+bibliothèque partagée et sont explicitement francophones.
+
+**Conséquence — deux formats, une seule génération.** Régénérer coûte des crédits *et*
+prend le risque que le modèle ait bougé entre-temps : la voix du catalogue changerait
+en silence. Donc une génération, deux produits :
+
+- le **master** à 128 kbit/s mono est archivé et jamais servi — c'est lui qui
+  alimentera le podcast le jour venu ;
+- l'app reçoit un dérivé **AAC 32 kbit/s mono** (~1 Mo la fiche), ré-encodé
+  localement — gratuit, déterministe, refaisable depuis le master.
+
+Le ré-encodage a lieu à la génération, sur le poste de production. Ni le NAS ni la
+chaîne de construction n'y touchent : la contrainte « zéro dépendance runtime » reste
+intacte, `ffmpeg` n'est qu'un outil d'atelier.
+
+**Conséquence — l'audio n'est pas hébergé avec le site.** Netlify facture
+précisément ce qu'on ferait le plus : le palier gratuit 2026 plafonne à ~15 Go
+mensuels, soit 15 000 écoutes, après quoi le site cesse de servir. L'audio va sur
+**Cloudflare R2** : zéro frais de sortie, 10 Go de stockage gratuits (le corpus
+complet en deux voix en occupe moins de 3), 10 M de téléchargements mensuels inclus.
+
+**Conséquence — l'adresse vient du manifeste, jamais de l'app.** L'URL de chaque
+fichier et son **SHA-256** sont écrits dans `concepts.json`, qui est déjà signé en
+Ed25519. Deux effets, tous deux acquis sans mécanisme supplémentaire : changer
+d'hébergeur devient un changement de pipeline invisible pour les versions déjà
+installées ; et l'app vérifie l'intégrité de chaque fichier téléchargé en lisant une
+empreinte que la signature couvre. C'est la règle de `src/publier.js` appliquée à
+l'audio — une seule projection, pas deux.
+
+**À surveiller — le coût du rattrapage.** Mesuré : ~0,55 crédit par caractère. Le
+corpus actuel (122 fiches, 361 163 caractères) en **deux voix** demande ~397 000
+crédits, soit un mois de Pro (600 000 crédits, 99 $). Le régime de croisière — une
+fiche par jour, deux voix — tient à ~96 000 crédits/mois, dans le Creator à 22 $.
+Rattraper d'abord, redescendre ensuite.
+
+**À surveiller — l'audio ne doit pas bloquer l'éditorial.** Une fiche sans audio
+reste **validée mais non publiée**, jamais dévalidée : si le fournisseur tombe ou si
+la clé expire, on ne perd aucun travail de relecture.
+
+---
+
 ## 2026-08-02 — Ce que Premium vend : plus de chaque jour, jamais plus de jours
 
 **Décidé :** un **seul palier** d'abonnement, et neuf fonctions. La règle qui les
