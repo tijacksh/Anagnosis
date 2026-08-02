@@ -6,6 +6,93 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-08-02 — Ce que Premium vend : plus de chaque jour, jamais plus de jours
+
+**Décidé :** un **seul palier** d'abonnement, et neuf fonctions. La règle qui les
+organise toutes tient en une phrase : *le concept du jour ne change pas — il reste
+gratuit, un par jour, pour tout le monde ; Premium ne donne pas plus de jours, il
+donne plus de chaque jour.*
+
+**Ce qui ajoute de la connaissance**
+
+1. **L'écoute** — la fiche lue à voix haute, par la synthèse de l'appareil, hors
+   ligne. Ouvre un usage que l'app n'a pas : le trajet, la cuisine.
+
+**Ce qui fait revenir**
+
+3. **Le rappel** — trois questions par jour sur ce qui a été lu dix, quarante-cinq
+   ou cent quatre-vingts jours plus tôt.
+4. **Le relevé** — « ce qui tient, ce qui s'efface ». L'encre y mesure ce qui
+   revient juste, pas ce qui a été lu.
+5. **Les fils** — choisir un parcours thématique et le suivre, au même rythme.
+
+**Ce qui rend le passé utile**
+
+6. **Tout le passé, cherchable et filtrable** — pas seulement déverrouillé. C'est le
+   trou du Premium existant : un abonné qui ouvre deux cents jours n'a aujourd'hui
+   qu'une liste par date.
+7. **Le carnet** — surligner, annoter, retrouver dans ses propres lectures.
+
+**Ce qui se voit sans ouvrir l'app**
+
+8. **Le widget** — le concept du jour sur l'écran d'accueil.
+9. **Le partage familial** — six personnes, une case à cocher côté App Store.
+
+**L'épreuve offerte** accompagne l'offre sans en faire partie : une fois par compte,
+après trente jours d'usage et vingt fiches lues, cinq questions sur ce qu'on a lu il
+y a plus d'un mois, puis un chiffre. Elle ne retire rien au gratuit — elle laisse le
+lecteur mesurer lui-même l'écart entre ce qu'il croit avoir gardé et ce qu'il a
+gardé. C'est le seul argumentaire que ce produit puisse tenir sans se renier.
+
+**Pourquoi cette thèse et pas une autre.** Quatre modèles ont été conçus
+séparément puis notés sur trois grilles — fidélité au produit, force de conversion,
+faisabilité. Les deux qui vendaient l'appareil éditorial (« Le fil ») ou le corpus
+personnel (« Le carnet ») ont été jugés les plus fidèles mais les plus faibles en
+conversion : *on ne paie pas 29 € pour réordonner ce qu'on aura de toute façon.* Ce
+qui les rend défendables, c'est de les adosser à ce qui se comprend sans
+explication — la version longue et l'écoute — plutôt que d'en faire l'argument
+principal.
+
+**Ce qui a été écarté, et pourquoi**
+
+- **La version longue** — le même concept en 1 200 mots au lieu de 433. C'était le
+  plus gros ajout de valeur perçue et la réponse la plus directe à « plus de
+  connaissance à acquérir ». Écartée pour son coût : elle **double le travail
+  éditorial par fiche**, donc double la surface où une affirmation fausse peut
+  entrer — le seul risque que ce produit ne peut pas prendre. Reste à reprendre le
+  jour où le corpus est stabilisé et les routines de contrôle éprouvées.
+  Conséquence assumée : l'axe « plus de connaissance » repose désormais sur la
+  rétention (le rappel) et sur la profondeur de parcours (les fils), pas sur du
+  texte en plus.
+- **Le dossier de vérification** — montrer comment chaque fiche a été contrôlée.
+  C'est le seul argument qu'aucun concurrent ne peut copier, et il a été écarté pour
+  son coût : il suppose de publier le champ `controle`, aujourd'hui retiré à
+  l'export (`src/publier.js`), donc de reprendre les notes internes pour un lecteur.
+  À reprendre si l'offre a besoin d'un différenciateur plus tard.
+- **Offrir un abonnement à quelqu'un.** Séduisant, et impossible : aucune API
+  StoreKit ne permet d'acheter un achat intégré au bénéfice d'un tiers, et les
+  *Offer Codes* ne couvrent que les abonnements auto-renouvelables et se génèrent
+  hors de l'app. Le partage familial couvre le besoin réel.
+- **Deux paliers.** Écartés pour la simplicité : rien à arbitrer au moment où le
+  lecteur décide.
+
+**Deux réserves techniques consignées**
+
+- **Le corpus n'a qu'une question par fiche** — vérifié, 0 sur 133 en a plusieurs.
+  Le rappel rejouerait la même question mot pour mot. Les questions supplémentaires
+  seront un **champ additif**, pas un changement de `quiz` en tableau : aucune
+  migration des fiches existantes, aucun décodeur cassé sur les binaires déjà
+  installés, et une fiche sans supplément se contente de rebattre l'ordre de ses
+  propositions — dégradé, pas cassé.
+- **`premium` se fusionne en OU** (`EtatLecteur.swift`, `EtatLecteur.kt`). Inoffensif
+  tant que c'est une bascule de démonstration ; le jour où un vrai abonnement arrive,
+  un abonnement expiré ne redescendrait jamais. Le droit devra venir de l'App Store
+  et du Play Store, pas de l'état fusionné.
+
+**Non tranché :** le prix. 3,49 €/mois et 29 €/an restent des espaces réservés.
+
+---
+
 ## 2026-07-31 — L'historique se conserve par la plateforme, pas par un compte
 
 **Décidé :** la persistance de l'historique passe par la synchronisation native de
