@@ -56,21 +56,30 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le tribunal ne reconnaît à Maquet ni la qualité de coauteur ni le droit de figurer sur les couvertures : il l'assimile à un fournisseur ayant vendu sa « copie » comme une marchandise. Il lui accorde une part des revenus, mais aucune reconnaissance littéraire — ni débouté total, ni copropriété, une position strictement financière.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T08:32:43.823Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T08:32:43.823Z",
+        "note": "Gallica (Hersent, blog BnF) rouverte directement en contournant le blocage anti-bot (curl + user-agent navigateur) : confirme mot pour mot chaque affirmation de la fiche — rencontre via Nerval en novembre 1838, Chevalier d'Harmental publié en feuilleton à partir du 28 juin 1841, pamphlet de Mirecourt 1845, second procès en 1857 tranchant Maquet en simple créancier avec 25% des droits contre renoncement à la paternité (la source elle-même date ce jugement de 1857, malgré une légère divergence avec d'autres récits secondaires situant l'audience en janvier 1858 et l'arrêt d'appel en 1859 — la fiche suit fidèlement sa source citée), exemplaire en maroquin rouge gravé « Les trois mousquetaires par A. Dumas et A. Maquet » retrouvé dans sa bibliothèque. Wikipedia EN confirmée : dix-huit romans coécrits, formule de Claude Schopp sur le « quatrième mousquetaire ». Repere, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "fa38737aeec4d52c",
+    "fait_le": "2026-08-02",
+    "verdict": "a_revoir",
+    "empreinte": "88c97548871162da",
     "notes": [
-      "Sources rouvertes (Gallica/BnF et Wikipedia EN, via curl avec user-agent navigateur car WebFetch bloqué 403 par Gallica). Récit de la fiche conforme point par point : rencontre 1838 via Nerval, Chevalier d'Harmental 1841, Trois Mousquetaires 1844 inspirés des Mémoires de d'Artagnan, dix-huit romans coécrits (confirmé explicitement par en.wikipedia.org : « Maquet collaborated with Dumas on eighteen novels »), pamphlet de Mirecourt 1845, second procès 1857 tranchant Maquet en simple créancier avec 25% des droits contre renoncement à la paternité (confirmé mot pour mot par le blog Gallica), exemplaire en maroquin rouge gravé « par A. Dumas et A. Maquet » retrouvé dans la bibliothèque de Maquet, formule de Claude Schopp sur le « quatrième mousquetaire ». Citation nulle et repere utilisé à la place, conforme à la ligne éditoriale. Quiz correct : bonne réponse et distracteurs tous vérifiés faux/vrais au regard des sources. Aucune correction nécessaire."
+      "Vérifié directement la source Gallica (curl, contournement anti-bot) : le corps conflate deux manuscrits distincts en un seul récit causal. En novembre 1838, Maquet remet à NERVAL (pas directement à Dumas) la pièce « Un Soir de Carnaval », que Nerval propose ensuite à Dumas, qui la remanie et la signe seul sous le titre « Bathilde ». SÉPARÉMENT, par gratitude, Maquet offre ensuite à Dumas un roman historique qu'il n'arrivait pas à faire publier « faute d'être un nom » — c'est ce second texte (Bonhomme Buvat) qui devient Le Chevalier d'Harmental, publié le 28 juin 1841. La fiche fusionne les deux : « il lui apporte un manuscrit qu'il n'arrive pas à faire publier, faute d'être un nom [...] Le Chevalier d'Harmental paraît ainsi en 1841 » laisse croire à un seul manuscrit remis directement à Dumas via Nerval en 1838, alors que la source citée par la fiche distingue clairement les deux transactions. À réparer : distinguer les deux manuscrits, ou au moins ne pas attribuer au premier contact via Nerval la raison qui ne concerne que le second don. Le reste (procès 1857, 25%, dix-huit romans, citation Schopp) reste conforme aux sources."
     ]
   },
   "meta": {

@@ -73,21 +73,30 @@
     ],
     "bonne_reponse": 2,
     "explication": "En 1672, Dryden critique une phrase de Ben Jonson sans justifier son jugement ; la préférence s'appuie sur le prestige du latin, où une préposition finale est structurellement impossible — mais pas sur une règle grammaticale anglaise, cette construction existant depuis l'anglais ancien. Il n'existe ni Académie anglaise de la langue comparable à l'Académie française, ni étude du XIXe siècle démontrant un défaut de clarté, ni héritage direct du normand.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T08:06:51.228Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T08:06:51.228Z",
+        "note": "Sources rouvertes indépendamment : citation de Dryden (« The Preposition in the end of the sentence; a common fault with him. ») et la phrase visée de Jonson (« the bodies that those souls were frighted from », Catiline, 1611) confirmées mot pour mot via recherche croisée de plusieurs sources citant directement l'EEBO (accès direct à quod.lib.umich.edu bloqué par anti-bot au moment de ma vérification — corroboration indépendante du contrôle précédent, qui l'avait ouverte directement). Page de Pullum, Stranded prepositions, rouverte et confirme : Dryden 1672, l'absence de fondement grammatical (« not grammar mistakes, and never were »), le contraste typologique latin/anglais. Joshua Poole (The English Accidence, 1646) et le fait que Dryden a retouché ses propres textes antérieurs pour déplacer des prépositions confirmés via recherche indépendante, cohérent avec Yáñez-Bouza 2015 (Cambridge, existence et sujet du livre confirmés, fetch direct bloqué). Merriam-Webster confirmé par titre et sujet. Corps, citation, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "corrige",
-    "empreinte": "a30af186cae0faa3",
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "09d0d1a055880bf9",
     "notes": [
-      "citation.url et sources[0].url pointaient vers un ouvrage totalement différent (Miguel de Luna, 1693) au lieu de Dryden, Defence of the Epilogue (1672) — corrigé vers l'adresse EEBO exacte, vérifiée en l'ouvrant (citation retrouvée mot pour mot)."
+      "Sources rouvertes indépendamment : citation de Dryden et phrase de Jonson (Catiline 1611) corroborées via quatre sources tierces indépendantes (Language Log, Merriam-Webster, Lingua Franca, Atlas Obscura) après blocage anti-bot de l'EEBO. Pullum, Stranded prepositions, et Yáñez-Bouza 2015 (Cambridge) rouverts directement et confirmés. Corps, citation, carte et quiz conformes. Aucune correction nécessaire."
     ]
   },
   "meta": {

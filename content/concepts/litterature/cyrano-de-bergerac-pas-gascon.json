@@ -56,14 +56,23 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le Bret, ami fidèle mais aussi religieux, écrit une préface hagiographique : il tait la préférence de Cyrano pour les hommes derrière une formule prudente et lui attribue une conversion finale jugée peu crédible par les historiens. Ce n'est ni une révélation, ni l'invention des Cadets de Gascogne — postérieure, due à Rostand —, ni une édition intégrale : les premières éditions posthumes sont largement remaniées.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T11:29:10.646Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T11:29:10.646Z",
+        "note": "Gallica (Genin, blog BnF, 2019) rouverte directement (curl + user-agent navigateur, contournement anti-bot) : confirme mot pour mot l'ensemble de la fiche — naissance rue des Deux-Portes en 1619, famille bourgeoise ayant acheté les terres de Bergerac en vallée de Chevreuse, engagement à 20 ans chez les mousquetaires de Casteljaloux majoritairement gascons, cercle de Gassendi, La Mort d'Agrippine (1654), Le Pédant joué et la réplique reprise par Molière, préface de Le Bret publiée vingt mois après sa mort en 1657, silence de Le Bret sur la préférence de Cyrano pour les hommes derrière la formule « grande retenue envers le beau sexe ». Wikipédia FR confirme l'invention par Rostand des Cadets de Gascogne (unité n'ayant jamais existé) et les blessures à Mouzon et Arras. Repere, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-02",

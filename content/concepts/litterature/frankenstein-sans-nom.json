@@ -63,21 +63,30 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le roman de 1818 ne nomme jamais la créature. C'est la pièce de Peggy Webling, montée en 1927, qui invente ce raccourci scénique ; le film Universal de 1931, qui s'en inspire, le popularise ensuite dans le monde entier. Ni les traducteurs ni Karloff n'en sont à l'origine — l'acteur a seulement hérité d'un nom déjà fixé par la scène.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T08:32:45.825Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T08:32:45.825Z",
+        "note": "British Library confirmée mot pour mot (« Frankenstein is the scientist's name, not — as is often supposed — the monster's »). Wikipedia « Peggy Webling » confirmée : création à Preston en décembre 1927, première fois que la créature est nommée Frankenstein, tournée avec Dracula puis Londres février 1930 (72 représentations), rachat des droits par Universal en avril 1931. Citation embarquée dans le corps (« Adam de tes œuvres ») confirmée authentique : chapitre 10, « I ought to be thy Adam ». Gutenberg (texte intégral) existe et correspond. Repere, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "46d2ea2aec5af276",
+    "fait_le": "2026-08-02",
+    "verdict": "a_revoir",
+    "empreinte": "8746464a9eefd515",
     "notes": [
-      "Sources rouvertes : British Library (Discovering Literature, Andrew Dickson) confirme que Frankenstein est le nom du savant et non de la créature, citation exacte. Wikipedia « Peggy Webling » confirme la pièce de 1927 à Preston, la tournée avec Dracula jusqu'à Londres 1930, et la filiation vers le scénario Universal 1931. Citation du roman « Adam de tes œuvres » vérifiée authentique (chapitre 10, discours de la créature à Victor). Repère, carte et quiz conformes aux sources ; distracteurs du quiz bien faux."
+      "Vérifié directement le texte intégral (Gutenberg pg84.txt, chapitre 10) : la phrase exacte est « I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed ». La fiche présente entre guillemets, comme citation directe, la formule « Adam de tes œuvres » — reformulation introuvable dans les traductions françaises attestées, qui rendent la phrase par « je devrais être ton Adam ». Il s'agit d'une citation fabriquée/paraphrasée présentée à tort comme un extrait exact, ce que la ligne éditoriale interdit explicitement. À réparer : soit remplacer par la traduction attestée « je devrais être ton Adam » en gardant les guillemets, soit retirer les guillemets et assumer la paraphrase. Le reste de la fiche (British Library, Peggy Webling/1927/Preston, repère, carte, quiz) a été revérifié et est conforme aux sources."
     ]
   },
   "meta": {

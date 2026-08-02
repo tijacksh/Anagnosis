@@ -12,13 +12,13 @@
   "citation": null,
   "repere": {
     "texte": "Le Portugal donne 987 km pour sa frontière avec l'Espagne, l'Espagne 1 214 km : 23 % d'écart sur la même ligne, faute d'unité de mesure commune.",
-    "source": "Richardson, « The Problem of Contiguity », General Systems Yearbook, 6, 1961, repris par Mandelbrot, Science, 1967",
-    "url": "https://users.math.yale.edu/~bbm3/web_pdfs/howLongIsTheCoastOfBritain.pdf"
+    "source": "Richardson, « Fractals », in The Collected Papers of Lewis Fry Richardson, vol. 1, Cambridge University Press, 1993, p. 45-46 (cité par Wikipédia, art. « Coastline paradox »)",
+    "url": "https://en.wikipedia.org/wiki/Coastline_paradox"
   },
   "carte": {
     "punch": "Lisbonne et Madrid ne s'accordent pas sur la longueur de leur frontière commune.",
     "idee": "987 km selon le Portugal, 1 214 selon l'Espagne. Aucun ne se trompe : plus l'unité de mesure est courte, plus une ligne côtière s'allonge, sans jamais converger. Mandelbrot en tirera en 1967 la notion de dimension fractale.",
-    "source_courte": "Mandelbrot, Science, 1967"
+    "source_courte": "Richardson 1993 ; Mandelbrot 1967"
   },
   "sources": [
     {
@@ -28,7 +28,7 @@
       "publication": "Science, 156 (3775)",
       "annee": 1967,
       "url": "https://www.science.org/doi/10.1126/science.156.3775.636",
-      "note": "p. 636-638. Reprend et réinterprète les relevés de Richardson."
+      "note": "p. 636-638. Article lu intégralement : donne D = 1,14 pour la frontière terrestre Espagne-Portugal (et D = 1,25 pour la côte ouest de Grande-Bretagne, D = 1,02 pour l'Afrique du Sud), à partir de la pente log-log des mesures de Richardson (sa fig. 17, reproduite en fig. 1 de l'article). Ne donne aucune longueur en kilomètres, pour aucune frontière."
     },
     {
       "type": "article",
@@ -36,15 +36,29 @@
       "titre": "The Problem of Contiguity: An Appendix to Statistics of Deadly Quarrels",
       "publication": "General Systems Yearbook, 6",
       "annee": 1961,
-      "note": "p. 139-187. Le volume n'est pas numérisé ; ses relevés sont repris intégralement par Mandelbrot (1967).",
+      "note": "p. 139-187. Le volume n'est pas numérisé ; c'est de là que vient l'alignement log-log (fig. 17) que Mandelbrot reprend en 1967 pour calculer les valeurs D. Les longueurs en kilomètres 987 km / 1 214 km ne viennent pas de ce texte : elles sont attribuées à un autre écrit de Richardson, publié à titre posthume en 1993 (voir la source suivante).",
       "url": "https://gauss.math.yale.edu/fractals/references/RefRichardson.html"
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Coastline paradox",
+      "publication": "Wikipédia (en anglais)",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Coastline_paradox",
+      "note": "Attribue les 987 km (Portugal) / 1 214 km (Espagne) à Richardson, « Fractals », in The Collected Papers of Lewis Fry Richardson, vol. 1, Cambridge University Press, 1993, p. 45-46 — un recueil posthume distinct de l'article de 1961 ci-dessus, et que Mandelbrot (1967) ne cite pas."
     }
   ],
   "pour_aller_plus_loin": [
     {
       "titre": "Mandelbrot (1967) — How Long Is the Coast of Britain?",
       "url": "https://users.math.yale.edu/~bbm3/web_pdfs/howLongIsTheCoastOfBritain.pdf",
-      "note": "En anglais, trois pages, mises en ligne par Mandelbrot lui-même."
+      "note": "En anglais, trois pages, mises en ligne par Mandelbrot lui-même. Donne les valeurs D, pas les longueurs en kilomètres."
+    },
+    {
+      "titre": "Coastline paradox — Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Coastline_paradox",
+      "note": "En anglais. Détaille l'origine des chiffres 987 km / 1 214 km chez Richardson (1993)."
     }
   ],
   "illustration": {
@@ -65,11 +79,11 @@
     "explication": "Chaque réduction de l'unité fait entrer dans le compte des baies, des criques puis des rochers que l'unité précédente sautait — et le processus ne s'arrête pas, si bien que la longueur diverge au lieu de converger. Ce n'est pas une imprécision : la mesure est exacte à chaque échelle, c'est la longueur qui n'est pas une propriété de la côte seule.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-07-31T00:00:00.000Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-02T11:39:37.779Z",
     "historique": [
       {
         "action": "valider",
@@ -86,6 +100,14 @@
         "par": "routine-controle",
         "le": "2026-07-31T00:00:00.000Z",
         "note": "Contrôle des sources : DOI 10.1126/science.156.3775.636 confirmé (CrossRef + résolution doi.org) pour l'article Mandelbrot, Science 156(3775), 1967, p. 636-638. Texte intégral lu (archive de la page Yale, inaccessible en direct depuis ce réseau mais authentifiée via web.archive.org) : confirme l'observation log-log de Richardson (sa Fig. 17), les valeurs D = 1,25 (côte ouest de Grande-Bretagne) et D = 1,02 (Afrique du Sud), et l'introduction du mot « fractale » huit ans plus tard, en 1975 (confirmé par ailleurs). La référence Richardson 1961 (General Systems Yearbook, 6, p. 139-187) est confirmée par la page de référence Yale, elle aussi authentifiée via web.archive.org. Point signalé : les chiffres 987 km (Portugal) / 1 214 km (Espagne) — au cœur de l'accroche, du repere et de la carte — ne figurent PAS dans l'article de Mandelbrot 1967 lu intégralement : celui-ci ne donne, pour la frontière Espagne-Portugal, qu'un D = 1,14, sans aucune longueur en km, et plus généralement aucune longueur en km n'apparaît dans tout l'article pour aucune frontière citée. Wikipédia (« Coastline paradox ») cite bien ces deux chiffres mais les attribue à Richardson lui-même (The Collected Papers of Lewis Fry Richardson, vol. 1, Cambridge University Press, 1993, p. 45-46), pas à Mandelbrot 1967. Le repere.url et le pour_aller_plus_loin pointent tous deux vers le PDF Mandelbrot, qui ne prouve donc pas le chiffre central de la fiche, et sources[1].note affirme à tort que Richardson est « repris intégralement par Mandelbrot (1967) » — seules les valeurs D le sont, pas un tableau de longueurs frontalières. Le chiffre semble exact (bien attesté par ailleurs) mais la fiche a besoin d'une source qui le prouve réellement avant revalidation."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-02T11:39:37.779Z",
+        "note": "Sources rouvertes : Mandelbrot, Science 1967 (DOI + texte intégral relu via un miroir PDF identique au scan JSTOR — gsp.humboldt.edu/OLM/courses/GSP_510/Articles/Mandelbrot1967.pdf) : confirme D=1,14 pour la frontière Espagne-Portugal, D=1,25 (côte ouest GB), D=1,02 (Afrique du Sud), D=1,15 (Allemagne 1899), D=1,13 (Australie), et l'absence totale de longueur en km dans tout l'article, pour toute frontière. Page de référence Richardson 1961 (gauss.math.yale.edu/fractals/references/RefRichardson.html) : inaccessible en direct depuis ce réseau (ECONNRESET répété), mais bibliographie recoupée via la liste de références de Mandelbrot lui-même (« L. F. Richardson, in General Systems Yearbook 6, 139 (1961) ») et plusieurs notices indépendantes ; déjà authentifiée par le contrôle précédent via web.archive.org. Wikipédia « Coastline paradox » (en.wikipedia.org/wiki/Coastline_paradox) ouverte et lue : confirme que 987 km (Portugal) / 1214 km (Espagne) sont attribués à Richardson, « Fractals », in The Collected Papers of Lewis Fry Richardson, vol. 1, Cambridge University Press, 1993, p. 45-46 — pas à Mandelbrot 1967. Recherche infructueuse d'un accès en ligne au livre de 1993 (Google Books, archive.org) : aucune version numérisée trouvée, Wikipédia reste la seule source ouvrable pour ce chiffre. Changé : repere.source/repere.url et carte.source_courte réattribués à Richardson 1993 (via Wikipédia) au lieu de Mandelbrot 1967 ; sources[0].note (Mandelbrot) réécrite pour dire précisément ce que l'article contient (D=1,14 etc., aucun km) ; sources[1].note (Richardson 1961) corrigée pour ne plus affirmer que ses relevés sont repris intégralement par Mandelbrot — seule la pente log-log/valeurs D le sont ; ajout de sources[2] (Wikipédia, Coastline paradox) qui porte la preuve du chiffre central, et d'une entrée Wikipédia dans pour_aller_plus_loin. Reste du texte revérifié : D=1,25/D=1,02 confirmés dans l'article, mot « fractale » confirmé introduit en 1975 dans Les objets fractals, corps (486 mots), accroche, quiz (bonne réponse et distracteurs) inchangés car déjà exacts. npm run validate et npm test passent sans erreur."
       }
     ]
   },
