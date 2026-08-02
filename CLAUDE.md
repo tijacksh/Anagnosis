@@ -39,6 +39,7 @@ npm run cible      # quelle discipline alimenter maintenant, et combien
 npm run acontroler # quelles fiches restent à relire au fond
 npm run areparer   # quelles fiches en retouche attendent d'être réparées
 npm run arelire    # quels brouillons sont prêts à être tranchés
+npm run asonoriser # quelles fiches publiables n'ont pas d'audio à jour
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
@@ -159,6 +160,28 @@ un troisième passage la revérifie avant qu'elle ne soit servie longtemps.
 
 Le cycle : produire (:04) → contrôler (:34) → réparer (:54), toutes les quatre heures ;
 relire une fois par jour, à 7 h 51.
+
+## Sonoriser les fiches
+
+`npm run asonoriser` dit quelles fiches publiables n'ont pas d'audio à jour, et
+`node src/cli.js sonoriser <id>` le produit — deux voix françaises, modèle `eleven_v3`,
+un master archivé et un dérivé AAC servi à l'app (`docs/decisions.md`, 2026-08-02).
+
+**« À jour » ne veut pas dire « présent ».** L'empreinte de contrôle ne couvre que le fond
+éditorial : elle ne sait rien de l'audio. Si l'on se contentait de vérifier l'existence du
+fichier, une fiche corrigée par `/reparer` continuerait de servir le son de l'ancien texte,
+sans que rien ne le signale — c'est le seul défaut de cette chaîne qui soit à la fois
+silencieux et durable. `audio/index.json` enregistre donc l'empreinte du texte **à partir
+duquel** chaque fichier a été produit, et une fiche dont l'empreinte a bougé repasse d'elle
+-même en production. Un test le verrouille (`test/audio.test.js`).
+
+**On ne régénère jamais sans raison.** Un second appel coûte des crédits *et* prend le
+risque que le modèle ait bougé entre-temps : la voix du catalogue changerait d'une fiche à
+l'autre, en silence. La commande est donc idempotente sur le texte, pas sur le fichier.
+
+`ffmpeg` est requis pour dériver le format de l'app. C'est un outil d'atelier, pas une
+dépendance du pipeline : le ré-encodage a lieu au moment de la production, jamais sur le
+NAS ni dans la chaîne de construction.
 
 ## Pièges déjà rencontrés
 

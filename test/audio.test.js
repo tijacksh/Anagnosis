@@ -1,0 +1,122 @@
+/**
+ * Ce qui empêche une fiche de mentir à l'oreille.
+ *
+ * L'empreinte de contrôle (`src/controle.js`) ne couvre que le fond éditorial : elle ne
+ * sait rien de l'audio. Une routine qui se contenterait de regarder si le fichier existe
+ * laisserait une fiche corrigée par `/reparer` servir le son de l'ancien texte —
+ * **et rien ne le signalerait**. Le lecteur entendrait une version que la fiche ne dit
+ * plus, jusqu'à ce que quelqu'un le remarque à l'écoute, s'il le remarque.
+ *
+ * C'est le seul défaut de cette chaîne qui soit à la fois silencieux et durable. Ces
+ * tests le verrouillent ; le reste du fichier compte moins.
+ */
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { aSonoriser, motif, aLire, VOIX, LIMITE_CARACTERES } from '../src/audio.js';
+import { empreinte } from '../src/controle.js';
+
+/** Une fiche publiable minimale. */
+function fiche(modifs = {}) {
+  return {
+    id: 'ant-test', statut: 'valide', discipline: 'anthropologie',
+    titre: 'Titre', accroche: 'Accroche', contenu_vulgarise: 'Corps',
+    sources: [{ titre: 'S', url: 'https://exemple.fr' }],
+    ...modifs,
+  };
+}
+
+/** Un index qui décrit exactement la fiche donnée, dans les deux voix. */
+function indexPour(f, modifs = {}) {
+  const voix = Object.fromEntries(VOIX.map((v) => [v.nom, {
+    fichier: `${f.id}--${v.nom}.m4a`, genre: v.genre,
+    sha256: 'a'.repeat(64), octets: 900_000, secondes: 200,
+  }]));
+  return { [f.id]: { empreinte: empreinte(f), modele: 'eleven_v3', voix, ...modifs } };
+}
+
+test('une fiche dont l’audio décrit le texte courant est à jour', () => {
+  const f = fiche();
+  assert.equal(aSonoriser(f, indexPour(f)), false);
+});
+
+test('une fiche jamais produite est à sonoriser', () => {
+  assert.equal(aSonoriser(fiche(), {}), true);
+});
+
+test('un texte corrigé après coup fait repasser l’audio en production', () => {
+  // Le cœur du fichier. L'index décrit l'ancien texte ; la fiche a été réparée depuis.
+  // Sans cette détection, le son continuerait d'affirmer ce que la fiche a rétracté.
+  const avant = fiche();
+  const index = indexPour(avant);
+  const apres = fiche({ contenu_vulgarise: 'Corps corrigé après un signalement' });
+
+  assert.notEqual(empreinte(apres), empreinte(avant), 'le scénario suppose un texte modifié');
+  assert.equal(aSonoriser(apres, index), true);
+  assert.match(motif(apres, index), /modifié/);
+});
+
+test('une correction qui ne touche pas au fond ne redéclenche rien', () => {
+  // `empreinte` ne couvre pas les champs de service : y toucher ne doit pas coûter
+  // 3 200 crédits et une voix potentiellement différente.
+  const f = fiche();
+  const index = indexPour(f);
+  const servie = fiche({ statut: 'publie', meta: { vu: 12 } });
+  assert.equal(aSonoriser(servie, index), false);
+});
+
+test('une seule voix produite ne suffit pas', () => {
+  const f = fiche();
+  const index = indexPour(f);
+  delete index[f.id].voix[VOIX[1].nom];
+  assert.equal(aSonoriser(f, index), true);
+  assert.match(motif(f, index), new RegExp(VOIX[1].nom));
+});
+
+test('un brouillon n’est pas sonorisé', () => {
+  // Produire l'audio d'une fiche qui peut encore être rejetée, c'est payer pour rien.
+  const f = fiche({ statut: 'brouillon' });
+  assert.equal(aSonoriser(f, {}), false);
+});
+
+test('une fiche sortie de circulation n’est pas sonorisée', () => {
+  for (const statut of ['en_retouche', 'rejete']) {
+    assert.equal(aSonoriser(fiche({ statut }), {}), false, statut);
+  }
+});
+
+test('le texte lu ne prononce ni les dièses ni les astérisques', () => {
+  const lu = aLire(fiche({ contenu_vulgarise: '## Ce qu’il soutenait\n\nUn **point** net.' }));
+  assert.doesNotMatch(lu, /[#*]/);
+  assert.match(lu, /Ce qu’il soutenait/);
+  assert.match(lu, /Un point net/);
+});
+
+test('les blocs restent séparés, parce que la pause en dépend', () => {
+  // C'est cette ligne vide qui fait entendre qu'un titre de section commence — le point
+  // que la relecture à l'oreille a explicitement validé.
+  const lu = aLire(fiche({ contenu_vulgarise: '## Section\n\nCorps.' }));
+  assert.match(lu, /\n\n/);
+});
+
+test('la citation est annoncée, le repère ne l’est pas', () => {
+  const avecCitation = aLire(fiche({ citation: { texte: 'Mot.', auteur: 'Untel' } }));
+  assert.match(avecCitation, /Citation\. Mot\. Untel\./);
+
+  // Un repère n'est pas une parole rapportée : l'annoncer comme une citation
+  // fabriquerait exactement ce que la ligne éditoriale interdit.
+  const avecRepere = aLire(fiche({ repere: { texte: 'Un fait daté.' } }));
+  assert.doesNotMatch(avecRepere, /Citation/);
+  assert.match(avecRepere, /Un fait daté\./);
+});
+
+test('aucune fiche du dépôt ne dépasse la limite d’une requête', async () => {
+  // Le choix de `eleven_v3` tient à ce que chaque fiche entre en une seule requête :
+  // il ne sait pas recoudre la prosodie entre deux morceaux. Si une fiche franchit la
+  // limite un jour, c'est la fiche qu'il faut raccourcir, pas le son qu'il faut couper.
+  const { loadAll } = await import('../src/store.js');
+  const trop = (await loadAll())
+    .filter((f) => ['valide', 'publie'].includes(f.statut))
+    .map((f) => ({ id: f.id, n: aLire(f).length }))
+    .filter((f) => f.n > LIMITE_CARACTERES);
+  assert.deepEqual(trop, []);
+});

@@ -18,6 +18,7 @@ import { cible as choisirCible, afficher } from './cible.js';
 import { file as fileControle, afficher as afficherControle, marquer, reparation } from './controle.js';
 import { file as fileReparer, afficher as afficherReparer } from './reparer.js';
 import { file as fileRelire, afficher as afficherRelire, relecture } from './relire.js';
+import { file as fileAudio, afficher as afficherAudio, sonoriser } from './audio.js';
 import { fichesPubliables, serialiser, retirees } from './publier.js';
 
 const C = {
@@ -150,6 +151,7 @@ const commandes = {
   cible: cmdCible, acontroler: cmdAControler, controle: cmdControle,
   areparer: cmdAReparer, reparation: cmdReparation,
   arelire: cmdARelire, relecture: cmdRelecture,
+  asonoriser: cmdASonoriser, sonoriser: cmdSonoriser,
 };
 const commande = process.argv[2];
 
@@ -177,6 +179,60 @@ async function cmdAReparer() {
 /** Quels brouillons sont décidables maintenant ? La décision est dans `src/relire.js`. */
 async function cmdARelire() {
   afficherRelire(await fileRelire());
+}
+
+/** Quelles fiches n'ont pas d'audio à jour ? La décision est dans `src/audio.js`. */
+async function cmdASonoriser() {
+  afficherAudio(await fileAudio());
+}
+
+/**
+ * Produit l'audio : `sonoriser <id>`, ou `sonoriser --lot` pour tout le passage.
+ *
+ * Chaque appel coûte des crédits, donc rien ne part sans qu'on l'ait demandé — et la
+ * commande dit ce qu'elle va dépenser avant de le dépenser.
+ */
+async function cmdSonoriser() {
+  const args = process.argv.slice(3);
+  const force = args.includes('--force');
+  const cibles = args.filter((a) => !a.startsWith('--'));
+  const lot = args.includes('--lot');
+
+  if (!cibles.length && !lot) {
+    console.error('Usage : node src/cli.js sonoriser <id…> | --lot [--force]');
+    return 2;
+  }
+
+  const f = await fileAudio();
+  const fiches = lot
+    ? f.lot.map((e) => e.fiche)
+    : (await loadAll()).filter((x) => cibles.includes(x.id));
+
+  const introuvables = cibles.filter((id) => !fiches.some((x) => x.id === id));
+  if (introuvables.length) {
+    console.error(c('red', `fiche(s) introuvable(s) : ${introuvables.join(', ')}`));
+    return 1;
+  }
+  if (!fiches.length) {
+    console.log('Rien à produire.');
+    return 0;
+  }
+
+  let echecs = 0;
+  for (const fiche of fiches) {
+    try {
+      const entree = await sonoriser(fiche, { force });
+      const voix = Object.entries(entree.voix)
+        .map(([nom, v]) => `${nom} ${Math.floor(v.secondes / 60)}m${String(v.secondes % 60).padStart(2, '0')}`)
+        .join(' · ');
+      console.log(c('green', `  ✓ ${fiche.id}  ${voix}`));
+    } catch (e) {
+      // Une fiche en échec n'arrête pas les autres : ce qui est produit est acquis.
+      console.error(c('red', `  ✗ ${fiche.id}  ${e.message}`));
+      echecs += 1;
+    }
+  }
+  return echecs ? 1 : 0;
 }
 
 /** Pose la décision d'une relecture : `relecture <id> <statut> "note"`. */

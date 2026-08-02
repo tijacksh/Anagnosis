@@ -32,3 +32,11 @@ signature-privee*
 
 # Les extraits de comparaison de voix : des fichiers audio de test, jamais du contenu.
 comparaison-voix/
+
+# L'audio produit : lourd, et reproductible depuis l'index. Le master fait quatre fois
+# le poids du dérivé pour une différence inaudible sur de la parole — il reste archivé
+# hors dépôt, c'est lui qui alimentera le podcast.
+# `audio/index.json` n'est PAS ignoré : c'est lui qui porte les empreintes, et sans lui
+# la chaîne de construction ne saurait pas quelle adresse écrire dans le manifeste.
+audio/masters/
+audio/app/

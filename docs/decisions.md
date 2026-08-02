@@ -74,7 +74,7 @@ empreinte que la signature couvre. C'est la règle de `src/publier.js` appliqué
 l'audio — une seule projection, pas deux.
 
 **À surveiller — le coût du rattrapage.** Mesuré : ~0,55 crédit par caractère. Le
-corpus actuel (122 fiches, 361 163 caractères) en **deux voix** demande ~397 000
+corpus publiable (140 fiches, ~412 000 caractères) en **deux voix** demande ~453 000
 crédits, soit un mois de Pro (600 000 crédits, 99 $). Le régime de croisière — une
 fiche par jour, deux voix — tient à ~96 000 crédits/mois, dans le Creator à 22 $.
 Rattraper d'abord, redescendre ensuite.
