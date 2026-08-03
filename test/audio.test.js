@@ -12,7 +12,7 @@
  */
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { aSonoriser, motif, aLire, VOIX, LIMITE_CARACTERES } from '../src/audio.js';
+import { aSonoriser, motif, aLire, VOIX, LIMITE_CARACTERES, ALLURE } from '../src/audio.js';
 import { empreinte } from '../src/controle.js';
 
 /** Une fiche publiable minimale. */
@@ -31,7 +31,9 @@ function indexPour(f, modifs = {}) {
     fichier: `${f.id}--${v.nom}.m4a`, genre: v.genre,
     sha256: 'a'.repeat(64), octets: 900_000, secondes: 200,
   }]));
-  return { [f.id]: { empreinte: empreinte(f), modele: 'eleven_v3', voix, ...modifs } };
+  return {
+    [f.id]: { empreinte: empreinte(f), modele: 'eleven_v3', allure: ALLURE, voix, ...modifs },
+  };
 }
 
 test('une fiche dont l’audio décrit le texte courant est à jour', () => {
@@ -62,6 +64,15 @@ test('une correction qui ne touche pas au fond ne redéclenche rien', () => {
   const index = indexPour(f);
   const servie = fiche({ statut: 'publie', meta: { vu: 12 } });
   assert.equal(aSonoriser(servie, index), false);
+});
+
+test('une allure de référence changée refait tout le catalogue', () => {
+  // Une fiche à l'ancienne cadence au milieu des autres s'entend immédiatement : c'est
+  // une incohérence de catalogue, pas une préférence de lecteur.
+  const f = fiche();
+  const ancien = indexPour(f, { allure: 1 });
+  assert.equal(aSonoriser(f, ancien), true);
+  assert.match(motif(f, ancien), new RegExp(String(ALLURE)));
 });
 
 test('une seule voix produite ne suffit pas', () => {
@@ -107,6 +118,29 @@ test('la citation est annoncée, le repère ne l’est pas', () => {
   const avecRepere = aLire(fiche({ repere: { texte: 'Un fait daté.' } }));
   assert.doesNotMatch(avecRepere, /Citation/);
   assert.match(avecRepere, /Un fait daté\./);
+});
+
+test('aucun marqueur de mise en forme ne part à la synthèse', () => {
+  const lu = aLire(fiche({
+    titre: 'Un *titre* en italique',
+    contenu_vulgarise: '## Section\n\nUn **gras**, une *italique*, un `code`.',
+    repere: { texte: 'Dans *Les Rites de passage*, 1909.' },
+  }));
+  assert.doesNotMatch(lu, /[*_`]/);
+  // Sans espace inséré : « l'*italique* » doit rester un seul mot.
+  assert.match(lu, /une italique/);
+});
+
+test('aucune fiche du dépôt ne laisse passer de marqueur', async () => {
+  // Le cas s'est produit : 88 fiches sur 162 partaient avec les astérisques de l'italique
+  // autour des titres d'ouvrage. Sur le corpus entier, c'était un demi-million de crédits
+  // dépensés pour un catalogue à refaire.
+  const { loadAll } = await import('../src/store.js');
+  const fautives = (await loadAll())
+    .filter((f) => ['valide', 'publie'].includes(f.statut))
+    .filter((f) => /[*_`]/.test(aLire(f)))
+    .map((f) => f.id);
+  assert.deepEqual(fautives, []);
 });
 
 test('aucune fiche du dépôt ne dépasse la limite d’une requête', async () => {

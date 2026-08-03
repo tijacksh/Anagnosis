@@ -39,7 +39,7 @@
  */
 import { createHash } from 'node:crypto';
 import { execFile } from 'node:child_process';
-import { mkdir, readFile, writeFile, stat } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, unlink } from 'node:fs/promises';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
@@ -84,6 +84,25 @@ export const LIMITE_CARACTERES = 5000;
 const FORMAT_MASTER = 'mp3_44100_128';
 
 /**
+ * L'allure de référence, appliquée à la production.
+ *
+ * Les deux voix lisent naturellement à 120 et 131 mots par minute — la bande du discours
+ * structuré à pauses marquées, nettement sous la norme du livre audio (150-160). C'est
+ * juste pour de l'exposition, et trop lent pour qui écoute des podcasts. À 1,25× on
+ * rejoint exactement cette norme.
+ *
+ * **Pourquoi au ré-encodage et non à la génération.** `voice_settings.speed` existe bien
+ * dans l'API, mais `eleven_v3` ne l'honore pas : mesuré, deux appels au même texte à 1,0
+ * et à 1,25 rendent des fichiers de durée identique à la milliseconde. On applique donc
+ * `atempo`, qui étire le temps sans toucher à la hauteur de voix.
+ *
+ * **Elle est cuite dans le fichier**, master compris, pour que le podcast ait la même
+ * allure que l'app. Le lecteur garde par-dessus son réglage 1× / 1,25× / 1,5×, qui part
+ * désormais de cette référence-là.
+ */
+export const ALLURE = 1.25;
+
+/**
  * Combien de fiches par passage.
  *
  * Une fiche en deux voix coûte ~3 200 crédits. Le garde-fou n'est pas le prix mais la
@@ -99,17 +118,33 @@ export const PAR_PASSAGE = 8;
  * un titre de section, et c'est le point que la relecture à l'oreille a validé.
  */
 export function aLire(fiche) {
-  const morceaux = [fiche.titre];
+  const morceaux = [nettoyer(fiche.titre)];
   for (const ligne of (fiche.contenu_vulgarise ?? '').split('\n')) {
-    const nette = ligne.replace(/^##\s*/, '').replace(/\*\*/g, '').trim();
+    const nette = nettoyer(ligne.replace(/^##\s*/, ''));
     if (nette) morceaux.push(nette);
   }
   if (fiche.citation) {
-    morceaux.push(`Citation. ${fiche.citation.texte} ${fiche.citation.auteur}.`);
+    morceaux.push(nettoyer(`Citation. ${fiche.citation.texte} ${fiche.citation.auteur}.`));
   } else if (fiche.repere) {
-    morceaux.push(fiche.repere.texte);
+    morceaux.push(nettoyer(fiche.repere.texte));
   }
   return morceaux.join('\n\n');
+}
+
+/**
+ * Retire les marques de mise en forme, **sans insérer d'espace**.
+ *
+ * Les doubles astérisques du gras étaient bien retirés, les simples de l'italique non :
+ * 88 fiches sur 162 partaient donc à la synthèse avec leurs étoiles autour des titres
+ * d'ouvrage — « l'astérisque Essai sur le don astérisque ». Trouvé sur la fiche témoin,
+ * avant la génération du corpus ; sur les 162 fiches, c'était un demi-million de crédits
+ * dépensés pour un catalogue à refaire.
+ *
+ * Pas d'espace en remplacement, pour la même raison que `motsDe` (`src/store.js`) :
+ * « l'*italique* » deviendrait deux mots, et la synthèse marquerait une coupure au milieu.
+ */
+function nettoyer(texte = '') {
+  return texte.replace(/[*_`]/g, '').trim();
 }
 
 /** L'index, ou un index vide s'il n'existe pas encore. */
@@ -139,6 +174,9 @@ export function aSonoriser(fiche, index) {
   const entree = index[fiche.id];
   if (!entree) return true;
   if (entree.empreinte !== empreinte(fiche)) return true;
+  // Une allure de référence changée rend tout le catalogue incohérent : une fiche à
+  // l'ancienne cadence au milieu des autres s'entend immédiatement.
+  if (entree.allure !== ALLURE) return true;
   return VOIX.some((v) => !entree.voix?.[v.nom]);
 }
 
@@ -147,6 +185,7 @@ export function motif(fiche, index) {
   const entree = index[fiche.id];
   if (!entree) return 'jamais produit';
   if (entree.empreinte !== empreinte(fiche)) return 'texte modifié depuis';
+  if (entree.allure !== ALLURE) return `produit à ${entree.allure ?? 1}× au lieu de ${ALLURE}×`;
   const manquantes = VOIX.filter((v) => !entree.voix?.[v.nom]).map((v) => v.nom);
   return `voix manquante : ${manquantes.join(', ')}`;
 }
@@ -172,7 +211,15 @@ export async function file() {
   };
 }
 
-/** Un appel à ElevenLabs. Renvoie les octets du master. */
+/**
+ * Un appel à ElevenLabs. Renvoie les octets **et** l'horodatage de chaque caractère.
+ *
+ * L'endpoint `/with-timestamps` coûte le même nombre de crédits que l'ordinaire et rend en
+ * plus l'instant où chaque caractère est prononcé. On le prend systématiquement : sans lui,
+ * chapitrer une fiche supposerait de deviner les frontières au prorata des caractères, ce
+ * qui suppose un débit constant que la voix n'a pas. Et surtout, s'en apercevoir plus tard
+ * coûterait une seconde génération de tout le corpus — un demi-million de crédits.
+ */
 async function synthetiser(texte, voix, cle) {
   if (texte.length > LIMITE_CARACTERES) {
     // Découper reviendrait à recoudre la prosodie, ce que v3 ne sait pas faire. Mieux
@@ -181,17 +228,46 @@ async function synthetiser(texte, voix, cle) {
       + ' pour ce modèle. Raccourcir la fiche plutôt que de découper le son.');
   }
   const r = await fetch(
-    `https://api.elevenlabs.io/v1/text-to-speech/${voix.id}?output_format=${FORMAT_MASTER}`, {
+    `https://api.elevenlabs.io/v1/text-to-speech/${voix.id}/with-timestamps`
+    + `?output_format=${FORMAT_MASTER}`, {
       method: 'POST',
       headers: { 'xi-api-key': cle, 'content-type': 'application/json' },
       body: JSON.stringify({ text: texte, model_id: MODELE }),
     });
   if (!r.ok) throw new Error(`ElevenLabs ${r.status} — ${(await r.text()).slice(0, 200)}`);
-  return Buffer.from(await r.arrayBuffer());
+
+  const rendu = await r.json();
+  if (!rendu.audio_base64) throw new Error('réponse sans audio');
+  return {
+    octets: Buffer.from(rendu.audio_base64, 'base64'),
+    alignement: rendu.alignment ?? rendu.normalized_alignment ?? null,
+  };
 }
 
 /**
- * Le format servi à l'app : AAC 32 kbit/s mono, ~1 Mo la fiche.
+ * Écrit le master à l'allure de référence.
+ *
+ * `atempo` étire le temps sans toucher à la hauteur de voix — c'est le filtre prévu pour
+ * ça. On le pose ici et non à la dérivation pour que le master et le fichier de l'app
+ * aient la même allure : le master alimentera le podcast, et deux podcasts qui n'ont pas
+ * le même débit que l'app seraient deux produits différents.
+ */
+async function ecrireMaster(brut, cible) {
+  const temporaire = `${cible}.brut.mp3`;
+  await writeFile(temporaire, brut);
+  try {
+    await executer('ffmpeg', [
+      '-loglevel', 'error', '-y', '-i', temporaire,
+      '-filter:a', `atempo=${ALLURE}`, '-c:a', 'libmp3lame', '-b:a', '128k', '-ac', '1', cible,
+    ]);
+  } finally {
+    // Même en cas d'échec : un brut qui traîne serait pris pour un master au passage suivant.
+    await unlink(temporaire).catch(() => {});
+  }
+}
+
+/**
+ * Le format servi à l'app : AAC 32 kbit/s mono, ~900 Ko la fiche.
  *
  * Le master fait quatre fois ce poids pour une différence que personne n'entend sur de
  * la parole, dans des écouteurs, dans le métro. Il reste archivé pour le podcast, où le
@@ -202,6 +278,35 @@ async function deriver(master, cible) {
     '-loglevel', 'error', '-y', '-i', master,
     '-ac', '1', '-c:a', 'aac', '-b:a', '32k', cible,
   ]);
+}
+
+/**
+ * Les frontières de passage, en secondes, dans le fichier **accéléré**.
+ *
+ * L'alignement rendu par l'API porte sur l'audio d'origine ; le master est étiré de
+ * `ALLURE`, donc chaque instant se divise d'autant. C'est exact, pas approché.
+ *
+ * On repère chaque morceau par sa position en caractères dans le texte prononcé : les
+ * morceaux sont justement les blocs séparés par une ligne vide, donc leurs débuts se
+ * retrouvent sans ambiguïté.
+ */
+function chapitres(texte, alignement) {
+  if (!alignement?.character_start_times_seconds) return null;
+  const debuts = alignement.character_start_times_seconds;
+  const blocs = texte.split('\n\n');
+
+  const sortie = [];
+  let curseur = 0;
+  for (const bloc of blocs) {
+    const position = texte.indexOf(bloc, curseur);
+    if (position < 0) continue;
+    curseur = position + bloc.length;
+    const t = debuts[Math.min(position, debuts.length - 1)];
+    if (typeof t === 'number') {
+      sortie.push({ debut: Math.round((t / ALLURE) * 100) / 100, texte: bloc.slice(0, 70) });
+    }
+  }
+  return sortie.length ? sortie : null;
 }
 
 /** La durée réelle du fichier produit, pour que l'app puisse l'annoncer avant de lire. */
@@ -251,22 +356,25 @@ export async function sonoriser(fiche, { cle = process.env[CLE_ENV], force = fal
     }
     const master = path.join(MASTERS, `${fiche.id}--${v.nom}.mp3`);
     const derive = path.join(DERIVES, `${fiche.id}--${v.nom}.m4a`);
-    await writeFile(master, await synthetiser(texte, v, cle));
+    const { octets: brut, alignement } = await synthetiser(texte, v, cle);
+    await ecrireMaster(brut, master);
     await deriver(master, derive);
 
-    const octets = await readFile(derive);
+    const contenu = await readFile(derive);
     voix[v.nom] = {
       fichier: path.basename(derive),
       genre: v.genre,
-      sha256: createHash('sha256').update(octets).digest('hex'),
-      octets: octets.length,
+      sha256: createHash('sha256').update(contenu).digest('hex'),
+      octets: contenu.length,
       secondes: await secondes(derive),
+      chapitres: chapitres(texte, alignement),
     };
   }
 
   index[fiche.id] = {
     empreinte: marque,
     modele: MODELE,
+    allure: ALLURE,
     caracteres: texte.length,
     produit_le: new Date().toISOString(),
     voix,
