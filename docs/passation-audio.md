@@ -11,8 +11,10 @@ La décision de fond est dans `docs/decisions.md`, entrée **2026-08-02 — L'é
 | Modèle | **`eleven_v3`** — le seul à honorer un dictionnaire IPA |
 | Voix femme | **Helene** — *A Warm French Documentary* · `a2NqrzzRklNWkb04aqW1` |
 | Voix homme | **Jerome** — *French Narrator & Reflective Podcast* · `TES2Z4FdTbwd5F5uHmLW` |
-| Master archivé | MP3 44,1 kHz mono **128 kbit/s** (~3,3 Mo la fiche) |
-| Dérivé servi | AAC mono **32 kbit/s** (~900 Ko la fiche) |
+| Allure | **1,25×** de la lecture naturelle, cuite dans le fichier |
+| Master archivé | MP3 44,1 kHz mono **128 kbit/s** (~2,5 Mo la fiche) |
+| Dérivé servi | AAC mono **32 kbit/s** (~750 Ko la fiche) |
+| Horodatage | `/with-timestamps`, systématiquement |
 | Hébergement | **Cloudflare R2** — pas Netlify (voir plus bas) |
 
 **Pourquoi pas OpenAI, malgré un tarif inférieur** : aucun moyen de figer une
@@ -24,6 +26,40 @@ décrédibilise une fiche dont tout le propos est l'exactitude.
 limite est de 5 000 caractères, la plus longue fiche du corpus en fait 3 874. Une fiche
 tient donc toujours en **une seule requête**, et il n'y a jamais rien à recoudre. Un test
 le verrouille (`test/audio.test.js`).
+
+## L'allure : 1,25×, et pourquoi elle est cuite dans le fichier
+
+Les deux voix lisent naturellement à **120 et 131 mots par minute** — la bande du discours
+structuré à pauses marquées, nettement sous la norme du livre audio (150-160). C'est juste
+pour de l'exposition, et trop lent pour qui écoute des podcasts. À 1,25× on rejoint
+exactement cette norme.
+
+**`voice_settings.speed` ne sert à rien ici.** Le paramètre existe dans l'API (0,25 à 4,0)
+mais `eleven_v3` ne l'honore pas : mesuré, deux appels au même texte à 1,0 et à 1,25 rendent
+des fichiers de durée **identique à la milliseconde**. Ne pas perdre de temps à réessayer.
+
+C'est donc `ffmpeg -filter:a atempo=1.25` qui s'en charge, au moment d'écrire le master —
+il étire le temps sans toucher à la hauteur de voix. L'accélération est appliquée **au
+master comme au dérivé** : le master alimentera le podcast, et un podcast qui n'aurait pas
+la même allure que l'app serait un autre produit.
+
+L'index enregistre `allure`, et **une allure changée refait tout le catalogue** : une fiche
+à l'ancienne cadence au milieu des autres s'entend immédiatement. Le réglage 1× / 1,25× /
+1,5× du lecteur part désormais de cette référence-là, pas du naturel.
+
+## Les horodatages : à prendre dès le premier appel
+
+`/with-timestamps` coûte **le même nombre de crédits** que l'endpoint ordinaire et rend en
+plus l'instant où chaque caractère est prononcé. On le prend systématiquement, et l'index
+range les frontières de passage sous `voix.<nom>.chapitres`.
+
+La raison est économique autant que technique : deviner les frontières au prorata des
+caractères supposerait un débit constant que la voix n'a pas, et s'apercevoir plus tard
+qu'on veut les vraies coûterait **une seconde génération du corpus entier** — un demi-million
+de crédits. Les instants sont divisés par `ALLURE`, puisque l'alignement porte sur l'audio
+avant étirement.
+
+L'app ne s'en sert pas encore : le chapitrage viendra quand le manifeste portera ces données.
 
 ## Les commandes
 
@@ -102,6 +138,27 @@ rend un changement d'hébergeur invisible aux versions déjà installées — m�
 **L'audio ne doit pas bloquer l'éditorial.** Une fiche sans audio reste **validée mais non
 publiée**, jamais dévalidée : si le fournisseur tombe ou si la clé expire, aucun travail de
 relecture n'est perdu.
+
+**Une voix produite, ou rien — il n'y a pas de troisième niveau.** L'app a lu les fiches
+avec la synthèse de l'appareil pendant un temps ; le moteur a été retiré. Le lecteur entend
+une machine dès la première phrase, ce qu'aucun réglage ne rattrape, et il en conclut que
+l'écoute est mauvaise plutôt qu'elle n'est pas encore prête. Une fiche sans voix produite
+l'annonce désormais (« AUDIO PROCHAINEMENT DISPONIBLE ») et le bouton ne fait rien d'autre.
+
+Conséquence directe pour la production : **chaque fiche sans audio est une fiche muette**
+dans l'app. Ce n'est plus une dégradation discrète, c'est un manque visible — ce qui est
+voulu, et ce qui donne le rythme au rattrapage.
+
+## Un piège écarté, et sa vraie portée
+
+`aLire` ne retirait que les doubles astérisques du gras, pas les simples de l'italique : 88
+fiches sur 162 partaient à la génération avec leurs étoiles autour des titres d'ouvrage.
+C'est corrigé, et deux tests le verrouillent dont un qui balaie tout le dépôt.
+
+**À l'écoute, ElevenLabs les ignorait** — vérifié sur *Gedankenlosigkeit*, prononcé sans
+étoile. Ce n'était donc pas un défaut audible, seulement du texte parasite envoyé au modèle.
+La correction reste juste — on n'envoie pas de balisage à une synthèse, et rien ne garantit
+qu'un autre modèle l'ignorera aussi bien — mais elle ne justifiait pas de tout refaire.
 
 ## Pourquoi pas Netlify pour l'audio
 
