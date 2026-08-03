@@ -76,7 +76,107 @@ function corpus() {
   const rnd = graine(choisies.slice().sort().join('|'));
   const c = liste.slice();
   for (let i = c.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [c[i], c[j]] = [c[j], c[i]]; }
-  return c;
+  return repartir(c);
+}
+
+/**
+ * Étale les disciplines dans le temps, sans toucher au battage.
+ *
+ * Le hasard fait des paquets, et le calendrier les montre : deux ou trois fiches de la
+ * même discipline d'affilée arrivent souvent, et sur une grille où chaque jour porte
+ * l'encre de sa discipline, une semaine entière peut virer à une seule couleur.
+ *
+ * La passe est séparée du battage, volontairement : `graine()` est un contrat partagé
+ * avec le client iOS, figé des deux côtés par un test doré. On réordonne son résultat,
+ * on ne tire rien de neuf, et le résultat reste donc déterministe.
+ *
+ * Chaque discipline est étalée sur toute la longueur, à son propre pas : la k-ième fiche
+ * d'une discipline qui en compte t est placée à (k + ½) / t de la course, et le tout est
+ * trié là-dessus. Une discipline à trente fiches revient tous les trois jours, une à
+ * trois fiches revient au premier quart, au milieu et au dernier quart — mais elle
+ * revient, ce qui est le point. Servir à chaque pas « la plus fournie » donnait bien
+ * l'alternance, mais reléguait les petites disciplines en fin de suite.
+ *
+ * L'ordre *à l'intérieur* d'une discipline reste celui du battage : c'est là que vit le
+ * hasard, et c'est le seul endroit où il compte pour le lecteur.
+ */
+function repartir(liste) {
+  if (liste.length <= 2) return liste;
+  const totaux = new Map();
+  const ordre = [];
+  for (const f of liste) {
+    if (!totaux.has(f.discipline)) { totaux.set(f.discipline, 0); ordre.push(f.discipline); }
+    totaux.set(f.discipline, totaux.get(f.discipline) + 1);
+  }
+  if (ordre.length < 2) return liste;
+
+  const vues = new Map();
+  const places = liste.map((f) => {
+    const k = vues.get(f.discipline) || 0;
+    vues.set(f.discipline, k + 1);
+    return { f, position: (k + 0.5) / totaux.get(f.discipline),
+             rang: ordre.indexOf(f.discipline), k };
+  });
+  // Départage complet : une suite qui dépend de la stabilité du tri ne serait pas
+  // reproductible d'un moteur à l'autre.
+  places.sort((a, b) => (a.position - b.position) || (a.rang - b.rang) || (a.k - b.k));
+
+  return recoudre(desserrer(places.map((p) => p.f)));
+}
+
+/**
+ * Écarte les rares voisins de même discipline que le pas de course laisse passer : on
+ * échange le fautif avec le voisin le plus proche, en avant d'abord, qui ne crée de
+ * doublon ni à sa place ni à celle qu'il libère.
+ */
+function desserrer(s) {
+  const n = s.length;
+  if (n <= 2) return s;
+  const valide = (i, j) => {
+    const d = (p) => (p === i ? s[j].discipline : p === j ? s[i].discipline : s[p].discipline);
+    const net = (p) => (p === 0 || d(p) !== d(p - 1)) && (p === n - 1 || d(p) !== d(p + 1));
+    return net(i) && net(j);
+  };
+  for (let i = 1; i < n; i++) {
+    if (s[i].discipline !== s[i - 1].discipline) continue;
+    let cible = -1;
+    for (let j = i + 1; j < n && cible < 0; j++) if (valide(i, j)) cible = j;
+    for (let h = i - 2; h >= 0 && cible < 0; h--) if (valide(i, h)) cible = h;
+    if (cible >= 0) [s[i], s[cible]] = [s[cible], s[i]];
+  }
+  return s;
+}
+
+/**
+ * Défait la couture de la boucle : la suite se répète une fois épuisée, donc la dernière
+ * fiche est voisine de la première.
+ *
+ * Deux moyens, dans cet ordre. L'échange ne déplace rien d'autre, on l'essaie d'abord ;
+ * mais il échoue précisément dans le cas le plus courant — trois disciplines de tailles
+ * voisines, où la suite est presque une rotation et où chaque candidat est encadré par les
+ * deux autres disciplines. Le déplacement en fin de suite y arrive, au prix d'un décalage
+ * d'un cran. Si aucun ne marche, on laisse : la répartition était déjà au mieux.
+ */
+function recoudre(s) {
+  const n = s.length;
+  if (n <= 2 || s[n - 1].discipline !== s[0].discipline) return s;
+  const fin = s[n - 1].discipline;
+  for (let j = 1; j < n - 1; j++) {
+    const d = s[j].discipline;
+    if (d === fin || d === s[n - 2].discipline) continue;
+    if (s[j - 1].discipline === fin || s[j + 1].discipline === fin) continue;
+    [s[j], s[n - 1]] = [s[n - 1], s[j]];
+    return s;
+  }
+  // La fiche j part à la fin, et ses deux voisins se retrouvent côte à côte : il faut donc
+  // qu'ils diffèrent. On cherche au plus près de la fin, pour décaler le moins de monde.
+  for (let j = n - 2; j >= 1; j--) {
+    if (s[j].discipline === fin) continue;
+    if (s[j - 1].discipline === s[j + 1].discipline) continue;
+    s.push(s.splice(j, 1)[0]);
+    return s;
+  }
+  return s;
 }
 
 const indexDuJour = () => (S.debut ? Math.max(0, ecartJours(S.debut, jourISO())) : 0);

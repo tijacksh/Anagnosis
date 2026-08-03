@@ -133,6 +133,12 @@ notamment la logique déjà éprouvée de :
 
 - l'attribution déterministe d'un concept à un jour (mélange à graine fixe, pour que
   la même sélection de disciplines redonne toujours la même suite) ;
+- **la répartition des disciplines dans le temps**, appliquée après le battage : une
+  même discipline ne tombe jamais deux jours d'affilée, et chacune est étalée sur toute
+  la longueur de la suite proportionnellement à son stock (`repartir()` / `desserrer()` /
+  `recoudre()`). Elle ne tire aucun nombre, donc la suite reste reproductible. Le client
+  Android doit la porter, faute de quoi les deux plateformes serviront des programmes
+  différents à sélection et graine identiques (`docs/decisions.md`, 2026-08-03) ;
 - le calcul de la série ;
 - la règle d'accès rétroactif : aujourd'hui toujours ouvert, les trois derniers jours
   ouverts en gratuit, tout le reste réservé à Premium.

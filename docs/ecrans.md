@@ -56,8 +56,16 @@ Deux matériaux, réglables :
 (DA §11), validée et cantonnée à la barre de menu.** Le verre ne remonte ni sur
 les cartes, ni sur les encadrés, ni sur la barre de titre.
 
-La barre de menu n'apparaît pas pendant l'onboarding, ni sur le quiz, ni sur la
-feuille de partage — ce sont des séquences, pas des destinations.
+**La barre de menu est visible partout, sans exception** — y compris sur le quiz, la
+lecture d'une archive et l'écran d'abonnement.
+
+La règle d'origine la retirait des « séquences » : onboarding, quiz, feuille de partage.
+Elle ne tient qu'à l'onboarding, dont on ne peut effectivement pas sortir, et à la
+feuille de partage, qui est une présentation du système. Partout ailleurs, à l'usage, la
+navigation clignotait le temps d'une question ou d'une fiche rouverte — et une barre qui
+va et vient se remarque plus que la séquence qu'elle sert. Les surimpressions sont donc
+empilées **à l'intérieur** de la zone que la barre délimite, jamais en présentation
+plein écran (iOS : `fullScreenCover` recouvre la fenêtre entière, barre comprise).
 
 ## 3. Écran de lecture
 

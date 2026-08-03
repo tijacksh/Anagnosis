@@ -481,3 +481,36 @@ actives avant de publier, même si la production se fait pack par pack.
 médecine). Il reste exploitable comme pack thématique en achat unique (brief §12) :
 `theme: "effet-doppler"` et `theme_ordre` sont déjà renseignés. Chaque fiche reste
 autonome et peut tomber un jour quelconque.
+
+---
+
+## 2026-08-03 — Les disciplines sont étalées, pas seulement battues
+
+**Décidé :** après le battage déterministe, la suite d'un lecteur passe par une passe de
+répartition. Une même discipline ne tombe jamais deux jours d'affilée, et chaque
+discipline est étalée sur toute la longueur de la suite à son propre pas : la k-ième
+fiche d'une discipline qui en compte *t* est placée à `(k + ½) / t` de la course.
+
+**Pourquoi :** un battage honnête fait des paquets. Sur trois disciplines cochées, il
+donnait onze collages sur trente jours, dont des séries de trois fiches de philosophie de
+suite. Le calendrier et l'archive portent l'encre de la discipline : ces paquets se
+lisent immédiatement, et un lecteur qui a coché trois disciplines pour alterner a
+l'impression de n'en recevoir qu'une.
+
+**Ce qui n'a pas changé :** `MelangeDeterministe` — c'est un contrat partagé entre le
+pipeline, l'esquisse et le client iOS, figé par un test doré des deux côtés. La
+répartition réordonne son résultat sans tirer un seul nombre, donc la suite reste
+reproductible : même sélection, même graine de lecteur, même programme. Et l'ordre *à
+l'intérieur* d'une discipline reste celui du battage — c'est là que vit le hasard, et
+c'est le seul endroit où il compte pour le lecteur.
+
+**Le piège évité :** une première version servait à chaque pas « la discipline la plus
+fournie ». Elle donnait bien l'alternance, mais reléguait les disciplines pauvres en fin
+de suite — un lecteur qui coche Philosophie et Médecine n'aurait pas vu une seule fiche
+de médecine avant des mois, et ça ne se voyait pas : la grille du premier mois était
+parfaitement panachée. Un test l'a rattrapé, en exigeant qu'à mi-parcours **chaque**
+discipline ait servi la moitié de son stock à une fiche près.
+
+**La couture compte aussi.** La suite se répète une fois épuisée, donc la dernière fiche
+est voisine de la première. Sans traitement, la boucle recollait deux fois la même
+discipline une fois par tour de corpus.
