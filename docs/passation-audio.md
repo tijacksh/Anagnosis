@@ -131,16 +131,24 @@ crédits/mois) dans les deux cas.
    (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`). Chaque voix
    téléversée avec succès porte `voix.<nom>.r2 = {cle, sha256, televerse_le}` dans
    `audio/index.json` — c'est ce qui rend la passe idempotente et rejouable.
-3. **Le Worker Cloudflare qui valide le reçu d'abonnement.** Le bucket est privé : sans ce
-   Worker, aucune URL directe n'est utilisable par un client. Dépend en partie du point 2
-   de la passation générale (produits App Store Connect / Play Console) pour avoir un
-   reçu à valider.
-4. **L'adresse et l'empreinte dans le manifeste** — `src/publier.js` ajoutera par fiche et
-   par voix : URL (celle du Worker, pas celle de R2), SHA-256, durée. Comme `concepts.json`
-   est signé en Ed25519, l'empreinte est couverte sans mécanisme supplémentaire.
-   **Volontairement pas encore fait** : écrire une URL dans le manifeste signé avant que le
-   Worker existe publierait une adresse que l'app ne pourrait jamais atteindre — même
-   piège que documenté pour la clé de signature absente (CLAUDE.md).
+3. ~~Le Worker Cloudflare~~ — **fait, en partie** (2026-08-04). `worker/audio.js`, déployé
+   sur `https://anagnosis-audio.anagnosis.workers.dev` (`wrangler.toml`, liaison R2
+   native, aucune clé S3 à lui donner). Il sert le bucket privé derrière un **jeton
+   partagé** (`X-Anagnosis-Cle`, posé côté Worker avec `wrangler secret put CLE_PARTAGEE`,
+   embarqué en dur dans les deux apps) — ce n'est **pas** une validation d'abonnement,
+   seulement ce qui empêche le pillage anonyme du bucket par une URL devinée. La vraie
+   garde (reçu App Store / Play Store vérifié par requête) attend toujours le point 2 de
+   la passation générale (produits App Store Connect / Play Console). Le jour où ils
+   existeront, seul le contenu de la fonction `fetch` change — la forme de la réponse, la
+   liaison R2 et le déploiement restent les mêmes. Déployer une modification :
+   `cd worker && npx wrangler deploy` (variables `CLOUDFLARE_API_TOKEN` et
+   `CLOUDFLARE_ACCOUNT_ID` dans `~/.anagnosis/cles.env`).
+4. ~~L'adresse et l'empreinte dans le manifeste~~ — **fait** (2026-08-04). `src/publier.js`
+   ajoute par fiche et par voix `audio.<nom> = {url, sha256, secondes}`, URL du Worker
+   (jamais R2 direct), à partir de `audio/index.json` — seulement les voix dont `.r2` est
+   posé (donc réellement dans le bucket, pas seulement produites). Comme `concepts.json`
+   est signé en Ed25519, l'empreinte de chaque fichier est couverte sans mécanisme
+   supplémentaire.
 
 ## Deux règles d'architecture à ne pas perdre
 
@@ -162,6 +170,15 @@ l'annonce désormais (« AUDIO PROCHAINEMENT DISPONIBLE ») et le bouton ne fait
 Conséquence directe pour la production : **chaque fiche sans audio est une fiche muette**
 dans l'app. Ce n'est plus une dégradation discrète, c'est un manque visible — ce qui est
 voulu, et ce qui donne le rythme au rattrapage.
+
+## Côté client (iOS et Android), déjà fait
+
+Les deux apps téléchargent, vérifient et jouent une voix hébergée — `AudioDistant.swift` /
+`AudioDistant.kt`, une seule voix à la fois (celle choisie, jamais les deux d'un coup), avec
+un cache borné à 500 Mo purgé par date de dernière écoute (jamais la fiche du jour ni celle
+de demain). `lire` et `changerVoix` déclenchent eux-mêmes le téléchargement manquant — pas
+besoin que l'appelant distingue « déjà en cache » de « à aller chercher ». Détail complet
+dans les dépôts `Anagnosis-app` et `Anagnosis-android`.
 
 ## Un piège écarté, et sa vraie portée
 

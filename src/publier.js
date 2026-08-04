@@ -21,10 +21,37 @@ import { createSign, createPrivateKey, sign as signerBrut } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
+import { lireIndex } from './audio.js';
 
 /** Où la clé privée est cherchée, dans cet ordre. */
 export const CLE_ENV = 'ANAGNOSIS_CLE_PRIVEE';
 export const CLE_FICHIER = path.join(process.env.HOME ?? '', '.anagnosis', 'signature-privee.pem');
+
+/**
+ * Le Worker qui sert l'audio depuis le bucket R2 privé — jamais R2 directement, qui
+ * refuserait tout sans le jeton que seul ce Worker connaît (`worker/audio.js`,
+ * `docs/passation-audio.md`). Le jeton lui-même n'entre pas dans le manifeste : il est
+ * embarqué côté client, posé sur chaque requête de téléchargement, pas ici.
+ */
+export const AUDIO_BASE = 'https://anagnosis-audio.anagnosis.workers.dev';
+
+/**
+ * Le champ `audio` d'une fiche, ou `undefined` si aucune voix n'est encore hébergée.
+ *
+ * Une voix ne compte que si elle a été **téléversée** (`voix.<nom>.r2`) — pas seulement
+ * produite : `audio/index.json` porte les deux états séparément, et publier l'un sans
+ * l'autre écrirait dans le manifeste signé une adresse que le bucket ne sert pas encore.
+ */
+function audioPour(fiche, index) {
+  const entree = index[fiche.id];
+  if (!entree) return undefined;
+  const voix = {};
+  for (const nom of ['helene', 'jerome']) {
+    const v = entree.voix?.[nom];
+    if (v?.r2) voix[nom] = { url: `${AUDIO_BASE}/${v.fichier}`, sha256: v.sha256, secondes: v.secondes };
+  }
+  return Object.keys(voix).length ? voix : undefined;
+}
 
 /**
  * Les fiches telles que le client les reçoit.
@@ -35,9 +62,13 @@ export const CLE_FICHIER = path.join(process.env.HOME ?? '', '.anagnosis', 'sign
  */
 export async function fichesPubliables(fiches = null) {
   const toutes = fiches ?? (await loadAll());
+  const index = await lireIndex();
   return toutes
     .filter((f) => ['valide', 'publie'].includes(f.statut))
-    .map(({ _path, validation, meta, controle, ...publique }) => publique);
+    .map(({ _path, validation, meta, controle, ...publique }) => {
+      const audio = audioPour(publique, index);
+      return audio ? { ...publique, audio } : publique;
+    });
 }
 
 /**
