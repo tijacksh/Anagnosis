@@ -68,9 +68,11 @@ npm run asonoriser                        # ce qui n'a pas d'audio à jour
 node src/cli.js sonoriser <id>            # produire une fiche
 node src/cli.js sonoriser --lot           # produire tout le passage (8 fiches)
 node src/cli.js sonoriser <id> --force    # refaire malgré un audio à jour
+
+npm run heberger                          # téléverse vers R2 ce qui manque au bucket
 ```
 
-La clé vient de l'environnement et **n'entre jamais dans le dépôt** :
+Les clés viennent de l'environnement et **n'entrent jamais dans le dépôt** :
 
 ```bash
 set -a; . ~/.anagnosis/cles.env; set +a
@@ -101,10 +103,11 @@ l'autre, en silence. La commande est idempotente sur le texte, pas sur le fichie
 
 ## Où on en est
 
-- **162 fiches publiables**, 1 sonorisée (*La banalité du mal*, les deux voix)
-- **15 786 / 131 000 crédits** consommés, plan Creator (22 $/mois), renouvellement le
-  2 septembre 2026
-- Mesuré : **~0,55 crédit par caractère**, soit ~3 200 crédits la fiche en deux voix
+- **196 fiches publiables** (2026-08-04), **33 sonorisées** dans les deux voix — et
+  **toutes déjà téléversées vers R2** (`npm run heberger` : rien en attente).
+- Mesuré : **~0,55 crédit par caractère**, soit ~3 200 crédits la fiche en deux voix.
+  `npm run asonoriser` donne le coût exact du reste à chaque appel — ces chiffres bougent
+  vite, s'y fier plutôt qu'à un nombre figé ici.
 
 **Le rattrapage complet demande ~500 000 crédits.** Deux voies, à trancher :
 
@@ -121,12 +124,23 @@ crédits/mois) dans les deux cas.
    832 noms propres détectés, avec une commande listant ceux sans règle. Ne marche que sur
    `eleven_v3` et `eleven_flash_v2` ; `multilingual_v2` ignore les phonèmes en silence.
    La consistance annoncée est de 80-90 %, pas 100 %.
-2. **Le téléversement vers R2** — signature AWS SigV4 écrite à la main avec `node:crypto`,
-   pas de SDK, pour que le pipeline tourne encore dans plusieurs années. **Bloqué** : le
-   compte Cloudflare et le bucket n'existent pas encore.
-3. **L'adresse et l'empreinte dans le manifeste** — `src/publier.js` ajoute par fiche et
-   par voix : URL, SHA-256, durée. Comme `concepts.json` est signé en Ed25519, l'empreinte
-   est couverte sans mécanisme supplémentaire.
+2. ~~Le téléversement vers R2~~ — **fait** (2026-08-04). Signature AWS SigV4 écrite à la
+   main avec `node:crypto`, pas de SDK (`src/r2.js`), et l'orchestration dans
+   `src/heberger.js` (`npm run heberger`). Le bucket `anagnosis-audio` existe, est
+   **privé**, et les clés vivent dans `~/.anagnosis/cles.env`
+   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`). Chaque voix
+   téléversée avec succès porte `voix.<nom>.r2 = {cle, sha256, televerse_le}` dans
+   `audio/index.json` — c'est ce qui rend la passe idempotente et rejouable.
+3. **Le Worker Cloudflare qui valide le reçu d'abonnement.** Le bucket est privé : sans ce
+   Worker, aucune URL directe n'est utilisable par un client. Dépend en partie du point 2
+   de la passation générale (produits App Store Connect / Play Console) pour avoir un
+   reçu à valider.
+4. **L'adresse et l'empreinte dans le manifeste** — `src/publier.js` ajoutera par fiche et
+   par voix : URL (celle du Worker, pas celle de R2), SHA-256, durée. Comme `concepts.json`
+   est signé en Ed25519, l'empreinte est couverte sans mécanisme supplémentaire.
+   **Volontairement pas encore fait** : écrire une URL dans le manifeste signé avant que le
+   Worker existe publierait une adresse que l'app ne pourrait jamais atteindre — même
+   piège que documenté pour la clé de signature absente (CLAUDE.md).
 
 ## Deux règles d'architecture à ne pas perdre
 

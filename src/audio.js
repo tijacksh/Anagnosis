@@ -157,7 +157,7 @@ export async function lireIndex() {
   }
 }
 
-async function ecrireIndex(index) {
+export async function ecrireIndex(index) {
   const trie = Object.fromEntries(Object.entries(index).sort(([a], [b]) => a.localeCompare(b)));
   await mkdir(DOSSIER, { recursive: true });
   await writeFile(INDEX, `${JSON.stringify(trie, null, 2)}\n`, 'utf8');

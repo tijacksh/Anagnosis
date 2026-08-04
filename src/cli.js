@@ -19,6 +19,7 @@ import { file as fileControle, afficher as afficherControle, marquer, reparation
 import { file as fileReparer, afficher as afficherReparer } from './reparer.js';
 import { file as fileRelire, afficher as afficherRelire, relecture } from './relire.js';
 import { file as fileAudio, afficher as afficherAudio, sonoriser } from './audio.js';
+import { file as fileHeberger, afficher as afficherHeberger, televerserTout } from './heberger.js';
 import { fichesPubliables, serialiser, retirees } from './publier.js';
 
 const C = {
@@ -152,6 +153,7 @@ const commandes = {
   areparer: cmdAReparer, reparation: cmdReparation,
   arelire: cmdARelire, relecture: cmdRelecture,
   asonoriser: cmdASonoriser, sonoriser: cmdSonoriser,
+  heberger: cmdHeberger,
 };
 const commande = process.argv[2];
 
@@ -233,6 +235,27 @@ async function cmdSonoriser() {
     }
   }
   return echecs ? 1 : 0;
+}
+
+/**
+ * Téléverse vers R2 les dérivés produits mais pas encore en ligne.
+ *
+ * Séparée de `sonoriser` : ça ne coûte rien et se rejoue sans risque, contrairement à
+ * un appel ElevenLabs. `npm run heberger` dit d'abord quoi téléverser, la commande fait
+ * le travail.
+ */
+async function cmdHeberger() {
+  const aFaire = await fileHeberger();
+  if (!aFaire.length) {
+    console.log(c('green', 'Rien à téléverser — chaque voix publiable est déjà dans le bucket.'));
+    return 0;
+  }
+  console.log(`${aFaire.length} fichier(s) à téléverser vers R2 :`);
+  for (const e of aFaire) console.log(`  ${e.ficheId} — ${e.voix}`);
+
+  const resultats = await televerserTout();
+  afficherHeberger(resultats);
+  return resultats.some((r) => !r.ok) ? 1 : 0;
 }
 
 /** Pose la décision d'une relecture : `relecture <id> <statut> "note"`. */
