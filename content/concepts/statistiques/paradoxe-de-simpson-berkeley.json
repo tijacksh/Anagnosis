@@ -1,0 +1,96 @@
+{
+  "id": "sta-paradoxe-de-simpson-berkeley",
+  "slug": "paradoxe-de-simpson-berkeley",
+  "titre": "Le biais qui n'existe dans aucun département de Berkeley",
+  "accroche": "En 1973, Berkeley affiche un net biais contre les candidates à l'entrée des études supérieures. Département par département, il s'efface presque partout.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "À l'automne 1973, l'université de Californie à Berkeley reçoit 12 763 candidatures pour ses cycles supérieurs. Le bilan global est net : 44 % des hommes sont admis (8 442 candidatures), contre seulement 35 % des femmes (4 321 candidatures). L'écart ressemble, sur le papier, à la preuve d'une discrimination à l'entrée des études supérieures — le genre de chiffre qui déclenche une enquête.\n\n## Le biais qui s'efface département par département\n\nTrois statisticiens de Berkeley, Peter Bickel, Eugene Hammel et J. William O'Connell, décident de vérifier où, précisément, ce biais se loge. Chaque département y recrute de façon autonome ; ils reprennent donc les décisions unité par unité plutôt qu'à l'échelle de l'université entière. Le résultat, publié dans Science en 1975, déroute leurs propres attentes : à l'intérieur de chaque département, presque aucune unité ne montre d'écart significatif défavorable aux femmes — et à peu près autant favorisent les femmes que les hommes.\n\nLe mécanisme tient à une variable cachée : le choix du département. Les femmes candidataient proportionnellement plus vers des filières où la compétition était plus rude pour tout le monde, hommes compris — souvent celles qui demandaient le moins de mathématiques en préparation. À l'inverse, les départements les plus faciles à intégrer étaient ceux qui exigeaient le plus de mathématiques dans le cursus antérieur, et les hommes s'y portaient davantage. Le taux d'admission global n'est alors qu'une moyenne pondérée par ces choix de filière : quand les poids diffèrent entre deux groupes qu'on compare, l'agrégat peut inverser ou masquer une tendance présente dans chacun des sous-groupes qui le composent. C'est ce qu'on appelle aujourd'hui le paradoxe de Simpson.\n\n## Un nom qui ne revient à personne des trois\n\nLe phénomène n'a pourtant rien de nouveau en 1973. Karl Pearson l'avait déjà signalé en 1899, Udny Yule en 1903. Edward H. Simpson, qui lui donnera son nom, ne le découvre pas non plus : il en publie en 1951 une formalisation technique, sans jamais réclamer d'y attacher son nom. C'est un troisième statisticien, Colin Blyth, qui baptise le phénomène « paradoxe de Simpson » dans un article de 1972 — un an avant les admissions de Berkeley, et vingt et un ans après l'article de Simpson lui-même. Bickel, Hammel et O'Connell citent d'ailleurs cet article de Blyth en référence de leur propre étude.\n\nLeur conclusion ne s'arrête pas à « l'agrégat trompe, le détail rassure ». Une fois les données correctement regroupées en tenant compte de l'autonomie de chaque département, ils trouvent un biais statistiquement significatif — mais en faveur des femmes, cette fois, et non contre elles. Le chiffre choc du départ ne se contentait pas de dissimuler l'absence de discrimination : il pointait, une fois corrigé, dans la direction opposée à celle qu'il semblait démontrer.",
+  "citation": null,
+  "repere": {
+    "texte": "Admissions aux cycles supérieurs de Berkeley, automne 1973 : 44 % des 8 442 candidats admis, contre 35 % des 4 321 candidates — un écart qui s'inverse en un biais significatif favorable aux femmes une fois les données regroupées département par département.",
+    "source": "Bickel, Hammel & O'Connell, « Sex Bias in Graduate Admissions: Data from Berkeley », Science, vol. 187, n° 4175, 1975",
+    "url": "https://doi.org/10.1126/science.187.4175.398"
+  },
+  "carte": {
+    "punch": "Un biais défavorable aux femmes, qui s'efface presque partout, département par département.",
+    "idee": "44 % des candidats hommes admis contre 35 % des femmes : un chiffre qui accuse. Département par département, le biais s'efface, et se retourne même légèrement en faveur des femmes une fois les filières comparées correctement. La cause : les femmes visaient des filières globalement plus sélectives.",
+    "source_courte": "Bickel, Hammel & O'Connell, Science, 1975"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Bickel, P. J., Hammel, E. A. & O'Connell, J. W.",
+      "titre": "Sex Bias in Graduate Admissions: Data from Berkeley",
+      "publication": "Science, vol. 187, n° 4175, p. 398-404",
+      "annee": 1975,
+      "url": "https://doi.org/10.1126/science.187.4175.398",
+      "note": "Résumé consulté directement (accès libre) ; le texte intégral est payant. La bibliographie de l'article cite elle-même Blyth (1972) comme origine du nom « paradoxe de Simpson »."
+    },
+    {
+      "type": "web",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "Simpson's Paradox",
+      "annee": 2021,
+      "url": "https://plato.stanford.edu/entries/paradox-simpson/",
+      "note": "Historique de la découverte (Pearson 1899, Yule 1903, Simpson 1951) et définition formelle du mécanisme d'inversion par agrégation."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Bickel, Hammel & O'Connell (1975) — résumé et métriques",
+      "url": "https://doi.org/10.1126/science.187.4175.398",
+      "note": "Page de l'éditeur, résumé en accès libre."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Une grande flèche pleine pointant vers le bas à gauche de la composition, construite en réalité par l'assemblage de plusieurs petites flèches identiques pointant vers le haut, chacune légèrement décalée en diagonale et débordant du cadre en haut à droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une grande flèche vers le bas composée de petites flèches vers le haut, décalées en diagonale",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le taux d'admission global à Berkeley défavorise-t-il les femmes alors que presque aucun département pris isolément ne le fait ?",
+    "choix": [
+      "Parce que les comités d'admission de chaque département appliquaient des critères secrètement différents selon le genre du candidat",
+      "Parce que les femmes candidataient davantage vers des filières globalement plus sélectives, ce qui abaisse leur taux moyen sans qu'aucun département ne les désavantage",
+      "Parce que les données de 1973 comportaient une erreur de saisie corrigée seulement après la publication de l'étude",
+      "Parce que les départements les plus demandés par les femmes ont reçu moins de financement cette année-là"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le taux global est une moyenne pondérée par département. Comme les femmes postulaient proportionnellement plus vers des filières globalement plus dures d'accès pour tous, l'agrégat les défavorise mécaniquement — sans qu'aucun comité n'ait réellement discriminé. C'est le mécanisme même du paradoxe de Simpson : une tendance peut s'inverser par simple agrégation, sans biais caché dans les sous-groupes.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-03T17:14:36.467Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T17:14:36.467Z",
+        "note": "Sources rouvertes : abstract PubMed de Bickel, Hammel & O'Connell 1975 (Science), page Wikipedia Simpson's paradox, discovery.cs.illinois.edu, refsmmat.com. Vérifié : le périmètre des admissions (confirmé indépendamment par 4 sources : c'est la Graduate Division au sens large, master's ET doctorat, jamais restreint au doctorat) ; le mécanisme mathématiques/sélectivité (confirmé mot pour mot par l'abstract original : 'departments easier to enter tend to require more mathematics in the undergraduate preparatory curriculum') ; l'attribution du nom à Blyth 1972 (confirmée indépendamment par Wikipedia) ; les chiffres 1973 (8442/44%% hommes, 4321/35%% femmes, biais final en faveur des femmes) ; l'écart 1972-1951 = 21 ans, déjà correct dans le fichier. Changé : remplacé 'au doctorat'/'de doctorat' par 'des études supérieures'/'cycles supérieurs' dans les trois occurrences signalées (accroche, 1re phrase du corps, repere.texte). npm run validate et npm test passent sans erreur."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "a_revoir",
+    "empreinte": "b973c3d7500df41c",
+    "notes": [
+      "Sources rouvertes en intégral (texte complet Bickel 1975 via copie libre, résumé sur science.org, SEP). Chiffres, mécanisme et l'attribution à Blyth 1972 sont tous confirmés au mot près (l'article cite lui-même Blyth, J. Am. Stat. Assoc. 67, 364, 1972, comme origine du nom, et Wikipédia le confirme indépendamment). Corrigé une erreur d'arithmétique : 1972-1951 = 21 ans, pas 20 ('vingt ans' -> 'vingt et un ans'). A VERIFIER : la fiche parle partout de candidatures/admissions 'au doctorat' (accroche, 1re phrase du corps, repere.texte) alors que l'article original et ses sources secondaires (Wikipedia, discovery.cs.illinois.edu) décrivent des admissions à la 'Graduate Division' de Berkeley au sens large, master's ET doctorat confondus, sans jamais restreindre au doctorat seul. C'est une affirmation que les sources ne soutiennent pas telle quelle - a retravailler en 'études supérieures' ou 'cycles supérieurs' dans les trois occurrences."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

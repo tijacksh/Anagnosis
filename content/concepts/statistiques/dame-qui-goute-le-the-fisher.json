@@ -1,0 +1,91 @@
+{
+  "id": "sta-dame-qui-goute-le-the-fisher",
+  "slug": "dame-qui-goute-le-the-fisher",
+  "titre": "Une tasse de thé a donné naissance à l'expérience moderne",
+  "accroche": "Une femme affirme deviner si le lait a été versé avant ou après le thé. Un statisticien invente en 1935 une méthode qui règle encore les essais cliniques.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Dans un jardin de la station expérimentale de Rothamsted, en Angleterre, une femme affirme qu'elle peut deviner, en goûtant une tasse de thé au lait, si le lait a été versé avant ou après l'infusion. L'affirmation amuse l'assistance. Le statisticien Ronald Fisher, présent, y voit surtout un problème à formaliser : comment tester scientifiquement une telle affirmation, sans se fier à une seule tasse qui pourrait être deviné juste par pur hasard ?\n\n## Un protocole pensé pour ne rien laisser au hasard\n\nFisher conçoit l'expérience dans le détail, qu'il publie en 1935 dans son livre The Design of Experiments. Huit tasses sont préparées, quatre avec le lait versé en premier, quatre avec le thé versé en premier, puis présentées à la dame dans un ordre tiré au hasard — Fisher insiste sur ce point : l'ordre doit venir d'un procédé réellement aléatoire, pas d'un choix qui semble arbitraire à l'expérimentateur.\n\nSi la dame n'a aucune faculté de discrimination réelle et répond au hasard, quelle est la chance qu'elle range malgré tout les huit tasses correctement dans leurs deux catégories de quatre ? Fisher calcule qu'il existe exactement 70 façons de choisir un groupe de quatre tasses parmi huit — un classement parfait, obtenu par pur hasard, n'arriverait donc qu'une fois sur 70. C'est ce calcul, popularisé depuis sous le nom de test exact de Fisher, qui permet de juger si une performance dépasse ce que le hasard seul produirait.\n\nLe même chapitre du livre introduit un concept qui structure encore toute l'expérimentation scientifique : l'hypothèse nulle, celle qui suppose l'absence de tout effet réel, et qui ne se démontre jamais — elle ne peut qu'être réfutée par les données. Fisher y ajoute la randomisation, le tirage au sort de l'ordre des tasses, comme seule garantie que le test reste valide : sans elle, rien n'exclut qu'un biais caché explique un résultat qui semble significatif.\n\n## Une expérience dont l'issue est devenue elle-même un cas d'école\n\nFisher, dans son livre, ne raconte jamais l'issue réelle de l'expérience — il la traite en exercice théorique, en discutant plusieurs résultats hypothétiques. La version la plus répétée aujourd'hui, où la dame identifie sans erreur les huit tasses, provient d'un témoignage oral recueilli quarante ans plus tard par l'historien des statistiques David Salsburg, auprès d'un témoin qui affirmait avoir assisté à la scène — aucune trace écrite d'époque ne le confirme. Une biographie de Fisher publiée par sa propre fille, fondée sur les souvenirs d'un autre témoin, suggère au contraire un résultat plus ambigu, avec quelques erreurs. Même l'identité de la dame — souvent donnée comme celle de la biologiste Muriel Bristol — ne vient pas du texte de Fisher, qui ne la nomme jamais, mais de cette même biographie, écrite près d'un demi-siècle après les faits.\n\nL'anecdote qui a inspiré la méthode la plus rigoureuse pour départager le hasard d'un effet réel repose donc, sur son propre dénouement, sur des souvenirs tardifs et discordants — exactement le genre de preuve que cette méthode a été conçue pour ne jamais accepter telle quelle.",
+  "citation": {
+    "texte": "Our experiment consists in mixing eight cups of tea, four in one way and four in the other, and presenting them to the subject for judgment in a random order. [...] A subject without any faculty of discrimination would in fact divide the 8 cups correctly into two sets of 4 in one trial out of 70.",
+    "auteur": "Ronald A. Fisher",
+    "source": "The Design of Experiments, Oliver and Boyd, 1935, chapitre II",
+    "url": "https://archive.org/stream/in.ernet.dli.2015.502684/2015.502684.The-Design_djvu.txt"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Une tasse de thé mal reconnue a donné naissance à la méthode qui valide les essais cliniques.",
+    "idee": "En 1935, pour tester une femme qui prétend deviner l'ordre du lait et du thé, Ronald Fisher conçoit un protocole à huit tasses : un classement parfait par hasard n'arrive qu'une fois sur 70. De cette anecdote naissent l'hypothèse nulle et la randomisation, piliers de l'expérimentation moderne.",
+    "source_courte": "Fisher, The Design of Experiments, 1935"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Fisher, Ronald A.",
+      "titre": "The Design of Experiments",
+      "publication": "Oliver and Boyd, Édimbourg",
+      "annee": 1935,
+      "url": "https://archive.org/stream/in.ernet.dli.2015.502684/2015.502684.The-Design_djvu.txt",
+      "note": "Chapitre II : présentation complète de l'expérience, du calcul combinatoire, de l'hypothèse nulle et de la randomisation."
+    },
+    {
+      "type": "article",
+      "auteur": "Richardson, John T. E.",
+      "titre": "A closer look at the lady tasting tea",
+      "publication": "Significance, vol. 18, n° 5, p. 34-37",
+      "annee": 2021,
+      "url": "https://academic.oup.com/jrssig/article/18/5/34/7038291",
+      "note": "Réexamine les sources de l'anecdote et montre que ni le résultat exact ni l'identité de la dame ne viennent du texte de Fisher lui-même."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Richardson (2021) — A closer look at the lady tasting tea",
+      "url": "https://academic.oup.com/jrssig/article/18/5/34/7038291",
+      "note": "Détaille les deux versions discordantes de l'issue de l'expérience et leurs sources respectives."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « partition ». Huit petites formes rondes identiques disposées en deux groupes de quatre séparés par une ligne nette, l'un des groupes légèrement désaligné comme s'il avait été mélangé, une forme isolée débordant du cadre en dehors des deux groupes. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Huit formes rondes réparties en deux groupes de quatre séparés par une ligne, une forme isolée débordant du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi Fisher insiste-t-il pour que l'ordre de présentation des huit tasses soit tiré au hasard, plutôt que choisi par l'expérimentateur ?",
+    "choix": [
+      "Parce qu'un ordre choisi à la main pourrait sembler arbitraire mais cacher malgré tout un biais qui invaliderait le test",
+      "Parce que la dame connaissait déjà l'ordre habituel utilisé par les expérimentateurs de Rothamsted",
+      "Parce que huit tasses préparées dans un ordre fixe refroidiraient de façon inégale et fausseraient le goût",
+      "Parce que les règles de la station expérimentale imposaient un tirage au sort pour toute expérience publiée"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Un ordre qui paraît arbitraire à l'œil peut malgré tout suivre une régularité cachée, perceptible ou exploitable sans que l'expérimentateur en ait conscience. Seul un tirage réellement aléatoire garantit qu'aucun facteur caché ne vienne fausser le test — c'est ce que Fisher appelle la base physique de la validité du test.",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "corrige",
+    "empreinte": "fcc72c72f30727d9",
+    "notes": [
+      "Citation de Fisher vérifiée mot pour mot dans le texte intégral (archive.org, djvu.txt, The Design of Experiments, 1935, chap. II) : les deux fragments cités ('Our experiment consists in mixing eight cups of tea...' et 'A subject without any faculty of discrimination would... in one trial out of 70') retrouvés verbatim, avec le calcul des 70 façons de choisir 4 tasses parmi 8. Article de Richardson (2021) rouvert (academic.oup.com/jrssig) : vol. 18 n°5 p.34-37 confirmés, ainsi que le contenu — les deux versions discordantes de l'issue (Salsburg/Fairfield Smith : résultat parfait ; Joan Fisher Box : résultat imparfait, 'divined correctly more than enough'), l'identité de Muriel Bristol (algologue à Rothamsted), et le silence de Fisher sur l'issue réelle dans son livre.",
+      "Corrigé : sources[1].auteur donnait 'Richardson, Zachary' — l'auteur réel de l'article est John T. E. Richardson (confirmé indépendamment via Wiley/PubMed/ResearchGate, même DOI 10.1111/1740-9713.01572). Remplacé par 'Richardson, John T. E.'.",
+      "Quiz et carte cohérents et non affectés."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

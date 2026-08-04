@@ -1,0 +1,98 @@
+{
+  "id": "soc-paradoxe-amitie-feld",
+  "slug": "paradoxe-amitie-feld",
+  "titre": "Le paradoxe de l'amitié",
+  "accroche": "Vos amis ont, en moyenne, plus d'amis que vous — et ce n'est vrai pour presque tout le monde à la fois",
+  "discipline": "sociologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Prenez un petit groupe de huit personnes et comptez, pour chacune, son nombre d'amis dans le groupe. Puis, pour chaque personne, faites la moyenne du nombre d'amis qu'ont ses propres amis. Le sociologue Scott Feld a fait ce calcul en 1991, et le résultat surprend : dans son exemple, la moyenne du nombre d'amis par personne est de 2,5 — mais la moyenne du nombre d'amis des amis grimpe à 2,99. Et cinq des huit personnes ont, chacune, moins d'amis que la moyenne de leurs propres amis.\n\n## Le mécanisme\n\nCe n'est pas un hasard de cet exemple précis : c'est une conséquence mathématique presque inévitable de la façon dont un réseau social est construit. Une personne qui a beaucoup d'amis apparaît, logiquement, dans la liste d'amis de beaucoup de gens. Une personne qui en a peu apparaît, elle, dans très peu de listes. Or quand vous faites la moyenne des amis de vos amis, vous comptez chaque personne populaire une fois pour chacun de ses liens — elle pèse donc plus lourd dans ce calcul que dans le calcul de la moyenne brute, où chaque personne ne compte qu'une fois.\n\nLe résultat, Feld le démontre en toute généralité : dans quasiment n'importe quel réseau où le nombre d'amis varie d'une personne à l'autre, la moyenne des amis des amis dépasse la moyenne des amis. Ce n'est donc pas un effet psychologique — personne ne se trompe en se sentant moins entouré que ses amis. C'est un pur artefact de la façon dont on prélève l'échantillon : en passant par les amis plutôt que par les personnes elles-mêmes, on surreprésente systématiquement les gens bien connectés.\n\n## Ce que ça déplace\n\nLe paradoxe n'est pas qu'une curiosité de dîner. Il a trouvé un usage concret en épidémiologie : lors d'une grippe saisonnière survenue à Harvard fin 2009, des chercheurs ont suivi un groupe d'étudiants tirés au hasard et un second groupe composé des amis nommés par les premiers. Les amis, plus centraux dans le réseau social par construction, ont déclaré la grippe en moyenne deux semaines avant le groupe témoin — jusqu'à quarante-six jours avant le pic de l'épidémie selon une des méthodes de mesure. Surveiller les amis des gens, plutôt que les gens eux-mêmes, permet de repérer une épidémie qui démarre avant qu'elle ne devienne visible.\n\nLe même mécanisme éclaire d'un jour différent l'impression, en société ou sur les réseaux, que tout le monde autour de soi est mieux entouré que soi. Ce sentiment n'a rien d'anodin ni de purement subjectif : il découle presque mécaniquement de la structure même d'un réseau où les popularités ne sont pas réparties également.",
+  "citation": null,
+  "repere": {
+    "texte": "Dans l'exemple de Feld — huit personnes, 2,5 amis en moyenne — la moyenne du nombre d'amis des amis atteint 2,99, et cinq personnes sur huit ont moins d'amis que la moyenne de leurs propres amis.",
+    "source": "Feld, Why Your Friends Have More Friends Than You Do, American Journal of Sociology, 1991",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/229693"
+  },
+  "carte": {
+    "punch": "Vos amis ont, en moyenne, plus d'amis que vous — et c'est vrai pour presque tout le monde à la fois",
+    "idee": "Les personnes bien entourées apparaissent dans davantage de listes d'amis que les autres : la moyenne des amis de ses amis pèse donc plus lourd que la moyenne brute. Ce paradoxe mathématique de 1991 sert aujourd'hui à repérer une épidémie avant qu'elle ne devienne visible.",
+    "source_courte": "Feld, American Journal of Sociology, 1991"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Feld, Scott L.",
+      "titre": "Why Your Friends Have More Friends Than You Do",
+      "publication": "American Journal of Sociology, 96(6)",
+      "annee": 1991,
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/229693",
+      "note": "Démonstration mathématique du paradoxe de l'amitié, avec exemple chiffré sur un réseau de huit personnes."
+    },
+    {
+      "type": "article",
+      "auteur": "Christakis, Nicholas A. ; Fowler, James H.",
+      "titre": "Social Network Sensors for Early Detection of Contagious Outbreaks",
+      "publication": "PLoS ONE, 5(9), e12948",
+      "annee": 2010,
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012948",
+      "note": "Application du paradoxe de l'amitié à la détection précoce d'une épidémie de grippe à Harvard."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Why Your Friends Have More Friends Than You Do (texte intégral)",
+      "note": "L'article original de Scott Feld, avec le détail du calcul.",
+      "url": "https://pdodds.w3.uvm.edu/research/papers/others/1991/feld1991a.pdf"
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : un réseau de petits cercles reliés par des traits fins, où un seul cercle central, bien plus gros, concentre une multitude de connexions vers les autres cercles périphériques nettement plus petits et moins reliés. Rose prune profond, papier crème, encre noire. Contours nets, aucun dégradé, aucune inscription dans l'image.",
+    "alt": "Un réseau de cercles reliés, où un cercle central bien plus gros concentre la majorité des connexions",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la moyenne du nombre d'amis de vos amis est-elle presque toujours supérieure à votre propre nombre d'amis ?",
+    "choix": [
+      "Parce que les gens surestiment systématiquement, par pur biais psychologique, le nombre d'amis de leur entourage proche",
+      "Parce que les personnes bien connectées figurent dans davantage de listes d'amis, et pèsent donc plus lourd dans ce calcul précis",
+      "Parce que les amitiés les plus solides et les plus anciennes ne sont, en général, jamais pleinement réciproques",
+      "Parce que les réseaux sociaux numériques gonflent artificiellement, à des fins commerciales, le nombre d'amis affiché"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Ce n'est ni une surestimation subjective, ni un défaut de réciprocité, ni un effet du numérique : une personne très connectée figure dans un grand nombre de listes d'amis, donc elle compte plusieurs fois quand on calcule la moyenne des amis des amis — un pur effet de construction du calcul, vrai bien avant les réseaux sociaux numériques.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-03T11:08:51.350Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T11:08:51.350Z",
+        "note": "Sources rouvertes : PDF intégral Feld 1991 (pdodds.w3.uvm.edu, scan JSTOR) — Table 1 confirme moyenne de 2,5 amis, cinq filles sur huit sous la moyenne de leurs amis, et une moyenne des amis des amis de 2,99 (23,92/8), pas 2,98 ; PLoS ONE Christakis & Fowler 2010 confirmé intégralement (744 étudiants Harvard, 1er sept.-31 déc. 2009, avance de 13,9 jours et jusqu'à 46 jours avant le pic). Corrigé : 2,98 → 2,99 dans contenu_vulgarise et repere.texte. Reste de la fiche (mécanisme, carte, quiz) vérifié conforme aux sources."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "ok",
+    "empreinte": "bbc471415c1bb38e",
+    "notes": [
+      "Contrôle indépendant après réparation (2,98→2,99). Feld 1991 (texte intégral PDF, scan JSTOR) reconfirmé mot pour mot : '8 Marketville girls have a total of 20 friendships, with a mean of 2.5' ; 'the means for all the girls have a mean of 2.99' (statistique du 'two-step averaging', distincte de la moyenne réseau à 3.0, mais bien celle pertinente pour la comparaison individuelle utilisée par la fiche) ; 'Of the eight girls, five... [sont sous la moyenne de leurs amis]'. Christakis & Fowler 2010 (PLoS ONE) reconfirmé mot pour mot : 744 étudiants Harvard (319 aléatoires + 425 amis nommés), période 1er sept.-31 déc. 2009, avance du groupe amis de '13.9 days', et 'a full 46 days before the peak in daily incidence' — tous les chiffres exacts.",
+      "Rien de nouveau à signaler. Quiz et carte cohérents."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

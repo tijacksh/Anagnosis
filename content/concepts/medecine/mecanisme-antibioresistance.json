@@ -1,0 +1,121 @@
+{
+  "id": "med-mecanisme-antibioresistance",
+  "slug": "mecanisme-antibioresistance",
+  "titre": "Une résistance qui voyage sans lien de parenté",
+  "accroche": "Un gène de résistance aux antibiotiques peut se transmettre directement entre deux bactéries d'espèces totalement différentes",
+  "discipline": "medecine",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1945, l'homme qui vient de recevoir le prix Nobel pour avoir découvert la pénicilline profite de son discours de réception pour mettre en garde contre un danger que sa propre découverte contient déjà en germe.\n\n## Un avertissement prononcé le jour de la gloire\n\nDans son discours du 11 décembre 1945, Alexander Fleming décrit un scénario précis : un homme s'achète de la pénicilline pour un mal de gorge, s'en administre trop peu pour tuer les streptocoques mais assez pour les habituer au médicament, puis transmet à son épouse des bactéries devenues résistantes. Elle meurt d'une pneumonie que la pénicilline ne peut plus soigner. Fleming l'écrit noir sur blanc : « il n'est pas difficile de rendre des microbes résistants à la pénicilline en laboratoire, en les exposant à des concentrations insuffisantes pour les tuer, et la même chose s'est occasionnellement produite dans l'organisme. » Dès le milieu des années 1940, des staphylocoques résistants à la pénicilline sont effectivement observés en milieu hospitalier.\n\n## Le mécanisme : un gène qui voyage sans lien de parenté\n\nCe que Fleming décrivait comme un risque d'usage individuel s'est doublé d'un mécanisme bien plus rapide que la sélection naturelle classique. Une bactérie qui développe par mutation un gène de résistance peut le transmettre directement à une autre bactérie, y compris d'une espèce entièrement différente, sans aucune reproduction ni filiation entre elles. Ce gène voyage le plus souvent sur un plasmide, un petit anneau d'ADN indépendant du chromosome bactérien. Lors d'un contact direct entre deux bactéries, une structure appelée pilus permet à un brin du plasmide de migrer vers la cellule voisine, qui reconstitue ensuite sa propre copie circulaire de l'ADN reçu.\n\nCe transfert horizontal explique qu'une résistance apparue une seule fois, quelque part, puisse se répandre à des espèces bactériennes qui n'ont jamais rencontré l'antibiotique en question — la résistance se propage comme une information, indépendamment de la reproduction des organismes qui la portent.\n\n## L'ampleur du problème aujourd'hui\n\nUne analyse mondiale publiée dans *The Lancet* en 2022 attribue directement à des bactéries résistantes aux antibiotiques 1,27 million de décès en 2019, sur un total de près de 5 millions de décès associés au phénomène. Ses auteurs jugent ce bilan au moins aussi lourd que celui du VIH ou du paludisme pris séparément, et potentiellement bien supérieur.\n\n## Ce que la mise en garde de 1945 déplace\n\nFleming n'imaginait pas le mécanisme moléculaire du transfert par plasmide — il l'ignorait, comme tout le monde à son époque. Mais il avait identifié, sans le nommer, le principe qui rend le problème si difficile à contenir : la résistance n'est pas un accident qui reste confiné à l'endroit où elle apparaît, elle se comporte comme une information qui circule, portée par des organismes qui n'ont entre eux d'autre lien que le voisinage.",
+  "citation": {
+    "texte": "It is not difficult to make microbes resistant to penicillin in the laboratory by exposing them to concentrations not sufficient to kill them, and the same thing has occasionally happened in the body.",
+    "auteur": "Alexander Fleming",
+    "source": "Discours de réception du prix Nobel, « Penicillin », 11 décembre 1945",
+    "url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf"
+  },
+  "repere": {
+    "texte": "En 2019, la résistance bactérienne aux antibiotiques a été directement responsable de 1,27 million de décès dans le monde, sur un total de près de 5 millions de décès associés au phénomène.",
+    "source": "Antimicrobial Resistance Collaborators, « Global burden of bacterial antimicrobial resistance in 2019 », The Lancet, 2022",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)02724-0/fulltext"
+  },
+  "carte": {
+    "punch": "Une résistance aux antibiotiques peut voyager entre deux bactéries qui n'ont rien en commun.",
+    "idee": "Un gène de résistance porté par un plasmide peut passer d'une espèce bactérienne à une autre sans aucune reproduction entre elles. Fleming l'avait pressenti dès 1945 ; en 2019, cette résistance a causé 1,27 million de morts dans le monde.",
+    "source_courte": "The Lancet, 2022"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Centers for Disease Control and Prevention",
+      "titre": "How Antibiotic Resistance Moves Directly Germ to Germ",
+      "annee": 2024,
+      "url": "https://www.cdc.gov/antimicrobial-resistance/media/pdfs/How-AR-Moves-508.pdf",
+      "note": "Mécanismes du transfert horizontal : plasmides, conjugaison, transduction."
+    },
+    {
+      "type": "web",
+      "auteur": "Haavisto V",
+      "titre": "Plasmids and the Spread of Antibiotic Resistance Genes",
+      "publication": "American Society for Microbiology",
+      "annee": 2023,
+      "url": "https://asm.org/articles/2023/january/plasmids-and-the-spread-of-antibiotic-resistance-g",
+      "note": "Détail du mécanisme par pilus, avec exemple de transfert inter-espèces documenté."
+    },
+    {
+      "type": "article",
+      "auteur": "Antimicrobial Resistance Collaborators",
+      "titre": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "publication": "The Lancet, 399(10325)",
+      "annee": 2022,
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)02724-0/fulltext",
+      "note": "Bilan mondial chiffré."
+    },
+    {
+      "type": "article",
+      "auteur": "Chambers HF, DeLeo FR",
+      "titre": "Waves of resistance: Staphylococcus aureus in the antibiotic era",
+      "publication": "Nature Reviews Microbiology, 7(9)",
+      "annee": 2009,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2871281/",
+      "note": "Résistance à la pénicilline observée en hôpital dès le milieu des années 1940."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Antimicrobial resistance — Fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "note": "Chiffres à jour et projections de l'Organisation mondiale de la santé."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : deux formes ovales de tailles et de teintes différentes (deux espèces bactériennes distinctes), reliées par un pont fin en forme de tube, le long duquel glisse un unique petit anneau stylisé. Aplats saturés, deux couleurs contrastées pour les deux formes, l'anneau dans une troisième teinte distincte. Aucun visage.",
+    "alt": "Deux formes ovales distinctes reliées par un tube fin le long duquel glisse un petit anneau",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le transfert horizontal de gènes par plasmide rend-il l'antibiorésistance particulièrement difficile à contenir ?",
+    "choix": [
+      "Parce qu'il accélère la reproduction des bactéries résistantes par division cellulaire classique",
+      "Parce qu'il empêche les antibiotiques de pénétrer la paroi de toutes les bactéries à la fois",
+      "Parce qu'il ne concerne que les bactéries déjà exposées directement à l'antibiotique en question",
+      "Parce qu'une résistance apparue chez une bactérie peut se transmettre à des espèces sans aucun lien de reproduction"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Le transfert horizontal par plasmide permet à un gène de résistance de circuler entre bactéries d'espèces différentes, sans aucune filiation ni reproduction entre elles — c'est ce qui le distingue de la sélection naturelle classique, et ce qui explique que des espèces jamais exposées à un antibiotique donné puissent devenir résistantes.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-04T06:44:50.393Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-04T06:44:50.393Z",
+        "note": "Sources rouvertes : Fleming Nobel lecture 1945 (PDF extrait en texte intégral), Lancet 2022 (résumé complet en ligne), Chambers & DeLeo 2009, ASM 'Plasmids and the Spread of Antibiotic Resistance Genes'. Corrigé l'erreur d'addition sur les décès liés à l'antibiorésistance : l'étude Lancet dit '4,95 million deaths associated... including 1,27 million deaths attributable' — le 4,95M inclut le 1,27M, il ne s'y ajoute pas. Reformulé corps et repere.texte en conséquence, et remplacé la comparaison non étayée 'paludisme et sida réunis' par la formulation même de l'étude ('au moins aussi lourd que le VIH ou le paludisme pris séparément, et potentiellement bien supérieur'). Revérifié aussi, mot pour mot : citation Fleming et le scénario Mr. X/Mrs. X dans la conférence Nobel, 'milieu des années 1940' conforme à Chambers & DeLeo ('mid-1940s'), mécanisme du pilus et transfert inter-espèces conforme à l'article ASM. Point mineur déjà signalé par le contrôle (datation 2024 vs métadonnées internes 2019 de la source CDC) laissé en l'état : page CDC non tranchable, sans impact sur le fond de la fiche. Fiche entièrement revérifiée."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "a_revoir",
+    "empreinte": "624c8338206afe44",
+    "notes": [
+      "Corps corrigé en silence : 'fin des années 1940' -> 'milieu des années 1940', pour coller à la formulation exacte de la source citée (Chambers & DeLeo 2009 : 'mid-1940s').",
+      "À REVOIR : le corps et repere.texte disent que l'étude Lancet 2022 'attribue directement 1,27 million de décès en 2019, et associe près de 5 millions de décès SUPPLÉMENTAIRES à ce phénomène'. Le texte source dit '4.95 million deaths associated with bacterial AMR globally in 2019 (including those directly attributable to AMR)' — le 4,95M INCLUT le 1,27M, il ne s'y ajoute pas. En l'état, la fiche laisse croire à un total d'environ 6,27M de décès, alors que le total réel de l'étude est 4,95M. À reformuler pour ne pas suggérer une addition (ex: 'associée à un total de près de 5 millions de décès'). carte.idee ne mentionne que le 1,27M et n'est pas concernée.",
+      "Point mineur non résolu, laissé en l'état : sources[0] (CDC, 'How Antibiotic Resistance Moves Directly Germ to Germ') est daté 2024 dans la fiche, mais les métadonnées internes du PDF indiquent une création en 2019 — page CDC elle-même inaccessible (403 systématique) pour trancher entre date de création et date de republication sur la nouvelle arborescence du site."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

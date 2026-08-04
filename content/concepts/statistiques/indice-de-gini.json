@@ -1,0 +1,110 @@
+{
+  "id": "sta-indice-de-gini",
+  "slug": "indice-de-gini",
+  "titre": "Un outil neutre, hérité d'un statisticien qui ne l'était pas",
+  "accroche": "L'indice qui mesure les inégalités dans le monde entier vient d'un statisticien italien devenu plus tard un artisan de la propagande démographique du fascisme.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "L'indice de Gini mesure en un seul nombre, entre 0 et 1, à quel point les revenus ou le patrimoine sont répartis inégalement dans une population. Zéro signifierait une égalité parfaite ; un, qu'une seule personne détiendrait tout. En France, en 2024, il s'établit à 0,302 selon l'Insee — son plus haut niveau depuis le début de la série statistique en 1996. La Banque mondiale, l'Insee et l'OCDE s'en servent tous aujourd'hui comme référence commune pour comparer les inégalités d'un pays à l'autre.\n\n## Une courbe, une surface, un rapport\n\nLe calcul part d'un objet appelé courbe de Lorenz, qui trace la part cumulée des revenus détenue par une part cumulée croissante de la population — les 10 % les plus pauvres, puis les 20 %, et ainsi de suite. Dans une société parfaitement égalitaire, cette courbe serait une droite : les 10 % les plus pauvres détiendraient exactement 10 % du revenu total. L'indice de Gini mesure l'écart entre cette droite théorique et la courbe réelle, presque toujours creusée en dessous : plus l'aire entre les deux est grande, plus l'indice se rapproche de 1, et plus la répartition réelle s'éloigne de l'égalité parfaite.\n\nCet outil vient d'un texte publié en 1912 à Bologne par le statisticien italien Corrado Gini, intitulé Variabilità e mutabilità. Gini y pose les bases mathématiques d'un indicateur qui deviendra, un siècle plus tard, l'un des chiffres les plus cités de l'économie mondiale — repris sans en changer un terme par des institutions dont les valeurs n'ont rien à voir avec celles de son auteur.\n\n## L'auteur que l'outil a fini par dépasser\n\nGini n'est en effet pas resté un statisticien parmi d'autres. Il signe en 1925 le Manifeste des intellectuels fascistes, préside à partir de 1926 l'Institut central de statistique italien, et devient si proche de Mussolini que les deux se consultent, selon une étude académique publiée en 2014 dans la revue Medicina nei Secoli, deux fois par mois. Il avait déjà cofondé, dès 1919 avec Cesare Artom et Ernesto Pestalozza, la société italienne de génétique et d'eugénisme. Cette même étude le décrit comme une figure de jonction entre l'eugénisme italien naissant, le fascisme et le racisme d'État qui suivra : en 1919, il demande dans une lettre à l'eugéniste britannique Leonard Darwin l'interdiction légale des mariages entre Européens et Africains ; en 1929, à Chicago, il théorise l'infériorité des personnes métisses et des personnes noires ; et sa théorie de la « sénescence des nations » fournit une justification scientifique à la colonisation italienne de l'Éthiopie.\n\nRien de tout cela ne s'est répercuté sur l'outil lui-même. L'indice de Gini n'encode aucune des thèses de son inventeur : c'est une pure mesure de dispersion statistique, mathématiquement indifférente à ce qu'en pensait Gini. Son usage aujourd'hui, du rapport annuel de la Banque mondiale au chiffre publié chaque année par l'Insee, ne doit rien à la biographie de son auteur — et c'est précisément ce qui distingue un instrument de mesure des intentions de celui qui l'a forgé. Le nombre survit à l'homme, sans en garder la trace.",
+  "citation": null,
+  "repere": {
+    "texte": "L'indice de Gini de la France atteint 0,302 en 2024, en hausse pour la deuxième année consécutive — son plus haut niveau depuis le début de la série statistique de l'Insee en 1996.",
+    "source": "Insee Première n° 2117, « Niveau de vie et pauvreté en 2024 », Insee",
+    "url": "https://www.insee.fr/fr/statistiques/9019316"
+  },
+  "carte": {
+    "punch": "L'outil qui mesure les inégalités mondiales vient d'un statisticien du fascisme italien.",
+    "idee": "L'indice de Gini (0 = égalité parfaite, 1 = inégalité maximale) vient de Corrado Gini, statisticien italien devenu proche de Mussolini et artisan de l'eugénisme du régime. L'outil n'a rien gardé de ses thèses : une mesure statistique pure, reprise telle quelle par la Banque mondiale et l'Insee.",
+    "source_courte": "Insee, 2026 ; Medicina nei Secoli, 2014"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Insee",
+      "titre": "Niveau de vie et pauvreté en 2024 (Insee Première n° 2117)",
+      "annee": 2026,
+      "url": "https://www.insee.fr/fr/statistiques/9019316",
+      "note": "Valeur officielle de l'indice de Gini pour la France, données 2024."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Gini coefficient",
+      "annee": 2024,
+      "url": "https://en.wikipedia.org/wiki/Gini_coefficient",
+      "note": "Définition du calcul par la courbe de Lorenz et référence à la publication originale de 1912."
+    },
+    {
+      "type": "article",
+      "auteur": "Macuglia, Daniele",
+      "titre": "Corrado Gini and the Scientific Basis of Fascist Racism",
+      "publication": "Medicina nei Secoli, 26(3), p. 821-855",
+      "annee": 2014,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26292521/",
+      "note": "Article académique documentant l'influence de Gini sur le régime de Mussolini et son rôle dans l'eugénisme italien."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Insee — définition de l'indice de Gini",
+      "url": "https://www.insee.fr/fr/metadonnees/definition/c1551",
+      "note": "Définition institutionnelle courte, avec plage de valeurs 0-1."
+    },
+    {
+      "titre": "Corrado Gini and the Scientific Basis of Fascist Racism (texte intégral)",
+      "url": "https://rosa.uniroma1.it/rosa01/medicina_nei_secoli/article/download/160/144/290",
+      "note": "L'étude de Daniele Macuglia, avec les citations primaires sur l'engagement de Gini."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « densité graduée ». Une diagonale nette divise la composition en deux triangles ; l'un des deux triangles est rempli d'une trame très dense de petites formes identiques serrées, l'autre ne contient que deux ou trois formes isolées et espacées, l'une d'elles débordant du cadre. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une diagonale sépare une zone dense de petites formes serrées d'une zone presque vide",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que mesure exactement l'indice de Gini ?",
+    "choix": [
+      "Le revenu moyen d'une population, comparé à celui d'un pays de référence",
+      "Le taux de pauvreté d'un pays, défini comme la part de la population sous un seuil de revenu fixe",
+      "L'écart entre la répartition réelle des revenus dans une population et une répartition parfaitement égalitaire",
+      "La croissance des inégalités d'une année sur l'autre, en pourcentage"
+    ],
+    "bonne_reponse": 2,
+    "explication": "L'indice de Gini compare la courbe de Lorenz réelle d'une population — qui cumule la part de revenu détenue par les tranches de population les plus pauvres — à la droite qu'on obtiendrait si le revenu était réparti de façon parfaitement égale. Plus l'écart entre les deux est grand, plus l'indice se rapproche de 1. Ce n'est ni un revenu moyen, ni un seuil de pauvreté, ni une mesure de variation annuelle.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-03T11:12:55.671Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T11:12:55.671Z",
+        "note": "Sources rouvertes : texte intégral Macuglia 2014 (rosa.uniroma1.it/rosa01/medicina_nei_secoli/article/download/160/144/290, 35 pages lues intégralement) — confirme ISTAT présidé par Gini à partir de 1926 (aucune date de fin dans le corps), Manifeste des intellectuels fascistes signé en 1925, consultations bimensuelles avec Mussolini, Società Italiana di Genetica e Eugenetica fondée en 1919 par Gini avec Cesare Artom et Ernesto Pestalozza (aucune présidence en 1934), lettre de 1919 à Leonard Darwin demandant l'interdiction des mariages euro-africains, propos de 1929 à Chicago sur l'infériorité des métis et des Noirs, théorie de la 'sénescence des nations' justifiant la colonisation de l'Éthiopie ; infirme en revanche le comité de 1929 sur les 'problèmes de population' (l'article parle du renforcement légal de l'ISTAT, pas d'un comité) et le congrès de Rome comme 'premier congrès international de démographie' (non daté et non qualifié ainsi par Macuglia). Insee (fiche 9019316 et définition c1551) et Wikipédia (coefficient de Gini, texte de 1912) revérifiés et conformes. Corrigé : réécriture complète du §3 (biographie de Gini) pour ne garder que les faits directement soutenus par Macuglia, en retirant les dates 1932/1929-comité/1931-premier congrès/1934-présidence non soutenues ; remplacé le lien PubMed 'abstract only' par un ajout du texte intégral en pour_aller_plus_loin ; corrigé le prénom de l'auteur (Diego → Daniele Macuglia). Reste de la fiche (définition, courbe de Lorenz, chiffre Insee 0,302/2024, quiz) vérifié conforme."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "ok",
+    "empreinte": "5c10a3ba47310e03",
+    "notes": [
+      "Contrôle indépendant après réparation (réécriture complète du §3 biographique). Macuglia 2014 (Medicina nei Secoli, texte intégral, 35 pages lues) reconfirmé mot pour mot sur tous les points retenus : auteur 'Daniele Macuglia' (pas Diego) ; Manifeste des intellectuels fascistes signé en 1925 et présidence de l'ISTAT à partir de 1926, sans date de fin donnée dans le corps ; 'for consultations twice a month' avec Mussolini ; 'In 1929, the power of the ISTAT was strengthened by law' (pas de comité population) ; société de génétique et d'eugénisme 'created in 1919 by Gini, Cesare Artom (1879-1934), and Ernesto Pestalozza (1860-1934)' — confirmant que les dates 1879-1934/1860-1934 sont les années de naissance/mort d'Artom et Pestalozza, pas une présidence de Gini prise en 1934 comme l'affirmait la version fautive ; lettre de 1919 à Leonard Darwin citée texto, demandant l'interdiction légale des mariages euro-africains ; propos de Chicago 1929 sur les mariages mixtes ; théorie de la sénescence des nations justifiant la colonisation de l'Éthiopie. Insee (9019316) reconfirmé mot pour mot : 0,302 en 2024, 'un maximum depuis 1996', hausse pour la 2e année consécutive.",
+      "Rien de nouveau à signaler. Quiz et carte cohérents."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

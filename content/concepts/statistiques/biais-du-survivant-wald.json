@@ -1,0 +1,117 @@
+{
+  "id": "sta-biais-du-survivant-wald",
+  "slug": "biais-du-survivant-wald",
+  "titre": "Blinder l'avion là où on ne voit jamais d'impact",
+  "accroche": "L'armée veut blinder les avions là où les impacts s'accumulent sur les appareils revenus. Un statisticien répond : blindez plutôt le reste.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Pendant la Seconde Guerre mondiale, l'armée américaine étudie les impacts de tir relevés sur ses bombardiers revenus de mission, pour décider où ajouter du blindage — une protection lourde, qu'on ne peut poser partout sans plomber les performances de l'appareil. Les relevés montrent une nette concentration d'impacts sur le fuselage, très peu autour des moteurs. La conclusion semble aller de soi : renforcer le fuselage, là où les avions encaissent le plus de tirs.\n\n## Ce que les avions absents ne peuvent pas montrer\n\nLe mathématicien Abraham Wald, membre du Statistical Research Group — un groupe de scientifiques civils formé à Columbia University pour appuyer l'effort de guerre — objecte : ces relevés ne portent que sur les avions revenus. Un avion qui prend un tir au moteur a de bien moindres chances de rentrer pour qu'on compte son impact. L'absence de dégâts moteurs sur les avions étudiés ne signifie donc pas que les moteurs sont épargnés par les tirs ennemis, mais que les tirs qui les touchent ont plus de chances d'être fatals. C'est le fuselage, qui encaisse sans faire tomber l'avion, qui doit logiquement montrer le plus d'impacts sur les survivants.\n\nWald formalise ce raisonnement dans une série de huit mémorandums techniques rédigés en 1943, aujourd'hui consultables en archive libre : des équations permettant d'estimer, à partir des seuls avions revenus, la probabilité de survie à un nombre donné d'impacts — y compris pour les zones dont les avions abattus ne peuvent plus témoigner. Le biomathématicien Marc Mangel, qui a consacré avec Francisco Samaniego une étude détaillée à ces mémorandums en 1984, résume la difficulté centrale : le commandement ne connaît jamais la répartition des impacts sur les avions qui ne sont pas revenus, ce qui rend inobservable exactement la donnée qui compterait le plus.\n\n## Une histoire plus légendaire que ses mémorandums\n\nLes mémorandums de Wald, une fois qu'on les ouvre, ne racontent rien de spectaculaire : une succession sèche de définitions et de démonstrations, sans une ligne sur ce que l'armée devrait faire de ces calculs. Le mathématicien Bill Casselman, qui a recherché les sources de l'anecdote pour l'American Mathematical Society, ne trouve dans les archives disponibles que deux mentions brèves de ce travail — chez l'ancien directeur du groupe, W. Allen Wallis, qui ne mentionne même pas le nom de Wald — et les mémorandums eux-mêmes. Tout le reste de l'histoire couramment racontée, dialogues et détails inclus, relève selon lui de la reconstruction plausible plutôt que du document d'époque — y compris le schéma d'avion criblé de points rouges qui illustre la plupart des versions en ligne, dont Casselman relève qu'il ne correspond à aucun appareil documenté (le plus souvent un DC-3, un cargo qui n'a guère connu le combat). Le designer Cameron Moll a depuis raconté l'avoir lui-même dessiné vers 2005, pour ses présentations sur la résolution de problèmes, bien après les faits et sans lien avec Wald.\n\nCe télescopage n'est pas seulement ironique. Le calcul de Wald portait déjà sur ce que l'absence de preuve ne prouve pas ; l'histoire qu'on en raconte aujourd'hui a suivi la même pente — la version vivante a voyagé, les cent pages d'équations qui l'ont réellement produite sont restées, pour l'essentiel, invisibles.",
+  "citation": {
+    "texte": "The problem of aircraft vulnerability led SRG to devise a technique for determining vulnerability from damage survived by our own planes.",
+    "auteur": "W. Allen Wallis",
+    "source": "« The Statistical Research Group, 1942-1945 », Journal of the American Statistical Association, vol. 75, 1980, p. 323 — cité dans Casselman, B., « The Legend of Abraham Wald », American Mathematical Society, Feature Column",
+    "url": "https://www.ams.org/publicoutreach/feature-column/fc-2016-06"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Blinder là où les avions revenus montrent des impacts ? Un statisticien a démontré l'inverse.",
+    "idee": "En 1943, l'armée américaine veut blinder les avions là où les impacts abondent sur les appareils revenus. Le mathématicien Abraham Wald objecte : les avions absents des statistiques sont justement ceux touchés ailleurs, là où l'impact ne pardonne pas.",
+    "source_courte": "Mangel & Samaniego, JASA, 1984"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Mangel, Marc & Samaniego, Francisco J.",
+      "titre": "Abraham Wald's Work on Aircraft Survivability",
+      "publication": "Journal of the American Statistical Association, vol. 79, n° 386, p. 259-267",
+      "annee": 1984,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478038",
+      "note": "Étude académique de référence sur les mémorandums de Wald ; résumé consulté, texte intégral payant."
+    },
+    {
+      "type": "institution",
+      "auteur": "Center for Naval Analyses / Defense Technical Information Center",
+      "titre": "A Method of Estimating Plane Vulnerability Based on Damage of Survivors",
+      "annee": 1943,
+      "url": "https://archive.org/details/DTIC_ADA091073",
+      "note": "Réédition de 1980 des huit mémorandums originaux de Wald (1943), en accès libre intégral."
+    },
+    {
+      "type": "web",
+      "auteur": "Casselman, Bill",
+      "titre": "The Legend of Abraham Wald",
+      "publication": "American Mathematical Society, Feature Column",
+      "annee": 2016,
+      "url": "https://www.ams.org/publicoutreach/feature-column/fc-2016-06",
+      "note": "Enquête sur les sources réelles de l'anecdote, distinguant ce qui est documenté de ce qui relève de la légende."
+    },
+    {
+      "type": "web",
+      "auteur": "Moll, Cameron",
+      "titre": "Abraham Wald and the airplane diagram with red bullet holes – here's the origin story",
+      "publication": "cameronmoll.com",
+      "annee": 2022,
+      "url": "https://cameronmoll.com/journal/abraham-wald-red-bullet-holes-origin-story",
+      "note": "Récit de première main : l'auteur raconte avoir dessiné le schéma vers 2005 pour ses propres présentations, bien après les mémorandums de Wald."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Casselman — The Legend of Abraham Wald",
+      "url": "https://www.ams.org/publicoutreach/feature-column/fc-2016-06",
+      "note": "Récit complet de l'enquête, avec le détail des sources disponibles et de celles qui manquent."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Une forme allongée simple, couverte de petites marques pleines denses sur une moitié et totalement vierge sur l'autre moitié, celle-ci traversée d'un contour en pointillé qui déborde du cadre, comme une zone qu'on ne peut pas observer. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une forme allongée couverte de marques d'un côté, vide et cerclée en pointillé de l'autre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi Abraham Wald recommande-t-il de blinder les zones qui montrent le moins d'impacts sur les avions revenus ?",
+    "choix": [
+      "Parce que les avions touchés à ces endroits ont statistiquement moins de chances d'être revenus pour qu'on compte leurs impacts",
+      "Parce que les tirs ennemis visaient délibérément le fuselage plutôt que les moteurs",
+      "Parce que le blindage est plus facile à installer techniquement sur les zones peu endommagées",
+      "Parce que les pilotes évitaient instinctivement de survoler les zones où l'ennemi visait les moteurs"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Les données ne portent que sur les avions revenus au sol. Un impact sur une zone vitale a plus de chances de faire tomber l'avion avant son retour — ce qui explique pourquoi ces zones apparaissent peu endommagées dans les statistiques des survivants, alors qu'elles sont en réalité les plus vulnérables. C'est le mécanisme même du biais du survivant : ce qui manque dans les données en dit parfois plus que ce qu'elles montrent.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-03T17:14:07.412Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T17:14:07.412Z",
+        "note": "Sources rouvertes : Casselman (AMS Feature Column, texte intégral récupéré via curl après 403 sur WebFetch) confirme mot pour mot la citation Wallis et les 'two short and rather vague mentions' + memoranda, mais ne mentionne ni 2005 ni designer pour le schéma à points rouges — seulement une moquerie sur le choix d'avion (DC-3/C-47) et l'absence d'origine documentée. Cameron Moll (cameronmoll.com/journal/abraham-wald-red-bullet-holes-origin-story, 24/03/2022) confirme avoir dessiné ce schéma vers 2005 pour ses présentations sur la résolution de problèmes. Mangel & Samaniego 1984 confirmé par Crossref (JASA vol.79 n°386 p.259-267, DOI résolvant vers tandfonline malgré 403 anti-bot). Archive.org DTIC_ADA091073 confirmé (200, 101 pages scannées, huit mémorandums de 1943). Corrections : dernière phrase du corps reformulée pour attribuer 'designer, 2005, présentation' à Cameron Moll (ajouté aux sources) et non à Casselman, en gardant le constat de Casselman sur l'absence de documentation d'origine ; source Cameron Moll ajoutée à sources[]. En relisant le reste, corrigé aussi une mécaractérisation trouvée en cours de route : Marc Mangel était qualifié d''historien des mathématiques', alors qu'il est biomathématicien (théoricien de l'écologie, UC Santa Cruz) — corrigé. Reste de la fiche (mécanisme du biais, citation, carte, quiz) vérifié cohérent avec les sources. npm run validate et npm test passent sans erreur ni alerte."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "a_revoir",
+    "empreinte": "b9871374b077fa2f",
+    "notes": [
+      "Sources rouvertes intégralement : citation de Wallis vérifiée mot pour mot dans Casselman, « The Legend of Abraham Wald » (AMS Feature Column, texte complet récupéré) ; Mangel & Samaniego 1984 (JASA vol. 79 n°386 p.259-267) confirmé existant par recherche croisée (accès payant, abstract cohérent) ; mémorandums de Wald sur archive.org (DTIC_ADA091073) confirmés — réédition 1980 de huit mémorandums de 1943, texte intégral libre. Le corps est bien confirmé mot pour mot par Casselman sur le point central : 'we have (1) two short and rather vague mentions in Wallis' memoir... and (2) the collection of the actual memoranda... That's it!' — exactement ce que dit la fiche sur les deux mentions et l'absence du nom de Wald chez Wallis.",
+      "Mais la dernière phrase du corps attribue à cette même enquête de Casselman le fait que le schéma d'avion à points rouges qui illustre la légende en ligne a été 'produit par un designer en 2005 pour une présentation, et non par Wald'. J'ai lu le texte intégral de l'article de Casselman : il ne mentionne ni 2005, ni un designer, ni aucune origine précise du schéma — il dit seulement que les images en ligne ne correspondent à rien de documenté et se moque du choix d'avion (un DC-3/C-47). Le fait '2005, designer, présentation' est réel et vérifiable (Cameron Moll, sur son propre blog cameronmoll.com/journal/abraham-wald-red-bullet-holes-origin-story, raconte avoir créé ce schéma vers 2005 pour ses propres présentations) — mais ce n'est pas dans la source citée, et la fiche attribue ce fait précis 'selon lui' (Casselman) alors qu'il vient d'ailleurs. À corriger : soit ajouter la source Cameron Moll et reformuler l'attribution, soit retirer le détail 2005/designer si on ne veut pas ajouter de source.",
+      "Reste de la fiche (carte, quiz) cohérent et non affecté."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

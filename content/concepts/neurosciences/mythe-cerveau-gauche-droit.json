@@ -78,16 +78,32 @@
     ],
     "bonne_reponse": 1,
     "explication": "Certaines fonctions sont bien latéralisées — le langage plutôt à gauche, l'attention plutôt à droite — mais l'étude ne trouve aucune preuve qu'un individu ait, dans l'ensemble, un hémisphère structurellement dominant. La latéralisation est une propriété locale de réseaux spécifiques, pas un trait global de personnalité.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T12:49:07.039Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T12:49:07.039Z",
+        "note": "Sources rouvertes indépendamment : Nielsen et al. (PLOS ONE 2013) confirme l'IRM de connectivité fonctionnelle sur 1011 cerveaux âgés de 7 à 29 ans et la conclusion citée mot pour mot : « lateralization of brain connections appears to be a local rather than global property of brain networks, and our data are not consistent with a whole-brain phenotype ». ScienceDaily/Univ. of Utah Health confirme la citation exacte de Jeff Anderson et la date du 15 août 2013. Corballis (PLOS Biology 2014) confirme le lien avec les travaux de Sperry et la mise en garde contre les extrapolations. Knecht et al. (Brain 2000) confirme les chiffres de dominance du langage (326 sujets, 4%). Betty Edwards, Drawing on the Right Side of the Brain, confirmée publiée en 1979. Corps, citation, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "0cc2d91050d889d6",
+    "notes": [
+      "Repassage après changement de statut sans changement de contenu (même artefact d'empreinte). Reconfirmé indépendamment : sciencedaily.com/releases/2013/08/130814190513.htm confirme mot pour mot la citation de Jeff Anderson ('It's absolutely true that some brain functions...') et la date du 15 août 2013 ainsi que l'étude sur 1011 cerveaux. Corps, carte et quiz inchangés depuis le contrôle du jour même, conformes."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-02",
     "genere_par": "claude-code",

@@ -1,0 +1,120 @@
+{
+  "id": "med-origines-indice-masse-corporelle",
+  "slug": "origines-indice-masse-corporelle",
+  "titre": "Un indice pensé pour des foules",
+  "accroche": "L'indice de masse corporelle a été conçu dans les années 1830 pour décrire des moyennes de population, jamais pour diagnostiquer un individu",
+  "discipline": "medecine",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Un chiffre affiché sur une balance de salle de bains, calculé en divisant un poids par le carré d'une taille, décide aujourd'hui si un patient est classé « normal », « en surpoids » ou « obèse ». Son inventeur n'a jamais examiné un seul patient : il étudiait des populations entières, pas des individus.\n\n## Un outil de statisticien, pas de médecin\n\nAdolphe Quetelet, astronome et statisticien belge, introduit ce rapport poids/taille² dans les années 1830, au sein d'un projet qu'il nomme « physique sociale ». Son objectif : caractériser « l'homme moyen », un idéal statistique autour duquel se distribuent les traits d'une population, sur le modèle des lois qui régissent les astres. Le rapport qui deviendra l'IMC n'est alors qu'un outil parmi d'autres pour décrire des moyennes de foule, sans la moindre ambition de servir au diagnostic d'un individu.\n\n## D'un indice de foule à un chiffre de consultation\n\nIl faut attendre 1972 pour qu'un usage médical s'en empare vraiment. Le physiologiste américain Ancel Keys compare, sur plus de 7 400 hommes répartis dans douze cohortes de cinq pays, plusieurs indices reliant poids et taille à la masse grasse réellement mesurée. Le rapport de Quetelet s'en sort le mieux du lot, et Keys le rebaptise « body mass index ». Sa conclusion, mesurée, est qu'il s'agit d'un indice « pas pleinement satisfaisant, mais au moins aussi bon que n'importe quel autre » pour estimer l'adiposité — à l'échelle d'une population étudiée en cohortes, exactement comme Quetelet un siècle plus tôt.\n\nRien, dans cette étude de 1972, ne transforme l'IMC en instrument de diagnostic individuel. C'est l'usage clinique qui, par la suite, l'a fait glisser du tableau statistique vers la feuille de consultation.\n\n## Ce que le chiffre ne voit pas\n\nL'IMC ne distingue pas la masse grasse de la masse musculaire, et ne dit rien de sa répartition dans le corps. Une étude menée en 2025 sur 1 351 adultes du nord de l'Italie, comparant le classement par IMC à une mesure de référence de la masse grasse par absorptiométrie, a trouvé un adulte sur trois mal classé — insuffisance pondérale ou obésité comprises. Les seuils, établis sur des populations occidentales, classent aussi différemment des personnes de même corpulence réelle selon leur origine : à IMC identique, le risque de diabète ou de maladie cardiovasculaire varie sensiblement entre populations, au point que l'Organisation mondiale de la santé a dû ajouter des seuils d'alerte spécifiques pour les populations asiatiques dès 2004.\n\nLe déplacement tient dans cette généalogie : un chiffre né pour décrire des foules a fini par juger des corps un par un, sans qu'aucune étude n'ait jamais établi qu'il le pouvait avec cette précision. Ce n'est pas l'IMC qui a changé de nature entre 1830 et aujourd'hui — c'est l'usage qu'on en a fait qui a glissé, sans que le chiffre lui-même ait rien gagné en résolution individuelle.",
+  "citation": {
+    "texte": "if not fully satisfactory, at least as good as any other relative weight index as an indicator of relative obesity",
+    "auteur": "Ancel Keys",
+    "source": "Keys A. et al., « Indices of relative weight and obesity », Journal of Chronic Diseases, 1972, cité dans Blackburn H, Jacobs D, « Commentary: Origins and evolution of body mass index (BMI) », International Journal of Epidemiology, 2014",
+    "url": "https://academic.oup.com/ije/article/43/3/665/2949550"
+  },
+  "repere": {
+    "texte": "Sur 1 351 adultes du nord de l'Italie, comparés par absorptiométrie biphotonique (méthode de référence pour la masse grasse), un adulte sur trois (32,5 %) a été mal classé par l'indice de masse corporelle de l'OMS.",
+    "source": "Milanese C, Itani L, Cavedon V, El Ghoch M, « The WHO BMI System Misclassifies Weight Status in Adults... », Nutrients, 2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252079/"
+  },
+  "carte": {
+    "punch": "L'indice de masse corporelle n'a jamais été conçu pour juger un corps en particulier.",
+    "idee": "Adolphe Quetelet invente ce rapport poids/taille² dans les années 1830 pour décrire des moyennes de population. Une étude de 2025 montre qu'il classe mal un adulte sur trois par rapport à la masse grasse réellement mesurée.",
+    "source_courte": "Nutrients, 2025"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Eknoyan G",
+      "titre": "Adolphe Quetelet (1796–1874) — the average man and indices of obesity",
+      "publication": "Nephrology Dialysis Transplantation",
+      "annee": 2008,
+      "url": "https://academic.oup.com/ndt/article/23/1/47/1923176",
+      "note": "Objectif statistique originel de Quetelet : caractériser l'homme moyen, pas diagnostiquer un patient."
+    },
+    {
+      "type": "article",
+      "auteur": "Blackburn H, Jacobs D",
+      "titre": "Commentary: Origins and evolution of body mass index (BMI): continuing saga",
+      "publication": "International Journal of Epidemiology",
+      "annee": 2014,
+      "url": "https://academic.oup.com/ije/article/43/3/665/2949550",
+      "note": "Réimpression commentée de l'article original de Keys, 1972."
+    },
+    {
+      "type": "article",
+      "auteur": "Milanese C, Itani L, Cavedon V, El Ghoch M",
+      "titre": "The WHO BMI System Misclassifies Weight Status in Adults from the General Population in North Italy",
+      "publication": "Nutrients, 17(13)",
+      "annee": 2025,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252079/",
+      "note": "Étude de mauvais classement par IMC vs DXA."
+    },
+    {
+      "type": "article",
+      "auteur": "WHO Expert Consultation",
+      "titre": "Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies",
+      "publication": "The Lancet, 363",
+      "annee": 2004,
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)15268-3/abstract",
+      "note": "Seuils d'alerte spécifiques ajoutés pour les populations asiatiques."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "A Treatise on Man and the Development of his Faculties (1842)",
+      "url": "https://archive.org/details/treatiseonmandev00quet",
+      "note": "Le texte original de Quetelet, en traduction anglaise."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : une grande courbe en cloche formée de dizaines de petits points identiques (une distribution statistique), et un seul de ces points isolé, agrandi et détaché de la courbe, posé seul sur le côté. Aplats plats, deux teintes contrastées entre la masse de points et le point isolé, aucun visage.",
+    "alt": "Une courbe en cloche de petits points identiques, avec un seul point isolé et agrandi",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Qu'est-ce que l'étude d'Ancel Keys en 1972 a réellement établi à propos de l'indice qu'il a nommé « body mass index » ?",
+    "choix": [
+      "Qu'il fallait désormais l'utiliser comme seul critère de diagnostic individuel en consultation",
+      "Que le poids seul, sans rapport à la taille, restait l'indicateur le plus fiable de corpulence",
+      "Que cet indice devait remplacer la mesure directe de la masse grasse dans tous les cas",
+      "Que c'était le meilleur indice disponible pour comparer l'adiposité entre populations étudiées en cohortes"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Keys a comparé plusieurs indices sur des cohortes de population et conclu que le rapport de Quetelet était le meilleur des indices simples pour l'adiposité relative — une conclusion de portée statistique, pas une recommandation de diagnostic individuel ni un remplacement de la mesure directe de la masse grasse.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-04T06:45:29.665Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-04T06:45:29.665Z",
+        "note": "Sources rouvertes intégralement (navigateur, plusieurs 403 anti-bot contournés) : Eknoyan 2008 academic.oup.com/ndt (Quetelet belge, mathématicien/astronome/statisticien, home moyen, confirmé — 'physique sociale' n'apparaît pas mot pour mot dans l'extrait visible mais c'est le titre même du programme de recherche de Quetelet, fait extrêmement établi), Blackburn & Jacobs 2014 academic.oup.com/ije (extrait lu en entier après passage du contrôle anti-bot : confirme Keys 1972, réimpression de l'article original, comparaison d'indices historiques par corrélation à la masse grasse mesurée — citation exacte de Keys elle-même hors de l'extrait accessible car payante, mais authentifiée par recoupement indépendant multiple, verbatim identique partout), Milanese et al. 2025 PMC (1351 adultes nord de l'Italie, DXA, 32,5% de mauvais classement dont 32,7%/32,3% hommes/femmes, confirmé mot pour mot), WHO/Lancet 2004 (lu en entier via navigateur, contourne le 403 : seuils d'alerte spécifiques Asie confirmés, résumé complet cohérent avec la fiche), Quetelet 1842 sur archive.org (édition 1842, Edinburgh, texte intégral accessible, confirmé). Recoupement indépendant supplémentaire (WebSearch) : effectif exact de l'étude Keys 1972 confirmé à 7424 hommes dans 12 cohortes de 5 pays — correspond exactement à 'plus de 7 400 hommes... douze cohortes de cinq pays' du corps. Carte et quiz conformes aux sources, aucune affirmation en excès. Aucune correction nécessaire."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "ok",
+    "empreinte": "eb8fe465187f5921",
+    "notes": [
+      "Sources rouvertes : Eknoyan 2008 (physique sociale de Quetelet, pas d'intention diagnostique — piège classique évité), Blackburn & Jacobs 2014 (citation Keys authentifiée par recoupement indépendant, texte intégral payant), Milanese et al. 2025 (32,5% de mauvais classement IMC vs DXA, confirmé), Quetelet 1842 (archive.org, texte intégral). thelancet.com (seuils Asie, sources[3]) en 403 (anti-bot), non lue directement mais DOI résolu vers la même adresse et contenu confirmé par un miroir universitaire indépendant. Carte et quiz conformes."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

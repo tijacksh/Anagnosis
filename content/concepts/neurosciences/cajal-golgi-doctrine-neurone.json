@@ -70,16 +70,32 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le prix Nobel de 1906 n'a tranché aucun débat scientifique : Golgi a maintenu sa position jusque dans son propre discours de réception. C'est la microscopie électronique, dans les années 1950, qui a mis en évidence la fente synaptique — un espace d'environ 10 à 20 nanomètres entre les neurones — confirmant définitivement la doctrine du neurone.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T12:48:54.963Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T12:48:54.963Z",
+        "note": "Sources rouvertes indépendamment, y compris via curl (nobelprize.org bloque WebFetch en 403) : citation de Golgi confirmée mot pour mot dans le PDF officiel de la conférence Nobel (« Nobel Lecture December 11, 1906 » — date exacte confirmée, y compris la clause finale sur la doctrine « tombant en défaveur »). Conférence de Cajal confirmée le lendemain, 12 décembre 1906. Nobel summary confirme « in recognition of their work on the structure of the nervous system ». Article de Grant (1999) confirme mot pour mot que l'attachement de Golgi à la théorie réticulaire, alors que la doctrine du neurone avait déjà l'adhésion de la majorité des neuroscientifiques, comptait parmi les points faibles retenus par le rapporteur du comité Nobel (Holmgren). DeFelipe (2025, PMC) confirme la méthode de Golgi (1873) et la découverte par Cajal via Simarro (1887). Corps, citation, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "f5c521906991e284",
+    "notes": [
+      "Repassage après un changement de statut sans changement de contenu (le champ quiz.statut, brouillon->valide lors de la relecture du jour, fait partie de l'empreinte et redéclenche le contrôle — artefact signalé séparément, aucune correction de fond à faire). Contenu (corps, citation, repere, sources, carte, quiz) identique à celui déjà contrôlé et relu le même jour (voir historique). Reconfirmé indépendamment : nobelprize.org/prizes/medicine/1906/golgi/lecture/ (titre exact 'The Neuron Doctrine – Theory and Facts', conférence du 11 décembre 1906, PDF de 462 Ko accessible) correspond exactement à la source citée ; le texte exact de la citation avait déjà été confirmé mot pour mot lors des deux passages précédents du même jour (WebFetch bloque désormais le PDF en 403, contournement navigateur repris avec succès pour confirmer l'existence et les métadonnées, extraction de texte du PDF non refaite car déjà établie deux fois). Rien à signaler."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-02",
     "genere_par": "claude-code",

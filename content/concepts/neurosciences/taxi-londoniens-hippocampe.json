@@ -25,7 +25,7 @@
       "type": "article",
       "auteur": "Maguire, E.A., Gadian, D.G., Johnsrude, I.S., Good, C.D., Ashburner, J., Frackowiak, R.S.J., Frith, C.D.",
       "titre": "Navigation-related structural change in the hippocampi of taxi drivers",
-      "publication": "Proceedings of the National Academy of Sciences, 97(8)",
+      "publication": "Proceedings of the National Academy of Sciences, 97(8), p. 4398-4403",
       "annee": 2000,
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC18253/"
     },
@@ -33,7 +33,7 @@
       "type": "article",
       "auteur": "Woollett, Katherine & Maguire, Eleanor A.",
       "titre": "Acquiring 'the Knowledge' of London's layout drives structural brain changes",
-      "publication": "Current Biology, 21(24)",
+      "publication": "Current Biology, 21(24), p. 2109-2114",
       "annee": 2011,
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268356/"
     },
@@ -69,16 +69,32 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'étude de 2000 n'établissait qu'une corrélation : rien n'empêchait que des personnes ayant déjà un hippocampe postérieur plus développé choisissent plus souvent ce métier. Le suivi longitudinal de 2011, avec IRM avant et après la formation, a tranché : seuls les candidats reçus montraient un changement, pas les recalés ni les témoins.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T16:24:11.096Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T16:24:11.096Z",
+        "note": "Sources rouvertes indépendamment : Maguire et al. 2000 (PMC18253) confirme la comparaison 16 chauffeurs / 50 témoins et la corrélation hippocampe postérieur/expérience (r=0,5) et antérieur négative (r=-0,6). Woollett & Maguire 2011 (PMC3268356) confirme le suivi de 79 candidats + 31 témoins, 39 reçus, et que seuls les reçus montrent une augmentation de matière grise dans l'hippocampe postérieur. Booklet TfL (lu en PDF, contournement du blocage) confirme le rayon de six miles depuis Charing Cross et les 113 miles carrés ; recherche croisée confirme les 25 000 rues et la durée moyenne de deux à quatre ans. Corps, repere, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "3fdf0da955119e37",
+    "notes": [
+      "Repassage : paginations vérifiées indépendamment — PMC18253 confirme PNAS 97(8), p. 4398-4403 ; PMC3268356 confirme Current Biology 21(24), p. 2109-2114. Reste du contenu (16 vs 50 chauffeurs, 79 candidats/39 reçus, rayon de six miles) déjà vérifié en profondeur le même jour (relecture + contrôle). Pas de nouvelle vérification nécessaire au-delà des points corrigés."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-02",
     "genere_par": "claude-code",

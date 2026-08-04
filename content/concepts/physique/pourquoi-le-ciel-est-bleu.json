@@ -1,0 +1,103 @@
+{
+  "id": "phy-pourquoi-le-ciel-est-bleu",
+  "slug": "pourquoi-le-ciel-est-bleu",
+  "titre": "Pourquoi le ciel est bleu",
+  "accroche": "Le ciel n'est pas bleu parce qu'il reflète la mer — c'est l'air lui-même qui trie les couleurs de la lumière du Soleil.",
+  "discipline": "physique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Vous levez les yeux un jour de beau temps : le ciel est bleu. Vous les levez à nouveau une heure avant le coucher du soleil : il vire au rouge et à l'orange. Le même air, la même lumière du Soleil — et pourtant deux couleurs opposées.\n\n## Un tri par la taille des ondes\n\nLa lumière du Soleil contient toutes les couleurs mélangées. En traversant l'atmosphère, elle rencontre des molécules d'azote et d'oxygène, bien plus petites que sa longueur d'onde. Ces molécules diffusent la lumière dans toutes les directions — mais pas également : plus la longueur d'onde est courte, plus la diffusion est efficace. Le bleu, dont l'onde est plus courte que celle du rouge, est diffusé bien plus fortement. Cette dépendance suit une loi précise, établie par le physicien britannique John William Strutt, Lord Rayleigh, en 1871 : l'intensité diffusée varie comme l'inverse de la puissance quatrième de la longueur d'onde.\n\nLe résultat : la lumière bleue est renvoyée dans toutes les directions du ciel, d'où qu'on regarde, tandis que la lumière rouge continue tout droit vers le sol. C'est ce bleu diffusé, venu de partout à la fois, qui forme la voûte que l'on voit au-dessus de sa tête.\n\nReste une question qu'on pose rarement : le violet a une longueur d'onde encore plus courte que le bleu, donc une diffusion théoriquement plus forte encore. Pourquoi ne voit-on pas un ciel violet ? Deux raisons se combinent : l'œil humain est plus sensible au bleu qu'au violet, et la lumière solaire elle-même contient moins de violet que de bleu à la base. Le mélange perçu penche donc vers le bleu.\n\n## Ce que le ciel n'est pas\n\nUne idée reçue veut que le ciel soit bleu parce qu'il reflète la couleur des océans. C'est plutôt l'inverse : les océans doivent une part de leur bleu à la réflexion du ciel, et la couleur du ciel s'explique entièrement par la diffusion de la lumière dans l'air, sans avoir besoin d'eau à proximité. Un ciel bleu au-dessus du Sahara le confirme.\n\nAu coucher du soleil, la lumière traverse une épaisseur d'atmosphère bien plus grande qu'à midi — elle rase l'horizon au lieu de tomber à la verticale. Sur ce trajet allongé, une part encore plus importante du bleu est diffusée en chemin et ne parvient jamais jusqu'à l'œil ; il ne reste, en ligne directe, que le rouge et l'orange, les couleurs les moins facilement déviées.\n\nLa théorie de Rayleigh, elle-même, a été affinée après coup : il l'avait d'abord fondée, en 1871, sur un modèle où l'air se comportait comme un solide élastique, avant de la reprendre en 1899 dans un cadre pleinement électromagnétique. Les théories modernes attribuent plus précisément la diffusion aux fluctuations locales de densité de l'air, une correction apportée par la suite par Einstein et Smoluchowski — la preuve qu'une explication qui fonctionne depuis un siècle et demi peut encore être précisée sans être remise en cause.",
+  "citation": null,
+  "repere": {
+    "texte": "L'intensité de la lumière diffusée par l'atmosphère varie comme l'inverse de la puissance quatrième de la longueur d'onde (loi établie par Lord Rayleigh en 1871) : diviser la longueur d'onde par deux multiplie la diffusion par seize, ce qui explique l'écart si marqué entre le bleu diffusé et le rouge qui traverse tout droit.",
+    "source": "Lord Rayleigh (J. W. Strutt), 1871, référencé dans Optica, « Lord Rayleigh: A Scientific Life »",
+    "url": "https://www.optica-opn.org/home/articles/volume_20/issue_6/features/lord_rayleigh_a_scientific_life/"
+  },
+  "carte": {
+    "punch": "Le ciel n'est pas bleu parce qu'il reflète la mer. C'est l'air qui trie la lumière.",
+    "idee": "La lumière du Soleil contient toutes les couleurs. L'air diffuse le bleu, à onde courte, bien plus que le rouge — une loi établie par Lord Rayleigh en 1871. Au coucher du soleil, la lumière traverse un trajet plus long : encore plus de bleu s'y perd en chemin, ne laissant que le rouge et l'orange.",
+    "source_courte": "NASA Space Place ; Royal Observatory Greenwich"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "NASA Space Place (JPL Edu)",
+      "titre": "Why Is the Sky Blue?",
+      "publication": "spaceplace.nasa.gov",
+      "annee": 2022,
+      "url": "https://spaceplace.nasa.gov/blue-sky/en/"
+    },
+    {
+      "type": "institution",
+      "auteur": "Royal Observatory Greenwich / Royal Museums Greenwich",
+      "titre": "Why is the sky blue?",
+      "publication": "rmg.co.uk",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/why-sky-blue",
+      "note": "Explique pourquoi le ciel n'est pas violet et infirme le mythe du reflet de l'océan."
+    },
+    {
+      "type": "article",
+      "auteur": "Optica (Optics & Photonics News)",
+      "titre": "Lord Rayleigh: A Scientific Life",
+      "publication": "optica-opn.org",
+      "url": "https://www.optica-opn.org/home/articles/volume_20/issue_6/features/lord_rayleigh_a_scientific_life/",
+      "note": "Référence bibliographique des articles de 1871 et 1899 ; loi en 1/λ⁴ ; correction moderne (Einstein/Smoluchowski)."
+    },
+    {
+      "type": "web",
+      "auteur": "HyperPhysics, Georgia State University",
+      "titre": "Blue Sky and Rayleigh Scattering",
+      "publication": "hyperphysics.gsu.edu",
+      "url": "https://hyperphysics.gsu.edu/hbase/atmos/blusky.html"
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Royal Museums Greenwich — « Why is the sky blue? »",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/why-sky-blue",
+      "note": "Article complet, avec le mythe du reflet des océans et la question du violet."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : des points de tailles croissantes représentant des longueurs d'onde, les petits points bleus dispersés dans toutes les directions depuis un axe central, les grands points rouges continuant en ligne droite. Formes géométriques pures, aplats saturés, pas de ciel figuratif ni de paysage.",
+    "alt": "Petits points bleus dispersés autour d'un axe, grands points rouges filant tout droit",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le ciel n'est-il pas violet, alors que le violet a une longueur d'onde encore plus courte que le bleu et devrait donc être encore plus diffusé ?",
+    "choix": [
+      "Parce que le violet est totalement absorbé par la couche d'ozone",
+      "Parce que l'atmosphère ne contient pas assez d'azote pour diffuser le violet",
+      "Parce que l'œil est plus sensible au bleu, et le Soleil en émet déjà moins",
+      "Parce que le violet se mélange avec le rouge du sol pour former du bleu"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le violet est diffusé plus fortement encore que le bleu, mais l'œil humain y est moins sensible et le Soleil en émet naturellement moins que de bleu à la base : le mélange perçu penche donc vers le bleu, pas vers le violet.",
+    "statut": "valide"
+  },
+  "statut": "en_retouche",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "a_revoir",
+    "empreinte": "03b3a4a723042a01",
+    "notes": [
+      "Erreur factuelle sérieuse : la fiche affirme que « les océans doivent une part de leur bleu à la réflexion du ciel », mais la source citée pour ce point précis (Royal Museums Greenwich) dit littéralement l'inverse — le bleu de l'eau vient de l'absorption sélective des grandes longueurs d'onde par les molécules d'eau, pas d'un reflet du ciel. La fiche contredit directement sa propre source.",
+      "L'attribution nommée à Einstein et Smoluchowski, ainsi que les détails « modèle de solide élastique » (1871) et « cadre pleinement électromagnétique » (1899), ne sont soutenus par aucune des 4 sources citées (la source 3 parle de « fluctuations de densité » sans nommer personne, et ne contient ni « elastic » ni « electromagnetic »).",
+      "Reformuler le paragraphe sur le bleu de la mer (probablement le supprimer ou le remplacer par l'explication réelle par absorption), et soit ajouter une source pour Einstein/Smoluchowski soit alléger l'affirmation pour rester dans ce que la source 3 couvre réellement."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

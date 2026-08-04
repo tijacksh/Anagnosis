@@ -77,16 +77,32 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le cerveau est un organe très coûteux en énergie : son inactivité à 90 % serait incompatible avec la sélection naturelle, et les lésions cérébrales, même petites, ont toujours des effets mesurables — la preuve qu'aucune zone n'est de trop.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T12:49:02.499Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T12:49:02.499Z",
+        "note": "Sources rouvertes indépendamment : NCBI Bookshelf NBK28194 (Clarke & Sokoloff) confirme mot pour mot « the brain, which represents only about 2% of total body weight, accounts for 20% of the resting total body O2 consumption ». Beyerstein (Scientific American 2004) confirme l'origine du mythe : James, The Energies of Men, publié en janvier 1907 dans Philosophical Review (confirmé indépendamment, 'we are making use of only a small part of our possible mental and physical resources'), puis préface de Lowell Thomas en 1936 au livre de Dale Carnegie (How to Win Friends and Influence People, publié en octobre 1936, confirmé indépendamment) qui attribue à tort à James un chiffre de 10%. Chudler (Neuroscience for Kids) corrobore. Corps, repere, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "715d0301f1278b90",
+    "notes": [
+      "Repassage après changement de statut sans changement de contenu (même artefact d'empreinte). Reconfirmé indépendamment : ncbi.nlm.nih.gov/books/NBK28194/ confirme mot pour mot le repere ('the brain, which represents only about 2% of total body weight, accounts for 20% of the resting total body O2 consumption'). Corps, repere, carte et quiz inchangés depuis le contrôle du jour même, conformes."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-02",
     "genere_par": "claude-code",

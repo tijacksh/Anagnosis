@@ -1,0 +1,106 @@
+{
+  "id": "sta-regression-vers-la-moyenne",
+  "slug": "regression-vers-la-moyenne",
+  "titre": "Un instructeur de vol convaincu que crier fonctionne mieux que féliciter",
+  "accroche": "Féliciter un pilote après un beau vol, et il fait moins bien ensuite. Le punir après un vol raté, et il s'améliore. L'instructeur se trompe sur la cause.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Dans les années 1960, le psychologue Daniel Kahneman enseigne aux instructeurs de l'armée de l'air israélienne que les félicitations font mieux progresser les élèves que les réprimandes. Un instructeur chevronné l'interrompt : il a souvent félicité un cadet après une manœuvre impeccable, et le cadet fait pire au vol suivant ; il l'a souvent réprimandé après une manœuvre ratée, et le cadet s'améliore ensuite. Concluez-en, dit-il, que la punition marche mieux que la récompense.\n\n## Une régularité observée un siècle plus tôt, ailleurs\n\nL'instructeur ne se trompe pas sur ce qu'il observe. Il se trompe sur ce qu'il en déduit. Kahneman raconte, dans son autobiographie pour le prix Nobel, avoir compris sur-le-champ qu'il assistait à une démonstration en direct d'un phénomène déjà décrit par Francis Galton en 1886 : la régression vers la moyenne.\n\nGalton l'avait observée sur la taille humaine. Les enfants de parents très grands sont, en moyenne, un peu moins grands que leurs parents ; les enfants de parents petits sont un peu plus grands que les leurs. La taille des enfants « régresse » vers la moyenne de la population — Galton chiffre le rapport à deux tiers : l'écart à la moyenne d'un enfant vaut, en moyenne, les deux tiers de l'écart de ses parents.\n\nLe mécanisme est purement statistique, sans rien de causal. Une performance exceptionnelle — le meilleur vol d'un cadet, ou la plus grande taille d'un couple — combine toujours une part de compétence réelle et une part de chance, ou de bruit de mesure. Un résultat extrême a de bonnes chances d'avoir bénéficié d'un peu de chance en plus de la compétence ; au vol suivant, cette chance-là a peu de raisons de se reproduire, et le résultat retombe naturellement plus près de la moyenne — qu'il y ait eu ou non des félicitations entre les deux. Symétriquement, un vol raté a de bonnes chances d'avoir cumulé un peu de malchance, qui ne se répète pas non plus.\n\n## Ce que l'instructeur ne pouvait pas voir\n\nL'instructeur félicitait après les meilleurs vols et réprimandait après les pires. Dans les deux cas, le vol suivant se rapprochait mécaniquement de la moyenne du cadet — meilleur après une réprimande, moins bon après une félicitation. Rien, dans ces deux observations, ne permettait de distinguer l'effet réel de la punition de ce simple retour statistique. Kahneman en tirera une conclusion plus générale : parce qu'on récompense après un succès et qu'on punit après un échec, et que la régression vers la moyenne suit son cours dans les deux cas, il devient presque impossible d'apprendre par l'expérience que la punition n'est pas plus efficace que la récompense — l'expérience semble, chaque fois, confirmer le contraire.\n\nLe même piège guette quiconque juge un traitement, une formation ou une réforme à partir des cas les plus extrêmes : les pires élèves d'une classe s'améliorent presque toujours l'année suivante, les meilleurs vendeurs d'un trimestre déçoivent souvent le trimestre d'après — sans qu'aucune intervention n'y soit pour rien.",
+  "citation": {
+    "texte": "This was a joyous moment, in which I understood an important truth about the world: because we tend to reward others when they do well and punish them when they do badly, and because there is regression to the mean, it is part of the human condition that we are statistically punished for rewarding others and rewarded for punishing them.",
+    "auteur": "Daniel Kahneman",
+    "source": "Autobiographie pour le prix Nobel d'économie, Fondation Nobel, 2002",
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Un instructeur de vol jurait que crier marche mieux que féliciter.",
+    "idee": "Féliciter après un bon vol, et le suivant est souvent moins bon ; réprimander après un mauvais vol, et il s'améliore. Pas l'effet de la punition : la régression vers la moyenne, décrite par Galton dès 1886 — un résultat extrême retombe naturellement plus près de la moyenne, chance ou pas.",
+    "source_courte": "Kahneman, autobiographie Nobel, 2002"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Fondation Nobel",
+      "titre": "Daniel Kahneman — Biographical",
+      "annee": 2002,
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/",
+      "note": "Récit à la première personne de l'échange avec l'instructeur de vol israélien, par Kahneman lui-même."
+    },
+    {
+      "type": "article",
+      "auteur": "Galton, Francis",
+      "titre": "Regression towards Mediocrity in Hereditary Stature",
+      "publication": "The Journal of the Anthropological Institute of Great Britain and Ireland, vol. 15, p. 246-263",
+      "annee": 1886,
+      "url": "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf",
+      "note": "Article original, fac-similé numérisé hébergé par les archives Galton — origine du terme « régression »."
+    },
+    {
+      "type": "article",
+      "auteur": "Tversky, Amos & Kahneman, Daniel",
+      "titre": "Judgment under Uncertainty: Heuristics and Biases",
+      "publication": "Science, vol. 185, n° 4157, p. 1124-1131",
+      "annee": 1974,
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "note": "Reprend l'anecdote des instructeurs de vol comme illustration académique du défaut de reconnaissance de la régression vers la moyenne."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Galton (1886) — Regression towards Mediocrity in Hereditary Stature",
+      "url": "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf",
+      "note": "Le texte fondateur, avec le diagramme original reliant la taille des parents à celle des enfants."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « répétition et écart ». Une rangée régulière de petites formes identiques de même hauteur, avec une seule forme nettement plus haute et une seule nettement plus basse qui rompent l'alignement. Deux flèches fines partent de ces deux formes extrêmes et convergent vers la ligne de hauteur commune des autres, l'une des deux flèches sortant du cadre. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une rangée de formes égales, deux extrêmes reliées par des flèches qui convergent vers la hauteur commune",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le vol suivant d'un cadet félicité est-il souvent moins bon, sans que la félicitation en soit la cause ?",
+    "choix": [
+      "Parce que la félicitation détend le cadet, qui relâche son attention au vol suivant",
+      "Parce qu'une performance exceptionnelle mêle chance et compétence, et la chance a peu de raisons de se répéter au vol suivant",
+      "Parce que les instructeurs notent plus sévèrement après avoir complimenté un élève",
+      "Parce que l'effet est propre à l'aviation militaire et ne se retrouve pas dans d'autres contextes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Une performance extrême — bonne ou mauvaise — mêle toujours compétence et hasard. Le hasard favorable d'un excellent vol ne se reproduit généralement pas au vol suivant, qui retombe donc plus près de la moyenne réelle du cadet, indépendamment de toute punition ou récompense. C'est ce même mécanisme, symétrique, qui rend un vol raté suivi d'un vol meilleur, même sans réprimande.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-03T17:12:40.888Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T17:12:40.888Z",
+        "note": "Sources rouvertes : recherche web (nobelprize.org inaccessible en direct, 403 — corroboré par citations tierces convergentes) et Thinking Fast and Slow (résumés LitCharts, El Pla Subtil) pour vérifier l'expression « côté sombre » attribuée à Kahneman : introuvable dans l'autobiographie Nobel, dans Thinking Fast and Slow chapitre 17, ni dans Tversky & Kahneman 1974. Anecdote de l'instructeur de vol, citation Kahneman et ratio des deux tiers de Galton déjà confirmés par le contrôle précédent, non retouchés. Changement : dans contenu_vulgarise, la phrase attribuant à Kahneman le terme entre guillemets « côté sombre » est reformulée sans cette attribution ('Kahneman en tirera une conclusion plus générale : ...'), l'idée de fond étant conservée et déjà appuyée par la citation authentique présente dans la fiche (le passage 'joyous moment' du Nobel). npm run validate et npm test passent sans erreur ni alerte."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "a_revoir",
+    "empreinte": "1578ec53962c324e",
+    "notes": [
+      "Trois sources rouvertes et confirmées : citation Kahneman vérifiée mot pour mot sur nobelprize.org (autobiographie Nobel 2002, y compris l'anecdote de l'instructeur de vol) ; ratio des deux tiers de Galton 1886 corroboré (document authentifié sur galton.org, p.246, titre et auteur conformes) ; anecdote des instructeurs de vol confirmée présente dans Tversky & Kahneman, Science 1974, section « Misconceptions of regression ». Point signalé : dans le corps (contenu_vulgarise, avant-dernier paragraphe), la phrase « Kahneman appellera plus tard cette confusion une part du *côté sombre* de l'intuition humaine » attribue à Kahneman un terme précis entre guillemets, introuvable dans les trois sources de la fiche et dans mes recherches complémentaires (Nobel bio, Thinking Fast and Slow, Science 1974). À vérifier : soit retrouver une source authentique pour ce terme, soit le reformuler sans attribution entre guillemets."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

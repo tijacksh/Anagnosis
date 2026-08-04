@@ -1,0 +1,113 @@
+{
+  "id": "soc-segregation-schelling",
+  "slug": "segregation-schelling",
+  "titre": "Le modèle de ségrégation de Schelling",
+  "accroche": "Des pièces de monnaie sur un damier suffisent à montrer comment une ville se sépare sans qu'aucun de ses habitants ne l'ait voulu",
+  "discipline": "sociologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "En 1971, l'économiste Thomas Schelling pose des pièces de un cent et des pièces de cinq cents sur un damier, quelques cases restant vides. Chaque pièce représente un ménage, chaque type de pièce une appartenance de groupe. La seule règle : une pièce reste sur sa case si une part suffisante de ses voisines immédiates lui ressemblent ; sinon, elle se déplace vers la case vide la plus proche qui la satisfait. Puis on recommence, case après case, jusqu'à ce que plus personne ne veuille bouger.\n\n## Le mécanisme\n\nSchelling ne donne à ses pièces qu'une préférence qui, dans les deux niveaux qu'il teste, reste compatible avec un large mélange : vouloir qu'un tiers de leurs voisines leur ressemblent, ou vouloir que la moitié leur ressemblent — jamais l'exclusivité, puisque même au seuil le plus élevé testé, la moitié du voisinage peut rester différente. Et pourtant, le résultat collectif dépend fortement de ce seuil. À un tiers, la ségrégation qui en résulte est légère : le rapport de voisins semblables à voisins différents reste inférieur à 1,5 pour 1. Portée à la moitié, cette même préférence fait basculer le damier vers une ségrégation quasi complète, avec un rapport supérieur à 4 pour 1. Entre ces deux seuils, de 35 % à 50 % de voisins exigés, Schelling observe une « fonction rapidement croissante » : un petit changement d'exigence, dans cette tranche, produit un résultat très différent à l'échelle du damier entier.\n\nCe qui frappe dans cette expérience de pensée n'est pas qu'elle produise de la ségrégation — c'est l'écart entre la modestie de la préférence individuelle et l'ampleur du résultat collectif. Personne, sur ce damier, ne cherche à vivre entouré uniquement des siens. Chaque pièce se contenterait très bien d'un voisinage largement mixte. La ségrégation n'est donc pas la somme des préférences individuelles : elle est un effet d'agrégation, un produit dérivé de milliers de petits ajustements locaux qu'aucun des acteurs n'a choisi ni même anticipé.\n\n## Ce que ça déplace\n\nLe modèle ne prétend rien démontrer sur les causes historiques réelles de la ségrégation urbaine — celle des villes américaines, par exemple, doit énormément à des pratiques discriminatoires bien réelles et documentées, comme le tracé des zones jugées peu solvables par les banques. Ce que Schelling établit est plus étroit, et plus dérangeant à sa manière : même en l'absence de toute discrimination organisée, même si chaque individu accepte une large mixité, une préférence modérée et généralisée suffit à produire une ségrégation quasi totale.\n\nLa conséquence méthodologique dépasse la seule question du logement : on ne peut plus déduire l'intention d'un groupe à partir du seul résultat observé à grande échelle. Un phénomène collectif massif peut naître de choix individuels qui, un par un, ne visaient rien de tel.",
+  "citation": null,
+  "repere": {
+    "texte": "Chez Schelling, une préférence pour un tiers de voisins semblables ne produit qu'une ségrégation légère (ratio inférieur à 1,5 voisin semblable pour 1 différent) ; portée à la moitié — un seuil qui tolère pourtant encore un voisinage à moitié différent —, cette préférence fait basculer un peuplement vers une ségrégation quasi complète (ratio supérieur à 4 pour 1).",
+    "source": "Schelling, Dynamic Models of Segregation, Journal of Mathematical Sociology, 1971",
+    "url": "https://doi.org/10.1080/0022250X.1971.9989794"
+  },
+  "carte": {
+    "punch": "Des pièces sur un damier simulent comment une ville se sépare sans que personne ne l'ait voulu",
+    "idee": "Schelling donne à chaque pièce d'un damier une préférence modeste : ne pas être trop isolée parmi des voisines différentes. Personne n'exige un voisinage exclusif, et pourtant le damier finit par se séparer en larges plages homogènes — la ségrégation comme sous-produit d'ajustements individuels.",
+    "source_courte": "Schelling, 1971"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Schelling, Thomas C.",
+      "titre": "Dynamic Models of Segregation",
+      "publication": "Journal of Mathematical Sociology, 1(2), p. 143-186",
+      "annee": 1971,
+      "url": "https://doi.org/10.1080/0022250X.1971.9989794",
+      "note": "Article original introduisant le modèle du damier et la bascule de la ségrégation entre un seuil d'un tiers (légère) et un seuil d'une moitié (frappante)."
+    },
+    {
+      "type": "article",
+      "auteur": "Hegselmann, Rainer",
+      "titre": "Thomas C. Schelling and James M. Sakoda: The Intellectual, Technical, and Social History of a Model",
+      "publication": "Journal of Artificial Societies and Social Simulation, 20(3)",
+      "annee": 2017,
+      "url": "https://www.jasss.org/20/3/15.html",
+      "note": "Retrace l'histoire du modèle, sa mécanique précise et son seuil critique."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Simulation interactive du modèle de Schelling",
+      "note": "Une implémentation exécutable du damier, pour observer la bascule en direct.",
+      "url": "http://nifty.stanford.edu/2014/mccown-schelling-model-segregation/"
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : une grille régulière de petites formes géométriques de deux teintes différentes, mélangées de façon aléatoire dans un coin de la composition et nettement séparées en deux zones distinctes dans l'autre coin. Rose prune profond et papier crème comme deux teintes du damier, encre noire pour la grille. Contours nets, aucun dégradé, aucune inscription dans l'image.",
+    "alt": "Une grille de formes mélangées d'un côté, nettement séparées en deux zones de l'autre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que montre le modèle du damier de Schelling sur la ségrégation résidentielle ?",
+    "choix": [
+      "Qu'elle prouve toujours l'existence d'une discrimination organisée et délibérée à l'origine du peuplement observé",
+      "Que des préférences individuelles modérées, sans aucune volonté d'exclusion, peuvent produire une ségrégation massive",
+      "Qu'elle disparaît automatiquement dès que les habitants tolèrent une large majorité de voisins différents des leurs",
+      "Qu'elle ne peut apparaître que si une minorité impose activement ses propres choix de logement à la majorité"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le modèle ne prouve ni discrimination organisée ni imposition d'une minorité, et il montre au contraire que la tolérance d'une part importante de voisins différents ne suffit pas à empêcher la ségrégation : une préférence pour la moitié de voisins semblables — qui tolère pourtant encore un voisinage à moitié différent — suffit à produire, collectivement, une séparation quasi complète.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-04T07:03:57.774Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-03T18:15:18.203Z",
+        "note": "PROBLÈME TROUVÉ ET DÉJÀ CORRIGÉ DANS LE TEXTE : l'article original (Schelling 1971, JMS 1(2), 143-186, PDF Berkeley, p.155) dit exactement 'a roll of pennies, a roll of nickels' — des pennies (1 cent) et des nickels (5 cents), jamais des dimes (10 cents). Le corps affirmait 'pièces de un cent et des pièces de dix cents', non soutenu par la source ; remplacé par 'pièces de un cent et des pièces de cinq cents'. Reste à faire : un contrôle indépendant qui revérifie cette correction avant revalidation. Le reste de la fiche est entièrement vérifié et conforme : seuil d'un tiers confirmé mot pour mot dans l'article original p.158 ('the segregation that results is slight when the demand is for about one-third of one's neighbors like oneself and striking when the demand is as high as one-half', en plus de la confirmation JASSS déjà notée par le contrôle) ; DOI, abstract, historique Sakoda, lien Stanford, carte et quiz tous conformes."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T19:12:40.286Z",
+        "note": "Sources rouvertes indépendamment : DOI Schelling 1971 (JMS 1(2), 143-186), copie intégrale de l'article original consultée (suz.uzh.ch) ; Hegselmann JASSS 20(3)15 2017, texte intégral ; simulation Stanford nifty.stanford.edu. Vérifié dans le texte original de Schelling lui-même (p.156) : 'a roll of pennies, a roll of nickels' — confirme indépendamment la correction déjà posée par la relecture (pennies et nickels, jamais dimes). Seuil d'un tiers confirmé mot pour mot p.158 de l'original ('slight when the demand is for about one-third... striking when... one-half'). Hegselmann 2017 confirmé : souligne l'antériorité de Sakoda (dissertation 1949), aucune revendication de primauté exclusive pour Schelling ni dans l'article ni dans la fiche. Lien Stanford fonctionnel. Corps, repère, carte et quiz entièrement relus, conformes aux sources. Aucune autre correction nécessaire."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-04T07:03:57.774Z",
+        "note": "Sources rouvertes indépendamment : PDF original Schelling 1971 (suz.uzh.ch, JMS 1(2):143-186) lu en intégralité section 'Intensity of Demand for Like Neighbors' p.158-159 — confirmé mot pour mot : 'the segregation that results is slight when the demand is for about one-third... and striking when the demand is as high as one-half', ratios 'less than 1.5' à un tiers et 'upwards of four to one' à la moitié, 'rapidly rising function of demands in the range from about 35% to 50%'. Corps, repère, explication du quiz et note de sources[0] réécrits pour distinguer le seuil d'un tiers (légère, <1,5:1) du seuil d'une moitié (frappante, >4:1) et ne plus attribuer au seul tiers un résultat de ségrégation quasi complète. Pièces de un cent/cinq cents (déjà corrigées lors du passage précédent) reconfirmées p.156. Hegselmann JASSS 20(3)15 2017 revérifié (titre, auteur, année, reconnaît l'antériorité de Sakoda sans exclusivité pour Schelling). Simulation Stanford (nifty.stanford.edu) revérifiée fonctionnelle. Carte, quiz (distracteurs, position) et reste du corps conformes, non touchés."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "a_revoir",
+    "empreinte": "655d9f184adaf05c",
+    "notes": [
+      "Sources rouvertes indépendamment et confrontées au texte original (PDF, Journal of Mathematical Sociology 1971, Vol.1, pp.143-186, via DOI -> tandfonline puis copie suz.uzh.ch) : pièces de un cent et de cinq cents confirmées mot pour mot p.156 ('a roll of pennies, a roll of nickels') -- la correction déjà posée par les passages précédents est donc bien fondée. En revanche, en lisant la section 'Intensity of Demand for Like Neighbors' (p.158-159) dans son intégralité, le corps et le repère surinterprètent le seuil d'un tiers : Schelling écrit explicitement que le résultat est 'slight' (leger) pour une exigence d'environ un tiers de voisins semblables, et 'striking' (frappant) seulement pour une exigence allant jusqu'à la moitié -- avec des ratios de voisins semblables/différents inférieurs à 1,5:1 pour une demande d'un tiers, contre plus de 4:1 pour une demande d'un demi ou plus ; la hausse est qualifiée de 'fonction rapidement croissante des demandes dans l'intervalle 35%-50%', donc progressive sur une plage, pas un basculement net juste au-dessus d'un tiers. Or le corps affirme 'au-dessus, elle se sépare presque entièrement' dès le seuil d'un tiers dépassé, et le repère affirme qu'une préférence 'pour un peu plus d'un tiers... suffit à faire basculer... vers une ségrégation quasi complète' : ces deux formulations attribuent au seuil d'un tiers un résultat (quasi-total) que Schelling réserve explicitement à une demande proche de la moitié, alors qu'il qualifie lui-même le résultat à un tiers de simplement 'léger'. A revoir : reformuler le corps et le repère pour distinguer le seuil d'un tiers (segregation legere, ratio <1,5:1) du seuil d'un demi (segregation frappante, ratio >4:1), sans changer le reste de la fiche qui est conforme. Par ailleurs, DOI Schelling 1971 résout bien vers l'article correct ; Hegselmann JASSS 20(3)15 2017 confirmé (titre, auteur, année, revue, historique Sakoda/Schelling sans revendication de primauté) ; simulation Stanford (nifty.stanford.edu) fonctionnelle et conforme à sa note. Carte (punch/idee/source_courte) et quiz (bonne réponse en position 2, distracteurs faux, pas de biais de longueur) conformes aux sources et laissés en l'état. Aucune mention du prix Nobel de Schelling (2005) dans la fiche, donc pas de problème d'attribution/datation sur ce point -- rien à vérifier ici, il n'y a rien à corriger."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -42,7 +42,7 @@
       "auteur": "Society for Neuroscience",
       "titre": "Fire Together, Wire Together: Carla Shatz on Scientific Breakthroughs",
       "publication": "Neuronline, Society for Neuroscience",
-      "annee": 2020,
+      "annee": 2019,
       "url": "https://neuronline.sfn.org/scientific-research/fire-together-wire-together-carla-shatz-on-scientific-breakthroughs"
     }
   ],
@@ -69,16 +69,32 @@
     ],
     "bonne_reponse": 1,
     "explication": "Hebb n'avait formulé qu'une hypothèse théorique en 1949. Bliss et Lømo l'ont vérifiée expérimentalement vingt-quatre ans plus tard : chez le lapin, une stimulation répétée renforce durablement la transmission synaptique. La formule courte associée à Hebb, elle, a été forgée par Carla Shatz en 1992 — pas par Hebb lui-même.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T16:24:09.008Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T16:24:09.008Z",
+        "note": "Sources rouvertes indépendamment : Bliss & Lømo (PMC1350458) confirme mot pour mot '15 out of 18 rabbits... potentiated for periods ranging from 30 min to 10 hr'. Lømo 2003 (PubMed) confirmé, récit à la première personne de sa propre découverte en 1966. Neuronline/SfN sur Carla Shatz confirme qu'elle présente la formule comme 'my little saying', utilisée en conférence avant sa publication ; recherche croisée confirme la publication dans Scientific American en septembre 1992, et la formulation proche de Löwel & Singer parue la même année dans Science ('neurons wire together if they fire together'). Corps, repere, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "ee02254407f37190",
+    "notes": [
+      "Repassage : correction bibliographique vérifiée indépendamment — neuronline.sfn.org confirme la date de publication 'Oct 10, 2019', l'année 2019 (et non 2020) est donc exacte. Reste du contenu (Bliss & Lømo 1973, formule de Carla Shatz 1992) déjà vérifié en profondeur le même jour (relecture + contrôle). Pas de nouvelle vérification nécessaire au-delà du point corrigé."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-02",
     "genere_par": "claude-code",

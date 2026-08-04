@@ -70,16 +70,32 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'hémisphère droit reçoit bien l'image — la main gauche qu'il commande peut d'ailleurs la désigner correctement. Mais chez la quasi-totalité des droitiers, la production du langage dépend de l'hémisphère gauche ; sans corps calleux pour transmettre l'information, l'hémisphère droit ne peut simplement pas la formuler en mots.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-02T12:49:00.594Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-02T12:49:00.594Z",
+        "note": "Sources rouvertes indépendamment, y compris via curl (nobelprize.org bloque WebFetch) : citation de Sperry confirmée mot pour mot dans le texte intégral de sa conférence Nobel du 8 décembre 1981 (« The left-right dichotomy in cognitive mode is an idea with which it is very easy to run wild » ... « the two hemispheres appear to work closely together as a unit, rather than one being turned on while the other idles »). Gazzaniga (PNAS 2014) confirme le patient W.J., opéré par Bogen pour épilepsie sévère par section du corps calleux. Knecht et al. (Brain 2000, PubMed) confirme l'échantillon de 326 sujets sains et la dominance du langage à droite chez 4% des droitiers marqués. Corps, citation, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "2971fc01227b1fdd",
+    "notes": [
+      "Repassage après changement de statut sans changement de contenu (même artefact d'empreinte que cajal-golgi). Reconfirmé indépendamment et intégralement : nobelprize.org/prizes/medicine/1981/sperry/lecture/ (chargé directement, texte HTML complet cette fois) confirme mot pour mot les deux citations : 'The left-right dichotomy in cognitive mode is an idea with which it is very easy to run wild' et '...the two hemispheres appear to work closely together as a unit, rather than one being turned on while the other idles.' Conférence du 8 décembre 1981 confirmée. Corps, carte et quiz inchangés depuis le contrôle du jour même, conformes."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-02",
     "genere_par": "claude-code",

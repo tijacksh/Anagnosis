@@ -10,7 +10,7 @@
   "duree_lecture_min": 3,
   "contenu_vulgarise": "Le *Manuel* d'Épictète ouvre sur une distinction, et tout le reste en découle : il y a les choses qui dépendent de nous, et celles qui n'en dépendent pas.\n\nDe nous dépendent nos jugements, nos intentions, nos désirs, nos aversions — l'usage que nous faisons de ce qui nous arrive. N'en dépendent pas notre corps, notre réputation, nos biens, la place que nous occupons. Épictète ajoute que le malheur consiste précisément à se tromper sur cette frontière : vouloir maîtriser ce qui échappe, et négliger ce qui est à portée.\n\n## Qui écrit cela\n\nÉpictète naît esclave, vers l'an 50, en Phrygie. Il appartient à un affranchi de Néron. Il boite — les sources anciennes divergent sur la cause. Affranchi, puis banni de Rome par Domitien, il finit sa vie à Nicopolis, en Épire, où il enseigne. Il n'a lui-même rien écrit : le *Manuel* et les *Entretiens* sont des notes prises par son élève Arrien.\n\nCe détail n'est pas décoratif. La dichotomie du contrôle n'est pas un conseil d'optimisation formulé par quelqu'un qui avait le choix. C'est ce qui reste quand on n'a, littéralement, aucun pouvoir sur sa propre condition.\n\n## Ce que la version contemporaine retire\n\nLe stoïcisme est aujourd'hui abondamment cité dans les milieux de la performance : garder son calme, se concentrer sur ce qu'on maîtrise, ne pas gaspiller d'énergie sur le reste. La lecture est fidèle. Elle est aussi tronquée.\n\nCe qui disparaît, c'est le cadre. Chez les stoïciens, la distinction repose sur une physique : le monde est régi par un ordre rationnel, et accepter ce qui ne dépend pas de nous, c'est s'accorder à cet ordre — non pas gagner en efficacité. Retirez la métaphysique, il ne reste qu'une technique de gestion du stress, privée de ce qui lui donnait son sens.\n\nSuit une conséquence politique inconfortable. Si l'injustice subie ne dépend pas de nous, faut-il seulement la supporter ? Épictète penche vers l'acceptation. C'est cohérent avec le reste de sa doctrine, et c'est exactement ce qu'on lui reproche depuis.\n\n## Ce que ça déplace\n\nLa dichotomie ne diminue pas ce qui vous arrive et ne promet aucun apaisement. Elle déplace la question : non plus « comment obtenir ce que je veux », mais « que puis-je vouloir qui ne dépende pas de la chance ». La réponse est étroite, et l'accepter coûte davantage que ne le laissent croire les citations qui circulent.",
   "citation": {
-    "texte": "Parmi les choses qui existent, les unes dépendent de nous, les autres n'en dépendent pas.",
+    "texte": "Parmi les choses, les unes dépendent de nous, les autres n'en dépendent pas.",
     "auteur": "Épictète",
     "source": "Manuel, I — recueilli par Arrien, traduit du grec",
     "url": "https://fr.wikisource.org/wiki/Manuel_d%E2%80%99%C3%89pict%C3%A8te_(trad._Guyau)/Texte_entier"
@@ -74,11 +74,11 @@
     "explication": "La version moderne conserve la technique — se concentrer sur ce qu'on maîtrise — mais abandonne ce qui la fondait : une physique où le monde suit un ordre rationnel auquel on s'accorde. Privée de ce cadre, la dichotomie devient un outil de gestion du stress. Épictète, ancien esclave, ne s'adressait par ailleurs pas aux puissants.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T04:54:15.328Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-02T13:48:45.146Z",
     "historique": [
       {
         "action": "valider",
@@ -87,6 +87,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T04:54:15.328Z",
         "note": "Revue du pack Philosophie — validé sans réserve"
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-02T13:48:45.146Z",
+        "note": "Sources rouvertes par WebFetch : fr.wikisource.org/wiki/Manuel_d'Épictète_(trad._Guyau)/Texte_entier (première phrase du Manuel I vérifiée mot pour mot : « Parmi les choses, les unes dépendent de nous, les autres n'en dépendent pas. », sans « qui existent »), fr.wikisource.org/wiki/Auteur:Épictète (dates ~50-138, œuvres Manuel/Entretiens recueillis par Arrien confirmés), plato.stanford.edu/entries/epictetus/ (naissance esclave ~50 apr. J.-C. à Hiérapolis en Phrygie, maître Épaphrodite affranchi administrateur à la cour de Néron, boiterie attribuée diversement à l'arthrite ou aux mauvais traitements subis en esclavage, bannissement probable par l'édit de Domitien de 89 contre les philosophes, mort à Nicopolis vers 135, lien physique stoïcienne/acceptation confirmé via l'immanence de Zeus dans l'ordre naturel et l'analogie du pied). Changement : citation.texte corrigé pour retirer « qui existent », qui ne figure pas dans la traduction Guyau/Wikisource référencée par citation.url — coller exactement à la source plutôt que changer l'url. Reste du corps (biographie, physique stoïcienne, carte, quiz) vérifié conforme aux trois sources, aucune autre correction nécessaire."
       }
     ]
   },
@@ -96,11 +104,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "bedc7806b021a2a6",
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "7b326b6ba07664b7",
     "notes": [
-      "Citation (Manuel I) : le texte réel de la page Wikisource citée (trad. Guyau, vérifié par curl direct du HTML) commence par « Parmi les choses, les unes dépendent de nous, les autres n'en dépendent pas. » — sans « qui existent ». La fiche cite « Parmi les choses qui existent, les unes dépendent de nous... », formulation qui ne se retrouve pas mot pour mot dans la source pointée par citation.url. Cette formulation ('qui existent', rendu littéral du grec ontôn) circule largement en ligne mais semble venir d'une autre traduction que celle de Guyau/Wikisource référencée. À vérifier : soit ajuster citation.texte pour coller exactement à la traduction Guyau, soit remplacer l'url par une traduction authentique et vérifiable qui porte réellement 'qui existent'. Reste de la fiche (biographie d'Épictète, Manuel/Entretiens rédigés par Arrien, boiterie aux causes disputées, physique stoïcienne comme fondement de l'acceptation, carte, quiz) confirmé conforme aux sources (Wikisource, SEP Epictetus) après lecture directe des pages."
+      "Troisième passage indépendant, portant sur le point réparé (citation). Vérifié directement fr.wikisource.org/wiki/Manuel_d'Épictète_(trad._Guyau)/Texte_entier : la première phrase du Manuel est bien 'Parmi les choses, les unes dépendent de nous, les autres n'en dépendent pas' — sans 'qui existent'. La correction (retrait de 'qui existent') est donc exacte. Reste de la fiche (biographie d'Épictète, physique stoïcienne, SEP) déjà vérifié en profondeur lors du passage de réparation immédiatement précédent. Corps, carte et quiz conformes."
     ]
   }
 }

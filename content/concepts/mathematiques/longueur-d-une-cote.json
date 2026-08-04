@@ -37,7 +37,7 @@
       "publication": "General Systems Yearbook, 6",
       "annee": 1961,
       "note": "p. 139-187. Le volume n'est pas numérisé ; c'est de là que vient l'alignement log-log (fig. 17) que Mandelbrot reprend en 1967 pour calculer les valeurs D. Les longueurs en kilomètres 987 km / 1 214 km ne viennent pas de ce texte : elles sont attribuées à un autre écrit de Richardson, publié à titre posthume en 1993 (voir la source suivante).",
-      "url": "https://gauss.math.yale.edu/fractals/references/RefRichardson.html"
+      "url": "https://web.archive.org/web/20250424015344/https://gauss.math.yale.edu/fractals/references/RefRichardson.html"
     },
     {
       "type": "web",
@@ -52,7 +52,7 @@
   "pour_aller_plus_loin": [
     {
       "titre": "Mandelbrot (1967) — How Long Is the Coast of Britain?",
-      "url": "https://users.math.yale.edu/~bbm3/web_pdfs/howLongIsTheCoastOfBritain.pdf",
+      "url": "https://web.archive.org/web/20240104183158/https://users.math.yale.edu/~bbm3/web_pdfs/howLongIsTheCoastOfBritain.pdf",
       "note": "En anglais, trois pages, mises en ligne par Mandelbrot lui-même. Donne les valeurs D, pas les longueurs en kilomètres."
     },
     {
@@ -117,12 +117,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "56a5e730fae1d153",
+    "fait_le": "2026-08-02",
+    "verdict": "corrige",
+    "empreinte": "1fa10e7b77acc582",
     "notes": [
-      "Sources rouvertes : DOI Science 1967 confirmé (CrossRef), texte intégral Mandelbrot lu via archive Wayback (PDF Yale bloqué en direct sur ce réseau), référence Richardson 1961 confirmée via la page Yale archivée. D=1,25 (Grande-Bretagne), D=1,02 (Afrique du Sud), alignement log-log de Richardson, et mot « fractale » introduit 8 ans plus tard (1975) : tous confirmés.",
-      "Signalé : les chiffres 987 km / 1 214 km (Portugal/Espagne) ne figurent pas dans l'article de Mandelbrot 1967 (qui ne donne qu'un D=1,14 pour cette frontière, aucune longueur en km) ; Wikipédia les attribue à Richardson (Collected Papers, 1993), pas à Mandelbrot. Le repere.url et pour_aller_plus_loin ne prouvent donc pas le chiffre central de la fiche ; sources[1].note surestime aussi ce que Mandelbrot reprend de Richardson."
+      "Contrôle indépendant après réparation : le problème signalé le 2026-07-31 (chiffres 987/1214 km attribués à tort à Mandelbrot) est résolu — Mandelbrot 1967 relu en entier (miroir JSTOR + Wayback), ne donne que des valeurs D, jamais de km ; les chiffres sont désormais correctement attribués à Richardson (Collected Papers, 1993, p.45-46), vérifié sur Wikipédia. Corrections supplémentaires : sources[1].url et pour_aller_plus_loin[0].url (deux pages Yale mortes/TLS invalide, erreurs reproduites en curl) remplacées par leurs archives Wayback, contenu identique relu et confirmé avant remplacement. Aucun problème de fond restant."
     ]
   }
 }

@@ -1,0 +1,112 @@
+{
+  "id": "phy-mouvement-brownien-preuve-atomes",
+  "slug": "mouvement-brownien-preuve-atomes",
+  "titre": "Le mouvement brownien, preuve indirecte des atomes",
+  "accroche": "Un grain de pollen tremble sans cesse dans l'eau, sans raison visible — et ce tremblement a fini par prouver que la matière est faite d'atomes.",
+  "discipline": "physique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1827, le botaniste Robert Brown observe au microscope des grains de pollen en suspension dans l'eau. Ils s'agitent sans relâche, dans toutes les directions, sans qu'aucune cause visible ne les pousse. Brown publie ses observations en 1828 dans le Philosophical Magazine ; il élimine l'explication la plus simple — un phénomène vital propre au pollen — mais ne trouve pas d'explication physique. Le mouvement porte son nom depuis, sans qu'on en comprenne la cause pendant près de quatre-vingts ans.\n\n## Ce que le tremblement mesure réellement\n\nLa réponse vient d'Albert Einstein, dans un article reçu en mai 1905 et publié en juillet de la même année par les Annalen der Physik. Sa proposition : le grain visible au microscope est bombardé en permanence par les molécules d'eau qui l'entourent, bien trop petites pour être vues. À chaque instant, ces chocs ne s'équilibrent jamais exactement d'un côté à l'autre du grain — et ce déséquilibre statistique suffit à le faire dériver de façon erratique. Einstein en tire une prédiction quantitative précise : la distance moyenne parcourue par le grain doit croître avec le temps selon une loi mathématique donnée, qui dépend directement du nombre de molécules présentes dans un volume donné.\n\nC'est une prédiction vérifiable — à condition de pouvoir suivre un grain, image par image, sous un microscope. C'est exactement ce que fait le physicien français Jean Perrin, entre 1908 et 1913. En mesurant le déplacement de particules en suspension, leur répartition à l'équilibre sous l'effet de la pesanteur, et leur rotation brownienne, Perrin obtient, par trois méthodes indépendantes, une même estimation du nombre de molécules contenues dans une mole d'hydrogène : de l'ordre de 6,5 à 6,9 × 10²³. Les trois méthodes, qui n'ont aucune raison de s'accorder si la théorie d'Einstein est fausse, convergent.\n\n## Un doute qui n'était pas seulement pédagogique\n\nIl est facile, aujourd'hui, d'oublier qu'au début du XXe siècle l'existence même des atomes restait une hypothèse de travail parmi les physiciens, pas un fait établi : la théorie cinétique des gaz donnait des estimations du nombre de molécules variant du simple au triple, avec une incertitude que Perrin lui-même qualifiera, dans son discours de réception du prix Nobel, de « incertitude proche de 100 % ». Le mouvement brownien change la donne parce qu'il rend visible, sous un microscope ordinaire, l'effet statistique de collisions individuelles trop petites pour être observées une par une. Ce n'est pas voir un atome — mais c'est compter ses effets, avec une précision suffisante pour trancher un débat qui durait depuis l'Antiquité.\n\nPerrin reçoit le prix Nobel de physique 1926 « pour ses travaux sur la structure discontinue de la matière, et particulièrement pour sa découverte de l'équilibre de sédimentation ». Dans son discours, il resitue sa propre découverte dans une lignée bien plus ancienne : le mouvement brownien est un phénomène « prédit par Lucrèce, soupçonné par Buffon, et établi avec certitude par Brown ». Vingt siècles séparent l'intuition du poète latin de sa vérification en laboratoire.",
+  "citation": {
+    "texte": "This phenomenon which was predicted by Lucretius, suspected by Buffon, and established with certainty by Brown, constitutes the Brownian movement.",
+    "auteur": "Jean Perrin",
+    "source": "Discontinuous Structure of Matter, conférence Nobel, 11 décembre 1926 (traduction anglaise officielle)",
+    "url": "https://www.nobelprize.org/prizes/physics/1926/perrin/lecture/"
+  },
+  "repere": {
+    "texte": "En combinant trois méthodes indépendantes — sédimentation, déplacement et rotation browniens — Perrin obtient trois estimations cohérentes du nombre de molécules contenues dans une mole d'hydrogène : 68,2, 68,8 et 65 (en dizaines de milliers de milliards de milliards), soit environ 6,5 à 6,9 × 10²³.",
+    "source": "C. W. Oseen, discours de présentation du prix Nobel de physique 1926 pour Jean Perrin, 10 décembre 1926",
+    "url": "https://www.nobelprize.org/prizes/physics/1926/ceremony-speech/"
+  },
+  "carte": {
+    "punch": "Un grain de pollen qui tremble a fini par prouver que les atomes existent.",
+    "idee": "En 1827, Robert Brown observe un mouvement erratique inexplicable sous son microscope. En 1905, Einstein le relie mathématiquement aux chocs de molécules invisibles. En vérifiant ces prédictions au laboratoire, Jean Perrin convainc les derniers sceptiques et reçoit le Nobel de physique 1926.",
+    "source_courte": "Nobel Prize, prix de physique 1926"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Robert Brown",
+      "titre": "A brief account of microscopical observations made in the months of June, July and August, 1827, on the particles contained in the pollen of plants",
+      "publication": "Philosophical Magazine, vol. 4",
+      "annee": 1828,
+      "url": "https://en.wikisource.org/wiki/The_miscellaneous_botanical_works_of_Robert_Brown/Volume_1/A_brief_account_of_microscopical_observations_made_on_the_particles_contained_in_the_pollen_of_plants",
+      "note": "Texte original de la découverte ; observations faites en juin-août 1827, publiées en 1828."
+    },
+    {
+      "type": "institution",
+      "auteur": "Albert Einstein",
+      "titre": "Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen",
+      "publication": "Annalen der Physik, 322(8), p. 549-560",
+      "annee": 1905,
+      "url": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00125712",
+      "note": "Explication théorique quantitative du mouvement brownien, revue numérisée par l'Université de Iéna."
+    },
+    {
+      "type": "institution",
+      "auteur": "Fondation Nobel",
+      "titre": "Jean Baptiste Perrin – Facts",
+      "publication": "nobelprize.org",
+      "annee": 1926,
+      "url": "https://www.nobelprize.org/prizes/physics/1926/perrin/facts/"
+    },
+    {
+      "type": "institution",
+      "auteur": "C. W. Oseen",
+      "titre": "Award ceremony speech, Nobel Prize in Physics 1926",
+      "publication": "nobelprize.org",
+      "annee": 1926,
+      "url": "https://www.nobelprize.org/prizes/physics/1926/ceremony-speech/",
+      "note": "Source des trois estimations du nombre de molécules obtenues par Perrin."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Jean Perrin — conférence Nobel « Discontinuous Structure of Matter » (1926)",
+      "url": "https://www.nobelprize.org/prizes/physics/1926/perrin/lecture/",
+      "note": "Texte intégral en anglais ; reconstitue le débat historique sur la réalité des atomes."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : un unique point plein relié par une suite de segments courts à angles aléatoires, dessinant un trajet erratique sur fond neutre. Trait fin à l'encre, un seul aplat de couleur en accent sur le point de départ. Pas de personnage, pas de microscope figuratif.",
+    "alt": "Trajet erratique en zigzag depuis un point unique",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le mouvement erratique observé par Robert Brown a-t-il fini par convaincre les derniers sceptiques de l'existence des atomes ?",
+    "choix": [
+      "Parce que Brown a vu directement les atomes au microscope",
+      "Parce qu'Einstein l'a relié statistiquement aux chocs de molécules invisibles",
+      "Parce que Perrin est parvenu à isoler un seul atome d'hydrogène",
+      "Parce que ce mouvement ne se produit que dans l'eau pure"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Brown voit les particules bouger, pas les atomes eux-mêmes. Einstein montre en 1905 que ce tremblement résulte statistiquement des chocs incessants de molécules d'eau invisibles ; Perrin vérifie ces prédictions en laboratoire par trois méthodes indépendantes entre 1908 et 1913, ce qui lui vaut le Nobel de physique 1926.",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "corrige",
+    "empreinte": "7a70b660af9375ce",
+    "notes": [
+      "URL de la source Brown corrigée : elle pointait vers une page-index Wikisource (lien rouge), remplacée par l'URL de la transcription intégrale réelle du texte de 1828.",
+      "Date de publication de l'article d'Einstein précisée : reçu en mai 1905, publié en juillet (pas « publié en mai » comme la formulation précédente le laissait entendre).",
+      "Citation de Perrin et chiffres du repère vérifiés mot pour mot et chiffre pour chiffre dans les sources citées."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -10,9 +10,9 @@
   "duree_lecture_min": 3,
   "contenu_vulgarise": "Des hommes sont enchaînés depuis l'enfance au fond d'une caverne, face à une paroi. Derrière eux brûle un feu ; entre le feu et eux, des porteurs font défiler des objets dont les ombres se projettent sur la pierre. Ces ombres sont tout ce qu'ils ont jamais vu. Ils les prennent pour la réalité — et rien, dans leur expérience, ne leur suggère le contraire.\n\nPlaton place ce récit au livre VII de la *République*. On le résume d'ordinaire ainsi : nous vivons dans l'illusion, la philosophie nous en sort. C'est exact. C'est aussi la moitié du texte.\n\n## La montée\n\nUn prisonnier est libéré. L'ascension est pénible : la lumière l'aveugle, il lui faut du temps pour distinguer d'abord les reflets dans l'eau, puis les objets eux-mêmes, enfin le soleil. Platon décrit une accoutumance progressive, pas une révélation. L'ordre des étapes compte : on ne passe pas des ombres au soleil d'un bond. La vérité ne se donne pas d'un coup ; elle s'apprend comme on apprend à voir, et celui qui prétend avoir sauté les étapes n'a rien vu du tout.\n\n## Le retour, qu'on escamote toujours\n\nVient alors la partie que les résumés laissent tomber. Le prisonnier redescend.\n\nEn bas, ses yeux habitués au soleil ne distinguent plus rien dans la pénombre. Il trébuche, se trompe sur les ombres, paraît moins compétent que ceux qui n'ont jamais bougé. On se moque de lui. Et Platon ajoute une phrase qui change la portée de tout le texte : si celui-là entreprenait de les délier et de les faire monter, ne le tueraient-ils pas, s'ils pouvaient s'emparer de lui ?\n\nDifficile de ne pas y lire une allusion à Socrate, condamné à mort en 399 avant notre ère, dont Platon avait été l'élève une vingtaine d'années avant d'écrire ces lignes. L'allégorie ne raconte pas seulement l'accès à la connaissance. Elle raconte ce que la cité fait à celui qui en revient.\n\n## Ce que ça déplace\n\nLue en entier, la caverne n'est pas un texte optimiste sur l'éducation. C'est un texte sur le coût politique du savoir. Le philosophe n'y est pas récompensé : il est désavantagé — malhabile dans le monde des ombres, et suspect pour cette raison même.\n\nReste une question déplaisante, et toujours ouverte. Celui qui est monté a-t-il le devoir de redescendre ? Platon répond oui, et c'est sur ce oui que repose toute sa politique. Rien n'oblige à le suivre.",
   "citation": {
-    "texte": "Et si celui-là entreprenait de les délier et de les faire monter, ne le tueraient-ils pas, s'ils pouvaient s'emparer de lui ?",
+    "texte": "Ne diront-ils pas que pour être monté là-haut, il a perdu la vue ; que ce n'est pas la peine d'essayer de sortir du lieu où ils sont, et que si quelqu'un s'avise de vouloir les en tirer et les conduire en haut, il faut le saisir et le tuer, s'il est possible.",
     "auteur": "Platon",
-    "source": "La République, livre VII, 517a — traduit du grec",
+    "source": "La République, livre VII, 517a — trad. Victor Cousin (1822)",
     "url": "https://fr.wikisource.org/wiki/La_R%C3%A9publique_(trad._Cousin)/Livre_septi%C3%A8me"
   },
   "repere": null,
@@ -75,11 +75,11 @@
     "explication": "Le récit ne s'arrête pas à la sortie : Platon fait redescendre celui qui a vu le soleil. Aveuglé par la pénombre, il devient malhabile là où les autres sont à l'aise, et Platon suggère qu'on pourrait le tuer — écho probable au procès de Socrate. C'est cette seconde moitié qui fait de la caverne un texte politique, et non un simple éloge de l'instruction.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T04:54:15.328Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-02T13:50:12.511Z",
     "historique": [
       {
         "action": "valider",
@@ -88,6 +88,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T04:54:15.328Z",
         "note": "Revue du pack Philosophie — validé sans réserve"
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-02T13:50:12.511Z",
+        "note": "Sources rouvertes en intégral : trad. Cousin sur Wikisource (fr.wikisource.org/wiki/La_République_(trad._Cousin)/Livre_septième, texte brut récupéré par curl), plato.stanford.edu/entries/plato-ethics-politics/, fr.wikisource.org/wiki/Apologie_de_Socrate_(Platon). citation.texte remplacé par la formule exacte, mot pour mot, de la trad. Cousin ('Ne diront-ils pas que pour être monté là-haut, il a perdu la vue ; que ce n'est pas la peine d'essayer de sortir du lieu où ils sont, et que si quelqu'un s'avise de vouloir les en tirer et les conduire en haut, il faut le saisir et le tuer, s'il est possible.'), vérifiée caractère pour caractère dans le HTML de la page pointée par citation.url — qui reste donc correcte et n'a pas changé. citation.source précisé en 'trad. Victor Cousin (1822)' pour ne plus laisser croire à une traduction générique. Vérifié aussi : les deux urls déjà corrigées par le contrôle précédent (SEP plato-ethics-politics et Wikisource Apologie_de_Socrate) sont bien présentes, s'ouvrent, et sont authentiques (SEP : entrée réelle, first published 2003, substantive revision 2017 — conforme à sources[]; l'article y discute bien la contrainte à gouverner et le retour du philosophe, en 519e-521b, ce qui soutient la note 'structure du livre VII et place du retour dans l'argument'; Apologie de Socrate : page authentique du procès de 399 av. J.-C.). Reste du corps revérifié : structure du récit (montée progressive, retour, moqueries, menace) confirmée par la trad. Cousin lue en intégral ; lien avec le procès de Socrate présenté à juste titre comme lecture probable, pas comme fait établi ; carte et quiz cohérents avec le texte corrigé, bonne réponse et distracteurs valides. Corps 403 mots, dans la fourchette. npm run validate et npm test passent (0 erreur, 0 alerte, 30/30 tests)."
       }
     ]
   },
@@ -97,11 +105,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "4c1333a48bbbdab0",
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "838ab808ff6274e8",
     "notes": [
-      "Sources rouvertes : trad. Cousin sur Wikisource (livre VII, lu en intégral via curl) confirme l'allégorie, la montée progressive, le retour du prisonnier aveuglé, les moqueries et la menace de mort si on le tenait — mais avec un texte réel qui dit « ... il faut le saisir et le tuer, s'il est possible », très différent mot pour mot de citation.texte (« Et si celui-là entreprenait de les délier et de les faire monter, ne le tueraient-ils pas, s'ils pouvaient s'emparer de lui ? »). La formule de la fiche est proche d'une autre traduction en ligne (proche de celle de Bernard Suzanne sur plato-dialogues.org, 516a-517a) mais n'est identique ni à celle-ci ni à Cousin. citation.url pointe donc vers un texte qui ne porte pas cette phrase mot pour mot : à corriger soit en réécrivant citation.texte pour coller à Cousin, soit en re-sourçant vers la traduction dont la phrase est réellement extraite. Corrigé de mon côté (urls/références mineures vérifiées) : url SEP cassée (plato-republic, 404) remplacée par l'entrée réelle plato-ethics-politics (titre et année de révision substantielle 2017 corrigés, dans sources[] et pour_aller_plus_loin[]) ; url Apologie de Socrate précisée vers Apologie_de_Socrate_(Platon) plutôt que la page de désambiguïsation Platon/Xénophon. Reste conforme aux sources : structure du récit, lien avec le procès de Socrate (399 av. J.-C., présenté à juste titre comme une lecture probable et non un fait établi), carte et quiz."
+      "Troisième passage indépendant, portant sur le point réparé (citation). Vérifié directement fr.wikisource.org/wiki/La_République_(trad._Cousin)/Livre_septième : la nouvelle citation.texte ('Ne diront-ils pas que pour être monté là-haut, il a perdu la vue [...] il faut le saisir et le tuer, s'il est possible.') est reproduite mot pour mot, caractère pour caractère. citation.source ('trad. Victor Cousin (1822)') cohérente avec l'attribution de la page. Reste de la fiche (biographie de Platon, lien avec le procès de Socrate, SEP sur la contrainte à gouverner) déjà vérifié en profondeur lors du passage de réparation immédiatement précédent, non re-rouvert intégralement ici. Corps, carte et quiz conformes."
     ]
   }
 }

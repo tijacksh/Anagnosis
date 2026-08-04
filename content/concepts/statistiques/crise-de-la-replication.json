@@ -1,0 +1,97 @@
+{
+  "id": "sta-crise-de-la-replication",
+  "slug": "crise-de-la-replication",
+  "titre": "Refaire cent études, et n'en retrouver qu'un tiers des résultats",
+  "accroche": "97 % des études psychologiques publiées annonçaient un effet significatif. En les refaisant à l'identique, une équipe n'en retrouve que 36 %.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 2015, un consortium de plus de deux cents chercheurs — le projet Open Science Collaboration — publie dans Science le résultat d'une entreprise inhabituelle : reprendre cent études de psychologie déjà publiées, et les refaire à l'identique, avec les mêmes protocoles, pour voir si elles retrouvent les mêmes résultats. Les cent études originales affichaient, sans exception ou presque, un effet statistiquement significatif — 97 % d'entre elles. Une fois rejouées, seules 36 % des réplications retrouvent un résultat significatif.\n\n## Un seuil qui ne garantit pas ce qu'on croit\n\nLe seuil conventionnel de signification statistique — la fameuse valeur p inférieure à 0,05 — est censé limiter à 5 % le risque de conclure à tort qu'un effet existe. Ce chiffre suppose cependant qu'une seule analyse ait été tentée sur les données. Or un article de 2011, resté célèbre sous le nom de « False-Positive Psychology », montre par la simulation qu'en combinant quatre choix d'analyse ordinaires et anodins — ajouter des observations en cours de route, tester deux mesures différentes du même effet, contrôler ou non pour une variable comme le genre, ou choisir après coup quelles conditions comparer — le taux de faux positifs à p < 0,05 grimpe à 61 %. Les auteurs, Joseph Simmons, Leif Nelson et Uri Simonsohn, insistent : ce comportement n'est pas de la malhonnêteté délibérée, mais la conséquence de décisions qui semblent chacune raisonnable prise isolément — ce qu'ils nomment les « degrés de liberté du chercheur ».\n\nLe chercheur en épidémiologie John Ioannidis avait anticipé le problème dès 2005, dans un article dont le titre ne fait pas de détour : « Why Most Published Research Findings Are False ». Il y démontre, par un raisonnement probabiliste, que plus un champ de recherche laisse de flexibilité dans la conception des études, les définitions retenues et les analyses menées, moins les résultats qui y sont publiés ont de chances d'être vrais — quand bien même chaque étude prise isolément respecterait les règles.\n\n## Ce que la crise a changé, concrètement\n\nLe résultat de l'Open Science Collaboration n'est pas une accusation de fraude généralisée : la grande majorité des études rejouées suivaient honnêtement les règles en vigueur au moment de leur publication. C'est le système d'incitations qui produisait le problème — publier presque exclusivement des résultats positifs pousse, sans qu'aucun chercheur n'ait besoin de tricher consciemment, à ne retenir que les analyses qui « fonctionnent ».\n\nLa discipline en a tiré des pratiques désormais courantes : préenregistrer les hypothèses et le plan d'analyse avant de recueillir les données, pour interdire de choisir l'analyse après avoir vu le résultat, et publier aussi les résultats négatifs. La leçon dépasse la psychologie : un résultat statistiquement significatif ne dit rien, à lui seul, de la probabilité qu'il se reproduise — il faut aussi savoir combien d'analyses ont été essayées avant de le trouver.",
+  "citation": null,
+  "repere": {
+    "texte": "97 % des cent études de psychologie originales rapportaient un résultat statistiquement significatif. Une fois reproduites à l'identique par le projet Open Science Collaboration, seules 36 % des réplications retrouvent un résultat significatif.",
+    "source": "Open Science Collaboration, « Estimating the reproducibility of psychological science », Science, vol. 349, n° 6251, 2015",
+    "url": "https://doi.org/10.1126/science.aac4716"
+  },
+  "carte": {
+    "punch": "97 % des études affichaient un effet réel. En les refaisant, une équipe n'en a retrouvé qu'un tiers.",
+    "idee": "En 2015, l'Open Science Collaboration reproduit cent études de psychologie : 97 % annonçaient un résultat significatif, seules 36 % le retrouvent une fois rejouées. Pas de fraude — des choix d'analyse anodins gonflent le taux de faux positifs bien au-delà des 5 % attendus.",
+    "source_courte": "Open Science Collaboration, Science, 2015"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Open Science Collaboration",
+      "titre": "Estimating the reproducibility of psychological science",
+      "publication": "Science, vol. 349, n° 6251, aac4716",
+      "annee": 2015,
+      "url": "https://doi.org/10.1126/science.aac4716",
+      "note": "Réplication à l'identique de cent études publiées : 97 % de résultats significatifs à l'origine, 36 % en réplication."
+    },
+    {
+      "type": "article",
+      "auteur": "Ioannidis, John P. A.",
+      "titre": "Why Most Published Research Findings Are False",
+      "publication": "PLOS Medicine, 2(8): e124",
+      "annee": 2005,
+      "url": "https://doi.org/10.1371/journal.pmed.0020124",
+      "note": "Article en accès libre. Démontre par le raisonnement probabiliste le lien entre flexibilité méthodologique d'un champ et fiabilité de ses résultats publiés."
+    },
+    {
+      "type": "article",
+      "auteur": "Simmons, Joseph P., Nelson, Leif D. & Simonsohn, Uri",
+      "titre": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant",
+      "publication": "Psychological Science, 22(11), p. 1359-1366",
+      "annee": 2011,
+      "url": "https://doi.org/10.1177/0956797611417632",
+      "note": "Simulation montrant qu'un cumul de choix d'analyse anodins fait grimper le taux de faux positifs à 61 %."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Ioannidis (2005) — Why Most Published Research Findings Are False",
+      "url": "https://doi.org/10.1371/journal.pmed.0020124",
+      "note": "En accès libre intégral, sans jargon statistique excessif."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « recouvrement ». Deux formes ovales de même taille, superposées avec un net décalage : la zone commune reste pleine, mais l'une des deux formes est presque entièrement vidée en silhouette, seule une fine bande pleine subsistant à sa jonction avec l'autre. La forme vidée déborde du cadre à droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Deux formes ovales décalées, l'une pleine, l'autre presque entièrement vidée sauf à leur jonction",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le taux de résultats significatifs peut-il chuter fortement quand on reproduit une étude à l'identique ?",
+    "choix": [
+      "Parce que les chercheurs qui reproduisent une étude manquent en général d'expérience par rapport aux auteurs originaux",
+      "Parce que certains effets réels s'atténuent naturellement avec le temps entre deux mesures",
+      "Parce que la flexibilité dans le choix des analyses gonfle, sans fraude, le taux de faux positifs des études originales bien au-delà du seuil visé de 5 %",
+      "Parce que les revues scientifiques exigent des seuils de signification plus stricts pour les réplications que pour les études originales"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le seuil de 5 % de faux positifs ne vaut que si une seule analyse a été tentée. En pratique, plusieurs choix raisonnables — quelles observations garder, quelles mesures comparer — sont souvent essayés jusqu'à en trouver un significatif, ce qui gonfle mécaniquement le taux réel de faux positifs, sans qu'aucun chercheur n'ait besoin de tricher consciemment. Une réplication préenregistrée, qui fixe l'analyse à l'avance, retrouve alors moins souvent l'effet annoncé.",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-03",
+    "verdict": "corrige",
+    "empreinte": "5c92cb085c24b7f8",
+    "notes": [
+      "Trois sources rouvertes en intégral (OSC 2015 Science, Ioannidis 2005 PLOS Medicine, Simmons/Nelson/Simonsohn 2011 Psych Science) : tous les chiffres cités (97 %, 36 %, 61 %, 270 chercheurs) et toutes les références bibliographiques sont exacts et confirmés directement dans les textes intégraux. Corrigé : le corps annonçait « quatre choix d'analyse » combinés mais n'en listait que trois (ajout d'observations, deux mesures, choix après coup des conditions) ; ajouté le quatrième exemple manquant, « contrôler ou non pour une variable comme le genre », qui correspond à la Situation C du Tableau 1 de Simmons et al. (2011), nécessaire pour retrouver le taux combiné de 60,7 % (arrondi à 61 %). Citation/repère et quiz vérifiés conformes aux sources ; bonne réponse (index 2) correcte, distracteurs faux et non fabriqués."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

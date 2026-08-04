@@ -1,0 +1,97 @@
+{
+  "id": "soc-liens-faibles-granovetter",
+  "slug": "liens-faibles-granovetter",
+  "titre": "La force des liens faibles",
+  "accroche": "Pour retrouver un emploi, une vague connaissance croisée deux fois par an aide souvent plus qu'un ami proche",
+  "discipline": "sociologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1973, le sociologue Mark Granovetter interroge 282 cadres et employés de Newton, dans la banlieue de Boston, sur la façon dont ils ont trouvé leur dernier emploi. Parmi ceux qui l'ont obtenu grâce à un contact personnel, il leur demande ensuite à quelle fréquence ils voyaient ce contact.\n\n## Le mécanisme\n\nL'intuition voudrait que ce soit un proche — famille, ami intime — qui rende ce genre de service. C'est l'inverse. Seuls 16,7 % des personnes concernées voyaient leur contact souvent ; 55,6 % le voyaient occasionnellement, et 27,8 % rarement. Une vague connaissance a débloqué la situation bien plus souvent qu'un ami proche.\n\nGranovetter en tire une explication structurelle. Vos amis proches partagent déjà, pour l'essentiel, votre propre réseau : vous fréquentez les mêmes personnes, vous savez déjà ce qu'ils savent. Une connaissance plus lointaine, elle, appartient à un cercle social différent du vôtre — un autre quartier, un autre employeur, un autre cercle d'amis. C'est précisément parce que le lien est faible, occasionnel, peu chargé affectivement, qu'il traverse la frontière entre deux réseaux fermés et transporte une information que personne dans votre entourage proche ne détenait déjà.\n\nGranovetter généralise ce constat : les liens forts referment les groupes sur eux-mêmes, redondants en information ; les liens faibles sont les ponts qui relient des groupes entre eux, et ce sont eux qui font circuler ce qui est nouveau — une offre d'emploi, une rumeur, une idée. Un réseau fait uniquement de liens forts serait une collection de petits clans étanches les uns aux autres.\n\n## Ce que ça déplace\n\nL'intuition sociale ordinaire valorise les liens forts : on compte sur ses proches, on se méfie des relations de façade. Granovetter renverse la hiérarchie sans nier la valeur affective des liens forts — il montre seulement qu'ils sont mal placés structurellement pour faire circuler une information neuve.\n\nPrès de cinquante ans plus tard, une expérience menée sur LinkedIn a testé la thèse à une tout autre échelle : en faisant varier, pour plus de 20 millions d'utilisateurs, la proportion de liens faibles suggérés par l'algorithme, des chercheurs ont observé un effet causal réel des liens faibles sur les changements d'emploi — avec toutefois une limite que Granovetter n'avait pas mesurée : au-delà d'un certain degré de faiblesse, le lien devient trop ténu pour transmettre grand-chose. Ce n'est donc pas le lien le plus faible qui aide le plus, mais un lien modérément faible — assez éloigné pour apporter du neuf, assez présent pour qu'on lui réponde.",
+  "citation": null,
+  "repere": {
+    "texte": "Sur les personnes ayant retrouvé un emploi grâce à un contact personnel, 17 % seulement voyaient ce contact souvent ; la majorité, 83 %, ne le fréquentait qu'occasionnellement ou rarement.",
+    "source": "Granovetter, enquête de Newton (Massachusetts), 1973",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/225469"
+  },
+  "carte": {
+    "punch": "Pour trouver un emploi, une vague connaissance aide souvent plus qu'un ami proche",
+    "idee": "Une enquête de 1973 le montre : parmi les gens ayant trouvé un emploi grâce à un contact, la plupart ne voyaient ce contact qu'occasionnellement. Vos amis proches partagent déjà votre réseau ; une connaissance lointaine, elle, apporte une information que personne autour de vous ne détenait.",
+    "source_courte": "Granovetter, 1973"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Granovetter, Mark S.",
+      "titre": "The Strength of Weak Ties",
+      "publication": "American Journal of Sociology, 78(6)",
+      "annee": 1973,
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/225469",
+      "note": "Enquête sur 282 personnes ayant changé d'emploi à Newton, Massachusetts."
+    },
+    {
+      "type": "article",
+      "auteur": "Rajkumar, Karthik ; Saint-Jacques, Guillaume ; Bojinov, Iavor ; Brynjolfsson, Erik ; Aral, Sinan",
+      "titre": "A causal test of the strength of weak ties",
+      "publication": "Science, 377(6612)",
+      "annee": 2022,
+      "url": "https://www.science.org/doi/10.1126/science.abl4476",
+      "note": "Expérience randomisée sur plus de 20 millions d'utilisateurs de LinkedIn."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Getting a Job: A Study of Contacts and Careers",
+      "note": "Le livre de Granovetter qui détaille l'enquête de Newton dans son intégralité.",
+      "url": "https://www.bibliovault.org/BV.landing.epl?ISBN=9780226518404"
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : deux amas denses de cercles fortement reliés entre eux par des traits épais, connectés l'un à l'autre par un unique trait fin qui traverse l'espace vide entre les deux amas. Rose prune profond, papier crème, encre noire. Contours nets, aucun dégradé, aucune inscription dans l'image.",
+    "alt": "Deux amas de cercles densément reliés, connectés entre eux par un unique trait fin",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi une connaissance éloignée aide-t-elle souvent plus qu'un ami proche à trouver un emploi ?",
+    "choix": [
+      "Parce que les amis proches refusent plus souvent de rendre ce genre de service",
+      "Parce qu'une connaissance éloignée appartient à un autre réseau et détient une information que vos proches n'ont pas",
+      "Parce que les employeurs préfèrent recruter par de vagues connaissances plutôt que par cooptation directe",
+      "Parce que les amis proches ne travaillent en général pas dans le même secteur"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les amis proches partagent déjà votre réseau et savent souvent ce que vous savez déjà. Une connaissance éloignée appartient à un cercle social différent : c'est ce pont entre deux réseaux distincts, et non un trait de caractère ou de secteur, qui transporte une information neuve.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-03T18:15:13.588Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-03T18:15:13.588Z",
+        "note": "Toutes les sources rouvertes en texte intégral. Granovetter 1973 (AJS 78(6), 1360-1380, PDF JSTOR) : chiffres 16,7%/55,6%/27,8% (N=54) et échantillon total N=282 confirmés mot pour mot p.1371 ; repère 17%/83% est un arrondi fidèle. Rajkumar et al. 2022 (Science 377(6612), 1304-1310) : abstract confirmé mot pour mot — plus de 20 millions d'utilisateurs, période de 5 ans, 2 milliards de nouveaux liens, 600 000 nouveaux emplois, relation en U inversé avec rendements décroissants au-delà d'un certain seuil de faiblesse du lien. Getting a Job (Granovetter) confirmé sur BiblioVault, University of Chicago Press. Carte et quiz cohérents, distracteurs faux et non simplement moins bons."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "ok",
+    "empreinte": "14d6ea493d14e65d",
+    "notes": [
+      "Sources rouvertes indépendamment (PDF intégral AJS via snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf, p.1371 : échantillon total N=282, sous-échantillon interviewé N=54, chiffres 16,7%/55,6%/27,8% exacts au mot près — repère 17%/83% est un arrondi fidèle ; abstract Semantic Scholar pour Rajkumar et al. 2022, Science 377(6612) : auteurs, plus de 20 millions d'utilisateurs sur 5 ans, 2 milliards de nouveaux liens, 600 000 nouveaux emplois, relation en U inversé et rendements décroissants au-delà d'un certain seuil confirmés mot pour mot ; page BiblioVault de Getting a Job confirmée comme notice éditeur authentique, pas une recension. Le lieu Newton (Massachusetts), absent du texte de l'article AJS lui-même qui dit seulement « a Boston suburb », est confirmé par une source secondaire indépendante (Stanford Report) — cohérent, non fabriqué. Carte et quiz cohérents avec les sources, distracteurs faux et non simplement moins bons, ratio de longueur bonne réponse/distracteur le plus long = 1,2 (sous le seuil de 1,4). Aucune correction nécessaire."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "bio-dionee-compte-potentiels-action",
+  "slug": "dionee-compte-jusqu-a-cinq",
+  "titre": "La dionée qui compte jusqu'à cinq",
+  "accroche": "Une dionée ne se referme jamais sur un seul frôlement. Il lui en faut un second — et le compte continue bien après la fermeture du piège.",
+  "discipline": "biologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Un insecte se pose au fond d'un piège de dionée et effleure l'un des poils sensitifs qui hérissent sa surface. Rien ne se passe. Le piège reste grand ouvert, comme si de rien n'était. On imagine souvent la plante carnivore comme un ressort au contact hypersensible — ce n'est pas le cas. Une seule stimulation ne déclenche jamais la fermeture.\n\nEn 2016, une équipe menée par le biophysicien Rainer Hedrich, à l'université de Würzburg, publie dans Current Biology le mécanisme exact de ce délai. Chaque flexion d'un poil sensitif génère un potentiel d'action — une impulsion électrique de même nature que celles qui parcourent les nerfs animaux, bien qu'ici sans le moindre neurone. Un seul potentiel ne fait rien. Mais si un second survient dans les quinze à vingt secondes qui suivent, le piège se referme en une fraction de seconde. En dessous de ce rythme, le compteur se réinitialise et il faut recommencer à zéro.\n\n## Le compte continue après la fermeture\n\nCe deuxième seuil n'est que le début. Une fois la proie enfermée, ses mouvements de panique continuent de plier les poils sensitifs, et chaque flexion ajoute un nouveau potentiel d'action au décompte. Au-delà de trois, la plante active les gènes qui produisent les enzymes digestives. Au-delà de cinq, leur production atteint un niveau proche du maximum.\n\nLa dionée ajuste ainsi son investissement à la réalité de sa capture. Sécréter des enzymes digestives a un coût métabolique réel ; les gaspiller sur une goutte de pluie ou un brin d'herbe tombé par hasard dans le piège serait une perte pure. En exigeant une agitation prolongée — donc une proie vivante qui se débat — avant d'engager la digestion, la plante limite la dépense aux occasions qui la justifient vraiment.\n\n## Compter sans neurone\n\nLe mot « compter » n'est pas ici une métaphore commode : la plante distingue bel et bien un nombre d'événements, dans une fenêtre de temps donnée, et ajuste sa réponse en conséquence. Ce qu'il faut préciser, en revanche, c'est ce que ce comptage n'est pas — une décision, un calcul conscient. C'est un seuil électrique : chaque potentiel d'action laisse une empreinte transitoire dans les cellules du piège, et si un second survient avant qu'elle ne s'efface, les deux signaux se somment et déclenchent la fermeture.\n\nCe que cette empreinte transitoire est concrètement, l'étude de 2016 le laissait ouvert — les auteurs le disaient eux-mêmes : la biomécanique de la fermeture était bien comprise, pas ce qui, à l'échelle de la cellule, la déclenche. Une équipe associant à nouveau Hedrich et des collègues japonais a comblé ce manque en 2020, en imageant en direct le calcium de dionées transgéniques (Suda et al., Nature Plants) : chaque potentiel d'action y déclenche une vague de calcium qui part du poil stimulé, se propage dans la feuille, puis s'estompe en l'espace d'une petite minute. Si un second potentiel arrive avant que cette vague ne soit retombée, les deux se chevauchent — et c'est le franchissement d'un seuil de concentration calcique, ainsi mis en évidence, qui déclenche mécaniquement la fermeture.\n\nCe qui frappe surtout, c'est le vocabulaire commun. Potentiel d'action, seuil calcique, fenêtre temporelle : les termes qu'on croyait réservés au tissu nerveux animal décrivent, à l'identique, le fonctionnement d'une plante dépourvue de tout système nerveux. L'électricité cellulaire comme langage du vivant a été inventée bien avant les neurones — et n'a jamais cessé d'être partagée entre des règnes qu'on imagine, à tort, cloisonnés.",
+  "citation": null,
+  "repere": {
+    "texte": "Deux potentiels d'action déclenchent la fermeture du piège s'ils surviennent à moins de vingt secondes d'intervalle ; au-delà de cinq, la production d'enzymes digestives atteint un niveau proche du maximum.",
+    "source": "Böhm et al., « The Venus Flytrap Dionaea muscipula Counts Prey-Induced Action Potentials to Induce Sodium Uptake », Current Biology, 2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4751343/"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Böhm, Jennifer et al. (Hedrich, Rainer, dir.)",
+      "titre": "The Venus Flytrap Dionaea muscipula Counts Prey-Induced Action Potentials to Induce Sodium Uptake",
+      "publication": "Current Biology, 26(3), 286-295",
+      "annee": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4751343/",
+      "note": "Étude princeps : seuils de 2, 3 et 5 potentiels d'action, mécanisme calcique, activation des gènes de digestion."
+    },
+    {
+      "type": "institution",
+      "auteur": "Julius-Maximilians-Universität Würzburg",
+      "titre": "How the Venus Flytrap Counts",
+      "publication": "uni-wuerzburg.de",
+      "annee": 2020,
+      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/how-the-venus-flytrap-counts/",
+      "note": "Communiqué de l'équipe de Hedrich sur le mécanisme de mémoire calcique du comptage."
+    },
+    {
+      "type": "article",
+      "auteur": "Suda, Hiraku et al. (avec Hedrich, Rainer et Hasebe, Mitsuyasu)",
+      "titre": "Calcium dynamics during trap closure visualized in transgenic Venus flytrap",
+      "publication": "Nature Plants, 6(10), 1219-1224",
+      "annee": 2020,
+      "url": "https://doi.org/10.1038/s41477-020-00773-1",
+      "note": "Étude princeps du mécanisme laissé ouvert en 2016 : imagerie calcique en direct sur dionée transgénique, montrant la vague de calcium déclenchée par chaque potentiel d'action et le seuil dont le franchissement, par chevauchement de deux vagues, déclenche la fermeture."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Phys.org — Hunting secrets of the Venus flytrap (hint: they can count)",
+      "url": "https://phys.org/news/2016-01-secrets-venus-flytrap-hint.html",
+      "note": "En anglais ; présentation grand public de l'étude de 2016."
+    }
+  ],
+  "illustration": {
+    "prompt": "Illustration conceptuelle abstraite : une série de cinq impulsions électriques nettes et régulières le long d'une ligne horizontale, les deux premières rapprochées et surlignées d'un même accent de couleur qui déclenche la fermeture symbolique de deux formes en amande. Aplats à l'encre sur papier crème. Aucune figuration botanique réaliste, aucun symbole écrit.",
+    "alt": "Une série d'impulsions électriques dont les deux premières, rapprochées, déclenchent la fermeture d'une forme en amande",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la dionée n'active-t-elle la production d'enzymes digestives qu'après plusieurs stimulations, et non dès la fermeture du piège ?",
+    "choix": [
+      "Parce que les enzymes mettent plusieurs heures à se synthétiser quel que soit le signal reçu",
+      "Parce que produire des enzymes digestives a un coût métabolique qu'il vaut mieux réserver à une proie vivante qui se débat réellement",
+      "Parce que le piège doit d'abord vérifier la taille de la proie avant de produire quoi que ce soit",
+      "Parce que les premières stimulations servent uniquement à évacuer l'air contenu dans le piège"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Sécréter des enzymes digestives coûte de l'énergie à la plante. En exigeant une agitation prolongée — donc plusieurs potentiels d'action supplémentaires après la fermeture — avant d'engager la digestion, la dionée évite de gaspiller cette ressource sur une capture accidentelle, comme une goutte de pluie ou un débris, qui ne génère pas ce nombre de stimulations.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-03T17:16:21.372Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T15:04:53.099Z",
+        "note": "Sources rouvertes en entier : Böhm et al. 2016 (PMC4751343, texte intégral), communiqué Würzburg 2020 (uni-wuerzburg.de), phys.org 2016. Confirmé sur le PMC : seuils de 2/3/5 PA et fenêtre de 15-20s exacts ; absence de hausse calcique cytoplasmique dans les cellules glandulaires lors de la fermeture à 2 PA ('there is no increase in the cytoplasmic calcium level in the gland cells') ; mécanisme cellulaire de la fermeture rapide explicitement non identifié par les auteurs ('not the cellular mechanisms that induce the destabilization...'); calcium bien lié à l'expression des gènes de digestion à partir du 3e PA. Communiqué Würzburg et phys.org relus, ne contredisent rien d'autre dans la fiche ; note de source sur le 'mécanisme de mémoire calcique du comptage' laissée telle quelle, exacte comme description du communiqué. Reste de la fiche (repere, carte, quiz) relu et confirmé sans changement. Changé : dernier paragraphe ('Compter sans neurone') réécrit pour ne plus attribuer à la source un mécanisme calcique de fermeture à 2 PA qu'elle dit elle-même ne pas connaître ; dit désormais que le mécanisme cellulaire de sommation reste non identifié, sans reprendre le rôle du calcium déjà couvert au paragraphe précédent."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-03T17:16:21.372Z",
+        "note": "Sources rouvertes en entier : Böhm et al. 2016 (Current Biology, PMC4751343, texte intégral) — reconfirme seuils 2/3/5 PA, fenêtre 15-20s, et la déclaration explicite des auteurs que le mécanisme cellulaire de la fermeture à 2 PA n'était pas identifié en 2016 ('not the cellular mechanisms that induce the destabilization...'). Communiqué Würzburg 2020 (uni-wuerzburg.de) relu en entier : vague de calcium par stimulus, pic en quelques secondes, largement dissipée après une minute, chevauchement si second stimulus avant retour au repos, franchissement d'un seuil qui déclenche la fermeture. Étude primaire de 2020 retrouvée et vérifiée via PubMed (PMID 33020606, résumé complet) et confirmation d'auteurs : le DOI 10.1038/s41477-020-00773-1 cité par le contrôle sous le nom 'Iosip et al.' est en réalité Suda, Mano, Toyota, Fukushima, Mimura, Tsutsui, Hedrich, Tamada, Hasebe, 'Calcium dynamics during trap closure visualized in transgenic Venus flytrap', Nature Plants 6(10):1219-1224, 2020 — Iosip est autrice d'un article distinct (transporteurs ioniques) non concerné ici ; l'erreur d'attribution du contrôle n'a pas été reprise dans la fiche. Changé : dernier paragraphe (« Compter sans neurone ») réécrit pour distinguer explicitement ce que Böhm et al. 2016 ignoraient (le mécanisme cellulaire de la fermeture à 2 PA, admis par les auteurs eux-mêmes) de ce que Suda et al. 2020 ont depuis établi par imagerie calcique (vague de calcium par potentiel d'action, décroissance en environ une minute, chevauchement et franchissement d'un seuil calcique déclenchant la fermeture), sans réattribuer ce savoir à l'étude de 2016. Ajouté Suda et al. 2020 comme source propre et cliquable dans sources[] (url DOI), la fiche ne s'appuyant plus seulement sur le communiqué de presse pour ce fait scientifique précis. Reste de la fiche (seuils 2/3/5, fenêtre 15-20s, coût métabolique, repère, carte, quiz) non modifié, déjà confirmé par le contrôle précédent. npm run validate (0 erreur/0 alerte, 574 mots) et npm test (44/44) passent."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "ok",
+    "empreinte": "11da5cd6bb3189b2",
+    "notes": [
+      "Sources rouvertes en entier : Böhm et al. 2016 (Current Biology, PMC4751343) confirme mot pour mot les seuils (2 PA en 15-20s pour la fermeture, >3 PA pour l'expression génique, 5 PA pour un niveau quasi maximal) et la déclaration explicite des auteurs que le mécanisme cellulaire de la fermeture à 2 PA n'était pas identifié en 2016 ('we did not focus on the molecular events involved in fast trap closure'). Suda et al. 2020 (Nature Plants, via PubMed PMID 33020606) confirme la vague de calcium par stimulus partant du poil et se propageant dans la feuille, sa décroissance progressive, et le franchissement d'un seuil calcique par chevauchement des deux vagues qui déclenche la fermeture. Communiqué Würzburg 2020 relu, cohérent. Phys.org 2016 relu, cohérent. Le dernier paragraphe du corps (réécrit par la réparation précédente) distingue désormais correctement ce que 2016 ignorait de ce que 2020 a établi, sans contradiction interne. Repère, carte et quiz confirmés conformes aux sources. Rien à corriger."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-03",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "carte": {
+    "punch": "Une dionée ne se ferme jamais sur un seul contact. Il lui en faut deux.",
+    "idee": "Chaque poil sensitif d'une dionée génère, quand on le plie, un potentiel d'action comparable à celui d'un nerf animal. Un seul ne fait rien ; un deuxième, dans les vingt secondes, referme le piège. Au-delà de cinq, la plante engage sa digestion — un comptage électrochimique sans le moindre neurone.",
+    "source_courte": "Böhm et al., Current Biology, 2016"
+  }
+}

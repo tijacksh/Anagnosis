@@ -12,8 +12,8 @@
   "citation": {
     "texte": "L'évolution du monde peut être comparée à un feu d'artifice qui vient de se terminer : quelques mèches rouges, cendres et fumée.",
     "auteur": "Georges Lemaître",
-    "source": "L'Hypothèse de l'atome primitif (1946)",
-    "url": "https://openlibrary.org/works/OL1297510W"
+    "source": "L'expansion de l'espace, Revue des Questions Scientifiques, 20 novembre 1931",
+    "url": "https://doi.org/10.1007/s10714-011-1213-7"
   },
   "repere": null,
   "sources": [
@@ -76,11 +76,11 @@
     "explication": "La relativité interdit de dépasser la vitesse de la lumière en se déplaçant à travers l'espace. L'expansion n'est pas un déplacement : c'est la distance elle-même qui croît, et rien ne borne ce taux de croissance. C'est pour cette raison que le décalage vers le rouge cosmologique ne se calcule pas avec la formule de Doppler.",
     "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-29T19:34:48.946Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-02T16:27:36.216Z",
     "historique": [
       {
         "action": "valider",
@@ -97,6 +97,14 @@
         "par": "claude-code",
         "le": "2026-07-29T22:37:24.575Z",
         "note": "Ajout de la carte partageable — le texte validé de la fiche est inchangé."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-02T16:27:36.216Z",
+        "note": "Rouvert et confirmé : Lemaître 1927 (ADS 1927ASSB...47...49L), Hubble 1929 (PMC522427, DOI 10.1073/pnas.15.3.168), Davis & Lineweaver 2004 (arXiv astro-ph/0310808 — récession supraluminique sans violer la relativité, exclusion Doppler à 23 sigma), IAU 2018 (iauarchive.eso.org/news/pressreleases/detail/iau1812 — 4060/11072 votants, 78% pour). Point signalé : citation Lemaître attribuée à tort à L'Hypothèse de l'atome primitif (1946). Vérifié via Luminet, Gen. Relativ. Gravit. 43, 2911-2928 (2011), DOI 10.1007/s10714-011-1213-7 (lu intégralement, p.2922) : la citation exacte (\"the evolution of the world can be compared to a display of fireworks...\") est reproduite par Luminet comme extrait de L'expansion de l'espace, Lemaître, Revue des Questions Scientifiques, 20 novembre 1931 — et non du livre de 1946/1950. citation.source et citation.url corrigés en conséquence, texte de la citation inchangé (contenu confirmé conforme). Corps, quiz, carte relus et conformes aux sources ; distracteurs bien faux."
       }
     ]
   },
@@ -111,12 +119,11 @@
     "source_courte": "Davis & Lineweaver, PASA, 2004"
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "a_revoir",
-    "empreinte": "b561557eaba21fac",
+    "fait_le": "2026-08-02",
+    "verdict": "ok",
+    "empreinte": "6b82eed365de7cf2",
     "notes": [
-      "Sources rouvertes en ligne et confirmées : Lemaître 1927 (ADS, rendu vérifié par navigateur — G. Lemaître, Annales de la Société Scientifique de Bruxelles A47, 1927, bibcode 1927ASSB...47...49L, titre exact) ; Hubble 1929 (DOI résout vers pnas.org/doi/full/10.1073/pnas.15.3.168 — 403 anti-bot au fetch direct, mais contenu identique confirmé via le miroir PMC522427 : PNAS 15(3), p.168-173, 1929) ; Davis & Lineweaver 2004 (arXiv astro-ph/0310808 confirmé : PASA 21(1), le résumé établit que des galaxies peuvent avoir une vitesse de récession supérieure à c sans violer la relativité et exclut l'interprétation Doppler à 23 sigma — soutient le corps et la carte) ; IAU 2018 (iauarchive.eso.org/news/pressreleases/detail/iau1812 confirmé : vote clos le 26 octobre 2018, résultat annoncé le 29 octobre 2018, 4060 votants sur 11072 invités (37%), 78% pour / 20% contre / 2% abstention — chiffres exacts). Quiz et carte relus, cohérents avec les sources ; distracteurs bien faux et non 'moins bons' ; pas de déséquilibre de longueur.",
-      "À REVOIR — citation Lemaître : citation.source attribue la phrase du feu d'artifice à « L'Hypothèse de l'atome primitif (1946) » (url OpenLibrary OL1297510W, vérifiée : c'est bien le bon ouvrage au catalogue). Mais Jean-Pierre Luminet, historien des sciences spécialiste de Lemaître (arXiv:1503.08304, « Lemaître's Big Bang »), cite ce même passage exact comme provenant de l'article « The Expanding Universe », Lemaître, M.N.R.A.S. 91, 490-501 (mars 1931) — pas du livre de 1946/1950 (ADS confirmé : https://ui.adsabs.harvard.edu/abs/1931MNRAS..91..490L/abstract, DOI 10.1093/mnras/91.5.490). Des sources de vulgarisation (Wikiquote, blogs scientifiques) attribuent au contraire la citation au livre de 1946/1950, mais aucune ne donne de page précise. Je n'ai pas pu accéder au texte intégral du livre de 1946 pour trancher (archive.org le restreint en emprunt sans recherche interne, Google Books ne montre pas d'extrait, la page Kolbe Foundation qui héberge une version partielle de 'On the Primeval Atom' ne contient pas le passage). Impossible de confirmer mot pour mot dans l'œuvre indiquée par la fiche. À trancher par un relecteur humain : soit vérifier le texte intégral du livre de 1946/1950 pour s'assurer que Lemaître y a repris ce passage de 1931, soit corriger citation.source vers 'The Expanding Universe, M.N.R.A.S. 91, 490 (1931)' avec l'URL ADS ci-dessus."
+      "Troisième passage indépendant, portant sur le point réparé (attribution de la citation Lemaître). Confirmé par recherche croisée indépendante (plusieurs sources concordantes, dont l'ouvrage 'The Atom of the Universe' et des analyses académiques de Mitton) : la citation 'The evolution of the world can be compared to a display of fireworks that has just ended' provient bien de Lemaître, 'L'expansion de l'espace', Revue des Questions Scientifiques, XX (4e série), 20 novembre 1931, p. 408 — et non du livre de 1946 'L'Hypothèse de l'atome primitif' comme la fiche l'affirmait avant réparation. La correction (source et url) est donc exacte ; le texte de la citation elle-même était déjà correct et inchangé. Reste de la fiche (Lemaître 1927, Hubble 1929, Davis & Lineweaver 2004, IAU 2018) déjà vérifié en profondeur lors du passage de réparation immédiatement précédent. Corps, quiz et carte conformes."
     ]
   }
 }
