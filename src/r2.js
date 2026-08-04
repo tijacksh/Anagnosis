@@ -84,6 +84,45 @@ export function signer({ methode, cle, corps = Buffer.alloc(0), maintenant = new
   };
 }
 
+/**
+ * Une URL signée dans la requête elle-même (query string), pas dans un en-tête —
+ * la forme qu'un navigateur ou `URLSession` peut suivre sans rien savoir de SigV4.
+ *
+ * Sert exclusivement au banc d'essai en attendant le Worker de validation d'abonnement
+ * (`docs/passation-audio.md`) : une URL présignée contourne la même protection que le
+ * Worker doit fournir en production, donc jamais dans le manifeste publié — seulement
+ * pour éprouver le téléchargement côté client sur une fiche choisie à la main.
+ */
+export function urlPresignee(cle, { expireSecondes = 3600, maintenant = new Date() } = {}) {
+  const { accountId, accessKeyId, secretAccessKey, bucket, hote } = config();
+  const amzDate = maintenant.toISOString().replace(/[:-]|\.\d{3}/g, '');
+  const dateStamp = amzDate.slice(0, 8);
+  const cheminEncode = `/${bucket}/${cle.split('/').map(encodeURIComponent).join('/')}`;
+  const portee = `${dateStamp}/${REGION}/${SERVICE}/aws4_request`;
+
+  const parametres = new URLSearchParams({
+    'X-Amz-Algorithm': 'AWS4-HMAC-SHA256',
+    'X-Amz-Credential': `${accessKeyId}/${portee}`,
+    'X-Amz-Date': amzDate,
+    'X-Amz-Expires': String(expireSecondes),
+    'X-Amz-SignedHeaders': 'host',
+  });
+  parametres.sort();
+  const requeteCanonique = [
+    'GET', cheminEncode, parametres.toString(),
+    `host:${hote}\n`, 'host', 'UNSIGNED-PAYLOAD',
+  ].join('\n');
+
+  const aSigner = [
+    'AWS4-HMAC-SHA256', amzDate, portee,
+    createHash('sha256').update(requeteCanonique).digest('hex'),
+  ].join('\n');
+  const signature = hmac(cleDeSignature(secretAccessKey, dateStamp), aSigner).toString('hex');
+
+  parametres.set('X-Amz-Signature', signature);
+  return `https://${hote}${cheminEncode}?${parametres.toString()}`;
+}
+
 async function requete(methode, cle, { corps, typeContenu } = {}) {
   const { url, entetes } = signer({ methode, cle, corps });
   if (typeContenu) entetes['content-type'] = typeContenu;

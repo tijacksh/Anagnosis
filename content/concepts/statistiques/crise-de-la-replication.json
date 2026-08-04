@@ -74,12 +74,21 @@
     "explication": "Le seuil de 5 % de faux positifs ne vaut que si une seule analyse a été tentée. En pratique, plusieurs choix raisonnables — quelles observations garder, quelles mesures comparer — sont souvent essayés jusqu'à en trouver un significatif, ce qui gonfle mécaniquement le taux réel de faux positifs, sans qu'aucun chercheur n'ait besoin de tricher consciemment. Une réplication préenregistrée, qui fixe l'analyse à l'avance, retrouve alors moins souvent l'effet annoncé.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-04T10:25:07.483Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-04T10:25:07.483Z",
+        "note": "Trois sources rouvertes intégralement et reconfirmées indépendamment du contrôle : OSC 2015 Science (97 % originaux significatifs, 36 % en réplication, 100 études — PDF KU Leuven), Ioannidis 2005 PLOS Medicine (raisonnement probabiliste PPV, titre/auteur confirmés), Simmons/Nelson/Simonsohn 2011 Psych Science (Tableau 1 : quatre degrés de liberté du chercheur — variables dépendantes, taille d'échantillon, covariable genre, sous-ensemble de conditions — combinés donnent 60,7 % de faux positifs, arrondi à 61 % dans la fiche). Repère conforme à la source. Quiz : bonne réponse correcte au vu des sources, distracteurs faux, ratio de longueur bonne réponse/distracteur le plus long = 1,40 (seuil test respecté). Carte conforme au corps. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-03",

@@ -17,7 +17,7 @@
   },
   "repere": null,
   "carte": {
-    "punch": "Une tasse de thé mal reconnue a donné naissance à la méthode qui valide les essais cliniques.",
+    "punch": "Un pari sur une tasse de thé a donné naissance à la méthode qui valide les essais cliniques.",
     "idee": "En 1935, pour tester une femme qui prétend deviner l'ordre du lait et du thé, Ronald Fisher conçoit un protocole à huit tasses : un classement parfait par hasard n'arrive qu'une fois sur 70. De cette anecdote naissent l'hypothèse nulle et la randomisation, piliers de l'expérimentation moderne.",
     "source_courte": "Fisher, The Design of Experiments, 1935"
   },
@@ -64,14 +64,23 @@
     ],
     "bonne_reponse": 0,
     "explication": "Un ordre qui paraît arbitraire à l'œil peut malgré tout suivre une régularité cachée, perceptible ou exploitable sans que l'expérimentateur en ait conscience. Seul un tirage réellement aléatoire garantit qu'aucun facteur caché ne vienne fausser le test — c'est ce que Fisher appelle la base physique de la validité du test.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-04T10:25:35.750Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-04T10:25:35.750Z",
+        "note": "Sources rouvertes et reconfirmées : Fisher, The Design of Experiments (1935, archive.org djvu.txt) — les deux citations vérifiées mot pour mot (section 5 p.13, section 6 p.14), et confirmation que Fisher ne rapporte jamais l'issue réelle du test dans le livre. Richardson (2021), Significance 18(5):34-37 — confirme l'identité de Muriel Bristol (via la biographie de Joan Fisher Box, pas via Fisher) et les deux versions discordantes de l'issue (Salsburg/Fairfield Smith : succès parfait, p=.014 ; Box : résultat imparfait avec erreurs, p=.243 non significatif). Corps, quiz (vérifié via le passage de Fisher sur la « physical basis of the validity of the test », section 9) et repère/citation conformes. Doute précis sur la carte : carte.punch disait « Une tasse de thé mal reconnue... », ce qui affirme implicitement que la dame a échoué le test — or le corps explique justement que l'issue réelle est incertaine et contestée entre deux témoignages tardifs discordants. J'ai reformulé en « Un pari sur une tasse de thé... » pour ne plus trancher un point que les sources elles-mêmes ne tranchent pas. Cette correction touche le texte (carte), donc l'empreinte a changé : fiche renvoyée pour qu'un contrôle indépendant revérifie la carte corrigée avant remise en circulation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-03",
