@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#F4EFE1">
+<title>Anagnosis — un concept par jour, et sa source</title>
+<meta name="description" content="Chaque matin, une notion expliquée en trois minutes. Vérifiée, sourcée, et la source reste visible jusque dans la carte que vous partagez. Un seul concept par jour, jamais plus.">
+<meta property="og:title" content="Anagnosis — un concept par jour, et sa source">
+<meta property="og:description" content="Chaque matin, une notion expliquée en trois minutes. Vérifiée, sourcée, jusque dans la carte que vous partagez.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./icone-512.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icone-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Martian+Mono:wght@400..600&display=swap" media="print" onload="this.media='all'">
+<style>
+:root {
+  --papier: #F4EFE1;
+  --encre: #1B1A17;
+  --texte-2: #5B5449;
+  --texte-3: #8A8375;
+  --filet: #D9CFB8;
+  --marque: #3D5588;      /* Federal Blue — même encre que l'icône */
+  --jaune: #FFE800;
+  --display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --corps: 'Newsreader', ui-serif, Georgia, serif;
+  --mono: 'Martian Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --marge: 24px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #241F1A; --encre: #EDE3D0; --texte-2: #B3A794; --texte-3: #7D7365;
+    --filet: #3D362C; --marque: #5C7CBF;
+  }
+}
+* , *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--papier); color: var(--encre);
+  font-family: var(--corps); font-size: 17px; line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: 720px; margin: 0 auto; padding: 0 var(--marge); }
+h1, h2, p, ul { margin: 0; }
+a { color: inherit; }
+
+/* grain — une seule fois, sur la composition entière (charte §3) */
+.grain {
+  position: fixed; inset: 0; z-index: 5; pointer-events: none; opacity: .045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='90' height='90' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) { .grain { opacity: .07; mix-blend-mode: screen; } }
+
+.sur-titre {
+  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--marque);
+}
+
+/* ---- en-tête ---- */
+.entete {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 28px var(--marge) 0; max-width: 720px; margin: 0 auto;
+}
+.marque-nom {
+  font-family: var(--mono); font-size: 13px; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase;
+}
+
+/* ---- hero ---- */
+.hero { padding: 64px 0 56px; }
+.hero h1 {
+  font-family: var(--display); font-weight: 800; letter-spacing: -.025em;
+  font-size: clamp(34px, 6vw, 54px); line-height: 1.06; margin-top: 14px;
+}
+.hero p.accroche {
+  font-size: 19px; line-height: 1.55; color: var(--texte-2);
+  max-width: 46ch; margin-top: 20px;
+}
+
+/* ---- motif : répétition & écart (systeme-illustration.md §3) ---- */
+.motif { margin-top: 40px; }
+.motif svg { display: block; width: 100%; height: auto; max-width: 420px; }
+
+/* ---- boutons store ---- */
+.stores { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 40px; }
+.store-bouton {
+  display: inline-flex; align-items: center; gap: 10px;
+  border: 1px solid var(--encre); padding: 13px 18px;
+  text-decoration: none; color: var(--encre);
+  font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
+  opacity: .55; cursor: default;
+}
+.store-bouton .glyphe { font-family: var(--display); font-weight: 800; font-size: 17px; }
+.store-bouton .texte { display: flex; flex-direction: column; gap: 2px; text-align: left; }
+.store-bouton .texte b { font-size: 13px; letter-spacing: 0; text-transform: none; font-weight: 600; }
+
+/* ---- sections ---- */
+section.bloc { padding: 56px 0; border-top: 1px solid var(--filet); }
+section.bloc h2 {
+  font-family: var(--display); font-weight: 700; letter-spacing: -.015em;
+  font-size: 26px; margin-top: 10px;
+}
+.trois { display: grid; gap: 32px; margin-top: 36px; grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 640px) { .trois { grid-template-columns: 1fr; } }
+.trois article .num {
+  font-family: var(--mono); font-size: 11px; color: var(--marque); letter-spacing: .08em;
+}
+.trois article h3 {
+  font-family: var(--display); font-weight: 700; font-size: 17px; margin: 8px 0 8px;
+  letter-spacing: -.01em;
+}
+.trois article p { color: var(--texte-2); font-size: 15px; line-height: 1.55; }
+
+/* ---- disciplines ---- */
+.disciplines { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 32px; }
+.discipline { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
+.point { width: 8px; height: 8px; flex: none; }
+
+/* ---- pied ---- */
+footer {
+  border-top: 1px solid var(--filet); padding: 32px var(--marge) 48px;
+  max-width: 720px; margin: 0 auto;
+  font-family: var(--mono); font-size: 11.5px; color: var(--texte-3);
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="entete">
+  <span class="marque-nom">Anagnosis</span>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="sur-titre">Un concept par jour</p>
+    <h1>Le scroll passif,<br>remplacé par une source.</h1>
+    <p class="accroche">
+      Chaque matin, une notion expliquée en trois minutes — philosophie,
+      neurosciences, physique, anthropologie et vingt autres disciplines.
+      Vérifiée, sourcée, et la source reste visible jusque dans la carte
+      que vous partagez.
+    </p>
+
+    <div class="motif" aria-hidden="true">
+      <svg viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="6"   width="420" height="16" fill="var(--marque)"/>
+        <rect x="0" y="34"  width="420" height="16" fill="var(--marque)"/>
+        <rect x="0" y="62"  width="420" height="16" fill="var(--marque)"/>
+        <rect x="0" y="90"  width="300" height="16" fill="var(--marque)"/>
+        <rect x="0" y="118" width="420" height="16" fill="var(--marque)"/>
+        <path d="M300 0 L420 0 L420 140 L220 140 Z" fill="var(--papier)"/>
+        <path d="M300 0 L220 140" stroke="var(--encre)" stroke-width="4"/>
+      </svg>
+    </div>
+
+    <div class="stores">
+      <span class="store-bouton" role="note">
+        <span class="texte"><span>Bientôt disponible</span><b>App Store</b></span>
+      </span>
+      <span class="store-bouton" role="note">
+        <span class="texte"><span>Bientôt disponible</span><b>Google Play</b></span>
+      </span>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <p class="sur-titre">Le principe</p>
+    <h2>Un verrou, pas une liste.</h2>
+    <div class="trois">
+      <article>
+        <p class="num">01</p>
+        <h3>Un seul concept, chaque jour</h3>
+        <p>Pas de fil, pas de liste à rattraper. Un concept accessible à la
+           fois — c'est la contrainte qui fait tenir l'habitude, pas une
+           option de plus à activer.</p>
+      </article>
+      <article>
+        <p class="num">02</p>
+        <h3>Vérifié, jamais fabriqué</h3>
+        <p>Chaque source est cliquable, chaque citation authentique. Sans
+           preuve vérifiable, la fiche ne s'écrit pas — c'est la règle qui
+           prime sur toutes les autres.</p>
+      </article>
+      <article>
+        <p class="num">03</p>
+        <h3>La source jusque dans le partage</h3>
+        <p>La carte que vous partagez en story porte le même crédit que la
+           fiche. Ce qui circule reste vérifiable, jusqu'au bout de la
+           chaîne.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="bloc" id="disciplines">
+    <p class="sur-titre">La taxonomie</p>
+    <h2>Vingt-trois disciplines, une seule cadence.</h2>
+    <div class="disciplines">
+      {{DISCIPLINES}}
+    </div>
+  </section>
+
+  <section class="bloc">
+    <p class="sur-titre">Rejoindre</p>
+    <h2>Disponible prochainement.</h2>
+    <p class="accroche" style="margin-top:16px">
+      Anagnosis termine ses derniers réglages avant l'arrivée sur l'App
+      Store et Google Play. Gratuit pour toujours sur l'essentiel — un
+      concept par jour, dans les disciplines de votre choix.
+    </p>
+    <div class="stores">
+      <span class="store-bouton" role="note">
+        <span class="texte"><span>Bientôt disponible</span><b>App Store</b></span>
+      </span>
+      <span class="store-bouton" role="note">
+        <span class="texte"><span>Bientôt disponible</span><b>Google Play</b></span>
+      </span>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© Anagnosis</span>
+  <span>Aucune publicité. Aucun compte requis pour le socle gratuit.</span>
+</footer>
+
+</body>
+</html>

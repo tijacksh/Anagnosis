@@ -10,14 +10,15 @@ contrôle qualité, outil de validation Admin, export vers le backend.
 Ce n'est **pas** l'app iOS, qui vivra dans un dépôt séparé. Ne pas ajouter ici de
 code client, d'UI produit ou d'appel réseau vers un backend.
 
-Seule exception : le dossier `app/` et `src/build-app.js`, qui produisent
-l'**esquisse jouable** — une PWA assemblée à partir des fiches validées. Elle sert à
-éprouver le parcours et la direction visuelle sur un vrai téléphone, sans Xcode ni
-App Store.
+Seule exception : le dossier `site/` et `src/build-site.js`, qui produisent la
+**vitrine publique** — anagnosis.fr, une page statique qui présente le produit et
+renvoie vers les stores. Pas de client à y faire vivre : elle décrit l'app, elle ne
+la remplace pas.
 
-Ce n'est pas le client iOS et ça ne doit pas en devenir la base. Le natif vivra dans
-son propre dépôt, avec la synchronisation iCloud (CloudKit) que le web ne peut pas
-avoir.
+**L'esquisse jouable a existé et a été retirée (2026-08-04).** Une PWA assemblée à
+partir des fiches validées servait à éprouver le parcours sans Xcode ni App Store,
+le temps que les clients natifs existent. Devenue inutile une fois iOS et Android
+testables en direct sur simulateur/appareil réel — la garder aurait été du code mort.
 
 ## À lire avant toute tâche de fond
 
@@ -43,7 +44,7 @@ npm run asonoriser # quelles fiches publiables n'ont pas d'audio à jour
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
-npm run app        # assemble l'esquisse jouable → export/app/ et export/site/
+npm run site       # assemble la vitrine + le contenu signé → export/site/
 npm test           # tests
 ```
 
@@ -84,12 +85,13 @@ Avant de proposer un lot à la relecture :
 6. Lancer `npm test` — les tests contrôlent aussi le contenu réel du dépôt
    (équilibre des quiz, unicité des sources).
 
-## Publier le contenu vers le client iOS
+## Publier le contenu vers les clients iOS et Android
 
-`npm run app` écrit aussi `export/site/contenu/concepts.json` et sa signature Ed25519.
-C'est le fichier que l'app télécharge pour recevoir de nouvelles fiches **sans passer
-par l'App Store** : le corpus embarqué reste le plancher, le fichier reçu ne fait
-qu'ajouter.
+`npm run site` écrit `export/site/contenu/concepts.json` et sa signature Ed25519.
+C'est le fichier que les deux apps téléchargent pour recevoir de nouvelles fiches
+**sans passer par l'App Store ni le Play Store** : le corpus embarqué reste le
+plancher, le fichier reçu ne fait qu'ajouter. L'audio suit le même principe, servi
+par le Worker Cloudflare (`worker/audio.js`, `docs/passation-audio.md`).
 
 La projection des fiches vient de `src/publier.js`, et c'est la **même** que celle de
 `npm run export`. Ne pas en écrire une seconde : une fiche n'aurait plus la même forme
@@ -98,7 +100,7 @@ deux — chez les seuls lecteurs qui ont déjà téléchargé.
 
 **La clé privée n'entre jamais dans le dépôt.** Elle vit dans
 `~/.anagnosis/signature-privee.pem` et, pour la construction Netlify, dans la variable
-`ANAGNOSIS_CLE_PRIVEE`. Sans clé, `npm run app` ne publie **pas** le dossier `contenu/`
+`ANAGNOSIS_CLE_PRIVEE`. Sans clé, `npm run site` ne publie **pas** le dossier `contenu/`
 et le dit : mieux vaut un endpoint absent qu'un endpoint que l'app rejettera.
 
 La clé publique correspondante est dans
