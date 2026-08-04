@@ -152,14 +152,30 @@ Le garde-fou tient en une règle : **elle ne prend que des brouillons déjà con
 une empreinte à jour et un verdict sans réserve. Autrement dit, deux passages indépendants
 séparés dans le temps, partant chacun du texte brut. Un passage unique qui vérifie et valide
 dans la foulée ne se contredit jamais lui-même — il refait la même lecture avec les mêmes
-angles morts. Ça ne coûte aucun délai : le contrôle tourne six fois par jour et traite les
-brouillons en premier.
+angles morts. Le délai reste court : le contrôle passe trois heures après la production et
+traite les brouillons en premier.
 
 Et si la relecture **touche au texte**, l'empreinte change : la fiche repasse au contrôle, et
 un troisième passage la revérifie avant qu'elle ne soit servie longtemps.
 
-Le cycle : produire (:04) → contrôler (:34) → réparer (:54), toutes les quatre heures ;
-relire une fois par jour, à 7 h 51.
+**Le cycle : contrôler → réparer → relire → produire.** Chaque routine passe deux fois par
+jour, à douze heures d'intervalle, et trois heures après la précédente :
+
+| | |
+|---|---|
+| contrôler | 06:08 et 18:08 |
+| réparer | 09:08 et 21:08 |
+| relire | 00:08 et 12:08 |
+| produire | 03:08 et 15:08 |
+
+Lu dans le sens d'une fiche neuve, c'est une chaîne : **produite** à 15:08, elle est
+**contrôlée** à 18:08, **réparée** à 21:08 si le contrôle l'a sortie, et **relue** à 00:08 si
+son verdict est propre. Neuf heures de bout en bout, chaque maillon trois heures après celui
+qui l'alimente — assez pour que les deux passages du contrôle et de la relecture soient
+réellement séparés dans le temps, et partent chacun du texte brut.
+
+Le tour de rôle est cyclique : l'ordre ci-dessus se lit aussi bien à partir de n'importe
+laquelle des quatre.
 
 ## Sonoriser les fiches
 
