@@ -1,0 +1,81 @@
+{
+  "id": "sta-marge-erreur-sondages",
+  "slug": "marge-erreur-sondages",
+  "titre": "Cinq points d'avance, et pourtant l'élection reste ouverte",
+  "accroche": "Un candidat mène de quatre points dans les sondages. Cela ne veut peut-être rien dire : comparée entre deux candidats, la marge d'erreur double presque.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Une semaine avant une élection, un institut publie un sondage donnant un candidat à 52 % des intentions de vote contre 48 % pour son adversaire, avec une marge d'erreur annoncée de 3 points. La lecture la plus courante conclut que le candidat de tête l'emporte, l'écart de quatre points dépassant la marge annoncée. Cette lecture est fausse, et l'erreur ne vient pas d'un institut malhonnête : elle vient d'une confusion entre la marge d'erreur d'un chiffre isolé et la marge d'erreur d'une différence entre deux chiffres.\n\n## Pourquoi l'écart se creuse en le comparant\n\nUn intervalle de confiance à 95 % et une marge d'erreur de 3 points signifient ceci : si l'on répétait le même sondage cent fois auprès d'échantillons différents, environ 95 de ces cent sondages donneraient un résultat à moins de 3 points du chiffre réel de la population, pour ce candidat pris isolément. Mais un candidat à 52 % et son adversaire à 48 % ne sont pas deux mesures indépendantes : si l'échantillon a par hasard surestimé l'un, il a mécaniquement sous-estimé l'autre. L'incertitude sur l'écart entre les deux candidats se cumule donc, et approche le double de la marge annoncée pour un seul candidat, soit près de 6 points ici, et non 3. Un écart observé de 4 points, une fois cette double incertitude prise en compte, peut correspondre à une réalité allant de -2 à +10 points : rien ne permet d'exclure que l'adversaire soit en réalité en tête.\n\n## Un écart entre la confiance affichée et la réalité\n\nUne étude publiée en 2018 dans le Journal of the American Statistical Association, portant sur 4 221 sondages réalisés entre 1998 et 2014 pour 608 élections américaines, mesure l'ampleur du problème : l'erreur moyenne des sondages, dans les trois dernières semaines de campagne, atteint environ 3,5 points, soit près du double de ce que laissaient attendre les marges d'erreur annoncées. La raison tient à ce que la marge d'erreur classique ne capture qu'une seule source d'incertitude, l'échantillonnage aléatoire, et ignore tout le reste : les personnes qui refusent de répondre, celles qui changent d'avis, les catégories de population mal représentées dans l'échantillon. Un institut qui affiche une marge de 3 points affiche donc, en toute rigueur, une confiance que ses propres données ne permettent pas de garantir seules.",
+  "citation": null,
+  "repere": {
+    "texte": "Sur 4 221 sondages réalisés entre 1998 et 2014 pour 608 élections américaines, l'erreur moyenne atteint environ 3,5 points, près du double de ce que laissaient attendre les marges d'erreur annoncées par les instituts.",
+    "source": "Shirani-Mehr, Rothschild, Goel & Gelman, Journal of the American Statistical Association, 113(522), 2018",
+    "url": "https://doi.org/10.1080/01621459.2018.1448823"
+  },
+  "carte": {
+    "punch": "Une avance de 4 points dans un sondage peut ne rien vouloir dire du tout.",
+    "idee": "La marge d'erreur d'un sondage porte sur un chiffre isolé. Comparer deux candidats cumule l'incertitude des deux : l'écart réel peut valoir presque le double de la marge annoncée. Une étude portant sur 4 221 sondages (1998-2014) le confirme : l'erreur moyenne double presque la marge affichée.",
+    "source_courte": "Shirani-Mehr et al., JASA, 2018"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Pew Research Center",
+      "titre": "Understanding the margin of error in election polls",
+      "annee": 2016,
+      "url": "https://www.pewresearch.org/short-reads/2016/09/08/understanding-the-margin-of-error-in-election-polls/",
+      "note": "Explication de la définition de la marge d'erreur et du doublement lors de la comparaison de deux candidats."
+    },
+    {
+      "type": "article",
+      "auteur": "Houshmand Shirani-Mehr, David Rothschild, Sharad Goel, Andrew Gelman",
+      "titre": "Disentangling Bias and Variance in Election Polls",
+      "publication": "Journal of the American Statistical Association, 113(522), p. 607-614",
+      "annee": 2018,
+      "url": "https://doi.org/10.1080/01621459.2018.1448823",
+      "note": "Étude empirique sur 4 221 sondages (1998-2014) mesurant l'écart entre marge d'erreur annoncée et erreur réelle."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « concentricité décalée ». Deux formes circulaires concentriques, de rayons proches, sont légèrement décalées l'une par rapport à l'autre plutôt que parfaitement centrées ; leur zone de chevauchement forme un croissant en trame. L'une des deux déborde du cadre. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Deux cercles concentriques légèrement décalés, leur zone de chevauchement en croissant tramé, l'un débordant du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Un sondage donne un candidat à 52 %, l'autre à 48 %, avec une marge d'erreur de 3 points chacun. Que peut-on en conclure ?",
+    "choix": [
+      "Le candidat à 52 % est assurément vainqueur, puisque l'écart de 4 points dépasse la marge de 3 points",
+      "Rien de certain : l'incertitude sur l'écart entre les deux candidats est presque le double de la marge affichée pour un seul candidat",
+      "Le sondage est invalide, car la somme des deux scores plus les marges d'erreur dépasse 100 %",
+      "Les deux candidats sont à égalité stricte, la marge d'erreur annulant tout écart inférieur à 10 points"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La marge d'erreur annoncée ne vaut que pour un chiffre isolé. Comparer deux candidats cumule leurs incertitudes respectives : l'écart réel peut approcher le double de la marge affichée, ce qui rend un écart de 4 points, ici, statistiquement peu concluant.",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "ok",
+    "empreinte": "fd5a6bf2cdec0e23",
+    "notes": [
+      "Sources rouvertes : Pew Research confirme le doublement de la marge d'erreur pour un écart entre deux candidats ; Shirani-Mehr et al. (JASA 2018) confirmé par recherche — 4221 sondages, 608 élections 1998-2014, erreur moyenne 3,5 points."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

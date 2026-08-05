@@ -1,0 +1,80 @@
+{
+  "id": "sta-loi-des-petits-nombres",
+  "slug": "loi-des-petits-nombres",
+  "titre": "Même les psychologues surestiment ce que dit un petit échantillon",
+  "accroche": "En 1971, un questionnaire soumis à 84 psychologues professionnels révèle qu'eux-mêmes accordent trop de crédit à des échantillons bien trop petits.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1971, les psychologues Amos Tversky et Daniel Kahneman soumettent un questionnaire à 84 chercheurs en psychologie, réunis lors d'un congrès. L'une des questions : après une première expérience sur vingt sujets, dont le résultat confirme une hypothèse de façon statistiquement significative (z = 2,23, p < 0,05), quelle est la probabilité qu'une deuxième expérience, menée sur dix sujets supplémentaires seulement, confirme elle aussi le même résultat ? La plupart des chercheurs interrogés répondent par un chiffre bien trop optimiste, alors même que leur métier consiste, chaque jour, à raisonner sur des échantillons.\n\n## Un petit échantillon n'est pas une grande population en miniature\n\nL'erreur, que Tversky et Kahneman baptisent « croyance en la loi des petits nombres », consiste à traiter un petit échantillon comme s'il reproduisait fidèlement, à l'échelle, les propriétés de la population entière dont il est tiré, alors que plus un échantillon est petit, plus il varie d'un tirage à l'autre, par le seul effet du hasard. Une pièce parfaitement équilibrée peut très bien tomber quatre fois sur cinq côté face sans qu'il y ait triche ni pièce truquée ; l'écart n'a rien d'exceptionnel sur un aussi petit nombre de lancers. Un chercheur qui obtient un résultat significatif sur vingt sujets, puis généralise ce résultat comme s'il s'agissait d'une vérité solidement établie, commet la même erreur : il prête à un petit nombre d'observations la stabilité que seul un grand nombre peut garantir.\n\n## Une intuition qui coûte cher à la recherche\n\nLa conséquence, documentée par Tversky et Kahneman chez des chercheurs pourtant formés aux statistiques, est concrète : une confiance mal placée dans de petits échantillons pousse à mener des études trop peu puissantes pour répondre aux questions qu'elles se posent, puis à interpréter leurs résultats, significatifs ou non, comme s'ils l'étaient forcément. L'article de 1971 est aujourd'hui considéré comme l'un des textes fondateurs de l'étude des biais cognitifs, cité plusieurs milliers de fois ; il ouvre la voie aux travaux ultérieurs des deux auteurs sur les heuristiques de jugement, pour lesquels Kahneman recevra seul, en 2002, le prix de la Banque de Suède en sciences économiques, Tversky, mort en 1996, n'ayant pas pu le partager. Un demi-siècle plus tard, la lecture hâtive des résultats statistiques reste l'un des points faibles les plus documentés de la recherche scientifique, un problème que Tversky et Kahneman avaient déjà mis en évidence, chiffres à l'appui, bien avant que quiconque ne parle de crise de la réplication.",
+  "citation": null,
+  "repere": {
+    "texte": "Interrogés en 1971 sur la probabilité qu'un résultat significatif obtenu sur vingt sujets se répète sur dix sujets supplémentaires, 84 psychologues professionnels surestiment systématiquement cette probabilité, alors que leur discipline repose entièrement sur le raisonnement statistique.",
+    "source": "Tversky & Kahneman, Psychological Bulletin, 76(2), 1971",
+    "url": "https://doi.org/10.1037/h0031322"
+  },
+  "carte": {
+    "punch": "Même les chercheurs formés aux statistiques se trompent sur ce que dit un petit échantillon.",
+    "idee": "En 1971, 84 psychologues professionnels surestiment la fiabilité d'un résultat obtenu sur vingt sujets. Tversky et Kahneman nomment cette erreur la « loi des petits nombres » : un échantillon varie bien plus qu'on ne le croit, par le seul effet du hasard, même les spécialistes s'y trompent.",
+    "source_courte": "Tversky & Kahneman, 1971"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Amos Tversky, Daniel Kahneman",
+      "titre": "Belief in the law of small numbers",
+      "publication": "Psychological Bulletin, 76(2), p. 105-110",
+      "annee": 1971,
+      "url": "https://doi.org/10.1037/h0031322",
+      "note": "Article original, avec le questionnaire soumis à 84 psychologues professionnels."
+    },
+    {
+      "type": "web",
+      "auteur": "Effectiviology",
+      "titre": "The Law of Small Numbers: Overestimating the Representativeness of Small Samples",
+      "url": "https://effectiviology.com/law-of-small-numbers/",
+      "note": "Explication accessible du biais et de ses conséquences en dehors du seul cadre académique."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Un petit groupe compact de trois formes identiques, en aplat plein, se détache dans un coin du cadre ; juste à côté, une forme unique bien plus grande, en trame légère, occupe la majorité du cadre — les deux formes ne sont reliées par aucun trait, laissant leur disproportion parler seule. Le petit groupe déborde légèrement du cadre. Aucun dégradé, aucune ombre. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Un petit groupe de trois formes pleines dans un coin, à côté d'une forme unique bien plus grande en trame occupant le reste du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que révèle l'étude de Tversky et Kahneman (1971) sur la manière dont les chercheurs jugent un petit échantillon ?",
+    "choix": [
+      "Que les chercheurs sous-estiment systématiquement la fiabilité des grands échantillons, par excès de prudence",
+      "Que seuls les chercheurs peu expérimentés se trompent sur la portée d'un petit échantillon",
+      "Que la taille d'un échantillon n'a, en réalité, aucune influence sur la fiabilité d'un résultat",
+      "Que même des chercheurs formés aux statistiques surestiment la stabilité d'un résultat obtenu sur un petit nombre de sujets"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Interrogés sur un scénario concret (vingt sujets, puis dix de plus), 84 psychologues professionnels ont surestimé la probabilité de répliquer un résultat significatif, preuve que la formation statistique ne suffit pas à corriger cette intuition, la « loi des petits nombres ».",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "ok",
+    "empreinte": "1ad196c7b2adc0ab",
+    "notes": [
+      "Source originale (Tversky & Kahneman 1971) confirmée via recherche : 84 psychologues, scénario exact (z=2,23, p<0,05, 20 sujets puis 10 sujets supplémentaires, test unilatéral). Effectiviology confirme la description du biais."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "sta-gosset-student-guinness",
+  "slug": "gosset-student-guinness",
+  "titre": "Chez Guinness, un brasseur invente un outil sous un faux nom",
+  "accroche": "Interdit de publier sous son nom par son employeur, un brasseur signe « Student », et invente l'un des outils statistiques les plus utilisés au monde.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1899, William Sealy Gosset, jeune diplômé d'Oxford en chimie et en mathématiques, entre comme brasseur à la brasserie Guinness de Dublin. Sa tâche : garantir la régularité de la bière, depuis la teneur en résine du houblon jusqu'à la culture des levures. Le problème est toujours le même, il ne peut mesurer qu'un petit nombre d'échantillons, onze puis quatorze mesures de cinquante grammes de houblon prélevées sur un même lot, et doit pourtant décider si un écart entre deux séries de mesures reflète une vraie différence de qualité, ou seulement le hasard de l'échantillonnage. Les méthodes statistiques de l'époque, conçues par Karl Pearson, exigent des échantillons d'au moins cent cinquante mesures pour rester fiables, un luxe qu'aucune brasserie ne peut s'offrir.\n\n## Un outil taillé pour le petit nombre\n\nEnvoyé étudier auprès de Pearson à l'University College de Londres en 1906, Gosset met au point une méthode capable de mesurer l'incertitude réelle d'une moyenne calculée sur un petit échantillon, une dizaine de mesures plutôt que des centaines. Il publie le résultat en 1908 dans la revue Biometrika, sous le titre The Probable Error of a Mean : la distribution qui porte aujourd'hui son pseudonyme, la loi de Student, à la base du test t. Guinness interdit alors formellement à ses employés de publier sous leur propre nom, de peur qu'une brasserie concurrente n'apprenne qu'elle recourt à des méthodes scientifiques pointues. Gosset signe donc « Student », dix-neuf de ses vingt et une publications paraîtront sous ce seul pseudonyme, jusqu'à sa mort en 1937, où son identité réelle est enfin révélée publiquement.\n\n## Du houblon au laboratoire\n\nPearson, qui a formé Gosset, ne mesure jamais toute la portée de son travail : c'est Ronald Fisher, avec qui Gosset échange plus de cent cinquante lettres entre 1912 et 1934, qui comprend le premier que cet outil conçu pour comparer des lots de houblon s'applique à n'importe quelle mesure scientifique reposant sur un petit nombre d'observations. Le test t de Student devient, au cours du XXe siècle, l'un des outils statistiques les plus enseignés et les plus utilisés au monde, de la biologie à la psychologie en passant par la médecine, chaque fois qu'il s'agit de savoir si une différence mesurée sur quelques sujets seulement reflète un effet réel ou le simple bruit de l'échantillonnage. Aucun des étudiants qui l'apprennent aujourd'hui, dans n'importe quel amphithéâtre de statistique, ne cherche à comparer des lots de bière.",
+  "citation": null,
+  "repere": {
+    "texte": "Gosset construit sa méthode à partir d'échantillons de onze puis quatorze mesures de cinquante grammes de houblon, quand les méthodes statistiques existantes, conçues par Karl Pearson, exigeaient au moins cent cinquante mesures pour rester fiables.",
+    "source": "The Conversation, « The genius at Guinness and his statistical legacy », 2018 ; W. S. Gosset (« Student »), Biometrika, 1908",
+    "url": "https://theconversation.com/the-genius-at-guinness-and-his-statistical-legacy-93134"
+  },
+  "carte": {
+    "punch": "Il n'a jamais eu le droit de signer ses propres calculs de son vrai nom.",
+    "idee": "En 1908, le brasseur William Sealy Gosset publie, chez Guinness, une méthode pour mesurer l'incertitude d'une moyenne sur un petit échantillon. Interdit de publier sous son nom, il signe « Student ». Le test qui porte ce pseudonyme reste un des outils les plus utilisés de la recherche scientifique.",
+    "source_courte": "Biometrika, 1908"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "William Sealy Gosset",
+      "url": "https://en.wikipedia.org/wiki/William_Sealy_Gosset",
+      "note": "Biographie, dates, carrière chez Guinness, et correspondance avec Ronald Fisher."
+    },
+    {
+      "type": "web",
+      "auteur": "The Conversation",
+      "titre": "The genius at Guinness and his statistical legacy",
+      "annee": 2018,
+      "url": "https://theconversation.com/the-genius-at-guinness-and-his-statistical-legacy-93134",
+      "note": "Détail du problème de mesure du houblon à l'origine du test t."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « concentricité décalée ». Deux formes en cloche, l'une étroite et haute en aplat plein, l'autre plus large et plus basse en trame légère, partagent le même axe vertical mais leurs sommets sont légèrement décalés l'un de l'autre. La forme la plus large déborde du cadre sur un côté. Aucun dégradé, aucune ombre. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Deux courbes en cloche de largeurs différentes, partageant un axe mais légèrement décalées, la plus large débordant du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi William Sealy Gosset a-t-il publié ses travaux statistiques sous le pseudonyme « Student » en 1908 ?",
+    "choix": [
+      "Parce que la brasserie Guinness, son employeur, interdisait à ses salariés de publier sous leur propre nom",
+      "Parce que Karl Pearson, qui l'a formé, exigeait que ses étudiants publient sous pseudonyme jusqu'à leur doctorat",
+      "Parce que la revue Biometrika refusait de publier des auteurs sans titre universitaire de statisticien",
+      "Parce que Gosset craignait que ses résultats, encore incertains, ne nuisent à sa réputation scientifique"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Guinness interdisait formellement à ses employés de publier sous leur propre nom, par crainte que des brasseries concurrentes n'apprennent qu'elle utilisait des méthodes scientifiques avancées. Gosset a donc signé dix-neuf de ses vingt et une publications « Student », jusqu'à sa mort en 1937.",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "ok",
+    "empreinte": "bddead688bd3b960",
+    "notes": [
+      "Sources rouvertes (Wikipédia, The Conversation) : carrière chez Guinness, échantillons de houblon (11 puis 14 mesures), interdiction de publier sous son vrai nom, pseudonyme Student, 19/21 publications sous ce nom, correspondance Fisher (150+ lettres 1912-1934) — tout confirmé."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

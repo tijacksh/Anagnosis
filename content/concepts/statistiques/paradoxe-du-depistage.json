@@ -1,0 +1,82 @@
+{
+  "id": "sta-paradoxe-du-depistage",
+  "slug": "paradoxe-du-depistage",
+  "titre": "Un test juste à 90 %, et pourtant faux neuf fois sur dix",
+  "accroche": "Face à un test de dépistage fiable à 90 %, la plupart des médecins interrogés se trompent du tout au tout sur les chances réelles d'être malade.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 2007, le psychologue allemand Gerd Gigerenzer et ses collègues posent une question à 160 gynécologues lors d'une formation continue : dans une population de femmes de 40 ans sans symptôme, la probabilité d'avoir un cancer du sein est de 1 %. Une femme passe une mammographie et le résultat est positif. Ce test détecte 90 % des cancers réels, mais donne aussi un résultat positif chez 9 % des femmes qui n'ont pas de cancer. Quelle est la probabilité que cette femme ait effectivement un cancer ? Seuls 21 % des gynécologues interrogés répondent correctement. La plupart avancent un chiffre proche de 90 %, ou de 81 %. La bonne réponse tourne en réalité autour de 9 %.\n\n## Le nombre que presque personne ne regarde\n\nL'erreur, documentée depuis les années 1980 sous le nom de biais du taux de base, consiste à se concentrer sur la fiabilité du test, 90 % de détection, en oubliant un chiffre pourtant donné dans l'énoncé : la rareté de la maladie elle-même. Sur 1 000 femmes, 10 seulement ont réellement un cancer (1 %) ; le test en détecte 9 (90 % de 10). Mais parmi les 990 femmes saines, 9 % obtiennent malgré tout un résultat positif, soit environ 89 femmes. Sur les 98 résultats positifs au total (9 vraies malades plus 89 fausses alertes), seules 9 sont réellement malades : 9 divisé par 98, soit environ 9 %. Le test reste utile, il multiplie par neuf la probabilité initiale de 1 %, mais il est très loin de désigner une certitude, parce que le groupe des femmes saines est immense comparé au groupe des femmes malades, et qu'un faible taux de fausses alertes y prélève un grand nombre absolu de personnes.\n\n## Un problème de présentation, pas seulement de calcul\n\nGigerenzer montre que l'erreur n'est pas propre aux médecins ni à un manque d'aptitude pour les probabilités : elle vient largement de la façon dont le problème est formulé. Reformulé en fréquences naturelles plutôt qu'en pourcentages, sur 1 000 femmes, 10 ont un cancer ; parmi elles, 9 ont un test positif ; parmi les 990 femmes sans cancer, 89 ont aussi un test positif, la même question devient nettement plus facile à résoudre correctement, y compris pour des professionnels de santé sans formation statistique particulière. La conséquence dépasse le cas du cancer du sein : chaque fois qu'un test de dépistage, un algorithme de détection de fraude ou un contrôle de sécurité s'applique à une population où l'événement recherché est rare, un résultat positif reste, la plupart du temps, une fausse alerte, et le confondre avec un diagnostic revient à annoncer, à tort, une quasi-certitude à des personnes en réalité très probablement saines.",
+  "citation": null,
+  "repere": {
+    "texte": "Sur 1 000 femmes de 40 ans testées, 10 ont réellement un cancer du sein. Le test en détecte 9, mais produit aussi environ 89 fausses alertes parmi les femmes saines : sur 98 résultats positifs au total, seules 9 correspondent à un cancer réel, environ 9 %, contre les 90 % ou plus estimés par la majorité des 160 gynécologues interrogés.",
+    "source": "Gigerenzer, Gaissmaier, Kurz-Milcke, Schwartz & Woloshin, Psychological Science in the Public Interest, 8(2), 2007",
+    "url": "https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2008.00033.x"
+  },
+  "carte": {
+    "punch": "Un test fiable à 90 % peut se tromper neuf fois sur dix quand il dit « positif ».",
+    "idee": "En 2007, 160 gynécologues répondent à un problème de probabilité simple : sur une maladie touchant 1 % des femmes, avec un test fiable à 90 %, quelle est la probabilité réelle d'être malade après un résultat positif ? Seuls 21 % répondent juste : environ 9 %, pas 90 %.",
+    "source_courte": "Gigerenzer et al., 2007"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Gerd Gigerenzer, Wolfgang Gaissmaier, Elke Kurz-Milcke, Lisa M. Schwartz, Steven Woloshin",
+      "titre": "Helping Doctors and Patients Make Sense of Health Statistics",
+      "publication": "Psychological Science in the Public Interest, 8(2), p. 53-96",
+      "annee": 2007,
+      "url": "https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2008.00033.x",
+      "note": "Étude sur 160 gynécologues et le biais du taux de base appliqué au dépistage du cancer du sein."
+    },
+    {
+      "type": "article",
+      "auteur": "Gerd Gigerenzer, Ulrich Hoffrage",
+      "titre": "How to Improve Bayesian Reasoning Without Instruction: Frequency Formats",
+      "publication": "Psychological Review, 102(4), p. 684-704",
+      "annee": 1995,
+      "url": "https://doi.org/10.1037/0033-295X.102.4.684",
+      "note": "Démonstration que la reformulation en fréquences naturelles améliore le raisonnement bayésien."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « partition ». Le cadre est divisé en deux zones très inégales par une ligne verticale : une bande étroite en aplat plein d'un côté, une vaste zone en trame légère de l'autre. Dans la bande étroite comme dans la vaste zone, une petite portion se détache par un contour net, de taille presque identique des deux côtés malgré la disproportion générale des zones. Une forme déborde du cadre. Aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Le cadre divisé en une bande étroite pleine et une vaste zone tramée, chacune contenant une petite portion détachée de taille comparable",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Une maladie touche 1 % d'une population. Un test la détecte dans 90 % des cas malades, et se trompe (faux positif) chez 9 % des personnes saines. Une personne testée positive : quelle est, à peu près, sa probabilité réelle d'être malade ?",
+    "choix": [
+      "Environ 90 %, puisque c'est la fiabilité annoncée du test",
+      "Environ 9 %, car les personnes saines, très nombreuses, produisent presque autant de faux positifs que de vrais positifs",
+      "Environ 50 %, un résultat positif partageant la probabilité à égalité entre malade et sain",
+      "Environ 99 %, en multipliant la fiabilité du test par le complément du taux de faux positifs"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Sur 1 000 personnes, seules 10 sont malades (1 %) et le test en détecte 9. Mais parmi les 990 personnes saines, 9 % obtiennent quand même un résultat positif, soit environ 89 personnes. Sur 98 résultats positifs, seules 9 sont réellement malades : environ 9 %, pas 90 %.",
+    "statut": "valide"
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-04",
+    "verdict": "ok",
+    "empreinte": "c1a1cbe5923d85b8",
+    "notes": [
+      "Source rouverte (Gigerenzer et al. 2007, SAGE) : scénario exact confirmé, 21% de bonnes réponses chez les gynécologues, majorité répondant 90% ou 81%. Gigerenzer & Hoffrage 1995 confirmé par recherche (fréquences naturelles)."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
