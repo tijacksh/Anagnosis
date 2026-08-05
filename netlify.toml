@@ -15,6 +15,18 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# URL propres : /contact plutôt que /contact.html. Explicite plutôt que de
+# compter sur le comportement par défaut de Netlify, qui peut changer.
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/mentions-legales"
+  to = "/mentions-legales.html"
+  status = 200
+
 # La vitrine est une page publique, contrairement à l'ancien banc d'essai :
 # elle doit être indexée.
 [[headers]]

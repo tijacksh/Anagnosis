@@ -45,7 +45,7 @@ const html = (await readFile(path.join(SRC, 'index.html'), 'utf8'))
   .replace('{{DISCIPLINES}}', puces);
 await writeFile(path.join(DEST, 'index.html'), html, 'utf8');
 
-for (const f of ['icone.svg', 'icone-180.png', 'icone-512.png']) {
+for (const f of ['icone.svg', 'icone-180.png', 'icone-512.png', 'contact.html', 'mentions-legales.html']) {
   await copyFile(path.join(SRC, f), path.join(DEST, f));
 }
 

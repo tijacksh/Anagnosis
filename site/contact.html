@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#F4EFE1">
+<title>Contact, Anagnosis</title>
+<meta name="description" content="Une question sur Anagnosis, une source à signaler, une erreur repérée. Écrivez à contact@anagnosis.fr.">
+<link rel="icon" href="./icone.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Martian+Mono:wght@400..600&display=swap" media="print" onload="this.media='all'">
+<style>
+:root {
+  --papier: #F4EFE1; --encre: #1B1A17; --texte-2: #5B5449; --filet: #D9CFB8;
+  --marque: #3D5588;
+  --display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --corps: 'Newsreader', ui-serif, Georgia, serif;
+  --mono: 'Martian Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --marge: 24px;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --papier: #241F1A; --encre: #EDE3D0; --texte-2: #B3A794; --filet: #3D362C; --marque: #5C7CBF; }
+}
+* , *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--papier); color: var(--encre);
+  font-family: var(--corps); font-size: 17px; line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: 640px; margin: 0 auto; padding: 0 var(--marge) 64px; }
+a { color: inherit; }
+.entete {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px 20px;
+  padding: 28px var(--marge); max-width: 640px; margin: 0 auto;
+}
+.entete a { font-family: var(--mono); font-size: 13px; font-weight: 600;
+            letter-spacing: .1em; text-transform: uppercase; text-decoration: none; }
+.nav { display: flex; gap: 20px; }
+.nav a {
+  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; text-decoration: none;
+  color: var(--texte-2);
+}
+.nav a:hover { color: var(--encre); }
+.sur-titre {
+  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--marque);
+  margin: 0 0 8px;
+}
+h1 { font-family: var(--display); font-weight: 800; letter-spacing: -.02em;
+     font-size: 32px; margin: 0 0 20px; }
+p.accroche { font-size: 18px; line-height: 1.55; color: var(--texte-2); max-width: 44ch; margin: 0 0 32px; }
+.adresse {
+  display: inline-block; max-width: 100%; font-family: var(--display); font-weight: 700;
+  font-size: clamp(17px, 5vw, 24px); letter-spacing: -.01em; color: var(--encre);
+  border: 1px solid var(--encre); padding: 16px 22px; text-decoration: none;
+  word-break: break-word;
+}
+.adresse:hover { background: var(--encre); color: var(--papier); }
+.raisons { margin-top: 40px; }
+.raisons p { font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
+             color: var(--texte-2); margin: 0 0 10px; }
+footer {
+  border-top: 1px solid var(--filet); padding: 32px var(--marge) 48px;
+  max-width: 640px; margin: 0 auto;
+  font-family: var(--mono); font-size: 11.5px; color: var(--texte-2);
+}
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a href="./">Anagnosis</a>
+  <nav class="nav"><a href="./">Accueil</a><a href="/contact">Contact</a></nav>
+</header>
+
+<main>
+  <p class="sur-titre">Contact</p>
+  <h1>Écrivez-nous.</h1>
+  <p class="accroche">
+    Une question, une source à signaler, une erreur repérée dans une fiche,
+    une idée.
+  </p>
+
+  <a class="adresse" href="mailto:contact@anagnosis.fr">contact@anagnosis.fr</a>
+
+  <div class="raisons">
+    <p>SOURCE INEXACTE OU LIEN MORT DANS UNE FICHE</p>
+    <p>QUESTION SUR L'ABONNEMENT PREMIUM</p>
+    <p>PROBLÈME TECHNIQUE DANS L'APPLICATION</p>
+    <p>AUTRE CHOSE</p>
+  </div>
+</main>
+
+<footer>
+  <span>© Anagnosis</span>
+  <span><a href="/mentions-legales" style="color:inherit">Mentions légales</a></span>
+</footer>
+
+</body>
+</html>
