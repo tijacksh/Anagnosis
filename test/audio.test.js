@@ -1,19 +1,20 @@
 /**
  * Ce qui empêche une fiche de mentir à l'oreille.
  *
- * L'empreinte de contrôle (`src/controle.js`) ne couvre que le fond éditorial : elle ne
- * sait rien de l'audio. Une routine qui se contenterait de regarder si le fichier existe
- * laisserait une fiche corrigée par `/reparer` servir le son de l'ancien texte —
- * **et rien ne le signalerait**. Le lecteur entendrait une version que la fiche ne dit
- * plus, jusqu'à ce que quelqu'un le remarque à l'écoute, s'il le remarque.
+ * `empreinteAudio` ne couvre que ce que `aLire()` prononce réellement — pas le fond
+ * éditorial entier comme l'empreinte de contrôle (`src/controle.js`), qui couvre aussi
+ * les sources, la carte et le quiz, jamais lus à voix haute. Une routine qui se
+ * contenterait de regarder si le fichier existe laisserait une fiche corrigée par
+ * `/reparer` servir le son de l'ancien texte — **et rien ne le signalerait**. Le lecteur
+ * entendrait une version que la fiche ne dit plus, jusqu'à ce que quelqu'un le remarque à
+ * l'écoute, s'il le remarque.
  *
  * C'est le seul défaut de cette chaîne qui soit à la fois silencieux et durable. Ces
  * tests le verrouillent ; le reste du fichier compte moins.
  */
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { aSonoriser, motif, aLire, VOIX, LIMITE_CARACTERES, ALLURE } from '../src/audio.js';
-import { empreinte } from '../src/controle.js';
+import { aSonoriser, motif, aLire, empreinteAudio, VOIX, LIMITE_CARACTERES, ALLURE } from '../src/audio.js';
 
 /** Une fiche publiable minimale. */
 function fiche(modifs = {}) {
@@ -32,7 +33,7 @@ function indexPour(f, modifs = {}) {
     sha256: 'a'.repeat(64), octets: 900_000, secondes: 200,
   }]));
   return {
-    [f.id]: { empreinte: empreinte(f), modele: 'eleven_v3', allure: ALLURE, voix, ...modifs },
+    [f.id]: { empreinte: empreinteAudio(f), modele: 'eleven_v3', allure: ALLURE, voix, ...modifs },
   };
 }
 
@@ -52,18 +53,38 @@ test('un texte corrigé après coup fait repasser l’audio en production', () =
   const index = indexPour(avant);
   const apres = fiche({ contenu_vulgarise: 'Corps corrigé après un signalement' });
 
-  assert.notEqual(empreinte(apres), empreinte(avant), 'le scénario suppose un texte modifié');
+  assert.notEqual(empreinteAudio(apres), empreinteAudio(avant), 'le scénario suppose un texte modifié');
   assert.equal(aSonoriser(apres, index), true);
   assert.match(motif(apres, index), /modifié/);
 });
 
 test('une correction qui ne touche pas au fond ne redéclenche rien', () => {
-  // `empreinte` ne couvre pas les champs de service : y toucher ne doit pas coûter
+  // `empreinteAudio` ne couvre pas les champs de service : y toucher ne doit pas coûter
   // 3 200 crédits et une voix potentiellement différente.
   const f = fiche();
   const index = indexPour(f);
   const servie = fiche({ statut: 'publie', meta: { vu: 12 } });
   assert.equal(aSonoriser(servie, index), false);
+});
+
+test('une correction de source, de carte ou de quiz ne redéclenche rien', () => {
+  // Le piège précis que `empreinteAudio` existe pour éviter : un lien mort réparé, une
+  // note de source corrigée, un distracteur de quiz retouché — rien de tout ça ne
+  // change un seul mot de ce que `aLire()` prononce. Avant, ces corrections coûtaient
+  // 3 200 crédits pour rien parce que l'audio réutilisait l'empreinte du contrôle, qui
+  // couvre bien plus large que ce qui est lu à voix haute.
+  const f = fiche({
+    carte: { punch: 'Punch', idee: 'Idée', source_courte: 'Source' },
+    quiz: { question: 'Q', choix: ['A', 'B'], reponse: 0, explication: 'E' },
+  });
+  const index = indexPour(f);
+  const corrigee = fiche({
+    accroche: 'Accroche reformulée',
+    sources: [{ titre: 'S corrigé', url: 'https://exemple.fr/corrige' }],
+    carte: { punch: 'Punch corrigé', idee: 'Idée', source_courte: 'Source' },
+    quiz: { question: 'Q', choix: ['A corrigé', 'B'], reponse: 0, explication: 'E corrigée' },
+  });
+  assert.equal(aSonoriser(corrigee, index), false);
 });
 
 test('une allure de référence changée refait tout le catalogue', () => {

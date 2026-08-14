@@ -16,15 +16,20 @@
  *
  * ## Le piège que cet index existe pour éviter
  *
- * L'empreinte de contrôle (`src/controle.js`) ne couvre que le fond éditorial — titre,
- * contenu, sources, quiz. Elle ne sait rien de l'audio. Si l'on se contentait de
- * regarder si le fichier existe, une fiche corrigée par `/reparer` garderait le son de
- * l'ancien texte, **et rien ne le signalerait** : le lecteur entendrait une version que
- * la fiche ne dit plus, sans que personne ne puisse s'en apercevoir avant un signalement.
+ * Si l'on se contentait de regarder si le fichier existe, une fiche corrigée par
+ * `/reparer` garderait le son de l'ancien texte, **et rien ne le signalerait** : le
+ * lecteur entendrait une version que la fiche ne dit plus, sans que personne ne puisse
+ * s'en apercevoir avant un signalement.
  *
  * L'index enregistre donc l'empreinte du texte **à partir duquel** chaque fichier a été
- * produit. Une fiche dont l'empreinte a bougé repasse d'elle-même en production, comme
- * elle repasse d'elle-même au contrôle. Même mécanisme, même raison.
+ * produit — mais l'empreinte de `aLire()` (`empreinteAudio`), pas celle du contrôle
+ * (`src/controle.js`). Les deux se confondaient au départ, sur l'idée qu'un texte modifié
+ * doit repasser en production comme il repasse au contrôle. Mais l'empreinte de contrôle
+ * couvre tout le fond éditorial — sources, carte, accroche, quiz — quand `aLire()` n'en
+ * lit qu'une partie (titre, contenu, citation ou repère) : une correction de lien mort ou
+ * de note de source invalidait un audio dont pas un mot prononcé n'avait changé. Une
+ * fiche dont le texte *lu* a bougé repasse d'elle-même en production ; une fiche dont
+ * seule une source ou le quiz a changé n'y repasse plus pour rien.
  *
  * ## Une génération, deux formats
  *
@@ -43,7 +48,6 @@ import { mkdir, readFile, writeFile, unlink } from 'node:fs/promises';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
-import { empreinte } from './controle.js';
 
 const executer = promisify(execFile);
 
@@ -132,6 +136,20 @@ export function aLire(fiche) {
 }
 
 /**
+ * L'empreinte de ce qui est réellement prononcé — pas celle du contrôle.
+ *
+ * Les deux réutilisaient la même empreinte jusqu'ici (« même mécanisme, même raison »),
+ * sur l'idée qu'un texte modifié doit repasser en production comme il repasse au
+ * contrôle. Mais l'empreinte de contrôle couvre tout le fond éditorial — sources, carte,
+ * accroche, quiz — et `aLire()` n'en lit qu'une partie : une correction de lien mort ou
+ * de note de source invalidait un audio dont pas un mot prononcé n'avait changé. Hachée
+ * sur la sortie même d'`aLire()`, cette empreinte ne bouge que si le texte lu, lui, bouge.
+ */
+export function empreinteAudio(fiche) {
+  return createHash('sha256').update(aLire(fiche)).digest('hex').slice(0, 16);
+}
+
+/**
  * Retire les marques de mise en forme, **sans insérer d'espace**.
  *
  * Les doubles astérisques du gras étaient bien retirés, les simples de l'italique non :
@@ -173,7 +191,7 @@ export function aSonoriser(fiche, index) {
   if (!['valide', 'publie'].includes(fiche.statut)) return false;
   const entree = index[fiche.id];
   if (!entree) return true;
-  if (entree.empreinte !== empreinte(fiche)) return true;
+  if (entree.empreinte !== empreinteAudio(fiche)) return true;
   // Une allure de référence changée rend tout le catalogue incohérent : une fiche à
   // l'ancienne cadence au milieu des autres s'entend immédiatement.
   if (entree.allure !== ALLURE) return true;
@@ -184,7 +202,7 @@ export function aSonoriser(fiche, index) {
 export function motif(fiche, index) {
   const entree = index[fiche.id];
   if (!entree) return 'jamais produit';
-  if (entree.empreinte !== empreinte(fiche)) return 'texte modifié depuis';
+  if (entree.empreinte !== empreinteAudio(fiche)) return 'texte modifié depuis';
   if (entree.allure !== ALLURE) return `produit à ${entree.allure ?? 1}× au lieu de ${ALLURE}×`;
   const manquantes = VOIX.filter((v) => !entree.voix?.[v.nom]).map((v) => v.nom);
   return `voix manquante : ${manquantes.join(', ')}`;
@@ -343,7 +361,7 @@ export async function sonoriser(fiche, { cle = process.env[CLE_ENV], force = fal
   await mkdir(DERIVES, { recursive: true });
 
   const index = await lireIndex();
-  const marque = empreinte(fiche);
+  const marque = empreinteAudio(fiche);
   const texte = aLire(fiche);
   const entree = index[fiche.id];
   const aJour = !force && entree?.empreinte === marque;
