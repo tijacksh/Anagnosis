@@ -77,12 +77,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-03",
+    "fait_le": "2026-08-14",
     "verdict": "ok",
-    "empreinte": "14153143c759b459",
+    "empreinte": "dd9e33649b604511",
     "notes": [
-      "Sources rouvertes. Partensky, Hess & Vaulot 1999 (PMC98958) confirme mot pour mot : '0.5 to 0.7 μm in diameter', 'Maximum Prochlorococcus concentrations on the order of 700,000 cells ml-1... in the Arabian Sea', fraction de la production phytoplanctonique attribuable variant de 11 à 57% (mesurée en Atlantique tropical dans la source, la fiche généralise prudemment à 'selon les échantillons' sans sur-préciser). Découverte : la source attribue la première visualisation à 'Rob Olson and Ginger Armbrust' lors d'une campagne en 1985 au large de la Barbade — la fiche ne mentionne pas Armbrust mais n'affirme rien qui la contredise (simplification, pas erreur). Description formelle par Chisholm et al. en 1988, confirmée. MIT (betterworld.mit.edu) confirme mot pour mot 'remained unknown until 1988', 'is responsible for every fifth breath we take' et 'may be the most abundant single species on Earth' (la fiche dit 'est considéré comme' — légèrement plus affirmatif que le 'may be' du MIT, nuance mineure).",
-      "Rien à signaler. Quiz et carte cohérents."
+      "Recontrôle après changement d'empreinte dû uniquement au retrait des tirets cadratins (commit 5091a13, tirets remplacés par des virgules dans contenu_vulgarise, repere.texte et quiz.explication) — vérifié via git show, aucun changement de fond. Fond déjà vérifié en détail lors du contrôle du 2026-08-03 (citations exactes de Partensky, Hess & Vaulot 1999 et du MIT confirmées). Spot-check : les deux sources (PMC98958, betterworld.mit.edu) sont toujours en ligne et leur contenu inchangé. Rien à signaler."
     ]
   },
   "meta": {

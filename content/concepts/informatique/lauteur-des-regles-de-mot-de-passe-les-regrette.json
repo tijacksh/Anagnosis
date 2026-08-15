@@ -1,0 +1,107 @@
+{
+  "id": "inf-lauteur-des-regles-de-mot-de-passe-les-regrette",
+  "slug": "lauteur-des-regles-de-mot-de-passe-les-regrette",
+  "titre": "L'auteur des règles de mot de passe les plus détestées les regrette",
+  "accroche": "En 2003, Bill Burr rédige, faute de données réelles, les règles de mot de passe qui s'imposeront partout ; quatorze ans plus tard, le NIST les abandonne.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "En 2003, un gestionnaire du National Institute of Standards and Technology (NIST) reçoit la tâche de rédiger, en quelques mois, la référence fédérale américaine sur la création des mots de passe. Bill Burr voudrait s'appuyer sur des données réelles ; il demande à consulter les mots de passe effectivement utilisés sur le réseau interne du NIST. La demande est refusée, pour des raisons de confidentialité. Il se rabat sur un rapport technique des années 1980, rédigé avant l'existence du web, et rédige seul, en une annexe de huit pages à la norme NIST Special Publication 800-63, les règles qui vont s'imposer dans le monde entier : majuscule, minuscule, chiffre, caractère spécial, et un changement obligatoire tous les trois mois.\n\n## Ce que la théorie ne voyait pas\n\nSur le papier, chaque contrainte augmente le nombre de combinaisons possibles, donc la difficulté théorique à deviner un mot de passe par force brute. Mais un mot de passe n'est pas choisi au hasard par un ordinateur : il est choisi par quelqu'un qui doit ensuite s'en souvenir, tous les trimestres, sur plusieurs comptes à la fois. En pratique, obligé à changer « Password1! » tous les trois mois, la plupart des utilisateurs se contentent d'incrémenter un chiffre : « Password2! », puis « Password3! ». Remplacer un E par un 3 ou un A par un @ suit des règles si prévisibles que les logiciels de cassage de mots de passe les intègrent depuis longtemps dans leurs dictionnaires. La contrainte de complexité, pensée pour élargir l'espace des mots de passe possibles, le rétrécit en réalité : elle pousse tout le monde vers les mêmes stratégies de contournement.\n\nEn 2017, après un examen approfondi de la littérature scientifique désormais disponible sur le sujet, le NIST publie une nouvelle version du document, la Special Publication 800-63B. Elle précise que les vérificateurs ne doivent plus exiger de changement arbitraire, périodique, sauf preuve de compromission, ni imposer de mélange obligatoire de types de caractères. Elle recommande à la place de comparer chaque mot de passe choisi à une liste de valeurs déjà compromises ou trop courantes, et privilégie la longueur : le NIST calcule qu'une phrase de passe de six mots ordinaires atteint environ 85 bits d'entropie, contre environ 65 bits pour un mot de passe complexe de dix caractères — près d'un million de fois plus de combinaisons à essayer, pour une suite bien plus facile à retenir.\n\n## L'auteur des règles les regrette\n\nQuatorze ans après avoir écrit ces recommandations, Bill Burr, retraité du NIST, confie au Wall Street Journal : « Much of what I did I now regret » — je regrette une bonne partie de ce que j'ai fait. Il n'est l'auteur ni malveillant ni négligent d'un dogme : c'est un fonctionnaire qui a dû produire, avec les moyens de son époque et sans les données qu'il réclamait, une référence que personne d'autre n'avait encore écrite. Ce que son histoire déplace, ce n'est pas la responsabilité individuelle, mais l'idée qu'une règle de sécurité informatique reste vraie parce qu'elle a longtemps été appliquée. Vingt ans de mots de passe compliqués et changés tous les trimestres n'ont pas rendu les systèmes plus sûrs ; ils ont surtout rendu les utilisateurs plus prévisibles.",
+  "citation": {
+    "texte": "Much of what I did I now regret.",
+    "auteur": "Bill Burr",
+    "source": "Cité par Robert McMillan, « The Man Who Wrote Those Password Rules Has a New Tip: N3v$r M1^d! », The Wall Street Journal, 7 août 2017",
+    "url": "https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "L'auteur des règles de mot de passe les plus détestées au monde regrette de les avoir écrites.",
+    "idee": "En 2003, Bill Burr rédige seul, faute de données réelles, les règles de mot de passe qui s'imposent encore : majuscules, chiffres, symboles, changement trimestriel. En 2017, le NIST les abandonne : elles poussaient surtout vers des variations prévisibles. Burr regrette, dit-il, ce qu'il a écrit.",
+    "source_courte": "NIST SP 800-63B, 2017"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "National Institute of Standards and Technology",
+      "titre": "NIST Special Publication 800-63B — Digital Identity Guidelines: Authentication and Lifecycle Management",
+      "publication": "pages.nist.gov",
+      "annee": 2017,
+      "url": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+      "note": "Section 5.1.1.2 : fin de l'exigence de changement périodique arbitraire et des règles de composition imposées, remplacées par une comparaison à une liste de valeurs compromises ou courantes."
+    },
+    {
+      "type": "web",
+      "auteur": "McMillan, Robert",
+      "titre": "The Man Who Wrote Those Password Rules Has a New Tip: N3v$r M1^d!",
+      "publication": "The Wall Street Journal",
+      "annee": 2017,
+      "url": "https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118",
+      "note": "7 août 2017. Interview de Bill Burr, retraité du NIST, sur son regret des règles rédigées en 2003 et sur le refus opposé à sa demande d'accès aux mots de passe réels du NIST."
+    },
+    {
+      "type": "institution",
+      "auteur": "National Institute of Standards and Technology",
+      "titre": "Easy Ways to Build a Better P@$5w0rd",
+      "publication": "nist.gov/blogs/taking-measure",
+      "annee": 2017,
+      "url": "https://www.nist.gov/blogs/taking-measure/easy-ways-build-better-p5w0rd",
+      "note": "4 octobre 2017, par Mike Garcia. Détaille la recommandation des phrases de passe et le calcul d'entropie cité dans la fiche (85 bits contre 65 bits)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NIST — Digital Identity Guidelines SP 800-63-3 (vue d'ensemble)",
+      "url": "https://pages.nist.gov/800-63-3/sp800-63-3.html",
+      "note": "Page d'entrée de la famille de documents dont la partie B révise les règles de mot de passe."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une suite de blocs géométriques denses et hérissés de pointes irrégulières, répétée à l'identique sur toute la largeur du cadre, où seule une pointe change de position à chaque répétition. Papier crème, aplat unique saturé, léger hors-repérage, composition entièrement abstraite, aucune figure reconnaissable.",
+    "alt": "Une rangée de motifs hérissés presque identiques, où seul un détail change de position à chaque répétition",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la contrainte d'un mot de passe complexe changé tous les trois mois a-t-elle fini par rendre les comptes plus faciles à deviner ?",
+    "choix": [
+      "Parce que les logiciels de cassage de mots de passe n'existaient pas encore en 2003",
+      "Parce que les utilisateurs, pour s'en souvenir, ont adopté des variations prévisibles d'un changement à l'autre",
+      "Parce que le NIST a rendu publique la liste des mots de passe utilisés par ses employés",
+      "Parce que les caractères spéciaux comme @ ou ! sont interdits par la plupart des sites"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Contraint de changer son mot de passe tous les trimestres, l'utilisateur type ne repart pas de zéro : il incrémente un chiffre ou remplace une lettre par un symbole selon des règles si régulières que les outils de cassage les intègrent dans leurs dictionnaires. La contrainte censée complexifier le mot de passe a surtout rendu son évolution prévisible d'un changement à l'autre.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-08T22:16:23.952Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-08T22:16:23.952Z",
+        "note": "Sources rouvertes indépendamment : NIST SP 800-63B §5.1.1.2 confirme mot pour mot l'abandon du changement périodique arbitraire (sauf preuve de compromission) et des règles de composition, remplacés par comparaison à une liste de valeurs compromises. Le blog NIST (Garcia 2017) confirme 65 bits vs 85 bits et le facteur ~1 050 000x, cohérent avec 'près d'un million de fois plus'. WSJ inaccessible en direct (paywall) ; corroboré par une recherche web indépendante croisant BizTech, CBS News, CBC et Alphr, qui citent tous la même citation exacte de Burr et le même récit (2003, refus d'accès aux mots de passe réels du NIST, appui sur un livre blanc des années 1980). Lien 'pour aller plus loin' (sp800-63-3.html) existe, notée supersédée par SP 800-63-4 depuis le 1er août 2025 mais toujours en ligne, sans impact sur le récit historique. Carte et quiz conformes aux sources."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-08",
+    "verdict": "ok",
+    "empreinte": "31af26fb4265a595",
+    "notes": [
+      "Sources rouvertes : NIST SP 800-63B §5.1.1.2 confirme mot pour mot l'abandon du changement périodique arbitraire et des règles de composition, remplacées par comparaison à une liste de valeurs compromises/courantes. Le blog NIST (Garcia, 2017) confirme 65 bits vs 85 bits d'entropie et le facteur ~1 050 000x, conforme au 'près d'un million de fois plus' de la fiche. L'article WSJ (McMillan) est paywall et inaccessible en direct (WebFetch bloqué + archive.ph inaccessible), mais la citation exacte de Burr et le récit (demande d'accès aux mots de passe réels du NIST refusée pour confidentialité, appui sur un livre blanc des années 1980) sont corroborés mot pour mot par de multiples reprises journalistiques indépendantes (BizTech, Engadget, TechSpot, Gizmodo) citant toutes le même article WSJ du 7 août 2017."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-08",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

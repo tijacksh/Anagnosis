@@ -1,0 +1,105 @@
+{
+  "id": "gen-effondrement-du-cout-du-genome",
+  "slug": "effondrement-du-cout-du-genome",
+  "titre": "Le prix d'un génome a chuté plus vite que la loi de Moore",
+  "accroche": "En 2001, lire un génome humain coûtait 95 millions de dollars. En 2022, environ 525",
+  "discipline": "genetique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 2001, le Human Genome Project publie un premier brouillon de la séquence du génome humain, couvrant environ 90 % de son contenu après une dizaine d'années de travail. Deux ans plus tard, en 2003, le consortium annonce la séquence complète, au terme de treize ans de travail au total et pour un coût final d'environ 2,7 milliards de dollars, sous le budget initial de trois milliards. Dès 2001 cependant, séquencer un génome humain supplémentaire dans les centres financés par les National Institutes of Health coûte encore près de 95 millions de dollars.\n\nDeux décennies plus tard, en 2022, la même opération revient à environ 525 dollars. Le prix d'un aller-retour en train, pour lire trois milliards de lettres.\n\n## Une courbe qui n'est pas une courbe\n\nLe National Human Genome Research Institute (NHGRI) suit ce coût depuis 2001, poste par poste, dans les centres de séquençage qu'il finance. Les premières années, la baisse suit à peu près le rythme auquel on s'attendrait d'une technologie électronique : quelque chose de comparable à la loi de Moore, cette observation empirique selon laquelle la densité de transistors qu'on peut graver sur une puce — et donc, grossièrement, la puissance de calcul disponible pour un prix donné — double environ tous les deux ans.\n\nPuis, à partir de janvier 2008, la courbe décroche. Le NHGRI décrit lui-même ce moment comme le dépassement soudain et profond de la loi de Moore. Ce n'est pas une amélioration continue de la méthode existante. C'est un changement de méthode.\n\nLe séquençage dit « Sanger », utilisé depuis les années 1970 puis industrialisé pour le projet du génome humain, lit l'ADN fragment par fragment, un brin après l'autre, chaque lecture demandant sa propre réaction chimique. Les instruments de nouvelle génération arrivés autour de 2007 lisent des millions de fragments en parallèle et laissent l'informatique reconstituer la séquence complète après coup. Le goulot d'étranglement n'est plus le nombre de lectures qu'un appareil peut enchaîner l'une après l'autre, mais leur multiplication simultanée — une bascule d'échelle, pas un perfectionnement.\n\n## Ce que la loi de Moore ne prédit pas\n\nLa loi de Moore décrit une amélioration régulière, portée par la miniaturisation d'une même architecture de transistors. Elle est devenue, dans le langage courant, une métaphore générale pour « la technologie devient moins chère avec le temps » — au point qu'on s'attend à ce que tout progrès technique lui ressemble : progressif, prévisible, sans à-coup.\n\nLe séquençage du génome montre qu'une rupture méthodologique peut faire beaucoup mieux qu'une optimisation continue, et le faire en quelques mois plutôt qu'en plusieurs années. C'est cette rupture, plus que la seule baisse de prix, qui a rendu possible le séquençage de populations entières, les tests génétiques grand public et l'usage du génome comme outil de diagnostic courant.\n\nIl reste que lire un génome n'a jamais été toute l'opération : le stocker, l'annoter et en interpréter les variants coûte aujourd'hui, pour un patient donné, plus cher que la lecture elle-même.",
+  "citation": null,
+  "repere": {
+    "texte": "Entre 2001 et 2022, le coût de séquençage d'un génome humain complet dans les centres financés par le NHGRI est passé d'environ 95 millions de dollars à environ 525 dollars. Le NHGRI situe le décrochage par rapport à la loi de Moore à partir de janvier 2008, avec l'arrivée du séquençage massivement parallèle.",
+    "source": "National Human Genome Research Institute (NHGRI), « DNA Sequencing Costs: Data »",
+    "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+  },
+  "carte": {
+    "punch": "En 2001, un génome coûtait 95 millions de dollars. En 2022, environ 525.",
+    "idee": "Le coût de séquençage d'un génome humain a été divisé par près de 180 000 en deux décennies. Ce n'est pas une amélioration continue façon loi de Moore : à partir de 2008, un changement de méthode — la lecture en parallèle de millions de fragments — fait chuter le prix d'un coup.",
+    "source_courte": "NHGRI, DNA Sequencing Costs Data"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "National Human Genome Research Institute",
+      "titre": "DNA Sequencing Costs: Data",
+      "publication": "NHGRI / National Institutes of Health",
+      "annee": 2023,
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+      "note": "Fiche officielle du NHGRI, mise à jour régulièrement ; décrit explicitement le décrochage par rapport à la loi de Moore à partir de janvier 2008."
+    },
+    {
+      "type": "web",
+      "auteur": "DataHub.io",
+      "titre": "The Evolution of DNA Sequencing Costs: Insights from 2001 to 2022",
+      "publication": "DataHub.io",
+      "annee": 2023,
+      "url": "https://datahub.io/blog/the-evolution-of-dna-sequencing-costs-insights-from-2001-to-2022",
+      "note": "Reprend les chiffres du NHGRI (95 millions de dollars en 2001, 525 dollars en 2022) avec le facteur de réduction."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Our World in Data — Cost of sequencing a full human genome",
+      "url": "https://ourworldindata.org/grapher/cost-of-sequencing-a-full-human-genome",
+      "note": "Graphique interactif de la même série de données NHGRI, année par année."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une ligne épaisse en aplat orange fluorescent saturé descend en marches d'escalier depuis le coin supérieur gauche ; l'une des marches, verticale, est démesurément plus longue que les précédentes et sort du cadre en bas. À côté, une fine ligne pointillée en encre sombre trace une pente régulière, pour marquer l'écart. Papier crème, léger hors-repérage sur l'orange uniquement, grain final sur la composition entière. Aucune figure humaine.",
+    "alt": "Une ligne en marches d'escalier chute brutalement à côté d'une pente régulière en pointillés",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la courbe du coût de séquençage décroche-t-elle brutalement de la loi de Moore à partir de 2008 ?",
+    "choix": [
+      "Parce que les gouvernements ont massivement subventionné la recherche génomique cette année-là",
+      "Parce qu'une nouvelle génération d'instruments a permis de lire des millions de fragments d'ADN en parallèle, remplaçant une méthode lue fragment par fragment",
+      "Parce que le génome humain a été entièrement séquencé une fois pour toutes en 2003, rendant les séquençages suivants plus rapides",
+      "Parce que le prix des ordinateurs a lui-même chuté à cette période, réduisant le coût de calcul associé"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le changement n'est pas une amélioration progressive des machines existantes, comme le prédit la loi de Moore pour les transistors : c'est un saut de méthode, du séquençage fragment par fragment à la lecture massivement parallèle. Les autres réponses mêlent des faits réels (financement, séquence de référence de 2003, baisse du prix des ordinateurs) sans rendre compte de la rupture précise observée dans les données du NHGRI.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-07T19:22:03.359Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-08-07T16:25:48.962Z",
+        "note": "Contrôle des sources : Le §1 de contenu_vulgarise attribue au brouillon publié en 2001 les treize ans de travail et les ~3 milliards de dollars — or le NHGRI (communiqué du 14/04/2003, https://www.genome.gov/11006929/2003-r…"
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-07T19:22:03.359Z",
+        "note": "Sources rouvertes en direct : communiqué NHGRI du 14/04/2003 (genome.gov/11006929, texte intégral), fiche NHGRI 'DNA Sequencing Costs: Data' (texte confirmé, valeurs numériques non lisibles directement mais confirmées via DataHub.io ci-dessous), DataHub.io (texte intégral). Correction appliquée : confirmé mot pour mot que les 'treize ans' (1990-2003, 'When the Human Genome Project was launched in 1990'...'finished two and a half years ahead of time' en 2003) et le coût final ('at $2.7 billion in FY 1991 dollars', sous le budget initial de $3 milliards) se rapportent à l'annonce de la séquence COMPLETE en 2003, pas au brouillon de 2001. Paragraphe 1 réécrit pour distinguer les deux étapes : brouillon 2001 (~90% du génome, environ dix ans de travail) puis séquence complète 2003 (treize ans au total, ~2,7 milliards de dollars, sous le budget initial de 3 milliards) ; le chiffre de 95 millions de dollars pour un génome supplémentaire en 2001 (source NIH, indépendant de l'état de la séquence de référence) est conservé tel quel. Incohérence liée résolue : quiz.explication mentionne 'la séquence de référence de 2003' comme fait réel dans un distracteur -- désormais cohérent avec le corps qui situe aussi la séquence complète en 2003. Reste de la fiche revérifié : décrochage de la loi de Moore à partir de janvier 2008 confirmé mot pour mot par le NHGRI ('the sudden and profound out-pacing of Moore's Law beginning in January 2008', transition Sanger vers séquençage 'second-generation'). Chiffres 95 millions $ (2001) et 525 $ (2022) confirmés mot pour mot par DataHub.io, qui reprend explicitement les données du NHGRI. Carte, quiz (bonne réponse et distracteurs) et pour_aller_plus_loin (Our World in Data, même série NHGRI) revérifiés conformes. npm run validate repasse sans erreur (493 mots, sous la limite de 700)."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-07",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-08-07",
+    "verdict": "a_revoir",
+    "empreinte": "ce1976813a42faf5",
+    "notes": [
+      "Le §1 de contenu_vulgarise attribue au brouillon publié en 2001 les treize ans de travail et les ~3 milliards de dollars — or le NHGRI (communiqué du 14/04/2003, https://www.genome.gov/11006929/2003-release-international-consortium-completes-hgp) situe ces treize ans (1990-2003) et le coût final (~2,7 Md$, budget initial 3 Md$) au moment de l'annonce de la séquence COMPLÈTE en 2003, pas au brouillon de 2001 (publié dans Nature après ~10-11 ans de travail, couvrant ~90% du génome). À corriger : soit rattacher '13 ans / 3 milliards' à 2003 et distinguer clairement le brouillon 2001, soit retirer ces chiffres de la phrase sur 2001. Incohérence liée : quiz.explication évoque 'la séquence de référence de 2003' comme fait distinct, ce qui contredit le §1 situant cette séquence en 2001 — à harmoniser. Le reste (décrochage Moore's Law à partir de janvier 2008 confirmé mot pour mot par le NHGRI, chiffres 95M$/2001 et 525$/2022, source DataHub reprenant bien le NHGRI, carte, quiz par ailleurs) est vérifié et exact."
+    ]
+  }
+}

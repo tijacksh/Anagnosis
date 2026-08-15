@@ -65,14 +65,30 @@
     "explication": "C'est une démonstration de méthode : décrire sa propre société avec le vocabulaire distancié de l'ethnographie montre que l'exotisme tient au regard porté sur un geste, pas au geste lui-même, ni le produit utilisé, ni une consigne de revue, ni une accusation de sorcellerie n'expliquent la démarche.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-05T15:51:36.015Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-05T15:51:36.015Z",
+        "note": "Texte intégral de Miner (lumenlearning.com) rouvert en direct : les trois citations centrales confirmées mot pour mot (shrine et 'charms and magical potions without which no native believes he could live' ; medicine men qui 'do not provide the curative potions... but decide what the ingredients should be' ; holy-mouth-men et 'inserting a small bundle of hog hairs into the mouth'). DOI de l'article original résout correctement vers Wiley/AnthroSource (paywall légitime, 402, pas un lien mort). Burde 2014 confirmé par recoupement indépendant (paywall Wiley également) : 'over 50 partial or full anthological reproductions... spanning five decades' et 'one of the more widely circulated English-language pieces of 20th-century social science', quasi mot pour mot le repère. Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-05",
+    "verdict": "ok",
+    "empreinte": "10c6e395ca929d88",
+    "notes": [
+      "Première relecture au fond. Texte intégral de Miner (lumenlearning.com) confirme mot pour mot les trois éléments centraux du corps : le 'shrine' ('every household has one or more shrines... In this chest are kept the many charms and magical potions without which no native believes he could live'), les 'medicine men' (ne préparent pas eux-mêmes les potions, en prescrivent les ingrédients contre rétribution), et les 'holy-mouth-men' ('inserting a small bundle of hog hairs into the mouth... moving the bundle in a highly formalized series of gestures', qualifié de 'revolting' par l'auteur). doi.org/10.1525/aa.1956.58.3.02a00080 résout correctement (302 vers Wiley/AnthroSource), confirmant vol. 58 n°3. Recoupement indépendant (WebSearch, en.wikipedia.org/wiki/Horace_Mitchell_Miner) confirme que Miner fut président de la Society for Applied Anthropology (1954-1955). L'article de Burde 2014 (paywall Wiley, 402, mais contenu vérifié par recoupement indépendant via WebSearch/citations tierces) confirme presque mot pour mot le repere : 'over 50 partial or full anthological reproductions of the piece spanning five decades' et 'one of the more widely circulated English-language pieces of 20th-century social science'. Carte et quiz vérifiés conformes. Rien à corriger."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-05",
     "genere_par": "claude-code",

@@ -13,7 +13,7 @@
   "repere": {
     "texte": "Graunt construit, en 1662, la première table de mortalité de l'histoire à partir des relevés hebdomadaires de décès de Londres tenus depuis 1604 : pour cent enfants nés dans la ville, il calcule combien seraient encore vivants à 6, 16 et 36 ans, sans disposer d'aucune donnée sur l'âge réel des personnes décédées.",
     "source": "John Graunt, Natural and Political Observations Made upon the Bills of Mortality, Londres, 1662",
-    "url": "https://en.wikipedia.org/wiki/John_Graunt"
+    "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-graunt/"
   },
   "carte": {
     "punch": "Un marchand sans formation scientifique a inventé la démographie en 1662.",
@@ -34,6 +34,24 @@
       "titre": "Scientist of the Day — John Graunt",
       "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-graunt/",
       "note": "Confirme la date de naissance et le titre exact de l'ouvrage de 1662."
+    },
+    {
+      "type": "livre",
+      "auteur": "John Graunt",
+      "titre": "Natural and Political Observations Made upon the Bills of Mortality (transcription, chap. XI)",
+      "publication": "Londres, 1662",
+      "annee": 1662,
+      "url": "https://probabilityandfinance.com/pulskamp/Graunt/graunt.html",
+      "note": "Transcription du texte original ; confirme les chiffres de la table de mortalité (64 survivants à 6 ans, 40 à 16 ans, 16 à 36 ans, pour 100 conçus)."
+    },
+    {
+      "type": "revue",
+      "auteur": "Henry Connor",
+      "titre": "John Graunt F.R.S. (1620-74): The founding father of human demography, epidemiology and vital statistics",
+      "publication": "Journal of Medical Biography, vol. 32, n°1, p. 57-69",
+      "annee": 2024,
+      "url": "https://doi.org/10.1177/09677720221079826",
+      "note": "Confirme le ratio de naissances de 14 garçons pour 13 filles observé par Graunt à Londres."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -55,19 +73,29 @@
     "explication": "Aucun recensement ni aucune donnée d'âge au décès n'existait à l'époque : Graunt construit sa table de mortalité uniquement à partir des relevés de décès classés par cause, tenus depuis 1604 pour surveiller les épidémies de peste, un tour de force méthodologique resté sans équivalent avant lui.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-05T19:27:11.661Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-05T19:27:11.661Z",
+        "note": "Sources rouvertes : Wikipédia et Linda Hall Library (déjà en place). Ajouté à sources[] la transcription du texte original de Graunt (probabilityandfinance.com/pulskamp, chap. XI, vérifiée : confirme mot pour mot 64 survivants à 6 ans, 40 à 16 ans, 16 à 36 ans sur 100 conçus) et Connor 2024 (Journal of Medical Biography, DOI, open access, vérifié : confirme le ratio de naissances 14 garçons pour 13 filles). Ces deux ajouts couvrent les chiffres de contenu_vulgarise et repere.texte que les deux sources précédentes ne couvraient pas. Date et détails Royal Society (5 février 1662, 50 exemplaires, appui de Charles II) recoupés indépendamment et confirmés. Reste de la fiche (marchand sans formation, double paternité démographie/épidémiologie, quiz) vérifié conforme."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-08-04",
-    "verdict": "ok",
-    "empreinte": "425a5f7b6a1a96f8",
+    "fait_le": "2026-08-05",
+    "verdict": "a_revoir",
+    "empreinte": "27712d86e7cfb049",
     "notes": [
-      "Sources rouvertes (Wikipédia, Linda Hall Library) : titre exact de l'ouvrage, table de mortalité, élection à la Royal Society le 5 février 1662 avec 50 exemplaires présentés, appui de Charles II, date de naissance — tout confirmé."
+      "Sources rouvertes (Wikipédia, Linda Hall Library). CORRIGÉ : repere.url pointait vers Wikipédia pour l'affirmation 'tenus depuis 1604', mais Wikipédia dit littéralement 'consistently released starting in 1603' (Graunt lui-même annonçait 1592) — seule la Linda Hall Library, déjà citée en sources[], confirme '1604' ('death records... initiated in 1604'). repere.url mis à jour pour pointer vers cette source, qui soutient réellement le chiffre.",
+      "PROBLÈME NON CORRIGÉ : les chiffres précis de la table de mortalité (survie à 6, 16 et 36 ans pour cent naissances) et la proportion de garçons supérieure à celle des filles, présents dans contenu_vulgarise et repere.texte, ne sont confirmés par AUCUNE des deux sources actuellement citées (vérifié en ligne : ni Wikipédia ni Linda Hall Library ne donnent ces chiffres). Ce sont des faits bien documentés par ailleurs sur la table de mortalité de Graunt, mais la fiche a besoin d'une source qui les énonce explicitement. À faire avant réparation : ajouter une source secondaire qui détaille et confirme ces chiffres (par ex. une notice académique reproduisant la table de Graunt), ou reformuler pour ne garder que ce que les sources actuelles soutiennent. Reste de la fiche (marchand sans formation, 1662, 50 exemplaires à la Royal Society, appui de Charles II, double paternité démographie/épidémiologie, quiz) vérifié conforme."
     ]
   },
   "meta": {

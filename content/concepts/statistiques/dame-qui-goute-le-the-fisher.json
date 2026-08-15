@@ -64,13 +64,13 @@
     ],
     "bonne_reponse": 0,
     "explication": "Un ordre qui paraît arbitraire à l'œil peut malgré tout suivre une régularité cachée, perceptible ou exploitable sans que l'expérimentateur en ait conscience. Seul un tirage réellement aléatoire garantit qu'aucun facteur caché ne vienne fausser le test, c'est ce que Fisher appelle la base physique de la validité du test.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-04T10:25:35.750Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-05T15:34:05.060Z",
     "historique": [
       {
         "action": "retoucher",
@@ -79,6 +79,14 @@
         "par": "routine-relecture",
         "le": "2026-08-04T10:25:35.750Z",
         "note": "Sources rouvertes et reconfirmées : Fisher, The Design of Experiments (1935, archive.org djvu.txt) — les deux citations vérifiées mot pour mot (section 5 p.13, section 6 p.14), et confirmation que Fisher ne rapporte jamais l'issue réelle du test dans le livre. Richardson (2021), Significance 18(5):34-37 — confirme l'identité de Muriel Bristol (via la biographie de Joan Fisher Box, pas via Fisher) et les deux versions discordantes de l'issue (Salsburg/Fairfield Smith : succès parfait, p=.014 ; Box : résultat imparfait avec erreurs, p=.243 non significatif). Corps, quiz (vérifié via le passage de Fisher sur la « physical basis of the validity of the test », section 9) et repère/citation conformes. Doute précis sur la carte : carte.punch disait « Une tasse de thé mal reconnue... », ce qui affirme implicitement que la dame a échoué le test — or le corps explique justement que l'issue réelle est incertaine et contestée entre deux témoignages tardifs discordants. J'ai reformulé en « Un pari sur une tasse de thé... » pour ne plus trancher un point que les sources elles-mêmes ne tranchent pas. Cette correction touche le texte (carte), donc l'empreinte a changé : fiche renvoyée pour qu'un contrôle indépendant revérifie la carte corrigée avant remise en circulation."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-05T15:34:05.060Z",
+        "note": "Vérification indépendante complète, sans correction supplémentaire. Fisher, The Design of Experiments (1935, archive.org djvu.txt) téléchargé et grepé directement : les deux citations du corps confirmées mot pour mot ('Our experiment consists in mixing eight cups of tea...', 'A subject without any faculty of discrimination would in fact divide the 8 cups correctly into two sets of 4 in one trial out of 70'), ainsi que le thème de la randomisation comme garantie de validité (occurrences multiples dans le texte). Richardson (2021), Significance 18(5), revérifié : confirme que Fisher ne nomme jamais la participante ni ne rapporte l'issue du test, que l'identité de Muriel Bristol vient de la biographie de Joan Fisher Box (via William Roach) et non du texte de Fisher, et que les deux versions de l'issue (succès parfait selon Salsburg/Fairfield Smith, p=.014 ; résultat avec erreurs selon Joan et George Fisher Box, non significatif si deux erreurs) sont bien discordantes. La correction déjà apportée par la relecture (carte.punch reformulé pour ne plus trancher une issue disputée) reste cohérente avec le corps. Aucun changement de texte, décision seule après re-vérification indépendante complète."
       }
     ]
   },

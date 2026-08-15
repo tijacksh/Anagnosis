@@ -8,7 +8,7 @@
   "theme_ordre": null,
   "niveau": "intermediaire",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "En 2007, le psychologue allemand Gerd Gigerenzer et ses collègues posent une question à 160 gynécologues lors d'une formation continue : dans une population de femmes de 40 ans sans symptôme, la probabilité d'avoir un cancer du sein est de 1 %. Une femme passe une mammographie et le résultat est positif. Ce test détecte 90 % des cancers réels, mais donne aussi un résultat positif chez 9 % des femmes qui n'ont pas de cancer. Quelle est la probabilité que cette femme ait effectivement un cancer ? Seuls 21 % des gynécologues interrogés répondent correctement. La plupart avancent un chiffre proche de 90 %, ou de 81 %. La bonne réponse tourne en réalité autour de 9 %.\n\n## Le nombre que presque personne ne regarde\n\nL'erreur, documentée depuis les années 1980 sous le nom de biais du taux de base, consiste à se concentrer sur la fiabilité du test, 90 % de détection, en oubliant un chiffre pourtant donné dans l'énoncé : la rareté de la maladie elle-même. Sur 1 000 femmes, 10 seulement ont réellement un cancer (1 %) ; le test en détecte 9 (90 % de 10). Mais parmi les 990 femmes saines, 9 % obtiennent malgré tout un résultat positif, soit environ 89 femmes. Sur les 98 résultats positifs au total (9 vraies malades plus 89 fausses alertes), seules 9 sont réellement malades : 9 divisé par 98, soit environ 9 %. Le test reste utile, il multiplie par neuf la probabilité initiale de 1 %, mais il est très loin de désigner une certitude, parce que le groupe des femmes saines est immense comparé au groupe des femmes malades, et qu'un faible taux de fausses alertes y prélève un grand nombre absolu de personnes.\n\n## Un problème de présentation, pas seulement de calcul\n\nGigerenzer montre que l'erreur n'est pas propre aux médecins ni à un manque d'aptitude pour les probabilités : elle vient largement de la façon dont le problème est formulé. Reformulé en fréquences naturelles plutôt qu'en pourcentages, sur 1 000 femmes, 10 ont un cancer ; parmi elles, 9 ont un test positif ; parmi les 990 femmes sans cancer, 89 ont aussi un test positif, la même question devient nettement plus facile à résoudre correctement, y compris pour des professionnels de santé sans formation statistique particulière. La conséquence dépasse le cas du cancer du sein : chaque fois qu'un test de dépistage, un algorithme de détection de fraude ou un contrôle de sécurité s'applique à une population où l'événement recherché est rare, un résultat positif reste, la plupart du temps, une fausse alerte, et le confondre avec un diagnostic revient à annoncer, à tort, une quasi-certitude à des personnes en réalité très probablement saines.",
+  "contenu_vulgarise": "En 2007, le psychologue allemand Gerd Gigerenzer et ses collègues posent une question à 160 gynécologues lors d'une formation continue : dans une population de femmes de 40 ans sans symptôme, la probabilité d'avoir un cancer du sein est de 1 %. Une femme passe une mammographie et le résultat est positif. Ce test détecte 90 % des cancers réels, mais donne aussi un résultat positif chez 9 % des femmes qui n'ont pas de cancer. Quelle est la probabilité que cette femme ait effectivement un cancer ? Seuls 21 % des gynécologues interrogés répondent correctement. La plupart avancent un chiffre proche de 90 %, ou de 81 %. La bonne réponse tourne en réalité autour de 9 %.\n\n## Le nombre que presque personne ne regarde\n\nL'erreur, connue sous le nom de biais du taux de base, consiste à se concentrer sur la fiabilité du test, 90 % de détection, en oubliant un chiffre pourtant donné dans l'énoncé : la rareté de la maladie elle-même. Sur 1 000 femmes, 10 seulement ont réellement un cancer (1 %) ; le test en détecte 9 (90 % de 10). Mais parmi les 990 femmes saines, 9 % obtiennent malgré tout un résultat positif, soit environ 89 femmes. Sur les 98 résultats positifs au total (9 vraies malades plus 89 fausses alertes), seules 9 sont réellement malades : 9 divisé par 98, soit environ 9 %. Le test reste utile, il multiplie par neuf la probabilité initiale de 1 %, mais il est très loin de désigner une certitude, parce que le groupe des femmes saines est immense comparé au groupe des femmes malades, et qu'un faible taux de fausses alertes y prélève un grand nombre absolu de personnes.\n\n## Un problème de présentation, pas seulement de calcul\n\nGigerenzer montre que l'erreur n'est pas propre aux médecins ni à un manque d'aptitude pour les probabilités : elle vient largement de la façon dont le problème est formulé. Reformulé en fréquences naturelles plutôt qu'en pourcentages, sur 1 000 femmes, 10 ont un cancer ; parmi elles, 9 ont un test positif ; parmi les 990 femmes sans cancer, 89 ont aussi un test positif, la même question devient nettement plus facile à résoudre correctement, y compris pour des professionnels de santé sans formation statistique particulière. La conséquence dépasse le cas du cancer du sein : chaque fois qu'un test de dépistage, un algorithme de détection de fraude ou un contrôle de sécurité s'applique à une population où l'événement recherché est rare, un résultat positif reste, la plupart du temps, une fausse alerte, et le confondre avec un diagnostic revient à annoncer, à tort, une quasi-certitude à des personnes en réalité très probablement saines.",
   "citation": null,
   "repere": {
     "texte": "Sur 1 000 femmes de 40 ans testées, 10 ont réellement un cancer du sein. Le test en détecte 9, mais produit aussi environ 89 fausses alertes parmi les femmes saines : sur 98 résultats positifs au total, seules 9 correspondent à un cancer réel, environ 9 %, contre les 90 % ou plus estimés par la majorité des 160 gynécologues interrogés.",
@@ -59,19 +59,36 @@
     "explication": "Sur 1 000 personnes, seules 10 sont malades (1 %) et le test en détecte 9. Mais parmi les 990 personnes saines, 9 % obtiennent quand même un résultat positif, soit environ 89 personnes. Sur 98 résultats positifs, seules 9 sont réellement malades : environ 9 %, pas 90 %.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-08T19:19:10.251Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-06T10:19:51.203Z",
+        "note": "Deuxième passage indépendant. Sources rouvertes : Gigerenzer et al. 2007 (SAGE, texte intégral) et Gigerenzer & Hoffrage 1995 (confirmé via CrossRef : titre, auteurs, Psychological Review 102(4), p.684-704, 1995). Prévalence 1%, sensibilité 90%, faux positifs 9%, 21% de bonnes réponses, majorité répondant 90% ou 81%, citation exacte 'the majority of them grossly overestimated the probability of cancer, answering 90% or 81%' retrouvée mot pour mot dans le texte intégral SAGE. Repere, carte et quiz conformes aux chiffres vérifiés. Point sorti : la phrase 'documentée depuis les années 1980 sous le nom de biais du taux de base' n'est soutenue par aucune des deux sources citées, et la littérature réelle (Kahneman & Tversky 1973-74, Casscells et al. 1978) documente le phénomène dès les années 1970 — vérifié via Wikipédia 'Base rate fallacy'. Phrase retirée (devient 'connue sous le nom de biais du taux de base'), sans rien y substituer faute de source précise sur l'origine exacte. Repasse au contrôle du fait de la correction."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-08T19:19:10.251Z",
+        "note": "Troisième passage indépendant (après relecture et contrôle, tous deux déjà conformes) : sources rouvertes à nouveau moi-même. Gigerenzer et al. 2007 (SAGE, texte intégral, WebFetch) confirme mot pour mot : 160 gynécologues, prévalence 1%, sensibilité 90%, faux positifs 9%, citation exacte 'the majority of them grossly overestimated the probability of cancer, answering 90% or 81%', 21% de bonnes réponses. Gigerenzer & Hoffrage 1995 confirmé via l'API CrossRef (titre, auteurs, Psychological Review 102(4), p.684-704, 1995 — la page APA reste en JS, inaccessible en fetch direct, comme lors des deux passages précédents). Repere, carte, corps et quiz (bonne réponse ~9%, index 1, distracteurs 90%/50%/99% tous faux) revérifiés conformes aux chiffres sourcés. Aucun changement de texte : la phrase sur la datation du biais avait déjà été retirée lors de la relecture précédente et le contrôle suivant l'avait validée sans réserve. Rien à corriger, décision de validation actée."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-08-04",
+    "fait_le": "2026-08-06",
     "verdict": "ok",
-    "empreinte": "c1a1cbe5923d85b8",
+    "empreinte": "c7a990c0243448d1",
     "notes": [
-      "Source rouverte (Gigerenzer et al. 2007, SAGE) : scénario exact confirmé, 21% de bonnes réponses chez les gynécologues, majorité répondant 90% ou 81%. Gigerenzer & Hoffrage 1995 confirmé par recherche (fréquences naturelles)."
+      "Deuxième passage indépendant après retouche. Sources rouvertes : Gigerenzer et al. 2007 (SAGE, texte intégral) confirme mot pour mot 160 gynécologues, prévalence 1%, sensibilité 90%, faux positifs 9%, 21% de bonnes réponses, citation 'the majority of them grossly overestimated the probability of cancer, answering 90% or 81%'. Gigerenzer & Hoffrage 1995 confirmé via API CrossRef (titre, auteurs, Psychological Review 102(4), p.684-704, 1995), la page APA étant en JS. La phrase corrigée par la relecture précédente ('documentée depuis les années 1980' retirée) ne contient plus d'affirmation de date non soutenue. Repere, carte, quiz (bonne réponse 9%, index 1) conformes."
     ]
   },
   "meta": {

@@ -103,11 +103,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
+    "fait_le": "2026-08-14",
     "verdict": "ok",
-    "empreinte": "1fccfdcecf6345ec",
+    "empreinte": "d977df1604ca0a1d",
     "notes": [
-      "Recontrôle après la réparation précédente (correction 'dizaines de milliers' -> 'environ cent mille', reperé re-sourcé sur la Nobel Lecture de Rowland). Vérifications indépendantes : Nature 249, 810-812 (1974) relu via le mirroir biotech.law.lsu.edu/blog/249810a0.pdf (nature.com bloque toujours le fetch automatisé par authentification) — confirme le titre exact, les auteurs (Mario J. Molina & F. S. Rowland, UC Irvine), et le mécanisme catalytique Cl+O3->ClO+O2 puis ClO+O->Cl+O2 ; ne quantifie effectivement pas le nombre de molécules détruites par atome, comme déjà relevé. Chiffre 'environ cent mille' reconfirmé de façon indépendante via NOAA Global Monitoring Laboratory (gml.noaa.gov/hats/publictn/elkins/cfcs.html : '100,000 molecules of ozone can be destroyed per chlorine atom'). Nobel Lecture de Rowland (nobelprize.org/uploads/2018/06/rowland-lecture.pdf) toujours inaccessible au fetch (403), comme lors du contrôle précédent. Reste de la fiche (mécanisme, trou antarctique 1985, protocole de Montréal 1987, Nobel 1995, quiz) déjà vérifié en détail par la réparation précédente et non modifié depuis. Rien à corriger."
+      "Recontrôle après changement d'empreinte dû uniquement au retrait des tirets cadratins (commit 5091a13, tirets remplacés par des virgules dans contenu_vulgarise, carte.idee et quiz.explication) — vérifié via git show, aucun changement de fond, y compris sur le chiffre 'environ cent mille' déjà corrigé lors de la réparation du 2026-07-31. Fond déjà vérifié en détail lors du recontrôle du 2026-07-31 (Nature 249/1974 et sourcage NOAA/UC Berkeley du chiffre de Rowland). Spot-check : nature.com/articles/249810a0 et la Nobel Lecture de Rowland sont toujours en ligne. Rien à signaler."
     ]
   }
 }

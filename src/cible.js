@@ -27,8 +27,12 @@ import { DISCIPLINES, ENCRES } from './schema.js';
 /** Fiches en attente de relecture au-delà desquelles on cesse de produire. */
 export const FILE_MAX = 24;
 
-/** Fiches par passage. Huit par jour, soit environ 180 par mois. */
-export const PAR_PASSAGE = 8;
+/**
+ * Fiches par passage. Quatre par jour, soit environ 90 par mois — aligné sur
+ * `réparer` et `relire` (`src/reparer.js`, `src/relire.js`), pour que la chaîne
+ * digère un lot en un seul passage à chaque maillon plutôt que d'accumuler.
+ */
+export const PAR_PASSAGE = 4;
 
 /**
  * Socle visé par discipline. En dessous, une discipline cochée seule ferait tourner

@@ -1,0 +1,91 @@
+{
+  "id": "gen-vrais-jumeaux-genomes-differents",
+  "slug": "vrais-jumeaux-genomes-differents",
+  "titre": "Les vrais jumeaux ne sont pas génétiquement identiques",
+  "accroche": "Deux jumeaux issus du même œuf accumulent déjà des mutations différentes avant même la naissance",
+  "discipline": "genetique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Les études sur les jumeaux occupent une place particulière en génétique : comparer des jumeaux monozygotes, issus d'un seul œuf fécondé, à des jumeaux dizygotes, issus de deux œufs distincts, permet d'estimer la part des différences entre individus qui tient aux gènes plutôt qu'à l'environnement. Toute la méthode repose sur un postulat simple : les jumeaux monozygotes partagent un génome identique.\n\nUne équipe islandaise de deCODE genetics a mesuré, en 2021, à quel point ce postulat n'est qu'une approximation.\n\n## Des mutations avant même la naissance\n\nL'équipe a séquencé le génome de 387 paires de jumeaux monozygotes islandais, ainsi que celui de leurs parents, conjoints et enfants — de quoi repérer, dans le génome de chaque jumeau, les mutations qui ne viennent d'aucun des deux parents et qui ne se retrouvent pas chez le co-jumeau.\n\nRésultat : les deux jumeaux d'une paire diffèrent en moyenne par 5,2 mutations apparues tôt dans le développement. Dans environ 15 % des paires, l'écart est nettement plus marqué : un des deux jumeaux porte un nombre de mutations propres bien supérieur à l'autre.\n\nL'explication tient au moment où ces mutations apparaissent. L'œuf fécondé se divise en deux masses cellulaires distinctes qui donneront chacune un jumeau, mais cette séparation n'a pas lieu à l'instant précis de la première division cellulaire. Dans l'intervalle — les toutes premières divisions de l'embryon — des erreurs de copie de l'ADN se produisent déjà, comme dans toute division cellulaire. Une mutation apparue à ce stade ne se retrouve que dans la lignée de cellules qui donnera l'un des deux jumeaux, et reste absente de l'autre.\n\n## Identique n'a jamais voulu dire identique\n\nCes mutations ne sont pas de simples curiosités de laboratoire : certaines touchent des cellules qui deviendront des cellules reproductrices, et se transmettent alors aux enfants d'un seul des deux jumeaux, jamais à ceux de l'autre. Deux cousins censés partager le même bagage génétique parental, via des jumeaux monozygotes, peuvent ainsi hériter de variants génétiquement distincts sans qu'aucune anomalie ne soit en cause.\n\nPour les études d'héritabilité, l'écart mesuré reste minuscule à côté du reste du génome, partagé lui à l'identique près. Il rappelle surtout qu'« identique » a toujours été une commodité statistique, vraie à l'échelle où la génétique classique travaillait, et de moins en moins vraie à mesure que le séquençage gagne en résolution.",
+  "citation": null,
+  "repere": {
+    "texte": "En séquençant 387 paires de jumeaux monozygotes islandais, ainsi que leurs parents, conjoints et enfants, l'étude de deCODE genetics (2021) mesure une différence moyenne de 5,2 mutations précoces entre les deux jumeaux d'une paire ; dans environ 15 % des paires, l'écart est nettement plus marqué chez l'un des deux.",
+    "source": "Jonsson et al., « Differences between germline genomes of monozygotic twins », Nature Genetics, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33414551/"
+  },
+  "carte": {
+    "punch": "Deux jumeaux issus du même œuf ont déjà, à la naissance, des mutations que l'autre n'a pas.",
+    "idee": "Des jumeaux monozygotes partagent le même œuf fécondé, mais pas un génome identique au sens strict. Une étude islandaise sur 387 paires mesure en moyenne 5,2 mutations apparues avant la naissance et propres à l'un des deux seulement — parfois transmissibles à leurs propres enfants.",
+    "source_courte": "Jonsson et al., Nature Genetics 2021"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Jonsson, Hakon et al.",
+      "titre": "Differences between germline genomes of monozygotic twins",
+      "publication": "Nature Genetics, 53",
+      "annee": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33414551/",
+      "note": "387 paires de jumeaux séquencées avec leurs familles ; mesure directe des mutations qui distinguent chaque paire."
+    },
+    {
+      "type": "institution",
+      "auteur": "deCODE genetics",
+      "titre": "Monozygous, but not identical",
+      "publication": "deCODE genetics (communiqué de presse)",
+      "annee": 2021,
+      "url": "https://www.prnewswire.com/news-releases/decode-genetics-monozygous-but-not-identical-301201985.html",
+      "note": "Communiqué de l'institut à l'appui de la publication ; résume les chiffres clés en langage non spécialisé."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Deux formes presque superposées, quasiment identiques, en aplat orange fluorescent saturé, l'une légèrement décalée de l'autre ; à un seul endroit, un petit fragment de la forme de droite dépasse du contour commun et sort du cadre. Papier crème, léger hors-repérage sur l'orange, grain final sur la composition entière. Aucune figure humaine.",
+    "alt": "Deux formes presque identiques superposées, l'une dépassant légèrement de l'autre à un endroit",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "À quel moment apparaissent les mutations qui distinguent le génome de deux vrais jumeaux ?",
+    "choix": [
+      "Dans les tout premiers jours du développement, avant ou juste après la séparation de l'embryon en deux",
+      "Uniquement après la naissance, sous l'effet de l'environnement propre à chacun",
+      "Jamais : les deux jumeaux gardent un génome rigoureusement identique toute leur vie",
+      "Seulement à l'âge adulte, au moment de la formation des cellules reproductrices"
+    ],
+    "bonne_reponse": 0,
+    "explication": "L'œuf fécondé se divise en deux masses cellulaires distinctes dans les tout premiers jours. Les mutations qui surviennent lors des toutes premières divisions, avant ou pendant cette séparation, ne se retrouvent souvent que dans les cellules de l'un des deux jumeaux — c'est ce que mesure l'étude de 2021, pas des différences dues à l'environnement ni à la reproduction adulte.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-07T22:19:33.030Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-07T22:19:33.030Z",
+        "note": "Sources rouvertes : PubMed 33414551 (abstract intégral récupéré via Europe PMC : biblio confirmée, Jonsson et al., Nature Genetics 53(1):27-34, 2021) et communiqués deCODE (prnewswire + decode.com, deux versions indépendantes concordantes). Chiffres confirmés mot pour mot dans les deux : 387 paires de jumeaux monozygotes islandais avec parents/conjoints/enfants, 5,2 mutations précoces en moyenne, ~15% des paires avec écart marqué. Mécanisme (masses cellulaires pré-séparation, mutations de lignée propres à un seul jumeau) confirmé par l'abstract. Point vérifié spécifiquement car non explicite dans l'abstract ni les communiqués : la transmission différentielle aux enfants d'un seul jumeau ('jamais à ceux de l'autre') — corroborée via un blog académique (UofT MedGen) citant la méthode de l'étude ('confirmed as germline mutations if the twin's child(ren) also had the mutation') et via la description du design à trois générations ; logiquement nécessaire aussi (mutation absente du génome d'un jumeau ne peut figurer dans ses gamètes). Carte et quiz vérifiés, cohérents avec les sources ; aucune correction de texte nécessaire."
+      }
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-07",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-08-07",
+    "verdict": "ok",
+    "empreinte": "3f704e9909a29f7d",
+    "notes": [
+      "Sources rouvertes (PubMed 33414551 et communiqué deCODE prnewswire), recoupées avec 2 sources secondaires indépendantes (IRIS/Landsbókasafn, résumé académique). Chiffres exacts et bien attribués : 387 paires de jumeaux monozygotes islandais séquencées avec parents/conjoints/enfants, 5,2 mutations précoces en moyenne entre jumeaux d'une paire, ~15% des paires avec écart nettement plus marqué — abstract cité verbatim sur ces trois points via 3 fetchs indépendants. Mécanisme (mutations dans les premières divisions embryonnaires, avant/pendant la séparation en deux masses cellulaires) conforme à l'étude (pre-twinning cell mass, lignées cellulaires). Quiz cohérent, bonne réponse distincte des distracteurs. Aucune correction nécessaire."
+    ]
+  }
+}

@@ -78,13 +78,13 @@
     ],
     "bonne_reponse": 3,
     "explication": "Multiplier une probabilité par elle-même n'est valable que si les deux événements sont indépendants. Or des facteurs génétiques ou environnementaux propres à une famille peuvent rendre une seconde mort subite du nourrisson bien plus probable dès lors qu'une première a eu lieu, ce qui invalide la simple mise au carré, indépendamment de la fiabilité du chiffre de départ.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-04T06:53:40.074Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-05T15:21:29.809Z",
     "historique": [
       {
         "action": "retoucher",
@@ -93,6 +93,14 @@
         "par": "routine-relecture",
         "le": "2026-08-04T06:53:40.074Z",
         "note": "Sources rouvertes intégralement, y compris ré-extraction du texte des trois PDF déjà téléchargés (pdftotext, car WebFetch ne décode pas les PDF en binaire) : lettre RSS au Lord Chancellor du 23 janvier 2002 lue en entier — citation vérifiée mot pour mot, y compris la formule 'Leaving aside the matter of validity' (confirmée dans CETTE lettre, pas dans le communiqué d'octobre 2001 qui dit 'Aside from its invalidity' — la correction du contrôle précédent est donc bien fondée) ; communiqué RSS du 23 octobre 2001 lu en entier (confirmé, daté, contenu conforme à la note de pour_aller_plus_loin) ; jugement EWCA Crim 1020 lu en entier (1444 lignes) — confirmé mot pour mot : condamnation le 9 nov. 1999 à Chester à 10 voix contre 2, premier appel rejeté le 2 oct. 2000, second appel entendu les 28-29 janvier 2003 (convictions jugées unsafe à cette date), motifs détaillés le 11 avril 2003, non-communication des résultats microbiologiques sur Harry (Staphylococcus Aureus isolé, infection bactérienne confirmée dans le jugement §906-925), §178 confirme mot pour mot que le chiffre '1 in 73 million' 'grossily overstates' la probabilité d'une double mort naturelle et a pu peser sur le jury malgré les efforts du juge (§172-180, lu en entier). Article BBC du 16 mars 2007 (mort de Sally Clark) rouvert via navigateur (web.archive.org, inaccessible à WebFetch mais accessible au navigateur) : confirme la découverte du corps mais dit explicitement 'cause of death not yet known' — NE SOUTIENT PAS la phrase du corps sur l'intoxication alcoolique. CORRIGÉ : ajouté aux sources[] l'article BBC du 7 novembre 2007 'Alcohol killed mother Sally Clark' (news.bbc.co.uk/2/hi/uk_news/england/essex/7082411.stm, lu en entier via navigateur), qui rapporte le verdict de l'enquête (accidental death, acute alcohol intoxication, coroner Beasley-Murray) — l'affirmation du corps sur l'intoxication alcoolique n'avait jusqu'ici aucune source qui la couvre réellement dans la fiche. Carte et quiz vérifiés conformes à toutes les sources, aucune affirmation en excès."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-05T15:21:29.809Z",
+        "note": "Vérification indépendante complète, sans correction supplémentaire nécessaire. Lettre RSS du 23 janvier 2002 téléchargée et extraite (pdftotext) : citation du corps confirmée mot pour mot ('The calculation leading to 1 in 73 million is invalid.', 'Leaving aside the matter of validity ... Prosecutor's Fallacy'), ainsi que l'argument d'indépendance et le double usage des données. Jugement EWCA Crim 1020 téléchargé et extrait en entier (1444 lignes) : condamnation le 9 novembre 1999 à 10 voix contre 2 confirmée (ligne 62), premier appel rejeté le 2 octobre 2000 (ligne 64) avec le raisonnement du §155 sur le rejet du chiffre précis mais pas de l'argument général (correspond à la formulation du corps), second appel entendu les 28-29 janvier 2003 (ligne 81), non-divulgation des rapports microbiologiques sur Harry avec Staphylococcus Aureus isolé (ligne 911), et le §178 confirmant mot pour mot que le chiffre 'grossly overstates' la probabilité et 'may have had a major effect' sur le jury malgré les efforts du juge. Article BBC du 7 novembre 2007 vérifié par curl : confirme mot pour mot 'died accidentally of acute alcohol intoxication, an inquest has ruled' (coroner Beasley-Murray). Fiche déjà corrigée par la relecture et confirmée par le contrôle : aucun changement de texte, décision seule après re-vérification complète et indépendante des 2 documents PDF sources et de l'article BBC."
       }
     ]
   },

@@ -77,12 +77,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-03",
+    "fait_le": "2026-08-14",
     "verdict": "ok",
-    "empreinte": "391afad1cf8038f4",
+    "empreinte": "e91f11a0f5c4bb20",
     "notes": [
-      "Sources rouvertes. Umen 2015 (Genetics, PMC4492367) confirme le résumé de la controverse : preuve moléculaire de Mark Welch & Meselson (Science, 2000) sur l'ancienneté asexuée, révision ultérieure montrant que les paires de séquences très divergentes sont en réalité des homéologues issus d'une hybridation génomique ancienne (tétraploïdie), débat toujours ouvert en 2015 (travaux de Signorovitch et al. sur des échanges génétiques limités chez Macrotrachela quadricornifera). Eyres et al. 2015 (BMC Biology, PMC4632278) confirme mot pour mot les quatre pourcentages par espèce de Rotaria (9,5 à 14,1%), la répartition taxonomique (bactérien ~41%, fongique ~19%), et un taux de gain de gènes 'trois fois plus élevé' chez les espèces exposées à la dessiccation par rapport aux espèces aquatiques permanentes.",
-      "Rien à signaler. Quiz et carte cohérents."
+      "Recontrôle après changement d'empreinte dû uniquement au retrait des tirets cadratins (commit 5091a13, tirets remplacés par des virgules dans contenu_vulgarise, repere.texte et quiz.explication) — vérifié via git show, aucun changement de fond. Fond déjà vérifié en détail lors du contrôle du 2026-08-03 (Umen 2015 et Eyres et al. 2015 confirmés texte en main). Spot-check : les deux sources (PMC4492367, PMC4632278) sont toujours en ligne. Rien à signaler."
     ]
   },
   "meta": {

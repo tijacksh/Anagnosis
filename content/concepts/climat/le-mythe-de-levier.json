@@ -1,0 +1,114 @@
+{
+  "id": "cli-le-mythe-de-levier",
+  "slug": "le-mythe-de-levier",
+  "titre": "L'évier où l'on a enfin vu tourner la force de Coriolis",
+  "accroche": "L'eau qui s'écoule dans votre baignoire ne tourne pas à cause de la rotation de la Terre. Pourtant, quelqu'un a réussi à observer cet effet, une fois, en 1962.",
+  "discipline": "climat",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "L'idée circule depuis des générations : dans l'hémisphère nord, l'eau d'un évier ou d'une baignoire tournerait toujours dans le même sens en s'écoulant ; dans l'hémisphère sud, dans l'autre sens. La cause invoquée est toujours la même : la force de Coriolis, celle qui dévie les vents et fait tourner les ouragans. L'explication est fausse pour un évier ordinaire, et la façon dont on l'a démontré tient d'une expérience presque comique.\n\n## Un nombre qui tranche la question\n\nLa force de Coriolis existe bel et bien : la rotation de la Terre dévie tout objet qui se déplace sur de longues distances et de longues durées, vers la droite dans l'hémisphère nord, vers la gauche dans l'hémisphère sud. Pour savoir si elle compte dans un système donné, les océanographes comparent son effet à celui du mouvement propre du fluide, à l'aide d'un nombre sans dimension appelé nombre de Rossby. Plus ce nombre est petit, plus la rotation de la Terre domine ; plus il est grand, plus elle devient négligeable. Pour un ouragan, ce nombre est de l'ordre de un : la taille du système et la vitesse de l'air sont telles que la rotation terrestre pèse autant que la dynamique de l'air elle-même. Pour l'eau d'un évier, le même calcul donne un nombre plus de dix mille fois supérieur. La forme du bac, l'angle du robinet ou un simple courant résiduel laissé par le dernier remplissage suffisent alors, à eux seuls, à imposer le sens de rotation. Il dépend de la plomberie, pas de l'hémisphère.\n\n## L'expérience qui a fini par trancher\n\nEn 1962, l'ingénieur Ascher Shapiro, du Massachusetts Institute of Technology, veut vérifier si l'effet reste malgré tout mesurable, une fois tous les autres facteurs éliminés. Il installe un bac large d'environ un mètre quatre-vingts et profond de quinze centimètres, le recouvre d'un film plastique pour le protéger des courants d'air, et le laisse reposer vingt-quatre heures, le temps que toute trace de mouvement dû au remplissage disparaisse. Une petite croix de bois, posée au-dessus de l'orifice de vidange, sert à repérer la rotation.\n\nL'eau s'écoule pendant vingt minutes. La croix ne bouge quasiment pas, jusqu'à ce que, dans le dernier quart de l'écoulement, elle se mette à tourner, régulièrement, dans le sens inverse des aiguilles d'une montre. Shapiro publie ces résultats dans Nature, en décembre 1962. Près de trois ans plus tard, une équipe de l'université de Sydney reproduit le protocole dans l'hémisphère sud et mesure la rotation inverse, confirmant que l'effet, bien réel, avait simplement besoin d'un dispositif assez patient pour se laisser voir.\n\n## Ce que le protocole révèle\n\nLe mythe de l'évier n'est donc pas une pure invention. C'est une vraie prédiction physique, mal transposée à une échelle où le nombre de Rossby l'efface. Il aura fallu vingt-quatre heures de repos, un bac protégé de tout courant d'air et une croix de bois pour observer, une fois, ce que la culture populaire prétend voir tous les jours dans n'importe quelle baignoire.",
+  "citation": null,
+  "repere": {
+    "texte": "Le 15 décembre 1962, Nature publie la première mesure de l'effet Coriolis sur un tourbillon de vidange : un bac laissé au repos vingt-quatre heures, protégé des courants d'air, dont la rotation antihoraire n'apparaît que dans le dernier quart des vingt minutes d'écoulement. Le 1er septembre 1965, la même revue publie la mesure inverse, réalisée à Sydney.",
+    "source": "Shapiro, Nature, vol. 196, p. 1080-1081, 1962 ; Trefethen et al., Nature, vol. 207, p. 1084-1085, 1965",
+    "url": "https://www.nature.com/articles/1961080b0"
+  },
+  "carte": {
+    "punch": "Un mythe faux dans votre évier, mais observé une fois, après vingt-quatre heures d'attente.",
+    "idee": "L'eau qui tourne dans un évier ne le fait pas à cause de la rotation terrestre : la force de Coriolis y est plus de dix mille fois trop faible face à la forme du bac. En 1962, un ingénieur du MIT a quand même réussi à l'observer, en isolant un bac pendant vingt-quatre heures.",
+    "source_courte": "Shapiro, Nature, 1962"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Ascher H. Shapiro",
+      "titre": "Bath-Tub Vortex",
+      "publication": "Nature, vol. 196, p. 1080-1081",
+      "annee": 1962,
+      "url": "https://www.nature.com/articles/1961080b0",
+      "note": "L'expérience originale au MIT : bac isolé vingt-quatre heures, rotation antihoraire mesurée dans l'hémisphère nord."
+    },
+    {
+      "type": "revue",
+      "auteur": "Lloyd M. Trefethen, R. W. Bilger, P. T. Fink, R. E. Luxton, R. I. Tanner",
+      "titre": "The Bath-Tub Vortex in the Southern Hemisphere",
+      "publication": "Nature, vol. 207, p. 1084-1085",
+      "annee": 1965,
+      "url": "https://www.nature.com/articles/2071084a0",
+      "note": "Reproduction du protocole de Shapiro à l'université de Sydney : rotation horaire mesurée dans l'hémisphère sud."
+    },
+    {
+      "type": "article",
+      "auteur": "Francisco José Machín Jiménez, Borja Aguiar González",
+      "titre": "Does the direction water rotates down the drain depend on which hemisphere you're in? Debunking the Coriolis effect in your sink",
+      "publication": "The Conversation",
+      "annee": 2023,
+      "url": "https://theconversation.com/does-the-direction-water-rotates-down-the-drain-depend-on-which-hemisphere-youre-in-debunking-the-coriolis-effect-in-your-sink-208761",
+      "note": "Explique le nombre de Rossby et son ordre de grandeur pour un évier (plus de 10 000) contre un ouragan (environ 1)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NOAA SciJinks — What Is the Coriolis Effect?",
+      "url": "https://scijinks.jpl.nasa.gov/coriolis/",
+      "note": "Explication grand public officielle, avec le lien entre effet Coriolis et rotation des cyclones."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux spirales concentriques de même motif mais d'échelle très différente : une petite spirale serrée, presque étouffée, contre une grande spirale ample qui sort du cadre. Aplat turquoise saturé sur fond crème, contours nets, une asymétrie franche. Aucune graduation, aucun paysage, aucune figure humaine.",
+    "alt": "Deux spirales identiques de tailles très différentes, l'une comprimée, l'autre ample",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'effet Coriolis fait-il tourner les ouragans, mais pas l'eau de votre évier ?",
+    "choix": [
+      "Parce que le nombre de Rossby, qui compare la rotation terrestre au mouvement du fluide, y est bien plus grand",
+      "Parce que la force de Coriolis change de sens selon la température de l'eau utilisée",
+      "Parce qu'un évier est toujours trop proche de l'équateur pour ressentir la rotation terrestre",
+      "Parce que la plomberie moderne des éviers neutralise volontairement cet effet par construction"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le nombre de Rossby mesure le poids relatif de la rotation terrestre face à la dynamique propre du fluide : proche de un pour un ouragan, il dépasse dix mille pour un évier, où la forme du bac domine largement. La température, la latitude de l'évier et la plomberie n'entrent pas en jeu, seule l'échelle du système compte.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-07T07:19:46.863Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-06T22:18:33.755Z",
+        "note": "Second passage indépendant effectué en entier — sources rouvertes : Nature/Shapiro 1961080b0 (15 décembre 1962, vol.196 p.1080-1081, abstract confirmé), Nature/Trefethen 2071084a0 (1er septembre 1965, vol.207 p.1084-1085, université de Sydney confirmée), The Conversation 2023 (nombre de Rossby ~1 pour un ouragan, >10000 pour un évier, confirmés mot pour mot). Détails de protocole non couverts par les abstracts Nature (payants) vérifiés via MIT Technology Review 'Verifying a Vortex' et HandWiki (bio Shapiro) : bac circulaire d'environ six pieds (~1,80 m) rempli sur six pouces (15 cm) de profondeur — confirme les 'quinze centimètres' du texte —, repos 24h, écoulement ~20 min, rotation antihoraire démarrant entre la 12e et la 15e minute (dernier quart/tiers de l'écoulement, cohérent avec le repère), vitesse jusqu'à un tour toutes les 3-4 secondes. NOAA SciJinks (pour_aller_plus_loin) injoignable en direct par l'outil (DNS/certificat, comme au contrôle précédent), mais son existence et son contenu (Coriolis et rotation des cyclones) confirmés par une recherche indépendante — source vivante, gardée. Carte et quiz vérifiés conformes. Deux corrections : (1) Ascher Shapiro était professeur d'ingénierie mécanique au MIT, pas physicien (HandWiki : 'professor of Mechanical Engineering', chef du département 1965-1974) — 'le physicien Ascher Shapiro' et 'un physicien du MIT' corrigés en 'l'ingénieur Ascher Shapiro' et 'un ingénieur du MIT' (corps et carte) ; (2) 'Trois ans plus tard' (déc.1962 à sept.1965 = 2 ans 8 mois) précisé en 'Près de trois ans plus tard'. Ces corrections changent l'empreinte de fond : le garde-fou de /relire refuse donc une validation directe tant qu'un contrôle frais n'a pas revu le texte corrigé — placée en retouche pour ce seul motif technique, aucun doute de fond restant. npm run validate et npm test repassés, 0 erreur."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-07T07:19:46.863Z",
+        "note": "Troisième passage indépendant, sources rouvertes en entier avec WebFetch/WebSearch (pas de confiance dans les vérifications précédentes) : Nature/Shapiro 1961080b0 (métadonnées Nature confirmées après redirection idp.nature.com : titre 'Bath-Tub Vortex', MIT, vol.196 p.1080-1081, publié le 15 décembre 1962) ; Nature/Trefethen 2071084a0 (vol.207 p.1084-1085, publié le 1er septembre 1965, université de Sydney, rotation inverse confirmée) ; The Conversation (WebFetch direct : nombre de Rossby confirmé mot pour mot, 'of the order of 1' pour un ouragan, 'more than 10,000 times larger' pour un évier) ; NOAA SciJinks toujours injoignable en direct par l'outil (DNS, comme aux deux passages précédents), son existence et son contenu (Coriolis + rotation des cyclones) reconfirmés par WebSearch indépendante. Protocole 1962 revérifié via deux sources secondaires indépendantes (MIT Technology Review 'Verifying a Vortex' et Weird Science History), toutes deux citant : bac circulaire six pieds (~1,80 m) x six pouces (15 cm) de profondeur, film plastique, repos 24h, écoulement ~20 min, rotation antihoraire démarrant entre la 12e et la 15e minute (dernier quart/tiers, formulation également utilisée par les sources secondaires elles-mêmes) — conforme au texte. Statut d'Ascher Shapiro revérifié via une recherche bio indépendante (Wikipedia/HandWiki) : professeur de génie mécanique au MIT, jamais physicien — 'ingénieur' est exact. 'Près de trois ans plus tard' (déc.1962 à sept.1965 = 2 ans 8,5 mois) confirmé comme le bon arrondi. Carte, repère, quiz relus entièrement et conformes ; les trois distracteurs du quiz (température de l'eau, latitude de l'évier, plomberie neutralisant l'effet) sont bien de fausses causes. Ponctuation revérifiée par recherche des tirets cadratins dans le fichier entier : aucun dans le contenu éditorial (contenu_vulgarise, carte, quiz) ; celui de pour_aller_plus_loin.titre ('NOAA SciJinks — What Is the Coriolis Effect?') suit la convention 'Source — Titre' utilisée dans des dizaines d'autres fiches du corpus pour ce champ précis, non concernée par la purge du 5 août (contenu éditorial uniquement). Aucune correction nécessaire, la fiche disait déjà exactement ce que les sources soutiennent."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-07",
+    "verdict": "corrige",
+    "empreinte": "032d132cc6237964",
+    "notes": [
+      "Deuxième passage indépendant, sources rouvertes en entier (Shapiro Nature 1962, Trefethen et al. Nature 1965, The Conversation 2023, protocole recoupé via MIT Technology Review et HandWiki). Les deux corrections de la relecture précédente (ingénieur, près de trois ans) sont confirmées exactes. Corrigé : quatre tirets cadratins oubliés par la purge de ponctuation du 5 août (commit 5091a13, fichier créé après coup) remplacés par des virgules dans contenu_vulgarise, carte.punch et quiz.explication, pour rester cohérent avec le reste du corpus."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-06",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

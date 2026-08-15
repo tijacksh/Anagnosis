@@ -1,0 +1,121 @@
+{
+  "id": "inf-le-poeme-qui-empeche-les-reseaux-de-boucler",
+  "slug": "le-poeme-qui-empeche-les-reseaux-de-boucler",
+  "titre": "Le poème qui empêche les réseaux de boucler",
+  "accroche": "En 1985, l'ingénieure Radia Perlman résume dans un poème l'algorithme qui empêche les grands réseaux Ethernet de s'effondrer en boucle.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Au début des années 1980, un réseau Ethernet reste fragile : brancher un câble au mauvais endroit peut suffire à le paralyser. Quand deux ponts, les appareils qui relient des segments de réseau entre eux, se retrouvent connectés par deux chemins différents vers les mêmes machines, les paquets de données peuvent se mettre à circuler en boucle, indéfiniment, jusqu'à saturer tout le trafic. Chez Digital Equipment Corporation, l'ingénieure Radia Perlman reçoit la tâche de résoudre ce problème : garder les liaisons redondantes, utiles en cas de panne, sans jamais laisser une boucle se former.\n\n## Élire une racine, puis couper le superflu\n\nLa solution qu'elle publie en 1985, dans un article de l'ACM intitulé « An Algorithm for Distributed Computation of a Spanning Tree in an Extended LAN », tient en trois étapes. D'abord, les ponts du réseau élisent, par un simple échange d'identifiants, un pont racine unique. Ensuite, chaque pont calcule le chemin le moins coûteux qui le relie à cette racine. Enfin, tout lien qui n'appartient à aucun de ces chemins les plus courts est désactivé — pas supprimé, seulement mis en veille, prêt à reprendre du service si une liaison active tombe en panne.\n\nLe résultat porte un nom emprunté à la théorie des graphes : un arbre recouvrant, une structure qui relie tous les points du réseau sans jamais refermer de boucle. L'algorithme est distribué : aucun pont n'a besoin de connaître la topologie entière du réseau, chacun échange seulement des messages courts avec ses voisins directs, et le calcul converge en un temps proportionnel au diamètre du réseau, pas à sa taille totale. Adopté ensuite par l'IEEE sous le nom de norme 802.1D, ce mécanisme reste aujourd'hui ce qui empêche la plupart des réseaux d'entreprise de s'effondrer sous leurs propres raccourcis.\n\n## Un poème publié dans un article scientifique\n\nUne fois l'algorithme achevé, Perlman canalise son énergie dans un poème de six strophes, Algorhyme, qui en résume la méthode en dix-huit vers, publié tel quel dans l'article de 1985. Elle le reprend dix-huit ans plus tard dans un brevet américain (n°7 339 900, déposé en 2003) portant sur une amélioration du protocole face aux surcharges de trafic, où le poème figure dans la description du contexte technique.\n\nCette manière de rendre un résultat technique mémorable éclaire ce qu'elle répète depuis dans ses interviews : elle refuse le titre de « mère d'Internet » qu'un journaliste lui a attribué en 2011. Pas par fausse modestie — parce qu'un tel titre n'a, dit-elle, aucun critère clair d'attribution, contrairement à un doctorat, et parce qu'Internet n'a jamais eu un seul inventeur. Des centaines de personnes y ont contribué chacune une pièce, elle la sienne, et une autre aurait fini par résoudre le problème des boucles si elle ne l'avait pas fait la première.",
+  "citation": {
+    "texte": "First the Root must be selected. By ID it is elected. [...] Least cost paths from Root are traced. In the tree these paths are placed.",
+    "auteur": "Radia Perlman",
+    "source": "« An Algorithm for Distributed Computation of a Spanning Tree in an Extended LAN », ACM SIGCOMM Computer Communication Review, vol. 15, n°4, 1985, p. 44 (poème « Algorhyme »)",
+    "url": "https://doi.org/10.1145/318951.319004"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Un poème de dix-huit vers empêche les réseaux d'entreprise de s'effondrer en boucle.",
+    "idee": "En 1985, l'ingénieure Radia Perlman conçoit l'algorithme qui empêche les grands réseaux Ethernet de boucler à l'infini quand deux chemins relient les mêmes appareils. Une fois l'algorithme achevé, elle en résume la méthode dans un poème de six strophes, publié dans l'article scientifique original.",
+    "source_courte": "Perlman, ACM SIGCOMM, 1985"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Perlman, Radia",
+      "titre": "An Algorithm for Distributed Computation of a Spanning Tree in an Extended LAN",
+      "publication": "ACM SIGCOMM Computer Communication Review, vol. 15, n°4",
+      "annee": 1985,
+      "url": "https://doi.org/10.1145/318951.319004",
+      "note": "Article original, pages 44-53. Contient le poème « Algorhyme » reproduit en partie dans la fiche."
+    },
+    {
+      "type": "institution",
+      "auteur": "National Inventors Hall of Fame",
+      "titre": "Radia Perlman — Inductee",
+      "publication": "invent.org",
+      "annee": 2016,
+      "url": "https://www.invent.org/inductees/radia-perlman",
+      "note": "Année d'intronisation (2016), dates de carrière chez DEC et diplômes MIT, description de la contribution du Spanning Tree Protocol."
+    },
+    {
+      "type": "web",
+      "auteur": "Silicon Valley Watcher",
+      "titre": "Intel's Radia Perlman: Don't Call Her \"Mother Of The Internet\"",
+      "publication": "siliconvalleywatcher.com",
+      "annee": 2011,
+      "url": "https://www.siliconvalleywatcher.com/intels-radia-perlman-dont-call-her-mother-of-the-internet/",
+      "note": "Interview du 21 avril 2011 : citations exactes de Perlman sur son refus du titre « mère d'Internet »."
+    },
+    {
+      "type": "web",
+      "auteur": "United States Patent and Trademark Office",
+      "titre": "US7339900B2 — Method and apparatus for preventing spanning tree loops during traffic overload conditions",
+      "publication": "Google Patents",
+      "annee": 2003,
+      "url": "https://patents.google.com/patent/US7339900B2/en",
+      "note": "Brevet déposé le 26 septembre 2003 par Radia J. Perlman (Sun Microsystems), accordé en 2008. Contient le poème « Algorhyme » dans sa description du contexte technique, introduit par « This protocol can be summarized in the following poem entitled \"Algorhyme\" by Radia Perlman, the inventor of the present invention »."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "National Inventors Hall of Fame — Piano and Protocols: The Story of Inventor Radia Perlman",
+      "url": "https://www.invent.org/blog/inventors/spanning-tree-protocol",
+      "note": "Récit détaillé de l'invention, dont l'origine du poème « Algorhyme »."
+    },
+    {
+      "titre": "Internet Hall of Fame — Radia Perlman",
+      "url": "https://www.internethalloffame.org/inductee/radia-perlman/",
+      "note": "Notice biographique de son intronisation en 2014."
+    }
+  ],
+  "illustration": {
+    "prompt": "Un réseau de lignes noires épaisses formant plusieurs boucles fermées sur un aplat bleu clair. Une des boucles se rompt net en un point, ouverte, laissant les deux extrémités se prolonger sans jamais se refermer, formant une structure arborescente. Papier crème, léger hors-repérage sur le bleu uniquement, aucun symbole ni figure reconnaissable.",
+    "alt": "Un réseau de lignes en boucles fermées dont une seule s'ouvre pour former une structure arborescente sans boucle",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le protocole de Radia Perlman désactive-t-il certains liens du réseau plutôt que de les supprimer ?",
+    "choix": [
+      "Parce que les supprimer obligerait à reprogrammer physiquement chaque pont du réseau",
+      "Parce que le protocole ne peut pas distinguer un lien redondant d'un lien nécessaire",
+      "Parce qu'un lien désactivé sert de secours immédiat si une liaison active tombe en panne",
+      "Parce qu'un lien désactivé continue de transporter du trafic à faible priorité"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le lien n'est pas supprimé mais seulement mis en veille : c'est ce qui permet au réseau de retrouver aussitôt un chemin complet si une liaison active tombe en panne, sans reconfiguration manuelle. Le supprimer ferait perdre la redondance que les ponts étaient justement connectés pour préserver.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-08T19:18:00.333Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-08T19:18:00.333Z",
+        "note": "Fiche entière revérifiée à partir des notes du contrôle et des sources déjà rouvertes (PDF original de l'article ACM SIGCOMM CCR 1985 vol.15 n°4 p.44-53, invent.org, siliconvalleywatcher.com interview du 21/04/2011) : citation, sources, carte et quiz conformes. Point signalé corrigé : la phrase affirmant que l'article de 1985 'en fait probablement le seul brevet logiciel avec une œuvre en vers' conflait l'article scientifique avec un brevet distinct — vérifié en ouvrant directement le brevet américain US7339900B2 sur Google Patents (déposé le 26/09/2003 par Radia J. Perlman/Sun Microsystems, accordé en 2008) : le poème Algorhyme y figure bien, mais dans la description du contexte technique de ce brevet de 2003, pas dans l'article de 1985. Texte reformulé pour distinguer les deux (poème publié en 1985, repris dans le brevet de 2003) et source du brevet ajoutée à sources[]. La superlative 'probablement le seul brevet logiciel avec un poème', trouvée uniquement dans un blog non citable comme preuve (netguru/Hidden Heroes, assertion éditoriale non sourcée de son auteur), a été retirée faute de source vérifiable soutenant l'exclusivité."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-08",
+    "verdict": "a_revoir",
+    "empreinte": "c5f1ba42e801bf87",
+    "notes": [
+      "Sources rouvertes : le PDF original de l'article (people.cs.umass.edu, p.44, ACM SIGCOMM CCR vol 15 n°4, 1985) confirme mot pour mot le poème « Algorhyme » cité en citation.texte, juste après l'abstract p.44 — pagination 44-53 confirmée par Crossref. invent.org (National Inventors Hall of Fame) confirme intronisation 2016, DEC 1980, diplômes MIT. siliconvalleywatcher.com confirme mot pour mot les citations de Perlman sur son refus du titre de « mère d'Internet » (interview du 21 avril 2011). PROBLÈME : la dernière phrase du corps affirme que la publication du poème dans l'article de 1985 'en fait probablement le seul brevet logiciel déposé accompagné d'une œuvre en vers'. Aucune des 3 sources de la fiche ne mentionne de brevet. Recherche complémentaire (hiddenheroes.netguru.com, lemelson.mit.edu, autres) : le fait 'probablement le seul brevet logiciel avec un poème' est réel, mais concerne un brevet DIFFÉRENT et POSTÉRIEUR — déposé en 2003 pour une amélioration du protocole, dans lequel Perlman a inséré en 'background description' le même poème écrit en 1985. La fiche conflate donc l'article scientifique de 1985 (où le poème est bien publié, ce point est exact) avec ce brevet de 2003 (non mentionné, non sourcé) en attribuant le statut de brevet à l'article. La carte (idee) dit correctement 'article scientifique' et n'a pas ce problème. À revoir : soit retirer la phrase sur le brevet, soit la reformuler pour distinguer clairement l'article de 1985 du brevet de 2003 avec une source dédiée. Reste (citation, sources, carte, quiz) vérifié conforme."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-08",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

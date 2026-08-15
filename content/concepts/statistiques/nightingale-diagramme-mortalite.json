@@ -70,13 +70,13 @@
     ],
     "bonne_reponse": 3,
     "explication": "Nightingale s'adressait à un gouvernement et une opinion publique qui n'avaient ni le temps ni la formation pour décortiquer une colonne de chiffres. La surface colorée des secteurs de son diagramme rendait immédiatement visible la baisse spectaculaire des décès par maladie après la réforme sanitaire, un argument que des chiffres seuls auraient rendu invisible au premier regard.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-04T10:25:53.266Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-05T15:34:54.630Z",
     "historique": [
       {
         "action": "retoucher",
@@ -85,6 +85,14 @@
         "par": "routine-relecture",
         "le": "2026-08-04T10:25:53.266Z",
         "note": "Quatre sources rouvertes et reconfirmées : Veysey, Science Museum Group Journal, 2016 (chiffres 21 097/16 323 vérifiés mot pour mot, description du diagramme en secteurs mensuels bleu/rouge/noir sur deux périodes comparées confirmée) ; Royal Statistical Society, page bicentenaire 2020 (confirme l'entrée de Nightingale en 1858, première femme membre, restée membre plus de 50 ans jusqu'à sa mort) ; Wellcome Collection (notice de l'ouvrage de 1858, titre exact confirmé, présenté au Secretary of State for War) ; Science Museum, pioneer statistician (contexte). Corps, citation/repère, quiz conformes. Doute précis sur la carte : carte.source_courte créditait « Royal Statistical Society, 2020 », qui ne sourcent que le fait secondaire de l'élection (mentionné dans idee) — alors que le chiffre-clé du punch (21 097 morts, plus des trois quarts de maladie) vient de Veysey/Science Museum Group Journal 2016. Une carte partageable qui affiche un crédit ne correspondant pas à la source réelle de son affirmation principale reproduit exactement le défaut qu'on reproche à une infographie anonyme. Corrigé en « Veysey, Science Museum Group Journal, 2016 ». Cette correction touche le texte (carte), donc l'empreinte a changé : fiche renvoyée pour qu'un contrôle indépendant revérifie la carte corrigée avant remise en circulation."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-05T15:34:54.630Z",
+        "note": "Vérification indépendante complète, sans correction supplémentaire. Veysey, Science Museum Group Journal (2016), rouvert en entier : confirme mot pour mot '21,097, of which 16,323 were deaths by disease', la description du diagramme (douze secteurs mensuels, bleu/rouge/noir, deux périodes 1854-55 et 1855-56 comparées), et que Nightingale 'later became the first female fellow' de la Royal Statistical Society. rss.org.uk (page bicentenaire 2020) rouverte : confirme mot pour mot qu'elle fut 'the first female member of the RSS... in 1858' et 'remained a member until her death more than 50 years later'. La correction déjà apportée par la relecture (source_courte de la carte réattribuée à Veysey 2016, source réelle du chiffre du punch, plutôt qu'à RSS 2020) reste cohérente avec le corps. Wellcome Collection (notice catalographique) non re-rouverte indépendamment mais déjà vérifiée à deux reprises (relecture puis contrôle) sans divergence relevée. Aucun changement de texte, décision seule."
       }
     ]
   },

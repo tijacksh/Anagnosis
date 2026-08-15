@@ -1,0 +1,107 @@
+{
+  "id": "inf-eviter-un-examen-a-produit-un-algorithme-de-compression",
+  "slug": "eviter-un-examen-a-produit-un-algorithme-de-compression",
+  "titre": "Éviter un examen a produit l'algorithme de compression le plus utilisé",
+  "accroche": "En 1951, un étudiant du MIT résout, pour éviter un examen final, un problème de compression que ses deux professeurs cherchaient à résoudre depuis des années.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "En 1951, dans un cours de théorie de l'information au Massachusetts Institute of Technology, le professeur Robert M. Fano propose à ses étudiants un choix : un examen final, ou un devoir écrit sur un seul problème — trouver la façon la plus efficace de représenter des lettres ou des symboles par des suites de 0 et de 1, de sorte que les symboles les plus fréquents utilisent le moins de bits possible. Ce que Fano ne dit pas à ses étudiants, c'est qu'il s'agit d'un problème ouvert : lui-même, avec Claude Shannon, cherche une solution depuis plusieurs années, sans être arrivé à une méthode dont on puisse prouver qu'elle est optimale.\n\n## Construire l'arbre par le bas, pas par le haut\n\nDavid A. Huffman, étudiant de troisième cycle, choisit le devoir plutôt que l'examen. Après plusieurs semaines sans percée, sur le point d'abandonner pour se remettre à réviser, il change d'angle d'attaque. La méthode de Shannon et Fano part de l'ensemble des symboles et le divise successivement en deux groupes de probabilité aussi égale que possible, du haut vers le bas ; cette approche ne garantit pas toujours le résultat le plus compact. Huffman inverse la démarche : il part des deux symboles les moins fréquents, les regroupe en un seul nœud dont la probabilité est la somme des deux, puis répète l'opération sur l'ensemble ainsi réduit, jusqu'à ce qu'il ne reste plus qu'un seul nœud, la racine. En attribuant un 0 et un 1 à chaque embranchement, le chemin entre la racine et chaque symbole devient son code : court pour les symboles fréquents, proches de la racine, long pour les symboles rares, enfouis dans les branches. Aucun code n'est le début d'un autre, ce qui permet de décoder le flux de bits sans aucun séparateur. Huffman démontre que cette construction, ascendante et non descendante, produit toujours le code de longueur moyenne minimale pour une distribution de probabilités donnée — un résultat que ni Fano ni Shannon n'avaient réussi à établir.\n\n## Un devoir d'étudiant qui dépasse ses professeurs\n\nHuffman publie la méthode en 1952 dans les Proceedings of the IRE, sous le titre « A Method for the Construction of Minimum-Redundancy Codes ». Des décennies plus tard, il raconte à un journaliste du Scientific American la réaction de Fano en découvrant sa solution, dans un fort accent italien : « Is that all there is to it! » — c'est tout ce qu'il y avait à faire.\n\nLe principe reste, plus de soixante-dix ans après, l'une des briques les plus employées de la compression sans perte : on le retrouve comme étage final dans le format ZIP, dans le JPEG, ou dans les normes de télécopie qui ont longtemps fait circuler des pages entières en quelques secondes de ligne téléphonique. Huffman lui-même quitte le MIT en 1953, puis rejoint en 1967 l'université de Californie à Santa Cruz comme premier professeur du tout nouveau département d'informatique, qu'il aide à construire jusqu'à sa retraite en 1994. Il meurt en 1999, à 74 ans — un devoir de fin de semestre étant devenu, entre-temps, l'un des algorithmes les plus exécutés au monde, à chaque photo compressée et à chaque fichier archivé.",
+  "citation": {
+    "texte": "Is that all there is to it!",
+    "auteur": "Robert M. Fano (rapporté par David Huffman)",
+    "source": "Stix, Gary, « Profile: Information Theorist David A. Huffman », Scientific American, vol. 265, n°3, septembre 1991, p. 54-58",
+    "url": "https://www.huffmancoding.com/my-uncle/scientific-american"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Pour éviter un examen, il a inventé l'algorithme de compression le plus utilisé au monde.",
+    "idee": "En 1951, un devoir de fin de semestre au MIT donne naissance à l'algorithme de compression sans perte encore utilisé aujourd'hui dans le ZIP et le JPEG. David Huffman trouve, là où ses professeurs Shannon et Fano avaient échoué, une méthode dont on peut prouver qu'elle est optimale.",
+    "source_courte": "Huffman, Proc. of the IRE, 1952"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Huffman, David A.",
+      "titre": "A Method for the Construction of Minimum-Redundancy Codes",
+      "publication": "Proceedings of the IRE, vol. 40, n°9",
+      "annee": 1952,
+      "url": "https://doi.org/10.1109/JRPROC.1952.273898",
+      "note": "Article original, p. 1098-1101."
+    },
+    {
+      "type": "institution",
+      "auteur": "University of California, Santa Cruz — Currents",
+      "titre": "Death of David Huffman",
+      "publication": "UCSC Currents Online",
+      "annee": 1999,
+      "url": "https://www1.ucsc.edu/currents/99-00/10-11/huffman.html",
+      "note": "Obituaire officiel : MIT à partir de 1953, UCSC en 1967 comme premier professeur du département d'informatique, retraite en 1994, mort le 7 octobre 1999 à 74 ans."
+    },
+    {
+      "type": "web",
+      "auteur": "Stix, Gary",
+      "titre": "Profile: Information Theorist David A. Huffman",
+      "publication": "Scientific American, vol. 265, n°3 (reproduit avec autorisation sur huffmancoding.com)",
+      "annee": 1991,
+      "url": "https://www.huffmancoding.com/my-uncle/scientific-american",
+      "note": "Septembre 1991, p. 54-58. Source du récit du devoir de 1951 et de la citation de Fano."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — Huffman coding",
+      "url": "https://en.wikipedia.org/wiki/Huffman_coding",
+      "note": "Détail algorithmique complet et usages contemporains (ZIP, JPEG, MP3)."
+    }
+  ],
+  "illustration": {
+    "prompt": "Des segments noirs de longueurs variables convergent deux par deux vers un point unique en haut du cadre, formant un arbre asymétrique aux branches inégales, construit visuellement depuis le bas. Un aplat bleu clair souligne les branches les plus courtes. Papier crème, léger hors-repérage sur le bleu uniquement, composition entièrement abstraite, aucune figure reconnaissable.",
+    "alt": "Un arbre asymétrique de segments noirs qui convergent deux par deux vers un sommet unique, les branches les plus courtes soulignées en bleu",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la méthode de Huffman produit-elle un code toujours plus compact que celle, antérieure, de Shannon et Fano ?",
+    "choix": [
+      "Parce qu'elle construit l'arbre de codage à partir des symboles les plus rares, en remontant vers la racine, ce qui garantit l'optimalité",
+      "Parce qu'elle utilise davantage de bits pour chaque symbole, ce qui réduit les erreurs de transmission",
+      "Parce qu'elle a été testée sur davantage de textes que la méthode de Shannon et Fano",
+      "Parce qu'elle attribue le même nombre de bits à tous les symboles, quelle que soit leur fréquence"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Construire l'arbre par le bas, en partant des symboles les moins fréquents, garantit mathématiquement la longueur moyenne minimale : c'est ce que Huffman a démontré, là où la méthode descendante de Shannon et Fano ne pouvait pas l'assurer. Le nombre de bits par symbole varie justement selon sa fréquence, c'est le principe même de la compression.",
+    "statut": "valide"
+  },
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-08T22:16:17.579Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-08T22:16:17.579Z",
+        "note": "Sources rouvertes indépendamment : huffmancoding.com (Scientific American, Stix 1991) confirme mot pour mot le choix examen/devoir en 1951, l'abandon puis la relance de Huffman, l'approche ascendante vs la descendante de Shannon-Fano, et la citation exacte de Fano 'Is that all there is to it!' avec l'accent italien. UCSC Currents confirme mot pour mot MIT 1953, UCSC 1967 comme founding faculty du département d'informatique, retraite 1994, mort le 7 octobre 1999 à 74 ans. Crossref confirme le DOI JRPROC.1952.273898 : titre, auteur, revue, pagination 1098-1101 identiques à la fiche. Wikipedia (pour aller plus loin) existe et couvre ZIP/JPEG/MP3. Citation, carte et quiz conformes aux sources ; distracteurs faux et plausibles."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-08",
+    "verdict": "ok",
+    "empreinte": "a97caa802b1d9354",
+    "notes": [
+      "Sources rouvertes : huffmancoding.com confirme le récit du devoir de 1951 et la citation exacte de Fano 'Is that all there is to it!' (accent italien). UCSC Currents confirme MIT 1953, UCSC 1967 comme premier professeur du département, retraite 1994, mort le 7 octobre 1999 à 74 ans. Crossref confirme l'article IEEE JRPROC.1952.273898, pagination 1098-1101 conforme à la fiche."
+    ]
+  },
+  "meta": {
+    "genere_le": "2026-08-08",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

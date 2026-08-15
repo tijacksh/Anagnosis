@@ -69,14 +69,30 @@
     "explication": "Sahlins renverse la définition courante de la richesse : une société est abondante si elle satisfait facilement ses besoins, même en produisant peu, pas si elle accumule beaucoup, travaille davantage ou constitue des réserves.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-05T15:51:29.146Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-05T15:51:29.146Z",
+        "note": "luminist.org (Sahlins, texte intégral) rouvert en direct : les trois citations ('about two and one-half days labor per week', 'approximately 15 hours, or an average of 2 hours 9 minutes per day', '35 per cent of the people did not work at all') confirmées mot pour mot. Kaplan 2000 rouvert par extraction PDF directe (le fetch web échouait) : confirme mot pour mot les chiffres révisés de Lee une fois la préparation ajoutée (44,5h/semaine hommes, 40,1h femmes) et documente abondamment la faim chez les !Kung (Truswell & Hansen 1976, Howell 1986, 'clear case of semi-starvation') — corps de la fiche prudent et fidèle (pas de chiffre précis avancé, juste 'allongerait sensiblement'). archive.org confirme le symposium Man the Hunter et la contribution de Lee. Repère absent (citation présente), carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-05",
+    "verdict": "ok",
+    "empreinte": "efe25c7c4e168c25",
+    "notes": [
+      "Première relecture au fond. luminist.org (Sahlins, texte intégral) confirme mot pour mot les trois chiffres cités : 'For each adult worker, this comes to about two and one-half days labor per week', 'the Dobe work week is approximately 15 hours, or an average of 2 hours 9 minutes per day', et '35 per cent of the people did not work at all' — la citation de la fiche colle exactement. gwern.net/doc/sociology/2000-kaplan.pdf (Kaplan 2000, texte extrait en local via pdftotext) confirme la critique : le calcul initial de Lee (1979) exclut la préparation de la nourriture, le travail du bois, la fabrication/entretien des outils etc. — une fois ces tâches ajoutées, Lee lui-même (1984) chiffre 44,5h/semaine pour les hommes et 40,1h pour les femmes, confirmant que l'ajout de ces tâches 'allongerait sensiblement' la semaine réelle, comme l'écrit le corps sans donner de chiffre précis (prudent, cohérent avec la source). Kaplan documente aussi abondamment des épisodes de faim/disette chez les !Kung et groupes voisins (citant Truswell & Hansen 1976, Silberbauer 1981, etc.), confirmant la dernière phrase du corps. archive.org/details/ManTheHunter confirme le contenu du symposium 'Man the Hunter', avec la contribution de Lee. Carte, quiz et repere (absent, citation présente) vérifiés conformes. Rien à corriger."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-05",
     "genere_par": "claude-code",

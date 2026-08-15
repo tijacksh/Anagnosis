@@ -8,10 +8,10 @@
   "theme_ordre": null,
   "niveau": "intermediaire",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "En 1899, William Sealy Gosset, jeune diplômé d'Oxford en chimie et en mathématiques, entre comme brasseur à la brasserie Guinness de Dublin. Sa tâche : garantir la régularité de la bière, depuis la teneur en résine du houblon jusqu'à la culture des levures. Le problème est toujours le même, il ne peut mesurer qu'un petit nombre d'échantillons, onze puis quatorze mesures de cinquante grammes de houblon prélevées sur un même lot, et doit pourtant décider si un écart entre deux séries de mesures reflète une vraie différence de qualité, ou seulement le hasard de l'échantillonnage. Les méthodes statistiques de l'époque, conçues par Karl Pearson, exigent des échantillons d'au moins cent cinquante mesures pour rester fiables, un luxe qu'aucune brasserie ne peut s'offrir.\n\n## Un outil taillé pour le petit nombre\n\nEnvoyé étudier auprès de Pearson à l'University College de Londres en 1906, Gosset met au point une méthode capable de mesurer l'incertitude réelle d'une moyenne calculée sur un petit échantillon, une dizaine de mesures plutôt que des centaines. Il publie le résultat en 1908 dans la revue Biometrika, sous le titre The Probable Error of a Mean : la distribution qui porte aujourd'hui son pseudonyme, la loi de Student, à la base du test t. Guinness interdit alors formellement à ses employés de publier sous leur propre nom, de peur qu'une brasserie concurrente n'apprenne qu'elle recourt à des méthodes scientifiques pointues. Gosset signe donc « Student », dix-neuf de ses vingt et une publications paraîtront sous ce seul pseudonyme, jusqu'à sa mort en 1937, où son identité réelle est enfin révélée publiquement.\n\n## Du houblon au laboratoire\n\nPearson, qui a formé Gosset, ne mesure jamais toute la portée de son travail : c'est Ronald Fisher, avec qui Gosset échange plus de cent cinquante lettres entre 1912 et 1934, qui comprend le premier que cet outil conçu pour comparer des lots de houblon s'applique à n'importe quelle mesure scientifique reposant sur un petit nombre d'observations. Le test t de Student devient, au cours du XXe siècle, l'un des outils statistiques les plus enseignés et les plus utilisés au monde, de la biologie à la psychologie en passant par la médecine, chaque fois qu'il s'agit de savoir si une différence mesurée sur quelques sujets seulement reflète un effet réel ou le simple bruit de l'échantillonnage. Aucun des étudiants qui l'apprennent aujourd'hui, dans n'importe quel amphithéâtre de statistique, ne cherche à comparer des lots de bière.",
+  "contenu_vulgarise": "En 1893, la brasserie Guinness de Dublin embauche son premier brasseur scientifique, Thomas Bennett Case, convaincu que la teneur en résine du houblon influence la qualité de la bière. Sur un même lot, il prélève onze échantillons de cinquante grammes et en mesure la résine ; un collègue en prélève quatorze de plus, pour comparer. Les deux séries ne concordent pas tout à fait, sans qu'on puisse dire si l'écart reflète une vraie différence de qualité ou le simple hasard de l'échantillonnage. Les méthodes statistiques de l'époque, conçues par Karl Pearson, exigent des échantillons d'au moins cent cinquante mesures pour rester fiables, un luxe qu'aucune brasserie ne peut s'offrir. En 1899, William Sealy Gosset, jeune diplômé d'Oxford en chimie et en mathématiques, entre à son tour comme brasseur chez Guinness, où le même problème se pose à chaque contrôle de lot.\n\n## Un outil taillé pour le petit nombre\n\nEnvoyé étudier auprès de Pearson à l'University College de Londres en 1906, Gosset met au point une méthode capable de mesurer l'incertitude réelle d'une moyenne calculée sur un petit échantillon, une dizaine de mesures plutôt que des centaines. Il publie le résultat en 1908 dans la revue Biometrika, sous le titre The Probable Error of a Mean : la distribution qui porte aujourd'hui son pseudonyme, la loi de Student, à la base du test t. Guinness interdit alors formellement à ses employés de publier sous leur propre nom, de peur qu'une brasserie concurrente n'apprenne qu'elle recourt à des méthodes scientifiques pointues. Gosset signe donc « Student » ; la plupart de ses vingt et une publications paraîtront sous ce seul pseudonyme, jusqu'à sa mort en 1937, où son identité réelle est enfin révélée publiquement.\n\n## Du houblon au laboratoire\n\nPearson, qui a formé Gosset, ne mesure jamais toute la portée de son travail : c'est Ronald Fisher, avec qui Gosset échange plus de cent cinquante lettres entre 1912 et 1934, qui comprend le premier que cet outil conçu pour comparer des lots de houblon s'applique à n'importe quelle mesure scientifique reposant sur un petit nombre d'observations. Le test t de Student devient, au cours du XXe siècle, l'un des outils statistiques les plus enseignés et les plus utilisés au monde, de la biologie à la psychologie en passant par la médecine, chaque fois qu'il s'agit de savoir si une différence mesurée sur quelques sujets seulement reflète un effet réel ou le simple bruit de l'échantillonnage. Aucun des étudiants qui l'apprennent aujourd'hui, dans n'importe quel amphithéâtre de statistique, ne cherche à comparer des lots de bière.",
   "citation": null,
   "repere": {
-    "texte": "Gosset construit sa méthode à partir d'échantillons de onze puis quatorze mesures de cinquante grammes de houblon, quand les méthodes statistiques existantes, conçues par Karl Pearson, exigeaient au moins cent cinquante mesures pour rester fiables.",
+    "texte": "À la brasserie Guinness, comparer deux lots de houblon ne portait que sur onze puis quatorze mesures de cinquante grammes tirées d'un même lot, quand les méthodes statistiques de l'époque, conçues par Karl Pearson, en exigeaient au moins cent cinquante pour rester fiables : le problème pratique qui a motivé la méthode de Gosset.",
     "source": "The Conversation, « The genius at Guinness and his statistical legacy », 2018 ; W. S. Gosset (« Student »), Biometrika, 1908",
     "url": "https://theconversation.com/the-genius-at-guinness-and-his-statistical-legacy-93134"
   },
@@ -35,6 +35,13 @@
       "annee": 2018,
       "url": "https://theconversation.com/the-genius-at-guinness-and-his-statistical-legacy-93134",
       "note": "Détail du problème de mesure du houblon à l'origine du test t."
+    },
+    {
+      "type": "web",
+      "auteur": "MacTutor History of Mathematics (University of St Andrews)",
+      "titre": "William Sealy Gosset",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gosset/",
+      "note": "Confirme les deux diplômes de première classe obtenus à Oxford : mathématiques (1897) et chimie (1899)."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -53,22 +60,42 @@
       "Parce que Gosset craignait que ses résultats, encore incertains, ne nuisent à sa réputation scientifique"
     ],
     "bonne_reponse": 0,
-    "explication": "Guinness interdisait formellement à ses employés de publier sous leur propre nom, par crainte que des brasseries concurrentes n'apprennent qu'elle utilisait des méthodes scientifiques avancées. Gosset a donc signé dix-neuf de ses vingt et une publications « Student », jusqu'à sa mort en 1937.",
+    "explication": "Guinness interdisait formellement à ses employés de publier sous leur propre nom, par crainte que des brasseries concurrentes n'apprennent qu'elle utilisait des méthodes scientifiques avancées. Gosset a donc signé la plupart de ses vingt et une publications « Student », jusqu'à sa mort en 1937.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-06T07:25:00.361Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-05T22:26:55.495Z",
+        "note": "Second passage indépendant. Sources rouvertes (Wikipédia EN, The Conversation 2018). Confirmés mot pour mot : entrée chez Guinness 1899, formation Oxford chimie/maths, envoi étudier auprès de Pearson à l'UCL en 1906, publication Biometrika 1908 « The Probable Error of a Mean », interdiction Guinness de publier sous son nom (et la raison : crainte que la concurrence apprenne le recours à des méthodes scientifiques), révélation de l'identité à la mort de Gosset en 1937, correspondance avec Fisher (150+ lettres, 1912-1934), chiffres du repère (11 puis 14 mesures de 50g, seuil de 150 mesures chez Pearson). Deux problèmes de fond trouvés et corrigés : 1) le corps et le repère attribuaient directement à Gosset les 11+14 mesures de houblon, alors que The Conversation les attribue à Thomas Bennett Case (embauché en 1893, six ans avant l'arrivée de Gosset) et à un collègue non nommé — Gosset n'a fait qu'hériter du même type de problème, pas ces mesures précises ; le repère affirmait aussi que Gosset « construit sa méthode à partir de » ces chiffres, alors que la source dit seulement qu'il a été « motivé » par ce type de problème. Corps et repère réécrits pour attribuer les mesures à Case et situer Gosset correctement. 2) le corps et l'explication du quiz affirmaient que « dix-neuf de ses vingt et une publications » ont paru sous pseudonyme — chiffre que ni Wikipédia (« most of his 21 academic papers », sans chiffre exact) ni The Conversation ne soutiennent. Remplacé par « la plupart de ses vingt et une publications » dans les deux endroits. Carte et quiz vérifiés conformes après correction, aucune autre affirmation en délicatesse. Ces corrections touchent le texte et donc l'empreinte : renvoyée en retouche pour qu'un contrôle indépendant revérifie le texte corrigé avant mise en circulation."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-06T07:25:00.361Z",
+        "note": "Contrôle précédent : verdict ok, aucune correction demandée (texte déjà revérifié deux fois indépendamment, dont un contrôle qui a relu le papier original de 1908 in extenso). Quatrième vérification indépendante avant validation : Wikipédia EN (William Sealy Gosset) confirme mot pour mot entrée chez Guinness en 1899, séjour chez Pearson à l'UCL 1906-1907, publication Biometrika 6(1):1-25 mars 1908, interdiction Guinness de publier sous vrai nom par crainte de la concurrence, 21 articles dont la plupart sous pseudonyme Student, mort le 16 octobre 1937, correspondance Fisher 150+ lettres 1912-1934, et Fisher (pas Pearson) ayant compris l'importance du travail. The Conversation (2018) confirme mot pour mot Case embauché en 1893, ses 11 mesures de houblon de 50g puis les 14 d'un collègue, désaccord entre les deux séries, seuil de 150 mesures des méthodes de Pearson, Gosset arrivé en 1899, interdiction de publication, révélation de l'identité à sa mort en 1937. Papier original de Student (1908, PDF York University) relu intégralement : confirme qu'aucune mention du houblon, de Case ou des chiffres 11/14/150 n'y figure — l'anecdote du houblon vient bien de l'histoire de l'entreprise relayée par The Conversation, pas du papier ; le repère le formule sans ambiguïté ('problème qui a motivé la méthode', pas contenu du papier). Point nouveau trouvé et corrigé : le corps dit que Gosset est un 'diplômé d'Oxford en chimie et en mathématiques', chiffre que Wikipédia ne précise pas explicitement (elle dit seulement 'natural sciences and mathematics') — vérifié sur mathshistory.st-andrews.ac.uk/Biographies/Gosset/ (MacTutor, Univ. of St Andrews), qui confirme un First Class degree en mathématiques (1897) ET en chimie (1899) : l'affirmation de la fiche tient, source ajoutée pour la couvrir explicitement. Carte et quiz vérifiés conformes, bonne réponse et distracteurs cohérents avec les sources. Aucune autre correction nécessaire."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-08-04",
+    "fait_le": "2026-08-06",
     "verdict": "ok",
-    "empreinte": "bddead688bd3b960",
+    "empreinte": "5a2afba9b779f0a0",
     "notes": [
-      "Sources rouvertes (Wikipédia, The Conversation) : carrière chez Guinness, échantillons de houblon (11 puis 14 mesures), interdiction de publier sous son vrai nom, pseudonyme Student, 19/21 publications sous ce nom, correspondance Fisher (150+ lettres 1912-1934) — tout confirmé."
+      "Troisième passage indépendant, sur le texte tel que corrigé par la relecture précédente (attribution des 11+14 mesures à Thomas Bennett Case, et 'la plupart de ses 21 publications' au lieu de '19 sur 21'). Sources rouvertes : Wikipédia EN (William Sealy Gosset) et The Conversation 2018, plus lecture directe du texte intégral de l'article original de Student, 'The Probable Error of a Mean', Biometrika 1908 (PDF York University), pour vérifier son contenu réel.",
+      "Confirmés mot pour mot sur The Conversation : Case embauché en 1893 comme premier brasseur scientifique, ses 11 mesures de 50g puis les 14 d'un collègue sur le même lot, désaccord entre les deux séries sans pouvoir trancher hasard vs vraie différence, seuil de 150 mesures de la 'large-sample theory', et 'Pearson's large-sample methods' (soutient bien 'conçues par Karl Pearson'). Gosset arrive en 1899, étudie avec Pearson à l'UCL en 1906, publie sous pseudonyme parce que Guinness l'interdisait par crainte que la concurrence apprenne son recours à des méthodes scientifiques, identité 'publicly revealed upon his death in 1937' (texte exact de The Conversation, confirme la fiche).",
+      "Confirmés mot pour mot sur Wikipédia : diplôme Oxford chimie/maths, entrée chez Guinness en 1899, séjour chez Pearson à l'UCL 1906-1907, article 'The probable error of a mean', Biometrika 6(1):1-25, mars 1908, interdiction Guinness de publier sous vrai nom par crainte des concurrents, 21 articles publiés au total dont la plupart sous pseudonyme 'Student' (aucune source ne donne '19 sur 21', la fiche dit maintenant justement 'la plupart' : correct), mort le 16 octobre 1937, correspondance Fisher plus de 150 lettres 1912-1934, et le rôle de Fisher ('not Pearson but Fisher who appreciated the understudied importance') contre le manque d'intérêt de Pearson ('had little appreciation of their importance') : soutient bien le paragraphe sur Pearson qui ne mesure jamais la portée du travail.",
+      "Vérification supplémentaire : le texte intégral du papier de 1908 (Illustration I sommeil/hyoscyamine, Illustration II blé de Woburn, Illustration III taille des graines d'orge, exemple final orge séchée au four) ne mentionne jamais le houblon ni Case ni les chiffres 11/14/150 - cette anecdote vient de l'histoire de l'entreprise relayée par The Conversation, pas du papier lui-même. Le repère cite les deux sources ensemble mais son texte dit bien que ce houblon est 'le problème qui a motivé la méthode', pas le contenu du papier : lecture cohérente, non trompeuse. Carte et quiz vérifiés conformes, aucun changement nécessaire au fichier."
     ]
   },
   "meta": {
