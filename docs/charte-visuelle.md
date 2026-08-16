@@ -33,8 +33,14 @@ autre chose, le crédit gagne.
 
 ### 2.2 Une encre par discipline
 
-La taxonomie compte **trente-trois disciplines**, groupées en six familles. Vingt-trois
-ont une encre attribuée ; une discipline sans encre n'est pas offerte par le client.
+La taxonomie compte **trente-trois disciplines**, groupées en six familles, et **toutes
+ont désormais leur encre**. Une discipline sans encre ne serait pas offerte par le
+client ; il n'en reste plus.
+
+Ce tableau a décrit dix disciplines comme « à attribuer » pendant que les deux clients
+leur donnaient déjà une valeur. Le désaccord n'a rien cassé, parce que ce sont les
+clients qui affichent, mais il a fait croire à la production que dix disciplines étaient
+fermées. Il ne s'est vu qu'en ouvrant le droit.
 
 | Discipline | Encre Riso | Hex | Contraste sur papier |
 |---|---|---|---|
@@ -64,12 +70,30 @@ ont une encre attribuée ; une discipline sans encre n'est pas offerte par le cl
 | Anthropologie | Orange | `#FF6C2F` | 2,4:1 ⚠ |
 | Linguistique | Bright Red | `#F15060` | 3,0:1 ⚠ |
 | Archéologie | Sunflower | `#FFB511` | 1,5:1 ⚠ |
-| Géographie | — | — | encre à attribuer |
+| Géographie | Pine | `#237E74` | 4,2:1 ⚠ |
 | **Société** | | | |
-| Histoire · Économie · Droit · Sciences politiques · Religions et mythologies | — | — | encres à attribuer |
+| Histoire | Brick | `#A75154` | 4,6:1 |
+| Économie | Bright Olive Green | `#B49F29` | 2,3:1 ⚠ |
+| Droit et justice | Slate | `#5E695E` | 5,0:1 |
+| Sciences politiques | Steel | `#375E77` | 6,0:1 |
+| Religions et mythologies | Plum | `#845991` | 4,8:1 |
 | **Arts et lettres** | | | |
 | Littérature | Fluorescent Pink | `#FF48B0` | 2,9:1 ⚠ |
-| Histoire de l'art · Musique · Cinéma · Architecture | — | — | encres à attribuer |
+| Histoire de l'art | Orchid | `#AA60BF` | 3,6:1 ⚠ |
+| Musique | Turquoise | `#00AA93` | 2,5:1 ⚠ |
+| Cinéma | Copper | `#BD6439` | 3,6:1 ⚠ |
+| Architecture | Granite | `#A5AAA8` | 2,1:1 ⚠ |
+
+**Droit et justice a changé d'encre en s'ouvrant.** Elle portait Indigo `#484D7A`, qui
+tombait à **6,6 d'écart Lab de Federal Blue** (Philosophie) : la paire la plus proche des
+trente-trois, et deux disciplines qu'un même lecteur coche volontiers ensemble. Midnight
+`#435060` aurait déplacé le problème sur Sciences politiques, à 10,1. Slate est la seule
+encre libre à tenir les deux distances à la fois, 23,5 de sa plus proche voisine sur les
+trente-trois et 23,7 de sa propre famille.
+
+Le critère qui a tranché n'est donc pas la teinte prise isolément, mais **l'écart aux
+disciplines qu'un lecteur cochera en même temps**. C'est la seule lecture de « se
+distinguer » qui corresponde à ce que quelqu'un voit vraiment à l'écran.
 
 **Les hex Riso ne sont normalisés nulle part.** Le même Bright Red vaut `#F15060`
 chez un studio et `#CC231F` chez un autre — ce ne sont pas des arrondis, ce sont
@@ -87,8 +111,9 @@ Ce qui compte est qu'elles se distinguent **à l'intérieur de la sélection d'u
 lecteur** : il en coche trois à six, jamais trente-trois. Et la discipline est
 toujours aussi écrite.
 
-Dix disciplines attendent leur encre. Elles ne sont pas offertes tant que c'est le
-cas — le client exige du stock **et** une encre pour proposer une discipline.
+Plus aucune discipline n'attend son encre. Ce qui décide désormais de l'ouverture d'une
+discipline est donc **le stock seul** — le client exige toujours les deux, mais l'une des
+deux conditions est acquise partout.
 
 ⚠ = sous 4,5:1. Ces encres n'apparaissent qu'en aplat, filet ou libellé de
 15 px et plus en graisse forte. **Jamais en texte courant, jamais en corps de

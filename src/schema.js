@@ -48,7 +48,7 @@ export const DISCIPLINES_V1 = {
   // Société
   histoire: 'Histoire',
   economie: 'Économie',
-  droit: 'Droit',
+  droit: 'Droit et justice',
   sciences_politiques: 'Sciences politiques',
   religions: 'Religions et mythologies',
 
@@ -79,9 +79,12 @@ export const DISCIPLINES = { ...DISCIPLINES_V1, ...DISCIPLINES_EXTENSIONS };
 /**
  * Encres par discipline — docs/charte-visuelle.md §2.2.
  *
- * Vingt-trois des trente-trois disciplines ont une encre. Les dix autres —
- * Géographie, les cinq disciplines de « Société », et quatre des « Arts et lettres »
- * — attendent la leur, et sont absentes d'ici à dessein.
+ * **Les trente-trois sont attribuées.** Cette table n'en portait que vingt-trois
+ * pendant que les deux clients en portaient trente-trois : la production croyait donc
+ * dix disciplines fermées alors que les apps les auraient servies. Le désaccord ne
+ * s'est vu qu'en ouvrant le droit. Toute valeur ajoutée ici doit l'être aussi dans
+ * `Anagnosis/Charte/Encres.swift` et `charte/Encres.kt`, qui sont la référence
+ * d'affichage.
  *
  * Cette table décide de ce que le client peut offrir : une discipline n'est servie
  * que si elle a du stock **et** une encre. Elle vit donc dans le schéma, à côté de la
@@ -118,10 +121,39 @@ export const ENCRES = {
   anthropologie: '#FF6C2F',
   linguistique: '#F15060',
   archeologie: '#FFB511',
+  geographie: '#237E74',
+
+  // Société
+  histoire: '#A75154',
+  economie: '#B49F29',
+  // Slate, et non l'Indigo #484D7A qui figurait dans les clients avant l'ouverture de
+  // la discipline : Indigo tombait à 6,6 d'écart Lab de Federal Blue (Philosophie), la
+  // paire la plus proche des trente-trois, sur deux disciplines qu'un même lecteur
+  // coche volontiers ensemble.
+  droit: '#5E695E',
+  sciences_politiques: '#375E77',
+  religions: '#845991',
 
   // Arts et lettres
   litterature: '#FF48B0',
+  histoire_art: '#AA60BF',
+  musique: '#00AA93',
+  cinema: '#BD6439',
+  architecture: '#A5AAA8',
 };
+
+/**
+ * Les disciplines qu'on ne sonorise pas, et qu'on ne sonorisera pas.
+ *
+ * Le droit se lit, il ne s'écoute pas : ses fiches vivent de dates, de numéros
+ * d'article et de noms d'arrêts, que la voix rend en bouillie et sur lesquels l'oreille
+ * ne peut pas revenir en arrière.
+ *
+ * Ce n'est pas la même chose que « pas encore d'audio », et la distinction va jusqu'aux
+ * clients : `Ecoute.sansEcoute` y retire le bouton et le lecteur, au lieu d'annoncer un
+ * « audio prochainement disponible » qui ne viendrait jamais.
+ */
+export const SANS_ECOUTE = new Set(['droit']);
 
 export const NIVEAUX = ['introductif', 'intermediaire'];
 
@@ -236,6 +268,11 @@ export function fresh(partial = {}) {
     validation: { decide_par: null, decide_le: null, historique: [] },
     // Relecture de fond : absente tant que personne n'a rouvert les sources.
     controle: null,
+    // Revue de juridiction et de mutabilité, disciplines juridiques uniquement
+    // (`src/droit.js`). Distincte de `controle` parce qu'elle ne se déclenche pas sur
+    // les mêmes critères : `controle` repasse quand le **texte** bouge, celle-ci quand
+    // le **temps** passe. Une fiche de droit devient fausse sans que rien n'y change.
+    controle_juridique: null,
     meta: { genere_le: null, genere_par: 'claude-code', version: 1 },
     ...partial,
   };

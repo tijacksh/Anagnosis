@@ -13,13 +13,14 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
 import { validerLot } from './validate.js';
-import { DISCIPLINES, STATUTS_LABELS } from './schema.js';
+import { DISCIPLINES, SANS_ECOUTE, STATUTS_LABELS } from './schema.js';
 import { cible as choisirCible, afficher } from './cible.js';
 import { file as fileControle, afficher as afficherControle, marquer, reparation } from './controle.js';
 import { file as fileReparer, afficher as afficherReparer } from './reparer.js';
 import { file as fileRelire, afficher as afficherRelire, relecture } from './relire.js';
 import { file as fileAudio, afficher as afficherAudio, sonoriser } from './audio.js';
 import { file as fileHeberger, afficher as afficherHeberger, televerserTout } from './heberger.js';
+import { file as fileDroit, afficher as afficherDroit, marquer as marquerDroit } from './droit.js';
 import { fichesPubliables, serialiser, retirees } from './publier.js';
 
 const C = {
@@ -153,6 +154,7 @@ const commandes = {
   areparer: cmdAReparer, reparation: cmdReparation,
   arelire: cmdARelire, relecture: cmdRelecture,
   asonoriser: cmdASonoriser, sonoriser: cmdSonoriser,
+  adroit: cmdADroit, 'controle-droit': cmdControleDroit,
   heberger: cmdHeberger,
 };
 const commande = process.argv[2];
@@ -171,6 +173,33 @@ async function cmdCible() {
 /** Que relire au fond maintenant ? La décision est dans `src/controle.js`. */
 async function cmdAControler() {
   afficherControle(await fileControle());
+}
+
+/**
+ * Quelles fiches juridiques redemandent une revue ? La décision est dans `src/droit.js`.
+ *
+ * Une file à part parce que son déclencheur l'est : le contrôle ordinaire repasse quand
+ * le texte bouge, celle-ci quand le temps passe.
+ */
+async function cmdADroit() {
+  afficherDroit(await fileDroit());
+}
+
+/** Pose la trace d'une revue juridique. */
+async function cmdControleDroit() {
+  const [id, verdict, ...notes] = process.argv.slice(3);
+  if (!id || !verdict) {
+    console.error('Usage : node src/cli.js controle-droit <id> <ok|a_revoir> [note...]');
+    return 2;
+  }
+  try {
+    const trace = await marquerDroit(id, verdict, notes);
+    console.log(c('green', `${id} — ${trace.verdict} (revue du ${trace.fait_le})`));
+  } catch (e) {
+    console.error(c('red', e.message));
+    return 1;
+  }
+  return 0;
 }
 
 /** Que réparer maintenant ? La décision est dans `src/reparer.js`. */
@@ -213,6 +242,14 @@ async function cmdSonoriser() {
   const introuvables = cibles.filter((id) => !fiches.some((x) => x.id === id));
   if (introuvables.length) {
     console.error(c('red', `fiche(s) introuvable(s) : ${introuvables.join(', ')}`));
+    return 1;
+  }
+  // `--lot` ne les propose déjà pas, mais un identifiant donné à la main court-circuite
+  // la file. On refuse ici plutôt que de dépenser les crédits : la commande est le
+  // dernier endroit où « on ne sonorise pas cette discipline » peut encore être tenu.
+  const interdites = fiches.filter((x) => SANS_ECOUTE.has(x.discipline));
+  if (interdites.length) {
+    console.error(c('red', `discipline sans écoute : ${interdites.map((x) => x.id).join(', ')}`));
     return 1;
   }
   if (!fiches.length) {

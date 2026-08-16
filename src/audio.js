@@ -48,6 +48,7 @@ import { mkdir, readFile, writeFile, unlink } from 'node:fs/promises';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
+import { SANS_ECOUTE } from './schema.js';
 
 const executer = promisify(execFile);
 
@@ -189,6 +190,9 @@ export async function ecrireIndex(index) {
  */
 export function aSonoriser(fiche, index) {
   if (!['valide', 'publie'].includes(fiche.statut)) return false;
+  // Une discipline qu'on ne sonorise pas ne rejoint jamais la file : sans ce filtre, la
+  // routine dépenserait des crédits sur une voix que les clients ne proposent pas.
+  if (SANS_ECOUTE.has(fiche.discipline)) return false;
   const entree = index[fiche.id];
   if (!entree) return true;
   if (entree.empreinte !== empreinteAudio(fiche)) return true;
@@ -218,7 +222,12 @@ export async function file() {
   const rang = (f) => (index[f.id] ? 0 : 1);
   aFaire.sort((a, b) => rang(a) - rang(b) || a.id.localeCompare(b.id));
 
-  const publiables = fiches.filter((f) => ['valide', 'publie'].includes(f.statut));
+  // Les disciplines sans écoute sont hors du dénominateur, pas dedans avec un compte
+  // parfait : les inclure ferait afficher « 14 sur 14 sonorisées » sur des fiches qui
+  // n'auront jamais de voix, et le jour où l'audio prendrait du retard, le retard se
+  // lirait comme de l'avance.
+  const publiables = fiches.filter(
+    (f) => ['valide', 'publie'].includes(f.statut) && !SANS_ECOUTE.has(f.discipline));
   return {
     sonoriser: aFaire.length > 0,
     lot: aFaire.slice(0, PAR_PASSAGE).map((f) => ({ fiche: f, motif: motif(f, index) })),

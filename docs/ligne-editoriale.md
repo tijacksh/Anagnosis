@@ -58,6 +58,50 @@ abrégée. S'il n'y a pas de déplacement, la fiche n'a pas lieu d'être.
   est faible ; « Doppler a lu son mémoire le 25 mai 1842 à Prague, devant cinq
   membres de la Société royale des sciences de Bohême » est vérifiable.
 
+### 3.1 Le droit, et le seul angle mort de la chaîne
+
+Toutes les autres disciplines énoncent des choses qui restent vraies là où le lecteur se
+trouve et le resteront l'an prochain. **Le droit est la première où une fiche peut
+devenir fausse sans que personne n'y touche**, de deux façons :
+
+- **La juridiction.** L'app est en français, donc lue en France, en Belgique, en Suisse,
+  au Québec et en Afrique francophone. « Le délai de prescription est de X » est exact
+  dans un pays et faux dans les quatre autres, sans qu'un mot de la fiche ait bougé.
+- **La mutabilité.** Un texte est modifié et la fiche ment à partir de ce jour-là.
+
+Le second cas est le plus grave parce que **`/controler` ne le voit pas**. Le contrôle
+vérifie que la fiche dit ce que dit la source ; or l'article de 2015 dit toujours en 2030
+ce qu'il disait en 2015. La source reste exacte, la fiche est devenue fausse, et la
+routine passe sans rien signaler. C'est le même genre de défaut silencieux et durable que
+l'audio produit à partir d'un texte périmé, et il se traite de la même façon : par une
+règle en amont, pas par une vigilance en aval.
+
+**La règle : écrire le droit comme histoire et comme idée, jamais comme état actuel d'une
+règle en vigueur.** Le Statute of Anne de 1710 ne peut pas se périmer ; « la durée du
+droit d'auteur en France » se périme. Ce qui fait le troisième temps d'une fiche de droit,
+c'est d'où vient la règle, quel problème elle réglait, ou ce que son invention a révélé,
+jamais ce qu'elle dispose aujourd'hui.
+
+Trois conséquences pratiques :
+
+1. **Une fiche dont le cœur est le contenu actuel d'une norme ne s'écrit pas.** Ce n'est
+   pas une question de difficulté, c'est qu'elle a une date de péremption qu'aucune
+   routine ne saura lire.
+2. **Toute règle citée est datée et située dans la fiche même** — « la loi française du
+   9 avril 1898 », pas « la loi ». Le lecteur belge doit pouvoir voir tout de suite que
+   la fiche ne parle pas de chez lui.
+3. **Le droit comparé est un atout, pas une complication.** Deux pays qui tranchent
+   différemment la même question donnent un troisième temps que rien d'autre ne donne, et
+   la divergence, elle, est stable.
+
+En retour, le sourçage juridique est **plus facile** qu'ailleurs : Légifrance, EUR-Lex,
+HUDOC, Gallica, Wikisource et Cornell LII ont tous des adresses stables, ce qui rend la
+règle 4 de `CLAUDE.md` moins coûteuse à tenir en droit que dans la plupart des
+disciplines.
+
+La vérification périodique de ces deux points a sa propre routine,
+`.claude/commands/controler-droit.md`, distincte du contrôle ordinaire.
+
 ## 4. Citation ou repère
 
 Le brief (§8) prévoit un champ `citation` + `citation_auteur`. En pratique, exiger

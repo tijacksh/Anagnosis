@@ -41,6 +41,7 @@ npm run acontroler # quelles fiches restent à relire au fond
 npm run areparer   # quelles fiches en retouche attendent d'être réparées
 npm run arelire    # quels brouillons sont prêts à être tranchés
 npm run asonoriser # quelles fiches publiables n'ont pas d'audio à jour
+npm run adroit     # quelles fiches juridiques redemandent une revue de juridiction
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
@@ -179,7 +180,33 @@ réellement séparés dans le temps, et partent chacun du texte brut.
 Le tour de rôle est cyclique : l'ordre ci-dessus se lit aussi bien à partir de n'importe
 laquelle des quatre.
 
+## Revoir les fiches juridiques
+
+`/controler-droit` (`.claude/commands/controler-droit.md`) traite le seul angle mort de la
+chaîne. Toutes les autres disciplines énoncent des choses qui restent vraies là où le
+lecteur se trouve et le resteront l'an prochain ; **le droit est la première où une fiche
+peut devenir fausse sans que personne n'y touche** — la règle décrite est modifiée, ou
+elle ne valait depuis toujours que dans un pays sans le dire.
+
+`/controler` ne peut pas le voir, et il a raison de ne pas le voir : il vérifie que la
+fiche dit ce que dit la source, or l'article de 2015 dit toujours en 2030 ce qu'il disait
+en 2015. La source reste exacte, la fiche est devenue fausse.
+
+La défense principale est **en amont**, dans la ligne éditoriale (§3.1) : une fiche de
+droit s'écrit comme histoire et comme idée, jamais comme état actuel d'une règle en
+vigueur. Le Statute of Anne de 1710 ne se périme pas. `npm run adroit` est le filet, pour
+celles qui passent entre les mailles — et sa file se déclenche **sur le temps** (six mois)
+et non sur l'empreinte, sans quoi une fiche que personne ne touche ne repasserait jamais.
+
 ## Sonoriser les fiches
+
+**Le droit ne se sonorise pas** (`SANS_ECOUTE` dans `src/schema.js`). Ses fiches vivent de
+dates, de numéros d'article et de noms d'arrêts, que la voix rend en bouillie et sur
+lesquels l'oreille ne peut pas revenir en arrière. La règle vaut de bout en bout : la file
+les écarte, `sonoriser <id>` les refuse même nommées à la main, et les clients retirent le
+bouton et le lecteur au lieu d'annoncer un « audio prochainement disponible » qui ne
+viendrait jamais — c'est `Ecoute.sansEcoute`, des deux côtés. **« Jamais » n'est pas « pas
+encore »**, et l'interface doit dire lequel des deux.
 
 `npm run asonoriser` dit quelles fiches publiables n'ont pas d'audio à jour, et
 `node src/cli.js sonoriser <id>` le produit — deux voix françaises, modèle `eleven_v3`,

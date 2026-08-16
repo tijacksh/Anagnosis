@@ -175,3 +175,31 @@ test('aucune fiche du dépôt ne dépasse la limite d’une requête', async () 
     .filter((f) => f.n > LIMITE_CARACTERES);
   assert.deepEqual(trop, []);
 });
+
+test('une discipline sans écoute ne rejoint jamais la file', () => {
+  // « Pas d'audio pour le droit » ne peut pas tenir seulement à ne jamais lancer la
+  // commande : la routine passe deux fois par jour et prendrait ces fiches comme les
+  // autres. Le filtre est donc dans `aSonoriser`, en amont de tout le reste.
+  const f = fiche({ id: 'dro-test', discipline: 'droit' });
+  assert.equal(aSonoriser(f, {}), false);
+});
+
+test('la discipline sans écoute sort aussi du dénominateur', async () => {
+  // Si elle restait dans « publiables », le décompte afficherait ces fiches comme
+  // sonorisées — et un retard réel se lirait comme de l'avance.
+  const { SANS_ECOUTE } = await import('../src/schema.js');
+  const { loadAll } = await import('../src/store.js');
+  const fiches = await loadAll();
+  const { file } = await import('../src/audio.js');
+  const attendu = fiches.filter(
+    (f) => ['valide', 'publie'].includes(f.statut) && !SANS_ECOUTE.has(f.discipline)).length;
+  assert.equal((await file()).publiables, attendu);
+});
+
+test('les encres du schéma couvrent les trente-trois disciplines', async () => {
+  // Le désaccord a existé : vingt-trois ici, trente-trois dans les clients. La
+  // production croyait donc dix disciplines fermées alors que les apps les servaient.
+  const { DISCIPLINES, ENCRES } = await import('../src/schema.js');
+  const sansEncre = Object.keys(DISCIPLINES).filter((d) => !ENCRES[d]);
+  assert.deepEqual(sansEncre, []);
+});
