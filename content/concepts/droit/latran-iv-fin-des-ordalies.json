@@ -57,10 +57,34 @@
     "explication": "Le concile n'a pas prohibé l'épreuve elle-même, il a retiré le prêtre qui la bénissait et en lisait le résultat. Sans cette caution, l'ordalie perdait ce qui lui donnait valeur de jugement, et la pratique s'est effondrée d'elle-même.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.519Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.519Z",
+        "note": "Canon 18 confirmé dans son libellé et sa portée, tenue du concile en novembre 1215 confirmée, abandon anglais de 1219 confirmé. La fiche ne surinterprète pas le canon, qui vise plus large que les seules ordalies, et le dit implicitement en parlant du ministère prêté. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "129f84e3e8b899eb",
+    "notes": [
+      "Notices du concile et de l'ordalie rouvertes. Canon 18 confirmé, « De indicio sanguinis et duelli clericis interdicto », dont le texte interdit aux clercs de prendre part aux épreuves judiciaires et aux ordalies — la fiche décrit exactement cet effet sans surinterpréter la portée du canon, qui vise aussi les sentences de sang. Tenue du concile confirmée : Rome, novembre 1215, ouverture le 11 novembre, clôture le 30, sous Innocent III. Rôle du clergé dans la bénédiction et la lecture du résultat confirmé, effondrement de la pratique ensuite, abandon anglais en 1219 confirmé. Fiche médiévale : aucun risque de mutabilité."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

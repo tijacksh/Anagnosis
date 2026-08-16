@@ -72,10 +72,34 @@
     "explication": "Après l'expiration du Licensing Act en 1695, la Stationers' Company avait perdu son monopole et demandait au Parlement de le rétablir sans limite de durée. Le texte de 1710 lui donne l'inverse de ce qu'elle demandait : un droit attaché à l'auteur, et borné dans le temps.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.239Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.239Z",
+        "note": "Texte intégral de la loi rouvert sur Wikisource : entrée en vigueur du 10 avril 1710, vingt et un ans pour les livres déjà imprimés, quatorze ans renouvelables pour les nouveaux, et le titre officiel vérifié caractère par caractère. Le troisième temps repose entièrement sur « in the Authors » et « during the Times therein mentioned », tous deux dans le titre authentique. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "3ea343539c21a743",
+    "notes": [
+      "Texte intégral de la loi rouvert sur Wikisource et confirmé mot pour mot sur les quatre points que la fiche avance : entrée en vigueur « from and after the Tenth Day of April, One thousand seven hundred and ten » ; « One and twenty Years » pour les livres déjà imprimés ; « fourteen Years, to Commence from the Day of the First Publishing » pour les livres nouveaux ; et le renouvellement — « the sole Right of Printing or Disposing of Copies shall return to the Authors thereof, if they are then Living, for another Term of Fourteen Years ». Titre officiel vérifié caractère par caractère, y compris « in the Authors or Purchasers of such Copies », sur lequel repose tout le troisième temps. Contexte du Licensing Act expiré en 1695 et de l'action de la Stationers' Company confirmé sur la notice encyclopédique citée. Fac-similé de Cambridge et Bocconi accessible. Aucun risque de mutabilité : le texte est de 1710 et la fiche ne dit rien du droit d'auteur actuel."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

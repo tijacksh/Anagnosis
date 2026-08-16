@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "Cinq ans séparent la bataille de Solferino, le 24 juin 1859, de la première Convention de Genève, signée le 22 août 1864 par douze États.",
-    "source": "Comité international de la Croix-Rouge, base de données des traités de droit international humanitaire, Convention de Genève du 22 août 1864",
-    "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-1864"
+    "source": "Convention de Genève du 22 août 1864, signée par douze États européens ; article 1 sur la neutralité des ambulances et des hôpitaux militaires",
+    "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-1864/article-1"
   },
   "carte": {
     "punch": "Le blessé cesse d'être un ennemi. Un traité de 1864 crée cette catégorie.",
@@ -26,8 +26,8 @@
       "auteur": "Comité international de la Croix-Rouge",
       "titre": "Convention de Genève pour l'amélioration du sort des militaires blessés dans les armées en campagne, 22 août 1864",
       "annee": 1864,
-      "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-1864",
-      "note": "Texte du traité et liste des États signataires, base de données officielle du CICR."
+      "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-1864/article-1",
+      "note": "Texte du traité, base de données officielle du CICR. L'article 1 pose la neutralité des ambulances et des hôpitaux militaires tant qu'ils abritent des blessés."
     },
     {
       "type": "livre",
@@ -44,6 +44,14 @@
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Henry_Dunant",
       "note": "Arrivée à Solferino le 24 juin 1859, publication à seize cents exemplaires en 1862, commission du 9 février 1863 et première réunion du 17 février 1863."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Conventions de Genève",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Conventions_de_Gen%C3%A8ve",
+      "note": "Donne la liste nominative des douze États signataires du 22 août 1864, que la page du CICR ne reprend pas."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -65,14 +73,30 @@
     "explication": "Le droit de la guerre réglait jusque-là les rapports entre États belligérants. La Convention neutralise les ambulances, les hôpitaux militaires et ceux qui y servent, et impose de soigner les blessés quelle que soit leur nationalité, créant ainsi une catégorie de personnes qui cessent d'être des ennemis.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.463Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.463Z",
+        "note": "Article 1 du traité rouvert au CICR, liste des douze États signataires établie au contrôle et source rectifiée en conséquence. La fiche décrit l'invention d'une catégorie juridique en 1864, pas le droit humanitaire d'aujourd'hui. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "corrige",
+    "empreinte": "6ad3adc36ae77087",
+    "notes": [
+      "Base de données des traités du CICR rouverte : la page générale ne rend aucun texte exploitable, celle de l'article 1 si — neutralité des ambulances et des hôpitaux militaires « aussi longtemps qu'il s'y trouvera des malades ou des blessés », ce que la fiche affirme. CORRIGÉ : le repère créditait la page du CICR pour le chiffre des douze États signataires, qu'elle ne porte pas. Source rectifiée vers l'article 1, et ajout de Wikipédia Conventions de Genève, qui donne la liste nominative des douze (Bade, Belgique, Danemark, Espagne, France, Hesse, Italie, Pays-Bas, Portugal, Prusse, Suisse, Wurtemberg). Confirmés par ailleurs sur la notice Henry Dunant : arrivée à Solferino le 24 juin 1859, publication à seize cents exemplaires en 1862, commission du 9 février 1863 et première réunion du 17 février 1863."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-08-16",

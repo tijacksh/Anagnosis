@@ -58,10 +58,34 @@
     "explication": "Marshall reconnaît que Marbury a droit à sa commission et qu'un recours existe, mais juge que la disposition de la loi judiciaire de 1789 permettant de saisir directement la Cour étend une compétence que la Constitution n'accorde pas. C'est en écartant cette loi que la Cour établit son pouvoir de contrôler les lois.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.294Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.294Z",
+        "note": "Opinion intégrale rouverte sur Cornell, citation de Marshall vérifiée mot pour mot. Le paradoxe que la fiche met en avant est bien celui de l'arrêt : droit reconnu, remède existant, compétence refusée par inconstitutionnalité de la section 13. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "71438a63c741b2bb",
+    "notes": [
+      "Opinion intégrale rouverte sur le Legal Information Institute de Cornell (law.cornell.edu/supremecourt/text/5/137). Citation vérifiée mot pour mot au paragraphe 141 : « It is emphatically the province and duty of the judicial department to say what the law is. » Confirmés également : le découpage en trois questions (droit acquis à la commission dès signature et sceau, existence d'un remède, absence de compétence), et le fondement de l'incompétence — la section 13 du Judiciary Act de 1789 jugée « repugnant to the constitution ». Juridiction dite dans la fiche même (Cour suprême des États-Unis). Fiche historique de 1803 : aucun risque de mutabilité."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

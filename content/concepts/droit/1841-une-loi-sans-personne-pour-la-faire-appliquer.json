@@ -63,10 +63,34 @@
     "explication": "Le contrôle revenait à des commissions gratuites de notables locaux et d'entrepreneurs volontaires. Ces notables répugnaient à inspecter des industriels de leur propre classe, et les commissions ont vite cessé de fonctionner. Ce qui manquait était l'organe, pas la règle.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.799Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.799Z",
+        "note": "Chiffres et mécanisme de l'échec du contrôle confirmés. La fiche s'abstient de dater la création du corps d'inspecteurs, sur lequel les sources divergent, et écrit « plusieurs décennies », vrai dans les deux lectures : prudence justifiée plutôt que lacune. Juridiction française nommée. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "bad69dcb6634c644",
+    "notes": [
+      "Notice de la loi rouverte. Confirmés : âge minimum de huit ans ; huit heures par jour de huit à douze ans et douze heures de douze à seize ; interdiction du travail de nuit de vingt et une heures à cinq heures pour les moins de treize ans ; application aux seuls établissements de plus de vingt salariés. Confirmé surtout le cœur de la fiche, la surveillance confiée à des commissions gratuites de notables locaux et d'entrepreneurs volontaires désignés par les préfets, et son échec — les notables répugnent à inspecter des industriels de leur propre classe. Réserve consignée, et raison pour laquelle la fiche ne date pas la création du corps d'inspecteurs rémunérés : les sources divergent entre un décret du 7 décembre 1868 et une création en 1871. La fiche écrit « plusieurs décennies », vrai dans les deux lectures. Juridiction française nommée."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

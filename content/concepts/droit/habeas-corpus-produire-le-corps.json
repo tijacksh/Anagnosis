@@ -65,10 +65,34 @@
     "explication": "En faisant du prisonnier le bénéficiaire de l'amende, la loi transforme une obligation dont l'État devrait assurer le respect en une obligation que la victime a les moyens et l'intérêt de faire respecter elle-même.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.577Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.577Z",
+        "note": "Sanction royale du 27 mai 1679 confirmée, et surtout l'affirmation qui porte le troisième temps : les amendes vont au prisonnier et non au Trésor. La fiche ne chiffre pas les montants, que la source ne donne pas. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "3a7054f93a445203",
+    "notes": [
+      "Notice rouverte et texte officiel vérifié accessible sur legislation.gov.uk. Sanction royale du 27 mai 1679 confirmée. Confirmée mot pour mot, l'affirmation centrale de la fiche : « In case of disobedience jailers would be punished with severe fines which had to be paid to the prisoner » — les amendes vont bien au prisonnier et non au Trésor. Confirmée aussi l'interdiction de déplacer un détenu d'une prison à l'autre ou hors du pays pour faire échec à l'ordre. La fiche ne chiffre pas les amendes, ce qui est prudent : la notice ne donne pas les montants. Juridiction dite (Parlement d'Angleterre)."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

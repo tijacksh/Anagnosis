@@ -65,10 +65,34 @@
     "explication": "La loi accorde une indemnité certaine, sans avoir à prouver la faute de l'employeur, mais forfaitaire et inférieure au préjudice réel. C'est ce caractère chiffrable et borné qui a rendu le risque assurable et mutualisable entre employeurs.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.740Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.740Z",
+        "note": "Barèmes du repère confirmés mot pour mot, texte vérifié accessible sur Legifrance au navigateur. Le texte étant abrogé depuis 1945 et la fiche le disant, elle est hors d'atteinte du risque de mutabilité. Juridiction française nommée partout. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "bc922f86b14142a5",
+    "notes": [
+      "Notice de la loi rouverte, et fiche Legifrance de la version initiale vérifiée accessible au navigateur (elle renvoie 403 aux robots, pas aux lecteurs). Barèmes du repère confirmés mot pour mot : « une personne frappée d'incapacité à 70 % touchera une rente équivalent à seulement 55 % de son salaire » et « les veufs et orphelins touchent une rente dérisoire, de 30 % du salaire ». Confirmés aussi le régime de responsabilité sans faute, la notion de risque professionnel, le caractère forfaitaire de l'indemnisation, l'abrogation par l'ordonnance du 19 octobre 1945 et l'intégration par la loi du 30 octobre 1946. Juridiction française nommée dans le titre du texte et dans le corps. Fiche historique : le texte est abrogé depuis 1945 et la fiche le dit, donc aucun risque de mutabilité."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

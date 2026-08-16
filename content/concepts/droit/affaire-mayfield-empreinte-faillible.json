@@ -65,10 +65,34 @@
     "explication": "Après avoir relevé une dizaine de points de similitude inhabituelle, les examinateurs ont lu la trace latente à travers l'empreinte de Mayfield, identifiant comme concordances des détails flous que l'empreinte de comparaison leur suggérait d'y voir.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T11:26:54.686Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T11:26:54.686Z",
+        "note": "Rapport officiel extrait au texte et citation du raisonnement circulaire vérifiée mot pour mot, ainsi que la recommandation de vérification à l'aveugle. Le rapprochement avec la fiche de 1892 tient sur des faits établis des deux côtés. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "35f3ef873e4c73e0",
+    "notes": [
+      "Rapport de l'Inspecteur général téléchargé et extrait au texte (17 Mo, hors limite de WebFetch, converti avec pdftotext). Confirmé mot pour mot dans le chapitre VII : « the examiners applied circular reasoning, allowing details visible in Mayfield's known prints to suggest features in the murky or ambiguous details of LFP 17 that were not really there » — c'est exactement ce que le corps et le repère affirment, y compris la lecture de la trace à travers l'empreinte du suspect. Confirmée aussi la recommandation citée : « implement blind verification procedures with decoy non-matches ». Chronologie vérifiée sur la notice Mayfield : conclusion du FBI le 20 mars 2004, désaccord espagnol du 13 avril, arrestation le 6 mai, identification d'Ouhnane Daoud le 19 mai, libération le 20 mai. Juridiction dite (FBI, ministère de la Justice américain). Fiche de 2004 close par un rapport officiel : aucun risque de mutabilité."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-16", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-16",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
