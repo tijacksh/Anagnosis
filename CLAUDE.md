@@ -171,6 +171,13 @@ jour, à douze heures d'intervalle, et trois heures après la précédente :
 | relire | 00:08 et 12:08 |
 | produire | 03:08 et 15:08 |
 
+**`contrôler-droit` est en dehors de ce tour** (le 3 de chaque mois, à 08:08). Elle ne
+suit rien et n'alimente rien : les quatre autres se passent le relais parce que chacune
+travaille sur ce que la précédente vient de produire, alors que celle-ci attend qu'un
+texte de loi change au dehors. La rattacher au cycle lui donnerait une cadence qui ne
+correspond à rien, et douze passages par an suffisent : à huit fiches par passage, le
+dispositif tient jusqu'à quarante-huit fiches juridiques, contre quatorze aujourd'hui.
+
 Lu dans le sens d'une fiche neuve, c'est une chaîne : **produite** à 15:08, elle est
 **contrôlée** à 18:08, **réparée** à 21:08 si le contrôle l'a sortie, et **relue** à 00:08 si
 son verdict est propre. Neuf heures de bout en bout, chaque maillon trois heures après celui

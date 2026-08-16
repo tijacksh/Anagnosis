@@ -54,6 +54,21 @@ export const DISCIPLINES_JURIDIQUES = new Set(['droit']);
  */
 export const MOIS_VALIDITE = 6;
 
+/**
+ * Fiches revues par passage.
+ *
+ * Huit, comme les autres routines. L'arithmétique tient, et vaut d'être écrite parce
+ * qu'elle décide de la cadence : la routine passe une fois par mois, donc douze passages
+ * par an, donc une capacité de 96 revues annuelles. Avec une validité de six mois, chaque
+ * fiche en demande deux par an — le dispositif tient donc jusqu'à **48 fiches
+ * juridiques**, contre quatorze aujourd'hui.
+ *
+ * Au-delà, ce n'est pas ce plafond qu'il faudra lever mais la cadence : deux passages par
+ * mois plutôt qu'un. Un lot plus gros ferait une session interminable, alors qu'un
+ * passage de plus ne coûte rien les mois où la file est vide.
+ */
+export const PAR_PASSAGE = 8;
+
 /** Le jour, en ISO, décalé de `mois` mois vers le passé. */
 function ilYA(mois, maintenant) {
   const d = new Date(maintenant);
@@ -91,7 +106,8 @@ export async function file(maintenant = new Date()) {
 
   return {
     revoir: aFaire.length > 0,
-    lot: aFaire.map((f) => ({ fiche: f, motif: motif(f) })),
+    lot: aFaire.slice(0, PAR_PASSAGE).map((f) => ({ fiche: f, motif: motif(f) })),
+    restant: Math.max(0, aFaire.length - PAR_PASSAGE),
     juridiques: juridiques.length,
     aJour: juridiques.length - aFaire.length,
     mois: MOIS_VALIDITE,
@@ -151,6 +167,7 @@ export function afficher(f) {
     return;
   }
   t(`  REVOIR  ${f.lot.length} fiche(s)`);
+  if (f.restant) t(`  ${f.restant} de plus attendront le passage suivant.`);
   t('');
   t('  Deux questions, et seulement celles-là :');
   t('    1. la fiche dit-elle de quel pays elle parle ?');
