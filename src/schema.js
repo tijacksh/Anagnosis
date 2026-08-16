@@ -45,12 +45,29 @@ export const DISCIPLINES_V1 = {
   archeologie: 'Archéologie',
   geographie: 'Géographie',
 
-  // Société
   histoire: 'Histoire',
   economie: 'Économie',
-  droit: 'Droit et justice',
   sciences_politiques: 'Sciences politiques',
   religions: 'Religions et mythologies',
+
+  // Droit et justice
+  //
+  // **Une famille, et non une discipline.** « Droit » a d'abord été posé comme une
+  // discipline unique, au niveau d'Histoire ou d'Économie. C'était le mauvais grain :
+  // un lecteur veut cocher la preuve judiciaire sans prendre la propriété
+  // intellectuelle, comme il coche Génétique sans prendre toute la Biologie.
+  //
+  // Le nuancier ne fournissait plus sept encres à pleine distance : les sept retenues
+  // tiennent 13,5 d'écart Lab entre elles et 10,1 avec les trente-deux autres, contre
+  // le seuil de 15 appliqué ailleurs. C'est un écart assumé, et il est supportable ici
+  // parce que ces sept-là portent toujours leur libellé écrit à côté de l'aplat.
+  droit_institutions: 'Institutions judiciaires',
+  droit_preuve: 'Preuve et erreur judiciaire',
+  droit_international: 'Droit international',
+  droit_pi_ia: 'Propriété intellectuelle et IA',
+  droit_constitutionnel: 'Droit constitutionnel',
+  droit_social: 'Droit social',
+  droit_conformite: 'Conformité',
 
   // Arts et lettres
   litterature: 'Littérature',
@@ -123,17 +140,20 @@ export const ENCRES = {
   archeologie: '#FFB511',
   geographie: '#237E74',
 
-  // Société
   histoire: '#A75154',
   economie: '#B49F29',
-  // Medium Blue, et non l'Indigo #484D7A qui figurait dans les clients avant
-  // l'ouverture de la discipline : Indigo tombait à 6,6 d'écart Lab de Federal Blue
-  // (Philosophie), la paire la plus proche des trente-trois, sur deux disciplines qu'un
-  // même lecteur coche volontiers ensemble. Medium Blue tient 17,2 de Philosophie,
-  // 34,9 de Sciences politiques et 19,4 de Physique — les trois bleus déjà pris.
-  droit: '#3255A4',
   sciences_politiques: '#375E77',
   religions: '#845991',
+
+  // Droit et justice — sept encres à distance réduite, voir le commentaire de la
+  // taxonomie. Contraste et plus proche voisine parmi les trente-deux autres :
+  droit_institutions: '#435060',    // Midnight     7,15:1  · 10,1 de Sciences politiques
+  droit_preuve: '#5E695E',          // Slate        5,00:1  · 23,5 de Géographie
+  droit_international: '#0074A2',   // Sea Blue     4,55:1  · 15,6 de Physique
+  droit_pi_ia: '#775D7A',           // Raisin       5,03:1  · 16,7 de Religions
+  droit_constitutionnel: '#3255A4', // Medium Blue  6,15:1  · 17,2 de Philosophie
+  droit_social: '#2F6165',          // Lagoon       6,06:1  · 14,4 de Sciences politiques
+  droit_conformite: '#407060',      // Hunter Green 4,93:1  · 10,9 de Géographie
 
   // Arts et lettres
   litterature: '#FF48B0',
@@ -154,7 +174,10 @@ export const ENCRES = {
  * clients : `Ecoute.sansEcoute` y retire le bouton et le lecteur, au lieu d'annoncer un
  * « audio prochainement disponible » qui ne viendrait jamais.
  */
-export const SANS_ECOUTE = new Set(['droit']);
+export const SANS_ECOUTE = new Set([
+  'droit_institutions', 'droit_preuve', 'droit_international', 'droit_pi_ia',
+  'droit_constitutionnel', 'droit_social', 'droit_conformite',
+]);
 
 export const NIVEAUX = ['introductif', 'intermediaire'];
 

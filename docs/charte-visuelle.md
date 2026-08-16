@@ -33,7 +33,7 @@ autre chose, le crédit gagne.
 
 ### 2.2 Une encre par discipline
 
-La taxonomie compte **trente-trois disciplines**, groupées en six familles, et **toutes
+La taxonomie compte **trente-neuf disciplines**, groupées en six familles, et **toutes
 ont désormais leur encre**. Une discipline sans encre ne serait pas offerte par le
 client ; il n'en reste plus.
 
@@ -71,12 +71,18 @@ fermées. Il ne s'est vu qu'en ouvrant le droit.
 | Linguistique | Bright Red | `#F15060` | 3,0:1 ⚠ |
 | Archéologie | Sunflower | `#FFB511` | 1,5:1 ⚠ |
 | Géographie | Pine | `#237E74` | 4,2:1 ⚠ |
-| **Société** | | | |
 | Histoire | Brick | `#A75154` | 4,6:1 |
 | Économie | Bright Olive Green | `#B49F29` | 2,3:1 ⚠ |
-| Droit et justice | Medium Blue | `#3255A4` | 6,2:1 |
 | Sciences politiques | Steel | `#375E77` | 6,0:1 |
 | Religions et mythologies | Plum | `#845991` | 4,8:1 |
+| **Droit et justice** | | | |
+| Institutions judiciaires | Midnight | `#435060` | 7,2:1 |
+| Preuve et erreur judiciaire | Slate | `#5E695E` | 5,0:1 |
+| Droit international | Sea Blue | `#0074A2` | 4,6:1 |
+| Propriété intellectuelle et IA | Raisin | `#775D7A` | 5,0:1 |
+| Droit constitutionnel | Medium Blue | `#3255A4` | 6,2:1 |
+| Droit social | Lagoon | `#2F6165` | 6,1:1 |
+| Conformité | Hunter Green | `#407060` | 4,9:1 |
 | **Arts et lettres** | | | |
 | Littérature | Fluorescent Pink | `#FF48B0` | 2,9:1 ⚠ |
 | Histoire de l'art | Orchid | `#AA60BF` | 3,6:1 ⚠ |
@@ -84,24 +90,40 @@ fermées. Il ne s'est vu qu'en ouvrant le droit.
 | Cinéma | Copper | `#BD6439` | 3,6:1 ⚠ |
 | Architecture | Granite | `#A5AAA8` | 2,1:1 ⚠ |
 
-**Droit et justice a changé d'encre en s'ouvrant, deux fois.** Elle portait Indigo
-`#484D7A`, qui tombait à **6,6 d'écart Lab de Federal Blue** (Philosophie) : la paire la
-plus proche des trente-trois, et deux disciplines qu'un même lecteur coche volontiers
-ensemble. Midnight `#435060` aurait déplacé le problème sur Sciences politiques, à 10,1.
-Slate `#5E695E` tenait les distances mais ne disait rien de la discipline : un gris-vert
-n'évoque pas la justice.
+**« Société » a cédé la place à « Droit et justice ».** Le droit avait d'abord été posé
+comme une discipline unique, au niveau d'Histoire ou d'Économie. C'était le mauvais grain :
+un lecteur veut cocher la preuve judiciaire sans prendre la propriété intellectuelle,
+comme il coche Génétique sans prendre toute la Biologie. Histoire, Économie, Sciences
+politiques et Religions ont rejoint les sciences humaines, où elles sont chez elles.
 
-Medium Blue tient les deux exigences. Il est du registre attendu, le bleu institutionnel
-des cours et des ministères, et il tient les trois bleus déjà attribués : **17,2 de
-Federal Blue** (Philosophie), **34,9 de Steel** (Sciences politiques), **19,4 de Blue**
-(Physique). Son contraste de 6,2:1 le place au second rang de toute la charte.
+**Et c'est là que le nuancier a atteint sa limite.** Sept encres de plus à pleine distance
+n'existent pas : au seuil de 15 appliqué partout ailleurs, seules **quatre** places
+restaient libres. Les sept retenues tiennent **13,5 d'écart Lab entre elles** et **10,1
+avec les trente-deux autres**.
 
-Deux critères ont donc tranché, dans cet ordre. D'abord **l'écart aux disciplines qu'un
-lecteur cochera en même temps**, seule lecture de « se distinguer » qui corresponde à ce
-qu'on voit vraiment à l'écran. Ensuite, **parmi les encres qui passent ce test, celle
-dont le registre correspond à la discipline**. L'ordre compte : une encre juste de
-registre mais indistincte ne sert à rien, alors qu'une encre distincte mais muette reste
-utilisable. Le symbole ne peut être qu'un départage.
+C'est un écart assumé, et il faut dire ce qu'il coûte : 10, c'est le niveau auquel Midnight
+avait été écarté quelques heures plus tôt pour le droit pris en bloc. Deux tensions
+subsistent, Institutions judiciaires à 10,1 de Sciences politiques et Conformité à 10,9 de
+Géographie — deux disciplines d'une autre famille, ce qui limite la co-sélection sans
+l'exclure. Ce qui rend l'écart supportable est la règle de §2.2 : **la couleur ne porte
+jamais seule l'information**, la discipline est toujours écrite à côté de l'aplat.
+
+Le chemin jusque-là mérite d'être consigné, parce qu'il s'est trompé deux fois. Le droit
+portait Indigo `#484D7A`, à **6,6 de Federal Blue** (Philosophie) : la paire la plus
+proche de toute la charte. Slate `#5E695E` tenait les distances mais ne disait rien de la
+discipline. Medium Blue a tranché les deux, et il est resté — sur Droit constitutionnel,
+là où le bleu institutionnel dit le plus.
+
+Deux critères ont tranché, dans cet ordre. D'abord **l'écart aux disciplines qu'un lecteur
+cochera en même temps**, seule lecture de « se distinguer » qui corresponde à ce qu'on voit
+à l'écran. Ensuite, **parmi les encres qui passent ce test, celle dont le registre
+correspond à la discipline**. L'ordre compte : une encre juste de registre mais indistincte
+ne sert à rien, alors qu'une encre distincte mais muette reste utilisable. Le symbole ne
+peut être qu'un départage.
+
+Les couleurs de la justice sont d'ailleurs exactement les régions saturées du nuancier :
+le rouge de la robe est pris quatre fois par le vivant, l'or de la balance deux fois, le
+bleu grave deux fois. C'est ce qui a rendu la recherche coûteuse.
 
 **Les hex Riso ne sont normalisés nulle part.** Le même Bright Red vaut `#F15060`
 chez un studio et `#CC231F` chez un autre — ce ne sont pas des arrondis, ce sont

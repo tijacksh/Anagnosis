@@ -198,6 +198,29 @@ réellement séparés dans le temps, et partent chacun du texte brut.
 Le tour de rôle est cyclique : l'ordre ci-dessus se lit aussi bien à partir de n'importe
 laquelle des quatre.
 
+## Droit et justice : une famille, pas une discipline
+
+Les sept disciplines juridiques — Institutions judiciaires, Preuve et erreur judiciaire,
+Droit international, Propriété intellectuelle et IA, Droit constitutionnel, Droit social,
+Conformité — forment une **famille**, au niveau de « Sciences exactes » ou « Vivant et
+santé ». Elle a pris la place de « Société », dont les quatre autres disciplines ont
+rejoint les sciences humaines.
+
+Le grain se justifie par le lecteur : il coche la preuve judiciaire sans prendre la
+propriété intellectuelle, comme il coche Génétique sans prendre toute la Biologie.
+
+Deux conséquences à ne pas perdre de vue :
+
+- **Le nuancier a atteint sa limite.** Sept encres de plus à pleine distance n'existent
+  pas : au seuil habituel de 15, seules quatre places restaient. Les sept retenues tiennent
+  13,5 entre elles et 10,1 avec les autres (`docs/charte-visuelle.md` §2.2). Ce qui rend
+  l'écart tenable est que la discipline est **toujours écrite** à côté de l'aplat.
+- **Deux fiches par discipline ne suffisent pas.** La suite du client boucle une fois
+  épuisée : une discipline offerte mais trop mince ressert les mêmes fiches. C'est
+  pourquoi `src/cible.js` fait désormais passer une discipline **offerte et sous le
+  plancher** devant une discipline encore fermée — zéro fiche est invisible, deux fiches
+  sont visibles et cassées.
+
 ## Revoir les fiches juridiques
 
 `/controler-droit` (`.claude/commands/controler-droit.md`) traite le seul angle mort de la

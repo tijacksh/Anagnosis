@@ -35,13 +35,16 @@ import { loadAll } from './store.js';
 import { SANS_ECOUTE } from './schema.js';
 
 /**
- * Les disciplines soumises à cette revue.
+ * Les disciplines soumises à cette revue : les sept de la famille Droit et justice.
  *
  * Aujourd'hui les mêmes que celles qu'on ne sonorise pas, par coïncidence et non par
  * principe : ce sont deux propriétés distinctes du droit. Elles sont donc déclarées
  * séparément, pour que retirer l'une ne retire pas l'autre par accident.
  */
-export const DISCIPLINES_JURIDIQUES = new Set(['droit']);
+export const DISCIPLINES_JURIDIQUES = new Set([
+  'droit_institutions', 'droit_preuve', 'droit_international', 'droit_pi_ia',
+  'droit_constitutionnel', 'droit_social', 'droit_conformite',
+]);
 
 /**
  * Au-delà de combien de mois une fiche juridique redemande une revue.

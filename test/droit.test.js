@@ -17,7 +17,7 @@ import { aRevoir, motif, MOIS_VALIDITE, DISCIPLINES_JURIDIQUES } from '../src/dr
 const LE_JOUR = new Date('2026-08-16');
 
 function fiche(modifs = {}) {
-  return { id: 'dro-test', statut: 'valide', discipline: 'droit', titre: 'T', ...modifs };
+  return { id: 'dro-test', statut: 'valide', discipline: 'droit_preuve', titre: 'T', ...modifs };
 }
 
 test('une fiche juridique jamais revue est dans la file', () => {
@@ -54,7 +54,10 @@ test('les autres disciplines n’entrent jamais dans cette file', () => {
   for (const d of ['physique', 'histoire', 'sociologie', 'sciences_politiques']) {
     assert.equal(aRevoir(fiche({ discipline: d }), LE_JOUR), false, d);
   }
-  assert.equal(DISCIPLINES_JURIDIQUES.has('droit'), true);
+  assert.equal(DISCIPLINES_JURIDIQUES.size, 7);
+  assert.equal(DISCIPLINES_JURIDIQUES.has('droit_conformite'), true);
+  // « droit » tout court n'existe plus : c'est une famille, pas une discipline.
+  assert.equal(DISCIPLINES_JURIDIQUES.has('droit'), false);
 });
 
 test('une fiche rejetée ne coûte pas une vérification', () => {

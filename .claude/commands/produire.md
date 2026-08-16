@@ -41,6 +41,47 @@ un lot entièrement composé de démolitions donnerait le sentiment que rien ne 
 la discipline, ce qui serait faux et, à terme, aussi trompeur que les mythes qu'on
 corrige.
 
+### Si la discipline visée est du droit
+
+Les sept disciplines de la famille **Droit et justice** — Institutions judiciaires, Preuve
+et erreur judiciaire, Droit international, Propriété intellectuelle et IA, Droit
+constitutionnel, Droit social, Conformité — ont une contrainte que les autres n'ont pas,
+posée en `docs/ligne-editoriale.md` §3.1. Relis-la avant d'écrire.
+
+**Écris le droit comme histoire et comme idée, jamais comme état actuel d'une règle en
+vigueur.** C'est la seule discipline où une fiche peut devenir fausse sans que personne
+n'y touche : le texte décrit est modifié, ou il ne valait depuis toujours que dans un pays
+sans le dire. Le contrôle ordinaire ne le verrait pas, puisque la source, elle, n'a pas
+changé.
+
+Trois règles pratiques :
+
+1. **Le cœur d'une fiche n'est jamais le contenu actuel d'une norme.** Ce n'est pas une
+   question de difficulté, c'est qu'elle porterait une date de péremption qu'aucune
+   routine ne sait lire. Le Statute of Anne de 1710 ne se périme pas ; « la durée du droit
+   d'auteur en France » se périme.
+2. **Toute règle nationale est datée et située dans la fiche même** — « la loi française
+   du 9 avril 1898 », pas « la loi ». Le pays dans la source ne suffit pas, le lecteur ne
+   l'ouvre pas. Un arrêt porte sa cour.
+3. **Le droit comparé est un atout.** Deux pays qui tranchent différemment la même
+   question donnent un déplacement que rien d'autre ne donne, et la divergence est stable.
+
+En retour, le sourçage y est **plus facile** qu'ailleurs : Légifrance, EUR-Lex, HUDOC,
+Gallica, Wikisource, le Recueil des traités des Nations unies et Cornell LII ont tous des
+adresses stables. Vise la source primaire — le texte de loi, l'arrêt, le traité — et non
+son commentaire.
+
+Deux pièges déjà rencontrés sur ces fiches, qui coûtent une correction chacun :
+
+- **Un fac-similé de presse n'a pas de couche de texte.** Il faut le regarder à l'image
+  pour vérifier ce qu'il porte. C'est comme ça qu'un « publié en une » s'est révélé être
+  une page 9.
+- **Les chiffres d'une affaire viennent de la décision, pas de sa synthèse.** Une
+  encyclopédie donnait « environ quatre mille entrées recopiées » là où l'arrêt dit 1 309
+  sur 46 878.
+
+Ces fiches ne sont **pas sonorisées** : n'attends pas d'audio, et ne l'annonce nulle part.
+
 ## 4. Vérifier les sources — c'est le cœur du travail
 
 **Chaque source est vérifiée en ligne avant d'entrer dans une fiche.** Pas « je crois me

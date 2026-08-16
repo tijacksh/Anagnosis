@@ -180,7 +180,7 @@ test('une discipline sans écoute ne rejoint jamais la file', () => {
   // « Pas d'audio pour le droit » ne peut pas tenir seulement à ne jamais lancer la
   // commande : la routine passe deux fois par jour et prendrait ces fiches comme les
   // autres. Le filtre est donc dans `aSonoriser`, en amont de tout le reste.
-  const f = fiche({ id: 'dro-test', discipline: 'droit' });
+  const f = fiche({ id: 'dro-test', discipline: 'droit_conformite' });
   assert.equal(aSonoriser(f, {}), false);
 });
 

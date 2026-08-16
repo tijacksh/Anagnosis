@@ -40,6 +40,23 @@ export const PAR_PASSAGE = 4;
  */
 export const SOCLE = 25;
 
+/**
+ * En dessous de combien de fiches une discipline **déjà offerte** est prioritaire.
+ *
+ * Le classement visait le stock le plus mince, et traitait donc zéro et deux comme deux
+ * degrés du même problème. Ce sont deux problèmes opposés : une discipline à zéro n'est
+ * pas offerte, donc invisible et inoffensive ; une discipline à deux est cochable, et la
+ * suite du client **boucle une fois épuisée**. Un lecteur qui la coche voit revenir les
+ * mêmes fiches, ce qui est bien pire qu'une case absente.
+ *
+ * Douze, parce que l'onboarding impose trois disciplines : à douze chacune, la première
+ * répétition n'arrive pas avant trente-six jours. En dessous, elle se voit.
+ *
+ * Le socle de vingt-cinq reste la cible de fond ; ce plancher-ci ne fait que décider de
+ * l'ordre dans lequel on y va.
+ */
+export const PLANCHER_VISIBLE = 12;
+
 export async function cible() {
   const fiches = await loadAll();
 
@@ -75,7 +92,15 @@ export async function cible() {
       enAttente: enCours[cle] ?? 0,
       poids: (stock[cle] ?? 0) + (enCours[cle] ?? 0) * 0.5,
     }))
-    .sort((a, b) => a.poids - b.poids || a.discipline.localeCompare(b.discipline));
+    .map((d) => ({
+      ...d,
+      // Offerte mais trop mince pour ne pas boucler : elle passe devant les disciplines
+      // encore fermées, qui ne gênent personne tant qu'elles sont vides.
+      urgente: d.publiables > 0 && d.publiables < PLANCHER_VISIBLE,
+    }))
+    .sort((a, b) => (b.urgente ? 1 : 0) - (a.urgente ? 1 : 0)
+      || a.poids - b.poids
+      || a.discipline.localeCompare(b.discipline));
 
   const fileTropPleine = enAttente.length >= FILE_MAX;
   const socleAtteint = classement.every((d) => d.publiables >= SOCLE);

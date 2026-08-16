@@ -168,10 +168,13 @@ test('contrôle la cohérence du quiz', () => {
 });
 
 test('accepte sans réserve toute discipline déclarée', () => {
-  // Il n'y a plus de taxonomie « V1 » restreinte : les trente-trois disciplines sont
+  // Il n'y a plus de taxonomie « V1 » restreinte : les trente-neuf disciplines sont
   // déclarées d'un bloc et toutes exportées. C'est le client qui décide de ce qu'il
   // offre, selon le stock et l'encre disponibles.
-  for (const discipline of ['astronomie', 'archeologie', 'cinema', 'droit']) {
+  //
+  // « droit » figurait ici et n'existe plus : c'est devenu une **famille** de sept
+  // disciplines, et le test le vérifie plus bas.
+  for (const discipline of ['astronomie', 'archeologie', 'cinema', 'droit_conformite']) {
     const { erreurs, alertes } = validerFiche(ficheValide({ discipline }));
     assert.deepEqual(erreurs, [], `${discipline} devrait passer sans erreur`);
     assert.ok(!alertes.some((a) => a.includes('taxonomie')), `${discipline} sans alerte`);
@@ -180,6 +183,14 @@ test('accepte sans réserve toute discipline déclarée', () => {
 
 test('refuse une discipline inconnue', () => {
   const { erreurs } = validerFiche(ficheValide({ discipline: 'cuisine' }));
+  assert.ok(erreurs.some((e) => e.includes('discipline` inconnue')));
+});
+
+test('« droit » seul n’est plus une discipline, c’est une famille', () => {
+  // Le grain a changé en cours de route : un lecteur coche la preuve judiciaire sans
+  // prendre la propriété intellectuelle. Laisser « droit » accepté rouvrirait la porte
+  // à des fiches sans discipline réelle, invisibles dans l'app faute d'encre.
+  const { erreurs } = validerFiche(ficheValide({ discipline: 'droit' }));
   assert.ok(erreurs.some((e) => e.includes('discipline` inconnue')));
 });
 
