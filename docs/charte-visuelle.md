@@ -74,7 +74,7 @@ fermées. Il ne s'est vu qu'en ouvrant le droit.
 | **Société** | | | |
 | Histoire | Brick | `#A75154` | 4,6:1 |
 | Économie | Bright Olive Green | `#B49F29` | 2,3:1 ⚠ |
-| Droit et justice | Slate | `#5E695E` | 5,0:1 |
+| Droit et justice | Medium Blue | `#3255A4` | 6,2:1 |
 | Sciences politiques | Steel | `#375E77` | 6,0:1 |
 | Religions et mythologies | Plum | `#845991` | 4,8:1 |
 | **Arts et lettres** | | | |
@@ -84,16 +84,24 @@ fermées. Il ne s'est vu qu'en ouvrant le droit.
 | Cinéma | Copper | `#BD6439` | 3,6:1 ⚠ |
 | Architecture | Granite | `#A5AAA8` | 2,1:1 ⚠ |
 
-**Droit et justice a changé d'encre en s'ouvrant.** Elle portait Indigo `#484D7A`, qui
-tombait à **6,6 d'écart Lab de Federal Blue** (Philosophie) : la paire la plus proche des
-trente-trois, et deux disciplines qu'un même lecteur coche volontiers ensemble. Midnight
-`#435060` aurait déplacé le problème sur Sciences politiques, à 10,1. Slate est la seule
-encre libre à tenir les deux distances à la fois, 23,5 de sa plus proche voisine sur les
-trente-trois et 23,7 de sa propre famille.
+**Droit et justice a changé d'encre en s'ouvrant, deux fois.** Elle portait Indigo
+`#484D7A`, qui tombait à **6,6 d'écart Lab de Federal Blue** (Philosophie) : la paire la
+plus proche des trente-trois, et deux disciplines qu'un même lecteur coche volontiers
+ensemble. Midnight `#435060` aurait déplacé le problème sur Sciences politiques, à 10,1.
+Slate `#5E695E` tenait les distances mais ne disait rien de la discipline : un gris-vert
+n'évoque pas la justice.
 
-Le critère qui a tranché n'est donc pas la teinte prise isolément, mais **l'écart aux
-disciplines qu'un lecteur cochera en même temps**. C'est la seule lecture de « se
-distinguer » qui corresponde à ce que quelqu'un voit vraiment à l'écran.
+Medium Blue tient les deux exigences. Il est du registre attendu, le bleu institutionnel
+des cours et des ministères, et il tient les trois bleus déjà attribués : **17,2 de
+Federal Blue** (Philosophie), **34,9 de Steel** (Sciences politiques), **19,4 de Blue**
+(Physique). Son contraste de 6,2:1 le place au second rang de toute la charte.
+
+Deux critères ont donc tranché, dans cet ordre. D'abord **l'écart aux disciplines qu'un
+lecteur cochera en même temps**, seule lecture de « se distinguer » qui corresponde à ce
+qu'on voit vraiment à l'écran. Ensuite, **parmi les encres qui passent ce test, celle
+dont le registre correspond à la discipline**. L'ordre compte : une encre juste de
+registre mais indistincte ne sert à rien, alors qu'une encre distincte mais muette reste
+utilisable. Le symbole ne peut être qu'un départage.
 
 **Les hex Riso ne sont normalisés nulle part.** Le même Bright Red vaut `#F15060`
 chez un studio et `#CC231F` chez un autre — ce ne sont pas des arrondis, ce sont

@@ -126,11 +126,12 @@ export const ENCRES = {
   // Société
   histoire: '#A75154',
   economie: '#B49F29',
-  // Slate, et non l'Indigo #484D7A qui figurait dans les clients avant l'ouverture de
-  // la discipline : Indigo tombait à 6,6 d'écart Lab de Federal Blue (Philosophie), la
-  // paire la plus proche des trente-trois, sur deux disciplines qu'un même lecteur
-  // coche volontiers ensemble.
-  droit: '#5E695E',
+  // Medium Blue, et non l'Indigo #484D7A qui figurait dans les clients avant
+  // l'ouverture de la discipline : Indigo tombait à 6,6 d'écart Lab de Federal Blue
+  // (Philosophie), la paire la plus proche des trente-trois, sur deux disciplines qu'un
+  // même lecteur coche volontiers ensemble. Medium Blue tient 17,2 de Philosophie,
+  // 34,9 de Sciences politiques et 19,4 de Physique — les trois bleus déjà pris.
+  droit: '#3255A4',
   sciences_politiques: '#375E77',
   religions: '#845991',
 
