@@ -81,16 +81,32 @@
     ],
     "bonne_reponse": 3,
     "explication": "Aucune photo ni changement de couleur n'a permis d'identifier la molécule : c'est la géométrie qui a tranché. La seule cage fermée faite de faces à cinq et six côtés, sans deux pentagones jamais adjacents, referme exactement soixante sommets, ce qui correspond au pic observé et explique une stabilité inhabituelle.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T22:18:06.392Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T22:18:06.392Z",
+        "note": "Sources rouvertes indépendamment (Nature via DOI, redirections confirmées vers les articles exacts ; Rice University ; recherches croisées pour le Nobel, accès direct bloqué en 403) : pic de masse 720/60 atomes et pages 162-163 de Nature 318 (1985) confirmés, expérience de septembre 1985 et publication de novembre 1985 distinguées et confirmées séparément, méthode Krätschmer-Huffman (Nature 347, 1990, p. 354-358, décharge électrique entre électrodes de graphite dans l'hélium) confirmée, Nobel de chimie 1996 à Curl, Kroto et Smalley confirmé (nobelprize.org, via recherche). Repère, carte et quiz fidèles. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "c6e18a8acc0293b2",
+    "notes": [
+      "Sources rouvertes (Nature 1985 et 1990 via DOI, Rice University, Nobel Foundation) : pic de masse 720/60 atomes, noms des chercheurs, date de septembre/novembre 1985, méthode Krätschmer-Huffman 1990, Nobel 1996 (Curl, Kroto, Smalley) confirmés. Repère, carte et quiz fidèles."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-16",
     "genere_par": "claude-code",

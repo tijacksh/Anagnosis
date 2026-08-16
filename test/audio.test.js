@@ -203,3 +203,31 @@ test('les encres du schéma couvrent les trente-trois disciplines', async () => 
   const sansEncre = Object.keys(DISCIPLINES).filter((d) => !ENCRES[d]);
   assert.deepEqual(sansEncre, []);
 });
+
+test('les repères publiés s’alignent exactement sur les blocs du corps', async () => {
+  // Le contrat de la transcription suivie tient tout entier ici : le client lit
+  // `reperes[i]` pour son bloc `i`, sans rien apparier. Si les deux découpages
+  // divergeaient sur une seule fiche, le texte suivrait la voix avec un décalage
+  // silencieux — visible seulement à l'écoute, et sur cette fiche-là uniquement.
+  const { fichesPubliables } = await import('../src/publier.js');
+  const fautives = [];
+  for (const f of await fichesPubliables()) {
+    for (const nom of ['helene', 'jerome']) {
+      const r = f.audio?.[nom]?.reperes;
+      if (!r) continue;
+      const blocs = (f.contenu_vulgarise ?? '').split('\n')
+        .reduce((acc, ligne) => {
+          if (!ligne.trim()) { acc.ouvert = false; return acc; }
+          if (!acc.ouvert) acc.n += 1;
+          acc.ouvert = true;
+          return acc;
+        }, { n: 0, ouvert: false }).n;
+      if (r.length !== blocs) fautives.push(`${f.id}/${nom} : ${r.length} repères pour ${blocs} blocs`);
+      // Un repère qui recule ferait sauter la surbrillance en arrière au milieu d'une phrase.
+      for (let i = 1; i < r.length; i++) {
+        if (r[i] < r[i - 1]) fautives.push(`${f.id}/${nom} : repère ${i} recule`);
+      }
+    }
+  }
+  assert.deepEqual(fautives, []);
+});

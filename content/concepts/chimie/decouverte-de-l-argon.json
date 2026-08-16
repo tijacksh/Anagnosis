@@ -72,16 +72,32 @@
     ],
     "bonne_reponse": 0,
     "explication": "L'inertie chimique de l'argon est précisément ce qui l'a rendu indétectable : sans réaction, la chimie du XVIIIe siècle n'avait aucune prise sur lui. Cavendish a bien publié sa mesure, et le résidu représentait déjà près d'un centième de l'air, une quantité que sa balance pouvait tout à fait peser.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T22:18:05.094Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-16T22:18:05.094Z",
+        "note": "Sources rouvertes indépendamment (Royal Society Publishing via DOI, redirection confirmée vers l'article exact ; Le Moyne College ; Chemistry World) et recherches croisées (archive.org, PMC, Britannica) pour la chronologie. Écart de densité 0,5%, date du 31 janvier 1895 (reçu et lu ce jour à la Royal Society), observation de Cavendish 1785 publiée dans Phil. Trans. 74:372, argon à 0,93% de l'atmosphère, alerte de Miers à Ramsay et confirmation spectroscopique de l'hélium par Crookes en février 1895 (conforme à Chemistry World, source citée) tous confirmés. Repère, carte et quiz fidèles aux sources. Aucune correction nécessaire."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "ok",
+    "empreinte": "4191b2358ec5c214",
+    "notes": [
+      "Sources rouvertes (Phil. Trans. R. Soc. A 1895 via DOI, Le Moyne College, Chemistry World) : écart de densité 0,5%, date du 31 janvier 1895, observation de Cavendish (1785, bien publiée), argon à 0,93% de l'atmosphère, découverte de l'hélium en février 1895 confirmées. Repère, carte et quiz fidèles."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-16",
     "genere_par": "claude-code",

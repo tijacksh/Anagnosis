@@ -48,9 +48,52 @@ function audioPour(fiche, index) {
   const voix = {};
   for (const nom of ['helene', 'jerome']) {
     const v = entree.voix?.[nom];
-    if (v?.r2) voix[nom] = { url: `${AUDIO_BASE}/${v.fichier}`, sha256: v.sha256, secondes: v.secondes };
+    if (!v?.r2) continue;
+    voix[nom] = { url: `${AUDIO_BASE}/${v.fichier}`, sha256: v.sha256, secondes: v.secondes };
+    const r = reperes(fiche, v.chapitres);
+    if (r) voix[nom].reperes = r;
   }
   return Object.keys(voix).length ? voix : undefined;
+}
+
+/**
+ * À quelle seconde commence **chaque bloc du corps tel que le client l'affiche**.
+ *
+ * ## Pourquoi ce calcul est ici et pas dans le client
+ *
+ * Les deux découpages ne coïncident pas, et c'est structurel. `aLire()` fait un chapitre
+ * par **ligne** non vide ; le client, lui, réunit les lignes consécutives en un seul bloc
+ * et ne coupe que sur une ligne vide (`MarkdownLeger.blocs`). Un paragraphe écrit sur
+ * trois lignes donne donc trois chapitres et un seul bloc.
+ *
+ * Faire deviner la correspondance au client demanderait d'y comparer des préfixes de
+ * texte, sur des chaînes que la mise en forme a déjà transformées des deux côtés — un
+ * appariement approximatif, qui échouerait en silence sur une fiche et pas sur les autres.
+ * Le pipeline, lui, possède les deux textes : il rend un tableau aligné sur les blocs, et
+ * le client n'a plus qu'à lire `reperes[i]` pour son bloc `i`.
+ *
+ * Le premier chapitre est le titre et le dernier l'appui : ni l'un ni l'autre n'est un
+ * bloc du corps, d'où le décalage d'un cran au départ.
+ */
+function reperes(fiche, chapitres) {
+  if (!Array.isArray(chapitres) || !chapitres.length) return undefined;
+  const lignes = (fiche.contenu_vulgarise ?? '').split('\n');
+
+  // Les débuts de bloc, repérés dans la suite des lignes : un bloc commence à la première
+  // ligne non vide qui suit une ligne vide, ou au tout début.
+  const debutsDeBloc = [];
+  let dansUnBloc = false;
+  let rangLigne = 0;
+  for (const ligne of lignes) {
+    if (!ligne.trim()) { dansUnBloc = false; continue; }
+    if (!dansUnBloc) debutsDeBloc.push(rangLigne);
+    dansUnBloc = true;
+    rangLigne += 1;
+  }
+
+  // `chapitres[0]` est le titre : les lignes du corps commencent donc au rang 1.
+  const sortie = debutsDeBloc.map((rang) => chapitres[rang + 1]?.debut);
+  return sortie.every((t) => typeof t === 'number') ? sortie : undefined;
 }
 
 /**
@@ -96,8 +139,24 @@ export function retirees(fiches) {
 }
 
 /** Les octets exacts qui seront servis, et signés. */
-export function serialiser(fiches, retires = []) {
-  return Buffer.from(`${JSON.stringify({ concepts: fiches, retirees: retires }, null, 2)}\n`, 'utf8');
+export function serialiser(fiches, retires = [], genereLe = new Date()) {
+  const enveloppe = {
+    // **Le jour où ce fichier a été fabriqué**, et la raison pour laquelle il existe.
+    //
+    // Le client fusionne le reçu par-dessus l'embarqué, et à identifiant égal c'est le
+    // reçu qui l'emporte — ce qui est juste tant que le reçu est plus récent. Quand la
+    // construction du site s'arrête, il cesse de l'être : une fiche embarquée avec un
+    // corpus de septembre se fait alors écraser par sa version de juillet, et perd les
+    // champs ajoutés depuis. C'est arrivé, et ça a coûté une fonction entière — les
+    // repères de la transcription disparaissaient chez tout lecteur connecté.
+    //
+    // Avec cette date, le client sait refuser un fichier plus vieux que ce qu'il porte
+    // déjà. Un tel fichier ne peut rien ajouter : il vient du même corpus, en retard.
+    genere_le: genereLe.toISOString().slice(0, 10),
+    concepts: fiches,
+    retirees: retires,
+  };
+  return Buffer.from(`${JSON.stringify(enveloppe, null, 2)}\n`, 'utf8');
 }
 
 /**

@@ -11,9 +11,9 @@
   "contenu_vulgarise": "Frottez une casserole grasse sous l'eau seule : la graisse glisse, se reforme en gouttelettes, refuse de partir. Ajoutez une goutte de savon, et la même graisse se détache d'un coup, entraînée par l'eau du rinçage. L'explication la plus répandue, « le savon dissout la graisse », est fausse.\n\n## Ce qu'une molécule de savon fait vraiment\n\nUne molécule de savon a une double nature. Une extrémité, la tête, se mêle très bien à l'eau. L'autre, une longue chaîne carbonée, la fuit et se mêle au contraire très bien aux graisses. Plongées dans l'eau en nombre suffisant, ces molécules s'assemblent spontanément en petites sphères, la tête tournée vers l'eau, la chaîne à l'abri au centre : des micelles. Une goutte de graisse rencontrée en chemin se retrouve engloutie au cœur d'une de ces sphères, prisonnière mais intacte, et repart avec elle au rinçage.\n\nRien n'est dissous. La graisse reste de la graisse jusqu'au bout, seulement encapsulée puis emportée physiquement. C'est une émulsion, pas une dissolution, et la nuance compte : elle dit ce que le savon fait, déloger, entourer, transporter, et ce qu'il ne fait pas, décomposer chimiquement la saleté qu'il enlève.\n\n## Deux questions, quatre-vingt-dix ans d'écart\n\nSavoir ce qu'est le savon, chimiquement, et savoir comment il agit sont deux questions distinctes, résolues à quatre-vingt-dix ans d'intervalle. La première trouve sa réponse en 1823, quand le chimiste français Michel-Eugène Chevreul publie ses *Recherches chimiques sur les corps gras d'origine animale*. Il y montre qu'un corps gras est un assemblage de glycérol et d'acides gras, et que la cendre alcaline utilisée pour fabriquer le savon détache les deux : le glycérol d'un côté, les acides gras changés en sels de l'autre, le savon lui-même. Par cristallisations répétées, Chevreul isole des acides gras purs à 98 %, et fixe pour la première fois le point de fusion comme critère d'identification d'un corps organique.\n\nReste alors une question dont Chevreul ne dispose pas des outils pour répondre : pourquoi ce sel se comporte-t-il si différemment d'un sel ordinaire comme le sel de table, une fois dans l'eau ? La réponse arrive en 1913. Le chimiste James William McBain, qui étudie depuis 1906 à l'université de Bristol la conductivité électrique des solutions de savon, propose que les molécules s'y assemblent en agrégats chargés. Dans une communication à la Faraday Society le 12 mars 1913, il emploie pour la première fois, pour désigner ces agrégats, le mot micelle.\n\nEntre la formule chimique du savon et la description de son mécanisme d'action, il aura donc fallu attendre près d'un siècle, alors que la pratique elle-même, faire bouillir un corps gras avec une cendre, précédait de loin l'une comme l'autre.",
   "citation": null,
   "repere": {
-    "texte": "Par cristallisations répétées de mélanges de graisses, Chevreul isole en 1823 des acides gras purs à 98 %, et fixe le point de fusion comme critère d'identification d'un corps organique, une méthode encore utilisée aujourd'hui.",
-    "source": "Société française pour l'étude des lipides, « Michel Eugène Chevreul »",
-    "url": "https://www.sfel.asso.fr/en/sfel/history/michel-eugene-chevreul/"
+    "texte": "Pour identifier les acides gras qu'il isole par cristallisations répétées, Chevreul introduit le point de fusion comme critère de pureté d'un corps organique, une méthode encore utilisée aujourd'hui.",
+    "source": "Cyberlipid, « Chevreul Work »",
+    "url": "http://cyberlipid.gerli.com/description/simple-lipids/chevreul/work/"
   },
   "carte": {
     "punch": "Le savon ne dissout rien : il emballe la graisse et l'emporte avec l'eau.",
@@ -37,7 +37,7 @@
       "publication": "sfel.asso.fr",
       "annee": null,
       "url": "https://www.sfel.asso.fr/en/sfel/history/michel-eugene-chevreul/",
-      "note": "Biographie scientifique confirmant les dates (1811-1823), la pureté de 98 % obtenue pour certains acides gras, et l'introduction du point de fusion comme critère de pureté."
+      "note": "Biographie scientifique confirmant les dates (1811-1823) et la pureté de 98 % obtenue pour certains acides gras par cristallisations, fusion et distillation fractionnées."
     },
     {
       "type": "article",
@@ -56,6 +56,15 @@
       "annee": null,
       "url": "https://www.soci.org/about-us/history/notable-scientists-and-inventors/james-william-mcbain",
       "note": "Biographie confirmant l'installation de McBain à l'université de Bristol en 1906 et ses travaux sur le comportement des solutions savonneuses."
+    },
+    {
+      "type": "web",
+      "auteur": "Cyberlipid (GERLI)",
+      "titre": "Chevreul Work",
+      "publication": "cyberlipid.gerli.com",
+      "annee": null,
+      "url": "http://cyberlipid.gerli.com/description/simple-lipids/chevreul/work/",
+      "note": "Confirme que Chevreul a introduit le point de fusion comme méthode de caractérisation des acides gras et comme critère de contrôle de leur pureté après purification par recristallisation."
     }
   ],
   "pour_aller_plus_loin": [
@@ -81,16 +90,32 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le savon n'altère pas chimiquement la graisse : ses molécules amphiphiles s'assemblent en micelles qui l'enveloppent intacte, formant une émulsion transportée par l'eau. Aucune dissolution, aucune fonte par la chaleur, aucune neutralisation acide-base n'entre en jeu.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-16T19:19:49.486Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-16T19:19:49.486Z",
+        "note": "Rouvert les 4 sources (Gallica, SFEL, RSC/Faraday Society, SOCI) et vérifié l'ensemble du texte. Le repère attribuait à tort à la SFEL le fait que Chevreul ait fixé le point de fusion comme critère d'identification : la page SFEL ne décrit la fusion que comme méthode de séparation. Resourcé sur Cyberlipid (GERLI), « Chevreul Work », qui l'établit explicitement (« was the first to control their purity by measuring their melting point, which he also introduced as a way to characterise lipids »), ajoutée aux sources. Confirmés par ailleurs : titre exact et auteur de l'ouvrage de 1823 sur Gallica, pureté 98% et dates 1811/1823 (SFEL), installation de McBain à Bristol en 1906 et son travail sur les solutions savonneuses (SOCI), date du 12 mars 1913 et page 99 pour la première occurrence de « micelle » (recoupé via l'article de centenaire de Brian Vincent, la page RSC primaire étant bloquée). Carte et quiz vérifiés, distracteurs faux."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-08-16",
+    "verdict": "a_revoir",
+    "empreinte": "0d343e801ac8bda5",
+    "notes": [
+      "Le repère attribue à la source SFEL (sfel.asso.fr) le fait que Chevreul aurait « fixé le point de fusion comme critère d'identification d'un corps organique » : la page SFEL rouverte décrit la fusion comme une simple méthode de séparation, pas comme un critère d'identification revendiqué. Le fait semble réel (documenté ailleurs, ex. revue OCL) mais pas par la source actuellement citée à son appui — à resourcer ou reformuler. Le reste (dates 1823/1913, pureté 98%, installation de McBain à Bristol en 1906) est vérifié et exact."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-16",
     "genere_par": "claude-code",
