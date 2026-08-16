@@ -171,12 +171,23 @@ jour, à douze heures d'intervalle, et trois heures après la précédente :
 | relire | 00:08 et 12:08 |
 | produire | 03:08 et 15:08 |
 
-**`contrôler-droit` est en dehors de ce tour** (le 3 de chaque mois, à 08:08). Elle ne
-suit rien et n'alimente rien : les quatre autres se passent le relais parce que chacune
+**`contrôler-droit` est en dehors de ce tour** (chaque mercredi, à 08:08). Elle ne suit
+rien et n'alimente rien : les quatre autres se passent le relais parce que chacune
 travaille sur ce que la précédente vient de produire, alors que celle-ci attend qu'un
-texte de loi change au dehors. La rattacher au cycle lui donnerait une cadence qui ne
-correspond à rien, et douze passages par an suffisent : à huit fiches par passage, le
-dispositif tient jusqu'à quarante-huit fiches juridiques, contre quatorze aujourd'hui.
+texte de loi change au dehors.
+
+Deux réglages la gouvernent, et **ce n'est pas celui qu'on croit qui compte** :
+
+- `MOIS_VALIDITE` (trois mois) décide combien de temps une fiche devenue fausse continue
+  d'être servie. Une loi qui change au lendemain d'une revue ment jusqu'à la suivante.
+- La cadence hebdomadaire ne joue que sur la queue, le délai entre le moment où une fiche
+  devient exigible et celui où elle est reprise. Elle ne raccourcit pas l'exposition, elle
+  empêche seulement qu'elle s'allonge.
+
+C'est la cadence qui rend la validité courte tenable : cinquante-deux passages par an à
+huit fiches donnent 416 revues, quand quatorze fiches revues quatre fois par an en
+demandent cinquante-six. La marge sert à raccourcir encore `MOIS_VALIDITE` sans toucher à
+rien d'autre.
 
 Lu dans le sens d'une fiche neuve, c'est une chaîne : **produite** à 15:08, elle est
 **contrôlée** à 18:08, **réparée** à 21:08 si le contrôle l'a sortie, et **relue** à 00:08 si

@@ -30,7 +30,7 @@ test('une fiche revue hier n’y est pas', () => {
   assert.equal(aRevoir(f, LE_JOUR), false);
 });
 
-test('une fiche revue il y a plus de six mois y revient seule', () => {
+test('une fiche revue il y a plus de trois mois y revient seule', () => {
   // Le cœur du fichier. Rien n'a bougé dans la fiche, et c'est précisément pour ça
   // qu'aucune autre file ne la reprendrait.
   const f = fiche({ controle_juridique: { fait_le: '2026-01-01', verdict: 'ok', notes: [] } });
@@ -38,16 +38,19 @@ test('une fiche revue il y a plus de six mois y revient seule', () => {
   assert.match(motif(f), /2026-01-01/);
 });
 
-test('la bascule tombe bien à six mois', () => {
-  const juste = fiche({ controle_juridique: { fait_le: '2026-02-17', verdict: 'ok', notes: [] } });
-  const trop = fiche({ controle_juridique: { fait_le: '2026-02-15', verdict: 'ok', notes: [] } });
-  assert.equal(MOIS_VALIDITE, 6);
+test('la bascule tombe bien à trois mois', () => {
+  // C'est ce nombre, et non la cadence de la routine, qui décide combien de temps une
+  // fiche devenue fausse continue d'être servie : une loi qui change au lendemain d'une
+  // revue ment jusqu'à la suivante. Le verrouiller par un test le rend délibéré.
+  const juste = fiche({ controle_juridique: { fait_le: '2026-05-17', verdict: 'ok', notes: [] } });
+  const trop = fiche({ controle_juridique: { fait_le: '2026-05-15', verdict: 'ok', notes: [] } });
+  assert.equal(MOIS_VALIDITE, 3);
   assert.equal(aRevoir(juste, LE_JOUR), false);
   assert.equal(aRevoir(trop, LE_JOUR), true);
 });
 
 test('les autres disciplines n’entrent jamais dans cette file', () => {
-  // Sans ce filtre, la routine juridique rouvrirait tout le corpus tous les six mois.
+  // Sans ce filtre, la routine juridique rouvrirait tout le corpus tous les trois mois.
   for (const d of ['physique', 'histoire', 'sociologie', 'sciences_politiques']) {
     assert.equal(aRevoir(fiche({ discipline: d }), LE_JOUR), false, d);
   }

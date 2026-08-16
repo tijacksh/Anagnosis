@@ -46,26 +46,39 @@ export const DISCIPLINES_JURIDIQUES = new Set(['droit']);
 /**
  * Au-delà de combien de mois une fiche juridique redemande une revue.
  *
- * Six, et non trois ou douze. Trois ferait repasser quatorze fiches quatre fois par an
- * pour un risque qui, sur des fiches historiques, ne se matérialise presque jamais — une
- * routine qui ne trouve jamais rien finit par ne plus être lue. Douze laisserait une
- * fiche fausse servie pendant un an, ce qui est exactement la durée qu'on cherche à
- * éviter.
+ * **C'est ce nombre, et non la cadence de la routine, qui décide combien de temps une
+ * fiche devenue fausse continue d'être servie.** La distinction est contre-intuitive et
+ * mérite d'être posée une fois pour toutes.
+ *
+ * Une loi change du jour au lendemain. Si elle change le lendemain d'une revue, la fiche
+ * ment jusqu'à la revue suivante, c'est-à-dire pendant toute la durée de validité. Faire
+ * passer la routine plus souvent ne raccourcit que la queue : le délai entre le moment où
+ * une fiche devient exigible et celui où elle est effectivement reprise. Passer d'un
+ * passage par mois à un par semaine gagne trois semaines sur une exposition qui se compte
+ * en mois.
+ *
+ * Trois mois, donc, et non six. Ce que la cadence hebdomadaire rend possible : à raison de
+ * quatre revues par fiche et par an sur quatorze fiches, cela fait cinquante-six revues
+ * annuelles, loin sous la capacité (voir `PAR_PASSAGE`). L'exposition maximale passe de
+ * six mois à trois.
+ *
+ * Descendre plus bas se paierait ailleurs : chaque revue rouvre des sources, et une
+ * routine qui repasse sur les mêmes fiches historiques toutes les six semaines finit par
+ * être expédiée. Le Statute of Anne de 1710 n'a pas changé depuis la dernière fois.
  */
-export const MOIS_VALIDITE = 6;
+export const MOIS_VALIDITE = 3;
 
 /**
  * Fiches revues par passage.
  *
- * Huit, comme les autres routines. L'arithmétique tient, et vaut d'être écrite parce
- * qu'elle décide de la cadence : la routine passe une fois par mois, donc douze passages
- * par an, donc une capacité de 96 revues annuelles. Avec une validité de six mois, chaque
- * fiche en demande deux par an — le dispositif tient donc jusqu'à **48 fiches
- * juridiques**, contre quatorze aujourd'hui.
+ * Huit, comme les autres routines. L'arithmétique vaut d'être écrite parce qu'elle dit
+ * jusqu'où le dispositif tient : la routine passe une fois par semaine, donc cinquante-deux
+ * passages par an, donc une capacité de 416 revues annuelles. Avec une validité de trois
+ * mois, chaque fiche en demande quatre par an — le dispositif tient donc jusqu'à **cent
+ * quatre fiches juridiques**, contre quatorze aujourd'hui.
  *
- * Au-delà, ce n'est pas ce plafond qu'il faudra lever mais la cadence : deux passages par
- * mois plutôt qu'un. Un lot plus gros ferait une session interminable, alors qu'un
- * passage de plus ne coûte rien les mois où la file est vide.
+ * La marge est large à dessein. C'est elle qui permet de raccourcir la validité sans
+ * toucher à rien d'autre, si l'exposition de trois mois se révélait encore trop longue.
  */
 export const PAR_PASSAGE = 8;
 

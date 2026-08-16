@@ -42,7 +42,7 @@ npm run adroit
 Si la sortie dit RIEN À FAIRE, arrête-toi là et rends compte en une ligne.
 
 La file ne regarde ni le statut ni l'empreinte : elle regarde **l'âge de la dernière
-revue**, six mois de validité. Une fiche que personne n'a touchée depuis deux ans y
+revue**, trois mois de validité. Une fiche que personne n'a touchée depuis deux ans y
 remonte, et c'est tout l'intérêt.
 
 ## 2. Lire avant de juger
@@ -125,7 +125,7 @@ touche au sens se signale.
 
 La trace n'enregistre **pas d'empreinte**, contrairement à `controle`. C'est voulu : ce
 n'est pas le texte qu'on horodate, c'est la vérification. Une fiche que personne ne touche
-doit repasser dans six mois quand même — c'est exactement le cas que cette routine existe
+doit repasser dans trois mois quand même — c'est exactement le cas que cette routine existe
 pour attraper.
 
 ## 6. Contrôler l'ensemble
