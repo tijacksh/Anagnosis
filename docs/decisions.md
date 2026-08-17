@@ -644,3 +644,51 @@ où » se traîne des années.
 particuliers, feraient de l'extension un second endroit où la règle vit, et le second
 endroit est toujours celui qu'on oublie de corriger. Côté Android le widget lit les mêmes
 fichiers que l'app et n'a pas ce problème : il tient les trois branches lui-même.
+
+---
+
+## 2026-08-18 — Le widget montre la figure de la fiche, et suit la nuit
+
+**Décidé :** le widget affiche, en plus du titre, **la figure de la fiche** et la **série en
+cours**, et il suit l'apparence du téléphone.
+
+**La figure est rendue par l'app, jamais redessinée par le widget.** Des deux côtés, pour
+deux raisons différentes : sur iOS, faire compiler `ChampEncre` dans l'extension obligerait à
+partager quatre fichiers entre deux cibles ou à les recopier ; sur Android, `RemoteViews` ne
+sait pas dessiner du tout, il ne sait que montrer une image. Le pont faisait déjà l'inverse
+depuis le début — l'app dépose le résultat, le widget le peint — et une figure rendue *est*
+un résultat. Elle a surtout une qualité que la copie n'aurait jamais : c'est le rendu de la
+fiche elle-même, pas quelque chose qui lui ressemble. Le jour où le vocabulaire graphique
+changera, le widget suivra sans qu'on y touche.
+
+**La série est un compte, jamais une jauge.** Pas de dénominateur, donc pas d'objectif, donc
+pas d'échec possible : le produit ne demande rien de plus qu'un concept par jour.
+
+### Trois défauts que seul le fait de regarder a montrés
+
+- **Le widget Android n'avait jamais pu s'afficher.** `RemoteViews` n'inflate qu'une liste
+  fermée de classes, et `android.view.View` — utilisé pour la pastille d'encre depuis
+  l'origine — n'en fait pas partie. L'écran d'accueil affichait « Can't load widget », et
+  rien n'apparaissait côté app : ni erreur de compilation, ni test rouge, ni journal. Il
+  fallait poser le widget pour le voir. C'est un `ImageView` désormais.
+- **Le dépôt n'était réécrit qu'à l'enregistrement de l'état.** Un lecteur qui met l'app à
+  jour et se contente de la lire gardait celui de la version d'avant ; quand la forme du
+  dépôt a changé, l'extension ne savait plus le décoder et affichait « Ouvrez l'app une fois
+  pour commencer » devant quelqu'un qui venait justement de l'ouvrir. Le dépôt est
+  réapprovisionné à **chaque lancement**.
+- **Une image posée par le fournisseur ne suit pas la nuit.** Les couleurs du widget Android
+  se résolvent à l'inflation et basculent seules ; un bitmap est figé au moment où le
+  fournisseur tourne, et `ACTION_CONFIGURATION_CHANGED` n'est pas délivré aux récepteurs du
+  manifeste. Le widget passait en sombre avec un rectangle crème au milieu. On dépose donc
+  **les deux** figures, et `values-night/` choisit laquelle est visible — `android:visibility`
+  accepte une référence d'entier. La pastille d'encre suit le même chemin. iOS n'a pas ce
+  problème : l'extension lit le fichier au moment où elle se peint, et connaît son mode.
+
+### Et le titre de la barre, quand le système refuse le mouvement
+
+Le défilement ne partait pas sur l'appareil et partait sur le simulateur : la différence
+était **Réduire les animations**. Le réglage a raison — un texte en mouvement permanent est
+exactement ce contre quoi il protège — mais ne pas bouger ne veut pas dire être coupé, et
+rendre un titre tronqué au lecteur qui a le moins de moyens d'y remédier serait absurde.
+Immobile, le texte se replie sur deux lignes et se réduit jusqu'à tenir : le plus long titre
+du corpus, 77 caractères, passe entier.
