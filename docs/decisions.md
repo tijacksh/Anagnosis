@@ -514,3 +514,51 @@ discipline ait servi la moitié de son stock à une fiche près.
 **La couture compte aussi.** La suite se répète une fois épuisée, donc la dernière fiche
 est voisine de la première. Sans traitement, la boucle recollait deux fois la même
 discipline une fois par tour de corpus.
+
+---
+
+## 2026-08-17 — Les huit fonctions Premium, et ce qui les tient ensemble
+
+L'abonnement ne vendait au départ que l'écoute et la relecture du passé. C'était mince, et
+surtout ça ne vendait rien qui soit propre au produit : l'audio se trouve partout, et la
+rétroactivité est une levée de restriction, pas une addition.
+
+Les huit retenues, dans l'ordre où elles ont été construites :
+
+| | Où vit la règle | Ce qu'elle refuse de faire |
+|---|---|---|
+| Écoute | `Ecoute` | Aucune synthèse de secours : une voix produite, ou rien |
+| Rétroactivité | `Regles` | La fenêtre gratuite glisse, elle ne s'accumule pas |
+| Recherche | `Recherche` | Tous les mots doivent correspondre, pas un seul |
+| Rappel espacé | `Rappel` | Un seul champ d'état, pas un journal de résultats |
+| Planches | `Planche` | Ni pourcentage ni achèvement de discipline |
+| Récap mensuel | `Recap` | Ni taux, ni comparaison au mois précédent |
+| Export PDF | `DocumentFiche` | Ni image, ni filigrane anti-copie |
+| Ce jour-là | `CeJourLa` | Jamais une fiche non lue, jamais le mois en cours |
+
+**Ce qu'elles ont en commun est plus instructif que ce qui les distingue.** Chacune vit
+dans le corpus partagé, en double exemplaire iOS et Android, avec ses tests en miroir.
+Aucune ne connaît l'interface, et c'est ce qui a permis de les vérifier avant de savoir à
+quoi elles ressembleraient.
+
+**Et toutes refusent le tableau de bord.** Pas de pourcentage, pas de barre de progression,
+pas de badge, pas de série à ne pas rompre au-delà de celle qui existait déjà. La raison
+n'est pas de ton : un pourcentage suppose un dénominateur, donc un objectif, donc un échec
+possible. Le produit sert **un** concept par jour et ne demande rien de plus — afficher
+« 12 sur 31 » transformerait une lecture régulière en dette de dix-neuf jours.
+
+**Deux défauts ne se sont vus qu'à l'écran, jamais à la lecture du code.** Le récap
+nommait les quinze disciplines d'un mois varié sur six lignes illisibles — la légende
+devenait du bruit exactement quand le mois était le plus intéressant. Et le PDF laissait
+une URL se replier en fin de ligne, si bien que la copie rendait « benedict- ruth-1887-1948 » :
+une adresse qu'on ne peut pas coller ne prouve rien, alors que c'est tout ce que l'export
+existe pour garantir.
+
+**Le widget iOS manque, et pour une raison qui n'est pas technique.** Une extension
+WidgetKit tourne dans son propre conteneur et ne lit l'état du lecteur qu'à travers un
+groupe d'app. L'App Store Connect API n'expose aucun endpoint pour en créer un —
+`/v1/appGroups` répond 404 — donc l'étape passe par le portail, à la main. Le trousseau
+offrirait un contournement, le profil portant déjà `keychain-access-groups = TVF6U47685.*`,
+mais détourner un magasin à secrets en canal de transport pour trente kilo-octets de
+journal laisserait une bizarrerie durable pour économiser deux minutes. La règle de
+sélection, elle, est écrite et tenue par sept tests de chaque côté.

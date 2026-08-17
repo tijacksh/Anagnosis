@@ -64,14 +64,23 @@
     ],
     "bonne_reponse": 3,
     "explication": "L'enquête, ouverte pour des raisons de transparence comptable après le Watergate, a mis au jour des paiements à des fonctionnaires étrangers, et non une simple irrégularité financière interne à l'entreprise.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-16T22:20:14.918Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-16T22:20:14.918Z",
+        "note": "Second passage : sources rouvertes (American Presidency Project, Wikipédia ; Stanford/Koehler illisible en extraction directe, confirmé par recherche croisée). Tout est confirmé sauf la citation : la source dit mot pour mot 'I share Congress belief that bribery is ethically repugnant and competitively unnecessary', alors que la fiche traduisait par 'moralement répugnante'. J'ai déjà corrigé citation.texte en 'éthiquement répugnante' pour coller au mot 'ethically' — mais je ne peux pas valider dans la foulée : avoir touché au texte invalide l'empreinte de contrôle (garde-fou du CLI). Reste à confirmer : que la nouvelle formulation convient, puis revalider. Aucun autre écart trouvé (Tanaka arrêté le 27 juillet 1976, ~3M$ à son bureau, 22M$ au total, sous-commission Church avec Gulf Oil/Northrop/Mobil Oil puis Lockheed en 1975, citation d'ouverture de Church confirmée, rapport SEC mai 1976 >400 entreprises)."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-16",

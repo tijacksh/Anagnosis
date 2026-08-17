@@ -291,11 +291,28 @@ La production continue se fait **par lots d'une discipline entière**
 - À l'intérieur d'un pack, varier les registres et les niveaux. Huit fiches
   construites sur le même schéma se lisent comme une seule.
 
+## Les fonctions Premium
+
+Huit, construites entre le 4 et le 17 août 2026, détaillées dans `docs/decisions.md`.
+Deux points à ne pas perdre de vue en y touchant :
+
+- **La règle vit dans le corpus partagé, jamais dans l'écran.** `Recherche`, `Rappel`,
+  `Planche`, `Recap`, `DocumentFiche`, `CeJourLa` existent en double, iOS et `core`, avec
+  leurs tests en miroir. C'est ce qui permet de les vérifier avant de savoir à quoi elles
+  ressembleront, et ce qui garantit qu'un lecteur qui change de téléphone retrouve la même
+  chose.
+- **Aucune n'est un tableau de bord.** Pas de pourcentage, pas de barre de progression, pas
+  de badge. Un pourcentage suppose un dénominateur, donc un objectif, donc un échec
+  possible — et le produit ne demande rien de plus qu'un concept par jour.
+
 ## Ce qui reste ouvert
 
 - Direction artistique des illustrations — les `illustration.prompt` actuels sont
   des points de départ, à reprendre au Lot 5 avec Claude Design. Exigence non
   négociable : le rendu ne doit jamais être identifiable comme généré par IA
 - Prix des paliers premium (brief §14)
+- **Le widget iOS**, en attente d'un groupe d'app : l'API App Store Connect n'en crée pas
+  (`/v1/appGroups` répond 404), l'étape passe par le portail à la main. La règle de
+  sélection est écrite et testée des deux côtés ; il ne reste que la vue et la cible.
 - Lancer les 9 disciplines d'emblée, ou un sous-ensemble (brief §14, amendé par
   l'ajout de Médecine / Santé)
