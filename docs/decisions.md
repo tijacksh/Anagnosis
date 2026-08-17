@@ -583,3 +583,64 @@ widget le peint. Décoder un corpus de 2,4 Mo à chaque rafraîchissement, dans 
 dépôt est recopié de part et d'autre plutôt que partagé, et un test décode un dépôt réel
 avec la définition de l'extension : le prix de la copie se paie au test, pas chez le
 lecteur devant un widget vide.
+
+---
+
+## 2026-08-17 — Le titre défile, et le widget a trois modes
+
+**Décidé :** dans la barre de lecture, un titre trop long **défile** au lieu d'être
+tronqué, avec un dégradé aux deux bords et un retour au début en fondu. Et le widget
+d'écran d'accueil offre trois contenus au choix : *ce jour-là*, *la fiche du jour*, ou
+rien de nommé.
+
+### Le défilement
+
+À une ligne fixe, la barre coupait **84 % des titres du corpus** — la médiane est à 46
+caractères, le maximum à 77 — et un rappel qui s'arrête au milieu d'une phrase ne rappelle
+rien. Réduire la taille du titre a été essayé et gardé pour les titres longs
+(`Typo.tailleTitre`), mais seul il ne suffisait pas : à 62 % de la taille, un titre de 70
+caractères reste coupé, et la barre devient illisible avant d'être complète.
+
+Trois réglages sont venus de l'usage sur appareil, et aucun n'aurait été trouvé autrement :
+
+- **Le fondu des bords.** Sans lui, une lettre est là, puis coupée en deux, puis absente :
+  c'est ce qui fait qu'un défilement a l'air d'un bandeau publicitaire plutôt que d'un
+  texte qu'on lit. Le masque n'est posé **que quand le texte défile**, sinon il mangerait
+  les premières lettres d'un titre court pour rien.
+- **La pause de départ à 3,5 secondes.** Une seconde et demie suffit à ce que l'œil arrive
+  sur le titre, pas à ce qu'il en lise le début. Un mouvement qui démarre pendant la
+  lecture fait tout reprendre.
+- **Le pourcentage à largeur fixe.** Il s'élargissait de « 0 % » à « 100 % » en cours de
+  lecture, reprenait cette place au titre, et le titre se remesurait — le lecteur voyait le
+  texte se faire rogner **pendant** qu'il faisait défiler la page. Le défaut ne se voyait
+  qu'en scrollant, jamais à l'arrêt.
+
+**Rien ne bouge si le système demande moins de mouvement.** `accessibilityReduceMotion` sur
+iOS, l'échelle de durée des animations à zéro sur Android : le texte est alors simplement
+tronqué. Ce n'est pas une case à cocher, un lecteur qui l'a activée le paie physiquement.
+
+Un piège de mise en page, propre à SwiftUI et coûteux à trouver : `fixedSize` donne au
+texte sa largeur naturelle, la seule comparable à celle du cadre, mais cette largeur idéale
+**remonte jusqu'aux parents**. La barre entière s'élargissait, le titre passait par-dessus
+le pourcentage et le bouton d'écoute, et le `clipped` ne coupait rien puisque le cadre avait
+grandi avec le texte. Il faut un `GeometryReader` **en conteneur** : il accepte la taille
+qu'on lui propose sans rien remonter. Le `BoxWithConstraints` de Compose n'a pas ce défaut.
+
+### Les trois modes du widget
+
+Le widget ne montrait que ce qui avait **déjà** été lu, et la raison tenait : nommer le
+concept du jour sur l'écran d'accueil le dévoile hors de l'app, or c'est en l'ouvrant qu'on
+le découvre. C'était le bon défaut, ce n'était pas la bonne unique option — un lecteur
+régulier veut voir de quoi parle sa journée avant de décider quand la lire, et le titre est
+l'invitation, pas la révélation. `ceJourLa` reste donc ce qu'on obtient sans rien régler.
+
+L'ancien booléen `widgetCeJourLa` disparaît sans migration : les deux décodeurs ignorent les
+clés inconnues, un état d'avant reprend le défaut. C'est une préférence d'affichage, pas une
+trace de lecture — la reperdre une fois ne coûte rien, alors qu'un champ mort gardé « au cas
+où » se traîne des années.
+
+**Côté iOS, le dépôt transporte désormais le surtitre déjà rédigé** (« IL Y A DEUX MOIS »,
+« AUJOURD'HUI ») au lieu du nombre de mois. Trois modes à nommer, chacun avec ses cas
+particuliers, feraient de l'extension un second endroit où la règle vit, et le second
+endroit est toujours celui qu'on oublie de corriger. Côté Android le widget lit les mêmes
+fichiers que l'app et n'a pas ce problème : il tient les trois branches lui-même.
