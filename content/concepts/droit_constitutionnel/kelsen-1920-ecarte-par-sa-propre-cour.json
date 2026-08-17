@@ -41,9 +41,25 @@
       "type": "web",
       "auteur": "ORF (Österreichischer Rundfunk)",
       "titre": "100 Jahre VfGH: Errichtet, „geköpft“ und etabliert",
-      "annee": 2025,
+      "annee": 2020,
       "url": "https://orf.at/stories/3176483/",
       "note": "Détaille l'épisode de 1929-1930 : la réforme constitutionnelle, le renouvellement complet des juges, le départ de Kelsen pour Cologne, et le mot de Renner, « décapitée »."
+    },
+    {
+      "type": "institution",
+      "auteur": "Verfassungsgerichtshof (Cour constitutionnelle d'Autriche)",
+      "titre": "100 Jahre deutschösterreichischer Verfassungsgerichtshof",
+      "annee": 2019,
+      "url": "https://www.vfgh.gv.at/medien/100_Jahre_deutschoesterreichischer_Verfassungsgericht.de.php",
+      "note": "Le Nationalrat adopte le 13 juillet 1921 la loi organique de la cour, et élit ses membres deux jours plus tard, dont Kelsen : source de la date « juillet 1921 »."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia (en allemand)",
+      "titre": "Hans Kelsen",
+      "annee": 2026,
+      "url": "https://de.wikipedia.org/wiki/Hans_Kelsen",
+      "note": "En 1930, sur suggestion du maire de Cologne Konrad Adenauer, Kelsen est nommé professeur de droit international à l'université de Cologne, où il enseigne jusqu'à son limogeage par les lois raciales nazies en 1933."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -65,10 +81,35 @@
     "explication": "Le modèle diffus né avec Marbury laisse chaque juge, dans chaque affaire, écarter une loi qu'il juge inconstitutionnelle. Le modèle kelsénien concentre ce pouvoir dans une cour unique : un juge ordinaire qui doute de la constitutionnalité d'une loi interrompt le procès et transmet la question, il ne tranche pas lui-même.",
     "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-17T07:25:21.004Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-17T07:25:21.004Z",
+        "note": "Point signalé traité : la date « juillet 1921 » et la destination « Cologne » n'avaient pas de source cliquable propre. Rouvert la page VfGH « 100 Jahre deutschösterreichischer Verfassungsgerichtshof » (confirme : loi organique adoptée le 13 juillet 1921, juges élus deux jours plus tard dont Kelsen) et Wikipedia (DE) « Hans Kelsen » (confirme : nommé professeur de droit international à Cologne en 1930, sur suggestion du maire Adenauer) ; les deux ajoutées aux sources. Le reste de la fiche revérifié entièrement : Bundeskanzleramt confirme mai 1919 (mission de Renner), 1er octobre 1920 (adoption) et 10 novembre 1920 (entrée en vigueur) ; VfGH geschichte_ueberblick confirme la limite d'âge de 70 ans introduite par la réforme de 1929 et le changement de mode de nomination, mais ne mentionne pas Kelsen (source d'ambiance sur le fonctionnement de la cour, pas sur Kelsen lui-même — repere.url conservé à ce titre) ; ORF confirme le mot « geköpft » attribué à Renner comme député et juillet 1921 pour l'entrée de Kelsen parmi les juges. Carte et quiz vérifiés, distracteurs faux confirmés."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-17",
+    "verdict": "a_revoir",
+    "empreinte": "d975c90a88e87efd",
+    "notes": [
+      "Sources rouvertes : Bundeskanzleramt (confirme mai 1919, 1er octobre et 10 novembre 1920), VfGH geschichte_ueberblick (confirme ces mêmes dates, la réforme de 1929 et le recours individuel de 1975, mais ne mentionne Kelsen à aucun endroit), ORF (confirme le mot « geköpft » attribué à Renner comme député — année de publication corrigée en 2020, pas 2025).",
+      "À revoir : la date « juillet 1921 » pour l'entrée de Kelsen à la cour et sa destination « Cologne » ne sont retrouvables dans aucune des trois sources citées, alors que repere.url (VfGH geschichte_ueberblick) est présenté comme les justifiant et ne mentionne pas Kelsen du tout. Les faits semblent exacts par ailleurs mais manquent de source cliquable dans la fiche — ajouter une source qui les couvre réellement (ex. la page VfGH « 100 Jahre deutschösterreichischer Verfassungsgerichtshof », qui donne la date du 13 juillet 1921) ou alléger le texte de ces précisions."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-17", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-17",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

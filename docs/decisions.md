@@ -554,11 +554,32 @@ une URL se replier en fin de ligne, si bien que la copie rendait « benedict- ru
 une adresse qu'on ne peut pas coller ne prouve rien, alors que c'est tout ce que l'export
 existe pour garantir.
 
-**Le widget iOS manque, et pour une raison qui n'est pas technique.** Une extension
+**Le widget iOS a demandé deux passages par le portail, et rien d'autre.** Une extension
 WidgetKit tourne dans son propre conteneur et ne lit l'état du lecteur qu'à travers un
 groupe d'app. L'App Store Connect API n'expose aucun endpoint pour en créer un —
-`/v1/appGroups` répond 404 — donc l'étape passe par le portail, à la main. Le trousseau
-offrirait un contournement, le profil portant déjà `keychain-access-groups = TVF6U47685.*`,
-mais détourner un magasin à secrets en canal de transport pour trente kilo-octets de
-journal laisserait une bizarrerie durable pour économiser deux minutes. La règle de
-sélection, elle, est écrite et tenue par sept tests de chaque côté.
+`/v1/appGroups` répond 404 — ni pour **associer** un groupe existant à un App ID : la
+capacité s'active bien par l'API, mais le profil sort alors avec
+`application-groups = []`, ce qui se voit en le décodant et pas autrement.
+
+Le trousseau offrait un contournement, le profil portant déjà
+`keychain-access-groups = TVF6U47685.*`. Il a été écarté : détourner un magasin à secrets
+en canal de transport pour trente kilo-octets de journal aurait laissé une bizarrerie
+durable pour économiser deux minutes.
+
+Trois choses à retenir de la mise en place, qui coûteront moins cher la prochaine fois :
+
+- **Ajouter une capacité invalide les profils existants.** Celui de l'app est passé
+  `INVALID` dès l'activation, et il faut le régénérer avant tout archivage.
+- **La signature automatique ne convient plus** dès qu'une cible porte un entitlement
+  particulier : elle choisit un profil d'équipe générique, qui n'a aucune raison de porter
+  la capacité. Les deux cibles passent en manuel sur Release.
+- **`Info.plist` d'une extension ne va pas dans le dossier synchronisé.** Il y serait copié
+  une seconde fois comme ressource, et l'ajouter à `GENERATE_INFOPLIST_FILE` produit la
+  même collision. Il vit dans `Support/Widget/`, comme celui de l'app.
+
+**Et le widget ne calcule rien.** L'app dépose le résultat dans le groupe partagé, le
+widget le peint. Décoder un corpus de 2,4 Mo à chaque rafraîchissement, dans un processus
+à mémoire bornée, ferait tuer l'extension — et un widget tué n'affiche rien du tout. Le
+dépôt est recopié de part et d'autre plutôt que partagé, et un test décode un dépôt réel
+avec la définition de l'extension : le prix de la copie se paie au test, pas chez le
+lecteur devant un widget vide.

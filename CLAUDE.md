@@ -311,8 +311,5 @@ Deux points à ne pas perdre de vue en y touchant :
   des points de départ, à reprendre au Lot 5 avec Claude Design. Exigence non
   négociable : le rendu ne doit jamais être identifiable comme généré par IA
 - Prix des paliers premium (brief §14)
-- **Le widget iOS**, en attente d'un groupe d'app : l'API App Store Connect n'en crée pas
-  (`/v1/appGroups` répond 404), l'étape passe par le portail à la main. La règle de
-  sélection est écrite et testée des deux côtés ; il ne reste que la vue et la cible.
 - Lancer les 9 disciplines d'emblée, ou un sous-ensemble (brief §14, amendé par
   l'ajout de Médecine / Santé)
