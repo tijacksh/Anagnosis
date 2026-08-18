@@ -832,3 +832,56 @@ Deux choses distinguent cette routine des quatre autres :
 L'ordre est **une fiche par discipline en tournant**, la moins avancée d'abord. Le lecteur ne
 coche que trois disciplines, et un rattrapage alphabétique remplirait Anthropologie en entier
 avant de toucher à la Physique.
+
+---
+
+## 2026-08-18 — La révision, et l'épreuve où le chiffre est juste
+
+**Décidé :** les deux dernières fonctions de la liste du 2 août sont construites. L'offre
+annonce désormais neuf fonctions, toutes livrées.
+
+### La révision
+
+Le rappel interroge sur **trois dates précises** — dix jours, six semaines, six mois — et
+c'est ce qui en fait une répétition espacée. La révision fait l'inverse : elle pioche
+n'importe où dans le passé du lecteur, sans calendrier, parce qu'un examen qu'on peut
+anticiper n'éprouve que l'anticipation.
+
+Deux bornes qui décident du reste : **une question par fiche au maximum**, sans quoi trois
+questions d'affilée sur la même fiche donneraient l'impression d'un interrogatoire sur un
+détail, alors qu'on cherche à mesurer l'étendue ; et **dix par séance**, plafonnées par ce
+qui existe.
+
+Elle réutilise l'écran du rappel au lieu d'en copier un second. Le rappel, la révision et
+l'épreuve posent les mêmes questions de la même façon ; seuls le titre du bilan et la phrase
+qui suit changent. Trois écrans jumeaux auraient divergé d'un point d'opacité avant la fin du
+mois.
+
+**C'est le seul endroit du produit où l'on veut vraiment du hasard.** Partout ailleurs — la
+suite, l'ordre des propositions, la figure d'une fiche — un tirage stable est ce qui empêche
+l'écran de danser sous le doigt. Ici, deux séances identiques enseigneraient l'ordre des
+propositions, pas le contenu.
+
+### L'épreuve offerte
+
+**Le seul endroit où un chiffre est juste.** Ailleurs, un pourcentage suppose un dénominateur,
+donc un objectif, donc un échec possible. Ici le chiffre *est* le propos : l'épreuve ne mesure
+pas le lecteur pour le classer, elle lui montre l'écart entre ce qu'il croit avoir gardé et ce
+qu'il a gardé. C'est une démonstration, pas une note, et elle ne se répète pas — une
+démonstration qu'on peut rejouer devient un jeu, et un jeu ne démontre rien.
+
+**Elle est hors du verrou**, et c'est le point : une épreuve réservée aux abonnés démontrerait
+l'oubli à ceux qui ont déjà payé pour le combattre, c'est-à-dire à personne.
+
+Trois seuils, chacun pour une raison : trente jours d'usage et vingt fiches lues, parce
+qu'avant il n'y a rien à oublier ; et **plus d'un mois d'ancienneté** sur les lectures
+interrogées, parce que c'est là que l'oubli a fait son travail. Interroger sur la semaine
+passée montrerait seulement que le lecteur sait lire.
+
+Le verdict ne juge jamais, ni reproche ni triomphe. Il dit que l'oubli est le cas ordinaire,
+qu'il se mesure, et qu'il existe quelque chose contre.
+
+### Une dette réglée au passage
+
+Les clients ne décodaient pas `quiz_supplementaire` : le champ existait dans le schéma et
+dans les fiches, et les trois fonctions qui en dépendent tiraient dans un sac vide.
