@@ -74,6 +74,41 @@
     "explication": "Une bactérie qui survit à une attaque range un fragment du virus dans son génome : la région CRISPR est une archive des infections passées, lisible comme un historique. Ce fragment sert ensuite de modèle de reconnaissance, et c'est ce mécanisme d'adressage qu'on a détourné pour couper n'importe quelle séquence choisie.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel problème industriel a mené à élucider la fonction des régions CRISPR ?",
+      "choix": [
+        "Le coût croissant du lait employé dans la fabrication des ferments",
+        "Les virus qui infectent les bactéries et ruinent une production entière",
+        "La difficulté à conserver les yaourts au-delà de quelques semaines",
+        "L'apparition de bactéries résistantes aux antibiotiques dans les cuves"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Une entreprise danoise de ferments cherchait des souches naturellement résistantes aux bactériophages, dont une contamination peut ruiner une production. Ses chercheurs ont comparé les génomes des bactéries qui survivent aux attaques et de celles qui n'y survivent pas."
+    },
+    {
+      "question": "Qu'est-ce qui permet de faire de ce système bactérien un outil d'édition ?",
+      "choix": [
+        "Le fait que la protéine coupe au hasard, ce qui multiplie les essais",
+        "Le fait que la bactérie transmette ses coupures à sa descendance",
+        "Le fait que changer le fragment archivé change la séquence coupée",
+        "Le fait que les séquences répétées se copient d'un génome à l'autre"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Un mécanisme de reconnaissance est un mécanisme d'adressage : si la protéine coupe l'ADN qui correspond au fragment archivé, alors lui fournir un guide de son choix revient à désigner la cible, dans n'importe quel génome."
+    },
+    {
+      "question": "Que conclut la fiche sur la part de la recherche fondamentale dans cette histoire ?",
+      "choix": [
+        "Elle a tout fait, l'industrie n'ayant fait que financer les travaux",
+        "Elle a décrit les séquences, l'industrie a trouvé leur fonction",
+        "Elle n'a joué aucun rôle, tout étant venu des cuves de fermentation",
+        "Elle visait dès les années 1980 la réécriture du génome humain"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les séquences répétées ont bien été décrites par curiosité, sans usage en vue. Mais leur fonction a été élucidée par des industriels sur un problème très appliqué, sauver des cuves de yaourt : ceux qui avaient l'objet n'avaient pas la question."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

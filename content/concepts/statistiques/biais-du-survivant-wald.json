@@ -83,6 +83,41 @@
     "explication": "Les données ne portent que sur les avions revenus au sol. Un impact sur une zone vitale a plus de chances de faire tomber l'avion avant son retour, ce qui explique pourquoi ces zones apparaissent peu endommagées dans les statistiques des survivants, alors qu'elles sont en réalité les plus vulnérables. C'est le mécanisme même du biais du survivant : ce qui manque dans les données en dit parfois plus que ce qu'elles montrent.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que contiennent réellement les mémorandums rédigés par Wald en 1943 ?",
+      "choix": [
+        "Une recommandation explicite de blinder les moteurs des bombardiers",
+        "Une suite de définitions et de démonstrations, sans consigne à l'armée",
+        "Le compte rendu des réunions tenues avec le commandement américain",
+        "Un relevé photographique des impacts observés sur les avions revenus"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Une fois ouverts, ces huit mémorandums ne racontent rien de spectaculaire : une succession sèche de définitions et de démonstrations, sans une ligne sur ce que l'armée devrait faire de ces calculs."
+    },
+    {
+      "question": "D'où vient le schéma d'avion criblé de points rouges qui illustre l'histoire ?",
+      "choix": [
+        "Des archives du Statistical Research Group, retrouvées en 2016",
+        "Des mémorandums de Wald, dont il ouvre le premier chapitre",
+        "D'un rapport de l'armée américaine déclassifié après la guerre",
+        "D'un designer qui dit l'avoir dessiné vers 2005 pour ses présentations"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Cameron Moll a raconté avoir lui-même produit ce schéma vers 2005, pour ses présentations sur la résolution de problèmes, bien après les faits et sans lien avec Wald. Casselman relève par ailleurs qu'il ne correspond à aucun appareil documenté."
+    },
+    {
+      "question": "Que trouve Bill Casselman dans les archives disponibles sur cet épisode ?",
+      "choix": [
+        "Deux mentions brèves chez Wallis, les mémorandums, et rien d'autre",
+        "Les minutes complètes des échanges entre Wald et le commandement",
+        "Une correspondance suivie entre Wald et Mangel sur la méthode employée",
+        "Le carnet de terrain où Wald notait les impacts relevés sur les avions"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Casselman ne trouve que deux mentions brèves de ce travail chez W. Allen Wallis, ancien directeur du groupe, qui ne cite même pas le nom de Wald, et les mémorandums eux-mêmes. Tout le reste relève selon lui de la reconstruction plausible."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

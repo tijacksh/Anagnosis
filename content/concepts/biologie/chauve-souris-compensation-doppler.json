@@ -68,6 +68,41 @@
     "explication": "Son système auditif concentre une densité exceptionnelle de neurones sur une bande de fréquences très étroite — la fovéa acoustique. En compensant le décalage Doppler dû à son propre vol, l'animal maintient l'écho dans cette fenêtre de netteté, ce qui lui permet de détecter la modulation produite par les battements d'ailes d'une proie.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'appelle-t-on la fovéa acoustique du grand rhinolophe ?",
+      "choix": [
+        "Un organe du nez qui met en forme le cri au moment de l'émission",
+        "Une bande de fréquences très étroite où les neurones sont concentrés",
+        "Une membrane de l'oreille qui filtre les fréquences trop basses",
+        "La zone du cerveau qui commande la fréquence du cri pendant le vol"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le système auditif du rhinolophe n'est pas également sensible sur tout le spectre : une bande très étroite, centrée sur la fréquence de retour, concentre un nombre disproportionné de neurones finement accordés, comme la fovéa de l'œil."
+    },
+    {
+      "question": "Que révèle à l'animal un écho maintenu sur un fond stabilisé ?",
+      "choix": [
+        "La distance exacte qui le sépare de la paroi la plus proche",
+        "La température des surfaces qui lui renvoient le son",
+        "La cadence des battements d'ailes d'un insecte en vol",
+        "La composition du sol survolé pendant la chasse nocturne"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Un papillon de nuit bat des ailes des dizaines de fois par seconde, et chaque battement module l'écho d'une variation périodique minuscule. Sur un fond mouvant ces signaux seraient noyés ; sur un fond stabilisé, ils deviennent une signature."
+    },
+    {
+      "question": "Avec quelle précision le rhinolophe maintient-il la fréquence de l'écho reçu ?",
+      "choix": [
+        "À quelques dizaines de hertz près, sur environ 83 000",
+        "À quelques milliers de hertz près, sur environ 83 000",
+        "À un demi-kilohertz près, mais seulement à vitesse constante",
+        "Sans précision mesurable, le réglage se faisant par à-coups"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le réglage est continu et asservi à l'écho reçu. L'animal maintient la fréquence de retour dans une fenêtre de quelques dizaines de hertz seulement, alors que son cri se situe autour de 83 kilohertz."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

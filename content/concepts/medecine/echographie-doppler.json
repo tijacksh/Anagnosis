@@ -67,6 +67,41 @@
     "explication": "Le code couleur ne traduit qu'un sens de circulation par rapport à la sonde, déduit du signe du décalage Doppler. Une même artère apparaît rouge ou bleue selon l'orientation de la sonde. Ni l'oxygénation, ni la nature du vaisseau, ni la température n'entrent en jeu.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Sur quoi portait le tout premier appareil Doppler médical ?",
+      "choix": [
+        "Les flux sanguins dans les artères périphériques",
+        "Les mouvements du muscle cardiaque lui-même",
+        "La circulation dans le cordon ombilical pendant la grossesse",
+        "Les fuites observées au niveau des valves cardiaques"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'appareil de Satomura, publié en 1956, était techniquement un appareil de Doppler tissulaire : il mesurait le mouvement du muscle cardiaque. L'étude des flux dans les artères périphériques et le premier débitmètre datent de 1959."
+    },
+    {
+      "question": "Pourquoi un flux strictement perpendiculaire au faisceau devient-il invisible ?",
+      "choix": [
+        "Parce que les ultrasons ne traversent pas les tissus dans cette direction",
+        "Parce que l'appareil filtre les échos qu'il juge trop faibles pour être fiables",
+        "Parce qu'un tel flux ne produit aucun décalage de fréquence à mesurer",
+        "Parce que les globules rouges ralentissent au passage exact du faisceau"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Seul un déplacement qui rapproche ou éloigne la cible de la sonde décale la fréquence de l'écho. C'est pour cela que l'opérateur impose à la sonde des positions inconfortables : il cherche le bon angle, pas la plus belle image."
+    },
+    {
+      "question": "Que sont les sons rauques et battants entendus pendant l'examen ?",
+      "choix": [
+        "Le bruit mécanique de la sonde balayant la surface de la peau",
+        "Le battement du muscle cardiaque capté par un microphone de contact",
+        "Un signal d'alerte émis quand l'appareil détecte un rétrécissement",
+        "L'écart entre fréquence émise et fréquence reçue, ramené dans l'audible"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Ce que l'on entend est la différence entre la fréquence émise et celle que renvoient les globules rouges, transposée dans le domaine audible. L'écart donne une vitesse, son signe donne un sens de circulation."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
