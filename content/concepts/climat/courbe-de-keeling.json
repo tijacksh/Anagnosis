@@ -104,11 +104,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-08-02",
+    "fait_le": "2026-08-18",
     "verdict": "ok",
-    "empreinte": "877632a96c7a6f6c",
+    "empreinte": "c2bc682195d55716",
     "notes": [
-      "Re-contrôle après réparation du 31/07. Sources rouvertes (APS via navigateur, WebFetch renvoie 403 ; Scripps et NOAA via WebFetch direct). Confirmé qu'aucune source ne revendique un appareil unique continu depuis 1958 — APS et Scripps ne parlent que de continuité de site/données/méthode ; le texte actuel ('même endroit, même méthode') ne fait plus l'affirmation d'un appareil unique, aucune trace résiduelle retrouvée. Les deux interruptions confirmées et datées par les trois sources croisées (APS : 'interrupted only twice' + coupes budgétaires 1964 + éruption nov. 2022 ; Scripps : arrêt 1964 après coupes du Congrès ; NOAA : suspension du 29 nov. 2022 au 4 juillet 2023, mesures à Maunakea ~21 miles/30km). 313 ppm le 29 mars 1958 confirmé mot pour mot par APS, corroboré par Scripps. Repere, accroche, corps, carte et quiz recontrôlés affirmation par affirmation : conformes."
+      "Recontrôle : empreinte modifiée uniquement par le retrait des tirets cadratins (commit 5091a13, remplacement par une virgule dans contenu_vulgarise et carte.idee), vérifié par diff — aucun changement de sens. Dernier contrôle de fond du 02/08 (sources APS, Scripps, NOAA rouvertes, verdict ok) reste valable. Aucune nouvelle vérification de fond nécessaire."
     ]
   }
 }

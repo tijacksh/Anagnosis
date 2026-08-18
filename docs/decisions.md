@@ -692,3 +692,61 @@ exactement ce contre quoi il protège — mais ne pas bouger ne veut pas dire ê
 rendre un titre tronqué au lecteur qui a le moins de moyens d'y remédier serait absurde.
 Immobile, le texte se replie sur deux lignes et se réduit jusqu'à tenir : le plus long titre
 du corpus, 77 caractères, passe entier.
+
+---
+
+## 2026-08-18 — Les notifications s'arrêtaient en silence, et le verre ne floutait rien
+
+Trois défauts signalés depuis un appareil de test, et un quatrième trouvé en cherchant.
+
+### La notification ne partait pas tous les jours
+
+Deux causes, l'une et l'autre silencieuses.
+
+**Le système efface les alarmes en attente plus souvent qu'on ne le croit.** Le redémarrage
+était traité ; la **mise à jour de l'app** ne l'était pas. C'est le cas qui touche le plus
+les testeurs, qui reçoivent une version par jour : installer la mise à jour et ne pas ouvrir
+l'app avant l'heure du concept suffisait à ne rien recevoir, ce jour-là et tous les suivants.
+`MY_PACKAGE_REPLACED` réarme désormais la fenêtre, comme `BOOT_COMPLETED`. Le changement de
+fuseau et l'heure système ont été ajoutés au passage : les alarmes sont posées en
+millisecondes absolues, et un lecteur qui voyage voyait son concept arriver au milieu de la
+nuit.
+
+**Et le repli sur `set` était différé par Doze**, c'est-à-dire jusqu'à ce que le lecteur
+reprenne son téléphone. Un téléphone posé sur une table de nuit à 8 h 10 est précisément en
+Doze. La notification arrivait donc au moment où l'on avait déjà eu l'idée d'ouvrir l'app :
+elle avait l'air capricieuse, jamais absente. `setAndAllowWhileIdle` la laisse sonner à
+quelques minutes près, ce qui suffit largement. Ce repli est le cas **courant** et non
+l'exception : depuis Android 14, `SCHEDULE_EXACT_ALARM` n'est plus accordée d'office, et
+`USE_EXACT_ALARM` est réservée par Play aux réveils et aux agendas.
+
+**Une note de méthode, parce qu'elle a coûté trois essais.** Ce défaut ne se vérifie qu'en
+laissant une vraie alarme sonner. Trois manières de fausser le test : réinstaller l'app après
+l'heure visée, ce qui recalcule la fenêtre au lendemain ; `am force-stop`, qui annule toutes
+les alarmes en attente ; et `am broadcast` depuis le shell, qui n'atteint pas un récepteur
+`exported="false"`.
+
+### Le verre dépoli ne floute rien
+
+Reproduit à l'identique sur l'émulateur : ce n'est pas l'appareil. La barre laissait lire, au
+travers et **net**, le texte de la page — deux textes superposés, dont aucun n'était lisible.
+Trois formulations de la capture ont été essayées (couche de fond rejouée, contenu dessiné
+deux fois, couche floue en pleine taille) ; aucune n'a produit de flou, et la sonde montre
+que la géométrie du découpage est pourtant exacte.
+
+En attendant que ce soit compris, la teinte de la barre passe de 55 % à 86 % : on devine
+encore l'encre qui passe dessous, et plus rien ne concurrence les libellés. **La valeur
+redescendra le jour où le flou marchera, pas avant** — mieux vaut un verre discret qu'un
+verre illisible.
+
+### Et deux choses en passant
+
+La ligne de diagnostic rouge sous l'heure du concept a été retirée : elle traquait un
+glissement cassé sur un appareil précis, et le sujet est clos.
+
+**La liste de sélection de l'heure arrive sur iOS.** Elle était née côté Android comme voie
+de secours, le glissement y étant signalé cassé ; elle y est restée parce qu'elle est
+meilleure — passer de 08:10 à 21:30 au doigt est un long geste, contre deux tapotements. Les
+deux écrans qui la montrent partagent désormais un seul composant, `ReglageHeure` : ils
+avaient deux copies, et une liste ajoutée d'un seul côté aurait fait deux réglages différents
+pour le même choix.
