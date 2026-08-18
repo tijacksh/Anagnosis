@@ -80,6 +80,41 @@
     "explication": "Multiplier une probabilité par elle-même n'est valable que si les deux événements sont indépendants. Or des facteurs génétiques ou environnementaux propres à une famille peuvent rendre une seconde mort subite du nourrisson bien plus probable dès lors qu'une première a eu lieu, ce qui invalide la simple mise au carré, indépendamment de la fiabilité du chiffre de départ.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "En quoi consiste l'« erreur du procureur » signalée par la Royal Statistical Society ?",
+      "choix": [
+        "Confondre la probabilité d'un hasard avec celle de l'innocence de l'accusée",
+        "Arrondir une probabilité très faible au chiffre rond le plus proche",
+        "Présenter au jury un chiffre obtenu par un expert de la partie adverse",
+        "Additionner deux probabilités au lieu de les multiplier entre elles"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le chiffre avancé ne mesure que la probabilité que deux morts naturelles surviennent par hasard dans une même famille, pas celle que la mère soit innocente une fois les deux morts constatées. Il aurait fallu le comparer à la probabilité, tout aussi rare, d'un double meurtre."
+    },
+    {
+      "question": "Pour quel motif la condamnation de Sally Clark a-t-elle été annulée en janvier 2003 ?",
+      "choix": [
+        "Parce que la cour a jugé que le chiffre de 1 sur 73 millions avait égaré le jury",
+        "Parce que la Royal Statistical Society avait saisi le ministre de la Justice",
+        "Parce que le pédiatre Roy Meadow s'était rétracté devant la cour d'appel",
+        "Parce que des analyses suggérant une infection bactérienne étaient restées cachées"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le motif décisif est la non-communication, lors du premier procès, de résultats microbiologiques suggérant qu'Harry était mort d'une infection naturelle. La cour note à part que le chiffre a pu peser sur le jury, mais ce n'est pas ce qui fonde l'annulation."
+    },
+    {
+      "question": "Qu'a fait la cour lors du premier appel, en 2000 ?",
+      "choix": [
+        "Elle a annulé la condamnation, avant qu'un nouveau procès ne la rétablisse",
+        "Elle a rejeté l'appel, en admettant déjà que le chiffre n'aidait pas à juger",
+        "Elle a refusé d'examiner l'argument statistique, faute d'expert dans la salle",
+        "Elle a ordonné une contre-expertise statistique confiée à la société savante"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'appel de 2000 est rejeté. La cour reconnaît pourtant déjà que le chiffre de 1 sur 73 millions n'aide en rien à juger si les morts étaient naturelles, mais elle ne l'estime pas déterminant, et Sally Clark reste en prison."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

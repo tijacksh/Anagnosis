@@ -74,6 +74,41 @@
     "explication": "Comme toutes ces étoiles sont à peu près également distantes, les écarts d'éclat observés ne peuvent pas venir de la distance : ils traduisent des différences de puissance réelle. C'est ce qui permet de relier période et luminosité intrinsèque. Le Petit Nuage est bien trop lointain pour toute mesure de parallaxe.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que faut-il faire, avec la relation de Leavitt, pour connaître la distance d'une céphéide ?",
+      "choix": [
+        "Mesurer son angle de parallaxe à six mois d'intervalle",
+        "Chronométrer sa pulsation, puis comparer sa puissance à son éclat apparent",
+        "Comparer sa couleur à celle d'une étoile voisine de puissance connue",
+        "Mesurer la vitesse à laquelle son éclat s'affaiblit d'une année sur l'autre"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La période de pulsation donne la puissance réelle de l'étoile ; comparée à l'éclat qu'on lui voit d'ici, elle livre la distance. La parallaxe, elle, s'effondre au-delà de quelques dizaines d'années-lumière."
+    },
+    {
+      "question": "Qu'a permis d'établir la mesure faite par Edwin Hubble en 1923 ?",
+      "choix": [
+        "Que la nébuleuse d'Andromède se trouve bien au-delà de la Voie lactée",
+        "Que le Petit Nuage de Magellan est un satellite de notre galaxie",
+        "Que les céphéides pulsent de plus en plus vite en vieillissant",
+        "Que la parallaxe permet de mesurer la distance des nébuleuses spirales"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Hubble repère une céphéide dans Andromède, chronomètre sa pulsation et applique la relation de Leavitt. La distance obtenue place l'objet très au-delà de notre galaxie, et l'univers cesse d'être une galaxie unique."
+    },
+    {
+      "question": "Sous quelle signature paraît, en 1912, l'article qui énonce la relation ?",
+      "choix": [
+        "Sous celle de Henrietta Leavitt seule, mais dans une revue confidentielle",
+        "Sous celle d'Edwin Hubble, qui l'a reprise onze ans plus tard",
+        "Sous celle du seul Edward Pickering, directeur de l'observatoire",
+        "Sans aucune signature, comme toutes les circulaires de l'observatoire"
+      ],
+      "bonne_reponse": 2,
+      "explication": "L'article paraît dans une circulaire de l'observatoire du Harvard College sous la seule signature de son directeur. Le texte précise que la conclusion sur ces vingt-cinq variables a été préparée par « Miss Leavitt »."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
