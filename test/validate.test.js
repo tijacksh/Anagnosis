@@ -150,6 +150,46 @@ test('détecte les marqueurs de brouillon', () => {
   assert.ok(erreurs.some((e) => e.includes('marqueur de brouillon')));
 });
 
+test('contrôle les questions supplémentaires comme la principale', () => {
+  const bonne = {
+    question: 'Une autre question ?',
+    choix: ['A', 'B', 'C'],
+    bonne_reponse: 0,
+    explication: 'Une explication assez longue pour dépasser le seuil minimal requis.',
+  };
+
+  // Le cas nominal : jusqu'à quatre questions de plus, donc cinq en tout.
+  const quatre = validerFiche(ficheValide({
+    quiz_supplementaire: [0, 1, 2, 3].map((i) => ({ ...bonne, question: `Question ${i} ?` })),
+  }));
+  assert.deepEqual(quatre.erreurs, []);
+
+  const trop = validerFiche(ficheValide({
+    quiz_supplementaire: [0, 1, 2, 3, 4].map((i) => ({ ...bonne, question: `Question ${i} ?` })),
+  }));
+  assert.ok(trop.erreurs.some((e) => e.includes('maximum')));
+
+  // **Deux fois la même question ne fait pas deux questions**, et l'accent ne sauve rien :
+  // le rappel et la révision tirent dans le même sac.
+  const repetee = validerFiche(ficheValide({
+    quiz_supplementaire: [{ ...bonne, question: 'UNE QUESTION ?' }],
+  }));
+  assert.ok(repetee.erreurs.some((e) => e.includes('répète')));
+
+  const sansQuiz = validerFiche(ficheValide({ quiz: null, quiz_supplementaire: [bonne] }));
+  assert.ok(sansQuiz.erreurs.some((e) => e.includes('sans `quiz`')));
+
+  const horsBornes = validerFiche(ficheValide({
+    quiz_supplementaire: [{ ...bonne, bonne_reponse: 7 }],
+  }));
+  assert.ok(horsBornes.erreurs.some((e) => e.includes('bonne_reponse')));
+
+  const courte = validerFiche(ficheValide({
+    quiz_supplementaire: [{ ...bonne, explication: 'Trop court.' }],
+  }));
+  assert.ok(courte.erreurs.some((e) => e.includes('explication')));
+});
+
 test('contrôle la cohérence du quiz', () => {
   const horsBornes = validerFiche(ficheValide({
     quiz: { ...ficheValide().quiz, bonne_reponse: 9 },

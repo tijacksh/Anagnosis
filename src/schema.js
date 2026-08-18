@@ -225,6 +225,13 @@ export const REGLES = {
   sourcesMin: 2,
   quizChoixMin: 3,
   quizChoixMax: 4,
+  // Quatre questions de plus au maximum, donc cinq en tout avec `quiz`.
+  //
+  // Le plafond n'est pas esthétique : chaque question est une affirmation de plus à
+  // vérifier, sur une fiche de 500 mots dont tout l'argument est qu'on peut contrôler ce
+  // qu'elle avance. Au-delà de cinq, on répète le texte au lieu d'en éprouver la
+  // compréhension, et on multiplie la surface d'erreur pour rien.
+  quizSupplementaireMax: 4,
   explicationMin: 40,
   // Carte partageable en story : lisible en 2 secondes sur un écran vertical,
   // le pouce déjà prêt à passer au suivant.
@@ -250,6 +257,7 @@ export const MARQUEURS_INTERDITS = ['TODO', 'FIXME', 'Lorem ipsum', 'XXX', '[à 
  *   pour_aller_plus_loin: [{ titre, url, note }],
  *   illustration: { prompt, alt, url, statut },
  *   quiz: { question, choix: [], bonne_reponse: int, explication },
+ *   quiz_supplementaire: [{ question, choix: [], bonne_reponse: int, explication }],
  *   statut, validation: { decide_par, decide_le, historique: [] },
  *   controle: { fait_le, verdict, empreinte, notes: [] } | null,
  *   meta: { genere_le, genere_par, version }
@@ -287,6 +295,16 @@ export function fresh(partial = {}) {
     pour_aller_plus_loin: [],
     illustration: { prompt: '', alt: '', url: null, statut: 'a_generer' },
     quiz: null,
+    // Questions de plus sur la **même** fiche, pour le rappel, l'épreuve et la révision.
+    //
+    // **Un champ additif, jamais `quiz` transformé en tableau.** Le tableau aurait été plus
+    // propre sur le papier et aurait cassé deux choses à la fois : les 300 fiches déjà
+    // écrites, qu'il aurait fallu migrer, et surtout le décodeur des binaires **déjà
+    // installés** — un lecteur qui ne met pas l'app à jour reçoit le fichier signé et ne
+    // sait plus le lire. Ici, une version ancienne ignore simplement la clé qu'elle ne
+    // connaît pas, et une fiche sans supplément se contente de rebattre l'ordre de ses
+    // propositions : dégradé, pas cassé.
+    quiz_supplementaire: [],
     statut: 'brouillon',
     date_publication_prevue: null,
     validation: { decide_par: null, decide_le: null, historique: [] },

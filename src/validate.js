@@ -35,6 +35,22 @@ function urlValide(u) {
  * @param {{ toutes?: object[] }} ctx  autres fiches, pour les contrôles d'unicité
  * @returns {{ erreurs: string[], alertes: string[], ok: boolean, mots: number }}
  */
+/**
+ * Une question réduite à ce qui la rend identique à une autre.
+ *
+ * Casse, accents, ponctuation et espaces ne distinguent pas deux questions : « Que fait la
+ * loi ? » et « que fait la loi » sont la même, et un doublon écrit à un accent près
+ * passerait sans cette réduction.
+ */
+function normaliserQuestion(texte) {
+  return String(texte)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
 export function validerFiche(fiche, ctx = {}) {
   const erreurs = [];
   const alertes = [];
@@ -189,6 +205,43 @@ export function validerFiche(fiche, ctx = {}) {
       err(`\`quiz.bonne_reponse\` hors bornes : ${quiz.bonne_reponse}`);
     if (!quiz.explication || quiz.explication.length < REGLES.explicationMin)
       err(`\`quiz.explication\` trop courte (minimum ${REGLES.explicationMin} caractères — ligne éditoriale §6)`);
+  }
+
+  // --- Questions supplémentaires ----------------------------------------
+  //
+  // Mêmes exigences que la question principale : ce sont les mêmes questions, servies
+  // ailleurs. Une question de rappel qui serait plus faible que celle du jour ferait de
+  // la révision un exercice plus facile que la lecture.
+  const supp = fiche.quiz_supplementaire ?? [];
+  if (!Array.isArray(supp)) {
+    err('`quiz_supplementaire` doit être un tableau');
+  } else {
+    if (supp.length > REGLES.quizSupplementaireMax)
+      err(`\`quiz_supplementaire\` : ${supp.length} questions (maximum ${REGLES.quizSupplementaireMax})`);
+    if (supp.length && !quiz)
+      err('`quiz_supplementaire` sans `quiz` : la question du jour vient en premier');
+
+    const vues = new Set([normaliserQuestion(quiz?.question ?? '')]);
+    supp.forEach((q, i) => {
+      const ou = `quiz_supplementaire[${i}]`;
+      if (!q?.question) { err(`\`${ou}.question\` manquante`); return; }
+      // **Deux fois la même question ne fait pas deux questions.** Le rappel et la
+      // révision tirent dans le même sac : un doublon y reviendrait deux fois plus
+      // souvent, et le lecteur croirait avoir retenu ce qu'il vient seulement de relire.
+      const cle = normaliserQuestion(q.question);
+      if (vues.has(cle)) err(`\`${ou}.question\` répète une question déjà posée`);
+      vues.add(cle);
+
+      const cx = q.choix ?? [];
+      if (cx.length < REGLES.quizChoixMin || cx.length > REGLES.quizChoixMax)
+        err(`\`${ou}.choix\` : ${cx.length} propositions (attendu ${REGLES.quizChoixMin}-${REGLES.quizChoixMax})`);
+      if (cx.some((c) => !c || !String(c).trim())) err(`\`${ou}.choix\` contient une proposition vide`);
+      if (new Set(cx).size !== cx.length) err(`\`${ou}.choix\` contient des doublons`);
+      if (!Number.isInteger(q.bonne_reponse) || q.bonne_reponse < 0 || q.bonne_reponse >= cx.length)
+        err(`\`${ou}.bonne_reponse\` hors bornes : ${q.bonne_reponse}`);
+      if (!q.explication || q.explication.length < REGLES.explicationMin)
+        err(`\`${ou}.explication\` trop courte (minimum ${REGLES.explicationMin} caractères)`);
+    });
   }
 
   // --- Cohérence de statut ---------------------------------------------
