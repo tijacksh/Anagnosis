@@ -750,3 +750,85 @@ meilleure — passer de 08:10 à 21:30 au doigt est un long geste, contre deux t
 deux écrans qui la montrent partagent désormais un seul composant, `ReglageHeure` : ils
 avaient deux copies, et une liste ajoutée d'un seul côté aurait fait deux réglages différents
 pour le même choix.
+
+---
+
+## 2026-08-18 — Le relevé, et pourquoi ce n'est pas un score
+
+**Décidé :** la demande était « un score de bonnes réponses par discipline, pour comprendre
+où l'on est fort et où ça pêche ». Ce qui est construit est **le relevé** — décision n° 4 du
+2 août, jamais bâtie — et non un pourcentage.
+
+**Un pourcentage aurait été faux**, et pas seulement hors charte. « Soixante-deux pour cent
+en physique » mesure les questions qu'on a posées, pas ce que le lecteur sait : trois
+questions tirées dans douze fiches lues, et le chiffre bouge de vingt points selon le tirage.
+Le lecteur prendrait un artefact d'échantillonnage pour un verdict sur lui-même. S'y ajoute
+la règle qui tient depuis le début : un pourcentage suppose un dénominateur, donc un
+objectif, donc un échec possible.
+
+**Ce qui le remplace répond à la même question, et mieux.** Deux listes par discipline, ce
+qui est revenu juste et ce qui est revenu faux, la discipline la plus effacée en tête. On
+voit où ça pêche à la longueur de la seconde colonne, sans qu'aucun chiffre ne soit prononcé,
+et chaque ligne est une fiche qu'on peut rouvrir. **Une note se subit, une liste se traite.**
+
+Deux détails de conception qui portent tout le reste :
+
+- **Une bonne réponse ne compte comme « ça tient » qu'au-delà de dix jours d'écart** avec la
+  lecture. En dessous, retrouver la réponse ne prouve rien de plus que de savoir lire.
+- **Une discipline sans réponse n'apparaît pas.** Écrire « rien à signaler » sur douze
+  disciplines noierait les deux qui ont quelque chose à dire.
+
+**Le format d'état est celui que la décision du 31 juillet avait annoncé sans l'écrire** :
+une entrée par concept, remplacée à chaque passage. La taille est donc bornée par le corpus
+et non par l'ancienneté du lecteur — une vingtaine de kilo-octets au pire, et ce pire suppose
+un lecteur interrogé sur tout ce qui existe. Un journal complet des réponses aurait permis de
+tracer des courbes, c'est-à-dire précisément ce qu'on ne veut pas.
+
+**Où il se place, et pourquoi là.** Troisième carte du profil, après les planches et le
+récap. Les planches disent ce que le lecteur a vu, le récap ce qu'il a lu, le relevé ce qu'il
+en a gardé — et ce dernier n'a de sens qu'une fois qu'on a de quoi oublier.
+
+## 2026-08-18 — L'offre annonçait trois fonctions sur sept
+
+**Constaté :** l'écran d'abonnement listait l'écoute, les soixante jours et « rien ne se
+referme ». La recherche, le rappel, le récap, les planches et le PDF n'apparaissaient nulle
+part au moment où le lecteur décide de payer.
+
+Personne ne l'avait vu parce qu'**une liste de vente n'a pas de test tant qu'elle est de la
+mise en page**. Elle vivait en double dans les deux écrans, et elle a cessé d'être vraie des
+deux côtés en même temps, à mesure que les fonctions arrivaient sans que la liste suive.
+
+Elle vit désormais dans le corpus partagé (`Offre`), avec ses tests en miroir, comme les
+autres règles du produit. Un test vérifie qu'aucun motif ne **retire** un argument, et que
+les durées annoncées viennent des règles plutôt que d'une chaîne recopiée.
+
+**Et l'ordre suit le motif** : celui qui vient de buter sur l'écoute lit l'écoute en premier,
+c'est la seule ligne dont il sait déjà qu'elle lui manque. Les motifs passent de quatre à dix,
+un par porte — le PDF ouvrait l'offre sur l'écoute, les planches et le récap sur l'archive.
+
+## 2026-08-18 — Une routine pour remplir le sac de questions
+
+**Décidé :** `/questionner`, dix fiches par passage, **quatre fois par jour** (01:38, 07:38,
+13:38, 19:38).
+
+Le corpus a été écrit avec une question par fiche, et c'était suffisant tant qu'elle ne
+servait qu'une fois. Le rappel, la révision et l'épreuve tirent tous dans le même sac : avec
+une seule question, ils rejouent celle du jour mot pour mot, et le lecteur qui la retrouve
+intacte croit avoir retenu ce qu'il a seulement reconnu.
+
+Le champ `quiz_supplementaire` est **additif**, jamais `quiz` transformé en tableau : le
+tableau aurait cassé les trois cents fiches déjà écrites *et* le décodeur des binaires déjà
+installés, qui reçoivent le fichier signé sans être mis à jour.
+
+Deux choses distinguent cette routine des quatre autres :
+
+- **C'est un rattrapage, pas un entretien.** Elle s'arrête d'elle-même quand chaque fiche
+  servie porte assez de questions. Une routine de rattrapage qu'on garde branchée en
+  permanence est le signe qu'on continue de commettre l'oubli qu'elle répare.
+- **Elle est hors du tour de rôle**, à une heure et demie de tout le monde : les quatre
+  autres se passent le relais parce que chacune travaille sur ce que la précédente vient de
+  produire, celle-ci ne dépend de personne.
+
+L'ordre est **une fiche par discipline en tournant**, la moins avancée d'abord. Le lecteur ne
+coche que trois disciplines, et un rattrapage alphabétique remplirait Anthropologie en entier
+avant de toucher à la Physique.
