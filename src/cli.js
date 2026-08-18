@@ -6,6 +6,7 @@
  *   npm run queue      file d'attente de relecture, par discipline
  *   npm run cible      quelle discipline alimenter maintenant, et combien
  *   npm run acontroler quelles fiches restent à relire au fond
+ *   npm run aquestionner quelles fiches n'ont encore qu'une question
  *   npm run stats      état de la base
  *   npm run export     export des fiches publiables vers export/
  */
@@ -155,6 +156,7 @@ const commandes = {
   arelire: cmdARelire, relecture: cmdRelecture,
   asonoriser: cmdASonoriser, sonoriser: cmdSonoriser,
   adroit: cmdADroit, 'controle-droit': cmdControleDroit,
+  aquestionner: cmdAQuestionner,
   heberger: cmdHeberger,
 };
 const commande = process.argv[2];
@@ -183,6 +185,12 @@ async function cmdAControler() {
  */
 async function cmdADroit() {
   afficherDroit(await fileDroit());
+}
+
+/** Quelles fiches servies n'ont encore qu'une seule question. */
+async function cmdAQuestionner() {
+  const { file, afficher } = await import('./questions.js');
+  afficher(await file());
 }
 
 /** Pose la trace d'une revue juridique. */

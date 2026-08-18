@@ -42,6 +42,7 @@ npm run areparer   # quelles fiches en retouche attendent d'être réparées
 npm run arelire    # quels brouillons sont prêts à être tranchés
 npm run asonoriser # quelles fiches publiables n'ont pas d'audio à jour
 npm run adroit     # quelles fiches juridiques redemandent une revue de juridiction
+npm run aquestionner # quelles fiches servies n'ont encore qu'une seule question
 npm run queue      # file d'attente par discipline
 npm run stats      # état de la base
 npm run export     # export des fiches publiables
@@ -238,6 +239,35 @@ droit s'écrit comme histoire et comme idée, jamais comme état actuel d'une r�
 vigueur. Le Statute of Anne de 1710 ne se périme pas. `npm run adroit` est le filet, pour
 celles qui passent entre les mailles — et sa file se déclenche **sur le temps** (six mois)
 et non sur l'empreinte, sans quoi une fiche que personne ne touche ne repasserait jamais.
+
+## Remplir le sac de questions
+
+`/questionner` (`.claude/commands/questionner.md`) écrit les questions supplémentaires des
+fiches qui n'en ont qu'une, dix par passage, **quatre fois par jour** (01:38, 07:38, 13:38,
+19:38). `npm run aquestionner` donne le lot.
+
+Le corpus a été écrit avec **une** question par fiche, et c'était suffisant tant qu'elle ne
+servait qu'une fois, le jour de la lecture. Le rappel, la révision et l'épreuve tirent tous
+dans le même sac : avec une seule question, ils rejouent celle du jour mot pour mot, et le
+lecteur qui la retrouve intacte croit avoir retenu ce qu'il a seulement reconnu.
+
+Deux choses la distinguent des quatre autres routines :
+
+- **C'est un rattrapage, pas un entretien.** Elle s'arrête d'elle-même quand chaque fiche
+  servie porte assez de questions, et elle ne doit jamais redevenir nécessaire : les fiches
+  neuves naissent avec les leurs. Une routine de rattrapage qu'on garde branchée en
+  permanence est le signe qu'on continue de commettre l'oubli qu'elle répare.
+- **Elle est hors du tour de rôle**, à une heure et demie de tout le monde. Les quatre autres
+  se passent le relais parce que chacune travaille sur ce que la précédente vient de produire ;
+  celle-ci ne dépend de personne et n'alimente personne dans la journée.
+
+L'ordre du lot est **une fiche par discipline en tournant**, la moins avancée d'abord. Ce
+n'est pas de l'esthétique : le lecteur ne coche que trois disciplines, et un rattrapage
+alphabétique remplirait Anthropologie en entier avant de toucher à la Physique. Même
+raisonnement que `src/cible.js`, pour la même raison.
+
+Ajouter des questions **change l'empreinte** de la fiche, donc elle repasse d'elle-même au
+contrôle. C'est voulu : un passage indépendant relit ce qui vient d'être écrit.
 
 ## Sonoriser les fiches
 
