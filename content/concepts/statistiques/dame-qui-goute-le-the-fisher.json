@@ -66,6 +66,52 @@
     "explication": "Un ordre qui paraît arbitraire à l'œil peut malgré tout suivre une régularité cachée, perceptible ou exploitable sans que l'expérimentateur en ait conscience. Seul un tirage réellement aléatoire garantit qu'aucun facteur caché ne vienne fausser le test, c'est ce que Fisher appelle la base physique de la validité du test.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "D'où vient le chiffre d'une chance sur 70 ?",
+      "choix": [
+        "Du nombre d'ordres de présentation possibles pour les huit tasses",
+        "Du nombre de façons de choisir quatre tasses parmi les huit",
+        "Du nombre de fois où l'expérience a été répétée à Rothamsted",
+        "Du nombre de tasses préparées pour chacune des deux séries"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Il existe exactement 70 manières de former un groupe de quatre tasses à partir de huit. Une seule correspond au bon classement : quelqu'un qui répondrait au hasard n'y parviendrait donc qu'une fois sur 70, et c'est à cet écart que se mesure la performance."
+    },
+    {
+      "question": "Qu'est-ce que l'hypothèse nulle, telle que Fisher l'introduit ?",
+      "choix": [
+        "Elle suppose l'absence d'effet réel et ne peut qu'être réfutée",
+        "Elle se démontre dès qu'un résultat dépasse le seuil du hasard",
+        "Elle décrit l'effet que l'expérimentateur attend avant le test",
+        "Elle fixe le nombre de tasses nécessaires à un test valide"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'hypothèse nulle est celle qui suppose qu'aucun effet réel n'existe, ici que la dame n'a aucune faculté de discrimination. Elle ne se démontre jamais : les données peuvent seulement la rendre invraisemblable, jamais la confirmer."
+    },
+    {
+      "question": "Que sait-on de l'issue réelle de l'expérience des huit tasses ?",
+      "choix": [
+        "Fisher rapporte dans son livre que la dame a classé les huit tasses",
+        "L'issue est consignée dans les archives de la station de Rothamsted",
+        "Fisher a renoncé à conduire l'expérience, la jugeant sans intérêt",
+        "Les deux versions connues viennent de témoignages tardifs et discordants"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Fisher traite le cas en exercice théorique et ne dit rien du résultat. La version d'un sans-faute vient d'un témoignage oral recueilli quarante ans après, celle d'un résultat imparfait d'une biographie écrite par sa fille : deux souvenirs tardifs qui se contredisent."
+    },
+    {
+      "question": "D'où vient le nom de Muriel Bristol, souvent donné à la dame ?",
+      "choix": [
+        "Du texte de Fisher, qui la nomme dès la première édition",
+        "Du registre du personnel de la station expérimentale",
+        "D'une biographie de Fisher écrite près d'un demi-siècle après",
+        "Du témoignage oral recueilli par David Salsburg"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Fisher ne nomme jamais la participante. L'identité de Muriel Bristol vient de la biographie écrite par la fille de Fisher, près de cinquante ans après les faits, et non du livre de 1935 ni du témoignage tardif qui porte, lui, sur le résultat."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

@@ -74,6 +74,52 @@
     "explication": "Le 4 ne peut rien démentir : la règle ne dit rien de ce que portent les nombres pairs, donc n'importe quelle lettre à son dos est compatible. Le 7, lui, la réfute s'il cache une voyelle. Le E reste nécessaire. Retourner le 4 revient à chercher une confirmation ; retourner le 7, à chercher un contre-exemple.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi retourner la carte 4 ne prouve-t-il rien ?",
+      "choix": [
+        "Parce que la règle ne dit rien de ce que doivent porter les nombres pairs",
+        "Parce que le 4 est déjà pair, ce qui vérifie la règle à lui seul",
+        "Parce qu'on connaît d'avance la lettre inscrite au dos du 4",
+        "Parce que la règle ne concerne que les cartes montrant une lettre"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La règle dit qu'une voyelle implique un nombre pair, pas l'inverse. Que le 4 cache une voyelle ou une consonne, elle reste intacte dans les deux cas. Le 7, lui, la démolit s'il cache une voyelle, et c'est pour cela qu'il faut le retourner."
+    },
+    {
+      "question": "Que dit la fiche du biais de confirmation dans la vie ordinaire ?",
+      "choix": [
+        "Il est une paresse intellectuelle qu'un peu d'effort suffit à corriger",
+        "Il est souvent efficace, et moins coûteux que de tout remettre en doute",
+        "Il ne se manifeste que chez les personnes les moins instruites",
+        "Il disparaît dès l'instant où l'on prend conscience de son existence"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Chercher ce qui confirme n'est pas un défaut de caractère : c'est une économie qui marche la plupart du temps. Le biais ne devient coûteux que lorsqu'on cherche la vérité plutôt que la commodité, dans un diagnostic, une enquête, un recrutement ou une expérience."
+    },
+    {
+      "question": "Pourquoi la méthode scientifique impose-t-elle des protocoles, selon la fiche ?",
+      "choix": [
+        "Parce que les chercheurs sont plus honnêtes que les autres",
+        "Parce que le biais s'annule dès lors qu'on travaille en équipe",
+        "Parce que les chercheurs n'y échappent pas davantage, et le savent",
+        "Parce que la loi leur impose de publier les résultats négatifs"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le protocole existe précisément parce que le réflexe de confirmation touche les chercheurs comme tout le monde. Il est construit à rebours de ce réflexe : on ne cherche pas à confirmer une hypothèse, on cherche à la faire tomber."
+    },
+    {
+      "question": "Quelle question la fiche propose-t-elle de se poser devant une conviction ?",
+      "choix": [
+        "Combien de personnes autour de moi partagent cette conviction ?",
+        "Depuis combien de temps est-ce que je la tiens pour vraie ?",
+        "Qu'est-ce qui la confirme de la façon la plus solide ?",
+        "Qu'est-ce qui, si je l'observais, me forcerait à en changer ?"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La question utile n'est pas ce qui appuie une idée, mais ce qui la ferait tomber. La fiche ajoute une conséquence sévère : si rien ne vient à l'esprit, ce n'était pas une conviction, c'était une préférence."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
