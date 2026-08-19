@@ -74,6 +74,41 @@
     "explication": "Le seuil de 5 % de faux positifs ne vaut que si une seule analyse a été tentée. En pratique, plusieurs choix raisonnables, quelles observations garder, quelles mesures comparer, sont souvent essayés jusqu'à en trouver un significatif, ce qui gonfle mécaniquement le taux réel de faux positifs, sans qu'aucun chercheur n'ait besoin de tricher consciemment. Une réplication préenregistrée, qui fixe l'analyse à l'avance, retrouve alors moins souvent l'effet annoncé.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Selon la simulation de 2011, à combien monte le taux de faux positifs quand quatre choix d'analyse ordinaires se combinent ?",
+      "choix": [
+        "À environ 10 %, soit le double du seuil visé",
+        "À 36 %, le taux retrouvé par les réplications",
+        "À 61 %, bien au-delà des 5 % attendus",
+        "À 97 %, la part d'études significatives d'origine"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Les 5 % que garantit le seuil p < 0,05 supposent qu'une seule analyse ait été tentée. En combinant quatre décisions banales, la simulation fait monter le taux de faux positifs à 61 %. Les 97 % et les 36 % sont les chiffres de l'étude de réplication de 2015, pas de cette simulation."
+    },
+    {
+      "question": "Comment les auteurs de « False-Positive Psychology » nomment-ils ces choix d'analyse ?",
+      "choix": [
+        "Le biais de publication propre aux revues scientifiques",
+        "L'erreur de mesure inhérente aux instruments employés",
+        "La dérive naturelle des effets au fil des années",
+        "Les degrés de liberté du chercheur"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Simmons, Nelson et Simonsohn insistent sur un point : ces décisions ne sont pas malhonnêtes, chacune paraît raisonnable prise isolément. C'est leur cumul qui gonfle le taux de faux positifs, et ils l'appellent les degrés de liberté du chercheur."
+    },
+    {
+      "question": "Que démontre John Ioannidis dans son article de 2005 ?",
+      "choix": [
+        "Que la fraude délibérée explique la majorité des résultats faux",
+        "Que la flexibilité laissée dans un champ abaisse la fiabilité de ses résultats",
+        "Que le seuil de 0,05 suffit à garantir la fiabilité d'une étude",
+        "Que les réplications échouent surtout par manque de moyens"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Ioannidis raisonne en probabilités : plus un champ laisse de latitude dans la conception des études, les définitions retenues et les analyses menées, moins ses résultats publiés ont de chances d'être vrais, quand bien même chaque étude respecterait les règles. Il ne parle pas de fraude."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
