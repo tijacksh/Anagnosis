@@ -80,14 +80,20 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-16",
+    "fait_le": "2026-08-19",
     "verdict": "ok",
-    "empreinte": "bad69dcb6634c644",
+    "empreinte": "054a2bf46b722706",
     "notes": [
-      "Notice de la loi rouverte. Confirmés : âge minimum de huit ans ; huit heures par jour de huit à douze ans et douze heures de douze à seize ; interdiction du travail de nuit de vingt et une heures à cinq heures pour les moins de treize ans ; application aux seuls établissements de plus de vingt salariés. Confirmé surtout le cœur de la fiche, la surveillance confiée à des commissions gratuites de notables locaux et d'entrepreneurs volontaires désignés par les préfets, et son échec — les notables répugnent à inspecter des industriels de leur propre classe. Réserve consignée, et raison pour laquelle la fiche ne date pas la création du corps d'inspecteurs rémunérés : les sources divergent entre un décret du 7 décembre 1868 et une création en 1871. La fiche écrit « plusieurs décennies », vrai dans les deux lectures. Juridiction française nommée."
+      "Recontrôle déclenché par le renommage de discipline droit -> droit_social le 2026-08-19 (le champ discipline fait partie de l'empreinte de fond), sans lien avec le contenu : confirmé par git log, aucun champ factuel n'a bougé depuis le contrôle du 16/08. Sources rouvertes malgré tout en entier : Wikipédia (âge minimum 8 ans, 8h/12h par tranche d'âge, interdiction du travail de nuit 21h-5h avant 13 ans, seuil de 20 salariés, échec des commissions par réticence de classe, décret du 7 décembre 1868), Herodote.net (mêmes chiffres confirmés mot pour mot, commissions nommées par les préfets et composées de notables et entrepreneurs bénévoles, création du corps d'inspecteurs en 1871 — divergence déjà connue et assumée par la fiche qui écrit prudemment « plusieurs décennies »), notice HAL de Claire Lemercier (identité confirmée via l'API HAL, contenu détaillé bloqué par anti-robot mais métadonnées cohérentes). Rien à corriger."
     ]
   },
-  "controle_juridique": null,
+  "controle_juridique": {
+    "fait_le": "2026-08-19",
+    "verdict": "ok",
+    "notes": [
+      "Juridiction : la France est nommee partout ou le lecteur la voit sans ouvrir la source, accroche (« la France interdit »), corps (« La loi francaise du 22 mars 1841 »), repere, carte.source_courte (« Loi francaise du 22 mars 1841 ») et question du quiz. Un lecteur belge ne peut pas la prendre pour la sienne. Mutabilite : fiche entierement historique. Son sujet est l'echec d'un dispositif de controle de 1841 sous la monarchie de Juillet, pas l'etat actuel d'une regle, et son troisieme temps porte sur l'organe et non sur la norme, conforme a la ligne editoriale §3.1. Un fait de 1841 n'a pas bouge. Les trois liens rouverts et vivants (fr.wikipedia 200, herodote.net 200, shs.hal.science 200). Rien a corriger."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-16",
     "genere_par": "claude-code",

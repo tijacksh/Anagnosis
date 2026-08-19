@@ -1,0 +1,114 @@
+{
+  "id": "dro-dabus-ia-nommee-inventeur-brevets",
+  "slug": "dabus-ia-nommee-inventeur-brevets",
+  "titre": "DABUS, la machine nommée inventeur d'un brevet",
+  "accroche": "Entre 2019 et 2023, plusieurs offices de brevets refusent de reconnaître l'IA de Stephen Thaler comme inventeur. Un seul accepte, sans trancher la question.",
+  "discipline": "droit_pi_ia",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "En 2019, l'ingénieur américain Stephen Thaler dépose des demandes de brevet dans une douzaine de pays et auprès de deux offices régionaux, pour deux objets : un récipient alimentaire dont les parois suivent une géométrie fractale, plus facile à empiler et à assembler, et un dispositif qui attire l'attention par une séquence de flashs conçue pour les opérations de recherche et de sauvetage. Sur chaque formulaire, à la case inventeur, il n'inscrit pas son propre nom, mais celui de DABUS, l'intelligence artificielle qu'il a conçue et qui a produit ces deux idées sans intervention humaine dans le résultat final. Thaler se présente seulement comme le propriétaire de la machine, revendiquant les droits par transfert depuis celle-ci.\n\n## Cinq offices, cinq refus et une exception\n\nLe refus arrive d'abord au Royaume-Uni, où l'office des brevets rejette la demande le 4 décembre 2019 ; la Cour d'appel confirme en septembre 2021, et la Cour suprême met un point final le 20 décembre 2023, en jugeant à l'unanimité que l'article 13(2)(a) du Patents Act de 1977 exige qu'un inventeur soit une personne physique.\n\nL'Office européen des brevets suit le même chemin : sa chambre de recours juridique rejette l'appel de Thaler le 21 décembre 2021, estimant qu'un inventeur désigné dans une demande doit être une personne dotée de la capacité juridique, ce qu'une machine, aussi sophistiquée soit-elle, ne possède pas.\n\nAux États-Unis, la cour d'appel fédérale du circuit fédéral tranche le 5 août 2022 dans l'affaire Thaler v. Vidal : le Patent Act réserve le mot individual à un être humain, ce que confirment, selon la cour, l'usage des pronoms himself et herself dans le texte de loi et l'obligation faite à tout inventeur de prêter serment, un acte qu'une machine ne peut pas accomplir.\n\nL'Australie offre un moment d'incertitude. Le 30 juillet 2021, le juge Beach de la Cour fédérale estime que rien, dans le Patents Act de 1990, n'exclut expressément qu'une intelligence artificielle soit inventrice. La décision fait grand bruit, mais la formation plénière de la même cour l'annule le 13 avril 2022, jugeant à l'unanimité que la structure entière de la loi, un inventeur qui reçoit des droits, les cède, prête serment, suppose une personne physique.\n\nReste l'Afrique du Sud, seul pays où DABUS figure aujourd'hui comme inventeur sur un brevet délivré, accepté fin juin 2021. Mais l'office sud-africain (CIPC) ne mène qu'un examen de forme : il vérifie que le dossier est complet, sans examiner ni la nouveauté de l'invention ni la validité de la personne désignée comme inventeur, ces questions étant, dans ce système, laissées à un éventuel procès ultérieur. L'office n'a donc jamais tranché que DABUS pouvait légalement inventer ; il n'a simplement jamais eu à se poser la question.\n\n## Cinq lois différentes, une même ligne\n\nUn tribunal britannique parle de personne physique, un tribunal américain d'individu au sens ordinaire du terme, l'Office européen des brevets de capacité juridique, la cour australienne de la structure entière de sa loi : des textes rédigés à des décennies et des océans de distance tombent sur la même exigence sans se citer les uns les autres. Le seul pays où DABUS a obtenu gain de cause ne l'a pas obtenu en tranchant la question, mais en ne la posant jamais.",
+  "citation": {
+    "texte": "Congress has determined that only a natural person can be an inventor, so AI cannot be.",
+    "auteur": "Cour d'appel fédérale des États-Unis pour le circuit fédéral",
+    "source": "Thaler v. Vidal, 43 F.4th 1207, 5 août 2022",
+    "url": "https://www.cafc.uscourts.gov/opinions-orders/21-2347.OPINION.8-5-2022_1988142.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Un seul pays a laissé une IA devenir inventeur, et ce n'est pas pour la raison qu'on croit.",
+    "idee": "Entre 2019 et 2023, le Royaume-Uni, l'Office européen des brevets, les États-Unis et l'Australie en appel ont tous refusé de reconnaître l'IA DABUS comme inventeur. Seule l'Afrique du Sud l'a acceptée, mais son office ne vérifie que la forme des dossiers, jamais qui peut légalement inventer.",
+    "source_courte": "Thaler v. Vidal, circuit fédéral, 2022"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Cour d'appel fédérale des États-Unis pour le circuit fédéral",
+      "titre": "Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022)",
+      "annee": 2022,
+      "url": "https://www.cafc.uscourts.gov/opinions-orders/21-2347.OPINION.8-5-2022_1988142.pdf",
+      "note": "Opinion du 5 août 2022 : le mot « individual » du Patent Act désigne exclusivement une personne physique."
+    },
+    {
+      "type": "institution",
+      "auteur": "Cour suprême du Royaume-Uni",
+      "titre": "Thaler v Comptroller-General of Patents, Designs and Trade Marks, [2023] UKSC 49",
+      "annee": 2023,
+      "url": "https://www.supremecourt.uk/cases/uksc-2021-0201",
+      "note": "Jugement unanime du 20 décembre 2023 : un inventeur au sens de l'article 13(2)(a) du Patents Act 1977 doit être une personne physique."
+    },
+    {
+      "type": "web",
+      "auteur": "Dennemeyer",
+      "titre": "South Africa and Australia tackle AI inventorship in patents",
+      "annee": 2021,
+      "url": "https://www.dennemeyer.com/ip-blog/news/south-africa-and-australia-tackle-ai-inventorship-in-patents/",
+      "note": "Explique que le système sud-africain de délivrance des brevets (CIPC) ne conduit qu'un examen de forme, sans examen de fond, et retrace la chronologie de la décision australienne du juge Beach."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Office européen des brevets, résumé de la décision J 8/20 sur DABUS",
+      "url": "https://www.mathys-squire.com/insights-and-events/news/j-8-20-epos-board-of-appeal-provides-written-decision-and-reasons-reconfirming-ai-cannot-be-named-as-inventor-on-european-patent-applications/",
+      "note": "Résumé juridique de la décision de la chambre de recours de l'OEB du 21 décembre 2021, motifs publiés le 5 juillet 2022."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Quatre rectangles pleins identiques, alignés en colonne serrée, représentent un ensemble ; à l'écart, isolé de l'autre côté du cadre, un seul rectangle en simple contour, non rempli, leur fait face. Aplats pleins uniquement, aucun dégradé. Deux encres : #775D7A (droit_pi_ia) et noir.",
+    "alt": "Quatre rectangles pleins alignés en colonne, face à un seul rectangle en contour isolé de l'autre côté du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le brevet accordé par l'office sud-africain ne prouve-t-il pas que ce pays reconnaît l'intelligence artificielle comme inventeur ?",
+    "choix": [
+      "Cet office n'examine pas le fond des demandes : il vérifie seulement que le dossier est complet",
+      "Le brevet a été annulé dès sa délivrance à la demande du gouvernement sud-africain",
+      "L'Afrique du Sud n'est partie à aucun traité international sur les brevets, ce qui rend le brevet inopérant",
+      "DABUS n'était en réalité désigné que comme co-inventeur, aux côtés de Stephen Thaler"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le système sud-africain (CIPC) ne mène qu'un contrôle de forme : il vérifie que le dossier est complet, sans examiner la nouveauté, l'inventivité, ni qui peut légalement être inventeur. Les offices qui examinent le fond, au Royaume-Uni, aux États-Unis, à l'Office européen des brevets et en Australie en appel, ont tous refusé DABUS.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-19T07:18:58.377Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-08-18T22:19:04.377Z",
+        "note": "Rouvert indépendamment, tout confirmé sauf un point déjà corrigé ici : opinion Thaler v. Vidal lue en intégralité (PDF, pages 5 à 11) — citation « Congress has determined that only a natural person can be an inventor, so AI cannot be. » exacte en clôture de la section IV, filed 08/05/2022 ; pronoms himself/herself confirmés §115(b)(2) et obligation de serment confirmée ; la cour note elle-même que le brevet sud-africain n'a pas d'incidence sur son interprétation du Patent Act. Jugement Cour suprême UK (20 décembre 2023, unanime, 5 juges, article 13(2)(a) confirmé). Article Dennemeyer (accord CIPC 24 juin 2021, examen de forme seulement). Recoupements web indépendants : refus UKIPO 4 décembre 2019, Cour d'appel 21 septembre 2021 (Bird & Bird) ; décision Beach J 30 juillet 2021, annulation unanime par la formation plénière le 13 avril 2022, FCAFC 62 (WIPO Lex, Lexology). Un écart trouvé : la page officielle du dossier EPO J 8/20 (https://www.epo.org/en/boards-of-appeal/decisions/j200008eu1) indique « Online on: 5 July 2022 », pas le 6 juillet écrit dans pour_aller_plus_loin — déjà corrigé dans le fichier. Comme la correction touche le texte, elle repasse par un contrôle indépendant avant revalidation plutôt que d'être validée dans la foulée de sa propre correction."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-19T07:18:58.377Z",
+        "note": "Aucun point signalé par le contrôle (verdict ok, « rien d'autre à signaler »). Revérification indépendante par sondage : dates rouvertes et confirmées mot pour mot sur les sources (Dennemeyer, Wikipedia « DABUS ») — refus UKIPO 4 décembre 2019, Cour d'appel UK 21 septembre 2021, Cour suprême UK 20 décembre 2023, OEB chambre de recours 21 décembre 2021, Thaler v. Vidal circuit fédéral 5 août 2022, décision Beach J Australie 30 juillet 2021, annulation par la formation plénière 13 avril 2022, acceptation CIPC Afrique du Sud 24 juin 2021 avec examen de forme seulement (confirmé texto par l'article Dennemeyer). Rien à corriger."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-19",
+    "verdict": "ok",
+    "empreinte": "104682ac1db079c3",
+    "notes": [
+      "Recontrôle après retouche de la routine-relecture (correction de date, 6→5 juillet 2022 pour la publication des motifs OEB J 8/20). Vérification indépendante : page officielle EPO (epo.org/en/boards-of-appeal/decisions/j200008eu1) confirme textuellement « Online on: 5 July 2022 », corroborant la correction. La source secondaire Mathys & Squire ne donne elle-même aucune date de publication des motifs, elle ne contredit donc pas non plus. Spot-check : citation Thaler v. Vidal confirmée mot pour mot dans le PDF officiel (« Congress has determined that only a natural person can be an inventor, so AI cannot be. »), article Dennemeyer confirme que le CIPC sud-africain ne mène qu'un examen de forme. Rien d'autre à signaler."
+    ]
+  },
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-08-18",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

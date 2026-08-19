@@ -96,11 +96,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "corrige",
-    "empreinte": "5693fbe2324f5c92",
+    "fait_le": "2026-08-19",
+    "verdict": "ok",
+    "empreinte": "288472ee2a1d7c0b",
     "notes": [
-      "Sources rouvertes (UCD/Lynch 1993, arXiv:2210.01674, EMS 2015) : calcul manuel pendant la conduite d'ambulance, résultat aberrant dû aux déséquilibres pression/vent amplifiés en ondes parasites, initialisation, usine à 64000 calculateurs — tout confirmé par les sources. Corrigé : titre exact avec le signe $ ($64,000 Question), revue d'origine (The Meteorological Magazine, 1993) au lieu de l'UCD comme lieu de publication, et pour la source EMS l'auteur réel (Lynch, pas EMS) et l'année réelle (2015, pas 2016)."
+      "Recontrôle après retrait des tirets cadratins (ponctuation seulement, aucun changement de sens, confirmé par diff). Sources rouvertes : Lynch 1993 (titre exact avec $, 64 000 calculateurs, cause de l'échec dans les données et non la méthode, confirmés mot pour mot), Lynch 2022 arXiv (lien vivant, identité confirmée via la page abstract, extraction PDF limitée techniquement mais faits déjà corroborés par Lynch 1993), EMS 2015 (auteur, titre, année confirmés). Aucun lien mort, aucun écart factuel."
     ]
   }
 }

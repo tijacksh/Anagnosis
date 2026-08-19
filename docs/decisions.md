@@ -885,3 +885,44 @@ qu'il se mesure, et qu'il existe quelque chose contre.
 
 Les clients ne décodaient pas `quiz_supplementaire` : le champ existait dans le schéma et
 dans les fiches, et les trois fonctions qui en dépendent tiraient dans un sac vide.
+
+---
+
+## 2026-08-19 — Le rappel sort du verrou, une fois par semaine (essai)
+
+**Décidé, à titre d'essai :** le rappel devient accessible sans abonnement, **une fois tous
+les sept jours**. Un abonné le retrouve chaque jour, comme avant.
+
+**Le défaut que ça corrige.** Ce qui différencie vraiment ce produit est la boucle qui
+transforme une lecture en connaissance — rappel, révision, relevé — et elle était entièrement
+derrière le verrou. Un lecteur gratuit ne pouvait donc jamais l'éprouver. L'épreuve offerte
+démontrait le **manque** une fois après trente jours, jamais le **remède** : on montrait la
+maladie sans laisser goûter le médicament.
+
+**Le même rappel, moins souvent, et pas un rappel diminué.** Donner une seule question au
+lieu de trois aurait été plus prudent et plus faux : le lecteur aurait goûté autre chose que
+ce qui est en vente. Sept jours, c'est assez pour sentir que ça marche et pas assez pour s'en
+passer.
+
+**Le compteur part du dernier rappel mené à son terme**, jamais de la dernière ouverture :
+refermer sans répondre ne consomme pas la semaine.
+
+**Comment on le défait.** Une seule constante, `joursEntreRappelsGratuits` / 
+`JOURS_ENTRE_RAPPELS_GRATUITS` : `0` rend le rappel entièrement gratuit, `Int.max` le remet
+entièrement derrière le verrou, c'est-à-dire l'état d'avant. Rien d'autre n'est à toucher, et
+aucune donnée de lecteur n'est modifiée par l'aller-retour — c'est ce qui rend l'essai
+réversible sans dette.
+
+### Ce que cet essai ne règle pas
+
+**La thèse et le verrou se contredisent toujours.** La règle écrite est « Premium ne donne pas
+plus de jours, il donne plus de chaque jour », or le verrou le plus fort du code reste un
+verrou de jours : tout ce qui a plus de deux jours se ferme, et l'argument de tête du paywall
+est « jusqu'à soixante jours en arrière ». Le produit dit au lecteur qu'un concept par jour
+suffit, puis lui vend des jours en plus.
+
+La sortie cohérente serait de **libérer le passé et de vendre la mémoire** : gratuit, le
+concept du jour et toute l'archive ; payant, tout ce qui fait retenir. Elle est écartée pour
+l'instant faute de données — on retirerait le verrou qui produit aujourd'hui la frustration
+payante, sans savoir ce que la boucle de mémoire convertit seule. L'essai du rappel
+hebdomadaire est le premier pas qui permettra de le savoir.

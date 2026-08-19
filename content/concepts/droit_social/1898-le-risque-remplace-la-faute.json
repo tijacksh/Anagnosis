@@ -41,9 +41,9 @@
       "type": "web",
       "auteur": "Les clés du social",
       "titre": "Accidents du travail, la loi du 9 avril 1898",
-      "annee": 2018,
+      "annee": 2009,
       "url": "https://www.clesdusocial.com/accidents-du-travail-la-loi-du-9-avril-1898",
-      "note": "Contexte parlementaire et portée du texte dans la construction de la protection sociale française."
+      "note": "Présente le régime de responsabilité sans faute et le contraste avec le régime antérieur du code civil, où la preuve de la faute incombait à l'ouvrier."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -82,14 +82,20 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-16",
-    "verdict": "ok",
-    "empreinte": "bc922f86b14142a5",
+    "fait_le": "2026-08-19",
+    "verdict": "corrige",
+    "empreinte": "1ce1f77ce1252d48",
     "notes": [
-      "Notice de la loi rouverte, et fiche Legifrance de la version initiale vérifiée accessible au navigateur (elle renvoie 403 aux robots, pas aux lecteurs). Barèmes du repère confirmés mot pour mot : « une personne frappée d'incapacité à 70 % touchera une rente équivalent à seulement 55 % de son salaire » et « les veufs et orphelins touchent une rente dérisoire, de 30 % du salaire ». Confirmés aussi le régime de responsabilité sans faute, la notion de risque professionnel, le caractère forfaitaire de l'indemnisation, l'abrogation par l'ordonnance du 19 octobre 1945 et l'intégration par la loi du 30 octobre 1946. Juridiction française nommée dans le titre du texte et dans le corps. Fiche historique : le texte est abrogé depuis 1945 et la fiche le dit, donc aucun risque de mutabilité."
+      "Sources rouvertes : Legifrance (403 aux robots, accessible et confirmée au navigateur, version initiale), Wikipédia (barèmes du repère confirmés mot pour mot : 70% -> 55% du salaire, veuve/orphelins -> 30%, abrogation ordonnance du 19 octobre 1945, intégration loi du 30 octobre 1946), Les clés du social. Corrigé : l'année de la source Les clés du social était 2018, alors que la page indique elle-même une publication du 17 avril 2009 (confirmée dans le corps de la page et les métadonnées DC.Date) ; et sa note promettait un « contexte parlementaire » absent du texte, remplacée par ce que la page couvre réellement (responsabilité sans faute, contraste avec le code civil antérieur). Recontrôle déclenché par le renommage de discipline droit -> droit_social, sans lien avec le fond : confirmé par comparaison avec le contrôle du 16/08, aucun autre champ n'avait bougé."
     ]
   },
-  "controle_juridique": null,
+  "controle_juridique": {
+    "fait_le": "2026-08-19",
+    "verdict": "ok",
+    "notes": [
+      "Juridiction : nommee dans l'accroche (« Une loi francaise de 1898 »), dans le corps (« Un ouvrier francais », « la loi francaise du 9 avril 1898 »), dans la source du repere, dans carte.source_courte et dans la question du quiz. Mutabilite : c'est la fiche du lot ou la question se posait le plus, et elle y repond d'elle-meme. La loi de 1898 est abrogee depuis l'ordonnance d'octobre 1945, les accidents du travail relevant de la securite sociale depuis la loi du 30 octobre 1946, et la fiche le dit dans son corps. Elle decrit donc un regime clos, pas une regle en vigueur. La fiche Legifrance du repere (JORFTEXT000000692875) renvoie 403 aux robots mais s'ouvre au navigateur : rouverte dans le panneau, elle affiche bien « Loi du 9 avril 1898 CONCERNANT LES RESPONSABILITES DANS LES ACCIDENTS DU TRAVAIL », mention « VERSION INITIALE », soit exactement ce que la fiche cite. Lien vivant, pas mort. Rien a corriger."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-16",
     "genere_par": "claude-code",

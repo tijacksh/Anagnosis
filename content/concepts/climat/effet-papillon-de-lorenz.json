@@ -51,7 +51,7 @@
   ],
   "pour_aller_plus_loin": [
     {
-      "titre": "Shen et al. — Les 50 ans de la métaphore du papillon",
+      "titre": "Shen et al., Les 50 ans de la métaphore du papillon",
       "url": "https://repository.library.noaa.gov/view/noaa/69596/noaa_69596_DS1.pdf",
       "note": "En anglais, en accès libre ; démêle les usages abusifs de la formule."
     }
@@ -96,11 +96,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "497b8e6401d06441",
+    "fait_le": "2026-08-18",
+    "verdict": "corrige",
+    "empreinte": "f0910bde5935c291",
     "notes": [
-      "Sources rouvertes : Ghys (PDF ICME-12 2012, lu intégralement) confirme le calcul de 1961 sur le Royal McBee LGP-30 (ordinateur de bureau, 1961), le rearrondi .506127→.506, la divergence sur ~2 mois de données simulées, l'article de 1963 'Deterministic Nonperiodic Flow' (Journal of the Atmospheric Sciences) ignoré des mathématiciens plus de dix ans, et la conférence AAAS de 1972 (139e réunion) intitulée 'Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?'. MIT Technology Review (2011, '50 years ago') confirme l'épisode de 1961 et la citation exacte trois fois hors météorologie en dix ans. NOAA repository (Shen et al., éditorial Atmosphere 2023 14(8):1279, DOI 10.3390/atmos14081279) confirmé existant et en accès libre via recherche croisée (NOAA, ResearchGate, MDPI) malgré un blocage anti-bot (403) empêchant la lecture directe automatisée. Distinction prévision météo (~2 semaines) / projection climatique (propriétés statistiques) conforme au consensus (Lorenz 1969, Charney et al. 1966). Repere, carte et quiz cohérents avec les sources, bonne réponse en position 2 sur 4, longueur conforme. Aucune correction nécessaire."
+      "Contrôle consécutif à la purge des tirets cadratins du 2026-08-05 (commit 5091a13). Relecture complète de contenu_vulgarise, repere, carte et quiz : aucune phrase rendue bancale ou ambiguë par le remplacement tiret->virgule dans ces champs. Sources rouvertes et reconfirmées : Ghys (PDF ICME-12 2012 telecharge et lu integralement) confirme le Royal McBee LGP-30 (1961), l'anecdote du café et des deux mois de données divergentes, la phrase de Lorenz sur les trois décimales, l'article de 1963 'Deterministic Nonperiodic Flow' ignore des mathematiciens plus de dix ans, et la conference AAAS de 1972 au titre cite mot pour mot. MIT Technology Review (2011) reconfirme l'arrondi .506127->.506, la citation exacte trois fois hors meteorologie en dix ans, et le titre precis de la conference de 1972. NOAA/Shen et al. (DOI 10.3390/atmos14081279) toujours bloque par un pare-feu anti-bot (403) sur repository.library.noaa.gov et mdpi.com ; existence, titre, auteurs (Shen, Pielke, Zeng), revue Atmosphere 2023 et propos (distinction entre depedance sensible aux conditions initiales et interpretation metaphorique abusive) reconfirmes independamment via l'API Semantic Scholar. Horizon de deux semaines et distinction meteo/climat conformes au consensus deja etabli. Quiz et carte inchanges et coherents. Correction mecanique : un tiret cadratin residuel avait echappe a la purge du 2026-08-05 dans pour_aller_plus_loin[0].titre ('Shen et al. — Les 50 ans...') ; remplace par une virgule, comme partout ailleurs dans la fiche. Aucun fait a signaler."
     ]
   }
 }
