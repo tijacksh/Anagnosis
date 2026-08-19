@@ -59,6 +59,41 @@
     "explication": "C'est l'hypothèse du wobble proposée par Crick en 1966 : l'appariement entre la troisième base du codon et la première base de l'anticodon de l'ARN de transfert tolère des paires non standard. Une même molécule d'ARN de transfert peut donc reconnaître plusieurs codons synonymes, ce qui absorbe une partie des mutations sans changer l'acide aminé produit. Les autres réponses décrivent des mécanismes qui n'existent pas à cette étape.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment se répartissent les 64 codons du code génétique ?",
+      "choix": [
+        "61 codons de sens et 3 codons d'arrêt",
+        "60 codons de sens et 4 codons d'arrêt",
+        "44 codons de sens et 20 codons d'arrêt",
+        "64 codons de sens, l'arrêt étant signalé autrement"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Quatre lettres lues trois par trois donnent 64 combinaisons. Trois d'entre elles servent de signal d'arrêt, les 61 autres désignent un acide aminé parmi les vingt standard : presque trois fois plus de mots que de sens à coder."
+    },
+    {
+      "question": "Quels acides aminés ne sont codés que par un seul codon, selon la fiche ?",
+      "choix": [
+        "La leucine et la sérine",
+        "Le tryptophane et la méthionine",
+        "L'arginine et la leucine",
+        "La sérine et l'arginine"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La leucine, la sérine et l'arginine sont chacune codées par six codons différents ; le tryptophane et la méthionine n'en ont qu'un seul. La redondance du code n'est donc pas répartie également entre les acides aminés."
+    },
+    {
+      "question": "Combien d'ARN de transfert suffisent aux bactéries pour lire les 61 codons de sens ?",
+      "choix": [
+        "Soixante et un, un par codon de sens",
+        "Vingt, un par acide aminé standard",
+        "Soixante-quatre, un par combinaison possible",
+        "Trente et un, une même molécule lisant plusieurs codons"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Comme la troisième lettre du codon tolère un appariement plus lâche, un même ARN de transfert reconnaît plusieurs codons qui n'en diffèrent que par cette lettre. Chez les bactéries, 31 ARN de transfert suffisent pour les 61 codons de sens."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

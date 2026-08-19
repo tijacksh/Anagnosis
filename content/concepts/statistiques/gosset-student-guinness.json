@@ -63,6 +63,41 @@
     "explication": "Guinness interdisait formellement à ses employés de publier sous leur propre nom, par crainte que des brasseries concurrentes n'apprennent qu'elle utilisait des méthodes scientifiques avancées. Gosset a donc signé la plupart de ses vingt et une publications « Student », jusqu'à sa mort en 1937.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel obstacle pratique les méthodes statistiques de l'époque posaient-elles à la brasserie ?",
+      "choix": [
+        "Elles ne s'appliquaient qu'à des mesures de température",
+        "Elles supposaient de connaître d'avance la qualité du lot",
+        "Elles exigeaient au moins cent cinquante mesures par série",
+        "Elles ne pouvaient être calculées que par un mathématicien"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Les méthodes de Karl Pearson demandaient des échantillons d'au moins cent cinquante mesures pour rester fiables, un luxe qu'aucune brasserie ne pouvait s'offrir à chaque contrôle de lot. C'est ce problème que la méthode de Gosset a résolu."
+    },
+    {
+      "question": "Qui a compris le premier la portée générale du travail de Gosset ?",
+      "choix": [
+        "Karl Pearson, qui l'avait formé à l'University College de Londres",
+        "Ronald Fisher, avec qui il a échangé plus de cent cinquante lettres",
+        "Thomas Bennett Case, premier brasseur scientifique de Guinness",
+        "La revue Biometrika, qui a diffusé la méthode dès 1908"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Pearson, qui avait pourtant formé Gosset, n'a jamais mesuré la portée de son travail. C'est Fisher, dans une correspondance de plus de cent cinquante lettres entre 1912 et 1934, qui a vu que l'outil valait pour toute mesure reposant sur peu d'observations."
+    },
+    {
+      "question": "Que permet de mesurer la méthode publiée par Gosset en 1908 ?",
+      "choix": [
+        "La teneur en résine du houblon, sans prélever d'échantillon",
+        "Le nombre de mesures manquantes dans une série incomplète",
+        "La qualité d'une bière à partir de sa seule composition chimique",
+        "L'incertitude d'une moyenne calculée sur un petit échantillon"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Gosset cherchait à savoir si l'écart entre deux séries d'une dizaine de mesures reflétait une vraie différence ou le simple hasard de l'échantillonnage. Sa loi, dite de Student, donne l'incertitude réelle d'une moyenne calculée sur peu d'observations."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

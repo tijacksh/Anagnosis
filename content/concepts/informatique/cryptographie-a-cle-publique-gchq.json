@@ -80,6 +80,41 @@
     "explication": "Cocks lui-même explique que l'évaluation était juste pour son époque : sans microprocesseurs bon marché ni réseau public à sécuriser, un tel chiffrement aurait exigé du matériel spécialisé, cher, et resté trop lent pour l'usage prévu. Ce n'est pas une erreur de jugement scientifique, mais un constat pratique, l'idée a bien été formalisée par écrit dès novembre 1973.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel rôle James Ellis a-t-il joué dans cette histoire ?",
+      "choix": [
+        "Il a trouvé la fonction à sens unique fondée sur la factorisation",
+        "Il a démontré la possibilité théorique sans savoir la réaliser",
+        "Il a rédigé le schéma d'échange de clé de janvier 1974",
+        "Il a décidé de déclassifier les travaux du GCHQ en 1997"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Ellis a couché dans un rapport de janvier 1970 la démonstration qu'un chiffrement sans clé partagée à l'avance était possible, sans savoir comment le construire. La fonction à sens unique est venue de Cocks en 1973, le schéma d'échange de clé de Williamson en 1974."
+    },
+    {
+      "question": "Sur quoi Clifford Cocks a-t-il fondé sa solution, trouvée en une soirée ?",
+      "choix": [
+        "Sur un bruit ajouté à une conversation téléphonique",
+        "Sur une clé secrète échangée physiquement au préalable",
+        "Sur la factorisation de grands nombres",
+        "Sur un générateur de nombres aléatoires partagé à l'avance"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le rapport de Cocks, daté du 20 novembre 1973, décrit une fonction à sens unique fondée sur la factorisation de grands nombres, qu'Ellis qualifiera d'essentiellement l'algorithme RSA. Le bruit ajouté à une conversation vient du rapport de guerre qui avait mis Ellis sur la piste."
+    },
+    {
+      "question": "Pourquoi le GCHQ a-t-il déclassifié ces travaux en 1997 ?",
+      "choix": [
+        "Parce que Diffie et Hellman réclamaient l'ouverture des archives",
+        "Parce que le brevet protégeant RSA venait d'expirer",
+        "Parce que James Ellis en avait fait la condition de son départ",
+        "Parce qu'une conférence de Cocks allait soulever la question"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Cocks devait donner une conférence publique sur la cryptographie à clé publique. Pour devancer les questions inévitables sur l'antériorité, l'agence a choisi de déclassifier ses propres travaux avant l'événement, un mois après la mort d'Ellis."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
