@@ -65,6 +65,41 @@
     "explication": "L'argument ne porte sur aucune liste particulière : il part d'une liste quelconque et en fabrique un nombre absent. Comme rien n'a été supposé de la liste, la conclusion vaut pour toutes. Ce n'est pas une limite d'écriture ni de connaissance des décimales, et l'écart vaut aussi contre les fractions, qui s'apparient elles avec les entiers.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Selon la définition que Cantor prend au sérieux, quand deux ensembles ont-ils la même taille ?",
+      "choix": [
+        "Quand on peut apparier leurs éléments un à un, sans qu'aucun ne reste de côté",
+        "Quand ils contiennent le même nombre de nombres pairs",
+        "Quand l'un est inclus dans l'autre sans le dépasser",
+        "Quand leurs éléments peuvent tous être listés dans un ordre croissant"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Cantor définit deux ensembles comme étant de même taille quand on peut apparier leurs éléments un à un, sans qu'aucun ne reste sans partenaire des deux côtés."
+    },
+    {
+      "question": "Qu'ont montré Gödel puis Cohen à propos de l'hypothèse du continu ?",
+      "choix": [
+        "Qu'elle est fausse, comme l'a démontré Cohen dès 1963",
+        "Qu'elle est vraie, comme Cantor l'avait supposé sans preuve",
+        "Qu'elle dépend du nombre d'entiers pairs compris dans l'intervalle étudié",
+        "Qu'elle est indécidable, ni démontrable ni réfutable à partir des axiomes usuels"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Gödel montre en 1940 que l'hypothèse du continu ne peut pas être réfutée à partir des axiomes usuels, et Cohen montre en 1963 qu'elle ne peut pas non plus être démontrée : elle est indécidable."
+    },
+    {
+      "question": "Que peut-on dire des nombres réels qu'aucune formule ni aucun algorithme ne peut décrire ?",
+      "choix": [
+        "Ils n'existent pas, puisqu'on ne peut pas les nommer",
+        "Ils forment l'écrasante majorité des nombres réels",
+        "Ils sont en nombre égal à ceux qu'on peut décrire",
+        "Ils se limitent à quelques exceptions rares et exotiques"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les nombres descriptibles par une formule ou un algorithme forment une liste dénombrable ; presque tous les réels échappent donc à toute description, et sont en écrasante majorité."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

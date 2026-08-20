@@ -75,6 +75,41 @@
     "explication": "Construire l'arbre par le bas, en partant des symboles les moins fréquents, garantit mathématiquement la longueur moyenne minimale : c'est ce que Huffman a démontré, là où la méthode descendante de Shannon et Fano ne pouvait pas l'assurer. Le nombre de bits par symbole varie justement selon sa fréquence, c'est le principe même de la compression.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel choix le professeur Robert Fano propose-t-il à ses étudiants en 1951 ?",
+      "choix": [
+        "Un examen oral devant l'ensemble de la classe, ou un mémoire de fin d'études",
+        "Un projet de groupe sur la théorie de l'information, ou un stage en entreprise",
+        "Un examen final, ou un devoir écrit sur un problème de compression",
+        "Un examen final classique, sans autre possibilité offerte aux étudiants"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Fano propose à ses étudiants un choix : un examen final, ou un devoir écrit sur un seul problème, celui de la représentation la plus efficace des symboles."
+    },
+    {
+      "question": "Que révèle la réaction de Fano en découvrant la solution de Huffman ?",
+      "choix": [
+        "Qu'il s'étonne de la simplicité d'une solution qu'il cherchait depuis des années",
+        "Qu'il refuse d'abord de croire que Huffman a résolu le problème",
+        "Qu'il reproche à Huffman de ne pas avoir choisi l'examen final",
+        "Qu'il propose aussitôt à Huffman de cosigner l'article de 1952"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Fano s'exclame, avec son accent italien : « Is that all there is to it ! », ce qui traduit sa surprise devant une solution qu'il cherchait depuis des années avec Shannon."
+    },
+    {
+      "question": "Où retrouve-t-on aujourd'hui le principe du codage de Huffman, selon la fiche ?",
+      "choix": [
+        "Uniquement dans les formats audio comme le MP3",
+        "Dans le ZIP, le JPEG et les normes de télécopie",
+        "Dans les processeurs, comme méthode de calcul arithmétique",
+        "Dans les protocoles de chiffrement comme RSA"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte cite le format ZIP, le JPEG et les normes de télécopie comme usages actuels du codage de Huffman, plus de soixante-dix ans après sa publication."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
