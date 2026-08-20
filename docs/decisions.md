@@ -1063,3 +1063,81 @@ pour celui qui ne change pas.
   de changer de téléphone sans rien perdre. Elle transporte donc aussi l'état, `premium`
   compris — ce qui est sans effet tant que le droit ne vient pas de la boutique, et une raison
   de plus pour qu'il en vienne.
+
+---
+
+## 2026-08-20 — Le paiement : deux boutiques, aucun serveur
+
+**Décidé :** 3,99 €/mois et 29,99 €/an, sept jours d'essai, **facturation entièrement côté
+client**. StoreKit 2 sur iOS, Play Billing 7 sur Android. Aucun backend, aucun compte, aucun
+service tiers.
+
+### Pourquoi pas de serveur de validation
+
+L'intuition veut qu'il faille un backend pour valider les reçus. C'était vrai de l'ancienne
+API d'Apple ; ce ne l'est plus. **StoreKit 2 rend des transactions signées par Apple que le
+système vérifie sur l'appareil**, et Play rend un achat signé que la bibliothèque vérifie
+contre la clé de licence. Il n'y a rien à héberger pour savoir si quelqu'un a payé.
+
+Ce que cette absence préserve est exactement ce que l'écran des réglages promet depuis le
+début : pas de compte, pas d'identifiant, rien qui sorte. Un service de validation aurait
+exigé une identité de lecteur — donc un compte, donc une base, donc une surface de données
+personnelles — pour vérifier ce que la plateforme vérifie déjà.
+
+**RevenueCat et ses équivalents sont écartés** pour la même raison : ils règlent le
+cross-plateforme, au prix d'un SDK tiers qui voit les achats dans une app qui n'envoie rien, et
+d'une dépendance payante et perpétuelle.
+
+### Ce que ça coûte, et qu'on assume
+
+**Le droit est par boutique.** Un abonné iOS qui passe à Android repaie. Il n'existe aucun
+moyen de l'éviter sans système de comptes, et le produit a choisi de ne pas en avoir
+(2026-07-31). C'est une décision, pas un oubli.
+
+### La synchronisation, qui est deux choses distinctes
+
+**Entre les appareils d'une même personne** : rien à construire. L'abonnement suit
+l'identifiant Apple ou le compte Google. Le partage familial est une case à cocher de chaque
+côté, et couvre six personnes.
+
+**Entre l'app et la boutique** : au lancement, puis en écoutant `Transaction.updates` et le
+`PurchasesUpdatedListener`. La veille démarre **avant** le chargement des produits : une
+transaction peut arriver sans qu'on l'ait demandée — renouvellement, achat fait ailleurs,
+remboursement — et celle qui tomberait pendant le chargement serait perdue.
+
+Hors ligne, `Transaction.currentEntitlements` lit le magasin local : un abonné dans un avion
+reste abonné, sans cache à inventer ni période de grâce à régler.
+
+### `premium` quitte l'état du lecteur
+
+C'était une réserve depuis le 2026-08-02 ; elle devient une règle. Le droit vit dans le dépôt,
+alimenté par la boutique, et **jamais dans `EtatLecteur`** : un droit rangé dans l'état
+voyagerait dans une restauration de sauvegarde, et un abonnement expiré ne redescendrait
+jamais. La bascule de démonstration ne subsiste que pour l'atelier, et elle est inopérante
+hors atelier quelle que soit la valeur qu'une sauvegarde y aurait remise.
+
+### Trois pièges déjà rencontrés
+
+- **Aucun prix écrit en dur.** Il change avec le pays, la devise et les révisions tarifaires ;
+  un prix codé dans l'app finit par mentir à l'endroit précis où le lecteur décide de payer.
+  Même chose pour l'essai gratuit, qui vient de la fiche produit et peut être retiré côté
+  console.
+- **Play rembourse tout achat non acquitté au bout de trois jours.** L'oubli ne se voit pas en
+  test, où l'on acquitte dans la minute ; il se voit en production, sous la forme d'abonnés qui
+  disparaissent le surlendemain sans que rien ne l'explique.
+- **La facturation Play tire `fragment:1.1.0`**, et l'API de résultat d'activité exige 1.3.0.
+  Lint le refuse au moment de construire une release, jamais en débogage : sans la version
+  imposée explicitement, la panne ne serait apparue qu'à la publication.
+
+### Ce qui reste à faire, et que le code ne peut pas faire
+
+Signer le *Paid Applications Agreement* d'Apple avec les coordonnées bancaires et fiscales,
+ouvrir le compte marchand Google, puis déclarer les produits dans les deux consoles avec les
+identifiants attendus par le code : `com.tijack.anagnosis.premium.mensuel` et `.annuel` côté
+Apple, `premium_mensuel` et `premium_annuel` côté Google. **Un identifiant de produit est
+définitif** : le renommer crée un second produit, et les abonnés du premier se retrouvent avec
+un droit que l'app ne reconnaît plus.
+
+Tant qu'ils n'existent pas, l'écran de vente affiche « L'abonnement n'est pas disponible pour
+l'instant », ce qui est exact. Un fichier `Support/Anagnosis.storekit` permet de tout essayer
+depuis Xcode sans rien créer sur App Store Connect.
