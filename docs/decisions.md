@@ -989,3 +989,77 @@ tienne d'ici là.
 contournerait le bouton grisé, aujourd'hui ou dans six mois, ne doit pas rendre le changement
 gratuit. Et la fusion entre appareils prend toujours le côté le plus restrictif : on ne
 récupère jamais un changement en changeant de téléphone.
+
+---
+
+## 2026-08-20 — Séparer l'atelier de la boutique, et ce que vaut la sécurité
+
+**Décidé :** les outils de test disparaissent de l'application distribuée au public, et
+restent visibles pour les testeurs. Le partage se fait par un seul verrou, `Atelier.actif`.
+
+### Pourquoi ce n'est pas `#if DEBUG`
+
+**Une build TestFlight est une build Release.** Un `#if DEBUG` aurait caché les outils à ceux
+qui en ont le plus besoin, et à personne d'autre — puisque le seul binaire qui sort d'ici part
+sur TestFlight.
+
+Sur iOS, ce qui distingue vraiment les deux est le **reçu** : TestFlight en pose un « bac à
+sable », l'App Store un reçu de production. C'est la seule différence observable entre deux
+binaires par ailleurs identiques, et elle est décidée par Apple à la distribution, pas par
+nous à l'archivage. **C'est ce qui rend l'oubli impossible** : avec deux configurations, il
+suffit d'archiver la mauvaise un soir de fatigue pour livrer la bascule d'abonnement au monde.
+Ici il n'y a rien à choisir.
+
+Android n'a pas d'équivalent : un AAB de piste interne est une build release comme celle de
+production. Il faut donc **deux artefacts**, d'où un type de build `beta` qui pose
+`BuildConfig.ATELIER` à vrai. Même signature et même identifiant que `release` : un
+`applicationIdSuffix` obligerait le testeur à désinstaller pour passer en production, donc à
+perdre son historique. `outils/publier-play.py` envoie `beta` sur la piste interne et
+`release` en production, et le refuse dans l'autre sens.
+
+### Ce qui disparaît en boutique
+
+Les dix-neuf forçages de ligne de commande, la bascule Gratuit/Premium des réglages, la
+section Développement (remise à zéro, graine, décompte du corpus) et l'écran de contrôle du
+socle. Vérifié en construisant en Release et en lançant avec `-amorcer 1 -onglet reglages` :
+l'app démarre sur l'onboarding, comme un vrai premier lancement.
+
+Un trou trouvé en regardant cet écran, et qu'aucun test n'aurait vu : **l'onboarding ne
+plafonnait pas les disciplines**. Un lecteur gratuit pouvait en cocher dix à l'inscription et
+n'en perdre aucune ensuite, la limite ne mordant qu'au premier changement, c'est-à-dire jamais
+pour celui qui ne change pas.
+
+### La revue de sécurité, et ce qu'elle ne dit pas
+
+**Ce qui tient :**
+
+- Le contenu distant est signé en Ed25519 et **vérifié avant d'être décodé**, des deux côtés.
+  Une prise de contrôle de l'hébergement ne peut pas réécrire les sources des fiches.
+- Chaque fichier audio est vérifié par son empreinte SHA-256 après téléchargement, avant
+  d'être joué.
+- Un seul point réseau par client, en clair dans les réglages, et rien n'est envoyé : pas de
+  compte, pas d'identifiant, aucune mesure d'usage. Aucune exception ATS sur iOS, aucun trafic
+  en clair autorisé sur Android, aucun schéma d'URL déclaré.
+- Aucune clé privée dans les dépôts. La clé de signature du contenu vit dans `~/.anagnosis/`,
+  celle d'App Store Connect dans `~/.appstoreconnect/`, le compte de service Play dans
+  `~/.playconsole/`, le trousseau Android dans `~/.anagnosis/`. Les trois dépôts sont privés.
+
+**Ce qui ne tient pas, et qu'il faut savoir :**
+
+- **`Atelier.actif` n'est pas une frontière de sécurité, c'est une frontière d'affichage.** Un
+  binaire se modifie, un conteneur se réécrit sur un appareil débridé.
+- **`premium` est un booléen rangé dans l'état du lecteur**, sauvegardé par la plateforme et
+  fusionné entre appareils. Aujourd'hui c'est une bascule de démonstration, et rien n'est en
+  jeu. **Le jour où l'abonnement se vend, le droit devra venir de StoreKit et de Play
+  Billing, vérifiés, jamais de ce champ.** La réserve était déjà consignée le 2026-08-02 ;
+  elle devient bloquante à partir du moment où il y a de l'argent.
+- **Le mot de passe du trousseau Android est en clair dans `build.gradle.kts`.** Le trousseau
+  lui-même n'est pas versionné et les dépôts sont privés, donc ce n'est pas exploitable en
+  l'état — mais les deux se retrouveraient ensemble le jour où l'un des deux fuit.
+- **R8 est désactivé** (`isMinifyEnabled = false`). Sans conséquence directe ici, le seul
+  secret embarqué étant une clé **publique** ; à reprendre quand les règles de conservation
+  pour BouncyCastle et kotlinx-serialization auront été écrites et éprouvées.
+- **La sauvegarde Android reste activée**, et c'est voulu : c'est elle qui permet à un lecteur
+  de changer de téléphone sans rien perdre. Elle transporte donc aussi l'état, `premium`
+  compris — ce qui est sans effet tant que le droit ne vient pas de la boutique, et une raison
+  de plus pour qu'il en vienne.
