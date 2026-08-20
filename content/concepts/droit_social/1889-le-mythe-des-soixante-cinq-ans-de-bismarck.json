@@ -10,7 +10,7 @@
   "duree_lecture_min": 4,
   "contenu_vulgarise": "Berlin, 1889. Le Reichstag vote la loi sur l'assurance vieillesse et invalidité, dernier étage d'un édifice construit en trois lois depuis 1883 : l'assurance maladie d'abord, l'assurance contre les accidents ensuite, la retraite enfin. C'est le premier système public et obligatoire d'assurance vieillesse au monde. On répète souvent qu'il fixe l'âge de la retraite à soixante-cinq ans parce que c'était l'âge du chancelier qui l'a voulu, Otto von Bismarck. L'histoire est fausse sur presque tous ses points.\n\n## Un chiffre qui n'est pas soixante-cinq\n\nLe texte de 1889 fixe l'âge d'ouverture des droits à soixante-dix ans, pas soixante-cinq. À l'époque, Bismarck a soixante-quatorze ans : il a donc déjà dépassé de quatre ans l'âge qu'on lui prête d'avoir choisi pour lui-même. L'âge ne descend à soixante-cinq ans qu'en 1916, vingt-sept ans plus tard, sous le règne de Guillaume II, dix-huit ans après la mort de Bismarck en 1898. Et l'espérance de vie moyenne, dans l'Allemagne des années 1880, tourne autour de quarante ans : la rente vieillesse profite donc, au départ, à une minorité de travailleurs.\n\n## Ce que Bismarck a lui-même reconnu vouloir\n\nLe vrai motif, en revanche, ne relève pas du mythe. Bismarck vient de faire interdire le parti social-démocrate par la loi de 1878, sans parvenir à réduire son influence électorale. Dans un message impérial lu au Reichstag le 17 novembre 1881, il propose une autre voie : non plus seulement réprimer, mais aussi convaincre. Il ira jusqu'à l'admettre ouvertement, dans une formule que la Fondation Otto-von-Bismarck a conservée et traduite : « Mon idée était de convaincre les classes laborieuses, ou dois-je dire, de les corrompre, afin qu'elles considèrent l'État comme une institution sociale. »\n\nLes trois lois se succèdent. L'assurance maladie, fin mai 1883, financée aux deux tiers par les salariés et pour un tiers par les employeurs. L'assurance contre les accidents, en juillet 1884, entièrement à la charge des employeurs. L'assurance vieillesse et invalidité, en juin 1889, financée à parts égales entre employeurs et salariés, complétée par une subvention de l'État. Entre 1885 et 1913, le nombre d'Allemands assurés passe de quatre millions trois cent mille à treize millions six cent mille.\n\nL'Allemagne, en s'y prenant la première, a fourni un modèle que la plupart des systèmes de retraite occidentaux ont ensuite adapté à leur tour, sans toujours en retenir ni la date exacte, ni le motif d'origine, ni le chiffre réel.",
   "citation": {
-    "texte": "Mon idée était de convaincre les classes laborieuses, ou dois-je dire, de les corrompre, afin qu'elles considèrent l'État comme une institution sociale.",
+    "texte": "Mon idée était de convaincre les classes laborieuses – ou dois-je dire : de les corrompre ? – afin qu'elles considèrent l'État comme une institution sociale.",
     "auteur": "Otto von Bismarck",
     "source": "Propos rapportés, cités et traduits de l'allemand par la Fondation Otto-von-Bismarck (Otto-von-Bismarck-Stiftung)",
     "url": "https://www.bismarck-biografie.de/fr/politik/bismarcks-sozialgesetzgebung-1881-1890"
@@ -73,19 +73,28 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-19T22:21:27.304Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-19T22:21:27.304Z",
+        "note": "Sources rouvertes indépendamment via navigateur réel (ssa.gov et bismarck-biografie.de rendent 403 aux requêtes automatisées mais s'ouvrent normalement au navigateur) : Fondation Otto-von-Bismarck (dates des trois lois 1883/1884/1889, financement 2/3-1/3 puis totalité employeurs puis parts égales+subvention du Reich, âge de départ fixé à 70 ans, espérance de vie ~40 ans, citation allemande et sa traduction confirmées mot pour mot) ; Social Security Administration (âge de Bismarck 74 ans au vote, mythe des 65 ans confirmé, abaissement à 65 ans en 1916 soit 27 ans plus tard et 18 ans après la mort de Bismarck en 1898, l'Allemagne bien 'first nation in the world' à instaurer une assurance vieillesse publique) ; Smithsonian Magazine (4,3M puis 13,6M assurés 1885-1913, loi anti-socialiste de 1878 confirmée) ; germanhistorydocs.org (discours du 15 mars 1884 confirmé comme extraits marqués « [...] », pas un texte intégral traduit comme l'avait dit une version antérieure). Carte, quiz et corps vérifiés conformes aux sources, aucune affirmation en trop. Point relevé et à corriger juste après cette décision : citation.texte avait été lissée en virgules par le contrôle précédent, alors que source/citation doivent rester verbatim (règle du dépôt) — restauration des tirets, du deux-points et du point d'interrogation d'origine juste après validation, ce qui fera repasser la fiche au contrôle pour un troisième passage indépendant."
+      }
+    ]
   },
   "controle": {
-    "fait_le": "2026-08-19",
-    "verdict": "corrige",
-    "empreinte": "d9a01211115f45ac",
+    "fait_le": "2026-08-20",
+    "verdict": "ok",
+    "empreinte": "f36ef786a92042f6",
     "notes": [
-      "Sources rouvertes : Fondation Otto-von-Bismarck (citation confirmée mot pour mot, dates des trois lois 1883/1884/1889, âge de 70 ans, financement), Social Security Administration (âge de Bismarck 74 ans, passage à 65 ans en 1916, 18 ans après sa mort — page en 403 pour les robots mais accessible et confirmée par lecture directe), Smithsonian Magazine (4,3M puis 13,6M assurés), discours de Bismarck du 15 mars 1884 sur germanhistorydocs.org. Corrigé : pour_aller_plus_loin annonçait un « texte intégral traduit », alors que la page se présente elle-même comme un extrait coupé (« […] ») — changé en « extraits traduits ». Rien d'autre à signaler : la ponctuation de la citation (virgules au lieu des tirets de la page source) suit la règle éditoriale du dépôt sur les tirets cadratins."
+      "Troisième passage indépendant, déclenché par la restauration du verbatim de citation.texte lors de la relecture. Quatre sources rouvertes : Fondation Otto-von-Bismarck (dates des trois lois 1883/1884/1889, âge de 70 ans, financement 2/3-1/3 puis totalité employeurs puis parts égales + subvention, espérance de vie ~40 ans, citation confirmée mot pour mot avec ses tirets et son point d'interrogation) ; Social Security Administration, ouverte via navigateur car 403 aux requêtes automatisées (âge de Bismarck 74 ans au vote, abaissement à 65 ans en 1916 soit 27 ans plus tard et 18 ans après sa mort en 1898, Allemagne bien première nation au monde) ; Smithsonian Magazine (4,3M puis 13,6M assurés 1885-1913, loi anti-socialiste de 1878) ; germanhistorydocs.org (discours du 15 mars 1884 confirmé comme extraits, cohérent avec le libellé actuel de pour_aller_plus_loin). Corps, citation, carte et quiz conformes aux sources, aucun écart relevé. Rien à corriger."
     ]
   },
   "controle_juridique": null,

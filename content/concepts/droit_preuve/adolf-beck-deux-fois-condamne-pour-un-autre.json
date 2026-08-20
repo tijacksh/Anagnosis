@@ -63,14 +63,14 @@
     ],
     "bonne_reponse": 2,
     "explication": "La première condamnation pouvait passer pour un accident isolé. La seconde, en 1904, prononcée sur la même base et malgré l'existence d'un dossier de 1877 décrivant un escroc au mode opératoire identique, a montré que l'identification visuelle ne garantissait rien et qu'aucune procédure ne permettait de rouvrir un jugement déjà rendu, d'où la création de la Court of Criminal Appeal en 1907.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [],
-  "statut": "valide",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-08-19T19:18:19.557Z",
+    "decide_le": "2026-08-20T07:16:47.727Z",
     "historique": [
       {
         "action": "valider",
@@ -95,15 +95,23 @@
         "par": "routine-reparation",
         "le": "2026-08-19T19:18:19.557Z",
         "note": "Sources rerouvertes : rapport du Committee of Inquiry 1904 (archive.org, texte intégral), Wikipedia « Adolf Beck case ». Grâce royale : le rapport primaire confirme que Beck avait déjà reçu ses grâces le 27 juillet 1904 (« by 27th July »), contre le 29 juillet donné par Wikipedia — écart tranché en faveur de la source primaire contemporaine, corps et note Wikipedia mis à jour pour l'expliciter. Ordre biographique : le rapport primaire confirme l'arrivée en Angleterre en 1865 comme clerc chez un courtier maritime (pas courtier lui-même), un passage par le chant à Aberdeen, puis le départ fin 1868 pour l'Amérique du Sud où il chante avant de devenir courtier à son tour, et le retour à Londres en mai 1885 — corps réécrit dans cet ordre. Les trois corrections de la précédente réparation (onze femmes, rôle de Kane, Wilhelm Meyer né à Vienne) et le reste de la fiche (dates, peine, indemnité, Criminal Appeal Act) restent confirmés."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-08-20T07:16:47.727Z",
+        "note": "Troisième passage après deux réparations déjà tentées. Sources rouvertes (rapport du Committee of Inquiry 1904, Wikipedia Adolf Beck case et Court of Criminal Appeal) : l'essentiel reste exact, mais le contrôle du 2026-08-20 a identifié deux écarts de fond non corrigeables sans réécrire le texte une troisième fois — 'sa peine purgée' au lieu de 'discharged on licence' (libération conditionnelle après 5 ans et 4 mois sur 7), et la mention d'un imprésario absente de la source primaire. Conformément à la règle des deux réparations, la fiche est rejetée plutôt que retouchée une troisième fois."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-19",
+    "fait_le": "2026-08-20",
     "verdict": "a_revoir",
-    "empreinte": "792d8ffb715baae1",
+    "empreinte": "a20b54fa30cc80df",
     "notes": [
-      "Sources rouvertes : rapport du Committee of Inquiry 1904 (archive.org), Wikipedia « Adolf Beck case », Wikipedia « Court of Criminal Appeal ». Les trois corrections de la routine de réparation sont confirmées exactes (onze femmes, rôle de Kane par guet et reconnaissance et non comparaison d'écriture, Wilhelm Meyer né à Vienne). Deux nouveaux écarts trouvés, qui touchent le sens : (1) le corps date la grâce royale du 29 juillet 1904, une date qui vient de Wikipedia, mais la source primaire citée en premier dans la fiche dit que Beck avait déjà reçu ses grâces « by 27th July » — recherche dédiée du terme « pardon » dans tout le document, aucune mention du 29 juillet. Écart de deux jours entre les deux sources de la fiche elle-même, non résolu ; (2) le corps dit Beck « ancien courtier maritime devenu chanteur en Amérique du Sud » avant son retour en 1885. Les deux sources donnent l'ordre inverse : en Angleterre dès 1865 il est clerc chez un courtier maritime (pas courtier lui-même), puis en Amérique du Sud à partir de 1868 il est d'abord chanteur, puis devient courtier. La séquence et le poste anglais sont donc inversés/inexacts. À reprendre : trancher la date de la grâce entre les deux sources (ou expliciter l'écart), et corriger l'ordre biographique (clerc de courtier en Angleterre, puis chanteur, puis courtier, en Amérique du Sud)."
+      "Sources rouvertes (rapport du Committee of Inquiry 1904 sur archive.org, Wikipedia « Adolf Beck case », Wikipedia « Court of Criminal Appeal »). L'essentiel confirmé mot pour mot : onze femmes, dates des deux procès (3-5 mars 1896 et 27 juin 1904), sept ans de travaux forcés, cinq témoins au second procès, dossier de 1877 sous le nom John Smith, arrestation du vrai coupable le 7 juillet 1904 en flagrant délit, rôle de l'inspecteur Kane, séance de reconnaissance où trois des cinq témoins de 1904 confondent Thomas/Meyer (confirmée par Wikipedia), Wilhelm Meyer né à Vienne, grâce royale au plus tard le 27 juillet 1904, indemnité 2000 puis 5000 livres, Criminal Appeal Act (28 août 1907, en vigueur le 18 avril 1908), affaire Edalji, ordre biographique (clerc chez un courtier maritime, puis chanteur, Amérique du Sud, retour 1885). Deux écarts qui touchent le sens, non corrigés : (1) le corps dit Beck sort de prison en juillet 1901 'sa peine purgée' — la source primaire dit explicitement qu'il a été 'discharged on licence' le 8 juillet 1901, une libération conditionnelle pour bonne conduite après environ 5 ans et 4 mois sur une peine de 7 ans, pas une peine purgée en totalité ; (2) le premier paragraphe dit qu'un homme 'se disant lord ou imprésario leur a promis un engagement ou un cadeau' — la source primaire ne documente que le seul stratagème du lord (Lord Willoughby/Wilton) proposant bijoux et installation comme maîtresse, aucune mention d'un imprésario ni d'une promesse d'engagement professionnel n'a été trouvée dans le texte intégral malgré recherche dédiée. Statut repassé à en_retouche."
     ]
   },
   "controle_juridique": {

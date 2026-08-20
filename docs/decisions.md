@@ -926,3 +926,66 @@ concept du jour et toute l'archive ; payant, tout ce qui fait retenir. Elle est 
 l'instant faute de données — on retirerait le verrou qui produit aujourd'hui la frustration
 payante, sans savoir ce que la boucle de mémoire convertit seule. L'essai du rappel
 hebdomadaire est le premier pas qui permettra de le savoir.
+
+---
+
+## 2026-08-19 — Le Premium compartimenté
+
+**Décidé :** la frontière entre gratuit et payant est arrêtée, écran par écran.
+
+| | Gratuit | Premium |
+|---|---|---|
+| Concept du jour | oui | oui |
+| Recul | 3 jours, **même déjà lue** | tout, rien ne se referme |
+| Disciplines | 3, **un changement offert** | toutes, un changement par mois |
+| Rappel | une fois par semaine | trois questions par jour |
+| Récap, relevé | **ouverts**, fiches cliquables | ouverts |
+| Écoute, recherche, révision, planches, PDF | fermés | ouverts |
+| Épreuve offerte | une fois | une fois |
+| Historique | conservé intégralement | conservé |
+
+**L'historique reste entier quoi qu'il arrive.** Un lecteur gratuit ne peut plus rouvrir une
+fiche de la semaine dernière, mais son journal, ses réponses et son relevé la connaissent
+toujours. Fermer l'accès n'est pas effacer la trace : les statistiques de lecture continuent
+de dire vrai, et un abonnement rouvre un passé complet plutôt qu'un passé reconstitué.
+
+### Ce que le récap et le relevé ouverts changent
+
+C'était le seul arbitrage vraiment disputé. Avec les règles ci-dessus, le profil d'un lecteur
+gratuit affichait **quatre cadenas à la suite**, ce qui se lit comme une démo et non comme un
+produit.
+
+La sortie retenue est meilleure que celle que j'avais proposée : les deux écrans restent
+ouverts, **et chaque ligne y devient une porte**. Le lecteur voit ses fiches par leur nom, en
+touche une, et tombe sur l'offre. Une carte fermée dit « il y a quelque chose derrière » ; un
+écran ouvert dont les portes butent dit **exactement ce qui manque**, avec un titre à l'appui.
+
+Conséquence sur la liste de vente : le récap et le relevé en sortent. Un argument qu'on peut
+avoir sans payer affaiblit tous les autres. Leurs motifs d'abonnement mènent désormais à
+l'argument du **passé**, parce que c'est le passé qui manque à ce moment-là, pas l'écran.
+
+### Les disciplines
+
+Trois sans abonnement, et le plafond vaut **exactement** le plancher : cocher une quatrième
+n'affiche pas un refus, ça ouvre l'offre. Le lecteur découvre la limite en la touchant, jamais
+en lisant une note en bas d'écran.
+
+**Un seul changement offert, et il ne se recharge jamais.** Figer le choix à vie était la
+règle demandée ; elle a été adoucie d'un cran parce que « j'ai coché Archéologie par curiosité
+et je suis coincé » est le seul cas où le lecteur a raison d'être furieux, et c'est un
+désinstallé, pas un abonné. Un changement rend l'erreur rattrapable sans ouvrir le zapping.
+
+Côté Premium, toutes les disciplines mais **un changement par mois** : chaque changement
+rebat les jours à venir, et le rendre libre inviterait à piocher dans le corpus en changeant
+de sélection tous les matins. C'est une protection contre soi-même plus qu'un verrou
+commercial.
+
+**Un chiffre à garder en tête :** à trois disciplines, la suite d'un lecteur fait une
+trentaine de jours avant de boucler et de resservir des fiches. Le contenu se répète donc au
+bout d'un mois pour qui ne s'abonne pas. C'est le levier voulu, à condition que tout le reste
+tienne d'ici là.
+
+**Le refus est décidé dans le dépôt, pas seulement dans l'écran.** Un chemin qui
+contournerait le bouton grisé, aujourd'hui ou dans six mois, ne doit pas rendre le changement
+gratuit. Et la fusion entre appareils prend toujours le côté le plus restrictif : on ne
+récupère jamais un changement en changeant de téléphone.
