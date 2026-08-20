@@ -1141,3 +1141,41 @@ un droit que l'app ne reconnaît plus.
 Tant qu'ils n'existent pas, l'écran de vente affiche « L'abonnement n'est pas disponible pour
 l'instant », ce qui est exact. Un fichier `Support/Anagnosis.storekit` permet de tout essayer
 depuis Xcode sans rien créer sur App Store Connect.
+
+---
+
+## 2026-08-20 — Le rattrapage se remplissait de disciplines non choisies
+
+**Constaté sur appareil**, et confirmé en lisant l'état : sélection *chimie, physique,
+mathématiques*, programme rempli de **quinze** autres disciplines — océanographie, littérature,
+paléontologie, et le reste. Le calendrier les listait toutes sous « disciplines du mois », et
+l'archive annonçait dix-huit concepts servis dont presque aucun n'appartenait au lecteur.
+
+**La cause : le trousseau survit à une désinstallation, la sélection non.** À la
+réinstallation, `debut` revient du trousseau — c'est exactement ce qu'on lui demande, et c'est
+ce qui fait qu'un programme se reconstitue à l'identique — mais les disciplines, elles, sont
+dans l'état effacé. Or `Corpus.suite` prend **toutes** les disciplines quand la sélection est
+vide. Le programme se construisait donc sur le corpus entier, avant que l'onboarding n'ait posé
+les trois.
+
+**Et le mal était durable**, ce qui est le vrai défaut : la consolidation saute les jours déjà
+inscrits, par construction et à juste titre. Terminer l'onboarding ne reprenait donc pas ceux
+qui venaient d'être écrits. Le lecteur gardait pour toujours un rattrapage fait de fiches qu'il
+n'avait pas choisies, et lui seul pouvait s'en apercevoir.
+
+Le correctif tient en une condition : **rien n'est programmé tant que le lecteur n'a pas
+choisi**. Un test le verrouille de chaque côté, en partant d'un trousseau garni et d'un état
+vide, c'est-à-dire de la situation exacte d'une réinstallation.
+
+### Trois autres défauts du même écran
+
+- **Le refus silencieux.** Cocher une quatrième discipline ne produisait rien : ni message, ni
+  offre. Le lecteur en concluait que l'app ne répondait pas, pas qu'il touchait une limite.
+  Le refus se dit maintenant sous la famille où il a eu lieu, et il nomme son issue.
+- **« 18 concepts servis »** chez un lecteur qui n'en ouvre que trois. Le compte n'était pas
+  faux, il répondait à une question que personne ne pose : ce qu'on veut savoir en ouvrant
+  l'archive, c'est ce qu'on peut relire. Il dit désormais « 3 ouverts sur 18 servis ».
+- **Le bloc « à écouter »** du calendrier liste des fiches de toutes les disciplines, y compris
+  celles que le lecteur n'a pas cochées et ne peut pas cocher. C'est un banc d'essai pour la
+  voix, et il passe à l'atelier — sous les yeux d'un lecteur, il donnait à voir un corpus qu'il
+  n'a pas et une sélection qui n'aurait servi à rien.
