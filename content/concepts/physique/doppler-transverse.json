@@ -70,6 +70,41 @@
     "explication": "À 90°, la composante d'approche est nulle : la géométrie des ondes ne prédit aucun décalage. Ce qui subsiste vient du ralentissement de l'horloge en mouvement, une source lumineuse étant une horloge, sa fréquence perçue baisse. C'est un effet purement relativiste, sans équivalent pour le son. Le rougissement gravitationnel, lui, est un phénomène distinct, lié à la masse et non à la vitesse.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi Ives et Stilwell n'ont-ils pas simplement visé un angle de 90 degrés en 1938 ?",
+      "choix": [
+        "Parce que viser exactement cet angle est hors de portée, et l'effet y est minuscule",
+        "Parce que la relativité restreinte interdit toute mesure à angle droit",
+        "Parce que leur instrument ne pouvait mesurer que des faisceaux parallèles au sol",
+        "Parce qu'Einstein leur avait recommandé une autre méthode dans son article de 1905"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Viser exactement l'angle droit est hors de portée en pratique, et l'effet y est minuscule, aussitôt noyé sous l'effet Doppler classique dès qu'il subsiste la moindre composante d'approche."
+    },
+    {
+      "question": "Comment Ives et Stilwell mesurent-ils l'effet sans viser l'angle droit, en 1938 ?",
+      "choix": [
+        "En utilisant un accélérateur circulaire qui annule tout mouvement d'approche",
+        "En comparant la lumière de deux sources placées à des vitesses différentes",
+        "En moyennant deux mesures de signes opposés, dans l'axe du mouvement et dans l'axe inverse",
+        "En mesurant le décalage sur des milliers d'étoiles pour lisser l'erreur de visée"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Ils observent le faisceau dans l'axe du mouvement et son image inversée par un miroir : les deux décalages classiques, de signes opposés, s'annulent en moyenne et laissent le seul terme relativiste."
+    },
+    {
+      "question": "Que dit la fiche à propos de l'effet Doppler acoustique lors d'un passage exactement perpendiculaire ?",
+      "choix": [
+        "Il produit toujours un léger décalage vers le rouge, plus faible qu'en approche",
+        "La note redevient exactement celle du départ, car la vitesse d'approche est nulle",
+        "Il s'inverse brutalement, passant d'un son aigu à un son grave",
+        "Il devient imprévisible et varie selon la distance de l'observateur"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Pour le son, au moment précis du passage perpendiculaire, il n'y a plus de vitesse d'approche ni d'éloignement, donc plus de décalage : la note redevient exactement celle du départ."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
