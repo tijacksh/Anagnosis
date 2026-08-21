@@ -75,6 +75,41 @@
     "explication": "Une conjecture portant sur tous les entiers ne se démontre pas en les essayant : il en restera toujours une infinité au-delà du dernier vérifié, et c'est là que pourrait se cacher une suite divergente ou un cycle. Le calcul est exact et exhaustif jusqu'à sa borne, ce n'est ni une question de précision ni d'échantillonnage.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Jusqu'à quelle borne la conjecture de Collatz a-t-elle été vérifiée par calcul informatique ?",
+      "choix": [
+        "Jusqu'à 2 puissance 32, soit environ quatre milliards",
+        "Jusqu'à 2 puissance 50, soit environ mille milliards de milliards",
+        "Jusqu'à 2 puissance 68, soit environ 295 milliards de milliards",
+        "Jusqu'à 2 puissance 100, un nombre à trente et un chiffres"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le calcul de Bařina, en 2020, vérifie tous les entiers jusqu'à 2 puissance 68, soit environ 295 milliards de milliards, sans que cela ne démontre la conjecture pour autant."
+    },
+    {
+      "question": "Qu'établit précisément le résultat de Terence Tao publié en 2019 ?",
+      "choix": [
+        "Que la conjecture de Collatz est vraie pour tous les entiers pairs",
+        "Que presque tous les entiers descendent sous toute fonction tendant vers l'infini",
+        "Que la conjecture de Collatz est équivalente à l'hypothèse de Riemann",
+        "Que tout cycle éventuel devrait nécessairement contenir le nombre 1"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Tao démontre qu'au sens d'une densité logarithmique, presque tous les entiers finissent par descendre sous n'importe quelle fonction tendant vers l'infini, même très lentement."
+    },
+    {
+      "question": "Pourquoi la division par deux et la multiplication par trois résistent-elles à un traitement mathématique unifié ?",
+      "choix": [
+        "Parce que l'une des deux opérations n'est définie que pour les nombres pairs",
+        "Parce qu'aucun ordinateur ne peut effectuer les deux calculs dans le même programme",
+        "Parce que la multiplication par trois change la parité du nombre à chaque fois",
+        "Parce qu'aucune écriture ne rend les deux opérations simples à la fois, l'une claire en binaire, l'autre en ternaire"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La division par deux est limpide en écriture binaire, la multiplication par trois en écriture ternaire, et aucun système ne rend les deux simples ensemble."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

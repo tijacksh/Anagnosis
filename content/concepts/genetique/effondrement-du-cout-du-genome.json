@@ -65,6 +65,41 @@
     "explication": "Le changement n'est pas une amélioration progressive des machines existantes, comme le prédit la loi de Moore pour les transistors : c'est un saut de méthode, du séquençage fragment par fragment à la lecture massivement parallèle. Les autres réponses mêlent des faits réels (financement, séquence de référence de 2003, baisse du prix des ordinateurs) sans rendre compte de la rupture précise observée dans les données du NHGRI.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel événement de 2003 marque l'achèvement du Human Genome Project, treize ans après son lancement ?",
+      "choix": [
+        "L'annonce de la séquence complète du génome, pour environ 2,7 milliards de dollars",
+        "La publication du premier brouillon couvrant environ 90 % du génome",
+        "Le dépôt du premier brevet sur une séquence génétique humaine",
+        "Le lancement du séquençage massivement parallèle par les NIH"
+      ],
+      "bonne_reponse": 0,
+      "explication": "En 2003, le consortium annonce la séquence complète après treize ans de travail, pour un coût final d'environ 2,7 milliards de dollars, sous le budget initial de trois milliards."
+    },
+    {
+      "question": "Que remplace le séquençage massivement parallèle apparu vers 2007, par rapport à la méthode Sanger ?",
+      "choix": [
+        "Le séquençage chimique par des méthodes de lecture optique à distance",
+        "L'usage de l'ADN humain par de l'ADN synthétique reconstitué en laboratoire",
+        "Le stockage des données sur bande magnétique par un stockage en ligne",
+        "La lecture fragment par fragment par la lecture simultanée de millions de fragments"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La méthode Sanger lisait l'ADN fragment par fragment, chaque lecture demandant sa propre réaction chimique, quand le séquençage de nouvelle génération lit des millions de fragments en parallèle."
+    },
+    {
+      "question": "Que coûte aujourd'hui, pour un patient donné, plus cher que la seule lecture de son génome ?",
+      "choix": [
+        "Le transport des échantillons biologiques vers les laboratoires d'analyse",
+        "La formation du personnel médical à la lecture des résultats",
+        "Le stockage, l'annotation et l'interprétation des variants génétiques",
+        "L'achat et la maintenance des séquenceurs de nouvelle génération"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Lire un génome n'a jamais été toute l'opération : le stocker, l'annoter et interpréter ses variants coûte aujourd'hui plus cher, pour un patient donné, que la lecture elle-même."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
