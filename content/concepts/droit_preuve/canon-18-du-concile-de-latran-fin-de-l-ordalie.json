@@ -64,13 +64,37 @@
     ],
     "bonne_reponse": 3,
     "explication": "L'ordalie ne valait comme preuve que parce qu'un prêtre la consacrait au nom de Dieu. Le concile n'organise aucune procédure de remplacement, ni pour l'Angleterre ni pour aucun royaume : en retirant la bénédiction, il rend l'épreuve religieusement vide, ce qui a forcé chaque juridiction à trouver sa propre solution, comme le jury anglais.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-20T22:19:07.936Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-20T22:19:07.936Z",
+        "note": "Sources rouvertes indépendamment : Fordham Medieval Sourcebook (citation du canon 18 confirmée mot pour mot : 'No cleric may pronounce a sentence of death...' et 'Neither shall anyone in judicial tests or ordeals... bestow any blessing') ; New Advent Catholic Encyclopedia (bulle du 19 avril 1213, session du 11 au 30 novembre 1215, présidence d'Innocent III, 70 décrets, 71 patriarches/métropolites, 412 évêques, 900 abbés et prieurs confirmés) ; Encyclopedia.com/Levy (instruction royale de 1219 citée mot pour mot : 'in doubt and not definitely settled... since trial by fire and water has been prohibited', juges laissés à leur discrétion). Chaque affirmation du corps, la citation, la carte et le quiz correspondent exactement aux sources. Aucune correction nécessaire."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-20",
+    "verdict": "ok",
+    "empreinte": "49c1d38f2ea068c0",
+    "notes": [
+      "Sources rouvertes : Fordham Medieval Sourcebook (texte intégral du canon 18, trad. Schroeder — citation exacte confirmée mot pour mot : « No cleric may pronounce a sentence of death... » et « Neither shall anyone in judicial tests or ordeals by hot or cold water or hot iron bestow any blessing ») ; New Advent, Catholic Encyclopedia (bulle de convocation du 19 avril 1213, sessions du 11 au 30 novembre 1215, présidence d'Innocent III, 70 décrets, effectifs confirmés : 71 patriarches/métropolites, 412 évêques, 900 abbés et prieurs) ; Encyclopedia.com d'après Levy (instruction royale anglaise de 1219 citée mot pour mot : incertitude sur le mode de jugement, juges laissés « perplexed but free to improvise »). Carte, citation et quiz conformes aux sources. Rien à corriger."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-20", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-20",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

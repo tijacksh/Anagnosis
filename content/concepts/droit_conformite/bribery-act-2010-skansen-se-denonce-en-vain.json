@@ -79,13 +79,13 @@
     ],
     "bonne_reponse": 1,
     "explication": "La seule défense prévue par l'article 7 porte sur les procédures adéquates en place au moment des faits, en 2013 ; une dénonciation spontanée en 2014, aussi complète soit-elle, ne peut pas rattraper leur absence antérieure.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-20T10:16:44.807Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-20T19:16:00.790Z",
     "historique": [
       {
         "action": "retoucher",
@@ -94,15 +94,23 @@
         "par": "routine-relecture",
         "le": "2026-08-20T10:16:44.807Z",
         "note": "5 sources rouvertes indépendamment (legislation.gov.uk art.7 texte + notes explicatives, Addleshaw Goddard, Cooley LLP, Wikipedia) + FCPA 1977 et Sapin II 2016 revérifiés (Wikipedia EN/FR) pour la comparaison finale : dates (sanction royale 8/4/2010, entrée en vigueur 1/7/2011), montants (6M£ contrats, pot-de-vin 29 000£), noms (Stephen Banks verse à Graham Deakin, DTZ), verdict et statut de première affaire contestée, carte et quiz tous confirmés conformes aux sources. Deux corrections texte apportées, empreinte modifiée donc reste à recontrôler : 'relaxe sans peine' remplacé par 'dispense de peine' (l'absolute discharge du jugement anglais est un verdict de culpabilité SANS peine, pas un acquittement — la fiche se contredisait elle-même une phrase plus loin en disant 'le verdict de culpabilité fait jurisprudence') ; 'licencie le responsable' remplacé par 'licencie son prédécesseur' (ambigu : pouvait se lire comme le licenciement du responsable de projet chez DTZ — Graham Deakin, qui recevait les pots-de-vin et n'était pas salarié de Skansen — alors que c'est le prédécesseur Stephen Banks, qui les versait, qui a été licencié)."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-20T19:16:00.790Z",
+        "note": "Fiche entière revérifiée en rouvrant les 5 sources : legislation.gov.uk (art. 7 texte intégral, confirme la défense de « procédures adéquates » et la charge de preuve inversée) et ses notes explicatives ; Addleshaw Goddard et Cooley LLP (faits, montants, la dispense de peine faute d'actifs, le licenciement de Stephen Banks distinct de Graham Deakin chez DTZ, première défense de l'art. 7§2 devant un jury et première à être rejetée) ; Wikipedia EN (sanction royale 8/4/2010, entrée en vigueur 1/7/2011). Comparaison FCPA 1977 et Sapin II 2016 revérifiée indépendamment (Wikipedia EN/FR) : FCPA n'a pas de défense équivalente, Sapin II impose un programme à huit volets contrôlé par l'AFA en amont plutôt qu'une défense pénale. Corps, repère, carte, sources et quiz tous conformes. Les deux corrections de la relecture précédente confirmées exactes. Rien à changer."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-08-20",
-    "verdict": "corrige",
-    "empreinte": "2e262ad85617ca60",
+    "verdict": "ok",
+    "empreinte": "7b55cf0bfc28cf7d",
     "notes": [
-      "5 sources rouvertes (legislation.gov.uk art.7 + notes explicatives, Addleshaw Goddard, Cooley LLP, Wikipedia) : dates, montants (6M£ contrats, 10 000£ + 29 000£ pots-de-vin), verdict et statut de première affaire contestée tous confirmés ; FCPA 1977 et Sapin II 2016 (comparaison) vérifiés par recherche externe. Seule correction : tiret cadratin retiré de repere.texte (virgule à la place)."
+      "Fiche retouchée par routine-relecture depuis le dernier contrôle (2 corrections : « dispense de peine » et « licencie son prédécesseur »). Sources rouvertes pour revérifier spécifiquement ces deux points : Addleshaw Goddard (confirme le verdict de culpabilité suivi d'un absolute discharge faute d'actifs, et le licenciement de Stephen Banks — l'ex-directeur général qui avait versé les pots-de-vin — distinct de Graham Deakin, le responsable de projet chez DTZ qui les recevait et n'était pas salarié de Skansen) ; Cooley LLP (confirme « the only sentence available to the judge was an absolute discharge » et le licenciement du directeur général après la tentative de 3e versement de 29 000 £). Les deux corrections de la relecture sont exactes. Rien d'autre à corriger."
     ]
   },
   "controle_juridique": null,
