@@ -65,6 +65,41 @@
     "explication": "La loi ne dit rien sur la taille des nombres, seulement sur le temps qu'une grandeur passe avec chaque chiffre en tête : franchir la barre du 1 exige de doubler, celle du 8 seulement d'ajouter un huitième. Ni les arrondis ni les habitudes humaines n'entrent en jeu, la loi vaut aussi pour des constantes physiques que personne n'a choisies.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'a remarqué Simon Newcomb en 1881, avant même l'observation de Benford ?",
+      "choix": [
+        "Que les premières pages d'une table de logarithmes étaient plus usées que les dernières",
+        "Que les nombres inventés par les comptables commençaient presque toujours par un 5",
+        "Que la fréquence du chiffre 9 était exactement égale à celle du chiffre 1",
+        "Que les populations de villes suivaient une distribution parfaitement uniforme"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Newcomb remarque en 1881 que les premières pages d'une table de logarithmes, consultées pour les nombres commençant par 1, sont plus usées que les dernières."
+    },
+    {
+      "question": "Combien de temps la note de Newcomb reste-t-elle sans écho avant que Benford ne refasse la même observation ?",
+      "choix": [
+        "Cinquante-sept ans",
+        "Dix-sept ans",
+        "Cent ans",
+        "Elle n'a jamais été redécouverte, Benford l'ignorait"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Publiée en 1881, la note de Newcomb reste sans écho pendant cinquante-sept ans, jusqu'à ce que Frank Benford refasse la même observation en 1938."
+    },
+    {
+      "question": "Pourquoi la loi de Benford ne s'applique-t-elle pas aux tailles humaines en centimètres ?",
+      "choix": [
+        "Parce qu'elles restent toutes comprises dans une fourchette étroite, sans s'étaler sur plusieurs ordres de grandeur",
+        "Parce que les tailles humaines sont mesurées avec trop peu de précision",
+        "Parce que le premier chiffre d'une taille dépend de l'unité de mesure choisie",
+        "Parce que les tailles humaines suivent une loi normale, jamais logarithmique"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La loi de Benford suppose des grandeurs étalées sur plusieurs ordres de grandeur, non bornées : les tailles humaines, toutes comprises entre 150 et 200 cm, n'obéissent à rien de tel."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
