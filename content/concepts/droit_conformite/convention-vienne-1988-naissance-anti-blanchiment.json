@@ -73,6 +73,41 @@
     "explication": "Le mot « blanchiment » n'apparaît pas dans le texte, et ce n'est pas la convention elle-même mais le GAFI, créé sept mois plus tard par le G7, qui impose ensuite l'identification des clients ; ce que fait l'article 3, c'est ériger la dissimulation de l'argent sale en délit à part entière.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que ne permettait pas de faire un État avant la Convention de Vienne de 1988 ?",
+      "choix": [
+        "Poursuivre pénalement un trafiquant de stupéfiants pris en flagrant délit",
+        "Extrader un trafiquant recherché par un autre pays signataire",
+        "Juger séparément la personne ayant aidé à dissimuler l'argent d'un trafic sans y avoir touché",
+        "Confisquer les avoirs bancaires appartenant à un État étranger"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Avant 1988, un pays pouvait condamner un trafiquant sans pouvoir juger séparément qui avait aidé à faire disparaître l'argent dans des comptes ou des sociétés-écrans sans avoir jamais touché à la marchandise elle-même."
+    },
+    {
+      "question": "Dans quelles circonstances le Groupe d'action financière est-il créé ?",
+      "choix": [
+        "En juillet 1989, par les chefs d'État et de gouvernement du G7 réunis à Paris",
+        "En 1988, directement par l'article 3 de la Convention de Vienne",
+        "En 1990, par les Nations unies, pour appliquer la Convention de Vienne",
+        "En 1978, par un accord entre les banques centrales européennes"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Sept mois après l'adoption de la Convention de Vienne, en juillet 1989, les chefs d'État et de gouvernement du G7 réunis à Paris créent le Groupe d'action financière pour étendre la logique de l'article 3 au-delà de la seule drogue."
+    },
+    {
+      "question": "Que contiennent les quarante premières recommandations du GAFI, publiées en avril 1990 ?",
+      "choix": [
+        "Une liste de pays interdits de toute relation bancaire internationale",
+        "Un barème de sanctions pénales harmonisé pour tous les États signataires",
+        "L'obligation de créer une banque centrale indépendante dans chaque État",
+        "L'obligation d'identifier ses clients et de signaler tout mouvement suspect"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Moins d'un an après sa création, en avril 1990, le GAFI publie ses quarante premières recommandations, qui transforment l'obligation de l'article 3 en norme de place bancaire : identifier ses clients, surveiller, signaler."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -90,11 +125,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-20",
-    "verdict": "a_revoir",
-    "empreinte": "43e066847e4acf48",
+    "fait_le": "2026-08-23",
+    "verdict": "ok",
+    "empreinte": "3f8d3d208e94548e",
     "notes": [
-      "4 sources rouvertes (UN Treaty Collection, PDF texte intégral art. 3, FATF history, Tookitaki). Art. 3 et repere confirmes exacts. Deux chiffres a corriger : (1) contenu_vulgarise dit 'plus d'une centaine de pays signent' le 20/12/1988, mais treaties.un.org indique 'Signatories: 87' (87 signataires, pas plus de 100) ; (2) l'explication du quiz dit le GAFI 'cree un an plus tard', incoherent avec le corps du texte qui dit a raison 'sept mois plus tard, en juillet 1989' (confirme par FATF history : G7 Paris, juillet 1989, soit 7 mois apres le 20/12/1988, pas un an)."
+      "Recontrôle indépendant après les deux corrections de la réparation précédente (87 pays, sept mois). treaties.un.org confirme « Signatories: 87 » (distinct de « Parties: 192 », le compte actuel) : le concept vérifié est le bon. Calcul 20/12/1988 → juillet 1989 = 7 mois confirmé. Article 3§1 confirmé via tookitaki (incb.org PDF et fatf-gafi.org renvoyaient 403, contournés par recherche croisée et Wikipedia, cohérents). Repère, carte et quiz conformes. Rien à corriger."
     ]
   },
   "controle_juridique": null,
