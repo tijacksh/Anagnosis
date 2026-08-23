@@ -68,6 +68,48 @@
     "explication": "Le décalage dépend de la vitesse d'approche ou d'éloignement, pas de la distance : il change donc de signe au moment exact du croisement. La perte d'énergie affecte le volume, jamais la hauteur de la note, et la sirène, elle, émet la même fréquence du début à la fin.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'entend le conducteur de l'ambulance, à l'intérieur du véhicule, pendant que la sirène retentit ?",
+      "choix": [
+        "Une note qui monte puis redescend, comme pour un observateur extérieur",
+        "La même note depuis le départ",
+        "Aucun son, la sirène étant orientée vers l'extérieur"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte précise que le conducteur n'entend rien de particulier au moment du croisement : sa sirène émet la même note depuis le départ, ce n'est donc pas le son qui change, mais la façon dont il parvient à l'auditeur extérieur."
+    },
+    {
+      "question": "Pourquoi une source sonore qui s'approche d'un auditeur immobile ne produit-elle pas exactement le même décalage qu'un auditeur qui s'approche d'une source immobile, à vitesse identique ?",
+      "choix": [
+        "Parce que l'oreille humaine perçoit différemment les sons graves et aigus",
+        "Parce que la vitesse du son varie selon la direction du vent",
+        "Parce que le son a besoin d'un milieu, l'air, qui fournit une référence d'immobilité"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte explique que le son se propage dans l'air, qui fournit une référence : on peut être immobile par rapport à l'air, ce qui rend les deux situations non interchangeables, contrairement à la lumière qui n'a pas ce milieu."
+    },
+    {
+      "question": "Pourquoi cette asymétrie source-observateur, valable pour le son, ne s'applique-t-elle pas à la lumière ?",
+      "choix": [
+        "Parce que la lumière traverse le vide, sans milieu porteur ni référence d'immobilité",
+        "Parce que la lumière va toujours à la même vitesse quelle que soit la direction de la source",
+        "Parce que la lumière n'est pas une onde, contrairement au son"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le texte précise que la lumière traverse le vide, sans milieu porteur, donc sans référence d'immobilité : seule la vitesse relative entre la source et l'observateur peut compter, ce qui a contribué à la relativité restreinte."
+    },
+    {
+      "question": "À quoi sert, pointé vers le ciel, le principe de l'effet Doppler, selon la fiche ?",
+      "choix": [
+        "À mesurer la température de surface d'une étoile",
+        "À savoir si une étoile s'approche ou s'éloigne, et à quelle vitesse",
+        "À calculer la masse d'une étoile à partir de sa luminosité"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte indique qu'analyser la lumière d'une étoile suffit à savoir si elle s'approche ou s'éloigne, et à quelle vitesse, faisant de ce principe de trottoir un instrument de mesure astronomique."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
