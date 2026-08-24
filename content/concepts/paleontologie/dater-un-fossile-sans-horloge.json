@@ -83,6 +83,41 @@
     "explication": "La demi-vie du carbone 14 est d'environ 5 700 ans : passé 50 000 ans environ, la quantité restante devient trop faible pour être mesurée fiablement. Les dinosaures, morts il y a des dizaines de millions d'années, en sont dépourvus depuis longtemps, d'où le recours à des couches volcaniques datées au potassium-argon ou à l'uranium-plomb.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi une roche sédimentaire ne peut-elle pas être datée directement par les radio-isotopes ?",
+      "choix": [
+        "Parce qu'elle s'est formée par accumulation de particules d'âges différents, plus anciennes",
+        "Parce qu'elle ne contient aucun isotope mesurable",
+        "Parce qu'elle est trop tendre pour en extraire un échantillon minéral",
+        "Parce qu'elle se forme trop vite pour qu'un isotope s'y accumule"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Dater une roche sédimentaire reviendrait à mesurer l'âge moyen d'un tas de gravats faits de particules plus anciennes, pas celui du jour où le tas s'est formé."
+    },
+    {
+      "question": "Quelle méthode date les couches rocheuses les plus anciennes, au-delà de la portée du potassium-argon ?",
+      "choix": [
+        "La datation rubidium-strontium sur du bois fossilisé",
+        "La datation au carbone 14 sur des résidus organiques résiduels",
+        "La datation uranium-plomb sur des cristaux de zircon",
+        "La thermoluminescence sur des grains de quartz"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Pour les couches les plus anciennes, la datation uranium-plomb sur des cristaux de zircon complète le potassium-argon, fiable d'environ un million d'années à plus de 4,5 milliards d'années."
+    },
+    {
+      "question": "Comment date-t-on un gisement fossilifère sans cendres volcaniques à proximité ?",
+      "choix": [
+        "Il reste impossible à dater et sort de toute chronologie",
+        "En mesurant la radioactivité résiduelle directement dans les os du fossile",
+        "En comparant son orientation magnétique à un calendrier d'inversions connu",
+        "Par comparaison relative, sa position par rapport à d'autres couches déjà datées, ou les espèces qu'il contient"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Sans cendres volcaniques datables à proximité, un gisement ne peut être daté que par comparaison relative, à d'autres couches déjà situées dans le temps, ou aux espèces qu'il renferme."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
