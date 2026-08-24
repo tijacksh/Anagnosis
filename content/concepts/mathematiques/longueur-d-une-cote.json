@@ -79,6 +79,41 @@
     "explication": "Chaque réduction de l'unité fait entrer dans le compte des baies, des criques puis des rochers que l'unité précédente sautait, et le processus ne s'arrête pas, si bien que la longueur diverge au lieu de converger. Ce n'est pas une imprécision : la mesure est exacte à chaque échelle, c'est la longueur qui n'est pas une propriété de la côte seule.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel est l'écart entre la longueur de frontière commune déclarée par le Portugal et celle déclarée par l'Espagne ?",
+      "choix": [
+        "500 km contre 620 km, soit 24 % d'écart",
+        "987 km contre 1 214 km, soit 23 % d'écart",
+        "987 km contre 1 214 km, soit 5 % d'écart",
+        "1 214 km contre 987 km, un écart jugé impossible à expliquer"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le Portugal déclare 987 kilomètres de frontière commune avec l'Espagne, l'Espagne en déclare 1 214 : les deux pays parlent de la même ligne, et l'écart atteint 23 %."
+    },
+    {
+      "question": "Que représente l'exposant D introduit par Mandelbrot en 1967 à partir des données de Richardson ?",
+      "choix": [
+        "La longueur exacte de la côte, exprimée dans une nouvelle unité",
+        "Le nombre d'années nécessaires pour mesurer précisément une côte",
+        "La proportion de la côte recouverte par des rochers plutôt que du sable",
+        "Une rugosité du littoral, indépendante de l'unité de mesure choisie"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Mandelbrot lit la pente de Richardson comme un exposant D, qui se comporte comme une dimension sans être entier. Ce nombre ne mesure pas une taille, il mesure une rugosité, et il ne dépend pas de l'unité choisie."
+    },
+    {
+      "question": "Pourquoi la mesure du périmètre d'un cercle ne pose-t-elle pas le même problème que celle d'une côte, d'après la fiche ?",
+      "choix": [
+        "Parce qu'un cercle n'a, par définition, aucune irrégularité à quelque échelle que ce soit",
+        "Parce que le périmètre d'un cercle ne dépend pas de son rayon",
+        "Parce que les périmètres des polygones inscrits convergent régulièrement vers une valeur limite, 2πr",
+        "Parce qu'aucun instrument ne permet de mesurer un cercle avec précision"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Contrairement à une côte, un cercle a une longueur au sens ordinaire : les périmètres des polygones inscrits s'approchent régulièrement d'une valeur limite, 2πr, à mesure qu'on affine la mesure."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
