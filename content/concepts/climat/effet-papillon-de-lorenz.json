@@ -74,6 +74,41 @@
     "explication": "Ce sont deux questions différentes : suivre une trajectoire précise devient impossible au-delà d'une quinzaine de jours, mais décrire la moyenne et la dispersion de l'ensemble des trajectoires reste faisable. L'horizon de prévisibilité est une propriété de l'atmosphère, qu'aucune puissance de calcul ne repousse.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi Lorenz relance-t-il son calcul à partir du milieu de la séquence plutôt que depuis le début, en 1961 ?",
+      "choix": [
+        "Pour vérifier que son ordinateur ne contenait aucune erreur de calcul",
+        "Pour gagner du temps",
+        "Parce que les données du début avaient été perdues",
+        "Pour tester une nouvelle version de son modèle à trois équations"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte indique que Lorenz veut réexaminer une séquence déjà calculée et, pour gagner du temps, la relance à partir du milieu plutôt que du début."
+    },
+    {
+      "question": "Qu'est-ce qui explique, selon Lorenz, que la nouvelle séquence finisse par n'avoir plus aucun rapport avec l'ancienne ?",
+      "choix": [
+        "Une erreur de calcul de la machine, qu'il découvre en vérifiant le programme",
+        "Un bug logiciel propre à l'ordinateur de bureau qu'il utilisait",
+        "Un changement de température dans la pièce qui aurait faussé les capteurs",
+        "Les valeurs saisies étaient arrondies, alors que la machine en gardait davantage en mémoire"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Lorenz vérifie que le calcul est correct : l'écart vient des valeurs saisies, arrondies à quelques décimales sur le listage, alors que la machine en gardait davantage."
+    },
+    {
+      "question": "Que montre le modèle réduit à trois équations que Lorenz construit ensuite ?",
+      "choix": [
+        "Le même comportement, une amplification d'un écart minuscule jusqu'à dominer le résultat",
+        "Que l'atmosphère réelle est en réalité plus prévisible que son premier modèle ne le suggérait",
+        "Que l'erreur observée en 1961 provenait bien d'un défaut de sa machine",
+        "Qu'un modèle plus simple élimine la sensibilité aux conditions initiales"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Lorenz réduit son modèle à trois équations assez simples pour tenir sur une ligne, et qui montrent le même comportement, l'amplification d'un écart minuscule jusqu'à dominer le résultat."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
