@@ -38,6 +38,7 @@ export const DISCIPLINES_V1 = {
 
   // Sciences humaines
   philosophie: 'Philosophie',
+  epistemologie: 'Épistémologie',
   psychologie: 'Psychologie',
   sociologie: 'Sociologie',
   anthropologie: 'Anthropologie',
@@ -133,6 +134,13 @@ export const ENCRES = {
 
   // Sciences humaines
   philosophie: '#3D5588',
+  // Épistémologie a rejoint la famille le 24 août 2026 (docs/decisions.md). Smoky Teal,
+  // choisie pour son écart : 14,9 de la plus proche de toutes les encres (Lagoon, Droit
+  // social — une autre famille), 18,1 de la plus proche au sein de Sciences humaines
+  // (Sciences politiques). Mieux que ce que le droit avait dû accepter pour ses sept
+  // encres (13,5 / 10,1), et un registre froid, retenu, qui va à une discipline qui
+  // interroge ce qu'on a le droit de tenir pour su.
+  epistemologie: '#5F8289',
   psychologie: '#765BA7',
   sociologie: '#914E72',
   anthropologie: '#FF6C2F',
