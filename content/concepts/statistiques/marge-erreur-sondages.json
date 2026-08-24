@@ -58,6 +58,41 @@
     "explication": "La marge d'erreur annoncée ne vaut que pour un chiffre isolé. Comparer deux candidats cumule leurs incertitudes respectives : l'écart réel peut approcher le double de la marge affichée, ce qui rend un écart de 4 points, ici, statistiquement peu concluant.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que mesure l'étude publiée en 2018 dans le Journal of the American Statistical Association ?",
+      "choix": [
+        "L'écart entre l'intention de vote et le résultat final de l'élection",
+        "Le nombre d'électeurs qui changent d'avis dans les trois dernières semaines de campagne",
+        "La proportion d'instituts de sondage qui publient une marge d'erreur erronée",
+        "L'erreur moyenne réelle de 4221 sondages, comparée aux marges d'erreur annoncées"
+      ],
+      "bonne_reponse": 3,
+      "explication": "L'étude porte sur 4221 sondages réalisés entre 1998 et 2014 pour 608 élections américaines : l'erreur moyenne mesurée atteint environ 3,5 points, soit près du double des marges d'erreur annoncées par les instituts."
+    },
+    {
+      "question": "Pourquoi l'incertitude sur l'écart entre deux candidats est-elle plus grande que la marge d'erreur annoncée pour un seul candidat ?",
+      "choix": [
+        "Parce que les instituts de sondage appliquent délibérément une marge plus faible pour paraître plus précis",
+        "Parce que les deux candidats ne sont pas mesurés indépendamment : surestimer l'un revient à sous-estimer l'autre",
+        "Parce que la loi impose une marge d'erreur minimale de 3 points par candidat",
+        "Parce que les électeurs indécis ne sont jamais comptabilisés dans l'échantillon"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Un candidat à 52 % et son adversaire à 48 % ne sont pas deux mesures indépendantes : si l'échantillon a par hasard surestimé l'un, il a mécaniquement sous-estimé l'autre, ce qui double presque l'incertitude sur leur écart."
+    },
+    {
+      "question": "Selon la fiche, quelles sources d'erreur la marge d'erreur classique ignore-t-elle ?",
+      "choix": [
+        "Les refus de répondre et les catégories de population mal représentées dans l'échantillon",
+        "Les erreurs de saisie informatique des réponses",
+        "Les changements d'avis des électeurs entre le sondage et le vote",
+        "Les fraudes électorales le jour du scrutin"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La marge d'erreur classique ne capture que l'échantillonnage aléatoire. Elle ignore les personnes qui refusent de répondre et les catégories de population mal représentées dans l'échantillon utilisé pour sonder."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

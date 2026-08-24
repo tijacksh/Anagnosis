@@ -65,6 +65,41 @@
     "explication": "Le laser restitue un relief débarrassé de la végétation : il excelle à repérer ce qui est enfoui ou arasé, sur de vastes surfaces et en peu de temps. Mais un modèle du terrain ne porte aucune information chronologique — deux structures voisines peuvent être séparées de plusieurs siècles, et seuls des sondages au sol permettent de trancher.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment fonctionne le LiDAR pour révéler des structures sous la canopée ?",
+      "choix": [
+        "Il détecte la chaleur dégagée par les pierres enfouies",
+        "Il ne garde que les impulsions les plus tardives, qui ont atteint le sol entre les feuilles",
+        "Il analyse la composition chimique du sol par spectrométrie",
+        "Il compare des photographies aériennes prises à différentes saisons"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Sous la canopée, la plupart des impulsions laser rebondissent sur les feuilles, mais une fraction passe entre elles et atteint le sol. En ne gardant que les retours les plus tardifs, on reconstitue le relief débarrassé de la végétation."
+    },
+    {
+      "question": "Qu'est-ce que le survol LiDAR a révélé, en plus des structures isolées ?",
+      "choix": [
+        "Des inscriptions glyphiques inédites permettant de dater les cités",
+        "Des restes organiques permettant d'identifier l'alimentation des habitants",
+        "Des outils en obsidienne, jusque là inconnus dans la région",
+        "Des chaussées reliant des cités qu'on croyait indépendantes, et de nombreuses fortifications"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le survol de plus de 2000 km² a livré plus de soixante mille structures nouvelles : des chaussées reliant des cités qu'on croyait indépendantes, des systèmes de terrasses et de canaux, et des fortifications bien plus nombreuses que prévu."
+    },
+    {
+      "question": "Pourquoi le LiDAR ne suffit-il pas, à lui seul, à établir une chronologie ?",
+      "choix": [
+        "Parce que la végétation tropicale fausse systématiquement les mesures de hauteur",
+        "Parce que les avions ne peuvent survoler qu'une petite partie du territoire à la fois",
+        "Parce qu'il ne restitue qu'un relief, sans aucune information sur l'âge des structures",
+        "Parce que seules les structures en pierre apparaissent sur le modèle, jamais celles en bois"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le LiDAR livre un relief, pas une chronologie : deux structures voisines sur le modèle peuvent être séparées de six siècles. Seuls des sondages au sol, de la céramique et des datations permettent de trancher entre elles."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
