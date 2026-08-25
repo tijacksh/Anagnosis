@@ -75,6 +75,50 @@
     "explication": "Contraint de changer son mot de passe tous les trimestres, l'utilisateur type ne repart pas de zéro : il incrémente un chiffre ou remplace une lettre par un symbole selon des règles si régulières que les outils de cassage les intègrent dans leurs dictionnaires. La contrainte censée complexifier le mot de passe a surtout rendu son évolution prévisible d'un changement à l'autre.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi Bill Burr s'est-il appuyé sur un rapport technique des années 1980 pour rédiger les règles de 2003 ?",
+      "choix": [
+        "Parce qu'aucune étude sur les mots de passe n'existait avant cette date",
+        "Parce que ce rapport avait été commandé spécialement pour ce projet",
+        "Parce que le NIST lui a refusé l'accès aux mots de passe réels de son réseau, pour confidentialité",
+        "Parce que ce rapport démontrait une baisse des fuites de données"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Bill Burr voulait s'appuyer sur des données réelles, mais le NIST a refusé de lui donner accès aux mots de passe utilisés en interne, invoquant la confidentialité ; il s'est rabattu sur un rapport antérieur au web."
+    },
+    {
+      "question": "Que recommande la version 2017 des règles du NIST (SP 800-63B), à la place de l'ancienne exigence de changement périodique ?",
+      "choix": [
+        "Comparer le mot de passe à une liste de valeurs déjà compromises ou trop courantes",
+        "Imposer un changement chaque mois plutôt que chaque trimestre",
+        "Exiger deux caractères spéciaux au lieu d'un seul"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La SP 800-63B de 2017 abandonne le changement arbitraire et les règles de composition imposées, et recommande à la place de vérifier que le mot de passe ne figure pas dans une liste de valeurs compromises ou courantes."
+    },
+    {
+      "question": "D'après le calcul du NIST, comment l'entropie d'une phrase de passe de six mots se compare-t-elle à celle d'un mot de passe complexe de dix caractères ?",
+      "choix": [
+        "Elle est environ deux fois plus faible, autour de 30 bits",
+        "Elle est à peu près égale, autour de 70 bits dans les deux cas",
+        "Elle ne peut pas être calculée avec les méthodes actuelles",
+        "Elle est bien plus élevée, environ 85 bits contre environ 65 bits"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La fiche indique qu'une phrase de passe de six mots ordinaires atteint environ 85 bits d'entropie, contre environ 65 bits pour un mot de passe complexe de dix caractères, soit près d'un million de fois plus de combinaisons."
+    },
+    {
+      "question": "Quelle était la situation professionnelle de Bill Burr au moment de son entretien avec le Wall Street Journal en 2017 ?",
+      "choix": [
+        "Il travaillait comme consultant en sécurité pour une banque",
+        "Il était retraité du NIST",
+        "Il occupait toujours son poste au NIST"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La fiche précise que c'est quatorze ans après avoir écrit ces règles, alors retraité du NIST, que Bill Burr confie au Wall Street Journal regretter une bonne partie de ce qu'il a fait."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
