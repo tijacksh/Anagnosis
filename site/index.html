@@ -128,21 +128,26 @@ section.bloc h2 {
 details.famille { border-top: 1px solid var(--filet); }
 details.famille:last-child { border-bottom: 1px solid var(--filet); }
 details.famille summary {
-  display: flex; align-items: flex-start; justify-content: space-between;
+  display: flex; align-items: flex-start;
   gap: 16px; padding: 17px 0; cursor: pointer; list-style: none;
 }
 details.famille summary::-webkit-details-marker { display: none; }
 details.famille summary::marker { content: ''; }
 details.famille summary::after {
-  content: '+'; display: inline-block; flex: none; margin-left: 4px;
+  content: '+'; display: inline-block; flex: none;
   font-family: var(--mono); font-size: 15px; color: var(--texte-3);
   transition: transform .25s ease;
 }
 details.famille[open] summary::after { transform: rotate(45deg); }
 details.famille summary:hover .famille-nom { color: var(--marque); }
+/* `margin-right: auto`, pas `justify-content: space-between` : à trois éléments
+   flex (nom, nuancier, marqueur), space-between aurait ouvert un espace égal de
+   chaque côté du nuancier — il aurait flotté au milieu au lieu de rester collé
+   au marqueur. La marge automatique pousse tout le reste d'un bloc vers la
+   droite, nuancier et marqueur restent groupés, séparés seulement par `gap`. */
 .famille-nom {
   font-family: var(--mono); font-weight: 600; font-size: 12.5px;
-  letter-spacing: .08em; text-transform: uppercase;
+  letter-spacing: .08em; text-transform: uppercase; margin-right: auto;
 }
 .famille-nuancier {
   display: flex; align-items: center; gap: 5px; flex-wrap: wrap; justify-content: flex-end;
