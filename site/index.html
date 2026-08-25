@@ -128,7 +128,7 @@ section.bloc h2 {
 details.famille { border-top: 1px solid var(--filet); }
 details.famille:last-child { border-bottom: 1px solid var(--filet); }
 details.famille summary {
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: flex-start; justify-content: space-between;
   gap: 16px; padding: 17px 0; cursor: pointer; list-style: none;
 }
 details.famille summary::-webkit-details-marker { display: none; }
@@ -150,6 +150,16 @@ details.famille summary:hover .famille-nom { color: var(--marque); }
 }
 .famille-nuancier .nuance { width: 7px; height: 7px; flex: none; }
 details.famille[open] .famille-nuancier { opacity: 0; }
+/* En dessous de 480px, le nom le plus long (Sciences humaines) passe sur deux
+   lignes en même temps que son nuancier le plus fourni (douze teintes) — les deux
+   se disputent la même ligne et un point isolé finit seul, décroché. Le nuancier
+   descend plutôt sur sa propre ligne, pleine largeur : plus rien à négocier. */
+@media (max-width: 480px) {
+  details.famille summary { flex-wrap: wrap; }
+  .famille-nom { order: 1; }
+  details.famille summary::after { order: 2; }
+  .famille-nuancier { order: 3; flex-basis: 100%; justify-content: flex-start; margin-top: 8px; }
+}
 /* `display` reste dans la règle [open] ci-dessous, jamais ici : le figer à `flex`
    sans condition court-circuiterait le masquage natif de <details> fermé — une
    règle d'auteur l'emporte toujours sur celle, pourtant plus spécifique, de la
