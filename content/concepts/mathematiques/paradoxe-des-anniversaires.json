@@ -65,6 +65,44 @@
     "explication": "L'intuition compare vingt-trois personnes à 365 jours, alors que la coïncidence se joue entre paires : il y en a 253, chacune étant une occasion. Le résultat tient même avec des naissances parfaitement uniformes sur l'année, la saisonnalité réelle ne fait que le renforcer légèrement, et les probabilités ne s'additionnent pas, elles se composent.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Combien de personnes faut-il réunir pour avoir une chance sur deux de trouver quelqu'un né le même jour que vous, précisément ?",
+      "choix": [
+        "23 personnes, comme pour la coïncidence entre deux personnes quelconques",
+        "Environ 253 personnes",
+        "365 personnes, soit une par jour de l'année",
+        "182 personnes, soit la moitié de l'année"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Partager une date précise, la vôtre, exige beaucoup plus de monde que partager n'importe quelle date entre deux personnes : il faut environ 253 personnes, exactement le nombre de paires que forment 23 personnes.",
+      "statut": "valide"
+    },
+    {
+      "question": "Quand on tire au hasard dans un ensemble de N possibilités, après combien de tirages la première répétition survient-elle typiquement ?",
+      "choix": [
+        "Après environ N tirages",
+        "Après environ N/2 tirages",
+        "Après environ la racine carrée de N tirages",
+        "Après environ le double de N tirages"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Contrairement à l'intuition qui suggère N/2, la première répétition survient typiquement après environ racine de N tirages, pour 365 jours la racine vaut un peu plus de 19, d'où le seuil de 23 personnes.",
+      "statut": "valide"
+    },
+    {
+      "question": "D'après le NIST, quelle résistance aux collisions offre une empreinte numérique de n bits ?",
+      "choix": [
+        "n bits de résistance",
+        "2n bits de résistance",
+        "n moins un bit de résistance",
+        "n/2 bits de résistance"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le NIST fixe la résistance aux collisions d'une empreinte de n bits à n/2 bits seulement : une empreinte de 128 bits n'offre donc que 64 bits de résistance réelle face à l'attaque des anniversaires.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
