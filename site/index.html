@@ -123,8 +123,42 @@ section.bloc h2 {
 }
 .trois article p { color: var(--texte-2); font-size: 15px; line-height: 1.55; }
 
-/* ---- disciplines ---- */
-.disciplines { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 32px; }
+/* ---- disciplines, groupées par famille en accordéon (comme dans l'app) ---- */
+.familles { margin-top: 28px; }
+details.famille { border-top: 1px solid var(--filet); }
+details.famille:last-child { border-bottom: 1px solid var(--filet); }
+details.famille summary {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 17px 0; cursor: pointer; list-style: none;
+}
+details.famille summary::-webkit-details-marker { display: none; }
+details.famille summary::marker { content: ''; }
+details.famille summary::after {
+  content: '+'; display: inline-block; flex: none; margin-left: 4px;
+  font-family: var(--mono); font-size: 15px; color: var(--texte-3);
+  transition: transform .25s ease;
+}
+details.famille[open] summary::after { transform: rotate(45deg); }
+details.famille summary:hover .famille-nom { color: var(--marque); }
+.famille-nom {
+  font-family: var(--mono); font-weight: 600; font-size: 12.5px;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.famille-nuancier {
+  display: flex; align-items: center; gap: 5px; flex-wrap: wrap; justify-content: flex-end;
+  transition: opacity .2s ease;
+}
+.famille-nuancier .nuance { width: 7px; height: 7px; flex: none; }
+details.famille[open] .famille-nuancier { opacity: 0; }
+/* `display` reste dans la règle [open] ci-dessous, jamais ici : le figer à `flex`
+   sans condition court-circuiterait le masquage natif de <details> fermé — une
+   règle d'auteur l'emporte toujours sur celle, pourtant plus spécifique, de la
+   feuille de style du navigateur. */
+.disciplines {
+  flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0 0 24px;
+  overflow: hidden; height: 0; transition: height .28s ease;
+}
+details.famille[open] .disciplines { display: flex; height: auto; }
 .discipline { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
 .point { width: 8px; height: 8px; flex: none; }
 
@@ -209,7 +243,7 @@ footer {
   <section class="bloc" id="disciplines">
     <p class="sur-titre">La taxonomie</p>
     <h2>Quarante disciplines, une seule cadence.</h2>
-    <div class="disciplines">
+    <div class="familles">
       {{DISCIPLINES}}
     </div>
   </section>
@@ -238,6 +272,35 @@ footer {
   <span>Aucune publicité. Aucun compte requis pour le socle gratuit.</span>
   <span><a href="/contact" style="color:inherit">Contact</a> · <a href="/mentions-legales" style="color:inherit">Mentions légales</a></span>
 </footer>
+
+<script>
+// Anime l'ouverture des familles de disciplines au lieu du repli brut natif de
+// <details>. Sans ce script, tout continue de fonctionner — juste sans le
+// mouvement : <details> reste un élément natif, pas un composant qui en dépend.
+document.querySelectorAll('details.famille').forEach((det) => {
+  const corps = det.querySelector('.disciplines');
+  det.querySelector('summary').addEventListener('click', (evenement) => {
+    evenement.preventDefault();
+    if (det.open) {
+      corps.style.height = corps.scrollHeight + 'px';
+      corps.offsetHeight;
+      corps.style.height = '0px';
+      corps.addEventListener('transitionend', () => {
+        det.open = false;
+        corps.style.height = '';
+      }, { once: true });
+    } else {
+      det.open = true;
+      corps.style.height = '0px';
+      corps.offsetHeight;
+      corps.style.height = corps.scrollHeight + 'px';
+      corps.addEventListener('transitionend', () => {
+        corps.style.height = '';
+      }, { once: true });
+    }
+  });
+});
+</script>
 
 </body>
 </html>

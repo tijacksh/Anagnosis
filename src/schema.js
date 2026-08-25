@@ -187,6 +187,63 @@ export const SANS_ECOUTE = new Set([
   'droit_constitutionnel', 'droit_social', 'droit_conformite',
 ]);
 
+// Les familles de disciplines — recopiées des clients iOS et Android
+// (`Discipline.swift`, `Disciplines.kt`), qui regroupent leurs menus en accordéons pour
+// ne pas présenter quarante disciplines à plat. Le pipeline n'en avait jusqu'ici aucun
+// usage propre ; la vitrine est le premier endroit ici qui affiche la taxonomie entière
+// d'un coup plutôt qu'une fiche à la fois, et hérite donc du même besoin.
+export const FAMILLES = [
+  'Sciences exactes',
+  'Vivant et santé',
+  'Terre et environnement',
+  'Sciences humaines',
+  'Droit et justice',
+  'Arts et lettres',
+];
+
+export const FAMILLE_PAR_DISCIPLINE = {
+  mathematiques: 'Sciences exactes',
+  physique: 'Sciences exactes',
+  chimie: 'Sciences exactes',
+  astronomie: 'Sciences exactes',
+  informatique: 'Sciences exactes',
+  statistiques: 'Sciences exactes',
+  biologie: 'Vivant et santé',
+  medecine: 'Vivant et santé',
+  neurosciences: 'Vivant et santé',
+  genetique: 'Vivant et santé',
+  ecologie: 'Vivant et santé',
+  nutrition: 'Vivant et santé',
+  geologie: 'Terre et environnement',
+  climat: 'Terre et environnement',
+  oceanographie: 'Terre et environnement',
+  paleontologie: 'Terre et environnement',
+  philosophie: 'Sciences humaines',
+  epistemologie: 'Sciences humaines',
+  psychologie: 'Sciences humaines',
+  sociologie: 'Sciences humaines',
+  anthropologie: 'Sciences humaines',
+  linguistique: 'Sciences humaines',
+  archeologie: 'Sciences humaines',
+  geographie: 'Sciences humaines',
+  histoire: 'Sciences humaines',
+  economie: 'Sciences humaines',
+  sciences_politiques: 'Sciences humaines',
+  religions: 'Sciences humaines',
+  droit_institutions: 'Droit et justice',
+  droit_preuve: 'Droit et justice',
+  droit_international: 'Droit et justice',
+  droit_pi_ia: 'Droit et justice',
+  droit_constitutionnel: 'Droit et justice',
+  droit_social: 'Droit et justice',
+  droit_conformite: 'Droit et justice',
+  litterature: 'Arts et lettres',
+  histoire_art: 'Arts et lettres',
+  musique: 'Arts et lettres',
+  cinema: 'Arts et lettres',
+  architecture: 'Arts et lettres',
+};
+
 export const NIVEAUX = ['introductif', 'intermediaire'];
 
 /**

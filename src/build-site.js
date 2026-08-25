@@ -32,12 +32,34 @@ const toutes = await loadAll();
 const publiables = toutes.filter((f) => ['valide', 'publie'].includes(f.statut));
 
 const disciplinesAffichees = [...new Set(publiables.map((f) => f.discipline))].sort();
-const { DISCIPLINES, ENCRES } = await import('./schema.js');
-const puces = Object.keys(DISCIPLINES)
-  .filter((d) => ENCRES[d])
-  .sort((a, b) => DISCIPLINES[a].localeCompare(DISCIPLINES[b], 'fr'))
-  .map((d) => `<span class="discipline"><span class="point" style="background:${ENCRES[d]}"></span>${DISCIPLINES[d]}</span>`)
-  .join('\n      ');
+const { DISCIPLINES, ENCRES, FAMILLES, FAMILLE_PAR_DISCIPLINE } = await import('./schema.js');
+const disponibles = Object.keys(DISCIPLINES).filter((d) => ENCRES[d]);
+
+// Une discipline sans famille se tairait dans la vitrine plutôt que de se signaler —
+// le même principe que la clé inconnue côté clients (`Disciplines.kt`) : ça doit se
+// voir, pas se glisser en silence dans un export qui a l'air complet.
+const orphelines = disponibles.filter((d) => !FAMILLE_PAR_DISCIPLINE[d]);
+if (orphelines.length) {
+  throw new Error(`Discipline(s) sans famille dans FAMILLE_PAR_DISCIPLINE : ${orphelines.join(', ')}`);
+}
+
+const puces = FAMILLES.map((famille) => {
+  const membres = disponibles
+    .filter((d) => FAMILLE_PAR_DISCIPLINE[d] === famille)
+    .sort((a, b) => DISCIPLINES[a].localeCompare(DISCIPLINES[b], 'fr'));
+  const nuancier = membres
+    .map((d) => `<span class="nuance" style="background:${ENCRES[d]}"></span>`)
+    .join('');
+  const chips = membres
+    .map((d) => `<span class="discipline"><span class="point" style="background:${ENCRES[d]}"></span>${DISCIPLINES[d]}</span>`)
+    .join('\n          ');
+  return `<details class="famille">
+        <summary><span class="famille-nom">${famille}</span><span class="famille-nuancier">${nuancier}</span></summary>
+        <div class="disciplines">
+          ${chips}
+        </div>
+      </details>`;
+}).join('\n      ');
 
 await mkdir(DEST, { recursive: true });
 
