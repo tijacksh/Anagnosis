@@ -64,6 +64,41 @@
     "explication": "Le taux global est une moyenne pondérée par département. Comme les femmes postulaient proportionnellement plus vers des filières globalement plus dures d'accès pour tous, l'agrégat les défavorise mécaniquement, sans qu'aucun comité n'ait réellement discriminé. C'est le mécanisme même du paradoxe de Simpson : une tendance peut s'inverser par simple agrégation, sans biais caché dans les sous-groupes.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qui a nommé le paradoxe de Simpson, et quand ?",
+      "choix": [
+        "Edward Simpson lui-même, dans son article de 1951",
+        "Karl Pearson, dans son article fondateur de 1899",
+        "Colin Blyth, dans un article de 1972",
+        "Les auteurs de l'étude de Berkeley, dans leur article de 1975"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Simpson ne réclame jamais d'attacher son nom au phénomène qu'il formalise en 1951. C'est Colin Blyth qui le baptise paradoxe de Simpson dans un article de 1972, vingt et un ans plus tard."
+    },
+    {
+      "question": "Une fois les données correctement regroupées par département, quel biais Bickel, Hammel et O'Connell ont-ils trouvé ?",
+      "choix": [
+        "Aucun biais statistiquement significatif, dans un sens comme dans l'autre",
+        "Un biais significatif, cette fois en faveur des femmes",
+        "Le même biais défavorable aux femmes, mais deux fois plus faible",
+        "Un biais favorable aux hommes, mais concentré dans un seul département"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Leur conclusion ne s'arrête pas à l'absence de discrimination : une fois les données regroupées en tenant compte de l'autonomie des départements, ils trouvent un biais significatif, mais en faveur des femmes."
+    },
+    {
+      "question": "Quelle variable cachée explique le paradoxe observé dans les admissions de Berkeley en 1973 ?",
+      "choix": [
+        "Le choix du département, les femmes visant des filières globalement plus sélectives",
+        "L'âge moyen des candidats, plus élevé chez les femmes cette année-là",
+        "Le lieu de résidence des candidats, urbain ou rural",
+        "La note obtenue à un examen d'entrée commun à tous les départements"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le mécanisme tient au choix du département : les femmes candidataient proportionnellement plus vers des filières où la compétition était plus rude pour tout le monde, ce qui abaisse leur taux moyen d'admission."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

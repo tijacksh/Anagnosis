@@ -72,7 +72,41 @@
     "explication": "Le système sud-africain (CIPC) ne mène qu'un contrôle de forme : il vérifie que le dossier est complet, sans examiner la nouveauté, l'inventivité, ni qui peut légalement être inventeur. Les offices qui examinent le fond, au Royaume-Uni, aux États-Unis, à l'Office européen des brevets et en Australie en appel, ont tous refusé DABUS.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Sur quel fondement le Federal Circuit américain a-t-il refusé de reconnaître DABUS comme inventeur, dans Thaler v. Vidal ?",
+      "choix": [
+        "Le mot individual du Patent Act désigne exclusivement une personne physique",
+        "DABUS n'avait produit aucune invention brevetable au sens de la loi",
+        "Thaler n'avait pas payé les frais de dépôt requis par l'office américain",
+        "Le brevet avait déjà été refusé une première fois pour vice de forme"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La cour s'appuie sur le mot individual, réservé selon elle à un être humain, confirmé par les pronoms himself et herself du texte et l'obligation de prêter serment, qu'une machine ne peut pas accomplir."
+    },
+    {
+      "question": "Comment le juge Beach de la Cour fédérale australienne s'est-il d'abord prononcé sur DABUS, en juillet 2021 ?",
+      "choix": [
+        "La loi australienne exigeait une révision par le Parlement avant toute décision",
+        "Le brevet devait être suspendu jusqu'à la décision britannique",
+        "Rien dans la loi australienne n'exclut expressément qu'une IA soit inventrice",
+        "Une IA pouvait déposer un brevet mais jamais en percevoir les droits"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le juge Beach estime que rien n'exclut expressément qu'une IA soit inventrice selon le Patents Act de 1990, une décision annulée ensuite à l'unanimité par la formation plénière en avril 2022."
+    },
+    {
+      "question": "Pourquoi la Cour suprême du Royaume-Uni a-t-elle rejeté la demande de Thaler, le 20 décembre 2023 ?",
+      "choix": [
+        "L'invention décrite n'était pas jugée suffisamment nouvelle par les examinateurs",
+        "Le Royaume-Uni avait déjà refusé toute demande impliquant une intelligence artificielle",
+        "Thaler n'avait pas démontré que DABUS avait réellement produit les deux objets",
+        "L'article 13(2)(a) du Patents Act de 1977 exige qu'un inventeur soit une personne physique"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le jugement, rendu à l'unanimité, se fonde sur l'article 13(2)(a) du Patents Act de 1977, qui exige qu'un inventeur soit une personne physique, pas sur la nouveauté de l'invention."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
