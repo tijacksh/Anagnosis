@@ -80,13 +80,56 @@
     "explication": "Le jury japonais de 1928 comptait bien douze membres, votait à la majorité et non à l'unanimité, et n'était ouvert qu'aux hommes ; sa vraie singularité est que le juge n'était pas lié par son verdict et pouvait convoquer un jury de renouvellement s'il le jugeait mal fondé.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "quiz_supplementaire": [
+    {
+      "question": "Que devaient remplir les jurés japonais pour pouvoir être tirés au sort, selon la loi de 1928 ?",
+      "choix": [
+        "Être des hommes de trente ans ou plus, payer un minimum d'impôt direct et savoir lire et écrire",
+        "Être des hommes ou des femmes de vingt-cinq ans ou plus, sans condition de revenu",
+        "Appartenir à une profession juridique reconnue par le ministère de la Justice",
+        "Résider depuis au moins dix ans dans la préfecture où se tenait le procès"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le texte précise que les jurés étaient tirés au sort parmi des hommes de trente ans ou plus, payant un minimum d'impôt direct et sachant lire et écrire."
+    },
+    {
+      "question": "Qu'un accusé perdait-il en optant pour un jugement par jury plutôt que par un juge seul ?",
+      "choix": [
+        "Le droit d'être assisté par un avocat pendant l'intégralité du procès",
+        "Le droit de connaître à l'avance l'identité des jurés tirés au sort",
+        "Le droit de faire appel du jugement sur les faits en cas de verdict de culpabilité",
+        "Le droit de demander la récusation d'un juré pour conflit d'intérêts"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Un accusé jugé coupable par un jury perdait le droit de faire appel du jugement sur les faits, un droit qu'un accusé jugé par un juge seul conservait : demander un jury échangeait une garantie contre une autre."
+    },
+    {
+      "question": "Que devait faire l'État japonais, selon la clause additionnelle de la loi de suspension de 1943, une fois la guerre terminée ?",
+      "choix": [
+        "Reprendre automatiquement le jury dès la signature de l'armistice, sans formalité",
+        "Fixer par décret impérial une date de reprise du jury, ce qui n'a jamais été fait",
+        "Organiser un référendum national pour décider du maintien ou non du jury",
+        "Transférer les pouvoirs du jury à la Cour suprême du Japon nouvellement créée"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La clause additionnelle promettait la reprise du jury après la guerre, la date devant être fixée par décret impérial ; aucun décret de ce genre n'a jamais été pris après 1945."
+    }
+  ],
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-24T10:22:03.984Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-24T10:22:03.984Z",
+        "note": "Second passage indépendant, sources rouvertes séparément (pas de reprise des notes du contrôle) : moj.go.jp relu en entier via curl brut (12 jurés, tribunal non lié, renouvellement du jury, total 484 procès dont 81 acquittements, 17,6% d'acquittements/82,1% de condamnations, suspension 1er avril 1943) ; texte statistique année par année de ja.wikipedia.org décodé colonne par colonne (法定陪審+請求陪審+陪審の更新) et recalculé à la main : 1928=28+0+3=31, 1929=133+7+3=143 (pic), 1930=66, 1942=1+0+1=2 — les quatre chiffres cités par la fiche sont exacts, pas seulement plausibles. Wikisource relu : article unique 陪審法ハ其ノ施行ヲ停止ス confirmé mot pour mot, clause de reprise par décret impérial confirmée. JACAR et ja.wikipedia confirment promulgation 18 avril 1923 (loi n°50) sous le cabinet Katō Tomosaburō (vérifié : Katō Premier ministre du 12 juin 1922 au 24 août 1923, la loi de Takahashi n'ayant pas passé la Chambre des pairs et ayant été reprise par Katō), entrée en vigueur 1er octobre 1928. Règle d'appel (pas d'appel sur les faits en cas de verdict de jury, cassation possible pour vice de forme) confirmée sur moj.go.jp. en.wikipedia Lay judges in Japan confirme le système de 2009 comme un système distinct. Citation, carte et quiz revérifiés terme à terme, rien à corriger. Empreinte inchangée, aucune touche au texte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-23",
