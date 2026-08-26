@@ -65,6 +65,41 @@
     "explication": "Un point de passage se traverse par paires de ponts : on y entre par l'un, on en sort par l'autre. Seuls le départ et l'arrivée échappent à cette règle, donc au plus deux points peuvent porter un nombre impair de ponts. Königsberg en a quatre. Le nombre total de ponts, leur disposition et la géographie de la ville n'entrent pas dans l'argument.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quand et où Euler présente-t-il pour la première fois la solution du problème des ponts de Königsberg ?",
+      "choix": [
+        "Le 26 août 1735, devant l'Académie de Saint-Pétersbourg",
+        "En 1741, dans une lettre privée à Leibniz",
+        "Le 26 août 1735, devant la Royal Society de Londres",
+        "En 1758, lors d'un voyage à Königsberg même"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Euler lit son mémoire devant l'Académie de Saint-Pétersbourg le 26 août 1735 ; il ne paraît en revue, dans les Commentarii, qu'en 1741."
+    },
+    {
+      "question": "Sous quel nom Euler range-t-il lui-même son mémoire, empruntant l'expression à Leibniz ?",
+      "choix": [
+        "Arithmetica situs",
+        "Geometria situs",
+        "Topologia generalis",
+        "Analysis infinitorum"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Euler nomme sa démarche geometria situs, la géométrie de la position, où les grandeurs comme les longueurs ou les angles ne comptent pas, à la différence de la géométrie classique."
+    },
+    {
+      "question": "Combien des quatre masses de terre de Königsberg, rives et îles, sont desservies par un nombre impair de ponts, ce qui rend le parcours impossible ?",
+      "choix": [
+        "Une seule",
+        "Deux",
+        "Trois",
+        "Les quatre"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Les quatre masses de terre portent chacune un nombre impair de ponts, cinq pour l'île principale et trois pour chacune des trois autres, alors qu'au plus deux peuvent en porter un nombre impair pour qu'un parcours existe."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
