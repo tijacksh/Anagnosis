@@ -65,6 +65,41 @@
     "explication": "C'est l'apport conceptuel du modèle : nul besoin de saison, de maladie ou de climat pour qu'une population fluctue, l'interaction suffit. Le système ne se stabilise jamais, il tourne. Mais c'est un dispositif qui isole un mécanisme, pas une description d'un écosystème réel, lequel compte toujours bien plus de deux espèces.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel jeu de données sert presque systématiquement à illustrer les équations de Lotka-Volterra ?",
+      "choix": [
+        "Les relevés démographiques du renard arctique, tenus par le gouvernement canadien",
+        "Les registres de fourrures de la Compagnie de la Baie d'Hudson, sur le lynx et le lièvre",
+        "Les comptages annuels réalisés sur le terrain par des biologistes indépendants",
+        "Les captures de poissons enregistrées par les pêcheries de Terre-Neuve"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Ce sont les registres de peaux de lynx et de lièvres d'Amérique achetées par la Compagnie de la Baie d'Hudson, sur près d'un siècle, qui ornent les manuels depuis des générations."
+    },
+    {
+      "question": "Pourquoi ces données de la Baie d'Hudson valent-elles moins qu'il n'y paraît, selon la fiche ?",
+      "choix": [
+        "Elles ne couvrent qu'une seule année et ne permettent donc aucune analyse de cycle",
+        "Elles ont été falsifiées par la Compagnie pour gonfler ses profits",
+        "Ce sont des données de commerce, qui mesurent l'activité des trappeurs autant que l'abondance réelle",
+        "Elles ne concernent que des animaux morts de maladie, jamais capturés par des trappeurs"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Ce sont des données de vente de peaux, pas de terrain : elles reflètent autant l'effort des trappeurs que l'abondance réelle des animaux, et proviennent de régions différentes agrégées ensemble."
+    },
+    {
+      "question": "Que révèlent des analyses fines des données de la Baie d'Hudson, que le modèle de Lotka-Volterra interdit ?",
+      "choix": [
+        "Une absence totale de corrélation entre les deux populations",
+        "Un cycle de population deux fois plus court que celui prédit par le modèle",
+        "Une extinction complète du lièvre survenue au début du XXe siècle",
+        "Des séquences où le lynx semble précéder le lièvre, plutôt que le suivre"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le modèle impose que le pic des prédateurs suive celui des proies avec un décalage constant ; des analyses fines ont pourtant relevé des séquences où le lynx précède le lièvre, ce que le modèle interdit."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

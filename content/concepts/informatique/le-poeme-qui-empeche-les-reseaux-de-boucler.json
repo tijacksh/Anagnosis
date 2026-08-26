@@ -89,6 +89,41 @@
     "explication": "Le lien n'est pas supprimé mais seulement mis en veille : c'est ce qui permet au réseau de retrouver aussitôt un chemin complet si une liaison active tombe en panne, sans reconfiguration manuelle. Le supprimer ferait perdre la redondance que les ponts étaient justement connectés pour préserver.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment les ponts du réseau élisent-ils le pont racine, dans l'algorithme de Radia Perlman ?",
+      "choix": [
+        "Par un vote à la majorité organisé par l'administrateur réseau",
+        "Le pont racine est toujours celui qui a été installé en premier",
+        "Par un simple échange d'identifiants entre les ponts",
+        "Par tirage aléatoire parmi les ponts connectés au réseau"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Chaque pont échange simplement son identifiant avec ses voisins directs ; le pont racine est celui dont l'identifiant est retenu à l'issue de cet échange, sans vote ni ordre d'installation."
+    },
+    {
+      "question": "Pourquoi Radia Perlman refuse-t-elle le titre de « mère d'Internet » qui lui a été attribué en 2011 ?",
+      "choix": [
+        "Parce que ce titre n'a aucun critère clair d'attribution et qu'Internet n'a jamais eu un seul inventeur",
+        "Parce qu'elle considère que son algorithme n'a eu aucun impact réel sur Internet",
+        "Parce qu'elle estime que ce titre revient plutôt à un collègue resté anonyme",
+        "Parce qu'elle a signé un accord de confidentialité avec Digital Equipment Corporation"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Perlman l'explique elle-même : contrairement à un doctorat, ce titre n'a aucun critère d'attribution, et Internet est le fruit de centaines de contributions, pas d'une seule personne."
+    },
+    {
+      "question": "Où le poème Algorhyme de Radia Perlman est-il republié en 2003, dix-huit ans après sa première publication ?",
+      "choix": [
+        "Dans un manuel scolaire d'introduction aux réseaux informatiques",
+        "Dans la norme IEEE 802.1D qui officialise le protocole",
+        "Dans un second article de l'ACM SIGCOMM consacré à la sécurité réseau",
+        "Dans la description d'un brevet américain portant sur une amélioration du protocole"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le poème, publié en 1985 dans l'article scientifique original, est repris dix-huit ans plus tard dans la description du contexte technique du brevet américain n°7 339 900, déposé en 2003."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
