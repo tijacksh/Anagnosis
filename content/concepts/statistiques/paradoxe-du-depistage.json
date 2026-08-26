@@ -59,6 +59,41 @@
     "explication": "Sur 1 000 personnes, seules 10 sont malades (1 %) et le test en détecte 9. Mais parmi les 990 personnes saines, 9 % obtiennent quand même un résultat positif, soit environ 89 personnes. Sur 98 résultats positifs, seules 9 sont réellement malades : environ 9 %, pas 90 %.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle proportion des 160 gynécologues interrogés par Gigerenzer répond correctement, et que répond la majorité à la place ?",
+      "choix": [
+        "21 % se trompent, mais 79 % donnent la bonne réponse d'environ 9 %",
+        "La totalité des 160 gynécologues se trompent, sans qu'aucun ne s'approche de la bonne réponse",
+        "Seuls 21 % répondent correctement ; la majorité avance un chiffre proche de 90 % ou 81 %",
+        "50 % répondent correctement, l'autre moitié avançant un chiffre proche de 50 %"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Sur les 160 gynécologues interrogés par Gigerenzer en 2007, seuls 21 % donnent la bonne réponse, autour de 9 %. La plupart avancent un chiffre proche de la fiabilité du test elle-même, 90 % ou 81 %, en oubliant la rareté de la maladie."
+    },
+    {
+      "question": "Quelle reformulation Gigerenzer montre-t-il capable de rendre le même problème nettement plus facile à résoudre correctement ?",
+      "choix": [
+        "Fournir une calculatrice aux médecins pendant le test, sans changer l'énoncé",
+        "Réduire le nombre de femmes testées dans l'énoncé, de 1 000 à seulement 100",
+        "Remplacer le cancer du sein par une maladie plus rare encore dans l'énoncé",
+        "Reformuler le problème en fréquences naturelles plutôt qu'en pourcentages"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Reformulé en fréquences naturelles, sur 1 000 femmes, 10 ont un cancer, parmi elles 9 ont un test positif, parmi les 990 sans cancer 89 ont aussi un test positif, la même question devient nettement plus facile à résoudre, y compris sans formation statistique."
+    },
+    {
+      "question": "Au-delà du dépistage du cancer, à quels autres domaines le texte étend-il ce même raisonnement sur les faux positifs ?",
+      "choix": [
+        "Uniquement aux autres cancers, jamais aux domaines extérieurs à la médecine",
+        "À tout dépistage, détection de fraude ou contrôle de sécurité appliqué à un événement rare",
+        "Aux seuls examens universitaires de statistiques, sans application pratique réelle",
+        "Exclusivement aux tests génétiques prénataux, à l'exclusion de tout autre dépistage"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte étend le constat au-delà du cancer du sein : chaque fois qu'un test de dépistage, un algorithme de détection de fraude ou un contrôle de sécurité s'applique à une population où l'événement recherché est rare, un résultat positif reste le plus souvent une fausse alerte."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
