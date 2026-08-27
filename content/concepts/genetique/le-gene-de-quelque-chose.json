@@ -74,6 +74,41 @@
     "explication": "Les grandes études trouvent des milliers de variants dispersés, chacun d'effet infime : isoler l'un d'eux et l'appeler « le gène de » ne dit à peu près rien. Les associations sont pourtant bien réelles et reproductibles, c'est leur nombre et la petitesse de leurs effets qui rendent la formule trompeuse.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'est-ce que l'héritabilité manquante, telle que la fiche la définit ?",
+      "choix": [
+        "L'absence de toute transmission héréditaire pour les caractères complexes",
+        "L'écart entre la variabilité attendue et celle qu'expliquent, même additionnées, toutes les variantes détectées",
+        "Le refus des chercheurs de publier les gènes à effet le plus fort",
+        "La part de variabilité due uniquement à l'environnement, jamais aux gènes"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte définit l'héritabilité manquante comme l'écart entre la variabilité qu'on attendait et celle qu'explique, même en additionnant toutes les variantes détectées, la somme des associations trouvées."
+    },
+    {
+      "question": "Pourquoi un score polygénique peut-il bien prédire une moyenne de groupe tout en restant médiocre pour un individu, selon la fiche ?",
+      "choix": [
+        "Parce que les laboratoires falsifient les résultats individuels pour préserver la confidentialité",
+        "Parce que les scores individuels ne sont calculés que pour des raisons commerciales",
+        "Parce qu'il additionne des milliers de petits effets, ce qui lisse les erreurs à l'échelle du groupe mais pas de la personne",
+        "Parce que chaque individu possède un génome entièrement différent d'une génération à l'autre"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte explique qu'un score construit en additionnant des milliers de petits effets peut prédire correctement une moyenne de groupe, tout en restant très médiocre pour un individu donné, deux usages que la fiche distingue explicitement."
+    },
+    {
+      "question": "Pourquoi les scores polygéniques calculés sur une population se transportent-ils mal vers une autre, selon la fiche ?",
+      "choix": [
+        "Parce que la structure des associations dépend de la population sur laquelle le score a été construit",
+        "Parce que les laboratoires refusent de partager leurs données entre pays",
+        "Parce que chaque population possède un nombre de gènes totalement différent",
+        "Parce que les maladies monogéniques varient d'une population à l'autre"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le texte précise que ces scores sont calculés sur les populations qui ont été séquencées et transportent mal ailleurs, car la structure des associations dépend de la population d'origine."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
