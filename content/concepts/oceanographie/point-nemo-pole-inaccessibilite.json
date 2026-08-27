@@ -120,5 +120,40 @@
     "genere_le": "2026-08-13",
     "genere_par": "claude-code",
     "version": 1
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelles sont les trois terres les plus proches de Point Nemo, et quel point commun partagent-elles ?",
+      "choix": [
+        "Ducie, Motu Nui et l'île Maher, toutes trois inhabitées",
+        "Hawaii, Tahiti et l'île de Pâques, toutes trois densément peuplées",
+        "Ducie, Motu Nui et la Nouvelle-Zélande, reliées par une ligne maritime régulière",
+        "L'île Maher, l'Antarctique et le Chili, toutes trois recouvertes de glace"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Ducie, dans les îles Pitcairn, Motu Nui, près de l'île de Pâques, et l'île Maher, au large de l'Antarctique, sont les trois terres les plus proches de Point Nemo, à 2688 km, et toutes trois sont inhabitées."
+    },
+    {
+      "question": "Pourquoi Point Nemo est-il devenu, depuis 1971, la destination favorite des agences spatiales pour désorbiter leurs engins ?",
+      "choix": [
+        "Parce que sa faible profondeur océanique facilite la récupération des débris",
+        "Parce qu'aucun être humain n'y vit sur une zone de plus de 22 millions de km², loin des routes maritimes et aériennes",
+        "Parce que les eaux y sont nettement plus chaudes toute l'année, ce qui accélère la décomposition des débris",
+        "Parce qu'un traité international y interdit toute activité de pêche"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'absence de tout témoin sur une zone de plus de 22 millions de kilomètres carrés, loin des routes maritimes et aériennes, fait de Point Nemo un lieu sûr pour désorbiter des engins spatiaux sans risque pour personne."
+    },
+    {
+      "question": "Qu'était en réalité le Bloop, ce son grave capté en 1997 par des hydrophones sous-marins près de Point Nemo ?",
+      "choix": [
+        "Le sonar d'un sous-marin militaire non identifié",
+        "Un signal émis par un satellite en fin de vie retombant dans la zone",
+        "Le fracas d'un séisme de glace en Antarctique, identifié en 2005",
+        "Le cri d'une espèce de baleine encore non répertoriée"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Longtemps inexpliqué, le Bloop capté en 1997 a été identifié en 2005 par des chercheurs de la NOAA comme le fracas d'un séisme de glace survenu en Antarctique, non une créature inconnue."
+    }
+  ]
 }
