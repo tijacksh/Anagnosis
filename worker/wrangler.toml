@@ -6,6 +6,17 @@ compatibility_date = "2026-08-04"
 binding = "AUDIO"
 bucket_name = "anagnosis-audio"
 
+# Même mécanisme que codes.js (wrangler-codes.toml) avec un plafond plus large : voir
+# le commentaire de tête d'audio.js. namespace_id doit juste être un entier positif
+# unique dans le compte Cloudflare ; 1001 est déjà pris par codes.js.
+[[ratelimits]]
+name = "LIMITEUR"
+namespace_id = "1002"
+
+  [ratelimits.simple]
+  limit = 60
+  period = 60
+
 # Le secret CLE_PARTAGEE n'est pas ici : il se pose avec
 #   wrangler secret put CLE_PARTAGEE
 # et vit ensuite côté Cloudflare, jamais dans ce dépôt.

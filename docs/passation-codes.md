@@ -13,13 +13,21 @@ surface de plus à maintenir pour un geste rare.
 cd worker
 CLOUDFLARE_API_TOKEN=... CLOUDFLARE_ACCOUNT_ID=... npx wrangler d1 execute anagnosis-codes \
   --remote --config wrangler-codes.toml \
-  --command "INSERT INTO codes (code, max, jours) VALUES ('ANAG-XXXX-XXXX', 50, 30)"
+  --command "INSERT INTO codes (code, max, jours) VALUES ('ANAGXXXXXXXX', 50, 30)"
 ```
 
 (variables déjà dans `~/.anagnosis/cles.env` : `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`)
 
 - `code` — ce que le lecteur saisit dans l'app. Assez long et aléatoire pour ne pas se
-  deviner : la forme acceptée par le Worker est 6 à 20 caractères, lettres et chiffres.
+  deviner : la forme acceptée par le Worker est 6 à 20 caractères, lettres et chiffres,
+  une fois tirets et espaces retirés de la saisie. **La colonne, elle, ne doit jamais
+  contenir de tiret ni d'espace.** Le Worker retire ces deux caractères de ce que le
+  lecteur tape avant de comparer, jamais de la valeur stockée : un code créé avec des
+  tirets dans `code` ne serait donc plus jamais retrouvé, la comparaison SQL étant une
+  égalité exacte. Présenter un code au lecteur sous une forme lisible (« ANAG-XXXX-XXXX »
+  plutôt que douze caractères d'affilée) reste possible, c'est même recommandé, à
+  condition de retirer les tirets avant l'`INSERT` : c'est une convention d'affichage,
+  jamais une partie de la valeur stockée.
 - `max` — combien de fois ce code peut être échangé, au total, tous appareils confondus.
 - `jours` — combien de jours de Premium chaque échange accorde, à partir du jour de
   l'échange (pas du jour de création du code).
@@ -28,7 +36,7 @@ CLOUDFLARE_API_TOKEN=... CLOUDFLARE_ACCOUNT_ID=... npx wrangler d1 execute anagn
 
 ```bash
 npx wrangler d1 execute anagnosis-codes --remote --config wrangler-codes.toml \
-  --command "SELECT code, max, utilises, jours FROM codes WHERE code = 'ANAG-XXXX-XXXX'"
+  --command "SELECT code, max, utilises, jours FROM codes WHERE code = 'ANAGXXXXXXXX'"
 ```
 
 ## Ce que le Worker garantit, et ce qu'il ne garantit pas
@@ -49,6 +57,27 @@ revérifiée indépendamment avec les 32 octets bruts de la clé publique (Node 
 côté, BouncyCastle de l'autre) — et un vrai échange, du bouton de l'app jusqu'au
 compteur D1, sur un appareil dont l'horloge était sciemment fausse pour confirmer que
 la fenêtre de fraîcheur rejette bien une réponse trop ancienne.
+
+**Garanti aussi (depuis le 2026-08-28)** : chaque IP appelante est plafonnée à dix
+requêtes par minute, binding Cloudflare Rate Limiting `LIMITEUR` déclaré dans
+`wrangler-codes.toml` (section `[[ratelimits]]`). Le jeton partagé ci-dessus est
+extractible de l'APK et identique pour tous les lecteurs : sans ce plafond, rien ne
+bornait le débit auquel il pouvait être rejoué, jusqu'à épuiser le quota Cloudflare et
+rendre l'échange indisponible pour tout le monde. La clé du plafond est l'IP de
+l'appelant, pas le jeton : grouper sur le jeton aurait mis tous les lecteurs légitimes
+dans le même compteur, dix requêtes par minute pour l'app entière plutôt que par
+appareil. Le compteur est local à chaque emplacement Cloudflare, pas global au réseau
+(documentation officielle du binding) ; ça ne change rien à la défense visée, qui cible
+un script tapant depuis un seul point plutôt qu'un lecteur mobile légitime. Au
+dépassement, le Worker répond 429 avec `{"erreur":"trop de requêtes"}`, la même forme
+que ses autres erreurs. `audio.js` porte la même défense avec un plafond plus large
+(soixante requêtes par minute) : enchaîner plusieurs fichiers dans la même minute est
+un usage normal pour de l'audio, ça ne l'est pas pour un échange de code.
+
+**Garanti aussi (depuis le 2026-08-28)** : un code saisi avec des tirets ou des espaces
+est accepté (« ANAG-TEST-0001 » comme « ANAGTEST0001 »), le Worker les retire avant de
+comparer à la base. Voir la remarque sur la colonne `code` dans « Créer un code »
+ci-dessus : c'est la saisie qui se normalise, jamais la valeur stockée.
 
 **Non garanti** : rien n'empêche quelqu'un contrôlant pleinement son propre appareil —
 root, jailbreak, binaire repatché — de s'accorder Premium sans jamais appeler le

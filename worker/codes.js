@@ -18,6 +18,14 @@
  * seulement ce qui distingue une requête venue de l'app d'un scan anonyme. Les codes
  * eux-mêmes sont la vraie protection — assez longs et aléatoires pour ne pas se deviner.
  *
+ * **Pourquoi une limite de débit.** Ce jeton partagé est extractible de l'APK, la
+ * passation le dit explicitement : il ne prouve rien face à quelqu'un décidé à le sortir
+ * du binaire. Sans plafond, ce même jeton rejoué à haut débit épuise le quota Cloudflare
+ * et la facture qui va avec, jusqu'à rendre l'échange indisponible pour les vrais
+ * lecteurs. Le binding `LIMITEUR` (`wrangler-codes.toml`) borne chaque IP appelante à dix
+ * requêtes par minute, avant même la vérification de méthode : aucune requête ne doit
+ * pouvoir coûter plus qu'un appel à `limit()`.
+ *
  * **Pourquoi la réponse est signée.** Sans signature, quiconque intercepte le trafic de
  * sa propre app — une simple app de proxy, sans jailbreak ni root — peut réécrire
  * `{"jours":30}` en `{"jours":99999}` en clair, et l'app n'a aucun moyen de faire la
@@ -33,6 +41,17 @@
  */
 export default {
   async fetch(request, env) {
+    // Voir « Pourquoi une limite de débit » en tête de fichier. La clé est l'IP et non
+    // le jeton partagé : deux appelants qui partagent le même jeton (extrait du même
+    // APK) restent deux débits distincts, alors que grouper sur le jeton aurait plafonné
+    // tous les lecteurs légitimes ensemble à dix requêtes par minute, tous appareils
+    // confondus.
+    const ip = request.headers.get('CF-Connecting-IP') || 'sans-ip';
+    const { success } = await env.LIMITEUR.limit({ key: ip });
+    if (!success) {
+      return reponse({ erreur: 'trop de requêtes' }, 429);
+    }
+
     if (request.method !== 'POST') {
       return new Response('méthode refusée', { status: 405 });
     }
@@ -49,7 +68,25 @@ export default {
       return reponse({ erreur: 'corps invalide' }, 400);
     }
 
-    const code = String(corps.code || '').trim().toUpperCase();
+    // `JSON.parse('null')` réussit et renvoie `null` : un corps JSON syntaxiquement
+    // valide mais qui n'est pas un objet. Sans cette garde, `corps.code` deux lignes
+    // plus bas lève une TypeError non rattrapée et le client reçoit un 500 là où un
+    // simple 400 est la bonne réponse à un corps mal formé.
+    if (typeof corps !== 'object' || corps === null) {
+      return reponse({ erreur: 'corps invalide' }, 400);
+    }
+
+    // Tirets et espaces retirés avant la comparaison : la doc de création
+    // (`passation-codes.md`) donne « ANAG-XXXX-XXXX » comme convention de lecture, et
+    // ni l'app iOS ni l'app Android ne les retirent avant d'envoyer la saisie du
+    // lecteur. Le code stocké en base ne contient jamais ces caractères non plus (même
+    // doc) : la forme canonique est décidée par le Worker, pas par la saisie, et la
+    // comparaison SQL plus bas reste une égalité exacte sur une seule forme, pas une
+    // recherche sur deux.
+    const code = String(corps.code || '')
+      .trim()
+      .toUpperCase()
+      .replace(/[\s-]/g, '');
     // La forme est vérifiée avant l'appel D1 : un essai au hasard qui ne ressemble à
     // rien de connu n'a aucune raison de toucher la base.
     if (!/^[A-Z0-9]{6,20}$/.test(code)) {

@@ -5,6 +5,9 @@
  * correspondre au secret posé sur ce Worker (`wrangler secret put CLE_PARTAGEE`), et sert
  * l'objet demandé depuis le bucket R2 lié. C'est ce qui empêche le pillage anonyme du
  * bucket par une URL R2 devinée — le bucket lui-même reste privé, seul ce Worker y a accès.
+ * Il plafonne aussi chaque IP appelante à un débit par minute (binding `LIMITEUR`,
+ * `wrangler.toml`), pour la même raison que `codes.js` : ce jeton fixe et partagé par
+ * tous les lecteurs ne borne à lui seul aucun volume de requêtes.
  *
  * **Ce que ce Worker ne fait pas encore.** Il ne valide aucun reçu d'abonnement : le
  * jeton est fixe, embarqué dans les deux apps, identique pour tous les lecteurs. Ce n'est
@@ -21,6 +24,17 @@
  */
 export default {
   async fetch(request, env) {
+    // Voir « Ce que ce Worker fait aujourd'hui » en tête de fichier, et le commentaire
+    // équivalent dans `codes.js` pour le raisonnement complet. Le plafond est plus
+    // large ici qu'aux codes : un lecteur qui enchaîne plusieurs fiches dans la même
+    // minute est un usage normal pour de l'audio, alors que dix requêtes par minute
+    // suffisent déjà à un échange de code.
+    const ip = request.headers.get('CF-Connecting-IP') || 'sans-ip';
+    const { success } = await env.LIMITEUR.limit({ key: ip });
+    if (!success) {
+      return new Response('trop de requêtes', { status: 429 });
+    }
+
     if (request.method !== 'GET' && request.method !== 'HEAD') {
       return new Response('méthode refusée', { status: 405 });
     }
