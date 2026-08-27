@@ -1,0 +1,13 @@
+name = "anagnosis-codes"
+main = "codes.js"
+compatibility_date = "2026-08-27"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "anagnosis-codes"
+database_id = "À_REMPLACER"
+
+# Le secret CLE_PARTAGEE se pose avec
+#   npx wrangler secret put CLE_PARTAGEE --config wrangler-codes.toml
+# et vit ensuite côté Cloudflare, jamais dans ce dépôt — même valeur que celui
+# d'audio.js (ANAGNOSIS_CLE_AUDIO_PARTAGEE dans ~/.anagnosis/cles.env).
