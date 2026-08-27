@@ -1,0 +1,108 @@
+{
+  "id": "epi-paradoxe-des-corbeaux",
+  "slug": "paradoxe-des-corbeaux",
+  "titre": "Le paradoxe du corbeau",
+  "accroche": "Sortir une chaussette rose d'un tiroir confirme, à la lettre de la logique, que tous les corbeaux sont noirs.",
+  "discipline": "epistemologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Ouvrez un tiroir et sortez-en une chaussette rose. Ce geste anodin, dit la logique, vient de renforcer un peu la thèse selon laquelle tous les corbeaux sont noirs.\n\nL'énoncé « tous les corbeaux sont noirs » a une équivalente stricte, obtenue par contraposition : « tout ce qui n'est pas noir n'est pas un corbeau ». Les deux phrases disent rigoureusement la même chose, aucune loi logique ne permet de les distinguer. Or la théorie de la confirmation retient un principe ancien, dit critère des instances : observer un cas conforme à un énoncé général renforce la croyance qu'on lui porte. Voir un corbeau noir confirme un peu que tous les corbeaux sont noirs. Rien n'empêche alors d'appliquer le même principe à la version contraposée : voir un objet non noir qui n'est pas un corbeau, une chaussette rose, une feuille verte, confirme un peu que rien de non noir n'est un corbeau, donc, par pure équivalence logique, confirme un peu que tous les corbeaux sont noirs.\n\n## Le paradoxe\n\nLe philosophe Carl Hempel formalise ce résultat en 1945, dans la revue *Mind*, en deux livraisons totalisant cinquante et une pages. Il ne le résout pas d'un trait, il montre au contraire qu'aucune parade immédiate ne tient. Interdire la contraposition romprait la logique classique tout entière, pas seulement ce cas gênant. Exiger que l'objet observé appartienne au même domaine que les corbeaux ne fonctionne pas non plus, rien dans la forme logique de l'énoncé ne distingue un domaine de l'autre : la règle vaut pour n'importe quel prédicat mis à la place de « corbeau » et « noir ».\n\n## Ce que ça déplace\n\nAucune solution n'a, à ce jour, fait consensus. La piste la plus travaillée, dite bayésienne, abandonne l'idée qu'une confirmation se joue tout ou rien : elle propose de mesurer de combien une observation déplace la probabilité qu'on accorde à l'énoncé, compte tenu de ce qu'on sait par ailleurs du nombre de corbeaux et du nombre d'objets non noirs dans le monde. Sous cette hypothèse, la chaussette rose confirme bien un peu la loi sur les corbeaux, mais d'une quantité si dérisoire, au regard de ce qu'apporte un vrai corbeau noir, qu'elle se perd dans l'arrondi. Le prix de cette issue reste élevé : la confirmation cesse d'être une affaire de pure logique entre un énoncé et une preuve, elle dépend désormais de ce qu'on croyait déjà du monde avant même d'avoir observé quoi que ce soit.",
+  "citation": null,
+  "repere": {
+    "texte": "Par contraposition, « tous les corbeaux sont noirs » équivaut strictement à « rien de non noir n'est un corbeau ». Un objet non noir qui n'est pas un corbeau, une chaussette rose, une feuille verte, devrait donc confirmer la loi sur les corbeaux autant qu'un vrai corbeau noir. Carl Hempel formalise ce résultat en 1945, dans la revue Mind, sur deux livraisons totalisant cinquante et une pages, sans jamais proposer de parade qui mette tout le monde d'accord.",
+    "source": "Carl G. Hempel, « Studies in the Logic of Confirmation », Mind, vol. 54, 1945",
+    "url": "https://home.csulb.edu/~cwallis/382/readings/690/hempel.logic.confirmation.I.1945.pdf"
+  },
+  "carte": {
+    "punch": "Une chaussette rose confirme, en toute rigueur logique, que tous les corbeaux sont noirs.",
+    "idee": "« Tous les corbeaux sont noirs » équivaut, par contraposition, à « rien de non noir n'est un corbeau ». Un objet non noir qui n'est pas un corbeau devrait donc confirmer la même loi. Carl Hempel formalise ce paradoxe en 1945, toujours sans solution qui fasse consensus.",
+    "source_courte": "Hempel, Mind, 1945"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Hempel, Carl G.",
+      "titre": "Studies in the Logic of Confirmation (I.)",
+      "publication": "Mind, vol. 54, n° 213, p. 1-26",
+      "annee": 1945,
+      "url": "https://home.csulb.edu/~cwallis/382/readings/690/hempel.logic.confirmation.I.1945.pdf",
+      "note": "Première partie de l'article original, qui formalise le paradoxe des corbeaux et discute les parades qui échouent."
+    },
+    {
+      "type": "article",
+      "auteur": "Hempel, Carl G.",
+      "titre": "Studies in the Logic of Confirmation (II.)",
+      "publication": "Mind, vol. 54, n° 214, p. 97-121",
+      "annee": 1945,
+      "url": "https://joelvelasco.net/teaching/120/hempel45-studies2.pdf",
+      "note": "Seconde partie de l'article, qui développe la définition formelle de la confirmation."
+    },
+    {
+      "type": "institution",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "Confirmation",
+      "publication": "plato.stanford.edu",
+      "annee": 2025,
+      "url": "https://plato.stanford.edu/entries/confirmation/",
+      "note": "Situe le paradoxe des corbeaux dans la théorie de la confirmation et présente les tentatives de solution, dont la piste bayésienne."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — Confirmation",
+      "url": "https://plato.stanford.edu/entries/confirmation/",
+      "note": "La section sur le paradoxe des corbeaux et ses solutions bayésiennes."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : à gauche une silhouette d'oiseau pleine et noire ; à droite une forme géométrique simple, un rond, en aplat de couleur. Une flèche à double sens en trait épais relie les deux formes malgré leur absence totale de ressemblance. Encre Smoky Teal et noir uniquement, contours nets, aucun dégradé, une des deux formes déborde légèrement du cadre en bas.",
+    "alt": "Un oiseau noir et un rond coloré reliés par une flèche à double sens malgré leur absence de ressemblance",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi une chaussette rose semble-t-elle, en toute rigueur logique, confirmer que tous les corbeaux sont noirs ?",
+    "choix": [
+      "Parce qu'elle est un contre-exemple qui, par contraste, renforce la règle générale",
+      "Parce que « tous les corbeaux sont noirs » équivaut par contraposition à « rien de non noir n'est un corbeau », dont la chaussette est une instance",
+      "Parce que la couleur rose se rapproche statistiquement du noir dans le spectre visible",
+      "Parce qu'aucun corbeau rose n'a jamais été observé, ce qui exclurait cette couleur du domaine des corbeaux"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La chaussette n'est pas un contre-exemple (elle est même compatible avec la loi) et sa couleur n'a de rapport ni avec une proximité optique du noir, ni avec l'absence d'observation de corbeaux roses. Le paradoxe tient à la seule équivalence logique entre un énoncé et sa contraposée, rien de plus.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-27T22:17:16.066Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-27T22:17:16.066Z",
+        "note": "Second passage indépendant : Hempel I (csulb.edu, pdftotext) confirmé Mind vol.54 n°213 pp.1-26 janv.1945, contient bien le paradoxe des corbeaux (formule S' et exemple raven/black). Hempel II (joelvelasco.net, pdftotext) confirmé Mind vol.54 n°214 pp.97-121 avril 1945 — la scission en deux sources faite au contrôle est correcte, les deux PDF s'ouvrent sur le bon volet. Stanford Encyclopedia of Philosophy rouverte : 'substantive revision Mon Aug 4, 2025' confirmé, la correction d'année (2023→2025) faite au contrôle est exacte, section 1.2 sur le paradoxe des corbeaux et section 3 sur la solution bayésienne confirmées. Carte et quiz conformes. Aucune correction supplémentaire nécessaire."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-27",
+    "verdict": "corrige",
+    "empreinte": "ef9b6f9a03f6cf09",
+    "notes": [
+      "Source Hempel combinée (I et II) sous une seule URL n'ouvrant que la partie I : scindée en deux entrées sources, chacune avec une URL vérifiée en l'ouvrant réellement (partie I : csulb.edu ; partie II : joelvelasco.net). Année de la source Stanford Encyclopedia of Philosophy corrigée de 2023 à 2025 (date de révision substantielle réelle constatée en ligne)."
+    ]
+  },
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-08-27",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

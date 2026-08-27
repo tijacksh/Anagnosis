@@ -1,0 +1,100 @@
+{
+  "id": "epi-probleme-de-gettier",
+  "slug": "probleme-de-gettier",
+  "titre": "Le problème de Gettier",
+  "accroche": "Sa croyance est vraie, il a d'excellentes raisons d'y croire, et pourtant personne ne dirait qu'il sait.",
+  "discipline": "epistemologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1963, le philosophe américain Edmund Gettier publie dans la revue *Analysis* un article de trois pages qui va occuper l'épistémologie pendant plus d'un demi-siècle. Il y démonte une définition vieille de deux mille ans.\n\nDepuis Platon, savoir quelque chose semblait tenir en trois conditions : que ce soit vrai, qu'on le croie, et qu'on ait de bonnes raisons d'y croire. Croyance vraie justifiée, l'analyse dite « tripartite ». Gettier construit un cas où les trois tiennent à la fois, et où pourtant, à l'évidence, personne ne sait rien.\n\n## Le cas\n\nSmith a d'excellentes raisons de croire que Jones possède une Ford : il l'a vu la conduire pendant des années, il a déjà pris place dedans. Smith a aussi un ami, Brown, dont il ignore totalement où il se trouve en ce moment.\n\nÀ partir de sa certitude sur Jones, Smith construit une proposition en choisissant un nom de ville presque au hasard : « Ou bien Jones possède une Ford, ou bien Brown est à Barcelone. » En logique, si la première moitié d'un « ou bien » est vraie, la phrase entière l'est aussi, quelle que soit la seconde moitié. Smith est donc parfaitement fondé à croire cette proposition, même sans savoir où se trouve Brown.\n\nVoici le retournement. Jones ne possède pas de Ford : il conduit depuis peu une voiture de location, à l'insu de Smith. Et par la plus pure coïncidence, sans que rien ne l'y ait préparé, Brown se trouve réellement à Barcelone au moment même où Smith formule sa proposition.\n\nLa proposition de Smith est donc vraie. Il avait d'excellentes raisons d'y croire. Et pourtant, personne ne dirait qu'il savait que Brown était à Barcelone : il l'a emporté par accident, accroché à une prémisse fausse sur Jones.\n\n## Ce que ça déplace\n\nGettier n'a pas besoin de contester que Smith croit, ni que sa croyance est vraie, ni même qu'elle est justifiée selon les règles ordinaires de la justification. Les trois conditions sont réunies, et le résultat ne ressemble pourtant à rien qu'on appellerait savoir. Il manque un quatrième ingrédient, que personne n'avait songé à nommer parce que personne n'en avait eu besoin.\n\nLa difficulté, découverte depuis, est qu'aucune rustine simple ne suffit. Interdire qu'une croyance vraie s'appuie sur une prémisse fausse règle le cas de Smith, mais d'autres versions du problème s'en passent entièrement, construites sans le moindre maillon faux dans le raisonnement. Depuis 1963, la recherche d'une quatrième condition qui résiste à tous les contre-exemples porte un nom : le problème de Gettier. Aucune proposition n'a, à ce jour, fait consensus.",
+  "citation": {
+    "texte": "Smith is therefore completely justified in believing each of these three propositions […] But imagine now that two further conditions hold. First, Jones does not own a Ford, but is at present driving a rented car. And secondly, by the sheerest coincidence, and entirely unknown to Smith, the place mentioned in proposition (h) happens really to be the place where Brown is.",
+    "auteur": "Edmund L. Gettier",
+    "source": "« Is Justified True Belief Knowledge? », Analysis, vol. 23, n° 6, 1963, p. 123",
+    "url": "https://doi.org/10.1093/analys/23.6.121"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Sa croyance est vraie, justifiée, et il ne sait pourtant rien.",
+    "idee": "Smith croit que Jones a une Ford et en déduit que Jones a une Ford ou que Brown est à Barcelone. Jones n'a pas de Ford, mais Brown est bien à Barcelone, par pur hasard. Croyance vraie, justifiée, et ce n'est toujours pas du savoir.",
+    "source_courte": "Gettier, Analysis, 1963"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Gettier, Edmund L.",
+      "titre": "Is Justified True Belief Knowledge?",
+      "publication": "Analysis, 23(6), p. 121-123",
+      "annee": 1963,
+      "note": "L'article original, trois pages, qui ouvre le problème.",
+      "url": "https://doi.org/10.1093/analys/23.6.121"
+    },
+    {
+      "type": "institution",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "The Analysis of Knowledge",
+      "publication": "plato.stanford.edu",
+      "annee": 2026,
+      "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+      "note": "Reprend le cas Jones/Ford/Barcelone au mot près et détaille les tentatives de correction depuis 1963."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — The Analysis of Knowledge",
+      "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+      "note": "L'état du problème et les tentatives de « degettiering » qui ont suivi."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : trois cases identiques alignées, remplies du même motif de hachures régulières. Dans la troisième case seulement, une fine ligne de rupture traverse le motif sans le rompre visuellement, presque invisible au premier regard. Encre Smoky Teal et noir uniquement, aucun dégradé, contours nets, une forme sort légèrement du cadre en haut à droite.",
+    "alt": "Trois cases au motif identique, une fissure presque invisible traverse la troisième",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi Smith ne sait-il pas, selon Gettier, que Brown est à Barcelone, alors que sa croyance est vraie et justifiée ?",
+    "choix": [
+      "Parce que sa croyance vraie tient à une coïncidence sur Brown, indépendante de son raisonnement sur Jones",
+      "Parce qu'il n'avait en réalité aucune raison sérieuse de croire que Jones possédait une Ford",
+      "Parce que la logique du « ou bien » ne permet jamais de tirer une conclusion vraie d'une prémisse fausse",
+      "Parce que Smith ne croyait pas vraiment à sa propre proposition au moment où il l'a formulée"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Smith avait d'excellentes raisons de croire que Jones possédait une Ford, et la logique du « ou bien » est parfaitement valide : une prémisse fausse peut entraîner une conclusion vraie, c'est justement ce qui se passe ici. Le problème n'est pas la logique ni la justification, mais que la vérité de la conclusion ne doit rien au raisonnement de Smith, elle tient à une coïncidence.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "valide",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-25T11:18:32.046Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-25T11:18:32.046Z",
+        "note": "Case II de Gettier 1963 rouvert en entier (PDF JSTOR, pp. 121-123, DOI ouvrable) : confirmé qu'aucun lien professionnel entre Smith et Jones n'y est mentionné (seulement qu'il l'a vu conduire une Ford par le passé et vient de monter dedans), Brown y est désigné « another friend ». Corrigé « son collègue Jones » en « Jones », sans qualificatif, dans la section Le cas. Fiche entière revérifiée : citation confrontée mot pour mot au PDF JSTOR (exacte, p. 123) ; source SEP « The Analysis of Knowledge » rouverte, dernière révision substantielle au 21 janvier 2026 (cohérente avec l'année indiquée), confirme le terme « tripartite », le cas Jones/Ford/Barcelone sans lien Smith/Jones précisé, la stratégie « no false lemmas » et les contre-exemples sans prémisse fausse (fake barns) évoqués dans la fiche ; carte conforme, source_courte non vide ; quiz vérifié un par un, bonne réponse et trois distracteurs bien faux (pas seulement plus faibles) au regard des sources."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-08-25",
+    "verdict": "a_revoir",
+    "empreinte": "8c89952e49d8bcc5",
+    "notes": [
+      "Section « Le cas » : « son collègue Jones » n'est pas soutenu par le Case II de Gettier 1963 (verifie sur le PDF JSTOR complet, pp. 121-123) — ce cas ne precise aucun lien professionnel entre Smith et Jones, il dit seulement que Smith a vu Jones conduire une Ford dans le passe et qu'il vient de monter dedans ; Brown y est explicitement designe comme « another friend », ce qui suggere plutot un lien amical que professionnel pour Jones aussi. Semble une confusion avec le Case I du meme article (Smith et Jones candidats au meme poste), qui ne se prolonge pas dans le Case II. A corriger : remplacer « collegue » par une formulation non attestee (ex. connaissance) ou sans qualificatif. Reste verifie et conforme : citation confrontee mot pour mot au PDF JSTOR (DOI ouvrable, texte exact pp. 122-123) ; source SEP 'The Analysis of Knowledge' ouverte et confirmee (reprend le cas Jones/Ford/Barcelone et les tentatives de degettierisation, y compris des contre-exemples sans premisse fausse) ; carte et quiz coherents avec les sources ; aucun tiret cadratin ; longueurs et ratio quiz conformes."
+    ]
+  },
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-08-24",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
