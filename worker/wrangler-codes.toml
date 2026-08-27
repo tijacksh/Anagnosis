@@ -7,20 +7,11 @@ binding = "DB"
 database_name = "anagnosis-codes"
 database_id = "e5ba6cae-8281-4980-891e-00f401defce0"
 
-# Plafonne chaque IP appelante à dix requêtes par minute ; voir « Pourquoi une limite
-# de débit » en tête de codes.js pour le raisonnement. `namespace_id` n'a besoin que
-# d'être un entier positif unique dans ce compte Cloudflare, rien de plus : pas de
-# ressource à créer à part comme pour un bucket D1 ou R2, la déclaration ci-dessous
-# suffit. 1001 et 1002 (audio.js, wrangler.toml) sont deux valeurs arbitraires,
-# choisies simplement distinctes ; ne pas réutiliser l'une pour un futur troisième
-# compteur sans changer l'autre.
-[[ratelimits]]
-name = "LIMITEUR"
-namespace_id = "1001"
-
-  [ratelimits.simple]
-  limit = 10
-  period = 60
+# La limite de débit vit dans la table `debit` de cette même base D1 (voir
+# `debit.schema.sql`, `debit.js`), pas dans le binding `Rate Limit` natif : celui-ci,
+# malgré une configuration conforme à la documentation, laissait passer toute charge
+# testée en direct (`wrangler tail`, quinze requêtes en cinq secondes sans jamais
+# refuser). Le binding est retiré plutôt que laissé mort dans le fichier.
 
 # Deux secrets, posés avec `npx wrangler secret put <NOM> --config wrangler-codes.toml`
 # et vivant ensuite côté Cloudflare, jamais dans ce dépôt :

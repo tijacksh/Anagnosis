@@ -22,9 +22,9 @@
  * passation le dit explicitement : il ne prouve rien face à quelqu'un décidé à le sortir
  * du binaire. Sans plafond, ce même jeton rejoué à haut débit épuise le quota Cloudflare
  * et la facture qui va avec, jusqu'à rendre l'échange indisponible pour les vrais
- * lecteurs. Le binding `LIMITEUR` (`wrangler-codes.toml`) borne chaque IP appelante à dix
- * requêtes par minute, avant même la vérification de méthode : aucune requête ne doit
- * pouvoir coûter plus qu'un appel à `limit()`.
+ * lecteurs. `debit.js` borne chaque IP appelante à dix requêtes par minute, avant même
+ * la vérification de méthode : aucune requête ne doit pouvoir coûter plus qu'un appel
+ * D1. Voir `debit.js` pour pourquoi ce n'est pas le binding `Rate Limit` natif.
  *
  * **Pourquoi la réponse est signée.** Sans signature, quiconque intercepte le trafic de
  * sa propre app — une simple app de proxy, sans jailbreak ni root — peut réécrire
@@ -39,6 +39,8 @@
  * réel plutôt qu'indicatif face à l'attaque la plus accessible : intercepter et modifier
  * sa propre requête réseau.
  */
+import { autorise } from './debit.js';
+
 export default {
   async fetch(request, env) {
     // Voir « Pourquoi une limite de débit » en tête de fichier. La clé est l'IP et non
@@ -47,8 +49,7 @@ export default {
     // tous les lecteurs légitimes ensemble à dix requêtes par minute, tous appareils
     // confondus.
     const ip = request.headers.get('CF-Connecting-IP') || 'sans-ip';
-    const { success } = await env.LIMITEUR.limit({ key: ip });
-    if (!success) {
+    if (!(await autorise(env, 'codes', ip, 10, 60))) {
       return reponse({ erreur: 'trop de requêtes' }, 429);
     }
 

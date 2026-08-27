@@ -21,7 +21,13 @@
  * Pendant de `src/r2.js` (le pipeline dépose, ce Worker sert) — même bucket, deux accès
  * distincts : le pipeline en écriture avec les clés S3 dans `~/.anagnosis/cles.env`, ce
  * Worker en lecture avec une liaison R2 native (pas de clés à lui donner).
+ *
+ * La limite de débit partage la base D1 `anagnosis-codes` avec `codes.js` (binding
+ * `DB`, portée `audio` dans la même table `debit`) plutôt qu'une base dédiée à ce seul
+ * compteur — voir `debit.js` pour pourquoi ce n'est pas le binding `Rate Limit` natif.
  */
+import { autorise } from './debit.js';
+
 export default {
   async fetch(request, env) {
     // Voir « Ce que ce Worker fait aujourd'hui » en tête de fichier, et le commentaire
@@ -30,8 +36,7 @@ export default {
     // minute est un usage normal pour de l'audio, alors que dix requêtes par minute
     // suffisent déjà à un échange de code.
     const ip = request.headers.get('CF-Connecting-IP') || 'sans-ip';
-    const { success } = await env.LIMITEUR.limit({ key: ip });
-    if (!success) {
+    if (!(await autorise(env, 'audio', ip, 60, 60))) {
       return new Response('trop de requêtes', { status: 429 });
     }
 

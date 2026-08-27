@@ -6,16 +6,14 @@ compatibility_date = "2026-08-04"
 binding = "AUDIO"
 bucket_name = "anagnosis-audio"
 
-# Même mécanisme que codes.js (wrangler-codes.toml) avec un plafond plus large : voir
-# le commentaire de tête d'audio.js. namespace_id doit juste être un entier positif
-# unique dans le compte Cloudflare ; 1001 est déjà pris par codes.js.
-[[ratelimits]]
-name = "LIMITEUR"
-namespace_id = "1002"
-
-  [ratelimits.simple]
-  limit = 60
-  period = 60
+# Même base D1 que codes.js (wrangler-codes.toml), pour la seule table `debit` — voir
+# le commentaire de tête d'audio.js et `debit.js`. Pas de base dédiée à ce Worker rien
+# que pour un compteur de débit ; la portée ('audio' vs 'codes') évite toute confusion
+# entre les deux compteurs dans la même table.
+[[d1_databases]]
+binding = "DB"
+database_name = "anagnosis-codes"
+database_id = "e5ba6cae-8281-4980-891e-00f401defce0"
 
 # Le secret CLE_PARTAGEE n'est pas ici : il se pose avec
 #   wrangler secret put CLE_PARTAGEE

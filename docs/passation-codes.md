@@ -59,20 +59,25 @@ compteur D1, sur un appareil dont l'horloge était sciemment fausse pour confirm
 la fenêtre de fraîcheur rejette bien une réponse trop ancienne.
 
 **Garanti aussi (depuis le 2026-08-28)** : chaque IP appelante est plafonnée à dix
-requêtes par minute, binding Cloudflare Rate Limiting `LIMITEUR` déclaré dans
-`wrangler-codes.toml` (section `[[ratelimits]]`). Le jeton partagé ci-dessus est
-extractible de l'APK et identique pour tous les lecteurs : sans ce plafond, rien ne
-bornait le débit auquel il pouvait être rejoué, jusqu'à épuiser le quota Cloudflare et
-rendre l'échange indisponible pour tout le monde. La clé du plafond est l'IP de
-l'appelant, pas le jeton : grouper sur le jeton aurait mis tous les lecteurs légitimes
-dans le même compteur, dix requêtes par minute pour l'app entière plutôt que par
-appareil. Le compteur est local à chaque emplacement Cloudflare, pas global au réseau
-(documentation officielle du binding) ; ça ne change rien à la défense visée, qui cible
-un script tapant depuis un seul point plutôt qu'un lecteur mobile légitime. Au
-dépassement, le Worker répond 429 avec `{"erreur":"trop de requêtes"}`, la même forme
-que ses autres erreurs. `audio.js` porte la même défense avec un plafond plus large
-(soixante requêtes par minute) : enchaîner plusieurs fichiers dans la même minute est
-un usage normal pour de l'audio, ça ne l'est pas pour un échange de code.
+requêtes par minute, comptées dans la table D1 `debit` (`debit.schema.sql`, `debit.js`)
+— **pas** le binding Cloudflare Rate Limiting natif. Ce binding a été écrit et configuré
+en premier, à la lettre de la documentation officielle, mais testé en direct
+(`wrangler tail`, quinze requêtes en cinq secondes puis de nouveau après cinq minutes
+d'attente) il répondait `success: true` sans exception, quel que soit le débit envoyé :
+une panne côté plateforme, pas une erreur de configuration. Le compteur D1 reprend le
+motif déjà éprouvé du compteur d'usage des codes (`UPDATE ... WHERE utilises < max`,
+atomique), vérifié en direct après coup : dix requêtes passent, la onzième reçoit 429.
+
+Le jeton partagé ci-dessus est extractible de l'APK et identique pour tous les
+lecteurs : sans ce plafond, rien ne bornait le débit auquel il pouvait être rejoué,
+jusqu'à épuiser le quota Cloudflare et rendre l'échange indisponible pour tout le
+monde. La clé du plafond est l'IP de l'appelant, pas le jeton : grouper sur le jeton
+aurait mis tous les lecteurs légitimes dans le même compteur, dix requêtes par minute
+pour l'app entière plutôt que par appareil. Au dépassement, le Worker répond 429 avec
+`{"erreur":"trop de requêtes"}`, la même forme que ses autres erreurs. `audio.js` porte
+la même défense, même table D1, portée `audio` plutôt que `codes`, avec un plafond plus
+large (soixante requêtes par minute) : enchaîner plusieurs fichiers dans la même minute
+est un usage normal pour de l'audio, ça ne l'est pas pour un échange de code.
 
 **Garanti aussi (depuis le 2026-08-28)** : un code saisi avec des tirets ou des espaces
 est accepté (« ANAG-TEST-0001 » comme « ANAGTEST0001 »), le Worker les retire avant de
