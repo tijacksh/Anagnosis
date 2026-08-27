@@ -17,6 +17,19 @@
  * **Le même jeton partagé que `audio.js`** (`X-Anagnosis-Cle`) : pas une preuve d'identité,
  * seulement ce qui distingue une requête venue de l'app d'un scan anonyme. Les codes
  * eux-mêmes sont la vraie protection — assez longs et aléatoires pour ne pas se deviner.
+ *
+ * **Pourquoi la réponse est signée.** Sans signature, quiconque intercepte le trafic de
+ * sa propre app — une simple app de proxy, sans jailbreak ni root — peut réécrire
+ * `{"jours":30}` en `{"jours":99999}` en clair, et l'app n'a aucun moyen de faire la
+ * différence entre ça et une vraie réponse. La signature Ed25519 ferme exactement ce
+ * chemin-là : falsifier la réponse demande la clé privée, qui ne quitte jamais ce Worker.
+ *
+ * Elle ne ferme **pas** tout : un appareil débridé ou un binaire repatché peuvent
+ * toujours s'accorder Premium sans jamais appeler ce Worker — même limite que documentée
+ * dans `Atelier.swift` pour la bascule de démonstration. Ce n'est pas une frontière de
+ * sécurité contre un appareil hostile, seulement ce qui rend un plafond de distribution
+ * réel plutôt qu'indicatif face à l'attaque la plus accessible : intercepter et modifier
+ * sa propre requête réseau.
  */
 export default {
   async fetch(request, env) {
@@ -59,9 +72,30 @@ export default {
     // répondre vite dans le cas courant.
     if (resultat.meta.changes === 0) return reponse({ erreur: 'epuise' }, 410);
 
-    return reponse({ jours: ligne.jours }, 200);
+    const horodatage = Math.floor(Date.now() / 1000);
+    const signature = await signer(env, `${code}|${ligne.jours}|${horodatage}`);
+
+    return reponse({ jours: ligne.jours, horodatage, signature }, 200);
   },
 };
+
+/**
+ * Signe `code|jours|horodatage` en Ed25519. L'horodatage entre dans le message pour
+ * une seule raison : sans lui, une réponse valide capturée une fois — sur un réseau
+ * public, par exemple, sans accès à l'appareil qui l'a reçue — resterait rejouable pour
+ * toujours. L'app refuse un horodatage trop ancien (`CodePromo`, des deux côtés).
+ *
+ * La clé privée (PKCS8 DER, base64) vit dans `~/.anagnosis/signature-codes-privee.pem`
+ * et dans ce seul secret Cloudflare — jamais dans un dépôt.
+ */
+async function signer(env, message) {
+  const derBrut = Uint8Array.from(atob(env.CLE_SIGNATURE), (c) => c.charCodeAt(0));
+  const cle = await crypto.subtle.importKey(
+    'pkcs8', derBrut, { name: 'Ed25519' }, false, ['sign']);
+  const signature = await crypto.subtle.sign(
+    'Ed25519', cle, new TextEncoder().encode(message));
+  return btoa(String.fromCharCode(...new Uint8Array(signature)));
+}
 
 function reponse(corps, status) {
   return new Response(JSON.stringify(corps), {

@@ -7,7 +7,12 @@ binding = "DB"
 database_name = "anagnosis-codes"
 database_id = "e5ba6cae-8281-4980-891e-00f401defce0"
 
-# Le secret CLE_PARTAGEE se pose avec
-#   npx wrangler secret put CLE_PARTAGEE --config wrangler-codes.toml
-# et vit ensuite côté Cloudflare, jamais dans ce dépôt — même valeur que celui
-# d'audio.js (ANAGNOSIS_CLE_AUDIO_PARTAGEE dans ~/.anagnosis/cles.env).
+# Deux secrets, posés avec `npx wrangler secret put <NOM> --config wrangler-codes.toml`
+# et vivant ensuite côté Cloudflare, jamais dans ce dépôt :
+#   CLE_PARTAGEE   — même valeur que celui d'audio.js (ANAGNOSIS_CLE_AUDIO_PARTAGEE
+#                    dans ~/.anagnosis/cles.env). Distingue une requête de l'app d'un
+#                    scan anonyme, rien de plus.
+#   CLE_SIGNATURE  — clé privée Ed25519 dédiée aux codes, signe chaque réponse
+#                    d'échange. Voir docs/passation-codes.md pour la génération et
+#                    la rotation ; le fichier source vit dans
+#                    ~/.anagnosis/signature-codes-privee.pem.
