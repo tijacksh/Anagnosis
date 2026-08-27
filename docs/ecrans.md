@@ -116,10 +116,16 @@ posée avant la première fiche.
 
 ## 6. Quiz
 
-Facultatif, et annoncé comme tel. Après réponse : la bonne réponse prend
-l'aplat d'encre, les distracteurs sont barrés et non colorés en rouge — rien à
-punir. L'explication traite **toutes** les mauvaises réponses, pas seulement la
-bonne. Le quiz ne compte pas dans la série.
+Facultatif, et annoncé comme tel. Après réponse : la bonne réponse et, si elle
+est fausse, la réponse choisie prennent chacune un cadre net et un texte
+coloré — **vert pour la bonne, rouge pour la fausse choisie** (décision du
+2026-08-27, `decisions.md`). Les distracteurs restants sont simplement barrés,
+sans couleur. Ce vert/rouge est volontairement **hors** de l'encre de
+discipline et du plafond de trois couleurs par surface (charte §2.3) : un
+signal universel, lisible quelle que soit la discipline, prime ici sur les
+deux règles qui valaient jusque-là pour cet écran. L'explication traite
+**toutes** les mauvaises réponses, pas seulement la bonne. Le quiz ne compte
+pas dans la série, que le lecteur ait déjà répondu ou non.
 
 ## 7. Profil
 

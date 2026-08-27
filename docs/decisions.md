@@ -1179,3 +1179,79 @@ vide, c'est-à-dire de la situation exacte d'une réinstallation.
   celles que le lecteur n'a pas cochées et ne peut pas cocher. C'est un banc d'essai pour la
   voix, et il passe à l'atelier — sous les yeux d'un lecteur, il donnait à voir un corpus qu'il
   n'a pas et une sélection qui n'aurait servi à rien.
+
+---
+
+## 2026-08-27 — Le quiz revient sur « rien à punir » et sur les trois encres
+
+**Signalé à l'usage :** la bonne réponse prenait l'aplat de l'encre de discipline —
+vert pour une fiche de Biologie, mais tout aussi bien rouge pour Médecine ou orange
+pour Anthropologie, un signal qui se lisait alors à l'envers d'une bonne réponse. Et
+la réponse fausse qu'on venait de choisir recevait exactement le même traitement que
+les distracteurs jamais cliqués (barrée, atténuée) : impossible de revoir, une fois
+répondu, laquelle on avait soi-même donnée.
+
+**Décidé :** un vert et un rouge universels, fixes, hors nuancier de discipline —
+mêmes valeurs sur les deux clients (`Signal` dans
+`Anagnosis-app/Anagnosis/Charte/Couleurs.swift` côté iOS,
+`Anagnosis-android/app/src/main/java/com/anagnosis/app/charte/Charte.kt` côté
+Android), 4,6:1 et 8,3:1 pour le vert clair/sombre, 5,1:1 et 7,1:1 pour le rouge —
+au-dessus du seuil de texte courant, charte §7, pas seulement du grand texte. La
+bonne réponse porte
+désormais un cadre et un texte verts en toute circonstance ; la réponse fausse
+choisie porte un cadre et un texte rouges ; les distracteurs restants gardent le
+traitement barré/atténué d'origine, sans couleur.
+
+**Ce que ça revient sur deux décisions antérieures**, assumé plutôt que contourné :
+- `ecrans.md` §6 disait « rien à punir », d'où l'absence de rouge. Un rouge
+  spécifiquement posé sur *la réponse qu'on a soi-même choisie et qui est fausse*
+  reste, de l'avis du produit, plus lisible qu'un principe qui laissait la bonne
+  réponse se colorer au hasard de la discipline.
+- `charte-visuelle.md` §2.3 plafonnait à trois encres par surface. Le quiz en ajoute
+  une quatrième et une cinquième, mais hors du nuancier des trente-neuf disciplines :
+  ce n'est plus un signal de discipline, c'est un signal de correction, et il ne vaut
+  que sur cet écran.
+
+Un forçage de vérification visuelle accompagne le changement côté iOS :
+`-quiz-reponse N` (`Forcages.quizReponse` dans `Racine.swift`) impose la réponse
+déjà donnée sur `-ecran quiz`, pour atteindre les trois états (bonne, fausse
+choisie, distracteur restant) sans dépendre de l'automatisation tactile du
+simulateur. Android n'a pas d'équivalent : les trois états y ont été vérifiés en
+tapant réellement dans l'émulateur, clair et sombre.
+
+### iOS assombrissait ses propres aplats de moitié
+
+**Signalé à l'usage**, une deuxième fois le même jour : à l'écran, l'aplat vert/rouge
+d'iOS restait nettement plus pâle que celui d'Android pour les **mêmes** constantes
+`Signal`. Premier réflexe — faux : soupçonner SwiftUI et Compose de ne pas mélanger
+une couleur translucide de la même façon, et figer le mélange à 14 % en dur dans
+`RVB` (une fonction `alphaSur`, jamais gardée, effacée de l'historique avec ce qui
+suit).
+
+**La vraie cause** : `.disabled(repondu != nil)`, posé sur chaque bouton de réponse
+une fois le quiz répondu. `Button` l'assombrit d'environ moitié dès qu'il est
+désactivé — vrai avec `buttonStyle(.plain)` aussi, ce n'est pas propre à un style
+particulier — alors que le `Modifier.clickable(enabled = false)` d'Android ne touche
+à rien de visuel. Mesuré en comparant un aplat vert identique sur les deux
+plateformes : Android au plus près du calcul attendu, iOS à un mélange supplémentaire
+d'environ 50 % avec le papier — cohérent sur les trois canaux RVB et sur la couleur
+du texte, pas seulement sur l'aplat.
+
+**Conséquence non anodine** : ce n'était pas qu'une question d'harmonie visuelle.
+Le test qui garantit 4,5:1 de contraste sur `Signal` porte sur la couleur *déclarée*,
+pas sur ce qu'iOS affiche réellement une fois répondu — l'assombrissement automatique
+faisait donc mentir en silence, sur appareil, une garantie d'accessibilité vérifiée
+et vertement affichée dans les tests.
+
+**Corrigé** : le bouton n'est plus jamais `.disabled` ; `guard repondu == nil else {
+return }` dans l'action (déjà là) rend le second appui inerte, et
+`.allowsHitTesting(repondu == nil)` l'empêche même d'atteindre le bouton — sans que
+rien ne touche à l'apparence. `EcranQuiz.swift`, ligne du commentaire qui date cette
+trouvaille.
+
+Occasion de le dire une fois pour toutes : avant d'attribuer un écart de rendu entre
+les deux clients à une différence de moteur (SwiftUI contre Compose), vérifier
+d'abord ce qui, sur l'écran en cause, modifie l'apparence en fonction d'un état —
+`disabled`, `isEnabled`, tout modificateur conditionnel posé près du composant. C'est
+la source la plus fréquente d'un écart qui ressemble à un problème de rendu et n'en
+est pas un.

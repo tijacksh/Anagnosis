@@ -162,6 +162,17 @@ Variante claire pour le mode sombre : l'encre est remontée en clarté
 Jamais plus de trois. C'est cette contrainte qui produit la cohérence sur
 l'ensemble de la base.
 
+**Exception, tranchée le 2026-08-27 (`decisions.md`) : le quiz.** La bonne
+réponse et la réponse fausse choisie y ajoutent un vert et un rouge
+universels, hors nuancier de discipline — papier + noire + encre de
+discipline + vert/rouge de correction. La règle « une seule encre en plus du
+noir dit le sens » ne tenait plus : l'aplat de correction empruntait jusque-là
+l'encre de la discipline, vert pour une fiche de Biologie mais tout aussi bien
+rouge pour Médecine ou orange pour Anthropologie — un signal qui se lisait
+alors à l'envers. Le vert/rouge du quiz est fixe (`Signal` dans
+`Charte/Couleurs.swift`), pas dérivé du nuancier des trente-neuf disciplines,
+et ne s'applique qu'à cet écran.
+
 ### 2.4 Surimpressions documentées
 
 Mode `multiply`, encre à 88 %.
