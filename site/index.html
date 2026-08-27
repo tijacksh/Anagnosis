@@ -9,9 +9,14 @@
 <meta property="og:title" content="Anagnosis, un concept par jour, et sa source">
 <meta property="og:description" content="Chaque matin, une notion expliquée en trois minutes. Vérifiée, sourcée, jusque dans la carte que vous partagez.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="./icone-512.png">
+<meta property="og:url" content="https://anagnosis.fr/">
+<meta property="og:image" content="https://anagnosis.fr/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Anagnosis — un concept par jour, et sa source">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="./icone.svg" type="image/svg+xml">
+<link rel="icon" href="./favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="./icone-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -100,8 +105,11 @@ a { color: inherit; }
   border: 1px solid var(--encre); padding: 13px 18px;
   text-decoration: none; color: var(--encre);
   font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
-  opacity: .55; cursor: default;
+  transition: background .15s ease, color .15s ease;
 }
+.store-bouton:hover { background: var(--encre); color: var(--papier); }
+.store-bouton.inerte { opacity: .55; cursor: default; }
+.store-bouton.inerte:hover { background: none; color: var(--encre); }
 .store-bouton .glyphe { font-family: var(--display); font-weight: 800; font-size: 17px; }
 .store-bouton .texte { display: flex; flex-direction: column; gap: 2px; text-align: left; }
 .store-bouton .texte b { font-size: 13px; letter-spacing: 0; text-transform: none; font-weight: 600; }
@@ -218,11 +226,11 @@ footer {
     </div>
 
     <div class="stores">
-      <span class="store-bouton" role="note">
-        <span class="texte"><span>Bientôt disponible</span><b>App Store</b></span>
-      </span>
-      <span class="store-bouton" role="note">
-        <span class="texte"><span>Bientôt disponible</span><b>Google Play</b></span>
+      <a class="store-bouton" href="mailto:contact@anagnosis.fr?subject=Pr%C3%A9venez-moi%20du%20lancement">
+        <span class="texte"><span>Pas encore en ligne</span><b>Être prévenu·e par e-mail</b></span>
+      </a>
+      <span class="store-bouton inerte" role="note">
+        <span class="texte"><span>Bientôt</span><b>App Store · Google Play</b></span>
       </span>
     </div>
   </section>
@@ -272,11 +280,11 @@ footer {
       concept par jour, dans les disciplines de votre choix.
     </p>
     <div class="stores">
-      <span class="store-bouton" role="note">
-        <span class="texte"><span>Bientôt disponible</span><b>App Store</b></span>
-      </span>
-      <span class="store-bouton" role="note">
-        <span class="texte"><span>Bientôt disponible</span><b>Google Play</b></span>
+      <a class="store-bouton" href="mailto:contact@anagnosis.fr?subject=Pr%C3%A9venez-moi%20du%20lancement">
+        <span class="texte"><span>Pas encore en ligne</span><b>Être prévenu·e par e-mail</b></span>
+      </a>
+      <span class="store-bouton inerte" role="note">
+        <span class="texte"><span>Bientôt</span><b>App Store · Google Play</b></span>
       </span>
     </div>
   </section>
@@ -285,7 +293,7 @@ footer {
 <footer>
   <span>© Anagnosis</span>
   <span>Aucune publicité. Aucun compte requis pour le socle gratuit.</span>
-  <span><a href="/contact" style="color:inherit">Contact</a> · <a href="/mentions-legales" style="color:inherit">Mentions légales</a></span>
+  <span><a href="/contact" style="color:inherit">Contact</a> · <a href="/mentions-legales" style="color:inherit">Mentions légales</a> · <a href="/confidentialite" style="color:inherit">Confidentialité</a> · <a href="/conditions" style="color:inherit">Conditions</a></span>
 </footer>
 
 <script>

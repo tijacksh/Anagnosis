@@ -67,8 +67,43 @@ const html = (await readFile(path.join(SRC, 'index.html'), 'utf8'))
   .replace('{{DISCIPLINES}}', puces);
 await writeFile(path.join(DEST, 'index.html'), html, 'utf8');
 
-for (const f of ['icone.svg', 'icone-180.png', 'icone-512.png', 'contact.html', 'mentions-legales.html']) {
+const FICHIERS_STATIQUES = [
+  'icone.svg', 'icone-180.png', 'icone-192.png', 'icone-512.png', 'favicon.ico',
+  'og.png', 'contact.html', 'mentions-legales.html', 'confidentialite.html',
+  'conditions.html', '404.html', 'robots.txt',
+];
+for (const f of FICHIERS_STATIQUES) {
   await copyFile(path.join(SRC, f), path.join(DEST, f));
+}
+
+// Le plan du site, engendré plutôt qu'écrit à la main : une page ajoutée à
+// `FICHIERS_STATIQUES` ci-dessus s'y retrouve sans qu'il y ait une seconde liste à
+// tenir à jour en parallèle, et donc rien à oublier.
+const PAGES_PROPRES = ['/', '/contact', '/mentions-legales', '/confidentialite', '/conditions'];
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${PAGES_PROPRES.map((p) => `  <url><loc>https://anagnosis.fr${p}</loc></url>`).join('\n')}
+</urlset>
+`;
+await writeFile(path.join(DEST, 'sitemap.xml'), sitemap, 'utf8');
+
+// **Le filet contre la panne du 27 août 2026** : deux pages légales manquantes,
+// jamais construites, jamais testées, découvertes en revue plutôt qu'au build.
+// Chaque lien interne posé dans `site/*.html` doit désigner un fichier qui existe
+// réellement dans `DEST` une fois la vitrine assemblée — sans quoi le lien atterrit
+// sur la 404 générique de l'hébergeur au lieu de la page voulue, en silence.
+const pagesVitrine = [...FICHIERS_STATIQUES.filter((f) => f.endsWith('.html')), 'index.html'];
+const LIENS_INTERNES = /href="\/([a-z0-9-]*)"/g;
+for (const nom of pagesVitrine) {
+  const contenu = await readFile(path.join(DEST, nom), 'utf8');
+  for (const [, cible] of contenu.matchAll(LIENS_INTERNES)) {
+    const fichierCible = cible === '' ? 'index.html' : `${cible}.html`;
+    try {
+      await readFile(path.join(DEST, fichierCible));
+    } catch {
+      throw new Error(`${nom} pointe vers /${cible}, absent de la vitrine construite (${fichierCible} introuvable)`);
+    }
+  }
 }
 
 // Le contenu du client iOS et Android, signé — voir docs/passation-audio.md pour

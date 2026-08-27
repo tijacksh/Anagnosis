@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#F4EFE1">
+<title>Politique de confidentialité, Anagnosis</title>
+<meta name="description" content="Ce que l'application Anagnosis enregistre, où, et ce qu'elle n'envoie jamais.">
+<link rel="icon" href="./icone.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Martian+Mono:wght@400..600&display=swap" media="print" onload="this.media='all'">
+<style>
+:root {
+  --papier: #F4EFE1; --encre: #1B1A17; --texte-2: #5B5449; --filet: #D9CFB8;
+  --marque: #3D5588;
+  --display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --corps: 'Newsreader', ui-serif, Georgia, serif;
+  --mono: 'Martian Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --marge: 24px;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --papier: #241F1A; --encre: #EDE3D0; --texte-2: #B3A794; --filet: #3D362C; --marque: #5C7CBF; }
+}
+* , *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--papier); color: var(--encre);
+  font-family: var(--corps); font-size: 17px; line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+.grain {
+  position: fixed; inset: 0; z-index: 5; pointer-events: none; opacity: .045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='90' height='90' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) { .grain { opacity: .07; mix-blend-mode: screen; } }
+main { max-width: 720px; margin: 0 auto; padding: 0 var(--marge) 64px; }
+a { color: inherit; }
+.entete {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px 20px;
+  padding: 28px var(--marge); max-width: 720px; margin: 0 auto;
+}
+.entete a { font-family: var(--mono); font-size: 13px; font-weight: 600;
+            letter-spacing: .1em; text-transform: uppercase; text-decoration: none; }
+.nav { display: flex; gap: 20px; }
+.nav a {
+  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; text-decoration: none;
+  color: var(--texte-2);
+}
+.nav a:hover { color: var(--encre); }
+.sur-titre {
+  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--marque);
+  margin: 0 0 8px;
+}
+h1 { font-family: var(--display); font-weight: 800; letter-spacing: -.02em;
+     font-size: 32px; margin: 0 0 32px; }
+h2 { font-family: var(--display); font-weight: 700; letter-spacing: -.01em;
+     font-size: 18px; margin: 36px 0 8px; }
+p { margin: 0 0 12px; }
+footer {
+  border-top: 1px solid var(--filet); padding: 32px var(--marge) 48px;
+  max-width: 720px; margin: 0 auto;
+  font-family: var(--mono); font-size: 11.5px; color: var(--texte-2);
+}
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="entete">
+  <a href="./">Anagnosis</a>
+  <nav class="nav"><a href="./">Accueil</a><a href="/contact">Contact</a></nav>
+</header>
+
+<main>
+  <p class="sur-titre">Informations légales</p>
+  <h1>Politique de confidentialité</h1>
+
+  <p>
+    Cette page couvre l'application Anagnosis, sur iOS et sur Android.
+    Pour le site anagnosis.fr lui-même, voir les
+    <a href="/mentions-legales">mentions légales</a>.
+  </p>
+
+  <h2>Le principe</h2>
+  <p>
+    Anagnosis ne demande ni compte, ni inscription, ni adresse e-mail pour
+    fonctionner. Ce que vous lisez, vos disciplines, votre série de jours,
+    reste sur votre appareil. Rien de tout cela n'est envoyé, ni à
+    Anagnosis, ni à personne d'autre.
+  </p>
+
+  <h2>Ce qui est enregistré, et où</h2>
+  <p>
+    Sur l'appareil : les disciplines choisies, les jours lus, le pseudo
+    facultatif de la carte partagée, l'heure de notification, le thème,
+    la voix d'écoute choisie, et l'état d'un abonnement ou d'un code
+    promotionnel. Rien de cela ne quitte l'appareil de sa propre
+    initiative.
+  </p>
+  <p>
+    <strong>Sur iOS</strong>, si iCloud est activé sur votre appareil, cet
+    état se synchronise entre vos appareils via le magasin clé-valeur
+    d'iCloud, un service d'Apple. Anagnosis n'a accès à aucune de ces
+    données : elles transitent par votre compte iCloud, pas par un
+    serveur qu'Anagnosis exploite.
+  </p>
+  <p>
+    <strong>Sur Android</strong>, la sauvegarde du système peut inclure ce
+    même état, selon les réglages de votre compte Google et de votre
+    appareil. Même chose : Anagnosis n'y a pas accès, c'est un service de
+    Google.
+  </p>
+  <p>
+    Vous pouvez aussi exporter cet état dans un fichier, depuis les
+    réglages de l'app, et le déplacer vous-même vers un autre appareil.
+    Ce fichier ne transite par aucun serveur : c'est vous qui le
+    déplacez.
+  </p>
+
+  <h2>Les nouvelles fiches</h2>
+  <p>
+    Une fois par jour au plus, l'app télécharge un fichier public
+    contenant les fiches écrites depuis la dernière mise à jour de
+    l'app. Cette requête ne porte aucun identifiant, aucun compte,
+    aucune mesure d'usage : le serveur ne sait pas qui la fait, il sert
+    le même fichier à tout le monde. Vous pouvez couper cette mise à
+    jour depuis les réglages ; l'app continue de fonctionner avec les
+    fiches déjà livrées.
+  </p>
+
+  <h2>L'écoute</h2>
+  <p>
+    Le fichier audio d'une fiche, quand il existe, est téléchargé sur
+    demande depuis un serveur distinct. Cette requête ne contient ni
+    compte ni identifiant propre à vous : seul le nom du fichier demandé
+    y figure. L'hébergeur de ce serveur (Cloudflare) journalise, à des
+    fins de sécurité, les requêtes techniques qu'il reçoit (adresse IP,
+    horodatage), selon sa propre politique de confidentialité. Anagnosis
+    n'a accès à aucun journal au-delà de ce que Cloudflare expose.
+  </p>
+
+  <h2>Les codes promotionnels</h2>
+  <p>
+    Si vous saisissez un code promotionnel, il est envoyé à un serveur
+    qui vérifie s'il existe encore et l'échange contre des jours
+    d'accès Premium. Ce serveur ne reçoit que le code saisi : aucun
+    identifiant d'appareil, aucun compte, rien qui vous distingue d'un
+    autre lecteur au-delà de cette seule requête.
+  </p>
+
+  <h2>L'abonnement</h2>
+  <p>
+    Un abonnement Premium est acheté et géré entièrement par Apple ou
+    par Google, selon votre appareil, via votre identifiant Apple ou
+    votre compte Google. Anagnosis ne voit jamais votre moyen de
+    paiement ni votre identité de facturation : l'app reçoit uniquement
+    la confirmation, délivrée par la plateforme, qu'un achat est valide.
+    Voir aussi les <a href="/conditions">conditions générales</a>.
+  </p>
+
+  <h2>Ce qu'Anagnosis ne fait pas</h2>
+  <p>
+    Pas de mesure d'audience dans l'app, pas de publicité, pas de
+    revente ni de partage de données à un tiers, pas de profil
+    constitué sur vous. Aucun identifiant publicitaire n'est lu.
+  </p>
+
+  <h2>Vos droits</h2>
+  <p>
+    Puisque l'essentiel de ce qui vous concerne reste sur votre
+    appareil, l'effacer supprime déjà l'essentiel : désinstaller l'app
+    efface les données qu'elle avait enregistrées localement, sous
+    réserve de ce qu'une sauvegarde iCloud ou Android en aurait
+    conservé de son côté, sur laquelle Anagnosis n'a pas de prise.
+  </p>
+  <p>
+    Pour toute question sur ce que cette politique couvre, ou pour
+    exercer un droit d'accès, de rectification ou d'effacement sur ce
+    qu'Anagnosis reçoit effectivement (une requête de code
+    promotionnel, par exemple), écrivez à
+    <a href="mailto:contact@anagnosis.fr">contact@anagnosis.fr</a>.
+    Vous pouvez aussi introduire une réclamation auprès de la CNIL
+    (3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07,
+    <a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).
+  </p>
+
+  <h2>Mise à jour de cette page</h2>
+  <p>
+    Si le fonctionnement décrit ici change, cette page est mise à jour
+    avant que le changement ne prenne effet.
+  </p>
+</main>
+
+<footer>
+  <span>© Anagnosis</span>
+</footer>
+
+</body>
+</html>

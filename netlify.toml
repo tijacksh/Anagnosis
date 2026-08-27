@@ -27,6 +27,16 @@
   to = "/mentions-legales.html"
   status = 200
 
+[[redirects]]
+  from = "/confidentialite"
+  to = "/confidentialite.html"
+  status = 200
+
+[[redirects]]
+  from = "/conditions"
+  to = "/conditions.html"
+  status = 200
+
 # La vitrine est une page publique, contrairement à l'ancien banc d'essai :
 # elle doit être indexée.
 [[headers]]
@@ -34,3 +44,11 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    # `frame-ancestors 'none'` : rien n'a de raison d'encadrer la vitrine dans une
+    # page tierce. `script-src 'unsafe-inline'` reste nécessaire au seul script en
+    # ligne de la page d'accueil, l'ouverture animée des familles de disciplines
+    # (`site/index.html`) ; `style-src 'unsafe-inline'` aux styles portés par les
+    # puces de discipline, dont la couleur vient du corpus et ne peut donc pas être
+    # une classe CSS statique.
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self'; frame-ancestors 'none'; base-uri 'none'"
