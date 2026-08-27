@@ -65,6 +65,41 @@
     "explication": "Tout tient au fait que l'animateur sait où est la voiture et l'évite délibérément : son ouverture n'apprend rien sur votre porte, qui reste à un tiers, et reporte les deux tiers restants sur l'unique porte qu'il a épargnée. S'il ouvrait au hasard et tombait par chance sur une chèvre, les deux portes vaudraient une chance sur deux et changer ne servirait à rien.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment le consensus des lecteurs qui ont écrit à Marilyn vos Savant résumait-il son erreur supposée ?",
+      "choix": [
+        "Les deux portes restantes se valent, une chance sur deux, changer ne sert à rien",
+        "Il fallait rouvrir la porte initialement choisie avant de se décider",
+        "La probabilité de gagner tombe à zéro dès que l'animateur ouvre une porte",
+        "Il fallait ignorer l'animateur et recompter les portes fermées uniquement"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le consensus des correspondants, dont beaucoup d'universitaires, était net : les deux portes restantes se valent, une chance sur deux chacune, et changer ne sert à rien. C'est précisément ce raisonnement que la fiche montre être faux."
+    },
+    {
+      "question": "Que se passe-t-il si l'animateur ouvre une porte au hasard parmi les deux restantes, et tombe par chance sur une chèvre ?",
+      "choix": [
+        "Le raisonnement s'effondre, les deux portes restantes valent bien une chance sur deux chacune",
+        "Rien ne change, changer de porte reste deux fois plus avantageux",
+        "La probabilité de gagner en changeant passe à un tiers seulement",
+        "Il devient impossible de calculer une probabilité dans ce cas"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Si l'animateur ouvre au hasard et tombe par chance sur une chèvre, il n'a pas utilisé sa connaissance de l'emplacement de la voiture pour éviter systématiquement de la révéler. Dans ce cas, les deux portes restantes valent bien une chance sur deux chacune, et changer ne rapporte rien."
+    },
+    {
+      "question": "Qui avait déjà posé un problème équivalent, avec des boîtes plutôt que des portes, quinze ans avant la polémique de 1990 ?",
+      "choix": [
+        "Steve Selvin, en 1975",
+        "Marilyn vos Savant, en 1975",
+        "Un animateur du jeu télévisé Let's Make a Deal",
+        "Un collectif d'universitaires ayant écrit à Parade"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le problème circulait bien avant 1990 : Steve Selvin l'avait posé dès 1975 dans une lettre à The American Statistician, avec des boîtes plutôt que des portes, et donnait déjà la même réponse, changer."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

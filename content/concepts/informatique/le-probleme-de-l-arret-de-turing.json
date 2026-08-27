@@ -70,6 +70,41 @@
     "explication": "Ce n'est pas une limite de puissance de calcul ni un manque de recherche : Turing a montré qu'un tel programme, confronté à sa propre description, produirait une contradiction logique pure, il devrait à la fois s'arrêter et ne pas s'arrêter. C'est ce qui rend le problème indécidable en toute généralité, quels que soient les moyens disponibles.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle question David Hilbert avait-il posée en 1928, à laquelle Turing répond en 1936 ?",
+      "choix": [
+        "Existe-t-il une méthode mécanique qui décide, pour tout énoncé logique, s'il est vrai ou faux",
+        "Peut-on construire une machine capable de traduire n'importe quel langage naturel",
+        "Existe-t-il un ordinateur capable de battre un humain à n'importe quel jeu de stratégie",
+        "Peut-on prouver que les mathématiques ne contiennent aucune contradiction interne"
+      ],
+      "bonne_reponse": 0,
+      "explication": "C'est l'Entscheidungsproblem, posé par Hilbert en 1928 : une méthode mécanique qui, appliquée à n'importe quel énoncé logique, dirait en un nombre fini d'étapes s'il est vrai ou faux. C'est à cette question que Turing invente la machine théorique qui porte son nom pour répondre."
+    },
+    {
+      "question": "Qui parvient à une conclusion équivalente à celle de Turing, par une autre voie et quelques mois plus tôt ?",
+      "choix": [
+        "Georg Cantor, par ses travaux sur la diagonalisation des ensembles infinis",
+        "Alonzo Church, à Princeton, par le lambda-calcul",
+        "David Hilbert, en formulant une nouvelle version de l'Entscheidungsproblem",
+        "Fred Cohen, par sa démonstration sur les programmes malveillants"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Alonzo Church publie à Princeton, par le lambda-calcul, une conclusion équivalente quelques mois avant l'article de Turing. Les deux résultats seront reconnus comme identiques, alors que Cantor n'a fourni que le procédé de diagonalisation repris par Turing, et Cohen n'intervient qu'en 1987."
+    },
+    {
+      "question": "Que dit le théorème de Rice, qui généralise le résultat de Turing ?",
+      "choix": [
+        "Aucune propriété non triviale du comportement d'un programme n'est décidable en général",
+        "Tous les programmes finissent toujours par s'arrêter, sauf ceux écrits avec des boucles infinies volontaires",
+        "Seule la propriété de l'arrêt est indécidable, toutes les autres propriétés peuvent être vérifiées",
+        "Un programme peut vérifier son propre code, mais jamais celui d'un autre programme"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le théorème de Rice étend le résultat de Turing à toute propriété non triviale du comportement d'un programme, pas seulement l'arrêt, mais par exemple le fait de toujours calculer la bonne réponse. C'est cette généralisation, et non l'arrêt seul, qui explique par exemple pourquoi aucun antivirus ne peut détecter à coup sûr tous les programmes malveillants."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
