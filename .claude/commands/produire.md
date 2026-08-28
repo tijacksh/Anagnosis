@@ -32,6 +32,12 @@ Dans la discipline visée. Vérifie d'abord ce qui existe déjà :
 ls content/concepts/<discipline>/
 ```
 
+Vérifie aussi `docs/idees-fiches.md` : si la discipline visée y porte des thèmes
+`proposé` ou `en cours`, ne les redouble pas — un thème `proposé` peut au contraire
+nourrir le choix des sujets, puisque quelqu'un l'a déjà voulu. Marque `fait` (avec la
+date) les lignes que tu traites, et ajoute les sujets neufs que tu retiens si tu veux
+qu'un contrôle ultérieur les retrouve.
+
 Ne double aucun sujet, même sous un autre titre. Varie les registres et les niveaux à
 l'intérieur du lot : huit fiches bâties sur le même schéma se lisent comme une seule.
 
