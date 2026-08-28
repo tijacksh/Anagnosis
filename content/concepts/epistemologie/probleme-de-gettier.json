@@ -66,7 +66,41 @@
     "explication": "Smith avait d'excellentes raisons de croire que Jones possédait une Ford, et la logique du « ou bien » est parfaitement valide : une prémisse fausse peut entraîner une conclusion vraie, c'est justement ce qui se passe ici. Le problème n'est pas la logique ni la justification, mais que la vérité de la conclusion ne doit rien au raisonnement de Smith, elle tient à une coïncidence.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle forme logique Smith utilise-t-il pour construire sa proposition sur Brown ?",
+      "choix": [
+        "Une disjonction, où il suffit qu'une des deux parties soit vraie pour que le tout le soit",
+        "Une implication, où la prémisse fausse rend automatiquement la conclusion fausse",
+        "Une conjonction, qui exige que les deux parties soient vraies en même temps",
+        "Une équivalence, qui exige que les deux parties aient la même valeur de vérité"
+      ],
+      "bonne_reponse": 0,
+      "explication": "En logique, une disjonction (un « ou bien ») est vraie dès que l'une de ses deux parties est vraie, quelle que soit l'autre, c'est ce qui permet à Smith d'être fondé à croire sa proposition."
+    },
+    {
+      "question": "Pourquoi interdire qu'une croyance vraie s'appuie sur une prémisse fausse ne suffit-il pas à résoudre le problème de Gettier ?",
+      "choix": [
+        "Parce que cette règle rendrait alors impossible toute connaissance obtenue par déduction logique",
+        "Parce qu'aucune croyance vraie ne peut, par définition, s'appuyer sur une prémisse fausse",
+        "Parce que d'autres versions du problème sont construites sans aucune prémisse fausse dans le raisonnement",
+        "Parce que Gettier lui-même a rejeté cette solution dans une réponse publiée en 1964"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La fiche précise que d'autres versions du problème se passent entièrement d'une prémisse fausse dans le raisonnement, ce qui rend cette rustine insuffisante face à tous les contre-exemples."
+    },
+    {
+      "question": "Depuis quand la définition de la connaissance comme croyance vraie justifiée, que Gettier remet en cause, était-elle en usage ?",
+      "choix": [
+        "Depuis Aristote seulement, une définition reprise par Gettier sans aucune modification",
+        "Depuis Platon, soit une définition vieille d'environ deux mille ans avant l'article de Gettier",
+        "Depuis le Moyen Âge, formulée pour la première fois par des théologiens scolastiques",
+        "Depuis le début du vingtième siècle seulement, par les précurseurs directs de Gettier"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte situe l'origine de l'analyse tripartite chez Platon, une définition vieille de deux mille ans que l'article de trois pages de Gettier vient ébranler en 1963."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
