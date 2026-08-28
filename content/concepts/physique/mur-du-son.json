@@ -118,5 +118,40 @@
     "notes": [
       "Sources rouvertes (WebFetch) : NASA FS-2003-11-016-DFRC (Sonic Booms), NASA-SP-514 Campbell/Chambers 1994, National Geographic 2023. Cône continu, largeur du couloir (1 mile/1000ft, conversion 1,6km/300m et 80km à 15000m) et nuage de condensation dépendant de l'humidité tous confirmés par les sources. Corrigé : désignation exacte FS-2003-11-016-DFRC (pas FS-016-DFRC) et année 2003 (pas 2004) ; référence NASA-SP-514 (pas RP-1385, introuvable) pour Campbell/Chambers ; note pour_aller_plus_loin corrigée (2 pages sans schéma, pas 4 pages avec schémas — vérifié par rendu PDF). Ajouté une source (NASA FS-2003-11-031-DFRC, Research Airplane Program) pour appuyer la date du 14 octobre 1947, Yeager et le Bell X-1 (700 mph, ~Mach 1,06), qui n'étaient soutenus par aucune des sources déjà citées. Rien signalé à revoir : aucune affirmation de sens non soutenue."
     ]
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi le nuage de condensation qui entoure parfois un avion de chasse ne prouve-t-il pas qu'il vient de franchir Mach 1 ?",
+      "choix": [
+        "Parce que ce nuage n'apparaît que plusieurs minutes après le passage effectif de Mach 1",
+        "Parce qu'il s'agit de condensation liée à l'humidité de l'air, qui peut apparaître en dessous comme au-dessus de Mach 1",
+        "Parce que ce nuage est en réalité de la fumée produite par les réacteurs, sans lien avec la vitesse",
+        "Parce que ce nuage n'apparaît que sur les avions civils, jamais sur les avions militaires"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le nuage de condensation dépend surtout de l'humidité ambiante et apparaît en régime transsonique, en dessous comme au-dessus de Mach 1 : par temps sec un avion peut dépasser Mach 1 sans nuage, et inversement."
+    },
+    {
+      "question": "Pourquoi le Concorde ne pouvait-il exploiter sa vitesse supersonique qu'au-dessus de l'Atlantique ?",
+      "choix": [
+        "Parce que ses réservoirs de carburant ne duraient pas assez longtemps pour survoler les terres",
+        "Parce que les radars militaires terrestres brouillaient ses instruments de navigation",
+        "Parce que le couloir de bang au sol lui interdisait le vol supersonique sur la plupart des zones habitées",
+        "Parce qu'aucun aéroport terrestre n'était équipé pour son atterrissage"
+      ],
+      "bonne_reponse": 2,
+      "explication": "C'est le couloir de bang balayé au sol qui a valu au Concorde son interdiction de vol supersonique sur la plupart des zones habitées, le contraignant à ne dépasser Mach 1 qu'au-dessus de l'Atlantique."
+    },
+    {
+      "question": "Qu'est-ce qui a fait croire, dans les années 1940, à l'existence d'un véritable mur infranchissable ?",
+      "choix": [
+        "La hausse brutale de la traînée et les commandes erratiques à l'approche de Mach 1, qui ont fait se désintégrer plusieurs prototypes",
+        "Le fait qu'aucun matériau ne résistait alors à la chaleur produite au-delà de Mach 1",
+        "Une erreur de calcul largement répandue chez les ingénieurs de l'époque, jamais corrigée depuis",
+        "L'absence totale de moteurs capables de dépasser la vitesse du son avant 1947"
+      ],
+      "bonne_reponse": 0,
+      "explication": "À l'approche de Mach 1, la traînée grimpait brutalement et les commandes devenaient erratiques, au point que plusieurs prototypes se sont désintégrés, ce qui a fait croire à une limite physique infranchissable."
+    }
+  ]
 }

@@ -94,5 +94,40 @@
     "genere_le": "2026-08-03",
     "genere_par": "claude-code",
     "version": 1
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Sur quoi repose l'essai original de Wilson et Kelling publié en 1982, faute de données statistiques ?",
+      "choix": [
+        "Sur un vaste sondage national mené auprès de plusieurs milliers de policiers américains en exercice",
+        "Sur une expérience de patrouille à pied à Newark, l'observation de terrain de Kelling et une étude de Zimbardo",
+        "Sur une comparaison chiffrée détaillée entre dix grandes villes américaines de tailles différentes",
+        "Sur les statistiques officielles complètes du FBI concernant la criminalité des années 1970"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Faute de tableau statistique ou de régression, l'essai de 1982 s'appuie sur l'évaluation d'une expérience de patrouille à pied à Newark, sur les observations personnelles de Kelling sur le terrain et sur une étude de Zimbardo datant de 1969."
+    },
+    {
+      "question": "Combien de familles suit l'expérience sociale menée dans cinq villes américaines, et publiée en 2006 ?",
+      "choix": [
+        "Environ 4 600 familles à revenu modeste",
+        "Environ 400 familles issues de tous les milieux sociaux",
+        "Environ 46 000 familles, réparties sur l'ensemble du territoire américain",
+        "Environ 4 600 policiers en patrouille"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'expérience sociale menée dans cinq villes américaines, publiée en 2006, suit environ 4 600 familles à revenu modeste relogées dans des quartiers moins marqués par le désordre visible."
+    },
+    {
+      "question": "Quel facteur les chercheurs prennent-ils en compte, en 2006, avant de conclure à l'absence de lien direct entre désordre et crime ?",
+      "choix": [
+        "Le nombre d'agents de police présents dans chaque quartier",
+        "La météo au moment des relevés de criminalité",
+        "La pauvreté du quartier",
+        "L'âge moyen des habitants du quartier"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La conclusion de 2006 ne trouve aucun lien direct et systématique entre désordre et crime une fois pris en compte des facteurs comme la pauvreté du quartier, qui explique une bonne part de la corrélation apparente."
+    }
+  ]
 }
