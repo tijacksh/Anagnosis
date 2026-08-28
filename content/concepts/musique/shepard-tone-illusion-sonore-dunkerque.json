@@ -82,14 +82,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le ton de Shepard superpose des fréquences espacées chacune d'une octave exacte : à mesure que la série monte, les fréquences aiguës s'effacent en douceur pendant que de nouvelles fréquences graves apparaissent en dessous, sans rupture audible. La fréquence ne grimpe donc pas indéfiniment, contrairement à ce qu'on entend : rien n'est accéléré comme sur un disque, et l'oreille distingue très bien les octaves. Elle est seulement guidée par l'enveloppe sonore plutôt que par la fréquence absolue.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-27T22:18:25.296Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-28T16:21:28.506Z",
     "historique": [
       {
         "action": "retoucher",
@@ -98,15 +98,23 @@
         "par": "routine-relecture",
         "le": "2026-08-27T22:18:25.296Z",
         "note": "Citation Nolan vérifiée mot pour mot (Yahoo Finance, juillet 2017, citant Business Insider). Wikipedia Shepard tone confirme la publication de 1964 (JASA 36(12), 2346-53), le mécanisme, le glissando Shepard-Risset, les usages Dunkerque/Dark Knight. Yahoo Finance confirme Le Prestige/David Julyan, Hans Zimmer et le motif de tic-tac de montre. Point sorti : la précision du corps 'trois lignes temporelles (une semaine sur la plage, un jour en mer, une heure dans les airs)' n'était appuyée par aucune des trois sources citées — vérifié en rouvrant les trois. Corrigé en ajoutant une quatrième source, Wikipedia 'Dunkirk (2017 film)', rouverte et confirmant mot pour mot cette structure ('land (one week...), sea (one day...) and air (one hour...)'). Le texte du corps est donc désormais exact et sourcé, mais avoir touché aux sources fait perdre à la fiche son contrôle à jour : elle doit repasser un contrôle indépendant avant de pouvoir être validée."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-28T16:21:28.506Z",
+        "note": "Fiche sortie par routine-relecture (27/08) au seul motif que l'ajout d'une 4e source lui faisait perdre son controle a jour ; aucun point de fond n'etait reproche. Un controle independant (28/08, verdict ok) l'a deja reverifiee. Sources rouvertes une fois de plus pour cette validation : 1) Yahoo Finance / Business Insider (juillet 2017) - citation de Nolan verifiee mot pour mot ('It's a corkscrew effect. It's always going up and up and up but it never goes outside of its range.'), attribuee a Business Insider, plus 'I interwove the three timelines', The Prestige (2006) / David Julyan, Hans Zimmer et l'enregistrement d'une montre au tic-tac insistant. 2) Wikipedia 'Shepard tone' - publication de 1964 verifiee ('Circularity in Judgements of Relative Pitch', JASA 36(12), 2346-53, decembre 1964), mecanisme par ondes sinusoidales espacees d'une octave qui s'effacent et reapparaissent, glissando de Shepard-Risset et sa variante rythmique, analogie du barber's pole. 3) Wikipedia 'Dunkirk (2017 film)' - 'land (one week of action), sea (one day of action) and air (one hour of action)' et 'the script was written to accommodate the auditory illusion of a Shepard tone, which had previously been explored in Nolan's 2006 film The Prestige'. Affiliation de Shepard aux Bell Labs (1958-1966) confirmee en externe. Aucune modification du texte : la fiche disait deja exactement ce que les sources soutiennent. validate 0/0, test 63/63."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-27",
+    "fait_le": "2026-08-28",
     "verdict": "ok",
-    "empreinte": "a19a1f5d02420e0f",
+    "empreinte": "472513e131916f4e",
     "notes": [
-      "Sources rouvertes (Wikipedia, Yahoo Finance/Business Insider, Inverse) : citation de Nolan vérifiée mot pour mot, mécanisme technique et usages (Dunkerque, Le Prestige) confirmés."
+      "Passage independant apres que routine-relecture a ajoute une 4e source (Wikipedia 'Dunkirk (2017 film)'). Sources rouvertes. Citation de Nolan verifiee mot pour mot (Yahoo Finance / Business Insider, juillet 2017) : 'It's an illusion where there's a continuing ascension of tone. It's a corkscrew effect. It's always going up and up and up but it never goes outside of its range.' Le meme article confirme 'I wrote the script according to that principle. I interwove the three timelines...', Le Prestige / David Julyan, Hans Zimmer et le tic-tac de montre. Wikipedia 'Shepard tone' confirme la publication de 1964 (JASA 36(12), 2346-53, 'Circularity in Judgements of Relative Pitch'), le mecanisme par octaves superposees, le glissando de Shepard-Risset, l'analogie de l'escalier de Penrose. Wikipedia 'Dunkirk (2017 film)' confirme mot pour mot 'land (one week of action), sea (one day of action) and air (one hour of action)' et 'the script was written to accommodate the auditory illusion of a Shepard tone'. Affiliation de Shepard aux Bell Labs verifiee en externe (exacte, mineure). Rien a redire."
     ]
   },
   "controle_juridique": null,

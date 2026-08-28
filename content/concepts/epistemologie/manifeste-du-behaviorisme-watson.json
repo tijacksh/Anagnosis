@@ -37,7 +37,16 @@
       "titre": "Commentary on Watson (1913)",
       "publication": "psychclassics.yorku.ca",
       "url": "https://psychclassics.yorku.ca/Watson/commentary.htm",
-      "note": "Situe l'article dans son contexte, notamment la controverse sur la pensée sans image entre Leipzig et Würzburg."
+      "note": "Situe l'article dans son contexte : en 1913, la psychologie est « une discipline en plein désarroi » et sa méthode de référence est l'introspection par un observateur entraîné en conditions contrôlées."
+    },
+    {
+      "type": "institution",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "Mental Imagery — §2.2 The Imageless Thought Controversy",
+      "publication": "plato.stanford.edu",
+      "annee": 2021,
+      "url": "https://plato.stanford.edu/archives/sum2021/entries/mental-imagery/",
+      "note": "Décrit la controverse sur la pensée sans image : l'école de Würzburg (Külpe) contre Wundt, qui qualifie ces expériences de « sham », et la perte de confiance dans l'introspection qui en résulte."
     }
   ],
   "pour_aller_plus_loin": [
@@ -102,8 +111,23 @@
   ],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-08-28",
+    "verdict": "corrige",
+    "empreinte": "f67a68fdec1fa661",
+    "notes": [
+      "Sources rouvertes. Le texte integral de l'article (psychclassics.yorku.ca) confirme mot pour mot la citation d'ouverture ('Psychology as the behaviorist views it is a purely objective experimental branch of natural science. Its theoretical goal is the prediction and control of behavior.'), la phrase 'Introspection forms no essential part of its methods', et 'The behaviorist... recognizes no dividing line between man and brute' ; journal, volume 20, 1913, p. 158-177 exacts. Le commentaire de Wozniak confirme que l'introspection par observateur entraine en conditions controlees etait la methode de reference attaquee, et que la psychologie etait 'in serious disarray'. CORRIGE : la note de la source 'Commentary' affirmait qu'elle situait 'la controverse sur la pensee sans image entre Leipzig et Wurzburg' - or ce commentaire ne la mentionne pas ; note reecrite et ajout de la SEP 'Mental Imagery' (section imageless thought controversy), qui documente Wurzburg/Kulpe contre Wundt et la perte de confiance dans l'introspection. Chomsky 1959 contre Verbal Behavior : exact, non cite, non conteste."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-08-28", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-08-28",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
