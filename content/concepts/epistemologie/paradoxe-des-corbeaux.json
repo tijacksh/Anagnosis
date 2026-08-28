@@ -74,7 +74,44 @@
     "explication": "La chaussette n'est pas un contre-exemple (elle est même compatible avec la loi) et sa couleur n'a de rapport ni avec une proximité optique du noir, ni avec l'absence d'observation de corbeaux roses. Le paradoxe tient à la seule équivalence logique entre un énoncé et sa contraposée, rien de plus.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "En quelle année et dans quelle revue Carl Hempel formalise-t-il le paradoxe des corbeaux ?",
+      "choix": [
+        "En 1945, dans la revue Mind",
+        "En 1938, dans la revue Erkenntnis",
+        "En 1962, dans le Journal of Philosophy",
+        "En 1945, dans les Actes de l'Académie des sciences"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Hempel publie son article en deux livraisons dans la revue Mind en 1945, totalisant cinquante et une pages, sans jamais résoudre le paradoxe de façon consensuelle.",
+      "statut": "valide"
+    },
+    {
+      "question": "Pourquoi interdire la contraposition ne résout-il pas le paradoxe des corbeaux, selon la fiche ?",
+      "choix": [
+        "Parce que la contraposition n'a jamais été acceptée par la logique classique",
+        "Parce que cela romprait la logique classique tout entière, pas seulement ce cas gênant",
+        "Parce que Hempel a démontré que la contraposition ne s'applique pas aux énoncés généraux",
+        "Parce que cela ferait perdre son statut de loi à l'énoncé sur les corbeaux"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La fiche est explicite : interdire la contraposition romprait la logique classique tout entière, pas seulement ce cas gênant, ce qui rend cette parade inapplicable dans les faits.",
+      "statut": "valide"
+    },
+    {
+      "question": "Que propose la piste bayésienne pour traiter le paradoxe des corbeaux ?",
+      "choix": [
+        "Elle exclut du calcul toute observation qui ne porte pas directement sur un corbeau",
+        "Elle remplace la logique classique par une logique à trois valeurs de vérité",
+        "Elle mesure de combien une observation déplace la probabilité de l'énoncé, compte tenu de ce qu'on sait déjà du monde",
+        "Elle limite la confirmation aux seules observations faites par plusieurs témoins indépendants"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La piste bayésienne abandonne l'idée d'une confirmation tout ou rien : elle évalue de combien une observation déplace la probabilité accordée à l'énoncé, selon ce qu'on savait déjà du monde.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

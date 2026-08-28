@@ -74,6 +74,44 @@
     "explication": "La méthode était juste, c'est celle des centres de prévision actuels. Ce sont les observations initiales qui portaient de minuscules incohérences entre pression et vent, amplifiées par le calcul en ondes parasites. D'où l'étape d'initialisation, aujourd'hui systématique, que cet échec a rendue visible.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment prévoyait-on le temps avant la méthode de Richardson ?",
+      "choix": [
+        "En comparant la carte du jour aux cartes anciennes et en reprenant ce qui avait suivi la dernière fois",
+        "En mesurant la pression atmosphérique à l'aide de ballons sondes lâchés chaque matin",
+        "En appliquant des équations de la mécanique des fluides résolues approximativement à la main",
+        "En interrogeant des marins sur les signes annonciateurs observés en mer"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Jusqu'au début du XXe siècle, prévoir le temps consistait à reconnaître des situations : comparer la carte du jour aux cartes anciennes et annoncer ce qui avait suivi la dernière fois qu'une carte semblable était apparue.",
+      "statut": "valide"
+    },
+    {
+      "question": "Que représente, dans l'image de l'usine à prévisions imaginée par Richardson, le chef d'orchestre au centre de l'amphithéâtre ?",
+      "choix": [
+        "Le responsable qui vérifie l'exactitude finale de chaque calcul avant publication",
+        "Celui qui coordonne les rythmes des calculateurs à l'aide de faisceaux lumineux",
+        "Le météorologue en chef qui décide seul de la prévision finale à annoncer",
+        "L'ingénieur chargé de réparer les instruments de mesure défaillants"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Dans l'image de Richardson, un chef d'orchestre coordonne les rythmes des dizaines de milliers de calculateurs avec des faisceaux lumineux, pour que le calcul avance à la vitesse du temps réel.",
+      "statut": "valide"
+    },
+    {
+      "question": "Que fallait-il faire aux données de départ avant de lancer le calcul, comme la suite l'a montré ?",
+      "choix": [
+        "Les compléter avec des mesures prises par avion, alors inexistantes en 1922",
+        "Les convertir dans un système d'unités métriques uniformisé",
+        "Les ajuster pour les rendre mutuellement compatibles, une étape appelée aujourd'hui initialisation",
+        "Les faire vérifier indépendamment par un second calculateur avant tout calcul"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La cause de l'échec tenait à de minuscules incohérences entre pression et vent dans les données initiales. Il fallait les ajuster pour les rendre mutuellement compatibles, étape que l'on nomme aujourd'hui l'initialisation.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
