@@ -47,6 +47,7 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Linguistique | L'hypothèse Sapir-Whorf et le mythe du vocabulaire inuit de la neige | proposé | Orkidea | 2026-08-28 |
 | Histoire de l'art | Le scandale du Salon des Refusés (1863) et le *Déjeuner sur l'herbe* de Manet | proposé | Orkidea | 2026-08-28 |
 | Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » | proposé | Orkidea | 2026-08-28 |
+| Musique | La normalisation du « la » à 440 Hz (conférence de Londres, 1939 ; norme ISO 16, 1955) | proposé | Orkidea | 2026-08-28 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
