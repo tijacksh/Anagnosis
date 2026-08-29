@@ -65,6 +65,41 @@
     "explication": "Un camion, un séisme ou une vague perturbent un détecteur et pas l'autre à trois mille kilomètres de là. Une onde venue du cosmos, elle, traverse les deux, décalée du seul temps de trajet, sept millisecondes pour GW150914. La coïncidence est ce qui transforme un mouvement mesuré en détection.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi Einstein, après avoir prédit les ondes gravitationnelles dès 1916, doute-t-il ensuite pendant vingt ans qu'on puisse les détecter ?",
+      "choix": [
+        "Parce qu'il pense que la relativité générale elle-même est fausse",
+        "Parce que l'espace est extraordinairement rigide et l'effet attendu minuscule",
+        "Parce qu'aucun télescope de son époque ne pouvait observer les trous noirs",
+        "Parce que les lasers nécessaires à leur détection n'existaient pas encore"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Son scepticisme était raisonnable : l'espace est extraordinairement rigide, et l'effet attendu, un écart de longueur infime sur une distance de plusieurs kilomètres, paraissait hors de portée."
+    },
+    {
+      "question": "Comment fonctionne l'interférométrie utilisée pour détecter une onde gravitationnelle ?",
+      "choix": [
+        "Un faisceau laser séparé en deux bras perpendiculaires se recombine en s'annulant, sauf si les longueurs diffèrent",
+        "Un radiotélescope capte directement les ondes sous forme d'un signal sonore amplifié",
+        "Un pendule extrêmement sensible enregistre les vibrations du sol en continu",
+        "Un satellite mesure la position exacte de deux trous noirs en orbite l'un autour de l'autre"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le laser est séparé en deux, envoyé dans deux bras perpendiculaires, réfléchi puis recombiné : si les bras ont exactement la même longueur, les ondes s'annulent, et la moindre différence fait apparaître de la lumière."
+    },
+    {
+      "question": "Qu'est-ce que la détection des ondes gravitationnelles permet d'observer, que la lumière ne permettait pas jusque-là ?",
+      "choix": [
+        "Des étoiles trop lointaines pour qu'aucun télescope ne les distingue",
+        "Des planètes situées en dehors du système solaire",
+        "Des objets comme deux trous noirs en fusion, qui n'émettent aucune lumière",
+        "Des variations de température à la surface du Soleil"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Une onde gravitationnelle vient d'objets qui n'émettent rien : deux trous noirs qui fusionnent sont invisibles à tout télescope, alors que toute l'astronomie s'était faite jusque-là avec de la lumière ou des particules."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
