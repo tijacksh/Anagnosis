@@ -96,6 +96,41 @@
     "explication": "Le violet est diffusé plus fortement encore que le bleu, mais l'œil humain y est moins sensible et le Soleil en émet naturellement moins que de bleu à la base : le mélange perçu penche donc vers le bleu, pas vers le violet.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que dit la loi établie par Lord Rayleigh en 1871 sur l'intensité de la lumière diffusée par l'atmosphère ?",
+      "choix": [
+        "Elle varie comme l'inverse de la puissance quatrième de la longueur d'onde",
+        "Elle est identique pour toutes les longueurs d'onde de la lumière visible",
+        "Elle dépend uniquement de la température de l'air, pas de la longueur d'onde",
+        "Elle varie de façon proportionnelle et non inverse à la longueur d'onde"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La loi de Rayleigh établit que l'intensité diffusée varie comme l'inverse de la puissance quatrième de la longueur d'onde : diviser la longueur d'onde par deux multiplie la diffusion par seize."
+    },
+    {
+      "question": "Pourquoi le ciel vire-t-il au rouge et à l'orange au coucher du soleil ?",
+      "choix": [
+        "Parce que le Soleil cesse d'émettre de la lumière bleue à ce moment de la journée",
+        "Parce que les molécules d'azote et d'oxygène changent de composition chimique le soir",
+        "Parce que l'atmosphère se réchauffe et diffuse alors davantage les grandes longueurs d'onde",
+        "Parce que la lumière traverse alors une épaisseur d'atmosphère bien plus grande, dispersant davantage le bleu en chemin"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Au coucher du soleil, la lumière traverse un trajet bien plus long dans l'atmosphère : une part encore plus importante du bleu y est diffusée, ne laissant passer que le rouge et l'orange."
+    },
+    {
+      "question": "D'où vient réellement le bleu de la mer, selon le texte ?",
+      "choix": [
+        "D'un reflet direct de la couleur du ciel à la surface de l'eau, comme le veut l'idée reçue",
+        "De l'absorption par l'eau des grandes longueurs d'onde, ne laissant ressortir que le bleu peu absorbé",
+        "De la présence d'algues microscopiques qui teintent naturellement l'eau en bleu profond",
+        "De la diffraction de la lumière du soleil par les cristaux de sel dissous dans l'eau"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'eau absorbe les grandes longueurs d'onde, rouges et oranges, et ne renvoie vers l'œil que le bleu, très peu absorbé : un mécanisme d'absorption indépendant de la couleur du ciel."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

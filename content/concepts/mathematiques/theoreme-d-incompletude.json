@@ -65,6 +65,41 @@
     "explication": "Le théorème porte sur ce qu'un système formel peut démontrer, pas sur la vérité des énoncés eux-mêmes : l'énoncé de Gödel est vrai, il est simplement hors d'atteinte du système. L'arithmétique ne devient pas contradictoire, et la vérification mécanique d'une démonstration donnée reste possible, c'est justement ce qui permet le codage.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que permet la numérotation de Gödel, ce « codage » qui attribue un entier à chaque formule ?",
+      "choix": [
+        "De remplacer les symboles mathématiques par des dessins plus faciles à mémoriser",
+        "De faire du système une chose qui, une fois codée, peut parler de ses propres démonstrations",
+        "De démontrer directement que l'arithmétique est incohérente",
+        "De vérifier informatiquement la validité de n'importe quelle preuve philosophique"
+      ],
+      "bonne_reponse": 1,
+      "explication": "En attribuant un entier à chaque formule, Gödel transforme un énoncé sur la démontrabilité d'une formule en un énoncé arithmétique ordinaire, ce qui permet au système de parler de lui-même."
+    },
+    {
+      "question": "Que dit le second théorème d'incomplétude, énoncé dans le même article de 1931 ?",
+      "choix": [
+        "Qu'un système ne peut établir sa propre non-contradiction qu'à condition d'être déjà contradictoire",
+        "Que l'arithmétique contient davantage d'erreurs qu'on ne le pensait avant 1931",
+        "Qu'aucun ordinateur ne pourra jamais vérifier une démonstration mathématique",
+        "Que les mathématiciens doivent abandonner l'usage des axiomes"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le second théorème porte sur la cohérence elle-même : elle est un énoncé arithmétique que le système ne peut pas démontrer, sauf à être déjà contradictoire."
+    },
+    {
+      "question": "Que se passe-t-il si l'on ajoute l'énoncé indémontrable de Gödel comme nouvel axiome du système ?",
+      "choix": [
+        "Le système devient complet et n'a plus aucun point aveugle",
+        "Le problème est réglé pour tous les systèmes sauf celui-ci en particulier",
+        "Le même procédé s'applique au système augmenté et produit un nouvel énoncé indémontrable",
+        "Le système devient immédiatement contradictoire et inutilisable"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Ajouter l'énoncé récalcitrant aux axiomes ne règle rien : le procédé se réapplique au nouveau système, qui produit à son tour son propre point aveugle."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
