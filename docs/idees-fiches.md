@@ -18,3 +18,7 @@ thème déjà proposé ou en cours ailleurs.
 
 | Discipline | Thème | Statut | Qui | Date |
 |---|---|---|---|---|
+| Architecture | Effondrement de la voûte de la cathédrale de Beauvais (1284) | fait | routine-production | 2026-08-29 |
+| Architecture | Étymologie du brutalisme (béton brut, Banham) | fait | routine-production | 2026-08-29 |
+| Architecture | Félix Candela, coque de 1,5 cm du pavillon des rayons cosmiques (UNAM, 1951) | fait | routine-production | 2026-08-29 |
+| Architecture | Fazlur Khan et le principe du tube structurel (DeWitt-Chestnut, Hancock, Sears) | fait | routine-production | 2026-08-29 |
