@@ -144,7 +144,7 @@ details.famille summary::marker { content: ''; }
 details.famille summary::after {
   content: '+'; display: inline-block; flex: none;
   font-family: var(--mono); font-size: 15px; color: var(--texte-3);
-  transition: transform .25s ease;
+  transition: transform .28s ease;
 }
 details.famille[open] summary::after { transform: rotate(45deg); }
 details.famille summary:hover .famille-nom { color: var(--marque); }
@@ -159,7 +159,7 @@ details.famille summary:hover .famille-nom { color: var(--marque); }
 }
 .famille-nuancier {
   display: flex; align-items: center; gap: 5px; flex-wrap: wrap; justify-content: flex-end;
-  transition: opacity .2s ease;
+  transition: opacity .28s ease;
 }
 .famille-nuancier .nuance { width: 7px; height: 7px; flex: none; }
 details.famille[open] .famille-nuancier { opacity: 0; }
@@ -173,15 +173,29 @@ details.famille[open] .famille-nuancier { opacity: 0; }
   details.famille summary::after { order: 2; }
   .famille-nuancier { order: 3; flex-basis: 100%; justify-content: flex-start; margin-top: 8px; }
 }
-/* `display` reste dans la règle [open] ci-dessous, jamais ici : le figer à `flex`
-   sans condition court-circuiterait le masquage natif de <details> fermé — une
-   règle d'auteur l'emporte toujours sur celle, pourtant plus spécifique, de la
-   feuille de style du navigateur. */
-.disciplines {
-  flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0 0 24px;
-  overflow: hidden; height: 0; transition: height .28s ease;
+/* Anime l'ouverture par la piste d'une grille à une ligne (0fr → 1fr) plutôt que
+   par la hauteur : `height` ne sait interpoler ni vers ni depuis `auto`, il faut
+   alors mesurer `scrollHeight` en JS à chaque clic et rejouer une reflow complète
+   de tout ce qui suit à chaque image — visible et saccadé dès que la page a un
+   peu de contenu dessous. Une ligne de grille en `fr` s'interpole nativement,
+   sans mesure ni relance de mise en page équivalente.
+
+   `display` sur `.disciplines-grille` reste dans la règle [open] ci-dessous,
+   jamais ici : le figer à `grid` sans condition court-circuiterait le masquage
+   natif de <details> fermé — une règle d'auteur l'emporte toujours sur celle,
+   pourtant plus spécifique, de la feuille de style du navigateur. `.disciplines`,
+   lui, peut rester en `flex` sans condition : petit-fils de <details> et non plus
+   fils direct, la règle native de <details> ne le vise pas — il reste invisible
+   tant que son parent l'est. */
+.disciplines-grille {
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .28s ease;
 }
-details.famille[open] .disciplines { display: flex; height: auto; }
+details.famille[open] .disciplines-grille { display: grid; grid-template-rows: 1fr; }
+.disciplines {
+  display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0 0 24px;
+  overflow: hidden; min-height: 0;
+}
 .discipline { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
 .point { width: 8px; height: 8px; flex: none; }
 
@@ -300,27 +314,37 @@ footer {
 // Anime l'ouverture des familles de disciplines au lieu du repli brut natif de
 // <details>. Sans ce script, tout continue de fonctionner — juste sans le
 // mouvement : <details> reste un élément natif, pas un composant qui en dépend.
+//
+// La piste de grille (`.disciplines-grille`, voir le CSS) s'interpole nativement
+// entre 0fr et 1fr : pas de `scrollHeight` à mesurer. Il faut quand même forcer
+// une reflow entre les deux écritures à l'ouverture — sinon le navigateur les
+// fusionne en une seule et saute directement à l'état ouvert, sans transition.
+//
+// Un clic pendant qu'une transition précédente est encore en vol (ouverture puis
+// fermeture rapprochées) redirige proprement l'animation en cours : on retire
+// d'abord l'écouteur `transitionend` déjà posé, sinon il se déclenche plus tard
+// sur une valeur qui n'est plus la bonne et referme la carte au mauvais moment.
 document.querySelectorAll('details.famille').forEach((det) => {
-  const corps = det.querySelector('.disciplines');
+  const grille = det.querySelector('.disciplines-grille');
+  let surFinTransition = null;
+
   det.querySelector('summary').addEventListener('click', (evenement) => {
     evenement.preventDefault();
+    if (surFinTransition) {
+      grille.removeEventListener('transitionend', surFinTransition);
+      surFinTransition = null;
+    }
     if (det.open) {
-      corps.style.height = corps.scrollHeight + 'px';
-      corps.offsetHeight;
-      corps.style.height = '0px';
-      corps.addEventListener('transitionend', () => {
-        det.open = false;
-        corps.style.height = '';
-      }, { once: true });
+      grille.style.gridTemplateRows = '0fr';
+      surFinTransition = () => { det.open = false; grille.style.gridTemplateRows = ''; };
     } else {
       det.open = true;
-      corps.style.height = '0px';
-      corps.offsetHeight;
-      corps.style.height = corps.scrollHeight + 'px';
-      corps.addEventListener('transitionend', () => {
-        corps.style.height = '';
-      }, { once: true });
+      grille.style.gridTemplateRows = '0fr';
+      grille.offsetHeight;
+      grille.style.gridTemplateRows = '1fr';
+      surFinTransition = () => { grille.style.gridTemplateRows = ''; };
     }
+    grille.addEventListener('transitionend', surFinTransition, { once: true });
   });
 });
 </script>
