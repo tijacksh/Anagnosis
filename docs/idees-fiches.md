@@ -25,6 +25,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Architecture | Étymologie du brutalisme (béton brut, Banham) | fait | routine-production | 2026-08-29 |
 | Architecture | Félix Candela, coque de 1,5 cm du pavillon des rayons cosmiques (UNAM, 1951) | fait | routine-production | 2026-08-29 |
 | Architecture | Fazlur Khan et le principe du tube structurel (DeWitt-Chestnut, Hancock, Sears) | fait | routine-production | 2026-08-29 |
+| Cinéma | Le Trust d'Edison, IMP/Universal et l'arrêt de la Cour suprême de 1917 | fait | routine-production | 2026-08-30 |
+| Cinéma | Survie des films muets américains (rapport CLIR/Bibliothèque du Congrès, 2013) | fait | routine-production | 2026-08-30 |
+| Cinéma | Dracula (1931), version espagnole tournée de nuit sur les mêmes décors | fait | routine-production | 2026-08-30 |
+| Cinéma | Effet Koulechov, film fondateur introuvable | fait | routine-production | 2026-08-30 |
 | Droit social | La loi Le Chapelier (1791), interdiction des corporations et coalitions ouvrières | proposé | Orkidea | 2026-08-28 |
 | Droit social | La grève de Pullman (1894, États-Unis) et la fête du Travail fédérale créée six jours après | proposé | Orkidea | 2026-08-28 |
 | Droit social | Le Wagner Act (1935), première reconnaissance fédérale américaine du droit de se syndiquer | proposé | Orkidea | 2026-08-28 |
