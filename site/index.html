@@ -52,10 +52,15 @@ main { max-width: 720px; margin: 0 auto; padding: 0 var(--marge); }
 h1, h2, p, ul { margin: 0; }
 a { color: inherit; }
 
-/* grain — une seule fois, sur la composition entière (charte §3) */
+/* grain — une seule fois, sur la composition entière (charte §3).
+   `will-change: transform` isole le calque : sans lui, un moteur peut choisir de
+   refondre le mélange (`mix-blend-mode`) avec ce qu'il y a dessous à chaque image
+   d'une animation par ailleurs sans rapport avec ce calque — l'accordéon des
+   familles, par exemple —, ce qui coûte cher sur un appareil peu puissant même
+   quand l'animation elle-même n'a rien de lourd. */
 .grain {
   position: fixed; inset: 0; z-index: 5; pointer-events: none; opacity: .045;
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply; will-change: transform;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='90' height='90' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme: dark) { .grain { opacity: .07; mix-blend-mode: screen; } }
