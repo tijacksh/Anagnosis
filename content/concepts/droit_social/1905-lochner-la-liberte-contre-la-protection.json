@@ -81,12 +81,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-30T10:16:12.586Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-30T10:16:12.586Z",
+        "note": "Rouvert : Cornell LII (texte 198 U.S. 45 : dates 23-24 fév/17 avril 1905, Bakeshop Act 10h/60h, amende 50$ comté d'Oneida, formule Peckham) et texte 300 U.S. 379 (West Coast Hotel v. Parrish, confirme le renversement) ; Wikisource (dissidence Holmes, les deux citations mot pour mot) ; Wikipédia EN (vote 5-4, composition, ère Lochner, abrogation 1937). Britannica bloque WebFetch (403 constant) mais contenu (sous-sol, ventilation, poussière de farine, modèle britannique de 1863) confirmé par recherche croisée indépendante (autre page Britannica citée + sources tierces concordantes). Corps, citation, carte et quiz conformes aux sources ; distracteurs faux et plausibles, longueur équilibrée. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",

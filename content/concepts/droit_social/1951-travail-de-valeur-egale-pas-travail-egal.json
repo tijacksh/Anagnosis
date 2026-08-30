@@ -58,12 +58,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-30T10:16:25.845Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-30T10:16:25.845Z",
+        "note": "NORMLEX bloque WebFetch (403), mais texte croisé (hrlibrary.umn.edu) confirme mot pour mot l'article 1(b) cité en repère et l'article 3 (évaluation objective des emplois) ; recherche croisée confirme la 34e session, Genève, close le 29 juin 1951. Page ILO 2.4 Equal remuneration confirme la distinction equal pay/equal value et les trois exemples de comparaison (services/entretien vs jardiniers-chauffeurs, cadres vs ingénieurs, hôtesses vs pilotes-mécaniciens) repris dans le corps. Carte et quiz conformes, distracteurs faux et plausibles. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",

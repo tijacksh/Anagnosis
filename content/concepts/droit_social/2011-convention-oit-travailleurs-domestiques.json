@@ -58,12 +58,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-30T10:16:31.028Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-30T10:16:31.028Z",
+        "note": "NORMLEX bloque WebFetch (403), mais recherche croisée (worldjpn.net, texte intégral) confirme les articles 3, 5, 6, 7 et 8 dans le détail donné par la fiche, et confirme mot pour mot le préambule cité en repère (« sous-évalué et invisible », « femmes et jeunes filles »). Wikipédia FR confirme le vote (396-16-63) du 16 juin 2011, l'entrée en vigueur le 5 septembre 2013 et la ratification uruguayenne du 26 avril 2012. Carte et quiz conformes, distracteurs faux et plausibles. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",

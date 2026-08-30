@@ -58,12 +58,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-30T10:16:19.677Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-30T10:16:19.677Z",
+        "note": "NORMLEX bloque WebFetch (403) comme au contrôle précédent, mais recherche croisée confirme mot pour mot : préambule (14e session, Genève, 10-28 juin 1930), article 1 al.2-3 (période transitoire, recours au travail forcé à titre exceptionnel), article 2 et ses cinq exceptions, articles 3-24 (régimes transitoires dégressifs pour territoires coloniaux, ex. art.10 taxe, art.18 transport, art.19 culture forcée). OHCHR bloque aussi (403) mais recherche croisée confirme : protocole adopté 11 juin 2014 lors de la 103e session (ouverte le 28 mai 2014), entrée en vigueur 9 novembre 2016 douze mois après la seconde ratification (Norvège, après le Niger). Repère, carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",
