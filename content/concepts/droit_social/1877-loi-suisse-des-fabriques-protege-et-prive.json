@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-08-30T07:01:44.954Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-08-30T07:01:44.954Z",
+        "note": "Sources rouvertes : parlament.ch (via le navigateur, le blocage anti-bot renvoyait un 403 en WebFetch direct), HLS et Swissvotes. Le repère est vérifié mot pour mot sur la page parlament.ch. Vote du Conseil national (90-15, 23 mars 1877), référendum (181'204-170'857, 21 octobre 1877), entrée en vigueur (1er janvier 1878), onze heures (dix le samedi, confirmé par HLS), interdiction des moins de 14 ans, interdiction des six semaines post-accouchement, pétition de Fontainemelon (1875, fabrique Robert et Cie) et son contenu exact (crainte de la concurrence des 18h/jour, offense faite aux femmes) : tout confirmé mot pour mot. Neuf cantons / trois pour les ouvrières confirmé par HLS. Swissvotes confirme la date et le résultat en pourcentage. Aucune correction nécessaire. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",
