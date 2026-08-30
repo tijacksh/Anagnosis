@@ -65,6 +65,41 @@
     "explication": "SAFARI ne créait aucun fichier ni aucune collecte nouvelle. Il donnait à tous les fichiers administratifs la même clé, le numéro INSEE, ce qui suffisait à les rendre rapprochables entre eux. Le pouvoir venait de la mise en relation, pas de la donnée.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Combien de temps s'est écoulé entre la publication de l'article du Monde et la suspension du projet SAFARI, et par qui a-t-elle été décidée ?",
+      "choix": [
+        "Huit jours, par une circulaire du Premier ministre Pierre Messmer",
+        "Un mois, par un vote du Parlement français",
+        "Un an, à la suite d'un procès devant le Conseil d'État",
+        "Le jour même, par un décret présidentiel"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'article de Philippe Boucher paraît le 21 mars 1974 ; huit jours plus tard, le 29 mars, le Premier ministre Pierre Messmer suspend le projet par circulaire."
+    },
+    {
+      "question": "Que crée la loi française du 6 janvier 1978, dite Informatique et Libertés, selon la fiche ?",
+      "choix": [
+        "Un fichier unique regroupant tous les services de l'État sous un identifiant commun",
+        "Une interdiction totale de l'usage du numéro INSEE dans l'administration française",
+        "Une autorité de contrôle, la CNIL, avec des principes comme la finalité déclarée de chaque traitement",
+        "Un droit de vote électronique pour tous les citoyens recensés par l'État"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La loi de 1978 crée la CNIL, chargée de contrôler les traitements de données, et pose des principes comme la finalité déclarée, le droit d'accès et l'encadrement des rapprochements de fichiers."
+    },
+    {
+      "question": "D'où vient, selon la fiche, le principe de finalité qui structure aujourd'hui la protection des données ?",
+      "choix": [
+        "D'un débat philosophique sur la vie privée mené dans les années 1960",
+        "D'une question d'architecture : qui a le droit de relier quoi à quoi, plutôt que d'une réflexion sur la vie privée",
+        "D'une directive européenne adoptée avant la loi française de 1978",
+        "D'un procès intenté par un citoyen dont les données avaient été piratées"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La fiche insiste sur ce déplacement : la protection des données n'est pas née d'une inquiétude sur la vie privée, mais d'une question d'architecture, celle du droit de rapprocher des fichiers entre eux."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

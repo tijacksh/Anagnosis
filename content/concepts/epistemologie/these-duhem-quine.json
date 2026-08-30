@@ -88,7 +88,41 @@
     "explication": "Le Verrier n'a pas commis d'erreur de calcul : les deux fois, une anomalie orbitale l'a mené à postuler un corps inconnu pour l'expliquer. Cette hypothèse annexe a été juste pour Neptune, confirmée le soir même par un observatoire ; elle a été fausse pour Vulcain, qui ne reposait que sur un rapport d'amateur jamais confirmé par personne d'autre. C'est exactement ce que dit la thèse Duhem-Quine : une anomalie peut se résoudre en révisant une hypothèse annexe ou la théorie elle-même, et rien au moment de l'observation ne permet de savoir laquelle des deux voies est la bonne.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "En quoi la démarche de Le Verrier en 1859, face à l'anomalie de Mercure, diffère-t-elle de celle qui a mené à Neptune en 1846 ?",
+      "choix": [
+        "En 1859, il refuse d'appliquer le même raisonnement, jugeant l'anomalie de Mercure trop faible pour être significative",
+        "En 1859, il calcule la position exacte d'une seconde planète, comme il l'avait fait pour Neptune en 1846",
+        "En 1859, il postule une masse inconnue, une ceinture de petits corps plus proche du Soleil que Mercure",
+        "En 1859, il attribue immédiatement l'anomalie à une erreur de mesure des astronomes de l'époque"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Pour Mercure, Le Verrier ne calcule pas la position d'un corps unique comme pour Neptune : il postule une masse inconnue, une ceinture de petits corps plus proche du Soleil, qui deviendra Vulcain."
+    },
+    {
+      "question": "Qu'est-ce qui a fondé la croyance en l'existence de Vulcain ?",
+      "choix": [
+        "Plusieurs observatoires européens indépendants, qui ont photographié le corps à la même date",
+        "Un calcul mathématique de Le Verrier, vérifié ensuite par l'Observatoire de Paris",
+        "Une éclipse totale de Soleil observée simultanément depuis cinq pays différents",
+        "Un seul rapport d'un médecin amateur d'astronomie, jamais confirmé par un autre astronome"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Vulcain repose sur le seul rapport d'Edmond Lescarbault, un médecin amateur d'astronomie, que Le Verrier a cru sans qu'aucun autre astronome ne confirme jamais cette observation."
+    },
+    {
+      "question": "Comment l'anomalie de l'orbite de Mercure a-t-elle finalement été résolue ?",
+      "choix": [
+        "En 1915, quand Einstein montre que la relativité générale la prédit exactement",
+        "En 1900, quand Le Verrier reconnaît publiquement son erreur avant de mourir",
+        "Elle n'a jamais été résolue et reste un mystère non expliqué à ce jour",
+        "En 1915, quand un télescope plus puissant confirme enfin l'existence de Vulcain"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'anomalie de Mercure est résolue en 1915, quand Einstein montre que la relativité générale la prédit exactement, sans qu'aucune masse supplémentaire près du Soleil ne soit nécessaire."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
