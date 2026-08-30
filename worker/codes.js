@@ -26,6 +26,13 @@
  * la vérification de méthode : aucune requête ne doit pouvoir coûter plus qu'un appel
  * D1. Voir `debit.js` pour pourquoi ce n'est pas le binding `Rate Limit` natif.
  *
+ * **Une seconde limite, plus étroite, cible le devinage.** Dix requêtes par minute
+ * protège le quota Cloudflare, mais laisse passer six cents essais par heure — assez
+ * pour tenter beaucoup de codes si jamais leur longueur ou leur hasard cédait un jour.
+ * Une IP qui a présenté cinq codes bien formés sans qu'aucun ne corresponde dans l'heure
+ * qui suit est coupée, indépendamment du débit général : la vraie protection reste la
+ * longueur et le hasard des codes, ceci n'est qu'une seconde haie devant.
+ *
  * **Pourquoi la réponse est signée.** Sans signature, quiconque intercepte le trafic de
  * sa propre app — une simple app de proxy, sans jailbreak ni root — peut réécrire
  * `{"jours":30}` en `{"jours":99999}` en clair, et l'app n'a aucun moyen de faire la
@@ -92,6 +99,13 @@ export default {
     // rien de connu n'a aucune raison de toucher la base.
     if (!/^[A-Z0-9]{6,20}$/.test(code)) {
       return reponse({ erreur: 'invalide' }, 400);
+    }
+
+    // Voir « Une seconde limite, plus étroite » en tête de fichier. Comptée ici,
+    // jamais avant : un corps mal formé ou une méthode refusée n'ont pas dû franchir
+    // la vérification de forme pour ne pas compter comme un essai de devinage.
+    if (!(await autorise(env, 'codes-essais', ip, 5, 3600))) {
+      return reponse({ erreur: 'trop de tentatives' }, 429);
     }
 
     const ligne = await env.DB.prepare(
