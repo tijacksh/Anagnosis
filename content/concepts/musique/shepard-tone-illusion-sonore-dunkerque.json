@@ -47,7 +47,7 @@
       "publication": "inverse.com",
       "annee": 2017,
       "url": "https://www.inverse.com/article/34765-shepard-tone-dunkirk-christopher-nolan-soundtrack",
-      "note": "Confirme l'usage du ton de Shepard par Hans Zimmer dans la partition de Dunkerque et la citation de Nolan sur l'effet corkscrew."
+      "note": "Confirme la citation de Nolan sur l'effet corkscrew et son usage dans les autres films de Nolan (Interstellar, The Dark Knight Rises) ; ne nomme pas le compositeur de Dunkerque."
     },
     {
       "type": "web",
@@ -57,6 +57,24 @@
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)",
       "note": "Confirme la structure du scénario en trois perspectives de durées différentes : terre (une semaine), mer (un jour), air (une heure)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (en anglais)",
+      "titre": "Roger Shepard",
+      "publication": "en.wikipedia.org",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Roger_Shepard",
+      "note": "Confirme que Shepard, psychologue cognitif américain, est passé par les Bell Labs après son doctorat à Yale et avant de rejoindre Harvard puis Stanford — appuie la mention du corps le situant aux Bell Labs en 1964."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (en anglais)",
+      "titre": "The Prestige (film)",
+      "publication": "en.wikipedia.org",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+      "note": "Confirme la sortie du film en 2006 et David Julyan comme compositeur — appuie la date donnée dans le corps pour l'exploration antérieure du principe."
     }
   ],
   "pour_aller_plus_loin": [
@@ -82,14 +100,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le ton de Shepard superpose des fréquences espacées chacune d'une octave exacte : à mesure que la série monte, les fréquences aiguës s'effacent en douceur pendant que de nouvelles fréquences graves apparaissent en dessous, sans rupture audible. La fréquence ne grimpe donc pas indéfiniment, contrairement à ce qu'on entend : rien n'est accéléré comme sur un disque, et l'oreille distingue très bien les octaves. Elle est seulement guidée par l'enveloppe sonore plutôt que par la fréquence absolue.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-27T22:18:25.296Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-08-28T07:24:27.160Z",
     "historique": [
       {
         "action": "retoucher",
@@ -98,6 +116,14 @@
         "par": "routine-relecture",
         "le": "2026-08-27T22:18:25.296Z",
         "note": "Citation Nolan vérifiée mot pour mot (Yahoo Finance, juillet 2017, citant Business Insider). Wikipedia Shepard tone confirme la publication de 1964 (JASA 36(12), 2346-53), le mécanisme, le glissando Shepard-Risset, les usages Dunkerque/Dark Knight. Yahoo Finance confirme Le Prestige/David Julyan, Hans Zimmer et le motif de tic-tac de montre. Point sorti : la précision du corps 'trois lignes temporelles (une semaine sur la plage, un jour en mer, une heure dans les airs)' n'était appuyée par aucune des trois sources citées — vérifié en rouvrant les trois. Corrigé en ajoutant une quatrième source, Wikipedia 'Dunkirk (2017 film)', rouverte et confirmant mot pour mot cette structure ('land (one week...), sea (one day...) and air (one hour...)'). Le texte du corps est donc désormais exact et sourcé, mais avoir touché aux sources fait perdre à la fiche son contrôle à jour : elle doit repasser un contrôle indépendant avant de pouvoir être validée."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-08-28T07:24:27.160Z",
+        "note": "Rouvert en direct : Wikipedia Shepard tone, Yahoo Finance/Business Insider (citation Nolan confirmée mot pour mot, y compris via une seconde relecture de la citation), Inverse, Wikipedia Dunkirk (2017 film). Fiche entière revérifiée (corps, citation, carte, sources, quiz), pas seulement le point déjà réparé par la relecture précédente (structure en trois lignes temporelles, déjà sourcée par Wikipedia Dunkirk). Nolan relie explicitement narration et principe sonore (Yahoo Finance : 'I wrote the script according to that principle. I interwove the three timelines in such a way that there's a continual feeling of intensity'), confirmant la thèse centrale de la fiche. Deux lacunes trouvées et corrigées : (1) le corps situe Shepard 'aux Bell Labs' en 1964, affirmation non couverte par aucune des 4 sources citées — vérifiée et confirmée par la page Wikipedia 'Roger Shepard' (passé par les Bell Labs entre son doctorat à Yale et Harvard/Stanford), ajoutée comme source. (2) le corps date à 2006 l'exploration antérieure du principe avec David Julyan sur Le Prestige, date non couverte par les sources citées — vérifiée et confirmée par la page Wikipedia 'The Prestige (film)' (sorti en 2006, David Julyan compositeur), ajoutée comme source. Une note de source corrigée : sources[2] (Inverse) attribuait à tort à cet article la confirmation du rôle de Hans Zimmer — la lecture intégrale de la page montre qu'Inverse ne nomme aucun compositeur ; le rôle de Zimmer reste correctement sourcé par Yahoo Finance (sources[1]), seule la note d'Inverse a été reformulée. Reste vérifié conforme : mécanisme technique (superposition d'octaves, fréquences aiguës qui s'effacent sous des graves qui apparaissent), glissando Shepard-Risset, citation Nolan mot pour mot, quiz (bonne réponse et distracteurs, tous faux)."
       }
     ]
   },
