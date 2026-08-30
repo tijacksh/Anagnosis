@@ -178,29 +178,22 @@ details.famille[open] .famille-nuancier { opacity: 0; }
   details.famille summary::after { order: 2; }
   .famille-nuancier { order: 3; flex-basis: 100%; justify-content: flex-start; margin-top: 8px; }
 }
-/* Anime l'ouverture par la piste d'une grille à une ligne (0fr → 1fr) plutôt que
-   par la hauteur : `height` ne sait interpoler ni vers ni depuis `auto`, il faut
-   alors mesurer `scrollHeight` en JS à chaque clic et rejouer une reflow complète
-   de tout ce qui suit à chaque image — visible et saccadé dès que la page a un
-   peu de contenu dessous. Une ligne de grille en `fr` s'interpole nativement,
-   sans mesure ni relance de mise en page équivalente.
+/* Anime l'ouverture par la hauteur, mesurée en JS à l'ouverture et à la
+   fermeture (voir le script en bas de page) plutôt que par une piste de grille
+   en `fr` : Safari interpole mal `grid-template-rows` vers une valeur `fr`
+   dépendant d'un contenu intrinsèque — l'animation s'arrête court avant la fin,
+   perceptible surtout en fin de course. Une valeur en pixels, connue dès la
+   première image, s'interpole sans ambiguïté sur les trois moteurs.
 
-   `display` sur `.disciplines-grille` reste dans la règle [open] ci-dessous,
-   jamais ici : le figer à `grid` sans condition court-circuiterait le masquage
-   natif de <details> fermé — une règle d'auteur l'emporte toujours sur celle,
-   pourtant plus spécifique, de la feuille de style du navigateur. `.disciplines`,
-   lui, peut rester en `flex` sans condition : petit-fils de <details> et non plus
-   fils direct, la règle native de <details> ne le vise pas — il reste invisible
-   tant que son parent l'est. */
-.disciplines-grille {
-  grid-template-rows: 0fr;
-  transition: grid-template-rows .28s ease;
-}
-details.famille[open] .disciplines-grille { display: grid; grid-template-rows: 1fr; }
+   `display` reste dans la règle [open] ci-dessous, jamais ici : le figer à
+   `flex` sans condition court-circuiterait le masquage natif de <details>
+   fermé — une règle d'auteur l'emporte toujours sur celle, pourtant plus
+   spécifique, de la feuille de style du navigateur. */
 .disciplines {
-  display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0 0 24px;
-  overflow: hidden; min-height: 0;
+  flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0 0 24px;
+  overflow: hidden; height: 0; transition: height .28s ease;
 }
+details.famille[open] .disciplines { display: flex; height: auto; }
 .discipline { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
 .point { width: 8px; height: 8px; flex: none; }
 
@@ -320,36 +313,39 @@ footer {
 // <details>. Sans ce script, tout continue de fonctionner — juste sans le
 // mouvement : <details> reste un élément natif, pas un composant qui en dépend.
 //
-// La piste de grille (`.disciplines-grille`, voir le CSS) s'interpole nativement
-// entre 0fr et 1fr : pas de `scrollHeight` à mesurer. Il faut quand même forcer
-// une reflow entre les deux écritures à l'ouverture — sinon le navigateur les
-// fusionne en une seule et saute directement à l'état ouvert, sans transition.
+// Hauteur mesurée (`scrollHeight`) plutôt qu'une piste de grille en `fr` : voir
+// le commentaire CSS sur `.disciplines` — Safari interpole mal une piste dont la
+// cible dépend d'un contenu intrinsèque. Il faut forcer une reflow entre les
+// deux écritures de `height` — sinon le navigateur les fusionne en une seule et
+// saute directement à l'état final, sans transition.
 //
 // Un clic pendant qu'une transition précédente est encore en vol (ouverture puis
 // fermeture rapprochées) redirige proprement l'animation en cours : on retire
 // d'abord l'écouteur `transitionend` déjà posé, sinon il se déclenche plus tard
 // sur une valeur qui n'est plus la bonne et referme la carte au mauvais moment.
 document.querySelectorAll('details.famille').forEach((det) => {
-  const grille = det.querySelector('.disciplines-grille');
+  const corps = det.querySelector('.disciplines');
   let surFinTransition = null;
 
   det.querySelector('summary').addEventListener('click', (evenement) => {
     evenement.preventDefault();
     if (surFinTransition) {
-      grille.removeEventListener('transitionend', surFinTransition);
+      corps.removeEventListener('transitionend', surFinTransition);
       surFinTransition = null;
     }
     if (det.open) {
-      grille.style.gridTemplateRows = '0fr';
-      surFinTransition = () => { det.open = false; grille.style.gridTemplateRows = ''; };
+      corps.style.height = corps.scrollHeight + 'px';
+      corps.offsetHeight;
+      corps.style.height = '0px';
+      surFinTransition = () => { det.open = false; corps.style.height = ''; };
     } else {
       det.open = true;
-      grille.style.gridTemplateRows = '0fr';
-      grille.offsetHeight;
-      grille.style.gridTemplateRows = '1fr';
-      surFinTransition = () => { grille.style.gridTemplateRows = ''; };
+      corps.style.height = '0px';
+      corps.offsetHeight;
+      corps.style.height = corps.scrollHeight + 'px';
+      surFinTransition = () => { corps.style.height = ''; };
     }
-    grille.addEventListener('transitionend', surFinTransition, { once: true });
+    corps.addEventListener('transitionend', surFinTransition, { once: true });
   });
 });
 </script>

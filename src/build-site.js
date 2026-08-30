@@ -55,10 +55,8 @@ const puces = FAMILLES.map((famille) => {
     .join('\n          ');
   return `<details class="famille">
         <summary><span class="famille-nom">${famille}</span><span class="famille-nuancier">${nuancier}</span></summary>
-        <div class="disciplines-grille">
-          <div class="disciplines">
-            ${chips}
-          </div>
+        <div class="disciplines">
+          ${chips}
         </div>
       </details>`;
 }).join('\n      ');
