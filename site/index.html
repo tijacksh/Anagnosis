@@ -178,12 +178,13 @@ details.famille[open] .famille-nuancier { opacity: 0; }
   details.famille summary::after { order: 2; }
   .famille-nuancier { order: 3; flex-basis: 100%; justify-content: flex-start; margin-top: 8px; }
 }
-/* Anime l'ouverture par la hauteur, mesurée en JS à l'ouverture et à la
-   fermeture (voir le script en bas de page) plutôt que par une piste de grille
-   en `fr` : Safari interpole mal `grid-template-rows` vers une valeur `fr`
-   dépendant d'un contenu intrinsèque — l'animation s'arrête court avant la fin,
-   perceptible surtout en fin de course. Une valeur en pixels, connue dès la
-   première image, s'interpole sans ambiguïté sur les trois moteurs.
+/* La hauteur s'anime en JS via l'API Web Animations (voir le script en bas de
+   page), pas par une transition CSS : une transition dépend du navigateur pour
+   détecter qu'une valeur de départ a bien été peinte avant d'appliquer la
+   cible, et cette détection s'est montrée peu fiable — au clic, l'ouverture
+   s'arrêtait court après une image ou deux au lieu de dérouler ses 280 ms,
+   visible surtout sur Safari. `element.animate()` prend les deux valeurs d'un
+   coup, sans dépendre de cette détection.
 
    `display` reste dans la règle [open] ci-dessous, jamais ici : le figer à
    `flex` sans condition court-circuiterait le masquage natif de <details>
@@ -191,7 +192,7 @@ details.famille[open] .famille-nuancier { opacity: 0; }
    spécifique, de la feuille de style du navigateur. */
 .disciplines {
   flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0 0 24px;
-  overflow: hidden; height: 0; transition: height .28s ease;
+  overflow: hidden; height: 0;
 }
 details.famille[open] .disciplines { display: flex; height: auto; }
 .discipline { display: inline-flex; align-items: center; gap: 8px; font-size: 14.5px; }
@@ -313,39 +314,44 @@ footer {
 // <details>. Sans ce script, tout continue de fonctionner — juste sans le
 // mouvement : <details> reste un élément natif, pas un composant qui en dépend.
 //
-// Hauteur mesurée (`scrollHeight`) plutôt qu'une piste de grille en `fr` : voir
-// le commentaire CSS sur `.disciplines` — Safari interpole mal une piste dont la
-// cible dépend d'un contenu intrinsèque. Il faut forcer une reflow entre les
-// deux écritures de `height` — sinon le navigateur les fusionne en une seule et
-// saute directement à l'état final, sans transition.
+// `element.animate()` (Web Animations API) plutôt qu'une transition CSS
+// déclenchée en changeant `style.height` deux fois : une transition CSS ne
+// s'anime que si le navigateur a bien détecté et peint la valeur de départ
+// avant d'appliquer la cible, et cette détection s'est montrée peu fiable —
+// deux essais différents (piste de grille en `fr`, puis hauteur en pixels avec
+// une double `requestAnimationFrame` pour forcer la peinture) s'arrêtaient
+// encore court après une image ou deux au lieu de dérouler leurs 280 ms,
+// visible surtout sur Safari. `animate()` prend le départ et la cible dans un
+// seul appel : rien à détecter, rien à forcer.
 //
-// Un clic pendant qu'une transition précédente est encore en vol (ouverture puis
-// fermeture rapprochées) redirige proprement l'animation en cours : on retire
-// d'abord l'écouteur `transitionend` déjà posé, sinon il se déclenche plus tard
-// sur une valeur qui n'est plus la bonne et referme la carte au mauvais moment.
+// Un clic pendant qu'une animation précédente est encore en vol (ouverture puis
+// fermeture rapprochées) lit la hauteur réellement affichée à cet instant et
+// redirige une nouvelle animation depuis là, plutôt que de laisser les deux se
+// disputer l'élément.
 document.querySelectorAll('details.famille').forEach((det) => {
   const corps = det.querySelector('.disciplines');
-  let surFinTransition = null;
+  let animationEnCours = null;
 
   det.querySelector('summary').addEventListener('click', (evenement) => {
     evenement.preventDefault();
-    if (surFinTransition) {
-      corps.removeEventListener('transitionend', surFinTransition);
-      surFinTransition = null;
-    }
-    if (det.open) {
-      corps.style.height = corps.scrollHeight + 'px';
-      corps.offsetHeight;
-      corps.style.height = '0px';
-      surFinTransition = () => { det.open = false; corps.style.height = ''; };
-    } else {
-      det.open = true;
-      corps.style.height = '0px';
-      corps.offsetHeight;
-      corps.style.height = corps.scrollHeight + 'px';
-      surFinTransition = () => { corps.style.height = ''; };
-    }
-    corps.addEventListener('transitionend', surFinTransition, { once: true });
+    const fermer = det.open;
+    const actuelle = corps.getBoundingClientRect().height;
+    if (animationEnCours) animationEnCours.cancel();
+
+    // Rendre <details> ouvert avant de mesurer scrollHeight : tant que [open]
+    // n'est pas posé, .disciplines reste display:none (masquage natif) et
+    // scrollHeight y vaudrait toujours 0.
+    if (!fermer) det.open = true;
+    const cible = fermer ? 0 : corps.scrollHeight;
+    animationEnCours = corps.animate(
+      [{ height: actuelle + 'px' }, { height: cible + 'px' }],
+      { duration: 280, easing: 'ease', fill: 'forwards' }
+    );
+    animationEnCours.finished.then(() => {
+      if (fermer) det.open = false;
+      corps.style.height = '';
+      animationEnCours = null;
+    }).catch(() => {});
   });
 });
 </script>
