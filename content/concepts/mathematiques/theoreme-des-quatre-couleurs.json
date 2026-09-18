@@ -65,6 +65,41 @@
     "explication": "La contestation ne portait pas sur le résultat, qui n'a jamais été mis en défaut, mais sur le statut d'une preuve dont la partie décisive est hors de portée de la lecture humaine, d'où la double objection : fiabilité, et absence d'explication. La formalisation en Coq de 2005 a répondu à la première, pas à la seconde. Le cas de la sphère, lui, est équivalent à celui du plan.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment tout commence-t-il, en 1852, avec Francis Guthrie ?",
+      "choix": [
+        "Il cherche une preuve mathématique pour un concours universitaire",
+        "Il colorie une carte des comtés d'Angleterre et remarque que quatre couleurs suffisent toujours",
+        "Il tente de démontrer un théorème déjà connu en géométrie euclidienne",
+        "Il travaille sur un problème de cartographie militaire commandé par l'armée britannique"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Guthrie colorie une carte des comtés d'Angleterre en cherchant à ce que deux comtés voisins n'aient jamais la même couleur, et constate que quatre couleurs suffisent toujours."
+    },
+    {
+      "question": "Qu'est-ce qu'un ensemble « inévitable » de configurations, dans la stratégie de démonstration héritée de Kempe ?",
+      "choix": [
+        "Un catalogue de motifs tel que toute carte en contienne obligatoirement au moins un",
+        "Une liste de cartes qu'aucune démonstration ne peut jamais résoudre",
+        "Un ensemble de couleurs qu'il est impossible d'éviter d'utiliser",
+        "Une suite de calculs que l'ordinateur ne peut pas vérifier entièrement"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Un ensemble inévitable est un catalogue de motifs tel que toute carte en contienne au moins un ; il faut ensuite montrer que chacun de ces motifs est réductible."
+    },
+    {
+      "question": "Qu'a permis d'établir la reconstruction de la démonstration par Gonthier et Werner dans l'assistant de preuve Coq, en 2005 ?",
+      "choix": [
+        "De réduire le théorème à seulement trois couleurs nécessaires au lieu de quatre",
+        "De remplacer entièrement l'informatique par un raisonnement purement manuel",
+        "De faire reposer la fiabilité de la preuve sur un noyau de vérification de quelques milliers de lignes",
+        "De démontrer que la preuve d'Appel et Haken contenait en réalité une erreur"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La reconstruction en Coq fait reposer la correction de la démonstration sur un noyau de vérification de quelques milliers de lignes, répondant à l'objection sur la fiabilité."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
