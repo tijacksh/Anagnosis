@@ -54,9 +54,13 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Génétique | L'expérience du pois de Mendel (1866), ignorée 34 ans avant sa redécouverte | proposé | Orkidea | 2026-08-28 |
 | Sciences politiques | Le paradoxe de Condorcet (1785) | proposé | Orkidea | 2026-08-28 |
 | Linguistique | L'hypothèse Sapir-Whorf et le mythe du vocabulaire inuit de la neige | proposé | Orkidea | 2026-08-28 |
-| Histoire de l'art | Le scandale du Salon des Refusés (1863) et le *Déjeuner sur l'herbe* de Manet | proposé | Orkidea | 2026-08-28 |
+| Histoire de l'art | Le scandale du Salon des Refusés (1863) et le *Déjeuner sur l'herbe* de Manet | fait | routine-production | 2026-08-24 |
 | Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » | proposé | Orkidea | 2026-08-28 |
 | Musique | La normalisation du « la » à 440 Hz (conférence de Londres, 1939 ; norme ISO 16, 1955) | proposé | Orkidea | 2026-08-28 |
+| Histoire de l'art | Le vol du musée Isabella Stewart Gardner (1990), jamais élucidé | fait | routine-production | 2026-09-19 |
+| Histoire de l'art | *Republic of Austria v. Altmann* (2004) et la restitution du Klimt d'Adele Bloch-Bauer | fait | routine-production | 2026-09-19 |
+| Histoire de l'art | Le mythe de Van Eyck inventeur de la peinture à l'huile (Vasari, 1550) | fait | routine-production | 2026-09-19 |
+| Histoire de l'art | L'inondation de Florence (1966) et la naissance de la restauration d'art moderne | fait | routine-production | 2026-09-19 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
