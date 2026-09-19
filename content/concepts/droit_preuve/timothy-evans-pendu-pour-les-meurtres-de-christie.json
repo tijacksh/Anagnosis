@@ -80,10 +80,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-19",
+    "verdict": "a_revoir",
+    "empreinte": "5ea41d93a825b2f8",
+    "notes": [
+      "Erreur de chiffre : la fiche dit qu'Evans a 'vingt-quatre ans' le 30 novembre 1949 (date de sa déposition à Merthyr Tydfil). Or Timothy Evans est né le 20 novembre 1924 (confirmé par plusieurs sources dont Wikipedia/Wikidata, et par son âge de 25 ans au moment de son exécution le 9 mars 1950) : il avait donc déjà 25 ans, pas 24, le 30 novembre 1949 (son 25e anniversaire tombait dix jours plus tôt). Tout le reste du texte est confirmé par les sources rouvertes (Hansard 18 oct. 1966 pour le repère et la citation du rapport Brabin — authentique et bien attribué ; Wikipedia Timothy Evans et John Christie ; Wikisource pour le Murder (Abolition of Death Penalty) Act 1965, sanction royale le 8 nov. 1965 ; Wikipedia 10 Rillington Place, démolition 1970) : arrestation 30 nov. 1949, changement de version accusant Christie, corps retrouvés au lavoir du jardin, procès à l'Old Bailey à partir du 11 janvier 1950 pour le seul meurtre de Geraldine, témoignage à charge de Christie, pendaison le 9 mars 1950, découverte des trois corps par Beresford Brown dans l'alcôve de cuisine en mars 1953, corps d'Ethel sous le plancher et deux autres dans le jardin, arrestation de Christie le 31 mars 1953 près du pont de Putney, procès à partir du 22 juin 1953 pour le seul meurtre d'Ethel, plaidoyer d'aliénation mentale, délibéré du jury d'environ 80 minutes, pendaison le 15 juillet 1953, confession du meurtre de Beryl mais silence total sur Geraldine, méthode gaz+strangulation non recherchée sur l'autopsie de Beryl en 1950, rapport Brabin remis en 1966 et grâce du 18 octobre 1966, rejet de la demande d'annulation formelle par la Haute Cour en 2004, livre de Ludovic Kennedy 1961, loi d'abolition de 1965. À vérifier et corriger : l'âge d'Evans au 30 novembre 1949 (25 ans, pas 24)."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-09-19",
