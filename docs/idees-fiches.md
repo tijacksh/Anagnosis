@@ -46,10 +46,11 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Architecture | Le concours du Centre Pompidou (1971), remporté par Piano et Rogers, alors inconnus | proposé | Orkidea | 2026-08-28 |
 | Architecture | La démolition de Pruitt-Igoe (Saint-Louis, 1972), symbole de l'échec moderniste | proposé | Orkidea | 2026-08-28 |
 | Architecture | Le Crystal Palace de Joseph Paxton (1851), premier grand bâtiment préfabriqué | proposé | Orkidea | 2026-08-28 |
-| Preuve et erreur judiciaire | L'expertise graphologique contestée de l'affaire Dreyfus (Bertillon) | proposé | Orkidea | 2026-08-28 |
+| Preuve et erreur judiciaire | L'expertise graphologique contestée de l'affaire Dreyfus (Bertillon) | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | Le détecteur de mensonge de William Marston et l'arrêt *Frye v. United States* (1923) | fait | routine-production | 2026-09-19 |
-| Preuve et erreur judiciaire | L'identification erronée de l'affaire Ronald Cotton / Jennifer Thompson | proposé | Orkidea | 2026-08-28 |
-| Preuve et erreur judiciaire | Le premier innocentement par ADN rétroactif, Gary Dotson (1989) | proposé | Orkidea | 2026-08-28 |
+| Preuve et erreur judiciaire | L'identification erronée de l'affaire Ronald Cotton / Jennifer Thompson | fait | routine-production | 2026-09-19 |
+| Preuve et erreur judiciaire | Le premier innocentement par ADN rétroactif, Gary Dotson (1989) | fait | routine-production | 2026-09-19 |
+| Preuve et erreur judiciaire | Timothy Evans, pendu en 1950 pour un meurtre confessé par John Christie en 1953 | fait | routine-production | 2026-09-19 |
 | Génétique | L'expérience du pois de Mendel (1866), ignorée 34 ans avant sa redécouverte | proposé | Orkidea | 2026-08-28 |
 | Sciences politiques | Le paradoxe de Condorcet (1785) | proposé | Orkidea | 2026-08-28 |
 | Linguistique | L'hypothèse Sapir-Whorf et le mythe du vocabulaire inuit de la neige | proposé | Orkidea | 2026-08-28 |
