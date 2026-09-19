@@ -78,19 +78,34 @@
   "quiz_supplementaire": [
     {
       "question": "Que s'est-il passé le 15 février 1957, date depuis célébrée chaque année ?",
-      "choix": ["Des dirigeants ont hissé deux drapeaux rouges taillés dans du matériel militaire récupéré", "Le prophète John Frum est officiellement revenu sur l'île de Tanna", "L'administration coloniale a reconnu légalement le mouvement John Frum", "Les Nouvelles-Hébrides ont obtenu leur indépendance sous le nom de Vanuatu"],
+      "choix": [
+        "Des dirigeants ont hissé deux drapeaux rouges taillés dans du matériel militaire récupéré",
+        "Le prophète John Frum est officiellement revenu sur l'île de Tanna",
+        "L'administration coloniale a reconnu légalement le mouvement John Frum",
+        "Les Nouvelles-Hébrides ont obtenu leur indépendance sous le nom de Vanuatu"
+      ],
       "bonne_reponse": 0,
       "explication": "Le 15 février 1957, des dirigeants du mouvement ont hissé deux drapeaux rouges taillés dans du tissu récupéré dans des dépôts de munitions américains, un geste depuis célébré chaque année comme le John Frum Day."
     },
     {
       "question": "D'après l'historien Marc Tabani, comment l'administration coloniale britannique a-t-elle traité le mouvement John Frum dès 1941 ?",
-      "choix": ["Comme une simple curiosité folklorique sans conséquence", "Comme une initiative qu'elle a elle-même financée", "Comme une menace politique, avec des milliers de pages de surveillance", "Comme un phénomène limité à quelques dizaines de personnes"],
+      "choix": [
+        "Comme une simple curiosité folklorique sans conséquence",
+        "Comme une initiative qu'elle a elle-même financée",
+        "Comme une menace politique, avec des milliers de pages de surveillance",
+        "Comme un phénomène limité à quelques dizaines de personnes"
+      ],
       "bonne_reponse": 2,
       "explication": "Marc Tabani montre qu'une rébellion à grande échelle apparue dès 1941 a valu au mouvement des milliers de pages de rapports de surveillance rédigés par l'administration coloniale britannique, qui le traitait comme une menace politique."
     },
     {
       "question": "Comment le sens du mot « cargo » a-t-il évolué au fil du temps, selon Lindstrom ?",
-      "choix": ["Il a désigné dès le départ uniquement les avions militaires américains", "De biens matériels vers l'autonomie locale, puis le développement porté par les insulaires", "Il n'a jamais changé de sens depuis 1942", "Il a fini par désigner exclusivement les touristes visitant l'île"],
+      "choix": [
+        "Il a désigné dès le départ uniquement les avions militaires américains",
+        "De biens matériels vers l'autonomie locale, puis le développement porté par les insulaires",
+        "Il n'a jamais changé de sens depuis 1942",
+        "Il a fini par désigner exclusivement les touristes visitant l'île"
+      ],
       "bonne_reponse": 1,
       "explication": "Selon Lindstrom, le mot cargo, d'abord synonyme de biens matériels et d'argent neuf, en est venu à désigner l'autonomie locale, puis des projets de développement économique portés par les insulaires eux-mêmes."
     }
@@ -112,11 +127,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-07",
+    "fait_le": "2026-09-19",
     "verdict": "ok",
-    "empreinte": "5203c9275b34fe95",
+    "empreinte": "e1e97a0d61039bab",
     "notes": [
-      "Deuxième passage après réparation, sources rouvertes une à une. anthroencyclopedia.com (Lindstrom, en entier) confirme mot pour mot le hissage des deux drapeaux rouges le 15 février 1957 ('On 15 February 1957, leaders raised two red flags hoarded from American ammunition dumps, and this day remains the main annual movement holiday') SANS aucun lien causal à une libération de détention dans le texte source — corps et repere désormais conformes (point 1 résolu). La formule 'forerunners of Melanesian nationalism' y est bien attribuée à Jean Guiart ('as Guiart put it'), y compris la mention des conditions sociales devenues insupportables ('cults erupted because of insufferable social conditions'), jamais à Lindstrom en son nom propre — corps et quiz (question + explication) attribuent désormais correctement à Guiart (point 2 résolu). hal.science/hal-01962249 est accessible et son résumé confirme mot pour mot 'a large-scale rebellion... appeared in 1941' et 'the British administration accumulated thousands of pages of surveillance notes, reports and commentaries' — Tabani bien promu dans sources[] avec le lien HAL fonctionnel, le lien frobenius-institut.de mort a disparu (point 3 résolu). Sources annexes revérifiées conformes : archive.org (Worsley) et Wikipedia Espiritu Santo (9 millions de tonnes de matériel, plus de 500 000 militaires). Aucune nouvelle erreur introduite par la réparation."
+      "Contrôle porte sur le seul ajout depuis le dernier contrôle : les trois questions de quiz_supplementaire. Hissage des drapeaux le 15 février 1957 et rapports de surveillance de Tabani dès 1941 déjà vérifiés mot pour mot au contrôle du 2026-08-07. Évolution du sens du mot 'cargo' (biens matériels puis argent neuf -> autonomie locale -> développement porté par les insulaires) reconfirmée par recoupement WebSearch sur Lindstrom, Open Encyclopedia of Anthropology. Rien à corriger."
     ]
   },
   "meta": {
