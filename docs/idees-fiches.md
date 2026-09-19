@@ -47,7 +47,7 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Architecture | La démolition de Pruitt-Igoe (Saint-Louis, 1972), symbole de l'échec moderniste | proposé | Orkidea | 2026-08-28 |
 | Architecture | Le Crystal Palace de Joseph Paxton (1851), premier grand bâtiment préfabriqué | proposé | Orkidea | 2026-08-28 |
 | Preuve et erreur judiciaire | L'expertise graphologique contestée de l'affaire Dreyfus (Bertillon) | proposé | Orkidea | 2026-08-28 |
-| Preuve et erreur judiciaire | Le détecteur de mensonge de William Marston et l'arrêt *Frye v. United States* (1923) | proposé | Orkidea | 2026-08-28 |
+| Preuve et erreur judiciaire | Le détecteur de mensonge de William Marston et l'arrêt *Frye v. United States* (1923) | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | L'identification erronée de l'affaire Ronald Cotton / Jennifer Thompson | proposé | Orkidea | 2026-08-28 |
 | Preuve et erreur judiciaire | Le premier innocentement par ADN rétroactif, Gary Dotson (1989) | proposé | Orkidea | 2026-08-28 |
 | Génétique | L'expérience du pois de Mendel (1866), ignorée 34 ans avant sa redécouverte | proposé | Orkidea | 2026-08-28 |
