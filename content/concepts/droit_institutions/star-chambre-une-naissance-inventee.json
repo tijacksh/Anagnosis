@@ -110,5 +110,40 @@
     "genere_le": "2026-08-17",
     "genere_par": "claude-code",
     "version": 1
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Que révèle la sentence rendue contre William Prynne en juin 1637 sur le fonctionnement de la Star Chambre ?",
+      "choix": [
+        "Elle prouve qu'un accusé pouvait obtenir un non-lieu après délibération d'un jury",
+        "Elle prouve que l'affaire a été renvoyée devant une cour de common law en appel",
+        "Elle montre une cour sans jury, rendant sa sentence le jour même sans appel possible",
+        "Elle montre que la cour se limitait à prononcer de simples amendes symboliques"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Prynne comparaît devant une cour sans juré, la sentence, pilori, oreilles coupées, joues marquées, tombe le jour même, et aucun appel n'est possible."
+    },
+    {
+      "question": "Que dit Encyclopedia.com sur l'origine réelle de la Star Chambre, par rapport au récit d'une création en 1487 ?",
+      "choix": [
+        "Que des archives récemment retrouvées confirment sans doute possible la date de 1487",
+        "Que la cour ne devait pas son existence à une loi de 1487, la salle étant bâtie dès 1347",
+        "Que la cour n'a commencé à fonctionner qu'en 1603, sous Jacques Ier",
+        "Que la loi de 1487 est bien la source de la cour, appliquée un siècle plus tard"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Encyclopedia.com affirme explicitement que la cour ne devait pas son existence à une loi de 1487, la pièce étant bâtie dès 1347 et le conseil royal y siégeant bien avant Henri VII."
+    },
+    {
+      "question": "Qu'est-ce qui a survécu de la Star Chambre dans l'anglais courant, près de quatre siècles après son abolition ?",
+      "choix": [
+        "Un précédent juridique encore cité devant les tribunaux britanniques",
+        "La salle elle-même, toujours utilisée comme tribunal à Westminster",
+        "Un délit pénal spécifique qui porte encore le nom de la cour",
+        "L'expression « star chamber », pour un jugement rendu sans contradictoire ni recours"
+      ],
+      "bonne_reponse": 3,
+      "explication": "L'anglais courant continue de dire « star chamber » pour désigner une procédure fermée, sans contradictoire ni recours, comme un comité disciplinaire."
+    }
+  ]
 }

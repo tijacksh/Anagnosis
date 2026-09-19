@@ -111,5 +111,40 @@
     "genere_le": "2026-08-20",
     "genere_par": "claude-code",
     "version": 1
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'a reconnu WorldCom le 25 juin 2002, la veille du dépôt de plainte de la SEC ?",
+      "choix": [
+        "Avoir reclassé environ 3,8 milliards de dollars de dépenses en investissements",
+        "Avoir versé des pots-de-vin à ses auditeurs externes pour dissimuler ses pertes",
+        "Avoir dissimulé une fusion avec un concurrent sans en informer les actionnaires",
+        "Avoir falsifié le nombre de ses abonnés pour rassurer les marchés"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le 25 juin 2002, WorldCom reconnaît avoir reclassé environ 3,8 milliards de dollars de dépenses en investissements, ce qui gonfle artificiellement ses bénéfices déclarés."
+    },
+    {
+      "question": "Qui la section 302 du Sarbanes-Oxley Act oblige-t-elle à certifier personnellement les rapports financiers ?",
+      "choix": [
+        "L'ensemble du conseil d'administration, collectivement",
+        "Les actionnaires majoritaires de l'entreprise",
+        "Le directeur général et le directeur financier",
+        "Le cabinet d'audit externe chargé des comptes"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La section 302 vise nommément le directeur général et le directeur financier, qui doivent signer eux-mêmes une certification écrite pour chaque rapport déposé."
+    },
+    {
+      "question": "Qu'ajoute la section 906 par rapport à l'obligation de certification de la section 302 ?",
+      "choix": [
+        "Elle étend l'obligation de certification personnelle aux entreprises non cotées en bourse également",
+        "Elle impose une inspection trimestrielle systématique de chaque rapport par les services de la SEC",
+        "Elle plafonne la rémunération annuelle des dirigeants ayant signé une certification",
+        "Elle fait de la signature d'une certification sciemment fausse un délit distinct, passible de vingt ans de prison"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La section 302 crée l'obligation de certifier ; la section 906 est une disposition pénale séparée, qui punit la signature d'une certification que l'on sait fausse."
+    }
+  ]
 }

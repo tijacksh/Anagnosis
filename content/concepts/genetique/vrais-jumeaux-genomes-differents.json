@@ -87,5 +87,40 @@
     "notes": [
       "Sources rouvertes (PubMed 33414551 et communiqué deCODE prnewswire), recoupées avec 2 sources secondaires indépendantes (IRIS/Landsbókasafn, résumé académique). Chiffres exacts et bien attribués : 387 paires de jumeaux monozygotes islandais séquencées avec parents/conjoints/enfants, 5,2 mutations précoces en moyenne entre jumeaux d'une paire, ~15% des paires avec écart nettement plus marqué — abstract cité verbatim sur ces trois points via 3 fetchs indépendants. Mécanisme (mutations dans les premières divisions embryonnaires, avant/pendant la séparation en deux masses cellulaires) conforme à l'étude (pre-twinning cell mass, lignées cellulaires). Quiz cohérent, bonne réponse distincte des distracteurs. Aucune correction nécessaire."
     ]
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi les mutations diffèrent-elles entre deux jumeaux monozygotes, alors qu'ils viennent d'un seul œuf fécondé ?",
+      "choix": [
+        "Des facteurs environnementaux propres à chacun, après la naissance, modifient ensuite l'ADN de chaque jumeau séparément",
+        "Le placenta filtre des nutriments sensiblement différents pour chacun des deux jumeaux au fil de la grossesse",
+        "La séparation en deux masses cellulaires n'a pas lieu à l'instant précis de la première division, et des erreurs de copie restent propres à un seul jumeau",
+        "Les deux jumeaux sont exposés à des niveaux de radiation notablement différents durant toute la grossesse"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La séparation en deux masses cellulaires n'a pas lieu à l'instant de la première division ; les erreurs de copie survenues dans l'intervalle restent propres à l'un des deux jumeaux."
+    },
+    {
+      "question": "Dans quelle proportion environ des 387 paires étudiées l'écart de mutations est-il nettement plus marqué chez l'un des deux jumeaux ?",
+      "choix": [
+        "Environ 50 % des paires",
+        "Environ 2 % des paires",
+        "Près de 90 % des paires",
+        "Environ 15 % des paires"
+      ],
+      "bonne_reponse": 3,
+      "explication": "L'étude mesure un écart nettement plus marqué chez l'un des deux jumeaux dans environ 15 % des 387 paires séquencées."
+    },
+    {
+      "question": "Pourquoi deux cousins nés de deux jumeaux monozygotes peuvent-ils hériter de variants génétiques distincts ?",
+      "choix": [
+        "Parce que certains jumeaux monozygotes ont en réalité, dans de rares cas documentés, deux pères biologiques distincts",
+        "Parce que certaines mutations précoces touchent des cellules devenues reproductrices, et ne se transmettent qu'aux enfants du jumeau qui les porte",
+        "Parce que les mutations d'origine environnementale s'accumulent de façon différente une fois les jumeaux devenus adultes",
+        "Parce que l'étude publiée en 2021 a montré qu'une telle transmission différentielle était en réalité impossible"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Certaines mutations touchent des cellules qui deviendront des cellules reproductrices, et se transmettent alors aux enfants d'un seul des deux jumeaux, jamais à ceux de l'autre."
+    }
+  ]
 }

@@ -110,5 +110,40 @@
     "genere_le": "2026-08-17",
     "genere_par": "claude-code",
     "version": 1
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Quel garde-fou l'article 48 prévoyait-il, et pourquoi n'a-t-il pas joué en 1933 ?",
+      "choix": [
+        "Le Reichstag devait être informé et pouvait exiger la levée des mesures, mais il n'en avait plus les moyens après mars 1933",
+        "Chaque Land devait donner son accord unanime avant l'entrée en vigueur de tout décret présidentiel de ce type",
+        "Les mesures devaient être soumises à un référendum populaire organisé dans les trente jours suivant leur adoption",
+        "Une cour constitutionnelle spécialement créée devait valider chaque décret avant sa publication officielle"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le garde-fou donnait au Reichstag le pouvoir d'exiger la levée des mesures, mais l'affaiblissement du Reichstag après le score nazi de mars 1933 l'a rendu inopérant."
+    },
+    {
+      "question": "Quel motif officiel justifie le décret du 28 février 1933 fondé sur l'article 48 ?",
+      "choix": [
+        "Une invasion imminente de troupes étrangères aux frontières allemandes",
+        "Un danger communiste imminent",
+        "Une crise économique menaçant l'approvisionnement du pays",
+        "Une catastrophe naturelle ayant frappé Berlin la veille"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le décret répond officiellement à un danger communiste imminent, même s'il donne dans les faits une base légale à la répression des communistes et des sociaux-démocrates."
+    },
+    {
+      "question": "Que devient le décret du 28 février 1933 après son entrée en vigueur ?",
+      "choix": [
+        "Il est abrogé un an plus tard par un nouveau vote du Reichstag",
+        "Des tribunaux allemands le déclarent inconstitutionnel dès 1934",
+        "Il n'est jamais abrogé et reste en vigueur jusqu'à la chute du régime, en 1945",
+        "Il est remplacé dès mars 1933 par la loi des pleins pouvoirs, qui le rend caduc"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Présenté comme provisoire, le décret ne sera jamais abrogé : il reste techniquement en vigueur jusqu'à la chute du régime nazi, en 1945."
+    }
+  ]
 }

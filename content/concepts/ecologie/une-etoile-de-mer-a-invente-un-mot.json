@@ -102,5 +102,40 @@
     "genere_le": "2026-08-07",
     "genere_par": "claude-code",
     "version": 1
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Par quel mécanisme le retrait de Pisaster change-t-il la composition de l'écosystème, selon l'expérience de Paine ?",
+      "choix": [
+        "Pisaster n'en mange pas assez pour réduire son nombre, mais assez pour l'empêcher de monopoliser l'espace",
+        "Le mucus sécrété par Pisaster repousse les autres prédateurs de la roche",
+        "Pisaster fertilise la roche de ses déjections, ce qui favorise les algues",
+        "Pisaster brise les coquilles des moules pour que d'autres espèces s'en nourrissent"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le texte précise que le mécanisme n'est pas la faim : Pisaster ne mange pas assez de moules pour en réduire le nombre, mais assez pour l'empêcher de monopoliser l'espace."
+    },
+    {
+      "question": "Que révèle la réanalyse de 2016, par Lafferty et Suchanek, sur l'expérience de Paine ?",
+      "choix": [
+        "Que les données originales publiées par Paine en 1966 étaient en partie fabriquées ou mal interprétées",
+        "Que le tapis de moules héberge lui-même plus de trois cents autres espèces, ce qui fait grimper la diversité totale du système",
+        "Que la moule finit malgré tout par être évincée par Pisaster sur la parcelle témoin laissée intacte",
+        "Qu'aucun effet mesurable sur la diversité des espèces n'a en réalité jamais été établi"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La réanalyse de 2016 montre que le lit de moules héberge plus de trois cents espèces associées dans ses interstices : la diversité du substrat nu baisse, mais la diversité totale grimpe."
+    },
+    {
+      "question": "Quand et dans quel contexte Robert Paine forge-t-il le terme « espèce clé de voûte » ?",
+      "choix": [
+        "En 1963, au moment où il conçoit l'expérience, comme hypothèse de travail",
+        "En 1966, dans le même article qui rapporte la chute de quinze à huit espèces",
+        "En 1969, dans une note de trois pages parue dans la même revue",
+        "Le terme a été forgé plus tard par un autre écologue travaillant sur les loups"
+      ],
+      "bonne_reponse": 2,
+      "explication": "En 1969, dans une note de trois pages parue dans The American Naturalist, Paine propose le terme « keystone », en référence à la pierre centrale d'un arc dont le retrait fait tout s'effondrer."
+    }
+  ]
 }
