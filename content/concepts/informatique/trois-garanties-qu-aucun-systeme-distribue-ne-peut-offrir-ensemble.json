@@ -75,6 +75,41 @@
     "explication": "Pendant une coupure réseau, un nœud isolé n'a que deux options : répondre tout de suite, au risque de renvoyer une donnée non vérifiée auprès des autres copies, ce qui rompt la cohérence ; ou attendre que la liaison revienne pour être sûr, ce qui rompt la disponibilité. C'est une contrainte logique, démontrée par Gilbert et Lynch en 2002, pas un problème de mémoire ni une question réglementaire.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qui démontre rigoureusement la conjecture de Brewer, et quand ?",
+      "choix": [
+        "Une équipe de Google, en 2006",
+        "Leslie Lamport, en 1998",
+        "Eric Brewer lui-même, dans son article original de 2000",
+        "Seth Gilbert et Nancy Lynch, du MIT, en 2002"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Deux ans après la conjecture présentée par Brewer, Seth Gilbert et Nancy Lynch, chercheurs du MIT, en donnent une démonstration rigoureuse en 2002 dans un article de l'ACM SIGACT News."
+    },
+    {
+      "question": "Qu'est-ce que Brewer corrige lui-même en 2012, dans son article CAP Twelve Years Later ?",
+      "choix": [
+        "Il démontre que sa conjecture de 2000 était en réalité fausse",
+        "Il affirme que la tolérance aux partitions n'est jamais nécessaire",
+        "Il précise que le choix entre cohérence et disponibilité peut se faire par opération ou sous-système",
+        "Il propose une quatrième garantie que les systèmes distribués devraient viser"
+      ],
+      "bonne_reponse": 2,
+      "explication": "En 2012, Brewer nuance la lecture simplifiée de son théorème : le choix ne porte pas sur le système entier mais peut se faire opération par opération, selon ce qui importe le plus à cet instant."
+    },
+    {
+      "question": "Où et quand Eric Brewer présente-t-il pour la première fois sa conjecture ?",
+      "choix": [
+        "En 2005, lors d'une conférence à San Francisco",
+        "En juillet 2000, au Symposium on Principles of Distributed Computing, à Portland",
+        "En 1998, dans un article publié par le MIT",
+        "En 2012, dans la revue Computer de l'IEEE"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Brewer pose sa conjecture pour la première fois en juillet 2000, en ouverture d'une conférence donnée au Symposium on Principles of Distributed Computing, tenue à Portland."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

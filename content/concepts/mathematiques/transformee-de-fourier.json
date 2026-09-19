@@ -74,6 +74,41 @@
     "explication": "La transformation ne retire ni n'ajoute rien : elle est réversible, et l'on retrouve le signal d'origine intact. Le filtrage et la compression sont des opérations qu'on effectue ensuite, une fois passé dans le domaine des fréquences. C'est justement ce changement d'axe qui les rend simples, mais il ne les contient pas.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que se passe-t-il pour Fourier en 1812 ?",
+      "choix": [
+        "Il obtient une chaire à l'Académie française",
+        "Il remporte le grand prix de l'Académie des sciences avec une version remaniée de son mémoire, sans en obtenir la publication",
+        "Il publie enfin son mémoire de 1807 sans modification",
+        "Il abandonne définitivement l'idée de décomposer les fonctions périodiques"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Fourier remporte le grand prix de l'Académie des sciences en 1812 avec une version remaniée de son mémoire, mais sans en obtenir la publication ; il faudra attendre 1822 pour la Théorie analytique de la chaleur."
+    },
+    {
+      "question": "Qu'apporte l'algorithme publié par Cooley et Tukey en 1965 ?",
+      "choix": [
+        "Il démontre pour la première fois que la transformation de Fourier est réversible",
+        "Il invente le format JPEG pour la compression d'images",
+        "Il établit le lien entre la transformation de Fourier et le principe d'indétermination de Heisenberg",
+        "Il abaisse le coût du calcul de la transformation au point de la rendre praticable en temps réel"
+      ],
+      "bonne_reponse": 3,
+      "explication": "L'algorithme de Cooley et Tukey, publié en 1965, abaisse le coût du calcul de la transformation de Fourier au point de la rendre praticable en temps réel, sans quoi la plupart de ses usages seraient restés théoriques."
+    },
+    {
+      "question": "Comment une IRM utilise-t-elle la transformation de Fourier ?",
+      "choix": [
+        "Elle mesure directement des composantes fréquentielles, et l'image n'apparaît qu'après la transformation inverse",
+        "Elle filtre le bruit ambiant de la salle d'examen avant de photographier le patient",
+        "Elle compresse les images obtenues pour réduire leur poids en mémoire",
+        "Elle calcule la moyenne de plusieurs clichés pris à des instants différents"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Une IRM mesure directement des composantes fréquentielles du signal, et l'image ne devient visible qu'une fois qu'on lui applique la transformation de Fourier inverse."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
