@@ -85,10 +85,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-19",
+    "verdict": "a_revoir",
+    "empreinte": "518b1ac6783b6979",
+    "notes": [
+      "Statut passé à en_retouche. Erreur de nom repérée dans le contenu_vulgarise et dans la note de la source Northwestern : le juge qui accorde le nouveau procès le 14 août 1989 au tribunal de circuit du comté de Cook s'appelle Thomas R. Fitzgerald, pas « Richard Fitzgerald » comme l'écrit la fiche (confusion probable avec Richard L. Samuels, le juge du procès de 1979 et de l'audience de rétractation de 1985, qui lui est correctement nommé). Convergence de plusieurs sources indépendantes (dépêches UPI de juillet/août 1989, Washington Post, biographie Illinois Courts History, Wikipedia « Thomas R. Fitzgerald (judge) ») sur « Thomas R. Fitzgerald » ; aucune ne corrobore « Richard ». WebFetch étant bloqué par le proxy réseau de cette session, je n'ai pas pu rouvrir directement la page National Registry of Exonerations citée en source pour trancher au mot près : à vérifier sur pièce puis corriger le prénom du juge (contenu_vulgarise + note de la source Northwestern) avant de revalider. Reste de la fiche vérifié et cohérent : chronologie 1977-2003, rôle d'Edward Blake, nuance Dotson/David Vasquez, citation du repere, carte et quiz — rien d'autre à signaler."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-09-19",
