@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Watson ne critique pas la rigueur des laboratoires existants ni la possibilité de prédire un comportement : il retire l'introspection et la conscience du champ scientifique, pour ne retenir que le comportement observable comme donnée légitime.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -109,12 +109,29 @@
       "explication": "Portée notamment par la critique de Chomsky contre Skinner en 1959, la révolution cognitive réintroduit des représentations mentales comme objets d'étude légitimes, sans renoncer à la rigueur expérimentale imposée par Watson."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-20T10:16:01.781Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:12:42.634Z",
+        "note": "Sources rouvertes (WebFetch bloque par la politique d'egress reseau sur psychclassics.yorku.ca et plato.stanford.edu -> verification croisee via WebSearch sur plusieurs extraits independants, dont un miroir de la note Wozniak sur bascom.brynmawr.edu). Confirme mot pour mot : citation d'ouverture ('Psychology as the behaviorist views it is a purely objective experimental branch of natural science. Its theoretical goal is the prediction and control of behavior.'), 'Introspection forms no essential part of its methods', et 'recognizes no dividing line between man and brute' -- toutes dans Watson, Psychological Review, vol. 20, no 2, 1913, p. 158-177 (confirme par SciRP/PMC/Semantic Scholar). Commentaire Wozniak confirme 'psychology was a discipline in serious disarray' et 'introspection by a trained observer under controlled conditions' ; la note actuelle de la fiche (deja corrigee au controle du 2026-08-28) ne pretend plus, a raison, que ce commentaire nomme Leipzig/Wurzburg -- verifie exact. SEP Mental Imagery (sum2021) confirme la controverse de la pensee sans image, l'ecole de Wurzburg (Kulpe/Buhler) contre Wundt, qui qualifie les experiences de 'counterfeit experiments' (variante de 'sham' rapportee ailleurs) -- soutient le paragraphe d'ouverture du corps. Chomsky 1959 contre 'Verbal Behavior' de Skinner et la revolution cognitive : fait historique verifie independamment (multiples sources academiques concordantes) mais toujours non associe a une source dediee dans sources[], comme deja releve au controle -- laisse en l'etat, fait etabli et non conteste. Carte (punch/idee/source_courte) verifiee : n'affirme rien de plus que le corps. Quiz principal et 3 questions supplementaires verifies : bonnes reponses exactes au vu des sources, distracteurs plausibles et faux, aucun ecart de longueur suspect (ratio max 1,18x). Aucune correction necessaire, aucun texte touche."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:16:01.781Z",
+        "note": "Correction de cohérence par la session orchestratrice : la décision « valide » a été prise alors que WebFetch/curl étaient intégralement bloqués (EGRESS_BLOCKED) dans cet environnement pour tous les domaines externes testés (confirmé indépendamment sur ce brouillon et sur les trois autres du même lot). La vérification a donc reposé sur WebSearch (extraits indexés tiers), pas sur une réouverture directe des pages comme l'exige /relire (« WebFetch sur chaque url, vraiment »). CLAUDE.md est explicite : une source qu'on ne peut pas aller ouvrir ne prouve rien — WebSearch ne confirme pas qu'une url est aujourd'hui vivante, ni qu'elle affiche exactement le contenu attendu. Par cohérence avec l'autre brouillon du même lot (traité en en_retouche pour la même raison) et par prudence (« dans le doute, ne valide pas »), la décision est ramenée à en_retouche : le contenu vérifié par recoupement semble exact, mais un passage avec accès web fonctionnel doit confirmer par une réouverture directe avant mise en circulation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",

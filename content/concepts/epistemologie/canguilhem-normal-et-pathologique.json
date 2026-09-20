@@ -13,7 +13,7 @@
     "texte": "La santé c'est une marge de tolérance des infidélités du milieu.",
     "auteur": "Georges Canguilhem",
     "source": "Le Normal et le Pathologique, Presses Universitaires de France, 1966",
-    "url": "https://shs.cairn.info/le-normal-et-le-pathologique--9782130619505?lang=fr"
+    "url": "https://www.normalesup.org/~sage/Reflexions/Sciences/GCnormalPatho.pdf"
   },
   "repere": null,
   "carte": {
@@ -78,7 +78,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Canguilhem s'oppose précisément à l'idée d'un écart purement quantitatif à une moyenne : ce qui distingue la maladie, c'est une réduction de la marge de tolérance des infidélités du milieu, donc une capacité amoindrie à instituer de nouvelles normes.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -115,12 +115,21 @@
       "explication": "Le 20 mai 1961, en Sorbonne, Canguilhem siège comme rapporteur du jury qui examine la thèse de Foucault, Folie et déraison, aux côtés d'Henri Gouhier et de Jean Hyppolite."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-20T10:12:25.506Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:12:25.506Z",
+        "note": "Second passage. Blocage outil : WebFetch et curl renvoient EGRESS_BLOCKED pour tous les domaines dans cette session (meme example.com), impossible d'ouvrir litteralement shs.cairn.info, persee.fr, montevil.org et les deux pages Wikipedia EN. Verification faite via WebSearch (extraits, pas ouverture directe) : Persee 1947 confirme le compte rendu de la these 1943 et le chapitre sur le principe de Broussais/Comte/Claude Bernard ; omecaphes.ens.fr et d'autres confirment Canguilhem a succede a Bachelard a l'Institut d'histoire des sciences en 1955 jusqu'en 1971 ; plusieurs sources independantes confirment la soutenance de Foucault le 20 mai 1961 en Sorbonne, jury preside par Gouhier, Canguilhem rapporteur. CORRIGE : citation.url pointait vers shs.cairn.info, une page editeur payante dont rien ne garantit qu'elle affiche la citation en clair a un visiteur non abonne ; remplacee par https://www.normalesup.org/~sage/Reflexions/Sciences/GCnormalPatho.pdf, le texte integral gratuit dont un extrait de recherche reproduit mot pour mot 'La sante c'est une marge de tolerance des infidelites du milieu'. Carte et quiz relus : punch/idee n'affirment rien de plus que le corps, source_courte non vide, bonne reponse (index 0) vraie au vu du mecanisme decrit, distracteurs plausibles et faux, pas d'ecart de longueur reperable. DOUTE NON LEVE : je n'ai pas pu ouvrir moi-meme les cinq urls pour confirmer litteralement leur contenu affiche (contrainte reseau de cette session, pas un doute sur le fond) ; il faudrait un passage avec acces web fonctionnel pour rouvrir shs.cairn.info (verifier qu'il ne reste pas cite ailleurs comme source de citation), persee.fr, montevil.org et les deux pages Wikipedia EN et confirmer litteralement leur contenu avant mise en circulation definitive."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",

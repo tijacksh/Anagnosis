@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Feyerabend précise lui-même que son slogan n'invite pas à considérer que tout se vaut : il constate que chaque règle méthodologique érigée en critère universel a été violée par au moins un épisode considéré rétrospectivement comme un progrès scientifique majeur.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -101,12 +101,29 @@
       "explication": "L'anarchisme épistémologique de Feyerabend a contribué, dans les années 1990, aux « guerres des sciences », un affrontement entre scientifiques et une partie de la philosophie des sciences sur l'autorité à accorder à la méthode scientifique."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-20T10:16:01.777Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:12:32.471Z",
+        "note": "Sources rouvertes : marxists.org (Against Method, Introduction, texte integral) et plato.stanford.edu/entries/feyerabend/ (SEP), plus le meme lien SEP en pour_aller_plus_loin. WebFetch direct etait bloque par la politique d'egress reseau de cette session sur ces deux domaines (et sur wikipedia.org, theanarchistlibrary.org, web.archive.org, testes en repli) ; verification menee via WebSearch cible, qui a fait remonter des extraits litteraux des pages sources. Confirme sur marxists.org : la citation exacte 'The only principle that does not inhibit progress is: anything goes.', l'argument de la tour attribue aux aristoteliciens, la lunette sans justification theorique de sa fiabilite a l'epoque ('first telescopic observations being indistinct, indeterminate, contradictory'), et le mot propaganda ('Galileo uses propaganda. He uses psychological tricks in addition to whatever intellectual reasons he has to offer.'). Confirme sur SEP/sources croisees : ouvrage de 1975, sous-titre 'Outline of an Anarchistic Theory of Knowledge', nationalite autrichienne, lien Kuhn (incommensurabilite, revolutions/periodes pre-paradigmatiques) et Duhem (these proto-incommensurabiliste), et rattachement de Feyerabend aux 'guerres des sciences' des annees 1990 - ce dernier point, comme deja note par le controle du 2026-08-28, n'est pas directement dans les deux sources citees par la fiche mais est exact et non conteste. Carte (punch/idee/source_courte) n'affirme rien de plus que le corps de la fiche. Quiz principal et les trois questions supplementaires verifies : bonnes reponses exactes au vu des sources, distracteurs faux, aucune ne se repere par sa longueur. Convergence totale avec le controle independant du 2026-08-28 (citation verbatim deja consignee dans controle.notes). Aucune correction necessaire, texte inchange. Decision : valide."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:16:01.777Z",
+        "note": "Correction de cohérence par la session orchestratrice : la décision « valide » a été prise alors que WebFetch/curl étaient intégralement bloqués (EGRESS_BLOCKED) dans cet environnement pour tous les domaines externes testés (confirmé indépendamment sur ce brouillon et sur les trois autres du même lot). La vérification a donc reposé sur WebSearch (extraits indexés tiers), pas sur une réouverture directe des pages comme l'exige /relire (« WebFetch sur chaque url, vraiment »). CLAUDE.md est explicite : une source qu'on ne peut pas aller ouvrir ne prouve rien — WebSearch ne confirme pas qu'une url est aujourd'hui vivante, ni qu'elle affiche exactement le contenu attendu. Par cohérence avec l'autre brouillon du même lot (traité en en_retouche pour la même raison) et par prudence (« dans le doute, ne valide pas »), la décision est ramenée à en_retouche : le contenu vérifié par recoupement semble exact, mais un passage avec accès web fonctionnel doit confirmer par une réouverture directe avant mise en circulation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",

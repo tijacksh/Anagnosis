@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Weber insiste : un citadin ne comprend généralement pas mieux l'électricité qu'un ancien ne comprenait ses esprits. Ce qui change, c'est la confiance que tout est, en principe, calculable par quelqu'un, pas le savoir effectif de chaque individu.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -109,12 +109,29 @@
       "explication": "Weber assume qu'un monde désenchanté en ce sens laisse chacun devant un choix entre des « dieux rivaux et silencieux », faute d'un oracle unique auquel s'en remettre pour savoir comment vivre."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-20T10:16:01.782Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:13:06.092Z",
+        "note": "Deuxieme passage independant. WebFetch/curl bloques par la politique reseau de cette session (EGRESS_BLOCKED sur en.wikipedia.org, doi.org, sociology.sas.upenn.edu, et meme google.com) : verification menee par recherche web croisee sur des citations exactes reprises par des tiers independants (goodreads, brainyquote, quotefancy, davidlabaree.com, etc.), methode differente de celle du controle du 2026-08-28 mais convergente. Citation 'The fate of our times is characterized by rationalization and intellectualization and, above all, by the disenchantment of the world' confirmee mot pour mot, attribuee a la conference de 1917. Passage sur le tramway confirme ('one who rides on the streetcar has no idea how the car happened to get into motion... he knows nothing about what it takes to produce such a car'). Passage sur les moyens magiques confirme mot pour mot ('no mysterious incalculable forces... one can, in principle, master all things by calculation... One need no longer have recourse to magical means in order to master or implore the spirits, as did the savage... Technical means and calculations perform the service'). Date et lieu confirmes par source independante : 7 novembre 1917, Steinickesaal a Munich, cycle organise par la section baviere du Freistudentische Bund pour des etudiants (~80-100 auditeurs), guerre alors dans sa troisieme annee - correspond au texte de la fiche. Entzauberung = demagification confirme par source tierce independante. Passage sur les dieux rivaux ('different gods struggle with one another, now and for all times to come') retrouve dans le meme texte, coherent avec le dernier paragraphe de la fiche. DOI 10.1057/palcomms.2015.34 : prefixe 10.1057 (Palgrave Macmillan) et format palcomms.2015.xx coherents avec la revue Palgrave Communications (aujourd'hui Humanities and Social Sciences Communications), integralement en libre acces - coherent avec l'usage qu'en fait la fiche. Carte et quiz verifies : punch/idee n'affirment rien de plus que le corps, source_courte non vide. Quiz principal et les trois quiz supplementaires : bonnes reponses conformes aux sources, distracteurs plausibles mais faux, aucun ratio de longueur suspect (max 1.25x). Aucune correction necessaire, aucune url ni citation inventee. Empreinte inchangee."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-09-20T10:16:01.782Z",
+        "note": "Correction de cohérence par la session orchestratrice : la décision « valide » a été prise alors que WebFetch/curl étaient intégralement bloqués (EGRESS_BLOCKED) dans cet environnement pour tous les domaines externes testés (confirmé indépendamment sur ce brouillon et sur les trois autres du même lot). La vérification a donc reposé sur WebSearch (extraits indexés tiers), pas sur une réouverture directe des pages comme l'exige /relire (« WebFetch sur chaque url, vraiment »). CLAUDE.md est explicite : une source qu'on ne peut pas aller ouvrir ne prouve rien — WebSearch ne confirme pas qu'une url est aujourd'hui vivante, ni qu'elle affiche exactement le contenu attendu. Par cohérence avec l'autre brouillon du même lot (traité en en_retouche pour la même raison) et par prudence (« dans le doute, ne valide pas »), la décision est ramenée à en_retouche : le contenu vérifié par recoupement semble exact, mais un passage avec accès web fonctionnel doit confirmer par une réouverture directe avant mise en circulation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-08-28",
