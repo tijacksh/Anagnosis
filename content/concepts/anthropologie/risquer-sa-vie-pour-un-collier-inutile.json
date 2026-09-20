@@ -138,12 +138,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-30",
-    "verdict": "corrige",
-    "empreinte": "882b3d904279131d",
+    "fait_le": "2026-09-20",
+    "verdict": "ok",
+    "empreinte": "acfd80ea16a02d85",
     "notes": [
-      "Corrigé sur instruction du relecteur, après signalement. « Souvent transmise de père en fils » est supprimé. Le texte dit maintenant ce que décrit Malinowski : la société trobriandaise est matrilinéaire, le rang et les biens passent de l'oncle maternel au neveu, et c'est à cet oncle qu'un homme verse le paiement qui lui ouvre l'entrée dans le kula. La durée du partenariat, à vie, est conservée — elle est bien dans la source.",
-      "Passages de référence dans Argonauts of the Western Pacific : « wealth, as well as social position, are inherited, not from father to son, but from maternal uncle to nephew » et « A commoner enters into the Kula like a chief, with the only exception that everything is on a smaller scale, the amount of the pokala which he gives to his maternal uncle »."
+      "Contrainte reseau : EGRESS_BLOCKED sur WebFetch/curl. Empreinte modifiee depuis le controle du 2026-07-30 par l'ajout du quiz_supplementaire (commit 715900d, non couvert par ce controle) puis un commit stylistique (retrait des marqueurs IA, sans impact factuel). Quiz_supplementaire verifie par WebSearch : sens de circulation opposes des soulava et mwali confirme, environ 18-20 communautes de l'archipel Massim confirme, deux sejours de terrain de Malinowski entre 1915 et 1918 confirmes, kula comme contre-exemple au troc utilitaire confirme - conforme au corps de la fiche deja verifie au controle precedent (citations Argonauts sur l'heritage matrilineaire). Rien a corriger."
     ]
   }
 }
