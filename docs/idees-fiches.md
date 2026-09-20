@@ -38,9 +38,9 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Cinéma | Le Dogme 95 (1995) et son « vœu de chasteté » contre les effets spéciaux | proposé | Orkidea | 2026-08-28 |
 | Cinéma | La première projection payante des frères Lumière, 28 décembre 1895 | proposé | Orkidea | 2026-08-28 |
 | Cinéma | La liste noire hollywoodienne et les « Dix de Hollywood » (années 1950) | proposé | Orkidea | 2026-08-28 |
-| Musique | Alan Freed, le terme « rock and roll » et le scandale de la Payola (1959-1960) | proposé | Orkidea | 2026-08-28 |
-| Musique | Le 33 tours de Columbia (1948) et la guerre des vitesses avec le 45 tours de RCA | proposé | Orkidea | 2026-08-28 |
-| Musique | Le procès *Gaye v. Thicke* (« Blurred Lines », 2015), plagiat de sensation musicale | proposé | Orkidea | 2026-08-28 |
+| Musique | Alan Freed, le terme « rock and roll » et le scandale de la Payola (1959-1960) | fait | routine-production | 2026-09-20 |
+| Musique | Le 33 tours de Columbia (1948) et la guerre des vitesses avec le 45 tours de RCA | fait | routine-production | 2026-09-20 |
+| Musique | Le procès *Gaye v. Thicke* (« Blurred Lines », 2015), plagiat de sensation musicale | fait | routine-production | 2026-09-20 |
 | Architecture | La Charte d'Athènes (1933) et le zonage fonctionnaliste de l'urbanisme moderne | proposé | Orkidea | 2026-08-28 |
 | Architecture | L'effondrement de la tour Ronan Point (Londres, 1968) | proposé | Orkidea | 2026-08-28 |
 | Architecture | Le concours du Centre Pompidou (1971), remporté par Piano et Rogers, alors inconnus | proposé | Orkidea | 2026-08-28 |
@@ -56,7 +56,7 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Linguistique | L'hypothèse Sapir-Whorf et le mythe du vocabulaire inuit de la neige | proposé | Orkidea | 2026-08-28 |
 | Histoire de l'art | Le scandale du Salon des Refusés (1863) et le *Déjeuner sur l'herbe* de Manet | fait | routine-production | 2026-08-24 |
 | Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » | proposé | Orkidea | 2026-08-28 |
-| Musique | La normalisation du « la » à 440 Hz (conférence de Londres, 1939 ; norme ISO 16, 1955) | proposé | Orkidea | 2026-08-28 |
+| Musique | La normalisation du « la » à 440 Hz (conférence de Londres, 1939 ; norme ISO 16, 1955) | fait | routine-production | 2026-09-20 |
 | Histoire de l'art | Le vol du musée Isabella Stewart Gardner (1990), jamais élucidé | fait | routine-production | 2026-09-19 |
 | Histoire de l'art | *Republic of Austria v. Altmann* (2004) et la restitution du Klimt d'Adele Bloch-Bauer | fait | routine-production | 2026-09-19 |
 | Histoire de l'art | Le mythe de Van Eyck inventeur de la peinture à l'huile (Vasari, 1550) | fait | routine-production | 2026-09-19 |
