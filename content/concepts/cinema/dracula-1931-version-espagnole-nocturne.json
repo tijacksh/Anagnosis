@@ -37,7 +37,16 @@
       "publication": "en.wikipedia.org",
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Dracula_(1931_Spanish-language_film)",
-      "note": "Confirme le début du tournage le 10 octobre 1930, les vingt-deux jours de tournage nocturne sur les décors de Browning, le fait que seul Villarías était autorisé à voir les rushes anglais pour imiter Lugosi, la durée de 104 minutes contre 75 pour l'anglaise, la découverte d'une copie incomplète dans le New Jersey dans les années 1970 et d'une copie intégrale à la Cinemateca de Cuba."
+      "note": "Confirme le début du tournage le 10 octobre 1930, les vingt-deux jours de tournage nocturne sur les décors de Browning, le fait que c'est le réalisateur Melford (et non Villarías) qui étudiait chaque jour les images tournées par l'équipe anglaise pour composer ses propres plans, la durée de 104 minutes contre 75 pour l'anglaise, la découverte d'une copie incomplète dans le New Jersey dans les années 1970 et d'une copie intégrale à la Cinemateca de Cuba. Ne confirme PAS que Villarías ait été autorisé à voir les rushes de Browning : voir la source Miami Herald / Garvin ci-dessous pour ce point précis."
+    },
+    {
+      "type": "web",
+      "auteur": "Glenn Garvin",
+      "titre": "The secret story behind the other 'Dracula' and the lead actress who just died at 106",
+      "publication": "Miami Herald",
+      "annee": 2015,
+      "url": "https://web.archive.org/web/20151029164543/https://www.miamiherald.com/entertainment/movies-news-reviews/article41628312.html",
+      "note": "Cité en bibliographie de l'article Wikipédia (Garvin, 2015). Contient la citation de Javier Servin, archiviste de Paramount Studios, à propos de Villarías : « He was the only one in the cast who was allowed to go watch the filming on the English-language set, and it seems like he's trying to do an imitation of Lugosi. » URL d'archive utilisée : miamiherald.com est inaccessible depuis cet environnement de contrôle (bloqué par le proxy réseau), la page a été vérifiée via web.archive.org."
     },
     {
       "type": "web",
@@ -72,14 +81,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "Rien n'indique une consigne de minutage à l'export, une pellicule différente, ou des acteurs livrés à l'improvisation, alors même que Carlos Villarías devait au contraire imiter Bela Lugosi. La différence tient au tournage lui-même : Melford voyait chaque matin les rushes de Browning, et en profitait pour étoffer des scènes et des dialogues coupés côté anglais.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-20T22:16:36.702Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-09-21T07:26:31.809Z",
     "historique": [
       {
         "action": "retoucher",
@@ -88,6 +97,14 @@
         "par": "routine-relecture",
         "le": "2026-09-20T22:16:36.702Z",
         "note": "Sources rouvertes indépendamment : en.wikipedia Dracula (1931 Spanish-language film) confirme le 10 octobre 1930, les 22 jours de tournage nocturne en parallèle de Browning sur les mêmes décors, les 104 min contre 75, la découverte au New Jersey puis à la Cinemateca de Cuba, le jugement de Skal 'superior to Browning's film', Melford/Villarías/Tovar. DOUTE NON LEVÉ : le corps affirme que Villarías était 'seul membre de la distribution espagnole autorisé à voir les images de Browning' pour imiter Lugosi — cette affirmation précise ne figure PAS dans la section Production de l'article Wikipédia cité (qui documente seulement que le réalisateur Melford visionnait les rushes, pas Villarías), ni dans en.wikipedia Carlos Villarías, ni dans en.wikipedia Lupita Tovar. D'autres sources (fandom, IMDb, blogs de cinéma) semblent corroborer ce détail mais sont inaccessibles depuis cet environnement (bloquées par le proxy réseau) et n'ont pas pu être ouvertes pour vérification directe. Il faut soit remplacer la source de ce passage par une source vérifiable et ouverte qui le confirme, soit retirer/assouplir l'affirmation."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-09-21T07:26:31.809Z",
+        "note": "Diagnostic de contrôle périmé (fiche modifiée depuis par la routine-relecture) : le vrai cahier des charges était le doute non levé consigné dans validation.historique, pas les notes de controle affichées par 'npm run areparer'. Doute : l'affirmation que Villarías était le seul de la distribution espagnole autorisé à voir les images de Browning n'était pas confirmée par la source Wikipédia citée (qui documente seulement que Melford, le réalisateur, étudiait les rushes). Vérifié : en.wikipedia.org (wikitext brut, confirme bien que c'est Melford et non Villarías qui étudie les rushes) ; recherche de la source primaire de cette affirmation → trouvée dans l'article de Glenn Garvin, Miami Herald, 27 octobre 2015 (cité en bibliographie de l'article Wikipédia), consulté via web.archive.org (miamiherald.com bloqué par le proxy réseau) : citation directe de Javier Servin, archiviste à Paramount Studios, confirmant mot pour mot que Villarías était le seul du casting autorisé à observer le tournage anglais pour en imiter le jeu. Affirmation donc vraie mais mal sourcée : corrigée la note de la source Wikipédia (qui ne dit pas cela) et ajouté l'article Miami Herald/Garvin comme source. quiz.statut repassé à valide. Reste de la fiche (dates, durée, découverte des copies, jugement de Skal, entrée au NFR 2015) déjà vérifié par le contrôle du 2026-09-19 et reconfirmé ici sans écart."
       }
     ]
   },
