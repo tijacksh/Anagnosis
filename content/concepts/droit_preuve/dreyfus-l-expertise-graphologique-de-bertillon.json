@@ -85,12 +85,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-21T10:14:15.972Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-21T10:14:15.972Z",
+        "note": "Sources rouvertes (WebFetch : justice.gouv.fr confirme cassation du 3 juin 1899, procès de Rennes clos le 9 septembre 1899, grâce du 19 septembre 1899, réhabilitation par cassation sans renvoi le 12 juillet 1906 ; Wikisource/Jaurès confirme mot pour mot le partage 2 contre 3 des cinq experts, Gobert et Pelletier contre, Teyssonnières, Charavay et Bertillon pour. WebSearch en complément pour Cairn, Persée et dicoaffairedreyfus.com, bloqués ou incomplets via WebFetch, et pour le rapport Appell-Darboux-Poincaré : daté du 2 août 1904, condamne la méthode probabiliste de Bertillon et sa thèse d'auto-falsification exposée en décembre 1894). Chronologie, repère, carte et quiz cohérents avec les sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-19",

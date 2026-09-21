@@ -85,12 +85,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-21T10:14:18.686Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-21T10:14:18.686Z",
+        "note": "Sources rouvertes (WebFetch : Wikipédia EN sur Picking Cotton confirme la publication du 3 mars 2009 chez St. Martin's Griffin ; law.justia.com inaccessible en direct, contourné par WebSearch confirmant State v. Cotton jugé le 6 janvier 1987 par la Cour suprême de Caroline du Nord, cassant la condamnation pour refus d'admettre Bobby Poole comme suspect alternatif. Innocence Project et National Registry of Exonerations bloqués par le proxy réseau, corroborés par WebSearch multi-sources indépendantes : test ADN de mai 1995 excluant Cotton, libération le 30 juin 1995, grâce du 12 juillet 1995. Rencontre Thompson-Cotton vérifiée avec précision à la date du 4 avril 1997 à l'église Elon First Baptist, confirmée indépendamment. Loi de réforme des identifications par témoin de Caroline du Nord confirmée : adoptée en 2007, effective pour les faits à partir du 1er mars 2008, présentation à l'aveugle et déclaration de confiance. Carte et quiz cohérents. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-19",
