@@ -66,6 +66,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Conformité | *SEC v. Texas Gulf Sulphur Co.* (1968), la règle « divulguer ou s'abstenir » | fait | routine-production | 2026-09-21 |
 | Conformité | Le scandale Toshiba-Kongsberg (1987), machines-outils interdites vendues à l'URSS | fait | routine-production | 2026-09-21 |
 | Conformité | La dissolution de Standard Oil (1911) et la « rule of reason » | abandonné | routine-production | 2026-09-21 |
+| Droit constitutionnel | *Dr. Bonham's Case* (1610), le contrôle des lois inventé puis abandonné en Angleterre | fait | routine-production | 2026-09-21 |
+| Droit constitutionnel | La Petition of Right (1628) et l'obligation de motiver une arrestation | fait | routine-production | 2026-09-21 |
+| Droit constitutionnel | L'*Ewigkeitsklausel* (article 79-3 de la loi fondamentale allemande, 1949) | fait | routine-production | 2026-09-21 |
+| Droit constitutionnel | L'article 16 de la Constitution de 1958, unique usage en 1961 (putsch d'Alger) | fait | routine-production | 2026-09-21 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
