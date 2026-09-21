@@ -18,7 +18,7 @@
   "carte": {
     "punch": "Une fuite de dioxine près de Milan invente la première loi européenne sur le risque industriel.",
     "idee": "Le 10 juillet 1976, une soupape cède à l'usine ICMESA, près de Milan, et disperse un nuage de dioxine sur toute une vallée. Six ans plus tard, en 1982, la Communauté européenne impose pour la première fois aux usines dangereuses de déclarer leurs risques et de préparer un plan d'urgence.",
-    "source_courte": "Directive 82/501/CEE, Conseil européen, 1982"
+    "source_courte": "EUR-Lex, directive 82/501/CEE, 1982"
   },
   "sources": [
     {
@@ -106,10 +106,27 @@
       "explication": "Contrairement au texte de 1982, qui ne nommait jamais Seveso, le préambule de la directive de 2012 cite explicitement « les accidents de Seveso, Bhopal, Schweizerhalle, Enschede, Toulouse et Buncefield »."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-21",
+    "verdict": "a_revoir",
+    "empreinte": "54faf5307fa095d4",
+    "notes": [
+      "Le préambule de la directive 2012/18/UE nomme 6 accidents au total (Seveso, Bhopal, Schweizerhalle, Enschede, Toulouse, Buncefield), soit 5 autres que Seveso. Le paragraphe final de contenu_vulgarise dit « aux côtés de Bhopal, Toulouse et quatre autres catastrophes industrielles », ce qui compte Bhopal+Toulouse+4=6 autres que Seveso (7 au total) : le chiffre est faux, il faut « et trois autres » (Schweizerhalle, Enschede, Buncefield). A corriger dans contenu_vulgarise avant republication.",
+      "Correction faite au passage : carte.source_courte disait « Conseil européen » (institution différente) au lieu de « Conseil des Communautés européennes » qui a réellement adopté la directive en 1982 - corrigé pour correspondre au reste de la fiche et aux sources.",
+      "Correction supplémentaire : source_courte dépassait 60 caractères après la correction précédente (validation en erreur) - raccourci en « EUR-Lex, directive 82/501/CEE, 1982 », qui reste exact et cliquable."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-21", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-21",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

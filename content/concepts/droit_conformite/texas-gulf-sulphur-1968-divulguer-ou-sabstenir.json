@@ -103,8 +103,23 @@
   ],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-21",
+    "verdict": "ok",
+    "empreinte": "8f4610aacf377600",
+    "notes": [
+      "Justia (décision 401 F.2d 833) et OpenJurist (Mitchell v. TGS, 446 F.2d 90) bloqués en fetch direct (403 bot / proxy egress) ; contenu recoupé via Wikipedia et recherches ciblées (citation exacte du juge Waterman, note du 14 nov. 1963, teneurs, dates des communiqués) : tout concorde, aucune correction nécessaire."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-21", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-21",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

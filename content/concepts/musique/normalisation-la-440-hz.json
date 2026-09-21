@@ -68,8 +68,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-21",
+    "verdict": "ok",
+    "empreinte": "a7ef35f2e9fe0451",
+    "notes": [
+      "Sources rouvertes (A440 pitch standard, Concert pitch) : conférence de mai 1939 à Broadcasting House Londres, pays participants (France, Allemagne, Pays-Bas, Italie, Angleterre + Suisse et États-Unis par courrier), la britannique à 439 Hz de 1899, argument de Swinburne sur 439 nombre premier vs 440, Recommandation R 16 (1955) et norme ISO 16 (1975), dérive historique du diapason vers l'aigu et orchestres actuels au-dessus de 440 Hz — tout est confirmé mot pour mot par les sources. Quiz vérifié : bonne réponse exacte, distracteurs faux (aucune mesure d'orchestres, aucune imposition française à 440 Hz — la France avait 435 Hz au XIXe, aucun compositeur mentionné)."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-20", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-20",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

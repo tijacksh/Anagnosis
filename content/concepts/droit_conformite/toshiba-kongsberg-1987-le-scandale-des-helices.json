@@ -100,10 +100,27 @@
       "explication": "Des élus américains ont publiquement détruit des radios Toshiba à coups de masse devant les caméras, un geste symbolique resté associé à l'affaire."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-21",
+    "verdict": "a_revoir",
+    "empreinte": "7f2ef8679f1c4f88",
+    "notes": [
+      "Date du communiqué du Pentagone fausse : la fiche dit 19 avril 1987 (contenu_vulgarise + sources[1].note) mais plusieurs sources concordantes (recherche web croisant dfarq.homeip.net et autres) situent ce communiqué le 19 MARS 1987 ; l'article Wikipedia cité dit seulement « le 19 » sans nommer le mois dans cette phrase, le contexte de la page indiquant mars. A verifier avec une source qui donne la date complete (jour+mois+annee) avant de corriger, car cela change une affirmation datee du coeur de la fiche.",
+      "Le nombre d'axes des machines est generalise a tort : contenu_vulgarise et repere.texte disent 'au moins huit machines ... a neuf axes', alors que les sources elles-memes (sources[1].note et sources[2].note, et confirmation externe) disent que sur les huit machines, quatre etaient a neuf axes (modele MBP-110) et quatre a cinq axes (serie MF). La fiche fait croire que les huit etaient a neuf axes, ce que les sources ne soutiennent pas.",
+      "Le document CIA declassifie (sources[0], cia.gov/readingroom/document/0000621387) n'a pas pu etre rouvert : le domaine cia.gov est bloque par le proxy reseau de l'environnement de controle. Son contenu (reunion Cocom a Paris en avril 1987, usage hélices) n'a donc pas ete verifie directement et reste a confirmer par un humain ou un environnement avec acces a cia.gov."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-21", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-21",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

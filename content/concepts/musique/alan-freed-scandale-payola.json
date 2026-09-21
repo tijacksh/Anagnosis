@@ -84,10 +84,27 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-21",
+    "verdict": "a_revoir",
+    "empreinte": "9db0f16b13055a48",
+    "notes": [
+      "Affirmation non soutenue par la source citée : le texte dit que le scandale de la payola \"devient une affaire d'État dans la foulée d'un autre scandale, celui des jeux télévisés truqués comme Twenty One, qui pousse le Congrès à ouvrir une commission d'enquête\", et la note de la source Wikipedia « Payola » reprend la même affirmation (\"née dans la foulée du scandale des jeux télévisés truqués\").",
+      "J'ai rouvert la page en.wikipedia.org/wiki/Payola en entier (section \"History\" et \"U.S. investigations and aftermath\") : aucune mention des quiz shows, de Twenty One, ni d'un lien de cause avec un autre scandale télévisé. Le seul lien trouvé est indirect (le même sous-comité, présidé par Oren Harris, a mené les auditions sur les jeux truqués en 1959 selon en.wikipedia.org/wiki/Oren_Harris, avant celles sur la payola la même année), mais aucune des quatre sources citées dans la fiche ne l'affirme explicitement.",
+      "Toutes les autres affirmations datées/chiffrées ont été vérifiées et confirmées à l'identique dans les sources : licenciement WABC le 21 novembre 1959, programmation R&B sur WJW le 11 juillet 1951, Moondog Coronation Ball du 21 mars 1952 interrompu pour surcapacité, plaidoyer de culpabilité de décembre 1962 (deux chefs, 300 dollars, sursis), mort le 20 janvier 1965 à 43 ans, ~150 chansons pour Dick Clark, accusations de race-mixing (Britannica). Seul le lien causal avec le scandale des jeux truqués reste à sourcer ou à retirer/reformuler."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-20", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-20",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
