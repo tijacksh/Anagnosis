@@ -61,6 +61,18 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire de l'art | *Republic of Austria v. Altmann* (2004) et la restitution du Klimt d'Adele Bloch-Bauer | fait | routine-production | 2026-09-19 |
 | Histoire de l'art | Le mythe de Van Eyck inventeur de la peinture à l'huile (Vasari, 1550) | fait | routine-production | 2026-09-19 |
 | Histoire de l'art | L'inondation de Florence (1966) et la naissance de la restauration d'art moderne | fait | routine-production | 2026-09-19 |
+| Conformité | L'accident de Seveso (1976) et la naissance de la directive européenne de 1982 | fait | routine-production | 2026-09-21 |
+| Conformité | BNP Paribas et l'amende record du 30 juin 2014 pour violation de sanctions américaines | fait | routine-production | 2026-09-21 |
+| Conformité | *SEC v. Texas Gulf Sulphur Co.* (1968), la règle « divulguer ou s'abstenir » | fait | routine-production | 2026-09-21 |
+| Conformité | Le scandale Toshiba-Kongsberg (1987), machines-outils interdites vendues à l'URSS | fait | routine-production | 2026-09-21 |
+| Conformité | La dissolution de Standard Oil (1911) et la « rule of reason » | abandonné | routine-production | 2026-09-21 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
+
+*(Standard Oil abandonné : les sources secondaires se contredisent sur le nombre de sociétés
+issues de la dissolution — 33, 34, 37, 39 ou 43 selon la source — et le décret d'application
+n'a pas pu être vérifié directement (justice.gov, cornell.edu et les grandes revues bloqués par
+le proxy sortant de cette session). Exactement le piège déjà signalé dans `CLAUDE.md` : « les
+chiffres d'une affaire viennent de la décision, pas de sa synthèse ». À reprendre si quelqu'un
+peut rouvrir directement le texte du décret.)*
