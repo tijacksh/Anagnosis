@@ -72,12 +72,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-22T22:14:14.231Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-22T22:14:14.231Z",
+        "note": "Sources rouvertes (texte XML brut legislation.gov.uk, Wikipedia EN, Avalon Project Yale) : titre complet, date (27 mai 1679), délai de trois jours (avec exceptions géographiques 10/20 jours), amendes 100/200 livres + incapacité de charge au second manquement confirmés mot pour mot dans le texte de loi brut. Interdiction d'envoi hors du royaume (Écosse, Irlande, Jersey, Guernesey, au-delà des mers) et peines associées (prison à vie, interdiction de charge publique, perte de la grâce royale, 500 livres de dommages) vérifiées dans le texte brut de la loi. Citation de la clause de suspension US 1789 vérifiée mot pour mot sur Avalon. Repère et carte exacts. Fiche en registre historique, aucune affirmation sur l'état actuel du droit anglais. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-22",

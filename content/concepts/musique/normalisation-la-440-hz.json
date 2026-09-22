@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-22T22:13:38.677Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-22T22:13:38.677Z",
+        "note": "Sources rouvertes (A440 pitch standard, Concert pitch, texte brut) : conférence de mai 1939 à Broadcasting House confirmée mot pour mot (France, Allemagne, Pays-Bas, Italie, Angleterre + Suisse/USA par courrier), argument de Swinburne (439 premier vs 440 divisible/synthétisable) confirmé, la britannique 439 Hz de 1899 confirmé, R 16 (1955) et ISO 16 (1975) confirmés. Concert pitch confirme la dérive historique (390 Hz en 1795 à 451 Hz à la Scala) et les orchestres au-dessus de 440 Hz aujourd'hui (NYT 1987, Berlin Phil 443-445 Hz). Carte et quiz exacts, distracteurs faux. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-21",

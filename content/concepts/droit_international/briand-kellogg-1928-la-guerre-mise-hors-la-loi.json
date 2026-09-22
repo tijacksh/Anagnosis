@@ -73,12 +73,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-22T22:14:10.518Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-22T22:14:10.518Z",
+        "note": "Sources rouvertes (Wikisource Pacte de Paris, Avalon Project Yale, Wikipedia EN texte brut) : citation article premier vérifiée mot pour mot sur Wikisource. Texte des trois articles et entrée en vigueur 24/07/1929 confirmés sur Avalon. Quinze délégations signataires initiales comptées dans l'infobox Wikipedia (Australie, Belgique, Canada, Tchécoslovaquie, France, Allemagne, RU, Inde, Irlande, Italie, Japon, Nouvelle-Zélande, Pologne, Afrique du Sud, USA) — confirme le chiffre du texte. Total de 63 États parties recalculé depuis le texte brut Wikipedia (57 en 1929 + 6 entre 1930 et 1934). Nuremberg (fondement du crime contre la paix) et les trois invasions non déclarées (Mandchourie 1931, Éthiopie 1935, Pologne 1939) confirmées. Proposition bilatérale de Briand en avril 1927 et élargissement multilatéral par Kellogg fin décembre 1927 confirmés sur fr.wikipedia.org. Lieu de signature (Salle de l'Horloge, Quai d'Orsay) confirmé par recherche web indépendante. Carte et quiz cohérents. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-22",
