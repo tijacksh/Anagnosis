@@ -1,0 +1,33 @@
+# Relance le déploiement Netlify après un push des routines.
+#
+# Netlify ne déploie de lui-même que les pushes d'Arnaud (tijacksh). Ceux des
+# routines, qui tournent sur le compte de Vincent (Orkidea), ne déclenchaient
+# rien : du 30 août au 22 septembre, le site et le flux signé sont restés figés
+# (docs/decisions.md, 2026-09-22). Ce workflow appelle le build hook Netlify,
+# qui reconstruit `main` quel que soit l'auteur du push.
+#
+# Le secret NETLIFY_BUILD_HOOK contient l'URL du hook (Netlify → Project
+# configuration → Build & deploy → Build hooks). Les pushes de tijacksh sont
+# exclus : Netlify les déploie déjà, et les relancer doublerait chaque build.
+name: Déployer sur Netlify
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deployer:
+    if: github.actor != 'tijacksh'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Appeler le build hook
+        env:
+          HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::Secret NETLIFY_BUILD_HOOK absent : rien n'a été déployé."
+            exit 1
+          fi
+          curl --fail --silent --show-error -X POST -d '{}' \
+            "$HOOK?trigger_title=Push+de+${{ github.actor }}+(${GITHUB_SHA::7})"
