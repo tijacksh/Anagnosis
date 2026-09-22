@@ -1255,3 +1255,30 @@ d'abord ce qui, sur l'écran en cause, modifie l'apparence en fonction d'un éta
 `disabled`, `isEnabled`, tout modificateur conditionnel posé près du composant. C'est
 la source la plus fréquente d'un écart qui ressemble à un problème de rendu et n'en
 est pas un.
+
+---
+
+## 2026-09-22 — Ce que les routines valident part en ligne sans relecture humaine
+
+**Décidé :** un push des routines publie, comme un push d'Arnaud. Dans Netlify, l'auteur
+« Claude <noreply@anthropic.com> » est associé au compte d'Arnaud.
+
+**Ce qui l'a imposé.** Depuis le 18 septembre, les six routines tournent sur le compte de
+Vincent (Orkidea) et poussent directement sur `main`, sous l'auteur « Claude ». Or Netlify
+applique aux dépôts privés une règle d'approbation : un push dont l'auteur n'est pas
+reconnu comme membre de l'équipe reste en attente, sans échec visible ni statut sur le
+commit. Pendant plus de trois semaines, rien n'a donc été publié : le flux signé datait
+du 30 août, et 32 fiches validées n'arrivaient pas aux apps. Le build, lui, passait.
+
+**Écarté : garder ce blocage comme relecture humaine.** La chaîne contrôle, réparation,
+relecture des routines tient lieu de vérification.
+
+**Ce que ça engage :**
+- Une erreur qu'une routine laisse passer arrive chez les lecteurs au déploiement suivant.
+  Pour la retirer, repasser la fiche en `en_retouche` : elle entre dans `retirees` et les
+  apps l'effacent.
+- Un commit poussé depuis un Mac doit porter une adresse que GitHub rattache au compte
+  `tijacksh` (`1623425+tijacksh@users.noreply.github.com`). Une autre adresse rend
+  l'auteur « non reconnu », et le déploiement se bloque en silence de la même façon.
+- Pour vérifier que la publication suit : `genere_le` dans
+  `https://anagnosis.fr/contenu/concepts.json` doit dater du dernier push.
