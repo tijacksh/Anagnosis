@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-22T10:15:50.158Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-22T10:15:50.158Z",
+        "note": "Sources rouvertes indépendamment (LP record, RCA Victor, 45 rpm adapter). Point vérifié spécifiquement : la durée de 23 minutes par face donnée par la fiche correspond bien à la capacité initiale du LP au lancement de 1948 ('when initially introduced, 12-inch LPs played for a maximum of about 23 minutes per side') — la page mentionne aussi 25 minutes mais pour une capacité ultérieure, non celle de 1948. Waldorf Astoria 21 juin 1948, Peter Goldmark confirmés. Lancement RCA 45 tours en 1949 et annonce RCA de produire des 33 tours en janvier 1950 confirmés. Parts de marché 1952 en valeur (26% LP contre 25% pour le 45 tours) confirmées, malgré des parts unitaires différentes non reprises par la fiche. Grand trou central et adaptateur spider confirmés. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-21",
