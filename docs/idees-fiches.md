@@ -70,6 +70,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Droit constitutionnel | La Petition of Right (1628) et l'obligation de motiver une arrestation | fait | routine-production | 2026-09-21 |
 | Droit constitutionnel | L'*Ewigkeitsklausel* (article 79-3 de la loi fondamentale allemande, 1949) | fait | routine-production | 2026-09-21 |
 | Droit constitutionnel | L'article 16 de la Constitution de 1958, unique usage en 1961 (putsch d'Alger) | fait | routine-production | 2026-09-21 |
+| Institutions judiciaires | *Ashford v Thornton* (1817-1819), le duel judiciaire resté légal jusqu'à l'Appeal of Murder etc. Act | fait | routine-production | 2026-09-22 |
+| Institutions judiciaires | Le Habeas Corpus Act 1679 et la faille des prisonniers envoyés « au-delà des mers » | fait | routine-production | 2026-09-22 |
+| Institutions judiciaires | Le premier tribunal pour mineurs au monde, Cook County (Illinois, 1899) | fait | routine-production | 2026-09-22 |
+| Institutions judiciaires | Le Tribunal des conflits (loi du 24 mai 1872) et sa présidence par le garde des Sceaux jusqu'en 2015 | fait | routine-production | 2026-09-22 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
