@@ -152,6 +152,10 @@ details.famille summary::after {
   transition: transform .28s ease;
 }
 details.famille[open] summary::after { transform: rotate(45deg); }
+/* `.fermeture` : posée par le script pendant que la famille se replie. [open]
+   ne tombe qu'à la fin du repli ; sans elle, la croix et le nuancier
+   attendraient la fin du mouvement pour revenir, puis reviendraient après coup. */
+details.famille.fermeture summary::after { transform: none; }
 details.famille summary:hover .famille-nom { color: var(--marque); }
 /* `margin-right: auto`, pas `justify-content: space-between` : à trois éléments
    flex (nom, nuancier, marqueur), space-between aurait ouvert un espace égal de
@@ -168,6 +172,7 @@ details.famille summary:hover .famille-nom { color: var(--marque); }
 }
 .famille-nuancier .nuance { width: 7px; height: 7px; flex: none; }
 details.famille[open] .famille-nuancier { opacity: 0; }
+details.famille.fermeture .famille-nuancier { opacity: 1; }
 /* En dessous de 480px, le nom le plus long (Sciences humaines) passe sur deux
    lignes en même temps que son nuancier le plus fourni (douze teintes) — les deux
    se disputent la même ligne et un point isolé finit seul, décroché. Le nuancier
@@ -328,28 +333,49 @@ footer {
 // fermeture rapprochées) lit la hauteur réellement affichée à cet instant et
 // redirige une nouvelle animation depuis là, plutôt que de laisser les deux se
 // disputer l'élément.
+//
+// La marge basse de .disciplines s'anime avec la hauteur, jamais la hauteur
+// seule : en `border-box`, `height: 0` ne descend pas sous le padding. Animée
+// seule, la hauteur calait donc à 24 px pendant toute la fin de la fermeture
+// avant de claquer, et l'ouverture partait de 24 px d'un bond. C'était ça, la
+// saccade vue sur Safari — mesurée image par image dans WebKit le 2026-09-22 —,
+// et non le mécanisme d'animation, changé trois fois sans effet.
 document.querySelectorAll('details.famille').forEach((det) => {
   const corps = det.querySelector('.disciplines');
   let animationEnCours = null;
 
   det.querySelector('summary').addEventListener('click', (evenement) => {
     evenement.preventDefault();
-    const fermer = det.open;
-    const actuelle = corps.getBoundingClientRect().height;
+    // [open] reste posé pendant tout le repli : une famille qui se replie doit
+    // se lire comme fermée, sinon un clic en cours de repli le relance au lieu
+    // de la rouvrir.
+    const fermer = det.open && !det.classList.contains('fermeture');
+    // Lu avant d'annuler l'animation en vol : c'est ce qui est affiché à cet
+    // instant. Fermée, la famille part de rien — WebKit laisse à un contenu de
+    // <details> fermé une boîte mesurable, qu'il ne faut pas prendre pour un
+    // départ.
+    const depart = det.open
+      ? { height: corps.getBoundingClientRect().height + 'px', paddingBottom: getComputedStyle(corps).paddingBottom }
+      : { height: '0px', paddingBottom: '0px' };
     if (animationEnCours) animationEnCours.cancel();
 
-    // Rendre <details> ouvert avant de mesurer scrollHeight : tant que [open]
-    // n'est pas posé, .disciplines reste display:none (masquage natif) et
-    // scrollHeight y vaudrait toujours 0.
+    // Rendre <details> ouvert avant de mesurer : tant que [open] n'est pas
+    // posé, .disciplines n'a pas sa mise en page ouverte.
     if (!fermer) det.open = true;
-    const cible = fermer ? 0 : corps.scrollHeight;
-    animationEnCours = corps.animate(
-      [{ height: actuelle + 'px' }, { height: cible + 'px' }],
-      { duration: 280, easing: 'ease', fill: 'forwards' }
-    );
-    animationEnCours.finished.then(() => {
+    det.classList.toggle('fermeture', fermer);
+    const cible = fermer
+      ? { height: '0px', paddingBottom: '0px' }
+      : { height: corps.scrollHeight + 'px', paddingBottom: getComputedStyle(corps).paddingBottom };
+    const celleCi = corps.animate([depart, cible], { duration: 280, easing: 'ease', fill: 'forwards' });
+    animationEnCours = celleCi;
+    celleCi.finished.then(() => {
       if (fermer) det.open = false;
-      corps.style.height = '';
+      det.classList.remove('fermeture');
+      // Rendre la main à la feuille de style plutôt que de garder une hauteur
+      // figée en pixels : ouverte, la famille suit de nouveau `height: auto`
+      // si la fenêtre change de largeur et que ses disciplines passent à la
+      // ligne.
+      celleCi.cancel();
       animationEnCours = null;
     }).catch(() => {});
   });
