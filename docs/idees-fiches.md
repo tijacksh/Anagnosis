@@ -74,6 +74,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Institutions judiciaires | Le Habeas Corpus Act 1679 et la faille des prisonniers envoyés « au-delà des mers » | fait | routine-production | 2026-09-22 |
 | Institutions judiciaires | Le premier tribunal pour mineurs au monde, Cook County (Illinois, 1899) | fait | routine-production | 2026-09-22 |
 | Institutions judiciaires | Le Tribunal des conflits (loi du 24 mai 1872) et sa présidence par le garde des Sceaux jusqu'en 2015 | fait | routine-production | 2026-09-22 |
+| Droit international | La charte de Nuremberg (1945) et la responsabilité pénale individuelle en droit international | fait | routine-production | 2026-09-22 |
+| Droit international | Le pacte Briand-Kellogg (1928), la guerre mise hors-la-loi sans moyen de l'empêcher | fait | routine-production | 2026-09-22 |
+| Droit international | La convention de Montevideo (1933) et les quatre critères de l'État | fait | routine-production | 2026-09-22 |
+| Droit international | L'affaire du *S.S. Wimbledon* (1923), premier arrêt de la Cour permanente de justice internationale | fait | routine-production | 2026-09-22 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
