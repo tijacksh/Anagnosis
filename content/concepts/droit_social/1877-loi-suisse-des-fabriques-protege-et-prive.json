@@ -68,19 +68,34 @@
   "quiz_supplementaire": [
     {
       "question": "En dehors du samedi, quelle est la durée de la journée de travail normale que fixe la loi de 1877 ?",
-      "choix": ["Huit heures", "Onze heures", "Dix heures", "Douze heures"],
+      "choix": [
+        "Huit heures",
+        "Onze heures",
+        "Dix heures",
+        "Douze heures"
+      ],
       "bonne_reponse": 1,
       "explication": "La loi fixe la journée normale à onze heures, et seulement dix heures le samedi ; huit et douze heures ne figurent nulle part dans le texte."
     },
     {
       "question": "Avant l'adoption de la loi fédérale de 1877, combien de cantons suisses réglementaient déjà la protection des ouvriers ?",
-      "choix": ["Neuf cantons", "Aucun canton", "Vingt-deux cantons", "La totalité des cantons"],
+      "choix": [
+        "Neuf cantons",
+        "Aucun canton",
+        "Vingt-deux cantons",
+        "La totalité des cantons"
+      ],
       "bonne_reponse": 0,
       "explication": "Neuf cantons seulement avaient légiféré sur la protection ouvrière avant 1877, trois d'entre eux seulement pour les ouvrières."
     },
     {
       "question": "Quelle nouveauté institutionnelle la loi de 1877 crée-t-elle pour vérifier son application dans les fabriques ?",
-      "choix": ["Un tribunal fédéral du travail", "Une amende versée directement aux ouvriers lésés", "Un corps d'inspecteurs fédéraux", "Un syndicat national obligatoire"],
+      "choix": [
+        "Un tribunal fédéral du travail",
+        "Une amende versée directement aux ouvriers lésés",
+        "Un corps d'inspecteurs fédéraux",
+        "Un syndicat national obligatoire"
+      ],
       "bonne_reponse": 2,
       "explication": "La loi institue un corps d'inspecteurs fédéraux chargés de vérifier chaque fabrique, une nouveauté quand l'atelier restait un domaine privé."
     }
@@ -109,7 +124,14 @@
       "Page parlament.ch récupérée en contournant le blocage anti-bot : confirme mot pour mot la pétition de Fontainemelon (1875), les votes (90-15 puis 181'204-170'857), l'entrée en vigueur au 1er janvier 1878 et le contenu de la loi. HLS et Swissvotes confirment les chiffres croisés."
     ]
   },
-  "controle_juridique": null,
+  "controle_juridique": {
+    "fait_le": "2026-09-23",
+    "verdict": "ok",
+    "notes": [
+      "Juridiction dite : Suisse nommée explicitement (loi fédérale suisse, Confédération, cantons, Neuchâtel). Fiche purement historique (1875-1878), aucun état actuel de norme évoqué.",
+      "Mutabilité : fait historique clos, insensible au temps."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-28",
     "genere_par": "claude-code",
