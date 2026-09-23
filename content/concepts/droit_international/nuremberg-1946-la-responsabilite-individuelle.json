@@ -86,12 +86,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-23T10:13:59.429Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-23T10:13:59.429Z",
+        "note": "Sources rouvertes indépendamment : citation exacte confirmée sur avalon.law.yale.edu/imt/judlawch.asp ; article 6 (trois catégories de crimes, 8 août 1945, quatre puissances signataires) confirmé sur avalon.law.yale.edu/imt/imtconst.asp ; résolution 95(I) du 11/12/1946 (unanimité, 55 États membres) confirmée sur legal.un.org/avl ; ouverture du procès 20/11/1945 et verdict 01/10/1946 confirmés sur en.wikipedia.org/wiki/Nuremberg_trials ; 12 condamnations à mort et 3 acquittements (Schacht, von Papen, Fritzsche) recoupés par recherche indépendante (Britannica, USHMM). Carte et quiz cohérents avec les sources. Fiche écrite comme histoire, aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-22",

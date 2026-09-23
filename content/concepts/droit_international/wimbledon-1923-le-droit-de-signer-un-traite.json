@@ -64,12 +64,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-23T10:14:12.087Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-23T10:14:12.087Z",
+        "note": "Sources rouvertes indépendamment : legal.un.org/PCIJsummaries (arrêt du 17/08/1923) et en.wikipedia.org/wiki/S.S._Wimbledon_case confirment la cargaison (4200 t de munitions, Salonique-Dantzig), le refus du 21/03/1921, les quatre États demandeurs, les trois juges dissidents (Anzilotti, Huber, Schücking) et le raisonnement sur la souveraineté. Le statut de « tout premier arrêt » de la CPJI, mis en doute par une première lecture du résumé officiel, a été revérifié sur en.wikipedia.org/wiki/Permanent_Court_of_International_Justice qui confirme explicitement que le S.S. Wimbledon est le premier arrêt contentieux rendu par la Cour. Carte et quiz cohérents. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-22",

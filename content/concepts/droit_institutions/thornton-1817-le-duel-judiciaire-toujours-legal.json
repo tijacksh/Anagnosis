@@ -73,12 +73,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-23T10:14:08.352Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-23T10:14:08.352Z",
+        "note": "Sources rouvertes indépendamment : en.wikipedia.org/wiki/Ashford_v_Thornton confirme la citation exacte de Thornton (ponctuation « Not guilty; and I am ready... »), les quatre juges, le jugement du 16/04/1818, la référence 106 ER 149 et le texte de l'Appeal of Murder etc. Act 1819 ; legislation.gov.uk/ukpga/Geo3/59/46 (récupéré par curl, le rendu via l'outil de fetch échouant sur ce site) confirme mot pour mot le titre de la loi ; en.wikipedia.org/wiki/Trial_by_combat confirme le dernier duel anglais (1446), le duel français Carrouges-Le Gris (1386) et l'abolition par Maximilien Ier au début du XVIe siècle. L'attribution au juge Bayley (« qui invoque ce droit doit être prêt à y jouer sa vie ») a été recoupée par une recherche indépendante hors des trois sources citées, qui restitue sa formule exacte (« must be willing, if required, to stake his life in support of his accusation ») — confirmée, non modifiée. Carte et quiz cohérents. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-22",

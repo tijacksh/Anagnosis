@@ -92,12 +92,21 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-23T10:14:14.799Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-23T10:14:14.799Z",
+        "note": "Sources rouvertes indépendamment : law.cornell.edu/supremecourt/text/101/99 confirme la citation exacte du juge Bradley ; en.wikipedia.org/wiki/Baker_v._Selden confirme la décision unanime du 19/01/1880, la publication du livre de Selden en 1859, son échec commercial, le succès de Baker (quarante comtés en cinq ans), la poursuite de la veuve en 1872 et la mort de Selden en 1871. Corps, citation, carte, quiz et quiz_supplementaire conformes aux sources. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-23",
