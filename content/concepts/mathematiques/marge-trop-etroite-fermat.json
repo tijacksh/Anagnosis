@@ -1,0 +1,84 @@
+{
+  "id": "mat-marge-trop-etroite-fermat",
+  "slug": "marge-trop-etroite-fermat",
+  "titre": "La marge trop étroite pour une preuve",
+  "accroche": "En 1637, Fermat note dans un livre qu'il tient une preuve merveilleuse. Il faudra 358 ans pour la retrouver.",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1637, Pierre de Fermat, conseiller au parlement de Toulouse et mathématicien amateur passionné, lit son exemplaire personnel des *Arithmétiques* de Diophante, dans la traduction latine de Claude-Gaspard Bachet. Face au problème 8 du livre II — comment décomposer un carré en deux carrés — il griffonne une remarque en marge : il est impossible, écrit-il, de faire la même chose avec des cubes, des puissances quatrièmes, ou toute puissance supérieure à deux. Et il ajoute la phrase qui va hanter les mathématiciens pendant plus de trois siècles : il tient une démonstration merveilleuse de ce fait, mais la marge est trop étroite pour la contenir.\n\nFermat meurt en 1665 sans avoir jamais publié cette preuve, ni même la reprendre dans ses lettres aux savants qu'il fréquente. C'est son fils, Samuel de Fermat, qui republie en 1670 l'exemplaire annoté de son père, notes marginales comprises. L'énoncé prend alors le nom de « dernier théorème de Fermat » — dernier parce que c'est la dernière de ses affirmations que personne n'était encore parvenu à démontrer.\n\n## Un problème qui résiste\n\nL'énoncé se formule simplement : pour tout entier n supérieur à 2, il n'existe pas d'entiers positifs x, y, z tels que xⁿ + yⁿ = zⁿ. Pour n = 2, les solutions existent par milliers — ce sont les triplets pythagoriciens, 3² + 4² = 5² en tête. Il suffit d'ajouter un dans l'exposant pour qu'elles disparaissent toutes, sans exception, et personne pendant 358 ans ne parvient à expliquer pourquoi.\n\nLes mathématiciens avancent cas par cas. Euler démontre n = 3 en 1770 (avec une lacune comblée plus tard), Legendre et Dirichlet n = 5 en 1825, en s'appuyant sur les travaux de Sophie Germain, Gabriel Lamé n = 7 en 1839. Ernst Kummer invente en 1847 toute une théorie des « nombres idéaux » pour traiter d'un coup une large famille d'exposants premiers, sans couvrir le cas général.\n\nLa percée vient d'ailleurs. En 1984, Gerhard Frey remarque qu'une éventuelle solution au théorème de Fermat permettrait de construire une courbe elliptique aux propriétés si étranges qu'elle ne devrait, selon toute logique, pas exister — à condition qu'une autre conjecture, dite de modularité, soit vraie. Ken Ribet démontre ce lien en 1986. Il ne reste plus qu'à prouver la conjecture de modularité, au moins pour les courbes concernées : c'est le chantier auquel Andrew Wiles se consacre en secret pendant sept ans.\n\nIl annonce sa preuve le 23 juin 1993 à Cambridge, dans un silence stupéfait. Un relecteur y repère une faille trois mois plus tard. Wiles met plus d'un an à la combler, avec l'aide de son ancien élève Richard Taylor, avant de publier la version définitive en mai 1995 dans les *Annals of Mathematics* — cent vingt-neuf pages en deux articles.\n\n## Ce que la marge ne pouvait pas contenir\n\nRien, dans les outils mathématiques du XVIIe siècle, ne permettait d'établir un lien entre une équation en puissances entières et une courbe elliptique. Les formes modulaires, les représentations galoisiennes, la conjecture de modularité elle-même : tout cela appartient au XXe siècle. Si Fermat tenait une preuve, elle empruntait un tout autre chemin, aujourd'hui perdu — ou elle comportait une erreur qu'il n'a jamais repérée, lui qui a pourtant démontré et publié le cas n = 4, plus simple, sans jamais revenir sur l'énoncé général dans les trente ans de correspondance qui suivent.\n\nLa marge trop étroite n'est peut-être pas qu'une boutade sur la mise en page d'un livre. C'est un cas d'école : un mathématicien qui croit tenir une preuve, la formule en une phrase, et ne la couche jamais sur le papier ne peut plus être départagé, des siècles après, entre la vérité et l'erreur. Ce qui a fini par trancher n'est pas une lecture plus attentive de la marge, mais l'invention, longtemps après lui, d'un outillage qu'aucune marge n'aurait de toute façon pu contenir.",
+  "citation": {
+    "texte": "Il est impossible de partager un cube en deux cubes, une puissance quatrième en deux puissances quatrièmes, et en général une puissance quelconque supérieure au carré en deux puissances de même exposant : j'en ai découvert une démonstration véritablement merveilleuse, que cette marge est trop étroite pour contenir.",
+    "auteur": "Pierre de Fermat",
+    "source": "Note marginale sur son exemplaire des Arithmétiques de Diophante (éd. Bachet, 1621), traduite du latin — publiée par son fils dans Diophanti Alexandrini Arithmeticorum libri sex, Toulouse, 1670",
+    "url": "https://archive.org/details/bub_gb_WyzWlCX-pqUC"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Fermat a promis une preuve dans une marge trop étroite. Il a fallu 358 ans pour l'y retrouver.",
+    "idee": "En 1637, Pierre de Fermat note dans la marge d'un livre qu'il détient une preuve merveilleuse d'un théorème, mais que la place manque pour l'écrire. En 1994, Andrew Wiles finit par le démontrer — avec des outils, courbes elliptiques et formes modulaires, qui n'existaient pas encore au XVIIe siècle.",
+    "source_courte": "Wiles, Annals of Mathematics, 1995"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Diophante ; observations de Pierre de Fermat",
+      "titre": "Diophanti Alexandrini Arithmeticorum libri sex, et De numeris multangulis liber unus... et observationibus D. P. de Fermat",
+      "publication": "Toulouse, Bernard Bosc",
+      "annee": 1670,
+      "url": "https://archive.org/details/bub_gb_WyzWlCX-pqUC",
+      "note": "Édition posthume établie par Samuel de Fermat, qui reproduit la note en marge du livre II, problème 8 des Arithmétiques de Diophante."
+    },
+    {
+      "type": "article",
+      "auteur": "Wiles, Andrew",
+      "titre": "Modular Elliptic Curves and Fermat's Last Theorem",
+      "publication": "Annals of Mathematics, 141(3)",
+      "annee": 1995,
+      "url": "https://doi.org/10.2307/2118559",
+      "note": "p. 443-551 ; complété par l'article de Richard Taylor et Andrew Wiles, « Ring-Theoretic Properties of Certain Hecke Algebras », même volume, p. 553-572, qui comble la faille trouvée en 1993."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wiles's proof of Fermat's Last Theorem",
+      "url": "https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem",
+      "note": "Le récit détaillé de l'annonce de 1993, de la faille repérée par Nick Katz, et de la correction de 1994."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « partition ». Un grand rectangle plein figurant une page est coupé, tout près d'un bord, par un trait vertical qui isole une bande étroite ; cette bande, trop resserrée pour contenir la forme géométrique qu'elle porte, laisse cette forme déborder franchement hors du cadre. Aplats pleins uniquement, aucun dégradé. Deux encres : #00838A (mathematiques) et noir.",
+    "alt": "Une page coupée près d'un bord par une bande étroite, dont le contenu déborde du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi les historiens doutent-ils que Fermat ait vraiment tenu, en 1637, une démonstration générale correcte ?",
+    "choix": [
+      "La preuve de 1994 s'appuie sur des courbes elliptiques et des formes modulaires, inconnues de son vivant",
+      "Il n'a jamais démontré aucun cas particulier du théorème avant sa mort",
+      "L'édition de 1670 qui reproduit sa note contient une erreur de traduction du grec",
+      "Il a lui-même rétracté son affirmation dans une lettre à Blaise Pascal"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Fermat a bien démontré le cas n = 4, et n'a jamais rétracté sa note ni signalé d'erreur de traduction : la preuve de 1994 mobilise des courbes elliptiques et des formes modulaires, des théories du XXe siècle, ce qui rend peu probable qu'il ait tenu au XVIIe siècle une démonstration générale correcte.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-09-23",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

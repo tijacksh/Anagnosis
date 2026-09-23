@@ -82,6 +82,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Droit international | Le pacte Briand-Kellogg (1928), la guerre mise hors-la-loi sans moyen de l'empêcher | fait | routine-production | 2026-09-22 |
 | Droit international | La convention de Montevideo (1933) et les quatre critères de l'État | fait | routine-production | 2026-09-22 |
 | Droit international | L'affaire du *S.S. Wimbledon* (1923), premier arrêt de la Cour permanente de justice internationale | fait | routine-production | 2026-09-22 |
+| Mathématiques | La note marginale de Fermat (1637) et la preuve de Wiles (1994-1995) | fait | routine-production | 2026-09-23 |
+| Mathématiques | Le nombre de taxi 1729, Hardy et Ramanujan (1918) | fait | routine-production | 2026-09-23 |
+| Mathématiques | Robert Recorde et l'invention du signe = (1557) | fait | routine-production | 2026-09-23 |
+| Mathématiques | Emmy Noether, l'habilitation refusée (1915) et le théorème symétrie-conservation (1918) | fait | routine-production | 2026-09-23 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*

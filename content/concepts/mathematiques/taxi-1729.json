@@ -1,0 +1,78 @@
+{
+  "id": "mat-taxi-1729",
+  "slug": "taxi-1729",
+  "titre": "Le numéro de taxi que Hardy trouvait ennuyeux",
+  "accroche": "En 1918, à l'hôpital, Ramanujan reconnaît en une seconde ce qu'un numéro de taxi ordinaire cachait.",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1918, la santé de Srinivasa Ramanujan se dégrade. Le mathématicien indien, arrivé à Cambridge deux ans plus tôt sur l'invitation de G. H. Hardy, alterne les séjours en sanatorium. Hardy lui rend visite à Putney, dans le sud de Londres, et cherche la conversation : il raconte être venu en taxi portant le numéro 1729, un nombre qui lui semble, dit-il, plutôt terne, et il espère que ce n'est pas de mauvais augure.\n\nRamanujan répond du tac au tac que non : 1729 est au contraire un nombre très intéressant, le plus petit qui s'écrive comme la somme de deux cubes, de deux façons différentes. Hardy racontera la scène vingt-deux ans plus tard dans un livre de souvenirs, et le nombre restera attaché aux deux noms : nombre de Hardy-Ramanujan, ou premier nombre taxicab.\n\n## Ce que voit Ramanujan en une seconde\n\nLa réponse elle-même se vérifie en deux lignes : 1³ + 12³ égale 1 + 1728, soit 1729 ; et 9³ + 10³ égale 729 + 1000, soit 1729 également. Deux couples d'entiers différents, la même somme de cubes.\n\nCe qui frappe n'est pas le calcul — n'importe qui peut le refaire avec un papier et un crayon — mais la vitesse. Trouver que 1729 a cette propriété demande, en partant de rien, de passer en revue les sommes de deux cubes jusqu'à tomber sur une coïncidence ; Ramanujan la reconnaît sur le seul énoncé du nombre. Ses carnets, remplis dès l'adolescence de milliers de formules et d'identités notées sans démonstration, donnent la mesure de cette familiarité : nombre d'entre elles, jugées invérifiables ou fausses à sa mort en 1920, se sont révélées exactes des décennies plus tard, une fois les outils pour les prouver enfin disponibles.\n\nLe nombre suivant de la même famille — celui qui s'écrit de trois façons différentes comme somme de deux cubes — n'a été trouvé qu'en 1957, par le mathématicien John Leech, à l'aide d'un ordinateur : 87 539 319.\n\n## Un malentendu à écarter\n\nL'anecdote entretient parfois une confusion. L'égalité 1³ + 12³ = 9³ + 10³ met en jeu des cubes des deux côtés ; on pourrait croire qu'elle heurte le théorème de Fermat, qui interdit à une somme de deux cubes d'être elle-même un cube — le cas n = 3, démontré par Euler dès 1770. Il n'en est rien : 1729 n'est écrit nulle part comme un cube parfait, seulement comme deux sommes de cubes égales entre elles — une équation d'une tout autre nature, que rien n'interdit.\n\nCe que l'épisode donne à voir n'est donc pas un tour de mémoire, mais une manière de tenir les nombres pour des objets singuliers plutôt que pour une masse indifférenciée. Hardy racontera que Ramanujan connaissait chaque entier comme un ami personnel. Un numéro de taxi choisi au hasard n'était, pour lui, jamais tout à fait quelconque.",
+  "citation": {
+    "texte": "I remember once going to see him when he was lying ill at Putney. I had ridden in taxi-cab No. 1729, and remarked that the number seemed to me rather a dull one, and that I hoped it was not an unfavourable omen. \"No,\" he replied, \"it is a very interesting number; it is the smallest number expressible as the sum of two cubes in two different ways.\"",
+    "auteur": "G. H. Hardy",
+    "source": "Ramanujan: Twelve Lectures on Subjects Suggested by his Life and Work, Cambridge University Press, 1940, p. 12",
+    "url": "https://archive.org/details/ramanujan-hardy"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Hardy trouvait ce taxi ennuyeux. Ramanujan y a vu la plus petite somme de deux cubes, deux fois.",
+    "idee": "En 1918, Hardy raconte à Ramanujan, malade, être venu en taxi n° 1729, un nombre qu'il juge plutôt terne. Ramanujan répond aussitôt que c'est au contraire très intéressant : 1729 est le plus petit nombre qui s'écrit comme somme de deux cubes de deux manières différentes.",
+    "source_courte": "Hardy, Ramanujan, 1940"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Hardy, G. H.",
+      "titre": "Ramanujan: Twelve Lectures on Subjects Suggested by his Life and Work",
+      "publication": "Cambridge University Press",
+      "annee": 1940,
+      "url": "https://archive.org/details/ramanujan-hardy",
+      "note": "p. 12, l'anecdote du taxi n° 1729 racontée par Hardy lui-même."
+    },
+    {
+      "type": "web",
+      "auteur": "OEIS Foundation",
+      "titre": "A001235 — Taxi-cab numbers: sums of 2 cubes in more than one way",
+      "publication": "The On-Line Encyclopedia of Integer Sequences",
+      "annee": 2024,
+      "url": "https://oeis.org/A001235",
+      "note": "1729 en tête de la suite ; le troisième nombre taxicab, 87 539 319, y est attribué à John Leech, 1957."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « recouvrement ». Un grand carré plein porte deux découpages superposés en fins traits de contour : le premier le partage en deux rectangles très inégaux, le second en deux rectangles de proportions différentes ; les deux découpages coexistent sur la même forme sans jamais s'aligner, et l'un des quatre rectangles ainsi dessinés déborde légèrement du cadre. Aplats pleins uniquement, aucun dégradé. Deux encres : #00838A (mathematiques) et noir.",
+    "alt": "Un même carré partagé de deux façons différentes par deux découpages superposés",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "L'égalité 1³+12³ = 9³+10³ contredit-elle le théorème de Fermat pour les cubes, qui interdit x³+y³=z³ ?",
+    "choix": [
+      "Oui, puisque deux sommes de cubes sont égales entre elles",
+      "Non, car l'équation en jeu est une égalité entre deux sommes de cubes, pas entre une somme et un cube unique",
+      "Oui, mais seulement parce que 1729 est un nombre composé",
+      "Non, car le théorème de Fermat ne concerne que les exposants supérieurs à trois"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le cas n=3 du théorème de Fermat interdit à une somme de deux cubes d'être elle-même un cube (x³+y³=z³) ; 1729 ne viole rien, puisqu'il s'agit de deux sommes de deux cubes égales entre elles, une configuration entièrement différente que rien n'interdit — et le théorème vaut dès n=3, pas seulement au-delà.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-09-23",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
