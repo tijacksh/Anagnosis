@@ -1260,15 +1260,20 @@ est pas un.
 
 ## 2026-09-22 — Ce que les routines valident part en ligne sans relecture humaine
 
-**Décidé :** un push des routines publie, comme un push d'Arnaud. Dans Netlify, l'auteur
-« Claude <noreply@anthropic.com> » est associé au compte d'Arnaud.
+**Décidé :** un push des routines publie, comme un push d'Arnaud.
 
 **Ce qui l'a imposé.** Depuis le 18 septembre, les six routines tournent sur le compte de
-Vincent (Orkidea) et poussent directement sur `main`, sous l'auteur « Claude ». Or Netlify
-applique aux dépôts privés une règle d'approbation : un push dont l'auteur n'est pas
-reconnu comme membre de l'équipe reste en attente, sans échec visible ni statut sur le
-commit. Pendant plus de trois semaines, rien n'a donc été publié : le flux signé datait
-du 30 août, et 32 fiches validées n'arrivaient pas aux apps. Le build, lui, passait.
+Vincent (Orkidea) et poussent directement sur `main`, sous l'auteur « Claude ». Netlify ne
+déploie de lui-même que les pushes d'Arnaud : ceux des routines ne déclenchaient rien, sans
+échec visible, sans même une entrée dans la liste des déploiements. Du 30 août au
+22 septembre, le flux signé est donc resté figé, et 32 fiches validées n'arrivaient pas aux
+apps. Le build, lui, passait. La cause exacte côté Netlify n'est pas établie ; on ne l'a pas
+cherchée plus loin, le contournement suffisant.
+
+**Comment.** `.github/workflows/deployer-netlify.yml` appelle un build hook Netlify (secret
+GitHub `NETLIFY_BUILD_HOOK`) après chaque push qui ne vient pas de `tijacksh`. Le hook
+reconstruit `main` sans égard pour l'auteur. Les pushes d'Arnaud en sont exclus : Netlify
+les déploie déjà.
 
 **Écarté : garder ce blocage comme relecture humaine.** La chaîne contrôle, réparation,
 relecture des routines tient lieu de vérification.
@@ -1277,8 +1282,9 @@ relecture des routines tient lieu de vérification.
 - Une erreur qu'une routine laisse passer arrive chez les lecteurs au déploiement suivant.
   Pour la retirer, repasser la fiche en `en_retouche` : elle entre dans `retirees` et les
   apps l'effacent.
+- Chaque push des routines coûte un build Netlify, soit environ sept par jour.
 - Un commit poussé depuis un Mac doit porter une adresse que GitHub rattache au compte
-  `tijacksh` (`1623425+tijacksh@users.noreply.github.com`). Une autre adresse rend
-  l'auteur « non reconnu », et le déploiement se bloque en silence de la même façon.
-- Pour vérifier que la publication suit : `genere_le` dans
-  `https://anagnosis.fr/contenu/concepts.json` doit dater du dernier push.
+  `tijacksh` (`1623425+tijacksh@users.noreply.github.com`), sinon il risque le même sort.
+- Pour vérifier que la publication suit : les fiches `valide` de `main` doivent toutes
+  figurer dans `https://anagnosis.fr/contenu/concepts.json`. Un échec du workflow
+  « Déployer sur Netlify » dans GitHub Actions signale un hook mort ou un secret perdu.
