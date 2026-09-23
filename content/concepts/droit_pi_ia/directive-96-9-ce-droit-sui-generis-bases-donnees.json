@@ -83,12 +83,21 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-23T22:10:37.961Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-23T22:10:37.961Z",
+        "note": "Sources rouvertes indépendamment : eur-lex.europa.eu/eli/dir/1996/9/oj (article 7 sur le droit sui generis confirmé, article 10 sur les 15 ans à compter du 1er janvier suivant l'achèvement confirmé, considérant 40 sur l'investissement financier et/ou temps/efforts/énergie confirmé mot pour mot) ; eur-lex synthèse LEGISSUM:l26028 (structure à deux régimes confirmée) ; en.wikipedia.org/wiki/Feist_Publications (arrêt 1991 confirmé : annuaire alphabétique non protégeable, doctrine sweat of the brow rejetée, recopie libre des faits). Corps, repere, carte, sources et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-23",

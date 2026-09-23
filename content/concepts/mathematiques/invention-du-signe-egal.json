@@ -61,12 +61,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-23T22:10:38.222Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-23T22:10:38.222Z",
+        "note": "Sources rouvertes indépendamment : archive.org/details/TheWhetstoneOfWitte et en.wikipedia.org/wiki/Equals_sign (citation exacte de Recorde confirmée mot pour mot : « bicause noe .2. thynges, can be moare equalle », terme Gemowe lines confirmé, réapparition en 1618 dans un appendice de la traduction de Napier, Descartes symbole distinct dans La Géométrie 1637 puis adoption du = dans une lettre de 1640, domination assurée par Newton et Leibniz). Corps, citation, carte, sources et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-23",
