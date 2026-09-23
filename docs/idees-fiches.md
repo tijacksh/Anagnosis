@@ -58,6 +58,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » | proposé | Orkidea | 2026-08-28 |
 | Musique | La normalisation du « la » à 440 Hz (conférence de Londres, 1939 ; norme ISO 16, 1955) | fait | routine-production | 2026-09-20 |
 | Histoire de l'art | Le vol du musée Isabella Stewart Gardner (1990), jamais élucidé | fait | routine-production | 2026-09-19 |
+| Propriété intellectuelle et IA | Diamond v. Chakrabarty (1980), la bactérie modifiée jugée brevetable par la Cour suprême | fait | routine-production | 2026-09-23 |
+| Propriété intellectuelle et IA | Le décret du 19 juillet 1793, fondateur du droit d'auteur français | fait | routine-production | 2026-09-23 |
+| Propriété intellectuelle et IA | Baker v. Selden (1880), la méthode qu'un livre décrit sans pouvoir se l'approprier | fait | routine-production | 2026-09-23 |
+| Propriété intellectuelle et IA | La directive européenne 96/9/CE (1996) et le droit sui generis des bases de données | fait | routine-production | 2026-09-23 |
 | Histoire de l'art | *Republic of Austria v. Altmann* (2004) et la restitution du Klimt d'Adele Bloch-Bauer | fait | routine-production | 2026-09-19 |
 | Histoire de l'art | Le mythe de Van Eyck inventeur de la peinture à l'huile (Vasari, 1550) | fait | routine-production | 2026-09-19 |
 | Histoire de l'art | L'inondation de Florence (1966) et la naissance de la restauration d'art moderne | fait | routine-production | 2026-09-19 |
