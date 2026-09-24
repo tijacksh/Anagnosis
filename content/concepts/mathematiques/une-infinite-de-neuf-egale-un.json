@@ -1,0 +1,98 @@
+{
+  "id": "mat-une-infinite-de-neuf-egale-un",
+  "slug": "une-infinite-de-neuf-egale-un",
+  "titre": "Pas « presque 1 » : 0,999… est 1",
+  "accroche": "0,999… n'approche pas 1, ne tend pas vers 1 : c'est une autre écriture du même nombre",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Demandez à quelqu'un si 0,999… (un 9 après la virgule, puis un autre, à l'infini) est égal à 1, et la réponse la plus fréquente est non : « il en est très proche, mais il lui manque toujours quelque chose ». L'intuition est solide, elle est même naturelle — et elle est fausse. 0,999… n'est pas proche de 1. C'est 1, écrit autrement.\n\n## Le calcul qui ne laisse pas d'échappatoire\n\nPosons x = 0,999…. Multiplions les deux membres par 10 : 10x = 9,999…. Soustrayons x du membre de gauche et 0,999… du membre de droite — c'est légitime, puisque ce sont les mêmes deux nombres : 10x − x = 9,999… − 0,999…. À gauche, il reste 9x. À droite, toutes les décimales après la virgule s'annulent exactement, puisqu'il y en a le même nombre infini des deux côtés : il reste 9. Donc 9x = 9, donc x = 1.\n\nLe calcul convainc rarement sur le moment, parce qu'il repose sur une manipulation d'une somme infinie sans jamais le dire. La version rigoureuse le fait explicitement : 0,999… est la somme de la série 9/10 + 9/100 + 9/1000 + …, une progression géométrique de raison 1/10. Sa somme, par la formule standard, vaut (9/10) / (1 − 1/10) = 1. Ce n'est pas une approximation de la somme : c'est sa valeur exacte, au sens précis que les mathématiciens donnent à « somme d'une infinité de termes » depuis qu'Augustin-Louis Cauchy a défini, en 1821 dans son *Cours d'analyse*, la somme d'une série comme la limite vers laquelle tend la suite de ses sommes partielles.\n\n## Pourquoi l'écart refuse d'exister\n\nLa résistance à l'idée vient d'une image : deux nombres différents, aussi proches soient-ils, devraient être séparés par un tout petit intervalle. Sauf que si 0,999… et 1 étaient deux nombres réels distincts, leur différence serait un nombre positif — appelons-le d — strictement plus petit que 0,1, que 0,01, que 0,001, et ainsi de suite indéfiniment : plus petit que tout nombre positif qu'on peut écrire. Aucun réel positif n'a cette propriété. La droite des réels ne contient tout simplement pas la place pour un tel écart : c'est ce que les mathématiciens appellent la propriété d'Archimède, vérifiée par construction depuis les définitions rigoureuses des nombres réels données indépendamment par Richard Dedekind et Georg Cantor en 1872.\n\nCe qui rend l'histoire plus intéressante encore, c'est que l'intuition d'un écart infinitésimal n'est pas absurde en soi — elle décrit simplement un autre système de nombres que celui des réels. En 1961, Abraham Robinson construit l'analyse non standard, un cadre où existent des quantités infinitésimales, plus petites que tout réel positif mais non nulles. Dans ce système-là, on peut effectivement écrire un nombre infiniment proche de 1 sans lui être égal. Mais ce nombre n'est plus 0,999… avec une infinité de 9 : il faudrait un 9 final à un rang qui n'est lui-même plus un entier ordinaire. L'intuition n'était donc pas fausse dans l'absolu — elle décrivait un territoire mathématique réel, seulement pas celui où vit la suite de 9 qu'on a sous les yeux.",
+  "citation": null,
+  "repere": {
+    "texte": "Cauchy définit en 1821, au chapitre VI de son Cours d'analyse, la somme d'une série convergente comme la limite vers laquelle tend la suite de ses sommes partielles — la définition qui rend 0,999… égal à 1 par construction, et non par approximation.",
+    "source": "Cauchy, Cours d'analyse de l'École royale polytechnique, 1re partie : Analyse algébrique, 1821",
+    "url": "https://archive.org/details/coursdanalysedel00cauc"
+  },
+  "carte": {
+    "punch": "0,999… n'est pas proche de 1. C'est 1, écrit avec une infinité de 9.",
+    "idee": "Si 0,999… et 1 étaient deux nombres différents, leur écart serait plus petit que 0,1, que 0,01, que tout nombre positif imaginable — donc nul. La rigueur vient de Cauchy en 1821 : la somme d'une série infinie est la limite de ses sommes partielles, pas une approximation de celle-ci.",
+    "source_courte": "Cauchy, Cours d'analyse, 1821"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Cauchy, Augustin-Louis",
+      "titre": "Cours d'analyse de l'École royale polytechnique, 1re partie : Analyse algébrique",
+      "publication": "Imprimerie royale, Paris",
+      "annee": 1821,
+      "url": "https://archive.org/details/coursdanalysedel00cauc",
+      "note": "Chapitre VI : définition d'une série convergente comme suite dont les sommes partielles tendent vers une limite fixe — la première formalisation rigoureuse de ce que signifie « somme infinie »."
+    },
+    {
+      "type": "web",
+      "auteur": null,
+      "titre": "0.999...",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/0.999...",
+      "note": "Historique (Euler 1770, formalisation de Cauchy, constructions de Dedekind et Cantor en 1872) et section sur l'analyse non standard d'Abraham Robinson (1961)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "0.999... — historique et démonstrations complètes",
+      "url": "https://en.wikipedia.org/wiki/0.999...",
+      "note": "Reprend les démonstrations algébriques, la démonstration par les séries, et le contexte de l'analyse non standard."
+    }
+  ],
+  "illustration": {
+    "prompt": "Sur fond crème, une ligne horizontale épaisse représentant une droite numérique, sans aucune graduation ni symbole. Une suite de segments verticaux de plus en plus rapprochés, en aplat orange saturé, s'approche d'un point plein en teal profond sans jamais laisser d'espace visible entre le dernier segment et le point. Aplats francs, aucun dégradé. Cadrage asymétrique.",
+    "alt": "Des segments de plus en plus rapprochés convergeant sans espace vers un point plein",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi 0,999… (une infinité de 9) est-il exactement égal à 1, et non simplement très proche ?",
+    "choix": [
+      "Parce qu'on arrondit toujours une infinité de décimales identiques au nombre supérieur",
+      "Parce qu'un écart entre les deux devrait être plus petit que tout nombre positif, ce qui n'existe pas chez les réels",
+      "Parce que les calculatrices affichent 1 dès qu'il y a trop de 9 à la suite",
+      "Parce que 0,999… n'est pas un vrai nombre, seulement une manière d'écrire une limite"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Ce n'est pas une convention d'arrondi ni une limite d'affichage : si 0,999… et 1 étaient distincts, leur différence serait un nombre positif plus petit que 0,1, 0,01, 0,001… indéfiniment, ce qu'aucun nombre réel positif ne peut être. 0,999… est un nombre réel parfaitement légitime, simplement égal à 1.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Comment Cauchy définit-il, en 1821, la somme d'une série infinie ?",
+      "choix": [
+        "Comme la plus grande des sommes partielles qu'on peut calculer",
+        "Comme la limite vers laquelle tend la suite des sommes partielles",
+        "Comme une approximation qui se rapproche sans jamais atteindre de valeur exacte",
+        "Comme la moyenne de tous les termes de la série"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Cauchy définit la somme d'une série convergente comme la limite de la suite de ses sommes partielles. C'est cette définition, et non une convention d'arrondi, qui rend la somme 9/10 + 9/100 + 9/1000 + … exactement égale à 1."
+    },
+    {
+      "question": "Que change l'analyse non standard d'Abraham Robinson (1961) à cette histoire ?",
+      "choix": [
+        "Elle démontre que 0,999… était en réalité inférieur à 1 depuis le début",
+        "Elle construit un système de nombres où existent des écarts infinitésimaux, non nuls mais plus petits que tout réel positif",
+        "Elle remplace la théorie des réels de Dedekind et Cantor, jugée fausse",
+        "Elle prouve que la notation 0,999… n'a aucun sens mathématique précis"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Robinson construit un cadre, distinct des nombres réels usuels, où des quantités infinitésimales non nulles existent. L'intuition d'un tout petit écart y trouve un sens réel — mais dans ce système, ce n'est plus la suite 0,999… avec une infinité ordinaire de 9 qui porte cet écart."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-09-24", "genere_par": "claude-code", "version": 1 }
+}

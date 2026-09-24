@@ -1,0 +1,98 @@
+{
+  "id": "mat-perelman-refuse-le-prix",
+  "slug": "perelman-refuse-le-prix",
+  "titre": "Il résout un problème à un million de dollars et refuse l'argent",
+  "accroche": "En 2010, Grigori Perelman devient le premier mathématicien à refuser un prix Millenium d'un million de dollars",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Tendez un élastique autour d'un ballon de baudruche : où que vous le posiez, vous pouvez toujours le faire glisser et le resserrer jusqu'à un point, sans jamais quitter la surface. Faites la même chose autour d'une bouée : si l'élastique passe par le trou central, il reste coincé — impossible de le réduire à un point sans le faire sortir de la surface. Cette différence suffit, à elle seule, à distinguer une sphère d'un tore, sans mesurer ni courbure ni distance.\n\nEn 1904, le mathématicien français Henri Poincaré pose la même question un cran plus haut, pour des espaces à trois dimensions plutôt que des surfaces à deux : si un tel espace est fini, sans bord, et que tout élastique qu'on y trace peut toujours se resserrer jusqu'à un point, cet espace est-il nécessairement équivalent à la sphère à trois dimensions ? Poincaré ne prétend pas connaître la réponse ; il se contente de poser la question, dans le dernier supplément d'un article intitulé *Analysis situs*.\n\n## Un siècle de tentatives, puis une méthode qui fonctionne\n\nLa conjecture résiste près d'un siècle, et attire son lot de fausses démonstrations publiées puis réfutées. En 1982, Richard Hamilton introduit un outil nouveau, le flot de Ricci, qui déforme progressivement un espace pour en lisser la courbure — un peu comme la chaleur se diffuse et uniformise une température. La méthode fonctionne, mais elle bute sur des points où l'espace se resserre en un instant jusqu'à s'effondrer, des singularités que Hamilton ne sait pas traverser.\n\nEntre novembre 2002 et juillet 2003, Grigori Perelman, mathématicien travaillant seul à Saint-Pétersbourg, dépose trois articles sur arXiv, l'archive ouverte de prépublications, sans passer par aucune revue à comité de lecture. Il y résout le problème des singularités par une technique qu'il nomme « flot de Ricci avec chirurgie » : découper l'espace à l'endroit précis où il s'effondre, analyser chaque morceau séparément, puis recoller. Il faut alors trois années à plusieurs équipes indépendantes pour vérifier, ligne par ligne, que la démonstration tient.\n\n## Ce qu'il fait, une fois la preuve reconnue\n\nEn 2006, la conjecture de Poincaré est confirmée : tout espace du type décrit est bien une sphère à trois dimensions. La revue *Science* la désigne découverte scientifique de l'année. Perelman se voit offrir la médaille Fields, la distinction la plus prestigieuse en mathématiques, lors du congrès international de Madrid le 22 août 2006. Il la refuse, et n'assiste pas à la cérémonie.\n\nEn mars 2010, le Clay Mathematics Institute confirme que sa preuve remplit les conditions du prix Millenium, doté d'un million de dollars, l'un des sept grands problèmes non résolus du tournant du siècle. Perelman le refuse aussi, sans se présenter à la remise du prix à Paris. Sa raison tient en une phrase : il juge injuste que la reconnaissance ne soit pas partagée avec Richard Hamilton, dont le flot de Ricci reste le fondement sans lequel sa propre méthode n'aurait jamais pu exister. Le refus ne porte donc pas sur la valeur de la démonstration, mais sur une conviction précise : une preuve mathématique n'est jamais l'œuvre d'un seul, et une récompense qui l'ignore récompense mal ce qu'elle prétend honorer.",
+  "citation": null,
+  "repere": {
+    "texte": "Perelman dépose ses trois articles sur arXiv entre le 11 novembre 2002 et juillet 2003. Il faut ensuite jusqu'à 2006 pour que plusieurs équipes indépendantes vérifient intégralement la démonstration, avant que le Clay Mathematics Institute ne confirme en 2010 qu'elle remplit les conditions du prix Millenium d'un million de dollars — que Perelman refuse.",
+    "source": "Perelman, « The entropy formula for the Ricci flow and its geometric applications », arXiv:math/0211159, 11 novembre 2002",
+    "url": "https://arxiv.org/abs/math/0211159"
+  },
+  "carte": {
+    "punch": "Il résout un problème vieux d'un siècle et refuse la médaille, puis le million qui va avec.",
+    "idee": "En 2002-2003, Grigori Perelman publie en ligne, sans revue ni comité, la preuve de la conjecture de Poincaré, ouverte depuis 1904. En 2006 il refuse la médaille Fields ; en 2010 le million du prix Millenium, jugeant injuste que Richard Hamilton, pionnier de sa méthode, reste sans récompense.",
+    "source_courte": "Perelman, arXiv, 2002-2003"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Perelman, Grigori",
+      "titre": "The entropy formula for the Ricci flow and its geometric applications",
+      "publication": "arXiv:math/0211159",
+      "annee": 2002,
+      "url": "https://arxiv.org/abs/math/0211159",
+      "note": "Premier des trois articles déposés par Perelman, point de départ de la preuve complète achevée en juillet 2003."
+    },
+    {
+      "type": "web",
+      "auteur": null,
+      "titre": "Grigori Perelman",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Grigori_Perelman",
+      "note": "Dates précises du congrès de Madrid (22 août 2006), de l'annonce du Clay Mathematics Institute (18 mars 2010) et du refus du prix (1er juillet 2010), et citation de Perelman sur son désaccord avec la communauté mathématique."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Conjecture de Poincaré — énoncé et histoire de la preuve",
+      "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+      "note": "Détaille le programme de Hamilton à partir de 1982 et la technique de « chirurgie » du flot de Ricci employée par Perelman."
+    }
+  ],
+  "illustration": {
+    "prompt": "Sur fond crème, une forme ronde pleine en aplat teal saturé, cerclée d'un anneau épais en aplat rouge-brique qui se resserre progressivement jusqu'à disparaître en un point sur un des côtés de la forme. Aplats géométriques francs, aucun dégradé, aucune ombre portée. Cadrage asymétrique, légèrement hors-repérage. Aucune figure humaine.",
+    "alt": "Un anneau épais qui se resserre progressivement jusqu'à un point autour d'une forme ronde",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi Grigori Perelman refuse-t-il le prix Millenium d'un million de dollars en 2010 ?",
+    "choix": [
+      "Il estime que sa démonstration comporte encore une faille non résolue",
+      "Il juge injuste que Richard Hamilton, dont la méthode fonde sa propre preuve, ne soit pas récompensé aussi",
+      "Il réclame que le prix soit versé directement à l'université qui l'employait",
+      "Il conteste la légitimité du Clay Mathematics Institute à attribuer ce type de prix"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Perelman ne remet pas en cause sa propre démonstration ni l'institut qui l'évalue : il refuse parce qu'il considère qu'une récompense qui l'honore seul, sans reconnaître Richard Hamilton et le flot de Ricci sur lequel toute sa méthode repose, récompense mal une découverte qui n'a jamais été le fait d'un seul mathématicien.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Que demande précisément la conjecture posée par Henri Poincaré en 1904 ?",
+      "choix": [
+        "Si tout espace fini à trois dimensions où chaque boucle se resserre en un point est équivalent à la sphère à trois dimensions",
+        "Si toutes les surfaces à deux dimensions peuvent être classées en un nombre fini de catégories",
+        "Si l'univers a nécessairement une forme sphérique à grande échelle",
+        "Si deux espaces de même volume sont toujours topologiquement équivalents"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Poincaré pose la question pour des espaces à trois dimensions, finis et sans bord : si toute boucle qu'on y trace peut toujours se resserrer jusqu'à un point, cet espace est-il nécessairement une sphère à trois dimensions ? Il ne prétend pas connaître la réponse, il formule seulement la question."
+    },
+    {
+      "question": "Sur quel obstacle butait le programme de Richard Hamilton avant l'intervention de Perelman ?",
+      "choix": [
+        "Le manque de puissance de calcul pour simuler le flot de Ricci",
+        "Des singularités, des points où l'espace s'effondre, que sa méthode ne savait pas traverser",
+        "L'absence de tout exemple concret où appliquer le flot de Ricci",
+        "Un désaccord avec Poincaré sur l'énoncé exact de la conjecture"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le flot de Ricci de Hamilton lisse progressivement la courbure d'un espace, mais se heurte à des singularités où l'espace s'effondre en un instant. Perelman résout ce blocage par une technique de « chirurgie » : découper l'espace à ces points précis, analyser chaque morceau, puis recoller."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-09-24", "genere_par": "claude-code", "version": 1 }
+}

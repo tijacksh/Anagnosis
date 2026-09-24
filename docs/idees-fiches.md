@@ -86,6 +86,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Mathématiques | Le nombre de taxi 1729, Hardy et Ramanujan (1918) | fait | routine-production | 2026-09-23 |
 | Mathématiques | Robert Recorde et l'invention du signe = (1557) | fait | routine-production | 2026-09-23 |
 | Mathématiques | Emmy Noether, l'habilitation refusée (1915) et le théorème symétrie-conservation (1918) | fait | routine-production | 2026-09-23 |
+| Mathématiques | Le paradoxe de Russell (1901-1902), la lettre à Frege et l'appendice de dernière minute | fait | routine-production | 2026-09-24 |
+| Mathématiques | 0,999… = 1 : de Cauchy (1821) à l'analyse non standard de Robinson (1961) | fait | routine-production | 2026-09-24 |
+| Mathématiques | La lettre de Gauss à Bolyai (6 mars 1832) et les géométries non euclidiennes | fait | routine-production | 2026-09-24 |
+| Mathématiques | Grigori Perelman, la conjecture de Poincaré et le refus du prix Millenium (2006-2010) | fait | routine-production | 2026-09-24 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*

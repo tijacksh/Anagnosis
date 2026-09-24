@@ -1,0 +1,98 @@
+{
+  "id": "mat-paradoxe-de-russell",
+  "slug": "paradoxe-de-russell",
+  "titre": "Le catalogue qui ne peut pas s'inclure lui-même",
+  "accroche": "En juin 1902, une lettre de quelques lignes fait s'effondrer vingt ans du travail de Gottlob Frege",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Un bibliothécaire imagine un catalogue particulier : celui de tous les catalogues qui ne se citent pas eux-mêmes. La plupart des catalogues n'apparaissent pas dans leur propre liste — un catalogue de romans ne se classe pas parmi les romans — donc ce catalogue-des-catalogues-qui-ne-se-citent-pas devrait contenir presque tout le monde. Reste une question simple : doit-il s'inclure lui-même ?\n\nS'il s'inclut, il cesse d'être « un catalogue qui ne se cite pas », la condition même qui l'a fait entrer sur la liste : il doit donc en sortir. S'il ne s'inclut pas, il remplit exactement cette condition : il doit donc y entrer. Aucune des deux réponses ne tient.\n\n## La lettre qui arrive trop tard\n\nC'est cette question, posée non sur des catalogues mais sur des ensembles, que Bertrand Russell envoie à Gottlob Frege le 16 juin 1902. Frege travaillait depuis vingt ans à fonder l'arithmétique tout entière sur la logique des ensembles, et le second tome de son grand ouvrage, les *Grundgesetze der Arithmetik*, était déjà sous presse.\n\nSa loi fondamentale numéro V autorisait à former, à partir de n'importe quelle propriété, l'ensemble de tout ce qui la vérifie. Appliquée à la propriété « ne pas se contenir soi-même », elle produit exactement le catalogue impossible du bibliothécaire : l'ensemble R de tous les ensembles qui ne se contiennent pas eux-mêmes. R appartient-il à R ? Par construction, ni oui ni non ne peuvent être vrais.\n\nFrege n'a le temps que d'ajouter un appendice de dernière minute avant l'impression, où il reconnaît la faille sans savoir la réparer. Le reste de sa carrière en porte la marque : il abandonne son grand projet de fonder l'arithmétique sur la seule logique.\n\n## Ce que la faille désigne\n\nCe qui frappe, avec le recul, ce n'est pas que Frege se soit trompé — c'est où. La loi V semblait la plus innocente de tout son système, celle qu'on accorde sans y penser. Le paradoxe ne vient pas d'un raisonnement bancal mais d'un principe de construction trop généreux : autoriser un ensemble pour chaque propriété imaginable revient à laisser le langage décider seul de ce qui existe, et le langage sait très bien fabriquer des phrases qui se retournent contre elles-mêmes.\n\nLa réponse durable arrive six ans plus tard. En 1908, Ernst Zermelo remplace la construction libre de Frege par un principe plus étroit : on ne forme plus un ensemble à partir d'une propriété seule, mais en découpant un sous-ensemble à l'intérieur d'un ensemble déjà construit. Le catalogue-des-catalogues n'a alors plus le droit de se poser la question, faute d'un ensemble de départ dans lequel le découper.\n\nLe prix à payer est là, et il dure encore : la théorie des ensembles cesse d'être une conséquence naturelle de la seule logique, comme Frege l'espérait, et devient un édifice bâti sur une liste d'axiomes choisis un à un — pour ce qu'ils autorisent, mais surtout pour ce qu'ils interdisent.",
+  "citation": null,
+  "repere": {
+    "texte": "Le second tome des Grundgesetze der Arithmetik de Frege est déjà sous presse quand la lettre de Russell arrive, le 16 juin 1902. Frege répond le 22 juin, et n'a le temps que d'ajouter un appendice de dernière minute avant l'impression.",
+    "source": "Stanford Encyclopedia of Philosophy, « Russell's Paradox »",
+    "url": "https://plato.stanford.edu/entries/russell-paradox/"
+  },
+  "carte": {
+    "punch": "Un catalogue qui doit s'inclure s'il ne s'inclut pas, et s'exclure s'il s'inclut.",
+    "idee": "En 1902, Bertrand Russell montre que la théorie des ensembles de Gottlob Frege autorise à construire l'ensemble de tous les ensembles qui ne se contiennent pas eux-mêmes — un objet qui ne peut ni s'appartenir ni ne pas s'appartenir. Le livre de Frege était déjà sous presse.",
+    "source_courte": "Russell à Frege, 16 juin 1902"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": null,
+      "titre": "Russell's Paradox",
+      "publication": "Stanford Encyclopedia of Philosophy",
+      "annee": null,
+      "url": "https://plato.stanford.edu/entries/russell-paradox/",
+      "note": "Date de la lettre (16 juin 1902), circonstance (second tome des Grundgesetze déjà sous presse) et suites pour le programme logiciste de Frege."
+    },
+    {
+      "type": "web",
+      "auteur": null,
+      "titre": "Gottlob Frege — Contradictions in Frege's system",
+      "publication": "Encyclopaedia Britannica",
+      "annee": null,
+      "url": "https://www.britannica.com/biography/Gottlob-Frege/Contradictions-in-Freges-system",
+      "note": "Confirme la date de réception de la lettre de Russell et l'ajout d'un appendice par Frege avant publication du second tome."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Paradoxe de Russell — l'axiome de séparation de Zermelo (1908) et la suite",
+      "url": "https://fr.wikipedia.org/wiki/Paradoxe_de_Russell",
+      "note": "Détaille les tentatives de réparation, dont celle de Zermelo, et les formulations populaires du paradoxe (barbier, bibliothécaire)."
+    }
+  ],
+  "illustration": {
+    "prompt": "Sur fond crème, un cercle plein et saturé (teal profond) d'où sort une flèche épaisse qui décrit une boucle et revient transpercer ce même cercle. Aplats francs, aucun dégradé, aucune ombre portée, cadrage asymétrique légèrement hors-repérage. Aucune figure humaine, aucun visage.",
+    "alt": "Un cercle saturé transpercé par une flèche qui boucle et revient sur lui-même",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'ensemble « de tous les ensembles qui ne se contiennent pas eux-mêmes » pose-t-il un problème ?",
+    "choix": [
+      "Parce qu'un ensemble infini ne peut pas, par nature, se contenir lui-même",
+      "Parce que Frege avait mal défini la notion d'ensemble depuis le début de son ouvrage",
+      "Parce que ni « il se contient » ni « il ne se contient pas » ne peuvent être vrais à propos de lui",
+      "Parce qu'aucun ensemble ne peut être défini par une propriété qui le concerne lui-même"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le problème n'est pas la taille de l'ensemble ni l'auto-référence en général, mais cette construction précise : supposer qu'il se contient contredit sa définition, et supposer qu'il ne se contient pas l'y fait entrer. Les deux réponses se détruisent l'une l'autre, ce qui est la marque d'un vrai paradoxe, pas d'une simple erreur de définition.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Que permettait la loi fondamentale numéro V de Frege, à l'origine du paradoxe ?",
+      "choix": [
+        "De former l'ensemble de tout ce qui vérifie n'importe quelle propriété choisie",
+        "De comparer la taille de deux ensembles infinis entre eux",
+        "De définir un nombre entier comme la limite d'une suite de fractions",
+        "De ranger les ensembles selon leur ordre de découverte historique"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La loi V autorisait à construire, à partir de n'importe quelle propriété, l'ensemble de tous les objets qui la vérifient. C'est cette liberté de construction, appliquée à la propriété « ne pas se contenir soi-même », qui produit l'ensemble contradictoire de Russell."
+    },
+    {
+      "question": "Comment Ernst Zermelo répond-il au paradoxe en 1908 ?",
+      "choix": [
+        "En interdisant purement et simplement de parler d'ensembles infinis",
+        "En autorisant à ne découper un sous-ensemble qu'à l'intérieur d'un ensemble déjà construit",
+        "En remplaçant la théorie des ensembles par la seule arithmétique des entiers",
+        "En prouvant que le paradoxe de Russell reposait sur une erreur de calcul"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Zermelo restreint la construction d'ensembles : on ne forme plus un ensemble à partir d'une propriété prise isolément, mais en séparant, à l'intérieur d'un ensemble déjà donné, les éléments qui vérifient la propriété. Le catalogue-des-catalogues n'a alors plus d'ensemble de départ dans lequel se découper."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-09-24", "genere_par": "claude-code", "version": 1 }
+}
