@@ -67,12 +67,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-24T10:13:53.067Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-24T10:13:53.067Z",
+        "note": "Sources rouvertes : archive.org bub_gb_WyzWlCX-pqUC (métadonnées confirmées : Diophante, observationibus D.P. Fermat, Bernard Bosc, 1670), DOI 10.2307/2118559 (résout vers JSTOR stable/2118559), Wikipedia (Wiles's proof of FLT) confirmant chronologie complète (Euler n=3 1770, Legendre/Dirichlet n=5 1825, Lamé n=7 1839, Kummer 1847, Frey 1984, Ribet 1986, annonce Wiles juin 1993, faille Katz sept. 1993, correction avec Taylor 1994, publication Annals of Math mai 1995, 129 p.). Corps, citation, carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-23",
