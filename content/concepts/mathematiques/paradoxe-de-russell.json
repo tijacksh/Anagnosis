@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "Le second tome des Grundgesetze der Arithmetik de Frege est déjà sous presse quand la lettre de Russell arrive, le 16 juin 1902. Frege répond le 22 juin, et n'a le temps que d'ajouter un appendice de dernière minute avant l'impression.",
-    "source": "Stanford Encyclopedia of Philosophy, « Russell's Paradox »",
-    "url": "https://plato.stanford.edu/entries/russell-paradox/"
+    "source": "Wikipedia (en), « Russell's paradox », citant la correspondance publiée par van Heijenoort (1967)",
+    "url": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
   },
   "carte": {
     "punch": "Un catalogue qui doit s'inclure s'il ne s'inclut pas, et s'exclure s'il s'inclut.",
@@ -38,6 +38,15 @@
       "annee": null,
       "url": "https://www.britannica.com/biography/Gottlob-Frege/Contradictions-in-Freges-system",
       "note": "Confirme la date de réception de la lettre de Russell et l'ajout d'un appendice par Frege avant publication du second tome."
+    },
+    {
+      "type": "web",
+      "auteur": null,
+      "titre": "Russell's paradox",
+      "publication": "Wikipedia (en)",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Russell%27s_paradox",
+      "note": "Donne la date précise de la réponse de Frege (22 juin 1902), en citant la correspondance publiée par van Heijenoort, From Frege to Gödel (1967), p. 126-127."
     }
   ],
   "pour_aller_plus_loin": [
@@ -89,12 +98,21 @@
       "explication": "Zermelo restreint la construction d'ensembles : on ne forme plus un ensemble à partir d'une propriété prise isolément, mais en séparant, à l'intérieur d'un ensemble déjà donné, les éléments qui vérifient la propriété. Le catalogue-des-catalogues n'a alors plus d'ensemble de départ dans lequel se découper."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-09-24T07:12:10.617Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-09-24T07:12:10.617Z",
+        "note": "Sources rouvertes : Stanford Encyclopedia of Philosophy « Russell's Paradox », Encyclopaedia Britannica (Frege), et en.wikipedia.org/wiki/Russell%27s_paradox (nouvelle source ajoutée). Ni SEP ni Britannica ne donnent de date pour la réponse de Frege ; en.wikipedia (Russell's paradox) la donne explicitement, citant van Heijenoort 1967 p.126-127 : « his letter dated 22 June 1902 ». La date « 22 juin » du repère est donc exacte mais était mal sourcée : source du repère changée de SEP vers cette page Wikipedia, et la page ajoutée à sources[]. Vérifié aussi : loi V (extensionnalité des concepts), ensemble R, axiome de séparation de Zermelo daté 1908 par la SEP elle-même — tous conformes. Reste de la fiche (corps, carte, quiz, quiz supplémentaire) vérifié conforme."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",
