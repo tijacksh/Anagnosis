@@ -95,19 +95,34 @@
   "quiz_supplementaire": [
     {
       "question": "Que fait Neptune, à la différence de la Terre, avec Pluton, l'objet qui partage son voisinage orbital ?",
-      "choix": ["Elle l'a piégé dans une résonance orbitale plutôt que de l'éliminer", "Elle l'a totalement éjecté du système solaire", "Elle l'a absorbé par collision il y a plusieurs milliards d'années", "Elle partage avec lui exactement la même orbite"],
+      "choix": [
+        "Elle l'a piégé dans une résonance orbitale plutôt que de l'éliminer",
+        "Elle l'a totalement éjecté du système solaire",
+        "Elle l'a absorbé par collision il y a plusieurs milliards d'années",
+        "Elle partage avec lui exactement la même orbite"
+      ],
       "bonne_reponse": 0,
       "explication": "Neptune a, comme la Terre, dominé gravitationnellement sa zone, mais elle l'a fait en piégeant Pluton dans une résonance orbitale plutôt qu'en l'éliminant ou en l'éjectant, ce qui suffit à remplir le troisième critère."
     },
     {
       "question": "Quelle est la principale objection adressée à la définition de 2006, concernant le critère du nettoyage de l'orbite ?",
-      "choix": ["Il s'applique de la même façon, quelle que soit la distance au Soleil", "Il dépend de l'encombrement de la zone, donc classe autant un contexte qu'un objet", "Il ne concerne que les objets situés au-delà de Neptune", "Il a été ajouté sans vote de l'assemblée générale de l'UAI"],
+      "choix": [
+        "Il s'applique de la même façon, quelle que soit la distance au Soleil",
+        "Il dépend de l'encombrement de la zone, donc classe autant un contexte qu'un objet",
+        "Il ne concerne que les objets situés au-delà de Neptune",
+        "Il a été ajouté sans vote de l'assemblée générale de l'UAI"
+      ],
       "bonne_reponse": 1,
       "explication": "Le critère du nettoyage n'est pas une propriété intrinsèque de l'objet : un même corps serait planète près du Soleil et ne le serait pas plus loin, où les orbites sont plus longues et le nettoyage plus lent, la définition classant donc autant un contexte qu'un objet."
     },
     {
       "question": "Qu'est-ce qui a rendu la définition du mot « planète » nécessaire en 2006 ?",
-      "choix": ["La perte d'une lune de Pluton, détectée par un télescope spatial", "Un changement dans la trajectoire orbitale de Pluton lui-même", "La désignation de Pluton comme astéroïde par la NASA en 2004", "La découverte d'objets de la ceinture de Kuiper aussi grands que Pluton, comme Éris"],
+      "choix": [
+        "La perte d'une lune de Pluton, détectée par un télescope spatial",
+        "Un changement dans la trajectoire orbitale de Pluton lui-même",
+        "La désignation de Pluton comme astéroïde par la NASA en 2004",
+        "La découverte d'objets de la ceinture de Kuiper aussi grands que Pluton, comme Éris"
+      ],
       "bonne_reponse": 3,
       "explication": "Le problème est venu des voisins de Pluton : à partir des années 1990 la ceinture de Kuiper s'est remplie rapidement, et en 2005 Éris a été mesurée comme au moins aussi grande que Pluton, rendant une limite nécessaire."
     }
@@ -150,11 +165,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
+    "fait_le": "2026-09-24",
     "verdict": "ok",
-    "empreinte": "5ad03f46fbdf88b7",
+    "empreinte": "c425dcf4d84a4f8d",
     "notes": [
-      "Re-contrôle après retouche de routine-reparation : sondage confirme la page CNES française (2003 UB313 cité comme planète naine) et les deux nouvelles sources Brown et al. 2005/2007 sur taille/masse d'Éris. Contenu conforme."
+      "Re-contrôle après ajout de quiz_supplementaire par /questionner (seul changement depuis le contrôle du 2026-07-31, déjà vérifié en détail : IAU archive, JPL SSD, CNES, Brown et al. 2005/2007). Les trois questions supplémentaires reformulent des faits du corps déjà établis (résonance Neptune-Pluton, critique du critère de nettoyage, découverte d'Éris) : conformes."
     ]
   }
 }
