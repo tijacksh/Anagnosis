@@ -90,6 +90,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Mathématiques | 0,999… = 1 : de Cauchy (1821) à l'analyse non standard de Robinson (1961) | fait | routine-production | 2026-09-24 |
 | Mathématiques | La lettre de Gauss à Bolyai (6 mars 1832) et les géométries non euclidiennes | fait | routine-production | 2026-09-24 |
 | Mathématiques | Grigori Perelman, la conjecture de Poincaré et le refus du prix Millenium (2006-2010) | fait | routine-production | 2026-09-24 |
+| Économie | Simon Kuznets, le rapport de 1934 au Sénat et l'avertissement contre la mesure du bien-être | fait | routine-production | 2026-09-24 |
+| Économie | La révolution marginale (1871-1874) : Jevons, Menger, Walras et le paradoxe de l'eau et du diamant | fait | routine-production | 2026-09-24 |
+| Économie | La tulipomanie de 1637 revue par les archives (Anne Goldgar, Peter Garber) | fait | routine-production | 2026-09-24 |
+| Économie | La loi de Gresham, formulée par Copernic (1517-1526) avant d'être nommée d'après Gresham (1857) | fait | routine-production | 2026-09-24 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
