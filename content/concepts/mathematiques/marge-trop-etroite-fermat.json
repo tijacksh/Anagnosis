@@ -66,7 +66,26 @@
     "explication": "Fermat a bien démontré le cas n = 4, et n'a jamais rétracté sa note ni signalé d'erreur de traduction : la preuve de 1994 mobilise des courbes elliptiques et des formes modulaires, des théories du XXe siècle, ce qui rend peu probable qu'il ait tenu au XVIIe siècle une démonstration générale correcte.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel mathématicien démontre en 1770 le cas n = 3 du théorème, avec une lacune comblée plus tard ?",
+      "choix": ["Leonhard Euler", "Ernst Kummer", "Gabriel Lamé", "Ken Ribet"],
+      "bonne_reponse": 0,
+      "explication": "Le texte indique qu'Euler démontre n = 3 en 1770, avec une lacune comblée plus tard ; Kummer traite en 1847 une large famille d'exposants premiers, Lamé démontre n = 7 en 1839, et Ribet établit en 1986 le lien avec la conjecture de modularité."
+    },
+    {
+      "question": "Que découvre un relecteur dans la preuve d'Andrew Wiles, trois mois après son annonce de juin 1993 ?",
+      "choix": ["Une erreur de calcul dans le cas n = 4, déjà résolu par Fermat", "Un doublon avec un article publié par Kummer en 1847", "Une faille, que Wiles met plus d'un an à combler avec Richard Taylor", "Une contradiction avec la conjecture de modularité elle-même"],
+      "bonne_reponse": 2,
+      "explication": "Le texte précise qu'un relecteur repère une faille trois mois après l'annonce de juin 1993, et que Wiles la comble en plus d'un an, avec l'aide de son ancien élève Richard Taylor, avant la publication définitive de mai 1995."
+    },
+    {
+      "question": "Pour n = 2, quelles solutions existent en nombres entiers à l'équation xⁿ + yⁿ = zⁿ ?",
+      "choix": ["Aucune, l'énoncé de Fermat vaut aussi pour n = 2", "Les triplets pythagoriciens, comme 3² + 4² = 5²", "Seulement des solutions avec des nombres négatifs", "Des solutions trouvées uniquement par Andrew Wiles en 1994"],
+      "bonne_reponse": 1,
+      "explication": "Le texte précise que pour n = 2 les solutions existent par milliers, ce sont les triplets pythagoriciens comme 3² + 4² = 5² ; l'énoncé de Fermat porte sur les exposants strictement supérieurs à 2, où elles disparaissent toutes."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
