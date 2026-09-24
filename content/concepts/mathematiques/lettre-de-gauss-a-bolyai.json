@@ -90,10 +90,25 @@
       "explication": "Bolyai apprend que Nikolaï Lobatchevski avait publié, dès 1829 à l'université de Kazan, une géométrie non euclidienne équivalente à la sienne — deux ans avant sa propre publication de 1831, et sans qu'aucun des deux n'ait connu les travaux de l'autre."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-24",
+    "verdict": "a_revoir",
+    "empreinte": "18b45904cab06029",
+    "notes": [
+      "Sources rouvertes (archive.org Briefwechsel Gauss-Bolyai, lettre n° 35 du 6 mars 1832 : citation vérifiée mot pour mot ; fr.wikipedia Géométrie non euclidienne). Le corps affirme « En 1831, Bolyai publie son résultat... en appendice à un traité de son père », mais les deux sources citées dans la fiche donnent 1832 pour cette publication (fr.wikipedia : « Bolyai (1832) » ; en.wikipedia János Bolyai, citée en pour_aller_plus_loin : « Bolyai's work was published in 1832 as an appendix to a mathematics textbook by his father »). À vérifier et corriger l'année de publication de l'Appendix (1831 vs 1832) en confrontant d'autres sources si besoin — le reste (lettre de Gauss, découverte de Lobatchevski en 1848, non-publication de Gauss) est confirmé conforme."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-24", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-24",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

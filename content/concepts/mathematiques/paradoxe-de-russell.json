@@ -89,10 +89,25 @@
       "explication": "Zermelo restreint la construction d'ensembles : on ne forme plus un ensemble à partir d'une propriété prise isolément, mais en séparant, à l'intérieur d'un ensemble déjà donné, les éléments qui vérifient la propriété. Le catalogue-des-catalogues n'a alors plus d'ensemble de départ dans lequel se découper."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-24",
+    "verdict": "a_revoir",
+    "empreinte": "90e765643dd870b6",
+    "notes": [
+      "Sources rouvertes (Stanford Encyclopedia of Philosophy « Russell's Paradox » ; Encyclopaedia Britannica, article Gottlob Frege). Confirmé : lettre de Russell à Frege le 16 juin 1902, second tome des Grundgesetze déjà sous presse, appendice de dernière minute ajouté par Frege, axiome de séparation de Zermelo daté 1908 par la SEP elle-même. Mais le corps affirme « Frege répond le 22 juin » : cette date précise n'apparaît dans aucune des deux sources citées (vérifié explicitement sur la page SEP, qui ne donne aucune date de réponse). À vérifier auprès d'une source qui l'atteste (ex. correspondance Frege-Russell publiée par van Heijenoort) ou à retirer si introuvable. Reste de la fiche (loi V, ensemble R, réponse de Zermelo) conforme aux sources."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-24", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-24",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

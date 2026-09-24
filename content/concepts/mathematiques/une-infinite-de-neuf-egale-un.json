@@ -91,8 +91,23 @@
   ],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-24",
+    "verdict": "ok",
+    "empreinte": "c64fad5d5e49e6dc",
+    "notes": [
+      "Sources rouvertes (archive.org, Cauchy, Cours d'analyse, 1821, titre/auteur/année confirmés) ; en.wikipedia 0.999... (constructions de Dedekind et Cantor en 1872 confirmées mot pour mot) ; en.wikipedia Non-standard analysis (article de Robinson daté 1961, confirmé, ouvrage 1966). Corps, repere, carte et quiz conformes aux sources ; rien à corriger."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-24", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-24",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
