@@ -78,12 +78,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-24T22:11:49.982Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-24T22:11:49.982Z",
+        "note": "Sources rouvertes indépendamment : en.wikipedia.org/Marginalism confirme les trois auteurs et années (Jevons Angleterre 1871, Menger Autriche 1871, Walras Suisse 1874) et la résolution du paradoxe eau-diamant par l'utilité marginale. en.wikipedia.org/William_Stanley_Jevons confirme The Theory of Political Economy (1871) et son poste à Owens College Manchester dès 1863/1866. en.wikipedia.org/Carl_Menger confirme Grundsätze der Volkswirthschaftslehre (1871), sa présence à Vienne (journaliste au Wiener Zeitung avant son poste universitaire de 1872), son rôle fondateur de l'école autrichienne et la citation de Hayek (1934). en.wikipedia.org/Léon_Walras confirme les Éléments (1874-1877), le développement indépendant sans connaissance de Jevons/Menger, la réponse au problème de Cournot, et son poste à Lausanne. Corps, repere, carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",

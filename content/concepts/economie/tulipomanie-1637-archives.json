@@ -61,12 +61,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-24T22:11:52.998Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-24T22:11:52.998Z",
+        "note": "Sources rouvertes indépendamment : en.wikipedia.org/Tulip_mania confirme le prix du Semper Augustus (10 000 florins vs ~300 florins/an pour un artisan), le 3 février 1637 à Haarlem, le compromis d'Amsterdam fin février 1637 (10 % pour les contrats postérieurs à décembre 1636), les travaux de Goldgar (2007, moins d'une demi-douzaine de cas), l'analyse de Garber (jacinthes, contrats à terme non honorés), l'origine calviniste moralisatrice du récit et le rôle de Charles Mackay (1841) dans sa diffusion. smithsonianmag.com confirme mot pour mot la citation de Goldgar « I couldn't find anybody that went bankrupt » et l'origine du récit dans les pamphlets calvinistes. Corps, citation, carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",

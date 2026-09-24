@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-24T22:11:44.000Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-24T22:11:44.000Z",
+        "note": "Sources rouvertes indépendamment : en.wikipedia.org/Gresham's_law confirme la nomination en 1857/58 par Macleod, la formulation de Copernic en 1519/1517 (Monetae cudendae ratio), et la connaissance antérieure (Aristophane ~405 av. J.-C., pensée islamique médiévale, Chine Yuan). en.wikipedia.org/Thomas_Gresham confirme la naissance vers 1519 et « Sir Thomas never formulated anything like Gresham's law ». en.wikipedia.org/Monetae_cudendae_ratio confirme la chronologie 1517→1519 (Olsztyn)→1522 (Grudziądz)→1526/1528. Corps, repere, carte et quiz conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",

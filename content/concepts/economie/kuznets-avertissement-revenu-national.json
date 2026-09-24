@@ -70,12 +70,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-24T22:11:46.772Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-24T22:11:46.772Z",
+        "note": "Sources rouvertes indépendamment : en.wikipedia.org/Simon_Kuznets confirme mot pour mot la citation « the welfare of a nation can scarcely be inferred from a measure of national income » avec sa référence exacte (National Income 1929-1932, Senate document n°124, 73e Congrès, 1934, p.7), la désapprobation de Kuznets envers l'usage comme mesure de bien-être, et le prix Nobel 1971 pour l'interprétation empirique de la croissance. en.wikipedia.org/Gross_domestic_product confirme le rapport 1934, l'usage pendant la Seconde Guerre mondiale, le rôle de Milton Gilbert au Département du Commerce et Bretton Woods 1944. britannica.com/biography/Simon-Kuznets confirme le Nobel 1971 et les séries depuis 1869. Corps, citation, carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",
