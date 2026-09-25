@@ -98,6 +98,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Économie | Le mal hollandais : la découverte du gisement de Groningue (1959) et la désindustrialisation néerlandaise | fait | routine-production | 2026-09-25 |
 | Économie | L'indice Big Mac (Pam Woodall, The Economist, septembre 1986) et la parité de pouvoir d'achat | fait | routine-production | 2026-09-25 |
 | Économie | « À long terme, nous serons tous morts » (Keynes, 1923), le contresens le plus répandu de l'économie | fait | routine-production | 2026-09-25 |
+| Économie | Elinor Ostrom et les biens communs : l'alpage suisse géré en commun depuis 1517 (Governing the Commons, 1990) | fait | routine-production | 2026-09-25 |
+| Économie | Le choc Nixon (15 août 1971) : la fin improvisée de la convertibilité du dollar en or | fait | routine-production | 2026-09-25 |
+| Économie | Mincome à Dauphin, Manitoba (1974-1979) : l'expérience de revenu garanti analysée trente ans après par Evelyn Forget | fait | routine-production | 2026-09-25 |
+| Économie | L'avantage comparatif de Ricardo (1817) : pourquoi commercer même avec le meilleur en tout | fait | routine-production | 2026-09-25 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
