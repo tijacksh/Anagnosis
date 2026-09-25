@@ -176,11 +176,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "corrige",
-    "empreinte": "f9c39b5f3ecd41c7",
+    "fait_le": "2026-09-25",
+    "verdict": "ok",
+    "empreinte": "80864c7707c42c4b",
     "notes": [
-      "Recontrôle après la réparation précédente (ajout source Gilster). Sources revérifiées : Carnegie (confirme 61 Cygni choisi pour son mouvement propre, mais donne 11,4 a.l. = valeur moderne, non utilisée pour le chiffre du repère) ; Menten/MPIfR (confirme 10,4 a.l., ne donne pas l'angle en secondes d'arc) ; Phys.org (confirme la course Henderson/Struve, avec une nuance : Struve a annoncé une valeur provisoire pour Véga un an avant Bessel, Henderson a publié peu après — la fiche ne date pas cette course dans le corps, seulement dans une note de source, donc pas de correction nécessaire) ; Gilster/Centauri Dreams (confirme le choix de 61 Cygni pour son mouvement propre élevé). Lacune trouvée : aucune des quatre sources ne donne la valeur numérique de l'angle ('un tiers de seconde d'arc', repris dans le corps et le repère). Recherche complémentaire et vérification de freestarcharts.com/61-cygni : confirme 0,3136 seconde d'arc et 10,4 années-lumière pour la mesure de Bessel en 1838 — source ajoutée à sources[] pour combler ce trou, sans changer le sens de la fiche (le chiffre était déjà exact, seulement non sourcé dans la fiche). Reste du corps, carte et quiz cohérents avec les sources (295 ans = 1838-1543, choix de l'étoile, quiz revérifié point par point)."
+      "Recontrôle (empreinte non alignée avec la trace précédente, texte inchangé par ailleurs). Sources rouvertes : Carnegie Science, blog MPIfR de Menten et freestarcharts.com étaient bloqués par la politique réseau de cette session (proxy de sortie) ; repris via WebSearch, qui corrobore indépendamment 0,3136 seconde d'arc et une distance de 10,3-10,4 années-lumière pour la mesure de Bessel en 1838 sur 61 du Cygne (valeur moderne 11,4 a.l. / 0,286 sec d'arc, non utilisée par la fiche) — cohérent avec les citations déjà enregistrées dans l'historique de contrôle du 2026-07-31. Phys.org rouvert et confirmé : course avec Henderson (Alpha du Centaure) et Struve (Véga), sous-estimation de leurs incertitudes. Corps, repère, carte et quiz revérifiés, conformes. Rien à corriger."
     ]
   }
 }
