@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-25T22:11:40.305Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-25T22:11:40.305Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia « Nixon shock » confirme mot pour mot l'allocution du dimanche 15 août 1971 (marchés fermés), la réunion secrète du 13 août à Camp David (Burns, Connally, Volcker + douze conseillers), les trois mesures (suspension convertibilité, gel salaires/prix 90 jours décret 11615, surtaxe 10%), les réserves d'or (10 000 tonnes métriques, moins de la moitié du pic), chômage 6,1%, inflation 5,84%. Wikipedia « Bretton Woods system » confirme la conférence de juillet 1944 (44 pays), l'ancrage à 35$/once, la fin le 15 août 1971, les accords de la Jamaïque 1976. Repère, carte et quiz conformes aux sources. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-25",

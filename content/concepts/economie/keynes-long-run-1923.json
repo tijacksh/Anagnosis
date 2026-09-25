@@ -61,12 +61,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-25T22:11:48.385Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-25T22:11:48.385Z",
+        "note": "Sources rouvertes indépendamment. archive.org : le fetch direct du djvu.txt était tronqué (n'atteignait que le chapitre II) ; recherche via l'API search-inside d'archive.org (fulltext/inside.php) sur 'ocean is flat again' et 'misleading guide to current affairs' localise la citation page 94, dans le chapitre III (qui débute p.88) : 'this long run is a misleading guide to current affairs. In the long run we are all dead. Economists set themselves too easy, too useless a task if in tempestuous seasons they can only tell us that when the storm is long past the ocean is flat again.' — mot pour mot identique à la citation de la fiche, chapitre confirmé. Wikipedia « A Tract on Monetary Reform » confirme la publication 1923 par Macmillan, le contexte (débat sur le retour à l'étalon-or) et cite explicitement cette phrase comme provenant de l'ouvrage. Carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-25",
