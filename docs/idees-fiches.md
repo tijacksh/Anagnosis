@@ -94,6 +94,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Économie | La révolution marginale (1871-1874) : Jevons, Menger, Walras et le paradoxe de l'eau et du diamant | fait | routine-production | 2026-09-24 |
 | Économie | La tulipomanie de 1637 revue par les archives (Anne Goldgar, Peter Garber) | fait | routine-production | 2026-09-24 |
 | Économie | La loi de Gresham, formulée par Copernic (1517-1526) avant d'être nommée d'après Gresham (1857) | fait | routine-production | 2026-09-24 |
+| Économie | Le jeu de l'ultimatum (Güth, Schmittberger, Schwarze, 1982), l'homo economicus pris en défaut | fait | routine-production | 2026-09-25 |
+| Économie | Le mal hollandais : la découverte du gisement de Groningue (1959) et la désindustrialisation néerlandaise | fait | routine-production | 2026-09-25 |
+| Économie | L'indice Big Mac (Pam Woodall, The Economist, septembre 1986) et la parité de pouvoir d'achat | fait | routine-production | 2026-09-25 |
+| Économie | « À long terme, nous serons tous morts » (Keynes, 1923), le contresens le plus répandu de l'économie | fait | routine-production | 2026-09-25 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
