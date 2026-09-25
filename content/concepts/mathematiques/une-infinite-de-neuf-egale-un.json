@@ -89,12 +89,21 @@
       "explication": "Robinson construit un cadre, distinct des nombres réels usuels, où des quantités infinitésimales non nulles existent. L'intuition d'un tout petit écart y trouve un sens réel — mais dans ce système, ce n'est plus la suite 0,999… avec une infinité ordinaire de 9 qui porte cet écart."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-25T10:14:42.664Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-25T10:14:42.664Z",
+        "note": "Sources rouvertes : texte intégral de Cauchy (archive.org, coursdanalysedel00cauc_djvu.txt) — le Chapitre VI, §1 donne mot pour mot la définition citée par le repere ('si... la somme s_n s'approche indéfiniment d'une certaine limite s, la série sera dite convergente, et la limite en question s'appellera la somme de la série'), page ~124-125. Wikipedia 0.999... confirme Dedekind/Cantor 1872 et Euler 1770 mot pour mot. Wikipedia Non-standard analysis confirme l'article de Robinson en 1961 et le livre de 1966. Corps, repere, carte et quiz conformes ; rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",

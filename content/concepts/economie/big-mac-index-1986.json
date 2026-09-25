@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "En juillet 2023, un Big Mac coûtait 6,70 francs suisses contre 5,58 dollars aux États-Unis — un taux implicite indiquant un franc suisse surévalué d'environ 38 % par rapport au dollar.",
-    "source": "Britannica Money, « What Is the Big Mac Index? »",
-    "url": "https://www.britannica.com/money/Big-Mac-index"
+    "source": "The Economist, jeu de données « big-mac-data », ligne du 1er juillet 2023",
+    "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv"
   },
   "carte": {
     "punch": "En 1986, un journal compare le prix d'un hamburger d'un pays à l'autre pour juger les monnaies.",
@@ -32,12 +32,12 @@
     },
     {
       "type": "web",
-      "auteur": "Britannica Money",
-      "titre": "What Is the Big Mac Index? History, Formula, & Examples",
-      "publication": "Encyclopædia Britannica",
+      "auteur": "The Economist",
+      "titre": "big-mac-data — données sources de l'indice Big Mac",
+      "publication": "GitHub (TheEconomist/big-mac-data)",
       "annee": null,
-      "url": "https://www.britannica.com/money/Big-Mac-index",
-      "note": "Confirme le principe de la parité de pouvoir d'achat illustré par l'indice et donne l'exemple chiffré et daté de juillet 2023 (Big Mac à 6,70 francs suisses contre 5,58 dollars, franc suisse surévalué d'environ 38,5 %)."
+      "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv",
+      "note": "Jeu de données brut publié par The Economist. Ligne du 1er juillet 2023 : Suisse (CHE), prix local 6,7 CHF ; États-Unis, prix local 5,58 USD ; indice USD brut 0,38515, soit une surévaluation d'environ 38,5 % du franc suisse."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -57,15 +57,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Un taux implicite plus élevé que le taux réel signale une monnaie surévaluée, un taux plus bas une monnaie sous-évaluée — c'est le principe de la parité de pouvoir d'achat que l'indice illustre, pas la qualité du produit ni le nombre de restaurants.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-25T10:15:59.282Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-09-25T10:15:59.282Z",
+        "note": "Sources rouvertes : Wikipedia 'Big Mac Index' confirme création par Pam Woodall en septembre 1986 dans The Economist, republication annuelle, principe de calcul, limites et indices dérivés (Tall Latte, Billy index). Problème trouvé sur le repere : la source citée (Britannica Money) affiche aujourd'hui un exemple daté de janvier 2025 (Suisse 7,99$ vs US 5,79$) et non plus celui de juillet 2023 qu'elle est censée soutenir — contenu dynamique qui a tourné depuis la génération de la fiche. Corrigé : repere et sources[] pointent désormais vers le jeu de données brut de The Economist sur GitHub (big-mac-data), dont la ligne du 1er juillet 2023 confirme exactement les trois chiffres du repere (Suisse 6,7 CHF, États-Unis 5,58 USD, indice USD brut 0,38515 soit ~38,5%) — vérifié directement dans ce fichier. Le texte ayant été touché, l'empreinte a changé : la fiche repasse au contrôle avant de pouvoir être validée par un passage indépendant sur ce texte exact. Corps, carte et quiz restent conformes et n'ont pas été touchés."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-25",

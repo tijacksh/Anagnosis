@@ -61,12 +61,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-25T10:14:39.203Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-25T10:14:39.203Z",
+        "note": "Citation rouverte mot pour mot dans le texte intégral (archive.org, Ramanujan-Hardy-1940_djvu.txt, autour de 'Putney'/'1729') : correspond exactement, aux coquilles OCR près. OEIS A001235 inaccessible depuis cet environnement (blocage réseau) ; les faits qu'elle sourçait (1729 = Ta(2), 87 539 319 = Ta(3) trouvé par John Leech en 1957) vérifiés indépendamment via Wikipedia 'Taxicab number', confirmés mot pour mot. Affirmation sur Euler et le cas n=3 de Fermat (1770) vérifiée via Wikipedia 'Fermat's Last Theorem'. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-24",

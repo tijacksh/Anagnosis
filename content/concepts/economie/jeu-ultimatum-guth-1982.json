@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-25T10:14:45.797Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-25T10:14:45.797Z",
+        "note": "Sources rouvertes : Wikipedia 'Ultimatum game' confirme l'article fondateur (Güth, Schmittberger, Schwarze, JEBO 3(4), 1982, p.367-388), l'offre moyenne ~40%, le refus fréquent sous 30%, et les réplications à enjeux élevés (Indonésie, Inde jusqu'à 40 semaines de salaire) qui soutiennent la mention de sommes équivalentes à plusieurs mois de salaire local. Wikipedia 'Werner Güth' confirme son poste à Cologne 1977-1986. Wikipedia 'Inequity aversion' confirme Fehr et Schmidt 1999 et le lien avec le jeu de l'ultimatum. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-25",
