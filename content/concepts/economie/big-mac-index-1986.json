@@ -62,8 +62,20 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-25",
+    "verdict": "ok",
+    "empreinte": "e1ed0d8728483846",
+    "notes": [
+      "Sources rouvertes : Wikipedia 'Big Mac Index' confirme la création par Pam Woodall en septembre 1986 dans The Economist, la republication annuelle, le principe de calcul, les limites (loyer, main-d'œuvre, publicité) et les indices dérivés (Tall Latte de The Economist, Billy index de Bloomberg sur IKEA).",
+      "Repere vérifié via la donnée brute de The Economist (github.com/TheEconomist/big-mac-data, ligne 2023-07-01 Suisse) : local_price 6.7 CHF, dollar_price 5.58 USD, USD raw index 0.38515 — les trois chiffres du repere (6,70 CHF, 5,58 USD, ~38%) correspondent exactement. La page Britannica citée dans sources[] affiche aujourd'hui un exemple plus récent (janvier 2025) et non celui de juillet 2023 : contenu dynamique qui a tourné depuis la génération de la fiche, mais le chiffre est confirmé indépendamment par la source primaire. Quiz conforme."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-09-25",
