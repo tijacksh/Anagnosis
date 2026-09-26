@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T22:10:54.183Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T22:10:54.183Z",
+        "note": "Sources rouvertes indépendamment : Britannica confirme les superficies Groenland (2 166 086 km², 'roughly the size of Saudi Arabia') et Afrique ('more than 30 million square kilometers'), et le mécanisme (projection cylindrique qui 'disproportionately exaggerates the size of landmasses that are more distant from the Equator'). Wikipedia Mercator projection confirme le facteur d'échelle croissant avec la latitude, les exemples Alaska/Australie (4,5x) et Madagascar/Royaume-Uni (plus du double), et la résolution de 1989 par sept organisations nord-américaines rejetant les projections cylindriques (Mercator et Gall-Peters) pour les cartes murales. Wikipedia Gall-Peters projection confirme la description de Gall en 1855, la présentation indépendante de Peters en 1973, l'adoption UNESCO/écoles britanniques/Boston (mars 2017)/Nebraska (avril 2024). Carte, repère et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-26",

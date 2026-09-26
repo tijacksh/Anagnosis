@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T22:10:50.556Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T22:10:50.556Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia UTC+14:00 confirme le passage des îles de la Ligne d'UTC-10/-11 à UTC+13/+14 le 31 décembre 1994 et Kiritimati comme point habité le plus en avance, ET confirme littéralement (section History) que les bureaux administratifs des deux moitiés du pays ne communiquaient que 'the four days of the week when both sides experienced weekdays simultaneously' — le chiffre du quiz est bien sourcé sur cette même page, pas seulement plausible. Wikipedia Millennium Island confirme le renommage d'août 1997 et la célébration de décembre 1999 (70 chanteurs/danseurs, 25 journalistes). Wikipedia Time in Samoa confirme le passage UTC-11→UTC+13 fin décembre 2011 avec suppression du vendredi 30 décembre, motivé par le rapprochement commercial avec Australie/Nouvelle-Zélande/Chine — la fiche parle de 'jours ouvrés', paraphrase raisonnable de la même réalité. Carte, repère et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-26",

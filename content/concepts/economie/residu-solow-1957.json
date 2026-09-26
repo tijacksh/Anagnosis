@@ -76,12 +76,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T22:10:45.958Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T22:10:45.958Z",
+        "note": "Sources rouvertes indépendamment : encyclopedia.com/solow-residual cite mot pour mot 'about one-eighth of the increment in labor productivity could be attributed to increased capital per man-hour, and the remaining seven-eighths to the residual' pour la période 1909-1949 où 'output per man-hour approximately doubled' — citation exacte. Wikipedia Solow residual confirme le lien avec l'article de 1957 et l'usage ultérieur comme productivité totale des facteurs. NobelPrize.org bloqué (403) mais WebSearch indépendant confirme la formule exacte 'for his contributions to the theory of economic growth' (Nobel 1987), via nobelprize.org/prizes/economic-sciences/1987 et NBER. Citation, carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-26",
