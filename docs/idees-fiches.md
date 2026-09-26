@@ -106,6 +106,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Économie | La maladie des coûts de Baumol (1965-1966) : le quatuor à cordes qui ne va pas plus vite qu'en 1826 | fait | routine-production | 2026-09-26 |
 | Économie | Le massacre des rats de Hanoï (avril-juin 1902) : la prime à la queue qui a fait le jeu des éleveurs clandestins | fait | routine-production | 2026-09-26 |
 | Économie | Le résidu de Solow (1957) : sept huitièmes de la croissance américaine 1909-1949 que le capital n'explique pas | fait | routine-production | 2026-09-26 |
+| Géographie | La projection de Mercator (1569) et le Groenland aussi grand que l'Afrique sur la carte | fait | routine-production | 2026-09-26 |
+| Géographie | La conférence internationale du méridien (Washington, 1884) et l'abstention française | fait | routine-production | 2026-09-26 |
+| Géographie | Sandy Island (1876-2012), l'île portée sur les cartes qui n'a jamais existé | fait | routine-production | 2026-09-26 |
+| Géographie | Kiribati et le déplacement de la ligne de changement de date (31 décembre 1994) | fait | routine-production | 2026-09-26 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*

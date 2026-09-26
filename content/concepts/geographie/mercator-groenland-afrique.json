@@ -1,0 +1,86 @@
+{
+  "id": "ggr-mercator-groenland-afrique",
+  "slug": "mercator-groenland-afrique",
+  "titre": "La projection de Mercator, ou le Groenland grand comme l’Afrique",
+  "accroche": "Sur la plupart des cartes murales, le Groenland paraît presque aussi grand que l’Afrique. Il en tient quatorze fois.",
+  "discipline": "geographie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Ouvrez n'importe quelle carte du monde punaisée dans une salle de classe, ou celle qui s'affiche par défaut dans la plupart des logiciels avant qu'on y touche : le Groenland y occupe une masse presque aussi large que l'Afrique entière. L'œil range spontanément les deux dans la même catégorie de taille. C'est faux dans des proportions vertigineuses : l'Afrique couvre plus de 30 millions de kilomètres carrés, le Groenland un peu plus de 2 millions. L'Afrique est environ quatorze fois plus grande.\n\n## Le mécanisme\n\nLa responsable de cette illusion a un nom et une date : la projection mise au point par le cartographe flamand Gerardus Mercator en 1569. Son objectif n'était pas de représenter fidèlement les surfaces, mais de conserver les angles : sur une carte de Mercator, une route tracée en ligne droite correspond à un cap constant à la boussole, ce qui en fait un outil décisif pour la navigation en haute mer, où l'on ne peut pas recalculer sa route à chaque instant. Ce choix a un coût. La projection étire les surfaces à mesure qu'on s'éloigne de l'équateur, selon un facteur qui croît avec la latitude et devient infini aux pôles. Résultat : l'Alaska paraît aussi vaste que l'Australie, qui lui est pourtant 4,5 fois supérieure en surface ; Madagascar semble à peine plus grand que le Royaume-Uni, alors qu'elle fait plus du double. Le Groenland, tout proche du pôle, en est l'exemple le plus spectaculaire.\n\n## Le déplacement\n\nL'histoire ne s'arrête pas à une curiosité de cartographe. En 1973, l'historien allemand Arno Peters présente une projection concurrente, à surfaces égales, et l'accompagne d'une charge politique : selon lui, la Mercator, en gonflant l'Europe et l'Amérique du Nord au détriment de l'Afrique et de l'Amérique du Sud, aurait installé une vision du monde eurocentrée jusque dans les salles de classe. La projection porte aujourd'hui le nom de Gall-Peters, du nom du cartographe britannique James Gall qui l'avait décrite dès 1855 sans que Peters ne le mentionne. Elle a été reprise par l'UNESCO, largement diffusée dans les écoles britanniques, puis adoptée en 2017 par les écoles publiques de Boston — première juridiction américaine à l'imposer — et par le Nebraska en 2024.\n\nLa communauté des cartographes professionnels, elle, n'a jamais tranché en faveur de Peters. En 1989, sept associations géographiques et cartographiques nord-américaines ont adopté une résolution commune qui ne réhabilite pas Mercator pour autant : elle rejette toute carte murale du monde construite sur une projection rectangulaire, Gall-Peters comprise. La raison tient en une phrase : aucune projection plane ne peut préserver à la fois les surfaces, les angles et les distances, la sphère ne se déplie pas sans se déformer quelque part. Choisir Gall-Peters pour corriger Mercator revient à échanger une distorsion contre une autre, moins visible sur les surfaces mais sévère sur les formes des continents proches des pôles. Mercator, de son côté, reste aujourd'hui la projection des cartes marines et de la plupart des services de navigation en ligne, pour la même raison qu'en 1569 : elle seule garde le cap.",
+  "citation": null,
+  "repere": {
+    "texte": "Le Groenland s'étend sur environ 2,17 millions de kilomètres carrés, l'Afrique sur plus de 30 millions : l'Afrique est quatorze fois plus grande, alors que les deux paraissent de taille comparable sur une carte de Mercator.",
+    "source": "Encyclopaedia Britannica, « Why Does Greenland Look So Big on Some Maps? »",
+    "url": "https://www.britannica.com/place/Why-Does-Greenland-Look-So-Big-on-Some-Maps"
+  },
+  "carte": {
+    "punch": "Sur une carte de Mercator, le Groenland paraît aussi grand que l'Afrique. Il y tient quatorze fois.",
+    "idee": "En 1569, Gerardus Mercator conçoit une projection qui conserve les angles pour la navigation, au prix d'un étirement des surfaces vers les pôles. Résultat, quatre siècles plus tard : le Groenland paraît aussi grand que l'Afrique, qui lui est pourtant quatorze fois supérieure en surface.",
+    "source_courte": "Encyclopaedia Britannica"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Encyclopaedia Britannica",
+      "titre": "Why Does Greenland Look So Big on Some Maps?",
+      "publication": "Encyclopaedia Britannica",
+      "annee": null,
+      "url": "https://www.britannica.com/place/Why-Does-Greenland-Look-So-Big-on-Some-Maps",
+      "note": "Confirme les superficies du Groenland (2 166 086 km²) et de l'Afrique (plus de 30 millions de km²), le facteur d'environ quatorze, et le mécanisme de la projection de Mercator qui exagère les surfaces avec la latitude."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Mercator projection",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Mercator_projection",
+      "note": "Confirme le facteur d'échelle qui croît avec la latitude, les exemples Alaska/Australie (4,5x) et Madagascar/Royaume-Uni (plus du double), et la résolution de 1989 par sept organisations géographiques nord-américaines rejetant toutes les projections rectangulaires pour les cartes murales du monde."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Gall–Peters projection",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Gall%E2%80%93Peters_projection",
+      "note": "Confirme la présentation de la projection par Arno Peters en 1973, l'antériorité non créditée de James Gall (1855), l'adoption par l'UNESCO et les écoles britanniques, puis par les écoles publiques de Boston en 2017 et le Nebraska en 2024."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : deux silhouettes continentales stylisées côte à côte, l'une démesurément agrandie par une grille de lignes de projection qui se resserre vers le haut, l'autre à échelle réelle mais réduite. Formes géométriques nettes, pas de dégradé, deux encres contrastées sur fond clair.",
+    "alt": "Deux silhouettes continentales, l'une déformée et agrandie par une grille de projection",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le Groenland paraît-il aussi grand que l’Afrique sur une carte de Mercator ?",
+    "choix": [
+      "Parce que la projection de Mercator étire les surfaces loin de l'équateur, pour préserver les angles utiles à la navigation",
+      "Parce que la calotte glaciaire du Groenland agrandit sa silhouette visible depuis l'espace",
+      "Parce que les premiers cartographes n'avaient pas encore mesuré précisément les contours de l'Afrique",
+      "Parce que l'Afrique est redessinée à une échelle réduite pour tenir sur la page"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La projection de Mercator conserve les angles pour permettre de naviguer au cap constant, mais ce choix étire les surfaces proportionnellement à la latitude : c'est ce qui gonfle tout ce qui s'éloigne de l'équateur, comme le Groenland, sans que la taille réelle des continents n'ait changé.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-09-26",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
