@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T10:12:34.969Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T10:12:34.969Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia 'Elinor Ostrom' confirme dates de vie (1933-2012), 47 ans à Indiana University, Governing the Commons (Cambridge UP, 1990), prix Banque de Suède 2009 partagé avec Williamson (première femme lauréate), les huit principes exacts (limites claires, congruence, choix collectif, surveillance, sanctions graduées, résolution des conflits, reconnaissance du droit à s'organiser, organisation emboîtée) et les terrains d'étude cités. Wikipedia 'Tragedy of the commons' confirme l'article de Hardin dans Science 1968, la reprise par Ostrom en 1999, et l'alpage suisse géré en commun depuis 1517 (citation exacte retrouvée). Wikipedia 'Common-pool resource' confirme la liste des huit principes mot pour mot. Repère, carte et quiz conformes aux sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-25",

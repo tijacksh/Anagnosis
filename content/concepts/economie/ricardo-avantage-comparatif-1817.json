@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T10:12:37.774Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T10:12:37.774Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia 'Comparative advantage' confirme la publication de 1817 (On the Principles of Political Economy and Taxation), les chiffres exacts (Angleterre 100h drap/120h vin, Portugal 90h drap/80h vin), la distinction avantage absolu/comparatif et le contexte des Corn Laws de 1815. Wikipedia 'David Ricardo' confirme les dates de vie (1772-1823), la carrière de stockbroker puis de député (Portarlington, 1819-1823), et l'opposition aux Corn Laws. Repère (chiffres identiques), carte et quiz conformes aux sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-25",

@@ -70,12 +70,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T10:12:45.498Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T10:12:45.498Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia 'Baumol's cost disease' confirme le mécanisme et la citation exacte sur le violoniste/quatuor de Schubert (« the output per man-hour of the violinist playing a Schubert quartet in a standard concert hall is relatively fixed »), et l'extension à la santé, l'éducation, les services publics. Archive.org confirme titre exact, auteurs, éditeur (Twentieth Century Fund) et année (1966) du livre. JSTOR (page de l'article original) inaccessible en fetch direct (contenu dynamique) ; recherche web indépendante confirme la référence bibliographique exacte (AER vol 55 n°1/2, 1965, p.495-502) et la citation. Citation, carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-26",

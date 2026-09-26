@@ -76,12 +76,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-26T10:12:42.040Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-26T10:12:42.040Z",
+        "note": "Sources rouvertes indépendamment : Wikisource WN IV.2 confirme mot pour mot la citation de la fiche (« led by an invisible hand to promote an end which was no part of his intention »). Wikisource TMS Part IV confirme la première occurrence (1759, propriétaire terrien). Wikipedia 'Invisible hand' confirme ces deux occurrences et la popularisation par Samuelson (manuel Economics, 1948, citation retrouvée : « proclaimed the mystical principle... »). econjwatch.org (article de Gavin Kennedy, 2009) reste bloqué par le proxy réseau comme lors du contrôle précédent ; corroboration indépendante trouvée via plusieurs sources tierces (Jason Collins blog, Journaltalk, chapitre Springer 'Wonderful Wheels and Invisible Hands') confirmant la troisième occurrence exacte dans History of Astronomy (« nor was the invisible hand of Jupiter every apprehended to be employed in those matters ») et l'argument de Kennedy (trois occurrences seulement, jamais comme théorie générale). Citation, carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-26",
