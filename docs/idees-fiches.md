@@ -102,6 +102,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Économie | Le choc Nixon (15 août 1971) : la fin improvisée de la convertibilité du dollar en or | fait | routine-production | 2026-09-25 |
 | Économie | Mincome à Dauphin, Manitoba (1974-1979) : l'expérience de revenu garanti analysée trente ans après par Evelyn Forget | fait | routine-production | 2026-09-25 |
 | Économie | L'avantage comparatif de Ricardo (1817) : pourquoi commercer même avec le meilleur en tout | fait | routine-production | 2026-09-25 |
+| Économie | La main invisible d'Adam Smith (1759, 1776) : trois occurrences, jamais théorisées comme telle avant Samuelson (1948) | fait | routine-production | 2026-09-26 |
+| Économie | La maladie des coûts de Baumol (1965-1966) : le quatuor à cordes qui ne va pas plus vite qu'en 1826 | fait | routine-production | 2026-09-26 |
+| Économie | Le massacre des rats de Hanoï (avril-juin 1902) : la prime à la queue qui a fait le jeu des éleveurs clandestins | fait | routine-production | 2026-09-26 |
+| Économie | Le résidu de Solow (1957) : sept huitièmes de la croissance américaine 1909-1949 que le capital n'explique pas | fait | routine-production | 2026-09-26 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
