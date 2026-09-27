@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-27T10:15:11.350Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-27T10:15:11.350Z",
+        "note": "Sources rouvertes indépendamment : NOAA (confirme littéralement les 2072 m et le mécanisme du renflement équatorial, Chimborazo à 1° de latitude sud) ; Wikipedia en Chimborazo (altitude 6263,47 m GPS 2016, ascension Humboldt/Bonpland/Montúfar juin 1802, altitude atteinte 5875 m, exploration par la mission géodésique française en 1746) ; Wikipedia en French Geodesic Mission to the Equator (départ mai 1735, mesures achevées 1739, séjour prolongé, démonstration combinée de l'aplatissement terrestre avec la mission de Laponie). Date exacte du 23 juin 1802 pour l'ascension confirmée par recherche indépendante (dhm.de, Brewminate, autres sources croisées). Chiffres Mauna Kea (10 000 m dénivelé total, 4207 m au-dessus de la mer) confirmés par recoupement indépendant. Repère, carte et quiz conformes aux sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",
