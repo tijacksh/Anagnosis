@@ -169,6 +169,7 @@ principal.
   et du Play Store, pas de l'état fusionné.
 
 **Non tranché :** le prix. 3,49 €/mois et 29 €/an restent des espaces réservés.
+*Tranché le 2026-09-27 : 3,49 €/mois et 24,99 €/an.*
 
 ---
 
@@ -248,6 +249,7 @@ le contenu et a dû inventer cinq fiches pour maquetter.
   affaiblirait le verrou du un-par-jour — tombe : c'est la frustration réglée qui vend.
 - **Les prix sont reportés.** 3,49 €/mois et 29 €/an figurent dans les maquettes comme
   espace réservé. Priorité au build — rattachement des cartes et des domaines d'abord.
+  *Tranchés le 2026-09-27 : 3,49 €/mois et 24,99 €/an.*
 
 ### Deux réserves consignées
 
@@ -937,7 +939,7 @@ hebdomadaire est le premier pas qui permettra de le savoir.
 |---|---|---|
 | Concept du jour | oui | oui |
 | Recul | 3 jours, **même déjà lue** | tout, rien ne se referme |
-| Disciplines | 3, **un changement offert** | toutes, un changement par mois |
+| Disciplines | ~~3~~ **2** (2026-09-27), **un changement offert** | toutes, ~~un changement par mois~~ sans délai |
 | Rappel | une fois par semaine | trois questions par jour |
 | Récap, relevé | **ouverts**, fiches cliquables | ouverts |
 | Écoute, recherche, révision, planches, PDF | fermés | ouverts |
@@ -966,6 +968,8 @@ l'argument du **passé**, parce que c'est le passé qui manque à ce moment-là,
 
 ### Les disciplines
 
+*Amendé le 2026-09-27 : deux sans abonnement, plus trois — voir l'entrée de ce jour.*
+
 Trois sans abonnement, et le plafond vaut **exactement** le plancher : cocher une quatrième
 n'affiche pas un refus, ça ouvre l'offre. Le lecteur découvre la limite en la touchant, jamais
 en lisant une note en bas d'écran.
@@ -974,6 +978,9 @@ en lisant une note en bas d'écran.
 règle demandée ; elle a été adoucie d'un cran parce que « j'ai coché Archéologie par curiosité
 et je suis coincé » est le seul cas où le lecteur a raison d'être furieux, et c'est un
 désinstallé, pas un abonné. Un changement rend l'erreur rattrapable sans ouvrir le zapping.
+
+*Amendé depuis : l'abonné change quand il veut, le délai d'un mois a été retiré du code
+(`Regles.refusDeChangement`, qui en donne la raison). Consigné le 2026-09-27.*
 
 Côté Premium, toutes les disciplines mais **un changement par mois** : chaque changement
 rebat les jours à venir, et le rendre libre inviterait à piocher dans le corpus en changeant
@@ -1068,7 +1075,8 @@ pour celui qui ne change pas.
 
 ## 2026-08-20 — Le paiement : deux boutiques, aucun serveur
 
-**Décidé :** 3,99 €/mois et 29,99 €/an, sept jours d'essai, **facturation entièrement côté
+**Décidé :** ~~3,99 €/mois et 29,99 €/an~~ 3,49 €/mois et 24,99 €/an (prix revus le
+2026-09-27), sept jours d'essai, **facturation entièrement côté
 client**. StoreKit 2 sur iOS, Play Billing 7 sur Android. Aucun backend, aucun compte, aucun
 service tiers.
 
@@ -1288,3 +1296,43 @@ relecture des routines tient lieu de vérification.
 - Pour vérifier que la publication suit : les fiches `valide` de `main` doivent toutes
   figurer dans `https://anagnosis.fr/contenu/concepts.json`. Un échec du workflow
   « Déployer sur Netlify » dans GitHub Actions signale un hook mort ou un secret perdu.
+
+---
+
+## 2026-09-27 — Deux disciplines sans abonnement, et les prix
+
+**Décidé :** l'offre gratuite ouvre **trois jours en tout** et **deux disciplines**. L'abonnement
+coûte **3,49 € par mois ou 24,99 € par an**.
+
+### L'offre gratuite
+
+Trois jours consultables : aujourd'hui et les deux précédents, la fenêtre glissant d'un jour
+chaque matin (`Regles.joursLibresEnArriere = 2`). Deux disciplines, pas trois : c'est à la fois
+le plancher de l'onboarding et le plafond sans abonnement (`disciplinesMinimum` et
+`disciplinesMaximumGratuit`, `DISCIPLINES_MINIMUM` et `DISCIPLINES_MAXIMUM_GRATUIT` côté
+Android). Le changement de sélection offert reste unique.
+
+**Pourquoi deux.** Pour que l'avantage Premium soit net. Il se dit alors en une ligne, celle
+que l'offre affiche déjà : « Deux disciplines sans abonnement, toutes avec. »
+
+**Ce que ça coûte, et qu'on assume.** À deux disciplines, la suite d'un lecteur boucle plus
+tôt qu'à trois, et le contenu se répète donc plus vite pour qui ne s'abonne pas. C'est le
+levier voulu ; il suppose que chaque discipline offerte garde un stock suffisant
+(`src/cible.js`).
+
+Le code appliquait déjà ces valeurs des deux côtés, et les textes des deux apps disaient déjà
+« deux » ; vérifié ce jour, rien n'y a été modifié. Ce sont les documents qui disaient encore
+trois (le tableau du 2026-08-19, `docs/ecrans.md` §5, `INSTALLATION.md` du client Android) :
+ils sont corrigés.
+
+### Les prix
+
+**3,49 € par mois, 24,99 € par an.** Ils remplacent les 3,99 € et 29,99 € du 2026-08-20, et les
+29 € par an des maquettes (`docs/ecrans.md` §9, `docs/direction-artistique.md` §14).
+
+**Pas encore implémentés.** Rien à écrire dans le code : les deux apps affichent le prix
+localisé que fournit la boutique, jamais un montant écrit en dur (2026-08-20, « Trois pièges
+déjà rencontrés »). Les produits ne sont créés ni dans App Store Connect ni dans la Play
+Console ; les identifiants attendus restent ceux du 2026-08-20.
+
+**Non tranché :** les sept jours d'essai restent tels qu'écrits le 2026-08-20.

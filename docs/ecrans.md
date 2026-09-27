@@ -109,7 +109,8 @@ bannière.
 
 Trois étapes. Étape 2 : sélection des disciplines + heure de notification.
 La tuile sélectionnée se remplit de l'encre de la discipline — on voit la
-palette de sa série se composer. Trois disciplines minimum recommandées.
+palette de sa série se composer. **Deux disciplines** sans abonnement : c'est à la fois le
+minimum et le maximum (`decisions.md`, 2026-09-27). Toutes avec Premium.
 
 Le bouton dit « Commencer demain matin », pas « Commencer » : la cadence est
 posée avant la première fiche.
@@ -150,9 +151,9 @@ compte Premium elle ouvre l'archive. **Le compte à rebours ne change jamais.**
 ## 9. Points encore ouverts
 
 - Nom de l'app : maquettes faites sous « Anagnosis ». Le logotype reste à dessiner.
-- Prix : 3,49 € / mois et 29 € / an affichés dans le paywall, cohérents avec les
-  repères marché du brief mais non tranchés.
-- Encres des quatre disciplines d'extension.
+- Prix : **tranchés le 2026-09-27**, 3,49 € / mois et 24,99 € / an (`decisions.md`). Les
+  29 € / an des maquettes sont caducs. Le paywall affiche le prix localisé fourni par la
+  boutique, jamais un montant écrit dans l'app.
 - Contrastes : six des neuf encres échouent sous 4,5:1 sur papier. Elles sont
   cantonnées aux aplats et libellés forts. Les assombrir si l'on veut pouvoir
   les utiliser en libellé fin.

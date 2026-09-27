@@ -49,8 +49,11 @@ export const SOCLE = 25;
  * suite du client **boucle une fois épuisée**. Un lecteur qui la coche voit revenir les
  * mêmes fiches, ce qui est bien pire qu'une case absente.
  *
- * Douze, parce que l'onboarding impose trois disciplines : à douze chacune, la première
- * répétition n'arrive pas avant trente-six jours. En dessous, elle se voit.
+ * Douze, fixé quand l'onboarding imposait trois disciplines : à douze chacune, la première
+ * répétition n'arrivait pas avant trente-six jours. Le lecteur gratuit n'en coche plus que
+ * deux (`docs/decisions.md`, 2026-09-27) : à douze, elle arrive désormais au bout de
+ * vingt-quatre jours. Le plancher n'a pas bougé ; le monter à dix-huit rendrait les
+ * trente-six jours.
  *
  * Le socle de vingt-cinq reste la cible de fond ; ce plancher-ci ne fait que décider de
  * l'ordre dans lequel on y va.

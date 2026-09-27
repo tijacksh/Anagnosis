@@ -281,5 +281,6 @@ exportables via `npm run export`.
 - **Les six encres sous 4,5:1 de contraste** (charte §2.2). Cantonnées aux aplats et
   aux libellés de 15 px en graisse forte. À assombrir si l'on veut un jour pouvoir
   les employer en libellé fin.
-- **Les prix.** 3,49 €/mois et 29 €/an figurent dans les maquettes du paywall à titre
-  d'espace réservé. Non tranchés — décision reportée après le build.
+- **Les prix.** 3,49 €/mois et 29 €/an figuraient dans les maquettes du paywall à titre
+  d'espace réservé. Tranchés le 2026-09-27 : 3,49 €/mois et **24,99 €/an**
+  (`docs/decisions.md`).

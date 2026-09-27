@@ -262,7 +262,7 @@ Deux choses la distinguent des quatre autres routines :
   celle-ci ne dépend de personne et n'alimente personne dans la journée.
 
 L'ordre du lot est **une fiche par discipline en tournant**, la moins avancée d'abord. Ce
-n'est pas de l'esthétique : le lecteur ne coche que trois disciplines, et un rattrapage
+n'est pas de l'esthétique : le lecteur gratuit ne coche que deux disciplines, et un rattrapage
 alphabétique remplirait Anthropologie en entier avant de toucher à la Physique. Même
 raisonnement que `src/cible.js`, pour la même raison.
 
@@ -340,6 +340,5 @@ Deux points à ne pas perdre de vue en y touchant :
 - Direction artistique des illustrations — les `illustration.prompt` actuels sont
   des points de départ, à reprendre au Lot 5 avec Claude Design. Exigence non
   négociable : le rendu ne doit jamais être identifiable comme généré par IA
-- Prix des paliers premium (brief §14)
 - Lancer les 9 disciplines d'emblée, ou un sous-ensemble (brief §14, amendé par
   l'ajout de Médecine / Santé)
