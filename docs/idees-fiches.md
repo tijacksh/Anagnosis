@@ -110,6 +110,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Géographie | La conférence internationale du méridien (Washington, 1884) et l'abstention française | fait | routine-production | 2026-09-26 |
 | Géographie | Sandy Island (1876-2012), l'île portée sur les cartes qui n'a jamais existé | fait | routine-production | 2026-09-26 |
 | Géographie | Kiribati et le déplacement de la ligne de changement de date (31 décembre 1994) | fait | routine-production | 2026-09-26 |
+| Géographie | Point Nemo (48°52,6′S 123°23,6′O), le pôle océanique d'inaccessibilité devenu cimetière de satellites | fait | routine-production | 2026-09-27 |
+| Géographie | Triple Divide Peak (Montana) vs Snow Dome (Alberta) : lequel des deux est le vrai point triple des trois océans | fait | routine-production | 2026-09-27 |
+| Géographie | Le Chimborazo, point du globe le plus loin du centre de la Terre (renflement équatorial) | fait | routine-production | 2026-09-27 |
+| Géographie | Baarle-Hertog / Baarle-Nassau : les enclaves belgo-néerlandaises nées d'un partage de terres médiéval | fait | routine-production | 2026-09-27 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
