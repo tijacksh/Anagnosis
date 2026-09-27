@@ -84,12 +84,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-27T22:17:10.365Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-27T22:17:10.365Z",
+        "note": "Sources rouvertes indépendamment : NASA Earth Observatory confirme l'expédition 2007 sur le Nevado Mismi et la difficulté générale de fixer la longueur exacte d'un fleuve. phys.org confirme les coordonnées de la Cordillera Rumi Cruz (10,7320°S 76,6480°O, ~5220 m), la méthode (cartes, imagerie satellite, GPS) et l'écart de 75-92 km avec le Nevado Mismi. en.wikipedia Source of the Amazon River confirme toute la chronologie (1969 Peñaherrera del Águila/Carhuasanta, 1971 McIntyre/lac au nord du Mismi, 1996-97 Pałkiewicz-Novoa/source Apacheta, 1999-2000 Janský/retour au Carhuasanta, 2014 Contos-Tripcevich/Rumi Cruz). en.wikipedia Nile confirme les 7088 km et la source au Rukarara (Nyungwe, Rwanda, 2539 m) ; le 'vers 2000' de la fiche pour cette redéfinition reste une approximation explicite, non contredite. en.wikipedia Kagera River confirme le débat non tranché entre affluents Nyabarongo (Rwanda) et Ruvubu (Burundi). Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",

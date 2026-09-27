@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-27T22:15:57.899Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-27T22:15:57.899Z",
+        "note": "Trois sources rouvertes indépendamment : unstats.un.org/m49 confirme 5 régions géographiques (Afrique, Amériques, Asie, Europe, Océanie), Amériques comme bloc unique à ce niveau macro (sous-régions distinctes en dessous, non contradictoire), Antarctique hors classification. fr.wikipedia Continent confirme les modèles à six (Amérique unifiée, francophonie) et cinq continents (ONU, CIO, sans Antarctique) et l'absence de définition scientifique unique. en.wikipedia Boundaries between the continents et Continent confirment Strahlenberg 1725 (Don->Volga->Oural), le modèle à sept continents anglophone et le modèle à six avec Eurasie unifiée (Russie/Europe de l'Est). Carte et quiz conformes au texte. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",

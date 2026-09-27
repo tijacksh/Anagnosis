@@ -12,13 +12,13 @@
   "citation": {
     "texte": "In Bali we have barbets, fruit-thrushes, and woodpeckers; on passing over to Lombock these are seen no more, but we have abundance of cockatoos, honeysuckers, and brush-turkeys, which are equally unknown in Bali, or any island further west. The strait is here fifteen miles wide, so that we may pass in two hours from one great division of the earth to another, differing as essentially in their animal life as Europe does from America.",
     "auteur": "Alfred Russel Wallace",
-    "source": "The Malay Archipelago (1869), chapitre X",
+    "source": "The Malay Archipelago (1869), chapitre I (« Physical Geography »)",
     "url": "https://www.gutenberg.org/files/2530/2530-h/2530-h.htm"
   },
   "repere": null,
   "carte": {
     "punch": "Deux îles à 35 km l'une de l'autre, deux faunes qui n'ont jamais existé ensemble.",
-    "idee": "En 1859, Wallace remarque qu'en traversant le détroit de 35 km entre Bali et Lombok, la faune change radicalement. La frontière n'est pas terrestre mais sous-marine : la mer y plonge à plus de 1 000 m, trop profonde pour qu'un pont de terre l'ait jamais comblée au plus bas des mers glaciaires.",
+    "idee": "En 1856, Wallace remarque qu'en traversant le détroit de 35 km entre Bali et Lombok, la faune change radicalement. La frontière n'est pas terrestre mais sous-marine : la mer y plonge à plus de 1 000 m, trop profonde pour qu'un pont de terre l'ait jamais comblée au plus bas des mers glaciaires.",
     "source_courte": "Wallace (1860) ; Ali & Heaney, Biological Reviews, 2021"
   },
   "sources": [
@@ -29,7 +29,7 @@
       "publication": "Macmillan and Co.",
       "annee": 1869,
       "url": "https://www.gutenberg.org/files/2530/2530-h/2530-h.htm",
-      "note": "Chapitre X : récit du passage de Bali à Lombok et description de la bascule de faune, citation vérifiée mot pour mot dans le texte intégral numérisé (Project Gutenberg)."
+      "note": "Chapitre I (« Physical Geography ») : la citation, présentée en ouverture du livre comme illustration du contraste zoologique, est vérifiée mot pour mot dans le texte intégral numérisé (Project Gutenberg). Le récit narratif du passage lui-même occupe le chapitre X (« Bali and Lombock »)."
     },
     {
       "type": "revue",
@@ -73,15 +73,24 @@
     ],
     "bonne_reponse": 2,
     "explication": "Bali repose sur le plateau continental de la Sonde, émergé lors des glaciations et relié à l'Asie ; le détroit de Lombok, lui, plonge à plus de 1 000 m et n'a jamais été asséché, même au plus bas niveau marin du Pléistocène. Le climat et les éruptions volcaniques n'expliquent rien de cette bascule brutale.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-27T22:16:59.636Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-09-27T22:16:59.636Z",
+        "note": "Sources rouvertes indépendamment (gutenberg.org/files/2530, academic.oup.com, en.wikipedia Wallace Line, en.wikipedia Alfred Russel Wallace, NCBI eutils pour Ali & Heaney 2021). Citation vérifiée mot pour mot, mais localisée en réalité au chapitre I (Physical Geography) et non au chapitre X comme l'indiquaient citation.source et la note de la source Gutenberg — corrigé. La carte datait à tort l'observation de 1859 (confusion avec la date où Wikipedia situe le tracé formel de la ligne) alors que la traversée Bali-Lombok est documentée en juin 1856 (arrivée à Lombok le 17 juin 1856) — corrigé en 1856 pour rester cohérent avec le corps du texte. Reste du contenu (profondeurs, plateaux de la Sonde/Sahul, baisse de 120 m au Pléistocène, nom donné par Huxley en 1868, référence Ali & Heaney Biological Reviews 96(3):922-942 2021) confirmé exact. Deux erreurs de date/attribution corrigées faute de pouvoir les faire vérifier par un passage indépendant dans le même mouvement : empreinte modifiée, la fiche doit repasser par un contrôle indépendant avant nouvelle décision de relecture."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",
