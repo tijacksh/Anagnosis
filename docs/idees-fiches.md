@@ -114,6 +114,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Géographie | Triple Divide Peak (Montana) vs Snow Dome (Alberta) : lequel des deux est le vrai point triple des trois océans | fait | routine-production | 2026-09-27 |
 | Géographie | Le Chimborazo, point du globe le plus loin du centre de la Terre (renflement équatorial) | fait | routine-production | 2026-09-27 |
 | Géographie | Baarle-Hertog / Baarle-Nassau : les enclaves belgo-néerlandaises nées d'un partage de terres médiéval | fait | routine-production | 2026-09-27 |
+| Géographie | La ligne de Wallace (1859-1860) entre Bali et Lombok : une frontière biogéographique sous-marine | fait | routine-production | 2026-09-27 |
+| Géographie | Nil ou Amazone : cinq relocalisations de la source amazonienne depuis 1969, un classement jamais tranché | fait | routine-production | 2026-09-27 |
+| Géographie | Combien de continents ? Cinq à sept selon le pays, l'ONU n'en retient que cinq « régions géographiques » | fait | routine-production | 2026-09-27 |
+| Géographie | Le mont Whitney et Badwater Basin (136 km), points extrêmes des États-Unis produits par la même faille | fait | routine-production | 2026-09-27 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
