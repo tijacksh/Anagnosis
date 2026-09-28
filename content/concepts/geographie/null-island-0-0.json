@@ -66,15 +66,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le lieu n'a rien de spécial sur le plan géographique : c'est un défaut de conception logicielle — renvoyer 0,0 plutôt que de signaler une erreur — qui y a agrégé un grand nombre de coordonnées mal calculées, au point que les cartographes lui ont donné un nom et l'ont même intégré comme repère dans un jeu de données.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-28T22:10:30.193Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-28T22:10:30.193Z",
+        "note": "Sources rouvertes : NDBC confirme coordonnées 0.000N 0.000E, appartenance Pirata, statut inactif (No Recent Reports, aucune donnée sur 45 jours). PMEL confirme partenariat France (IRD, Météo-France, CNRS, Ifremer)/Brésil (INPE, DHN)/USA (NOAA), Pirata établi mi-1990s. Wikipedia Null Island confirme localisation (~600 km au sud de l'Afrique de l'Ouest, ~4940 m de fond), origine du nom via Natural Earth (c. 2010-2011, polygone 1 m²), et historique de la bouée Soul (installée dans le réseau depuis 1997, disparue en moins d'un an, remplacée en 1998, mise hors service mars 2021). Carte et quiz conformes, rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-28",

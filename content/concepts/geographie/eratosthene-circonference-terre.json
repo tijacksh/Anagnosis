@@ -66,15 +66,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "La méthode d'Ératosthène (angle du Soleil, distance entre deux villes) est solide et bien documentée. Ce qui manque, c'est la valeur exacte de l'unité qu'il a utilisée, le stade grec, dont la longueur variait selon les cités antiques — d'où une fourchette d'erreur qui va de la quasi-exactitude à une approximation grossière.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-28T22:10:27.146Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-28T22:10:27.146Z",
+        "note": "Sources rouvertes : Britannica confirme méthode (Syène ombre nulle solstice, 7,2° Alexandrie), 250 000 stades, et cite mot pour mot « The exact length of the units (stadia) he used is doubtful [...] may have varied by 0.5 to 17 percent ». Wikipedia Eratosthenes confirme 5 000 stades par bématistes, traité perdu transmis via Cléomède, et le débat 250 000/252 000 stades (transmission romaine ou idéal platonicien). Wikipedia Earth's circumference confirme 252 000 stades et l'erreur -2,4%/+0,8% pour un stade de 155-160 m. Carte et quiz conformes aux sources, rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-28",
