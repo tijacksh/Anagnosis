@@ -118,6 +118,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Géographie | Nil ou Amazone : cinq relocalisations de la source amazonienne depuis 1969, un classement jamais tranché | fait | routine-production | 2026-09-27 |
 | Géographie | Combien de continents ? Cinq à sept selon le pays, l'ONU n'en retient que cinq « régions géographiques » | fait | routine-production | 2026-09-27 |
 | Géographie | Le mont Whitney et Badwater Basin (136 km), points extrêmes des États-Unis produits par la même faille | fait | routine-production | 2026-09-27 |
+| Géographie | L'Antarctique, plus grand désert du monde par la définition (précipitations, pas température) — 14,2 M km² contre 9,2 M pour le Sahara | fait | routine-production | 2026-09-28 |
+| Géographie | Les Aléoutiennes franchissent le 180e méridien : Amatignak (ouest) et Semisopochnoi (est) tiennent les deux extrêmes de longitude des États-Unis | fait | routine-production | 2026-09-28 |
+| Géographie | Null Island (0°N 0°E) : le point où les logiciels de géocodage placent leurs erreurs, et où une bouée Pirata (1997-2021) a réellement existé | fait | routine-production | 2026-09-28 |
+| Géographie | Ératosthène (v. 240 av. J.-C.) mesure la Terre à 250 000 stades depuis Alexandrie — une précision « à 1 % près » qu'on ne peut pas vérifier | fait | routine-production | 2026-09-28 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*

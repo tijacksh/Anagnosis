@@ -1,0 +1,78 @@
+{
+  "id": "ggr-null-island-0-0",
+  "slug": "null-island-0-0",
+  "titre": "Null Island, le point où la Terre n'a pas de terre",
+  "accroche": "Au croisement de l'équateur et du méridien de Greenwich, une bouée bien réelle a occupé l'un des points les plus « visités » de la cartographie numérique.",
+  "discipline": "geographie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Pendant près d'un quart de siècle, les États-Unis ont entretenu une bouée météo à un endroit très particulier : le point exact où l'équateur croise le méridien de Greenwich, en plein océan Atlantique, à environ 600 km au sud des côtes d'Afrique de l'Ouest, par près de 4 940 mètres de fond. Personne n'habite là. Et pourtant, dans les bases de données du monde entier, cet endroit compte parmi les plus « visités » de la planète.\n\n## Le mécanisme\n\n0° de latitude, 0° de longitude : le point ne porte aucune particularité géographique, seulement une particularité numérique — deux zéros. C'est justement ce qui en a fait, à partir des années 2010, un piège classique de la cartographie numérique. Quand un logiciel de géocodage ne parvient pas à convertir une adresse en coordonnées, ou quand un capteur GPS renvoie une valeur manquante, une pratique de programmation courante consiste à renvoyer 0,0 par défaut plutôt qu'à signaler l'erreur. Des enregistrements mal géolocalisés — photos, capteurs défaillants, adresses introuvables — se sont ainsi retrouvés, sur la carte, empilés au même endroit : en plein océan, au large du golfe de Guinée. Le jeu de données cartographiques Natural Earth a nommé le lieu « Null Island » en l'intégrant, vers 2010-2011, comme un minuscule polygone d'un mètre carré — délibérément trop petit pour apparaître sur une carte normale, mais assez réel dans les données pour que les logiciels puissent y détecter une anomalie plutôt que de la laisser passer en silence.\n\n## Le déplacement\n\nLe lieu n'a pourtant pas toujours été purement virtuel. Depuis la fin des années 1990, le programme océanographique Pirata — un réseau de bouées maintenu conjointement par les États-Unis, la France et le Brésil pour étudier les interactions entre océan et atmosphère dans l'Atlantique tropical — a mouillé une bouée baptisée « Soul », la station 13010, exactement à ces coordonnées. Emportée moins d'un an après son installation, elle a été remplacée dès 1998, puis a mesuré vent et température jusqu'à sa mise hors service en mars 2021.\n\nPendant plus de deux décennies, l'endroit que la plupart des bases de données ne visitaient que par erreur logicielle a donc, en réalité, porté un objet américain bien réel, entretenu par trois pays. La fiction et le fait cohabitaient au même degré de latitude et de longitude, sans jamais se croiser : l'un peuplait du bruit statistique, l'autre mesurait, pour de vrai, la météo d'un point que rien ne distinguait sur une carte — sinon d'être, par construction, celui que tout logiciel mal réglé choisit en dernier recours.",
+  "citation": null,
+  "repere": {
+    "texte": "De 1997 à mars 2021, la bouée américaine « Soul » (station 13010, réseau Pirata) a mesuré vent et température exactement au point 0°N 0°E — le même point que les logiciels de géocodage utilisent, par défaut, quand ils ne trouvent pas de coordonnées valides.",
+    "source": "NOAA National Data Buoy Center, station 13010",
+    "url": "https://www.ndbc.noaa.gov/station_page.php?station=13010"
+  },
+  "carte": {
+    "punch": "Une bouée météo bien réelle a longtemps occupé le point où la Terre n'a pas de terre.",
+    "idee": "Au croisement de l'équateur et du méridien de Greenwich, en plein Atlantique, il n'y a pas de terre. De 1997 à 2021 pourtant, une bouée américaine y a mesuré vent et température, pendant que les logiciels du monde entier y renvoyaient, par défaut, les coordonnées qu'ils ne savaient pas calculer.",
+    "source_courte": "NOAA / Wikipedia, « Null Island »"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "NOAA (National Oceanic and Atmospheric Administration)",
+      "titre": "Station 13010 — Recent Data",
+      "publication": "National Data Buoy Center",
+      "annee": null,
+      "url": "https://www.ndbc.noaa.gov/station_page.php?station=13010",
+      "note": "Confirme les coordonnées exactes de la station (0,000 N 0,000 E), son appartenance au réseau Pirata, et son inactivité actuelle (« No Recent Reports »), cohérente avec sa mise hors service en mars 2021. Page rouverte et vérifiée directement."
+    },
+    {
+      "type": "institution",
+      "auteur": "NOAA / PMEL (Pacific Marine Environmental Laboratory)",
+      "titre": "Atlantic Ocean – PIRATA",
+      "publication": "Global Tropical Moored Buoy Array",
+      "annee": null,
+      "url": "https://www.pmel.noaa.gov/gtmba/pmel-theme/atlantic-ocean-pirata",
+      "note": "Confirme le partenariat entre les États-Unis (NOAA), la France (IRD, Météo-France, CNRS, Ifremer) et le Brésil (INPE, DHN) pour le réseau de bouées Pirata, établi au milieu des années 1990."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Null Island",
+      "publication": "Wikipedia (en)",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Null_Island",
+      "note": "Confirme la localisation (environ 600 km au sud de l'Afrique de l'Ouest, fond à environ 4 940 m), l'origine du nom via le jeu de données Natural Earth (vers 2010-2011, polygone d'1 m² conçu pour ne jamais s'afficher), ainsi que l'historique de la bouée « Soul » (installation, disparition en moins d'un an, remplacement en 1998, mise hors service en mars 2021)."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : au centre, une petite forme conique stylisée représentant une bouée océanique, flottant seule sur un aplat d'eau évoqué par des lignes horizontales fines, entourée d'une multitude de petits points épars convergeant tous vers elle comme des données mal orientées. Formes nettes, pas de dégradé, deux encres contrastées sur fond sombre.",
+    "alt": "Une bouée océanique isolée en pleine mer, vers laquelle convergent de nombreux petits points épars représentant des données",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le point 0°N 0°E est-il surnommé « Null Island » dans les bases de données cartographiques ?",
+    "choix": [
+      "Parce qu'une île y a réellement existé avant de disparaître sous l'effet de la montée des eaux",
+      "Parce que de nombreux logiciels, incapables de localiser une adresse ou une position, y renvoient par défaut la coordonnée 0,0 au lieu de signaler une erreur",
+      "Parce que les câbles sous-marins de télécommunication s'y croisent tous, créant une zone de brouillage GPS permanente",
+      "Parce qu'une convention internationale y a fixé le point de référence officiel de toutes les cartes maritimes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le lieu n'a rien de spécial sur le plan géographique : c'est un défaut de conception logicielle — renvoyer 0,0 plutôt que de signaler une erreur — qui y a agrégé un grand nombre de coordonnées mal calculées, au point que les cartographes lui ont donné un nom et l'ont même intégré comme repère dans un jeu de données.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-09-28", "genere_par": "claude-code", "version": 1 }
+}
