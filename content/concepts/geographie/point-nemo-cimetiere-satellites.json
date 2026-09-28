@@ -81,14 +81,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "Point Nemo est calculé comme le point le plus loin de toute terre émergée (environ 2 688 km), pas comme le plus profond — ce record revient à la fosse des Mariannes. Éloigner la zone de rentrée de toute terre habitée minimise le risque qu'un débris survivant à la rentrée atmosphérique touche quelqu'un.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-27T22:17:19.847Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-09-28T07:36:38.545Z",
     "historique": [
       {
         "action": "retoucher",
@@ -97,6 +97,14 @@
         "par": "routine-relecture",
         "le": "2026-09-27T22:17:19.847Z",
         "note": "Sources rouvertes indépendamment : NOAA What is Point Nemo confirme coordonnées (48°52,6'S 123°23,6'O) et distance 2688 km (Ducie, Motu Nui, île Maher). Britannica Oceanic pole of inaccessibility confirme Lukatela, 1992, 'longest swim problem'. Le rapport NASA ISS Transition Report (PDF), illisible en WebFetch direct comme au premier contrôle, a cette fois été extrait localement (pdfminer) : confirme mot pour mot la désignation SPOUA autour de Point Nemo pour la rentrée de l'ISS — vérification directe, pas seulement un recoupement. en.wikipedia Oceanic pole of inaccessibility confirme le recalcul 2022. Un chiffre non sourcé a été repéré et corrigé : la fiche donnait 135 tonnes pour la masse de Mir désorbitée, alors qu'aucune source de la fiche ne couvrait Mir et que la masse réelle de la station (Wikipédia, fiche technique) est de 129 700 kg (~130 tonnes) ; 'au large des Fidji' précisé en 'visible depuis les Fidji', la rentrée ayant eu lieu à 40°S 160°O (en.wikipedia Deorbit of Mir, ajouté aux sources). Empreinte modifiée par cette correction : la fiche doit repasser par un contrôle indépendant avant nouvelle décision de relecture."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-09-28T07:36:38.545Z",
+        "note": "Sources rouvertes indépendamment : oceanservice.noaa.gov (coordonnées 48°52,6'S 123°23,6'O et distance 2688 km confirmées, trois terres — Ducie, Motu Nui, île Maher), britannica.com/place/oceanic-pole-of-inaccessibility (Lukatela, 1992, 'longest swim problem', profondeur à Nemo >4000m confirmée), en.wikipedia Deorbit of Mir (date 23 mars 2001, zone de rentrée 40°S 160°O, débris visibles depuis les Fidji), en.wikipedia Mir (masse 129 700 kg confirmée dans l'infobox), en.wikipedia Oceanic pole of inaccessibility (recalcul 2022 par Lukatela confirmé), et le rapport NASA ISS Transition Report — illisible en WebFetch direct, extrait cette fois en local avec pdftotext (poppler) après installation de l'outil : la phrase exacte 'the South Pacific Oceanic Uninhabited Area (SPOUA), the area around Point Nemo' est bien présente p.11, confirmant mot pour mot la désignation SPOUA pour la rentrée de l'ISS. Aucune erreur trouvée : les deux corrections de la relecture précédente (129 700 kg, 'visible depuis les Fidji') sont exactes, et le reste de la fiche (mécanisme, comparaison avec la fosse des Mariannes, citation du repère, quiz et distracteurs faux) est confirmé conforme aux sources. Rien à changer."
       }
     ]
   },
