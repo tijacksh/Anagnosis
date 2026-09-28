@@ -22,8 +22,8 @@ Règles qui ne se discutent pas, parce qu'elles viennent de la ligne éditoriale
   du quiz, les intertitres d'une fiche, le verrou, le relevé. Elle ne montre jamais le texte
   de la fiche, l'explication du quiz, l'archive ni plus de 5 s d'écoute.
 - **Ne jamais promettre *cette* fiche.** Le concept du jour dépend des disciplines de chaque
-  lecteur, et l'archive est réservée au Premium. Le Reel le dit : « Ce n'est qu'un résumé.
-  Les fiches complètes sont dans l'app » (demandé le 2026-09-28), jamais « la suite de
+  lecteur, et l'archive est réservée au Premium. Le Reel le dit, simplement : « En bref ici ·
+  en entier dans l'app » (demandé le 2026-09-28), jamais « la suite de
   cette fiche dans l'app ».
 - **La source reste au-dessus de y = 1400 px.** Sur TikTok et les Reels, la légende recouvre
   le quart bas de l'image. La carte de l'app place son crédit à 78–88 % de la hauteur : dans

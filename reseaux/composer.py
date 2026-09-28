@@ -42,7 +42,7 @@ POLICES = Path(os.environ.get(
 CTA = os.environ.get('RESEAUX_CTA', "BIENTÔT SUR L'APP STORE ET GOOGLE PLAY")
 # Le Reel ne montre que la carte : le dire, sans promettre *cette* fiche-là, que le
 # lecteur ne recevra pas forcément (docs/reseaux.md §1).
-ACCROCHE_FIN = ("CE N'EST QU'UN RÉSUMÉ.", "LES FICHES COMPLÈTES SONT DANS L'APP.")
+ACCROCHE_FIN = ("EN BREF ICI · EN ENTIER DANS L'APP",)
 
 
 def police(fichier, taille, **axes):
@@ -174,7 +174,7 @@ def legendes(fiche, dossier):
     carte = fiche['carte']
     corps = (f"{fiche['accroche']}\n\n"
              f"Source : {carte['source_courte']}\n\n"
-             f"Ce n'est qu'un résumé. Dans l'app, une fiche complète chaque jour : trois minutes "
+             f"En bref ici. Dans l'app, chaque jour, une fiche en entier : trois minutes "
              f"de lecture, toutes les sources, un quiz. "
              f"{CTA.capitalize().replace('app store', 'App Store').replace('google play', 'Google Play')} → anagnosis.fr")
     communs = f'#apprendre #culturegenerale {tag}'
