@@ -40,7 +40,9 @@ POLICES = Path(os.environ.get(
     'ANAGNOSIS_POLICES', Path.home() / 'Anagnosis-app-tournage/Anagnosis/Ressources/Polices'))
 
 CTA = os.environ.get('RESEAUX_CTA', "BIENTÔT SUR L'APP STORE ET GOOGLE PLAY")
-ACCROCHE_FIN = 'UNE FICHE COMME CELLE-CI, CHAQUE JOUR'
+# Le Reel ne montre que la carte : le dire, sans promettre *cette* fiche-là, que le
+# lecteur ne recevra pas forcément (docs/reseaux.md §1).
+ACCROCHE_FIN = ("CE N'EST QU'UN RÉSUMÉ.", "LES FICHES COMPLÈTES SONT DANS L'APP.")
 
 
 def police(fichier, taille, **axes):
@@ -120,7 +122,9 @@ def fin_de_marque(chemin):
     y += 60
     centre(d, y, CTA, police('MartianMono.ttf', 21, Weight=500), espacement=2)
     y += 44
-    centre(d, y, ACCROCHE_FIN, police('MartianMono.ttf', 21, Weight=500), espacement=2)
+    for ligne in ACCROCHE_FIN:
+        centre(d, y, ligne, police('MartianMono.ttf', 21, Weight=500), espacement=2)
+        y += 34
     assert y + 40 < 1400, 'la fin de marque déborde de la zone sûre'
     grain(img).save(chemin)
 
@@ -170,7 +174,8 @@ def legendes(fiche, dossier):
     carte = fiche['carte']
     corps = (f"{fiche['accroche']}\n\n"
              f"Source : {carte['source_courte']}\n\n"
-             f"Une fiche comme celle-ci, chaque jour, en trois minutes. "
+             f"Ce n'est qu'un résumé. Dans l'app, une fiche complète chaque jour : trois minutes "
+             f"de lecture, toutes les sources, un quiz. "
              f"{CTA.capitalize().replace('app store', 'App Store').replace('google play', 'Google Play')} → anagnosis.fr")
     communs = f'#apprendre #culturegenerale {tag}'
     # TikTok ajoute lui-même #Anagnosis à un brouillon venu de notre app : pas de doublon.
