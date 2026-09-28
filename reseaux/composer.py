@@ -27,10 +27,12 @@ ENCRE = (0x1B, 0x1A, 0x17)
 JAUNE = (0xFF, 0xE8, 0x00)
 BLEU = (0x3D, 0x55, 0x88)
 
-# La carte est réduite à 78 % et posée à (72, 60) : sa bande de crédit (78–88 % de la
-# hauteur) tombe alors vers y = 1230–1380, au-dessus de la légende des plateformes.
-ECHELLE_CARTE = 0.78
-X_CARTE, Y_CARTE = 72, 60
+# La carte occupe toute la largeur, remontée de 270 px : sa bande de crédit (78–88 % de la
+# hauteur) finit alors vers y = 1420, juste au-dessus de la légende de TikTok et d'Instagram.
+# Ce qui sort par le haut est l'aplat d'encre et le libellé de discipline, que les onglets
+# des plateformes recouvrent de toute façon. Sous la carte, le papier continue avec son grain.
+ECHELLE_CARTE = 1.0
+X_CARTE, Y_CARTE = 0, -270
 DUREE_CARTE = 5.0      # la story de l'app
 TENUE = 2.5            # la carte reste posée : le temps de lire l'idée
 DUREE_FIN = 4.0
@@ -158,12 +160,18 @@ def duree_video(chemin):
                                 check=True).stdout)
 
 
+def papier(chemin):
+    grain(Image.new('RGB', (L, H), PAPIER)).save(chemin)
+
+
 def reel(carte, fin, audio, sortie, plan=None):
     largeur = int(L * ECHELLE_CARTE) // 2 * 2
     duree_carte = DUREE_CARTE + TENUE
+    fond = Path(sortie).with_name('papier.png')
+    papier(fond)
     entrees = ['-i', str(carte), '-i', str(fin), '-i', str(audio)]
     filtre = (
-        f"color=c=0xF4EFE1:s={L}x{H}:r=30:d={duree_carte}[fond];"
+        f"movie={fond},loop=loop=-1:size=1,fps=30,trim=duration={duree_carte},setpts=PTS-STARTPTS[fond];"
         f"[0:v]scale={largeur}:-2,tpad=stop_mode=clone:stop_duration={TENUE}[c];"
         f"[fond][c]overlay={X_CARTE}:{Y_CARTE}:shortest=1,format=yuv420p,settb=1/30[a];"
         f"[1:v]loop=loop=-1:size=1,trim=duration={DUREE_FIN},fps=30,format=yuv420p,setpts=PTS-STARTPTS,settb=1/30[b];"
@@ -183,6 +191,7 @@ def reel(carte, fin, audio, sortie, plan=None):
         '-filter_complex', filtre, '-map', '[v]', '-map', '2:a', '-t', f'{total}',
         '-c:v', 'libx264', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-r', '30', '-crf', '18',
         '-c:a', 'copy', '-movflags', '+faststart', str(sortie)], check=True)
+    fond.unlink()
     return total
 
 

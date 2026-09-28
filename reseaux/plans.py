@@ -8,8 +8,8 @@ pose l'écran sur le papier dans un filet noir, rayon 0, avec une phrase en mono
 et sort en 1080 × 1920 à 30 images/s dans `~/Anagnosis-medias/plans/`. Les rushes sont
 refilmés quand une build change l'interface ; les coupes ci-dessous sont à revoir alors.
 
-L'écran tient dans la zone sûre (y 250–1400) : l'interface de TikTok et d'Instagram ne le
-recouvre pas.
+Les deux lignes restent dans la zone sûre ; le bas de l'écran du téléphone passe sous la
+légende des plateformes, ce qui ne cache que la barre d'onglets de l'app.
 """
 import os
 import subprocess
@@ -22,8 +22,8 @@ import composer
 MEDIAS = Path(os.environ.get('ANAGNOSIS_MEDIAS', Path.home() / 'Anagnosis-medias'))
 RUSHES, PLANS = MEDIAS / 'rushes', MEDIAS / 'plans'
 DUREE = 3.5
-HAUTEUR_ECRAN = 1060
-Y_ECRAN = 320
+HAUTEUR_ECRAN = 1380
+Y_ECRAN = 330
 
 # nom : (rush, début, durée prise dans le rush, lignes affichées)
 #
@@ -53,7 +53,7 @@ def fond(lignes, largeur_ecran, chemin):
                 fill=composer.ENCRE)
     mono = composer.police('MartianMono.ttf', 26, Weight=600)
     for i, ligne in enumerate(lignes):
-        composer.centre(d, Y_ECRAN - 118 + 44 * i, ligne, mono, espacement=3)
+        composer.centre(d, Y_ECRAN - 112 + 44 * i, ligne, mono, espacement=3)
     composer.grain(img).save(chemin)
     return x
 
