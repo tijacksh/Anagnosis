@@ -6,6 +6,33 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-09-27 — Vers une voix produite en local : accords obtenus, banc d'écoute ouvert
+
+**Contexte.** On veut produire l'audio des fiches sur le Mac mini, avec les deux voix
+actuelles (Helene et Jérôme) clonées à partir d'un clip, pour ne plus dépendre
+d'ElevenLabs. Rien n'est encore tranché sur le moteur : cette entrée consigne ce qui
+est acquis avant de comparer. La décision de moteur fera l'objet d'une entrée à part.
+
+**Les voix.** L'accord des deux personnes dont on clone la voix est obtenu, **pour un
+usage commercial et pour le clonage**. L'accord écrit est conservé **hors du dépôt** ;
+aucune donnée personnelle ne figure ici. Les clips de référence, tout enregistrement
+brut et les poids de modèle restent eux aussi hors du dépôt
+(`~/.anagnosis/voix/<nom>/`, cache de modèles de VoiceStudio).
+
+**Les licences des moteurs.** Plusieurs moteurs comparés publient leurs poids sous
+licence non commerciale (CC-BY-NC, ou des conditions propres à l'éditeur), parfois
+pour un seul composant embarqué — un tokenizer audio, un codec — et non pour le modèle
+principal. Des accords d'usage commercial ont été obtenus auprès des ayants droit de
+ces moteurs ; ils sont conservés **hors du dépôt**. Aucun moteur n'est donc écarté du
+banc pour sa licence. **Avant toute mise en production**, vérifier que l'accord
+couvre *chacun* des composants du moteur retenu, pas seulement le modèle principal :
+c'est le composant oublié qui ferait tomber l'usage.
+
+**Ce qui ne change pas.** Le droit ne se sonorise pas (`SANS_ECOUTE`). Le critère
+reste celui de 2026-08-02 : le rendu ne doit jamais s'entendre comme généré.
+
+---
+
 ## 2026-08-02 — L'écoute : voix de synthèse choisie, fichiers pré-produits
 
 **Décidé :** l'audio est **produit à l'avance et téléchargé**, jamais synthétisé sur
