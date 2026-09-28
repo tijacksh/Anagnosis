@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-28T10:15:26.380Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-28T10:15:26.380Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia Triple Divide Peak (Montana) confirme coordonnées (48°34'23\"N 113°31'00\"O), altitude (2446 m / 8025 ft) et le trajet complet des trois ruisseaux mot pour mot, y compris Medicine Owl Creek, Red Eagle Creek, lac Saint Mary et réseau Saskatchewan-Nelson vers la baie d'Hudson. Wikipedia Triple divide confirme la controverse Atlantique/Arctique sur la baie d'Hudson et son effet sur Snow Dome, sans nommer l'IHO. Wikipedia Hudson Bay confirme mot pour mot la citation sur l'IHO et son édition de travail 2002 (Arctic Ocean Subdivision 9.11). Carte et quiz conformes aux sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",

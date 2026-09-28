@@ -32,7 +32,7 @@
     },
     {
       "type": "web",
-      "auteur": null,
+      "auteur": "Wikipedia (contributeurs)",
       "titre": "Mount Whitney",
       "publication": "Wikipedia (en)",
       "annee": null,
@@ -41,7 +41,7 @@
     },
     {
       "type": "web",
-      "auteur": null,
+      "auteur": "Wikipedia (contributeurs)",
       "titre": "Badwater Basin",
       "publication": "Wikipedia (en)",
       "annee": null,
@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-28T10:15:34.600Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-28T10:15:34.600Z",
+        "note": "Sources rouvertes indépendamment : Wikipedia Mount Whitney confirme les coordonnées (36°34'43\"N 118°17'31\"O), l'altitude NAVD88 (14 505 ft / 4421 m) et le repère gravé (14 494 ft / 4418 m, distinct de l'ancienne plaque NGVD29 à 14 496,811 ft), ainsi que le mécanisme de faille/extension du Basin and Range. Wikipedia Badwater Basin confirme -86 m, coordonnées, 48 mm de pluie/an et 3800 mm d'évaporation/an. USGS confirme les deux extrêmes de Californie. Distance recalculée indépendamment par haversine à partir des coordonnées sourcées : 136,18 km, cohérent avec les 136 km cités. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",

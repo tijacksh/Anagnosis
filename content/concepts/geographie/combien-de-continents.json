@@ -32,7 +32,7 @@
     },
     {
       "type": "web",
-      "auteur": null,
+      "auteur": "Wikipédia (contributeurs)",
       "titre": "Continent",
       "publication": "Wikipédia (fr)",
       "annee": null,
@@ -41,7 +41,7 @@
     },
     {
       "type": "web",
-      "auteur": null,
+      "auteur": "Wikipedia (contributeurs)",
       "titre": "Boundaries between the continents",
       "publication": "Wikipedia (en)",
       "annee": null,
@@ -74,13 +74,45 @@
     "explication": "Aucune règle géologique ne distingue plus nettement l'Europe de l'Asie, une seule masse de terre continue, que l'Amérique du Nord de l'Amérique du Sud, reliées par l'isthme de Panama : le découpage retenu dépend de conventions historiques propres à chaque tradition scolaire, pas de la tectonique ni de l'imagerie satellite.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "quiz_supplementaire": [
+    {
+      "question": "Sur quoi repose le tracé actuel de la frontière entre l'Europe et l'Asie, le long de l'Oural et du Caucase ?",
+      "choix": [
+        "Sur un relevé géologique du XIXe siècle établissant une discontinuité tectonique nette entre les deux masses continentales",
+        "Sur un accord entre la Russie et les puissances d'Europe occidentale signé lors du congrès de Vienne en 1815",
+        "Sur une proposition de l'officier suédois Philip Johan von Strahlenberg, en 1725, motivée par des considérations politiques et culturelles",
+        "Sur la limite du bassin hydrographique de la Volga, seul critère naturel reconnu par les géographes de l'époque"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Strahlenberg déplace en 1725 la limite antique du Don vers la Volga puis l'Oural, un choix motivé par des considérations politiques et culturelles de l'époque, non par un accident du relief."
+    },
+    {
+      "question": "En Russie et dans une grande partie de l'Europe de l'Est, comment obtient-on un modèle à six continents ?",
+      "choix": [
+        "En retirant l'Antarctique du décompte, faute de population permanente",
+        "En fusionnant l'Afrique et l'Asie le long de l'isthme de Suez",
+        "En unifiant les deux Amériques en un seul continent, tout en gardant l'Europe et l'Asie distinctes",
+        "En unifiant l'Europe et l'Asie en une seule Eurasie, tout en gardant les deux Amériques distinctes"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le modèle russe fusionne Europe et Asie en une seule Eurasie mais garde les deux Amériques séparées, à l'inverse du modèle francophone qui unifie les Amériques en séparant Europe et Asie."
+    }
+  ],
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-27T22:15:57.899Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-27T22:15:57.899Z",
+        "note": "Trois sources rouvertes indépendamment : unstats.un.org/m49 confirme 5 régions géographiques (Afrique, Amériques, Asie, Europe, Océanie), Amériques comme bloc unique à ce niveau macro (sous-régions distinctes en dessous, non contradictoire), Antarctique hors classification. fr.wikipedia Continent confirme les modèles à six (Amérique unifiée, francophonie) et cinq continents (ONU, CIO, sans Antarctique) et l'absence de définition scientifique unique. en.wikipedia Boundaries between the continents et Continent confirment Strahlenberg 1725 (Don->Volga->Oural), le modèle à sept continents anglophone et le modèle à six avec Eurasie unifiée (Russie/Europe de l'Est). Carte et quiz conformes au texte. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",

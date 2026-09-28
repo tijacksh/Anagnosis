@@ -32,7 +32,7 @@
     },
     {
       "type": "article",
-      "auteur": null,
+      "auteur": "Nancy Cohen",
       "titre": "Where does the Amazon start? Study points to source",
       "publication": "Phys.org",
       "annee": 2014,
@@ -41,7 +41,7 @@
     },
     {
       "type": "web",
-      "auteur": null,
+      "auteur": "Wikipedia (contributeurs)",
       "titre": "Source of the Amazon River",
       "publication": "Wikipedia (en)",
       "annee": null,
@@ -50,7 +50,7 @@
     },
     {
       "type": "web",
-      "auteur": null,
+      "auteur": "Wikipedia (contributeurs)",
       "titre": "Nile",
       "publication": "Wikipedia (en)",
       "annee": null,
@@ -83,13 +83,45 @@
     "explication": "La longueur d'un fleuve dépend d'un choix humain — quel ruisseau amont compte comme la source « principale », quel bras de delta compte comme l'embouchure — et non d'un manque de précision instrumentale ; le débit saisonnier et les frontières politiques ne changent rien à la distance parcourue.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "quiz_supplementaire": [
+    {
+      "question": "Qui identifie, le premier en 1969, une source précise pour l'Amazone au Nevado Mismi ?",
+      "choix": [
+        "L'explorateur américain Loren McIntyre",
+        "L'astronome et explorateur Jacek Pałkiewicz",
+        "Le géographe péruvien Carlos Peñaherrera del Águila",
+        "Le chercheur tchèque Bohumír Janský"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Peñaherrera del Águila propose en 1969 le ruisseau Carhuasanta, sur le Nevado Mismi, comme première source précise identifiée pour l'Amazone ; les expéditions suivantes déplaceront ce point plus en amont."
+    },
+    {
+      "question": "Où se trouve la source du Nil aujourd'hui la plus reculée, retenue au tournant des années 2000 ?",
+      "choix": [
+        "Le lac Victoria, en Ouganda",
+        "Le ruisseau Rukarara, dans la forêt de Nyungwe, au Rwanda",
+        "Le lac Tana, en Éthiopie",
+        "Le mont Kilimandjaro, en Tanzanie"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La source la plus reculée du Nil a été rattachée au ruisseau Rukarara, dans la forêt de Nyungwe au Rwanda, ce qui porte sa longueur couramment citée à 7 088 kilomètres."
+    }
+  ],
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-27T22:17:10.365Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-27T22:17:10.365Z",
+        "note": "Sources rouvertes indépendamment : NASA Earth Observatory confirme l'expédition 2007 sur le Nevado Mismi et la difficulté générale de fixer la longueur exacte d'un fleuve. phys.org confirme les coordonnées de la Cordillera Rumi Cruz (10,7320°S 76,6480°O, ~5220 m), la méthode (cartes, imagerie satellite, GPS) et l'écart de 75-92 km avec le Nevado Mismi. en.wikipedia Source of the Amazon River confirme toute la chronologie (1969 Peñaherrera del Águila/Carhuasanta, 1971 McIntyre/lac au nord du Mismi, 1996-97 Pałkiewicz-Novoa/source Apacheta, 1999-2000 Janský/retour au Carhuasanta, 2014 Contos-Tripcevich/Rumi Cruz). en.wikipedia Nile confirme les 7088 km et la source au Rukarara (Nyungwe, Rwanda, 2539 m) ; le 'vers 2000' de la fiche pour cette redéfinition reste une approximation explicite, non contredite. en.wikipedia Kagera River confirme le débat non tranché entre affluents Nyabarongo (Rwanda) et Ruvubu (Burundi). Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-27",
