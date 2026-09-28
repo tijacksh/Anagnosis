@@ -1336,3 +1336,59 @@ déjà rencontrés »). Les produits ne sont créés ni dans App Store Connect n
 Console ; les identifiants attendus restent ceux du 2026-08-20.
 
 **Non tranché :** les sept jours d'essai restent tels qu'écrits le 2026-08-20.
+
+---
+
+## 2026-09-28 — Mouvement, retours haptiques et huit fonctions de plus
+
+Quinze éléments livrés en miroir sur iOS et Android, chacun avec sa règle dans le corpus
+partagé (`Corpus/` et `core`) et ses tests. Ce qui a été tranché en chemin :
+
+**Le mouvement.** Les valeurs de la charte s'appliquent partout : une courbe « back out » à
+5 % de dépassement pour les plaques (`Impression`), 0,35 s pour un tampon (`Tampon`). Deux
+réglages ont été trouvés en regardant : les éléments d'une figure entrent sur les 0,27
+premières secondes, parce que la plaque touche sa place à 0,32 s et qu'un élément plus tardif
+se poserait sur une plaque déjà calée ; et le geste attend 0,25 s après l'apparition, sans
+quoi il se jouait sous l'écran de lancement. « Réduire les animations » (et, sur Android,
+l'échelle d'animation à zéro) donne toujours l'état final.
+
+**L'impression du jour** est une mémoire d'appareil, hors de l'état synchronisé : un
+fichier de préférences à part sur Android, exclu de la sauvegarde.
+
+**Du calendrier à la fiche** : ni `navigationTransition(.zoom)` ni `SharedTransitionLayout`.
+Les deux clients empilent la fiche par-dessus l'onglet, sans pile de navigation, et
+l'onglet ne disparaît pas ; les adopter voulait dire refaire la navigation. Les cadres de
+l'encre et de la figure sont mesurés dans la racine et une forme vole de l'un à l'autre.
+Premium seulement, comme l'accès au passé.
+
+**Le verrou du lendemain** montre la figure de demain en noir neutre sous douze bandes de
+papier, une de moins toutes les deux heures, jamais moins d'une. Ni encre, ni titre.
+
+**La story vidéo** est rendue image par image et encodée sur l'appareil (AVAssetWriter,
+MediaCodec), sans bibliothèque. La source se tape sur une bande déjà calée et reste entière
+pendant les deux dernières secondes ; un test le vérifie sur tout le corpus.
+
+**La taille du texte** suit le téléphone avec des plafonds par rôle : corps 2×, titres 1,3×,
+actions 1,5×, libellés 1,35× (`EchelleTexte`). La carte et les libellés d'onglets gardent
+leurs tailles. Le réglage de lecture (trois tailles, deux interlignes) s'y ajoute et ne
+touche qu'au corps de la fiche.
+
+**Marque-pages et notes** vivent dans l'état du lecteur, donc dans le magasin clé-valeur
+d'iCloud, plafonné à 1 Mo pour toute l'app. D'où des plafonds écrits dans le corpus :
+2 000 fiches gardées, 2 000 octets par note, 300 000 pour toutes. Au plafond, l'état entier
+tient sous 700 Ko, vérifié par un test. L'approche de la limite des notes se dit à 80 % ; la
+limite n'efface rien, elle empêche seulement d'allonger.
+
+**Un défaut ancien corrigé sur iOS.** Le décodage synthétisé de Swift n'utilise pas les
+valeurs par défaut des propriétés : chaque champ ajouté à `EtatLecteur` faisait échouer le
+décodage des états déjà enregistrés, et le lecteur repartait de zéro à la mise à jour,
+journal et série compris. C'était déjà arrivé avec le widget (17 août) et le relevé
+(18 août) sans que rien ne le signale. Chaque clé absente reprend désormais sa valeur par
+défaut, et un test relit un état ancien. Android n'avait pas ce défaut.
+
+**Spotlight** n'indexe que le journal, jamais le programme ni le corpus : aucun chemin ne
+mène à demain. Le raccourci « Concept du jour » (App Intents, raccourci dynamique Android)
+ouvre l'accueil et ne montre rien lui-même.
+
+**Parité Android** : l'ouverture (la marque) et l'écran d'incident sont portés. Les écarts
+restants sont consignés dans le `CLAUDE.md` du client Android.
