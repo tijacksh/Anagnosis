@@ -126,6 +126,8 @@ def main():
     a = argparse.ArgumentParser()
     a.add_argument('--nombre', type=int, default=len(JOURS))
     a.add_argument('--semaine', help='AAAA-SS ISO ; par défaut la semaine prochaine')
+    a.add_argument('--depuis', help="AAAA-MM-JJ : ne programmer que les jours à partir de celui-ci "
+                                    "(une semaine déjà entamée)")
     args = a.parse_args()
     lundi = (dt.date.today() + dt.timedelta(days=7 - dt.date.today().weekday())) if not args.semaine \
         else dt.date.fromisocalendar(*map(int, args.semaine.split('-')), 1)
@@ -142,6 +144,10 @@ def main():
 
     reg = registre()
     jours = [lundi + dt.timedelta(days=j) for j in JOURS][:args.nombre]
+    if args.depuis:
+        jours = [j for j in jours if j >= dt.date.fromisoformat(args.depuis)]
+    deja_prevus = {p['jour'] for p in reg['posts']}
+    jours = [j for j in jours if j.isoformat() not in deja_prevus]
     for f, d in choix:
         if not jours:
             break
