@@ -8,7 +8,10 @@
  *
  *   node reseaux/tiktok.js autoriser          ouvre la page TikTok, garde les jetons
  *   node reseaux/tiktok.js compte             affiche le compte connecté
- *   node reseaux/tiktok.js brouillon <mp4>    dépose une vidéo en brouillon
+ *   node reseaux/tiktok.js brouillon <mp4>    dépose une vidéo en brouillon (sans légende :
+ *                                             l'API inbox n'en accepte pas)
+ *   node reseaux/tiktok.js publier <mp4> <txt> publie directement avec sa légende, en public
+ *                                             si TikTok l'autorise, sinon en privé (SELF_ONLY)
  *   node reseaux/tiktok.js statut <id>        où en est un dépôt
  *
  * Identifiants dans ~/.anagnosis/cles.env, jetons dans ~/.anagnosis/reseaux-jetons.json :
@@ -101,7 +104,7 @@ async function autoriser() {
   const defi = createHash('sha256').update(verificateur).digest('hex');
   const etat = randomBytes(16).toString('hex');
   const url = 'https://www.tiktok.com/v2/auth/authorize/?' + new URLSearchParams({
-    client_key: cle, response_type: 'code', scope: 'user.info.basic,video.upload',
+    client_key: cle, response_type: 'code', scope: process.env.TIKTOK_SCOPES ?? 'user.info.basic,video.upload,video.publish',
     redirect_uri: REDIRECTION, state: etat, code_challenge: defi, code_challenge_method: 'S256',
   });
 
@@ -141,14 +144,14 @@ async function compte() {
 }
 
 /**
- * Dépôt en un seul morceau : TikTok l'accepte sous 64 Mo, et nos Reels font quelques Mo.
+ * Envoi en un seul morceau : TikTok l'accepte sous 64 Mo, et nos Reels font quelques Mo.
  * Au-delà, il faudrait découper en morceaux de 5 à 64 Mo.
  */
-async function brouillon(fichier) {
+async function envoyer(chemin, fichier, extra = {}) {
   const taille = statSync(fichier).size;
   if (taille > 64 * 1024 * 1024) throw new Error('vidéo de plus de 64 Mo : découpage non géré');
-  const d = await appel('/v2/post/publish/inbox/video/init/', {
-    corps: { source_info: { source: 'FILE_UPLOAD', video_size: taille, chunk_size: taille, total_chunk_count: 1 } },
+  const d = await appel(chemin, {
+    corps: { ...extra, source_info: { source: 'FILE_UPLOAD', video_size: taille, chunk_size: taille, total_chunk_count: 1 } },
   });
   const tampon = Buffer.alloc(taille);
   const fd = openSync(fichier, 'r');
@@ -161,8 +164,32 @@ async function brouillon(fichier) {
     body: tampon,
   });
   if (!r.ok) throw new Error(`envoi refusé : ${r.status} ${await r.text()}`);
-  console.log(`Déposé : ${d.publish_id}`);
+  console.log(`Envoyé : ${d.publish_id}`);
   return d.publish_id;
+}
+
+const brouillon = (fichier) => envoyer('/v2/post/publish/inbox/video/init/', fichier);
+
+/**
+ * Publication directe (scope `video.publish`). Un client non audité ne peut publier qu'en
+ * SELF_ONLY : on demande au compte les visibilités permises et on prend la plus large.
+ * Contenu de marque : c'est notre propre marque (`brand_organic_toggle`), pas un partenariat.
+ */
+async function publier(fichier, legendeFichier) {
+  const legende = readFileSync(legendeFichier, 'utf8').trim();
+  if (legende.length > 2200) throw new Error('légende de plus de 2 200 caractères');
+  const createur = await appel('/v2/post/publish/creator_info/query/');
+  const options = createur.privacy_level_options ?? [];
+  const visibilite = options.includes('PUBLIC_TO_EVERYONE') ? 'PUBLIC_TO_EVERYONE' : 'SELF_ONLY';
+  console.log(`Visibilités permises : ${options.join(', ')} → ${visibilite}`);
+  return envoyer('/v2/post/publish/video/init/', fichier, {
+    post_info: {
+      title: legende, privacy_level: visibilite,
+      disable_comment: false, disable_duet: false, disable_stitch: false,
+      video_cover_timestamp_ms: 1000,
+      brand_content_toggle: false, brand_organic_toggle: true,
+    },
+  });
 }
 
 async function statut(id) {
@@ -172,9 +199,11 @@ async function statut(id) {
 }
 
 const [commande, arg] = process.argv.slice(2);
-const actions = { autoriser, compte, brouillon: () => brouillon(arg), statut: () => statut(arg) };
+const [, , , legende] = process.argv;
+const actions = { autoriser, compte, brouillon: () => brouillon(arg), publier: () => publier(arg, legende),
+                  statut: () => statut(arg) };
 if (!actions[commande]) {
-  console.error('usage : tiktok.js autoriser | compte | brouillon <mp4> | statut <publish_id>');
+  console.error('usage : tiktok.js autoriser | compte | brouillon <mp4> | publier <mp4> <legende.txt> | statut <publish_id>');
   process.exit(2);
 }
 actions[commande]().catch((e) => { console.error(e.message); process.exit(1); });
