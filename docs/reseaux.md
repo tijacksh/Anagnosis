@@ -71,7 +71,7 @@ Elle tourne sur le Mac mini (launchd), le dimanche à 20 h, et prépare la semai
                                       jamais publiées (registre), disciplines en rotation
 2. tourner      xcodebuild test       l'app rend elle-même la story vidéo de chaque carte
                 (TournageTests)       (StoryVideo.swift) : la vraie carte, pas une imitation
-3. composer     reseaux/composer.js   gabarits HTML (Chrome headless piloté en CDP) + ffmpeg :
+3. composer     reseaux/composer.py   Pillow (polices de l'app) + ffmpeg, son fabriqué ici :
                                       accroche → carte de l'app → rush d'écran réel → fin
 4. contrôler    reseaux/controler.js  échec = on écarte la fiche et on prend la suivante
 5. déposer      reseaux/publier.js    TikTok : brouillon dans l'inbox, le jour J à 7 h 30
@@ -79,7 +79,7 @@ Elle tourne sur le Mac mini (launchd), le dimanche à 20 h, et prépare la semai
 6. consigner    reseaux/registre.json committé sur main : fiche, format, date, liens des posts
 ```
 
-**Pas de dépendance npm.** Node natif (WebSocket et fetch), Chrome, ffmpeg et Xcode. C'est la
+**Pas de dépendance npm.** Node natif (fetch), Python avec Pillow, ffmpeg et Xcode. C'est la
 même philosophie que le reste du dépôt.
 
 **Chaque échec ouvre une issue GitHub** qui mentionne @tijacksh et @Orkidea : jeton expiré,
