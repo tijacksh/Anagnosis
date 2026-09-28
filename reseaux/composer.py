@@ -32,7 +32,7 @@ BLEU = (0x3D, 0x55, 0x88)
 ECHELLE_CARTE = 0.78
 X_CARTE, Y_CARTE = 72, 60
 DUREE_CARTE = 5.0      # la story de l'app
-TENUE = 4.0            # la carte reste posée : le temps de lire l'idée
+TENUE = 2.5            # la carte reste posée : le temps de lire l'idée
 DUREE_FIN = 4.0
 FONDU = 0.3
 
@@ -40,7 +40,7 @@ POLICES = Path(os.environ.get(
     'ANAGNOSIS_POLICES', Path.home() / 'Anagnosis-app-tournage/Anagnosis/Ressources/Polices'))
 
 CTA = os.environ.get('RESEAUX_CTA', "BIENTÔT SUR L'APP STORE ET GOOGLE PLAY")
-ACCROCHE_FIN = 'UNE FICHE COMME CELLE-CI, CHAQUE MATIN'
+ACCROCHE_FIN = 'UNE FICHE COMME CELLE-CI, CHAQUE JOUR'
 
 
 def police(fichier, taille, **axes):
@@ -71,17 +71,31 @@ def lignes(dessin, texte, fonte, largeur):
     return sortie
 
 
+def centre(d, y, texte, fonte, espacement=0):
+    """Écrit une ligne centrée ; `espacement` en pixels entre les lettres (capitales mono)."""
+    if espacement:
+        largeur = sum(d.textlength(c, font=fonte) for c in texte) + espacement * (len(texte) - 1)
+        x = (L - largeur) / 2
+        for c in texte:
+            d.text((x, y), c, font=fonte, fill=ENCRE)
+            x += d.textlength(c, font=fonte) + espacement
+    else:
+        d.text(((L - d.textlength(texte, font=fonte)) / 2, y), texte, font=fonte, fill=ENCRE)
+
+
 def fin_de_marque(chemin):
-    """La fin : la marque du site, la promesse, l'adresse. Rayon 0, pas de centrage."""
+    """La fin, centrée comme celle de la vidéo de présentation : la marque, la promesse,
+    l'adresse. Choix du 2026-09-28, qui déroge sciemment au « jamais centré » de la charte
+    pour ce seul plan de signature."""
     img = Image.new('RGB', (L, H), PAPIER)
-    d = ImageDraw.Draw(img)
-    # Le logotype d'anagnosis.fr (site/icone.svg), à l'échelle 1,4, en haut à gauche.
-    k, ox, oy = 1.4, 40, 250
+    # Le logotype d'anagnosis.fr (site/icone.svg, viewBox 512) : son dessin occupe
+    # x 86–480, on le centre sur ce gabarit.
+    k, oy = 1.0, 330
+    ox = (L - (480 - 86) * k) / 2 - 86 * k
     encre = Image.new('RGB', (L, H), (255, 255, 255))
-    de = ImageDraw.Draw(encre)
     # Hors-repérage constant sur l'encre de couleur seulement : +2 px en x, +3 px en y.
-    de.ellipse([ox + 2 + (330 - 150) * k, oy + 3 + (182 - 150) * k,
-                ox + 2 + (330 + 150) * k, oy + 3 + (182 + 150) * k], fill=BLEU)
+    ImageDraw.Draw(encre).ellipse([ox + 2 + (330 - 150) * k, oy + 3 + (182 - 150) * k,
+                                   ox + 2 + (330 + 150) * k, oy + 3 + (182 + 150) * k], fill=BLEU)
     img = ImageChops.multiply(img, encre)
     # Le jaune sur un aplat d'encre ne se multiplie pas — il virerait au vert sombre : il
     # s'imprime en encre opaque à 95 % (charte §2.4, exception).
@@ -90,24 +104,23 @@ def fin_de_marque(chemin):
                                     ox + (356 + 112) * k, oy + (206 + 112) * k], fill=242)
     img.paste(Image.new('RGB', (L, H), JAUNE), (0, 0), masque)
     d = ImageDraw.Draw(img)
+    d.rectangle([ox + 86 * k, oy + 118 * k, ox + 120 * k, oy + 268 * k], fill=ENCRE)
     d.rectangle([ox + 86 * k, oy + 330 * k, ox + 236 * k, oy + 364 * k], fill=ENCRE)
     d.rectangle([ox + 86 * k, oy + 392 * k, ox + 334 * k, oy + 426 * k], fill=ENCRE)
-    d.rectangle([ox + 86 * k, oy + 118 * k, ox + 120 * k, oy + 268 * k], fill=ENCRE)
 
-    x, y = 72, 930
-    mono = police('MartianMono.ttf', 26, Weight=600)
-    d.text((x, y), ACCROCHE_FIN, font=mono, fill=ENCRE, spacing=0)
-    y += 70
-    display = police('BricolageGrotesque.ttf', 92, Weight=800, **{'Optical size': 96})
-    for ligne in lignes(d, 'Un concept par jour, et sa source.', display, 860):
-        d.text((x, y), ligne, font=display, fill=ENCRE)
-        y += 90
-    y += 50
-    d.rectangle([x, y, x + 520, y + 3], fill=ENCRE)
-    y += 30
-    d.text((x, y), 'ANAGNOSIS.FR', font=police('MartianMono.ttf', 44, Weight=700), fill=ENCRE)
-    y += 76
-    d.text((x, y), CTA, font=police('MartianMono.ttf', 22, Weight=500), fill=ENCRE)
+    y = oy + 426 * k + 70
+    centre(d, y, 'ANAGNOSIS', police('MartianMono.ttf', 40, Weight=600), espacement=14)
+    y += 100
+    display = police('BricolageGrotesque.ttf', 80, Weight=800, **{'Optical size': 96})
+    for ligne in ('Un concept par jour,', 'et sa source.'):
+        centre(d, y, ligne, display)
+        y += 84
+    y += 60
+    centre(d, y, 'ANAGNOSIS.FR', police('MartianMono.ttf', 36, Weight=700), espacement=4)
+    y += 60
+    centre(d, y, CTA, police('MartianMono.ttf', 21, Weight=500), espacement=2)
+    y += 44
+    centre(d, y, ACCROCHE_FIN, police('MartianMono.ttf', 21, Weight=500), espacement=2)
     assert y + 40 < 1400, 'la fin de marque déborde de la zone sûre'
     grain(img).save(chemin)
 
@@ -157,7 +170,7 @@ def legendes(fiche, dossier):
     carte = fiche['carte']
     corps = (f"{fiche['accroche']}\n\n"
              f"Source : {carte['source_courte']}\n\n"
-             f"Une fiche comme celle-ci, chaque matin, en trois minutes. "
+             f"Une fiche comme celle-ci, chaque jour, en trois minutes. "
              f"{CTA.capitalize().replace('app store', 'App Store').replace('google play', 'Google Play')} → anagnosis.fr")
     communs = f'#apprendre #culturegenerale {tag}'
     # TikTok ajoute lui-même #Anagnosis à un brouillon venu de notre app : pas de doublon.

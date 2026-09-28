@@ -23,7 +23,7 @@ Règles qui ne se discutent pas, parce qu'elles viennent de la ligne éditoriale
   de la fiche, l'explication du quiz, l'archive ni plus de 5 s d'écoute.
 - **Ne jamais promettre *cette* fiche.** Le concept du jour dépend des disciplines de chaque
   lecteur, et l'archive est réservée au Premium. L'appel à l'action est « Une fiche comme
-  celle-ci, chaque matin », jamais « la suite dans l'app ».
+  celle-ci, chaque jour », jamais « la suite dans l'app ».
 - **La source reste au-dessus de y = 1400 px.** Sur TikTok et les Reels, la légende recouvre
   le quart bas de l'image. La carte de l'app place son crédit à 78–88 % de la hauteur : dans
   un Reel, la carte est réduite et remontée dans un cadre papier.
@@ -92,6 +92,22 @@ Chaque post existe aussi sous forme de paquet dans `~/Anagnosis-medias/semaine-A
 la vidéo, les images du carrousel, et un fichier `legende.txt` avec la légende et les hashtags.
 Ce dossier est recopié dans iCloud Drive (`Anagnosis/Réseaux/`) pour être accessible depuis le
 téléphone. Si une API tombe, on publie à la main depuis là.
+
+### 4 ter. Exploitation
+
+| Quand | Quoi | Fichier |
+|---|---|---|
+| Dimanche 20 h | choisit, tourne, monte et contrôle les 4 Reels de la semaine suivante, puis les inscrit au registre | `reseaux/preparer.py` |
+| Chaque jour 7 h 30 | dépose le Reel du jour en brouillon TikTok, met sa légende à disposition du raccourci, copie le paquet dans iCloud | `reseaux/deposer.py` |
+| À la demande | monte un Reel à partir d'une fiche et de sa carte | `reseaux/composer.py` |
+| Une fois | installe les deux tâches launchd | `reseaux/installer.sh` |
+
+- **Le raccourci iPhone « Légende TikTok »** lit `iCloud Drive/Shortcuts/anagnosis-legende.txt`, que `deposer.py` réécrit à chaque dépôt. Il copie la légende et ouvre TikTok : on ouvre le brouillon, on colle, on publie.
+- **Pour tout suspendre**, créer le fichier `reseaux/PAUSE` : `deposer.py` ne fait alors plus rien.
+- **Les journaux** sont dans `~/Anagnosis-medias/logs/`.
+- **Les chemins du registre** sont relatifs à `~/Anagnosis-medias` : jamais de chemin propre à une machine dans le dépôt.
+- **Le tournage** passe par un worktree de l'app, `~/Anagnosis-app-tournage` (branche `tournage`), avec un simulateur dédié dont l'identifiant est dans `~/.anagnosis/tournage.env`.
+  - Tant que la story vidéo (`StoryVideo.swift`) n'est pas sur le `main` de l'app, cette branche part de `evolutions-2026-09`, et la chaîne ne tourne que sur ce Mac.
 
 ## 5. Les vrais écrans de l'app
 
