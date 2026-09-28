@@ -141,7 +141,8 @@ def son(chemin, duree):
         "[2]tremolo=f=0.25:d=0.4,volume=0.8[p];"
         f"[0][h][p]amix=inputs=3:normalize=0,afade=t=in:d=0.3,afade=t=out:st={duree - 1.2}:d=1.2,"
         "alimiter=limit=0.8,loudnorm=I=-14:TP=-1.5[a]",
-        '-map', '[a]', '-ac', '2', '-c:a', 'aac', '-b:a', '192k', str(chemin)], check=True)
+        # 48 kHz : loudnorm suréchantillonne à 192 kHz, et Instagram refuse au-delà de 48.
+        '-map', '[a]', '-ac', '2', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', str(chemin)], check=True)
 
 
 def duree_totale(plan):

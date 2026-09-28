@@ -44,16 +44,23 @@ def tiktok(*args):
 
 
 def brouillon(reel):
+    """Envoie, puis attend le traitement jusqu'à 10 minutes.
+
+    Un envoi encore `PROCESSING_UPLOAD` passé ce délai n'est **pas** un échec : TikTok met
+    parfois bien plus longtemps (vu le 2026-09-28), et renvoyer créerait un doublon dans la
+    boîte de réception. Seul `FAILED` est un échec."""
     sortie = tiktok('brouillon', str(reel))
     publish_id = sortie.split('Envoyé : ', 1)[1].split()[0]
-    for _ in range(20):
+    statut = 'PROCESSING_UPLOAD'
+    for _ in range(40):
         time.sleep(15)
-        statut = json.loads(tiktok('statut', publish_id))['status']
+        reponse = json.loads(tiktok('statut', publish_id))
+        statut = reponse['status']
         if statut == 'SEND_TO_USER_INBOX':
-            return publish_id
-        if statut == 'FAILED':
             break
-    raise RuntimeError(f'brouillon {publish_id} : statut {statut}')
+        if statut == 'FAILED':
+            raise RuntimeError(f"brouillon {publish_id} refusé : {reponse.get('fail_reason')}")
+    return {'id': publish_id, 'statut': statut}
 
 
 def committer(message):
@@ -82,7 +89,7 @@ def main():
             shutil.copy2(dossier / f, paquet / f)
         shutil.copy2(dossier / 'legende-tiktok.txt', RACCOURCI)
         try:
-            p['tiktok'] = {'brouillon': brouillon(dossier / 'reel.mp4'), 'depose': dt.datetime.now().isoformat(timespec='seconds')}
+            p['tiktok'] = {**brouillon(dossier / 'reel.mp4'), 'depose': dt.datetime.now().isoformat(timespec='seconds')}
         except Exception as e:
             signaler(f'brouillon TikTok refusé ({jour})',
                      f"Fiche `{p['slug']}`, fichier `{dossier / 'reel.mp4'}`.\n\n```\n{e}\n```\n\n"
