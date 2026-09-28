@@ -68,7 +68,41 @@
     "explication": "Le lieu n'a rien de spécial sur le plan géographique : c'est un défaut de conception logicielle — renvoyer 0,0 plutôt que de signaler une erreur — qui y a agrégé un grand nombre de coordonnées mal calculées, au point que les cartographes lui ont donné un nom et l'ont même intégré comme repère dans un jeu de données.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Où se situe exactement le point 0°N 0°E surnommé Null Island ?",
+      "choix": [
+        "Dans le golfe Persique, à environ 200 km des côtes iraniennes, par une centaine de mètres de fond",
+        "Au large des Açores, dans l'Atlantique Nord, sur un plateau sous-marin peu profond",
+        "Dans l'océan Indien, au croisement de l'équateur et du méridien de Greenwich prolongé",
+        "En plein océan Atlantique, à environ 600 km au sud des côtes d'Afrique de l'Ouest, par près de 4 940 mètres de fond"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le point 0°N 0°E se trouve en plein Atlantique, au large du golfe de Guinée, à environ 600 km des côtes ouest-africaines et près de 4 940 mètres de fond."
+    },
+    {
+      "question": "Qu'est-ce que la bouée « Soul », station 13010, installée à ce point ?",
+      "choix": [
+        "Une bouée du réseau Pirata, entretenue par les États-Unis, la France et le Brésil de 1997/1998 à mars 2021",
+        "Une bouée expérimentale de la NASA testant des capteurs pour de futures missions martiennes",
+        "Une balise de navigation maritime installée par l'Organisation maritime internationale en 1990",
+        "Un ancien câble sous-marin de télécommunication transatlantique mis hors service en 2005"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La bouée Soul appartenait au réseau océanographique Pirata, entretenu par les États-Unis, la France et le Brésil, et a mesuré vent et température jusqu'en mars 2021."
+    },
+    {
+      "question": "Pourquoi le jeu de données Natural Earth a-t-il ajouté un polygone à cet endroit vers 2010-2011 ?",
+      "choix": [
+        "Pour marquer l'emplacement exact de la bouée Soul, alors la seule structure humaine dans la zone",
+        "Pour servir de test standard aux logiciels de cartographie avant chaque nouvelle version",
+        "Comme un repère minuscule, d'un mètre carré, délibérément trop petit pour apparaître sur une carte normale",
+        "Parce qu'un satellite y avait détecté, par erreur, la présence d'une île rocheuse"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le polygone d'un mètre carré est trop petit pour s'afficher sur une carte normale, mais permet aux logiciels de détecter une coordonnée par défaut plutôt que de la laisser passer inaperçue."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

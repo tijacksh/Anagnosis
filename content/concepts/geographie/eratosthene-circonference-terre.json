@@ -68,7 +68,41 @@
     "explication": "La méthode d'Ératosthène (angle du Soleil, distance entre deux villes) est solide et bien documentée. Ce qui manque, c'est la valeur exacte de l'unité qu'il a utilisée, le stade grec, dont la longueur variait selon les cités antiques — d'où une fourchette d'erreur qui va de la quasi-exactitude à une approximation grossière.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Sur quelle observation repose la méthode d'Ératosthène ?",
+      "choix": [
+        "Le passage régulier d'une éclipse solaire visible à la fois depuis Syène et depuis Alexandrie",
+        "La différence de température entre les eaux du Nil à Syène et celles du delta à Alexandrie",
+        "À Syène, le Soleil de midi ne projette aucune ombre au solstice d'été, alors qu'il forme un angle à Alexandrie",
+        "La durée du jour, mesurée à la clepsydre, qui variait entre les deux villes au même instant"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La méthode part de deux observations du Soleil le même jour : à Syène il n'y a pas d'ombre, à Alexandrie l'angle mesuré est d'environ 7,2 degrés."
+    },
+    {
+      "question": "Qui a mesuré la distance de 5 000 stades entre Syène et Alexandrie, utilisée par Ératosthène dans son calcul ?",
+      "choix": [
+        "Des astronomes grecs qui avaient calculé cette distance à partir des éclipses lunaires",
+        "Ératosthène lui-même, lors d'un unique voyage effectué entre les deux villes",
+        "Des marchands égyptiens qui transportaient des marchandises entre les deux villes par le Nil",
+        "Des bématistes, des arpenteurs professionnels qui mesuraient les distances au pas compté"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Les bématistes étaient des arpenteurs professionnels formés à mesurer les distances au pas compté ; c'est leur estimation qui donne les 5 000 stades du calcul."
+    },
+    {
+      "question": "Que sait-on du traité original d'Ératosthène, Sur la mesure de la Terre ?",
+      "choix": [
+        "Il a été retrouvé intact à la bibliothèque d'Alexandrie et numérisé au XXe siècle",
+        "Il ne nous est pas parvenu ; ce qu'on en connaît vient d'un résumé plus tardif dû à l'astronome Cléomède",
+        "Il n'a jamais existé : Ératosthène a transmis sa méthode uniquement par voie orale",
+        "Il a été traduit en latin dès l'Antiquité, ce qui a permis d'en fixer le texte définitivement"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le traité original d'Ératosthène est perdu ; le récit du calcul provient d'un résumé transmis par l'astronome Cléomède, plusieurs siècles plus tard."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
