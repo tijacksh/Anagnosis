@@ -119,6 +119,41 @@ a { color: inherit; }
 .store-bouton .texte { display: flex; flex-direction: column; gap: 2px; text-align: left; }
 .store-bouton .texte b { font-size: 13px; letter-spacing: 0; text-transform: none; font-weight: 600; }
 
+/* ---- inscription au lancement (Netlify Forms) ----
+   Le champ et le bouton partagent une même bordure d'encre, sans rayon (charte) :
+   ils se lisent comme une seule pièce. Sous 480 px, le bouton passe sous le champ
+   plutôt que de l'écraser. */
+.inscription { margin-top: 40px; max-width: 480px; }
+.inscription label {
+  display: block; font-family: var(--mono); font-size: 11px; font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--texte-2); margin-bottom: 8px;
+}
+.inscription .ligne { display: flex; }
+.inscription input[type=email] {
+  flex: 1; min-width: 0; min-height: 48px; padding: 0 14px; border-radius: 0;
+  border: 1px solid var(--encre); border-right: 0; background: transparent;
+  color: var(--encre); font-family: var(--corps); font-size: 17px;
+}
+.inscription input[type=email][aria-invalid=true] { border-color: #A3261B; }
+.inscription button {
+  min-height: 48px; padding: 0 18px; border: 1px solid var(--encre); border-radius: 0;
+  background: var(--encre); color: var(--papier); cursor: pointer;
+  font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+}
+.inscription button[disabled] { opacity: .6; cursor: progress; }
+.inscription .erreur { margin-top: 8px; font-size: 15px; color: #A3261B; }
+@media (prefers-color-scheme: dark) {
+  .inscription input[type=email][aria-invalid=true] { border-color: #F08A7E; }
+  .inscription .erreur { color: #F08A7E; }
+}
+.inscription .note { margin-top: 10px; font-size: 14px; line-height: 1.5; color: var(--texte-2); }
+.inscription + .stores { margin-top: 16px; }
+.piege { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+@media (max-width: 480px) {
+  .inscription .ligne { flex-direction: column; }
+  .inscription input[type=email] { border-right: 1px solid var(--encre); border-bottom: 0; }
+}
+
 /* ---- sections ---- */
 section.bloc { padding: 56px 0; border-top: 1px solid var(--filet); }
 section.bloc h2 {
@@ -243,10 +278,8 @@ footer {
       </svg>
     </div>
 
+    {{INSCRIPTION}}
     <div class="stores">
-      <a class="store-bouton" href="mailto:contact@anagnosis.fr?subject=Pr%C3%A9venez-moi%20du%20lancement">
-        <span class="texte"><span>Pas encore en ligne</span><b>Être prévenu·e par e-mail</b></span>
-      </a>
       <span class="store-bouton inerte" role="note">
         <span class="texte"><span>Bientôt</span><b>App Store · Google Play</b></span>
       </span>
@@ -297,10 +330,8 @@ footer {
       Store et Google Play. Gratuit pour toujours sur l'essentiel, un
       concept par jour, dans les disciplines de votre choix.
     </p>
+    {{INSCRIPTION}}
     <div class="stores">
-      <a class="store-bouton" href="mailto:contact@anagnosis.fr?subject=Pr%C3%A9venez-moi%20du%20lancement">
-        <span class="texte"><span>Pas encore en ligne</span><b>Être prévenu·e par e-mail</b></span>
-      </a>
       <span class="store-bouton inerte" role="note">
         <span class="texte"><span>Bientôt</span><b>App Store · Google Play</b></span>
       </span>
@@ -379,6 +410,46 @@ document.querySelectorAll('details.famille').forEach((det) => {
       animationEnCours = null;
     }).catch(() => {});
   });
+});
+</script>
+
+<script>
+// Messages d'erreur du formulaire d'inscription, en français et sous le champ,
+// plutôt que la bulle native du navigateur (dans sa langue à lui, et qui disparaît
+// au bout de trois secondes). Sans ce script, la validation native reste en place :
+// `novalidate` n'est posé qu'ici.
+document.querySelectorAll('form.inscription').forEach((form) => {
+  const champ = form.querySelector('input[type=email]');
+  const erreur = form.querySelector('.erreur');
+  const bouton = form.querySelector('button');
+  form.noValidate = true;
+  const montrer = (message) => {
+    erreur.textContent = message;
+    erreur.hidden = !message;
+    champ.setAttribute('aria-invalid', message ? 'true' : 'false');
+  };
+  champ.addEventListener('input', () => { if (!erreur.hidden && champ.validity.valid) montrer(''); });
+  form.addEventListener('submit', (evenement) => {
+    champ.value = champ.value.trim();
+    if (champ.validity.valueMissing) {
+      evenement.preventDefault();
+      montrer('Indiquez votre adresse e-mail.');
+    } else if (!champ.validity.valid) {
+      evenement.preventDefault();
+      montrer("Cette adresse semble incomplète : il manque l'arobase ou le domaine.");
+    } else {
+      montrer('');
+      // État de chargement : empêche aussi un double envoi sur connexion lente.
+      bouton.disabled = true;
+      bouton.textContent = 'Envoi…';
+    }
+    if (evenement.defaultPrevented) champ.focus();
+  });
+});
+// Revenir en arrière depuis /merci restaure la page depuis le cache : le bouton
+// resterait figé sur « Envoi… ».
+window.addEventListener('pageshow', () => {
+  document.querySelectorAll('form.inscription button').forEach((b) => { b.disabled = false; b.textContent = 'Me prévenir'; });
 });
 </script>
 
