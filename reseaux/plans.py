@@ -4,7 +4,7 @@
     plans.py
 
 Chaque plan découpe 3,5 s d'un rush filmé au simulateur (`~/Anagnosis-medias/rushes/`),
-pose l'écran sur le papier dans un filet noir, rayon 0, avec une ligne en mono au-dessus,
+pose l'écran sur le papier dans un filet noir, rayon 0, avec une phrase en mono au-dessus,
 et sort en 1080 × 1920 à 30 images/s dans `~/Anagnosis-medias/plans/`. Les rushes sont
 refilmés quand une build change l'interface ; les coupes ci-dessous sont à revoir alors.
 
@@ -27,23 +27,24 @@ Y_ECRAN = 320
 
 # nom : (rush, début, durée prise dans le rush, ligne affichée)
 COUPES = {
-    'choix':   ('onboarding.mp4', 38.8, 4.2, 'VOUS CHOISISSEZ VOS DISCIPLINES'),
-    'lecture': ('lecture.mp4', 7.5, 5.0, 'CHAQUE JOUR, UNE FICHE EN ENTIER'),
-    'verrou':  ('verrou.mp4', 1.0, 3.5, "UNE PAR JOUR. PUIS C'EST FERMÉ."),
-    'quiz':    ('quiz.mp4', 13.8, 3.5, 'UN QUIZ, SI VOUS VOULEZ'),
+# Chaque ligne dit ce que montre l'écran, en une phrase qui se comprend seule.
+    'choix':   ('onboarding.mp4', 38.8, 4.2, ('VOUS CHOISISSEZ', 'VOS DISCIPLINES')),
+    'lecture': ('lecture.mp4', 7.5, 5.0, ('CHAQUE JOUR, UNE FICHE', 'À LIRE EN TROIS MINUTES')),
+    'verrou':  ('verrou.mp4', 1.0, 3.5, ('UN CONCEPT PAR JOUR,', 'LE SUIVANT ARRIVE DEMAIN')),
+    'quiz':    ('quiz.mp4', 13.8, 3.5, ('UN QUIZ POUR VÉRIFIER', "CE QU'ON A RETENU")),
 }
 
 
-def fond(ligne, largeur_ecran, chemin):
-    """Le papier, le filet autour de l'écran et la ligne ; l'écran se pose dans le trou."""
+def fond(lignes, largeur_ecran, chemin):
+    """Le papier, le filet autour de l'écran et deux lignes ; l'écran se pose dans le trou."""
     img = Image.new('RGB', (composer.L, composer.H), composer.PAPIER)
     d = ImageDraw.Draw(img)
     x = (composer.L - largeur_ecran) // 2
     d.rectangle([x - 6, Y_ECRAN - 6, x + largeur_ecran + 5, Y_ECRAN + HAUTEUR_ECRAN + 5],
                 fill=composer.ENCRE)
-    mono = composer.police('MartianMono.ttf', 24, Weight=600)
-    composer.centre(d, Y_ECRAN - 110, "DANS L'APP", mono, espacement=4)
-    composer.centre(d, Y_ECRAN - 70, ligne, composer.police('MartianMono.ttf', 24, Weight=500), espacement=2)
+    mono = composer.police('MartianMono.ttf', 26, Weight=600)
+    for i, ligne in enumerate(lignes):
+        composer.centre(d, Y_ECRAN - 118 + 44 * i, ligne, mono, espacement=3)
     composer.grain(img).save(chemin)
     return x
 
@@ -51,9 +52,9 @@ def fond(ligne, largeur_ecran, chemin):
 def main():
     PLANS.mkdir(parents=True, exist_ok=True)
     largeur = round(HAUTEUR_ECRAN * 1206 / 2622) // 2 * 2
-    for nom, (rush, debut, prise, ligne) in COUPES.items():
+    for nom, (rush, debut, prise, lignes) in COUPES.items():
         image = PLANS / f'{nom}-fond.png'
-        x = fond(ligne, largeur, image)
+        x = fond(lignes, largeur, image)
         vitesse = prise / DUREE
         subprocess.run([
             'ffmpeg', '-v', 'error', '-y', '-ss', str(debut), '-t', str(prise), '-i', str(RUSHES / rush),
