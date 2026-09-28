@@ -25,17 +25,22 @@ DUREE = 3.5
 HAUTEUR_ECRAN = 1060
 Y_ECRAN = 320
 
-# nom : (rush, début, durée prise dans le rush, ligne affichée)
+# nom : (rush, début, durée prise dans le rush, lignes affichées)
+#
+# **Toujours à vitesse réelle.** Le simulateur n'enregistre une image que quand l'écran
+# change : accélérer un rush fait sauter des images et saccade le mouvement. Les
+# défilements se filment d'un geste lancé (iOS anime la décélération à 60 images/s), jamais
+# par petits glissements successifs.
 COUPES = {
 # Chaque ligne dit ce que montre l'écran, en une phrase qui se comprend seule.
-    'choix':   ('onboarding.mp4', 38.8, 4.2, ('VOUS CHOISISSEZ', 'VOS DISCIPLINES')),
-    'lecture': ('lecture.mp4', 7.5, 5.0, ('CHAQUE JOUR, UNE FICHE', 'À LIRE EN TROIS MINUTES')),
+    'choix':   ('onboarding.mp4', 39.2, 3.5, ('VOUS CHOISISSEZ', 'VOS DISCIPLINES')),
+    'lecture': ('lecture.mp4', 5.5, 3.5, ('CHAQUE JOUR, UNE FICHE', 'À LIRE EN TROIS MINUTES')),
     'verrou':  ('verrou.mp4', 1.0, 3.5, ('UN CONCEPT PAR JOUR,', 'LE SUIVANT ARRIVE DEMAIN')),
     'quiz':    ('quiz.mp4', 13.8, 3.5, ('UN QUIZ POUR VÉRIFIER', "CE QU'ON A RETENU")),
     # Filmés sur un compte simulé de six semaines (rushes/compte-demo.py) : un compte neuf
     # n'a qu'un jour lu, et son relevé est vide.
-    'releve':  ('profil.mp4', 0.3, 3.5, ('CHAQUE FICHE LUE', "S'IMPRIME DANS VOTRE RELEVÉ")),
-    'ouverture': ('ouverture.mp4', 0.6, 4.3, ('CHAQUE JOUR, UNE NOUVELLE', 'FICHE VOUS ATTEND')),
+    'releve':  ('profil.mp4', 8.4, 3.5, ('CHAQUE FICHE LUE', "S'IMPRIME DANS VOTRE RELEVÉ")),
+    'ouverture': ('ouverture.mp4', 1.0, 3.5, ('CHAQUE JOUR, UNE NOUVELLE', 'FICHE VOUS ATTEND')),
 }
 
 
