@@ -71,8 +71,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-28",
+    "verdict": "ok",
+    "empreinte": "20552233065bffbf",
+    "notes": [
+      "Sources rouvertes : NOAA NDBC confirme les coordonnées 0,000N 0,000E de la station 13010, son appartenance au réseau Pirata et son inactivité (No Recent Reports). NOAA PMEL confirme le partenariat États-Unis/France/Brésil établi au milieu des années 1990. Wikipedia Null Island confirme la localisation (~600 km au sud de l'Afrique de l'Ouest, ~4940 m de fond), l'origine du nom via Natural Earth (2010-2011, polygone d'1 m²), et l'historique de la bouée Soul (disparition en moins d'un an, remplacement 1998, mise hors service mars 2021). Rien à corriger."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-28", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-28",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
