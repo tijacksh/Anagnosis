@@ -8,7 +8,7 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "Demandez à quelqu'un de citer le plus grand désert du monde : le Sahara vient presque toujours en premier — dunes, chaleur, chameaux. Il n'est pourtant pas le plus grand désert de la planète, et de loin : ce titre revient à un continent entièrement recouvert de glace.\n\n## Le mécanisme\n\nLa confusion tient au mot lui-même. Un désert ne se définit pas par la chaleur mais par la sécheresse : selon le seuil couramment retenu, toute région recevant moins de 250 mm de précipitations par an — pluie, neige ou brouillard, peu importe la forme — entre dans la catégorie. Rien dans cette définition n'exige du sable ni un thermomètre élevé.\n\nOr l'Antarctique reçoit, en moyenne sur l'ensemble du continent, l'équivalent d'environ 150 mm d'eau par an, presque entièrement sous forme de neige. Le contraste interne est net : l'intérieur du plateau polaire, le plus froid et le plus sec, ne reçoit qu'environ 50 mm par an — l'air y est si froid qu'il retient à peine assez de vapeur d'eau pour en condenser —, tandis que la ceinture côtière, plus tempérée, peut recevoir jusqu'à 500 mm. Même la moyenne continentale reste très en dessous du seuil des déserts chauds classiques.\n\nÀ l'échelle des surfaces, le classement ne laisse pas de doute : le désert Antarctique couvre environ 14,2 millions de km², contre 9,2 millions pour le Sahara — près de 5 millions de km² d'écart, à peu près la superficie de l'Inde.\n\n## Le déplacement\n\nCe qui bascule n'est pas seulement un record de géographie scolaire, c'est l'image mentale attachée au mot « désert ». On l'associe spontanément à un excès — trop de chaleur, trop peu de vie ; la définition scientifique, elle, ne retient qu'un déficit, celui de l'eau tombée du ciel. Un continent peut ainsi être bâti sur des kilomètres de glace accumulée pendant des centaines de milliers d'années — la trace non pas d'un excès d'eau, mais d'une neige tombée en quantités infimes et jamais fondue — et rester, climatiquement, le plus aride de tous : l'Antarctique est décrit, dans la littérature scientifique qui lui est consacrée, comme le plus froid, le plus sec et le plus venteux des continents. Le Sahara, à l'inverse, perd chaque nuit une bonne part de la chaleur qu'il emmagasine le jour, et reste en cela un désert « chaud » parmi d'autres — un sous-genre, quand l'Antarctique occupe la catégorie tout entière par la seule taille.",
+  "contenu_vulgarise": "Demandez à quelqu'un de citer le plus grand désert du monde : le Sahara vient presque toujours en premier — dunes, chaleur, chameaux. Il n'est pourtant pas le plus grand désert de la planète, et de loin : ce titre revient à un continent entièrement recouvert de glace.\n\n## Le mécanisme\n\nLa confusion tient au mot lui-même. Un désert ne se définit pas par la chaleur mais par la sécheresse : selon le seuil couramment retenu, toute région recevant moins de 250 mm de précipitations par an — pluie, neige ou brouillard, peu importe la forme — entre dans la catégorie. Rien dans cette définition n'exige du sable ni un thermomètre élevé.\n\nOr l'Antarctique reçoit, en moyenne sur l'ensemble du continent, l'équivalent d'environ 150 mm d'eau par an, presque entièrement sous forme de neige. Le contraste interne est net : l'intérieur du plateau polaire, le plus froid et le plus sec, ne reçoit qu'environ 50 mm par an — l'air y est si froid qu'il retient à peine assez de vapeur d'eau pour en condenser —, tandis que la ceinture côtière, plus tempérée, peut recevoir jusqu'à 500 mm. Même la moyenne continentale reste très en dessous du seuil des déserts chauds classiques.\n\nÀ l'échelle des surfaces, le classement ne laisse pas de doute : le désert Antarctique couvre environ 14,2 millions de km², contre 9,2 millions pour le Sahara — près de 5 millions de km² d'écart.\n\n## Le déplacement\n\nCe qui bascule n'est pas seulement un record de géographie scolaire, c'est l'image mentale attachée au mot « désert ». On l'associe spontanément à un excès — trop de chaleur, trop peu de vie ; la définition scientifique, elle, ne retient qu'un déficit, celui de l'eau tombée du ciel. Un continent peut ainsi être bâti sur des kilomètres de glace accumulée pendant des centaines de milliers d'années — la trace non pas d'un excès d'eau, mais d'une neige tombée en quantités infimes et jamais fondue — et rester, climatiquement, le plus aride de tous : l'Antarctique est décrit, dans la littérature scientifique qui lui est consacrée, comme le plus froid, le plus sec et le plus venteux des continents. Le Sahara, à l'inverse, perd chaque nuit une bonne part de la chaleur qu'il emmagasine le jour, et reste en cela un désert « chaud » parmi d'autres — un sous-genre, quand l'Antarctique occupe la catégorie tout entière par la seule taille.",
   "citation": null,
   "repere": {
     "texte": "Le désert Antarctique couvre environ 14 200 000 km², contre 9 200 000 km² pour le Sahara — le plus grand désert du monde n'est ni chaud ni couvert de sable.",
@@ -66,15 +66,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Un désert se classe par son déficit de précipitations (moins de 250 mm par an), pas par sa chaleur ni par l'absence de vie. L'Antarctique, très en dessous de ce seuil sur la majeure partie de sa surface, devient ainsi le plus grand désert du monde par superficie, loin devant le Sahara.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-09-28T10:17:27.517Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-09-28T10:17:27.517Z",
+        "note": "Sources rouvertes indépendamment : Britannica confirme le seuil de 250 mm et les précipitations (50 mm intérieur, jusqu'à 500 mm côte). Wikipedia Antarctica confirme la superficie (14,2 M km²) et la description 'coldest, windiest, driest'. Wikipedia Desert confirme le tableau (Antarctic 14,2M, Sahara 9,2M km²) et le seuil de 250 mm. Vérification supplémentaire (Wikipedia India) : la comparaison 'à peu près la superficie de l'Inde' pour l'écart de 5 millions de km² était fausse — l'Inde fait 3,29 millions de km², pas 5. Comparaison retirée après validation — empreinte modifiée en conséquence, troisième passage de contrôle à venir. Reste du contenu, carte et quiz conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-28",
