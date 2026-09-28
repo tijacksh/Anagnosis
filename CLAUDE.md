@@ -52,10 +52,11 @@ npm test           # tests
 
 ## Réseaux sociaux (`reseaux/`) — hors routines
 
-Proposition du 2026-09-28 : une chaîne qui publie automatiquement des Reels (TikTok +
-Instagram) et des carrousels (Instagram) à partir des cartes validées. Tout est dans
-`docs/reseaux.md`. **Seule exception à « zéro API externe »** : `reseaux/` appelle un service
-de publication, tourne uniquement sur le Mac mini, et n'est jamais importé par `src/`.
+Décidé le 2026-09-28 : une chaîne qui prépare des Reels et des carrousels à partir des
+cartes validées, les dépose en brouillon sur TikTok et les publie sur Instagram, par nos
+propres apps développeur, sans service tiers. Tout est dans `docs/reseaux.md`. **Seule exception
+à « zéro API externe »** : `reseaux/` appelle les API TikTok et Instagram, tourne uniquement sur
+le Mac mini, et n'est jamais importé par `src/`.
 
 Les routines de contenu ne modifient ni `reseaux/` ni `reseaux/registre.json`. Si `controler`
 trouve une erreur de fond dans une fiche listée dans ce registre, ouvrir une issue : le post

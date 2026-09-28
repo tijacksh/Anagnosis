@@ -1,8 +1,8 @@
 # Réseaux sociaux — la chaîne de publication automatique
 
-> **Statut : proposition du 2026-09-28, rien ne publie encore.** Deux choses attendent une
-> décision humaine : le service de publication (§3) et la création des comptes (§7). Une fois
-> tranché, l'entrée correspondante ira dans `docs/decisions.md`.
+> **Statut : décidé le 2026-09-28, pas encore construit.** Aucun service tiers. Tout passe
+> par nos propres apps développeur (TikTok, Meta) et notre propre infrastructure (Mac mini,
+> R2). **La publication finale sur TikTok est faite à la main**, depuis le brouillon préparé.
 
 ## 1. Ce qu'on publie
 
@@ -28,46 +28,35 @@ Règles qui ne se discutent pas, parce qu'elles viennent de la ligne éditoriale
   le quart bas de l'image. La carte de l'app place son crédit à 78–88 % de la hauteur : dans
   un Reel, la carte est réduite et remontée dans un cadre papier.
 
-## 2. Pourquoi un service tiers pour publier
+## 2. Pourquoi TikTok reste en brouillon
 
-Vérifié le 2026-09-28 dans la documentation officielle :
+Vérifié le 2026-09-28 dans la documentation officielle (developers.tiktok.com/doc/content-sharing-guidelines).
 
-- **Publier sur TikTok avec notre propre app développeur est impossible sans humain.**
-  - Tant qu'un client n'est pas audité, il ne publie qu'en `SELF_ONLY`, donc en privé.
-  - L'audit refuse explicitement notre cas : *« A utility tool to help upload contents to the account(s) you or your team manages »*.
-  - Les règles d'interface imposent qu'un humain choisisse la confidentialité à chaque post, sans valeur par défaut.
-  - Le mode brouillon (`video.upload`) exige qu'on termine la publication à la main dans l'app TikTok.
-  - Source : developers.tiktok.com/doc/content-sharing-guidelines.
-- **Instagram serait faisable en direct**, via l'API Instagram avec connexion Instagram, sans Page Facebook et sans App Review pour nos propres comptes. Mais cette API n'a pas de publication différée : il faudrait que notre machine soit allumée à l'heure de chaque post.
+- **Publier seul sur TikTok avec notre propre app développeur est impossible.**
+  - Un client non audité ne publie qu'en `SELF_ONLY`, donc en privé.
+  - L'audit refuse notre cas : *« A utility tool to help upload contents to the account(s) you or your team manages »*.
+  - Même audité, la publication directe exige qu'un humain choisisse la confidentialité à chaque post.
+- **Le mode brouillon (`video.upload`, « upload to inbox ») fait exactement ce qu'on veut.**
+  - La vidéo arrive dans la boîte de réception TikTok du compte.
+  - On l'ouvre, on ajoute si on le souhaite un son tendance (l'API ne sait pas le faire), on publie. C'est un geste d'environ 20 secondes.
+  - Limites : 5 brouillons en attente par 24 h, 6 requêtes par minute. Notre cadence (4 par semaine) en est loin.
+  - La documentation ne dit pas si ce mode exige l'audit ; d'autres sources disent que non. **C'est à vérifier au premier essai.**
+  - Jetons : 24 h pour l'accès, 365 jours pour le rafraîchissement. Le job les rafraîchit lui-même.
 
-Un service agrégateur, qui a lui-même une app TikTok auditée, lève les deux obstacles. Il publie
-en public sur TikTok et programme côté serveur. **Une fois la semaine programmée, le Mac mini
-peut être éteint.**
+## 3. Instagram : publié automatiquement, par notre propre app Meta
 
-## 3. Le service retenu (proposition)
-
-| | Upload-Post (recommandé) | Zernio (ex-Late), l'alternative |
-|---|---|---|
-| TikTok public en direct | oui | oui, avec des erreurs « capacity » sur leur app partagée |
-| Reels et carrousels Instagram | oui | oui |
-| Programmation côté serveur | `scheduled_date`, jusqu'à 365 jours à l'avance | `scheduledFor` |
-| Envoi d'un fichier local | oui (multipart) | oui (upload présigné) |
-| Prix pour nos deux comptes | ~16 $/mois à l'année, 24 $ au mois | 2 comptes gratuits |
-| Société | Málaga, Espagne (UE) | Gérone, Espagne |
-
-Upload-Post est le seul confirmé sur les trois points à la fois : fichier local, programmation
-serveur et les trois formats. **Premier geste : un post de test sur chaque réseau, pour vérifier
-qu'il sort bien en public.**
-
-Plafonds à respecter :
-
-| | Plafond de la plateforme | Notre cadence |
-|---|---|---|
-| TikTok | ~15 posts par jour via l'API | 1 à 2 posts par jour au maximum |
-| Instagram | 100 posts par jour | 1 à 2 posts par jour au maximum |
-
-La case « contenu commercial » de TikTok est cochée sur chaque post : c'est notre marque. Le
-label IA ne s'applique pas aux animations graphiques abstraites.
+- On passe par l'API Instagram avec connexion Instagram.
+  - Pas besoin de Page Facebook.
+  - Pas d'App Review : nos comptes ont un rôle sur notre propre app, l'accès standard suffit.
+  - Permissions nécessaires : `instagram_business_basic` et `instagram_business_content_publish`.
+- Fonctionnement : les Reels (`media_type=REELS`) et les carrousels (jusqu'à 10 JPEG, en 4:5) passent par `POST /{ig-user-id}/media`, puis `/media_publish`. Plafond : 100 posts par 24 h.
+- **L'API n'a ni brouillon ni publication différée.** Le Mac mini (launchd) appelle donc `media_publish` à l'heure prévue, vers 7 h 45. Il est allumé en permanence, puisqu'il sert déjà le backend de Caarnet. Si l'heure est manquée (coupure), le post part au réveil, le jour même seulement.
+- **Les médias doivent être accessibles par URL**, et c'est notre R2 qui les héberge : aucun service tiers.
+  - Le pipeline écrit déjà dans R2 avec les clés S3 de `~/.anagnosis/cles.env` (`src/r2.js`).
+  - Chaque fichier est déposé sous `reseaux/`, et Instagram le lit via une URL présignée valable 1 h. Le bucket reste privé.
+  - Les vidéos peuvent aussi passer par l'envoi direct (`rupload`).
+- Jeton long de 60 jours, rafraîchi chaque semaine par le job.
+- Si l'on préfère aussi publier Instagram à la main, un réglage (`INSTAGRAM_AUTO=0`) remplace la publication par le dépôt du paquet prêt à poster (§4 bis).
 
 ## 4. La chaîne
 
@@ -81,16 +70,24 @@ Elle tourne sur le Mac mini (launchd), le dimanche à 20 h, et prépare la semai
 3. composer     reseaux/composer.js   gabarits HTML (Chrome headless piloté en CDP) + ffmpeg :
                                       accroche → carte de l'app → rush d'écran réel → fin
 4. contrôler    reseaux/controler.js  échec = on écarte la fiche et on prend la suivante
-5. programmer   reseaux/publier.js    Reels → TikTok + Instagram ; carrousel → Instagram
+5. déposer      reseaux/publier.js    TikTok : brouillon dans l'inbox, le jour J à 7 h 30
+                                      Instagram : publication auto à 7 h 45 (Reel ou carrousel)
 6. consigner    reseaux/registre.json committé sur main : fiche, format, date, liens des posts
 ```
 
 **Pas de dépendance npm.** Node natif (WebSocket et fetch), Chrome, ffmpeg et Xcode. C'est la
 même philosophie que le reste du dépôt.
 
-**Le lundi, une vérification** interroge le service sur l'état des posts. Si un post a échoué ou
-si un compte est déconnecté, une issue GitHub est ouverte et mentionne @tijacksh et @Orkidea.
-Personne n'a à surveiller quoi que ce soit : on est prévenus seulement en cas de problème.
+**Chaque échec ouvre une issue GitHub** qui mentionne @tijacksh et @Orkidea : jeton expiré,
+Instagram qui refuse un média, brouillon TikTok rejeté. Personne n'a à surveiller quoi que ce
+soit : on est prévenus seulement en cas de problème.
+
+### 4 bis. Le paquet de secours
+
+Chaque post existe aussi sous forme de paquet dans `~/Anagnosis-medias/semaine-AAAA-SS/` :
+la vidéo, les images du carrousel, et un fichier `legende.txt` avec la légende et les hashtags.
+Ce dossier est recopié dans iCloud Drive (`Anagnosis/Réseaux/`) pour être accessible depuis le
+téléphone. Si une API tombe, on publie à la main depuis là.
 
 ## 5. Les vrais écrans de l'app
 
@@ -117,18 +114,25 @@ Chacun de ces contrôles, s'il échoue, bloque la publication :
 - Aucune fiche déjà présente dans le registre.
 - Un interrupteur d'arrêt : le fichier `reseaux/PAUSE`, s'il existe, suspend toute programmation.
 
-## 7. Ce qui reste humain, une seule fois
+## 7. Ce qui reste humain
 
-Ces gestes ne peuvent pas être faits par Claude : création de compte, paiement, autorisation
-OAuth, saisie de clé.
+**Une fois.** Ces gestes ne peuvent pas être faits par Claude : création de compte, OAuth,
+saisie de secret.
 
-1. Créer le compte TikTok et le compte Instagram (même nom), puis passer Instagram en compte professionnel (Créateur).
-2. S'abonner au service retenu, puis y connecter TikTok et Instagram (OAuth).
-3. Générer la clé d'API du service et l'ajouter dans `~/.anagnosis/cles.env` (`RESEAUX_API_KEY=…`). Jamais dans le dépôt.
+1. Créer les comptes TikTok et Instagram (même nom), puis passer Instagram en compte professionnel (Créateur).
+2. **TikTok for Developers**
+   - Créer une app « Anagnosis » et y ajouter *Login Kit* et *Content Posting API* (scope `video.upload`).
+   - Déclarer anagnosis.fr, avec les pages confidentialité et conditions déjà en ligne.
+   - Tant que l'app est en sandbox, y ajouter le compte TikTok comme utilisateur de test.
+3. **Meta for Developers**
+   - Créer une app de type « Business » et y ajouter le produit *Instagram* (API avec connexion Instagram).
+   - Donner au compte Instagram le rôle de testeur de l'app, et l'accepter depuis Instagram.
+4. **Autoriser une fois** chaque app sur son compte, via une page locale que le job ouvrira sur `localhost`. Les jetons vont ensuite dans `~/.anagnosis/reseaux-jetons.json`, jamais dans le dépôt.
+5. Ajouter les identifiants des deux apps (client key et secret TikTok, app ID et secret Meta) dans `~/.anagnosis/cles.env`.
 
-Ensuite, plus aucune action n'est nécessaire. Les seuls cas qui nous rappelleraient : une
-reconnexion OAuth si une plateforme la redemande (le jeton de rafraîchissement TikTok vit 365
-jours), ou un contrôle de sécurité d'Instagram. Dans les deux cas, l'issue du lundi le signale.
+**Chaque semaine :** ouvrir les 4 brouillons TikTok et publier. Instagram part seul.
+
+**Rarement :** une reconnexion si une plateforme la redemande. L'issue le signale.
 
 ## 8. Pour les routines et pour Vincent
 
