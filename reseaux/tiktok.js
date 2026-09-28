@@ -180,7 +180,10 @@ async function publier(fichier, legendeFichier) {
   if (legende.length > 2200) throw new Error('légende de plus de 2 200 caractères');
   const createur = await appel('/v2/post/publish/creator_info/query/');
   const options = createur.privacy_level_options ?? [];
-  const visibilite = options.includes('PUBLIC_TO_EVERYONE') ? 'PUBLIC_TO_EVERYONE' : 'SELF_ONLY';
+  // Le compte peut proposer PUBLIC_TO_EVERYONE alors que l'app, non auditée, n'a droit qu'à
+  // SELF_ONLY (erreur `unaudited_client_can_only_post_to_private_accounts`, vue le 2026-09-28).
+  const visibilite = process.env.TIKTOK_AUDITE === '1' && options.includes('PUBLIC_TO_EVERYONE')
+    ? 'PUBLIC_TO_EVERYONE' : 'SELF_ONLY';
   console.log(`Visibilités permises : ${options.join(', ')} → ${visibilite}`);
   return envoyer('/v2/post/publish/video/init/', fichier, {
     post_info: {
@@ -199,7 +202,7 @@ async function statut(id) {
 }
 
 const [commande, arg] = process.argv.slice(2);
-const [, , , legende] = process.argv;
+const legende = process.argv[4];
 const actions = { autoriser, compte, brouillon: () => brouillon(arg), publier: () => publier(arg, legende),
                   statut: () => statut(arg) };
 if (!actions[commande]) {

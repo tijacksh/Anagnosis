@@ -36,6 +36,10 @@ Vérifié le 2026-09-28 dans la documentation officielle (developers.tiktok.com/
   - Un client non audité ne publie qu'en `SELF_ONLY`, donc en privé.
   - L'audit refuse notre cas : *« A utility tool to help upload contents to the account(s) you or your team manages »*.
   - Même audité, la publication directe exige qu'un humain choisisse la confidentialité à chaque post.
+- **Essayé le 2026-09-28 : même en « moi uniquement », la publication directe est refusée.**
+  TikTok répond `unaudited_client_can_only_post_to_private_accounts` : une app non auditée ne
+  publie que sur un compte **entièrement privé**, ce qui n'a aucun sens pour la marque. La voie
+  directe est donc fermée, le brouillon est la seule.
 - **Le mode brouillon (`video.upload`, « upload to inbox ») fait exactement ce qu'on veut.**
   - La vidéo arrive dans la boîte de réception TikTok du compte.
   - On l'ouvre, on ajoute si on le souhaite un son tendance (l'API ne sait pas le faire), on publie. C'est un geste d'environ 20 secondes.
