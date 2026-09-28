@@ -118,9 +118,12 @@ téléphone. Si une API tombe, on publie à la main depuis là.
   figée à 8:00), tournés le 2026-09-28 : onboarding et tuiles qui se remplissent, lecture
   qui défile, verrou et son compte à rebours, quiz corrigé, profil. Ils sont gardés hors
   git, dans `~/Anagnosis-medias/rushes/`. `reseaux/plans.py` en découpe quatre plans de
-  3,5 s (choix, lecture, verrou, quiz), l'écran posé sur le papier avec une ligne en mono,
+  3,5 s (choix, lecture, verrou, quiz, relevé, ouverture), l'écran posé sur le papier avec
+  une phrase en mono,
   et `preparer.py` les fait tourner d'un Reel à l'autre. On les refilme quand une build
-  change l'interface, et on revoit alors les coupes de `plans.py`.
+  change l'interface, et on revoit alors les coupes de `plans.py`. Le relevé et l'ouverture
+  sont filmés sur un compte simulé de six semaines (`reseaux/compte-demo.py`, qui écrit
+  l'état du lecteur dans le simulateur de tournage, jamais dans l'app).
 - **Le code de tournage vit dans le dépôt de l'app** (`AnagnosisTests/TournageTests.swift`).
   Il est désactivé sauf si `TOURNAGE_IDS` est fourni, et n'ajoute rien au binaire livré. Les
   raccourcis de lancement retirés le 2026-08-27 ne reviennent pas.

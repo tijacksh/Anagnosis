@@ -29,7 +29,7 @@ APP = Path(os.environ.get('ANAGNOSIS_APP_TOURNAGE', Path.home() / 'Anagnosis-app
 MEDIAS = Path(os.environ.get('ANAGNOSIS_MEDIAS', Path.home() / 'Anagnosis-medias'))
 JOURS = (0, 2, 4, 6)          # lundi, mercredi, vendredi, dimanche
 RESERVE = 3                   # fiches de rechange si l'app en refuse une au tournage
-PLANS = ('choix', 'lecture', 'verrou', 'quiz')   # plans d'app (plans.py), en rotation
+PLANS = ('choix', 'lecture', 'verrou', 'quiz', 'releve', 'ouverture')   # plans d'app (plans.py), en rotation
 
 
 def registre():

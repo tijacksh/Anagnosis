@@ -32,6 +32,10 @@ COUPES = {
     'lecture': ('lecture.mp4', 7.5, 5.0, ('CHAQUE JOUR, UNE FICHE', 'À LIRE EN TROIS MINUTES')),
     'verrou':  ('verrou.mp4', 1.0, 3.5, ('UN CONCEPT PAR JOUR,', 'LE SUIVANT ARRIVE DEMAIN')),
     'quiz':    ('quiz.mp4', 13.8, 3.5, ('UN QUIZ POUR VÉRIFIER', "CE QU'ON A RETENU")),
+    # Filmés sur un compte simulé de six semaines (rushes/compte-demo.py) : un compte neuf
+    # n'a qu'un jour lu, et son relevé est vide.
+    'releve':  ('profil.mp4', 0.3, 3.5, ('CHAQUE FICHE LUE', "S'IMPRIME DANS VOTRE RELEVÉ")),
+    'ouverture': ('ouverture.mp4', 0.6, 4.3, ('CHAQUE JOUR, UNE NOUVELLE', 'FICHE VOUS ATTEND')),
 }
 
 
@@ -60,7 +64,7 @@ def main():
             'ffmpeg', '-v', 'error', '-y', '-ss', str(debut), '-t', str(prise), '-i', str(RUSHES / rush),
             '-loop', '1', '-i', str(image),
             '-filter_complex',
-            f'[0:v]setpts=PTS/{vitesse},fps=30,scale={largeur}:{HAUTEUR_ECRAN}[e];'
+            f'[0:v]setpts=(PTS-STARTPTS)/{vitesse},fps=30,scale={largeur}:{HAUTEUR_ECRAN}[e];'
             f'[1:v][e]overlay={x}:{Y_ECRAN}:shortest=1,format=yuv420p,trim=duration={DUREE}[v]',
             '-map', '[v]', '-an', '-c:v', 'libx264', '-crf', '18', '-r', '30', str(PLANS / f'{nom}.mp4')],
             check=True)
