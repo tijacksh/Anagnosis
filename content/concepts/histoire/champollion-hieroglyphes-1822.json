@@ -64,13 +64,37 @@
     ],
     "bonne_reponse": 0,
     "explication": "Young avait repéré que des cartouches de souverains étrangers, comme Ptolémée, notaient des sons, mais restait persuadé que les noms égyptiens d'origine s'écrivaient uniquement de façon symbolique — ce que Champollion a réfuté avec Ramsès et Thoutmôsis, sans rapport avec la pierre de Rosette, les cartouches ou un travail solitaire.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-controle",
+    "decide_le": "2026-09-28T16:18:47.400Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-09-28T16:18:47.400Z",
+        "note": "Incohérence interne : le corps affirme d'abord que l'écriture égyptienne est restée « muette pendant plus de mille quatre cents ans » (cohérent avec la dernière inscription hiéroglyphique connue, le graffito de Philae du 24 août 394, soit 1428 ans avant 1822), puis dans la conclusion que Champollion lit « des inscriptions restées muettes depuis seize siècles » (1600 ans, soit une origine vers 222 apr. J.-C. — sans rapport avec aucune source citée ni avec l'histoire des hiéroglyphes). Les deux chiffres désignent la même durée et se contredisent. À corriger en resserrant sur « quatorze siècles » ou une formulation équivalente à « plus de mille quatre cents ans », qui est le chiffre cohérent avec les faits."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-09-28",
+    "verdict": "a_revoir",
+    "empreinte": "7de165066186784c",
+    "notes": [
+      "Incohérence interne sur la durée d'illisibilité des hiéroglyphes : « plus de mille quatre cents ans » (cohérent, dernière inscription hiéroglyphique connue le 24 août 394) puis « seize siècles » (1600 ans, faux) pour la même durée dans la conclusion. Statut passé à en_retouche."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-28", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-28",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
