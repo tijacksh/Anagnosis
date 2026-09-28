@@ -123,6 +123,11 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Géographie | Null Island (0°N 0°E) : le point où les logiciels de géocodage placent leurs erreurs, et où une bouée Pirata (1997-2021) a réellement existé | fait | routine-production | 2026-09-28 |
 | Géographie | Ératosthène (v. 240 av. J.-C.) mesure la Terre à 250 000 stades depuis Alexandrie — une précision « à 1 % près » qu'on ne peut pas vérifier | fait | routine-production | 2026-09-28 |
 
+| Histoire | Christophe Colomb et le mythe des théologiens de la Terre plate (Washington Irving, 1828) | fait | routine-production | 2026-09-28 |
+| Histoire | Le télégramme Zimmermann (1917), décodé sur le câble diplomatique américain lui-même | fait | routine-production | 2026-09-28 |
+| Histoire | La grippe dite « espagnole » (1918), nommée à cause de la censure de guerre | fait | routine-production | 2026-09-28 |
+| Histoire | Champollion et le déchiffrement des hiéroglyphes (lettre à Dacier, 27 septembre 1822) | fait | routine-production | 2026-09-28 |
+
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
 
