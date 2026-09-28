@@ -1288,3 +1288,21 @@ relecture des routines tient lieu de vérification.
 - Pour vérifier que la publication suit : les fiches `valide` de `main` doivent toutes
   figurer dans `https://anagnosis.fr/contenu/concepts.json`. Un échec du workflow
   « Déployer sur Netlify » dans GitHub Actions signale un hook mort ou un secret perdu.
+
+## 2026-09-28 — Toute source a un auteur, fût-il collectif
+
+**Décidé :** `sources[].auteur` est obligatoire et non vide. Une page sans signature se
+crédite à ce qui la publie — « Fondation Nobel », « Parlement du Royaume-Uni (Hansard) »,
+« Wikipedia (contributeurs) ». Une encyclopédie signée (Stanford, Britannica) se crédite à
+ses auteurs, qu'on va lire sur la page.
+
+**Ce qui l'a imposé.** Onze fiches validées portaient une source à `auteur: null` (ou sans
+le champ). Le validateur ne regardait pas ce champ. iOS le décode en chaîne obligatoire et
+écartait la fiche entière, en silence ; Android, plus grave, refusait **tout** le fichier
+publié (« contenu illisible ») et ses lecteurs restaient sur le corpus embarqué. Les deux
+clients sont désormais tolérants à un auteur absent, mais la règle vit ici : un client
+tolérant ne doit pas devenir la raison de publier des références incomplètes.
+
+**Écarté : un auteur facultatif dans le schéma.** La ligne des sources affiche « AUTEUR,
+« TITRE » » ; sans auteur, le lecteur ne sait pas qui parle, et c'est précisément ce que la
+source doit lui dire.

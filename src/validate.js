@@ -155,6 +155,17 @@ export function validerFiche(fiche, ctx = {}) {
   sources.forEach((s, i) => {
     const ref = `sources[${i}]`;
     if (!s.titre) err(`${ref}.titre manquant`);
+    // Toute source a un auteur, fût-il collectif. Une page sans signature a un
+    // responsable : l'institution qui la publie (« Fondation Nobel », « Parlement du
+    // Royaume-Uni (Hansard) »), ou ses contributeurs (« Wikipedia (contributeurs) »).
+    // Une encyclopédie signée — Stanford, Britannica — se crédite en revanche à ses
+    // auteurs.
+    //
+    // Un champ nul n'est pas qu'une référence incomplète : le client iOS écartait la
+    // fiche entière, et Android refusait le fichier publié tout entier. Onze fiches
+    // validées ont ainsi disparu sans bruit (2026-09-28).
+    if (typeof s.auteur !== 'string' || !s.auteur.trim())
+      err(`${ref}.auteur manquant — l'institution ou les contributeurs, à défaut d'un nom`);
     if (s.type && !TYPES_SOURCE.includes(s.type)) warn(`${ref}.type inconnu : « ${s.type} »`);
     if (s.url && !urlValide(s.url)) err(`${ref}.url invalide : ${s.url}`);
     // Une source doit être **atteignable d'un doigt**, pas seulement citée.

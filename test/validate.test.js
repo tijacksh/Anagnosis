@@ -21,7 +21,7 @@ function ficheValide(patch = {}) {
     },
     sources: [
       { type: 'article', titre: 'Source A', auteur: 'Auteur A', annee: 2000, url: 'https://example.org/a' },
-      { type: 'web', titre: 'Source B', url: 'https://example.org/b' },
+      { type: 'web', titre: 'Source B', auteur: 'Institution B', url: 'https://example.org/b' },
     ],
     illustration: { prompt: 'Composition abstraite', alt: 'Description', url: null, statut: 'a_generer' },
     quiz: {
@@ -94,7 +94,7 @@ test('accepte une source antique (année négative)', () => {
     ficheValide({
       sources: [
         { titre: 'La République', auteur: 'Platon', annee: -375, url: 'https://example.org/platon' },
-        { titre: 'B', url: 'https://example.org/b' },
+        { titre: 'B', auteur: 'Auteur B', url: 'https://example.org/b' },
       ],
     }),
   );
@@ -110,11 +110,27 @@ test('refuse une source sans url, même complètement référencée', () => {
     ficheValide({
       sources: [
         { titre: 'Référencée mais fermée', auteur: 'Auteur A', annee: 2000 },
-        { titre: 'B', url: 'https://example.org' },
+        { titre: 'B', auteur: 'Auteur B', url: 'https://example.org' },
       ],
     }),
   );
   assert.ok(erreurs.some((e) => e.includes('cliquable')));
+});
+
+test('refuse une source sans auteur, nul, absent ou blanc', () => {
+  // Un auteur nul faisait écarter la fiche par iOS et refuser tout le fichier publié
+  // par Android. Une page sans signature se crédite à son institution.
+  for (const auteur of [null, undefined, '', '  ']) {
+    const { erreurs } = validerFiche(
+      ficheValide({
+        sources: [
+          { titre: 'A', auteur: 'Auteur A', url: 'https://example.org/a' },
+          { titre: 'B', auteur, url: 'https://example.org/b' },
+        ],
+      }),
+    );
+    assert.ok(erreurs.some((e) => e.startsWith('sources[1].auteur manquant')), String(auteur));
+  }
 });
 
 test('refuse moins de deux sources', () => {
