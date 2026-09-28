@@ -115,10 +115,12 @@ téléphone. Si une API tombe, on publie à la main depuis là.
 - **La carte** est rendue par l'app pour la fiche exacte du post, via un test lancé sur un
   simulateur dédié. Mêmes polices, même grain, même frappe de la source que dans l'app.
 - **Les rushes** sont des enregistrements du simulateur (`simctl io recordVideo`, barre d'état
-  figée à 8:00) : onboarding avec les tuiles qui se remplissent, lecture qui défile, quiz,
-  verrou et compte à rebours, relevé, feuille de partage. On les tourne une fois, puis on les
-  refait quand une build TestFlight change l'interface. Ils sont gardés hors git, dans
-  `~/Anagnosis-medias/rushes/`.
+  figée à 8:00), tournés le 2026-09-28 : onboarding et tuiles qui se remplissent, lecture
+  qui défile, verrou et son compte à rebours, quiz corrigé, profil. Ils sont gardés hors
+  git, dans `~/Anagnosis-medias/rushes/`. `reseaux/plans.py` en découpe quatre plans de
+  3,5 s (choix, lecture, verrou, quiz), l'écran posé sur le papier avec une ligne en mono,
+  et `preparer.py` les fait tourner d'un Reel à l'autre. On les refilme quand une build
+  change l'interface, et on revoit alors les coupes de `plans.py`.
 - **Le code de tournage vit dans le dépôt de l'app** (`AnagnosisTests/TournageTests.swift`).
   Il est désactivé sauf si `TOURNAGE_IDS` est fourni, et n'ajoute rien au binaire livré. Les
   raccourcis de lancement retirés le 2026-08-27 ne reviennent pas.

@@ -17,6 +17,7 @@ import datetime as dt
 import json
 import os
 import random
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -28,6 +29,7 @@ APP = Path(os.environ.get('ANAGNOSIS_APP_TOURNAGE', Path.home() / 'Anagnosis-app
 MEDIAS = Path(os.environ.get('ANAGNOSIS_MEDIAS', Path.home() / 'Anagnosis-medias'))
 JOURS = (0, 2, 4, 6)          # lundi, mercredi, vendredi, dimanche
 RESERVE = 3                   # fiches de rechange si l'app en refuse une au tournage
+PLANS = ('choix', 'lecture', 'verrou', 'quiz')   # plans d'app (plans.py), en rotation
 
 
 def registre():
@@ -91,7 +93,12 @@ def tourner(ids):
     subprocess.run(['xcrun', 'simctl', 'boot', sim], capture_output=True)
     conteneur = subprocess.run(['xcrun', 'simctl', 'get_app_container', sim, 'com.tijack.anagnosis', 'data'],
                                capture_output=True, text=True, check=True).stdout.strip()
-    return Path(conteneur) / 'Documents/tournage'
+    # Recopiées aussitôt : le conteneur du simulateur disparaît à la moindre réinstallation.
+    cartes = MEDIAS / 'cartes'
+    cartes.mkdir(parents=True, exist_ok=True)
+    for f in (Path(conteneur) / 'Documents/tournage').glob('*.mp4'):
+        shutil.copy2(f, cartes / f.name)
+    return cartes
 
 
 def controler(reel):
@@ -144,7 +151,9 @@ def main():
             continue
         jour = jours[0]
         sortie = MEDIAS / f'semaine-{semaine}' / f"{jour.isoformat()}-{d['slug']}"
-        subprocess.run([sys.executable, str(ICI / 'composer.py'), str(f), str(carte), str(sortie)],
+        plan = MEDIAS / 'plans' / f"{PLANS[len(reg['posts']) % len(PLANS)]}.mp4"
+        subprocess.run([sys.executable, str(ICI / 'composer.py'), str(f), str(carte), str(sortie),
+                        *([str(plan)] if plan.exists() else [])],
                        check=True, capture_output=True)
         erreurs = controler(sortie / 'reel.mp4')
         if erreurs:

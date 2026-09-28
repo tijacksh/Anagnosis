@@ -1,14 +1,14 @@
 #!/opt/homebrew/bin/python3
 """Monte un Reel 1080 × 1920 à partir de la carte rendue par l'app (docs/reseaux.md §4).
 
-    composer.py <fiche.json> <carte.mp4> <dossier de sortie>
+    composer.py <fiche.json> <carte.mp4> <dossier de sortie> [plan.mp4]
 
 Produit `reel.mp4` (≈ 13 s, H.264 + AAC, moov en tête), `legende-tiktok.txt` et
 `legende-instagram.txt`. Aucun texte n'est écrit ici : tout ce qui est à l'écran vient de
 la carte rendue par l'app ou de la marque, et les légendes reprennent la fiche mot pour mot.
 
 Déroulé : la carte s'imprime (5 s, rendu de l'app), reste posée le temps de lire l'idée,
-puis la fin de marque. La carte est réduite et calée en haut à gauche pour que sa source
+puis un plan de l'app filmée au simulateur (plans.py, facultatif), puis la fin de marque. La carte est réduite et calée en haut à gauche pour que sa source
 reste au-dessus de y = 1400, hors de la légende de TikTok et d'Instagram.
 
 Dépendances : Pillow et ffmpeg. Polices : celles de l'app, sous licence OFL.
@@ -144,19 +144,41 @@ def son(chemin, duree):
         '-map', '[a]', '-ac', '2', '-c:a', 'aac', '-b:a', '192k', str(chemin)], check=True)
 
 
-def reel(carte, fin, audio, sortie):
+def duree_totale(plan):
+    total = DUREE_CARTE + TENUE + DUREE_FIN - FONDU
+    if plan:
+        total += duree_video(plan) - FONDU
+    return total
+
+
+def duree_video(chemin):
+    return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration',
+                                 '-of', 'csv=p=0', str(chemin)], capture_output=True, text=True,
+                                check=True).stdout)
+
+
+def reel(carte, fin, audio, sortie, plan=None):
     largeur = int(L * ECHELLE_CARTE) // 2 * 2
     duree_carte = DUREE_CARTE + TENUE
-    total = duree_carte + DUREE_FIN - FONDU
+    entrees = ['-i', str(carte), '-i', str(fin), '-i', str(audio)]
     filtre = (
         f"color=c=0xF4EFE1:s={L}x{H}:r=30:d={duree_carte}[fond];"
         f"[0:v]scale={largeur}:-2,tpad=stop_mode=clone:stop_duration={TENUE}[c];"
-        f"[fond][c]overlay={X_CARTE}:{Y_CARTE}:shortest=1,format=yuv420p[a];"
-        f"[1:v]loop=loop=-1:size=1,trim=duration={DUREE_FIN},fps=30,format=yuv420p,setpts=PTS-STARTPTS[b];"
-        f"[a][b]xfade=transition=wipeup:duration={FONDU}:offset={duree_carte - FONDU}[v]"
+        f"[fond][c]overlay={X_CARTE}:{Y_CARTE}:shortest=1,format=yuv420p,settb=1/30[a];"
+        f"[1:v]loop=loop=-1:size=1,trim=duration={DUREE_FIN},fps=30,format=yuv420p,setpts=PTS-STARTPTS,settb=1/30[b];"
     )
+    fin_carte = duree_carte - FONDU
+    if plan:
+        entrees += ['-i', str(plan)]
+        d = duree_video(plan)
+        filtre += (f"[3:v]fps=30,format=yuv420p,setpts=PTS-STARTPTS,settb=1/30[p];"
+                   f"[a][p]xfade=transition=wipeleft:duration={FONDU}:offset={fin_carte}[ap];"
+                   f"[ap][b]xfade=transition=wipeup:duration={FONDU}:offset={fin_carte + d - FONDU}[v]")
+    else:
+        filtre += f"[a][b]xfade=transition=wipeup:duration={FONDU}:offset={fin_carte}[v]"
+    total = duree_totale(plan)
     subprocess.run([
-        'ffmpeg', '-v', 'error', '-y', '-i', str(carte), '-i', str(fin), '-i', str(audio),
+        'ffmpeg', '-v', 'error', '-y', *entrees,
         '-filter_complex', filtre, '-map', '[v]', '-map', '2:a', '-t', f'{total}',
         '-c:v', 'libx264', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-r', '30', '-crf', '18',
         '-c:a', 'copy', '-movflags', '+faststart', str(sortie)], check=True)
@@ -185,16 +207,15 @@ def legendes(fiche, dossier):
         assert len((dossier / f).read_text()) <= 2200
 
 
-def main(fiche_json, carte_mp4, sortie):
+def main(fiche_json, carte_mp4, sortie, plan=None):
     dossier = Path(sortie)
     dossier.mkdir(parents=True, exist_ok=True)
     fiche = json.loads(Path(fiche_json).read_text())
     fin = dossier / 'fin.png'
     fin_de_marque(fin)
     audio = dossier / 'son.m4a'
-    total = DUREE_CARTE + TENUE + DUREE_FIN - FONDU
-    son(audio, total)
-    reel(carte_mp4, fin, audio, dossier / 'reel.mp4')
+    son(audio, duree_totale(plan))
+    reel(carte_mp4, fin, audio, dossier / 'reel.mp4', plan)
     legendes(fiche, dossier)
     fin.unlink()
     audio.unlink()
@@ -202,6 +223,6 @@ def main(fiche_json, carte_mp4, sortie):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
+    if len(sys.argv) not in (4, 5):
         sys.exit(__doc__)
     main(*sys.argv[1:])
