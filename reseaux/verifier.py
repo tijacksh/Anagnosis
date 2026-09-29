@@ -39,6 +39,7 @@ JETONS = Path.home() / '.anagnosis/reseaux-jetons.json'
 DEPOT_GITHUB = 'tijacksh/Anagnosis'
 TACHES = ('preparer', 'deposer', 'verifier')
 
+from posts import a_tiktok, complet, legendes as legendes_de, medias as medias_de, type_de  # noqa: E402
 from preparer import controler  # noqa: E402
 
 
@@ -86,7 +87,7 @@ def controles(aujourdhui, reprise):
     aujourdhui_iso = aujourdhui.isoformat()
 
     # 4. la reprise, puis les posts passés
-    du_jour = [p for p in posts if p['jour'] == aujourdhui_iso and not (p['tiktok'] and p['instagram'])]
+    du_jour = [p for p in posts if p['jour'] == aujourdhui_iso and not complet(p)]
     if du_jour and reprise:
         r = lancer(sys.executable, str(ICI / 'deposer.py'), '--jour', aujourdhui_iso)
         problemes.append(f"reprise du dépôt du jour (`deposer.py --jour {aujourdhui_iso}`) : "
@@ -95,7 +96,7 @@ def controles(aujourdhui, reprise):
         posts = reg['posts']
     for p in posts:
         if p['jour'] < aujourdhui_iso or (p['jour'] == aujourdhui_iso and dt.datetime.now().hour >= 10):
-            manque = [n for n in ('tiktok', 'instagram') if not p[n]]
+            manque = [n for n in ('tiktok', 'instagram') if not p[n] and (n == 'instagram' or a_tiktok(p))]
             if manque:
                 problemes.append(f"{p['jour']} `{p['slug']}` n'est pas parti sur : {', '.join(manque)}")
 
@@ -104,22 +105,23 @@ def controles(aujourdhui, reprise):
     for p in [p for p in posts if aujourdhui_iso <= p['jour'] <= limite]:
         dossier = MEDIAS / p['dossier']
         etiquette = f"{p['jour']} `{p['slug']}`"
-        if not (dossier / 'reel.mp4').exists():
-            problemes.append(f'{etiquette} : vidéo absente ({dossier})')
+        absents = [m.name for m in [*medias_de(p, dossier), *legendes_de(p, dossier)] if not m.exists()]
+        if absents:
+            problemes.append(f"{etiquette} ({type_de(p)}) : fichier(s) absent(s) : {', '.join(absents)}")
             continue
-        erreurs = controler(dossier / 'reel.mp4')
-        if erreurs:
-            problemes.append(f"{etiquette} : contrôle de la vidéo : {', '.join(erreurs)}")
-        for f in ('legende-tiktok.txt', 'legende-instagram.txt'):
-            if not (dossier / f).exists():
-                problemes.append(f'{etiquette} : {f} absente')
+        if type_de(p) == 'reel':
+            erreurs = controler(dossier / 'reel.mp4')
+            if erreurs:
+                problemes.append(f"{etiquette} : contrôle de la vidéo : {', '.join(erreurs)}")
         if not (DEPOT / 'reseaux/publie' / f"{p['jour']}-{p['slug']}" / 'post.json').exists():
             problemes.append(f'{etiquette} : pas archivé dans `reseaux/publie/`')
         elif p.get('archive'):
             vue = lancer('gh', 'release', 'view', p['archive']['release'], '-R', DEPOT_GITHUB,
                          '--json', 'assets', '-q', '.assets[].name')
-            if p['archive']['fichier'] not in vue.stdout.split('\n'):
-                problemes.append(f"{etiquette} : vidéo absente de la release `{p['archive']['release']}`")
+            attendus = p['archive'].get('medias') or [p['archive']['fichier']]
+            manquants = [m for m in attendus if m not in vue.stdout.split('\n')]
+            if manquants:
+                problemes.append(f"{etiquette} : absent de la release `{p['archive']['release']}` : {', '.join(manquants)}")
         else:
             problemes.append(f'{etiquette} : `archive` manquante au registre')
 

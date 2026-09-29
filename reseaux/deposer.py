@@ -22,6 +22,7 @@ import time
 from pathlib import Path
 
 from archive import archiver, lier
+from posts import a_tiktok, complet, legendes as legendes_de, medias as medias_de, type_de
 
 ICI = Path(__file__).resolve().parent
 DEPOT = ICI.parent
@@ -67,6 +68,24 @@ def brouillon(reel):
     return {'id': publish_id, 'statut': statut}
 
 
+def instagram(p, dossier):
+    """Publie le post sur Instagram, tout de suite et en public : pas de brouillon côté API.
+    Selon le type : Reel, carrousel ou image seule."""
+    t = type_de(p)
+    legende = dossier / 'legende-instagram.txt'
+    if t == 'reel':
+        cmd = ['reel', str(dossier / 'reel.mp4'), str(legende)]
+    elif t == 'carrousel':
+        cmd = ['carrousel', str(legende), *[str(m) for m in medias_de(p, dossier)]]
+    else:
+        cmd = ['image', str(dossier / 'image.jpg'), str(legende)]
+    r = subprocess.run(['node', str(ICI / 'instagram.js'), *cmd], capture_output=True, text=True)
+    if r.returncode:
+        raise RuntimeError(r.stderr.strip() or r.stdout.strip())
+    lien = next(l.split('Publié : ', 1)[1] for l in r.stdout.splitlines() if l.startswith('Publié : '))
+    return {'lien': lien, 'publie': dt.datetime.now().isoformat(timespec='seconds')}
+
+
 def committer(message):
     for commande in (['git', 'add', str(REGISTRE), *([str(PUBLIE)] if PUBLIE.exists() else [])],
                      ['git', 'commit', '-q', '-m', message + '\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>'],
@@ -84,21 +103,29 @@ def main():
         return
     subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'main'], cwd=DEPOT, capture_output=True)
     reg = json.loads(REGISTRE.read_text())
-    posts = [p for p in reg['posts'] if p['jour'] == jour and not p['tiktok']]
-    for p in posts:
+    for p in [p for p in reg['posts'] if p['jour'] == jour and not complet(p)]:
         dossier = MEDIAS / p['dossier']
         paquet = PAQUETS / dossier.name
         paquet.mkdir(parents=True, exist_ok=True)
-        for f in ('reel.mp4', 'legende-tiktok.txt', 'legende-instagram.txt'):
-            shutil.copy2(dossier / f, paquet / f)
-        shutil.copy2(dossier / 'legende-tiktok.txt', RACCOURCI)
-        try:
-            p['tiktok'] = {**brouillon(dossier / 'reel.mp4'), 'depose': dt.datetime.now().isoformat(timespec='seconds')}
-        except Exception as e:
-            signaler(f'brouillon TikTok refusé ({jour})',
-                     f"Fiche `{p['slug']}`, fichier `{dossier / 'reel.mp4'}`.\n\n```\n{e}\n```\n\n"
-                     f"Le paquet est dans iCloud Drive (Anagnosis/Réseaux/{dossier.name}) pour publier à la main.")
-            continue
+        for f in [*medias_de(p, dossier), *legendes_de(p, dossier)]:
+            shutil.copy2(f, paquet / f.name)
+        # TikTok : les Reels seulement, en brouillon. Les deux plateformes sont indépendantes :
+        # l'échec de l'une n'empêche pas l'autre, et ouvre une issue.
+        if a_tiktok(p) and not p['tiktok']:
+            shutil.copy2(dossier / 'legende-tiktok.txt', RACCOURCI)
+            try:
+                p['tiktok'] = {**brouillon(dossier / 'reel.mp4'), 'depose': dt.datetime.now().isoformat(timespec='seconds')}
+            except Exception as e:
+                signaler(f'brouillon TikTok refusé ({jour})',
+                         f"Post `{p['slug']}`.\n\n```\n{e}\n```\n\n"
+                         f"Le paquet est dans iCloud Drive (Anagnosis/Réseaux/{dossier.name}) pour publier à la main.")
+        if not p['instagram']:
+            try:
+                p['instagram'] = instagram(p, dossier)
+            except Exception as e:
+                signaler(f'publication Instagram refusée ({jour})',
+                         f"Post `{p['slug']}` (type `{type_de(p)}`).\n\n```\n{e}\n```\n\n"
+                         f"Le paquet est dans iCloud Drive (Anagnosis/Réseaux/{dossier.name}) pour publier à la main.")
         try:
             # Normalement déjà archivé à la préparation ; on le refait au besoin, puis on
             # y inscrit les liens des posts.
@@ -106,10 +133,12 @@ def main():
                 p['archive'] = archiver(p, dossier)
             lier(p)
         except Exception as e:
-            signaler(f'archivage du post refusé ({jour})', f"Fiche `{p['slug']}`.\n\n```\n{e}\n```")
+            signaler(f'archivage du post refusé ({jour})', f"Post `{p['slug']}`.\n\n```\n{e}\n```")
         REGISTRE.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + '\n')
-        committer(f"Réseaux : brouillon TikTok du {jour} ({p['slug']})")
-        print(f"{jour} {p['slug']} : brouillon déposé")
+        parti = [n for n in ('TikTok', 'Instagram') if p[n.lower()]]
+        committer(f"Réseaux : {jour} ({p['slug']}) : " + (', '.join(parti) or 'rien de parti'))
+        print(f"{jour} {p['slug']} : TikTok {'ok' if p['tiktok'] else ('sans objet' if not a_tiktok(p) else 'échec')}, "
+              f"Instagram {'ok' if p['instagram'] else 'échec'}")
 
 
 if __name__ == '__main__':

@@ -12,6 +12,7 @@
  *   node reseaux/instagram.js rafraichir                prolonge le jeton de 60 jours
  *   node reseaux/instagram.js reel <mp4> <legende.txt>  publie un Reel
  *   node reseaux/instagram.js carrousel <legende.txt> <jpg>...   publie un carrousel (2 à 10)
+ *   node reseaux/instagram.js image <jpg> <legende.txt> publie une image seule
  *
  * Identifiants dans ~/.anagnosis/cles.env (INSTAGRAM_APP_ID, INSTAGRAM_APP_SECRET), jeton
  * dans ~/.anagnosis/reseaux-jetons.json : jamais dans le dépôt.
@@ -149,6 +150,16 @@ async function reel(fichier, legendeFichier) {
   return publier(c.id, t);
 }
 
+async function image(fichier, legendeFichier) {
+  const t = await acces();
+  const legende = readFileSync(legendeFichier, 'utf8').trim();
+  if (legende.length > 2200) throw new Error('légende de plus de 2 200 caractères');
+  const url = await heberger(fichier, 'image/jpeg');
+  const c = await post(`/${t.user_id}/media`, { image_url: url, caption: legende, access_token: t.access_token });
+  await attendre(c.id, t);
+  return publier(c.id, t);
+}
+
 async function carrousel(legendeFichier, ...images) {
   if (images.length < 2 || images.length > 10) throw new Error('un carrousel compte de 2 à 10 images');
   const t = await acces();
@@ -168,9 +179,9 @@ async function carrousel(legendeFichier, ...images) {
 
 const [commande, ...args] = process.argv.slice(2);
 const actions = { jeton: () => jeton(args[0]), compte, rafraichir, reel: () => reel(args[0], args[1]),
-                  carrousel: () => carrousel(...args) };
+                  carrousel: () => carrousel(...args), image: () => image(args[0], args[1]) };
 if (!actions[commande]) {
-  console.error('usage : instagram.js jeton <jeton> | compte | rafraichir | reel <mp4> <legende> | carrousel <legende> <jpg>...');
+  console.error('usage : instagram.js jeton <jeton> | compte | rafraichir | reel <mp4> <legende> | carrousel <legende> <jpg>... | image <jpg> <legende>');
   process.exit(2);
 }
 actions[commande]().catch((e) => { console.error(e.message); process.exit(1); });
