@@ -23,8 +23,11 @@ import sys
 from pathlib import Path
 
 ICI = Path(__file__).resolve().parent
+sys.path.insert(0, str(ICI))
 DEPOT = ICI.parent
 REGISTRE = ICI / 'registre.json'
+from archive import archiver  # noqa: E402
+
 APP = Path(os.environ.get('ANAGNOSIS_APP_TOURNAGE', Path.home() / 'Anagnosis-app-tournage'))
 MEDIAS = Path(os.environ.get('ANAGNOSIS_MEDIAS', Path.home() / 'Anagnosis-medias'))
 JOURS = (0, 2, 4, 6)          # lundi, mercredi, vendredi, dimanche
@@ -166,14 +169,21 @@ def main():
             print(f"écartée au contrôle : {d['slug']} : {', '.join(erreurs)}", file=sys.stderr)
             continue
         jours.pop(0)
-        reg['posts'].append({'jour': jour.isoformat(), 'slug': d['slug'], 'discipline': d['discipline'],
-                             'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
-                             'tiktok': None, 'instagram': None})
+        post = {'jour': jour.isoformat(), 'slug': d['slug'], 'discipline': d['discipline'],
+                'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
+                'tiktok': None, 'instagram': None}
+        # Archivé dès la programmation, pour que les autres plateformes (X…) voient la semaine
+        # à l'avance : légendes dans git, vidéo dans la release de la semaine.
+        try:
+            post['archive'] = archiver(post, sortie)
+        except Exception as e:
+            print(f"archivage refusé : {d['slug']} : {e}", file=sys.stderr)
+        reg['posts'].append(post)
         print(f"{jour.isoformat()}  {d['discipline']:<22} {d['carte']['punch']}")
     reg['posts'].sort(key=lambda p: p['jour'])
     REGISTRE.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + '\n')
     # Chemins relatifs à ~/Anagnosis-medias : jamais de chemin propre à une machine dans le dépôt.
-    for commande in (['git', 'add', str(REGISTRE)],
+    for commande in (['git', 'add', str(REGISTRE), *([str(ICI / 'publie')] if (ICI / 'publie').exists() else [])],
                      ['git', 'commit', '-q', '-m', f'Réseaux : programme de la semaine {semaine}\n\n'
                       'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>'],
                      ['git', 'pull', '-q', '--rebase', 'origin', 'main'],

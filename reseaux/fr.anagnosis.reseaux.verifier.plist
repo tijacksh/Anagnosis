@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Installé par reseaux/installer.sh (docs/reseaux.md §4). Chaque jour à 9 h : vérifie et reprend
+     un dépôt manqué ; le dimanche à 21 h 30 : vérifie la semaine préparée à 20 h. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>fr.anagnosis.reseaux.verifier</string>
+  <key>ProgramArguments</key>
+  <array><string>/opt/homebrew/bin/python3</string><string>__DEPOT__/reseaux/verifier.py</string></array>
+  <key>WorkingDirectory</key><string>__DEPOT__</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string></dict>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>0</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>__MEDIAS__/logs/verifier.log</string>
+  <key>StandardErrorPath</key><string>__MEDIAS__/logs/verifier.log</string>
+</dict>
+</plist>
