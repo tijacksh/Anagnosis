@@ -22,6 +22,7 @@ import time
 from pathlib import Path
 
 from archive import archiver, lier
+from brightbean import publier as publier_tiktok
 from posts import a_tiktok, complet, legendes as legendes_de, medias as medias_de, type_de
 
 ICI = Path(__file__).resolve().parent
@@ -114,7 +115,14 @@ def main():
         if a_tiktok(p) and not p['tiktok']:
             shutil.copy2(dossier / 'legende-tiktok.txt', RACCOURCI)
             try:
-                p['tiktok'] = {**brouillon(dossier / 'reel.mp4'), 'depose': dt.datetime.now().isoformat(timespec='seconds')}
+                # Publication publique par BrightBean ; à défaut, brouillon dans la boîte TikTok.
+                try:
+                    p['tiktok'] = {**publier_tiktok(dossier / 'reel.mp4', (dossier / 'legende-tiktok.txt').read_text().strip()),
+                                   'publie': dt.datetime.now().isoformat(timespec='seconds')}
+                except Exception as e:
+                    signaler(f'publication TikTok par BrightBean refusée ({jour})',
+                             f"Post `{p['slug']}` : repli sur le brouillon TikTok.\n\n```\n{e}\n```")
+                    p['tiktok'] = {**brouillon(dossier / 'reel.mp4'), 'depose': dt.datetime.now().isoformat(timespec='seconds')}
             except Exception as e:
                 signaler(f'brouillon TikTok refusé ({jour})',
                          f"Post `{p['slug']}`.\n\n```\n{e}\n```\n\n"

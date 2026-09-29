@@ -243,3 +243,7 @@ TikTok refuse la publication publique par API tant que l'app n'est pas auditée 
 - **L'API ne règle pas les options TikTok** (visibilité vide, commentaires décochés, pas de divulgation). Il faut ouvrir chaque post dans l'interface (`/workspace/<id>/compose/<post>/`) et fixer : *Everyone*, *Comment*, *Disclose post content → Your brand*, puis *Schedule Post*. Les menus sont lents : attendre 3 s avant de cliquer une option.
 - BrightBean n'actualise pas le statut « Published » ; vérifier sur le profil TikTok.
 - Clé : `BRIGHTBEAN_API_KEY` dans `~/.anagnosis/cles.env` (hors git).
+
+### Mise à jour 2026-09-30 : publication automatique par l'API
+
+Test réel à 0 h 15 : un post programmé par l'API **sans aucun réglage** est sorti **public** (« Tout le monde »), commentaires, duos, collages et stickers autorisés, **sans** la mention « Contenu promotionnel ». `deposer.py` publie donc maintenant chaque Reel par `brightbean.publier()` (programmé 2 minutes plus tard, statut suivi jusqu'à `published`) ; en cas d'échec, une issue est ouverte et le brouillon TikTok (`tiktok.js`) prend le relais. Plus de session du dimanche pour TikTok. Pour ajouter la mention, il faudrait passer par l'interface (l'API n'a pas ce champ). `essai_deposer.py` remplace `publier_tiktok` par un faux : ne jamais l'en retirer.

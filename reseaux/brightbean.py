@@ -37,6 +37,31 @@ def appel(chemin, *args):
     return json.loads(r.stdout)
 
 
+def publier(video, legende, attente=600):
+    """Publie tout de suite (programmé dans 2 minutes) et attend le résultat.
+
+    Testé le 2026-09-30 : sans réglage, la vidéo sort publique, commentaires et duos
+    autorisés, sans la mention « Contenu promotionnel ». Lève une erreur si la publication
+    échoue, pour que `deposer.py` retombe sur le brouillon TikTok."""
+    import time
+    media = appel('/media/', '-F', f'file=@{video}')
+    quand = dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=2)
+    post = appel('/posts/', '-H', 'Content-Type: application/json', '-d', json.dumps({
+        'social_account_id': COMPTE, 'caption': legende, 'media_asset_ids': [media['id']],
+        'action': 'schedule', 'scheduled_at': quand.replace(microsecond=0).isoformat()}))
+    if not post.get('id'):
+        raise RuntimeError(f'BrightBean a refusé le post : {post}')
+    for _ in range(attente // 15):
+        time.sleep(15)
+        etat = appel(f"/posts/{post['id']}")
+        plateforme = etat['platform_posts'][0]
+        if etat['status'] == 'published':
+            return {'brightbean': post['id'], 'video': plateforme['platform_post_id'], 'statut': 'published'}
+        if etat['status'] == 'failed' or plateforme.get('publish_error'):
+            raise RuntimeError(f"publication TikTok échouée : {plateforme.get('publish_error') or etat['status']}")
+    raise RuntimeError(f"publication TikTok non confirmée après {attente} s (post BrightBean {post['id']})")
+
+
 def programmer(depuis):
     reg = json.loads(REGISTRE.read_text())
     for p in reg['posts']:

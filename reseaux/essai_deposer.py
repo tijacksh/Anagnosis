@@ -39,6 +39,8 @@ for slug, type_, fichiers in (('a-reel', 'reel', ['reel.mp4', 'legende-tiktok.tx
 D.REGISTRE, D.PAQUETS, D.RACCOURCI, D.MEDIAS = tmp / 'registre.json', tmp / 'paquets', tmp / 'legende.txt', medias
 appels = []
 D.brouillon = lambda reel: appels.append(('tiktok', pathlib.Path(reel).parent.name)) or {'id': 'faux', 'statut': 'SEND_TO_USER_INBOX'}
+# BrightBean : faux appel, sinon l'essai publierait pour de vrai sur TikTok
+D.publier_tiktok = lambda reel, legende: appels.append(('tiktok', pathlib.Path(reel).parent.name)) or {'brightbean': 'faux', 'statut': 'published'}
 D.archiver = lambda p, d: {'release': 'faux', 'fichier': 'faux', 'medias': []}
 D.lier = lambda p: None
 D.committer = lambda m: None
