@@ -155,6 +155,15 @@ Sorties : code 0 et une ligne `Publié : <url>`, ou code ≠ 0 et la raison sur 
   mener à une suspension définitive ; le contenu répétitif est interdit ; les comptes-robots doivent
   être signalés comme automatisés.
 
+**Pas de brouillon ni de programmation par l'API de X (recherche du 2026-09-29).** Le corps de
+`POST /2/tweets` n'a ni champ de date de publication ni champ de brouillon (`docs.x.com/x-api/posts/create-or-edit-post`) :
+un post est publié tout de suite. Seule exception trouvée : l'API **Ads** (`POST /12/accounts/:id/scheduled_tweets`,
+avec `scheduled_at`), qui exige un compte publicitaire et l'approbation de X pour l'API Ads, et dont l'usage pour
+un tweet organique semble peu fiable : à ne pas viser. Le planificateur et les brouillons du compositeur web
+de X existent, mais ne se remplissent qu'à la main. **La voie retenue est la nôtre, comme pour Instagram** : le
+post est prêt et archivé d'avance (`reseaux/publie/`, release GitHub), puis `deposer.py` l'envoie à
+la minute voulue ; un « brouillon » y est simplement un post archivé pas encore parti (`x: null` au registre).
+
 **Non confirmé, à vérifier au premier essai :**
 - si l'inscription à la console demande une validation, ou un abonnement Premium ;
 - si l'envoi de médias est facturé ou limité à part ;
