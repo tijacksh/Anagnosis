@@ -418,6 +418,12 @@ document.querySelectorAll('details.famille').forEach((det) => {
 // plutôt que la bulle native du navigateur (dans sa langue à lui, et qui disparaît
 // au bout de trois secondes). Sans ce script, la validation native reste en place :
 // `novalidate` n'est posé qu'ici.
+// D'où vient l'inscription : `?s=ig`, `?s=x`, `?s=tt` sur les liens de profil des réseaux. Lu dans
+// l'adresse au moment de l'affichage et joint au formulaire ; **rien n'est stocké** (ni cookie ni
+// stockage local), et rien ne part tant que la personne ne s'inscrit pas.
+const origine = (new URLSearchParams(location.search).get('s') || '')
+  .toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 12);
+document.querySelectorAll('form.inscription input[name=source]').forEach((c) => { if (origine) c.value = origine; });
 document.querySelectorAll('form.inscription').forEach((form) => {
   const champ = form.querySelector('input[type=email]');
   const erreur = form.querySelector('.erreur');

@@ -75,6 +75,7 @@ const inscription = () => {
   const id = `courriel-${++numeroFormulaire}`;
   return `<form class="inscription" name="lancement" method="POST" action="/merci" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="lancement">
+      <input type="hidden" name="source" value="direct">
       <p class="piege" aria-hidden="true"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
       <label for="${id}">Être prévenu·e du lancement</label>
       <div class="ligne">
