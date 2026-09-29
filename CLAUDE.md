@@ -54,7 +54,8 @@ npm test           # tests
 
 Décidé le 2026-09-28 : une chaîne qui prépare des Reels et des carrousels à partir des
 cartes validées, les dépose en brouillon sur TikTok et les publie sur Instagram, par nos
-propres apps développeur, sans service tiers. Tout est dans `docs/reseaux.md`. **Seule exception
+propres apps développeur, sans service tiers. Le pourquoi est dans `docs/reseaux.md`, le comment
+(fichiers, pièges, brancher une plateforme de plus) dans `docs/passation-reseaux.md`. **Seule exception
 à « zéro API externe »** : `reseaux/` appelle les API TikTok et Instagram, tourne uniquement sur
 le Mac mini, et n'est jamais importé par `src/`.
 

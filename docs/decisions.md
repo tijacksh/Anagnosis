@@ -1439,3 +1439,31 @@ tolérant ne doit pas devenir la raison de publier des références incomplètes
 **Écarté : un auteur facultatif dans le schéma.** La ligne des sources affiche « AUTEUR,
 « TITRE » » ; sans auteur, le lecteur ne sait pas qui parle, et c'est précisément ce que la
 source doit lui dire.
+
+---
+
+## 2026-09-29 — Les réseaux se publient par nos propres apps, sans service tiers
+
+**Décidé :** une chaîne maison prépare quatre Reels par semaine à partir des cartes validées et
+les publie chaque matin. **Instagram part seul**, en public, par notre app Meta ; **TikTok reste
+en brouillon**, qu'un humain publie en trente secondes. Aucun service tiers.
+
+**Pourquoi TikTok reste en brouillon.** Une app non auditée ne publie qu'en privé, même en
+`SELF_ONLY` (`unaudited_client_can_only_post_to_private_accounts`, vu le 2026-09-28), et l'audit
+exclut un outil qui publie sur les comptes de sa propre équipe. Écartés : un agrégateur à app
+auditée (refusé : « tout nous-mêmes »), le pilotage de l'interface de TikTok par script (contre
+l'esprit de leurs conditions, et le compte de la marque est le seul), et l'audit (faibles chances,
+plusieurs semaines).
+
+**Ouvert : l'API Business « Accounts / Organic »**, qui publie une vidéo en public sur un compte
+qu'on possède. Sa demande d'accès attend une société immatriculée.
+
+**Le contenu ne s'invente pas.** Tout texte à l'écran ou en légende vient d'une fiche validée,
+mot pour mot. Un Reel dit qu'il n'est qu'un résumé (« En bref ici · en entier dans l'app ») et
+ne promet jamais *cette* fiche : le concept du jour dépend des disciplines du lecteur.
+
+**Ce qu'on a ajouté à l'app pour ça** : un format de carte `reel`, jamais offert au lecteur, dont
+tout le texte tient entre y = 230 et y = 1400 pour échapper aux onglets et à la légende des
+plateformes. Comment c'est construit et comment brancher une plateforme de plus :
+`docs/passation-reseaux.md`.
+
