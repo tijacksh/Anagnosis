@@ -133,13 +133,40 @@ Sorties : code 0 et une ligne `Publié : <url>`, ou code ≠ 0 et la raison sur 
    (`reg['posts'].append({... 'tiktok': None, 'instagram': None})`), et l'ajouter au test
    `not (p['tiktok'] and p['instagram'])` de `deposer.py`.
 
-**Ce qu'il faut vérifier auprès de X avant d'écrire une ligne** (je n'ai rien vérifié pour X,
-les règles et les tarifs de leur API ont changé plusieurs fois) :
-- l'accès à l'API et son coût pour publier un tweet avec vidéo, la limite d'envois par jour ;
-- l'authentification OAuth 2.0 avec PKCE et les portées d'écriture de tweets et de médias ;
-- l'envoi de médias en plusieurs morceaux (une vidéo de 15 s à 1080 × 1920 tient dans les limites) ;
-- l'obligation éventuelle de **déclarer le compte comme automatisé**, et la règle contre le
-  spam ou le contenu répétitif.
+**Ce qu'on sait de l'API de X (recherche du 2026-09-29, sources dans `docs.x.com`)**
+
+- **Tarif : paiement à l'usage, pas de palier gratuit.** Des crédits achetés d'avance dans la console
+  (`console.x.com`), avec plafond de dépense et recharge automatique. Un post coûte **0,015 $**, mais
+  **0,20 $ s'il contient une URL**. Pour 30 à 60 posts par mois : environ 1 $ sans lien, 6 à 12 $ avec
+  un lien. Le coût de l'envoi de la vidéo n'est pas listé. (page `x-api/getting-started/pricing`)
+- **Publier :** envoi de la vidéo en trois temps, `POST /2/media/upload/initialize`, puis
+  `.../{id}/append` par morceaux de 5 Mo au plus, puis `.../{id}/finalize` ; on relit le statut
+  jusqu'à `succeeded` ; puis `POST /2/tweets` avec `media.media_ids`. Une vidéo, quatre photos
+  ou un GIF par post. Une vidéo de 15 s à 1080 × 1920 est très en dessous des limites (20 min, 8 Go).
+- **Authentification :** un jeton utilisateur, soit OAuth 2.0 avec PKCE (portées `tweet.write`,
+  `media.write`, `offline.access`, `users.read`), soit OAuth 1.0a. En OAuth 2.0 le jeton d'accès
+  dure **2 heures** et le jeton de rafraîchissement **environ 6 mois, à usage unique** : il faut
+  **enregistrer le nouveau après chaque rafraîchissement**, sinon le script s'arrête. Plusieurs
+  développeurs le voient expirer trop tôt ; prévoir une alerte le jour d'un échec. OAuth 1.0a
+  n'expire pas, ce qui est plus robuste pour un script sans surveillance (non vérifié dans la doc 2026).
+- **Limites :** 100 publications par utilisateur et par jour : sans rapport avec une par jour. X
+  **déduplique les posts identiques sur 24 h** (fuseau UTC).
+- **Règles d'automatisation :** publier par l'API est permis ; piloter le site par script peut
+  mener à une suspension définitive ; le contenu répétitif est interdit ; les comptes-robots doivent
+  être signalés comme automatisés.
+
+**Non confirmé, à vérifier au premier essai :**
+- si l'inscription à la console demande une validation, ou un abonnement Premium ;
+- si l'envoi de médias est facturé ou limité à part ;
+- le codec et le format d'image exigés (H.264 + AAC, MP4, est la valeur sûre) ;
+- si un compte de marque qui publie son propre contenu doit porter la mention « automatisé » ;
+- si mettre le lien dans une **réponse** au post plutôt que dans le post lui-même évite le
+  surcoût de 0,20 $ (c'est une déduction, pas un fait).
+
+**Étapes humaines, une fois :** créer l'app dans la console avec le compte de la marque ; acheter
+des crédits et fixer un plafond ; régler l'app en lecture et écriture, avec une URL de retour
+`http://localhost:...` ; autoriser le compte une fois ; et mettre la clé et le secret dans
+`~/.anagnosis/cles.env`, jamais dans le dépôt.
 
 Comme pour TikTok, **le compte doit être celui de la marque**, avec un rôle sur l'app
 développeur, et la publication ne se fait que sur ce compte.
