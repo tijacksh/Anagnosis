@@ -131,6 +131,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire | Le synode du cadavre (897) : Étienne VI fait juger le corps de Formosus, et meurt étranglé l'année suivante | fait | routine-production | 2026-09-29 |
 | Histoire | Le lapsus de Schabowski (9 novembre 1989) qui a fait tomber le mur de Berlin le soir même | fait | routine-production | 2026-09-29 |
 | Histoire | « Ici, je me tiens » : la phrase de Luther à la Diète de Worms (1521), absente des comptes rendus du jour | fait | routine-production | 2026-09-29 |
+| Histoire | « Qu'ils mangent de la brioche » : une phrase des Confessions de Rousseau (1765-1769), écrite avant l'arrivée de Marie-Antoinette en France | fait | routine-production | 2026-09-29 |
+| Histoire | Le pèlerinage de Mansa Musa au Caire (1324) et la chute du cours de l'or, documentée par Al-Umari | fait | routine-production | 2026-09-29 |
+| Histoire | Le Grand Incendie de Londres (1666) et son bilan officiel de six morts, contesté par les historiens | fait | routine-production | 2026-09-29 |
+| Histoire | L'incident de Kyūjō (14-15 août 1945) : le coup d'État qui a cherché en vain le disque de la reddition du Japon | fait | routine-production | 2026-09-29 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
