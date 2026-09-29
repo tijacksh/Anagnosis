@@ -21,7 +21,7 @@ preparer.py (dimanche)                            deposer.py (chaque matin)
 5. inscrit le programme au registre       + lien du post, commité sur main
 ```
 
-Tout tourne sur le Mac mini, sous le compte de `tijacksh`, par deux tâches launchd
+Tout tourne sur le Mac mini, sous le compte de `tijacksh`, par trois tâches launchd
 (`reseaux/installer.sh`). **Aucun service tiers**, aucune dépendance npm, pas de LLM :
 tout texte à l'écran ou en légende est lu tel quel dans une fiche validée.
 
@@ -34,10 +34,12 @@ tout texte à l'écran ou en légende est lu tel quel dans une fiche validée.
 | `reseaux/plans.py` | découpe les plans d'app filmés au simulateur (rushes, hors git) |
 | `reseaux/compte-demo.py` | écrit dans le simulateur de tournage un lecteur de six semaines |
 | `reseaux/deposer.py` | dépose le Reel du jour sur chaque plateforme, ouvre une issue en cas d'échec |
+| `reseaux/archive.py` | archive un post (légendes + `post.json` dans git, vidéo dans la release de la semaine) |
+| `reseaux/verifier.py` | vérifie la chaîne, relance `deposer.py` si le post du jour manque, ouvre une issue |
 | `reseaux/tiktok.js` | OAuth (PKCE), jetons, dépôt en brouillon, publication directe |
 | `reseaux/instagram.js` | jeton de 60 jours, Reels, carrousels, par URL présignée R2 |
 | `reseaux/registre.json` | le programme et l'état de chaque post (`tiktok`, `instagram`, liens) |
-| `reseaux/installer.sh` + `*.plist` | les deux tâches launchd |
+| `reseaux/installer.sh` + `*.plist` | les trois tâches launchd |
 | `reseaux/PAUSE` (absent) | s'il existe, `deposer.py` ne fait plus rien |
 
 **Côté app** (dépôt `Anagnosis-app`) : `AnagnosisTests/TournageTests.swift` fait rendre la carte
