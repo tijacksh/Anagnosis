@@ -81,7 +81,27 @@ Un `git grep` de l'historique avant chaque poussée ne coûte rien.
 - **Ne pas commiter `__pycache__`** (`reseaux/.gitignore`), et **un fichier de préférences du
   simulateur se réécrit par-dessus** si on ne l'arrête pas d'abord (`compte-demo.py`).
 
-## 5. Brancher X (Twitter) : le plan
+## 5. Les contenus publiés, pour republier exactement pareil
+
+Ce qui est parti sur une plateforme est **archivé automatiquement** par `deposer.py`, pour que les
+autres (X, d'autres plus tard) publient le même contenu :
+
+- **dans git**, `reseaux/publie/<jour>-<fiche>/` : `post.json` (titre, carte, lien du post
+  Instagram, empreinte SHA-256 de la vidéo), `legende-tiktok.txt`, `legende-instagram.txt` ;
+- **la vidéo** (environ 5 Mo) n'est pas dans l'historique : 200 Reels par an feraient près d'un
+  gigaoctet à cloner pour chaque machine et chaque build Netlify. Elle est jointe à la **release
+  GitHub de la semaine** `reels-AAAA-SS` :
+
+```bash
+gh release download reels-2026-40 -R tijacksh/Anagnosis -p '2026-09-28-pyramide-de-maslow.mp4'
+```
+
+`post.json` donne le nom de la release et du fichier, et l'empreinte pour vérifier le téléchargement.
+Le registre (`registre.json`) garde aussi `archive: {release, fichier}` pour chaque post.
+**Une légende pour X s'écrit à partir de `post.json` (`carte.punch`, `carte.source_courte`) et de
+la fiche, jamais d'un texte libre** : c'est ce qui garantit « la même chose partout ».
+
+## 6. Brancher X (Twitter) : le plan
 
 **Où ça tourne.** Le Reel est produit sur le Mac mini (Xcode, simulateur, R2). La voie la plus
 simple est donc que **le Claude de Vincent écrive le module**, que **la tâche du Mac mini
@@ -100,8 +120,9 @@ node reseaux/x.js publier <mp4> <legende.txt> # publie ; sur stdout : « Publié
 Sorties : code 0 et une ligne `Publié : <url>`, ou code ≠ 0 et la raison sur stderr.
 
 **Les trois endroits à toucher :**
-1. `reseaux/composer.py`, `legendes()` : écrire `legende-x.txt` (280 caractères, lien compris).
-   Même règle qu'ailleurs : accroche, source et anagnosis.fr repris de la fiche, rien d'inventé.
+1. `reseaux/composer.py`, `legendes()` : écrire `legende-x.txt` (280 caractères, lien compris),
+   et l'ajouter à la liste de fichiers copiés par `archiver()` de `deposer.py`. Même règle
+   qu'ailleurs : accroche, source et anagnosis.fr repris de la fiche, rien d'inventé.
 2. `reseaux/deposer.py` : une fonction `x(reel, legende)` sur le modèle de `instagram()`, et son
    bloc `try/except` dans la boucle (chaque plateforme est indépendante : l'échec de l'une ne
    retient pas les autres, et ouvre une issue).
@@ -120,7 +141,7 @@ les règles et les tarifs de leur API ont changé plusieurs fois) :
 Comme pour TikTok, **le compte doit être celui de la marque**, avec un rôle sur l'app
 développeur, et la publication ne se fait que sur ce compte.
 
-## 6. Exploitation
+## 7. Exploitation
 
 - **Suspendre** : créer `reseaux/PAUSE`, ou `launchctl bootout gui/$(id -u)/fr.anagnosis.reseaux.deposer`.
 - **Journaux** : `~/Anagnosis-medias/logs/`. Tout échec ouvre une issue GitHub qui mentionne les

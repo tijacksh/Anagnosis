@@ -14,7 +14,9 @@ committé sur main après un `git pull --rebase` : les routines de contenu pouss
 """
 import argparse
 import datetime as dt
+import hashlib
 import json
+import tempfile
 import shutil
 import subprocess
 import os
@@ -24,6 +26,8 @@ from pathlib import Path
 ICI = Path(__file__).resolve().parent
 DEPOT = ICI.parent
 REGISTRE = ICI / 'registre.json'
+PUBLIE = ICI / 'publie'
+DEPOT_GITHUB = 'tijacksh/Anagnosis'
 ICLOUD = Path.home() / 'Library/Mobile Documents'
 RACCOURCI = ICLOUD / 'iCloud~is~workflow~my~workflows/Documents/anagnosis-legende.txt'
 PAQUETS = ICLOUD / 'com~apple~CloudDocs/Anagnosis/Réseaux'
@@ -63,8 +67,46 @@ def brouillon(reel):
     return {'id': publish_id, 'statut': statut}
 
 
+def archiver(p, dossier):
+    """Garde ce qui est parti, pour que les autres plateformes publient exactement pareil.
+
+    Dans git (léger) : la légende de chaque plateforme, la fiche du post, l'empreinte de la
+    vidéo, dans `reseaux/publie/<jour>-<fiche>/`. La vidéo elle-même (environ 5 Mo) n'entre
+    **pas** dans l'historique : 200 Reels par an feraient près d'un gigaoctet à cloner par
+    chaque machine et chaque build Netlify. Elle est jointe à la release GitHub de la semaine
+    (`reels-AAAA-SS`) : `gh release download reels-2026-41 -p '<jour>-<fiche>.mp4'`.
+    """
+    semaine = p['dossier'].split('/')[0].removeprefix('semaine-')
+    tag = f'reels-{semaine}'
+    nom = f"{p['jour']}-{p['slug']}.mp4"
+    reel = dossier / 'reel.mp4'
+    if subprocess.run(['gh', 'release', 'view', tag, '-R', DEPOT_GITHUB], capture_output=True).returncode:
+        subprocess.run(['gh', 'release', 'create', tag, '-R', DEPOT_GITHUB, '--target', 'main',
+                        '--title', f'Reels {semaine}',
+                        '--notes', 'Vidéos publiées cette semaine, une par jour. Voir docs/passation-reseaux.md.'],
+                       check=True, capture_output=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        copie = Path(tmp) / nom
+        shutil.copy2(reel, copie)
+        subprocess.run(['gh', 'release', 'upload', tag, str(copie), '--clobber', '-R', DEPOT_GITHUB],
+                       check=True, capture_output=True)
+    cible = PUBLIE / f"{p['jour']}-{p['slug']}"
+    cible.mkdir(parents=True, exist_ok=True)
+    for f in ('legende-tiktok.txt', 'legende-instagram.txt'):
+        shutil.copy2(dossier / f, cible / f)
+    fiche = json.loads((DEPOT / p['fichier']).read_text())
+    (cible / 'post.json').write_text(json.dumps({
+        'jour': p['jour'], 'slug': p['slug'], 'discipline': p['discipline'],
+        'titre': fiche.get('titre'), 'carte': fiche.get('carte'), 'fiche': p['fichier'],
+        'video': {'release': tag, 'fichier': nom, 'octets': reel.stat().st_size,
+                  'sha256': hashlib.sha256(reel.read_bytes()).hexdigest()},
+        'instagram': (p.get('instagram') or {}).get('lien'),
+    }, ensure_ascii=False, indent=2) + '\n')
+    return {'release': tag, 'fichier': nom}
+
+
 def committer(message):
-    for commande in (['git', 'add', str(REGISTRE)],
+    for commande in (['git', 'add', str(REGISTRE), *([str(PUBLIE)] if PUBLIE.exists() else [])],
                      ['git', 'commit', '-q', '-m', message + '\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>'],
                      ['git', 'pull', '-q', '--rebase', 'origin', 'main'],
                      ['git', 'push', '-q', 'origin', 'HEAD:main']):
@@ -95,6 +137,11 @@ def main():
                      f"Fiche `{p['slug']}`, fichier `{dossier / 'reel.mp4'}`.\n\n```\n{e}\n```\n\n"
                      f"Le paquet est dans iCloud Drive (Anagnosis/Réseaux/{dossier.name}) pour publier à la main.")
             continue
+        if (p['tiktok'] or p['instagram']) and not p.get('archive'):
+            try:
+                p['archive'] = archiver(p, dossier)
+            except Exception as e:
+                signaler(f'archivage du post refusé ({jour})', f"Fiche `{p['slug']}`.\n\n```\n{e}\n```")
         REGISTRE.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + '\n')
         committer(f"Réseaux : brouillon TikTok du {jour} ({p['slug']})")
         print(f"{jour} {p['slug']} : brouillon déposé")
