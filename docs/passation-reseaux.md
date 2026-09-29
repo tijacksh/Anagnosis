@@ -180,6 +180,26 @@ des crédits et fixer un plafond ; régler l'app en lecture et écriture, avec u
 Comme pour TikTok, **le compte doit être celui de la marque**, avec un rôle sur l'app
 développeur, et la publication ne se fait que sur ce compte.
 
+### 6 bis. Essai du 2026-09-29 : programmer sur X par le navigateur (Claude in Chrome)
+
+Sans API payante, on peut remplir le **planificateur web de X** avec l'extension Claude in Chrome
+(ce qui reste gratuit). **Essai supervisé, un seul post : programmé avec succès** pour le
+2026-10-05 à 7 h 30, visible dans `x.com/compose/post/unsent/scheduled`. Ce qu'on a appris :
+
+- le fichier à téléverser doit être dans un dossier lisible par la session (le dossier de travail de
+  la session), pas dans `~/Anagnosis-medias` : le copier d'abord ;
+- le compositeur (`x.com/compose/post`) : champ de texte, champ de fichier, icône d'agenda, puis
+  Mois / Jour / Année / Heure / Minute (des listes déroulantes, le fuseau est celui du navigateur),
+  **Confirm**, puis **Schedule** ; vérifier ensuite dans « Scheduled » ;
+- le compositeur a aussi des **brouillons** (« Unsent posts ») qu'on peut remplir de la même façon ;
+- **X a affiché « Unlock more on X »** : le compte est soumis à une vérification progressive (« être sûr
+  qu'il y a un humain derrière ce compte »), avec visibilité et messages réduits tant qu'il n'a pas
+  montré une activité normale. Ce type de contrôle est **hostile à l'automatisation** ; les règles de X
+  déconseillent aussi le pilotage du site par script. À garder en tête avant de programmer plus, et
+  de passer à une tâche automatique.
+- aucune garantie que la tâche passe sans surveillance : la session peut expirer, X peut demander une
+  vérification, l'interface peut changer.
+
 ## 7. Exploitation
 
 **Trois tâches launchd** (`reseaux/installer.sh`) : `preparer` le dimanche à 20 h, `deposer` chaque
