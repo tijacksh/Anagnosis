@@ -70,10 +70,26 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-29",
+    "verdict": "a_revoir",
+    "empreinte": "f5a3e8862585c633",
+    "notes": [
+      "Karr, avril 1843 (Les Guêpes) : la fiche affirme qu'il « impute sans réserve » la phrase à Marie-Antoinette. Faux d'après le texte même, rouvert sur fr.wikipedia.org/wiki/Qu'ils_mangent_de_la_brioche_! : dans ce texte d'avril 1843, Karr rappelle le bruit qui courait contre « la malheureuse reine », puis rapporte sa découverte d'un livre de 1760 attribuant le même mot à une duchesse de Toscane, et conclut explicitement que « le mot n'a pas été dit par Marie-Antoinette, mais retrouvé et mis en circulation contre elle » — c'est l'inverse d'une imputation sans réserve. À réécrire : Karr est bien le premier à rapporter la phrase (1841, avec prudence), mais son texte de 1843 est justement celui où il doute de l'attribution, pas celui où il l'affirme.",
+      "Accroche : « neuf ans avant l'arrivée de Marie-Antoinette en France » (1770-9=1761) ne colle pas avec le corps (Rousseau écrit le Livre VI vers 1765, confirmé par recherche indépendante : 1765-1767) ni avec aucune source de la fiche — l'écart réel est d'environ 5 ans, pas 9. À corriger ou sourcer."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-29", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -60,10 +60,25 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-29",
+    "verdict": "a_revoir",
+    "empreinte": "87d670deb5221552",
+    "notes": [
+      "Le corps affirme que des « analyses archéologiques de poteries et de fragments de verre retrouvés fondus sur les lieux » indiquent une température dépassant celle d'un four crématoire moderne, en soutien à la thèse de Neil Hanson. Cette affirmation n'est pas dans la source citée : en.wikipedia.org/wiki/Great_Fire_of_London ne contient aucune occurrence de « pottery », « glass », « melted » ou « temperature » liée aux morts (vérifié par recherche mot à mot dans le texte). Le fait semble réel et documenté ailleurs (Museum of London, article Londonist 2016 sur les fragments de verre fondu retrouvés près de Pudding Lane, ~1700°C) mais ces pages sont bloquées par le proxy réseau de cette session et n'ont pas pu être ouvertes pour vérification directe ni ajoutées comme source. À sourcer correctement (Museum of London, ou le livre de Hanson) avant de la garder, ou à retirer si personne ne peut l'ouvrir."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-29", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

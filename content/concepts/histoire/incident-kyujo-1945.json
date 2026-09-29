@@ -60,10 +60,25 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-29",
+    "verdict": "a_revoir",
+    "empreinte": "16b39c9b3e05222b",
+    "notes": [
+      "Le chiffre « environ un millier de soldats » (repère, corps et carte) attribué à en.wikipedia.org/wiki/Ky%C5%ABj%C5%8D_incident n'est confirmé nulle part dans cette page : l'infobox donne 18 000 rebelles / 687 officiers (probablement l'effectif nominal de toute la 1re division de la Garde impériale, pas les seuls occupants du palais cette nuit-là), et le corps de l'article ne parle que d'un « battalion » sans chiffre précis — confirmé par une recherche indépendante (Military Wiki, etc.), qui utilise aussi « a battalion » sans chiffre. Un millier est une approximation plausible pour un bataillon, mais présenté comme un fait précis et sourcé alors qu'aucune source ouverte ne le confirme. Le reste (Hatanaka, Shiizaki, meurtre de Mori, ordre falsifié, 18 personnes détenues dont le personnel NHK, disques non trouvés, intervention de Tanaka, démantèlement vers 8h, suicide de Hatanaka, cachettes des disques dans une boîte laquée et un sac à déjeuner dans le bureau de l'entourage de l'impératrice) est confirmé mot pour mot par les deux sources citées (Kyūjō incident, Hirohito surrender broadcast) — seul le chiffre de troupe est à vérifier ou à retirer."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-29", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
