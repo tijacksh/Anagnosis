@@ -29,7 +29,7 @@
       "publication": "The National Archives — Explore the collection",
       "annee": null,
       "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/medieval/domesday/",
-      "note": "Confirme le conseil de Noël 1085 à Gloucester, la méthode de l'enquête sous serment par des commissaires royaux, et une compilation qui s'étend sur plusieurs années (1086-1089) ; cite la Chronique anglo-saxonne sur l'exhaustivité du recensement."
+      "note": "Confirme le conseil de Noël 1085 (sans préciser Gloucester), la méthode de l'enquête sous serment par des commissaires royaux, et une compilation qui s'étend sur plusieurs années (1086-1089) ; cite la Chronique anglo-saxonne sur l'exhaustivité du recensement."
     },
     {
       "type": "web",
@@ -39,6 +39,15 @@
       "annee": null,
       "url": "https://www.britannica.com/topic/Domesday-Book",
       "note": "Confirme la méthode de l'enquête sous serment, les sept ou huit groupes de commissaires, et la rapidité remarquable de l'exécution en 1086."
+    },
+    {
+      "type": "web",
+      "auteur": "Encyclopedia.com (Gale)",
+      "titre": "Domesday Book",
+      "publication": "Encyclopedia.com",
+      "annee": null,
+      "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/domesday-book",
+      "note": "Confirme précisément le lieu du conseil royal, Gloucester, citant la Chronique anglo-saxonne : « At Christmas of 1085, King William I held \"deep speech\" with his great men at Gloucester about this land and how it was peopled and with what sort of men »."
     },
     {
       "type": "web",
@@ -72,8 +81,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-29",
+    "verdict": "corrige",
+    "empreinte": "6371a25ba34c11ea",
+    "notes": [
+      "Sources rouvertes (National Archives UK, Britannica, Wikipédia EN Domesday Book) : confirment l'enquête sous serment, les commissaires royaux, la citation de la Chronique anglo-saxonne, la citation exacte de Richard FitzNeal (Dialogus de Scaccario, traduction fidèle vérifiée mot à mot), Little Domesday resté à l'état brut, et la thèse de David Roffe. Correction : le lieu 'Gloucester' du conseil de Noël 1085 n'était confirmé par aucune des trois sources citées (la note sur la source National Archives le sur-affirmait) ; ajout d'une quatrième source (Encyclopedia.com, citant la Chronique anglo-saxonne) qui confirme précisément ce lieu, et correction de la note National Archives en conséquence. Reste de la fiche inchangé."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-09-29", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-09-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

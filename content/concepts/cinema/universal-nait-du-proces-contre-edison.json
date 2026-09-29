@@ -86,24 +86,39 @@
   "quiz_supplementaire": [
     {
       "question": "Qui a fondé la Motion Picture Patents Company en décembre 1908, et sur quoi reposait son monopole ?",
-      "choix": ["Carl Laemmle, sur le contrôle exclusif des salles de projection", "Thomas Edison et neuf autres sociétés, sur les brevets des caméras et projecteurs et l'exclusivité de la pellicule Kodak", "George Kleine seul, sur un brevet exclusif de la pellicule photographique", "Carl Laemmle et Thomas Edison ensemble, sur un accord de répartition territoriale"],
+      "choix": [
+        "Carl Laemmle, sur le contrôle exclusif des salles de projection",
+        "Thomas Edison et neuf autres sociétés, sur les brevets des caméras et projecteurs et l'exclusivité de la pellicule Kodak",
+        "George Kleine seul, sur un brevet exclusif de la pellicule photographique",
+        "Carl Laemmle et Thomas Edison ensemble, sur un accord de répartition territoriale"
+      ],
       "bonne_reponse": 1,
       "explication": "La MPPC est fondée en décembre 1908 par Edison et neuf autres sociétés ; elle détient les brevets sur caméras et projecteurs et s'assure l'exclusivité de la pellicule vierge auprès d'Eastman Kodak."
     },
     {
       "question": "Que fait Carl Laemmle le 12 mars 1909 ?",
-      "choix": ["Il rachète les brevets de la Motion Picture Patents Company", "Il fusionne ses salles de cinéma avec celles d'Edison", "Il porte plainte devant la Cour suprême contre Eastman Kodak", "Il fonde l'Independent Moving Pictures Company en défi ouvert au Trust"],
+      "choix": [
+        "Il rachète les brevets de la Motion Picture Patents Company",
+        "Il fusionne ses salles de cinéma avec celles d'Edison",
+        "Il porte plainte devant la Cour suprême contre Eastman Kodak",
+        "Il fonde l'Independent Moving Pictures Company en défi ouvert au Trust"
+      ],
       "bonne_reponse": 3,
       "explication": "Le 12 mars 1909, Laemmle fonde l'Independent Moving Pictures Company, IMP, en défi ouvert au Trust, plutôt que de racheter ses brevets ou de porter plainte directement devant la Cour suprême."
     },
     {
       "question": "Que juge le tribunal fédéral de Pennsylvanie en 1915, avant l'arrêt de la Cour suprême de 1917 ?",
-      "choix": ["Que la Motion Picture Patents Company a violé le Sherman Antitrust Act et doit être dissoute", "Que Carl Laemmle doit verser des dommages et intérêts à Thomas Edison", "Que la doctrine de l'épuisement du brevet ne s'applique pas au cinéma", "Que Eastman Kodak doit rompre son contrat d'exclusivité avec le Trust"],
+      "choix": [
+        "Que la Motion Picture Patents Company a violé le Sherman Antitrust Act et doit être dissoute",
+        "Que Carl Laemmle doit verser des dommages et intérêts à Thomas Edison",
+        "Que la doctrine de l'épuisement du brevet ne s'applique pas au cinéma",
+        "Que Eastman Kodak doit rompre son contrat d'exclusivité avec le Trust"
+      ],
       "bonne_reponse": 0,
       "explication": "En 1915, un tribunal fédéral de Pennsylvanie juge que la MPPC a violé le Sherman Antitrust Act par ses licences croisées et ordonne sa dissolution, avant que le Trust ne fasse appel de ce jugement."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-relecture",
@@ -120,11 +135,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-09-19",
-    "verdict": "ok",
-    "empreinte": "54b8aa01baecf5e7",
+    "fait_le": "2026-09-29",
+    "verdict": "a_revoir",
+    "empreinte": "f16be0c4bac7f5b7",
     "notes": [
-      "Sources rouvertes (arrêt 243 U.S. 502 sur govinfo.gov, Cornell LII, Wikipédia EN sur United States v. MPPC et Independent Moving Pictures) : confirment la fondation de la MPPC en décembre 1908 par Edison et neuf autres sociétés avec exclusivité Eastman Kodak, la fondation d'IMP par Laemmle en 1909, la fusion du 30 avril 1912 formant Universal, le jugement du 1er octobre 1915 en Pennsylvanie (violation du Sherman Antitrust Act, dissolution ordonnée), l'arrêt de la Cour suprême du 9 avril 1917 posant la doctrine de l'épuisement du brevet, et l'abandon de l'appel du Trust en 1918. Rien à corriger."
+      "Deux problèmes de date sur la fondation d'Universal. (1) '12 mars 1909' pour la fondation d'IMP par Laemmle : non confirmé par la source citée (Wikipédia EN Independent Moving Pictures, qui ne donne que l'année 1909) ni par Wikipédia EN Carl Laemmle, ni par une recherche web ; le seul '12 mars' trouvé dans les sources concerne un événement distinct (Florence Lawrence, 12 mars 1910). À vérifier ou remplacer par une date confirmée, sinon garder 'en 1909' sans jour précis. Présent dans le corps et dans quiz_supplementaire[1]. (2) '30 avril 1912' pour la fusion IMP + Powers + Champion + Rex + Nestor + New York Motion Picture Company formant Universal Film Mfg. Co. : la date et la liste des sociétés sont exactes, mais la source citée pour ce fait (Wikipédia EN Independent Moving Pictures) dit en réalité 'le 10 juin 1912' pour le transfert des actifs d'IMP vers Universal — elle ne confirme pas le 30 avril. Wikipédia EN Carl Laemmle confirme mot pour mot le 30 avril 1912 avec les six sociétés listées : source à ajouter/substituer, note à corriger en conséquence."
     ]
   },
   "controle_juridique": null,

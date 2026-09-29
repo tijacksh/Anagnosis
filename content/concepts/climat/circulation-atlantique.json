@@ -77,19 +77,34 @@
   "quiz_supplementaire": [
     {
       "question": "Depuis quand la circulation atlantique est-elle surveillée directement, par des mouillages installés en travers de l'océan ?",
-      "choix": ["Depuis 2004", "Depuis 1950", "Depuis 1850", "Depuis 2015"],
+      "choix": [
+        "Depuis 2004",
+        "Depuis 1950",
+        "Depuis 1850",
+        "Depuis 2015"
+      ],
       "bonne_reponse": 0,
       "explication": "La surveillance directe de cette circulation est récente : elle repose sur des mouillages installés en travers de l'Atlantique depuis 2004, et vingt ans de relevés ne suffisent pas à distinguer une tendance d'une oscillation naturelle."
     },
     {
       "question": "Pourquoi la fonte de la calotte du Groenland gêne-t-elle la circulation atlantique ?",
-      "choix": ["Elle refroidit l'eau de surface au point de la faire geler entièrement", "Elle déverse de l'eau douce qui dilue le sel et allège l'eau de surface", "Elle bloque physiquement les mouillages qui mesurent la circulation", "Elle augmente la salinité de l'eau au large du Groenland"],
+      "choix": [
+        "Elle refroidit l'eau de surface au point de la faire geler entièrement",
+        "Elle déverse de l'eau douce qui dilue le sel et allège l'eau de surface",
+        "Elle bloque physiquement les mouillages qui mesurent la circulation",
+        "Elle augmente la salinité de l'eau au large du Groenland"
+      ],
       "bonne_reponse": 1,
       "explication": "La fonte de la calotte du Groenland déverse de l'eau douce, qui dilue le sel de l'eau du nord ; une eau de surface trop légère, moins salée et moins dense, ne plonge plus, ce qui ralentit la boucle plutôt que d'augmenter la salinité."
     },
     {
       "question": "Pourquoi le ralentissement de la circulation atlantique entretient-il, selon la fiche, sa propre cause ?",
-      "choix": ["Parce qu'il provoque une hausse immédiate du niveau des mers en Europe", "Parce qu'il accélère la fonte des glaciers alpins", "Parce qu'un ralentissement de la boucle réduit l'apport de chaleur vers le nord", "Parce qu'il double automatiquement la vitesse des vents atlantiques"],
+      "choix": [
+        "Parce qu'il provoque une hausse immédiate du niveau des mers en Europe",
+        "Parce qu'il accélère la fonte des glaciers alpins",
+        "Parce qu'un ralentissement de la boucle réduit l'apport de chaleur vers le nord",
+        "Parce qu'il double automatiquement la vitesse des vents atlantiques"
+      ],
       "bonne_reponse": 2,
       "explication": "Le texte l'affirme directement : sans plongeon, la boucle ralentit, et ce ralentissement réduit à son tour l'apport de chaleur vers le nord, ce qui entretient la cause même du ralentissement, un mécanisme auto-entretenu plutôt qu'auto-correcteur."
     }
@@ -116,11 +131,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-08-16",
+    "fait_le": "2026-09-29",
     "verdict": "ok",
-    "empreinte": "dd7f611919c99674",
+    "empreinte": "9ec7056d189ce636",
     "notes": [
-      "Sources rerouvertes le 16/08 après le seul changement depuis le dernier contrôle (tirets cadratins retirés, aucun changement de sens) : Caesar et al. 2021 (Nature Geoscience 14) confirmé via redirection idp.nature.com — titre, auteurs, conclusion (AMOC au plus faible depuis mille ans, affaiblissement amorcé XIXe s. via fin du petit âge glaciaire vers 1850, accentué mi-XXe) et méthode par proxys (SST, sédiments, coraux). Caesar et al. 2018 (Nature 556) confirmé, motif SST refroidissement subpolaire / réchauffement Gulf Stream, -15% depuis le mi-XXe. Page PIK (texte intégral récupéré par curl) confirme mot pour mot la chronologie et cite Caesar et Cahill. Rahmstorf 2024 (tos.org, accès libre confirmé) confirme le débat vif et non tranché sur le seuil de basculement. Repère, carte et quiz cohérents avec les sources ; bonne réponse du quiz vérifiée correcte, les trois distracteurs vérifiés faux. Aucune correction nécessaire."
+      "Recontrôle après changement d'empreinte (aucun changement de fond détecté) : Caesar et al. 2021 (Nature Geoscience) rouvert via redirection idp.nature.com, confirme l'affaiblissement de l'AMOC amorcé au XIXe siècle et accentué au milieu du XXe, au plus faible depuis mille ans. Reste cohérent avec le contrôle du 16/08. Rien à corriger."
     ]
   }
 }
