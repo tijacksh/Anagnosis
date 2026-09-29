@@ -61,7 +61,8 @@ Vérifié le 2026-09-28 dans la documentation officielle (developers.tiktok.com/
   - Chaque fichier est déposé sous `reseaux/`, et Instagram le lit via une URL présignée valable 1 h. Le bucket reste privé.
   - Les vidéos peuvent aussi passer par l'envoi direct (`rupload`).
 - Jeton long de 60 jours, rafraîchi chaque semaine par le job.
-- Si l'on préfère aussi publier Instagram à la main, un réglage (`INSTAGRAM_AUTO=0`) remplace la publication par le dépôt du paquet prêt à poster (§4 bis).
+- **En service depuis le 2026-09-29** : app Meta « Anagnosis-IG », compte @anagnosis_app en professionnel, `instagram_business_content_publish` ajoutée, jeton de 60 jours généré dans le tableau de bord (Générer des tokens d'accès) et prolongé seul par `reseaux/instagram.js`. `deposer.py` publie le Reel du jour chaque matin, indépendamment de TikTok. Premier Reel : le Maslow.
+- Si le jeton expire (60 jours sans prolongation), en générer un nouveau dans le tableau de bord Meta et le donner à `node reseaux/instagram.js jeton <jeton>`.
 
 ## 4. La chaîne
 

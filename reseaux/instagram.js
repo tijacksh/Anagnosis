@@ -91,12 +91,20 @@ async function rafraichir() {
 }
 
 async function jeton(court) {
-  const { secret } = cles();
-  const long = await get('/access_token', { grant_type: 'ig_exchange_token', client_secret: secret, access_token: court });
-  const moi = await get(`/${VERSION}/me`, { fields: 'user_id,username,account_type', access_token: long.access_token });
-  garder({ access_token: long.access_token, expire: Date.now() + long.expires_in * 1000,
-           user_id: moi.user_id, username: moi.username });
-  console.log(`Jeton de 60 jours gardé pour @${moi.username} (${moi.account_type}).`);
+  const champs = 'user_id,username,account_type';
+  let acces = court, duree = 60 * 86400;
+  // Le tableau de bord de Meta délivre déjà un jeton de 60 jours : on l'essaie tel quel
+  // avant de tenter l'échange, réservé aux jetons courts (une heure) d'un parcours OAuth.
+  let moi;
+  try { moi = await get(`/${VERSION}/me`, { fields: champs, access_token: court }); }
+  catch {
+    const { secret } = cles();
+    const long = await get('/access_token', { grant_type: 'ig_exchange_token', client_secret: secret, access_token: court });
+    acces = long.access_token; duree = long.expires_in;
+    moi = await get(`/${VERSION}/me`, { fields: champs, access_token: acces });
+  }
+  garder({ access_token: acces, expire: Date.now() + duree * 1000, user_id: moi.user_id, username: moi.username });
+  console.log(`Jeton gardé pour @${moi.username} (${moi.account_type}), valable jusqu'au ${new Date(Date.now() + duree * 1000).toISOString().slice(0, 10)} et prolongé seul ensuite.`);
 }
 
 async function compte() {
