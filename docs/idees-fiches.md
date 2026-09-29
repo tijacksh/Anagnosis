@@ -127,6 +127,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire | Le télégramme Zimmermann (1917), décodé sur le câble diplomatique américain lui-même | fait | routine-production | 2026-09-28 |
 | Histoire | La grippe dite « espagnole » (1918), nommée à cause de la censure de guerre | fait | routine-production | 2026-09-28 |
 | Histoire | Champollion et le déchiffrement des hiéroglyphes (lettre à Dacier, 27 septembre 1822) | fait | routine-production | 2026-09-28 |
+| Histoire | Le Domesday Book (1086), enquête sous serment restée en partie un chantier inachevé à la mort de Guillaume | fait | routine-production | 2026-09-29 |
+| Histoire | Le synode du cadavre (897) : Étienne VI fait juger le corps de Formosus, et meurt étranglé l'année suivante | fait | routine-production | 2026-09-29 |
+| Histoire | Le lapsus de Schabowski (9 novembre 1989) qui a fait tomber le mur de Berlin le soir même | fait | routine-production | 2026-09-29 |
+| Histoire | « Ici, je me tiens » : la phrase de Luther à la Diète de Worms (1521), absente des comptes rendus du jour | fait | routine-production | 2026-09-29 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
