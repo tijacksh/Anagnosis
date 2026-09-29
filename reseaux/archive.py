@@ -43,7 +43,7 @@ def archiver(p, dossier):
                        check=True, capture_output=True)
     cible = PUBLIE / f"{p['jour']}-{p['slug']}"
     cible.mkdir(parents=True, exist_ok=True)
-    for f in ('legende-tiktok.txt', 'legende-instagram.txt'):
+    for f in ('legende-tiktok.txt', 'legende-instagram.txt', 'legende-x.txt'):
         shutil.copy2(dossier / f, cible / f)
     fiche = json.loads((DEPOT / p['fichier']).read_text())
     (cible / 'post.json').write_text(json.dumps({

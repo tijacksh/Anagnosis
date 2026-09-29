@@ -15,6 +15,7 @@ Dépendances : Pillow et ffmpeg. Polices : celles de l'app, sous licence OFL.
 """
 import json
 import os
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -199,12 +200,36 @@ HASHTAGS = {'droit': '#droit', 'medecine': '#sante', 'histoire_art': '#histoired
             'climat': '#climat', 'geologie': '#geologie'}
 
 
+MOTS_DE_LIAISON = set("de d' du des la le les un une et ou à en pour que qui au aux sur dans par avec sans "
+                      "sous vers entre ne n' se s' l' ce cet cette ces son sa ses leur leurs ordre comme mais "
+                      "donc car si où dont".split())
+
+
+def accroche(fiche):
+    """L'accroche de la fiche, sauf si elle s'arrête au milieu d'une phrase (vu sur
+    `carottes-de-glace`, coupée en retirant un tiret cadratin) : on prend alors la phrase de la
+    carte, toujours complète. Le contenu validé n'est pas modifié ici ; c'est aux routines de le réparer."""
+    a = fiche['accroche'].rstrip()
+    dernier = re.split(r"[\s']+", a)[-1].lower().strip(',;:') if a else ''
+    if a and a[-1] not in '.!?»…)"\'' and dernier in MOTS_DE_LIAISON:
+        return fiche['carte']['punch']
+    return a
+
+
+def legende_x(fiche):
+    """La légende de X : 280 caractères, l'adresse comptant pour 23. L'accroche et la source de
+    la fiche, telles quelles ; le lien vers le site, pas un mot de plus."""
+    texte = f"{accroche(fiche)}\n\nSource : {fiche['carte']['source_courte']}\n\nanagnosis.fr"
+    assert len(texte) - len('anagnosis.fr') + 23 <= 280, f"légende X trop longue : {len(texte)}"
+    return texte + '\n'
+
+
 def legendes(fiche, dossier):
     discipline = fiche['discipline']
     tag = HASHTAGS.get(discipline.split('_')[0] if discipline.startswith('droit') else discipline,
                        '#' + discipline.replace('_', ''))
     carte = fiche['carte']
-    corps = (f"{fiche['accroche']}\n\n"
+    corps = (f"{accroche(fiche)}\n\n"
              f"Source : {carte['source_courte']}\n\n"
              f"En bref ici. Dans l'app, chaque jour, une fiche en entier : trois minutes "
              f"de lecture, toutes les sources, un quiz. "
@@ -213,6 +238,7 @@ def legendes(fiche, dossier):
     # TikTok ajoute lui-même #Anagnosis à un brouillon venu de notre app : pas de doublon.
     (dossier / 'legende-tiktok.txt').write_text(f'{corps}\n\n{communs}\n')
     (dossier / 'legende-instagram.txt').write_text(f'{corps}\n\n{communs} #anagnosis\n')
+    (dossier / 'legende-x.txt').write_text(legende_x(fiche))
     for f in ('legende-tiktok.txt', 'legende-instagram.txt'):
         assert len((dossier / f).read_text()) <= 2200
 
