@@ -1,14 +1,17 @@
 # Réseaux sociaux — la chaîne de publication automatique
 
-> **Statut : décidé le 2026-09-28, pas encore construit.** Aucun service tiers. Tout passe
-> par nos propres apps développeur (TikTok, Meta) et notre propre infrastructure (Mac mini,
-> R2). **La publication finale sur TikTok est faite à la main**, depuis le brouillon préparé.
+> **Statut : en service depuis le 2026-09-29.** Aucun service tiers : tout passe par nos propres
+> apps développeur (TikTok, Meta) et notre infrastructure (Mac mini, R2). **Instagram est publié
+> tout seul** ; **TikTok arrive en brouillon** et sa publication finale se fait à la main. Le
+> carrousel Instagram n'est pas encore fabriqué (l'outil sait le publier). Comment c'est
+> construit : `docs/passation-reseaux.md`.
 
 ## 1. Ce qu'on publie
 
-Des Reels 1080 × 1920 de 12 à 15 s, publiés **en même temps sur TikTok et Instagram**, et un
-carrousel Instagram 4:5 de 5 images par semaine. Cadence de croisière : 4 vidéos par semaine,
-publiées entre 7 h 30 et 8 h 30, plus 1 carrousel le jeudi. Au lancement : 1 par jour pendant 14 jours.
+Des Reels 1080 × 1920 de 12 à 15 s, avec légende : **publiés sur Instagram, déposés en brouillon
+sur TikTok** le même matin, à 7 h 30. Cadence actuelle : 4 par semaine (lundi, mercredi, vendredi,
+dimanche). **Pas encore fait :** un carrousel Instagram 4:5 de 5 images par semaine (le jeudi) ; la
+publication d'un carrousel existe (`instagram.js carrousel`), rien ne le fabrique encore.
 
 Cinq formats : la carte animée (40 %), l'idée reçue confrontée à sa source (25 %), le verrou,
 c'est-à-dire le manifeste anti-scroll (15 %), le quiz (10 %), et les coulisses et le rituel (10 %).
@@ -55,7 +58,7 @@ Vérifié le 2026-09-28 dans la documentation officielle (developers.tiktok.com/
   - Pas d'App Review : nos comptes ont un rôle sur notre propre app, l'accès standard suffit.
   - Permissions nécessaires : `instagram_business_basic` et `instagram_business_content_publish`.
 - Fonctionnement : les Reels (`media_type=REELS`) et les carrousels (jusqu'à 10 JPEG, en 4:5) passent par `POST /{ig-user-id}/media`, puis `/media_publish`. Plafond : 100 posts par 24 h.
-- **L'API n'a ni brouillon ni publication différée.** Le Mac mini (launchd) appelle donc `media_publish` à l'heure prévue, vers 7 h 45. Il est allumé en permanence, puisqu'il sert déjà le backend de Caarnet. Si l'heure est manquée (coupure), le post part au réveil, le jour même seulement.
+- **L'API n'a ni brouillon ni publication différée.** Le Mac mini (launchd) appelle donc `media_publish` à 7 h 30, juste après le dépôt du brouillon TikTok. Il est allumé en permanence, puisqu'il sert déjà le backend de Caarnet. Si l'heure est manquée (coupure), le post part au réveil, le jour même seulement.
 - **Les médias doivent être accessibles par URL**, et c'est notre R2 qui les héberge : aucun service tiers.
   - Le pipeline écrit déjà dans R2 avec les clés S3 de `~/.anagnosis/cles.env` (`src/r2.js`).
   - Chaque fichier est déposé sous `reseaux/`, et Instagram le lit via une URL présignée valable 1 h. Le bucket reste privé.
@@ -66,19 +69,29 @@ Vérifié le 2026-09-28 dans la documentation officielle (developers.tiktok.com/
 
 ## 4. La chaîne
 
-Elle tourne sur le Mac mini (launchd), le dimanche à 20 h, et prépare la semaine suivante.
+Elle tourne sur le Mac mini, par trois tâches launchd.
 
 ```
-1. choisir      reseaux/choisir.js    4 fiches + 1 carrousel : validées, avec carte,
-                                      jamais publiées (registre), disciplines en rotation
-2. tourner      xcodebuild test       l'app rend elle-même la story vidéo de chaque carte
-                (TournageTests)       (StoryVideo.swift) : la vraie carte, pas une imitation
-3. composer     reseaux/composer.py   Pillow (polices de l'app) + ffmpeg, son fabriqué ici :
-                                      accroche → carte de l'app → rush d'écran réel → fin
-4. contrôler    reseaux/controler.js  échec = on écarte la fiche et on prend la suivante
-5. déposer      reseaux/publier.js    TikTok : brouillon dans l'inbox, le jour J à 7 h 30
-                                      Instagram : publication auto à 7 h 45 (Reel ou carrousel)
-6. consigner    reseaux/registre.json committé sur main : fiche, format, date, liens des posts
+DIMANCHE 20 h — reseaux/preparer.py
+1. choisir      4 fiches validées, avec carte, sans source anonyme, jamais publiées (registre),
+                de familles de disciplines différentes
+2. tourner      xcodebuild test (TournageTests) : l'app rend elle-même la carte de chaque fiche
+                (StoryVideo.swift, format Reel) : la vraie carte, pas une imitation
+3. composer     reseaux/composer.py : Pillow (polices de l'app) + ffmpeg, son fabriqué ici :
+                carte → plan d'app filmé au simulateur → fin de marque
+4. contrôler    ffprobe : H.264, AAC 48 kHz, 1080 × 1920, 30 i/s, 8 à 15 s ; échec = on prend
+                la fiche de rechange
+5. archiver     légendes + post.json dans reseaux/publie/, vidéo dans la release GitHub
+                de la semaine ; programme inscrit dans reseaux/registre.json ; le tout sur main
+
+CHAQUE JOUR 7 h 30 — reseaux/deposer.py
+6. TikTok       brouillon dans la boîte de réception ; légende dans le raccourci iPhone
+7. Instagram    Reel publié en public, tout seul (reseaux/instagram.js)
+8. consigner    liens des posts dans registre.json et post.json, commité sur main
+
+CHAQUE JOUR 9 h, et DIMANCHE 21 h 30 — reseaux/verifier.py
+9. vérifier     tâches, jetons, registre poussé, posts passés, cinq prochains jours ;
+                relance deposer.py si le post du jour manque ; issue GitHub en cas de problème
 ```
 
 **Pas de dépendance npm.** Node natif (fetch), Python avec Pillow, ffmpeg et Xcode. C'est la
@@ -91,9 +104,9 @@ soit : on est prévenus seulement en cas de problème.
 ### 4 bis. Le paquet de secours
 
 Chaque post existe aussi sous forme de paquet dans `~/Anagnosis-medias/semaine-AAAA-SS/` :
-la vidéo, les images du carrousel, et un fichier `legende.txt` avec la légende et les hashtags.
-Ce dossier est recopié dans iCloud Drive (`Anagnosis/Réseaux/`) pour être accessible depuis le
-téléphone. Si une API tombe, on publie à la main depuis là.
+`reel.mp4`, `legende-tiktok.txt` et `legende-instagram.txt`. `deposer.py` le recopie le jour
+venu dans iCloud Drive (`Anagnosis/Réseaux/`) pour l'avoir sur le téléphone. Si une API tombe,
+on publie à la main depuis là.
 
 ### 4 ter. Exploitation
 
@@ -143,23 +156,21 @@ Chacun de ces contrôles, s'il échoue, bloque la publication :
 
 ## 7. Ce qui reste humain
 
-**Une fois.** Ces gestes ne peuvent pas être faits par Claude : création de compte, OAuth,
-saisie de secret.
+**Fait le 2026-09-28 et 29** : les comptes TikTok et Instagram (Instagram en compte professionnel) ;
+l'app TikTok for Developers « Anagnosis » (Sandbox, Login Kit + Content Posting API, portées
+`user.info.basic`, `video.upload`, `video.publish`) ; l'app Meta « Anagnosis-IG » (API Instagram avec
+connexion Instagram, compte en testeur, portée `instagram_business_content_publish`) ; l'autorisation
+de chaque compte ; les clés et jetons dans `~/.anagnosis/`, hors dépôt.
 
-1. Créer les comptes TikTok et Instagram (même nom), puis passer Instagram en compte professionnel (Créateur).
-2. **TikTok for Developers**
-   - Créer une app « Anagnosis » et y ajouter *Login Kit* et *Content Posting API* (scope `video.upload`).
-   - Déclarer anagnosis.fr, avec les pages confidentialité et conditions déjà en ligne.
-   - Tant que l'app est en sandbox, y ajouter le compte TikTok comme utilisateur de test.
-3. **Meta for Developers**
-   - Créer une app de type « Business » et y ajouter le produit *Instagram* (API avec connexion Instagram).
-   - Donner au compte Instagram le rôle de testeur de l'app, et l'accepter depuis Instagram.
-4. **Autoriser une fois** chaque app sur son compte, via une page locale que le job ouvrira sur `localhost`. Les jetons vont ensuite dans `~/.anagnosis/reseaux-jetons.json`, jamais dans le dépôt.
-5. Ajouter les identifiants des deux apps (client key et secret TikTok, app ID et secret Meta) dans `~/.anagnosis/cles.env`.
+**Chaque jour de publication** : ouvrir le brouillon TikTok, coller la légende avec le raccourci
+« Légende TikTok », publier (une trentaine de secondes). Instagram part seul.
 
-**Chaque semaine :** ouvrir les 4 brouillons TikTok et publier. Instagram part seul.
+**Rarement** : une reconnexion si une plateforme la redemande, ou un nouveau jeton Instagram s'il
+expire (60 jours sans prolongation). `verifier.py` le signale bien avant, par une issue.
 
-**Rarement :** une reconnexion si une plateforme la redemande. L'issue le signale.
+**Ouvert** : publier TikTok tout seul. La voie à l'étude est l'API TikTok for Business (« Accounts /
+Organic », publication publique sur un compte qu'on possède) ; sa demande d'accès attend
+l'immatriculation d'une société. Voir `docs/decisions.md`, 2026-09-29.
 
 ## 8. Pour les routines et pour Vincent
 
