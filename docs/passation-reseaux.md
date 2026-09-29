@@ -234,3 +234,12 @@ une issue « Réseaux : vérification » en cas de problème. `verifier.py --ess
   expire, le régénérer dans le tableau de bord Meta puis `node reseaux/instagram.js jeton <jeton>`.
 - **Les routines de contenu ne touchent ni à `reseaux/` ni à `registre.json`.** Une erreur de fond
   trouvée dans une fiche déjà publiée doit ouvrir une issue : le post en ligne ne se corrige pas seul.
+
+## TikTok : programmation hebdomadaire par BrightBean Studio (2026-09-29)
+
+TikTok refuse la publication publique par API tant que l'app n'est pas auditée (et refuse l'audit pour un outil « de son propre compte »). BrightBean Studio (hébergé, gratuit) est une app TikTok déjà auditée : les vidéos y partent en public, avec la mention « Contenu promotionnel ».
+
+- **Dimanche**, `python3 reseaux/brightbean.py programmer --depuis AAAA-MM-JJ` envoie vidéo et légende et programme chaque Reel à 7 h 30 (Paris) ; le registre reçoit `tiktok.brightbean`, donc `deposer.py` ne crée plus de brouillon TikTok pour ces posts.
+- **L'API ne règle pas les options TikTok** (visibilité vide, commentaires décochés, pas de divulgation). Il faut ouvrir chaque post dans l'interface (`/workspace/<id>/compose/<post>/`) et fixer : *Everyone*, *Comment*, *Disclose post content → Your brand*, puis *Schedule Post*. Les menus sont lents : attendre 3 s avant de cliquer une option.
+- BrightBean n'actualise pas le statut « Published » ; vérifier sur le profil TikTok.
+- Clé : `BRIGHTBEAN_API_KEY` dans `~/.anagnosis/cles.env` (hors git).
