@@ -10,6 +10,7 @@ une API était en panne à 7 h 30) ; `deposer.py` est rejouable plateforme par p
 double jamais un envoi déjà fait.
 
 Contrôles, dans l'ordre :
+  0. le dépôt quotidien fait ce qu'il doit (`essai_deposer.py`, de faux appels, rien n'est publié) ;
   1. les tâches launchd sont chargées, et `reseaux/PAUSE` est absent ;
   2. le registre est valide et poussé sur main (rien de commité en retard) ;
   3. les jetons ne vont pas expirer (Instagram : 7 jours ; TikTok : 30 jours) ;
@@ -49,6 +50,12 @@ def lancer(*cmd, **kw):
 
 def controles(aujourdhui, reprise):
     problemes = []
+
+    # 0. le code du dépôt quotidien fait bien ce qu'il doit (essai avec de faux appels, rien n'est publié)
+    essai = lancer(sys.executable, str(ICI / 'essai_deposer.py'))
+    if essai.returncode:
+        problemes.append('`essai_deposer.py` échoue : le dépôt quotidien ne fait plus ce qu\'il doit :\n```\n'
+                         + (essai.stdout + essai.stderr).strip()[-600:] + '\n```')
 
     # 1. tâches et interrupteur
     actives = lancer('launchctl', 'list').stdout
