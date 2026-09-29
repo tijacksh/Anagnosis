@@ -3,15 +3,17 @@
 > **Statut : en service depuis le 2026-09-29.** Aucun service tiers : tout passe par nos propres
 > apps développeur (TikTok, Meta) et notre infrastructure (Mac mini, R2). **Instagram est publié
 > tout seul** ; **TikTok arrive en brouillon** et sa publication finale se fait à la main. Le
-> carrousel Instagram n'est pas encore fabriqué (l'outil sait le publier). Comment c'est
+> carrousel du mardi et le post « concept » du jeudi sont fabriqués et programmés (Instagram), pas encore
+publiés sur TikTok (notre app n'a pas la portée photo). Comment c'est
 > construit : `docs/passation-reseaux.md`.
 
 ## 1. Ce qu'on publie
 
 Des Reels 1080 × 1920 de 12 à 15 s, avec légende : **publiés sur Instagram, déposés en brouillon
-sur TikTok** le même matin, à 7 h 30. Cadence actuelle : 4 par semaine (lundi, mercredi, vendredi,
-dimanche). **Pas encore fait :** un carrousel Instagram 4:5 de 5 images par semaine (le jeudi) ; la
-publication d'un carrousel existe (`instagram.js carrousel`), rien ne le fabrique encore.
+sur TikTok** le même matin, à 7 h 30. Cadence actuelle : 4 Reels par semaine (lundi, mercredi, vendredi,
+dimanche), plus **deux posts image** : le **mardi un carrousel** de cinq images 4:5 (la carte de l'app, ce que la
+fiche développe, son quiz, la réponse, la fin de marque) et le **jeudi un post « concept »** (une image qui présente
+le produit, avec les textes du site repris mot pour mot). Le samedi est libre. Voir `docs/decisions.md`, 2026-09-29.
 
 Cinq formats : la carte animée (40 %), l'idée reçue confrontée à sa source (25 %), le verrou,
 c'est-à-dire le manifeste anti-scroll (15 %), le quiz (10 %), et les coulisses et le rituel (10 %).

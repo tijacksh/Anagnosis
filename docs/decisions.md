@@ -1467,3 +1467,19 @@ tout le texte tient entre y = 230 et y = 1400 pour échapper aux onglets et à l
 plateformes. Comment c'est construit et comment brancher une plateforme de plus :
 `docs/passation-reseaux.md`.
 
+---
+
+## 2026-09-29 — Les jours sans vidéo : un carrousel, un post « concept », et la liste d'attente
+
+**Décidé :** les mardis et jeudis, un post image plutôt qu'un vide : **le mardi**, un carrousel de cinq
+images sur une fiche (l'idée, ce que la fiche développe, le quiz, la réponse, la fin) ; **le jeudi**, un
+post « concept » qui présente le produit avec **les textes du site, mot pour mot**. Le samedi reste libre,
+à revoir selon les résultats : sept posts par semaine sur un compte encore neuf est un risque inutile.
+
+**Règle :** trois posts qui apprennent quelque chose pour un post qui présente le produit. Ce qui se
+promet ne se promet qu'en général (« une fiche par jour »), jamais *cette* fiche.
+
+**Avant le lancement, la seule conversion mesurable est la liste d'attente du site.** Les liens de profil
+portent `?s=ig`, `?s=tt` ou `?s=x`, le site joint le nom du réseau à l'inscription, sans cookie ni
+stockage, et les mentions légales le disent. `reseaux/inscriptions.js` compte par réseau.
+

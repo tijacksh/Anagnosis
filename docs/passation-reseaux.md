@@ -31,6 +31,11 @@ tout texte à l'écran ou en légende est lu tel quel dans une fiche validée.
 |---|---|
 | `reseaux/preparer.py` | choisit les fiches, fait tourner les cartes, monte, contrôle, écrit le registre |
 | `reseaux/composer.py` | monte un Reel (Pillow + ffmpeg) et écrit les légendes par plateforme |
+| `reseaux/carrousel.py` | fabrique le carrousel d'une fiche : cinq images 4:5 (carte de l'app, intertitres, quiz, réponse, fin) |
+| `reseaux/concept.py`, `reseaux/marque.json` | fabrique un post « concept » : une image ; les textes viennent du site, mot pour mot |
+| `reseaux/posts.py` | les types de post (`reel`, `carrousel`, `concept`) : leurs médias, leurs légendes, leurs plateformes |
+| `reseaux/essai_deposer.py` | essai du dépôt quotidien avec de faux appels ; lancé chaque jour par `verifier.py` |
+| `reseaux/inscriptions.js` | compte les inscriptions à la liste d'attente par réseau (`?s=ig`, `tt`, `x`), via l'API de Netlify |
 | `reseaux/plans.py` | découpe les plans d'app filmés au simulateur (rushes, hors git) |
 | `reseaux/compte-demo.py` | écrit dans le simulateur de tournage un lecteur de six semaines |
 | `reseaux/deposer.py` | dépose le Reel du jour sur chaque plateforme, ouvre une issue en cas d'échec |
@@ -82,6 +87,18 @@ Un `git grep` de l'historique avant chaque poussée ne coûte rien.
   texte tient entre y = 230 et y = 1400 (format `reel` de la carte).
 - **Ne pas commiter `__pycache__`** (`reseaux/.gitignore`), et **un fichier de préférences du
   simulateur se réécrit par-dessus** si on ne l'arrête pas d'abord (`compte-demo.py`).
+
+## 4 bis. Les types de post
+
+Un post du registre a un `type` (absent = `reel`). **`reel`** : vidéo, TikTok en brouillon et Instagram.
+**`carrousel`** (mardi) et **`concept`** (jeudi) : images, Instagram seulement (TikTok n'a pas la portée
+photo). Les médias vont dans la release de la semaine avec le nom `<jour>-<slug>-<fichier>` ; pour X, un
+carrousel tient en quatre images (les quatre premières). `deposer.py` choisit la commande d'`instagram.js`
+selon le type (`reel`, `carrousel`, `image`).
+
+**Suivi des inscriptions :** les liens de profil portent `?s=ig`, `?s=tt` ou `?s=x` ; le site joint ce nom à
+l'inscription (champ `source`, sans cookie ni stockage) et `node reseaux/inscriptions.js` les compte
+(jeton `NETLIFY_TOKEN` dans `~/.anagnosis/cles.env`).
 
 ## 5. Les contenus publiés, pour republier exactement pareil
 
