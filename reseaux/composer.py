@@ -3,8 +3,8 @@
 
     composer.py <fiche.json> <carte.mp4> <dossier de sortie> [plan.mp4]
 
-Produit `reel.mp4` (≈ 13 s, H.264 + AAC, moov en tête), `legende-tiktok.txt` et
-`legende-instagram.txt`. Aucun texte n'est écrit ici : tout ce qui est à l'écran vient de
+Produit `reel.mp4` (≈ 13 s, H.264 + AAC, moov en tête), `legende-tiktok.txt`,
+`legende-instagram.txt` et `legende-x.txt`. Aucun texte n'est écrit ici : tout ce qui est à l'écran vient de
 la carte rendue par l'app ou de la marque, et les légendes reprennent la fiche mot pour mot.
 
 Déroulé : la carte s'imprime (5 s, rendu de l'app), reste posée le temps de lire l'idée,
@@ -20,6 +20,8 @@ import sys
 from pathlib import Path
 
 from PIL import Image, ImageChops, ImageDraw, ImageFont
+
+from legendes import legende_x
 
 L, H = 1080, 1920
 PAPIER = (0xF4, 0xEF, 0xE1)
@@ -215,6 +217,7 @@ def legendes(fiche, dossier):
     (dossier / 'legende-instagram.txt').write_text(f'{corps}\n\n{communs} #anagnosis\n')
     for f in ('legende-tiktok.txt', 'legende-instagram.txt'):
         assert len((dossier / f).read_text()) <= 2200
+    (dossier / 'legende-x.txt').write_text(legende_x(fiche))
 
 
 def main(fiche_json, carte_mp4, sortie, plan=None):

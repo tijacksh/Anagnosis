@@ -1,4 +1,4 @@
-# Passation — la chaîne de publication sur les réseaux (TikTok, Instagram)
+# Passation — la chaîne de publication sur les réseaux (TikTok, Instagram, X)
 
 > Écrit le 2026-09-29 pour Vincent et son Claude, qui veulent y **brancher X (Twitter)**.
 > `docs/reseaux.md` dit *ce qu'on a décidé et pourquoi* ; ce document dit *comment c'est
@@ -15,7 +15,7 @@ preparer.py (dimanche)                            deposer.py (chaque matin)
 1. choisit 4 fiches validées       ┌────────────►  TikTok    : brouillon dans l'inbox
 2. l'app iOS rend la carte         │                          (un humain publie ensuite)
    (TournageTests, simulateur)     │              Instagram : publié en public, tout seul
-3. composer.py monte le Reel ──────┤              (X        : à brancher)
+3. composer.py monte le Reel ──────┤              X         : publié en public avec sa vidéo, dès qu'un jeton est installé
    carte + plan d'app + fin        │
 4. contrôle bloquant (ffprobe)     └─ registre.json : ce qui est prévu, ce qui est parti
 5. inscrit le programme au registre       + lien du post, commité sur main
@@ -36,6 +36,8 @@ tout texte à l'écran ou en légende est lu tel quel dans une fiche validée.
 | `reseaux/deposer.py` | dépose le Reel du jour sur chaque plateforme, ouvre une issue en cas d'échec |
 | `reseaux/tiktok.js` | OAuth (PKCE), jetons, dépôt en brouillon, publication directe |
 | `reseaux/instagram.js` | jeton de 60 jours, Reels, carrousels, par URL présignée R2 |
+| `reseaux/x.js` | OAuth 2.0 PKCE, jetons, envoi de la vidéo par morceaux, publication (`autoriser`, `compte`, `publier`) |
+| `reseaux/legendes.py` | légende X (280 caractères, lien compté 23), partagée par `composer.py` et `deposer.py` |
 | `reseaux/registre.json` | le programme et l'état de chaque post (`tiktok`, `instagram`, liens) |
 | `reseaux/installer.sh` + `*.plist` | les deux tâches launchd |
 | `reseaux/PAUSE` (absent) | s'il existe, `deposer.py` ne fait plus rien |
@@ -101,45 +103,40 @@ Le registre (`registre.json`) garde aussi `archive: {release, fichier}` pour cha
 **Une légende pour X s'écrit à partir de `post.json` (`carte.punch`, `carte.source_courte`) et de
 la fiche, jamais d'un texte libre** : c'est ce qui garantit « la même chose partout ».
 
-## 6. Brancher X (Twitter) : le plan
+## 6. X (Twitter) : branché, à activer
 
-**Où ça tourne.** Le Reel est produit sur le Mac mini (Xcode, simulateur, R2). La voie la plus
-simple est donc que **le Claude de Vincent écrive le module**, que **la tâche du Mac mini
-l'exécute**, et que les clés de X soient ajoutées à `~/.anagnosis/cles.env` par le propriétaire
-du compte. Vincent peut tout développer et tester avec ses propres clés, sur son poste, en
-donnant à son module un fichier `.mp4` de test : aucune dépendance au simulateur.
+**Ce qui est écrit** (testé contre un faux serveur X, `test/x.test.js`, jamais contre le vrai) :
+`reseaux/x.js` respecte le contrat des autres plateformes (`Publié : <url>` sur stdout, sinon code ≠ 0
+et la raison sur stderr) ; `composer.py` écrit `legende-x.txt` (accroche, source, `anagnosis.fr`, tirés
+de la fiche, 252 caractères au pire sur les 503 fiches valides) ; `deposer.py` publie sur X **de façon
+indépendante** de TikTok (l'échec de l'un n'arrête pas l'autre et ouvre une issue) ; `preparer.py`
+crée le post avec `"x": null`. Un Reel préparé avant cette évolution n'a pas de `legende-x.txt` :
+`deposer.py` l'écrit alors à la volée.
 
-**Le contrat d'un module de plateforme** (comme `tiktok.js` et `instagram.js`) :
+**Sans jeton X, rien ne change** : `deposer.py` n'essaie X que si `~/.anagnosis/reseaux-jetons.json`
+contient une entrée `x`.
 
-```
-node reseaux/x.js jeton <...>                 # installe le jeton (si OAuth)
-node reseaux/x.js compte                      # affiche le compte connecté
-node reseaux/x.js publier <mp4> <legende.txt> # publie ; sur stdout : « Publié : <url> »
-```
+**Pour l'activer (le propriétaire du compte @anagnosis_app, sur le Mac mini)** :
+1. Sur console.x.com, créer une app dans un projet, avec le compte développeur de la marque. Permissions
+   « lecture et écriture ». URL de rappel exacte : `http://127.0.0.1:8766/callback`. Acheter des crédits
+   et fixer une limite de dépense.
+2. Ajouter `X_CLIENT_ID` (et `X_CLIENT_SECRET` si l'app est un client confidentiel) à
+   `~/.anagnosis/cles.env`.
+3. `node reseaux/x.js autoriser` (connecté à @anagnosis_app dans le navigateur), puis `node reseaux/x.js compte`.
+4. Premier essai sur le vrai compte : `node reseaux/x.js publier <un reel.mp4> <legende-x.txt>`, puis
+   vérifier le post. C'est le seul point que les tests ne couvrent pas.
 
-Sorties : code 0 et une ligne `Publié : <url>`, ou code ≠ 0 et la raison sur stderr.
-
-**Les trois endroits à toucher :**
-1. `reseaux/composer.py`, `legendes()` : écrire `legende-x.txt` (280 caractères, lien compris),
-   et l'ajouter à la liste de fichiers copiés par `archiver()` de `deposer.py`. Même règle
-   qu'ailleurs : accroche, source et anagnosis.fr repris de la fiche, rien d'inventé.
-2. `reseaux/deposer.py` : une fonction `x(reel, legende)` sur le modèle de `instagram()`, et son
-   bloc `try/except` dans la boucle (chaque plateforme est indépendante : l'échec de l'une ne
-   retient pas les autres, et ouvre une issue).
-3. `reseaux/registre.json` : ajouter la clé `"x": null` aux posts créés par `preparer.py`
-   (`reg['posts'].append({... 'tiktok': None, 'instagram': None})`), et l'ajouter au test
-   `not (p['tiktok'] and p['instagram'])` de `deposer.py`.
-
-**Ce qu'il faut vérifier auprès de X avant d'écrire une ligne** (je n'ai rien vérifié pour X,
-les règles et les tarifs de leur API ont changé plusieurs fois) :
-- l'accès à l'API et son coût pour publier un tweet avec vidéo, la limite d'envois par jour ;
-- l'authentification OAuth 2.0 avec PKCE et les portées d'écriture de tweets et de médias ;
-- l'envoi de médias en plusieurs morceaux (une vidéo de 15 s à 1080 × 1920 tient dans les limites) ;
-- l'obligation éventuelle de **déclarer le compte comme automatisé**, et la règle contre le
-  spam ou le contenu répétitif.
-
-Comme pour TikTok, **le compte doit être celui de la marque**, avec un rôle sur l'app
-développeur, et la publication ne se fait que sur ce compte.
+**À savoir** :
+- **Coût** : paiement à l'usage, sans niveau gratuit (docs.x.com, à confirmer dans la console) :
+  environ 0,015 $ par post, mais 0,20 $ pour un post qui contient un lien. `anagnosis.fr` dans la
+  légende fait donc environ 70 $ par an à un post par jour. Le retirer de `legende_x()` ramène cela à
+  quelques dollars ; c'est un choix éditorial à faire.
+- **Jetons** : le jeton d'accès vit 2 heures et le jeton de rafraîchissement change à chaque usage.
+  Ne pas copier `reseaux-jetons.json` d'une machine à l'autre.
+- **Règles de X** : le contenu dupliqué est interdit, la légende est donc propre à chaque fiche ; la
+  documentation consultée ne demande pas d'étiquette « automatisé », à recontrôler en s'inscrivant.
+- **Reprendre un jour** : `python3 reseaux/deposer.py --jour AAAA-MM-JJ` publie sur X un post déjà
+  déposé sur TikTok (les publications passées ne sont pas reprises toutes seules).
 
 ## 7. Exploitation
 

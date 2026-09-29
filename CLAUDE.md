@@ -53,10 +53,10 @@ npm test           # tests
 ## Réseaux sociaux (`reseaux/`) — hors routines
 
 Décidé le 2026-09-28 : une chaîne qui prépare des Reels et des carrousels à partir des
-cartes validées, les dépose en brouillon sur TikTok et les publie sur Instagram, par nos
+cartes validées, les dépose en brouillon sur TikTok, les publie sur Instagram et sur X, par nos
 propres apps développeur, sans service tiers. Le pourquoi est dans `docs/reseaux.md`, le comment
 (fichiers, pièges, brancher une plateforme de plus) dans `docs/passation-reseaux.md`. **Seule exception
-à « zéro API externe »** : `reseaux/` appelle les API TikTok et Instagram, tourne uniquement sur
+à « zéro API externe »** : `reseaux/` appelle les API TikTok, Instagram et X, tourne uniquement sur
 le Mac mini, et n'est jamais importé par `src/`.
 
 Les routines de contenu ne modifient ni `reseaux/` ni `reseaux/registre.json`. Si `controler`

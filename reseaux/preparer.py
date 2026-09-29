@@ -168,7 +168,7 @@ def main():
         jours.pop(0)
         reg['posts'].append({'jour': jour.isoformat(), 'slug': d['slug'], 'discipline': d['discipline'],
                              'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
-                             'tiktok': None, 'instagram': None})
+                             'tiktok': None, 'instagram': None, 'x': None})
         print(f"{jour.isoformat()}  {d['discipline']:<22} {d['carte']['punch']}")
     reg['posts'].sort(key=lambda p: p['jour'])
     REGISTRE.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + '\n')
