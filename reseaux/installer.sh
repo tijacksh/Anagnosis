@@ -1,7 +1,7 @@
 #!/bin/sh
-# Installe les deux tâches launchd de la chaîne réseaux (docs/reseaux.md §4) :
-# preparer.py le dimanche à 20 h, deposer.py chaque jour à 7 h 30, verifier.py chaque jour à 9 h Un Mac endormi à
-# l'heure dite les lance à son réveil.
+# Installe les trois tâches launchd de la chaîne réseaux (docs/reseaux.md §4) :
+# preparer.py le dimanche à 20 h, deposer.py chaque jour à 7 h 30, verifier.py chaque jour à
+# 9 h et le dimanche à 21 h 30. Un Mac endormi à l'heure dite les lance à son réveil.
 set -eu
 DEPOT=$(cd "$(dirname "$0")/.." && pwd)
 MEDIAS=${ANAGNOSIS_MEDIAS:-$HOME/Anagnosis-medias}
