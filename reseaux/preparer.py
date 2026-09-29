@@ -63,7 +63,7 @@ def famille(discipline):
 def choisir(nombre, graine):
     reg = registre()
     deja = {p['slug'] for p in reg['posts']}
-    recentes = [famille(p['discipline']) for p in reg['posts'][-8:]]
+    recentes = [famille(p['discipline']) for p in reg['posts'][-8:] if p.get('discipline')]
     rng = random.Random(graine)
     candidates = eligibles(deja)
     rng.shuffle(candidates)
@@ -76,6 +76,19 @@ def choisir(nombre, graine):
         if len(choix) == nombre + RESERVE:
             break
     return choix
+
+
+def choisir_carrousels(nombre, exclus, graine):
+    """Fiches pour les carrousels : comme les Reels, mais avec un quiz, et jamais une fiche déjà prise."""
+    reg = registre()
+    deja = {p['slug'] for p in reg['posts']} | set(exclus)
+    rng = random.Random(f'carrousel-{graine}')
+    candidates = [(f, d) for f, d in eligibles(deja) if d.get('quiz', {}).get('choix')]
+    rng.shuffle(candidates)
+    return candidates[:nombre + 1]
+
+
+JOURS_IMAGES = {1: 'carrousel', 3: 'concept'}     # mardi : carrousel ; jeudi : post « concept »
 
 
 def identifiants_app(slugs):
@@ -136,21 +149,44 @@ def main():
         else dt.date.fromisocalendar(*map(int, args.semaine.split('-')), 1)
     semaine = f'{lundi.isocalendar().year}-{lundi.isocalendar().week:02d}'
 
+    reg = registre()
+    deja_prevus = {p['jour'] for p in reg['posts']}
+
+    def libres(jours):
+        if args.depuis:
+            jours = [j for j in jours if j >= dt.date.fromisoformat(args.depuis)]
+        return [j for j in jours if j.isoformat() not in deja_prevus]
+
+    jours = libres([lundi + dt.timedelta(days=j) for j in JOURS][:args.nombre])
+    jours_images = {j: JOURS_IMAGES[j.weekday()] for j in libres(
+        [lundi + dt.timedelta(days=d) for d in JOURS_IMAGES])}
+    a_tourner = len(jours) or list(jours_images.values()).count('carrousel')
+    if not jours and not jours_images:
+        print('rien à programmer : la semaine est déjà pleine')
+        return
+
     # Le corpus de l'app suit le contenu validé du jour : l'export du dépôt, recopié.
     subprocess.run(['npm', 'run', '-s', 'export'], cwd=DEPOT, check=True, capture_output=True)
     subprocess.run([str(APP / 'outils/importer-contenu.sh'), str(DEPOT)], check=True, capture_output=True)
 
-    choix = choisir(args.nombre, graine=semaine)
-    ids = identifiants_app({d['slug'] for _, d in choix})
+    choix = choisir(len(jours), graine=semaine) if jours else []
+    nb_carrousels = list(jours_images.values()).count('carrousel')
+    choix_car = choisir_carrousels(nb_carrousels, [d['slug'] for _, d in choix], semaine) if nb_carrousels else []
+    ids = identifiants_app({d['slug'] for _, d in choix + choix_car})
     choix = [(f, d) for f, d in choix if d['slug'] in ids]
-    dossier_cartes = tourner([ids[d['slug']] for _, d in choix])
+    choix_car = [(f, d) for f, d in choix_car if d['slug'] in ids]
+    dossier_cartes = tourner([ids[d['slug']] for _, d in choix + choix_car]) if (choix or choix_car) else MEDIAS / 'cartes'
 
-    reg = registre()
-    jours = [lundi + dt.timedelta(days=j) for j in JOURS][:args.nombre]
-    if args.depuis:
-        jours = [j for j in jours if j >= dt.date.fromisoformat(args.depuis)]
-    deja_prevus = {p['jour'] for p in reg['posts']}
-    jours = [j for j in jours if j.isoformat() not in deja_prevus]
+    def inscrire(post, sortie, libelle):
+        # Archivé dès la programmation, pour que les autres plateformes (X…) voient la semaine
+        # à l'avance : légendes dans git, médias dans la release de la semaine.
+        try:
+            post['archive'] = archiver(post, sortie)
+        except Exception as e:
+            print(f"archivage refusé : {post['slug']} : {e}", file=sys.stderr)
+        reg['posts'].append(post)
+        print(f"{post['jour']}  {libelle}")
+
     for f, d in choix:
         if not jours:
             break
@@ -169,23 +205,40 @@ def main():
             print(f"écartée au contrôle : {d['slug']} : {', '.join(erreurs)}", file=sys.stderr)
             continue
         jours.pop(0)
-        post = {'jour': jour.isoformat(), 'slug': d['slug'], 'discipline': d['discipline'],
-                'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
-                'tiktok': None, 'instagram': None}
-        # Archivé dès la programmation, pour que les autres plateformes (X…) voient la semaine
-        # à l'avance : légendes dans git, vidéo dans la release de la semaine.
+        inscrire({'jour': jour.isoformat(), 'slug': d['slug'], 'discipline': d['discipline'],
+                  'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
+                  'tiktok': None, 'instagram': None}, sortie, f"{d['discipline']:<22} {d['carte']['punch']}")
+
+    # Les jours sans vidéo : un carrousel le mardi, un post « concept » le jeudi.
+    marque = json.loads((ICI / 'marque.json').read_text())['concepts']
+    deja_concepts = sum(1 for p in reg['posts'] if p.get('type') == 'concept')
+    for jour, genre in sorted(jours_images.items()):
         try:
-            post['archive'] = archiver(post, sortie)
-        except Exception as e:
-            print(f"archivage refusé : {d['slug']} : {e}", file=sys.stderr)
-        reg['posts'].append(post)
-        print(f"{jour.isoformat()}  {d['discipline']:<22} {d['carte']['punch']}")
+            if genre == 'carrousel':
+                f, d = choix_car.pop(0)
+                sortie = MEDIAS / f'semaine-{semaine}' / f"{jour.isoformat()}-{d['slug']}"
+                subprocess.run([sys.executable, str(ICI / 'carrousel.py'), str(f), str(dossier_cartes / f"{ids[d['slug']]}.mp4"),
+                                str(sortie)], check=True, capture_output=True)
+                inscrire({'jour': jour.isoformat(), 'type': 'carrousel', 'slug': d['slug'], 'discipline': d['discipline'],
+                          'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
+                          'tiktok': None, 'instagram': None}, sortie, f"carrousel : {d['carte']['punch']}")
+            else:
+                c = marque[deja_concepts % len(marque)]
+                deja_concepts += 1
+                sortie = MEDIAS / f'semaine-{semaine}' / f"{jour.isoformat()}-concept-{c['slug']}"
+                subprocess.run([sys.executable, str(ICI / 'concept.py'), c['slug'], str(sortie)], check=True, capture_output=True)
+                inscrire({'jour': jour.isoformat(), 'type': 'concept', 'slug': f"concept-{c['slug']}", 'discipline': None,
+                          'fichier': None, 'titre': c['titre'], 'dossier': str(sortie.relative_to(MEDIAS)),
+                          'tiktok': None, 'instagram': None}, sortie, f"concept : {c['titre']}")
+        except (subprocess.CalledProcessError, IndexError) as e:
+            print(f"{jour} ({genre}) non programmé : {getattr(e, 'stderr', e)}", file=sys.stderr)
+
     reg['posts'].sort(key=lambda p: p['jour'])
     REGISTRE.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + '\n')
     # Chemins relatifs à ~/Anagnosis-medias : jamais de chemin propre à une machine dans le dépôt.
     for commande in (['git', 'add', str(REGISTRE), *([str(ICI / 'publie')] if (ICI / 'publie').exists() else [])],
                      ['git', 'commit', '-q', '-m', f'Réseaux : programme de la semaine {semaine}\n\n'
-                      'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>'],
+                      'Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>'],
                      ['git', 'pull', '-q', '--rebase', 'origin', 'main'],
                      ['git', 'push', '-q', 'origin', 'HEAD:main']):
         subprocess.run(commande, cwd=DEPOT, check=True, capture_output=True)
