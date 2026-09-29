@@ -83,8 +83,9 @@ Un `git grep` de l'historique avant chaque poussée ne coûte rien.
 
 ## 5. Les contenus publiés, pour republier exactement pareil
 
-Ce qui est parti sur une plateforme est **archivé automatiquement** par `deposer.py`, pour que les
-autres (X, d'autres plus tard) publient le même contenu :
+Chaque post est **archivé dès sa programmation** (`preparer.py`, le dimanche soir) puis relié à
+ses liens à sa publication (`deposer.py`), pour que les autres plateformes (X, d'autres plus tard)
+voient la semaine à l'avance et publient le même contenu :
 
 - **dans git**, `reseaux/publie/<jour>-<fiche>/` : `post.json` (titre, carte, lien du post
   Instagram, empreinte SHA-256 de la vidéo), `legende-tiktok.txt`, `legende-instagram.txt` ;
@@ -142,6 +143,12 @@ Comme pour TikTok, **le compte doit être celui de la marque**, avec un rôle su
 développeur, et la publication ne se fait que sur ce compte.
 
 ## 7. Exploitation
+
+**Trois tâches launchd** (`reseaux/installer.sh`) : `preparer` le dimanche à 20 h, `deposer` chaque
+jour à 7 h 30, `verifier` chaque jour à 9 h et le dimanche à 21 h 30. `verifier.py` contrôle les
+tâches, le registre poussé, les jetons, les posts passés, les cinq prochains jours (vidéo, légendes,
+archive) et l'avance de programme ; il **relance `deposer.py`** si le post du jour manque, et ouvre
+une issue « Réseaux : vérification » en cas de problème. `verifier.py --essai` affiche sans rien faire.
 
 - **Suspendre** : créer `reseaux/PAUSE`, ou `launchctl bootout gui/$(id -u)/fr.anagnosis.reseaux.deposer`.
 - **Journaux** : `~/Anagnosis-medias/logs/`. Tout échec ouvre une issue GitHub qui mentionne les
