@@ -135,6 +135,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire | Le pèlerinage de Mansa Musa au Caire (1324) et la chute du cours de l'or, documentée par Al-Umari | fait | routine-production | 2026-09-29 |
 | Histoire | Le Grand Incendie de Londres (1666) et son bilan officiel de six morts, contesté par les historiens | fait | routine-production | 2026-09-29 |
 | Histoire | L'incident de Kyūjō (14-15 août 1945) : le coup d'État qui a cherché en vain le disque de la reddition du Japon | fait | routine-production | 2026-09-29 |
+| Histoire | Néron et le mythe du violon pendant l'incendie de Rome (64) — instrument apparu treize siècles plus tard | fait | routine-production | 2026-09-30 |
+| Histoire | Claudette Colvin (2 mars 1955), écartée du boycott de Montgomery mais plaignante de Browder v. Gayle | fait | routine-production | 2026-09-30 |
+| Histoire | L'armée en terre cuite de Xi'an (découverte le 29 mars 1974), fabrication standardisée et peinture perdue en minutes | fait | routine-production | 2026-09-30 |
+| Histoire | La défenestration de Prague (23 mai 1618) et son basculement vers la guerre de Trente Ans | fait | routine-production | 2026-09-30 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
