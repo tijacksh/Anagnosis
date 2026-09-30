@@ -70,10 +70,21 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-09-30",
+    "verdict": "a_revoir",
+    "empreinte": "27bf60ee204689a8",
+    "notes": [
+      "Sources rouvertes (Tacite Annales XV.39, Suétone Néron 38, Wikipedia Violin) : citation de Tacite fidèle mot pour mot au texte anglais Church & Brodribb et bien présentée comme rumeur ('a rumour had gone forth everywhere'), localisation à Antium et retour au Palatin confirmés, affirmation sans réserve de Suétone (tour de Mécène, 'beauty of the flames', Sack of Ilium en costume, aucun instrument à archet) confirmée, apparition du violon moderne en Italie du Nord début XVIe siècle confirmée par Wikipedia. Problème à corriger : incohérence numérique interne — l'accroche et le quiz (choix 0 / bonne réponse) disent 'treize siècles' (1300 ans) alors que le corps et la carte disent 'quinze cents ans' (1500 ans) ; le calcul réel (an 64 -> ~1500-1530) donne environ 14,4 à 14,7 siècles, ce qui contredit 'treize siècles' et rejoint plutôt les 'quinze cents ans' déjà écrits ailleurs. À corriger dans l'accroche et dans quiz.choix[0] (et vérifier explication/carte en cohérence) avant republication."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-09-30",
