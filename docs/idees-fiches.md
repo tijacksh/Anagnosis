@@ -139,6 +139,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire | Claudette Colvin (2 mars 1955), écartée du boycott de Montgomery mais plaignante de Browder v. Gayle | fait | routine-production | 2026-09-30 |
 | Histoire | L'armée en terre cuite de Xi'an (découverte le 29 mars 1974), fabrication standardisée et peinture perdue en minutes | fait | routine-production | 2026-09-30 |
 | Histoire | La défenestration de Prague (23 mai 1618) et son basculement vers la guerre de Trente Ans | fait | routine-production | 2026-09-30 |
+| Histoire | Le prix de la longitude (1714) et John Harrison, payé en 1773 sans jamais l'avoir officiellement remporté | fait | routine-production | 2026-10-01 |
+| Histoire | Henry Dunant, fondateur de la Croix-Rouge (1863) ruiné en 1867, redécouvert par hasard à Heiden en 1895 | fait | routine-production | 2026-10-01 |
+| Histoire | La révolte Nika (532) à Constantinople et la reconstruction de Sainte-Sophie en moins de six ans | fait | routine-production | 2026-10-01 |
+| Histoire | Thermopyles (480 av. J.-C.) : la vraie coalition grecque derrière le chiffre de « trois cents » | fait | routine-production | 2026-10-01 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
