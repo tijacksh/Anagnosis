@@ -94,7 +94,7 @@
         "Elle est restée inchangée et continue de s'appliquer telle quelle aujourd'hui",
         "Elle a été invalidée par une décision de justice dès 1910 pour inconstitutionnalité",
         "Elle a été étendue en 1920 pour couvrir aussi les accidents domestiques",
-        "Elle a été abrogée en 1945, puis remplacée par l'intégration des accidents du travail dans la sécurité sociale en 1946"
+        "Elle a été abrogée en 1945, les accidents du travail rejoignant la sécurité sociale en 1946"
       ],
       "bonne_reponse": 3,
       "explication": "La loi de 1898 a été abrogée par une ordonnance d'octobre 1945, et la loi du 30 octobre 1946 a intégré les accidents du travail dans la sécurité sociale."
@@ -117,11 +117,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-19",
+    "fait_le": "2026-10-01",
     "verdict": "corrige",
-    "empreinte": "1ce1f77ce1252d48",
+    "empreinte": "bd2d3923c4c2d2d9",
     "notes": [
-      "Sources rouvertes : Legifrance (403 aux robots, accessible et confirmée au navigateur, version initiale), Wikipédia (barèmes du repère confirmés mot pour mot : 70% -> 55% du salaire, veuve/orphelins -> 30%, abrogation ordonnance du 19 octobre 1945, intégration loi du 30 octobre 1946), Les clés du social. Corrigé : l'année de la source Les clés du social était 2018, alors que la page indique elle-même une publication du 17 avril 2009 (confirmée dans le corps de la page et les métadonnées DC.Date) ; et sa note promettait un « contexte parlementaire » absent du texte, remplacée par ce que la page couvre réellement (responsabilité sans faute, contraste avec le code civil antérieur). Recontrôle déclenché par le renommage de discipline droit -> droit_social, sans lien avec le fond : confirmé par comparaison avec le contrôle du 16/08, aucun autre champ n'avait bougé."
+      "Contrôle de fond indépendant, sources rouvertes. Legifrance (JORFTEXT000000692875) : accessible, titre et mention VERSION INITIALE confirmés. Wikipédia : barèmes du repère confirmés mot pour mot (incapacité permanente 70% -> pension de 55% du salaire, veuve et orphelins -> 30%), abrogation par l'ordonnance du 19 octobre 1945 confirmée, intégration par la loi du 30 octobre 1946 dans la sécurité sociale confirmée. Les clés du social : fetch direct bloqué par le proxy d'égress de cet environnement (pas un signe de lien mort), mais l'URL et son contenu (responsabilité sans faute, contraste avec la preuve de faute du code civil antérieur) sont recoupés par une recherche web — cohérent avec la vérification directe déjà faite au contrôle du 2026-08-19 (date 2009 via DC.Date). Corpus, carte et citation/repère conformes aux sources. Corrigé : quiz_supplementaire #3 (\"Qu'est devenue la loi de 1898\") avait une bonne réponse 1,54x plus longue que son meilleur distracteur, au-dessus du seuil de 1,4x (piège documenté dans CLAUDE.md, seul le quiz principal est couvert par le test actuel) ; reformulée de façon équivalente et plus concise, sans rien changer au fond. npm run validate et npm test : 0 erreur, 0 alerte, 64/64 tests verts."
     ]
   },
   "controle_juridique": {

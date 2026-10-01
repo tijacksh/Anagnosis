@@ -27,8 +27,8 @@
       "auteur": "The National Archives (legislation.gov.uk)",
       "titre": "Act of Settlement 1701 (12 & 13 Will. 3 c. 2)",
       "annee": 1701,
-      "url": "https://www.legislation.gov.uk/aep/Will3/12-13/2",
-      "note": "Texte officiel de l'Act, tel que conservé par les Archives nationales britanniques."
+      "url": "https://www.legislation.gov.uk/aep/Will3/12-13/2/enacted",
+      "note": "Texte officiel de l'Act tel qu'adopté (version « as enacted »), conservé par les Archives nationales britanniques — contient la clause sur les juges, absente de la version « revised » par défaut car cette clause a depuis été abrogée et reprise ailleurs."
     },
     {
       "type": "web",
@@ -107,7 +107,7 @@
       "explication": "Le texte ajoute deux garanties aux commissions quamdiu se bene gesserint : des salaires votés par le Parlement, et une révocation possible seulement sur adresse conjointe des deux chambres, plus une décision du seul roi."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-relecture",
@@ -124,11 +124,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-21",
-    "verdict": "corrige",
-    "empreinte": "67723cc7cfa358f2",
+    "fait_le": "2026-10-01",
+    "verdict": "a_revoir",
+    "empreinte": "8c2b37369bd795be",
     "notes": [
-      "Sources rouvertes : legislation.gov.uk (confirme qu'il s'agit bien de l'Act of Settlement 1701, 12 & 13 Will. 3 c. 2) ; Wikisource (texte intégral, clause sur les juges confirmée mot pour mot — correction de ponctuation apportée sur la citation pour coller exactement à la transcription : suppression d'une virgule et d'un point-virgule ajoutés à tort, et 'lawfull' avec la graphie d'époque du texte source) ; Wikipedia EN (confirme que la clause ne devait entrer en vigueur qu'à la mort de Guillaume III [1702] et d'Anne [1714], et le précédent de Sir John Walter sous Charles Ier) ; recherche croisée confirmant la destitution de Walter en 1630 (Chief Baron de l'Échiquier depuis 1625, poussé à la démission à partir d'octobre 1629 pour son indépendance sur la loi de trahison, écarté en 1630) et la destitution de Coke le 14 novembre 1616 dans l'affaire des Commendams. Cornell LII CONAN confirme le lien avec la clause de bonne conduite de l'article III américain. Une correction : ponctuation de la citation alignée sur le texte source."
+      "Contrôle de fond indépendant complet. Sources rouvertes : legislation.gov.uk (version « revised » par défaut à l'URL .../aep/Will3/12-13/2 ne contient PAS la clause sur les juges — elle a été abrogée depuis et reprise ailleurs, donc absente de la version à jour ; la clause, mot pour mot identique à la citation de la fiche, n'apparaît que dans la version .../aep/Will3/12-13/2/enacted — corrigé : sources[0].url pointe désormais vers cette version enacted, vérifiée vivante par curl) ; Wikisource (citation confirmée mot pour mot) ; Wikipedia EN Act of Settlement (confirme l'entrée en vigueur différée à la mort de Guillaume III [1702] et Anne [1714], et confirme que Walter détenait un « patent » quamdiu se bene gesserit qui n'a pas empêché Charles Ier de le démettre) ; Cornell LII CONAN (confirme la filiation avec l'article III américain) ; Wikipedia EN Edward Coke (confirme la destitution le 14 novembre 1616 dans l'affaire Commendams) ; Wikipedia EN John Walter (confirme Chief Baron 1625, démis 1630, refus de suivre Charles Ier sur la loi de trahison). SIGNALEMENT : la phrase du corps « une formule que Jacques Ier avait commencé à employer par grâce royale sans y être obligé » n'est soutenue par aucune des trois sources citées — Wikipedia EN dit seulement que ce type de commission (patent) était utilisé avant 1701, sans l'attribuer à Jacques Ier. Des recherches complémentaires (Holdsworth, via recherche web) suggèrent au contraire que l'usage systématique de la commission quamdiu se bene gesserit remonte à la concession de Charles Ier en 1642, pas à une initiative volontaire de Jacques Ier — l'attribution à Jacques Ier semble erronée ou au moins non vérifiable en l'état. À vérifier/reformuler ou sourcer avant revalidation : soit retrouver une source fiable attribuant explicitement cette pratique à Jacques Ier, soit reformuler la phrase sans cette attribution datée. Carte et quiz (principal + 3 supplémentaires) vérifiés conformes aux sources par ailleurs. Fiche passée en en_retouche."
     ]
   },
   "controle_juridique": {

@@ -66,14 +66,21 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": null,
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-01",
+    "verdict": "a_revoir",
+    "empreinte": "bf72858c2a69ea3e",
+    "notes": [
+      "Le chiffre central de 1200 morts le dernier jour (titre, accroche, repère, carte, quiz) ne correspond à aucune source citée ni à l'arithmétique de la fiche elle-même : 300 Spartiates + 700 Thespiens + 400 Thébains = 1400, chiffre que donnent aussi bien Wikipedia que Britannica pour l'arrière-garde finale (les Thébains se rendant sans mourir). Aucune des deux sources ni le passage consulté de Wikisource ne mentionne '1200'. A revoir : soit retenir ~1400 (voire ~1000 si on exclut les Thébains qui se sont rendus), soit retrouver la source précise d'Hérodote VII.222-225 justifiant 1200, puis réécrire titre/accroche/repère/carte/quiz en conséquence. Point mineur annexe : le corps du texte donne une fourchette perse de 70000-300000 (Britannica) alors que la note de la source Wikipedia dans sources[] rapporte 120000-300000 (c'est bien ce que dit Wikipedia) — a harmoniser l'attribution si retouché."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-01",
