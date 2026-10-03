@@ -2,7 +2,7 @@
   "id": "hist-neron-mythe-violon-incendie-64",
   "slug": "neron-mythe-violon-incendie-64",
   "titre": "Néron et le mythe du violon pendant l'incendie de Rome (64)",
-  "accroche": "En 64, on raconte que Néron a joué du violon en observant Rome brûler — un instrument qui n'existera pas avant treize siècles.",
+  "accroche": "En 64, on raconte que Néron a joué du violon en observant Rome brûler — un instrument qui n'existera pas avant quinze siècles.",
   "discipline": "histoire",
   "theme": null,
   "theme_ordre": null,
@@ -60,22 +60,31 @@
   "quiz": {
     "question": "Pourquoi l'expression « Néron a joué du violon en regardant Rome brûler » est-elle historiquement impossible ?",
     "choix": [
-      "Parce que le violon n'existait pas encore : il naît treize siècles plus tard",
+      "Parce que le violon n'existait pas encore : il naît quinze siècles plus tard",
       "Parce que Néron ne savait pas jouer de musique",
       "Parce que Néron avait quitté Rome pour toujours avant l'incendie",
       "Parce que l'incendie de Rome est une invention tardive des historiens"
     ],
     "bonne_reponse": 0,
     "explication": "Néron pratiquait la cithare, pas le violon, instrument apparu en Italie du Nord au XVIe siècle ; l'incendie de 64 est bien réel et bien documenté, et Néron y survit huit années après.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-03T19:11:48.539Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-03T19:11:48.539Z",
+        "note": "Incohérence numérique corrigée : l'accroche et quiz.choix[0] disaient 'treize siècles', changés en 'quinze siècles' pour s'accorder avec le corps et la carte ('quinze cents ans') ; le calcul réel (an 64 -> violon ~1530) donne environ 14,6 siècles, ce qui rejoint quinze et contredit treize. Sources rouvertes et reconfirmées : Tacite Annales XV.39 (Antium, retour à Rome seulement à l'approche du feu sur sa maison, chant présenté comme rumeur 'a rumour had gone forth') ; Suétone Néron 38 (tour de Mécène, 'beauty of the flames', Sac d'Ilion en costume, aucun instrument à cordes frottées mentionné) ; Wikipedia EN Violin (forme moderne apparue début XVIe siècle, Italie du Nord, ~1530). Citation, carte et reste du corps conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-09-30",
