@@ -147,6 +147,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Religions et mythologies | La tablette du déluge (George Smith, 1872) et la place de la Genèse dans la tradition mésopotamienne | fait | routine-production | 2026-10-04 |
 | Religions et mythologies | Le concile de Nicée (325) : le vote sur la nature du Christ, et le chiffre symbolique de 318 évêques | fait | routine-production | 2026-10-04 |
 | Religions et mythologies | Le décepteur (Loki, le cycle winnebago étudié par Paul Radin en 1956) comme figure transculturelle | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | Göbekli Tepe (9500-9000 av. notre ère) : un temple bâti par des chasseurs-cueilleurs avant l'agriculture | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | Le mouvement John Frum (Tanna, Vanuatu, dès 1941) et la naissance observée d'une religion | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | Le linceul de Turin : le mémoire de l'évêque Pierre d'Arcis (1389) et la datation carbone 14 de 1988 | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | L'oracle de Delphes et l'hypothèse géologique des vapeurs (de Boer, Hale, Chanton, 2001) | fait | routine-production | 2026-10-04 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
