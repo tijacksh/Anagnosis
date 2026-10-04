@@ -64,14 +64,14 @@
     ],
     "bonne_reponse": 2,
     "explication": "Room 40 avait cassé le code allemand et lu le message sur un câble américain ; l'admettre aurait révélé les deux secrets à la fois, d'où la copie mexicaine obtenue par corruption pour maquiller l'origine — rien à voir avec un texte incomplet, un doute de Page ou un paiement refusé.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-29T10:12:53.307Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-04T07:18:10.462Z",
     "historique": [
       {
         "action": "retoucher",
@@ -80,6 +80,14 @@
         "par": "routine-relecture",
         "le": "2026-09-29T10:12:53.307Z",
         "note": "Sources rouvertes (NARA Prologue Magazine, Wikipedia EN Zimmermann Telegram, National WWI Museum theworldwar.org — confirmé par recherche, domaine bloqué en fetch direct par la sandbox réseau) : date d'envoi 16 janvier 1917, interception et déchiffrement par Room 40, rôle de l'amiral Hall, copie mexicaine obtenue par corruption, publication le 1er mars, citation de Zimmermann le 3 mars vérifiée mot pour mot, déclaration de guerre le 6 avril — tout confirmé. Erreur trouvée et corrigée dans le texte et la note de source : la fiche datait du 24 février la remise à Walter Hines Page, or Wikipédia précise que la remise formelle (code, texte allemand, traduction) a eu lieu le 23 février — le 24 février est la date à laquelle Page en a rendu compte à Wilson, pas celle de la remise. Date corrigée à 23 février. Le texte ayant été touché, l'empreinte a changé : la fiche doit repasser par un contrôle indépendant avant de pouvoir être validée."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-04T07:18:10.462Z",
+        "note": "Sources rouvertes indépendamment (troisième passage) : Wikipédia EN 'Zimmermann Telegram', NARA Prologue Magazine. Confirmés : envoi du télégramme (NARA date explicitement le 16 janvier 1917 ; Wikipédia mentionne aussi une émission le 17 janvier côté ministère allemand mais une transmission le 16 — la fiche suit la source NARA citée, cohérent), routes de transmission (Telefunken, câble suédois, câble commercial américain), déchiffrement par Nigel de Grey puis William Montgomery à Room 40, rôle de l'amiral Hall et copie mexicaine obtenue par corruption, remise à Walter Hines Page le 23 février 1917, publication le 1er mars, citation de Zimmermann du 3 mars vérifiée mot pour mot, déclaration de guerre le 6 avril. Aucune erreur trouvée. Rien à changer."
       }
     ]
   },
