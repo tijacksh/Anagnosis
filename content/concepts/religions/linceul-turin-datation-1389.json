@@ -63,8 +63,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-04",
+    "verdict": "ok",
+    "empreinte": "9e54d0aed4ba4132",
+    "notes": [
+      "Sources rouvertes : Nature 1989 (Damon et al.) via DOI (texte intégral paywallé, mais URL légitime menant au bon article du bon volume/pages, corroboré indépendamment par Wikipedia EN 'Shroud of Turin') et Wikipedia EN. Confirmés : première apparition à Lirey 1354-1357, mémoire de Pierre d'Arcis à Clément VII en 1389 avec citation exacte ('artificially painted in an ingenious way', confession de l'artiste), décision de Clément VII (exposition comme image seulement), renversement par Jules II en 1506, présence à Turin depuis 1578, datation 1988 par trois laboratoires indépendants (Oxford, Arizona, ETH Zurich) publiée 1989, résultat 1260-1390 à 95% de confiance. Citation authentique, bien attribuée et ouvrable. Carte et quiz conformes. Rien à corriger."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-04", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -62,8 +62,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-04",
+    "verdict": "ok",
+    "empreinte": "833e6658e22b220a",
+    "notes": [
+      "Sources rouvertes : Geology 2001 (de Boer, Hale, Chanton) via DOI/GeoscienceWorld (bloqué par le proxy, confirmé indépendamment via Wikipedia EN qui cite les valeurs exactes de l'étude) et Wikipedia EN 'Pythia'. Confirmés : fouilles françaises 1892-1903 sans fissure trouvée, rejet de l'hypothèse des vapeurs par Oppé en 1904, deux failles actives croisées sous le temple, éthylène 0,3 ppm, méthane 15,3 ppm, éthane 0,2 ppm dans la source Kerna, effets de l'éthylène à faible et forte dose, cas antique d'une Pythie morte après une transe violente (Plutarque), contestation de Daryn Lehoux (2007) jugeant l'éthylène 'impossible'. Carte, repère et quiz conformes. Rien à corriger."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-04", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-04",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
