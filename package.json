@@ -16,6 +16,8 @@
     "test": "node --test \"test/*.test.js\"",
     "site": "node src/build-site.js",
     "cible": "node src/cli.js cible",
+    "existe": "node src/cli.js existe",
+    "doublons": "node src/cli.js doublons",
     "acontroler": "node src/cli.js acontroler",
     "areparer": "node src/cli.js areparer",
     "arelire": "node src/cli.js arelire",

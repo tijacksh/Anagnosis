@@ -7,6 +7,8 @@
  *   npm run cible      quelle discipline alimenter maintenant, et combien
  *   npm run acontroler quelles fiches restent à relire au fond
  *   npm run aquestionner quelles fiches n'ont encore qu'une question
+ *   npm run existe     le sujet existe-t-il déjà ? (avant toute production)
+ *   npm run doublons   titres ou sources en double dans le corpus
  *   npm run stats      état de la base
  *   npm run export     export des fiches publiables vers export/
  */
@@ -22,6 +24,7 @@ import { file as fileRelire, afficher as afficherRelire, relecture } from './rel
 import { file as fileAudio, afficher as afficherAudio, sonoriser } from './audio.js';
 import { file as fileHeberger, afficher as afficherHeberger, televerserTout } from './heberger.js';
 import { file as fileDroit, afficher as afficherDroit, marquer as marquerDroit } from './droit.js';
+import { cmdExiste, cmdDoublons } from './existe.js';
 import { fichesPubliables, serialiser, retirees } from './publier.js';
 
 const C = {
@@ -158,6 +161,7 @@ const commandes = {
   adroit: cmdADroit, 'controle-droit': cmdControleDroit,
   aquestionner: cmdAQuestionner,
   heberger: cmdHeberger,
+  existe: () => cmdExiste(process.argv.slice(3)), doublons: cmdDoublons,
 };
 const commande = process.argv[2];
 
