@@ -151,6 +151,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Religions et mythologies | Le mouvement John Frum (Tanna, Vanuatu, dès 1941) et la naissance observée d'une religion | fait | routine-production | 2026-10-04 |
 | Religions et mythologies | Le linceul de Turin : le mémoire de l'évêque Pierre d'Arcis (1389) et la datation carbone 14 de 1988 | fait | routine-production | 2026-10-04 |
 | Religions et mythologies | L'oracle de Delphes et l'hypothèse géologique des vapeurs (de Boer, Hale, Chanton, 2001) | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | La Donation de Constantin : le faux démonté par Lorenzo Valla (1440) | en cours | routine-production-arnaud | 2026-10-04 |
+| Religions et mythologies | L'édit de Milan (313) : une lettre de Licinius, pas un édit de Constantin | en cours | routine-production-arnaud | 2026-10-04 |
+| Religions et mythologies | La bibliothèque de Nag Hammadi (1945) : des textes chrétiens que l'Église avait écartés | en cours | routine-production-arnaud | 2026-10-04 |
+| Religions et mythologies | Les manuscrits de la mer Morte (1947) : la bibliothèque de Qumrân et l'hypothèse essénienne contestée | en cours | routine-production-arnaud | 2026-10-04 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
