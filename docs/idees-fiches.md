@@ -143,6 +143,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire | Henry Dunant, fondateur de la Croix-Rouge (1863) ruiné en 1867, redécouvert par hasard à Heiden en 1895 | fait | routine-production | 2026-10-01 |
 | Histoire | La révolte Nika (532) à Constantinople et la reconstruction de Sainte-Sophie en moins de six ans | fait | routine-production | 2026-10-01 |
 | Histoire | Thermopyles (480 av. J.-C.) : la vraie coalition grecque derrière le chiffre de « trois cents » | fait | routine-production | 2026-10-01 |
+| Religions et mythologies | Les terreurs de l'an mille, un mythe forgé à partir d'une seule plume (Raoul Glaber, puis Michelet 1833) | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | La tablette du déluge (George Smith, 1872) et la place de la Genèse dans la tradition mésopotamienne | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | Le concile de Nicée (325) : le vote sur la nature du Christ, et le chiffre symbolique de 318 évêques | fait | routine-production | 2026-10-04 |
+| Religions et mythologies | Le décepteur (Loki, le cycle winnebago étudié par Paul Radin en 1956) comme figure transculturelle | fait | routine-production | 2026-10-04 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
