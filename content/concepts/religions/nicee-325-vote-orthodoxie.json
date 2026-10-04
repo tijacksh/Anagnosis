@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-04T10:10:29.652Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-04T10:10:29.652Z",
+        "note": "Sources rouvertes en ligne (second passage indépendant) : Wikisource confirme mot pour mot la clause anathématisante du Credo (ἤν ποτε ὅτε οὐκ ἦν) ; Wikipedia EN First Council of Nicaea confirme le chiffre 318 d'Athanase, les 200-220 signatures conservées, l'exil d'Arius/Théonas/Second et l'attribution par Eusèbe du terme homoousios à Constantin ; WebSearch complémentaire confirme indépendamment qu'Eusèbe rapporte environ/plus de 250 évêques, qu'Athanase est passé par 300 puis 318, et le rapprochement par Ambroise avec les 318 serviteurs d'Abraham (Genèse) ; archive.org confirme le bon volume de Schaff (v.3, 1867, Scribner's). Carte et quiz conformes. Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-04",

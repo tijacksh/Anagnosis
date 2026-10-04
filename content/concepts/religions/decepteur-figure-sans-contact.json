@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-04T10:09:52.633Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-04T10:09:52.633Z",
+        "note": "Sources rouvertes en ligne (WebFetch réel, second passage indépendant) : archive.org confirme The Prose Edda, trad. Brodeur, American-Scandinavian Foundation 1916, texte intégral de 301p (pas une recension) ; notice BnF confirme The Trickster de Radin, Routledge and Paul 1956, avec commentaires de Kerényi et Jung ; Wikipedia EN Trickster confirme Loki, Anansi, Coyote, Raven, Wisakedjak, Hermès comme figures du décepteur et cite Radin 1956 en bibliographie. Carte, repère et quiz conformes aux sources. Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-04",

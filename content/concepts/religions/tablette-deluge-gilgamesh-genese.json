@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-04T10:11:20.953Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-04T10:11:20.953Z",
+        "note": "Sources rouvertes en ligne (second passage indépendant) : Wikipedia EN George Smith confirme naissance 1840, apprentissage de graveur, autodidacte en cunéiforme au British Museum, annonce du 3 décembre 1872 devant la Society of Biblical Archaeology, mort à Alep le 19 août 1876 de dysenterie lors d'une 3e expédition ; britishmuseum.org toujours bloqué par le proxy réseau, contourné par WebSearch qui confirme indépendamment la tablette K.3375 (argile, cunéiforme, VIIe s. av. notre ère, Kouyunjik/Ninive, salle 55, tablette XI de Gilgamesh, bibliothèque d'Assurbanipal) ; recherche complémentaire sur le financement du Daily Telegraph confirme via le Dictionary of National Biography (source primaire) le montant exact de 'one thousand guineas', ce qui écarte l'ambiguïté d'autres sources secondaires parlant de 'pounds'. Carte, repère et quiz conformes aux sources. Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-04",
