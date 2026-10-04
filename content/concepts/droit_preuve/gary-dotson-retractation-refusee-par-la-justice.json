@@ -82,7 +82,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Un résultat de laboratoire n'a pas d'effet automatique sur une condamnation : il a fallu que les avocats de Dotson déposent une requête en révision en mai 1989, puis qu'un juge l'examine et statue, le 14 août 1989, pour que le procureur abandonne les poursuites. Le retard ne venait ni du laboratoire ni d'un obstacle légal à ce type de recours, mais du temps propre à la procédure judiciaire.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -119,11 +119,11 @@
       "explication": "L'abandon des poursuites en 1989 n'efface pas juridiquement la culpabilité, ni la commutation de 1985 : il faut attendre le 9 janvier 2003 pour que le gouverneur George Ryan accorde une grâce fondée sur l'innocence."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-19T19:13:35.543Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-04T17:00:04.811Z",
     "historique": [
       {
         "action": "valider",
@@ -132,15 +132,25 @@
         "par": "routine-reparation",
         "le": "2026-09-19T19:13:35.543Z",
         "note": "Nom du juge corrigé : 'Richard Fitzgerald' remplacé par 'Thomas R. Fitzgerald' (contenu_vulgarise et note de la source Northwestern), qui accorde le nouveau procès le 14 août 1989 au tribunal de circuit du comté de Cook. Vérifié via recherche web (WebFetch bloqué par le proxy réseau de cette session, comme déjà signalé par le contrôle) : convergence de plusieurs sources indépendantes (UPI, dépêche du 25 juillet 1989 annonçant l'audience devant Thomas R. Fitzgerald, Washington Post du 15 août 1989 citant sa décision, page Wikipédia « Thomas R. Fitzgerald (judge) ») sur 'Thomas R. Fitzgerald', aucune ne corrobore 'Richard'. Spot-vérifié en même temps : grâce fondée sur l'innocence par le gouverneur George Ryan le 9 janvier 2003 (correspond à la fiche), résultat du test d'Edward Blake transmis le 15 août 1988 depuis Forensic Science Associates en Californie (correspond à 'en 1988' dans la fiche). Reste de la fiche déjà vérifié par le contrôle précédent (chronologie 1977-2003, rôle de Blake, nuance Dotson/Vasquez, citation, carte, quiz) et non remis en cause."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-04T17:00:04.811Z",
+        "note": "Contrôle du 2026-10-04 : le quiz principal et l'enchaînement 1988-1989 contredisent les sources sur la cause du retard ; lien ADN Spencer / Vasquez non vérifiable. Détail dans controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-19",
+    "fait_le": "2026-10-04",
     "verdict": "a_revoir",
-    "empreinte": "518b1ac6783b6979",
+    "empreinte": "1c966e75dbbd402f",
     "notes": [
-      "Statut passé à en_retouche. Erreur de nom repérée dans le contenu_vulgarise et dans la note de la source Northwestern : le juge qui accorde le nouveau procès le 14 août 1989 au tribunal de circuit du comté de Cook s'appelle Thomas R. Fitzgerald, pas « Richard Fitzgerald » comme l'écrit la fiche (confusion probable avec Richard L. Samuels, le juge du procès de 1979 et de l'audience de rétractation de 1985, qui lui est correctement nommé). Convergence de plusieurs sources indépendantes (dépêches UPI de juillet/août 1989, Washington Post, biographie Illinois Courts History, Wikipedia « Thomas R. Fitzgerald (judge) ») sur « Thomas R. Fitzgerald » ; aucune ne corrobore « Richard ». WebFetch étant bloqué par le proxy réseau de cette session, je n'ai pas pu rouvrir directement la page National Registry of Exonerations citée en source pour trancher au mot près : à vérifier sur pièce puis corriger le prénom du juge (contenu_vulgarise + note de la source Northwestern) avant de revalider. Reste de la fiche vérifié et cohérent : chronologie 1977-2003, rôle d'Edward Blake, nuance Dotson/David Vasquez, citation du repere, carte et quiz — rien d'autre à signaler."
+      "Sources rouvertes : National Registry of Exonerations (Dotson), via une copie d'archive car la page est bloquée par un contrôle anti-robot ; Northwestern Center on Wrongful Convictions (texte intégral) ; Innocence Project ; Wikipedia « Timothy Wilson Spencer ». La page Registry « David Vasquez » (10922) n'a pas pu être ouverte (403 anti-robot, aucune copie d'archive). Confirmés : 9 juillet 1977, Cathleen Crowell 16 ans, Homewood ; Dotson 20 ans ; peines de 25 à 50 ans ; audience du 11 avril 1985 devant le juge Samuels ; commutation en temps purgé avec refus de la grâce (12 mai 1985) ; test de Blake notifié le 15 août 1988 ; audience du 14 août 1989 devant le juge Thomas R. Fitzgerald et abandon des charges ; grâce du 9 janvier 2003 ; Innocence Project « one of the first » ; Blake « Berkeley-educated ».",
+      "A_REVOIR (sens). (a) Quiz principal : la bonne réponse et l'explication attribuent le délai d'un an à la procédure (« le retard ne venait ni du laboratoire ni d'un obstacle légal, mais du temps propre à la procédure judiciaire »). Northwestern et le Registry disent autre chose : après le résultat du 15 août 1988, le gouverneur Thompson a refusé d'agir avant une recommandation du Prisoner Review Board, qui n'était toujours pas venue neuf mois plus tard ; Breen dépose alors une requête devant le tribunal (mai 1989), et le parquet annonce d'abord qu'il s'y opposera avant de s'y joindre le 14 août 1989 (« it took a full year … for the prosecution to finally admit error », Registry). Le retard est celui d'une grâce restée sans réponse et d'un parquet résistant, pas d'un délai de procédure. (b) Corps : « les avocats de Dotson fassent retester la pièce … le profil génétique … par Alec Jeffreys … L'échantillon part vers … Blake » : c'est le gouverneur Thompson qui a ordonné les tests en janvier 1988 sur demande de Breen ; le test de Jeffreys (RFLP) a échoué le 7 avril 1988 (échantillon trop dégradé) et c'est une autre technique, la PCR de Blake, qui a exclu Dotson. La fiche confond les deux et omet l'échec. (c) quiz_supplementaire[1] et note de la source Vasquez : « un ADN reliant … Timothy Spencer à ce meurtre et à trois autres » alors que « l'échantillon … trop dégradé pour être testé » : Wikipedia (Spencer) décrit l'ADN comme reliant Spencer aux meurtres de 1987 pour lesquels il a été jugé (Richmond, Arlington) et précise qu'il n'a jamais été inculpé ni condamné pour le meurtre de Carolyn Hamm (1984), celui pour lequel Vasquez avait été condamné ; la page Registry citée n'a pas pu être rouverte pour trancher.",
+      "Note : la narration du Registry (copie d'archive) donne « Gary Dotson, 24 » pour l'âge à l'identification, la fiche indique 20 comme la fiche technique du même Registry (« Age at the date of reported crime: 20 ») et comme Northwestern (22 ans à la condamnation) : la fiche est exacte."
     ]
   },
   "controle_juridique": null,

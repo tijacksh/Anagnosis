@@ -69,7 +69,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le mécanisme qui tam mise sur une information que seul un initié détient, pas sur la capacité de contrôle de l'État. La moitié de la récupération est le prix payé pour cette information.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -106,11 +106,11 @@
       "explication": "Le ministère de la Justice estime alors que la fraude absorbe entre 1 % et 10 % du budget fédéral et que 45 des 100 premiers fournisseurs de la défense sont sous enquête."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-16T22:18:09.558Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-04T17:00:04.703Z",
     "historique": [
       {
         "action": "valider",
@@ -119,15 +119,25 @@
         "par": "routine-relecture",
         "le": "2026-08-16T22:18:09.558Z",
         "note": "Sources rouvertes (govinfo.gov Statutes at Large — PDF image confirmé comme le bon document officiel à l'adresse indiquée, non océrisable mais recoupé mot pour mot avec le CRS ; CRS R40785 ; Wikipédia). Le CRS confirme mot pour mot : 2 mars 1863, chap. 67, 12 Stat. 696, part de 50% à l'origine, amendements 1943 (25%/10%, restriction sur l'information déjà publique), amendements 1986 (pénalité 5000-10000$, dommages triplés, part 30%, protection contre représailles), contexte des 45 entrepreneurs de la défense sous enquête en 1985. Wikipédia confirme le contexte (mules malades, munitions lestées de sciure, rations avariées) et la citation du sénateur Howard ('setting a rogue to catch a rogue'). Repère, carte et quiz fidèles. Juridiction et dates explicites, conforme à la ligne éditoriale droit. Aucune correction nécessaire."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-04T17:00:04.703Z",
+        "note": "Contrôle du 2026-10-04 : quatre affirmations de fond non soutenues ou contredites par les sources de la fiche (sciure, « common law », 1991, quiz « déjà publique »). Détail dans controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-16",
-    "verdict": "ok",
-    "empreinte": "c6bb5c40260968eb",
+    "fait_le": "2026-10-04",
+    "verdict": "a_revoir",
+    "empreinte": "e295c780ead94ac3",
     "notes": [
-      "Sources rouvertes (govinfo.gov Statutes at Large, CRS R40785, Wikipédia) : date du 2 mars 1863, 12 Stat. 696, mécanisme qui tam et part de 50%, amendements 1943 (25%/10%) et 1986 (5000-10000$, dommages triplés, 30%, protection représailles) confirmés mot pour mot par le CRS. Repère, carte et quiz fidèles. Juridiction (droit fédéral américain) et dates toujours explicites, conforme à la ligne éditoriale droit."
+      "Sources rouvertes : CRS R40785 (texte intégral, mise à jour du 26 avril 2021), Wikipedia EN « False Claims Act of 1863 », Cornell 31 U.S.C. § 3729, govinfo 12 Stat. 696 (PDF-image : adresse et document confirmés, texte non extractible). Confirmés par le CRS : 2 mars 1863, ch. 67, 12 Stat. 696 ; moitié au dénonciateur ; 2 000 $ et double dommages ; 1943 (25 % / 10 %, interdiction des actions fondées sur une information déjà en possession du gouvernement, lettre du ministre de la Justice Biddle de 1942) ; 1986 (5 000-10 000 $, triple dommages, 30 %, protection contre les représailles, 45 des 100 premiers fournisseurs de la défense sous enquête, 1 à 10 % du budget d'après le DOJ) ; citation du sénateur Howard (« setting a rogue to catch a rogue »). Date, citation du Statutes at Large, repère et carte conformes.",
+      "A_REVOIR (sens), quatre points. (a) « caisses de munitions lestées de sciure » (corps) et « caisses de sciure » (accroche) : la page Wikipedia citée pour ce contexte dit seulement « decrepit horses and mules in ill health, faulty rifles and ammunition, and rancid rations » ; aucune des trois sources ne parle de sciure. (b) « la loi ressuscite un mécanisme de common law anglaise, l'action qui tam » (corps) et bonne réponse de quiz_supplementaire[0] : le CRS cite au contraire la jurisprudence selon laquelle l'action qui tam « has never found its way into the common law » et « is strictly a creature of statute », et rappelle que des lois qui tam étaient déjà votées par les premiers Congrès ; cela fragilise aussi « Ce qui est nouveau n'est pas l'interdiction » et le mot « invention » du titre. (c) dernière phrase du corps, « la remise de peine offerte aux entreprises américaines en 1991 » : aucune source de la fiche ne mentionne 1991 — affirmation datée sans source, et rapprochement non démontré. (d) quiz_supplementaire[1] : la bonne réponse parle d'une information « déjà publique » alors que l'interdiction de 1943 vise l'information en possession du gouvernement (CRS ; le corps et l'explication le disent correctement) ; « publique » relève de l'amendement de 1986.",
+      "Points mineurs pour la réparation : « faute de mieux » prêté à Howard (il parle de « the safest and most expeditious way I have ever discovered », pas d'un pis-aller) ; « le gouvernement n'a ni le temps ni les inspecteurs » n'est pas sourcé et rend le distracteur « le Congrès manquait de fonds pour recruter des inspecteurs » de la question principale moins nettement faux que ne le dit l'explication."
     ]
   },
   "controle_juridique": null,

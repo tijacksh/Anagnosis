@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Les cotons-tiges utilisés pour les prélèvements avaient été contaminés en usine par l'ADN d'une employée chargée de leur conditionnement, avant toute utilisation sur une scène de crime. Le matériel était certifié stérile de bactéries, pas exempt d'ADN humain, ce qu'aucune police n'avait pensé à vérifier.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Le fabricant confirme que ses cotons-tiges étaient certifiés stériles de bactéries, mais jamais garantis exempts d'ADN humain, une distinction que personne n'avait vérifiée en seize ans d'enquête."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-24T07:23:54.374Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-04T17:00:04.731Z",
     "historique": [
       {
         "action": "retoucher",
@@ -137,15 +137,25 @@
         "par": "routine-reparation",
         "le": "2026-08-24T07:23:54.374Z",
         "note": "Cinquième source rouverte en plus des quatre confirmées par le contrôle précédent (TIME/Himmelreich, taz.de/Arzt, NWZ/dpa, Wikipedia DE, Wikipedia EN) — toutes revérifiées indépendamment. Confirmé mot pour mot : meurtre de Kiesewetter le 25/04/2007 sur la Theresienwiese (Wikipedia EN), armes de service ET menottes emportées ('their handguns and handcuffs were stolen'), ~40 scènes de crime sur plusieurs pays (TIME : '40 crimes' ; Wikipedia DE : 'mindestens 40 Tatorten'), 16 000 heures supplémentaires et récompense de 400 000 dollars (TIME, en dollars, pas en euros), identification du vrai meurtrier via le NSU en novembre 2011 (Wikipedia DE et EN concordantes). Les deux contradictions déjà repérées par la relecture et tranchées par le contrôle précédent sont reconfirmées de façon indépendante : la victime de 1993 à Idar-Oberstein est une femme de 62 ans (Wikipedia DE, 'einer 62-Jährigen' ; corps déjà conforme), et taz.de contient bien une erreur isolée sur ce point ('einen 63-jährigen Mann', revérifié mot pour mot) ; l'usine de conditionnement est en Bavière à Tettau-Langenau (Wikipedia DE et NWZ, qui cite le directeur de Greiner Bio-One GmbH lui-même situant l'entreprise 'in Bayern', corps déjà conforme), et TIME contient bien une erreur isolée en la situant 'in Austria'. Quiz revérifié : bonne réponse et trois distracteurs faux au vu des sources. Aucun changement du corps, du repère, de la carte ni du quiz : la fiche disait déjà exactement ce que les sources établissent, y compris sur les deux points où deux de ses propres sources se contredisaient entre elles."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-04T17:00:04.731Z",
+        "note": "Contrôle du 2026-10-04 : la déclaration du fabricant des cotons-tiges est présentée comme établie alors que les sources la disent infirmée le 30 mars 2009. Détail dans controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-24",
-    "verdict": "corrige",
+    "fait_le": "2026-10-04",
+    "verdict": "a_revoir",
     "empreinte": "714a73bcf7c4c9ba",
     "notes": [
-      "Cinq sources rouvertes pour trancher les deux contradictions laissées non résolues par routine-relecture. DOUTE 1 (âge/sexe de la victime de 1993 à Idar-Oberstein) résolu : Wikipedia DE dit explicitement 'einer 62-Jährigen' (féminin, une femme de 62 ans), confirmé indépendamment par le nom de la victime (Lieselotte Schlenger) retrouvé via une source de corroboration hors fiche ; taz.de, qui disait 'einen 63-jährigen Mann', contient une erreur isolée sur ce point précis. Le corps de la fiche ('une femme de soixante-deux ans') suit déjà la version correcte, aucune correction du texte nécessaire. DOUTE 2 (localisation de l'usine) résolu : NWZ (citant le procureur allemand) et Wikipedia DE situent bien l'usine de conditionnement en Bavière (Tettau-Langenau) ; TIME, qui la disait en Autriche, confond apparemment le siège du fabricant Greiner Bio-One (société autrichienne) avec le site réel de conditionnement (sous-traitant Böhm Kunststofftechnik, en Bavière). Le corps ('une usine bavaroise... vendus par le fabricant Greiner Bio-One') distingue déjà correctement les deux, aucune correction du texte nécessaire. Récompense de 400 000 dollars reconfirmée mot pour mot dans TIME. CORRIGE : ajouté aux champs note des sources taz.de et TIME une mention de l'erreur isolée relevée dans chacune, pour qu'un futur contrôle ne s'y fie pas sur ces deux points précis. Aucun changement du corps, du repère, de la carte ni du quiz : le texte de la fiche était déjà exact sur les deux points contestés."
+      "Sources rouvertes : TIME (Himmelreich, 27 mars 2009), taz.de (Arzt), NWZ/dpa (28 mars 2009), de.wikipedia « Heilbronner Phantom », en.wikipedia « Murder of Michèle Kiesewetter » ; toutes sont bien les pages annoncées. Confirmés : meurtre du 25 avril 2007 sur la Theresienwiese (armes et menottes emportées), au moins 40 scènes dont six meurtres présumés, Allemagne / Autriche / France, 16 000 heures supplémentaires et récompense de 400 000 $ (TIME ; de.wikipedia donne 300 000 € en janvier 2009, cohérent avec « plusieurs centaines de milliers d'euros » du corps), première trace de 1993 à Idar-Oberstein sur une femme de 62 ans (analyse ADN en 2001), cotons-tiges montés à la main à Tettau-Langenau, meurtre attribué au NSU le 7 novembre 2011, armes de service retrouvées lors de la fin du NSU à Eisenach/Zwickau.",
+      "A_REVOIR (sens). Le corps, l'explication du quiz principal et quiz_supplementaire[2] affirment que le fabricant a confirmé que ses cotons-tiges étaient « certifiés stériles de bactéries, jamais garantis exempts d'ADN humain ». La source de.wikipedia « Heilbronner Phantom » (qui cite FAZ et Spiegel) précise que Greiner Bio-One l'avait d'abord écrit sur son site, puis a dû reconnaître le 30 mars 2009 que certains lots avaient bien été livrés avec un certificat « sans ADN » qui ne correspondait pas à la réalité. Vérifié en ouvrant Spiegel, « Phantom-Fall: Firma garantierte Reinheit der Wattestäbchen » (30.03.2009) : « der Vertreiber der Wattestäbchen [hat] doch die DNA-Freiheit seiner Produkte versprochen ». La fiche présente donc comme établi le démenti initial du fabricant, que les faits ont ensuite infirmé : à reformuler dans le corps, le quiz principal et la troisième question supplémentaire (et la note de la source TIME, qui prête au fabricant une « absence de certification ADN »).",
+      "Points secondaires : « Fin mars 2009, un rapprochement inattendu met la puce à l'oreille » : NWZ/dpa date les premiers indices concrets venus des enquêteurs autrichiens du 18 mars (annonce publique le 27) ; « mi-mars » serait plus exact, la même formule figure dans quiz_supplementaire[0]. « Elle meurt sur le coup » n'est établi par aucune des sources ouvertes."
     ]
   },
   "controle_juridique": null,

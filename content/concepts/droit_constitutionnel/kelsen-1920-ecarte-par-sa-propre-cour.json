@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le modèle diffus né avec Marbury laisse chaque juge, dans chaque affaire, écarter une loi qu'il juge inconstitutionnelle. Le modèle kelsénien concentre ce pouvoir dans une cour unique : un juge ordinaire qui doute de la constitutionnalité d'une loi interrompt le procès et transmet la question, il ne tranche pas lui-même.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Karl Renner qualifiera l'épisode de cour « décapitée », un jugement sévère porté par l'homme même qui avait recruté Kelsen neuf ans plus tôt pour préparer la Constitution."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-17T07:25:21.004Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-04T17:00:04.834Z",
     "historique": [
       {
         "action": "valider",
@@ -129,16 +129,25 @@
         "par": "routine-reparation",
         "le": "2026-08-17T07:25:21.004Z",
         "note": "Point signalé traité : la date « juillet 1921 » et la destination « Cologne » n'avaient pas de source cliquable propre. Rouvert la page VfGH « 100 Jahre deutschösterreichischer Verfassungsgerichtshof » (confirme : loi organique adoptée le 13 juillet 1921, juges élus deux jours plus tard dont Kelsen) et Wikipedia (DE) « Hans Kelsen » (confirme : nommé professeur de droit international à Cologne en 1930, sur suggestion du maire Adenauer) ; les deux ajoutées aux sources. Le reste de la fiche revérifié entièrement : Bundeskanzleramt confirme mai 1919 (mission de Renner), 1er octobre 1920 (adoption) et 10 novembre 1920 (entrée en vigueur) ; VfGH geschichte_ueberblick confirme la limite d'âge de 70 ans introduite par la réforme de 1929 et le changement de mode de nomination, mais ne mentionne pas Kelsen (source d'ambiance sur le fonctionnement de la cour, pas sur Kelsen lui-même — repere.url conservé à ce titre) ; ORF confirme le mot « geköpft » attribué à Renner comme député et juillet 1921 pour l'entrée de Kelsen parmi les juges. Carte et quiz vérifiés, distracteurs faux confirmés."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-04T17:00:04.834Z",
+        "note": "Contrôle du 2026-10-04 : le corps, le repère et le quiz décrivent la cour de 1920 de façon contredite par la page officielle du VfGH citée en source. Détail dans controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-17",
+    "fait_le": "2026-10-04",
     "verdict": "a_revoir",
-    "empreinte": "d975c90a88e87efd",
+    "empreinte": "8ce5838f121c0b6b",
     "notes": [
-      "Sources rouvertes : Bundeskanzleramt (confirme mai 1919, 1er octobre et 10 novembre 1920), VfGH geschichte_ueberblick (confirme ces mêmes dates, la réforme de 1929 et le recours individuel de 1975, mais ne mentionne Kelsen à aucun endroit), ORF (confirme le mot « geköpft » attribué à Renner comme député — année de publication corrigée en 2020, pas 2025).",
-      "À revoir : la date « juillet 1921 » pour l'entrée de Kelsen à la cour et sa destination « Cologne » ne sont retrouvables dans aucune des trois sources citées, alors que repere.url (VfGH geschichte_ueberblick) est présenté comme les justifiant et ne mentionne pas Kelsen du tout. Les faits semblent exacts par ailleurs mais manquent de source cliquable dans la fiche — ajouter une source qui les couvre réellement (ex. la page VfGH « 100 Jahre deutschösterreichischer Verfassungsgerichtshof », qui donne la date du 13 juillet 1921) ou alléger le texte de ces précisions."
+      "Sources rouvertes : Bundeskanzleramt (genèse du B-VG), VfGH « Geschichte des Verfassungsgerichtshofes », VfGH « 100 Jahre deutschösterreichischer Verfassungsgerichtshof », ORF « Errichtet, geköpft und etabliert ». Confirmés : mission confiée à Kelsen par Renner en mai 1919 ; adoption du B-VG le 1er octobre 1920, entrée en vigueur le 10 novembre ; loi d'organisation du 13 juillet 1921 et élection des juges deux jours plus tard dont Kelsen ; réforme de 1929 (nouveau mode de nomination, limite d'âge de 70 ans, juges en fonction révoqués) ; « geköpft » de Renner.",
+      "A_REVOIR (sens), trois points contredits par la page VfGH citée. (a) Corps : « une cour dont la seule fonction est d'annuler les lois contraires à la Constitution » et repère : « la première cour au monde exclusivement chargée d'annuler des lois ». La page dit que le VfGH a été créé le 25 janvier 1919 comme successeur du Reichsgericht de 1867, qu'il avait déjà en 1919 une première compétence (limitée) de contrôle des lois des Länder, et que le B-VG de 1920 lui a confié « alle Aufgaben » du Reichsgericht et du Staatsgerichtshof (conflits de compétence, élections, violations du droit international, responsabilité des ministres) en plus du contrôle des normes. « Première au monde » n'est dans aucune source (la cour tchécoslovaque de la Constitution du 29 février 1920 est à vérifier). (b) Corps et quiz principal : « un juge ordinaire qui doute … interrompt son procès et transmet la question » est présenté comme le dispositif de 1920. Selon la page, en 1920 la saisine pour les lois fédérales relève d'un gouvernement de Land, plus le contrôle d'office ; le cercle des demandeurs n'a été élargi à la Cour suprême (OGH) et à la Cour administrative (VwGH) que par la réforme de 1929. (c) « Kelsen y siège comme juge à partir de juillet 1921 » (corps, repère, carte) : la page VfGH précise qu'il appartenait déjà à la cour germano-autrichienne depuis mai 1919.",
+      "Points secondaires : « Karl Renner, qui l'avait recruté neuf ans plus tôt » (corps et quiz_supplementaire[2]) : mai 1919 à 1929-1930 fait dix à onze ans, pas neuf ; le titre « inventeur du contrôle des lois » contredit le corps qui attribue le principe à Marbury en 1803 (le modèle concentré est celui de Kelsen)."
     ]
   },
   "controle_juridique": null,
