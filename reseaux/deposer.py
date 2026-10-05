@@ -42,6 +42,18 @@ def signaler(titre, detail):
                    cwd=DEPOT, capture_output=True)
 
 
+def copier(source, cible):
+    """Copie dans iCloud Drive, qui refuse parfois l'écriture (« Resource deadlock avoided »,
+    vu le 2026-10-05). Ces copies ne servent qu'au secours manuel : un échec ne doit jamais
+    empêcher la publication."""
+    try:
+        shutil.copy2(source, cible)
+        return True
+    except OSError as e:
+        print(f'copie vers {cible} impossible : {e}')
+        return False
+
+
 def tiktok(*args):
     r = subprocess.run(['node', str(ICI / 'tiktok.js'), *args], capture_output=True, text=True)
     if r.returncode:
@@ -107,13 +119,16 @@ def main():
     for p in [p for p in reg['posts'] if p['jour'] == jour and not complet(p)]:
         dossier = MEDIAS / p['dossier']
         paquet = PAQUETS / dossier.name
-        paquet.mkdir(parents=True, exist_ok=True)
+        try:
+            paquet.mkdir(parents=True, exist_ok=True)
+        except OSError as e:
+            print(f'dossier {paquet} impossible : {e}')
         for f in [*medias_de(p, dossier), *legendes_de(p, dossier)]:
-            shutil.copy2(f, paquet / f.name)
+            copier(f, paquet / f.name)
         # TikTok : les Reels seulement, en brouillon. Les deux plateformes sont indépendantes :
         # l'échec de l'une n'empêche pas l'autre, et ouvre une issue.
         if a_tiktok(p) and not p['tiktok']:
-            shutil.copy2(dossier / 'legende-tiktok.txt', RACCOURCI)
+            copier(dossier / 'legende-tiktok.txt', RACCOURCI)
             try:
                 # Publication publique par BrightBean ; à défaut, brouillon dans la boîte TikTok.
                 try:
