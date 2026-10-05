@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'expression n'apparaît par écrit qu'en 1579, chez le juriste Joachim Stephani, vingt-quatre ans après la paix. Elle décrit bien le principe appliqué dès 1555, mais n'en est pas la formulation d'origine, ne concerne pas la France et n'a fait l'objet d'aucun retrait.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -92,10 +92,34 @@
       "explication": "Le texte ne reconnaît que le catholicisme et le luthéranisme ; le calvinisme et les autres confessions en sont explicitement exclues, et devront attendre la paix de Westphalie (1648) pour obtenir une reconnaissance comparable."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-05T04:44:39.270Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-05T04:44:39.270Z",
+        "note": "Posé par la routine controler (verdict a_revoir) : Charles Quint/Ligue de Smalkalde comme signataires, « trente ans de guerre religieuse » non sourcé, attribution à Joachim Stephani absente de Vogler, citations de l'édit de Nantes non rouvertes."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-05",
+    "verdict": "a_revoir",
+    "empreinte": "0644f678302fa8ca",
+    "notes": [
+      "1) « l'empereur Charles Quint et les princes de la Ligue de Smalkalde » : Wikipedia EN dit que Charles V a conclu mais que Ferdinand Ier a négocié et signé ; la Ligue de Smalkalde était vaincue depuis 1547, à vérifier. 2) « trente ans de guerre religieuse » : aucune source ne le dit. 3) Joachim Stephani : Vogler ne date que l'expression de 1579, il ne nomme pas Stephani ; attribution et date à sourcer (repère, carte, quiz). 4) Citations de l'édit de Nantes art. VI (Wikisource) non rouvertes. Art. 24 et exclusion du calvinisme confirmés."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-05", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-05",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
