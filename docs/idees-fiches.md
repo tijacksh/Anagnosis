@@ -173,3 +173,7 @@ peut rouvrir directement le texte du décret.)*
 | Religions et mythologies | Le 25 décembre : Noël et le Chronographe de 354, face au mythe d'une fête chrétienne copiée sur Sol Invictus | fait | routine-production-arnaud | 2026-10-05 |
 | Religions et mythologies | La papesse Jeanne : une légende du XIIIe siècle (Martin de Troppau) prise pour une chronique | fait | routine-production-arnaud | 2026-10-05 |
 | Religions et mythologies | Le « concile de Jamnia » (v. 90) et le mythe d'une clôture du canon hébraïque | fait | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | La tour du silence zoroastrienne (dakhma) : la doctrine de la pollution, et le rite suspendu par l'effondrement des vautours indiens (diclofénac, Nature 2004) | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | Le calendrier hégirien : l'interdiction coranique du nasī' (an 10 de l'Hégire) et la dérive permanente du ramadan à travers les saisons | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | L'édit mineur sur roche de Maski (27 janvier 1915) : la découverte qui a identifié « Devanampiya Piyadasi » à l'empereur bouddhiste Ashoka | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | Van Gennep (1909) et les trois temps du rite de passage (séparation, marge, agrégation), repris par Victor Turner (1969, liminalité, communitas) | fait | routine-production | 2026-10-05 |
