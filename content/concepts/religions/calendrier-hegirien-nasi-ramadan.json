@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-05T22:13:55.323Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-05T22:13:55.323Z",
+        "note": "Sources rouvertes : Britannica (354-355 j/an confirmé « the year has either 354 or 355 days », cycle de régression 32,5 ans confirmé « retrogress... every 32.5 solar years », Umar institue l'ère hégirienne en 639 confirmé) ; Wikipedia Nasi' (Qalammas de Banu Kinanah administrant le nasi' confirmé, interdiction Coran 9:36-37 lors du sermon d'adieu le 9 Dhu al-Hijjah 10 AH confirmé) ; Wikipedia Islamic calendar (mois synodique 29,530587981 j confirmé, cycle de régression ~33 ans confirmé par citation de l'Astronomical Almanac). Toutes les affirmations, le repere, la carte et le quiz correspondent exactement à ce que disent les trois sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-05",

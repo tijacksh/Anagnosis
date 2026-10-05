@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-05T22:14:03.581Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-05T22:14:03.581Z",
+        "note": "Sources rouvertes : creationmyths.org bloqué par le proxy sortant ; citation Griffith vérifiée par recoupement indépendant via Wikisource (The Hymns of the Rigveda/Book 10/Hymn 129) : les sept strophes et la formule exacte « he verily knows it, or perhaps he knows not » confirmées mot pour mot. Wikipedia Nasadiya Sukta (structure en sept strophes confirmé, kama première semence confirmé citation sanskrite, dieux venus après la création confirmé, clôture incertaine confirmé « he knows — or maybe even he does not know », diversité des lectures incluant la lecture agnostique confirmée). Repere, carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-05",
