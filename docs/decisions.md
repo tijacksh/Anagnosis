@@ -1483,3 +1483,7 @@ promet ne se promet qu'en général (« une fiche par jour »), jamais *cette* f
 portent `?s=ig`, `?s=tt` ou `?s=x`, le site joint le nom du réseau à l'inscription, sans cookie ni
 stockage, et les mentions légales le disent. `reseaux/inscriptions.js` compte par réseau.
 
+
+## 2026-10-05 — Le workflow `deployer-netlify.yml` est supprimé
+
+Netlify déploie désormais seul les pushes du compte d'Orkidea (constaté le 2026-10-05 : chaque commit des routines est déjà « ready » avant l'appel du hook, et plusieurs étaient construits deux fois). Le workflow, créé le 2026-09-22 quand ce n'était pas le cas, ne servait plus qu'à doubler les builds ; une exécution est aussi restée en file sans runner puis annulée par GitHub, sans conséquence. Décision d'Arnaud : on le supprime. Le secret `NETLIFY_BUILD_HOOK` reste défini dans GitHub, inutilisé. **Si le site se fige à nouveau** (flux `concepts.json` daté, fiches validées absentes), comparer `https://anagnosis.fr/contenu/concepts.json` avec ce que `main` valide ; la réponse est de rétablir ce fichier (`git log -- .github/workflows/deployer-netlify.yml`).
