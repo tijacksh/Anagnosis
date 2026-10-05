@@ -169,3 +169,7 @@ n'a pas pu être vérifié directement (justice.gov, cornell.edu et les grandes 
 le proxy sortant de cette session). Exactement le piège déjà signalé dans `CLAUDE.md` : « les
 chiffres d'une affaire viennent de la décision, pas de sa synthèse ». À reprendre si quelqu'un
 peut rouvrir directement le texte du décret.)*
+| Religions et mythologies | Les 95 thèses de Luther (1517) : l'affichage à la porte de Wittenberg, un récit sans témoin direct | en cours | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | Le 25 décembre : Noël et le Chronographe de 354, face au mythe d'une fête chrétienne copiée sur Sol Invictus | en cours | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | La papesse Jeanne : une légende du XIIIe siècle (Martin de Troppau) prise pour une chronique | en cours | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | Le « concile de Jamnia » (v. 90) et le mythe d'une clôture du canon hébraïque | en cours | routine-production-arnaud | 2026-10-05 |
