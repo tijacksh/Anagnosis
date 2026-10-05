@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le texte est une lettre de Licinius aux gouverneurs d'Orient, affichée à Nicomédie. Il ne rédige pas Constantin seul, ne rend pas le christianisme obligatoire (il accorde la liberté de culte à tous) et nous le tenons de Lactance et d'Eusèbe, deux contemporains.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -92,11 +92,11 @@
       "explication": "La lettre ordonne la restitution sans paiement, ceux qui avaient acheté ou reçu ces biens pouvant se tourner vers l'empereur pour être indemnisés ; elle ne les laisse ni à l'État ni aux évêques à racheter."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-05T10:17:08.559Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-05T19:19:58.914Z",
     "historique": [
       {
         "action": "retoucher",
@@ -105,6 +105,14 @@
         "par": "routine-relecture",
         "le": "2026-10-05T10:17:08.559Z",
         "note": "Sources rouvertes : Lactance via CCEL (domaine bloqué par le proxy réseau de cette session ; confirmé par recoupement de recherches externes citant le chapitre XLVIII — lettre de Licinius du 13 juin 313, restitution/indemnisation), Wikipedia EN Edict of Milan (confirmé : édit de Galère 311 affiché à Nicomédie/daté de Serdica, entrevue de Milan février 313, consensus actuel qu'aucun édit formel n'a existé ; confirmé par recherche directe dans le texte que 'Seeck'/'1891' n'y apparaissent pas, la correction du premier contrôle était fondée), Wikipedia DE Mailänder Vereinbarung (confirmé : mentionne Seeck et porte la référence bibliographique exacte, 1891, Zeitschrift für Kirchengeschichte vol.12 p.381-386). Corrigé : la question 2 du quiz_supplementaire avait une bonne réponse 2,64x plus longue que le distracteur le plus long (seuil 1,4x, piège listé dans CLAUDE.md) — distracteurs réécrits avec un niveau de détail comparable, ratio ramené à 1,05x, sens inchangé. Quiz principal, carte et repere conformes aux sources, rien d'autre à corriger. Texte touché : repasse au contrôle avant toute nouvelle décision."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-05T19:19:58.914Z",
+        "note": "Sources rouvertes : Lactance ch. XLVIII, via une copie alternative du même volume Ante-Nicene Fathers VII (archive.org, CCEL restant bloqué par le proxy réseau) — confirme mot pour mot la lettre de Licinius : liberté de culte pour chacun, restitution sans paiement, indemnité via le juge du district, publication aux ides de juin sous le troisième consulat de Constantin et Licinius. Wikipedia EN Edict of Milan rouverte : édit de Galère affiché à Nicomédie le 30 avril 311 et daté de Serdica, entrevue de Milan en février 313, lettre de Licinius non un édit, version grecque d'Eusèbe divergente, consensus actuel qu'aucun édit formel n'a existé — tout confirmé. Wikipedia DE Mailänder Vereinbarung rouverte : confirme Otto Seeck et la référence bibliographique exacte (Zeitschrift für Kirchengeschichte, vol.12, 1891, p.381-386). Carte, repère et quiz (principal + supplémentaire, distracteurs à longueur comparable depuis le passage précédent) conformes aux sources. Rien à corriger. npm run validate et npm test passent."
       }
     ]
   },

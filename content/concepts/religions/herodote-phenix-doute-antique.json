@@ -39,6 +39,24 @@
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Phoenix_(mythology)",
       "note": "Contexte de la transmission du récit d'Hérodote et de sa postérité dans la tradition occidentale du phénix."
+    },
+    {
+      "type": "livre",
+      "auteur": "Hérodote (trad. G. C. Macaulay)",
+      "titre": "The History of Herodotus, Book VII (Polymnia), §152",
+      "publication": "Wikisource (anglais), d'après l'édition Macaulay, 1890",
+      "annee": -430,
+      "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_VII#152",
+      "note": "« I however am bound to report that which is reported, though I am not bound altogether to believe it; and let this saying be considered to hold good as regards every narrative in the history » — Hérodote généralise lui-même, à propos des Argiens, la distinction entre rapporter et croire à l'ensemble de son enquête."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "History",
+      "publication": "Wikipedia (anglais), section « Etymology »",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/History",
+      "note": "Le grec ancien historiā « avait un sens large, associé à l'enquête en général et au fait de témoigner », avant que le sens ne glisse vers le récit narratif à l'époque hellénistique et romaine."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -58,7 +76,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Hérodote distingue ce qu'on lui rapporte de ce qu'il croit : rapporter fait partie de son enquête (historiē), croire n'en fait pas partie. Il n'a jamais vu l'oiseau, aucune censure n'est en jeu, et aucun serment n'encadre son travail de collecte.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -73,11 +91,11 @@
       "explication": "Le récit fixe un cycle de cinq cents ans, à la mort du père de l'oiseau — ni un rythme annuel, ni un événement unique aux origines du monde, ni un lien avec l'accession d'un pharaon."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-05T10:47:34.843Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-05T19:20:10.950Z",
     "historique": [
       {
         "action": "retoucher",
@@ -86,6 +104,14 @@
         "par": "routine-relecture",
         "le": "2026-10-05T10:47:34.843Z",
         "note": "Rouvertes : MIT Classics Hist. II.73 (Rawlinson), Wikipedia Phoenix (mythology). Corrigé : le jugement d'incrédulité PRÉCÈDE le récit (non « referme ») ; « prêtres » -> gens d'Héliopolis ; renaissance/cycle non présents chez Hérodote, retirés ; « premier texte » retiré de la carte (Hésiode plus ancien). Doute restant : la thèse du quiz (rapporter fait partie de l'enquête, distincte de la croyance) et le sens d'historiē ne sont soutenus par aucune source ouverte ; il faudrait citer Hérodote VII.152 (« devoir de rapporter sans devoir croire ») ouvert en ligne, ou une source sur historiē."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-05T19:20:10.950Z",
+        "note": "Repris les deux doutes laissés ouverts par le contrôle précédent (verdict a_revoir). 1) Thèse du quiz (rapporter fait partie de l'enquête, distinct de la croyance) : non sourcée jusqu'ici — ajouté Hérodote VII.152 (Wikisource, trad. Macaulay, texte vérifié en brut) où Hérodote généralise explicitement, à propos des Argiens, « I however am bound to report that which is reported, though I am not bound altogether to believe it; and let this saying be considered to hold good as regards every narrative in the history » : la thèse du quiz n'est plus une inférence, elle cite le texte même. 2) Sens d'historiē : ajouté Wikipedia EN History (section Etymology, vérifiée), qui confirme que historiā grec ancien désignait l'enquête en général avant de glisser vers le récit narratif. 3) 'Vingt-deux/vingt-cinq siècles' : arithmétique simple et vérifiable à partir des dates déjà données dans la fiche (Hérodote vers 450 av. notre ère ; Lumières ~1750 pour les 22 siècles ; aujourd'hui 2026 pour les 25 siècles) — pas une affirmation externe à sourcer séparément. Re-vérifié aussi ce que le contrôle avait déjà confirmé : MIT Classics II.73 (tableau, 'ne me semble pas croyable', gens d'Héliopolis, jamais vu que peint). Carte, citation et quiz (principal + supplémentaire) conformes. npm run validate et npm test passent."
       }
     ]
   },
