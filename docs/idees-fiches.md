@@ -155,6 +155,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Religions et mythologies | L'édit de Milan (313) : une lettre de Licinius, pas un édit de Constantin | fait | routine-production-arnaud | 2026-10-04 |
 | Religions et mythologies | La bibliothèque de Nag Hammadi (1945) : des textes chrétiens que l'Église avait écartés | fait | routine-production-arnaud | 2026-10-04 |
 | Religions et mythologies | Les manuscrits de la mer Morte (1947) : la bibliothèque de Qumrân et l'hypothèse essénienne contestée | fait | routine-production-arnaud | 2026-10-04 |
+| Religions et mythologies | La paix d'Augsbourg (1555) et l'édit de Nantes (1598) : deux façons opposées de trancher la question religieuse | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | Hérodote et le phénix (Histoires, II, 73) : le doute envers le mythe sacré écrit dès l'Antiquité | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | Akhenaton et le Grand Hymne à Aton (v. 1353 av. notre ère), et le mythe du « premier monothéiste » forgé par Freud en 1939 | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | La Lettre à M. Dacier de Champollion (1822) et l'ouverture du corpus funéraire égyptien à la traduction | fait | routine-production | 2026-10-05 |
 
 *(L'affaire Sally Clark, autre cas connu d'erreur judiciaire statistique, a déjà sa fiche —
 `sta-affaire-sally-clark-erreur-procureur`, en Statistiques : pas besoin de la reproposer.)*
