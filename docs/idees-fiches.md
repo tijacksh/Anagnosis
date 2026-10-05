@@ -177,3 +177,7 @@ peut rouvrir directement le texte du décret.)*
 | Religions et mythologies | Le calendrier hégirien : l'interdiction coranique du nasī' (an 10 de l'Hégire) et la dérive permanente du ramadan à travers les saisons | fait | routine-production | 2026-10-05 |
 | Religions et mythologies | L'édit mineur sur roche de Maski (27 janvier 1915) : la découverte qui a identifié « Devanampiya Piyadasi » à l'empereur bouddhiste Ashoka | fait | routine-production | 2026-10-05 |
 | Religions et mythologies | Van Gennep (1909) et les trois temps du rite de passage (séparation, marge, agrégation), repris par Victor Turner (1969, liminalité, communitas) | fait | routine-production | 2026-10-05 |
+| Religions et mythologies | « La religion est l'opium du peuple » (Marx, 1843-1844) : la phrase dans son paragraphe, soupir de la créature opprimée | en cours | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | « Dieu est mort » (Nietzsche, Le Gai Savoir, §125, 1882) : un fou, une lanterne et un constat, pas un triomphe | en cours | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | L'hymne Nasadiya (Rig-Veda 10.129) : un hymne de création qui finit sur le doute | en cours | routine-production-arnaud | 2026-10-05 |
+| Religions et mythologies | Le cylindre de Cyrus (539 av. notre ère) : une inscription de fondation en l'honneur de Marduk, non une « charte des droits de l'homme » | en cours | routine-production-arnaud | 2026-10-05 |
