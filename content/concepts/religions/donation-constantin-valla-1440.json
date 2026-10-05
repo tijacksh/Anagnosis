@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Valla n'a ni archive ni aveu : il lit le texte et y trouve des mots et des titres d'un autre temps. L'analyse d'encre n'existait pas, aucun manuscrit authentique de Constantin n'est invoqué, et aucun copiste n'a avoué.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -92,12 +92,21 @@
       "explication": "Valla travaillait pour Alphonse V d'Aragon, en litige territorial avec le pape Eugène IV. Luther n'a loué Valla que plus tard et Nicolas de Cues, cardinal, avait lui aussi mis la Donation en doute."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-05T10:13:05.633Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-05T10:13:05.633Z",
+        "note": "Sources rouvertes : Gutenberg/Coleman 1922 (texte intégral confirmé : citations latines 'satrapes', Constantinople/Byzantium, patricios atque consules vérifiées mot à mot ; datation VIIIe siècle, service de Valla auprès d'Alphonse V d'Aragon 1435-1445 contre Eugène IV, impression 1517 par Hutten confirmés par l'introduction Coleman), Wikipedia Donation of Constantine (datation VIIIe-IXe s., contestation dès 1001, Nicolas de Cues, Baronio 1588-1607 confirmés), Wikipedia Lorenzo Valla (service d'Alphonse V 1435-1445 confirmé littéralement). Repere, carte et les deux quiz (principal + supplémentaire) conformes aux sources, distracteurs bien faux. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-05",

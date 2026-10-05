@@ -11,21 +11,22 @@
   "contenu_vulgarise": "« Vers l'an 90, un concile de rabbins réuni à Jamnia a fermé le canon de la Bible hébraïque. » Cette phrase a longtemps figuré dans les introductions à l'Ancien Testament. Elle décrit une assemblée dont aucun texte ancien ne parle comme d'un concile.\n\n## Une idée née au XIXe siècle\n\nJamnia, ou Yavné, est une localité de Palestine, où des maîtres juifs se sont rassemblés après la destruction de Jérusalem en 70. L'idée d'un concile qui aurait statué sur les livres saints a été formulée en 1871 par l'historien juif Heinrich Graetz. Pour lui, il s'agit de la dernière des trois étapes de la canonisation des Écritures juives. Il imagine soixante-douze maîtres examinant les textes et interrogeant des témoins, puis tranchant à la majorité en faveur du Cantique des cantiques et de l'Ecclésiaste.\n\nL'hypothèse a prospéré, au point de devenir pendant une grande partie du XXe siècle l'opinion dominante.\n\n## Ce que disent les textes\n\nEn 1964, Jack P. Lewis publie dans le *Journal of the American Academy of Religion* un article intitulé « What Do We Mean By Jabneh? ». Son constat, tel que le résume Albert Sundberg : les sources juives gardent l'écho de débats sur certains livres, mais la canonicité n'était pas l'enjeu, et ces débats ne sont pas rattachés à Yavné. Aucun texte ancien ne décrit une session, un vote, une liste arrêtée.\n\nLa thèse a depuis été largement abandonnée. F. F. Bruce estime qu'il est « probablement imprudent » de parler d'un concile ou d'un synode de Jamnia fixant le canon. La date à laquelle la Bible hébraïque a été définitivement fixée fait toujours l'objet de discussions.\n\n## Ce que ça déplace\n\nOn a imaginé un moment : une salle, un vote, une clôture. Le dossier suggère un autre processus, plus lent et sans chef d'orchestre, où des textes sont reconnus d'abord par l'usage. Le « concile » est un modèle emprunté à l'histoire du christianisme et projeté sur le judaïsme du Ier siècle.\n\nCette histoire de manuel illustre un travers courant : quand les sources ne donnent ni session, ni liste, ni vote, on en suppose un, parce qu'un événement daté est plus facile à retenir qu'un processus diffus. Rien n'interdit que des maîtres aient discuté de livres à Yavné ; ce que les textes ne permettent pas, c'est de faire de ces discussions la clôture officielle d'un canon.\n\nUne date précise rassure ; ici elle a pris la place de la question.",
   "citation": null,
   "repere": {
-    "texte": "1871 : Heinrich Graetz propose l'hypothèse d'un concile à Jamnia ; 1964 : Jack P. Lewis, dans le Journal of the American Academy of Religion (vol. 32, n° 2, p. 125-132), la met en cause.",
+    "texte": "1871 : Heinrich Graetz propose l'hypothèse d'un concile à Jamnia ; 1964 : Jack P. Lewis, dans le Journal of Bible and Religion (vol. 32, n° 2, p. 125-132), la met en cause.",
     "source": "Council of Jamnia, Wikipedia (anglais), consulté le 5 octobre 2026",
     "url": "https://en.wikipedia.org/wiki/Council_of_Jamnia"
   },
   "carte": {
     "punch": "Le concile qui aurait fermé la Bible hébraïque vers l'an 90 a été imaginé en 1871.",
     "idee": "L'historien Heinrich Graetz a proposé en 1871 un concile de Jamnia qui aurait fixé le canon juif. En 1964, Jack P. Lewis a montré que les sources ne le portent pas : des débats sur certains livres existent, mais ils ne sont pas liés à Yavné, et la canonicité n'y était pas l'enjeu.",
-    "source_courte": "J. P. Lewis, JAAR, 1964"
+    "source_courte": "J. P. Lewis, Journal of Bible and Religion, 1964"
   },
   "sources": [
     {
       "type": "article",
       "auteur": "Jack P. Lewis",
       "titre": "What Do We Mean By Jabneh?",
-      "publication": "Journal of the American Academy of Religion, vol. 32, n° 2",
+      "publication": "Journal of Bible and Religion, vol. 32, n° 2",
+      "note_revue": null,
       "annee": 1964,
       "url": "https://doi.org/10.1093/jaarel/xxxii.2.125",
       "note": "Article de 1964, p. 125-132, qui remet en cause la thèse d'un concile de Jamnia fixant le canon."
@@ -57,7 +58,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Lewis conclut que les débats sur certains livres n'avaient pas la canonicité pour objet et ne sont pas rattachés à Yavné. Il ne date pas le canon, et la thèse d'un concile ne vient pas des sources.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,12 +84,21 @@
       "explication": "Dans la reconstitution de Graetz, le débat portait sur le Cantique des cantiques et l'Ecclésiaste, deux livres discutés. Les autres paires n'en font pas partie."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-05T10:17:08.334Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-05T10:17:08.334Z",
+        "note": "Sources rouvertes : DOI de Lewis résolu vers la page OUP (article authentique, pas une recension — 'What Do We Mean By Jabneh?', 1964, p.125-132), Wikipedia Council of Jamnia (confirme Graetz 1871, les 72 maîtres, le vote sur Cantique des cantiques/Ecclésiaste, le résumé de Lewis par Sundberg, la citation de F. F. Bruce, l'abandon de la thèse). Corrigé : le nom de revue était erroné à trois endroits (sources[0].publication, repere.texte, carte.source_courte) — la bibliographie de Wikipedia cite l'article sous 'Journal of Bible and Religion', pas 'Journal of the American Academy of Religion' : la revue de la NABI/AAR n'a été rebaptisée JAAR qu'en 1966, deux ans après la publication de Lewis ; la page OUP ne fait qu'un ré-étiquetage rétroactif. Le DOI reste correct et cliquable. Carte et quiz (principal + supplémentaire) conformes aux sources, rien d'autre à corriger. Texte touché : repasse au contrôle avant toute nouvelle décision."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-05",

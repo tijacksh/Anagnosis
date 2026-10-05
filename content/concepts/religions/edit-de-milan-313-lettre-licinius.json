@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le texte est une lettre de Licinius aux gouverneurs d'Orient, affichée à Nicomédie. Il ne rédige pas Constantin seul, ne rend pas le christianisme obligatoire (il accorde la liberté de culte à tous) et nous le tenons de Lactance et d'Eusèbe, deux contemporains.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,21 +83,30 @@
     {
       "question": "Que prévoit la lettre pour les lieux de culte confisqués aux chrétiens ?",
       "choix": [
-        "Ils sont convertis en temples impériaux",
-        "Ils sont restitués sans paiement, les acquéreurs pouvant demander une indemnité sur les fonds impériaux",
-        "Ils restent la propriété de l'État",
-        "Ils sont rachetés par les évêques"
+        "Ils sont convertis en temples impériaux, sans dédommagement pour personne",
+        "Ils sont restitués sans paiement, avec indemnité possible pour les acquéreurs",
+        "Ils restent propriété de l'État, qui les administre désormais",
+        "Ils sont rachetés par les évêques, au prix fixé par l'empereur"
       ],
       "bonne_reponse": 1,
       "explication": "La lettre ordonne la restitution sans paiement, ceux qui avaient acheté ou reçu ces biens pouvant se tourner vers l'empereur pour être indemnisés ; elle ne les laisse ni à l'État ni aux évêques à racheter."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-05T10:17:08.559Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-05T10:17:08.559Z",
+        "note": "Sources rouvertes : Lactance via CCEL (domaine bloqué par le proxy réseau de cette session ; confirmé par recoupement de recherches externes citant le chapitre XLVIII — lettre de Licinius du 13 juin 313, restitution/indemnisation), Wikipedia EN Edict of Milan (confirmé : édit de Galère 311 affiché à Nicomédie/daté de Serdica, entrevue de Milan février 313, consensus actuel qu'aucun édit formel n'a existé ; confirmé par recherche directe dans le texte que 'Seeck'/'1891' n'y apparaissent pas, la correction du premier contrôle était fondée), Wikipedia DE Mailänder Vereinbarung (confirmé : mentionne Seeck et porte la référence bibliographique exacte, 1891, Zeitschrift für Kirchengeschichte vol.12 p.381-386). Corrigé : la question 2 du quiz_supplementaire avait une bonne réponse 2,64x plus longue que le distracteur le plus long (seuil 1,4x, piège listé dans CLAUDE.md) — distracteurs réécrits avec un niveau de détail comparable, ratio ramené à 1,05x, sens inchangé. Quiz principal, carte et repere conformes aux sources, rien d'autre à corriger. Texte touché : repasse au contrôle avant toute nouvelle décision."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-05",
