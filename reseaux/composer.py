@@ -193,7 +193,28 @@ def reel(carte, fin, audio, sortie, plan=None):
         '-c:v', 'libx264', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-r', '30', '-crf', '18',
         '-c:a', 'copy', '-movflags', '+faststart', str(sortie)], check=True)
     fond.unlink()
+    vignette(sortie, duree_carte - 0.5)
     return total
+
+
+def vignette(video, instant):
+    """L'image 0 devient la carte entière.
+
+    TikTok et Instagram prennent la première image comme vignette. Celle de l'animation est
+    du papier vide avec une barre de couleur : rien n'y accroche (constaté le 2026-10-05 sur
+    le profil, vignettes presque blanches). On remplace donc la seule image 0 par la carte
+    complète, prise pendant la tenue : l'accroche y est lisible. Une image sur trente par
+    seconde ne se voit pas à la lecture ; le son est copié, rien ne se décale."""
+    video = Path(video)
+    image, sortie = video.with_name('vignette.png'), video.with_name('vignette.mp4')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{instant}', '-i', str(video),
+                    '-frames:v', '1', str(image)], check=True)
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(video), '-i', str(image),
+                    '-filter_complex', "[0:v][1:v]overlay=0:0:enable='eq(n,0)',format=yuv420p[v]",
+                    '-map', '[v]', '-map', '0:a', '-c:v', 'libx264', '-profile:v', 'high', '-r', '30',
+                    '-crf', '18', '-c:a', 'copy', '-movflags', '+faststart', str(sortie)], check=True)
+    sortie.replace(video)
+    image.unlink()
 
 
 HASHTAGS = {'droit': '#droit', 'medecine': '#sante', 'histoire_art': '#histoiredelart',

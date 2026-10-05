@@ -247,3 +247,7 @@ TikTok refuse la publication publique par API tant que l'app n'est pas auditée 
 ### Mise à jour 2026-09-30 : publication automatique par l'API
 
 Test réel à 0 h 15 : un post programmé par l'API **sans aucun réglage** est sorti **public** (« Tout le monde »), commentaires, duos, collages et stickers autorisés, **sans** la mention « Contenu promotionnel ». `deposer.py` publie donc maintenant chaque Reel par `brightbean.publier()` (programmé 2 minutes plus tard, statut suivi jusqu'à `published`) ; en cas d'échec, une issue est ouverte et le brouillon TikTok (`tiktok.js`) prend le relais. Plus de session du dimanche pour TikTok. Pour ajouter la mention, il faudrait passer par l'interface (l'API n'a pas ce champ). `essai_deposer.py` remplace `publier_tiktok` par un faux : ne jamais l'en retirer.
+
+### Vignette des Reels (2026-10-05)
+
+Les profils TikTok/Instagram affichent la première image comme vignette. Celle de l'animation de la carte était du papier vide, d'où des vignettes blanches. `composer.vignette()` remplace l'image 0 par la carte complète (prise pendant la tenue), l'accroche y est lisible. Appliqué à tous les Reels à venir et automatiquement aux suivants. TikTok ne permet pas de choisir la couverture par l'API (seulement dans l'interface BrightBean), c'est donc la seule voie automatique.
