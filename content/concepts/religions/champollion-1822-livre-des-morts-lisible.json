@@ -86,10 +86,26 @@
       "explication": "Champollion vérifie que les mêmes signes transcrivent les mêmes sons dans les cartouches de Ptolémée (pierre de Rosette) et de Cléopâtre (obélisque de Philae) — aucun dictionnaire ancien, témoignage oral ou document vatican n'est en jeu."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-05",
+    "verdict": "a_revoir",
+    "empreinte": "8ed9b8bef4434e7d",
+    "notes": [
+      "Citation attribuée à la Lettre à Dacier (1822) probablement mal datée : la formule « une écriture tout à la fois figurative, symbolique et phonétique... je dirais presque dans un même mot » est citée par plusieurs sources (recherches web croisées) comme provenant du Précis du système hiéroglyphique (1824), pas de la Lettre à Dacier ; une recherche plein texte sur la transcription Wikisource de la Lettre à Dacier (fr.wikisource.org) ne trouve pas le mot « figurative » dans ce texte. A vérifier sur un fac-similé fiable (Gallica, bloqué par 403 pour moi) avant de trancher la citation et le corps du texte.",
+      "Accessoirement : citation.url / repere.url / sources[0].url pointent tous vers la même notice BNF (ark:/12148/cb377454716), qui décrit un recueil factice 1822-1833 (~250 p., plusieurs auteurs dont Young, Fortia d'Urban, Cordero di San Quintino), et non la notice d'un fascicule isolé de 44 p. / 4 planches. Le chiffre « 44 pages, 4 planches » est correct (confirmé par en.wikipedia.org/wiki/Lettre_à_M._Dacier) mais ce lien BNF précis ne le confirme pas directement — vérifier s'il existe une notice BNF plus spécifique, ou préférer un lien Gallica/Wikisource direct."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-05", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-05",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
