@@ -200,3 +200,7 @@ peut rouvrir directement le texte du décret.)*
 | Sciences politiques | Kant (1795) : la paix perpétuelle suppose une constitution républicaine, pas une démocratie | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Rousseau (1762) : « le peuple anglais pense être libre », mais admet les représentants à la Pologne (1772) | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Sieyès (1789) : « Qu'est-ce que le tiers état ? Tout. » — mais ce qu'il demande, c'est « quelque chose » | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Le vote obligatoire en Belgique (1893), inscrit dans le même compromis que le suffrage plural | fait | routine-production | 2026-10-06 |
+| Sciences politiques | La motion de défiance constructive (Allemagne, 1949, article 67) et l'instabilité de Weimar | fait | routine-production | 2026-10-06 |
+| Sciences politiques | Joseph Nye et le « soft power » (1990) : le terme est attesté dès 1985, avant Bound to Lead | fait | routine-production | 2026-10-06 |
+| Sciences politiques | Nouvelle-Zélande (1893) : « premier pays » à voter, nuancé par le Wyoming (1869) et l'île de Man (1881) | fait | routine-production | 2026-10-06 |
