@@ -204,7 +204,7 @@ peut rouvrir directement le texte du décret.)*
 | Sciences politiques | La motion de défiance constructive (Allemagne, 1949, article 67) et l'instabilité de Weimar | fait | routine-production | 2026-10-06 |
 | Sciences politiques | Joseph Nye et le « soft power » (1990) : le terme est attesté dès 1985, avant Bound to Lead | fait | routine-production | 2026-10-06 |
 | Sciences politiques | Nouvelle-Zélande (1893) : « premier pays » à voter, nuancé par le Wyoming (1869) et l'île de Man (1881) | fait | routine-production | 2026-10-06 |
-| Sciences politiques | Lord Acton (1887) : « le pouvoir tend à corrompre » — une lettre privée sur la façon de juger les puissants, non une loi de la nature | en cours | routine-production-arnaud | 2026-10-06 |
-| Sciences politiques | Arrow (1950-1951) : le théorème d'impossibilité ne dit pas « aucun vote n'est juste » | en cours | routine-production-arnaud | 2026-10-06 |
-| Sciences politiques | Hirschman (1970) : Exit, Voice, and Loyalty — pourquoi la sortie peut étouffer la protestation | en cours | routine-production-arnaud | 2026-10-06 |
-| Sciences politiques | John Herz (1950) : l'invention du « dilemme de sécurité » | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Lord Acton (1887) : « le pouvoir tend à corrompre » — une lettre privée sur la façon de juger les puissants, non une loi de la nature | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Arrow (1950-1951) : le théorème d'impossibilité ne dit pas « aucun vote n'est juste » | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Hirschman (1970) : Exit, Voice, and Loyalty — pourquoi la sortie peut étouffer la protestation | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | John Herz (1950) : l'invention du « dilemme de sécurité » | fait | routine-production-arnaud | 2026-10-06 |

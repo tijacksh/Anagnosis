@@ -1,0 +1,86 @@
+{
+  "id": "pol-arrow-1950-theoreme-impossibilite",
+  "slug": "arrow-1950-theoreme-impossibilite",
+  "titre": "Le théorème d'Arrow (1950-1951) : ce qu'il dit vraiment sur les votes",
+  "accroche": "Le théorème d'Arrow ne prouve pas qu'aucun vote n'est juste : il montre qu'un classement collectif est impossible sous quatre conditions précises.",
+  "discipline": "sciences_politiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "On résume parfois le théorème d'Arrow ainsi : « il n'existe aucun système de vote juste ». La formule fait un bon titre de conférence et un mauvais résumé. Le résultat est plus étroit, et c'est cette étroitesse qui le rend intéressant.\n\n## Une difficulté, publiée en 1950\n\nL'économiste américain Kenneth Arrow la présente d'abord dans un article de 1950, « A Difficulty in the Concept of Social Welfare », paru dans le *Journal of Political Economy*, puis la développe dans un livre de 1951, *Social Choice and Individual Values*. La question d'origine est celle de l'économie du bien-être : peut-on déduire, des préférences de chacun, un classement cohérent des options pour la société ?\n\n## Le mécanisme\n\nImaginons que chaque électeur classe des options, de la préférée à la moins aimée. On cherche une règle qui transforme tous ces classements individuels en un seul classement collectif. Arrow demande ce que doit respecter une telle règle, et retient quatre conditions raisonnables.\n\nLa première, le domaine universel, exige que la règle fonctionne quels que soient les classements des électeurs. La deuxième, l'efficacité de Pareto, veut que si tout le monde préfère A à B, la société aussi. La troisième, l'indépendance par rapport aux options non pertinentes, demande que le classement collectif entre A et B ne dépende que de la façon dont chacun classe A et B, et non d'une troisième option C. La quatrième, la non-dictature, interdit qu'un seul électeur impose toujours son classement.\n\nLe théorème affirme que, dès qu'il y a au moins trois options, aucune règle ne satisfait ces quatre conditions à la fois. L'idée sous-jacente remonte au paradoxe de Condorcet : une majorité peut préférer A à B, B à C et C à A, de sorte que le « classement de la société » tourne en rond.\n\n## Le déplacement\n\nLe piège est de lire l'impossibilité comme une condamnation de la démocratie. Elle porte sur une classe de règles, celles qui n'utilisent que des classements ordinaux, et sur quatre exigences dont chacune peut être discutée. Si l'on renonce à l'une d'elles, par exemple en laissant les électeurs noter les options plutôt que les classer, le théorème ne s'applique plus tel quel : c'est ce que soulignent les présentations contemporaines, qui notent que les systèmes à notes échappent à son énoncé.\n\nIl vaut aussi pour bien d'autres choses que le vote : toute procédure qui agrège des préférences ordinales, dans un marché, une assemblée ou une constitution, tombe sous sa portée. Arrow a reçu en 1972 le prix Nobel d'économie, avec John Hicks, pour ses contributions à la théorie de l'équilibre économique général et à celle du bien-être.\n\nCe que le théorème impose, c'est de choisir : renoncer à une condition, et savoir laquelle, plutôt que de chercher une règle parfaite qui n'existe pas. Reste à savoir laquelle des quatre on accepte de sacrifier.",
+  "citation": null,
+  "repere": {
+    "texte": "En 1972, Kenneth J. Arrow reçoit le prix Nobel d'économie, avec John R. Hicks, « pour leurs contributions pionnières à la théorie de l'équilibre économique général et à la théorie du bien-être ».",
+    "source": "Nobel Prize Outreach, « The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 1972 »",
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/1972/summary/"
+  },
+  "carte": {
+    "punch": "Arrow ne prouve pas qu'aucun vote n'est juste : il vise les classements.",
+    "idee": "Arrow montre que, avec au moins trois options, aucune règle qui transforme des classements individuels en classement collectif ne respecte à la fois domaine universel, Pareto, indépendance des options non pertinentes et non-dictature. Il ne vise pas le vote par notes.",
+    "source_courte": "Arrow, J. Polit. Econ., 1950"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Kenneth J. Arrow",
+      "titre": "A Difficulty in the Concept of Social Welfare",
+      "publication": "Journal of Political Economy, vol. 58, n° 4",
+      "annee": 1950,
+      "url": "https://www.jstor.org/stable/1828886",
+      "note": "Article d'origine du théorème (pp. 328-346), précurseur du livre Social Choice and Individual Values (1951). Références vérifiées par recoupement bibliographique ; texte intégral derrière accès JSTOR."
+    },
+    {
+      "type": "web",
+      "auteur": "Nobel Prize Outreach",
+      "titre": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 1972",
+      "publication": "NobelPrize.org",
+      "annee": 1972,
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1972/summary/",
+      "note": "Confirme l'attribution à Kenneth J. Arrow (avec John R. Hicks) pour des contributions pionnières à l'équilibre général et à la théorie du bien-être."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "Arrow's impossibility theorem",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem",
+      "note": "Énoncé des quatre conditions, de la limite à trois options ou plus, et précision que le théorème ne s'applique pas aux systèmes de vote cardinaux (par notes)."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplat : trois flèches qui se suivent en cercle (A vers B, B vers C, C vers A), enfermées dans un carré divisé en quatre cases dont l'une est vide. Deux encres contrastées, pas de dégradé, pas de visage.",
+    "alt": "Trois flèches formant un cercle dans un carré à quatre cases dont une est vide",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que démontre exactement le théorème d'Arrow ?",
+    "choix": [
+      "Qu'aucun système de vote ne peut être considéré comme équitable",
+      "Que la démocratie représentative ne peut jamais produire de majorité stable",
+      "Que le vote à la majorité simple est toujours dominé par le vote par classement",
+      "Qu'avec trois options ou plus, aucune règle d'agrégation de classements ne respecte quatre conditions"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Le résultat est limité : il porte sur l'agrégation de classements et sur quatre conditions données, et il ne compare pas les systèmes entre eux. Il ne condamne ni la démocratie ni le vote en général, et laisse ouvertes des règles qui sortent du cadre, comme la notation.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-06",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
