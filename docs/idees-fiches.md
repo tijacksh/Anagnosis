@@ -52,7 +52,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Preuve et erreur judiciaire | Le premier innocentement par ADN rétroactif, Gary Dotson (1989) | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | Timothy Evans, pendu en 1950 pour un meurtre confessé par John Christie en 1953 | fait | routine-production | 2026-09-19 |
 | Génétique | L'expérience du pois de Mendel (1866), ignorée 34 ans avant sa redécouverte | proposé | Orkidea | 2026-08-28 |
-| Sciences politiques | Le paradoxe de Condorcet (1785) | proposé | Orkidea | 2026-08-28 |
+| Sciences politiques | Le paradoxe de Condorcet (1785) | fait | routine-production | 2026-10-06 |
+| Sciences politiques | La loi de Duverger (1951), mode de scrutin et nombre de partis | fait | routine-production | 2026-10-06 |
+| Sciences politiques | La fenêtre d'Overton, un concept jamais formulé par écrit par son auteur | fait | routine-production | 2026-10-06 |
+| Sciences politiques | L'origine du mot « gerrymander » (Massachusetts, 1812) | fait | routine-production | 2026-10-06 |
 | Linguistique | L'hypothèse Sapir-Whorf et le mythe du vocabulaire inuit de la neige | proposé | Orkidea | 2026-08-28 |
 | Histoire de l'art | Le scandale du Salon des Refusés (1863) et le *Déjeuner sur l'herbe* de Manet | fait | routine-production | 2026-08-24 |
 | Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » | proposé | Orkidea | 2026-08-28 |

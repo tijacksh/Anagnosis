@@ -1,0 +1,69 @@
+{
+  "id": "pol-paradoxe-condorcet-1785",
+  "slug": "paradoxe-condorcet-1785",
+  "titre": "Le paradoxe de Condorcet (1785), quand la majorité se contredit elle-même",
+  "accroche": "Trois électeurs parfaitement rationnels suffisent à produire une majorité qui se contredit elle-même : A bat B, B bat C, C bat A.",
+  "discipline": "sciences_politiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1785, le mathématicien et philosophe Nicolas de Condorcet publie à Paris, chez l'Imprimerie royale, un traité de près de 500 pages au titre austère : *Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix*. Il y pose une question qui semblait n'appeler qu'une réponse évidente : si chaque électeur raisonne de façon cohérente, le choix de la majorité l'est-il aussi ? La réponse, démontrée par le calcul, est non.\n\n## Un cycle sans vainqueur\n\nImaginez trois candidats, A, B et C, et trois électeurs aux préférences parfaitement ordonnées : le premier classe A avant B avant C, le second B avant C avant A, le troisième C avant A avant B. Chacun raisonne sans la moindre contradiction interne. Pourtant, en confrontant les votes deux à deux, une majorité préfère A à B, une autre majorité préfère B à C, et une troisième préfère C à A. Le résultat collectif boucle sur lui-même : A l'emporte sur B, B sur C, C sur A, sans qu'aucun des trois ne puisse être désigné vainqueur. Condorcet construit des exemples numériques plus étoffés, avec des électorats de plusieurs dizaines de votants, pour montrer que ce cycle n'est pas un cas limite exotique : dans un vote à trois options et plus, il peut surgir dès que les préférences individuelles sont suffisamment variées entre les électeurs.\n\n## Ce que la majorité ne peut pas garantir\n\nLe paradoxe ne dit rien contre l'intelligence des électeurs : chacun, pris séparément, vote de façon rationnelle. Il dit quelque chose de plus inconfortable sur l'addition des votes elle-même, qui peut perdre la transitivité (si A bat B et B bat C, on s'attendrait à ce que A batte C) que chaque électeur respecte pourtant dans son propre classement. Un siècle et demi plus tard, l'économiste Kenneth Arrow généralisera ce résultat en 1951 : aucun système de vote agrégeant des préférences individuelles ne peut satisfaire en même temps un petit nombre de conditions pourtant raisonnables, dont l'absence de dictateur et la cohérence du choix collectif. Condorcet avait, sans le nommer ainsi, ouvert la brèche par laquelle l'économie du choix social s'engouffrera près de cent soixante-dix ans plus tard. Ce qu'on appelle « la volonté de la majorité » n'est donc pas toujours une chose qui existe à proprement parler : selon l'ordre dans lequel on pose les questions à un même électorat, un vote peut donner des résultats inverses, sans qu'aucune préférence individuelle n'ait changé.",
+  "citation": null,
+  "repere": {
+    "texte": "Dans l'exemple numérique donné par Condorcet, sur 60 électeurs, 33 préfèrent A à B, 42 préfèrent B à C et 35 préfèrent C à A : chaque majorité est réelle, et pourtant A, B et C se battent chacun à leur tour, sans qu'aucun ne puisse l'emporter sur les deux autres.",
+    "source": "Wikipedia, « Condorcet paradox »",
+    "url": "https://en.wikipedia.org/wiki/Condorcet_paradox"
+  },
+  "carte": {
+    "punch": "Trois électeurs parfaitement rationnels peuvent voter une majorité qui se contredit elle-même.",
+    "idee": "En 1785, Condorcet démontre par le calcul qu'une majorité peut se contredire : A bat B, B bat C, C bat A, alors que chaque électeur vote de façon parfaitement cohérente. Un siècle et demi plus tard, Arrow en tirera un théorème général sur les limites de tout vote.",
+    "source_courte": "Wikipédia, « Paradoxe de Condorcet »"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "Paradoxe de Condorcet",
+      "publication": "Wikipédia",
+      "annee": null,
+      "url": "https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet",
+      "note": "Confirme le titre et la date de 1785 de l'Essai de Condorcet, le mécanisme du cycle intransitif à trois candidats (A>B>C>A) et la filiation avec le théorème d'impossibilité d'Arrow (1951)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia contributors",
+      "titre": "Condorcet paradox",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Condorcet_paradox",
+      "note": "Confirme le titre complet de l'ouvrage de 1785 et donne l'exemple numérique à 60 électeurs (33 contre 27, 42 contre 18, 35 contre 25) illustrant le cycle intransitif, repris pour le repère."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : trois flèches épaisses formant un triangle fermé, chacune pointant vers la suivante dans un sens unique, sans point de départ ni d'arrivée visible. Contours nets, pas de dégradé, une seule encre sur fond contrasté.",
+    "alt": "Trois flèches formant un triangle fermé, chacune pointant vers la suivante sans point de départ",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le paradoxe de Condorcet montre-t-il qu'une majorité peut se contredire elle-même ?",
+    "choix": [
+      "Parce que certains électeurs votent de façon irrationnelle ou changent d'avis en cours de scrutin",
+      "Parce que l'addition de préférences individuelles cohérentes peut produire un cycle sans vainqueur",
+      "Parce que Condorcet limitait son analyse aux votes opposant seulement deux candidats",
+      "Parce que les électeurs se concertent en secret pour désigner un vainqueur à tour de rôle"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Chaque électeur est cohérent, mais la majorité, elle, peut former un cycle A>B>C>A : ce n'est pas une erreur de vote ni une concertation, c'est une propriété de l'agrégation elle-même, que Condorcet démontre avec des exemples à trois candidats et plus.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-10-06", "genere_par": "claude-code", "version": 1 }
+}
