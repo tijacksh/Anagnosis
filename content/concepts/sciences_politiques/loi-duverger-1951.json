@@ -59,7 +59,41 @@
     "explication": "Rien n'interdit un troisième parti : c'est le risque de voir sa voix ne compter pour aucun siège qui pousse les électeurs à se rabattre sur le grand parti le mieux placé pour battre celui qu'ils aiment le moins, circonscription après circonscription.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel effet Duverger attribue-t-il à la représentation proportionnelle ?",
+      "choix": [
+        "Elle force les petits partis à fusionner avant chaque élection",
+        "Elle ramène le paysage politique vers deux grands blocs stables",
+        "Elle interdit aux formations minoritaires d'obtenir le moindre élu",
+        "Elle retire le risque du vote minoritaire et encourage la multiplication des partis"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Avec les sièges attribués au prorata des voix, une formation à 8 % peut avoir des élus : voter pour un petit parti n'est plus perdu, donc les partis se multiplient au lieu de fusionner."
+    },
+    {
+      "question": "Pourquoi le Canada et l'Inde nuancent-ils la loi de Duverger ?",
+      "choix": [
+        "Leurs partis régionaux ont des bases électorales concentrées, ce qui les maintient malgré le scrutin à un tour",
+        "Ils appliquent la représentation proportionnelle intégrale à toutes leurs élections",
+        "Leur Constitution impose un nombre minimal de partis représentés au Parlement",
+        "Leurs électeurs refusent par principe de pratiquer le vote utile"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le scrutin y est uninominal à un tour, mais des partis solidement implantés région par région gagnent des sièges : Duverger parlait d'une tendance, pas d'un théorème."
+    },
+    {
+      "question": "Que permet le scrutin majoritaire à deux tours, selon la fiche ?",
+      "choix": [
+        "Une fusion forcée en deux partis, comme au Royaume-Uni",
+        "Un émiettement total, chaque parti restant isolé jusqu'au bout",
+        "Un multipartisme organisé par blocs, avec coordination au second tour",
+        "L'élimination de tout parti qui n'est pas arrivé en tête partout"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Plusieurs partis proches se mesurent au premier tour, puis se coordonnent au second autour du mieux placé : ni la fusion britannique, ni l'émiettement de la proportionnelle."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
