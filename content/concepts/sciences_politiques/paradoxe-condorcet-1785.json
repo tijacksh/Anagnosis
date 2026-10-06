@@ -59,7 +59,30 @@
     "explication": "Chaque électeur est cohérent, mais la majorité, elle, peut former un cycle A>B>C>A : ce n'est pas une erreur de vote ni une concertation, c'est une propriété de l'agrégation elle-même, que Condorcet démontre avec des exemples à trois candidats et plus.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Dans l'exemple numérique donné par Condorcet, combien d'électeurs sur 60 préfèrent B à C ?",
+      "choix": [
+        "33",
+        "42",
+        "35",
+        "60"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Sur les 60 électeurs de l'exemple, 42 préfèrent B à C, 33 préfèrent A à B et 35 préfèrent C à A : chaque majorité est réelle, mais aucun des trois candidats ne l'emporte sur les deux autres."
+    },
+    {
+      "question": "Qui généralise le résultat de Condorcet en 1951, avec un théorème sur les systèmes de vote ?",
+      "choix": [
+        "John Rawls",
+        "Max Weber",
+        "Kenneth Arrow",
+        "James Madison"
+      ],
+      "bonne_reponse": 2,
+      "explication": "En 1951, l'économiste Kenneth Arrow démontre qu'aucun système de vote agrégeant des préférences individuelles ne peut satisfaire en même temps plusieurs conditions pourtant raisonnables."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
