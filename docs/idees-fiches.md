@@ -208,3 +208,7 @@ peut rouvrir directement le texte du décret.)*
 | Sciences politiques | Arrow (1950-1951) : le théorème d'impossibilité ne dit pas « aucun vote n'est juste » | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Hirschman (1970) : Exit, Voice, and Loyalty — pourquoi la sortie peut étouffer la protestation | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | John Herz (1950) : l'invention du « dilemme de sécurité » | fait | routine-production-arnaud | 2026-10-06 |
+| Astronomie | Le Gentil et les transits de Vénus de 1761 et 1769 : huit ans de voyage pour deux nuages | en cours | routine-production-arnaud | 2026-10-06 |
+| Astronomie | Cecilia Payne (1925) : les étoiles sont faites d'hydrogène, et Russell lui fait retirer la conclusion | en cours | routine-production-arnaud | 2026-10-06 |
+| Astronomie | L'étoile nouvelle de 1572 (Tycho Brahe) : pas de parallaxe, donc pas sous la Lune | en cours | routine-production-arnaud | 2026-10-06 |
+| Astronomie | L'éclipse de 1919 (Eddington) : ce que les plaques disaient vraiment de la déviation de la lumière | en cours | routine-production-arnaud | 2026-10-06 |
