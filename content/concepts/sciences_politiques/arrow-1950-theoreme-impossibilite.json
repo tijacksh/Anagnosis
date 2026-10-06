@@ -59,22 +59,31 @@
   "quiz": {
     "question": "Que démontre exactement le théorème d'Arrow ?",
     "choix": [
-      "Qu'aucun système de vote ne peut être considéré comme équitable",
-      "Que la démocratie représentative ne peut jamais produire de majorité stable",
-      "Que le vote à la majorité simple est toujours dominé par le vote par classement",
+      "Qu'aucun système de vote, quel qu'il soit, ne peut être considéré comme équitable",
+      "Que la démocratie représentative ne peut jamais produire de majorité stable, quel que soit le nombre d'options",
+      "Que le vote à la majorité simple est toujours moins bon que le vote par classement des préférences",
       "Qu'avec trois options ou plus, aucune règle d'agrégation de classements ne respecte quatre conditions"
     ],
     "bonne_reponse": 3,
     "explication": "Le résultat est limité : il porte sur l'agrégation de classements et sur quatre conditions données, et il ne compare pas les systèmes entre eux. Il ne condamne ni la démocratie ni le vote en général, et laisse ouvertes des règles qui sortent du cadre, comme la notation.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T19:37:26.885Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-06T19:37:26.885Z",
+        "note": "Sources rouvertes : Wikipedia Arrow's theorem et Kenneth Arrow, nobelprize.org (motif exact via curl) ; JSTOR illisible, référence recoupée. Corrigé : quiz dont la bonne réponse était la plus longue (distracteurs rallongés). Texte modifié donc plus de contrôle à jour : à repasser en /controler ; relecture favorable sinon (faits, carte relus)."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",

@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T19:37:21.692Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T19:37:21.692Z",
+        "note": "Rouvert : Wikisource fr ch. 18 (trad. Périès : résultat, moyens jugés honorables, formule absente) ; Wikisource en Marriott (idem) ; Wikipédia fr (Oresme, Commynes, Vigny 1841) ; Wikipedia The Prince (1513, 1532). Aucune correction. Carte et quiz relus."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",
