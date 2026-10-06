@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le rapport attribue le changement de mise au point à la chaleur du Soleil sur le miroir. Le résultat n'est pas la raison avancée, les nuages concernent Principe, et rien n'indique de plaques perdues.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -98,16 +98,33 @@
       "explication": "La relativité générale prévoit 1,75 seconde d'arc, soit le double de la valeur newtonienne : c'est ce qui permettait de départager les deux théories. La déviation n'est pas nulle."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T20:21:54.020Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-06T20:21:54.020Z",
+        "note": "Contrôle des sources : le corps affirme que le mesurage des clichés de Greenwich « dans une direction seulement » serait « signe qu'ils s'en méfiaient ». Kennefick (§ Murray) l'attribue à un raccourci de calcul de l'époque (mesure en déclinaison seule), pas à de la méfiance : inférence non soutenue. À reformuler ou retirer."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-06",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-06",
+    "verdict": "a_revoir",
+    "empreinte": "217f0da7c097fea2",
+    "notes": [
+      "Valeurs 0,93 / 1,52 / 1,61 / 1,98, mise au point et chaleur (p. 309, 312), 1,75 : retrouvées dans Kennefick (texte intégral arXiv lu). À revoir : la phrase sur la mesure dans une seule direction comme signe de méfiance contredit Murray cité par Kennefick (raccourci de calcul). Réserve : DOI Royal Society non ouvert (403), repère via Kennefick ; mesures radio datées des années 1960 par Wikipédia, des années 1970 par Kennefick."
+    ]
   }
 }
