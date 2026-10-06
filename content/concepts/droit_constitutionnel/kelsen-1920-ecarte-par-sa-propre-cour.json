@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le modèle diffus né avec Marbury laisse chaque juge, dans chaque affaire, écarter une loi qu'il juge inconstitutionnelle. Le modèle kelsénien concentre le pouvoir d'annuler une loi dans une cour unique.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Karl Renner qualifiera l'épisode de cour « décapitée », un jugement sévère porté par l'homme même qui avait chargé Kelsen de préparer la Constitution."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-04T19:51:25.833Z",
+    "decide_le": "2026-10-06T08:46:51.423Z",
     "historique": [
       {
         "action": "valider",
@@ -153,6 +153,14 @@
         "par": "routine-controle",
         "le": "2026-10-06T08:28:22.408Z",
         "note": "Contrôle du 2026-10-06 : saisine 1920 non soutenue par la page VfGH citée (gouvernement fédéral) et repère Kelsen rattaché à une page qui ne parle pas de lui. Détail dans controle.notes."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-06T08:46:51.423Z",
+        "note": "Déjà réparée deux fois puis revenue en contrôle avec de nouveaux points A_REVOIR de sens non levés ; rejet conformément à la règle de la routine."
       }
     ]
   },

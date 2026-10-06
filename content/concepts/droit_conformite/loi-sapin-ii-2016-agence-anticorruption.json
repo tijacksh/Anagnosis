@@ -119,7 +119,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La pression est venue de l'extérieur : les évaluations critiques de l'OCDE et des sanctions comme celle d'Alstom aux États-Unis, pas d'une échéance européenne ni d'une demande des entreprises elles-mêmes.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -159,11 +159,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-10-06T08:29:06.090Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-06T08:46:51.527Z",
     "historique": [
       {
         "action": "valider",
@@ -188,6 +188,14 @@
         "par": "routine-controle",
         "le": "2026-10-06T08:29:06.090Z",
         "note": "Contrôle : accroche/carte (« aucune loi pour le juger ») contredites par la loi du 30 juin 2000 ; contexte de l'audition de Sapin (2021) ; phase 3 « aucune poursuite » vs « aucune condamnation définitive ». Voir controle.notes."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-06T08:46:51.527Z",
+        "note": "Déjà réparée deux fois puis revenue en contrôle avec de nouveaux points A_REVOIR de sens non levés ; rejet conformément à la règle de la routine."
       }
     ]
   },

@@ -98,7 +98,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le résultat de Blake date du 15 août 1988, mais le gouverneur Thompson n'a pas agi sans l'avis de la Prisoner Review Board, qui a tardé neuf mois. Breen a alors déposé une requête devant le tribunal le 3 mai 1989 ; le parquet s'y est joint le 14 août 1989 et les poursuites ont été abandonnées. Le retard tenait donc à une grâce restée sans réponse, non au laboratoire.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -135,11 +135,11 @@
       "explication": "L'abandon des poursuites en 1989 n'efface pas juridiquement la culpabilité, ni la commutation de 1985 : il faut attendre le 9 janvier 2003 pour que le gouverneur George Ryan accorde une grâce fondée sur l'innocence."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-10-06T08:29:50.243Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-06T08:46:51.315Z",
     "historique": [
       {
         "action": "valider",
@@ -172,6 +172,14 @@
         "par": "routine-controle",
         "le": "2026-10-06T08:29:50.243Z",
         "note": "Contrôle du 2026-10-06 : date de la grâce Ryan (9 janvier 2003) non soutenue par les sources ouvertes (Wikipedia dit 2002) ; détails du récit non sourcés. Détail dans controle.notes."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-06T08:46:51.315Z",
+        "note": "Déjà réparée deux fois puis revenue en contrôle avec de nouveaux points A_REVOIR de sens non levés ; rejet conformément à la règle de la routine."
       }
     ]
   },
