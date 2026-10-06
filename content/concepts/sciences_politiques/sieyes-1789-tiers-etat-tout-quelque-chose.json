@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T22:36:56.810Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T22:36:56.810Z",
+        "note": "Sources rouvertes : Wikisource (Qu'est-ce que le Tiers-État ?, texte complet relu, chap. 1-6) et Wikipédia (pamphlet de janvier 1789). Vérifié mot pour mot : trois questions/réponses, moins de 200 000 privilégiés, 25-26 millions, « embrasse donc tout », trois demandes, « parfaitement illusoire », « insuffisance des trois demandes », « Il composera une Assemblée nationale » (chap. 6). Carte et quiz conformes, distracteurs faux, longueurs équilibrées. Réserve mineure non bloquante : « hypothèse de repli » pour l'Assemblée nationale, que Sieyès assume plutôt (« Eh ! Tant mieux ! ») ; formulation à nuancer à l'occasion."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",

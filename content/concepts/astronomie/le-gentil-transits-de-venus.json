@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "La méthode confronte les instants observés depuis des lieux éloignés : un site perdu ne la ruine pas, puisque 77 sites ont observé. Le passage de 1761 n'avait pas été observé par Le Gentil, et la date d'un passage ne se choisit pas.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -98,12 +98,21 @@
       "explication": "Les instants d'entrée et de sortie de Vénus varient selon le lieu d'observation. Confrontés, ces écarts donnent la taille du système solaire, donc la distance Terre-Soleil. Les trois autres grandeurs ne s'obtiennent pas ainsi."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T22:36:56.901Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-06T22:36:56.901Z",
+        "note": "Sources rouvertes : IMCCE fiche 20c (PDF relu en entier), The Conversation, Wikipédia en. Chiffres confirmés (151 obs./77 sites, 27 lunettes vs 3, 1760-1771). À corriger : (1) titre « deux nuages » faux, un seul nuage (1769) ; (2) « la mesure a réussi / exactement ce qu'on attendait » (accroche, punch, corps, quiz) dépasse l'IMCCE qui dit que les observations ne donnent pas de valeur définitive, seulement une nette amélioration ; (3) 8,43-8,80 est la conclusion IMCCE, son tableau contient aussi 9,2 et 8,88 : attribuer ; (4) « ciel clair » le jour du passage 1761 et navire en mer non soutenus par les sources (quiz_supplementaire[0] repose dessus) ; trouver une source ou reformuler (Pondichéry aux mains des Britanniques, abordage impossible) ; (5) bonnes réponses du quiz et quiz_supplementaire[1] repérables par leur longueur ; (6) « reconnaissance tardive », « géographie de l'océan Indien », Halley 1716, traité de 1763 : non soutenus par les sources rouvertes."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-06",
