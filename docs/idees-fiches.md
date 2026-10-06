@@ -212,7 +212,7 @@ peut rouvrir directement le texte du décret.)*
 | Astronomie | Cecilia Payne (1925) : les étoiles sont faites d'hydrogène, et Russell lui fait retirer la conclusion | fait | routine-production-arnaud | 2026-10-06 |
 | Astronomie | L'étoile nouvelle de 1572 (Tycho Brahe) : pas de parallaxe, donc pas sous la Lune | fait | routine-production-arnaud | 2026-10-06 |
 | Astronomie | L'éclipse de 1919 (Eddington) : ce que les plaques disaient vraiment de la déviation de la lumière | fait | routine-production-arnaud | 2026-10-06 |
-| Climat et météorologie | Eunice Foote (1856) : le CO₂ chauffe au soleil, un siècle et demi avant qu'on la cite | en cours | routine-production-arnaud | 2026-10-07 |
-| Climat et météorologie | Teisserenc de Bort et Assmann (1902) : la température cesse de baisser vers 11 km, la stratosphère | en cours | routine-production-arnaud | 2026-10-07 |
-| Climat et météorologie | Tambora (1815) et l'été 1816 : un été froid et pluvieux, pas seulement froid | en cours | routine-production-arnaud | 2026-10-07 |
-| Climat et météorologie | Hadley (1735) : les alizés expliqués un siècle avant Coriolis, et pourquoi on l'a oublié | en cours | routine-production-arnaud | 2026-10-07 |
+| Climat et météorologie | Eunice Foote (1856) : le CO₂ chauffe au soleil, un siècle et demi avant qu'on la cite | fait | routine-production-arnaud | 2026-10-07 |
+| Climat et météorologie | Teisserenc de Bort et Assmann (1902) : la température cesse de baisser vers 11 km, la stratosphère | fait | routine-production-arnaud | 2026-10-07 |
+| Climat et météorologie | Tambora (1815) et l'été 1816 : un été froid et pluvieux, pas seulement froid | fait | routine-production-arnaud | 2026-10-07 |
+| Climat et météorologie | Hadley (1735) : les alizés expliqués un siècle avant Coriolis, et pourquoi on l'a oublié | fait | routine-production-arnaud | 2026-10-07 |
