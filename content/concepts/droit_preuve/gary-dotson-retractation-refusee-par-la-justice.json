@@ -43,7 +43,15 @@
       "titre": "Gary Dotson, one of the first DNA exonerees, celebrates 18 years of freedom",
       "annee": 2007,
       "url": "https://innocenceproject.org/news/gary-dotson-one-of-the-first-dna-exonerees-celebrates-18-years-of-freedom/",
-      "note": "Confirme la fondation de l'Innocence Project en 1992, postérieure à l'affaire Dotson, et emploie la formule prudente « one of the first » plutôt que « the first »."
+      "note": "Article de 2007 sur les dix-huit ans de liberté de Dotson (exonéré le 14 août 1989) : emploie la formule prudente « one of the first people to be exonerated through DNA testing » plutôt que « the first »."
+    },
+    {
+      "type": "institution",
+      "auteur": "Innocence Project",
+      "titre": "About",
+      "annee": 2026,
+      "url": "https://innocenceproject.org/about/",
+      "note": "Confirme la fondation de l'Innocence Project en 1992 par Peter Neufeld et Barry Scheck, postérieure à l'affaire Dotson."
     },
     {
       "type": "web",
@@ -90,7 +98,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le résultat de Blake date du 15 août 1988, mais le gouverneur Thompson n'a pas agi sans l'avis de la Prisoner Review Board, qui a tardé neuf mois. Breen a alors déposé une requête devant le tribunal le 3 mai 1989 ; le parquet s'y est joint le 14 août 1989 et les poursuites ont été abandonnées. Le retard tenait donc à une grâce restée sans réponse, non au laboratoire.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -127,11 +135,11 @@
       "explication": "L'abandon des poursuites en 1989 n'efface pas juridiquement la culpabilité, ni la commutation de 1985 : il faut attendre le 9 janvier 2003 pour que le gouverneur George Ryan accorde une grâce fondée sur l'innocence."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-04T19:52:48.693Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-06T08:29:50.243Z",
     "historique": [
       {
         "action": "valider",
@@ -156,17 +164,23 @@
         "par": "routine-reparation",
         "le": "2026-10-04T19:52:48.693Z",
         "note": "Sources rouvertes : Northwestern Center on Wrongful Convictions (chronologie 1985-1989), Wikipedia Timothy Wilson Spencer, ARLnow (Hamm/Vasquez/Spencer) ; Registry Dotson et Vasquez en 403 robots (Dotson vu via archive par le contrôle, Vasquez retiré des sources). Corrigé : délai d'un an attribué à une grâce restée sans réponse (commission des grâces, 9 mois) puis requête du 3 mai 1989 à laquelle le parquet se joint, plus à un « temps de procédure » (quiz principal et explication refaits) ; test de Jeffreys (RFLP) échoué en avril 1988 et test PCR de Blake distingués, test demandé par Breen et approuvé par le gouverneur Thompson ; Vasquez : plus de lien ADN direct « à trois autres meurtres », remplacé par l'implication de Spencer (jamais jugé pour Hamm), échantillon Hamm trop dégradé ; « estimant que la preuve aurait changé l'issue » retiré (non soutenu) ; 14 ans → plus de 13 ans ; quiz supplémentaire 2 aligné. Non revérifié ici : l'âge/les peines/Innocence Project 1992 confirmés par le contrôle du jour."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-06T08:29:50.243Z",
+        "note": "Contrôle du 2026-10-06 : date de la grâce Ryan (9 janvier 2003) non soutenue par les sources ouvertes (Wikipedia dit 2002) ; détails du récit non sourcés. Détail dans controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-04",
+    "fait_le": "2026-10-06",
     "verdict": "a_revoir",
-    "empreinte": "1c966e75dbbd402f",
+    "empreinte": "29f3caf038e8b8cc",
     "notes": [
-      "Sources rouvertes : National Registry of Exonerations (Dotson), via une copie d'archive car la page est bloquée par un contrôle anti-robot ; Northwestern Center on Wrongful Convictions (texte intégral) ; Innocence Project ; Wikipedia « Timothy Wilson Spencer ». La page Registry « David Vasquez » (10922) n'a pas pu être ouverte (403 anti-robot, aucune copie d'archive). Confirmés : 9 juillet 1977, Cathleen Crowell 16 ans, Homewood ; Dotson 20 ans ; peines de 25 à 50 ans ; audience du 11 avril 1985 devant le juge Samuels ; commutation en temps purgé avec refus de la grâce (12 mai 1985) ; test de Blake notifié le 15 août 1988 ; audience du 14 août 1989 devant le juge Thomas R. Fitzgerald et abandon des charges ; grâce du 9 janvier 2003 ; Innocence Project « one of the first » ; Blake « Berkeley-educated ».",
-      "A_REVOIR (sens). (a) Quiz principal : la bonne réponse et l'explication attribuent le délai d'un an à la procédure (« le retard ne venait ni du laboratoire ni d'un obstacle légal, mais du temps propre à la procédure judiciaire »). Northwestern et le Registry disent autre chose : après le résultat du 15 août 1988, le gouverneur Thompson a refusé d'agir avant une recommandation du Prisoner Review Board, qui n'était toujours pas venue neuf mois plus tard ; Breen dépose alors une requête devant le tribunal (mai 1989), et le parquet annonce d'abord qu'il s'y opposera avant de s'y joindre le 14 août 1989 (« it took a full year … for the prosecution to finally admit error », Registry). Le retard est celui d'une grâce restée sans réponse et d'un parquet résistant, pas d'un délai de procédure. (b) Corps : « les avocats de Dotson fassent retester la pièce … le profil génétique … par Alec Jeffreys … L'échantillon part vers … Blake » : c'est le gouverneur Thompson qui a ordonné les tests en janvier 1988 sur demande de Breen ; le test de Jeffreys (RFLP) a échoué le 7 avril 1988 (échantillon trop dégradé) et c'est une autre technique, la PCR de Blake, qui a exclu Dotson. La fiche confond les deux et omet l'échec. (c) quiz_supplementaire[1] et note de la source Vasquez : « un ADN reliant … Timothy Spencer à ce meurtre et à trois autres » alors que « l'échantillon … trop dégradé pour être testé » : Wikipedia (Spencer) décrit l'ADN comme reliant Spencer aux meurtres de 1987 pour lesquels il a été jugé (Richmond, Arlington) et précise qu'il n'a jamais été inculpé ni condamné pour le meurtre de Carolyn Hamm (1984), celui pour lequel Vasquez avait été condamné ; la page Registry citée n'a pas pu être rouverte pour trancher.",
-      "Note : la narration du Registry (copie d'archive) donne « Gary Dotson, 24 » pour l'âge à l'identification, la fiche indique 20 comme la fiche technique du même Registry (« Age at the date of reported crime: 20 ») et comme Northwestern (22 ans à la condamnation) : la fiche est exacte."
+      "Sources rouvertes : Northwestern, Innocence Project (article 2007 et page About), Wikipedia Spencer et Dotson, ARLnow ; Registry Dotson en 403 (non rouvrable, archive.org refusé). Réparations du contrôle précédent confirmées : cause du retard 1988-89 (Prisoner Review Board 9 mois, requête du 3 mai 1989, parquet qui s'oppose puis se joint, juge Fitzgerald 14 août 1989), RFLP Jeffreys échoué le 7 avril 1988 vs PCR Blake 15 août 1988, Vasquez/Spencer/Hamm (ADN dégradé, Spencer jamais inculpé). Corrigé seul : source Innocence Project 2007 dont la note affirmait la fondation en 1992 alors que l'article ne le dit pas ; note recadrée et source ajoutée innocenceproject.org/about (fondée en 1992, vérifié). A_REVOIR (sens) : (1) grâce du gouverneur Ryan « le 9 janvier 2003 » (corps, quiz_supplementaire[2] dont c'est la bonne réponse) : aucune source ouverte ne la donne ; Northwestern n'en parle pas, Wikipedia Dotson écrit 2002, une recherche web dit 9 janvier 2003, Registry non ouvrable. Trouver une source ouvrable (Registry, Illinois, presse) ou assouplir la date. (2) Non soutenus par les sources ouvertes : « procès de trois jours », arrestation « le 15 juillet » (Northwestern : environ 14 juillet), condamnation « en juillet » 1979 (Wikipedia : mai 1979). (3) « Dotson reste donc le premier condamné américain... » : plus fort que « one of the first » de l'Innocence Project ; à nuancer."
     ]
   },
   "controle_juridique": null,

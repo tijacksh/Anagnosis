@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Avant 1708, aucune loi anglaise ne garantit l'immunité des ambassadeurs : elle relève de la coutume, donc dépend de ceux qui l'appliquent. L'arrestation de Matveïev par des huissiers montre la limite d'une protection seulement coutumière, et le Parlement vote ensuite un texte.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -100,11 +100,11 @@
       "explication": "La loi annule toute poursuite civile contre un ambassadeur ou ses domestiques, et tient quiconque l'engagerait ou la ferait exécuter pour « violateur du droit des gens »."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-05T07:53:16.345Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-06T08:29:06.091Z",
     "historique": [
       {
         "action": "valider",
@@ -121,15 +121,24 @@
         "par": "routine-reparation",
         "le": "2026-10-05T07:53:16.345Z",
         "note": "Rouvert : Wikipedia Diplomatic Privileges Act 1708 (7 Ann. c. 12, entrée en vigueur 16.11.1708, assentiment 21.4.1709, abrogation partielle 1867 puis totale 1964, nullité des poursuites civiles, violateur du droit des gens, loi déclaratoire) ; Wikipedia Andrey Matveyev (mission de médiation Suède/Russie et refus de reconnaître Leszczyński, arrestation par huissiers avant le départ, sponging-house, 50 livres, excuses du Parlement et de la reine, tollé du corps diplomatique) ; legislation.gov.uk 1964 (en vigueur 1.10.1964, n'évoque pas 1708). Retiré car non sourcé : exigence de réparation de Pierre le Grand, « garantie écrite » demandée par le corps diplomatique, marchands créanciers aux comptes ouverts, mission « achevée ». Ajouté : excuses, tollé, dates 1867/1964, nuance loi déclaratoire, assentiment 1709. Quiz (question 2) et carte alignés. Piège : l'abrogation de 1708 repose sur la notice Wikipedia, la loi de 1964 ne la nomme pas."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-06T08:29:06.091Z",
+        "note": "Contrôle : « grave entorse diplomatique » non sourcé ; article 6 abrogé en 1887 omis ; 16/11/1708 = ouverture de session, pas « entrée en vigueur ». Voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-04",
+    "fait_le": "2026-10-06",
     "verdict": "a_revoir",
-    "empreinte": "0767086c30d98ab8",
+    "empreinte": "af35698816001fbf",
     "notes": [
-      "Sources rouvertes (Wikipedia Diplomatic Privileges Act 1708, Andrey Matveyev). Confirmés : arrestation par huissiers avant le départ, 50 livres, nullité des poursuites civiles, « violateurs du droit des gens », abrogation par la loi de 1964. À vérifier : les excuses de la reine Anne et du Parlement, l'exigence de réparation de Pierre le Grand et surtout la demande d'une « garantie écrite » par le corps diplomatique de Londres ne figurent dans aucune source de la fiche (Wikipedia dit seulement que la loi a été votée pour apaiser Pierre le Grand, et que Matveïev a été libéré sous caution puis a quitté le pays). Ces éléments donnent le ressort causal de la fiche : à sourcer (Hansard, Cobbett, Parliamentary History) ou retirer. Nuance : la loi n'est abrogée en 1964 que dans son entier ; les articles 1 et 2 l'étaient déjà en 1867 ; la date du 16 novembre 1708 n'apparaît pas dans le texte de la notice Wikipedia ouverte."
+      "Points du contrôle précédent réparés : excuses de la reine/Parlement et tollé du corps diplomatique présents dans Wikipedia Andrey Matveyev ; « garantie écrite » retirée ; vote pour apaiser Pierre le Grand conforme ; 50 livres, caution, 16/11/1708, assentiment 21/04/1709, 1867, 1964, loi déclaratoire contestée : OK. Quiz et distracteurs OK.",
+      "RESTE (1) « grave entorse diplomatique » (lettres de rappel non présentées) : fait sourcé, jugement non sourcé ; à sourcer ou retirer. (2) « le reste est abrogé le 1er octobre 1964 » : Wikipedia indique aussi l'article 6 abrogé en 1887. (3) 16/11/1708 = ouverture de session parlementaire (« commenced »), « entrée en vigueur » dans le repère discutable ; assentiment 21/04/1709. Statut en_retouche."
     ]
   },
   "controle_juridique": null,

@@ -119,7 +119,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La pression est venue de l'extérieur : les évaluations critiques de l'OCDE et des sanctions comme celle d'Alstom aux États-Unis, pas d'une échéance européenne ni d'une demande des entreprises elles-mêmes.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -159,11 +159,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-04T19:50:42.760Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-06T08:29:06.090Z",
     "historique": [
       {
         "action": "valider",
@@ -180,15 +180,24 @@
         "par": "routine-reparation",
         "le": "2026-10-04T19:50:42.760Z",
         "note": "Sources rouvertes : rapport AN n°4325 (convention OCDE en vigueur en France le 29 sept. 2000), Doctrine (loi 2000-595 = transposition de la convention, pas ratification), Le Monde du Droit et Navacelle (rapport phase 4 du 9 déc. 2021), Mondaq. Corrigé : « ratifié par la loi du 30 juin 2000 » remplacé par l'entrée en vigueur le 29 septembre 2000 ; page AFA en 404 remplacée par le rapport OCDE phase 4 (page OCDE en 403 robots, contenu recoupé via deux commentaires) ; « retrouver crédibilité et visibilité » et « élèves en retard » non retrouvés, retirés et remplacés par la formule vérifiée (prévention au cœur de la politique) et la comparaison phase 3/phase 4 (3 condamnations mineures, 19 personnes, 18 personnes morales) ; quiz supplémentaire 3 aligné. Non rouvert à la main : page OCDE phase 3 de suivi 2014 (403), chiffres 4/17/12 vérifiés lors d'une réparation précédente et signalés comme tels en note. Alstom 772 M$, article 17, DOJ confirmés par le contrôle du 2026-10-04."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-06T08:29:06.090Z",
+        "note": "Contrôle : accroche/carte (« aucune loi pour le juger ») contredites par la loi du 30 juin 2000 ; contexte de l'audition de Sapin (2021) ; phase 3 « aucune poursuite » vs « aucune condamnation définitive ». Voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-04",
+    "fait_le": "2026-10-06",
     "verdict": "a_revoir",
-    "empreinte": "36a5074852b2f804",
+    "empreinte": "25d46ddff791376a",
     "notes": [
-      "Sources rouvertes. Confirmés : Alstom 772 M$ record FCPA (Compliance Week, DOJ), rapport de la commission d'information de l'AN. À vérifier : (1) l'url de la source AFA « Évaluation de l'OCDE : la France passée à la loupe » répond 404 (page retirée ou déplacée) alors qu'elle sert de source à la citation de la phase 4 et à « élèves en retard » ; source de remplacement à choisir (rapport OCDE phase 4 de décembre 2021). (2) « la France a ratifié, par la loi du 30 juin 2000, la convention de l'OCDE » : non sourcé ; le rapport de l'AN indique une entrée en vigueur en France le 29 septembre 2000, la loi du 30 juin 2000 est une loi de transposition pénale, pas la ratification : reformuler après vérification. (3) La page OCDE phase 3 de suivi (2014) est en 403 pour les robots, à rouvrir à la main."
+      "Réparations du 2026-10-04 vérifiées (url AFA 404 remplacée par phase 4 OCDE, entrée en vigueur 29/09/2000 au lieu de « ratifié », phase 3 de suivi 4/17/12 reconfirmé par recherche, formule phase 4 confirmée, Alstom 772 M$, article 17, chronologie, 19 personnes/18 personnes morales : OK). Pages OCDE (403) et DOJ (vide) toujours non ouvrables par fetch.",
+      "RESTE (1) accroche et carte : « la France n'avait alors aucune loi pour le juger elle-même » / « sans qu'aucune loi française ne l'impose » contredit la loi du 30 juin 2000 (incrimination de la corruption d'agents publics étrangers, source Doctrine de la fiche) ; ce qui manquait : obligation de conformité préventive et poursuite effective. (2) Corps : Sapin « en tire un argument devant les parlementaires » alors que le rapport AN n°4325 rapporte une audition d'évaluation (2021) ; contexte et formulation « à défaut d'agir… continueront » à corriger. (3) Phase 3 : « aucune poursuite contre une entreprise » alors que l'OCDE dit « no legal person had been finally convicted » ; poursuite ≠ condamnation définitive. Statut en_retouche."
     ]
   },
   "controle_juridique": null,
