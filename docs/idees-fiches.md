@@ -196,3 +196,7 @@ peut rouvrir directement le texte du décret.)*
 | Sciences politiques | Churchill (1947) : « le pire des régimes, à l'exception de tous les autres », une phrase empruntée | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Olson (1965) : la logique de l'action collective, pourquoi les grands groupes s'organisent mal | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Le théorème de l'électeur médian (Black 1948, Downs 1957) et ses conditions | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Clausewitz (1832) : la guerre, « continuation de la politique » — et pourquoi « avec l'appoint d'autres moyens » n'est pas « par d'autres moyens » | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Kant (1795) : la paix perpétuelle suppose une constitution républicaine, pas une démocratie | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Rousseau (1762) : « le peuple anglais pense être libre », mais admet les représentants à la Pologne (1772) | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Sieyès (1789) : « Qu'est-ce que le tiers état ? Tout. » — mais ce qu'il demande, c'est « quelque chose » | en cours | routine-production-arnaud | 2026-10-06 |
