@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T08:50:44.668Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T08:50:44.668Z",
+        "note": "Rouvert : texte intégral du Journal de Gauville (archive.org, djvu, éd. 1864) : passage du 29 (droite du président, 150/150/80, abandon de la partie gauche), 28 (religion d'État, huées), 7 septembre (sanction royale), « côté gauche » ; Wikipédia FR (Gauville, août 1789, pouvoir royal). Carte et quiz vérifiés. Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",

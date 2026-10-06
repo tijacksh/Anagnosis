@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T08:50:44.560Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T08:50:44.560Z",
+        "note": "Rouvert : PDF primaire pages.ucsd.edu (citation mot pour mot, Hegel/Kojève, absence d'alternative idéologique crédible), Wikipedia The End of History and the Last Man (été 1989, point d'interrogation supprimé en 1992, événements continuent, démocratie plus répandue). Carte et quiz vérifiés (distracteurs faux). Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",
