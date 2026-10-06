@@ -1,0 +1,77 @@
+{
+  "id": "pol-theoreme-electeur-median-black-downs",
+  "slug": "theoreme-electeur-median-black-downs",
+  "titre": "Le théorème de l'électeur médian : pourquoi les partis se ressemblent",
+  "accroche": "Black (1948) puis Downs (1957) expliquent pourquoi des candidats vont vers le centre, à condition que trois hypothèses tiennent.",
+  "discipline": "sciences_politiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Pourquoi deux grands partis finissent-ils souvent par tenir des programmes proches ? Un modèle simple répond : parce que l'électeur du milieu décide. En 1948, l'économiste écossais Duncan Black publie dans le *Journal of Political Economy* un article, « On the Rationale of Group Decision-making », qui montre que, sous certaines conditions, une seule motion peut l'emporter à la majorité contre toutes les autres : celle que préfère l'électeur médian. Anthony Downs en tire en 1957 un modèle de concurrence entre partis, en reprenant le principe de différenciation minimale posé par Harold Hotelling en 1929 pour les commerçants.\n\n## L'image de la plage\n\nImaginez, en première approximation, les opinions alignées sur un axe, de la gauche à la droite, et des électeurs répartis le long de cet axe. L'électeur médian est celui qui a autant de monde à sa gauche qu'à sa droite. Si un candidat se place à gauche de lui, son adversaire peut se rapprocher du centre et rafler tout le côté droit plus une part du côté gauche. Chacun a donc intérêt à se rapprocher de la position médiane, et les deux finissent par s'y retrouver, comme deux marchands de glaces qui s'installent côte à côte au milieu de la plage : c'est l'image qu'emploie Hotelling pour les commerçants, appliquée ici aux partis.\n\n## Trois conditions\n\nLe résultat n'est pas général. La synthèse de Wikipédia en cite trois : un seul axe d'opinion, des préférences « à un seul sommet » (chaque électeur préfère le candidat le plus proche de lui), et un vote à la majorité. Elle signale aussi que les candidats sont supposés ne chercher que la victoire et libres de changer de position, ce qui est rarement vrai quand il y a des primaires ou des militants.\n\n## Le déplacement\n\nDès qu'on sort d'un seul axe, le résultat se défait : le théorème de McKelvey et Schofield montre que, dans un espace à plusieurs dimensions, il peut n'y avoir aucun gagnant stable. Les partis ne convergent donc pas par une loi de la politique, mais parce qu'un cas particulier se rencontre. Le modèle reste utile, mais pour une raison inverse de celle qu'on lui prête : il ne décrit pas la politique, il décrit un cas simplifié, et c'est l'écart avec ce cas qui est instructif : en listant ce qu'il suppose, il indique où chercher quand les partis, dans la réalité, se polarisent au lieu de converger.",
+  "citation": null,
+  "repere": {
+    "texte": "Black (1948) montre que, si les préférences sont à un seul sommet sur un axe unique, une seule motion peut battre toutes les autres à la majorité simple : celle de l'électeur médian ; Downs (1957) l'applique à la compétition entre partis.",
+    "source": "Wikipedia, Median voter theorem ; Black, Journal of Political Economy 56(1), 1948, p. 23-34",
+    "url": "https://en.wikipedia.org/wiki/Median_voter_theorem"
+  },
+  "carte": {
+    "punch": "Deux partis qui se rapprochent du centre : un résultat à trois conditions.",
+    "idee": "Black (1948), puis Downs (1957) : sur un axe unique, avec des préférences à un seul sommet et un vote à la majorité, c'est la position de l'électeur médian qui l'emporte. Hors de ces conditions, le résultat s'effondre.",
+    "source_courte": "Black, J. Polit. Econ., 1948 ; Downs, 1957"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Duncan Black",
+      "titre": "On the Rationale of Group Decision-making",
+      "publication": "Journal of Political Economy, 56(1), p. 23-34",
+      "annee": 1948,
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/256633",
+      "note": "Texte primaire : sous préférences à un seul sommet sur une dimension, au plus une motion bat toutes les autres à la majorité simple (page éditeur ; résumé lu via une recherche, pas le texte intégral)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia contributors",
+      "titre": "Median voter theorem",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Median_voter_theorem",
+      "note": "Confirme Black 1948, Downs 1957 (reprise de Hotelling 1929), les trois conditions et les limites (McKelvey-Schofield, multidimensionnalité)."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : une ligne horizontale avec deux pions qui avancent l'un vers l'autre vers un point central, des petits cercles répartis de part et d'autre ; une seule encre sur fond contrasté.",
+    "alt": "Deux pions se rapprochent d'un point central sur une ligne bordée de petits cercles",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Dans quel cas le théorème de l'électeur médian cesse-t-il de s'appliquer ?",
+    "choix": [
+      "Quand les électeurs ont plusieurs critères de choix indépendants, et plus un seul axe d'opinion",
+      "Quand le nombre d'électeurs est trop élevé pour que l'on puisse trouver une médiane",
+      "Quand les électeurs votent pour le candidat le plus éloigné de leur opinion",
+      "Quand le vote a lieu à la majorité simple et non à la majorité qualifiée"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le résultat suppose un axe unique, des préférences à un seul sommet et la majorité simple. Avec plusieurs dimensions, McKelvey et Schofield montrent qu'il peut n'exister aucun gagnant stable ; la majorité simple fait partie des conditions, pas des limites.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-06",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
