@@ -192,3 +192,7 @@ peut rouvrir directement le texte du décret.)*
 | Sciences politiques | Michels (1911) : « Qui dit organisation, dit oligarchie » (la loi d'airain, ce qu'elle dit et sur quoi elle repose) | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Tocqueville (1835) : la « tyrannie de la majorité », un diagnostic sur la pensée plus que sur les lois | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | Hobbes (1651) : la « guerre de chacun contre chacun » n'est pas un combat permanent | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Machiavel (1532) : « la fin justifie les moyens », une formule absente du Prince (chap. XVIII) | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Churchill (1947) : « le pire des régimes, à l'exception de tous les autres », une phrase empruntée | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Olson (1965) : la logique de l'action collective, pourquoi les grands groupes s'organisent mal | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Le théorème de l'électeur médian (Black 1948, Downs 1957) et ses conditions | en cours | routine-production-arnaud | 2026-10-06 |
