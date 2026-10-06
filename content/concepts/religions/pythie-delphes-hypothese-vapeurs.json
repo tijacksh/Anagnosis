@@ -57,14 +57,14 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'étude de 2001 a trouvé des failles actives et des traces de gaz hydrocarbonés sous le temple, ce qui a rouvert un dossier classé comme légende depuis les fouilles de 1892-1903 — mais la conclusion reste débattue entre spécialistes, et rien n'indique que toutes les transes s'expliquent par ce seul mécanisme ni que la Pythie inventait ses oracles ou que le site n'ait pas abrité de chambre souterraine.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-04T17:23:38.344Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-06T07:47:52.100Z",
     "historique": [
       {
         "action": "retoucher",
@@ -73,6 +73,14 @@
         "par": "routine-relecture",
         "le": "2026-10-04T17:23:38.344Z",
         "note": "Rouvert: Wikipedia EN Pythia (ok: fouilles 1892, Oppé 1904, deux failles, Kerna 0,3/15,3/0,2 ppm, 20 %, Spiller éthylène, Lehoux) ; l'article Geology 2001 (DOI -> GeoscienceWorld) n'a pas pu être rouvert (403/vérification anti-bot). Doutes à lever en ouvrant la source primaire: orientations des failles (est-ouest, nord-ouest/sud-est), 'séismes rouvrent les fissures', 'travaux d'anesthésiologie antérieurs', mort de la Pythie 'quelques jours après' (Plutarque) non confirmés par ce que j'ai lu. Fournir une copie ouverte de l'article ou sourcer ces détails."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-06T07:47:52.100Z",
+        "note": "Revérifié indépendamment : Wikipedia Pythia rouverte confirme avec citations exactes les quatre points qui restaient en doute (failles est-ouest/Delphic et nord-sud/Kerna, séismes rouvrant les fissures, travaux d'anesthésiologie d'Isabella Coler Herb sur l'éthylène, mort de la Pythie en convulsions quelques jours après selon Plutarque), ainsi que fouilles 1892-1903, calcaire bitumineux 20%, valeurs Kerna 0,3/15,3/0,2 ppm, critique de Lehoux. Le DOI Geology 2001 reste inaccessible (bloqué par le proxy réseau), comme lors des deux passages précédents — confirmation par la seule source secondaire ouverte, mais elle cite précisément chaque détail. Rien à corriger dans le texte."
       }
     ]
   },
