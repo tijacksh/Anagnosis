@@ -46,7 +46,7 @@ import { empreinte } from './controle.js';
  * et répondre de chaque affirmation coûte cher. Quatre faites sérieusement valent mieux que
  * douze survolées — et c'est exactement le travers qu'une routine autonome doit s'interdire.
  */
-export const PAR_PASSAGE = 4;
+export const PAR_PASSAGE = Number(process.env.ANAGNOSIS_RELIRE_PAR_PASSAGE) || 4;
 
 /** La trace de contrôle décrit-elle encore le texte qu'on a sous les yeux ? */
 export function controleAJour(fiche) {

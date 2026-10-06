@@ -25,7 +25,7 @@ import { loadAll } from './store.js';
 import { DISCIPLINES, ENCRES } from './schema.js';
 
 /** Fiches en attente de relecture au-delà desquelles on cesse de produire. */
-export const FILE_MAX = 24;
+export const FILE_MAX = Number(process.env.ANAGNOSIS_FILE_MAX) || 24;
 
 /**
  * Fiches par passage. Quatre par jour, soit environ 90 par mois — aligné sur
