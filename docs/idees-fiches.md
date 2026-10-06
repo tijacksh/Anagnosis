@@ -188,3 +188,7 @@ peut rouvrir directement le texte du décret.)*
 | Sciences politiques | Max Weber (1919) : l'État, « monopole de la violence légitime » (ce que dit vraiment la définition) | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | « La fin de l'histoire ? » (Fukuyama, 1989) : un contresens sur le titre et la thèse | fait | routine-production-arnaud | 2026-10-06 |
 | Sciences politiques | La paix de Westphalie (1648) et le mythe de la souveraineté moderne (Osiander, 2001) | fait | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Gauche et droite (1789) : une affaire de places dans la salle, d'après Gauville | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Michels (1911) : « Qui dit organisation, dit oligarchie » (la loi d'airain, ce qu'elle dit et sur quoi elle repose) | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Tocqueville (1835) : la « tyrannie de la majorité », un diagnostic sur la pensée plus que sur les lois | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Hobbes (1651) : la « guerre de chacun contre chacun » n'est pas un combat permanent | en cours | routine-production-arnaud | 2026-10-06 |
