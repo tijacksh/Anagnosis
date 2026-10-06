@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T10:12:36.834Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T10:12:36.834Z",
+        "note": "Sources rouvertes indépendamment : de.wikisource 'Politik als Beruf' relu, phrase allemande retrouvée verbatim ('... das Monopol legitimer physischer Gewaltsamkeit für sich (mit Erfolg) beansprucht') y compris '(mit Erfolg)' entre parenthèses, et la nuance 'Gewaltsamkeit ist natürlich nicht etwa das normale oder einzige Mittel des Staates ... wohl aber: das ihm spezifische' retrouvée aussi verbatim. en.wikipedia 'Politics as a Vocation' relu séparément : confirme la conférence du 28 janvier 1919 à Munich devant l'Union libre des étudiants de Bavière et la publication élargie de juillet 1919. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",

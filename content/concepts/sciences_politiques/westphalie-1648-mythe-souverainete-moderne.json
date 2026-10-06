@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T10:12:40.263Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T10:12:40.263Z",
+        "note": "Sources rouvertes indépendamment : Avalon Project (Yale) relu, article LXV du traité de Münster retrouvé ('free perpetually ... to make Alliances with Strangers for their Preservation and Safety; provided ... such Alliances be not against the Emperor, and the Empire'), conforme au repère. DOI d'Osiander (2001) suivi jusqu'à la page Cambridge University Press, qui confirme l'article 'Sovereignty, International Relations, and the Westphalian Myth', International Organization, vol. 55, n°2, 2001. en.wikipedia 'Peace of Westphalia' relu séparément : confirme le terme 'Westphalian myth' et la thèse d'Osiander sur l'absence de principes de souveraineté dans le texte des traités. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",

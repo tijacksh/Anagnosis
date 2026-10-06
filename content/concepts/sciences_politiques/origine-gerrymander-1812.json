@@ -61,12 +61,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T10:12:30.396Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T10:12:30.396Z",
+        "note": "Sources rouvertes indépendamment : texte intégral d'Austin (1828) relu sur archive.org (lecture complète du djvu.txt, pas seulement les métadonnées) — citation 'To the governour the project of this law was exceedingly disagreeable' retrouvée verbatim avec son contexte complet, qui confirme explicitement 'he accordingly permitted it to pass' sans signature, malgré la formulation plus relâchée de Smithsonian Magazine ('signed... reluctantly'). Smithsonian Magazine relu : confirme la loi de février 1812, le dîner fédéraliste, le rôle de Tisdale (dessin) et Alsop (mot-valise), la publication du 26 mars 1812 dans le Boston Gazette, et que ce sont les adversaires fédéralistes qui ont attaché son nom au redécoupage. Carte et quiz conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",

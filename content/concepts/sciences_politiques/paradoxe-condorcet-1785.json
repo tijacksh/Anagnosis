@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-06T10:12:33.180Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-06T10:12:33.180Z",
+        "note": "Sources rouvertes indépendamment : fr.wikipedia 'Paradoxe de Condorcet' relu, confirme titre et date 1785 de l'Essai, mécanisme du cycle à trois candidats, filiation avec Arrow (1951), et surtout l'exemple numérique à 60 électeurs avec les chiffres exacts du repère (33 contre 27 pour A>B, 42 contre 18 pour B>C, 35 contre 25 pour C>A). en.wikipedia 'Condorcet paradox' relu séparément : confirme titre, date et mécanisme à trois candidats, mais ne contient pas l'exemple à 60 électeurs — la correction du contrôle précédent (repère repointé vers fr.wikipedia) est donc bien fondée. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",
