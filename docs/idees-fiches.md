@@ -184,3 +184,7 @@ peut rouvrir directement le texte du décret.)*
 | Religions et mythologies | « Dieu est mort » (Nietzsche, Le Gai Savoir, §125, 1882) : un fou, une lanterne et un constat, pas un triomphe | fait | routine-production-arnaud | 2026-10-05 |
 | Religions et mythologies | L'hymne Nasadiya (Rig-Veda 10.129) : un hymne de création qui finit sur le doute | fait | routine-production-arnaud | 2026-10-05 |
 | Religions et mythologies | Le cylindre de Cyrus (539 av. notre ère) : une inscription de fondation en l'honneur de Marduk, non une « charte des droits de l'homme » | fait | routine-production-arnaud | 2026-10-05 |
+| Sciences politiques | Le Fédéraliste n° 10 (Madison, 1787) : « république » contre « démocratie » | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | Max Weber (1919) : l'État, « monopole de la violence légitime » (ce que dit vraiment la définition) | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | « La fin de l'histoire ? » (Fukuyama, 1989) : un contresens sur le titre et la thèse | en cours | routine-production-arnaud | 2026-10-06 |
+| Sciences politiques | La paix de Westphalie (1648) et le mythe de la souveraineté moderne (Osiander, 2001) | en cours | routine-production-arnaud | 2026-10-06 |
