@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "Dans l'exemple numérique donné par Condorcet, sur 60 électeurs, 33 préfèrent A à B, 42 préfèrent B à C et 35 préfèrent C à A : chaque majorité est réelle, et pourtant A, B et C se battent chacun à leur tour, sans qu'aucun ne puisse l'emporter sur les deux autres.",
-    "source": "Wikipedia, « Condorcet paradox »",
-    "url": "https://en.wikipedia.org/wiki/Condorcet_paradox"
+    "source": "Wikipédia, « Paradoxe de Condorcet »",
+    "url": "https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet"
   },
   "carte": {
     "punch": "Trois électeurs parfaitement rationnels peuvent voter une majorité qui se contredit elle-même.",
@@ -28,7 +28,7 @@
       "publication": "Wikipédia",
       "annee": null,
       "url": "https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet",
-      "note": "Confirme le titre et la date de 1785 de l'Essai de Condorcet, le mécanisme du cycle intransitif à trois candidats (A>B>C>A) et la filiation avec le théorème d'impossibilité d'Arrow (1951)."
+      "note": "Confirme le titre et la date de 1785 de l'Essai de Condorcet, le mécanisme du cycle intransitif à trois candidats (A>B>C>A) et la filiation avec le théorème d'impossibilité d'Arrow (1951). Donne aussi l'exemple numérique à 60 électeurs (33 contre 27, 42 contre 18, 35 contre 25) repris pour le repère."
     },
     {
       "type": "web",
@@ -37,7 +37,7 @@
       "publication": "Wikipedia",
       "annee": null,
       "url": "https://en.wikipedia.org/wiki/Condorcet_paradox",
-      "note": "Confirme le titre complet de l'ouvrage de 1785 et donne l'exemple numérique à 60 électeurs (33 contre 27, 42 contre 18, 35 contre 25) illustrant le cycle intransitif, repris pour le repère."
+      "note": "Confirme le titre complet de l'ouvrage de 1785 et un exemple à trois candidats illustrant le cycle intransitif (A>B>C>A)."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -62,8 +62,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-06",
+    "verdict": "corrige",
+    "empreinte": "e6f0d83c24287d2a",
+    "notes": [
+      "Repère mal attribué : le chiffre à 60 électeurs (33/42/35) ne figure pas sur en.wikipedia 'Condorcet paradox' mais sur fr.wikipedia 'Paradoxe de Condorcet' (déjà en sources[0]), vérifié en rouvrant les deux pages. Repère.url et source repointés vers fr.wikipedia, notes des deux sources corrigées en conséquence. Reste vérifié : titre et date 1785 de l'Essai, mécanisme du cycle à trois candidats, filiation avec Arrow 1951 — tout confirmé sur les deux pages."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-06", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-06",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

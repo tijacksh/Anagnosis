@@ -60,10 +60,25 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-06",
+    "verdict": "a_revoir",
+    "empreinte": "e789c083847a169c",
+    "notes": [
+      "Le repère cite '94 %' de compétition bipartisane dans les circonscriptions américaines, sourcé à en.wikipedia 'Duverger's law'. Cette page ne contient aucun '94 %' : elle donne '98 % de tous les sièges fédéraux et d'État' (section Strength of effect), un chiffre différent et portant sur une mesure légèrement différente (sièges, pas circonscriptions). À vérifier : soit corriger le chiffre et le faire porter sur les sièges (comme la source), soit trouver une source distincte pour un vrai chiffre à l'échelle des circonscriptions. Reste de la fiche vérifié et correct (ouvrage de 1951, mécanisme du vote utile, exceptions Canada/Inde confirmées sur en.wikipedia)."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-06", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-06",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
