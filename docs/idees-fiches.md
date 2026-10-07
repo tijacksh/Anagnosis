@@ -227,6 +227,7 @@ peut rouvrir directement le texte du décret.)*
 | Institutions judiciaires | Les juges consulaires, édit de Charles IX de novembre 1563 | fait | routine-production-arnaud | 2026-10-07 |
 | Écologie | Le cerf de Kaibab (années 1920) : l'histoire que les manuels ont retirée, puis que les arbres ont en partie rétablie | fait | routine-production-arnaud | 2026-10-07 |
 | Écologie | Tansley (1935) : le mot « écosystème » forgé contre l'idée de communauté-organisme | fait | routine-production-arnaud | 2026-10-07 |
-| Conformité | Le rapport Cadbury (décembre 1992) et l'invention du « comply or explain » | en cours | routine-production-arnaud | 2026-10-07 |
-| Conformité | Le Bank Secrecy Act (1970) : une loi nommée « secret bancaire » qui impose de déclarer, et *California Bankers v. Shultz* (1974) | en cours | routine-production-arnaud | 2026-10-07 |
-| Conformité | Piper Alpha (1988), le rapport Cullen et le passage de la règle prescriptive au « safety case » | en cours | routine-production-arnaud | 2026-10-07 |
+| Conformité | Le rapport Cadbury (décembre 1992) et l'invention du « comply or explain » | fait | routine-production-arnaud | 2026-10-07 |
+| Conformité | Le Bank Secrecy Act (1970) : une loi nommée « secret bancaire » qui impose de déclarer, et *California Bankers v. Shultz* (1974) | fait | routine-production-arnaud | 2026-10-07 |
+| Conformité | Piper Alpha (1988), le rapport Cullen et le passage de la règle prescriptive au « safety case » | fait | routine-production-arnaud | 2026-10-07 |
+| Conformité | Les accidents de la Ford Pinto (*Grimshaw v. Ford*, 1978-1981) et le mémo « coût-bénéfice » | abandonné | routine-production-arnaud | 2026-10-07 |
