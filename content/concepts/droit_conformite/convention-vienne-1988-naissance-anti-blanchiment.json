@@ -74,7 +74,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'article 3 oblige les États à ériger en infraction la conversion ou le transfert de biens dont on sait qu'ils viennent d'un trafic, pour en dissimuler l'origine. Le GAFI, lui, est créé plus tard par le G7.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -100,11 +100,11 @@
       "explication": "Selon Wikipedia EN, elles couvrent la justice pénale, la coopération internationale et le système financier, avec vérification de l'identité des clients, conservation des documents et déclaration des opérations suspectes."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-07T10:03:13.741Z",
+    "decide_le": "2026-10-07T16:02:17.846Z",
     "historique": [
       {
         "action": "valider",
@@ -121,6 +121,14 @@
         "par": "routine-reparation",
         "le": "2026-10-07T10:03:13.741Z",
         "note": "Rouvert : treaties.un.org (20/12/1988, entrée en vigueur 11/11/1990, 87 signataires au total), Wikipedia EN FATF (G7 Paris 1989, 40 recommandations la première année). Texte réécrit : 87 signataires non rattachés au 20 décembre, « premier traité », « avril 1990 », « sept mois », sanctions de liste non coopérative, extension à toute activité criminelle retirés car non soutenus. Doute restant : le libellé de l'article 3 §1(b) n'a pu être rouvert à une source primaire (INCB bloqué, UNODC 404) ; il faut le texte officiel pour lever."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-07T16:02:17.846Z",
+        "note": "Déjà réparée deux fois et revenue : troisième réparation exclue. Restent non soutenus : « un an plus tard » (20/12/1988 -> juillet 1989), « pour la première fois »/« invente », attribution aux recommandations de 1990 de la vérification d'identité et déclaration des opérations suspectes (Wikipedia FATF les attribue à 2003). Texte de 1990 des 40 recommandations non ouvert."
       }
     ]
   },
