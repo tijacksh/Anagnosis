@@ -62,7 +62,8 @@
       "Tyndall travaille sur l'air seul, Foote sur le gaz carbonique seul"
     ],
     "bonne_reponse": 2,
-    "explication": "Foote relève un échauffement global de cylindres exposés au soleil, en 1856. Tyndall, à partir de 1859, isole l'absorption de la chaleur rayonnante par chaque gaz et la chiffre en 1861. Il ne publie donc pas avant elle, et les deux travaillent bien sur plusieurs gaz."
+    "explication": "Foote relève un échauffement global de cylindres exposés au soleil, en 1856. Tyndall, à partir de 1859, isole l'absorption de la chaleur rayonnante par chaque gaz et la chiffre en 1861. Il ne publie donc pas avant elle, et les deux travaillent bien sur plusieurs gaz.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -77,11 +78,33 @@
       "explication": "Le compte rendu de Wells précise que Joseph Henry lit le texte à sa place. Le compte rendu ne cite ni Tyndall, qui travaille alors en Angleterre, ni Elisha Foote comme lecteur."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-07",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-07T02:17:34.319Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-07T02:17:34.319Z",
+        "note": "Contrôle des sources : la fiche présente le compte rendu de Wells (1857) comme « le compte rendu qui nous reste » et s'appuie sur Sorenson 2011 (« not formally published »). Or la source Public Domain Review de la fiche indique que « Circumstances Affecting the Heat of the Sun's Rays » a été publiée en entier dans l'American Journal of Science and Arts (2e série, vol. XXII, n° 66, nov. 1856, p. 382-383). Le texte primaire existe donc et n'est pas ouvert ; le récit « resté peu lu dans un annuaire » est à rééquilibrer. De plus, la date « 23 août 1856 » (corps, carte, quiz) ne figure ni chez Sorenson ni sur Public Domain Review : à sourcer ou retirer. À revoir."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-07",
+    "verdict": "a_revoir",
+    "empreinte": "5ce6fb075fdb57e4",
+    "notes": [
+      "Wells 1857 (p. 159-160, texte reproduit par Sorenson lu en entier) : écarts de vingt, douze et vingt degrés, Joseph Henry lit l'article, préambule « no country and no sex », mention de Tyndall 1859 (« not a single experiment ») et 1861 : confirmés. À revoir : article de 1856 publié dans l'American Journal of Science (PDR) non pris en compte ; date du 23 août non retrouvée dans les sources de la fiche (ajoutée seulement par recherche web) ; « vit à Seneca Falls » est une hypothèse (« likely ») chez Sorenson. Lecture de l'écart Foote/Tyndall bien signalée comme la nôtre."
+    ]
   }
 }
