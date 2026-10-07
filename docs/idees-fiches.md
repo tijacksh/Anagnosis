@@ -225,5 +225,5 @@ peut rouvrir directement le texte du décret.)*
 | Institutions judiciaires | Le verdict écossais « not proven » et l'affaire de 1728 | fait | routine-production-arnaud | 2026-10-07 |
 | Institutions judiciaires | Le conseil de prud'hommes de Lyon (loi du 18 mars 1806) | fait | routine-production-arnaud | 2026-10-07 |
 | Institutions judiciaires | Les juges consulaires, édit de Charles IX de novembre 1563 | fait | routine-production-arnaud | 2026-10-07 |
-| Écologie | Le cerf de Kaibab (années 1920) : l'histoire que les manuels ont retirée, puis que les arbres ont en partie rétablie | en cours | routine-production-arnaud | 2026-10-07 |
-| Écologie | Tansley (1935) : le mot « écosystème » forgé contre l'idée de communauté-organisme | en cours | routine-production-arnaud | 2026-10-07 |
+| Écologie | Le cerf de Kaibab (années 1920) : l'histoire que les manuels ont retirée, puis que les arbres ont en partie rétablie | fait | routine-production-arnaud | 2026-10-07 |
+| Écologie | Tansley (1935) : le mot « écosystème » forgé contre l'idée de communauté-organisme | fait | routine-production-arnaud | 2026-10-07 |
