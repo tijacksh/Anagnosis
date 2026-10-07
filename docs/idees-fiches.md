@@ -231,7 +231,7 @@ peut rouvrir directement le texte du décret.)*
 | Conformité | Le Bank Secrecy Act (1970) : une loi nommée « secret bancaire » qui impose de déclarer, et *California Bankers v. Shultz* (1974) | fait | routine-production-arnaud | 2026-10-07 |
 | Conformité | Piper Alpha (1988), le rapport Cullen et le passage de la règle prescriptive au « safety case » | fait | routine-production-arnaud | 2026-10-07 |
 | Conformité | Les accidents de la Ford Pinto (*Grimshaw v. Ford*, 1978-1981) et le mémo « coût-bénéfice » | abandonné | routine-production-arnaud | 2026-10-07 |
-| Génétique | Avery, MacLeod, McCarty (1944) : l'ADN « principe transformant », huit ans de réticences | en cours | routine-production-arnaud | 2026-10-08 |
-| Génétique | Hershey et Chase (1952) : une expérience au mixeur plus prudente que sa légende | en cours | routine-production-arnaud | 2026-10-08 |
-| Génétique | Meselson et Stahl (1958) : la réplication semi-conservative lue dans un tube de centrifugeuse | en cours | routine-production-arnaud | 2026-10-08 |
-| Génétique | Le génome humain « complet » de 2022 (T2T-CHM13) et les 8 % restés dans l'ombre | en cours | routine-production-arnaud | 2026-10-08 |
+| Génétique | Avery, MacLeod, McCarty (1944) : l'ADN « principe transformant », huit ans de réticences | fait | routine-production-arnaud | 2026-10-08 |
+| Génétique | Hershey et Chase (1952) : une expérience au mixeur plus prudente que sa légende | fait | routine-production-arnaud | 2026-10-08 |
+| Génétique | Meselson et Stahl (1958) : la réplication semi-conservative lue dans un tube de centrifugeuse | fait | routine-production-arnaud | 2026-10-08 |
+| Génétique | Le génome humain « complet » de 2022 (T2T-CHM13) et les 8 % restés dans l'ombre | fait | routine-production-arnaud | 2026-10-08 |

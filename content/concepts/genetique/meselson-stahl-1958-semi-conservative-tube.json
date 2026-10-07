@@ -1,0 +1,99 @@
+{
+ "id": "gen-meselson-stahl-1958-semi-conservative-tube",
+ "slug": "meselson-stahl-1958-semi-conservative-tube",
+ "titre": "La plus belle expérience de la biologie tient en trois bandes dans un tube",
+ "accroche": "En 1958, Meselson et Stahl lisent la réplication de l'ADN dans la position d'une bande en centrifugeuse. Le beau, c'est ce qu'elle élimine.",
+ "discipline": "genetique",
+ "theme": null,
+ "theme_ordre": null,
+ "niveau": "intermediaire",
+ "duree_lecture_min": 3,
+ "contenu_vulgarise": "Quand Watson et Crick proposent la double hélice en 1953, ils notent qu'elle suggère un mécanisme de copie : séparer les deux brins, et reconstruire un partenaire pour chacun. Reste à le montrer. Trois façons de copier sont alors concevables, et personne ne peut les départager en regardant une molécule.\n\n## Trois modèles\n\nDans le modèle semi-conservatif, chaque nouvelle molécule garde un brin ancien et reçoit un brin neuf. Dans le modèle conservatif, la molécule d'origine reste intacte et une copie entièrement neuve s'ajoute. Dans le modèle dispersif, les molécules filles sont un patchwork de fragments anciens et neufs.\n\n## Le dispositif\n\nEn 1958, Matthew Meselson et Franklin Stahl, alors à Caltech, font pousser des *Escherichia coli* dans un milieu contenant de l'azote lourd, l'isotope ¹⁵N, qui rend leur ADN plus dense. Ils les transfèrent dans un milieu à azote léger (¹⁴N) et prélèvent des échantillons à intervalles réguliers. L'ADN est ensuite placé dans une centrifugeuse en gradient de densité, où chaque type de molécule se range à la hauteur qui correspond à sa densité.\n\n## Ce que disent les bandes\n\nÀ l'origine, une seule bande, lourde. Après une génération dans le milieu léger, une seule bande encore, mais intermédiaire : plus de bande lourde. Cela suffit à exclure le modèle conservatif, qui aurait donné une bande lourde et une bande légère.\n\nAprès deux générations, deux bandes de même importance : une intermédiaire et une légère. Le modèle dispersif, qui prédit une seule bande de plus en plus claire, est à son tour écarté. Reste le modèle semi-conservatif, que les mesures soutiennent.\n\n## Pourquoi on dit « la plus belle »\n\nL'expression est attribuée à John Cairns, rapportée par l'historien Horace Judson en 1979 ; l'historien des sciences Frederic Holmes en a fait le titre d'un livre en 2001. Ce qui est beau ici n'est pas l'image, mais la logique : l'expérience ne regarde jamais un brin d'ADN. Elle lit une densité, et c'est parce que trois hypothèses prédisent trois motifs différents que le motif observé tranche.\n\nLe contraste avec Hershey et Chase est instructif : là où ceux-ci mesuraient la présence d'un marqueur, Meselson et Stahl construisent un test qui oppose des prédictions chiffrées, et la réponse peut être lue sans interprétation délicate. C'est aussi une expérience qui aurait pu échouer : si les bandes n'avaient correspondu à aucun des trois modèles, la théorie de Watson et Crick aurait eu un sérieux problème.\n\nLa leçon dépasse la biologie. Les meilleures expériences ne cherchent pas à confirmer une idée, elles sont construites pour que chaque rivale perde.",
+ "citation": null,
+ "repere": {
+  "texte": "En 1958, Meselson et Stahl élèvent des bactéries dans de l'azote lourd (¹⁵N), puis dans de l'azote léger (¹⁴N), et suivent la densité de leur ADN par centrifugation en gradient : après une génération, tout l'ADN est de densité intermédiaire ; après deux, moitié intermédiaire, moitié légère.",
+  "source": "Meselson et Stahl, Proceedings of the National Academy of Sciences, 44(7), 1958",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC528642/"
+ },
+ "carte": {
+  "punch": "La plus belle expérience de la biologie ne regarde jamais l'ADN. Elle regarde une densité.",
+  "idee": "En 1958, Meselson et Stahl élèvent des bactéries en azote lourd puis léger. Une génération : une bande intermédiaire, ce qui exclut la copie conservative. Deux : intermédiaire et légère, ce qui exclut la dispersive.",
+  "source_courte": "PNAS, 1958"
+ },
+ "sources": [
+  {
+   "type": "article",
+   "auteur": "Meselson, Matthew ; Stahl, Franklin W.",
+   "titre": "The replication of DNA in Escherichia coli",
+   "publication": "Proceedings of the National Academy of Sciences, 44(7)",
+   "annee": 1958,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC528642/",
+   "note": "L'article original : marquage à l'azote lourd, centrifugation en gradient, résultats par génération."
+  },
+  {
+   "type": "web",
+   "auteur": "Caltech Magazine",
+   "titre": "The Most Beautiful Experiment",
+   "publication": "Caltech Magazine",
+   "annee": 2021,
+   "url": "https://magazine.caltech.edu/post/the-most-beautiful-experiment",
+   "note": "Les trois modèles, le dispositif et la place de l'expérience dans l'histoire de la biologie moléculaire."
+  }
+ ],
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Holmes, F. L. — Meselson, Stahl, and the Replication of DNA (Yale University Press, 2001)",
+   "url": "https://embryo.asu.edu/pages/meselson-stahl-and-replication-dna-history-most-beautiful-experiment-biology-2001-frederic",
+   "note": "En anglais ; l'histoire détaillée de l'expérience, d'après les cahiers de laboratoire."
+  }
+ ],
+ "illustration": {
+  "prompt": "Trois tubes de centrifugeuse alignés de gauche à droite, chacun portant une ou deux fines bandes horizontales à des hauteurs différentes ; au-dessus, trois petites hélices annotées par un trait, l'une toute noire, l'autre mi-noire mi-claire, la dernière claire. Bandes en aplat orange fluorescent saturé, reste en encre sombre, papier crème. Léger hors-repérage. Aucune figure humaine.",
+  "alt": "Trois tubes de centrifugeuse portant des bandes à des hauteurs différentes",
+  "url": null,
+  "statut": "a_generer"
+ },
+ "quiz": {
+  "question": "Que montre la bande unique intermédiaire observée après une génération ?",
+  "choix": [
+   "Que la copie conservative est exclue",
+   "Que la copie dispersive est la seule possible",
+   "Que les bactéries ne se sont pas divisées",
+   "Que l'azote lourd a disparu du milieu"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Le modèle conservatif aurait donné une bande lourde et une bande légère. L'absence de bande lourde après une génération l'écarte.",
+  "statut": "brouillon"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Que prédit le modèle dispersif après deux générations ?",
+   "choix": [
+    "Une bande intermédiaire et une bande légère de même importance",
+    "Une bande lourde et une bande légère de même importance",
+    "Une seule bande de plus en plus légère",
+    "Aucune bande visible"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Si chaque molécule était un mélange uniforme de fragments anciens et neufs, on observerait une seule bande, qui s'éclaircit à chaque génération. Après deux générations, deux bandes distinctes s'observent : le modèle est écarté."
+  },
+  {
+   "question": "Qu'est-ce qui rend cette expérience si belle selon la fiche ?",
+   "choix": [
+    "L'image spectaculaire d'un brin d'ADN en train de se copier",
+    "Sa logique : trois hypothèses prédisent trois motifs différents",
+    "Son coût très élevé et la rareté de ses instruments",
+    "Sa capacité à décrire le code génétique complet"
+   ],
+   "bonne_reponse": 1,
+   "explication": "L'expérience ne regarde pas un brin : elle lit une densité. Parce que chaque modèle prédit un motif propre, l'observation tranche en éliminant les rivales."
+  }
+ ],
+ "statut": "brouillon",
+ "date_publication_prevue": null,
+ "meta": {
+  "genere_le": "2026-10-08",
+  "genere_par": "claude-code",
+  "version": 1
+ }
+}
