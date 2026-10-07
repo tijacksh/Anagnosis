@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les trois versions de Robinson comptent deux, sept puis huit personnes et le témoignage filmé de 1987 conforte le scepticisme de Kasser et Krause. Les codex, eux, sont authentiques et conservés au Caire, et Muhammad Ali a bien été interrogé, notamment en 1987.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -69,7 +69,7 @@
         "À la British Library"
       ],
       "bonne_reponse": 2,
-      "explication": "Les codex sont au Musée copte du Caire, qui les détient comme patrimoine national. Aucun des trois autres établissements n'en possède."
+      "explication": "Les codex sont conservés au Musée copte du Caire."
     },
     {
       "question": "Dans quelle langue les codex sont-ils copiés ?",
@@ -83,12 +83,21 @@
       "explication": "Ce sont des textes copiés en copte, la langue des chrétiens d'Égypte."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-07T06:38:48.759Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-07T06:38:48.759Z",
+        "note": "Sources rouvertes : Goodacre 2013 (texte intégral du PDF ; DOI payant non lisible) et Wikipedia Nag Hammadi library. Vérifié : versions 2/7/8 personnes (1977/1979/1981), désaccord sur qui trouve la jarre, Kasser et Krause 1984, Channel 4 1987 seule apparition filmée de Muhammad Ali, Doresse 1958 jugé plus fiable, 12 codex + partie d'un 13e, 52 traités, IIIe-IVe s., Musée copte. Corrigé : explication du quiz sur le Musée copte ramenée à ce que la source dit."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-06",
