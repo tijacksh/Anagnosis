@@ -62,7 +62,8 @@
       "La force de Coriolis, calculée par lui, dévie l'air vers la droite dans l'hémisphère nord"
     ],
     "bonne_reponse": 0,
-    "explication": "Hadley compare les vitesses de rotation des cercles de latitude : l'air qui vient des tropiques est en retard sur le sol de l'équateur. Les trois autres réponses sont les idées de Halley (1686), de Hooke, et la force de Coriolis, introduite en 1835, un siècle plus tard."
+    "explication": "Hadley compare les vitesses de rotation des cercles de latitude : l'air qui vient des tropiques est en retard sur le sol de l'équateur. Les trois autres réponses sont les idées de Halley (1686), de Hooke, et la force de Coriolis, introduite en 1835, un siècle plus tard.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -77,7 +78,7 @@
       "explication": "Persson attribue à Adolph Sprung le nom de « principe de Hadley », en 1880. Coriolis introduit sa force en 1835, Ferrel l'applique à l'atmosphère vers 1856, et Halley est mort en 1742."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-07",
@@ -90,6 +91,20 @@
     "empreinte": "cf95d5dedbdb5302",
     "notes": [
       "Persson 2006 et Birner/Davis/Seidel 2014 rouverts : 917 à 1000, Sprung 1880, Halley/John Hadley, Coriolis 1835 et Ferrel confirmés. Texte de 1735 non rouvert (relayé par Persson)."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-07T12:39:05.859Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-07T12:39:05.859Z",
+        "note": "Rouvert : Persson 2006 (PDF, texte extrait) et Birner/Davis/Seidel 2014 (PDF). Vérifié : ouverture de 1735 'not been fully explained', avocat entré à la Royal Society en 1735, rapport 917 à 1000, Halley 1686 et ses doutes (lettre à Wallis), Chambers 1728, confusion avec Halley et John Hadley, nom donné par Sprung en 1880, Coriolis 1835 (machines tournantes), Ferrel 1856 (Nashville J.), friction/rotation de la Terre, cellules jusqu'aux pôles vs moment cinétique. Aucun changement. Réserve : texte original de 1735 non rouvert, cité via Persson."
+      }
     ]
   }
 }
