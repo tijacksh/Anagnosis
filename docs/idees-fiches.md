@@ -221,3 +221,7 @@ peut rouvrir directement le texte du décret.)*
 | Preuve et erreur judiciaire | Cameron Todd Willingham (Texas, 2004) et l'expertise d'incendie contestée (abandonné : rapports de la commission du Texas inaccessibles, aucune source institutionnelle vérifiée) | abandonné | routine-production-arnaud | 2026-10-07 |
 | Preuve et erreur judiciaire | *Powell v. Alabama* (1932), Scottsboro et le droit à un avocat dans un procès capital | fait | routine-production-arnaud | 2026-10-07 |
 | Preuve et erreur judiciaire | *Brady v. Maryland* (1963), la confession cachée et la règle de divulgation | fait | routine-production-arnaud | 2026-10-07 |
+| Institutions judiciaires | La vénalité des offices de judicature et la Paulette (1604), des juges qui achètent leur charge | en cours | routine-production-arnaud | 2026-10-07 |
+| Institutions judiciaires | Le verdict écossais « not proven » et l'affaire de 1728 | en cours | routine-production-arnaud | 2026-10-07 |
+| Institutions judiciaires | Le conseil de prud'hommes de Lyon (loi du 18 mars 1806) | en cours | routine-production-arnaud | 2026-10-07 |
+| Institutions judiciaires | Les juges consulaires, édit de Charles IX de novembre 1563 | en cours | routine-production-arnaud | 2026-10-07 |
