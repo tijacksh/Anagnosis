@@ -216,3 +216,7 @@ peut rouvrir directement le texte du décret.)*
 | Climat et météorologie | Teisserenc de Bort et Assmann (1902) : la température cesse de baisser vers 11 km, la stratosphère | fait | routine-production-arnaud | 2026-10-07 |
 | Climat et météorologie | Tambora (1815) et l'été 1816 : un été froid et pluvieux, pas seulement froid | fait | routine-production-arnaud | 2026-10-07 |
 | Climat et météorologie | Hadley (1735) : les alizés expliqués un siècle avant Coriolis, et pourquoi on l'a oublié | fait | routine-production-arnaud | 2026-10-07 |
+| Preuve et erreur judiciaire | *Daubert v. Merrell Dow* (1993), la Cour suprême américaine et le tri de l'expertise scientifique | en cours | routine-production-arnaud | 2026-10-07 |
+| Preuve et erreur judiciaire | La preuve spectrale aux procès de Salem (1692) et les *Cases of Conscience* | en cours | routine-production-arnaud | 2026-10-07 |
+| Preuve et erreur judiciaire | Cameron Todd Willingham (Texas, 2004) et l'expertise d'incendie contestée | en cours | routine-production-arnaud | 2026-10-07 |
+| Preuve et erreur judiciaire | *Powell v. Alabama* (1932), Scottsboro et le droit à un avocat dans un procès capital | en cours | routine-production-arnaud | 2026-10-07 |
