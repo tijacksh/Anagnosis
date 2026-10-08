@@ -1,0 +1,99 @@
+{
+  "id": "inf-ariane-5-vol-501-code-reutilise",
+  "slug": "ariane-5-vol-501-le-code-qui-aurait-du-etre-retire",
+  "titre": "Ariane 5, vol 501 : le code qui n'aurait pas dû tourner",
+  "accroche": "Le 4 juin 1996, Ariane 5 se détruit 37 secondes après le décollage. La cause : une fonction reprise d'Ariane 4, sans utilité pour ce vol.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Le 4 juin 1996, la première Ariane 5 décolle de Kourou. Trente-sept secondes plus tard environ, elle dévie de sa trajectoire, se disloque et est détruite. Ce qui l'a perdu tient en une ligne de logiciel, et surtout en une décision qui n'avait rien de négligent.\n\n## Le mécanisme\n\nLa fusée dispose de deux centrales inertielles, identiques, qui mesurent son orientation et ses mouvements. Parmi leurs calculs, une valeur dite de biais horizontal, notée BH, était d'abord exprimée sous forme d'un nombre à virgule flottante sur 64 bits. À un moment, le programme la convertit en entier signé sur 16 bits, qui ne peut représenter que des valeurs comprises entre -32 768 et 32 767. Le rapport de la commission d'enquête est net : la valeur à convertir dépassait ce qu'un entier de 16 bits peut contenir. La conversion échoue, et les deux centrales cessent de fonctionner : le rapport situe cette défaillance à H0 + 36,7 secondes.\n\n## Pourquoi ce calcul tournait encore\n\nLe plus étonnant n'est pas la conversion, c'est sa présence. La fonction concernée servait à réaligner rapidement le système si le compte à rebours était interrompu tard. Cette exigence venait d'Ariane 4, plus de dix ans auparavant. Elle prévoyait que la fonction continue de tourner pendant 50 secondes après H0, l'instant de référence du lancement. Pour Ariane 5, cette période de fonctionnement n'était pas requise : le rapport précise qu'elle a été maintenue « par souci de communauté » avec le logiciel précédent.\n\nLe rapport note aussi que, pour plusieurs variables du même type, une protection contre le dépassement avait été mise en place, et que pour BH, elle ne l'avait pas été, délibérément. Le code n'était pas défectueux au sens où on l'entend d'ordinaire : il avait volé sans problème sur Ariane 4, dont il avait été conçu pour les trajectoires.\n\n## Le déplacement\n\nOn raconte souvent cet échec comme celui d'un programmeur distrait. Le rapport présidé par le professeur J. L. Lions, daté du 19 juillet 1996, raconte autre chose : un composant correct dans son contexte d'origine, reconduit dans un autre sans qu'on revérifie les hypothèses qui le rendaient correct. La bonne question n'est pas « qui a oublié ce test ? », mais « qui devait savoir que cette hypothèse ne tenait plus ? ». Réutiliser du code éprouvé réduit les bugs que l'on connaît, et peut introduire ceux qu'on ne sait pas qu'on emporte avec lui. Combien de systèmes tournent aujourd'hui avec des fonctions conservées pour la même raison, parce qu'elles ont toujours été là ?",
+  "citation": null,
+  "repere": {
+    "texte": "Selon la commission d'enquête, la conversion d'une valeur de 64 bits flottants en entier signé de 16 bits a dépassé la capacité de celui-ci à H0 + 36,7 secondes ; la fonction concernée, utile sur Ariane 4, avait été maintenue sur Ariane 5 « pour des raisons de communauté » alors qu'elle n'y était pas requise.",
+    "source": "Commission d'enquête présidée par J. L. Lions, « ARIANE 5 Flight 501 Failure », Paris, 19 juillet 1996",
+    "url": "https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html"
+  },
+  "carte": {
+    "punch": "Ariane 5 s'est détruite à cause d'un calcul dont elle n'avait pas besoin.",
+    "idee": "Le 4 juin 1996, une conversion de 64 à 16 bits dépasse sa capacité 37 secondes après le décollage. La fonction venait d'Ariane 4 et n'était pas requise pour ce vol : elle avait été conservée par souci de communauté.",
+    "source_courte": "Rapport Lions, 1996"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Commission d'enquête sur Ariane 501 (président : J. L. Lions)",
+      "titre": "ARIANE 5 Flight 501 Failure - Report by the Inquiry Board",
+      "publication": "Rapport d'enquête, Paris",
+      "annee": 1996,
+      "url": "https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html",
+      "note": "Rapport officiel, daté du 19 juillet 1996 ; source des dates, de la conversion de BH et de la fonction d'alignement maintenue par communauté."
+    },
+    {
+      "type": "web",
+      "auteur": "Arnold, Douglas N.",
+      "titre": "The Explosion of the Ariane 5",
+      "publication": "University of Minnesota",
+      "annee": null,
+      "url": "https://www-users.cse.umn.edu/~arnold/disasters/ariane.html",
+      "note": "Présentation de l'échec par un mathématicien, renvoie au rapport officiel."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Rapport de la commission d'enquête (texte intégral)",
+      "url": "https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html",
+      "note": "La section sur la conversion de BH et les recommandations."
+    }
+  ],
+  "illustration": {
+    "prompt": "Un grand rectangle vertical divisé en deux colonnes, l'une ancienne et fendue par une ligne, l'autre neuve ; un petit module carré identique glisse de la première à la seconde et déborde du cadre. Aplats pleins, deux encres, aucun dégradé.",
+    "alt": "Un petit carré passe d'une grande colonne à une autre et déborde de son cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la conversion fatale de la valeur BH était-elle encore exécutée sur Ariane 5 ?",
+    "choix": [
+      "Le code d'alignement d'Ariane 4 avait été conservé par souci de communauté, bien qu'inutile pour Ariane 5",
+      "Un programmeur avait oublié de supprimer une ligne de test avant le premier vol",
+      "Les deux centrales inertielles dépendaient de cette fonction pour calculer la trajectoire d'Ariane 5",
+      "La fonction servait à mesurer la poussée des moteurs pendant la montée"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le rapport indique que cette exigence venait d'Ariane 4 et n'était pas requise pour Ariane 5 ; elle a été maintenue par communauté. Il ne s'agit pas d'un test laissé par erreur, ni d'un calcul de trajectoire ou de poussée.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Que se passe-t-il lors de la conversion d'une valeur de 64 bits flottants en entier signé de 16 bits si la valeur est trop grande ?",
+      "choix": [
+        "Elle dépasse ce que 16 bits peuvent représenter et la conversion échoue",
+        "Elle est arrondie automatiquement à la valeur maximale",
+        "Elle est tronquée sans conséquence",
+        "Elle est ignorée et remplacée par zéro"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Un entier signé de 16 bits ne représente que de -32 768 à 32 767. Au-delà, il y a dépassement, ce que le rapport décrit comme la cause de l'arrêt des centrales."
+    },
+    {
+      "question": "Quelle lecture le rapport de la commission d'enquête propose-t-il de l'origine de l'échec ?",
+      "choix": [
+        "Une erreur de frappe d'un programmeur",
+        "Un composant correct sur Ariane 4, reconduit sans revérifier ses hypothèses",
+        "Un défaut des moteurs",
+        "Une panne de l'ordinateur du sol"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le rapport décrit une fonction conservée pour Ariane 5 alors qu'elle n'y était pas requise, avec une protection volontairement absente pour BH. Ce n'est ni une frappe, ni un défaut moteur."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-08",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

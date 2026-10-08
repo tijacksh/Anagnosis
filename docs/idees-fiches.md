@@ -238,6 +238,6 @@ peut rouvrir directement le texte du décret.)*
 | Géologie | L'échelle de Richter (1935) : une échelle locale sans plafond affiché, que la magnitude de moment (1979) a remplacée | fait | routine-production-arnaud | 2026-10-08 |
 | Géologie | Mohorovičić et le séisme de la Kupa (8 octobre 1909) : la frontière croûte-manteau lue dans deux arrivées d'ondes | fait | routine-production-arnaud | 2026-10-08 |
 | Géologie | Bretz et les Channeled Scablands : le « Spokane Flood » de 1923, rejeté puis rattaché au lac Missoula | fait | routine-production-arnaud | 2026-10-08 |
-| Informatique | Ariane 5, vol 501 (1996) : la conversion de 64 à 16 bits d'un logiciel d'Ariane 4 | en cours | routine-production-arnaud | 2026-10-08 |
-| Informatique | Patriot à Dhahran (1991) : 0,34 seconde de dérive d'horloge, rapport GAO | en cours | routine-production-arnaud | 2026-10-08 |
-| Informatique | « Go To Statement Considered Harmful » (1968) : un titre que Dijkstra n'avait pas choisi | en cours | routine-production-arnaud | 2026-10-08 |
+| Informatique | Ariane 5, vol 501 (1996) : la conversion de 64 à 16 bits d'un logiciel d'Ariane 4 | fait | routine-production-arnaud | 2026-10-08 |
+| Informatique | Patriot à Dhahran (1991) : 0,34 seconde de dérive d'horloge, rapport GAO | fait | routine-production-arnaud | 2026-10-08 |
+| Informatique | « Go To Statement Considered Harmful » (1968) : un titre que Dijkstra n'avait pas choisi | fait | routine-production-arnaud | 2026-10-08 |

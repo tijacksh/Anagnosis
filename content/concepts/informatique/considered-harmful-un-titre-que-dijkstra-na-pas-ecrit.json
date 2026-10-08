@@ -1,0 +1,99 @@
+{
+  "id": "inf-considered-harmful-titre-de-wirth",
+  "slug": "considered-harmful-un-titre-que-dijkstra-na-pas-ecrit",
+  "titre": "« Considered harmful » : un titre que Dijkstra n'a pas écrit",
+  "accroche": "En 1968, la lettre la plus célèbre de l'informatique s'appelait « A Case against the GO TO Statement ». C'est l'éditeur qui l'a rebaptisée.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En mars 1968, les lecteurs de la revue Communications of the ACM trouvent, dans leur courrier des lecteurs, une lettre de deux pages signée Edsger Dijkstra. Elle s'intitule « Go To Statement Considered Harmful ». Cette formule est devenue un genre à elle seule. Seulement, Dijkstra ne l'avait pas écrite.\n\n## Le titre d'origine\n\nDans le manuscrit que Dijkstra envoie à la revue, la lettre s'appelait « A Case against the GO TO Statement ». Le texte est conservé dans les archives Dijkstra de l'université du Texas sous la référence EWD215, avec le titre qu'il lui avait donné. Le titre a été modifié à la publication par Niklaus Wirth, alors rédacteur de la revue, selon Wikipédia, qui y a mis la formule que l'on connaît. La lettre est parue dans le numéro de mars 1968, volume 11, aux pages 147 et 148.\n\n## L'argument\n\nDijkstra y soutient que l'usage sans retenue de l'instruction « go to », qui fait sauter l'exécution d'un point du programme à un autre, rend difficile de suivre ce que fait un programme. Pour comprendre où l'on est, il faut savoir par quelle suite d'étapes l'exécution est arrivée là, et les sauts brouillent cette suite. Il plaide pour des constructions plus structurées, qui laissent le texte du programme refléter son déroulement. Ce que la lettre attaque, c'est un usage, pas l'existence de l'instruction : la nuance tient à tout ce que le titre ne dit pas. La lettre n'est pas une interdiction : elle admet des exceptions, comme des sorties de secours.\n\n## Le déplacement\n\nLe titre de Wirth a eu davantage de postérité que la lettre. Selon Wikipédia, au moins 65 essais critiques en informatique et dans des domaines voisins portaient en 2009 un titre bâti sur le modèle « X considered harmful ». La formule a installé un ton : celui du réquisitoire bref, catégorique, qui laisse peu de place à la nuance. Or le texte d'origine, lui, en contenait davantage que le titre ne le laisse croire.\n\nUn titre est un acte éditorial qui s'ajoute au texte, et qui peut en changer la réception. L'histoire de cette phrase est donc aussi celle d'un contresens possible : on lit la formule de Wirth comme si c'était l'argument de Dijkstra. Quelle autre phrase célèbre en informatique nous vient d'un éditeur, d'un titre de presse, d'une légende de conférence plutôt que de l'auteur ?",
+  "citation": null,
+  "repere": {
+    "texte": "La lettre de Dijkstra, soumise sous le titre « A Case against the GO TO Statement », a été publiée sous celui de « Go To Statement Considered Harmful » dans Communications of the ACM, vol. 11, n° 3, mars 1968, pp. 147-148.",
+    "source": "Archives E. W. Dijkstra, université du Texas à Austin, EWD215 ; Communications of the ACM, mars 1968",
+    "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html"
+  },
+  "carte": {
+    "punch": "« Considered harmful » n'est pas de Dijkstra.",
+    "idee": "Sa lettre de 1968 s'appelait « A Case against the GO TO Statement ». Le rédacteur de la revue, Niklaus Wirth, l'a retitrée : la formule a ensuite servi à au moins 65 essais d'informatique en 2009.",
+    "source_courte": "Archives Dijkstra EWD215"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Dijkstra, Edsger W.",
+      "titre": "A Case against the GO TO Statement (EWD215)",
+      "publication": "Archives E. W. Dijkstra, université du Texas à Austin",
+      "annee": 1968,
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html",
+      "note": "Transcription du manuscrit, avec le titre d'origine et la mention du titre de la publication."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Considered harmful",
+      "publication": "en.wikipedia.org",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Considered_harmful",
+      "note": "Attribue le changement de titre à Niklaus Wirth, donne la référence CACM 11(3):147-148 et le compte de 65 essais en 2009."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Page d'archive de la lettre (EWD215)",
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html",
+      "note": "Le manuscrit, avec le titre d'origine."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une étiquette de titre barrée d'un trait net ; au-dessus, une seconde étiquette plus courte la recouvre à moitié, légèrement décalée. Aplats pleins, deux encres, aucun dégradé.",
+    "alt": "Une étiquette de titre recouverte à moitié par une autre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Qui a donné à la lettre de 1968 son titre « Go To Statement Considered Harmful » ?",
+    "choix": [
+      "Dijkstra lui-même, dans le manuscrit envoyé à la revue",
+      "Niklaus Wirth, rédacteur de la revue, qui a modifié le titre",
+      "Donald Knuth, dans sa réponse publiée à la lettre",
+      "L'imprimeur de la revue, par une erreur de composition"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le manuscrit s'intitulait « A Case against the GO TO Statement » ; le changement vient du rédacteur de la revue. Ni Knuth ni l'imprimeur n'y sont pour quelque chose.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Dans quel numéro de Communications of the ACM la lettre a-t-elle paru ?",
+      "choix": [
+        "Mars 1968",
+        "Janvier 1958",
+        "Septembre 1975",
+        "Décembre 1990"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La lettre a paru en mars 1968, volume 11, numéro 3, pages 147-148."
+    },
+    {
+      "question": "Que montre le titre d'origine par rapport à la formule publiée ?",
+      "choix": [
+        "Qu'il était identique",
+        "Qu'il formulait un plaidoyer plutôt qu'un réquisitoire catégorique",
+        "Qu'il visait un autre langage",
+        "Qu'il ne parlait pas de go to"
+      ],
+      "bonne_reponse": 1,
+      "explication": "« A Case against » annonce un plaidoyer argumenté ; « Considered harmful » donne un ton plus tranché. Le texte, lui, admettait des exceptions comme les sorties de secours."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-08",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
