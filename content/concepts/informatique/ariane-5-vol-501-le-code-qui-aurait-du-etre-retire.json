@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le rapport indique que cette exigence venait d'Ariane 4 et n'était pas requise pour Ariane 5 ; elle a été maintenue par communauté. Il ne s'agit pas d'un test laissé par erreur, ni d'un calcul de trajectoire ou de poussée.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -89,7 +89,7 @@
       "explication": "Le rapport décrit une fonction conservée pour Ariane 5 alors qu'elle n'y était pas requise, avec une protection absente pour BH, au terme d'un raisonnement que le rapport juge faux. Ce n'est ni une frappe, ni un défaut moteur."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -102,6 +102,20 @@
     "empreinte": "2d91377d129a7139",
     "notes": [
       "Relecture du 8/10 vérifiée par recherche croisée (rapport Lions, miroirs Edinburgh/Glasgow/Berkeley) : fonction d'alignement active 50 s après l'entrée en mode vol sur Ariane 4 (donc ~40 s après décollage sur Ariane 5), maintenue « pour des raisons de communauté », sept variables à risque dont quatre protégées et trois non protégées (dont BH), raisonnement jugé faux a posteriori pour BH — confirme le remplacement de 'délibérément' par une formulation plus fidèle au rapport. Aucune anomalie."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T19:38:42.096Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-08T19:38:42.096Z",
+        "note": "Sources rouvertes: rapport Lions (umn.edu/~arnold/disasters/ariane5rep.html) et page Arnold ariane.html. Verifie: 4 juin 1996, rapport du 19 juillet 1996, H0+36,7 s, ~30 s apres decollage, conversion 64 bits flottant vers entier signe 16 bits, deux SRI identiques, alignement actif 50 s apres le mode vol, exigence de >10 ans (compte a rebours), 'commonality reasons', 7 variables dont 4 protegees et 3 dont BH non protegees, raisonnement faux pour BH. Quiz et carte conformes; aucun changement."
+      }
     ]
   }
 }

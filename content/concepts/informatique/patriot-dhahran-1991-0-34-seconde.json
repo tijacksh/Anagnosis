@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "L'erreur était systématique et croissante avec la durée d'allumage, pas aléatoire : 1/10 se tronque dans un registre de 24 bits. Rien n'indique un piratage, un capteur défaillant ou une boucle erratique.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -89,7 +89,7 @@
       "explication": "1 676 × 0,34 donne environ 570 mètres : le radar cherchait donc le Scud à plus d'un demi-kilomètre de sa position réelle."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -102,6 +102,20 @@
     "empreinte": "8232169e62f8ade7",
     "notes": [
       "Relecture du 8/10 : reformulation 'n'a pas pu le suivre, et la batterie ne l'a pas engagé' plus fidèle au mécanisme (fenêtre de recherche radar décalée) que l'ancienne 'a conclu qu'il n'y avait pas de cible' ; confirmée par recherche croisée (GAO IMTEC-92-26, synthèses umn.edu/cs.toronto.edu : 28 morts, 100 h, 0,34 s, registre 24 bits). Aucune anomalie."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T19:38:42.189Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-08T19:38:42.189Z",
+        "note": "Sources rouvertes: gao.gov/products/imtec-92-26 (titre, 4 fev 1992), umn.edu patriot.html (28 morts, 1676 m/s, 100 h, 0,34 s, 24 bits, 0,0001100110011..., range gate), miroir texte du rapport GAO cs.nyu.edu (jamais utilise contre des Scuds, donnees israeliennes 8 h deux semaines avant, correctif le 26 fevrier). PDF gao.gov scanne, non lisible, remplace par le miroir. Aucun changement."
+      }
     ]
   }
 }

@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Richter précise en note que le 0 n'est pas « aucun séisme » : l'échelle est logarithmique, et 0 désigne le séisme standard dont les amplitudes figurent dans son tableau de référence, placé sur les plus petits séismes alors enregistrés.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
       "explication": "Selon la note de Richter, une magnitude 1 a dix fois l'amplitude enregistrée du séisme standard, une magnitude 2 cent fois : c'est le propre d'une échelle logarithmique."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -107,6 +107,20 @@
     "empreinte": "fac3d0abeab6438e",
     "notes": [
       "Relecture du 8/10 : corrections de forme seulement (coquille 'rate'->'mesure', 'montrent'->'jugent'). Aucun changement de fond ; contenu déjà vérifié au contrôle précédent sur Richter 1935 et Hanks-Kanamori 1979, non rouvert."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T19:38:42.005Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-08T19:38:42.005Z",
+        "note": "Sources rouvertes: Richter 1935 (PDF, texte extrait localement) et Hanks-Kanamori 1979 (PDF extrait). Verifie: reception 17 juin 1934, suggestion de H.O. Wood, Rossi-Forel/Mercalli-Cancani, sept stations, Wadati, definition log amplitude en microns a 100 km, note 4 sur le zero, magnitude 1 = 10x, Nevada 20/12/1932 ~7,5, ecart d'energie >=10^15, effets par magnitude; HK: 'in principle unbounded', ML max 6,8 en >40 ans, limite proche de 7. Quiz et carte coherents, aucun changement."
+      }
     ]
   }
 }

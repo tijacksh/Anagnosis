@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "À moins de 240 km, une onde longitudinale et une transversale arrivent ; entre 240 et 720 km, il en arrive deux de chaque. Mohorovičić en déduit deux trajets différents, donc une discontinuité entre deux couches.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
       "explication": "Mohorovičić distingue des phases que la sismologie note Pg, Sg, Pn et Sn. Leur existence traduit des trajets différents des ondes, et donc une discontinuité de propriétés sous la surface."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -107,6 +107,20 @@
     "empreinte": "db9b0d56e338a6d9",
     "notes": [
       "Relecture du 8/10 corrigée : 'premier à établir' remplacé par 'démontre' pour coller à la réserve du contrôle précédent (SRL dit 'prove', pas 'premier'). Aucun autre changement de fond. Chiffres (41 stations, 240/720 km, Pg/Sg/Pn/Sn, publication 1910) déjà vérifiés au contrôle précédent sur geotech.hr et SRL 78-6, non rouverts (texte inchangé sur ce point)."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T19:38:41.910Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-08T19:38:41.910Z",
+        "note": "Sources rouvertes: geotech.hr (8 oct 1909, 41 stations, 240/720 km, epicentre a ~40 km au SE de Zagreb pres de Pokupsko, collegues sollicites) et SRL 78-6 (Pg/Sg/Pn/Sn, publication bilingue 56 p., trad. anglaise Geofizika 1992, sismographes Wiechert operationnels en 1908 et 1909, 'prove' la frontiere). Chaque chiffre du corps, de la carte, du repere et des quiz retrouve; distracteurs faux. Aucun changement de texte."
+      }
     ]
   }
 }
