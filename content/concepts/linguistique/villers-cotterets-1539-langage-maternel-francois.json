@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le texte exige le « langage maternel francoys » et « non aultrement ». Il ne nomme ni le latin ni les langues régionales, et il ne précise pas quelle variété de français il vise : ses lecteurs de 1539 y voient un choix administratif, non une langue officielle.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
       "explication": "C'est un décret révolutionnaire de 1794, et non l'ordonnance de 1539, qui fait du français la seule langue de l'administration. C'est à partir de lui que l'ordonnance est relue comme un acte fondateur."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -103,10 +103,24 @@
   },
   "controle": {
     "fait_le": "2026-10-08",
-    "verdict": "ok",
-    "empreinte": "34ee2786bd3cab32",
+    "verdict": "a_revoir",
+    "empreinte": "ce0293f24160369a",
     "notes": [
-      "Sources confirmées par recherche croisée : articles 110-111, formule « langage maternel francoys et non aultrement », signature entre le 10 et le 15 août 1539, enregistrement au Parlement le 6 septembre 1539, 192 articles, absence du mot latin dans le texte, décret de 1794 imposant le français seul, et datation 1778 du mot « officiel » (point précis confirmé par la page axl.cefan.ulaval.ca elle-même, citée par un résumé indépendant)."
+      "Art. 111 (Wikisource/Wikipédia) contient 'mots latins' ; la fiche affirme l'inverse en s'appuyant sur la transcription Laval. À arbitrer et réécrire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T20:15:56.290Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-08T20:15:56.290Z",
+        "note": "Signalé par la routine controler : voir notes de contrôle."
+      }
     ]
   }
 }

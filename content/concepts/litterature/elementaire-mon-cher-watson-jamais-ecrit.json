@@ -58,7 +58,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le canon de Doyle contient « Élémentaire » et « mon cher Watson » séparément. La formule complète apparaît chez Wodehouse en 1910 avant d'être popularisée par le cinéma.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -73,11 +73,33 @@
       "explication": "Holmes vient de deviner, aux bottes de Watson, qu'il a pris un fiacre ; Watson dit « Excellent ! » et Holmes répond « Elementary »."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-08",
+    "verdict": "a_revoir",
+    "empreinte": "40cefbe3601e12d8",
+    "notes": [
+      "Contradiction 'venu à pied / a pris un fiacre' ; 'une dizaine de fois' vs 17 occurrences de 'my dear Watson' dans les Mémoires ; Boström 2018 non retrouvé."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T20:15:56.377Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-08T20:15:56.377Z",
+        "note": "Signalé par la routine controler : voir notes de contrôle."
+      }
+    ]
   }
 }

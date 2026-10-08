@@ -75,7 +75,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Selon Nithard, chacun s'exprime dans la langue de l'armée à laquelle il s'adresse, qui est celle de l'autre roi. L'enjeu est que le serment soit compris : il n'est pas courtois, il n'est pas imposé par un décret, et le roi ne jure pas dans la langue de sa propre armée.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -112,7 +112,7 @@
       "explication": "Ce sont deux petits-fils de Charlemagne, fils de Louis le Pieux, alliés contre leur frère aîné Lothaire."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -121,10 +121,24 @@
   },
   "controle": {
     "fait_le": "2026-10-08",
-    "verdict": "ok",
-    "empreinte": "8d70da8f1dc0d21f",
+    "verdict": "a_revoir",
+    "empreinte": "0f1d6e2c9750596d",
     "notes": [
-      "Sources rouvertes : fr.wikipedia.org (date, Fontenoy, choix des langues, manuscrit BnF latin 9768 copié vers l'an 1000) confirme le repère ; romana lingua / teudisca lingua et le texte latin de Nithard confirmés par recherche croisée (herodote.net, lexilogos). Le second manuscrit (lat. 14663) est une copie du premier, ce qui justifie la formule 'un seul manuscrit' comme témoin indépendant."
+      "Phrase koinè/dialecte du §2 incohérente et penchant à tort pour la koinè (Wikipédia : débat dialecte vs koinè). À réécrire (sens). Autres faits confirmés."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T20:15:56.199Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-08T20:15:56.199Z",
+        "note": "Signalé par la routine controler : voir notes de contrôle."
+      }
     ]
   }
 }
