@@ -241,3 +241,7 @@ peut rouvrir directement le texte du décret.)*
 | Informatique | Ariane 5, vol 501 (1996) : la conversion de 64 à 16 bits d'un logiciel d'Ariane 4 | fait | routine-production-arnaud | 2026-10-08 |
 | Informatique | Patriot à Dhahran (1991) : 0,34 seconde de dérive d'horloge, rapport GAO | fait | routine-production-arnaud | 2026-10-08 |
 | Informatique | « Go To Statement Considered Harmful » (1968) : un titre que Dijkstra n'avait pas choisi | fait | routine-production-arnaud | 2026-10-08 |
+| Linguistique | Le « wug test » de Jean Berko (1958) : les enfants appliquent des règles, pas seulement des mots appris | en cours | routine-production-arnaud | 2026-10-08 |
+| Linguistique | Villers-Cotterêts (1539) : « langage maternel françois » ne vise pas les langues régionales | en cours | routine-production-arnaud | 2026-10-08 |
+| Linguistique | William Jones, 1786 : la phrase sur le sanskrit, le grec et le latin, lue dans son contexte | en cours | routine-production-arnaud | 2026-10-08 |
+| Linguistique | Les Serments de Strasbourg (842) : le plus ancien texte en langue romane | en cours | routine-production-arnaud | 2026-10-08 |
