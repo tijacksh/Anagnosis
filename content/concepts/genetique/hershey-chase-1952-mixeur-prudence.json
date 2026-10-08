@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La phrase finale est « The DNA has some function », assortie de la mise en garde de ne pas tirer d'autres conclusions chimiques. La légende a transformé cette prudence en preuve définitive.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -89,7 +89,7 @@
       "explication": "L'article de 1944 avait déjà désigné l'ADN et le travail de Chargaff avait écarté son prétendu caractère monotone. L'expérience de 1952 offrait un argument d'une autre nature, aux spécialistes des phages en particulier."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -102,6 +102,20 @@
     "empreinte": "5dec3921792374c1",
     "notes": [
       "« some function » traduit « une certaine fonction » (accroche, punch, corps) ; repère reformulé (agitation détache 75 % du soufre du phage). Réserves non bloquantes : « la communauté des phagistes » et « la légende en a fait une preuve définitive » non sourcés ; explication du quiz 'terrain préparé' cite Chargaff absent du corps."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T06:39:26.594Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-08T06:39:26.594Z",
+        "note": "Rouvert : résumé de l'article (Europe PMC : 75 % du soufre, 15 % du phosphore, Waring, « The DNA has some function », mise en garde), Wikipedia Hershey-Chase, dnaftb.org/18 (page de concept, animation sur un autre onglet). Doute non levé : l'affirmation centrale « la phrase [l'ADN est le matériel génétique] n'est pas dans l'article » n'a pu être contrôlée que sur le résumé ; le texte intégral est inaccessible (PMC captcha, rupress 403, PDF scanné) et la discussion de l'article parle de séparation du phage en parties génétique et non génétique, alors que Wikipedia écrit qu'ils ont conclu que l'ADN était le matériel génétique. À lever : lire la discussion de l'article de 1952 et ajuster titre/accroche/punch. Aussi : « terrain préparé » et Chargaff cité dans l'explication du quiz absent du corps ; 'phagistes'/'preuve définitive' à sourcer (Wikipedia : communauté ayant ensuite admis que l'ADN était le matériel génétique)."
+      }
     ]
   }
 }
