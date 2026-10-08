@@ -73,7 +73,30 @@
     "explication": "« Non prouvé » est un acquittement comme « non coupable », mais sans définition légale : on ne sait pas ce que le jury a voulu dire. Il ne permet ni condamnation par le juge, ni nouveau procès, ni peine réduite.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Depuis la loi de 2025, combien de jurés faut-il pour condamner un accusé en Écosse ?",
+      "choix": [
+        "Huit jurés sur quinze",
+        "Douze jurés sur quinze",
+        "L'unanimité des quinze jurés",
+        "Dix jurés sur quinze"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La loi fait passer la règle à dix jurés sur quinze, au lieu de la simple majorité qui était de huit. L'unanimité n'est donc pas exigée."
+    },
+    {
+      "question": "Quels effets juridiques ont « non coupable » et « non prouvé » pour l'accusé ?",
+      "choix": [
+        "Ils libèrent l'accusé avec les mêmes effets juridiques",
+        "« Non prouvé » impose un second procès devant un autre jury",
+        "Seul « non coupable » libère l'accusé, « non prouvé » le maintient en détention",
+        "Ils condamnent tous deux l'accusé à une peine symbolique"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Les deux verdicts sont des acquittements : l'accusé repart libre, avec les mêmes effets juridiques. Ce qui les distingue, c'est le message adressé par le jury, pas la sanction."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
