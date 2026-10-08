@@ -245,3 +245,7 @@ peut rouvrir directement le texte du décret.)*
 | Linguistique | Villers-Cotterêts (1539) : « langage maternel françois » ne vise pas les langues régionales | fait | routine-production-arnaud | 2026-10-08 |
 | Linguistique | William Jones, 1786 : la phrase sur le sanskrit, le grec et le latin, lue dans son contexte | fait | routine-production-arnaud | 2026-10-08 |
 | Linguistique | Les Serments de Strasbourg (842) : le plus ancien texte en langue romane | fait | routine-production-arnaud | 2026-10-08 |
+| Littérature | « Élémentaire, mon cher Watson » : Conan Doyle n'a jamais écrit la phrase | en cours | routine-production-arnaud | 2026-10-08 |
+| Littérature | « Je désapprouve ce que vous dites… » : une phrase d'Evelyn Beatrice Hall (1906), pas de Voltaire | en cours | routine-production-arnaud | 2026-10-08 |
+| Littérature | Les Fleurs du mal (1857) : six poèmes condamnés, le livre jamais interdit, réhabilité en 1949 | en cours | routine-production-arnaud | 2026-10-08 |
+| Littérature | « Wherefore art thou Romeo ? » : Juliette ne demande pas où est Roméo | en cours | routine-production-arnaud | 2026-10-08 |
