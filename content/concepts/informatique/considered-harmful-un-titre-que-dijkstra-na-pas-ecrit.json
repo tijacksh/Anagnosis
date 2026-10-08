@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le manuscrit s'intitulait « A Case against the GO TO Statement » ; le changement vient du rédacteur de la revue. Ni Knuth ni l'imprimeur n'y sont pour quelque chose.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -89,11 +89,33 @@
       "explication": "« A Case against » annonce un plaidoyer argumenté ; « Considered harmful » donne un ton plus tranché. Le texte, lui, admettait des exceptions comme les sorties de secours."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T11:14:36.835Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-08T11:14:36.835Z",
+        "note": "Contrôle : EWD215 rouvert. (1) La page d'archive ne désigne pas Wirth : elle dit seulement que la version publiée sous le titre « Go To Statement Considered Harmful » a été reformatée et complétée (deux derniers paragraphes, références) par H. Richards ; Wirth ne vient que de Wikipédia (le texte le dit). (2) Sens : « ce que la lettre attaque, c'est un usage, pas l'existence de l'instruction » et « n'est pas une interdiction » contredisent le texte : Dijkstra écrit que le go to « should be abolished from all higher level programming languages » (sauf peut-être le code machine) ; la nuance se limite aux sorties d'alarme et à d'autres clauses possibles. À reformuler ; explication du quiz et quiz supplémentaire 2 à ajuster. (3) Les sorties d'alarme figurent dans les paragraphes ajoutés à la version publiée, absents du tapuscrit d'archive."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-08",
+    "verdict": "a_revoir",
+    "empreinte": "65fec36ce8e5c488",
+    "notes": [
+      "Thèse « usage et non existence » contredite par « should be abolished from all higher level languages » ; changement de titre attribué à Wirth seulement via Wikipédia, EWD215 cite H. Richards pour la version publiée."
+    ]
   }
 }
