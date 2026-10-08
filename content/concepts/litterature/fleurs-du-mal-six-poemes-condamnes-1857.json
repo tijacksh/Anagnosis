@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le tribunal ordonne la suppression de six pièces et retient l'outrage à la morale publique ; il ne frappe pas le recueil dans son ensemble.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -81,7 +81,7 @@
       "explication": "Une loi de 1946 permet la révision de condamnations d'œuvres littéraires, à la requête de la Société des gens de lettres ; Baudelaire en est le premier bénéficiaire."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -94,6 +94,20 @@
     "empreinte": "360b19f35a4d3a2d",
     "notes": [
       "Sources rouvertes : justice.gouv.fr (20 août 1857, 300/100 F, six pièces, Pinard, 17 juillet, 31 mai 1949), Livres Hebdo (douze jours de délibéré, chambre criminelle, loi Cogniot 1946 première application, requête à l'impératrice -> 50 F), Indiana Banned Books (tribunal de la Seine, six poèmes, Cour de cassation 1949). Fond exact."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T22:12:35.440Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-08T22:12:35.440Z",
+        "note": "justice.gouv.fr rouvert directement : 20 août 1857, 300/100 francs, outrage à la morale publique seul retenu, Pinard, lien avec Madame Bovary, réhabilitation du 31 mai 1949 par la Cour de cassation sur requête de la Société des gens de lettres. livreshebdo.fr et bannedbooks.indiana.edu bloqués par le proxy réseau, contenu confirmé par recherche croisée indépendante : douze jours de délibéré, loi Cogniot votée en 1946, six titres exacts (Les Bijoux, Le Léthé, À celle qui est trop gaie, Lesbos, Femmes damnées, Les Métamorphoses du vampire) retrouvés à l'identique dans plusieurs sources, réduction à 50 francs confirmée par la lettre de Baudelaire à l'impératrice Eugénie du 6 novembre 1857. Fond exact."
+      }
     ]
   }
 }

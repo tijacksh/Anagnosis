@@ -58,7 +58,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "« Wherefore » signifie « pourquoi ». Le vers suivant (« Deny thy father and refuse thy name ») montre qu'elle parle du nom, pas du lieu.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -73,7 +73,7 @@
       "explication": "Le vers immédiatement suivant demande à Roméo de renier son nom : la question portait sur son nom, non sur sa position."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -86,6 +86,20 @@
     "empreinte": "f5671086dec09408",
     "notes": [
       "Sources rouvertes : Gutenberg 1513 (vers II,2 verbatim : Deny thy father, 'Tis but thy name, Thou art thyself, doff thy name) et Wiktionary (wherefore = why, archaïque, contresens connu). Fond exact. Coquille corrigée : espace avant le point après Roméo et Juliette."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-08T22:12:47.825Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-08T22:12:47.825Z",
+        "note": "Gutenberg 1513 rouvert, acte II scène 2 : tous les vers cités retrouvés verbatim ('wherefore art thou Romeo', 'Deny thy father and refuse thy name', ''Tis but thy name that is my enemy', 'Thou art thyself, though not a Montague', 'Romeo, doff thy name', 'I take thee at thy word'). Wiktionary bloqué par le proxy réseau, mais le sens archaïque de 'wherefore' (pourquoi) est établi par le texte lui-même et fait consensus. Coquille signalée au contrôle (espace avant le point) vérifiée corrigée. Fond exact."
+      }
     ]
   }
 }
