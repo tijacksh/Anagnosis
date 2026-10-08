@@ -2,13 +2,13 @@
   "id": "inf-ariane-5-vol-501-code-reutilise",
   "slug": "ariane-5-vol-501-le-code-qui-aurait-du-etre-retire",
   "titre": "Ariane 5, vol 501 : le code qui n'aurait pas dû tourner",
-  "accroche": "Le 4 juin 1996, Ariane 5 se détruit 37 secondes après le décollage. La cause : une fonction reprise d'Ariane 4, sans utilité pour ce vol.",
+  "accroche": "Le 4 juin 1996, Ariane 5 se détruit 37 secondes environ après H0, l'instant de référence. La cause : une fonction reprise d'Ariane 4, inutile pour ce vol.",
   "discipline": "informatique",
   "theme": null,
   "theme_ordre": null,
   "niveau": "intermediaire",
   "duree_lecture_min": 4,
-  "contenu_vulgarise": "Le 4 juin 1996, la première Ariane 5 décolle de Kourou. Trente-sept secondes plus tard environ, elle dévie de sa trajectoire, se disloque et est détruite. Ce qui l'a perdu tient en une ligne de logiciel, et surtout en une décision qui n'avait rien de négligent.\n\n## Le mécanisme\n\nLa fusée dispose de deux centrales inertielles, identiques, qui mesurent son orientation et ses mouvements. Parmi leurs calculs, une valeur dite de biais horizontal, notée BH, était d'abord exprimée sous forme d'un nombre à virgule flottante sur 64 bits. À un moment, le programme la convertit en entier signé sur 16 bits, qui ne peut représenter que des valeurs comprises entre -32 768 et 32 767. Le rapport de la commission d'enquête est net : la valeur à convertir dépassait ce qu'un entier de 16 bits peut contenir. La conversion échoue, et les deux centrales cessent de fonctionner : le rapport situe cette défaillance à H0 + 36,7 secondes.\n\n## Pourquoi ce calcul tournait encore\n\nLe plus étonnant n'est pas la conversion, c'est sa présence. La fonction concernée servait à réaligner rapidement le système si le compte à rebours était interrompu tard. Cette exigence venait d'Ariane 4, plus de dix ans auparavant. Elle prévoyait que la fonction continue de tourner pendant 50 secondes après H0, l'instant de référence du lancement. Pour Ariane 5, cette période de fonctionnement n'était pas requise : le rapport précise qu'elle a été maintenue « par souci de communauté » avec le logiciel précédent.\n\nLe rapport note aussi que, pour plusieurs variables du même type, une protection contre le dépassement avait été mise en place, et que pour BH, elle ne l'avait pas été, délibérément. Le code n'était pas défectueux au sens où on l'entend d'ordinaire : il avait volé sans problème sur Ariane 4, dont il avait été conçu pour les trajectoires.\n\n## Le déplacement\n\nOn raconte souvent cet échec comme celui d'un programmeur distrait. Le rapport présidé par le professeur J. L. Lions, daté du 19 juillet 1996, raconte autre chose : un composant correct dans son contexte d'origine, reconduit dans un autre sans qu'on revérifie les hypothèses qui le rendaient correct. La bonne question n'est pas « qui a oublié ce test ? », mais « qui devait savoir que cette hypothèse ne tenait plus ? ». Réutiliser du code éprouvé réduit les bugs que l'on connaît, et peut introduire ceux qu'on ne sait pas qu'on emporte avec lui. Combien de systèmes tournent aujourd'hui avec des fonctions conservées pour la même raison, parce qu'elles ont toujours été là ?",
+  "contenu_vulgarise": "Le 4 juin 1996, la première Ariane 5 décolle de Kourou. Environ 37 secondes après H0, l'instant de référence du lancement, soit une trentaine de secondes après le décollage selon le rapport, elle dévie de sa trajectoire, se disloque et est détruite. Ce qui l'a perdu tient en une ligne de logiciel, et surtout en une décision qui n'avait rien de négligent.\n\n## Le mécanisme\n\nLa fusée dispose de deux centrales inertielles, identiques, qui mesurent son orientation et ses mouvements. Parmi leurs calculs, une valeur dite de biais horizontal, notée BH, était d'abord exprimée sous forme d'un nombre à virgule flottante sur 64 bits. À un moment, le programme la convertit en entier signé sur 16 bits, qui ne peut représenter que des valeurs comprises entre -32 768 et 32 767. Le rapport de la commission d'enquête est net : la valeur à convertir dépassait ce qu'un entier de 16 bits peut contenir. La conversion échoue, et les deux centrales cessent de fonctionner : le rapport situe cette défaillance à H0 + 36,7 secondes.\n\n## Pourquoi ce calcul tournait encore\n\nLe plus étonnant n'est pas la conversion, c'est sa présence. La fonction concernée est une fonction d'alignement, qui ne produit de résultat utile qu'avant le décollage. Elle continuait pourtant de tourner après lui, en prévision de l'événement peu probable d'une interruption du compte à rebours : cette exigence datait de plus de dix ans, pour les premiers modèles d'Ariane. Sur Ariane 4, la fonction restait active 50 secondes après le début du mode vol, le temps de laisser au sol la reprise en main du lanceur. Pour Ariane 5, qui a une séquence de préparation différente, cette exigence ne s'applique pas : le rapport précise que la fonction a été maintenue « pour des raisons de communauté » avec le logiciel précédent.\n\nLe rapport note aussi que sept variables risquaient de provoquer ce dépassement, que quatre ont reçu une protection, et que trois, dont BH, n'en ont pas reçu : un raisonnement les jugeait physiquement limitées ou largement à l'abri, raisonnement que le rapport déclare faux dans le cas de BH. Le code n'était pas défectueux au sens où on l'entend d'ordinaire : il avait volé sans problème sur Ariane 4, dont il avait été conçu pour les trajectoires.\n\n## Le déplacement\n\nOn raconte souvent cet échec comme celui d'un programmeur distrait. Le rapport présidé par le professeur J. L. Lions, daté du 19 juillet 1996, raconte autre chose : un composant correct dans son contexte d'origine, reconduit dans un autre sans qu'on revérifie les hypothèses qui le rendaient correct. La bonne question n'est pas « qui a oublié ce test ? », mais « qui devait savoir que cette hypothèse ne tenait plus ? ». Réutiliser du code éprouvé réduit les bugs que l'on connaît, et peut introduire ceux qu'on ne sait pas qu'on emporte avec lui. Combien de systèmes tournent aujourd'hui avec des fonctions conservées pour la même raison, parce qu'elles ont toujours été là ?",
   "citation": null,
   "repere": {
     "texte": "Selon la commission d'enquête, la conversion d'une valeur de 64 bits flottants en entier signé de 16 bits a dépassé la capacité de celui-ci à H0 + 36,7 secondes ; la fonction concernée, utile sur Ariane 4, avait été maintenue sur Ariane 5 « pour des raisons de communauté » alors qu'elle n'y était pas requise.",
@@ -17,7 +17,7 @@
   },
   "carte": {
     "punch": "Ariane 5 s'est détruite à cause d'un calcul dont elle n'avait pas besoin.",
-    "idee": "Le 4 juin 1996, une conversion de 64 à 16 bits dépasse sa capacité 37 secondes après le décollage. La fonction venait d'Ariane 4 et n'était pas requise pour ce vol : elle avait été conservée par souci de communauté.",
+    "idee": "Le 4 juin 1996, une conversion de 64 à 16 bits dépasse sa capacité à H0 + 36,7 secondes. La fonction venait d'Ariane 4 et n'était pas requise pour ce vol : elle avait été conservée pour des raisons de communauté.",
     "source_courte": "Rapport Lions, 1996"
   },
   "sources": [
@@ -56,7 +56,7 @@
   "quiz": {
     "question": "Pourquoi la conversion fatale de la valeur BH était-elle encore exécutée sur Ariane 5 ?",
     "choix": [
-      "Le code d'alignement d'Ariane 4 avait été conservé par souci de communauté, bien qu'inutile pour Ariane 5",
+      "Le code d'alignement d'Ariane 4 avait été conservé pour des raisons de communauté, bien que cette exigence ne s'applique pas à Ariane 5",
       "Un programmeur avait oublié de supprimer une ligne de test avant le premier vol",
       "Les deux centrales inertielles dépendaient de cette fonction pour calculer la trajectoire d'Ariane 5",
       "La fonction servait à mesurer la poussée des moteurs pendant la montée"
@@ -86,7 +86,7 @@
         "Une panne de l'ordinateur du sol"
       ],
       "bonne_reponse": 1,
-      "explication": "Le rapport décrit une fonction conservée pour Ariane 5 alors qu'elle n'y était pas requise, avec une protection volontairement absente pour BH. Ce n'est ni une frappe, ni un défaut moteur."
+      "explication": "Le rapport décrit une fonction conservée pour Ariane 5 alors qu'elle n'y était pas requise, avec une protection absente pour BH, au terme d'un raisonnement que le rapport juge faux. Ce n'est ni une frappe, ni un défaut moteur."
     }
   ],
   "statut": "brouillon",
