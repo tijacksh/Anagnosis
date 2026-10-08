@@ -249,7 +249,7 @@ peut rouvrir directement le texte du décret.)*
 | Littérature | « Je désapprouve ce que vous dites… » : une phrase d'Evelyn Beatrice Hall (1906), pas de Voltaire | fait | routine-production-arnaud | 2026-10-08 |
 | Littérature | Les Fleurs du mal (1857) : six poèmes condamnés, le livre jamais interdit, réhabilité en 1949 | fait | routine-production-arnaud | 2026-10-08 |
 | Littérature | « Wherefore art thou Romeo ? » : Juliette ne demande pas où est Roméo | fait | routine-production-arnaud | 2026-10-08 |
-| Neurosciences | Libet (1983) : le potentiel de préparation précède l'intention consciente, et ce que Schurger (2012) en dit | en cours | routine-production-arnaud | 2026-10-09 |
-| Neurosciences | Hubel et Wiesel : la période critique, des chatons à l'œil fermé | en cours | routine-production-arnaud | 2026-10-09 |
-| Neurosciences | Neurones miroirs (1992) : ce que le macaque montre, et ce qu'il ne montre pas | en cours | routine-production-arnaud | 2026-10-09 |
-| Neurosciences | Broca et Tan (1861) : Leborgne comprenait tout, et l'aire de Broca n'est pas celle de Broca | en cours | routine-production-arnaud | 2026-10-09 |
+| Neurosciences | Libet (1983) : le potentiel de préparation précède l'intention consciente, et ce que Schurger (2012) en dit | fait | routine-production-arnaud | 2026-10-09 |
+| Neurosciences | Hubel et Wiesel : la période critique, des chatons à l'œil fermé | fait | routine-production-arnaud | 2026-10-09 |
+| Neurosciences | Neurones miroirs (1992) : ce que le macaque montre, et ce qu'il ne montre pas | fait | routine-production-arnaud | 2026-10-09 |
+| Neurosciences | Broca et Tan (1861) : Leborgne comprenait tout, et l'aire de Broca n'est pas celle de Broca | fait | routine-production-arnaud | 2026-10-09 |

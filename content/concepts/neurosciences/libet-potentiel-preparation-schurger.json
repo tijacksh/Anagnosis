@@ -1,0 +1,77 @@
+{
+  "id": "neu-libet-potentiel-preparation-schurger",
+  "slug": "libet-potentiel-preparation-schurger",
+  "titre": "Libet, 1983 : la décision précède-t-elle la conscience ?",
+  "accroche": "Un signal cérébral précède de plusieurs centaines de millisecondes l'intention déclarée de bouger. Un modèle de 2012 propose de le lire autrement.",
+  "discipline": "neurosciences",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "pour_aller_plus_loin": [],
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-09",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "contenu_vulgarise": "En 1983, le physiologiste Benjamin Libet et ses collègues demandent à cinq volontaires de plier le poignet quand ils le souhaitent, sans signal extérieur. Devant eux, un point lumineux tourne comme l'aiguille d'une horloge. Après chaque geste, le sujet indique la position du point au moment où il a eu conscience de vouloir bouger. En parallèle, des électrodes enregistrent le « potentiel de préparation », une lente dérive négative de l'activité cérébrale qui précède les mouvements volontaires.\n\n## Ce que mesure l'expérience\n\nLe résultat fait date. Dans les séries où les sujets jugent avoir agi spontanément, la dérive commence en moyenne environ 350 millisecondes avant l'instant où ils situent leur intention, et au minimum 150 millisecondes avant. Quand ils reconnaissent avoir un peu préparé leur geste, l'écart monte à environ 800 millisecondes. Libet conclut que l'initiation cérébrale d'un acte volontaire peut commencer inconsciemment, avant toute conscience, au moins rappelable, d'avoir décidé.\n\nLa lecture courante en a fait une sentence : le cerveau déciderait avant nous, et le libre arbitre serait une illusion. Le texte de 1983 est plus prudent. Libet parle de « contraintes » sur la possibilité d'initier consciemment un acte, et son protocole repose sur une mesure fragile, le souvenir qu'a le sujet de la position d'une aiguille.\n\n## Une autre lecture de la même courbe\n\nEn 2012, Aaron Schurger, Jacobo Sitt et Stanislas Dehaene proposent une interprétation différente du même signal. Leur modèle suppose que le cerveau produit en permanence des fluctuations spontanées d'activité. Quand rien ne presse, le geste survient au moment où l'une d'elles franchit par hasard un seuil. Or le potentiel de préparation se calcule en alignant de nombreux essais sur le début du mouvement : cet alignement fait apparaître, en moyenne, une montée progressive, même si chaque essai n'a connu qu'une fluctuation isolée.\n\nLe modèle fait une prédiction que les auteurs disent avoir confirmée dans une seconde expérience : quand on interrompt le sujet par un signal imprévisible, les réponses rapides sont précédées d'une lente dérive négative, y compris quand il ne se préparait pas à bouger à ce moment-là. Cette dérive ne serait donc pas la trace d'une décision déjà prise.\n\n## Ce que ça déplace\n\nLa courbe de Libet n'a pas été réfutée : elle existe, et se retrouve. C'est son sens qui est en jeu. Selon la lecture, elle signe soit une décision prise en coulisses, soit le bruit de fond d'un système qui attend, sans urgence, qu'une fluctuation passe la barre. La même mesure sert alors de preuve à deux thèses opposées, et c'est la manière de la calculer qui tranche, pas la métaphysique.",
+  "citation": null,
+  "repere": {
+    "texte": "Dans les séries où les sujets jugeaient avoir agi spontanément, la montée du potentiel de préparation précédait en moyenne d'environ 350 ms l'instant où ils situaient leur intention de bouger, et d'au moins 150 ms.",
+    "source": "Libet, Gleason, Wright & Pearl, Brain, 106, 1983",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6640273/"
+  },
+  "carte": {
+    "punch": "Le cerveau s'active 350 ms avant que vous sachiez vouloir bouger. Ou pas.",
+    "idee": "En 1983, Libet mesure un signal cérébral qui précède l'intention déclarée d'agir. En 2012, un modèle propose que ce signal soit un artefact de moyenne : des fluctuations spontanées, alignées sur le geste, dessinent une rampe.",
+    "source_courte": "Libet et al., 1983 ; Schurger et al., 2012"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Libet, B., Gleason, C.A., Wright, E.W. & Pearl, D.K.",
+      "titre": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential). The unconscious initiation of a freely voluntary act",
+      "publication": "Brain, 106(3)",
+      "annee": 1983,
+      "note": "Cinq sujets, séries de 40 gestes ; début du potentiel de préparation environ 350 ms (minimum 150 ms) avant W dans les séries « spontanées », environ 800 ms avec préparation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6640273/"
+    },
+    {
+      "type": "article",
+      "auteur": "Schurger, A., Sitt, J.D. & Dehaene, S.",
+      "titre": "An accumulator model for spontaneous neural activity prior to self-initiated movement",
+      "publication": "Proceedings of the National Academy of Sciences, 109(42)",
+      "annee": 2012,
+      "note": "Modèle d'accumulateur à fuite : la montée moyenne résulte de fluctuations spontanées alignées sur le mouvement ; prédiction confirmée par une seconde expérience d'EEG.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22869750/"
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : un cadran d'horloge réduit à un cercle et une aiguille, devant une courbe qui monte en pente douce puis s'interrompt. Bleu outremer et orange vif sur fond crème, formes nettes, aucun dégradé, rien d'écrit dans l'image.",
+    "alt": "Un cadran à aiguille posé devant une courbe qui monte progressivement",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Selon le modèle de Schurger, Sitt et Dehaene, pourquoi observe-t-on une montée progressive avant le geste ?",
+    "choix": [
+      "Parce que le cerveau prépare l'ordre moteur plusieurs secondes avant que le sujet en ait conscience",
+      "Parce que le sujet anticipe volontairement le moment du geste et s'y prépare à l'avance",
+      "Parce qu'en alignant les essais sur le geste, des fluctuations spontanées qui franchissent un seuil dessinent une rampe moyenne",
+      "Parce que l'horloge utilisée dans le protocole fausse la mesure du moment de l'intention"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le modèle ne nie pas le signal : il en change le sens. Il ne s'agit ni d'un ordre préparé secondes à l'avance, ni d'une anticipation volontaire, ni d'un défaut d'horloge. La rampe naît de la moyenne calculée sur le début du mouvement, et la dérive se retrouve même avant des réponses à des interruptions imprévues.",
+    "statut": "brouillon"
+  }
+}

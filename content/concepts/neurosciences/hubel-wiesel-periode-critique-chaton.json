@@ -1,0 +1,77 @@
+{
+  "id": "neu-hubel-wiesel-periode-critique-chaton",
+  "slug": "hubel-wiesel-periode-critique-chaton",
+  "titre": "Quelques jours d'œil fermé : la période critique du chaton",
+  "accroche": "En 1970, Hubel et Wiesel montrent qu'un œil fermé quelques jours, à un âge précis, perd presque toute prise sur le cortex visuel du chat.",
+  "discipline": "neurosciences",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "pour_aller_plus_loin": [],
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-09",
+    "genere_par": "claude-code",
+    "version": 1
+  },
+  "contenu_vulgarise": "On pourrait croire qu'un œil fermé après la naissance reste intact, prêt à servir dès qu'on le rouvre. Les expériences de David Hubel et Torsten Wiesel sur des chatons disent le contraire, et pour une raison qui ne tient pas à l'œil.\n\n## Le protocole\n\nLes deux chercheurs suturent les paupières de l'œil droit de jeunes chats, pour des durées variables et à des âges différents. Plus tard, ils enregistrent l'activité de cellules du cortex visuel et comptent combien répondent à chaque œil. Ils avaient déjà observé qu'une fermeture monoculaire pendant les premiers mois fait chuter le nombre de cellules que l'œil fermé peut encore influencer. L'article de 1970 demande à quel moment cela se joue.\n\n## Une fenêtre qui s'ouvre d'un coup\n\nLa sensibilité à la fermeture de l'œil commence brusquement vers le début de la quatrième semaine. Elle reste élevée jusqu'à la sixième ou huitième semaine, décline ensuite, puis disparaît vers l'âge de trois mois. Une fermeture de plus d'un an chez un chat adulte ne produit aucun effet détectable.\n\nPendant la fenêtre sensible, l'effet est rapide : fermer un œil de trois à quatre jours, pendant les quatrième et cinquième semaines, suffit à réduire nettement le nombre de cellules pilotables par les deux yeux et le poids relatif de l'œil fermé. Six jours donnent une chute à une fraction du normal. Après trois mois de privation depuis la naissance, la part de cellules que l'œil peut influencer passe d'environ 85 % à environ 7 %.\n\n## Ce qui ne revient pas\n\nRouvrir l'œil n'arrange pas grand-chose : après trois mois de privation, même cinq ans d'œil ouvert n'apportent qu'une récupération très limitée de la physiologie corticale, même si le comportement montre un certain retour de la vision. Le corps cellulaire des neurones du relais thalamique qui reçoivent l'œil privé est visiblement plus petit après trois ou six jours de fermeture.\n\n## Ce que ça déplace\n\nL'œil du chaton fermé n'a rien de lésé. Ce qui se perd, c'est la place qu'il occupait dans le cortex, reprise par l'œil resté ouvert : le câblage ne se fait pas seul, il se règle sur l'usage, et seulement pendant un temps. Pour le chat, la période critique se compte en semaines. Elle fixe aussi une limite à ce que ces expériences autorisent : elles portent sur des chats, et ce qu'elles disent d'autres espèces reste une question à instruire, pas une réponse.",
+  "citation": null,
+  "repere": {
+    "texte": "Après trois mois de privation monoculaire depuis la naissance, la proportion de cellules du cortex visuel du chaton que l'œil privé peut influencer passe d'environ 85 % à environ 7 %.",
+    "source": "Hubel & Wiesel, The Journal of Physiology, 206(2), 1970",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/5498493/"
+  },
+  "carte": {
+    "punch": "Fermer un œil de chaton quelques jours suffit à lui faire perdre sa place dans le cortex.",
+    "idee": "Hubel et Wiesel (1970) : la sensibilité à la fermeture d'un œil s'ouvre vers la quatrième semaine du chaton et disparaît vers trois mois. Chez le chat adulte, un an de fermeture ne change rien.",
+    "source_courte": "Hubel & Wiesel, 1970"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Hubel, D.H. & Wiesel, T.N.",
+      "titre": "The period of susceptibility to the physiological effects of unilateral eye closure in kittens",
+      "publication": "The Journal of Physiology, 206(2)",
+      "annee": 1970,
+      "note": "Début de la sensibilité vers la quatrième semaine, déclin entre six et huit semaines puis fin vers trois mois ; 85 % à environ 7 % après trois mois de privation ; récupération très limitée.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5498493/"
+    },
+    {
+      "type": "article",
+      "auteur": "Wiesel, T.N. & Hubel, D.H.",
+      "titre": "Single-cell responses in striate cortex of kittens deprived of vision in one eye",
+      "publication": "Journal of Neurophysiology, 26(6)",
+      "annee": 1963,
+      "note": "Première étude des effets d'une privation visuelle monoculaire sur les cellules du cortex strié du chaton.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14084161/"
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : deux demi-cercles côte à côte comme deux yeux, l'un plein, l'autre barré de lignes parallèles, devant un rectangle découpé en bandes inégales. Vert profond et rose sur fond crème, formes nettes, aucun dégradé, rien d'écrit dans l'image.",
+    "alt": "Deux demi-cercles, l'un plein et l'autre barré, devant un rectangle en bandes inégales",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'œil fermé du chaton perd-il l'essentiel de son influence sur le cortex ?",
+    "choix": [
+      "Parce que la fermeture abîme la rétine de cet œil, qui ne transmet plus le signal",
+      "Parce que, durant la période sensible, le cortex règle son câblage sur l'usage et laisse la place à l'œil resté ouvert",
+      "Parce que le chaton apprend à ne plus se servir de cet œil, un défaut que l'entraînement efface vite",
+      "Parce que les neurones de l'œil fermé meurent en quelques heures, dès les premiers jours de vie"
+    ],
+    "bonne_reponse": 1,
+    "explication": "L'œil en lui-même n'est pas lésé : c'est son poids dans le cortex qui chute, et seulement pendant la fenêtre sensible. Rouvrir l'œil ensuite ne rétablit que très peu la physiologie corticale, ce qui exclut un simple défaut d'usage vite corrigé. Rien non plus ne dit que des neurones meurent en quelques heures.",
+    "statut": "brouillon"
+  }
+}
