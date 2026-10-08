@@ -37,7 +37,7 @@
       "publication": "Ecology, 51 (1)",
       "annee": 1970,
       "url": "https://doi.org/10.2307/1933599",
-      "note": "L'article qui a fait sortir l'épisode de Kaibab des manuels, en proposant une autre lecture."
+      "note": "Le plus connu des articles qui, à partir des années 1970, ont relevé l'incertitude des effectifs de cerfs et proposé une autre lecture, contribuant à faire sortir l'épisode des manuels."
     }
   ],
   "pour_aller_plus_loin": [
@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les cerfs broutent les jeunes trembles, qui ne deviennent pas adultes. Une génération absente dans les arbres actuels est donc la trace d'un surbroutage, lisible sans avoir compté un seul cerf. Les autres mesures ne datent pas la pression de broutage.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -100,7 +100,7 @@
       "explication": "On ne peut plus compter des cerfs disparus, mais les arbres conservent leur âge dans leurs cernes : une génération absente révèle ce que les cerfs ont mangé."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-07",
@@ -116,8 +116,8 @@
     ]
   },
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-07T19:40:59.790Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-08T19:15:28.264Z",
     "historique": [
       {
         "action": "retoucher",
@@ -126,6 +126,14 @@
         "par": "routine-relecture",
         "le": "2026-10-07T19:40:59.790Z",
         "note": "Rouvert : Binkley et al. 2006 (notice HERO, résumé complet) et Wikipedia Kaibab Plateau : tout concorde (ordre de grandeur, 1,4 m, bottom-up/top-down, pp. 227-241). Caughley 1970 : DOI renvoyant à Wiley (403), texte jamais ouvert ; seul un résumé secondaire confirme tahr et désaccord avec Leopold. Le texte lui attribue encore d'avoir 'fait sortir l'épisode des manuels' : à collationner sur l'article ou une page ouverte. Corrigé : 'chèvres' (non soutenu) retiré, tremble = majeure partie du broutage estival, surbroutage nuancé selon l'incertitude reconnue par les auteurs. Pour lever le doute : ouvrir Caughley 1970 (ou source ouverte reprenant son propos sur Kaibab)."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-08T19:15:28.264Z",
+        "note": "Rouvert : Wikipédia Kaibab Plateau (confirme élimination des prédateurs, explosion puis famine dans les années 1920, débat scientifique, étude Binkley 2006 sur les trembles). HERO direct bloqué par le proxy réseau (comme lors de la relecture) ; abstract de Binkley et al. 2006 (Ecosystems 9(2):227-241) retrouvé via recherche (DOI 10.1007/s10021-005-0100-z) : confirme texto l'ordre de grandeur du déficit de trembles, le tremble = broutage d'été majoritaire, l'incertitude reconnue par les auteurs, et surtout confirme que la disparition des manuels est due à PLUSIEURS articles relevant l'incertitude des effectifs (pas à Caughley seul). Point Caughley 1970 tranché : DOI résout bien vers Wiley/ESA (adresse stable, texte intégral non accessible ici, hors contournement illégal) ; contenu recoupé par deux sources secondaires indépendantes et fiables : Australian Dictionary of Biography (confirme explicitement que l'interprétation de Caughley contredisait les conclusions sur Kaibab popularisées par Leopold, et décrit le schéma croissance/déclin/stabilisation des ongulés dont le tahr, observable sans prédateurs) et CSIRO Wildlife Research (titre confirmé : 'Eruption of ungulate populations, with emphasis on Himalayan thar in New Zealand', Ecology 51:53-72). Corrigé : la note de la source Caughley attribuait à tort la sortie des manuels à son seul article ; reformulée en 'le plus connu des articles qui... ont contribué à faire sortir l'épisode' pour correspondre à ce que Binkley et al. 2006 disent eux-mêmes (plusieurs articles, dont celui-ci). Corps, repère, carte et quiz (principal + 3 supplémentaires) relus phrase à phrase : rien d'autre à corriger, aucun chiffre d'effectif de cerfs contesté n'est repris, bonnes réponses et distracteurs vérifiés exacts."
       }
     ]
   }
