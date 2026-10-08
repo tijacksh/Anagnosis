@@ -235,6 +235,6 @@ peut rouvrir directement le texte du décret.)*
 | Génétique | Hershey et Chase (1952) : une expérience au mixeur plus prudente que sa légende | fait | routine-production-arnaud | 2026-10-08 |
 | Génétique | Meselson et Stahl (1958) : la réplication semi-conservative lue dans un tube de centrifugeuse | fait | routine-production-arnaud | 2026-10-08 |
 | Génétique | Le génome humain « complet » de 2022 (T2T-CHM13) et les 8 % restés dans l'ombre | fait | routine-production-arnaud | 2026-10-08 |
-| Géologie | L'échelle de Richter (1935) : une échelle locale sans plafond affiché, que la magnitude de moment (1979) a remplacée | en cours | routine-production-arnaud | 2026-10-08 |
-| Géologie | Mohorovičić et le séisme de la Kupa (8 octobre 1909) : la frontière croûte-manteau lue dans deux arrivées d'ondes | en cours | routine-production-arnaud | 2026-10-08 |
-| Géologie | Bretz et les Channeled Scablands : le « Spokane Flood » de 1923, rejeté puis rattaché au lac Missoula | en cours | routine-production-arnaud | 2026-10-08 |
+| Géologie | L'échelle de Richter (1935) : une échelle locale sans plafond affiché, que la magnitude de moment (1979) a remplacée | fait | routine-production-arnaud | 2026-10-08 |
+| Géologie | Mohorovičić et le séisme de la Kupa (8 octobre 1909) : la frontière croûte-manteau lue dans deux arrivées d'ondes | fait | routine-production-arnaud | 2026-10-08 |
+| Géologie | Bretz et les Channeled Scablands : le « Spokane Flood » de 1923, rejeté puis rattaché au lac Missoula | fait | routine-production-arnaud | 2026-10-08 |

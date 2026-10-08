@@ -1,0 +1,104 @@
+{
+  "id": "geo-richter-1935-echelle-sans-plafond",
+  "slug": "richter-1935-echelle-sans-plafond",
+  "titre": "L'échelle de Richter ne va pas de 1 à 10",
+  "accroche": "On la croit graduée de 1 à 10. En 1935, Richter publie une échelle logarithmique pour la Californie du Sud, dont le zéro n'est pas « pas de séisme ».",
+  "discipline": "geologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "On imagine volontiers l'échelle de Richter comme une règle graduée de 1 à 10, dont le sommet serait la catastrophe absolue. Le texte fondateur dit autre chose.\n\n## Une échelle faite pour la Californie du Sud\n\nCharles F. Richter publie « An Instrumental Earthquake Magnitude Scale » dans le *Bulletin of the Seismological Society of America* de janvier 1935 (manuscrit reçu le 17 juin 1934). Son but : classer les séismes selon leur énergie d'origine, indépendamment des dégâts constatés en un lieu donné. Le mot « magnitude » est proposé, écrit-il, à la suggestion de H. O. Wood, pour le distinguer des échelles d'« intensité » de Rossi-Forel ou de Mercalli-Cancani, qui décrivent les effets locaux. La méthode repose sur les amplitudes enregistrées aux sept stations du réseau de Californie du Sud, et elle s'inspire d'un procédé du Japonais Wadati.\n\n## Un zéro qui n'est pas « rien »\n\nLa magnitude est définie comme le logarithme décimal de l'amplitude maximale, en microns, qu'enregistrerait à 100 kilomètres de l'épicentre un sismomètre à torsion de référence. Richter précise en note qu'il ne faut pas lire le 0 comme « aucun séisme » : l'échelle étant logarithmique, 0 désigne le séisme standard, celui du tableau de référence. Une magnitude 1 correspond à une amplitude dix fois plus grande, une magnitude 2 à cent fois plus. Le zéro a été placé à dessein sur les plus petits séismes alors enregistrés.\n\n## Un sommet qui n'est pas fixé\n\nRien dans l'article ne fixe un maximum. Le plus fort séisme auquel Richter applique sa méthode, celui du Nevada du 20 décembre 1932, vaut environ 7,5. De 0 à 7,5, il estime l'écart d'énergie à au moins un facteur 10 puissance 15. Quant aux effets, il les décrit ainsi : magnitudes 0 à 2, pas ressentis ; 3 et 4, ressentis sans dégâts ; 5, dégâts mineurs notables ; 6, destructeur sur une zone limitée ; 7 et 8, début des grands séismes.\n\n## Pourquoi on ne s'en sert plus tel quel\n\nEn 1979, Thomas Hanks et Hiroo Kanamori rappellent que les échelles de magnitude usuelles (locale, d'ondes de surface, d'ondes de volume) sont « en principe » sans borne supérieure, mais qu'elles en ont une en pratique : les instruments à bande étroite finissent par saturer. Pour la magnitude locale de Richter, le maximum relevé en Californie du Sud en plus de quarante ans est 6,8, et ils jugent sa limite proche de 7. Ils proposent donc une échelle fondée sur le moment sismique, la magnitude de moment, qui ne sature pas. La règle qui s'arrête à 10 n'existe pas : c'est le plafond de l'instrument qui a poussé à changer d'échelle.",
+  "citation": null,
+  "repere": {
+    "texte": "Richter (1935) définit la magnitude comme le logarithme de l'amplitude maximale, en microns, qu'enregistrerait à 100 km un sismomètre de référence ; il note que le 0 de l'échelle n'est pas « aucun séisme ». Hanks et Kanamori (1979) relèvent que le maximum de magnitude locale observé en Californie du Sud en plus de 40 ans est 6,8.",
+    "source": "Richter, Bulletin of the Seismological Society of America, 25(1), 1935 ; Hanks et Kanamori, Journal of Geophysical Research, 84(B5), 1979",
+    "url": "https://ncedc.org/ftp/outgoing/peggy/ML/Richter_1935.pdf"
+  },
+  "carte": {
+    "punch": "L'échelle de Richter n'a jamais eu de « 10 » imprimé en haut. Elle a un instrument qui sature.",
+    "idee": "En 1935, Richter définit la magnitude comme un logarithme d'amplitude mesuré en Californie du Sud, avec un zéro qui n'est pas « aucun séisme » et aucun plafond fixé. En 1979, Hanks et Kanamori montrent que ces mesures saturent vers 7 et proposent la magnitude de moment.",
+    "source_courte": "Richter, BSSA, 1935"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Charles F. Richter",
+      "titre": "An Instrumental Earthquake Magnitude Scale",
+      "publication": "Bulletin of the Seismological Society of America, vol. 25, n° 1",
+      "annee": 1935,
+      "url": "https://ncedc.org/ftp/outgoing/peggy/ML/Richter_1935.pdf",
+      "note": "Définition de la magnitude (logarithme de l'amplitude en microns à 100 km), note sur le zéro de l'échelle, sept stations de Californie du Sud, séisme du Nevada de 1932 à 7,5 environ."
+    },
+    {
+      "type": "article",
+      "auteur": "Thomas C. Hanks, Hiroo Kanamori",
+      "titre": "A Moment Magnitude Scale",
+      "publication": "Journal of Geophysical Research, vol. 84, n° B5",
+      "annee": 1979,
+      "url": "https://www.resolutionmineeis.us/sites/default/files/references/hanks-kanamori-1979.pdf",
+      "note": "Échelles de magnitude sans borne en principe mais saturées en pratique ; maximum de magnitude locale 6,8 en Californie du Sud ; proposition de la magnitude de moment."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Un sismogramme en zigzag dont l'amplitude grandit de gauche à droite, avec une règle verticale graduée en échelle logarithmique dont le sommet n'est pas fermé, laissé ouvert vers le haut. Encre vert profond sur papier crème, un aplat orange pâle pour le pic, léger hors-repérage. Aucune figure humaine.",
+    "alt": "Un sismogramme dont l'amplitude croît, à côté d'une règle logarithmique ouverte vers le haut",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que désigne le 0 de l'échelle de magnitude telle que Richter la définit en 1935 ?",
+    "choix": [
+      "L'absence totale de secousse, en dessous de laquelle on ne mesure plus rien",
+      "Le plus fort séisme concevable, à partir duquel l'échelle redescend",
+      "Un séisme standard de référence, choisi sur les plus petits enregistrés, et non l'absence de séisme",
+      "Un séisme sans énergie mais ressenti par la population autour"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Richter précise en note que le 0 n'est pas « aucun séisme » : l'échelle est logarithmique, et 0 désigne le séisme standard dont les amplitudes figurent dans son tableau de référence, placé sur les plus petits séismes alors enregistrés.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle différence Richter fait-il entre « magnitude » et « intensité » ?",
+      "choix": [
+        "La magnitude rate l'énergie d'origine du séisme, l'intensité décrit ses effets en un lieu donné",
+        "La magnitude décrit les dégâts constatés, l'intensité mesure l'énergie libérée",
+        "La magnitude s'applique aux séismes profonds, l'intensité aux séismes de surface",
+        "Les deux mots désignent la même chose, dans deux langues différentes"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Richter veut classer les séismes selon leur énergie d'origine, indépendamment des effets en un point d'observation. Les échelles d'intensité de Rossi-Forel ou de Mercalli-Cancani, elles, décrivent les manifestations locales."
+    },
+    {
+      "question": "Pourquoi Hanks et Kanamori proposent-ils en 1979 une nouvelle échelle ?",
+      "choix": [
+        "La magnitude de Richter ne s'appliquait pas aux séismes californiens",
+        "Les sismomètres de 1935 avaient cessé d'être fabriqués depuis longtemps",
+        "Le logarithme décimal avait été jugé trop difficile à enseigner au public",
+        "Les échelles usuelles saturent pour les grands séismes, ce que la magnitude de moment évite"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Ils rappellent que les magnitudes locale, d'ondes de surface et d'ondes de volume sont sans borne en principe, mais bornées en fait par les instruments à bande étroite. Leur magnitude de moment repose sur le moment sismique et ne sature pas."
+    },
+    {
+      "question": "Que représente l'écart d'une unité de magnitude chez Richter ?",
+      "choix": [
+        "Une amplitude enregistrée deux fois plus grande",
+        "Une amplitude enregistrée dix fois plus grande",
+        "Un séisme ressenti deux fois plus loin du foyer",
+        "Une durée de secousse dix fois plus longue"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Selon la note de Richter, une magnitude 1 a dix fois l'amplitude enregistrée du séisme standard, une magnitude 2 cent fois : c'est le propre d'une échelle logarithmique."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-08",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
