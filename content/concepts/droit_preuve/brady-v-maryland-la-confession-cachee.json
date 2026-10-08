@@ -57,7 +57,30 @@
     "explication": "La règle ne dépend pas de l'intention du procureur ni de l'innocence de l'accusé : Brady avait avoué sa part du meurtre, et la preuve cachée ne pouvait, d'après les juges du Maryland, jouer que sur la peine. La faute tient à la dissimulation d'une pièce déterminante, non à une fabrication de preuves ni à une malveillance démontrée.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel est le sort de Brady, selon la fiche, après la décision sur la peine ?",
+      "choix": [
+        "Il est innocenté, la Cour suprême jugeant que Boblit a seul tué William Brooks",
+        "Sa peine est commuée en prison à vie, puis il est libéré sur parole",
+        "Il est exécuté après un nouveau procès qui confirme la peine de mort prononcée contre lui",
+        "Son avocat obtient un acquittement, la confession de Boblit ayant fait tomber l'accusation"
+      ],
+      "bonne_reponse": 1,
+      "explication": "D'après la synthèse de Wikipedia citée par la fiche, la peine de Brady est commuée en prison à vie, puis il est libéré sur parole. L'arrêt ne l'innocente pas, car il avait admis sa participation au meurtre."
+    },
+    {
+      "question": "Sur quel fondement le Maryland limite-t-il le nouveau procès à la seule peine ?",
+      "choix": [
+        "Parce que la confession de Boblit innocentait Brady, qui n'avait pris aucune part au meurtre",
+        "Parce que Boblit avait été acquitté au terme de son propre procès, ce qui rendait sa confession sans valeur",
+        "Parce que Brady avait déclaré devant le jury qu'il avait tiré lui-même sur William Brooks",
+        "Parce que, selon elle, la confession de Boblit n'aurait rien changé à la culpabilité de Brady"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Les juges du Maryland tiennent la dissimulation pour une violation du procès équitable, mais estiment que la confession n'aurait pas changé la culpabilité de Brady, qui avait admis sa participation."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
