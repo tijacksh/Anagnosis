@@ -10,12 +10,21 @@
   "duree_lecture_min": 3,
   "pour_aller_plus_loin": [],
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T10:16:10.039Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-09T10:16:10.039Z",
+        "note": "Rouvert indépendamment (psychclassics.yorku.ca bloqué par le proxy réseau de cet environnement, donc confirmation croisée via Scientific American, Wikipedia et PubMed/eutils) : 51 ans, aphémie depuis 21 ans, mort le 17 avril 1861 vers 11h, paralysie du bras droit puis de la jambe dans les 10 ans suivants, lésion du lobe frontal gauche confirmées par plusieurs sources secondaires indépendantes convergentes. Dronkers et al. 2007 (abstract PubMed via eutils) : lésions étendues aux régions médiales, écart entre la zone de Broca et l'aire dite de Broca, confirmé mot pour mot (« the range of locations ascribed to Broca's area varies broadly across studies »). Repère, carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-09",
@@ -79,6 +88,6 @@
     ],
     "bonne_reponse": 2,
     "explication": "Les auteurs constatent une atteinte nettement plus étendue que les lésions de surface vues par Broca, et un décalage entre la zone qu'il désignait et l'aire dite de Broca. Rien n'indique une absence de lésion, et la lésion décrite par Broca est dans l'hémisphère gauche.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }

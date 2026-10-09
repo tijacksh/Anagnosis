@@ -56,7 +56,8 @@
       "Que la lactase s'est mise à fonctionner à l'âge adulte parce que les gens buvaient du lait"
     ],
     "bonne_reponse": 1,
-    "explication": "Les variantes africaines sont apparues sur d'autres fonds génétiques que la variante européenne et que les unes des autres. La pression commune est la domestication et le lait d'adulte. Il ne s'agit ni d'une migration de la même mutation, ni d'un changement acquis par l'habitude."
+    "explication": "Les variantes africaines sont apparues sur d'autres fonds génétiques que la variante européenne et que les unes des autres. La pression commune est la domestication et le lait d'adulte. Il ne s'agit ni d'une migration de la même mutation, ni d'un changement acquis par l'habitude.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -82,12 +83,21 @@
       "explication": "Les chercheurs trouvent une variante supplémentaire (−14009T>G) chez plus de 350 Éthiopiens et confirment qu'elle augmente l'expression du gène en laboratoire. Elle complète le tableau de 2007 sans l'infirmer ni lui retirer sa base génétique."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T10:16:17.524Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-09T10:16:17.524Z",
+        "note": "Rouvert via PubMed/eutils, abstract et texte intégral PMC (PMC2672153) : 470 personnes Tanzanie/Kenya/Soudan, trois variantes G/C-14010, T/G-13915, C/G-13907, segment >2 Mb, balayage ~7000 ans (texte intégral : 3000-7000 ans selon populations, intervalles larges) confirmés mot pour mot. Citation repère confirmée mot pour mot (« These data provide a marked example of convergent evolution due to strong selective pressure resulting from shared cultural... »). Pastoralisme ~4500 ans nord Kenya et ~3300 ans nord Tanzanie confirmé (le texte intégral associe en réalité 3300 ans au sud du Kenya ET au nord de la Tanzanie ensemble ; la fiche ne mentionne que le nord de la Tanzanie, ce qui reste exact mais incomplet - accepté comme simplification éditoriale, rien de faux). Lait source d'eau en zone aride et diarrhée confirmés mot pour mot. Jones 2013 (abstract) : >350 Éthiopiens, variante -14009T>G confirmée. Carte et quiz (principal et supplémentaires) conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-09",

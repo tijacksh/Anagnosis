@@ -56,7 +56,8 @@
       "Que l'essai était trop mal conduit pour que ses résultats aient une valeur quelconque"
     ],
     "bonne_reponse": 1,
-    "explication": "Le cholestérol a baissé (−13,8 % contre −1,0 %) sans que la mortalité en bénéficie. Le lien avec un risque plus élevé est une association interne à l'essai, pas une preuve de nocivité. L'essai ne blanchit pas non plus les graisses saturées, et sa conduite en double aveugle n'est pas remise en cause."
+    "explication": "Le cholestérol a baissé (−13,8 % contre −1,0 %) sans que la mortalité en bénéficie. Le lien avec un risque plus élevé est une association interne à l'essai, pas une preuve de nocivité. L'essai ne blanchit pas non plus les graisses saturées, et sa conduite en double aveugle n'est pas remise en cause.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -82,12 +83,21 @@
       "explication": "Hôpitaux et maison de retraite ont permis un double aveugle, rare quand on compare des aliments. L'essai a duré jusqu'à quatre ans et demi, les repas étaient fournis et il comparait deux régimes, pas un médicament."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T10:16:21.491Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-09T10:16:21.491Z",
+        "note": "Rouvert via PubMed/eutils, texte intégral PMC (PMC4836695) : 9423 participants randomisés, 2355 suivis un an ou plus, 149 autopsies, cholestérol -13,8% vs -1,0%, HR 1,22 (IC95% 1,14-1,32) par 30mg/dl, méta-analyse 5 essais n=10808 avec mortalité coronarienne 1,13 (0,83-1,54) et toutes causes 1,07 (0,90-1,27) : tous confirmés mot pour mot dans le texte intégral. Citation repère confirmée. Frantz 1989 (abstract) : 207→175 vs 203 mg/dl, double aveugle, 6 hôpitaux psychiatriques + 1 maison de retraite, 4393 hommes et 4664 femmes, aucune différence d'événements/mortalité, confirmés. Carte et quiz (principal et supplémentaires) conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-09",

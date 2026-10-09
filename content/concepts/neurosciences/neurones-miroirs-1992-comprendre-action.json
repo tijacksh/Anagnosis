@@ -10,12 +10,21 @@
   "duree_lecture_min": 3,
   "pour_aller_plus_loin": [],
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T10:16:12.495Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-09T10:16:12.495Z",
+        "note": "Rouvert via PubMed/eutils : di Pellegrino et al. 1992 (abstract confirmé : neurones du cortex prémoteur actifs à l'exécution et à l'observation de gestes précis - saisir, déchirer, poser/reprendre de la nourriture -, correspondance stricte geste observé/geste codé). Hickok 2009 : citation exacte confirmée mot pour mot « there is no evidence from monkey data that directly tests this theory ». Corps, citation, carte et quiz conformes aux deux résumés."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-09",
@@ -80,6 +89,6 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'article rapporte un fait d'enregistrement : activité à l'exécution et à l'observation d'un même geste. Il n'établit pas la compréhension des intentions, que la revue de Hickok (2009) conteste. Il ne rapporte pas d'imitation systématique, et ces neurones répondent justement à l'action d'un autre.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }
