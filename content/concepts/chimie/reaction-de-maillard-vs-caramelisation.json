@@ -90,7 +90,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le pain contient de l'amidon et du gluten riche en acides aminés, mais presque pas de sucres libres : c'est la réaction de Maillard, entre acides aminés et sucres, qui domine, pas la caramélisation. Le four atteint largement les températures de caramélisation, la levure ne détruit pas tout le sucre, et rien n'indique que la croûte reste sous ce seuil.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -138,11 +138,11 @@
       "explication": "La fiche précise que, depuis avril 2018, un règlement européen fixe des teneurs de référence pour l'acrylamide, une molécule cancérogène possible produite par la réaction de Maillard, jusqu'à 750 µg/kg pour les chips de pomme de terre."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-16T19:16:24.005Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-09T11:15:06.165Z",
     "historique": [
       {
         "action": "valider",
@@ -151,15 +151,23 @@
         "par": "routine-reparation",
         "le": "2026-08-16T19:16:24.005Z",
         "note": "Rouvert les 5 sources (Wikisource, Foods 2025, K-State, EUR-Lex, Chemistry World) et vérifié l'ensemble du texte, pas seulement le point signalé. La phrase biographique non soutenue (métabolisme de l'urée/maladies rénales) remplacée par une affirmation soutenue par Chemistry World : Maillard cherchait à comprendre comment les acides aminés s'assemblent pour former des protéines. Confirmés par ailleurs : date du 8 janvier 1912 (recherche croisée), seuils de température 110/140/160°C (K-State), dates 1947/1953 (Chemistry World), règlement UE 2017/2158 et ses teneurs 50/750 µg/kg (EUR-Lex), mécanisme en trois étapes (Foods 2025). Repère, carte et quiz vérifiés, distracteurs du quiz faux."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-09T11:15:06.165Z",
+        "note": "Contrôle : acrylamide « cancérogène possible » à revoir (IARC 2A, probable)"
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-18",
-    "verdict": "ok",
-    "empreinte": "9f485ffa5b46d270",
+    "fait_le": "2026-10-09",
+    "verdict": "a_revoir",
+    "empreinte": "eac9526794baefd0",
     "notes": [
-      "Recontrôle après réparation du 16/08 (empreinte modifiée par le retrait de la phrase biographique non soutenue). Sources rouvertes : Chemistry World confirme que Maillard « originally described how sugars react with amino acids, and the proteins they can link together to make, in 1912 » — la reformulation de la fiche (« Maillard cherche alors à comprendre comment les acides aminés s'assemblent pour former des protéines ») est une paraphrase raisonnable de ce passage, cohérente avec l'histoire documentée par ailleurs (Maillard étudiait la formation non enzymatique des protéines). K-State (seuils 110/140/160°C), EUR-Lex (règlement 2017/2158, 50/750 µg/kg), Wikisource (note originale du 8 janvier 1912) non retouchés depuis le dernier contrôle intégral, non rouverts. Foods 2025 non rouvert. Aucune nouvelle correction nécessaire."
+      "Le texte dit l'acrylamide « classée cancérogène possible » : l'IARC la classe 2A (probablement cancérogène). Aucune source de la fiche ne soutient la formulation. A corriger. Reste vérifié : seuils 140/160/110 °C (K-State), règlement UE 2017/2158 50 et 750 ug/kg, Maillard 1912, 1947, 1953."
     ]
   },
   "meta": {

@@ -10,11 +10,20 @@
     }
   ],
   "date_publication_prevue": null,
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T11:14:55.708Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-09T11:14:55.708Z",
+        "note": "Contrôle : attribution à revoir"
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-09",
@@ -83,6 +92,14 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le doute vient de l'absence de preuve et de l'écologie : peu de nourriture arrive au fond, et les modèles prédisent une limite des poissons vers 8 500 mètres. Personne n'accuse le pilote de mensonge, et les poissons plats ne vivent pas à ces profondeurs.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
+  },
+  "controle": {
+    "fait_le": "2026-10-09",
+    "verdict": "a_revoir",
+    "empreinte": "6e251ce6eabc4874",
+    "notes": [
+      "Attribution : le texte prête à Jamieson & Yancey l'argument écologique (détritus) ; JSTOR Daily attribue ce point à une autre étude et dit que leur souci principal est autre. A reformuler. Reste confirmé : 35 800 pieds, 200 milles SW Guam (rapport Walsh, texte intégral archive.org), 11 521 puis 10 916 m, 20 min, 267 000 $, concombre de mer, 8 500 m."
+    ]
   }
 }
