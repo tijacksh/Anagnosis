@@ -2,7 +2,7 @@
   "id": "geo-bretz-scablands-spokane-flood-1923",
   "slug": "bretz-scablands-spokane-flood-1923",
   "titre": "Bretz et le déluge de l'État de Washington : un débat de méthode",
-  "accroche": "En 1923, J Harlen Bretz attribue les Channeled Scablands à une inondation cataclysmique. On a mis des décennies à la croire, faute de savoir d'où venait l'eau.",
+  "accroche": "En 1923, Bretz attribue les Channeled Scablands à un déluge. Ses pairs refusaient un principe, pas les faits.",
   "discipline": "geologie",
   "theme": null,
   "theme_ordre": null,
@@ -16,7 +16,7 @@
     "url": "https://rock.geosociety.org/net/gsatoday/archive/32/5/pdf/i1052-5173-32-5-50.pdf"
   },
   "carte": {
-    "punch": "Bretz n'a pas été censuré. On ne le croyait pas parce qu'on ne savait pas d'où venait l'eau.",
+    "punch": "Bretz n'a pas été censuré : ses pairs rejetaient un principe, pas d'abord les faits.",
     "idee": "En 1923, J Harlen Bretz attribue les Channeled Scablands à une inondation cataclysmique. Son article paraît, mais il heurte l'uniformitarisme dominant. Le lac Missoula, retenu par un barrage de glace, fournit ensuite la source plausible.",
     "source_courte": "GSA Today, 2022"
   },
@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Pardee documente le lac glaciaire Missoula, retenu par un barrage de glace, comme source plausible. Les rides de courant en graviers qui coiffent des buttes décrites par Bretz comptent parmi les preuves qui convainquent les sceptiques.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
       "explication": "Il laisse le débat aux autres, persuadé que d'autres études de terrain le résoudraient, et se consacre aux glaciers du Groenland puis, de 1938 à 1961, à l'origine des grottes calcaires."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -110,8 +110,8 @@
     ]
   },
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-08T07:17:10.556Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-09T07:32:44.983Z",
     "historique": [
       {
         "action": "retoucher",
@@ -120,6 +120,14 @@
         "par": "routine-relecture",
         "le": "2026-10-08T07:17:10.556Z",
         "note": "Contrôle : a_revoir, accroche/punch contredisent le corps (cause du retard d'acceptation), voir notes du contrôle"
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-09T07:32:44.983Z",
+        "note": "Point signalé par le contrôle : accroche et punch contredisaient le corps sur la cause du retard d'acceptation (attribuaient tout au manque de source d'eau, alors que le corps dit lui-même « un problème de méthode, pas d'abord de preuves »). Corrigés pour refléter le corps déjà vérifié par le contrôle du 2026-10-08 (Baker GSA Today 2022 et HistoryLink, faits confirmés) : le refus initial tient au principe d'uniformitarisme, la source d'eau plausible (lac Missoula) et le terrain lèvent ensuite le doute. Aucun autre point en suspens. Baker (rock.geosociety.org) et HistoryLink inaccessibles ce jour (politique réseau de la session) : je n'ai pas pu les rouvrir moi-même, je me fonde sur la relecture indépendante déjà faite hier avec accès à ces deux sources."
       }
     ]
   }

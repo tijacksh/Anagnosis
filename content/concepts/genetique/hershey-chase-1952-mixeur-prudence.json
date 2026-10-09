@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le résumé s'achève sur « The DNA has some function. Further chemical inferences should not be drawn from the experiments presented. » Les trois autres propositions ne figurent pas dans cette conclusion.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -89,7 +89,7 @@
       "explication": "Le travail d'Avery, MacLeod et McCarty (1944) suggérait déjà que l'ADN était le matériel génétique, mais la communauté scientifique hésitait encore à l'accepter, selon Wikipédia. Les trois autres dates sont soit antérieures sans lien, soit postérieures à 1952."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -107,7 +107,7 @@
   },
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-09T04:04:06.892Z",
+    "decide_le": "2026-10-09T07:32:25.676Z",
     "historique": [
       {
         "action": "retoucher",
@@ -124,6 +124,14 @@
         "par": "routine-reparation",
         "le": "2026-10-09T04:04:06.892Z",
         "note": "Résumé en huit points relu via Europe PMC (75 % S / 15 % P, Waring, 'The DNA has some function. Further chemical inferences should not be drawn', protéine sans fonction probable) ; Wikipedia relu (conclusion attribuée aux auteurs, prudence sur le rôle, Avery 1944, Nobel 1969 avec Delbrück et Luria). Texte corrigé : 'phrase absente de l'article' retiré, Chargaff et 'spécialistes des phages' retirés, Wikipedia cité pour la conclusion, titre/accroche/carte/quiz ramenés au résumé. Doute restant : le PDF intégral (1,0 Mo) n'est lisible ni par WebFetch ni par Europe PMC ; on ne peut pas confirmer ce que la discussion du corps de l'article dit exactement de l'ADN et du matériel génétique. Pour lever : lire le PDF intégral JGP 36(1):39-56."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-09T07:32:25.676Z",
+        "note": "PMC2147348 (résumé) et Wikipédia EN (Hershey–Chase experiment) rouverts : 75% S / 15% P confirmés mot pour mot, « The DNA has some function. Further chemical inferences should not be drawn » confirmé, conclusion ADN=matériel génétique mais rôle précis non tranché confirmée, Avery 1944 et hésitation de la communauté confirmés, Nobel 1969 de Hershey avec Delbrück et Luria confirmé. Corps, repère, carte et quiz vérifiés affirmation par affirmation : rien à corriger. dnaftb.org (pour_aller_plus_loin, hors sources[]) inaccessible ce jour (politique réseau de la session), non critique."
       }
     ]
   }

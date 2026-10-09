@@ -8,7 +8,7 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "En mars 1968, les lecteurs de la revue Communications of the ACM trouvent, dans leur courrier des lecteurs, une lettre de deux pages signée Edsger Dijkstra. Elle s'intitule « Go To Statement Considered Harmful ». Cette formule est devenue un genre à elle seule. Seulement, Dijkstra ne l'avait pas écrite.\n\n## Le titre d'origine\n\nDans le manuscrit que Dijkstra envoie à la revue, la lettre s'appelait « A Case against the GO TO Statement ». Le texte est conservé dans les archives Dijkstra de l'université du Texas sous la référence EWD215, avec le titre qu'il lui avait donné. Le titre a été modifié à la publication par Niklaus Wirth, alors rédacteur de la revue, selon Wikipédia, qui y a mis la formule que l'on connaît. La lettre est parue dans le numéro de mars 1968, volume 11, aux pages 147 et 148.\n\n## L'argument\n\nDijkstra y soutient que l'usage sans retenue de l'instruction « go to », qui fait sauter l'exécution d'un point du programme à un autre, rend difficile de suivre ce que fait un programme. Pour comprendre où l'on est, il faut savoir par quelle suite d'étapes l'exécution est arrivée là, et les sauts brouillent cette suite. Il plaide pour des constructions plus structurées, qui laissent le texte du programme refléter son déroulement. Ce que la lettre attaque, c'est un usage, pas l'existence de l'instruction : la nuance tient à tout ce que le titre ne dit pas. La lettre n'est pas une interdiction : elle admet des exceptions, comme des sorties de secours.\n\n## Le déplacement\n\nLe titre de Wirth a eu davantage de postérité que la lettre. Selon Wikipédia, au moins 65 essais critiques en informatique et dans des domaines voisins portaient en 2009 un titre bâti sur le modèle « X considered harmful ». La formule a installé un ton : celui du réquisitoire bref, catégorique, qui laisse peu de place à la nuance. Or le texte d'origine, lui, en contenait davantage que le titre ne le laisse croire.\n\nUn titre est un acte éditorial qui s'ajoute au texte, et qui peut en changer la réception. L'histoire de cette phrase est donc aussi celle d'un contresens possible : on lit la formule de Wirth comme si c'était l'argument de Dijkstra. Quelle autre phrase célèbre en informatique nous vient d'un éditeur, d'un titre de presse, d'une légende de conférence plutôt que de l'auteur ?",
+  "contenu_vulgarise": "En mars 1968, les lecteurs de la revue Communications of the ACM trouvent, dans leur courrier des lecteurs, une lettre de deux pages signée Edsger Dijkstra. Elle s'intitule « Go To Statement Considered Harmful ». Cette formule est devenue un genre à elle seule. Seulement, Dijkstra ne l'avait pas écrite.\n\n## Le titre d'origine\n\nDans le manuscrit que Dijkstra envoie à la revue, la lettre s'appelait « A Case against the GO TO Statement ». Le texte est conservé dans les archives Dijkstra de l'université du Texas sous la référence EWD215, avec le titre qu'il lui avait donné. Le titre a été modifié à la publication par Niklaus Wirth, alors rédacteur de la revue, selon Wikipédia, qui y a mis la formule que l'on connaît. La lettre est parue dans le numéro de mars 1968, volume 11, aux pages 147 et 148.\n\n## L'argument\n\nDijkstra y soutient que l'usage sans retenue de l'instruction « go to », qui fait sauter l'exécution d'un point du programme à un autre, rend difficile de suivre ce que fait un programme. Pour comprendre où l'on est, il faut savoir par quelle suite d'étapes l'exécution est arrivée là, et les sauts brouillent cette suite. Il plaide pour des constructions plus structurées, qui laissent le texte du programme refléter son déroulement. Sa conclusion ne reste pas en demi-mesure : il écrit que le go to devrait être aboli de tous les langages de programmation de haut niveau. Les exceptions qu'on prête parfois à la lettre, comme des sorties de secours, ne figurent pas dans le manuscrit que Dijkstra a envoyé à la revue.\n\n## Le déplacement\n\nLe titre de Wirth a eu davantage de postérité que la lettre. Selon Wikipédia, au moins 65 essais critiques en informatique et dans des domaines voisins portaient en 2009 un titre bâti sur le modèle « X considered harmful ». La formule a installé un ton : celui du réquisitoire bref, catégorique, qui laisse peu de place à la nuance. Or le texte d'origine, lui, en contenait davantage que le titre ne le laisse croire.\n\nUn titre est un acte éditorial qui s'ajoute au texte, et qui peut en changer la réception. L'histoire de cette phrase est donc aussi celle d'un contresens possible : on lit la formule de Wirth comme si c'était l'argument de Dijkstra. Quelle autre phrase célèbre en informatique nous vient d'un éditeur, d'un titre de presse, d'une légende de conférence plutôt que de l'auteur ?",
   "citation": null,
   "repere": {
     "texte": "La lettre de Dijkstra, soumise sous le titre « A Case against the GO TO Statement », a été publiée sous celui de « Go To Statement Considered Harmful » dans Communications of the ACM, vol. 11, n° 3, mars 1968, pp. 147-148.",
@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le manuscrit s'intitulait « A Case against the GO TO Statement » ; le changement vient du rédacteur de la revue. Ni Knuth ni l'imprimeur n'y sont pour quelque chose.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -86,10 +86,10 @@
         "Qu'il ne parlait pas de go to"
       ],
       "bonne_reponse": 1,
-      "explication": "« A Case against » annonce un plaidoyer argumenté ; « Considered harmful » donne un ton plus tranché. Le texte, lui, admettait des exceptions comme les sorties de secours."
+      "explication": "« A Case against » annonce un plaidoyer argumenté ; « Considered harmful » tranche d'emblée. Le texte lui-même conclut pourtant sans détour que le go to doit être aboli des langages de haut niveau."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -97,8 +97,8 @@
     "version": 1
   },
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-08T11:14:36.835Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-09T07:32:58.380Z",
     "historique": [
       {
         "action": "retoucher",
@@ -107,6 +107,14 @@
         "par": "routine-relecture",
         "le": "2026-10-08T11:14:36.835Z",
         "note": "Contrôle : EWD215 rouvert. (1) La page d'archive ne désigne pas Wirth : elle dit seulement que la version publiée sous le titre « Go To Statement Considered Harmful » a été reformatée et complétée (deux derniers paragraphes, références) par H. Richards ; Wirth ne vient que de Wikipédia (le texte le dit). (2) Sens : « ce que la lettre attaque, c'est un usage, pas l'existence de l'instruction » et « n'est pas une interdiction » contredisent le texte : Dijkstra écrit que le go to « should be abolished from all higher level programming languages » (sauf peut-être le code machine) ; la nuance se limite aux sorties d'alarme et à d'autres clauses possibles. À reformuler ; explication du quiz et quiz supplémentaire 2 à ajuster. (3) Les sorties d'alarme figurent dans les paragraphes ajoutés à la version publiée, absents du tapuscrit d'archive."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-09T07:32:58.380Z",
+        "note": "Wikipédia EN (Considered harmful) rouvert : confirme le titre d'origine « A Case Against the Goto Statement », le changement par Niklaus Wirth (rédacteur de CACM), la référence CACM 11(3):147-148 mars 1968, et les 65 essais en 2009 — l'attribution à Wirth reste donc sourcée (« selon Wikipédia », déjà dans le corps), même si EWD215 (cs.utexas.edu, bloqué ce jour par la politique réseau de la session) n'a pas pu être rouvert pour trancher la mention de H. Richards. Corrigé le point de fond signalé par le contrôle : le corps et le quiz supplémentaire 2 présentaient la lettre comme ne visant qu'un usage et admettant des exceptions (sorties de secours) — or Dijkstra conclut que le go to doit être aboli de tous les langages de haut niveau, et les exceptions citées viennent des paragraphes ajoutés à la version publiée, absents du manuscrit. Texte et explication corrigés en conséquence."
       }
     ]
   },
