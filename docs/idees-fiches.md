@@ -253,6 +253,6 @@ peut rouvrir directement le texte du décret.)*
 | Neurosciences | Hubel et Wiesel : la période critique, des chatons à l'œil fermé | fait | routine-production-arnaud | 2026-10-09 |
 | Neurosciences | Neurones miroirs (1992) : ce que le macaque montre, et ce qu'il ne montre pas | fait | routine-production-arnaud | 2026-10-09 |
 | Neurosciences | Broca et Tan (1861) : Leborgne comprenait tout, et l'aire de Broca n'est pas celle de Broca | fait | routine-production-arnaud | 2026-10-09 |
-| Nutrition | Pellagre : la commission Thompson-McFadden et Goldberger, mêmes villages, deux conclusions (mesure du régime) | en cours | routine-production-arnaud | 2026-10-09 |
-| Nutrition | Minnesota Coronary Experiment (1968-73) : l'essai sur graisses saturées resté en partie inédit, données retrouvées (BMJ 2016) | en cours | routine-production-arnaud | 2026-10-09 |
-| Nutrition | Persistance de la lactase : deux mutations indépendantes, Europe et Afrique de l'Est (Tishkoff 2007) | en cours | routine-production-arnaud | 2026-10-09 |
+| Nutrition | Pellagre : la commission Thompson-McFadden et Goldberger, mêmes villages, deux conclusions (mesure du régime) | fait | routine-production-arnaud | 2026-10-09 |
+| Nutrition | Minnesota Coronary Experiment (1968-73) : l'essai sur graisses saturées resté en partie inédit, données retrouvées (BMJ 2016) | fait | routine-production-arnaud | 2026-10-09 |
+| Nutrition | Persistance de la lactase : deux mutations indépendantes, Europe et Afrique de l'Est (Tishkoff 2007) | fait | routine-production-arnaud | 2026-10-09 |
