@@ -73,7 +73,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Lindstrom recense plusieurs lectures qui ont supplanté l'image de croyance naïve, dont celle de l'ethnologue Jean Guiart, qui range les cultes du cargo parmi les précurseurs du nationalisme mélanésien, nés de conditions sociales coloniales insupportables ; ni simple imitation, ni fraude organisée, ni survivance antérieure au contact colonial n'en rendent compte.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -110,11 +110,11 @@
       "explication": "Selon Lindstrom, le mot cargo, d'abord synonyme de biens matériels et d'argent neuf, en est venu à désigner l'autonomie locale, puis des projets de développement économique portés par les insulaires eux-mêmes."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-05T15:30:56.742Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-09T02:17:15.416Z",
     "historique": [
       {
         "action": "valider",
@@ -123,15 +123,24 @@
         "par": "routine-reparation",
         "le": "2026-08-05T15:30:56.742Z",
         "note": "Sources rouvertes : anthroencyclopedia.com (Lindstrom, en entier), confirme mot pour mot le hissage des drapeaux le 15 février 1957 et l'évolution du sens de 'cargo'. 3 points traités : (1) le lien causal entre une libération de détention et le hissage des drapeaux du 15 février 1957 n'est soutenu par aucune source (vérifié aussi sur Wikipedia 'John Frum', qui décrit une arrestation postérieure aux événements de 1957, pas une libération antérieure) — la phrase reformulée pour ne garder que ce que Lindstrom soutient (corps et repère). (2) La formule 'précurseurs du nationalisme mélanésien' est, sur la page de Lindstrom, attribuée explicitement à l'ethnologue Jean Guiart ('as Guiart put it', 1951) dans une revue de plusieurs interprétations, pas une thèse tranchée par Lindstrom en son nom — corps et quiz (question + explication) réécrits pour attribuer correctement. (3) L'affirmation sur les rapports de surveillance de 1941 est confirmée mot pour mot par le résumé de Marc Tabani, 'Archiving a Prophecy' (Paideuma, 2018), lu directement sur la page HAL en accès libre (hal.science/hal-01962249, jusque-là seulement en pour_aller_plus_loin, promu dans sources[] et son URL corrigée depuis le lien frobenius-institut.de). Carte revérifiée conforme, aucun changement."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-09T02:17:15.416Z",
+        "note": "Contrôle : détail non sourcé (drapeaux « taillés dans du tissu »), voir notes de contrôle"
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-19",
-    "verdict": "ok",
-    "empreinte": "e1e97a0d61039bab",
+    "fait_le": "2026-10-09",
+    "verdict": "a_revoir",
+    "empreinte": "27f0b4a60a272c9e",
     "notes": [
-      "Contrôle porte sur le seul ajout depuis le dernier contrôle : les trois questions de quiz_supplementaire. Hissage des drapeaux le 15 février 1957 et rapports de surveillance de Tabani dès 1941 déjà vérifiés mot pour mot au contrôle du 2026-08-07. Évolution du sens du mot 'cargo' (biens matériels puis argent neuf -> autonomie locale -> développement porté par les insulaires) reconfirmée par recoupement WebSearch sur Lindstrom, Open Encyclopedia of Anthropology. Rien à corriger."
+      "Repère et corps : « drapeaux rouges taillés dans du tissu » — Lindstrom (Open Encyclopedia of Anthropology, 2023, texte rouvert) écrit seulement « raised two red flags hoarded from American ammunition dumps » ; ni « tissu » ni « taillés » ne figurent à la source (ni sur Wikipedia John Frum / Cargo cult) : détail non sourcé. À reformuler (« deux drapeaux rouges récupérés dans des dépôts de munitions américains ») ou à resourcer.",
+      "Corps : « dépasse tout ce que l'administration coloniale franco-britannique avait pu apporter en un demi-siècle » n'est dans aucune source de la fiche (Wikipedia Espiritu Santo : plus de 500 000 militaires passés au total, 9 millions de tonnes de matériel, rien sur la comparaison coloniale). L'image de la fausse tour de contrôle n'est pas chez Lindstrom non plus. Confirmés : 15 février 1957 et fête annuelle, Guiart « forerunners of Melanesian nationalism », évolution du sens de « cargo », 1942, Worsley (archive.org, notice conforme). Tabani (HAL) inaccessible ce jour (Anubis), vérifié aux contrôles précédents."
     ]
   },
   "meta": {

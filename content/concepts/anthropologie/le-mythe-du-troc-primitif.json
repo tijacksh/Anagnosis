@@ -82,7 +82,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Humphrey constate l'inverse du récit classique : aucune ethnographie n'a jamais décrit une société organisée autour du seul troc, ni une précédence générale du troc sur la monnaie, ni sa persistance comme norme actuelle, ni une simultanéité des deux.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -119,11 +119,11 @@
       "explication": "Murphy répond dès 2011 à une interview donnée par Graeber au blog Naked Capitalism, pas à l'argumentation développée dans le livre lui-même, qu'il n'a pas encore lu au moment de sa réponse."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-05T19:26:57.999Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-09T02:17:15.444Z",
     "historique": [
       {
         "action": "valider",
@@ -132,15 +132,24 @@
         "par": "routine-reparation",
         "le": "2026-08-05T19:26:57.999Z",
         "note": "Sources rouvertes : econlib.org (Smith, boucher/boulanger/brasseur), voidnetwork.gr (Humphrey 1985, citation confirmée mot pour mot + cas Lhomi du Népal, troc post-rupture, également recoupé par recherche indépendante), davidgraeber.org (Debt, 2011), columbia.edu (recension Naidu, Journal of Global History 2012, confirmée par recherche indépendante). Ajouté mises.org/mises-daily/have-anthropologists-overturned-menger à sources[] (vérifié : Murphy y répond bien à une interview de Graeber sur Naked Capitalism, pas au livre, et confirme ne pas l'avoir lu). Reformulé le paragraphe Murphy pour dire précisément qu'il répondait à une interview et n'avait pas lu l'ouvrage, sans plus présenter cela comme deux lectures savantes symétriques. Reste de la fiche (citation, carte, quiz) vérifié conforme."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-09T02:17:15.444Z",
+        "note": "Contrôle : punch et corps plus absolus que Humphrey (économies « dominated by barter » existent), voir notes de contrôle"
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-19",
-    "verdict": "ok",
-    "empreinte": "e007609b07db1a71",
+    "fait_le": "2026-10-09",
+    "verdict": "a_revoir",
+    "empreinte": "2b6eb74c8d6b849a",
     "notes": [
-      "Contrôle porte sur le seul ajout depuis le dernier contrôle : les trois questions de quiz_supplementaire. L'exemple du boulanger et du boucher chez Smith, le contexte réel du troc observé sur le terrain (étrangers, effondrement monétaire, cas népalais de Humphrey) et la critique de Murphy portant sur une interview et non sur le livre étaient déjà vérifiés mot pour mot aux contrôles du 2026-08-05 et du 2026-08-08. Rien à corriger."
+      "Humphrey, Man 20(1) 1985 p. 48 (PDF rouvert, scan lu) : la citation est authentique, mais la phrase suivante dit « there are economies today which are nevertheless dominated by barter » (cas Lhomi du Népal). Or le punch de la carte (« Aucun ethnographe n'a jamais décrit une économie fondée sur le troc »), l'accroche et le corps (« économie organisée principalement autour du troc direct ») sont plus absolus que la source, qui parle de troc « pure and simple » et de l'émergence de la monnaie à partir de lui, et contredisent l'exemple népalais de la fiche. À reformuler en « troc pur » / « précédant la monnaie ».",
+      "Confirmés : citation de Humphrey (texte exact, p. 48), Murphy (Mises Daily, 1er sept. 2011, répond à l'interview Naked Capitalism, absence de traces ne suffit pas, transition rapide), Smith Livre I chap. IV (boucher, boulanger, brasseur ; « coïncidence de désirs » absent du chapitre)."
     ]
   },
   "meta": {

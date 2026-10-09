@@ -10,14 +10,31 @@
   "duree_lecture_min": 3,
   "pour_aller_plus_loin": [],
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T02:16:27.065Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-09T02:16:27.065Z",
+        "note": "Contrôle : interprétation non soutenue par les sources citées, voir note de contrôle"
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-09",
+    "verdict": "a_revoir",
+    "empreinte": "f2cbaaac6da70615",
+    "notes": [
+      "Résumé et abstract de Hubel & Wiesel 1970 (J Physiol 206, via Europe PMC) confirment : début 4e semaine, déclin 6-8 semaines, fin vers 3 mois, adulte > 1 an sans effet, 3-4 j puis 6 j, 85 % → 7 %, récupération limitée après 5 ans, corps géniculé plus petit après 3 ou 6 jours. MAIS le corps (« une raison qui ne tient pas à l'œil », « l'œil fermé n'a rien de lésé », « place… reprise par l'œil resté ouvert ») et le quiz (bonne réponse + explication « l'œil n'est pas lésé ») reposent sur une interprétation absente des deux sources citées (l'abstract de 1970 mentionne même l'atrophie géniculée ; l'article de 1963 n'a pas d'abstract accessible). À resourcer (ex. Wiesel & Hubel 1965, texte intégral) ou à reformuler.",
+      "Distracteur « abîme la rétine » : non tranché par les sources citées. Tout le reste est exact."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-09",
@@ -72,6 +89,6 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'œil en lui-même n'est pas lésé : c'est son poids dans le cortex qui chute, et seulement pendant la fenêtre sensible. Rouvrir l'œil ensuite ne rétablit que très peu la physiologie corticale, ce qui exclut un simple défaut d'usage vite corrigé. Rien non plus ne dit que des neurones meurent en quelques heures.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   }
 }
