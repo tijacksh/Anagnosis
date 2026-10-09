@@ -10,10 +10,10 @@
     }
   ],
   "date_publication_prevue": null,
-  "statut": "en_retouche",
+  "statut": "valide",
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-09T11:14:55.708Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-09T19:18:38.960Z",
     "historique": [
       {
         "action": "retoucher",
@@ -22,6 +22,14 @@
         "par": "routine-relecture",
         "le": "2026-10-09T11:14:55.708Z",
         "note": "Contrôle : attribution à revoir"
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-09T19:18:38.960Z",
+        "note": "Rouvert JSTOR Daily (daily.jstor.org/challenger-deep) : confirme que le souci principal de Jamieson & Yancey 2012 est la sensationnalisation de l'observation, et que l'argument écologique des détritus/cadavres vient d'une étude distincte de 2009 où Alan Jamieson figure aussi parmi les auteurs (Jamieson et al., Proc. R. Soc. B 276(1659), texte intégral PMC2679086 rouvert et vérifié : 'particulate detritus from overlying productivity and carrion falls'). Corps reformulé en conséquence, source 2009 ajoutée. Reste confirmé : rapport Walsh 1962 (texte intégral archive.org) pour 35 800 pieds et 200 milles SW Guam ; Wikipédia (en) pour 11 521 m puis 10 916 m, fourchette 10 911-10 994 m, 20 min au fond, 267 000 $, descente 4h47 à 0,9 m/s. Concombre de mer et limite de 8 500 m confirmés par JSTOR Daily. Carte, repère et quiz vérifiés conformes."
       }
     ]
   },
@@ -36,7 +44,7 @@
   "accroche": "Le 23 janvier 1960, deux hommes touchent le fond de la fosse des Mariannes. L'un d'eux dit avoir vu un poisson, sans photo pour l'établir.",
   "niveau": "intermediaire",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "23 janvier 1960. Le bathyscaphe Trieste, acheté par l'Office of Naval Research américain en 1958 pour 267 000 dollars, touche le fond du Challenger Deep, à environ 200 milles au sud-ouest de Guam. À bord, Jacques Piccard et le lieutenant de l'US Navy Don Walsh. Dans la chronologie du rapport de l'US Navy Electronics Laboratory, la journée tient en une ligne : une plongée réussie dans le Challenger Deep, par 35 800 pieds d'eau, soit environ 10 900 mètres.\n\n## Une profondeur corrigée\n\nCe chiffre n'est pas celui qu'affichaient d'abord les instruments de bord. Ceux-ci indiquaient 11 521 mètres, une valeur révisée ensuite à 10 916 mètres. Les mesures récentes placent le point le plus profond entre environ 10 911 et 10 994 mètres. La différence entre lecture brute et valeur retenue dépasse ainsi 600 mètres : un record peut être réel et son chiffre, instable. Le Trieste, lui, a mis près de cinq heures à descendre, à moins d'un mètre par seconde, puis environ vingt minutes au fond avant de remonter.\n\n## Un témoin sans caméra\n\nAu fond, les deux hommes restent une vingtaine de minutes. Le Trieste n'emporte aucune caméra. Au moment où il se pose, l'un des deux hommes rapporte avoir vu, avant que le sédiment soulevé n'obscurcisse tout, un petit poisson plat. L'observation fait le tour du monde : la vie existerait donc au point le plus profond des océans.\n\nPlusieurs études ont ensuite cherché à l'écarter, dont un article de 2012 d'Alan Jamieson et Paul Yancey, intitulé « On the Validity of the Trieste Flatfish ». Leur argument majeur est écologique : à de telles profondeurs, les animaux dépendent des détritus et des cadavres qui tombent d'en haut, que les organismes des couches supérieures auraient presque tous consommés avant. Les courbes de répartition des poissons selon la profondeur prédisent par ailleurs une limite autour de 8 500 mètres. L'explication jugée la plus probable est celle d'un concombre de mer aplati, facile à confondre avec un poisson plat. Personne ne soupçonne le pilote d'avoir menti.\n\n## Ce que cela dit d'un récit\n\nLa limite des 8 500 mètres vient d'extrapolations, qui admettent mal les exceptions. Mais l'absence de preuve compte aussi : sans image, un témoignage, même sincère, ne devient pas un fait. Une fois le doute posé, la phrase la plus citée de la plongée de 1960 est une observation que ni l'une ni l'autre des parties ne peut vérifier.",
+  "contenu_vulgarise": "23 janvier 1960. Le bathyscaphe Trieste, acheté par l'Office of Naval Research américain en 1958 pour 267 000 dollars, touche le fond du Challenger Deep, à environ 200 milles au sud-ouest de Guam. À bord, Jacques Piccard et le lieutenant de l'US Navy Don Walsh. Dans la chronologie du rapport de l'US Navy Electronics Laboratory, la journée tient en une ligne : une plongée réussie dans le Challenger Deep, par 35 800 pieds d'eau, soit environ 10 900 mètres.\n\n## Une profondeur corrigée\n\nCe chiffre n'est pas celui qu'affichaient d'abord les instruments de bord. Ceux-ci indiquaient 11 521 mètres, une valeur révisée ensuite à 10 916 mètres. Les mesures récentes placent le point le plus profond entre environ 10 911 et 10 994 mètres. La différence entre lecture brute et valeur retenue dépasse ainsi 600 mètres : un record peut être réel et son chiffre, instable. Le Trieste, lui, a mis près de cinq heures à descendre, à moins d'un mètre par seconde, puis environ vingt minutes au fond avant de remonter.\n\n## Un témoin sans caméra\n\nAu fond, les deux hommes restent une vingtaine de minutes. Le Trieste n'emporte aucune caméra. Au moment où il se pose, l'un des deux hommes rapporte avoir vu, avant que le sédiment soulevé n'obscurcisse tout, un petit poisson plat. L'observation fait le tour du monde : la vie existerait donc au point le plus profond des océans.\n\nPlusieurs études ont ensuite cherché à l'écarter, dont un article de 2012 d'Alan Jamieson et Paul Yancey, intitulé « On the Validity of the Trieste Flatfish ». Leur souci principal est ailleurs : ils craignent surtout que l'observation donne des profondeurs une image sensationnaliste. L'argument écologique le plus solide vient d'une étude distincte, publiée en 2009 avec Alan Jamieson déjà parmi les auteurs : à de telles profondeurs, les poissons dépendent des détritus et des cadavres qui tombent d'en haut, que les organismes des couches supérieures auraient presque tous consommés avant. Des extrapolations de la répartition des poissons selon la profondeur prédisent par ailleurs une limite autour de 8 500 mètres. L'explication jugée la plus probable est celle d'un concombre de mer aplati, facile à confondre avec un poisson plat. Personne ne soupçonne le pilote d'avoir menti.\n\n## Ce que cela dit d'un récit\n\nLa limite des 8 500 mètres vient d'extrapolations, qui admettent mal les exceptions. Mais l'absence de preuve compte aussi : sans image, un témoignage, même sincère, ne devient pas un fait. Une fois le doute posé, la phrase la plus citée de la plongée de 1960 est une observation que ni l'une ni l'autre des parties ne peut vérifier.",
   "citation": null,
   "repere": {
     "texte": "Le 23 janvier 1960, la plongée du Trieste dans le Challenger Deep est consignée à 35 800 pieds (environ 10 900 mètres), 200 milles au sud-ouest de Guam.",
@@ -64,7 +72,16 @@
       "publication": "JSTOR Daily",
       "annee": 2015,
       "url": "https://daily.jstor.org/challenger-deep/",
-      "note": "Poisson plat signalé au touchdown, absence de caméra, contestation par Jamieson et Yancey (2012), hypothèse du concombre de mer, limite de répartition des poissons vers 8 500 m."
+      "note": "Poisson plat signalé au touchdown, absence de caméra, hypothèse du concombre de mer, limite de répartition des poissons vers 8 500 m. Précise que le souci principal de Jamieson et Yancey (2012) est la sensationnalisation de l'observation, et attribue l'argument des détritus à une étude distincte de 2009 (Jamieson et al.)."
+    },
+    {
+      "type": "article",
+      "auteur": "Jamieson, Alan J. ; Fujii, Toyonobu ; Solan, Martin ; Matsumoto, Asako K. ; Bagley, Philip M. ; Priede, Imants G.",
+      "titre": "Liparid and macrourid fishes of the hadal zone: in situ observations of activity and feeding behaviour",
+      "publication": "Proceedings of the Royal Society B / Proceedings: Biological Sciences, 276(1659), 1037-1045",
+      "annee": 2009,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2679086/",
+      "note": "Texte intégral en accès libre (PMC). Confirme l'argument écologique : la vie hadale dépend de deux apports d'énergie venus d'en haut, les détritus particulaires et les cadavres (« carrion falls »), consommés en grande partie par les organismes des couches supérieures."
     },
     {
       "type": "web",
@@ -92,7 +109,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le doute vient de l'absence de preuve et de l'écologie : peu de nourriture arrive au fond, et les modèles prédisent une limite des poissons vers 8 500 mètres. Personne n'accuse le pilote de mensonge, et les poissons plats ne vivent pas à ces profondeurs.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "controle": {
     "fait_le": "2026-10-09",
