@@ -4,11 +4,20 @@
   "discipline": "oceanographie",
   "pour_aller_plus_loin": [],
   "date_publication_prevue": null,
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T12:38:00.713Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-09T12:38:00.713Z",
+        "note": "Sources rouvertes : JFM 2019 (Cambridge, via DOI), Wikipedia Draupner wave. Corrigé par la relecture (texte modifié, donc à recontrôler) : titre « jugeaient impossible » non soutenu → « hors de tous les modèles connus » ; comparaison « 5,6 m de plus que la vague de calcul » retirée (la mesure de la hauteur de calcul de 20 m n'est pas précisée, la crête de 18,5 m est inférieure à 20 m) ; « intervalles réguliers », marins/exagérations et dimensionnement des ouvrages retirés (non sourcés) ; carte et choix 0 du quiz alignés. Confirmé : 1er janv. 1995, 25,6 m, 18,5 m, Hs 12 m, 2,13/1,55, 70 m, laser, 15h24 UTC, ~160 km, dégâts mineurs, autres capteurs, bassin FloWave, 120°. Reste : un contrôle indépendant du texte réécrit, après quoi validation possible sans autre changement."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-09",
@@ -17,11 +26,11 @@
   },
   "id": "oce-draupner-vague-1995-vagues-scelerates",
   "slug": "draupner-vague-1995-vagues-scelerates",
-  "titre": "Une vague de 25,6 mètres que les modèles jugeaient impossible",
-  "accroche": "Le 1er janvier 1995, un laser de la plateforme Draupner, en mer du Nord, enregistre une vague plus de deux fois plus haute que la houle ambiante.",
+  "titre": "Une vague de 25,6 mètres hors de tous les modèles connus",
+  "accroche": "Le 1er janvier 1995, un laser de la plateforme Draupner, en mer du Nord, enregistre une vague de plus de deux fois la hauteur significative des vagues.",
   "niveau": "intermediaire",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "Mer du Nord, 1er janvier 1995, à environ 160 kilomètres au sud-ouest de la pointe méridionale de la Norvège. La plateforme de Draupner, qui soutient un complexe de gazoduc, encaisse une tempête. Sous son pont, un laser pointé vers le bas mesure à intervalles réguliers la distance qui le sépare de la surface. À 15 h 24 UTC, il enregistre quelque chose que personne n'attendait.\n\n## Une vague hors de la courbe\n\nDans cette mer, la hauteur significative des vagues, c'est-à-dire la moyenne du tiers le plus haut, est d'environ 12 mètres. La vague mesurée atteint 25,6 mètres de creux à crête, dont 18,5 mètres au-dessus du niveau moyen de la mer. Les chercheurs résument l'écart par des indices d'anormalité : 2,13 pour la hauteur totale, 1,55 pour la crête. La plateforme était dimensionnée pour une vague attendue une fois tous les dix mille ans, d'une hauteur calculée de 20 mètres. Celle de Draupner la dépasse largement : 5,6 mètres de plus que cette vague de calcul. Les dégâts restent mineurs, et il n'y a aucune victime.\n\n## Pourquoi cette mesure compte\n\nDes marins racontaient depuis longtemps des murs d'eau surgis de nulle part. Sans mesure, ces récits restaient des témoignages, faciles à écarter comme exagérations. Le laser de Draupner, installé dans une eau de 70 mètres de profondeur, fournit autre chose : un enregistrement instrumental, recoupé par d'autres capteurs de la plateforme, d'une vague qui sortait de tous les modèles alors en usage. Elle a contribué à établir que les vagues extrêmes, dites scélérates, existent réellement, et elle a donné lieu à de nombreuses études. En 2019, une équipe a même reproduit une vague de ce type dans un bassin d'essai, en croisant deux trains de vagues d'orientations différentes.\n\nLe déplacement tient à ce que la mesure change de statut. Une vague de 25,6 mètres n'est pas une preuve que l'océan serait imprévisible ; elle montre que les modèles de l'époque décrivaient mal les mers où plusieurs houles se croisent. Ce qu'on tenait pour une rareté de conteur, une vague hors de portée des modèles alors en usage, est devenu une donnée à intégrer dans le dimensionnement des ouvrages en mer. Reste une question que la fiche ne tranche pas : combien d'autres vagues de cette taille ont traversé l'océan sans qu'un instrument les regarde ?",
+  "contenu_vulgarise": "Mer du Nord, 1er janvier 1995, à environ 160 kilomètres au sud-ouest de la pointe méridionale de la Norvège. La plateforme de Draupner, qui soutient un complexe de gazoduc, encaisse une tempête. Sous son pont, un laser pointé vers le bas mesure la distance qui le sépare de la surface de la mer. À 15 h 24 UTC, il enregistre quelque chose que personne n'attendait.\n\n## Une vague hors de la courbe\n\nDans cette mer, la hauteur significative des vagues, c'est-à-dire la moyenne du tiers le plus haut, est d'environ 12 mètres. La vague mesurée atteint 25,6 mètres de creux à crête, dont 18,5 mètres au-dessus du niveau moyen de la mer. Les chercheurs résument l'écart par des indices d'anormalité : 2,13 pour la hauteur totale, 1,55 pour la crête. Autrement dit, la vague fait plus de deux fois la hauteur significative de la mer qui la porte. La plateforme avait été construite pour résister à une vague calculée, attendue une fois tous les dix mille ans, d'une hauteur prévue de 20 mètres. Les dégâts restent mineurs, et il n'y a aucune victime.\n\n## Pourquoi cette mesure compte\n\nLe laser de Draupner, installé dans une eau de 70 mètres de profondeur, fournit un enregistrement instrumental, confirmé par les autres capteurs de la plateforme, d'une vague dont les caractéristiques sortaient de tous les modèles de vagues connus. C'est l'une des premières mesures vérifiées d'une vague scélérate, c'est-à-dire d'une vague extrême, très supérieure à celles qui l'entourent. Elle a conforté l'idée que de telles vagues se forment naturellement, et elle a été très étudiée depuis. Une étude publiée en 2019 l'a même recréée à l'échelle réduite dans un bassin d'essai circulaire d'Édimbourg, en croisant deux trains de vagues d'orientations différentes.\n\nLe déplacement tient à ce que la mesure change de statut. Une vague de 25,6 mètres n'est pas une preuve que l'océan serait imprévisible ; elle montre qu'une mer où plusieurs houles se croisent peut produire une vague que les modèles connus ne décrivaient pas. L'expérience de bassin va dans ce sens : parmi les angles de croisement essayés (0°, 60° et 120°), seul le croisement à 120° a reproduit la crête et la hauteur de la vague mesurée. Reste une question que la fiche ne tranche pas : combien d'autres vagues de cette taille ont traversé l'océan sans qu'un instrument les regarde ?",
   "citation": null,
   "repere": {
     "texte": "Le 1er janvier 1995, la plateforme norvégienne de Draupner enregistre une vague de 25,6 mètres dans une mer dont la hauteur significative est d'environ 12 mètres, soit un indice d'anormalité de 2,13.",
@@ -29,8 +38,8 @@
     "url": "https://doi.org/10.1017/jfm.2018.886"
   },
   "carte": {
-    "punch": "Une vague de 25,6 mètres, dans une mer où l'on attendait 12 : le laser de Draupner n'a pas menti.",
-    "idee": "Le 1er janvier 1995, un laser de la plateforme Draupner enregistre en mer du Nord une vague de 25,6 mètres, plus de deux fois la hauteur significative ambiante. Elle dépasse les 20 mètres du calcul de dimensionnement et a contribué à faire reconnaître les vagues scélérates.",
+    "punch": "Un laser mesure une vague de 25,6 m dans une mer où la hauteur significative est de 12 m.",
+    "idee": "Le 1er janvier 1995, un laser de la plateforme Draupner enregistre en mer du Nord une vague de 25,6 mètres, plus de deux fois la hauteur significative ambiante (12 m). Ses caractéristiques sortaient des modèles connus ; elle a conforté l'existence des vagues scélérates.",
     "source_courte": "J. Fluid Mech., 2019"
   },
   "sources": [
@@ -62,14 +71,14 @@
   "quiz": {
     "question": "Qu'est-ce qui rend la vague de Draupner, en 1995, si importante pour l'étude des vagues scélérates ?",
     "choix": [
-      "Elle a été mesurée par un instrument, bien au-delà de ce que prévoyaient les modèles de l'époque",
+      "Elle a été mesurée par un instrument, et ses caractéristiques sortaient de tous les modèles connus",
       "Elle a détruit la plateforme, ce qui prouve que les vagues scélérates sont dangereuses",
       "Elle a été décrite par des marins qui l'ont vue passer, sans qu'aucun instrument la mesure",
       "Elle a été prédite par un modèle, puis confirmée par l'observation en mer"
     ],
     "bonne_reponse": 0,
-    "explication": "C'est l'enregistrement par un laser, recoupé par d'autres capteurs, qui compte : les récits de marins existaient, la mesure instrumentale d'une vague hors modèle, non. Les dégâts furent mineurs, la vague n'a pas été prédite, et ce n'est pas un témoignage.",
-    "statut": "brouillon"
+    "explication": "C'est l'enregistrement par un laser, confirmé par d'autres capteurs, qui compte : la mesure instrumentale d'une vague qu'aucun modèle connu ne décrivait. Les dégâts furent mineurs, la vague n'a pas été prédite par un modèle, et elle n'a pas été signalée par des témoins sans instrument.",
+    "statut": "en_retouche"
   },
   "controle": {
     "fait_le": "2026-10-09",
