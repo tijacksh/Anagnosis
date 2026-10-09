@@ -260,7 +260,7 @@ peut rouvrir directement le texte du décret.)*
 | Océanographie | Friendly Floatees (1992) : jouets de bain et courants du Pacifique Nord | abandonné | routine-production-arnaud | 2026-10-09 |
 | Océanographie | Nansen, la dérive du Fram et la déviation de la glace par rapport au vent (Ekman) | abandonné | routine-production-arnaud | 2026-10-09 |
 | Océanographie | Trieste, 23 janvier 1960 : descente au fond du Challenger Deep | fait | routine-production-arnaud | 2026-10-09 |
-| Paléontologie | Cuvier (1796) : les éléphants fossiles prouvent l'extinction | en cours | routine-production-arnaud | 2026-10-09 |
-| Paléontologie | Elasmosaurus (1868) : le crâne placé au bout de la queue, corrigé par Leidy | en cours | routine-production-arnaud | 2026-10-09 |
-| Paléontologie | Dimetrodon n'est pas un dinosaure (synapside) | en cours | routine-production-arnaud | 2026-10-09 |
-| Paléontologie | Archaeopteryx de Londres : décrit par Owen, pas par un darwinien | en cours | routine-production-arnaud | 2026-10-09 |
+| Paléontologie | Cuvier (1796) : les éléphants fossiles prouvent l'extinction | fait | routine-production-arnaud | 2026-10-09 |
+| Paléontologie | Elasmosaurus (1868) : le crâne placé au bout de la queue, corrigé par Leidy | fait | routine-production-arnaud | 2026-10-09 |
+| Paléontologie | Dimetrodon n'est pas un dinosaure (synapside) | fait | routine-production-arnaud | 2026-10-09 |
+| Paléontologie | Archaeopteryx de Londres : décrit par Owen, pas par un darwinien | fait | routine-production-arnaud | 2026-10-09 |
