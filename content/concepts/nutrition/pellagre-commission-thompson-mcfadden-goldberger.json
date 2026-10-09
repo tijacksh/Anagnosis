@@ -56,7 +56,8 @@
       "Parce qu'elles n'ont pas mesuré l'alimentation de la même façon, ni défini un cas de la même façon"
     ],
     "bonne_reponse": 3,
-    "explication": "Le désaccord vient de la mesure : fréquence déclarée par une personne du foyer d'un côté, approvisionnement sur quinze jours rapporté au nombre de personnes de l'autre. Aucune falsification n'est établie, et les villages se recoupaient largement. Une étude hospitalière n'aurait pas non plus permis de comparer des foyers."
+    "explication": "Le désaccord vient de la mesure : fréquence déclarée par une personne du foyer d'un côté, approvisionnement sur quinze jours rapporté au nombre de personnes de l'autre. Aucune falsification n'est établie, et les villages se recoupaient largement. Une étude hospitalière n'aurait pas non plus permis de comparer des foyers.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -82,14 +83,30 @@
       "explication": "La commission avait relevé une incidence décroissante avec la distance aux cas connus et plus faible avec une meilleure hygiène, ce qui évoquait la contagion. Les foyers pauvres étaient au contraire les plus touchés selon Goldberger."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T07:18:22.830Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-09T07:18:22.830Z",
+        "note": "Contrôle : la simulation de 2014 combine erreur sur la viande (25 %) ET spécificité de 98,6 % du diagnostic de pellagre ; la fiche (corps + quiz supplémentaire) n'attribue la réduction de moitié qu'à la viande. Voir note de contrôle."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-09",
+    "verdict": "a_revoir",
+    "empreinte": "0c1666008bd30ada",
+    "notes": [
+      "Mooney, Knox & Morabia 2014 (texte intégral PMC) confirme : 6 villages de la commission, 7 de Goldberger avec 4 en commun, 7 catégories de fréquence, une personne par foyer (« usually the housewife »), 15 jours de ration, cas = dermatite symétrique, pente −0,022 → −0,010, gradient de distance et assainissement. À VÉRIFIER (sens) : la simulation à 25 % d'erreur sur la viande est menée AVEC une spécificité de 98,6 % sur le diagnostic de pellagre (erreur simulée aussi sur les cas) ; le corps et la 1re question supplémentaire n'attribuent la division par deux qu'à l'erreur sur la viande. À reformuler en conséquence. Aussi : 1 000 simulations par niveau, et −0,010 est une médiane, non dit dans la fiche."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-09",
