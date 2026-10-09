@@ -256,3 +256,7 @@ peut rouvrir directement le texte du décret.)*
 | Nutrition | Pellagre : la commission Thompson-McFadden et Goldberger, mêmes villages, deux conclusions (mesure du régime) | fait | routine-production-arnaud | 2026-10-09 |
 | Nutrition | Minnesota Coronary Experiment (1968-73) : l'essai sur graisses saturées resté en partie inédit, données retrouvées (BMJ 2016) | fait | routine-production-arnaud | 2026-10-09 |
 | Nutrition | Persistance de la lactase : deux mutations indépendantes, Europe et Afrique de l'Est (Tishkoff 2007) | fait | routine-production-arnaud | 2026-10-09 |
+| Océanographie | Vague de Draupner (1er janvier 1995) et les vagues scélérates | en cours | routine-production-arnaud | 2026-10-09 |
+| Océanographie | Friendly Floatees (1992) : jouets de bain et courants du Pacifique Nord | en cours | routine-production-arnaud | 2026-10-09 |
+| Océanographie | Nansen, la dérive du Fram et la déviation de la glace par rapport au vent (Ekman) | en cours | routine-production-arnaud | 2026-10-09 |
+| Océanographie | Trieste, 23 janvier 1960 : descente au fond du Challenger Deep | en cours | routine-production-arnaud | 2026-10-09 |
