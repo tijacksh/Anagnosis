@@ -10,12 +10,21 @@
   "duree_lecture_min": 3,
   "pour_aller_plus_loin": [],
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-09T06:36:34.330Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-09T06:36:34.330Z",
+        "note": "Rouvert : résumé Libet et al. 1983 (Brain 106 ; 5 sujets, séries de 40, ~350 ms moyenne, ~150 min type II, ~800 ms type I, « constraints ») et Schurger, Sitt, Dehaene 2012 (PNAS 109 ; accumulateur à fuite, seconde expérience EEG) via Europe PMC. Chiffres, carte et quiz conformes, aucun changement."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-09",
@@ -79,6 +88,6 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le modèle ne nie pas le signal : il en change le sens. Il ne s'agit ni d'un ordre préparé secondes à l'avance, ni d'une anticipation volontaire, ni d'un défaut d'horloge. La rampe naît de la moyenne calculée sur le début du mouvement, et la dérive se retrouve même avant des réponses à des interruptions imprévues.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }
