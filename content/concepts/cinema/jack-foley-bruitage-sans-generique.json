@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Dans les débuts du cinéma parlant, les microphones étaient conçus pour capter le dialogue, pas les bruits d'ambiance. Universal, pressé de sonoriser Show Boat après le succès du Chanteur de jazz, a fait ajouter ces sons après coup, en projetant le film et en les enregistrant en direct, en même temps que l'image défilait.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -129,11 +129,11 @@
       "explication": "La fiche est explicite : il n'existe aucun enregistrement de la voix de Jack Foley, ni aucune photographie de lui au travail, malgré trente-trois ans passés sur le même plateau d'Universal."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-28T07:24:14.727Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-10T20:17:46.005Z",
     "historique": [
       {
         "action": "retoucher",
@@ -150,15 +150,23 @@
         "par": "routine-reparation",
         "le": "2026-08-28T07:24:14.727Z",
         "note": "Rouvert en direct : Britannica (contournement 403 via navigateur), NPR/text.npr.org/3207126, Wikipedia Foley (sound design), Wikipedia Show Boat (1929 film). Fiche entière revérifiée phrase à phrase (corps, repere, carte, sources, quiz), pas seulement les deux corrections déjà posées par le contrôle précédent (date Universal 1927 conforme à Britannica, ancrage 33 ans/1927 retiré du repere car non sourcé et arithmétiquement faux). Une inexactitude supplémentaire trouvée et corrigée : le corps et sources[3].note disaient que Show Boat 'ressort' sonorisé en 1929, ce qui laisse entendre une première sortie muette suivie d'une deuxième — or Wikipedia précise que le film, achevé muet, a été retenu avant toute sortie en salle le temps d'y ajouter le son, et n'est sorti qu'une fois, en 1929 ; 'ressort' remplacé par 'sort' aux deux endroits. Reste vérifié conforme : anecdote des clés sur Spartacus, description des pas (Hudson/Cagney/Brando), mécanisme micro-ne-captant-que-la-parole, absence de générique/enregistrement/photo, prix MPSE 1997 (30 ans après 1967, exact), quiz (bonne réponse et distracteurs)."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-10T20:17:46.005Z",
+        "note": "Contrôle : 33 ans, aucun enregistrement de voix et prix 1997 contredits ou non confirmés (Wikipedia EN) ; Britannica/NPR inaccessibles"
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-28",
-    "verdict": "ok",
-    "empreinte": "b3c6c7892d1b0e4a",
+    "fait_le": "2026-10-10",
+    "verdict": "a_revoir",
+    "empreinte": "180c72f4ef52493e",
     "notes": [
-      "Fiche retouchée depuis le dernier contrôle par l'ajout de quiz_supplementaire (routine questionner) : les 4 questions ajoutées reflètent fidèlement le contenu déjà vérifié, aucune affirmation nouvelle. Sources principales rouvertes par acquit : Britannica confirme l'anecdote des clés sur Spartacus et les descriptions des pas (Hudson/Cagney/Brando). Wikipedia Foley (sound design) confirme que les micros de l'époque ne captaient que le dialogue. Rien à corriger."
+      "Britannica (403) et NPR (timeout) inaccessibles depuis ce poste. Wikipedia Jack Foley (EN) contredit : « close to thirty years » dans le son (pas 33 ans), a voicé le cri de Tarzan en 1929 (contredit « aucun enregistrement de sa voix »), prix MPSE après sa retraite sans date 1997. A vérifier avec Britannica/NPR rouverts : 33 ans, aucun enregistrement de voix, aucune photo, prix 1997, anecdote Spartacus."
     ]
   },
   "controle_juridique": null,

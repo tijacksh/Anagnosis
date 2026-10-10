@@ -81,13 +81,33 @@
     ],
     "bonne_reponse": 0,
     "explication": "Owen voit un oiseau, qu'il range parmi les archétypes prévus par le Créateur plutôt que dans une série de transition. C'est Huxley qui le lit comme un lien entre reptiles et oiseaux. Le fossile n'a été tenu ni pour un ptérosaure ni pour un faux par Owen.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": null,
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": null,
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-10T20:17:13.450Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-10T20:17:13.450Z",
+        "note": "Contrôle : à revoir (voir notes de contrôle)"
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "a_revoir",
+    "empreinte": "82ad057f4554e04a",
+    "notes": [
+      "Sources rouvertes (DCP 3909 et 5106, Earth, Royal Society). Confirmés : lecture d'Owen le 20/11/1862, publication 1863, Falconer 9 janvier 1863, 1 756 pièces/8 400, Owen oiseau-archétype, Huxley. A revoir : (1) §3 dit que Falconer ne peut rien dire avant d'avoir lu Owen, alors que §2 dit qu'il répond sur les doigts ; la source dit : réponse approximative, examen précis impossible avant l'article d'Owen. (2) « décembre 1866 » pour la 4e édition : absent de la note DCP 5106 (elle dit seulement impression presque terminée fin mai 1866) ; « ne le cite qu'en 1866 » non soutenu. (3) « 700 livres » et « les sources divergent » : Earth ne mentionne pas 700 livres, affirmation non sourcée. (4) Earth parle de Bavarian guldens, la fiche dit florins."
+    ]
+  },
   "meta": {
     "genere_le": "2026-10-09",
     "genere_par": "claude-code",

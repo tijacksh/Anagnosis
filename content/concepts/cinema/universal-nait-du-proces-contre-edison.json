@@ -90,7 +90,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'arrêt de 1917 ne retire aucun brevet à Edison, ne vient pas du Congrès et ne dépend d'aucun témoignage de Kodak : il interdit au détenteur d'un brevet sur l'appareil (le projecteur) d'étendre son contrôle, par une simple notice imprimée, à des fournitures non brevetées comme la pellicule qui y passe. C'est cette doctrine de l'épuisement du brevet qui prive le Trust de son levier.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -127,11 +127,11 @@
       "explication": "En 1915, un tribunal fédéral de Pennsylvanie juge que la MPPC a violé le Sherman Antitrust Act par ses licences croisées et ordonne sa dissolution, avant que le Trust ne fasse appel de ce jugement."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-29T07:22:37.267Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-10T20:17:46.073Z",
     "historique": [
       {
         "action": "valider",
@@ -148,15 +148,23 @@
         "par": "routine-reparation",
         "le": "2026-09-29T07:22:37.267Z",
         "note": "Sources rouvertes (WebFetch) : Wikipédia EN Independent Moving Pictures — confirme la fondation d'IMP en 1909 par Laemmle, mais aucune date de jour ; le '10 juin 1912' qu'elle donne concerne le transfert d'actifs, pas la fusion. Wikipédia EN Carl Laemmle — confirme mot pour mot la fusion du 30 avril 1912 à New York (Powers, Champion, Rex, Nestor, New York Motion Picture Company + IMP → Universal Film Mfg. Co.), ajoutée comme source pour ce fait. Wikipédia EN Motion Picture Patents Company — confirme la liste des dix fondateurs de décembre 1908 (Edison, Biograph, Vitagraph, Essanay, Selig, Lubin, Kalem, Star Film/Méliès, Pathé, Kleine) et le rôle d'Eastman Kodak. Wikipédia EN United States v. Motion Picture Patents Co. — confirme le jugement du 1er octobre 1915 (Sherman Act, dissolution) et l'abandon de l'appel en juin 1918. Cornell LII — confirme la date du 9 avril 1917 et la doctrine de l'épuisement du brevet mot pour mot. Corrections : '12 mars 1909' remplacé par 'en 1909' (non confirmé, absent de toute source) dans le corps (x2) et quiz_supplementaire[1] ; note de la source Independent Moving Pictures corrigée pour ne plus lui attribuer le 30 avril 1912 ; source Carl Laemmle (Wikipédia EN) ajoutée pour ce fait. Reste du texte, citation/repère, carte et quiz vérifiés, rien d'autre à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-10T20:17:46.073Z",
+        "note": "Contrôle : « l'arrêt ne parle jamais de cinéma » faux ; météo californienne et enseignement non sourcés"
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-29",
-    "verdict": "ok",
-    "empreinte": "6576af439496784d",
+    "fait_le": "2026-10-10",
+    "verdict": "a_revoir",
+    "empreinte": "98d357ce6decc4af",
     "notes": [
-      "Contrôle indépendant après la réparation qui a corrigé les deux dates signalées par le contrôle précédent. Sources rouvertes : Wikipédia EN Carl Laemmle confirme mot pour mot la fusion du 30 avril 1912 à New York avec les six sociétés listées (Powers, Champion, Rex, Nestor, New York Motion Picture Company + IMP) formant Universal Film Manufacturing Company ; elle ne donne que l'année 1909, sans jour précis, pour la fondation d'IMP — cohérent avec le texte actuel de la fiche qui dit seulement « en 1909 ». Cornell LII confirme la date du 9 avril 1917 et le principe de l'épuisement du brevet (un brevet sur le projecteur ne peut pas, par notice imprimée, étendre le monopole à une fourniture non brevetée comme la pellicule) mot pour mot. Les deux problèmes relevés au contrôle précédent sont bien résolus. Rien d'autre à signaler."
+      "Arrêt du 9/04/1917, défendeur Universal, épuisement, appel abandonné 1918 confirmés. A revoir : (1) « l'arrêt ne parle jamais de cinéma dans ses attendus » est faux : l'opinion traite de la notice limitant le projecteur aux films couverts par le brevet. (2) « météo californienne » et « enseigné dans les facultés » non sourcés. (3) Wikipedia IMP ne dit pas « défi ouvert »."
     ]
   },
   "controle_juridique": null,

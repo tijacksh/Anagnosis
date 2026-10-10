@@ -72,13 +72,33 @@
     ],
     "bonne_reponse": 1,
     "explication": "Cuvier établit que le mammouth et l'animal de l'Ohio diffèrent des éléphants actuels autant ou plus qu'un chien d'un chacal, ce qui les range dans des espèces propres, aujourd'hui disparues. Il n'en tire pas une théorie de la transformation des espèces : il rejette celle de Lamarck, et il ne s'agit pas d'animaux encore vivants.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": null,
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": null,
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-10T20:17:13.632Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-10T20:17:13.632Z",
+        "note": "Contrôle : à revoir"
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "a_revoir",
+    "empreinte": "249aaf9db966b799",
+    "notes": [
+      "Lectures 21/01 et 04/04/1796, Magasin encyclopédique, 1799, 5 planches, chien/chacal/hyène, mastodonte 1806 confirmés. A revoir : (1) la notice historyofmedicine.com est une entrée de la bibliographie Garrison-Morton-Norman, pas de la National Library of Medicine : attribution fausse dans texte, repère et sources. (2) Megatherium 1796 et « arrivé à Paris en 1795 », « né en 1769 » non soutenus par les sources (BHL ne dit pas arrivée à Paris, Megatherium seulement en légende de 1812). (3) NatGeo fonde la comparaison sur les molaires, la fiche parle de mâchoires/squelettes. (4) BHL donne 1800 pour la publication : divergence signalée dans le texte, ok."
+    ]
+  },
   "meta": {
     "genere_le": "2026-10-09",
     "genere_par": "claude-code",

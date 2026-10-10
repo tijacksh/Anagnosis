@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le principe était établi avant lui, son chiffre reste dans le bon ordre de grandeur, et il avait bien intégré l'amplification par la vapeur d'eau. Son erreur porte sur le rythme humain : il tablait sur des millénaires de combustion là où un siècle a suffi, ce qui rendait sa conclusion sereine.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -118,11 +118,11 @@
       "explication": "Ce sont les nuages qui portent aujourd'hui encore l'essentiel de l'incertitude, et Arrhenius n'en avait aucune représentation. Il tenait en revanche déjà compte de la vapeur d'eau, dont il avait vu l'effet amplificateur."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-07-31T14:59:25.349Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-10T20:17:46.149Z",
     "historique": [
       {
         "action": "valider",
@@ -147,6 +147,14 @@
         "par": "routine-reparation",
         "le": "2026-07-31T14:59:25.349Z",
         "note": "Sources rouvertes : article original d'Arrhenius (1896, Phil. Mag. 41, p.237-276, PDF lu directement page par page), notice Rachel Carson Center, essai de S. Weart (AIP, history.aip.org/climate/co2.htm). Vérifié et confirmé : article authentique (Table VII bien en p.266, section 'Geological Consequences' et calcul du charbon en p.269-271) ; doublement du CO2 -> 5-6°C ; sensibilité moderne ~3°C ; vapeur d'eau comme amplificateur ; échelle de temps d'environ trois mille ans pour le charbon au rythme de 1896 (confirmée par Weart, qui cite explicitement p.270 et l'expression 'Arrhenius did not see that as a problem'). Point signalé corrigé : accroche et carte.punch affirmaient qu'Arrhenius espérait que le réchauffement arrive VITE ; reformulées pour dire qu'il l'attendait sereinement, sur une échelle de trois mille ans (aucune source ne soutient un souhait de rapidité, qui contredirait son propre horizon de calcul). Vérification complémentaire du corps : l'affirmation sur les 'meilleures récoltes' et 'l'humanité mieux nourrie' n'était étayée par aucune des trois sources déjà présentes ; recherche complémentaire ayant permis de retrouver la citation authentique d'Arrhenius (Worlds in the Making, 1908 : 'for the benefit of rapidly propagating mankind'), reprise et vérifiée dans un article du Science History Institute (Baum, 'Future Calculations', 2016, sciencehistory.org) ajouté aux sources pour l'étayer. Corps légèrement précisé (chiffre de trois mille ans repris dans le paragraphe concerné). Carte.idee et quiz relus et jugés déjà exacts, sans changement."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-10T20:17:46.149Z",
+        "note": "Contrôle : « dizaines de milliers d'opérations, environ un an » non soutenu (sources : « months »)"
       }
     ]
   },
@@ -156,11 +164,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-08-16",
-    "verdict": "ok",
-    "empreinte": "602371ce85a8b337",
+    "fait_le": "2026-10-10",
+    "verdict": "a_revoir",
+    "empreinte": "7065f1ba283855d9",
     "notes": [
-      "Re-contrôle : seul changement depuis le dernier contrôle (02/08, ok) est le retrait des tirets cadratins (accroche, corps, repere.texte, carte.punch, quiz.explication), sans impact sur le sens. 4 sources rouvertes : PDF Arrhenius 1896 (Phil. Mag. 41, p.237-276) téléchargé et texte extrait (pdftotext) - authentique, Table VII p.266-267, section Geological Consequences, mesures de Langley sur le rayonnement lunaire (Table I), traitement de la vapeur d'eau confirmés ; Rachel Carson Center confirme la référence bibliographique exacte ; Weart/AIP confirme mot pour mot 5-6°C, ~3000 ans au rythme de 1896, 'did not see that as a problem' ; Baum/Science History Institute confirme la citation 'for the benefit of rapidly propagating mankind' (Worlds in the Making, 1908). Quiz revérifié : bonne réponse (index 2, l'erreur sur le rythme du charbon) et les trois distracteurs sont bien faux au vu des sources."
+      "5-6 °C, ~3000 ans, pas un problème, ice ages, vapeur d'eau, citation 1908 confirmés. A revoir : « dizaines de milliers d'opérations, environ un an » non soutenu : Science History Institute dit « months of effort », Weart « laborious »."
     ]
   }
 }
