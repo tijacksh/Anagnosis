@@ -4,10 +4,10 @@
   "discipline": "oceanographie",
   "pour_aller_plus_loin": [],
   "date_publication_prevue": null,
-  "statut": "en_retouche",
+  "statut": "valide",
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-09T12:38:00.713Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-10T19:09:49.097Z",
     "historique": [
       {
         "action": "retoucher",
@@ -16,6 +16,14 @@
         "par": "routine-relecture",
         "le": "2026-10-09T12:38:00.713Z",
         "note": "Sources rouvertes : JFM 2019 (Cambridge, via DOI), Wikipedia Draupner wave. Corrigé par la relecture (texte modifié, donc à recontrôler) : titre « jugeaient impossible » non soutenu → « hors de tous les modèles connus » ; comparaison « 5,6 m de plus que la vague de calcul » retirée (la mesure de la hauteur de calcul de 20 m n'est pas précisée, la crête de 18,5 m est inférieure à 20 m) ; « intervalles réguliers », marins/exagérations et dimensionnement des ouvrages retirés (non sourcés) ; carte et choix 0 du quiz alignés. Confirmé : 1er janv. 1995, 25,6 m, 18,5 m, Hs 12 m, 2,13/1,55, 70 m, laser, 15h24 UTC, ~160 km, dégâts mineurs, autres capteurs, bassin FloWave, 120°. Reste : un contrôle indépendant du texte réécrit, après quoi validation possible sans autre changement."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-10T19:09:49.097Z",
+        "note": "Vérification indépendante complète : Wikipedia (date, heure 15h24 UTC, ~160 km SO Norvège, 25,6 m, crête 18,5 m, Hs 12 m, vague de dimensionnement 20 m/10000 ans, dégâts mineurs, 0 victime) et l'article McAllister et al. 2019 (Cambridge, via DOI) rouvert en entier : confirmé que seul le croisement à 120° atteint une cambrure équivalente à Draupner (crête ~18,9 m, set-up 0,27 m vs 0,26 m mesuré), le cas 0° plafonne à 17,2 m par déferlement plongeant et le cas 60° sous-produit légèrement (~0,1 m). Titre, repere, carte, quiz et sources conformes à ce que ces deux sources établissent. Aucune correction nécessaire."
       }
     ]
   },
@@ -78,7 +86,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "C'est l'enregistrement par un laser, confirmé par d'autres capteurs, qui compte : la mesure instrumentale d'une vague qu'aucun modèle connu ne décrivait. Les dégâts furent mineurs, la vague n'a pas été prédite par un modèle, et elle n'a pas été signalée par des témoins sans instrument.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "controle": {
     "fait_le": "2026-10-10",

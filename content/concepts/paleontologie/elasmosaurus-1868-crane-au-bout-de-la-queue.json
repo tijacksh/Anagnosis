@@ -72,12 +72,25 @@
     ],
     "bonne_reponse": 2,
     "explication": "C'est Leidy qui, le 8 mars 1870, indique que le squelette est décrit dans une position inversée, en s'appuyant sur l'atlas et l'axis soudés à l'autre extrémité. Marsh a exploité l'erreur sans la révéler, aucune nouvelle découverte n'est en cause, et la comparaison avec les serpents était justement l'erreur de Cope.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": null,
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-10T19:14:14.443Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-10T19:14:14.443Z",
+        "note": "Le doute du contrôle portait sur l'attribution à Leidy (1870) du compte de 72 vertèbres cervicales / 22 pieds de cou, oceansofkansas.com et bioone.org étant bloqués depuis cet environnement. Contourné en rouvrant le texte primaire via archive.org (proceedingsofaca22acad_djvu.txt, Proc. ANSP vol. 22, p. 9-10) : Leidy y écrit lui-même 'the extraordinary number of seventy-two' vertèbres cervicales et 'the length of the neck ... was about twenty-two feet' — la fiche et le repere sont donc exacts, aucune correction nécessaire sur ce point. Vérifié dans la même source : position inversée du squelette ('described the skeleton in a reversed position'), atlas et axis coossifiés à l'autre extrémité, explication de Cope par un second jeu de processus articulaires comme chez les serpents, correction de l'attribution antérieure de vertèbres à Cimoliasaurus (jugées 'posterior part of the column', reconnues cervicales/dorsales antérieures), et identité avec Discosaurus jugée probable par Leidy — tout conforme au corps du texte. Wikipedia (en.wikipedia.org/wiki/Elasmosaurus) confirme Turner 1867, Fort Wallace, nom de Cope en mars 1868, rivalité Cope/Marsh. Jugement de Davidson 2002 (abstract et résumés secondaires concordants, bioone.org inaccessible) recoupé : littérature disponible rendant l'erreur difficile à expliquer, répétée par Cope après signalement. Quiz vérifié : bonne réponse et distracteurs conformes aux sources."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-10",
     "verdict": "a_revoir",
