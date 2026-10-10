@@ -268,3 +268,7 @@ peut rouvrir directement le texte du décret.)*
 | Philosophie | Mary la savante des couleurs (Frank Jackson, 1982) | fait | routine-production | 2026-10-10 |
 | Philosophie | L'âne de Buridan : introuvable dans ses écrits, antécédent chez Aristote et Anaximandre | fait | routine-production | 2026-10-10 |
 | Philosophie | Le moulin de Leibniz (Monadologie §17, 1714) | fait | routine-production | 2026-10-10 |
+| Psychologie | Le Petit Albert (Watson & Rayner, 1920) : deux identités incompatibles proposées depuis 2009 | fait | routine-production | 2026-10-10 |
+| Psychologie | L'effet Mozart (Rauscher, Shaw & Ky, 1993) : ce que l'étude dit, ce que la méta-analyse de 2010 en retrouve | fait | routine-production | 2026-10-10 |
+| Psychologie | L'expérience de Rosenhan (1973) : la refonte du DSM-III, et l'enquête de Cahalan (2019) sur l'étude elle-même | fait | routine-production | 2026-10-10 |
+| Psychologie | L'effet Zeigarnik (1927) : l'avantage de mémoire introuvable dans la méta-analyse de 2025, l'effet Ovsiankina qui tient | fait | routine-production | 2026-10-10 |
