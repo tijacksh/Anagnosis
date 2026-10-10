@@ -66,14 +66,14 @@
     ],
     "bonne_reponse": 0,
     "explication": "L'argument tient aux critiques utiles et non à la taille ou à la loi : ceux qui tiennent à la qualité partent les premiers, et ce départ prive la protestation de ses porte-voix. Rien ne dit que ceux qui restent soient satisfaits : la loyauté peut aussi produire du silence.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-06T16:15:06.228Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-10T07:19:10.777Z",
     "historique": [
       {
         "action": "retoucher",
@@ -82,6 +82,14 @@
         "par": "routine-relecture",
         "le": "2026-10-06T16:15:06.228Z",
         "note": "Contrôle : lien ALNAP du repère mort (404), préface non rouvrable en texte ; voir notes du contrôle."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-10T07:19:10.777Z",
+        "note": "Lien ALNAP déjà remplacé par le contrôle du 2026-10-08 (pcbarchive.github.io, sens intact). Depuis cet environnement, pages.ucsd.edu et pcbarchive.github.io (domaine github.io) sont bloqués par la politique réseau : impossible de rouvrir directement la préface et les chapitres 1-5 pour cette revalidation. Vérifié à la place : Wikipedia (Exit, Voice, and Loyalty) confirme explicitement l'article de 1993 sur l'Allemagne de l'Est (« Exit triggered voice, and both worked in tandem », World Politics, 1993), qui concorde mot pour mot avec le corps et la carte ; archive.org confirme les métadonnées du livre (Hirschman, Harvard University Press, 1970, 186 p.). Le point précis laissé par le contrôle (rail nigérian, critique, année au Center for Advanced Study) avait déjà été rouvert et confirmé par le contrôle du 2026-10-08 lui-même ; rien dans ce que j'ai pu vérifier ne le contredit. Pas de changement de texte."
       }
     ]
   },
