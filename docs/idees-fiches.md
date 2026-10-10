@@ -276,7 +276,7 @@ peut rouvrir directement le texte du décret.)*
 | Sociologie | Veblen et la consommation ostentatoire (1899) | fait | routine-production-arnaud | 2026-10-10 |
 | Sociologie | La prophétie autoréalisatrice de Merton (1948) et le théorème de Thomas | fait | routine-production-arnaud | 2026-10-10 |
 | Sociologie | Merton, structure sociale et anomie (1938) : écart entre buts et moyens | fait | routine-production-arnaud | 2026-10-10 |
-| Cinéma | Le Chanteur de jazz (1927) : pas le premier film parlant, Vitaphone et quelques minutes de dialogue | en cours | routine-production-arnaud | 2026-10-11 |
-| Cinéma | Nanouk l'Esquimau (Flaherty, 1922) : documentaire mis en scène | en cours | routine-production-arnaud | 2026-10-11 |
-| Cinéma | Mutual Film v. Ohio (1915) : le cinéma jugé « pure affaire commerciale » par la Cour suprême, avant Burstyn (1952) | en cours | routine-production-arnaud | 2026-10-11 |
-| Cinéma | Alice Guy et La Fée aux choux : la première fiction ? | en cours | routine-production-arnaud | 2026-10-11 |
+| Cinéma | Le Chanteur de jazz (1927) : pas le premier film parlant, Vitaphone et quelques minutes de dialogue | fait | routine-production-arnaud | 2026-10-11 |
+| Cinéma | Nanouk l'Esquimau (Flaherty, 1922) : documentaire mis en scène | fait | routine-production-arnaud | 2026-10-11 |
+| Cinéma | Mutual Film v. Ohio (1915) : le cinéma jugé « pure affaire commerciale » par la Cour suprême, avant Burstyn (1952) | fait | routine-production-arnaud | 2026-10-11 |
+| Cinéma | Premiers Oscars (16 mai 1929) : gagnants annoncés trois mois avant, quinze minutes de cérémonie | fait | routine-production-arnaud | 2026-10-11 |
