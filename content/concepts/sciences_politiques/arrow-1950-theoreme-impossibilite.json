@@ -68,7 +68,30 @@
     "explication": "Le résultat est limité : il porte sur l'agrégation de classements et sur quatre conditions données, et il ne compare pas les systèmes entre eux. Il ne condamne ni la démocratie ni le vote en général, et laisse ouvertes des règles qui sortent du cadre, comme la notation.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel paradoxe plus ancien est à l'origine de l'idée développée par le théorème d'Arrow ?",
+      "choix": [
+        "Le paradoxe de Zénon sur le mouvement impossible",
+        "Le paradoxe de Russell sur les ensembles qui se contiennent eux-mêmes",
+        "Le paradoxe de Simpson sur l'inversion des corrélations",
+        "Le paradoxe de Condorcet, où une majorité tourne en rond entre trois options"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le texte relie le théorème au paradoxe de Condorcet : une majorité peut préférer A à B, B à C et C à A, de sorte que le classement collectif tourne en rond sans jamais se stabiliser."
+    },
+    {
+      "question": "Quelle condition interdit qu'un seul électeur impose toujours son classement à la société ?",
+      "choix": [
+        "La non-dictature",
+        "Le domaine universel",
+        "L'efficacité de Pareto",
+        "L'indépendance par rapport aux options non pertinentes"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La non-dictature est la quatrième condition retenue par Arrow : elle interdit qu'un seul électeur impose systématiquement son propre classement à l'ensemble de la société."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
