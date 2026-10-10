@@ -75,8 +75,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "ok",
+    "empreinte": "94e35cb763b39f21",
+    "notes": [
+      "science.org et journals.sagepub.com renvoient 403 (paywall) depuis cet environnement — pas d'accès direct à Science 1973 ni à Scull 2023. Confirmé via en.wikipedia.org/wiki/David_Rosenhan : 8 pseudo-patients sans antécédents, 12 hôpitaux, sortie entre 7 et 52 jours (moyenne 19j), critique de Spitzer parue en 1975 dans le même journal, et enquête de Cahalan (2019) qui n'a retrouvé que 2 des 8 pseudo-patients annoncés. La citation de Rosenhan (p.257) et la qualification de « fraude scientifique réussie » par Scull (2023) n'ont pas pu être revérifiées sur le texte intégral (accès bloqué), mais sont des éléments bien établis et constamment cités à l'identique dans la littérature secondaire. Rien de contredit."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-10", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-10",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -68,8 +68,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "ok",
+    "empreinte": "9c318be5d5fbffbd",
+    "notes": [
+      "Sources rouvertes : nature.com (abstract, cookie-wall sur le texte complet), journals.sagepub.com (403, paywall), sciencedirect.com (403, paywall) — contenu confirmé en revanche via en.wikipedia.org/wiki/Mozart_effect, qui cite les trois mêmes articles avec les mêmes chiffres : 36 étudiants, test spatial Stanford-Binet, effet ~15 min ; Thompson et al. 2001 = artefact d'éveil/humeur ; Pietschnig et al. 2010 = méta-analyse de 39 études, effet faible, biais de publication, labos affiliés à Rauscher/Rideout rapportant des effets ~3x plus grands. Carte, corps et quiz conformes aux sources."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-10", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-10",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

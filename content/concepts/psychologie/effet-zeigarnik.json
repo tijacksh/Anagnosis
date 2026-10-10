@@ -70,8 +70,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "ok",
+    "empreinte": "73c7134126b37362",
+    "notes": [
+      "Source primaire 2025 (nature.com/Springer) bloquée par cookie-wall depuis cet environnement. Confirmé via en.wikipedia.org/wiki/Zeigarnik_effect et .../Ovsiankina_effect : anecdote du serveur attribuée à Lewin, étude de Zeigarnik 1927 (Psychologische Forschung), mécanisme de tension/quasi-besoin, étude d'Ovsiankina 1928 (mêmes pages 302-379), et la méta-analyse 2025 de Ghibellini & Meier qui ne retrouve aucun avantage de mémoire pour l'inachevé mais confirme la tendance à reprendre (Ovsiankina) — exactement la formulation de la fiche. Rien à redire."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-10", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-10",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
