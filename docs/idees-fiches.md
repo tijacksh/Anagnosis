@@ -264,3 +264,7 @@ peut rouvrir directement le texte du décret.)*
 | Paléontologie | Elasmosaurus (1868) : le crâne placé au bout de la queue, corrigé par Leidy | fait | routine-production-arnaud | 2026-10-09 |
 | Paléontologie | Dimetrodon n'est pas un dinosaure (synapside) | fait | routine-production-arnaud | 2026-10-09 |
 | Paléontologie | Archaeopteryx de Londres : décrit par Owen, pas par un darwinien | fait | routine-production-arnaud | 2026-10-09 |
+| Philosophie | Le voile d'ignorance de Rawls (1971), position originelle | fait | routine-production | 2026-10-10 |
+| Philosophie | Mary la savante des couleurs (Frank Jackson, 1982) | fait | routine-production | 2026-10-10 |
+| Philosophie | L'âne de Buridan : introuvable dans ses écrits, antécédent chez Aristote et Anaximandre | fait | routine-production | 2026-10-10 |
+| Philosophie | Le moulin de Leibniz (Monadologie §17, 1714) | fait | routine-production | 2026-10-10 |
