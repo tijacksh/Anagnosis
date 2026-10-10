@@ -70,15 +70,24 @@
     ],
     "bonne_reponse": 2,
     "explication": "Rosenhan soutient que l'étiquette posée à l'admission, « schizophrène », conduit le personnel à réinterpréter tout comportement ultérieur comme un symptôme, au point qu'aucun des huit faux patients n'est détecté. L'étude ne porte pas sur la validité de la schizophrénie comme trouble, ni sur les effectifs hospitaliers.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-10T20:14:21.207Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-10T20:14:21.207Z",
+        "note": "Rouvert : résumés Europe PMC de Rosenhan 1973 (la phrase de la citation s'y retrouve mot pour mot) et de Scull 2023 ('successful scientific fraud', rôle dans le DSM-III : conforme). Abbott/Nature, Cahalan et Spitzer 1975 non rouverts. ERREUR BLOQUANTE : quiz.bonne_reponse = 2 désigne 'la schizophrénie ne devrait plus être considérée comme un diagnostic valide', alors que l'explication et la bonne réponse sont l'index 1 (contexte vs comportement). DOUTES : '2 des 8 pseudo-patients retrouvés' et l'épisode retiré avant publication à sourcer (Abbott 2019 / Cahalan) ; 'Cahalan republie l'enquête' : formulation à rectifier ; 'les douze sont admis' et durées 7-52 jours à confirmer sur le texte de Science ; second volet (hôpital prévenu) non vérifié."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-10",
