@@ -272,3 +272,7 @@ peut rouvrir directement le texte du décret.)*
 | Psychologie | L'effet Mozart (Rauscher, Shaw & Ky, 1993) : ce que l'étude dit, ce que la méta-analyse de 2010 en retrouve | fait | routine-production | 2026-10-10 |
 | Psychologie | L'expérience de Rosenhan (1973) : la refonte du DSM-III, et l'enquête de Cahalan (2019) sur l'étude elle-même | fait | routine-production | 2026-10-10 |
 | Psychologie | L'effet Zeigarnik (1927) : l'avantage de mémoire introuvable dans la méta-analyse de 2025, l'effet Ovsiankina qui tient | fait | routine-production | 2026-10-10 |
+| Sociologie | L'effet Matthieu de Merton (1968) : l'avantage cumulatif en science | en cours | routine-production-arnaud | 2026-10-10 |
+| Sociologie | Veblen et la consommation ostentatoire (1899) | en cours | routine-production-arnaud | 2026-10-10 |
+| Sociologie | La prophétie autoréalisatrice de Merton (1948) et le théorème de Thomas | en cours | routine-production-arnaud | 2026-10-10 |
+| Sociologie | Merton, structure sociale et anomie (1938) : écart entre buts et moyens | en cours | routine-production-arnaud | 2026-10-10 |
