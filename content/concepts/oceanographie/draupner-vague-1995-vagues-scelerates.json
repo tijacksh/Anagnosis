@@ -88,6 +88,41 @@
     "explication": "C'est l'enregistrement par un laser, confirmé par d'autres capteurs, qui compte : la mesure instrumentale d'une vague qu'aucun modèle connu ne décrivait. Les dégâts furent mineurs, la vague n'a pas été prédite par un modèle, et elle n'a pas été signalée par des témoins sans instrument.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle est, selon la fiche, la hauteur significative des vagues dans la mer de Draupner ?",
+      "choix": [
+        "Environ 6 mètres, la hauteur de la crête mesurée",
+        "Environ 70 mètres, la profondeur d'eau sous le laser",
+        "Environ 12 mètres, la moyenne du tiers le plus haut",
+        "Environ 20 mètres, la hauteur de la vague de calcul"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La fiche donne une hauteur significative d'environ 12 mètres, soit la moyenne du tiers le plus haut des vagues. Les 70 mètres sont la profondeur, et les 20 mètres la vague de dimensionnement de la plateforme."
+    },
+    {
+      "question": "Parmi les angles de croisement essayés en bassin, lequel a reproduit la crête de la vague de Draupner ?",
+      "choix": [
+        "0°, angle qui a aussi reproduit la crête mesurée",
+        "120°, le seul à reproduire la crête et la hauteur",
+        "60°, angle qui a aussi reproduit la crête mesurée",
+        "Aucun des trois angles essayés en bassin"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La fiche précise que, parmi les angles 0°, 60° et 120°, seul le croisement à 120° a reproduit la crête et la hauteur de la vague mesurée. Les deux autres angles n'ont donc pas reproduit cette vague."
+    },
+    {
+      "question": "Quelle vague la plateforme de Draupner avait-elle été conçue pour résister, selon la fiche ?",
+      "choix": [
+        "Une vague de 25,6 mètres, mesurée par le laser en janvier 1995",
+        "Une vague de 18,5 mètres, attendue une fois par an en mer du Nord",
+        "Une vague de 12 mètres, égale à la hauteur significative de la mer",
+        "Une vague de 20 mètres, attendue une fois tous les dix mille ans"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La fiche indique que la plateforme était calculée pour une vague de 20 mètres, attendue une fois tous les dix mille ans. La vague de 25,6 mètres est celle qui a été mesurée, non celle prévue."
+    }
+  ],
   "controle": {
     "fait_le": "2026-10-10",
     "verdict": "ok",
