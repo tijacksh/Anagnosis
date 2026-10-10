@@ -67,8 +67,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "ok",
+    "empreinte": "7a000bc76435bcc5",
+    "notes": [
+      "Sources rouvertes : classics.mit.edu (Aristote, Du ciel II.13) et Stanford Encyclopedia (Zupko, John Buridan) confirment l'absence de l'âne dans les écrits de Buridan et l'antériorité chez Aristote/Anaximandre. Citation du repère vérifiée mot pour mot."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-10", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-10",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

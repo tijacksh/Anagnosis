@@ -67,8 +67,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-10",
+    "verdict": "ok",
+    "empreinte": "6771e09bf8a6b221",
+    "notes": [
+      "Sources rouvertes : Open Library confirme la notice d'A Theory of Justice (Rawls, 1971, Belknap Press) ; Stanford Encyclopedia (John Rawls) confirme la position originelle, le voile d'ignorance et le principe du maximin. Citation de l'incipit vérifiée (authentique, p. 3)."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-10", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-10",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
