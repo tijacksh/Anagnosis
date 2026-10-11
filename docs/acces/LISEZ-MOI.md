@@ -8,10 +8,10 @@ Depuis le 2026-10-11, le site `anagnosis.fr` et le flux signé que lisent les ap
 - Contrôle : https://anagnosis.fr/contenu/concepts.json (+ `.sig`) doit répondre, et l'onglet Actions du dépôt doit être vert.
 
 ## Compter les inscriptions à la liste d'attente
-1. Arnaud te transmet le jeton du décompte (49 caractères). Enregistre-le dans `~/.anagnosis/decompte.jeton` (le dossier `~/.anagnosis` n'est pas dans git).
+1. Copie `docs/acces/decompte.jeton` (dans ce dépôt privé) vers `~/.anagnosis/decompte.jeton` : `mkdir -p ~/.anagnosis && cp docs/acces/decompte.jeton ~/.anagnosis/`.
 2. Lance `node reseaux/inscriptions.js` (option `--depuis AAAA-MM-JJ`). Tu obtiens le total et la répartition par réseau (ig, tt, x, direct). Aucune adresse e-mail n'est affichée.
 
-Ce jeton ne donne que le décompte. S'il fuit : `npx wrangler secret put CLE_DECOMPTE --config worker/wrangler-site.toml` avec une nouvelle valeur, et remplace le fichier.
+Ce jeton ne donne que le décompte. S'il fuit : `npx wrangler secret put CLE_DECOMPTE --config worker/wrangler-site.toml` avec une nouvelle valeur, et remplace le fichier dans `docs/acces/` et dans `~/.anagnosis/`.
 
 ## Cloudflare (optionnel)
 Tu peux être invité au compte Cloudflare pour voir le Worker `anagnosis-site`, la base D1 des inscriptions, le bucket R2 des audios et le DNS. Pas nécessaire pour publier.
