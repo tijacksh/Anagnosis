@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le propriétaire a bien loué sa salle, n'a jamais été payé en actions et ne l'a pas fermée : il a seulement préféré un loyer fixe de 30 francs par jour à 20 % des recettes, qui ont rapidement dépassé 2 000 francs par jour, loin au-dessus du loyer fixe choisi.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,12 +83,21 @@
       "explication": "Le bouche-à-oreille fait affluer un public toujours plus nombreux, jusqu'à environ 2 000 personnes voulant entrer en même temps, ce qui oblige la police à intervenir pour contenir la foule."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T09:20:34.711Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T09:20:34.711Z",
+        "note": "Second passage : Wikipédia fr (Salon indien du Grand Café) et en (Lumière) rouvertes ; loyer 30 F contre 20 %, 33 spectateurs le 28/12/1895, police et 2 000 personnes, 2 000-2 500 F/jour confirmés. Doutes : (1) titre et punch « première salle de cinéma » : la source dit première projection payante du Cinématographe ; (2) « mauvais calcul / exemple classique » est un jugement non sourcé ; (3) « sous-sol », « à deux inconnus », « ne croit pas une seconde », « dix spectateurs ou mille », « bouche-à-oreille » (aussi dans quiz supplémentaire Q2) absents de la source ; (4) section « Ce que ça déplace » = analyse non sourcée ; (5) la source en parle de ~40 spectateurs, la fr de 33, non signalé. À lever : retitrer, retirer ou sourcer ces ajouts."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-11",
