@@ -95,7 +95,8 @@ def controles(aujourdhui, reprise):
 
     # 4. la reprise, puis les posts passés
     du_jour = [p for p in posts if p['jour'] == aujourdhui_iso and not complet(p)]
-    if du_jour and reprise:
+    # Reprise seulement dans la journée : un Mac rallumé à 23 h ne publie pas un Reel du matin.
+    if du_jour and reprise and 7 <= dt.datetime.now().hour < 21:
         r = lancer(sys.executable, str(ICI / 'deposer.py'), '--jour', aujourdhui_iso)
         problemes.append(f"reprise du dépôt du jour (`deposer.py --jour {aujourdhui_iso}`) : "
                          f"{(r.stdout + r.stderr).strip() or 'lancée'}")
@@ -106,6 +107,21 @@ def controles(aujourdhui, reprise):
             manque = [n for n in ('tiktok', 'instagram') if not p[n] and (n == 'instagram' or a_tiktok(p))]
             if manque:
                 problemes.append(f"{p['jour']} `{p['slug']}` n'est pas parti sur : {', '.join(manque)}")
+
+    # 4 bis. les publications TikTok par BrightBean non confirmées au dépôt
+    for p in posts:
+        bb = (p.get('tiktok') or {}).get('brightbean')
+        if bb and (p['tiktok'].get('statut') != 'published') and p['jour'] <= aujourdhui_iso:
+            try:
+                from brightbean import appel
+                etat = appel(f'/posts/{bb}')
+                pf = (etat.get('platform_posts') or [{}])[0]
+                if etat.get('status') == 'failed' or pf.get('publish_error'):
+                    problemes.append(f"{p['jour']} `{p['slug']}` : BrightBean a échoué : {pf.get('publish_error') or etat.get('status')}")
+                elif etat.get('status') != 'published' and p['jour'] < aujourdhui_iso:
+                    problemes.append(f"{p['jour']} `{p['slug']}` : toujours pas publié sur TikTok (BrightBean : {etat.get('status')})")
+            except Exception as e:
+                problemes.append(f"{p['jour']} `{p['slug']}` : statut BrightBean illisible : {e}")
 
     # 5. les cinq prochains jours
     limite = (aujourdhui + dt.timedelta(days=5)).isoformat()

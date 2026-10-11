@@ -10,6 +10,9 @@
   <key>WorkingDirectory</key><string>__DEPOT__</string>
   <key>EnvironmentVariables</key>
   <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string></dict>
+  <!-- RunAtLoad : un Mac éteint ou redémarré à 7 h 30 ne rejoue pas les tâches horaires ; au démarrage le
+       vérificateur reprend le dépôt du jour s'il a été manqué (11 h 15 le 2026-10-11). -->
+  <key>RunAtLoad</key><true/>
   <key>StartCalendarInterval</key>
   <array>
     <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>

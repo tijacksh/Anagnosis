@@ -37,7 +37,7 @@ def appel(chemin, *args):
     return json.loads(r.stdout)
 
 
-def publier(video, legende, attente=600):
+def publier(video, legende, attente=1500):
     """Publie tout de suite (programmé dans 2 minutes) et attend le résultat.
 
     Testé le 2026-09-30 : sans réglage, la vidéo sort publique, commentaires et duos
@@ -59,7 +59,10 @@ def publier(video, legende, attente=600):
             return {'brightbean': post['id'], 'video': plateforme['platform_post_id'], 'statut': 'published'}
         if etat['status'] == 'failed' or plateforme.get('publish_error'):
             raise RuntimeError(f"publication TikTok échouée : {plateforme.get('publish_error') or etat['status']}")
-    raise RuntimeError(f"publication TikTok non confirmée après {attente} s (post BrightBean {post['id']})")
+    # Pas confirmée dans le délai : BrightBean met parfois plus de 10 minutes (vu les 07 et 09/10/2026 :
+    # publié à 7 h 41 pour un envoi à 7 h 30). Ce n'est PAS un échec : un brouillon de repli créerait
+    # un doublon dans la boîte TikTok. Le vérificateur contrôlera le statut plus tard.
+    return {'brightbean': post['id'], 'statut': 'non_confirme'}
 
 
 def programmer(depuis):
