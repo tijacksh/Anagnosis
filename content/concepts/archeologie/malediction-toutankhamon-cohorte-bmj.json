@@ -54,7 +54,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "L'étude compare âge au décès et survie après exposition : 70 contre 75 ans, 20,8 contre 28,9 ans, sans différence significative. Le sexe féminin prédit une survie plus longue, ce qui n'a rien d'une malédiction. Et rien dans l'étude ne désigne un poison.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
   "theme": null,
   "theme_ordre": null,
   "discipline": "archeologie",
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "illustration": {
     "prompt": "Deux rangées de petites silhouettes de sarcophages dessinées au trait épais, la première en aplat jaune safran saturé, la seconde en réserve sur papier crème. Léger hors-repérage constant. Aucun visage.",
@@ -113,6 +113,20 @@
     "empreinte": "fc17f715df4299f8",
     "notes": [
       "Résumé BMJ rouvert via Europe PMC et texte intégral PMC139048 : 44/25, 70 vs 75 ans (P=0,87), 20,8 vs 28,9 (P=0,95), sexe P=0,02, exclusion des Égyptiens (espérance de vie) : tout concorde. Wikipédia anglais rouvert : Lancet, Corelli (New York World, ~2 semaines avant), Conan Doyle, tommy-rot concordent."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T12:35:09.015Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-11T12:35:09.015Z",
+        "note": "Rouvert : résumé BMJ via Europe PMC (44/25, 70 vs 75 ans P=0,87, 20,8 vs 28,9 P=0,95, sexe P=0,02, titre/vol./pages), Wikipédia EN (Lancet, Corelli ~2 semaines avant, Conan Doyle, tommy-rot, fausse inscription ; mort au Caire confirmée par l'article Carnarvon). PubMed bloqué par cookies, contenu recoupé via Europe PMC. Carte et quiz conformes, distracteurs faux. Aucune correction."
+      }
     ]
   }
 }
