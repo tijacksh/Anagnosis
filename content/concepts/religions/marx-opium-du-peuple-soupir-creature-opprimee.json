@@ -2,7 +2,7 @@
   "id": "rel-marx-opium-du-peuple-soupir-creature-opprimee",
   "slug": "marx-opium-du-peuple-soupir-creature-opprimee",
   "titre": "« L'opium du peuple » : ce que Marx écrit avant la formule",
-  "accroche": "En 1844, Marx écrit que la religion est « l'opium du peuple ». La phrase d'avant dit presque le contraire d'une insulte.",
+  "accroche": "En 1843, Marx écrit que la religion est « l'opium du peuple ». La phrase d'avant dit presque le contraire d'une insulte.",
   "discipline": "religions",
   "theme": null,
   "theme_ordre": null,
@@ -18,8 +18,8 @@
   "repere": null,
   "carte": {
     "punch": "« L'opium du peuple » : la phrase d'avant dit presque le contraire d'une insulte.",
-    "idee": "Chez Marx (1844), la religion est d'abord « l'expression de la misère réelle » et « la protestation » contre elle. L'opium vient après. Et la phrase suivante vise la situation qui « a besoin d'illusions », pas seulement la croyance.",
-    "source_courte": "Marx, Deutsch-Französische Jahrbücher, 1844"
+    "idee": "Chez Marx (1843), la religion est d'abord « l'expression de la misère réelle » et « la protestation » contre elle. L'opium vient après. Et la phrase suivante vise la situation qui « a besoin d'illusions », pas seulement la croyance.",
+    "source_courte": "Marx, 1843, publié 1844"
   },
   "sources": [
     {
@@ -49,23 +49,23 @@
     "statut": "a_generer"
   },
   "quiz": {
-    "question": "Dans le texte de Marx (1844), que précède immédiatement la formule « l'opium du peuple » ?",
+    "question": "Dans le texte de Marx (1843), que précède immédiatement la formule « l'opium du peuple » ?",
     "choix": [
       "Un appel à interdire les églises dans les quartiers ouvriers",
-      "La remarque que la religion est la protestation contre la misère réelle et le soupir de la créature accablée",
+      "La religion décrite comme protestation et soupir de la créature accablée",
       "Une défense de la consolation religieuse comme remède à la misère",
       "Une accusation visant le clergé de prêcher la résignation en échange d'un salaire"
     ],
     "bonne_reponse": 1,
     "explication": "Le texte commence par faire de la religion l'expression et la protestation face à la misère réelle. Il n'appelle à aucune interdiction des églises, ne défend pas la consolation comme remède (il veut que la religion soit supprimée en tant que bonheur illusoire) et ne vise pas le clergé dans ce paragraphe.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-07T22:38:02.424Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-11T19:23:45.104Z",
     "historique": [
       {
         "action": "retoucher",
@@ -74,6 +74,14 @@
         "par": "routine-relecture",
         "le": "2026-10-07T22:38:02.424Z",
         "note": "Rouverts : marxists.org (Molitor, texte intégral, citation mot pour mot), Wikipédia Opium of the people (1843/février 1844, Novalis 1798, Heine 1840, Boer). Fond exact. Doutes : (1) accroche « En 1844, Marx écrit » et carte « Chez Marx (1844) » et quiz « (1844) » : texte écrit en 1843, publié en 1844 : corriger ; (2) quiz : bonne réponse nettement la plus longue (98 caractères contre 59-79)."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-11T19:23:45.104Z",
+        "note": "Dates corrigées partout (accroche, carte.idee, carte.source_courte, quiz.question) : écrit en 1843, publié en février 1844 -- déjà exact dans citation.source et sources[0], seulement l'accroche/carte/quiz disaient encore '(1844)' tout court. Bonne réponse du quiz raccourcie (110 -> 72 caractères, ratio 0.89 contre le distracteur le plus long) pour ne plus se repérer à sa longueur, sens inchangé. Contenu revérifié via en.wikipedia.org/wiki/Opium_of_the_people (reachable) : confirme mot pour mot 'sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people', la date d'écriture 1843 et de publication février 1844 (Deutsch-Französische Jahrbücher, Paris), et les usages antérieurs par Novalis (1798, Blüthenstaub) et Heine (1840, essai sur Börne). N'a PAS pu rouvrir marxists.org/francais/marx/works/1843/00/km18430000.htm (bloqué par la politique réseau de cet environnement, même blocage que pour thecanadianencyclopedia.ca et attalus.org) pour confirmer caractère pour caractère la traduction Molitor citée -- mais le contenu et le sens sont confirmés de façon indépendante par Wikipedia, et un passage de contrôle antérieur avait déjà ouvert cette page et confirmé la citation mot pour mot (note du 2026-10-07). Fond jugé exact sur cette base croisée."
       }
     ]
   },
