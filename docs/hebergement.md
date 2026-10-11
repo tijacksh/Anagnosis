@@ -1,5 +1,7 @@
 # Hébergement : anagnosis.fr sur Cloudflare
 
+Jeton `CLOUDFLARE_API_TOKEN` (dans `~/.anagnosis/cles.env` et le secret GitHub) : D1 Write, Workers Scripts Write, Workers R2 Storage Read, et DNS Write limité à la zone `anagnosis.fr` (ajouté le 2026-10-11). Les enregistrements AAAA de l'apex et de `www` sont gérés par le rattachement au Worker : ne pas les supprimer.
+
 Depuis le 2026-10-11 (raisons : `docs/decisions.md`).
 
 | Élément | Où | Comment |
