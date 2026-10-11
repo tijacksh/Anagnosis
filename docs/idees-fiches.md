@@ -41,11 +41,12 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Musique | Alan Freed, le terme « rock and roll » et le scandale de la Payola (1959-1960) | fait | routine-production | 2026-09-20 |
 | Musique | Le 33 tours de Columbia (1948) et la guerre des vitesses avec le 45 tours de RCA | fait | routine-production | 2026-09-20 |
 | Musique | Le procès *Gaye v. Thicke* (« Blurred Lines », 2015), plagiat de sensation musicale | fait | routine-production | 2026-09-20 |
-| Architecture | La Charte d'Athènes (1933) et le zonage fonctionnaliste de l'urbanisme moderne | proposé | Orkidea | 2026-08-28 |
-| Architecture | L'effondrement de la tour Ronan Point (Londres, 1968) | proposé | Orkidea | 2026-08-28 |
-| Architecture | Le concours du Centre Pompidou (1971), remporté par Piano et Rogers, alors inconnus | proposé | Orkidea | 2026-08-28 |
-| Architecture | La démolition de Pruitt-Igoe (Saint-Louis, 1972), symbole de l'échec moderniste | proposé | Orkidea | 2026-08-28 |
-| Architecture | Le Crystal Palace de Joseph Paxton (1851), premier grand bâtiment préfabriqué | proposé | Orkidea | 2026-08-28 |
+| Architecture | La Charte d'Athènes (1933) et le zonage fonctionnaliste de l'urbanisme moderne | fait | routine-production | 2026-10-11 |
+| Architecture | L'effondrement de la tour Ronan Point (Londres, 1968) | fait | routine-production | 2026-10-11 |
+| Architecture | Le concours du Centre Pompidou (1971), remporté par Piano et Rogers, alors inconnus | fait | routine-production | 2026-10-11 |
+| Architecture | La démolition de Pruitt-Igoe (Saint-Louis, 1972), symbole de l'échec moderniste | fait | routine-production | 2026-08-24 |
+| Architecture | Le Crystal Palace de Joseph Paxton (1851), premier grand bâtiment préfabriqué | fait | routine-production | 2026-08-26 |
+| Architecture | Le shinbashira : le pilier central des pagodes japonaises face aux séismes, et ce que la recherche en sait vraiment | fait | routine-production | 2026-10-11 |
 | Preuve et erreur judiciaire | L'expertise graphologique contestée de l'affaire Dreyfus (Bertillon) | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | Le détecteur de mensonge de William Marston et l'arrêt *Frye v. United States* (1923) | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | L'identification erronée de l'affaire Ronald Cotton / Jennifer Thompson | fait | routine-production | 2026-09-19 |
