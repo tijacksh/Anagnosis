@@ -65,7 +65,8 @@
       "Un système nerveux rudimentaire dirige sa croissance vers la sortie"
     ],
     "bonne_reponse": 1,
-    "explication": "Dans le modèle, un tube s'épaissit quand le flux qui le traverse augmente, et les tubes les moins utilisés disparaissent. Aucun calcul de distances, aucune piste d'odeur, aucun système nerveux n'intervient : seule la dynamique des tubes compte."
+    "explication": "Dans le modèle, un tube s'épaissit quand le flux qui le traverse augmente, et les tubes les moins utilisés disparaissent. Aucun calcul de distances, aucune piste d'odeur, aucun système nerveux n'intervient : seule la dynamique des tubes compte.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -91,12 +92,21 @@
       "explication": "Le résultat tient à une dynamique de flux, pas à un raisonnement ; la métaphore décrit un comportement, pas une cognition."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T22:14:36.250Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T22:14:36.250Z",
+        "note": "Aucune des trois sources n'a pu être rouverte dans cet environnement lors de ce passage, malgré plusieurs tentatives (DOI, nature.com, science.org, PMC/E-utilities, Europe PMC, hokudai, Wayback Machine, Crossref API, Semantic Scholar API) : Nature 2000 (doi.org/10.1038/35035159) redirige vers un mur d'authentification idp.nature.com ; Journal of Theoretical Biology 2007 (PDF hokudai) échoue par résolution DNS ; Science 2010 (doi.org/10.1126/science.1177894) renvoie une erreur 403. Je n'ai donc pas pu vérifier moi-même, à partir du texte, le nombre de chemins du labyrinthe, la durée de huit heures, le mécanisme de rétroaction des tubes, le caractère qualitatif des preuves expérimentales de 2007, ni la comparaison au réseau ferré de Tokyo de 2010 — c'est-à-dire l'intégralité du repère, de la carte, du corps et des deux quiz. Doute que je ne peux pas lever seul : il faudrait un accès réseau à nature.com, science.org ou au dépôt institutionnel d'Hokkaido depuis l'environnement d'exécution ; sans cela, aucun second passage indépendant n'est possible sur cette fiche dans cet environnement."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-11",

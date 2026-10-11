@@ -56,7 +56,8 @@
       "Que le citrate a été importé par contamination avec une autre bactérie"
     ],
     "bonne_reponse": 1,
-    "explication": "Les clones tardifs de la lignée redonnent Cit+ bien plus souvent que les précoces ou l'ancêtre, ce qui indique une dépendance à l'histoire. Le taux de mutation général n'a pas augmenté, et aucune contamination n'est en cause."
+    "explication": "Les clones tardifs de la lignée redonnent Cit+ bien plus souvent que les précoces ou l'ancêtre, ce qui indique une dépendance à l'histoire. Le taux de mutation général n'a pas augmenté, et aucune contamination n'est en cause.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -82,12 +83,21 @@
       "explication": "E. coli ne sait pas utiliser le citrate comme source de carbone en conditions aérobies, alors que le milieu en contient beaucoup plus que de glucose."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T22:14:22.623Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T22:14:22.623Z",
+        "note": "PNAS 2008 (PMC2430337) rouvert en intégralité via WebFetch, indépendamment du contrôle du 2026-10-11 : 12 populations fondées en 1988, plus de 30 000 générations sans citrate, milliards de mutations testées, Cit+ dans Ara-3 « appears » entre 31 000 et 31 500 générations, 600 cultures sans Cit+ avant 20 000 générations (avec la nuance que le clone de 20 000 générations a produit deux mutants, déjà potentialisé), taux de mutation « at least 2-fold, and probably much more », augmentation « severalfold » de la population : tout conforme mot pour mot. Repère, carte, sources[0] et quiz principal reposent uniquement sur cette source et sont donc validés. En revanche Nature 2012 (doi.org/10.1038/nature11514) redirige vers un mur d'authentification (idp.nature.com) dans cet environnement et n'a pas pu être rouvert, ni via PubMed (bloqué par cookies) ni via PMC/E-utilities (aucune notice trouvée) : impossible de confirmer par moi-même la duplication du transporteur de citrate sous un promoteur aérobie, affirmation du troisième paragraphe du corps et sujet entier du quiz_supplementaire n°1. Doute que je ne peux pas lever seul : il faudrait un accès direct à nature.com (ou un miroir équivalent) pour rouvrir cette source."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-11",

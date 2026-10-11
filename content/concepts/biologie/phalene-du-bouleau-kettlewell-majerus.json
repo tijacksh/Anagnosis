@@ -56,7 +56,8 @@
       "La confirmation que les phalènes ne se posent jamais sur les troncs"
     ],
     "bonne_reponse": 0,
-    "explication": "Majerus a lâché peu d'individus par hectare, observé les lieux de repos sauvages et testé les chauves-souris sans différence significative. Il ne s'est pas intéressé à la génétique, et 35 % des phalènes sauvages observées par Majerus se reposaient sur des troncs."
+    "explication": "Majerus a lâché peu d'individus par hectare, observé les lieux de repos sauvages et testé les chauves-souris sans différence significative. Il ne s'est pas intéressé à la génétique, et 35 % des phalènes sauvages observées par Majerus se reposaient sur des troncs.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -82,12 +83,21 @@
       "explication": "La forme noire est notée en 1848 à Manchester et atteint 98 % en 1895 ; elle recule ensuite, rapidement depuis 1970 selon l'article de 2012."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T22:14:29.856Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T22:14:29.856Z",
+        "note": "Biology Letters 2012 (PMC3391436) rouvert en intégralité via WebFetch, indépendamment du contrôle du 2026-10-11 : 4 864 phalènes, jardin de 1 ha près de Coton (Cambridgeshire), <10/ha/nuit, 135 observations de repos dont 48 sur troncs (35 %), 419 phalènes testées contre trois espèces de pipistrelles sans différence significative, s=0,091/jour (IC 0,028-0,157), neuf espèces d'oiseaux prédatrices, « quite groundlessly » à propos de l'accusation de fraude contre Kettlewell, mort de Majerus en 2009 : tout conforme mot pour mot. Repère, carte, sources[0] et quiz principal + quiz_supplementaire n°1 reposent sur cette seule source et sont donc validés. En revanche la page Butterfly Conservation (sources[1]) n'a pas pu être rouverte dans cet environnement : échec de résolution DNS (butterfly-conservation.org), de même via Wayback Machine, Google et Bing (tous bloqués). Les chiffres qu'elle seule soutient — 1848 première capture à Manchester, 98 % en 1895, déclin de près des deux tiers de 1968 à 2002 — ne sont donc pas vérifiés par moi dans ce passage ; ils figurent dans le premier paragraphe du corps et sont le sujet entier du quiz_supplementaire n°2. Doute que je ne peux pas lever seul : il faudrait un accès réseau à butterfly-conservation.org (ou une source équivalente) depuis l'environnement d'exécution."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-11",
