@@ -101,6 +101,7 @@ def tourner(ids):
                    (Path.home() / '.anagnosis/tournage.env').read_text().split() if '=' in l)
     sim = env_sim['TOURNAGE_SIM']
     env = {**os.environ, 'TEST_RUNNER_TOURNAGE_IDS': ','.join(ids)}
+    (APP / 'build').mkdir(parents=True, exist_ok=True)   # absent après un nettoyage de disque
     with open(APP / 'build/tournage.log', 'w') as log:
         subprocess.run(['xcodebuild', '-project', 'Anagnosis.xcodeproj', '-scheme', 'Anagnosis',
                         '-destination', f'id={sim}', '-derivedDataPath', 'build', 'test',
