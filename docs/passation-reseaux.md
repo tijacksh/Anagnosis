@@ -251,3 +251,7 @@ Test réel à 0 h 15 : un post programmé par l'API **sans aucun réglage** est 
 ### Vignette des Reels (2026-10-05)
 
 Les profils TikTok/Instagram affichent la première image comme vignette. Celle de l'animation de la carte était du papier vide, d'où des vignettes blanches. `composer.vignette()` remplace l'image 0 par la carte complète (prise pendant la tenue), l'accroche y est lisible. Appliqué à tous les Reels à venir et automatiquement aux suivants. TikTok ne permet pas de choisir la couverture par l'API (seulement dans l'interface BrightBean), c'est donc la seule voie automatique.
+
+### Session X du 2026-10-11 : ce qui a manqué et la bonne séquence
+
+Un post avec un lien (`anagnosis.fr`) tapé **avant** la vidéo perd sa vidéo : X crée une carte de lien, le téléversement ne se termine pas et le planificateur accepte quand même le post, **sans média**. À vérifier dans « Scheduled » (une miniature par post avec sa durée). Séquence qui marche : ouvrir `x.com/compose/post`, **téléverser le média d'abord** (`file_upload` sur le champ du compositeur, la vidéo est « Ready » en une dizaine de secondes), **puis** saisir le texte (le lien ne crée alors pas de carte), puis l'agenda (jour, 7, 30), Confirm, Schedule. Un carrousel est limité à 4 images sur X. Taper le texte avant que le compositeur soit prêt (attendre 6 s après la navigation) fait perdre des frappes. Fiabilité : six posts programmés ce jour-là, tous vérifiés avec miniature.
