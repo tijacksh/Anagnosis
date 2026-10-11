@@ -99,7 +99,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'arrêt de 1917 ne retire aucun brevet à Edison, ne vient pas du Congrès et ne dépend d'aucun témoignage de Kodak : il interdit au détenteur d'un brevet sur l'appareil (le projecteur) d'étendre son contrôle, par une simple notice imprimée, à des fournitures non brevetées comme la pellicule qui y passe. C'est cette doctrine de l'épuisement du brevet qui prive le Trust de son levier.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -136,11 +136,11 @@
       "explication": "En 1915, un tribunal fédéral de Pennsylvanie juge que la MPPC a violé le Sherman Antitrust Act par ses licences croisées et ordonne sa dissolution, avant que le Trust ne fasse appel de ce jugement."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-11T07:22:10.385Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-11T09:22:11.649Z",
     "historique": [
       {
         "action": "valider",
@@ -173,15 +173,23 @@
         "par": "routine-reparation",
         "le": "2026-10-11T07:22:10.385Z",
         "note": "Arrêt de 1917 rouvert (Cornell LII) : confirme qu'il parle bien explicitement de cinéma/motion pictures dans son raisonnement (projecteur, pellicule, exhibition) — la phrase 'l'arrêt ne parle jamais de cinéma' était fausse, corrigée. 'Météo californienne' et 'enseigné dans les facultés' retirés, non sourcés et le premier point contesté par les historiens (recherche web) ; remplacés par un fait vérifié et sourcé : Quanta Computer v. LG Electronics (2008) cite et s'appuie explicitement sur cet arrêt pour réaffirmer la doctrine de l'épuisement du brevet (Cornell LII, opinion de la Cour, nouvelle source ajoutée). 'Défi ouvert au Trust' (corps, carte, quiz_supplementaire) retiré : Wikipedia Independent Moving Pictures ne dit pas cela, seulement que le Trust combattait les indépendants non licenciés dits 'pirates'/'outlaws', dont Laemmle était le chef de file — reformulé en conséquence partout où l'expression apparaissait. Reste revérifié conforme : fondation MPPC déc. 1908 (Edison + 9 sociétés, exclusivité Kodak), fondation IMP 1909, fusion Universal 30 avril 1912 (Carl Laemmle), jugement antitrust 1915 et dissolution, arrêt du 9 avril 1917, abandon de l'appel en 1918. Quiz principal et supplémentaires revérifiés."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-11T09:22:11.649Z",
+        "note": "Contrôle des sources : titre non soutenu par les sources, liste des membres du Trust à corriger (Gaumont/Kleine)."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-10",
+    "fait_le": "2026-10-11",
     "verdict": "a_revoir",
-    "empreinte": "98d357ce6decc4af",
+    "empreinte": "5e8c73f07e31c751",
     "notes": [
-      "Arrêt du 9/04/1917, défendeur Universal, épuisement, appel abandonné 1918 confirmés. A revoir : (1) « l'arrêt ne parle jamais de cinéma dans ses attendus » est faux : l'opinion traite de la notice limitant le projecteur aux films couverts par le brevet. (2) « météo californienne » et « enseigné dans les facultés » non sourcés. (3) Wikipedia IMP ne dit pas « défi ouvert »."
+      "Arrêt du 9 avril 1917, défendeur Universal, épuisement, Quanta 2008, jugement du 1er oct. 1915, abandon d'appel 1918, fusion du 30 avril 1912 confirmés. À revoir : (1) titre « Laemmle a battu Edison en justice » : aucune source ne le dit ; la page Laemmle dit seulement qu'il a contesté le monopole, la dissolution de 1915 est un procès fédéral, et en 1917 Universal est défenderesse. (2) Liste des neuf sociétés autour d'Edison : Wikipédia (United States v. MPPC) cite Gaumont parmi les membres initiaux et ne mentionne pas Kleine ; Kodak n'est pas membre initial. (3) Fondation d'IMP en 1909 absente de la page Laemmle."
     ]
   },
   "controle_juridique": null,

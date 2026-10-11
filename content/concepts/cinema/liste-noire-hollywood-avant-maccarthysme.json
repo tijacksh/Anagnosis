@@ -84,7 +84,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La liste noire naît du vote de la Chambre des représentants du 24 novembre 1947 citant les dix pour outrage au Congrès, suivi dès le lendemain du Waldorf Statement par lequel les studios s'engagent à ne plus les employer. Le discours de McCarthy est postérieur de plus de deux ans ; le HUAC existait depuis 1938 mais n'avait pas encore produit cet effet ; aucun décret présidentiel n'est en cause.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -110,11 +110,11 @@
       "explication": "McCarthy est sénateur du Wisconsin depuis janvier 1947 : il siège au Sénat, une chambre distincte de la Chambre des représentants où siège le House Un-American Activities Committee, qui a auditionné Hollywood en 1947."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-11T07:21:57.037Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-11T09:22:11.614Z",
     "historique": [
       {
         "action": "valider",
@@ -123,15 +123,23 @@
         "par": "routine-reparation",
         "le": "2026-10-11T07:21:57.037Z",
         "note": "Rouvert : Wikipédia Hollywood blacklist, HUAC, Joseph McCarthy, + Waldorf Statement et Encyclopedia.com Hollywood Ten Trials (nouvelles sources). Corrections : Waldorf Statement n'est pas rédigé par Johnston seul mais formulé collectivement par les dirigeants réunis et rendu public par lui (Wikipedia Waldorf Statement) ; amendes '1 000 dollars chacun', pas 'jusqu'à 1 000 dollars' (confirmé par Hollywood blacklist) ; ordre des procès Lawson (12-19 avril 1948) puis Trumbo (3-5 mai 1948) confirmé par Encyclopedia.com, ajouté en source. Points déjà exacts revérifiés : dates 24-25 nov. 1947, vote 346-17, question sur l'appartenance au PC (confirmée par Hollywood blacklist), plus de 300 professionnels mis sur liste noire (confirmé par HUAC, pas seulement par Hollywood blacklist), discours de Wheeling 9 fév. 1950, McCarthy sénateur du Wisconsin distinct du HUAC. Carte, repère et quiz revérifiés, rien d'autre à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-11T09:22:11.614Z",
+        "note": "Contrôle des sources : peine de Biberman et Dmytryk (500 $, six mois) et formulation du Waldorf Statement (« sciemment ») à corriger."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-10-11",
     "verdict": "a_revoir",
-    "empreinte": "65008bf5e1911aff",
+    "empreinte": "0feed85b48e878fd",
     "notes": [
-      "Dates 24-25 nov. 1947, 346-17, Wheeling 9 fév. 1950 confirmées. Non retrouvés dans les trois pages Wikipédia citées : « plus de trois cents » mis sur liste noire (la page dit « des centaines »), Lawson et Trumbo jugés les premiers, Waldorf Statement rédigé par Eric Johnston (la page dit seulement qu'il publie le communiqué), question d'appartenance au PC (HUAC cité pour refus de répondre à « certaines questions »). Amendes : « jusqu'à 1 000 $ » vs 1 000 $ chacun. Trouver une source qui soutient ces points ou les retirer."
+      "Dates 24-25 nov. 1947, 346-17, Waldorf, Wheeling 9 fév. 1950, McCarthy hors HUAC, plus de 300 (page HUAC) confirmés. À revoir : (1) « Chacun des dix est condamné à 1 000 dollars » : Encyclopedia.com (source de la fiche) indique 500 dollars et six mois pour Biberman et Dmytryk ; Wikipédia Hollywood blacklist dit 1 000 $ chacun : sources en conflit, trancher sur source primaire. (2) Waldorf Statement : le corps dit qu'aucun communiste ne sera plus employé ; la page Waldorf Statement dit « ne pas employer sciemment » un communiste. À nuancer."
     ]
   },
   "controle_juridique": null,

@@ -131,11 +131,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-08-18",
-    "verdict": "corrige",
-    "empreinte": "f0910bde5935c291",
+    "fait_le": "2026-10-11",
+    "verdict": "ok",
+    "empreinte": "216dd8b41ae614a6",
     "notes": [
-      "Contrôle consécutif à la purge des tirets cadratins du 2026-08-05 (commit 5091a13). Relecture complète de contenu_vulgarise, repere, carte et quiz : aucune phrase rendue bancale ou ambiguë par le remplacement tiret->virgule dans ces champs. Sources rouvertes et reconfirmées : Ghys (PDF ICME-12 2012 telecharge et lu integralement) confirme le Royal McBee LGP-30 (1961), l'anecdote du café et des deux mois de données divergentes, la phrase de Lorenz sur les trois décimales, l'article de 1963 'Deterministic Nonperiodic Flow' ignore des mathematiciens plus de dix ans, et la conference AAAS de 1972 au titre cite mot pour mot. MIT Technology Review (2011) reconfirme l'arrondi .506127->.506, la citation exacte trois fois hors meteorologie en dix ans, et le titre precis de la conference de 1972. NOAA/Shen et al. (DOI 10.3390/atmos14081279) toujours bloque par un pare-feu anti-bot (403) sur repository.library.noaa.gov et mdpi.com ; existence, titre, auteurs (Shen, Pielke, Zeng), revue Atmosphere 2023 et propos (distinction entre depedance sensible aux conditions initiales et interpretation metaphorique abusive) reconfirmes independamment via l'API Semantic Scholar. Horizon de deux semaines et distinction meteo/climat conformes au consensus deja etabli. Quiz et carte inchanges et coherents. Correction mecanique : un tiret cadratin residuel avait echappe a la purge du 2026-08-05 dans pour_aller_plus_loin[0].titre ('Shen et al. — Les 50 ans...') ; remplace par une virgule, comme partout ailleurs dans la fiche. Aucun fait a signaler."
+      "Ghys (PDF lu : LGP-30, café, deux mois, 1963 ignoré une dizaine d'années, conférence 1972) et MIT Tech Review (arrondi .506127→.506, horizon de deux semaines) rouverts ; fiche conforme après correction de carte du 2026-10-09."
     ]
   }
 }
