@@ -68,7 +68,7 @@
       "Que la schizophrénie ne devrait plus être considérée comme un diagnostic valide",
       "Que les patients simulateurs devraient être poursuivis pénalement pour fraude"
     ],
-    "bonne_reponse": 2,
+    "bonne_reponse": 1,
     "explication": "Rosenhan soutient que l'étiquette posée à l'admission, « schizophrène », conduit le personnel à réinterpréter tout comportement ultérieur comme un symptôme, au point qu'aucun des huit faux patients n'est détecté. L'étude ne porte pas sur la validité de la schizophrénie comme trouble, ni sur les effectifs hospitaliers.",
     "statut": "en_retouche"
   },
@@ -90,11 +90,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-10-10",
-    "verdict": "ok",
-    "empreinte": "94e35cb763b39f21",
+    "fait_le": "2026-10-11",
+    "verdict": "corrige",
+    "empreinte": "f201edbd91ffdab7",
     "notes": [
-      "science.org et journals.sagepub.com renvoient 403 (paywall) depuis cet environnement — pas d'accès direct à Science 1973 ni à Scull 2023. Confirmé via en.wikipedia.org/wiki/David_Rosenhan : 8 pseudo-patients sans antécédents, 12 hôpitaux, sortie entre 7 et 52 jours (moyenne 19j), critique de Spitzer parue en 1975 dans le même journal, et enquête de Cahalan (2019) qui n'a retrouvé que 2 des 8 pseudo-patients annoncés. La citation de Rosenhan (p.257) et la qualification de « fraude scientifique réussie » par Scull (2023) n'ont pas pu être revérifiées sur le texte intégral (accès bloqué), mais sont des éléments bien établis et constamment cités à l'identique dans la littérature secondaire. Rien de contredit."
+      "CORRIGÉ : bug bloquant repéré par la relecture précédente et confirmé — quiz.bonne_reponse valait 2 (« la schizophrénie ne devrait plus être considérée comme un diagnostic valide ») alors que l'explication et le contenu de la fiche décrivent l'argument de Rosenhan sur le contexte d'admission, qui est le choix d'index 1. bonne_reponse corrigé à 1. Reste revérifié en rouvrant en.wikipedia.org/wiki/David_Rosenhan : second volet de l'étude confirmé (hôpital prévenu, 41 patients authentiques sur 193 soupçonnés d'être des acteurs par au moins un membre du personnel, alors que Rosenhan n'en a envoyé aucun) ; enquête de Cahalan (2019) confirmée : seulement deux des huit pseudo-patients retrouvés, l'un avec un récit divergent, un épisode contredisant la thèse retiré avant publication. Citation de Rosenhan et qualification de Scull (2023) non revérifiables (Science/History of Psychiatry bloqués) mais déjà confirmées constantes dans la littérature secondaire lors du contrôle précédent."
     ]
   },
   "controle_juridique": null,
