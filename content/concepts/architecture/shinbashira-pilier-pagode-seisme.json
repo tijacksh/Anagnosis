@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Les piliers enfoncés, suspendus ou reliés par friction donnent des résultats différents mais tous positifs selon les études, et des éléments distincts du pilier, comme les avant-toits larges, contribuent aussi à la stabilité : l'explication n'est pas réductible à un seul dispositif. Les pagodes possèdent bien un pilier central, les maquettes ne montrent pas qu'il aggrave la réponse sismique, et leur résistance en quatorze siècles d'activité sismique est documentée, pas hypothétique.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,14 +83,33 @@
       "explication": "Le noyau de la Tokyo Skytree, désolidarisé de l'ossature par des amortisseurs à huile au-delà de 125 mètres, reprend le principe du pilier des pagodes ; les trois autres techniques appartiennent à d'autres histoires d'architecture, pas à la Skytree."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T16:15:21.421Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T16:15:21.421Z",
+        "note": "Contrôle des sources : résultat des maquettes Ishida et lien Skytree/pagodes non conformes aux sources."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-11",
+    "verdict": "a_revoir",
+    "empreinte": "78006d26d7864481",
+    "notes": [
+      "WP en : pilier ancré « survives longest, and is at least twice as strong » ; la fiche (contenu, quiz_supplementaire) dit « résiste environ deux fois plus longtemps » et ajoute un pilier « posé à mi-hauteur » (la source décrit un pilier sur une poutre du 2e étage et un suspendu au 5e). Chiffre/sens à rectifier.",
+      "Skytree : la page WP ne mentionne pas les pagodes ; « conçu en partant de l'idée que les pagodes basculent rarement » et le quiz « sur le modèle du pilier » non soutenus par les sources citées. Amortisseurs à huile dès 125 m : à nuancer (attaché à l'ossature sur les 125 premiers mètres, amortisseurs de 125 à 375 m).",
+      "« n'a jamais été simpliste » : WP dit « have not been very simplistic ».",
+      "Confirmés : 31,5 m, 3 m, abattu en 594, deux effondrements en 1 400 ans, Nikkō 1818, étude 2010, étude 1997, avant-toits, Skytree 2012."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-11",

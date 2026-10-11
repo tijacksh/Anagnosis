@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'enquête conclut que la tour respectait la réglementation de l'époque : c'est cette réglementation, qui ne garantissait aucune résistance à l'effondrement disproportionné, qui est en cause — pas un défaut de fabrication de la cuisinière, ni la qualité du béton, ni l'absence de consignes, que rien dans l'enquête ne retient.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,14 +83,32 @@
       "explication": "La démolition révèle des boulons absents à plusieurs joints et des trous remplis de détritus et de journaux au lieu de béton ; rien n'indique une hauteur modifiée, des panneaux non testés venus d'ailleurs, ou des fondations trop peu profondes."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T16:15:20.951Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T16:15:20.951Z",
+        "note": "Contrôle des sources : portée internationale affirmée (punch, quiz) non soutenue."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-11",
+    "verdict": "a_revoir",
+    "empreinte": "2974474a67ab3f3f",
+    "notes": [
+      "Faits vérifiés sur WP en (date, cause, bilan 4/17, Griffiths, 5e amendement 1970, démolition 1986) et notice TNA HLG 157.",
+      "Punch de la carte « a changé les règles de construction du monde entier » et quiz « dans plusieurs pays » : les sources ne parlent que de la réglementation britannique. À reformuler.",
+      "Mineur : source_courte de la carte (TNA) ne couvre pas les faits de la carte ; « Achevée deux mois plus tôt » : WP donne le 11 mars 1968."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-11",

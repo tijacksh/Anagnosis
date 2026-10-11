@@ -71,7 +71,8 @@
       "Ils sont poussés par les adultes pour réduire la concurrence entre jeunes"
     ],
     "bonne_reponse": 0,
-    "explication": "La dispersion est une fuite devant la faim et la surpopulation, avec la nage comme moyen de traversée, d'où des noyades accidentelles. Aucun mécanisme de régulation volontaire, aucune quête de sel, aucune poussée des adultes n'a été observé."
+    "explication": "La dispersion est une fuite devant la faim et la surpopulation, avec la nage comme moyen de traversée, d'où des noyades accidentelles. Aucun mécanisme de régulation volontaire, aucune quête de sel, aucune poussée des adultes n'a été observé.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -97,16 +98,36 @@
       "explication": "Selon le caméraman Bill Carrick, quelques animaux seulement ont été secoués sur des plateaux tournants recouverts de neige, et le montage a donné l'effet de foule."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T16:15:21.881Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T16:15:21.881Z",
+        "note": "Contrôle des sources : chiffre 25 cents par animal, attribution à Disney, densité non soutenus."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-11",
     "genere_par": "routine-production-arnaud",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-11",
+    "verdict": "a_revoir",
+    "empreinte": "39af5d920be9beb9",
+    "notes": [
+      "Confirmés : Alberta enclavée, rivière, Manitoba, Carrick/plateaux tournants, Cruel Camera 5 mai 1982, sortie 12 août 1958, Oscar, Jarrell.",
+      "Chiffre : « vingt-cinq cents par animal » ; Hyperallergic dit seulement que les enfants ont reçu 25 cents (pas « par animal »). Les enfants sont précisés Inuits par ADFG.",
+      "Punch « Disney les a poussés d'une falaise » : WP cite le Walt Disney Family Museum attribuant l'acte à James R. Simon, à l'insu de Disney. Attribution à nuancer.",
+      "ADFG ne cite pas la densité de population comme déclencheur (épuisement de la nourriture)."
+    ]
   }
 }

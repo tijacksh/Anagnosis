@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "En reportant la structure et les gaines techniques en façade, le projet libère des étages continus sans poteau, modifiables à volonté ; aucune candidature ne propose d'enterrer le bâtiment, la façade n'est pas simplement vitrée sans ornement, et le choix des matériaux n'a rien de nationaliste.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -72,14 +72,32 @@
       "explication": "Les réseaux sont peints selon un code couleur par fonction (eau, air, électricité, circulations et sécurité) ; il n'y a ni étiquettes gravées, ni absence de couleur, ni numérotation peinte."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T16:15:20.090Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T16:15:20.090Z",
+        "note": "Contrôle des sources : citation introuvable, dates/présidence du jury contradictoires, repère mal attribué."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-11",
+    "verdict": "a_revoir",
+    "empreinte": "6e0f1a56ddac433c",
+    "notes": [
+      "Citation « relativement inconnue et sans expérience de musées… » introuvable dans les deux sources (WP fr et en) : à retrouver ou retirer du contenu.",
+      "Repère et carte attribuent à WP fr le « monstre » du Figaro/Loch Ness : absent de la page fr (présent seulement sur WP en).",
+      "Date du 15 juillet 1971 et jury présidé par Prouvé : WP fr se contredit (19 mars 1971, jury présidé par Robert Bordaz, dans la section Architecture) ; WP en ne donne ni le jour ni la présidence. Âge de Piano (34 ans) non sourcé. À recouper avec une source primaire."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-11",
