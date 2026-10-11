@@ -292,3 +292,7 @@ peut rouvrir directement le texte du décret.)*
 | Droit constitutionnel | L'amendement Wallon (30 janvier 1875) : la République votée à une voix sans être nommée | fait | routine-production-arnaud | 2026-10-11 |
 | Droit constitutionnel | L'ordonnance suédoise sur la liberté de la presse (1766) : censure abolie, exceptions maintenues | fait | routine-production-arnaud | 2026-10-11 |
 | Droit constitutionnel | Décision 62-20 DC (6 novembre 1962) : le Conseil constitutionnel se déclare incompétent contre la loi référendaire | fait | routine-production-arnaud | 2026-10-11 |
+| Histoire de l'art | Le Cri de Munch : l'inscription « Kan kun være malet af en gal Mand » écrite de la main de Munch (2021) | en cours | routine-production-arnaud | 2026-10-12 |
+| Histoire de l'art | La Ronde de nuit de Rembrandt : un surnom de 1797 sur un tableau rogné en 1715 | en cours | routine-production-arnaud | 2026-10-12 |
+| Histoire de l'art | « Donatello chez les fauves » (Vauxcelles, Gil Blas, 1905) : le nom des Fauves est né d'une phrase sur une sculpture | en cours | routine-production-arnaud | 2026-10-12 |
+| Histoire de l'art | Les statues grecques n'étaient pas blanches : la polychromie antique (Brinkmann, Gods in Color) | en cours | routine-production-arnaud | 2026-10-12 |
