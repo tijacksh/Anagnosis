@@ -1,0 +1,22 @@
+name = "anagnosis-site"
+main = "site.js"
+compatibility_date = "2026-10-01"
+
+# La vitrine et le contenu signé, construits par `npm run site` dans export/site. Les fichiers
+# statiques sont servis par Cloudflare sans passer par le Worker (requêtes gratuites) ; seul
+# le formulaire et le décompte l'exécutent.
+[assets]
+directory = "../export/site"
+binding = "ASSETS"
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+run_worker_first = ["/inscription", "/inscriptions/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "anagnosis-codes"
+database_id = "e5ba6cae-8281-4980-891e-00f401defce0"
+
+# Secret `CLE_DECOMPTE` (jeton du décompte des inscriptions), posé avec
+#   npx wrangler secret put CLE_DECOMPTE --config worker/wrangler-site.toml
+# et vivant ensuite côté Cloudflare, jamais dans ce dépôt.

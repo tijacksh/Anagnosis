@@ -73,8 +73,7 @@ const puces = FAMILLES.map((famille) => {
 let numeroFormulaire = 0;
 const inscription = () => {
   const id = `courriel-${++numeroFormulaire}`;
-  return `<form class="inscription" name="lancement" method="POST" action="/merci" data-netlify="true" netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="lancement">
+  return `<form class="inscription" name="lancement" method="POST" action="/inscription">
       <input type="hidden" name="source" value="direct">
       <p class="piege" aria-hidden="true"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
       <label for="${id}">Être prévenu·e du lancement</label>
@@ -97,7 +96,7 @@ await writeFile(path.join(DEST, 'index.html'), html, 'utf8');
 const FICHIERS_STATIQUES = [
   'icone.svg', 'icone-180.png', 'icone-192.png', 'icone-512.png', 'favicon.ico',
   'og.png', 'contact.html', 'mentions-legales.html', 'confidentialite.html',
-  'conditions.html', 'merci.html', '404.html', 'robots.txt',
+  'conditions.html', 'merci.html', '404.html', 'robots.txt', '_headers',
 ];
 for (const f of FICHIERS_STATIQUES) {
   await copyFile(path.join(SRC, f), path.join(DEST, f));
@@ -125,10 +124,13 @@ const pagesVitrine = [...FICHIERS_STATIQUES.filter((f) => f.endsWith('.html')), 
 // `action` compte aussi : un formulaire qui renvoie vers une page absente perd
 // l'inscription qu'il vient d'envoyer, sans que personne le voie. Et une ancre
 // (`/mentions-legales#lancement`) doit désigner un `id` qui existe dans la page.
+// Adresses servies par le Worker (`worker/site.js`), pas par un fichier de la vitrine.
+const POINTS_D_ENTREE_WORKER = new Set(['inscription']);
 const LIENS_INTERNES = /(?:href|action)="\/([a-z0-9-]*)(?:#([a-z0-9-]+))?"/g;
 for (const nom of pagesVitrine) {
   const contenu = await readFile(path.join(DEST, nom), 'utf8');
   for (const [, cible, ancre] of contenu.matchAll(LIENS_INTERNES)) {
+    if (POINTS_D_ENTREE_WORKER.has(cible)) continue;
     const fichierCible = cible === '' ? 'index.html' : `${cible}.html`;
     let page;
     try {
