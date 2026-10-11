@@ -288,3 +288,7 @@ peut rouvrir directement le texte du décret.)*
 | Biologie | La phalène du bouleau : Kettlewell, ses critiques, et la réhabilitation de 2012 | fait | routine-production-arnaud | 2026-10-11 |
 | Biologie | Redi (1668) : l'expérience de la viande sous gaze, plus nuancée que sa légende | abandonné (texte de 1668 non lisible en ligne, sources secondaires divergentes sur le couvercle) | routine-production-arnaud | 2026-10-11 |
 | Biologie | Physarum (Nakagaki, 2000) : le blob et le labyrinthe | fait | routine-production-arnaud | 2026-10-11 |
+| Droit constitutionnel | Le 27e amendement américain : proposé en 1789, ratifié en 1992 | en cours | routine-production-arnaud | 2026-10-11 |
+| Droit constitutionnel | L'amendement Wallon (30 janvier 1875) : la République votée à une voix sans être nommée | en cours | routine-production-arnaud | 2026-10-11 |
+| Droit constitutionnel | L'ordonnance suédoise sur la liberté de la presse (1766) : censure abolie, exceptions maintenues | en cours | routine-production-arnaud | 2026-10-11 |
+| Droit constitutionnel | Décision 62-20 DC (6 novembre 1962) : le Conseil constitutionnel se déclare incompétent contre la loi référendaire | en cours | routine-production-arnaud | 2026-10-11 |
