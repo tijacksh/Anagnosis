@@ -280,3 +280,5 @@ peut rouvrir directement le texte du décret.)*
 | Cinéma | Nanouk l'Esquimau (Flaherty, 1922) : documentaire mis en scène | fait | routine-production-arnaud | 2026-10-11 |
 | Cinéma | Mutual Film v. Ohio (1915) : le cinéma jugé « pure affaire commerciale » par la Cour suprême, avant Burstyn (1952) | fait | routine-production-arnaud | 2026-10-11 |
 | Cinéma | Premiers Oscars (16 mai 1929) : gagnants annoncés trois mois avant, quinze minutes de cérémonie | fait | routine-production-arnaud | 2026-10-11 |
+| Archéologie | Piltdown (1912-1953) : une mâchoire d'orang-outan, un crâne humain, et ce que l'ADN de 2016 a ajouté | en cours | routine-production-arnaud | 2026-10-11 |
+| Archéologie | La « malédiction de Toutânkhamon » : la mort de Carnarvon (1923) et l'étude de cohorte du BMJ (2002) | en cours | routine-production-arnaud | 2026-10-11 |
