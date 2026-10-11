@@ -283,7 +283,8 @@ peut rouvrir directement le texte du décret.)*
 | Cinéma | Premiers Oscars (16 mai 1929) : gagnants annoncés trois mois avant, quinze minutes de cérémonie | fait | routine-production-arnaud | 2026-10-11 |
 | Archéologie | Piltdown (1912-1953) : une mâchoire d'orang-outan, un crâne humain, et ce que l'ADN de 2016 a ajouté | fait | routine-production-arnaud | 2026-10-11 |
 | Archéologie | La « malédiction de Toutânkhamon » : la mort de Carnarvon (1923) et l'étude de cohorte du BMJ (2002) | fait | routine-production-arnaud | 2026-10-11 |
-| Biologie | Lemmings : le « suicide collectif » mis en scène par Disney (White Wilderness, 1958) | en cours | routine-production-arnaud | 2026-10-11 |
-| Biologie | Lenski : 30 ans d'évolution en laboratoire et l'innovation du citrate (2008) | en cours | routine-production-arnaud | 2026-10-11 |
-| Biologie | La phalène du bouleau : Kettlewell, ses critiques, et la réhabilitation de 2012 | en cours | routine-production-arnaud | 2026-10-11 |
-| Biologie | Redi (1668) : l'expérience de la viande sous gaze, plus nuancée que sa légende | en cours | routine-production-arnaud | 2026-10-11 |
+| Biologie | Lemmings : le « suicide collectif » mis en scène par Disney (White Wilderness, 1958) | fait | routine-production-arnaud | 2026-10-11 |
+| Biologie | Lenski : 30 ans d'évolution en laboratoire et l'innovation du citrate (2008) | fait | routine-production-arnaud | 2026-10-11 |
+| Biologie | La phalène du bouleau : Kettlewell, ses critiques, et la réhabilitation de 2012 | fait | routine-production-arnaud | 2026-10-11 |
+| Biologie | Redi (1668) : l'expérience de la viande sous gaze, plus nuancée que sa légende | abandonné (texte de 1668 non lisible en ligne, sources secondaires divergentes sur le couvercle) | routine-production-arnaud | 2026-10-11 |
+| Biologie | Physarum (Nakagaki, 2000) : le blob et le labyrinthe | fait | routine-production-arnaud | 2026-10-11 |

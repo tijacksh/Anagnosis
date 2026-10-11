@@ -1,0 +1,97 @@
+{
+  "id": "bio-lenski-citrate-ecoli-2008",
+  "slug": "lenski-ecoli-citrate-evolution-contingente",
+  "titre": "Douze lignées d'E. coli, une seule a appris à manger du citrate",
+  "accroche": "Douze populations de bactéries identiques évoluent en laboratoire depuis 1988. Après 30 000 générations, une seule a acquis un trait nouveau.",
+  "discipline": "biologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1988, le biologiste Richard Lenski divise une souche d'Escherichia coli en douze lignées strictement identiques. Chacune est cultivée dans un milieu pauvre en glucose, additionné de citrate. Les lignées ne se mélangent pas, ne se croisent pas : douze répétitions de la même expérience, lancées au même instant, du même point de départ. La question posée est vieille : si l'on rejouait l'évolution, obtiendrait-on la même histoire ?\n\n## Un trait qu'E. coli « ne sait pas » avoir\n\nE. coli ne sait pas, en présence d'oxygène, utiliser le citrate comme source de carbone. Or le milieu en contient, en quantité importante : un festin inaccessible. Pendant plus de trente mille générations, aucune des douze lignées n'a su y toucher, alors que chacune avait testé, selon les auteurs, des milliards de mutations.\n\nPuis, dans la lignée appelée Ara-3, une variante nommée Cit+ apparaît, entre 31 000 et 31 500 générations. Sa population augmente alors de plusieurs fois, parce que la ressource inexploitée devient disponible.\n\n## Hasard ou histoire ?\n\nDeux lectures s'opposent. Si la mutation Cit+ est simplement très rare, n'importe quelle lignée aurait pu l'obtenir, et Ara-3 a eu de la chance. Si elle dépend d'étapes préparatoires, Ara-3 portait des mutations antérieures qui l'avaient rendue capable. Lenski et son équipe tranchent en « rejouant » l'expérience à partir d'échantillons congelés de la lignée, conservés à différents stades. Des clones prélevés avant 20 000 générations ne produisent presque jamais de Cit+, alors que des clones plus tardifs le font nettement plus souvent. L'article de 2008 en conclut que l'innovation était contingente : elle a eu besoin d'une histoire particulière. Les auteurs estiment que le taux d'apparition du trait chez les clones préparés est au moins deux fois supérieur à celui de la souche ancestrale, sans que la lignée ait pour autant muté plus vite en général.\n\nEn 2012, une analyse des génomes précise le mécanisme : une duplication a placé un gène de transport du citrate, jusque-là silencieux, sous le contrôle d'un promoteur actif en présence d'oxygène. Le trait n'est donc pas un gène neuf mais un gène ancien, rebranché sur un autre interrupteur.\n\n## Le déplacement\n\nL'expérience montre qu'une innovation majeure n'exige pas un saut miraculeux : elle exige un enchaînement, où chaque étape rend la suivante possible sans la rendre inévitable. Les mêmes conditions, douze fois, donnent une histoire sur douze. Ce que l'on appelle le hasard en biologie ressemble souvent à une file d'attente, où seul le premier à franchir le dernier obstacle passe à la caisse.",
+  "citation": null,
+  "repere": {
+    "texte": "Après 1988, aucune des douze lignées n'a utilisé le citrate pendant plus de 30 000 générations ; la variante Cit+ de la lignée Ara-3 est apparue entre 31 000 et 31 500 générations.",
+    "source": "Blount, Borland et Lenski, PNAS, 2008",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2430337"
+  },
+  "carte": {
+    "punch": "Douze lignées identiques, 30 000 générations : une seule a mangé le citrate.",
+    "idee": "Depuis 1988, douze populations d'E. coli évoluent côte à côte dans le laboratoire de Richard Lenski. Une seule a acquis la capacité d'utiliser le citrate, après des mutations préparatoires : l'évolution garde la trace de son propre passé.",
+    "source_courte": "Blount et al., PNAS, 2008 ; Nature, 2012"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Blount, Zachary D. ; Borland, Christina Z. ; Lenski, Richard E.",
+      "titre": "Historical contingency and the evolution of a key innovation in an experimental population of Escherichia coli",
+      "publication": "PNAS, 105(23), 7899-7906",
+      "annee": 2008,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2430337",
+      "note": "Douze populations lancées en 1988 ; Cit+ dans Ara-3 vers 31 000-31 500 générations ; expériences de rejeu à partir d'échantillons congelés ; taux de mutation au moins doublé chez les clones préparés."
+    },
+    {
+      "type": "article",
+      "auteur": "Blount, Zachary D. ; Barrick, Jeffrey E. ; Davidson, Carla J. ; Lenski, Richard E.",
+      "titre": "Genomic analysis of a key innovation in an experimental Escherichia coli population",
+      "publication": "Nature, 489(7417), 513-518",
+      "annee": 2012,
+      "url": "https://doi.org/10.1038/nature11514",
+      "note": "Séquençage des génomes : duplication plaçant un transporteur de citrate sous un promoteur actif en conditions aérobies ; plusieurs lignées coexistent plus de 10 000 générations avant l'apparition du trait."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Illustration conceptuelle en aplats : douze flacons identiques alignés sur une étagère, onze remplis d'un liquide pâle, un seul d'un liquide plus trouble et plus dense. Tons verts et ambrés, fond crème. Sans inscription.",
+    "alt": "Douze flacons alignés, dont un seul plus trouble que les autres",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que montrent les expériences de « rejeu » à partir d'échantillons congelés de la lignée Ara-3 ?",
+    "choix": [
+      "Que toute lignée finit par utiliser le citrate si on lui laisse assez de temps",
+      "Que Cit+ n'émerge que de clones ayant déjà accumulé des mutations préparatoires",
+      "Que la lignée Ara-3 a muté plus vite que les onze autres sur l'ensemble du génome",
+      "Que le citrate a été importé par contamination avec une autre bactérie"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les clones tardifs de la lignée redonnent Cit+ bien plus souvent que les précoces ou l'ancêtre, ce qui indique une dépendance à l'histoire. Le taux de mutation général n'a pas augmenté, et aucune contamination n'est en cause."
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'a précisé l'analyse génomique de 2012 sur l'origine du trait Cit+ ?",
+      "choix": [
+        "Un gène entièrement nouveau est apparu par mutation ponctuelle",
+        "Un transporteur de citrate déjà présent a été placé, par duplication, sous un promoteur actif en présence d'oxygène",
+        "La bactérie a absorbé de l'ADN d'un virus du milieu de culture",
+        "Le trait résulte de la perte d'un gène répresseur du métabolisme du glucose"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La duplication a rebranché un gène de transport existant sur un autre promoteur, ce qui illustre un changement de régulation plus qu'une invention de gène."
+    },
+    {
+      "question": "Pourquoi le citrate représentait-il une ressource inexploitée dans l'expérience ?",
+      "choix": [
+        "E. coli n'en tire normalement aucun carbone en présence d'oxygène",
+        "Il est toxique pour la souche ancestrale à haute dose",
+        "Il n'est présent qu'en traces dans le milieu",
+        "Il est consommé en premier par E. coli, ce qui épuise vite le stock"
+      ],
+      "bonne_reponse": 0,
+      "explication": "E. coli ne sait pas utiliser le citrate comme source de carbone en conditions aérobies, alors que le milieu en contient beaucoup plus que de glucose."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "meta": {
+    "genere_le": "2026-10-11",
+    "genere_par": "routine-production-arnaud",
+    "version": 1
+  }
+}
