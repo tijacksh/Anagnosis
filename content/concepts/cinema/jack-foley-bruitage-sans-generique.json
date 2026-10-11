@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Dans les débuts du cinéma parlant, les microphones étaient conçus pour capter le dialogue, pas les bruits d'ambiance. Universal, pressé de sonoriser Show Boat après le succès du Chanteur de jazz, a fait ajouter ces sons après coup, en projetant le film et en les enregistrant en direct, en même temps que l'image défilait.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -129,11 +129,11 @@
       "explication": "La fiche est explicite : il n'existe aucun enregistrement de la voix de Jack Foley, ni aucune photographie de lui au travail, malgré trente-trois ans passés sur le même plateau d'Universal."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-11T07:22:23.054Z",
+    "decide_le": "2026-10-11T09:18:16.357Z",
     "historique": [
       {
         "action": "retoucher",
@@ -166,6 +166,14 @@
         "par": "routine-reparation",
         "le": "2026-10-11T07:22:23.054Z",
         "note": "NPR rouverte avec succès (curl, 403/503 en fetch automatisé mais 200 en HTTP direct) : confirme mot pour mot le repère — '33 years on Stage 10 at Universal Pictures', 'no recording of Jack Foley's voice; no picture of him on the sound stage', mort en 1967. Le cri de Tarzan (1929) que lui attribue Wikipedia (Jack Foley, sound effects artist) n'est pas la même chose qu'un enregistrement conservé de sa voix : NPR, source directe et explicite sur ce point précis, ne mentionne aucune contradiction ; pas de correction retenue. Doute non levé : Britannica, seule source du corps pour l'anecdote des clés sur Spartacus, les descriptions des pas (Hudson/Cagney/Brando) et la date du prix MPSE 1997, reste inaccessible depuis ce poste (403 confirmé via WebFetch et curl, plusieurs user-agents) ; filmsound.org, cinemontage.org et imdb.com, qui corroboreraient ces mêmes points via une recherche web, sont bloqués par la politique réseau de cet environnement (proxy, connect_rejected), donc non ouverts réellement. Pour lever le doute : rouvrir Britannica (ou un miroir accessible) depuis un poste où elle répond, ou obtenir un accès réseau à l'un de ces trois sites."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-11T09:18:16.357Z",
+        "note": "Déjà réparée deux fois, revenue une troisième fois ; Britannica et NPR inaccessibles, Wikipedia contredit 33 ans, 'aucun enregistrement de voix' (cri de Tarzan 1929) et la date du prix MPSE. Rejetée."
       }
     ]
   },
