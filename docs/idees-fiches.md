@@ -34,10 +34,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Droit social | Le Wagner Act (1935), première reconnaissance fédérale américaine du droit de se syndiquer | proposé | Orkidea | 2026-08-28 |
 | Droit social | Les accords de Grenelle (mai 1968), 25 % de hausse du SMIC négociée en un week-end | proposé | Orkidea | 2026-08-28 |
 | Droit social | La convention n° 87 de l'OIT (1948) sur la liberté syndicale | proposé | Orkidea | 2026-08-28 |
-| Cinéma | *United States v. Paramount Pictures* (1948), fin de l'intégration verticale des studios | proposé | Orkidea | 2026-08-28 |
-| Cinéma | Le Dogme 95 (1995) et son « vœu de chasteté » contre les effets spéciaux | proposé | Orkidea | 2026-08-28 |
-| Cinéma | La première projection payante des frères Lumière, 28 décembre 1895 | proposé | Orkidea | 2026-08-28 |
-| Cinéma | La liste noire hollywoodienne et les « Dix de Hollywood » (années 1950) | proposé | Orkidea | 2026-08-28 |
+| Cinéma | *United States v. Paramount Pictures* (1948), fin de l'intégration verticale des studios | fait | routine-production | 2026-10-11 |
+| Cinéma | Le Dogme 95 (1995) et son « vœu de chasteté » contre les effets spéciaux | fait | routine-production | 2026-10-11 |
+| Cinéma | La première projection payante des frères Lumière, 28 décembre 1895 | fait | routine-production | 2026-10-11 |
+| Cinéma | La liste noire hollywoodienne et les « Dix de Hollywood » (années 1950) | fait | routine-production | 2026-10-11 |
 | Musique | Alan Freed, le terme « rock and roll » et le scandale de la Payola (1959-1960) | fait | routine-production | 2026-09-20 |
 | Musique | Le 33 tours de Columbia (1948) et la guerre des vitesses avec le 45 tours de RCA | fait | routine-production | 2026-09-20 |
 | Musique | Le procès *Gaye v. Thicke* (« Blurred Lines », 2015), plagiat de sensation musicale | fait | routine-production | 2026-09-20 |
