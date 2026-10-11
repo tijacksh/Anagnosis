@@ -54,18 +54,38 @@
       "L'archiviste a le pouvoir d'ajouter un amendement quand il le juge utile"
     ],
     "bonne_reponse": 1,
-    "explication": "Rien dans la proposition de 1789 ne limitait la durée de la ratification : le texte restait donc ouvert aux États, et les ratifications se sont additionnées jusqu'à atteindre le seuil requis. Le Congrès n'a pas rouvert le processus et l'archiviste n'a fait que proclamer un résultat acquis."
+    "explication": "Rien dans la proposition de 1789 ne limitait la durée de la ratification : le texte restait donc ouvert aux États, et les ratifications se sont additionnées jusqu'à atteindre le seuil requis. Le Congrès n'a pas rouvert le processus et l'archiviste n'a fait que proclamer un résultat acquis.",
+    "statut": "en_retouche"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T20:20:56.449Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T20:20:56.449Z",
+        "note": "Contrôle des sources : « plus rien pendant presque un siècle » contredit (Wyoming 1978 ; 1873-1982 = 109 ans), ratifications Maine 1983 / Colorado 1984 absentes des sources citées."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-11",
     "genere_par": "routine-production-arnaud",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-11",
+    "verdict": "a_revoir",
+    "empreinte": "129b8b47502a73c9",
+    "notes": [
+      "Rouvert CRS LSB10933 et NARA : 25 sept. 1789, 6 États sur 14 fin 1791 (11 requis), Ohio 1873 (protestation), Watson 1982 UT Austin note C (« reportedly »), plus de 30 législatures, proclamation du 18 mai 1992 pour ratification du 7 mai : conformes ; énoncé de l'amendement conforme (NARA).",
+      "À vérifier — « Puis plus rien, pendant presque un siècle » : faux au regard de l'histoire (Wyoming ratifie en 1978, absent des deux sources) et 1873→1982 fait plus d'un siècle. Reformulation de fond à décider avec une source qui mentionne 1978 (ex. Congress.gov/NPR).",
+      "À vérifier — « Le Maine ratifie en 1983, le Colorado en 1984 » : exact d'après NPR/KERA (Maine 27 avr. 1983, Colorado 1984) mais absent de CRS et NARA ; ajouter une source ouverte qui le dit ou retirer. Le CRS ne chiffre que « more than 30 »."
+    ]
   }
 }

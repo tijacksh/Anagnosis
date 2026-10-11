@@ -54,18 +54,38 @@
       "La censure des journaux étrangers diffusés dans le royaume"
     ],
     "bonne_reponse": 1,
-    "explication": "L'ordonnance supprime le contrôle préalable royal, mais maintient l'examen par l'Église pour les matières de foi luthérienne. Les autres limites sont des interdictions punies après publication, pas des autorisations préalables, et rien ne vise les imprimeurs ou les journaux étrangers."
+    "explication": "L'ordonnance supprime le contrôle préalable royal, mais maintient l'examen par l'Église pour les matières de foi luthérienne. Les autres limites sont des interdictions punies après publication, pas des autorisations préalables, et rien ne vise les imprimeurs ou les journaux étrangers.",
+    "statut": "en_retouche"
   },
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-11T20:20:56.048Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-11T20:20:56.048Z",
+        "note": "Contrôle des sources : paternité de Chydenius affirmée sans nuance, principe « tout ce qui n'est pas interdit est permis » absent des sources, « quasi constitutionnel » attribué à la LoC."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-10-11",
     "genere_par": "routine-production-arnaud",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-11",
+    "verdict": "a_revoir",
+    "empreinte": "eb19e7f91c8c1a21",
+    "notes": [
+      "Rouvert LoC (blog Law Library 2016) : date 2 déc. 1766, fin de la censure royale, examen par l'Église (art. 1), 3 000 daler d'argent ≈ 2 200 $, art. 10 archives, statut constitutionnel jusqu'en 1772, intégration 1809 : conformes. Riksarkivet : 1766, 1re loi de ce type, Unesco 2023 : conforme.",
+      "À vérifier — paternité : la fiche écrit « L'auteur principal du texte est Anders Chydenius » ; la LoC dit seulement que l'ordonnance « has been described as having been written by » Chydenius (pasteur finlandais, député), Riksarkivet « driving force ». Formulation à nuancer ou à étayer par une source.",
+      "À vérifier — « tout ce qui n'est pas expressément interdit est permis » (section Ce qui reste interdit) : principe absent de la LoC et de la page Riksarkivet ; à sourcer ou retirer. « statut quasi constitutionnel » est attribué à la LoC qui écrit « constitutional status » : à aligner. « première loi de ce type » est bien présenté comme une étiquette (la LoC l'hédge)."
+    ]
   }
 }
