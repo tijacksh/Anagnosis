@@ -8,7 +8,7 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "Il n'a ni cerveau, ni nerf, ni œil. C'est une cellule géante, jaune, qui change de forme en rampant : Physarum polycephalum, un myxomycète que l'on appelle parfois le blob. En 2000, Toshiyuki Nakagaki et ses collègues Hiroyasu Yamada et Ágota Tóth publient dans Nature un article d'une seule page : leur organisme résout un labyrinthe.\n\n## L'expérience\n\nDes fragments du plasmodium sont placés dans un labyrinthe taillé dans un film plastique posé sur de l'agar. Les fragments se rejoignent pour former une seule cellule qui remplit tout le dédale, en évitant la surface sèche du plastique. Puis les expérimentateurs déposent de la nourriture à deux endroits, l'entrée et la sortie. En huit heures environ, les culs-de-sac se résorbent et le réseau de tubes se contracte autour de la route la plus courte qui relie les deux sources. Le plasmodium a choisi, entre quatre chemins possibles de longueurs différentes, le plus court d'entre eux.\n\n## Comment sans cerveau\n\nLe résultat ne dit pas que l'organisme « réfléchit ». Le plasmodium est un réseau de tubes, et c'est un modèle mathématique de Tero, Kobayashi et Nakagaki, publié en 2007, qui propose le mécanisme : un tube s'épaissit quand le flux qui le traverse augmente, et les tubes les moins utilisés disparaissent. Dans le modèle, cette concurrence entre tubes finit par ne laisser qu'un chemin reliant les deux sources de nourriture, comme dans l'expérience. Les auteurs précisent que les preuves expérimentales de ce mécanisme restent qualitatives. La « solution » serait ainsi une conséquence de la dynamique du réseau, pas d'un calcul.\n\n## Du labyrinthe au réseau ferré\n\nEn 2010, l'équipe de Nakagaki, avec Atsushi Tero, publie dans Science une extension. Le plasmodium forme des réseaux dont l'efficacité, la tolérance aux pannes et le coût sont comparables à ceux du réseau ferré de Tokyo, d'après le résumé de l'article. Les auteurs en tirent un modèle mathématique des mécanismes d'adaptation, qui pourrait servir à guider la construction d'autres réseaux. Le résumé ne dit pas que le blob fait mieux : il dit qu'il fait comparable.\n\n## Ce qu'il ne faut pas en conclure\n\nLe mot « intelligence » appliqué au blob est une métaphore : il optimise une longueur de chemin dans une situation précise, avec une règle simple. Ce n'est ni de la planification ni de la mémoire de sens général. Mais le déplacement reste réel : des comportements qu'on attribuait à un système nerveux apparaissent là où l'on ne s'y attendait pas. Il faudrait peut-être ranger parmi les propriétés de l'organisation du vivant ce que l'on rangeait parmi les attributs d'un esprit.",
+  "contenu_vulgarise": "Il n'a ni cerveau, ni nerf, ni œil. C'est une cellule géante, jaune, qui change de forme en rampant : Physarum polycephalum, un myxomycète que l'on appelle parfois le blob. En 2000, Toshiyuki Nakagaki et ses collègues Hiroyasu Yamada et Ágota Tóth publient dans Nature un article d'une seule page : leur organisme résout un labyrinthe.\n\n## L'expérience\n\nDes fragments du plasmodium sont placés dans un labyrinthe taillé dans un film plastique posé sur de l'agar. Les fragments se rejoignent pour former une seule cellule qui remplit tout le dédale, en évitant la surface sèche du plastique. Puis les expérimentateurs déposent de la nourriture à deux endroits, l'entrée et la sortie. En huit heures environ, les culs-de-sac se résorbent et le réseau de tubes se contracte autour de la route la plus courte qui relie les deux sources. Le plasmodium a choisi, entre quatre chemins possibles de longueurs différentes, le plus court d'entre eux.\n\n## Comment sans cerveau\n\nLe résultat ne dit pas que l'organisme « réfléchit ». Le plasmodium est un réseau de tubes, et c'est un modèle mathématique de Tero, Kobayashi et Nakagaki, publié en 2007, qui propose le mécanisme : un tube s'épaissit quand le flux qui le traverse augmente, et les tubes les moins utilisés disparaissent. Les auteurs précisent que les preuves expérimentales de ce mécanisme restent qualitatives, et que le comportement du modèle dépend d'un paramètre réglant l'intensité de cette rétroaction. Pour la valeur la plus simple, où le flux et la croissance du tube sont proportionnels, c'est toujours le chemin le plus court qui survit, quel que soit l'état de départ, comme dans l'expérience. Pour d'autres valeurs, le chemin retenu dépend de l'état initial, ou plusieurs chemins subsistent. La « solution » serait ainsi une conséquence de la dynamique du réseau, pas d'un calcul.\n\n## Du labyrinthe au réseau ferré\n\nEn 2010, l'équipe de Nakagaki, avec Atsushi Tero, publie dans Science une extension. Le plasmodium forme des réseaux dont l'efficacité, la tolérance aux pannes et le coût sont comparables à ceux du réseau ferré de Tokyo, d'après le résumé de l'article. Les auteurs en tirent un modèle mathématique des mécanismes d'adaptation, qui pourrait servir à guider la construction d'autres réseaux. Le résumé ne dit pas que le blob fait mieux : il dit qu'il fait comparable.\n\n## Ce qu'il ne faut pas en conclure\n\nLe mot « intelligence » appliqué au blob est une métaphore : il optimise une longueur de chemin dans une situation précise, avec une règle simple. Rien dans ces articles n'indique de la planification. Mais le déplacement reste réel : des comportements qu'on attribuait à un système nerveux apparaissent là où l'on ne s'y attendait pas. Il faudrait peut-être ranger parmi les propriétés de l'organisation du vivant ce que l'on rangeait parmi les attributs d'un esprit.",
   "citation": null,
   "repere": {
     "texte": "Dans un labyrinthe à quatre chemins possibles, le plasmodium de Physarum polycephalum retire ses culs-de-sac et ne garde que le chemin le plus court entre deux sources de nourriture, en huit heures environ.",
@@ -60,13 +60,13 @@
     "question": "Quel mécanisme le modèle de Tero, Kobayashi et Nakagaki propose-t-il pour expliquer que le Physarum garde le chemin le plus court ?",
     "choix": [
       "Il explore tout le labyrinthe puis compare des distances mémorisées",
-      "Les tubes très empruntés se renforcent, les autres s'effacent, et le plus court l'emporte",
+      "Un tube s'épaissit quand le flux augmente, un tube peu utilisé disparaît",
       "Il suit les odeurs laissées par d'autres blobs ayant résolu le labyrinthe",
       "Un système nerveux rudimentaire dirige sa croissance vers la sortie"
     ],
     "bonne_reponse": 1,
-    "explication": "Dans le modèle, un tube s'épaissit quand le flux qui le traverse augmente, et les tubes les moins utilisés disparaissent. Aucun calcul de distances, aucune piste d'odeur, aucun système nerveux n'intervient : seule la dynamique des tubes compte.",
-    "statut": "en_retouche"
+    "explication": "Dans le modèle, un tube s'épaissit quand le flux qui le traverse augmente, et les tubes les moins utilisés disparaissent ; le chemin le plus court survit dans le cas le plus simple. Aucun calcul de distances, aucune piste d'odeur, aucun système nerveux n'intervient : seule la dynamique des tubes compte.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -85,18 +85,18 @@
       "choix": [
         "Parce qu'il ne bouge pas",
         "Parce qu'il optimise une longueur de chemin par un mécanisme physique simple, sans planification",
-        "Parce qu'il a plusieurs noyaux",
+        "Parce qu'il ne réagit à aucun stimulus",
         "Parce qu'il vit en colonie de cellules"
       ],
       "bonne_reponse": 1,
       "explication": "Le résultat tient à une dynamique de flux, pas à un raisonnement ; la métaphore décrit un comportement, pas une cognition."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-11T22:14:36.250Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-12T10:08:18.811Z",
     "historique": [
       {
         "action": "retoucher",
@@ -105,6 +105,14 @@
         "par": "routine-relecture",
         "le": "2026-10-11T22:14:36.250Z",
         "note": "Aucune des trois sources n'a pu être rouverte dans cet environnement lors de ce passage, malgré plusieurs tentatives (DOI, nature.com, science.org, PMC/E-utilities, Europe PMC, hokudai, Wayback Machine, Crossref API, Semantic Scholar API) : Nature 2000 (doi.org/10.1038/35035159) redirige vers un mur d'authentification idp.nature.com ; Journal of Theoretical Biology 2007 (PDF hokudai) échoue par résolution DNS ; Science 2010 (doi.org/10.1126/science.1177894) renvoie une erreur 403. Je n'ai donc pas pu vérifier moi-même, à partir du texte, le nombre de chemins du labyrinthe, la durée de huit heures, le mécanisme de rétroaction des tubes, le caractère qualitatif des preuves expérimentales de 2007, ni la comparaison au réseau ferré de Tokyo de 2010 — c'est-à-dire l'intégralité du repère, de la carte, du corps et des deux quiz. Doute que je ne peux pas lever seul : il faudrait un accès réseau à nature.com, science.org ou au dépôt institutionnel d'Hokkaido depuis l'environnement d'exécution ; sans cela, aucun second passage indépendant n'est possible sur cette fiche dans cet environnement."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-12T10:08:18.811Z",
+        "note": "Sources rouvertes : Nature 2000 (texte intégral de la page 470 lu, légende fig. 1 : quatre routes 41/33/44/45 mm, 4 h + 4 h, route α2 toujours choisie), JTB 2007 (texte intégral du PDF Hokudai lu), Science 2010 (résumé via Europe PMC). Corrigé : le corps affirmait que le modèle ne laisse qu'un chemin ; le JTB montre que seul le cas µ=1 donne toujours le plus court, µ>1 dépend de l'état initial, µ<1 garde tous les chemins : phrase réécrite ; choix du quiz principal reformulé sans « le plus court l'emporte » ; « ni mémoire de sens général » retiré (non sourcé) ; distracteur « plusieurs noyaux » (vrai du plasmodium) remplacé par un faux. Repère, carte, 8 heures, quatre chemins, comparaison Tokyo 2010 : conformes aux textes."
       }
     ]
   },
