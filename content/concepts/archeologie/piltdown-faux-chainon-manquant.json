@@ -54,7 +54,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "En 1953, crâne et mâchoire sont reconnus comme appartenant à deux espèces, les dents portent des rayures de limage et les os sont teintés : ce sont des examens physiques et chimiques. Aucun fossile rival ni aveu n'est en cause, et l'ADN n'est venu qu'en 2016.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
   "theme": null,
   "theme_ordre": null,
   "discipline": "archeologie",
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "illustration": {
     "prompt": "Un fragment de mâchoire dessiné au trait épais sur papier crème, ses dents recouvertes d'un aplat jaune vif de fines hachures de lime. À côté, un crâne rond en réserve. Léger hors-repérage constant. Aucun visage humain.",
@@ -116,8 +116,8 @@
     ]
   },
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-11T12:35:14.904Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-12T07:33:46.592Z",
     "historique": [
       {
         "action": "retoucher",
@@ -126,6 +126,14 @@
         "par": "routine-relecture",
         "le": "2026-10-11T12:35:14.904Z",
         "note": "Sources rouvertes : De Groote 2016 (PMC5108962), page NHM. Tout vérifié (haplotype, Sarawak, 2-3 humains, zinc/zirconium, most likely Dawson, 1912/1949/1953, dents limées, os teintés, quiz, carte). Corrigé par moi : « au moins vingt accusés » non daté de 1953 dans l'article -> « au fil des ans » ; date C14 (ancienne mesure, à prendre avec grande prudence selon les auteurs) reformulée en « compatible avec » dans le corps et le repère. Texte modifié donc empreinte changée : reste à faire un contrôle indépendant des deux retouches, puis validation."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-12T07:33:46.592Z",
+        "note": "Contrôle indépendant déjà fait (verdict ok, rien à corriger) ; j'ai rouvert PMC5108962 et la page NHM moi-même : au moins 20 accusés, haplotype mitochondrial orang-outan de Bornéo/Sarawak confirmés, datation C14 90(±120) et mise en garde des auteurs confirmées, formule « most likely Charles Dawson » confirmée. Rien à changer."
       }
     ]
   }
