@@ -71,7 +71,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les protections des sections 7 et 8 bénéficiaient aux « employees », et la section 2(3) retirait de cette définition les ouvriers agricoles et les domestiques. L'exclusion est dans la définition même de la loi ; les autres réponses avancent des motifs que le texte ne donne pas.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -97,10 +97,30 @@
       "explication": "La Cour de 1937 valide la loi. Les autres réponses décrivent des décisions que cet arrêt n'a pas rendues."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": null,
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-12T16:20:39.735Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-12T16:20:39.735Z",
+        "note": "Contrôle des sources : deux affirmations sur le texte de 1935 reprennent la version amendée. (1) « La section 3 prévoyait un NLRB de cinq membres » : le Board créé en 1935 en comptait trois ; la page des Archives nationales elle-même écrit « the Board shall consist of five instead of three members » (porté à cinq en 1947 par Taft-Hartley). (2) « Elle protégeait aussi le droit de n'en rien faire » : la section 7 de 1935 ne contenait pas ce droit de s'abstenir, ajouté en 1947 ; la page des Archives donne le texte actuel de la section 7. À reprendre : trois membres, retirer le droit de s'abstenir (ou le dater de 1947), vérifier la section 3 et le quiz supplémentaire sur le texte de 1935 (Statutes at Large, 49 Stat. 449). Reste confirmé : signature du 5 juillet 1935, exclusion de la section 2(3) (texte et crédit « ch. 372, § 2, 49 Stat. 450 » sur Cornell LII), Jones & Laughlin du 12 avril 1937, titre de Perea (Ohio State Law Journal 72, 2011)."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-12",
+    "verdict": "a_revoir",
+    "empreinte": "c46e6e1bf4bd5f81",
+    "notes": [
+      "Deux affirmations sur la loi de 1935 reprennent le texte amendé : Board de « cinq membres » (trois en 1935, cinq depuis 1947 ; la page des Archives dit « five instead of three ») et section 7 qui « protégeait aussi le droit de n'en rien faire » (ajouté en 1947). À reprendre sur le texte de 1935 ; vérifier aussi le quiz supplémentaire sur la section 3. Statut passé en en_retouche. Réserve : « Juan Perea y lit une origine raciale » repose sur le seul titre de l'article, texte non ouvert (403) ; à garder comme attribution prudente ou à retirer. Confirmé : signature du 5 juillet 1935, section 2(3) (Archives, Cornell LII 29 USC 152, crédit 49 Stat. 450), Jones & Laughlin du 12 avril 1937, Wikipédia (rédigée par Wagner, 74e Congrès)."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-12",

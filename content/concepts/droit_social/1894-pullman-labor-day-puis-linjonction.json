@@ -71,7 +71,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La Cour fonde sa décision sur le pouvoir du gouvernement national de protéger le commerce entre États et le courrier, y compris en demandant une injonction sans intérêt financier propre. Elle ne juge pas la grève illégale : le droit de cesser le travail n'était pas contesté. La loi du 28 juin 1894 institue un jour férié et ne sert pas de fondement à la décision.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -97,10 +97,30 @@
       "explication": "La loi fixe un jour férié légal au premier lundi de septembre, appelé « Labor's Holiday ». Les autres réponses décrivent des dispositions que les sources ne mentionnent pas."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": null,
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-12T16:20:39.732Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-12T16:20:39.732Z",
+        "note": "Contrôle des sources : « à cinq jours d'écart, une fête nommée par la loi et une ordonnance de juge » (dernier paragraphe) ne tient pas pour l'ordonnance. 28 juin → 3 juillet (troupes) = 5 jours ; pour la requête, In re Debs (Cornell) donne le dépôt le 2 juillet 1894, soit 4 jours, comme le dit la carte (« quatre jours plus tard »). Aucune source rouverte (Cornell, Wikipédia) ne date la délivrance de l'injonction. À aligner : « à moins d'une semaine » ou date sourcée de l'injonction."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-12",
+    "verdict": "a_revoir",
+    "empreinte": "f3fbc5f6d9deed7a",
+    "notes": [
+      "Dernier paragraphe : « à cinq jours d'écart … une ordonnance de juge » — 5 jours valent pour les troupes (3 juillet) ; la requête est du 2 juillet (4 jours, comme la carte) et aucune source rouverte ne date la délivrance de l'injonction. Statut passé en en_retouche. Confirmé par le texte de l'arrêt (Cornell LII) : décision du 27 mai 1895, Brewer, requête du 2 juillet 1894, pouvoir sur commerce et courrier même sans intérêt pécuniaire, outrage non révisable par habeas corpus, loi du 2 juillet 1890 non examinée, droit de cesser le travail non contesté ; peines de trois à six mois pour les accusés (Debs : six mois, Wikipédia). Loi du 28 juin 1894 : DOL et Just Security confirmés."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-12",

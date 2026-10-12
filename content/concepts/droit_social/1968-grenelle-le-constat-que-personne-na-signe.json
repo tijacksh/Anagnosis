@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le document est un projet de protocole d'accord que la CGT appelle « constat de Grenelle » : aucune partie ne l'a signé. Les négociations ont eu lieu au ministère du Travail et ont réuni gouvernement, six organisations syndicales et patronat.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -105,10 +105,30 @@
       "explication": "Selon Astarian, la hausse de 35 % portait sur le salaire minimum à Paris, touchait environ 7 % des salariés et relevait surtout d'un rattrapage. Les salaires du privé devaient, eux, augmenter de 7 % puis de 3 %."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": null,
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-12T16:20:39.735Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-12T16:20:39.735Z",
+        "note": "Contrôle des sources : l'ouverture « vers sept heures et demie du matin. Les négociations … s'achèvent » ne suit pas Astarian, qui fait finir les négociations à 7 h le lundi 27 mai (« ended … at seven in the morning ») ; 7 h 30 est l'heure à laquelle les dirigeants quittent le ministère. Wikipédia fr ne donne aucune heure. À corriger : « vers sept heures ». Reste confirmé : dates, participants, « projet de protocole d'accord », « constat de Grenelle » (CGT), texte non signé (Wikipédia fr, CFDT retraités), SMIG à 3 F au 1er juin, +35 % à Paris pour environ 7 % des salariés, 7 % puis 3 %, 7,75 % de Castoriadis, rejet par la base (Astarian, Larousse), loi du 27 décembre 1968 « en application des accords de Grenelle ». Séguy hué : Astarian rapporte que certains attribuent les huées à Séguy, d'autres aux ouvriers protestant contre l'accord."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-10-12",
+    "verdict": "a_revoir",
+    "empreinte": "0a235c978a596372",
+    "notes": [
+      "Ouverture : « vers sept heures et demie du matin. Les négociations … s'achèvent » ; Astarian les fait finir à 7 h (7 h 30 = sortie des dirigeants). Statut passé en en_retouche. Réserve : « Il est hué » — Astarian rapporte que certains attribuent les huées à Séguy, d'autres aux ouvriers protestant contre l'accord ; à nuancer ou attribuer. Tout le reste confirmé (Wikipédia fr, CFDT retraités, Astarian, Larousse, Wikipédia section syndicale d'entreprise) : dates, participants, texte jamais signé, 3 F de SMIG, +35 % à Paris pour ~7 % des salariés, 7 % puis 3 %, 7,75 % de Castoriadis, rejet par la base, loi du 27 décembre 1968."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-12",
