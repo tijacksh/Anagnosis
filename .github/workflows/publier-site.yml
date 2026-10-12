@@ -53,4 +53,11 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx --yes wrangler@4 deploy --config worker/wrangler-site.toml
+        # L'API de déploiement de Cloudflare renvoie parfois un 504 : trois tentatives espacées.
+        run: |
+          for essai in 1 2 3; do
+            npx --yes wrangler@4 deploy --config worker/wrangler-site.toml && exit 0
+            echo "Tentative $essai échouée, nouvel essai dans $((essai * 90)) s"
+            sleep $((essai * 90))
+          done
+          exit 1
