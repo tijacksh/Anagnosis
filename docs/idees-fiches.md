@@ -296,3 +296,7 @@ peut rouvrir directement le texte du décret.)*
 | Histoire de l'art | La Ronde de nuit de Rembrandt : un surnom de 1797 sur un tableau rogné en 1715 | fait | routine-production-arnaud | 2026-10-12 |
 | Histoire de l'art | « Donatello chez les fauves » (Vauxcelles, Gil Blas, 1905) : le nom des Fauves est né d'une phrase sur une sculpture | fait | routine-production-arnaud | 2026-10-12 |
 | Histoire de l'art | Les statues grecques n'étaient pas blanches : la polychromie antique (Brinkmann, Gods in Color) | fait | routine-production-arnaud | 2026-10-12 |
+| Musique | La légende des marteaux de forge de Pythagore (Nicomaque de Gérase, Ier-IIe siècle, sept siècles après les faits) | fait | routine-production | 2026-10-12 |
+| Musique | Zhu Zaiyu (1584) et l'invention chinoise du tempérament égal, vingt ans avant Simon Stevin en Europe | fait | routine-production | 2026-10-12 |
+| Musique | L'Amen break (The Winstons, 1969) : sept secondes jamais rémunérées, la collecte de 2015 pour Richard Spencer | fait | routine-production | 2026-10-12 |
+| Musique | Le CD de 74 minutes et le mythe de la Neuvième de Beethoven, démenti par l'ingénieur Kees Immink | fait | routine-production | 2026-10-12 |
