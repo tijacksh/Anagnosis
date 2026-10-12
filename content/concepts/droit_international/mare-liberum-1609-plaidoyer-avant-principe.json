@@ -77,17 +77,33 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le chapitre est né d’une commande de la Compagnie après la prise de la Santa Catarina en 1603 : il défendait une saisie précise. Aucun tribunal international n’existait alors pour être saisi, aucun traité de navigation n’était en préparation, et le texte défend la Compagnie plutôt que de la contester.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-12T11:19:19.730Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-12T11:19:19.730Z",
+        "note": "Contrôle des sources : chiffre de la prise non conforme à la source (2,2 millions de florins = valeur des 1 200 balles de soie, pas de la cargaison entière), autorisation de Heemskerck à préciser."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-12",
+    "verdict": "a_revoir",
+    "empreinte": "dc751a5715c85386",
+    "notes": [
+      "Yale, Peace Palace et Wikipédia (Mare Liberum, Santa Catarina) rouvertes : Santa Catarina prise le 25 février 1603, Grotius 21 ans, chapitre XII remanié en 1608, brochure anonyme du printemps 1609 (Elzevier, Leyde), De jure praedae publié en 1868, titre latin complet, sea comme l'air : confirmés. À revoir : (1) « environ 2,2 millions de florins, dont 1 200 balles de soie » : Wikipédia dit que les 1 200 balles de soie brute valaient 2,2 millions de florins, ce n'est pas le total de la cargaison ; la note de source (« cargaison d'environ 2,2 millions dont 1 200 balles ») reprend la même erreur. (2) « agit sans autorisation de la Compagnie ni du gouvernement » : Wikipédia dit sans autorisation de recourir à la force, et cette précision n'est pas sur la page Yale."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-12",
