@@ -30,9 +30,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Cinéma | Dracula (1931), version espagnole tournée de nuit sur les mêmes décors | fait | routine-production | 2026-08-30 |
 | Cinéma | Effet Koulechov, film fondateur introuvable | fait | routine-production | 2026-08-30 |
 | Droit social | La loi Le Chapelier (1791), interdiction des corporations et coalitions ouvrières | proposé | Orkidea | 2026-08-28 |
-| Droit social | La grève de Pullman (1894, États-Unis) et la fête du Travail fédérale créée six jours après | proposé | Orkidea | 2026-08-28 |
-| Droit social | Le Wagner Act (1935), première reconnaissance fédérale américaine du droit de se syndiquer | proposé | Orkidea | 2026-08-28 |
-| Droit social | Les accords de Grenelle (mai 1968), 25 % de hausse du SMIC négociée en un week-end | proposé | Orkidea | 2026-08-28 |
+| Droit social | La grève de Pullman (1894, États-Unis) et la fête du Travail fédérale créée six jours après | en cours | routine-production-arnaud | 2026-10-12 |
+| Droit social | Le Wagner Act (1935), première reconnaissance fédérale américaine du droit de se syndiquer | en cours | routine-production-arnaud | 2026-10-12 |
+| Droit social | Les accords de Grenelle (mai 1968), 25 % de hausse du SMIC négociée en un week-end | en cours | routine-production-arnaud | 2026-10-12 |
+| Droit social | Le procès des propriétaires de la Triangle Shirtwaist (New York, 1911) : incendie, acquittement et ce que la loi a changé ensuite | en cours | routine-production-arnaud | 2026-10-12 |
 | Droit social | La convention n° 87 de l'OIT (1948) sur la liberté syndicale | proposé | Orkidea | 2026-08-28 |
 | Cinéma | *United States v. Paramount Pictures* (1948), fin de l'intégration verticale des studios | fait | routine-production | 2026-10-11 |
 | Cinéma | Le Dogme 95 (1995) et son « vœu de chasteté » contre les effets spéciaux | fait | routine-production | 2026-10-11 |
