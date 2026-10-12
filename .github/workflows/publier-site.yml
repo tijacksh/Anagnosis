@@ -34,7 +34,7 @@ concurrency:
 jobs:
   publier:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -57,7 +57,6 @@ jobs:
         run: |
           for essai in 1 2 3; do
             npx --yes wrangler@4 deploy --config worker/wrangler-site.toml && exit 0
-            echo "Tentative $essai échouée, nouvel essai dans $((essai * 90)) s"
-            sleep $((essai * 90))
+            [ "$essai" -lt 3 ] && { echo "Tentative $essai échouée, nouvel essai dans $((essai * 120)) s"; sleep $((essai * 120)); }
           done
           exit 1
