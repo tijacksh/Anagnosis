@@ -317,6 +317,8 @@ peut rouvrir directement le texte du décret.)*
 | Écologie | La peste bovine et le Serengeti : des gnous libérés d'une maladie, puis moins de feux et plus d'arbres (Holdo et al., 2009) | fait | routine-production-arnaud | 2026-10-12 |
 | Écologie | Le paradoxe du plancton (Hutchinson, 1961) : un principe vrai par construction, utilisé pour trouver ce qui le contredit | fait | routine-production-arnaud | 2026-10-12 |
 | Écologie | Surtsey (île née en 1963) : la vie arrive par la mer, mais ce sont les mouettes qui font l'écosystème (Magnússon et al., 2014) | fait | routine-production-arnaud | 2026-10-12 |
-| Océanographie | L'anguille et la mer des Sargasses : un lieu de naissance déduit des larves par Schmidt (1922), jamais vu en œuf ni en adulte ; premières balises (Wright et al., 2022) | en cours | routine-production-arnaud | 2026-10-13 |
-| Océanographie | Le canal SOFAR (Ewing et Worzel, 1944) et le test de Heard Island (1991) : un son entendu dans tous les océans | en cours | routine-production-arnaud | 2026-10-13 |
-| Océanographie | Le niveau de la mer n'est pas de niveau : le géoïde, de +85 m à −106 m, et le creux de l'océan Indien | en cours | routine-production-arnaud | 2026-10-13 |
+| Océanographie | L'anguille et la mer des Sargasses : un lieu de naissance déduit des larves par Schmidt (1922), jamais vu en œuf ni en adulte ; premières balises (Wright et al., 2022) | fait | routine-production-arnaud | 2026-10-13 |
+| Océanographie | Le canal SOFAR (Ewing et Worzel, 1944) et le test de Heard Island (1991) : un son entendu dans tous les océans | fait | routine-production-arnaud | 2026-10-13 |
+| Océanographie | Le niveau de la mer n'est pas de niveau : le géoïde, de +85 m à −106 m, et le creux de l'océan Indien | fait | routine-production-arnaud | 2026-10-13 |
+| Océanographie | Marées de la baie de Fundy : résonance du bassin (Garrett, 1972) | abandonné | routine-production-arnaud | 2026-10-13 |
+| Océanographie | Stommel (1948) : pourquoi les grands courants sont à l'ouest des océans | abandonné | routine-production-arnaud | 2026-10-13 |

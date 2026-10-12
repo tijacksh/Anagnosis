@@ -1,0 +1,100 @@
+{
+  "id": "oce-geoide-niveau-mer-pas-de-niveau",
+  "slug": "geoide-niveau-mer-pas-de-niveau",
+  "titre": "Le niveau de la mer n'est pas de niveau : 106 mètres d'écart au sud de l'Inde",
+  "accroche": "Sans marée ni courant, la surface de l'océan ne serait pas lisse : elle suivrait la gravité, de +85 m à −106 m par rapport à une sphère aplatie.",
+  "discipline": "oceanographie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "« Au niveau de la mer » semble désigner une altitude simple : zéro, partout. Pourtant, si l'on effaçait les marées, les courants et le vent, la surface de l'océan ne serait pas une surface lisse. Elle ondulerait, avec près de 200 mètres d'écart entre ses points extrêmes.\n\n## Une surface que la gravité dessine\n\nLa raison est que l'eau se place là où la gravité la pousse. Cette gravité n'est pas uniforme : la Terre n'est pas une sphère, son rayon est plus grand à l'équateur qu'aux pôles, et les masses sont mal réparties, une montagne pesant plus qu'une vallée. L'eau au repos se hausse là où la gravité est plus forte et s'abaisse là où elle est plus faible. La forme obtenue s'appelle le géoïde, et c'est elle qui définit le zéro des altitudes : une surface imaginaire, irrégulière, que l'on prolonge sous les continents comme si des canaux étroits les traversaient.\n\nOn l'exprime par rapport à une référence mathématique lisse, l'ellipsoïde, une sphère légèrement aplatie. L'écart va d'environ +85 mètres à −106 mètres, ce dernier au sud de l'Inde : moins de 200 mètres de variation au total. Le satellite européen GOCE, lancé en mars 2009, a servi à en dresser une carte précise, présentée en mars 2011, dont l'échelle de couleurs va de −100 à +100 mètres.\n\n## Un creux dont on cherche encore la cause\n\nLe point le plus bas, le « creux du géoïde de l'océan Indien », est la plus faible anomalie de gravité connue sur Terre. Les explications antérieures invoquaient surtout des restes de plaques anciennes plongées dans le manteau. En 2017, une équipe associant l'Institut indien des sciences et le centre allemand de géosciences GFZ a proposé une autre piste, fondée sur des modèles numériques : un déficit de masse dû à du matériau plus chaud et plus léger, entre 300 et 900 kilomètres de profondeur, lié au « superpanache » africain et dévié vers l'est. C'est le résultat de simulations numériques, non d'une observation directe du manteau.\n\n## Ce que cela change\n\nLe déplacement : le « niveau de la mer » est une surface que l'on calcule, pas un plan d'eau que l'on constate. L'eau ne s'écoule pas vers le creux : elle s'est installée là où la gravité la place, et c'est par rapport à une sphère de référence que l'écart de 106 mètres se mesure. Le « plat » dépend donc de la référence choisie, une sphère aplatie ou la gravité elle-même. Et si les simulations sont justes, ce qui se passe à des centaines de kilomètres de profondeur sous l'océan Indien se lit à la surface de la mer.",
+  "citation": null,
+  "repere": {
+    "texte": "Le creux du géoïde de l'océan Indien, au sud de l'Inde, s'écarte d'environ 106 m de la référence : c'est la plus faible anomalie de gravité connue sur Terre.",
+    "source": "Institut indien des sciences, à propos de Ghosh, Thyagarajulu et Steinberger, Geophysical Research Letters 44, 2017",
+    "url": "https://www.iisc.ac.in/scientists-find-out-the-cause-for-geoid-low-in-the-indian-ocean/"
+  },
+  "carte": {
+    "punch": "Au sud de l'Inde, la mer est 106 mètres sous une sphère aplatie de référence.",
+    "idee": "Sans marée ni courant, l'océan suivrait la gravité : sa surface, le géoïde, s'écarte d'une sphère aplatie de +85 m à −106 m. Le creux de l'océan Indien, au sud de l'Inde, est la plus faible anomalie de gravité connue ; son origine reste débattue.",
+    "source_courte": "Ghosh et al., GRL, 2017 ; NOAA"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "NOAA, National Ocean Service",
+      "titre": "What is the geoid?",
+      "publication": "oceanservice.noaa.gov",
+      "annee": 2026,
+      "url": "https://oceanservice.noaa.gov/facts/geoid.html",
+      "note": "Définition (modèle du niveau moyen mondial de la mer, surface irrégulière qui définit l'altitude zéro), onde de l'océan sans marée ni courant, rayon plus grand à l'équateur, masses des montagnes et gravité régionale."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Geoid",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Geoid",
+      "note": "Écart à l'ellipsoïde d'environ +85 m à −106 m (sud de l'Inde), moins de 200 m au total ; GOCE lancé en mars 2009, nouveau modèle présenté le 31 mars 2011 ; expression par rapport à l'ellipsoïde de référence ; prolongement sous les continents."
+    },
+    {
+      "type": "institution",
+      "auteur": "Agence spatiale européenne",
+      "titre": "New GOCE geoid",
+      "publication": "esa.int",
+      "annee": 2011,
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2011/03/New_GOCE_geoid",
+      "note": "Légende de l'image du 28 mars 2011 : écarts de hauteur de −100 m à +100 m par rapport à un géoïde idéal."
+    },
+    {
+      "type": "institution",
+      "auteur": "Institut indien des sciences (IISc)",
+      "titre": "Scientists find out the cause for geoid low in the Indian Ocean",
+      "publication": "iisc.ac.in",
+      "annee": 2017,
+      "url": "https://www.iisc.ac.in/scientists-find-out-the-cause-for-geoid-low-in-the-indian-ocean/",
+      "note": "Creux du géoïde de l'océan Indien (106 m, plus faible anomalie de gravité sur Terre), explication proposée par modélisation numérique (matériau plus léger entre 300 et 900 km de profondeur lié au superpanache africain), explications antérieures (plaques anciennes), limites des modèles."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Ghosh, Thyagarajulu et Steinberger, « The importance of upper mantle heterogeneity in generating the Indian Ocean geoid low », GRL, 2017",
+      "url": "https://doi.org/10.1002/2017GL075392",
+      "note": "L'article de modélisation dont est tirée l'hypothèse sur l'origine du creux."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « densité graduée ». Une ligne horizontale lisse, en contour fin, traversée par une seconde ligne ondulée dont l'écart passe d'un creux profond à gauche à une crête modeste à droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #62A8E5 (océanographie) et noir.",
+    "alt": "Une ligne droite horizontale et une ligne ondulée qui s'en écarte en un creux profond puis une crête modeste",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que représente le « creux » de 106 mètres du géoïde au sud de l'Inde ?",
+    "choix": [
+      "Une fosse où l'eau de l'océan est 106 mètres plus profonde qu'ailleurs",
+      "Un écart de l'eau au repos à une sphère aplatie, dû à une gravité plus faible",
+      "Un courant qui évacue l'eau vers le fond et abaisse la surface",
+      "L'effet des marées de la Lune, plus fort dans l'océan Indien"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le géoïde est la forme que prendrait l'eau sans marée ni courant, sous la seule gravité. Le creux est un écart par rapport à une référence lisse, dû à une gravité plus faible. Il ne s'agit ni d'une fosse, ni d'un courant, ni de marées."
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-13",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}
