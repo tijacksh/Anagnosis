@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-12T19:41:30.399Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-12T19:41:30.399Z",
+        "note": "Sources rouvertes par la routine de relecture : Zanotto 1998 (PDF, texte extrait : question venue d'étudiants et collègues, mythe brésilien, collègue en Argentine, relecteur américain, verre jaune de Tours, environ 414 °C pour un écoulement notable en 800 ans, équation inapplicable à l'ambiante et autre mécanisme possible, GeO2 10^32 ans borne inférieure, Univers 10^10 ans, impuretés un à deux ordres de grandeur, vases antiques non déformés, cylindres soufflés fendus aplatis, annexe : liquide surfondu, verre à au moins 10^12-10^13 Pa·s) ; Physics FAQ Gibbs/Watts (mythe persistant, verre en couronne, côté lourd en bas « usually », mise à jour 2021) ; American Ceramic Society 3 août 2017 (Westminster Abbey 1268, théorie de la transition vitreuse + caractérisation, Corning, Gulbiten et Mauro, environ 1 nm en un milliard d'années, fabrication en cause). Quiz : bonne réponse exacte (Zanotto dit « may be explained »), distracteurs faux. Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-12",

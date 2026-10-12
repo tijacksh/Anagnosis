@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-12T19:41:30.298Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-12T19:41:30.298Z",
+        "note": "Sources rouvertes par la routine de relecture : Nørby 2000 (PDF lu : aucune mention du sens du p dans les mémoires de 1909, termes exposant des ions hydrogène / Wasserstoffionenexponent, Clark 1922 sur le potentiel, citation de Clark 1928 en deux passages séparés de 24 pages avec phrase omise, tableau des fausses associations en anglais, allemand, danois, suédois, hypothèse des lettres p et q, direction de Carlsberg 1901-1938, deux mémoires de 1909 en français et en allemand) ; Jensen 2004 avec mise à jour 2009 (PDF lu : p. 134 du mémoire allemand, symbole pH pour la valeur numérique de la Potenz, variantes pH+ et Ph, adoption par le Journal of Biological Chemistry 1910-1919, Clark juge l'échelle confuse puis cède à l'usage) ; Wikipédia PH (introduction 1909 à Carlsberg, notation avec indice, sens du p encore disputé, étymologies latines non appuyées par les écrits de Sørensen). Deux lectures attribuées à leurs auteurs, aucune présentée comme établie ; quiz : bonne réponse exacte, distracteurs faux (pondus p. 134 inventé, mémoire disparu, deux explications contradictoires). Aucune correction."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-12",
