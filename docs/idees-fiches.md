@@ -308,3 +308,7 @@ peut rouvrir directement le texte du décret.)*
 | Droit international | L'avis de la CIJ de 1949 sur la réparation des dommages subis au service des Nations Unies (assassinat de Bernadotte) et la personnalité de l'ONU | fait | routine-production-arnaud | 2026-10-12 |
 | Droit international | L'affaire du détroit de Corfou (CIJ, 1949), deux États jugés fautifs dans le même arrêt | fait | routine-production-arnaud | 2026-10-12 |
 | Droit international | L'affaire Nottebohm (CIJ, 1955), la nationalité achetée que le Guatemala n'avait pas à reconnaître | fait | routine-production-arnaud | 2026-10-12 |
+| Propriété intellectuelle et IA | Le Statute of Monopolies (1624) : la loi anglaise qui tue les monopoles royaux, sauf celui du premier inventeur | fait | routine-production | 2026-10-12 |
+| Propriété intellectuelle et IA | Les Trade-Mark Cases (1879) : pourquoi la Cour suprême juge qu'une marque n'est ni une invention ni une œuvre | fait | routine-production | 2026-10-12 |
+| Propriété intellectuelle et IA | Mazer v. Stein (1954) : une statuette vendue comme pied de lampe reste protégée par le droit d'auteur (séparabilité) | fait | routine-production | 2026-10-12 |
+| Propriété intellectuelle et IA | Authors Guild v. Google (2015) : la numérisation de vingt millions de livres jugée loyale, arrêt rouvert par les procès sur l'IA | fait | routine-production | 2026-10-12 |

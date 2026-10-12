@@ -1,0 +1,80 @@
+{
+  "id": "dro-authors-guild-google-2015-vingt-millions-de-livres-copies",
+  "slug": "authors-guild-google-2015-vingt-millions-de-livres-copies",
+  "titre": "Copier un livre entier pour n'en montrer que des fragments",
+  "accroche": "En 2015, une cour fédérale juge que numériser des millions de livres sans autorisation peut être loyal — à condition de n'en montrer que des miettes.",
+  "discipline": "droit_pi_ia",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Depuis 2004, Google a conclu des accords avec de grandes bibliothèques universitaires — Michigan, Californie, Harvard, Stanford, Oxford, Columbia, Princeton, Gand, Keio, la Bibliothèque nationale d'Autriche, la bibliothèque publique de New York — pour scanner leurs collections. Au moment du procès, plus de vingt millions de livres ont été numérisés, œuvres sous droits et œuvres tombées dans le domaine public confondues, en majorité des ouvrages épuisés. Trois auteurs — Jim Bouton, Betty Miles et Joseph Goulden — attaquent Google au nom de l'ensemble des auteurs dont les livres ont été copiés sans autorisation.\n\n## Chercher dans un livre sans jamais le lire\n\nLe moteur Google Books permet à quiconque de chercher un mot ou une expression et de voir, pour chaque livre où il apparaît, le nombre d'occurrences et jusqu'à trois courts « extraits ». Chaque page est découpée en huit segments horizontaux non superposés ; un même mot, cherché depuis n'importe quel ordinateur, affiche toujours les trois mêmes segments. Un outil distinct, fondé sur le même corpus, permet aux chercheurs de suivre la fréquence d'un mot ou d'une expression sur plusieurs siècles — un usage que les tribunaux appellent la fouille de texte, ou text mining. Aucune publicité n'accompagne la fonction de recherche, et Google ne touche rien lorsqu'un lecteur achète le livre trouvé.\n\nLe tribunal de district donne raison à Google : la copie relève du fair use, l'exception qui autorise certains usages non autorisés d'une œuvre protégée. Les auteurs font appel. Le 16 octobre 2015, la cour d'appel du deuxième circuit, sous la plume du juge Pierre Leval, confirme. « Google's making of a digital copy to provide a search function is a transformative use » : la copie sert un usage différent de celui de l'œuvre originale, elle produit une information nouvelle — la présence et la fréquence d'un terme — sans se substituer à la lecture du livre lui-même. Les extraits, trop fragmentaires pour reconstituer un texte suivi, ne concurrencent pas l'achat, et les mesures de sécurité empêchent que la copie intégrale ne s'échappe vers le public.\n\n## Un arrêt qu'on rouvre pour une autre machine\n\nL'arrêt s'appuie explicitement sur le test posé l'année précédente par la Cour suprême dans Campbell v. Acuff-Rose Music : plus un usage transforme l'œuvre plutôt que de la reproduire telle quelle, moins les autres facteurs du fair use pèsent contre lui. Vingt millions de livres copiés dans leur intégralité, pour n'en rendre visible que des miettes, deviennent ainsi un usage loyal parce que ce que le public reçoit n'est jamais le livre, mais une information sur le livre.\n\nDepuis que des entreprises entraînent des modèles de langage sur de vastes corpus de textes, cet arrêt de 2015 est cité dans les procès qui en résultent, par les deux camps à la fois : l'un y voit la preuve qu'ingérer un texte pour en tirer un résultat distinct peut être loyal sans jamais l'avoir montré au public ; l'autre répond qu'un moteur de recherche qui ne restitue que des fragments ne ressemble en rien à un modèle capable, lui, de produire un texte nouveau. L'arrêt Authors Guild ne tranche ni l'une ni l'autre thèse ; il est seulement devenu le point par lequel tout le monde commence à discuter.",
+  "citation": {
+    "texte": "Google's making of a digital copy to provide a search function is a transformative use.",
+    "auteur": "Pierre Leval",
+    "source": "Authors Guild, Inc. v. Google, Inc., 804 F.3d 202, opinion de la Cour d'appel du deuxième circuit, 16 octobre 2015",
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.ca2.13-4829.230.0.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Copier vingt millions de livres entiers peut être loyal si on n'en montre que des miettes.",
+    "idee": "En 2015, une cour d'appel américaine juge que la numérisation par Google de plus de vingt millions de livres, pour permettre une recherche par mot et afficher de courts extraits, relève du fair use : l'usage transforme le texte en information sur le texte, sans jamais s'y substituer.",
+    "source_courte": "Authors Guild v. Google, 2015"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Cour d'appel des États-Unis pour le deuxième circuit",
+      "titre": "Authors Guild, Inc. v. Google, Inc., 804 F.3d 202 (2d Cir. 2015)",
+      "annee": 2015,
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.ca2.13-4829.230.0.pdf",
+      "note": "Texte intégral de l'opinion du juge Leval (dossier 13-4829-cv), hébergé par CourtListener. Confirme le nombre de livres scannés (plus de vingt millions depuis 2004), la liste des bibliothèques partenaires, le mécanisme des extraits (huit segments par page, trois extraits maximum) et la citation exacte sur l'usage transformatif."
+    },
+    {
+      "type": "institution",
+      "auteur": "U.S. Copyright Office",
+      "titre": "Authors Guild v. Google, Inc. — fair use index",
+      "annee": 2015,
+      "url": "https://www.copyright.gov/fair-use/summaries/authorsguild-google-2dcir2015.pdf",
+      "note": "Confirme le numéro de dossier (13-4829-cv) et la date de la décision, le 16 octobre 2015."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (anglais)",
+      "titre": "Authors Guild, Inc. v. Google, Inc.",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Authors_Guild,_Inc._v._Google,_Inc.",
+      "note": "Contexte procédural : jugement du tribunal de district (Chin, J.) en faveur de Google en 2013, appel, confirmation par le deuxième circuit en 2015, refus de la Cour suprême d'examiner l'affaire en 2016."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « densité graduée ». Une colonne de très nombreux petits rectangles pleins identiques, serrés et alignés, occupe presque tout le cadre et déborde en haut ; tout en bas, trois minuscules fragments isolés, de la même forme mais détachés les uns des autres, flottent seuls dans le vide. Aplats pleins uniquement, aucun dégradé. Deux encres : #775D7A (droit_pi_ia) et noir.",
+    "alt": "Une colonne dense de petits rectangles identiques qui déborde du cadre, et trois minuscules fragments isolés tout en bas",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la cour d'appel juge-t-elle en 2015 que la numérisation de vingt millions de livres par Google relève du fair use ?",
+    "choix": [
+      "Parce que Google ne numérise que des livres tombés dans le domaine public, jamais d'œuvres encore protégées",
+      "Parce que la copie sert un usage transformatif — produire une information sur les livres, pas en offrir une lecture — sans se substituer à l'achat de l'œuvre",
+      "Parce que les bibliothèques partenaires avaient elles-mêmes cédé leurs droits d'auteur à Google au moment de l'accord",
+      "Parce que la loi fédérale de 1976 autorise explicitement toute numérisation à des fins de recherche universitaire"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La cour juge que créer un index de recherche et des outils de fréquence lexicale transforme l'usage du texte sans jamais en offrir une lecture suivie : les extraits, trop fragmentaires, ne concurrencent pas l'achat du livre, ce qui fait pencher le test du fair use en faveur de Google.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": null,
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-12",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}
