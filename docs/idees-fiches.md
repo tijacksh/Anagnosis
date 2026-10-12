@@ -304,3 +304,7 @@ peut rouvrir directement le texte du décret.)*
 | Chimie | William Perkin et la mauvéine (1856) : une synthèse de quinine ratée, première teinture synthétique | fait | routine-production-arnaud | 2026-10-12 |
 | Chimie | Le verre n'est pas un liquide qui coule : l'épaisseur des vitraux et l'article de Zanotto (1998) | fait | routine-production-arnaud | 2026-10-12 |
 | Chimie | Søren Sørensen et l'invention du pH (1909, laboratoire Carlsberg) : le sens du « p » | fait | routine-production-arnaud | 2026-10-12 |
+| Droit international | *Mare Liberum* (Grotius, 1609), un plaidoyer d'abord écrit pour une compagnie de commerce (affaire de la *Santa Catarina*, 1603) | en cours | routine-production-arnaud | 2026-10-12 |
+| Droit international | L'avis de la CIJ de 1949 sur la réparation des dommages subis au service des Nations Unies (assassinat de Bernadotte) et la personnalité de l'ONU | en cours | routine-production-arnaud | 2026-10-12 |
+| Droit international | L'affaire du détroit de Corfou (CIJ, 1949), deux États jugés fautifs dans le même arrêt | en cours | routine-production-arnaud | 2026-10-12 |
+| Droit international | L'affaire Nottebohm (CIJ, 1955), la nationalité achetée que le Guatemala n'avait pas à reconnaître | en cours | routine-production-arnaud | 2026-10-12 |
