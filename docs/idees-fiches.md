@@ -300,3 +300,7 @@ peut rouvrir directement le texte du décret.)*
 | Musique | Zhu Zaiyu (1584) et l'invention chinoise du tempérament égal, vingt ans avant Simon Stevin en Europe | fait | routine-production | 2026-10-12 |
 | Musique | L'Amen break (The Winstons, 1969) : sept secondes jamais rémunérées, la collecte de 2015 pour Richard Spencer | fait | routine-production | 2026-10-12 |
 | Musique | Le CD de 74 minutes et le mythe de la Neuvième de Beethoven, démenti par l'ingénieur Kees Immink | fait | routine-production | 2026-10-12 |
+| Chimie | Le rêve du serpent de Kekulé (benzène, 1865) : ce que dit le discours de 1890, et ce qui a été ajouté depuis | en cours | routine-production-arnaud | 2026-10-12 |
+| Chimie | William Perkin et la mauvéine (1856) : une synthèse de quinine ratée, première teinture synthétique | en cours | routine-production-arnaud | 2026-10-12 |
+| Chimie | Le verre n'est pas un liquide qui coule : l'épaisseur des vitraux et l'article de Zanotto (1998) | en cours | routine-production-arnaud | 2026-10-12 |
+| Chimie | Søren Sørensen et l'invention du pH (1909, laboratoire Carlsberg) : le sens du « p » | en cours | routine-production-arnaud | 2026-10-12 |
