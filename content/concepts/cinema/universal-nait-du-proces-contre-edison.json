@@ -99,7 +99,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'arrêt de 1917 ne retire aucun brevet à Edison, ne vient pas du Congrès et ne dépend d'aucun témoignage de Kodak : il interdit au détenteur d'un brevet sur l'appareil (le projecteur) d'étendre son contrôle, par une simple notice imprimée, à des fournitures non brevetées comme la pellicule qui y passe. C'est cette doctrine de l'épuisement du brevet qui prive le Trust de son levier.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -136,11 +136,11 @@
       "explication": "En 1915, un tribunal fédéral de Pennsylvanie juge que la MPPC a violé le Sherman Antitrust Act par ses licences croisées et ordonne sa dissolution, avant que le Trust ne fasse appel de ce jugement."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-10-11T09:22:11.649Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-12T16:03:25.425Z",
     "historique": [
       {
         "action": "valider",
@@ -181,6 +181,14 @@
         "par": "routine-controle",
         "le": "2026-10-11T09:22:11.649Z",
         "note": "Contrôle des sources : titre non soutenu par les sources, liste des membres du Trust à corriger (Gaumont/Kleine)."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-12T16:03:25.425Z",
+        "note": "Déjà réparée deux fois (29/09 et 11/10) et revenue du contrôle : pas de troisième réparation. Reproches non levés : titre « Laemmle a battu Edison en justice » et « existe parce que » sans appui dans les sources (Universal naît en 1912, l'arrêt Universal est de 1917, Universal y est défenderesse) ; liste des neuf sociétés du Trust incompatible entre Wikipédia MPPC et US v. MPPC (Kleine, Gaumont, Kodak) ; « seul fournisseur du pays » alors que Wikipédia dit « plus grand fournisseur »."
       }
     ]
   },
