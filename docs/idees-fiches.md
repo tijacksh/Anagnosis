@@ -313,3 +313,7 @@ peut rouvrir directement le texte du décret.)*
 | Propriété intellectuelle et IA | Les Trade-Mark Cases (1879) : pourquoi la Cour suprême juge qu'une marque n'est ni une invention ni une œuvre | fait | routine-production | 2026-10-12 |
 | Propriété intellectuelle et IA | Mazer v. Stein (1954) : une statuette vendue comme pied de lampe reste protégée par le droit d'auteur (séparabilité) | fait | routine-production | 2026-10-12 |
 | Propriété intellectuelle et IA | Authors Guild v. Google (2015) : la numérisation de vingt millions de livres jugée loyale, arrêt rouvert par les procès sur l'IA | fait | routine-production | 2026-10-12 |
+| Écologie | Le lac 226 (Experimental Lakes Area, 1973) : un rideau de vinyle coupe un lac en deux et tranche le débat carbone contre phosphore | en cours | routine-production-arnaud | 2026-10-12 |
+| Écologie | La peste bovine et le Serengeti : des gnous libérés d'une maladie, puis moins de feux et plus d'arbres (Holdo et al., 2009) | en cours | routine-production-arnaud | 2026-10-12 |
+| Écologie | Le paradoxe du plancton (Hutchinson, 1961) : un principe vrai par construction, utilisé pour trouver ce qui le contredit | en cours | routine-production-arnaud | 2026-10-12 |
+| Écologie | Surtsey (île née en 1963) : la vie arrive par la mer, mais ce sont les mouettes qui font l'écosystème (Magnússon et al., 2014) | en cours | routine-production-arnaud | 2026-10-12 |
