@@ -96,7 +96,7 @@ Dernier verdict de contrôle sur ces 125 fiches : 59 « ok » (47 %), 55 « à r
 
 Rejets : 6 fiches rejetées au total, dont 5 depuis le 06/10 d'après leur historique : Gary Dotson, loi Sapin II et Kelsen 1920 (06/10, déjà réparées deux fois), Convention de Vienne 1988 (07/10) et Jack Foley (11/10). La sixième, Adolf Beck, date du 20/08. Aucune des 5 n'est une fiche créée depuis le 06/10 : ce sont des fiches plus anciennes.
 
-Décisions enregistrées depuis le 06/10 dans l'historique des fiches : 121 validations, 81 renvois en retouche, 5 rejets. Cela fait environ 32 décisions par jour pour 16-17 fiches créées par jour : chaque fiche passe en moyenne deux fois devant un décideur.
+Décisions enregistrées depuis le 06/10 dans l'historique des fiches : 121 validations, 81 renvois en retouche, 5 rejets. Cela fait environ 32 décisions par jour pour ≈ 20 fiches créées par jour : chaque fiche passe en moyenne deux fois devant un décideur.
 
 ### Doublons
 
