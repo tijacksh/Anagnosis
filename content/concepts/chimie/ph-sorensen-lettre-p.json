@@ -74,7 +74,41 @@
     "explication": "Nørby (2000) ne trouve dans le mémoire aucune mention de ce que désigne le p ; Jensen (2004, mis à jour en 2009) cite la page 134, où Sørensen rattache le symbole pH à la Potenz, la puissance. Le mémoire existe en deux versions, française et allemande, et « pondus hydrogenii » ne figure pas dans les écrits de Sørensen ; « potentiel » est une lecture de Clark (1922).",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel problème pratique Sørensen cherche-t-il à résoudre en 1909 ?",
+      "choix": [
+        "Simplifier la notation des concentrations en ions hydrogène, presque toujours inférieures à 1",
+        "Mesurer pour la première fois la concentration en ions hydrogène d'une eau",
+        "Remplacer le logarithme décimal par une échelle linéaire plus lisible en laboratoire",
+        "Fabriquer un indicateur coloré universel utilisable dans tous les laboratoires"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Les concentrations en ions hydrogène que Sørensen manipule sont presque toujours inférieures à 1, ce qui oblige à écrire des puissances négatives de 10."
+    },
+    {
+      "question": "Quelle est la définition précise que Sørensen donne au pH dans son mémoire de 1909 ?",
+      "choix": [
+        "La concentration en ions hydrogène multipliée par la température absolue",
+        "Le logarithme de Briggs de l'inverse du facteur de normalité par rapport aux ions hydrogène",
+        "La racine carrée de la concentration en ions hydroxyde de la solution",
+        "Le rapport entre la concentration en ions hydrogène et celle en ions hydroxyde"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Sørensen définit le pH comme le logarithme de Briggs de l'inverse du facteur de normalité par rapport aux ions hydrogène."
+    },
+    {
+      "question": "Quelle thèse alternative Nørby avance-t-il sur l'origine de la lettre p ?",
+      "choix": [
+        "Elle viendrait du mot latin pondus, désignant le poids de l'hydrogène dans la solution",
+        "Elle aurait été choisie en hommage à un collègue scandinave nommé Petersen, jamais confirmé",
+        "p et q désignaient simplement deux solutions génériques dans sa méthode électrométrique",
+        "Elle viendrait de l'initiale du mot danois pour pur, employé par les disciples de Sørensen"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Pour exposer sa méthode électrométrique, Sørensen nomme deux solutions p et q ; Nørby y voit un choix d'étiquette sans signification particulière."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

@@ -74,7 +74,41 @@
     "explication": "Zanotto calcule qu'à température ambiante le verre ne s'écoule pas à l'échelle de l'histoire humaine, même avec des impuretés qui abaissent sa viscosité. Zanotto avance que l'inégalité d'épaisseur vient de la fabrication : verre soufflé en cylindre, fendu puis aplati à la main.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel ordre de grandeur Zanotto obtient-il pour le temps de relaxation de l'oxyde de germanium à température ambiante ?",
+      "choix": [
+        "Environ 10³² ans, bien supérieur à l'âge de l'Univers",
+        "Environ 800 ans, soit l'âge des vitraux étudiés",
+        "Environ 10¹⁰ ans, à peu près l'âge de l'Univers",
+        "Environ 414 ans, la durée qu'il faudrait pour une coulée visible"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Zanotto calcule un temps caractéristique de 10³² ans pour l'oxyde de germanium à température ambiante, une borne inférieure, contre environ 10¹⁰ ans pour l'âge de l'Univers."
+    },
+    {
+      "question": "Que montre l'étude de 2017 menée par des chercheurs de Corning sur un verre de 1268 ?",
+      "choix": [
+        "Que le verre s'est déformé de plusieurs centimètres en sept siècles",
+        "Que l'écoulement maximal n'est que d'environ un nanomètre en un milliard d'années",
+        "Que le verre médiéval est en réalité un solide cristallin ordinaire",
+        "Que la théorie de la transition vitreuse ne s'applique pas aux vitraux"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Gulbiten et Mauro calculent un écoulement maximal d'environ un nanomètre en un milliard d'années pour ce verre de Westminster Abbey daté de 1268."
+    },
+    {
+      "question": "Selon l'annexe de l'article de Zanotto, à partir de quel seuil de viscosité parle-t-on de verre au sens strict ?",
+      "choix": [
+        "Dès que la viscosité dépasse celle de l'eau à température ambiante",
+        "Dès que la température descend sous 0 °C",
+        "À partir d'environ 10¹² à 10¹³ pascals-secondes, sous la température de transition vitreuse",
+        "À partir du moment où le matériau cesse d'être transparent"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Zanotto précise qu'on ne parle de verre au sens strict qu'en dessous de la transition vitreuse, à une viscosité d'au moins 10¹²-10¹³ Pa·s."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
