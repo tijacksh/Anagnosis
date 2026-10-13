@@ -77,15 +77,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "La commission enquête sur le terrain pendant plusieurs années et fait voter ses conclusions au fur et à mesure, plutôt que de répondre à l'incendie par un texte unique rédigé dans l'urgence.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-13T22:20:27.355Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-13T22:20:27.355Z",
+        "note": "Sources rouvertes 2026-10-13 : Wikipédia EN Triangle Shirtwaist Factory fire, Frances Perkins et National Labor Relations Act of 1935, et archive.org Fourth Report 1915, texte vérifié point par point (146 morts 123F/23H, 500 ouvriers, 222 témoins, 38 lois dont 60 des 64 votées 1911-1913, Wagner et Al Smith, NLRA signée le 5 juillet 1935). Aucune divergence. Carte et quiz conformes. Point relevé par le premier contrôle (NLRA au présent, §3.1) examiné et jugé non bloquant pour cette relecture : clause isolée dans une fiche par ailleurs intégralement datée, le risque de péremption relève explicitement de /controler-droit (controle_juridique reste à null pour sa file)."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-13",
