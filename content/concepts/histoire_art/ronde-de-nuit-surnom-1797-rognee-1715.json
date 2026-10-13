@@ -82,7 +82,41 @@
     "explication": "Le tableau est achevé en 1642 et déplacé en 1715, soixante-treize ans plus tard, vers un emplacement où il faut le faire tenir entre deux portes : quatre morceaux sont coupés, dont le plus grand à gauche. Rembrandt ne l'a pas réduit, et les coupes précèdent de plus de deux siècles l'attaque au couteau de 1975.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Pour quelle compagnie Rembrandt a-t-il reçu la commande du tableau ?",
+      "choix": [
+        "Une compagnie de la milice civique du quartier II d'Amsterdam",
+        "La guilde des peintres d'Amsterdam",
+        "La Compagnie des Indes orientales",
+        "Le conseil municipal de Leyde"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Rembrandt reçoit la commande avant décembre 1640 pour une compagnie de la milice civique du quartier II d'Amsterdam, placée sous les ordres du capitaine Frans Banninck Cocq."
+    },
+    {
+      "question": "Quand le surnom « Ronde de nuit » apparaît-il pour la première fois dans un document ?",
+      "choix": [
+        "En 1642, l'année même de l'achèvement du tableau",
+        "En 1715, lors du déplacement à l'hôtel de ville",
+        "En 1797, cent cinquante-cinq ans après la peinture",
+        "En 1947, lors du retrait du vernis"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le Rijksmuseum précise que le surnom apparaît pour la première fois dans un document de 1797, cent cinquante-cinq ans après que Rembrandt a achevé la toile en 1642."
+    },
+    {
+      "question": "Qu'est-ce qui, selon le Rijksmuseum, a endommagé le tableau en 1990 ?",
+      "choix": [
+        "Une attaque au couteau, qui laisse douze entailles",
+        "Une attaque à l'acide, qui n'abîme que le vernis",
+        "Un incendie accidentel dans la salle d'exposition",
+        "Une chute pendant un transport vers une exposition"
+      ],
+      "bonne_reponse": 1,
+      "explication": "En 1990, une attaque à l'acide n'abîme que le vernis, grâce à la réaction rapide d'un gardien, selon le Rijksmuseum ; l'attaque au couteau, elle, date de 1975."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -101,10 +135,10 @@
   },
   "controle": {
     "fait_le": "2026-10-13",
-    "verdict": "ok",
-    "empreinte": "44cecbd29c7cf164",
+    "verdict": "a_revoir",
+    "empreinte": "7c865992fd63e2f9",
     "notes": [
-      "Rouvert Wikipédia EN The Night Watch : vernis sombre retiré dans les années 1940, titre « misnomer », pertes de 1715 (personnages, arche, balustrade), attaque au couteau 1975, attaque à l'acide 1990 : concorde. Rijksmuseum (10 things, SK-C-5, Brittle varnish) et Mental Floss non rouverts cette passe (hosts hors de la politique réseau de cet environnement) ; déjà vérifiés au passage précédent, et les changements depuis sont des allègements de texte (suppression de détails non soutenus : lumière dorée, graphie « Nachtwacht », « trop grand pour son emplacement »), sans affirmation nouvelle à vérifier."
+      "Questions supplémentaires ajoutées (routine-questionner) : l'empreinte a changé, repasse au contrôle de fond."
     ]
   },
   "controle_juridique": null,

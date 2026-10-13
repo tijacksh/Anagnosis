@@ -92,7 +92,41 @@
     "explication": "Si les six affinités du noyau sont équivalentes, le nombre de dérivés se calcule : trois pour C6H3X3 et six pour C6H3X2Y, confirmés par l'expérience. Kekulé notait alors le noyau par des formules « en saucisse », et la nuit du rêve ne se vérifie pas.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "À quelle occasion Kekulé raconte-t-il pour la première fois le rêve du serpent ?",
+      "choix": [
+        "Lors d'une fête donnée en 1890 pour les vingt-cinq ans de sa théorie du benzène",
+        "Dans son article original de 1865 sur le benzène",
+        "Lors de son premier cours à l'université de Gand en 1858",
+        "Dans une lettre privée adressée à Josef Loschmidt"
+      ],
+      "bonne_reponse": 0,
+      "explication": "C'est le 11 mars 1890, dans le discours qu'il prononce lors d'une fête organisée par la Société chimique allemande pour les vingt-cinq ans de sa théorie, qu'il raconte ce rêve."
+    },
+    {
+      "question": "Quel autre rêve Kekulé situe-t-il à l'origine de ses travaux, et où l'aurait-il eu ?",
+      "choix": [
+        "Un rêve de cristaux, dans un laboratoire de Heidelberg",
+        "Un rêve de chaînes d'atomes de carbone, dans un omnibus londonien",
+        "Un rêve de cercles concentriques, pendant une traversée en bateau",
+        "Un rêve de flammes, lors d'une expérience ratée à Gand"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Kekulé situe une première rêverie dans un omnibus londonien, à l'origine de ses chaînes d'atomes de carbone, un récit que Philip Ball juge d'une forme très proche de celui du serpent."
+    },
+    {
+      "question": "Combien de dérivés la théorie de 1865 prévoit-elle pour les composés du type C6H3X3 ?",
+      "choix": [
+        "Six",
+        "Un",
+        "Trois",
+        "Douze"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La théorie prévoit trois dérivés pour les composés du type C6H3X3 et six pour ceux du type C6H3X2Y, des prédictions que l'expérience a confirmées exactement."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -111,11 +145,10 @@
   },
   "controle": {
     "fait_le": "2026-10-13",
-    "verdict": "ok",
+    "verdict": "a_revoir",
     "empreinte": "9cc9cb27ead767eb",
     "notes": [
-      "Sources rouvertes 2026-10-13 : Ball (PDF, texte extrait : bus de Clapham, anneau au coin du feu à Gent, forme proche des deux récits, récits tardifs, mot de Wotiz, Loschmidt, « mythologie de la chimie »), Wikipédia EN (récit du serpent donné dans le discours de 1890, fête des 25 ans du premier article ; certains historiens y voient une invention), chemie.de (fête du 11 mars 1890, conseil d'apprendre à rêver sans publier avant épreuve ; ne rattache pas le rêve au discours, la fiche l'attribue bien à Wikipédia), Universalis (3 dérivés C6H3X3, 6 C6H3X2Y, « s'accomplirent exactement »), Chemistry World (Sutton, 9 octobre 2015). Fond conforme, quiz exact.",
-      "Retouche de la relecture (repère ramené à ce que chemie.de établit, source Wikipédia EN ajoutée) relue et correcte. Limite connue : le discours de 1890 lui-même (Berichte 23) n'a pas été rouvert."
+      "Questions supplémentaires ajoutées (routine-questionner) : l'empreinte a changé, repasse au contrôle de fond."
     ]
   },
   "controle_juridique": null,

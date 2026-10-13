@@ -81,7 +81,41 @@
     "explication": "La chaîne retenue passe par l'herbe, le feu, puis les arbres. Les autres facteurs testés, éléphants, pluviométrie moyenne et CO₂, n'ont pas d'effet distinct de zéro sur la densité d'arbres. Les autres réponses décrivent des mécanismes que l'étude ne retient pas.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'est-ce que la peste bovine, et quand a-t-elle été introduite en Afrique ?",
+      "choix": [
+        "Une maladie virale des bovins, introduite à la fin du XIXe siècle",
+        "Une sécheresse exceptionnelle, survenue dans les années 1930",
+        "Une maladie parasitaire des gnous, apparue au XXe siècle",
+        "Un feu de brousse incontrôlé, déclenché dans les années 1950"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La peste bovine est une maladie virale des bovins, introduite en Afrique à la fin du XIXe siècle, qui tue 80 à 90 % des bovins d'Afrique orientale et australe dans les années 1890."
+    },
+    {
+      "question": "Qu'est-ce qui a permis l'élimination de la peste bovine vers 1963 ?",
+      "choix": [
+        "Un arrêt complet de l'élevage bovin dans la région",
+        "Une chasse massive des gnous porteurs du virus",
+        "Une vaccination systématique des bovins, menée par le Kenya",
+        "Une interdiction des feux de brousse par les autorités"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Un vaccin devient disponible à la fin des années 1950 ; le gouvernement du Kenya vaccine systématiquement les bovins, et la maladie est pratiquement éliminée vers 1963."
+    },
+    {
+      "question": "Selon le modèle de Holdo et ses collègues, qu'est-ce qui explique le mieux les variations de densité d'arbres entre 1960 et 2003 ?",
+      "choix": [
+        "Les éléphants",
+        "Le feu",
+        "Le CO₂ atmosphérique",
+        "La pluviométrie moyenne"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le modèle trouve que le feu, et non les éléphants, la pluviométrie moyenne ou le CO₂, est le principal moteur des variations de densité d'arbres entre 1960 et 2003."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -101,11 +135,9 @@
   "controle": {
     "fait_le": "2026-10-13",
     "verdict": "a_revoir",
-    "empreinte": "c78900a9a230c455",
+    "empreinte": "f6c973a90b582bd1",
     "notes": [
-      "Sources rouvertes 2026-10-13 : Holdo et al. 2009 (PLoS Biol, texte lu), Stratton 2010 (UVM, brouillon, texte décodé), UBC Reports 2005, Wikipédia Rinderpest. Corps et repère conformes aux sources, hors les deux points ci-dessous. Bonne réponse du quiz exacte.",
-      "À trancher : carte.idee « éliminée vers 1963 … environ six fois plus nombreux (Holdo et al., 2009) » : Holdo ne contient pas « six » ; Stratton donne 356 000 gnous en 1963 et 1,22 million en 1975 (x3,4), le x6 part du creux d'environ 1960 (232 000 à 200 000) ; UBC ne donne pas de date de départ. Séparer et attribuer à Stratton.",
-      "À trancher : « Tony Sinclair, qui étudie ces troupeaux depuis près de quarante ans » : UBC dit quarante ans de recherche, dont dix au Serengeti. Note de sources[2] (« herbe brûlée remplacée par la pâture des gnous ») mal paraphrasée : l'article dit que le broutage a presque supprimé le combustible des feux. Corrigé seul : titre et auteur de la source UBC (« Saving the Serengeti », Hilary Thomson). Optionnel : « meilleurs prédicteurs » (DIC) un peu fort ; distracteur sur la pluie moyenne non vérifié dans le texte."
+      "Questions supplémentaires ajoutées (routine-questionner) : l'empreinte a changé, repasse au contrôle de fond."
     ]
   },
   "controle_juridique": null,

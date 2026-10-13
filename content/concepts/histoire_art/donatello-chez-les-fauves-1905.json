@@ -77,7 +77,41 @@
     "explication": "Vauxcelles compare à l'art de Donatello le buste d'Albert Marque, de facture classique, installé au centre de la salle VII, et les « fauves » renvoient aux toiles et aux peintres qui l'entourent. Donatello n'intervient que comme comparaison, et la phrase ne vise ni un tableau de Matisse ni le jury.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Dans quel journal et à quelle date Vauxcelles publie-t-il la formule « Donatello chez les fauves » ?",
+      "choix": [
+        "Gil Blas, le 17 octobre 1905",
+        "Le Figaro, le 14 novembre 1908",
+        "Gil Blas, le 14 novembre 1908",
+        "Le Mercure de France, en 1909"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La phrase paraît dans le supplément de Gil Blas du 17 octobre 1905, au lendemain de la visite du critique au Salon d'automne, dans la salle VII où exposaient les jeunes peintres."
+    },
+    {
+      "question": "Quel autre mot Vauxcelles invente-t-il par la suite, et à propos de qui ?",
+      "choix": [
+        "« Nabis », à propos de Paul Sérusier",
+        "« Cubes », à propos de Georges Braque",
+        "« Fauves », à propos de Henri Matisse",
+        "« Orphisme », à propos de Robert Delaunay"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Vauxcelles emploie le mot « cubes » dans Gil Blas du 14 novembre 1908 à propos de Georges Braque, trois ans après avoir nommé les Fauves."
+    },
+    {
+      "question": "Combien de temps le fauvisme a-t-il duré comme mouvement de groupe, selon Larousse ?",
+      "choix": [
+        "Dix ans",
+        "Vingt ans",
+        "Quatre ans",
+        "Un an"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Larousse écrit que le fauvisme est mort de son intensité quatre ans seulement après le Salon d'automne de 1905, bien que le nom, lui, soit resté durablement."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -96,11 +130,10 @@
   },
   "controle": {
     "fait_le": "2026-10-13",
-    "verdict": "ok",
-    "empreinte": "90ed9e7d3241ad8d",
+    "verdict": "a_revoir",
+    "empreinte": "08085e1970ddaef4",
     "notes": [
-      "Sources rouvertes 2026-10-13 : Wikipédia FR Fauvisme (fragment de Gil Blas du 17 octobre 1905, supplément, notes 8 et 9 ; « Salle archi-claire, des oseurs, des outranciers » ; « Au centre de la salle, un torse d'enfant et un petit buste en marbre d'Albert Marque » ; « Donatello chez les fauves »), Wikipédia FR Salon d'automne (salle VII, bustes de Marque au centre), Wikipédia EN Vauxcelles (« cubes », Gil Blas du 14 novembre 1908), Larousse (buste classique de Marque dans la salle VII, boutade qui fera école, fauvisme « mort de son intensité » quatre ans après). Tout concorde ; quiz exact.",
-      "Variante connue de la ponctuation de la citation (« : Donatello » sur Fauvisme, « : c'est Donatello » sur Salon d'automne) : la fiche suit Fauvisme et le dit. Scan Gallica non rouvert (403)."
+      "Questions supplémentaires ajoutées (routine-questionner) : l'empreinte a changé, repasse au contrôle de fond."
     ]
   },
   "controle_juridique": null,

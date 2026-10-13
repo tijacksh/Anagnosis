@@ -79,7 +79,41 @@
     "explication": "La Cour constate que la Charte ne règle pas la question en toutes lettres et déduit la capacité des fonctions confiées à l’Organisation. Elle juge aussi que cinquante États pouvaient créer une personnalité objective, pas seulement reconnue par eux, ce qui exclut que l’ONU n’ait de droits que contre ceux qui l’ont reconnue.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Qui a été tué avec le comte Bernadotte lors de l'embuscade du 17 septembre 1948 ?",
+      "choix": [
+        "Le colonel français André Sérot",
+        "Le juge Samuel Freeman Miller",
+        "Le secrétaire général des Nations unies",
+        "Un autre médiateur suédois"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le colonel français André Sérot, qui accompagne Bernadotte dans son convoi à Jérusalem, meurt avec lui dans l'embuscade."
+    },
+    {
+      "question": "Par combien de voix la Cour reconnaît-elle la capacité de l'ONU à réclamer réparation pour le dommage subi par l'Organisation elle-même ?",
+      "choix": [
+        "Dix voix contre cinq",
+        "Onze voix contre quatre",
+        "À l'unanimité",
+        "Sept voix contre huit"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La première branche, le dommage subi par l'Organisation elle-même, est tranchée à l'unanimité ; la seconde, le dommage subi par la victime, l'est par onze voix contre quatre."
+    },
+    {
+      "question": "Comment la Cour répond-elle à l'objection des États qui n'ont pas fondé l'ONU ?",
+      "choix": [
+        "Elle leur reconnaît un droit de veto sur toute réclamation de l'Organisation",
+        "Elle juge que cinquante États pouvaient créer une entité à personnalité internationale objective",
+        "Elle exige que ces États ratifient d'abord la Charte avant toute réclamation",
+        "Elle refuse de statuer sur cette objection, faute de majorité suffisante"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La Cour écarte l'objection : cinquante États, représentant la très grande majorité de la communauté internationale, avaient le pouvoir de créer une personnalité internationale objective."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -98,11 +132,10 @@
   },
   "controle": {
     "fait_le": "2026-10-13",
-    "verdict": "ok",
-    "empreinte": "34ae531e05cb44f1",
+    "verdict": "a_revoir",
+    "empreinte": "c824618f044d7e85",
     "notes": [
-      "Sources rouvertes 2026-10-13 : page CIJ affaire 4 (avis du 11 avril 1949), avis sur la reprise OCR lagen.nu (PDF officiel en 403) : résolution du 3 décembre 1948, « not settled by the actual terms of the Charter », pouvoirs par implication nécessaire, sujets de droit non identiques, cinquante États et personnalité objective, votes 1(a) unanimité, 1(b) 11-4, II 10-5, agents au sens large ; page vidéo ONU (17 septembre 1948, Jérusalem) ; Wikipédia (embuscade à Katamon, colonel Sérot tué à ses côtés). Quiz exact, distracteurs faux.",
-      "Limite connue : le nom du colonel Sérot ne repose que sur Wikipédia ; la page CIJ donne le 7 décembre 1948 pour la pièce de demande, le 3 est bien la date de la résolution. L'avis ne nomme pas Bernadotte (la fiche ne le prétend pas)."
+      "Questions supplémentaires ajoutées (routine-questionner) : l'empreinte a changé, repasse au contrôle de fond."
     ]
   },
   "controle_juridique": null,

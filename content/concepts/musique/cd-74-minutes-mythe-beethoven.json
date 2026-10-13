@@ -79,7 +79,41 @@
     "explication": "Les comptes rendus relus par Immink notent 120 mm et 75 minutes en mai 1980, alors que le code de canal n'est accepté que le 19 juin 1980 ; en décembre 1979, Philips préférait 115 mm et Sony 100 mm. La plus longue Neuvième connue dure 74 minutes (Furtwängler, 1951), contrairement à la première réponse. Et l'EFM, 30 % plus dense, aurait permis de loger 74 minutes sur 115 ou 100 mm : il n'a pas imposé le 120 mm.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle durée propose Philips lors de la réunion du 20 décembre 1979 à Tokyo ?",
+      "choix": [
+        "Un disque de 115 millimètres, pour soixante minutes",
+        "Un disque de 120 millimètres, pour soixante-quinze minutes",
+        "Un disque de 100 millimètres, pour quarante-cinq minutes",
+        "Un disque de 130 millimètres, pour quatre-vingt-dix minutes"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le 20 décembre 1979 à Tokyo, Philips propose un disque de 115 millimètres, la taille d'une cassette compacte, pour soixante minutes, quand Sony proposait 100 millimètres."
+    },
+    {
+      "question": "Quel était, selon Immink, le plafond pratique de durée d'un CD, avant que le format s'impose pleinement ?",
+      "choix": [
+        "74 minutes et 33 secondes",
+        "97 minutes",
+        "72 minutes, la durée du magnétoscope U-Matic",
+        "60 minutes, la durée d'une cassette"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Immink écrit qu'en pratique le plafond était de 72 minutes, la durée du magnétoscope U-Matic utilisé pour l'enregistrement, bien que le disque puisse en théorie contenir 74 minutes et 33 secondes."
+    },
+    {
+      "question": "Quel disque est pressé en premier comme test du format, en décembre 1980 ?",
+      "choix": [
+        "La Neuvième Symphonie de Beethoven, par Furtwängler",
+        "La Symphonie alpestre de Strauss, par le Philharmonique de Berlin",
+        "La Neuvième Symphonie de Beethoven, par Karajan",
+        "Les Quatre Saisons de Vivaldi, par I Musici"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le premier disque test, pressé en décembre 1980, n'est pas la Neuvième mais la Symphonie alpestre de Strauss, par le Philharmonique de Berlin que dirige Karajan."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
@@ -97,11 +131,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-10-12",
+    "fait_le": "2026-10-13",
     "verdict": "a_revoir",
-    "empreinte": "ef95c9b32f1ec608",
+    "empreinte": "f95cc618c7101ce2",
     "notes": [
-      "Attribution erronée : la fiche écrit « Ce que Immink avance à la place » (usine PolyGram de 115 mm, Sony sans installation équivalente, intérêt d'Ohga). Les deux sources citées ne disent que « commercial disputes also played a part » ; l'histoire PolyGram/Hanovre vient d'une interview du Sunday Tribune, et Immink conteste cette explication. Immink dit d'ailleurs qu'avant l'EFM, 120 mm était calculé pour la Neuvième : l'argument « 74 min n'a pas déterminé le diamètre » est plus nuancé que la fiche. Non soutenus par les sources citées : intérêt supposé d'Ohga, « deux décennies » de plafond à 74 minutes, rééditions coupées. Furtwängler et 115 mm absents de la page Compact disc (présents sur la page Immink). Quiz : l'explication invoque « Ohga était déjà en poste » et « les 60 minutes n'ont jamais été le standard », non sourcés. Karajan : premier pressage test = Symphonie alpestre de Strauss (Philharmonique de Berlin), vérifié."
+      "Questions supplémentaires ajoutées (routine-questionner) : l'empreinte a changé, repasse au contrôle de fond."
     ]
   },
   "controle_juridique": null,
