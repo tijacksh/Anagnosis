@@ -54,23 +54,33 @@
     "statut": "a_generer"
   },
   "quiz": {
-    "question": "Pour expliquer des dizaines d'espèces de plancton dans l'eau libre, quelle idée Hutchinson juge-t-il nécessaire ?",
+    "question": "Symbiose et prédation jugées insuffisantes pour des dizaines d'espèces, que reste-t-il, selon Hutchinson, pour expliquer leur coexistence dans une eau sans structure ?",
     "choix": [
       "Des tranches de lumière bien séparées, où chaque espèce occupe sa propre profondeur",
       "Une symbiose entre toutes les espèces, chacune dépendant d'une autre pour ses vitamines",
-      "Un principe d'exclusion compétitive faux, que l'étude du plancton réfute",
+      "Un prédateur qui limiterait de la même façon toutes les espèces concurrentes",
       "Un milieu qui change avant que l'exclusion d'une espèce par une autre soit achevée"
     ],
     "bonne_reponse": 3,
-    "explication": "Hutchinson écarte des niches de lumière en eau turbulente, doute que symbiose et prédation suffisent pour des dizaines d'espèces, et tient le principe pour vrai par construction. La symbiose par les vitamines, jugée réelle, ne suffit pas pour des dizaines d'espèces. Le plancton se renouvelle en jours ou en semaines, donc le milieu change avant la fin de l'exclusion."
+    "explication": "Hutchinson écarte des niches de lumière en eau turbulente, et doute que symbiose et prédation suffisent à elles seules pour des dizaines d'espèces. La symbiose par les vitamines, jugée réelle, ne suffit pas à ce nombre. La prédation n'aide que si elle limite différemment deux espèces concurrentes : un prédateur qui les limiterait de façon identique ne change rien à l'exclusion. Le plancton se renouvelle en jours ou en semaines, donc le milieu change avant la fin de l'exclusion.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
   "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-13T07:31:02.113Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "routine-reparation",
+        "le": "2026-10-13T07:31:02.113Z",
+        "note": "Article primaire (Hutchinson 1961, American Naturalist 95(882), 137-145) toujours NON lu : JSTOR renvoie une page anti-bot (HTTP 200 mais contenu bloqué), doi.org redirige vers journals.uchicago.edu qui est bloqué par la politique réseau de cet environnement, les deux copies PDF trouvées par recherche (uni-hamburg.de, umbc.edu) sont bloquées par la même politique. Un point du contrôle est résolu par recherche indépendante : l'argument de prédation différentielle développé 'avec Robert MacArthur' est confirmé — une source tierce (billet Springer Nature retrouvé par recherche web, citant le texte de Hutchinson) rapporte que Hutchinson dit avoir élaboré ce point 'in conversation' avec MacArthur ; ce n'est donc pas une invention. Les quatre autres points signalés restent non vérifiables aujourd'hui : date et lieu de présentation (27 décembre 1960, Société américaine des naturalistes, New York), affiliation (Osborn Zoological Laboratory), la référence à 1941, Gause 1934 absent des sources, et surtout la formulation du statut du principe ('analytiquement vrai, tautologique') sur laquelle repose le titre et la conclusion de la fiche — Wikipédia (Paradox of the plankton) et JSTOR Daily, les deux seules sources lisibles, ne couvrent aucun de ces points. Corrigé, sans dépendre d'une source externe : la question du quiz contredisait le corps ('Hutchinson ne le tranche pas') en présentant une idée comme jugée 'nécessaire' — reformulée en 'que reste-t-il après élimination de symbiose et prédation' ; distracteur sur l'exclusion compétitive 'réfutée' remplacé (trop évident juste après la section qui le dit explicitement faux) par un distracteur sur un prédateur non différentiel, idée reçue plus plausible. Reste en_retouche : le cœur du mécanisme (tautologie, conclusion, 1941, Gause, date/lieu) ne peut être revérifié que si JSTOR ou uchicago deviennent accessibles."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-13",
