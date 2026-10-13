@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'espacement inhabituel des piliers du chœur, choisi pour la hauteur et la lumière, réduisait la marge de sécurité de la structure face aux vents violents qui ont mis les arcs-boutants en résonance ; ni la pierre, ni un incendie, ni un défaut de financement avant la construction ne sont en cause.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -109,11 +109,11 @@
       "explication": "Une flèche de 153 mètres construite à la croisée du transept s'effondre en 1573, quatre ans à peine après son achèvement ; faute de fonds pour la reconstruire, seule une travée de la nef sera encore voûtée, en 1604, avant l'abandon définitif du projet."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-10-13T11:24:28.329Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-13T16:04:56.314Z",
     "historique": [
       {
         "action": "valider",
@@ -138,6 +138,14 @@
         "par": "routine-controle",
         "le": "2026-10-13T11:24:28.329Z",
         "note": "Contrôle des sources du 2026-10-13 : affirmations non soutenues par les sources, voir controle.notes."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-13T16:04:56.314Z",
+        "note": "Rejetée sans troisième réparation (déjà réparée le 2026-09-19 et le 2026-09-22, retirée de nouveau par le contrôle du 2026-10-13). Deux affirmations centrales restent sans source : (1) des travées de renfort proposées par les experts avant 1284 et non construites à temps ; (2) l'espacement des piliers du chœur pour la lumière, alors que le site officiel parle d'une réduction de l'épaisseur des culées. La bonne réponse du quiz et son explication reposent sur cet espacement ; la corriger vide la fiche de son mécanisme. Hauteur toujours divergente (48,50 m fr.wikipedia, près de 47 m site officiel). Sources non rouvertes une troisième fois : décision prise sur la règle des deux réparations et sur les notes du contrôle du 2026-10-13."
       }
     ]
   },
