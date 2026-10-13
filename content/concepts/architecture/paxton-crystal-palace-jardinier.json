@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Paxton avait construit à Chatsworth une serre pour faire fleurir la Victoria amazonica, un nénuphar dont les feuilles reposent sur un réseau de nervures rigides ; il en a tiré le principe des nervures porteuses préfabriquées du Crystal Palace. Il n'y a ni association secrète, ni copie d'un concurrent, ni référence gothique dans ce processus.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -118,11 +118,11 @@
       "explication": "La fiche indique que le bâtiment est démonté après l'Exposition puis reconstruit à plus grande échelle à Sydenham, au sud de Londres, en 1854."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-26T07:18:42.990Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-13T11:24:28.329Z",
     "historique": [
       {
         "action": "valider",
@@ -131,15 +131,24 @@
         "par": "routine-reparation",
         "le": "2026-08-26T07:18:42.990Z",
         "note": "Sources rouvertes (V&A, Wikipedia The Crystal Palace, Wikipedia Joseph Paxton, et Dictionary of National Biography 1885-1900 via Wikisource ajoutée pour trancher la date d'anoblissement). Corrigé le corps : 'fait chevalier l'année suivant l'Exposition' (soit 1852) remplacé par 'en 1851, à l'achèvement du bâtiment' — le DNB confirme l'anoblissement en 1851, à l'achèvement du Crystal Palace, et non l'année suivant l'Exposition. Corrigé le repere : ne cite plus que ce que la page V&A soutient réellement (croquis du 11 juin 1850, réunion du conseil du chemin de fer Midland, rejet des autres propositions) — les chiffres '245 projets' et 'approuvé un mois plus tard', absents de la page V&A, restent dans le corps où ils sont sourcés par sources[1] Wikipedia. Reste de la fiche revérifié (245 projets confirmés par Wikipedia The Crystal Palace, poste à Chatsworth depuis 1826, Victoria amazonica, croquis 11 juin 1850, approbation juillet 1850, ouverture 1er mai 1851, Sydenham 1854, quiz, carte) : conforme aux sources."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-13T11:24:28.329Z",
+        "note": "Contrôle des sources du 2026-10-13 : affirmations non soutenues par les sources, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-27",
-    "verdict": "corrige",
-    "empreinte": "18d0ee369b3b4c89",
+    "fait_le": "2026-10-13",
+    "verdict": "a_revoir",
+    "empreinte": "48818dfb87985d6d",
     "notes": [
-      "Re-contrôle indépendant après réparation. Les deux corrections précédentes validées : date d'anoblissement 1851 à l'achèvement du bâtiment confirmée mot pour mot par le Dictionary of National Biography (Wikisource) ; repere recentré sur ce que dit réellement la page V&A (croquis du 11 juin 1850, réunion du conseil du chemin de fer Midland à Derby, papier buvard, rejet des autres propositions), les chiffres 245 projets/juillet 1850 restant dans le corps sourcés par Wikipedia The Crystal Palace, confirmés. Correction supplémentaire : la note de sources[2] (Wikipedia Joseph Paxton) attribuait à tort la date de 1826 (prise de fonction à Chatsworth) à cette page, qui ne la mentionne pas (elle dit seulement que le duc lui offre le poste à vingt ans) — la date de 1826 vient en réalité du Dictionary of National Biography (sources[3]) ; notes corrigées en conséquence. Reste vérifié conforme : 245 projets, ouverture 1er mai 1851, Sydenham 1854, Victoria amazonica, quiz et carte."
+      "Sources rouvertes 2026-10-13 : V&A (croquis sur papier buvard rose, 11 juin 1850, réunion du conseil du Midland Railway à Derby, autres projets rejetés : conforme) ; Wikipedia The Crystal Palace (245 projets en trois semaines, tous rejetés, juillet 1850, 1er mai 1851, Sydenham 1854, nénuphar à l'origine du dessin : conforme) ; DNB (anoblissement en 1851 à l'achèvement, conservatoire achevé en 1840 : conforme).",
+      "À trancher : (1) « Paxton n'avait jusque là dessiné que des serres, jamais un bâtiment destiné à accueillir du public » : aucune source de la fiche ne le dit, et Wikipedia Joseph Paxton liste avant 1850 des parcs (Prince's Park 1842, Birkenhead Park 1843), le village d'Edensor, la fontaine de l'Empereur, tandis que le DNB dit qu'il a dessiné « de nombreux bâtiments importants » (Ferrières) ; la Grande Serre de Chatsworth (1836-1840) est attribuée par Wikipedia à Decimus Burton pour la conception ; (2) « feuilles larges de plus de deux mètres » et « Lily House en 1850 » : non retrouvés dans les pages lues (Wikipedia : 1,4 m deux mois après le semis, maison non datée) ; (3) « le bâtiment le plus photographié de son siècle » : superlatif sans source."
     ]
   },
   "controle_juridique": null,

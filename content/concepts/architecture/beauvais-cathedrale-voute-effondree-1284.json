@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'espacement inhabituel des piliers du chœur, choisi pour la hauteur et la lumière, réduisait la marge de sécurité de la structure face aux vents violents qui ont mis les arcs-boutants en résonance ; ni la pierre, ni un incendie, ni un défaut de financement avant la construction ne sont en cause.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -109,11 +109,11 @@
       "explication": "Une flèche de 153 mètres construite à la croisée du transept s'effondre en 1573, quatre ans à peine après son achèvement ; faute de fonds pour la reconstruire, seule une travée de la nef sera encore voûtée, en 1604, avant l'abandon définitif du projet."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-22T07:13:23.396Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-13T11:24:28.329Z",
     "historique": [
       {
         "action": "valider",
@@ -130,15 +130,24 @@
         "par": "routine-reparation",
         "le": "2026-09-22T07:13:23.396Z",
         "note": "Sources rouvertes en direct (fr.wikipedia.org, en.wikipedia.org) ; cathedrale-beauvais.fr toujours bloqué par le proxy réseau, vérifié par recherche web. Point signalé confirmé faux : la fiche affirmait qu'une travée de nef avait été bâtie dans l'urgence AVANT l'effondrement de la flèche de 1573 pour étayer l'édifice. fr.wikipedia.org (texte exact : « L'année 1604 vit les derniers travaux : le voûtement de la première travée de la nef ») et en.wikipedia.org confirment au contraire que des travées de renfort avaient seulement été proposées avant 1573 mais non construites à temps, et que la première travée de nef n'a été voûtée qu'en 1604, plus de trente ans après le sinistre, dernier chantier avant l'abandon définitif. Corps du texte et explication du quiz supplémentaire n°3 réécrits en conséquence ; note de la source cathedrale-beauvais.fr allégée du même point non vérifiable en direct. Reste de la fiche (hauteur ~47m, mécanisme de résonance, passage de trois à six travées, achèvement vers 1347, flèche de 153m effondrée en 1573 quatre ans après achèvement, quiz) déjà confirmé par le contrôle du 2026-09-22 et inchangé."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-13T11:24:28.329Z",
+        "note": "Contrôle des sources du 2026-10-13 : affirmations non soutenues par les sources, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-22",
-    "verdict": "ok",
-    "empreinte": "a17d3d329ebdceae",
+    "fait_le": "2026-10-13",
+    "verdict": "a_revoir",
+    "empreinte": "7989bd90d6eefacd",
     "notes": [
-      "Passage indépendant après les deux réparations du 2026-09-22. Sources rouvertes en direct : fr.wikipedia.org et en.wikipedia.org (cathedrale-beauvais.fr toujours bloqué par le proxy réseau, recoupé par recherche web comme les passages précédents). Point spécifiquement revérifié à partir de zéro : la réécriture du passage 1573/nef. fr.wikipedia.org confirme mot pour mot 'L'année 1604 vit les derniers travaux : le voûtement de la première travée de la nef', sans mention de travées de renfort bâties avant 1573 ; en.wikipedia.org ne mentionne aucune construction de nef avant 1573 non plus (seulement des plans dessinés après coup, travaux repris brièvement vers 1600). La correction du réparateur tient donc face à une nouvelle lecture indépendante des sources. Reste de la fiche revérifié par la même occasion : hauteur ~47m (fr.wikipedia donne 48,50m pour le chœur, en.wikipedia donne les deux valeurs 47,5m et 48,5m selon les endroits de l'article -- écart déjà documenté et arbitré lors de la réparation du 2026-09-19, rien de neuf à charge ni à décharge), mécanisme de résonance et pilier fragile confirmés, passage de trois à six travées côté sud et achèvement vers 1347 confirmés, flèche de 153m effondrée le 30 avril 1573 quatre ans après achèvement (1569) confirmée, quiz et quiz_supplementaire conformes aux sources. Aucune correction supplémentaire nécessaire."
+      "Sources rouvertes 2026-10-13 : cathedrale-beauvais.fr (page historique, cette fois lisible) et fr.wikipedia (100 000 premiers caractères). Confirmés : construction 1225-1230, plus haute voûte gothique, vendredi de novembre 1284, tempête, trois à six travées côté sud, vers 1347, flèche de 153 m en 1573 quatre ans après 1569, première travée de la nef voûtée en 1604, Basse-Œuvre.",
+      "À trancher : (1) « Des travées de renfort avaient bien été proposées par les experts avant le sinistre, mais elles n'ont pas été construites à temps » : aucune des deux sources n'en parle (le site officiel dit que les piliers de renfort sont venus après 1284 « par précaution », fr.wikipedia ne mentionne que le projet de Ramée en 1842) ; (2) « ont espacé les piliers du chœur plus qu'ailleurs, réduisant le nombre de points d'appui pour laisser passer davantage de lumière » : le site officiel dit que l'épaisseur des culées a été réduite « afin de faire pénétrer un maximum de lumière », pas que les piliers ont été espacés ; or la bonne réponse du quiz et son explication reposent sur cet espacement. Hauteur : fr.wikipedia donne toujours 48,50 m, le site officiel « près de 47 m » (arbitrage de la réparation du 2026-09-19 maintenu)."
     ]
   },
   "controle_juridique": null,
