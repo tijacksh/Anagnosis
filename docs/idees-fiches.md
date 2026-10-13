@@ -331,3 +331,7 @@ peut rouvrir directement le texte du décret.)*
 | Archéologie | Richard III : un squelette dont le chromosome Y ne correspond pas, identifié quand même (King et al., Nature Communications, 2014) | fait | routine-production-arnaud | 2026-10-13 |
 | Archéologie | Stonehenge : la pierre d'autel venue du nord-est de l'Écosse (Clarke et al., Nature, 2024), une région et non une carrière | abandonné (sujet en révision rapide : source resserrée et transport glaciaire discutés dans des études de janvier et juin 2026, le texte serait périmé avant relecture) | routine-production-arnaud | 2026-10-13 |
 | Archéologie | Lascaux : la fermeture de 1963 (algues vertes) et l'invasion de moisissures de 2001 après les travaux sur l'air de la grotte (Orial et al., 2009 ; réponse ministérielle de 2008) | fait | routine-production-arnaud | 2026-10-13 |
+| Conformité | L'incendie de la Triangle Shirtwaist Company (25 mars 1911) et la Factory Investigating Commission de l'État de New York | fait | routine-production | 2026-10-13 |
+| Conformité | Love Canal et le Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA, 11 décembre 1980) | fait | routine-production | 2026-10-13 |
+| Conformité | Le rapport Robens (1972) et le Health and Safety at Work etc. Act britannique (1974), *Edwards v. National Coal Board* (1949) | fait | routine-production | 2026-10-13 |
+| Conformité | *Guja c. Moldova* (CEDH, Grande Chambre, 12 février 2008), premier test européen du lanceur d'alerte | fait | routine-production | 2026-10-13 |
