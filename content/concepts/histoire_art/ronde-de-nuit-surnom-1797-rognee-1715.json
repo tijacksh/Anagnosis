@@ -80,12 +80,25 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le tableau est achevé en 1642 et déplacé en 1715, soixante-treize ans plus tard, vers un emplacement où il faut le faire tenir entre deux portes : quatre morceaux sont coupés, dont le plus grand à gauche. Rembrandt ne l'a pas réduit, et les coupes précèdent de plus de deux siècles l'attaque au couteau de 1975.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-13T06:41:14.222Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-13T06:41:14.222Z",
+        "note": "Relu 2026-10-13, sources rouvertes : Rijksmuseum 10 things (pas de titre à l'origine, surnom d'abord dans un document de 1797, commande avant déc. 1640, wijk II sous Banninck Cocq, 1715 hôtel de ville du Dam, quatre morceaux dont le plus grand à gauche, jamais retrouvés, 12 entailles 1975, acide 1990 seul le vernis atteint grâce à un gardien), Rijksmuseum SK-C-5 (signé Rembrandt f 1642, résolution du 23 mai 1715 nettoyer et placer dans la petite salle du conseil de guerre, ne mentionne pas la découpe), Rijksmuseum Brittle varnish (vernis de 1947 = mastic cassant et jauni, 12 entailles le 14 sept. 1975), Wikipédia EN (vernis retiré seulement dans les années 1940, titre misnomer, pertes de 1715 : deux personnages, haut de l'arche, balustrade, bord de la marche), Mental Floss (vernis noirci retiré dans les années 1940, découpe). Tout concorde, le lien vernis-surnom est correctement présenté comme non établi. Aucune correction du fond."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-13",
     "verdict": "ok",

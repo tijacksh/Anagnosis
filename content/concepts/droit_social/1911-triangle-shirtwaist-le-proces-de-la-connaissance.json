@@ -87,7 +87,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "La question posée aux jurés était de savoir si les propriétaires savaient les portes verrouillées au moment de l'incendie : c'est l'état d'esprit des accusés qui était en cause. Les autres réponses décrivent des questions que les sources consultées ne mentionnent pas.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -113,9 +113,22 @@
       "explication": "La commission a rédigé trente-six projets de loi sur le travail que la législature a finalement adoptés. Les autres propositions ne correspondent pas à ce que décrivent les sources."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-13T06:41:13.597Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-13T06:41:13.597Z",
+        "note": "Relu 2026-10-13, sources rouvertes : Cornell ILR investigationTrial (inculpation 11 avril, 7 chefs, homicide involontaire 2e degré, section 80 portes non verrouillées, question posée aux jurés = savoir si les propriétaires savaient les portes verrouillées, acquittement 27 déc. à 23 jours, Steuer, 23 procès civils réglés le 11 mars 1914 à 75 $), Cornell timeline trial (4 déc. - 27 déc.), timeline lawsuits (23 procès en 1911, règlement 1914, 75 $), Cornell legacy (36 projets de loi adoptés), Wikipédia EN Triangle fire (16 h 40, étages 8-10, 146 dont 123 femmes, porte verrouillée contre les vols, Steuer/Alterman, amende de 20 $ en 1913, jugement civil 1913 à 75 $, Wagner président), Wikipédia EN Robert F. Wagner (sénateur 1927-1949, Wagner Act). Toutes les affirmations retrouvées ; aucune correction du texte. Quiz : bonne réponse conforme à Cornell, distracteurs faux, pas de longueur révélatrice. Réserve éditoriale non bloquante : distracteurs absurdes dans quiz_supplementaire (escaliers, profession de confectionneur)."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-13",
     "verdict": "ok",
