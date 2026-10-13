@@ -326,3 +326,7 @@ peut rouvrir directement le texte du décret.)*
 | Physique | Michelson-Morley (1887) n'est pas le point de départ de la relativité d'Einstein (Shankland, 1950-1952) | fait | routine-production-arnaud | 2026-10-13 |
 | Physique | L'effet Mpemba : l'eau chaude gèle-t-elle plus vite ? (Mpemba et Osborne, 1969 ; Burridge et Linden, 2016 ; Kumar et Bechhoefer, 2020) | fait | routine-production-arnaud | 2026-10-13 |
 | Physique | Goddard et le New York Times : la fusée dans le vide (éditorial du 13 janvier 1920, correction du 17 juillet 1969) | fait | routine-production-arnaud | 2026-10-13 |
+| Archéologie | L'Anse aux Meadows : la date de 1021 donnée par le pic de carbone 14 de 993 dans les cernes (Kuitems et al., Nature, 2021) | en cours | routine-production-arnaud | 2026-10-13 |
+| Archéologie | Le journal de l'inspecteur Merer (papyrus de l'Ouadi el-Jarf, fin du règne de Khéops) : le plus ancien témoin écrit du chantier de la Grande Pyramide | en cours | routine-production-arnaud | 2026-10-13 |
+| Archéologie | Richard III : un squelette dont le chromosome Y ne correspond pas, identifié quand même (King et al., Nature Communications, 2014) | en cours | routine-production-arnaud | 2026-10-13 |
+| Archéologie | Stonehenge : la pierre d'autel venue du nord-est de l'Écosse (Clarke et al., Nature, 2024), une région et non une carrière | en cours | routine-production-arnaud | 2026-10-13 |
