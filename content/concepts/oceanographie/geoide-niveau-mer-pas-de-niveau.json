@@ -80,15 +80,25 @@
       "L'effet des marées de la Lune, plus fort dans l'océan Indien"
     ],
     "bonne_reponse": 1,
-    "explication": "Le géoïde est la forme que prendrait l'eau sans marée ni courant, sous la seule gravité. Le creux est un écart par rapport à une référence lisse, dû à une gravité plus faible. Il ne s'agit ni d'une fosse, ni d'un courant, ni de marées."
+    "explication": "Le géoïde est la forme que prendrait l'eau sans marée ni courant, sous la seule gravité. Le creux est un écart par rapport à une référence lisse, dû à une gravité plus faible. Il ne s'agit ni d'une fosse, ni d'un courant, ni de marées.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-13T12:42:56.415Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-13T12:42:56.415Z",
+        "note": "Sources rouvertes le 2026-10-13 : NOAA (géoïde, eau haute où la gravité est forte), Wikipédia EN Geoid (+85 m Islande / -106 m sud de l'Inde, <200 m, GOCE mars 2009, modèle du 31 mars 2011, canaux hypothétiques), ESA (légende du 28 mars 2011, -100 à +100 m), IISc (106 m, « lowest geoid/gravity anomaly on Earth », équipe IISc et GFZ, modèles numériques, matériau plus chaud et plus léger 300-900 km, superpanache africain dévié vers l'est, explications antérieures par plaques froides, limites). Carte et quiz exacts, distracteurs faux. Aucun changement. Réserve : la légende de la figure IISc parle de ~1000 km, le texte de 900 km (la fiche suit le texte)."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-13",
