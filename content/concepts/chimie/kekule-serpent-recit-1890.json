@@ -93,12 +93,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-13T10:19:02.441Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-13T10:19:02.441Z",
+        "note": "Sources rouvertes en second passage : Wikipédia EN directement (récit du serpent donné dans le discours de 1890, 25e anniversaire du 1er article, doute d'historiens sur l'invention). chemie.de, universalis.fr et philipball.co.uk bloqués par la politique réseau de cet environnement (403) : corroborés via extraits de moteur de recherche reprenant le texte source mot pour mot (Universalis : « on attendait trois composés C6H3X3... 6 composés... ces prédictions se sont vérifiées » ; fête du 11 mars 1890 à Berlin pour les 25 ans du papier de 1865, récit du rêve à Gand, confirmés par plusieurs sources indépendantes). Carte et quiz vérifiés, rien en excès. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-13",
