@@ -335,7 +335,7 @@ peut rouvrir directement le texte du décret.)*
 | Conformité | Love Canal et le Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA, 11 décembre 1980) | fait | routine-production | 2026-10-13 |
 | Conformité | Le rapport Robens (1972) et le Health and Safety at Work etc. Act britannique (1974), *Edwards v. National Coal Board* (1949) | fait | routine-production | 2026-10-13 |
 | Conformité | *Guja c. Moldova* (CEDH, Grande Chambre, 12 février 2008), premier test européen du lanceur d'alerte | fait | routine-production | 2026-10-13 |
-| Épistémologie | Ludwik Fleck (1935) : un fait scientifique a une genèse collective, la réaction de Wassermann comme cas d'école | en cours | routine-production-arnaud | 2026-10-13 |
-| Épistémologie | Nelson Goodman et « grue » : la nouvelle énigme de l'induction (1954-1955) | en cours | routine-production-arnaud | 2026-10-13 |
-| Épistémologie | « Hypotheses non fingo » : Newton ne refuse pas toute hypothèse (Scholie général, 1713) | en cours | routine-production-arnaud | 2026-10-13 |
-| Épistémologie | « Des affirmations extraordinaires exigent des preuves extraordinaires » : Sagan n'en est pas l'origine (Hume 1748, Laplace, Truzzi, Sagan 1979) | en cours | routine-production-arnaud | 2026-10-13 |
+| Épistémologie | Ludwik Fleck (1935) : un fait scientifique a une genèse collective, la réaction de Wassermann comme cas d'école | fait | routine-production-arnaud | 2026-10-13 |
+| Épistémologie | Nelson Goodman et « grue » : la nouvelle énigme de l'induction (1954-1955) | fait | routine-production-arnaud | 2026-10-13 |
+| Épistémologie | « Hypotheses non fingo » : Newton ne refuse pas toute hypothèse (Scholie général, 1713) | fait | routine-production-arnaud | 2026-10-13 |
+| Épistémologie | « Des affirmations extraordinaires exigent des preuves extraordinaires » : Sagan n'en est pas l'origine (Hume 1748, Laplace, Truzzi, Sagan 1979) | fait | routine-production-arnaud | 2026-10-13 |
