@@ -66,7 +66,44 @@
     "explication": "La cour juge que créer un index de recherche et des outils de fréquence lexicale transforme l'usage du texte : le public reçoit une information sur les livres, non un substitut, et les extraits, brefs et dispersés, ne remplacent que très rarement l'achat. Le corpus comprend aussi des œuvres encore protégées, et la décision repose sur le fair use, non sur une cession de droits des bibliothèques ni sur une autorisation légale expresse de numériser pour la recherche.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Combien d'extraits au maximum le moteur de recherche Google Books affiche-t-il pour un mot donné dans un livre ?",
+      "choix": [
+        "Trois extraits, toujours les mêmes quel que soit l'ordinateur",
+        "Un seul extrait, toujours le même",
+        "Dix extraits différents à chaque recherche",
+        "La totalité des pages contenant le mot cherché"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Chaque page est découpée en huit segments horizontaux, et le moteur n'affiche jamais plus de trois extraits, toujours les mêmes depuis n'importe quel ordinateur.",
+      "statut": "valide"
+    },
+    {
+      "question": "Sur quelle décision antérieure de la Cour suprême l'arrêt Authors Guild v. Google s'appuie-t-il explicitement ?",
+      "choix": [
+        "Une décision de 1976 sur le dépôt légal numérique",
+        "Campbell v. Acuff-Rose Music, vingt et un ans plus tôt",
+        "Authors Guild v. HathiTrust, l'année précédente",
+        "Aucune, l'arrêt invente un nouveau test"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'arrêt reprend le test de Campbell v. Acuff-Rose Music (1994), fixé par la Cour suprême vingt et un ans plus tôt : plus un usage transforme l'œuvre, moins les autres facteurs pèsent contre lui.",
+      "statut": "valide"
+    },
+    {
+      "question": "Quelle différence sépare l'usage jugé dans Authors Guild v. HathiTrust (2014) de celui de Google Books ?",
+      "choix": [
+        "HathiTrust numérisait uniquement des livres du domaine public",
+        "HathiTrust facturait l'accès à la recherche, contrairement à Google",
+        "HathiTrust n'affichait aucun extrait, seulement une recherche en texte intégral",
+        "HathiTrust n'avait pas de bibliothèques partenaires"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Les bibliothèques de HathiTrust mettaient en commun leurs copies pour une recherche en texte intégral sans afficher le moindre extrait, jugée quintessentially transformative par la même cour.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
