@@ -66,7 +66,30 @@
     "explication": "Les quintes pures empilées ne referment jamais exactement l'octave : c'est le comma pythagoricien. En divisant l'octave en douze intervalles rigoureusement égaux par la racine douzième de deux, Zhu Zaiyu répartit cet écart également entre toutes les tonalités, plutôt que de le concentrer sur une seule.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Par quel facteur Zhu Zaiyu divise-t-il la longueur d'une corde, douze fois de suite, pour obtenir des demi-tons rigoureusement égaux ?",
+      "choix": [
+        "Par la racine douzième de deux, environ 1,059463",
+        "Par un douzième de la longueur totale de la corde, retiré à chaque étape",
+        "Par la racine carrée de deux, appliquée six fois",
+        "Par le rapport de quinte pure, 3/2, répété douze fois"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Zhu Zaiyu divise la corde douze fois de suite par la racine douzième de deux, environ 1,059463, afin que les douze divisions réduisent exactement la longueur de moitié, l'octave, chaque demi-ton restant identique à son voisin."
+    },
+    {
+      "question": "Qui, en Europe, trouve indépendamment la même solution que Zhu Zaiyu, et que devient son manuscrit ?",
+      "choix": [
+        "Matteo Ricci, qui le transmet aussitôt aux musiciens de la cour impériale chinoise",
+        "Johannes Kepler, qui le publie de son vivant dans un traité d'harmonie",
+        "Galileo Galilei, dont le manuscrit est perdu lors d'un incendie",
+        "Simon Stevin, vers 1605 ; le manuscrit reste inédit jusqu'à sa publication posthume en 1884"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le mathématicien flamand Simon Stevin trouve la même solution vers 1605, sans aucun contact avec Zhu Zaiyu, mais son manuscrit reste inédit pendant près de trois siècles, jusqu'à sa publication posthume en 1884."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
