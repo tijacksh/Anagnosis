@@ -83,7 +83,41 @@
     "explication": "Le géoïde est la forme que prendrait l'eau sans marée ni courant, sous la seule gravité. Le creux est un écart par rapport à une référence lisse, dû à une gravité plus faible. Il ne s'agit ni d'une fosse, ni d'un courant, ni de marées.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que serait la surface de l'océan si l'on effaçait marées, courants et vent ?",
+      "choix": [
+        "Une surface parfaitement lisse, l'eau cherchant toujours l'horizontale absolue",
+        "Une surface ondulée qui suit la gravité, avec près de 200 mètres d'écart entre ses points extrêmes",
+        "Une sphère identique à l'ellipsoïde de référence utilisé pour calculer les altitudes",
+        "Une surface alignée sur l'équateur, où le rayon terrestre est le plus grand"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Sans marée ni courant, l'eau se place selon la seule gravité, qui n'est pas uniforme : la surface obtenue, le géoïde, varie de +85 m à -106 m, soit près de 200 mètres, et non une surface lisse ou une sphère."
+    },
+    {
+      "question": "Qu'a permis le satellite européen GOCE, lancé en mars 2009 ?",
+      "choix": [
+        "Mesurer en continu la température de surface de l'océan Indien depuis l'orbite",
+        "Dresser une carte précise du géoïde, présentée en mars 2011",
+        "Observer directement le manteau terrestre sous l'océan Indien, à 900 kilomètres de profondeur",
+        "Corriger les marées océaniques pour obtenir une surface de référence lisse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "GOCE a servi à dresser une carte précise du géoïde, présentée en mars 2011. Le creux de l'océan Indien vient de modèles numériques du manteau, non d'une observation directe par le satellite."
+    },
+    {
+      "question": "Quelle explication l'équipe de 2017 associant l'IISc et le GFZ propose-t-elle pour le creux du géoïde de l'océan Indien ?",
+      "choix": [
+        "Une poche de magma volcanique actif juste sous le fond de l'océan Indien",
+        "Une variation locale de la salinité de l'eau, qui modifierait sa densité",
+        "Un déficit de masse dû à du matériau plus chaud et plus léger, lié au superpanache africain",
+        "Un courant marin profond qui creuserait mécaniquement le fond de l'océan"
+      ],
+      "bonne_reponse": 2,
+      "explication": "L'équipe propose, par modélisation numérique, un déficit de masse lié à du matériau plus chaud et plus léger entre 300 et 900 km de profondeur, rattaché au superpanache africain, ni magma, ni salinité, ni courant."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

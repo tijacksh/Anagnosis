@@ -65,7 +65,41 @@
     "explication": "Le chromosome Y suit la lignée des pères : une seule paternité autre que celle inscrite sur 19 générations suffit, et les auteurs lui donnent 16 % de chances. Ce n'est pas une contamination : le profil a été reproduit dans deux laboratoires. Le désaccord est compté plutôt qu'écarté : il fait passer le rapport génétique de 478 à 79, mais ni l'ADN mitochondrial ni les indices non génétiques ne sont touchés, et l'ensemble reste à 6,7 millions.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que montre la correspondance de l'ADN mitochondrial du squelette de Leicester ?",
+      "choix": [
+        "Qu'il concorde avec celui des cinq descendants en ligne masculine du cinquième duc de Beaufort",
+        "Qu'il ne concorde avec aucun des descendants connus de la famille royale d'York",
+        "Qu'il concorde avec celui de descendants par les femmes de la sœur de Richard III, Anne d'York",
+        "Qu'il provient d'un contaminant moderne introduit lors de la fouille de 2012"
+      ],
+      "bonne_reponse": 2,
+      "explication": "L'ADN mitochondrial, transmis par les femmes, est identique à celui de Michael Ibsen et proche de celui de Wendy Duldig, tous deux descendants d'Anne d'York. C'est le chromosome Y, transmis par les hommes, qui ne concorde pas."
+    },
+    {
+      "question": "D'où vient le rapport de vraisemblance de 6,7 millions cité dans la fiche ?",
+      "choix": [
+        "Du seul résultat de l'ADN mitochondrial, jugé suffisant à lui seul pour identifier le roi",
+        "De la multiplication des rapports de vraisemblance de chaque indice, génétique et non génétique",
+        "D'une datation au carbone 14 unique, recalculée après la publication de 2014",
+        "D'un vote des archéologues de l'université de Leicester sur la probabilité d'identification"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'équipe calcule un rapport de vraisemblance pour chaque indice, datation, âge, scoliose, blessures et ADN, puis multiplie ces rapports : 79 pour le génétique, 85 000 pour le non génétique, 6,7 millions au total."
+    },
+    {
+      "question": "Quelle conséquence les auteurs mentionnent-ils si le désaccord de paternité se situait ailleurs dans l'arbre généalogique ?",
+      "choix": [
+        "Elle aurait pu remettre en cause les droits au trône des Tudors, ou ceux d'Édouard IV et de Richard III eux-mêmes",
+        "Elle n'aurait eu aucune conséquence, la couronne d'Angleterre ne suivant pas la lignée masculine",
+        "Elle aurait invalidé la datation au carbone 14 effectuée sur le squelette de Leicester",
+        "Elle aurait rendu caduque la comparaison avec l'ADN mitochondrial de Michael Ibsen"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Les auteurs notent qu'une rupture de paternité, selon l'endroit où elle se produit dans l'arbre, aurait pu remettre en cause les droits des Tudors ou ceux d'Édouard IV et de Richard III, sans toucher la datation ni l'ADN mitochondrial."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
