@@ -343,3 +343,7 @@ peut rouvrir directement le texte du décret.)*
 | Épistémologie | Nelson Goodman et « grue » : la nouvelle énigme de l'induction (1954-1955) | fait | routine-production-arnaud | 2026-10-13 |
 | Épistémologie | « Hypotheses non fingo » : Newton ne refuse pas toute hypothèse (Scholie général, 1713) | fait | routine-production-arnaud | 2026-10-13 |
 | Épistémologie | « Des affirmations extraordinaires exigent des preuves extraordinaires » : Sagan n'en est pas l'origine (Hume 1748, Laplace, Truzzi, Sagan 1979) | fait | routine-production-arnaud | 2026-10-13 |
+| Informatique | Note G d'Ada Lovelace (1843) : le programme publié, et les programmes de Babbage qui l'ont précédé | en cours | routine-production-arnaud | 2026-10-14 |
+| Informatique | ELIZA (Weizenbaum, 1966) : un script de psychothérapeute choisi parce qu'il peut tout ignorer | en cours | routine-production-arnaud | 2026-10-14 |
+| Informatique | Ver Morris (1988) : pas de données détruites, un garde-fou « une fois sur sept » qui a étouffé les machines | en cours | routine-production-arnaud | 2026-10-14 |
+| Informatique | Thompson, « Reflections on Trusting Trust » (1983-1984) : le compilateur piégé a réellement existé | en cours | routine-production-arnaud | 2026-10-14 |
