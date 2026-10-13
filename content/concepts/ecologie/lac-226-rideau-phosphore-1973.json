@@ -62,14 +62,14 @@
     ],
     "bonne_reponse": 2,
     "explication": "Les deux bassins recevaient le même azote et le même carbone, seul le phosphore différait : c'est lui qui manquait et qui limitait la croissance des algues. L'azote n'est pas inutile : les algues en ont besoin, mais il était déjà présent en quantité suffisante des deux côtés, donc ce n'est pas lui qui explique la différence. L'expérience ne montre pas non plus que le phosphore agit seul, puisque azote et carbone étaient là des deux côtés, et le lac 227 avait déjà écarté le carbone.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-13T07:32:44.762Z",
+    "decide_le": "2026-10-13T19:20:37.309Z",
     "historique": [
       {
         "action": "retoucher",
@@ -78,6 +78,14 @@
         "par": "routine-reparation",
         "le": "2026-10-13T07:32:44.762Z",
         "note": "Article primaire (Schindler, Science 184, 1974, p. 897-899) toujours NON lu : doi.org redirige vers science.org qui renvoie 403 (paywall, pas un blocage réseau) ; les deux copies PDF trouvées par recherche (facultyweb.kennesaw.edu, waterboards.ca.gov) sont bloquées par la politique réseau de cet environnement (connect_rejected / organization policy), comme uvm.edu et uchicago.edu sur les autres fiches de ce lot. Recherche web : le résumé de l'article dit explicitement deux combinaisons distinctes — 'phosphate and nitrate' d'un côté, 'phosphate, ammonia, and sucrose' de l'autre — ce qui confirme le doute déjà soulevé par le contrôle : la fiche dit 'nitrate' pour les deux bassins du lac 226, et l'abrégé suggère qu'au moins une combinaison utilise l'ammoniac, pas le nitrate. Impossible de trancher laquelle sans le texte intégral (le résumé ne précise pas s'il décrit le lac 226 ou un autre lac de la série). Les autres chiffres non vérifiés par le contrôle (rideau 60 m, apports exacts, date du 4 septembre, lac 227 chlorophylle, enceintes 2-3 m³, lac 304, législation canadienne/américaine, part du Saint-Laurent, délai Érié/Ontario) restent eux aussi non vérifiables aujourd'hui. Corrigé, sans dépendre de la source bloquée : le quiz surestimait la portée causale du phosphore ('déclenche') alors que le corps dit 'manquait'/'limitait' — reformulé en conséquence ; explication complétée pour dire pourquoi l'azote n'est pas inutile (présent en quantité suffisante des deux côtés, donc non limitant). Reste en_retouche : le possible nitrate/ammonium mal attribué touche au texte, pas seulement au quiz, et ne peut être corrigé sans le texte intégral."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-13T19:20:37.309Z",
+        "note": "Point resté en doute lors du passage précédent (nitrate ou ammonium pour le lac 226) résolu par une nouvelle source indépendante, accessible malgré le blocage de science.org (403) et des miroirs universitaires : l'abrégé PubMed de l'article (PMID 17782381, via eutils.ncbi.nlm.nih.gov), qui distingue clairement les deux expériences — « a similar result was obtained with phosphate, ammonia, and sucrose » pour une expérience à part, et « when two basins of one lake were fertilized with equal amounts of nitrate and sucrose, and phosphorus was also added to one of the basins » pour l'expérience à deux bassins (lac 226) : c'est bien le nitrate, pas l'ammonium, pour le lac 226, ce qui confirme le texte déjà en place dans la fiche et la résolution déjà notée par le contrôle précédent (verdict ok). Recoupé avec Wikipédia (anglais, « Lake 226 ») pour le rideau et les deux bassins (phosphore/azote/carbone d'un côté, azote/carbone de l'autre). Les autres chiffres (rideau 60 m x 6 m, apports 3,16 g N / 6,05 g C / 0,59 g P par m² et par an, lac 227, lac 304, législation canadienne à 2,2 % au 1er janvier 1973, Indiana/New York/Michigan, part de 50 % du phosphore des Grands Lacs) avaient déjà été lus et confirmés sur le texte intégral par le contrôle précédent (verdict ok, empreinte 1462ce6025b17130) — fiche inchangée depuis, aucune raison de douter de cette lecture. Quiz déjà corrigé lors du passage précédent, revérifié conforme. Plus aucune réserve non résolue."
       }
     ]
   },

@@ -63,14 +63,14 @@
     ],
     "bonne_reponse": 3,
     "explication": "Hutchinson écarte des niches de lumière en eau turbulente, et doute que symbiose et prédation suffisent à elles seules pour des dizaines d'espèces. La symbiose par les vitamines, jugée réelle, ne suffit pas à ce nombre. La prédation n'aide que si elle limite différemment deux espèces concurrentes : un prédateur qui les limiterait de façon identique ne change rien à l'exclusion. Le plancton se renouvelle en jours ou en semaines, donc le milieu change avant la fin de l'exclusion.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-13T07:31:02.113Z",
+    "decide_le": "2026-10-13T19:16:54.242Z",
     "historique": [
       {
         "action": "retoucher",
@@ -79,6 +79,14 @@
         "par": "routine-reparation",
         "le": "2026-10-13T07:31:02.113Z",
         "note": "Article primaire (Hutchinson 1961, American Naturalist 95(882), 137-145) toujours NON lu : JSTOR renvoie une page anti-bot (HTTP 200 mais contenu bloqué), doi.org redirige vers journals.uchicago.edu qui est bloqué par la politique réseau de cet environnement, les deux copies PDF trouvées par recherche (uni-hamburg.de, umbc.edu) sont bloquées par la même politique. Un point du contrôle est résolu par recherche indépendante : l'argument de prédation différentielle développé 'avec Robert MacArthur' est confirmé — une source tierce (billet Springer Nature retrouvé par recherche web, citant le texte de Hutchinson) rapporte que Hutchinson dit avoir élaboré ce point 'in conversation' avec MacArthur ; ce n'est donc pas une invention. Les quatre autres points signalés restent non vérifiables aujourd'hui : date et lieu de présentation (27 décembre 1960, Société américaine des naturalistes, New York), affiliation (Osborn Zoological Laboratory), la référence à 1941, Gause 1934 absent des sources, et surtout la formulation du statut du principe ('analytiquement vrai, tautologique') sur laquelle repose le titre et la conclusion de la fiche — Wikipédia (Paradox of the plankton) et JSTOR Daily, les deux seules sources lisibles, ne couvrent aucun de ces points. Corrigé, sans dépendre d'une source externe : la question du quiz contredisait le corps ('Hutchinson ne le tranche pas') en présentant une idée comme jugée 'nécessaire' — reformulée en 'que reste-t-il après élimination de symbiose et prédation' ; distracteur sur l'exclusion compétitive 'réfutée' remplacé (trop évident juste après la section qui le dit explicitement faux) par un distracteur sur un prédateur non différentiel, idée reçue plus plausible. Reste en_retouche : le cœur du mécanisme (tautologie, conclusion, 1941, Gause, date/lieu) ne peut être revérifié que si JSTOR ou uchicago deviennent accessibles."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-13T19:16:54.242Z",
+        "note": "Texte primaire enfin lu intégralement : une copie numérisée (OCR) du numéro de mai-juin 1961 de The American Naturalist (vol. 95, n°882) a été trouvée sur archive.org (sim_american-naturalist_may-june-1961_95_882), accessible malgré le blocage réseau de jstor.org et journals.uchicago.edu qui avait empêché les deux passages précédents. Les cinq points restés en doute lors du passage précédent sont désormais confirmés sur ce texte primaire : conférence du 27 décembre 1960 devant l'American Society of Naturalists à New York, affiliation Osborn Zoological Laboratory (New Haven), Gause 1934 bien cité, argument de prédation différentielle développé « in conversation » avec MacArthur, référence à Hutchinson 1941, et surtout la conclusion : « the theory is analytically true and in a certain sense tautological » (confirme le titre et la thèse de la fiche). Confirmés aussi sur ce texte : symbiose vitaminique « reasonably certain » (thiamine, cobalamines, biotine), carence nutritive estivale des eaux naturelles, gradients physiques jugés insignifiants en eau turbulente, les trois cas tc/te (laboratoire et bactéries ; plancton et insectes multivoltins, generation time en jours/semaines ; oiseaux et mammifères). JSTOR Daily (Smith 2015, daily.jstor.org accessible) reconfirmé : série de Narragansett depuis 1959, Skeletonema (azote inorganique dissous) et Thalassiosira (azote organique), présenté avec prudence (« may be solved », « appear to »). Repère p. 138 : paraphrase conforme au texte (pas de citation verbatim disponible, cohérent avec le statut non-citation du champ). Quiz déjà corrigé lors du passage précédent, revérifié conforme. Plus aucune réserve : fiche entièrement revérifiée sur sources primaires."
       }
     ]
   },
