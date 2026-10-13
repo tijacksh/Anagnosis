@@ -322,7 +322,7 @@ peut rouvrir directement le texte du décret.)*
 | Océanographie | Le niveau de la mer n'est pas de niveau : le géoïde, de +85 m à −106 m, et le creux de l'océan Indien | fait | routine-production-arnaud | 2026-10-13 |
 | Océanographie | Marées de la baie de Fundy : résonance du bassin (Garrett, 1972) | abandonné | routine-production-arnaud | 2026-10-13 |
 | Océanographie | Stommel (1948) : pourquoi les grands courants sont à l'ouest des océans | abandonné | routine-production-arnaud | 2026-10-13 |
-| Physique | Rømer (1676) : la note du Journal des Sçavans ne donne aucune vitesse de la lumière, c'est Huygens qui la calcule | en cours | routine-production-arnaud | 2026-10-13 |
-| Physique | Michelson-Morley (1887) n'est pas le point de départ de la relativité d'Einstein (Shankland, 1950-1952) | en cours | routine-production-arnaud | 2026-10-13 |
-| Physique | L'effet Mpemba : l'eau chaude gèle-t-elle plus vite ? (Mpemba et Osborne, 1969 ; Burridge et Linden, 2016 ; Kumar et Bechhoefer, 2020) | en cours | routine-production-arnaud | 2026-10-13 |
-| Physique | Goddard et le New York Times : la fusée dans le vide (éditorial du 13 janvier 1920, correction du 17 juillet 1969) | en cours | routine-production-arnaud | 2026-10-13 |
+| Physique | Rømer (1676) : la note du Journal des Sçavans ne donne aucune vitesse de la lumière, c'est Huygens qui la calcule | fait | routine-production-arnaud | 2026-10-13 |
+| Physique | Michelson-Morley (1887) n'est pas le point de départ de la relativité d'Einstein (Shankland, 1950-1952) | fait | routine-production-arnaud | 2026-10-13 |
+| Physique | L'effet Mpemba : l'eau chaude gèle-t-elle plus vite ? (Mpemba et Osborne, 1969 ; Burridge et Linden, 2016 ; Kumar et Bechhoefer, 2020) | fait | routine-production-arnaud | 2026-10-13 |
+| Physique | Goddard et le New York Times : la fusée dans le vide (éditorial du 13 janvier 1920, correction du 17 juillet 1969) | fait | routine-production-arnaud | 2026-10-13 |

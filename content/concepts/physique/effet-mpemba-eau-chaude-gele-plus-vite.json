@@ -1,0 +1,124 @@
+{
+  "id": "phy-effet-mpemba-eau-chaude-gele-plus-vite",
+  "slug": "effet-mpemba-eau-chaude-gele-plus-vite",
+  "titre": "L'eau chaude gèle-t-elle plus vite que l'eau froide ?",
+  "accroche": "Observé par un écolier tanzanien, contesté en 2016 sur l’eau, reproduit en 2020 sur une particule : l’effet Mpemba est une question mal posée.",
+  "discipline": "physique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Mettez au congélateur deux bols d'eau, l'un tiède, l'autre brûlant. Lequel gèle le premier ? Le bon sens répond : le tiède, qui a moins de chemin à faire. L'effet Mpemba affirme l'inverse. La question est plus vieille, et plus disputée, qu'on ne le croit.\n\n## Une vieille intuition, un écolier, un article\n\nDans leur étude de 2016, Burridge et Linden retracent la préhistoire de l'idée. Aristote, au IVe siècle avant notre ère, dans les *Météorologiques*, évoque des pêcheurs du Pont qui versent de l'eau chaude autour de leurs cannes plantées dans la glace. Francis Bacon, au XVIIe siècle, écrit dans le *Novum Organum* qu'une eau légèrement tiède gèle plus facilement qu'une eau tout à fait froide. Descartes, dans ses *Météores*, invoque l'évaporation.\n\nLe nom vient d'un écolier tanzanien, Mpemba, qui remarque qu'un mélange de crème glacée encore chaud prend avant un mélange plus froid. Le physicien Denis Osborne, de l'University College de Dar es Salaam, reprend l'observation avec ses étudiants. Leur article, intitulé « Cool? », paraît en 1969 dans *Physics Education*.\n\n## Une expérience soignée, un résultat contraire\n\nEn 2016, Henry Burridge et Paul Linden refont l'expérience avec rigueur et publient dans *Scientific Reports*. Trois échantillons de 400 g, portés à 21,8, 57,3 et 84,7 °C, sont placés dans un congélateur : ils atteignent 0 °C en 6 397, 9 504 et 10 812 secondes. Plus l'eau était chaude, plus c'est long.\n\nLeur conclusion tient en une phrase : aucune preuve d'observations significatives de l'effet. Ils ne mesurent que le refroidissement jusqu'à 0 °C, et non la congélation elle-même. Mais ils passent aussi en revue les études qui ont mesuré la congélation, et attribuent leur variabilité à la nucléation (la formation des premiers cristaux de glace), très sensible aux infimes différences de récipient et d'impuretés. L'article reçoit, selon le titre d'un compte rendu de *Chemistry World*, un accueil glacial.\n\n## Le même effet, sans congélateur\n\nEn 2020, Avinash Kumar et John Bechhoefer, de la Simon Fraser University, publient dans *Nature* une expérience d'un tout autre genre : une particule colloïdale (un grain minuscule en suspension) plongée dans l'eau, qui sert de réservoir de chaleur. En choisissant bien les paramètres, un échantillon initialement plus chaud se refroidit plus vite qu'un échantillon plus tiède, et même exponentiellement plus vite. Les résultats sont reproductibles et conformes à un cadre théorique récent, qui prévoyait un « effet Mpemba fort ».\n\nL'effet existe donc, dans un système assez simple pour être compris. Dans l'eau qui l'a vu naître, la question reste disputée, et elle dépend de ce qu'on mesure : le temps d'atteindre 0 °C, l'apparition du premier cristal ou la glace complète.\n\nL'eau du congélateur obéit-elle à la même mécanique que ce grain ?",
+  "citation": null,
+  "repere": {
+    "texte": "Trois échantillons de 400 g d’eau, portés à 21,8 °C, 57,3 °C et 84,7 °C, ont mis 6 397, 9 504 et 10 812 secondes à atteindre 0 °C dans un congélateur.",
+    "source": "Burridge & Linden, « Questioning the Mpemba effect », Scientific Reports 6:37665, 24 novembre 2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121640"
+  },
+  "carte": {
+    "punch": "L'eau chaude gèle-t-elle plus vite ? Ça dépend de ce qu'on mesure.",
+    "idee": "En 2016, trois échantillons d'eau à 21,8, 57,3 et 84,7 °C ont mis de plus en plus de temps à atteindre 0 °C. En 2020, une particule dans l'eau a pourtant refroidi plus vite en partant plus chaud. L'effet Mpemba dépend du système et de la définition.",
+    "source_courte": "Burridge & Linden, 2016 ; Kumar & Bechhoefer, Nature, 2020"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Burridge, Henry C. & Linden, Paul F.",
+      "titre": "Questioning the Mpemba effect: hot water does not cool more quickly than cold",
+      "publication": "Scientific Reports, 6, 37665",
+      "annee": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121640",
+      "note": "Aristote, Bacon, Descartes ; Mpemba et Osborne ; trois échantillons de 400 g à 21,8, 57,3 et 84,7 °C et temps de 6 397, 9 504, 10 812 s pour atteindre 0 °C ; conclusion « no evidence » ; variabilité de la congélation attribuée à la nucléation."
+    },
+    {
+      "type": "article",
+      "auteur": "Mpemba, E. B. & Osborne, D. G.",
+      "titre": "Cool?",
+      "publication": "Physics Education, 4 (3), 172",
+      "annee": 1969,
+      "url": "https://iopscience.iop.org/article/10.1088/0031-9120/4/3/312",
+      "note": "Article d'origine ; affiliations : College of African Wildlife Management (Moshi) et University College Dar es Salaam, Tanzanie."
+    },
+    {
+      "type": "article",
+      "auteur": "Kumar, Avinash & Bechhoefer, John",
+      "titre": "Exponentially faster cooling in a colloidal system",
+      "publication": "Nature, 584, 64-68",
+      "annee": 2020,
+      "url": "https://arxiv.org/abs/2008.02373",
+      "note": "Système colloïdal plongé dans l'eau (bain thermique) ; refroidissement exponentiellement plus rapide ; accord avec un cadre théorique prédisant l'effet Mpemba fort (version préimprimée sur arXiv, référence Nature 584, 64-68). Résultats décrits comme reproductibles dans le résumé."
+    },
+    {
+      "type": "article",
+      "auteur": "Stoye, Emma",
+      "titre": "Mpemba effect in hot water after doubt cast on its existence (Frosty reception for claim that effect where hot water freezes faster than cold has no basis)",
+      "publication": "Chemistry World",
+      "annee": 2016,
+      "url": "https://www.chemistryworld.com/news/mpemba-effect-in-hot-water-after-doubt-cast-on-its-existence/2500087.article",
+      "note": "Compte rendu du 2 décembre 2016 sur l'accueil réservé à l'article de Burridge et Linden."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Burridge & Linden, « Questioning the Mpemba effect », Scientific Reports, 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121640",
+      "note": "Texte intégral en libre accès, avec le détail du protocole et l'historique de l'idée."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « croisement ». Deux courbes descendantes de hauteurs de départ différentes, la plus haute rejoignant puis dépassant la plus basse vers la droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #0078BF (physique) et noir.",
+    "alt": "Deux courbes descendantes dont la plus haute rattrape puis dépasse la plus basse",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la question « l'eau chaude gèle-t-elle plus vite ? » n'a-t-elle pas de réponse simple ?",
+    "choix": [
+      "Parce que personne n'a jamais mesuré le temps de refroidissement de l'eau",
+      "Parce que la thermodynamique interdit qu'un corps chaud refroidisse plus vite qu'un corps tiède",
+      "Parce que l'effet n'apparaît que dans l'eau du robinet, jamais dans l'eau pure",
+      "Parce que la réponse dépend de ce qu'on mesure et de conditions difficiles à maîtriser"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Atteindre 0 °C, former un premier cristal et geler entièrement sont trois mesures différentes, et la nucléation varie avec le récipient et les impuretés. La thermodynamique n'interdit pas l'effet : en 2020, une particule dans l'eau l'a reproduit. Le refroidissement a bien été mesuré, dès 1969 et en 2016, et rien ne limite la question à l'eau du robinet.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Dans l'expérience de 2016, quel échantillon met le plus de temps à atteindre 0 °C ?",
+      "choix": [
+        "Celui à 21,8 °C, qui avait le moins de chaleur à perdre",
+        "Celui à 57,3 °C, à mi-chemin entre les deux autres",
+        "Les trois mettent exactement le même temps",
+        "Celui à 84,7 °C, avec 10 812 secondes"
+      ],
+      "bonne_reponse": 3,
+      "explication": "L'échantillon à 84,7 °C met 10 812 secondes, contre 9 504 à 57,3 °C et 6 397 à 21,8 °C : plus l'eau est chaude, plus c'est long. Les trois temps sont mesurés et différents."
+    },
+    {
+      "question": "Que montre l’expérience de Kumar et Bechhoefer en 2020 ?",
+      "choix": [
+        "Que l'eau chaude gèle toujours plus vite que l'eau tiède",
+        "Qu'un système colloïdal initialement plus chaud peut se refroidir plus vite qu'un plus tiède",
+        "Que l'effet Mpemba était une erreur de mesure sans fondement physique",
+        "Que l'évaporation explique entièrement l'effet observé dans l'eau"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Dans un système simple et contrôlé, une particule colloïdale plongée dans l'eau, l'effet existe pour certains paramètres et se calcule. Cela ne prouve rien pour l'eau du congélateur, et ne dit rien de l'évaporation."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-13",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}
