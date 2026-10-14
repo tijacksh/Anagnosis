@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "En 1950, Einstein dit qu'il l'aurait mentionnée s'il l'avait connue ; en 1952, il nuance, sans dire qu'elle l'avait poussé à écrire. Il n'a pas non plus jugé l'expérience sans importance : selon Shankland, il jugeait que personne n'aurait dû la dire ratée, que c'était un très grand résultat.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -98,12 +98,21 @@
       "explication": "Selon les notes de Shankland, Einstein nomme l'aberration stellaire et les mesures de Fizeau sur la lumière dans l'eau en mouvement : cela lui suffisait. Michelson-Morley n'est pas dans sa liste de 1950."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T10:17:15.364Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T10:17:15.364Z",
+        "note": "Les trois sources rouvertes intégralement et indépendamment. Michelson & Morley 1887 (Wikisource) confirmé mot pour mot : déplacement attendu de 0,4 frange, observé 'certainly less than the twentieth part... probably less than the fortieth part', conclusion 'probably less than one sixth the earth's orbital velocity'. Einstein 1905 (Wikisource) : ni Michelson ni Morley nommés, confirmé 'the unsuccessful attempt to substantiate the motion of the earth relative to the Light-medium'. Shankland 1963 (PDF archive.org, lu en intégral par lecture visuelle des pages faute de texte extractible) : toutes les citations et faits vérifiés mot pour mot - visite du 4 février 1950 ('Otherwise, I would have mentioned it in my paper', aberration stellaire et Fizeau 'They were enough'), visite du 24 octobre 1952 (sept années de relativité, 'I guess I just took it for granted that it was true', puis la réflexion de 1905-1909 et la conscience du résultat avant 1905 par les écrits de Lorentz), protestation d'Einstein sur le jugement d'échec ('No one should have said that!... the Michelson experiment gave a truly great result which everyone should understand'), note de L. L. Foldy sur le deuxième paragraphe de l'article de 1905 confirmée en bas de page. Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

@@ -63,15 +63,24 @@
     ],
     "bonne_reponse": 2,
     "explication": "Les valeurs de 1846 et 1848, issues de deux échantillons, ont été recopiées pendant des décennies, et les auteurs incriminent le contrôle des revues d'origine plus qu'un savant fautif. Le fer de l'épinard avait été mesuré bien avant 1960, Bunge a publié sa correction en 1892, et les mesures refaites ont montré des valeurs bien plus basses.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T10:16:53.015Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-14T10:16:53.015Z",
+        "note": "Relecture indépendante bloquée par le réseau de cet environnement : repository.rothamsted.ac.uk et www.mcgill.ca inaccessibles (échec DNS persistant, y compris via lien PDF direct trouvé par recherche, web.archive.org et dépôts miroirs irep.ntu.ac.uk / gwern.net, tous bloqués). Seule la source pour_aller_plus_loin (PMC1507475, Hamblin « Fake. », BMJ, 19 décembre 1981) a pu être rouverte et ses métadonnées confirmées, mais son texte n'est pas lisible (pages-images). Impossible de revérifier soi-même, à partir du texte brut, les affirmations centrales de la fiche : Saalmüller 1846, Richardson 1848, l'entrée encyclopédique de 1852, Bunge 1892 (16 times too high), l'article allemand de 1960, et les conclusions du McGill/Schwarcz sur Sutton. Doute non levé par ce second passage indépendant : à reprendre depuis un environnement qui accède à ces deux domaines."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

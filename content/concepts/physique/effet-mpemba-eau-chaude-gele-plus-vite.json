@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Atteindre 0 °C, former un premier cristal et geler entièrement sont trois mesures différentes, et la nucléation varie avec le récipient et les impuretés. La thermodynamique n'interdit pas l'effet : en 2020, une particule dans l'eau l'a reproduit. Le temps de refroidissement jusqu'à 0 °C a bien été mesuré en 2016 : de 6 397 s à 10 812 s selon l'échantillon.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -107,12 +107,21 @@
       "explication": "Dans un système simple et contrôlé, une particule colloïdale plongée dans l'eau, l'effet existe pour certains paramètres et se calcule. Cela ne prouve rien pour l'eau du congélateur, et ne dit rien de l'évaporation."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T10:17:08.218Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T10:17:08.218Z",
+        "note": "Burridge & Linden 2016 rouvert en intégral (PMC5121640) et revérifié point par point indépendamment : Aristote ('pour warm water round their reeds that it may freeze the quicker', y compris la nuance sur la glace 'comme du plomb' pour fixer les roseaux) confirmé exact, Bacon, Descartes/évaporation, trois échantillons de 400g à 21,8/57,3/84,7°C donnant 6397/9504/10812s, conclusion 'no evidence', nucléation. Kumar & Bechhoefer 2020 rouvert via arXiv (2008.02373) : effet Mpemba fort, reproductible, confirmé. Mpemba & Osborne 1969 (iopscience.org inaccessible dans cet environnement) : affiliations (College of African Wildlife Management, Moshi ; University College Dar es Salaam) et référence (Physics Education vol.4, mai 1969, p.172-175) recoupées indépendamment par recherche. Chemistry World (chemistryworld.com inaccessible) : titre confirmé par recherche ('Frosty reception for claim that effect where hot water freezes faster than cold has no basis') ; auteure et date non revérifiées indépendamment, mais le corps de la fiche ne s'appuie que sur le titre. Carte et quiz conformes aux sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",
