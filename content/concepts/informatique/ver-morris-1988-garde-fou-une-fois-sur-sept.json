@@ -1,0 +1,83 @@
+{
+  "id": "inf-ver-morris-1988-garde-fou-une-fois-sur-sept",
+  "slug": "ver-morris-1988-garde-fou-une-fois-sur-sept",
+  "titre": "Le ver Morris de 1988 : aucune donnée détruite, des machines surchargées",
+  "accroche": "Le 2 novembre 1988, un ver perturbe une partie d'Internet sans effacer une donnée. Une règle de protection ignorée une fois sur sept y contribue.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Le 2 novembre 1988, un mercredi, un programme est lancé vers 17 h 01 d'après les journaux de messagerie de l'université Cornell (l'origine du lancement est discutée), sur un Internet qui relie alors environ 60 000 ordinateurs. Des laboratoires se débranchent du réseau, dont le Media Lab du MIT, et l'on peut croire à une destruction. Or, selon l'analyse publiée par des ingénieurs du MIT, le ver n'a ni détruit ni tenté de détruire la moindre donnée.\n\n## Une vérification, et une exception\n\nLe ver, écrit par Robert Tappan Morris, se copie d'une machine à l'autre. Pour éviter de saturer les machines, il vérifie avant d'attaquer si une autre copie de lui-même y tourne déjà. Si oui, il passe son chemin. Voilà le garde-fou.\n\nMais le programme contient une exception. Dans l'analyse d'Eichin et Rochlis, elle tient en une ligne : une fois sur sept, le ver ne teste même pas la présence d'une autre copie. D'après le jugement d'appel de 1991, tel que le résume Wikipédia, cette exception visait à déjouer les administrateurs qui auraient simulé la présence du ver pour l'arrêter.\n\n## L'arithmétique de l'exception\n\nUne fois sur sept, c'est beaucoup. Chaque machine est attaquée de nombreuses fois, et chaque attaque a une chance sur sept d'ajouter une copie, sans test. Les copies s'accumulent sur une même machine, la charge grimpe, et le ver se fait remarquer. Selon l'analyse du MIT, le ver se répand bien plus vite que son auteur ne l'avait prévu. Le jugement d'appel, tel que le résume Wikipédia, énonce le défaut : Morris avait sous-estimé le nombre de réinfections.\n\n## Des chiffres à manier avec prudence\n\nDes comptes rendus de presse répètent que « 6 000 machines » au moins ont été touchées. Ce chiffre vient d'une estimation de 10 % des machines du MIT, que les auteurs de l'analyse qualifient eux-mêmes de pure supposition, puis extrapolée à l'ensemble du réseau. Seule la taille du réseau, environ 60 000 ordinateurs d'après une présentation d'octobre 1988, repose sur une source distincte de ces suppositions.\n\n## Le droit, et ce qu'il a retenu\n\nCondamné par le tribunal fédéral du district nord de New York, Morris reçoit trois ans de mise à l'épreuve, 400 heures de travaux d'intérêt général et 10 050 dollars d'amende. Le 7 mars 1991, la cour d'appel fédérale du deuxième circuit confirme la condamnation prononcée sur le fondement d'une loi fédérale américaine : le paragraphe 1030(a)(5)(A) du titre 18 du code des États-Unis, dans sa rédaction de l'époque.\n\nUne règle de prudence, affaiblie par une exception pensée contre les leurres, a donc contribué à l'engorgement. Reste à savoir combien de pannes tiennent, de la même façon, à un garde-fou plutôt qu'à une attaque.",
+  "citation": {
+    "texte": "On a one-in-seven chance, it won't even try to test for another virus.",
+    "auteur": "Mark W. Eichin et Jon A. Rochlis",
+    "source": "With Microscope and Tweezers: An Analysis of the Internet Virus of November 1988, MIT, 1989, annexe A.3.1",
+    "url": "https://people.eecs.berkeley.edu/~daw/teaching/cs261-f98/papers/internet_worm.txt"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Le ver de 1988 n'a détruit aucune donnée : une règle ignorée une fois sur sept surcharge.",
+    "idee": "Le ver Morris vérifiait si une machine était déjà infectée, mais ignorait ce test une fois sur sept. Les copies se sont accumulées, la charge a augmenté, et aucune donnée n'a été détruite.",
+    "source_courte": "Eichin et Rochlis, MIT, 1989"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Mark W. Eichin, Jon A. Rochlis (MIT)",
+      "titre": "With Microscope and Tweezers: An Analysis of the Internet Virus of November 1988",
+      "publication": "MIT ; IEEE Symposium on Research in Security and Privacy, 1989",
+      "annee": 1989,
+      "url": "https://web.mit.edu/eichin/www/virus/main.html",
+      "note": "Texte lu dans la copie de Berkeley : vérification de présence et règle une fois sur sept ; aucune donnée détruite ; 60 000 ordinateurs (Lottor, IETF, octobre 1988) ; lancement le 2 novembre 1988 à 17 h 01 ; estimation de 6 000 machines issue d'une supposition."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "United States v. Morris (1991)",
+      "publication": "en.wikipedia.org",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/United_States_v._Morris_(1991)",
+      "note": "Cour d'appel du deuxième circuit, 7 mars 1991, 928 F.2d 504 ; 18 U.S.C. § 1030(a)(5)(A) ; peine : trois ans de mise à l'épreuve, 400 heures d'intérêt général, 10 050 dollars ; réinfection une fois sur sept pour déjouer les leurres, réinfections sous-estimées."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Jugement United States v. Morris, 928 F.2d 504 (2d Cir. 1991)",
+      "url": "https://scholar.google.com/scholar_case?case=551386241451639668",
+      "note": "Texte de la décision d'appel."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une grille régulière de petits carrés aqua ; l'un d'eux se multiplie en copies superposées qui débordent progressivement sur les carrés voisins jusqu'à les recouvrir, tandis qu'un trait mince et net les sépare encore. Aplat noir en arrière-plan, papier crème, léger hors-repérage sur l'aqua uniquement. Aucune figure humaine.",
+    "alt": "Une grille de carrés dont l'un se multiplie en copies qui recouvrent ses voisins",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Selon l'analyse du MIT, qu'est-ce qui a contribué à surcharger les machines infectées ?",
+    "choix": [
+      "Des copies multiples du ver sur une même machine, favorisées par l'exception « une fois sur sept »",
+      "L'effacement des fichiers du système, qui forçait les administrateurs à tout réinstaller",
+      "Un virus de démarrage installé sur les disquettes d'amorçage de chaque machine",
+      "Une panne matérielle des routeurs, déclenchée par un paquet de données mal formé"
+    ],
+    "bonne_reponse": 0,
+    "explication": "L'analyse du MIT indique que la réinfection a augmenté la charge de nombreuses machines, l'exception « une fois sur sept » ignorant le test de présence. Elle précise aussi que le ver n'a pas détruit ni tenté de détruire de données, ce qui écarte l'effacement des fichiers ; elle ne décrit ni virus de démarrage sur disquettes ni panne de routeurs.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

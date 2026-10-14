@@ -1,0 +1,92 @@
+{
+  "id": "inf-ada-lovelace-note-g-programmes-de-babbage-1843",
+  "slug": "ada-lovelace-note-g-programmes-de-babbage-1843",
+  "titre": "La note G d'Ada Lovelace : un programme publié, mais pas le premier écrit",
+  "accroche": "En 1843, Ada Lovelace publie un programme pour la machine de Babbage. Celui-ci en avait écrit dès 1837, mais n'en avait publié aucun.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "En 1843, la revue britannique *Taylor's Scientific Memoirs* publie un tableau de chiffres, de lettres et d'opérations qui passe aujourd'hui pour le plus ancien programme d'ordinateur. Il est signé des initiales A.A.L., celles d'Ada Augusta Lovelace. Il décrit, étape par étape, comment la machine analytique de Charles Babbage calculerait des nombres de Bernoulli. L'étiquette de « première programmeuse » s'est collée à son nom. Elle tient moins bien qu'on ne le croit.\n\n## Ce que contient le texte de 1843\n\nLe point de départ est un mémoire de l'ingénieur militaire italien Luigi Menabrea, paru en français à Genève en octobre 1842, qui rend compte d'un exposé de Babbage. Lovelace le traduit en anglais et y ajoute sept notes, de A à G. Ensemble, elles sont environ trois fois plus longues que le mémoire. La dernière, la note G, annonce qu'elle clôt l'ensemble par un exemple d'une certaine complexité : le calcul des nombres de Bernoulli. Elle y décrit l'état des colonnes de la machine pour le cas n = 4, avec six données de départ, et indique, d'après la note, que 25 cartes d'opérations suffisent pour obtenir chaque nombre de Bernoulli à partir du premier.\n\n## Ce qui existait avant\n\nBabbage, lui, avait écrit des programmes bien plus tôt. L'informaticien Raúl Rojas décrit en 2023 un tableau de 1837, de la main de Babbage, qui résout un système de deux équations à deux inconnues : une suite d'opérations avec les adresses mémoire de leurs arguments et de leur résultat, présentée comme la trace d'un programme. L'historien Allan Bromley compte, lui, plusieurs dizaines d'exemples préparés entre 1837 et 1840. Aucun n'a été publié à l'époque.\n\nCe qui distingue la note G n'est donc pas l'antériorité, c'est la publication. C'est le programme de la machine que le public a pu lire, et c'est un exemple assez long pour montrer à quoi elle servirait. \n\n## Une erreur, et une limite\n\nLe programme de la note G contient une erreur. À la quatrième opération, la division est écrite dans le mauvais sens : v5 divisé par v4, au lieu de v4 divisé par v5. Deux programmeurs qui l'ont réécrit de nos jours, l'un en C, l'autre en Python, l'ont constatée. Il s'agit peut-être d'une simple coquille d'imprimerie plutôt que d'une faute de conception.\n\nDans cette même note, Lovelace écrit que la machine n'a aucune prétention à créer quoi que ce soit : elle fixe elle-même la limite de la machine dont elle décrit le programme.\n\nReste à décider ce que « premier » exige d'un programme : l'avoir conçu, l'avoir écrit, ou l'avoir donné à lire.",
+  "citation": {
+    "texte": "The Analytical Engine has no pretensions whatever to originate anything.",
+    "auteur": "Ada Lovelace",
+    "source": "Note G, in L. F. Menabrea, « Sketch of the Analytical Engine invented by Charles Babbage », Taylor's Scientific Memoirs, vol. III, 1843",
+    "url": "https://www.fourmilab.ch/babbage/sketch.html"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Ada Lovelace a publié en 1843 un programme pour la machine de Babbage, qui en avait déjà écrit.",
+    "idee": "Babbage avait écrit des programmes pour sa machine analytique dès 1837 ; aucun n'avait été publié. La note G de Lovelace (1843), un calcul de nombres de Bernoulli, est celui que le public a pu lire.",
+    "source_courte": "Lovelace, 1843 ; Rojas, 2023"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Luigi F. Menabrea ; notes d'Ada Lovelace",
+      "titre": "Sketch of the Analytical Engine invented by Charles Babbage",
+      "publication": "Taylor's Scientific Memoirs, vol. III (texte de la Bibliothèque universelle de Genève, octobre 1842, traduit et annoté)",
+      "annee": 1843,
+      "url": "https://www.fourmilab.ch/babbage/sketch.html",
+      "note": "Texte intégral. Note G : exemple des nombres de Bernoulli, cas n = 4, six données, 25 cartes d'opérations ; phrase sur l'absence de prétention à créer. Initiales A.A.L. en fin de notes."
+    },
+    {
+      "type": "article",
+      "auteur": "Raúl Rojas",
+      "titre": "The First Computer Program",
+      "publication": "arXiv:2303.13740 (cs.GL)",
+      "annee": 2023,
+      "url": "https://arxiv.org/abs/2303.13740",
+      "note": "Résumé : Babbage esquisse en 1837 un programme (système de deux équations à deux inconnues), sous forme de table d'opérations avec adresses mémoire."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Note G",
+      "publication": "en.wikipedia.org",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Note_G",
+      "note": "Mémoire de Menabrea, publication en 1843 (vol. III, p. 666-731), notes A à G environ trois fois plus longues ; Bromley (1982) : plusieurs dizaines d'exemples de Babbage entre 1837 et 1840, jamais publiés."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "TwoBitHistory, « What Did Ada Lovelace's Program Actually Do? »",
+      "url": "https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html",
+      "note": "Réécriture du programme en C ; division inversée à la quatrième opération, peut-être une coquille d'imprimerie."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une grille de petits rectangles aqua alignés en colonnes, reliés par de fins fils verticaux ; une première colonne, plus ancienne, est esquissée au trait pointillé, et une seconde, pleine et nette, est imprimée à côté d'elle. Aplat noir en arrière-plan, papier crème, léger hors-repérage sur l'aqua uniquement. Aucune figure humaine.",
+    "alt": "Deux colonnes de petits rectangles reliés par des fils : l'une au trait pointillé, l'autre pleine",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la note G ne peut-elle pas être appelée le premier programme écrit pour la machine de Babbage ?",
+    "choix": [
+      "Elle reprenait mot pour mot un programme rédigé par Menabrea",
+      "Babbage avait déjà écrit des programmes dès 1837, restés inédits",
+      "Elle décrivait la machine à différences et non la machine analytique",
+      "Elle n'a jamais été imprimée et n'a circulé qu'en copies manuscrites"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Babbage avait préparé des programmes dès 1837, dont un système de deux équations à deux inconnues, sans les publier. La note G, elle, est parue en 1843 dans Taylor's Scientific Memoirs. Elle n'est pas de Menabrea, dont le mémoire est le texte traduit et non l'auteur du programme ; elle porte sur la machine analytique, comme l'ensemble ; et elle a bien été imprimée.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

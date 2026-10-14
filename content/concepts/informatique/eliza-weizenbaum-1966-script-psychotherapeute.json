@@ -1,0 +1,82 @@
+{
+  "id": "inf-eliza-weizenbaum-1966-script-psychotherapeute",
+  "slug": "eliza-weizenbaum-1966-script-psychotherapeute",
+  "titre": "ELIZA et le rôle de psychothérapeute : un choix pour masquer l'ignorance",
+  "accroche": "En 1966, Weizenbaum donne à son programme le rôle d'un psychothérapeute, cadre où l'on peut ne rien savoir du monde sans surprendre.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "« Il semble que vous me détestiez. » À une phrase de ce genre, un programme du MIT répond en 1966 : « Qu'est-ce qui vous fait penser que je vous déteste ? » C'est l'exemple que donne son auteur, Joseph Weizenbaum, pour illustrer l'une des règles d'ELIZA. Le programme passe souvent pour la première machine à avoir « compris » ce qu'on lui disait. Weizenbaum soutenait autre chose.\n\n## Un moteur et un script\n\nELIZA est écrit en MAD-SLIP, un langage de programmation de l'époque, pour un IBM 7094 et tourne sur le système à temps partagé MAC du MIT, où l'on dialogue depuis des machines à écrire distantes. Le programme lit la phrase de gauche à droite et cherche un mot-clé ; chaque mot-clé a un rang, et un rang plus élevé l'emporte sur un mot repéré plus tôt. Des règles de décomposition découpent la phrase, des règles de réassemblage fabriquent la réponse avec les morceaux. Tout cela est rangé dans un script, distinct du moteur. Le script le plus célèbre simule un psychothérapeute.\n\n## Pourquoi ce rôle-là\n\nWeizenbaum explique son choix dans l'article de janvier 1966, publié dans *Communications of the ACM*. L'entretien psychiatrique est un échange en langage naturel entre deux personnes, aux rôles bien cadrés, où l'une peut prendre la pose de ne rien savoir du monde réel sans que cela étonne. Si le patient parle de bateaux, répondre « parlez-moi des bateaux » passe pour une invitation à poursuivre, non pour de l'ignorance. Le sentiment d'être écouté et compris vient en grande partie de celui qui parle : il prête à l'autre un savoir et une finesse que celui-ci n'a pas.\n\n## Un programme qui n'a jamais voulu soigner\n\nELIZA n'a donc pas été conçu comme un outil de thérapie et, selon le récit de 99% Invisible, ne contenait aucune information sur la pensée ou les émotions humaines. Weizenbaum soutient dans l'article que l'intelligence apparente d'un programme s'effrite dès qu'on en explique le fonctionnement : ce qui était de la magie devient une collection de procédures.\n\nLe public a fait l'inverse. Une anecdote, racontée par Weizenbaum dans une interview d'archive reprise par le podcast *99% Invisible*, le résume : sa secrétaire, après quelques échanges avec le programme, lui demande de bien vouloir quitter la pièce. Alarmé de voir ses réponses prises au sérieux, Weizenbaum plaidera ensuite pour que les domaines qui exigent de la compassion, la thérapie en tête, ne soient pas confiés à des machines.\n\nReste à savoir ce que vaut un dialogue dont l'un des deux partenaires n'entend rien.",
+  "citation": null,
+  "repere": {
+    "texte": "ELIZA, décrit dans Communications of the ACM (vol. 9, n° 1, janvier 1966), découpe chaque phrase selon des règles et en réassemble une réponse : avec la règle (0 YOU 0 ME), « It seems that you hate me » devient « What makes you think I hate you ».",
+    "source": "Joseph Weizenbaum, « ELIZA — A Computer Program For the Study of Natural Language Communication Between Man and Machine », CACM 9(1), p. 36-45, 1966",
+    "url": "https://doi.org/10.1145/365153.365168"
+  },
+  "carte": {
+    "punch": "ELIZA jouait le thérapeute : Weizenbaum avait choisi un rôle où ne rien savoir ne surprend pas.",
+    "idee": "En 1966, Weizenbaum choisit l'entretien psychiatrique parce qu'un interlocuteur peut y paraître ne rien savoir du monde sans surprendre. Le sentiment d'être compris vient en grande partie de celui qui parle, pas du programme.",
+    "source_courte": "Weizenbaum, CACM, 1966"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Joseph Weizenbaum",
+      "titre": "ELIZA — A Computer Program For the Study of Natural Language Communication Between Man and Machine",
+      "publication": "Communications of the ACM, vol. 9, n° 1",
+      "annee": 1966,
+      "url": "https://doi.org/10.1145/365153.365168",
+      "note": "Texte consulté dans une copie du département d'informatique de l'UMBC : MAD-SLIP, IBM 7094, système MAC ; mots-clés, rang, décomposition et réassemblage ; justification du cadre psychiatrique ; perte de la magie une fois le fonctionnement expliqué."
+    },
+    {
+      "type": "web",
+      "auteur": "Delaney Hall (Roman Mars)",
+      "titre": "The ELIZA Effect",
+      "publication": "99% Invisible (transcription)",
+      "annee": 2019,
+      "url": "https://99percentinvisible.org/episode/the-eliza-effect/transcript",
+      "note": "Interview d'archive de Weizenbaum : la secrétaire demande de quitter la pièce ; ELIZA ni outil de thérapie ni savoir sur la pensée humaine ; Weizenbaum alarmé, puis contre l'automatisation de la thérapie."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Copie de l'article de 1966 (UMBC)",
+      "url": "https://courses.cs.umbc.edu/331/papers/eliza.html",
+      "note": "Version HTML lisible, avec les règles de décomposition et de réassemblage."
+    }
+  ],
+  "illustration": {
+    "prompt": "Un grand cercle aqua découpé en lamelles horizontales que reflète, à droite, un second cercle identique mais vide, sans lamelles. Aplat noir en arrière-plan, papier crème, léger hors-repérage sur l'aqua uniquement. Aucune figure humaine.",
+    "alt": "Un cercle découpé en lamelles et, en face, son reflet vide",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Selon Weizenbaum, d'où vient en grande partie le sentiment d'être compris par ELIZA ?",
+    "choix": [
+      "D'une base de connaissances sur les émotions, intégrée au script",
+      "D'une analyse du sens des phrases par le moteur du programme",
+      "De la rapidité de réponse du système à temps partagé du MIT",
+      "De l'utilisateur, qui prête à son interlocuteur un savoir qu'il n'a pas"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Dans l'article de 1966, Weizenbaum écrit que le sentiment d'être écouté et compris vient en grande partie de celui qui parle, lequel prête à l'autre un savoir et une finesse qu'il n'a pas. Le moteur ne fait que repérer des mots-clés et réassembler des morceaux de phrase, sans analyser le sens ; le récit de 99% Invisible ne mentionne aucune base de connaissances sur les émotions, et rien dans l'article ne fait de la vitesse de réponse la source de l'impression.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

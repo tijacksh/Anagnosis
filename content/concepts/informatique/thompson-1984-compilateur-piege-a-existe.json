@@ -1,0 +1,92 @@
+{
+  "id": "inf-thompson-1984-compilateur-piege-a-existe",
+  "slug": "thompson-1984-compilateur-piege-a-existe",
+  "titre": "Le compilateur piégé de Ken Thompson : une expérience qui a réellement existé",
+  "accroche": "En 1984, Ken Thompson décrit un compilateur piégé qu'aucune relecture du code ne révèle. On y voit une expérience de pensée : le programme existait.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Dans sa conférence du prix Turing, prononcée en octobre 1983 et publiée dans *Communications of the ACM* en août 1984, Ken Thompson présente « le plus joli programme » qu'il ait jamais écrit. Il le construit en trois étapes. Beaucoup de lecteurs y ont vu une expérience de pensée : une façon élégante de poser une question de confiance. Le programme, pourtant, existait.\n\n## Trois étapes\n\nLa première est un programme qui imprime son propre texte. La deuxième tient à un problème de l'œuf et de la poule : le compilateur C est lui-même écrit en C. Pour qu'il reconnaisse une nouvelle séquence, la tabulation verticale `\\v` par exemple, on l'enseigne une fois, on le recompile, et son code source n'a plus besoin d'en garder la trace : le savoir est passé dans le binaire.\n\nLa troisième étape applique le même principe à un piège. On modifie le compilateur pour qu'il compile de travers certains programmes. Quand il reconnaît la commande de connexion `login`, il y glisse une porte dérobée. Quand il reconnaît sa propre source, il y glisse le code qui refait tout cela. Ensuite, on retire le piège de la source : le texte du compilateur est propre, son binaire ne l'est plus, et chaque recompilation reproduit le piège.\n\n## Ce que dit la conclusion\n\nLa morale de Thompson est nette : aucune vérification ni relecture au niveau du code source ne protège contre l'emploi d'un code qu'on n'a pas contrôlé jusqu'au bout. Il aurait pu viser un assembleur, un chargeur, ou même le microcode, le programme interne du processeur. Plus le niveau est bas, dit-il, plus ces défauts seront difficiles à repérer.\n\n## Une histoire vraie\n\nRuss Cox, qui a remis le code en fonctionnement en 2023, résume les récits convergents : le compilateur piégé a existé et a même été copié, mais il n'a pas dépassé le groupe PWB des Bell Labs. Ses membres l'ont repéré parce que le compilateur grossissait à chaque recompilation. La cause, d'après ce que Thompson a dit à Cox, était un banal défaut : un octet nul en trop ajouté à chaque génération. Thompson affirme que le compilateur piégé n'a jamais été distribué plus loin. Une copie a refait surface en 2023, sur des bandes données par Dennis Ritchie à Warren Toomey.\n\n## D'où vient l'idée, et comment s'en défendre\n\nThompson reconnaît dans son article qu'il avait lu la possibilité d'un tel cheval de Troie dans une critique de l'armée de l'air américaine sur une première implémentation de Multics, un système d'exploitation de l'époque, sans en retrouver la référence précise. David A. Wheeler rappelle que l'analyse de Multics par Karger et Schell, en 1974, est la première à avoir identifié le problème. Il a formalisé une parade : recompiler la source du compilateur avec un second compilateur indépendant, puis comparer les binaires obtenus. Sa thèse de 2009 en donne une preuve, mise à l'épreuve sur quatre compilateurs dont GCC, un compilateur très répandu.\n\nReste à savoir jusqu'à quel étage de la chaîne, du compilateur jusqu'au microcode, une relecture reste possible.",
+  "citation": {
+    "texte": "No amount of source-level verification or scrutiny will protect you from using untrusted code.",
+    "auteur": "Ken Thompson",
+    "source": "Reflections on Trusting Trust, Communications of the ACM 27(8), p. 761-763, août 1984",
+    "url": "https://doi.org/10.1145/358198.358210"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Le compilateur piégé décrit par Thompson en 1984 n'était pas qu'une idée : il avait été écrit.",
+    "idee": "Thompson montre en 1984 qu'un compilateur peut recopier un piège dans ses propres binaires sans qu'il apparaisse dans les sources. Selon Russ Cox (2023), ce compilateur a existé et n'a pas dépassé le groupe PWB des Bell Labs.",
+    "source_courte": "Thompson, CACM, 1984 ; Cox, 2023"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Ken Thompson",
+      "titre": "Reflections on Trusting Trust (Turing Award Lecture)",
+      "publication": "Communications of the ACM, vol. 27, n° 8, p. 761-763",
+      "annee": 1984,
+      "url": "https://doi.org/10.1145/358198.358210",
+      "note": "Texte lu : trois étapes (programme auto-reproducteur, compilateur qui apprend une séquence d'échappement, cheval de Troie dans login et le compilateur) ; morale ; remerciement à une critique de l'armée de l'air sur Multics."
+    },
+    {
+      "type": "web",
+      "auteur": "Russ Cox",
+      "titre": "Running the \"Reflections on Trusting Trust\" Compiler",
+      "publication": "research.swtch.com",
+      "annee": 2023,
+      "url": "https://research.swtch.com/nih",
+      "note": "Le code, la porte dérobée de login, la copie au groupe PWB, la croissance du binaire due à un octet nul en trop, « never distributed », copie retrouvée sur des bandes de Ritchie publiées en juillet 2023."
+    },
+    {
+      "type": "web",
+      "auteur": "David A. Wheeler",
+      "titre": "Fully Countering Trusting Trust through Diverse Double-Compiling",
+      "publication": "dwheeler.com",
+      "annee": 2009,
+      "url": "https://dwheeler.com/trusting-trust/",
+      "note": "Double compilation diversifiée, preuve formelle (thèse 2009), quatre compilateurs dont GCC ; analyse Karger-Schell de 1974 sur Multics."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Karger et Schell, analyse de sécurité de Multics (1974), citée par Wheeler",
+      "url": "https://dwheeler.com/trusting-trust/",
+      "note": "Page de référence sur la défense et ses antécédents."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux silhouettes identiques d'engrenages en contour aqua, l'une pleine, l'autre vide, reliées par un fil qui passe derrière un grand rectangle noir ; un seul rouage du rectangle porte un trait qui dépasse. Aplat noir en arrière-plan, papier crème, léger hors-repérage sur l'aqua uniquement. Aucune figure humaine.",
+    "alt": "Deux ensembles d'engrenages identiques reliés par un fil qui passe derrière un rectangle noir",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi lire le code source du compilateur ne suffit-il pas à écarter ce piège, selon Thompson ?",
+    "choix": [
+      "Parce que le piège est caché dans une bibliothèque tierce que personne ne relit",
+      "Parce que le piège est dissimulé par un chiffrement trop long à casser",
+      "Parce que le binaire du compilateur recopie le piège, absent de sa source propre",
+      "Parce que le piège ne se déclenche que sur des machines équipées d'un matériel particulier"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le piège est appris au binaire : le compilateur le recopie à chaque recompilation, alors que sa source est propre. Il ne se cache ni dans une bibliothèque tierce, ni derrière un chiffrement, ni dans un matériel particulier : Thompson évoque le microcode seulement comme un niveau encore plus bas où le même type de piège serait plus dur à trouver.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
