@@ -55,7 +55,16 @@
       "publication": "Cognition, vol. 108, n°3, p. 819-824",
       "annee": 2008,
       "url": "https://doi.org/10.1016/j.cognition.2008.04.007",
-      "note": "Étude menée avec des chercheurs du MIT (Fedorenko, Gibson) : les locuteurs pirahã réussissent la correspondance terme à terme la plus simple mais perdent la mémoire d'une quantité exacte lorsque les deux ensembles ne sont plus visibles simultanément — source de l'affirmation correspondante dans le corps du texte."
+      "note": "Étude menée avec des chercheurs du MIT (Fedorenko, Gibson) : sur cinq sous-tâches de correspondance, les locuteurs pirahã réussissent sans erreur les deux où l'appariement direct reste possible, et échouent nettement sur les trois où la quantité doit être portée à travers un écran, une rotation ou le temps — origine de l'affirmation sur la perte de mémoire d'une quantité exacte. Ne compare pas à des locuteurs anglophones : cette comparaison vient d'une autre étude, ajoutée séparément ci-dessous."
+    },
+    {
+      "type": "revue",
+      "auteur": "Michael C. Frank, Evelina Fedorenko, Peter Lai, Rebecca Saxe, Edward Gibson",
+      "titre": "Verbal Interference Suppresses Exact Numerical Representation",
+      "publication": "Cognitive Psychology, vol. 64, n°1-2, p. 74-92",
+      "annee": 2012,
+      "url": "https://doi.org/10.1016/j.cogpsych.2011.10.004",
+      "note": "Confirmée par recoupement (résumé et dépôt MIT DSpace, accès à l'article complet bloqué par la politique réseau de l'environnement). Montre que des locuteurs anglophones dont l'accès aux mots du nombre est bloqué par une tâche d'interférence verbale produisent des erreurs de correspondance exacte de même profil, approximatif, que celles des locuteurs pirahã — source réelle de la comparaison faite dans le corps du texte, à tort attribuée à Frank et al. 2008 avant cette relecture."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -78,7 +87,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Gordon a trouvé une précision correcte jusqu'à deux ou trois objets, puis une chute nette au-delà de huit à dix — signe, selon lui, d'une estimation analogique plutôt que d'un comptage exact. Les trois autres propositions vont au-delà de ce que l'étude montre.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -104,12 +113,21 @@
       "explication": "Everett soutient que l'absence de récursivité (ou d'enchâssement) en pirahã contredit l'idée d'une grammaire universelle ; Nevins, Pesetsky et Rodrigues (2009) affirment au contraire avoir retrouvé des traces de récursivité dans ses propres données."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T22:18:26.468Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-14T22:18:26.468Z",
+        "note": "Sources rouvertes : Gordon 2004 (Science 306, 496-499) confirmé par recoupement (science.org bloqué 403, corroboré via WebSearch/tc.edu) - précision jusqu'à 2-3 objets, chute à 8-10 puis nulle au-delà, conforme au repere. Everett 2005 (Current Anthropology 46(4), 621-646) confirmé par recoupement (uchicago.edu bloqué réseau), thèse de l'absence de récursivité confirmée. Wikipedia Piraha_language rouverte en direct : controverse Nevins/Pesetsky/Rodrigues 2009 et réponse d'Everett 2009 confirmées. Erreur trouvée et corrigée : la phrase du corps sur la comparaison avec 'un locuteur anglophone empêché de compter à voix haute' était attribuée dans sources[] à Frank, Everett, Fedorenko & Gibson 2008, qui ne traite que des Pirahã et ne fait aucune comparaison anglophone. La comparaison vient en réalité de Frank, Fedorenko, Lai, Saxe & Gibson 2012 (Cognitive Psychology 64(1-2), 74-92, DOI 10.1016/j.cogpsych.2011.10.004), confirmé par résumé et par une revue de littérature indépendante (arXiv:2607.05838) qui cite explicitement Frank et al. 2012 pour l'interférence verbale chez les adultes numérates. Source 2012 ajoutée et vérifiée, note de la source 2008 resserrée à ce qu'elle établit réellement. Ce correctif touche le texte : la fiche doit repasser par /controler avant de pouvoir être validée."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

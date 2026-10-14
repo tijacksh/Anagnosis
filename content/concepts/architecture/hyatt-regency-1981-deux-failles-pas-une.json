@@ -60,7 +60,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le NBS retient deux facteurs : le changement, qui double la charge sur le quatrième étage, et une fixation d'origine déjà insuffisante. Le changement a bien touché le quatrième étage, les plans modifiés ont été relus et tamponnés, et le rapport ne met pas en cause le béton.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -86,12 +86,21 @@
       "explication": "Le rapport calcule pour cette fixation environ 53 % de la capacité attendue, et la juge la plus critique des trois sans le changement. Les trois passerelles partageaient le même détail de fixation, et rien n'indique de renforcement en cachette."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T22:18:31.356Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-14T22:18:31.356Z",
+        "note": "Sources rouvertes par recoupement (nvlpubs.nist.gov et nist.gov bloqués par la politique réseau, comme lors du contrôle). Confirmés avec citations exactes du rapport NBS (NBSIR 82-2465 / BSS 143) via recherche : 113 morts et 186 blessés, deux facteurs retenus (changement de tiges + conception initiale insuffisante), capacité d'origine ≈60% de l'attendu du code de Kansas City, charge à l'effondrement = 31% de la capacité attendue — citations verbatim trouvées, correspondent exactement à la fiche. Doute non levé : le chiffre de 53% pour la fixation de la passerelle du troisième étage (corps du texte, §4, et bonne réponse du quiz_supplementaire question 2) reste introuvable malgré une recherche étendue (résumés NBS, presse de 1982, sites de cas d'étude en ingénierie, mirroirs scribd/université) — tous bloqués ou muets sur ce chiffre précis. Rien ne le contredit, mais rien ne le confirme non plus indépendamment du rapport complet, inaccessible depuis cette session. Il faudrait un accès direct à la table de résultats de BSS 143 (ou un mirroir fonctionnel) pour trancher ce point avant validation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

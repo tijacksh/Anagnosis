@@ -69,7 +69,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Les auteurs distinguent le balancement des têtes et des bustes, visible, de la synchronisation des pas, qu'aucune vidéo n'établit. Les autres réponses ajoutent des faits que ni l'article ni les sources de la fiche ne rapportent.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -95,12 +95,21 @@
       "explication": "Le modèle de 2005 estime un seuil d'environ 160 piétons, et la thèse de 2021 requiert elle aussi un nombre critique de marcheurs. Strogatz parle d'une synchronie involontaire, et aucun des deux textes n'invoque un défaut de câbles ni le vent."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T22:18:37.640Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T22:18:37.640Z",
+        "note": "Sources rouvertes : Belykh et al. 2021 (Nature Communications 12, 7223) lu en texte intégral via le mirroir PMC (nature.com bloque l'accès direct derrière une connexion). Confirmés verbatim : thèse 'increased coherence of pedestrians' foot placement is a consequence of, not a cause of the instability' ; amortissement négatif ('average negative damping is always the trigger') ; 'no video footage that establishes that footfall synchrony occurred' et distinction tête/buste vs pas (correspond exactement au quiz) ; lettre Josephson du 14 juin 2000 (Guardian, 'Out of step on the bridge') ; 'observations on almost 30 bridges'. Le chiffre de 20% vient du pont de Toda Park (Japon, 1993), pas du Millennium Bridge lui-même (tableau : 'No direct evidence' pour ce dernier) — vérifié que la fiche ne prête jamais ce chiffre spécifiquement au Millennium Bridge (formulation 'ces instabilités de passerelles' / 'ces passerelles', toujours générale), donc pas d'erreur. Wikipedia (Millennium Bridge, London) rouverte en direct : ouverture 10/06/2000, ~90000 personnes, jusqu'à 2000 à la fois, fermeture 12/06, réouverture 22/02/2002, 37+52 amortisseurs — tout confirmé. Carte et quiz cohérents avec les sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",
