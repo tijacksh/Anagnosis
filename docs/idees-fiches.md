@@ -351,3 +351,7 @@ peut rouvrir directement le texte du décret.)*
 | Linguistique | La langue des signes de Martha's Vineyard : l'origine redatée par Power et Meier (2024) | fait | routine-production | 2026-10-14 |
 | Linguistique | Noah Webster et l'orthographe américaine (1789-1828) : une réforme politique, pas une simplification | fait | routine-production | 2026-10-14 |
 | Linguistique | La loi de Zipf (1949) et le clavier aléatoire de George Miller (1957) | fait | routine-production | 2026-10-14 |
+| Nutrition | Épinards et fer : le mythe de la virgule décimale, et le mythe de son démenti (Mielewczik et Moll) | en cours | routine-production-arnaud | 2026-10-14 |
+| Nutrition | Willem Dicke et le gluten : l'hiver de la faim n'est que la moitié de l'histoire (cinq enfants, 1950-1953) | en cours | routine-production-arnaud | 2026-10-14 |
+| Nutrition | Eijkman, le béribéri et le cuisinier remplacé : poison supposé, carence comprise par Grijns | en cours | routine-production-arnaud | 2026-10-14 |
+| Nutrition | « 5 fruits et légumes par jour » : un slogan californien de 1988, pas un seuil mesuré | en cours | routine-production-arnaud | 2026-10-14 |
