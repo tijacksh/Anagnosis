@@ -74,7 +74,41 @@
     "explication": "Miller montre qu'un clavier tapant des lettres indépendamment au hasard, avec un espace comme séparateur, produit une courbe rang-fréquence dont la pente, environ -1,06 dans son exemple selon Perline, avoisine celle de la loi de Zipf — sans aucune intention de communiquer. Cela suggère que la courbe seule ne prouve pas un arbitrage d'effort : elle peut venir d'une propriété presque arithmétique du découpage en unités de longueurs variables, sans arbitrage psychologique entre effort du locuteur et effort de l'auditeur. Rien dans son expérience ne porte sur l'absence d'espaces ou sur une spécificité des langues germaniques, et elle ne propose aucune loi de remplacement.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'affirme la loi de Zipf elle-même sur un texte suffisamment long ?",
+      "choix": [
+        "Que la fréquence d'un mot, multipliée par son rang, donne à peu près toujours le même nombre",
+        "Que tous les mots d'une langue reviennent avec la même fréquence",
+        "Que seul le mot le plus fréquent suit une règle, les autres étant aléatoires",
+        "Que la fréquence d'un mot double à chaque rang, quel que soit le texte"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La loi de Zipf dit que le produit du rang d'un mot par sa fréquence reste à peu près constant pour tout un texte, ce qui donne les rapports décrits dans la fiche : deuxième mot environ deux fois moins fréquent, troisième trois fois moins."
+    },
+    {
+      "question": "Dans le modèle du clavier aléatoire repris par Perline, pourquoi les mots courts sont-ils individuellement plus probables que les mots longs ?",
+      "choix": [
+        "Parce que le clavier est réglé pour frapper plus souvent les lettres qui composent des mots courts",
+        "Parce que les mots courts sont retapés plusieurs fois avant que le clavier ne les accepte",
+        "Parce que chaque lettre de plus divise par 32 la probabilité du mot, quand les mots possibles ne sont multipliés que par 26",
+        "Parce que l'espace ne peut jamais apparaître à l'intérieur d'un mot de plus de trois lettres"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Chaque lettre de plus divise la probabilité d'un mot donné par environ 32, alors que le nombre de mots possibles de cette longueur n'est multiplié que par 26 : les mots courts restent donc, un par un, plus probables que les longs."
+    },
+    {
+      "question": "D'après Richard Perline (2015), que devient l'exposant de la courbe rang-fréquence du modèle du clavier aléatoire quand l'alphabet s'agrandit ?",
+      "choix": [
+        "Il se rapproche de 0, ce qui annule toute régularité",
+        "Il tend vers -1, dans des conditions larges sur le tirage des probabilités des lettres",
+        "Il dépasse -2, ce qui rend la courbe plus pentue que celle de Zipf",
+        "Il reste fixé à -1,06, quelle que soit la taille de l'alphabet"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Perline montre que, lorsque l'alphabet s'agrandit et que les probabilités des lettres sont tirées par un découpage aléatoire de l'intervalle unité, l'exposant tend vers -1 dans des conditions larges, sans rester figé à -1,06."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
