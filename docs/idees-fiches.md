@@ -359,3 +359,7 @@ peut rouvrir directement le texte du décret.)*
 | Sociologie | Granovetter (1978) et les seuils : deux foules presque identiques, un seul émeutier | fait | routine-production-arnaud | 2026-10-14 |
 | Sociologie | Le rapport Coleman (1966) : « l'école ne compte pas » n'est pas ce qu'il dit | fait | routine-production-arnaud | 2026-10-14 |
 | Sociologie | Sutherland et le crime en col blanc : le livre de 1949 qui ne pouvait pas nommer ses soixante-dix sociétés | fait | routine-production-arnaud | 2026-10-14 |
+| Architecture | Tacoma Narrows (1940) : le pont n'est pas tombé par « résonance » comme le disent les manuels (rapport de 1941, Billah-Scanlan 1991) | en cours | routine-production-arnaud | 2026-10-14 |
+| Architecture | Hyatt Regency de Kansas City (1981) : un changement de fixation des tiges, accepté par téléphone | en cours | routine-production-arnaud | 2026-10-14 |
+| Architecture | Pont du Millénaire de Londres (2000) : la synchronisation des pas, cause ou conséquence de l'oscillation ? | en cours | routine-production-arnaud | 2026-10-14 |
+| Architecture | Seagram Building (1958) : les profilés en I de bronze de la façade ne portent rien, la structure est sous le béton | en cours | routine-production-arnaud | 2026-10-14 |
