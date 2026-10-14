@@ -2,23 +2,23 @@
   "id": "lin-loi-de-zipf",
   "slug": "loi-de-zipf",
   "titre": "La loi de Zipf, ou ce qu'un clavier aléatoire peut imiter",
-  "accroche": "Le mot le plus fréquent d'une langue revient deux fois plus souvent que le deuxième. Un clavier qui tape au hasard produit la même courbe.",
+  "accroche": "Le mot le plus fréquent d'une langue revient environ deux fois plus souvent que le deuxième. Un clavier qui tape au hasard produit une courbe voisine.",
   "discipline": "linguistique",
   "theme": null,
   "theme_ordre": null,
   "niveau": "intermediaire",
   "duree_lecture_min": 4,
-  "contenu_vulgarise": "Prenez un texte anglais suffisamment long et classez ses mots du plus fréquent au plus rare. Le mot classé numéro 2 revient environ deux fois moins souvent que celui classé numéro 1 ; celui classé numéro 3, trois fois moins souvent ; celui classé numéro 10, dix fois moins souvent. Cette régularité, la fréquence d'un mot multipliée par son rang donne à peu près toujours le même nombre, porte le nom de loi de Zipf, du linguiste américain George Kingsley Zipf, qui la détaille dans son livre de 1949, *Human Behavior and the Principle of Least Effort*.\n\n## Un principe censé expliquer le langage\n\nZipf ne se contente pas de décrire la courbe : il propose une explication psychologique. Parler coûte un effort au locuteur, qui a intérêt à réutiliser souvent un petit nombre de mots courts plutôt que de varier son vocabulaire à chaque phrase ; écouter coûte un effort au récepteur, qui a intérêt à ce que le locuteur soit précis et varié. La loi serait le compromis entre ces deux efforts opposés, et son titre complet, *le principe du moindre effort*, dit explicitement que la régularité statistique révèle un trait du comportement humain. Le livre déborde largement la linguistique : il applique le même principe à l'économie et jusqu'à la distribution des villes par population.\n\n## Un singe qui tape au hasard obtient la même courbe\n\nEn 1957, le psychologue George Miller publie un article qui déplace entièrement la question. Il imagine un clavier à vingt-six lettres et une barre d'espace, frappées au hasard et indépendamment les unes des autres, sans aucune intention, aucun sens, aucun locuteur. Un « mot » est simplement ce qui sépare deux espaces. Miller montre que si l'on classe ces suites aléatoires de lettres par fréquence d'apparition, on obtient une courbe dont la pente, en échelle logarithmique, avoisine très exactement celle de la loi de Zipf : les mots courts, plus nombreux par construction à chaque longueur donnée, deviennent mécaniquement plus fréquents que les longs. Le mathématicien Richard Perline a depuis montré précisément à quelles conditions cette pente s'approche de la valeur -1, signature habituelle de la loi dans les langues occidentales.\n\n## Ce que ça déplace\n\nUn singe qui tape au hasard n'a ni effort à économiser, ni auditeur à satisfaire, ni intention de communiquer quoi que ce soit : il n'a même pas de langage. Et pourtant sa sortie, purement mécanique, suit la même loi statistique que l'anglais, le français ou le japonais. Si une structure aussi simple que « des lettres séparées par des espaces plus ou moins fréquents » suffit à produire la courbe de Zipf, alors observer cette courbe dans un texte réel ne prouve à lui seul ni un principe d'économie cognitive, ni quoi que ce soit sur l'esprit de qui l'a écrit. La régularité peut venir d'une propriété presque purement arithmétique de la façon dont on découpe une suite de symboles en unités de longueurs variables — ce qui ne règle pas la question de savoir pourquoi les langues humaines, elles, choisissent précisément ce découpage-là, mais retire à la loi de Zipf une bonne partie de ce qu'elle semblait révéler sur le moindre effort.",
+  "contenu_vulgarise": "Prenez un texte anglais suffisamment long et classez ses mots du plus fréquent au plus rare. Le mot classé numéro 2 revient environ deux fois moins souvent que celui classé numéro 1 ; celui classé numéro 3, trois fois moins souvent ; celui classé numéro 10, dix fois moins souvent. Cette régularité, la fréquence d'un mot multipliée par son rang donne à peu près toujours le même nombre, porte le nom de loi de Zipf, du linguiste américain George Kingsley Zipf, qui la détaille dans son livre de 1949, *Human Behavior and the Principle of Least Effort*.\n\n## Un principe censé expliquer le langage\n\nZipf ne se contente pas de décrire la courbe : il propose une explication psychologique. Parler coûte un effort au locuteur, qui a intérêt à réutiliser souvent un petit nombre de mots courts plutôt que de varier son vocabulaire à chaque phrase ; écouter coûte un effort au récepteur, qui a intérêt à ce que le locuteur soit précis et varié. La loi serait le compromis entre ces deux efforts opposés, et son titre complet, *le principe du moindre effort*, dit explicitement que la régularité statistique révèle un trait du comportement humain. Le livre déborde largement la linguistique : il applique le même principe à l'économie et jusqu'à la distribution des villes par population.\n\n## Un singe qui tape au hasard obtient une courbe voisine\n\nEn 1957, le psychologue George Miller publie un article qui déplace entièrement la question. Il imagine un clavier à vingt-six lettres et une barre d'espace, frappées au hasard et indépendamment les unes des autres, sans aucune intention, aucun sens, aucun locuteur. Un « mot » est simplement la suite de lettres comprise entre deux espaces. Dans son exemple, l'espace a une probabilité de 0,18 et les vingt-six lettres se partagent le reste à parts égales. Tous les mots de même longueur sont alors équiprobables, et chaque lettre de plus divise la probabilité d'un mot par environ 32, alors que le nombre de mots possibles est seulement multiplié par 26. Les mots courts sont donc, chacun, plus probables que les longs : classés par fréquence, ils occupent les premiers rangs, par paliers (les vingt-six mots d'une lettre, puis les 676 de deux lettres, et ainsi de suite). En échelle logarithmique, ces paliers dessinent un escalier dont la pente vaut environ -1,06 selon Perline, qui reprend l'exemple de Miller : tout près du -1 de la loi de Zipf. Le mathématicien Richard Perline a montré depuis que, lorsque l'alphabet s'agrandit et que les probabilités des lettres sont tirées par un découpage aléatoire de l'intervalle unité, l'exposant tend vers -1 dans des conditions larges.\n\n## Ce que ça déplace\n\nUn singe qui tape au hasard n'a ni effort à économiser, ni auditeur à satisfaire, ni intention de communiquer quoi que ce soit : il n'a même pas de langage. Et pourtant sa sortie, purement mécanique, dessine une courbe rang-fréquence proche de celle de Zipf. Si une structure aussi simple que « des lettres séparées par des espaces » suffit à produire une courbe voisine, alors observer cette courbe dans un texte réel ne prouve à lui seul ni un principe d'économie cognitive, ni quoi que ce soit sur l'esprit de qui l'a écrit. La régularité peut venir d'une propriété presque arithmétique de la façon dont on découpe une suite de symboles en unités de longueurs variables. Reste la question que le singe ne règle pas : pourquoi les langues humaines choisissent-elles, elles, précisément ce découpage-là ?",
   "citation": null,
   "repere": {
-    "texte": "Zipf (1949) : la fréquence du n-ième mot le plus courant d'un texte est à peu près proportionnelle à 1/n. Miller (1957) montre qu'un clavier tapant des lettres au hasard, séparées par un espace de probabilité fixe, produit une courbe rang-fréquence de pente très proche de -1 — la même signature statistique, sans aucune intention communicative.",
-    "source": "George K. Zipf, Human Behavior and the Principle of Least Effort, 1949 ; George A. Miller, « Some Effects of Intermittent Silence », American Journal of Psychology, 70(2), 1957, p. 311-314",
+    "texte": "Dans l'exemple de Miller (1957) — vingt-six lettres équiprobables et un espace de probabilité 0,18 —, le classement des « mots » tapés au hasard dessine un escalier dont la pente, en échelle log-log, vaut environ -1,06 d'après Perline : tout près du -1 de la loi de Zipf, sans aucune intention communicative.",
+    "source": "Richard Perline, arXiv:1512.02177, 2015, section 2.2 (reprise de l'exemple de George A. Miller, 1957)",
     "url": "https://arxiv.org/abs/1512.02177"
   },
   "carte": {
-    "punch": "La loi de Zipf semble révéler l'économie du langage. Un clavier au hasard l'imite sans aucun effort.",
-    "idee": "Zipf (1949) explique par le moindre effort pourquoi le mot le plus fréquent d'un texte revient deux fois plus souvent que le deuxième. En 1957, George Miller montre qu'un clavier tapant des lettres au hasard, espace compris, produit la même courbe statistique — sans aucune communication en jeu.",
-    "source_courte": "Zipf, 1949 ; Miller, Am. J. Psychology, 1957"
+    "punch": "La loi de Zipf semble révéler l'économie du langage. Un clavier au hasard en trace une proche.",
+    "idee": "Zipf (1949) explique par le moindre effort pourquoi le mot le plus fréquent d'un texte revient environ deux fois plus souvent que le deuxième. En 1957, Miller montre qu'un clavier tapant des lettres au hasard, espace compris, produit une courbe de pente voisine de -1, sans communication.",
+    "source_courte": "Zipf, 1949 ; Miller, 1957 (via Perline)"
   },
   "sources": [
     {
@@ -28,7 +28,16 @@
       "publication": "Addison-Wesley Press, Cambridge (Mass.)",
       "annee": 1949,
       "url": "https://archive.org/details/in.ernet.dli.2015.90211",
-      "note": "Texte intégral numérisé (Internet Archive, copie de la Digital Library of India) — exposé original de la loi et du principe du moindre effort."
+      "note": "Texte intégral numérisé (Internet Archive, copie de la Digital Library of India), rouvert : chap. 2 (rang × fréquence = constante, exemple d'Ulysses), principe du moindre effort et économies du locuteur et de l'auditeur, chap. 9 (villes) et 11 (pouvoir économique)."
+    },
+    {
+      "type": "article",
+      "auteur": "Miller, George A.",
+      "titre": "Some Effects of Intermittent Silence",
+      "publication": "The American Journal of Psychology, 70(2), p. 311-314",
+      "annee": 1957,
+      "url": "https://pdodds.w3.uvm.edu/files/papers/others/1957/miller1957a.pdf",
+      "note": "Copie numérisée de l'article (scan : le texte n'a pas pu être relu directement). Les valeurs citées dans la fiche — espace à 0,18, 26 lettres équiprobables, pente d'environ -1,06 — sont celles que rapporte Perline (2015, section 2.2)."
     },
     {
       "type": "article",
@@ -37,14 +46,14 @@
       "publication": "arXiv:1512.02177 [math.PR]",
       "annee": 2015,
       "url": "https://arxiv.org/abs/1512.02177",
-      "note": "Détaille et prolonge mathématiquement le modèle du « singe au clavier » de George Miller (1957, Amer. J. Psych. 70(2), p. 311-314), cité et résumé dans l'article."
+      "note": "Section 2.2 : reprend le modèle du « singe au clavier » de Miller (1957) — espace à 0,18, vingt-six lettres équiprobables, escalier de pente d'environ -1,06 — puis montre que l'exposant tend vers -1 quand l'alphabet grandit, dans des conditions larges (découpage aléatoire de l'intervalle unité)."
     }
   ],
   "pour_aller_plus_loin": [
     {
-      "titre": "Wikipedia — Principle of least effort",
-      "url": "https://en.wikipedia.org/wiki/Principle_of_least_effort",
-      "note": "Contexte sur la réception du livre de Zipf et les critiques de son explication psychologique."
+      "titre": "Wikipedia — Zipf's law",
+      "url": "https://en.wikipedia.org/wiki/Zipf%27s_law",
+      "note": "Présente le modèle du texte tapé au hasard (Miller 1957, Li 1992), l'explication de Zipf par le moindre effort et le fait que la relation avait été relevée avant lui (Estoup 1916, Dewey 1923, Condon 1928)."
     }
   ],
   "illustration": {
@@ -54,24 +63,33 @@
     "statut": "a_generer"
   },
   "quiz": {
-    "question": "Pourquoi l'expérience de George Miller (1957) affaiblit-elle l'explication de Zipf par le « moindre effort » ?",
+    "question": "Pourquoi l'expérience de George Miller (1957) invite-t-elle à la prudence sur l'explication de Zipf par le « moindre effort » ?",
     "choix": [
       "Parce que Miller montre que la courbe de Zipf n'apparaît que dans les langues qui n'ont pas d'espace entre les mots",
-      "Parce qu'un texte produit par des lettres tapées au hasard, sans aucune communication, reproduit la même courbe rang-fréquence",
+      "Parce qu'un texte produit par des lettres tapées au hasard, sans aucune communication, reproduit à peu près la même courbe rang-fréquence",
       "Parce que Miller démontre que la fréquence des mots varie en réalité selon une autre loi, sans rapport avec le rang",
       "Parce que Miller prouve que seules les langues germaniques suivent la loi de Zipf, contrairement à ce que pensait Zipf"
     ],
     "bonne_reponse": 1,
-    "explication": "Miller montre qu'un clavier tapant des lettres indépendamment au hasard, avec un espace comme séparateur, produit une courbe rang-fréquence dont la pente avoisine celle de la loi de Zipf — sans aucune intention de communiquer. Cela suggère que la régularité peut venir d'une propriété presque arithmétique du découpage en unités de longueurs variables, et non nécessairement d'un arbitrage psychologique entre effort du locuteur et effort de l'auditeur. Rien dans son expérience ne porte sur l'absence d'espaces ou sur une spécificité des langues germaniques, et elle ne propose aucune loi de remplacement.",
-    "statut": "brouillon"
+    "explication": "Miller montre qu'un clavier tapant des lettres indépendamment au hasard, avec un espace comme séparateur, produit une courbe rang-fréquence dont la pente, environ -1,06 dans son exemple selon Perline, avoisine celle de la loi de Zipf — sans aucune intention de communiquer. Cela suggère que la courbe seule ne prouve pas un arbitrage d'effort : elle peut venir d'une propriété presque arithmétique du découpage en unités de longueurs variables, sans arbitrage psychologique entre effort du locuteur et effort de l'auditeur. Rien dans son expérience ne porte sur l'absence d'espaces ou sur une spécificité des langues germaniques, et elle ne propose aucune loi de remplacement.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-14T16:03:13.972Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-14T16:03:13.972Z",
+        "note": "Sources rouvertes : Zipf 1949 (archive.org, texte intégral : chap. 2 rang×fréquence=constante, économies du locuteur et de l'auditeur, chap. 9 villes, chap. 11 économie), Perline arXiv 1512.02177 (PDF lu : section 2.2, exemple de Miller 26 lettres équiprobables, espace 0,18, escalier, pente ≈ -1,06 « close to -1 » ; exposant -1 quand l'alphabet grandit), Wikipédia Zipf's law (modèle du texte aléatoire Miller/Li, Estoup 1916, Dewey 1923, Condon 1928), Wikipédia Principle of least effort (ne traite pas la critique de Miller : retirée), PDF Miller 1957 (bon article d'après l'annotation JSTOR, mais scan illisible : valeurs reprises de Perline, dit dans la note). Corrigé : « très exactement »/« même courbe » ramenés à « environ -1,06 », « courbe voisine » (corps, accroche, carte, quiz, repère) ; explication des mots courts refaite (chaque mot court est plus probable, 26^j mots de même probabilité, paliers) ; repère pointé sur Perline (url et source cohérentes) ; Miller ajouté aux sources ; pour aller plus loin remplacé par Wikipédia Zipf's law ; dernier paragraphe : retrait de « français ou japonais » non sourcé. Quiz : bonne réponse B (courbe voisine), distracteurs A, C, D faux."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

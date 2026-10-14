@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Pour Tallet et Marouard, le port est une dépendance éloignée du chantier de Gizeh, extension technique indispensable pour le cuivre des mines du sud du Sinaï. Les blocs du journal viennent de Tura, sur le Nil, et ni disgrâce ni pillage ne figurent dans leur explication.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Le journal nomme la pyramide elle-même Akhet-Khoufou, Ro-She Khéops est un centre administratif distinct, qui semble avoir servi d'escale logistique sous l'autorité d'Ankhhaf, vizir du roi."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-14T07:33:18.970Z",
+    "decide_le": "2026-10-14T15:58:38.940Z",
     "historique": [
       {
         "action": "valider",
@@ -137,6 +137,14 @@
         "par": "routine-reparation",
         "le": "2026-10-14T07:33:18.970Z",
         "note": "Article primaire (Tallet et Marouard, NEA 77(1), 2014) toujours inaccessible à cette session (DOI, uchicago, ancientportsantiques, arizona.edu, et même l'IFAO pourtant ouverte lors du passage de production : tout hors politique réseau ou DNS non résolu). Recherche indépendante sur sources accessibles : Wikipédia 'Diary of Merer' (rouverte) confirme explicitement que le trajet Tura–Akhet-Khoufou de quatre jours est un ALLER-RETOUR ('four-day round-trips... and back', deux ou trois rotations tous les dix jours) — corps corrigé en conséquence, l'ancienne formulation ambiguë ('livrés en quatre jours au plus') laissait croire à une livraison simple. Smithsonian Magazine (rouverte) confirme la 27e année comme 'the last date we have for the reign of Khufu', confirme que le journal de Merer est muet sur l'activité au port de la mer Rouge, et confirme le lien, selon Tallet, entre les gestionnaires du chantier et l'approvisionnement en cuivre/turquoise du Sinaï. Wikipédia et Haaretz (recherche) confirment Ro-She Khéops comme halte logistique de fait sous l'autorité d'Ankhhaf ('overseer of Ra-shi-Khufu', nuit passée à She-Khufu avant de repartir) : le mot 'escale' reste fidèle. Point non recoupé : la longueur des fragments ('plus de 80 cm') n'est confirmée par aucune source accessible (un fragment mesuré ailleurs fait 21x31 cm) — retirée du texte et remplacée par une formulation qui n'avance pas de chiffre. Hypothèse des 'mêmes équipes' pour le Sinaï laissée en l'état : c'est l'interprétation de Tallet, présentée comme telle dans la fiche, et Smithsonian la corrobore dans ses grandes lignes sans la contredire. npm run validate : 0 erreur."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-14T15:58:38.940Z",
+        "note": "Déjà réparée deux fois et revenue en retouche : la règle de la routine interdit une troisième réparation. Dernier point encore ouvert au contrôle : « certains encore assez longs pour rester lisibles sur plusieurs jours de journal » absent de l'article de Tallet & Marouard (NEA 77(1), 2014, p. 8), qui donne plus de 80 cm pour l'ensemble des fragments et plus de 50 cm pour ceux du journal de Merer."
       }
     ]
   },
