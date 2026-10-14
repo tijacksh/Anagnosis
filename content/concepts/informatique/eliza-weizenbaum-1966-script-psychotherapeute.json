@@ -65,7 +65,41 @@
     "explication": "Dans l'article de 1966, Weizenbaum écrit que le sentiment d'être écouté et compris vient en grande partie de celui qui parle, lequel prête à l'autre un savoir et une finesse qu'il n'a pas. Le moteur ne fait que repérer des mots-clés et réassembler des morceaux de phrase, sans analyser le sens ; le récit de 99% Invisible ne mentionne aucune base de connaissances sur les émotions, et rien dans l'article ne fait de la vitesse de réponse la source de l'impression.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Dans quel langage ELIZA est-il écrit, et sur quelle machine tourne-t-il ?",
+      "choix": [
+        "En MAD-SLIP, sur un IBM 7094, via le système à temps partagé MAC du MIT",
+        "En Fortran, sur un Cray-1 installé à Stanford",
+        "En LISP, sur un PDP-11 relié à Internet",
+        "En COBOL, sur un mainframe IBM loué par une banque"
+      ],
+      "bonne_reponse": 0,
+      "explication": "ELIZA est écrit en MAD-SLIP pour un IBM 7094 et tourne sur le système à temps partagé MAC du MIT, où l'on dialogue depuis des machines à écrire distantes."
+    },
+    {
+      "question": "Comment ELIZA fabrique-t-elle sa réponse à une phrase ?",
+      "choix": [
+        "Elle traduit la phrase dans une langue intermédiaire avant de la retraduire",
+        "Elle consulte une base de données de réponses toutes faites classées par thème",
+        "Elle repère un mot-clé selon son rang, découpe la phrase puis réassemble une réponse à partir des morceaux",
+        "Elle calcule une probabilité statistique sur un corpus de dialogues enregistrés"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le programme lit la phrase, cherche un mot-clé classé par rang, puis applique des règles de décomposition et de réassemblage rangées dans un script distinct du moteur, pour fabriquer sa réponse."
+    },
+    {
+      "question": "Que s'est-il passé quand la secrétaire de Weizenbaum a dialogué avec ELIZA, selon l'anecdote reprise par 99% Invisible ?",
+      "choix": [
+        "Elle a immédiatement reconnu un programme et s'en est moquée",
+        "Elle a demandé à Weizenbaum de bien vouloir quitter la pièce",
+        "Elle a refusé de continuer la conversation après une seule phrase",
+        "Elle a proposé d'améliorer le script du psychothérapeute"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Après quelques échanges avec le programme, la secrétaire a demandé à Weizenbaum de quitter la pièce, prenant au sérieux ce que le programme ne faisait que simuler, ce qui l'a alarmé."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

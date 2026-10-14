@@ -75,7 +75,41 @@
     "explication": "Babbage avait préparé des programmes dès 1837, dont un système de deux équations à deux inconnues, sans les publier. La note G, elle, est parue en 1843 dans Taylor's Scientific Memoirs. Elle n'est pas de Menabrea, dont le mémoire est le texte traduit et non l'auteur du programme ; elle porte sur la machine analytique, comme l'ensemble ; et elle a bien été imprimée.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que décrit la note G d'Ada Lovelace comme exemple final de ses sept notes ?",
+      "choix": [
+        "Le calcul des nombres de Bernoulli pour le cas n = 4, avec 25 cartes d'opérations",
+        "Un programme de tri de nombres entiers par ordre croissant",
+        "La traduction automatique d'un texte français en anglais",
+        "Une démonstration de jeu d'échecs joué par la machine"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La note G, dernière des sept notes de Lovelace, prend pour exemple le calcul des nombres de Bernoulli : pour n = 4, elle décrit l'état des colonnes avec six données de départ et indique que 25 cartes d'opérations suffisent."
+    },
+    {
+      "question": "Quelle erreur affecte le programme de la note G, selon deux programmeurs qui l'ont réécrit de nos jours ?",
+      "choix": [
+        "Une boucle infinie à la dernière opération",
+        "Une division écrite dans le mauvais sens à la quatrième opération",
+        "Une donnée de départ oubliée parmi les six nécessaires",
+        "Une carte d'opération dupliquée par erreur d'impression"
+      ],
+      "bonne_reponse": 1,
+      "explication": "À la quatrième opération, la division est écrite v5 divisé par v4 au lieu de v4 divisé par v5. Deux programmeurs qui l'ont réécrite, l'un en C, l'autre en Python, l'ont constatée ; il s'agit peut-être d'une coquille d'imprimerie."
+    },
+    {
+      "question": "D'où vient le mémoire que Lovelace traduit et annote dans son texte de 1843 ?",
+      "choix": [
+        "D'un rapport de la Royal Society présenté par Babbage lui-même en anglais",
+        "D'une correspondance privée entre Lovelace et Babbage publiée après leur mort",
+        "D'un exposé de Babbage rapporté par l'ingénieur Luigi Menabrea, paru en français à Genève",
+        "D'un cours donné par Lovelace à l'université de Cambridge"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le point de départ est un mémoire de l'ingénieur militaire italien Luigi Menabrea, paru en français à Genève en octobre 1842, qui rend compte d'un exposé de Babbage ; Lovelace le traduit en anglais et y ajoute sept notes."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

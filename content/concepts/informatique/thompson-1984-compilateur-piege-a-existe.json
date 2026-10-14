@@ -75,7 +75,41 @@
     "explication": "Le piège est appris au binaire : le compilateur le recopie à chaque recompilation, alors que sa source est propre. Il ne se cache ni dans une bibliothèque tierce, ni derrière un chiffrement, ni dans un matériel particulier : Thompson évoque le microcode seulement comme un niveau encore plus bas où le même type de piège serait plus dur à trouver.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment le groupe PWB des Bell Labs a-t-il repéré le compilateur piégé, selon Russ Cox ?",
+      "choix": [
+        "En relisant attentivement le code source du compilateur chaque semaine",
+        "Parce qu'un employé a reconnu la porte dérobée dans le binaire à l'œil nu",
+        "Parce que le compilateur grossissait à chaque recompilation, à cause d'un octet nul en trop",
+        "Grâce à un audit de sécurité commandé par la direction des Bell Labs"
+      ],
+      "bonne_reponse": 2,
+      "explication": "D'après ce que Thompson a dit à Russ Cox, le compilateur grossissait à chaque génération à cause d'un banal défaut, un octet nul ajouté en trop, ce qui a permis aux membres du groupe PWB de le repérer."
+    },
+    {
+      "question": "Quelle parade David A. Wheeler propose-t-il contre un compilateur piégé ?",
+      "choix": [
+        "Interdire l'usage de tout compilateur écrit dans le même langage que lui-même",
+        "Compiler la source à tester avec un compilateur de confiance, recompiler ce résultat, puis comparer le binaire final bit à bit à l'exécutable suspect",
+        "Réécrire entièrement le compilateur en microcode pour éviter toute dépendance logicielle",
+        "Faire relire le code source par au moins trois programmeurs indépendants"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Wheeler formalise la double compilation diversifiée : compiler la source du compilateur à tester avec un second compilateur de confiance, recompiler cette même source avec le binaire obtenu, puis comparer ce résultat, bit à bit, à l'exécutable suspect."
+    },
+    {
+      "question": "D'après Wheeler, quelle analyse a identifié la première ce type de problème, avant Thompson ?",
+      "choix": [
+        "L'analyse de sécurité de Multics par Karger et Schell, en 1974",
+        "Le rapport annuel de la NSA sur la cryptographie, en 1977",
+        "La thèse de Thompson lui-même, soutenue en 1970",
+        "Un article de Dennis Ritchie publié en 1969"
+      ],
+      "bonne_reponse": 0,
+      "explication": "David A. Wheeler rappelle que l'analyse de Multics par Karger et Schell, en 1974, soit dix ans avant l'article de Thompson, est la première à avoir identifié le problème."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
