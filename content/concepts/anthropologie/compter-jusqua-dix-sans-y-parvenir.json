@@ -47,6 +47,15 @@
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Piraha_language",
       "note": "Page lue directement : synthèse de la controverse sur la récursivité, réanalyse de Nevins, Pesetsky et Rodrigues (2009), réponse d'Everett (2009), références DOI vérifiées."
+    },
+    {
+      "type": "revue",
+      "auteur": "Michael C. Frank, Daniel L. Everett, Evelina Fedorenko, Edward Gibson",
+      "titre": "Number as a Cognitive Technology: Evidence from Pirahã Language and Cognition",
+      "publication": "Cognition, vol. 108, n°3, p. 819-824",
+      "annee": 2008,
+      "url": "https://doi.org/10.1016/j.cognition.2008.04.007",
+      "note": "Étude menée avec des chercheurs du MIT (Fedorenko, Gibson) : les locuteurs pirahã réussissent la correspondance terme à terme la plus simple mais perdent la mémoire d'une quantité exacte lorsque les deux ensembles ne sont plus visibles simultanément — source de l'affirmation correspondante dans le corps du texte."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -97,8 +106,23 @@
   ],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-14",
+    "verdict": "corrige",
+    "empreinte": "78b01ddf9cfe8634",
+    "notes": [
+      "Sources Gordon 2004 (Science) et Everett 2005 (Current Anthropology) vérifiées : titres, volumes, pages et chiffres (précis jusqu'à 2-3 objets, chute au-delà de 8-10) confirmés par recoupement (DOI, presse scientifique, recherches croisées). Wikipedia (pirahã language) confirmée pour la synthèse de la controverse sur la récursivité (Nevins/Pesetsky/Rodrigues 2009, réponse d'Everett 2009). Correction : l'affirmation du corps de texte sur « une étude ultérieure menée avec des chercheurs du MIT » n'avait aucune source associée ; ajout de la référence réelle et vérifiée (Frank, Everett, Fedorenko & Gibson, « Number as a Cognitive Technology », Cognition, 2008, DOI 10.1016/j.cognition.2008.04.007), qui confirme bien le contenu de l'affirmation."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-14", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -36,7 +36,7 @@
       "titre": "Conversations with Ogotemmêli: An Introduction to Dogon Religious Ideas",
       "publication": "Oxford University Press, pour l'International African Institute (traduction de Dieu d'eau, 1948)",
       "annee": 1965,
-      "url": "https://openlibrary.org/books/OL23747042M",
+      "url": "https://openlibrary.org/books/OL19700521M",
       "note": "Source du récit des entretiens avec Ogotemmêli à la fin de 1946 et de la cosmologie dogon rapportée par Griaule."
     },
     {
@@ -46,7 +46,16 @@
       "publication": "Wikipedia",
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Dogon_people",
-      "note": "Page lue directement : chronologie des missions de terrain de Griaule, dates de confirmation de Sirius B (1862, photographie 1970), références Benest & Duvent (1995, Astronomy and Astrophysics 299) et Bonnet-Bidaud & Pantin (2008, A&A 489)."
+      "note": "Page lue directement : chronologie des missions de terrain de Griaule (1931, 1935, 1937, 1938, puis annuellement de 1946 à 1956), cosmologie dogon sur Sirius (Pō Tolo, ęmmę ya tolo), référence à l'étude de Benest & Duvent (1995, six ans de période orbitale) et à l'étude de 2008 jugeant cette hypothèse peu probable. Ne contient PAS les dates de confirmation (1862) ni de photographie (1970) de Sirius B elle-même — voir la source Sirius B ci-dessous pour 1862."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Sirius B",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sirius_B",
+      "note": "Page lue directement : « The faint companion, Sirius B, was first observed on 31 January 1862 by [...] Alvan Graham Clark [...] Sirius B's sighting was confirmed on 8 March with smaller telescopes. » Source de la date de 1862 citée dans le corps du texte."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -74,7 +83,12 @@
   "quiz_supplementaire": [
     {
       "question": "Pendant combien de jours consécutifs Griaule dit-il avoir conversé avec Ogotemmêli à la fin de 1946 ?",
-      "choix": ["33 jours", "3 jours", "300 jours", "13 jours"],
+      "choix": [
+        "33 jours",
+        "3 jours",
+        "300 jours",
+        "13 jours"
+      ],
       "bonne_reponse": 0,
       "explication": "Ces entretiens avec le sage dogon aveugle Ogotemmêli se seraient étendus sur 33 jours consécutifs, à la fin de 1946, et ont servi de base à Dieu d'eau, publié en 1948."
     },
@@ -90,10 +104,25 @@
       "explication": "Benest et Duvent (1995) ont proposé un compagnon à période orbitale de six ans ; Bonnet-Bidaud et Pantin (2008) jugent cette hypothèse peu probable sans l'exclure totalement. Sirius B, elle, est confirmée depuis 1862 et photographiée dès 1970."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-14",
+    "verdict": "a_revoir",
+    "empreinte": "cf55048d2c07d92f",
+    "notes": [
+      "Corps vérifié dans l'ensemble : missions de Griaule, entretiens Ogotemmêli (1946), parution Dieu d'eau (1948) confirmées. Article de van Beek (Current Anthropology 32(2), 1991, p.139-167) rouvert via DOI : confirme le désaccord des informateurs dogon sur l'étoile du Sigui (invisible vs Vénus) et leur accord sur une origine Griaule, ainsi que la réponse de Calame-Griaule dans le même volume — repère, carte et quiz s'accordent avec la source. Corrigé : url du livre de Griaule pointait vers l'édition OUP de 1976 (OL23747042M) alors que la fiche annonce 1965 -> remplacée par l'édition 1965 vérifiée (OL19700521M). Note de la source Wikipedia 'Dogon people' corrigée : elle prétendait contenir les dates de confirmation de Sirius B (1862) et de sa première photographie (1970), ce qui est faux (vérifié par lecture directe) ; ajout d'une source Wikipedia 'Sirius B' qui confirme bien la date de 1862. A SIGNALER : la date '1970' (première photographie de Sirius B) du corps du texte reste sans source dans la fiche. Elle correspond probablement à Lindenblad, Astronomical Journal 75, p.841 (1970), mesures astrométriques photographiques de Sirius A/B 1965-1969 — fait plausible et répété dans la littérature secondaire sur l'affaire Dogon/Sirius, mais je n'ai pas pu ouvrir ce papier primaire (DNS/scan illisible) pour le confirmer moi-même. A vérifier et sourcer, ou à retirer du texte si non confirmable."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-10-14", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
