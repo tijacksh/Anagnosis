@@ -67,14 +67,21 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": null,
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-14",
+    "verdict": "a_revoir",
+    "empreinte": "4a089069b0fc3c35",
+    "notes": [
+      "Sources rouvertes : Eichin et Rochlis (A.3.1 « one-in-seven chance, it won't even try to test for another virus » ; 1.4.4 ni destruction ni tentative de destruction de données ; 17 h 01 min 59 s le 2 novembre 1988 d'après les journaux de Cornell, origine discutée ; 60 000 ordinateurs, Lottor, IETF, octobre 1988 ; 10 % du MIT « pure guess » extrapolé à 6 000 ; Media Lab coupé du réseau ; propagation plus rapide que prévu), Wikipédia United States v. Morris (2d Cir., 7 mars 1991, 928 F.2d 504, § 1030(a)(5)(A), trois ans de probation, 400 heures, 10 050 dollars, règle un sur sept contre les machines simulant l'infection, réinfections sous-estimées). À vérifier (corps, §« Une vérification, et une exception ») : la fiche écrit que l'exception, « d'après le jugement d'appel tel que le résume Wikipédia », visait à déjouer « les administrateurs qui auraient simulé la présence du ver ». Wikipédia ne parle que de machines qui simulent l'infection (« computers faking infection ») : « administrateurs » est un ajout de la fiche ; l'article d'Eichin et Rochlis (A.3.1) ne donne, lui, aucune raison à la règle un sur sept. Reformuler fidèlement ou retirer « administrateurs ». Le lien du jugement (scholar.google.com, pour aller plus loin) n'a pas pu être rouvert (vérification anti-robot) : le texte de l'arrêt n'a donc pas été lu par le contrôle, à rouvrir par le passage suivant ; Justia est refusé (403)."
+    ]
+  },
   "meta": {
     "genere_le": "2026-10-14",
     "genere_par": "claude-code",

@@ -83,7 +83,14 @@
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-14",
+    "verdict": "ok",
+    "empreinte": "dbeaebb6d16846ed",
+    "notes": [
+      "Sources rouvertes : texte intégral fourmilab (phrase « no pretensions whatever to originate anything » ouvrant la note G ; exemple de Bernoulli, 25 Operation-cards, n = 4, six données ; Genève, octobre 1842 ; initiales A.A.L.), arXiv Rojas (programme de 1837, deux équations à deux inconnues, présenté comme une trace), Wikipédia Note G (notes trois fois plus longues, vol. III p. 666-731, Bromley : plusieurs dizaines de programmes 1837-1840 non publiés, division inversée à l'opération 4), TwoBitHistory (v5/v4, coquille d'imprimerie possible, C et Python). Réserve levée à la relecture : la note G dit bien que « these same twenty-five cards suffice for the successive computation of all the Numbers from B1 to B2n-1 » (9 cartes pour n=1, 14 pour n=2, 25 pour n>2, pas davantage quel que soit n), ce que la fiche paraphrase correctement."
+    ]
+  },
   "meta": {
     "genere_le": "2026-10-14",
     "genere_par": "claude-code",

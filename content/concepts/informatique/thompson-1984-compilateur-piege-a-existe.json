@@ -76,14 +76,21 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": null,
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-14",
+    "verdict": "a_revoir",
+    "empreinte": "8fd57d485c0c712c",
+    "notes": [
+      "À vérifier : la parade de Wheeler est décrite comme « recompiler la source du compilateur avec un second compilateur indépendant, puis comparer les binaires obtenus ». Chez Wheeler (dwheeler.com/trusting-trust), le compilateur de confiance compile d'abord la source du compilateur à tester, ce résultat recompile cette même source, et c'est le binaire final qui est comparé bit à bit à l'exécutable suspect : on ne compare pas les sorties brutes de deux compilateurs, qui diffèrent normalement. Reformuler ou signaler l'approximation. Confirmés : Thompson (Crossref : CACM 27(8), p. 761-763, août 1984 ; morale, critique de l'armée de l'air sur Multics, microcode, d'après les copies du texte), Cox (compilateur piégé copié mais « didn't make it any farther than PWB », croissance due à un octet NUL en trop, « never distributed », copie nih.a des bandes de Ritchie publiées en juillet 2023, remise en marche par Cox en 2023), Wheeler (Karger-Schell 1974, thèse 2009 avec preuve formelle, quatre compilateurs dont GCC). Non vérifié : « conférence prononcée en octobre 1983 » (corps, première phrase). Page ACM non ouvrable (403), mais DOI confirmé par Crossref."
+    ]
+  },
   "meta": {
     "genere_le": "2026-10-14",
     "genere_par": "claude-code",

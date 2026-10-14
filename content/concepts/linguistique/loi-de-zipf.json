@@ -66,14 +66,21 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": null,
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-14",
+    "verdict": "a_revoir",
+    "empreinte": "082e539f9ce373d0",
+    "notes": [
+      "À vérifier (corps §« Un singe qui tape au hasard », carte, quiz, repère, pour aller plus loin) : (1) « la pente avoisine très exactement celle de la loi de Zipf » et « la même courbe » (corps, carte, quiz) : Miller 1957 obtient environ -1,06 pour 26 lettres et un espace, en escalier (Mandelbrot), et Perline ne montre qu'une tendance vers -1 quand l'alphabet grandit (arXiv 1512.02177) ; « très exactement » et « même courbe » surestiment. (2) « les mots courts, plus nombreux par construction à chaque longueur donnée, deviennent mécaniquement plus fréquents » est une explication confuse : dans le modèle, chaque mot court est individuellement plus probable (probabilité décroissante avec la longueur), alors qu'il y a moins de mots distincts de petite longueur. (3) Le repère cite Zipf 1949 et Miller 1957 mais son url est celle de l'article de Perline ; Miller 1957 n'est ni dans les sources ni cliquable (copie repérée : pdodds.w3.uvm.edu/files/papers/others/1957/miller1957a.pdf, non rouverte). (4) Pour aller plus loin : la page Wikipédia « Principle of least effort » ne traite ni la réception du livre ni la critique de Miller, la note est inexacte. Confirmés : Zipf 1949 (archive.org, titre et éditeur), Miller, Am. J. Psychol. 70(2), 311-314, 1957 (références via Perline), Perline arXiv 1512.02177 (exposant -1 sous conditions larges). Le fond (un clavier aléatoire imite Zipf) tient."
+    ]
+  },
   "meta": {
     "genere_le": "2026-10-14",
     "genere_par": "routine-production",
