@@ -49,7 +49,7 @@
     }
   ],
   "illustration": {
-    "prompt": "Composition graphique en aplats saturés : un même mot représenté par deux formes géométriques presque identiques côte à côte, l'une complète, l'autre légèrement tronquée d'un élément (une encoche nette remplaçant une lettre manquante). Entre les deux, une ligne de démarcation verticale rappelant une frontière maritime. Rouge brique, bleu marine, blanc cassé, contours nets, aucun dégradé, pas d'inscription dans l'image.",
+    "prompt": "Composition graphique en aplats saturés : deux formes géométriques presque identiques côte à côte, l'une complète, l'autre légèrement tronquée par une encoche nette. Entre les deux, une ligne de démarcation verticale rappelant une frontière maritime. Rouge brique, bleu marine, blanc cassé, contours nets, aucun dégradé, pas d'inscription dans l'image.",
     "alt": "Deux formes géométriques presque identiques séparées par une ligne verticale, l'une légèrement tronquée",
     "url": null,
     "statut": "a_generer"
@@ -64,15 +64,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Webster écrit en 1789 que l'honneur d'une nation indépendante exige « un système propre, en matière de langue comme de gouvernement » : l'argument est politique et identitaire, pas pédagogique. Rien dans les Dissertations ne mentionne l'apprentissage par des non-anglophones, une instruction gouvernementale ou une contrainte d'imprimerie.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T06:45:46.513Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-14T06:45:46.513Z",
+        "note": "Sources rouvertes le 2026-10-14 : Gutenberg 45738 (Dissertations 1789, texte intégral : citation « As an independent nation, our honor requires… » retrouvée mot pour mot, mais dans la section « The English language the parent of the American » annoncée p. 21 au sommaire, pas p. 20 ; « Great Britain, whose children we are, and whose language we speak, should no longer be our standard » et « Our political harmony is therefore concerned in a uniformity of language » exacts), archive.org 1828 (texte intégral : COL'OR, CEN'TER, HON'OR présents ; préface : « sixty or seventy thousand words »), Wikipédia Webster's Dictionary (70 000 entrées, deux volumes in-quarto, S. Converse ; Webster n'a pas inventé ces graphies, il a choisi parmi des options existantes), Mental Floss, Collection of Essays and Fugitiv Writings 1790 (Gutenberg 44416). DOUTES À LEVER : (1) le paragraphe sur les réformes échouées attribue au dictionnaire de 1828 des graphies « wimmen », « tung », « hed », « bilt » : aucune n'y figure comme orthographe proposée (bilt et tung n'y sont que des respellings de prononciation sous BUILT et GOOSETONGUE) et wimmen/hed/bilt ne sont ni dans les Dissertations de 1789, ni dans l'essai de 1790 ; seule « tung » est attestée, dans la préface de la Collection of Essays and Fugitiv Writings (1790, avec helth, breth, rong, munth). Mental Floss, seule source citée pour ces formes, ne dit pas dans quel ouvrage ni n'a « hed ». Il faut soit sourcer chaque forme à l'ouvrage réel (probablement 1790, pas 1828), soit supprimer ; la carte (« Son dictionnaire de 1828 impose color, honor et center — mais pas wimmen ») hérite du même défaut. (2) « séparation future et inévitable » entre guillemets : le texte dit « a future separation of the American tongue from the English, necessary and unavoidable » ; traduire fidèlement. (3) « dont une bonne partie n'avait jamais figuré dans aucun dictionnaire » et « plusieurs centaines de mots » : aucune source ouverte ne le dit. (4) « a lancé une bonne partie de ces formes » : Wikipédia dit qu'il n'a pas originé ces graphies (center vient d'avant, Compendious Dictionary 1806). (5) « wagon à la place de waggon » non sourcé. (6) Le punch (« Color sans u est une déclaration d'indépendance de 1789 ») lie color à un texte de 1789 qui ne parle pas de color ; la thèse politique de l'orthographe reste à sourcer (par exemple l'essai orthographique de Webster lui-même). (7) Citation : source dite p. 20, sommaire Gutenberg donne p. 21 ; à vérifier sur la pagination d'origine ou retirer le numéro."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

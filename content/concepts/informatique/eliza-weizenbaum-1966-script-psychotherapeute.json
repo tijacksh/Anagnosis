@@ -63,15 +63,24 @@
     ],
     "bonne_reponse": 3,
     "explication": "Dans l'article de 1966, Weizenbaum écrit que le sentiment d'être écouté et compris vient en grande partie de celui qui parle, lequel prête à l'autre un savoir et une finesse qu'il n'a pas. Le moteur ne fait que repérer des mots-clés et réassembler des morceaux de phrase, sans analyser le sens ; le récit de 99% Invisible ne mentionne aucune base de connaissances sur les émotions, et rien dans l'article ne fait de la vitesse de réponse la source de l'impression.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T06:45:33.676Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T06:45:33.676Z",
+        "note": "Sources rouvertes le 2026-10-14 : copie UMBC de l'article de 1966 (MAD-SLIP, IBM 7094, système MAC, machine à écrire distante ; lecture gauche-droite, mot-clé avec rang ; règle (0 YOU 0 ME), « It seems that you hate me » → « What makes you think I hate you » ; script = données hors du programme ; cadre psychiatrique choisi pour la « pose » de ne presque rien savoir du monde réel, exemple des bateaux ; sentiment d'être compris = contribution du locuteur ; magie qui s'effrite, « mere collection of procedures »), Crossref (CACM 9(1), p. 36-45, janvier 1966, DOI valide), transcription 99% Invisible n° 382 (secrétaire : « Would you mind leaving the room please? » ; ELIZA pas un outil thérapeutique, pas programmé avec des informations sur la pensée ou l'émotion humaine ; Weizenbaum plaide contre l'automatisation de domaines exigeant compassion). Carte et quiz relus, distracteurs faux. Aucun changement de texte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

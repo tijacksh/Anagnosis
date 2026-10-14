@@ -73,15 +73,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Babbage avait préparé des programmes dès 1837, dont un système de deux équations à deux inconnues, sans les publier. La note G, elle, est parue en 1843 dans Taylor's Scientific Memoirs. Elle n'est pas de Menabrea, dont le mémoire est le texte traduit et non l'auteur du programme ; elle porte sur la machine analytique, comme l'ensemble ; et elle a bien été imprimée.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T06:45:33.514Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T06:45:33.514Z",
+        "note": "Sources rouvertes le 2026-10-14 : texte intégral fourmilab (citation « no pretensions whatever to originate anything » retrouvée mot pour mot, suivie de « It can do whatever we know how to order it to perform » ; la note G annonce clore par l'exemple des nombres de Bernoulli, « rather complicated example » ; diagramme n = 4, six données, 25 cartes pour B1 à B2n-1 ; mémoire de Menabrea, Bibliothèque universelle de Genève, octobre 1842 ; initiales A.A.L.), arXiv 2303.13740 Rojas (Babbage 1837, deux équations linéaires à deux inconnues, table avec adresses mémoire), Wikipédia Note G (notes trois fois plus longues que l'article, vol. III p. 666-731, Bromley : plusieurs dizaines de programmes de 1837 à 1840 jamais publiés, division v5/v4 à l'envers à l'opération 4), TwoBitHistory (v5/v4, coquille d'imprimerie possible, C et Python). Carte et quiz relus : la carte ne dit rien que la fiche ne dise ; distracteurs faux. Aucun changement de texte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",

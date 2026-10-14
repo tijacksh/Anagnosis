@@ -71,15 +71,25 @@
       "Il est amplifié par la thermocline, qui joue le rôle d'un haut-parleur"
     ],
     "bonne_reponse": 0,
-    "explication": "Le son se courbe vers les couches où il est le plus lent : l'axe du canal. Les basses fréquences y restent piégées, loin des surfaces où elles perdraient leur énergie. Les rayons qui touchent le fond ou la surface perdent de l'énergie, et la vitesse du son n'est pas constante : elle passe par un minimum."
+    "explication": "Le son se courbe vers les couches où il est le plus lent : l'axe du canal. Les basses fréquences y restent piégées, loin des surfaces où elles perdraient leur énergie. Les rayons qui touchent le fond ou la surface perdent de l'énergie, et la vitesse du son n'est pas constante : elle passe par un minimum.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T06:45:33.874Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T06:45:33.874Z",
+        "note": "Sources rouvertes le 2026-10-14 : Wikipédia SOFAR channel (température puis pression, minimum à la base de la thermocline, « sound fixing and ranging », axe vers 750 m au nord d'Hawaï et 1 200 m Perth-Bermudes, Ewing-Worzel à Columbia et Brekhovskikh à l'institut Lebedev dans les années 1940, Saluda 1944 avec second navire et charges jusqu'à 900 nmi = 1 700 km, charge de détresse des pilotes, Ascension 9 200 km, 19 à 30 dB, 1 h 44 min 17 s, rorquals communs), page Dushaw de l'Université de Washington (Cory Chouest, 57 Hz, 10 sources dont la plupart tombées en panne, départ le 9 janvier, début formel le 26, essais le 25 reçus aux Bermudes et à Whidbey Island, dernière émission le 31), Crossref JASA 96(4) 2330-2342 et OpenAlex (16 sites répartis Atlantiques, Pacifiques, océan Indien, océan Austral ; traitement cohérent en phase ; aucun signe de détresse ; préalable à ATOC). Point non couvert par ces sources et laissé en l'état : la réfraction vers la zone de vitesse minimale, physique standard (loi de Snell) que Wikipédia ne formule pas explicitement. Aucun changement de texte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",
