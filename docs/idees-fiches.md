@@ -355,3 +355,7 @@ peut rouvrir directement le texte du décret.)*
 | Nutrition | Willem Dicke et le gluten : l'hiver de la faim n'est que la moitié de l'histoire (cinq enfants, 1950-1953) | fait | routine-production-arnaud | 2026-10-14 |
 | Nutrition | Eijkman, le béribéri et le cuisinier remplacé : poison supposé, carence comprise par Grijns | fait | routine-production-arnaud | 2026-10-14 |
 | Nutrition | « 5 fruits et légumes par jour » : un slogan californien de 1988, pas un seuil mesuré | fait | routine-production-arnaud | 2026-10-14 |
+| Sociologie | Le petit monde de Travers et Milgram (1969) : 64 lettres arrivées sur 296 départs, 5,2 intermédiaires | en cours | routine-production-arnaud | 2026-10-14 |
+| Sociologie | Granovetter (1978) et les seuils : deux foules presque identiques, un seul émeutier | en cours | routine-production-arnaud | 2026-10-14 |
+| Sociologie | Le rapport Coleman (1966) : « l'école ne compte pas » n'est pas ce qu'il dit | en cours | routine-production-arnaud | 2026-10-14 |
+| Sociologie | Sutherland et le crime en col blanc : le livre de 1949 qui ne pouvait pas nommer ses soixante-dix sociétés | en cours | routine-production-arnaud | 2026-10-14 |
