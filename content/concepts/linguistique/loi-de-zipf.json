@@ -1,0 +1,82 @@
+{
+  "id": "lin-loi-de-zipf",
+  "slug": "loi-de-zipf",
+  "titre": "La loi de Zipf, ou ce qu'un clavier aléatoire peut imiter",
+  "accroche": "Le mot le plus fréquent d'une langue revient deux fois plus souvent que le deuxième. Un clavier qui tape au hasard produit la même courbe.",
+  "discipline": "linguistique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Prenez un texte anglais suffisamment long et classez ses mots du plus fréquent au plus rare. Le mot classé numéro 2 revient environ deux fois moins souvent que celui classé numéro 1 ; celui classé numéro 3, trois fois moins souvent ; celui classé numéro 10, dix fois moins souvent. Cette régularité, la fréquence d'un mot multipliée par son rang donne à peu près toujours le même nombre, porte le nom de loi de Zipf, du linguiste américain George Kingsley Zipf, qui la détaille dans son livre de 1949, *Human Behavior and the Principle of Least Effort*.\n\n## Un principe censé expliquer le langage\n\nZipf ne se contente pas de décrire la courbe : il propose une explication psychologique. Parler coûte un effort au locuteur, qui a intérêt à réutiliser souvent un petit nombre de mots courts plutôt que de varier son vocabulaire à chaque phrase ; écouter coûte un effort au récepteur, qui a intérêt à ce que le locuteur soit précis et varié. La loi serait le compromis entre ces deux efforts opposés, et son titre complet, *le principe du moindre effort*, dit explicitement que la régularité statistique révèle un trait du comportement humain. Le livre déborde largement la linguistique : il applique le même principe à l'économie et jusqu'à la distribution des villes par population.\n\n## Un singe qui tape au hasard obtient la même courbe\n\nEn 1957, le psychologue George Miller publie un article qui déplace entièrement la question. Il imagine un clavier à vingt-six lettres et une barre d'espace, frappées au hasard et indépendamment les unes des autres, sans aucune intention, aucun sens, aucun locuteur. Un « mot » est simplement ce qui sépare deux espaces. Miller montre que si l'on classe ces suites aléatoires de lettres par fréquence d'apparition, on obtient une courbe dont la pente, en échelle logarithmique, avoisine très exactement celle de la loi de Zipf : les mots courts, plus nombreux par construction à chaque longueur donnée, deviennent mécaniquement plus fréquents que les longs. Le mathématicien Richard Perline a depuis montré précisément à quelles conditions cette pente s'approche de la valeur -1, signature habituelle de la loi dans les langues occidentales.\n\n## Ce que ça déplace\n\nUn singe qui tape au hasard n'a ni effort à économiser, ni auditeur à satisfaire, ni intention de communiquer quoi que ce soit : il n'a même pas de langage. Et pourtant sa sortie, purement mécanique, suit la même loi statistique que l'anglais, le français ou le japonais. Si une structure aussi simple que « des lettres séparées par des espaces plus ou moins fréquents » suffit à produire la courbe de Zipf, alors observer cette courbe dans un texte réel ne prouve à lui seul ni un principe d'économie cognitive, ni quoi que ce soit sur l'esprit de qui l'a écrit. La régularité peut venir d'une propriété presque purement arithmétique de la façon dont on découpe une suite de symboles en unités de longueurs variables — ce qui ne règle pas la question de savoir pourquoi les langues humaines, elles, choisissent précisément ce découpage-là, mais retire à la loi de Zipf une bonne partie de ce qu'elle semblait révéler sur le moindre effort.",
+  "citation": null,
+  "repere": {
+    "texte": "Zipf (1949) : la fréquence du n-ième mot le plus courant d'un texte est à peu près proportionnelle à 1/n. Miller (1957) montre qu'un clavier tapant des lettres au hasard, séparées par un espace de probabilité fixe, produit une courbe rang-fréquence de pente très proche de -1 — la même signature statistique, sans aucune intention communicative.",
+    "source": "George K. Zipf, Human Behavior and the Principle of Least Effort, 1949 ; George A. Miller, « Some Effects of Intermittent Silence », American Journal of Psychology, 70(2), 1957, p. 311-314",
+    "url": "https://arxiv.org/abs/1512.02177"
+  },
+  "carte": {
+    "punch": "La loi de Zipf semble révéler l'économie du langage. Un clavier au hasard l'imite sans aucun effort.",
+    "idee": "Zipf (1949) explique par le moindre effort pourquoi le mot le plus fréquent d'un texte revient deux fois plus souvent que le deuxième. En 1957, George Miller montre qu'un clavier tapant des lettres au hasard, espace compris, produit la même courbe statistique — sans aucune communication en jeu.",
+    "source_courte": "Zipf, 1949 ; Miller, Am. J. Psychology, 1957"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Zipf, George Kingsley",
+      "titre": "Human Behavior and the Principle of Least Effort: An Introduction to Human Ecology",
+      "publication": "Addison-Wesley Press, Cambridge (Mass.)",
+      "annee": 1949,
+      "url": "https://archive.org/details/in.ernet.dli.2015.90211",
+      "note": "Texte intégral numérisé (Internet Archive, copie de la Digital Library of India) — exposé original de la loi et du principe du moindre effort."
+    },
+    {
+      "type": "article",
+      "auteur": "Perline, Richard",
+      "titre": "The Random Division of the Unit Interval and the Approximate -1 Exponent in the Monkey-at-the-Typewriter Model of Zipf's Law",
+      "publication": "arXiv:1512.02177 [math.PR]",
+      "annee": 2015,
+      "url": "https://arxiv.org/abs/1512.02177",
+      "note": "Détaille et prolonge mathématiquement le modèle du « singe au clavier » de George Miller (1957, Amer. J. Psych. 70(2), p. 311-314), cité et résumé dans l'article."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — Principle of least effort",
+      "url": "https://en.wikipedia.org/wiki/Principle_of_least_effort",
+      "note": "Contexte sur la réception du livre de Zipf et les critiques de son explication psychologique."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : une série de barres verticales de hauteur décroissante selon une courbe nette (la plus haute à gauche, chutant rapidement puis s'aplatissant), posée sur une seule ligne de base. En dessous, une seconde série de barres de même profil général mais aux contours légèrement irréguliers, comme produite par hasard, séparée de la première par une fine ligne pointillée horizontale. Violet profond, jaune citron, blanc cassé, contours nets, aucun dégradé, pas d'inscription dans l'image.",
+    "alt": "Deux séries de barres décroissantes de même profil général, séparées par une ligne pointillée",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'expérience de George Miller (1957) affaiblit-elle l'explication de Zipf par le « moindre effort » ?",
+    "choix": [
+      "Parce que Miller montre que la courbe de Zipf n'apparaît que dans les langues qui n'ont pas d'espace entre les mots",
+      "Parce qu'un texte produit par des lettres tapées au hasard, sans aucune communication, reproduit la même courbe rang-fréquence",
+      "Parce que Miller démontre que la fréquence des mots varie en réalité selon une autre loi, sans rapport avec le rang",
+      "Parce que Miller prouve que seules les langues germaniques suivent la loi de Zipf, contrairement à ce que pensait Zipf"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Miller montre qu'un clavier tapant des lettres indépendamment au hasard, avec un espace comme séparateur, produit une courbe rang-fréquence dont la pente avoisine celle de la loi de Zipf — sans aucune intention de communiquer. Cela suggère que la régularité peut venir d'une propriété presque arithmétique du découpage en unités de longueurs variables, et non nécessairement d'un arbitrage psychologique entre effort du locuteur et effort de l'auditeur. Rien dans son expérience ne porte sur l'absence d'espaces ou sur une spécificité des langues germaniques, et elle ne propose aucune loi de remplacement.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}

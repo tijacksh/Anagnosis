@@ -347,3 +347,7 @@ peut rouvrir directement le texte du décret.)*
 | Informatique | ELIZA (Weizenbaum, 1966) : un script de psychothérapeute choisi parce qu'il peut tout ignorer | fait | routine-production-arnaud | 2026-10-14 |
 | Informatique | Ver Morris (1988) : pas de données détruites, un garde-fou « une fois sur sept » qui a étouffé les machines | fait | routine-production-arnaud | 2026-10-14 |
 | Informatique | Thompson, « Reflections on Trusting Trust » (1983-1984) : le compilateur piégé a réellement existé | fait | routine-production-arnaud | 2026-10-14 |
+| Linguistique | Champollion, Lettre à M. Dacier (1822) : ce que Thomas Young avait déjà vu en 1814 | fait | routine-production | 2026-10-14 |
+| Linguistique | La langue des signes de Martha's Vineyard : l'origine redatée par Power et Meier (2024) | fait | routine-production | 2026-10-14 |
+| Linguistique | Noah Webster et l'orthographe américaine (1789-1828) : une réforme politique, pas une simplification | fait | routine-production | 2026-10-14 |
+| Linguistique | La loi de Zipf (1949) et le clavier aléatoire de George Miller (1957) | fait | routine-production | 2026-10-14 |
