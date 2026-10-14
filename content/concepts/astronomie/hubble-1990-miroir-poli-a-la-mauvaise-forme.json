@@ -1,0 +1,120 @@
+{
+  "id": "ast-hubble-1990-miroir-poli-a-la-mauvaise-forme",
+  "slug": "hubble-1990-miroir-poli-a-la-mauvaise-forme",
+  "titre": "Le miroir de Hubble, poli avec précision à la mauvaise forme",
+  "accroche": "Poli à mieux que sa tolérance, le miroir de Hubble suivait un gabarit dont la lentille était décalée de 1,3 mm. Deux tests avaient signalé l'erreur.",
+  "discipline": "astronomie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le télescope spatial Hubble est lancé par la navette Discovery le 24 avril 1990. Pendant les vérifications en orbite, on constate qu'on ne parvient pas à faire la mise au point. Les deux caméras à haute résolution montrent la même déformation, une aberration sphérique. Le 21 juin 1990, le responsable du projet annonce la défaillance.\n\nOn dit souvent que le miroir avait été mal poli. L'enquête de la NASA, dont le rapport date de novembre 1990, dit autre chose : il avait été poli avec une grande exactitude, mais d'après un gabarit faux.\n\n## Un gabarit pour un miroir qu'on ne sait pas tester\n\nLe miroir primaire de Hubble, de 2,4 mètres, n'est pas une portion de sphère. Sa forme, un hyperboloïde, rend les tests directs difficiles. On utilise donc un « correcteur nul » : un montage optique qui renvoie une image de référence telle que le miroir paraisse sphérique à l'opticien quand il a la bonne forme. On polit jusqu'à ce que l'image soit conforme.\n\nLe fabricant, Perkin-Elmer, a choisi un correcteur nul réflectif de conception nouvelle : deux petits miroirs et une lentille. Il n'a prévu aucun test indépendant du miroir. Le miroir a été poli jusqu'à coïncider avec ce gabarit à mieux que 0,014 longueur d'onde près, ce qui dépassait la spécification du contrat.\n\n## Une lentille déplacée de 1,3 millimètre\n\nEn 1990, les enquêteurs ont mesuré le correcteur nul, conservé tel quel par le fabricant : la lentille était trop loin du miroir inférieur d'environ 1,3 mm. Ce déplacement explique en détail la forme du flou observé. Le miroir était trop aplati en s'éloignant du centre, avec une erreur de 0,4 longueur d'onde à 632,8 nanomètres, dix fois la tolérance.\n\nLe rapport indique que l'opérateur, lors du réglage d'origine, semble avoir obtenu sa réflexion sur le capuchon d'une tige de mesure, là où le revêtement antireflet manquait, plutôt que sur l'extrémité de la tige.\n\n## Deux alertes écartées\n\nL'erreur avait pourtant été vue. Un correcteur auxiliaire, utilisé pour aligner l'appareil, la montrait clairement. Un second correcteur, utilisé pour mesurer le rayon de courbure du miroir fini, aussi. Les deux ont été écartés comme eux-mêmes erronés : l'équipe tenait le correcteur réflectif pour « certifié » et les deux autres pour « non certifiés ». Le comité a vérifié la précision de ces instruments : 0,02 onde pour le correcteur réfractif, 0,14 pour le correcteur inverse, assez pour déceler l'erreur.\n\nUn test que personne ne vérifie ne mesure que sa propre cohérence. Le poli était d'une grande exactitude, le gabarit mauvais, et les deux seuls témoins capables de les départager ont été mis de côté.\n\nEn décembre 1993, des astronautes installent COSTAR, une optique correctrice qui compense l'aberration de ce miroir resté en orbite.",
+  "citation": null,
+  "repere": {
+    "texte": "Le conseil d'enquête établit que le miroir primaire a été fabriqué à la mauvaise forme (erreur de 0,4 longueur d'onde rms à 632,8 nm, dix fois la tolérance) et que l'espacement de 1,3 mm de la lentille du correcteur nul réflectif en rend compte en détail.",
+    "source": "Allen et al., The Hubble Space Telescope Optical Systems Failure Report, NASA, novembre 1990",
+    "url": "https://ntrs.nasa.gov/citations/19910003124"
+  },
+  "carte": {
+    "punch": "Le miroir de Hubble épousait son gabarit à mieux que la tolérance. Le gabarit était faux.",
+    "idee": "En 1990, Hubble ne fait pas sa mise au point. Son miroir de 2,4 m épouse son gabarit à mieux que la tolérance, mais ce gabarit a une lentille déplacée de 1,3 mm. Deux tests signalaient l'erreur avant le lancement : on les a jugés non fiables.",
+    "source_courte": "Rapport Allen, NASA, novembre 1990"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Allen, Lew (président du conseil d'enquête) et al.",
+      "titre": "The Hubble Space Telescope Optical Systems Failure Report",
+      "publication": "NASA, novembre 1990 (NASA Technical Reports Server)",
+      "annee": 1990,
+      "url": "https://ntrs.nasa.gov/citations/19910003124",
+      "note": "Résumé et texte intégral lus (version OCR) : lancement le 24 avril 1990, annonce de la défaillance le 21 juin 1990, erreur de 0,4 longueur d'onde rms à 632,8 nm soit dix fois la tolérance, polissage conforme au gabarit à mieux que 0,014 longueur d'onde, lentille trop éloignée de 1,3 mm, capuchon de la tige de mesure, deux tests écartés (correcteur nul inverse et correcteur nul réfractif), absence de test indépendant."
+    },
+    {
+      "type": "web",
+      "auteur": "Astronomy magazine",
+      "titre": "Techno-turkey: Remembering Hubble's vision troubles, 30 years on",
+      "publication": "astronomy.com",
+      "annee": 2020,
+      "url": "https://www.astronomy.com/space-exploration/techno-turkey-remembering-hubbles-vision-troubles-30-years-on/",
+      "note": "Lu : lancement en avril 1990, correcteur nul défectueux à l'origine de la forme erronée, installation de COSTAR par les astronautes lors d'une sortie en décembre 1993."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NASA NTRS — The Hubble Space Telescope Optical Systems Failure Report",
+      "url": "https://ntrs.nasa.gov/citations/19910003124",
+      "note": "En anglais ; le rapport complet, avec les interférogrammes et les conclusions sur la gestion du projet."
+    }
+  ],
+  "illustration": {
+    "operation": "rapport",
+    "encre": "#9D7AD2",
+    "intention": "Une petite différence de proportion qui change toute la forme : deux courbes presque identiques, l'une un peu plus plate.",
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Deux arcs de cercle emboîtés, presque confondus : l'un en aplat violet, l'autre en trait noir légèrement plus plat. L'écart entre eux est mince au centre et s'élargit vers les bords, dont l'un sort du cadre. Deux encres : #9D7AD2 (astronomie) et noir, aucun dégradé.",
+    "alt": "Deux arcs presque superposés dont l'écart s'élargit vers le bord",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi un miroir poli à mieux que sa tolérance a-t-il pu avoir la mauvaise forme ?",
+    "choix": [
+      "Parce que le montage qui lui servait de gabarit était lui-même mal réglé",
+      "Parce que le verre du miroir avait été taillé dans un bloc de mauvaise qualité",
+      "Parce que les opticiens ont choisi une forme différente de celle du cahier des charges",
+      "Parce que le miroir de secours avait été poli sur le même gabarit défectueux"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le miroir a été poli jusqu'à coïncider avec son gabarit, le correcteur nul réflectif, mais la lentille de ce dernier était déplacée de 1,3 mm. Le verre n'est pas en cause, la forme n'a pas été choisie à part du cahier des charges, et le miroir de secours avait été poli avec d'autres correcteurs, de conception différente.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Que faisaient les deux autres tests du miroir avant le lancement, selon le rapport ?",
+      "choix": [
+        "Ils confirmaient la bonne forme du miroir et ont été retenus",
+        "Ils n'avaient pas été réalisés faute de temps",
+        "Ils montraient l'erreur, mais ont été écartés comme « non certifiés »",
+        "Ils portaient sur le miroir secondaire, sans lien avec le primaire"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Un correcteur auxiliaire et un second correcteur, servant à mesurer le rayon de courbure, montraient tous deux l'erreur. L'équipe les a écartés parce qu'elle ne les tenait pas pour « certifiés », alors que le comité les a jugés assez précis."
+    },
+    {
+      "question": "À quoi sert un « correcteur nul » dans la fabrication d'un miroir asphérique ?",
+      "choix": [
+        "À mesurer la température du verre pendant le polissage",
+        "À produire une image de référence qui fait paraître le miroir sphérique quand sa forme est bonne",
+        "À nettoyer la surface du miroir avant l'aluminure",
+        "À aligner le miroir primaire sur le miroir secondaire"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Un miroir asphérique ne se teste pas directement : le correcteur nul génère un front d'onde de référence tel qu'un miroir de la forme voulue paraisse sphérique à l'opticien. S'il est mal réglé, on polit exactement la mauvaise forme."
+    },
+    {
+      "question": "Que reproche le rapport au plan de fabrication du miroir primaire ?",
+      "choix": [
+        "D'avoir utilisé trop de tests, ce qui a ralenti la fabrication",
+        "D'avoir confié le miroir à un fabricant sans expérience des télescopes",
+        "D'avoir poli le miroir en une seule séance, sans contrôle intermédiaire",
+        "De s'en remettre à un seul test, sans test indépendant pour le vérifier"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le plan reposait entièrement sur le correcteur nul réflectif, ce qui aurait dû alerter la NASA sur la fragilité du processus. Le rapport évoque aussi la pression du coût et du calendrier, qui a découragé les tests indépendants."
+    }
+  ],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
