@@ -54,24 +54,33 @@
     "statut": "a_generer"
   },
   "quiz": {
-    "question": "Pourquoi le mieux observé chez les enfants cœliaques pendant la famine ne suffisait-il pas à désigner le blé ?",
+    "question": "Qu'est-ce qui a permis à Dicke d'établir, après la guerre, que c'était la farine de blé — et non l'amidon de blé — qui nuisait aux enfants cœliaques ?",
     "choix": [
-      "Parce que la famine changeait tout le régime à la fois, sans rations contrôlées",
-      "Parce que ces enfants ne manquaient pas de pain pendant la guerre",
-      "Parce que la famine avait guéri durablement tous les enfants cœliaques",
-      "Parce que Dicke n'avait aucun soupçon sur le pain avant 1944"
+      "Des régimes testés sur cinq patients, en variant blé et amidon de blé, avec le dosage des graisses de van de Kamer",
+      "Le seul retour des rechutes à l'arrivée du pain parachuté par avion pendant la famine de 1944-1945",
+      "Une intuition clinique de Dicke, fondée sur son expérience sans aucune mesure ni patient suivi",
+      "Les régimes à base de banane déjà recommandés aux enfants cœliaques avant la guerre"
     ],
     "bonne_reponse": 0,
-    "explication": "En temps de famine, tout change à la fois : pain, graisses, calories. Il fallait donc, comme l'a fait Dicke après la guerre, comparer des rations contrôlées. Le pain manquait bel et bien, la rechute suivait son retour plutôt qu'une guérison durable, et Dicke notait le rôle du pain depuis les années 1930.",
-    "statut": "brouillon"
+    "explication": "Dicke a testé, sur cinq patients suivis en 1947-1948, des régimes faisant varier farine de seigle, farine de blé, amidon de blé, farine de riz et amidon de maïs, et mesuré l'effet grâce au bilan lipidique mis au point par van de Kamer et Weijers. Le largage de pain pendant la famine n'a été, selon Yan et Holt, qu'une confirmation supplémentaire ; les régimes à base de banane étaient la référence d'avant-guerre, inapplicable aux Pays-Bas occupés.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-14T19:18:37.175Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-14T19:18:37.175Z",
+        "note": "Point signalé traité : le quiz principal posait une prémisse ('rations contrôlées') absente de Yan et Holt 2009. Reformulé sur ce que la source dit réellement — cinq patients testés en 1947-1948 en variant blé/amidon de blé/riz/maïs, mesurés par le bilan lipidique de van de Kamer et Weijers (confirmé par relecture de PMC5350718) — et rééquilibré pour respecter le ratio de longueur bonne réponse/distracteurs. Corps, repère et sources : déjà vérifiés par le contrôle précédent, non modifiés."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",
