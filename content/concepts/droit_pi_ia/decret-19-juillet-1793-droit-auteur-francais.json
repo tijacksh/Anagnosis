@@ -61,7 +61,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le texte est purement patrimonial : droit exclusif de vente pendant la vie de l'auteur, transmis dix ans après sa mort. Il ne prévoit aucune disposition de droit moral, s'applique aussi aux compositeurs et aux peintres, et n'est pas perpétuel.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -101,11 +101,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-23T22:10:37.392Z",
+    "decide_par": "routine-controler-droit",
+    "decide_le": "2026-10-14T06:49:30.130Z",
     "historique": [
       {
         "action": "valider",
@@ -114,6 +114,14 @@
         "par": "routine-relecture",
         "le": "2026-09-23T22:10:37.392Z",
         "note": "Sources rouvertes indépendamment : legifrance.gouv.fr (promulgation 24 juillet 1793 confirmée, signataires Garat et Gohier) ; fr.wikisource.org (texte intégral : vente exclusive vie durant, transmission 10 ans héritiers, saisie, indemnité 3000 exemplaires, dépôt 2 exemplaires bibliothèque, extension 20 ans en 1810 et 30 ans en 1854 confirmées en note) ; legifrance loi du 11 mars 1957 confirmée (codification du droit moral). Corps, repere, carte, sources et quiz conformes à ce que les sources établissent."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler-droit",
+        "le": "2026-10-14T06:49:30.130Z",
+        "note": "Contrôle du droit : le champ repere.texte dit « trente ans dans la loi française actuelle » ; la durée actuelle est de soixante-dix ans (CPI L123-1). À réécrire."
       }
     ]
   },
@@ -125,7 +133,13 @@
       "Sources rouvertes (legifrance.gouv.fr texte officiel : confirme promulgation à Paris le 24 juillet 1793 ; fr.wikisource.org : texte intégral, 7 articles — vente exclusive vie durant art.1, transmission 10 ans héritiers art.2, saisie art.3, indemnité 3000 exemplaires art.4, dépôt 2 exemplaires BnF art.6, extension 20 ans en 1810 et 30 ans en 1854 confirmée par note de bas de page Wikisource). Rapporteur Lakanal au nom du comité d'instruction publique confirmé par recherche web indépendante (copyrighthistory.org, cité en résumé). Loi du 13 janvier 1791 sur les spectacles (droit de représentation, 5 ans post mortem) confirmée par recherche web. Corps, repere, carte, sources, quiz et quiz_supplementaire conformes."
     ]
   },
-  "controle_juridique": null,
+  "controle_juridique": {
+    "fait_le": "2026-10-14",
+    "verdict": "a_revoir",
+    "notes": [
+      "Le champ repere.texte affirme « trente ans dans la loi française actuelle sur la propriété littéraire » : faux, la durée actuelle est de soixante-dix ans après l'année du décès (CPI art. L123-1) ; trente ans est la durée de la loi de 1854, que le corps cite correctement. L'erreur touche l'état actuel d'une norme, donc le sens : à réécrire. Reste de la fiche (corps, 1810/1854/1957) historique et exact. Passée en en_retouche."
+    ]
+  },
   "meta": {
     "genere_le": "2026-09-23",
     "genere_par": "claude-code",
