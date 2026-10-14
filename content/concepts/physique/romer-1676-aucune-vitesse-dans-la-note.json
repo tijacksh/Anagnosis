@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "La note ne donne que des délais, dont 22 minutes pour le diamètre de l'orbite de la Terre : elle établit une vitesse finie sans la chiffrer. Le premier calcul de vitesse est de Huygens. La lumière instantanée est justement l'idée que Rømer réfute, et aucune distance vers Mars n'intervient.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -107,12 +107,21 @@
       "explication": "Si la lumière mettait du temps à venir, pensait Cassini, toutes les lunes de Jupiter devraient avoir le même écart. Les horloges à pendule tenaient la seconde, et les écarts des autres lunes étaient en fait masqués par des effets gravitationnels."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-14T12:44:46.561Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-14T12:44:46.561Z",
+        "note": "Texte non modifié. Rouverts : (1) Débarbat (bibnum.publimath.fr AVM15085), texte ET fac-similés du Journal des Sçavans p. 233-236 lus en image : « environ 3000 lieues », « tout au moins de 210 diamètres de la Terre », « 3 1/2 min. pour chacun des intervalles », « de près d'un demy quart d'heure », « 22 pour tout l'intervalle HE, double de celuy d'icy au soleil », émersion du 9 novembre à 5 h 35'45\" 10 minutes plus tard que prévu, aucune vitesse dans la note ; horloges de Huygens tenant la seconde sur un mois, écart d'une dizaine de minutes, Rømer à Paris en 1672, Huygens premier à donner une valeur numérique, Wróblewski 1985 (près d'une cinquantaine de valeurs, aucun auteur vraisemblablement n'a lu la note), effets gravitationnels sur les autres lunes. (2) Huygens, Traité de la lumière (Gutenberg 14725) : 22 minutes, « some 24 thousand diameters », calcul avec « 22 thousand », mille diamètres par minute, plus de 600 000 fois le son, préface du 8 janvier 1690 ; 212 000 km/s recalculés (70 % de la valeur moderne). (3) OPN 2009 : 21 novembre, éclipse du 9 novembre retardée de dix minutes, Rømer n'a jamais donné de valeur. (4) AIP Wenner : Journal des sçavans du 7 décembre 1676, environ 22 minutes. Carte et quiz exacts, distracteurs faux."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",
