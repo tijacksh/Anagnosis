@@ -363,3 +363,7 @@ peut rouvrir directement le texte du décret.)*
 | Architecture | Hyatt Regency de Kansas City (1981) : un changement de fixation des tiges, accepté par téléphone | fait | routine-production-arnaud | 2026-10-14 |
 | Architecture | Pont du Millénaire de Londres (2000) : la synchronisation des pas, cause ou conséquence de l'oscillation ? | fait | routine-production-arnaud | 2026-10-14 |
 | Architecture | Seagram Building (1958) : les profilés en I de bronze de la façade sont appliqués pour représenter la structure, qui est ailleurs | fait | routine-production-arnaud | 2026-10-14 |
+| Astronomie | Auguste Comte (1835) : « nous ne saurions jamais étudier leur composition chimique », démenti par Kirchhoff et Bunsen en 1859-1860 | en cours | routine-production-arnaud | 2026-10-14 |
+| Astronomie | Les saisons ne viennent pas de la distance au Soleil : la Terre est au plus près début janvier (147,1 contre 152,1 millions de km) | en cours | routine-production-arnaud | 2026-10-14 |
+| Astronomie | Le miroir de Hubble (1990) : poli avec précision à la mauvaise forme, à cause d'un instrument de test mal réglé de 1,3 mm (rapport Allen) | en cours | routine-production-arnaud | 2026-10-14 |
+| Astronomie | Halley (1705) et Clairaut (1758) : le retour de la comète prédit, puis corrigé de 618 jours par les perturbations de Jupiter et Saturne | en cours | routine-production-arnaud | 2026-10-14 |
