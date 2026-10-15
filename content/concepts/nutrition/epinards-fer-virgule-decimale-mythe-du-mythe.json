@@ -69,8 +69,8 @@
   "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-14T10:16:53.015Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-15T19:13:37.575Z",
     "historique": [
       {
         "action": "retoucher",
@@ -79,6 +79,14 @@
         "par": "routine-relecture",
         "le": "2026-10-14T10:16:53.015Z",
         "note": "Relecture indépendante bloquée par le réseau de cet environnement : repository.rothamsted.ac.uk et www.mcgill.ca inaccessibles (échec DNS persistant, y compris via lien PDF direct trouvé par recherche, web.archive.org et dépôts miroirs irep.ntu.ac.uk / gwern.net, tous bloqués). Seule la source pour_aller_plus_loin (PMC1507475, Hamblin « Fake. », BMJ, 19 décembre 1981) a pu être rouverte et ses métadonnées confirmées, mais son texte n'est pas lisible (pages-images). Impossible de revérifier soi-même, à partir du texte brut, les affirmations centrales de la fiche : Saalmüller 1846, Richardson 1848, l'entrée encyclopédique de 1852, Bunge 1892 (16 times too high), l'article allemand de 1960, et les conclusions du McGill/Schwarcz sur Sutton. Doute non levé par ce second passage indépendant : à reprendre depuis un environnement qui accède à ces deux domaines."
+      },
+      {
+        "action": "retoucher",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "routine-reparation",
+        "le": "2026-10-15T19:13:37.575Z",
+        "note": "Deuxième tentative indépendante bloquée par le même obstacle réseau que la relecture précédente, cette fois constaté comme un blocage de politique du proxy (403 côté passerelle), pas une simple panne DNS : repository.rothamsted.ac.uk et www.mcgill.ca rejetés en CONNECT, via WebFetch (getaddrinfo ENOTFOUND) et curl direct. Mirroirs alternatifs tous rejetés aussi : web.archive.org, gwern.net, irep.ntu.ac.uk, scholar.google.com, et même www.google.com — l'accès web de cet environnement est restreint à une liste autorisée qui n'inclut aucun de ces domaines. Seule la source pour_aller_plus_loin (PMC1507475, Hamblin 1981) s'ouvre, mais en pages-images illisibles par WebFetch, comme déjà noté. Je ne peux donc pas rouvrir moi-même les deux sources centrales (Mielewczik & Moll 2016 ; Schwarcz/McGill 2017) pour vérifier Saalmüller 1846, Richardson 1848, Bunge 1892, l'article allemand de 1960 et les limites de Sutton, malgré le verdict 'ok' du contrôle qui dit les avoir lues. Le doute structurel n'est pas levé de mon côté : il faudrait reprendre cette fiche depuis un environnement dont la politique réseau autorise rothamsted.ac.uk et mcgill.ca, ou vérifier ces deux sources manuellement hors de cette routine."
       }
     ]
   },
