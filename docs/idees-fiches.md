@@ -367,3 +367,7 @@ peut rouvrir directement le texte du décret.)*
 | Astronomie | Les saisons ne viennent pas de la distance au Soleil : la Terre est au plus près début janvier (147,1 contre 152,1 millions de km) | fait | routine-production-arnaud | 2026-10-14 |
 | Astronomie | Le miroir de Hubble (1990) : poli avec précision à la mauvaise forme, à cause d'un instrument de test mal réglé de 1,3 mm (rapport Allen) | fait | routine-production-arnaud | 2026-10-14 |
 | Astronomie | Halley (1705) et Clairaut (1758) : le retour de la comète prédit, puis corrigé de 618 jours par les perturbations de Jupiter et Saturne | fait | routine-production-arnaud | 2026-10-14 |
+| Climat et météorologie | Ōishi Wasaburō (années 1920) : le courant-jet observé à Tateno vingt ans avant les pilotes, dans des rapports en espéranto | en cours | routine-production-arnaud | 2026-10-15 |
+| Climat et météorologie | « La pluie suit la charrue » : Wilber (1881) contre Powell (1879), une théorie fondée sur quelques années humides | en cours | routine-production-arnaud | 2026-10-15 |
+| Climat et météorologie | FitzRoy (1861-1863) et le mot « forecast » : il ne l'a pas inventé, il l'a choisi contre « prophecy » et « prediction » | en cours | routine-production-arnaud | 2026-10-15 |
+| Climat et météorologie | Le grand smog de Londres (5-9 décembre 1952) : 4 000 morts connus, environ 12 000 selon la réévaluation, et la grippe n'explique pas la surmortalité | en cours | routine-production-arnaud | 2026-10-15 |
