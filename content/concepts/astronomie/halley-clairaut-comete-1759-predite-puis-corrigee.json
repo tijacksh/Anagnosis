@@ -84,7 +84,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Les attractions de Jupiter et de Saturne retardent la comète : Clairaut compte environ 618 jours de plus pour la période qui s'achève en 1759. Halley avait bien identifié la comète, aucune occultation n'est en cause, et la loi de Newton s'appliquait, mais son usage demandait ce calcul.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -121,12 +121,21 @@
       "explication": "Lalande attribue à Lepaute une aide indispensable pour les six mois de calculs. Clairaut ne la cite pas dans son ouvrage de 1760, ce qui provoque une brouille et met fin à la collaboration de Lalande avec lui."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-15T22:15:46.192Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-15T22:15:46.192Z",
+        "note": "Sources rouvertes indépendamment (mathshistory et royalsocietypublishing toujours bloqués pour ce réseau) : recherches croisées (Wikipedia Halley's Comet, History Today, bibnum.obspm.fr sur Messier) confirment l'identification des comètes de 1531/1607/1682 par Halley, sa mort en 1742, l'annonce de Clairaut le 14 novembre 1758 avec une marge d'un mois, les 618 jours de retard dus à Jupiter/Saturne, le passage au périhélie le 13 mars 1759, la comète aperçue le 25 décembre 1758 (Palitzsch, non nommé dans la fiche) et repérée par Messier à Paris le 21 janvier 1759 — tout concorde avec la fiche, y compris sa note sur l'erreur de MacTutor (13 avril au lieu de 13 mars). Carte, repere et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-15",

@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le miroir a été poli jusqu'à coïncider avec son gabarit, le correcteur nul réflectif, mais la lentille de ce dernier était déplacée de 1,3 mm. Le verre n'est pas en cause, la forme n'a pas été choisie à part du cahier des charges, et le miroir de secours avait été poli avec d'autres correcteurs, de conception différente.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -103,12 +103,21 @@
       "explication": "Le plan reposait entièrement sur le correcteur nul réflectif, ce qui aurait dû alerter la NASA sur la fragilité du processus. Le rapport évoque aussi la pression du coût et du calendrier, qui a découragé les tests indépendants."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-15T22:15:46.572Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-15T22:15:46.572Z",
+        "note": "Source primaire (NASA NTRS / rapport Allen) inaccessible en direct sur ce réseau, comme lors du contrôle, mais recherches croisées indépendantes (NASA science.nasa.gov, Baltimore Sun 1990, CIO, arXiv 1203.0002, Berkeley) confirment : erreur de 0,4 longueur d'onde rms à 632,8 nm soit dix fois la tolérance, décalage de 1,3 mm du correcteur nul réflectif qui rend compte en détail du flou observé, réflexion parasite sur le capuchon d'une tige de mesure (peinture non réfléchissante écaillée) plutôt que sur son extrémité, deux tests indépendants (correcteurs réfractif et inverse) qui signalaient l'erreur et ont été écartés comme non certifiés, installation de COSTAR en décembre 1993 (mission STS-61). Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-15",

@@ -75,7 +75,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le comité juge cette résonance très improbable : il ne trouve pas de corrélation nette entre le vent et la fréquence, et pense que le mouvement du pont détermine les tourbillons plutôt que l'inverse. Un témoin avait d'ailleurs relevé 38 puis 42 miles à l'heure à l'anémomètre le matin même.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -101,12 +101,21 @@
       "explication": "L'ingénieur du projet relevait de grands mouvements par vent de trois ou quatre miles à l'heure et un pont parfois immobile jusqu'à 35 miles à l'heure. Cette absence de corrélation nette est l'un des arguments contre une résonance réglée par la vitesse du vent."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-15T22:15:45.441Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-15T22:15:45.441Z",
+        "note": "Sources rouvertes indépendamment du contrôle : Wikipedia EN (Tacoma Narrows Bridge 1940) en direct, confirme flottement aéroélastique auto-entretenu et référence Billah/Scanlan AJP 59(2) 1991 p.118-124. Recherches croisées indépendantes (WSDOT, APS News, Structure magazine, ketchum.org qui héberge le PDF scanné de l'article original) confirment mot pour mot la citation 'very improbable that resonance with alternating vortices plays an important role', les vents 38 puis 42 mph le 7 nov. matin, le glissement du collier de câble nord vers 10h, le ratio 1/72 (2800 pieds / 39 pieds), et que Billah/Scanlan 1991 est bien l'article original (scan disponible), pas une recension. Carte et quiz conformes au texte, repere non fabriqué (pas de citation littérale utilisée). Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-14",
