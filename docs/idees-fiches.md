@@ -371,3 +371,8 @@ peut rouvrir directement le texte du décret.)*
 | Climat et météorologie | « La pluie suit la charrue » : Wilber (1881) contre Powell (1879), une théorie fondée sur quelques années humides | fait | routine-production-arnaud | 2026-10-15 |
 | Climat et météorologie | FitzRoy (1861-1863) et le mot « forecast » : il ne l'a pas inventé, il l'a choisi contre « prophecy » et « prediction » | fait | routine-production-arnaud | 2026-10-15 |
 | Climat et météorologie | Le grand smog de Londres (5-9 décembre 1952) : 4 000 morts connus, environ 12 000 selon la réévaluation, et la grippe n'explique pas la surmortalité | fait | routine-production-arnaud | 2026-10-15 |
+| Preuve et erreur judiciaire | Sally Clark (Angleterre, 1999-2003) : le « un sur 73 millions » de Roy Meadow et la Royal Statistical Society (abandonné : thème déjà traité en Statistiques, `affaire-sally-clark-erreur-procureur`) | abandonné | routine-production-arnaud | 2026-10-15 |
+| Preuve et erreur judiciaire | Alec Jeffreys (Leicester, 10 septembre 1984) : la découverte de l'empreinte génétique, d'abord utilisée dans un litige d'immigration en 1985 | fait | routine-production-arnaud | 2026-10-15 |
+| Preuve et erreur judiciaire | Birmingham Six (1975-1991) : le test de Griess, positif aussi sur des cartes à jouer | fait | routine-production-arnaud | 2026-10-15 |
+| Preuve et erreur judiciaire | Kirk Bloodsworth (Maryland, 1985-1993), premier condamné à mort américain innocenté par l'ADN | fait | routine-production-arnaud | 2026-10-15 |
+| Preuve et erreur judiciaire | *Mapp v. Ohio* (1961), la Cour suprême américaine et la règle d'exclusion de la preuve illégale | fait | routine-production-arnaud | 2026-10-15 |
