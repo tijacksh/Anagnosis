@@ -53,7 +53,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Preuve et erreur judiciaire | L'identification erronée de l'affaire Ronald Cotton / Jennifer Thompson | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | Le premier innocentement par ADN rétroactif, Gary Dotson (1989) | fait | routine-production | 2026-09-19 |
 | Preuve et erreur judiciaire | Timothy Evans, pendu en 1950 pour un meurtre confessé par John Christie en 1953 | fait | routine-production | 2026-09-19 |
-| Génétique | L'expérience du pois de Mendel (1866), ignorée 34 ans avant sa redécouverte | proposé | Orkidea | 2026-08-28 |
+| Génétique | L'expérience du pois de Mendel (1866), ignorée 34 ans avant sa redécouverte | fait | routine-production | 2026-10-16 |
+| Génétique | Nettie Stevens et Edmund Wilson (1905) : la découverte, quasi simultanée, des chromosomes du sexe — et le crédit mal réparti | fait | routine-production | 2026-10-16 |
+| Génétique | La fusion télomère-télomère du chromosome 2 humain (IJdo et al., 1991) : 46 chromosomes humains contre 48 chez les grands singes | fait | routine-production | 2026-10-16 |
+| Génétique | Allison (1954) et l'avantage de l'hétérozygote : le trait drépanocytaire protège contre le paludisme | fait | routine-production | 2026-10-16 |
 | Sciences politiques | Le paradoxe de Condorcet (1785) | fait | routine-production | 2026-10-06 |
 | Sciences politiques | La loi de Duverger (1951), mode de scrutin et nombre de partis | fait | routine-production | 2026-10-06 |
 | Sciences politiques | La fenêtre d'Overton, un concept jamais formulé par écrit par son auteur | fait | routine-production | 2026-10-06 |
