@@ -66,17 +66,33 @@
     ],
     "bonne_reponse": 1,
     "explication": "Un porteur (une seule copie du gène) ne développe pas la drépanocytose, mais ses globules rouges légèrement fragilisés gênent la multiplication du parasite et sont éliminés plus vite — un avantage qui compense, dans ces régions, le désavantage sévère subi par qui reçoit deux copies.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-16T16:30:00.000Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-16T16:30:00.000Z",
+        "note": "Contrôle : le repere et le corps attribuent à Billo et al. (2012) un délai avant une NOUVELLE infection de 274 jours (porteurs) contre 108 jours (non-porteurs). Or l'article rouvert en texte intégral donne ces deux chiffres (médianes, p<0,001) pour le délai avant la PREMIÈRE infection chez 171 enfants initialement négatifs — les chiffres de réinfection qu'il rapporte sont différents : 365 jours (porteurs) contre 184 jours (non-porteurs, p=0,01). La fiche confond donc les deux mesures. À corriger : soit remplacer 274/108 par 365/184 pour parler de réinfection, soit requalifier le repere en délai avant la première infection. Allison 1954 (BMJ) correctement référencé par ses métadonnées, mais son texte intégral n'a pas pu être rouvert depuis cette session (domaine refusé par le proxy réseau) pour vérifier le détail de l'étude ougandaise."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-16",
+    "verdict": "a_revoir",
+    "empreinte": "ba0c1100be21b018",
+    "notes": [
+      "Billo et al. 2012 : 274/108 jours attribués par erreur au délai de RÉINFECTION (repere et corps) alors que l'article les donne pour le délai avant la PREMIÈRE infection ; les chiffres de réinfection réels sont 365/184 jours. À corriger. Allison 1954 confirmé par ses métadonnées (BMJ, 6 février 1954, vol.1 n°4857 p.290-294) ; texte intégral non accessible depuis cette session (domaine bloqué par le proxy)."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-16",
