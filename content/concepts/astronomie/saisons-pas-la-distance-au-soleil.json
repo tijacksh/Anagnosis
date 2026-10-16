@@ -93,7 +93,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Une distance unique pour toute la planète ne peut pas donner l'été au nord et l'hiver au sud en même temps : seule l'inclinaison de l'axe agit en sens contraire sur les deux hémisphères. La lumière reçue varie bien d'environ 7 %, la Terre est au plus près en janvier, et l'orbite n'est pas un cercle parfait.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -130,12 +130,21 @@
       "explication": "Le rayonnement décroît comme le carré de la distance, et le rapport des carrés des distances vaut environ 1,07. L'effet existe donc, mais ce calcul ne donne ni l'inclinaison, ni la vitesse de rotation, ni les températures."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-16T10:16:31.387Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-16T10:16:31.387Z",
+        "note": "Sources rouvertes : NASA Earth Fact Sheet (périhélie 147,095M km, aphélie 152,100M km, demi-grand axe 149,598M km, obliquité 23,44°, toutes valeurs confirmées), NASA Space Place, weather.gov, Scientific American (dates et distances périhélie/aphélie 2023 cohérentes) — toutes réouvertes et confirmées. earthsky.org inaccessible cette session (comme lors du contrôle) ; l'écart de ~5 jours été/hiver boréal corroboré indépendamment via Wikipedia (Season : été boréal 93,65 j vs hiver 88,99 j, écart 4,66 j). Citation : aucune (repere seul, conforme). Carte et quiz conformes au contenu sourcé."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-15",

@@ -76,15 +76,25 @@
       "Avec des avions envoyés à 10 km pour mesurer leur vitesse au sol"
     ],
     "bonne_reponse": 2,
-    "explication": "Selon l'AEMET, Ōishi suivait au théodolite des ballons montant jusqu'à 9 ou 10 km, et en déduisait la vitesse moyenne du vent par couche, avec une marge d'erreur appréciable. Estimer des nuages à l'œil ne donne pas le vent couche par couche, et ni radiosondes ni avions ne figurent dans la méthode décrite."
+    "explication": "Selon l'AEMET, Ōishi suivait au théodolite des ballons montant jusqu'à 9 ou 10 km, et en déduisait la vitesse moyenne du vent par couche, avec une marge d'erreur appréciable. Estimer des nuages à l'œil ne donne pas le vent couche par couche, et ni radiosondes ni avions ne figurent dans la méthode décrite.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-16T10:16:39.668Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-16T10:16:39.668Z",
+        "note": "Sources rouvertes : Wikipedia (Wasaburo Oishi, Jet stream) — observatoire de Tateno, premier rapport 1926, 19 rapports en espéranto 1926-1944 (1246 pages) pour un public étranger, antériorité d'Oishi sur Seilkopf (1939, terme Strahlströmung), ballons-pilotes suivis — toutes confirmées. aemetblog.es, bibliotheque.meteo.fr et journals.ametsoc.org (Lewis 2003) bloqués par la politique réseau de cette session, comme lors du contrôle précédent : le chiffre de 70 m/s en hiver 1924 (seule source AEMET) n'a pu être revérifié une seconde fois, mais rien ne le contredit et la fiche le présente avec sa marge d'erreur. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-15",
