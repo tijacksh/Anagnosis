@@ -78,7 +78,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Un échec se voit attribué à une cause ponctuelle qui laisse le système intact. L'oracle est au contraire consulté très régulièrement, souvent une seconde fois pour confirmation, et sa pratique est réservée aux hommes, non aux femmes.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -104,11 +104,11 @@
       "explication": "Les Azandé admettent sans difficulté que les termites ont rongé les piliers ; la sorcellerie n'explique pas l'effondrement lui-même, mais la coïncidence précise de ce moment et de cette victime."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-14T19:16:07.992Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-17T20:27:19.589Z",
     "historique": [
       {
         "action": "valider",
@@ -117,15 +117,25 @@
         "par": "routine-reparation",
         "le": "2026-10-14T19:16:07.992Z",
         "note": "Sources rouvertes : Wikipedia 'Azande witchcraft' (procédure benge, contre-épreuve, grenier/termites confirmés). Ajouté deux sources vérifiées pour les deux points sans source : Ze Hong, 'Divination: A Cognitive Perspective' (Cambridge Elements, 2025), qui confirme les 'secondary elaborations' d'Evans-Pritchard pour un échec d'oracle (poison périmé/mauvaise variété, tabou enfreint, colère des fantômes, sorcellerie, blâme sur le devin) ; Stanford Encyclopedia of Philosophy, 'Relativism' (rév. 2025-01-10), qui confirme l'argument de Peter Winch (1964, American Philosophical Quarterly) sur les critères de rationalité internes à chaque société. Corps reformulé pour correspondre exactement à ces sources (fantômes des ancêtres plutôt que 'un ancêtre', faute rituelle précisée en tabou enfreint, année 1964 au lieu de 'années 1960'). Quiz et carte inchangés, déjà conformes."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-17T20:27:19.589Z",
+        "note": "Contrôle des sources du 2026-10-17 : affirmation non soutenue par les sources, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-14",
+    "fait_le": "2026-10-17",
     "verdict": "a_revoir",
-    "empreinte": "7f36247c2854e4d8",
+    "empreinte": "2f788f5a0d4bf34c",
     "notes": [
-      "Deux affirmations sans source dans la fiche : (1) l'explication des échecs de l'oracle par une cause ponctuelle (poison corrompu, faute rituelle, colère d'un ancêtre) n'est confirmée ni par la page Wikipedia 'Azande witchcraft' citée (qui dit seulement que les verdicts ne sont jamais contestés, sans dire comment un échec serait expliqué) ni par le livre d'Evans-Pritchard sur archive.org (accès au texte intégral restreint) ; or cette affirmation est aussi la base de la bonne réponse du quiz principal. (2) La mention de Peter Winch (années 1960, question sur le cadre au nom duquel juger les Azande) est absente des deux sources de la fiche ; son texte de 1964 'Understanding a Primitive Society' n'a pas de copie en accès libre trouvée. A vérifier : retrouver une source ouvrable et fiable pour ces deux points (texte intégral du livre d'Evans-Pritchard, synthèse secondaire sérieuse, ou édition de l'article de Winch), sinon reformuler le corps et le quiz pour retirer ce qui n'est pas soutenu. Le reste est vérifié et conforme (procédure du benge, contre-épreuve du second poulet, exemple du grenier et des termites, carte partageable)."
+      "Détail non soutenu : le corps dit que le benge est un poison « tiré d'une liane de la forêt ». Aucune page ouverte ne le dit : Wikipedia Azande witchcraft et Benge, les notices du Pitt Rivers Museum (southernsudan.prm.ox.ac.uk) et Wikipedia E. E. Evans-Pritchard sont muettes ; une recherche attribue « strychnine-type poison from the root of a liana creeper » à une notice du Pitt Rivers que je n'ai pas pu rouvrir. Le texte d'Evans-Pritchard (p. 294-312 selon le Pitt Rivers) est en accès restreint sur archive.org. À sourcer précisément ou à retirer.",
+      "Deux autres détails sont maintenant soutenus par des pages ouvertes mais absents des sources de la fiche, à y ajouter : la fourchette 1926-1930 (Wikipedia E. E. Evans-Pritchard : première enquête en 1926 chez les Azandé, jusqu'en 1930) et la consultation à l'écart des habitations, souvent en bordure des cultures (notice Pitt Rivers « Consulting the Zande benge oracle », collections.prm.ox.ac.uk, photographies d'Evans-Pritchard de 1927-1928 : « Poison oracle consultations took place away from habitation, often at the edge of cultivations »).",
+      "Confirmés : Wikipedia Azande witchcraft (benge, contre-épreuve sur un second poulet de résultat inverse, oracle « used solely by men », décisions jamais contestées, grenier et termites), Ze Hong 2025 §6.2 (« secondary elaborations » : variété et âge du poison, tabou enfreint, fantômes, sorcellerie ; blâme sur les devins, « seldom the system as a whole »), SEP « Relativism » (Winch ; l'année 1964 vient de la référence à American Philosophical Quarterly 1(4)). La note de la source 1937 dit « recoupée par plusieurs synthèses » : à reformuler, archive.org n'a pas été ouvert."
     ]
   },
   "controle_juridique": null,

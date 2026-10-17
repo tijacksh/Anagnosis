@@ -87,7 +87,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Van Beek rapporte un désaccord total entre ses informateurs sur l'étoile désignée par la fête du Sigui, mais un accord sur son origine : Griaule lui-même. Les Dogon existent bien réellement, et Calame-Griaule a au contraire contesté la méthode de van Beek dans la même revue.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -113,11 +113,11 @@
       "explication": "Benest et Duvent (1995) ont proposé un compagnon à période orbitale de six ans ; Bonnet-Bidaud et Pantin (2008) jugent cette hypothèse peu probable sans l'exclure totalement. Sirius B, elle, est confirmée depuis 1862 et son orbite mesurée par les premières techniques photographiques dès 1970."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-14T19:17:19.400Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-17T20:21:57.844Z",
     "historique": [
       {
         "action": "valider",
@@ -126,15 +126,26 @@
         "par": "routine-reparation",
         "le": "2026-10-14T19:17:19.400Z",
         "note": "Point signalé traité : la date '1970' (première 'photographie' de Sirius B) n'avait pas de source. Vérifiée via Bonnet-Bidaud, Gry & Thiébaut (arXiv:astro-ph/0010032, 2000), qui confirme que l'orbite a été déterminée par les premières techniques photographiques (Lindenblad 1970) après des observations visuelles antérieures (1932) — texte reformulé en conséquence ('mesurée par les premières techniques photographiques' plutôt que 'photographiée pour la première fois', affirmation plus forte que ce que la source soutient), source ajoutée, quiz_supplementaire Q2 ajusté en miroir. Reste de la fiche revérifié : van Beek 1991 (DOI), Griaule/Ogotemmêli 1946, Dieu d'eau 1948, Sirius B 1862 (Wikipedia), Benest & Duvent 1995 et Bonnet-Bidaud & Pantin 2008 (Wikipedia Dogon people) — tout conforme."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-17T20:21:57.844Z",
+        "note": "Contrôle des sources du 2026-10-17 : affirmations non soutenues par les sources, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-14",
+    "fait_le": "2026-10-17",
     "verdict": "a_revoir",
-    "empreinte": "cf55048d2c07d92f",
+    "empreinte": "63798560350ffff3",
     "notes": [
-      "Corps vérifié dans l'ensemble : missions de Griaule, entretiens Ogotemmêli (1946), parution Dieu d'eau (1948) confirmées. Article de van Beek (Current Anthropology 32(2), 1991, p.139-167) rouvert via DOI : confirme le désaccord des informateurs dogon sur l'étoile du Sigui (invisible vs Vénus) et leur accord sur une origine Griaule, ainsi que la réponse de Calame-Griaule dans le même volume — repère, carte et quiz s'accordent avec la source. Corrigé : url du livre de Griaule pointait vers l'édition OUP de 1976 (OL23747042M) alors que la fiche annonce 1965 -> remplacée par l'édition 1965 vérifiée (OL19700521M). Note de la source Wikipedia 'Dogon people' corrigée : elle prétendait contenir les dates de confirmation de Sirius B (1862) et de sa première photographie (1970), ce qui est faux (vérifié par lecture directe) ; ajout d'une source Wikipedia 'Sirius B' qui confirme bien la date de 1862. A SIGNALER : la date '1970' (première photographie de Sirius B) du corps du texte reste sans source dans la fiche. Elle correspond probablement à Lindenblad, Astronomical Journal 75, p.841 (1970), mesures astrométriques photographiques de Sirius A/B 1965-1969 — fait plausible et répété dans la littérature secondaire sur l'affaire Dogon/Sirius, mais je n'ai pas pu ouvrir ce papier primaire (DNS/scan illisible) pour le confirmer moi-même. A vérifier et sourcer, ou à retirer du texte si non confirmable."
+      "Mauvaise œuvre : le corps dit que Griaule et Dieterlen décrivent le système de Sirius dans Dieu d'eau (1948). Wikipedia Dogon people, qui reste la source de la fiche, rattache le système de Sirius à Griaule et Dieterlen, « Un système soudanais de Sirius » (Journal de la Société des Africanistes, 1950) et au Renard pâle (1965) ; Dieu d'eau n'y est cité que pour les entretiens avec Ogotemmêli. Aucune de ces deux œuvres n'est dans les sources de la fiche. À corriger et à sourcer.",
+      "Date et édition : carte.idee dit « En 1946, Marcel Griaule rapporte que les Dogon connaissent un compagnon invisible de Sirius » ; l'affirmation est publiée en 1950, les entretiens datent de 1946. Le corps dit que « les deux ethnologues posent eux-mêmes la question, dans une réédition de 1976 » : la phrase citée par Wikipedia (p. 59) vient de la traduction de 1976 de l'article de 1950 dans The Sirius Mystery de Robert Temple, Griaule étant mort en 1956. À reformuler.",
+      "Confirmés : van Beek 1991 (Wikipedia Dogon people cite « disagree completely with each other as to which star is meant », étoile invisible ou Vénus, « All agree, however, that they learned about the star from Griaule » ; réponse de Calame-Griaule, p. 575-577 ; 29 pages = p. 139-167), 33 jours d'entretiens (Wikipedia, attribué à Imbo 1998), savoir transmis par père et grand-père depuis plus de vingt ans, missions annuelles 1946-1956, Benest et Duvent 1995 (six ans), Bonnet-Bidaud et Pantin 2008 (probabilité « low »), Sirius B 1862 et Lindenblad 1970. doi.org de van Beek renvoie 403 côté éditeur.",
+      "Compléments : quiz_supplementaire Q2 cite Bonnet-Bidaud et Pantin 2008 qui n'a pas d'entrée dans sources[] (seule Wikipedia Dogon people le mentionne) ; à ajouter après ouverture de la référence (Astronomy and Astrophysics 489). Vérifiés : « cinquante ans » d'orbite (Griaule et Dieterlen, p. 64-65 de la traduction de 1976, cité par Wikipedia) et Calame-Griaule contestant la méthode de van Beek (Wikipedia : elle lui reproche de ne pas avoir suivi « the appropriate steps for acquiring knowledge » et suggère que ses informateurs l'ont cru envoyé par l'administration)."
     ]
   },
   "controle_juridique": null,

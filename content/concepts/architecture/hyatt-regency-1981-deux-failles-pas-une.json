@@ -60,7 +60,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le NBS retient deux facteurs : le changement, qui double la charge sur le quatrième étage, et une fixation d'origine déjà insuffisante. Le changement a bien touché le quatrième étage, les plans modifiés ont été relus et tamponnés, et le rapport ne met pas en cause le béton.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -86,11 +86,11 @@
       "explication": "La passerelle du troisième étage n'a pas été concernée par le changement de disposition des tiges introduit en cours de chantier : elle gardait la fixation à tige unique prévue à l'origine, commune aux trois passerelles avant modification. Elle restait suspendue au toit par des tiges d'acier, comme les deux autres."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-17T07:15:33.360Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-17T20:21:57.945Z",
     "historique": [
       {
         "action": "retoucher",
@@ -107,15 +107,26 @@
         "par": "routine-reparation",
         "le": "2026-10-17T07:15:33.360Z",
         "note": "Quatrième tentative de recoupement pour le chiffre de 53% (fixation 3e étage) : accès toujours bloqué à nvlpubs.nist.gov et nist.gov, et à tous les mirroirs et synthèses testés (UNT Digital Library, Scribd, structuremag.org, engineerhub.org, onlineethics.virginia.edu, Wikipedia) — aucun ne confirme ce chiffre, certains donnent des grandeurs différentes et non comparables (23,1 kips pour les tiges du 3e étage, 75% sous charge permanente seule pour le 4e étage). Plutôt que de laisser cette fiche indéfiniment en retouche pour un point secondaire à la thèse, le chiffre non soutenu a été retiré du corps du texte (section 'Ce que le calcul montre en plus', reformulée sans invoquer de pourcentage pour le 3e étage) et du quiz_supplementaire (question 2 réécrite). Les faits confirmés par recoupement indépendant sont conservés et sourcés : 113 morts/186 blessés, deux facteurs retenus par le NBS, capacité d'origine ~60% de l'attendu (citation directe trouvée via Wikipedia), charge à l'effondrement ~30-31% pour la fixation du 4e étage. Citation (nulle), repère et carte revérifiés, inchangés."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-17T20:21:57.945Z",
+        "note": "Contrôle des sources du 2026-10-17 : affirmations non soutenues par les sources, voir controle.notes."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-10-17",
     "verdict": "a_revoir",
-    "empreinte": "5501facddd0a9168",
+    "empreinte": "36c09d0c0c5bcfdd",
     "notes": [
-      "Doute non levé pour la troisième fois : accès direct à nvlpubs.nist.gov et nist.gov toujours bloqué depuis cette session (DNS). Le chiffre de 53% de la capacité attendue pour la fixation de la passerelle du 3e étage (cité dans le corps du texte §4 et dans quiz_supplementaire question 2) reste introuvable par recoupement indépendant. Nouvel élément trouvé par recherche étendue, qui complique plutôt qu'il ne confirme : des résumés secondaires du même rapport NBS donnent pour la passerelle du 3e étage une capacité de conception requise d'environ 23,1 kips (103 kN) pour les tiges, et pour la passerelle du 4e étage une charge d'environ 75% de la charge de conception admissible sous la seule charge permanente — des grandeurs différentes de celles citées dans la fiche (60% à l'origine, 31% à l'effondrement pour le 4e étage ; 53% pour le 3e étage), sans qu'on puisse établir si elles décrivent la même chose sous une autre forme ou une incohérence. Les autres chiffres déjà confirmés (113 morts, 186 blessés, deux facteurs retenus, capacité d'origine ~60%, charge à l'effondrement 31% pour le 4e étage) sont recoupés une nouvelle fois sans problème. Il faut un accès direct au PDF complet (ou un mirroir fonctionnel, p. ex. UNT Digital Library ou Scribd) pour trancher le chiffre de 53% avant validation."
+      "Affirmation non soutenue : « La plupart des victimes se trouvaient au rez-de-chaussée de l'atrium ou sur la passerelle du deuxième étage. » Le rapport NBS BSS 143 (texte intégral lu, PDF nvlpubs.nist.gov) indique au §4.3 que les tentatives d'obtenir les répartitions des morts et blessés par section ont échoué ; la page NIST et Wikipedia ne le disent pas non plus. À retirer ou à sourcer.",
+      "Confirmés dans le texte intégral du rapport : 17 juillet 1981, 19 h 05 ; 113 morts et 186 blessés au résumé (111 et 188 dans le corps, deux blessés morts ensuite) ; « most devastating structural collapse ever to take place in the United States » ; plans approuvés par la Kansas City Codes Administration Office ; deux profilés de 8 pouces soudés bord à bord ; plans d'atelier tamponnés par l'entrepreneur, l'ingénieur de structure et l'architecte ; charge « essentially doubled » ; 31 % à l'effondrement ; environ 60 % à l'origine ; absence de capacité pour la charge des personnes.",
+      "Pour la prochaine réparation : le chiffre de 53 % retiré le 17 octobre pour défaut de source figure bien dans le rapport (§10.5, p. 246) : « the third floor walkway connection would have had approximately 53 percent of the expected ultimate capacity » (référence : spécification AISC) et « the third floor walkway would have been the most critical of the three ». Le 60 % du résumé se réfère au Kansas City Building Code, celui du §10.5 à l'AISC.",
+      "Traces périmées : la note de la source NBS (« accès bloqué… recoupement indépendant… 53 % introuvable ») est devenue fausse puisque le rapport a été lu en texte intégral pour ce contrôle (PDF de 27 Mo, texte extrait avec PDFKit) ; à réécrire à la réparation. La réparation du 17 octobre a retiré un chiffre exact (53 %, §10.5, p. 246) faute d'avoir pu ouvrir le rapport."
     ]
   },
   "controle_juridique": null,
