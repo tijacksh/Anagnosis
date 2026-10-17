@@ -134,6 +134,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Géographie | Les Aléoutiennes franchissent le 180e méridien : Amatignak (ouest) et Semisopochnoi (est) tiennent les deux extrêmes de longitude des États-Unis | fait | routine-production | 2026-09-28 |
 | Géographie | Null Island (0°N 0°E) : le point où les logiciels de géocodage placent leurs erreurs, et où une bouée Pirata (1997-2021) a réellement existé | fait | routine-production | 2026-09-28 |
 | Géographie | Ératosthène (v. 240 av. J.-C.) mesure la Terre à 250 000 stades depuis Alexandrie — une précision « à 1 % près » qu'on ne peut pas vérifier | fait | routine-production | 2026-09-28 |
+| Géographie | Le lac Baïkal, le plus profond et le plus ancien lac du monde, parce qu'il occupe un rift continental actif (3-5 mm/an) | fait | routine-production | 2026-10-17 |
+| Géographie | La mer d'Aral, assèchée dès les années 1960 par le détournement soviétique de ses deux fleuves pour l'irrigation du coton | fait | routine-production | 2026-10-17 |
+| Géographie | La Rinconada (Pérou, ~5 100 m), la ville la plus haute du monde : érythrocytose excessive chez 44 % des habitants, mais moins de symptômes chez eux (Frontiers in Physiology, 2020) | fait | routine-production | 2026-10-17 |
+| Géographie | Le canyon du Yarlung Tsangpo (Tibet), plus de 5 300 m de profondeur — trois fois le Grand Canyon — et sa première descente en kayak en 2002 | fait | routine-production | 2026-10-17 |
 
 | Histoire | Christophe Colomb et le mythe des théologiens de la Terre plate (Washington Irving, 1828) | fait | routine-production | 2026-09-28 |
 | Histoire | Le télégramme Zimmermann (1917), décodé sur le câble diplomatique américain lui-même | fait | routine-production | 2026-09-28 |
