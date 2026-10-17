@@ -266,6 +266,10 @@ peut rouvrir directement le texte du décret.)*
 | Littérature | « Je désapprouve ce que vous dites… » : une phrase d'Evelyn Beatrice Hall (1906), pas de Voltaire | fait | routine-production-arnaud | 2026-10-08 |
 | Littérature | Les Fleurs du mal (1857) : six poèmes condamnés, le livre jamais interdit, réhabilité en 1949 | fait | routine-production-arnaud | 2026-10-08 |
 | Littérature | « Wherefore art thou Romeo ? » : Juliette ne demande pas où est Roméo | fait | routine-production-arnaud | 2026-10-08 |
+| Littérature | Vernon Sullivan (Boris Vian, 1946) : l'écrivain américain inventé, condamné le 13 mai 1950 | fait | routine-production | 2026-10-17 |
+| Littérature | Paris au XXe siècle (Jules Verne, 1863) : le roman refusé par Hetzel, publié 131 ans plus tard | fait | routine-production | 2026-10-17 |
+| Littérature | Casanova, Histoire de ma vie : le manuscrit resté privé de 1821 à son acquisition par la BnF en 2010 | fait | routine-production | 2026-10-17 |
+| Littérature | Le roman-feuilleton : le 1er juillet 1836, Le Siècle (Dutacq) publie avant La Presse (Girardin) | fait | routine-production | 2026-10-17 |
 | Neurosciences | Libet (1983) : le potentiel de préparation précède l'intention consciente, et ce que Schurger (2012) en dit | fait | routine-production-arnaud | 2026-10-09 |
 | Neurosciences | Hubel et Wiesel : la période critique, des chatons à l'œil fermé | fait | routine-production-arnaud | 2026-10-09 |
 | Neurosciences | Neurones miroirs (1992) : ce que le macaque montre, et ce qu'il ne montre pas | fait | routine-production-arnaud | 2026-10-09 |
