@@ -391,3 +391,7 @@ peut rouvrir directement le texte du décret.)*
 | Preuve et erreur judiciaire | Birmingham Six (1975-1991) : le test de Griess, positif aussi sur des cartes à jouer | fait | routine-production-arnaud | 2026-10-15 |
 | Preuve et erreur judiciaire | Kirk Bloodsworth (Maryland, 1985-1993), premier condamné à mort américain innocenté par l'ADN | fait | routine-production-arnaud | 2026-10-15 |
 | Preuve et erreur judiciaire | *Mapp v. Ohio* (1961), la Cour suprême américaine et la règle d'exclusion de la preuve illégale | fait | routine-production-arnaud | 2026-10-15 |
+| Neurosciences | « 100 milliards de neurones, dix fois plus de glies » : le comptage de 2009 (Azevedo et al.) et l'origine du 10:1 (von Bartheld 2016) | en cours | routine-production-arnaud | 2026-10-18 |
+| Neurosciences | Hodgkin et Huxley (1952) : l'axone géant du calmar, des équations calculées à la main, et un modèle dont les auteurs disaient qu'il ne décrivait pas la membrane | en cours | routine-production-arnaud | 2026-10-18 |
+| Neurosciences | Schultz, Dayan et Montague (1997) : la dopamine signale une erreur de prédiction, pas le plaisir ; et ce qu'en disent Berridge et Robinson (1998) | en cours | routine-production-arnaud | 2026-10-18 |
+| Neurosciences | « Cluster failure » (Eklund, Nichols, Knutsson, 2016) : les faux positifs de l'IRMf, et le « 40 000 études » corrigé par les auteurs | en cours | routine-production-arnaud | 2026-10-18 |
