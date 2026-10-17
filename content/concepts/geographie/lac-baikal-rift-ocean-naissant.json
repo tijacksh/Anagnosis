@@ -75,10 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-10-17",
+    "verdict": "a_revoir",
+    "empreinte": "97ad8fe546c5e3a8",
+    "notes": [
+      "Deux points à vérifier avant validation. (1) Le corps du texte, le repère, la carte et le quiz affirment une extension de '3 à 5 mm par an, une mesure obtenue par relevés GPS sur plusieurs décennies'. Wikipedia (Baikal Rift Zone), rouverte et vérifiée, donne '3 to 4 millimetres per year' (source : Radziminovich et al. 2013, une étude sismologique, pas le GPS) ; un autre taux de 3,2±0,5 mm/an mesuré par décalage de reliefs (pas GPS non plus) concerne seulement le segment nord. Aucune mesure GPS n'apparaît dans la source. Le chiffre '5 mm' et la méthode 'GPS' ne sont donc pas soutenus par la source citée dans sources[] — à corriger ou à resourcer. (2) L'affirmation 'des géologues russes ont proposé de voir dans le Baïkal un prototype d'océan' est probablement vraie (recoupement indépendant : Boris Agafonov, Institut de la croûte terrestre d'Irkoutsk, cité par une source de vulgarisation scientifique), mais aucune source de la fiche ne la soutient — sources[] ne contient que l'USGS, la NASA et Wikipedia Baikal Rift Zone, qui ne mentionne ni océan naissant ni prototype d'océan. Ajouter une source nommant explicitement cette thèse, ou retirer/atténuer l'affirmation."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-17",
