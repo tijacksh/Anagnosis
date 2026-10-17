@@ -28,7 +28,7 @@
       "publication": "Wikipedia",
       "annee": null,
       "url": "https://en.wikipedia.org/wiki/Engel%27s_law",
-      "note": "Confirme la date (1857), le poste d'Engel au bureau statistique royal de Saxe depuis 1854, le titre de la publication saxonne, le tableau de 29 observations avec des revenus de 200 à 3 000 francs et des parts alimentaires de 72,96 % à 56,9 %, ainsi que les deuxième et troisième lois d'Engel (logement stable, éducation/loisirs croissants). Ne précise pas l'origine géographique des familles du tableau."
+      "note": "Confirme la date (1857), le titre de la publication saxonne, le tableau de 29 observations avec des revenus de 200 à 3 000 francs et des parts alimentaires de 72,96 % à 56,9 %, les deuxième et troisième lois d'Engel (logement/habillement stables, éducation/santé/loisirs croissants), et l'usage du coefficient d'Engel par les Nations unies pour mesurer le niveau de vie et fixer des seuils de pauvreté. Ne précise ni le poste d'Engel en 1854 ni l'origine géographique des familles du tableau."
     },
     {
       "type": "web",
@@ -37,7 +37,16 @@
       "publication": "Wikipedia",
       "annee": null,
       "url": "https://fr.wikipedia.org/wiki/Loi_d%27Engel",
-      "note": "Confirme l'énoncé de la loi (part alimentaire décroissante avec le revenu, dépense absolue croissante), l'attribution à Ernst Engel en 1857, l'élasticité-revenu inférieure à 1 pour l'alimentation, et le jugement de Hendrik Houthakker qualifiant la loi d'Engel de régularité empirique « la mieux établie ». Situe l'observation d'Engel sur des budgets « franco-belges » synthétisés par Frédéric Le Play."
+      "note": "Confirme l'énoncé de la loi (part alimentaire décroissante avec le revenu, dépense absolue croissante), l'attribution à Ernst Engel en 1857, l'élasticité-revenu inférieure à 1 pour l'alimentation, et le jugement de Hendrik Houthakker qualifiant la loi d'Engel de régularité empirique « probablement la mieux établie ». Situe l'observation d'Engel sur 153 budgets « franco-belges » synthétisés par Frédéric Le Play — ne mentionne pas Ducpétiaux, à la différence de la source primaire ci-dessous."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributors)",
+      "titre": "Ernst Engel",
+      "publication": "Wikipedia",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Ernst_Engel",
+      "note": "Confirme qu'Engel, statisticien allemand, entre en 1854 au service du gouvernement comme chef d'un département statistique nouvellement créé, poste qu'il quitte en 1858 — avant d'être rappelé à Berlin en 1860. Ne nomme pas explicitement ce département « bureau statistique royal de Saxe », mais la publication saxonne de 1857 (source ci-dessus, publiée par le Statistisches Bureau des Königlich Sächsischen Ministeriums des Innern) situe ce poste en Saxe pendant qu'Engel le tenait."
     },
     {
       "type": "livre",
@@ -65,14 +74,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "La dépense alimentaire continue d'augmenter en valeur absolue avec le revenu ; c'est le reste du budget qui augmente plus vite encore, faisant mécaniquement reculer la part réservée à la nourriture — rien à voir avec une baisse des prix ou de la taille des familles.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-16T19:22:36.321Z",
+    "decide_le": "2026-10-17T19:16:28.577Z",
     "historique": [
       {
         "action": "retoucher",
@@ -81,6 +90,14 @@
         "par": "routine-reparation",
         "le": "2026-10-16T19:22:36.321Z",
         "note": "En/fr Wikipedia rouvertes, puis recherche étendue : le texte d'Engel lui-même (réimpression inchangée de 1857 dans Die Lebenskosten belgischer Arbeiter-Familien, 1895, archive.org) confirme dans sa table des matières que la section déterminant la consommation (p.7-27, où se situe le tableau à 29 revenus) est 'ermittelt aus den von E. Ducpetiaux und F. Le Play mitgetheilten Budgets' — des familles belges et européennes, non saxonnes. Corps corrigé en ce sens (retiré 'budgets familiaux saxons' et 'franc saxon, qui n'existe plus' ; ajouté la source primaire archive.org). DOUTE RESTANT, non levé : l'identité précise des familles et leur nombre exact. Les sources tertiaires se contredisent (153 franco-belges selon fr.wikipedia via Le Play ; 199 Ducpétiaux + 36 Le Play selon des résumés de recherche web citant Chai & Moneta, JEP 2010, et Stigler 1954) et je n'ai pas pu ouvrir directement le tableau original (p.7-27 du texte archive.org parcouru par tranches de 100000 caractères, sans trouver les lignes à 72,96%/56,9%) ni la source académique la plus autorisée (pubs.aeaweb.org, researchgate.net, griffith.edu.au, ethz.ch, peri.umass.edu, byustudies.byu.edu — tous injoignables depuis cette session, DNS bloqué). Il faudrait soit un accès à ces domaines, soit retrouver et lire directement les pages 7-31 du texte archive.org, pour trancher le nombre exact de familles et confirmer que les lignes 72,96%/56,9% sont bien celles issues de Ducpétiaux plutôt qu'une table distincte."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-17T19:16:28.577Z",
+        "note": "Re-vérification indépendante entière. en.wikipedia et fr.wikipedia 'Engel's law'/'Loi d'Engel' confirment : 1857, tableau à 29 observations, revenus 200-3000 francs, parts 72,96%/56,9%, deuxième et troisième lois (logement/habillement stables, éducation/santé/loisirs croissants), jugement de Houthakker ('probablement la mieux établie'), et l'usage du coefficient par les Nations unies (accroche confirmée). Point nouveau trouvé : le poste d'Engel au bureau statistique depuis 1854 n'était soutenu par aucune source citée dans la fiche — en.wikipedia 'Ernst Engel' (nouvelle source ajoutée) confirme sa prise de fonction en 1854 comme chef d'un département statistique nouvellement créé (quitté en 1858), recoupé avec la publication saxonne de 1857 déjà citée. Notes des deux sources Wikipedia corrigées pour ne plus leur attribuer ce qu'elles ne disent pas. Le doute sur le nombre exact de familles (153 vs 199 vs 200), déjà signalé par la réparation du 16/10 et jugé résolu par le contrôle du 17/10 parce que le corps ne tranche plus ce chiffre, reste résolu : le corps actuel ('budgets de familles belges et d'autres familles ouvrières européennes, réunis par Ducpétiaux et Le Play') est compatible avec la source primaire archive.org (table des matières : budgets communiqués par Ducpetiaux et Le Play) sans trancher le nombre disputé entre sources tertiaires. Carte et quiz conformes."
       }
     ]
   },
