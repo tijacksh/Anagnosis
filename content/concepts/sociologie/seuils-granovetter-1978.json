@@ -67,15 +67,25 @@
       "Parce que la seconde foule manque de radicaux, son seuil moyen étant nettement plus élevé"
     ],
     "bonne_reponse": 0,
-    "explication": "Les deux foules ont des seuils moyens presque égaux (49,5 et 49,51) et le même instigateur, de seuil 0. La différence est un trou dans la distribution : sans individu de seuil 1, la cascade ne démarre pas au-delà du premier acte. Le modèle simplifie, avec une personne exactement par seuil, pour rendre l'effet visible."
+    "explication": "Les deux foules ont des seuils moyens presque égaux (49,5 et 49,51) et le même instigateur, de seuil 0. La différence est un trou dans la distribution : sans individu de seuil 1, la cascade ne démarre pas au-delà du premier acte. Le modèle simplifie, avec une personne exactement par seuil, pour rendre l'effet visible.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-17T10:19:36.770Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-17T10:19:36.770Z",
+        "note": "Granovetter 1978 (AJS, uchicago.edu, JSTOR) et Macy & Evtushenko 2020 (sociologicalscience.com) non accessibles directement cette session (hôtes refusés par la politique réseau de l'environnement) — même réserve technique que le contrôle du 16/10 sur cette fiche. Existence et pagination de l'article confirmées (DOI résolu, JSTOR stable/2778111, AJS 83(6), 1420-1443). Corroboration indépendante par recherche : l'exemple des cent individus aux seuils 0-99 (équilibre 100, moyenne 49,5), le remplacement de l'individu de seuil 1 par un individu de seuil 2 (moyenne quasi inchangée, 49,51) sont confirmés par plusieurs sources secondaires (dont Macy & Evtushenko eux-mêmes, qui reprennent cet exemple). Le résultat « l'émeute s'arrête à un participant » après ce remplacement est en outre une conséquence mathématique nécessaire du mécanisme de seuils tel que décrit (sans individu de seuil 1, personne au-delà de l'instigateur ne voit assez de participants pour agir) — vérifié par le calcul, pas seulement rapporté. Carte (reformulée le 14/10 : « dispositions des individus du résultat collectif ») conforme à la conclusion de Granovetter sur le risque d'inférer les dispositions individuelles à partir du résultat agrégé. Quiz exact, distracteurs faux. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-16",
