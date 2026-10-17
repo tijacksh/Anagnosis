@@ -65,7 +65,41 @@
     "explication": "La variation entre élèves d'une même école est environ quatre fois celle entre écoles, et les ressources variaient peu d'une école à l'autre. Les écoles n'étaient pas identiques, le rapport a bien recueilli des données sur elles, et rien dans le résumé ne met en cause les tests. Cela ne veut pas dire que l'école est sans effet.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'est-ce qui a demandé l'enquête ayant donné le rapport Coleman ?",
+      "choix": [
+        "Une décision de la Cour suprême sur la déségrégation scolaire de 1954",
+        "Le Civil Rights Act de 1964, qui demandait une enquête sur l'inégalité des chances éducatives",
+        "Une initiative personnelle de James Coleman, sans mandat légal",
+        "Un rapport antérieur du Sénat sur le financement des écoles publiques"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le Civil Rights Act de 1964 avait demandé une enquête nationale sur l'inégalité des chances éducatives : c'est elle qui a donné le rapport de 1966."
+    },
+    {
+      "question": "D'après le rapport, pour quels élèves l'école fréquentée est-elle le plus associée à la réussite ?",
+      "choix": [
+        "Les élèves noirs du Sud, pour lesquels l'école pèse deux fois plus que pour les élèves blancs du Sud",
+        "Les élèves blancs du Sud, dont la réussite dépend presque entièrement de l'école",
+        "Les élèves des minorités d'origine asiatique, dont les résultats varient le plus d'une école à l'autre",
+        "Tous les élèves de la même manière, quelle que soit leur origine"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le rapport associe l'école à 20 % de la réussite des élèves noirs du Sud, contre seulement 10 % pour les élèves blancs du Sud, soit deux fois plus."
+    },
+    {
+      "question": "Parmi les cinq groupes de facteurs scolaires du rapport, lequel explique la plus grande part des résultats ?",
+      "choix": [
+        "Les équipements, comme les bibliothèques et les laboratoires",
+        "La qualité des enseignants, mesurée indépendamment des élèves",
+        "Les programmes suivis par les élèves",
+        "Le public de l'école, c'est-à-dire le milieu des autres élèves"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le rapport identifie le public de l'école, c'est-à-dire le milieu des autres élèves, comme le facteur scolaire qui pèse le plus sur les résultats."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

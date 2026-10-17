@@ -70,7 +70,41 @@
     "explication": "Les deux foules ont des seuils moyens presque égaux (49,5 et 49,51) et le même instigateur, de seuil 0. La différence est un trou dans la distribution : sans individu de seuil 1, la cascade ne démarre pas au-delà du premier acte. Le modèle simplifie, avec une personne exactement par seuil, pour rendre l'effet visible.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment Granovetter définit-il le seuil d'un individu dans son modèle ?",
+      "choix": [
+        "Le nombre de personnes qu'il doit voir agir avant d'agir lui-même",
+        "Le temps qu'il met à se décider après le début de l'action collective",
+        "La proportion de ses proches qui partagent son opinion initiale",
+        "Le niveau de risque légal auquel il est personnellement exposé"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le seuil est le nombre, ou la proportion, de gens qu'il faut voir agir avant que les avantages perçus l'emportent sur les coûts."
+    },
+    {
+      "question": "À quels modèles Granovetter dit-il avoir emprunté l'idée de seuil ?",
+      "choix": [
+        "Les modèles de choix rationnel de Downs sur le vote",
+        "Les modèles de diffusion des innovations de Rogers",
+        "Les modèles de ségrégation résidentielle de Schelling",
+        "Les modèles de réseaux sociaux de Milgram"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Granovetter signale lui-même reprendre l'idée de seuil aux modèles de ségrégation résidentielle développés par Thomas Schelling."
+    },
+    {
+      "question": "Que montrent Macy et Evtushenko en 2020, en reprenant le modèle de Granovetter ?",
+      "choix": [
+        "Que les seuils individuels ne varient jamais d'une personne à l'autre dans un même groupe",
+        "Qu'une action collective peut échouer malgré un fort intérêt du groupe, par sensibilité des cascades",
+        "Que le modèle de seuils proposé en 1978 ne s'applique qu'aux émeutes, jamais à d'autres comportements collectifs",
+        "Que les foules réelles n'ont jamais le moindre trou dans leur distribution de seuils individuels"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Ils montrent qu'une action collective peut échouer malgré un intérêt fort du groupe, les cascades étant très sensibles aux petites perturbations."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
