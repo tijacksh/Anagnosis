@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-17T22:14:11.106Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-17T22:14:11.106Z",
+        "note": "Sources rouvertes indépendamment : NASA Earth Observatory (World of Change: Shrinking Aral Sea) confirme détournement soviétique années 1960 pour le coton, statut de 4e plus grand lac, rupture de la liaison sud en 2001, recul 2005-2009, disparition du lobe oriental en 2014. Wikipedia (en) Aral Sea confirme superficie 68000 km² (1960) et 17160 km² (2004), baisse de volume 80% (1960-1998), salinité ~10 g/L puis ~30 g/L, rythme de baisse 20cm/an (1960s) puis 50-60cm/an (1970s, conforme au 'presque triplé'), Ouzbékistan 1er exportateur de coton en 1988, barrage de Kok-Aral (2005, 13km, +12m entre 2003-2008), et prélèvements 20-60 km³/an dès 1960. Carte et quiz conformes au texte. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-17",

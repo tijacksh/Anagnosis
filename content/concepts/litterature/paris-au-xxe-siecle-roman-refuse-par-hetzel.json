@@ -12,8 +12,8 @@
   "citation": null,
   "repere": {
     "texte": "Écrit en 1860 et proposé à Hetzel, qui le refuse en 1863, le manuscrit de Paris au XXe siècle n'est retrouvé qu'en 1989, dans un coffre-fort de la maison familiale de Toulon, et publié pour la première fois en 1994 — cent trente et un ans après son refus.",
-    "source": "Bibliothèque nationale de France, notice bibliographique",
-    "url": "https://data.bnf.fr/fr/ark:/12148/cb18001389x"
+    "source": "Wikipédia (fr), « Paris au XXe siècle »",
+    "url": "https://fr.wikipedia.org/wiki/Paris_au_XXe_si%C3%A8cle"
   },
   "carte": {
     "punch": "Verne a écrit un roman si sombre que son éditeur l'a enterré 131 ans.",
@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Hetzel estime qu'on ne croira pas aux prophéties d'un texte si sombre ; il redoute que cela nuise à la réputation d'auteur optimiste qu'il bâtit pour Verne.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -92,7 +92,7 @@
       "explication": "Verne y décrit un monde où « tout le monde s'enrichit, excepté l'esprit humain » : Hugo et Balzac sont oubliés, et le recueil de poèmes du héros est refusé par tous les éditeurs."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-17",
@@ -105,6 +105,20 @@
     "empreinte": "e40901f773e57794",
     "notes": [
       "Sources rouvertes : data.bnf.fr (notice peu exploitable en l'état, JS), fr.wikipedia et en.wikipedia confirment la chronologie (rédaction 1860, refus de Hetzel en 1863 avec la citation exacte, découverte du manuscrit en 1989 par Jean Verne à Toulon, publication 1994 chez Hachette/Le Cherche midi, édition Gondolo della Riva, illustrations Schuiten, 216 p., traduction anglaise 1996 par Richard Howard) et la citation « Tout le monde s'enrichit, excepté l'esprit humain ». Corrigé : le corps attribuait cette citation à « la page 178 du manuscrit », alors que fr.wikipedia situe cette page dans l'édition France Loisirs de mai 1995, pas dans le manuscrit original — retiré la précision de page erronée, gardé la citation."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-17T22:16:26.230Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-17T22:16:26.230Z",
+        "note": "Sources rouvertes indépendamment : fr.wikipedia et en.wikipedia confirment toute la chronologie du corps (rédaction 1860, refus de Hetzel en 1863 avec citation vérifiée 'on ne croira pas aujourd'hui à vos prophéties', conseil d'attendre 20 ans, découverte du manuscrit en 1989 par Jean Verne à Toulon, publication 1994 Hachette/Le Cherche midi, édition Gondolo della Riva, illustrations Schuiten, 216p, traduction anglaise Richard Howard 1996) et le contenu du roman (métro à air comprimé, voitures à hydrogène, guerre jugée inconcevable, oubli de Hugo et Balzac) ainsi que la citation exacte 'Tout le monde s'enrichit, excepté l'esprit humain'. PROBLÈME TROUVÉ ET CORRIGÉ DANS LE TEXTE : le repere citait data.bnf.fr comme source des dates (1860/1863/1989/1994/131 ans), mais cette notice, rouverte deux fois, n'affiche aucune de ces informations (page essentiellement en JS, inexploitable telle que récupérée) — elle ne prouve donc pas ce qu'on lui faisait dire. J'ai changé source et url du repere pour fr.wikipedia, qui soutient réellement mot pour mot cette chronologie ; data.bnf.fr reste dans sources[] uniquement comme confirmation de l'identifiant de l'oeuvre, ce que sa note dit déjà honnêtement. Cette correction touche le texte (empreinte modifiée) : elle repasse donc par un contrôle indépendant avant d'être validée, conformément au garde-fou de la routine."
+      }
     ]
   }
 }

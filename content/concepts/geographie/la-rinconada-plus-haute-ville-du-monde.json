@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-17T22:14:07.951Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-17T22:14:07.951Z",
+        "note": "Sources rouvertes indépendamment : PMC7373800 (Hancco et al. 2020) confirme échantillon 1594 (janv.2016-juil.2017), seuil international 44,1% (hématocrite ≥63%H/≥57%F), seuil recalculé 13,4% (≥72%H/≥68%F), seuils internationaux calibrés sur populations à 4000m (Vasquez/Villena, Bolivie) et 4300m (Monge, Cerro de Pasco), mal chronique des montagnes ~14%, et le résultat clé (érythrocytose excessive = moins de symptômes, dissociation confirmée). Wikipedia La_Rinconada,_Peru confirme altitude 4900-5100m, origine campement minier, absence d'eau/égouts, électricité arrivée dans les années 2000. Carte et quiz conformes au texte. Rien à corriger, la correction du contrôle précédent est exacte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-17",
