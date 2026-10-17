@@ -105,14 +105,14 @@
     ],
     "bonne_reponse": 2,
     "explication": "La théorie reposait sur une période humide. Quand le cycle sec est revenu dans les années 1890, la pluie a baissé alors que les cultures avançaient encore : la cause supposée n'expliquait plus rien. Les chemins de fer avaient intérêt à la soutenir tant qu'ils vendaient des terres, mais ce n'est pas ce qui l'a ruinée ; Powell défendait l'aridité sans contester la hausse observée ; et celle-ci était réelle, c'est son interprétation qui ne tenait pas.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-16T10:16:51.337Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-17T07:18:53.295Z",
     "historique": [
       {
         "action": "retoucher",
@@ -121,6 +121,14 @@
         "par": "routine-relecture",
         "le": "2026-10-16T10:16:51.337Z",
         "note": "Citation vérifiée mot pour mot (archive.org, Wilber 1881, p.143 : « 3. The relation here stated is that of cause and effect. Inother [sic] words, rain follows the plow. »). Powell 1879 (Gutenberg) confirmé en intégralité : 20 pouces, 100e méridien, concessions de 160 acres. Wikipedia (Rain follows the plow, Report on the Lands...) corrobore le cycle sec des années 1890 et la lecture corrélation/causalité. Doute non levé : la phrase « Powell témoigne devant le Congrès en 1890, cartes à l'appui » repose sur teachingamericanhistory.org (seule source citée pour ce point), inaccessible dans cette session (résolution DNS bloquée) ; la biographie Wikipedia de Powell, qui détaille ses auditions de 1874 et 1886 et l'historique du Irrigation Survey de 1888-1890, ne mentionne aucun témoignage de 1890 avec cartes. À lever en rouvrant teachingamericanhistory.org (ou une autre source) depuis une session où le domaine est accessible ; à défaut, retirer la phrase."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-17T07:18:53.295Z",
+        "note": "Point du contrôle déjà traité par /controler lui-même (verdict corrige) : témoignage de Powell du 17 janvier 1890 reconfirmé ici en rouvrant Smithsonian Magazine (Select Committee on Irrigation and Reclamation of Arid Lands, carte Arid Region of the United States par bassins versants, réalisée par l'USGS). Revérification indépendante complète du reste : citation de Wilber 1881 retrouvée mot pour mot dans le texte OCR intégral d'archive.org, page 143 (« The relation here stated is that of cause and effect. In other words, rain follows the plow. », coquille OCR 'Inother' corrigée) ; rapport Powell 1879 (Gutenberg, texte intégral) confirme les 20 pouces, le 100e méridien et les concessions de 160 acres ; Wikipedia 'Rain follows the plow' confirme les mécanismes avancés (labour, arbres, fumée, rails, vibrations/dynamite) et la conclusion sur les fluctuations climatiques brèves. Rien à corriger de plus."
       }
     ]
   },

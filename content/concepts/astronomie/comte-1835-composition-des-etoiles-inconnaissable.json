@@ -94,7 +94,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Pour Comte, seule la vue relie l'observateur aux astres : ce qui se ramène à des observations visuelles est accessible, le reste est exclu. Il n'invoque ni la faiblesse de la lumière, ni un désintérêt de l'astronomie, ni la température. L'erreur portait sur ce que la lumière contient, pas sur la logique.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -131,11 +131,11 @@
       "explication": "Comte prévoit trois cas : accessible, radicalement inabordable, ou incertain, auquel cas il faut suspendre son jugement. La chimie des astres, elle, a été rangée sans réserve dans le deuxième."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-15T22:16:14.793Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-17T07:16:28.970Z",
     "historique": [
       {
         "action": "retoucher",
@@ -144,6 +144,14 @@
         "par": "routine-relecture",
         "le": "2026-10-15T22:16:14.793Z",
         "note": "Toutes les sources rouvertes et vérifiées (Gutenberg en texte intégral pour la citation de Comte, confirmée mot pour mot ; Huggins & Miller 1864 confirmé par recherches croisées sur 9/16 éléments coïncidents pour Aldebaran, dont sodium/magnésium/hydrogène/calcium/fer, et absence de raie d'hydrogène chez Bételgeuse). Une erreur factuelle trouvée et corrigée dans le texte : la date d'annonce du césium par Kirchhoff et Bunsen à l'Académie de Berlin était donnée comme le 3 mai 1860, alors que plusieurs sources indépendantes et concordantes (APS News, portail de l'université polytechnique de Silésie, rapport Hobiger/Geologische Bundesanstalt) situent cette annonce le 10 mai 1860. Corrigé dans contenu_vulgarise et dans la note de la source Heidelberg. Comme ce correctif touche au texte, l'empreinte a changé : je la signale en_retouche plutôt que valide pour qu'un contrôle indépendant revérifie le reste avant mise en circulation — aucun autre doute de fond, la fiche est par ailleurs solide."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-17T07:16:28.970Z",
+        "note": "Contrôle du 2026-10-17 verdict 'ok', rien à corriger. Revérification indépendante faite ici : texte intégral Gutenberg rouvert (pg31882-images.html) et citation confirmée mot pour mot, ainsi que le critère des observations visuelles et la précaution sur les bornes de la connaissance. DOI Huggins & Miller 1864 résolu vers royalsocietypublishing.org avec le titre exact 'On the spectra of some of the fixed stars' (accès à la page elle-même bloqué par la politique réseau, comme pour d'autres sources de ce lot). Date du 10 mai 1860 pour le césium, citation, repère (nul), carte et quiz revérifiés, rien à changer."
       }
     ]
   },
