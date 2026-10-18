@@ -56,14 +56,14 @@
     ],
     "bonne_reponse": 3,
     "explication": "Chez le singe entraîné, la dopamine suit l'écart avec la prédiction : salve si c'est mieux que prévu, rien si c'est conforme, baisse si c'est moins bien. Une salve plus forte signalerait une bonne surprise, et une activité inchangée correspondrait à un jus arrivé comme prévu, pas à un jus qui manque. L'enregistrement de 1997 montre une baisse précisément à l'heure où le jus aurait dû arriver.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-18T10:18:48.278Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-18T16:05:08.514Z",
     "historique": [
       {
         "action": "retoucher",
@@ -72,6 +72,14 @@
         "par": "routine-relecture",
         "le": "2026-10-18T10:18:48.278Z",
         "note": "Les deux sources de la fiche étaient inaccessibles depuis cette session malgré plusieurs tentatives : Schultz, Dayan & Montague 1997 (science.org/doi/10.1126/science.275.5306.1593) a renvoyé une erreur 403 (paywall) ; Berridge & Robinson 1998 (Elsevier, doi.org/10.1016/S0165-0173(98)00019-8, et son résumé sur PubMed) a été refusé par la politique réseau. Je n'ai donc pas pu rouvrir le texte intégral ni même le résumé pour vérifier moi-même les chiffres précis que la fiche leur attribue (réponse chez 55 à 80% des neurones à dopamine, absence d'effet des souffles d'air et de la saline, dépression de l'activité à plus d'une seconde, référence à Sutton et Barto, déplétion à 99% chez le rat, distinction vouloir/aimer). Doute non levé : à revérifier depuis un accès qui atteint science.org et Elsevier/PubMed."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-18T16:05:08.514Z",
+        "note": "Sources rouvertes : Schultz, Dayan & Montague 1997 (PDF intégral de Science 275:1593, texte relu : 55 à 80 % des neurones, réponses homogènes, pomme et jus non distingués, souffles d'air et eau salée sans effet, singe naïf et levier, plusieurs jours d'entraînement, dépression plus d'une seconde après le stimulus conditionné lors d'une erreur de geste du singe, Sutton et Barto début des années 1980, blocage, autostimulation préférée à la nourriture, drogues prolongeant l'action de la dopamine, reward concept opérationnel, VTA et substance noire, Fribourg, aucune mention du plaisir) et Berridge & Robinson 1998 (résumé Europe PMC : déplétion jusqu'à 99 % dans accumbens et néostriatum, réactions de goût normales saccharose/quinine, apprentissage hédonique normal, wanting sans liking). Aucun écart trouvé ; texte inchangé, quiz vérifié (bonne réponse conforme à la figure 1, distracteurs contredits par elle). Texte intégral de Berridge non consulté, la fiche ne lui attribue que ce que dit le résumé."
       }
     ]
   },
