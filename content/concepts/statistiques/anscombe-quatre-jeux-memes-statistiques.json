@@ -81,5 +81,13 @@
     "genere_le": "2026-10-18",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-18",
+    "verdict": "ok",
+    "empreinte": "9e9ca9cdf7fa9e67",
+    "notes": [
+      "Contrôle (fiche jamais contrôlée). Sources rouvertes : DOI (redirige vers tandfonline, confirmé par ailleurs via Wikipédia et recherche croisée que l'article est bien Anscombe, « Graphs in Statistical Analysis », The American Statistician, vol. 27, n° 1, p. 17-21, 1973) ; stat.ethz.ch inaccessible (DNS bloqué ce réseau), recoupé par Wikipédia (en) et le code R du paquet datasets. Statistiques communes vérifiées : moyenne x=9, variance x=11, moyenne y=7,50, variance y=4,125 (fiche : « environ 4,12 », cohérent), corrélation 0,816, droite y=3+0,5x, R²≈0,67. Formes des quatre séries confirmées (nuage, courbe non linéaire, point aberrant, point à fort levier x=19). Recalcul indépendant de la série III sans le point aberrant (13 ; 12,74) : r=0,999997 (arrondi 0,99999), pente 0,3454 (arrondi 0,345), ordonnée 4,006 (arrondi 4,01) — les deux chiffres de la fiche sont exacts au recalcul. Carte, repère et quiz conformes aux sources. Rien à corriger."
+    ]
   }
 }
