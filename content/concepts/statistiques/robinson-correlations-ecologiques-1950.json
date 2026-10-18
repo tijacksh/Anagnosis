@@ -1,0 +1,86 @@
+{
+  "id": "sta-robinson-correlations-ecologiques-1950",
+  "slug": "robinson-correlations-ecologiques-1950",
+  "titre": "Nés à l'étranger et illettrisme : +0,118 entre personnes, −0,526 entre États",
+  "accroche": "Recensement de 1930 : les États comptant plus de nés à l'étranger ont moins d'illettrés, alors que ces personnes le sont plus souvent. Robinson explique.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Recensement américain de 1930, population de dix ans et plus : environ 97 millions de personnes, dont 3,9 millions ne savent ni lire ni écrire. Parmi les 13,2 millions de nés à l'étranger, 9,9 % sont illettrés ; parmi les 84,1 millions de nés aux États-Unis, 3,1 %. Au niveau des personnes, être né à l'étranger va avec l'illettrisme : la corrélation vaut +0,118.\n\nRefaisons le calcul État par État, sur les 48 États de l'époque : le pourcentage de nés à l'étranger contre le pourcentage d'illettrés. La corrélation devient −0,526. Les États qui comptent proportionnellement plus de nés à l'étranger tendent à compter moins d'illettrés. En regroupant les États en neuf grandes divisions du recensement, elle atteint −0,619.\n\n## Une pratique visée, pas un cas\n\nEn 1950, le sociologue William S. Robinson publie ces chiffres dans l'*American Sociological Review*. Il ne cherche pas à étudier l'immigration. Il vise une habitude : de nombreuses études, de la tuberculose au vote à Chicago, calculaient des « corrélations écologiques », entre des pourcentages de territoires, faute de données sur les personnes. Leur but était pourtant de comprendre le comportement d'individus. Robinson note que la substitution se faisait tacitement.\n\n## Pourquoi les deux nombres divergent\n\nLe pourcentage d'un territoire est un total marginal : combien de nés à l'étranger, combien d'illettrés, sur combien d'habitants. Il ne dit rien de la façon dont ces deux propriétés se croisent chez les mêmes personnes, et c'est ce croisement qui fixe la corrélation individuelle. Or un tableau à quatre cases n'est pas déterminé par ses totaux : des croisements très différents donnent les mêmes marges. À une même corrélation entre territoires peuvent donc correspondre de nombreuses corrélations entre personnes.\n\nRobinson établit aussi la relation exacte entre les deux. La corrélation écologique dépasse en général l'individuelle en valeur absolue, et elle grossit quand on regroupe les territoires : −0,526 pour les États, −0,619 pour les divisions.\n\n## Ce que le résultat déplace\n\nUne corrélation entre territoires n'est pas une version floue de la corrélation entre personnes : elle peut en avoir le signe contraire. Robinson en tire la conclusion la plus nette de l'article : les corrélations écologiques ne peuvent pas servir de substituts à celles des individus. Il reconnaît que cela jette un doute sur plusieurs études importantes de son temps.\n\nLa prudence ne vaut pas que dans un sens. En 2009, Subramanian et ses collègues rouvrent ces données et rappellent que raisonner uniquement sur des individus a aussi ses pièges. Reste que chaque carte de pourcentages par département ou par région est, au sens de Robinson, une corrélation écologique en puissance.",
+  "citation": {
+    "texte": "The relation between ecological and individual correlations which is discussed in this paper provides a definite answer as to whether ecological correlations can validly be used as substitutes for individual correlations. They cannot.",
+    "auteur": "W. S. Robinson",
+    "source": "« Ecological Correlations and the Behavior of Individuals », American Sociological Review, vol. 15, p. 357, 1950",
+    "url": "https://www.stats.uwo.ca/faculty/aim/2015/9938/articles/Robinson1950AmericanSociologicalReview.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Entre personnes, +0,118. Entre États, −0,526. Mêmes données.",
+    "idee": "Recensement de 1930 : individuellement, les nés à l'étranger sont plus souvent illettrés (9,9 % contre 3,1 %). Mais les États comptant plus d'immigrés comptent moins d'illettrés. Robinson (1950) : une corrélation entre territoires ne dit rien de fiable sur les personnes.",
+    "source_courte": "Robinson, American Sociological Review, 1950"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Robinson, W. S.",
+      "titre": "Ecological Correlations and the Behavior of Individuals",
+      "publication": "American Sociological Review, vol. 15, n° 3, p. 351-357",
+      "annee": 1950,
+      "url": "https://www.stats.uwo.ca/faculty/aim/2015/9938/articles/Robinson1950AmericanSociologicalReview.pdf",
+      "note": "Article original en fac-similé : table 3 (nativité et illettrisme, 1930), corrélations de +0,118, −0,526 et −0,619, conclusion."
+    },
+    {
+      "type": "revue",
+      "auteur": "Robinson, W. S.",
+      "titre": "Ecological Correlations and the Behavior of Individuals (réédition commentée)",
+      "publication": "International Journal of Epidemiology, vol. 38, n° 2, p. 337-341",
+      "annee": 2009,
+      "url": "https://doi.org/10.1093/ije/dyn357",
+      "note": "Réédition de l'article de 1950 dans la rubrique « Reprints and Reflections » : référence et pagination."
+    },
+    {
+      "type": "revue",
+      "auteur": "Subramanian, S. V. et al.",
+      "titre": "Revisiting Robinson: the perils of individualistic and ecologic fallacy",
+      "publication": "International Journal of Epidemiology, vol. 38, n° 2",
+      "annee": 2009,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663721/",
+      "note": "Réanalyse des données de Robinson, qui rappelle que le raisonnement purement individuel a aussi ses pièges."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Subramanian et al. (2009) — Revisiting Robinson",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663721/",
+      "note": "Une relecture moderne de l'article de 1950, avec les données du recensement de 1930."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « agrégation ». Deux grands rectangles côte à côte : à gauche, un nuage de petits points dispersés où une fine droite monte ; à droite, quelques gros disques, résultat du regroupement des mêmes points, alignés selon une droite qui descend. Aplats pleins uniquement, aucun dégradé, aucune inscription. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Un nuage de petits points dont la tendance monte, et à côté quelques gros disques regroupés dont la tendance descend",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi la corrélation calculée sur les 48 États peut-elle avoir le signe opposé à celle calculée sur les personnes ?",
+    "choix": [
+      "Parce que les pourcentages par État ne retiennent que les totaux, qui ne fixent pas comment les deux propriétés se croisent chez les mêmes personnes",
+      "Parce qu'avec seulement 48 observations, une corrélation calculée sur des États est trop instable pour avoir un sens",
+      "Parce que les nés à l'étranger étaient en réalité moins souvent illettrés que les nés aux États-Unis",
+      "Parce que les recensements par État étaient moins fiables que le recensement des personnes pris dans son ensemble"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le pourcentage d'un État résume des totaux marginaux ; or un tableau à quatre cases n'est pas fixé par ses marges, donc la corrélation entre personnes peut être très différente. Le nombre d'États n'est pas en cause, ni la fiabilité du recensement, et les immigrés étaient bien plus souvent illettrés (9,9 % contre 3,1 %), c'est justement ce que mesure le +0,118.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-18",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

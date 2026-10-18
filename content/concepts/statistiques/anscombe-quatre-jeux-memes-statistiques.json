@@ -1,0 +1,85 @@
+{
+  "id": "sta-anscombe-quatre-jeux-memes-statistiques",
+  "slug": "anscombe-quatre-jeux-memes-statistiques",
+  "titre": "Quatre jeux de onze points, les mêmes statistiques et quatre formes",
+  "accroche": "Même moyenne, même variance, même corrélation de 0,816, même droite de régression. Dessinés, les quatre jeux de données d'Anscombe n'ont rien en commun.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Quatre séries de onze points, chacune avec une valeur x et une valeur y. Calculez les chiffres usuels de chacune. La moyenne des x vaut 9, leur variance 11. La moyenne des y vaut 7,50, leur variance environ 4,12. La corrélation entre x et y vaut 0,816. La droite de régression par les moindres carrés est y = 3 + 0,5 x, et elle explique à peu près les deux tiers de la variation des y (R² voisin de 0,67). Ces chiffres sont les mêmes, aux arrondis près, pour les quatre séries.\n\nLe statisticien Francis J. Anscombe les publie en 1973 dans *The American Statistician*, sous le titre « Graphs in Statistical Analysis ». Le titre dit déjà le propos.\n\n## Ce que les chiffres ne disent pas\n\nIl suffit de dessiner les points. Chaque série raconte alors une histoire différente, et chacune met en défaut une habitude de lecture des chiffres.\n\nLa première série est un nuage ordinaire autour de la droite : le résumé lui convient. Dans la deuxième, les points dessinent une courbe régulière : la droite n'a aucun sens, et la corrélation décrit mal une relation qui n'est pas linéaire. Dans la troisième, dix points sont presque alignés sur une autre droite, et un seul s'en écarte ; sans lui, la corrélation vaut 0,99999 et la droite devient y = 4,01 + 0,345 x. Dans la quatrième, dix des onze points ont la même valeur de x, 8, et ne montrent aucune relation ; le onzième, isolé à x = 19, produit à lui seul la corrélation et la pente.\n\nLes trois dernières séries illustrent trois défauts distincts : une forme non linéaire, une valeur aberrante, un point à fort effet de levier. Aucun des résumés numériques ne signale lequel est à l'œuvre, ni même qu'un défaut existe. Un logiciel qui rend la droite et la corrélation les rend sans broncher dans les quatre cas.\n\n## Déplacement\n\nLes calculs ne se trompent pas : ils répondent exactement à la question posée, « quelle droite ajuste au mieux ces points ? », et cette question n'a pas de réponse sensée quand les points n'obéissent pas à une droite. Le graphique n'est pas un complément illustratif au calcul : c'est lui qui permet de savoir si le calcul avait un sens.\n\nLes quatre séries tiennent en 44 points, de quoi les recopier à la main. Quel autre résumé aurait pu les distinguer sans les dessiner ?",
+  "citation": null,
+  "repere": {
+    "texte": "Dans la série IV d'Anscombe, dix des onze points ont la même valeur x = 8 ; le onzième est à x = 19. Les quatre séries ont pourtant toutes pour moyenne x = 9, pour corrélation 0,816 et pour droite y = 3 + 0,5 x.",
+    "source": "Anscombe, jeux de données reproduits par l'ETH Zurich (anscombe.dat), vérifiés par recalcul",
+    "url": "https://stat.ethz.ch/Teaching/Datasets/anscombe.dat"
+  },
+  "carte": {
+    "punch": "Quatre jeux de données, une même droite, quatre formes différentes.",
+    "idee": "Anscombe (1973) : quatre séries de onze points ont la même moyenne, la même variance, la même corrélation (0,816) et la même droite de régression. Tracées, l'une est un nuage, l'autre une courbe, la troisième a un point aberrant, la dernière un point unique qui fait tout.",
+    "source_courte": "Anscombe, The American Statistician, 1973"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Anscombe, F. J.",
+      "titre": "Graphs in Statistical Analysis",
+      "publication": "The American Statistician, vol. 27, n° 1, p. 17-21",
+      "annee": 1973,
+      "url": "https://doi.org/10.1080/00031305.1973.10478966",
+      "note": "Article d'origine des quatre jeux de données ; référence confirmée par la documentation de R et par les données de l'ETH Zurich."
+    },
+    {
+      "type": "institution",
+      "auteur": "ETH Zurich, Seminar für Statistik",
+      "titre": "Anscombe's quartet — anscombe.dat",
+      "publication": "Jeux de données d'enseignement",
+      "annee": null,
+      "url": "https://stat.ethz.ch/Teaching/Datasets/anscombe.dat",
+      "note": "Les valeurs des quatre séries, recalculées pour cette fiche : moyennes 9 et 7,50, variances 11 et 4,12, corrélation 0,816, droite y = 3 + 0,5 x."
+    },
+    {
+      "type": "institution",
+      "auteur": "R Core Team",
+      "titre": "anscombe : Anscombe's Quartet of \"Identical\" Simple Linear Regressions",
+      "publication": "Documentation du paquet datasets de R",
+      "annee": null,
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/anscombe.html",
+      "note": "Description des quatre jeux et référence à l'article d'Anscombe de 1973."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Jeux de données d'Anscombe — anscombe.dat (ETH Zurich)",
+      "url": "https://stat.ethz.ch/Teaching/Datasets/anscombe.dat",
+      "note": "Les valeurs des quatre séries, pour refaire soi-même les calculs et les graphiques."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « répétition et écart ». Quatre petits cadres identiques disposés en carré ; dans chacun, une même droite oblique traverse un ensemble de points différent : un nuage, une courbe en arc, une ligne de points avec un point isolé au-dessus, une colonne de points avec un point isolé à droite. Aplats pleins uniquement, aucun dégradé, aucune inscription. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Quatre cadres identiques traversés par la même droite oblique, chacun avec une disposition de points différente",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que montrent les quatre séries d'Anscombe sur les résumés numériques usuels (moyenne, variance, corrélation, droite) ?",
+    "choix": [
+      "Que la corrélation est inutile dès qu'une série comporte moins de cent points",
+      "Que ces résumés peuvent être identiques pour des données de forme très différente, ce que seul un graphique révèle",
+      "Que la droite de régression par les moindres carrés ne peut pas être calculée quand une valeur est aberrante",
+      "Que les quatre séries proviennent de quatre phénomènes qui obéissent à la même loi linéaire"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les quatre séries ont les mêmes moyennes, variances, corrélation et droite, mais des formes différentes : nuage, courbe, point aberrant, point à fort effet de levier. Le nombre de points (onze) n'est pas en cause, la droite se calcule toujours, et ces séries ne décrivent pas un même phénomène linéaire : seule leur apparence numérique est commune.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-18",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

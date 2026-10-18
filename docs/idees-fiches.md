@@ -408,7 +408,7 @@ peut rouvrir directement le texte du décret.)*
 | Psychologie | Les mères de substitution de Harlow (1958) : le contact plutôt que le lait | fait | routine-production-arnaud | 2026-10-18 |
 | Psychologie | Ebbinghaus (1885) : la courbe de l'oubli, et sa réplication par Murre & Dros (2015) | fait | routine-production-arnaud | 2026-10-18 |
 | Psychologie | L'effet Stroop (1935) : l'interférence entre lire un mot et nommer sa couleur, et ce que la revue de MacLeod (1991) en retient | fait | routine-production-arnaud | 2026-10-18 |
-| Statistiques | Galton, « Vox populi » (Nature, 7 mars 1907) : 787 estimations du poids d'un bœuf à Plymouth, une médiane à 1207 lb, une moyenne dite « exacte » et des chiffres imprimés décalés d'une livre (Wallis 2014) | en cours | routine-production-arnaud | 2026-10-18 |
-| Statistiques | Robinson (1950) : corrélations écologiques et comportement des individus, 0,118 pour les personnes, −0,526 pour les 48 États, −0,619 pour les 9 divisions (recensement de 1930) | en cours | routine-production-arnaud | 2026-10-18 |
-| Statistiques | Daniels (1952), « The "Average Man"? » : 4 063 militaires navigants, dix mensurations, personne dans la moyenne sur les dix | en cours | routine-production-arnaud | 2026-10-18 |
-| Statistiques | Anscombe (1973), « Graphs in Statistical Analysis » : quatre jeux de onze points aux mêmes statistiques, quatre formes différentes | en cours | routine-production-arnaud | 2026-10-18 |
+| Statistiques | Galton, « Vox populi » (Nature, 7 mars 1907) : 787 estimations du poids d'un bœuf à Plymouth, une médiane à 1207 lb, une moyenne dite « exacte » et des chiffres imprimés décalés d'une livre (Wallis 2014) | fait | routine-production-arnaud | 2026-10-18 |
+| Statistiques | Robinson (1950) : corrélations écologiques et comportement des individus, 0,118 pour les personnes, −0,526 pour les 48 États, −0,619 pour les 9 divisions (recensement de 1930) | fait | routine-production-arnaud | 2026-10-18 |
+| Statistiques | Daniels (1952), « The "Average Man"? » : 4 063 militaires navigants, dix mensurations, personne dans la moyenne sur les dix | fait | routine-production-arnaud | 2026-10-18 |
+| Statistiques | Anscombe (1973), « Graphs in Statistical Analysis » : quatre jeux de onze points aux mêmes statistiques, quatre formes différentes | fait | routine-production-arnaud | 2026-10-18 |

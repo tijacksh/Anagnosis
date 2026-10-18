@@ -1,0 +1,77 @@
+{
+  "id": "sta-galton-vox-populi-boeuf-plymouth",
+  "slug": "galton-vox-populi-boeuf-plymouth",
+  "titre": "Le bœuf de Plymouth : ce que Galton a écrit en 1907, et ce qu'il a mal imprimé",
+  "accroche": "En 1907, 787 visiteurs d'un concours estiment le poids d'un bœuf. Galton publie la médiane ; c'est la moyenne, ajoutée après coup, qui tombe juste.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En mars 1907, à Plymouth, une exposition de bétail, la West of England Fat Stock and Poultry Exhibition, propose un jeu : deviner le poids qu'aura un bœuf gras une fois abattu et apprêté. Pour six pence, on achète une carte numérotée où l'on inscrit son nom, son adresse et son estimation ; les meilleures estimations gagnent des prix. Francis Galton, quatre-vingt-cinq ans, obtient de consulter les cartes après le concours. Environ 800 ont été émises. Il en écarte treize, défectueuses ou illisibles, et range les 787 autres par ordre croissant.\n\n## Une médiane choisie au nom du vote\n\nGalton n'écrit pas pour célébrer les foules. Sa question est celle de la fiabilité du jugement populaire, « en ces temps démocratiques ». Il retient comme résumé la valeur du milieu, la médiane : selon le principe « une voix, une valeur », toute autre estimation serait jugée trop basse ou trop haute par une majorité de votants. Il l'appelle la vox populi.\n\nDans *Nature* du 7 mars, il donne : médiane 1 207 livres, poids apprêté 1 198 livres, soit 9 livres d'écart, 0,8 % du poids. Sa conclusion est prudente : ce résultat fait plus d'honneur au jugement démocratique qu'on n'aurait pu l'attendre. Il précise que les participants comptaient des bouchers et des fermiers, dont certains très compétents. Ce n'est pas une foule d'ignorants.\n\n## La moyenne arrive deux semaines plus tard\n\nLe 21 mars, un lecteur de la revue, R. H. Hooker, regrette que Galton n'ait pas donné la moyenne arithmétique. D'après le tableau publié, elle serait d'environ 1 196 livres, plus proche du poids que la médiane. Galton répond le 28 mars : la moyenne exacte des 787 cartes est de 1 197 livres. C'est ce chiffre que James Surowiecki mettra en 2004 à l'ouverture de *The Wisdom of Crowds* pour conclure à un jugement collectif quasi parfait.\n\n## Des chiffres décalés d'une livre\n\nEn 2014, l'économiste Kenneth Wallis rouvre les archives de Galton, à l'University College de Londres. Dans la liste ordonnée, la 394e estimation, la médiane de 787 valeurs, vaut 1 208 livres et non 1 207. L'organisateur du concours avait communiqué le poids apprêté : 10 cwt 2 qr 21 lb, soit 1 197 livres et non 1 198. Le brouillon de Galton donne bien une médiane de 1 208 et un écart de 11 livres ; en voulant corriger la transcription du poids, il a modifié le mauvais chiffre. Les trois nombres imprimés sont cohérents entre eux, et faux tous les trois. Galton les reprend dans ses *Memories of My Life* (1908).\n\nAvec le poids correct, la moyenne des 787 estimations ne s'écarte pas du poids. La médiane, le résumé qu'il avait choisi au nom du vote, s'en écarte de 11 livres.\n\n## Ce que la « sagesse des foules » doit à ce concours\n\nCe récit repose donc sur un concours à prix, fréquenté par des connaisseurs, dont le résultat le plus frappant n'est pas celui que l'auteur avait choisi de publier, et dont les nombres imprimés contenaient une erreur. La leçon statistique tient pourtant, en première approximation : des estimations qui ne se trompent pas toutes dans le même sens se compensent en partie quand on les moyenne. Dans ce seul concours, le principe de vote de Galton a donné le moins bon des deux résumés.\n\nGalton demandait d'ailleurs aux organisateurs de conserver les cartes de leurs concours, pour les prêter, sous conditions, à la statistique. Wallis a refait le calcul à partir de ses archives cent sept ans plus tard.",
+  "citation": {
+    "texte": "This result is, I think, more creditable to the trustworthiness of a democratic judgment than might have been expected.",
+    "auteur": "Francis Galton",
+    "source": "« Vox populi », Nature, vol. 75, p. 450-451, 7 mars 1907",
+    "url": "https://galton.org/essays/1900-1911/galton-1907-vox-populi.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "787 inconnus devinent le poids d'un bœuf. Leur moyenne tombe à la livre près.",
+    "idee": "En 1907, Galton publie la médiane des 787 estimations d'un concours de Plymouth : 1 207 livres pour un bœuf de 1 198. Sa moyenne, donnée deux semaines plus tard à la demande d'un lecteur, est de 1 197 livres, soit le poids réel selon les archives relues en 2014.",
+    "source_courte": "Galton, Nature, 1907 ; Wallis, 2014"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Galton, Francis",
+      "titre": "Vox populi",
+      "publication": "Nature, vol. 75, p. 450-451",
+      "annee": 1907,
+      "url": "https://galton.org/essays/1900-1911/galton-1907-vox-populi.pdf",
+      "note": "Texte original en fac-similé : 787 cartes, médiane de 1 207 livres, poids apprêté de 1 198 livres, principe « une voix, une valeur »."
+    },
+    {
+      "type": "revue",
+      "auteur": "Wallis, Kenneth F.",
+      "titre": "Revisiting Francis Galton's Forecasting Competition",
+      "publication": "Statistical Science, vol. 29, n° 3, p. 420-424",
+      "annee": 2014,
+      "url": "https://doi.org/10.1214/14-STS468",
+      "note": "Relecture des archives de Galton : médiane réelle de 1 208 livres, poids de 1 197 livres, moyenne de 1 197 livres rapportée dans la réponse de Galton du 28 mars 1907 ; références des lettres de Hooker et de Galton."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wallis (2014) — Revisiting Francis Galton's Forecasting Competition (version arXiv)",
+      "url": "https://arxiv.org/abs/1410.3989",
+      "note": "Quatre pages, lisibles sans formation : la moyenne, la médiane et les erreurs de l'article de 1907."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « répétition et écart ». Une rangée dense de petits carrés de hauteurs légèrement différentes, étalés autour d'une ligne horizontale commune ; un cercle plein marque la ligne centrale, et un second cercle plus petit, presque confondu avec lui, la ligne voisine. Aplats pleins uniquement, aucun dégradé, aucune inscription. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une rangée de petits carrés de hauteurs variées autour d'une ligne centrale marquée par deux cercles presque confondus",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi Galton résume-t-il les 787 estimations par la médiane plutôt que par la moyenne ?",
+    "choix": [
+      "Parce que la moyenne de 787 cartes était impossible à calculer à la main en 1907, faute de machines",
+      "Parce que la médiane s'est révélée, une fois le bœuf pesé, plus proche du poids réel que la moyenne",
+      "Parce que, d'après son principe « une voix, une valeur », c'est la seule estimation qu'aucune majorité ne juge trop haute ou trop basse",
+      "Parce que les estimations les plus extrêmes étaient des erreurs de copie qu'il fallait écarter du calcul"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Galton rattache la médiane au principe démocratique « une voix, une valeur » : toute autre estimation est jugée trop haute ou trop basse par une majorité de votants. Ce n'est ni une question de calcul ni de précision : la moyenne, 1 197 livres, est tombée plus près du poids que la médiane, et les treize cartes écartées l'ont été parce que défectueuses ou illisibles, pas parce qu'extrêmes.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-18",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
