@@ -1,0 +1,70 @@
+{
+  "id": "psy-nombre-magique-sept-miller",
+  "slug": "nombre-magique-sept-miller",
+  "titre": "Le nombre magique sept de Miller",
+  "accroche": "Sept éléments en mémoire, « plus ou moins deux » : le chiffre vient d'un article de 1956 dont l'auteur doutait lui-même.",
+  "discipline": "psychologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Un numéro de téléphone, une liste de courses, un code : on lit partout que la mémoire immédiate retient sept éléments, « plus ou moins deux ». Le chiffre vient d'un article de George Miller, publié en 1956 dans la *Psychological Review* sous le titre « The Magical Number Seven, Plus or Minus Two ». Dans le texte lui-même, l'expression « plus ou moins deux » n'apparaît qu'une fois : dans le titre.\n\n## Le mécanisme\n\nMiller commence par dire qu'il est persécuté par un entier. Le même ordre de grandeur lui revient dans des mesures qui n'ont rien à voir entre elles. Quand on demande à quelqu'un d'identifier un son isolé, sans point de comparaison, la capacité de canal, c'est-à-dire le nombre de catégories qu'on sait distinguer, est pour la hauteur d'environ 2,5 bits d'après Pollack. Un bit sépare deux alternatives également probables, deux bits en séparent quatre : 2,5 bits font à peu près six alternatives. Pour l'intensité sonore, Garner trouve 2,3 bits. Pour la mémoire immédiate, l'empan est d'environ sept éléments, pour de nombreux matériaux différents.\n\nMais Miller sépare soigneusement les deux limites. Le jugement absolu est limité par la quantité d'information ; la mémoire immédiate est limitée par le nombre d'éléments. L'exemple qu'il donne est précis : on répète huit chiffres décimaux, mais seulement neuf chiffres binaires. Un chiffre binaire porte beaucoup moins d'information qu'un chiffre décimal, et pourtant l'empan reste du même ordre. Ce qui compte n'est donc pas l'information totale, mais le nombre de paquets, ou *chunks*, auxquels on la réduit.\n\nLe paquet se fabrique par recodage. Miller décrit une suite de chiffres binaires regroupés par deux, puis renommés (00 devient 0, 01 devient 1, 10 devient 2, 11 devient 3) : on retient moitié moins d'éléments pour la même information. Dans l'exemple qu'il rapporte, les douze paquets que retient le sujet représentent 24 chiffres binaires avec le recodage par deux, 36 avec le recodage par trois, puis environ 40 avec les recodages par quatre et par cinq. Il voit dans le recodage un moyen extrêmement puissant d'augmenter l'information que l'on peut traiter, et reconnaît qu'on est peu précis sur ce qui constitue un paquet.\n\n## Ce que ça déplace\n\nSept n'était pas, dans le texte, une constante de la nature. Miller ne tranche pas : il soupçonne que ces « sept » partout ne sont qu'une coïncidence, qu'il qualifie de pythagoricienne et de pernicieuse.\n\nEn 2001, Nelson Cowan reprend la question dans *Behavioral and Brain Sciences*. Il écrit que le nombre de Miller était plus une estimation grossière et un procédé rhétorique qu'une vraie limite de capacité, rappelle que d'autres ont proposé une limite de trois à cinq paquets, et défend, données à l'appui, une limite centrale d'environ quatre paquets. Le résumé de l'article énumère quatre conditions dans lesquelles cette limite s'observe, et distingue des limites « pures » de limites « composées » : le chiffre ne se lit pas comme « on retient quatre choses » en toute circonstance.\n\nLe chiffre qui a circulé est le plus facile à retenir, pas le mieux établi. Miller avait pourtant mis autre chose au centre, le paquet, et reconnaissait ne pas savoir le définir avec précision. Qu'est-ce qui, au juste, fait un paquet ?",
+  "citation": null,
+  "repere": {
+    "texte": "Cowan (2001) rappelle que le nombre sept de Miller était une estimation approximative et un procédé rhétorique plus qu'une véritable limite de capacité, et défend, données à l'appui, une limite d'environ quatre paquets.",
+    "source": "Cowan, « The magical number 4 in short-term memory: A reconsideration of mental storage capacity », Behavioral and Brain Sciences, 24(1), 87-114, 2001",
+    "url": "https://doi.org/10.1017/S0140525X01003922"
+  },
+  "carte": {
+    "punch": "« Sept, plus ou moins deux » : dans l'article de Miller, la formule n'est que dans le titre.",
+    "idee": "En 1956, George Miller trouve environ sept éléments dans la mémoire immédiate et se demande si ce n'est pas une coïncidence. En 2001, Nelson Cowan défend plutôt une limite d'environ quatre paquets. Ce qui compte n'est pas l'information, mais le nombre de paquets.",
+    "source_courte": "Miller 1956 · Cowan 2001"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Miller, George A.",
+      "titre": "The Magical Number Seven, Plus or Minus Two: Some Limits on our Capacity for Processing Information",
+      "publication": "Psychological Review, 63, 81-97",
+      "annee": 1956,
+      "note": "Texte intégral : « persécuté par un entier », capacité de canal de 2,5 bits pour la hauteur, empan de mémoire d'environ sept éléments, huit chiffres décimaux contre neuf binaires, recodage jusqu'à environ 40 chiffres binaires, « coïncidence pythagoricienne ».",
+      "url": "https://psychclassics.yorku.ca/Miller/"
+    },
+    {
+      "type": "article",
+      "auteur": "Cowan, Nelson",
+      "titre": "The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
+      "publication": "Behavioral and Brain Sciences, 24(1), 87-114",
+      "annee": 2001,
+      "note": "Le résumé (quatre conditions d'observation, limites « pures » et « composées ») présente le chiffre de Miller comme une estimation approximative et un procédé rhétorique, cite les propositions de trois à cinq paquets et défend une limite centrale d'environ quatre paquets.",
+      "url": "https://doi.org/10.1017/S0140525X01003922"
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : sept petits carrés orange alignés sur fond bleu nuit, dont quatre sont entourés d'un grand cercle crème épais qui les regroupe en un seul bloc. Formes géométriques nettes, sans dégradé, aucune inscription dans l'image.",
+    "alt": "Sept carrés alignés dont quatre sont regroupés dans un grand cercle",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Quel est le lien, chez Miller, entre la limite de la mémoire immédiate et la quantité d'information ?",
+    "choix": [
+      "La mémoire immédiate retient environ sept bits d'information, quel que soit le matériel",
+      "Plus un élément porte d'information, moins on en retient : l'empan baisse avec le nombre de bits par élément",
+      "La mémoire immédiate est limitée par le nombre d'éléments, que le recodage permet de rendre plus riches en information",
+      "La mémoire immédiate et le jugement absolu ont la même limite, parce que tous deux sont bornés par l'information"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Miller oppose le jugement absolu, limité par l'information, et la mémoire immédiate, limitée par le nombre d'éléments. Huit chiffres décimaux contre neuf binaires montrent que l'empan ne se mesure pas en bits et ne baisse pas quand chaque élément en porte davantage ; le recodage en paquets permet d'en retenir beaucoup plus.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-18",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
