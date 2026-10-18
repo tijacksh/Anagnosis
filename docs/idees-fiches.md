@@ -395,3 +395,7 @@ peut rouvrir directement le texte du décret.)*
 | Neurosciences | Hodgkin et Huxley (1952) : l'axone géant du calmar, des équations calculées à la main, et un modèle dont les auteurs disaient qu'il ne décrivait pas la membrane | fait | routine-production-arnaud | 2026-10-18 |
 | Neurosciences | Schultz, Dayan et Montague (1997) : la dopamine signale une erreur de prédiction, pas le plaisir ; et ce qu'en disent Berridge et Robinson (1998) | fait | routine-production-arnaud | 2026-10-18 |
 | Neurosciences | « Cluster failure » (Eklund, Nichols, Knutsson, 2016) : les faux positifs de l'IRMf, et le « 40 000 études » corrigé par les auteurs | fait | routine-production-arnaud | 2026-10-18 |
+| Paléontologie | L'élan irlandais (Megaloceros giganteus) : l'allométrie positive des bois démontrée par Gould (1973), et sa réévaluation par Tsuboi et al. (2024) | fait | routine-production-arnaud | 2026-10-18 |
+| Paléontologie | Le mégalodon et le faux documentaire de Discovery Channel (2013) ; datation de l'extinction à 3,6 Ma (Boessenecker et al., 2019) | fait | routine-production-arnaud | 2026-10-18 |
+| Paléontologie | Les yeux en calcite des trilobites schizochroaux (Clarkson & Levi-Setti, 1975) et le doute posé par les yeux de mouches fossiles (Lindgren et al., 2019) | fait | routine-production-arnaud | 2026-10-18 |
+| Paléontologie | Les tissus mous retrouvés dans un fémur de Tyrannosaurus rex (Schweitzer et al., 2005) et le collagène séquencé par Asara et al. (2007) | fait | routine-production-arnaud | 2026-10-18 |
