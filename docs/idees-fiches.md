@@ -403,3 +403,7 @@ peut rouvrir directement le texte du décret.)*
 | Philosophie | Kant, « Qu'est-ce que les Lumières ? » (1784) : l'usage public de la raison doit être libre, l'usage privé peut être borné | fait | routine-production-arnaud | 2026-10-18 |
 | Philosophie | Le tram de Philippa Foot (1967) : un essai sur l'avortement et le double effet, avant que Thomson ne baptise le « problème du trolley » | fait | routine-production-arnaud | 2026-10-18 |
 | Philosophie | « Je pense, donc je suis » n'est pas un syllogisme (Descartes, Discours IV, 1637 ; Secondes réponses, 1641) | fait | routine-production-arnaud | 2026-10-18 |
+| Psychologie | Le nombre magique sept de Miller (1956) : « sept, plus ou moins deux », et les quatre éléments de Cowan (2001) | en cours | routine-production-arnaud | 2026-10-18 |
+| Psychologie | Open Science Collaboration (2015) : 97 % de résultats significatifs à l'origine, 36 % à la réplication | en cours | routine-production-arnaud | 2026-10-18 |
+| Psychologie | Les mères de substitution de Harlow (1958) : le contact plutôt que le lait | en cours | routine-production-arnaud | 2026-10-18 |
+| Psychologie | Ebbinghaus (1885) : la courbe de l'oubli, et sa réplication par Murre & Dros (2015) | en cours | routine-production-arnaud | 2026-10-18 |
