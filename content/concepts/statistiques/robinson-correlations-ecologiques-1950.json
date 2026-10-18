@@ -76,11 +76,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-10-18",
+    "verdict": "a_revoir",
+    "empreinte": "a9d8366fa1aa5ef9",
+    "notes": [
+      "La corrélation -0,619 sur les 9 grandes divisions du recensement (corps) n'a pu être vérifiée : le site stats.uwo.ca (PDF original de Robinson) et stat.berkeley.edu sont injoignables (DNS bloqué) depuis ce réseau ; ni Wikipedia, ni PMC2663721, ni une recherche web n'en font mention — à confirmer en rouvrant l'article original ou à retirer si personne ne peut la recouper.",
+      "Te Grotenhuis et al. (2011) ont établi que le calcul original de Robinson au niveau des États contenait une erreur de données : la corrélation -0,526 citée par la fiche (reprise de Robinson 1950, confirmée par ailleurs par PMC2663721 et Wikipedia comme la valeur publiée) est en réalité -0,46 une fois corrigée. La fiche présente -0,526 comme un fait sans réserve ; à décider si une mention de cette révision s'impose, dans l'esprit de 'un effet dont la taille a été révisée depuis'.",
+      "Citation de Robinson non vérifiable mot pour mot cette session (PDF original inaccessible, page OUP payante) : PMC2663721 cite une autre phrase de la même page 357 ('prevents the future computation of meaningless correlations'), ce qui est cohérent mais ne confirme pas le texte exact cité par la fiche ('They cannot.') — à revérifier en rouvrant l'édition originale."
+    ]
   }
 }
