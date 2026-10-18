@@ -154,7 +154,11 @@ def diapo_quiz(fiche, encre, sortie, reponse=False):
             d.text((MARGE + 90, yy), ligne, font=f2, fill=(couleur if reponse and bon else ENCRE))
             if reponse and not bon:                      # barrée, sans couleur : comme dans l'app
                 w = d.textlength(ligne, font=f2)
-                d.line([(MARGE + 90, yy + pas * 0.55), (MARGE + 90 + w, yy + pas * 0.55)], fill=(0x8A, 0x83, 0x75), width=3)
+                # Au milieu de la hauteur d'x, mesurée sur la fonte : la ligne de base se lit
+                # sur les métriques, pas sur un rapport de la hauteur de ligne.
+                base = yy + f2.getmetrics()[0]
+                milieu = base + f2.getbbox('x', anchor='ls')[1] / 2
+                d.line([(MARGE + 90, milieu), (MARGE + 90 + w, milieu)], fill=(0x8A, 0x83, 0x75), width=3)
         y += h + ecart
     if reponse:
         d.text((MARGE, ZONE_BAS - 50), "Dans l'app, chaque réponse est expliquée, les fausses aussi.",
