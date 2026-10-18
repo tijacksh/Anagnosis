@@ -51,6 +51,8 @@ function normaliserQuestion(texte) {
     .trim();
 }
 
+import { champsLus, TIRET_CADRATIN, EMOJI, MOTS_CREUX } from './texte-lu.js';
+
 export function validerFiche(fiche, ctx = {}) {
   const erreurs = [];
   const alertes = [];
@@ -75,6 +77,18 @@ export function validerFiche(fiche, ctx = {}) {
   if (titre.length < REGLES.titreMin) err('`titre` manquant ou trop court');
   else if (titre.length > REGLES.titreMax) err(`\`titre\` trop long (${titre.length} > ${REGLES.titreMax})`);
   if (/[.]$/.test(titre.trim())) warn('`titre` se termine par un point (ligne éditoriale §2)');
+
+  // --- Les 17 signes d'un texte produit en série (docs/criteres-vibecode.md) ------------
+  // Seul le texte lu est concerné : jamais les citations, les sources ni les notes de contrôle.
+  for (const [objet, cle] of champsLus(fiche)) {
+    const v = objet[cle];
+    const nom = Array.isArray(objet) ? `choix[${cle}]` : cle;
+    // Une citation entre « » reste verbatim : on n'y corrige pas la typographie de l'auteur.
+    if (v.replace(/«[^»]*»/g, '').includes(TIRET_CADRATIN)) err(`\`${nom}\` contient un tiret cadratin (—) : virgule, deux-points, parenthèses ou point (critère 14)`);
+    if (EMOJI.test(v)) err(`\`${nom}\` contient un emoji (critère 3)`);
+    const creux = v.match(MOTS_CREUX);
+    if (creux) warn(`\`${nom}\` : « ${creux[0]} » sonne creux (critère 8)`);
+  }
 
   const accroche = fiche.accroche ?? '';
   if (accroche.length < REGLES.accrocheMin) err('`accroche` manquante ou trop courte (texte de la notification push)');

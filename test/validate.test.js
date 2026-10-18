@@ -301,3 +301,17 @@ test('les positions de bonne réponse sont variées sur l\'ensemble du lot', asy
   const positions = new Set(fiches.map((f) => f.quiz.bonne_reponse));
   assert.ok(positions.size > 1, `toutes les bonnes réponses sont en position ${[...positions][0]}`);
 });
+
+test('un tiret cadratin dans le texte lu est une erreur, pas dans une citation', () => {
+  const avec = validerFiche(ficheValide({ accroche: 'Une accroche suffisamment longue — pour passer le seuil' }));
+  assert.ok(avec.erreurs.some((e) => e.includes('tiret cadratin')), avec.erreurs.join('|'));
+  const sans = validerFiche(ficheValide({ accroche: 'Une accroche suffisamment longue : pour passer le seuil' }));
+  assert.ok(!sans.erreurs.some((e) => e.includes('tiret cadratin')));
+});
+
+test('un emoji dans le titre est une erreur, un mot creux une alerte', () => {
+  const emoji = validerFiche(ficheValide({ titre: 'Un titre de test \u{1F680}' }));
+  assert.ok(emoji.erreurs.some((e) => e.includes('emoji')));
+  const creux = validerFiche(ficheValide({ accroche: 'Une accroche révolutionnaire et suffisamment longue' }));
+  assert.ok(creux.alertes.some((a) => a.includes('sonne creux')));
+});

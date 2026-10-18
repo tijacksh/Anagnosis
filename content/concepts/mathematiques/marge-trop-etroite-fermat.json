@@ -8,7 +8,7 @@
   "theme_ordre": null,
   "niveau": "intermediaire",
   "duree_lecture_min": 3,
-  "contenu_vulgarise": "En 1637, Pierre de Fermat, conseiller au parlement de Toulouse et mathématicien amateur passionné, lit son exemplaire personnel des *Arithmétiques* de Diophante, dans la traduction latine de Claude-Gaspard Bachet. Face au problème 8 du livre II — comment décomposer un carré en deux carrés — il griffonne une remarque en marge : il est impossible, écrit-il, de faire la même chose avec des cubes, des puissances quatrièmes, ou toute puissance supérieure à deux. Et il ajoute la phrase qui va hanter les mathématiciens pendant plus de trois siècles : il tient une démonstration merveilleuse de ce fait, mais la marge est trop étroite pour la contenir.\n\nFermat meurt en 1665 sans avoir jamais publié cette preuve, ni même la reprendre dans ses lettres aux savants qu'il fréquente. C'est son fils, Samuel de Fermat, qui republie en 1670 l'exemplaire annoté de son père, notes marginales comprises. L'énoncé prend alors le nom de « dernier théorème de Fermat » — dernier parce que c'est la dernière de ses affirmations que personne n'était encore parvenu à démontrer.\n\n## Un problème qui résiste\n\nL'énoncé se formule simplement : pour tout entier n supérieur à 2, il n'existe pas d'entiers positifs x, y, z tels que xⁿ + yⁿ = zⁿ. Pour n = 2, les solutions existent par milliers — ce sont les triplets pythagoriciens, 3² + 4² = 5² en tête. Il suffit d'ajouter un dans l'exposant pour qu'elles disparaissent toutes, sans exception, et personne pendant 358 ans ne parvient à expliquer pourquoi.\n\nLes mathématiciens avancent cas par cas. Euler démontre n = 3 en 1770 (avec une lacune comblée plus tard), Legendre et Dirichlet n = 5 en 1825, en s'appuyant sur les travaux de Sophie Germain, Gabriel Lamé n = 7 en 1839. Ernst Kummer invente en 1847 toute une théorie des « nombres idéaux » pour traiter d'un coup une large famille d'exposants premiers, sans couvrir le cas général.\n\nLa percée vient d'ailleurs. En 1984, Gerhard Frey remarque qu'une éventuelle solution au théorème de Fermat permettrait de construire une courbe elliptique aux propriétés si étranges qu'elle ne devrait, selon toute logique, pas exister — à condition qu'une autre conjecture, dite de modularité, soit vraie. Ken Ribet démontre ce lien en 1986. Il ne reste plus qu'à prouver la conjecture de modularité, au moins pour les courbes concernées : c'est le chantier auquel Andrew Wiles se consacre en secret pendant sept ans.\n\nIl annonce sa preuve le 23 juin 1993 à Cambridge, dans un silence stupéfait. Un relecteur y repère une faille trois mois plus tard. Wiles met plus d'un an à la combler, avec l'aide de son ancien élève Richard Taylor, avant de publier la version définitive en mai 1995 dans les *Annals of Mathematics* — cent vingt-neuf pages en deux articles.\n\n## Ce que la marge ne pouvait pas contenir\n\nRien, dans les outils mathématiques du XVIIe siècle, ne permettait d'établir un lien entre une équation en puissances entières et une courbe elliptique. Les formes modulaires, les représentations galoisiennes, la conjecture de modularité elle-même : tout cela appartient au XXe siècle. Si Fermat tenait une preuve, elle empruntait un tout autre chemin, aujourd'hui perdu — ou elle comportait une erreur qu'il n'a jamais repérée, lui qui a pourtant démontré et publié le cas n = 4, plus simple, sans jamais revenir sur l'énoncé général dans les trente ans de correspondance qui suivent.\n\nLa marge trop étroite n'est peut-être pas qu'une boutade sur la mise en page d'un livre. C'est un cas d'école : un mathématicien qui croit tenir une preuve, la formule en une phrase, et ne la couche jamais sur le papier ne peut plus être départagé, des siècles après, entre la vérité et l'erreur. Ce qui a fini par trancher n'est pas une lecture plus attentive de la marge, mais l'invention, longtemps après lui, d'un outillage qu'aucune marge n'aurait de toute façon pu contenir.",
+  "contenu_vulgarise": "En 1637, Pierre de Fermat, conseiller au parlement de Toulouse et mathématicien amateur passionné, lit son exemplaire personnel des *Arithmétiques* de Diophante, dans la traduction latine de Claude-Gaspard Bachet. Face au problème 8 du livre II (comment décomposer un carré en deux carrés) il griffonne une remarque en marge : il est impossible, écrit-il, de faire la même chose avec des cubes, des puissances quatrièmes, ou toute puissance supérieure à deux. Et il ajoute la phrase qui va hanter les mathématiciens pendant plus de trois siècles : il tient une démonstration merveilleuse de ce fait, mais la marge est trop étroite pour la contenir.\n\nFermat meurt en 1665 sans avoir jamais publié cette preuve, ni même la reprendre dans ses lettres aux savants qu'il fréquente. C'est son fils, Samuel de Fermat, qui republie en 1670 l'exemplaire annoté de son père, notes marginales comprises. L'énoncé prend alors le nom de « dernier théorème de Fermat » : dernier parce que c'est la dernière de ses affirmations que personne n'était encore parvenu à démontrer.\n\n## Un problème qui résiste\n\nL'énoncé se formule simplement : pour tout entier n supérieur à 2, il n'existe pas d'entiers positifs x, y, z tels que xⁿ + yⁿ = zⁿ. Pour n = 2, les solutions existent par milliers : ce sont les triplets pythagoriciens, 3² + 4² = 5² en tête. Il suffit d'ajouter un dans l'exposant pour qu'elles disparaissent toutes, sans exception, et personne pendant 358 ans ne parvient à expliquer pourquoi.\n\nLes mathématiciens avancent cas par cas. Euler démontre n = 3 en 1770 (avec une lacune comblée plus tard), Legendre et Dirichlet n = 5 en 1825, en s'appuyant sur les travaux de Sophie Germain, Gabriel Lamé n = 7 en 1839. Ernst Kummer invente en 1847 toute une théorie des « nombres idéaux » pour traiter d'un coup une large famille d'exposants premiers, sans couvrir le cas général.\n\nLa percée vient d'ailleurs. En 1984, Gerhard Frey remarque qu'une éventuelle solution au théorème de Fermat permettrait de construire une courbe elliptique aux propriétés si étranges qu'elle ne devrait, selon toute logique, pas exister : à condition qu'une autre conjecture, dite de modularité, soit vraie. Ken Ribet démontre ce lien en 1986. Il ne reste plus qu'à prouver la conjecture de modularité, au moins pour les courbes concernées : c'est le chantier auquel Andrew Wiles se consacre en secret pendant sept ans.\n\nIl annonce sa preuve le 23 juin 1993 à Cambridge, dans un silence stupéfait. Un relecteur y repère une faille trois mois plus tard. Wiles met plus d'un an à la combler, avec l'aide de son ancien élève Richard Taylor, avant de publier la version définitive en mai 1995 dans les *Annals of Mathematics* : cent vingt-neuf pages en deux articles.\n\n## Ce que la marge ne pouvait pas contenir\n\nRien, dans les outils mathématiques du XVIIe siècle, ne permettait d'établir un lien entre une équation en puissances entières et une courbe elliptique. Les formes modulaires, les représentations galoisiennes, la conjecture de modularité elle-même : tout cela appartient au XXe siècle. Si Fermat tenait une preuve, elle empruntait un tout autre chemin, aujourd'hui perdu, ou elle comportait une erreur qu'il n'a jamais repérée, lui qui a pourtant démontré et publié le cas n = 4, plus simple, sans jamais revenir sur l'énoncé général dans les trente ans de correspondance qui suivent.\n\nLa marge trop étroite n'est peut-être pas qu'une boutade sur la mise en page d'un livre. C'est un cas d'école : un mathématicien qui croit tenir une preuve, la formule en une phrase, et ne la couche jamais sur le papier ne peut plus être départagé, des siècles après, entre la vérité et l'erreur. Ce qui a fini par trancher n'est pas une lecture plus attentive de la marge, mais l'invention, longtemps après lui, d'un outillage qu'aucune marge n'aurait de toute façon pu contenir.",
   "citation": {
     "texte": "Il est impossible de partager un cube en deux cubes, une puissance quatrième en deux puissances quatrièmes, et en général une puissance quelconque supérieure au carré en deux puissances de même exposant : j'en ai découvert une démonstration véritablement merveilleuse, que cette marge est trop étroite pour contenir.",
     "auteur": "Pierre de Fermat",
@@ -18,7 +18,7 @@
   "repere": null,
   "carte": {
     "punch": "Fermat a promis une preuve dans une marge trop étroite. Il a fallu 358 ans pour l'y retrouver.",
-    "idee": "En 1637, Pierre de Fermat note dans la marge d'un livre qu'il détient une preuve merveilleuse d'un théorème, mais que la place manque pour l'écrire. En 1994, Andrew Wiles finit par le démontrer — avec des outils, courbes elliptiques et formes modulaires, qui n'existaient pas encore au XVIIe siècle.",
+    "idee": "En 1637, Pierre de Fermat note dans la marge d'un livre qu'il détient une preuve merveilleuse d'un théorème, mais que la place manque pour l'écrire. En 1994, Andrew Wiles finit par le démontrer, avec des outils, courbes elliptiques et formes modulaires, qui n'existaient pas encore au XVIIe siècle.",
     "source_courte": "Wiles, Annals of Mathematics, 1995"
   },
   "sources": [
@@ -69,19 +69,34 @@
   "quiz_supplementaire": [
     {
       "question": "Quel mathématicien démontre en 1770 le cas n = 3 du théorème, avec une lacune comblée plus tard ?",
-      "choix": ["Leonhard Euler", "Ernst Kummer", "Gabriel Lamé", "Ken Ribet"],
+      "choix": [
+        "Leonhard Euler",
+        "Ernst Kummer",
+        "Gabriel Lamé",
+        "Ken Ribet"
+      ],
       "bonne_reponse": 0,
       "explication": "Le texte indique qu'Euler démontre n = 3 en 1770, avec une lacune comblée plus tard ; Kummer traite en 1847 une large famille d'exposants premiers, Lamé démontre n = 7 en 1839, et Ribet établit en 1986 le lien avec la conjecture de modularité."
     },
     {
       "question": "Que découvre un relecteur dans la preuve d'Andrew Wiles, trois mois après son annonce de juin 1993 ?",
-      "choix": ["Une erreur de calcul dans le cas n = 4, déjà résolu par Fermat", "Un doublon avec un article publié par Kummer en 1847", "Une faille, que Wiles met plus d'un an à combler avec Richard Taylor", "Une contradiction avec la conjecture de modularité elle-même"],
+      "choix": [
+        "Une erreur de calcul dans le cas n = 4, déjà résolu par Fermat",
+        "Un doublon avec un article publié par Kummer en 1847",
+        "Une faille, que Wiles met plus d'un an à combler avec Richard Taylor",
+        "Une contradiction avec la conjecture de modularité elle-même"
+      ],
       "bonne_reponse": 2,
       "explication": "Le texte précise qu'un relecteur repère une faille trois mois après l'annonce de juin 1993, et que Wiles la comble en plus d'un an, avec l'aide de son ancien élève Richard Taylor, avant la publication définitive de mai 1995."
     },
     {
       "question": "Pour n = 2, quelles solutions existent en nombres entiers à l'équation xⁿ + yⁿ = zⁿ ?",
-      "choix": ["Aucune, l'énoncé de Fermat vaut aussi pour n = 2", "Les triplets pythagoriciens, comme 3² + 4² = 5²", "Seulement des solutions avec des nombres négatifs", "Des solutions trouvées uniquement par Andrew Wiles en 1994"],
+      "choix": [
+        "Aucune, l'énoncé de Fermat vaut aussi pour n = 2",
+        "Les triplets pythagoriciens, comme 3² + 4² = 5²",
+        "Seulement des solutions avec des nombres négatifs",
+        "Des solutions trouvées uniquement par Andrew Wiles en 1994"
+      ],
       "bonne_reponse": 1,
       "explication": "Le texte précise que pour n = 2 les solutions existent par milliers, ce sont les triplets pythagoriciens comme 3² + 4² = 5² ; l'énoncé de Fermat porte sur les exposants strictement supérieurs à 2, où elles disparaissent toutes."
     }
@@ -105,7 +120,7 @@
   "controle": {
     "fait_le": "2026-09-23",
     "verdict": "ok",
-    "empreinte": "1f819aeda5689669",
+    "empreinte": "73362e0310fab6f1",
     "notes": [
       "Édition de 1670 (archive.org) confirmée titre/auteur/année, contient les observations de Fermat. Article Wiles 1995 confirmé via DOI→JSTOR (identifiant stable propre à cet article) et chronologie (annonce 23 juin 1993, faille signalée par Katz sept. 1993, correction sept. 1994 avec Taylor, publication mai 1995, 129 pages) recoupée avec Wikipedia."
     ]

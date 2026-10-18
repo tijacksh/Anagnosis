@@ -1502,3 +1502,11 @@ Sept essais hors dépôt (10 à 40 fiches chacun, jugés à l'aveugle par Sonnet
 - **Test** : la copie `https://anagnosis-site.anagnosis.workers.dev` sert 630 fiches, la signature est valide avec la clé publique des apps.
 - **Domaine** : `anagnosis.fr` était sur le DNS de Netlify (serveurs NS1) ; le passage sur Cloudflare demande de déplacer les serveurs de noms chez OVH et de recopier les enregistrements (courrier ImprovMX : 2 MX et le SPF ; 2 vérifications TikTok sur `www`). Voir `docs/hebergement.md` pour la procédure et l'état.
 - `netlify.toml` et le secret `NETLIFY_BUILD_HOOK` restent le temps de la bascule, puis seront retirés.
+
+## 2026-10-18 — Les 17 signes d'un produit fait en série deviennent des critères d'exclusion
+
+**Contexte.** Arnaud a demandé de vérifier qu'aucun des 17 signes d'une app « vibecodée » n'existe dans Anagnosis. Relevé : 12 absents, 2 à la limite (grotesque + serif ; surtitre en capitales), 3 présents : 871 tirets cadratins dans le texte lu de 193 fiches, un grain global (voulu, sans dégradé dessous), un style de bouton fantôme au survol (inactif, les boutons des stores étant inertes).
+
+**Décision (Arnaud).** Les 17 signes sont des critères d'exclusion pour tout livrable (`docs/criteres-vibecode.md`). Les 925 tirets du texte lu sont retirés (`src/sans-tiret.js`, citations entre « » et sources intactes). Le validateur refuse un tiret cadratin ou un emoji dans le texte lu et alerte sur les mots creux. Les consignes des routines de contenu et de la routine X renvoient à ce document.
+
+**Conséquences.** Aucun audio ni contrôle de sources n'est relancé pour de la ponctuation : l'empreinte de contrôle et celle de l'audio sont recalculées pour les fiches qui étaient à jour (70 contrôles conservés ; les 11 audios déjà périmés le restent). Trois fiches passaient sous 380 mots parce que le décompte comptait chaque tiret isolé pour un mot : quelques mots sourcés ajoutés à la main, et leur contrôle repasse. Le style de bouton fantôme sera remplacé par un état plein à l'ouverture des stores.

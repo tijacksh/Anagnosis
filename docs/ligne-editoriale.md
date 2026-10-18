@@ -132,6 +132,9 @@ recevoir un traitement graphique cohérent.
 - Pas d'adresse au lecteur en mode coach (« vous allez adorer », « prêt ? »).
 - Pas de conclusion qui résume ce qui vient d'être dit. La dernière phrase ouvre,
   elle ne referme pas.
+- **Aucun tiret cadratin (—) ni emoji** dans le texte lu, et aucune formule de pitch
+  (« révolutionnaire », « plongeons dans »…). Voir `docs/criteres-vibecode.md` : ces signes
+  trahissent un texte écrit en série ; le validateur les refuse.
 - Les nombres qui parlent (dates, ordres de grandeur, records) plutôt que les
   qualificatifs (« énorme », « très rapide »).
 
