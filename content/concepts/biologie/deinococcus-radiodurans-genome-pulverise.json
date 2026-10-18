@@ -72,24 +72,39 @@
   "quiz_supplementaire": [
     {
       "question": "Qu'a découvert Arthur Anderson en 1956, à l'origine de l'identification de cette bactérie ?",
-      "choix": ["Une boîte de corned-beef censée être stérilisée par irradiation gamma avait quand même pourri", "Une fuite radioactive dans un réacteur nucléaire de l'Oregon", "Un nouveau vaccin résistant aux hautes températures", "Une contamination de l'eau potable par des bactéries résistantes aux antibiotiques"],
+      "choix": [
+        "Une boîte de corned-beef censée être stérilisée par irradiation gamma avait quand même pourri",
+        "Une fuite radioactive dans un réacteur nucléaire de l'Oregon",
+        "Un nouveau vaccin résistant aux hautes températures",
+        "Une contamination de l'eau potable par des bactéries résistantes aux antibiotiques"
+      ],
       "bonne_reponse": 0,
       "explication": "En 1956, à la station expérimentale agricole de l'Oregon, Arthur Anderson teste si l'irradiation gamma peut stériliser durablement de la viande en conserve, et une boîte de corned-beef pourrit quand même malgré une dose censée tuer toute forme de vie."
     },
     {
       "question": "Comment se déroule concrètement la reconstitution du génome après irradiation ?",
-      "choix": ["Une seule copie du génome est entièrement reconstruite à partir de zéro", "La bactérie absorbe de l'ADN provenant d'autres espèces voisines", "Des enzymes exposent des segments d'ADN qui s'apparient avec d'autres copies du génome", "Le processus nécessite l'intervention d'un virus auxiliaire"],
+      "choix": [
+        "Une seule copie du génome est entièrement reconstruite à partir de zéro",
+        "La bactérie absorbe de l'ADN provenant d'autres espèces voisines",
+        "Des enzymes exposent des segments d'ADN qui s'apparient avec d'autres copies du génome",
+        "Le processus nécessite l'intervention d'un virus auxiliaire"
+      ],
       "bonne_reponse": 2,
       "explication": "Chaque cellule porte plusieurs copies complètes du génome ; des enzymes grignotent les extrémités des fragments jusqu'à exposer de longs segments simple-brin qui s'apparient avec les portions correspondantes d'autres copies, comme des pièces de puzzle qui se retrouvent."
     },
     {
       "question": "Quel autre type d'organisme présente la même coïncidence entre résistance aux radiations et adaptation à la dessiccation ?",
-      "choix": ["Les poissons abyssaux des grands fonds océaniques", "Les tardigrades et les rotifères bdelloïdes", "Les champignons filamenteux du genre Aspergillus", "Les cyanobactéries des sources chaudes volcaniques"],
+      "choix": [
+        "Les poissons abyssaux des grands fonds océaniques",
+        "Les tardigrades et les rotifères bdelloïdes",
+        "Les champignons filamenteux du genre Aspergillus",
+        "Les cyanobactéries des sources chaudes volcaniques"
+      ],
       "bonne_reponse": 1,
       "explication": "D'autres organismes très éloignés du point de vue évolutif, tardigrades et rotifères bdelloïdes, présentent la même coïncidence, ce qui suggère que le lien entre résistance à la dessiccation et résistance aux radiations n'est pas un hasard isolé."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-relecture",
@@ -106,11 +121,13 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-14",
-    "verdict": "ok",
-    "empreinte": "3d0402775d68fa6c",
+    "fait_le": "2026-10-18",
+    "verdict": "a_revoir",
+    "empreinte": "a4b67be3ca6518b3",
     "notes": [
-      "Sources rouvertes et toujours conformes : Cox, Keck & Battista 2010 (PMC2797637) confirme mot pour mot les 5 kGy sans perte de viabilité et la reconstitution en 3-4h. Lim et al. 2019 confirme 5-10 Gy létaux pour les vertébrés vs 5 kGy sans perte de viabilité chez D. radiodurans. Mattimore & Battista 1996 confirme la dessiccation de 41 souches sur 6 semaines et la conclusion explicite que la radiorésistance est un sous-produit de l'adaptation à la dessiccation. Seul changement depuis le contrôle du 2026-08-03 : tirets cadratins remplacés par des virgules, sans impact sur le sens. Quiz et carte conformes."
+      "Le 'corned-beef' (contenu, quiz supplémentaire, explication) n'est soutenu par aucune source: Lim 2019 (PMC6300522) dit 'a can of ground meat', Anderson et al. 1956 n'est cité que comme référence; une recherche web ne trouve aucune mention de corned beef (seule Big Think dit boeuf et porc hachés). Idem 'Arthur Anderson' et 'station expérimentale agricole de l'Oregon', absents des trois sources de la fiche. À sourcer par l'article d'origine ou à reformuler en 'viande en conserve'.",
+      "Mattimore et Battista 1996 (résumé lu, texte intégral non obtenu): 41 souches sensibles aux IR, 6 semaines de dessiccation, hausse des cassures double brin, résistance 'incidentale'. La fiche dit que l'ADN se fragmente 'd'une manière qui ressemble, dégât pour dégât, à celle que produit l'irradiation': plus fort que le résumé, à vérifier dans le texte. De même 'des dizaines à des centaines de cassures par cellule' (sources: 'hundreds') et 'la plupart des bactéries meurent après une poignée de cassures' (non retrouvé).",
+      "Confirmés: 5 kGy sans perte de viabilité, 5-10 Gy létaux pour les vertébrés, reconstitution en 3-4 h, tardigrades et rotifères bdelloïdes (Lim 2019)."
     ]
   },
   "meta": {
