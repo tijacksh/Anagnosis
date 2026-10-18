@@ -412,3 +412,7 @@ peut rouvrir directement le texte du décret.)*
 | Statistiques | Robinson (1950) : corrélations écologiques et comportement des individus, 0,118 pour les personnes, −0,526 pour les 48 États, −0,619 pour les 9 divisions (recensement de 1930) | fait | routine-production-arnaud | 2026-10-18 |
 | Statistiques | Daniels (1952), « The "Average Man"? » : 4 063 militaires navigants, dix mensurations, personne dans la moyenne sur les dix | fait | routine-production-arnaud | 2026-10-18 |
 | Statistiques | Anscombe (1973), « Graphs in Statistical Analysis » : quatre jeux de onze points aux mêmes statistiques, quatre formes différentes | fait | routine-production-arnaud | 2026-10-18 |
+| Biologie | Le caméléon change de couleur pour se montrer : cristaux de guanine accordables (Teyssier 2015) et signal social (Stuart-Fox 2008) | en cours | routine-production-arnaud | 2026-10-18 |
+| Biologie | Mimivirus : la « bactérie » de Bradford (1992) identifiée comme virus géant en 2003 | en cours | routine-production-arnaud | 2026-10-18 |
+| Biologie | Requin du Groenland : dater un vertébré sans anneaux par le radiocarbone du cristallin (Nielsen 2016) | en cours | routine-production-arnaud | 2026-10-18 |
+| Biologie | Danse des abeilles : von Frisch, la ruche couchée et le radar harmonique de 2005 | en cours | routine-production-arnaud | 2026-10-18 |
