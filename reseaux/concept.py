@@ -71,7 +71,7 @@ def main(slug, sortie):
     d.rectangle([0, 130, MARGE + d.textlength('ANAGNOSIS', font=f) + 20, 184], fill=ENCRE)
     d.text((MARGE, 142), 'ANAGNOSIS', font=f, fill=PAPIER)
     y = 250
-    fonte, bloc, pas = C.ajuster(d, c['titre'], lambda t: police('BricolageGrotesque.ttf', t, Weight=800, **{'Optical size': 96}),
+    fonte, bloc, pas = C.ajuster(d, c['titre'], lambda t: police('Newsreader.ttf', t, Weight=700, **{'Optical Size': 72}),
                                  LARGEUR - 2 * MARGE, 330, (100, 92, 84, 76, 68), interligne=1.02)
     for j, ligne in enumerate(bloc):
         d.text((MARGE, y + j * pas), ligne, font=fonte, fill=ENCRE)

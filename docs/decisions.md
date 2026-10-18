@@ -1510,3 +1510,9 @@ Sept essais hors dépôt (10 à 40 fiches chacun, jugés à l'aveugle par Sonnet
 **Décision (Arnaud).** Les 17 signes sont des critères d'exclusion pour tout livrable (`docs/criteres-vibecode.md`). Les 925 tirets du texte lu sont retirés (`src/sans-tiret.js`, citations entre « » et sources intactes). Le validateur refuse un tiret cadratin ou un emoji dans le texte lu et alerte sur les mots creux. Les consignes des routines de contenu et de la routine X renvoient à ce document.
 
 **Conséquences.** Aucun audio ni contrôle de sources n'est relancé pour de la ponctuation : l'empreinte de contrôle et celle de l'audio sont recalculées pour les fiches qui étaient à jour (70 contrôles conservés ; les 11 audios déjà périmés le restent). Trois fiches passaient sous 380 mots parce que le décompte comptait chaque tiret isolé pour un mot : quelques mots sourcés ajoutés à la main, et leur contrôle repasse. Le style de bouton fantôme sera remplacé par un état plein à l'ouverture des stores.
+
+## 2026-10-18 — Plus de grotesque : titres en Newsreader forte, partout
+
+**Décision (Arnaud).** Sortir du couple grotesque + serif (signe n° 12). Les titres passent en Newsreader (graisse 600–700, axe `opsz` poussé), les libellés restent en Martian Mono. Bricolage Grotesque est retirée du site, de l'app iOS, de l'app Android et des cartes des réseaux (carrousel, concept, fin de marque). Surtitres du site en minuscules (n° 7). Le style de bouton fantôme (n° 15) attend le câblage des boutons des stores.
+
+**Conséquences.** Les cartes déjà publiées gardent l'ancienne police. Les apps embarquent une police de moins (−400 Ko). Diapo quiz des carrousels : cadres de réponse ajustés à leur texte, une seule taille pour les quatre réponses, bloc centré.

@@ -20,7 +20,7 @@
 <link rel="apple-touch-icon" href="./icone-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Martian+Mono:wght@400..600&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400&family=Martian+Mono:wght@400..600&display=swap" media="print" onload="this.media='all'">
 <style>
 :root {
   --papier: #F4EFE1;
@@ -30,7 +30,7 @@
   --filet: #D9CFB8;
   --marque: #3D5588;      /* Federal Blue — même encre que l'icône */
   --jaune: #FFE800;
-  --display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --display: 'Newsreader', ui-serif, Georgia, serif;
   --corps: 'Newsreader', ui-serif, Georgia, serif;
   --mono: 'Martian Mono', ui-monospace, 'SF Mono', Menlo, monospace;
   --marge: 24px;
@@ -66,8 +66,8 @@ a { color: inherit; }
 @media (prefers-color-scheme: dark) { .grain { opacity: .07; mix-blend-mode: screen; } }
 
 .sur-titre {
-  font-family: var(--mono); font-size: 11px; font-weight: 600;
-  letter-spacing: .14em; text-transform: uppercase; color: var(--marque);
+  font-family: var(--mono); font-size: 13px; font-weight: 500;
+  letter-spacing: .02em; color: var(--marque);
 }
 
 /* ---- en-tête ---- */
@@ -91,7 +91,7 @@ a { color: inherit; }
 /* ---- hero ---- */
 .hero { padding: 64px 0 56px; }
 .hero h1 {
-  font-family: var(--display); font-weight: 800; letter-spacing: -.025em;
+  font-family: var(--display); font-weight: 700; letter-spacing: -.025em;
   font-size: clamp(34px, 6vw, 54px); line-height: 1.06; margin-top: 14px;
 }
 .hero p.accroche {
@@ -115,7 +115,7 @@ a { color: inherit; }
 .store-bouton:hover { background: var(--encre); color: var(--papier); }
 .store-bouton.inerte { opacity: .55; cursor: default; }
 .store-bouton.inerte:hover { background: none; color: var(--encre); }
-.store-bouton .glyphe { font-family: var(--display); font-weight: 800; font-size: 17px; }
+.store-bouton .glyphe { font-family: var(--display); font-weight: 600; font-size: 17px; }
 .store-bouton .texte { display: flex; flex-direction: column; gap: 2px; text-align: left; }
 .store-bouton .texte b { font-size: 13px; letter-spacing: 0; text-transform: none; font-weight: 600; }
 
@@ -157,7 +157,7 @@ a { color: inherit; }
 /* ---- sections ---- */
 section.bloc { padding: 56px 0; border-top: 1px solid var(--filet); }
 section.bloc h2 {
-  font-family: var(--display); font-weight: 700; letter-spacing: -.015em;
+  font-family: var(--display); font-weight: 600; letter-spacing: -.015em;
   font-size: 26px; margin-top: 10px;
 }
 .trois { display: grid; gap: 32px; margin-top: 36px; grid-template-columns: repeat(3, 1fr); }
@@ -166,7 +166,7 @@ section.bloc h2 {
   font-family: var(--mono); font-size: 11px; color: var(--marque); letter-spacing: .08em;
 }
 .trois article h3 {
-  font-family: var(--display); font-weight: 700; font-size: 17px; margin: 8px 0 8px;
+  font-family: var(--display); font-weight: 600; font-size: 17px; margin: 8px 0 8px;
   letter-spacing: -.01em;
 }
 .trois article p { color: var(--texte-2); font-size: 15px; line-height: 1.55; }

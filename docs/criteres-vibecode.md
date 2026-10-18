@@ -2,7 +2,7 @@
 
 Décision du 2026-10-18 (Arnaud). Ces 17 signes trahissent un site, une app ou un texte produit sans œil. Ce sont des **critères d'exclusion** : un livrable qui en porte un n'est pas publié. Ils s'appliquent aux fiches, au site, à l'app, aux cartes et aux vidéos des réseaux.
 
-État relevé le 2026-10-18 : 12 absents, 2 à la limite, 3 présents (le n° 14 et deux points à surveiller, ci-dessous). Le n° 14 est corrigé et contrôlé par le validateur.
+État relevé le 2026-10-18 : 12 absents, 2 à la limite, 3 présents. Le n° 14 (tirets cadratins), le n° 12 (couple grotesque + serif) et le n° 7 (surtitre en capitales) sont corrigés le jour même ; le n° 14 est contrôlé par le validateur. Reste le n° 15, que le câblage des boutons des stores traitera.
 
 | n° | Signe | Dans Anagnosis | Contrôle |
 |---|---|---|---|
@@ -12,12 +12,12 @@ Décision du 2026-10-18 (Arnaud). Ces 17 signes trahissent un site, une app ou u
 | 4 | Glassmorphism | pas de flou d'arrière-plan sur le site ; seule la barre d'onglets iOS utilise le matériau système | revue |
 | 5 | Bordures colorées | bordures neutres (encre, filet) ; le rouge n'apparaît que pour une erreur de saisie | revue |
 | 6 | Animations trop lentes | 0,12 à 0,28 s, jamais au-delà de 0,3 s | revue |
-| 7 | Badge sur le titre | un surtitre en capitales, sans pastille ni fond | revue |
+| 7 | Badge sur le titre | corrigé sur le site le 2026-10-18 : surtitre en minuscules, mono 13 px, sans capitales ni fond. Reste les étiquettes à fond plein des cartes réseaux (« Quiz · facultatif ») : à surveiller | revue |
 | 8 | Buzzwords partout | prose sobre, pas de vocabulaire de pitch | **validateur** (alerte, liste dans `src/texte-lu.js`) |
 | 9 | Espacements inégaux | échelle régulière | revue |
 | 10 | Fondu à l'apparition au défilement | aucun | revue |
 | 11 | Graphiques shadcn bruts | aucun graphique | revue |
-| 12 | Space Grotesk + serif | Bricolage Grotesque + Newsreader + Martian Mono : proche par le genre, pas par le choix. À ne pas remplacer par Space Grotesk ni Inter | revue |
+| 12 | Space Grotesk + serif | corrigé le 2026-10-18 : Newsreader (titres en graisse forte, corps) + Martian Mono ; plus de grotesque, partout (site, apps, cartes). Ne pas réintroduire Space Grotesk, Inter ni Bricolage | revue |
 | 13 | Grain sur dégradé | grain global voulu par la charte, **jamais sur un dégradé** | revue |
 | 14 | Tirets cadratins | zéro dans le texte lu | **validateur** (erreur) |
 | 15 | Boutons fantômes qui se remplissent au survol | le style existe dans le CSS (`.store-bouton:hover`) mais les boutons des stores sont inertes ; à remplacer par un état plein dès l'ouverture des stores | revue |

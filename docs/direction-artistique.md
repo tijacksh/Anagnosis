@@ -135,13 +135,7 @@ Trois rôles. Les polices doivent être auto-hébergeables (l'app ne fait aucun 
 réseau — brief §9) et disponibles en licence permettant l'intégration.
 
 **Display** — titres de fiches et accroche des cartes.
-Critères : grotesque à forte présence, graisses lourdes disponibles, formes un peu
-datées plutôt que neutres, bon comportement en très grand corps et en capitales.
-Pistes : Bricolage Grotesque, Archivo (largeurs étendues), Redaction — cette dernière
-étant conçue avec des niveaux de dégradation, ce qui dialogue directement avec le
-registre imprimé.
-À éviter : les grotesques neutres de la tech (Inter, Space Grotesk et apparentées),
-qui annuleraient tout le caractère de la direction.
+Décision du 2026-10-18 : Newsreader en graisse forte (600–700), axe `opsz` poussé pour le grand corps. Plus de grotesque : le couple grotesque + serif est l'un des signes d'un produit fait en série (`docs/criteres-vibecode.md`, n° 12). (La direction d'origine retenait Bricolage Grotesque ; elle est abandonnée.)
 
 **Corps** — texte de la fiche, 400 à 700 mots lus chaque jour.
 Critères : serif de lecture, hauteur d'x généreuse, excellente tenue à 15-17 px sur
@@ -152,8 +146,7 @@ Pistes : Newsreader, Literata, Source Serif 4.
 Critères : monospace, lisible à 9-11 px, chiffres tabulaires.
 Pistes : Martian Mono, JetBrains Mono, Space Mono.
 
-Le contraste serif / grotesque n'est pas décoratif : c'est le contraste de l'imprimé,
-où titraille et labeur ne sont pas de la même famille.
+Le contraste ne vient plus d'un changement de famille mais de la graisse et du corps optique d'une même serif, face à la mono des libellés.
 
 ## 7. La carte partageable — anatomie
 

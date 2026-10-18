@@ -75,7 +75,7 @@ def nouveau():
 
 def pied(d, encre_ligne=ENCRE):
     d.rectangle([MARGE, HAUTEUR - 118, LARGEUR - MARGE, HAUTEUR - 115], fill=ENCRE)
-    d.text((MARGE, HAUTEUR - 96), 'ANAGNOSIS', font=police('BricolageGrotesque.ttf', 30, Weight=800, **{'Optical size': 96}), fill=ENCRE)
+    d.text((MARGE, HAUTEUR - 96), 'ANAGNOSIS', font=police('Newsreader.ttf', 30, Weight=700, **{'Optical Size': 72}), fill=ENCRE)
     d.text((MARGE, HAUTEUR - 56), 'UN CONCEPT PAR JOUR · ANAGNOSIS.FR · @ANAGNOSIS_APP',
            font=police('MartianMono.ttf', 20, Weight=500), fill=ENCRE)
 
@@ -101,7 +101,7 @@ def diapo_developpe(fiche, encre, sortie):
     mono = police('MartianMono.ttf', 26, Weight=600)
     for i, titre in enumerate(titres[:5], 1):
         d.text((MARGE, y + 8), f'{i:02d}', font=mono, fill=encre)
-        fonte, bloc, pas = ajuster(d, titre, lambda t: police('BricolageGrotesque.ttf', t, Weight=800, **{'Optical size': 96}),
+        fonte, bloc, pas = ajuster(d, titre, lambda t: police('Newsreader.ttf', t, Weight=700, **{'Optical Size': 72}),
                                    LARGEUR - 2 * MARGE - 120, 140, (72, 64, 56, 50, 44), interligne=1.05)
         for j, ligne in enumerate(bloc):
             d.text((MARGE + 110, y + j * pas), ligne, font=fonte, fill=ENCRE)
@@ -123,30 +123,39 @@ def diapo_quiz(fiche, encre, sortie, reponse=False):
     d = ImageDraw.Draw(img)
     y = etiquette(d, ZONE_HAUT, 'Quiz · la réponse' if reponse else 'Quiz · facultatif', encre)
     y += 40
-    fonte, bloc, pas = ajuster(d, q['question'], lambda t: police('BricolageGrotesque.ttf', t, Weight=800, **{'Optical size': 96}),
+    fonte, bloc, pas = ajuster(d, q['question'], lambda t: police('Newsreader.ttf', t, Weight=700, **{'Optical Size': 72}),
                                LARGEUR - 2 * MARGE, 270, (64, 58, 52, 46, 42), interligne=1.08)
     for j, ligne in enumerate(bloc):
         d.text((MARGE, y + j * pas), ligne, font=fonte, fill=ENCRE)
     y += len(bloc) * pas + 40
+    # Cadres de la hauteur de leur texte : une seule taille de réponse pour les quatre, la plus
+    # grande qui tienne, et chaque cadre ajusté à ses lignes (texte centré dans le cadre). Le
+    # bloc entier est centré dans la place restante : plus de vide sous une réponse courte.
     reste = ZONE_BAS - 70 - y
-    hauteur_case = reste // 4 - 14
-    for i, choix in enumerate(q['choix']):
+    largeur_texte = LARGEUR - 2 * MARGE - 130
+    marge_cadre, ecart = 30, 24
+    for taille in (46, 42, 38, 34, 31, 28, 25):
+        f2 = police('Newsreader.ttf', taille, Weight=400)
+        pas = taille * 1.22
+        blocs = [lignes(d, choix, f2, largeur_texte) for choix in q['choix']]
+        hauteurs = [len(b2) * pas + 2 * marge_cadre for b2 in blocs]
+        if sum(hauteurs) + 3 * ecart <= reste:
+            break
+    y += max(0, reste - (sum(hauteurs) + 3 * ecart)) // 2
+    lettre = police('MartianMono.ttf', 26, Weight=600)
+    for i, (choix, b2) in enumerate(zip(q['choix'], blocs)):
         bon = i == q['bonne_reponse']
-        haut = y + i * (hauteur_case + 14)
-        if reponse and bon:
-            couleur, epais = VERT, 6
-        else:
-            couleur, epais = ENCRE, 3
-        d.rectangle([MARGE, haut, LARGEUR - MARGE, haut + hauteur_case], outline=couleur, width=epais)
-        d.text((MARGE + 24, haut + 22), 'ABCD'[i], font=police('MartianMono.ttf', 26, Weight=600), fill=couleur)
-        f2, b2, p2 = ajuster(d, choix, lambda t: police('Newsreader.ttf', t, Weight=400),
-                             LARGEUR - 2 * MARGE - 130, hauteur_case - 30, (42, 38, 34, 31, 28, 25), interligne=1.22)
+        couleur, epais = (VERT, 6) if (reponse and bon) else (ENCRE, 3)
+        haut, h = y, hauteurs[i]
+        d.rectangle([MARGE, haut, LARGEUR - MARGE, haut + h], outline=couleur, width=epais)
+        d.text((MARGE + 24, haut + h / 2), 'ABCD'[i], font=lettre, fill=couleur, anchor='lm')
         for j, ligne in enumerate(b2):
-            yy = haut + 16 + j * p2
+            yy = haut + marge_cadre + j * pas
             d.text((MARGE + 90, yy), ligne, font=f2, fill=(couleur if reponse and bon else ENCRE))
             if reponse and not bon:                      # barrée, sans couleur : comme dans l'app
                 w = d.textlength(ligne, font=f2)
-                d.line([(MARGE + 90, yy + p2 * 0.55), (MARGE + 90 + w, yy + p2 * 0.55)], fill=(0x8A, 0x83, 0x75), width=3)
+                d.line([(MARGE + 90, yy + pas * 0.55), (MARGE + 90 + w, yy + pas * 0.55)], fill=(0x8A, 0x83, 0x75), width=3)
+        y += h + ecart
     if reponse:
         d.text((MARGE, ZONE_BAS - 50), "Dans l'app, chaque réponse est expliquée, les fausses aussi.",
                font=police('Newsreader.ttf', 30, Weight=400), fill=ENCRE)
@@ -172,8 +181,8 @@ def diapo_fin(encre, sortie):
     composer.centre(d, y, 'ANAGNOSIS', police('MartianMono.ttf', 36, Weight=600), espacement=12)
     y += 92
     for ligne in ('Un concept par jour,', 'et sa source.'):
-        d.text(((LARGEUR - d.textlength(ligne, font=police('BricolageGrotesque.ttf', 84, Weight=800, **{'Optical size': 96}))) / 2, y),
-               ligne, font=police('BricolageGrotesque.ttf', 84, Weight=800, **{'Optical size': 96}), fill=ENCRE)
+        d.text(((LARGEUR - d.textlength(ligne, font=police('Newsreader.ttf', 84, Weight=700, **{'Optical Size': 72}))) / 2, y),
+               ligne, font=police('Newsreader.ttf', 84, Weight=700, **{'Optical Size': 72}), fill=ENCRE)
         y += 88
     y += 44
     composer.centre(d, y, 'ANAGNOSIS.FR', police('MartianMono.ttf', 34, Weight=700), espacement=4)

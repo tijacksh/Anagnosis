@@ -116,7 +116,7 @@ def fin_de_marque(chemin):
     y = oy + 426 * k + 70
     centre(d, y, 'ANAGNOSIS', police('MartianMono.ttf', 40, Weight=600), espacement=14)
     y += 100
-    display = police('BricolageGrotesque.ttf', 80, Weight=800, **{'Optical size': 96})
+    display = police('Newsreader.ttf', 80, Weight=700, **{'Optical Size': 72})
     for ligne in ('Un concept par jour,', 'et sa source.'):
         centre(d, y, ligne, display)
         y += 84

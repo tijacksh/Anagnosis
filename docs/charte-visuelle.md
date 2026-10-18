@@ -215,16 +215,13 @@ aucun appel réseau).
 | Rôle | Police | Graisses | Usage |
 |---|---|---|---|
 | Nav | **Martian Mono** 400/600, 9 px | — | Libellés d'onglets de la barre de menu |
-| Display | **Bricolage Grotesque** | 700–800 | Accroches de carte 76–118 px @1080 · titres de fiche 29–52 px · libellés de bouton 15–17 px |
+| Display | **Newsreader** (axe `opsz` à 2× la taille, jusqu'à 72) | 600–700 | Accroches de carte 76–118 px @1080 · titres de fiche 29–52 px · libellés de bouton 15–17 px |
 | Corps | **Newsreader** | 400, 400 italique | Texte de fiche 16,5 px · citations 18–20 px italique |
 | Crédits & données | **Martian Mono** | 400–600 | `source_courte`, dates, séries, libellés 9–11 px écran / 21–30 px @1080 |
 
-Alternative display évaluée puis écartée : **Archivo** en largeur étendue
-(`font-stretch: 112–118%`) — plus large et plus froid, moins de caractère
-imprimé. Conservée comme option dans les maquettes (repère 1d).
+Depuis le 2026-10-18, plus de grotesque : les titres sont en Newsreader forte (même famille que le corps, d'un autre poids et d'un autre corps optique), avec Martian Mono pour les libellés. Raison : le couple grotesque + serif est le n° 12 des 17 signes d'un produit fait en série (`docs/criteres-vibecode.md`). Bricolage Grotesque a été retirée du site, des deux apps et des cartes ; Archivo, évaluée avant elle, reste écartée. Les surtitres du site sont en minuscules (mono 13 px), plus de capitales espacées.
 
-À éviter : les grotesques neutres de la tech (Inter, Space Grotesk et
-apparentées), qui annuleraient le caractère de la direction.
+À éviter : toute grotesque en titre (Inter, Space Grotesk, Bricolage et apparentées).
 
 ### Échelle appliquée
 
