@@ -56,15 +56,24 @@
     ],
     "bonne_reponse": 3,
     "explication": "Chez le singe entraîné, la dopamine suit l'écart avec la prédiction : salve si c'est mieux que prévu, rien si c'est conforme, baisse si c'est moins bien. Une salve plus forte signalerait une bonne surprise, et une activité inchangée correspondrait à un jus arrivé comme prévu, pas à un jus qui manque. L'enregistrement de 1997 montre une baisse précisément à l'heure où le jus aurait dû arriver.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-18T10:18:48.278Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-18T10:18:48.278Z",
+        "note": "Les deux sources de la fiche étaient inaccessibles depuis cette session malgré plusieurs tentatives : Schultz, Dayan & Montague 1997 (science.org/doi/10.1126/science.275.5306.1593) a renvoyé une erreur 403 (paywall) ; Berridge & Robinson 1998 (Elsevier, doi.org/10.1016/S0165-0173(98)00019-8, et son résumé sur PubMed) a été refusé par la politique réseau. Je n'ai donc pas pu rouvrir le texte intégral ni même le résumé pour vérifier moi-même les chiffres précis que la fiche leur attribue (réponse chez 55 à 80% des neurones à dopamine, absence d'effet des souffles d'air et de la saline, dépression de l'activité à plus d'une seconde, référence à Sutton et Barto, déplétion à 99% chez le rat, distinction vouloir/aimer). Doute non levé : à revérifier depuis un accès qui atteint science.org et Elsevier/PubMed."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-18",

@@ -55,15 +55,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Dans des données de repos, aucune activation n'est attendue : chaque zone déclarée significative est une erreur, et leur fréquence donne directement le taux de faux positifs. Le repos ne rend pas les images plus nettes ni n'annule le mouvement, et les logiciels analysent normalement des enregistrements avec tâche, c'est justement ce que les auteurs simulent avec des plans fictifs.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-18T10:18:47.661Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-18T10:18:47.661Z",
+        "note": "Sources rouvertes : PMC4948312 (Eklund, Nichols & Knutsson, PNAS 2016) et PMC4995979 (correction, août 2016). Confirmés mot pour mot : « can result in false-positive rates of up to 70% », 499 sujets au repos, les 4 plans B1/B2/E1/E2, 2 880 000 analyses de groupe (~3 millions), mille répétitions par configuration, P=0,001 + amas de 10 voxels donnant 60-90% d'erreur sauf FLAME1 (FSL), test de permutation proche du seuil nominal, cause (autocorrélation spatiale non gaussienne), bug de 15 ans dans 3dClustSim corrigé en mai 2015, et « some 40% of a sample of 241 recent fMRI papers did not report correcting for multiple comparisons » (Discussion). Le « 40 000 » de la déclaration de portée (« some 40,000 fMRI studies ») est bien remplacé par la correction d'août 2016 par une formule plus étroite sur les résultats « weakly significant » ; le « 40 000 » du corps du texte est un chiffre distinct, celui des articles d'IRMf recensés par PubMed (Introduction). Carte et quiz conformes aux sources. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-18",
