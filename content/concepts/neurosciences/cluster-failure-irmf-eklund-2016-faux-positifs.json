@@ -57,7 +57,41 @@
     "explication": "Dans des données de repos, aucune activation n'est attendue : chaque zone déclarée significative est une erreur, et leur fréquence donne directement le taux de faux positifs. Le repos ne rend pas les images plus nettes ni n'annule le mouvement, et les logiciels analysent normalement des enregistrements avec tâche, c'est justement ce que les auteurs simulent avec des plans fictifs.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Avec un seuil courant (P = 0,001 et un amas minimal de dix voxels), quel taux de faux positifs les auteurs mesurent-ils pour la plupart des configurations ?",
+      "choix": [
+        "Environ 5 %, conforme au seuil attendu",
+        "Environ 20 %, soit quatre fois le seuil attendu",
+        "Entre 60 et 90 %, sauf avec une option particulière de FSL",
+        "0 %, car ce seuil élimine tous les faux positifs"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte précise qu'un seuil de P = 0,001 combiné à un amas minimal de dix voxels donne un taux d'erreur de 60 à 90 %, sauf avec une option de FSL, bien au-dessus des 5 % attendus."
+    },
+    {
+      "question": "Quelle est la cause principale du taux de faux positifs élevé, selon les auteurs ?",
+      "choix": [
+        "La corrélation du bruit entre voxels voisins ne suit pas la forme gaussienne supposée par les logiciels",
+        "Les volontaires bougeaient trop pendant l'enregistrement",
+        "Les trois logiciels utilisaient des seuils statistiques différents les uns des autres",
+        "Les scanners IRM utilisés en 2016 étaient moins précis que ceux d'aujourd'hui"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Les auteurs désignent la façon dont le bruit se corrèle d'un voxel à son voisin, qui ne suit pas la forme gaussienne que les logiciels supposent, comme cause principale, avec en plus pour AFNI un défaut de quinze ans dans 3dClustSim."
+    },
+    {
+      "question": "Qu'est-ce que la correction publiée en août 2016 a changé dans l'article ?",
+      "choix": [
+        "Elle a retiré complètement l'article de la revue PNAS",
+        "Elle a ajouté un quatrième logiciel testé en plus de SPM, FSL et AFNI",
+        "Elle a doublé le nombre de volontaires analysés, de 499 à près de 1 000",
+        "Elle a remplacé la phrase sur les « 40 000 études » par une mise en cause plus étroite"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La correction remplace la déclaration de portée évoquant « 40 000 études » par une formule plus prudente, centrée sur les résultats faiblement significatifs ; les auteurs précisent que les erreurs ne touchent pas les conclusions principales de l'article."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
