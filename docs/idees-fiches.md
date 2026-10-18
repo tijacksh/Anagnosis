@@ -399,7 +399,7 @@ peut rouvrir directement le texte du décret.)*
 | Paléontologie | Le mégalodon et le faux documentaire de Discovery Channel (2013) ; datation de l'extinction à 3,6 Ma (Boessenecker et al., 2019) | fait | routine-production-arnaud | 2026-10-18 |
 | Paléontologie | Les yeux en calcite des trilobites schizochroaux (Clarkson & Levi-Setti, 1975) et le doute posé par les yeux de mouches fossiles (Lindgren et al., 2019) | fait | routine-production-arnaud | 2026-10-18 |
 | Paléontologie | Les tissus mous retrouvés dans un fémur de Tyrannosaurus rex (Schweitzer et al., 2005) et le collagène séquencé par Asara et al. (2007) | fait | routine-production-arnaud | 2026-10-18 |
-| Philosophie | « Je sais que je ne sais rien » : la formule n'est pas dans l'Apologie (21d), c'est Cicéron (Académiques, I, 16) qui la prête à Socrate | en cours | routine-production-arnaud | 2026-10-18 |
-| Philosophie | Kant, « Qu'est-ce que les Lumières ? » (1784) : l'usage public de la raison doit être libre, l'usage privé peut être borné | en cours | routine-production-arnaud | 2026-10-18 |
-| Philosophie | Le tram de Philippa Foot (1967) : un essai sur l'avortement et le double effet, avant que Thomson ne baptise le « problème du trolley » | en cours | routine-production-arnaud | 2026-10-18 |
-| Philosophie | « Je pense, donc je suis » n'est pas un syllogisme (Descartes, Discours IV, 1637 ; Secondes réponses, 1641) | en cours | routine-production-arnaud | 2026-10-18 |
+| Philosophie | « Je sais que je ne sais rien » : la formule n'est pas dans l'Apologie (21d), c'est Cicéron (Académiques, I, 16) qui la prête à Socrate | fait | routine-production-arnaud | 2026-10-18 |
+| Philosophie | Kant, « Qu'est-ce que les Lumières ? » (1784) : l'usage public de la raison doit être libre, l'usage privé peut être borné | fait | routine-production-arnaud | 2026-10-18 |
+| Philosophie | Le tram de Philippa Foot (1967) : un essai sur l'avortement et le double effet, avant que Thomson ne baptise le « problème du trolley » | fait | routine-production-arnaud | 2026-10-18 |
+| Philosophie | « Je pense, donc je suis » n'est pas un syllogisme (Descartes, Discours IV, 1637 ; Secondes réponses, 1641) | fait | routine-production-arnaud | 2026-10-18 |
