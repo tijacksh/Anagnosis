@@ -96,7 +96,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Un échec se voit attribué à une cause ponctuelle (poison de mauvaise variété ou trop ancien, tabou enfreint, fantômes, sorcellerie) qui laisse le système intact. Les autres réponses sont fausses : un second poulet sert précisément à confirmer un verdict, et l'oracle du poison est réservé aux hommes, non aux femmes.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -122,11 +122,11 @@
       "explication": "Les Azandé admettent que les termites ont rongé les piliers ; la sorcellerie n'explique pas l'effondrement lui-même, mais la coïncidence précise de ce moment et de cette victime."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-18T04:11:25.757Z",
+    "decide_le": "2026-10-18T10:05:27.934Z",
     "historique": [
       {
         "action": "valider",
@@ -151,6 +151,14 @@
         "par": "routine-reparation",
         "le": "2026-10-18T04:11:25.757Z",
         "note": "Sources rouvertes : Wikipedia Azande witchcraft et E. E. Evans-Pritchard, notice Pitt Rivers 1998.341.542.2, archive.org (accès restreint, non lu), SEP Relativism ; Ze Hong 2025 déjà relu par le contrôle. Corrigé : 'liane' retiré (aucune source ne nomme la plante) ; 1926-1930 et consultation à l'écart des habitations ajoutés et sourcés (Evans-Pritchard, Pitt Rivers) ; zone Nil-Congo remplacée par Soudan du Sud, RDC, Centrafrique ; mention de Lévy-Bruhl retirée (non sourcée) ; accroche, carte et quiz adoucis ('jamais' -> 'rarement') ; l'affirmation 'consulté très régulièrement' retirée de l'explication du quiz ; note de l'œuvre de 1937 reformulée honnêtement."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-18T10:05:27.934Z",
+        "note": "Fiche déjà réparée deux fois (réparations du 14 et du 18 octobre 2026) et revenue une troisième fois ; la règle de la routine impose le rejet plutôt qu'une troisième réparation. Dernier point soulevé par le contrôle : la durée du séjour d'Evans-Pritchard chez les Azandé (1926-1930) n'est pas établie par les sources de la fiche."
       }
     ]
   },
