@@ -1,0 +1,75 @@
+{
+  "id": "neu-cluster-failure-irmf-eklund-2016-faux-positifs",
+  "slug": "cluster-failure-irmf-eklund-2016-faux-positifs",
+  "titre": "« Cluster failure » (2016) : les faux positifs de l'IRMf et la phrase remplacée",
+  "accroche": "Sur des cerveaux au repos, trois logiciels d'IRMf trouvent bien plus de fausses activations que prévu. La phrase sur « 40 000 études » a été remplacée.",
+  "discipline": "neurosciences",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 28 juin 2016, la revue PNAS met en ligne un article dont le titre est un diagnostic : « Cluster failure », l'échec des clusters. Ses auteurs, Anders Eklund, Thomas Nichols et Hans Knutsson, y montrent que les trois logiciels les plus utilisés pour analyser l'imagerie par résonance magnétique fonctionnelle, SPM, FSL et AFNI, peuvent produire, avec l'inférence par clusters, des taux de faux positifs allant jusqu'à 70 %, là où l'on s'attend à 5 %. La déclaration de portée de l'article ajoutait que ces résultats mettaient en question la validité de quelque 40 000 études. Les auteurs l'ont remplacée par une formule plus prudente, dans une correction publiée en août.\n\n## Un test où il n'y a rien à trouver\n\nLe principe est simple. Les auteurs reprennent les enregistrements de 499 volontaires sains au repos, sans aucune tâche. Ils en tirent au hasard des groupes, de 20 sujets par exemple, et les analysent comme si les participants avaient accompli une tâche, selon quatre plans expérimentaux fictifs. Dans ces données, rien ne s'active en réalité : toute zone déclarée significative est un faux positif. Pour un seuil de 5 %, on devrait en trouver dans 5 % des analyses. Au total, trois millions d'analyses de groupe, avec mille répétitions par configuration.\n\nLe résultat dépend de la façon dont on décide qu'une zone est activée. Quand on teste voxel par voxel, les méthodes paramétriques sont valides, et même conservatrices. Quand on regarde des amas de voxels voisins, les clusters, elles ne tiennent pas leur seuil. Une pratique courante, un seuil de P = 0,001 combiné à un amas minimal de dix voxels, donne un taux d'erreur de 60 à 90 %, sauf avec une option de FSL. Un test de permutation, qui ne suppose aucune forme de bruit, reste proche du seuil nominal, avec des écarts sur certains réglages.\n\nPour la cause principale, les auteurs désignent la façon dont le bruit se corrèle d'un voxel à son voisin : elle ne suit pas la forme gaussienne que les logiciels supposent. Pour AFNI s'y ajoute un défaut de quinze ans dans l'un de ses programmes, 3dClustSim, qui rendait les résultats trop optimistes ; il a été corrigé en mai 2015, pendant la préparation du manuscrit.\n\n## Ce que ça déplace\n\nLe chiffre de 40 000 était, dans le corps du texte, le nombre d'articles d'IRMf recensés par PubMed. Il ne mesurait pas ceux qui sont touchés. Dans leur correction, les auteurs remplacent la formule par une mise en cause, plus étroite, des résultats faiblement significatifs. Ils précisent que ces erreurs n'affectent pas les conclusions de l'article ; celles-ci portent sur l'inférence paramétrique par clusters.\n\nIls ajoutent un constat plus inquiétant : environ 40 % d'un échantillon de 241 articles récents ne rapportaient pas de correction pour comparaisons multiples, ce qui expose leurs résultats à pire que ce qu'ils ont mesuré. Quant à refaire les analyses problématiques, ils jugent cela peu probable, faute d'archivage et de partage des données. Combien d'études, alors ? L'article ne le chiffre pas.",
+  "citation": null,
+  "repere": {
+    "texte": "Sur les données d'IRMf de 499 volontaires au repos, où aucune activation ne devait être trouvée, SPM, FSL et AFNI produisent, en inférence par clusters, jusqu'à 70 % de faux positifs pour un seuil nominal de 5 %.",
+    "source": "Eklund, A., Nichols, T.E. & Knutsson, H., PNAS, 113(28), 2016, p. 7900-7905",
+    "url": "https://doi.org/10.1073/pnas.1602413113"
+  },
+  "carte": {
+    "punch": "Cerveaux au repos : des logiciels d'IRMf trouvent jusqu'à 70 % de faux positifs par clusters.",
+    "idee": "En 2016, Eklund, Nichols et Knutsson analysent 499 cerveaux au repos comme s'ils avaient accompli une tâche. Là où 5 % de faux positifs sont attendus, SPM, FSL et AFNI en donnent jusqu'à 70 % en inférence par clusters. La phrase sur « 40 000 études » en cause a été remplacée par les auteurs.",
+    "source_courte": "Eklund et al., PNAS, 2016"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Eklund, A., Nichols, T.E., Knutsson, H.",
+      "titre": "Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates",
+      "publication": "Proceedings of the National Academy of Sciences, 113(28), p. 7900-7905",
+      "annee": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4948312/"
+    },
+    {
+      "type": "article",
+      "auteur": "Eklund, A., Nichols, T.E., Knutsson, H.",
+      "titre": "Correction for Eklund et al., Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates",
+      "publication": "Proceedings of the National Academy of Sciences, 113(33), p. E4929",
+      "annee": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4995979/"
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : une grille régulière de petits carrés crème sur fond noir, dans laquelle une poignée de carrés rose profond, dispersés au hasard, sont plus nombreux que ne l'attendrait un tirage honnête, un amas compact de trois carrés roses accolés au centre. Contours nets, aucun dégradé, rien d'écrit dans l'image.",
+    "alt": "Une grille de petits carrés sombres et clairs où des carrés roses, dispersés et groupés en un amas central, signalent de fausses découvertes",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi tester les logiciels d'IRMf sur des enregistrements de sujets au repos ?",
+    "choix": [
+      "Parce que le cerveau au repos produit moins de bruit, ce qui rend les images plus nettes",
+      "Parce que, sans tâche, toute activation trouvée est un faux positif, d'où un taux d'erreur mesurable",
+      "Parce que les sujets bougent moins au repos, ce qui supprime les artefacts de mouvement",
+      "Parce que les logiciels ne savent traiter que des enregistrements sans tâche"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Dans des données de repos, aucune activation n'est attendue : chaque zone déclarée significative est une erreur, et leur fréquence donne directement le taux de faux positifs. Le repos ne rend pas les images plus nettes ni n'annule le mouvement, et les logiciels analysent normalement des enregistrements avec tâche, c'est justement ce que les auteurs simulent avec des plans fictifs.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-18",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}

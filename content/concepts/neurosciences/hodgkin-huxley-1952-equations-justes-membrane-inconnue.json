@@ -1,0 +1,89 @@
+{
+  "id": "neu-hodgkin-huxley-1952-equations-justes-membrane-inconnue",
+  "slug": "hodgkin-huxley-1952-equations-justes-membrane-inconnue",
+  "titre": "Hodgkin et Huxley (1952) : des équations qui collent à une membrane inconnue",
+  "accroche": "Calculées à la main, leurs équations donnent la vitesse de l'influx d'une fibre à 11 % près, mais leurs auteurs doutent de leur propre image de la membrane.",
+  "discipline": "neurosciences",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1952, Alan Hodgkin et Andrew Huxley publient, depuis le laboratoire de physiologie de Cambridge, un article de quarante-cinq pages dans le Journal of Physiology. Il conclut une série de cinq. Son but : montrer que quelques équations suffisent à calculer un influx nerveux, sa forme comme sa vitesse. Leur matériel est un axone géant de calmar, assez gros pour qu'on y glisse des fils dans l'axe. Celui de la comparaison finale a un rayon de 238 micromètres.\n\n## Mesurer sans comprendre\n\nLes mesures reposent sur le voltage clamp, ou potentiel imposé. Un amplificateur à rétroaction envoie à travers la membrane le courant qu'il faut pour maintenir la tension au niveau choisi, si bien que le courant mesuré ne dépend plus d'une tension qui changerait en même temps. En modifiant la composition du liquide extérieur, les auteurs séparent la part du sodium, celle du potassium et un petit courant de fuite.\n\nLe résultat tient en deux phrases. Une dépolarisation provoque une augmentation brève de la conductance au sodium, et une augmentation plus lente, qui se maintient, de la conductance au potassium. Les deux changements sont graduels et réversibles. Hodgkin et Huxley écrivent alors une équation pour chacun, avec des variables comprises entre 0 et 1 : le potassium dépend de n à la puissance 4, le sodium de m à la puissance 3 multipliée par h.\n\n## Des semaines de calcul\n\nIl n'y a pas d'ordinateur. Dans sa conférence Nobel de 1963, Huxley précise que ces calculs ont été faits à la main : un potentiel d'action de membrane demandait quelques jours, un potentiel propagé quelques semaines. L'article décrit une intégration pas à pas selon la méthode de Hartree. Pour la propagation, il faut deviner la vitesse, constater que la solution file vers plus ou moins l'infini selon que l'estimation est trop faible ou trop forte, puis recommencer.\n\nPour une fibre précise, à 18,5 °C, le calcul donne 18,8 mètres par seconde. La même fibre, mesurée, conduit à 21,2. Pour la forme du potentiel d'action de membrane, les auteurs listent des écarts : un début de chute plus faible, des pics plus aigus, une petite bosse sur la descente, une fin de descente trop abrupte.\n\n## Ce que ça déplace\n\nUn accord pareil invite à prendre les équations pour une description de la membrane. Les auteurs l'écartent eux-mêmes. Dès la page 501, ils notent que l'épaisseur et la composition de la membrane excitable sont inconnues et que leurs expériences ne renseigneront guère, avec certitude, sur la nature moléculaire des changements de perméabilité. Plus loin, ils proposent une image : le potassium ne passerait que lorsque quatre particules occupent une même région, le sodium quand trois molécules activatrices sont en place et qu'une molécule inactivatrice ne bloque pas le site. Ils précisent aussitôt que cette interprétation ne donne probablement pas une image correcte de la membrane. En 1963, Huxley parle encore d'une première approximation, à affiner dans la recherche du mécanisme réel à l'échelle moléculaire.\n\nLe prix Nobel de médecine 1963, partagé avec John Eccles, récompense les découvertes sur les mécanismes ioniques de l'excitation et de l'inhibition dans la membrane des cellules nerveuses. En 1976, Erwin Neher et Bert Sakmann enregistrent le courant d'un canal ionique isolé, dans la membrane d'un muscle de grenouille. Que vaut une équation qui prédit juste, tant qu'on ignore de quoi elle parle ?",
+  "citation": null,
+  "repere": {
+    "texte": "À 18,5 °C, l'équation du potentiel d'action propagé donne une vitesse de 18,8 m/s ; la même fibre de calmar, mesurée, conduit à 21,2 m/s.",
+    "source": "Hodgkin, A.L. & Huxley, A.F., Journal of Physiology, 117(4), 1952, p. 528",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/"
+  },
+  "carte": {
+    "punch": "Des équations calculées à la main prédisent l'influx nerveux. Leurs auteurs doutent de l'image.",
+    "idee": "En 1952, Hodgkin et Huxley calculent à la main un influx nerveux : 18,8 m/s prédits, 21,2 m/s mesurés sur le même axone de calmar. Mais ils notent que leur interprétation de la membrane ne donne probablement pas une image correcte de celle-ci.",
+    "source_courte": "Hodgkin & Huxley, J. Physiol., 1952"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Hodgkin, A.L., Huxley, A.F.",
+      "titre": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+      "publication": "The Journal of Physiology, 117(4), p. 500-544",
+      "annee": 1952,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/"
+    },
+    {
+      "type": "institution",
+      "auteur": "Huxley, A.F.",
+      "titre": "The quantitative analysis of excitation and conduction in nerve (conférence Nobel, 11 décembre 1963)",
+      "publication": "Nobel Foundation, NobelPrize.org",
+      "annee": 1963,
+      "url": "https://www.nobelprize.org/prizes/medicine/1963/huxley/lecture/"
+    },
+    {
+      "type": "institution",
+      "auteur": "Nobel Foundation",
+      "titre": "The Nobel Prize in Physiology or Medicine 1963",
+      "publication": "NobelPrize.org",
+      "annee": 1963,
+      "url": "https://www.nobelprize.org/prizes/medicine/1963/summary/"
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Neher, E. & Sakmann, B., « Single-channel currents recorded from membrane of denervated frog muscle fibres », Nature, 260, 1976, p. 799-802",
+      "url": "https://doi.org/10.1038/260799a0",
+      "note": "L'enregistrement du courant d'un canal isolé ; référence vérifiée, article non lu en texte intégral pour cette fiche."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats saturés : une courbe en pic unique, noire, tracée sur un fond crème, doublée d'une seconde courbe rose profond presque superposée mais décalée et un peu plus aiguë, deux petits carrés pleins marquant leurs sommets. Contours nets, aucun dégradé, rien d'écrit dans l'image.",
+    "alt": "Deux courbes en pic presque superposées, l'une noire, l'autre rose et plus aiguë, légèrement décalées",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que disent Hodgkin et Huxley de l'image physique (particules, sites) qu'ils associent à leurs équations ?",
+    "choix": [
+      "Qu'elle illustre les équations mais ne donne probablement pas une image correcte de la membrane",
+      "Qu'elle est établie par leurs mesures de voltage clamp et décrit les canaux de la membrane",
+      "Qu'elle est prouvée par l'accord entre la vitesse calculée et la vitesse mesurée",
+      "Qu'ils la proposent pour le potassium seulement, le sodium restant sans interprétation"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Les auteurs écrivent que leurs expériences ne donneront guère d'information certaine sur la nature moléculaire des changements de perméabilité et que l'interprétation proposée ne donne probablement pas une image correcte de la membrane. Un accord de 18,8 m/s contre 21,2 m/s montre que les équations décrivent bien les courants, pas que l'image soit vraie. Et l'image est donnée pour les deux ions, quatre particules pour le potassium, trois molécules activatrices plus une inactivatrice pour le sodium.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-18",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}
