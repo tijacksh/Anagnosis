@@ -416,7 +416,7 @@ peut rouvrir directement le texte du décret.)*
 | Biologie | Mimivirus : la « bactérie » de Bradford (1992) identifiée comme virus géant en 2003 | fait | routine-production-arnaud | 2026-10-18 |
 | Biologie | Requin du Groenland : dater un vertébré sans anneaux par le radiocarbone du cristallin (Nielsen 2016) | fait | routine-production-arnaud | 2026-10-18 |
 | Biologie | Danse des abeilles : von Frisch, la ruche couchée et le radar harmonique de 2005 | fait | routine-production-arnaud | 2026-10-18 |
-| Droit constitutionnel | La Constitution japonaise de 1946, rédigée par le GHQ en quelques jours puis adoptée comme amendement de la Constitution Meiji (article 73) | en cours | routine-production-arnaud | 2026-10-19 |
-| Droit constitutionnel | La clause des trois cinquièmes (Convention de Philadelphie, 1787) : le Sud voulait compter les esclaves en entier | en cours | routine-production-arnaud | 2026-10-19 |
-| Droit constitutionnel | La Constitution fédérale suisse de 1848, déclarée acceptée par la Diète à quinze cantons et demi (abstentions lucernoises comptées pour oui) | en cours | routine-production-arnaud | 2026-10-19 |
-| Droit constitutionnel | L'élection de 1800 (Jefferson, Burr, 73 voix chacun) et le douzième amendement (1804) | en cours | routine-production-arnaud | 2026-10-19 |
+| Droit constitutionnel | La Constitution japonaise de 1946, rédigée par le GHQ en quelques jours puis adoptée comme amendement de la Constitution Meiji (article 73) | fait | routine-production-arnaud | 2026-10-19 |
+| Droit constitutionnel | La clause des trois cinquièmes (Convention de Philadelphie, 1787) : le Sud voulait compter les esclaves en entier | fait | routine-production-arnaud | 2026-10-19 |
+| Droit constitutionnel | La Constitution fédérale suisse de 1848, déclarée acceptée par la Diète à quinze cantons et demi (abstentions lucernoises comptées pour oui) | fait | routine-production-arnaud | 2026-10-19 |
+| Droit constitutionnel | L'élection de 1800 (Jefferson, Burr, 73 voix chacun) et le douzième amendement (1804) | fait | routine-production-arnaud | 2026-10-19 |
