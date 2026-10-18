@@ -58,7 +58,38 @@
     "explication": "Chez le singe entraîné, la dopamine suit l'écart avec la prédiction : salve si c'est mieux que prévu, rien si c'est conforme, baisse si c'est moins bien. Une salve plus forte signalerait une bonne surprise, et une activité inchangée correspondrait à un jus arrivé comme prévu, pas à un jus qui manque. L'enregistrement de 1997 montre une baisse précisément à l'heure où le jus aurait dû arriver.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que montre l'expérience de Berridge et Robinson (1998) chez des rats presque privés de dopamine dans le noyau accumbens et le striatum ?",
+      "choix": [
+        "Ils ne manifestent plus aucune réaction de plaisir ni de rejet devant un goût, quel qu'il soit",
+        "Ils perdent la capacité d'apprendre à associer un signal annonciateur à une récompense attendue",
+        "Leurs réactions de goût devant le sucre et la quinine restent normales"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Malgré une déplétion de la dopamine allant jusqu'à 99 % dans le noyau accumbens et le striatum, les rats gardent des réactions de goût normales et apprennent toujours une nouvelle valeur hédonique : pour Berridge et Robinson, la dopamine n'est donc nécessaire ni au plaisir ni à cet apprentissage."
+    },
+    {
+      "question": "D'après le texte de 1997 de Schultz, Dayan et Montague, le terme « récompense » désigne quoi ?",
+      "choix": [
+        "La sensation de plaisir ressentie par l'animal au moment où il reçoit le jus",
+        "Un concept opérationnel, la valeur positive qu'un animal attribue à un objet ou à un acte",
+        "Un signal purement moteur, sans lien avec la valeur attribuée à l'objet reçu"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'article de 1997 ne parle pas de plaisir : il emploie « récompense » comme concept opérationnel, la valeur positive qu'un animal attribue à un objet ou un acte, l'idée de molécule du plaisir venant d'autres faits rapportés par les auteurs eux-mêmes."
+    },
+    {
+      "question": "Comment l'article de 1997 relie-t-il le signal dopaminergique à un cadre théorique plus large ?",
+      "choix": [
+        "En le rapprochant d'un algorithme d'apprentissage par différence temporelle, introduit par Sutton et Barto",
+        "En le rapprochant d'un modèle de mémoire à court terme sans lien avec l'apprentissage",
+        "En le présentant comme une preuve que la dopamine agit indépendamment de toute prédiction"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Les auteurs rapprochent la réponse des neurones à dopamine d'un algorithme d'apprentissage par différence temporelle, introduit en psychologie et en biologie par Richard Sutton et Andrew Barto au début des années 1980."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

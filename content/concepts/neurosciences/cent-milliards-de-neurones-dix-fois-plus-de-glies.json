@@ -63,7 +63,38 @@
     "explication": "Le comptage de 2009 donne 86 milliards de neurones et 85 milliards de cellules non neuronales (glies comprises), un rapport proche de 1 et non de 10. Le nombre de neurones n'était pas dix fois trop haut (les estimations antérieures allaient de 70 à 85 milliards), les quatre cerveaux étaient ceux d'hommes morts de causes non neurologiques et sans trouble cognitif, et la méthode compte tous les noyaux, les non-neurones comme les neurones.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle méthode l'équipe de 2009 a-t-elle employée pour compter les cellules d'un cerveau humain entier ?",
+      "choix": [
+        "Le fractionneur isotrope, qui réduit le tissu en une suspension de noyaux comptés au microscope",
+        "L'extrapolation à partir de coupes de tissu comptées sur un échantillon limité",
+        "L'imagerie par résonance magnétique du volume de matière grise"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le tissu fixé est broyé dans une solution détergente pour ne laisser en suspension que les noyaux cellulaires, dont on compte la densité au microscope à fluorescence, avec le marqueur NeuN pour distinguer neurones et non-neurones."
+    },
+    {
+      "question": "D'après la fiche, que révèle la comparaison entre la masse et le nombre de neurones du cortex et du cervelet ?",
+      "choix": [
+        "Que la masse et le nombre de neurones sont proportionnels dans tout le cerveau",
+        "Que le cervelet ne contient quasiment aucun neurone",
+        "Que la masse d'une structure ne renseigne pas sur son nombre de neurones"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le cervelet pèse seulement 10 % de la masse du cerveau mais contient environ 69 milliards de neurones, soit près de 80 % du total, alors que le cortex, qui pèse 82 % de la masse, n'en contient que 19 % : la masse trompe sur le nombre réel de neurones."
+    },
+    {
+      "question": "Que conclut la revue de 2016 de von Bartheld, Bahney et Herculano-Houzel sur l'origine du rapport dix pour un ?",
+      "choix": [
+        "Qu'il provenait d'une étude expérimentale solide simplement oubliée depuis",
+        "Que les comptages publiés penchaient déjà vers un pour un, mais n'avaient jamais été confrontés aux manuels",
+        "Que le fractionneur isotrope de 2009 surestimait le nombre de cellules gliales"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La revue de 2016 montre que les comptages publiés avant 2009 penchaient déjà vers un rapport proche de un pour un, mais que cette donnée n'avait pas été rapprochée des manuels, où le dix pour un restait la valeur courante entre les années 1960 et 2009."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
