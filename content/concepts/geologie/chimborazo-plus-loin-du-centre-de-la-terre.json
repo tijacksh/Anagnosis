@@ -16,8 +16,8 @@
     "url": "https://oceanservice.noaa.gov/facts/highestpoint.html"
   },
   "carte": {
-    "punch": "Le sommet le plus haut du monde n'est pas le plus loin de son centre.",
-    "idee": "Le Chimborazo, en Équateur, culmine 2 580 mètres plus bas que l'Everest. Mais planté à un degré de l'équateur, sur le renflement de la Terre, son sommet se trouve à plus de 2 072 mètres du centre de la planète que celui de l'Everest. C'est le point du globe le plus loin de son centre.",
+    "punch": "Plus bas de 2 580 m que l'Everest, le Chimborazo est pourtant plus loin du centre de la Terre.",
+    "idee": "Le Chimborazo, en Équateur, culmine à 6 268 mètres, 2 580 mètres plus bas que l'Everest. Mais planté à un peu plus d'un degré de l'équateur, sur le renflement de la Terre, son sommet est plus loin du centre de la planète que celui de l'Everest, de plus de 2 072 mètres.",
     "source_courte": "NOAA, National Ocean Service"
   },
   "sources": [
@@ -153,11 +153,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-08",
+    "fait_le": "2026-10-18",
     "verdict": "a_revoir",
-    "empreinte": "9385eca83c97a678",
+    "empreinte": "6ab4157fe2c35cf5",
     "notes": [
-      "Deux points signalés. (1) Le paragraphe sur la mission géodésique de La Condamine/Bouguer/Godin (1735-1744, débat Newton/Descartes) n'a aucune source dédiée dans sources[], et la source censée le couvrir (Wikipedia Chimborazo) ne l'étaye qu'en partie : elle date l'expédition de 1746 (pas 1735-1744), ne nomme aucun des trois savants, et ne mentionne ni Newton ni Descartes. (2) La phrase 'confirme le résultat au mètre près : le sommet du Chimborazo se trouve à plus de 2072 mètres du centre de la Terre que celui de l'Everest' attribue ce chiffre précis à la campagne GNSS 2016. Or l'article original (Merizalde Mora et al. 2022, DOI vérifié et conforme) dit seulement 'exceeding Mount Everest's distance by approximately two kilometers', et son propre tableau 12 calcule un écart de 2111,733 m (via des données Everest externes, non mesurées par la mission) - pas 2072 m. Le chiffre de 2072 m vient en réalité de la seule source NOAA, correctement sourcé par ailleurs dans repere et sources[0]. Reste vérifié et conforme : altitude Chimborazo 6268 m, écart 2580 m avec l'Everest, latitude ~1° S (NOAA et Wikipedia Summits farthest confirment), ascension Humboldt/Bonpland/Montufar le 23 juin 1802, arrêt à ~300 m (1000 pieds) du sommet, altitude atteinte 5878 m (19286 pieds, Wikipedia Alexander von Humboldt) cohérente avec 'plus de 5800 m' du texte. DOI 10.1016/j.geog.2021.11.006 s'ouvre bien sur l'article annoncé (Geodesy and Geodynamics, vol 13 n°4, p. 343-351, 2022), campagne GNSS 2016 confirmée avec IRD, IGM équatorien et EPN (Escuela Politécnica Nacional), altitude EPN-IG 6268 m identique à NOAA. Quiz : bonne réponse et distracteurs tous vérifiés justes/faux. Aucune url morte, aucune coquille trouvée."
+      "Phrase tronquée dans le texte : « à plus de 2 072 mètres du centre de la Terre que celui de l'Everest » (il manque « plus loin »). Le chiffre de 2 072 m vient du NOAA ; l'article GNSS cité dit seulement « environ deux kilomètres »."
     ]
   },
   "meta": {
