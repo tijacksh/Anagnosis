@@ -436,3 +436,7 @@ peut rouvrir directement le texte du décret.)*
 | Océanographie | Carcasses de baleines : îlots de chimiosynthèse sur le fond (Smith et al., 1989 ; Rouse et al., 2004, Osedax) | fait | routine-production-arnaud | 2026-10-19 |
 | Océanographie | Cartographier le fond des océans : ce que « cartographié » veut dire (Seabed 2030, Niyazi et al., 2025) | fait | routine-production-arnaud | 2026-10-19 |
 | Océanographie | Zones mortes : hypoxie, stratification et nutriments (Diaz et Rosenberg, 2008 ; golfe du Mexique) | fait | routine-production-arnaud | 2026-10-19 |
+| Archéologie | Petrie et la datation par séquence (Diospolis Parva, 1901) : ordonner 900 tombes sans une seule date | en cours | routine-production-arnaud | 2026-10-20 |
+| Archéologie | Mohenjo-daro : le « massacre » de Wheeler et la relecture de Dales (Expedition, 1964) | en cours | routine-production-arnaud | 2026-10-20 |
+| Archéologie | Kennewick Man : morphologie crânienne contre génome (Rasmussen et al., Nature, 2015) | en cours | routine-production-arnaud | 2026-10-20 |
+| Archéologie | Sutton Hoo (1938-1939) : cinq rivets en place, Basil Brown et le passage de relais à Charles Phillips | en cours | routine-production-arnaud | 2026-10-20 |
