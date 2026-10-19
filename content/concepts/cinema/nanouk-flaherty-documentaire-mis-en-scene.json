@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Les personnages sont de vrais Inuit, filmés sur place, mais Flaherty compose ce qu'on voit : un chasseur encouragé à chasser comme ses ancêtres récents alors qu'il utilisait d'ordinaire un fusil, des « épouses » et des enfants qui n'étaient pas sa famille, un igloo ouvert d'un côté pour la caméra. Rien n'indique un tournage en studio ni des acteurs professionnels.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -111,11 +111,11 @@
       "explication": "Le texte rapporte que Flaherty a répété qu'Allakariallak était mort de faim moins de deux ans après l'achèvement du film, alors que, d'après Wikipédia, il est mort chez lui, probablement de la tuberculose."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-10-19T16:19:22.190Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-19T19:09:54.736Z",
     "historique": [
       {
         "action": "retoucher",
@@ -148,6 +148,14 @@
         "par": "routine-controle",
         "le": "2026-10-19T16:19:22.190Z",
         "note": "Contrôle du 2026-10-19 : le corps attribue à « ses critiques » l'idée que les caméras volumineuses et immobiles l'obligent à mettre en scène, or Wikipédia (EN) le fait dire à des cinéastes ultérieurs (Molly Dineen, A. A. Gill, BBC 2016) pour expliquer, non pour reprocher (voir la trace de contrôle)."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-19T19:09:54.736Z",
+        "note": "Troisième sortie après deux réparations déjà tentées : rejet sans nouvelle tentative, conformément à la règle anti-boucle."
       }
     ]
   },
