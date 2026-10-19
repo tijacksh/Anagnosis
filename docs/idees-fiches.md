@@ -428,3 +428,7 @@ peut rouvrir directement le texte du décret.)*
 | Médecine / Santé | L'essai MRC de la streptomycine (BMJ, 30 octobre 1948) : enveloppes scellées, 55 contre 52 patients, 4 contre 14 décès à six mois | fait | routine-production-arnaud | 2026-10-19 |
 | Médecine / Santé | John Snow et la pompe de Broad Street (1854) : l'épidémie reculait avant le retrait de la poignée, et la vraie preuve est la comparaison des deux compagnies d'eau (1855) | fait | routine-production-arnaud | 2026-10-19 |
 | Médecine / Santé | Ambroise Paré au pas de Suse : l'huile bouillante qui manque et le digestif d'œuf, récit de Paré lui-même | fait | routine-production-arnaud | 2026-10-19 |
+| Musique | Stradivarius : les solistes préfèrent des violons neufs en test en aveugle (Fritz et al., PNAS, 2014) | en cours | routine-production-arnaud | 2026-10-19 |
+| Musique | Dissonance et Tsimane d'Amazonie : la préférence pour la consonance n'est pas universelle (McDermott et al., Nature, 2016) | en cours | routine-production-arnaud | 2026-10-19 |
+| Musique | Les cheveux de Beethoven (analyse génomique, Current Biology, 2023) : ce que le plomb n'explique pas | en cours | routine-production-arnaud | 2026-10-19 |
+| Musique | Auto-Tune : le brevet d'Andy Hildebrand (1998) et l'origine sismique de la correction de hauteur | en cours | routine-production-arnaud | 2026-10-19 |
