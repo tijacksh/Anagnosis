@@ -84,7 +84,41 @@
     "explication": "Le pourcentage d'un État résume des totaux marginaux ; or un tableau à quatre cases n'est pas fixé par ses marges, donc la corrélation entre personnes peut être très différente. Le nombre d'États n'est pas en cause, ni la couverture du recensement, et les immigrés étaient bien plus souvent illettrés (9,9 % contre 3,1 %), c'est justement ce que mesure le +0,118.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle erreur de calcul, relevée en 2011 par te Grotenhuis, Eisinga et Subramanian, affecte la corrélation publiée par Robinson pour les 48 États ?",
+      "choix": [
+        "Robinson avait inversé le signe de la corrélation par une erreur de calcul arithmétique",
+        "Robinson avait compté deux fois certains États dans son tableau de corrélations",
+        "Robinson avait inclus d'autres groupes que les Blancs et les Noirs au niveau des États, sans pondération par la population",
+        "Robinson avait utilisé les données du recensement de 1920 au lieu de celui de 1930"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La correction de 2011 établit que Robinson avait mêlé, au niveau des États, des personnes d'autres groupes que les Blancs et les Noirs qu'il avait exclues au niveau individuel, et omis de pondérer par la population."
+    },
+    {
+      "question": "Que vaut la corrélation entre nés à l'étranger et illettrisme calculée sur les neuf grandes divisions du recensement ?",
+      "choix": [
+        "+0,118, comme au niveau des personnes",
+        "-0,462, la valeur corrigée par te Grotenhuis et ses collègues en 2011",
+        "-0,526, la valeur publiée par Robinson pour les 48 États",
+        "-0,619"
+      ],
+      "bonne_reponse": 3,
+      "explication": "En regroupant les 48 États en neuf grandes divisions du recensement, Robinson obtient une corrélation de -0,619, plus forte que celle calculée au niveau des États, et cette valeur n'est pas touchée par la correction de 2011."
+    },
+    {
+      "question": "Quelle conclusion Robinson tire-t-il de l'écart entre corrélation individuelle et corrélation écologique ?",
+      "choix": [
+        "Que les corrélations écologiques sont toujours plus fiables que les corrélations individuelles",
+        "Que le recensement de 1930 sous-estimait largement le nombre réel de personnes nées à l'étranger",
+        "Que les corrélations écologiques ne peuvent pas servir de substituts valides aux corrélations individuelles",
+        "Que la corrélation entre deux variables ne peut jamais changer de signe selon le niveau d'agrégation"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Robinson conclut que la relation entre corrélations écologique et individuelle montre que les premières ne peuvent pas valablement remplacer les secondes, une conclusion qui jette un doute sur plusieurs études de son temps."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
