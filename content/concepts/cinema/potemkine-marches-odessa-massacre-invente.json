@@ -73,7 +73,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le Times de Londres et le consul britannique rapportent bien des tirs de l'armée tsariste sur des émeutiers à Odessa, avec des centaines de morts, mais aucune source d'époque ne situe de fusillade en plein jour sur ce grand escalier : Eisenstein concentre en un lieu et un instant une violence réellement exercée, mais dispersée ailleurs dans la ville.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -113,11 +113,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-27T07:18:55.057Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-19T16:19:22.507Z",
     "historique": [
       {
         "action": "retoucher",
@@ -134,15 +134,23 @@
         "par": "routine-reparation",
         "le": "2026-08-27T07:18:55.057Z",
         "note": "Le corps affirmait que des grèves et émeutes agitaient déjà Odessa 'depuis plusieurs semaines' à l'arrivée du Potemkine. Wikipedia (Battleship Potemkin), rouverte, dit l'inverse mot pour mot : les émeutes ailleurs dans la ville ont été 'sparked off by the arrival of the Potemkin in Odessa Harbour'. Corps reformulé pour rester fidèle à la source : l'arrivée du navire déclenche les émeutes, elle ne s'ajoute pas à une agitation préexistante. Reste vérifié conforme sur re-lecture complète : citation Roger Ebert vérifiée mot pour mot sur rogerebert.com (apostrophes courbes correctes, déjà corrigées lors du contrôle précédent), contexte de la mutinerie de juin 1905 et théorie du montage dialectique (Britannica), tirs du Times de Londres et du consul britannique faisant des centaines de morts, tournage à Odessa (Wikipedia), interdiction du film par Staline par crainte d'un effet incitatif contre son propre régime (Britannica), quiz et distracteurs faux."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-19T16:19:22.507Z",
+        "note": "Contrôle du 2026-10-19 : l'accroche, la carte et le corps affirment qu'« aucune source de 1905 » ne mentionne de fusillade sur l'escalier, formulation qu'aucune source de la fiche ne porte : Wikipédia (EN) dit seulement que le massacre n'a pas eu lieu en plein jour ni tel que montré (voir la trace de contrôle)."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-28",
-    "verdict": "ok",
-    "empreinte": "2e559bf1d1db3d14",
+    "fait_le": "2026-10-19",
+    "verdict": "a_revoir",
+    "empreinte": "63e19227d78f4b74",
     "notes": [
-      "Fiche déjà réparée (empreinte modifiée). Rouvert en.wikipedia Battleship Potemkin : confirme la mutinerie de juin 1905, l'absence de massacre réel sur les marches, les tirs ailleurs en ville (Times/consul), l'interdiction par Staline, et cite mot pour mot la citation de Roger Ebert utilisée dans la fiche. Formulation corrigée lors de la réparation (émeutes déclenchées par l'arrivée du Potemkine) conforme à la source. britannica.com et rogerebert.com bloqués par la politique réseau (403), mais contenu recoupé via Wikipedia. Rien à redire."
+      "Citation d'Ebert rouverte (copie Wayback de rogerebert.com) : verbatim exact. Wikipédia EN (texte brut) : émeutes déclenchées par l'arrivée du Potemkine, Times du 30 juin 1905 et consul britannique, tirs de troupes et centaines de morts ailleurs, étudiante en uniforme et femme au pince-nez. Britannica (Wayback) : « the film was eventually banned by Soviet leader Joseph Stalin over fears it might incite a riot against his regime ». À REVOIR : l'accroche (« Aucune source de 1905 ne place de fusillade à cet endroit »), la carte (punch : « Aucune source de l'époque ne mentionne le massacre de l'escalier », idée : « Aucune source de 1905 ne situe la fusillade à cet endroit ») et le corps affirment une absence de toute source d'époque, ce qu'aucune source de la fiche ne dit. Ebert écrit seulement qu'il n'y a pas eu de massacre tsariste sur les marches; Wikipédia écrit que le massacre n'a pas eu lieu « in daylight or as portrayed », ce qui ne dit pas que rien n'ait été rapporté près de l'escalier la nuit. Seule la question du quiz porte le bon qualificatif (« en plein jour »). Reformuler avec ce que les sources soutiennent (pas de massacre à la lumière du jour sur l'escalier tel que filmé, selon Ebert et Wikipédia) ou citer une source d'époque qui établit l'absence."
     ]
   },
   "controle_juridique": null,
