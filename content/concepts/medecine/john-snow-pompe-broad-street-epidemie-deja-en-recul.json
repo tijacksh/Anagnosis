@@ -65,7 +65,8 @@
       "Snow n'a en réalité jamais obtenu le retrait de la poignée"
     ],
     "bonne_reponse": 0,
-    "explication": "Selon Snow, les attaques passent de 143 le 1er septembre à 12 le 8, jour du retrait, et la fuite de la population a aussi réduit la mortalité. La poignée n'est pas retirée en décembre mais le 8 septembre, à la suite de sa réunion avec la paroisse, et Snow soupçonnait l'eau avant 1854."
+    "explication": "Selon Snow, les attaques passent de 143 le 1er septembre à 12 le 8, jour du retrait, et la fuite de la population a aussi réduit la mortalité. La poignée n'est pas retirée en décembre mais le 8 septembre, à la suite de sa réunion avec la paroisse, et Snow soupçonnait l'eau avant 1854.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -91,14 +92,31 @@
       "explication": "Snow compte 143 attaques le 1er septembre, 116 le 2, 54 le 3 et 12 le 8, jour du retrait. Le recul est antérieur à la mesure : le maximum n'est pas le 8, les cas ne reprennent pas, et il en compte encore 11 le 9."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-19T11:20:16.041Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-19T11:20:16.041Z",
+        "note": "Contrôle du 2026-10-19 : la comparaison des deux compagnies d'eau est présentée comme faite « dans les mêmes rues » avec les chiffres du tableau IX, or ces chiffres ne portent pas sur les seules rues mixtes (voir la trace de contrôle)."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-10-19",
+    "verdict": "a_revoir",
+    "empreinte": "cea69d05b1c4d282",
+    "notes": [
+      "Gutenberg 72894 (texte intégral de 1855), lettre du Medical Times and Gazette (MSU) et page UCLA rouverts : attaques 143, 116, 54, 12 le 8 septembre, 11, 5, 5, 1 ; fuite de la population ; « impossible de décider » si le puits était encore contaminé ; réunion du 7, poignée retirée le 8 ; Lancet 2000 qualifie le récit d'apocryphe ; carte montrée le 4 décembre 1854 : tout confirmé.",
+      "À CORRIGER (sens) : le contenu et la carte écrivent que Snow compare deux compagnies « dans les mêmes rues » et donnent les chiffres du tableau IX (1 263 morts pour 40 046 maisons, soit 315 pour 10 000, contre 98 pour 26 107, soit 37), avec les « trois cent mille personnes » réparties sans l'avoir choisi. Chez Snow, le tableau IX divise les décès de tous les quartiers du sud de Londres, y compris ceux alimentés par la seule Southwark and Vauxhall (Bermondsey, Rotherhithe, Camberwell, etc.), par le nombre de maisons que chaque compagnie dessert en tout (retour au Parlement pour 1853). Snow le dit lui-même : son enquête a dû s'étendre à tous les quartiers desservis par l'une ou l'autre compagnie. Seule la comparaison des quartiers à alimentation entremêlée relève du mélange « dans les mêmes rues ». La carte (« dans les mêmes rues ») et la phrase « Dans les mêmes rues... Pendant les sept premières semaines... » attribuent donc au tableau IX une propriété qu'il n'a pas. Reformuler : le tableau IX compare deux populations d'abonnés (315 contre 37), et c'est le mélange des canalisations dans une partie du sud de Londres qui rend les groupes comparables. À revoir aussi la phrase du repère, qui reste exacte."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-10-19",
