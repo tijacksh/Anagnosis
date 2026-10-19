@@ -84,14 +84,14 @@
     ],
     "bonne_reponse": 3,
     "explication": "La communitas est l'état sans structure, d'égalité entre les membres d'un groupe, que partagent ceux qui vivent ensemble la liminalité, la phase de marge ; ce n'est ni la séparation ni l'agrégation décrites par van Gennep, ni un trait réservé aux sociétés sans écriture.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-09T12:38:06.092Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-19T07:35:24.986Z",
     "historique": [
       {
         "action": "retoucher",
@@ -100,6 +100,14 @@
         "par": "routine-relecture",
         "le": "2026-10-09T12:38:06.092Z",
         "note": "Sources rouvertes : texte intégral UQAM (.doc via la page sommaire), Google Books (Turner), Wikipedia Rite of passage, Liminality, Communitas. Vérifié mot pour mot chez van Gennep : « tous ceux où l'on coupe quelque chose », dénomination/baptême rangés en agrégation, préliminaires/liminaires/postliminaires, seuil (purification, sel, repas), funérailles, grossesse comme marge, ch. I. Corrigé par la relecture (texte modifié, donc à recontrôler) : ouverture encore incohérente réécrite (chez van Gennep le baptême ne donne pas un nom, la dénomination est un rite distinct) ; ch. I précisé (séparation plus développée dans les funérailles) puis nuance du ch. VIII ; « large éventail » chez Turner et généralisation sur la réception retirés (non sourcés) ; punch aligné. Reste : un contrôle indépendant du texte réécrit, après quoi validation possible."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-19T07:35:24.986Z",
+        "note": "Vérification complète, au-delà du sommaire déjà contrôlé : texte intégral de van Gennep 1909 rouvert (PDF UQAM, réédition Stock/Picard 1981) sur les deux affirmations les plus précises de la fiche, non vérifiables sur le seul sommaire. Chapitre I (page [14] du texte) : citation quasi verbatim confirmée - 'les rites de séparation le sont davantage dans les cérémonies des funérailles, les rites d'agrégation dans celles du mariage ; quant aux rites de marge, ils peuvent constituer une section importante, par exemple dans la grossesse, les fiançailles, l'initiation'. Chapitre VIII, Les funérailles (pages [209]-[210]) : confirmé mot pour mot - 'À première vue... ce sont les rites de séparation qui doivent prendre la place la plus importante... Cependant l'étude des faits montre qu'il en est autrement... les rites de séparation sont peu nombreux et très simples, que les rites de marge ont une durée et une complexité... et qu'enfin... ce sont ceux qui agrègent le mort au monde des morts qui sont les plus élaborés'. Orthographe 'postliminaires' confirmée par l'erratum manuscrit de l'auteur lui-même (le texte imprimé porte 'postiliminaires', corrigé par van Gennep en 'postliminaires'). Chapitres II (porte/seuil), IV (grossesse comme période de marge) et V (dénomination/baptême) revérifiés sur le sommaire, conformes. Wikipedia Liminality et Communitas rouvertes : confirment le terme forgé par van Gennep, le triptyque préliminaire/liminaire/postliminaire, Turner et les Ndembu, et la définition de la communitas ; les deux réserves mineures déjà notées par le contrôle (Nourry non nommé dans le sommaire, Communitas ne citant pas explicitement The Ritual Process 1969) persistent mais ne portent sur rien d'affirmé par la fiche. Aucune correction nécessaire. npm run validate et npm test passants."
       }
     ]
   },

@@ -69,7 +69,7 @@
         "Le propriétaire de la salle lui-même, M. Volpini"
       ],
       "bonne_reponse": 1,
-      "explication": "C'est Clément Maurice, photographe et ami de la famille Lumière, qui loue fin 1895 le sous-sol du Grand Café pour eux."
+      "explication": "C'est Clément Maurice, photographe et ami de la famille Lumière, qui loue fin 1895 une modeste salle du Grand Café pour eux."
     },
     {
       "question": "Que se passe-t-il dans les jours qui suivent la première séance du 28 décembre 1895, qui a réuni 33 spectateurs ?",
@@ -83,11 +83,11 @@
       "explication": "Wikipédia rapporte que la police doit intervenir pour contenir les 2 000 personnes qui veulent entrer dans la salle ; trois semaines après l'ouverture, la recette atteint 2 000 à 2 500 francs par jour."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-11T16:03:19.210Z",
+    "decide_le": "2026-10-19T07:19:59.672Z",
     "historique": [
       {
         "action": "retoucher",
@@ -104,6 +104,14 @@
         "par": "routine-reparation",
         "le": "2026-10-11T16:03:19.210Z",
         "note": "Rouvert : fr.wikipedia Salon indien du Grand Café et en.wikipedia Auguste and Louis Lumière. Corrigé : « première salle de cinéma »/« premier propriétaire de salle » → première projection payante du Cinématographe (titre, accroche, carte) ; « sous-sol », « deux inconnus », « ne croit pas une seconde », « bouche-à-oreille », « dix spectateurs ou mille » retirés ; section « Ce que ça déplace » réécrite (calcul 20 % de 2 000-2 500 F = 400-500 F, 13-16×, daté de la 3e semaine) sans généralisation radio/télé/internet ; écart 33 (fr) vs ~40 (en) signalé dans le texte ; dix films 38-49 s ajoutés (en). Quiz : question reformulée sur le fait sourcé (loyer 30 F vs 20 %), « mauvais calcul » jugement retiré, Q suppl. sans « bouche-à-oreille ». Chiffres 30 F, 20 %, 33 spectateurs, 1 F, police/2 000 personnes, 2 000-2 500 F confirmés."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-19T07:19:59.672Z",
+        "note": "Sources rouvertes (fr.wikipedia Salon indien du Grand Café, en.wikipedia Lumière), confirmées conformes au texte entier (adresse, Volpini/30F/20%, 28 décembre 1895, 33 spectateurs, police/2000 personnes, 2000-2500F/jour, dix films 38-49s, ~40 spectateurs côté en.wikipedia). Corrigé le seul point resté : quiz_supplementaire[0].explication disait « le sous-sol du Grand Café », absent de la source (qui dit « cette modeste salle ») ; remplacé par « une modeste salle du Grand Café »."
       }
     ]
   },
