@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "En 1915, la Cour valide la censure préalable de l'Ohio : les films sont pour elle un commerce, non un organe de la presse. En 1952, Burstyn c. Wilson les place sous la protection des Premier et Quatorzième amendements. Les autres propositions inversent l'ordre ou le sens des deux décisions.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -100,11 +100,11 @@
       "explication": "La notion de « sacrilège » est si floue que la Cour estime qu'aucun censeur, même attentif, ne peut éviter de favoriser une religion plutôt qu'une autre."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-11T19:11:22.640Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-19T07:27:27.679Z",
     "historique": [
       {
         "action": "retoucher",
@@ -121,15 +121,24 @@
         "par": "routine-reparation",
         "le": "2026-10-11T19:11:22.640Z",
         "note": "Cornell 236 U.S. 230 et 343 U.S. 495 rouverts intégralement. Confirmé mot pour mot : 'business, pure and simple, originated and conducted for profit, like other spectacles', 'not... as part of the press of the country, or as organs of public opinion' (pluriel, corrigé), 'vivid, useful, and entertaining... capable of evil... attractiveness and manner of exhibition', loi de l'Ohio du 16 avril 1913, critère 'moral, educational, or amusing and harmless character', dates 23 février 1915 et 26 mai 1952. Reformulé le passage sur la censure sacrilège : la Cour dit que le censeur ne peut 'virtually' éviter de favoriser une religion, pas qu'elle 'revient à choisir entre des religions' en soi -- texte aligné sur 'virtually impossible to avoid favoring one religion over another'. Carte, quiz et sources vérifiés, rien d'autre à signaler."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-19T07:27:27.679Z",
+        "note": "Contrôle du 2026-10-19 : la censure du sacrilège est dite plus fortement que l'arrêt ('virtually impossible to avoid favoring one religion over another'), dans le contenu et la question supplémentaire sur Burstyn (voir la trace de contrôle)."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-11",
+    "fait_le": "2026-10-19",
     "verdict": "a_revoir",
-    "empreinte": "d54fc4cd554f0242",
+    "empreinte": "f684a99e06869b6b",
     "notes": [
-      "Cornell 236 U.S. 230 et 343 U.S. 495 rouverts : dates, citations, 37 ans confirmés. À vérifier : « censure sacrilège inacceptable parce qu'elle revient à choisir entre des religions » plus fort que l'arrêt (« virtually impossible to avoid favoring one religion over another », à reformuler) ; « organe » -> « organes de l'opinion publique »."
+      "Cornell 236 U.S. 230 et 343 U.S. 495 rouverts : dates (23 février 1915, 26 mai 1952), loi de l'Ohio du 16 avril 1913, formule 'moral, educational, or amusing and harmless', 'business, pure and simple, originated and conducted for profit, like other spectacles', 'press of the country, or as organs of public opinion', 'vivid, useful, and entertaining, no doubt', 'capable of evil', The Miracle dans Ways of Love, 'no longer adhere' : tout confirmé.",
+      "À CORRIGER : l'arrêt de 1952 dit 'the most careful and tolerant censor would find it virtually impossible to avoid favoring one religion over another'. La fiche écrit que le censeur 'ne pourrait éviter' (contenu_vulgarise) et, dans la question supplémentaire sur Burstyn, 'ne peut éviter' / 'aucun censeur, même attentif, ne peut éviter' (choix et explication) : plus fort que 'virtually impossible' (quasi impossible). Déjà relevé aux contrôles du 11 octobre, la reformulation n'a pas levé l'écart et la question ajoutée ensuite le reproduit. Reformuler en 'presque impossible' aux trois endroits. Touche à la force d'une affirmation juridique, d'où la retouche."
     ]
   },
   "controle_juridique": null,
