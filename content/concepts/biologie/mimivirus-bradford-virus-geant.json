@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le gène 16S n'a jamais pu être amplifié, les antibiotiques n'ont pas freiné la croissance et le microbe se colorait comme une bactérie à Gram positif : tous les indices classiques pointaient vers une bactérie ou restaient muets. C'est l'image au microscope électronique qui a montré des particules virales.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -105,7 +105,7 @@
       "explication": "Le mimivirus est un virus à ADN double brin de 1 181 404 paires de bases, qui porte des gènes d'éléments centraux de la traduction (aminoacyl-ARNt synthétases, EF-Tu, facteurs d'initiation et de terminaison). Ces gènes brouillent la frontière entre virus et organismes cellulaires."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -118,6 +118,20 @@
     "empreinte": "f14a69b5b9c44a32",
     "notes": [
       "Rouvert: EID 2020 (1992, Bradfordcoccus, 2003), Abrahão 2014 (cocci Gram positif, 16S introuvable, antibiotiques sans effet, phase d'éclipse), résumé Raoult 2004 (1 181 404 pb, 1262 cadres, 10 %, gènes de traduction, 400 nm), Rolland 2019 (Birtles 1995, corps icosaédriques, 15 ans plus tard, mer). Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-19T10:14:58.432Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-19T10:14:58.432Z",
+        "note": "Sources rouvertes: Partin 2020 Etymologia EID (PMC7510689) confirme 1992, tour de refroidissement de Bradford, épidémie de pneumonie, Bradfordcoccus, identification virale en 2003, nom mimivirus et anecdote Mimi l'amibe/père médecin-chercheur. Abrahão 2014 Virology Journal (PMC4083134) confirme échec isolement/16S, cocci Gram positif, antibiotiques sans effet, phase d'éclipse, icosaédrique. Raoult 2004 Science (résumé via NCBI eutils) confirme génome 1 181 404 pb, 1262 cadres, 10%, 4 aminoacyl-ARNt synthétases + EF-Tu + facteurs initiation/terminaison + 6 ARNt, particule ~400 nm. La Scola 2003 Science (notice PubMed) confirme titre/date/auteurs, pas de résumé en ligne - cohérent avec la note de la fiche. Rolland 2019 Viruses (PMC6520786) confirme collection Birtles 1995, corps icosaédriques, et la phrase '15 ans plus tard... eau de mer'. Carte, repère et quiz vérifiés, rien à changer."
+      }
     ]
   }
 }

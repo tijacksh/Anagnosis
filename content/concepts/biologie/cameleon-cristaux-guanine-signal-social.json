@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "La taille des cristaux ne varie pas entre repos et excitation : c'est leur écart qui augmente (il est en moyenne 30 % plus petit au repos). Les pigments ne règlent que la luminosité, et la couche profonde ne change pas de couleur visible, elle réfléchit surtout le proche infrarouge.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -87,7 +87,7 @@
       "explication": "Ses cristaux plus gros et désordonnés ne changent pas de couleur visible pendant les essais osmotiques. Ils renvoient en revanche environ 45 % du rayonnement solaire du proche infrarouge, ce que les auteurs rapprochent d'une protection thermique passive."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -100,6 +100,20 @@
     "empreinte": "230e30d9de825760",
     "notes": [
       "Sources rouvertes (PMC4366488 pour Teyssier 2015, PLOS Biology pour Stuart-Fox 2008): 127 nm, écart 30 % plus petit au repos, taille des cristaux invariante, essais hypertoniques vers le bleu, couche profonde 200-600 nm, environ 45 % du proche infrarouge (700-1400 nm), 21 lignées, aucun appui pour le camouflage. Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-19T10:12:41.949Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-19T10:12:41.949Z",
+        "note": "Sources rouvertes en intégralité: Teyssier et al. 2015 (texte intégral via PMC4366488/eutils XML) — confirmé 127,4±17,8 nm, écart 30% plus petit au repos, essais hypertoniques décalant vers le bleu, couche D-iridophores 200-600 nm (longueur), ~45% du proche infrarouge réfléchi, protection thermique potentielle. Stuart-Fox & Moussalli 2008 (texte PLOS) — confirmé 21 lignées de Bradypodion, aucun appui pour le camouflage, sélection pour signaux sociaux. O'Day 2008 (commentaire PLOS Biology, pour_aller_plus_loin) — confirmé synthèse grand public de la même étude. Carte et quiz vérifiés, cohérents avec les sources, aucun distracteur repérable par la longueur. Rien à changer."
+      }
     ]
   }
 }

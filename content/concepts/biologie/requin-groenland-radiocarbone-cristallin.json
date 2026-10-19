@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le noyau du cristallin est fait de protéines fabriquées avant la naissance et jamais renouvelées : leur carbone 14 date l'époque de la naissance, pas les dernières années. Il n'y a ni anneaux annuels, ni accumulation progressive : c'est la valeur mesurée, confrontée au pic de la bombe et à une courbe de calibration, qui donne l'âge.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -87,7 +87,7 @@
       "explication": "Le pic de la bombe est une hausse du carbone 14 apparue après le milieu des années 1950. L'effet des combustibles fossiles est un autre repère, sur le carbone 13, que l'article n'utilise que comme indice indirect."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -100,6 +100,20 @@
     "empreinte": "c65aaff93b58edf1",
     "notes": [
       "Manuscrit Oxford et résumé rouverts: tous les chiffres confirmés (28 femelles, 392 ± 120, 272 minimum, 156 ± 22 à 392 cm, sensibilité 1958-1980, mère comme source du carbone). Un seul point corrigé: la comparaison avec la baleine boréale (211 ans) figure dans le texte, pas dans le résumé; phrase réattribuée, et 'longévif' remplacé."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-19T10:15:17.133Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-19T10:15:17.133Z",
+        "note": "Résumé PubMed rouvert via eutils (NCBI): 28 femelles, 81-502 cm, pic de la bombe début années 1960 chez les ≤220 cm, 272 ans minimum, 392±120 ans pour la plus grande, maturité ≥156±22 ans, conclusion vertébré le plus longévif — tout confirmé. Lynnerup 2008 (PMC2211393) rouvert: noyau du cristallin formé avant/autour de la naissance, sans renouvellement notable, confirmé. Manuscrit Oxford (ora.ox.ac.uk) inaccessible depuis ce réseau (DNS bloqué, vérifié par plusieurs tentatives et par un test de connectivité sur d'autres domaines) ; le point déjà corrigé par le contrôle (comparaison baleine boréale 211 ans absente du résumé, donc bien dans le texte et non le résumé) est corroboré indépendamment: le résumé obtenu via eutils ne mentionne pas la baleine boréale, et des articles de presse rapportent cette comparaison comme une déclaration de l'auteur principal Nielsen citant la base AnAge. Rien d'autre à changer."
+      }
     ]
   }
 }

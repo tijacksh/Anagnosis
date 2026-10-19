@@ -63,7 +63,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Ruche couchée et ciel masqué, les danseuses s'orientent mal et les recrues cherchent dans toutes les directions ; remise à la verticale, la danse indique de nouveau la direction et les recrues partent vers la source. Les assiettes parfumées n'ont pas bougé, donc l'odeur seule ne suffit pas à l'expliquer. La danse ne disparaît pas, elle se désoriente.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -87,7 +87,7 @@
       "explication": "Le radar suit les abeilles en vol. Il a permis de décrire de façon quantitative la manière dont les recrues traduisent le code de la danse en trajet, ce qui manquait encore malgré le consensus déjà établi."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -100,6 +100,20 @@
     "empreinte": "4d22bb001589ddfa",
     "notes": [
       "Discours Nobel rouvert en texte intégral (PDF): couleurs, danse en rond, 0,5 s à 4 s pour 200 à 4500 m, angle de 40 degrés, objection de Wenner, expérience de la ruche couchée à 230 m, retour des recrues en 10 minutes. Riley 2005 confirmé via Europe PMC (résumé). Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-19T10:13:27.709Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-19T10:13:27.709Z",
+        "note": "Discours Nobel de von Frisch (1973) rouvert en texte intégral (PDF) et résumé Riley et al. 2005 (Nature, via NCBI eutils) rouvert : danse en rond, danse frétillante 0,5s/200m à 4s/4500m, angle 40° confirmés mot pour mot ; objection de Wenner et expérience de la ruche couchée à 230m (3 autres directions, retour en 'quelques minutes' dans le corps du texte, '10 minutes' dans la légende de la figure 7 — la fiche retient la formulation du corps du texte, cohérente) confirmées ; Riley 2005 confirme radar harmonique, trajets réels, scepticisme initial dépassé, description quantitative manquante. Citation/repère, carte et quiz vérifiés exacts. Rien à changer."
+      }
     ]
   }
 }
