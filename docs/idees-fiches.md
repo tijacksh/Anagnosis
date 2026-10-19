@@ -432,7 +432,7 @@ peut rouvrir directement le texte du décret.)*
 | Musique | Dissonance et Tsimane d'Amazonie : la préférence pour la consonance n'est pas universelle (McDermott et al., Nature, 2016) | fait | routine-production-arnaud | 2026-10-19 |
 | Musique | Les cheveux de Beethoven (analyse génomique, Current Biology, 2023) : ce que le plomb n'explique pas | fait | routine-production-arnaud | 2026-10-19 |
 | Musique | Auto-Tune : le brevet d'Andy Hildebrand (1998) et l'origine sismique de la correction de hauteur | fait | routine-production-arnaud | 2026-10-19 |
-| Océanographie | Eaux mortes : Nansen (1893), Ekman (1904) et les deux traînées d'ondes internes (Fourdrinoy et al., PNAS, 2020) | en cours | routine-production-arnaud | 2026-10-19 |
-| Océanographie | Carcasses de baleines : îlots de chimiosynthèse sur le fond (Smith et al., 1989 ; Rouse et al., 2004, Osedax) | en cours | routine-production-arnaud | 2026-10-19 |
-| Océanographie | Cartographier le fond des océans : ce que « cartographié » veut dire (Seabed 2030, Niyazi et al., 2025) | en cours | routine-production-arnaud | 2026-10-19 |
-| Océanographie | Zones mortes : hypoxie, stratification et nutriments (Diaz et Rosenberg, 2008 ; golfe du Mexique) | en cours | routine-production-arnaud | 2026-10-19 |
+| Océanographie | Eaux mortes : Nansen (1893), Ekman (1904) et les deux traînées d'ondes internes (Fourdrinoy et al., PNAS, 2020) | fait | routine-production-arnaud | 2026-10-19 |
+| Océanographie | Carcasses de baleines : îlots de chimiosynthèse sur le fond (Smith et al., 1989 ; Rouse et al., 2004, Osedax) | fait | routine-production-arnaud | 2026-10-19 |
+| Océanographie | Cartographier le fond des océans : ce que « cartographié » veut dire (Seabed 2030, Niyazi et al., 2025) | fait | routine-production-arnaud | 2026-10-19 |
+| Océanographie | Zones mortes : hypoxie, stratification et nutriments (Diaz et Rosenberg, 2008 ; golfe du Mexique) | fait | routine-production-arnaud | 2026-10-19 |
