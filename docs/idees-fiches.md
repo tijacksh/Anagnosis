@@ -420,3 +420,7 @@ peut rouvrir directement le texte du décret.)*
 | Droit constitutionnel | La clause des trois cinquièmes (Convention de Philadelphie, 1787) : le Sud voulait compter les esclaves en entier | fait | routine-production-arnaud | 2026-10-19 |
 | Droit constitutionnel | La Constitution fédérale suisse de 1848, déclarée acceptée par la Diète à quinze cantons et demi (abstentions lucernoises comptées pour oui) | fait | routine-production-arnaud | 2026-10-19 |
 | Droit constitutionnel | L'élection de 1800 (Jefferson, Burr, 73 voix chacun) et le douzième amendement (1804) | fait | routine-production-arnaud | 2026-10-19 |
+| Histoire de l'art | La Vigne rouge (400 francs, février 1890) : ce que la légende du « seul tableau vendu » de Van Gogh garde et ce qu'elle déforme | en cours | routine-production-arnaud | 2026-10-19 |
+| Histoire de l'art | Les Tournesols de Van Gogh (Amsterdam) : le jaune de chrome qui se dégrade, Monico et al. 2015 | en cours | routine-production-arnaud | 2026-10-19 |
+| Histoire de l'art | La Grande Vague de Hokusai n'est pas un tsunami : une vague scélérate (Cartwright et Nakamura 2009, Dudley et al. 2013) | en cours | routine-production-arnaud | 2026-10-19 |
+| Histoire de l'art | Le Radeau de la Méduse au Salon de 1819 : n° 510, « Scène de naufrage », et 15 survivants sur 150 dans le récit de 1818 | en cours | routine-production-arnaud | 2026-10-19 |
