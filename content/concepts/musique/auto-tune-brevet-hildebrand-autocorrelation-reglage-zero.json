@@ -1,0 +1,97 @@
+{
+  "id": "mus-auto-tune-brevet-hildebrand-autocorrelation-reglage-zero",
+  "slug": "auto-tune-brevet-hildebrand-autocorrelation-reglage-zero",
+  "titre": "Auto-Tune : un brevet de 1999 et un réglage à zéro",
+  "accroche": "Le brevet d'Auto-Tune lisse la correction d'une voix. Selon un récit, le son robotique de « Believe » vient d'un réglage où ce lissage disparaît",
+  "discipline": "musique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "À l'automne 1998, la voix de Cher dans « Believe » saute d'une note à l'autre sans glisser. Dans une interview publiée en février 1999, son producteur Mark Taylor attribue l'effet à une pédale vocoder, la Digitech Talker. Une note ajoutée ensuite par la rédaction du magazine *Sound on Sound* précise qu'il s'agissait en réalité d'Auto-Tune, et que cette version avait été donnée pour protéger un procédé tenu secret. L'outil est devenu le nom d'un son. Son brevet décrit autre chose.\n\n## Un brevet pour corriger sans que ça s'entende\n\nLe brevet américain 5 973 252, inventeur Harold A. Hildebrand, dit Andy, est délivré le 26 octobre 1999. Il couvre la correction en temps réel de la justesse d'une voix ou d'un instrument seul. Un détecteur mesure la hauteur de la note, un correcteur la rapproche de la note visée en rééchantillonnant le signal, et le rapport de rééchantillonnage est lissé dans le temps afin d'éviter des sauts de hauteur brusques.\n\nLa difficulté tient à la mesure. La hauteur d'un son correspond à la durée de répétition de son onde. Les méthodes antérieures que le brevet passe en revue, passages par zéro ou repérage de pics, s'appuient sur une seule caractéristique du signal et s'en sortent mal sur des sons complexes. L'autocorrélation compare à l'inverse chaque cycle au précédent, avec tous les échantillons. Le brevet explique qu'elle n'était pas employée pour chercher ou suivre la période d'un son, à cause de son coût de calcul. Hildebrand, docteur en génie électrique de l'université d'Illinois (1976), avait travaillé chez Exxon sur des données sismiques destinées à choisir des sites de forage, et il présente l'autocorrélation comme une méthode issue de ce travail pétrolier. Il décrit sa simplification comme le passage d'un million de multiplications-additions à quatre. Le brevet détaille des cumuls courants, mis à jour à chaque nouvel échantillon plutôt que recalculés.\n\n## Le réglage zéro\n\nSelon le récit de Hildebrand que rapporte Priceonomics, il a prévu un cadran réglant la vitesse de la correction, et ajouté un réglage zéro posé pour le plaisir, qui change la hauteur à l'instant où le signal arrive. C'est le contraire du lissage du brevet : plus de transition, la voix tombe sur la note visée comme sur une touche de piano. Toujours selon Priceonomics, les producteurs de « Believe », Mark Taylor et Brian Rawling, ont choisi ce réglage, et la société l'a ensuite appelé « effet Cher ». Ce récit s'oppose à celui de Taylor en 1999, qui parlait d'une pédale vocoder : la fiche ne tranche pas entre les deux.\n\n## Ce que cela déplace\n\nOn associe Auto-Tune à un son de voix robotique. Le brevet décrit pourtant une correction progressive, sans saut de hauteur. Le son qu'on lui associe est un usage à l'envers : on supprime la transition que l'outil avait été conçu pour ménager.\n\nLe brevet ne dit rien de ce que Cher a demandé en studio : seuls les récits des producteurs le racontent, et ils divergent.",
+  "citation": null,
+  "repere": {
+    "texte": "Brevet américain 5 973 252, « Pitch detection and intonation correction apparatus and method » : priorité du 27 octobre 1997, dépôt le 15 octobre 1998, délivrance le 26 octobre 1999, inventeur Harold A. Hildebrand.",
+    "source": "Google Patents, US5973252A",
+    "url": "https://patents.google.com/patent/US5973252A/en"
+  },
+  "carte": {
+    "punch": "Le brevet d'Auto-Tune lisse la correction de hauteur ; son réglage zéro supprime ce lissage.",
+    "idee": "Le brevet d'Auto-Tune (1999) lisse la correction de hauteur pour éviter les sauts brusques. Selon Priceonomics, le réglage zéro les rétablit et a servi sur « Believe » (1998) ; en 1999, Sound on Sound parlait d'une pédale vocoder.",
+    "source_courte": "Brevet US 5 973 252 ; Priceonomics"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Hildebrand, Harold A.",
+      "titre": "Pitch detection and intonation correction apparatus and method (US 5,973,252)",
+      "publication": "Brevet américain, Auburn Audio Technologies / Antares",
+      "annee": 1999,
+      "url": "https://patents.google.com/patent/US5973252A/en",
+      "note": "Priorité du 27 octobre 1997, dépôt du 15 octobre 1998, délivrance le 26 octobre 1999 ; correction en temps réel, autocorrélation pour suivre la période, antériorités (passages par zéro, pics), lissage du rapport de rééchantillonnage pour éviter les sauts brusques. Les 100 000 premiers caractères de la page ont été lus."
+    },
+    {
+      "type": "web",
+      "auteur": "Crockett, Zachary",
+      "titre": "The Mathematical Genius of Auto-Tune",
+      "publication": "Priceonomics",
+      "annee": 2016,
+      "url": "https://priceonomics.com/the-inventor-of-auto-tune/",
+      "note": "Parcours de Hildebrand (docteur à l'université d'Illinois en 1976, Exxon, données sismiques), autocorrélation tirée de son travail pétrolier, « un million de multiplications-additions changé en quatre », réglage zéro « pour le plaisir », usage délibéré par Taylor et Rawling sur « Believe », « effet Cher ». Les dates de développement varient entre les sources et ne sont pas reprises ici."
+    },
+    {
+      "type": "article",
+      "auteur": "Sillitoe, Sue ; Bell, Matt",
+      "titre": "Recording Cher's « Believe »",
+      "publication": "Sound on Sound, février 1999",
+      "annee": 1999,
+      "url": "https://www.soundonsound.com/techniques/recording-cher-believe",
+      "note": "Interview de Mark Taylor, qui y décrit une pédale Digitech Talker et un synthétiseur Nord comme porteuse, et note éditoriale ajoutée par la suite : l'effet était en réalité Auto-Tune, nom donné aux producteurs pour protéger un procédé tenu secret."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Priceonomics : The Mathematical Genius of Auto-Tune (2016)",
+      "url": "https://priceonomics.com/the-inventor-of-auto-tune/",
+      "note": "Le récit de l'invention par Hildebrand, de l'autocorrélation au réglage zéro."
+    },
+    {
+      "titre": "Sound on Sound : Recording Cher's « Believe » (1999)",
+      "url": "https://www.soundonsound.com/techniques/recording-cher-believe",
+      "note": "L'interview de Mark Taylor et la note éditoriale sur le véritable outil employé."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : une ligne ondulée à gauche qui se lisse progressivement, et une seconde ligne qui passe d'un coup en escalier à angles droits. Encre Turquoise et noir uniquement, contours nets, aucun dégradé.",
+    "alt": "Une ligne ondulée qui se lisse, face à une seconde ligne en escalier à angles droits",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Dans le brevet d'Auto-Tune, à quoi sert le lissage du rapport de rééchantillonnage ?",
+    "choix": [
+      "À accélérer le calcul de la période du son pendant la détection",
+      "À éviter des sauts de hauteur brusques dans la voix corrigée",
+      "À supprimer les bruits de fond captés par le micro du chanteur",
+      "À garder la voix à la hauteur de la note chantée à l'origine"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le brevet lisse le rapport de rééchantillonnage dans le temps pour que la hauteur ne saute pas d'un coup. Il ne sert ni à accélérer la détection (rôle des cumuls courants), ni à filtrer le bruit, et il vise au contraire à rapprocher la voix de la note visée. Le réglage zéro supprime ce lissage, selon le récit de Hildebrand rapporté par Priceonomics.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-10-19",
+    "genere_par": "routine-production-arnaud",
+    "version": 1
+  }
+}
