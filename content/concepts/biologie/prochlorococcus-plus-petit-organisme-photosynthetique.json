@@ -58,7 +58,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Sa taille, 0,5 à 0,7 micromètre, plus petite que la plupart des bactéries, le plaçait sous le seuil de détection des méthodes d'observation utilisées avant le cytomètre en flux. Le signal qu'il produisait a d'abord été pris pour du bruit électronique de l'appareil, avant que Chisholm et Olson n'identifient sa régularité en 1985-1986.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -95,11 +95,11 @@
       "explication": "La fiche cite des relevés ayant mesuré jusqu'à 700 000 cellules de Prochlorococcus par millilitre d'eau de surface dans des zones comme la mer d'Arabie."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-03T18:01:15.591Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-19T02:20:50.838Z",
     "historique": [
       {
         "action": "valider",
@@ -108,15 +108,23 @@
         "par": "routine-relecture",
         "le": "2026-08-03T18:01:15.591Z",
         "note": "Partensky, Hess & Vaulot 1999 (PMC98958, texte intégral) confirme mot pour mot la taille (0,5-0,7 μm), les 700 000 cellules/mL en mer d'Arabie, la fourchette 11-57% de production phytoplanctonique, et la découverte par Rob Olson et Ginger Armbrust lors d'une campagne 1985 au large de la Barbade suivie de la description formelle par Chisholm et al. en 1988 — la fiche simplifie en n'omettant qu'Armbrust, sans rien affirmer de faux. MIT (betterworld.mit.edu) confirme mot pour mot 'remained unknown until 1988', 'every fifth breath we take' et 'may be the most abundant single species on Earth' (la fiche est légèrement plus affirmative que ce 'may be', nuance mineure jugée non bloquante). Repère, carte et quiz conformes."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-19T02:20:50.838Z",
+        "note": "Contrôle du 2026-10-19 : le récit de la découverte et un chiffre ne se retrouvent pas dans les sources de la fiche (voir la trace de contrôle)."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-14",
-    "verdict": "ok",
-    "empreinte": "dd9e33649b604511",
+    "fait_le": "2026-10-19",
+    "verdict": "a_revoir",
+    "empreinte": "5bf2ab115a6be328",
     "notes": [
-      "Recontrôle après changement d'empreinte dû uniquement au retrait des tirets cadratins (commit 5091a13, tirets remplacés par des virgules dans contenu_vulgarise, repere.texte et quiz.explication) — vérifié via git show, aucun changement de fond. Fond déjà vérifié en détail lors du contrôle du 2026-08-03 (citations exactes de Partensky, Hess & Vaulot 1999 et du MIT confirmées). Spot-check : les deux sources (PMC98958, betterworld.mit.edu) sont toujours en ligne et leur contenu inchangé. Rien à signaler."
+      "Partensky, Hess et Vaulot 1999 (PMC98958) rouvert en intégralité : 0,5 à 0,7 µm et « smallest known photosynthetic organism », 11 à 57 % de la production phytoplanctonique, 700 000 cellules/mL en mer d'Arabie confirmés. MIT betterworld : « unknown until 1988 », « every fifth breath » confirmés. À VÉRIFIER ET CORRIGER : (1) le repère et le corps disent « 700 000 cellules par millilitre d'eau de surface » : l'article donne ce maximum comme enregistré en mer d'Arabie sans dire que c'est en surface, et précise que le maximum de Prochlorococcus se situe au bas de la zone euphotique, avec au moins un ordre de grandeur de moins en surface. (2) La scène de la découverte (Chisholm fait passer des échantillons, signal pris pour du bruit électronique, Olson postdoctorant, 1985) ne figure dans aucune des sources citées : l'article de 1999 dit que Rob Olson et Ginger Armbrust ont les premiers vu, lors d'une campagne au large de la Barbade en 1985, dans un échantillon profond, une population de particules fluorescentes rouges plus faibles que Synechococcus ; ni le MIT (qui ne mentionne ni 1985, ni Olson, ni cytomètre, ni bruit) ni NPR ne racontent l'épisode du bruit. Il est corroboré hors fiche par une recherche web (Technology Review 2008 « Partying with Prochlorococcus », profil MIT Biologie de Chisholm : « electronic noise », Olson ancien postdoc), à citer si on le garde. (3) L'accroche dit « En 1986 », le corps et le quiz 1985 ; la découverte formelle date de 1988 (Nature). (4) « Espèce unique la plus abondante sur Terre » (repère) : Partensky écrit « most abundant photosynthetic organism in the ocean and presumably on Earth », MIT « may be the most abundant single species », NPR « one of the most abundant organisms » : nuancer. (5) « D'autres institutions avancent des parts plus modestes » : aucune source de la fiche. Les points 1, 2 et 4 touchent au sens, d'où le passage en retouche."
     ]
   },
   "meta": {
