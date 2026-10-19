@@ -1516,3 +1516,9 @@ Sept essais hors dépôt (10 à 40 fiches chacun, jugés à l'aveugle par Sonnet
 **Décision (Arnaud).** Sortir du couple grotesque + serif (signe n° 12). Les titres passent en Newsreader (graisse 600–700, axe `opsz` poussé), les libellés restent en Martian Mono. Bricolage Grotesque est retirée du site, de l'app iOS, de l'app Android et des cartes des réseaux (carrousel, concept, fin de marque). Surtitres du site en minuscules (n° 7). Le style de bouton fantôme (n° 15) attend le câblage des boutons des stores.
 
 **Conséquences.** Les cartes déjà publiées gardent l'ancienne police. Les apps embarquent une police de moins (−400 Ko). Diapo quiz des carrousels : cadres de réponse ajustés à leur texte, une seule taille pour les quatre réponses, bloc centré.
+
+## 2026-10-19 — L'app iOS s'adapte à l'iPhone Duo
+
+**Décision (Arnaud).** Adapter l'app à tous les modes d'utilisation du Duo, sauf le portrait inversé ; portrait figé sur l'écran extérieur replié (le paysage y coupait des écrans entiers), paysage réservé à l'écran intérieur. Détails et état : `docs/duo.md`.
+
+**Conséquences.** Mise en page décidée par la taille de la fenêtre et par les régions réservées du SDK 27.1 (la pliure), jamais par l'idiome ni l'orientation. Deux volets pour la lecture, liste et fiche côte à côte pour le calendrier et l'archive, barre d'onglets latérale quand la hauteur manque ou que l'écran est plié. Android n'est pas concerné pour l'instant.
