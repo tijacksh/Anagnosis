@@ -60,7 +60,7 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -73,6 +73,20 @@
     "empreinte": "15958e45f8ec0de4",
     "notes": [
       "Sources rouvertes : Ebbinghaus 1913 (psychclassics, ch. 3 : environ 2 300 syllabes, voyelle entre deux consonnes ; ch. 7 : séries de 13 syllabes, critère de deux récitations sans faute, 58 % après 19 minutes, 33,7 % après 24 heures, environ un cinquième après un mois) et Murre & Dros 2015 (un seul sujet de 22 ans, environ 70 heures, intervalles de 20 minutes à 31 jours, réplique réussie, courbe non lisse avec saut probable dès 24 heures, lien avec le sommeil à établir, économie à 31 jours de 0,041, hypothèse de pratique massée). Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-20T10:18:21.531Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-20T10:18:21.531Z",
+        "note": "psychclassics.yorku.ca inaccessible depuis cet environnement (bloqué par la politique réseau de la session) ; vérifié à la place sur archive.org, qui héberge la même traduction 1913 (Ruger & Bussenius) : confirme ~2300 syllabes sans sens (voyelle entre deux consonnes, ch. 3), séries de 8x13 syllabes apprises jusqu'à deux récitations sans faute, économie Q=58,2% à 19 minutes, Q=33,7% à 24h ('about one third was always remembered'), Q=21,1% à 31 jours ('fully one fifth of the first work persisted'). PLOS ONE (Murre & Dros 2015, doi.org) relu intégralement : sujet unique Dros 22 ans, ~70h, intervalles 20 min à 31 jours, réplique réussie, courbe non lisse avec saut probable à 24h, lien sommeil à établir, économie à 31 jours de 0,041 (corrigée à 0,137, toujours plus basse que les autres courbes), hypothèse de pratique massée présentée comme spéculative. Rien à redire, carte et quiz conformes."
+      }
     ]
   }
 }

@@ -57,10 +57,10 @@
     ],
     "bonne_reponse": 1,
     "explication": "Dans les deux groupes de quatre, l'attachement va à la mère de tissu. Les petits nourris par la mère de fil de fer s'en détachent avec le temps au profit de celle de tissu ; ils ne la préfèrent pas exclusivement, et l'absence de préférence contredirait le test de peur, où ils vont vers la mère de tissu.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -73,6 +73,20 @@
     "empreinte": "ac43fa73b29ffb31",
     "notes": [
       "Sources rouvertes : Harlow 1958 (psychclassics) confirme discours présidentiel du 31 août 1958, huit nouveau-nés en deux groupes de quatre, préférence pour la mère de tissu dans les deux groupes, contact comfort 'overwhelming importance' contre allaitement 'negligible importance', pièce inconnue (cube de six pieds, séances de trois minutes), base d'exploration, test du jouet inquiétant, hypothèse sur la tétée présentée comme suggestion, renforçateur secondaire jugé insuffisant. Science 1959 : référence 130(3373), 421-432 non ouvrable (403 éditeur) mais DOI valide. Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-20T10:18:36.633Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-20T10:18:36.633Z",
+        "note": "Doute que je ne peux pas lever seul : psychclassics.yorku.ca (source principale et repère) est inaccessible depuis cet environnement d'exécution (bloqué par sa politique réseau), ainsi que les miroirs alternatifs testés (yorku.ca, sites.lifesci.ucla.edu, scottbarrykaufman.com). Science 1959 (doi.org) relu : redirige vers science.org, 403 côté éditeur mais DOI valide, comme déjà noté au contrôle. PMC7433398 (relu, sur les visites de Bowlby et Bettelheim chez Harlow) confirme indépendamment la préférence pour la mère de tissu quel que soit le groupe nourricier et cite 'contact comfort was an important basic affectional or love variable' (Harlow 1958, p. 677). Mais je n'ai pas pu revérifier par une lecture indépendante du texte primaire : les huit nouveau-nés en deux groupes de quatre, le test en pièce inconnue de six pieds pendant trois minutes, les formules exactes 'overwhelming importance' / 'negligible importance', ni le détail du test du jouet inquiétant. Pour lever le doute : relire psychclassics.yorku.ca (ou un miroir équivalent) depuis un environnement réseau sans cette restriction."
+      }
     ]
   }
 }
