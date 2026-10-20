@@ -71,7 +71,41 @@
     "explication": "Les auteurs écrivent que leurs expériences ne donneront guère d'information certaine sur la nature moléculaire des changements de perméabilité et que l'interprétation proposée ne donne probablement pas une image correcte de la membrane. Un accord de 18,8 m/s contre 21,2 m/s montre que les équations décrivent bien les courants, pas que l'image soit vraie. Et l'image est donnée pour les deux ions, quatre particules pour le potassium, trois molécules activatrices plus une inactivatrice pour le sodium.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment Hodgkin et Huxley isolent-ils, dans leurs mesures, la part du sodium et celle du potassium dans le courant membranaire ?",
+      "choix": [
+        "En changeant la composition du liquide extérieur, sous voltage clamp, pour voir quelle part du courant disparaît",
+        "En retirant chirurgicalement les deux canaux l'un après l'autre sur l'axone géant de calmar",
+        "En calculant la différence entre la vitesse mesurée et la vitesse prédite par leurs équations"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le voltage clamp impose la tension et mesure le courant nécessaire pour la maintenir ; en modifiant la composition du liquide extérieur, les auteurs voient quelle part du courant dépend du sodium et laquelle dépend du potassium. Les deux autres propositions ne correspondent à aucune méthode décrite dans la fiche.",
+      "statut": "valide"
+    },
+    {
+      "question": "Pourquoi le calcul d'un potentiel d'action propagé demande-t-il des semaines, selon la fiche ?",
+      "choix": [
+        "Parce qu'il faut recommencer l'expérience sur plusieurs axones de calmar avant d'obtenir une mesure stable",
+        "Parce qu'il n'y a pas d'ordinateur : l'intégration se fait à la main, pas à pas, et il faut deviner la vitesse puis corriger par essais successifs",
+        "Parce que les auteurs doivent d'abord établir l'image des particules et des sites avant de calculer quoi que ce soit"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La fiche précise qu'il n'y a pas d'ordinateur, que l'intégration suit la méthode de Hartree pas à pas, et que pour la propagation il faut deviner la vitesse, voir la solution diverger, puis recommencer : c'est ce tâtonnement manuel qui prend des semaines. Les deux autres propositions ne figurent pas dans le texte.",
+      "statut": "valide"
+    },
+    {
+      "question": "Pour la fibre citée en exemple, qu'observe-t-on entre la vitesse calculée et la vitesse mesurée de l'influx ?",
+      "choix": [
+        "Les deux vitesses sont rigoureusement identiques, au centième près",
+        "La vitesse calculée dépasse largement la vitesse mesurée, de plus de moitié",
+        "La vitesse calculée, 18,8 m/s, est proche de la vitesse mesurée, 21,2 m/s, sans lui être égale"
+      ],
+      "bonne_reponse": 2,
+      "explication": "À 18,5 degrés, l'équation donne 18,8 mètres par seconde alors que la même fibre, mesurée, conduit à 21,2 mètres par seconde : les deux valeurs sont proches, à 11 % près selon l'accroche, mais pas identiques. Les deux autres propositions contredisent les chiffres donnés par la fiche.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
