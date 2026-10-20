@@ -60,7 +60,7 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -73,6 +73,20 @@
     "empreinte": "dfffd219556a461e",
     "notes": [
       "Sources rouvertes : Miller 1956 (psychclassics : 'persécuté par un entier', Pollack 2,5 bits, Garner 2,3 bits, empan d'environ sept éléments, huit chiffres décimaux contre neuf binaires, recodage par paires, 24/36/environ 40 chiffres binaires pour douze paquets, 'pernicious, Pythagorean coincidence', 'plus ou moins deux' seulement dans le titre) et Cowan 2001 (résumé : estimation approximative et procédé rhétorique, trois à cinq paquets, environ quatre paquets, quatre conditions, limites pures et composées). Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-20T22:15:46.762Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-20T22:15:46.762Z",
+        "note": "Sources rouvertes indépendamment malgré le blocage réseau de psychclassics.yorku.ca : citation exacte de Miller ('persecuted by an integer', 'pernicious, Pythagorean coincidence') confirmée mot pour mot via la nécrologie de Pinker (Harvard DASH, American Psychologist 2013, qui cite Miller directement) ; capacité de canal 2,5 bits (Pollack, hauteur) confirmée par citation exacte retrouvée ; recodage par paires (24 chiffres binaires = 12 paquets en base 4) confirmé par synthèse indépendante ; empan borné par les paquets et non par les bits confirmé via Wikipédia (en). Résumé de Cowan 2001 relu via Cambridge Core (doi.org/10.1017/S0140525X01003922) : les cinq points cités par la fiche (estimation grossière/procédé rhétorique, trois à cinq paquets, limite centrale de quatre, quatre conditions d'observation, limites pures/composées) tous confirmés mot pour mot. Carte, repère et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

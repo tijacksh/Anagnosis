@@ -67,7 +67,7 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -81,6 +81,20 @@
     "notes": [
       "Source 1907 rouverte via WebSearch (galton.org bloqué par la politique réseau) : confirme texte exact de la citation ('more creditable to the trustworthiness of a democratic judgment'), 787 cartes après 13 écartées, médiane publiée 1207, poids apprêté publié 1198, écart 9 livres/0,8%, mention des bouchers et fermiers 'highly expert'.",
       "Wallis 2014 (arxiv.org/pdf/1410.3989) lu en entier (sections 1-4) : confirme médiane réelle 1208 (394e sur 787), poids réel 1197 livres (lettre de l'organisateur, 10 cwt 2 qr 21 lb), écart réel 11 livres ; Hooker (21 mars) estime la moyenne à ~1196, Galton répond (28 mars, une semaine après publication de Hooker) avec la moyenne exacte de 1197 livres ; avec le poids correct la moyenne a une erreur nulle, confirmant explicitement l'affirmation de la fiche. Rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-20T22:16:06.785Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-20T22:16:06.785Z",
+        "note": "Wallis 2014 relu en entier en texte intégral (PDF arXiv 1410.3989 téléchargé et lu page par page, galton.org toujours inaccessible par politique réseau). Confirmé mot pour mot : citation exacte de Galton 'This result is, I think, more creditable to the trustworthiness of a democratic judgment than might have been expected.' (reproduite par Wallis en citant Galton 1907b) ; 787 cartes après 13 écartées ; médiane publiée 1207 lb, poids apprêté publié 1198 lb, écart 9 lb/0,8% ; mention des bouchers et fermiers 'highly expert in judging the weight of cattle' ; principe 'one vote one value' ; médiane réelle 1208 lb (394e sur 787) ; poids réel 1197 lb (10 cwt, 2 qt, 21 lbs, lettre de l'organisateur) ; écart réel 11 lb ; lettre de Hooker du 21 mars 1907 estimant la moyenne à ~1196 lb ; réponse de Galton (1907c) du 28 mars 1907 donnant la moyenne exacte de 1197 lb ; reprise des chiffres erronés dans Memories of My Life (1908). Avec le poids correct, la moyenne a une erreur nulle — confirme explicitement l'affirmation centrale de la fiche. Carte, repère (absent, citation présente) et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

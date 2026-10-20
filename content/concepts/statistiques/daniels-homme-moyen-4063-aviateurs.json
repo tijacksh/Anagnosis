@@ -67,7 +67,7 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -81,6 +81,20 @@
     "notes": [
       "Source primaire rouverte en texte intégral (archive.org, DTIC_AD0010203_djvu.txt) : confirme l'échantillon de 4063 aviateurs, les 131 mensurations disponibles dont 10 retenues, le 'moyen approximatif' à ±0,3 écart type, la cascade complète 1055/302/143/73/28/12/6/3/2/0, l'exemple du dernier homme (62 dans la zone centrale, 29 au-dessous, 9 au-dessus), la citation exacte de Daniels et la recommandation de concevoir pour une plage (porte à 6 pieds 1 pouce laissant passer 95%).",
       "Seconde source (Hertzberg, Churchill, Daniels — WADC TR 52-321) confirmée par recherche croisée : titre, auteurs, 132 mensurations, plus de 4000 personnes, correspond à la note de la fiche."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-20T22:16:00.082Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-20T22:16:00.082Z",
+        "note": "Source primaire rouverte en texte intégral (archive.org, DTIC_AD0010203_djvu.txt, récupérée et grep'ée directement). Confirmé mot pour mot : citation exacte complète 'Thus it can be seen that the \"average man\" is a misleading and illusory concept as a basis for design criteria, and is particularly so when more than one dimension is being considered.' ; échantillon de 4063 hommes ; 131 mensurations ; cascade d'élimination 1055 (après la taille) jusqu'à 0 ; l'exemple de la porte à 6 pieds 1 pouce laissant passer 95% du groupe (contre 90% pour la plage 5pi5-6pi1) ; la liste des dix mensurations retenues. Seconde source (Hertzberg, Churchill, Daniels, WADC TR 52-321) cohérente avec la note de la fiche. Carte, repère (absent, citation présente) et quiz conformes aux sources. Rien à corriger."
+      }
     ]
   }
 }
