@@ -70,7 +70,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le juge Vaughan estime qu'un jury ne peut être puni pour son verdict, car lui seul a suivi l'intégralité des débats ; la récusation des jurés, le choix royal des jurés et la règle d'unanimité ne sont pas en cause dans cette affaire.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -107,7 +107,7 @@
       "explication": "Bushel refuse de payer l'amende et demande à la Cour des plaids communs un bref d'habeas corpus, qui aboutit à sa libération ordonnée par le Chief Justice Vaughan."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
@@ -132,11 +132,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-24",
-    "verdict": "ok",
-    "empreinte": "126f286145b187ed",
+    "fait_le": "2026-10-20",
+    "verdict": "a_revoir",
+    "empreinte": "0b0a17863619587c",
     "notes": [
-      "Ce qui a changé depuis le dernier contrôle (trois passages déjà documentés) est uniquement l'ajout du quiz_supplementaire par la routine questionner. Les trois nouvelles questions rouvertes contre les sources déjà vérifiées (constitution.org/penn-mead, constitution.org/bushell) : citations exactes retrouvées mot pour mot pour les questions 2 et 3, distracteurs bien faux. Nuance non bloquante sur la question 1 : elle fusionne la cause de l'arrestation d'août 1670 (Conventicle Act, sourcé via Wikipedia) et le chef d'inculpation formel du procès du 1er septembre (tumultuous assembly de common law selon la transcription primaire) — nuance déjà présente dans le corps validé trois fois, pas une erreur introduite par le quiz. Position des bonnes réponses sur l'ensemble du quiz (1,0,2,3) : bien équilibrée, chaque position utilisée une fois. Rien à corriger."
+      "Transcription Penn et Mead (constitution.org) et rapport Vaughan rouverts : citation de Vaughan exacte ; habeas corpus devant les Plaids communs, bref du 9 novembre 1670, libération ; Starling, Howell, Veer, Bushel ; menace « sans viande, boisson, feu ni tabac » ; verdict final non coupable ; amende de quarante marks par juré avec emprisonnement jusqu'à paiement. A REVOIR : (1) le corps (« en infraction au Conventicle Act ») et la 1re question de quiz_supplementaire (bonne réponse « en infraction au Conventicle Act ») sont contredits par la transcription : l'acte d'accusation vise une assemblée « unlawfully and tumultuously » du 14 août 1670 à Gracechurch Street et aucun texte de loi n'est cité (le Recorder, interrogé par Penn, répond « Upon the common-law »). A reformuler et à refaire en question. (2) Le calendrier du corps (« le 1er septembre... comparaissent » puis premier verdict, nuit, 4 septembre) est resserré : la transcription donne 1er septembre pour la mise en accusation, 3 septembre pour le procès et le premier verdict, 4 septembre pour le second retour, le 5 pour le verdict final et les amendes. (3) Le Recorder promet de « marquer » Bushel (« I will set a mark upon you ») et de l'avoir à l'œil ; la fiche dit « qu'il accuse de manipuler les autres jurés », formule non retrouvée. (4) Le numéro 124 E.R. 1006 n'apparaît pas sur la page citée ; rapport Vaughan 135 seul."
     ]
   },
   "controle_juridique": {
