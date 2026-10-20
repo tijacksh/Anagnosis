@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Rien dans l'article 16 de 1958 ne limitait la durée des pouvoirs exceptionnels ni n'organisait de contrôle périodique : c'est précisément ce que corrigera, près d'un demi-siècle plus tard, la révision constitutionnelle de 2008.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Le texte précise que depuis 2008, le Conseil constitutionnel peut être saisi après trente jours, et doit se prononcer de lui-même passé soixante jours d'exercice des pouvoirs exceptionnels."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-21T19:13:29.649Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-20T11:21:19.242Z",
     "historique": [
       {
         "action": "valider",
@@ -129,15 +129,23 @@
         "par": "routine-reparation",
         "le": "2026-09-21T19:13:29.649Z",
         "note": "Sources rouvertes : décision CC 23/4/1961, Légifrance art.16, Wikipedia Article 16, Wikipedia Rubin de Servens (toutes confirmées conformes). Ajout d'une 5e source, Wikipedia « Putsch des généraux », qui source les noms des quatre généraux et les dates 21-26 avril absentes des 4 sources initiales. Corrections : durée « quatre jours »→« cinq jours » (titre, accroche, punch, quiz) pour matcher le 21-26 avril ; repere reformulé pour ne plus attribuer à la décision du 23/4 un fait du 25/4 (impossibilité chronologique), recentré sur la durée 23/4-29/9 sourcée par Wikipedia ; « généraux à la retraite » corrigé en « ayant quitté le service actif » (aucun des quatre n'était formellement retraité)."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-20T11:21:19.242Z",
+        "note": "Contrôle des sources : sources rouvertes (décision CC du 23 avril 1961, Rubin de Servens, art. 16, Wikipédia), faits conformes. Défaut du quiz principal : le distracteur « l'article 16 n'avait jamais été appliqué avant l'année 1961 » est vrai en soi (1961 est son unique application), il n'est donc pas faux."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-03",
-    "verdict": "ok",
-    "empreinte": "5c2e5a5bd6e738f0",
+    "fait_le": "2026-10-20",
+    "verdict": "a_revoir",
+    "empreinte": "351ea366d7fb6818",
     "notes": [
-      "Recontrôle après réparation du 21/09 (empreinte modifiée par la réparation). 5 sources rouvertes : décision CC du 23/4/1961 (confirme les conditions de l'art. 16, ne mentionne pas le 25 avril ni les noms des généraux — cohérent, le repère ne leur attribue plus rien), Légifrance art. 16 (mécanisme de saisine à 30/60 jours issu de la révision de 2008 confirmé), Wikipedia Article 16 (dates 23 avril-29 septembre 1961 confirmées), Wikipedia Rubin de Servens (acte de gouvernement, non-contrôle de la durée, confirmés mot pour mot), Wikipedia Putsch des généraux (Challe/Jouhaud/Salan/Zeller confirmés, aucun n'était formellement retraité — cohérent avec « ayant quitté le service actif », dates 21-26 avril confirmant les cinq jours). Rien à corriger."
+      "Décision CC du 23 avril 1961 (lettre du 22), Légifrance et Wikipédia art. 16 (23 avril au 29 septembre 1961, trente et soixante jours), Rubin de Servens (citation exacte), Putsch des généraux rouverts : faits, dates (159 jours) et citation conformes. Seul défaut : quiz principal, le distracteur « Parce que l'article 16 de la Constitution n'avait jamais été appliqué avant l'année 1961 » est vrai en soi (1961 est son unique application) ; un distracteur doit être faux. À remplacer par une affirmation fausse, la bonne réponse ne change pas."
     ]
   },
   "controle_juridique": {
