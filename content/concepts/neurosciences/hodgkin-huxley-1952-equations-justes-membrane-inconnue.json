@@ -69,14 +69,14 @@
     ],
     "bonne_reponse": 0,
     "explication": "Les auteurs écrivent que leurs expériences ne donneront guère d'information certaine sur la nature moléculaire des changements de perméabilité et que l'interprétation proposée ne donne probablement pas une image correcte de la membrane. Un accord de 18,8 m/s contre 21,2 m/s montre que les équations décrivent bien les courants, pas que l'image soit vraie. Et l'image est donnée pour les deux ions, quatre particules pour le potassium, trois molécules activatrices plus une inactivatrice pour le sodium.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-19T22:18:33.622Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-20T04:03:04.247Z",
     "historique": [
       {
         "action": "retoucher",
@@ -85,6 +85,14 @@
         "par": "routine-relecture",
         "le": "2026-10-19T22:18:33.622Z",
         "note": "Sources rouvertes : article 1952 intégral (OCR du volume 117 du Journal of Physiology sur archive.org — PMC bloque l'accès automatisé par reCAPTCHA), conférence Nobel de Huxley 1963 (PDF nobelprize.org), page du prix Nobel 1963 (nature exacte : Eccles/Hodgkin/Huxley), et titre Neher & Sakmann 1976 confirmé sur nature.com. Tout le fond concorde (238 µm, méthode de Hartree, « unlikely to provide a correct picture of the membrane », 4 particules potassium / 3 activatrices + 1 inactivatrice sodium, série de cinq articles, 45 pages). Mais le contrôle précédent a corrigé deux pages dans le mauvais sens : le texte primaire montre que la comparaison 18,8/21,2 m/s est en page 528 (pas 527) et que la phrase sur la membrane inconnue est en page 501, donc 'deuxième page' et non 'première' (le papier commence en page 500 par le titre et l'introduction, pas par cette phrase). J'ai corrigé les deux dans le texte et le repere ; l'empreinte a donc changé et un contrôle doit revoir ces deux points avant une nouvelle relecture."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-20T04:03:04.247Z",
+        "note": "Aucun changement de texte. Rouverts : article de 1952 en texte intégral (copie Caltech) : 238 µ, 18,5 °C, 18,8 m/s calculé contre 21,2 m/s mesuré à la page 528 ; membrane d'épaisseur et composition inconnues à la page 501 ; « unlikely to provide a correct picture of the membrane » ; quatre écarts de forme du potentiel d'action membranaire ; méthode de Hartree ; quatre particules K, trois activatrices plus une inactivatrice Na ; conductance Na transitoire et K maintenue, changements graduels et réversibles ; article clôturant une série de cinq. Conférence Nobel de Huxley (PDF nobelprize.org) : calculs à la main, quelques jours pour un potentiel de membrane et quelques semaines pour un potentiel propagé, « first approximation », 11 décembre 1963. Page Nobel 1963 : prix partagé avec Eccles. Nature 1976 : titre Neher et Sakmann confirmé."
       }
     ]
   },
