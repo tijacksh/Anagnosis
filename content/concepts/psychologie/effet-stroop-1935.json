@@ -62,10 +62,10 @@
     ],
     "bonne_reponse": 3,
     "explication": "Dans l'expérience 2, nommer l'encre de mots discordants prend 74 % de temps en plus ; dans l'expérience 1, lire ces mêmes mots n'est ralenti que de 5,6 %, une différence non fiable. Et l'entraînement de l'expérience 3 réduit le temps de 33,9 % sans supprimer l'interférence.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-18",
@@ -81,8 +81,8 @@
     ]
   },
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-20T10:18:36.301Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-20T16:02:04.951Z",
     "historique": [
       {
         "action": "retoucher",
@@ -91,6 +91,14 @@
         "par": "routine-relecture",
         "le": "2026-10-20T10:18:36.301Z",
         "note": "Doute que je ne peux pas lever seul : psychclassics.yorku.ca (source principale et repère) est inaccessible depuis cet environnement d'exécution (bloqué par sa politique réseau), ainsi que tous les miroirs alternatifs testés (eclass.uoa.gr, yorku.ca, support.pstnet.com, mpi.nl, garfield.library.upenn.edu, psycnet.apa.org, doi.apa.org pour MacLeod 1991). Wikipedia (relu) confirme la structure des trois expériences et les théories concurrentes. Algom & Chajut 2019 (PMC6688540, relu) confirme indépendamment 63,3 s pour les carrés et environ 110 s pour les mots en désaccord — proche des 110,3 s de la fiche sans les confirmer au dixième. Mais je n'ai pas pu revérifier par une lecture indépendante du texte primaire : le +74% exact, l'expérience 1 (70 sujets, 2,3 s/5,6%), l'expérience 3 (32 étudiants d'Arizona, 3 exclus, 16,8 s/33,9%), ni le DOI MacLeod. Pour lever le doute : relire psychclassics.yorku.ca (ou un miroir équivalent) depuis un environnement réseau sans cette restriction."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-20T16:02:04.951Z",
+        "note": "Source rouverte : texte de Stroop 1935 sur psychclassics (cinq couleurs, 100 éléments par feuille ; exp. 1 : 70 étudiants, 2,3 s, 5,6 %, non fiable ; exp. 2 : 100 sujets dont 88 de premier cycle et 12 de troisième cycle, 63,3 s contre 110,3 s, +47 s, 74 % ; exp. 3 : 32 étudiants d'Arizona, deux écartés pour le calendrier, une pour la vision rouge-vert, 16,8 s, 33,9 %, interférence réduite mais pas supprimée ; explication par l'entraînement ; « marked interference » en exp. 2). Wikipédia Stroop effect relu pour les théories (relu par le contrôle du 20 octobre). Aucun changement de texte à faire : les deux tirets cadratins ont déjà été retirés par le contrôle ; quiz juste, distracteurs faux."
       }
     ]
   }
