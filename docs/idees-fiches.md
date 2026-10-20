@@ -445,3 +445,7 @@ peut rouvrir directement le texte du décret.)*
 | Chimie | Le nombre d'Avogadro : Avogadro ne l'a jamais calculé, le nom vient de Perrin (1909) | fait | routine-production-arnaud | 2026-10-20 |
 | Chimie | La flamme d'une bougie selon Faraday : la lumière vient de particules de carbone solides, pas de la chaleur | fait | routine-production-arnaud | 2026-10-20 |
 | Chimie | La catalyse selon Berzelius (1835) et Ostwald (Nobel 1909) : un catalyseur accélère, il ne rend rien possible | fait | routine-production-arnaud | 2026-10-20 |
+| Cinéma | « Écrire l'histoire avec la foudre » : la phrase prêtée à Wilson après Naissance d'une nation (1915), introuvable dans la presse de l'époque (Benbow, 2010) | en cours | routine-production-arnaud | 2026-10-20 |
+| Cinéma | Le format 1,37 des films de 1932 à 1952 n'est pas du 4:3 : la piste sonore a pris de la largeur à l'image (SMPE, 1930 et 1932) | en cours | routine-production-arnaud | 2026-10-20 |
+| Cinéma | Les films américains de 1894 à 1912 déposés au copyright comme des photographies : les « paper prints » de la Bibliothèque du Congrès | en cours | routine-production-arnaud | 2026-10-20 |
+| Cinéma | La Passion de Jeanne d'Arc (Dreyer, 1928) : négatif original brûlé, second négatif monté sur les prises de rechange, copie de la version d'origine retrouvée à Oslo en 1981 | en cours | routine-production-arnaud | 2026-10-20 |
