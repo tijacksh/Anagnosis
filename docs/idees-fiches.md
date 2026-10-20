@@ -454,3 +454,7 @@ peut rouvrir directement le texte du décret.)*
 | Institutions judiciaires | Le nombre de juges de la Cour suprême des États-Unis : fixé par le Congrès, six en 1789, neuf en 1869 (et non par la Constitution) | fait | routine-production-arnaud | 2026-10-20 |
 | Institutions judiciaires | La justice de paix de la loi des 16-24 août 1790 et la conciliation obligatoire (abandonné : aucun texte primaire ouvert, sources secondaires seulement) | abandonné | routine-production-arnaud | 2026-10-20 |
 | Institutions judiciaires | Les procès de l'Old Bailey au XVIIIe siècle « de quelques minutes » (abandonné : les sources ne soutiennent que des comptes rendus abrégés de procès longs, pas la durée) | abandonné | routine-production-arnaud | 2026-10-20 |
+| Propriété intellectuelle et IA | Donaldson v. Becket (1774) : la Chambre des Lords met fin au droit d'auteur perpétuel des libraires | en cours | routine-production-arnaud | 2026-10-21 |
+| Propriété intellectuelle et IA | Bridgeman v. Corel (1999) : la photographie fidèle d'un tableau du domaine public n'est pas une œuvre | en cours | routine-production-arnaud | 2026-10-21 |
+| Propriété intellectuelle et IA | L'affaire Huston (Cour de cassation, 28 mai 1991) : la colorisation de La Jungle d'asphalte et le droit moral d'application impérative | en cours | routine-production-arnaud | 2026-10-21 |
+| Propriété intellectuelle et IA | Burrow-Giles v. Sarony (1884) : le portrait d'Oscar Wilde et la photographie reconnue comme œuvre d'un auteur | en cours | routine-production-arnaud | 2026-10-21 |
