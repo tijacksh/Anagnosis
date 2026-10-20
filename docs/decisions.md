@@ -1522,3 +1522,9 @@ Sept essais hors dépôt (10 à 40 fiches chacun, jugés à l'aveugle par Sonnet
 **Décision (Arnaud).** Adapter l'app à tous les modes d'utilisation du Duo, sauf le portrait inversé ; portrait figé sur l'écran extérieur replié (le paysage y coupait des écrans entiers), paysage réservé à l'écran intérieur. Détails et état : `docs/duo.md`.
 
 **Conséquences.** Mise en page décidée par la taille de la fenêtre et par les régions réservées du SDK 27.1 (la pliure), jamais par l'idiome ni l'orientation. Deux volets pour la lecture, liste et fiche côte à côte pour le calendrier et l'archive, barre d'onglets latérale quand la hauteur manque ou que l'écran est plié. Android n'est pas concerné pour l'instant.
+
+## 2026-10-20 — Android perd le verre dépoli
+
+**Décision (Arnaud).** Retirer complètement le verre dépoli d'Android : le flou du fond faisait chuter les images par seconde, même sur un Galaxy S25 FE.
+
+**Conséquences.** La barre d'onglets Android est un aplat, le réglage « Barre de menu » et son curseur de transparence n'existent plus côté Android. Ils restent sur iOS (Liquid Glass ou aplat riso, curseur « Verre pur » à « Voilé »). C'est une dérogation voulue à la règle « iOS et Android identiques ». `materiau` et `opaciteBarre` restent dans l'état sauvegardé, ignorés par Android, pour qu'une sauvegarde échangée avec iOS ne perde rien.
