@@ -64,7 +64,30 @@
     "explication": "Dans l'expérience 2, nommer l'encre de mots discordants prend 74 % de temps en plus ; dans l'expérience 1, lire ces mêmes mots n'est ralenti que de 5,6 %, une différence non fiable. Et l'entraînement de l'expérience 3 réduit le temps de 33,9 % sans supprimer l'interférence.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que dit la fiche des explications de l'effet Stroop ?",
+      "choix": [
+        "Une seule explication, l'automaticité de la lecture, fait l'unanimité",
+        "Plusieurs explications coexistent, et leur lecture théorique ne fait pas consensus",
+        "Aucune explication n'est proposée, la mesure de Stroop se suffisant à elle-même",
+        "La mesure est contestée, et l'explication par l'entraînement est admise par tous"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La fiche recense plusieurs explications en concurrence (automaticité, vitesse de traitement, attention sélective, modèles en réseaux, modèles où les deux informations se disputent la réponse) et dit que la mesure est solide mais que sa lecture théorique ne fait pas consensus."
+    },
+    {
+      "question": "Que montre l'expérience 3 sur l'entraînement à la tâche des mots en désaccord ?",
+      "choix": [
+        "Il supprime l'interférence, si bien que la dénomination rejoint le temps des carrés",
+        "Il allonge le temps de dénomination, les sujets se fatiguant au fil des épreuves",
+        "Il réduit nettement le temps de dénomination, sans que l'interférence disparaisse",
+        "Il ne change rien au temps de dénomination, qui reste celui du premier jour"
+      ],
+      "bonne_reponse": 2,
+      "explication": "L'expérience 3 baisse le temps de dénomination de 16,8 secondes, soit 33,9 % de la moyenne du premier jour, sans que l'interférence disparaisse : la pratique réduit l'effet sans le supprimer."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
