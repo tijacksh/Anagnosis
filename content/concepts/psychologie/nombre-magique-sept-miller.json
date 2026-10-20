@@ -59,7 +59,36 @@
     "explication": "Miller oppose le jugement absolu, limité par l'information, et la mémoire immédiate, limitée par le nombre d'éléments. Huit chiffres décimaux contre neuf binaires montrent que l'empan ne se mesure pas en bits et ne baisse pas quand chaque élément en porte davantage ; le recodage en paquets permet d'en retenir beaucoup plus.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "D'après Miller, quelle est la capacité de canal observée pour le jugement absolu de la hauteur d'un son, selon les mesures de Pollack ?",
+      "choix": [
+        "Environ 2,5 bits, soit à peu près six catégories distinguables",
+        "Environ sept bits, le même ordre de grandeur que l'empan de mémoire",
+        "Environ 2,3 bits, la valeur trouvée par Garner pour l'intensité sonore",
+        "Environ quatre bits, la limite centrale défendue plus tard par Cowan"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Pollack trouve une capacité de canal d'environ 2,5 bits pour la hauteur d'un son isolé, soit à peu près six catégories qu'on sait distinguer sans point de comparaison."
+    },
+    {
+      "question": "Dans l'exemple de recodage que donne Miller, combien de chiffres binaires les douze paquets du sujet représentent-ils avec un recodage par paires ?",
+      "choix": ["36 chiffres binaires", "24 chiffres binaires", "40 chiffres binaires", "9 chiffres binaires"],
+      "bonne_reponse": 1,
+      "explication": "Avec un recodage par deux, les douze paquets retenus par le sujet représentent 24 chiffres binaires ; le recodage par trois monte à 36, et par quatre ou cinq à environ 40."
+    },
+    {
+      "question": "Que défend Nelson Cowan en 2001, en reprenant les travaux de Miller sur la mémoire immédiate ?",
+      "choix": [
+        "Que l'empan de mémoire est bien de sept éléments, mais seulement pour le matériel verbal",
+        "Que le recodage en paquets est un mythe, et que seule l'information en bits compte",
+        "Que Miller avait sous-estimé la limite, qui serait en réalité de huit à neuf paquets",
+        "Qu'une limite centrale d'environ quatre paquets décrit mieux la mémoire à court terme"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Cowan reprend la question en 2001 et défend, données à l'appui, une limite centrale d'environ quatre paquets, plutôt que les sept de Miller."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

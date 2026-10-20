@@ -74,7 +74,36 @@
     "explication": "Les quatre séries ont les mêmes moyennes, variances, corrélation et droite, mais des formes différentes : nuage, courbe, point aberrant, point à fort effet de levier. Le nombre de points (onze) n'est pas en cause, la droite se calcule toujours, et ces séries ne décrivent pas un même phénomène linéaire : seule leur apparence numérique est commune.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "En 1973, dans quelle revue Francis Anscombe publie-t-il les quatre séries qui portent son nom ?",
+      "choix": ["The American Statistician", "Nature", "Behavioral and Brain Sciences", "Psychological Review"],
+      "bonne_reponse": 0,
+      "explication": "L'article d'Anscombe, « Graphs in Statistical Analysis », paraît en 1973 dans The American Statistician, volume 27, numéro 1."
+    },
+    {
+      "question": "Dans la série II d'Anscombe, pourquoi la droite de régression ne convient pas pour décrire les points ?",
+      "choix": [
+        "Parce que les onze points de la série II sont en réalité identiques à ceux de la série I",
+        "Parce qu'un seul point, isolé à x = 19, détermine entièrement la droite",
+        "Parce que les points dessinent une courbe régulière, non une relation linéaire",
+        "Parce que la variance de y est beaucoup plus grande que dans les trois autres séries"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Dans la série II, les onze points suivent une courbe régulière : la relation n'est pas linéaire, et la droite, bien qu'elle se calcule, ne décrit rien de réel."
+    },
+    {
+      "question": "Dans la troisième série d'Anscombe, que représente le point qui s'écarte de la droite formée par les dix autres ?",
+      "choix": [
+        "Un point à fort effet de levier qui crée à lui seul la relation observée",
+        "Un point qui, retiré, ferait chuter la corrélation à 0,816 au lieu de la faire monter",
+        "Un point identique en tout point aux dix autres, sans aucun écart",
+        "Un point aberrant qui s'écarte d'un alignement presque parfait sur une autre droite"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Dix des onze points de la série III sont presque alignés ; un seul, le point aberrant, s'en écarte, ce qui change la pente et la corrélation calculées sur l'ensemble."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

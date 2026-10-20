@@ -66,7 +66,41 @@
     "explication": "Chaque mesure retient environ un quart du groupe, et dix filtres de ce genre cumulés ne laissent plus personne, même si les mesures sont corrélées. L'échantillon était vaste, Daniels écrit que la conclusion vaudrait pour presque n'importe quel groupe, et la fourchette était volontairement large, pas étroite.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment Daniels définit-il un homme « moyen approximatif » sur une mesure donnée ?",
+      "choix": [
+        "Un homme exactement à la moyenne arithmétique, au centimètre près",
+        "Un homme situé à plus ou moins trois dixièmes d'écart type de la moyenne",
+        "Un homme situé entre le 30e et le 70e centile sur toutes les mesures à la fois",
+        "Un homme appartenant aux 7 % les plus proches de la moyenne sur chaque mesure"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Daniels définit le « moyen approximatif » comme la fourchette de plus ou moins trois dixièmes d'écart type autour de la moyenne, ce qui retient 25 à 30 % du groupe."
+    },
+    {
+      "question": "Dans l'exemple du dernier homme analysé par Daniels sur cent mesures, que montre la répartition de ses résultats ?",
+      "choix": [
+        "62 mesures tombent dans la zone centrale, 29 sont plus petites, 9 nettement plus grandes",
+        "Les cent mesures sont toutes centrées entre le 30e et le 70e centile",
+        "La moitié des mesures sont plus petites que la moyenne, l'autre moitié plus grandes",
+        "Aucune de ses cent mesures ne tombe dans la zone centrale du groupe"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Sur cent mesures de ce dernier homme, 62 tombent dans la zone centrale entre le 30e et le 70e centile, 29 sont plus petites et 9 nettement plus grandes : même lui n'est pas moyen partout."
+    },
+    {
+      "question": "Quelle conclusion pratique Daniels tire-t-il de cette absence d'homme moyen, à propos de la conception des objets ?",
+      "choix": [
+        "Il faut recalculer la moyenne sur un échantillon plus large avant de concevoir",
+        "Il faut concevoir un objet unique ajusté à la médiane de chaque mesure",
+        "Il faut renoncer à mesurer les militaires navigants, jugés trop peu représentatifs",
+        "Il faut concevoir pour une plage de valeurs, comme une porte qui laisse passer 95 % du groupe"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Daniels recommande de concevoir pour une plage plutôt que pour une moyenne : il donne l'exemple d'une porte à 6 pieds 1 pouce, qui laisse passer 95 % du groupe."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
