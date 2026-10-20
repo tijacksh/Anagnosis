@@ -6,6 +6,88 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-10-20 — L'écoute produite en local : OmniVoice, douze voix en rotation
+
+**Décidé :** l'audio est produit **sur le Mac mini**, par **OmniVoice** (k2-fsa) servi par
+l'API locale de **VoiceStudio**, en PyTorch sur le GPU (MPS). On ne dépend plus
+d'ElevenLabs : ses voix ne servent plus que de **références à cloner**. Douze voix,
+six femmes et six hommes, **tournent** d'une fiche à l'autre.
+
+**Comment on a tranché.** Écoute à l'aveugle, sur trois fiches difficiles (Doppler,
+technique ; *La banalité du mal*, noms propres ; la thalidomide, ton grave), avec le texte
+exact d'`aLire()`, au format servi à l'app. Le critère est resté celui de 2026-08-02 :
+*jamais identifiable comme généré*. VoxCPM2, MOSS-TTS-Nano, Confucius4 et PocketTTS ont
+été écartés à l'écoute : ils obtiennent 1 à 2 sur 5 et sont jugés « IA » presque à chaque
+fois. CosyVoice 3 ne tourne pas sous macOS 27, qui refuse le binaire de scipy 1.15.3
+pour Python 3.10. Un contrôle Whisper forcé en français a servi de garde-fou (mots
+sautés, texte parasite), jamais de juge : il ne dit rien du naturel.
+
+**Ce qui a fait la différence, c'est la référence, pas le moteur.** Les clones d'Helene
+et de Jérôme, tirés des masters ElevenLabs et ralentis à 0,8×, ont obtenu 1 à 2 sur 5.
+Les mêmes moteurs, clonés à partir des extraits de présentation des voix
+professionnelles de la bibliothèque (enregistrés à l'allure naturelle, sans retouche),
+montent à 5 sur 5. Helene et Jérôme sont donc abandonnées.
+
+**Les douze voix** (bibliothèque partagée ElevenLabs, clones professionnels, français de
+France). Les droits d'usage sont obtenus pour toutes ; les accords sont conservés **hors
+du dépôt**, comme les clips de référence (`~/.anagnosis/voix/candidates/`).
+
+| Femmes | voice_id | Hommes | voice_id |
+|---|---|---|---|
+| Marie-Alice | `tMyQcCxfGDdIt7wJ2RQw` | Tristan Grech | `hv6gVog5LgtIUX88Nmq8` |
+| Claire | `6vTyAgAT8PncODBcLjRf` | Clément | `jUHQdLfy668sllNiNTSW` |
+| Anaïs | `5OnMHwgTFgvPVwE8jP6B` | Julien | `fnoOtHjtLbYs6mOpUSdr` |
+| Darine | `R6eR6IR1JzKTAyu3Itp6` | Léo | `AfbuxQ9DVtS4azaxN1W7` |
+| Maevys | `x10MLxaAmShMYt7vs7pl` | Antoine (Audiobook) | `1a3lMdKLUcfcMtvN772u` |
+| Anna | `PSVUmed8NvS8aUA3d5oO` | Jérémy | `f37Tyb9RuhPPJKa60pUr` |
+
+**La rotation.** Une seule voix par fiche, **enregistrée dans l'index**, pour qu'une fiche
+régénérée après correction garde sa voix. Elle est choisie pour ne pas répéter celles
+des fiches voisines dans le programme, en alternant les genres, plutôt que tirée au
+hasard (le hasard fait des séries, et trois fois la même voix d'affilée s'entend). Le
+choix de voix disparaît des réglages des apps. Effet de bord : une voix par fiche au
+lieu de deux divise la génération par deux.
+
+**Les réglages de lecture**, chacun corrigeant un défaut entendu :
+- **Phrase par phrase.** OmniVoice enchaîne les phrases sans pause, et VoiceStudio recolle
+  le texte en efface les lignes vides. Chaque phrase est donc générée à part, et c'est le
+  pipeline qui pose les silences : 0,8 s après le titre, 0,8 s avant un intertitre et
+  0,45 s après, 0,45 s entre paragraphes, 0,3 s entre phrases, 0,6 s avant la citation.
+  Les titres reçoivent un point final dans le texte envoyé au moteur, pour une intonation
+  descendante.
+- **Les années à l'oral court** : « dix-neuf cent soixante-dix-neuf », et non
+  « mille neuf cent… », jugé poussif. Uniquement dans le texte envoyé au moteur.
+- **Une allure par voix**, appliquée par `atempo` (préféré à l'écoute à rubberband et à
+  l'absence d'accélération). Elle est calculée sur le débit propre de chaque voix pour
+  viser 220 mots par minute de parole (210 pour Marie-Alice), et **constante** pour une
+  voix donnée, quelle que soit la fiche, pour que son débit ne change pas d'un jour à
+  l'autre. L'allure unique de 1,25× ne tient plus : elle rendait certaines voix pressées
+  et d'autres traînantes.
+- **Le volume normalisé** (EBU R128, −16 LUFS, crête à −1,5 dB). Les voix arrivaient à des
+  niveaux très différents, ce qu'une rotation rend immédiatement audible.
+
+**Le moteur, et pourquoi pas GGUF.** La variante quantifiée d'OmniVoice (GGUF) occupe
+2,3 Go au lieu de 6,4, mais VoiceStudio 0.5.6 relance son binaire et recharge le modèle à
+**chaque** appel, soit environ 13 s par phrase : le rattrapage du catalogue passerait
+d'une dizaine de nuits à une cinquantaine. La version PyTorch garde le modèle chargé
+entre deux appels. La mémoire n'était un problème qu'en journée, quand VoiceStudio
+partageait la machine avec d'autres moteurs ; la tâche de nuit charge le modèle au
+début et le **décharge à la fin**, même en cas d'erreur.
+
+**Licence.** Les poids d'OmniVoice sont publiés sous **CC-BY-NC**, et son tokenizer audio
+sous la licence Boson *Higgs Audio 2*, elle-même adossée à la licence communautaire Meta
+Llama 3. L'usage commercial repose donc sur un **accord**, obtenu et conservé hors du
+dépôt (entrée du 2026-09-27). Il doit couvrir **les deux** composants. VoiceStudio appose
+un filigrane inaudible AudioSeal sur chaque rendu ; on le conserve, comme marquage
+lisible par machine d'un contenu de synthèse.
+
+**Ce qui ne change pas.** Le droit ne se sonorise pas (`SANS_ECOUTE`). Le master reste en
+MP3 128 kbit/s mono et le dérivé de l'app en AAC 32 kbit/s mono. **Tout le catalogue est
+à refaire** : les 34 fiches sonorisées par ElevenLabs l'avaient été à partir d'un texte
+modifié depuis, et un changement de voix ne se mélange pas en silence avec l'ancien rendu.
+
+---
+
 ## 2026-09-27 — Vers une voix produite en local : accords obtenus, banc d'écoute ouvert
 
 **Contexte.** On veut produire l'audio des fiches sur le Mac mini, avec les deux voix
