@@ -35,10 +35,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Droit social | Les accords de Grenelle (mai 1968), 25 % de hausse du SMIC négociée en un week-end | fait | routine-production-arnaud | 2026-10-12 |
 | Droit social | Le procès des propriétaires de la Triangle Shirtwaist (New York, 1911) : incendie, acquittement et ce que la loi a changé ensuite | fait | routine-production-arnaud | 2026-10-12 |
 | Droit social | La convention n° 87 de l'OIT (1948) sur la liberté syndicale | proposé | Orkidea | 2026-08-28 |
-| Droit social | Le Stinnes-Legien (15 novembre 1918) : un contrat patronat-syndicats qui précède la loi allemande sur les conventions collectives | en cours | routine-production-arnaud | 2026-10-21 |
-| Droit social | Muller v. Oregon (1908) : la Cour suprême valide la journée de dix heures pour les femmes sur un dossier de données et un argument de dépendance | en cours | routine-production-arnaud | 2026-10-21 |
-| Droit social | La loi britannique de 1908 sur le phosphore blanc des allumettes : interdire un produit en forçant la licence du brevet du substitut | en cours | routine-production-arnaud | 2026-10-21 |
-| Droit social | Les congés payés de 1936 : absents du programme du Front populaire et du texte des accords de Matignon, votés en quelques jours | en cours | routine-production-arnaud | 2026-10-21 |
+| Droit social | Le Stinnes-Legien (15 novembre 1918) : un contrat patronat-syndicats qui précède la loi allemande sur les conventions collectives | fait | routine-production-arnaud | 2026-10-21 |
+| Droit social | Muller v. Oregon (1908) : la Cour suprême valide la journée de dix heures pour les femmes sur un dossier de données et un argument de dépendance | fait | routine-production-arnaud | 2026-10-21 |
+| Droit social | La loi britannique de 1908 sur le phosphore blanc des allumettes : interdire un produit en forçant la licence du brevet du substitut | fait | routine-production-arnaud | 2026-10-21 |
+| Droit social | Les congés payés de 1936 : absents du programme du Front populaire et du texte des accords de Matignon, votés en quelques jours | fait | routine-production-arnaud | 2026-10-21 |
 | Cinéma | *United States v. Paramount Pictures* (1948), fin de l'intégration verticale des studios | fait | routine-production | 2026-10-11 |
 | Cinéma | Le Dogme 95 (1995) et son « vœu de chasteté » contre les effets spéciaux | fait | routine-production | 2026-10-11 |
 | Cinéma | La première projection payante des frères Lumière, 28 décembre 1895 | fait | routine-production | 2026-10-11 |
