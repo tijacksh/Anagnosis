@@ -467,3 +467,7 @@ peut rouvrir directement le texte du décret.)*
 | Droit international | L'affaire du temple de Préah Vihéar (CIJ, 1962) : une carte jamais contestée pendant cinquante ans tient lieu d'accord | fait | routine-production-arnaud | 2026-10-21 |
 | Droit international | L'affaire du Groenland oriental (CPJI, 1933) : la réponse orale d'un ministre norvégien en 1919 engage la Norvège | fait | routine-production-arnaud | 2026-10-21 |
 | Droit international | Le code Lieber (instructions du 24 avril 1863, General Orders No. 100) : un ordre militaire d'une seule armée devenu modèle des codifications des lois de la guerre | fait | routine-production-arnaud | 2026-10-21 |
+| Écologie | Darwin (1881) : les vers de terre ont labouré le sol avant l'invention de la charrue, une craie enterrée de 7 pouces en 29 ans | en cours | routine-production-arnaud | 2026-10-21 |
+| Écologie | Hubbard Brook (1965-1967) : un bassin versant rasé, des nitrates multipliés par 41 puis 56 dans le ruisseau (Likens et al., 1970) | en cours | routine-production-arnaud | 2026-10-21 |
+| Écologie | Forbes (1887), « Le lac comme microcosme » : un équilibre décrit pour les lacs isolés, et des lacs de plaine inondable qui oscillent | en cours | routine-production-arnaud | 2026-10-21 |
+| Écologie | Park Grass (Rothamsted, 1856) : une expérience sur le foin devenue la plus longue de l'écologie, de 3 à 44 espèces par parcelle (Crawley et al., 2005) | en cours | routine-production-arnaud | 2026-10-21 |
