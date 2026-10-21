@@ -6,6 +6,47 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-10-21 — Les voix de production : huit clones locaux d'Eleven v4 Turbo
+
+**Décidé :** on produit avec **huit voix**, quatre femmes et quatre hommes, en rotation,
+toujours en local avec OmniVoice. Chacune est **clonée à partir d'un extrait d'environ
+quinze à vingt secondes lu par Eleven v4 Turbo**, et non plus à partir des extraits de
+présentation de la bibliothèque. Cette entrée remplace la liste des douze voix du
+2026-10-20 ; le reste de cette entrée (moteur, rotation, réglages de lecture, licence)
+tient toujours.
+
+| Femmes | voice_id | Référence | Hommes | voice_id | Référence |
+|---|---|---|---|---|---|
+| Gaëlle | `tKaoyJLW05zqV0tIH9FD` | neutre | Julien | `fnoOtHjtLbYs6mOpUSdr` | neutre |
+| Sarah | `t8BrjWUT5Z23DLLBzbuY` | neutre | Léo | `AfbuxQ9DVtS4azaxN1W7` | neutre |
+| Maevys | `x10MLxaAmShMYt7vs7pl` | neutre | Tristan Grech | `hv6gVog5LgtIUX88Nmq8` | narration |
+| Claire | `6vTyAgAT8PncODBcLjRf` | grave | Olivier | `rgFgMEXfdGwXCYio7I0J` | grave |
+
+Les références et leur transcription vivent hors du dépôt
+(`~/.anagnosis/voix/production/`, avec `voix.json`), comme les accords de droits.
+
+**Pourquoi pas Eleven v4 Turbo lui-même.** Écouté à l'aveugle contre nos clones, v4 Turbo
+l'emporte nettement (4,7 contre 3,7 sur 5). Mais produire tout le catalogue par son API
+demande environ un million de crédits de rattrapage, puis un abonnement tenu à vie, et
+rend la production dépendante d'un service tiers — ce que cette migration voulait
+justement quitter. On garde donc le local, et on ne retient que les clones qui tiennent
+la comparaison.
+
+**Pourquoi ces huit-là.** Le clonage reprend le timbre, pas le phrasé : à référence égale,
+certaines voix passent (Gaëlle, Sarah, Julien égalent presque leur original v4), d'autres
+non (Mélanie, Clément tombent sous 3 et sonnent « IA »). Les huit retenues sont les
+meilleures moyennes des clones. Pour les trois plus justes (Claire, Tristan, Olivier), trois
+références de registres différents ont été essayées ; l'écoute a choisi la meilleure de
+chacune. **La référence compte autant que le moteur** : c'est la leçon constante du banc.
+
+**Ce qui a été essayé et écarté pour aller plus vite.** Appeler OmniVoice directement et lui
+passer les phrases par lots : sur le GPU du Mac, un lot de huit est *plus lent* (1,5 minute
+de calcul par minute d'audio, contre 1,1 par VoiceStudio), et préparer la voix une seule
+fois ne fait gagner que 8 %. Pas de quoi quitter l'API de VoiceStudio. La variante GGUF
+était déjà écartée (2026-10-20).
+
+---
+
 ## 2026-10-20 — L'écoute produite en local : OmniVoice, douze voix en rotation
 
 **Décidé :** l'audio est produit **sur le Mac mini**, par **OmniVoice** (k2-fsa) servi par
