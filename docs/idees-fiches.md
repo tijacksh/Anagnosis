@@ -471,3 +471,7 @@ peut rouvrir directement le texte du décret.)*
 | Écologie | Hubbard Brook (1965-1967) : un bassin versant rasé, des nitrates multipliés par 41 puis 56 dans le ruisseau (Likens et al., 1970) | fait | routine-production-arnaud | 2026-10-21 |
 | Écologie | Forbes (1887), « Le lac comme microcosme » : un équilibre décrit pour les lacs isolés, et des lacs de plaine inondable qui oscillent | fait | routine-production-arnaud | 2026-10-21 |
 | Écologie | Park Grass (Rothamsted, 1856) : une expérience sur le foin devenue la plus longue de l'écologie, de 3 à 44 espèces par parcelle (Crawley et al., 2005) | fait | routine-production-arnaud | 2026-10-21 |
+| Institutions judiciaires | *McKane v. Durston* (1894) : la Cour suprême écrit que l'appel d'une condamnation n'est pas un droit constitutionnel, puis *Griffin v. Illinois* (1956) et l'article 2 du Protocole n° 7 (1984) | en cours | routine-production-arnaud | 2026-10-21 |
+| Institutions judiciaires | Magna Carta (1215), article 17 : les plaids communs ne suivront plus la cour du roi mais siégeront en un lieu fixe | en cours | routine-production-arnaud | 2026-10-21 |
+| Institutions judiciaires | Les gacaca du Rwanda (2001-2012) : environ 12 000 juridictions pour 1,2 million d'affaires, une « tradition » devenue institution d'État | en cours | routine-production-arnaud | 2026-10-21 |
+| Institutions judiciaires | L'Assise de Clarendon (1166) : un jury qui accuse, l'ordalie de l'eau qui tranche | en cours | routine-production-arnaud | 2026-10-21 |
