@@ -70,7 +70,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le juge Vaughan estime qu'un jury ne peut être puni pour son verdict, car le juge ne peut pas savoir sur quelles preuves il repose, jurés pouvant juger d'après leur connaissance personnelle des faits ; la récusation des jurés, le choix royal des jurés et la règle d'unanimité ne sont pas en cause dans cette affaire.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -107,11 +107,11 @@
       "explication": "Bushel refuse de payer l'amende et demande à la Cour des plaids communs un bref d'habeas corpus, qui aboutit à sa libération ordonnée par le Chief Justice Vaughan."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controler",
-    "decide_le": "2026-10-21T11:20:10.677Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-21T16:02:37.755Z",
     "historique": [
       {
         "action": "retoucher",
@@ -144,6 +144,14 @@
         "par": "routine-controler",
         "le": "2026-10-21T11:20:10.677Z",
         "note": "Contrôle : « un marchand du nom d'Edward Bushel » absent de la transcription Penn et Mead, du rapport Vaughan et de Wikipedia (qui ne donne aucune profession). Le reste (chronologie 1er-5 septembre, deux nuits d'enfermement, 40 marks, bref du 9 novembre, citation de Vaughan mot pour mot) est confirmé."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-21T16:02:37.755Z",
+        "note": "Rejetée sans nouvelle réparation : déjà réparée deux fois (21 octobre), revenue une troisième fois du contrôle pour « un marchand du nom d'Edward Bushel », profession absente de la transcription Penn et Mead, du rapport Vaughan et de Wikipedia. Règle de la routine : une fiche à rejeter ne se répare pas une fois de plus. Le reste (chronologie 1er-5 septembre, 40 marks, bref du 9 novembre, citation de Vaughan) était confirmé par le contrôle ; le sujet pourra être reproduit en fiche neuve sans la profession de Bushel."
       }
     ]
   },
