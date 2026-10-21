@@ -69,7 +69,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Avant 1872, le Conseil proposait et le pouvoir exécutif décidait : c'est la justice retenue, écartée une première fois en 1849 puis rétablie par la Constitution de 1852. La loi de 1872 rétablit durablement la justice déléguée, où le Conseil statue au nom du peuple français sans signature de l'exécutif.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -106,11 +106,11 @@
       "explication": "Ce que la loi de 1849 avait accordé, la Constitution du 14 janvier 1852 le reprend sous le Second Empire, avant la loi de 1872."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-07T10:03:13.655Z",
+    "decide_le": "2026-10-21T07:15:11.516Z",
     "historique": [
       {
         "action": "valider",
@@ -127,6 +127,14 @@
         "par": "routine-reparation",
         "le": "2026-10-07T10:03:13.655Z",
         "note": "Rouvert : conseil-etat.fr (justice retenue 1799, loi du 3 mars 1849, Constitution du 14 janvier 1852 sous Napoléon III, loi du 24 mai 1872), Wikipedia Constitution an VIII (adoption 13/12/1799, promulgation 28/02/1800). Corrigé : scène de 1810 inventée remplacée par une ouverture sourcée ; retirés les passages non soutenus (« presque mot pour mot » 1849/1872, exportation du modèle, common law, et la question de quiz correspondante) ; 1852 précisé (chef de l'État préside le Conseil). Légifrance 1872 non rouvert, confirmé par conseil-etat.fr."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-21T07:15:11.516Z",
+        "note": "Troisième sortie pour le même anachronisme (Constitution du 14 janvier 1852 présentée comme celle de « Napoléon III » / « Second Empire » alors que l'Empire n'est proclamé qu'en décembre 1852) : déjà signalé par le contrôle juridique du 7 octobre, déjà réparé deux fois (17/08 et 07/10) sans que le défaut ne disparaisse du texte. Conformément à la règle des deux réparations, rejetée sans troisième tentative."
       }
     ]
   },

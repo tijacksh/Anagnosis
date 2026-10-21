@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Les cotons-tiges utilisés pour les prélèvements avaient été contaminés en usine par l'ADN d'une employée chargée de leur conditionnement, avant toute utilisation sur une scène de crime. Vendu comme stérile de bactéries, le matériel n'était pas garanti exempt d'ADN humain, et certains lots portaient même, par erreur, un certificat « sans ADN » qui ne correspondait pas à la réalité.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Le fabricant affirme d'abord que ses cotons-tiges sont seulement certifiées stériles de bactéries, jamais garanties exemptes d'ADN humain. Il doit pourtant reconnaître, le 30 mars 2009, qu'une partie des lots portait bien, par erreur, un certificat « sans ADN » inexact."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-04T19:17:05.388Z",
+    "decide_le": "2026-10-21T07:15:11.893Z",
     "historique": [
       {
         "action": "retoucher",
@@ -153,6 +153,14 @@
         "par": "routine-reparation",
         "le": "2026-10-04T19:17:05.388Z",
         "note": "Sources rouvertes : de.wikipedia « Heilbronner Phantom » et en.wikipedia « Murder of Michèle Kiesewetter » (WebFetch direct). TIME, taz.de et NWZ/dpa inaccessibles depuis cet environnement (bloqués par le proxy réseau) ; déjà confirmées à deux reprises par des passages précédents, non rouvertes ici faute d'accès, aucune correction ne les concernant n'étant demandée. Confirmé sur de.wikipedia : le fabricant Greiner Bio-One affirme d'abord que ses cotons-tiges sont seulement stériles de bactéries, pas garanties sans ADN, puis doit reconnaître le 30 mars 2009 que certains lots avaient bien été livrés avec un certificat « sans ADN » inexact (citation exacte vérifiée : « einigen Chargen ihrer Abstrichbestecke offenbar doch ein Zertifikat beigelegen hatte, wonach die Wattestäbchen DNA-frei seien, obwohl dies gar nicht zutraf »). Corps, quiz principal et quiz_supplementaire[2] corrigés pour distinguer la déclaration initiale de la rétractation du 30 mars 2009 ; notes des sources TIME et Wikipedia DE mises à jour en conséquence. Points secondaires : « elle meurt sur le coup » retiré du corps (non établi par les sources rouvertes) ; « fin mars 2009 » remplacé par « à partir de la mi-mars 2009 » dans le corps et quiz_supplementaire[0], conforme à la note du contrôle précédent sur la datation NWZ."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-21T07:15:11.893Z",
+        "note": "Déjà réparée deux fois (24/08 et 04/10/2026). Le contrôle du 21/10 signale un nouveau défaut de fond (identification du meurtrier de Kiesewetter présentée comme certaine — « sera identifié » — alors que en.wikipedia.org/wiki/Murder_of_Michèle_Kiesewetter et de.wikipedia.org/wiki/Heilbronner_Phantom ne soutiennent qu'une attribution présumée au NSU, sans confirmation du ou des tireurs). Conformément à la règle des deux réparations déjà tentées, rejetée sans troisième tentative plutôt que réparée une fois de plus."
       }
     ]
   },
