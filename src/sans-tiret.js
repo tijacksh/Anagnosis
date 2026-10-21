@@ -19,6 +19,7 @@ import { loadAll, save } from './store.js';
 import { champsLus, TIRET_CADRATIN } from './texte-lu.js';
 import { empreinte as empreinteControle } from './controle.js';
 import { empreinteAudio, lireIndex, ecrireIndex } from './audio.js';
+import { lireRegles } from './prononciation.js';
 
 const TIRET = '—';
 
@@ -88,18 +89,19 @@ if (process.argv[1]?.endsWith('sans-tiret.js')) {
   const ecrire = process.argv.includes('--write');
   const fiches = await loadAll();
   const index = await lireIndex();
+  const regles = await lireRegles();
   let fichesTouchees = 0; let tirets = 0; let controleGarde = 0; let audioGarde = 0; let audioATraiter = 0;
   const exemples = [];
   for (const fiche of fiches) {
     const controleAJour = fiche.controle?.empreinte && fiche.controle.empreinte === empreinteControle(fiche);
     const entree = index[fiche.id];
-    const audioAJour = entree && entree.empreinte === empreinteAudio(fiche);
+    const audioAJour = entree && entree.empreinte === empreinteAudio(fiche, regles);
     const { n, avant } = retouche(fiche);
     if (!n) continue;
     fichesTouchees += 1; tirets += n;
     if (exemples.length < 400) exemples.push(...avant.slice(0, 2));
     if (controleAJour) { fiche.controle.empreinte = empreinteControle(fiche); controleGarde += 1; }
-    if (audioAJour) { entree.empreinte = empreinteAudio(fiche); audioGarde += 1; } else if (entree) audioATraiter += 1;
+    if (audioAJour) { entree.empreinte = empreinteAudio(fiche, regles); audioGarde += 1; } else if (entree) audioATraiter += 1;
     if (ecrire) await save(fiche);
   }
   if (ecrire) await ecrireIndex(index);

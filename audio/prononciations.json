@@ -1,0 +1,89 @@
+{
+ "_lisez_moi": [
+  "Réécritures phonétiques des noms propres, appliquées au seul texte envoyé au moteur de voix (src/prononciation.js).",
+  "Une règle n'entre ici qu'après une écoute avant/après qui montre qu'elle aide : le moteur prononce déjà bien la plupart des noms, et les réécrire les dégrade souvent (docs/decisions.md, 2026-10-21).",
+  "Modifier une règle refait les fiches qu'elle touche, et elles seules (empreinte audio)."
+ ],
+ "regles": [
+  {
+   "nom": "Eijkman",
+   "dire": "Èïkmann",
+   "ipa": "ˈɛikmɑn",
+   "langue": "nl",
+   "source": "https://en.wikipedia.org/wiki/Christiaan_Eijkman",
+   "ecoute": "avant/après 4,5 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Fleck",
+   "dire": "Flèk",
+   "ipa": "ˈflɛk",
+   "langue": "pl",
+   "source": "https://en.wikipedia.org/wiki/Ludwik_Fleck",
+   "ecoute": "avant/après 4,5 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Frege",
+   "dire": "Frégueu",
+   "ipa": "ˈfreːɡə",
+   "langue": "de",
+   "source": "https://en.wikipedia.org/wiki/Gottlob_Frege",
+   "ecoute": "avant/après 4 → 4,5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Hilbert",
+   "dire": "Hilbeurt",
+   "ipa": "ˈhɪlbɐt",
+   "langue": "de",
+   "source": "https://en.wikipedia.org/wiki/David_Hilbert",
+   "ecoute": "avant/après 4 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Humboldt",
+   "dire": "Houmbolt",
+   "ipa": "ˈhʊmbɔlt",
+   "langue": "de",
+   "source": "https://en.wikipedia.org/wiki/Alexander_von_Humboldt",
+   "ecoute": "avant/après 4 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Immink",
+   "dire": "Iminnk",
+   "ipa": "ˈɪmɪŋk",
+   "langue": "nl",
+   "source": "https://en.wikipedia.org/wiki/Kees_Schouhamer_Immink",
+   "ecoute": "avant/après 4,5 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Loewi",
+   "dire": "Leuvi",
+   "ipa": "ˈløːvi",
+   "langue": "de",
+   "source": "https://en.wikipedia.org/wiki/Otto_Loewi",
+   "ecoute": "avant/après 4 → 4,5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Noether",
+   "dire": "Neuteur",
+   "ipa": "ˈnøːtɐ",
+   "langue": "de",
+   "source": "https://en.wikipedia.org/wiki/Emmy_Noether",
+   "ecoute": "avant/après 3,5 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Rømer",
+   "dire": "Reumeur",
+   "ipa": "ˈʁœˀmɐ",
+   "langue": "da",
+   "source": "https://en.wikipedia.org/wiki/Ole_R%C3%B8mer",
+   "ecoute": "avant/après 4 → 5, deux voix, 2026-10-21"
+  },
+  {
+   "nom": "Wald",
+   "dire": "Valt",
+   "ipa": "valt",
+   "langue": "de",
+   "source": "https://en.wikipedia.org/wiki/Abraham_Wald",
+   "ecoute": "avant/après 4 → 5, deux voix, 2026-10-21"
+  }
+ ]
+}

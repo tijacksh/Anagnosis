@@ -49,6 +49,7 @@ import { promisify } from 'node:util';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
 import { SANS_ECOUTE } from './schema.js';
+import { appliquer, lireRegles, reglesTouchant } from './prononciation.js';
 
 const executer = promisify(execFile);
 
@@ -146,8 +147,27 @@ export function aLire(fiche) {
  * de note de source invalidait un audio dont pas un mot prononcé n'avait changé. Hachée
  * sur la sortie même d'`aLire()`, cette empreinte ne bouge que si le texte lu, lui, bouge.
  */
-export function empreinteAudio(fiche) {
-  return createHash('sha256').update(aLire(fiche)).digest('hex').slice(0, 16);
+export function empreinteAudio(fiche, regles = []) {
+  const h = createHash('sha256').update(aLire(fiche));
+  // Les règles de prononciation qui touchent la fiche entrent dans l'empreinte : une
+  // règle corrigée doit refaire les fiches qu'elle touche — et elles seules. Sans règle,
+  // l'empreinte reste celle d'avant le dictionnaire, octet pour octet.
+  // Tri par code de caractère, pas `localeCompare` : l'empreinte doit être la même sur toutes
+  // les machines, quelle que soit leur langue (« ø » ne se range pas pareil partout).
+  const touchees = reglesTouchant(aLire(fiche), regles).map(({ nom, dire }) => ({ nom, dire }))
+    .sort((a, b) => (a.nom < b.nom ? -1 : a.nom > b.nom ? 1 : 0));
+  if (touchees.length) h.update(`\n${JSON.stringify(touchees)}`);
+  return h.digest('hex').slice(0, 16);
+}
+
+/**
+ * Le texte envoyé au moteur : celui qu'on lit, prononciations appliquées.
+ *
+ * Jamais affiché, jamais stocké dans la fiche : la réécriture « Aïchmann » n'existe que
+ * le temps de la synthèse.
+ */
+export function aEnvoyer(fiche, regles = []) {
+  return appliquer(aLire(fiche), regles);
 }
 
 /**
@@ -188,14 +208,14 @@ export async function ecrireIndex(index) {
  * Trois façons de répondre non : jamais produit, produit à partir d'un texte qui a
  * changé depuis, ou produit pour une seule des deux voix.
  */
-export function aSonoriser(fiche, index) {
+export function aSonoriser(fiche, index, regles = []) {
   if (!['valide', 'publie'].includes(fiche.statut)) return false;
   // Une discipline qu'on ne sonorise pas ne rejoint jamais la file : sans ce filtre, la
   // routine dépenserait des crédits sur une voix que les clients ne proposent pas.
   if (SANS_ECOUTE.has(fiche.discipline)) return false;
   const entree = index[fiche.id];
   if (!entree) return true;
-  if (entree.empreinte !== empreinteAudio(fiche)) return true;
+  if (entree.empreinte !== empreinteAudio(fiche, regles)) return true;
   // Une allure de référence changée rend tout le catalogue incohérent : une fiche à
   // l'ancienne cadence au milieu des autres s'entend immédiatement.
   if (entree.allure !== ALLURE) return true;
@@ -203,10 +223,13 @@ export function aSonoriser(fiche, index) {
 }
 
 /** Pourquoi cette fiche est dans la file — pour que la sortie le dise. */
-export function motif(fiche, index) {
+export function motif(fiche, index, regles = []) {
   const entree = index[fiche.id];
   if (!entree) return 'jamais produit';
-  if (entree.empreinte !== empreinteAudio(fiche)) return 'texte modifié depuis';
+  if (entree.empreinte !== empreinteAudio(fiche, regles)) {
+    // Même texte lu sans les règles : c'est la prononciation qui a bougé, pas la fiche.
+    return entree.empreinte === empreinteAudio(fiche) ? 'prononciation modifiée depuis' : 'texte modifié depuis';
+  }
   if (entree.allure !== ALLURE) return `produit à ${entree.allure ?? 1}× au lieu de ${ALLURE}×`;
   const manquantes = VOIX.filter((v) => !entree.voix?.[v.nom]).map((v) => v.nom);
   return `voix manquante : ${manquantes.join(', ')}`;
@@ -215,7 +238,8 @@ export function motif(fiche, index) {
 export async function file() {
   const fiches = await loadAll();
   const index = await lireIndex();
-  const aFaire = fiches.filter((f) => aSonoriser(f, index));
+  const regles = await lireRegles();
+  const aFaire = fiches.filter((f) => aSonoriser(f, index, regles));
 
   // Les périmées d'abord : une fiche dont le son ment sur le texte est plus urgente
   // qu'une fiche qui n'en a pas encore.
@@ -230,7 +254,7 @@ export async function file() {
     (f) => ['valide', 'publie'].includes(f.statut) && !SANS_ECOUTE.has(f.discipline));
   return {
     sonoriser: aFaire.length > 0,
-    lot: aFaire.slice(0, PAR_PASSAGE).map((f) => ({ fiche: f, motif: motif(f, index) })),
+    lot: aFaire.slice(0, PAR_PASSAGE).map((f) => ({ fiche: f, motif: motif(f, index, regles) })),
     restant: Math.max(0, aFaire.length - PAR_PASSAGE),
     publiables: publiables.length,
     sonorisees: publiables.length - aFaire.length,
@@ -317,20 +341,24 @@ async function deriver(master, cible) {
  * morceaux sont justement les blocs séparés par une ligne vide, donc leurs débuts se
  * retrouvent sans ambiguïté.
  */
-function chapitres(texte, alignement) {
+function chapitres(texte, alignement, affiche = texte) {
   if (!alignement?.character_start_times_seconds) return null;
   const debuts = alignement.character_start_times_seconds;
   const blocs = texte.split('\n\n');
+  // Les positions se lisent dans le texte envoyé (celui que l'alignement décrit), les
+  // libellés dans le texte affiché : l'app ne doit jamais montrer « Aïchmann ». Les règles
+  // ne touchent jamais une ligne vide, donc les deux textes ont les mêmes blocs.
+  const libelles = affiche.split('\n\n');
 
   const sortie = [];
   let curseur = 0;
-  for (const bloc of blocs) {
+  for (const [i, bloc] of blocs.entries()) {
     const position = texte.indexOf(bloc, curseur);
     if (position < 0) continue;
     curseur = position + bloc.length;
     const t = debuts[Math.min(position, debuts.length - 1)];
     if (typeof t === 'number') {
-      sortie.push({ debut: Math.round((t / ALLURE) * 100) / 100, texte: bloc.slice(0, 70) });
+      sortie.push({ debut: Math.round((t / ALLURE) * 100) / 100, texte: (libelles[i] ?? bloc).slice(0, 70) });
     }
   }
   return sortie.length ? sortie : null;
@@ -370,8 +398,9 @@ export async function sonoriser(fiche, { cle = process.env[CLE_ENV], force = fal
   await mkdir(DERIVES, { recursive: true });
 
   const index = await lireIndex();
-  const marque = empreinteAudio(fiche);
-  const texte = aLire(fiche);
+  const regles = await lireRegles();
+  const marque = empreinteAudio(fiche, regles);
+  const texte = aEnvoyer(fiche, regles);
   const entree = index[fiche.id];
   const aJour = !force && entree?.empreinte === marque;
 
@@ -394,7 +423,7 @@ export async function sonoriser(fiche, { cle = process.env[CLE_ENV], force = fal
       sha256: createHash('sha256').update(contenu).digest('hex'),
       octets: contenu.length,
       secondes: await secondes(derive),
-      chapitres: chapitres(texte, alignement),
+      chapitres: chapitres(texte, alignement, aLire(fiche)),
     };
   }
 

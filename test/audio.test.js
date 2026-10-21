@@ -231,3 +231,82 @@ test('les repères publiés s’alignent exactement sur les blocs du corps', asy
   }
   assert.deepEqual(fautives, []);
 });
+
+// ── La prononciation (audio/prononciations.json) ────────────────────────────────────
+//
+// Une règle corrigée doit refaire les fiches qu'elle touche — et elles seules. Sinon le
+// son garderait l'ancienne prononciation, et rien ne le signalerait : le même défaut
+// silencieux que pour un texte corrigé.
+
+const EICHMANN = { nom: 'Eichmann', dire: 'Aïchmann' };
+
+test('sans règle, l’empreinte reste celle d’avant le dictionnaire', () => {
+  const f = fiche({ contenu_vulgarise: 'Le procès d’Eichmann.' });
+  assert.equal(empreinteAudio(f, []), empreinteAudio(f));
+  assert.equal(empreinteAudio(f, [{ nom: 'Kant', dire: 'Kante' }]), empreinteAudio(f),
+    'une règle qui ne touche pas la fiche ne change rien');
+});
+
+test('une règle qui touche la fiche change son empreinte, et la fait repasser en production', () => {
+  const f = fiche({ contenu_vulgarise: 'Le procès d’Eichmann.' });
+  const index = indexPour(f);                   // produit avant la règle
+  assert.notEqual(empreinteAudio(f, [EICHMANN]), empreinteAudio(f));
+  assert.equal(aSonoriser(f, index, [EICHMANN]), true);
+  assert.equal(motif(f, index, [EICHMANN]), 'prononciation modifiée depuis');
+});
+
+test('corriger la réécriture d’une règle refait la fiche une seconde fois', () => {
+  const f = fiche({ contenu_vulgarise: 'Le procès d’Eichmann.' });
+  const corrigee = { nom: 'Eichmann', dire: 'Aïchemann' };
+  assert.notEqual(empreinteAudio(f, [EICHMANN]), empreinteAudio(f, [corrigee]));
+  const index = { [f.id]: { ...indexPour(f)[f.id], empreinte: empreinteAudio(f, [EICHMANN]) } };
+  assert.equal(aSonoriser(f, index, [EICHMANN]), false, 'à jour avec la règle connue');
+  assert.equal(aSonoriser(f, index, [corrigee]), true, 'à refaire avec la règle corrigée');
+});
+
+test('la réécriture ne touche que le texte envoyé au moteur, jamais le texte lu à l’écran', async () => {
+  const { aEnvoyer } = await import('../src/audio.js');
+  const f = fiche({ contenu_vulgarise: 'Le procès d’Eichmann.' });
+  assert.match(aEnvoyer(f, [EICHMANN]), /Aïchmann/);
+  assert.doesNotMatch(aLire(f), /Aïchmann/);
+  assert.match(aLire(f), /Eichmann/);
+});
+
+test('une règle ne s’applique qu’au nom entier, jamais à un morceau de mot', async () => {
+  const { appliquer, reglesTouchant } = await import('../src/prononciation.js');
+  const hertz = { nom: 'Hertz', dire: 'Hèrtse' };
+  assert.equal(appliquer('83 kilohertz', [hertz]), '83 kilohertz');
+  assert.equal(appliquer('Heinrich Hertz.', [hertz]), 'Heinrich Hèrtse.');
+  assert.deepEqual(reglesTouchant('la morale kantienne', [{ nom: 'Kant', dire: 'Kante' }]), []);
+});
+
+test('le nom complet passe avant le nom seul', async () => {
+  const { appliquer } = await import('../src/prononciation.js');
+  const regles = [{ nom: 'Schnitzler', dire: 'Chnitsleur' }, { nom: 'Hans-Ulrich Schnitzler', dire: 'Hannss-Oulrich Chnitsleur' }];
+  assert.equal(appliquer('Hans-Ulrich Schnitzler, puis Schnitzler.', regles), 'Hannss-Oulrich Chnitsleur, puis Chnitsleur.');
+});
+
+test('le droit reste sans écoute, même avec un dictionnaire de prononciation', () => {
+  const f = fiche({ id: 'dro-test', discipline: 'droit_conformite', contenu_vulgarise: 'L’arrêt Eichmann.' });
+  assert.equal(aSonoriser(f, {}, [EICHMANN]), false);
+});
+
+test('une règle n’en réécrit jamais une autre, et l’empreinte ne compte que celles qui ont agi', async () => {
+  const { appliquer, reglesTouchant } = await import('../src/prononciation.js');
+  const regles = [{ nom: 'Schnitzler', dire: 'Chnitsleur' }, { nom: 'Hans-Ulrich Schnitzler', dire: 'Hannss-Oulrich Schnitzler' }];
+  // Le « dire » du nom complet garde « Schnitzler » : il ne doit pas être réécrit une seconde fois.
+  assert.equal(appliquer('Hans-Ulrich Schnitzler.', regles), 'Hannss-Oulrich Schnitzler.');
+  assert.deepEqual(reglesTouchant('Hans-Ulrich Schnitzler.', regles).map((r) => r.nom), ['Hans-Ulrich Schnitzler']);
+});
+
+test('un « $ » dans une réécriture n’est jamais interprété', async () => {
+  const { appliquer } = await import('../src/prononciation.js');
+  assert.equal(appliquer('Eichmann.', [{ nom: 'Eichmann', dire: 'A$&b$1' }]), 'A$&b$1.');
+});
+
+test('le dictionnaire versionné est sain : noms uniques, sans saut de ligne ni réécriture croisée', async () => {
+  const { lireRegles, problemes } = await import('../src/prononciation.js');
+  assert.deepEqual(problemes(await lireRegles()), []);
+  assert.ok(problemes([{ nom: '', dire: 'x' }]).length, 'un nom vide est refusé');
+  assert.ok(problemes([{ nom: 'A', dire: 'x' }, { nom: 'A', dire: 'y' }]).length, 'un doublon est refusé');
+});
