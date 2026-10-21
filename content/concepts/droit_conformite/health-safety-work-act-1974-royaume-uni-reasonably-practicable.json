@@ -80,7 +80,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Suivant le rapport Robens, la loi abandonne l'empilement de règles sectorielles détaillées au profit d'un devoir général de sécurité « dans la mesure raisonnablement praticable », le même pour tous les employeurs.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -117,11 +117,11 @@
       "explication": "L'article 3 étend un devoir de sécurité envers les personnes qui ne sont pas salariées de l'employeur, et envers les travailleurs indépendants dans certaines activités désignées comme le bâtiment, l'amiante ou le gaz."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-14T07:28:27.154Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-21T20:24:06.928Z",
     "historique": [
       {
         "action": "retoucher",
@@ -138,15 +138,23 @@
         "par": "routine-reparation",
         "le": "2026-10-14T07:28:27.154Z",
         "note": "Sources rouvertes : legislation.gov.uk s.2 (texte, dates), Wikipédia HSWA 1974, Wikipédia Edwards v NCB (confirme Coal Mines Act 1911 et Coltness Iron v Sharp 1938 antérieurs, Asquith correctement réorienté : disproportion du coût par rapport au risque), Wikipédia Health and Safety Executive (absorption inspections usines/mines, fusion HSC/HSE en 2008). Chiffre de cinq millions de salariés non couverts retrouvé et sourcé via Hansard, Chambre des Lords, 30 janvier 1973 (Lord Avebury et Lord Drumalbyn citant le rapport Robens), qui source aussi la fusion des inspectorats et l'autorité unique proposées par Robens. Réécrit : troisième temps sur ce que les sources établissent (formule de 1911, interprétée par Edwards en 1949, généralisée en 1974), test d'Asquith corrigé, 'des centaines de règles techniques' et le garde-corps inventé retirés, 'pour la première fois' retiré et remplacé par le contenu réel de l'article 3 (non-salariés, indépendants dans des activités désignées). repere et carte alignés. npm run validate repasse à 0 erreur."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-21T20:24:06.928Z",
+        "note": "Sources rouvertes le 2026-10-21 (Hansard Lords 30 janvier 1973 relu en entier, legislation.gov.uk s.2, Wikipédia HSWA, Edwards v NCB, HSE). Écarts de fond : (1) la parenthèse « dépôts de transport routier, aéroports, écoles, hôpitaux » pour les établissements non couverts est absente du débat Hansard cité (aucune occurrence de ces établissements), et la note de source l'affirme à tort ; (2) « deux pairs citent le même chiffre » est inexact : Lord Avebury dit « entre 5 et 6 millions », Lord Drumalbyn « quelque 5 millions » ; (3) le quiz et la carte disent que la loi remplace « des centaines de règles techniques sectorielles » ou l'empilement des lois sectorielles : le chiffre a été retiré du corps par la réparation du 2026-10-14 mais reste dans le quiz, et aucune source ne dit que la loi de 1974 a remplacé d'un coup les lois sectorielles (Wikipédia ne traite pas du remplacement, la loi parle de rationaliser) ; (4) « ancien président de l'entreprise publique du charbon » pour Robens n'est dans aucune source de la fiche ; (5) la phrase « puis sur un seul type de sinistre » (Edwards, mort d'un mineur) et « plus de trente ans » sont floues. Points confirmés : sanction royale 31 juillet 1974, entrée en vigueur 1er octobre, HSC et HSE, article 3(2) (bâtiment, amiante, gaz), Coal Mines Act 1911, Coltness 1938, Edwards 1949 avec disproportion manifeste, fusion HSC/HSE 2008."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-14",
+    "fait_le": "2026-10-21",
     "verdict": "a_revoir",
-    "empreinte": "b3c117f7f9c4cd35",
+    "empreinte": "3743cfcc1a46bf59",
     "notes": [
-      "Erreurs de fond confirmées par réouverture des sources (déjà signalées par la relecture du 2026-10-13, statut en_retouche conservé) : (1) Wikipédia Edwards v National Coal Board confirme que la notion de « reasonably practicable » figurait déjà dans le Coal Mines Act 1911 et avait été examinée dans Coltness Iron v. Sharp (1938) : l'arrêt de 1949 l'interprète, il ne la crée pas, contrairement à ce qu'affirme le déplacement de la fiche. (2) Le test d'Asquith est inversé dans la fiche : la page confirme « gross disproportion between risk and sacrifice » — l'employeur est dispensé seulement si le coût est manifestement disproportionné au risque, pas l'inverse. (3) Wikipédia HSWA 1974 ne mentionne ni cinq (ou huit) millions de salariés non couverts, ni « des centaines de règles techniques », ni garde-corps, ni fusion des inspections sectorielles dans la HSE (elle dit que HSC et HSE ont fusionné entre elles en 2008), ni caractère inédit de la protection des indépendants et du public, ni que le rapport Robens préconise la formule « reasonably practicable » ou cite Edwards comme son origine. Ces affirmations restent non sourcées. Confirme intégralement les points 1 à 5 de la note de relecture : la fiche doit être réécrite sur ce que les sources établissent avant toute validation."
+      "Sources rouvertes le 2026-10-21 (Hansard Lords 30 janvier 1973 relu en entier, legislation.gov.uk s.2, Wikipédia HSWA, Edwards v NCB, HSE). Écarts de fond : (1) la parenthèse « dépôts de transport routier, aéroports, écoles, hôpitaux » pour les établissements non couverts est absente du débat Hansard cité (aucune occurrence de ces établissements), et la note de source l'affirme à tort ; (2) « deux pairs citent le même chiffre » est inexact : Lord Avebury dit « entre 5 et 6 millions », Lord Drumalbyn « quelque 5 millions » ; (3) le quiz et la carte disent que la loi remplace « des centaines de règles techniques sectorielles » ou l'empilement des lois sectorielles : le chiffre a été retiré du corps par la réparation du 2026-10-14 mais reste dans le quiz, et aucune source ne dit que la loi de 1974 a remplacé d'un coup les lois sectorielles (Wikipédia ne traite pas du remplacement, la loi parle de rationaliser) ; (4) « ancien président de l'entreprise publique du charbon » pour Robens n'est dans aucune source de la fiche ; (5) la phrase « puis sur un seul type de sinistre » (Edwards, mort d'un mineur) et « plus de trente ans » sont floues. Points confirmés : sanction royale 31 juillet 1974, entrée en vigueur 1er octobre, HSC et HSE, article 3(2) (bâtiment, amiante, gaz), Coal Mines Act 1911, Coltness 1938, Edwards 1949 avec disproportion manifeste, fusion HSC/HSE 2008."
     ]
   },
   "controle_juridique": null,

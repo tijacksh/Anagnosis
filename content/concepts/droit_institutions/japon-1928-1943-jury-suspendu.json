@@ -78,7 +78,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le jury japonais de 1928 comptait bien douze membres, votait à la majorité et non à l'unanimité, et n'était ouvert qu'aux hommes ; sa vraie singularité est que le juge n'était pas lié par son verdict et pouvait convoquer un jury de renouvellement s'il le jugeait mal fondé.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -115,11 +115,11 @@
       "explication": "La clause additionnelle promettait la reprise du jury après la guerre, la date devant être fixée par décret impérial ; aucun décret de ce genre n'a jamais été pris après 1945."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-24T10:22:03.984Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-21T20:24:07.141Z",
     "historique": [
       {
         "action": "valider",
@@ -128,15 +128,23 @@
         "par": "routine-relecture",
         "le": "2026-08-24T10:22:03.984Z",
         "note": "Second passage indépendant, sources rouvertes séparément (pas de reprise des notes du contrôle) : moj.go.jp relu en entier via curl brut (12 jurés, tribunal non lié, renouvellement du jury, total 484 procès dont 81 acquittements, 17,6% d'acquittements/82,1% de condamnations, suspension 1er avril 1943) ; texte statistique année par année de ja.wikipedia.org décodé colonne par colonne (法定陪審+請求陪審+陪審の更新) et recalculé à la main : 1928=28+0+3=31, 1929=133+7+3=143 (pic), 1930=66, 1942=1+0+1=2 — les quatre chiffres cités par la fiche sont exacts, pas seulement plausibles. Wikisource relu : article unique 陪審法ハ其ノ施行ヲ停止ス confirmé mot pour mot, clause de reprise par décret impérial confirmée. JACAR et ja.wikipedia confirment promulgation 18 avril 1923 (loi n°50) sous le cabinet Katō Tomosaburō (vérifié : Katō Premier ministre du 12 juin 1922 au 24 août 1923, la loi de Takahashi n'ayant pas passé la Chambre des pairs et ayant été reprise par Katō), entrée en vigueur 1er octobre 1928. Règle d'appel (pas d'appel sur les faits en cas de verdict de jury, cassation possible pour vice de forme) confirmée sur moj.go.jp. en.wikipedia Lay judges in Japan confirme le système de 2009 comme un système distinct. Citation, carte et quiz revérifiés terme à terme, rien à corriger. Empreinte inchangée, aucune touche au texte."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-21T20:24:07.141Z",
+        "note": "Sources rouvertes le 2026-10-21 (MOJ, JACAR, Wikisource loi n° 88, Wikipédia japonais). Écarts de fond : (1) « Le 1er avril 1943 la Diète adopte la loi n° 88 » : le texte sur Wikisource est promulgué le 31 mars 1943 (昭和18年3月31日, entrée en vigueur à la promulgation), le 1er avril est la date de suspension retenue par le ministère de la Justice et Wikipédia ; la Diète n'a pas voté ce jour-là ; la citation et la carte datent la loi « du 1er avril 1943 » (à rendre cohérent : promulgation 31 mars, suspension effective 1er avril selon MOJ). (2) « Le texte invoque la difficulté, pour des municipalités mobilisées par la conscription, de continuer à tenir à jour les listes de jurés » : le texte de la loi n'invoque aucun motif ; JACAR dit que des mairies épuisées par les tâches de guerre ont demandé l'abrogation de la loi pour ne plus dresser les listes, sans mention de conscription. À réécrire sur ce que JACAR établit. Points confirmés : loi n° 50 du 18 avril 1923, entrée en vigueur 1er octobre 1928, 12 jurés, critères (30 ans, 3 yens d'impôt direct, lecture), jury de droit et sur demande, renouvellement, pas d'appel sur les faits, 31 procès en 1928, 143 en 1929, 2 en 1942, 484 au total, texte de douze caractères et clause de reprise par décret, loi non abrogée, saiban-in en 2009."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-23",
-    "verdict": "ok",
-    "empreinte": "6b5bbc16a71a0470",
+    "fait_le": "2026-10-21",
+    "verdict": "a_revoir",
+    "empreinte": "e821e81364a8f458",
     "notes": [
-      "Quatre sources rouvertes : moj.go.jp (12 jurés, tribunal non lié par le verdict, renouvellement du jury, statistiques 31 procès en 1928 puis pic de 143 en 1929, suspension du 1er avril 1943 — confirmés) ; Wikisource loi n° 88 de 1943 (texte exact de l'article unique « 陪審法ハ其ノ施行ヲ停止ス » confirmé mot pour mot, clause de reprise après la guerre par décret impérial confirmée) ; Wikipédia japonais loi sur le jury (promulgation 18 avril 1923, entrée en vigueur 1er octobre 1928, distinction jury de droit / jury sur demande, absence d'appel sur les faits, 484 procès dont 81 acquittements — tous confirmés) ; JACAR (promulgation 1923, entrée en vigueur 1928, non-reprise après 1945, remplacement par le système des juges profanes en 2009 — confirmés). Un point vérifié séparément par recherche complémentaire : Katō Tomosaburō était bien premier ministre du Japon au 18 avril 1923 (poste du 12 juin 1922 au 24 août 1923), conforme à la fiche malgré une confusion introduite par un résumé automatique de la source JACAR qui citait à tort Takahashi Korekiyo. Carte et quiz conformes."
+      "Sources rouvertes le 2026-10-21 (MOJ, JACAR, Wikisource loi n° 88, Wikipédia japonais). Écarts de fond : (1) « Le 1er avril 1943 la Diète adopte la loi n° 88 » : le texte sur Wikisource est promulgué le 31 mars 1943 (昭和18年3月31日, entrée en vigueur à la promulgation), le 1er avril est la date de suspension retenue par le ministère de la Justice et Wikipédia ; la Diète n'a pas voté ce jour-là ; la citation et la carte datent la loi « du 1er avril 1943 » (à rendre cohérent : promulgation 31 mars, suspension effective 1er avril selon MOJ). (2) « Le texte invoque la difficulté, pour des municipalités mobilisées par la conscription, de continuer à tenir à jour les listes de jurés » : le texte de la loi n'invoque aucun motif ; JACAR dit que des mairies épuisées par les tâches de guerre ont demandé l'abrogation de la loi pour ne plus dresser les listes, sans mention de conscription. À réécrire sur ce que JACAR établit. Points confirmés : loi n° 50 du 18 avril 1923, entrée en vigueur 1er octobre 1928, 12 jurés, critères (30 ans, 3 yens d'impôt direct, lecture), jury de droit et sur demande, renouvellement, pas d'appel sur les faits, 31 procès en 1928, 143 en 1929, 2 en 1942, 484 au total, texte de douze caractères et clause de reprise par décret, loi non abrogée, saiban-in en 2009."
     ]
   },
   "controle_juridique": null,
