@@ -1,0 +1,74 @@
+{
+ "_lisez_moi": [
+  "Les voix de production (docs/decisions.md, 2026-10-21) : clones OmniVoice, une voix par fiche, en rotation.",
+  "« reference » est le dossier de l'extrait cloné, HORS du dépôt : ~/.anagnosis/voix/production/<reference>/reference.{wav,txt} (ou ANAGNOSIS_VOIX).",
+  "« allure » est fixe par voix (atempo), réglée à l'écoute : une voix ne change jamais de débit d'une fiche à l'autre. La changer refait toutes ses fiches.",
+  "Retirer une voix ne casse rien : ses fiches gardent leur audio jusqu'à leur prochaine régénération, qui leur attribue une voix encore active."
+ ],
+ "voix": [
+  {
+   "nom": "gaelle",
+   "affiche": "Gaëlle",
+   "genre": "femme",
+   "allure": 1.18,
+   "reference": "gaelle-tKao",
+   "voice_id_origine": "tKaoyJLW05zqV0tIH9FD"
+  },
+  {
+   "nom": "sarah",
+   "affiche": "Sarah",
+   "genre": "femme",
+   "allure": 1.15,
+   "reference": "sarah-t8Br",
+   "voice_id_origine": "t8BrjWUT5Z23DLLBzbuY"
+  },
+  {
+   "nom": "maevys",
+   "affiche": "Maevys",
+   "genre": "femme",
+   "allure": 1.2,
+   "reference": "maevys-x10M",
+   "voice_id_origine": "x10MLxaAmShMYt7vs7pl"
+  },
+  {
+   "nom": "claire",
+   "affiche": "Claire",
+   "genre": "femme",
+   "allure": 1.2,
+   "reference": "claire-6vTy",
+   "voice_id_origine": "6vTyAgAT8PncODBcLjRf"
+  },
+  {
+   "nom": "julien",
+   "affiche": "Julien",
+   "genre": "homme",
+   "allure": 1.17,
+   "reference": "julien-fnoO",
+   "voice_id_origine": "fnoOtHjtLbYs6mOpUSdr"
+  },
+  {
+   "nom": "leo",
+   "affiche": "Léo",
+   "genre": "homme",
+   "allure": 1.27,
+   "reference": "leo-Afbu",
+   "voice_id_origine": "AfbuxQ9DVtS4azaxN1W7"
+  },
+  {
+   "nom": "tristan",
+   "affiche": "Tristan",
+   "genre": "homme",
+   "allure": 1.21,
+   "reference": "tristan-grech-hv6g",
+   "voice_id_origine": "hv6gVog5LgtIUX88Nmq8"
+  },
+  {
+   "nom": "olivier",
+   "affiche": "Olivier",
+   "genre": "homme",
+   "allure": 1.16,
+   "reference": "olivier-rgFg",
+   "voice_id_origine": "rgFgMEXfdGwXCYio7I0J"
+  }
+ ]
+}

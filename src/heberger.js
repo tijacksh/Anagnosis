@@ -4,8 +4,8 @@
  *
  *     npm run heberger                 téléverse tout ce qui manque
  *
- * Volontairement une passe **séparée** de `sonoriser` : produire coûte des crédits
- * ElevenLabs et dépend d'un fournisseur externe, téléverser est gratuit et rejouable.
+ * Volontairement une passe **séparée** de `sonoriser` : produire prend des minutes de
+ * calcul par fiche, téléverser est rapide et rejouable.
  * Les découpler permet de relancer l'un sans l'autre — même logique que le cycle
  * contrôler → réparer → relire, qui sépare aussi ce qui coûte de ce qui vérifie.
  *
@@ -22,10 +22,14 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { loadAll } from './store.js';
-import { DERIVES, VOIX, lireIndex, ecrireIndex } from './audio.js';
+import { DERIVES, lireIndex, ecrireIndex } from './audio.js';
 import { config, televerser } from './r2.js';
 
-/** La clé R2 d'un dérivé : le nom de fichier suffit, il porte déjà l'id et la voix. */
+/**
+ * La clé R2 d'un dérivé : son nom de fichier, qui porte l'id de la fiche et l'empreinte du
+ * son. Une clé ne désigne donc jamais deux contenus : le Worker peut la servir avec un
+ * cache long, et une fiche refaite n'écrase rien de ce qu'un manifeste déployé désigne.
+ */
 export function cleR2(fichier) {
   return `audio/${fichier}`;
 }
@@ -43,11 +47,11 @@ export async function file() {
   for (const fiche of publiables) {
     const entree = index[fiche.id];
     if (!entree) continue;
-    for (const v of VOIX) {
-      const voix = entree.voix?.[v.nom];
-      if (!voix) continue;
+    // Toutes les voix que l'index porte pour cette fiche : une seule depuis la rotation
+    // (2026-10-21), deux pour les fiches produites avant et pas encore refaites.
+    for (const [nom, voix] of Object.entries(entree.voix ?? {})) {
       if (voix.r2?.sha256 === voix.sha256) continue;
-      aTeleverser.push({ ficheId: fiche.id, voix: v.nom, fichier: voix.fichier, sha256: voix.sha256 });
+      aTeleverser.push({ ficheId: fiche.id, voix: nom, fichier: voix.fichier, sha256: voix.sha256 });
     }
   }
   return aTeleverser;
@@ -80,6 +84,8 @@ export async function televerserTout() {
 
       const index = await lireIndex();
       index[ficheId].voix[voix].r2 = { sha256, cle: cleR2(fichier), televerse_le: new Date().toISOString() };
+      // Le nouveau son est en ligne : l'ancien n'a plus à être publié à sa place.
+      delete index[ficheId].precedente;
       await ecrireIndex(index);
       resultats.push({ ficheId, voix, ok: true });
     } catch (e) {

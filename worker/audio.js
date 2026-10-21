@@ -50,7 +50,9 @@ export default {
     }
 
     const chemin = new URL(request.url).pathname.replace(/^\/+/, '');
-    if (!/^[a-z0-9-]+--(helene|jerome)\.m4a$/.test(chemin)) {
+    // `<id>--<voix>.m4a` pour les fichiers d'avant le moteur local, `<id>--<sha16>.m4a`
+    // depuis : le nom porte l'empreinte du son, jamais celui de la voix.
+    if (!/^[a-z0-9-]+--(helene|jerome|[0-9a-f]{16})\.m4a$/.test(chemin)) {
       // Une forme de chemin inattendue n'a aucune raison d'exister dans le bucket ; le
       // refuser avant l'appel R2 évite de transformer ce Worker en sonde de contenu.
       return new Response('introuvable', { status: 404 });

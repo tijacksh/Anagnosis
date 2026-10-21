@@ -1,240 +1,167 @@
 # Passation — produire l'audio des fiches
 
 Tout ce qu'il faut pour reprendre la sonorisation du corpus dans une conversation neuve.
-La décision de fond est dans `docs/decisions.md`, entrée **2026-08-02 — L'écoute**.
+Les décisions de fond sont dans `docs/decisions.md` : **2026-10-20** (moteur local,
+réglages de lecture), **2026-10-21** (les huit voix, puis l'abandon d'ElevenLabs et le
+branchement). L'entrée du 2026-08-02 (ElevenLabs) est historique.
 
 ## Ce qui est tranché, et n'est pas à rediscuter
 
 | | |
 |---|---|
-| Fournisseur | **ElevenLabs** |
-| Modèle | **`eleven_v3`** — le seul à honorer un dictionnaire IPA |
-| Voix femme | **Helene** — *A Warm French Documentary* · `a2NqrzzRklNWkb04aqW1` |
-| Voix homme | **Jerome** — *French Narrator & Reflective Podcast* · `TES2Z4FdTbwd5F5uHmLW` |
-| Allure | **1,25×** de la lecture naturelle, cuite dans le fichier |
-| Master archivé | MP3 44,1 kHz mono **128 kbit/s** (~2,5 Mo la fiche) |
-| Dérivé servi | AAC mono **32 kbit/s** (~750 Ko la fiche) |
-| Horodatage | `/with-timestamps`, systématiquement |
-| Hébergement | **Cloudflare R2** — pas Netlify (voir plus bas) |
+| Où | **Sur le Mac mini**, en local. Aucun service distant, aucun crédit. |
+| Moteur | **OmniVoice** (`k2-fsa/OmniVoice`), servi par **VoiceStudio** (API sur `localhost:3900`) |
+| Voix | **Huit voix clonées**, 4 femmes, 4 hommes (`audio/voix.json`), **une par fiche, en rotation** |
+| Lecture | **Phrase par phrase**, pauses posées par le pipeline, années à l'oral court |
+| Allure | **Propre à chaque voix** (`atempo`, de 1,15 à 1,27), fixe : une voix ne change jamais de débit |
+| Volume | Normalisé, EBU R128 à −16 LUFS : la rotation ne s'entend pas au volume |
+| Master archivé | MP3 44,1 kHz mono **128 kbit/s** (podcast) |
+| Dérivé servi | AAC mono **32 kbit/s** (~0,6 Mo la fiche) |
+| Hébergement | **Cloudflare R2**, derrière le Worker `anagnosis-audio` (inchangé) |
+| Prononciation | Réécritures (`audio/prononciations.json`), **seulement après écoute** |
+| Droit | **Jamais sonorisé** (`SANS_ECOUTE`) |
 
-**Pourquoi pas OpenAI, malgré un tarif inférieur** : aucun moyen de figer une
-prononciation (ni SSML, ni dictionnaire phonétique). Le corpus fait dire 832 noms propres
-distincts — Doppler, Whorf, Boas, Eichmann, Ockham. Une voix qui dit « Doppleur »
-décrédibilise une fiche dont tout le propos est l'exactitude.
+**Pourquoi pas ElevenLabs** (v3 ni v4 Turbo) : voir `decisions.md`, 2026-10-21. En bref,
+v4 Turbo sonne mieux que nos clones, mais produire et entretenir le catalogue par son API
+demande un abonnement tenu à vie et un million de crédits de rattrapage, et rend la
+production dépendante d'un tiers.
 
-**Pourquoi `v3` bien qu'il ne sache pas recoudre la prosodie entre deux requêtes** : sa
-limite est de 5 000 caractères, la plus longue fiche du corpus en fait 3 874. Une fiche
-tient donc toujours en **une seule requête**, et il n'y a jamais rien à recoudre. Un test
-le verrouille (`test/audio.test.js`).
+## La machine
 
-## L'allure : 1,25×, et pourquoi elle est cuite dans le fichier
-
-Les deux voix lisent naturellement à **120 et 131 mots par minute** — la bande du discours
-structuré à pauses marquées, nettement sous la norme du livre audio (150-160). C'est juste
-pour de l'exposition, et trop lent pour qui écoute des podcasts. À 1,25× on rejoint
-exactement cette norme.
-
-**`voice_settings.speed` ne sert à rien ici.** Le paramètre existe dans l'API (0,25 à 4,0)
-mais `eleven_v3` ne l'honore pas : mesuré, deux appels au même texte à 1,0 et à 1,25 rendent
-des fichiers de durée **identique à la milliseconde**. Ne pas perdre de temps à réessayer.
-
-C'est donc `ffmpeg -filter:a atempo=1.25` qui s'en charge, au moment d'écrire le master —
-il étire le temps sans toucher à la hauteur de voix. L'accélération est appliquée **au
-master comme au dérivé** : le master alimentera le podcast, et un podcast qui n'aurait pas
-la même allure que l'app serait un autre produit.
-
-L'index enregistre `allure`, et **une allure changée refait tout le catalogue** : une fiche
-à l'ancienne cadence au milieu des autres s'entend immédiatement. Le réglage 1× / 1,25× /
-1,5× du lecteur part désormais de cette référence-là, pas du naturel.
-
-## Les horodatages : à prendre dès le premier appel
-
-`/with-timestamps` coûte **le même nombre de crédits** que l'endpoint ordinaire et rend en
-plus l'instant où chaque caractère est prononcé. On le prend systématiquement, et l'index
-range les frontières de passage sous `voix.<nom>.chapitres`.
-
-La raison est économique autant que technique : deviner les frontières au prorata des
-caractères supposerait un débit constant que la voix n'a pas, et s'apercevoir plus tard
-qu'on veut les vraies coûterait **une seconde génération du corpus entier** — un demi-million
-de crédits. Les instants sont divisés par `ALLURE`, puisque l'alignement porte sur l'audio
-avant étirement.
-
-L'app ne s'en sert pas encore : le chapitrage viendra quand le manifeste portera ces données.
+- **VoiceStudio** 0.5.6, dans `/Applications`. Ses données (`~/Library/Application
+  Support/VoiceStudio` et `…/OmniVoice`) et le **cache des modèles** (`~/.cache/huggingface`)
+  sont des liens vers le **SSD 1To**. SSD 1To débranché = plus de moteur : le rebrancher,
+  ne rien recréer.
+- **Les références des voix** (`reference.wav` + `reference.txt`, 15 à 20 s chacune, lues
+  par Eleven v4 Turbo) : `~/.anagnosis/voix/production/<voix>/`, hors du dépôt. Le chemin
+  se change par `ANAGNOSIS_VOIX`. Changer un clip refait toutes les fiches de cette voix
+  (son empreinte est dans l'index).
+- **Mémoire.** OmniVoice occupe environ 6 Go pendant la génération. Si d'autres moteurs
+  (VoxCPM2 de Jarvis), des simulateurs ou Gradle tournent en même temps, la machine passe
+  en swap et une fiche passe de 3-4 à 7 minutes, voire le moteur est tué en route. La
+  commande décharge VoiceStudio à la fin ; la tâche de nuit tourne quand rien d'autre ne
+  tourne.
+- **GGUF** : un binaire `omnivoice-tts` a été compilé à la main (VoiceStudio 0.5.6 ne le
+  livre pas) dans `…/VoiceStudio/runtime/project/bin/`. **Il n'est pas utilisé** : il
+  recharge le modèle à chaque phrase (≈ 13 s par appel). À recompiler après une mise à
+  jour de VoiceStudio seulement si l'on veut y revenir
+  (`~/VoiceStudio/scripts/build-omnivoice-tts.sh --platform darwin-arm64 --commit-sha
+  886fc079838ca7400cb2b42b36e2a65aa1daabe8`).
 
 ## Les commandes
 
 ```bash
-npm run asonoriser                        # ce qui n'a pas d'audio à jour
-node src/cli.js sonoriser <id>            # produire une fiche
-node src/cli.js sonoriser --lot           # produire tout le passage (8 fiches)
-node src/cli.js sonoriser <id> --force    # refaire malgré un audio à jour
-
-npm run heberger                          # téléverse vers R2 ce qui manque au bucket
+npm run asonoriser                               # la file, les motifs, le temps estimé
+node src/cli.js sonoriser <id>                   # une fiche (VoiceStudio ouvert)
+node src/cli.js sonoriser --lot                  # le passage (8 fiches)
+node src/cli.js sonoriser --file --jusqua 04:30  # toute la file, avec une heure de fin
+node src/cli.js sonoriser <id> --force           # refaire malgré un audio à jour
+npm run heberger                                 # téléverse vers R2 ce qui manque au bucket
 ```
 
-Les clés viennent de l'environnement et **n'entrent jamais dans le dépôt** :
+Ouvrir VoiceStudio avant : `open -g /Applications/VoiceStudio.app`. Les clés R2 viennent de
+l'environnement : `set -a; . ~/.anagnosis/cles.env; set +a`.
 
-```bash
-set -a; . ~/.anagnosis/cles.env; set +a
-```
+## La tâche de nuit
 
-`ffmpeg` et `ffprobe` sont requis pour dériver le format de l'app. Ce sont des outils
-d'atelier, pas des dépendances du pipeline : le ré-encodage a lieu au moment de la
-production, jamais sur le NAS ni dans la chaîne de construction.
+`outils/nuit-audio.sh`, lancée par launchd (`~/Library/LaunchAgents/fr.anagnosis.audio.nuit.plist`)
+**à 1 h 15**, dans **son propre clone** (`~/Anagnosis/Anagnosis-audio-nuit`), jamais dans le
+dépôt où d'autres sessions travaillent. Elle :
+
+1. ne fait rien si elle part après **4 h 30** (un Mac réveillé à 5 h rattrape le rendez-vous
+   manqué : elle ne doit pas déborder sur Jarvis ni sur la journée) ;
+2. pousse d'abord un commit qu'une nuit précédente n'a pas pu pousser, et reprend un index
+   resté non commité (mis de côté le temps du `git pull --ff-only` sur `main`) ;
+3. ouvre VoiceStudio s'il est fermé ;
+4. sonorise la file jusqu'à 4 h 30 (Jarvis prend VoiceStudio vers 5 h ; les routines
+   tournent à :08 et :38 sans toucher à l'audio). Une phrase qui ne revient pas en dix
+   minutes fait échouer sa fiche, pas la nuit ;
+5. téléverse vers R2 (`heberger`) — **un échec : rien n'est publié** ;
+6. lance `npm test`, et ne publie rien s'il échoue (la cause va au journal) ;
+7. commite `audio/index.json` et pousse. Un push refusé (une routine a poussé entre-temps)
+   se rattrape par `pull --rebase` et un nouvel essai, cinq fois au plus, **jamais forcé** ;
+8. décharge OmniVoice — lui seul, pas le VoxCPM2 de Jarvis — même en cas d'erreur ou
+   d'arrêt. Le verrou porte le PID : une nuit tuée ne bloque pas les suivantes.
+
+Journal : **`~/.anagnosis/journal-audio.log`** (le script l'écrit lui-même ; launchd, qui ne
+sait pas écrire sur un volume externe, n'a que `~/Library/Logs/anagnosis-audio/`). Une nuit
+de test, sans push : `NUIT_SANS_PUSH=1 outils/nuit-audio.sh`.
+
+**Rien n'est publié à moitié** : une fiche n'entre dans l'index qu'une fois son master et
+son dérivé complets ; le manifeste ne publie une voix qu'une fois téléversée, et d'ici là
+continue de publier l'ancien son de la fiche (`precedente`).
+
+**Les fichiers sont nommés par leur empreinte** (`<id>--<sha16>.m4a`, master `<id>.mp3`) :
+le nom du dérivé fait l'URL publiée et la clé R2. Il ne dit donc jamais qui lit, et une
+fiche refaite ne réécrase jamais une clé que le manifeste déjà déployé désigne — le Worker
+sert chaque chemin avec un cache long, en supposant qu'il ne change jamais de contenu.
 
 ## Ce que l'index enregistre, et pourquoi
 
-`audio/index.json` est **committé** ; `audio/masters/` et `audio/app/` sont ignorés.
+`audio/index.json` est **committé** ; `audio/masters/` et `audio/app/` sont ignorés. Par fiche :
 
-Chaque entrée porte **l'empreinte du texte à partir duquel le fichier a été produit**.
-C'est le point qui a dicté toute la structure : l'empreinte de contrôle ne couvre que le
-fond éditorial, donc elle ne sait rien de l'audio. Se contenter de vérifier que le fichier
-existe laisserait une fiche corrigée par `/reparer` servir le son de l'ancien texte — le
-lecteur entendrait une version que la fiche ne dit plus, et **rien ne le signalerait**.
-C'est le seul défaut de cette chaîne qui soit à la fois silencieux et durable.
+| Champ | Pourquoi |
+|---|---|
+| `empreinte` | le texte lu **et** les règles de prononciation qui le touchent |
+| `empreinte_texte` | le texte seul : distingue « texte modifié » de « prononciation modifiée » |
+| `moteur`, `modele`, `poids` | la révision des poids d'OmniVoice (`refs/main` du cache Hugging Face) |
+| `moteur_version` | la version de VoiceStudio, pour l'enquête |
+| `reglages` | la version des réglages de lecture (`REGLAGES` dans `src/audio.js`) |
+| `voix_attribuee`, `reference`, `allure` | qui lit, avec quel clip, à quelle allure |
+| `voix.<nom>` | fichier, sha256, octets, `secondes` (entier), `chapitres`, `r2` une fois téléversé |
+| `precedente` | ce qui était en ligne avant la dernière production, publié tant que le nouveau son n'est pas téléversé ; effacé par `heberger` |
 
-Une fiche dont l'empreinte a bougé repasse donc d'elle-même en production. Le test
-correspondant a été vérifié par mutation : il échoue bien quand on retire la comparaison.
+Un seul de ces éléments qui bouge, et la fiche repasse d'elle-même en production — sauf
+`moteur_version`, gardé pour l'enquête : une mise à jour de VoiceStudio qui ne touche pas
+aux poids ne refait pas 649 fiches. **On incrémente `REGLAGES`** à chaque changement qui
+modifie le son (pauses, découpage, volume). `poids` lit `refs/main` du cache, c'est-à-dire
+la révision téléchargée : VoiceStudio ne dit pas laquelle il a chargée.
 
-**On ne régénère jamais sans raison.** Un second appel coûte des crédits *et* prend le
-risque que le modèle ait bougé entre-temps — la voix du catalogue changerait d'une fiche à
-l'autre, en silence. La commande est idempotente sur le texte, pas sur le fichier
-(vérifié : un second appel ne dépense aucun crédit).
+## Côté apps (iOS et Android)
+
+- Elles lisent `audio.lecture` (une voix, son genre) et, pour un manifeste plus ancien,
+  `helene` puis `jerome`. **Plus de choix de voix** dans les réglages ; le lecteur affiche
+  « FEMME » ou « HOMME », jamais le nom de la voix.
+- **Le cache est indexé par sha256** (`<id>--<empreinte>.m4a`) : une fiche refaite change
+  de nom de fichier, donc elle est retéléchargée. Avant (`<id>--<voix>.m4a`), le cache
+  resservait l'ancien son indéfiniment.
+- **Limite connue** : les versions déjà installées gardent l'ancien cache. Pour les 34
+  fiches sonorisées par ElevenLabs, un lecteur qui les avait déjà écoutées entend l'ancien
+  son jusqu'à la mise à jour de l'app ou la purge du cache (500 Mo) — **avec les repères
+  du nouveau** : le surlignage y est décalé, et le libellé « FEMME »/« HOMME » de son
+  réglage ne correspond plus forcément à la voix entendue. Même chose pour
+  `phi-banalite-du-mal`, embarquée dans ces versions. Le pipeline n'y peut rien ; les
+  nouvelles versions corrigent.
+
+## Ajouter une voix, changer une référence, corriger une prononciation
+
+- **Une voix** : un clip de 15 à 20 s (jamais plus de 20 : OmniVoice le refuse) et sa
+  transcription exacte dans `~/.anagnosis/voix/production/<voix>/`, une entrée dans
+  `audio/voix.json` (genre, allure réglée à l'écoute). Écouter avant tout : le clonage
+  reprend le timbre, pas le phrasé, et certaines voix ne passent pas.
+- **Une référence** : remplacer le clip refait toutes les fiches de la voix.
+- **Une prononciation** : écouter le nom avant et après (`outils/sources-prononciation.mjs`
+  propose), et n'ajouter la règle que si l'écoute dit qu'elle aide.
 
 ## Où on en est
 
-- **196 fiches publiables** (2026-08-04), **33 sonorisées** dans les deux voix — et
-  **toutes déjà téléversées vers R2** (`npm run heberger` : rien en attente).
-- Mesuré : **~0,55 crédit par caractère**, soit ~3 200 crédits la fiche en deux voix.
-  `npm run asonoriser` donne le coût exact du reste à chaque appel — ces chiffres bougent
-  vite, s'y fier plutôt qu'à un nombre figé ici.
-
-**Le rattrapage complet demande ~500 000 crédits.** Deux voies, à trancher :
-
-- **un mois de Pro à 99 $** (600 000 crédits) fait tout le catalogue d'un coup, puis
-  retour à Creator ;
-- ou ~40 fiches par mois sur Creator, et le rattrapage prend quatre mois.
-
-Le régime de croisière — une fiche par jour, deux voix — tient dans Creator (~96 000
-crédits/mois) dans les deux cas.
-
-## Ce qui reste à construire
-
-1. **Le dictionnaire de prononciation IPA** — versionné dans le dépôt, alimenté depuis les
-   832 noms propres détectés, avec une commande listant ceux sans règle. Ne marche que sur
-   `eleven_v3` et `eleven_flash_v2` ; `multilingual_v2` ignore les phonèmes en silence.
-   La consistance annoncée est de 80-90 %, pas 100 %.
-2. ~~Le téléversement vers R2~~ — **fait** (2026-08-04). Signature AWS SigV4 écrite à la
-   main avec `node:crypto`, pas de SDK (`src/r2.js`), et l'orchestration dans
-   `src/heberger.js` (`npm run heberger`). Le bucket `anagnosis-audio` existe, est
-   **privé**, et les clés vivent dans `~/.anagnosis/cles.env`
-   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`). Chaque voix
-   téléversée avec succès porte `voix.<nom>.r2 = {cle, sha256, televerse_le}` dans
-   `audio/index.json` — c'est ce qui rend la passe idempotente et rejouable.
-3. ~~Le Worker Cloudflare~~ — **fait, en partie** (2026-08-04). `worker/audio.js`, déployé
-   sur `https://anagnosis-audio.anagnosis.workers.dev` (`wrangler.toml`, liaison R2
-   native, aucune clé S3 à lui donner). Il sert le bucket privé derrière un **jeton
-   partagé** (`X-Anagnosis-Cle`, posé côté Worker avec `wrangler secret put CLE_PARTAGEE`,
-   embarqué en dur dans les deux apps) — ce n'est **pas** une validation d'abonnement,
-   seulement ce qui empêche le pillage anonyme du bucket par une URL devinée. La vraie
-   garde (reçu App Store / Play Store vérifié par requête) attend toujours le point 2 de
-   la passation générale (produits App Store Connect / Play Console). Le jour où ils
-   existeront, seul le contenu de la fonction `fetch` change — la forme de la réponse, la
-   liaison R2 et le déploiement restent les mêmes. Déployer une modification :
-   `cd worker && npx wrangler deploy` (variables `CLOUDFLARE_API_TOKEN` et
-   `CLOUDFLARE_ACCOUNT_ID` dans `~/.anagnosis/cles.env`).
-4. ~~L'adresse et l'empreinte dans le manifeste~~ — **fait** (2026-08-04). `src/publier.js`
-   ajoute par fiche et par voix `audio.<nom> = {url, sha256, secondes}`, URL du Worker
-   (jamais R2 direct), à partir de `audio/index.json` — seulement les voix dont `.r2` est
-   posé (donc réellement dans le bucket, pas seulement produites). Comme `concepts.json`
-   est signé en Ed25519, l'empreinte de chaque fichier est couverte sans mécanisme
-   supplémentaire.
-
-## Deux règles d'architecture à ne pas perdre
-
-**L'adresse vient du manifeste, jamais de l'app.** L'URL de chaque fichier doit être lue
-dans `concepts.json`, jamais fabriquée côté client en collant des morceaux. C'est ce qui
-rend un changement d'hébergeur invisible aux versions déjà installées — même leçon que
-`src/publier.js` : une seule projection, pas deux.
-
-**L'audio ne doit pas bloquer l'éditorial.** Une fiche sans audio reste **validée mais non
-publiée**, jamais dévalidée : si le fournisseur tombe ou si la clé expire, aucun travail de
-relecture n'est perdu.
-
-**Une voix produite, ou rien — il n'y a pas de troisième niveau.** L'app a lu les fiches
-avec la synthèse de l'appareil pendant un temps ; le moteur a été retiré. Le lecteur entend
-une machine dès la première phrase, ce qu'aucun réglage ne rattrape, et il en conclut que
-l'écoute est mauvaise plutôt qu'elle n'est pas encore prête. Une fiche sans voix produite
-l'annonce désormais (« AUDIO PROCHAINEMENT DISPONIBLE ») et le bouton ne fait rien d'autre.
-
-Conséquence directe pour la production : **chaque fiche sans audio est une fiche muette**
-dans l'app. Ce n'est plus une dégradation discrète, c'est un manque visible — ce qui est
-voulu, et ce qui donne le rythme au rattrapage.
-
-## Côté client (iOS et Android), déjà fait
-
-Les deux apps téléchargent, vérifient et jouent une voix hébergée — `AudioDistant.swift` /
-`AudioDistant.kt`, une seule voix à la fois (celle choisie, jamais les deux d'un coup), avec
-un cache borné à 500 Mo purgé par date de dernière écoute (jamais la fiche du jour ni celle
-de demain). `lire` et `changerVoix` déclenchent eux-mêmes le téléchargement manquant — pas
-besoin que l'appelant distingue « déjà en cache » de « à aller chercher ». Détail complet
-dans les dépôts `Anagnosis-app` et `Anagnosis-android`.
-
-## Un piège écarté, et sa vraie portée
-
-`aLire` ne retirait que les doubles astérisques du gras, pas les simples de l'italique : 88
-fiches sur 162 partaient à la génération avec leurs étoiles autour des titres d'ouvrage.
-C'est corrigé, et deux tests le verrouillent dont un qui balaie tout le dépôt.
-
-**À l'écoute, ElevenLabs les ignorait** — vérifié sur *Gedankenlosigkeit*, prononcé sans
-étoile. Ce n'était donc pas un défaut audible, seulement du texte parasite envoyé au modèle.
-La correction reste juste — on n'envoie pas de balisage à une synthèse, et rien ne garantit
-qu'un autre modèle l'ignorera aussi bien — mais elle ne justifiait pas de tout refaire.
+Voir `npm run asonoriser` : il donne la file et le temps estimé. Au 2026-10-21 : 649
+fiches publiables, toutes à (re)faire, soit **environ 44 h** de génération, une douzaine de
+nuits de 1 h 15 à 4 h 30.
 
 ## Pourquoi pas Netlify pour l'audio
 
 Le palier gratuit 2026 plafonne à ~15 Go mensuels, soit **15 000 écoutes**, après quoi le
-site cesse de servir. Mettre le plafond là, sur un produit dont l'audio est un argument
-d'abonnement, serait le pire endroit possible.
+site cesse de servir. R2 : zéro frais de sortie, 10 Go de stockage gratuits (le corpus en
+une voix en occupe moins de 0,5), 10 M de téléchargements mensuels inclus.
 
-R2 : zéro frais de sortie, 10 Go de stockage gratuits (le corpus complet en deux voix en
-occupe moins de 3), 10 M de téléchargements mensuels inclus. Le corpus entier coûterait
-deux centimes par mois au-delà du gratuit.
+## Deux règles d'architecture à ne pas perdre
 
-## Comment l'audio atteint l'app aujourd'hui
+**L'adresse vient du manifeste, jamais de l'app.** L'URL de chaque fichier est lue dans
+`concepts.json`, jamais fabriquée côté client. C'est ce qui rend un changement
+d'hébergeur — ou de nom de fichier — invisible aux versions déjà installées.
 
-En attendant R2, deux fichiers sont **embarqués** dans le bundle iOS :
-
-```
-Anagnosis/Ressources/Audio/phi-banalite-du-mal--helene.m4a
-Anagnosis/Ressources/Audio/phi-banalite-du-mal--jerome.m4a
-```
-
-La convention de nommage est `<id-de-fiche>--<helene|jerome>.m4a`. `Ecoute.fichierProduit`
-les cherche dans le bundle ; si le fichier existe, il est joué, sinon la synthèse de
-l'appareil prend le relais. Le calendrier liste les fiches sonorisées sous la grille pour
-les rendre atteignables — elles n'ont pas de jour dans le programme si leur discipline
-n'est pas cochée.
-
-Pour en ajouter une :
-
-```bash
-node src/cli.js sonoriser <id>
-ffmpeg -i audio/masters/<id>--helene.mp3 -ac 1 -c:a aac -b:a 32k \
-  ~/Anagnosis-app/Anagnosis/Ressources/Audio/<id>--helene.m4a
-```
-
-(Le dérivé existe déjà dans `audio/app/` — la copie suffit. La ligne `ffmpeg` n'est utile
-que si l'on repart d'un master.)
-
-Ce dispositif est **temporaire** et disparaîtra quand le manifeste portera les adresses.
-
-## Outils annexes
-
-`outils/comparer-voix.mjs` fait entendre une même fiche chez plusieurs fournisseurs et sur
-les deux modèles ElevenLabs. Il a servi à trancher ; il resservira si l'on veut réévaluer
-une voix.
-
-Les échantillons de recette sont dans `docs/echantillons-voix/` — les deux voix retenues
-sur *La banalité du mal*, avec le texte exactement tel qu'il est prononcé. C'est une pièce
-justificative, pas une bibliothèque : ne pas en ajouter d'autres.
+**L'audio ne doit pas bloquer l'éditorial.** Une fiche sans audio reste **validée**, jamais
+dévalidée : si le moteur tombe, aucun travail de relecture n'est perdu. Une fiche sans voix
+produite l'annonce dans l'app (« AUDIO PROCHAINEMENT DISPONIBLE ») ; il n'y a pas de
+troisième niveau, pas de synthèse de secours sur l'appareil.

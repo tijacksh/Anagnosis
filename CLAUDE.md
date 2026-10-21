@@ -292,25 +292,52 @@ bouton et le lecteur au lieu d'annoncer un « audio prochainement disponible » 
 viendrait jamais — c'est `Ecoute.sansEcoute`, des deux côtés. **« Jamais » n'est pas « pas
 encore »**, et l'interface doit dire lequel des deux.
 
-`npm run asonoriser` dit quelles fiches publiables n'ont pas d'audio à jour, et
-`node src/cli.js sonoriser <id>` le produit — deux voix françaises, modèle `eleven_v3`,
-un master archivé et un dérivé AAC servi à l'app (`docs/decisions.md`, 2026-08-02).
+**Tout se fait en local, sur le Mac mini** (`docs/decisions.md`, 2026-10-21) : OmniVoice
+servi par **VoiceStudio** (`src/voicestudio.js`, API HTTP sur `localhost:3900`), huit voix
+clonées en rotation (`audio/voix.json`, références hors du dépôt dans
+`~/.anagnosis/voix/production/`). Plus d'ElevenLabs, plus de crédits.
 
-**« À jour » ne veut pas dire « présent ».** L'empreinte de contrôle ne couvre que le fond
-éditorial : elle ne sait rien de l'audio. Si l'on se contentait de vérifier l'existence du
-fichier, une fiche corrigée par `/reparer` continuerait de servir le son de l'ancien texte,
-sans que rien ne le signale — c'est le seul défaut de cette chaîne qui soit à la fois
-silencieux et durable. `audio/index.json` enregistre donc l'empreinte du texte **à partir
-duquel** chaque fichier a été produit, et une fiche dont l'empreinte a bougé repasse d'elle
--même en production. Un test le verrouille (`test/audio.test.js`).
+```bash
+npm run asonoriser                                  # ce qui n'a pas d'audio à jour, et le temps estimé
+node src/cli.js sonoriser <id>                      # une fiche (VoiceStudio ouvert)
+node src/cli.js sonoriser --file --jusqua 04:30     # toute la file, jusqu'à une heure de fin
+npm run heberger                                    # téléverse vers R2 ce qui manque au bucket
+outils/nuit-audio.sh                                # la tâche de nuit (launchd fr.anagnosis.audio.nuit)
+```
 
-**On ne régénère jamais sans raison.** Un second appel coûte des crédits *et* prend le
-risque que le modèle ait bougé entre-temps : la voix du catalogue changerait d'une fiche à
-l'autre, en silence. La commande est donc idempotente sur le texte, pas sur le fichier.
+**Une voix par fiche, gardée.** La rotation alterne les genres et équilibre l'emploi des
+voix ; une fiche refaite garde sa voix. Le manifeste publie cette voix sous `lecture`
+(avec son genre, jamais son nom) et sous les clés historiques `helene` et `jerome`, que
+les apps déjà installées sont seules à connaître.
 
-`ffmpeg` est requis pour dériver le format de l'app. C'est un outil d'atelier, pas une
-dépendance du pipeline : le ré-encodage a lieu au moment de la production, jamais sur le
-NAS ni dans la chaîne de construction.
+**Un fichier par son, nommé par son empreinte** (`<id>--<sha16>.m4a`) : le nom fait l'URL
+et la clé R2, donc il ne dit jamais qui lit, et une fiche refaite ne réécrit jamais un
+fichier qu'un manifeste déployé désigne (le Worker les sert avec un cache long). Tant que
+le nouveau son n'est pas téléversé, l'index garde l'ancien sous `precedente` et le
+manifeste continue de le publier : une fiche refaite ne se tait jamais.
+
+**« À jour » ne veut pas dire « présent ».** L'index (`audio/index.json`) enregistre, pour
+chaque fiche, l'empreinte du texte lu, les règles de prononciation qui la touchent, le
+moteur, la révision des poids, l'empreinte de la référence de la voix, son allure et la
+version des réglages de lecture (`REGLAGES`). Un seul de ces éléments qui bouge, et la
+fiche repasse d'elle-même en production : jamais deux rendus de voix mélangés en silence.
+Les tests le verrouillent (`test/audio.test.js`).
+
+**La lecture : phrase par phrase.** Le moteur enchaîne tout sans respirer ; c'est le
+pipeline qui pose les pauses (titre, intertitre, paragraphe, phrase), dit les années à
+l'oral court (« dix-neuf cent soixante-dix-neuf »), applique l'allure propre à la voix
+(`atempo`) et normalise le volume. Les chapitres tombent du calcul : on sait où commence
+chaque phrase, donc chaque bloc — c'est ce que l'app surligne (`reperes`).
+
+**La prononciation** se dirige par réécriture (`audio/prononciations.json`), appliquée au
+seul texte envoyé au moteur. **Une règle n'entre qu'après une écoute avant/après** : le
+moteur dit déjà bien la plupart des noms, et les réécrire les abîme souvent.
+`outils/sources-prononciation.mjs` propose des réécritures depuis le Wiktionnaire,
+Wikipédia et Wikidata ; il n'en impose aucune.
+
+**VoiceStudio partage la machine.** On le décharge après chaque usage (la commande le
+fait seule, même en cas d'erreur). Jarvis s'en sert vers 5 h : la tâche de nuit s'arrête à
+4 h 30. `ffmpeg` est requis ; c'est un outil d'atelier, pas une dépendance du pipeline.
 
 ## Pièges déjà rencontrés
 

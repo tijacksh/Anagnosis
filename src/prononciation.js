@@ -196,3 +196,64 @@ export function coherent(nom, ipa) {
   const communes = [...a].filter((x) => b.has(x)).length;
   return communes / Math.max(a.size, b.size) >= 0.5;
 }
+
+// ── Le texte dit : années à l'oral, phrases ─────────────────────────────────────────
+//
+// Deux réglages de lecture retenus à l'écoute (docs/decisions.md, 2026-10-20), qui ne
+// touchent, comme les réécritures, que le texte envoyé au moteur.
+
+const UNITES = ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix',
+  'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf'];
+const DIZAINES = { 2: 'vingt', 3: 'trente', 4: 'quarante', 5: 'cinquante', 6: 'soixante' };
+
+function moinsDeCent(n) {
+  if (n < 20) return UNITES[n];
+  const d = Math.floor(n / 10), u = n % 10;
+  if (d === 7) return u === 1 ? 'soixante-et-onze' : `soixante-${UNITES[10 + u]}`;
+  if (d === 8) return u ? `quatre-vingt-${UNITES[u]}` : 'quatre-vingts';
+  if (d === 9) return `quatre-vingt-${UNITES[10 + u]}`;
+  return u === 0 ? DIZAINES[d] : u === 1 ? `${DIZAINES[d]}-et-un` : `${DIZAINES[d]}-${UNITES[u]}`;
+}
+
+/** 1979 → « dix-neuf cent soixante-dix-neuf » ; 2024 → « deux mille vingt-quatre ». */
+export function annee(n) {
+  if (n >= 1100 && n <= 1999) {
+    const s = Math.floor(n / 100), r = n % 100;
+    return `${moinsDeCent(s)} cent${r ? ` ${moinsDeCent(r)}` : ''}`;
+  }
+  if (n >= 2000 && n <= 2099) return `deux mille${n % 100 ? ` ${moinsDeCent(n % 100)}` : ''}`;
+  return String(n);
+}
+
+/**
+ * Les années à l'oral court.
+ *
+ * « Mille neuf cent soixante-dix-neuf », la forme que la normalisation de VoiceStudio
+ * produit, s'entend poussive à la lecture ; « dix-neuf cent soixante-dix-neuf » est la forme
+ * orale courante. Seules les années isolées sont touchées : pas un nombre collé à d'autres
+ * chiffres, à une virgule décimale (« 1,75 »), ni « 1 984 cas ».
+ */
+export function ecrireAnnees(texte) {
+  return texte.replace(/(?<![\d,.])\b(1[1-9]\d\d|20\d\d)\b(?![\d,.]\d)/g, (m) => annee(Number(m)));
+}
+
+// Une phrase finit sur . ! ? … ou » suivis d'une majuscule — sauf après une abréviation
+// ou une initiale, qui ne ferment rien (« J.-C. », « M. », « E. Noether »).
+const ABREVIATION = /(?:\b(?:M|Mme|Mlle|Dr|Pr|St|av|apr|J\.-C|cf|env|etc|p|vol|chap|n°|no)|\b[A-ZÀ-ÖØ-Þ])\.$/u;
+
+/**
+ * Un paragraphe en phrases.
+ *
+ * Le moteur enchaîne les phrases d'un paragraphe sans pause : chaque phrase est donc
+ * générée à part, et c'est le pipeline qui pose le silence entre elles.
+ */
+export function phrases(paragraphe) {
+  const sortie = [];
+  let courante = '';
+  for (const morceau of paragraphe.split(/(?<=[.!?…»])\s+(?=[«"(]?[A-ZÀ-ÖØ-Þ0-9])/u)) {
+    courante = courante ? `${courante} ${morceau}` : morceau;
+    if (!ABREVIATION.test(courante)) { sortie.push(courante); courante = ''; }
+  }
+  if (courante) sortie.push(courante);
+  return sortie;
+}

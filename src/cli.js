@@ -21,7 +21,8 @@ import { cible as choisirCible, afficher } from './cible.js';
 import { file as fileControle, afficher as afficherControle, marquer, reparation } from './controle.js';
 import { file as fileReparer, afficher as afficherReparer } from './reparer.js';
 import { file as fileRelire, afficher as afficherRelire, relecture } from './relire.js';
-import { file as fileAudio, afficher as afficherAudio, sonoriser } from './audio.js';
+import { file as fileAudio, afficher as afficherAudio, sonoriser, contexte as contexteAudio } from './audio.js';
+import { decharger as dechargerMoteur } from './voicestudio.js';
 import { file as fileHeberger, afficher as afficherHeberger, televerserTout } from './heberger.js';
 import { file as fileDroit, afficher as afficherDroit, marquer as marquerDroit } from './droit.js';
 import { cmdExiste, cmdDoublons } from './existe.js';
@@ -230,24 +231,29 @@ async function cmdASonoriser() {
 }
 
 /**
- * Produit l'audio : `sonoriser <id>`, ou `sonoriser --lot` pour tout le passage.
+ * Produit l'audio avec le moteur local : `sonoriser <id…>`, `--lot` (le passage), ou
+ * `--file` (toute la file, pour la tâche de nuit), éventuellement borné par `--jusqua HH:MM`.
  *
- * Chaque appel coûte des crédits, donc rien ne part sans qu'on l'ait demandé — et la
- * commande dit ce qu'elle va dépenser avant de le dépenser.
+ * VoiceStudio doit être ouvert ; ses moteurs sont déchargés à la fin, même en cas
+ * d'erreur — il partage la machine.
  */
 async function cmdSonoriser() {
   const args = process.argv.slice(3);
   const force = args.includes('--force');
-  const cibles = args.filter((a) => !a.startsWith('--'));
   const lot = args.includes('--lot');
+  const toute = args.includes('--file');
+  const iFin = args.indexOf('--jusqua');
+  const fin = iFin >= 0 ? heureLimite(args[iFin + 1]) : null;
+  const cibles = args.filter((a, i) => !a.startsWith('--') && !(iFin >= 0 && i === iFin + 1));
 
-  if (!cibles.length && !lot) {
-    console.error('Usage : node src/cli.js sonoriser <id…> | --lot [--force]');
+  if (!cibles.length && !lot && !toute) {
+    console.error('Usage : node src/cli.js sonoriser <id…> | --lot | --file [--jusqua HH:MM] [--force]');
     return 2;
   }
 
-  const f = await fileAudio();
-  const fiches = lot
+  const ctx = await contexteAudio();
+  const f = await fileAudio(ctx);
+  const fiches = toute ? f.toutes : lot
     ? f.lot.map((e) => e.fiche)
     : (await loadAll()).filter((x) => cibles.includes(x.id));
 
@@ -256,9 +262,8 @@ async function cmdSonoriser() {
     console.error(c('red', `fiche(s) introuvable(s) : ${introuvables.join(', ')}`));
     return 1;
   }
-  // `--lot` ne les propose déjà pas, mais un identifiant donné à la main court-circuite
-  // la file. On refuse ici plutôt que de dépenser les crédits : la commande est le
-  // dernier endroit où « on ne sonorise pas cette discipline » peut encore être tenu.
+  // La file ne les propose jamais, mais un identifiant donné à la main la court-circuite :
+  // la commande est le dernier endroit où « on ne sonorise pas cette discipline » se tient.
   const interdites = fiches.filter((x) => SANS_ECOUTE.has(x.discipline));
   if (interdites.length) {
     console.error(c('red', `discipline sans écoute : ${interdites.map((x) => x.id).join(', ')}`));
@@ -270,27 +275,47 @@ async function cmdSonoriser() {
   }
 
   let echecs = 0;
-  for (const fiche of fiches) {
-    try {
-      const entree = await sonoriser(fiche, { force });
-      const voix = Object.entries(entree.voix)
-        .map(([nom, v]) => `${nom} ${Math.floor(v.secondes / 60)}m${String(v.secondes % 60).padStart(2, '0')}`)
-        .join(' · ');
-      console.log(c('green', `  ✓ ${fiche.id}  ${voix}`));
-    } catch (e) {
-      // Une fiche en échec n'arrête pas les autres : ce qui est produit est acquis.
-      console.error(c('red', `  ✗ ${fiche.id}  ${e.message}`));
-      echecs += 1;
+  let faites = 0;
+  try {
+    for (const fiche of fiches) {
+      if (fin && Date.now() >= fin) {
+        console.log(c('yellow', `  heure limite atteinte : ${fiches.length - faites - echecs} fiche(s) attendront la nuit suivante`));
+        break;
+      }
+      const debut = Date.now();
+      try {
+        const e = await sonoriser(fiche, { ctx, force });
+        const v = e.voix[e.voix_attribuee];
+        console.log(c('green', `  ✓ ${fiche.id}  ${e.voix_attribuee} ${Math.floor(v.secondes / 60)}m${String(v.secondes % 60).padStart(2, '0')} · ${Math.round((Date.now() - debut) / 1000)} s de calcul`));
+        faites += 1;
+      } catch (e) {
+        // Une fiche en échec n'arrête pas les autres : ce qui est produit est acquis, et
+        // l'index n'est écrit qu'une fois une fiche complète.
+        console.error(c('red', `  ✗ ${fiche.id}  ${e.message}`));
+        echecs += 1;
+      }
     }
+  } finally {
+    await dechargerMoteur();
   }
   return echecs ? 1 : 0;
+}
+
+/** « 04:30 » → l'instant correspondant, aujourd'hui ou demain s'il est déjà passé. */
+function heureLimite(hhmm) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(hhmm ?? '');
+  if (!m) throw new Error(`--jusqua attend une heure HH:MM, pas « ${hhmm} »`);
+  const d = new Date();
+  d.setHours(Number(m[1]), Number(m[2]), 0, 0);
+  if (d.getTime() <= Date.now()) d.setDate(d.getDate() + 1);
+  return d.getTime();
 }
 
 /**
  * Téléverse vers R2 les dérivés produits mais pas encore en ligne.
  *
  * Séparée de `sonoriser` : ça ne coûte rien et se rejoue sans risque, contrairement à
- * un appel ElevenLabs. `npm run heberger` dit d'abord quoi téléverser, la commande fait
+ * une génération de plusieurs minutes. `npm run heberger` dit d'abord quoi téléverser, la commande fait
  * le travail.
  */
 async function cmdHeberger() {

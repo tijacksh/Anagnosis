@@ -6,6 +6,43 @@ enregistre ce qui a été tranché depuis, et pourquoi.
 
 ---
 
+## 2026-10-21 — Le branchement : le moteur local seul, ElevenLabs retiré
+
+**Décidé :** `src/audio.js` ne produit plus qu'avec le moteur local (OmniVoice par
+VoiceStudio, `src/voicestudio.js`). **ElevenLabs est retiré du pipeline**, sans attendre une
+validation sur le catalogue entier comme prévu d'abord : la décision est de produire tout
+en local, et garder un second moteur à entretenir n'avait plus d'objet. Le Worker et R2
+(Cloudflare) restent : ils hébergent, ils ne synthétisent pas.
+
+**Ce que l'index enregistre désormais**, pour qu'aucun changement de rendu ne passe en
+silence : le moteur, le modèle, la révision des poids, la version de VoiceStudio, la
+version des réglages de lecture, la voix attribuée, l'empreinte de sa référence et son
+allure. Les 34 fiches produites par ElevenLabs repassent donc toutes en production d'elles-
+mêmes : le moteur enregistré n'est plus le bon.
+
+**Les apps.** Une voix par fiche : le manifeste la publie sous `lecture` (avec son genre,
+jamais son nom) et sous `helene` et `jerome`, les seules clés que les versions installées
+connaissent — sans quoi une fiche y serait muette. Les nouvelles versions des deux apps
+lisent `lecture`, n'offrent plus de choix de voix, affichent « Femme » ou « Homme », et
+**indexent leur cache par sha256** : avant, un fichier refait sous le même nom n'était
+jamais retéléchargé. Les versions déjà installées gardent ce défaut pour les fiches
+qu'elles avaient mises en cache ; seule leur mise à jour le corrige.
+
+**Les chapitres** ne viennent plus d'un alignement : on génère phrase par phrase, donc on
+sait à quelle seconde commence chaque ligne lue. Même format qu'avant (`chapitres` dans
+l'index, `reperes` dans le manifeste), même projection par `src/publier.js`.
+
+**Licence.** OmniVoice (poids CC-BY-NC, tokenizer sous licence Boson *Higgs Audio 2*) n'est
+utilisable commercialement que par l'accord conservé hors du dépôt (2026-09-27) ; il doit
+couvrir les deux composants. Le filigrane AudioSeal de VoiceStudio est conservé.
+
+**La régénération du catalogue** : 649 fiches à (re)faire au 2026-10-21, environ 44 heures
+de génération sur le Mac mini, par la tâche de nuit (`outils/nuit-audio.sh`, de 1 h 15 à
+4 h 30) à partir de sa mise en service — une douzaine de nuits, moins si l'on lance un
+rattrapage de jour, machine libre.
+
+---
+
 ## 2026-10-21 — Les voix de production : huit clones locaux d'Eleven v4 Turbo
 
 **Décidé :** on produit avec **huit voix**, quatre femmes et quatre hommes, en rotation,

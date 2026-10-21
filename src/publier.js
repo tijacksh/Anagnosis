@@ -41,10 +41,37 @@ export const AUDIO_BASE = 'https://anagnosis-audio.anagnosis.workers.dev';
  * Une voix ne compte que si elle a été **téléversée** (`voix.<nom>.r2`) — pas seulement
  * produite : `audio/index.json` porte les deux états séparément, et publier l'un sans
  * l'autre écrirait dans le manifeste signé une adresse que le bucket ne sert pas encore.
+ *
+ * ## Une voix par fiche, et les apps déjà installées
+ *
+ * Depuis la rotation (2026-10-21), une fiche n'a qu'une voix. Les versions déjà
+ * installées des deux apps ne connaissent que les clés `helene` et `jerome`, et ignorent
+ * toute autre clé : une fiche publiée sous un nom nouveau y donnerait un appui muet. On
+ * publie donc la voix de la fiche **sous les deux clés historiques** — quel que soit le
+ * réglage du lecteur, il entend la fiche — et, pour les versions nouvelles, sous `lecture`,
+ * qui dit aussi le genre de la voix (jamais son nom : l'app ne l'affiche pas). Le nom de
+ * fichier, qui fait l'URL, ne le porte pas non plus : il est fait de l'empreinte du son.
  */
-function audioPour(fiche, index) {
+export function audioPour(fiche, index) {
   const entree = index[fiche.id];
   if (!entree) return undefined;
+  // Une fiche refaite mais pas encore téléversée garde ce qui était en ligne
+  // (`precedente`) : entre la production et `heberger`, elle ne doit pas se taire.
+  return audioDeEntree(fiche, entree) ?? (entree.precedente && audioDeEntree(fiche, entree.precedente));
+}
+
+function audioDeEntree(fiche, entree) {
+  if (entree.voix_attribuee) {
+    const v = entree.voix?.[entree.voix_attribuee];
+    if (!v?.r2) return undefined;
+    const voix = { url: `${AUDIO_BASE}/${v.fichier}`, sha256: v.sha256, secondes: v.secondes };
+    const r = reperes(fiche, v.chapitres);
+    if (r) voix.reperes = r;
+    // Le genre seulement : l'app n'affiche jamais le nom des voix, le manifeste ne le porte pas.
+    return { helene: voix, jerome: voix, lecture: { ...voix, genre: v.genre } };
+  }
+
+  // Fiche produite avant la rotation, pas encore refaite : ses deux voix d'origine.
   const voix = {};
   for (const nom of ['helene', 'jerome']) {
     const v = entree.voix?.[nom];
