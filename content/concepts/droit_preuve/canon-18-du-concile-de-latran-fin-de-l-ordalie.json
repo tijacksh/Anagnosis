@@ -80,7 +80,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "L'ordalie ne valait comme preuve que parce qu'un prêtre la consacrait au nom de Dieu. Le concile n'organise aucune procédure de remplacement, ni pour l'Angleterre ni pour aucun royaume : en retirant la bénédiction, il rend l'épreuve religieusement vide, ce qui a forcé chaque juridiction à trouver sa propre solution, comme le jury anglais.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -117,11 +117,11 @@
       "explication": "L'instruction royale de 1219 n'impose aucune solution unique : elle autorise les juges itinérants à emprisonner, bannir ou libérer sous caution selon leur propre appréciation, les laissant perplexes mais libres d'improviser."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-21T07:22:55.315Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-21T11:20:10.677Z",
     "historique": [
       {
         "action": "valider",
@@ -138,15 +138,23 @@
         "par": "routine-reparation",
         "le": "2026-10-21T07:22:55.315Z",
         "note": "Les 4 points signalés par le contrôle du 21/10 traités. (1) « environ mille trois cents prélats » : chiffre non soutenu par un total de la source remplacé par le décompte explicite de New Advent (71 patriarches/métropolitains, 412 évêques, 900 abbés/prieurs, soit plus de treize cents en tout) ; note de la source corrigée pour ne plus prétendre à un total donné. (2) « siéger comme juge dans une affaire capitale » (venait du sommaire Fordham, pas du texte) corrigé en « juge dans les procès visant routiers, archers et autres hommes de guerre voués au sang versé », conforme au texte du canon 18 (vérifié via WebSearch sur l'édition IntraText, Fordham inaccessible par WebFetch direct depuis cet environnement) ; corps et quiz supplémentaire 1 corrigés. (3) Clôture le 30 novembre 1215 à Saint-Jean-de-Latran sous Innocent III : New Advent ne confirmant que l'ouverture du 11 et des séances prolongées, source ajoutée (en.wikipedia.org/wiki/Fourth_Council_of_the_Lateran, vérifiée par WebFetch : session préliminaire le 4, puis sessions plénières le 11, 20 et 30 novembre, clôture le 30) ; note New Advent corrigée pour ne plus prétendre confirmer ces trois dates. (4) Nuance « d'autres historiens du droit » sans source retirée ; remplacée par une nuance sourcée et attribuée (Finbarr McAuley, « Canon Law and the End of the Ordeal », OJLS 2006, DOI 10.1093/ojls/gql015, vérifié par WebFetch : campagne de réforme ecclésiastique de longue date visant à séparer les tâches du clergé de celles du monde séculier) — reformulée pour ne pas dépasser ce que l'article soutient. Reste de la fiche revérifié : citation du canon 18 mot pour mot (WebSearch/IntraText), instruction royale de 1219 et jury de présentation depuis 1166 (WebFetch encyclopedia.com, conforme). Quiz et distracteurs revérifiés faux."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-21T11:20:10.677Z",
+        "note": "Contrôle : la clôture « dans la basilique Saint-Jean-de-Latran » (corps et quiz supplémentaire 2) n'est soutenue par aucune source de la fiche : Wikipedia place l'ouverture au palais du Latran et ne dit rien du lieu de la séance du 30 novembre ; New Advent ne nomme pas le lieu. À sourcer ou à ramener à « Latran ». Constat secondaire : New Advent compte soixante-dix décrets, Wikipedia soixante et onze canons. Confirmés : canon 18 mot pour mot, 71/412/900, instruction de 1219, McAuley."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-10-21",
     "verdict": "a_revoir",
-    "empreinte": "438f77dfc773f57c",
+    "empreinte": "0643cad36554f1f0",
     "notes": [
-      "(1) Le corps, l'explication du quiz principal et celle de la 3e question donnent « environ mille trois cents prélats » : New Advent donne 71 patriarches et métropolitains, 412 évêques, 900 abbés et prieurs, soit 1 383 sans total donné. Chiffre à corriger ou à sourcer. (2) Le canon 18 (Fordham, texte) interdit aux clercs de siéger comme juges « in the case of the Rotarrii, archers, or other men of this kind devoted to the shedding of blood » ; la fiche (corps, 2e question supplémentaire) écrit « siéger comme juge dans une affaire capitale », ce qui vient du sommaire de Fordham (« extreme criminal cases »), pas du texte. À reformuler. (3) La séance de clôture du 30 novembre 1215 à Saint-Jean-de-Latran et la présidence d'Innocent III : New Advent donne seulement l'ouverture le 11 novembre et des sessions prolongées jusqu'à la fin du mois, pas trois sessions ni le 30 ; la note de source les prétend confirmées. Source à ajouter pour la date et le lieu (quiz supplémentaire 2 en dépend). (4) Les nuances attribuées à « d'autres historiens du droit » (l'Église visait à écarter le clergé du sang versé, sortie déjà amorcée) ne figurent dans aucune source de la fiche ; Encyclopedia.com/Levy n'en parle pas. Source à ajouter ou phrase à retirer. Confirmés : citation du canon 18 mot pour mot, instruction royale de 1219, jury de présentation depuis 1166 (réserve : les jurys ont ensuite été interrogés sur la culpabilité)."
+      "Fordham (canon 18 mot pour mot, Rotarii/archers), New Advent (1213, 11 novembre, soixante-dix décrets, 71/412/900), Wikipedia (sessions 11, 20 et 30 novembre, Saint-André, Innocent III), Encyclopedia.com/Levy (instruction de 1219, discrétion, Clarendon 1166) et McAuley (OJLS 26/3, 473-513) rouverts : les corrections du 21 octobre tiennent. A REVOIR : « la basilique Saint-Jean-de-Latran » (corps, quiz supplémentaire 2) n'est dans aucune source : Wikipedia place l'ouverture au palais du Latran et ne dit rien du lieu de la clôture. Sourcer ou ramener à « Latran ». Secondaire : New Advent donne 70 décrets, Wikipedia 71 canons. Passée en en_retouche."
     ]
   },
   "controle_juridique": {

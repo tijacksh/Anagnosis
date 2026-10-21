@@ -70,7 +70,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le juge Vaughan estime qu'un jury ne peut être puni pour son verdict, car le juge ne peut pas savoir sur quelles preuves il repose, jurés pouvant juger d'après leur connaissance personnelle des faits ; la récusation des jurés, le choix royal des jurés et la règle d'unanimité ne sont pas en cause dans cette affaire.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -107,11 +107,11 @@
       "explication": "Bushel refuse de payer l'amende et demande à la Cour des plaids communs un bref d'habeas corpus, qui aboutit à sa libération ordonnée par le Chief Justice Vaughan."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-21T04:08:58.511Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-10-21T11:20:10.677Z",
     "historique": [
       {
         "action": "retoucher",
@@ -136,15 +136,23 @@
         "par": "routine-reparation",
         "le": "2026-10-21T04:08:58.511Z",
         "note": "Sources rouvertes: transcription Penn et Mead, rapport Vaughan (constitution.org), Wikipedia Bushel's Case. Corrigé: Conventicle Act retiré (acte d'accusation « unlawfully and tumultuously », Recorder: « Upon the common-law »; Wikipedia seule cite le Conventicle Act, non repris), quiz supplémentaire 1 refait; calendrier rétabli (1er sept mise en accusation, 3 procès et premier verdict, 4 second retour, 5 verdict final et amende); mots du Recorder à Bushel ramenés à la transcription (abettor of faction, set a mark, eye upon); bref daté du 9 novembre 1670; 124 E.R. 1006 rattaché à Wikipedia; raisonnement de Vaughan ramené au rapport (le juge ignore les preuves du jury); affirmations de postérité non sourcées remplacées par celles de Wikipedia."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-10-21T11:20:10.677Z",
+        "note": "Contrôle : « un marchand du nom d'Edward Bushel » absent de la transcription Penn et Mead, du rapport Vaughan et de Wikipedia (qui ne donne aucune profession). Le reste (chronologie 1er-5 septembre, deux nuits d'enfermement, 40 marks, bref du 9 novembre, citation de Vaughan mot pour mot) est confirmé."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-20",
+    "fait_le": "2026-10-21",
     "verdict": "a_revoir",
-    "empreinte": "0b0a17863619587c",
+    "empreinte": "73e35073e1974017",
     "notes": [
-      "Transcription Penn et Mead (constitution.org) et rapport Vaughan rouverts : citation de Vaughan exacte ; habeas corpus devant les Plaids communs, bref du 9 novembre 1670, libération ; Starling, Howell, Veer, Bushel ; menace « sans viande, boisson, feu ni tabac » ; verdict final non coupable ; amende de quarante marks par juré avec emprisonnement jusqu'à paiement. A REVOIR : (1) le corps (« en infraction au Conventicle Act ») et la 1re question de quiz_supplementaire (bonne réponse « en infraction au Conventicle Act ») sont contredits par la transcription : l'acte d'accusation vise une assemblée « unlawfully and tumultuously » du 14 août 1670 à Gracechurch Street et aucun texte de loi n'est cité (le Recorder, interrogé par Penn, répond « Upon the common-law »). A reformuler et à refaire en question. (2) Le calendrier du corps (« le 1er septembre... comparaissent » puis premier verdict, nuit, 4 septembre) est resserré : la transcription donne 1er septembre pour la mise en accusation, 3 septembre pour le procès et le premier verdict, 4 septembre pour le second retour, le 5 pour le verdict final et les amendes. (3) Le Recorder promet de « marquer » Bushel (« I will set a mark upon you ») et de l'avoir à l'œil ; la fiche dit « qu'il accuse de manipuler les autres jurés », formule non retrouvée. (4) Le numéro 124 E.R. 1006 n'apparaît pas sur la page citée ; rapport Vaughan 135 seul."
+      "Transcription Penn et Mead, rapport Vaughan et Wikipedia rouverts : chronologie 1er-5 septembre, deux nuits d'enfermement, menaces à Bushel, 40 marks par juré, bref du 9 novembre 1670, citation de Vaughan mot pour mot : conformes, les corrections du 21 octobre tiennent. A REVOIR : « un marchand du nom d'Edward Bushel » ne figure dans aucune des trois sources (Wikipedia ne donne aucune profession). Retirer le métier ou le sourcer. Passée en en_retouche."
     ]
   },
   "controle_juridique": {
