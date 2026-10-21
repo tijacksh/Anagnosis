@@ -71,7 +71,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "FATCA ne peut pas obliger directement une banque étrangère à quoi que ce soit ; elle la menace plutôt de lui couper l'accès aux paiements en dollars par une retenue de 30 %, ce qui revient à l'exclure des marchés financiers internationaux si elle refuse de coopérer.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -119,11 +119,11 @@
       "explication": "Sapin II s'appuie sur ce que la France peut poursuivre sur son sol ; FATCA n'a besoin que de menacer l'accès au dollar."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-20T07:17:43.988Z",
+    "decide_par": "routine-controler-droit",
+    "decide_le": "2026-10-21T06:48:37.791Z",
     "historique": [
       {
         "action": "valider",
@@ -132,6 +132,14 @@
         "par": "routine-reparation",
         "le": "2026-08-20T07:17:43.988Z",
         "note": "Sources rerouvertes : IRS FAQs FATCA compliance: Legal (200, nouvelle source), IRS summary-of-key-fatca-provisions (403 aujourd'hui mais contenu déjà confirmé par le contrôle du jour pour le mécanisme des 30% et l'échéance FFI du 30 juin 2013), Cornell 26 USC 1471 (confirme la clause d'effet statutaire du 31 décembre 2012, distincte de la date réelle d'entrée en application), WebSearch croisé (Cooley, Global Compliance News, jdsupra) confirmant le report du withholding au 1er juillet 2014 par Notice 2013-43 puis règlements finaux. La date '31 décembre 2013' n'était soutenue par aucune des deux sources citées — remplacée par '1er juillet 2014' dans le corps, et la source IRS générique remplacée par la page FAQ IRS qui l'atteste explicitement ('après le 30 juin 2014'). Reste de la fiche (UBS 18/02/2009, 780M$, FINMA, HIRE Act 18/03/2010, mécanisme de retenue de 30%, citation absente donc non concernée) déjà confirmé par le contrôle du jour, non retouché. Quiz revérifié : la bonne réponse (retenue de 30%) et les distracteurs restent exacts."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler-droit",
+        "le": "2026-10-21T06:48:37.791Z",
+        "note": "controler-droit : retenue sur produits bruts de cession (gross proceeds) décrite comme appliquée alors que les règlements proposés de 2018 la suppriment ; voir controle_juridique"
       }
     ]
   },
@@ -143,7 +151,13 @@
       "Recontrôle après la correction précédente de la date d'entrée en vigueur (31/12/2013 → 1er juillet 2014). Sources rouvertes (accès direct bloqué sur justice.gov et congress.gov, contournées via recherche croisée et la page sœur congress.gov/111/plaws/publ147) : DOJ (780M$, ordre FINMA, transmission d'identités confirmés mot pour mot), HIRE Act/Public Law 111-147 du 18 mars 2010 confirmé, IRS FAQ FATCA compliance: Legal confirme littéralement « payments made after June 30, 2014 » pour l'obligation d'enregistrement — soutient bien le 1er juillet 2014 écrit dans la fiche, Cornell 26 USC §1471 confirme le mécanisme et le taux de 30%. Quiz cohérent. Rien à corriger."
     ]
   },
-  "controle_juridique": null,
+  "controle_juridique": {
+    "fait_le": "2026-10-21",
+    "verdict": "a_revoir",
+    "notes": [
+      "Juridiction dite (Congrès américain, fisc américain, HIRE Act). Mutabilité : la fiche dit que la retenue de 30 % frappe « tout paiement de source américaine, y compris de simples produits de vente de titres ». La retenue sur produits bruts de cession (gross proceeds), prévue par l'art. 1473, devait commencer en 2019 mais les règlements proposés le 18 déc. 2018 (REG-132881-17) la suppriment et les contribuables peuvent s'y fier ; les règlements finaux de janv. 2020 (T.D. 9890) ne l'ont pas encore finalisée, aucun texte postérieur trouvé. La clause décrit donc une règle jamais appliquée. À retoucher : retirer ou nuancer cette précision (retenue sur revenus de source américaine, intérêts et dividendes). Le reste est historique et exact (UBS 2009, HIRE Act, 1er juil. 2014)."
+    ]
+  },
   "meta": {
     "genere_le": "2026-08-20",
     "genere_par": "claude-code",
