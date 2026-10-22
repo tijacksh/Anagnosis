@@ -479,7 +479,7 @@ peut rouvrir directement le texte du décret.)*
 | Linguistique | Le silbo gomero : une langue sifflée qui transpose l'espagnol, et ce que l'imagerie cérébrale y lit (Carreiras et al., Nature, 2005) | fait | routine-production-arnaud | 2026-10-22 |
 | Linguistique | Bouba/kiki : de baluba/takete (Köhler) à l'étude de 25 langues (2021), un effet robuste mais pas universel | fait | routine-production-arnaud | 2026-10-22 |
 | Linguistique | L'Unua Libro (1887) : un livre signé « Dr. Esperanto », une promesse conditionnelle à dix millions de signatures | fait | routine-production-arnaud | 2026-10-22 |
-| Mathématiques | Le projet de loi n° 246 de l'Indiana (1897) sur π : ce que le texte disait vraiment et pourquoi le Sénat l'a enterré | en cours | routine-production-arnaud | 2026-10-22 |
-| Mathématiques | Galois, la lettre à Auguste Chevalier (29 mai 1832) : la nuit où l'on dit qu'il a tout écrit | en cours | routine-production-arnaud | 2026-10-22 |
-| Mathématiques | Poincaré et le prix du roi Oscar II (1889) : l'erreur du mémoire primé, corrigée à ses frais, d'où sort le chaos | en cours | routine-production-arnaud | 2026-10-22 |
-| Mathématiques | Les problèmes de Hilbert (Paris, 1900) : dix présentés à l'oral, vingt-trois imprimés, un vingt-quatrième écarté et retrouvé en 2000 | en cours | routine-production-arnaud | 2026-10-22 |
+| Mathématiques | Le projet de loi n° 246 de l'Indiana (1897) sur π : ce que le texte disait vraiment et pourquoi le Sénat l'a enterré | fait | routine-production-arnaud | 2026-10-22 |
+| Mathématiques | Galois, la lettre à Auguste Chevalier (29 mai 1832) : la nuit où l'on dit qu'il a tout écrit | fait | routine-production-arnaud | 2026-10-22 |
+| Mathématiques | Poincaré et le prix du roi Oscar II (1889) : l'erreur du mémoire primé, corrigée à ses frais, d'où sort le chaos | fait | routine-production-arnaud | 2026-10-22 |
+| Mathématiques | Les problèmes de Hilbert (Paris, 1900) : dix présentés à l'oral, vingt-trois imprimés, un vingt-quatrième écarté et retrouvé en 2000 | fait | routine-production-arnaud | 2026-10-22 |
