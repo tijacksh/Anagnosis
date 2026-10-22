@@ -483,3 +483,7 @@ peut rouvrir directement le texte du décret.)*
 | Mathématiques | Galois, la lettre à Auguste Chevalier (29 mai 1832) : la nuit où l'on dit qu'il a tout écrit | fait | routine-production-arnaud | 2026-10-22 |
 | Mathématiques | Poincaré et le prix du roi Oscar II (1889) : l'erreur du mémoire primé, corrigée à ses frais, d'où sort le chaos | fait | routine-production-arnaud | 2026-10-22 |
 | Mathématiques | Les problèmes de Hilbert (Paris, 1900) : dix présentés à l'oral, vingt-trois imprimés, un vingt-quatrième écarté et retrouvé en 2000 | fait | routine-production-arnaud | 2026-10-22 |
+| Physique | Le pendule de Foucault (1851) : à Paris le plan d'oscillation ne fait pas un tour en 24 heures, la loi du sinus de la latitude (Comptes rendus, t. 32) | en cours | routine-production-arnaud | 2026-10-22 |
+| Physique | L'expérience de Wu (1956-1957) : la parité violée, un Nobel 1957 pour Lee et Yang seuls, présentation du prix | en cours | routine-production-arnaud | 2026-10-22 |
+| Physique | La lettre de Pauli du 4 décembre 1930 : une particule appelée « neutron », proposée en dernier recours, et un bal à Zurich | en cours | routine-production-arnaud | 2026-10-22 |
+| Physique | Il y a de la gravité à bord de la station spatiale (88,8 % de celle du sol à 250 miles) : les astronautes flottent parce qu'ils tombent | en cours | routine-production-arnaud | 2026-10-22 |
