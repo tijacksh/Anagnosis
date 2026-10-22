@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La Couronne invoque un « ordre spécial du roi » sans détailler de charge précise ; la cour juge qu'à défaut de motif exprimé, l'affaire doit relever du secret d'État et refuse d'en examiner la légalité : exactement ce que la Petition of Right interdira l'année suivante.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -101,11 +101,11 @@
       "explication": "Le texte réclame aussi qu'aucun impôt ni prêt forcé ne soit levé sans le Parlement, et qu'aucun soldat ne soit logé de force chez l'habitant, deux griefs nés du prêt forcé de 1626-1627."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-22T10:15:12.148Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-22T16:19:47.565Z",
     "historique": [
       {
         "action": "valider",
@@ -114,15 +114,23 @@
         "par": "routine-relecture",
         "le": "2026-09-22T10:15:12.148Z",
         "note": "Sources rouvertes indépendamment (legislation.gov.uk, Wikipedia Darnell's Case et Petition of Right) et vérification ciblée de la formule latine directement sur la source primaire constitution.org/eng/conpur008.htm (Gardiner) : 'per speciale mandatum domini regis' confirmée exacte au génitif — la page Wikipedia porte une variante 'domino regis', mais la source primaire du jugement tranche en faveur de la formule déjà retenue par la fiche. Les 76 hommes emprisonnés, les cinq chevaliers (dont Walter Erle, orthographe déjà corrigée), le jugement de Nicholas Hyde en novembre 1627, le rôle d'Edward Coke et les dates d'adoption (Communes 8 mai, Lords 26-27 mai, réponse évasive 2 juin, assentiment royal 7 juin 1628) tous confirmés sur legislation.gov.uk et Wikipedia. Citation royale vérifiée mot pour mot sur legislation.gov.uk. Rien à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-22T16:19:47.565Z",
+        "note": "Signalé par le contrôle du 2026-10-22 : deux affirmations du corps ne se retrouvent dans aucune des trois sources. (1) « la guerre contre la France et l'Espagne » : les pages Wikipedia ne parlent que de la guerre anglo-espagnole (Darnell's Case) et ne nomment pas la France ; le quiz supplémentaire n°1 reprend cette formule dans sa bonne réponse et son explication. (2) « la majorité des députés nouvellement élus se montre hostile à la Couronne » (Parlement de 1628) : absent des sources. Sourcer (par ex. Gardiner, Anglo-French War 1627-1629) ou retirer. Confirmés : 76 hommes au moins, cinq chevaliers dont Walter Erle, formule per speciale mandatum, Hyde et novembre 1627, Coke à la tête de la commission des Communes, dates du 2 et du 7 juin 1628, quatre griefs et citation « Soit droit fait come est desire » sur legislation.gov.uk."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-21",
-    "verdict": "corrige",
-    "empreinte": "70ad347c4a3ae5c5",
+    "fait_le": "2026-10-22",
+    "verdict": "a_revoir",
+    "empreinte": "0d96788913c249ce",
     "notes": [
-      "Sources rouvertes (legislation.gov.uk, Wikipedia Darnell's Case, Wikipedia Petition of Right) et recoupées avec une source primaire (Gardiner, Constitutional Documents of the Puritan Revolution, constitution.org/eng/conpur008.htm) : formule latine 'per speciale mandatum domini regis' confirmée exacte (génitif, pas 'domino regis' comme le donne un résumé de Wikipedia), nombre de 76 hommes, cinq chevaliers, jugement du juge en chef Nicholas Hyde en novembre 1627, rôle d'Edward Coke et dates de la Petition of Right (Communes 8 mai, Lords 26-27 mai, réponse évasive du roi 2 juin, assentiment royal 7 juin 1628) tous confirmés. Citation royale et sa source vérifiées sur legislation.gov.uk. Correction : coquille sur le nom du chevalier 'Walter Earl' -> 'Walter Erle' (orthographe confirmée par Wikipedia et par la source primaire Gardiner)."
+      "Signalé par le contrôle du 2026-10-22 : deux affirmations du corps ne se retrouvent dans aucune des trois sources. (1) « la guerre contre la France et l'Espagne » : les pages Wikipedia ne parlent que de la guerre anglo-espagnole (Darnell's Case) et ne nomment pas la France ; le quiz supplémentaire n°1 reprend cette formule dans sa bonne réponse et son explication. (2) « la majorité des députés nouvellement élus se montre hostile à la Couronne » (Parlement de 1628) : absent des sources. Sourcer (par ex. Gardiner, Anglo-French War 1627-1629) ou retirer. Confirmés : 76 hommes au moins, cinq chevaliers dont Walter Erle, formule per speciale mandatum, Hyde et novembre 1627, Coke à la tête de la commission des Communes, dates du 2 et du 7 juin 1628, quatre griefs et citation « Soit droit fait come est desire » sur legislation.gov.uk."
     ]
   },
   "controle_juridique": null,

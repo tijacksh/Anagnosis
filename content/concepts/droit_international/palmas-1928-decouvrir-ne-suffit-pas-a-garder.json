@@ -70,7 +70,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Huber écrit que la découverte ne crée qu'un titre inachevé : il fallait, pour qu'il devienne une souveraineté opposable, un exercice réel et continu de l'autorité. C'est cette continuité, apportée par l'administration coloniale néerlandaise et absente côté espagnol puis américain, qui décide de l'affaire, pas un traité ni un conflit armé.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -107,11 +107,11 @@
       "explication": "Le texte indique que la sentence de Palmas irrigue les raisonnements dans les différends sur les îles Spratleys et sur le plateau continental arctique, où plusieurs pays invoquent des explorations anciennes."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-25T07:20:18.670Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-22T16:19:47.368Z",
     "historique": [
       {
         "action": "retoucher",
@@ -128,15 +128,23 @@
         "par": "routine-reparation",
         "le": "2026-08-25T07:20:18.670Z",
         "note": "Troisieme passage independant, PDF de la sentence telecharge et extrait avec pdftotext (pas seulement recherche par mots-cles) : citation de Huber verifiee mot pour mot et localisee page 839 (marqueur de page imprime juste avant le passage dans le flux extrait). Accord special du 23 janvier 1925, visite du general Wood le 21 janvier 1906 et surprise devant le drapeau neerlandais, dates 1700 ('at least since 1700') et 1795 (transition vers l'Etat neerlandais) : tous confirmes par grep direct sur le texte primaire. Superficie de Miangas verifiee independamment sur Wikipedia (Miangas) : 3,15 km2, confirme 'trois kilometres carres' du corps. Quiz et carte conformes. Les corrections des deux passages precedents (superficie, note de sources[1] sur le drapeau) sont confirmees exactes ; rien de plus a changer."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-22T16:19:47.368Z",
+        "note": "Signalé par le contrôle du 2026-10-22 : (1) le corps (section « Ce qu'un drapeau planté... ») et le quiz supplémentaire n°3 affirment que Palmas « irrigue » les différends sur les îles Spratleys et le plateau continental arctique : aucune des trois sources ne le dit (ni la sentence, qui ne contient ni Spratly ni Arctic, ni les deux pages Wikipedia). Sourcer (doctrine, arbitrage de 2016 mer de Chine méridionale, etc.) ou retirer, et refaire la question 3. (2) Le principe du droit intertemporel est paraphrasé de façon infidèle (corps et quiz supplémentaire n°2) : Huber (p. 845) écrit que l'existence du droit, c'est-à-dire sa manifestation continue, doit suivre les conditions requises par l'évolution du droit ; il ne dit pas qu'un titre ne subsiste que si l'autorité s'exerce jusqu'au jour où il est contesté. Reformuler d'après le texte et refaire la question 2. Confirmés : citation p. 839 mot pour mot, accord du 23 janvier 1925, arbitre unique désigné parmi les membres de la CPA, visite de Wood et drapeau néerlandais, Néerlandais établis depuis au moins 1700, découverte au XVIe siècle, Münster 1648, 3,15 km²."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-24",
-    "verdict": "corrige",
+    "fait_le": "2026-10-22",
+    "verdict": "a_revoir",
     "empreinte": "28391baa92767019",
     "notes": [
-      "Passage indépendant : PDF de la sentence (43 pages) extrait en texte et recherché par mots-clés, sans se fier aux notes de la relecture précédente. Citation vérifiée mot pour mot et localisée précisément page 839. Arbitre, accord du 23 janvier 1925, dates ~1700/1795 côté néerlandais, visite du général Wood le 21 janvier 1906 : tous confirmés dans le texte primaire. Correction de la relecture précédente ('trois kilomètres carrés') confirmée exacte au regard des 3,15 km² donnés par Wikipedia Miangas. CORRIGE : la note de sources[1] (Wikipedia, Island of Palmas Case) affirmait à tort que cette page mentionne la découverte du drapeau néerlandais — vérifié sur le HTML brut, elle ne le fait pas, seule la sentence primaire (déjà citée en sources[0]) le mentionne. Note reformulée en conséquence. Quiz et carte conformes, les quatre urls vivantes."
+      "Signalé par le contrôle du 2026-10-22 : (1) le corps (section « Ce qu'un drapeau planté... ») et le quiz supplémentaire n°3 affirment que Palmas « irrigue » les différends sur les îles Spratleys et le plateau continental arctique : aucune des trois sources ne le dit (ni la sentence, qui ne contient ni Spratly ni Arctic, ni les deux pages Wikipedia). Sourcer (doctrine, arbitrage de 2016 mer de Chine méridionale, etc.) ou retirer, et refaire la question 3. (2) Le principe du droit intertemporel est paraphrasé de façon infidèle (corps et quiz supplémentaire n°2) : Huber (p. 845) écrit que l'existence du droit, c'est-à-dire sa manifestation continue, doit suivre les conditions requises par l'évolution du droit ; il ne dit pas qu'un titre ne subsiste que si l'autorité s'exerce jusqu'au jour où il est contesté. Reformuler d'après le texte et refaire la question 2. Confirmés : citation p. 839 mot pour mot, accord du 23 janvier 1925, arbitre unique désigné parmi les membres de la CPA, visite de Wood et drapeau néerlandais, Néerlandais établis depuis au moins 1700, découverte au XVIe siècle, Münster 1648, 3,15 km²."
     ]
   },
   "controle_juridique": null,
