@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-22T22:15:07.551Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-22T22:15:07.551Z",
+        "note": "Source Monico et al. 2015 vérifiée par recherche ciblée (accès direct à Wiley/Anvers refusé par la politique réseau) : auteurs et revue confirmés (DOI 10.1002/anie.201505840, Angewandte Chemie 2015), PbCrO4 résistant et PbCr1-xSxO4 (x≈0,5) sensible confirmés, CrIII à l'interface peinture/vernis confirmé, 'au moins aux deux points prélevés un changement de couleur a eu lieu' confirmé par une synthèse citant l'étude ; le chiffre de 35 % est repris identiquement par le communiqué de l'Université d'Anvers. Aucune divergence trouvée avec le texte de la fiche. Carte et quiz conformes, distracteurs faux. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-22T22:15:06.551Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-22T22:15:06.551Z",
+        "note": "Sources rouvertes (PMC3645210 direct, Met/British Museum via recherche — accès direct refusé par la politique réseau de l'environnement). PMC3645210 confirmé mot pour mot : 'far more likely to show an extreme plunging breaker, a large storm wave', 'sculled against the direction of the wave's travel', 3 km au large baie de Tokyo, 'exceptionally large', tsunami 'tens of centimetres' au large, photo Astrolabe février 1991 eaux subantarctiques. Met confirmé (ca. 1830-32, titre japonais, Trente-six vues, Havemeyer). Korenberg confirmée via citation exacte retrouvée : 'can easily be mistaken for another ocean crest', estimation 'up to 8,000 printed impressions'. Carte et quiz conformes, distracteurs faux. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

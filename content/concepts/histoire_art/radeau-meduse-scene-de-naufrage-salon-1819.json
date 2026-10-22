@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-22T22:15:07.029Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-22T22:15:07.029Z",
+        "note": "Sources rouvertes en texte intégral (archive.org, accès direct). Livret du Salon 1819 : 'exposés au Musée Royal des Arts le 25 août 1819', imprimeur C. BALLARD, rubrique GÉRICAULT n°510 'Scène de naufrage' confirmés. Corréard et Savigny 1818 : départ île d'Aix 17 juin 1816, échouement 2 juillet trois heures et quart, 'nous nous trouvâmes enfin cent-cinquante', 'De cent-cinquante délaissés, quinze seulement ont été sauvés', 'cinq [...] sont morts à Saint-Louis', 'treize jours', 'tous deux naufragés du radeau' tous retrouvés mot pour mot. Page Louvre vérifiée par recherche (accès direct refusé) : 150 personnes, 13 jours, 15 survivants, acquisition 1824 (vente posthume Géricault) confirmés. Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

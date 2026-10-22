@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-22T22:15:08.026Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-22T22:15:08.026Z",
+        "note": "Lettre 855 et note 5 vérifiées par recherche ciblée (accès direct à vangoghletters.org refusé par la politique réseau) : vente à Anna Boch (sœur d'Eugène Boch) de 'La Vigne rouge' pour 400 francs, lettre de Theo perdue, carnet de comptes 6 mars 1890 'Mlle Bock pour tab Vigne rouge' retrouvés à l'identique. Article de Bailey (Art Newspaper 2022) vérifié de même : 'a handful or two' de tableaux vendus sur près de 1000, lettre de Theo d'octobre 1888 à Sulley et Lawrie sur un autoportrait aujourd'hui perdu, et lettre de la tante Cornelia (août 1890) disant que Vincent avait vendu un tableau 'et même plus d'une fois' — confirmée, correspondant à la fiche. Carte et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",
