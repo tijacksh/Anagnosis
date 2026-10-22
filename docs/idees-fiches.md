@@ -487,3 +487,7 @@ peut rouvrir directement le texte du décret.)*
 | Physique | L'expérience de Wu (1956-1957) : la parité violée, un Nobel 1957 pour Lee et Yang seuls, présentation du prix | fait | routine-production-arnaud | 2026-10-22 |
 | Physique | La lettre de Pauli du 4 décembre 1930 : une particule appelée « neutron », proposée en dernier recours, et un bal à Zurich | fait | routine-production-arnaud | 2026-10-22 |
 | Physique | Il y a de la gravité à bord de la station spatiale (88,8 % de celle du sol à 250 miles) : les astronautes flottent parce qu'ils tombent | fait | routine-production-arnaud | 2026-10-22 |
+| Anthropologie | Le kuru des Fore : des généalogies demandées pour prouver une cause génétique, et un chimpanzé en 1966 | en cours | routine-production-arnaud | 2026-10-22 |
+| Anthropologie | Chagnon (Science, 1988) et les Waorani (PNAS, 2009) : les hommes qui ont tué ont-ils plus d'enfants ? | en cours | routine-production-arnaud | 2026-10-22 |
+| Anthropologie | Les Hadza dépensent autant de calories par jour que les Occidentaux (Pontzer et al., PLoS ONE, 2012) | en cours | routine-production-arnaud | 2026-10-22 |
+| Anthropologie | WEIRD (Henrich, Heine, Norenzayan, 2010) : des échantillons qui ne représentent pas l'espèce | en cours | routine-production-arnaud | 2026-10-22 |
