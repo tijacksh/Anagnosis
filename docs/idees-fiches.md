@@ -475,7 +475,7 @@ peut rouvrir directement le texte du décret.)*
 | Institutions judiciaires | Magna Carta (1215), article 17 : les plaids communs ne suivront plus la cour du roi mais siégeront en un lieu fixe | fait | routine-production-arnaud | 2026-10-21 |
 | Institutions judiciaires | Les gacaca du Rwanda (2001-2012) : environ 12 000 juridictions pour 1,2 million d'affaires, une « tradition » devenue institution d'État | fait | routine-production-arnaud | 2026-10-21 |
 | Institutions judiciaires | L'Assise de Clarendon (1166) : un jury qui accuse, l'ordalie de l'eau qui tranche | fait | routine-production-arnaud | 2026-10-21 |
-| Linguistique | La préface du Dictionnaire de Johnson (1755) : l'auteur du « dictionnaire qui fixe l'anglais » écrit qu'enchaîner les syllabes, c'est fouetter le vent | en cours | routine-production-arnaud | 2026-10-22 |
-| Linguistique | Le silbo gomero : une langue sifflée qui transpose l'espagnol, et ce que l'imagerie cérébrale y lit (Carreiras et al., Nature, 2005) | en cours | routine-production-arnaud | 2026-10-22 |
-| Linguistique | Bouba/kiki : de baluba/takete (Köhler) à l'étude de 25 langues (2021), un effet robuste mais pas universel | en cours | routine-production-arnaud | 2026-10-22 |
-| Linguistique | L'Unua Libro (1887) : un livre signé « Dr. Esperanto », une promesse conditionnelle à dix millions de signatures | en cours | routine-production-arnaud | 2026-10-22 |
+| Linguistique | La préface du Dictionnaire de Johnson (1755) : l'auteur du « dictionnaire qui fixe l'anglais » écrit qu'enchaîner les syllabes, c'est fouetter le vent | fait | routine-production-arnaud | 2026-10-22 |
+| Linguistique | Le silbo gomero : une langue sifflée qui transpose l'espagnol, et ce que l'imagerie cérébrale y lit (Carreiras et al., Nature, 2005) | fait | routine-production-arnaud | 2026-10-22 |
+| Linguistique | Bouba/kiki : de baluba/takete (Köhler) à l'étude de 25 langues (2021), un effet robuste mais pas universel | fait | routine-production-arnaud | 2026-10-22 |
+| Linguistique | L'Unua Libro (1887) : un livre signé « Dr. Esperanto », une promesse conditionnelle à dix millions de signatures | fait | routine-production-arnaud | 2026-10-22 |
