@@ -69,7 +69,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Les enquêteurs pensaient tenir le coupable grâce aux aveux de Buckland pour le second meurtre. L'analyse d'Alec Jeffreys a confirmé qu'un même homme avait commis les deux crimes, mais que son profil ne correspondait pas à celui de Buckland : la première exonération par ADN de l'histoire judiciaire. Pitchfork n'a été identifié que l'année suivante, par le dépistage de masse de 1987.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -106,11 +106,11 @@
       "explication": "Le stratagème a tenu jusqu'à ce qu'Ian Kelly, dans un pub, en parle trop librement ; une collègue l'a rapporté à la police le 18 septembre 1987, ce qui a mené à l'arrestation de Pitchfork dès le lendemain."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-23T07:16:43.389Z",
+    "decide_le": "2026-10-23T19:09:29.415Z",
     "historique": [
       {
         "action": "valider",
@@ -127,6 +127,14 @@
         "par": "routine-reparation",
         "le": "2026-10-23T07:16:43.389Z",
         "note": "Sources rouvertes : FSS/National Archives (texte complet récupéré via curl, HTTP 200), Wikipedia Colin Pitchfork, Wikipedia Alec Jeffreys. Point signalé par le contrôle : repere et quiz_supplementaire n°2 dataient l'intégralité du dépistage de masse de 5000 hommes de 'janvier 1987'. Vérifié : la source FSS ne donne aucune date pour le dépistage (seulement '5000 hommes, trois villages'), et Wikipedia Colin Pitchfork précise que le dépistage a commencé 'début 1987' mais que seuls environ 1000 hommes avaient été testés fin janvier 1987 (Ian Kelly a lui-même passé son test frauduleux le 29 janvier 1987) — les 5000 hommes ne sont donc atteints que plus tard dans l'année, pas en janvier. Corrigé : repere et quiz_supplementaire n°2 passent de 'en janvier 1987, 5000 hommes fournissent' à 'à partir de janvier 1987, 5000 hommes fournissent' (lancement, pas achèvement), cohérent avec le corps du texte qui dit déjà 'la police lance en janvier 1987'. Reste de la fiche revérifié entièrement et confirmé : meurtres de Lynda Mann (21 novembre 1983) et Dawn Ashworth (31 juillet 1986) à Narborough, découverte de l'empreinte génétique par Jeffreys le 10 septembre 1984 par hasard sur un cliché radiographique (confirmé par Wikipedia Alec Jeffreys), applications antérieures en immigration (1985) et paternité, disculpation de Richard Buckland malgré ses aveux, Ian Kelly comme collègue de boulangerie de Pitchfork (confirmé) payé 200 livres avec faux passeport, conversation surprise dans un pub le 1er août 1987, signalement à la police le 18 septembre 1987, arrestation le 19 septembre 1987, procès et condamnation à perpétuité le 22 janvier 1988. Carte, citation/repere et quiz (principal et supplémentaires) revérifiés point par point, bonne réponse et distracteurs confirmés faux au vu des sources."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-23T19:09:29.415Z",
+        "note": "Troisième sortie après 2 réparations déjà tentées — rejetée sans nouvelle tentative, conformément à la consigne. Problème de fond persistant : le corps oppose à tort la police voulant vérifier si le même homme a commis les deux meurtres à une confirmation de culpabilité, alors que le FSS dit explicitement que la police était convaincue de la culpabilité de Buckland pour les deux crimes et a contacté Jeffreys pour la confirmer. Ce contraste fabriqué n'est soutenu par aucune source."
       }
     ]
   },
