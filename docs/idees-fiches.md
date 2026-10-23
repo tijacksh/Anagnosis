@@ -491,7 +491,7 @@ peut rouvrir directement le texte du décret.)*
 | Anthropologie | Chagnon (Science, 1988) et les Waorani (PNAS, 2009) : les hommes qui ont tué ont-ils plus d'enfants ? | fait | routine-production-arnaud | 2026-10-22 |
 | Anthropologie | Les Hadza dépensent autant de calories par jour que les Occidentaux (Pontzer et al., PLoS ONE, 2012) | fait | routine-production-arnaud | 2026-10-22 |
 | Anthropologie | WEIRD (Henrich, Heine, Norenzayan, 2010) : des échantillons qui ne représentent pas l'espèce | fait | routine-production-arnaud | 2026-10-22 |
-| Conformité | *In re Caremark* (Delaware, Chancery, 25 septembre 1996) : le devoir de mettre en place un système d'information, posé dans un jugement qui approuve pourtant la transaction | en cours | routine-production-arnaud | 2026-10-23 |
-| Conformité | *Arthur Andersen LLP v. United States* (Cour suprême, 31 mai 2005) : condamné en 2002 pour entrave à la justice, blanchi à l'unanimité, trop tard | en cours | routine-production-arnaud | 2026-10-23 |
-| Conformité | *Upjohn Co. v. United States* (1981) : l'enquête interne sur des paiements à l'étranger et le rejet du « control group test » | en cours | routine-production-arnaud | 2026-10-23 |
-| Conformité | Barclays et le Libor (FSA, 27 juin 2012) : trois saisines de la fonction Compliance en 2007-2008, trois fois sans effet | en cours | routine-production-arnaud | 2026-10-23 |
+| Conformité | *In re Caremark* (Delaware, Chancery, 25 septembre 1996) : le devoir de mettre en place un système d'information, posé dans un jugement qui approuve pourtant la transaction | fait | routine-production-arnaud | 2026-10-23 |
+| Conformité | *Arthur Andersen LLP v. United States* (Cour suprême, 31 mai 2005) : condamné en 2002 pour entrave à la justice, condamnation annulée à l'unanimité en 2005 | fait | routine-production-arnaud | 2026-10-23 |
+| Conformité | *Upjohn Co. v. United States* (1981) : l'enquête interne sur des paiements à l'étranger et le rejet du « control group test » | fait | routine-production-arnaud | 2026-10-23 |
+| Conformité | Barclays et le Libor (FSA, 27 juin 2012) : trois saisines de la fonction Compliance en 2007-2008, trois fois sans effet | fait | routine-production-arnaud | 2026-10-23 |
