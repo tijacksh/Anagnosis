@@ -71,7 +71,8 @@
       "Les affectations étaient dans des enveloppes scellées, inconnues des investigateurs"
     ],
     "bonne_reponse": 3,
-    "explication": "Les enveloppes scellées empêchent le médecin de savoir quel groupe l'attend et d'y glisser un malade choisi. Laisser le patient choisir, trier selon la gravité ou suivre le jour d'admission ouvrirait au contraire la porte au choix, conscient ou non."
+    "explication": "Les enveloppes scellées empêchent le médecin de savoir quel groupe l'attend et d'y glisser un malade choisi. Laisser le patient choisir, trier selon la gravité ou suivre le jour d'admission ouvrirait au contraire la porte au choix, conscient ou non.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -97,12 +98,21 @@
       "explication": "Le rapport relève des souches résistantes apparues en moyenne au 53e jour de traitement, avec un pronostic plus sombre quand la résistance augmente. Elle n'attend donc pas l'arrêt du traitement et ne protège pas les malades."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-23T10:15:42.095Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-23T10:15:42.095Z",
+        "note": "Rapport BMJ du 30 octobre 1948 (PMC2091872) rouvert directement sur les 18 pages scannées (images téléchargées et lues une à une, p.769-780) : 109 patients acceptés, 2 décédés avant la semaine d'observation exclus, 107 restants, 55 S et 52 C ; dose de 2 g/jour en quatre injections intramusculaires à intervalles de six heures ; série d'affectations dans des enveloppes scellées portant seulement le nom de l'hôpital et un numéro, inconnue des investigateurs et du coordinateur, ouverte après acceptation par le panel ; radiographies lues indépendamment par deux radiologues et un clinicien ignorant S ou C ; 4 des 55 S (7%) et 14 des 52 C (27%) morts à six mois, différence jugée significative avec une probabilité de hasard inférieure à une sur cent (texte exact repéré p.771) ; atteinte vestibulaire comme principal effet toxique, giddiness chez 36 des 55 patients (p.778) ; émergence de résistance au 53e jour en moyenne, médiane au 45e jour (texte exact repéré p.780) : tout confirmé mot pour mot sur les pages scannées, indépendamment de la note du premier contrôle. Fibiger (BMJ 1998, PMC1114170) rouvert : 13 mai 1896 au 13 mai 1897, répartition par alternance des jours d'admission, 8 décès sur 239 contre 30 sur 245, limite reconnue par les auteurs : confirmé. Carte et quiz conformes aux sources vérifiées. Deux sources secondaires non rouvertes, domaines bloqués par la politique réseau de cette session (confirmé via curl, CONNECT tunnel refusé) : James Lind Library (Chalmers), qui ne porte que l'interprétation explicitement attribuée à Chalmers dans le texte (« Selon Chalmers ») et non une affirmation factuelle de la fiche ; et la notice James Lind Library en pour_aller_plus_loin, simple pointeur de lecture sans citation reprise dans la fiche."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

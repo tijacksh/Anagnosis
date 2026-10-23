@@ -56,7 +56,8 @@
       "Un procès-verbal des médecins de la faculté de Paris"
     ],
     "bonne_reponse": 2,
-    "explication": "Faute d'huile, Paré a traité une partie des blessés au digestif, et il constate le lendemain moins de douleur et d'inflammation chez eux que chez les cautérisés. Aucun ordre, traité récent ou avis de la faculté n'est mentionné dans son récit ; c'est Vigo qui prescrivait l'huile."
+    "explication": "Faute d'huile, Paré a traité une partie des blessés au digestif, et il constate le lendemain moins de douleur et d'inflammation chez eux que chez les cautérisés. Aucun ordre, traité récent ou avis de la faculté n'est mentionné dans son récit ; c'est Vigo qui prescrivait l'huile.",
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -82,12 +83,21 @@
       "explication": "Après avoir fait la cour près de deux ans et demi à un chirurgien de Turin, Paré en obtient le baume : des chiens et des vers de terre cuits dans l'huile. Il ne condamne donc pas tous les remèdes animaux, et il ne quitte pas la chirurgie de guerre."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-23T10:15:32.556Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-23T10:15:32.556Z",
+        "note": "Archive.org oeuvrescomplte02par rouvert en texte intégral (djvu.txt téléchargé et cherché par mots-clés, pages 126-129 lues en entier) : « L'an mil cinq cent trente-six », pas de Suze, Montejan capitaine général, Vigo livre I chap. 8 (venenosité, huile de sambuc avec un peu de thériaque), « mon huile me manqua », digestif de jaune d'œuf/huile rosat/térébenthine, nuit d'insomnie par crainte d'empoisonnement, constat du matin (douleur et inflammation moindres chez les traités au digestif), résolution de ne plus brûler, deux ans et demi à Turin, recette du baume (deux petits chiens, une livre de vers de terre, deux livres d'huile de lis, six onces de térébenthine de Venise, une once d'eau de vie), note de l'éditeur « Ce discours paraît dater de l5T5 [1575] » : tout confirmé mot pour mot sur le texte brut, indépendamment de la note du premier contrôle. Carte et quiz conformes au texte vérifié. Source secondaire Universalis non rouverte : domaine bloqué par la politique réseau de cette session (confirmé via curl, CONNECT tunnel refusé) ; elle ne sert qu'à une date (1537) que la fiche traite déjà comme non tranchée face au 1536 de Paré, donc aucune affirmation de la fiche ne dépend d'une vérification de cette source pour cette décision."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",
