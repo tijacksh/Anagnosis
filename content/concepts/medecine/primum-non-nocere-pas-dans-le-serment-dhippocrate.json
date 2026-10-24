@@ -65,7 +65,8 @@
       "S'abstenir d'agir tant que le malade n'a pas donné son accord"
     ],
     "bonne_reponse": 1,
-    "explication": "Le passage place deux objectifs côte à côte : faire du bien, ou ne pas nuire. Ce n'est pas un veto qui passerait avant tout bénéfice, la formule latine n'y figure pas, et aucun accord du malade n'est mentionné."
+    "explication": "Le passage place deux objectifs côte à côte : faire du bien, ou ne pas nuire. Ce n'est pas un veto qui passerait avant tout bénéfice, la formule latine n'y figure pas, et aucun accord du malade n'est mentionné.",
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -91,12 +92,21 @@
       "explication": "Castellus rend le passage d'Épidémies par « prodesse, aut non nocere », être utile ou ne pas nuire. Cela montre une version latine proche du sens grec, sans prouver que la formule primum non nocere ait existé à l'époque d'Hippocrate."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-24T10:13:26.560Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-24T10:13:26.560Z",
+        "note": "MIT Classics rouvert et confirmé mot pour mot : Épidémies I, §5, « to do good or to do no harm » (repère exact) ; Serment, « for the benefit of my patients », « deleterious and mischievous », remède mortel, pessaire abortif, taille de la pierre — ni primum non nocere ni first do no harm dans les deux textes. La troisième source, le billet de Thomas Morris (thomas-morris.uk), n'a pas pu être rouverte dans cet environnement : l'hôte est refusé par la politique réseau (proxy sortant), sans archive disponible. Or tout ce que la fiche attribue à Morris — Castellus 1713 « prodesse, aut non nocere », Boyer 1814 comme première occurrence en littérature médicale, Inman 1860 via Smith/Wootton, absence chez Sydenham — repose entièrement sur cette seule source, non reconsultée de façon indépendante à ce passage. Le contrôle précédent l'avait rouverte et cité mot pour mot ; ce doute est d'accès, pas de contenu, mais la relecture doit repartir du texte brut et ne peut pas ici. À lever : rouvrir thomas-morris.uk/?p=3510 depuis un réseau qui y a accès."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

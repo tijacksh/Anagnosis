@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-24T10:13:48.131Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-24T10:13:48.131Z",
+        "note": "PMC (texte intégral rouvert directement, sans blocage reCAPTCHA cette fois) : protocole (10 solistes + 1 onzième ponctuel en séance 2 non repris dans les comptages, 12 violons dont 5 Stradivari, deux séances de 75 min, salle de répétition puis salle de 300 places) confirmé ; scores N5 26 pts / N10 13 pts en salle, total neufs 35 / anciens 4 confirmé ; 6 choix de tournée sur un neuf et 4 sur un Stradivari confirmé (détail : N5 x4, N10 et N9 x1, O1 x3 et un autre Stradivari x1) ; timbre « at least equal to old » et jouabilité/articulation/projection notées plus haut pour les meilleurs neufs confirmé, correction précédente « au moins à égalité » exacte ; test d'identification au hasard confirmé, incohérence texte (31 bonnes/33 mauvaises) contre tableau 2 (33/31) confirmée. National Geographic : domaine refusé par la politique réseau de l'environnement (403), source secondaire non rouverte cette fois-ci, mais tous les chiffres qu'elle corrobore (35 contre 4, erreur une fois sur deux) sont déjà confirmés directement depuis le texte intégral PNAS. Carte et quiz conformes au texte. Aucune correction supplémentaire nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",
