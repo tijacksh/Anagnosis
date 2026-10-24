@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le passage place deux objectifs côte à côte : faire du bien, ou ne pas nuire. Ce n'est pas un veto qui passerait avant tout bénéfice, la formule latine n'y figure pas, et aucun accord du malade n'est mentionné.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -92,11 +92,11 @@
       "explication": "Castellus rend le passage d'Épidémies par « prodesse, aut non nocere », être utile ou ne pas nuire. Cela montre une version latine proche du sens grec, sans prouver que la formule primum non nocere ait existé à l'époque d'Hippocrate."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-24T10:13:26.560Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-24T19:14:37.669Z",
     "historique": [
       {
         "action": "retoucher",
@@ -105,6 +105,14 @@
         "par": "routine-relecture",
         "le": "2026-10-24T10:13:26.560Z",
         "note": "MIT Classics rouvert et confirmé mot pour mot : Épidémies I, §5, « to do good or to do no harm » (repère exact) ; Serment, « for the benefit of my patients », « deleterious and mischievous », remède mortel, pessaire abortif, taille de la pierre — ni primum non nocere ni first do no harm dans les deux textes. La troisième source, le billet de Thomas Morris (thomas-morris.uk), n'a pas pu être rouverte dans cet environnement : l'hôte est refusé par la politique réseau (proxy sortant), sans archive disponible. Or tout ce que la fiche attribue à Morris — Castellus 1713 « prodesse, aut non nocere », Boyer 1814 comme première occurrence en littérature médicale, Inman 1860 via Smith/Wootton, absence chez Sydenham — repose entièrement sur cette seule source, non reconsultée de façon indépendante à ce passage. Le contrôle précédent l'avait rouverte et cité mot pour mot ; ce doute est d'accès, pas de contenu, mais la relecture doit repartir du texte brut et ne peut pas ici. À lever : rouvrir thomas-morris.uk/?p=3510 depuis un réseau qui y a accès."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-10-24T19:14:37.669Z",
+        "note": "Les deux pages MIT Classics (Épidémies I, Serment) rouvertes par WebFetch et reconfirmées mot pour mot. thomas-morris.uk/?p=3510 reste inaccessible (DNS bloqué par la politique réseau, comme lors du contrôle et de la relecture précédents), mais recoupé plus en détail que lors des passages précédents par plusieurs recherches web indépendantes qui citent directement le billet : confirmé que Morris identifie Alexis Boyer et son Traité des maladies chirurgicales (1814) comme la première occurrence tracée de la formule latine dans la littérature médicale ; confirmé que le dictionnaire grec-latin de Bartholomeo Castellus (1713) rend en latin la phrase d'Épidémies ; confirmé sur en.wikipedia.org/wiki/Primum_non_nocere que l'attribution à Sydenham vient d'un livre de Thomas Inman (1860) et que Cedric Smith (2005) a écarté Hippocrate et Galien comme source de la formule, cohérent avec ce que la fiche affirme (Morris ne la trouve pas chez Sydenham). Rien à corriger dans le texte, le repère, la carte ni le quiz."
       }
     ]
   },
