@@ -108,7 +108,7 @@
       "explication": "Des élus américains ont publiquement détruit des radios Toshiba à coups de masse devant les caméras, un geste symbolique resté associé à l'affaire."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
@@ -125,13 +125,13 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-09-21",
+    "fait_le": "2026-10-24",
     "verdict": "a_revoir",
-    "empreinte": "7f2ef8679f1c4f88",
+    "empreinte": "f2ac75f9afa764f8",
     "notes": [
-      "Date du communiqué du Pentagone fausse : la fiche dit 19 avril 1987 (contenu_vulgarise + sources[1].note) mais plusieurs sources concordantes (recherche web croisant dfarq.homeip.net et autres) situent ce communiqué le 19 MARS 1987 ; l'article Wikipedia cité dit seulement « le 19 » sans nommer le mois dans cette phrase, le contexte de la page indiquant mars. A verifier avec une source qui donne la date complete (jour+mois+annee) avant de corriger, car cela change une affirmation datee du coeur de la fiche.",
-      "Le nombre d'axes des machines est generalise a tort : contenu_vulgarise et repere.texte disent 'au moins huit machines ... a neuf axes', alors que les sources elles-memes (sources[1].note et sources[2].note, et confirmation externe) disent que sur les huit machines, quatre etaient a neuf axes (modele MBP-110) et quatre a cinq axes (serie MF). La fiche fait croire que les huit etaient a neuf axes, ce que les sources ne soutiennent pas.",
-      "Le document CIA declassifie (sources[0], cia.gov/readingroom/document/0000621387) n'a pas pu etre rouvert : le domaine cia.gov est bloque par le proxy reseau de l'environnement de controle. Son contenu (reunion Cocom a Paris en avril 1987, usage hélices) n'a donc pas ete verifie directement et reste a confirmer par un humain ou un environnement avec acces a cia.gov."
+      "Rouvert en.wikipedia.org (Toshiba–Kongsberg scandal, Hitori Kumagai, Coordinating Committee for Multilateral Export Controls) et recherches croisées (globalsecurity.org, dfarq.homeip.net, csmonitor.com — inaccessibles en WebFetch direct mais cités par la recherche). Confirmés : répartition quatre machines à neuf axes et quatre à cinq axes (Hitori Kumagai) ; fondation du Cocom en 1949 par accord informel entre pays occidentaux, dix-sept membres (dont le Japon) atteints seulement dans ses dernières années ; lettre de Kumagai au Cocom en décembre 1985, réponse du gouvernement japonais le 27 avril 1987 ; arrestations du 27 mai 1987 ; jugement du 22 mars 1988 (amende de deux millions de yens, peines avec sursis) ; démissions de Shōichi Saba et Ichiro Watarisugi ; élus du Congrès fracassant des radios Toshiba au marteau en juillet 1987. Date du communiqué du Pentagone (19 mars 1987) non confirmée par une source primaire mais corroborée par deux recherches indépendantes citant explicitement cette date ; conservée.",
+      "cia.gov (source citée) bloqué par la politique réseau, comme lors des contrôles précédents : contenu non vérifié directement, mais il ne porte que sur la date de la réunion du Cocom à Paris, absente du corps de la fiche.",
+      "À signaler : le chiffre « 17 millions de dollars » (repere.texte, contenu_vulgarise, et sources[1].note) est attribué à la source Wikipédia « Toshiba–Kongsberg scandal », mais cette page ne contient ce chiffre nulle part (vérifié deux fois, recherche du nombre « 17 » dans le texte intégral : absent). Le montant lui-même est plausible et recoupé par d'autres sources trouvées en recherche (globalsecurity.org évoque 17 millions de dollars sur 1981-1984 ; une étude du King's College London donne 17,4 millions puis 10,7 millions pour un second lot, deux décompositions différentes), mais aucune de ces sources tierces ne figure dans sources[] de la fiche : la citer sans l'avoir ajoutée serait fabriquer une attribution. Il faut soit remplacer la source du chiffre par une référence réellement vérifiable et l'ajouter à sources[], soit retirer le chiffre. Passage en en_retouche."
     ]
   },
   "controle_juridique": null,
