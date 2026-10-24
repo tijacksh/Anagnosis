@@ -495,3 +495,7 @@ peut rouvrir directement le texte du décret.)*
 | Conformité | *Arthur Andersen LLP v. United States* (Cour suprême, 31 mai 2005) : condamné en 2002 pour entrave à la justice, condamnation annulée à l'unanimité en 2005 | fait | routine-production-arnaud | 2026-10-23 |
 | Conformité | *Upjohn Co. v. United States* (1981) : l'enquête interne sur des paiements à l'étranger et le rejet du « control group test » | fait | routine-production-arnaud | 2026-10-23 |
 | Conformité | Barclays et le Libor (FSA, 27 juin 2012) : trois saisines de la fonction Compliance en 2007-2008, trois fois sans effet | fait | routine-production-arnaud | 2026-10-23 |
+| Preuve et erreur judiciaire | Ernesto Miranda (Phoenix, 1963-1967) : l'aveu exclu par l'arrêt *Miranda v. Arizona* (13 juin 1966), puis une nouvelle condamnation sans lui | en cours | routine-production-arnaud | 2026-10-25 |
+| Preuve et erreur judiciaire | Walter Raleigh (Winchester, 17 novembre 1603) : « Call my accuser before my face » et la scène que *Crawford v. Washington* (2004) rappelle | en cours | routine-production-arnaud | 2026-10-25 |
+| Preuve et erreur judiciaire | Ray Krone (Phoenix, 1992-2002) : une empreinte de morsure, une condamnation à mort, puis l'ADN ; et le rapport de l'Académie des sciences de 2009 | en cours | routine-production-arnaud | 2026-10-25 |
+| Preuve et erreur judiciaire | Haymarket (Chicago, 1886) : huit condamnés sans que l'on sache qui a lancé la bombe, et la grâce du gouverneur Altgeld (26 juin 1893) | en cours | routine-production-arnaud | 2026-10-25 |
