@@ -80,12 +80,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-24T22:17:44.405Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-24T22:17:44.405Z",
+        "note": "Rifai 2024 (academic.oup.com, lu en direct) : chiffres de plomb (258/254 Bermann, 380/369 Halm-Thayer µg/g, réf. <4, plombémie 69-71 µg/dL) et conclusion (non-cause de mort, contributeur possible) confirmés mot pour mot. Wikisource, testament de Heiligenstadt (lu en direct) : daté du 6 octobre 1802, demande bien la description de sa maladie après sa mort. Current Biology (Begg 2023) et communiqué Beethoven-Haus inaccessibles en direct (europepmc.org, beethoven.de bloqués par la politique réseau) ; retrouvés et confirmés via recherche sur des miroirs du même contenu (DOI 10.1016/j.cub.2023.02.041 ; reprises du communiqué sur uni-tuebingen.de, researchinestonia.eu) : huit mèches, cinq authentiques d'un même homme, couverture 24x, pas de cause génétique à la surdité/troubles digestifs, prédisposition hépatique, hépatite B, mèche de Hiller venant d'une femme, invalidant les dosages de plomb antérieurs. Carte et quiz conformes. Aucune correction nécessaire."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

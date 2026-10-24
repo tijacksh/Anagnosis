@@ -77,15 +77,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le brevet lisse le rapport de rééchantillonnage dans le temps pour que la hauteur ne saute pas d'un coup. Il ne sert ni à accélérer la détection (rôle des cumuls courants), ni à filtrer le bruit, et il vise au contraire à rapprocher la voix de la note visée. Le réglage zéro supprime ce lissage, selon le récit de Hildebrand rapporté par Priceonomics.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-24T22:17:45.191Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-10-24T22:17:45.191Z",
+        "note": "Le brevet US 5973252 est confirmé via des miroirs primaires (USPTO, Justia, Google Patents indexés) : priorité provisoire du 27 octobre 1997, mécanisme d'autocorrélation et lissage du rapport de rééchantillonnage, antériorités zero-crossing, cumuls incrémentaux — le repere tient. Mais patents.google.com, priceonomics.com et soundonsound.com étaient bloqués par la politique réseau de cette session (403/ENOTFOUND, y compris web.archive.org) : les affirmations tirées de Priceonomics (parcours de Hildebrand, 'un million de multiplications-additions changé en quatre', réglage zéro 'just for kicks', usage par Taylor et Rawling) et de Sound on Sound (pédale Digitech Talker, note éditoriale sur le procédé secret) n'ont pu être recoupées que par des sources tierces (un blog, une transcription PBS NOVA, un fil de discussion citant l'éditorial), jamais par les deux sources elles-mêmes. Rien ne contredit la fiche, mais le doute porte sur l'impossibilité de rouvrir ces deux sources en direct depuis cette session. À lever : rouvrir priceonomics.com/the-inventor-of-auto-tune/ et soundonsound.com/techniques/recording-cher-believe depuis un accès réseau non restreint."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",
