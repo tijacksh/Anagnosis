@@ -122,11 +122,12 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "corrige",
-    "empreinte": "9c55c4d942ee8973",
+    "fait_le": "2026-10-25",
+    "verdict": "ok",
+    "empreinte": "49f188ae5d23c928",
     "notes": [
-      "Sources rouvertes (Stan case study, Mahaffy PDF) : formulation indépendante Lotka 1925 / Volterra 1926 confirmée, nature commerciale et régionale des données de peaux confirmée (pelts = proxy bruité, collecte multi-régions, biais lié à l'effort de piégeage), limites du modèle (climat, migrations, maladies non modélisés, jeu complet de données non périodique) confirmées par Mahaffy. Le fait que le lynx semble parfois précéder le lièvre est un phénomène réel et documenté (paradoxe de Gilpin 1973, 'hare-lynx paradox'), non porté par les deux sources citées mais bien établi dans la littérature. Corrigé : l'auteur attribué à la source Stan ('Stan Development Team') était erroné, la page est signée Bob Carpenter — corrigé dans sources[0].auteur et repere.source."
+      "Recontrôle après ajout de quiz_supplementaire (empreinte modifiée depuis le contrôle du 2026-07-31). mc-stan.org et jmahaffy.sdsu.edu bloqués par la politique du proxy de cette session (403 CONNECT policy denial, confirmé via /__agentproxy/status) : impossible d'ouvrir les deux sources directement. Corroboré par recherche web : la page Stan ajuste bien Lotka-Volterra aux séries de peaux lynx/lièvre de la Compagnie de la Baie d'Hudson avec erreur de mesure bayésienne ; les notes SDSU de Mahaffy (cours Math 636) traitent ces mêmes comptages de fourrures comme proxy bruité des populations sauvages, avec limites documentées. Formulation indépendante par Lotka et Volterra dans les années 1920 confirmée (Lotka 1925, Volterra 1926).",
+      "Les 3 nouvelles questions de quiz_supplementaire reformulent des affirmations déjà présentes dans contenu_vulgarise et déjà vérifiées au contrôle précédent (nature commerciale des données, agrégation régionale, séquences où le lynx précède le lièvre). Ce dernier point reste un fait réel et documenté dans la littérature plus large (paradoxe de Gilpin 1973 « Do hares eat lynx ? », repris par Deng 2018) mais non porté explicitement par les deux sources citées — gap déjà signalé et accepté au contrôle du 2026-07-31, non aggravé par l'ajout des questions. Aucune correction nécessaire : auteur Bob Carpenter déjà corrigé, aucune coquille relevée, position des bonnes réponses du quiz non systématiquement en première place."
     ]
   }
 }
