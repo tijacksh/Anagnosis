@@ -92,7 +92,44 @@
     "explication": "Les nutriments des fleuves nourrissent des algues qui, en mourant, coulent et consomment l'oxygène du fond, que la stratification empêche de renouveler. L'eau douce joue un autre rôle : posée sur l'eau de mer, elle limite le mélange et donc le renouvellement de l'oxygène. Ni marée noire ni poison direct : la NOAA décrit un manque d'oxygène de 2 mg/L ou moins.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel seuil la NOAA retient-elle pour qualifier une eau d'hypoxique ?",
+      "choix": [
+        "5 milligrammes d'oxygène dissous par litre, ou moins",
+        "2 milligrammes d'oxygène dissous par litre, ou moins",
+        "L'absence totale d'oxygène mesurable",
+        "Une température de l'eau supérieure à 25 degrés"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte donne ce chiffre comme le seuil retenu par la NOAA : 2 milligrammes d'oxygène dissous par litre, ou moins, définit une eau hypoxique.",
+      "statut": "valide"
+    },
+    {
+      "question": "Outre la consommation d'oxygène par les algues en décomposition, qu'est-ce qui limite son renouvellement au fond ?",
+      "choix": [
+        "La température élevée de l'eau de surface, qui empêche l'oxygène d'y descendre",
+        "Des hydrocarbures déversés, qui bloquent les échanges avec l'air",
+        "La vitesse des courants de fond, qui empêche l'oxygène de s'y stabiliser",
+        "La stratification, l'eau douce plus légère reposant sur l'eau de mer"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le texte nomme la stratification : l'eau douce, plus légère, repose sur l'eau de mer et le faible mélange vertical limite l'apport d'oxygène aux couches du bas.",
+      "statut": "valide"
+    },
+    {
+      "question": "Qu'est-ce que les documents de la NOAA consultés ne disent pas, selon le texte ?",
+      "choix": [
+        "Pourquoi la zone se forme chaque printemps dans le nord du golfe",
+        "Pourquoi l'objectif de 2035 a été fixé à 1 900 miles carrés",
+        "Pourquoi le débit du fleuve était sous la moyenne en mai 2026",
+        "Pourquoi la mesure de fin juillet est si inférieure à la prévision de juin"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le texte le dit explicitement : les documents consultés ne donnent pas la cause de l'écart entre la prévision de juin et la mesure de fin juillet, plus de cinq fois inférieure.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

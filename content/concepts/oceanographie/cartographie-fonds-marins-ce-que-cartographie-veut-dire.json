@@ -83,7 +83,44 @@
     "explication": "Le critère rapporté par l'étude de 2025 est un sondage direct par case, de 100 à 800 mètres de côté selon la profondeur. Seules les mesures directes comptent : les profondeurs estimées ou interpolées sont tenues pour non cartographiées, et une case n'a pas besoin d'être couverte entièrement : c'est ce qui permet à une carte continue de n'être mesurée qu'à 27,3 %.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Qui a lancé Seabed 2030, et en quelle année ?",
+      "choix": [
+        "La NOAA et l'UNESCO, en 2015",
+        "La Fondation Nippon et GEBCO, en 2017",
+        "Les Nations unies seules, en 2020",
+        "GEBCO seule, sans partenaire, en 2017"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte le date à 2017, lors de la première conférence des Nations unies sur l'océan, par la Fondation Nippon et la GEBCO ensemble, non par l'ONU ni par GEBCO seule.",
+      "statut": "valide"
+    },
+    {
+      "question": "D'après l'étude de 2025, quelle zone océanique est la moins cartographiée ?",
+      "choix": [
+        "L'Atlantique Nord",
+        "Le Pacifique Nord",
+        "L'océan Indien",
+        "Les zones hadales"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte donne 17,5 % pour l'océan Indien, le taux le plus bas cité, alors que l'Atlantique Nord et le Pacifique Nord sont dits les mieux cartographiés et les zones hadales couvertes à 55,6 %.",
+      "statut": "valide"
+    },
+    {
+      "question": "Selon l'étude citée, qu'est-ce qui explique le mieux où l'on a déjà mesuré le fond ?",
+      "choix": [
+        "La taille des zones économiques exclusives, la richesse des États et les ressources offshore",
+        "La distance aux côtes habitées, les zones accessibles étant mesurées d'abord",
+        "La profondeur moyenne, les eaux les plus profondes mesurées en dernier",
+        "L'ancienneté des programmes nationaux de cartographie"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le texte écarte l'idée d'une exploration qui irait du plus accessible au plus lointain : l'étude relie plutôt la couverture aux zones économiques exclusives, à la richesse et aux ressources offshore.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
