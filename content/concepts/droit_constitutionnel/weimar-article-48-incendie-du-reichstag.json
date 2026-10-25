@@ -71,13 +71,13 @@
     ],
     "bonne_reponse": 0,
     "explication": "L'article 48 existait depuis 1919 comme garde-fou pour une République jeune et menacée. En 1933, il est invoqué tel quel pour suspendre les mêmes libertés qu'il était censé, en dernier recours, protéger. Aucune loi nouvelle n'était nécessaire.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-18T07:17:38.979Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-25T03:17:26.534Z",
     "historique": [
       {
         "action": "retoucher",
@@ -94,15 +94,23 @@
         "par": "routine-reparation",
         "le": "2026-08-18T07:17:38.979Z",
         "note": "Fiche entière revérifiée indépendamment : 4 sources rouvertes (Wikisource Verfassung art.48 — confirme date d'adoption 11 août 1919, les 7 droits suspendus via articles 114/115/117/118/123/124/153, l'obligation d'information immédiate du Reichstag « unverzüglich » et son droit d'exiger la levée des mesures ; German Historical Institute Washington — confirme le décret du 28 février 1933 fondé sur l'art. 48 al. 2, les signataires Hindenburg/Hitler/Frick/Gürtner, la formule « bis auf weiteres », le motif communiste officiel ; Wikipedia EN Reichstag Fire Decree — confirme les mêmes articles suspendus, l'incendie « evening of 27 February 1933 », le décret jamais abrogé et en vigueur jusqu'en 1945, les milliers d'arrestations de communistes et sociaux-démocrates, l'interdiction de journaux, la mainmise du pouvoir central sur les Länder ; Wikipedia EN Hugo Preuss — confirme son rôle de principal rédacteur et sa conception de l'art. 48 comme garde-fou contre une dictature de la majorité parlementaire). Score NSDAP 43,9% et dissolution du Reichstag le 1er février 1933 (donc pas la veille de l'incendie) revérifiés via de.wikipedia.org/wiki/Reichstagswahl_März_1933, confirmant le distracteur du quiz faux. Deux détails non soutenus par aucune source trouvée (« le lendemain matin », « décret d'une page ») retirés du corps : le passage devient « Le lendemain, le président Paul von Hindenburg signe un décret. » Reste du corps, citation/repère, carte et quiz conformes aux sources ; les trois autres distracteurs du quiz vérifiés faux. npm run validate et npm test passent."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-25T03:17:26.534Z",
+        "note": "Signalé par le contrôle du 2026-10-25 : la phrase « plusieurs gouvernements régionaux sont menacés de renversement dans les mois qui suivent » (corps, section sur l'article pensé pour une République fragile) n'est soutenue par aucune des quatre sources de la fiche (Wikisource art. 48, GHI, Wikipedia Reichstag Fire Decree, Wikipedia Hugo Preuss) ; la page sur le décret ne parle ni de 1919 ni de gouvernements régionaux menacés. À sourcer précisément (quels Länder, quelle date) ou à reformuler."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-17",
-    "verdict": "ok",
-    "empreinte": "3e7a0829811ec8a0",
+    "fait_le": "2026-10-25",
+    "verdict": "a_revoir",
+    "empreinte": "9e0d5aea91b51873",
     "notes": [
-      "Repassage déclenché par l'ajout de la source Hugo Preuß lors de la relecture précédente (empreinte modifiée, aucun texte changé). Source rouverte (en.wikipedia.org/wiki/Hugo_Preuss) : confirme qu'il est l'auteur du projet de constitution adopté par l'Assemblée nationale de Weimar, et que les pouvoirs d'urgence de l'article 48 correspondaient à sa conception d'un garde-fou démocratique contre une dictature de la majorité parlementaire. Rien à corriger."
+      "Art. 48 (Wikisource), décret du 28 février 1933 (GHI), Wikipedia Reichstag Fire Decree et Hugo Preuss rouverts : article, sept articles suspendus, garde-fou de l'alinéa 3, signataires, « bis auf weiteres », 43,9 %, maintien en vigueur jusqu'en 1945, quiz et quiz supplémentaires conformes. SIGNALEMENT : la phrase « plusieurs gouvernements régionaux sont menacés de renversement dans les mois qui suivent » (corps, 2e section) n'est soutenue par aucune des quatre sources ; la page sur le décret ne parle ni de 1919 ni de gouvernements régionaux menacés. À sourcer précisément ou reformuler. Par ailleurs « un mois avant » la loi des pleins pouvoirs est approximatif (28 février au 23 mars, moins d'un mois)."
     ]
   },
   "controle_juridique": null,
