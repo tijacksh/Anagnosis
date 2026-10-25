@@ -43,8 +43,8 @@
   "pour_aller_plus_loin": [
     {
       "titre": "Hallmann et al. (2017) — texte intégral",
-      "url": "http://www.entomologica.org/publ/hallmann_sorg_etal-2017.pdf",
-      "note": "En anglais, en accès libre ; la description du piège et du protocole occupe deux pages."
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0185809&type=printable",
+      "note": "En anglais, en accès libre (PDF imprimable PLOS ONE) ; la description du piège et du protocole occupe deux pages. L'ancienne adresse (entomologica.org) ne résout plus."
     }
   ],
   "illustration": {
@@ -100,7 +100,7 @@
       "explication": "Aucun financement ne paie trente ans de pesée d'insectes : le format des carrières et des projets demande des résultats à trois ans. La série existe parce que des bénévoles s'y sont tenus sans attendre qu'elle serve à quelque chose."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "arnaud@louvigny.pro",
@@ -122,11 +122,12 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "3d2f127954de0a8e",
+    "fait_le": "2026-10-25",
+    "verdict": "a_revoir",
+    "empreinte": "54b931f66aaaa1f6",
     "notes": [
-      "Sources rouvertes : PLOS ONE 2017 (Hallmann et al.) confirme 63 sites, 27 ans (1989-2016), déclin 76,7% (jusqu'à 81,6% mi-été), pièges Malaise, masse totale (pas d'espèces), Société entomologique de Krefeld (~50 membres, bénévoles/amateurs). PNAS 2021 (Hallmann et al., vol 118) confirmé via Semantic Scholar : relie déclin de biomasse et diversité via étude sur syrphes. PDF entomologica.org vérifié = texte intégral identique. Article bien dans le Top 100 Altmetric 2017. Repère, carte et quiz cohérents avec les sources. Aucune correction nécessaire."
+      "Url morte remplacée (entomologica.org ne résout plus -> PDF imprimable PLOS ONE, même article, adresse vérifiée).",
+      "Signalement de fond : le titre, l'accroche et le corps affirment que la société entomologique de Krefeld est composée 'en majorité des amateurs, au sens strict : des gens qui font cela en dehors de leur métier' -- or ni Hallmann et al. 2017 (PLOS ONE) ni Hallmann et al. 2021 (PNAS, PMC7812780) ne qualifient les membres d'amateurs ou de bénévoles ; les deux textes parlent seulement de 'members' et de botanistes/entomologistes coopérants, sans préciser leur statut professionnel. Cette affirmation est le pivot du titre et de la carte (punch), donc touche au sens -- à vérifier auprès d'une source qui l'établit explicitement (ex. couverture de presse sourcée, communication de la société elle-même) avant de la garder."
     ]
   }
 }
