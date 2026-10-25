@@ -90,15 +90,24 @@
     ],
     "bonne_reponse": 0,
     "explication": "Les nutriments des fleuves nourrissent des algues qui, en mourant, coulent et consomment l'oxygène du fond, que la stratification empêche de renouveler. L'eau douce joue un autre rôle : posée sur l'eau de mer, elle limite le mélange et donc le renouvellement de l'oxygène. Ni marée noire ni poison direct : la NOAA décrit un manque d'oxygène de 2 mg/L ou moins.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-25T10:12:42.216Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-25T10:12:42.216Z",
+        "note": "Rouvert : oceanservice.noaa.gov/hazards/hypoxia (seuil 2 mg/L, mécanisme nutriments/algues/décomposition/stratification, suivi depuis 1985, 4 402 mi² 2025, 1 332 mi² mesurés 24-30 juillet 2026 = 2e plus petite en 40 ans — confirmé indépendamment de gulfhypoxia.net), oceanservice.noaa.gov/news/jun26 (prévision 7 027 mi², moyenne 39 ans 5 223, record 8 776 en 2017, débit -36 %, nitrate +4 %, phosphore -6 %, objectif 1 900 mi² en 2035), coastalscience.noaa.gov/?p=97413 (4 402 mi² en 2025, 15e plus petite en 39 ans, moyenne 5 ans 4 755, objectif 2035 identique). gulfhypoxia.net inaccessible depuis cet environnement (blocage réseau de la sandbox, CONNECT refusé par le proxy — pas une preuve de lien mort) ; les faits qu'elle porte (1 332 mi², 2e plus petite en 40 ans, annonce début août 2026) sont recoupés via oceanservice.noaa.gov ci-dessus. Díaz et Rosenberg 2008 confirmé par recherche web (plus de 400 systèmes, plus de 245 000 km², croissance exponentielle depuis les années 1960). Absence d'explication de l'écart prévision/mesure confirmée : aucune des pages NOAA lues n'en donne. Carte et quiz vérifiés, rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",

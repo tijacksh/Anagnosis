@@ -81,15 +81,24 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le critère rapporté par l'étude de 2025 est un sondage direct par case, de 100 à 800 mètres de côté selon la profondeur. Seules les mesures directes comptent : les profondeurs estimées ou interpolées sont tenues pour non cartographiées, et une case n'a pas besoin d'être couverte entièrement : c'est ce qui permet à une carte continue de n'être mesurée qu'à 27,3 %.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-25T10:16:18.650Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-25T10:16:18.650Z",
+        "note": "Frontiers (10.3389/fmars.2025.1543885), gebco.net et seabed2030.org inaccessibles depuis cette session (403 de la politique réseau), recoupés par recherche web sur des sources indépendantes : annonce Seabed 2030 21/06/2025 (27,3 % contre 26,1 %, 4+ millions de km², taille du sous-continent indien) confirmée par plusieurs reprises (Nippon Foundation, IOC-UNESCO, Hellenic Shipping News, Ocean News) ; page GEBCO du 6/08/2025 (27,3 % contre 26,1 %, grille 15 secondes d'arc) citée verbatim dans les résultats de recherche ; article Niyazi et al. 2025 confirmé publié 30 mai 2025, Indian Ocean 17,5 % le moins cartographié, hadal 55,6 %, ~un quart pour peu profond et abyssal, 28,5 % fin 2024 contre 26,1 % Seabed2030, 3,2 %/an, ~20 ans restants — tout recoupé par plusieurs résumés indépendants de la recherche web, rien de contradictoire trouvé. Les sous-détails 24,2 % multifaisceaux et 12,4 % en 2019 n'ont pas été retrouvés par cette méthode mais avaient été lus dans le texte intégral par le contrôle du 2026-10-19 ; aucune contradiction relevée. Rien changé au texte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-19",
