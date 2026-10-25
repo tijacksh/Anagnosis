@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Pitt-Rivers constate que, en revenant aux anciens comptes rendus, les points les plus précieux ont été omis parce qu'ils paraissaient sans intérêt à l'époque. L'échelle numérique de dates appartient à une autre méthode, celle de Petrie, et les villages qu'il fouille sont précisément romano-bretons.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -90,12 +90,21 @@
       "explication": "Les villages et les tumulus sont restaurés et regazonnés, et un médaillon est déposé au fond des principales tranchées pour signaler son passage. Son musée, lui, se trouvait près de Farnham, à distance des fouilles."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-25T22:18:04.041Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-25T22:18:04.041Z",
+        "note": "Préface Pitt-Rivers 1887 relue en texte intégral depuis archive.org/download/.../_djvu.txt (pas seulement la notice) : héritage 1880, retraite pour raison de santé, Act of 1882, visites « at least three times a day », citation « personal equation » mot pour mot (p. xvii), « 95 pits and 15 skeletons » contre aucun dans le XXIVth vol. du Journal of the Archaeological Institute, 5 feet 2.6 inches, médaillon aux fonds des fouilles, villages regazonnés, musée près de Farnham, assistants formés au dessin (Tomkin, James, Reader) et supervision du creusement partagée avec eux tandis que Pitt-Rivers garde l'analyse — confirme indépendamment le propos du texte du Pitt Rivers Museum. Page web.prm.ox.ac.uk inaccessible depuis cet environnement (hôte bloqué par la politique réseau), mais Wikipédia (en) confirme l'Act de 1882 et la nomination comme inspecteur ; la date de janvier 1883 reste non reconfirmée indépendamment, détail secondaire non structurant. Carte et quiz conformes au texte de la préface."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-20",

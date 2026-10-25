@@ -77,7 +77,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "L'hypothèse établit des rapports entre masses moléculaires. Pour en tirer un nombre, il faut une grandeur absolue (taille ou masse d'une molécule), que seule la théorie cinétique puis les expériences de Perrin ont fournie. Elle n'était pas rejetée en 1909 : Cannizzaro l'avait remise en avant dès 1858-1860. Le défaut est d'un autre ordre : elle ne fournit que des rapports, quel que soit le gaz.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -103,12 +103,21 @@
       "explication": "Perrin applique les lois des gaz à des émulsions de grains égaux : leur répartition d'équilibre et leur mouvement brownien donnent le nombre d'Avogadro. Les émulsions donnent la constante directement ; aucune molécule n'est comptée une à une."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-25T22:18:14.228Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-25T22:18:14.228Z",
+        "note": "Conférence Nobel de Perrin (1926) relue en texte intégral (téléchargée directement, hors cache WebFetch) : molécule-gramme = 32 g d'oxygène, valeurs théorie cinétique 40 à 120×10^22 avec incertitude « largely 100 per cent », résultats émulsions 68/62/60/64/65×10^22 (moyenne 64), opalescence critique Keesom 75, bleu du ciel Bauer/Brillouin/Fowler 65, corps noir 64, charges électriques 61 (Millikan 1909), hélium radioactif 62 à 70, phrase sur poids relatifs/absolus. Toutes les valeurs numériques vérifiées mot pour mot. BIPM (hôte bloqué par la politique réseau) recoupé via IUPAC Gold Book (SI Brochure 9e éd., p.134) : 6,022 140 76×10^23 depuis le 26e CGPM, effectif le 20 mai 2019, remplace la définition par le carbone 12 de 1971. Jensen (hôte bloqué, homepages.uc.edu) recoupé via extraits indépendants (chemeurope.com, knowino.org citant Jensen) : Avogadro étranger au calcul, nombre de Loschmidt par millilitre 1865, Perrin 1908 « molecule-gramme », baptême 1909, Ramsay cite la proposition de Perrin dès 1912 dans un livre de vulgarisation, adoption manuels américains années 1930 puis lycée après 1950 — tout concorde. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-20",

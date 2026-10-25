@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Ostwald parle d'accélérations de processus possibles et déjà en cours : le premier choix est donc faux, un catalyseur ne rend pas possible ce qui ne l'était pas. Il n'apporte pas d'énergie libre et ne mène pas vers un état plus stable, puisque l'équilibre ne bouge pas : la destination reste la même, c'est la durée du trajet qui change.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -98,12 +98,21 @@
       "explication": "Wilhelmy a défini la vitesse de réaction à propos de l'inversion du sucre de canne, que Biot et Persoz avaient suivie au polarimètre. Les autres cas, tous catalytiques, avaient été réunis par Berzelius mais pas utilisés pour poser le concept."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-25T22:18:33.215Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-25T22:18:33.215Z",
+        "note": "Conférence Nobel d'Ostwald (1909) relue en texte intégral (téléchargée directement, hors cache WebFetch) : cas réunis par Berzelius (Kirchhoff 1814, Thénard 1818, Davy 1817, Döbereiner 1823, Mitscherlich 1834), termes catalyse/force catalytique, controverse avec Liebig, absence de notion de vitesse de réaction (réactions entre sels trop rapides pour être mesurées « even today »), Clément et Désormes 1806, Wilhelmy qualifié à la fois d'« amateur » et de « physicist » par Ostwald lui-même (la réserve du contrôle sur « physicien allemand » est donc sans objet : la source utilise bien ce mot), inversion du sucre par Biot/Persoz, étude de 1883 sur l'acétate de méthyle par l'acide chlorhydrique, phrase sur les « accelerations of possible processes which are in progress », compatibilité avec le second principe, théorie des réactions intermédiaires de Clément et Désormes, « half-century... barrenness... later glut of fruits ». Page Nobel 1909 relue : citation exacte du prix confirmée. Wikipédia Catalysis confirmée (Berzelius 1835, briquet de Döbereiner années 1820, constante d'équilibre inchangée sous peine de machine à mouvement perpétuel). Tout concorde mot pour mot. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-20",

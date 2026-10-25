@@ -77,7 +77,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Faraday explique que le gaz contient beaucoup de carbone, mais que l'air, arrivant avant la combustion, le brûle avant qu'il se sépare en particules solides : sans solide chauffé, pas d'éclat. La chaleur n'est pas la cause du manque d'éclat, l'azote n'est pas la source de la couleur, et la quantité de carbone dans le gaz ne change pas. Le bleu pâle qui reste est la flamme sans ses grains incandescents.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -103,12 +103,21 @@
       "explication": "La NASA décrit une flamme sphérique, sans suie et bleue quand les écoulements de convection sont absents. La couleur jaune terrestre vient de la suie portée vers la pointe, pas d'une température plus haute."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-25T22:18:23.448Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-25T22:18:23.448Z",
+        "note": "The Chemical History of a Candle relu en texte intégral (téléchargé directement depuis gutenberg.org/cache/epub/14474/pg14474.txt, édition Chatto & Windus 1908 confirmée dans le texte même, p. de titre) : hydrogène brûlant dans l'oxygène, « far greater heat than you can obtain from the candle, yet there is very little light » — comparaison à la bougie en fait explicite dans la source (plus net que ce que le contrôle avait noté en réserve), chaux comparée à la lumière voltaïque et presque égale au soleil, tube plongé dans la partie brillante ramenant une fumée noire qui éteint une flamme, toile métallique qui éteint la partie brillante, camphine renvoyée dans la flamme d'hydrogène qui se rallume, fil de platine incandescent, bec de gaz coiffé d'une toile : « non-luminous... pale and blue the flame is ». Tout concorde mot pour mot. NASA et Wikipédia Flame déjà vérifiées (apesanteur sphérique sans suie bleue ; jaune = incandescence de fines particules de suie). Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-20",
