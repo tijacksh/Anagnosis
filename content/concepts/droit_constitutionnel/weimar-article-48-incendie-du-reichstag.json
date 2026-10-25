@@ -79,13 +79,13 @@
     ],
     "bonne_reponse": 0,
     "explication": "L'article 48 existait depuis 1919 comme garde-fou pour une République jeune et menacée. En 1933, il est invoqué tel quel pour suspendre les mêmes libertés qu'il était censé, en dernier recours, protéger. Aucune loi nouvelle n'était nécessaire.",
-    "statut": "valide"
+    "statut": "rejete"
   },
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controle",
-    "decide_le": "2026-10-25T08:22:51.346Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-25T19:09:22.593Z",
     "historique": [
       {
         "action": "retoucher",
@@ -126,6 +126,14 @@
         "par": "routine-controle",
         "le": "2026-10-25T08:22:51.346Z",
         "note": "Signalé par le contrôle du 2026-10-25 (9 h) : l'accroche « En 1933, cette même arme installe la dictature en un jour » n'est soutenue par aucune source (le décret est « une des bases juridiques centrales » de la dictature, la loi des pleins pouvoirs date du 23 mars). À reformuler."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-25T19:09:22.593Z",
+        "note": "Deuxième réparation déjà tentée (08/08 et 25/10) pour des problèmes de sens récurrents sur l'accroche/le corps ; une troisième réécriture ne serait plus un contrôle indépendant. Rejetée conformément à la règle des trois passages, sans nouvelle vérification de sources."
       }
     ]
   },
