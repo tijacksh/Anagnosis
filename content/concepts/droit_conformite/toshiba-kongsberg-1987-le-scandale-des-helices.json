@@ -71,7 +71,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le contrôle du Cocom reposait presque entièrement sur la bonne foi de l'exportateur : aucune vérification indépendante ne s'assurait qu'une machine déclarée pour un usage civil ne repartait pas vers un usage militaire.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -108,11 +108,11 @@
       "explication": "Des élus américains ont publiquement détruit des radios Toshiba à coups de masse devant les caméras, un geste symbolique resté associé à l'affaire."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-24T19:14:13.121Z",
+    "decide_le": "2026-10-25T05:01:39.365Z",
     "historique": [
       {
         "action": "valider",
@@ -129,6 +129,14 @@
         "par": "routine-reparation",
         "le": "2026-10-24T19:14:13.121Z",
         "note": "Point signalé : le chiffre « 17 millions de dollars » (repere, contenu_vulgarise, sources[1].note) n'est pas dans la source Wikipédia citée (vérifié par WebFetch : recherche du nombre « 17 » dans le texte intégral de en.wikipedia.org/wiki/Toshiba–Kongsberg_scandal, absent). Aucune autre source du dossier ne le soutient, et les sources tierces qui citent ce montant (globalsecurity.org, kcl.ac.uk, csmonitor.com, techmonitor.ai, languagehat.com) sont toutes inaccessibles depuis cet environnement (DNS bloqué par la politique réseau, confirmé par échec direct sur chacune) : les ajouter à sources[] sans avoir pu les ouvrir aurait fabriqué une attribution. Le chiffre est retiré des trois emplacements plutôt que rattaché à une source non vérifiée. Reste de la fiche revérifié par WebFetch : répartition quatre machines à neuf axes / quatre à cinq axes et dates (lettre de Kumagai décembre 1985, visite à l'ambassade US été 1986, réponse du gouvernement japonais le 27 avril 1987, arrestations du 27 mai 1987) confirmées sur en.wikipedia.org/wiki/Hitori_Kumagai ; fondation du Cocom en 1949, dix-sept membres atteints seulement en fin de période confirmé sur en.wikipedia.org/wiki/Coordinating_Committee_for_Multilateral_Export_Controls."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-25T05:01:39.365Z",
+        "note": "Fiche déjà réparée deux fois et revenue en retouche : on ne tente pas une troisième réparation. Dernier signalement : lieu et outil des radios fracassées (Capitole, masse) non soutenus par la source (Wikipedia dit White House, hammers) ; loi américaine de 1988 et durée de l'interdiction absentes des sources ; antériorité de la voie policière japonaise sans source. Rejetée sur la règle des deux réparations, pas rouverte."
       }
     ]
   },

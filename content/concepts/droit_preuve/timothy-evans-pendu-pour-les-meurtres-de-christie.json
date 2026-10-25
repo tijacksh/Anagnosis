@@ -77,7 +77,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le rapport Brabin ne blanchit pas totalement Evans : il juge plus probable qu'improbable qu'il ait tué sa femme, mais tout aussi probable qu'il n'ait pas tué sa fille, le seul crime pour lequel il a été jugé et pendu en 1950. La grâce de 1966 porte sur ce point précis et n'annule pas le jugement, qui reste inscrit ; Christie, lui, n'a jamais été innocenté de rien, puisqu'il a confessé le meurtre de Beryl pendant sa propre instruction.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -114,11 +114,11 @@
       "explication": "La Haute Cour a jugé que le coût et les moyens d'annuler la condamnation ne se justifiaient pas, faute de « bénéfice tangible » pour un homme déjà exécuté et sans autre peine à effacer, tout en reconnaissant qu'Evans devait être tenu pour innocent du crime pour lequel il avait été condamné."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-24T19:14:03.829Z",
+    "decide_le": "2026-10-25T05:01:39.265Z",
     "historique": [
       {
         "action": "valider",
@@ -135,6 +135,14 @@
         "par": "routine-reparation",
         "le": "2026-10-24T19:14:03.829Z",
         "note": "Corrigé sur les deux points signalés, vérifiés par WebFetch sur en.wikipedia.org : (1) durée de délibération du jury Christie, « quatre-vingts » → « quatre-vingt-cinq minutes » (source : « deliberating for 85 minutes », John Christie (serial killer)) ; (2) raison du rejet de la Haute Cour en 2004 reformulée — ce n'est pas la réputation d'Evans mais l'absence de « bénéfice tangible » pour un homme déjà exécuté sans autre peine à effacer (Timothy Evans, citant le jugement : « the cost and resources of quashing the conviction could not be justified » / pas de « tangible benefit »), tout en reconnaissant qu'il devait être tenu pour innocent ; corps et quiz_supplementaire Q3 corrigés en conséquence, demandeuse précisée en demi-sœur. Reste de la fiche revérifié par WebFetch (Timothy Evans et John Christie (serial killer)) : naissance 20 novembre 1924, 25 ans le 30 novembre 1949, procès à partir du 11 janvier 1950, exécution le 9 mars 1950, arrestation de Christie le 31 mars 1953, procès à partir du 22 juin 1953 pour le seul meurtre d'Ethel, exécution le 15 juillet 1953, confession du meurtre de Beryl et silence sur Geraldine, rapport Brabin et grâce d'octobre 1966 — tout conforme."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-25T05:01:39.265Z",
+        "note": "Fiche déjà réparée deux fois et revenue en retouche : on ne tente pas une troisième réparation. Dernier signalement : « Sur Geraldine, il ne dit jamais rien » contredit la source (Wikipedia John Christie : Christie a nié pour l'essentiel devant la police, n'a ni avoué ni été poursuivi, et aurait laissé entendre à un infirmier après son procès qu'il pouvait en être responsable) ; « illettré » et « policier auxiliaire » restent des détails non soutenus exactement. Rejetée sur la règle des deux réparations, pas rouverte."
       }
     ]
   },
