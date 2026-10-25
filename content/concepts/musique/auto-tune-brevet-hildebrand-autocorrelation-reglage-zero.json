@@ -83,8 +83,8 @@
   "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-24T22:17:45.191Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-10-25T07:17:52.596Z",
     "historique": [
       {
         "action": "retoucher",
@@ -93,6 +93,14 @@
         "par": "routine-relecture",
         "le": "2026-10-24T22:17:45.191Z",
         "note": "Le brevet US 5973252 est confirmé via des miroirs primaires (USPTO, Justia, Google Patents indexés) : priorité provisoire du 27 octobre 1997, mécanisme d'autocorrélation et lissage du rapport de rééchantillonnage, antériorités zero-crossing, cumuls incrémentaux — le repere tient. Mais patents.google.com, priceonomics.com et soundonsound.com étaient bloqués par la politique réseau de cette session (403/ENOTFOUND, y compris web.archive.org) : les affirmations tirées de Priceonomics (parcours de Hildebrand, 'un million de multiplications-additions changé en quatre', réglage zéro 'just for kicks', usage par Taylor et Rawling) et de Sound on Sound (pédale Digitech Talker, note éditoriale sur le procédé secret) n'ont pu être recoupées que par des sources tierces (un blog, une transcription PBS NOVA, un fil de discussion citant l'éditorial), jamais par les deux sources elles-mêmes. Rien ne contredit la fiche, mais le doute porte sur l'impossibilité de rouvrir ces deux sources en direct depuis cette session. À lever : rouvrir priceonomics.com/the-inventor-of-auto-tune/ et soundonsound.com/techniques/recording-cher-believe depuis un accès réseau non restreint."
+      },
+      {
+        "action": "retoucher",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "routine-reparation",
+        "le": "2026-10-25T07:17:52.596Z",
+        "note": "Repris le doute réseau du 2026-10-24, que le contrôle du 2026-10-25 dit avoir levé en rouvrant patents.google.com, priceonomics.com et soundonsound.com en direct (citations conformes rapportées : « just for kicks », « Cher Effect », note STOP PRESS de Matt Bell formulée avec « apparently »). Depuis cette session de réparation, les trois mêmes hôtes sont bloqués par la politique réseau (403 côté passerelle, confirmé via le journal du proxy : connect_rejected sur patents.google.com, policy denial) -- je n'ai donc pas pu les rouvrir moi-même, malgré plusieurs tentatives (Google Patents, miroirs USPTO/Justia, web.archive.org, et des reprises secondaires du même article sur loopinsight.com et gearspace.com, tous bloqués de la même façon). Une recherche web a corroboré indépendamment les éléments publics du brevet (titre, inventeur Hildebrand, priorité du 27/10/1997, dépôt du 15/10/1998) mais pas le contenu intégral des deux articles de presse. Je ne peux pas revalider une fiche dont je n'ai pas rouvert moi-même les sources citées, même si un passage indépendant du même jour rapporte l'avoir fait : à lever en relançant la réparation depuis une session dont la politique réseau autorise patents.google.com, priceonomics.com et soundonsound.com, ou en fournissant le texte de ces deux pages."
       }
     ]
   },
