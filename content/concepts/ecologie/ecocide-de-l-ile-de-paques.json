@@ -77,28 +77,43 @@
   "quiz_supplementaire": [
     {
       "question": "Quel rôle les rats du Pacifique auraient-ils joué dans la disparition de la forêt de palmiers ?",
-      "choix": ["Ils ont mangé les graines de palmier, empêchant la régénération de la forêt en une génération", "Ils ont directement rongé les troncs des palmiers adultes jusqu'à leur chute", "Ils ont propagé une maladie fongique qui a tué les palmiers", "Ils ont été introduits volontairement pour défricher la forêt"],
+      "choix": [
+        "Ils ont mangé les graines de palmier, empêchant la régénération de la forêt en une génération",
+        "Ils ont directement rongé les troncs des palmiers adultes jusqu'à leur chute",
+        "Ils ont propagé une maladie fongique qui a tué les palmiers",
+        "Ils ont été introduits volontairement pour défricher la forêt"
+      ],
       "bonne_reponse": 0,
       "explication": "Sur une île sans prédateur, la population de rats croît de façon explosive, et ces rats mangent les graines de palmier : une forêt dont les graines sont consommées ne se reproduit plus, elle disparaît en une génération d'arbres, sans qu'on ait beaucoup coupé."
     },
     {
       "question": "Que montrent les reconstitutions démographiques récentes de Rapa Nui, contrairement au récit standard ?",
-      "choix": ["Une population multipliée par dix juste avant l'arrivée des Européens", "Une disparition complète de la population avant même le contact européen", "Une population qui monte puis se stabilise, sans le pic suivi d'effondrement du récit standard", "Une croissance continue jamais interrompue jusqu'à aujourd'hui"],
+      "choix": [
+        "Une population multipliée par dix juste avant l'arrivée des Européens",
+        "Une disparition complète de la population avant même le contact européen",
+        "Une population qui monte puis se stabilise, sans le pic suivi d'effondrement du récit standard",
+        "Une croissance continue jamais interrompue jusqu'à aujourd'hui"
+      ],
       "bonne_reponse": 2,
       "explication": "Les reconstitutions récentes ne retrouvent pas le pic démographique suivi de famine que suppose le récit standard : elles décrivent plutôt une population qui monte puis se stabilise, adaptée à une île appauvrie en arbres par des techniques agricoles adaptées."
     },
     {
       "question": "Qu'est-ce qui, selon la fiche, explique le succès du récit standard de l'écocide, indépendamment de la solidité de ses preuves ?",
-      "choix": ["Il a été confirmé sans réserve par l'ensemble des archéologues travaillant sur place", "Il repose sur des données démographiques incontestées depuis les années 1950", "Il a été inventé récemment pour discréditer les peuples polynésiens", "Il offre une leçon utile sur l'aveuglement collectif, et une île isolée fait une métaphore parfaite"],
+      "choix": [
+        "Il a été confirmé sans réserve par l'ensemble des archéologues travaillant sur place",
+        "Il repose sur des données démographiques incontestées depuis les années 1950",
+        "Il a été inventé récemment pour discréditer les peuples polynésiens",
+        "Il offre une leçon utile sur l'aveuglement collectif, et une île isolée fait une métaphore parfaite"
+      ],
       "bonne_reponse": 3,
       "explication": "Le succès du récit ne tient pas à la solidité de ses preuves mais à ce qu'il dit de nous : une société qui se détruit par aveuglement est une leçon utile, et une île isolée au milieu du Pacifique en fait une métaphore parfaite."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-30T18:57:28.283Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-25T08:22:51.348Z",
     "historique": [
       {
         "action": "valider",
@@ -107,6 +122,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-30T18:57:28.283Z",
         "note": "Validation en lot de la file de relecture, sur instruction du relecteur."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-25T08:22:51.348Z",
+        "note": "Signalé par le contrôle du 2026-10-25 (9 h) : « sans qu'on ait beaucoup coupé » et « en une génération d'arbres » vont plus loin que les sources (rôle conjoint des rats et des humains, durée de vie des palmiers inconnue). SSRN et ScienceDirect injoignables (403) à ce passage."
       }
     ]
   },
@@ -116,11 +139,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "corrige",
-    "empreinte": "0193b7766e801e40",
+    "fait_le": "2026-10-25",
+    "verdict": "a_revoir",
+    "empreinte": "a1c8456e0fc7a2dd",
     "notes": [
-      "Sources rouvertes en ligne (SSRN, Pacific Science/Hawaii, ScienceDirect, news.arizona.edu) : la thèse Hunt & Lipo (rats, Rattus exulans, rongement des graines de palmier), l'absence de pic démographique suivi de famine dans les reconstitutions récentes (jardins de pierres, capacité ~3000 conforme à 1722), l'effondrement démographique réel postérieur au contact (maladies + rafles esclavagistes péruviennes 1860) et le débat non tranché (Mieth & Bork 2010 cités comme critiques dans l'article JAS 2025 lui-même) sont tous confirmés par les sources. Correction : le champ auteur de la source JAS 2025 indiquait à tort le nom de la revue au lieu des auteurs ; corrigé en 'Hunt, Terry L. & Lipo, Carl P.'."
+      "Sources rouvertes : Pacific Science 2009 (ScholarSpace, texte intégral : noix rongées par des rats, effondrement démographique dû aux maladies et à la traite après le contact, population qui continue de monter pendant la déforestation, paillis de pierres), University of Arizona (population stable d'environ 3 000, jardins de pierres, vent), archaeology.org sur l'article JAS 2025 (une paire de rats atteint plus de 11 millions en moins de 50 ans, graines de palmier détruites, défrichement humain aussi). SSRN (403) et ScienceDirect (403) non rouvrables ce passage ; repère cohérent avec le JAS 2025 et avec le contrôle antérieur qui avait lu SSRN. Carte et quiz conformes. SIGNALEMENT (sens) : « sans qu'on ait beaucoup coupé » (corps) et « en une génération d'arbres » (corps, bonne réponse du quiz supplémentaire n° 1) vont plus loin que les sources : Hunt et Lipo parlent d'un rôle conjoint des rats et des humains (le corps le dit lui-même plus bas), et la durée de vie des palmiers y est jugée inconnue (100 à 740 ans selon Tomlinson)."
     ]
   }
 }

@@ -136,11 +136,11 @@
       "explication": "En 2001, « forest fires » devient « wildfires » dans le slogan de Smokey, une manière de distinguer les incendies accidentels, toujours à éviter, des feux prescrits que les gestionnaires allument eux-mêmes pour limiter l'ampleur des grands feux."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-07T07:23:16.614Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-25T08:22:51.348Z",
     "historique": [
       {
         "action": "retoucher",
@@ -157,15 +157,23 @@
         "par": "routine-reparation",
         "le": "2026-08-07T07:23:16.614Z",
         "note": "Sources rouvertes : NPS 1988 Fires, Headwaters Economics, SmokeyBear.com (smokeys-history), PBS SoCal/Bramwell, plus PBS American Experience et SmokeyBear.com/about-the-smokey-bear-campaign ajoutées en vérification. Corrigé : « environ un hectare » -> « un acre à peine, soit environ 0,4 hectare » (NPS : « the average fire had gone out naturally after burning only one acre »). Vérifié et confirmé exacts mais non couverts par les 4 sources d'origine : la règle des dix heures formalisée en 1935 et abandonnée en 1978 (Headwaters ne donne aucune de ces deux années — 1978 y désigne l'incident de l'Ouzel Fire, sans rapport), confirmées par PBS American Experience, source ajoutée ; le changement de slogan Smokey en 2001 (absent du texte de smokeys-history tel que rouvert), confirmé par la page officielle about-the-smokey-bear-campaign, source ajoutée. Reste du corps, repere, carte (793 880 acres/321 000 ha/36%/10 000 personnes/120 M$/neige du 11 septembre) et quiz vérifiés conformes aux sources."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-25T08:22:51.348Z",
+        "note": "Signalé par le contrôle du 2026-10-25 (9 h) : le lien entre la suppression d'avant 1972 et l'incendie de Yellowstone de 1988 n'est soutenu par aucune source de la fiche (la page NPS cite sécheresse, vents et combustible sans les hiérarchiser) ; baisse des départs de feu humains non sourcée."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-07",
+    "fait_le": "2026-10-25",
     "verdict": "a_revoir",
-    "empreinte": "9abd10a1057b9e14",
+    "empreinte": "877a82b232ededf4",
     "notes": [
-      "Sources rouvertes : NPS 1988 Fires, Headwaters Economics, SmokeyBear.com, PBS SoCal/Bramwell. Signalement : « environ un hectare » (paragraphe Yellowstone 1988) ne correspond pas à la source NPS citée, qui dit 1 acre (≈0,4 ha), pas 1 ha. Reste de la fiche, repere, carte et quiz conformes aux sources."
+      "Sources rouvertes : NPS 1988 Fires (793 880 acres, 36 %, 10 000 personnes, 120 M$, neige du 11 septembre, un acre en moyenne 1972-1987), Headwaters Economics (1910 : plus de 3 millions d'acres en 36 h, paradoxe des feux), PBS SoCal Bramwell, SmokeyBear.com (2001 : « wildfires », distinction avec les brûlages prescrits). Chiffres de la carte et du repère conformes. SIGNALEMENT (sens) : le corps et la carte disent que le combustible accumulé par les décennies de suppression totale d'avant 1972 a nourri l'incendie de Yellowstone de 1988. La page NPS ne parle d'aucune suppression avant 1972 ni ne relie la taille des feux à la suppression : elle cite une sécheresse record, des vents violents et de « heavy, dry fuel accumulations » sans les hiérarchiser. Headwaters et Bramwell soutiennent le lien général, pas Yellowstone 1988. À sourcer précisément ou à reformuler. Aussi : « les départs de feu d'origine humaine reculent nettement dans les décennies qui suivent » (premier paragraphe) n'est dans aucune source de la fiche."
     ]
   },
   "meta": {
