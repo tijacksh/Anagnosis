@@ -80,7 +80,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les auteurs présentent la biomasse totale comme une meilleure mesure de l'état global des insectes qu'une collection de tendances espèce par espèce. Les spécimens restent conservés pour une détermination ultérieure, et plusieurs membres de la société sont des spécialistes reconnus de leurs groupes : ce n'est pas un pis-aller.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -117,11 +117,11 @@
       "explication": "Hans de Kroon manquait de données pour étayer son hypothèse sur le déclin des insectes, jusqu'à être mis en contact avec les bénévoles de Krefeld, qui en tenaient une depuis les années 1980 sans attendre qu'elle serve à quelque chose."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-25T19:13:42.384Z",
+    "decide_le": "2026-10-26T07:23:45.354Z",
     "historique": [
       {
         "action": "valider",
@@ -154,6 +154,14 @@
         "par": "routine-reparation",
         "le": "2026-10-25T19:13:42.384Z",
         "note": "PLOS ONE 2017 (texte intégral), Phys.org AFP 2019 et Wikipedia Entomologischer Verein Krefeld rouverts. Corrigé : (1) « aucun financement... résultats à trois ans » retiré (corps, carte, quiz supplémentaire n°3) — non soutenu, PLOS ONE liste au contraire de nombreux financements publics/associatifs ; remplacé par le fait sourcé (Phys.org) que les données dépassent celles de tout projet universitaire financé, et que ce suivi passait pour un « passe-temps du dimanche » ignoré de la science ; (2) « ils étaient les seuls à disposer d'une réponse » retiré, remplacé par le fait sourcé que Hans de Kroon manquait de données avant d'être mis en contact avec Krefeld ; (3) la justification de la biomasse par la comparabilité malgré les nomenclatures (corps, quiz, explication) retirée, non sourcée — remplacée par la justification réelle de l'article (meilleure mesure de l'état du groupe, spécimens conservés pour détermination ultérieure) ; (4) quiz « les membres » → « plusieurs membres » spécialistes reconnus (source : « plusieurs »). Reste du corps, repère, carte, quiz revérifiés contre les sources : conformes."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-26T07:23:45.354Z",
+        "note": "Deux réparations déjà tentées (25/10 07h14 et 19h13) ; la fiche revient une troisième fois après la même catégorie de signalement de sens (attribution erronée de l'intermédiaire dans le contact avec Krefeld). Conformément à la règle du dépôt, rejetée plutôt que réparée une troisième fois — pas de nouvelle vérification de sources effectuée."
       }
     ]
   },

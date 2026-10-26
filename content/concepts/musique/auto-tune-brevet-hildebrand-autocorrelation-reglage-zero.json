@@ -84,7 +84,7 @@
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-25T07:17:52.596Z",
+    "decide_le": "2026-10-26T07:28:29.649Z",
     "historique": [
       {
         "action": "retoucher",
@@ -101,6 +101,14 @@
         "par": "routine-reparation",
         "le": "2026-10-25T07:17:52.596Z",
         "note": "Repris le doute réseau du 2026-10-24, que le contrôle du 2026-10-25 dit avoir levé en rouvrant patents.google.com, priceonomics.com et soundonsound.com en direct (citations conformes rapportées : « just for kicks », « Cher Effect », note STOP PRESS de Matt Bell formulée avec « apparently »). Depuis cette session de réparation, les trois mêmes hôtes sont bloqués par la politique réseau (403 côté passerelle, confirmé via le journal du proxy : connect_rejected sur patents.google.com, policy denial) -- je n'ai donc pas pu les rouvrir moi-même, malgré plusieurs tentatives (Google Patents, miroirs USPTO/Justia, web.archive.org, et des reprises secondaires du même article sur loopinsight.com et gearspace.com, tous bloqués de la même façon). Une recherche web a corroboré indépendamment les éléments publics du brevet (titre, inventeur Hildebrand, priorité du 27/10/1997, dépôt du 15/10/1998) mais pas le contenu intégral des deux articles de presse. Je ne peux pas revalider une fiche dont je n'ai pas rouvert moi-même les sources citées, même si un passage indépendant du même jour rapporte l'avoir fait : à lever en relançant la réparation depuis une session dont la politique réseau autorise patents.google.com, priceonomics.com et soundonsound.com, ou en fournissant le texte de ces deux pages."
+      },
+      {
+        "action": "retoucher",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "routine-reparation",
+        "le": "2026-10-26T07:28:29.649Z",
+        "note": "Doute réseau repris du 25/10 07h17 : patents.google.com, priceonomics.com et soundonsound.com restent injoignables depuis cette session (ENOTFOUND), de même que les mirroirs tentés (patents.justia.com : 403 ; web.archive.org : inaccessible depuis cet outil). Statut /__agentproxy/status ne signale pourtant aucune politique sélective (selective: false) -- la cause semble être une résolution DNS instable propre à ces hôtes depuis cette session, déjà documentée lors du passage de réparation précédent, et déjà résolue depuis une autre session de contrôle le 25/10 (verdict ok, sources rouvertes avec succès ce jour-là). Je n'ai donc pas pu rouvrir moi-même les sources citées pour cette réparation, bien qu'un passage indépendant du 25/10 l'ait fait et n'ait rien trouvé à corriger. À lever en relançant la réparation depuis une session dont la résolution DNS atteint patents.google.com, priceonomics.com et soundonsound.com, ou en fournissant le texte de ces pages."
       }
     ]
   },
