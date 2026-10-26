@@ -16,6 +16,7 @@ on:
     branches: [main]
     paths:
       - 'content/**'
+      - 'audio/index.json'   # la nuit de l'audio : ses fiches sonorisées en ligne dans la foulée
       - 'site/**'
       - 'src/**'
       - 'worker/site.js'
