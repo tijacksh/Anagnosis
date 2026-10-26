@@ -13,7 +13,7 @@ Zonage, de haut en bas. Marges latérales 72 px.
 | Punch | 35 – 55 % | `carte.punch`, display lourd, 100 caractères max |
 | Idée | 55 – 78 % | `carte.idee`, serif, 90 à 300 caractères |
 | Crédit | 78 – 88 % | `carte.source_courte`, monospace sur aplat d'encre |
-| Marque | 89 – 93 % | Nom de l'app + série ou pseudo, filet noir 3 px au-dessus |
+| Marque | 89 – 93 % | Nom de l'app + série, filet noir 3 px au-dessus |
 
 **Réserves :** au moins 14 % de marge haute et 12 % de marge basse sans
 information critique — les interfaces de story y superposent leurs éléments.
@@ -27,8 +27,8 @@ Variante carrée 1080 × 1080 : même hiérarchie, encre repoussée en angle
 haut-droit pour libérer la colonne de texte.
 
 **Fabrication :** l'image est composée **sur l'appareil** (décision DA §13), ce
-qui permet d'y porter la série ou le pseudo du lecteur. Deux réglages
-seulement — format 9:16 / 1:1, et série / pseudo. Le crédit source est affiché
+qui permet d'y porter la série du lecteur (le pseudo a été retiré le 2026-10-26 : jamais
+utilisé). Deux réglages seulement — format 9:16 / 1:1, et série. Le crédit source est affiché
 comme non négociable, pas comme une option.
 
 ## 2. Navigation
