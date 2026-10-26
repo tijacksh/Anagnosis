@@ -21,7 +21,8 @@ import { createSign, createPrivateKey, sign as signerBrut } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
-import { lireIndex } from './audio.js';
+import { empreinteAudio, lireIndex } from './audio.js';
+import { empreinteDecoupage, phrasesParBloc, reperesParBloc } from './surlignage.js';
 
 /** Où la clé privée est cherchée, dans cet ordre. */
 export const CLE_ENV = 'ANAGNOSIS_CLE_PRIVEE';
@@ -68,7 +69,14 @@ function audioDeEntree(fiche, entree) {
     const r = reperes(fiche, v.chapitres);
     if (r) voix.reperes = r;
     // Le genre seulement : l'app n'affiche jamais le nom des voix, le manifeste ne le porte pas.
-    return { helene: voix, jerome: voix, lecture: { ...voix, genre: v.genre } };
+    const lecture = { ...voix, genre: v.genre };
+    // Les phrases, sous `lecture` seulement (les clés historiques ne les liraient pas), et
+    // seulement si le texte n'a pas bougé depuis le son : sinon les débuts ne décrivent plus
+    // les phrases affichées.
+    const p = entree.empreinte_texte === empreinteAudio(fiche) && v.decoupage === empreinteDecoupage(fiche)
+      ? phrasesParBloc(fiche, v.debuts) : undefined;
+    if (p && r && p.length === r.length) lecture.phrases = p;
+    return { helene: voix, jerome: voix, lecture };
   }
 
   // Fiche produite avant la rotation, pas encore refaite : ses deux voix d'origine.
@@ -103,24 +111,7 @@ function audioDeEntree(fiche, entree) {
  * bloc du corps, d'où le décalage d'un cran au départ.
  */
 function reperes(fiche, chapitres) {
-  if (!Array.isArray(chapitres) || !chapitres.length) return undefined;
-  const lignes = (fiche.contenu_vulgarise ?? '').split('\n');
-
-  // Les débuts de bloc, repérés dans la suite des lignes : un bloc commence à la première
-  // ligne non vide qui suit une ligne vide, ou au tout début.
-  const debutsDeBloc = [];
-  let dansUnBloc = false;
-  let rangLigne = 0;
-  for (const ligne of lignes) {
-    if (!ligne.trim()) { dansUnBloc = false; continue; }
-    if (!dansUnBloc) debutsDeBloc.push(rangLigne);
-    dansUnBloc = true;
-    rangLigne += 1;
-  }
-
-  // `chapitres[0]` est le titre : les lignes du corps commencent donc au rang 1.
-  const sortie = debutsDeBloc.map((rang) => chapitres[rang + 1]?.debut);
-  return sortie.every((t) => typeof t === 'number') ? sortie : undefined;
+  return reperesParBloc(fiche, chapitres);
 }
 
 /**

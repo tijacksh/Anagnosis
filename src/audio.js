@@ -52,6 +52,7 @@ import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
 import { SANS_ECOUTE } from './schema.js';
 import { appliquer, ecrireAnnees, lireRegles, phrases, reglesTouchant } from './prononciation.js';
+import { empreinteDecoupage } from './surlignage.js';
 import * as moteurLocal from './voicestudio.js';
 
 const executer = promisify(execFile);
@@ -430,6 +431,7 @@ export async function sonoriser(fiche, { ctx, force = false, journal = () => {} 
     //    reste : on les allonge d'autant pour qu'ils durent ce qu'on entend dans l'app.
     const liste = [];
     const debutsDeLigne = new Map();
+    const debutsDeMorceau = [];
     let t = 0;
     for (const [k, n] of nets.entries()) {
       if (k > 0) {
@@ -440,6 +442,7 @@ export async function sonoriser(fiche, { ctx, force = false, journal = () => {} 
         t += pause;
       }
       if (!debutsDeLigne.has(n.ligne)) debutsDeLigne.set(n.ligne, t);
+      debutsDeMorceau.push(t);
       liste.push(n.fichier);
       t += n.duree;
     }
@@ -493,6 +496,11 @@ export async function sonoriser(fiche, { ctx, force = false, journal = () => {} 
           // Un entier : les deux apps décodent `secondes` en Int et rejettent la fiche sinon.
           secondes: Math.round(await duree(derive)),
           chapitres,
+          // Le début de chaque morceau (une phrase de paragraphe, un titre, un intertitre),
+          // dans l'ordre de `morceaux()`, à l'allure de la voix : le surlignage par phrase
+          // (`src/surlignage.js`) le projette sur le texte affiché.
+          debuts: debutsDeMorceau.map((d) => Math.round((d / voix.allure) * 100) / 100),
+          decoupage: empreinteDecoupage(fiche),
         },
       },
     };

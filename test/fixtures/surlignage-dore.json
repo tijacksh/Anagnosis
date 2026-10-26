@@ -1,0 +1,180 @@
+{
+  "_lisez_moi": "Jeu doré partagé entre le pipeline (test/surlignage.test.js) et les apps (MarkdownLeger, Transcription). « blocs » : ce que l'app affiche pour une source markdown. « phrases » : quelle phrase est active à une position d'écoute, et quelle plage UTF-16 du texte affiché elle couvre. Toute évolution de MarkdownLeger se reporte ici, puis dans src/surlignage.js.",
+  "blocs": [
+    {
+      "source": "Un paragraphe simple.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Un paragraphe simple."
+        }
+      ]
+    },
+    {
+      "source": "## Un intertitre\n\nPuis du *texte* en **gras**.",
+      "blocs": [
+        {
+          "intertitre": true,
+          "texte": "Un intertitre"
+        },
+        {
+          "intertitre": false,
+          "texte": "Puis du texte en gras."
+        }
+      ]
+    },
+    {
+      "source": "Deux lignes\nréunies en un bloc.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Deux lignes réunies en un bloc."
+        }
+      ]
+    },
+    {
+      "source": "Le `login` reste, le_tiret aussi.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Le `login` reste, le_tiret aussi."
+        }
+      ]
+    },
+    {
+      "source": "Un astérisque * orphelin.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Un astérisque * orphelin."
+        }
+      ]
+    },
+    {
+      "source": "**Du gras avec *un italique* dedans.**",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Du gras avec *un italique* dedans."
+        }
+      ]
+    },
+    {
+      "source": "  Espaces autour.  \n\n\n**\n\nFin.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Espaces autour."
+        },
+        {
+          "intertitre": false,
+          "texte": "**"
+        },
+        {
+          "intertitre": false,
+          "texte": "Fin."
+        }
+      ]
+    },
+    {
+      "source": "Accents : l’été « déjà » — 1905 ✓ 𝛑.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Accents : l’été « déjà » — 1905 ✓ 𝛑."
+        }
+      ]
+    },
+    {
+      "source": "*Un titre* et du **gras**.",
+      "blocs": [
+        {
+          "intertitre": false,
+          "texte": "Un titre et du gras."
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "texte": "Première phrase. Deuxième, plus longue. Troisième.",
+      "debuts": [
+        10.0,
+        12.5,
+        15.25
+      ],
+      "decalages": [
+        0,
+        17,
+        40
+      ],
+      "positions": [
+        {
+          "t": 9.99,
+          "phrase": null
+        },
+        {
+          "t": 10.0,
+          "phrase": 0,
+          "plage": [
+            0,
+            16
+          ]
+        },
+        {
+          "t": 12.49,
+          "phrase": 0,
+          "plage": [
+            0,
+            16
+          ]
+        },
+        {
+          "t": 12.5,
+          "phrase": 1,
+          "plage": [
+            17,
+            39
+          ]
+        },
+        {
+          "t": 99.0,
+          "phrase": 2,
+          "plage": [
+            40,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "texte": "Le π vaut 𝛑. Suite.",
+      "debuts": [
+        0.0,
+        1.0
+      ],
+      "decalages": [
+        0,
+        14
+      ],
+      "positions": [
+        {
+          "t": 0.5,
+          "phrase": 0,
+          "plage": [
+            0,
+            13
+          ]
+        },
+        {
+          "t": 1.5,
+          "phrase": 1,
+          "plage": [
+            14,
+            20
+          ]
+        }
+      ]
+    }
+  ]
+}

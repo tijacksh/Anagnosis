@@ -257,3 +257,28 @@ export function phrases(paragraphe) {
   if (courante) sortie.push(courante);
   return sortie;
 }
+
+/**
+ * Où commence chaque phrase de `phrases(paragraphe)`, en unités UTF-16 dans `paragraphe`.
+ *
+ * Même coupure, même règle d'abréviation : les positions viennent du découpage lui-même,
+ * jamais d'une recherche de la phrase dans le texte — `phrases()` recolle une abréviation
+ * avec une espace simple là où la coupure a pu avaler une insécable ou plusieurs espaces.
+ */
+export function bornesPhrases(paragraphe) {
+  const bornes = [];
+  let ouverte = false;
+  let debut = 0;
+  const coupure = /(?<=[.!?…»])\s+(?=[«"(]?[A-ZÀ-ÖØ-Þ0-9])/gu;
+  const segments = [];
+  for (const m of paragraphe.matchAll(coupure)) {
+    segments.push([debut, m.index]);
+    debut = m.index + m[0].length;
+  }
+  segments.push([debut, paragraphe.length]);
+  for (const [d, f] of segments) {
+    if (!ouverte) { bornes.push(d); ouverte = true; }
+    if (!ABREVIATION.test(paragraphe.slice(bornes.at(-1), f))) ouverte = false;
+  }
+  return bornes;
+}
