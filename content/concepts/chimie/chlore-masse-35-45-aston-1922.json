@@ -68,7 +68,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les raies sont à 35 et 37, et le mélange naturel, d'environ trois atomes de masse 35 pour un de masse 37, redonne 35,46 en moyenne. L'appareil séparait les masses à un millième près, l'électron arraché ne pèse que 0,0005 sur cette échelle, et les raies 36 et 38 sont celles de l'acide chlorhydrique, pas d'une impureté qui fausserait la balance.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,12 +94,21 @@
       "explication": "La CIAAW note depuis 2009 un intervalle, parce que la composition isotopique du chlore varie d'un échantillon à l'autre (diffusion, minéraux halogénés). Les 35,453 de 1961 ont été remplacés, et le chlore 36 n'existe qu'à l'état de traces radioactives."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-26T10:20:29.055Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-26T10:20:29.055Z",
+        "note": "Sources rouvertes : conférence Nobel d'Aston (PDF lu intégralement via nobelprize.org/uploads) — confirmé mot pour mot : postulat de Dalton, aucun doute théorique avant la fin du XIXe, néon 1912 à 20 et 22 pour 20,20 (Thomson), milliers de distillations sans résultat, diffusion argile 0,7%, chlore : 'four strong first-order lines at 35, 36, 37, 38... no sign whatever of any line at 35.46', 36/38 = HCl, spectre négatif 35/37 seuls, phosgène 63/65 (CO35Cl, CO37Cl), 'whole-number rule is not to be supposed as mathematically exact', xénon neuf isotopes (deux fois confirmé), table de 1922 donnant Cl = 35,46. CIAAW (ciaaw.org bloqué par la politique réseau de cet environnement, confirmé indépendamment via Wikipédia Isotopes of chlorine, qui cite les mêmes données IUPAC/CIAAW) : masses 34,968852694 et 36,965902573 (conformes à 34,9688527/36,9659026), intervalle [35,446;35,457] depuis 2009 conforme, abondances 75,8%/24,2% compatibles avec la fourchette CIAAW citée (75,5-76,1%/23,9-24,5%). Carte et quiz conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-20",
