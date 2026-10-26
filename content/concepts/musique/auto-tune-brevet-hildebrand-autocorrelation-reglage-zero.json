@@ -77,14 +77,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le brevet lisse le rapport de rééchantillonnage dans le temps pour que la hauteur ne saute pas d'un coup. Il ne sert ni à accélérer la détection (rôle des cumuls courants), ni à filtrer le bruit, et il vise au contraire à rapprocher la voix de la note visée. Le réglage zéro supprime ce lissage, selon le récit de Hildebrand rapporté par Priceonomics.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-26T07:28:29.649Z",
+    "decide_le": "2026-10-26T19:15:59.739Z",
     "historique": [
       {
         "action": "retoucher",
@@ -109,6 +109,14 @@
         "par": "routine-reparation",
         "le": "2026-10-26T07:28:29.649Z",
         "note": "Doute réseau repris du 25/10 07h17 : patents.google.com, priceonomics.com et soundonsound.com restent injoignables depuis cette session (ENOTFOUND), de même que les mirroirs tentés (patents.justia.com : 403 ; web.archive.org : inaccessible depuis cet outil). Statut /__agentproxy/status ne signale pourtant aucune politique sélective (selective: false) -- la cause semble être une résolution DNS instable propre à ces hôtes depuis cette session, déjà documentée lors du passage de réparation précédent, et déjà résolue depuis une autre session de contrôle le 25/10 (verdict ok, sources rouvertes avec succès ce jour-là). Je n'ai donc pas pu rouvrir moi-même les sources citées pour cette réparation, bien qu'un passage indépendant du 25/10 l'ait fait et n'ait rien trouvé à corriger. À lever en relançant la réparation depuis une session dont la résolution DNS atteint patents.google.com, priceonomics.com et soundonsound.com, ou en fournissant le texte de ces pages."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-26T19:15:59.739Z",
+        "note": "Revient en retouche pour la troisième fois (deux passages de routine-reparation déjà tentés, 25/10 et 26/10, tous deux bloqués par la même restriction réseau pour rouvrir patents.google.com, priceonomics.com et soundonsound.com) : conformément à la règle des deux réparations, rejetée sans nouvelle tentative de vérification plutôt que réparée une troisième fois."
       }
     ]
   },
