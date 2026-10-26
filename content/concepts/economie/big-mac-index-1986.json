@@ -108,11 +108,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-09-25",
+    "fait_le": "2026-10-26",
     "verdict": "ok",
-    "empreinte": "0c51bb2a8168eea0",
+    "empreinte": "48bb7c59e05ef3ed",
     "notes": [
-      "Recontrôle après passage de routine-relecture (texte modifié : repere et sources[] recâblés sur le jeu de données brut GitHub). Sources rouvertes : Wikipedia « Big Mac Index » confirme la création par Pam Woodall en septembre 1986 dans The Economist, la republication annuelle, le principe de calcul et les limites reconnues. Le CSV brut de The Economist (github.com/TheEconomist/big-mac-data) a été récupéré directement (curl, la page GitHub web tronquait l'affichage avant 2023) : la ligne 2023-07-01,CHE donne local_price 6.7, et la ligne 2023-07-01,USA donne local_price 5.58, USD raw index 0.38515 pour la Suisse — les trois chiffres du repere (6,70 CHF, 5,58 USD, ~38%) sont confirmés exactement à la source. Corps, carte et quiz conformes. Rien à corriger."
+      "Wikipédia Big Mac Index rouverte en direct : confirme la création en septembre 1986 par The Economist, la republication annuelle, le principe de calcul, les limites reconnues (loyer, main-d'œuvre, taxes, couverture géographique de McDonald's) et les indices dérivés (Tall Latte de Starbucks, Billy index d'IKEA). Jeu de données brut de The Economist récupéré en clair (curl sur raw.githubusercontent.com/TheEconomist/big-mac-data) : la ligne 2023-07-01,CHE donne local_price 6.7 CHF et USD raw index 0.38515, la ligne 2023-07-01,USA donne local_price 5.58 USD — les trois chiffres du repere (6,70 CHF, 5,58 USD, ~38%) sont exacts à la source. Quiz vérifié conforme. Rien à corriger."
     ]
   },
   "controle_juridique": null,
