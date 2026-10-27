@@ -99,14 +99,14 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les os de grand cétacé sont riches en graisses : des bactéries les décomposent sans oxygène et libèrent du sulfure d'hydrogène, base d'une chaîne alimentaire chimiosynthétique plutôt que photosynthétique (MBARI). L'énergie vient de la chimie du sulfure, pas d'une source de chaleur, ni d'algues, ni d'un courant.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-26T19:16:23.803Z",
+    "decide_le": "2026-10-27T07:15:19.019Z",
     "historique": [
       {
         "action": "retoucher",
@@ -131,6 +131,14 @@
         "par": "routine-reparation",
         "le": "2026-10-26T19:16:23.803Z",
         "note": "Wikipédia (Whale fall) rouverte en direct : confirme 40-60 kg/jour pour les charognards, phase sulfophile longue de 50 à 100 ans (compatible avec « plus de 50 ans »), et surtout que la découverte de 1987 par Alvin dans le bassin de Catalina (1 240 m) concerne des « remains », non un squelette — la correction déjà faite au corps tient. Recherche web indépendante : un article tiers (SpaceDaily) corrobore précisément « up to 190 species crowding a single skeleton » et le rythme de 40-60 kg/jour, convergeant avec ce que deux passages précédents (contrôle et réparation du 25/10) rapportent avoir lu directement sur mbari.org. Reste un doute que je ne peux pas lever moi-même : mbari.org/?p=86401, seule source des chiffres 45 000 animaux/m2, ~200 espèces sulfophiles et 10 à 20% communes avec sources/suintements, reste bloqué par la politique réseau de cette session (ENOTFOUND, connect_rejected confirmé par diagnostic direct) — même blocage que lors du passage de réparation du 25/10. Je ne revalide pas une fiche dont je n'ai pas rouvert moi-même la source qui porte l'essentiel de ses chiffres, même si deux passages indépendants rapportent l'avoir fait et qu'une source tierce corrobore une partie des chiffres. À lever en rouvrant mbari.org depuis une session dont la politique réseau l'autorise, ou en fournissant le texte de cette page."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-10-27T07:15:19.019Z",
+        "note": "Troisième passage : la fiche est marquée « À REJETER, ne pas réparer une fois de plus » après deux réparations déjà tentées (25/10 et 26/10). Les deux étaient bloquées par le même obstacle structurel : mbari.org, seule source des chiffres 45 000 animaux/m2, ~200 espèces sulfophiles et 10 à 20% communes avec sources/suintements, reste inaccessible (ENOTFOUND) depuis cet environnement. Retesté ce jour : toujours ENOTFOUND, et un domaine généraliste indépendant (bbc.com) est lui aussi refusé par la passerelle -- seul *.wikipedia.org reste joignable dans cette session, confirmant qu'il s'agit d'une restriction structurelle et non d'un incident passager propre à mbari.org. Conformément à la règle, je ne tente pas une troisième vérification et je rejette. Ce rejet porte sur l'impossibilité de rouvrir moi-même la source qui porte l'essentiel des chiffres de la fiche -- pas sur une preuve que ces chiffres seraient faux : deux passages précédents rapportent les avoir confirmés sur mbari.org, et une source tierce (SpaceDaily) corrobore indépendamment les 190 espèces et les 40-60 kg/jour."
       }
     ]
   },

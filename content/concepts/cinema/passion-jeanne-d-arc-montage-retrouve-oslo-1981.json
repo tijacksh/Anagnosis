@@ -84,7 +84,7 @@
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-26T19:16:12.858Z",
+    "decide_le": "2026-10-27T07:15:19.455Z",
     "historique": [
       {
         "action": "retoucher",
@@ -101,6 +101,14 @@
         "par": "routine-reparation",
         "le": "2026-10-26T19:16:12.858Z",
         "note": "Wikipédia (The Passion of Joan of Arc) rouverte en direct et revérifiée point par point : incendie du négatif aux studios UFA de Berlin le 6 décembre 1928 (confirmé), aucune mention d'un second incendie en 1929 ni d'un second négatif détruit, découverte 1981 par un concierge dans un placard de l'hôpital de Dikemark à Asker près d'Oslo, emballage de 1928 expédié de Copenhague et adressé à Harald Arnesen, trois ans à l'Institut norvégien avant examen, identification comme premier montage antérieur à la censure, coupes imposées avant la première française par l'archevêque de Paris et la censure, version Lo Duca 1952 (négatif du second montage trouvé chez Gaumont, partition baroque, désapprouvée par Dreyer) — tout concorde avec le corps, la carte et le quiz. Vérifié aussi le délai « quelques semaines après la première » : exact par rapport à la première parisienne du 25 octobre 1928 (6 semaines avant l'incendie du 6 décembre), le texte évoquant bien cette première dans le même paragraphe. Reste un doute que je ne peux pas lever : stumfilm.dk (Institut danois du film), seule source de l'affirmation « Paris » pour le lieu de l'incendie, est bloqué par la politique réseau de cette session (ENOTFOUND confirmé par diagnostic direct, connect_rejected côté passerelle — restriction structurelle, pas une panne passagère), de même que web.archive.org, offscreen.com, lostinthemovies.com et r.jina.ai essayés en repli. Aucune corroboration indépendante trouvée pour la version « Paris » de stumfilm.dk. À lever en rouvrant stumfilm.dk depuis une session dont la politique réseau l'autorise, ou en fournissant le texte des deux pages citées (« Cinema lost and sometimes found » et « Most wanted »)."
+      },
+      {
+        "action": "retoucher",
+        "de": "en_retouche",
+        "vers": "en_retouche",
+        "par": "routine-reparation",
+        "le": "2026-10-27T07:15:19.455Z",
+        "note": "Deuxième passage de réparation. stumfilm.dk et son nouveau domaine dfi.dk restent bloqués (ENOTFOUND) comme lors du passage du 26/10 ; retestés ce jour sous les deux noms, sans succès. Nouveau test de contrôle : un domaine généraliste indépendant (bbc.com) est lui aussi refusé par la passerelle -- seul *.wikipedia.org reste joignable depuis cette session, ce qui confirme une restriction structurelle plutôt qu'une panne propre à stumfilm.dk. fr.wikipedia.org (rouverte en direct, nouvelle source pour ce passage) dit que les prises de rechange du second montage de Dreyer ont elles aussi été perdues dans 'un autre incendie', sans date ni lieu -- un fait absent d'en.wikipedia.org et de la fiche actuelle. Des recherches web indépendantes (résumés de moteur de recherche, pages non ouvertes moi-même) convergent vers un second incendie en 1929, possiblement à Boulogne-Billancourt (donc près de Paris), qui aurait détruit ce second négatif avant que Lo Duca n'en retrouve un autre à Gaumont en 1952. Cela précise le doute à lever : le « Paris » attribué à stumfilm.dk pourrait désigner ce second incendie (1929) et non le premier (1928, Berlin selon Wikipédia) que la fiche lui oppose actuellement comme s'il s'agissait du même sinistre vu différemment. Je ne peux ni confirmer ni infirmer cette hypothèse sans ouvrir stumfilm.dk/dfi.dk moi-même, donc je ne modifie pas le corps sur la base de résumés indirects. Reste et se précise : à lever en fournissant le texte des deux pages stumfilm.dk ('Cinema lost and sometimes found' et 'Most wanted'), ou en confirmant/infirmant l'existence et la date d'un second incendie distinct de celui de Berlin."
       }
     ]
   },
