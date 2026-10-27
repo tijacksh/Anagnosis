@@ -29,9 +29,10 @@ def ecrire(etat):
     d[CLE] = json.dumps(etat, ensure_ascii=False).encode()
     subprocess.run(['xcrun','simctl','shutdown',SIM],capture_output=True)
     f.write_bytes(plistlib.dumps(d, fmt=plistlib.FMT_BINARY))
-    subprocess.run(['xcrun','simctl','boot',SIM],check=True)
-    subprocess.run(['xcrun','simctl','bootstatus',SIM],capture_output=True)
+    # Laissé éteint : le tournage le rallume, et allumé pour rien il garde mémoire et processeur.
 
+subprocess.run(['xcrun','simctl','boot',SIM],capture_output=True)   # le conteneur ne se lit qu'allumé
+subprocess.run(['xcrun','simctl','bootstatus',SIM],capture_output=True)
 e = lire()
 if sys.argv[1] == 'preparer':
     e.update(premium=True, onboarde=True, materiau='riso',

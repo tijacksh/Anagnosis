@@ -130,20 +130,24 @@ def tourner(ids):
     sim = simulateur()
     env = {**os.environ, 'TEST_RUNNER_TOURNAGE_IDS': ','.join(ids)}
     (APP / 'build').mkdir(parents=True, exist_ok=True)   # absent après un nettoyage de disque
-    with open(APP / 'build/tournage.log', 'w') as log:
-        subprocess.run(['xcodebuild', '-project', 'Anagnosis.xcodeproj', '-scheme', 'Anagnosis',
-                        '-destination', f'id={sim}', '-derivedDataPath', 'build', 'test',
-                        '-only-testing:AnagnosisTests/TournageTests'],
-                       cwd=APP, env=env, stdout=log, stderr=subprocess.STDOUT, check=True)
-    subprocess.run(['xcrun', 'simctl', 'boot', sim], capture_output=True)
-    conteneur = subprocess.run(['xcrun', 'simctl', 'get_app_container', sim, 'com.tijack.anagnosis', 'data'],
-                               capture_output=True, text=True, check=True).stdout.strip()
-    # Recopiées aussitôt : le conteneur du simulateur disparaît à la moindre réinstallation.
-    cartes = MEDIAS / 'cartes'
-    cartes.mkdir(parents=True, exist_ok=True)
-    for f in (Path(conteneur) / 'Documents/tournage').glob('*.mp4'):
-        shutil.copy2(f, cartes / f.name)
-    return cartes
+    try:
+        with open(APP / 'build/tournage.log', 'w') as log:
+            subprocess.run(['xcodebuild', '-project', 'Anagnosis.xcodeproj', '-scheme', 'Anagnosis',
+                            '-destination', f'id={sim}', '-derivedDataPath', 'build', 'test',
+                            '-only-testing:AnagnosisTests/TournageTests'],
+                           cwd=APP, env=env, stdout=log, stderr=subprocess.STDOUT, check=True)
+        subprocess.run(['xcrun', 'simctl', 'boot', sim], capture_output=True)
+        conteneur = subprocess.run(['xcrun', 'simctl', 'get_app_container', sim, 'com.tijack.anagnosis', 'data'],
+                                   capture_output=True, text=True, check=True).stdout.strip()
+        # Recopiées aussitôt : le conteneur du simulateur disparaît à la moindre réinstallation.
+        cartes = MEDIAS / 'cartes'
+        cartes.mkdir(parents=True, exist_ok=True)
+        for f in (Path(conteneur) / 'Documents/tournage').glob('*.mp4'):
+            shutil.copy2(f, cartes / f.name)
+        return cartes
+    finally:
+        # Éteint après chaque tournage, réussi ou non : allumé, il garde mémoire et processeur.
+        subprocess.run(['xcrun', 'simctl', 'shutdown', sim], capture_output=True)
 
 
 def controler(reel):
