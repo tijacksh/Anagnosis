@@ -7,7 +7,6 @@
   <key>Label</key><string>fr.anagnosis.reseaux.verifier</string>
   <key>ProgramArguments</key>
   <array><string>/opt/homebrew/bin/python3</string><string>__DEPOT__/reseaux/verifier.py</string></array>
-  <key>WorkingDirectory</key><string>__DEPOT__</string>
   <key>EnvironmentVariables</key>
   <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string></dict>
   <!-- RunAtLoad : un Mac éteint ou redémarré à 7 h 30 ne rejoue pas les tâches horaires ; au démarrage le
@@ -18,7 +17,7 @@
     <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
     <dict><key>Weekday</key><integer>0</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>30</integer></dict>
   </array>
-  <key>StandardOutPath</key><string>__MEDIAS__/logs/verifier.log</string>
-  <key>StandardErrorPath</key><string>__MEDIAS__/logs/verifier.log</string>
+  <key>StandardOutPath</key><string>__LOGS__/verifier.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/verifier.log</string>
 </dict>
 </plist>

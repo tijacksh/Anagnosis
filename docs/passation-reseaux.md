@@ -226,7 +226,7 @@ archive) et l'avance de programme ; il **relance `deposer.py`** si le post du jo
 une issue « Réseaux : vérification » en cas de problème. `verifier.py --essai` affiche sans rien faire.
 
 - **Suspendre** : créer `reseaux/PAUSE`, ou `launchctl bootout gui/$(id -u)/fr.anagnosis.reseaux.deposer`.
-- **Journaux** : `~/Anagnosis-medias/logs/`. Tout échec ouvre une issue GitHub qui mentionne les
+- **Journaux** : `~/Library/Logs/anagnosis-reseaux/`. Tout échec ouvre une issue GitHub qui mentionne les
   deux propriétaires.
 - **Refaire une semaine** : `python3 reseaux/preparer.py --semaine 2026-41` (ou `--depuis AAAA-MM-JJ`
   pour une semaine déjà entamée). **Déposer un jour à la main** : `python3 reseaux/deposer.py --jour AAAA-MM-JJ`.

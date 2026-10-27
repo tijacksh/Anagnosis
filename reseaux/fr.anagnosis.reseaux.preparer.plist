@@ -6,11 +6,10 @@
   <key>Label</key><string>fr.anagnosis.reseaux.preparer</string>
   <key>ProgramArguments</key>
   <array><string>/opt/homebrew/bin/python3</string><string>__DEPOT__/reseaux/preparer.py</string></array>
-  <key>WorkingDirectory</key><string>__DEPOT__</string>
   <key>EnvironmentVariables</key>
   <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string></dict>
   <key>StartCalendarInterval</key><dict><key>Weekday</key><integer>0</integer><key>Hour</key><integer>20</integer><key>Minute</key><integer>0</integer></dict>
-  <key>StandardOutPath</key><string>__MEDIAS__/logs/preparer.log</string>
-  <key>StandardErrorPath</key><string>__MEDIAS__/logs/preparer.log</string>
+  <key>StandardOutPath</key><string>__LOGS__/preparer.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/preparer.log</string>
 </dict>
 </plist>

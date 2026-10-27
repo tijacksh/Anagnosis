@@ -121,7 +121,7 @@ on publie à la main depuis là.
 
 - **Le raccourci iPhone « Légende TikTok »** lit `iCloud Drive/Shortcuts/anagnosis-legende.txt`, que `deposer.py` réécrit à chaque dépôt. Il copie la légende et ouvre TikTok : on ouvre le brouillon, on colle, on publie.
 - **Pour tout suspendre**, créer le fichier `reseaux/PAUSE` : `deposer.py` ne fait alors plus rien.
-- **Les journaux** sont dans `~/Anagnosis-medias/logs/`.
+- **Les journaux** sont dans `~/Library/Logs/anagnosis-reseaux/` (disque interne : launchd ne lance pas une tâche dont le journal est sur le SSD externe).
 - **Les chemins du registre** sont relatifs à `~/Anagnosis-medias` : jamais de chemin propre à une machine dans le dépôt.
 - **Le tournage** passe par un worktree de l'app, `~/Anagnosis-app-tournage` (branche `tournage`), avec un simulateur dédié dont l'identifiant est dans `~/.anagnosis/tournage.env`.
   - Tant que la story vidéo (`StoryVideo.swift`) n'est pas sur le `main` de l'app, cette branche part de `evolutions-2026-09`, et la chaîne ne tourne que sur ce Mac.
