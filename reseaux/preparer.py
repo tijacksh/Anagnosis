@@ -98,10 +98,36 @@ def identifiants_app(slugs):
     return {c['slug']: c['id'] for c in corpus if c['slug'] in slugs}
 
 
-def tourner(ids):
+NOM_SIMULATEUR = 'Anagnosis Tournage'
+
+
+def simulateur():
+    """Le simulateur du tournage : celui de `~/.anagnosis/tournage.env` s'il existe encore, sinon
+    « Anagnosis Tournage », créé au besoin. Une réinstallation des runtimes iOS efface les
+    simulateurs (vu le 2026-10-27 : la préparation échouait, « Unable to find a device »)."""
     env_sim = dict(l.split('=', 1) for l in
                    (Path.home() / '.anagnosis/tournage.env').read_text().split() if '=' in l)
-    sim = env_sim['TOURNAGE_SIM']
+    appareils = [a for l in json.loads(subprocess.run(['xcrun', 'simctl', 'list', 'devices', 'available', '-j'],
+                                                      capture_output=True, text=True, check=True).stdout)['devices'].values()
+                 for a in l]
+    if any(a['udid'] == env_sim.get('TOURNAGE_SIM') for a in appareils):
+        return env_sim['TOURNAGE_SIM']
+    nomme = next((a['udid'] for a in appareils if a['name'] == NOM_SIMULATEUR), None)
+    if nomme:
+        return nomme
+    runtimes = json.loads(subprocess.run(['xcrun', 'simctl', 'list', 'runtimes', 'available', '-j'],
+                                         capture_output=True, text=True, check=True).stdout)['runtimes']
+    # Le runtime iOS le plus récent qui propose un iPhone Pro (un runtime peut n'en porter qu'un modèle).
+    for r in reversed([r for r in runtimes if r['identifier'].startswith('com.apple.CoreSimulator.SimRuntime.iOS')]):
+        pro = [t['identifier'] for t in r['supportedDeviceTypes'] if t['name'].startswith('iPhone') and 'Pro' in t['name']]
+        if pro:
+            return subprocess.run(['xcrun', 'simctl', 'create', NOM_SIMULATEUR, pro[0], r['identifier']],
+                                  capture_output=True, text=True, check=True).stdout.strip()
+    raise SystemExit('aucun runtime iOS ne propose d\'iPhone Pro pour le tournage')
+
+
+def tourner(ids):
+    sim = simulateur()
     env = {**os.environ, 'TEST_RUNNER_TOURNAGE_IDS': ','.join(ids)}
     (APP / 'build').mkdir(parents=True, exist_ok=True)   # absent après un nettoyage de disque
     with open(APP / 'build/tournage.log', 'w') as log:
