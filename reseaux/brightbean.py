@@ -72,7 +72,7 @@ def programmer(depuis):
             continue
         d = MEDIAS / p['dossier']
         media = appel('/media/', '-F', f'file=@{d / "reel.mp4"}')
-        quand = dt.datetime.fromisoformat(p['jour'] + 'T07:30:00').replace(tzinfo=ZoneInfo('Europe/Paris'))
+        quand = dt.datetime.fromisoformat(f"{p['jour']}T{p.get('heure', '07:30')}:00").replace(tzinfo=ZoneInfo('Europe/Paris'))
         corps = {'social_account_id': COMPTE, 'caption': (d / 'legende-tiktok.txt').read_text().strip(),
                  'media_asset_ids': [media['id']], 'action': 'schedule',
                  'scheduled_at': quand.astimezone(dt.timezone.utc).isoformat()}

@@ -14,6 +14,13 @@ LEGENDES = {
     'concept': ('legende-instagram.txt', 'legende-x.txt'),
 }
 AVEC_TIKTOK = {'reel'}
+# Deux posts par jour depuis le 2026-10-27 : le matin et le soir. Un post sans `heure` est du matin
+# (tous ceux d'avant).
+MATIN, SOIR = '07:30', '18:30'
+
+
+def heure(p):
+    return p.get('heure', MATIN)
 
 
 def type_de(p):

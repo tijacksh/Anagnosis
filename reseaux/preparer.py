@@ -1,13 +1,13 @@
 #!/opt/homebrew/bin/python3
-"""Prépare les Reels de la semaine suivante (docs/reseaux.md §4). Lancé le dimanche soir.
+"""Prépare les posts de la semaine suivante (docs/reseaux.md §4). Lancé le dimanche soir.
 
-    preparer.py [--nombre 4] [--semaine AAAA-SS]
+    preparer.py [--semaine AAAA-SS] [--depuis AAAA-MM-JJ]
 
 1. choisit les fiches : validées, avec carte, jamais publiées, sources complètes,
    disciplines toutes différentes ;
 2. fait rendre leurs cartes par l'app (TournageTests, simulateur dédié) ;
 3. monte les Reels (composer.py) et les contrôle ;
-4. inscrit le programme dans reseaux/registre.json : un Reel par jour de publication.
+4. inscrit le programme dans reseaux/registre.json : deux posts par jour, matin et soir (`PROGRAMME`).
 
 Le dépôt, lui, se fait le jour même (deposer.py) : TikTok ne garde que 5 brouillons en
 attente, et la légende du raccourci doit être celle du brouillon qu'on ouvre.
@@ -27,10 +27,15 @@ sys.path.insert(0, str(ICI))
 DEPOT = ICI.parent
 REGISTRE = ICI / 'registre.json'
 from archive import archiver  # noqa: E402
+from posts import MATIN, SOIR, heure  # noqa: E402
 
 APP = Path(os.environ.get('ANAGNOSIS_APP_TOURNAGE', Path.home() / 'Anagnosis-app-tournage'))
 MEDIAS = Path(os.environ.get('ANAGNOSIS_MEDIAS', Path.home() / 'Anagnosis-medias'))
-JOURS = (0, 2, 4, 6)          # lundi, mercredi, vendredi, dimanche
+# Deux posts par jour (décidé le 2026-10-27) : un Reel chaque matin, et le soir un carrousel
+# (lundi, mercredi, vendredi, dimanche), un post « concept » (jeudi) ou un second Reel (mardi,
+# samedi). Neuf Reels par semaine, donc neuf vidéos TikTok, qui n'a que les Reels.
+PROGRAMME = {j: [(MATIN, 'reel'), (SOIR, s)] for j, s in
+             enumerate(('carrousel', 'reel', 'carrousel', 'concept', 'carrousel', 'reel', 'carrousel'))}
 RESERVE = 3                   # fiches de rechange si l'app en refuse une au tournage
 PLANS = ('choix', 'lecture', 'verrou', 'quiz', 'releve', 'ouverture')   # plans d'app (plans.py), en rotation
 
@@ -88,9 +93,6 @@ def choisir_carrousels(nombre, exclus, graine):
     return candidates[:nombre + 1]
 
 
-JOURS_IMAGES = {1: 'carrousel', 3: 'concept'}     # mardi : carrousel ; jeudi : post « concept »
-
-
 def identifiants_app(slugs):
     corpus = json.loads((APP / 'Anagnosis/Ressources/concepts.json').read_text())['concepts']
     return {c['slug']: c['id'] for c in corpus if c['slug'] in slugs}
@@ -141,7 +143,6 @@ def controler(reel):
 
 def main():
     a = argparse.ArgumentParser()
-    a.add_argument('--nombre', type=int, default=len(JOURS))
     a.add_argument('--semaine', help='AAAA-SS ISO ; par défaut la semaine prochaine')
     a.add_argument('--depuis', help="AAAA-MM-JJ : ne programmer que les jours à partir de celui-ci "
                                     "(une semaine déjà entamée)")
@@ -151,18 +152,15 @@ def main():
     semaine = f'{lundi.isocalendar().year}-{lundi.isocalendar().week:02d}'
 
     reg = registre()
-    deja_prevus = {p['jour'] for p in reg['posts']}
-
-    def libres(jours):
-        if args.depuis:
-            jours = [j for j in jours if j >= dt.date.fromisoformat(args.depuis)]
-        return [j for j in jours if j.isoformat() not in deja_prevus]
-
-    jours = libres([lundi + dt.timedelta(days=j) for j in JOURS][:args.nombre])
-    jours_images = {j: JOURS_IMAGES[j.weekday()] for j in libres(
-        [lundi + dt.timedelta(days=d) for d in JOURS_IMAGES])}
-    a_tourner = len(jours) or list(jours_images.values()).count('carrousel')
-    if not jours and not jours_images:
+    deja_prevus = {(p['jour'], heure(p)) for p in reg['posts']}
+    depuis = dt.date.fromisoformat(args.depuis) if args.depuis else lundi
+    creneaux = [(jour, h, genre) for jour in (lundi + dt.timedelta(days=d) for d in range(7))
+                for h, genre in PROGRAMME[jour.weekday()]
+                if jour >= depuis and (jour.isoformat(), h) not in deja_prevus]
+    # `jours` : les créneaux des Reels ; `jours_images` : ceux des carrousels et posts « concept ».
+    jours = [(j, h) for j, h, g in creneaux if g == 'reel']
+    jours_images = {(j, h): g for j, h, g in creneaux if g != 'reel'}
+    if not creneaux:
         print('rien à programmer : la semaine est déjà pleine')
         return
 
@@ -195,7 +193,7 @@ def main():
         if not carte.exists():
             print(f"écartée au tournage : {d['slug']}", file=sys.stderr)
             continue
-        jour = jours[0]
+        jour, h = jours[0]
         sortie = MEDIAS / f'semaine-{semaine}' / f"{jour.isoformat()}-{d['slug']}"
         plan = MEDIAS / 'plans' / f"{PLANS[len(reg['posts']) % len(PLANS)]}.mp4"
         subprocess.run([sys.executable, str(ICI / 'composer.py'), str(f), str(carte), str(sortie),
@@ -206,21 +204,21 @@ def main():
             print(f"écartée au contrôle : {d['slug']} : {', '.join(erreurs)}", file=sys.stderr)
             continue
         jours.pop(0)
-        inscrire({'jour': jour.isoformat(), 'slug': d['slug'], 'discipline': d['discipline'],
+        inscrire({'jour': jour.isoformat(), 'heure': h, 'slug': d['slug'], 'discipline': d['discipline'],
                   'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
                   'tiktok': None, 'instagram': None}, sortie, f"{d['discipline']:<22} {d['carte']['punch']}")
 
-    # Les jours sans vidéo : un carrousel le mardi, un post « concept » le jeudi.
+    # Les créneaux sans vidéo : carrousels et post « concept » (`PROGRAMME`).
     marque = json.loads((ICI / 'marque.json').read_text())['concepts']
     deja_concepts = sum(1 for p in reg['posts'] if p.get('type') == 'concept')
-    for jour, genre in sorted(jours_images.items()):
+    for (jour, h), genre in sorted(jours_images.items()):
         try:
             if genre == 'carrousel':
                 f, d = choix_car.pop(0)
                 sortie = MEDIAS / f'semaine-{semaine}' / f"{jour.isoformat()}-{d['slug']}"
                 subprocess.run([sys.executable, str(ICI / 'carrousel.py'), str(f), str(dossier_cartes / f"{ids[d['slug']]}.mp4"),
                                 str(sortie)], check=True, capture_output=True)
-                inscrire({'jour': jour.isoformat(), 'type': 'carrousel', 'slug': d['slug'], 'discipline': d['discipline'],
+                inscrire({'jour': jour.isoformat(), 'heure': h, 'type': 'carrousel', 'slug': d['slug'], 'discipline': d['discipline'],
                           'fichier': str(f.relative_to(DEPOT)), 'dossier': str(sortie.relative_to(MEDIAS)),
                           'tiktok': None, 'instagram': None}, sortie, f"carrousel : {d['carte']['punch']}")
             else:
@@ -228,13 +226,13 @@ def main():
                 deja_concepts += 1
                 sortie = MEDIAS / f'semaine-{semaine}' / f"{jour.isoformat()}-concept-{c['slug']}"
                 subprocess.run([sys.executable, str(ICI / 'concept.py'), c['slug'], str(sortie)], check=True, capture_output=True)
-                inscrire({'jour': jour.isoformat(), 'type': 'concept', 'slug': f"concept-{c['slug']}", 'discipline': None,
+                inscrire({'jour': jour.isoformat(), 'heure': h, 'type': 'concept', 'slug': f"concept-{c['slug']}", 'discipline': None,
                           'fichier': None, 'titre': c['titre'], 'dossier': str(sortie.relative_to(MEDIAS)),
                           'tiktok': None, 'instagram': None}, sortie, f"concept : {c['titre']}")
         except (subprocess.CalledProcessError, IndexError) as e:
-            print(f"{jour} ({genre}) non programmé : {getattr(e, 'stderr', e)}", file=sys.stderr)
+            print(f"{jour} {h} ({genre}) non programmé : {getattr(e, 'stderr', e)}", file=sys.stderr)
 
-    reg['posts'].sort(key=lambda p: p['jour'])
+    reg['posts'].sort(key=lambda p: (p['jour'], heure(p)))
     REGISTRE.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + '\n')
     # Chemins relatifs à ~/Anagnosis-medias : jamais de chemin propre à une machine dans le dépôt.
     for commande in (['git', 'add', str(REGISTRE), *([str(ICI / 'publie')] if (ICI / 'publie').exists() else [])],
@@ -244,7 +242,7 @@ def main():
                      ['git', 'push', '-q', 'origin', 'HEAD:main']):
         subprocess.run(commande, cwd=DEPOT, check=True, capture_output=True)
     if jours:
-        sys.exit(f"{len(jours)} jour(s) sans Reel cette semaine")
+        sys.exit(f"{len(jours)} créneau(x) sans Reel cette semaine")
 
 
 if __name__ == '__main__':

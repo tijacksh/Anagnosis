@@ -1,7 +1,10 @@
 #!/opt/homebrew/bin/python3
-"""Dépose le Reel du jour (docs/reseaux.md §4). Lancé chaque matin à 7 h 30.
+"""Publie les posts dont l'heure est venue (docs/reseaux.md §4). Lancé à 7 h 30 et à 18 h 30.
 
     deposer.py [--jour AAAA-MM-JJ]
+
+Le jour même, seuls les posts dont l'`heure` est passée partent ; un autre jour nommé à la
+main (`--jour`, une reprise) fait partir tous les siens.
 
 - TikTok : brouillon dans la boîte de réception de @anagnosis_app (reseaux/tiktok.js) ;
 - la légende TikTok dans iCloud Drive/Shortcuts/anagnosis-legende.txt, que lit le
@@ -23,7 +26,7 @@ from pathlib import Path
 
 from archive import archiver, lier
 from brightbean import publier as publier_tiktok
-from posts import a_tiktok, complet, legendes as legendes_de, medias as medias_de, type_de
+from posts import a_tiktok, complet, heure, legendes as legendes_de, medias as medias_de, type_de
 
 ICI = Path(__file__).resolve().parent
 DEPOT = ICI.parent
@@ -116,7 +119,10 @@ def main():
         return
     subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'main'], cwd=DEPOT, capture_output=True)
     reg = json.loads(REGISTRE.read_text())
-    for p in [p for p in reg['posts'] if p['jour'] == jour and not complet(p)]:
+    maintenant = dt.datetime.now().strftime('%H:%M')
+    venus = [p for p in reg['posts'] if p['jour'] == jour and not complet(p)
+             and (jour != dt.date.today().isoformat() or heure(p) <= maintenant)]
+    for p in sorted(venus, key=heure):
         dossier = MEDIAS / p['dossier']
         paquet = PAQUETS / dossier.name
         try:

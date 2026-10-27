@@ -10,10 +10,13 @@ publiés sur TikTok (notre app n'a pas la portée photo). Comment c'est
 ## 1. Ce qu'on publie
 
 Des Reels 1080 × 1920 de 12 à 15 s, avec légende : **publiés sur Instagram, déposés en brouillon
-sur TikTok** le même matin, à 7 h 30. Cadence actuelle : 4 Reels par semaine (lundi, mercredi, vendredi,
-dimanche), plus **deux posts image** : le **mardi un carrousel** de cinq images 4:5 (la carte de l'app, ce que la
-fiche développe, son quiz, la réponse, la fin de marque) et le **jeudi un post « concept »** (une image qui présente
-le produit, avec les textes du site repris mot pour mot). Le samedi est libre. Voir `docs/decisions.md`, 2026-09-29.
+sur TikTok** le même matin, à 7 h 30. Cadence actuelle (depuis le 2026-10-27, à la demande du propriétaire) : **deux posts par jour**.
+Le matin à 7 h 30, un Reel ; le soir à 18 h 30, un **carrousel** de cinq images 4:5 (lundi, mercredi,
+vendredi, dimanche : la carte de l'app, ce que la fiche développe, son quiz, la réponse, la fin de marque),
+le **post « concept »** (jeudi : une image qui présente le produit, avec les textes du site repris mot pour
+mot) ou un second Reel (mardi, samedi). Neuf Reels par semaine, donc neuf vidéos TikTok. La règle vit dans
+`PROGRAMME` (`reseaux/preparer.py`) ; chaque post porte son `heure` au registre. Avant : 4 Reels, un
+carrousel et un post « concept » par semaine (`docs/decisions.md`, 2026-09-29).
 
 Cinq formats : la carte animée (40 %), l'idée reçue confrontée à sa source (25 %), le verrou,
 c'est-à-dire le manifeste anti-scroll (15 %), le quiz (10 %), et les coulisses et le rituel (10 %).
@@ -86,7 +89,7 @@ DIMANCHE 20 h — reseaux/preparer.py
 5. archiver     légendes + post.json dans reseaux/publie/, vidéo dans la release GitHub
                 de la semaine ; programme inscrit dans reseaux/registre.json ; le tout sur main
 
-CHAQUE JOUR 7 h 30 — reseaux/deposer.py
+CHAQUE JOUR 7 h 30 ET 18 h 30 — reseaux/deposer.py
 6. TikTok       brouillon dans la boîte de réception ; légende dans le raccourci iPhone
 7. Instagram    Reel publié en public, tout seul (reseaux/instagram.js)
 8. consigner    liens des posts dans registre.json et post.json, commité sur main
@@ -115,7 +118,7 @@ on publie à la main depuis là.
 | Quand | Quoi | Fichier |
 |---|---|---|
 | Dimanche 20 h | choisit, tourne, monte et contrôle les 4 Reels de la semaine suivante, puis les inscrit au registre | `reseaux/preparer.py` |
-| Chaque jour 7 h 30 | dépose le Reel du jour en brouillon TikTok, met sa légende à disposition du raccourci, copie le paquet dans iCloud | `reseaux/deposer.py` |
+| Chaque jour 7 h 30 et 18 h 30 | publie les posts dont l'heure est venue ; dépose le Reel en brouillon TikTok, met sa légende à disposition du raccourci, copie le paquet dans iCloud | `reseaux/deposer.py` |
 | À la demande | monte un Reel à partir d'une fiche et de sa carte | `reseaux/composer.py` |
 | Une fois | installe les deux tâches launchd | `reseaux/installer.sh` |
 

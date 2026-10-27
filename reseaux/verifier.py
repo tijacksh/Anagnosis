@@ -3,7 +3,7 @@
 
     verifier.py [--sans-reprise] [--essai]
 
-Lancé chaque jour à 9 h (`fr.anagnosis.reseaux.verifier`) et le dimanche à 21 h 30, une fois la
+Lancé chaque jour à 9 h et 20 h 30 (`fr.anagnosis.reseaux.verifier`) et le dimanche à 21 h 30, une fois la
 semaine suivante préparée. Il ne publie rien de nouveau : sa seule action est de relancer
 `deposer.py` pour le post du jour si une plateforme n'a pas reçu son contenu (le Mac dormait,
 une API était en panne à 7 h 30) ; `deposer.py` est rejouable plateforme par plateforme, il ne
@@ -17,7 +17,7 @@ Contrôles, dans l'ordre :
   4. chaque post passé est parti partout ;
   5. chaque post des cinq prochains jours a sa vidéo, qui passe les contrôles bloquants,
      ses légendes, et son archive (release GitHub + `publie/`) ;
-  6. au moins trois jours de programme d'avance.
+  6. au moins trois jours de programme d'avance (six posts).
 
 `--essai` : ne relance rien et n'ouvre aucune issue, il affiche seulement.
 
@@ -40,7 +40,7 @@ JETONS = Path.home() / '.anagnosis/reseaux-jetons.json'
 DEPOT_GITHUB = 'tijacksh/Anagnosis'
 TACHES = ('preparer', 'deposer', 'verifier')
 
-from posts import a_tiktok, complet, legendes as legendes_de, medias as medias_de, type_de  # noqa: E402
+from posts import a_tiktok, complet, heure, legendes as legendes_de, medias as medias_de, type_de  # noqa: E402
 from preparer import controler  # noqa: E402
 
 
@@ -94,7 +94,8 @@ def controles(aujourdhui, reprise):
     aujourdhui_iso = aujourdhui.isoformat()
 
     # 4. la reprise, puis les posts passés
-    du_jour = [p for p in posts if p['jour'] == aujourdhui_iso and not complet(p)]
+    maintenant = dt.datetime.now().strftime('%H:%M')
+    du_jour = [p for p in posts if p['jour'] == aujourdhui_iso and not complet(p) and heure(p) <= maintenant]
     # Reprise seulement dans la journée : un Mac rallumé à 23 h ne publie pas un Reel du matin.
     if du_jour and reprise and 7 <= dt.datetime.now().hour < 21:
         r = lancer(sys.executable, str(ICI / 'deposer.py'), '--jour', aujourdhui_iso)
@@ -103,7 +104,9 @@ def controles(aujourdhui, reprise):
         reg = json.loads(REGISTRE.read_text())
         posts = reg['posts']
     for p in posts:
-        if p['jour'] < aujourdhui_iso or (p['jour'] == aujourdhui_iso and dt.datetime.now().hour >= 10):
+        # Le jour même, un post a deux heures et demie pour partir (dépôt, puis reprise de 9 h / 21 h).
+        echeance = (dt.datetime.strptime(heure(p), '%H:%M') + dt.timedelta(hours=2, minutes=30)).strftime('%H:%M')
+        if p['jour'] < aujourdhui_iso or (p['jour'] == aujourdhui_iso and maintenant >= echeance):
             manque = [n for n in ('tiktok', 'instagram') if not p[n] and (n == 'instagram' or a_tiktok(p))]
             if manque:
                 problemes.append(f"{p['jour']} `{p['slug']}` n'est pas parti sur : {', '.join(manque)}")
@@ -150,7 +153,7 @@ def controles(aujourdhui, reprise):
 
     # 6. de l'avance
     d_avance = [p for p in posts if p['jour'] > aujourdhui_iso]
-    if len(d_avance) < 3:
+    if len(d_avance) < 6:    # trois jours, à deux posts par jour
         problemes.append(f"seulement {len(d_avance)} post(s) programmé(s) d'avance : `preparer.py` a-t-il tourné dimanche ?")
     return problemes
 
