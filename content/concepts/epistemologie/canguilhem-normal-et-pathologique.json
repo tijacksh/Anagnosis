@@ -78,7 +78,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Canguilhem s'oppose précisément à l'idée d'un écart purement quantitatif à une moyenne : ce qui distingue la maladie, c'est une réduction de la marge de tolérance des infidélités du milieu, donc une capacité amoindrie à instituer de nouvelles normes.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -115,11 +115,11 @@
       "explication": "Le 20 mai 1961, en Sorbonne, Canguilhem siège comme rapporteur du jury qui examine la thèse de Foucault, Folie et déraison, aux côtés d'Henri Gouhier et de Jean Hyppolite."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-20T19:10:29.365Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-10-28T04:17:39.374Z",
     "historique": [
       {
         "action": "retoucher",
@@ -136,15 +136,24 @@
         "par": "routine-reparation",
         "le": "2026-09-20T19:10:29.365Z",
         "note": "Troisieme passage independant, avec acces WebFetch reel cette fois (contrairement aux deux precedents, EGRESS_BLOCKED partiel seulement : shs.cairn.info, montevil.org, normalesup.org restent bloques, mais en.wikipedia.org et persee.fr s'ouvrent). Rouvert directement : persee.fr (confirme le compte rendu de Pierre Brunet sur la these 1943, le principe de Broussais repris par Comte et Claude Bernard) ; en.wikipedia.org/wiki/Michel_Foucault (confirme la soutenance du 20 mai 1961, jury Gouhier president, Canguilhem rapporteur, Hyppolite) ; en.wikipedia.org/wiki/Georges_Canguilhem (confirme la succession a Bachelard en 1955 a la tete de l'Institut d'histoire des sciences, poste occupe jusqu'en 1971). Pour les trois domaines encore bloques par le proxy, verifie par WebSearch qu'ils existent reellement et disent ce que la fiche leur fait dire : normalesup.org/~sage/.../GCnormalPatho.pdf reproduit mot pour mot la citation ; shs.cairn.info/le-normal-et-le-pathologique--9782130619505 est bien la page editeur du livre de 1966 (reedition Quadrige) ; montevil.org/publications/chapters/2023-montevil-canguilhem-actualite-normativite confirme le titre et le sujet exact de l'article 2023 sur la normativite biologique et les infidelites du milieu. Carte, citation, repere (null), quiz principal et quiz_supplementaire relus entierement : bonne reponse vraie au vu du mecanisme, distracteurs faux, pas d'ecart de longueur, source_courte non vide. Rien a corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-10-28T04:17:39.374Z",
+        "note": "Le corps dit que Jean Hyppolite examine « la thèse » de Foucault aux côtés de Canguilhem et Gouhier (président). Les sources rouvertes (en.wikipedia.org/wiki/Michel_Foucault, recherche web croisant plusieurs biographies) indiquent plutôt que Hyppolite était rapporteur de la thèse complémentaire (traduction de l'Anthropologie de Kant), pas de la thèse principale sur la folie, et qu'un troisième rapporteur de la thèse principale, Daniel Lagache, n'est pas mentionné. La phrase laisse croire que les trois noms examinent le même texte, ce que les sources ne soutiennent pas clairement. Gouhier « président » est en revanche bien corroboré par plusieurs sources indépendantes. À revoir : préciser que Hyppolite rapportait sur la thèse complémentaire, et décider si Lagache doit être ajouté."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-20",
-    "verdict": "ok",
+    "fait_le": "2026-10-28",
+    "verdict": "a_revoir",
     "empreinte": "84fcfb281f523fa0",
     "notes": [
-      "Contrainte reseau de cette session : EGRESS_BLOCKED sur WebFetch et curl pour tous les domaines (meme wikipedia.org), erreur 403 cote proxy, deja rencontree par le passage de routine-relecture precedent. Verification faite via WebSearch (extraits, pas ouverture directe des pages) : Persee 1947 confirme le compte rendu de Pierre Brunet sur la these 1943 et la critique du principe de Broussais/Comte/Claude Bernard ; normalesup.org confirme mot pour mot la citation 'La sante c'est une marge de tolerance des infidelites du milieu' (corrigee par le passage precedent) ; montevil.org confirme le propos de l'article 2023 sur la normativite biologique ; plusieurs sources independantes confirment la soutenance de Foucault le 20 mai 1961 en Sorbonne, jury preside par Gouhier avec Canguilhem et Hyppolite. Rien a corriger de plus. Carte et quiz coherents avec le mecanisme decrit."
+      "Sources rouvertes (en.wikipedia.org/wiki/Michel_Foucault, en.wikipedia.org/wiki/Georges_Canguilhem, recherche web croisant plusieurs biographies). Citation de Canguilhem, succession à Bachelard (1955-1971), date du 20 mai 1961 et rôle de rapporteur de Canguilhem confirmés.",
+      "Mais le rôle de Jean Hyppolite tel que décrit dans le corps (« qui examine la thèse », aux côtés de Canguilhem et Gouhier) n'est pas soutenu par les sources : Hyppolite était rapporteur de la thèse complémentaire de Foucault (traduction de l'Anthropologie de Kant), pas de la thèse principale sur la folie. Un troisième rapporteur de la thèse principale, Daniel Lagache, n'est mentionné nulle part dans la fiche. Passée en en_retouche pour reformulation ; Gouhier « président » reste correct."
     ]
   },
   "controle_juridique": null,
