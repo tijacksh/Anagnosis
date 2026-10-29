@@ -515,6 +515,6 @@ peut rouvrir directement le texte du décret.)*
 | Informatique | Heartbleed (CVE-2014-0160) : une longueur annoncée non vérifiée dans une extension de simple battement de cœur, et non un chiffrement cassé | fait | routine-production-arnaud | 2026-10-29 |
 | Informatique | Knight Capital (1er août 2012) : un ancien code « Power Peg » réveillé sur 1 serveur sur 8, 460 millions de dollars en 45 minutes (ordre de la SEC) | fait | routine-production-arnaud | 2026-10-29 |
 | Informatique | Mars Pathfinder (1997) : les réinitialisations venaient d'une inversion de priorité, vue avant l'atterrissage et corrigée en activant un drapeau | fait | routine-production-arnaud | 2026-10-29 |
-| Nutrition | Sucre et hyperactivité des enfants : méta-analyse de Wolraich (JAMA 1995, 23 études), essai d'attentes de Hoover et Milich (1994) où des mères voient de l'hyperactivité dans un placebo | en cours | routine-production-arnaud | 2026-10-29 |
-| Nutrition | Acides gras trans : Mensink et Katan (NEJM 1990), 59 volontaires, trois régimes de trois semaines, le LDL monte et le HDL baisse | en cours | routine-production-arnaud | 2026-10-29 |
-| Nutrition | Petit-déjeuner et poids : 13 essais randomisés (Sievert, BMJ 2019), l'association observée ne se retrouve pas dans les essais | en cours | routine-production-arnaud | 2026-10-29 |
+| Nutrition | Sucre et hyperactivité des enfants : méta-analyse de Wolraich (JAMA 1995, 23 études), essai d'attentes de Hoover et Milich (1994) où des mères voient de l'hyperactivité dans un placebo | fait | routine-production-arnaud | 2026-10-29 |
+| Nutrition | Acides gras trans : Mensink et Katan (NEJM 1990), 59 volontaires, trois régimes de trois semaines, le LDL monte et le HDL baisse | fait | routine-production-arnaud | 2026-10-29 |
+| Nutrition | Petit-déjeuner et poids : 13 essais randomisés (Sievert, BMJ 2019), l'association observée ne se retrouve pas dans les essais | fait | routine-production-arnaud | 2026-10-29 |
