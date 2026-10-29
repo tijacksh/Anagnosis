@@ -511,3 +511,7 @@ peut rouvrir directement le texte du décret.)*
 | Géologie | Parkfield (1985) : une prévision de séisme fondée sur un intervalle moyen de 22 ans, annoncée par l'USGS pour 1985-1993 et réalisée en 2004 | fait | routine-production-arnaud | 2026-10-29 |
 | Géologie | Montagne Pelée (8 mai 1902) : la nuée ardente, non la lave, détruit Saint-Pierre ; Lacroix forge le terme et la légende des deux survivants | fait | routine-production-arnaud | 2026-10-29 |
 | Géologie | William Smith et la carte de 1815 : les fossiles, non la roche, identifient les couches (15 feuilles, 5 miles au pouce) | fait | routine-production-arnaud | 2026-10-29 |
+| Informatique | Knuth (1974) : « premature optimization is the root of all evil » est une phrase coupée, la suite parle des 3 % critiques | en cours | routine-production-arnaud | 2026-10-29 |
+| Informatique | Heartbleed (CVE-2014-0160) : une longueur annoncée non vérifiée dans une extension de simple battement de cœur, et non un chiffrement cassé | en cours | routine-production-arnaud | 2026-10-29 |
+| Informatique | Knight Capital (1er août 2012) : un ancien code « Power Peg » réveillé sur 1 serveur sur 8, 460 millions de dollars en 45 minutes (ordre de la SEC) | en cours | routine-production-arnaud | 2026-10-29 |
+| Informatique | Mars Pathfinder (1997) : les réinitialisations venaient d'une inversion de priorité, vue avant l'atterrissage et corrigée en activant un drapeau | en cours | routine-production-arnaud | 2026-10-29 |
