@@ -507,7 +507,7 @@ peut rouvrir directement le texte du décret.)*
 | Épistémologie | Einstein et Rosen contre la Physical Review (1936) : un article retiré après une expertise anonyme, republié en 1937 avec la conclusion inverse | fait | routine-production-arnaud | 2026-10-29 |
 | Épistémologie | Millikan (1913) : e = 4,774 × 10⁻¹⁰ unités électrostatiques, 58 gouttes « non sélectionnées », et les valeurs suivantes qui rampent vers le haut (Feynman, 1974) | fait | routine-production-arnaud | 2026-10-29 |
 | Épistémologie | Lakatos (1970) : juger une suite de théories plutôt qu'une théorie, programmes progressifs et dégénérescents | fait | routine-production-arnaud | 2026-10-29 |
-| Géologie | Oklo (Gabon) : un réacteur nucléaire naturel, repéré en 1972 par un défaut d'uranium 235 mesuré à Pierrelatte, actif par pulses de 30 minutes il y a environ 1,7 milliard d'années | en cours | routine-production-arnaud | 2026-10-29 |
-| Géologie | Parkfield (1985) : une prévision de séisme fondée sur un intervalle moyen de 22 ans, annoncée par l'USGS pour 1985-1993 et réalisée en 2004 | en cours | routine-production-arnaud | 2026-10-29 |
-| Géologie | Montagne Pelée (8 mai 1902) : la nuée ardente, non la lave, détruit Saint-Pierre ; Lacroix forge le terme et la légende des deux survivants | en cours | routine-production-arnaud | 2026-10-29 |
-| Géologie | William Smith et la carte de 1815 : les fossiles, non la roche, identifient les couches (15 feuilles, 5 miles au pouce) | en cours | routine-production-arnaud | 2026-10-29 |
+| Géologie | Oklo (Gabon) : un réacteur nucléaire naturel, repéré en 1972 par un défaut d'uranium 235 mesuré à Pierrelatte, actif par pulses de 30 minutes il y a environ 1,7 milliard d'années | fait | routine-production-arnaud | 2026-10-29 |
+| Géologie | Parkfield (1985) : une prévision de séisme fondée sur un intervalle moyen de 22 ans, annoncée par l'USGS pour 1985-1993 et réalisée en 2004 | fait | routine-production-arnaud | 2026-10-29 |
+| Géologie | Montagne Pelée (8 mai 1902) : la nuée ardente, non la lave, détruit Saint-Pierre ; Lacroix forge le terme et la légende des deux survivants | fait | routine-production-arnaud | 2026-10-29 |
+| Géologie | William Smith et la carte de 1815 : les fossiles, non la roche, identifient les couches (15 feuilles, 5 miles au pouce) | fait | routine-production-arnaud | 2026-10-29 |
