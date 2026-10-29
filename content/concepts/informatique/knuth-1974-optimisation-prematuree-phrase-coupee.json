@@ -1,0 +1,75 @@
+{
+  "id": "inf-knuth-1974-optimisation-prematuree-phrase-coupee",
+  "slug": "knuth-1974-optimisation-prematuree-phrase-coupee",
+  "titre": "« Optimisation prématurée » : la phrase de Knuth est coupée en deux",
+  "accroche": "« L'optimisation prématurée est la racine de tous les maux » : Knuth l'écrit en 1974, puis ajoute aussitôt qu'il ne faut pas négliger 3 % du code.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Dans une revue de code, quelqu'un refuse une amélioration de vitesse en citant Donald Knuth : « premature optimization is the root of all evil ». La formule sert de permis de ne pas y toucher. Elle vient pourtant d'un article de décembre 1974, « Structured Programming with go to Statements », publié dans la revue Computing Surveys. Et la section d'où elle est tirée sert justement à montrer comment rendre un programme plus rapide.\n\n## Ce que l'article démontre\n\nKnuth prend une recherche de valeur dans un tableau. En plaçant la valeur cherchée en sentinelle juste après la dernière case, il évite de tester la fin du tableau à chaque tour de boucle. Dans son décompte, supposant le programme écrit en assembleur, la boucle passe de 6n + 10 accès à la mémoire à 4n + 14 : environ 33 % de temps d'exécution en moins.\n\nIl pousse plus loin. Une boucle « doublée », qui traite deux éléments par tour, ne gagne qu'environ 12 %, au prix de quelques instructions go to. Knuth écrit que beaucoup de gens jugeraient ce gain insignifiant, mais que, dans les disciplines d'ingénieur établies, 12 % obtenus facilement ne sont jamais considérés comme marginaux. L'article défend donc l'optimisation, pas son abandon.\n\n## La phrase entière\n\nLe passage célèbre vient après. Knuth observe que l'essentiel du temps d'exécution d'un programme, hors attente d'entrées-sorties, se concentre dans environ 3 % du texte source. Il écrit alors, ce que l'on peut traduire ainsi : « Nous devrions oublier les petites optimisations, disons dans 97 % des cas : l'optimisation prématurée est la racine de tous les maux. Pourtant nous ne devrions pas laisser passer nos occasions dans ces 3 % critiques. » La seconde phrase est celle que les citations abrègent.\n\nLe mot décisif est « prématurée ». Knuth précise que l'on ne doit regarder le code critique qu'après l'avoir identifié, et qu'il est souvent une erreur de deviner à l'avance quelles parties comptent : l'expérience des programmeurs équipés d'outils de mesure est que leurs intuitions échouent. Il va jusqu'à demander que tout compilateur futur fournisse automatiquement ce retour, en indiquant quelles parties du programme coûtent le plus.\n\n## Ce que ça déplace\n\nLa maxime ne dit donc pas « n'optimisez pas ». Elle dit : ne devinez pas, mesurez, puis concentrez l'effort là où le programme passe son temps. Le même texte autorise un gain de 12 % sur une boucle chaude et interdit des semaines passées à raffiner un code qui ne tourne jamais longtemps.\n\nLa phrase tronquée sert surtout à clore une discussion. La phrase complète en ouvre une : où se trouvent, dans ce programme précis, les 3 % qui comptent, et l'a-t-on mesuré ?",
+  "citation": {
+    "texte": "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.",
+    "auteur": "Donald E. Knuth",
+    "source": "« Structured Programming with go to Statements », Computing Surveys, vol. 6, n° 4, décembre 1974, section « Efficiency »",
+    "url": "https://dl.acm.org/doi/10.1145/356635.356640"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "La phrase de Knuth sur l'optimisation prématurée a une seconde moitié que l'on ne cite jamais.",
+    "idee": "Knuth écrit en 1974 de laisser les petites optimisations 97 % du temps, puis de ne pas manquer les 3 % critiques, après les avoir identifiés par la mesure. Le même article défend un gain de 12 % sur une boucle.",
+    "source_courte": "Knuth, Computing Surveys, 1974"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Knuth, Donald E.",
+      "titre": "Structured Programming with go to Statements",
+      "publication": "ACM Computing Surveys, vol. 6, n° 4, p. 261-301",
+      "annee": 1974,
+      "url": "https://dl.acm.org/doi/10.1145/356635.356640",
+      "note": "Référence confirmée par Crossref (titre, revue, volume 6, numéro 4, pages 261-301). Texte de l'article lu en ligne : section « Efficiency », 3 % du texte source, phrase sur l'optimisation prématurée suivie de « Yet we should not pass up our opportunities in that critical 3% », 12 % jugés non marginaux, recommandation d'outils de mesure."
+    },
+    {
+      "type": "web",
+      "auteur": "Knuth, Donald E.",
+      "titre": "Structured Programming with go to Statements (copie numérisée du texte intégral)",
+      "publication": "pic.plover.com",
+      "annee": 1974,
+      "url": "https://pic.plover.com/knuth-GOTO.pdf",
+      "note": "Copie numérisée de l'article, ouverte et lue : exemples 1, 2 et 2a, 6n + 10 contre 4n + 14 accès mémoire, environ 33 % d'économie, environ 12 % pour la boucle doublée."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Crossref : notice de l'article de Knuth (1974)",
+      "url": "https://api.crossref.org/works/10.1145/356635.356640",
+      "note": "Métadonnées bibliographiques (revue, volume, numéro, pages)."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une longue barre horizontale dont une toute petite section est remplie d'un aplat plein et saturé, le reste étant en filet léger. Deux encres, aucun dégradé, aucune figure humaine.",
+    "alt": "Une longue barre dont une petite portion seulement est colorée",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que demande la phrase complète de Knuth, en 1974 ?",
+    "choix": [
+      "Ne jamais optimiser, la lisibilité devant toujours passer avant la vitesse",
+      "Optimiser d'abord tout le code, puis mesurer ce qui a été gagné",
+      "Repérer par la mesure les quelques 3 % critiques, et ne soigner que ceux-là",
+      "Laisser le compilateur optimiser seul, sans jamais intervenir à la main"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Knuth écarte les petites optimisations dans 97 % des cas, mais veut que l'on saisisse les occasions du code critique, une fois celui-ci identifié par la mesure. Il ne dit ni de ne jamais optimiser, ni de tout optimiser d'avance, ni de s'en remettre au compilateur."
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

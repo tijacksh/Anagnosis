@@ -1,0 +1,92 @@
+{
+  "id": "inf-heartbleed-2014-longueur-annoncee-jamais-verifiee",
+  "slug": "heartbleed-2014-longueur-annoncee-jamais-verifiee",
+  "titre": "Heartbleed : le chiffrement tenait, c'est une longueur qui n'était pas vérifiée",
+  "accroche": "Le 7 avril 2014, une faille d'OpenSSL permet de lire la mémoire des serveurs. Le chiffrement n'est pas cassé : le serveur croit la longueur annoncée.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 7 avril 2014, l'équipe d'OpenSSL publie un correctif pour une faille que le monde appellera Heartbleed. OpenSSL est la bibliothèque qui chiffre une grande partie des connexions HTTPS. On en tire souvent une conclusion : le chiffrement lui-même aurait été cassé. Ce n'est pas ce qui s'est passé.\n\n## Le mécanisme\n\nLa faille ne touche pas les calculs du chiffrement. Elle se trouve dans une fonction annexe, l'extension « heartbeat » (battement de cœur), décrite par la RFC 6520. Son principe est celui d'un écho : un ordinateur envoie un petit message pour vérifier que l'autre est toujours là, et l'autre le renvoie à l'identique. Le message comprend une charge utile, par exemple quatre octets, et un champ qui annonce sa longueur. Ce champ occupe 16 bits, donc la longueur annoncée peut aller jusqu'à environ 64 kilo-octets.\n\nLe défaut est le suivant. Le serveur lisait la longueur annoncée et recopiait autant d'octets dans sa réponse, sans vérifier que le message reçu en contenait vraiment autant. Si un client envoyait quatre octets en annonçant 64 000, le serveur renvoyait ses quatre octets, puis ce qui se trouvait juste après en mémoire. Le registre officiel des vulnérabilités (CVE-2014-0160) parle de lecture hors limites, un « buffer over-read », qui permet d'obtenir des informations de la mémoire du processus. La démonstration publique en a extrait des clés privées.\n\nLe code fautif figurait dans OpenSSL depuis décembre 2011 et dans les versions publiques depuis la 1.0.1, sortie le 14 mars 2012. Les versions 1.0.1 à 1.0.1f étaient touchées, et la 1.0.1g contient la correction. Chaque requête ne livrait que 64 kilo-octets, mais l'attaquant pouvait la répéter à volonté. Selon les découvreurs, l'exploitation ne laisse aucune trace anormale dans les journaux du serveur.\n\n## Ce que l'épisode déplace\n\nLa RFC 6520 contenait déjà la règle qui aurait évité le problème : un message dont la longueur annoncée est trop grande doit être ignoré en silence. La spécification disait quoi faire. Le code n'a pas vérifié.\n\nLe cas montre qu'une primitive cryptographique irréprochable ne protège pas un système dont une fonction voisine fait confiance à ce qu'on lui annonce. Le chiffrement protège les octets en transit, il ne protège pas ceux que le serveur renvoie par erreur de sa propre mémoire. Une simple fonction de vérification de présence a suffi à exposer la mémoire du processus.\n\nQuelles autres fonctions annexes, dans les bibliothèques que l'on charge sans les lire, croient encore ce que le client annonce ?",
+  "citation": null,
+  "repere": {
+    "texte": "Un message heartbeat annonçait sa longueur sur 16 bits, soit environ 64 Ko de mémoire par requête. OpenSSL 1.0.1 à 1.0.1f en étaient affectées, du 14 mars 2012 à la correction 1.0.1g du 7 avril 2014.",
+    "source": "heartbleed.com ; NVD, CVE-2014-0160 ; avis OpenSSL du 7 avril 2014 ; RFC 6520",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0160"
+  },
+  "carte": {
+    "punch": "Heartbleed n'a pas cassé le chiffrement : un serveur croyait la longueur annoncée par le client.",
+    "idee": "En 2014, la fonction heartbeat d'OpenSSL renvoyait autant d'octets que le client l'annonçait, sans vérifier la taille réelle du message. Résultat : jusqu'à 64 Ko de mémoire du serveur par requête, clés privées comprises.",
+    "source_courte": "NVD, CVE-2014-0160 ; RFC 6520"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "National Institute of Standards and Technology (NVD)",
+      "titre": "CVE-2014-0160",
+      "publication": "National Vulnerability Database",
+      "annee": 2014,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0160",
+      "note": "Notice interrogée par l'API de la NVD : publiée le 7 avril 2014 ; OpenSSL 1.0.1 avant 1.0.1g, TLS et DTLS ; Heartbeat Extension mal gérée, buffer over-read, lecture de clés privées démontrée, fichiers d1_both.c et t1_lib.c."
+    },
+    {
+      "type": "web",
+      "auteur": "Codenomicon",
+      "titre": "The Heartbleed Bug",
+      "publication": "heartbleed.com",
+      "annee": 2014,
+      "url": "https://heartbleed.com/",
+      "note": "Page ouverte : OpenSSL 1.0.1 à 1.0.1f touchées, 1.0.1g corrigée ; bug introduit en décembre 2011, publié avec la 1.0.1 du 14 mars 2012 ; 64 Ko par heartbeat, limite par requête ; exploitation sans trace anormale dans les journaux ; découverte par Codenomicon et Neel Mehta (Google)."
+    },
+    {
+      "type": "institution",
+      "auteur": "Seggelmann, R., Tuexen, M., Williams, M.",
+      "titre": "Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension (RFC 6520)",
+      "publication": "IETF",
+      "annee": 2012,
+      "url": "https://www.rfc-editor.org/rfc/rfc6520",
+      "note": "Texte ouvert : champ payload_length sur 16 bits ; remplissage d'au moins 16 octets ; « If the payload_length of a received HeartbeatMessage is too large, the received HeartbeatMessage MUST be discarded silently »."
+    },
+    {
+      "type": "web",
+      "auteur": "OpenSSL Project",
+      "titre": "SECADV 20140407 : TLS heartbeat read overrun",
+      "publication": "OpenSSL wiki",
+      "annee": 2014,
+      "url": "https://wiki.openssl.org/index.php/SECADV_20140407",
+      "note": "Page ouverte : avis du 7 avril 2014, « TLS heartbeat read overrun », OpenSSL 1.0.1a à 1.0.1f et bêtas 1.0.2 touchées, corrigées dans 1.0.1g et 1.0.2-beta2."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "RFC 6520 : l'extension Heartbeat de TLS et DTLS",
+      "url": "https://www.rfc-editor.org/rfc/rfc6520",
+      "note": "La spécification, qui prévoyait déjà le rejet des longueurs excessives."
+    }
+  ],
+  "illustration": {
+    "prompt": "Un petit carré plein suivi d'une longue bande qui déborde sur un fond de formes variées, comme si un cadre trop large capturait ce qui l'entoure. Aplats pleins, deux encres, aucun dégradé, aucune figure humaine.",
+    "alt": "Un petit carré suivi d'une longue bande qui déborde sur d'autres formes",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi Heartbleed permettait-il de lire la mémoire d'un serveur ?",
+    "choix": [
+      "Le serveur renvoyait autant d'octets que la longueur annoncée, sans la comparer au message reçu",
+      "L'algorithme de chiffrement de TLS comportait une faille mathématique que Heartbleed exploitait",
+      "Les clés privées étaient envoyées en clair à chaque battement de cœur par défaut",
+      "Un pirate devait d'abord ouvrir une session authentifiée sur le serveur visé"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le défaut est un défaut de vérification de longueur dans l'extension heartbeat, pas une faille du chiffrement. Les clés n'étaient pas envoyées volontairement : elles se trouvaient dans la mémoire lue, et la NVD décrit une attaque à distance par paquets forgés."
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

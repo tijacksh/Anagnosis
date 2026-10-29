@@ -1,0 +1,83 @@
+{
+  "id": "inf-mars-pathfinder-1997-inversion-de-priorite",
+  "slug": "mars-pathfinder-1997-inversion-de-priorite",
+  "titre": "Mars Pathfinder : les réinitialisations venaient d'une inversion de priorité",
+  "accroche": "Après l'atterrissage du 4 juillet 1997, l'ordinateur de Pathfinder se réinitialise. La cause : une tâche mineure en bloquait une majeure.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Mars Pathfinder se pose le 4 juillet 1997 dans la vallée d'Ares. Sur place, l'ordinateur de bord se met à se réinitialiser de lui-même. À chaque fois, les activités commandées depuis la Terre pour la journée s'arrêtent, et le reste attend le lendemain. Les données déjà collectées, elles, ne sont pas perdues. Glenn Reeves, qui dirigeait l'équipe logicielle au Jet Propulsion Laboratory, a raconté lui-même ce qui s'était passé, dans un courriel du 15 décembre 1997 puis dans un article de 1999.\n\n## Le mécanisme\n\nL'ordinateur exécute plusieurs tâches, chacune avec une priorité. Un cycle de 0,125 seconde rythme le bus qui relie l'ordinateur aux instruments. Une tâche très prioritaire prépare chaque cycle, et une autre, de rang élevé elle aussi, doit avoir fini de distribuer les données avant que la première ne redémarre. Si ce n'est pas le cas, le système conclut à une panne et se réinitialise.\n\nLa tâche de distribution avait besoin, pour transmettre ses données à la tâche chargée de la météo, d'un verrou partagé : un mécanisme qui n'autorise qu'une tâche à la fois à toucher une liste interne. Or la tâche météo, de priorité bien plus basse, tenait ce verrou quand des tâches de priorité moyenne l'ont interrompue. La tâche de distribution s'est retrouvée à attendre une tâche faible qui ne pouvait plus avancer, parce que les tâches moyennes passaient avant elle. C'est une inversion de priorité : une tâche faible bloque une tâche forte.\n\nLes ingénieurs ont retrouvé la cause en moins de 18 heures, en rejouant les mêmes activités en laboratoire. Le logiciel de vol embarquait par conception un outil de trace, que l'on n'exploitait pas en vol faute de pouvoir en renvoyer les données ; il a servi à comprendre ce qui s'était passé. La correction tenait en un réglage : activer l'héritage de priorité sur ce verrou, de sorte que la tâche qui le tient prenne temporairement la priorité de celle qui l'attend.\n\n## Ce que ça déplace\n\nOn raconte souvent que l'équipe n'avait rien vu venir. Reeves écrit l'inverse : le problème avait été aperçu avant l'atterrissage, mais n'avait pas pu être reproduit, et l'équipe, concentrée sur l'entrée dans l'atmosphère et l'atterrissage, l'avait classé comme moins urgent. Les essais d'avant le lancement ne couvraient que les cas de débit de données élevé, pas la charge plus forte qu'on a observée à la surface.\n\nReeves ajoute qu'il n'y avait pas eu de décision de laisser cette option désactivée : l'équipe ne l'avait simplement pas vue. Le système avait été conçu pour se réinitialiser sans perdre ses données, et ce filet explique pourquoi le défaut avait été classé parmi les moins urgents.\n\nUne panne rare peut être connue et rester bénigne. Combien de défauts « non reproduits » dorment dans des systèmes dont la prochaine charge dépassera ce que l'on avait imaginé ?",
+  "citation": null,
+  "repere": {
+    "texte": "Le problème a été reproduit en laboratoire « en moins de 18 heures », puis corrigé en activant l'héritage de priorité sur le verrou utilisé par select(), selon le responsable logiciel de la mission.",
+    "source": "Glenn E. Reeves (JPL), « What really happened on Mars? », courriel du 15 décembre 1997 ; « Priority Inversion: How We Found It, How We Fixed It », Dr. Dobb's Journal, novembre 1999",
+    "url": "https://www.cs.unc.edu/~anderson/teach/comp790/papers/mars_pathfinder_long_version.html"
+  },
+  "carte": {
+    "punch": "Pathfinder se réinitialisait sur Mars : une tâche mineure bloquait une tâche majeure.",
+    "idee": "En 1997, une tâche de priorité basse tenait un verrou dont dépendait une tâche de haute priorité, et des tâches moyennes l'empêchaient d'avancer. Un réglage d'héritage de priorité l'a corrigé. Le défaut avait été vu avant l'atterrissage.",
+    "source_courte": "Reeves, JPL, 1997 et 1999"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Reeves, Glenn E. (Jet Propulsion Laboratory)",
+      "titre": "What really happened on Mars? (réponse du 15 décembre 1997, copie hébergée par l'université de Caroline du Nord)",
+      "publication": "cs.unc.edu, copie d'un courriel diffusé en listes",
+      "annee": 1997,
+      "url": "https://www.cs.unc.edu/~anderson/teach/comp790/papers/mars_pathfinder_long_version.html",
+      "note": "Texte lu en entier : auteur chef de l'équipe logicielle de Pathfinder ; tâches bc_sched et bc_dist, cycle de 0,125 s ; tâche ASI/MET de basse priorité tenant un verrou du mécanisme select() ; réinitialisation ; moins de 18 heures pour reproduire ; correction par l'option d'héritage de priorité ; problème aperçu avant l'atterrissage sans pouvoir être reproduit ; absence de décision consciente de laisser l'option désactivée."
+    },
+    {
+      "type": "article",
+      "auteur": "Reeves, Glenn E.",
+      "titre": "Priority Inversion: How We Found It, How We Fixed It",
+      "publication": "Dr. Dobb's Journal, novembre 1999",
+      "annee": 1999,
+      "url": "https://jacobfilipp.com/DrDobbs/articles/DDJ/1999/9911/9911a/9911as1.htm",
+      "note": "Copie d'archive de l'article, lue : même récit par le même auteur (outil de trace conservé par conception, reproduction en moins de 18 heures, changement d'une variable globale pour l'héritage de priorité, essais avant modification du logiciel de bord)."
+    },
+    {
+      "type": "institution",
+      "auteur": "NASA",
+      "titre": "Mars Pathfinder",
+      "publication": "science.nasa.gov",
+      "annee": null,
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "note": "Page ouverte : atterrissage le 4 juillet 1997, à Ares Vallis (la page écrit aussi Ares Valles)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Page NASA de la mission Mars Pathfinder",
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "note": "Contexte de la mission et date d'atterrissage."
+    }
+  ],
+  "illustration": {
+    "prompt": "Trois barres horizontales de longueurs différentes empilées : une courte tenant un petit carré, une longue au-dessus qui attend, et entre elles plusieurs barres moyennes qui passent. Aplats pleins, deux encres, aucun dégradé, aucune figure humaine.",
+    "alt": "Trois niveaux de barres, la plus courte retenant un carré dont la plus longue a besoin",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Quel réglage a corrigé le problème de Pathfinder ?",
+    "choix": [
+      "Le remplacement du processeur de bord par un modèle plus puissant",
+      "L'activation de l'héritage de priorité sur le verrou du mécanisme select()",
+      "La suppression de la tâche météorologique pour libérer du temps de calcul",
+      "L'allongement du cycle de 0,125 seconde qui rythmait le bus"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Avec l'héritage de priorité, la tâche qui tient le verrou prend la priorité de celle qui l'attend, et les tâches moyennes ne peuvent plus la retarder. Le processeur n'a pas été changé, la tâche météo a été conservée et le cycle est resté le même."
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

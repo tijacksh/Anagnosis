@@ -1,0 +1,74 @@
+{
+  "id": "inf-knight-capital-2012-power-peg-code-mort-reveille",
+  "slug": "knight-capital-2012-power-peg-code-mort-reveille",
+  "titre": "Knight Capital : un drapeau réutilisé réveille un code mort depuis 2003",
+  "accroche": "Le 1er août 2012, un serveur sur huit exécute un code abandonné depuis 2003. En 45 minutes, Knight Capital perd plus de 460 millions de dollars.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Le 1er août 2012, à l'ouverture de la Bourse de New York, Knight Capital Americas reçoit 212 petits ordres de clients. Son routeur automatique, nommé SMARS, doit les découper en ordres plus petits et les envoyer aux plateformes de marché. En 45 minutes environ, il obtient plus de 4 millions d'exécutions sur 154 actions, pour plus de 397 millions de titres. La société se retrouve avec des positions nettes d'environ 3,5 milliards de dollars à l'achat sur 80 actions et 3,15 milliards à la vente sur 74 autres. Elle y perd plus de 460 millions de dollars.\n\n## Le mécanisme\n\nOn parle souvent d'un « bug dans le nouveau logiciel ». L'ordre de la SEC, daté d'octobre 2013, raconte autre chose. Knight déployait du code pour le Retail Liquidity Program de la Bourse de New York, qui commençait ce jour-là. Ce code réutilisait un drapeau, une valeur « oui ou non », qui servait autrefois à activer une fonction appelée Power Peg. Knight avait cessé d'utiliser Power Peg en 2003, mais le code était resté présent dans le routeur. En 2005, une partie de son mécanisme de comptage, celui qui arrête l'envoi d'ordres dès que la commande d'origine est entièrement exécutée, avait été déplacée sans que Power Peg soit retesté.\n\nSMARS tournait sur huit serveurs. Le déploiement s'est fait par étapes, à partir du 27 juillet, et un technicien n'a pas copié le nouveau code sur l'un des huit. Personne ne l'a relu : il n'existait aucune procédure écrite exigeant un second regard. Le 1er août, sur les sept serveurs à jour, le drapeau commandait le nouveau code. Sur le huitième, il réveillait l'ancien Power Peg, qui envoyait des ordres en continu sans savoir que la commande d'origine était déjà remplie.\n\nAvant l'ouverture, un système interne avait pourtant produit 97 courriels d'erreur « Power Peg disabled », dès 8 h 01. Ils n'avaient pas été conçus comme des alertes, et personne ne les a lus. Pendant l'incident, une tentative de correction a même aggravé la situation : désinstaller le nouveau code des sept serveurs corrects les a fait basculer eux aussi vers l'ancien code.\n\n## Ce que l'épisode déplace\n\nLe coupable n'est pas une ligne écrite en 2012. C'est un code que plus personne n'utilisait, resté en place pendant près de dix ans, et un drapeau recyclé pour un autre sens. Du code mort n'est pas du code inerte : il attend qu'une condition le rappelle.\n\nLa SEC a sanctionné Knight non pour une erreur de programmation, mais pour l'absence de contrôles : le 16 octobre 2013, elle lui a infligé 12 millions de dollars d'amende au titre de la règle d'accès au marché. C'était, selon elle, sa première action fondée sur cette règle.\n\nCombien de systèmes en production portent encore, quelque part, une fonction que plus personne n'appelle ?",
+  "citation": null,
+  "repere": {
+    "texte": "212 ordres de clients ont produit plus de 4 millions d'exécutions sur 154 actions, pour plus de 397 millions de titres en environ 45 minutes, et une perte de plus de 460 millions de dollars pour Knight.",
+    "source": "SEC, ordre d'ouverture de procédure administrative contre Knight Capital Americas LLC, Release n° 34-70694, 16 octobre 2013",
+    "url": "https://www.sec.gov/files/litigation/admin/2013/34-70694.pdf"
+  },
+  "carte": {
+    "punch": "Un code abandonné en 2003 s'est réveillé sur un serveur sur huit et a coûté 460 millions de dollars.",
+    "idee": "Le 1er août 2012, un drapeau réutilisé a réactivé la fonction Power Peg sur un des huit serveurs de Knight Capital, qui n'avait pas reçu le nouveau code. Plus de 4 millions d'exécutions en 45 minutes. La SEC a infligé 12 millions de dollars d'amende.",
+    "source_courte": "SEC, ordre 34-70694, 2013"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "US Securities and Exchange Commission",
+      "titre": "In the Matter of Knight Capital Americas LLC, Order Instituting Administrative and Cease-and-Desist Proceedings (Release No. 34-70694)",
+      "publication": "sec.gov",
+      "annee": 2013,
+      "url": "https://www.sec.gov/files/litigation/admin/2013/34-70694.pdf",
+      "note": "Texte intégral lu : 212 ordres, 4 millions d'exécutions, 154 actions, 397 millions de titres, 45 minutes ; positions de 3,5 et 3,15 milliards ; perte de plus de 460 millions ; Power Peg abandonné en 2003, comptage déplacé en 2005 sans nouveau test ; huit serveurs, déploiement dès le 27 juillet, un serveur oublié, aucun second contrôle ; 97 courriels à partir de 8 h 01 ; désinstallation du nouveau code sur sept serveurs qui aggrave le problème ; amende de 12 millions de dollars."
+    },
+    {
+      "type": "institution",
+      "auteur": "US Securities and Exchange Commission",
+      "titre": "SEC Charges Knight Capital With Violations of Market Access Rule (Press Release 2013-222)",
+      "publication": "sec.gov",
+      "annee": 2013,
+      "url": "https://www.sec.gov/newsroom/press-releases/2013-222",
+      "note": "Page ouverte : 16 octobre 2013 ; amende de 12 millions de dollars ; première action de la SEC au titre de la règle d'accès au marché (Rule 15c3-5, adoptée en 2010) ; perte de plus de 460 millions. Le communiqué parle de plus de 4 millions d'ordres envoyés, là où l'ordre parle d'exécutions : la fiche suit l'ordre."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Communiqué de la SEC du 16 octobre 2013",
+      "url": "https://www.sec.gov/newsroom/press-releases/2013-222",
+      "note": "Version courte de l'ordre, avec la déclaration de la SEC sur la règle d'accès au marché."
+    }
+  ],
+  "illustration": {
+    "prompt": "Huit rectangles alignés, sept d'une même teinte et le huitième d'une teinte différente, d'où partent de nombreuses fines lignes régulières. Aplats pleins, deux encres, aucun dégradé, aucune figure humaine.",
+    "alt": "Huit rectangles alignés dont un seul, d'une autre couleur, émet de nombreuses lignes",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi un seul des huit serveurs a-t-il envoyé des ordres en masse ?",
+    "choix": [
+      "Il était plus rapide que les autres et saturait le marché de ses ordres",
+      "Le nouveau code contenait une erreur de calcul absente des sept autres serveurs",
+      "Un pirate avait modifié le logiciel de ce serveur la veille de l'ouverture",
+      "Le nouveau code n'y avait pas été copié, et le drapeau réveillait l'ancien Power Peg"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Un technicien n'a pas copié le nouveau code sur ce serveur, et le drapeau réutilisé y a activé l'ancienne fonction Power Peg. Ce n'est ni une question de vitesse, ni une erreur du nouveau code, qui fonctionnait sur les sept autres, ni une intrusion."
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-10-29",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
