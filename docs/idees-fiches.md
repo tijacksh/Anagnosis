@@ -518,6 +518,6 @@ peut rouvrir directement le texte du décret.)*
 | Nutrition | Sucre et hyperactivité des enfants : méta-analyse de Wolraich (JAMA 1995, 23 études), essai d'attentes de Hoover et Milich (1994) où des mères voient de l'hyperactivité dans un placebo | fait | routine-production-arnaud | 2026-10-29 |
 | Nutrition | Acides gras trans : Mensink et Katan (NEJM 1990), 59 volontaires, trois régimes de trois semaines, le LDL monte et le HDL baisse | fait | routine-production-arnaud | 2026-10-29 |
 | Nutrition | Petit-déjeuner et poids : 13 essais randomisés (Sievert, BMJ 2019), l'association observée ne se retrouve pas dans les essais | fait | routine-production-arnaud | 2026-10-29 |
-| Architecture | Tour de Pise : l'arrêt du chantier vers 1178 et la reprise vers 1272 l'ont sauvée, la stabilisation de 2001 a ramené l'inclinaison à celle de 1838 (Burland, Ingenia 2001) | en cours | routine-production-arnaud | 2026-10-30 |
-| Architecture | Johnson Wax (Racine, 1937) : la colonne d'essai chargée à 60 tonnes pour 12 requises, soit cinq fois et non dix | en cours | routine-production-arnaud | 2026-10-30 |
-| Architecture | La triade vitruvienne (De architectura, I, 3, 2) et son reclassement par Wotton en 1624 (commodité, solidité, agrément) | en cours | routine-production-arnaud | 2026-10-30 |
+| Architecture | Tour de Pise : l'arrêt du chantier vers 1178 et la reprise vers 1272 l'ont sauvée, la stabilisation de 2001 a ramené l'inclinaison à celle de 1838 (Burland, Ingenia 2001) | fait | routine-production-arnaud | 2026-10-30 |
+| Architecture | Johnson Wax (Racine, 1937) : la colonne d'essai chargée à 60 tonnes pour 12 requises, soit cinq fois et non dix | fait | routine-production-arnaud | 2026-10-30 |
+| Architecture | La triade vitruvienne (De architectura, I, 3, 2) et son reclassement par Wotton en 1624 (commodité, solidité, agrément) | fait | routine-production-arnaud | 2026-10-30 |
