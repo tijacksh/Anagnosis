@@ -72,15 +72,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le formulaire est conditionnel : le signataire promet d'apprendre la langue seulement s'il est démontré que dix millions de personnes ont donné la même promesse, et le livre précise que signer n'engage à rien si l'entreprise échoue. Il ne demande ni cotisation ni enseignement à des proches. Une mention distincte, sans condition, existait seulement pour ceux qui voulaient apprendre sans attendre les autres.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-30T22:15:21.335Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-30T22:15:21.335Z",
+        "note": "Sources rouvertes : archive.org (traduction 1889 intégrale, djvu) confirme mot pour mot le formulaire des dix millions, Kontraŭ, engagement sans condition, « no sacrifice », 900 mots, « the day after its appearance », note nom de plume ; Wikipédia Unua Libro confirme 26 juillet 1887, 42 pages, Kelter, Varsovie, titre russe, usage du pseudonyme dès 1889 ; Wikipédia Esperanto confirme « one who hopes » et lingvo internacia. Repere fidèle, carte autonome, quiz correct (distracteurs faux et plausibles). Aucune divergence."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-22",
