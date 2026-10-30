@@ -529,3 +529,7 @@ peut rouvrir directement le texte du décret.)*
 | Climat et météorologie | Beaufort (1805-1806) : une échelle d'abord fondée sur la toile que porte un navire, non sur une vitesse de vent | fait | routine-production-arnaud | 2026-10-30 |
 | Climat et météorologie | Michael Fish (BBC, 15 octobre 1987) : ce qu'il a dit de l'ouragan, et ce que la Grande Tempête a réellement été | fait | routine-production-arnaud | 2026-10-30 |
 | Climat et météorologie | Rapport Charney (1979) : la fourchette de 1,5 à 4,5 °C pour un doublement du CO₂ | fait | routine-production-arnaud | 2026-10-30 |
+| Conformité | Madoff et la SEC (rapport de l'inspecteur général, 31 août 2009) : six plaintes en seize ans, cinq examens ou enquêtes, des relevés demandés à Madoff lui-même et jamais à la chambre de compensation | en cours | routine-production-arnaud | 2026-10-30 |
+| Conformité | La politique de clémence de l'Antitrust Division (10 août 1993) : une amnistie réservée au premier qui parle, d'une demande par an à une par mois | en cours | routine-production-arnaud | 2026-10-30 |
+| Conformité | Lehman Brothers et le « Repo 105 » (rapport Valukas, 11 mars 2010) : une opération autorisée par un avis d'avocats anglais faute d'avis américain | en cours | routine-production-arnaud | 2026-10-30 |
+| Conformité | *Schrems* (CJUE, 6 octobre 2015) : la décision « sphère de sécurité » invalidée sans examen de ses principes | en cours | routine-production-arnaud | 2026-10-30 |
