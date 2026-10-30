@@ -75,7 +75,41 @@
     "explication": "La relation dépend de la forme de l'azote : avec du sulfate d'ammonium, le sol s'acidifie, le nombre d'espèces ne varie plus avec la biomasse et remonte avec le pH quand on chaule. Le nombre d'espèces va de 3 à 44 par parcelle de 200 m², donc les parcelles ne se ressemblent pas, et, dans ces parcelles, un apport plus fort ne donne pas un pré plus riche en espèces.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "En 1856, quelle question agricole motive Lawes et Gilbert à lancer l'expérience de Park Grass ?",
+      "choix": [
+        "Quelle combinaison d'engrais et de fumier donne le plus de foin",
+        "Quelle combinaison de traitements retarde le plus la floraison",
+        "Quel traitement réduit le mieux l'acidité naturelle du sol",
+        "Quel traitement limite le mieux l'invasion d'espèces non locales"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'expérience part d'une question agricole : quelle combinaison d'engrais ou de fumier donne le plus de rendement en foin. Les questions sur la richesse en espèces et le pH viennent de l'analyse scientifique ultérieure, pas de l'objectif de 1856."
+    },
+    {
+      "question": "D'après Crawley et ses collègues (2005), quel est l'effet du phosphore et du potassium sur le nombre d'espèces à Park Grass ?",
+      "choix": [
+        "Le potassium seul augmente le nombre d'espèces, le phosphore seul n'a pas d'effet",
+        "Le phosphore réduit le nombre d'espèces, et le potassium ajouté au phosphore le réduit davantage",
+        "Ni le phosphore ni le potassium ne modifient le nombre d'espèces, seul l'azote agit",
+        "Le phosphore et le potassium n'ont d'effet que sur les parcelles chaulées"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le phosphore réduit le nombre d'espèces, le potassium ajouté au phosphore le réduit davantage, et les plus fortes baisses viennent de l'azote et du phosphore apportés ensemble."
+    },
+    {
+      "question": "Quel effet la chaux a-t-elle sur le nombre d'espèces à Park Grass, selon la fiche ?",
+      "choix": [
+        "Elle réduit le nombre d'espèces sur toutes les parcelles sans exception",
+        "Elle n'a aucun effet, y compris sur les parcelles au sulfate d'ammonium",
+        "Elle n'a pas d'effet, sauf sur les parcelles au sulfate d'ammonium, où il remonte avec le pH",
+        "Elle n'a d'effet que sur les parcelles sans azote ni fumier"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La chaux n'a pas d'effet, sauf sur les parcelles traitées au sulfate d'ammonium : le sol y est acidifié, et le nombre d'espèces remonte fortement quand le chaulage fait augmenter le pH."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
