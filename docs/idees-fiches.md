@@ -521,7 +521,7 @@ peut rouvrir directement le texte du décret.)*
 | Architecture | Tour de Pise : l'arrêt du chantier vers 1178 et la reprise vers 1272 l'ont sauvée, la stabilisation de 2001 a ramené l'inclinaison à celle de 1838 (Burland, Ingenia 2001) | fait | routine-production-arnaud | 2026-10-30 |
 | Architecture | Johnson Wax (Racine, 1937) : la colonne d'essai chargée à 60 tonnes pour 12 requises, soit cinq fois et non dix | fait | routine-production-arnaud | 2026-10-30 |
 | Architecture | La triade vitruvienne (De architectura, I, 3, 2) et son reclassement par Wotton en 1624 (commodité, solidité, agrément) | fait | routine-production-arnaud | 2026-10-30 |
-| Astronomie | Galilée (7-13 janvier 1610) : trois « étoiles fixes » près de Jupiter, et les nuits qu'il faut pour comprendre que ce sont des satellites (Sidereus Nuncius) | en cours | routine-production-arnaud | 2026-10-30 |
-| Astronomie | Bradley (1728) : cherchant la parallaxe de gamma du Dragon, il trouve l'aberration de la lumière, et un rapport de 10 210 entre vitesse de la lumière et vitesse de la Terre | en cours | routine-production-arnaud | 2026-10-30 |
-| Astronomie | Kepler (Astronomia nova, 1609, chap. 19) : huit minutes d'arc d'écart, que Ptolémée, qui n'observait pas sous dix minutes, pouvait ignorer | en cours | routine-production-arnaud | 2026-10-30 |
-| Astronomie | Schiaparelli (canali, 1877-1893) et Lowell (1895) : un canal naturel pour l'un, une œuvre d'ingénieurs pour l'autre | en cours | routine-production-arnaud | 2026-10-30 |
+| Astronomie | Galilée (7-13 janvier 1610) : trois « étoiles fixes » près de Jupiter, et les nuits qu'il faut pour comprendre que ce sont des satellites (Sidereus Nuncius) | fait | routine-production-arnaud | 2026-10-30 |
+| Astronomie | Bradley (1728) : cherchant la parallaxe de gamma du Dragon, il trouve l'aberration de la lumière, et un rapport de 10 210 entre vitesse de la lumière et vitesse de la Terre | fait | routine-production-arnaud | 2026-10-30 |
+| Astronomie | Kepler (Astronomia nova, 1609, chap. 19) : huit minutes d'arc d'écart, que Ptolémée, qui n'observait pas sous dix minutes, pouvait ignorer | fait | routine-production-arnaud | 2026-10-30 |
+| Astronomie | Schiaparelli (canali, 1877-1893) et Lowell (1895) : un canal naturel pour l'un, une œuvre d'ingénieurs pour l'autre | fait | routine-production-arnaud | 2026-10-30 |
