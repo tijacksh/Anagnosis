@@ -74,7 +74,41 @@
     "explication": "Le formulaire est conditionnel : le signataire promet d'apprendre la langue seulement s'il est démontré que dix millions de personnes ont donné la même promesse, et le livre précise que signer n'engage à rien si l'entreprise échoue. Il ne demande ni cotisation ni enseignement à des proches. Une mention distincte, sans condition, existait seulement pour ceux qui voulaient apprendre sans attendre les autres.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Sous quel titre et dans quelle langue paraît le livre de 1887, avant d'être traduit en anglais en 1889 ?",
+      "choix": [
+        "En français, sous le titre « Langue universelle »",
+        "En allemand, sous le titre « Langue de la raison »",
+        "En russe, sous un titre signifiant « Langue internationale »",
+        "En polonais, sous le titre « Langue du peuple »"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le livre paraît d'abord en russe, sous le titre Международный язык, qui signifie « Langue internationale », avant la traduction américaine de 1889."
+    },
+    {
+      "question": "Que peut faire, selon le formulaire joint au livre, un lecteur opposé au projet de Zamenhof ?",
+      "choix": [
+        "Renvoyer le formulaire sans le signer, ce qui vaut automatiquement refus",
+        "Écrire directement à l'éditeur Chaim Kelter pour demander le retrait du livre",
+        "Signer malgré tout, le refus n'étant prévu par aucune mention du formulaire",
+        "Renvoyer le formulaire marqué du mot Kontraŭ, accompagné de ses objections"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le formulaire prévoit une mention distincte, Kontraŭ (contre), que le lecteur opposé au projet peut renvoyer accompagnée de ses objections à la langue proposée."
+    },
+    {
+      "question": "Que revendique Zamenhof à propos du vocabulaire de sa langue, dans l'Unua Libro ?",
+      "choix": [
+        "Qu'il faut au moins dix mille mots pour tenir une conversation simple",
+        "Qu'avec 900 mots appris, on connaît la langue de fond en comble grâce aux règles de formation",
+        "Que le vocabulaire reste à inventer, le livre ne proposant que la grammaire",
+        "Que chaque nation doit fournir son propre vocabulaire, seule la grammaire étant commune"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Zamenhof affirme que 900 mots appris suffisent à connaître la langue de fond en comble, les règles de formation permettant de construire tous les autres mots."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
