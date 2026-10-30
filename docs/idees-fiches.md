@@ -525,3 +525,7 @@ peut rouvrir directement le texte du décret.)*
 | Astronomie | Bradley (1728) : cherchant la parallaxe de gamma du Dragon, il trouve l'aberration de la lumière, et un rapport de 10 210 entre vitesse de la lumière et vitesse de la Terre | fait | routine-production-arnaud | 2026-10-30 |
 | Astronomie | Kepler (Astronomia nova, 1609, chap. 19) : huit minutes d'arc d'écart, que Ptolémée, qui n'observait pas sous dix minutes, pouvait ignorer | fait | routine-production-arnaud | 2026-10-30 |
 | Astronomie | Schiaparelli (canali, 1877-1893) et Lowell (1895) : un canal naturel pour l'un, une œuvre d'ingénieurs pour l'autre | fait | routine-production-arnaud | 2026-10-30 |
+| Climat et météorologie | Callendar (1938) : « The artificial production of carbon dioxide and its influence on temperature », un ingénieur vapeur calcule le réchauffement par le CO₂ | en cours | routine-production-arnaud | 2026-10-30 |
+| Climat et météorologie | Beaufort (1805-1806) : une échelle d'abord fondée sur la toile que porte un navire, non sur une vitesse de vent | en cours | routine-production-arnaud | 2026-10-30 |
+| Climat et météorologie | Michael Fish (BBC, 15 octobre 1987) : ce qu'il a dit de l'ouragan, et ce que la Grande Tempête a réellement été | en cours | routine-production-arnaud | 2026-10-30 |
+| Climat et météorologie | Rapport Charney (1979) : la fourchette de 1,5 à 4,5 °C pour un doublement du CO₂ | en cours | routine-production-arnaud | 2026-10-30 |
