@@ -73,15 +73,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "La relation dépend de la forme de l'azote : avec du sulfate d'ammonium, le sol s'acidifie, le nombre d'espèces ne varie plus avec la biomasse et remonte avec le pH quand on chaule. Le nombre d'espèces va de 3 à 44 par parcelle de 200 m², donc les parcelles ne se ressemblent pas, et, dans ces parcelles, un apport plus fort ne donne pas un pré plus riche en espèces.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-30T10:16:08.969Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-30T10:16:08.969Z",
+        "note": "Sources rouvertes indépendamment. Crawley et al. 2005 confirmé via le résumé PubMed (PMID 15729649, accès distinct du dépôt Rothamsted utilisé au premier contrôle) : 3 à 44 espèces/200 m², relation biomasse/richesse disparaissant sous sulfate d'ammonium, chaux sans effet hors ces parcelles, phosphore et potassium qui réduisent la richesse, pire effet avec N+P ensemble — mot pour mot. Wikipédia (en) confirmé : 1856, 28 000 m² (6,9 acres), et recoupe indépendamment les quatre points attribués à Silvertown et al. 2006 (plus ancienne expérience d'écologie, liens richesse/biomasse/pH, réponse au climat, adaptation locale des graminées). Accès direct à onlinelibrary.wiley.com, journals.uchicago.edu et rothamsted.ac.uk bloqué par la politique réseau, comme au premier contrôle ; corroboration indirecte jugée suffisante. Repère, carte et quiz conformes. Rien à changer."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-21",
