@@ -63,15 +63,24 @@
     ],
     "bonne_reponse": 3,
     "explication": "À environ 250 miles, la gravité vaut encore 88,8 % de celle du sol, donc elle n'est pas presque nulle, et ce n'est pas le vide qui supprime le poids. La vitesse de 28 000 km/h n'annule pas l'attraction : elle fait que la chute contourne la Terre au lieu de l'atteindre.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-10-31T22:14:25.076Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-10-31T22:14:25.076Z",
+        "note": "NASA « What is microgravity? » rouverte : idée reçue, altitudes 120-360 miles, 88,8 % à ~250 miles, 17 500 mph, tour de chute ~500 pieds / un peu plus de 5 s dans le vide, « anti-gravity chambers » (tours de chute spécifiquement), montagnes russes/trampoline/route vallonnée, microgravité 1×10⁻⁶ g, confirmés mot pour mot ou en substance. Wikipédia en (Newton's cannonball) rouvert : expérience de la pierre lancée du sommet d'une montagne au début de De mundi systemate (1728, posthume) confirmée. Conversions 700N→~620N et 190-580 km recalculées, exactes. Carte et quiz fidèles, distracteurs faux et plausibles."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-22",
