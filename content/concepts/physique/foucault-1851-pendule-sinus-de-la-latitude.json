@@ -66,7 +66,41 @@
     "explication": "Foucault énonce que le déplacement du plan est égal au mouvement angulaire de la Terre multiplié par le sinus de la latitude : seule une part de la rotation joue. Le frottement amortit l'amplitude, pas la vitesse de dérive. La longueur du fil n'intervient pas dans la période de dérive. Et Paris tourne bien avec la Terre : c'est l'orientation de l'horizon qui compte.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle est la période de rotation du plan d'oscillation du pendule de Foucault au pôle ?",
+      "choix": [
+        "23 heures 56 minutes et 4 secondes, soit un jour sidéral",
+        "24 heures exactement, un jour solaire",
+        "31 heures 47 minutes et 16 secondes, comme à Paris",
+        "12 heures, soit un demi-tour par jour"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Au pôle, le sinus de la latitude vaut 1 : le plan reste fixe pendant que le sol fait un tour en un jour sidéral, pas en un jour solaire de 24 heures exactement."
+    },
+    {
+      "question": "Que se passe-t-il au plan d'oscillation du pendule, à l'équateur, selon la note de Foucault ?",
+      "choix": [
+        "Le plan tourne deux fois plus vite qu'au pôle",
+        "Le mouvement s'annule, le plan ne dérive pas",
+        "Le plan fait un tour en 24 heures comme on le croit à Paris",
+        "Le pendule s'arrête d'osciller faute de rotation"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Foucault écrit que le mouvement s'annule à l'équateur, où le sinus de la latitude vaut zéro, avant de changer de sens dans l'autre hémisphère."
+    },
+    {
+      "question": "Avec quel mémoire antérieur Foucault rapproche-t-il ses observations, à la fin de sa note de 1851 ?",
+      "choix": [
+        "Le mémoire de Coriolis sur la force qui porte son nom",
+        "Le mémoire de Laplace sur la précession des équinoxes",
+        "Le mémoire de Poisson, de 1837, sur la déviation des projectiles",
+        "Le mémoire de Newton sur la chute des corps"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Foucault cite le mémoire que Poisson a lu à l'Académie le 13 novembre 1837, sur la déviation des projectiles causée par la rotation terrestre."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
