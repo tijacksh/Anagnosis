@@ -541,3 +541,7 @@ peut rouvrir directement le texte du décret.)*
 | Économie | La courbe de Laffer : la serviette de 1974 racontée par Wanniski (1978), que Laffer dit ne pas se rappeler, et les précurseurs d'Ibn Khaldoun à Keynes | fait | routine-production-arnaud | 2026-10-31 |
 | Économie | Le « prix Nobel » d'économie : un prix de la Banque de Suède de 1968, absent du testament de 1895, et la réserve de Hayek en 1974 | fait | routine-production-arnaud | 2026-10-31 |
 | Économie | Le paradoxe de Jevons (The Coal Question, 1865) : pourquoi un charbon employé plus économiquement se consomme davantage | fait | routine-production-arnaud | 2026-10-31 |
+| Génétique | Tjio et Levan (1956) : l'espèce humaine a 46 chromosomes, que l'on a crus 48 pendant plus de trente ans | en cours | routine-production-arnaud | 2026-10-31 |
+| Génétique | Chargaff (1950-1952) : les règles de composition de l'ADN, et la fin de l'hypothèse du tétranucléotide | en cours | routine-production-arnaud | 2026-10-31 |
+| Génétique | Le « dogme central » de Crick (1958, 1970) : ce qu'il interdit vraiment, et pourquoi la transcriptase inverse ne le réfute pas | en cours | routine-production-arnaud | 2026-10-31 |
+| Génétique | Gusella et al. (1983) : le marqueur de la maladie de Huntington sur le chromosome 4, repéré avant le gène | en cours | routine-production-arnaud | 2026-10-31 |
