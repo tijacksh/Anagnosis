@@ -546,3 +546,7 @@ peut rouvrir directement le texte du décret.)*
 | Génétique | Mary Lyon (1961) : l'inactivation au hasard de l'un des deux X chez la femelle, des neurones de chat de Barr (1949) à la mosaïque de Beutler (1962) | fait | routine-production-arnaud | 2026-10-31 |
 | Génétique | Le « dogme central » de Crick (1958, 1970) : ce qu'il interdit vraiment, et pourquoi la transcriptase inverse ne le réfute pas | fait | routine-production-arnaud | 2026-10-31 |
 | Génétique | Gusella et al. (1983) : le marqueur de la maladie de Huntington sur le chromosome 4, repéré avant le gène | fait | routine-production-arnaud | 2026-10-31 |
+| Géographie | Peak XV devient « Mont Everest » (1856) : Waugh nomme le sommet faute d'avoir trouvé un nom local, et la Société asiatique du Bengale propose de l'appeler Waugh | en cours | routine-production-arnaud | 2026-11-01 |
+| Géographie | Le Tonlé Sap (Cambodge) : le fleuve qui change de sens chaque année, et le lac qui passe de 2 500 à plus de 10 000 km² | en cours | routine-production-arnaud | 2026-11-01 |
+| Géographie | La poussière du Sahara (dépression du Bodélé) fertilise l'Amazonie : 27,7 millions de tonnes par an, 22 000 tonnes de phosphore (Yu et al., 2015) | en cours | routine-production-arnaud | 2026-11-01 |
+| Géographie | Le cap de Bonne-Espérance n'est pas la pointe sud de l'Afrique : le cap des Aiguilles et la limite Atlantique / océan Indien (OHI, 1953) | en cours | routine-production-arnaud | 2026-11-01 |
