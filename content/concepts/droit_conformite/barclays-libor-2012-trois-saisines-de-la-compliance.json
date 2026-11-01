@@ -55,15 +55,24 @@
     ],
     "bonne_reponse": 1,
     "explication": "L'avis relève trois saisines de la Compliance de la banque d'investissement en 2007 et 2008, chaque fois sans traitement efficace, ce qui a laissé les manquements se poursuivre et a nui à l'information du régulateur. La fonction existait, n'avait pas informé la FSA de façon claire, et la définition du Libor n'autorise pas la prise en compte des positions des opérateurs.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-01T10:13:13.647Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-01T10:13:13.647Z",
+        "note": "Sources rouvertes autant que possible : fca.org.uk et cftc.gov bloqués par le proxy réseau de la session (ENOTFOUND), comme econwpa/aeaweb plus tôt. Corroboration indépendante par recherche web, qui a retrouvé le contenu réel des documents : amende de 59,5 millions de livres confirmée littéralement ('the FSA hereby imposes on Barclays Bank Plc a financial penalty of £59.5 million'), 85 millions avant la remise de 30% confirmés, principes 2, 3 et 5 confirmés, escalade à la fonction Compliance de la banque d'investissement en 2007 et 2008 confirmée par le communiqué FCA lui-même, et la correction apportée au contrôle précédent (« n'avait pas informé la FSA de façon claire » plutôt que « n'avait pas alerté ») est confirmée par un rapport d'audit interne FCA cité en recherche : la Compliance a appelé la FSA en décembre 2007 sur le Libor mais 'did not inform the FSA that Barclays' own submissions were the concern', et son implication d'octobre 2008 n'a pas non plus été signalée. 554 000 milliards de dollars (BRI, mi-2011) confirmé par plusieurs sources secondaires reprenant le chiffre de la notice. CFTC 200 millions de dollars confirmé. Rien à corriger de plus que ce que le contrôle avait déjà fait."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-23",
