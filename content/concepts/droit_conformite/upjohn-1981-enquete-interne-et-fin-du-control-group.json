@@ -58,7 +58,56 @@
     "explication": "Le test restreignait le secret aux seuls dirigeants, ce qui privait l'avocat de l'information des cadres intermédiaires et rendait la protection incertaine. Il ne couvrait pas les faits (que l'arrêt laisse accessibles), n'excluait pas le directeur juridique, et c'est la cour d'appel du sixième circuit, non un tribunal isolé, qui l'avait appliqué.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'est-ce qui déclenche l'enquête interne d'Upjohn en janvier 1976 ?",
+      "choix": [
+        "Un signalement anonyme reçu par la SEC concernant des pots-de-vin",
+        "Les commissaires aux comptes découvrent des paiements versés à des officiels étrangers",
+        "Une plainte déposée par un concurrent pharmaceutique auprès de l'IRS",
+        "Une enquête parlementaire sur les pratiques commerciales à l'étranger"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les commissaires aux comptes découvrent en janvier 1976 que des paiements litigieux visaient à obtenir des marchés auprès d'officiels étrangers, ce qui déclenche l'enquête interne.",
+      "statut": "valide"
+    },
+    {
+      "question": "Comment l'enquête interne est-elle menée auprès des cadres à l'étranger ?",
+      "choix": [
+        "Un questionnaire des avocats, signé par le président, envoyé aux directeurs de zone",
+        "Un cabinet d'audit externe interroge chaque filiale sans informer la direction",
+        "Les cadres témoignent sous serment devant un grand jury fédéral",
+        "Chaque directeur de zone rédige seul un rapport transmis à la SEC"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Les avocats rédigent le questionnaire, signé par le président, envoyé à tous les directeurs généraux et de zone à l'étranger, avec consigne de renvoyer les réponses directement à Thomas.",
+      "statut": "valide"
+    },
+    {
+      "question": "Que devient le rapport préliminaire qu'Upjohn envoie à la SEC le 26 mars 1976 ?",
+      "choix": [
+        "Il reste confidentiel et n'est jamais communiqué à une autre administration",
+        "Il est transmis au sixième circuit qui en tire le control group test",
+        "Une copie part à l'IRS, qui ouvre une enquête et assigne les documents",
+        "Il est classé sans suite, la SEC jugeant les faits sans gravité"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Une copie du rapport envoyé à la SEC parvient à l'IRS, qui ouvre une enquête et exige par assignation les questionnaires et les notes d'entretien, qu'Upjohn refuse de remettre.",
+      "statut": "valide"
+    },
+    {
+      "question": "Selon la Cour, que protège exactement le secret des échanges avec l'avocat ?",
+      "choix": [
+        "Le secret protège les faits ; les communications restent accessibles au fisc",
+        "Le secret protège à la fois les faits et les communications, sans exception",
+        "Le secret ne protège rien dès qu'une assignation administrative est délivrée",
+        "Le secret protège les communications ; l'IRS reste libre d'interroger les salariés sur les faits"
+      ],
+      "bonne_reponse": 3,
+      "explication": "La Cour précise que le secret couvre la communication avec l'avocat, non les faits sous-jacents : l'IRS garde le droit d'interroger les salariés sur ce qu'ils ont fait.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
