@@ -550,3 +550,7 @@ peut rouvrir directement le texte du décret.)*
 | Géographie | Le Tonlé Sap (Cambodge) : le fleuve qui change de sens chaque année, et le lac qui passe de 2 500 à plus de 10 000 km² | fait | routine-production-arnaud | 2026-11-01 |
 | Géographie | La poussière du Sahara (dépression du Bodélé) fertilise l'Amazonie : 27,7 millions de tonnes par an, 22 000 tonnes de phosphore (Yu et al., 2015) | fait | routine-production-arnaud | 2026-11-01 |
 | Géographie | Le cap de Bonne-Espérance n'est pas la pointe sud de l'Afrique : le cap des Aiguilles et la limite Atlantique / océan Indien (OHI, 1953) | fait | routine-production-arnaud | 2026-11-01 |
+| Histoire | La nuit du 4 août 1789 : le décret des 5-11 août « détruit entièrement le régime féodal » mais déclare rachetables la plupart des droits, abolis sans indemnité en 1793 | en cours | routine-production-arnaud | 2026-11-01 |
+| Histoire | Le traité de Tordesillas (7 juin 1494) : une ligne de 370 lieues négociée entre couronnes, non tracée par le pape (100 lieues dans la bulle de 1493) | en cours | routine-production-arnaud | 2026-11-01 |
+| Histoire | Le casque viking à cornes : image de 1876 (Wagner, Bayreuth), casque de Gjermundbu sans cornes, casques de Viksø de l'âge du bronze | en cours | routine-production-arnaud | 2026-11-01 |
+| Histoire | La Magna Carta de 1215 : dix semaines avant l'annulation par Innocent III, et nom acquis en 1217 | en cours | routine-production-arnaud | 2026-11-01 |
