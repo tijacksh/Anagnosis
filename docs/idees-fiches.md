@@ -554,3 +554,7 @@ peut rouvrir directement le texte du décret.)*
 | Histoire | Le traité de Tordesillas (7 juin 1494) : une ligne de 370 lieues négociée entre couronnes, non tracée par le pape (100 lieues dans la bulle de 1493) | fait | routine-production-arnaud | 2026-11-01 |
 | Histoire | Le casque viking à cornes : image de 1876 (Wagner, Bayreuth), casque de Gjermundbu sans cornes, casques de Viksø de l'âge du bronze | fait | routine-production-arnaud | 2026-11-01 |
 | Histoire | La Magna Carta de 1215 : dix semaines avant l'annulation par Innocent III, et nom acquis en 1217 | fait | routine-production-arnaud | 2026-11-01 |
+| Littérature | The Vampyre (Polidori, 1819) : première fiction vampirique en anglais, publiée sous le nom de Byron, 77 ans avant Dracula | en cours | routine-production-arnaud | 2026-11-01 |
+| Littérature | Robinson Crusoé (1719) et Alexander Selkirk : l'île chilienne rebaptisée Robinson Crusoé en 1966 n'est pas celle du roman | en cours | routine-production-arnaud | 2026-11-01 |
+| Littérature | Beowulf : un manuscrit unique, sauvé de l'incendie de la bibliothèque Cotton (Ashburnham House, 23 octobre 1731) | en cours | routine-production-arnaud | 2026-11-01 |
+| Littérature | Les Voyages de Gulliver (1726) : l'éditeur Motte coupe et modifie le texte de Swift, rétabli par Faulkner en 1735 | en cours | routine-production-arnaud | 2026-11-01 |
