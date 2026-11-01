@@ -96,7 +96,9 @@ await writeFile(path.join(DEST, 'index.html'), html, 'utf8');
 const FICHIERS_STATIQUES = [
   'icone.svg', 'icone-180.png', 'icone-192.png', 'icone-512.png', 'favicon.ico',
   'og.png', 'contact.html', 'mentions-legales.html', 'confidentialite.html',
-  'conditions.html', 'merci.html', '404.html', 'robots.txt', '_headers', 'android.html',
+  'conditions.html', 'merci.html', '404.html', 'robots.txt', '_headers',
+  'trailer-paysage.mp4', 'trailer-portrait.mp4', 'trailer-paysage.jpg', 'trailer-portrait.jpg',
+  'capture-fiche.jpg', 'capture-ecoute.jpg', 'capture-quiz.jpg', 'capture-carte.jpg', 'android.html',
   // Démonstration de la lecture en arrière-plan, demandée par la Play Console
   // (déclaration FOREGROUND_SERVICE_MEDIA_PLAYBACK). Hors plan du site.
   'lecture-en-arriere-plan.mp4',

@@ -171,6 +171,31 @@ section.bloc h2 {
 }
 .trois article p { color: var(--texte-2); font-size: 15px; line-height: 1.55; }
 
+/* ---- l'app : trailer et captures ---- */
+/* Le trailer choisit son cadrage au chargement (script juste après la balise) :
+   paysage 16:9 sur un écran large, portrait sur un téléphone. Une seule vidéo
+   téléchargée, jamais les deux. */
+.trailer { margin: 32px 0 0; }
+.trailer video {
+  display: block; width: 100%; height: auto; max-height: 78vh; margin: 0 auto;
+  background: var(--papier); border: 1px solid var(--filet);
+}
+.trailer.portrait video { width: auto; max-width: 100%; }
+.captures {
+  display: grid; gap: 16px; margin: 32px 0 0; padding: 0; list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 640px) { .captures { grid-template-columns: repeat(2, 1fr); } }
+.captures img {
+  display: block; width: 100%; height: auto; aspect-ratio: 600 / 1304;
+  border: 1px solid var(--filet); border-radius: 14px;
+}
+.captures figcaption {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--texte-2); margin-top: 10px;
+}
+.captures figure { margin: 0; }
+
 /* ---- disciplines, groupées par famille en accordéon (comme dans l'app) ---- */
 .familles { margin-top: 28px; }
 details.famille { border-top: 1px solid var(--filet); }
@@ -287,6 +312,40 @@ footer {
         <span class="texte"><span>Sur</span><b>Android</b></span>
       </a>
     </div>
+  </section>
+
+  <section class="bloc" id="app">
+    <p class="sur-titre">L'application</p>
+    <h2>Ce que vous ouvrez chaque matin.</h2>
+    <figure class="trailer">
+      <video muted loop playsinline controls preload="metadata" width="1280" height="720"
+             aria-label="Présentation d'Anagnosis : la fiche du jour, l'écoute, le calendrier, la série, l'archive, le quiz et la carte à partager">
+        <source src="/trailer-paysage.mp4" type="video/mp4">
+      </video>
+      <script>
+        // Avant la sélection de la source (une tâche plus tard) : un seul MP4 et une
+        // seule affiche téléchargés. Pas de lecture automatique si l'appareil demande
+        // moins d'animations.
+        (function () {
+          var f = document.currentScript.parentNode, v = f.querySelector('video');
+          var portrait = matchMedia('(max-width: 640px)').matches;
+          if (portrait) {
+            f.classList.add('portrait');
+            v.width = 720; v.height = 1560;
+            v.querySelector('source').src = '/trailer-portrait.mp4';
+          }
+          v.poster = portrait ? '/trailer-portrait.jpg' : '/trailer-paysage.jpg';
+          if (!matchMedia('(prefers-reduced-motion: reduce)').matches) v.autoplay = true;
+          v.load();
+        })();
+      </script>
+    </figure>
+    <ul class="captures">
+      <li><figure><img src="/capture-fiche.jpg" width="600" height="1304" loading="lazy" alt="La fiche du jour : « La banalité du mal », avec son illustration"><figcaption>La fiche</figcaption></figure></li>
+      <li><figure><img src="/capture-ecoute.jpg" width="600" height="1304" loading="lazy" alt="L'écoute : la phrase lue est surlignée, le lecteur en bas de l'écran"><figcaption>L'écoute</figcaption></figure></li>
+      <li><figure><img src="/capture-quiz.jpg" width="600" height="1304" loading="lazy" alt="Le quiz : la bonne réponse en vert, l'explication en dessous"><figcaption>Le quiz</figcaption></figure></li>
+      <li><figure><img src="/capture-carte.jpg" width="600" height="1304" loading="lazy" alt="La carte à partager en story, avec la source de la fiche"><figcaption>La carte</figcaption></figure></li>
+    </ul>
   </section>
 
   <section class="bloc">
