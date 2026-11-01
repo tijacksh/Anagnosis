@@ -1,6 +1,6 @@
 /**
  * Worker du site anagnosis.fr : sert la vitrine statique (binding ASSETS, dossier export/site)
- * et ne s'exécute que pour deux adresses, déclarées dans `wrangler-site.toml`
+ * et ne s'exécute que pour les adresses déclarées dans `wrangler-site.toml`
  * (`run_worker_first`) :
  *
  *   POST /inscription           le formulaire « Être prévenu·e du lancement ». Remplace Netlify
@@ -8,12 +8,14 @@
  *                               est passée chez Cloudflare le 2026-10-11, docs/decisions.md).
  *   GET  /inscriptions/decompte décompte des inscriptions par réseau d'origine, derrière un jeton
  *                               (`CLE_DECOMPTE`). Lu par `reseaux/inscriptions.js`. Jamais d'adresse.
+ *   GET  /*.mp4                 les vidéos, servies par plages (`Range`) pour Safari : `plage.js`.
  *
  * Les adresses vont dans la table D1 `inscriptions` (base `anagnosis-codes`, voir
  * `inscriptions.schema.sql`). La politique de confidentialité promet un seul message au lancement,
  * puis l'effacement : la table ne garde que l'adresse, le réseau d'origine et la date.
  */
 import { autorise } from './debit.js';
+import { servirPlage } from './plage.js';
 
 const SOURCES = new Set(['ig', 'tt', 'x', 'direct']);
 const COURRIEL = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/;
@@ -25,6 +27,14 @@ export default {
       return request.method === 'POST' ? inscrire(request, env) : new Response('Méthode non permise', { status: 405 });
     }
     if (url.pathname === '/inscriptions/decompte') return decompte(request, env);
+    // Vidéos : le fichier entier est demandé à ASSETS (les en-têtes conditionnels suivent,
+    // d'où les 304), la plage est découpée ici (voir plage.js).
+    if (url.pathname.endsWith('.mp4') && (request.method === 'GET' || request.method === 'HEAD')) {
+      const entetes = new Headers(request.headers);
+      entetes.delete('Range');
+      entetes.delete('If-Range');
+      return servirPlage(request, await env.ASSETS.fetch(new Request(url, { method: 'GET', headers: entetes })));
+    }
     return env.ASSETS.fetch(request);
   },
 };

@@ -3,14 +3,14 @@ main = "site.js"
 compatibility_date = "2026-10-01"
 
 # La vitrine et le contenu signé, construits par `npm run site` dans export/site. Les fichiers
-# statiques sont servis par Cloudflare sans passer par le Worker (requêtes gratuites) ; seul
-# le formulaire et le décompte l'exécutent.
+# statiques sont servis par Cloudflare sans passer par le Worker (requêtes gratuites) ; seuls
+# le formulaire, le décompte et les vidéos (requêtes partielles, voir plage.js) l'exécutent.
 [assets]
 directory = "../export/site"
 binding = "ASSETS"
 html_handling = "auto-trailing-slash"
 not_found_handling = "404-page"
-run_worker_first = ["/inscription", "/inscriptions/*"]
+run_worker_first = ["/inscription", "/inscriptions/*", "/*.mp4"]
 
 [[d1_databases]]
 binding = "DB"
