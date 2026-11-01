@@ -56,15 +56,24 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le test restreignait le secret aux seuls dirigeants, ce qui privait l'avocat de l'information des cadres intermédiaires et rendait la protection incertaine. Il ne couvrait pas les faits (que l'arrêt laisse accessibles), n'excluait pas le directeur juridique, et c'est la cour d'appel du sixième circuit, non un tribunal isolé, qui l'avait appliqué.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-01T22:12:20.793Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-01T22:12:20.793Z",
+        "note": "US Reports (govinfo, PDF illisible en extraction mais conforme à Cornell) et Cornell LII rouverts. Confirmés mot pour mot : dates (plaidoirie 5 nov. 1980, décision 13 janv. 1981), questionnaire rédigé par les avocats et signé par le président (pas par Thomas seul, correction du contrôle précédent confirmée), 33 autres salariés interrogés en plus des destinataires, rapport SEC du 26 mars 1976 copié à l'IRS, rejet du control group test, citation exacte vérifiée mot pour mot (« Its purpose is to encourage full and frank communication between attorneys and their clients... »), secret limité aux communications et non aux faits, work product applicable à l'assignation fiscale, renvoi sur les notes, Burger rejoint parts I et III seulement. Carte et quiz conformes aux sources. Rien changé dans le texte."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-10-23",
