@@ -558,7 +558,7 @@ peut rouvrir directement le texte du décret.)*
 | Littérature | Robinson Crusoé (1719) et Alexander Selkirk : l'île chilienne rebaptisée Robinson Crusoé en 1966 n'est pas celle du roman | fait | routine-production-arnaud | 2026-11-01 |
 | Littérature | Beowulf : un manuscrit unique, sauvé de l'incendie de la bibliothèque Cotton (Ashburnham House, 23 octobre 1731) | fait | routine-production-arnaud | 2026-11-01 |
 | Littérature | Les Voyages de Gulliver (1726) : l'éditeur Motte coupe et modifie le texte de Swift, rétabli par Faulkner en 1735 | fait | routine-production-arnaud | 2026-11-01 |
-| Musique | Le phonautographe d'Édouard-Léon Scott de Martinville (1857-1860) : un enregistrement fait pour être lu à l'œil, écouté en 2008 | en cours | routine-production-arnaud | 2026-11-02 |
-| Musique | « Langage universel » : ce que Savage et al. (PNAS, 2015) et Mehr et al. (Science, 2019) ont mesuré sur la musique des sociétés du monde | en cours | routine-production-arnaud | 2026-11-02 |
-| Musique | Les nouveau-nés détectent le temps fort : Winkler et al. (PNAS, 2009) | en cours | routine-production-arnaud | 2026-11-02 |
-| Musique | Snowball, le cacatoès qui danse en mesure (Patel et al., Current Biology, 2009) et l'hypothèse de l'apprentissage vocal | en cours | routine-production-arnaud | 2026-11-02 |
+| Musique | Le phonautographe d'Édouard-Léon Scott de Martinville (1857-1860) : un enregistrement fait pour être lu à l'œil, écouté en 2008 | fait | routine-production-arnaud | 2026-11-02 |
+| Musique | « Langage universel » : ce que Savage et al. (PNAS, 2015) et Mehr et al. (Science, 2019) ont mesuré sur la musique des sociétés du monde | fait | routine-production-arnaud | 2026-11-02 |
+| Musique | Les nouveau-nés détectent le temps fort : Winkler et al. (PNAS, 2009) | fait | routine-production-arnaud | 2026-11-02 |
+| Musique | Snowball, le cacatoès qui danse en mesure (Patel et al., Current Biology, 2009) et l'hypothèse de l'apprentissage vocal | fait | routine-production-arnaud | 2026-11-02 |
