@@ -562,3 +562,7 @@ peut rouvrir directement le texte du décret.)*
 | Musique | « Langage universel » : ce que Savage et al. (PNAS, 2015) et Mehr et al. (Science, 2019) ont mesuré sur la musique des sociétés du monde | fait | routine-production-arnaud | 2026-11-02 |
 | Musique | Les nouveau-nés détectent le temps fort : Winkler et al. (PNAS, 2009) | fait | routine-production-arnaud | 2026-11-02 |
 | Musique | Snowball, le cacatoès qui danse en mesure (Patel et al., Current Biology, 2009) et l'hypothèse de l'apprentissage vocal | fait | routine-production-arnaud | 2026-11-02 |
+| Neurosciences | L'homoncule de Penfield et Boldrey (Brain, 1937) : 126 patients stimulés, des zones qui se recouvrent, et une figure plus nette que ses données | en cours | routine-production-arnaud | 2026-11-02 |
+| Neurosciences | Melzack et Wall (Science, 1965), la théorie du portillon : un circuit faux dans le détail, une analgésie par stimulation que Wall et Sweet testent dès 1967 | en cours | routine-production-arnaud | 2026-11-02 |
+| Neurosciences | Le mode par défaut (Shulman 1997, Raichle 2001) : ce que le cerveau fait quand on ne lui demande rien, et pourquoi un état de repos n'est pas un zéro | en cours | routine-production-arnaud | 2026-11-02 |
+| Neurosciences | Levi-Montalcini et le facteur de croissance nerveuse : un laboratoire dans une chambre à Turin, une tumeur de souris sur un embryon de poulet, du venin de serpent (Nobel 1986, avec Cohen) | en cours | routine-production-arnaud | 2026-11-02 |
