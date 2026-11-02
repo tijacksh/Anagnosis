@@ -56,9 +56,10 @@
       "Parce qu'aucune eau ne circulait dans le gisement, ce qui évitait que la réaction ne s'arrête"
     ],
     "bonne_reponse": 2,
-    "explication": "L'uranium 235 se désintègre plus vite que l'uranium 238 : sa part est passée d'environ 3,1 % à 0,72 %, et la condition de teneur n'est plus remplie. L'eau n'est pas un obstacle mais un modérateur nécessaire. Aucun autre combustible ni aucune chaleur particulière n'intervient."
+    "explication": "L'uranium 235 se désintègre plus vite que l'uranium 238 : sa part est passée d'environ 3,1 % à 0,72 %, et la condition de teneur n'est plus remplie. L'eau n'est pas un obstacle mais un modérateur nécessaire. Aucun autre combustible ni aucune chaleur particulière n'intervient.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -71,6 +72,20 @@
     "empreinte": "9fe9bb258d633cc6",
     "notes": [
       "Sources rouvertes : Wikipedia (Natural nuclear fission reactor) confirme tous les chiffres (mai 1972, Pierrelatte, 0,60% vs 0,72% d'U235, jusqu'à 0,44%, ~1,7 Ga, <100 kW, seize sites, ~3,1% initial, rôle eau/oxygène) et le cycle 30 min actif / 2h30 repos du repère. journals.aps.org (Meshik et al. 2004) est bloqué par la politique réseau de cette session (ENOTFOUND) : non rouvert directement, mais le chiffre qu'il sourçait est corroboré de façon indépendante par Wikipedia. Rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-02T22:11:42.883Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-02T22:11:42.883Z",
+        "note": "Wikipedia (Natural nuclear fission reactor) rouvert et relu : confirme mai 1972, Pierrelatte/Tricastin, 0,60% vs 0,72% d'U235, jusqu'à 0,44%, ~1,7 Ga (et ~2 Ga ailleurs), quelques centaines de milliers d'années, seize sites, puissance max 100 kW, ~3,1% initial, rôle modérateur de l'eau, rôle de l'oxygène — et le cycle du repère (environ 30 min de criticité, 2h30 de refroidissement) est explicitement donné par cette même page, lue directement. journals.aps.org (Meshik et al. 2004) toujours inaccessible (DNS bloqué, même blocage que le contrôle du 2026-10-29) : non rouvert directement, corroboré par Wikipedia qui porte le même chiffre. Carte et quiz fidèles. Rien à corriger."
+      }
     ]
   }
 }

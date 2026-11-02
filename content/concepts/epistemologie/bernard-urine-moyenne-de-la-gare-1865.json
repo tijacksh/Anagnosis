@@ -57,9 +57,10 @@
       "Parce qu'un seul homme ne suffit pas et qu'il aurait fallu mélanger les urines de plusieurs personnes"
     ],
     "bonne_reponse": 2,
-    "explication": "Bernard ne reproche pas au calcul d'être faux, il reproche à la moyenne de détruire la variation que l'on voulait étudier : l'écart entre le jeûne et la digestion. Mélanger les urines de plusieurs personnes, comme à la gare, aggrave le défaut au lieu de le corriger, et la conservation des échantillons n'entre pas dans son argument."
+    "explication": "Bernard ne reproche pas au calcul d'être faux, il reproche à la moyenne de détruire la variation que l'on voulait étudier : l'écart entre le jeûne et la digestion. Mélanger les urines de plusieurs personnes, comme à la gare, aggrave le défaut au lieu de le corriger, et la conservation des échantillons n'entre pas dans son argument.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -72,6 +73,20 @@
     "empreinte": "98401f5cfbce433d",
     "notes": [
       "Wikisource confirme toutes les citations et affirmations (urinoir de gare, sublime du genre, nombres faux, déterminisme absolu, etc). Source Wellcome Collection non joignable depuis cet environnement (DNS bloqué) donc non vérifiée directement, mais source secondaire seulement."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-02T22:11:41.970Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-02T22:11:41.970Z",
+        "note": "Wikisource rouvert et relu intégralement (deux passages, offset 0 et 100000) : citation de l'urinoir de gare vérifiée mot pour mot ('Le sublime du genre a été imaginé par un physiologiste […] un urinoir de la gare de chemin de fer où passaient des gens de toutes les nations'), ainsi que 'précisément des nombres faux', 'une urine qui n'existe pas', 'confondent en voulant réunir et faussent en voulant simplifier', 'est le but de toute science', noms de maladies donnés 'au hasard', 'qu'une probabilité, mais jamais une certitude', et 'un déterminisme absolu' (vérifié au singulier, dans le passage sur la statistique, distinct du 'déterminismes absolus' du §I). Wellcome Collection toujours inaccessible (DNS bloqué) ; recoupé par recherche web (400 pages, 1865, Baillière, domaine public) — source secondaire seulement. Citation, carte et quiz fidèles. Rien à corriger."
+      }
     ]
   }
 }
