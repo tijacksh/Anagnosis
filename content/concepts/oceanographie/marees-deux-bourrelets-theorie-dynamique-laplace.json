@@ -1,0 +1,101 @@
+{
+  "id": "oce-marees-deux-bourrelets-theorie-dynamique-laplace",
+  "slug": "marees-deux-bourrelets-theorie-dynamique-laplace",
+  "titre": "Les marées ne sont pas deux bourrelets qui attendent sous la Lune",
+  "accroche": "Le schéma des deux bourrelets décrit une Terre sans continents. Les marées réelles viennent de la forme des bassins, que Laplace a mise en équations dès 1775.",
+  "discipline": "oceanographie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Presque tout le monde a vu le schéma : la Terre entourée d'une enveloppe d'eau en forme de ballon de rugby, dont une pointe regarde la Lune, avec un second renflement du côté opposé. La Terre tourne sous ces deux bourrelets, d'où deux marées hautes par jour. Le tutoriel du service océanographique américain (NOAA) l'enseigne ainsi : la Lune attire l'eau du côté qui lui fait face, l'inertie forme l'autre bourrelet, et un jour lunaire de 24 heures et 50 minutes fait passer deux marées hautes espacées de 12 heures et 25 minutes. Ce schéma est le résultat correct d'un modèle simplifié. Il ne décrit pas les marées que l'on observe.\n\n## Ce que le modèle suppose\n\nC'est celui de Newton, dans les Principia de 1687, que l'on appelle la théorie d'équilibre. Il fait trois simplifications : la Terre n'a pas de continents, l'eau n'a pas de viscosité et réagit instantanément à la gravité, et rien ne frotte entre l'eau et le sol. Il décrit une planète entièrement recouverte d'un océan uniforme. La marée qu'il calcule a une hauteur inférieure à un demi-mètre, alors que les marées réelles atteignent jusqu'à 15 mètres, selon l'article de Wikipédia sur la théorie des marées.\n\n## Ce que Laplace a changé\n\nEn 1775, Pierre-Simon Laplace décrit la réaction réelle de l'océan. Sa théorie dite dynamique tient compte de la rotation de la Terre, du frottement, de la résonance et des périodes propres de chaque bassin, et il en écrit les équations en 1776. La Lune et le Soleil n'y soulèvent pas l'eau d'un bloc : ils entretiennent des ondes très longues qui tournent dans chaque bassin autour de points où la marée est presque nulle, les points amphidromiques, du grec « courir autour ». Le premier à les repérer est William Whewell : en prolongeant les lignes de même heure de marée relevées sur les côtes de la mer du Nord, il a constaté qu'elles devaient se rejoindre en un point.\n\nEn 2006, dans la revue Marine Geology, E. P. Kvale rappelle ce que la théorie d'équilibre n'explique pas : la circulation autour des points amphidromiques, les marées à une seule pleine mer par jour aux basses latitudes, et les régions où les cycles de vives-eaux et de mortes-eaux suivent le mois tropique de 27,32 jours plutôt que les 29,52 jours des phases de la Lune. Dans le modèle dynamique, la marée d'un lieu est la somme de constituants, chacun produit par un « satellite fantôme » dont le mouvement crée sa propre onde. La géométrie des bassins amplifie certaines de ces ondes et pas d'autres.\n\n## Ce que cela change\n\nUne marée haute n'est donc ni le moment où la Lune passe au-dessus de vous, ni celui où un bourrelet vous traverse : c'est l'arrivée d'une onde façonnée par la forme du bassin où vous vous trouvez. Pour prédire les marées, on a d'ailleurs abandonné les bourrelets. Lord Kelvin applique l'analyse harmonique dans les années 1860, A. T. Doodson distingue 388 fréquences dans le potentiel générateur en 1921, et des machines mécaniques ont calculé les tables de marée des années 1870 jusque vers 1960. Les satellites mesurent aujourd'hui les marées du globe à quelques centimètres près. Le ballon de rugby reste juste pour la force qui met l'eau en mouvement. Il ne dit rien de la manière dont chaque mer lui répond, et c'est cette réponse que l'on lit sur l'échelle de marée du port.",
+  "citation": null,
+  "repere": {
+    "texte": "Le modèle d'équilibre n'explique ni la circulation de la marée autour des points amphidromiques, ni les marées diurnes aux basses latitudes, ni les cycles de vives-eaux et de mortes-eaux calés sur le mois tropique de 27,32 jours plutôt que sur le mois synodique de 29,52 jours.",
+    "source": "E. P. Kvale, « The origin of neap-spring tidal cycles », Marine Geology, vol. 235, 2006, p. 5-18",
+    "url": "https://pubs.usgs.gov/publication/70028755"
+  },
+  "carte": {
+    "punch": "Les deux bourrelets sous la Lune décrivent une Terre sans continents.",
+    "idee": "Le schéma des deux bourrelets (Newton, 1687) calcule une marée de moins d'un demi-mètre sur une Terre sans terres. Laplace (1775) a montré que la marée réelle est une onde façonnée par chaque bassin, qui tourne autour de points presque sans marée.",
+    "source_courte": "Kvale, Marine Geology, 2006"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Kvale, E. P.",
+      "titre": "The origin of neap-spring tidal cycles",
+      "publication": "Marine Geology, vol. 235, n° 1-4, p. 5-18",
+      "annee": 2006,
+      "url": "https://pubs.usgs.gov/publication/70028755",
+      "note": "Notice USGS ouverte (DOI 10.1016/j.margeo.2006.10.001) : le modèle d'équilibre n'explique ni la circulation amphidromique, ni les marées diurnes aux basses latitudes, ni les cycles de 27,32 jours ; le modèle dynamique et ses constituants (satellites fantômes) ; rôle de la géométrie des bassins."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Theory of tides",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Theory_of_tides",
+      "note": "Page ouverte : théorie d'équilibre de Newton (Principia, 1687) et ses trois simplifications ; théorie dynamique de Laplace (1775), équations de 1776 ; marée d'équilibre de moins d'un demi-mètre contre jusqu'à 15 m ; analyse harmonique de Kelvin dans les années 1860, Doodson (388 fréquences, 1921), machines à prédire de 1870 à 1960 ; mesures par satellite à quelques centimètres."
+    },
+    {
+      "type": "institution",
+      "auteur": "NOAA, National Ocean Service",
+      "titre": "Gravity, Inertia, and the Two Bulges",
+      "publication": "oceanservice.noaa.gov",
+      "annee": 2026,
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html",
+      "note": "Page ouverte : version scolaire du modèle à deux bourrelets (gravité côté Lune, inertie côté opposé), la Terre tournant sous eux."
+    },
+    {
+      "type": "institution",
+      "auteur": "NOAA, National Ocean Service",
+      "titre": "Frequency of Tides - The Lunar Day",
+      "publication": "oceanservice.noaa.gov",
+      "annee": 2026,
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_lunarday.html",
+      "note": "Page ouverte : jour lunaire de 24 h 50, deux marées hautes espacées de 12 h 25."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Amphidromic point",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Amphidromic_point",
+      "note": "Page ouverte : point où la marée est presque nulle pour un constituant, étymologie (amphi, dromos), découverte par Whewell à partir des lignes cotidales de la mer du Nord, rôle des bassins et de l'effet Coriolis."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Kvale, « The origin of neap-spring tidal cycles », Marine Geology, 2006",
+      "url": "https://doi.org/10.1016/j.margeo.2006.10.001",
+      "note": "L'article qui oppose point par point la théorie d'équilibre et la théorie dynamique."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules. Une ligne horizontale lisse porte deux grands arcs symétriques bleus, aux deux extrémités. En dessous, un second tracé noir ondule autour d'un petit cercle plein au centre, et ses crêtes sont décalées d'un module à chaque rangée. Aplats pleins, aucun dégradé, uniquement des formes, aucune figure humaine. Deux encres seulement : #62A8E5 (océanographie) et noir. Trait fin à l'encre sur papier crème, grain appliqué une fois sur l'ensemble.",
+    "alt": "Deux arcs symétriques au-dessus d'une ligne, et en dessous un tracé ondulé qui tourne autour d'un petit cercle plein",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le schéma des deux bourrelets ne suffit-il pas à expliquer la marée d'un port donné ?",
+    "choix": [
+      "Parce que la Lune n'exerce aucune force sur l'eau, seul le Soleil compte",
+      "Parce que l'inertie est trop faible pour former le bourrelet du côté opposé",
+      "Parce qu'il suppose une Terre sans continents, alors que la marée réelle dépend du bassin",
+      "Parce que les marées réelles sont plus petites que celles qu'il calcule"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le modèle d'équilibre ignore les terres, la viscosité et le frottement, et calcule moins d'un demi-mètre. La théorie de Laplace traite l'océan comme un fluide en rotation dont la réponse dépend du bassin. La Lune agit bien, et les marées réelles sont plus grandes, pas plus petites."
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-03",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}

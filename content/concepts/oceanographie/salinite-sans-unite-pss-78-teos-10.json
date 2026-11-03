@@ -1,0 +1,106 @@
+{
+  "id": "oce-salinite-sans-unite-pss-78-teos-10",
+  "slug": "salinite-sans-unite-pss-78-teos-10",
+  "titre": "La salinité de l'eau de mer n'est pas une quantité de sel : un 35 sans unité",
+  "accroche": "Depuis 1978, la salinité d'une carte est un rapport de conductivités, pas des grammes de sel. Depuis 2010, la grandeur de référence est le g/kg.",
+  "discipline": "oceanographie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Sur une carte de l'océan, la salinité moyenne s'écrit 35. Trente-cinq quoi ? On répond volontiers : 35 grammes de sel par kilo d'eau, ou 35 pour mille. La réponse a changé trois fois, et le chiffre que portent les bases de données n'est pas ce que l'on croit.\n\n## Du chlore au sel\n\nAvant les années 1980, on dosait par titrage au nitrate d'argent le chlore et le brome de l'échantillon, ce qui donnait la chlorinité, puis on la multipliait par un facteur censé tenir compte de tous les autres constituants. Les « salinités de Knudsen » ainsi obtenues s'exprimaient en parties par mille. Une eau de chlorinité 19,37 pour mille a une salinité de Knudsen de 35,00, d'après l'article de Wikipédia sur la salinité.\n\n## 1978 : un rapport sans unité\n\nL'échelle pratique de salinité de 1978, dite PSS-78, a abandonné cette chaîne. Elle définit la salinité par le rapport K15 entre la conductivité électrique de l'échantillon, à 15 °C et sous une atmosphère, et celle d'une solution de chlorure de potassium contenant 32,4356 grammes de KCl par kilo de solution. Un rapport exactement égal à 1 correspond, par définition, à une salinité de 35. Deux eaux de même conductivité ont alors la même salinité, même si leurs sels sont dans des proportions différentes. Les concepteurs de l'échelle jugeaient la conductivité meilleure que la chlorinité pour déterminer la densité, et plus précise que le titrage. Une salinité PSS-78 n'a pas d'unité : elle mesure une conductivité relative, pas une masse. Le suffixe « psu », parfois ajouté, ne lui en donne pas.\n\n## 2010 : retour au gramme par kilo\n\nEn juin 2009, la Commission océanographique intergouvernementale a adopté TEOS-10 pour remplacer l'équation d'état de 1980. Cette description officielle des propriétés de l'eau de mer décrit le contenu en sel par la salinité absolue, la fraction massique de sel, en grammes par kilo, unité du Système international. Pour de l'eau de composition de référence, une salinité pratique de 35 correspond à une salinité de référence de 35,16504 g/kg, selon la documentation de la boîte à outils TEOS-10. Le même échantillon, d'après Wikipédia, vaut donc environ 35,2 g/kg dans TEOS-10, environ 35,0 en PSS-78 et 35,00 en salinité de Knudsen, avec une chlorinité de 19,37 pour mille.\n\n## Ce que cela change\n\nLa salinité n'est pas une mesure de sel, c'est une mesure de conductivité que l'on a calibrée pour qu'elle ressemble à une mesure de sel. TEOS-10 le dit en toutes lettres : à cause des variations de composition de l'eau de mer d'un endroit à l'autre, la salinité absolue n'est pas simplement proportionnelle à la salinité pratique, et il faut une correction. Pour calculer la densité, c'est la salinité absolue qu'il faut. Pourtant, les bases de données nationales doivent continuer d'archiver la salinité pratique, parce que c'est la grandeur effectivement mesurée. Le 35 que vous lirez sur la plupart des cartes n'est pas le résultat d'une pesée.",
+  "citation": null,
+  "repere": {
+    "texte": "Le rapport K15 de la conductivité d'un échantillon à celle d'une solution de KCl à 32,4356 g par kilo de solution, à 15 °C et sous une atmosphère, vaut exactement 1 pour une salinité pratique de 35, par définition.",
+    "source": "Définition de la PSS-78 adoptée par le panel UNESCO/ICES/SCOR/IAPSO en 1980, reproduite par salinometry.com",
+    "url": "https://salinometry.com/pss-78/"
+  },
+  "carte": {
+    "punch": "Le 35 des cartes de salinité n'est pas un poids de sel : c'est un rapport sans unité.",
+    "idee": "Depuis 1978, une salinité de 35 signifie : conductivité égale à celle d'une solution de KCl à 32,4356 g/kg. Pas une masse de sel. Le même échantillon vaut environ 35,2 g/kg dans TEOS-10, la norme adoptée en 2009.",
+    "source_courte": "PSS-78 ; TEOS-10, COI"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "TEOS-10 (COI, SCOR, IAPSO)",
+      "titre": "Thermodynamic Equation of SeaWater 2010 (TEOS-10)",
+      "publication": "teos-10.org",
+      "annee": 2026,
+      "url": "https://www.teos-10.org/",
+      "note": "Page d'accueil ouverte : adoption par la COI en juin 2009 pour remplacer EOS-80 ; salinité absolue en g/kg (unité SI) ; elle n'est pas proportionnelle à la salinité pratique à cause des variations de composition ; les bases nationales continuent d'archiver la salinité pratique PSS-78."
+    },
+    {
+      "type": "institution",
+      "auteur": "TEOS-10 (COI, SCOR, IAPSO)",
+      "titre": "Getting started with TEOS-10 and the Gibbs Seawater (GSW) Oceanographic Toolbox",
+      "publication": "teos-10.org",
+      "annee": 2026,
+      "url": "https://www.teos-10.org/pubs/Getting_Started.pdf",
+      "note": "PDF téléchargé et lu : salinité pratique définie par la PSS-78 à partir de rapports de conductivité, sans unité ; salinité de référence égale à 35,16504 g/kg pour une salinité pratique de 35 ; rapport 1,80655 entre salinité pratique et chlorinité."
+    },
+    {
+      "type": "web",
+      "auteur": "Salinometry.com",
+      "titre": "Practical Salinity Scale 1978",
+      "publication": "salinometry.com",
+      "annee": 2026,
+      "url": "https://salinometry.com/pss-78/",
+      "note": "Page ouverte : définition par K15 et solution de KCl à 32,4356 g/kg, K15 égal à 1 pour une salinité de 35, adoption par le panel UNESCO/ICES/SCOR/IAPSO en 1980, supériorité de la conductivité sur la chlorinité pour la densité et sur le titrage pour la précision."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia",
+      "titre": "Salinity",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Salinity",
+      "note": "Page ouverte : titrage de la chlorinité avant les années 1980, salinités de Knudsen en parties par mille, PSS-78 sans unité, échantillon de chlorinité 19,37 pour mille valant 35,00 (Knudsen), environ 35,0 (PSS-78) et environ 35,2 g/kg (TEOS-10)."
+    },
+    {
+      "type": "article",
+      "auteur": "Lewis, E. L.",
+      "titre": "The practical salinity scale 1978 and its antecedents",
+      "publication": "IEEE Journal of Oceanic Engineering, vol. 5, n° 1, p. 3-8",
+      "annee": 1980,
+      "url": "https://doi.org/10.1109/JOE.1980.1145448",
+      "note": "Notice Crossref : existence et référence de l'article de présentation de la PSS-78."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Lewis, « The practical salinity scale 1978 and its antecedents », IEEE JOE, 1980",
+      "url": "https://doi.org/10.1109/JOE.1980.1145448",
+      "note": "La présentation de l'échelle par l'un de ses concepteurs."
+    },
+    {
+      "titre": "TEOS-10, site officiel",
+      "url": "https://www.teos-10.org/",
+      "note": "Le manuel, l'amorçage et les logiciels de la norme adoptée en 2009."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules. Deux colonnes parallèles : à gauche, une pile de petits carrés noirs tous égaux ; à droite, une pile de carrés bleus de largeurs différentes dont la hauteur totale est la même. Un trait fin relie les sommets des deux piles. Aplats pleins, aucun dégradé, uniquement des formes, aucune figure humaine. Deux encres seulement : #62A8E5 (océanographie) et noir. Trait fin à l'encre sur papier crème, grain appliqué une fois sur l'ensemble.",
+    "alt": "Deux piles de même hauteur, l'une de carrés noirs égaux, l'autre de carrés bleus de largeurs inégales",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que signifie une salinité pratique de 35 selon l'échelle PSS-78 ?",
+    "choix": [
+      "Que l'eau contient exactement 35 grammes de sel dissous par kilo",
+      "Que la chlorinité de l'eau atteint 35 pour mille, mesurée par titrage",
+      "Que la conductivité de l'échantillon égale celle d'une solution de KCl à 32,4356 g/kg, à 15 °C",
+      "Que la densité de l'eau dépasse de 35 unités celle de l'eau pure"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La PSS-78 définit la salinité par un rapport de conductivités, sans unité : K15 égal à 1 donne 35. Ce n'est pas une masse de sel (la salinité absolue de TEOS-10, elle, vaut environ 35,2 g/kg), et elle ne vient ni d'un titrage ni d'une densité."
+  },
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-03",
+    "genere_par": "routine-production",
+    "version": 1
+  }
+}

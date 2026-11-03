@@ -566,7 +566,7 @@ peut rouvrir directement le texte du décret.)*
 | Neurosciences | Melzack et Wall (Science, 1965), la théorie du portillon : un circuit faux dans le détail, une analgésie par stimulation que Wall et Sweet testent dès 1967 | fait | routine-production-arnaud | 2026-11-02 |
 | Neurosciences | Le mode par défaut (Shulman 1997, Raichle 2001) : ce que le cerveau fait quand on ne lui demande rien, et pourquoi un état de repos n'est pas un zéro | fait | routine-production-arnaud | 2026-11-02 |
 | Neurosciences | Levi-Montalcini et le facteur de croissance nerveuse : un laboratoire dans une chambre à Turin, une tumeur de souris sur un embryon de poulet, du venin de serpent (Nobel 1986, avec Cohen) | fait | routine-production-arnaud | 2026-11-02 |
-| Océanographie | Les marées ne sont pas deux bourrelets sous la Lune : théorie d'équilibre (Newton, 1687) contre théorie dynamique (Laplace, 1775), Kvale (2006) | en cours | routine-production-arnaud | 2026-11-03 |
-| Océanographie | Le fer et la floraison de l'océan : hypothèse de Martin (1990), expérience de 1993, et la question du carbone exporté (Boyd 2007, Smetacek 2012) | en cours | routine-production-arnaud | 2026-11-03 |
-| Océanographie | La salinité sans unité : de la chlorinité de Knudsen à la conductivité (PSS-78) puis au g/kg (TEOS-10) | en cours | routine-production-arnaud | 2026-11-03 |
-| Océanographie | Maury (1851) : des cartes de vents et courants contre des journaux de bord, la nouvelle route de Rio (24 jours contre 41 jusqu'à la Ligne) | en cours | routine-production-arnaud | 2026-11-03 |
+| Océanographie | Les marées ne sont pas deux bourrelets sous la Lune : théorie d'équilibre (Newton, 1687) contre théorie dynamique (Laplace, 1775), Kvale (2006) | fait | routine-production-arnaud | 2026-11-03 |
+| Océanographie | Le fer et la floraison de l'océan : hypothèse de Martin (1990), expérience de 1993, et la question du carbone exporté (Boyd 2007, Smetacek 2012) | fait | routine-production-arnaud | 2026-11-03 |
+| Océanographie | La salinité sans unité : de la chlorinité de Knudsen à la conductivité (PSS-78) puis au g/kg (TEOS-10) | fait | routine-production-arnaud | 2026-11-03 |
+| Océanographie | Maury (1851) : des cartes de vents et courants contre des journaux de bord, la nouvelle route de Rio (24 jours contre 41 jusqu'à la Ligne) | fait | routine-production-arnaud | 2026-11-03 |
