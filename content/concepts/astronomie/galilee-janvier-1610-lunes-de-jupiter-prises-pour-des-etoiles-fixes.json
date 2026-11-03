@@ -80,9 +80,22 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-03T22:15:08.860Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-03T22:15:08.860Z",
+        "note": "Sidereus Nuncius, traduction Carlos (Gutenberg, texte intégral) rouvert : positions du 7 janvier (trois étoiles alignées, deux à l'est une à l'ouest, crues fixes), 8 janvier (toutes à l'ouest, intervalles égaux, crainte d'un déplacement de Jupiter), nuit suivante couverte, 10 janvier (deux à l'est, conclusion que l'échange ne peut venir de Jupiter, aucune autre étoile à proximité), 11 janvier (la plus éloignée presque deux fois plus grosse, conclusion de trois astres tournant autour de Jupiter comme Vénus et Mercure autour du Soleil), 13 janvier (quatre satellites) — toutes confirmées mot pour mot. Wikipedia « Sidereus Nuncius » confirme la parution le 13 mars 1610 à Venise chez Baglioni, le rôle de Kepler (lettre ouverte d'avril 1610, confirmation en août faute de lunettes assez puissantes). Repère, carte et quiz conformes aux sources."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",

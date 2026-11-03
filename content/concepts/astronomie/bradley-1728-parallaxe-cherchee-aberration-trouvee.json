@@ -80,9 +80,22 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-03T22:15:01.959Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-03T22:15:01.959Z",
+        "note": "Lettre de Bradley à Halley rouverte en texte intégral (archive.org, fichier OCR complet, pas seulement la page de métadonnées) : 3 décembre 1725, passage plus au sud le 17 décembre, 20 secondes d'arc début mars 1726, 39 secondes entre mars et septembre, retour à la position initiale après douze mois, rapport 10210:1, 8'12\" puis 8'13\" retenu, valeurs de 11 et 7 minutes pour Jupiter, parallaxe sous une seconde d'arc, distance supérieure à 400000 fois celle du Soleil — toutes confirmées mot pour mot. Wikipedia « James Bradley » confirme que l'aberration a été trouvée en cherchant la parallaxe et le décalage calendaire mars/décembre. MacTutor inaccessible depuis cet environnement (comme au premier contrôle) ; mention de Bessel/61 du Cygne/1838 non recoupée indépendamment ici mais fait d'histoire des sciences bien établi, non central à la thèse de la fiche. Repère, carte et quiz conformes aux sources."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",

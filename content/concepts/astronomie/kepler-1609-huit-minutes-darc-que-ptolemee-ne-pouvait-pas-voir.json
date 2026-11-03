@@ -80,9 +80,22 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-03T22:15:17.561Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-03T22:15:17.561Z",
+        "note": "Wikipedia « Astronomia nova » rouverte et relue (au-delà de ce que le premier contrôle avait cité) : confirme l'hypothèse vicaire du chapitre 16 (modèle à équant de Ptolémée sur orbite circulaire), et surtout reproduit la citation anglaise directe de Kepler : « these eight minutes alone will lead us along a path to the reform of the whole of Astronomy », qui soutient le cœur de la fiche au-delà d'un simple résumé. Tentative indépendante de relire le latin original (archive.org, fichier OCR complet de ~900000 caractères, pas seulement la page de métadonnées comme au premier contrôle) : recherche de « octo/decem minuta » sur plusieurs tranches du texte, sans localiser le passage exact du chapitre 19 — OCR trop bruité/volumineux pour une citation littérale, comme déjà noté au premier contrôle. Le repère n'est pas une citation littérale mais un fait sourcé ; le seuil de dix minutes de Ptolémée est une donnée d'histoire des sciences bien établie et non contredite par aucune source consultée. Aucune source ne contredit la fiche. Carte et quiz conformes."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",
