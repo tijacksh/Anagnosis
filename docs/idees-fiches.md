@@ -570,7 +570,7 @@ peut rouvrir directement le texte du décret.)*
 | Océanographie | Le fer et la floraison de l'océan : hypothèse de Martin (1990), expérience de 1993, et la question du carbone exporté (Boyd 2007, Smetacek 2012) | fait | routine-production-arnaud | 2026-11-03 |
 | Océanographie | La salinité sans unité : de la chlorinité de Knudsen à la conductivité (PSS-78) puis au g/kg (TEOS-10) | fait | routine-production-arnaud | 2026-11-03 |
 | Océanographie | Maury (1851) : des cartes de vents et courants contre des journaux de bord, la nouvelle route de Rio (24 jours contre 41 jusqu'à la Ligne) | fait | routine-production-arnaud | 2026-11-03 |
-| Paléontologie | Oviraptor, « voleur d'œufs » innocent : un embryon dans un œuf de la même espèce (Norell et al., 1994) et un adulte retrouvé couvant son nid (Clark et al., 1999) | en cours | routine-production-arnaud | 2026-11-03 |
-| Paléontologie | Les mammouths de l'île Wrangel : une population naine survivante jusqu'à environ 4 000 ans (Vartanyan et al., 1993) | en cours | routine-production-arnaud | 2026-11-03 |
-| Paléontologie | Archaeoraptor (1999) : le fossile chimère publié par National Geographic, démonté par Xu Xing et ses collègues (2000) | en cours | routine-production-arnaud | 2026-11-03 |
-| Paléontologie | Les libellules géantes du Carbonifère (Meganeura) et l'hypothèse de l'oxygène : une explication contestée | en cours | routine-production-arnaud | 2026-11-03 |
+| Paléontologie | Oviraptor, « voleur d'œufs » innocent : un embryon dans un œuf de la même espèce (Norell et al., 1994) et un adulte retrouvé couvant son nid (Clark et al., 1999) | fait | routine-production-arnaud | 2026-11-03 |
+| Paléontologie | Les mammouths de l'île Wrangel : une population naine survivante jusqu'à environ 4 000 ans (Vartanyan et al., 1993) | fait | routine-production-arnaud | 2026-11-03 |
+| Paléontologie | Archaeoraptor (1999) : le fossile chimère publié par National Geographic, démonté par Xu Xing et ses collègues (2000) | fait | routine-production-arnaud | 2026-11-03 |
+| Paléontologie | Les libellules géantes du Carbonifère (Meganeura) et l'hypothèse de l'oxygène : une explication contestée | fait | routine-production-arnaud | 2026-11-03 |
