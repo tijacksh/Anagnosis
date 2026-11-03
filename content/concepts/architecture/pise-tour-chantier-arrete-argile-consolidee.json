@@ -92,7 +92,7 @@
       "question": "Qu'est-ce qui a fait augmenter l'inclinaison de la tour de plus d'un quart de degré en 1838 ?",
       "choix": [
         "Un séisme qui a secoué la plaine de l'Arno",
-        "Le poids de nouvelles cloches installées dans la chambre",
+        "Le poids de nouvelles cloches installées dans la chambre du beffroi",
         "Une crue qui a saturé le sol sous la tour",
         "Un chemin creusé autour de la base, sous le niveau de la nappe d'eau du côté sud"
       ],
@@ -100,9 +100,22 @@
       "explication": "L'architecte Gherardesca a creusé le catino autour de la base ; du côté sud, la fouille est sous la nappe et l'eau s'est engouffrée, ce qui a accru la pente."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-03T10:12:49.021Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-03T10:12:49.021Z",
+        "note": "Sources rouvertes : ingenia.org.uk toujours inaccessible depuis cet environnement (ENOTFOUND, comme au contrôle) ; corroboration indépendante via Wikipedia (Leaning Tower of Pisa) et recherche web ciblée sur des citations de l'article Burland/Ingenia (600 tonnes de plomb en 1993, rythme d'extraction ~15-20 l par passe dès 1999, réouverture juin/décembre 2001, retour à l'inclinaison de 1838). Chiffres, dates et désaccord avec Wikipedia sur l'étage de l'arrêt (déjà signalé dans la fiche) confirmés. Carte et citation/repère conformes. Quiz : corrigé un distracteur de quiz_supplementaire (chambre des cloches) pour que la bonne réponse ne dépasse plus le seuil de longueur de 1,4x (était 1,43, ramené à 1,19)."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",

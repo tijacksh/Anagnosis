@@ -105,9 +105,22 @@
       "explication": "La page donne « soixante tonnes, soit cinq fois la charge requise » dans le texte et « dix fois plus élevée » dans un encart : sauf à supposer deux charges de référence que la page ne précise pas, les deux ne peuvent être justes ensemble."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-03T10:11:47.207Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-03T10:11:47.207Z",
+        "note": "Sources rouvertes : Wikipedia (Johnson Wax Headquarters) via WebFetch direct — confirme charge 60t/12t, dates (coulage fin mai 1937, essai juin), diamètre base 9 pouces, calice 18,5 pieds, refus initial sur l'épaisseur, mot dendriform. scjohnson.com bloqué par la politique réseau de cette session (ENOTFOUND) ; reconfirmé par trois recherches web indépendantes (WebSearch) qui citent le texte de la page elle-même : « withstood a load of sixty tons – five times the required amount » dans le corps, et « ten times » dans une légende de photo — corrobore exactement la contradiction cinq/dix décrite dans la fiche, ainsi que la présence de H.F. Johnson Jr. et des curieux. Carte et quiz vérifiés, rien à corriger."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",

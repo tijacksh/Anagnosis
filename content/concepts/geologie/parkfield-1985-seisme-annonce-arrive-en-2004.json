@@ -83,9 +83,10 @@
       "Parce que la faille s'était arrêtée de bouger après le séisme de 1966"
     ],
     "bonne_reponse": 0,
-    "explication": "Les cinq intervalles du registre (24, 20, 21, 12 et 32 ans) s'écartent beaucoup de leur moyenne de 22 ans, donc une fenêtre de huit ans est un pari. Le registre montrait au contraire six séismes d'environ magnitude 6 depuis 1857, et la faille a bien rompu en 2004."
+    "explication": "Les cinq intervalles du registre (24, 20, 21, 12 et 32 ans) s'écartent beaucoup de leur moyenne de 22 ans, donc une fenêtre de huit ans est un pari. Le registre montrait au contraire six séismes d'environ magnitude 6 depuis 1857, et la faille a bien rompu en 2004.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -98,6 +99,20 @@
     "empreinte": "2230a460141a7ecd",
     "notes": [
       "Les cinq sources rouvertes en ligne confirment la fiche terme à terme : communiqué USGS du 5 avril 1985 (magnitude 5,5-6, >90%, 1985-1993, séismes 1857-1966, intervalle moyen 22 ans), page USGS sur le séisme du 28 septembre 2004 (M 6,0), notice Eos 1993 de Michael et Langbein (95% de confiance, NEPEC/CEPEC, 28 réseaux), résumé Harris et Arrowsmith 2006 (séisme le mieux enregistré, méthodes probabilistes), page Wikipedia Parkfield earthquake (intervalles 24/20/21/12/32 ans, aucun séisme ≥5,5 entre 1985 et 2004). Rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-03T10:11:46.247Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-03T10:11:46.247Z",
+        "note": "Cinq sources rouvertes indépendamment (second passage, texte brut) : communiqué USGS 5 avril 1985 (magnitude 5,5-6, >90%, 1985-1993, séismes 1857-1966, intervalle moyen 22 ans) — conforme ; page USGS séisme du 28 septembre 2004 (M 6,0, séismes antérieurs 1857-1966, échéance 'avant 1993' si rupture régulière) — conforme ; notice Eos 1993 Michael et Langbein (95% de confiance Bakun-Lindh, NEPEC/CEPEC, 28 réseaux) — conforme, écart 90/95% déjà assumé par la fiche ; Harris et Arrowsmith 2006 — url pubs.usgs.gov/publication/70028715 renvoie 403 (blocage anti-robot, pas lien mort : contenu identique retrouvé et confirmé via www.usgs.gov/publications/introduction-special-issue-2004-parkfield-earthquake-and-parkfield-earthquake, 'long-anticipated', 'world's best recorded earthquake to date', prévision fine toujours difficile, méthodes probabilistes) ; Wikipedia Parkfield earthquake (prévisions jusqu'en janvier 2001, aucun séisme >=5,5 entre 1985 et 2004, intervalles 24/20/21/12/32 ans cohérents avec les dates sources, aucun indice exploitable avant 2004) — conforme. Carte et quiz vérifiés : punch/idee/source_courte tiennent seuls sans excès, bonne réponse vraie et non repérable par longueur. Rien à corriger."
+      }
     ]
   }
 }
