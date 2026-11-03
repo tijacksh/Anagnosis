@@ -79,7 +79,44 @@
     "explication": "Ptolémée déclare ne pas descendre sous dix minutes d'arc : un écart de huit minutes se confond avec le bruit de ses mesures. Les observations de Tycho Brahe sont assez fines pour le distinguer. Les autres raisons sont fausses : les données de Tycho précèdent la lunette, Ptolémée n'a pas corrigé l'écart, et il observait bien Mars.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel modèle Kepler construit-il au chapitre 16, avant de le mettre à l'épreuve ?",
+      "choix": [
+        "Un modèle entièrement elliptique, qu'il corrigera ensuite en orbite circulaire",
+        "Un modèle qui place le Soleil au centre exact du cercle, sans aucun équant",
+        "Une variante du modèle à équant de Ptolémée, sur une orbite circulaire",
+        "Un modèle fondé sur les observations de Copernic, sans utiliser celles de Tycho"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Au chapitre 16, Kepler construit une variante du modèle à équant de Ptolémée sur une orbite circulaire, qui rend compte des positions de Mars aux oppositions. Il travaille sur les observations de Tycho Brahe, pas sur un modèle déjà elliptique ni sur celles de Copernic.",
+      "statut": "valide"
+    },
+    {
+      "question": "Quelle règle de Ptolémée Kepler met-il à l'épreuve au chapitre 19 ?",
+      "choix": [
+        "Ignorer totalement l'excentricité de l'orbite de Mars",
+        "Placer le centre du cercle à mi-chemin entre le Soleil et le point équant",
+        "Placer le centre du cercle exactement sur le point équant lui-même",
+        "Calculer la position de Mars sans jamais tenir compte du Soleil"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La règle testée au chapitre 19 place le centre du cercle à mi-chemin entre le Soleil et le point équant, la bissection de l'excentricité. Ptolémée ne l'ignore pas, ne la place pas sur l'équant lui-même, et elle tient compte du Soleil.",
+      "statut": "valide"
+    },
+    {
+      "question": "Que dit Kepler de son modèle du chapitre 16, plus loin dans l'ouvrage ?",
+      "choix": [
+        "Qu'il n'est que vicaire, de substitution, et non naturel",
+        "Qu'il est définitivement confirmé par les huit minutes d'écart",
+        "Qu'il remplace avantageusement les lois de Kepler plus tard dans le livre",
+        "Qu'il est plus précis que celui que Tycho avait lui-même proposé"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Plus loin dans l'ouvrage, Kepler qualifie son modèle du chapitre 16 de simplement vicaire, de substitution, et non naturel : il ne mérite confiance que dans la mesure où les observations l'imposent, pas d'une confirmation par l'écart de huit minutes.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

@@ -79,7 +79,44 @@
     "explication": "Une parallaxe ferait passer gamma du Dragon au plus au sud en décembre et au plus au nord en juin ; Bradley observe les extrêmes en mars et en septembre. Le mouvement se répète sur l'année, et il n'est pas le même pour toutes les étoiles : les trois autres affirmations sont fausses.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment Bradley écarte-t-il l'hypothèse d'un défaut de son instrument ?",
+      "choix": [
+        "Il fait monter un second instrument, et les mêmes mesures se répètent",
+        "Il range l'instrument un an et le ressort pour vérifier qu'il donne la même erreur",
+        "Il demande à Halley de vérifier le réglage du fil à plomb à sa place",
+        "Il remplace la lunette fixe par une lunette mobile orientée vers le sud"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Bradley fait installer un second instrument : les mêmes mesures s'y répètent, ce qui écarte un défaut de réglage. Le texte ne mentionne ni Halley, ni une pause d'un an, ni un changement d'orientation de la lunette.",
+      "statut": "valide"
+    },
+    {
+      "question": "Qu'est-ce qui convainc Bradley que le déplacement de gamma du Dragon n'est pas un effet de la nutation, le balancement de l'axe terrestre ?",
+      "choix": [
+        "Une étoile opposée ne varie pas du tout, ce qu'un balancement de l'axe exclurait totalement",
+        "Gamma du Dragon et l'étoile opposée varient de la même quantité, dans le même sens",
+        "Une étoile presque opposée varie environ deux fois moins que ne le voudrait un balancement",
+        "L'étoile opposée varie deux fois plus que gamma du Dragon, et non deux fois moins"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Bradley compare à une étoile presque opposée en ascension droite : elle varie environ deux fois moins que gamma du Dragon, alors qu'un balancement de l'axe terrestre les affecterait presque autant. Les trois autres chiffres ne sont pas ceux du texte.",
+      "statut": "valide"
+    },
+    {
+      "question": "Quel rapport Bradley calcule-t-il d'abord entre la vitesse de la lumière et celle de la Terre sur son orbite ?",
+      "choix": [
+        "Un rapport de 20 210 à 1, soit environ 16 minutes 24 secondes pour la lumière",
+        "Un rapport de 10 210 à 1, mais il en déduit que la lumière met 11 minutes à nous parvenir",
+        "Aucun rapport : il compare directement les 39 secondes d'arc aux résultats de Rømer",
+        "Un rapport de 10 210 à 1, soit 8 minutes 12 secondes pour la lumière du Soleil"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Bradley tire d'abord ce rapport des 39 secondes d'arc observées, soit 8 minutes 12 secondes pour la lumière du Soleil. Les 11 minutes viennent des éclipses de Jupiter attribuées à Rømer, pas de son propre calcul, et il ne se contente pas d'une simple comparaison.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
