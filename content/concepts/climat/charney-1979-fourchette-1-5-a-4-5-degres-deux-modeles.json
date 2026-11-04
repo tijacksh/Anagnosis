@@ -77,12 +77,25 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le groupe prend 2 °C (série M) et 3,5 °C (H1) comme bornes, puis ajoute 0,5 °C en bas et 1 °C en haut, qu'il décrit comme des suppositions éclairées. Il n'a que cinq simulations, pas des dizaines, ne retire pas d'extrêmes et n'ajuste pas de série de températures.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-04T22:17:11.481Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-04T22:17:11.481Z",
+        "note": "nap.nationalacademies.org, ipcc.ch, bnl.gov, courses.washington.edu, climatefiles.com, geprep.org et cs.toronto.edu tous inaccessibles depuis cet environnement (comme au contrôle précédent) ; aucun accès direct au rapport Charney ni aux résumés GIEC PDF. Recherches web convergentes et indépendantes du contrôle précédent : structure des cinq simulations confirmée en détail (M1 Manabe & Wetherald 1975 publié, M2 manuscrit, M3 et H2 connus seulement par communication personnelle, H1 par un rapport de recherche — cohérent avec la fiche), valeurs ~2°C pour la série M et 3,5°C pour H1 confirmées par une synthèse universitaire du tableau du rapport, phrase « informed guesses » retrouvée mot pour mot dans un extrait direct du rapport, AR5 2013 (1,5-4,5°C, pas de meilleure estimation, borne basse AR4 à 2°C) et AR6 2021 (3°C, 2,5-4°C probable) confirmés par plusieurs sources secondaires convergentes dont une citation directe du résumé AR6. Aucune source trouvée ne contredit la fiche. Reste non vérifié mot pour mot : la qualification exacte de H1 comme « demande de financement » plutôt que « rapport » — détail mineur, sans source contradictoire trouvée malgré plusieurs recherches ciblées, non vérifiable davantage depuis cet environnement."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-11-02",
     "verdict": "ok",
