@@ -89,9 +89,22 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-04T10:16:12.945Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-04T10:16:12.945Z",
+        "note": "Textes intégraux rouverts indépendamment : Il pianeta Marte de Schiaparelli (archive.org, djvu.txt italien) confirme mot pour mot 'Non occorre suppor qui l'opera di esseri intelligenti' et la comparaison Manica/Mozambico, la constance de longueur/position des canaux, leur aspect variable d'une opposition à l'autre, qu'aucun ne s'arrête au milieu d'un continent, le noircissement aux oppositions 1882/1884/1886, et le passage sur les geminazioni (cristalli, anello di Saturno, arco-baleno). Mars de Lowell (archive.org djvu.txt, offset 200000) confirme 'the straightness of the lines', 'their individually uniform width', 'their systematic radiation from special points' et 'Too great regularity is in itself the most suspicious of circumstances' (section III Artificiality, p.149-150). Wikipedia EN (Martian canal) confirme le sens de canale, l'opposition du 5 septembre 1877, la lunette de 22 cm, la mauvaise traduction et le consensus historiographique (artefact de perception, exception Valles Marineris). NASA science.nasa.gov confirme Mariner 4, 14 juillet 1965, 21 images, planète criblée de cratères écartant l'idée de vie intelligente. Carte et quiz conformes au texte des sources, aucune affirmation non soutenue."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",

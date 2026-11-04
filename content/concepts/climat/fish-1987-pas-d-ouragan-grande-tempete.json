@@ -77,12 +77,25 @@
     ],
     "bonne_reponse": 3,
     "explication": "Les rafales ont atteint 100 nœuds à Shoreham, mais elles ne comptent pas : la force 12 se définit par 64 nœuds de vent moyen sur dix minutes, atteints localement seulement (75 nœuds au phare de Royal Sovereign). Le critère décisif est l'origine non tropicale.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-04T10:16:22.287Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-04T10:16:22.287Z",
+        "note": "Source Met Office rouverte (redirection weather.metoffice.gov.uk/learn-about/weather/case-studies/great-storm) : confirme dépression du golfe de Gascogne (970 mb puis 953 mb), rafales 100 nds Shoreham 3h10 et 86 nds Gatwick 4h30, 15M arbres, 18 morts, définition force 12 (64 nds/10 min), vent moyen record 75 nds Royal Sovereign, force 11 sur le sud-est, plafond 44 nds (force 9) à Londres, Fish parlant d'un autre système à l'ouest de l'Atlantique Nord, prévisions 4-5 jours avant, modèles déplaçant la trajectoire au sud, bulletins du soir axés sur la pluie, avertissement défense 0135 UTC. Wikipedia EN (Michael Fish) confirme la phrase du 15 octobre ('Well, if you're watching, don't worry, there isn't!') et la déclaration de 2012 sur l'appel inventé. Recherche web indépendante confirme la citation complète attribuée à la RMetS ('most of the strong winds, incidentally, will be down over Spain and across into France'), reprise par plusieurs sources concordantes (rmets.org reste inaccessible depuis cet environnement, mais la citation est recoupée ailleurs). Rien à corriger."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-31",
     "verdict": "ok",

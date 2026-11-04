@@ -68,12 +68,25 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les critères imprimés en 1832 décrivent ce que fait le vent à un navire de guerre : sa vitesse aux forces basses, la toile qu'il peut porter aux forces élevées. La formule de vitesse n'est ajoutée qu'en 1903, et l'échelle fondée sur l'aspect de la mer date de 1906. La pression et l'anémomètre n'y interviennent pas.",
-    "statut": "brouillon"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-04T10:16:42.144Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-04T10:16:42.144Z",
+        "note": "Source Met Office (metoffice.gov.uk/research/library-and-archive/archive-hidden-treasures/beaufort-scale) rouverte : confirme la création 1806 à bord du Woolwich, la citation du journal ('hereafter I shall estimate the force of the wind according to the following scale'), la révision 1807 à 12 forces (la version initiale de 1806 en comptait 13) et la version finale de 1810 décrivant l'effet sur une frégate de la Royal Navy (sans préciser 'gréement complet'). Mais la fiche technique citée comme source principale (Fact Sheet 6, via web.archive.org) reste inaccessible depuis cet environnement -- comme lors du contrôle du 30/10 -- donc impossible de revérifier mot pour mot Defoe/Jurin/Mannheim/Capper-Rous, le tableau de 1832 et le mémorandum du 28 décembre 1838. Des recherches web indépendantes corroborent Beaufort 1805/HMS Woolwich, le rapport authentique de G.C. Simpson 'The Beaufort scale of wind-force' (HMSO, 1906, sur l'écart entre estimations et anémomètres) et une adoption par le Comité météorologique international en juin 1939 (table à 6 m), ce qui soutient les dates de la fiche. Mais deux points précis divergent nettement des sources indépendantes recoupées sans pouvoir être tranchés faute d'accès à la fiche Met Office elle-même : (1) Defoe aurait proposé une échelle de 11 termes selon une source tierce, contre les 'douze termes' de la fiche ; (2) l'extension aux forces 13-17 est très majoritairement datée de 1946 par les sources indépendantes (Wikipédia et dérivés), une seule source secondaire non sourcée donnant 1944 comme la fiche. Pour lever le doute : rouvrir effectivement web.archive.org/web/20121002134429 (Fact Sheet 6) depuis un poste où ce domaine n'est pas bloqué, ou trouver une autre source primaire équivalente, et confirmer ou corriger ces deux chiffres (et au passage Jurin/Mannheim/Capper-Rous, non recoupés ailleurs)."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-10-30",
     "verdict": "ok",
