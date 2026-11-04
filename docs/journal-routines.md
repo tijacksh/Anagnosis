@@ -408,3 +408,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-03 19:48 | produire | arnaud | STOP : file de relecture pleine (61 / 60, 855 fiches publiables). Rien produit, aucun sujet envisagé. |
 | 2026-11-03 20:04 | questionner | arnaud | RIEN À FAIRE : 855 fiches servies, toutes à au moins 2 questions de plus (aquestionner). Aucune fiche modifiée, aucune signalée. git status vide avant le pull, pull --rebase sans conflit (rattrapage terminé). |
 | 2026-11-04 08:08 | reparer | arnaud | RIEN À FAIRE : aucune fiche en retouche (939 en base). Aucune fiche modifiée. git status vide avant le pull, pull --rebase sans conflit. |
+| 2026-11-04 08:09 | questionner | arnaud | RIEN À FAIRE : 859 fiches servies, toutes à au moins 2 questions de plus (aquestionner). Aucune fiche modifiée, aucune signalée. git status vide avant le pull, pull --rebase sans conflit. validate : 0 erreur, 15 alertes préexistantes, npm test 114/114. |
