@@ -78,15 +78,24 @@
     ],
     "bonne_reponse": 3,
     "explication": "La courbe affirme qu'il existe un maximum : la recette est nulle à 0 % et presque nulle à 100 %, donc relever un taux déjà au-delà du sommet réduit la recette. Elle ne dit pas que toute baisse de taux rapporte, ni que la recette plafonne sans redescendre ; la position du sommet est une question empirique.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-05T22:12:06.438Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-05T22:12:06.438Z",
+        "note": "Sources rouvertes : en.wikipedia.org/wiki/Laffer_curve (WebFetch, confirme : terme forgé par Wanniski 1978, Laffer dit ne pas se souvenir, bascule vers le troc à 100%). heritage.org, si.edu, brookings.edu, web.archive.org bloqués par la politique réseau (DNS/fetch refusé) : corroborés par WebSearch indépendant (secondaire : citation de Laffer sur les serviettes en tissu et son absence de souvenir retrouvée dans plusieurs reproductions fiables du texte Heritage ; inscription exacte de la serviette Smithsonian '9/13/74 Art B. Laffer, don de Patricia Koyce Wanniski' confirmée mot pour mot ; citation d'Ibn Khaldoun sur le début/fin de dynastie confirmée en substance ; passage de Keynes 1933 sur l'impôt qui 'défait son objet' et la baisse plus efficace qu'une hausse confirmé ; phrase de Goolsbee sur la 'rumeur' de la serviette de cocktail confirmée). Vérification supplémentaire : controverse NYT 2017 sur l'authenticité de la serviette du Smithsonian (Laffer et l'historien Domitrovic la jugent probablement fabriquée a posteriori) retrouvée et recoupée indépendamment du contrôle précédent qui l'avait déjà notée ; la fiche ne tranche pas sur l'authenticité de l'objet et se limite à signaler l'écart de date, ce qui reste exact au vu des sources. Aucune correction nécessaire : citations, dates, carte et quiz vérifiés exacts."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-02",
