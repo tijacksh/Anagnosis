@@ -62,9 +62,10 @@
       "Sur des mesures de température faites au thermomètre sur la route de Franklin"
     ],
     "bonne_reponse": 1,
-    "explication": "Maury exploitait des journaux de bord, d'abord ceux de la marine puis ceux que des capitaines lui renvoyaient contre ses cartes. Ce n'étaient ni ses traversées, ni des sondages, ni des mesures de température faites exprès."
+    "explication": "Maury exploitait des journaux de bord, d'abord ceux de la marine puis ceux que des capitaines lui renvoyaient contre ses cartes. Ce n'étaient ni ses traversées, ni des sondages, ni des mesures de température faites exprès.",
+    "statut": "valide"
   },
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-03",
@@ -78,6 +79,20 @@
     "notes": [
       "Toutes les statistiques chiffrées vérifiées mot pour mot dans le texte intégral (archive.org, Explanations and Sailing Directions, 3e éd. 1851) : 24 jours depuis Hampton Roads jusqu'à la Ligne à 31°O, 41 jours « usual time » de l'ancienne route, 75 jours l'aller-retour à Rio, 700 relevés de navires dont 600 vent debout dans un carré de 5°, moyenne de 30 jours sur trois traversées de Jackson (24, 33, 32 jours) contre 41. Confirmé aussi : direction du dépôt (nommé en juin 1842, confirmé en 1844 — la fiche dit « depuis 1844 », ce qui est défendable), journal abstrait ordonné fin 1842, conférence de Bruxelles 23 août-8 septembre 1853 et vote unanime (Wikipédia).",
       "Un seul point non retrouvé après lecture quasi intégrale du texte (918 000 caractères, par tranches) : la phrase du corps « Maury écrit que plus d'un millier de navigateurs collectent des observations... sans rémunération, et qu'une telle armée d'observateurs n'avait jamais existé » — le texte confirme bien « More than a thousand ships are now daily and hourly occupied » et une coopération volontaire (« volunteered to co-operate »), mais je n'ai trouvé nulle part l'affirmation que ce nombre ou cette coopération « n'avait jamais existé » auparavant. C'est une formule qui dépasse ce que la source atteste explicitement : à vérifier ou à adoucir avant publication."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-06T07:11:53.849Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-11-06T07:11:53.849Z",
+        "note": "Rouvert archive.org (texte intégral djvu.txt, 1,17 Mo, lu par grep sur l'intégralité) et Wikipédia (Matthew Fontaine Maury). Le seul point laissé en doute par le contrôle — « plus d'un millier de navigateurs... sans rémunération, et qu'une telle armée d'observateurs n'avait jamais existé » — est bien dans le texte, p.24 : « more than a thousand navigators are now busied night and day in all parts of the world... gratuitously collecting materials... never before has there been such a corps of observers scattered over the world, yet laboring together and acting in concert ». Reverifié aussi : 24/41 jours, 75 jours aller-retour, 700 relevés dont 600 vent debout dans un carré de 5°, moyenne de 30 jours sur les trois traversées de Jackson (24, 33, 32) contre 41 (tous confirmés mot pour mot, p.24 et p.46-47 du texte). Sur Wikipédia : nomination juin 1842, confirmation octobre 1844 (« depuis 1844 » de la fiche est défendable), journal abstrait ordonné fin 1842, conférence de Bruxelles du 23 août au 8 septembre 1853 et vote unanime, recommandation de ne pas dépasser 30°O à l'équateur. Quiz, repère et carte vérifiés conformes aux sources. Aucune correction nécessaire."
+      }
     ]
   }
 }
