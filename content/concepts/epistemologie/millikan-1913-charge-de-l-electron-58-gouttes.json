@@ -78,6 +78,41 @@
     "explication": "Feynman décrit un biais de recherche : un chiffre trop éloigné de celui de Millikan faisait chercher une faille, un chiffre proche était moins examiné. Son récit n'invoque ni des appareils différents, ni un changement dans les gouttes, ni une habileté propre à Millikan.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle marge d'erreur Millikan annonçait-il en 1913, et quel était l'écart réel de son résultat par rapport à la valeur actuelle ?",
+      "choix": [
+        "Une marge de 2 parties pour 1 000, pour un écart réel d'environ trois fois cette marge",
+        "Une marge de 5 %, pour un écart réel resté dans cette marge",
+        "Aucune marge d'erreur n'était donnée dans l'article de 1913",
+        "Une marge de 2 parties pour 1 000, pour un écart réel dix fois plus petit que cette marge"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'article de 1913 annonce une incertitude de 2 parties pour 1 000, mais Millikan est trop bas de 0,6 % par rapport à la valeur actuelle, soit environ trois fois la marge qu'il annonçait."
+    },
+    {
+      "question": "Que révèlent les cahiers de laboratoire de Millikan, entre février et avril 1912, selon l'APS News ?",
+      "choix": [
+        "Ils ne contiennent aucune donnée sur des gouttes d'huile, à cette date",
+        "Ils contiennent bien plus de gouttes que les 58 publiées, avec des annotations marginales",
+        "Ils confirment que Millikan n'a travaillé que sur exactement 58 gouttes",
+        "Ils montrent que Millikan a changé la valeur de la charge électrique chaque semaine"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Selon l'APS News, les cahiers de Millikan entre février et avril 1912 contiennent bien plus de gouttes que les 58 de l'article, avec des annotations marginales comme beauty publish ou something wrong."
+    },
+    {
+      "question": "D'après le discours de Feynman en 1974, à quoi tenait l'écart de Millikan, et que dit pourtant l'article de 1913 sur ce facteur ?",
+      "choix": [
+        "Feynman l'attribue à la viscosité de l'air, et l'article de Millikan reconnaît une incertitude de 5 % sur ce facteur",
+        "Feynman l'attribue à des gouttes trop petites, un facteur que l'article de Millikan ne mentionne pas du tout",
+        "Feynman l'attribue à la viscosité de l'air, mais l'article de Millikan ne lui accordait qu'une incertitude de 0,1 %",
+        "Feynman l'attribue à une erreur de calcul arithmétique que Millikan aurait reconnue plus tard"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Feynman attribue l'écart à une valeur incorrecte de la viscosité de l'air, mais l'article de Millikan jugeait cette source d'erreur sûre à 0,1 % près, bien inférieure à l'écart réel de 0,6 %."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
