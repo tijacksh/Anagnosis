@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "L'article localise le gène par liaison avec un marqueur d'ADN, sans l'isoler, et le place sur le chromosome 4, non sur le X. La répétition de trois lettres vient de l'article de 1993, et la fonction de la protéine n'est pas connue en 1983.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -81,12 +81,21 @@
       "explication": "Le titre de l'article parle d'un gène contenant une répétition de trinucléotides, allongée et instable sur les chromosomes des malades. Le titre ne parle ni de perte du gène, ni de délétion du chromosome, ni de copie supplémentaire."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-06T10:15:21.068Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-06T10:15:21.068Z",
+        "note": "Sources rouvertes : PubMed/NCBI eutils (résumé 1983 PMID 6316146, notice 1993 PMID 8458085), PMC4782548 (Bhattacharyya 2016, texte intégral), Wikipédia Nancy Wexler en corroboration. Résumé officiel 1983 confirmé mot pour mot, titres/pages/dates 1983 et 1993 exacts, biographie Negrette/Wexler confirmée, refus de Wexler de connaître son propre résultat corroboré indépendamment. Carte et quiz cohérents. Rien changé."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-03",

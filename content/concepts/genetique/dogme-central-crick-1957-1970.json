@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Crick juge impossible le transfert d'information depuis une protéine, vers une protéine, un ARN ou un ADN. L'ARN vers ADN était laissé ouvert, l'ARN vers ARN existe, et le passage de l'ADN par l'ARN est un transfert permis.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -81,12 +81,21 @@
       "explication": "Temin et Baltimore découvrent la transcriptase inverse. Crick répond que le transfert d'ARN vers ADN n'a jamais été exclu par son énoncé. Un transfert depuis une protéine serait un vrai renversement, et l'ARN vers ARN comme l'ADN vers protéine ne sont pas la découverte de 1970."
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-06T10:13:30.165Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-06T10:13:30.165Z",
+        "note": "Sources rouvertes : Cobb PMC5602739 (texte intégral) et Wikipédia Central dogma of molecular biology. Confirmés mot pour mot : 19/09/1957 UCL, titres et longueur de 1957-1958, définition de l'information, les 4/2/3 transferts, note de 1956 et sa citation exacte, transcriptase inverse 1970 et editorial Central dogma reversed, réponse de Crick, attributions Watson 1965/Boivin 1949/Dounce 1953, anecdote Monod, prions/scrapie, absence de preuve d'hérédité épigénétique contredisant le dogme. Source Crick 1970 (Nature) paywall, référence et contenu corroborés par les deux autres sources. Repère, carte et quiz conformes. Rien changé."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-03",
