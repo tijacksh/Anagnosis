@@ -74,6 +74,41 @@
     "explication": "Avec l'héritage de priorité, la tâche qui tient le verrou prend la priorité de celle qui l'attend, et les tâches moyennes ne peuvent plus la retarder. Le processeur n'a pas été changé, la tâche météo a été conservée et le cycle est resté le même.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Que se passe-t-il, à chaque réinitialisation, aux activités commandées depuis la Terre pour la journée ?",
+      "choix": [
+        "Elles reprennent automatiquement depuis le dernier point validé",
+        "Elles s'arrêtent, et le reste attend le lendemain",
+        "Elles sont transférées à un ordinateur de secours",
+        "Les données déjà collectées ce jour-là sont effacées"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte dit que les activités du jour s'arrêtent et que le reste attend le lendemain, tandis que les données déjà collectées, elles, ne sont pas perdues."
+    },
+    {
+      "question": "Pourquoi l'outil de trace embarqué dans le logiciel de vol n'était-il pas exploité pendant la mission ?",
+      "choix": [
+        "Il n'avait pas été prévu à la conception du logiciel",
+        "Il consommait trop de mémoire pour fonctionner en vol",
+        "Faute de pouvoir en renvoyer les données vers la Terre",
+        "Il avait été désactivé après un essai raté avant le lancement"
+      ],
+      "bonne_reponse": 2,
+      "explication": "L'outil de trace était prévu dès la conception, mais la fiche précise qu'il n'était pas exploité en vol faute de pouvoir en renvoyer les données ; aucun des autres motifs n'est mentionné."
+    },
+    {
+      "question": "Pourquoi les essais menés avant le lancement n'avaient-ils pas révélé le problème ?",
+      "choix": [
+        "Ils ne couvraient que les cas de débit élevé, pas la charge réelle en surface",
+        "Ils avaient été interrompus par une panne du simulateur",
+        "Ils testaient un autre verrou que celui utilisé en vol",
+        "Ils avaient révélé le problème, mais la correction avait été oubliée"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Reeves précise que les essais avant le lancement ne couvraient que les cas de débit élevé, et non la charge plus forte observée à la surface de Mars."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
