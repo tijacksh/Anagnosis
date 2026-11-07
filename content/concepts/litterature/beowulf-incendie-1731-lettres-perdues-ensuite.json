@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-07T22:12:45.674Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-07T22:12:45.674Z",
+        "note": "Wikisource (notice DNB) et Wikipédia (Cotton library) rouverts indépendamment : incendie du 23 octobre 1731, rapport de 1732 (958 volumes, 746 intacts), tentative de 1824, réparation efficace de 1842 sous Madden, destruction totale de La Bataille de Maldon par contraste, tous confirmés mot pour mot. ebeowulf.uky.edu et web.archive.org inaccessibles depuis ce bac à sable ; les environ 2000 lettres perdues depuis le feu et restituées par les transcriptions Thorkelin, ainsi que les plus de 1300 lettres restituées par rétro-éclairage, sont recorroborés indépendamment par recherche web sur le site du projet Electronic Beowulf. Repère, carte et quiz conformes. Mise en circulation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -101,6 +110,6 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le manuscrit de Beowulf est unique, et les copies de Thorkelin le reproduisent. Elles datent de plus d'un demi-siècle après le feu de 1731, mais avant une partie de l'effritement des marges roussies : elles gardent donc des lettres que le parchemin a perdues ensuite. Aucun second manuscrit n'existe, elles ne sont pas antérieures au feu, et ce ne sont pas des corrections de scribes.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }

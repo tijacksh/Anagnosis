@@ -71,9 +71,10 @@
       "L'allongement du cycle de 0,125 seconde qui rythmait le bus"
     ],
     "bonne_reponse": 1,
-    "explication": "Avec l'héritage de priorité, la tâche qui tient le verrou prend la priorité de celle qui l'attend, et les tâches moyennes ne peuvent plus la retarder. Le processeur n'a pas été changé, la tâche météo a été conservée et le cycle est resté le même."
+    "explication": "Avec l'héritage de priorité, la tâche qui tient le verrou prend la priorité de celle qui l'attend, et les tâches moyennes ne peuvent plus la retarder. Le processeur n'a pas été changé, la tâche météo a été conservée et le cycle est resté le même.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -86,6 +87,20 @@
     "empreinte": "6d1232897b54d2d9",
     "notes": [
       "WebFetch direct bloqué sur cs.unc.edu, cs.cornell.edu et jacobfilipp.com (hors domaines autorisés par le bac à sable) ; science.nasa.gov confirme l'atterrissage du 4 juillet 1997 à Ares Vallis. Les faits de la fiche (inversion de priorité entre une tâche météo basse priorité tenant un verrou et la tâche bus haute priorité, préemption par des tâches moyennes, reproduction en moins de 18h, correction par activation de l'héritage de priorité via une variable globale, lien avec pipe()/select(), auteur Glenn Reeves chef de l'équipe logicielle JPL) sont corroborés de façon cohérente par plusieurs résumés indépendants (mirrors Cornell/Indiana/Berkeley/Washington de la même lettre de Reeves, et résumé de l'article Dr. Dobb's 1999) obtenus par recherche web. Rien à redire sur le fond."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-07T22:12:45.237Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-07T22:12:45.237Z",
+        "note": "science.nasa.gov rouvert (atterrissage 4 juillet 1997, Ares Vallis). cs.unc.edu/cs.cornell.edu/jacobfilipp.com et autres miroirs .edu toujours bloqués par le réseau du bac à sable ; mécanisme de l'inversion de priorité, reproduction en moins de 18h, correction par héritage de priorité sur le verrou de select(), signalement avant atterrissage sans reproduction possible et dépriorisation par manque de temps, tous recorroborés indépendamment par recherche web sur plusieurs sources (dont les mêmes miroirs académiques de la lettre de Reeves). Repère, carte et quiz conformes. Mise en circulation."
+      }
     ]
   }
 }
