@@ -59,7 +59,30 @@
     "explication": "La poussière du Bodélé est riche en phosphore, nutriment rare dans les sols amazoniens et entraîné par la pluie vers les rivières : l'apport saharien, environ 22 000 tonnes par an, compense à peu près cette perte. Le texte ne lui attribue ni rôle sur l'acidité, ni rétention d'eau, ni apport d'azote.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment l'équipe de la NASA a-t-elle mesuré en 2015 le volume de poussière saharienne en trois dimensions ?",
+      "choix": [
+        "Avec des stations météo installées le long de l'Atlantique",
+        "Avec le lidar du satellite CALIPSO, qui envoie des impulsions laser",
+        "En comptant les grains déposés sur des plaques posées en Amazonie",
+        "Avec les images visibles d'un satellite météorologique ordinaire"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le satellite CALIPSO envoie des impulsions laser qui rebondissent sur les particules atmosphériques ; leurs propriétés optiques distinguent la poussière des autres aérosols. Le texte ne mentionne ni stations au sol, ni plaques, ni imagerie visible pour cette mesure."
+    },
+    {
+      "question": "D'où vient la plus grande partie du phosphore que la poussière saharienne apporte à l'Amazonie ?",
+      "choix": [
+        "De cendres volcaniques récentes soufflées depuis l'Afrique de l'Est",
+        "D'engrais agricoles transportés depuis le Sahel par les vents",
+        "De la dépression du Bodélé, un ancien lit de lac riche en micro-organismes morts",
+        "Des dunes de sable du Sahara central, riches en minéraux"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La dépression du Bodélé, au Tchad, est un ancien lit de lac dont les roches sont formées de micro-organismes morts, très riches en phosphore. Le texte n'attribue cet apport ni à des cendres volcaniques, ni à des engrais, ni aux dunes du Sahara central."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
