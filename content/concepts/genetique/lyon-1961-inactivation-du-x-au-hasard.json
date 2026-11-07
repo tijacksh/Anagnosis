@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Dans chaque cellule, un seul X reste actif, choisi au hasard tôt dans le développement : les plaques de pelage sont les descendances de cellules à X normal ou à X muté actif. Aucun des deux X ne domine systématiquement.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -87,11 +87,11 @@
       "explication": "Ils voient un amas d'ADN fortement coloré dans les noyaux de la chatte, pas du chat, plus tard appelé corpuscule de Barr. Il ne s'agit ni d'ARN, ni d'un Y, ni d'une absence de chromosomes."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-11-06T22:16:03.887Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-07T07:11:20.430Z",
     "historique": [
       {
         "action": "retoucher",
@@ -100,6 +100,14 @@
         "par": "routine-relecture",
         "le": "2026-11-06T22:16:03.887Z",
         "note": "Sources rouvertes en texte intégral : Balderman & Lichtman 2011 (PMC3678792, intégral) confirment Barr/Bertram 1949, Ohno/Hauschka 1960, mâle tacheté de Falconer, Russell XO 1959, Lyon avril 1961 dans Nature, la phrase de Lyon sur l'hypothèse née de la soudure de la génétique et de la cytologie de la souris, extension 1962 aux mammifères (viabilité d'individus à quatre X et un Y), Lee Russell juillet 1961, Beutler/Yeh/Fairbanks 1962, Ohno crédité par Beutler. Lyon 1961 (Nature) et Beutler et al. 1962 (PNAS) restent paywall, non lus en texte intégral (inchangé depuis le contrôle). Pour-aller-plus-loin Lyon 1962 (AJHG, PMC1932279) rouvert : page et référence confirmées, PDF inaccessible (défi anti-robot PMC). Correction faite : la phrase sur l'origine clonale des léiomyomes surstatait la source — Balderman et Lichtman présentent le travail de Linder et Gartler (1965) comme l'interprétation la plus probable parmi plusieurs, confirmée seulement par des travaux ultérieurs, et non comme un fait établi d'emblée. Texte corrigé pour nommer Linder et Gartler, distinguer leur interprétation de 1965 de la confirmation ultérieure, et retirer le 'a permis d'établir' trop affirmatif. Cette correction touche le texte : la fiche doit repasser par un contrôle indépendant avant toute mise en circulation. Carte et quiz, par ailleurs, conformes aux sources."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-11-07T07:11:20.430Z",
+        "note": "Diagnostic de contrôle (2026-11-03) périmé après la correction de la relecture du 2026-11-06. Sources entièrement rouvertes : Balderman & Lichtman 2011 (PMC3678792, texte intégral, deux passages distincts) confirment Barr/Bertram 1949 (amas d'ADN chez la chatte, absent chez le chat), Ohno (hypothèse d'un X hétérochromatique largement silencieux pour l'équilibre de dosage, avant Lyon), Ohno & Hauschka 1960, Russell 1959 (souris XO viable), mâle tacheté confié par Falconer, hypothèse de Lyon publiée le 22 avril 1961 dans Nature, extension 1962 aux mammifères (quatre X et un Y viables), synthèse de Lee Russell en juillet 1961, Beutler/Yeh/Fairbanks 1962 (titre exact confirmé) et le crédit de Beutler à Ohno comme père de l'idée. Point corrigé par la relecture vérifié directement dans la source : Linder et Gartler (1965) présentent l'origine clonale des léiomyomes par le marqueur G6PD comme l'interprétation la plus probable parmi plusieurs, renforcée ensuite par des travaux ultérieurs (échantillon étendu à San Francisco) jusqu'à un degré de quasi-certitude — le texte actuel ('Des travaux ultérieurs l'ont confirmé', sans 'a permis d'établir') correspond exactement à cela. Lyon 1961 (Nature, DOI résolu vers nature.com) et Beutler et al. 1962 (PNAS, DOI résolu) restent paywall, non lus en texte intégral, comme déjà noté dans la fiche ; Lyon 1962 (AJHG, PMC1932279) vérifié en métadonnées (titre, auteur, pages, année), PDF disponible mais non requis pour les affirmations de la fiche, déjà couvertes par Balderman et Lichtman. Carte, repère et quiz (principal et supplémentaire) relus et conformes : bonne réponse soutenue par le texte, distracteurs faux et non pas seulement moins bons. Aucune fabrication, aucune affirmation non soutenue."
       }
     ]
   },
