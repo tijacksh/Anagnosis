@@ -98,5 +98,40 @@
     "bonne_reponse": 0,
     "explication": "Joué seul en boucle, le motif privé de son premier temps donne des réponses semblables à celles des motifs ordinaires : la réaction n'apparaît que lorsqu'il surgit au milieu d'une séquence régulière, ce qui trahit une attente du temps fort. Le contrôle ne servait ni à habituer les bébés, ni à mesurer une préférence, ni à tester les électrodes.",
     "statut": "valide"
-  }
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Dans quelle ville l'expérience sur les nouveau-nés a-t-elle eu lieu ?",
+      "choix": [
+        "Au Neurosciences Institute de La Jolla",
+        "À l'université Semmelweis de Budapest",
+        "À l'Institut Max Planck de Leipzig",
+        "À l'université de Vienne"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'expérience de Winkler et ses collègues s'est déroulée à l'université Semmelweis de Budapest, où des nouveau-nés endormis ont été équipés d'électrodes pendant l'écoute du rythme de batterie."
+    },
+    {
+      "question": "Qu'est-ce qui distingue le motif déviant, rare, des trois variantes ordinaires qui omettent elles aussi un son ?",
+      "choix": [
+        "Il remplace tous les instruments par un simple clic sonore",
+        "Il n'apparaît que dans l'expérience menée chez les adultes",
+        "Il omet le charleston et la grosse caisse du premier temps",
+        "Il est joué au double du tempo des autres motifs du bloc"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Les trois variantes ordinaires n'omettent que le charleston, à un endroit peu saillant, et ne cassent pas le rythme. La variante déviante omet en plus la grosse caisse sur le premier temps, ce qui la rend rare et détectable."
+    },
+    {
+      "question": "Quelle étude postérieure a cherché à écarter l'explication par l'apprentissage statistique des probabilités d'enchaînement des sons ?",
+      "choix": [
+        "Une étude de Háden et al., comparant rythmes réguliers et irréguliers, dans Cognition",
+        "Une réplication de l'expérience de 2009 chez des macaques rhésus",
+        "Une enquête sur les préférences musicales de nourrissons de six mois",
+        "Une étude comparant nouveau-nés et adultes sur de la musique classique"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'étude de Háden et al., publiée en 2024 dans Cognition, a comparé des séquences rythmiques régulières et irrégulières chez des nouveau-nés endormis, concluant que l'apprentissage statistique seul n'explique pas la détection du temps fort."
+    }
+  ]
 }
