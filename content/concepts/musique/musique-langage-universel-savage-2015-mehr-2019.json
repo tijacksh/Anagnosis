@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-08T10:12:46.662Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-08T10:12:46.662Z",
+        "note": "Sources rouvertes : Mehr et al. 2019 (PMC7001657, texte intégral) et Savage et al. 2015 (PMC4517223, texte intégral). Tous les chiffres revérifiés indépendamment : 309/315 sociétés avec musique en eHRAF, les six autres (Turkmènes, Dominicains, Hazaras, Pamir, Tadjiks, Ghorbats) confirmées hors base, chants dans les 60 sociétés du sous-échantillon, 118 chants sur 120 cas possibles (86 sociétés), 113/118 tonals pour plus de 90% de 30 experts, 29357 participants à 42,4% de réussite contre 25% de hasard, variance intra-société environ six fois supérieure (5,58/6,39/6,21). Savage 2015 : 304 enregistrements de neuf régions, aucun universel absolu, 18 traits communs, réseau de dix traits associés, et la phrase exacte de l'abstract confirme mot pour mot la tendance universelle à chanter, jouer des percussions et danser en groupe sur une musique simple et répétitive. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -88,6 +97,6 @@
     ],
     "bonne_reponse": 3,
     "explication": "Avec 42,4 % de réussite pour 25 % de hasard, les formes des chants portent bien une trace de leur usage, mais très insuffisante pour parler de langage. Les auditeurs ne réussissent pas presque toujours, ils ne sont pas réduits au hasard, et les quatre usages (danse, berceuse, guérison, amour) sont tous identifiés au-dessus du hasard, pas seulement les berceuses.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }

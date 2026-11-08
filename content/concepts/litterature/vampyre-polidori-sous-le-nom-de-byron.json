@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-08T10:12:46.222Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-08T10:12:46.222Z",
+        "note": "Sources rouvertes : Wikisource (récit n°63 'THE VAMPYRE; A TALE BY LORD BYRON', lettre de Polidori n°64, 'Extract of a Letter from Geneva' n°63), Wikipedia (The Vampyre, Dracula, Glenarvon), Gutenberg 6087. Citation de Polidori vérifiée mot pour mot ('though the ground-work is certainly Lord Byron's, its developement is mine'), mention de la demande d'une dame confirmée. Lettre de Genève confirmée : soirée à la villa Diodati, défi d'écriture d'histoires de fantômes entre Byron, Shelley, Mary Godwin et le médecin (Polidori), ébauches transmises comme venant du génie de Byron 'et ceux sous son influence'. Parution du 1er avril 1819, édition Sherwood/Neely/Jones avec nom de Byron retiré sans remplacement dans les tirages suivants, dénis répétés de Byron et Polidori restés sans effet sur l'attribution ('despite repeated denials... authorship often went unclarified'), lord Ruthven tiré de Glenarvon (Lady Caroline Lamb, 1816, même éditeur), influence sur Dracula (Bram Stoker, 1897) confirmée. Tout concorde."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -107,6 +116,6 @@
     ],
     "bonne_reponse": 2,
     "explication": "Polidori écrit que le point de départ est bien de Byron mais que le développement est de lui, à la demande d'une dame. Il n'a pas écrit seul à Londres : il voyageait avec Byron comme médecin et secrétaire. Aucune cession de droits ni traduction allemande n'est évoquée.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }

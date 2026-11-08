@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-08T10:12:45.500Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-08T10:12:45.500Z",
+        "note": "Sources rouvertes : Gutenberg ebook 829 (catalogue + texte intégral), en.wikipedia.org/wiki/Gulliver%27s_Travels. Date/prix (28 oct 1726, 8s6d), manuscrit remis à Motte en mars 1726 via cinq imprimeries, coupures Lilliput/Lindalino et ajout reine Anne confirmés mot pour mot sur Wikipedia. Lettre à Sympson vérifiée mot pour mot dans le texte intégral Gutenberg : citation exacte, désaveu du paragraphe sur la reine Anne, Godolphin puis Oxford, lettre datée du 2 avril 1727. Edition Faulkner 1735 sur exemplaire annoté par un ami de l'auteur (Wikipedia : 'generally believed' Charles Ford, nuance reportée), manuscrit détruit, Lindalino réintroduit en 1899 : tout confirmé. Quiz exact."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -84,6 +93,6 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le manuscrit original avait été détruit : Faulkner s'appuie sur un exemplaire de Motte annoté par un ami de l'auteur, probablement Charles Ford. Ni autographe à Dublin, ni épreuves retrouvées, ni traduction française n'ont servi de base à cette édition.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }

@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-08T10:12:45.862Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-08T10:12:45.862Z",
+        "note": "Sources rouvertes : Gutenberg 521 (texte intégral, via curl), Gutenberg 55538 (texte intégral, via curl), en.wikipedia.org/wiki/Alexander_Selkirk, en.wikipedia.org/wiki/Robinson_Crusoe_Island. Citation Woodes Rogers vérifiée mot pour mot dans le journal (ligne 5592 du texte Gutenberg), date 'Febr. 2', durée quatre ans et quatre mois, capitaine Stradling et Cinque-Ports confirmés. Passage de Defoe sur l'Orénoque et Trinidad vérifié mot pour mot au chapitre XV (Gutenberg 521, ligne 7252). Naissance à Largo/Fife, renommage du 1er janvier 1966 par Eduardo Frei Montalva, Más Afuera devenue Alejandro Selkirk à 180 km, île de Crusoé explicitement dans les Caraïbes selon Wikipedia, vol depuis Santiago de moins de trois heures : tout confirmé. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -102,6 +111,6 @@
     ],
     "bonne_reponse": 0,
     "explication": "Crusoé comprend que son île se trouve dans le golfe de l'Orénoque, près de la Trinité : c'est la mer des Caraïbes, à environ 4 300 km de Juan Fernández. Selkirk a bien vécu sur Más a Tierra, dans le Pacifique Sud ; le renommage date de 1966, bien après le roman, et Defoe ne situe pas son récit dans le Pacifique, encore moins au large de la Californie.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }
