@@ -187,14 +187,29 @@ section.bloc h2 {
 }
 @media (max-width: 640px) { .captures { grid-template-columns: repeat(2, 1fr); } }
 .captures img {
-  display: block; width: 100%; height: auto; aspect-ratio: 600 / 1304;
-  border: 1px solid var(--filet); border-radius: 14px;
+  display: block; width: 100%; height: auto; aspect-ratio: 560 / 1143;
+  filter: drop-shadow(0 18px 22px rgba(27,26,23,.16));
 }
 .captures figcaption {
   font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
   color: var(--texte-2); margin-top: 10px;
 }
 .captures figure { margin: 0; }
+/* iPhone Duo : replié (écran extérieur) et déplié (écran intérieur, en paysage) */
+.duo { margin: 56px 0 0; }
+.duo h3 { font-size: 22px; margin: 0 0 6px; }
+.duo > p { color: var(--texte-2); margin: 0 0 24px; max-width: 60ch; }
+.duo .paire { display: grid; grid-template-columns: minmax(0, 31fr) minmax(0, 62fr); gap: 24px; align-items: end; }
+.duo figure { margin: 0; }
+.duo img { display: block; width: 100%; height: auto; filter: drop-shadow(0 18px 22px rgba(27,26,23,.16)); }
+.duo figcaption {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--texte-2); margin-top: 10px; text-align: center;
+}
+@media (max-width: 640px) {
+  .duo .paire { grid-template-columns: 1fr; }
+  .duo .replie img { width: 62%; margin: 0 auto; }
+}
 
 /* ---- disciplines, groupées par famille en accordéon (comme dans l'app) ---- */
 .familles { margin-top: 28px; }
@@ -320,7 +335,7 @@ footer {
     <figure class="trailer">
       <video muted loop playsinline controls preload="metadata" width="1280" height="720"
              aria-label="Présentation d'Anagnosis : la fiche du jour, l'écoute, le calendrier, la série, l'archive, le quiz et la carte à partager">
-        <source src="/trailer-paysage.mp4" type="video/mp4">
+        <source src="/trailer-duo.mp4" type="video/mp4">
       </video>
       <script>
         // Avant la sélection de la source (une tâche plus tard) : un seul MP4 et une
@@ -331,21 +346,29 @@ footer {
           var portrait = matchMedia('(max-width: 640px)').matches;
           if (portrait) {
             f.classList.add('portrait');
-            v.width = 720; v.height = 1560;
-            v.querySelector('source').src = '/trailer-portrait.mp4';
+            v.width = 720; v.height = 1280;
+            v.querySelector('source').src = '/trailer-iphone.mp4';
           }
-          v.poster = portrait ? '/trailer-portrait.jpg' : '/trailer-paysage.jpg';
+          v.poster = portrait ? '/trailer-iphone.jpg' : '/trailer-duo.jpg';
           if (!matchMedia('(prefers-reduced-motion: reduce)').matches) v.autoplay = true;
           v.load();
         })();
       </script>
     </figure>
     <ul class="captures">
-      <li><figure><img src="/capture-fiche.jpg" width="600" height="1304" loading="lazy" alt="La fiche du jour : « La banalité du mal », avec son illustration"><figcaption>La fiche</figcaption></figure></li>
-      <li><figure><img src="/capture-ecoute.jpg" width="600" height="1304" loading="lazy" alt="L'écoute : la phrase lue est surlignée, le lecteur en bas de l'écran"><figcaption>L'écoute</figcaption></figure></li>
-      <li><figure><img src="/capture-quiz.jpg" width="600" height="1304" loading="lazy" alt="Le quiz : la bonne réponse en vert, l'explication en dessous"><figcaption>Le quiz</figcaption></figure></li>
-      <li><figure><img src="/capture-carte.jpg" width="600" height="1304" loading="lazy" alt="La carte à partager en story, avec la source de la fiche"><figcaption>La carte</figcaption></figure></li>
+      <li><figure><img src="/appareil-fiche.webp" width="560" height="1143" loading="lazy" alt="La fiche du jour : « La banalité du mal », avec son illustration"><figcaption>La fiche</figcaption></figure></li>
+      <li><figure><img src="/appareil-ecoute.webp" width="560" height="1143" loading="lazy" alt="L'écoute : la phrase lue est surlignée, le lecteur en bas de l'écran"><figcaption>L'écoute</figcaption></figure></li>
+      <li><figure><img src="/appareil-quiz.webp" width="560" height="1143" loading="lazy" alt="Le quiz : la bonne réponse en vert, l'explication en dessous"><figcaption>Le quiz</figcaption></figure></li>
+      <li><figure><img src="/appareil-carte.webp" width="560" height="1143" loading="lazy" alt="La carte à partager en story, avec la source de la fiche"><figcaption>La carte</figcaption></figure></li>
     </ul>
+    <div class="duo">
+      <h3>Sur iPhone Duo, replié et déplié.</h3>
+      <p>Replié, la fiche tient sur l'écran extérieur. Déplié, la citation et sa source s'affichent à côté du texte.</p>
+      <div class="paire">
+        <figure class="replie"><img src="/appareil-duo-replie.webp" width="620" height="864" loading="lazy" alt="Anagnosis sur l'iPhone Duo replié : la fiche du jour sur l'écran extérieur"><figcaption>Replié</figcaption></figure>
+        <figure><img src="/appareil-duo-deplie.webp" width="1240" height="901" loading="lazy" alt="Anagnosis sur l'iPhone Duo déplié : la fiche lue à voix haute, la citation et sa source à droite"><figcaption>Déplié</figcaption></figure>
+      </div>
+    </div>
   </section>
 
   <section class="bloc">
