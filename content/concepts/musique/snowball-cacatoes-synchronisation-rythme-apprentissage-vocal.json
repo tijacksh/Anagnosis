@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-08T22:14:17.637Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-08T22:14:17.637Z",
+        "note": "Wikipedia (Snowball cockatoo) rouverte, confirme refuge août 2007, vidéo d'Irena Schulz, Backstreet Boys, étude Patel/Iversen janvier-mai 2008, 'to a limited extent'. Les deux résumés Current Biology (Patel et al. 2009 et Schachner et al. 2009), inaccessibles par le réseau en 2026-11-04, obtenus cette fois via PubMed/eutils : confirment en détail l'hypothèse de l'apprentissage vocal, le protocole (cacatoès eleonora, large plage de tempos), et l'étude parallèle (deux perroquets, base de vidéos de centaines d'espèces, conclusion 'entrainment is not unique to humans'). Tout concorde avec le texte, la carte et le quiz."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -97,6 +106,6 @@
     ],
     "bonne_reponse": 2,
     "explication": "L'hypothèse relie la synchronisation aux circuits de l'apprentissage vocal : elle prédit qu'elle existe chez les imitateurs de sons (humains, certains oiseaux, cétacés, pinnipèdes) et pas chez les primates non humains. Elle n'exclut donc pas tous les animaux, ne réserve pas la synchronisation à l'humain, et ne dépend pas de l'âge.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }

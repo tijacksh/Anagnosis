@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-08T22:14:17.173Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-08T22:14:17.173Z",
+        "note": "Source principale (Winkler et al. 2009, PMC, texte intégral) rouverte et revérifiée : 14 nouveau-nés de 2-3 jours confirmés, ondes à 200/316/428 ms confirmées mot pour mot, contrôle sans réponse différentielle confirmé, discussion des explications alternatives (suivi séparé, apprentissage statistique) et expérience complémentaire chez 14 adultes confirmées. Source secondaire (Háden et al. 2024, Cognition) rouverte via PubMed/eutils (résumé complet, inaccessible en 2026-11-04) : confirme la comparaison séquences régulières/irrégulières et la conclusion sur l'apprentissage statistique, conforme à la fiche. Carte et quiz fidèles au texte et aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-04",
@@ -88,6 +97,6 @@
     ],
     "bonne_reponse": 0,
     "explication": "Joué seul en boucle, le motif privé de son premier temps donne des réponses semblables à celles des motifs ordinaires : la réaction n'apparaît que lorsqu'il surgit au milieu d'une séquence régulière, ce qui trahit une attente du temps fort. Le contrôle ne servait ni à habituer les bébés, ni à mesurer une préférence, ni à tester les électrodes.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }
