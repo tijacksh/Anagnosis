@@ -574,7 +574,7 @@ peut rouvrir directement le texte du décret.)*
 | Paléontologie | Les mammouths de l'île Wrangel : une population naine survivante jusqu'à environ 4 000 ans (Vartanyan et al., 1993) | fait | routine-production-arnaud | 2026-11-03 |
 | Paléontologie | Archaeoraptor (1999) : le fossile chimère publié par National Geographic, démonté par Xu Xing et ses collègues (2000) | fait | routine-production-arnaud | 2026-11-03 |
 | Paléontologie | Les libellules géantes du Carbonifère (Meganeura) et l'hypothèse de l'oxygène : une explication contestée | fait | routine-production-arnaud | 2026-11-03 |
-| Philosophie | Le paragraphe « is / ought » de Hume (Traité, III, I, 1, 1740) : une demande de justification, plus qu'une « guillotine » | en cours | routine-production-arnaud | 2026-11-04 |
-| Philosophie | Hegel n'a pas écrit « thèse, antithèse, synthèse » : les trois moments de l'Encyclopédie (§79-82) et le triplet de Fichte | en cours | routine-production-arnaud | 2026-11-04 |
-| Philosophie | Épicure et le plaisir : la Lettre à Ménécée définit le plaisir comme absence de douleur, pas comme festin | en cours | routine-production-arnaud | 2026-11-04 |
-| Philosophie | « Seuls les morts ont vu la fin de la guerre » : Santayana (Tipperary, 1922), cité comme de Platon par MacArthur en 1962 | en cours | routine-production-arnaud | 2026-11-04 |
+| Philosophie | Le paragraphe « is / ought » de Hume (Traité, III, I, 1, 1740) : une demande de justification, plus qu'une « guillotine » | fait | routine-production | 2026-11-08 |
+| Philosophie | Hegel n'a pas écrit « thèse, antithèse, synthèse » : les trois moments de l'Encyclopédie (§79-82) et le triplet de Fichte | fait | routine-production | 2026-11-08 |
+| Philosophie | Épicure et le plaisir : la Lettre à Ménécée définit le plaisir comme absence de douleur, pas comme festin | fait | routine-production | 2026-11-08 |
+| Philosophie | « Seuls les morts ont vu la fin de la guerre » : Santayana (Tipperary, 1922), cité comme de Platon par MacArthur en 1962 | fait | routine-production | 2026-11-08 |
