@@ -10,7 +10,7 @@
   "duree_lecture_min": 3,
   "contenu_vulgarise": "En 1897, Norman Triplett remarque que les meilleurs temps du cyclisme sur route s'obtiennent en compétition directe, puis avec un entraîneur qui donne le rythme, et seulement en dernier lieu contre la montre, seul. Pour tester l'idée dans un cadre qu'il peut contrôler, le psychologue de l'université d'Indiana installe des moulinets à pêche et fait tourner la manivelle, le plus vite possible, à quarante enfants. Chacun tourne seul, puis en même temps qu'un camarade, dans un ordre alterné qui vise à neutraliser l'entraînement et la fatigue.\n\n## Ce que Triplett mesure\n\nLes écarts qu'il relève sont modestes, mais vont dans le sens de son hypothèse : dans un des groupes, la moyenne passe de 47,48 secondes en solo à 41,88 en duo au premier passage, un gain de 5,6 secondes. Pour les courses cyclistes qu'il dépouille par ailleurs, les contre-la-montre assistés d'un entraîneur gagnent 22,9 % de temps sur les courses sans assistance, et la compétition directe encore 3,5 % de plus. Triplett en tire une explication : « the bodily presence of another contestant participating simultaneously in the race serves to liberate latent energy ». L'étude, publiée en 1898 dans l'American Journal of Psychology, devient dans les manuels l'expérience fondatrice de la psychologie sociale.\n\n## Ce que la relecture statistique trouve\n\nEn 2005, Michael Strube reprend les chiffres bruts de Triplett avec les tests statistiques devenus courants depuis. Aucune des cinq comparaisons entre essais seuls et essais en duo n'approche le seuil de signification. Dans quatre cas sur cinq, la performance en duo est un peu meilleure, mais l'écart reste trop faible, et environ la moitié des enfants ne montre aucun effet du tout. Triplett n'avait, en 1898, que l'inspection visuelle de ses courbes pour juger ; la statistique moderne ne confirme pas ce qu'il y voyait.\n\nL'histoire ne s'arrête pas là. En 2025, une équipe reconstruit un dispositif proche du moulinet de Triplett et le fait passer à 445 enfants irlandais de sept à treize ans. Le temps moyen tombe de 58,4 secondes seul à 55 secondes en présence d'un autre enfant, un écart net (p < 0,001), bien que plus fragile dans certains sous-groupes et sensible à l'ordre des essais. Les auteurs concluent que l'effet que Triplett annonçait, sur des données trop minces pour le montrer, existe malgré tout.\n\n## Ce que ça déplace\n\nRien, dans les données de 1898, n'aurait résisté à une relecture d'aujourd'hui. L'expérience que l'on raconte comme fondatrice ne prouvait, à elle seule, presque rien. Ce qui la sauve n'est pas son propre dispositif, mais cent vingt-sept ans d'expériences qui ont fini par trouver ce qu'elle se contentait d'annoncer.",
   "citation": {
-    "texte": "The bodily presence of another contestant participating simultaneously in the race serves to liberate latent energy.",
+    "texte": "The bodily presence of another contestant participating simultaneously in the race serves to liberate latent energy not ordinarily available.",
     "auteur": "Norman Triplett",
     "source": "The Dynamogenic Factors in Pacemaking and Competition, American Journal of Psychology, 9(4), 507-533, 1898",
     "url": "https://doi.org/10.2307/1412188"
@@ -86,5 +86,13 @@
     "genere_le": "2026-11-09",
     "genere_par": "claude-code",
     "version": 1
+  },
+  "controle": {
+    "fait_le": "2026-11-09",
+    "verdict": "corrige",
+    "empreinte": "b598610f0a0c3f5a",
+    "notes": [
+      "Source rouverte en texte intégral (archive.org, jstor-1412188) : 40 enfants, moulinets à pêche, 47,48 s seul contre 41,88 s en duo confirmés ; données cyclistes 1897, gain de 34,4 s (22,9 %) assisté/sans assistance et « 3.5 per cent faster than the paced race against time » donnés littéralement par le texte (pas recalculés). Strube (2005) confirmé par la notice NCBI/PubMed (titre, auteur, revue, volume, pages identiques) ; McHugh et al. (Scientific Reports, 2025, PMC12627428) confirmé chiffre pour chiffre : 445 enfants, 58,4 s seul contre 55 s à deux, p<0,001, effet de report selon l'ordre des blocs, non significatif (p=0,080) dans un sous-échantillon de droitiers. Corrigé : la citation de Triplett était tronquée, il manquait la fin de la phrase « not ordinarily available » — complétée pour correspondre exactement au texte original."
+    ]
   }
 }
