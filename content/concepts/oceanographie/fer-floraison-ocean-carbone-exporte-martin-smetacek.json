@@ -94,9 +94,10 @@
       "Que le fer ne limite la production dans aucune région de l'océan"
     ],
     "bonne_reponse": 1,
-    "explication": "Les premiers essais montraient la floraison, mais pas le sort de la biomasse. Suivie de la surface au fond, au moins la moitié a coulé sous 1 000 m. La croissance due au fer était déjà établie en 1994, et rien n'y contredit la limitation par le fer."
+    "explication": "Les premiers essais montraient la floraison, mais pas le sort de la biomasse. Suivie de la surface au fond, au moins la moitié a coulé sous 1 000 m. La croissance due au fer était déjà établie en 1994, et rien n'y contredit la limitation par le fer.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-03",
@@ -111,6 +112,20 @@
       "Sources rouvertes : Martin 1994 (nature.com), Boyd 2007 et Smetacek 2012 (résumés PubMed) confirment tous les chiffres (64 km², x2/x3/x4, un tiers de l'océan, 5 semaines, pic semaine 4, >= moitié de la biomasse sous 1000 m).",
       "Pas d'incohérence océan Austral / Atlantique sud : l'abstract Smetacek confirme Courant Circumpolaire Antarctique, océan Austral, cohérent avec la note Wikipédia sur l'EIFEX.",
       "Martin 1990 (Paleoceanography) non rouvert cette session : Wiley et Crossref hors réseau autorisé ; rien ne contredit les chiffres repris."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-09T22:14:39.130Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-09T22:14:39.130Z",
+        "note": "Boyd 2007 et Smetacek 2012 rouverts via eutils PubMed (second passage indépendant) : 12 expériences 1993-2005, fer limitant sur un tiers de l'océan, réserve sur l'extrapolation régionale/saisonnière ; tourbillon fermé du Courant Circumpolaire Antarctique en océan Austral, 5 semaines, pic semaine 4, >= moitié de la biomasse sous 1000 m, séquestration possible sur des siècles, incertitudes assumées. Wikipédia Iron fertilization confirme EIFEX 2004 (Atlantique sud, cohérent avec l'océan Austral/CCA de l'abstract Smetacek). Martin 1994 (nature.com, cookie wall) et Martin 1990 (Wiley, hors réseau autorisé) non rouverts ce passage, comme au contrôle précédent qui les avait lus directement et dont les chiffres (64 km², x2/x3/x4, hypothèse 1990) restent non contredits. Carte et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

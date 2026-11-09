@@ -89,9 +89,10 @@
       "Parce que les marées réelles sont plus petites que celles qu'il calcule"
     ],
     "bonne_reponse": 2,
-    "explication": "Le modèle d'équilibre ignore les terres, la viscosité et le frottement, et calcule moins d'un demi-mètre. La théorie de Laplace traite l'océan comme un fluide en rotation dont la réponse dépend du bassin. La Lune agit bien, et les marées réelles sont plus grandes, pas plus petites."
+    "explication": "Le modèle d'équilibre ignore les terres, la viscosité et le frottement, et calcule moins d'un demi-mètre. La théorie de Laplace traite l'océan comme un fluide en rotation dont la réponse dépend du bassin. La Lune agit bien, et les marées réelles sont plus grandes, pas plus petites.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-03",
@@ -105,6 +106,20 @@
     "notes": [
       "Sources NOAA (deux tutoriels), Wikipédia Theory of tides et Amphidromic point rouvertes et confirmées : théorie d'équilibre de Newton et ses trois simplifications, marée <0,5 m vs 15 m réels, Laplace 1775/1776, Kelvin 1860s, Doodson 388 fréquences 1921, machines mécaniques 1870-1960, attribution des points amphidromiques à Whewell.",
       "Source primaire Kvale 2006 (USGS pubs.usgs.gov) inaccessible depuis cette session : 403 sur pubs.usgs.gov, sciencedirect.com et les miroirs testés — blocage du site/réseau, pas une alerte sur le contenu. Les chiffres 27,32 j (mois tropique) et 29,52 j (mois synodique) sont corrects astronomiquement et cohérents avec le reste de la fiche. Carte, quiz et repère vérifiés, rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-09T22:14:39.604Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-09T22:14:39.604Z",
+        "note": "NOAA (deux tutoriels), Wikipédia Theory of tides et Amphidromic point rouverts (second passage indépendant), tous confirmés exactement : modèle à deux bourrelets (gravité/inertie), jour lunaire 24h50 et marées espacées de 12h25, théorie d'équilibre de Newton 1687 et ses trois simplifications, marée <0,5 m vs 15 m réels, Laplace 1775/1776, Kelvin 1860s, Doodson 388 fréquences 1921, machines mécaniques 1870-1960, mesures satellite à quelques cm, attribution à Whewell des points amphidromiques via les lignes cotidales de la mer du Nord. Kvale 2006 toujours inaccessible (403 pubs.usgs.gov, linkinghub.elsevier.com hors réseau autorisé), comme au contrôle précédent ; 27,32 j et 29,52 j corrects astronomiquement. Carte et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

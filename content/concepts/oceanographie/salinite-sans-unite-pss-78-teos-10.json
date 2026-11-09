@@ -94,9 +94,10 @@
       "Que la densité de l'eau dépasse de 35 unités celle de l'eau pure"
     ],
     "bonne_reponse": 2,
-    "explication": "La PSS-78 définit la salinité par un rapport de conductivités, sans unité : K15 égal à 1 donne 35. Ce n'est pas une masse de sel (la salinité absolue de TEOS-10, elle, vaut environ 35,2 g/kg), et elle ne vient ni d'un titrage ni d'une densité."
+    "explication": "La PSS-78 définit la salinité par un rapport de conductivités, sans unité : K15 égal à 1 donne 35. Ce n'est pas une masse de sel (la salinité absolue de TEOS-10, elle, vaut environ 35,2 g/kg), et elle ne vient ni d'un titrage ni d'une densité.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-03",
@@ -110,6 +111,20 @@
     "notes": [
       "Wikipédia (Salinity) rouverte : confirme chlorinité 19,37‰ = Knudsen 35,00 ; PSS-78 ≈35,0 ; TEOS-10 ≈35,2 g/kg, et PSS-78 sans unité — chiffres identiques à la fiche.",
       "teos-10.org, Getting_Started.pdf et salinometry.com inaccessibles depuis cet environnement (DNS bloqué par la politique réseau de la session) ; définition K15/KCl 32,4356 g/kg et 35,16504 g/kg conformes aux connaissances établies du domaine, non revérifiées sur site primaire ce passage."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-09T22:14:39.997Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-09T22:14:39.997Z",
+        "note": "Wikipédia Salinity rouverte (second passage indépendant) : confirme chlorinité 19,37‰ = Knudsen 35,00, PSS-78 ≈35,0, TEOS-10 ≈35,2 g/kg, PSS-78 sans unité, psu déconseillé. teos-10.org, Getting_Started.pdf, salinometry.com et ieeexplore.ieee.org toujours hors réseau autorisé (ENOTFOUND), comme au contrôle précédent ; K15/KCl 32,4356 g/kg et salinité de référence 35,16504 g/kg sont les constantes établies de la PSS-78 et de TEOS-10, cohérentes avec les chiffres Wikipédia. Carte et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }
