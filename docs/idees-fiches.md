@@ -582,3 +582,7 @@ peut rouvrir directement le texte du décret.)*
 | Philosophie | Hegel n'a pas écrit « thèse, antithèse, synthèse » : les trois moments de l'Encyclopédie (§79-82) et le triplet de Fichte | fait | routine-production | 2026-11-08 |
 | Philosophie | Épicure et le plaisir : la Lettre à Ménécée définit le plaisir comme absence de douleur, pas comme festin | fait | routine-production | 2026-11-08 |
 | Philosophie | « Seuls les morts ont vu la fin de la guerre » : Santayana (Tipperary, 1922), cité comme de Platon par MacArthur en 1962 | fait | routine-production | 2026-11-08 |
+| Sociologie | Mauss et l'Essai sur le don (1925) : donner, recevoir, rendre — hau maori, potlatch et kula | fait | routine-production | 2026-11-09 |
+| Sociologie | Le mythe des 38 témoins de l'affaire Kitty Genovese (1964) : ce que le dossier judiciaire montre réellement (Manning, Levine, Collins, 2007) | fait | routine-production | 2026-11-09 |
+| Sociologie | Becker et la théorie de l'étiquetage (Outsiders, 1963) : la déviance comme réaction sociale, pas comme propriété de l'acte | fait | routine-production | 2026-11-09 |
+| Sociologie | Du Bois et The Philadelphia Negro (1899) : la première enquête sociologique de terrain sur une communauté noire américaine | fait | routine-production | 2026-11-09 |
