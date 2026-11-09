@@ -97,6 +97,41 @@
     "explication": "La PSS-78 définit la salinité par un rapport de conductivités, sans unité : K15 égal à 1 donne 35. Ce n'est pas une masse de sel (la salinité absolue de TEOS-10, elle, vaut environ 35,2 g/kg), et elle ne vient ni d'un titrage ni d'une densité.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Avant les années 1980, comment obtenait-on la « salinité de Knudsen » d'un échantillon d'eau de mer ?",
+      "choix": [
+        "En mesurant directement la masse de sel après évaporation complète de l'eau",
+        "En titrant le chlore et le brome au nitrate d'argent, puis en appliquant un facteur à la chlorinité obtenue",
+        "En comparant la conductivité de l'eau à celle d'une solution de KCl",
+        "En pesant un volume fixe d'eau de mer à température constante"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Avant les années 1980, on dosait le chlore et le brome par titrage au nitrate d'argent pour obtenir la chlorinité, que l'on multipliait par un facteur pour obtenir la salinité de Knudsen, en parties par mille. Ni l'évaporation, ni la conductivité, ni la pesée directe n'entrent dans cette méthode."
+    },
+    {
+      "question": "Qu'adopte la Commission océanographique intergouvernementale en juin 2009, et que décrit cette norme ?",
+      "choix": [
+        "PSS-78, qui remplace la chlorinité par un titrage plus précis",
+        "Les salinités de Knudsen, exprimées en parties par mille",
+        "Une nouvelle méthode de mesure par évaporation du volume d'eau",
+        "TEOS-10, qui décrit le contenu en sel par la salinité absolue, en grammes par kilo"
+      ],
+      "bonne_reponse": 3,
+      "explication": "En juin 2009, la Commission océanographique intergouvernementale adopte TEOS-10, qui remplace l'équation d'état de 1980 et décrit le contenu en sel par la salinité absolue, une fraction massique en grammes par kilo, l'unité du Système international. PSS-78 et Knudsen sont antérieures."
+    },
+    {
+      "question": "Pour un même échantillon d'eau de mer de chlorinité 19,37 pour mille, que valent approximativement sa salinité en PSS-78 et sa salinité absolue en TEOS-10 ?",
+      "choix": [
+        "Environ 35,0 en PSS-78 et environ 35,2 g/kg en TEOS-10",
+        "Environ 19,37 dans les deux échelles, qui seraient identiques",
+        "Environ 35,0 en PSS-78 et environ 19,37 g/kg en TEOS-10",
+        "Environ 70 en PSS-78 et environ 35,2 g/kg en TEOS-10"
+      ],
+      "bonne_reponse": 0,
+      "explication": "D'après Wikipédia, un échantillon de chlorinité 19,37 pour mille vaut environ 35,00 en salinité de Knudsen, environ 35,0 en PSS-78 et environ 35,2 g/kg en salinité absolue TEOS-10, trois échelles différentes pour un même échantillon, pas des valeurs identiques ni doublées."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

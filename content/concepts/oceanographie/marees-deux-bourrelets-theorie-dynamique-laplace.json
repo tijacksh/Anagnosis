@@ -92,6 +92,41 @@
     "explication": "Le modèle d'équilibre ignore les terres, la viscosité et le frottement, et calcule moins d'un demi-mètre. La théorie de Laplace traite l'océan comme un fluide en rotation dont la réponse dépend du bassin. La Lune agit bien, et les marées réelles sont plus grandes, pas plus petites.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Quelles sont les trois simplifications de la théorie d'équilibre de Newton (Principia, 1687) ?",
+      "choix": [
+        "Une Terre sans rotation, un océan salé partout, et une Lune immobile",
+        "Une Terre sans continents, une eau sans viscosité réagissant instantanément, et aucun frottement avec le sol",
+        "Une Terre couverte de continents, une eau visqueuse, et un frottement fort avec le sol",
+        "Une Lune sans influence gravitationnelle, un Soleil dominant, et des bassins profonds"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le modèle de Newton suppose une Terre sans continents, une eau sans viscosité qui réagit instantanément à la gravité, et l'absence de tout frottement entre l'eau et le sol, ce qui donne une marée de calcul inférieure à un demi-mètre."
+    },
+    {
+      "question": "Qui repère le premier les points amphidromiques, et comment ?",
+      "choix": [
+        "Isaac Newton, en mesurant la hauteur des marées sur plusieurs ports",
+        "Pierre-Simon Laplace, en résolvant ses équations de 1776",
+        "Lord Kelvin, en appliquant l'analyse harmonique dans les années 1860",
+        "William Whewell, en prolongeant les lignes de même heure de marée relevées en mer du Nord"
+      ],
+      "bonne_reponse": 3,
+      "explication": "C'est William Whewell qui repère le premier les points amphidromiques, en prolongeant les lignes de même heure de marée relevées sur les côtes de la mer du Nord et en constatant qu'elles devaient se rejoindre en un point. Ni Newton, ni Laplace, ni Kelvin n'en sont crédités."
+    },
+    {
+      "question": "Que montre Kvale (2006) à propos du rythme des vives-eaux et des mortes-eaux dans certaines régions ?",
+      "choix": [
+        "Il suit le mois tropique de 27,32 jours plutôt que les phases de la Lune (29,52 jours)",
+        "Il suit exactement les phases de la Lune, confirmant la théorie d'équilibre",
+        "Il ne dépend d'aucun astre, seulement de la forme des côtes",
+        "Il change de rythme chaque année sans aucune régularité mesurable"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Kvale (2006) montre que, dans certaines régions, le cycle de vives-eaux et de mortes-eaux suit le mois tropique de 27,32 jours plutôt que le mois synodique de 29,52 jours des phases lunaires, ce que la théorie d'équilibre ne peut pas expliquer puisqu'elle ignore les bassins."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
