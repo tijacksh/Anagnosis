@@ -74,9 +74,10 @@
       "Pour localiser les régions qui s'activent quand on regarde une image"
     ],
     "bonne_reponse": 0,
-    "explication": "Une condition de contrôle peut être une tâche de plus, avec ses propres activations. La fraction d'oxygène extraite du sang donne un état de base défini par la physiologie, à partir duquel on peut dire si une région baisse. La tomographie ne compte pas les neurones qui déchargent, et l'article ne cherche ni à comparer la dépense d'énergie d'une tâche et du repos ni à localiser des activations."
+    "explication": "Une condition de contrôle peut être une tâche de plus, avec ses propres activations. La fraction d'oxygène extraite du sang donne un état de base défini par la physiologie, à partir duquel on peut dire si une région baisse. La tomographie ne compte pas les neurones qui déchargent, et l'article ne cherche ni à comparer la dépense d'énergie d'une tâche et du repos ni à localiser des activations.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-02",
@@ -90,6 +91,20 @@
     "notes": [
       "Raichle et al. 2001 (PMC14647) et Greicius et al. 2003 (PMC140943) rouverts et confirmés : neuf études PET, 132 personnes, deux groupes de 19 pour l'OEF, absence de zones d'activation, 2%/20%, réseau du mode par défaut.",
       "Shulman 1997 et Raichle & Mintun 2006 non rouvrables (pubmed.ncbi.nlm.nih.gov, direct.mit.edu, annualreviews.org hors liste d'hôtes autorisés de cette session) — limite d'environnement, pas une alerte sur la fiche."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-09T10:15:01.273Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-09T10:15:01.273Z",
+        "note": "Sources rouvertes indépendamment : Raichle et al. 2001 (PMC14647, texte intégral) confirme neuf études PET, 132 personnes, OEF chez deux groupes de 19 yeux fermés, absence de zones d'activation (exception BA11, d'où le « presque toutes » du repère), 2%/20%, « beaucoup de travail supplémentaire ». Greicius et al. 2003 (PMC140943, texte intégral) confirme le réseau du mode par défaut, PCC et vACC couplés au repos (14 sujets, fcMRI). Shulman 1997 (PMID 23965122) et Raichle & Mintun 2006 (PMID 16776593), non rouvrables en direct dans cette session, rouverts via l'API eutils de PubMed : abstracts confirment mot pour mot les neuf études PET, les régions citées et la phrase sur l'activité intrinsèque représentant la plus grande part de l'activité fonctionnelle. Carte, repère et quiz cohérents avec les sources. Rien à corriger."
+      }
     ]
   }
 }

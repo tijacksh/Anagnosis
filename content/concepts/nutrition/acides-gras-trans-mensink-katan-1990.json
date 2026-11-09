@@ -62,9 +62,10 @@
       "Seul l'acide oléique fait varier le LDL, les deux autres graisses sont neutres"
     ],
     "bonne_reponse": 2,
-    "explication": "Par rapport à l'acide oléique, les trans font monter le LDL de 14 mg/dL et baisser le HDL de 7 mg/dL, les saturés montent le LDL de 18 mg/dL sans changer le HDL. Les trans cumulent donc deux effets défavorables. Les trois autres propositions inversent ou effacent des écarts mesurés."
+    "explication": "Par rapport à l'acide oléique, les trans font monter le LDL de 14 mg/dL et baisser le HDL de 7 mg/dL, les saturés montent le LDL de 18 mg/dL sans changer le HDL. Les trans cumulent donc deux effets défavorables. Les trois autres propositions inversent ou effacent des écarts mesurés.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -77,6 +78,20 @@
     "empreinte": "c520bd66e7d237ce",
     "notes": [
       "Sources rouvertes via l'API eutils (PubMed bloqué par mur de cookies via WebFetch) : Mensink & Katan NEJM 1990 (59 volontaires, 34F/25H, LDL trans +14mg/dL HDL -7mg/dL, saturés LDL +18mg/dL HDL inchangé) confirmés exacts. Willett et al. Lancet 1993 (85095 femmes, 8 ans, 431 cas, RR 1,50) confirmé exact. Mozaffarian et al. NEJM 2006 (titre/auteurs/revue/année) confirmé. Carte et quiz cohérents avec les chiffres sourcés."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-09T10:15:24.933Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-09T10:15:24.933Z",
+        "note": "Sources rouvertes indépendamment via l'API eutils de PubMed (pubmed.ncbi.nlm.nih.gov mur de cookies dans cette session) : Mensink & Katan, NEJM 1990 (PMID 2374566) confirmé mot pour mot : 34 femmes/25 hommes, LDL/HDL de référence 2,67/1,42 mmol/L, trans LDL+0,37 HDL-0,17, saturés LDL+0,47 HDL inchangé, pas de différence femmes/hommes. Willett et al., Lancet 1993 (PMID 8094827) confirmé : 85 095 femmes, 8 ans, 431 cas, RR 1,50 (IC 1,12-2,00) entre quintiles extrêmes, caractère observationnel. Mozaffarian et al., NEJM 2006 (PMID 16611951) : titre, auteurs (Mozaffarian, Katan, Ascherio, Stampfer, Willett), revue et année confirmés. Carte, repère et quiz cohérents avec les chiffres sourcés. Rien à corriger."
+      }
     ]
   }
 }

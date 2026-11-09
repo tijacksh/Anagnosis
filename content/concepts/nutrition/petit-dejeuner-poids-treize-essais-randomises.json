@@ -62,9 +62,10 @@
       "Parce qu'ils mesurent seulement l'apport énergétique, jamais le poids des participants"
     ],
     "bonne_reponse": 0,
-    "explication": "Dans une étude d'observation, ceux qui sautent le petit-déjeuner diffèrent aussi par leurs habitudes et leur situation, d'où le biais de confusion. Le tirage au sort écarte cet obstacle. Les essais de la revue sont au contraire courts (7 et 2 semaines en moyenne), portent sur des adultes et mesurent à la fois le poids et l'énergie."
+    "explication": "Dans une étude d'observation, ceux qui sautent le petit-déjeuner diffèrent aussi par leurs habitudes et leur situation, d'où le biais de confusion. Le tirage au sort écarte cet obstacle. Les essais de la revue sont au contraire courts (7 et 2 semaines en moyenne), portent sur des adultes et mesurent à la fois le poids et l'énergie.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -77,6 +78,20 @@
     "empreinte": "aa26eaa14c5eb195",
     "notes": [
       "Source principale (Sievert et al., BMJ 2019, l42) revérifiée en texte intégral PMC : les 13 essais (7 poids, 10 énergie), l'écart de poids (0,44 kg, IC 0,07-0,82), l'apport énergétique (259,79 kcal, IC 78,87-440,71), les durées (7 et 2 semaines) et la mention de 1917 correspondent exactement. Carte et quiz cohérents avec la source. Source secondaire (Dhurandhar 2016) non réouvrable dans cette session : pubmed.ncbi.nlm.nih.gov renvoie un mur de cookies et les domaines de repli (journals.lww.com, semanticscholar.org, europepmc.org, api.crossref.org) sont hors du réseau autorisé de la session. Contenu plausible et cohérent avec le reste de la fiche, à revérifier au prochain passage si le réseau le permet."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-09T10:15:25.437Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-09T10:15:25.437Z",
+        "note": "Sources rouvertes indépendamment : Sievert et al., BMJ 2019 (PMID 30700403 via eutils, et texte intégral PMC6352874) confirmés mot pour mot : 13 essais (7 poids, 10 énergie), écart de poids 0,44 kg (IC 0,07-0,82), énergie +259,79 kcal (IC 78,87-440,71), durées moyennes 7 et 2 semaines, biais élevé/incertain dans au moins un domaine, formule du petit-déjeuner « depuis 1917 » retrouvée mot pour mot dans la conclusion, biais de sélection et facteurs de confusion mentionnés dans l'introduction. Dhurandhar 2016 (PMID 27584010 via eutils), non rouvrable à la session précédente, rouvert ici : confirme mot pour mot que le saut du petit-déjeuner nuit à la sensibilité à l'insuline et ne pèse pas beaucoup sur le poids dans les essais randomisés. Carte et quiz cohérents. Rien à corriger."
+      }
     ]
   }
 }
