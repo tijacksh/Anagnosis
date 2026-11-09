@@ -412,6 +412,10 @@ peut rouvrir directement le texte du décret.)*
 | Psychologie | Les mères de substitution de Harlow (1958) : le contact plutôt que le lait | fait | routine-production-arnaud | 2026-10-18 |
 | Psychologie | Ebbinghaus (1885) : la courbe de l'oubli, et sa réplication par Murre & Dros (2015) | fait | routine-production-arnaud | 2026-10-18 |
 | Psychologie | L'effet Stroop (1935) : l'interférence entre lire un mot et nommer sa couleur, et ce que la revue de MacLeod (1991) en retient | fait | routine-production-arnaud | 2026-10-18 |
+| Psychologie | L'amorçage de la vieillesse (Bargh et al., 1996) : la réplication de Doyen et al. (2012) montre que l'effet suit l'attente de l'expérimentateur | fait | routine-production | 2026-11-09 |
+| Psychologie | La facilitation sociale de Triplett (1898) : des données trop minces pour Strube (2005), un effet retrouvé par la réplication de 2025 | fait | routine-production | 2026-11-09 |
+| Psychologie | Le manifeste du comportementalisme de Watson (1913) et la réponse de Titchener (1914) | fait | routine-production | 2026-11-09 |
+| Psychologie | La boîte-problème de Thorndike (1898) : la courbe d'apprentissage progressive contre l'idée d'un éclair de compréhension | fait | routine-production | 2026-11-09 |
 | Statistiques | Galton, « Vox populi » (Nature, 7 mars 1907) : 787 estimations du poids d'un bœuf à Plymouth, une médiane à 1207 lb, une moyenne dite « exacte » et des chiffres imprimés décalés d'une livre (Wallis 2014) | fait | routine-production-arnaud | 2026-10-18 |
 | Statistiques | Robinson (1950) : corrélations écologiques et comportement des individus, 0,118 pour les personnes, −0,526 pour les 48 États, −0,619 pour les 9 divisions (recensement de 1930) | fait | routine-production-arnaud | 2026-10-18 |
 | Statistiques | Daniels (1952), « The "Average Man"? » : 4 063 militaires navigants, dix mensurations, personne dans la moyenne sur les dix | fait | routine-production-arnaud | 2026-10-18 |
