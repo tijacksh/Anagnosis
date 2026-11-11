@@ -1,0 +1,59 @@
+/* Copie de barre.css du site CVLASTUDIO (CVLASTUDIO/site/public) : modifier les deux ensemble. */
+/* En-tête et bandeau CVLASTUDIO, communs à toutes les pages du site et à la vitrine Anagnosis.
+   - Dans l'en-tête de chaque page : l'app à gauche (.cvl-app : son logo et son nom),
+     CVLASTUDIO en miroir à droite (.cvl-studio).
+   - .cvl-barre : la même ligne, en barre fixe, construite par barre.js. Elle apparaît quand
+     on descend et s'efface quand on remonte. Ses couleurs sont prises sur la page elle-même :
+     elle se fond dans chaque thème. */
+:is(header, .cvl-barre) .cvl-app {
+  display: inline-flex; align-items: center; gap: 12px;
+  text-decoration: none; color: inherit;
+}
+:is(header, .cvl-barre) .cvl-studio {
+  margin-left: auto; flex: none;
+  display: inline-flex; align-items: center; gap: 10px;
+  font: 800 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  letter-spacing: .14em; text-transform: uppercase; text-decoration: none;
+  color: inherit; opacity: .9; transition: opacity .2s ease;
+}
+.cvl-studio:is(:hover, :focus-visible) { opacity: 1; }
+/* Logo CVLASTUDIO (posé par barre.js) : CV et STUDIO à l'encre de la page, LA en terre cuite. */
+.cvl-logo { display: block; height: 20px; width: auto; flex: none; overflow: visible; }
+.cvl-marque-studio .cvl-logo { height: 24px; }
+
+/* Logo dans une phrase ou un pied de page : assez grand pour que STUDIO se lise (18 px pour un texte
+   de 14 px), centré sur les capitales du texte. */
+.cvl-signature { text-decoration: none; color: inherit; white-space: nowrap; }
+.cvl-signature .cvl-logo { display: inline-block; height: 1.3em; width: auto; vertical-align: -.28em; margin-left: .15em; }
+/* Logo sur deux lignes, en grand et seul (pied de l'accueil, page introuvable). */
+.cvl-bloc { display: inline-block; text-decoration: none; color: inherit; line-height: 0; }
+.cvl-logo.cvl-logo-bloc { display: block; height: 96px; width: auto; }
+@media (max-width: 600px) { .cvl-logo.cvl-logo-bloc { height: 72px; } }
+
+.cvl-barre {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  padding-top: env(safe-area-inset-top);
+  background: var(--cvl-fond, rgba(17, 17, 16, .9));
+  color: var(--cvl-encre, #efece6);
+  border-bottom: 1px solid var(--cvl-filet, rgba(128, 128, 128, .22));
+  -webkit-backdrop-filter: saturate(1.4) blur(14px); backdrop-filter: saturate(1.4) blur(14px);
+  transform: translateY(-100%); visibility: hidden;
+  transition: transform .28s ease, visibility 0s linear .28s;
+}
+.cvl-barre.vu { transform: none; visibility: visible; transition: transform .28s ease; }
+.cvl-barre-ligne {
+  display: flex; align-items: center; gap: 16px; min-height: 56px;
+  padding: 8px var(--cvl-droite, 24px) 8px var(--cvl-gauche, 24px);
+}
+.cvl-barre .cvl-app { gap: 10px; min-width: 0; }
+.cvl-barre .cvl-app > * { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 420px) {
+  header .cvl-app > :not(img):not(svg) { white-space: nowrap; }
+  :is(header, .cvl-barre) .cvl-studio { font-size: 11px; letter-spacing: .12em; }
+  :is(header, .cvl-barre) .cvl-logo { height: 16px; }
+  .cvl-marque-studio .cvl-logo { height: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cvl-barre, .cvl-barre.vu { transition: none; }
+}
+@media print { .cvl-barre { display: none; } }

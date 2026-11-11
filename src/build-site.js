@@ -104,6 +104,8 @@ const FICHIERS_STATIQUES = [
   // Démonstration de la lecture en arrière-plan, demandée par la Play Console
   // (déclaration FOREGROUND_SERVICE_MEDIA_PLAYBACK). Hors plan du site.
   'lecture-en-arriere-plan.mp4',
+  // Bandeau CVLASTUDIO, en haut de chaque page (copie de celui de cvlastudio.com).
+  'cvlastudio-barre.css', 'cvlastudio-barre.js',
 ];
 for (const f of FICHIERS_STATIQUES) {
   await copyFile(path.join(SRC, f), path.join(DEST, f));

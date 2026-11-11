@@ -37,6 +37,9 @@ body {
 @media (prefers-color-scheme: dark) { .grain { opacity: .07; mix-blend-mode: screen; } }
 main { max-width: 720px; margin: 0 auto; padding: 0 var(--marge) 64px; }
 a { color: inherit; }
+.marque-icone { width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 0 0 1px rgba(27, 26, 23, .14); }
+/* téléphones de 320 à 360 px : l'app et le logo du studio restent sur une ligne */
+@media (max-width: 360px) { body .entete { column-gap: 12px; } .marque-icone { width: 34px; height: 34px; } }
 .entete {
   display: flex; align-items: center; justify-content: space-between;
   flex-wrap: wrap; gap: 8px 20px;
@@ -44,13 +47,6 @@ a { color: inherit; }
 }
 .entete a { font-family: var(--mono); font-size: 13px; font-weight: 600;
             letter-spacing: .1em; text-transform: uppercase; text-decoration: none; }
-.nav { display: flex; gap: 20px; }
-.nav a {
-  font-family: var(--mono); font-size: 11px; font-weight: 600;
-  letter-spacing: .08em; text-transform: uppercase; text-decoration: none;
-  color: var(--texte-2);
-}
-.nav a:hover { color: var(--encre); }
 .sur-titre {
   font-family: var(--mono); font-size: 13px; font-weight: 500;
   letter-spacing: .02em; color: var(--marque);
@@ -68,27 +64,31 @@ footer {
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
 }
 </style>
+<link rel="stylesheet" href="/cvlastudio-barre.css">
 </head>
 <body>
+
 <div class="grain" aria-hidden="true"></div>
 
 <header class="entete">
-  <a href="./">Anagnosis</a>
-  <nav class="nav"><a href="./">Accueil</a><a href="/contact">Contact</a></nav>
+  <a class="cvl-app marque-nom" href="./"><img class="marque-icone" src="/icone.svg" alt="" width="40" height="40"><span>Anagnosis</span></a>
+  <a class="cvl-studio" href="https://cvlastudio.com/">CVLASTUDIO</a>
 </header>
 
 <main>
   <p class="sur-titre">Informations légales</p>
   <h1>Mentions légales</h1>
 
-  <h2>Éditeur du site</h2>
+  <h2>Éditeur</h2>
   <p>
-    Arnaud Louvigny, éditeur à titre personnel.
+    CVLASTUDIO, SAS au capital de 2 euros, 54 rue Henri Poincaré, 92600 Asnières-sur-Seine, France (immatriculation au RCS de Nanterre en cours), représentée par son Président, Arnaud Louvigny.
+    CVLASTUDIO édite et publie le site anagnosis.fr et l'application
+    Anagnosis, sur l'App Store et sur Google Play.
   </p>
-  <p>Contact : <a href="mailto:contact@anagnosis.fr">contact@anagnosis.fr</a></p>
+  <p>Téléphone : 07 67 39 97 72 · Contact : <a href="mailto:contact@anagnosis.fr">contact@anagnosis.fr</a></p>
 
   <h2>Directeur de la publication</h2>
-  <p>Arnaud Louvigny.</p>
+  <p>Arnaud Louvigny, Président de CVLASTUDIO.</p>
 
   <h2>Hébergement</h2>
   <p>
@@ -101,7 +101,7 @@ footer {
   <h2>Propriété intellectuelle</h2>
   <p>
     L'ensemble des textes, illustrations et éléments visuels de ce site et de
-    l'application Anagnosis sont protégés au titre du droit d'auteur. Toute
+    l'application Anagnosis sont la propriété de CVLASTUDIO et sont protégés au titre du droit d'auteur. Toute
     reproduction sans autorisation est interdite, à l'exception des courts
     extraits partagés depuis l'application elle-même, dans le cadre prévu par
     celle-ci (la carte partageable).
@@ -113,8 +113,8 @@ footer {
 
   <h2>Protection des données personnelles</h2>
   <p>
-    Responsable du traitement : Arnaud Louvigny, à l'adresse de contact
-    ci-dessous.
+    Responsable du traitement : CVLASTUDIO, représentée par son Président,
+    Arnaud Louvigny, à l'adresse de contact ci-dessous.
   </p>
   <p>
     Ce site ne propose ni compte ni mesure d'audience : sa consultation ne
@@ -209,8 +209,9 @@ footer {
 <footer>
   <span>© Anagnosis</span>
   <span>Aucune publicité. Aucun compte requis pour le socle gratuit.</span>
-  <span><a href="/contact" style="color:inherit">Contact</a> · <a href="/mentions-legales" style="color:inherit">Mentions légales</a> · <a href="/confidentialite" style="color:inherit">Confidentialité</a> · <a href="/conditions" style="color:inherit">Conditions</a></span>
+  <span><a href="/" style="color:inherit">Accueil</a> · <a href="/contact" style="color:inherit">Contact</a> · <a href="/mentions-legales" style="color:inherit">Mentions légales</a> · <a href="/confidentialite" style="color:inherit">Confidentialité</a> · <a href="/conditions" style="color:inherit">Conditions</a></span>
 </footer>
 
+<script src="/cvlastudio-barre.js"></script>
 </body>
 </html>
