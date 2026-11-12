@@ -1,0 +1,91 @@
+{
+  "id": "sta-bayes-theoreme-richard-price-1763",
+  "slug": "bayes-theoreme-richard-price-1763",
+  "titre": "Bayes meurt deux ans avant la publication de son théorème",
+  "accroche": "En 1763, un ami retrouve dans les papiers d'un pasteur mort un essai inachevé : la première formulation du raisonnement qui remonte d'un effet à sa cause.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En avril 1761, le pasteur Thomas Bayes meurt à Tunbridge Wells, en Angleterre. Sa famille confie ses papiers à un ami, le philosophe et ministre du culte Richard Price, qui y retrouve un essai inachevé sur un problème de probabilité. Price le retravaille pendant deux ans avant de l'envoyer, le 10 novembre 1763, dans une lettre adressée à John Canton, membre de la Royal Society. Le texte y est lu le 23 décembre 1763, puis publié dans le volume 53 des Philosophical Transactions, daté de cette même année mais réellement distribué en 1764 : Bayes n'en verra jamais la parution.\n\n## Une table, pas un billard\n\nL'essai pose son problème par une expérience de pensée : une table parfaitement plane et carrée, sur laquelle une première bille roule et s'arrête à un endroit inconnu de l'observateur. On lance ensuite d'autres billes, une à une, et on note seulement si chacune s'arrête à gauche ou à droite de la première. Au bout d'un certain nombre de lancers, que peut-on en déduire sur la position, jamais vue, de la première bille ? Les manuels racontent souvent cette scène comme se déroulant sur un billard ; le texte original de Bayes ne parle, lui, que d'une « table carrée ABCD », posée de niveau. La bille a gagné un billard en deux siècles de récits, Bayes n'en a jamais écrit un.\n\nLe problème n'a rien d'anecdotique : il formalise, pour la première fois, un raisonnement inverse. On sait d'ordinaire calculer la probabilité d'un résultat quand la cause est connue, par exemple celle d'obtenir deux fois face en lançant une pièce équilibrée. Bayes pose la question à l'envers : à partir d'un résultat déjà observé, quelle probabilité attribuer à chacune des causes qui auraient pu le produire ? Son manuscrit proposait deux démonstrations de la règle qui permet cette remontée ; en préparant le texte pour la Royal Society, Price choisit de n'en publier qu'une. Un essai signé Bayes, mais façonné, dans le détail, par la main d'un autre.\n\n## Un théorème qui porte un nom, un outil qui en porte un autre\n\nL'essai dort près d'onze ans sans que personne ne s'en saisisse vraiment. En 1774, Pierre-Simon Laplace publie, en toute indépendance et apparemment sans connaître le travail de Bayes, un mémoire qui pose la même relation sous une forme bien plus générale, valable pour un nombre quelconque de causes. C'est cette version, reprise et développée dans sa Théorie analytique des probabilités de 1812, qui diffuse réellement l'outil dans les sciences du dix-neuvième siècle. Le nom qui reste dans l'histoire est pourtant celui du premier arrivé, pas celui qui en a fait un instrument de travail.\n\nLe théorème de Bayes doit ainsi son nom à un texte retrouvé après coup, édité par un ami pendant deux ans, puis assez vite dépassé par une version plus générale, écrite par quelqu'un qui l'ignorait entièrement. Ce que l'on appelle aujourd'hui le raisonnement bayésien s'appuie, pour l'essentiel de sa forme actuelle, bien davantage sur Laplace que sur l'essai de 1763. L'éponymie a retenu le premier arrivé, pas celui qui a le plus construit.",
+  "citation": {
+    "texte": "Every judicious person will be sensible that the problem now mentioned is by no means merely a curious speculation.",
+    "auteur": "Richard Price",
+    "source": "Lettre à John Canton introduisant l'essai de Thomas Bayes, Philosophical Transactions of the Royal Society of London, vol. 53, 1763, p. 371",
+    "url": "https://en.wikisource.org/wiki/Page:Philosophical_Transactions_-_Volume_053.djvu/437"
+  },
+  "repere": {
+    "texte": "L'essai de Bayes, lu devant la Royal Society le 23 décembre 1763, paraît dans le volume 53 des Philosophical Transactions (p. 370-418) : onze ans plus tard, en 1774, Laplace publie indépendamment une version générale du même principe, sans connaître ce texte.",
+    "source": "Philosophical Transactions of the Royal Society of London, vol. 53, 1763, p. 370-418",
+    "url": "https://en.wikisource.org/wiki/Page:Philosophical_Transactions_-_Volume_053.djvu/436"
+  },
+  "carte": {
+    "punch": "Bayes meurt deux ans avant la publication du théorème qui porte son nom.",
+    "idee": "En 1763, Richard Price publie, après la mort de Thomas Bayes, un essai retrouvé dans ses papiers : le premier raisonnement qui remonte d'un effet observé à sa cause. Onze ans plus tard, Laplace retrouve la même idée sans connaître ce texte, et c'est sa version qui diffusera vraiment l'outil.",
+    "source_courte": "Bayes & Price, Phil. Trans. Royal Society, 1763"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Bayes, Thomas ; communiqué par Richard Price",
+      "titre": "An Essay towards solving a Problem in the Doctrine of Chances",
+      "publication": "Philosophical Transactions of the Royal Society of London, vol. 53, p. 370-418",
+      "annee": 1763,
+      "url": "https://en.wikisource.org/wiki/Page:Philosophical_Transactions_-_Volume_053.djvu/436",
+      "note": "Fac-similé numérisé et transcrit consulté directement (Wikisource, pages 436 et 437 du volume 53) : lettre de Price à John Canton datée de Newington Green, 10 novembre 1763, lue devant la Royal Society le 23 décembre 1763. Citation vérifiée mot pour mot sur la page 437. La lettre présente l'essai comme retrouvé dans les papiers de feu Bayes ; aucune mention d'un billard, l'expérience de pensée posant une « table carrée ABCD »."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "Bayes' theorem",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
+      "note": "Section historique consultée directement : la famille de Bayes confie ses papiers à Price après sa mort ; Price retravaille le manuscrit inédit pendant deux ans avant de l'envoyer à Canton, et choisit de publier une seule des deux démonstrations proposées par Bayes ; Laplace reproduit et étend les résultats de Bayes en 1774, apparemment sans connaître son travail, puis les résume dans la Théorie analytique des probabilités (1812)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "Thomas Bayes",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Thomas_Bayes",
+      "note": "Confirme la date et le lieu de mort de Bayes (7 avril 1761, Tunbridge Wells) et le rôle de Price, qui « shepherded the work through this presentation and its publication »."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — Bayes' Theorem",
+      "url": "https://plato.stanford.edu/entries/bayes-theorem/",
+      "note": "Détaille la référence bibliographique exacte (Philosophical Transactions, vol. 53, p. 370-418) et le rôle de l'introduction de Price."
+    }
+  ],
+  "illustration": {
+    "operation": "rapport",
+    "encre": "#AC936E",
+    "intention": "Une estimation incertaine qui se resserre à mesure que de nouvelles observations arrivent, sans jamais devenir une certitude.",
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Une large bande verticale pleine occupant le tiers gauche du cadre, représentant une estimation initiale incertaine. À sa droite, une suite de bandes verticales de plus en plus étroites, légèrement décalées en diagonale et resserrées vers un même point, la dernière débordant du cadre en haut à droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une large bande incertaine à gauche, resserrée en bandes de plus en plus étroites vers la droite",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le théorème porte-t-il le nom de Bayes, alors que c'est Laplace qui lui a donné sa forme générale ?",
+    "choix": [
+      "Parce que l'éponymie a retenu l'essai de 1763, premier à poser le problème, même si Laplace l'a généralisé onze ans plus tard sans le connaître",
+      "Parce que Bayes et Laplace ont rédigé ensemble le même mémoire, publié sous leurs deux noms",
+      "Parce que Richard Price a demandé à la Royal Society de retenir le nom de Bayes plutôt que celui de Laplace",
+      "Parce que Laplace a retiré son propre mémoire après avoir découvert l'essai de Bayes"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Bayes pose le problème en 1763, mais c'est Laplace qui, en 1774 et sans connaître cet essai, lui donne sa forme générale et le diffuse réellement dans les sciences du dix-neuvième siècle. L'éponymie a retenu le premier arrivé, pas celui qui a le plus construit l'outil.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-12",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

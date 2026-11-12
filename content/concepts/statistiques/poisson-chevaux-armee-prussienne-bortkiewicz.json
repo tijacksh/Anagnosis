@@ -1,0 +1,86 @@
+{
+  "id": "sta-poisson-chevaux-armee-prussienne-bortkiewicz",
+  "slug": "poisson-chevaux-armee-prussienne-bortkiewicz",
+  "titre": "Les coups de sabot de l'armée prussienne et la loi des petits nombres",
+  "accroche": "Impossible de prédire qui un cheval tuera d'un coup de sabot dans l'armée prussienne. Combien, chaque année, se prédisait presque exactement.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1898, le statisticien Ladislaus von Bortkiewicz publie à Leipzig une brochure d'une cinquantaine de pages, « Das Gesetz der kleinen Zahlen » (« la loi des petits nombres »). Il y reprend les registres de l'armée prussienne et compte, pour quatorze corps d'armée suivis vingt années de suite, combien de soldats meurent chaque année d'un coup de sabot de cheval. Rien, dans ces 280 corps-années, ne permet de prévoir lequel sera touché, ni combien de fois : un cheval s'emballe, un cavalier se place mal, l'accident ne prévient jamais personne à l'avance.\n\n## Une régularité cachée dans le hasard\n\nBortkiewicz dresse malgré tout le tableau complet : 144 corps-années sans aucun mort, 91 avec un seul, 32 avec deux, 11 avec trois et 2 avec quatre, soit 196 morts en tout sur la période. Il rapproche ces chiffres d'une loi publiée soixante ans plus tôt par Siméon Denis Poisson, dans ses « Recherches sur la probabilité des jugements en matière criminelle et en matière civile » (1837), pour un problème sans rapport : estimer la fiabilité des verdicts rendus par des jurys. Cette loi décrit la fréquence d'un événement rare et indépendant, répété un grand nombre de fois à faible probabilité chacune. Appliquée aux corps-années prussiens, avec une moyenne de 0,7 mort par corps et par an, elle prédit environ 143 corps-années sans mort, 92 avec un, 33 avec deux, 9 avec trois et 2 avec quatre. L'écart entre ce que la formule annonce et ce que les registres contiennent est minime.\n\nLe paradoxe tient en une phrase : personne ne peut dire, au début d'une année donnée, combien de soldats d'un corps précis mourront d'un coup de sabot, ni lequel. Mais additionnez quatorze corps sur vingt ans, et le total se range presque exactement là où la formule l'attendait. L'imprévisibilité de chaque accident et la régularité de leur somme ne se contredisent pas : elles sont la même loi, vue à deux échelles différentes. Bortkiewicz reprend même le calcul sur un sous-ensemble de dix corps, en écartant le Gardecorps et trois autres, et retrouve un ajustement tout aussi net avec 122 morts sur 200 corps-années.\n\n## D'un tribunal à une étable, puis partout ailleurs\n\nCe que Poisson avait formulé pour juger de la fiabilité des jurys, c'est dans les écuries de l'armée prussienne que Bortkiewicz lui trouve une de ses premières vérifications empiriques aussi nettes. Son titre donne son nom à un principe qui déborde largement le cas des chevaux : dès qu'un événement est individuellement rare, indépendant d'un cas à l'autre, et observé sur un grand nombre d'occasions, son compte total devient prévisible, même si chaque occurrence reste, elle, totalement aléatoire. La loi de Poisson sert aujourd'hui à modéliser les appels reçus par un centre d'assistance, les pannes d'une pièce produite en série ou les sinistres qu'un assureur doit couvrir dans l'année. Aucun de ces événements ne s'annonce individuellement. Comptés par milliers, ils cessent d'être imprévisibles.",
+  "citation": null,
+  "repere": {
+    "texte": "Dans quatorze corps de l'armée prussienne suivis vingt ans, von Bortkiewicz recense 196 morts par coup de sabot de cheval sur 280 corps-années : 144 années sans aucun mort, 91 avec un, 32 avec deux, 11 avec trois et 2 avec quatre, un ajustement presque parfait à la loi de Poisson qu'il décrit dans son livre de 1898.",
+    "source": "Bortkiewicz, Das Gesetz der kleinen Zahlen, B.G. Teubner, Leipzig, 1898, §12",
+    "url": "https://archive.org/details/dasgesetzderklei00bortrich"
+  },
+  "carte": {
+    "punch": "Personne ne prédit qui un cheval tuera. Le nombre total, si.",
+    "idee": "En 1898, dans quatorze corps de l'armée prussienne suivis vingt ans, von Bortkiewicz compte 196 morts par coup de sabot de cheval. Leur répartition colle presque exactement à la loi de Poisson, écrite soixante ans plus tôt pour juger la fiabilité des jurys, pas des chevaux.",
+    "source_courte": "Bortkiewicz, Das Gesetz der kleinen Zahlen, 1898"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Bortkiewicz, Ladislaus von",
+      "titre": "Das Gesetz der kleinen Zahlen",
+      "publication": "B.G. Teubner, Leipzig",
+      "annee": 1898,
+      "url": "https://archive.org/details/dasgesetzderklei00bortrich",
+      "note": "Texte intégral consulté (scan et OCR, archive.org, fonds University of California Libraries). §12 : tableau complet des 280 corps-années (14 corps d'armée, 1875-1894) avec 144/91/32/11/2 occurrences de 0 à 4 morts, soit 196 morts ; variante à 10 corps (200 corps-années, Gardecorps et trois corps écartés) avec 109/65/22/3/1 occurrences, soit 122 morts."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Ladislaus Bortkiewicz",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ladislaus_Bortkiewicz",
+      "note": "Confirme l'édition (B.G. Teubner, Leipzig, 1898), les 14 corps de cavalerie prussiens sur 20 ans, et que plus de la moitié des corps-années ne comptent aucun mort, avec un maximum de quatre."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Poisson distribution",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Poisson_distribution",
+      "note": "Section Histoire : Poisson publie la loi en 1837 dans ses Recherches sur la probabilité des jugements en matière criminelle et en matière civile, pour estimer le taux d'erreur des verdicts ; Bortkiewicz l'applique en 1898 aux coups de sabot de l'armée prussienne dans Das Gesetz der kleinen Zahlen ; un résultat équivalent avait déjà été donné par Abraham de Moivre en 1711 (De Mensura Sortis)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Poisson distribution — historique complet de la loi",
+      "url": "https://en.wikipedia.org/wiki/Poisson_distribution",
+      "note": "Section Histoire, pour le contexte mathématique, de de Moivre (1711) à Poisson (1837) et Bortkiewicz (1898)."
+    }
+  ],
+  "illustration": {
+    "operation": "densite_graduee",
+    "encre": "#AC936E",
+    "intention": "Dire que des occurrences individuellement imprévisibles, additionnées en grand nombre, retombent sur une répartition régulière.",
+    "prompt": "Composition sur grille 8×8 modules, opération « densité graduée ». Quatorze colonnes de carrés pleins empilés à des hauteurs presque égales mais légèrement irrégulières, l'une d'entre elles débordant nettement du cadre en haut à droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Quatorze colonnes de carrés empilés à des hauteurs presque égales, l'une débordant du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi le nombre total de morts par coup de sabot, compté chaque année sur quatorze corps d'armée, suit-il une loi aussi régulière que la loi de Poisson, alors qu'aucun accident individuel n'est prévisible ?",
+    "choix": [
+      "Parce que l'armée prussienne ajustait ses registres officiels pour les faire correspondre à la théorie de Poisson",
+      "Parce qu'un événement rare et indépendant, répété un grand nombre de fois à faible probabilité chacune, produit un total prévisible même si chaque cas reste aléatoire",
+      "Parce que chaque corps d'armée comptait exactement le même nombre de chevaux et de cavaliers en poste chaque année",
+      "Parce que les coups de sabot recensés n'étaient pas de vrais accidents mais des sanctions disciplinaires déguisées en incidents"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La régularité ne vient pas d'un trucage ni d'une cause commune cachée : elle naît du grand nombre d'occasions indépendantes à faible probabilité chacune, exactement ce que décrit la loi de Poisson, quelle que soit la cause de chaque accident pris isolément.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-12",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

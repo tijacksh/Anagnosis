@@ -1,0 +1,79 @@
+{
+  "id": "sta-main-chaude-basket-gilovich-1985",
+  "slug": "main-chaude-basket-gilovich-1985",
+  "titre": "La main chaude au basket, démentie en 1985 et retrouvée en 2018",
+  "accroche": "Une étude de référence conclut en 1985 que la main chaude au basket n'existe pas. En 2018, une erreur dans son calcul inverse le verdict.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1985, cent amateurs de basket interrogés sur les campus de Cornell et de Stanford disent, à 84 %, qu'il est important de passer le ballon à un coéquipier qui vient de réussir plusieurs tirs d'affilée. L'intuition est partagée par les joueurs eux-mêmes et par les commentateurs : un tireur qui vient d'enchaîner des paniers aurait, pour un temps, la main chaude.\n\n## Une illusion statistique, selon l'étude fondatrice\n\nThomas Gilovich, Robert Vallone et Amos Tversky testent l'idée avec les données dont ils disposent. Ils reprennent les tirs des Philadelphia 76ers sur 48 matchs à domicile de la saison 1980-1981, puis font tirer 26 joueurs de l'équipe universitaire de Cornell, cent tirs chacun, depuis une distance ajustée au niveau de chacun. Dans les deux cas, la probabilité de réussir un tir après en avoir réussi plusieurs d'affilée ne dépasse pas, de façon significative, la probabilité de réussir après une série d'échecs. Publiée dans Cognitive Psychology sous le titre « The Hot Hand in Basketball: On the Misperception of Random Sequences », l'étude conclut que la série perçue par les joueurs et les spectateurs n'apparaît pas dans les chiffres : une séquence de tirs réussis ou manqués se comporte, statistiquement, comme une suite de lancers de pièce indépendants. Le verdict devient un classique enseigné pendant plus de trente ans comme l'exemple même d'un biais cognitif, la tendance humaine à voir des séries dans le hasard pur.\n\n## Une erreur de calcul retrouvée trente-trois ans plus tard\n\nEn 2018, les économistes Joshua Miller et Adam Sanjurjo publient dans Econometrica une reprise méthodique du calcul de 1985. Ils montrent que la façon même de mesurer une série introduit un biais : si l'on sélectionne, dans une séquence finie, seulement les tirs qui suivent directement k réussites consécutives, la proportion de succès qu'on y trouve est, en moyenne, inférieure à la vraie probabilité de réussite du joueur, même si chaque tir est parfaitement indépendant des autres. Sur trois lancers d'une pièce équilibrée, l'espérance de la proportion de « pile » après un premier pile tombe ainsi à 5 sur 12, et non à 1 sur 2. Le biais s'aggrave avec la longueur de la série recherchée, et il ne s'annule qu'à l'infini.\n\nAppliqué aux données de l'expérience de Cornell, le correctif change la réponse : l'écart entre les tirs qui suivent une série de réussites et ceux qui suivent une série d'échecs, de l'ordre de 3 à 4 points de pourcentage et jugé non significatif par Gilovich, Vallone et Tversky, grimpe à environ 13 points une fois le biais corrigé, avec dix-neuf joueurs sur vingt-cinq dans le même sens. Miller et Sanjurjo rapprochent cet écart de celui qui séparait, lors de la saison NBA 2015-2016, le meilleur tireur à trois points du tireur médian.\n\nL'étude de 1985 n'avait pas de mauvaises données : elle avait un test statistique mal calibré pour la question posée, et ce défaut, invisible pendant trois décennies, suffisait à masquer une partie de l'effet qu'il était censé réfuter.",
+  "citation": null,
+  "repere": {
+    "texte": "Une fois le biais de sélection des séries corrigé, l'écart entre les tirs qui suivent une série de réussites et ceux qui suivent une série d'échecs passe, sur les données de l'expérience de Cornell (1985), de 3-4 points de pourcentage (non significatif) à environ 13 points (p < 0,01), avec 19 joueurs sur 25 dans le même sens.",
+    "source": "Miller & Sanjurjo, « Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers », Econometrica, 86(6), 2019-2047, 2018",
+    "url": "https://doi.org/10.3982/ECTA14943"
+  },
+  "carte": {
+    "punch": "Une étude dit en 1985 que la main chaude n'existe pas. En 2018, une erreur inverse le verdict.",
+    "idee": "84 % des fans interrogés en 1985 croient à la main chaude au basket. L'étude de référence de Gilovich, Vallone et Tversky conclut que c'est une illusion. En 2018, un biais trouvé dans leur calcul fait passer l'écart entre séries de réussites et d'échecs de 3 à 13 points de pourcentage.",
+    "source_courte": "Gilovich, Vallone & Tversky 1985 · Miller & Sanjurjo 2018"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Gilovich, Thomas; Vallone, Robert; Tversky, Amos",
+      "titre": "The Hot Hand in Basketball: On the Misperception of Random Sequences",
+      "publication": "Cognitive Psychology, 17(3), 295-314",
+      "annee": 1985,
+      "url": "https://doi.org/10.1016/0010-0285(85)90010-6",
+      "note": "Référence et résumé de méthode confirmés indépendamment par plusieurs sources secondaires (dont l'entrée Wikipédia « Hot hand » et l'article de Miller & Sanjurjo 2018 qui redétaille pas à pas les données reprises) : sondage de 100 fans des campus de Cornell et Stanford (84% jugent important de passer le ballon à un tireur qui vient de réussir plusieurs tirs), tirs des Philadelphia 76ers sur 48 matchs à domicile de la saison 1980-1981, expérience contrôlée sur 26 joueurs de l'équipe universitaire de Cornell (100 tirs chacun). L'accès direct au PDF (hébergé par un site universitaire hors du réseau autorisé par cette session) n'a pas pu être ouvert ; les chiffres retenus sont corroborés par au moins deux sources indépendantes."
+    },
+    {
+      "type": "article",
+      "auteur": "Miller, Joshua B.; Sanjurjo, Adam",
+      "titre": "Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers",
+      "publication": "Econometrica, 86(6), 2019-2047",
+      "annee": 2018,
+      "url": "https://doi.org/10.3982/ECTA14943",
+      "note": "Texte intégral lu (version miroir arXiv:1902.01265, ar5iv). Théorème 1 : la proportion de succès observée immédiatement après une série de k réussites est, en espérance, strictement inférieure à la vraie probabilité de succès, sur une séquence finie. Exemple donné par les auteurs : sur trois lancers d'une pièce équilibrée, l'espérance de la proportion de piles après un premier pile vaut 5/12, pas 1/2. Appliqué aux données de Cornell (1985) : écart brut +3 à +4 points de pourcentage (non significatif selon GVT) ; écart corrigé environ +13 points (erreur-type 4,7 points, p<0,01), 19 joueurs sur 25 dans le même sens (test binomial, p<0,01). Comparaison avec l'écart de 12 points entre le meilleur tireur à trois points et le tireur médian de la saison NBA 2015-2016."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Hot hand — Wikipédia (en anglais)",
+      "url": "https://en.wikipedia.org/wiki/Hot_hand",
+      "note": "Retrace l'historique complet du débat, de l'étude de 1985 aux réanalyses ultérieures (Koehler 2003, Miller & Sanjurjo 2018, Pelechrinis & Winston 2022)."
+    }
+  ],
+  "illustration": {
+    "operation": "partition",
+    "encre": "#AC936E",
+    "intention": "Isoler une série qui semble se détacher du reste, pour dire qu'une méthode de calcul peut créer l'écart qu'elle prétend seulement mesurer.",
+    "prompt": "Composition sur grille 8×8 modules, opération « partition ». Une bande horizontale de douze carrés identiques, coupée par une diagonale franche qui isole un groupe de trois carrés consécutifs légèrement surélevés par rapport aux neuf autres, débordant du cadre à droite. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une bande de carrés coupée en diagonale, isolant un groupe de trois carrés surélevés qui débordent du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'étude de 2018 de Miller et Sanjurjo change-t-elle la conclusion de l'étude de 1985 sur la main chaude, sans qu'aucune donnée nouvelle n'ait été collectée ?",
+    "choix": [
+      "Parce que de nouvelles données ont été recueillies entre 1985 et 2018, montrant un effet qui n'existait pas avant",
+      "Parce que Gilovich, Vallone et Tversky avaient mal retranscrit les scores des joueurs de Cornell",
+      "Parce que leur méthode de calcul sous-estimait systématiquement la proportion de succès après une série, un biais statistique resté inaperçu pendant 33 ans",
+      "Parce que les joueurs actuels tirent statistiquement mieux que ceux de 1985, ce qui change la mesure"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Miller et Sanjurjo montrent que sélectionner les tirs qui suivent une série de k réussites biaise mécaniquement, et vers le bas, la proportion de succès observée, même sur une pièce parfaitement équilibrée. Ce défaut de méthode, et non de nouvelles données, inverse la conclusion de 1985 une fois corrigé.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-12",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

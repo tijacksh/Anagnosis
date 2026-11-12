@@ -420,6 +420,10 @@ peut rouvrir directement le texte du décret.)*
 | Statistiques | Robinson (1950) : corrélations écologiques et comportement des individus, 0,118 pour les personnes, −0,526 pour les 48 États, −0,619 pour les 9 divisions (recensement de 1930) | fait | routine-production-arnaud | 2026-10-18 |
 | Statistiques | Daniels (1952), « The "Average Man"? » : 4 063 militaires navigants, dix mensurations, personne dans la moyenne sur les dix | fait | routine-production-arnaud | 2026-10-18 |
 | Statistiques | Anscombe (1973), « Graphs in Statistical Analysis » : quatre jeux de onze points aux mêmes statistiques, quatre formes différentes | fait | routine-production-arnaud | 2026-10-18 |
+| Statistiques | Bayes meurt en 1761, Price publie son essai en 1763 : la première formulation du raisonnement inverse, dépassée dès 1774 par la version générale de Laplace | fait | routine-production | 2026-11-12 |
+| Statistiques | La main chaude au basket : « mythe » selon Gilovich, Vallone & Tversky (1985), effet réel retrouvé par la correction de biais de Miller & Sanjurjo (2018) | fait | routine-production | 2026-11-12 |
+| Statistiques | Von Bortkiewicz, « Das Gesetz der kleinen Zahlen » (1898) : les morts par coup de sabot de cheval dans 14 corps de l'armée prussienne suivent la loi de Poisson | fait | routine-production | 2026-11-12 |
+| Statistiques | Pearson (1894) dépouille 16 563 coups de roulette de Monte-Carlo et les juge trop réguliers pour être honnêtes ; Kucharski (2016) soupçonne les journalistes du Monaco, pas la roue | fait | routine-production | 2026-11-12 |
 | Biologie | Le caméléon change de couleur pour se montrer : cristaux de guanine accordables (Teyssier 2015) et signal social (Stuart-Fox 2008) | fait | routine-production-arnaud | 2026-10-18 |
 | Biologie | Mimivirus : la « bactérie » de Bradford (1992) identifiée comme virus géant en 2003 | fait | routine-production-arnaud | 2026-10-18 |
 | Biologie | Requin du Groenland : dater un vertébré sans anneaux par le radiocarbone du cristallin (Nielsen 2016) | fait | routine-production-arnaud | 2026-10-18 |

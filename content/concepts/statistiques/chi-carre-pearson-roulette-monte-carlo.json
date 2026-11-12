@@ -1,0 +1,74 @@
+{
+  "id": "sta-chi-carre-pearson-roulette-monte-carlo",
+  "slug": "chi-carre-pearson-roulette-monte-carlo",
+  "titre": "La roulette de Monte-Carlo était trop régulière pour être honnête",
+  "accroche": "En 1892, Karl Pearson dépouille seize mille coups de roulette publiés par un journal parisien, et trouve un hasard anormalement sage.",
+  "discipline": "statistiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1892, l'hebdomadaire parisien Le Monaco publie, table par table, les numéros sortis à la roulette des casinos de Monte-Carlo. Karl Pearson, professeur de mathématiques appliquées à l'University College de Londres, s'en procure quatre semaines de relevés et se pose une question simple : ces numéros obéissent-ils vraiment aux lois du hasard, comme le prétend le casino ?\n\n## Un hasard trop régulier pour être honnête\n\nPearson dépouille 16 563 coups, qu'il répartit en 148 groupes hebdomadaires pour mesurer, groupe par groupe, à quel point les résultats s'écartent de ce qu'un tirage vraiment aléatoire produirait. L'écart-type qu'il observe, 7,2, est nettement plus petit que les 10,34 attendus en théorie : les numéros sortent trop régulièrement, pas assez par rafales ni par longues absences, pour être le produit d'un hasard réel. Il calcule que les chances d'un tel resserrement sont d'environ deux millions contre un, et qu'un mois aussi atypique ne devrait, en moyenne, se reproduire qu'une fois tous les cent soixante-sept mille ans de jeu continu. Pour vérifier qu'il n'a pas simplement eu la malchance de tomber sur un échantillon hors norme, il confronte son calcul à un second relevé, sans lien avec le sien, tenu sur les quatre semaines suivantes par un correspondant indépendant, M. de Whalley : rien de comparable n'y apparaît. Pearson en conclut, dans la Fortnightly Review de 1894, que la roulette telle qu'on la joue à Monte-Carlo n'est pas un jeu de hasard scientifique, et presse l'Académie des sciences française de vérifier ses calculs, puis le gouvernement français de fermer les salles de jeu si elle les confirme.\n\n## Ni la roue ni le hasard, mais le journal lui-même\n\nPearson envisage une roue faussée, mais il note lui-même la précision mécanique de l'instrument. Plus d'un siècle plus tard, le mathématicien Adam Kucharski rouvre le dossier et déplace le soupçon : ce n'était pas la roue, mais Le Monaco. Les rédacteurs chargés de relever chaque numéro à la table, plutôt que de les observer un par un, auraient préféré en inventer la plupart. Kucharski l'explique ainsi : quelqu'un qui invente une suite de chiffres au hasard en produit presque toujours une version trop régulière, parce qu'il évite instinctivement les longues séries répétées qu'un vrai tirage tolère sans difficulté. C'est précisément l'anomalie que Pearson avait mesurée sans en connaître la cause : un hasard trop sage pour être vrai.\n\n## Un même outil pour deux coupables très différents\n\nSix ans après cet épisode, Pearson formalise le critère du chi-carré, qui généralise la question qu'il s'était déjà posée sur la roulette : un écart observé est-il trop grand, ou ici trop petit, pour provenir du seul hasard ? Le même test qui aurait pu démasquer une roue truquée a fini par démasquer des journalistes trop paresseux pour observer ce qu'ils prétendaient rapporter, ce qui en dit autant sur les roulettes que sur la difficulté, pour qui que ce soit, à vraiment imiter le hasard.",
+  "citation": {
+    "texte": "Roulette as played at Monte Carlo is not a scientific game of chance.",
+    "auteur": "Karl Pearson",
+    "source": "The Scientific Aspect of Monte Carlo Roulette (The Fortnightly Review, nouvelle série, vol. 55, p. 183-193, 1894 ; repris in The Chances of Death and Other Studies in Evolution, vol. 1, Londres, Edward Arnold, 1897)",
+    "url": "https://archive.org/details/chancesdeathand00peargoog"
+  },
+  "repere": {
+    "texte": "Sur les 16 563 coups qu'il dépouille lui-même (quatre semaines, 1892), Pearson mesure un écart-type de 7,2 contre 10,34 attendus du hasard : une régularité si improbable qu'elle ne devrait, selon son propre calcul, se reproduire qu'une fois tous les cent soixante-sept mille ans de jeu continu.",
+    "source": "Pearson, The Scientific Aspect of Monte Carlo Roulette, 1894/1897",
+    "url": "https://archive.org/details/chancesdeathand00peargoog"
+  },
+  "carte": {
+    "punch": "Pearson jugeait la roulette de Monte-Carlo truquée. Le vrai coupable n'était pas la roue.",
+    "idee": "En 1892, Karl Pearson dépouille 16 563 résultats de roulette publiés par un journal parisien et conclut que Monte-Carlo n'est pas un jeu de hasard honnête. Plus d'un siècle après, une autre explication s'impose : les journalistes chargés de relever les numéros les auraient simplement inventés.",
+    "source_courte": "Pearson, 1894/1897 · Kucharski, 2016"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Pearson, Karl",
+      "titre": "The Scientific Aspect of Monte Carlo Roulette",
+      "publication": "in The Chances of Death and Other Studies in Evolution, vol. 1, Londres, Edward Arnold (article original : The Fortnightly Review, nouvelle série, vol. 55, p. 183-193, 1894)",
+      "annee": 1897,
+      "url": "https://archive.org/details/chancesdeathand00peargoog",
+      "note": "Texte intégral lu sur archive.org (chancesdeathand00peargoog_djvu.txt). Confirmé : relevé personnel de Pearson sur quatre semaines de jeu (1892), 16 563 coups répartis en 148 groupes hebdomadaires ; écart-type expérimental 7,2 contre 10,34 théorique, odds d'environ 2 000 000 contre 1 ; phrase exacte « would only occur, on the average, once in 167,000 years of continuous roulette-playing » ; relevé indépendant de M. de Whalley (16 019 tirages, 8 053 numéros rouges, environ 50,27 %) jugé conforme au hasard et sans anomalie comparable ; citation de conclusion « Roulette as played at Monte Carlo is not a scientific game of chance » vérifiée mot pour mot ; appel à l'Académie des sciences française et à la fermeture des salles de jeu confirmés dans la section finale."
+    },
+    {
+      "type": "livre",
+      "auteur": "Kucharski, Adam",
+      "titre": "The Perfect Bet: How Science and Math Are Taking the Luck Out of Gambling",
+      "publication": "Basic Books",
+      "annee": 2016,
+      "url": "https://openlibrary.org/works/OL20023967W",
+      "note": "Existence et métadonnées de l'ouvrage vérifiées sur Open Library. Le texte intégral, à accès restreint sur archive.org (perfectbethowsci0000kuch), n'a pas pu être consulté directement depuis cette session (item en lecture contrôlée). L'attribution de la thèse (l'anomalie de 1892 viendrait des rédacteurs du Monaco, qui auraient inventé les numéros plutôt que les observer) repose sur la convergence de plusieurs recensions indépendantes de l'ouvrage, dont celles de la London School of Hygiene & Tropical Medicine et de l'University of Western Australia, qui citent toutes le même passage de Kucharski dans les mêmes termes."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « rapport ». Une roue segmentée en secteurs presque tous égaux, au tracé régulier, rompue par un second tracé plus fin superposé qui redessine un seul secteur et déborde du cadre, comme une correction venue après coup. Aplats pleins uniquement, aucun dégradé. Deux encres : #AC936E (statistiques) et noir.",
+    "alt": "Une roue aux secteurs réguliers, dont un seul est redessiné par-dessus en trait plus fin et déborde du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi l'anomalie que Pearson mesure sur la roulette de Monte-Carlo en 1892 ne prouve-t-elle pas, avec le recul, que la roue était biaisée ?",
+    "choix": [
+      "Parce que l'écart-type qu'il calcule se révèle, à la relecture, être dans les limites normales du hasard",
+      "Parce que le casino aurait réglé la roue différemment selon les tables, ce que Pearson n'aurait pas détecté",
+      "Parce que Le Monaco ne publiait les résultats que d'une seule table sur plusieurs, ce qui biaiserait sa moyenne",
+      "Parce que les rédacteurs chargés de relever les numéros les auraient, selon des recherches postérieures, inventés plutôt qu'observés"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Pearson vérifie lui-même la précision mécanique de la roue : le défaut n'est pas là. Les recherches postérieures d'Adam Kucharski (2016) montrent que l'anomalie venait probablement des rédacteurs du Monaco, qui auraient fabriqué des séries de numéros trop régulières pour être un vrai tirage au hasard, plutôt que de la roue elle-même.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-12",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
