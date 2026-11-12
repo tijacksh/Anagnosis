@@ -83,6 +83,30 @@
     "explication": "Le défaut est un défaut de vérification de longueur dans l'extension heartbeat, pas une faille du chiffrement. Les clés n'étaient pas envoyées volontairement : elles se trouvaient dans la mémoire lue, et la NVD décrit une attaque à distance par paquets forgés.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Combien de temps le code à l'origine de Heartbleed est-il resté exposé dans les versions publiées d'OpenSSL ?",
+      "choix": [
+        "Un peu plus de deux ans, de la sortie d'OpenSSL 1.0.1 en mars 2012 au correctif 1.0.1g d'avril 2014",
+        "Quelques semaines, entre sa découverte par Codenomicon et sa correction",
+        "Plus de dix ans, le bug remontant à la création d'OpenSSL",
+        "Il n'a jamais été présent dans une version publiée, seulement dans le dépôt de développement"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le code fautif entre dans OpenSSL en décembre 2011 et apparaît dans les versions publiées à partir de la 1.0.1 du 14 mars 2012 ; la faille n'est corrigée que dans la 1.0.1g du 7 avril 2014."
+    },
+    {
+      "question": "Que prévoyait déjà la spécification RFC 6520 pour éviter la faille Heartbleed ?",
+      "choix": [
+        "Que la longueur du message devait toujours être inférieure à 16 bits, une limite que le code a ignorée",
+        "Que l'extension heartbeat devait être désactivée par défaut sur les serveurs en production",
+        "Qu'un message dont la longueur annoncée est trop grande doit être rejeté silencieusement",
+        "Que chaque message heartbeat devait être signé par une clé distincte de celle de la session TLS"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La RFC 6520 demandait déjà qu'un message heartbeat trop long soit rejeté sans réponse ; le code d'OpenSSL n'appliquait pas cette règle et recopiait la longueur annoncée sans vérification."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

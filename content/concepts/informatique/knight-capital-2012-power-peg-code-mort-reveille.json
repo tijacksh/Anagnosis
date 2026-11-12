@@ -65,6 +65,30 @@
     "explication": "Un technicien n'a pas copié le nouveau code sur ce serveur, et le drapeau réutilisé y a activé l'ancienne fonction Power Peg. Ce n'est ni une question de vitesse, ni une erreur du nouveau code, qui fonctionnait sur les sept autres, ni une intrusion.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Qu'est-ce qui a aggravé l'incident pendant que Knight Capital tentait de le corriger ?",
+      "choix": [
+        "Un deuxième drapeau, resté caché dans le code, s'est activé à son tour sur le huitième serveur",
+        "La désinstallation du nouveau code sur les sept serveurs corrects les a fait basculer eux aussi vers l'ancien Power Peg",
+        "La Bourse de New York a suspendu la cotation des 154 actions concernées, bloquant toute correction",
+        "Le fournisseur du logiciel SMARS a coupé l'accès à distance, empêchant toute intervention"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les sept serveurs à jour fonctionnaient normalement ; en désinstallant leur nouveau code pour tenter de limiter l'incident, les techniciens de Knight les ont fait basculer eux aussi vers l'ancien Power Peg, aggravant la situation au lieu de la stopper."
+    },
+    {
+      "question": "Qu'a fait Knight Capital des 97 courriels d'erreur « Power Peg disabled » reçus dès 8 h 01 le jour de l'incident ?",
+      "choix": [
+        "Elle les a transmis automatiquement à la SEC, qui a ouvert une enquête dans l'heure",
+        "Elle a coupé SMARS dès réception du premier courriel, limitant la perte à quelques millions",
+        "Rien : ils n'avaient pas été conçus comme des alertes, et personne ne les a lus",
+        "Elle les a transférés au support technique du fournisseur de la Bourse de New York"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte précise que ces courriels n'avaient pas été conçus comme des alertes et que personne ne les a lus avant l'ouverture, alors qu'ils signalaient déjà le problème dès 8 h 01, avant même que l'incident ne débute."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

@@ -66,6 +66,30 @@
     "explication": "Knuth écarte les petites optimisations dans 97 % des cas, mais veut que l'on saisisse les occasions du code critique, une fois celui-ci identifié par la mesure. Il ne dit ni de ne jamais optimiser, ni de tout optimiser d'avance, ni de s'en remettre au compilateur.",
     "statut": "valide"
   },
+  "quiz_supplementaire": [
+    {
+      "question": "Dans l'exemple de recherche par sentinelle que donne Knuth, de combien le nombre d'accès mémoire diminue-t-il ?",
+      "choix": [
+        "De 6n+10 à 4n+14 accès, soit environ 33 % de temps d'exécution en moins",
+        "De 4n+14 à 6n+10 accès, soit un ralentissement d'environ 33 %",
+        "De moitié exactement, quelle que soit la taille n du tableau",
+        "D'environ 12 %, le même gain que pour la boucle doublée"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Knuth calcule que remplacer le test de fin de tableau par une valeur sentinelle fait passer la boucle de 6n+10 à 4n+14 accès mémoire en assembleur, soit un gain d'environ 33 %, bien supérieur aux 12 % de la boucle doublée."
+    },
+    {
+      "question": "Qu'est-ce que Knuth demande aux compilateurs futurs, dans ce même article ?",
+      "choix": [
+        "De refuser de compiler un programme qui contient des instructions go to",
+        "De fournir automatiquement un retour indiquant quelles parties du programme coûtent le plus",
+        "De remplacer systématiquement les boucles par des versions doublées, deux fois plus rapides",
+        "De limiter à 3 % la part du code autorisée à être optimisée"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Knuth écrit qu'il faudrait que tout compilateur futur indique automatiquement quelles parties du programme coûtent le plus, pour éviter de deviner à l'avance où se trouvent les 3 % critiques du code."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
