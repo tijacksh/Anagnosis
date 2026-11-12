@@ -63,9 +63,10 @@
       "Laisser le compilateur optimiser seul, sans jamais intervenir à la main"
     ],
     "bonne_reponse": 2,
-    "explication": "Knuth écarte les petites optimisations dans 97 % des cas, mais veut que l'on saisisse les occasions du code critique, une fois celui-ci identifié par la mesure. Il ne dit ni de ne jamais optimiser, ni de tout optimiser d'avance, ni de s'en remettre au compilateur."
+    "explication": "Knuth écarte les petites optimisations dans 97 % des cas, mais veut que l'on saisisse les occasions du code critique, une fois celui-ci identifié par la mesure. Il ne dit ni de ne jamais optimiser, ni de tout optimiser d'avance, ni de s'en remettre au compilateur.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -78,6 +79,20 @@
     "empreinte": "40637bebf1f9c455",
     "notes": [
       "Sources rouvertes via WebSearch (WebFetch vers dl.acm.org et pic.plover.com bloqué, ENOTFOUND). Confirmé par recoupement indépendant sur plusieurs blogs techniques citant le texte original : la citation complète ('We should forget about small efficiencies, say about 97% of the time... Yet we should not pass up our opportunities in that critical 3%') appartient bien au texte original de l'article de 1974, et la phrase tronquée en circulation omet la seconde moitié — exactement la thèse de la fiche. Article bien identifié comme 'Structured Programming with go to Statements', Computing Surveys, 1974. Carte et quiz conformes. Rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-12T22:12:13.327Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-12T22:12:13.327Z",
+        "note": "Sources rouvertes via WebSearch (WebFetch bloqué, ENOTFOUND sur dl.acm.org, gwern.net, kohala.com, studylib.net). Recoupement indépendant distinct du contrôle, avec passages cités mot pour mot par plusieurs reprises du texte original : citation complète confirmée identique ('We should forget about small efficiencies...critical 3%') ; référence confirmée (Computing Surveys, vol. 6, n° 4, décembre 1974, p. 261-301, DOI 10.1145/356635.356640) ; chiffres de l'exemple de recherche par sentinelle confirmés exactement : 6n+10 (+3 si non trouvé) contre 4n+14 (+6 si non trouvé), gain d'environ 33 % en assembleur ; boucle doublée à environ 12 % de gain, confirmé avec la citation exacte 'In established engineering disciplines a 12% improvement...is never considered marginal'. Carte et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

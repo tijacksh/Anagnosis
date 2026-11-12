@@ -62,9 +62,10 @@
       "Le nouveau code n'y avait pas été copié, et le drapeau réveillait l'ancien Power Peg"
     ],
     "bonne_reponse": 3,
-    "explication": "Un technicien n'a pas copié le nouveau code sur ce serveur, et le drapeau réutilisé y a activé l'ancienne fonction Power Peg. Ce n'est ni une question de vitesse, ni une erreur du nouveau code, qui fonctionnait sur les sept autres, ni une intrusion."
+    "explication": "Un technicien n'a pas copié le nouveau code sur ce serveur, et le drapeau réutilisé y a activé l'ancienne fonction Power Peg. Ce n'est ni une question de vitesse, ni une erreur du nouveau code, qui fonctionnait sur les sept autres, ni une intrusion.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -77,6 +78,20 @@
     "empreinte": "e1e550e0fe098aa1",
     "notes": [
       "Sources rouvertes via WebSearch (WebFetch vers sec.gov bloqué, ENOTFOUND). Confirmé par recoupement indépendant (SEC news digest, Finextra, Law360, NYU SEED) : ordre SEC Release n° 34-70694 du 16 octobre 2013, amende de 12 millions de dollars, première action de la SEC au titre de la règle d'accès au marché (Rule 15c3-5, adoptée en 2010) ; perte de plus de 460 millions de dollars, plus de 397 millions de titres échangés en environ 45 minutes ; drapeau réutilisé qui a réveillé Power Peg (abandonné depuis 2003) sur un serveur n'ayant pas reçu la mise à jour ; 97 courriels d'avertissement automatiques vers 8h01 restés sans action, confirmés par une source secondaire recoupée. Repère, carte et quiz conformes. Rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-12T22:12:12.965Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-12T22:12:12.965Z",
+        "note": "Sources rouvertes via WebSearch (WebFetch bloqué, ENOTFOUND sur sec.gov). Recoupement indépendant distinct du contrôle, avec citations directes de l'ordre SEC retrouvées via plusieurs reprises secondaires : 212 ordres, SMARS, plus de 4 millions d'exécutions sur 154 actions, 397 millions de titres, 45 minutes, perte de plus de 460 millions (confirmé) ; Power Peg abandonné en 2003, comptage de quantité cumulée déplacé en 2005 sans nouveau test, drapeau réutilisé par le code RLP de 2012 (confirmé par citation de l'ordre SEC reprise par un blog technique) ; huit serveurs, déploiement à partir du 27 juillet, un serveur oublié, pas de second relecteur (confirmé) ; 97 courriels 'Power Peg disabled' dès 8h01 restés sans action (confirmé, cité comme venant de l'ordre SEC) ; désinstallation du nouveau code sur les sept serveurs corrects qui a aggravé la situation en y réactivant Power Peg (confirmé par une reprise détaillée de l'ordre SEC, levant le doute signalé par le contrôle) ; amende de 12 millions, Release 34-70694, 16 octobre 2013, première action au titre de la règle 15c3-5 (confirmé). Repère, carte, quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

@@ -80,9 +80,10 @@
       "Un pirate devait d'abord ouvrir une session authentifiée sur le serveur visé"
     ],
     "bonne_reponse": 0,
-    "explication": "Le défaut est un défaut de vérification de longueur dans l'extension heartbeat, pas une faille du chiffrement. Les clés n'étaient pas envoyées volontairement : elles se trouvaient dans la mémoire lue, et la NVD décrit une attaque à distance par paquets forgés."
+    "explication": "Le défaut est un défaut de vérification de longueur dans l'extension heartbeat, pas une faille du chiffrement. Les clés n'étaient pas envoyées volontairement : elles se trouvaient dans la mémoire lue, et la NVD décrit une attaque à distance par paquets forgés.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-29",
@@ -95,6 +96,20 @@
     "empreinte": "d66f3a8a14e4a934",
     "notes": [
       "Sources rouvertes via WebSearch (WebFetch bloqué par la politique réseau de la session : nvd.nist.gov, heartbleed.com, www.rfc-editor.org, wiki.openssl.org tous ENOTFOUND). Confirmé par recoupement indépendant : CVE-2014-0160 classée comme lecture hors limites (CWE-125, buffer over-read, pas un dépassement) dans l'extension heartbeat TLS/DTLS ; versions OpenSSL 1.0.1 à 1.0.1f affectées, 1.0.1g corrigée, branche 1.0.2 corrigée en 1.0.2-beta2 ; mécanisme confirmé : le code faisait confiance à la longueur annoncée par le client et recopiait ce volume sans vérifier la présence réelle des octets. RFC 6520 : payload_length confirmé sur 2 octets (16 bits), règle MUST discard silently confirmée (section 3, erratum EID 6825 incorporé). Repère, carte et quiz conformes au contenu vérifié. Rien à corriger."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-12T22:12:12.599Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-12T22:12:12.599Z",
+        "note": "Sources rouvertes via WebSearch (WebFetch bloqué, ENOTFOUND sur nvd.nist.gov, heartbleed.com, rfc-editor.org, wiki.openssl.org). Recoupement indépendant distinct du contrôle : CVE-2014-0160 = CWE-125 (buffer over-read), OpenSSL 1.0.1-1.0.1f affectées / 1.0.1g corrigée (confirmé NVD, Debian tracker) ; bug introduit déc. 2011, publié avec 1.0.1 du 14 mars 2012, découvert par Codenomicon et Neel Mehta/Google (confirmé LWN) ; RFC 6520 payload_length 16 bits, règle MUST discard silently confirmée (datatracker IETF) ; SECADV 20140407 confirme 1.0.2 corrigée en 1.0.2-beta2 ; absence de trace anormale en journal confirmée par plusieurs analyses techniques (avec la nuance qu'elle vaut pour les journaux applicatifs, pas pour des captures réseau antérieures). Repère, carte, quiz conformes. Rien à corriger."
+      }
     ]
   }
 }

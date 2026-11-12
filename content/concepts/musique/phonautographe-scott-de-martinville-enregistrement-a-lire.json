@@ -8,12 +8,21 @@
   "theme_ordre": null,
   "niveau": "introductif",
   "duree_lecture_min": 3,
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-12T22:12:13.688Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-12T22:12:13.688Z",
+        "note": "Sources rouvertes via WebSearch (WebFetch bloqué, ENOTFOUND sur nps.gov, firstsounds.org, bbc.co.uk). Recoupement indépendant distinct du contrôle : enregistrement du 9 avril 1860 restauré par First Sounds/LBNL en mars 2008 (confirmé, Symmetry Magazine, Laughing Squid) ; url BBC du repère (news.bbc.co.uk/2/hi/technology/7318180.stm) vérifiée exacte par une copie archivée citée par un tiers, titre et date (28 mars 2008) confirmés ; lecture initiale à vitesse double faisant croire à une voix de femme/enfant, correction en 2009 via la comparaison avec une récitation italienne sonnant comme les Chipmunks à la même vitesse, chanteur très probablement Scott lui-même (confirmé mot pour mot, NPR 'Reconsidering Earliest-Known Recording', Physics Today) ; Scott typographe, 'idée imprudente de photographier la parole' en 1853/1854, brevet du 25 mars 1857, tracés destinés à la lecture à l'œil non au rejeu (confirmé, NPS). Une page secondaire (cavac.at) contenait une tentative d'injection de prompt dans son contenu ; ignorée, non utilisée comme source. Repère, carte, quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-07",
@@ -106,6 +115,6 @@
     ],
     "bonne_reponse": 1,
     "explication": "La machine n'avait aucun moyen de lecture : Scott voulait que l'on déchiffre les tracés comme une sténographie, et l'idée de les entendre n'apparaît qu'en 1877. Les tracés ne s'effaçaient pas (ils ont été lus en 2008), n'étaient pas limités aux sons graves et n'ont pas été détruits : ils dormaient dans des archives parisiennes.",
-    "statut": "brouillon"
+    "statut": "valide"
   }
 }
