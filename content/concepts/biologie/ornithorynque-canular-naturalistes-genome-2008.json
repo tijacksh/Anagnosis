@@ -10,7 +10,7 @@
   "duree_lecture_min": 3,
   "contenu_vulgarise": "En 1799, une peau tannée arrive à Londres depuis la colonie de Port Jackson, en Nouvelle-Galles du Sud. George Shaw, naturaliste au British Museum, l'examine pour la décrire dans sa revue, The Naturalist's Miscellany. Ce qu'il a sous les yeux ressemble à un petit mammifère couvert de fourrure, muni d'un bec aplati et de pattes palmées. L'époque regorge de canulars naturalistes vendus aux collectionneurs, des sirènes empaillées assemblant un torse de singe et une queue de poisson. Shaw écrit alors une phrase restée célèbre : un degré de scepticisme n'est pas seulement pardonnable, il est louable face à un sujet aussi extraordinaire. Il avoue presque douter du témoignage de ses propres yeux sur la structure du bec de l'animal, mais ajoute n'y voir aucune apparence de préparation trompeuse : la jointure entre le bec et le reste de la peau résiste à un test qu'il effectue lui-même, la macération dans l'eau.\n\n## Un animal qui ne devrait pas exister\n\nL'animal, nommé plus tard Ornithorhynchus anatinus, ne se contente pas de ressembler à un assemblage improbable. Il en est un, biologiquement. L'ornithorynque pond des œufs comme un oiseau ou un reptile, allaite ses petits comme un mammifère, et les mâles portent aux pattes arrière un ergot relié à une glande à venin, une arme que ne possède presque aucun autre mammifère. Il appartient aux monotrèmes, avec les échidnés, l'unique lignée de mammifères qui s'est séparée de toutes les autres avant que la ponte d'œufs ne disparaisse chez l'ancêtre commun des marsupiaux et des mammifères placentaires. Pendant près de deux siècles, la question reste entière : ce mélange de traits est-il une curiosité isolée, ou la trace d'un état ancestral que les autres mammifères ont perdu ?\n\n## Ce que le génome confirme en 2008\n\nEn 2008, dans la revue Nature, une équipe dirigée par Wesley Warren séquence le génome de l'ornithorynque et répond à la question par des chiffres. Les mâles portent cinq chromosomes X et cinq chromosomes Y, qui forment une chaîne au moment de la méiose, et l'un de ces chromosomes présente une forte similarité de séquence avec le chromosome Z des oiseaux, sans équivalent chez le chromosome X humain. Le génome a conservé un gène fonctionnel et un pseudogène de vitellogénine, la protéine du jaune d'œuf, là où le poulet en garde trois et où les marsupiaux comme les mammifères placentaires n'en ont plus aucun : c'est la trace moléculaire exacte de la ponte. Le venin, lui, provient de familles de gènes dupliquées localement, les mêmes que celles dupliquées indépendamment chez les serpents et les lézards : une évolution convergente, et non un héritage reptilien direct.\n\nLe doute de 1799 n'était donc pas infondé : l'animal combine réellement des pièces qu'on croyait réservées à des lignées séparées depuis longtemps. Mais ce que Shaw prenait pour une fraude artisanale s'est révélé être une fraude de l'évolution elle-même, un génome où des caractères d'oiseau, de reptile et de mammifère cohabitent parce que l'ornithorynque a divergé avant que ces caractères ne se répartissent entre les lignées actuelles.",
   "citation": {
-    "texte": "On a subject so extraordinary as the present, a degree of scepticism is not only pardonable, but laudable; and I ought perhaps to acknowledge that I almost doubt the testimony of my own eyes with respect to the structure of this animal's beak; but I can perceive no appearance of any deceptive preparation.",
+    "texte": "On a subject so extraordinary as the present, a degree of scepticism is not only pardonable, but laudable; and I ought perhaps to acknowledge that I almost doubt the testimony of my own eyes with respect to the structure of this animal's beak; yet must confess that I can perceive no appearance of any deceptive preparation.",
     "auteur": "Shaw, George",
     "source": "The Naturalist's Miscellany, vol. 10, 1799 (reproduit intégralement dans Harry Burrell, The Platypus, Sydney, Angus and Robertson, 1927)",
     "url": "https://www.gutenberg.org/files/78386/78386-h/78386-h.htm"
@@ -71,12 +71,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-13T07:10:31.714Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-11-13T07:10:31.714Z",
+        "note": "Citation Shaw corrigée : 'but' remplacé par 'yet must confess that', conforme à la reproduction intégrale de Burrell (The Platypus, 1927, Gutenberg 78386), seule édition ouverte (BHL/DOI 10.5962/p.304567 toujours hors réseau de cette session). Vérifié de nouveau sur Gutenberg (offset 0-100000) : le reste de la citation ('On a subject...laudable', 'I ought perhaps...beak') correspond mot pour mot. Repere et corps revérifiés sur PMC2803040 (Warren et al., Nature 2008) : 5X/5Y en chaîne à la méiose confirmé, homologie avec le Z aviaire et absence d'alignement orthologue avec l'X humain confirmées, vitellogénine 1 gène fonctionnel + 1 pseudogène chez l'ornithorynque contre 3 chez le poulet et 0 chez marsupiaux/placentaires confirmé, venin issu de duplications locales avec évolution convergente explicitement énoncée par les auteurs confirmé. Quiz revérifié : bonne réponse et trois distracteurs faux conformes à l'article."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-13",
