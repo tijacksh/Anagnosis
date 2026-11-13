@@ -67,12 +67,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-13T22:11:50.109Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-13T22:11:50.109Z",
+        "note": "Sources rouvertes indépendamment : MIT Classics Archive (Lettre à Ménécée, texte intégral) — citation 'By pleasure we mean the absence of pain in the body and of trouble in the soul' et passage 'bread an water confer the highest possible pleasure when they are brought to hungry lips' confirmés mot pour mot (coquille 'an' pour 'and' dans le texte source lui-même), classification des trois groupes de désirs (naturels et nécessaires / naturels non nécessaires / vains) confirmée. Stanford Encyclopedia of Philosophy (Epicurus, §4) confirme la même classification et la définition négative du plaisir (freedom from bodily pain and mental disturbance), avec la nuance catastématique/cinétique déjà notée en source — n'affecte pas ce que la fiche affirme, qui reprend le texte primaire d'Épicure. Carte et quiz conformes au texte, rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-08",
