@@ -83,9 +83,10 @@
       "Le lien n'a été cherché que sur des insectes vivants, jamais sur des fossiles"
     ],
     "bonne_reponse": 2,
-    "explication": "Les données de Clapham et Karr établissent un lien entre taille maximale et oxygène, mais pas son mécanisme, et un insecte de 45 cm au Permien montre qu'on peut être grand avec moins d'oxygène. L'oxygène du Carbonifère est estimé à plus de 30 %, au-dessus des 21 % actuels, les insectes géants précèdent les oiseaux, et l'étude de 2012 porte justement sur des ailes fossiles."
+    "explication": "Les données de Clapham et Karr établissent un lien entre taille maximale et oxygène, mais pas son mécanisme, et un insecte de 45 cm au Permien montre qu'on peut être grand avec moins d'oxygène. L'oxygène du Carbonifère est estimé à plus de 30 %, au-dessus des 21 % actuels, les insectes géants précèdent les oiseaux, et l'étude de 2012 porte justement sur des ailes fossiles.",
+    "statut": "valide"
   },
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-03",
@@ -98,6 +99,20 @@
     "empreinte": "bf3900286e31ee6b",
     "notes": [
       "Sources rouvertes (Wikipedia Meganeura, Geological history of oxygen) : chiffres confirmés (65-75cm, ~300Ma, Brongniart 1884/1885, Harlé 1911, oxygène jusqu'à 35% Mills 2023, Arctotypus 45cm Lodève, Bechly 2004). PNAS/UCSC/NatGeo inaccessibles depuis ce sandbox (hors liste réseau autorisée), comme la fiche le note déjà elle-même ; rien ne les contredit. Quiz solide, distracteurs clairement faux."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-13T10:12:07.340Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-13T10:12:07.340Z",
+        "note": "Sources rouvertes : Wikipedia Meganeura confirme en détail Commentry 1880, Brongniart 1884 (Dictyoneura monyi, fossiles fournis par l'ingénieur des mines Henri Fayol) puis genre Meganeura en 1885, envergure 65-75cm, ~300Ma, hypothèse d'oxygène d'Harlé 1911, Arctotypus 45cm au Permien de Lodève, respiration trachéale active, hypothèse Bechly 2004. Wikipedia Geological history of oxygen confirme le pic à ~35% (Mills et al. 2023) au Carbonifère tardif/Permien, mesures indirectes et débattues. PNAS (403), UCSC et National Geographic (hors réseau autorisé de ce sandbox) restent inaccessibles comme déjà noté ; recherche web indépendante (PMC, sci.news) confirme cependant le contenu rapporté : 10500+ longueurs d'ailes, corrélation sur 150 Ma, mesure de taille maximale, rupture liée aux oiseaux. Rien ne contredit la fiche. Carte et quiz conformes. Rien à corriger."
+      }
     ]
   }
 }
