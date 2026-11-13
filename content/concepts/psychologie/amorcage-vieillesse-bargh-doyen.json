@@ -65,7 +65,41 @@
     "explication": "Avec un chronométrage automatique et des expérimentateurs aveugles à la condition, aucun écart fiable n'apparaît. L'effet ne se manifeste qu'avec des expérimentateurs non aveugles, et seulement dans le sens qu'ils attendaient : un biais de l'observateur plutôt qu'un simple amorçage inconscient du participant.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Dans l'étude originale de Bargh, Chen et Burrows (1996), quelle tâche les participants devaient-ils accomplir avant qu'on chronomètre leur marche ?",
+      "choix": [
+        "Mémoriser une liste de mots liés à la vieillesse, puis la réciter de mémoire",
+        "Reconstituer des phrases à partir de cinq mots mélangés, dont un intrus à écarter",
+        "Répondre à un questionnaire sur leurs souvenirs d'enfance et de jeunesse",
+        "Résoudre des anagrammes sans aucun rapport avec le thème de la vieillesse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les étudiants reconstituaient trente phrases à partir de cinq mots donnés dans le désordre, dont un intrus à écarter. Une partie des listes incluait des mots liés à la vieillesse, comme Floride ou ride."
+    },
+    {
+      "question": "Dans l'expérience à l'aveugle de Doyen et al. (2012), avec chronométrage infrarouge et expérimentateurs ignorant la condition, que montre la comparaison entre groupe amorcé et groupe neutre ?",
+      "choix": [
+        "6,27 secondes contre 6,39 secondes, un écart qui ne passe pas le seuil de signification",
+        "6,27 secondes contre 8,1 secondes, un écart hautement significatif",
+        "Aucune mesure n'a pu être prise, le dispositif infrarouge ayant échoué en cours d'expérience",
+        "4,5 secondes contre 6,39 secondes, l'amorçage accélérant nettement la marche"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Avec 120 participants, un chronométrage automatique et des expérimentateurs aveugles à la condition, les groupes marchent en 6,27 et 6,39 secondes en moyenne : un écart que la fiche rapporte comme non significatif."
+    },
+    {
+      "question": "Qu'ont rapporté la plupart des participants amorcés, lors du débriefing de l'étude de Doyen et al. ?",
+      "choix": [
+        "Qu'ils n'avaient rien remarqué de particulier dans les phrases à reconstituer",
+        "Qu'ils avaient reconnu personnellement l'un des expérimentateurs présents",
+        "Qu'ils avaient perçu le thème des phrases qu'ils étaient en train de recomposer",
+        "Qu'ils avaient deviné l'hypothèse exacte de l'étude avant même de marcher"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La fiche rapporte que la plupart des personnes amorcées disent avoir remarqué le thème des phrases qu'elles recomposaient, ce qui fragilise l'idée d'un mécanisme purement inconscient."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
