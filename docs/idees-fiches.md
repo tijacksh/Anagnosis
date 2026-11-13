@@ -590,3 +590,7 @@ peut rouvrir directement le texte du décret.)*
 | Sociologie | Le mythe des 38 témoins de l'affaire Kitty Genovese (1964) : ce que le dossier judiciaire montre réellement (Manning, Levine, Collins, 2007) | fait | routine-production | 2026-11-09 |
 | Sociologie | Becker et la théorie de l'étiquetage (Outsiders, 1963) : la déviance comme réaction sociale, pas comme propriété de l'acte | fait | routine-production | 2026-11-09 |
 | Sociologie | Du Bois et The Philadelphia Negro (1899) : la première enquête sociologique de terrain sur une communauté noire américaine | fait | routine-production | 2026-11-09 |
+| Biologie | Le mythe du cartilage de requin contre le cancer : du livre de Lane (1992) au registre de tumeurs d'Ostrander (2004) et à l'essai AE-941 (Lu et al., JNCI, 2010) | fait | routine-production | 2026-11-13 |
+| Biologie | Turritopsis dohrnii, la méduse dite « immortelle » : transdifférenciation cellulaire (Piraino 1996) et génome comparé (Pascual-Torner et al., PNAS, 2022) | fait | routine-production | 2026-11-13 |
+| Biologie | L'ornithorynque pris pour un canular par George Shaw en 1799, confirmé mosaïque par le génome séquencé en 2008 (Warren et al., Nature) | fait | routine-production | 2026-11-13 |
+| Biologie | Les pinsons de Darwin à Daphne Major : la sélection naturelle qui s'inverse entre la sécheresse de 1977 et l'El Niño de 1983 (Grant et al.) | fait | routine-production | 2026-11-13 |
