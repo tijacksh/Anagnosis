@@ -594,3 +594,8 @@ peut rouvrir directement le texte du décret.)*
 | Biologie | Turritopsis dohrnii, la méduse dite « immortelle » : transdifférenciation cellulaire (Piraino 1996) et génome comparé (Pascual-Torner et al., PNAS, 2022) | fait | routine-production | 2026-11-13 |
 | Biologie | L'ornithorynque pris pour un canular par George Shaw en 1799, confirmé mosaïque par le génome séquencé en 2008 (Warren et al., Nature) | fait | routine-production | 2026-11-13 |
 | Biologie | Les pinsons de Darwin à Daphne Major : la sélection naturelle qui s'inverse entre la sécheresse de 1977 et l'El Niño de 1983 (Grant et al.) | fait | routine-production | 2026-11-13 |
+| Cinéma | Natalie Kalmus, directrice de la couleur créditée sur tous les films Technicolor (1934-1949) : un pouvoir tiré de la location de la caméra trichrome | fait | routine-production | 2026-11-13 |
+| Cinéma | Rashomon au Lion d'or de Venise (10 septembre 1951) : recommandé par Giuliana Stramigioli (Italifilm) malgré la réticence de la Daiei, Kurosawa n'en savait rien | fait | routine-production | 2026-11-13 |
+| Cinéma | La ruine de Méliès : départ de Montreuil et stock brûlé (1923), étal de jouets gare Montparnasse, une œuvre sauvée par les copies qui lui avaient échappé | fait | routine-production | 2026-11-13 |
+| Cinéma | L'Hypergonar d'Henri Chrétien (1926), né de recherches sur les viseurs de chars, ignoré jusqu'au rachat par la Fox (1952) et au CinemaScope (1953) | fait | routine-production | 2026-11-13 |
+| Cinéma | King Kong (1933) et les marionnettes de Willis O'Brien | abandonné | routine-production | 2026-11-13 |
