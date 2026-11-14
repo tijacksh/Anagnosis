@@ -63,7 +63,41 @@
     "explication": "Pearson vérifie lui-même la précision mécanique de la roue : le défaut n'est pas là. Les recherches postérieures d'Adam Kucharski (2016) montrent que l'anomalie venait probablement des rédacteurs du Monaco, qui auraient fabriqué des séries de numéros trop régulières pour être un vrai tirage au hasard, plutôt que de la roue elle-même.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Combien de coups de roulette Pearson dépouille-t-il lui-même, et sur quelle période ?",
+      "choix": [
+        "165630 coups, sur toute l'année 1892",
+        "1656 coups, sur une seule semaine de jeu",
+        "16563 coups, répartis en 148 groupes sur quatre semaines",
+        "16563 coups, mais étalés sur dix ans de relevés"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte précise que Pearson dépouille 16563 coups, qu'il répartit en 148 groupes hebdomadaires sur quatre semaines."
+    },
+    {
+      "question": "Comment Pearson vérifie-t-il qu'il n'a pas eu la malchance de tomber sur un échantillon hors norme ?",
+      "choix": [
+        "Il recommence lui-même le calcul une seconde fois sur les mêmes données",
+        "Il demande au casino de lui fournir un relevé officiel des mêmes semaines",
+        "Il attend quatre semaines de plus et republie le même relevé du Monaco",
+        "Il confronte son calcul à un relevé indépendant de M. de Whalley, sans rien de comparable"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le texte dit que Pearson confronte son calcul à un second relevé indépendant, tenu par M. de Whalley, où rien de comparable n'apparaît."
+    },
+    {
+      "question": "Que fait Pearson six ans après cet épisode de la roulette de Monte-Carlo, selon le texte ?",
+      "choix": [
+        "Il republie son article de 1894 sans modification dans une revue française",
+        "Il formalise le critère du chi-carré, qui généralise sa question sur un écart trop grand ou petit",
+        "Il abandonne définitivement l'étude des jeux de hasard",
+        "Il rejoint l'équipe scientifique du casino de Monte-Carlo"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte dit que Pearson formalise, six ans plus tard, le critère du chi-carré, qui généralise la question posée sur la roulette."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

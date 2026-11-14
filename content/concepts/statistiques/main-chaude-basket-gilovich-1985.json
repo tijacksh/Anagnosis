@@ -68,7 +68,41 @@
     "explication": "Miller et Sanjurjo montrent que sélectionner les tirs qui suivent une série de k réussites biaise mécaniquement, et vers le bas, la proportion de succès observée, même sur une pièce parfaitement équilibrée. Ce défaut de méthode, et non de nouvelles données, inverse la conclusion de 1985 une fois corrigé.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel pourcentage de fans interrogés en 1985 jugeait important de passer le ballon à un tireur en série de réussites ?",
+      "choix": [
+        "12 %, une minorité marginale parmi les fans interrogés",
+        "84 % des cent fans interrogés sur les campus de Cornell et Stanford",
+        "50 %, soit un partage égal entre croyants et sceptiques",
+        "100 %, l'ensemble des fans interrogés sans exception"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le texte dit que 84 % des cent fans interrogés sur les campus de Cornell et Stanford jugeaient important de passer le ballon."
+    },
+    {
+      "question": "Sur quel exemple simple Miller et Sanjurjo illustrent-ils le biais de sélection des séries ?",
+      "choix": [
+        "Dix lancers de dés, où la probabilité d'un six consécutif double par erreur",
+        "Les tirs de la saison NBA 2015-2016, pris isolément de toute autre donnée",
+        "Un jeu de cartes, où tirer deux as consécutifs serait systématiquement sous-estimé",
+        "Trois lancers d'une pièce équilibrée, où la proportion de piles après un premier pile tombe à 5 sur 12"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Le texte dit que sur trois lancers d'une pièce équilibrée, l'espérance de la proportion de piles après un premier pile tombe à 5 sur 12."
+    },
+    {
+      "question": "De combien de points de pourcentage passe l'écart mesuré entre tirs après réussites et tirs après échecs, une fois le biais corrigé ?",
+      "choix": [
+        "De 13 points à seulement 3-4 points, le biais réduisant largement l'écart observé initialement",
+        "De 3 à 4 points jusqu'à 50 points, un écart jugé totalement disproportionné par les auteurs",
+        "De 3-4 points non significatifs à environ 13 points, 19 joueurs sur 25 dans le même sens",
+        "Il reste strictement inchangé à 3-4 points, dans les deux versions du calcul"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte dit que l'écart passe de 3 à 4 points non significatifs à environ 13 points corrigés, 19 joueurs sur 25 dans le même sens."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
