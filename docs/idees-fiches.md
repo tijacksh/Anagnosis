@@ -603,3 +603,7 @@ peut rouvrir directement le texte du décret.)*
 | Cinéma | La ruine de Méliès : départ de Montreuil et stock brûlé (1923), étal de jouets gare Montparnasse, une œuvre sauvée par les copies qui lui avaient échappé | fait | routine-production | 2026-11-13 |
 | Cinéma | L'Hypergonar d'Henri Chrétien (1926), né de recherches sur les viseurs de chars, ignoré jusqu'au rachat par la Fox (1952) et au CinemaScope (1953) | fait | routine-production | 2026-11-13 |
 | Cinéma | King Kong (1933) et les marionnettes de Willis O'Brien | abandonné | routine-production | 2026-11-13 |
+| Histoire de l'art | Mary Richardson lacère la Rokeby Venus au couperet (10 mars 1914) pour protester contre l'arrestation d'Emmeline Pankhurst — une autre raison donnée en 1952 | fait | routine-production | 2026-11-14 |
+| Histoire de l'art | Le procès d'Artemisia Gentileschi contre Agostino Tassi (1612) : la sibille infligée au témoin, jamais à l'accusé | fait | routine-production | 2026-11-14 |
+| Histoire de l'art | La restauration de 2019-2020 du retable de Gand révèle le visage original de l'Agneau mystique, masqué par un repeint du seizième siècle (Van der Snickt et al., Science Advances) | fait | routine-production | 2026-11-14 |
+| Histoire de l'art | Louis Leroy et Le Charivari (25 avril 1874) : le nom « impressionnistes » né d'une moquerie, adopté par les peintres eux-mêmes en 1876 | fait | routine-production | 2026-11-14 |
