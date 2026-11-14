@@ -67,12 +67,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-14T10:16:03.689Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-14T10:16:03.689Z",
+        "note": "Sources rouvertes : notice archive.org confirmée (Outsiders, Becker, Free Press of Glencoe, 1963, 232 p.) ; accès en emprunt restreint, donc citation p.9 vérifiée par recoupement avec une source secondaire citant mot pour mot l'édition 1973 (même pagination p.9) : « social groups create deviance by making rules whose infraction creates deviance » et « the deviant is one to whom that label has been successfully applied ; deviant behavior is behavior that people so label » — traduction française de la fiche conforme. Chapitres 3-4 d'Outsiders confirmés comme publiés à l'origine dans American Journal of Sociology en 1953 (Wikipédia, page Howard S. Becker) ; JSTOR inaccessible pour vérifier directement volume/pages de l'article de 1953, référence bibliographique restée inchangée car bien établie et déjà recoupée par le contrôle précédent. Carte et quiz conformes au mécanisme décrit. Rien d'autre à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-09",
