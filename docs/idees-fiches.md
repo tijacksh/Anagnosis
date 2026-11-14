@@ -479,6 +479,10 @@ peut rouvrir directement le texte du décret.)*
 | Écologie | Hubbard Brook (1965-1967) : un bassin versant rasé, des nitrates multipliés par 41 puis 56 dans le ruisseau (Likens et al., 1970) | fait | routine-production-arnaud | 2026-10-21 |
 | Écologie | Forbes (1887), « Le lac comme microcosme » : un équilibre décrit pour les lacs isolés, et des lacs de plaine inondable qui oscillent | fait | routine-production-arnaud | 2026-10-21 |
 | Écologie | Park Grass (Rothamsted, 1856) : une expérience sur le foin devenue la plus longue de l'écologie, de 3 à 44 espèces par parcelle (Crawley et al., 2005) | fait | routine-production-arnaud | 2026-10-21 |
+| Écologie | Le pigeon voyageur et l'effet Allee : une population encore immense dont la reproduction s'est effondrée sous un seuil de densité (Hung et al., 2014) | fait | routine-production | 2026-11-14 |
+| Écologie | Tchernobyl : grands mammifères abondants (Deryabina et al., 2015) et insectes en recul près des zones les plus irradiées (Møller & Mousseau, 2009) | fait | routine-production | 2026-11-14 |
+| Écologie | La mangouste importée en Jamaïque en 1872 (Espeut) : les rats reculent, les oiseaux et reptiles disparaissent, les tiques prolifèrent | fait | routine-production | 2026-11-14 |
+| Écologie | Pourquoi les feuilles rougissent en automne : anthocyane fabriquée à neuf, deux hypothèses (photoprotection, signal aux pucerons) mises en défaut | fait | routine-production | 2026-11-14 |
 | Institutions judiciaires | *McKane v. Durston* (1894) : la Cour suprême écrit que l'appel d'une condamnation n'est pas un droit constitutionnel, puis *Griffin v. Illinois* (1956) et l'article 2 du Protocole n° 7 (1984) | fait | routine-production-arnaud | 2026-10-21 |
 | Institutions judiciaires | Magna Carta (1215), article 17 : les plaids communs ne suivront plus la cour du roi mais siégeront en un lieu fixe | fait | routine-production-arnaud | 2026-10-21 |
 | Institutions judiciaires | Les gacaca du Rwanda (2001-2012) : environ 12 000 juridictions pour 1,2 million d'affaires, une « tradition » devenue institution d'État | fait | routine-production-arnaud | 2026-10-21 |
