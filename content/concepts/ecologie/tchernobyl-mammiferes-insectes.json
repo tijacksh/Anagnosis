@@ -67,10 +67,27 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-14",
+    "verdict": "a_revoir",
+    "empreinte": "54c20fdf1c777575",
+    "notes": [
+      "Phys.org (WebFetch, communiqué de Cell Press sur Deryabina et al. 2015) confirme : abondance de l'élan, du chevreuil, du cerf et du sanglier comparable à quatre réserves non contaminées ; loup plus de sept fois plus abondant ; hausse des effectifs sur les relevés héliportés de 1 à 10 ans après l'accident ; baisse ponctuelle du sanglier attribuée à une épidémie sans lien avec la radiation (la maladie elle-même — peste porcine — n'est pas nommée dans le communiqué, mais la fiche ne la nomme pas non plus) ; citation de Jim T. Smith confirmée (le communiqué l'appelle « Jim Smith », sans initiale, différence sans conséquence).",
+      "À REVOIR : Møller & Mousseau (2009, PMC, WebFetch) décrit « We conducted four line transects at 17 sites during early July 2008 », c'est-à-dire dix-sept SITES avec quatre transects chacun (répétés une seconde fois le même jour), et seulement en juillet 2008 — pas « dix-sept transects linéaires répétés entre 2006 et 2008 » comme l'écrivent le corps du texte et la note de la source. La période 2006-2008 s'applique aux 731 points de comptage (confirmés exacts), pas aux transects. Les pourcentages de variance expliquée (14 à 38% en transects, 6% en points de comptage) sont en revanche confirmés exacts, de même que la diminution des cinq taxons d'invertébrés avec la radiation et la réserve des auteurs sur les facteurs confondants et le mécanisme incertain pour plusieurs groupes.",
+      "À corriger : remplacer « dix-sept transects linéaires répétés entre 2006 et 2008 » par une formulation fidèle (dix-sept sites, quatre transects chacun, en juillet 2008) dans le corps du texte et dans la note de la source Møller & Mousseau. Fiche passée en_retouche."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-14", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-14",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
