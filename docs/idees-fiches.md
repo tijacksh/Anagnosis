@@ -453,6 +453,10 @@ peut rouvrir directement le texte du décret.)*
 | Archéologie | Pitt-Rivers et Cranborne Chase (vol. I, 1887) : 95 fosses et 15 squelettes là où une première fouille n'en avait signalé aucun | fait | routine-production-arnaud | 2026-10-20 |
 | Archéologie | Kennewick Man : morphologie crânienne contre génome (Rasmussen et al., Nature, 2015) | fait | routine-production-arnaud | 2026-10-20 |
 | Archéologie | Sutton Hoo (1938-1939) : cinq rivets en place, Basil Brown et le passage de relais à Charles Phillips | fait | routine-production-arnaud | 2026-10-20 |
+| Archéologie | Champollion et la lettre à Dacier (1822) : la version hiéroglyphique de la pierre de Rosette traduit le grec, et non l'inverse | fait | routine-production | 2026-11-15 |
+| Archéologie | Manuscrits de la mer Morte (1947) : la chaîne de hasards entre la grotte de Qumrân et le cordonnier Kando, avant toute reconnaissance savante | fait | routine-production | 2026-11-15 |
+| Archéologie | Le Suaire de Turin daté à l'aveugle par trois laboratoires rivaux (Damon et al., Nature, 1989) : ce que garantit un protocole en double insu | fait | routine-production | 2026-11-15 |
+| Archéologie | L'armée de terre cuite : le chrome des armes vient du laque, pas d'un traitement antirouille (Martinón-Torres et al., Scientific Reports, 2019) | fait | routine-production | 2026-11-15 |
 | Chimie | Le chlore pèse 35,45 et aucun atome de chlore n'a cette masse : le spectrographe de masse d'Aston (1922) | fait | routine-production-arnaud | 2026-10-20 |
 | Chimie | Le nombre d'Avogadro : Avogadro ne l'a jamais calculé, le nom vient de Perrin (1909) | fait | routine-production-arnaud | 2026-10-20 |
 | Chimie | La flamme d'une bougie selon Faraday : la lumière vient de particules de carbone solides, pas de la chaleur | fait | routine-production-arnaud | 2026-10-20 |
