@@ -75,7 +75,32 @@
     "explication": "La régularité ne vient pas d'un trucage ni d'une cause commune cachée : elle naît du grand nombre d'occasions indépendantes à faible probabilité chacune, exactement ce que décrit la loi de Poisson, quelle que soit la cause de chaque accident pris isolément.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "D'où vient la loi que von Bortkiewicz applique en 1898 aux coups de sabot de l'armée prussienne ?",
+      "choix": [
+        "Siméon Denis Poisson l'a publiée en 1837 pour estimer la fiabilité des verdicts rendus par des jurys",
+        "Bortkiewicz l'a inventée lui-même en observant les registres de l'armée prussienne",
+        "Poisson l'a formulée en 1898 en étudiant directement les accidents de cavalerie",
+        "Abraham de Moivre l'a publiée en 1837 dans ses travaux sur les jeux de hasard"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La loi vient de Poisson, publiée en 1837 pour un problème sans rapport, juger la fiabilité des verdicts de jurys ; Bortkiewicz ne fait que l'appliquer soixante ans plus tard aux chevaux prussiens.",
+      "statut": "valide"
+    },
+    {
+      "question": "Sur les 280 corps-années étudiées par von Bortkiewicz, combien comptent exactement zéro mort par coup de sabot cette année-là ?",
+      "choix": [
+        "91",
+        "144",
+        "32",
+        "196"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le tableau complet de Bortkiewicz donne 144 corps-années sans aucun mort, contre 91 avec un seul, 32 avec deux, et 196 qui est le total des morts sur l'ensemble de la période, pas un décompte d'années.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
