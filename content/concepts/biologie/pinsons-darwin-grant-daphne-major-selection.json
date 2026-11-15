@@ -66,12 +66,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-15T10:15:24.413Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-15T10:15:24.413Z",
+        "note": "Ahmed 2010 (PNAS, PMC2851900) rouvert : citations mot pour mot confirmées sur la sécheresse de 1977 (85% de mortalité, grands becs favorisés, Tribulus) et le retournement El Niño (petits becs favorisés) ; l'article dit 'five years later' sans donner l'année 1983 explicitement, mais ne contredit pas cette date, standard dans la littérature sur Daphne Major (El Niño 1982-83, l'un des plus forts du XXe siècle d'après Wikipédia EN sur l'ENSO). Boag & Grant 1981 (science.org) bloqué (403) depuis cette session comme au premier passage, corroboré par la source institutionnelle PNAS vérifiée en texte intégral. Grant & Grant 2002 (pour aller plus loin) également bloqué (403), simple complément non central. Carte et quiz conformes. Deuxième passage indépendant, confirme le premier."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-13",

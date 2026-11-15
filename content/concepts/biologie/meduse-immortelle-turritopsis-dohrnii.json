@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-15T10:15:23.760Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-15T10:15:23.760Z",
+        "note": "PNAS Pascual-Torner 2022 (PMC9459311) rouvert et revérifié mot pour mot : POLD1 4 vs 1, POLA2 2 vs 1, TOP3B 4 vs 3, XRCC5/GEN1/RAD51C/MSH2 dupliqués vs 1 copie, TXN 5 vs 2, BMP7 8/5/3, taux 3,77x sur ~1000 gènes, réserves des auteurs (distance phylogénétique, qualité des assemblages) confirmées mot pour mot. Piraino 1996 (JSTOR/uchicago) et The Scientist toujours inaccessibles depuis cette session (réseau restreint, hors domaines autorisés), comme au premier passage ; le corps de la fiche ne cite aucune de ces deux sources mot pour mot, seulement en paraphrase attribuée. Carte et quiz conformes aux sources vérifiées. Deuxième passage indépendant, confirme le premier."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-13",

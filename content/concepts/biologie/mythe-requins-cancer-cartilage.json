@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-15T10:15:24.087Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-15T10:15:24.087Z",
+        "note": "Lu et al. 2010 (JNCI, academic.oup.com) rouvert : 379 patients (188/191), survie médiane 14,4 vs 15,6 mois (IC95 12,6-17,9 et 13,8-18,1), p=0,73, recrutement interrompu en février 2006 faute d'effectif - confirmé exactement. Madsen et al. 2017 (PMC7149733) rouvert : citation 'sharks have been claimed to be resistant to cancer. Recent studies have, however, shown that even these species may develop cancer' confirmée mot pour mot, cas chez le requin bleu (cholangiocarcinome, mésothéliome testiculaire) confirmés, grand requin blanc correctement présenté comme lésions prolifératives possiblement néoplasiques. Ostrander 2004 (aacrjournals.org, PubMed) toujours inaccessible depuis cette session (réseau restreint) comme au premier passage ; le chiffre de 42 cas reste corroboré par les deux synthèses indépendantes déjà citées, non recoupé en texte intégral par aucun des deux passages. Carte et quiz conformes aux sources vérifiées. Deuxième passage indépendant, confirme le premier."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-13",
