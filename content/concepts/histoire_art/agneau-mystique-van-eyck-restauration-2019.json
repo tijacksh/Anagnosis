@@ -60,9 +60,22 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
-  "validation": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-16T22:13:24.705Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-16T22:13:24.705Z",
+        "note": "Sources rouvertes indépendamment du contrôle : Van der Snickt et al. 2020 (via PMC7439313) confirme deux jeux de narines (MA-XRF) et deux jeux d'yeux (RIS), l'un eyckien tourné vers le spectateur, l'autre du repeint du 16e siècle tourné vers l'extérieur. Smithsonian Magazine (2019) confirme l'attribution au KIK-IRPA et la restauration qualifiée de « widely mocked » ; recherche complémentaire (Hyperallergic, Artnet, Know Your Meme) confirme la moquerie massive sur les réseaux sociaux (tweets, memes, compte parodique), ce qui soutient le passage du corps sur la réaction du public. Carte, repère et quiz conformes. Rien à corriger."
+      }
+    ]
+  },
   "controle": {
     "fait_le": "2026-11-14",
     "verdict": "ok",

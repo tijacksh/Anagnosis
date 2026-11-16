@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-16T22:13:24.327Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-16T22:13:24.327Z",
+        "note": "Sources rouvertes indépendamment du contrôle : Lee et al. 2003 (PDF téléchargé et extrait via pdftotext) confirme mot pour mot l'abstract — 70% (62/89) espèces contenant de l'anthocyane en sénescence, et la phrase « negatively correlated to anthocyanin concentrations in senescent leaves, weak evidence for more efficient nitrogen resorption », correspondant exactement au repère. Hamilton & Brown 2001 (PMC1088768, WebFetch) confirme le signal coûteux adressé aux pucerons et la prédiction d'une coloration plus intense chez les espèces les plus exposées. Schaefer & Rolshausen 2006 (PMC2373801, WebFetch) confirme le dispositif (29 sorbiers, Fribourg-en-Brisgau, 35-60% des feuilles vernies), F<1,26 p>0,1 pour la couleur, F=0,2 p>0,5 entre arbres, corrélation fruits/infestation r=0,83 p<0,001, et la conclusion des auteurs rejetant le signal visuel de Hamilton & Brown. Carte, repère et quiz conformes. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-14",
