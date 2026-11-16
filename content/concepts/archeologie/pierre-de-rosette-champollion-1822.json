@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Ptolémée et Cléopâtre sont des noms grecs : leur transcription phonétique pouvait rester une exception réservée aux souverains étrangers, comme le pensait Young. C'est le nom égyptien de Ramsès, sans lien avec la Grèce, qui a montré que le système phonétique appartenait à l'écriture égyptienne elle-même.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -100,12 +100,21 @@
       "statut": "valide"
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-16T04:59:41.053Z",
+    "historique": [
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-11-16T04:59:41.053Z",
+        "note": "Sources rouvertes : en.wikipedia Rosetta_Stone, Lettre_à_M._Dacier, Jean-François_Champollion (texte brut), fr.wikipedia Jean-François_Champollion ; Gallica refuse la requête (403), notice BnF non rouverte. Thèse non soutenue : le titre, l'accroche, la carte, le déplacement et les quiz disent que Champollion a établi que le texte hiéroglyphique traduit le grec. Aucune source ne l'affirme ; Rosetta Stone dit que l'ordre de rédaction des trois versions reste controversé (Letronne 1841 : le grec serait l'original ; Derchain et Thissen : rédaction simultanée ; Ray : les hiéroglyphes d'abord). La thèse tombe, et avec elle tout le déplacement. Le mécanisme (Young limite le phonétique aux noms étrangers, cartouche de Ramsès comme preuve décisive) n'est pas non plus soutenu : les sources donnent la lecture du signe ms (naissance) comparée au grec et au copte, sur des textes d'Abou Simbel, et Thoutmôsis identifié mais non lu par Young. Reprendre ce récit en rédigeant une fiche nouvelle sur la percée du 14 septembre 1822 serait du contenu neuf, hors du cadre d'une réparation."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-16",
