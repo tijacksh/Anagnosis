@@ -100,10 +100,21 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-16",
+    "verdict": "a_revoir",
+    "empreinte": "40ebcde44ba77405",
+    "notes": [
+      "Erreur de fond dans « Le déplacement » : la fiche attribue à Letronne (1841) la thèse d'une rédaction concertée des trois versions du décret. Or Wikipédia (Rosetta Stone) dit l'inverse : « Letronne attempted to show in 1841 that the Greek version […] was the original » — Letronne soutenait la primauté du grec, pas une composition simultanée. La thèse d'une rédaction concertée est attribuée par cette même source à Derchain et Thissen, pas à Letronne. À corriger : soit citer la vraie thèse de Letronne (primauté du grec), soit attribuer la thèse de rédaction concertée à ses vrais auteurs. Par ailleurs, le cœur du « mécanisme » (Young limitant la valeur phonétique aux noms étrangers, le cartouche de Ramsès comme preuve décisive le 14 septembre 1822) n'est confirmé par aucune des sources citées dans la fiche : ni Lettre à M. Dacier (Wikipédia) ni Rosetta Stone (Wikipédia) ne mentionnent Young ni Ramsès à cet endroit. Wikipédia (Jean-François Champollion) raconte la percée du 14 septembre différemment : lecture du signe phonétique « ms » (naissance) sur des textes d'Abou Simbel comparés aux mentions de naissance dans le texte grec, le nom de Thoutmôsis identifié mais non lu par Young — pas le cartouche de Ramsès comparé à l'alphabet déjà établi. À vérifier et resourcer précisément avant de remettre en circulation : quelle est la version exacte et sourcée de la percée du 14 septembre, et quelle source dédiée l'établit."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-15",
