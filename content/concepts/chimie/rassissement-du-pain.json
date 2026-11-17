@@ -1,0 +1,86 @@
+{
+  "id": "chi-rassissement-du-pain",
+  "slug": "rassissement-du-pain",
+  "titre": "Le pain rassit sans avoir vraiment séché",
+  "accroche": "Un pain fermé dans son sac ne perd presque pas d'eau, et pourtant il durcit. Ce n'est pas le dessèchement qui le rend dur : c'est son amidon qui recristallise.",
+  "discipline": "chimie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Un pain acheté la veille, laissé dans son sac fermé, est déjà dur le lendemain matin. Le sac n'a pourtant laissé passer presque aucune humidité. L'explication la plus répandue, « il a séché », ne tient pas face à ce simple fait : un pain qui ne perd presque pas d'eau durcit tout de même, et vite.\n\n## Un amidon qui se réorganise, pas une mie qui s'assèche\n\nPendant la cuisson, la chaleur désorganise les grains d'amidon de la farine : leurs chaînes de glucose, l'amylose et l'amylopectine, perdent la structure ordonnée qu'elles avaient dans le grain cru. C'est ce désordre qui donne à la mie fraîche sa texture souple. En refroidissant puis en vieillissant, ces chaînes font le chemin inverse : elles se réassocient en structures plus ordonnées, un phénomène que les chimistes appellent la rétrogradation. Une étude publiée en 2016 dans *Scientific Reports* décrit précisément cette transition comme un passage du désordre à l'ordre, avec apparition de cristaux dits de type B, moins stables et moins ordonnés que les cristaux d'amidon natif, mais bien réels.\n\nLe processus se déroule en deux temps distincts. L'amylose se réorganise la première, en quelques heures, et fixe l'armature initiale de la mie. L'amylopectine, elle, se recristallise beaucoup plus lentement, sur plusieurs jours, et c'est elle qui conduit le durcissement progressif qu'on associe au rassissement. Une étude de 2016 sur du pain composite montre que des pains dont la perte d'eau était pourtant comparable durcissaient à des vitesses très différentes, un signe que la fermeté ne suit pas simplement la quantité d'eau perdue.\n\n## Le réflexe du réfrigérateur, exactement à l'envers\n\nLe détail le plus utile tient dans une étude de 2011 sur la température de conservation. Trois conditions sont comparées, pain à température ambiante, pain réfrigéré à 4 degrés, pain congelé à moins 18 degrés. La rétrogradation est la plus rapide des trois à 4 degrés, exactement la température d'un réfrigérateur domestique. Au congélateur, en revanche, les cristaux déjà formés peuvent croître mais aucun nouveau ne se forme, et la quantité d'eau disponible reste stable pendant les trois semaines de l'expérience.\n\nLe réflexe qui consiste à mettre le pain au réfrigérateur pour le préserver produit donc l'effet inverse de celui qu'on recherche : cette plage de température est précisément celle où l'amidon recristallise le plus vite. Un pain laissé sur le plan de travail rassit moins vite qu'un pain mis au frais, et un pain congelé dès l'achat rassit à peine. Ce n'est pas l'intuition sur l'eau qui était fausse, c'est l'intuition sur le froid.",
+  "citation": null,
+  "repere": {
+    "texte": "En comparant pain à température ambiante, pain réfrigéré à 4 degrés et pain congelé à moins 18 degrés, une étude de 2011 montre que la recristallisation de l'amidon est la plus rapide des trois à 4 degrés, la température d'un réfrigérateur domestique ; au congélateur, l'activité de l'eau reste quasiment stable pendant les 23 jours de l'expérience.",
+    "source": "Aguirre, M. J. et al., « Effect of storage temperature on starch retrogradation of bread staling », Starch/Stärke, vol. 63, n°9, 2011, p. 587-593",
+    "url": "https://doi.org/10.1002/star.201100023"
+  },
+  "carte": {
+    "punch": "Le pain ne rassit pas en séchant : son amidon se recristallise, même dans un sac fermé.",
+    "idee": "On croit que le pain durcit parce qu'il perd son eau. En réalité, l'amidon cuit se réorganise peu à peu en cristaux, surtout l'amylopectine, sur plusieurs jours. Et le réfrigérateur, à quatre degrés, est justement la température où cette recristallisation va le plus vite.",
+    "source_courte": "Eduardo et al., 2016 ; Aguirre et al., 2011"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Eduardo, Maria ; Svanberg, Ulf ; Ahrné, Lilia",
+      "titre": "Effect of hydrocolloids and emulsifiers on the shelf-life of composite cassava-maize-wheat bread after storage",
+      "publication": "Food Science & Nutrition, vol. 4, n°4, p. 636-644",
+      "annee": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4930506",
+      "note": "Texte intégral lu directement. Distingue la rétrogradation à court terme de l'amylose, qui fixe l'armature initiale, de celle à long terme de l'amylopectine, beaucoup plus lente ; note que des pains à perte d'eau comparable durcissaient à des vitesses différentes."
+    },
+    {
+      "type": "article",
+      "auteur": "Wang, Shujun ; Li, Caili ; Zhang, Xiu ; Copeland, Les ; Wang, Shuo",
+      "titre": "Retrogradation enthalpy does not always reflect the retrogradation behavior of gelatinized starch",
+      "publication": "Scientific Reports, vol. 6, article 20965",
+      "annee": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4748231",
+      "note": "Texte intégral lu directement. Décrit la rétrogradation comme une transition du désordre à l'ordre, avec apparition de cristaux de type B, moins ordonnés et moins stables que les cristaux de l'amidon natif."
+    },
+    {
+      "type": "article",
+      "auteur": "Aguirre, M. J. ; Osella, C. A. ; Carrara, C. R. ; Sánchez, H. D. ; Buera, M. P.",
+      "titre": "Effect of storage temperature on starch retrogradation of bread staling",
+      "publication": "Starch/Stärke, vol. 63, n°9, p. 587-593",
+      "annee": 2011,
+      "url": "https://doi.org/10.1002/star.201100023",
+      "note": "Résumé et données consultés : comparaison de trois températures de conservation, rétrogradation la plus rapide à 4 degrés, croissance de cristaux déjà formés mais pas de nouveaux cristaux à moins 18 degrés."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « densité graduée », encre #67B346 (chimie). Une rangée de petits carrés identiques en aplat noir, espacés au départ, qui se rapprochent et s'empilent progressivement vers un bord jusqu'à former un bloc compact dans l'encre de discipline. Aucun dégradé, contours nets, léger hors-repérage sur l'encre de discipline. Asymétrie franche, le bloc compact déborde du cadre.",
+    "alt": "Des carrés noirs espacés qui se densifient progressivement jusqu'à former un bloc compact coloré",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi un pain conservé au réfrigérateur rassit-il plus vite qu'un pain laissé à température ambiante ?",
+    "choix": [
+      "Parce que le froid du réfrigérateur accélère l'évaporation de l'eau contenue dans la mie",
+      "Parce que cette température est précisément celle où l'amylopectine de l'amidon recristallise le plus vite",
+      "Parce que le réfrigérateur favorise le développement de moisissures qui durcissent la mie",
+      "Parce que l'air du réfrigérateur est plus sec que l'air ambiant d'une cuisine"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Une étude de 2011 a comparé pain à température ambiante, réfrigéré et congelé : la recristallisation de l'amidon, qui durcit la mie, est la plus rapide à quatre degrés, la température typique d'un réfrigérateur domestique.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-11-17",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
