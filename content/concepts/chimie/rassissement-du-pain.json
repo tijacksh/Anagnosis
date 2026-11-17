@@ -60,21 +60,30 @@
     "question": "Pourquoi un pain conservé au réfrigérateur rassit-il plus vite qu'un pain laissé à température ambiante ?",
     "choix": [
       "Parce que le froid du réfrigérateur accélère l'évaporation de l'eau contenue dans la mie",
-      "Parce que cette température est précisément celle où l'amylopectine de l'amidon recristallise le plus vite",
+      "Parce que cette température est précisément celle où l'amidon recristallise le plus vite",
       "Parce que le réfrigérateur favorise le développement de moisissures qui durcissent la mie",
       "Parce que l'air du réfrigérateur est plus sec que l'air ambiant d'une cuisine"
     ],
     "bonne_reponse": 1,
     "explication": "Une étude de 2011 a comparé pain à température ambiante, réfrigéré et congelé : la recristallisation de l'amidon, qui durcit la mie, est la plus rapide à quatre degrés, la température typique d'un réfrigérateur domestique.",
-    "statut": "brouillon"
+    "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-17T22:12:42.712Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-17T22:12:42.712Z",
+        "note": "Sources rouvertes : Eduardo et al. 2016 (PMC, texte intégral, WebFetch) confirme la distinction amylose court terme/amylopectine long terme ('the amylose is responsible for setting the initial network structure but is not involved in long-term staling', 'the long-term change after 4 days of storage is therefore attributed to the amylopectin fraction') et des pains à perte d'eau globalement comparable mais fermeté différente à 4 jours (33,4 N vs 12,4 N) ; Wang et al. 2016 Scientific Reports (PMC, texte intégral, WebFetch) confirme mot pour mot la transition désordre-ordre, les cristaux de type B, et des cristallites moins ordonnés et moins stables que l'amidon natif ; Aguirre et al. 2011 (DOI Wiley, toujours inaccessible dans cet environnement - onlinelibrary.wiley.com hors domaines autorisés -, recoupé via WebSearch sur abstract/notices bibliographiques indépendant du contrôle précédent) confirme rétrogradation la plus rapide à 4°C et activité de l'eau quasi stable à -18°C pendant 23 jours. Corrigé : le choix correct du quiz attribuait la vitesse de recristallisation à 4°C spécifiquement à l'amylopectine, affirmation plus précise que ce qu'établit Aguirre (qui ne décompose pas amylose/amylopectine) et incohérente avec l'explication du même quiz qui dit déjà 'l'amidon' ; ramené à 'l'amidon' dans le choix correct, correction appliquée juste après cette décision. Carte et repère vérifiés mot pour mot contre les sources, cohérents."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-17",
