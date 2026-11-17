@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Le protocole à l'aveugle, avec des échantillons témoins d'âge déjà connu mêlés à celui du Suaire, protège la mesure de tout biais d'attente. Les trois autres propositions ne correspondent pas au protocole décrit par l'article de 1989 ni par les sources qui le détaillent.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -92,12 +92,21 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-17T10:18:19.552Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-17T10:18:19.552Z",
+        "note": "Sources rouvertes. Nature 337611a0 confirmé (titre, 16 février 1989, 21 auteurs, labos Oxford/Arizona/Zurich, spectrométrie de masse par accélérateur, citation exacte « The results provide conclusive evidence that the linen of the Shroud of Turin is mediaeval. », trois échantillons témoins d'âge connu). Wikipédia (Shroud of Turin) confirme 1260-1390 à 95%, Rogers 2005, réfutation de la contamination biologique, réanalyses 2012/2020. MAIS point bloquant trouvé par recoupement indépendant (en.wikipedia.org/wiki/Radiocarbon_dating_of_the_Shroud_of_Turin, qui documente le protocole en détail à partir des lettres de Gove à Nature) : le protocole en aveugle décrit par la fiche comme le cœur du mécanisme (« Aucun des trois laboratoires ne savait, au moment de la mesure, s'il tenait l'échantillon du Suaire ou l'un des témoins ») est inexact. Un test en aveugle était prévu par le protocole de Turin de 1986, mais explicitement abandonné dans le protocole final d'avril 1988 (le tissage en chevrons du Suaire ne pouvait pas être reproduit dans des témoins indiscernables) ; le protocole final rendait au contraire les témoins « clairement distinguables » de l'échantillon du Suaire, si bien qu'un laboratoire pouvait identifier lequel était lequel. Ce point n'est pas une coquille : il porte sur le mécanisme central de la fiche (§2 du corps) et sur la totalité du quiz principal, qui pose la question et l'explication sur cette même prémisse inexacte. Correction nécessaire : réécrire le passage sur le protocole (ce qui a réellement protégé la mesure : recodage des échantillons après combustion à Oxford et Zurich, absence des représentants des laboratoires lors du conditionnement — à vérifier plus avant sur source primaire) et remplacer le quiz principal, qui ne peut pas être conservé tel quel. Carte et citation, en revanche, ne reposent pas sur ce point et restent fidèles aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-16",
