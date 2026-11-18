@@ -1,0 +1,84 @@
+{
+ "id": "epi-affaire-benveniste",
+ "slug": "affaire-benveniste",
+ "langue": "en",
+ "empreinte_fr": "cb2e190bc13e9589",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Titre du rapport publié dans Nature le 28 juillet 1988, donné en français (« Une illusion à haute dilution ») ; traduit depuis le français, le titre anglais original n'est pas sous les yeux."
+  }
+ ],
+ "titre": "The Benveniste Affair",
+ "accroche": "A biological effect holds up in three trials out of four, then vanishes as soon as a magician comes to recode the tubes in secret.",
+ "contenu_vulgarise": "On June 30, 1988, the journal *Nature* publishes an article signed by thirteen researchers, including laboratories in France, Israel, Italy, and Canada, under the direction of the immunologist Jacques Benveniste. Their result: human basophils, a type of blood cell, still degranulate on contact with an antibody diluted to the point that, statistically, not a single molecule of it remains. Water, they seem to say, would retain the memory of what it once contained.\n\n## The Visit\n\nThe editor of *Nature*, John Maddox, a physicist by training, agrees to publish only on a condition that is already unusual: that other laboratories, in Israel and Canada, have themselves obtained the result with their own procedures before printing. Once the article is out, a second condition is added: a team will come to check the protocol on site. A week after publication, Maddox goes to Benveniste's laboratory, accompanied by the chemist Walter Stewart, a specialist in scientific fraud, and the magician James Randi, invited for his trained eye for involuntary gestures. Of the first four trials, run without changing the laboratory's habits, everyone knowing which tube contains what, three confirm the announced effect, as in the earlier trials; only one departs from it. The team, not satisfied with the rigor of the protocol, then imposes a strict double-blind protocol: the laboratory notebooks are photographed, the procedures filmed, the tubes recoded in secret (Randi himself seals the codes and tapes them to the ceiling), and no one in the room, not even Benveniste, knows any longer which one contains the diluted antibody and which contains only water. The next three trials, carried out by the same hands, with the same equipment, show nothing at all.\n\n## What It Shifts\n\nThe report, published in *Nature* on July 28, 1988, under the title “An Illusion at High Dilution,” says nothing about fraud at any point. It points to a more ordinary bias: the person who counted the degranulated cells under the microscope knew, in the first trials, what result they expected to find, and the count bore the trace of it, without their being aware of it. A test that does not rule out what the experimenter already believes tests nothing; it reproduces a belief. This is exactly the requirement that a test must run a real risk of failure to count as proof, verified here live: as soon as the possibility of being wrong becomes real again, the effect vanishes, with no need to speak of cheating to explain it, which makes the episode more uncomfortable to admit than a simple fraud that one would only have to denounce.",
+ "citation": {
+  "texte": "There are good and particular reasons why prudent people should, for the time being, suspend judgement.",
+  "auteur": "John Maddox",
+  "source": "“When to believe the unbelievable” (editorial), Nature, vol. 333, p. 787, June 30, 1988",
+  "url": "https://www.nature.com/articles/333787a0"
+ },
+ "carte": {
+  "punch": "Three trials out of four confirm the effect, which vanishes in the three trials with recoded tubes.",
+  "idee": "In 1988, Nature publishes a study claiming that water retains the memory of an antibody diluted out of existence. An on-site recheck, with a magician to spot biases, makes the effect vanish in all three strict double-blind trials, after three positive trials out of four.",
+  "source_courte": "Maddox, Randi, Stewart, Nature, 1988"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Nature — “When to believe the unbelievable”",
+   "url": "https://www.nature.com/articles/333787a0",
+   "note": "John Maddox's editorial accompanying the 1988 publication, which already voices its reservations."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the effect observed by Benveniste's team disappear once the double-blind protocol is put in place?",
+  "choix": [
+   "Because the new tubes used in the second trial contained a different dilution",
+   "Because James Randi knowingly altered the samples during the experiment",
+   "Because Nature demanded that the cells' incubation time be shortened",
+   "Because the observer, now unaware of which tube was being tested, could no longer steer the count"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The equipment and the dilution stay the same from one trial to the next, Randi only supervised the coding without touching the samples, and the incubation time is not at issue. The only thing that changes is what the observer knows at the moment of counting: deprived of that information, the count stops confirming what was expected.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What condition does John Maddox impose before agreeing to publish Benveniste's article?",
+   "choix": [
+    "That Benveniste personally pay for the verification team's travel",
+    "That the article be officially co-signed by John Maddox himself",
+    "That other laboratories, in Israel and Canada, have reproduced the result before printing",
+    "That the experiment be entirely redone at a different temperature"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Maddox agrees to publish only on condition that independent laboratories in Israel and Canada themselves obtain the effect with their own procedures before the article appears."
+  },
+  {
+   "question": "How many researchers sign the 1988 article, and in which countries are their laboratories located?",
+   "choix": [
+    "Six researchers, all in the same laboratory in France",
+    "Thirteen researchers, in laboratories in France, Israel, Italy, and Canada",
+    "Twenty researchers, in laboratories in France, Germany, and the United States",
+    "Thirteen researchers, all affiliated with the Institut Pasteur"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The June 1988 article is signed by thirteen researchers, including laboratories in France, Israel, Italy, and Canada, under the direction of Jacques Benveniste."
+  },
+  {
+   "question": "Who makes up the team sent to check the protocol on site, and what is James Randi's role?",
+   "choix": [
+    "Walter Stewart alone, as a specialist in scientific fraud",
+    "James Randi alone, tasked with redoing the experiment in place of the laboratory's researchers",
+    "John Maddox and a team of Nature journalists who came to film the experiment",
+    "John Maddox, Walter Stewart, and James Randi, invited for his trained eye for involuntary gestures"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The verification team brings together John Maddox, the chemist Walter Stewart, and the magician James Randi, invited to spot any involuntary gestures that other scientists would not have known how to detect."
+  }
+ ]
+}

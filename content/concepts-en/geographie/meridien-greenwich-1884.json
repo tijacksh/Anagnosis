@@ -1,0 +1,71 @@
+{
+ "id": "ggr-meridien-greenwich-1884",
+ "slug": "meridien-greenwich-1884",
+ "langue": "en",
+ "empreinte_fr": "dcc4285cbcc8f562",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Résolution Lefaivre, International Meridian Conference, 1884 (« neutralité absolue » ; « aucun grand continent, ni l'Europe ni l'Amérique »)"
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Loi française de 1911 sur l'heure légale (« heure de Paris, retardée de neuf minutes vingt et une secondes »)"
+  }
+ ],
+ "titre": "The Greenwich Meridian, a Line Settled by a Vote of 22 to 1",
+ "accroche": "In 1884, twenty-five nations vote in Washington to designate a prime meridian. France abstains and will not adopt it until twenty-seven years later.",
+ "contenu_vulgarise": "In 1884, a traveler crossing Europe by train changes reference meridian at almost every border: French maps count from Paris, British maps from Greenwich, others from Cádiz, Rome, or Saint Petersburg. Each country has its own zero point for longitude, which never posed a problem as long as maps did not circulate; but the telegraph and the railroad have just made a common time and a common longitude indispensable.\n\n## The Mechanism\n\nIn October 1884, forty-one delegates from twenty-six nations meet in Washington for the International Meridian Conference. The decisive vote comes on October 13: twenty-two votes for Greenwich, only one against, San Domingo, and two abstentions, France and Brazil. The argument that wins out is not scientific at all: the American commander Sampson reminds the session that more than 70% of the world's shipping tonnage is already sailing on charts set to Greenwich, a legacy of Britain's commercial dominance in the 19th century. Adopting another meridian would have meant redrawing nearly all the nautical charts in circulation.\n\n## The Shift\n\nThe French delegation, for its part, rejects this pragmatic reasoning. The diplomat Alfred Lefaivre files a resolution calling for a meridian of “absolute neutrality” that crosses “no great continent, neither Europe nor America”: a bit like the meter, founded on a measurement of the Earth rather than on a country. The astronomer Jules Janssen, the second French delegate, develops the argument in a long speech and proposes two genuinely neutral locations: near the Azores, or over the North Pacific. France refuses to let a de facto maritime preponderance settle a question it believes should be decided by scientific principle alone. France keeps its official maps on the Paris meridian for nearly thirty years, and does not adopt Greenwich as the reference for universal time until 1911: even then, it takes care not to utter the name Greenwich: French law speaks at that point of “Paris time, retarded by nine minutes twenty-one seconds.” It will not be until 1978 that France abandons this formula and adopts the common vocabulary of “coordinated universal time.”\n\nThe episode shifts an assumption: a universal standard is anything but neutral in its origin. The Greenwich meridian did not prevail because it cut the Earth at a privileged spot (geometrically, any meridian would do just as well), but because a maritime power had, decades earlier, de facto imposed its reference on most of world trade. The 1884 vote merely ratified a balance of power already in place, which is also, in its way, the story of many technical standards that win out today through use before being ratified by a committee.",
+ "repere": {
+  "texte": "On October 13, 1884, the International Meridian Conference, meeting in Washington, adopts Greenwich as the prime meridian by twenty-two votes to one, that of San Domingo, with two abstentions, France and Brazil.",
+  "source": "Wikipedia, “International Meridian Conference”",
+  "url": "https://en.wikipedia.org/wiki/International_Meridian_Conference"
+ },
+ "carte": {
+  "punch": "In 1884, twenty-two countries choose Greenwich as the prime meridian. France abstains.",
+  "idee": "On October 13, 1884, the Washington conference adopts Greenwich as the world reference meridian, by majority vote. France, which had called for a neutral meridian rather than a national one, abstains and does not adopt Greenwich for its official time until 1911.",
+  "source_courte": "Int. Meridian Conference, 1884"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why was Greenwich chosen as the prime meridian in 1884, rather than a meridian considered more neutral?",
+  "choix": [
+   "Because it crosses the largest number of countries taking part in the conference",
+   "Because an international scientific institute had already measured its position with the greatest precision",
+   "Because more than 70% of the world's shipping tonnage was already sailing on charts set to Greenwich",
+   "Because Great Britain had threatened to leave the conference if another meridian was chosen"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The choice did not follow a geometric or scientific criterion: it was the pragmatic argument of the dominance of British nautical charts, already used by most of world trade, that carried the decision, which is precisely what France contested in calling for a neutral meridian.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In the October 13, 1884 vote at the Washington conference, which country votes alone against adopting Greenwich as the prime meridian?",
+   "choix": [
+    "France",
+    "San Domingo",
+    "Brazil",
+    "Spain"
+   ],
+   "bonne_reponse": 1,
+   "explication": "France and Brazil abstain, but only the San Domingo delegation votes against adopting Greenwich as the prime meridian, out of the twenty-five votes cast that day."
+  },
+  {
+   "question": "What does the French diplomat Alfred Lefaivre call for in the resolution he files at the 1884 conference?",
+   "choix": [
+    "A meridian fixed at the exact point where the transatlantic telegraph cable comes ashore",
+    "Keeping the Paris meridian as the single reference for all nations",
+    "A unanimous vote rather than a simple majority to legitimize the final choice",
+    "A meridian of absolute neutrality, crossing no great continent, neither Europe nor America"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Lefaivre refuses to let a national meridian win out by a mere balance of power and calls for a neutral line, on the model of the meter, based on a measurement of the Earth rather than on a country."
+  }
+ ]
+}

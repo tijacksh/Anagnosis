@@ -1,0 +1,77 @@
+{
+ "id": "chi-conservation-de-la-masse",
+ "slug": "conservation-de-la-masse",
+ "langue": "en",
+ "empreinte_fr": "1c32251a48985a34",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Theory Fell on a Scale",
+ "accroche": "A calcined metal weighs more than before. It took weighing the air trapped in the vessel to understand why",
+ "contenu_vulgarise": "In the mid-18th century, chemistry explains combustion through phlogiston. Every combustible body is supposed to contain this substance, which it releases as it burns. Wood burns well because it is rich in it; ash, depleted, no longer burns.\n\nThe theory is coherent, it explains a great deal, and it runs into an awkward fact. When a metal is calcined, the residue weighs *more* than the original metal. If combustion releases something, the mass should go down.\n\nDefenders of phlogiston then propose that it has negative mass. The theory survives the objection by making itself harder to refute.\n\n## What the scale changes\n\nAntoine Lavoisier works differently. He weighs everything: the reactants, the products, and above all the air enclosed in the vessel.\n\nThat is the decisive point. His predecessors worked in the open air, where gases come and go and nobody counts them. Lavoisier works in a sealed vessel and weighs the whole system before and after.\n\nThe result is constant. The total mass does not change. The calcined metal gains exactly what the enclosed air loses.\n\nSo there is nothing to release: there is something to fix in place. Combustion is a combination, with a component of air that Lavoisier names oxygen.\n\n## The principle, and its reach\n\nThe *Traité élémentaire de chimie* (Elementary Treatise on Chemistry), published in 1789, states what the scale demands: nothing is lost, nothing is created, the quantity of matter is the same before and after every operation.\n\nPut that way, the statement seems obvious. It was not. It turns every reaction into an equation whose two sides must balance, and brings chemistry into the world of bookkeeping.\n\nThe same book settles another matter. In it, Lavoisier defines an element as what cannot be decomposed, an operational and revisable definition that replaces the four elements inherited from Antiquity with a list of substances actually isolated.\n\n## What the episode teaches about theories\n\nPhlogiston was not nonsense. It correctly organized a family of phenomena, and it was defended by first-rate chemists: Priestley, who isolated oxygen before Lavoisier, died a phlogistonist.\n\nWhat won out was not a decisive experiment. It was a change in what people agreed to count. As long as gases escape measurement, both theories can accommodate the facts. Once they go on the scale, only one is left standing.\n\nA theory does not fall because it explains poorly. It falls when people start measuring what it left out of the account.",
+ "repere": {
+  "texte": "The *Traité élémentaire de chimie* (Elementary Treatise on Chemistry, 1789) establishes that the quantity of matter remains equal before and after any operation, and makes this principle the foundation of all experimental chemistry.",
+  "source": "Lavoisier, *Traité élémentaire de chimie*, Cuchet, Paris, 1789",
+  "url": "https://www.gutenberg.org/ebooks/52487"
+ },
+ "carte": {
+  "punch": "Phlogiston didn't fall to an experiment. It fell to a scale.",
+  "idee": "Calcining a metal makes it heavier, an embarrassment for a theory that says burning means losing something. Lavoisier weighs in a sealed vessel, air included: the total mass does not change. It is not a loss. It is a combination.",
+  "source_courte": "Lavoisier, *Traité de chimie* (Treatise on Chemistry), 1789"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Lavoisier — *Traité élémentaire de chimie* (Elementary Treatise on Chemistry), Vol. 1 (Project Gutenberg)",
+   "url": "https://www.gutenberg.org/ebooks/52487",
+   "note": "The 1789 text; the preliminary discourse can be read with no background in chemistry."
+  }
+ ],
+ "quiz": {
+  "question": "How did Lavoisier expose the flaw in the phlogiston theory?",
+  "choix": [
+   "By weighing in a sealed vessel, air included, what his predecessors had left out of the account",
+   "By showing that some bodies burn without giving off any heat at all",
+   "By isolating oxygen, which no one had managed to obtain before him",
+   "By demonstrating that phlogiston could not have negative mass"
+  ],
+  "bonne_reponse": 0,
+  "explication": "As long as work is done in the open air, gases come and go uncounted, and both theories accommodate the observations. Sealing the reaction and weighing the whole system shows that the metal gains what the air loses. Oxygen, for its part, had already been isolated by Priestley, who remained a phlogistonist to the end.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What awkward fact did the phlogiston theory struggle to explain?",
+   "choix": [
+    "Burned wood produces more ash than the wood it started as",
+    "Calcined metals change color without changing weight",
+    "A calcined metal weighs more than the original metal, before calcination",
+    "Burning wood gives off a different smell depending on the species used"
+   ],
+   "bonne_reponse": 2,
+   "explication": "If combustion releases phlogiston, the mass of the residue should decrease, yet the calcined metal weighs more, which contradicts the theory without refuting it right away."
+  },
+  {
+   "question": "How did the defenders of phlogiston first try to save their theory from the weight objection?",
+   "choix": [
+    "By claiming that Lavoisier's scale was poorly calibrated",
+    "By proposing that calcination releases a lighter gas",
+    "By maintaining that only wood contains phlogiston, not metals",
+    "By proposing that phlogiston has negative mass"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Rather than abandon the theory, its defenders supposed that phlogiston could have negative mass, which made the objection refutable in appearance only."
+  },
+  {
+   "question": "What does Lavoisier do with the definition of a chemical element in his 1789 *Traité élémentaire de chimie* (Elementary Treatise on Chemistry)?",
+   "choix": [
+    "He keeps the four elements inherited from Antiquity, redefining them",
+    "He defines an element as what cannot be decomposed, a revisable list",
+    "He proposes that every element is in reality made of pure phlogiston",
+    "He gives up on defining the element at all, judging it impossible to pin down"
+   ],
+   "bonne_reponse": 1,
+   "explication": "This operational definition replaces the four elements inherited from Antiquity with a list of substances actually isolated, which experiment can revise."
+  }
+ ]
+}

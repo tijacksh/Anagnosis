@@ -1,0 +1,77 @@
+{
+ "id": "bio-deinococcus-radiodurans",
+ "slug": "deinococcus-radiodurans-genome-pulverise",
+ "langue": "en",
+ "empreinte_fr": "fb61d522b39a330f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Bacterium That Glues Its Shattered Genome Back Together",
+ "accroche": "In 1956, a can of meat supposedly sterilized by irradiation harbored a living bacterium, able to stitch its shattered DNA back together.",
+ "contenu_vulgarise": "In 1956, scientists describe a bacterium discovered as a contaminant in a can of ground meat. The meat had been exposed to a high dose of ionizing radiation, meant to sterilize it, and the bacterium had survived. It now bears the name Deinococcus radiodurans.\n\nThe numbers give the measure of the anomaly. A dose of 5 to 10 grays is enough to kill most vertebrates, humans included, and a few hundred grays kill most known bacterial species, Escherichia coli among them. Deinococcus radiodurans, for its part, loses no viability up to 5,000 grays, 500 to 1,000 times the lethal dose for humans. At that intensity, its genome does not stay intact: such a dose reduces the genome of any bacterium to hundreds of fragments, with hundreds of double-strand breaks in the DNA. Deinococcus does not escape this. It recovers from it.\n\n## A Genome Stitched Back Together in a Few Hours\n\nWhat sets this bacterium apart, then, is not that it avoids the damage: it is that it repairs it. Researchers describe the reconstitution of the genome in two phases. In the first, enzymes that chew back the DNA expose long single-stranded segments. These strands lodge themselves in other fragments that resemble them, with the help of proteins such as RecA, and serve as primers for extensive DNA synthesis; the new strands then pair up. In the second, a more classic mechanism for repairing double-strand breaks, also guided by RecA, assembles the large segments. In three to four hours, overlapping fragments are thus joined end to end into complete chromosomes, and the cells resume normal growth.\n\nThis feat does not rest on a novel repair pathway. According to Michael Cox and his colleagues, the bacterium relies mainly on recombination functions present in almost all species, tweaked and supplemented by a few innovations. Its DNA, more condensed than that of sensitive bacteria, might also help by limiting the diffusion of fragments.\n\n## Radiation Probably Does Not Explain the Resistance\n\nBacteria of the genus Deinococcus have been isolated from varied environments, notably the soils of hot and cold deserts, where dryness is a common constraint.\n\nIn 1996, a study by Valerie Mattimore and John Battista subjects 41 strains of Deinococcus radiodurans, made sensitive to radiation, to six weeks of desiccation. All lose a substantial share of their viability compared with the wild-type strain, and the DNA of the dried cultures accumulates double-strand breaks over time. The authors conclude that radiation resistance is incidental, a consequence of the bacterium's adaptation to a common physiological stress, dehydration. A 2019 review points the same way: the same set of genes switches on after irradiation or desiccation, and both insults damage DNA and cause oxidative stress. Radiation resistance would thus probably be a side effect of an adaptation to dryness.\n\nAnother living being points toward the same idea. Bdelloid rotifers, tiny animals able to resume reproduction after desiccation, resist ionizing radiation extraordinarily well, far better than rotifers that cannot tolerate desiccation. The authors of the study propose the same explanation, by analogy with Deinococcus.",
+ "repere": {
+  "texte": "Deinococcus radiodurans loses no viability after exposure to 5,000 grays, whereas 5 to 10 grays are enough to kill most vertebrates, humans included, a resistance factor of 500 to 1,000 times.",
+  "source": "Lim, Jung, Blanchard & de Groot, “Conservation and diversity of radiation and oxidative stress resistance mechanisms in Deinococcus species,” FEMS Microbiology Reviews, 2019",
+  "url": "https://academic.oup.com/femsre/article/43/1/19/5136416"
+ },
+ "carte": {
+  "punch": "Its genome is shattered into hundreds of pieces. It glues it back together in three to four hours.",
+  "idee": "Deinococcus radiodurans survives 5,000 grays, 500 to 1,000 times the lethal dose for humans, by reassembling its fragmented genome in three to four hours. This ability would probably be a side effect of adaptation to desiccation, a dryness that also damages DNA.",
+  "source_courte": "Cox 2010; Lim 2019; Mattimore 1996"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Cox, Keck & Battista (2010): Rising from the Ashes: DNA Repair in Deinococcus radiodurans",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2797637/",
+   "note": "In English; open access, a review accessible without specialist background."
+  }
+ ],
+ "quiz": {
+  "question": "Why do researchers now think that the extreme radiation resistance of Deinococcus radiodurans is not the result of adaptation to radioactivity?",
+  "choix": [
+   "Because strains made sensitive to radiation also lose their ability to survive desiccation",
+   "Because the bacterium is said to have been genetically modified in the laboratory before being discovered in nature",
+   "Because its radiation resistance is said to be actually much lower than what the studies report",
+   "Because it would survive only in the presence of an already high ambient radiation level"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Mattimore and Battista (1996) subjected 41 radiation-sensitive strains to six weeks of desiccation: all lost a substantial share of their viability, and the dried DNA accumulated double-strand breaks. The authors conclude that radiation resistance is incidental, a consequence of adaptation to dehydration, and not the product of selection by radioactivity. The other answers are wrong: the bacterium was isolated from a can of meat, not made in a laboratory, and its resistance is measured at 5,000 grays with no loss of viability, without needing any ambient radiation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In what context was the bacterium described in 1956?",
+   "choix": [
+    "It was contaminating a can of ground meat supposedly sterilized by irradiation",
+    "It was isolated inside the containment of a nuclear reactor",
+    "It turned up in a vaccine stored at high temperature",
+    "It was contaminating drinking water treated with antibiotics"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In 1956, scientists describe a bacterium discovered as a contaminant in a can of ground meat, which had survived a high dose of ionizing radiation meant to sterilize the canned meat."
+  },
+  {
+   "question": "How exactly does the reconstitution of the genome after irradiation unfold?",
+   "choix": [
+    "A single copy of the genome is entirely rebuilt from scratch",
+    "The bacterium replaces its genome with that of a neighboring cell",
+    "Enzymes expose long single-stranded segments, which insert into other fragments and prime DNA synthesis",
+    "The process requires the intervention of a helper virus"
+   ],
+   "bonne_reponse": 2,
+   "explication": "In the first phase (ESDSA), enzymes chew back the DNA to expose long single-stranded segments, which invade other fragments with the help of RecA and prime extensive DNA synthesis; a second phase of double-strand break repair then assembles the large segments. No copy of the genome is rebuilt from scratch, and nothing comes from a genome imported from another cell or from a virus."
+  },
+  {
+   "question": "Which microscopic animals, highly resistant to ionizing radiation, led to an analogous explanation based on desiccation?",
+   "choix": [
+    "Deep-sea fish",
+    "Bdelloid rotifers, which resume reproduction after desiccation",
+    "Monogonont rotifers, which cannot tolerate desiccation",
+    "Warm-blooded vertebrates, hibernating or not"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Gladyshev and Meselson (2008) found bdelloid rotifers extraordinarily resistant to radiation, far more so than a monogonont rotifer that cannot tolerate desiccation: like Deinococcus, they see it as a consequence of adaptation to desiccation. Vertebrates, for their part, are killed by 5 to 10 grays."
+  }
+ ]
+}

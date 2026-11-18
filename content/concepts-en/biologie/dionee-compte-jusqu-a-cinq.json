@@ -1,0 +1,77 @@
+{
+ "id": "bio-dionee-compte-potentiels-action",
+ "slug": "dionee-compte-jusqu-a-cinq",
+ "langue": "en",
+ "empreinte_fr": "a79f00c6da30f286",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Venus Flytrap That Counts to Five",
+ "accroche": "A Venus flytrap never snaps shut on a single brush. It needs a second one, and the count goes on well after the trap has closed.",
+ "contenu_vulgarise": "An insect lands at the bottom of a Venus flytrap's trap and brushes one of the trigger hairs that bristle on its surface. Nothing happens. The trap stays wide open, as if nothing had occurred. We often picture the carnivorous plant as a spring with a hypersensitive touch. It is not. A single stimulation never triggers closure.\n\nIn 2016, a team led by the biophysicist Rainer Hedrich, at the University of Würzburg, published in Current Biology the exact mechanism of this delay. Each bending of a trigger hair generates an action potential, an electrical impulse of the same nature as those that run through animal nerves, though here without a single neuron. One potential does nothing. But if a second occurs within the following fifteen to twenty seconds, the trap snaps shut in a fraction of a second. Below that pace, the counter resets and you have to start again from zero.\n\n## The Count Goes On After Closure\n\nThis second threshold is only the beginning. Once the prey is shut in, its panicked movements keep bending the trigger hairs, and each bend adds a new action potential to the tally. Past three, the plant switches on the genes that produce digestive enzymes. Past five, their production reaches a level close to the maximum.\n\nThe flytrap thus adjusts its investment to the reality of its catch. Secreting digestive enzymes has a real metabolic cost; wasting them on a raindrop or a blade of grass that happened to fall into the trap would be a pure loss. By requiring prolonged agitation (hence a live prey struggling) before committing to digestion, the plant limits the expense to the occasions that truly justify it.\n\n## Counting Without a Neuron\n\nThe word “count” is not a convenient metaphor here: the plant really does distinguish a number of events within a given time window, and adjusts its response accordingly. Yet this counting is neither a decision nor a conscious calculation. It is an electrical threshold: each action potential leaves a transient imprint in the cells of the trap, and if a second one occurs before it fades, the two signals add up and trigger closure.\n\nWhat this transient imprint is, concretely, the 2016 study left open, as the authors themselves said: the biomechanics of closure was well understood, but not what triggers it at the cellular scale. A team once again including Hedrich and Japanese colleagues filled this gap in 2020, by live imaging of calcium in transgenic flytraps (Suda et al., Nature Plants): each action potential sets off a wave of calcium that starts from the stimulated hair, spreads through the leaf, then fades within a little under a minute. If a second potential arrives before this wave has subsided, the two overlap, and it is the crossing of a calcium concentration threshold, thus brought to light, that mechanically triggers closure.\n\nWhat strikes most is the shared vocabulary. Action potential, calcium threshold, time window: the terms we thought reserved for animal nerve tissue describe, identically, the workings of a plant with no nervous system at all. Cellular electricity as a language of life was invented long before neurons, and has never ceased to be shared among kingdoms that we wrongly imagine to be walled off from one another.",
+ "repere": {
+  "texte": "Two action potentials trigger closure of the trap if they occur less than twenty seconds apart; beyond five, the production of digestive enzymes reaches a level close to the maximum.",
+  "source": "Böhm et al., “The Venus Flytrap Dionaea muscipula Counts Prey-Induced Action Potentials to Induce Sodium Uptake,” Current Biology, 2016",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4751343/"
+ },
+ "carte": {
+  "punch": "A Venus flytrap never snaps shut on a single touch. It needs two.",
+  "idee": "Each trigger hair of a Venus flytrap generates, when bent, an action potential comparable to that of an animal nerve. One does nothing; a second, within twenty seconds, closes the trap. Past five, the plant commits to digestion, an electrochemical count without a single neuron.",
+  "source_courte": "Böhm et al., Current Biology, 2016"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Phys.org — Hunting secrets of the Venus flytrap (hint: they can count)",
+   "url": "https://phys.org/news/2016-01-secrets-venus-flytrap-hint.html",
+   "note": "In English; general-audience presentation of the 2016 study."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the Venus flytrap switch on the production of digestive enzymes only after several stimulations, and not as soon as the trap closes?",
+  "choix": [
+   "Because the enzymes take several hours to synthesize whatever signal is received",
+   "Because producing digestive enzymes has a metabolic cost that is better reserved for a live prey that is truly struggling",
+   "Because the trap must first check the size of the prey before producing anything",
+   "Because the first stimulations serve only to expel the air contained in the trap"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Secreting digestive enzymes costs the plant energy. By requiring prolonged agitation (hence several more action potentials after closure) before committing to digestion, the flytrap avoids wasting this resource on an accidental catch, such as a raindrop or a piece of debris, which does not generate that many stimulations.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What happens if a second action potential occurs more than twenty seconds after the first?",
+   "choix": [
+    "The counter resets, and you have to start again from zero",
+    "The trap closes anyway, but twice as slowly",
+    "The plant directly triggers the production of digestive enzymes",
+    "The trap stays closed permanently until the next stimulation"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Below the pace of fifteen to twenty seconds between two bendings of the trigger hairs, the action potential counter resets and you have to start again from zero to trigger closure."
+  },
+  {
+   "question": "What did the 2020 study led by Suda and his colleagues establish that the 2016 one had left open?",
+   "choix": [
+    "That the Venus flytrap actually possesses rudimentary neurons, contrary to what was thought",
+    "That the counting relies on a calcium wave that spreads, then fades after each action potential",
+    "That the closure threshold is not two action potentials but four",
+    "That the production of digestive enzymes depends on no electrical signal"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 2016 study did not know what triggered closure at the cellular scale; the 2020 one showed, by live calcium imaging, that a calcium wave spreads, then fades after each potential."
+  },
+  {
+   "question": "What does the shared vocabulary of action potential, calcium threshold, and time window signal, according to the card?",
+   "choix": [
+    "That the Venus flytrap has developed, through evolutionary convergence, a nervous tissue comparable to that of animals",
+    "That researchers have simply reused, for convenience, a vocabulary borrowed from animal neurology",
+    "That the Venus flytrap descends from a common ancestor with animals that have a nervous system",
+    "That cellular electricity, a language of life older than neurons, remains shared among kingdoms thought to be walled off from one another"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The card notes that these terms, which we thought reserved for animal nerve tissue, describe identically the workings of a plant with no nervous system: electricity precedes and outlasts neurons."
+  }
+ ]
+}

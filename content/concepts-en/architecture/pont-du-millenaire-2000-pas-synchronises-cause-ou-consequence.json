@@ -1,0 +1,60 @@
+{
+ "id": "arc-pont-du-millenaire-2000-pas-synchronises-cause-ou-consequence",
+ "slug": "pont-du-millenaire-2000-pas-synchronises-cause-ou-consequence",
+ "langue": "en",
+ "empreinte_fr": "11a8b5d261b2034a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Millennium Bridge: the crowd in step, cause or consequence of the sway?",
+ "accroche": "At the Millennium Bridge in 2000, people said the crowd was walking in step. A 2021 study sees that as a consequence of the sway, not its cause.",
+ "contenu_vulgarise": "On June 10, 2000, the Millennium Bridge, a pedestrian footbridge over the Thames in London, opens to the public. Some 90,000 people cross it that day, up to 2,000 at a time, and the deck begins to oscillate sideways. It is closed two days later, and does not reopen until February 22, 2002, after the installation of 37 viscous dampers, against lateral sway, and 52 tuned mass dampers, against vertical motion.\n\n## The explanation everyone repeats\n\nThe common version comes down to one image: the crowd, without meaning to, walks in step, and this shared step pushes the bridge harder and harder, like soldiers marching in cadence, but horizontally. In 2005, the mathematician Steven Strogatz and four coauthors proposed a model of it in Nature. The bridge, which is flexible and whose natural frequency is close to the rhythm of walking, leads walkers to lock their steps onto it, which reinforces its motion. Strogatz specifies that this synchrony was entirely involuntary, and estimates that from about 160 pedestrians, the instability can set in.\n\n## A fundamental disagreement\n\nAs early as June 14, 2000, the physicist Brian Josephson, a Nobel laureate, wrote in a letter to a newspaper that the problem had little to do with a crowd walking in step: it lay in what people do to keep their balance when the ground moves, as in a small boat where several people stand up at the same time.\n\nIn 2021, in Nature Communications, Igor Belykh, Alan Champneys, John Macdonald, Allan McRobie, and their coauthors go back over all the observations. Allan McRobie had also co-authored the 2005 model. They note that no video is known that establishes that the steps were synchronized: the famous footage shows heads and torsos oscillating together, which is not the same thing as feet striking the deck in cadence. The most precise study they cite on such footbridges estimates that only 20% of walkers were walking at the bridge's rhythm. Their thesis: each pedestrian, even without coordinating with the others, adds on average a negative damping, that is, gives up energy to the bridge instead of absorbing it. Beyond a critical number of walkers, the bridge becomes unstable. Synchronization of steps, when it appears, would be a consequence of the instability.\n\n## What does not move\n\nBoth papers speak of a threshold: a critical number of pedestrians beyond which the bridge sways, about 160 according to the 2005 estimate. Belykh and his coauthors note that adding dampers solves the problem, which the 2002 reopening confirmed. The readings diverge on the cause, and the 2021 thesis presents itself as an alternative explanation, compatible with observations on nearly 30 bridges.\n\nThe choice matters beyond the London bridge: the first reading describes crowds that organize themselves, the second individuals who do not need to coordinate to produce a collective effect. What remains to be settled is whether, in the crowd, the step comes before the bridge's motion or follows it.",
+ "repere": {
+  "texte": "In their 2021 synthesis, Belykh and his coauthors note that, for these footbridge instabilities under crowd loading, the most precise study of step synchronization estimates that only 20% of walkers were walking at the bridge's rhythm.",
+  "source": "I. Belykh et al., “Emergence of the London Millennium Bridge instability without synchronisation,” Nature Communications 12, 7223 (2021)",
+  "url": "https://doi.org/10.1038/s41467-021-27568-y"
+ },
+ "carte": {
+  "punch": "Millennium Bridge: did the crowd sway the bridge, or the bridge the crowd?",
+  "idee": "When the Millennium Bridge (London, 2000) opened, the sway was explained by a crowd walking in step. A 2021 study argues that each pedestrian, even without coordination, reinforces the motion on average, and that step synchronization is a consequence of it.",
+  "source_courte": "Belykh et al., Nature Communications, 2021"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What do the famous videos showing pedestrians swaying with the Millennium Bridge show, according to Belykh and his coauthors?",
+  "choix": [
+   "That the steps of the whole crowd were synchronized from the bridge's opening",
+   "That the bridge was not moving, and the motion came only from the camera",
+   "That the pedestrians had been invited by the organizers to walk in cadence",
+   "A synchronization of the head and upper body, which does not establish that of the steps on the deck"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The authors distinguish between the swaying of heads and torsos, which is visible, and the synchronization of steps, which no video establishes. The other answers add facts that neither the paper nor this card's sources report.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the 2021 thesis, what does each pedestrian contribute to the bridge on average, even without coordinating with the others?",
+   "choix": [
+    "A negative damping: they give up energy to the bridge instead of absorbing it",
+    "A positive damping that exactly compensates for the bridge's motion",
+    "Extra mass that makes the bridge more stable",
+    "A force that always cancels out with those of the other pedestrians"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Each pedestrian adds on average a negative damping, and beyond a critical number of walkers the bridge becomes unstable. Pedestrians' forces do not cancel out on average, and the thesis mentions neither positive damping nor stabilization by mass."
+  },
+  {
+   "question": "On what point do the 2005 model and the 2021 thesis agree?",
+   "choix": [
+    "Both make voluntary synchronization of steps the initial cause",
+    "Both speak of a critical number of pedestrians beyond which the bridge becomes unstable",
+    "Both attribute the sway to a manufacturing defect in the cables",
+    "Both judge that the sway comes mainly from wind speed"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 2005 model estimates a threshold of about 160 pedestrians, and the 2021 thesis also requires a critical number of walkers. Strogatz speaks of involuntary synchrony, and neither text invokes a cable defect or the wind."
+  }
+ ]
+}

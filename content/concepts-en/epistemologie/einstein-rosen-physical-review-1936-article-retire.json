@@ -1,0 +1,77 @@
+{
+ "id": "epi-einstein-rosen-physical-review-1936-article-retire",
+ "slug": "einstein-rosen-physical-review-1936-article-retire",
+ "langue": "en",
+ "empreinte_fr": "a0380bbea4e81b89",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Einstein Withdraws an Article from the Physical Review (1936)",
+ "accroche": "In 1936, Einstein withdraws an article from the Physical Review after an anonymous referee's review, then republishes it with the opposite conclusion.",
+ "contenu_vulgarise": "On June 1, 1936, according to the journal's log, a manuscript arrives at the *Physical Review*. It is titled “Do Gravitational Waves Exist?” and is signed by Albert Einstein and Nathan Rosen. Judging from a letter Einstein wrote to the physicist Max Born, their answer is no.\n\n## The anonymous referee\n\nThe editor in chief, John Tate, did not systematically send articles to a referee, and neither of the two earlier Einstein–Rosen papers had, it seems, been reviewed this way. This time, according to the log, he sends the text on July 6 to Howard Robertson, a Princeton relativist back from a leave spent at Caltech. Robertson submits a 10-page report. In it he notes that the singularities that had convinced the authors are coordinate singularities: in another coordinate system, they lie on the central axis, and the solution describes cylindrical waves. The difficulty disappears, and the conclusion with it.\n\nOn July 23, Tate returns the manuscript with the report and asks Einstein for his reaction. On the 27th, Einstein withdraws the article and writes that he sees no reason to respond to the remarks, mistaken in his view, of his anonymous referee. On the 30th, Tate replies that he regrets the withdrawal, but that he cannot accept a paper that the author refuses to let him show to his editorial board. In the account of Daniel Kennefick, who traced this review, it was probably the first time Einstein had encountered the American system of anonymous peer review, and nothing indicates that Einstein ever knew who the referee was.\n\n## The same proof, the opposite conclusion\n\nEinstein sends the text to the *Journal of the Franklin Institute*. In the fall of 1936, Robertson tells Leopold Infeld, a collaborator of Einstein's, that he does not believe the result. They find an error in Infeld's version of the proof, and Infeld tells Einstein about it. Einstein says he had found an error in his own proof the day before. The article is rewritten in proof.\n\nIt appears in 1937 under the title “On Gravitational Waves” and presents cylindrical gravitational waves: the reverse of the June manuscript. Einstein would never again publish an article in the *Physical Review*. His only later text there is a letter to the editor, in 1952.\n\n## What this shifts\n\nPeer review is often told as an obstacle placed in the way of new ideas. Here, it called into question an error by the physicist who had written general relativity, and the version printed in 1937 is the one that corrected it. This happened against the author's wishes, since he did not at first see what the report offered him: it took months, and a conversation between two colleagues, for the error to be admitted.\n\nThe procedure also has a visible cost: a journal loses an author. And what it contributes does not bear the name of the person who contributes it. The corrected article is signed Einstein and Rosen, the report remained in the archives, and Kennefick established who had written it in his 2005 article, from the journal's log and Robertson's papers. How many equally decisive reports have left no trace in any log?",
+ "repere": {
+  "texte": "According to the Physical Review's log, the Einstein–Rosen manuscript arrived on June 1, 1936. The referee's report, by Howard Robertson, runs to 10 pages. Einstein never again published an article in the journal: his only later text there is a letter to the editor, in 1952.",
+  "source": "D. Kennefick, “Einstein Versus the Physical Review,” Physics Today, 58(9), 43-48, September 2005",
+  "url": "https://doi.org/10.1063/1.2117822"
+ },
+ "carte": {
+  "punch": "Einstein withdraws an article challenged by an anonymous referee, then publishes the opposite conclusion.",
+  "idee": "In 1936, Einstein and Rosen conclude that gravitational waves do not exist. An anonymous Physical Review referee points out a coordinate error. Einstein refuses, withdraws the article, then publishes the opposite conclusion in 1937.",
+  "source_courte": "Kennefick, Physics Today, 2005"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Daniel Kennefick, “Einstein Versus the Physical Review,” Physics Today",
+   "url": "https://physicstoday.aip.org/features/einstein-versus-the-physical-review",
+   "note": "The full account of the episode and of the identification of the referee."
+  }
+ ],
+ "quiz": {
+  "question": "What error did the Physical Review referee spot in the Einstein–Rosen manuscript?",
+  "choix": [
+   "The singularities that seemed to rule out waves came from the choice of coordinates, not from the physics",
+   "A calculation by Einstein made the metric incompatible with the equations of general relativity",
+   "Their result contradicted astronomical observations known for several years",
+   "They applied an approximation valid only for weak fields outside its range"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Robertson showed that the singularities were coordinate singularities: in other coordinates, the solution describes cylindrical waves. The report does not challenge an isolated calculation, an approximation, or a disagreement with observations: it was the reading of the singularities that needed revising.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who identified the anonymous referee who reviewed the Einstein–Rosen manuscript, and when?",
+   "choix": [
+    "Howard Robertson himself, who revealed it in his memoirs",
+    "John Tate, the editor in chief, who announced it as early as 1936",
+    "Daniel Kennefick, who identified him in his 2005 article",
+    "Nathan Rosen, who discovered it after Einstein's death"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text says that Kennefick traced this review and established who had written it in his 2005 article, from the journal's log and Robertson's papers. Nothing indicates that Einstein himself knew who the referee was, or that Tate or Rosen made this identification."
+  },
+  {
+   "question": "How does the conclusion of the article republished in 1937 compare with that of the June 1936 manuscript?",
+   "choix": [
+    "Like the initial manuscript, it concludes that gravitational waves do not exist",
+    "It concludes that cylindrical gravitational waves exist, the opposite of the initial manuscript",
+    "It avoids drawing a conclusion and limits itself to setting out the mathematical method",
+    "It confirms the initial calculation but corrects only the title of the article"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 1937 article, titled On Gravitational Waves, presents cylindrical gravitational waves: exactly the opposite of the conclusion of the June 1936 manuscript, which denied their existence."
+  },
+  {
+   "question": "According to the text, what was the only contribution by Einstein published in the Physical Review after this episode?",
+   "choix": [
+    "A paper refuting Robertson's report, in 1938",
+    "An erratum signed with Rosen, in 1940",
+    "He never published anything in this journal again, not even a letter",
+    "A letter to the editor, in 1952"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text specifies that Einstein would never again publish an article in the Physical Review, and that his only later text there is a letter to the editor, in 1952."
+  }
+ ]
+}

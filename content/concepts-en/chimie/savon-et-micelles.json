@@ -1,0 +1,83 @@
+{
+ "id": "chi-savon-et-micelles",
+ "slug": "savon-et-micelles",
+ "langue": "en",
+ "empreinte_fr": "61d5937fabbfc304",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "« corps gras » rendu par « fat(s) » ; le titre de l'ouvrage de Chevreul (Recherches chimiques sur les corps gras d'origine animale) est traduit librement, l'intitulé anglais usuel peut différer (par ex. « Chemical Researches on Fatty Bodies of Animal Origin »)."
+  }
+ ],
+ "titre": "Soap never dissolved grease",
+ "accroche": "Scrubbing a greasy pan under water alone gets you nowhere. A drop of soap is enough, but the most widespread explanation of its effect is wrong.",
+ "contenu_vulgarise": "Scrub a greasy pan under plain water: the grease slides around, re-forms into droplets, refuses to leave. Add a drop of soap, and the same grease comes off all at once, carried away by the rinse water. The most widespread explanation, “soap dissolves grease,” is wrong.\n\n## What a soap molecule really does\n\nA soap molecule has a dual nature. One end, the head, mixes very well with water. The other, a long carbon chain, shuns it and mixes, on the contrary, very well with fats. Immersed in water in sufficient numbers, these molecules spontaneously assemble into tiny spheres, heads turned toward the water, chains sheltered at the center: micelles. A drop of grease met along the way ends up swallowed at the heart of one of these spheres, imprisoned but intact, and leaves with it at the rinse.\n\nNothing is dissolved. The grease remains grease to the end, merely encapsulated and then physically carried away. This is an emulsion, not a dissolution, and the nuance matters: it says what soap does, dislodge, surround, transport, and what it does not do, chemically break down the dirt it removes.\n\n## Two questions, ninety years apart\n\nKnowing what soap is, chemically, and knowing how it acts are two distinct questions, resolved ninety years apart. The first finds its answer in 1823, when the French chemist Michel-Eugène Chevreul publishes his *Chemical Research on Fats of Animal Origin*. In it he shows that a fat is an assembly of glycerol and fatty acids, and that the alkaline ash used to make soap detaches the two: glycerol on one side, the fatty acids turned into salts on the other, which are the soap itself. Through repeated crystallizations, Chevreul isolates fatty acids that are 98% pure, and for the first time establishes the melting point as a criterion for identifying an organic compound.\n\nThat leaves a question that Chevreul does not have the tools to answer: why does this salt behave so differently from an ordinary salt such as table salt, once in water? The answer arrives in 1913. The chemist James William McBain, who has been studying the electrical conductivity of soap solutions since 1906 at the University of Bristol, proposes that the molecules assemble there into charged aggregates. In a communication to the Faraday Society on March 12, 1913, he uses for the first time, to designate these aggregates, the word micelle.\n\nBetween the chemical formula of soap and the description of its mechanism of action, then, it took nearly a century, even though the practice itself, boiling a fat with ash, long preceded both.",
+ "repere": {
+  "texte": "To identify the fatty acids that he isolates through repeated crystallizations, Chevreul introduces the melting point as a criterion of purity of an organic compound, a method still in use today.",
+  "source": "Cyberlipid, “Chevreul Work”",
+  "url": "http://cyberlipid.gerli.com/description/simple-lipids/chevreul/work/"
+ },
+ "carte": {
+  "punch": "Soap dissolves nothing: it wraps up the grease and carries it off with the water.",
+  "idee": "People say soap dissolves grease. In reality, its molecules form micelles that encapsulate it intact and carry it away at the rinse. It took ninety years, from Chevreul's chemical formula in 1823 to McBain's micelle in 1913, to understand why.",
+  "source_courte": "Chevreul, 1823; McBain, Trans. Faraday Soc., 1913"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "SFEL — Michel Eugène Chevreul",
+   "url": "https://www.sfel.asso.fr/en/sfel/history/michel-eugene-chevreul/",
+   "note": "Full biography of the French chemist, in English, by the French Society for the Study of Lipids."
+  }
+ ],
+ "quiz": {
+  "question": "Why does a drop of soap detach the grease that plain water merely moves around?",
+  "choix": [
+   "Because soap chemically dissolves fats into smaller, soluble molecules",
+   "Because soap raises the temperature of the water and melts the grease",
+   "Because soap molecules encapsulate the grease in micelles that mix with water",
+   "Because soap chemically neutralizes the acidity of the grease"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Soap does not chemically alter the grease: its amphiphilic molecules assemble into micelles that envelop it intact, forming an emulsion carried by the water. No dissolution, no melting by heat, no acid-base neutralization is involved.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What exactly does Michel-Eugène Chevreul discover in 1823 about the chemical composition of fats?",
+   "choix": [
+    "That a fat is an assembly of glycerol and fatty acids",
+    "That soap chemically dissolves grease into smaller molecules",
+    "That micelles form only in the presence of alkaline ash",
+    "That the temperature of the water determines soap's effectiveness"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Chevreul shows that a fat is an assembly of glycerol and fatty acids, and that the alkaline ash used to make soap separates the two during saponification."
+  },
+  {
+   "question": "What criterion does Chevreul introduce for the first time to identify an organic compound?",
+   "choix": [
+    "The color of the crystallization obtained",
+    "The melting point",
+    "Electrical conductivity in solution",
+    "Solubility in cold water"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Through repeated crystallizations, Chevreul isolates fatty acids that are 98% pure and establishes for the first time the melting point as a criterion for identifying an organic compound."
+  },
+  {
+   "question": "What has James William McBain been studying since 1906 at the University of Bristol, before using the word micelle in 1913?",
+   "choix": [
+    "The chemical composition of alkaline ashes",
+    "The melting temperature of purified fatty acids",
+    "The ability of fabrics to absorb liquid soap",
+    "The electrical conductivity of soap solutions"
+   ],
+   "bonne_reponse": 3,
+   "explication": "McBain has been studying the electrical conductivity of soap solutions since 1906, which leads him to propose in 1913 that the molecules assemble there into charged aggregates, the micelles."
+  }
+ ]
+}

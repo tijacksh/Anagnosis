@@ -1,0 +1,66 @@
+{
+ "id": "ggr-whitney-vallee-de-la-mort",
+ "slug": "whitney-vallee-de-la-mort",
+ "langue": "en",
+ "empreinte_fr": "7cc56f915b8b5272",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The highest and lowest points in the United States, 136 km apart",
+ "accroche": "Mount Whitney and Badwater Basin, 136 km apart, owe their two records to the same fault.",
+ "contenu_vulgarise": "On a clear day, from the summit of Mount Whitney in California, you can make out the basin of Death Valley in the distance. The two places are only 136 kilometers apart as the crow flies. The first is the highest point in the 48 contiguous U.S. states; the second, at Badwater Basin, is the lowest, and the lowest in all of North America. A sufficiently fast hiker could, in theory, go from the summit to the low point in a single day on the road.\n\n## The mechanism\n\nThe elevation of Mount Whitney itself shows how much measuring relief is a matter of convention: the summit stands at 4,421 meters (14,505 feet) according to the NAVD88 geodetic datum established in 1988, but the benchmark set by surveyors at the summit reads 4,418 meters (14,494 feet), a gap that comes not from the mountain settling but from a better estimate of the Earth's exact shape, the geoid, between the two measurement campaigns. Badwater Basin, at the other end, sits 86 meters (282 feet) below sea level, in a basin so arid that its annual evaporation rate is nearly eighty times its precipitation (48 mm of rain versus about 3,800 mm of evaporation).\n\nThis proximity between the country's highest and lowest points is no geographic coincidence: both arise from the same tectonic mechanism. A fault runs along the eastern base of the Sierra Nevada, the range that carries Mount Whitney. It lifts that range while the Earth's crust, farther east, slowly stretches under the extension of the Basin and Range, a geological province that covers much of the American West. That same stretching makes the neighboring valleys, Death Valley among them, collapse in blocks. Mount Whitney and Badwater Basin are not two independent records that happen to lie close together: they are the two visible faces of a single deformation of the crust, one lifted, the other collapsed.\n\n## The shift\n\nIntuition would have an extreme summit and an extreme depression lie at opposite ends of the map, like two independent records whose geographic closeness would be a matter of chance. Here, it is the opposite: the same extensional tectonics that stretches the crust at the surface necessarily produces both at once, within a small radius. Where a plate thins, some blocks of crust tilt upward while others, right next to them, tilt downward: an accordion-like relief of which the Sierra Nevada and Death Valley are only one example, the most extreme in the United States, but not the only one in the Basin and Range province, which counts several dozen ranges and valleys lined up on the same principle.",
+ "repere": {
+  "texte": "Badwater Basin (-86 m) and the summit of Mount Whitney (4,421 m) are 136 km apart as the crow flies: the lowest and highest points of the 48 contiguous U.S. states, carried by the same Basin and Range extensional fault system.",
+  "source": "USGS, Highest and Lowest Elevations; distance calculated from summit coordinates (Wikipedia, Mount Whitney and Badwater Basin)",
+  "url": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations"
+ },
+ "carte": {
+  "punch": "The high point and the low point of the 48 contiguous states are only 136 km apart.",
+  "idee": "Mount Whitney (4,421 m, highest point in the 48 contiguous states) and Badwater Basin (-86 m, lowest point in North America) are 136 km apart as the crow flies. This is no accident: the same extension of the crust lifts the Sierra Nevada and makes Death Valley collapse right next to it.",
+  "source_courte": "USGS, Highest and Lowest Elevations"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Badwater Basin (Wikipedia, English)",
+   "url": "https://en.wikipedia.org/wiki/Badwater_Basin",
+   "note": "Details the extreme aridity and the geology of Death Valley's collapse basin."
+  }
+ ],
+ "quiz": {
+  "question": "Why are the highest point and the lowest point of the 48 contiguous U.S. states only 136 km apart?",
+  "choix": [
+   "Because an ancient meteorite impact created an exceptionally contrasting relief in this region",
+   "Because the same extensional fault lifts the Sierra Nevada and makes the neighboring crust collapse, in a single tectonic movement",
+   "Because glacial erosion carved Death Valley directly at the foot of Mount Whitney",
+   "Because both records were set by the same geodetic expedition, which skewed their locations"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The uplift of the Sierra Nevada and the collapse of Death Valley are the two effects of a single mechanism, the tectonic extension of the Basin and Range; neither a meteorite impact, nor glacial erosion, nor a measurement bias explains this proximity.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why did the official elevation of Mount Whitney change from 4,418 to 4,421 meters, according to the card?",
+   "choix": [
+    "Because the mountain rose slightly between the two measurements",
+    "Because the 1988 NAVD88 geodetic datum rests on a better estimate of the Earth's shape",
+    "Because a calculation error was corrected in the benchmark set at the summit",
+    "Because Mount Whitney was measured a second time with a more precise instrument on site"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The card specifies that the gap comes from a better estimate of the geoid between the two measurement campaigns, not from the mountain settling or rising."
+  },
+  {
+   "question": "By how much does Badwater Basin's annual evaporation exceed its precipitation, according to the card?",
+   "choix": [
+    "By about two times",
+    "By about twenty times",
+    "By about eighty times",
+    "They are roughly equal"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The card gives 48 mm of rain versus about 3,800 mm of evaporation per year at Badwater Basin, a ratio close to eighty times more evaporation than rain."
+  }
+ ]
+}

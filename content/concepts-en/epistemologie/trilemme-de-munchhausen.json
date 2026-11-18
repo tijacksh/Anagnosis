@@ -1,0 +1,77 @@
+{
+ "id": "epi-trilemme-de-munchhausen",
+ "slug": "trilemme-de-munchhausen",
+ "langue": "en",
+ "empreinte_fr": "c882a65753fbdc57",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Münchhausen Trilemma",
+ "accroche": "Ask why we believe something, then why we believe the reason we're given: the questioning never ends well.",
+ "contenu_vulgarise": "Baron Münchhausen, a character in 18th-century German tales, claims to have once pulled himself out of a swamp by grabbing himself by the hair and pulling upward, thus lifting himself and his horse out of the mud. The image is absurd, and it is precisely for its absurdity that the German philosopher Hans Albert borrows it in 1968 to name a problem more than two thousand years old: that of what the justification of a belief can ultimately rest on.\n\n## The mechanism\n\nTake any assertion and ask why one should believe it. An answer will be given, in the form of another assertion. Then ask why one should believe that one. A new answer will follow, a new assertion. Pursue the question, at every step, all the way: only three outcomes present themselves, and Hans Albert gives them a name in echo of the baron.\n\nThe first is to stop at an assertion one refuses to justify any further, a starting point laid down without proof. This is dogmatism: a stone set down with no foundation of its own.\n\nThe second is to go on indefinitely, each reason calling for a deeper reason, without ever reaching an end point. This is infinite regress: a chain that never touches the ground.\n\nThe third is for the chain of reasons to eventually loop back on itself, for a distant assertion to end up serving to justify the one we started from. This is circularity: a loop that proves itself.\n\nNone of the three satisfies what we ordinarily expect of a justification, which is to rest on something other than itself, without ever stopping arbitrarily or going in circles. This is precisely the baron's position: to haul himself out of the swamp, he would have needed a foothold outside himself, and he has none.\n\nThis trilemma was not born in 1968. Sextus Empiricus, a skeptical philosopher of Antiquity, already reports five “modes” by which skeptical doubt closed off any attempt to ground a belief, three of them forming the trilemma. Tradition attributes them to Agrippa, about whom almost nothing else is known.\n\n## What this shifts\n\nThe trilemma does not prove that no belief is justified. It shows that every theory of justification must choose which of the three outcomes it embraces, since no fourth exists. The contemporary currents of epistemology are distinguished precisely by this choice: foundationalism accepts unproven starting points, coherentism accepts a form of circularity organized as a network, infinitism accepts endless regress. None escapes the trilemma; each simply decides which of its three branches seems to it the least costly.",
+ "repere": {
+  "texte": "The name “Münchhausen trilemma” was coined by the German philosopher Hans Albert in his Traktat über kritische Vernunft, in 1968, in reference to a trilemma of dogmatism / infinite regress / psychologism that Karl Popper had himself attributed to the philosopher Jakob Friedrich Fries.",
+  "source": "Hans Albert, Traktat über kritische Vernunft, J.C.B. Mohr, 1968",
+  "url": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
+ },
+ "carte": {
+  "punch": "Ask why believe something, again and again: the questioning never ends well.",
+  "idee": "Every justification ends up facing three outcomes, says the trilemma named in 1968 after the baron who claimed to have pulled himself out of a swamp by his own hair: a starting point laid down without proof, a chain of reasons without end, or a loop that proves itself.",
+  "source_courte": "Hans Albert, 1968 · Sextus Empiricus"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy — Skepticism",
+   "url": "https://plato.stanford.edu/entries/skepticism/",
+   "note": "Pyrrhonian skepticism and Agrippa's five modes, three of which form the trilemma."
+  }
+ ],
+ "quiz": {
+  "question": "What are the three outcomes that the Münchhausen trilemma identifies when the question “why believe that” is pushed indefinitely?",
+  "choix": [
+   "Experimentation, direct observation, and an expert's testimony",
+   "Dogmatism, infinite regress, and circularity",
+   "Deduction, induction, and intuition",
+   "Faith, reason, and the authority of an institution"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The trilemma is not about sources of knowledge in general, but about what happens when the demand for justification is pushed all the way: either we stop at an unproven starting point (dogmatism), or we chain reasons without end (infinite regress), or the chain ends up closing back on itself (circularity). No fourth outcome has been identified.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the Münchhausen trilemma actually show, given that it does not prove that no belief is justified?",
+   "choix": [
+    "That every belief is necessarily false",
+    "That only religious faith can ground a belief",
+    "That every theory of justification must choose one of the three outcomes",
+    "That logic itself is flawed"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The trilemma does not prove that no belief is justified: it shows that every theory of justification must embrace one of the three outcomes, since no fourth exists."
+  },
+  {
+   "question": "To whom does tradition attribute the five skeptical modes, three of which form the trilemma, reported by Sextus Empiricus?",
+   "choix": [
+    "To Pyrrho of Elis, the founder of skepticism",
+    "To Agrippa, about whom almost nothing else is known",
+    "To Hans Albert himself, retroactively",
+    "To Karl Popper, who gives the trilemma its name"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Sextus Empiricus reports the five skeptical modes, but tradition attributes them to Agrippa, a philosopher about whom almost nothing is known apart from this attribution."
+  },
+  {
+   "question": "How do the contemporary currents of epistemology stand in relation to the trilemma?",
+   "choix": [
+    "Each proposes a fourth outcome that the Ancients missed",
+    "They all reject the trilemma as resting on a fallacy",
+    "Only foundationalism is taken seriously, the other two having been refuted",
+    "Each embraces one of the three outcomes as the least costly, with none escaping it"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Foundationalism accepts unproven starting points, coherentism an organized circularity, infinitism endless regress: none of the three escapes the trilemma."
+  }
+ ]
+}

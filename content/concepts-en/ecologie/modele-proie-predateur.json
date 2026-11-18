@@ -1,0 +1,77 @@
+{
+ "id": "eco-modele-proie-predateur",
+ "slug": "modele-proie-predateur",
+ "langue": "en",
+ "empreinte_fr": "9249b3d4dc947368",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Ecology's Most Elegant Model, and Its Favorite Example",
+ "accroche": "Two equations make predators and prey oscillate. The lynx and hare data always cited as proof are not proof",
+ "contenu_vulgarise": "Two equations, written independently in the 1920s by Alfred Lotka and Vito Volterra, describe a population of prey and a population of predators.\n\nThe logic can be told without any math. Prey multiply as long as they are not eaten. Predators thrive as long as there is prey. Lots of prey therefore means lots of predators, which in turn means little prey, which means few predators, which lets the prey rebound.\n\nThe system never settles down. It goes around in circles: each population oscillates, and the predator peak follows the prey peak with a constant lag.\n\n## What Is Admirable About the Model\n\nNeither curve needs an outside cause. No season, no climate, no disease. The oscillations arise from the interaction alone.\n\nThat is an important conceptual result. Faced with a population that fluctuates, the reflex is to look for what, from the outside, makes it fluctuate. Lotka and Volterra show that a two-species system produces cycles all by itself.\n\nThe model is also remarkably simple: two equations, four parameters, and a behavior you can draw.\n\n## The Example Everyone Cites\n\nThese equations are almost always illustrated with the same data set: the fur records of the Hudson's Bay Company, which give, over nearly a century, the number of lynx and snowshoe hare pelts bought each year.\n\nThe two curves oscillate, with the expected lag. The coincidence is striking, and the figure has adorned textbooks for generations.\n\nIt is worth less than it seems, however.\n\nThese are trade data, not field data: they measure pelts sold, and so the activity of trappers as much as the abundance of animals, and they come from different regions lumped together.\n\nAbove all, the ecosystem does not have two species. The hare depends on the vegetation it eats, and overexploits it at its peaks; other predators step in; climate, disease and migration all play a part. Close analyses of the data have even found stretches where the lynx seems to come before the hare, which the model forbids.\n\n## What a Model Is For\n\nNone of this condemns Lotka-Volterra. A model is not a description: it is a device that isolates a mechanism to show what you need to assume, and no more, to get an effect.\n\nThe mistake is to take it for an account of reality, then to look in nature for a figure that resembles it. You always end up finding one, and that is precisely what should worry us.\n\nA simple model that fits complex data is not being verified. It is telling a story.",
+ "repere": {
+  "texte": "The Hudson's Bay Company fur records measure pelts sold, aggregated across different regions, and so the activity of trappers as much as the abundance of animals.",
+  "source": "Bob Carpenter, “Predator-Prey Population Dynamics: the Lotka-Volterra model in Stan”",
+  "url": "https://mc-stan.org/learn-stan/case-studies/lotka-volterra-predator-prey.html"
+ },
+ "carte": {
+  "punch": "A simple model that fits complex data is not being verified. It is telling a story.",
+  "idee": "Two equations are enough to make predators and prey oscillate, with no outside cause at all. But the lynx and hare data cited as proof are fur records, from an ecosystem with far more than two species.",
+  "source_courte": "Stan case study, Lotka-Volterra"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stan: Lotka-Volterra Applied to the Lynx-Hare Data",
+   "url": "https://mc-stan.org/learn-stan/case-studies/lotka-volterra-predator-prey.html",
+   "note": "In English; the fit and residual plots can be read without following the code."
+  }
+ ],
+ "quiz": {
+  "question": "What does the Lotka-Volterra model show?",
+  "choix": [
+   "That prey and predator populations always end up stabilizing",
+   "That population cycles are caused by changes in climate",
+   "That two interacting species are enough to produce cycles, with no outside cause",
+   "That the number of predators alone determines the number of prey"
+  ],
+  "bonne_reponse": 2,
+  "explication": "That is the model's conceptual contribution: no need for a season, a disease or a climate for a population to fluctuate, because the interaction is enough. The system never settles down; it cycles. But it is a device that isolates one mechanism, not a description of a real ecosystem, which always has far more than two species.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which data set is almost always used to illustrate the Lotka-Volterra equations?",
+   "choix": [
+    "Arctic fox population surveys kept by the Canadian government",
+    "The fur records of the Hudson's Bay Company, on lynx and hare",
+    "Annual field counts carried out by independent biologists",
+    "Fish catches recorded by Newfoundland fisheries"
+   ],
+   "bonne_reponse": 1,
+   "explication": "It is the records of lynx and snowshoe hare pelts bought by the Hudson's Bay Company over nearly a century that have adorned textbooks for generations."
+  },
+  {
+   "question": "According to the card, why are the Hudson's Bay data worth less than they seem?",
+   "choix": [
+    "They cover only a single year, so they allow no analysis of cycles",
+    "They were falsified by the Company to inflate its profits",
+    "They are trade data, which measure trappers' activity as much as actual abundance",
+    "They concern only animals that died of disease, never animals caught by trappers"
+   ],
+   "bonne_reponse": 2,
+   "explication": "These are pelt sales data, not field data: they reflect the trappers' effort as much as the real abundance of the animals, and they come from different regions lumped together."
+  },
+  {
+   "question": "What do close analyses of the Hudson's Bay data reveal that the Lotka-Volterra model forbids?",
+   "choix": [
+    "A total absence of correlation between the two populations",
+    "A population cycle half as long as the one the model predicts",
+    "A complete extinction of the hare in the early 20th century",
+    "Stretches where the lynx seems to come before the hare, rather than after it"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The model requires the predator peak to follow the prey peak with a constant lag; yet close analyses have found stretches where the lynx precedes the hare, which the model forbids."
+  }
+ ]
+}

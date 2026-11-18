@@ -1,0 +1,77 @@
+{
+ "id": "bio-prochlorococcus",
+ "slug": "prochlorococcus-plus-petit-organisme-photosynthetique",
+ "langue": "en",
+ "empreinte_fr": "b541c572699cc3b3",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Smallest Known Photosynthetic Organism",
+ "accroche": "In 1985, a signal so faint it was first called electronic noise turned out to be one of the most abundant photosynthetic organisms.",
+ "contenu_vulgarise": "In 1985, on a research cruise out of Barbados, Rob Olson and Ginger Armbrust spot, in a sample taken at depth, a population of particles emitting red light, fainter than that of Synechococcus, another marine cyanobacterium. The instrument that reveals them is a flow cytometer: it counts cells one by one as they pass in front of a sensor. The signal is tiny. For a while, Sallie Chisholm recalls, the team talks of electronic noise: they were looking for something else.\n\nIt was not noise. The signal behaved differently depending on depth, which suggested it was something alive. Chisholm, Olson, and their colleagues publish the discovery in 1988 in the journal Nature: Prochlorococcus, a cyanobacterium 0.5 to 0.7 micrometer in diameter, the smallest known photosynthetic organism.\n\n## Almost Everywhere, Top to Bottom\n\nThe organism was unknown before 1988, and yet it is present almost everywhere between 40° north and 40° south. A 1999 review describes it at high density from the surface down to 200 meters, with maxima on the order of 700,000 cells per milliliter recorded in the Arabian Sea. The depth profile varies with the waters: in some, the concentration peaks very sharply near the bottom of the sunlit zone and drops by at least an order of magnitude at the surface. Its authors see in it the most abundant photosynthetic organism in the ocean and, probably, on Earth. MIT, where Chisholm works, writes cautiously that it may be the most abundant species, and NPR speaks of one of the most abundant organisms on the planet.\n\nThat leaves the question of how much it weighs in the ocean's photosynthesis. In the samples of the 1999 review, the share of phytoplankton production attributable to Prochlorococcus ranges from 11 to 57%. Technology Review puts it, for the sea as a whole, at as much as 20 to 30% of photosynthesis. An organism too small to be seen with the naked eye thus accounts, depending on the samples, for from a tenth to more than half of phytoplankton production.\n\n## One Breath in Five\n\nMIT states that Prochlorococcus is responsible for one in five human breaths. NPR reports the same order of magnitude while presenting it as an estimate: by some estimates, the oxygen in one breath in five comes from this bacterium.\n\nWhat Prochlorococcus shifts has as much to do with how it was found as with its size. One of the organisms most decisive for the air we breathe was discovered late, while looking for something else, thanks to an instrument that counts cells one by one. And it was discovered because researchers looked more closely at a signal that was about to be filed as noise, and that changed with depth. What other faint signals still sit, in other instruments, among the noise we have chosen not to listen to?",
+ "repere": {
+  "texte": "Maximum concentrations on the order of 700,000 Prochlorococcus cells per milliliter have been recorded in the Arabian Sea, and its authors see in it the most abundant photosynthetic organism in the ocean and, probably, on Earth.",
+  "source": "Partensky, Hess & Vaulot, “Prochlorococcus, a Marine Photosynthetic Prokaryote of Global Significance,” Microbiology and Molecular Biology Reviews, 1999",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC98958/"
+ },
+ "carte": {
+  "punch": "Mistaken for instrument noise, it may be behind one breath in five.",
+  "idee": "In 1985, off Barbados, a tiny red signal is first called electronic noise. Yet it changes with depth: it is Prochlorococcus, a cyanobacterium 0.5 to 0.7 micrometer across, which, according to MIT, is responsible for one human breath in five.",
+  "source_courte": "Partensky 1999; MIT; Technology Review"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NPR: The Most Important Microbe You've Never Heard Of",
+   "url": "https://www.npr.org/2008/06/12/91448837/the-most-important-microbe-youve-never-heard-of",
+   "note": "In English; a look back at twenty years since the discovery: by some estimates, the oxygen in one breath in five comes from Prochlorococcus."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the researchers eventually stop treating the signal observed in 1985 as electronic noise?",
+  "choix": [
+   "Because it appeared only at the surface, where light is strongest",
+   "Because it behaved differently depending on depth, which suggested it was something alive",
+   "Because a genetic analysis had revealed its nature as early as 1985",
+   "Because it stayed the same at all depths, like an instrument defect"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Chisholm explains that what was taken for noise behaved differently at different depths, which pointed to a living organism. The other answers are wrong: Prochlorococcus is present from the surface down to 200 meters, an identical signal everywhere would instead have pointed to an instrument defect, and it was flow cytometry, not genetics, that led to the discovery announced in 1988.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How big is Prochlorococcus?",
+   "choix": [
+    "About 5 micrometers, the size of an ordinary bacterium",
+    "About 50 micrometers, visible under a standard light microscope",
+    "About 0.05 nanometer, at the limit of atomic resolution",
+    "Between 0.5 and 0.7 micrometer in diameter"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Prochlorococcus measures 0.5 to 0.7 micrometer in diameter, making it the smallest known photosynthetic organism (Partensky, Hess, and Vaulot, 1999)."
+  },
+  {
+   "question": "What estimate does the Massachusetts Institute of Technology put forward about Prochlorococcus's role in human breathing?",
+   "choix": [
+    "That it is responsible for all of the Earth's oxygen",
+    "That it has no measurable effect on the atmosphere",
+    "That it is responsible for about one human breath in five",
+    "That it is responsible for one breath in a hundred"
+   ],
+   "bonne_reponse": 2,
+   "explication": "MIT states that Prochlorococcus is responsible for one human breath in five; NPR presents the same figure as an estimate (by some estimates)."
+  },
+  {
+   "question": "What maximum concentration of Prochlorococcus cells has been recorded in the Arabian Sea?",
+   "choix": [
+    "Up to 700 cells per liter of surface water",
+    "Up to 700,000 cells per milliliter",
+    "Up to 7 million cells per cubic meter of seabed",
+    "No direct measurement: the concentration has only been estimated by model"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 1999 review by Partensky, Hess, and Vaulot reports maximum concentrations on the order of 700,000 cells per milliliter in the Arabian Sea."
+  }
+ ]
+}

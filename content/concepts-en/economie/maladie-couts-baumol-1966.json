@@ -1,0 +1,78 @@
+{
+ "id": "econ-maladie-couts-baumol-1966",
+ "slug": "maladie-couts-baumol-1966",
+ "langue": "en",
+ "empreinte_fr": "504e3a2e315c0e86",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Original en anglais, William Baumol et William Bowen (American Economic Review, 1965) ; traduit depuis le français, à rétablir avec le texte original."
+  }
+ ],
+ "titre": "Baumol's Cost Disease, or Why a Concert Keeps Getting Pricier",
+ "accroche": "A Schubert quartet takes the same time as in 1826. The concert ticket, though, has never stopped getting more expensive.",
+ "contenu_vulgarise": "A string quartet playing Schubert takes the same time in 2026 as in 1826: four musicians, one work, a duration set by the score. No productivity gain is possible without changing the music itself. And yet the price of a concert ticket has climbed far faster than inflation over two centuries. This is the paradox that the economists William Baumol and William Bowen describe in 1965 in a famous article, then in a book the following year, *Performing Arts, The Economic Dilemma*.\n\n## The Mechanism: Wages That Follow, Productivity That Doesn't\n\nIn manufacturing, productivity rises year after year: a faster machine, a better-organized assembly line, produce more with the same number of labor hours. Wages follow that rise, since the employer can pay more without unit costs going up. But a sector like live performance has no comparable productivity gain: playing a Schubert quartet still requires four musicians, for the same duration, whatever the century.\n\nThe problem is that these two sectors recruit in the same labor market. To keep its musicians rather than see them leave for better-paid occupations, the orchestra has to raise their wages at the same pace as industry, without any productivity gain to absorb it. The cost of producing a concert therefore climbs mechanically, not because the musicians' work has become better or scarcer, but because other people's work has become so elsewhere. Baumol and Bowen call this phenomenon the cost disease: a price increase that comes from a neighboring sector, not from the sector itself.\n\n## A Mechanism That Reaches Far Beyond Music\n\nBaumol later extended the reasoning to every sector where the service rests on a human relationship that is hard to automate: health care, education, justice, elder care. A nurse takes the same time to change a dressing as in 1966; a teacher, the same time to grade a paper. In both cases, wages rise with the rest of the economy, without the task itself going any faster: which explains part of the continuing rise in health and education spending in rich countries, well beyond what general inflation alone would account for.\n\nThe shift this mechanism proposes runs against a common reflex: faced with the rising cost of a hospital or an orchestra, we first look for an inefficiency to fix. Baumol's cost disease says the opposite: that the rise can be the very sign that the rest of the economy is becoming more efficient, and that certain human services, precisely because they resist automation, will structurally cost more and more relative to one another. It is not a malfunction to repair: it is the price of everything that cannot be replaced by a machine.",
+ "citation": {
+  "texte": "The hourly productivity of the violinist playing a Schubert quartet in a standard concert hall has remained roughly fixed.",
+  "auteur": "William Baumol and William Bowen",
+  "source": "On the Performing Arts: The Anatomy of Their Economic Problems, The American Economic Review, vol. 55, no. 1/2, 1965, pp. 495-502",
+  "url": "https://www.jstor.org/stable/1816292"
+ },
+ "carte": {
+  "punch": "A Schubert quartet takes the same time as in 1826. The concert costs more and more.",
+  "idee": "In 1965, Baumol and Bowen note that a string quartet goes no faster than in the 19th century: it still takes four musicians, for the same duration. Yet their wages follow those of sectors that have become more productive, with no productivity gain to absorb it.",
+  "source_courte": "Baumol & Bowen, AER, 1965"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does the cost of a classical concert rise faster than inflation, even though playing a quartet goes no faster than before?",
+  "choix": [
+   "Because orchestras today employ fewer musicians than in the 19th century",
+   "Because the price of concert halls has soared since the 1960s",
+   "Because musicians' wages follow those of sectors that have become more productive, with no productivity gain to compensate",
+   "Because demand for classical music has risen sharply since 1966"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Musicians are paid in the same labor market as sectors where productivity is growing; their wages must therefore keep pace to avoid an exodus to those sectors, yet a string quartet cannot produce more per hour to absorb the increase.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In what year do Baumol and Bowen publish the founding article describing this mechanism?",
+   "choix": [
+    "1965",
+    "1948",
+    "1966",
+    "1974"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The founding article appears in 1965 in The American Economic Review; the book that gives the phenomenon its lasting name follows in 1966."
+  },
+  {
+   "question": "To which other sectors does Baumol later extend this reasoning, beyond live performance?",
+   "choix": [
+    "Agriculture and fishing",
+    "Health care, education, and elder services",
+    "The auto industry and steelmaking",
+    "Retail and logistics"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Baumol extends the mechanism to every sector built on a human relationship that is hard to automate, such as health care, education, justice, or elder care."
+  },
+  {
+   "question": "According to the cost disease, what does the rising cost of a hospital or an orchestra, relative to the rest of the economy, signify?",
+   "choix": [
+    "That the sector has always been inefficient and urgently needs reform",
+    "That demand for this type of service has fallen sharply in recent decades",
+    "That the rest of the economy is becoming more efficient, while this service resists automation",
+    "That prices have been set arbitrarily by a government decision"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The rise is a sign that the rest of the economy is becoming more productive, while this particular human service resists automation by its very nature."
+  }
+ ]
+}

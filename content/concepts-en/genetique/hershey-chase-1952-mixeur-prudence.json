@@ -1,0 +1,72 @@
+{
+ "id": "gen-hershey-chase-1952-mixeur-prudence",
+ "slug": "hershey-chase-1952-mixeur-prudence",
+ "langue": "en",
+ "empreinte_fr": "79b72c16a20489ba",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Anglais, Hershey et Chase, résumé de l'article de 1952 : « probably has no function in the growth of the intracellular phage » retraduit depuis le français ; la phrase « The DNA has some function. » reprend l'anglais présent dans quiz/explication."
+  }
+ ],
+ "titre": "The blender experiment, more cautious than its legend",
+ "accroche": "The abstract of Hershey and Chase's 1952 paper concludes: “The DNA has some function.” The blender legend says more than that sentence.",
+ "contenu_vulgarise": "Textbooks sum up the 1952 experiment in one sentence: Hershey and Chase showed, using a kitchen blender, that DNA is the genetic material. Wikipedia even writes that they concluded it was DNA, not protein, that played this role. Yet when you read the abstract of their paper, the wording is far more sober.\n\n## The protocol\n\nAlfred Hershey and Martha Chase work on a bacterial virus, bacteriophage T2. They distinguish two components of the virus: a protein that contains sulfur, and DNA, which contains phosphorus. By labeling one or the other with a radioactive isotope, they can follow where each goes when the virus infects a bacterium.\n\nTheir experiments show that the sulfur-containing protein forms a coat that protects the DNA, that it is responsible for the virus's attachment to the bacterium, and that it serves as the instrument for injecting the DNA into the cell.\n\n## What they measure\n\nSuspensions of infected cells, agitated in a Waring blender, release into the solution 75% of the phage's sulfur and only 15% of its phosphorus, under the effect of shear force. The cells nevertheless remain capable of producing new viruses. The authors conclude that most of the sulfur stays on the surface of the cell, and that most of the DNA enters it. Viruses produced by bacteria infected with phage labeled with radioactive sulfur contain less than 1% of the parental radioactivity; those from phage labeled with phosphorus retain 30% or more.\n\nThe last point of their abstract is measured: the protein “probably has no function in the growth of the intracellular phage.” Then: “The DNA has some function.” Then this caution: no further chemical inferences should be drawn from these experiments.\n\n## What the experiment does not say\n\nIt does not say that DNA alone controls everything. The abstract itself specifies that it has not been determined whether sulfur-free material other than DNA enters the cell. And according to Wikipedia, Hershey and Chase did not take a position on the precise role of DNA as hereditary material: they only said that it had a still undefined role.\n\nThe result was received on prepared ground. The 1944 paper by Avery, MacLeod and McCarty had already suggested that DNA was the genetic material, but, again according to Wikipedia, the scientific community still hesitated to accept it. Hershey received the 1969 Nobel Prize in Physiology or Medicine, with Max Delbrück and Salvador Luria, for discoveries concerning the genetic structure of viruses.\n\n## What the episode teaches\n\nA scientific text is often more cautious than the story told about it afterward. The blender legend is not false at its core, but it is more assertive than the sentence the authors chose to write.",
+ "repere": {
+  "texte": "Agitated in a Waring blender, phage-bacteria complexes lose 75% of the phage's sulfur and only 15% of its phosphorus; the cells remain capable of producing phages.",
+  "source": "Hershey and Chase, Journal of General Physiology, 36, 1952",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2147348/"
+ },
+ "carte": {
+  "punch": "The abstract of the blender paper concludes: “The DNA has some function.”",
+  "idee": "In 1952, Hershey and Chase measure that the blender detaches 75% of the virus's sulfur and 15% of its phosphorus. Their abstract stays cautious; the legend turns it into definitive proof.",
+  "source_courte": "J. Gen. Physiol., 1952"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "DNA from the Beginning — Bacteria and viruses have DNA too",
+   "url": "https://dnaftb.org/18/",
+   "note": "In English; animated presentation of the experiment."
+  }
+ ],
+ "quiz": {
+  "question": "What does the end of the 1952 paper's abstract say about the role of DNA?",
+  "choix": [
+   "DNA is the sole carrier of all heredity",
+   "DNA has some function, with no further chemical inferences to be drawn",
+   "DNA is merely a scaffold for proteins",
+   "DNA codes for proteins using a three-letter code"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The abstract ends with “The DNA has some function. Further chemical inferences should not be drawn from the experiments presented.” The other three statements do not appear in this conclusion.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What proportion of the virus's phosphorus does agitation detach from the bacteria?",
+   "choix": [
+    "About 75%",
+    "More than half",
+    "All of the phosphorus",
+    "About 15%"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The blender releases 75% of the phage's sulfur, and therefore of its protein, but only 15% of its phosphorus: the DNA stays mostly with the cells, which keep producing viruses."
+  },
+  {
+   "question": "What earlier work had already suggested that DNA was the genetic material?",
+   "choix": [
+    "The 1944 paper by Avery, MacLeod and McCarty",
+    "Mendel's experiments on peas in 1866",
+    "Watson and Crick's double helix model in 1953",
+    "The sequencing of the human genome in 2003"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The work of Avery, MacLeod and McCarty (1944) had already suggested that DNA was the genetic material, but the scientific community still hesitated to accept it, according to Wikipedia. The other three dates are either earlier and unrelated, or later than 1952."
+  }
+ ]
+}

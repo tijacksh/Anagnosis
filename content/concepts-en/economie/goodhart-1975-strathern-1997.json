@@ -1,0 +1,105 @@
+{
+ "id": "econ-goodhart-1975-strathern-1997",
+ "slug": "goodhart-1975-strathern-1997",
+ "langue": "en",
+ "empreinte_fr": "08761dc2fb2a7783",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Retraduit du français (lui-même traduit de l'anglais) ; Marilyn Strathern, European Review, 1997. Mention « traduit de l'anglais » retirée de citation/source."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Retraduit du français : formule de Strathern, phrase de Goodhart de 1975 (« Toute régularité statistique… », « traduite de l'anglais » retiré du texte), formulation de Hoskin rapportée par Wikipedia, et expressions « audit explosion » ; originaux anglais à restituer."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "« l'affreuse idée de la responsabilité chiffrée » rendu par “awful idea of numerical accountability” ; le titre anglais du chapitre dit seulement “awful idea of accountability”, « chiffrée » est dans le français de la fiche."
+  }
+ ],
+ "titre": "Goodhart's Law: The Famous Formula Isn't the One From 1975",
+ "accroche": "In 1975, Charles Goodhart writes about British money. The formula that bears his name dates from 1996-1997, and says something else.",
+ "contenu_vulgarise": "“When a measure becomes a target, it ceases to be a good measure.” It is called Goodhart's law, after the British economist Charles Goodhart, and it gets pulled out whenever an indicator is hijacked by those it evaluates. Yet in this form the sentence is found in a 1997 anthropology article on British universities, which ties it to a 1996 chapter. Goodhart himself wrote something else, twenty-two years earlier.\n\n## What Goodhart wrote in 1975\n\nIn 1975, Goodhart publishes “Problems of Monetary Management: The U.K. Experience” in the Reserve Bank of Australia's *Papers in Monetary Economics*. In it he deals with the conduct of monetary policy in the United Kingdom, and, about the statistical relationships on which the authorities rely to steer the money supply, he formulates the following sentence: “Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.”\n\nThe statement concerns a regularity, that is, a stable relationship observed between two quantities, and an authority that decides to use it as a lever. As long as one merely observes, the relationship holds. As soon as one relies on it to act, it may give way. The argument was later used to criticize the monetary policy of the Thatcher government, based on money supply targets.\n\n## Where the quoted formula comes from\n\nIn 1996, the education researcher Keith Hoskin publishes a chapter on the “awful idea of numerical accountability,” which he traces back to Britain around 1800. According to the quotation Wikipedia gives of it, he writes there that “Goodhart's law” is that any measure that becomes a target becomes a bad measure. The following year, the anthropologist Marilyn Strathern draws on him in an article on what she calls the “audit explosion” in British higher education (*European Review*, 1997). She writes the sentence quoted above, and illustrates it: the more a “2.1” (the “upper second” of British degrees) becomes an expectation, the less it distinguishes individual performances. She then specifies that Hoskin describes this as “Goodhart's law,” after the latter's observation about monetary control instruments.\n\nHoskin and Strathern therefore don't attribute the sentence to Goodhart: they attribute the label.\n\n## Two mechanisms under one name\n\nThe 1975 statement and the 1996-1997 formula don't say the same thing. The first concerns prediction: a relationship observed in the past ceases to be reliable when it is turned into an instrument. The second concerns incentives: an indicator to which rewards are attached is worked for its own sake, until it no longer tells you anything about what it was supposed to measure. An idea close to the second, Campbell's law, is said by some authors to have formulations as early as 1969.\n\nWhen a success rate, a number of tests, or a citation score is gamed, it is the second mechanism at work, and Goodhart's 1975 quotation doesn't establish it.\n\nWhat remains, for each hijacked indicator, is to know which of the two is at play: a regularity that comes undone, or a measure that people ended up aiming at.",
+ "citation": {
+  "texte": "When a measure becomes a target, it ceases to be a good measure.",
+  "auteur": "Marilyn Strathern",
+  "source": "“'Improving ratings': audit in the British University system,” European Review, vol. 5, no. 3, 1997, pp. 305-321",
+  "url": "https://archive.org/details/ImprovingRatingsAuditInTheBritishUniversitySystem"
+ },
+ "carte": {
+  "punch": "The most-cited “Goodhart's law” dates from 1996-1997, and Goodhart is not its author.",
+  "idee": "Goodhart writes in 1975 that a statistical regularity tends to collapse as soon as it is used for steering. The formula “when a measure becomes a target, it ceases to be a good measure” is Strathern's (1997), who takes the label “Goodhart's law” from Hoskin (1996).",
+  "source_courte": "Goodhart, 1975; Strathern, 1997"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Keith Hoskin, “The 'awful idea of accountability': inscribing people into the measurement of objects” (1996)",
+   "url": "https://gwern.net/doc/statistics/decision/1996-hoskin.pdf",
+   "note": "The chapter from which Strathern takes the label “Goodhart's law.” The PDF could not be read here (no text layer): the Hoskin quotation in the entry is the one reported by Wikipedia."
+  }
+ ],
+ "quiz": {
+  "question": "What is the difference between Goodhart's 1975 statement and the formula “when a measure becomes a target”?",
+  "choix": [
+   "None: Strathern simply translated Goodhart's sentence into everyday language",
+   "Goodhart describes an indicator hijacked by those it evaluates, the formula a statistical relationship that comes undone",
+   "The first concerns a statistical relationship that gives way when it is used for steering, the second an indicator that is gamed",
+   "Goodhart limits his statement to money, the formula concerns only university grades"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Goodhart (1975) talks about a statistical regularity that collapses when the authorities use it as a lever; the formula talks about an indicator that is worked for its own sake. It is not a translation of Goodhart: Hoskin and Strathern take only the label from him, and Strathern is writing about universities.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In what context does Goodhart formulate his 1975 statement?",
+   "choix": [
+    "British university grades",
+    "The monetary policy of the United Kingdom",
+    "University rankings",
+    "Scientific citation scores"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In 1975, Goodhart publishes “Problems of Monetary Management: The U.K. Experience,” a text on the conduct of British monetary policy. University grades are the example Strathern will choose twenty years later, not Goodhart's."
+  },
+  {
+   "question": "Who used Goodhart's statement to criticize an economic policy, and which one?",
+   "choix": [
+    "Hayek, against the American New Deal",
+    "Strathern, against the audit system of British universities",
+    "Commentators, against the monetary policy of the Thatcher government",
+    "Hoskin, against the Bank of England"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry states that Goodhart's argument “was later used to criticize the monetary policy of the Thatcher government, based on money supply targets.” Hayek, Strathern, and Hoskin do not appear in this role in the text."
+  },
+  {
+   "question": "According to the entry, what does Marilyn Strathern illustrate with the example of the “2.1” grade?",
+   "choix": [
+    "That a British statistical regularity of money collapsed in 1975",
+    "That British university degrees were abolished after 1996",
+    "That Goodhart himself studied university rankings",
+    "That the grade becomes less discriminating as it becomes a general expectation"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Strathern writes that the more the 2.1 grade becomes an expectation, the less it distinguishes individual performances, in her 1997 article on the audit of British universities. The other options correspond to nothing in the text."
+  },
+  {
+   "question": "What exactly do Hoskin and Strathern do with the sentence “when a measure becomes a target”?",
+   "choix": [
+    "They cite Goodhart as the direct author of this exact sentence, published in 1975",
+    "They invent Campbell's law, which predates them by several years",
+    "They translate into plain English a text that Goodhart had written in Swedish",
+    "They forge the formula and name it “Goodhart's law,” without attributing it to his 1975 sentence"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Hoskin (1996) and then Strathern (1997) formulate this sentence and name it “Goodhart's law” in reference to Goodhart's observation about monetary control instruments, without literally attributing it to him. Campbell's law predates them, and nothing in the entry mentions a translation from Swedish."
+  }
+ ]
+}

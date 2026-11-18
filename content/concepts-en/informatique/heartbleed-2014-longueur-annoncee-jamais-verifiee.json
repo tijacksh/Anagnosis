@@ -1,0 +1,66 @@
+{
+ "id": "inf-heartbleed-2014-longueur-annoncee-jamais-verifiee",
+ "slug": "heartbleed-2014-longueur-annoncee-jamais-verifiee",
+ "langue": "en",
+ "empreinte_fr": "cd5312f5c9a249ef",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Heartbleed: The Encryption Held Up. A Length Went Unchecked",
+ "accroche": "On April 7, 2014, a flaw in OpenSSL makes it possible to read servers' memory. The encryption is not broken: the server believes the length it is told.",
+ "contenu_vulgarise": "On April 7, 2014, the OpenSSL team releases a fix for a flaw the world will call Heartbleed. OpenSSL is the library that encrypts a large share of HTTPS connections. People often conclude that the encryption itself was broken. That is not what happened.\n\n## The mechanism\n\nThe flaw does not touch the encryption's calculations. It lies in a side function, the “heartbeat” extension, described in RFC 6520. Its principle is that of an echo: one computer sends a small message to check that the other is still there, and the other sends it back unchanged. The message includes a payload, say four bytes, and a field announcing its length. That field takes up 16 bits, so the announced length can go up to about 64 kilobytes.\n\nThe defect is this. The server read the announced length and copied that many bytes into its reply, without checking that the message it received actually contained that many. If a client sent four bytes while announcing 64,000, the server sent back its four bytes, then whatever sat right after them in memory. The official vulnerability registry (CVE-2014-0160) describes an out-of-bounds read, a “buffer over-read,” that makes it possible to obtain information from the process's memory. The public demonstration extracted private keys with it.\n\nThe faulty code had been in OpenSSL since December 2011, and in public releases since version 1.0.1, released on March 14, 2012. Versions 1.0.1 through 1.0.1f were affected, and 1.0.1g contains the fix. Each request delivered only 64 kilobytes, but the attacker could repeat it as often as desired. According to the discoverers, exploitation leaves no abnormal trace in the server's logs.\n\n## What the episode changes\n\nRFC 6520 already contained the rule that would have prevented the problem: a message whose announced length is too large must be silently discarded. The specification said what to do. The code did not check.\n\nThe case shows that an irreproachable cryptographic primitive does not protect a system in which a neighboring function trusts whatever it is told. Encryption protects the bytes in transit; it does not protect the ones the server mistakenly sends back from its own memory. A simple liveness-check function was enough to expose the process's memory.\n\nWhat other side functions, in the libraries we load without reading them, still believe what the client announces?",
+ "repere": {
+  "texte": "A heartbeat message announced its length on 16 bits, or about 64 KB of memory per request. OpenSSL 1.0.1 through 1.0.1f were affected, from March 14, 2012 until the fix in 1.0.1g on April 7, 2014.",
+  "source": "heartbleed.com; NVD, CVE-2014-0160; OpenSSL advisory of April 7, 2014; RFC 6520",
+  "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0160"
+ },
+ "carte": {
+  "punch": "Heartbleed didn't break encryption: a server believed the length announced by the client.",
+  "idee": "In 2014, OpenSSL's heartbeat function sent back as many bytes as the client announced, without checking the actual size of the message. Result: up to 64 KB of server memory per request, private keys included.",
+  "source_courte": "NVD, CVE-2014-0160; RFC 6520"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "RFC 6520: The Heartbeat Extension for TLS and DTLS",
+   "url": "https://www.rfc-editor.org/rfc/rfc6520",
+   "note": "The specification, which already provided for rejecting excessive lengths."
+  }
+ ],
+ "quiz": {
+  "question": "Why did Heartbleed make it possible to read a server's memory?",
+  "choix": [
+   "The server sent back as many bytes as the announced length, without comparing it to the message received",
+   "TLS's encryption algorithm had a mathematical flaw that Heartbleed exploited",
+   "Private keys were sent in the clear with every heartbeat by default",
+   "A hacker first had to open an authenticated session on the targeted server"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The defect is a missing length check in the heartbeat extension, not a flaw in the encryption. The keys were not sent on purpose: they happened to be in the memory that was read, and the NVD describes a remote attack using forged packets.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How long did the code behind Heartbleed remain exposed in published OpenSSL releases?",
+   "choix": [
+    "A little over two years, from the release of OpenSSL 1.0.1 in March 2012 to the 1.0.1g fix in April 2014",
+    "A few weeks, between its discovery by Codenomicon and its fix",
+    "More than ten years, the bug dating back to OpenSSL's creation",
+    "It was never present in a published release, only in the development repository"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The faulty code entered OpenSSL in December 2011 and appeared in published releases starting with 1.0.1 on March 14, 2012; the flaw was not fixed until 1.0.1g on April 7, 2014."
+  },
+  {
+   "question": "What did the RFC 6520 specification already provide for in order to prevent the Heartbleed flaw?",
+   "choix": [
+    "That the message length must always fit within 16 bits, a limit the code ignored",
+    "That the heartbeat extension must be disabled by default on production servers",
+    "That a message whose announced length is too large must be silently rejected",
+    "That each heartbeat message must be signed with a key separate from the TLS session key"
+   ],
+   "bonne_reponse": 2,
+   "explication": "RFC 6520 already required that an over-long heartbeat message be rejected without a reply; OpenSSL's code did not enforce this rule and copied the announced length without checking it."
+  }
+ ]
+}

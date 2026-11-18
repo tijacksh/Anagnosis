@@ -1,0 +1,77 @@
+{
+ "id": "bio-miller-urey",
+ "slug": "experience-miller-urey-origine-de-la-vie",
+ "langue": "en",
+ "empreinte_fr": "342509aa521687b8",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "« billionième de mole » rendu par « a trillionth of a mole » (billion français = 10^12, soit 10^-12 mole) ; en anglais américain « billionth » serait faux."
+  }
+ ],
+ "titre": "The Electrical Storm That Made Amino Acids",
+ "accroche": "In 1952, a 22-year-old graduate student runs sparks through a mixture of gases for a week and finds the building blocks of life in it.",
+ "contenu_vulgarise": "In the fall of 1952, at the University of Chicago, a 22-year-old graduate student, Stanley Miller, sets up a glass apparatus sealed on itself: a flask of water brought to a boil, a mixture of methane, ammonia, and hydrogen meant to approximate the atmosphere of the early Earth, and two tungsten electrodes that keep sparking an electrical discharge, standing in for lightning. His thesis advisor, Harold Urey, a Nobel laureate in chemistry, doubts at first that the experiment is worthwhile but lets Miller try it. It runs for a full week.\n\n## Cloudy Water, a Paper Published Alone\n\nAfter seven days, the inside of the flask is coated with an oily film and the water has turned a yellowish brown. Analyzing the mixture by paper chromatography, Miller identifies several amino acids, including glycine and alanine, alongside simpler organic acids. He publishes the result alone in Science on May 15, 1953; Urey refuses to be a coauthor so that the credit goes entirely to his student. The demonstration struck scientific minds of the day: molecules associated with life can arise, without any biological intervention, from simple chemistry subjected to a source of energy.\n\n## A Second Setup, Forgotten for Fifty-Four Years\n\nMiller, however, did not test just one configuration. Between 1953 and 1954, he also ran a different apparatus, in which a jet of steam blasts the gas mixture directly into the spark, to imitate a storm associated with a volcanic eruption. The instruments of the time revealed only five amino acids there, a more modest result than the classic setup (2.1% of the carbon supplied by methane converted into glycine, versus 1.8% for this second setup); Miller mentions it in a 1955 paper, without giving it the follow-up he gave his first experiment. The samples ended up sealed in vials, stored in his office.\n\nMiller dies in 2007. The geochemist Jeffrey Bada, who had been his student, finds the vials and has his team reopen them with instruments that did not exist in 1953: high-performance liquid chromatography and mass spectrometry, capable of detecting quantities below a trillionth of a mole. Published in Science in 2008, the reanalysis of eleven of these forgotten vials reveals 22 amino acids and 5 amines, several never before recorded in an electrical discharge experiment, where Miller himself had seen only five with the tools of his time.\n\nThe setup that Miller had set aside thus proves, more than fifty years later, chemically richer than what he believed he had obtained. This reinforces the idea that volcanic environments, rich in steam and lightning, may have been particularly favorable settings on the early Earth for the chemistry that precedes life, a lead still being studied today alongside undersea hydrothermal vents.",
+ "repere": {
+  "texte": "In the vials from Miller's volcanic experiment, forgotten for fifty-four years, the 2008 reanalysis identified 22 amino acids and 5 amines, whereas Miller himself had detected only five with the instruments of his day.",
+  "source": "Johnson, Cleaves, Dworkin, Glavin, Lazcano & Bada, “The Miller Volcanic Spark Discharge Experiment,” Science, 2008",
+  "url": "https://www.science.org/doi/10.1126/science.1161527"
+ },
+ "carte": {
+  "punch": "Vials forgotten for 54 years yielded 22 amino acids, where Miller had seen five.",
+  "idee": "In 1953, Stanley Miller simulates lightning in a mixture of gases and obtains amino acids. A second setup, imitating a volcanic storm, leaves sealed vials. Reanalyzed in 2008, they reveal 22 amino acids, where Miller had detected only five.",
+  "source_courte": "Miller, Science, 1953; Johnson et al., Science, 2008"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why did the 2008 reanalysis find far more amino acids than Miller had identified in the 1950s?",
+  "choix": [
+   "Because the sealed vials kept producing new amino acids during the fifty-four years of storage",
+   "Because Bada's team ran a new experiment with a gas mixture different from Miller's",
+   "Because analytical instruments, far more sensitive than in 1953, detect quantities that the techniques of the time could not see",
+   "Because Miller had deliberately left out part of his results to protect his 1953 discovery"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The gas mixture sealed in the vials has not changed since 1953: it is the analytical instruments, liquid chromatography and mass spectrometry, far more sensitive than those Miller had, that made it possible to detect compounds invisible to the techniques of the time.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why does Harold Urey refuse to appear as a coauthor of the paper published in 1953?",
+   "choix": [
+    "Because he doubted the validity of Miller's results",
+    "Because university rules forbade coauthoring with a graduate student",
+    "So that the credit for the discovery would go entirely to his student",
+    "Because he was already working on a competing experiment at the same time"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text specifies that Urey refuses to be a coauthor so that the credit for the result goes entirely to Miller, then a 22-year-old graduate student."
+  },
+  {
+   "question": "What was the second setup, tested by Miller between 1953 and 1954, trying to imitate?",
+   "choix": [
+    "A storm associated with a volcanic eruption",
+    "An undersea hydrothermal vent",
+    "The composition of today's atmosphere rather than that of the early Earth",
+    "A meteorite impact on a primordial ocean"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The body of the card describes this second setup as a jet of steam blasting the gas mixture into the spark, to imitate a storm associated with a volcanic eruption."
+  },
+  {
+   "question": "Who finds the sealed vials from the volcanic experiment after Miller's death in 2007?",
+   "choix": [
+    "Harold Urey, who had kept them since 1954",
+    "The University of Chicago, while sorting its archives",
+    "The journal Science, which demands them for verification",
+    "The geochemist Jeffrey Bada, a former student of Miller's"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The geochemist Jeffrey Bada, who was one of Miller's students, finds the vials and has his team reopen them with modern instruments."
+  }
+ ]
+}

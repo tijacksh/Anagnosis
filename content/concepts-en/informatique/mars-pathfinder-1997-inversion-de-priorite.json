@@ -1,0 +1,83 @@
+{
+ "id": "inf-mars-pathfinder-1997-inversion-de-priorite",
+ "slug": "mars-pathfinder-1997-inversion-de-priorite",
+ "langue": "en",
+ "empreinte_fr": "11141149b917590a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "Fragment « in under 18 hours » retraduit du français ; auteur d'origine Glenn Reeves (JPL), langue d'origine anglais."
+  }
+ ],
+ "titre": "Mars Pathfinder: The Resets Came From a Priority Inversion",
+ "accroche": "After the July 4, 1997 landing, Pathfinder's computer keeps resetting. The cause: a minor task was blocking a major one.",
+ "contenu_vulgarise": "Mars Pathfinder lands on July 4, 1997, in Ares Vallis. On site, the onboard computer starts resetting itself. Each time, the activities commanded from Earth for the day stop, and the rest waits until the next day. The data already collected, however, is not lost. Glenn Reeves, who led the software team at the Jet Propulsion Laboratory, told what had happened himself, in an email dated December 15, 1997 and then in a 1999 article.\n\n## The mechanism\n\nThe computer runs several tasks, each with a priority. A cycle of 0.125 seconds sets the rhythm of the bus that links the computer to the instruments. A very-high-priority task sets up each cycle, and another, also high-ranking, must have finished distributing the data before the first one restarts. If it hasn't, the system concludes there is a fault and resets.\n\nTo pass its data to the task in charge of weather, the distribution task needed a shared lock: a mechanism that lets only one task at a time touch an internal list. But the weather task, of much lower priority, was holding this lock when medium-priority tasks interrupted it. The distribution task ended up waiting on a weak task that could no longer move forward, because the medium tasks took precedence over it. This is a priority inversion: a weak task blocks a strong one.\n\nThe engineers found the cause in under 18 hours, by replaying the same activities in the lab. The flight software shipped by design with a tracing tool, which was not used in flight for lack of a way to send its data back; it was used to understand what had happened. The fix came down to one setting: enabling priority inheritance on this lock, so that the task holding it temporarily takes on the priority of the one waiting for it.\n\n## What it changes\n\nIt is often said that the team had not seen it coming. Reeves writes the opposite: the problem had been spotted before the landing, but could not be reproduced, and the team, focused on atmospheric entry and landing, had classified it as less urgent. The tests before launch covered only high data-rate cases, not the heavier load that was observed on the surface.\n\nReeves adds that there had been no decision to leave this option disabled: the team simply had not seen it. The system had been designed to reset without losing its data, and that safety net explains why the defect had been ranked among the less urgent ones.\n\nA rare failure can be known and remain benign. How many “unreproduced” defects are sleeping in systems whose next load will exceed what had been imagined?",
+ "repere": {
+  "texte": "The problem was reproduced in the lab “in under 18 hours,” then fixed by enabling priority inheritance on the lock used by select(), according to the mission's software lead.",
+  "source": "Glenn E. Reeves (JPL), “What really happened on Mars?”, email of December 15, 1997; “Priority Inversion: How We Found It, How We Fixed It,” Dr. Dobb's Journal, November 1999",
+  "url": "https://www.cs.unc.edu/~anderson/teach/comp790/papers/mars_pathfinder_long_version.html"
+ },
+ "carte": {
+  "punch": "Pathfinder kept resetting on Mars: a minor task was blocking a major one.",
+  "idee": "In 1997, a low-priority task held a lock that a high-priority task depended on, and medium tasks kept it from moving forward. A priority inheritance setting fixed it. The defect had been seen before the landing.",
+  "source_courte": "Reeves, JPL, 1997 and 1999"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NASA page for the Mars Pathfinder mission",
+   "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+   "note": "Mission background and landing date."
+  }
+ ],
+ "quiz": {
+  "question": "What setting fixed the Pathfinder problem?",
+  "choix": [
+   "Replacing the onboard processor with a more powerful model",
+   "Enabling priority inheritance on the select() mechanism's lock",
+   "Removing the weather task to free up computing time",
+   "Lengthening the 0.125-second cycle that set the bus's rhythm"
+  ],
+  "bonne_reponse": 1,
+  "explication": "With priority inheritance, the task holding the lock takes on the priority of the one waiting for it, and the medium tasks can no longer delay it. The processor was not changed, the weather task was kept, and the cycle stayed the same.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "At each reset, what happens to the activities commanded from Earth for the day?",
+   "choix": [
+    "They automatically resume from the last validated point",
+    "They stop, and the rest waits until the next day",
+    "They are transferred to a backup computer",
+    "The data already collected that day is erased"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text says the day's activities stop and the rest waits until the next day, while the data already collected is not lost."
+  },
+  {
+   "question": "Why was the tracing tool built into the flight software not used during the mission?",
+   "choix": [
+    "It had not been planned for when the software was designed",
+    "It consumed too much memory to run in flight",
+    "For lack of a way to send its data back to Earth",
+    "It had been disabled after a failed test before launch"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The tracing tool was planned from the design stage, but the article specifies that it was not used in flight for lack of a way to send its data back; none of the other reasons is mentioned."
+  },
+  {
+   "question": "Why had the tests run before launch not revealed the problem?",
+   "choix": [
+    "They covered only high data-rate cases, not the real load on the surface",
+    "They had been interrupted by a simulator failure",
+    "They tested a different lock from the one used in flight",
+    "They had revealed the problem, but the fix had been forgotten"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Reeves specifies that the tests before launch covered only high data-rate cases, not the heavier load observed on the surface of Mars."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "econ-big-mac-index-1986",
+ "slug": "big-mac-index-1986",
+ "langue": "en",
+ "empreinte_fr": "69597de366eab3d4",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "« bibliothèque suédoise » lu comme meuble (bookcase, probablement le Billy d'IKEA), pas comme library."
+  },
+  {
+   "chemin": "quiz_supplementaire/1/choix/2",
+   "type": "incertain",
+   "note": "« bibliothèque suédoise » lu comme meuble (bookcase), pas comme library."
+  },
+  {
+   "chemin": "quiz_supplementaire/1/explication",
+   "type": "incertain",
+   "note": "« bibliothèque » lu comme meuble (bookcase), pas comme library."
+  }
+ ],
+ "titre": "The Big Mac Index, or Purchasing Power Parity in a Sandwich",
+ "accroche": "In 1986, an economics newspaper compares the price of a hamburger around the world to gauge whether a currency is undervalued or overvalued.",
+ "contenu_vulgarise": "A Big Mac costs more in Switzerland than in Argentina. It isn't just a matter of local purchasing power: since 1986, it has been a yardstick for currencies. In September of that year, the British weekly The Economist, under the byline of its journalist Pam Woodall, publishes the Big Mac index for the first time, conceived at the outset as a half-serious illustration of a dry economic theory: purchasing power parity.\n\n## The principle: the same product, comparable everywhere\n\nThe theory of purchasing power parity holds that the exchange rate between two currencies should, over time, equalize the price of the same basket of goods in both countries. Checking this normally requires comparing thousands of products weighted in complex consumer baskets. The Economist simplifies radically: the Big Mac, made with the same ingredients and the same recipe in most countries of the world, serves as the basket all by itself. The calculation consists of dividing its local price by its price in the United States to get an implied exchange rate, then comparing that rate with the actual exchange rate: a higher implied rate signals an overvalued currency, a lower one an undervalued currency.\n\n## From a joke to a serious tool\n\nThe index was meant to remain a September joke, published once and then forgotten. Yet The Economist has republished it every year since, and it ended up in academic papers and international economics textbooks, cited in earnest by researchers who had asked for nothing of the kind, despite its well-known biases: the price of a Big Mac doesn't reflect only the exchange rate, it also carries the rent of the premises, labor costs, advertising, and taxes, elements that are never traded on an international market and that pure theory doesn't account for. This flaw is also what makes it an unexpected teaching tool: it makes visible, in the price of a sandwich, the part of the economy that escapes the law of exchange alone. Other publications have since adapted the principle (an index based on Starbucks coffee, another on a Swedish bookcase sold around the world) without ever recovering the universality of the product that made the first one possible.",
+ "repere": {
+  "texte": "In July 2023, a Big Mac cost 6.70 Swiss francs against $5.58 in the United States: an implied rate indicating a Swiss franc overvalued by about 38% against the dollar.",
+  "source": "The Economist, “big-mac-data” dataset, row for July 1, 2023",
+  "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv"
+ },
+ "carte": {
+  "punch": "In 1986, a newspaper compares the price of a hamburger from one country to the next to judge currencies.",
+  "idee": "In September 1986, Pam Woodall invents the Big Mac index in The Economist: dividing the local price of a hamburger by its American price gives an implied rate, to be compared with the actual rate to spot over- and undervalued currencies. A half-serious illustration, it ends up in the textbooks.",
+  "source_courte": "The Economist, 1986"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does the gap between the Big Mac's implied exchange rate and a currency's actual exchange rate reveal?",
+  "choix": [
+   "The cost of producing beef in each country",
+   "Whether the currency is overvalued or undervalued relative to the dollar",
+   "The number of McDonald's restaurants open in the country",
+   "The compared nutritional quality of the sandwich"
+  ],
+  "bonne_reponse": 1,
+  "explication": "An implied rate higher than the actual rate signals an overvalued currency, a lower rate an undervalued currency: that is the principle of purchasing power parity that the index illustrates, not the quality of the product or the number of restaurants.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which bias of the Big Mac index does the body of the entry explicitly acknowledge?",
+   "choix": [
+    "The absence of McDonald's in all poor countries",
+    "The price includes rent, labor, advertising, and taxes",
+    "The fact that the index was never republished after 1986",
+    "The impossibility of comparing two different currencies"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry cites these four elements as the part of the price that is never traded on an international market, unlike the annual republication and the very principle of the calculation."
+  },
+  {
+   "question": "According to the entry, which indexes were created by adapting the principle of the Big Mac index?",
+   "choix": [
+    "An index based on the price of wheat and another on the price of electricity",
+    "An index based on the average rent in major capitals",
+    "An index based on Starbucks coffee and another on a Swedish bookcase sold everywhere",
+    "An index based on the price of a movie ticket"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text cites a Starbucks coffee index and an index based on a bookcase sold around the world, neither of which recovered the universality of the Big Mac."
+  }
+ ]
+}

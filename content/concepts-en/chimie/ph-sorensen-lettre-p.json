@@ -1,0 +1,88 @@
+{
+ "id": "chi-ph-sorensen-lettre-p",
+ "slug": "ph-sorensen-lettre-p",
+ "langue": "en",
+ "empreinte_fr": "f05dc077cdf648a2",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Passages et termes de Sørensen cités depuis le mémoire français de 1909 (« exposant des ions hydrogène », « puissance négative de 10 », « peut être posé égal à 10⁻ᵖ ») ; mot de Clark (« confus », anglais) et « potentiel » (Clark, 1922, anglais) retraduits depuis le français."
+  },
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "« exposant des ions hydrogène » : terme de Sørensen tiré du mémoire français de 1909, retraduit depuis le français."
+  }
+ ],
+ "titre": "The p in pH, a letter whose meaning is still debated",
+ "accroche": "Does the p in pH come from “power”? Nørby finds no explanation of the letter in the 1909 paper; Jensen reads “power” in it.",
+ "contenu_vulgarise": "The H in pH stands for hydrogen, no one doubts that. As for the p, textbooks offer “power,” “potential,” and sometimes the Latin *pondus hydrogenii*, “weight of hydrogen.” For the Latin forms, Sørensen's writings offer no support. For “power” and “potential,” specialists disagree, as we shall see.\n\n## An exponent, not an acronym\n\nIn 1909, the Danish chemist Søren Sørensen, who headed the chemistry department of the Carlsberg Laboratory in Copenhagen from 1901 to 1938, publishes his paper on enzymes in two versions: one in French, in the Carlsberg Laboratory's proceedings, the other in German, in the *Biochemische Zeitschrift*. He has a practical problem. The acidity of a solution affects enzymes, and the hydrogen ion concentrations he handles are almost always well below 1: he must write negative powers of 10.\n\nHe proposes keeping only the exponent. He calls it the “hydrogen ion exponent,” *Wasserstoffionenexponent* in German, and writes it pH, with the H as a subscript to the p in the original. The definition is precise: the Briggsian logarithm of the reciprocal of the normality factor of the solution with respect to hydrogen ions. If the quantity of hydrogen ions per liter can be set equal to 10⁻⁴ gram-atom, the exponent is 4.\n\n## What the paper doesn't explain, according to Nørby\n\nThe biophysicist Jens Nørby reread this paper in 2000: according to him, Sørensen nowhere mentions what the letter p stands for. The American William Mansfield Clark had already noted as much in 1922: Sørensen had not revealed what led him to this letter, he wrote, and one could see in it “potential,” since the potential of a hydrogen electrode follows the logarithm of the concentration. Nørby sees this as Clark's personal interpretation.\n\nIn the next edition of his book, in 1928, Clark quotes two passages from the French paper: one speaks of a “negative power of 10,” the other says that the number of gram-atoms of hydrogen ions per liter “can be set equal to 10⁻ᵖ.” According to Nørby, these two passages are separated by 24 pages and Clark cut words from the second quotation, which creates between “power” and the letter p a link that no sentence of Sørensen's establishes. Clark is not alone in proposing such explanations: Nørby lists them in books and journals in English, German, Danish, and Swedish.\n\n## An arbitrary letter?\n\nNørby puts forward another lead. To present his electrometric method, Sørensen designates two solutions by p and q, a commonplace usage in mathematics. He fixes the concentration of solution q at 1, and the unknown remains “p.” According to him, the letter would come from a choice of label with no meaning.\n\nThis reading is contested. According to William Jensen, a historian of chemistry at the University of Cincinnati, Sørensen writes on page 134 of the German paper that he uses the name hydrogen ion exponent and the symbol pH for the numerical value of this *Potenz*, the power. Jensen finds it hard to reconcile this with the idea of a randomly chosen letter, and reads the p as power (Potenz, in German).\n\n## The displacement\n\nNeither Nørby nor Jensen cites a sentence of Sørensen's that literally says “p stands for…”: the latter relies on the one that ties the symbol pH to the Potenz, the former sees no explanation of the letter in it. What is established is the 1909 text: a definition, a name, a symbol. The meaning of the p is read into that text more than it appears in it, and the Latin etymologies recited in class have no support in Sørensen's writings.\n\nThe notation struggled to catch on. Clark already found it “confusing” that a quantity varies in the opposite direction from the concentration it represents. He bowed to usage, and the form pH won out over its variants, notably after its official adoption by the *Journal of Biological Chemistry* between 1910 and 1919.",
+ "repere": {
+  "texte": "In his 1909 paper, Sørensen defines the “hydrogen ion exponent” (pH) as the Briggsian logarithm of the reciprocal of the solution's normality factor; Nørby finds in it no mention of what the letter p stands for.",
+  "source": "Nørby, “The origin and the meaning of the little p in pH,” Trends in Biochemical Sciences 25(1), 36-37, 2000",
+  "url": "https://literature.wolkersdorfer.info/literature/The%20origin%20and%20the%20meaning%20of%20the%20little%20p%20in%20pH.pdf"
+ },
+ "carte": {
+  "punch": "The p in pH: Nørby and Jensen read Sørensen's paper differently.",
+  "idee": "Sørensen defines pH in 1909; Nørby finds no explanation of the p in it. Clark (1928) brought two passages together to read “power” in it; Jensen (2004) also reads “power,” from a different passage. The Latin forms have no support in his writings.",
+  "source_courte": "Nørby, 2000; Jensen, J. Chem. Educ., 2004"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Jensen — The Symbol for pH",
+   "url": "https://homepages.uc.edu/~jensenwb/reprints/102.%20pH.pdf",
+   "note": "Two pages, with the quotations from Sørensen and Clark, so you can judge from the evidence."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the meaning of the letter p in pH remain debated?",
+  "choix": [
+   "The 1909 paper has disappeared, and only late translations survive, with no evidentiary value",
+   "Sørensen writes there that the p comes from the Latin pondus, the “weight” of hydrogen, on page 134 of the German edition",
+   "Nørby finds no explanation of the p in it; Jensen reads the sought-after explanation in a passage on the Potenz",
+   "Sørensen gives two explanations of the p there, which contradict each other from one language version to the other"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Nørby (2000) finds in the paper no mention of what the p stands for; Jensen (2004, updated in 2009) cites page 134, where Sørensen ties the symbol pH to the Potenz, the power. The paper exists in two versions, French and German, and “pondus hydrogenii” does not appear in Sørensen's writings; “potential” is a reading by Clark (1922).",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What practical problem is Sørensen trying to solve in 1909?",
+   "choix": [
+    "Simplifying the notation of hydrogen ion concentrations, almost always below 1",
+    "Measuring the hydrogen ion concentration of a water sample for the first time",
+    "Replacing the base-10 logarithm with a more readable linear scale for the laboratory",
+    "Making a universal color indicator usable in all laboratories"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The hydrogen ion concentrations Sørensen handles are almost always below 1, which forces him to write negative powers of 10."
+  },
+  {
+   "question": "What precise definition does Sørensen give to pH in his 1909 paper?",
+   "choix": [
+    "The hydrogen ion concentration multiplied by the absolute temperature",
+    "The Briggsian logarithm of the reciprocal of the normality factor with respect to hydrogen ions",
+    "The square root of the solution's hydroxide ion concentration",
+    "The ratio of the hydrogen ion concentration to the hydroxide ion concentration"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Sørensen defines pH as the Briggsian logarithm of the reciprocal of the normality factor with respect to hydrogen ions."
+  },
+  {
+   "question": "What alternative thesis does Nørby put forward about the origin of the letter p?",
+   "choix": [
+    "It would come from the Latin word pondus, meaning the weight of hydrogen in the solution",
+    "It would have been chosen in tribute to a Scandinavian colleague named Petersen, never confirmed",
+    "p and q simply designated two generic solutions in his electrometric method",
+    "It would come from the initial of the Danish word for pure, used by Sørensen's disciples"
+   ],
+   "bonne_reponse": 2,
+   "explication": "To present his electrometric method, Sørensen names two solutions p and q; Nørby sees in this a choice of label with no particular meaning."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "id": "cli-premiere-prevision-numerique",
+ "slug": "premiere-prevision-numerique",
+ "langue": "en",
+ "empreinte_fr": "600aa6e007beadd7",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Six weeks of calculation for a forecast that was wrong at six hours",
+ "accroche": "Richardson calculates tomorrow's weather by hand. The result is absurd, and the method is today's",
+ "contenu_vulgarise": "Until the early 20th century, forecasting the weather meant recognizing situations. You compared the day's map with old maps, picked the one that looked most like it, and announced what had followed last time.\n\nLewis Fry Richardson wanted to replace this erudition with a calculation.\n\n## The idea\n\nThe atmosphere obeys known physical laws: conservation of mass, conservation of energy, the equations of motion of a fluid. Nothing, in principle, prevents starting from the observed state and calculating the next one.\n\nRichardson cuts Europe into cells, records the pressure, temperature, humidity, and wind in each, then applies the equations step by step to get the state six hours later.\n\nHe does this calculation by hand, partly during World War I, while driving an ambulance at the front. The work takes him several weeks.\n\n## The failure\n\nThe result is a disaster. His forecast predicts a pressure change of a magnitude the atmosphere never produces.\n\nRichardson published everything in 1922, the failure included.\n\nThe cause was understood only much later, and it does not lie in the method. The starting observations contained tiny inconsistencies, physically impossible imbalances between pressure and wind. The calculation, faithful to its inputs, amplified them into spurious waves that drowned the meteorological signal.\n\nBefore calculating, the initial data had to be adjusted to make them mutually compatible. This step is now called initialization, and no forecasting center does without it.\n\n## The forecast factory\n\nRichardson had also gauged what his method would cost in computing time, and from that he drew a famous image.\n\nHe imagines a vast amphitheater whose walls carry a map of the world. Tens of thousands of people calculate there in parallel, each responsible for one region, with a conductor coordinating the pace using beams of light. He puts the staff needed at 64,000 human computers, so that the forecast advances at the same speed as real time.\n\nIt is the description of a massively parallel processor, made in 1922, with humans in place of circuits.\n\n## What the failure founded\n\nThirty years later, on the first electronic computers, the same method finally produced usable forecasts.\n\nRichardson had lacked neither the physics nor the architecture of the computation. He lacked speed, and a data-preparation step that his own failure made visible.\n\nWork is rarely cited for its wrong results. This one is an exception: the forecast was absurd, and the path was the right one.",
+ "repere": {
+  "texte": "Richardson estimates that 64,000 human computers would be needed for the forecast to advance as fast as real time. His own attempt took him several weeks for six hours of forecast.",
+  "source": "Peter Lynch, “Richardson's Forecast-factory: the $64,000 Question,” The Meteorological Magazine, 122, 69-70 (1993)",
+  "url": "https://maths.ucd.ie/~plynch/Publications/64000.html"
+ },
+ "carte": {
+  "punch": "His forecast was absurd. His method is that of today's weather centers.",
+  "idee": "In 1922, Richardson calculates by hand the state of the atmosphere six hours later. The result is aberrant, not because of an error of method, but because his starting data were physically inconsistent.",
+  "source_courte": "Lynch, University College Dublin"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Lynch (2022) — Richardson's Forecast: the Dream and the Fantasy",
+   "url": "https://arxiv.org/pdf/2210.01674",
+   "note": "In English, open access; explains why the calculation diverged."
+  }
+ ],
+ "quiz": {
+  "question": "Why did Richardson's forecast produce an aberrant result?",
+  "choix": [
+   "Because the physical laws of the atmosphere were poorly understood at the time",
+   "Because he made calculation errors while working by hand",
+   "Because his division into cells was far too coarse",
+   "Because his starting data contained imbalances that the calculation amplified"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The method was sound; it is the one used by forecasting centers today. It was the initial observations that carried tiny inconsistencies between pressure and wind, amplified by the calculation into spurious waves. Hence the initialization step, now routine, which this failure made visible.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How was the weather forecast before Richardson's method?",
+   "choix": [
+    "By comparing the day's map with old maps and repeating what had followed last time",
+    "By measuring atmospheric pressure with sounding balloons released every morning",
+    "By applying fluid mechanics equations solved approximately by hand",
+    "By asking sailors about the warning signs they observed at sea"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Until the early 20th century, forecasting the weather meant recognizing situations: comparing the day's map with old maps and announcing what had followed the last time a similar map appeared.",
+   "statut": "valide"
+  },
+  {
+   "question": "In Richardson's image of the forecast factory, what does the conductor at the center of the amphitheater represent?",
+   "choix": [
+    "The manager who checks the final accuracy of each calculation before publication",
+    "The person who coordinates the pace of the human computers using beams of light",
+    "The chief meteorologist who alone decides the final forecast to announce",
+    "The engineer in charge of repairing faulty measuring instruments"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In Richardson's image, a conductor coordinates the pace of the tens of thousands of human computers with beams of light, so that the calculation advances at the speed of real time.",
+   "statut": "valide"
+  },
+  {
+   "question": "What had to be done to the starting data before running the calculation, as later events showed?",
+   "choix": [
+    "Supplement them with measurements taken by airplane, which did not exist in 1922",
+    "Convert them to a standardized metric system of units",
+    "Adjust them to make them mutually compatible, a step now called initialization",
+    "Have them independently checked by a second computer before any calculation"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The cause of the failure lay in tiny inconsistencies between pressure and wind in the initial data. They had to be adjusted to make them mutually compatible, a step now called initialization.",
+   "statut": "valide"
+  }
+ ]
+}

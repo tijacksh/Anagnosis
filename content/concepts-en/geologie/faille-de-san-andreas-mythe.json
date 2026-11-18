@@ -1,0 +1,72 @@
+{
+ "id": "geo-faille-de-san-andreas-mythe",
+ "slug": "faille-de-san-andreas-mythe",
+ "langue": "en",
+ "empreinte_fr": "98446bb637ce99d1",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Fault That Won't Drop California",
+ "accroche": "A stubborn myth says the “big one” will send California sliding into the ocean. The way the fault works makes that impossible.",
+ "contenu_vulgarise": "The scenario comes up again and again, in pop culture and in conversation: one day, a great earthquake on the San Andreas Fault will make California “fall” into the sea, cut off from the rest of the continent by a chasm opening beneath it. The U.S. Geological Survey (USGS) eventually devoted a whole page of its FAQ to the idea, just to shut it down.\n\n## A Slide, Not an Opening\n\nThe San Andreas Fault is not a boundary where two plates pull apart: it is a transform fault, or strike-slip fault. The two blocks of crust on either side, the Pacific Plate to the west and the North American Plate to the east, do not move away from each other. They slide horizontally, like two planks being slid side by side. At no point, then, does a gap open to let a piece of the continent sink or drift out to sea.\n\n## A Precise Direction\n\nThe USGS measures the relative motion between the two plates at about 46 to 50 millimeters per year at the scale of the plates, the often-cited equivalent of the speed at which a fingernail grows. Locally, along the fault itself, the slip rate is on the order of 20 to 35 millimeters per year. But the direction never changes: the Pacific Plate, which carries Los Angeles among other places, moves northwest relative to the North American Plate, which carries San Francisco. Over millions of years, this does not pull the two cities apart: it brings them together.\n\n## What the Myth Displaces\n\nThe USGS puts it bluntly: there is nowhere for California to fall, but Los Angeles and San Francisco will one day be neighbors. The real risk of the San Andreas Fault is therefore not geographic but seismic. Seismologists dread the buildup of enough stress along a locked segment, then its sudden release in a major earthquake: the “big one.” This is the same fault that ruptured over nearly 480 kilometers in the 1906 San Francisco earthquake, which the USGS estimates at magnitude 7.9. The danger is real and documented; it simply has nothing to do with a continent breaking away.",
+ "citation": {
+  "texte": "No, California is not going to fall into the ocean. California is firmly planted on the top of the earth's crust... there is nowhere for California to fall, however, Los Angeles and San Francisco will one day be adjacent to one another!",
+  "auteur": "United States Geological Survey (USGS)",
+  "source": "USGS FAQ, “Will California eventually fall into the ocean?”",
+  "url": "https://www.usgs.gov/faqs/will-california-eventually-fall-ocean"
+ },
+ "carte": {
+  "punch": "California won't fall into the ocean, but it is creeping toward San Francisco.",
+  "idee": "The myth says a great earthquake will drop California into the sea. False: the San Andreas Fault is a transform fault, and its blocks slide against each other without pulling apart. Over millions of years, Los Angeles moves closer to San Francisco, not farther away.",
+  "source_courte": "USGS, official FAQ"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why can't an earthquake on the San Andreas Fault make California “fall” into the ocean?",
+  "choix": [
+   "Because the San Andreas Fault is too inactive to produce an earthquake of that size",
+   "Because it is a transform fault: the blocks slide against each other and no gap ever opens",
+   "Because the Earth's crust there is too thick to fracture at depth",
+   "Because California earthquakes occur too far from the coast to affect the shoreline"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The San Andreas Fault is a transform fault: the two plates slide horizontally against each other and do not pull apart. No mechanism opens a chasm beneath California; the real effect, over millions of years, is a gradual convergence of Los Angeles and San Francisco.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Over millions of years, what is the real effect of the San Andreas Fault's motion on Los Angeles and San Francisco?",
+   "choix": [
+    "It gradually moves them farther apart",
+    "It has no measurable effect on their relative positions",
+    "It brings them closer together",
+    "It makes them rotate around each other without bringing them closer or moving them apart"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The Pacific Plate, which carries Los Angeles, moves northwest relative to the North American Plate, which carries San Francisco. Over millions of years, this does not pull the two cities apart: it brings them together."
+  },
+  {
+   "question": "According to the USGS, how fast does the Pacific Plate move relative to the North American Plate, at the scale of the plates?",
+   "choix": [
+    "About 5 centimeters per day",
+    "About 46 to 50 millimeters per year",
+    "About 200 to 300 millimeters per year",
+    "About 1 millimeter per century"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The USGS measures the relative motion between the two plates at about 46 to 50 millimeters per year at the scale of the plates, a speed often compared to the growth of a fingernail."
+  },
+  {
+   "question": "How far did the fault rupture in the 1906 San Francisco earthquake?",
+   "choix": [
+    "A rupture of nearly 50 kilometers, in a magnitude 6.5 earthquake",
+    "A rupture of nearly 480 kilometers, in a magnitude 5.2 earthquake",
+    "No surface rupture was observed in this earthquake",
+    "A rupture of nearly 480 kilometers, in a magnitude 7.9 earthquake"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The 1906 San Francisco earthquake, estimated by the USGS at magnitude 7.9, ruptured the San Andreas Fault over nearly 480 kilometers."
+  }
+ ]
+}

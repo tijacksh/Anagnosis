@@ -1,0 +1,6 @@
+{
+  "_": "Qui traduit quoi (rattrapage des fiches sans version anglaise). Fichier édité à la main par les humains, JAMAIS par une routine : un fichier que chaque routine écrit finit en conflit. Une voie = les disciplines qu'elle traite ; `*` = toutes, un préfixe suivi de `*` = toutes celles qui commencent ainsi. Les fiches NOUVELLES ou retouchées ne dépendent pas de ce fichier : l'anglais est écrit par la routine qui écrit ou retouche le français.",
+  "_statut": "PROPOSITION à valider par Arnaud et Vincent (2026-11-18) : le droit chez Vincent (il faut retrouver les textes officiels anglais sur le web), le reste chez Arnaud.",
+  "vincent": { "disciplines": ["droit_*"] },
+  "arnaud": { "disciplines": ["*"], "sauf": ["droit_*"] }
+}

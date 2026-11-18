@@ -1,0 +1,71 @@
+{
+ "id": "gen-vrais-jumeaux-genomes-differents",
+ "slug": "vrais-jumeaux-genomes-differents",
+ "langue": "en",
+ "empreinte_fr": "b17bd6e19d367fe8",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Identical Twins Are Not Genetically Identical",
+ "accroche": "Two twins from the same egg already accumulate different mutations before they are even born",
+ "contenu_vulgarise": "Twin studies hold a special place in genetics: comparing monozygotic twins, who come from a single fertilized egg, with dizygotic twins, who come from two separate eggs, makes it possible to estimate how much of the differences between individuals comes from genes rather than environment. The whole method rests on one simple assumption: monozygotic twins share an identical genome.\n\nA team from deCODE genetics in Iceland measured in 2021 just how approximate that assumption is.\n\n## Mutations Before Birth\n\nThe team sequenced the genomes of 387 pairs of Icelandic monozygotic twins, along with those of their parents, spouses, and children. That was enough to pinpoint, in each twin's genome, the mutations that came from neither parent and that are not found in the co-twin.\n\nResult: the two twins in a pair differ on average by 5.2 mutations that arose early in development. In about 15% of pairs, the gap is markedly wider: one twin carries far more mutations of their own than the other.\n\nThe explanation lies in when these mutations arise. The fertilized egg divides into two distinct masses of cells, each of which will become a twin, but this split does not happen at the exact moment of the first cell division. In the interval (the embryo's very first divisions), DNA copying errors already occur, as in any cell division. A mutation that arises at this stage is found only in the line of cells that will give rise to one of the two twins, and is absent from the other.\n\n## Identical Never Meant Identical\n\nThese mutations are not mere laboratory curiosities. Some affect cells that will become reproductive cells, and so are passed on to the children of only one of the two twins, never to those of the other. Two cousins who are supposed to share the same parental genetic heritage, through monozygotic twins, can thus inherit genetically distinct variants without any anomaly being involved.\n\nFor heritability studies, the measured difference remains tiny next to the rest of the genome, which is shared almost identically. Above all, it is a reminder that “identical” has always been a statistical convenience, true at the scale at which classical genetics worked, and less and less true as sequencing gains resolution.",
+ "repere": {
+  "texte": "By sequencing 387 pairs of Icelandic monozygotic twins, along with their parents, spouses, and children, the deCODE genetics study (2021) measures an average difference of 5.2 early mutations between the two twins in a pair; in about 15% of pairs, the gap is markedly wider in one of the two.",
+  "source": "Jonsson et al., “Differences between germline genomes of monozygotic twins,” Nature Genetics, 2021",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33414551/"
+ },
+ "carte": {
+  "punch": "Two twins from the same egg already have, at birth, mutations the other does not.",
+  "idee": "Monozygotic twins share the same fertilized egg, but not a strictly identical genome. An Icelandic study of 387 pairs measures an average of 5.2 mutations that arose before birth and are unique to only one of the two, sometimes passed on to their own children.",
+  "source_courte": "Jonsson et al., Nature Genetics 2021"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "When do the mutations that set apart the genomes of two identical twins arise?",
+  "choix": [
+   "In the very first days of development, before or just after the embryo splits in two",
+   "Only after birth, under the influence of each twin's own environment",
+   "Never: the two twins keep a rigorously identical genome throughout their lives",
+   "Only in adulthood, when reproductive cells form"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The fertilized egg divides into two distinct masses of cells in the very first days. Mutations that occur during the very first divisions, before or during this split, often end up only in the cells of one of the two twins. That is what the 2021 study measures, not differences due to the environment or to adult reproduction.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why do mutations differ between two monozygotic twins, given that they come from a single fertilized egg?",
+   "choix": [
+    "Environmental factors specific to each twin, after birth, later alter each twin's DNA separately",
+    "The placenta filters markedly different nutrients for each of the two twins over the course of the pregnancy",
+    "The split into two masses of cells does not occur at the exact moment of the first division, and some copying errors remain unique to a single twin",
+    "The two twins are exposed to markedly different levels of radiation throughout the pregnancy"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The split into two masses of cells does not occur at the moment of the first division; copying errors that occur in the interval remain unique to one of the two twins."
+  },
+  {
+   "question": "In roughly what proportion of the 387 pairs studied is the mutation gap markedly wider in one of the two twins?",
+   "choix": [
+    "About 50% of pairs",
+    "About 2% of pairs",
+    "Nearly 90% of pairs",
+    "About 15% of pairs"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The study measures a markedly wider gap in one of the two twins in about 15% of the 387 sequenced pairs."
+  },
+  {
+   "question": "Why can two cousins born to monozygotic twins inherit distinct genetic variants?",
+   "choix": [
+    "Because some monozygotic twins actually have, in rare documented cases, two distinct biological fathers",
+    "Because some early mutations affect cells that become reproductive cells, and are passed on only to the children of the twin who carries them",
+    "Because mutations of environmental origin accumulate differently once the twins have grown up",
+    "Because the study published in 2021 showed that such differential transmission was in fact impossible"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Some mutations affect cells that will become reproductive cells, and so are passed on to the children of only one of the two twins, never to those of the other."
+  }
+ ]
+}

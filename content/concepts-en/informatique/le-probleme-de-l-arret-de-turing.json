@@ -1,0 +1,82 @@
+{
+ "id": "inf-le-probleme-de-l-arret-de-turing",
+ "slug": "le-probleme-de-l-arret-de-turing",
+ "langue": "en",
+ "empreinte_fr": "781e39ff70be1a5f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "No Program Can Predict Whether Another Will Loop",
+ "accroche": "In 1936, a 36-page paper proves that no algorithm can say in advance whether an arbitrary program will stop or run forever.",
+ "contenu_vulgarise": "A piece of software crashes, hangs, runs endlessly. The question seems innocent: why has no one ever written a program able to tell in advance, for any other program, whether it will ever stop? This is not an unsolved engineering problem. It is a problem that was proven, in 1936, to have no general solution, whatever computing resources are available, today or in a thousand years.\n\n## A decision problem, posed by Hilbert\n\nIn 1928, the mathematician David Hilbert had posed the Entscheidungsproblem: is there a mechanical method that, applied to any logical statement, says in a finite number of steps whether it is true or false? Alan Turing, then 23 and a recent fellow of King's College, Cambridge, tackles this question in a paper submitted on May 28, 1936, “On Computable Numbers, with an Application to the Entscheidungsproblem.” To answer it, he first invents a theoretical object: a machine reduced to its simplest expression, a tape, a read head, a table of instructions, capable in principle of carrying out any calculation a human could perform step by step. This is the Turing machine. Alonzo Church, at Princeton, publishes an equivalent conclusion a few months earlier by another route, the lambda calculus; the two results will be recognized as identical.\n\n## The proof that eats its own tail\n\nAmong the questions Turing poses to his theoretical machine, one is decisive: can we build a machine able to say, for any other machine and any input, whether it will halt? Suppose so: call it H. Turing then builds a machine D that queries H about itself, then does the exact opposite of what H predicts: it loops if H announces a halt, it halts if H announces a loop. What happens when D is applied to itself? If D halts, it was not supposed to halt; if it loops, it was supposed to halt. The contradiction is total, and it stems from a single assumption: that H exists. H therefore cannot exist. The reasoning reuses the diagonalization technique that Georg Cantor had used in his work on the infinite, turning something against its own definition until it collapses.\n\n## What this closes off, for good\n\nTuring's result was later generalized under the name Rice's theorem: no nontrivial property of a program's behavior, not only halting but also, for example, “does it always compute the right answer?”, is decidable in general. This is why no antivirus can detect, with an absolute guarantee, every possible malicious program: the researcher Fred Cohen proved it formally in 1987, by a direct reduction to the halting problem. A perfect detector would make it possible to build a program that escaped its own detection, exactly as machine D escaped H.\n\nThis does not stop anyone from writing software that works: it only rules out a universal, automatic guarantee. Program verifiers, antivirus tools, and advanced bug analyzers all proceed by approximations, heuristics, special cases, and restrictive assumptions, because the general solution does not exist anywhere to be discovered.",
+ "repere": {
+  "texte": "Turing submits “On Computable Numbers, with an Application to the Entscheidungsproblem” on May 28, 1936, at age 23. The paper appears in the Proceedings of the London Mathematical Society, with the question of whether an arbitrary program halts as the undecidable problem, a result since generalized to every nontrivial property of a program's behavior (Rice's theorem).",
+  "source": "Oxford University Press, bibliographic record of the original paper",
+  "url": "https://academic.oup.com/plms/article-abstract/s2-42/1/230/1491926"
+ },
+ "carte": {
+  "punch": "No piece of software can ever predict, in general, whether another will loop forever.",
+  "idee": "Alan Turing proved it in 1936 by contradiction: such a machine, applied to its own description, would necessarily contradict itself. The consequence endures today: no antivirus can detect, for certain, every possible malicious program.",
+  "source_courte": "Turing, Proc. London Math. Soc., 1936"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia — Rice's theorem",
+   "url": "https://en.wikipedia.org/wiki/Rice%27s_theorem",
+   "note": "The generalization of Turing's result to every nontrivial property of a program's behavior."
+  },
+  {
+   "titre": "Bletchley Park Trust — 10 things to know about Alan Turing",
+   "url": "https://www.bletchleypark.org.uk/our-story/10-things-to-know-about-alan-turing/",
+   "note": "Biographical context: Turing's election as a fellow of King's College in 1935, a year before the paper."
+  }
+ ],
+ "quiz": {
+  "question": "Why can't we build a program able to say, for any other program, whether it will stop or run forever?",
+  "choix": [
+   "Because no current computer has enough computing power to carry out this check",
+   "Because most programming languages do not allow analysis of their own code",
+   "Because such a program, applied to itself, would necessarily contradict itself in both possible cases",
+   "Because computer science research has never seriously tried"
+  ],
+  "bonne_reponse": 2,
+  "explication": "It is not a limit of computing power or a lack of research: Turing showed that such a program, confronted with its own description, would produce a pure logical contradiction, it would have to both halt and not halt. That is what makes the problem undecidable in full generality, whatever resources are available.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What question had David Hilbert posed in 1928, to which Turing responds in 1936?",
+   "choix": [
+    "Is there a mechanical method that decides, for any logical statement, whether it is true or false",
+    "Can we build a machine able to translate any natural language",
+    "Is there a computer able to beat a human at any strategy game",
+    "Can we prove that mathematics contains no internal contradiction"
+   ],
+   "bonne_reponse": 0,
+   "explication": "It is the Entscheidungsproblem, posed by Hilbert in 1928: a mechanical method that, applied to any logical statement, would say in a finite number of steps whether it is true or false. To answer this question, Turing invents the theoretical machine that bears his name."
+  },
+  {
+   "question": "Who reaches a conclusion equivalent to Turing's, by another route and a few months earlier?",
+   "choix": [
+    "Georg Cantor, through his work on the diagonalization of infinite sets",
+    "Alonzo Church, at Princeton, through the lambda calculus",
+    "David Hilbert, by formulating a new version of the Entscheidungsproblem",
+    "Fred Cohen, through his proof about malicious programs"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Alonzo Church publishes at Princeton, through the lambda calculus, an equivalent conclusion a few months before Turing's paper. The two results will be recognized as identical, whereas Cantor only supplied the diagonalization technique that Turing reused, and Cohen does not come in until 1987."
+  },
+  {
+   "question": "What does Rice's theorem, which generalizes Turing's result, say?",
+   "choix": [
+    "No nontrivial property of a program's behavior is decidable in general",
+    "All programs always end up halting, except those written with deliberate infinite loops",
+    "Only the halting property is undecidable; all other properties can be verified",
+    "A program can verify its own code, but never that of another program"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Rice's theorem extends Turing's result to every nontrivial property of a program's behavior, not only halting but also, for example, always computing the right answer. It is this generalization, and not halting alone, that explains why, for instance, no antivirus can detect every malicious program for certain."
+  }
+ ]
+}

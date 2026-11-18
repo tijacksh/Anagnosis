@@ -1,0 +1,71 @@
+{
+ "id": "econ-loi-engel-1857",
+ "slug": "loi-engel-1857",
+ "langue": "en",
+ "empreinte_fr": "6119defcb13f4de3",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Engel's Law: The Share of Income the Poor Eat",
+ "accroche": "In 1857, a Saxon statistician compares family budgets and spots a regularity that the United Nations still uses to gauge living standards.",
+ "contenu_vulgarise": "In 1857, Ernst Engel heads the Royal Statistical Bureau of the Kingdom of Saxony, a post he has held since 1854. There he publishes *Die Productions- und Consumtionsverhältnisse des Königreichs Sachsen* (“The Relations of Production and Consumption in the Kingdom of Saxony”), a study meant to establish the balance between what the kingdom produces and what it consumes. But to measure that consumption, Engel does not start from Saxon budgets: he draws on budgets of Belgian families and other European working-class families, gathered by Édouard Ducpétiaux and Frédéric Le Play. In the table he derives from them, for annual incomes ranging from 200 to 3,000 francs, the share of income spent on food falls from 72.96% for the most modest family to 56.9% for the best-off: 29 observations from which Engel states a regularity that will bear his name, before applying it to the Saxon economy.\n\n## A Proportion That Falls, Never a Sum\n\nThe mechanism is not mysterious once it is stated correctly: a poor family spends most of what it earns on feeding itself, because eating cannot wait. Beyond a certain income, each additional franc goes less and less toward buying more bread, and more and more toward paying for a bigger home, clothing, education, and leisure, expenses whose share of the budget grows with affluence. Food spending in absolute terms keeps rising, of course: a well-off family often eats better, even more, than a poor one. What falls is only its share of a total budget that grows faster than appetite. Alongside this main law, Engel states two neighboring regularities, less often cited: the share devoted to housing and heating stays roughly stable whatever the income, while the share set aside for education, health, and leisure rises with it.\n\n## A Measuring Instrument, Not Just an Observation\n\nEngel's regularity has left the realm of statistical curiosity to become a tool: the “Engel coefficient” (the share of a household's budget devoted to food) is still used today to rank populations' living standards, a high coefficient signaling an income absorbed by mere subsistence. At the scale of a whole country, the same reasoning explains why agriculture's share of an economy shrinks mechanically as average income climbs, with no need to invoke a decline in collective appetite: it is not that people eat less, it is that everything else grows faster. The economist Hendrik Houthakker would later call it the best-established empirical regularity in the entire discipline: a rare judgment for a law verified on 29 budgets of Belgian and European families, expressed in francs: the currency of those families, not that of Saxony, for which Engel reuses them.",
+ "repere": {
+  "texte": "In the table he publishes in 1857, for annual family incomes ranging from 200 to 3,000 francs, Ernst Engel observes that the share of income devoted to food falls from 72.96% for the poorest household to 56.9% for the best-off.",
+  "source": "Wikipedia (en), “Engel's law”",
+  "url": "https://en.wikipedia.org/wiki/Engel%27s_law"
+ },
+ "carte": {
+  "punch": "A statistician compares family budgets in 1857. He finds a law that is still in use.",
+  "idee": "Ernst Engel observes that a poor household devotes a far larger share of its income to food than a well-off one, even though the latter spends more on food in absolute terms. This proportion, the “Engel coefficient,” is still used to measure living standards.",
+  "source_courte": "Engel, Königreich Sachsen, 1857"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "According to Engel's law, why does the share of income devoted to food fall as income rises?",
+  "choix": [
+   "Because well-off households eat less, in absolute terms, than poor households",
+   "Because the rest of the budget (housing, leisure, education) grows faster than food spending",
+   "Because food prices fall mechanically as average income rises",
+   "Because a higher income always comes with a smaller family to feed"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Food spending keeps rising in absolute terms with income; it is the rest of the budget that rises even faster, mechanically shrinking the share reserved for food: nothing to do with falling prices or smaller families.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where do the family budgets that Engel uses in his 1857 table come from, even though his study concerns the Kingdom of Saxony?",
+   "choix": [
+    "From Saxon tax records collected directly by his own statistical bureau",
+    "From Belgian families and other European working-class families, gathered by Ducpétiaux and Le Play",
+    "From a survey of Saxon mine workers around 1850",
+    "From theoretical estimates, with no real budgets, based on average wages"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Engel draws on budgets of Belgian and European families gathered by Édouard Ducpétiaux and Frédéric Le Play, not on Saxon budgets, to assess the kingdom's consumption."
+  },
+  {
+   "question": "What do Engel's second and third laws, less often cited than the first, say?",
+   "choix": [
+    "The share spent on housing stays stable with income, while that for education and leisure rises",
+    "The share devoted to food rises with income, contrary to the first law",
+    "All categories of spending grow strictly at the same speed as income",
+    "The share devoted to housing falls as fast as that for food"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Engel states two neighboring regularities: the share for housing and heating stays roughly stable whatever the income, while that for education, health, and leisure rises with it."
+  },
+  {
+   "question": "How did Hendrik Houthakker describe Engel's law?",
+   "choix": [
+    "A statistical coincidence with no predictive value for modern economies",
+    "A rule valid only for 19th-century Western Europe",
+    "The best-established empirical regularity in the entire discipline of economics",
+    "A law since contradicted by 20th-century economic data"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The economist Hendrik Houthakker would later call Engel's law the best-established empirical regularity in the entire discipline, a rare judgment for an observation this old."
+  }
+ ]
+}

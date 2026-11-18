@@ -1,0 +1,77 @@
+{
+ "id": "chi-acidification-des-oceans",
+ "slug": "acidification-des-oceans",
+ "langue": "en",
+ "empreinte_fr": "4c47209a95c681ba",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Adding carbon to water keeps it from building a shell",
+ "accroche": "The ocean absorbs a large share of the CO₂ we emit. That carbon has not gone away: it has changed problems",
+ "contenu_vulgarise": "The ocean has absorbed a large share of the carbon dioxide released over the past two centuries. This fact is often presented as good news: without it, warming would be stronger.\n\nThat is true, and incomplete. That carbon has not disappeared. It has changed problems.\n\n## What dissolved CO₂ becomes\n\nCarbon dioxide that enters the water does not simply stay there. It reacts.\n\nIt forms carbonic acid, which dissociates and releases hydrogen ions. Now, pH measures precisely the concentration of those ions: the more there are, the lower it goes.\n\nSince the start of the industrial era, the average surface pH has dropped by about a tenth of a unit. The number seems trivial; the scale is logarithmic. A tenth of a unit corresponds to a rise of about 30% in the concentration of hydrogen ions.\n\nA point of vocabulary is needed: the ocean is not becoming acidic. It remains basic, around 8.1. It is *acidifying*, which names a direction, not a state.\n\n## The carbonate paradox\n\nThe weightiest consequence comes from a counterintuitive reaction.\n\nShells, coral skeletons and plankton shells are made of calcium carbonate. One might think that adding carbon to the water makes building them easier.\n\nIt is the opposite. The hydrogen ions released combine with the carbonate ions already present and convert them into bicarbonate. The amount of carbonate available for building a shell therefore shrinks as carbon is added.\n\nBeyond a certain threshold, the water becomes corrosive to these structures: an unprotected shell dissolves in it. This threshold depends on temperature and pressure, and it has already been crossed in some cold, deep waters.\n\n## What sets this case apart from climate\n\nAcidification is sometimes called “the other CO₂ problem,” and the phrase is right on one precise point.\n\nWarming works through a complex radiative mechanism, sensitive to feedbacks, clouds and aerosols. Hence real margins of uncertainty about its scale, and decades of work to narrow them.\n\nAcidification, by contrast, is bench chemistry, measured for a century and reproducible in a beaker. The amount of dissolved CO₂ determines the pH through known, stable equilibria. There is no model to dispute, only a reaction to write down.\n\nThat is what makes the case singular. On this precise point, the only variable is the amount of carbon emitted. All the rest is stoichiometry.",
+ "repere": {
+  "texte": "Since the preindustrial era, the average surface pH of the oceans has dropped by about 0.1 unit. Because the scale is logarithmic, that represents a rise of about 30% in the concentration of hydrogen ions.",
+  "source": "NOAA, “Ocean acidification,” National Oceanic and Atmospheric Administration",
+  "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification"
+ },
+ "carte": {
+  "punch": "You'd think adding carbon to water would make shells easier to build. It's the opposite.",
+  "idee": "Dissolved CO₂ releases hydrogen ions that capture carbonates, the building block of shells and corals. Since the industrial era, surface pH has dropped by 0.1 unit, or 30% more hydrogen ions.",
+  "source_courte": "Caldeira & Wickett, Nature, 2003"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Caldeira & Wickett (2003) — Anthropogenic carbon and ocean pH",
+   "url": "https://www.mbari.org/wp-content/uploads/2015/11/Caldeira_Wickett_BriefComm.pdf",
+   "note": "In English; a short, open-access text (five pages with a figure and references). The graph reads without commentary."
+  }
+ ],
+ "quiz": {
+  "question": "Why does acidification hinder the formation of shells?",
+  "choix": [
+   "Because hydrogen ions capture the carbonates that shells are made of",
+   "Because the acidity directly dissolves the calcium contained in seawater",
+   "Because dissolved CO₂ takes the place of calcium in mollusk tissues",
+   "Because the accompanying heat keeps larvae from fixing their first shell"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The hydrogen ions released convert carbonates into bicarbonates: the building block becomes scarce even as carbon is being added to the system. So it is not calcium that is lacking, nor a thermal effect. What changes is the chemical form in which carbon becomes available.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the drop of about 0.1 pH unit observed since the industrial era represent?",
+   "choix": [
+    "A drop of about 10% in the amount of dissolved calcium carbonate",
+    "A rise of about 30% in the concentration of hydrogen ions",
+    "A rise of about 0.1% in acidity, so a negligible effect",
+    "A shift of the average surface pH below the line of neutrality"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The pH scale is logarithmic: a tenth of a unit lower corresponds to about 30% more hydrogen ions. The number looks trivial; the change it stands for is not."
+  },
+  {
+   "question": "Why do we say the ocean is acidifying but not that it is acidic?",
+   "choix": [
+    "Because the 0.1-unit drop in pH is too small to be measured",
+    "Because dissolved carbon dioxide forms a base, not an acid",
+    "Because it remains basic, around 8.1: the word names a direction",
+    "Because the remaining carbonates fully neutralize the acid formed"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The average surface pH hovers around 8.1, well above neutrality. To acidify names the direction of the movement, not a state reached, and the carbonates neutralize nothing: they are, on the contrary, converted into bicarbonate."
+  },
+  {
+   "question": "Why does the entry present acidification as a simpler case than warming?",
+   "choix": [
+    "Because its effects on living things are easier to observe than those of climate",
+    "Because it depends on neither the temperature nor the pressure of the water",
+    "Because the ocean absorbs a constant, perfectly known share of the carbon emitted",
+    "Because it rests on chemical equilibria that are known and reproducible in a beaker"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Warming works through a radiative mechanism sensitive to clouds and aerosols, hence real margins of uncertainty. Acidification is chemistry measured for a century: there is no model to dispute, only a reaction to write down."
+  }
+ ]
+}

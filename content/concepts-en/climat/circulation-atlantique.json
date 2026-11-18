@@ -1,0 +1,77 @@
+{
+ "id": "cli-circulation-atlantique",
+ "slug": "circulation-atlantique",
+ "langue": "en",
+ "empreinte_fr": "c1a79e63a4452690",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The current that keeps Europe warm, and that is slowing",
+ "accroche": "An ocean circulation carries a considerable amount of heat northward. It is at its weakest in a thousand years",
+ "contenu_vulgarise": "Oslo and Anchorage lie at about the same latitude. Their winters are not comparable, and the difference is explained neither by altitude nor by terrain.\n\nIt comes from the Atlantic Ocean, which moves a considerable amount of heat northward.\n\n## What keeps the loop turning\n\nThe engine is not the wind. It is the density of the water.\n\nA surface current carries warm water from the tropics northward. Along the way, it gives up its heat to the atmosphere, and it is this heat that softens the winters of Western Europe. It also evaporates, which concentrates its salt.\n\nBy the time it reaches the waters off Greenland, this water is therefore cold and salty: two reasons to be dense. It sinks toward the bottom, over several kilometers, and heads back south at depth.\n\nThis plunge is what sustains the loop. It draws in behind it the surface water, which keeps flowing north.\n\n## Why warming hampers it\n\nTwo effects point the same way, and both lighten the northern water.\n\nWarmer water is less dense. And the melting of the Greenland ice sheet pours out fresh water, which dilutes the salt.\n\nSurface water that is too light no longer sinks. Without the plunge, the loop slows, and a slowdown reduces the supply of heat to the north, thus sustaining its own cause.\n\n## What is measured, and what is not\n\nDirect monitoring of this circulation is recent: it relies on moorings installed across the Atlantic since 2004. Twenty years of readings are not enough to tell a trend from a natural oscillation.\n\nEarlier centuries are therefore reconstructed from indirect evidence: reconstructed surface temperature, the size of the sediment grains deposited by the current, cold-water corals. A study published in 2021 concludes that the circulation is now weaker than at any time in the last millennium, with a weakening that began in the 19th century and accelerated in the mid-20th.\n\nThe margins of uncertainty remain wide, and the debate over how imminent a tipping is runs hot, hotter, on this point, than on most other climate issues.\n\n## The shape of the risk\n\nWhat makes this issue particular is not its probability. It is its shape.\n\nMost effects of warming are gradual: one more degree produces a bit more consequence. An ocean circulation, by contrast, can have two stable regimes, it runs, or it does not, and shift from one to the other without passing through the intermediate states.\n\nA threshold system gives no warning. And it does not restart by going back: restoring the earlier temperature is not enough to restart a loop that has stopped.",
+ "repere": {
+  "texte": "The Atlantic Meridional Overturning Circulation is thought to be weaker today than at any time in the last millennium: a weakening that began in the 19th century, accentuated in the mid-20th.",
+  "source": "Caesar, McCarthy, Thornalley, Cahill & Rahmstorf, “Current Atlantic Meridional Overturning Circulation weakest in last millennium,” Nature Geoscience, 14, 2021",
+  "url": "https://www.nature.com/articles/s41561-021-00699-z"
+ },
+ "carte": {
+  "punch": "Oslo and Anchorage are at the same latitude. A current explains the difference in winters.",
+  "idee": "The warm water that flows up the Atlantic cools, becomes saltier, and sinks off Greenland, and this plunge sustains the loop. Warming and the melting of Greenland lighten it, and it slows.",
+  "source_courte": "Caesar et al., Nature Geoscience, 2021"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Is the Atlantic Overturning Circulation Approaching a Tipping Point?",
+   "url": "https://tos.org/oceanography/article/is-the-atlantic-overturning-circulation-approaching-a-tipping-point",
+   "note": "In English, open access; state of the debate on the threshold, uncertainties included."
+  }
+ ],
+ "quiz": {
+  "question": "What distinguishes this risk from most effects of warming?",
+  "choix": [
+   "It is better measured, thanks to direct monitoring for a century",
+   "It concerns only a limited region, Western Europe",
+   "It is already considered certain by all specialists",
+   "It can shift from one regime to the other without passing through the intermediate states"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Most consequences of warming are gradual. An ocean circulation can have two stable regimes and shift from one to the other without warning, and returning to the earlier temperature would not be enough to restart it. Direct monitoring, for its part, dates only from 2004, and how imminent a tipping is remains hotly debated.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Since when has the Atlantic circulation been monitored directly, by moorings installed across the ocean?",
+   "choix": [
+    "Since 2004",
+    "Since 1950",
+    "Since 1850",
+    "Since 2015"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Direct monitoring of this circulation is recent: it relies on moorings installed across the Atlantic since 2004, and twenty years of readings are not enough to tell a trend from a natural oscillation."
+  },
+  {
+   "question": "Why does the melting of the Greenland ice sheet hamper the Atlantic circulation?",
+   "choix": [
+    "It cools the surface water to the point of freezing it entirely",
+    "It pours out fresh water that dilutes the salt and lightens the surface water",
+    "It physically blocks the moorings that measure the circulation",
+    "It increases the salinity of the water off Greenland"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The melting of the Greenland ice sheet pours out fresh water, which dilutes the salt of the northern water; surface water that is too light, less salty and less dense, no longer sinks, which slows the loop rather than increasing salinity."
+  },
+  {
+   "question": "Why does the slowdown of the Atlantic circulation sustain its own cause, according to the card?",
+   "choix": [
+    "Because it causes an immediate rise in sea level in Europe",
+    "Because it accelerates the melting of Alpine glaciers",
+    "Because a slowdown of the loop reduces the supply of heat to the north",
+    "Because it automatically doubles the speed of Atlantic winds"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text states it directly: without the plunge, the loop slows, and this slowdown in turn reduces the supply of heat to the north, which sustains the very cause of the slowdown, a self-sustaining rather than self-correcting mechanism."
+  }
+ ]
+}

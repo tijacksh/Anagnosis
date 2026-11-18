@@ -1,0 +1,83 @@
+{
+ "id": "inf-mariner-1-le-signe-manquant",
+ "slug": "mariner-1-le-signe-manquant",
+ "langue": "en",
+ "empreinte_fr": "c4a1f458e77b36f8",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "La formule attribuée à Clarke (« most expensive hyphen in history ») est traduite depuis le français ; son libellé anglais original n'est pas vérifié (la fiche dit elle-même qu'il n'a pas été retrouvé mot pour mot). La citation NASA, déjà en anglais, est laissée telle quelle."
+  }
+ ],
+ "titre": "Mariner 1 did not blow up because of a hyphen",
+ "accroche": "On July 22, 1962, a probe bound for Venus is destroyed in flight, 293 seconds after liftoff. The exact cause is not the one the legend holds.",
+ "contenu_vulgarise": "On July 22, 1962, the Atlas-Agena rocket that is to send the Mariner 1 probe to Venus lifts off from Cape Canaveral. Less than five minutes later, its trajectory becomes so erratic that the range safety officer has no choice: he triggers the self-destruct, only six seconds before the probe would have separated from the final stage. The failure has become, in computing culture, the ultimate example of the detail that costs an entire rocket, summed up for decades by a line repeated everywhere: “a simple missing hyphen in the code.”\n\nNASA, for its part, flatly denies this version on its own official history page: “It should be noted the omission was not a hyphen, as sometimes erroneously reported.”\n\n## What was really missing\n\nThe real cause is subtler than a punctuation mark, and more instructive. The guidance equation, written by hand, contained a variable written with a horizontal bar over a letter, a mathematical sign called an overbar, which indicates a smoothed value, averaged over time, rather than a raw, instantaneous measurement. When this handwritten formula was transcribed into the instructions of the ground guidance program, this bar disappeared.\n\nAs long as everything went normally, the absence of this sign changed nothing: the raw radar data and the smoothed data stayed close. But an unrelated incident set everything off: a tracking antenna on the Atlas stage briefly lost contact with the ground, a minor problem, generally without consequence. Deprived of its usual data, the guidance system switched to the backup radar measurements, precisely those that the software, lacking the smoothing sign, could no longer process correctly. Each tiny raw fluctuation was then interpreted as a real and urgent trajectory deviation, triggering ever more violent course corrections, until the rocket was out of control.\n\n## What the simplification erased\n\nTelling the story as “a forgotten hyphen” has one merit: it fits in a sentence, and it strikes. It also has a flaw, which is the very subject of this card: it passes off as a typing oversight what was really a loss of information in the passage from a handwritten mathematical notation to a coded program, a problem that has lost none of its relevance, now that formulas and specifications continue to be transcribed from one format to another. A writer, Arthur C. Clarke, is said to have called the incident the “most expensive hyphen in history” in a book published in 1968; the phrase is widely repeated, even though its exact text could not be found word for word in the original work. The cost of the failure, often put at $18.5 million at the time, appears moreover on no official NASA page consulted for this card, a reminder that even a figure repeated everywhere deserves to be traced back to its source before being taken for granted.",
+ "repere": {
+  "texte": "The failure of Mariner 1, on July 22, 1962, was caused by the omission of a smoothing bar (overbar) over a variable in a guidance equation transcribed from the manuscript into the program, not by a hyphen, as NASA itself states.",
+  "source": "NASA History Office, “60 Years Ago: Mariner 1 Launch Attempt to Venus”",
+  "url": "https://www.nasa.gov/history/60-years-ago-mariner-1-launch-attempt-to-venus/"
+ },
+ "carte": {
+  "punch": "The story of the “hyphen” that destroyed a NASA rocket in 1962 is false.",
+  "idee": "NASA states it itself: it was not a hyphen, but a mathematical smoothing bar erased when a handwritten formula was copied into the guidance program. Combined with an antenna failure, that loss left the rocket out of control.",
+  "source_courte": "NASA History Office"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NASA Science — Mariner 1 mission page",
+   "url": "https://science.nasa.gov/mission/mariner-1/",
+   "note": "Current official page for the mission; repeats the same technical clarification."
+  }
+ ],
+ "quiz": {
+  "question": "What actually caused the in-flight destruction of Mariner 1 in 1962?",
+  "choix": [
+   "A missing hyphen in the source code of the guidance program",
+   "An error in calculating the fuel needed to reach the transfer orbit to Venus",
+   "A failure of the Atlas rocket's first-stage engines",
+   "The omission of a mathematical smoothing sign in a hand-copied guidance equation, combined with an antenna failure"
+  ],
+  "bonne_reponse": 3,
+  "explication": "NASA explicitly denies the hyphen version: it was the absence of a smoothing bar (overbar) over a variable, lost in the transcription of a handwritten formula, that caused every raw radar fluctuation to be treated as a real trajectory deviation, an effect that was harmless until an antenna failure suddenly exposed the guidance system to it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How long after liftoff does the range safety officer trigger Mariner 1's self-destruct?",
+   "choix": [
+    "Less than five minutes after liftoff, six seconds before separation of the final stage",
+    "About an hour after liftoff, as the probe was entering Venus's atmosphere",
+    "Only seconds after engine ignition, before the rocket had even lifted off",
+    "The day after launch, after analysis of the recovered telemetry data"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The trajectory becomes so erratic that the safety officer triggers the self-destruct less than five minutes after liftoff, only six seconds before the planned separation of the final stage."
+  },
+  {
+   "question": "What unrelated incident set off the catastrophe, by depriving the guidance system of its usual data?",
+   "choix": [
+    "A data-entry error by ground personnel, who swapped two lines of the program",
+    "A solar storm that jammed radio communications that day",
+    "A tracking antenna on the Atlas stage that briefly lost contact with the ground",
+    "A widespread power failure at the Cape Canaveral control center"
+   ],
+   "bonne_reponse": 2,
+   "explication": "A tracking antenna on the Atlas stage briefly lost contact with the ground, a minor incident in itself, but one that forced the system to switch to data that the software handled poorly."
+  },
+  {
+   "question": "According to the card, what remains uncertain about the line attributed to Arthur C. Clarke on the most expensive hyphen in history?",
+   "choix": [
+    "That Clarke ever mentioned the incident, which several historians dispute",
+    "That its exact text appears word for word in the original 1968 work",
+    "That this book was actually published in 1968 rather than 1972",
+    "That Clarke has any connection whatsoever to the American space program"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The card specifies that the phrase is widely repeated, even though its exact text could not be found word for word in the original 1968 work attributed to Arthur C. Clarke."
+  }
+ ]
+}

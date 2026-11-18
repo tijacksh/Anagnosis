@@ -1,0 +1,72 @@
+{
+ "id": "ast-le-gentil-transits-de-venus",
+ "slug": "le-gentil-transits-de-venus",
+ "langue": "en",
+ "empreinte_fr": "9ccd9f6b03f45d34",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Citation de Le Gentil, en français, rapportée par l'IMCCE ; retraduite depuis le français."
+  }
+ ],
+ "titre": "Le Gentil: Eleven Years of Travel, One Cloud",
+ "accroche": "Having left in 1760 to watch Venus cross the Sun, Le Gentil returns in 1771 without having seen it. The 1769 transit, meanwhile, was observed 151 times.",
+ "contenu_vulgarise": "A transit of Venus across the solar disk makes it possible to measure the solar parallax, and thus the distance from Earth to the Sun, provided it is observed from places very far apart. The phenomenon comes in pairs: a transit in 1761, another eight years later, in 1769.\n\nGuillaume Le Gentil, an astronomer of the Academy of Sciences, leaves Paris in March 1760 for India. The war between France and Great Britain delays his journey. He reaches Mauritius, but English ships keep him from reaching Pondicherry. The 1761 transit takes place while he is still at sea: he does not observe it.\n\n## Eight Years for a Second Try\n\nHe decides to wait for the next transit. He stays five years in Mauritius, maps the coasts of Madagascar, passes through Manila, where the Spanish governor accuses him of spying, then reaches Pondicherry.\n\nThere, on the night before the 1769 transit, the wind shifts and the sky clouds over: the transit remains unobservable. In his words, reported by the IMCCE, a cloud “came to place itself before the Sun at the very moment of my observation.” He sees nothing.\n\nHe returns to Paris in October 1771. According to Wikipedia, his relatives had plundered his belongings.\n\n## Why the Failure Did Not Stop Everything\n\nLe Gentil is unlucky, and the story often stops there. But observing the transit did not rest on him alone. The 1769 transit ends with 151 professional observations, spread over 77 sites: Cook and Green in Tahiti, Chappe in Baja California, a team at Vardø, astronomers in Russia, Pingré and Fleurieu in Saint-Domingue. There are 27 achromatic telescopes, against three for the 1761 transit.\n\nThe result is not a triumph: according to the IMCCE, these observations do not allow a definitive value of the solar parallax to be given. The values put forward by the various calculators, from 8.43 to 8.80 seconds of arc (Pingré and Lalande had also given 9.2 and 8.88 in 1770), nonetheless mark a clear improvement over those of the first transit, which ranged from 8.28 to 10.60.\n\nWhat remains is an idea that goes beyond the anecdote: an observation spread across many sites withstands the loss of one of them, which a single observer cannot do.\n\nHow many research setups are, even today, built on a single observer who must on no account meet a cloud?",
+ "repere": {
+  "texte": "In 1769, the transit of Venus is professionally observed 151 times at 77 sites, with 27 achromatic telescopes against three in 1761. At Pondicherry, Le Gentil sees a cloud.",
+  "source": "IMCCE, Paris Observatory, educational sheet no. 20c: *Le passage de Vénus de 1769* (The 1769 Transit of Venus)",
+  "url": "https://vt2004.imcce.fr/CDs/CD-souvenir-vt2004-v2/fiches/fiche_n20c.pdf"
+ },
+ "carte": {
+  "punch": "Eleven years of travel to observe Venus. One cloud, and nothing. But 150 other observations took place.",
+  "idee": "Le Gentil misses the 1761 transit at sea, waits eight years, and has the 1769 one blocked out at Pondicherry. But the transit was observed 151 times at 77 sites: a single cloud could not rob science of it.",
+  "source_courte": "IMCCE, Paris Observatory"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "IMCCE — Educational sheet no. 20c, *Le passage de Vénus de 1769* (The 1769 Transit of Venus)",
+   "url": "https://vt2004.imcce.fr/CDs/CD-souvenir-vt2004-v2/fiches/fiche_n20c.pdf",
+   "note": "In French; the expeditions of 1769 and their results."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the cloud at Pondicherry in 1769 not deprive science of this transit?",
+  "choix": [
+   "Because Le Gentil had already observed the 1761 transit",
+   "Because the transit was postponed a few days because of the sky",
+   "Because many observers watched it from other places",
+   "Because Le Gentil was able to observe it from Manila a few days earlier"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The 1769 transit was observed 151 times at 77 sites, from Tahiti to Baja California: the loss of one site did not ruin it. Le Gentil had not observed the 1761 transit, and the date of a transit does not move.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why did Le Gentil observe nothing in 1761?",
+   "choix": [
+    "Because his ship was still at sea on the day of the transit",
+    "Because the sky was overcast at Pondicherry that day",
+    "Because his instrument had been broken on the way to Mauritius",
+    "Because the Academy had asked him to wait for the next transit"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The war between France and Great Britain delayed his journey and prevented his arrival at Pondicherry: he was still at sea on the day of the transit. The cloud belongs to the 1769 one."
+  },
+  {
+   "question": "What are the transits of Venus across the Sun used to determine?",
+   "choix": [
+    "The speed of Venus's rotation on its axis",
+    "The solar parallax, from which the Earth-Sun distance is deduced",
+    "The mass of Venus from its path across the Sun",
+    "The thickness of Venus's atmosphere from the Sun's light"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Observations made from distant places serve to determine the solar parallax, and thus the Earth-Sun distance: that is what the expeditions of 1761 and 1769 aimed at. The other three quantities cannot be obtained this way."
+  }
+ ]
+}

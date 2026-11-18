@@ -1,0 +1,60 @@
+{
+ "id": "bio-physarum-labyrinthe-nakagaki-2000",
+ "slug": "physarum-labyrinthe-nakagaki",
+ "langue": "en",
+ "empreinte_fr": "8ebd7682291dc108",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Blob That Finds the Shortest Path Without a Brain",
+ "accroche": "Placed in a maze in 2000, a single-celled organism kept the shortest route between two food sources.",
+ "contenu_vulgarise": "It has no brain, no nerve, no eye. It is a giant yellow cell that changes shape as it creeps: Physarum polycephalum, a slime mold sometimes called the blob. In 2000, Toshiyuki Nakagaki and his colleagues Hiroyasu Yamada and Ágota Tóth publish a single-page paper in Nature: their organism solves a maze.\n\n## The Experiment\n\nFragments of the plasmodium are placed in a maze cut into a plastic film laid on agar. The fragments merge into a single cell that fills the entire labyrinth, avoiding the dry surface of the plastic. Then the experimenters set down food at two places, the entrance and the exit. In about eight hours, the dead ends are reabsorbed and the network of tubes contracts around the shortest route linking the two sources. Among four possible paths of different lengths, the plasmodium chose the shortest.\n\n## How, Without a Brain\n\nThe result does not say the organism “thinks.” The plasmodium is a network of tubes, and it is a mathematical model by Tero, Kobayashi, and Nakagaki, published in 2007, that proposes the mechanism: a tube thickens when the flow through it increases, and the least-used tubes disappear. The authors specify that the experimental evidence for this mechanism remains qualitative, and that the model's behavior depends on a parameter setting the strength of this feedback. For the simplest value, where flow and tube growth are proportional, the shortest path always survives, whatever the starting state, as in the experiment. For other values, the path retained depends on the initial state, or several paths remain. The “solution” would thus be a consequence of the network's dynamics, not of a computation.\n\n## From the Maze to the Rail Network\n\nIn 2010, Nakagaki's team, with Atsushi Tero, publishes an extension in Science. The plasmodium forms networks whose efficiency, fault tolerance, and cost are comparable to those of the Tokyo rail network, according to the paper's abstract. The authors draw from this a mathematical model of the adaptation mechanisms, which could help guide the construction of other networks. The abstract does not say the blob does better: it says it does comparably.\n\n## What Not to Conclude\n\nThe word “intelligence” applied to the blob is a metaphor: it optimizes a path length in a specific situation, with a simple rule. Nothing in these papers points to planning. But the shift remains real: behaviors once attributed to a nervous system appear where we did not expect them. Perhaps we should file among the properties of the organization of living things what we used to file among the attributes of a mind.",
+ "repere": {
+  "texte": "In a maze with four possible paths, the plasmodium of Physarum polycephalum withdraws from its dead ends and keeps only the shortest path between two food sources, in about eight hours.",
+  "source": "Nakagaki, Yamada, and Tóth, Nature 407, 470, 2000",
+  "url": "https://doi.org/10.1038/35035159"
+ },
+ "carte": {
+  "punch": "An organism with no brain solves a maze.",
+  "idee": "Placed in a maze, Physarum withdraws its useless branches and keeps the shortest path between two food sources. According to one model, without any computation: the most-used tubes grow thicker, the others disappear.",
+  "source_courte": "Nakagaki et al., Nature, 2000; Tero et al., 2007"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What mechanism does the model by Tero, Kobayashi, and Nakagaki propose to explain why Physarum keeps the shortest path?",
+  "choix": [
+   "It explores the whole maze and then compares memorized distances",
+   "A tube thickens when flow increases, and a little-used tube disappears",
+   "It follows scent trails left by other blobs that solved the maze",
+   "A rudimentary nervous system steers its growth toward the exit"
+  ],
+  "bonne_reponse": 1,
+  "explication": "In the model, a tube thickens when the flow through it increases, and the least-used tubes disappear; the shortest path survives in the simplest case. No distance calculation, no scent trail, no nervous system is involved: only the dynamics of the tubes matter.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the 2010 study in Science demonstrate?",
+   "choix": [
+    "That the blob produces a network with efficiency comparable to Tokyo's rail network",
+    "That the blob beats engineers on every network",
+    "That the blob is aware of its map",
+    "That the blob remembers its route for weeks"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The paper's abstract reports efficiency, fault tolerance, and cost comparable to those of the Tokyo rail network, not general superiority."
+  },
+  {
+   "question": "Why is speaking of the blob's “intelligence” a metaphor?",
+   "choix": [
+    "Because it does not move",
+    "Because it optimizes a path length through a simple physical mechanism, without planning",
+    "Because it reacts to no stimulus",
+    "Because it lives in a colony of cells"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The result comes from flow dynamics, not reasoning; the metaphor describes a behavior, not a cognition."
+  }
+ ]
+}

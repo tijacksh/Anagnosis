@@ -1,0 +1,77 @@
+{
+ "id": "ast-hubble-1990-miroir-poli-a-la-mauvaise-forme",
+ "slug": "hubble-1990-miroir-poli-a-la-mauvaise-forme",
+ "langue": "en",
+ "empreinte_fr": "990456e3dd5cef3a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Hubble's Mirror, Precisely Polished to the Wrong Shape",
+ "accroche": "Polished to better than its tolerance, Hubble's mirror followed a template whose lens was off by 1.3 mm. Two tests had flagged the error.",
+ "contenu_vulgarise": "The Hubble Space Telescope is launched by the shuttle Discovery on April 24, 1990. During checkout in orbit, it turns out that it cannot be brought into focus. Both high-resolution cameras show the same distortion, a spherical aberration. On June 21, 1990, the project manager announces the failure.\n\nIt is often said that the mirror had been badly polished. The NASA investigation, whose report dates from November 1990, says something else: it had been polished with great accuracy, but to a wrong template.\n\n## A Template for a Mirror That Can't Be Tested\n\nHubble's 2.4-meter primary mirror is not a section of a sphere. Its shape, a hyperboloid, makes direct testing difficult. So a “null corrector” is used: an optical setup that returns a reference image such that the mirror looks spherical to the optician when it has the right shape. You polish until the image conforms.\n\nThe manufacturer, Perkin-Elmer, chose a reflective null corrector of a new design: two small mirrors and a lens. It provided for no independent test of the mirror. The mirror was polished until it matched this template to better than 0.014 wavelength, which exceeded the contract specification.\n\n## A Lens Displaced by 1.3 Millimeters\n\nIn 1990, investigators measured the null corrector, which the manufacturer had kept intact: the lens was too far from the lower mirror by about 1.3 mm. This displacement explains in detail the shape of the blur observed. The mirror was too flat away from the center, with an error of 0.4 wavelength at 632.8 nanometers, ten times the tolerance.\n\nThe report indicates that the operator, during the original setup, seems to have obtained his reflection on the cap of a metering rod, where the anti-reflective coating was missing, rather than on the end of the rod.\n\n## Two Warnings Set Aside\n\nThe error had in fact been seen. An auxiliary corrector, used to align the apparatus, showed it clearly. So did a second corrector, used to measure the radius of curvature of the finished mirror. Both were dismissed as themselves being wrong: the team regarded the reflective corrector as “certified” and the other two as “uncertified.” The board checked the accuracy of these instruments: 0.02 wave for the refractive corrector, 0.14 for the inverse corrector, enough to detect the error.\n\nA test that no one checks measures only its own consistency. The polishing was highly accurate, the template was wrong, and the only two witnesses able to tell them apart were set aside.\n\nIn December 1993, astronauts install COSTAR, a corrective optic that compensates for the aberration of this mirror, which remained in orbit.",
+ "repere": {
+  "texte": "The board of inquiry establishes that the primary mirror was manufactured to the wrong shape (an error of 0.4 wavelength rms at 632.8 nm, ten times the tolerance) and that the 1.3 mm spacing error of the lens in the reflective null corrector accounts for it in detail.",
+  "source": "Allen et al., The Hubble Space Telescope Optical Systems Failure Report, NASA, November 1990",
+  "url": "https://ntrs.nasa.gov/citations/19910003124"
+ },
+ "carte": {
+  "punch": "Hubble's mirror matched its template to better than the tolerance. The template was wrong.",
+  "idee": "In 1990, Hubble cannot focus. Its 2.4 m mirror matches its template to better than the tolerance, but that template has a lens displaced by 1.3 mm. Two tests flagged the error before launch: they were judged unreliable.",
+  "source_courte": "Allen Report, NASA, November 1990"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NASA NTRS — The Hubble Space Telescope Optical Systems Failure Report",
+   "url": "https://ntrs.nasa.gov/citations/19910003124",
+   "note": "In English; the full report, with the interferograms and the conclusions on project management."
+  }
+ ],
+ "quiz": {
+  "question": "Why could a mirror polished to better than its tolerance end up with the wrong shape?",
+  "choix": [
+   "Because the setup serving as its template was itself misadjusted",
+   "Because the mirror's glass had been cut from a poor-quality blank",
+   "Because the opticians chose a shape different from the one in the specifications",
+   "Because the backup mirror had been polished on the same defective template"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The mirror was polished until it matched its template, the reflective null corrector, but the lens of the latter was displaced by 1.3 mm. The glass is not at fault, the shape was not chosen apart from the specifications, and the backup mirror had been polished with other correctors of a different design.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the report, what did the two other tests of the mirror show before launch?",
+   "choix": [
+    "They confirmed the mirror's correct shape and were accepted",
+    "They had not been carried out for lack of time",
+    "They showed the error, but were dismissed as “uncertified”",
+    "They concerned the secondary mirror, unrelated to the primary"
+   ],
+   "bonne_reponse": 2,
+   "explication": "An auxiliary corrector and a second corrector, used to measure the radius of curvature, both showed the error. The team dismissed them because it did not regard them as “certified,” whereas the board judged them accurate enough."
+  },
+  {
+   "question": "What is a “null corrector” used for in making an aspheric mirror?",
+   "choix": [
+    "To measure the temperature of the glass during polishing",
+    "To produce a reference image that makes the mirror look spherical when its shape is right",
+    "To clean the mirror's surface before aluminizing",
+    "To align the primary mirror with the secondary mirror"
+   ],
+   "bonne_reponse": 1,
+   "explication": "An aspheric mirror cannot be tested directly: the null corrector generates a reference wavefront such that a mirror of the intended shape looks spherical to the optician. If it is misadjusted, you end up polishing exactly the wrong shape."
+  },
+  {
+   "question": "What does the report fault in the manufacturing plan for the primary mirror?",
+   "choix": [
+    "Using too many tests, which slowed down manufacturing",
+    "Entrusting the mirror to a manufacturer with no telescope experience",
+    "Polishing the mirror in a single session, with no intermediate check",
+    "Relying on a single test, with no independent test to check it"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The plan rested entirely on the reflective null corrector, which should have alerted NASA to the fragility of the process. The report also points to cost and schedule pressure, which discouraged independent tests."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "bio-requin-groenland-radiocarbone-cristallin",
+ "slug": "requin-groenland-radiocarbone-cristallin",
+ "langue": "en",
+ "empreinte_fr": "1682fefdc4934be2",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Dating a Shark With No Growth Rings: At Least 272 Years",
+ "accroche": "The Greenland shark has no calcified tissue to count. The carbon-14 in its eye lens gives 392 ± 120 years for the largest, and 272 at minimum.",
+ "contenu_vulgarise": "The Greenland shark is the largest fish native to Arctic waters: adult females commonly measure 400 to 500 centimeters. Its growth, reported at one centimeter a year at most, suggests it lives a very long time. But before 2016, no one knows how long: the age at first reproduction and the lifespan are both unknown. The usual methods count growth zones in calcified tissues, the way you count the rings of a tree trunk. The Greenland shark has none.\n\n## A Clock in the Eye\n\nJulius Nielsen's team, with researchers from Copenhagen, Aarhus, and Oxford, turns to the eye lens. In vertebrates, the lens nucleus is made of metabolically inert proteins, whose core forms before birth. Once made, they are no longer renewed: they keep the carbon from the time the animal was born. In humans, a 2008 study had established that these proteins form almost entirely around birth. The carbon comes from diet, so, for the embryonic nucleus, from the mother's.\n\nThe researchers measure the carbon-14 in lens nuclei from 28 females of 81 to 502 centimeters, collected in Greenland between 2010 and 2013. The time marker is the bomb peak. Since the mid-1950s, thermonuclear weapons tests have injected carbon-14 into the atmosphere, then into marine food chains. In the North Atlantic, this signal appears by the early 1960s at the latest. Only the smallest sharks, 220 centimeters at most, carry its trace: they were born after. The two smallest were born after the start of the peak; the third, at 220 centimeters, falls just inside it, which gives it about 50 years in 2012. The other 25 were born before the bombs.\n\n## An Interval, Not a Date\n\nFor these 25, dating has to reach back past 1950, using a marine carbon-14 calibration curve that varies little over the last four centuries. The ages therefore come out as wide intervals, narrowed by a Bayesian model that takes growth and size at birth into account. The largest shark, 502 centimeters, is 392 ± 120 years old: the midpoint and half-width of an interval at 95.4% probability, that is, from 272 to 512 years. 272 years is the lower bound of this interval, and it is the figure the study retains as the minimum lifespan.\n\nFemales would be mature from 400 centimeters. The closest one measured, at 392 centimeters, is at least 156 ± 22 years old: sexual maturity would therefore not arrive until more than a century of age. The paper's abstract makes it the longest-lived vertebrate known, and the text places it ahead of the bowhead whale, estimated at 211 years.\n\nThe shift lies in how the number is read. “About 400 years,” the phrase that circulates, is the midpoint of a wide range, 240 years across. The solid datum is the floor. The authors also test their most fragile anchor point, the date of the start of the peak: moving it between 1958 and 1980 does not change the conclusion of extreme longevity.\n\nThe authors draw from this a recommendation of caution for conservation: the species is a common bycatch of Arctic groundfish fisheries.",
+ "repere": {
+  "texte": "Among 28 females of 81 to 502 cm, only the smallest (220 cm at most) carry the signal of the thermonuclear tests' radiocarbon peak, in the early 1960s. The other 25 were born before.",
+  "source": "Nielsen et al., Science, 2016 (accepted manuscript, Oxford)",
+  "url": "https://ora.ox.ac.uk/objects/uuid:6c040460-9519-4720-9669-9911bdd03b09"
+ },
+ "carte": {
+  "punch": "A shark with no growth rings: its age is read in the carbon of its eye.",
+  "idee": "The lens nucleus forms before birth and keeps its carbon-14. Dated this way, the largest Greenland shark measured is 392 ± 120 years old. The minimum lifespan retained is 272 years, the lower bound of this interval.",
+  "source_courte": "Nielsen et al., Science, 2016"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Nielsen et al., Science, 2016: accepted manuscript, Oxford Research Archive",
+   "url": "https://ora.ox.ac.uk/objects/uuid:6c040460-9519-4720-9669-9911bdd03b09",
+   "note": "Full method: calibration, Bayesian model, sensitivity analysis on the start of the peak."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the eye lens make it possible to date a shark that has no growth rings?",
+  "choix": [
+   "Its nucleus forms before birth and is no longer renewed: it keeps the carbon-14 of that date",
+   "It adds one ring a year, like a tree trunk, and they are counted under a microscope",
+   "It accumulates a measurable amount of carbon-14 each year that serves as a clock",
+   "It keeps the trace of the animal's last years, which is compared with a growth curve"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The lens nucleus is made of proteins produced before birth and never renewed: their carbon-14 dates the time of birth, not the last years. There are no annual rings and no gradual accumulation: it is the measured value, set against the bomb peak and a calibration curve, that gives the age.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does “392 ± 120 years” mean for the largest shark dated?",
+   "choix": [
+    "Its age has a 95.4% chance of falling between 272 and 512 years",
+    "Its age is 392 years, with 120 years of error on the measurement of its size",
+    "Its maximum possible age is 392 years, and 120 years is its minimum"
+   ],
+   "bonne_reponse": 0,
+   "explication": "392 is the midpoint of the interval and 120 its half-width, at 95.4% probability. The lower bound, 272 years, is the minimum lifespan retained; the upper bound, 512, is not ruled out."
+  },
+  {
+   "question": "What does the “bomb peak” mark in this dating?",
+   "choix": [
+    "A drop in carbon-13 due to the burning of fossil fuels",
+    "A rise in carbon-14 due to thermonuclear weapons tests, by the early 1960s at the latest",
+    "A natural variation in carbon-14 tied to solar cycles, every eleven years"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The bomb peak is a rise in carbon-14 that appeared after the mid-1950s. The effect of fossil fuels is another marker, on carbon-13, which the paper uses only as an indirect clue."
+  }
+ ]
+}

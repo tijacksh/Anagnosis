@@ -1,0 +1,77 @@
+{
+ "id": "cli-cycles-de-milankovitch",
+ "slug": "cycles-de-milankovitch",
+ "langue": "en",
+ "empreinte_fr": "95acb84d188eece9",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Ice ages are paced by the shape of our orbit",
+ "accroche": "In the 1920s, a Serbian engineer calculates the rhythm of the ice ages. It will take half a century to verify it",
+ "contenu_vulgarise": "Earth has gone through glacial periods, separated by warm periods, and the alternation keeps coming back. Any explanation must therefore supply a *periodic* mechanism.\n\nMilutin Milanković, an engineer turned astronomer, proposes in the 1920s that it be sought in the geometry of Earth's orbit.\n\n## Three slow rhythms\n\nEarth is not an isolated system. The pull of the other planets slowly distorts its trajectory, along three parameters.\n\nIts orbit stretches and then moves closer to a circle, over a period of about 100,000 years. The tilt of its axis swings by a few degrees, over about 41,000 years. And that axis traces out a cone, like a spinning top that is slowing down, over roughly 20,000 years.\n\nNone of these movements changes the total amount of energy received from the Sun by much. They change its *distribution*, between the seasons and between latitudes.\n\nMilanković identifies the decisive parameter: summer sunlight at high latitudes of the Northern Hemisphere. If summer there is too cool to melt the snow that fell in winter, the snow piles up from one year to the next, reflects more light, and cools things further. An ice sheet takes hold.\n\nSo it is not the harshness of winter that makes an ice age. It is the mildness of summer.\n\n## How it was verified\n\nThe hypothesis could be calculated but not tested: it would have required a chronology of past climate precise enough to search for periodicities.\n\nIt came from marine sediments. The plankton shells deposited on the ocean floor preserve, in their isotopes, a trace of the volume of ice of their time. A sediment core is therefore a climate clock.\n\nIn 1976, James Hays, John Imbrie, and Nicholas Shackleton analyze such cores and look for frequencies in them. They find exactly the predicted periods: 100,000, 41,000, and 23,000 years.\n\nTheir paper, whose title spells it out, establishes that orbital variations set the tempo of the ice ages.\n\n## What remains open\n\nOne problem resists, and it is known as the “100,000-year problem.”\n\nThe dominant cycle in the data is the 100,000-year one, the eccentricity of the orbit. Yet it is by far the weakest of the three in terms of energy received. The strongest signal is associated with the faintest forcing.\n\nThe explanation lies in feedbacks (ocean carbon, ice sheet dynamics, dust) that amplify a weak trigger. The details are not settled.\n\nMilanković's theory gives the rhythm, not the amplitude. It says when an ice age can begin; what makes it deep is determined elsewhere.",
+ "repere": {
+  "texte": "In 1976, analysis of marine sediment cores reveals in past climate the exact periodicities predicted by the orbital theory: about 100,000, 41,000, and 23,000 years.",
+  "source": "Hays, Imbrie & Shackleton, “Variations in the Earth's Orbit: Pacemaker of the Ice Ages,” Science, 194, 1976",
+  "url": "https://www.science.org/doi/10.1126/science.194.4270.1121"
+ },
+ "carte": {
+  "punch": "It is not the harshness of winter that makes an ice age. It is the mildness of summer.",
+  "idee": "Three slow distortions of Earth's orbit redistribute sunlight. When summers in the far north no longer melt the winter's snow, an ice sheet sets in. Marine sediments confirmed these periods in 1976.",
+  "source_courte": "Hays, Imbrie & Shackleton, 1976"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Hays, Imbrie & Shackleton (1976) — full text",
+   "url": "https://ruby.fgcu.edu/courses/twimberley/EnviroPhilo/Variations.pdf",
+   "note": "In English; read the frequency spectra before the statistical detail."
+  }
+ ],
+ "quiz": {
+  "question": "Which parameter triggers the establishment of an ice sheet?",
+  "choix": [
+   "The total amount of energy Earth receives from the Sun over the year",
+   "The harshness of winters in the Northern Hemisphere, which brings more snowfall",
+   "The mildness of summers at high northern latitudes, which no longer melts the snow",
+   "The average distance between Earth and the Sun over the course of the cycle"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Orbital distortions barely change the total energy received: they redistribute it between seasons and latitudes. What matters is that a summer that is too cool lets the winter's snow survive, and that snow reflects light and cools things further. A harsher winter is not enough if summer erases its deposit.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What are the three orbital parameters identified by Milanković?",
+   "choix": [
+    "The Earth-Sun distance, Earth's rotation speed, and the mass of the Moon",
+    "The eccentricity of the orbit, the tilt of the axis, and its precession",
+    "Ocean temperature, cloud cover, and the albedo of ice",
+    "Solar activity, volcanic eruptions, and the composition of the atmosphere"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Milanković identifies three slow distortions of Earth's orbit: its eccentricity, over about 100,000 years; the tilt of its axis, over 41,000 years; and the precession of that axis, over roughly 20,000 years."
+  },
+  {
+   "question": "How do marine sediment cores make it possible to verify Milanković's theory?",
+   "choix": [
+    "They contain air bubbles that directly date the ancient atmosphere",
+    "They allow annual layers to be counted, like tree rings",
+    "They contain meteorite fragments that can be dated with carbon-14",
+    "The plankton shells in them preserve, in their isotopes, the volume of ice of their time"
+   ],
+   "bonne_reponse": 3,
+   "explication": "A sediment core is a climate clock: the plankton shells deposited on the ocean floor preserve, in their isotopes, a trace of the volume of ice that existed when they were deposited."
+  },
+  {
+   "question": "What is the “100,000-year problem”?",
+   "choix": [
+    "The dominant cycle in the data is that of eccentricity, yet it is the weakest of the three in energy",
+    "No 100,000-year period appears in the sediment cores that were analyzed",
+    "Scientists cannot date sediments beyond 100,000 years",
+    "The theory predicts a 100,000-year cycle that has never been observed in the data"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The strongest signal in the sediment cores corresponds to the 100,000-year cycle, eccentricity, even though it is by far the weakest of the three parameters in terms of energy received: the strong signal comes from the faintest forcing."
+  }
+ ]
+}

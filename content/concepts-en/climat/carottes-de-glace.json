@@ -1,0 +1,77 @@
+{
+ "id": "cli-carottes-de-glace",
+ "slug": "carottes-de-glace",
+ "langue": "en",
+ "empreinte_fr": "d0f5647951ac982d",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Eight hundred thousand years of atmosphere, locked in bubbles",
+ "accroche": "Antarctic ice traps the air of each year. It can be analyzed, and CO₂ poses a puzzle about order",
+ "contenu_vulgarise": "In Antarctica, the snow that falls never melts. It accumulates, packs down under the weight of the layers that follow, and turns into ice.\n\nAt the moment when compaction seals the grains, it traps air between them. Each bubble is a sample of the atmosphere of the year in which it was trapped.\n\nA deep drilling therefore brings up, literally, the air that mammoths breathed.\n\n## Two measurements in the same core\n\nA core delivers two independent series, and that is what makes it so powerful.\n\nThe composition of the air in the bubbles is measured directly: it is extracted, analyzed, and yields the carbon dioxide and methane content.\n\nTemperature, for its part, is deduced from the ice itself. Water contains isotopes of different masses; their proportion depends on the temperature at which the vapor condensed. Ice is thus a thermometer as well as a flask.\n\nThe European drilling at Dome C, in Antarctica, has made it possible to extend this double series to about 800,000 years, eight complete glacial cycles.\n\n## What the series shows\n\nThe two curves follow each other very closely. Warm periods go with high carbon dioxide, glacial periods with low carbon dioxide, eight times in a row.\n\nAnd over this entire span, the content never exceeds 300 parts per million. It is far beyond that today, which places the current value outside the range in which the climate operated for eight hundred thousand years.\n\n## The puzzle of order\n\nA close examination of the data reveals a fact that has circulated widely, often misused: at the exits from glaciation, warming begins before the rise in carbon dioxide, with a lag of several centuries.\n\nFrom this, the argument has been drawn that CO₂ cannot be a cause, since it arrives afterward.\n\nThe argument does not hold, and the explanation is more interesting than the objection. What triggers an exit from glaciation is not carbon dioxide: it is variations in the Earth's orbit, which alter the distribution of sunlight. This initial forcing is weak. By warming the oceans, it makes them release carbon, since a gas dissolves less the warmer the water is. This released carbon then reinforces the warming, which releases still more carbon.\n\nCO₂ is therefore not the trigger, it is the amplifier. Without it, the small orbital nudge would not be enough to bring the planet out of a glaciation.\n\nAn effect that follows its cause can perfectly well become a cause in turn. That is the definition of a feedback, and chronological order alone says nothing about what acts on what.",
+ "repere": {
+  "texte": "The Dome C core covers about 800,000 years, or eight glacial cycles. Over this entire span, the carbon dioxide content never exceeded 300 parts per million.",
+  "source": "Lüthi et al., “High-resolution carbon dioxide concentration record 650,000–800,000 years before present,” Nature, 453, 2008",
+  "url": "https://www.nature.com/articles/nature06949"
+ },
+ "carte": {
+  "punch": "Each bubble caught in the ice is a sample of ancient atmosphere.",
+  "idee": "The Dome C core reaches back 800,000 years. The air in the bubbles gives the CO₂, the isotopes in the ice give the temperature. Over eight glacial cycles, CO₂ never exceeded 300 ppm.",
+  "source_courte": "Lüthi et al., Nature, 2008"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "PANGAEA — EPICA Dome C CO₂ record",
+   "url": "https://doi.pangaea.de/10.1594/PANGAEA.710901",
+   "note": "In English; complete dataset, with its methodological notice."
+  }
+ ],
+ "quiz": {
+  "question": "What does it mean that warming precedes the rise in CO₂ at exits from glaciation?",
+  "choix": [
+   "That CO₂ amplifies a warming triggered by orbital variations",
+   "That CO₂ cannot influence temperature, since it arrives after it",
+   "That the dating of the air bubbles is too imprecise to conclude",
+   "That the oceans absorb carbon better the more they warm"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The trigger is orbital, and it is weak. By warming the oceans, it makes them release carbon, since a gas dissolves less in warm water, not better, and this carbon in turn reinforces the warming. An effect that follows its cause can perfectly well become one: this is what is called a feedback.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How is ancient temperature deduced from an ice core?",
+   "choix": [
+    "From the size of the air bubbles trapped in the ice",
+    "From the proportion of water isotopes in the ice itself",
+    "From the thickness of snow accumulated during each year",
+    "From the methane content measured in the air of the bubbles"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Water contains isotopes of different masses, and their proportion depends on the temperature at which the vapor condensed. Ice is thus a thermometer, as well as a flask that keeps the air of the year in which it formed."
+  },
+  {
+   "question": "What does the Dome C core show over eight glacial cycles?",
+   "choix": [
+    "That the carbon dioxide content stayed perfectly stable",
+    "That warm periods go hand in hand with low carbon dioxide",
+    "That the current content lies within the average of these eight cycles",
+    "That the carbon dioxide content never exceeded 300 ppm"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Over about 800,000 years, the content rises with warm periods and falls with glaciations, but always stays below 300 parts per million. Today's value is far beyond that, thus outside the range of these eight cycles."
+  },
+  {
+   "question": "What triggers an exit from glaciation, according to the card?",
+   "choix": [
+    "The release of carbon by the warming oceans",
+    "A sudden rise in the methane trapped in the air bubbles",
+    "Variations in the Earth's orbit, which shift the distribution of sunlight",
+    "The melting of the ice caps, which darkens the planet's surface"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The initial forcing is orbital, and it is weak. The carbon released by the warmed oceans then comes to reinforce it, but it is not the trigger: that is what makes it an amplifier, and the whole a feedback."
+  }
+ ]
+}

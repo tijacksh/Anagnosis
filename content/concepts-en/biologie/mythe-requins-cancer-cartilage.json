@@ -1,0 +1,68 @@
+{
+ "id": "bio-mythe-requins-cancer-cartilage",
+ "slug": "mythe-requins-cancer-cartilage",
+ "langue": "en",
+ "empreinte_fr": "f3b8f2a8c0fc602f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "No, Sharks Are Not Immune to Cancer",
+ "accroche": "A 1992 book sold the idea that sharks never get cancer. Tumors, including cancerous ones, have since been recorded in them.",
+ "contenu_vulgarise": "In 1992, former researcher William I. Lane publishes Sharks Don't Get Cancer with Linda Comac. The book rests on a real laboratory observation: cartilage, a tissue with no blood vessels, contains substances that slow the growth of new vessels, a mechanism some tumors need in order to grow. From this legitimate but still uncertain line of research, the book draws a shortcut that appears in no study: because the shark is made almost entirely of cartilage, it would escape cancer wholesale. Shark cartilage capsules then flood the dietary supplement shelves, and demand contributes to the decline of certain shark populations fished for their fins and skeleton.\n\n## What the Scientific Literature Shows\n\nIn 2004, in Cancer Research, a team led by Gary Ostrander goes back through the veterinary literature and the Registry of Tumors in Lower Animals, a reference database kept by the National Cancer Institute since 1965, to test the claim. It records a total of forty-two cases of tumors, benign and malignant, in sharks and rays, and adds three previously unpublished cases, two in the spiny dogfish and one in the tiger shark. A more recent academic review of cancer in wild and captive animals sums up the state of the question plainly: sharks have had a reputation for resisting it, but recent studies show that these species too can develop cancer.\n\n## The Trial That Settled It for Humans\n\nThat leaves the question that justified the trade: does shark cartilage cure human cancer? In 2010, in the Journal of the National Cancer Institute, a randomized, double-blind trial funded by the U.S. National Cancer Institute tests a shark cartilage extract, AE-941, as an add-on to chemoradiotherapy in 379 patients with advanced-stage lung cancer. Median survival is 14.4 months on the cartilage extract, versus 15.6 months on placebo: no favorable difference, and the trial was even closed before reaching its planned size, for lack of enough recruited patients.\n\n## What This Shifts\n\nThe myth does not come from nowhere: a real property of cartilage was stretched, from “certain substances slow the growth of vessels in a test tube” to “an entire animal is protected from cancer,” and then to “swallowing this tissue protects a human body.” Each step of the shortcut is one more step away from what the data showed. The result is not just harmless credulity: patients delayed treatments that had, for their part, proven themselves, and sharks were taken for a remedy that does not even protect the species it is extracted from.",
+ "repere": {
+  "texte": "Among 379 patients with advanced-stage lung cancer, median survival on shark cartilage extract (AE-941) was 14.4 months, versus 15.6 months on placebo, with no statistically significant difference.",
+  "source": "Lu et al., “Chemoradiotherapy With or Without AE-941 in Stage III Non-Small Cell Lung Cancer: A Randomized Phase III Trial,” Journal of the National Cancer Institute, 102(12), 859-865, 2010",
+  "url": "https://doi.org/10.1093/jnci/djq179"
+ },
+ "carte": {
+  "punch": "A book sold the idea that sharks never get cancer. It is false.",
+  "idee": "In 1992, a book claims that sharks never get cancer and launches a trade in shark cartilage. In 2004, a study records 42 cases of tumors in sharks and rays. In 2010, a clinical trial of 379 patients shows that the cartilage extract does nothing for their survival.",
+  "source_courte": "Ostrander et al., Cancer Research, 2004; JNCI, 2010"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Sharks Don't Get Cancer, William I. Lane and Linda Comac, Avery, 1992 (catalog record)",
+   "url": "https://openlibrary.org/works/OL1930448W",
+   "note": "The book that started the myth and the shark cartilage trade that followed."
+  }
+ ],
+ "quiz": {
+  "question": "What did the randomized clinical trial published in 2010 show about shark cartilage extract (AE-941) against lung cancer?",
+  "choix": [
+   "That it significantly extended patients' survival compared with placebo",
+   "That it did not significantly change patients' median survival compared with placebo",
+   "That it had to be pulled from the market because of serious toxicity observed during the trial",
+   "That the trial could not be run because no patient agreed to take part"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Among 379 patients, median survival was 14.4 months on AE-941 versus 15.6 months on placebo, a nonsignificant difference. The trial was closed before reaching its planned size for lack of enough recruitment, not because of a safety problem.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What real laboratory observation did the book Sharks Don't Get Cancer (1992) rely on to build its shortcut?",
+   "choix": [
+    "Cartilage, a tissue with no blood vessels, contains substances that slow the growth of new blood vessels",
+    "Biopsies of hundreds of wild sharks had never revealed a single tumor",
+    "The shark's immune system destroys cancer cells before they multiply",
+    "Sharks live so briefly that cancer never has time to develop in them"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text traces the book's starting point to a real but still uncertain line of research on cartilage, stretched into a shortcut that appears in no study.",
+   "statut": "valide"
+  },
+  {
+   "question": "What does Gary Ostrander's team record in 2004 in Cancer Research, drawing on the veterinary literature and the Registry of Tumors in Lower Animals?",
+   "choix": [
+    "A single isolated case of a benign tumor, judged too rare to challenge the myth",
+    "Forty-two cases of tumors, benign and malignant, in sharks and rays, including three previously unpublished cases",
+    "No tumor cases at all in sharks or rays, confirming that this group does not get cancer",
+    "Tumors only in sharks kept in captivity, never in the wild"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Ostrander's team records a total of forty-two cases of tumors in sharks and rays, and adds three previously unpublished cases.",
+   "statut": "valide"
+  }
+ ]
+}

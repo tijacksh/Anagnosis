@@ -1,0 +1,87 @@
+{
+ "id": "inf-lauteur-des-regles-de-mot-de-passe-les-regrette",
+ "slug": "lauteur-des-regles-de-mot-de-passe-les-regrette",
+ "langue": "en",
+ "empreinte_fr": "8ba516c1ace4c60f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Author of the Most Hated Password Rules Regrets Them",
+ "accroche": "In 2003, lacking real data, Bill Burr writes the password rules that will be imposed everywhere; fourteen years later, NIST abandons them.",
+ "contenu_vulgarise": "In 2003, a manager at the National Institute of Standards and Technology (NIST) is given the task of writing, in a few months, the U.S. federal reference on how to create passwords. Bill Burr would like to rely on real data; he asks to look at the passwords actually used on NIST's internal network. The request is denied, for privacy reasons. He falls back on a technical report from the 1980s, written before the web existed, and writes alone, in an eight-page appendix to NIST Special Publication 800-63, the rules that will take hold around the world: an uppercase letter, a lowercase letter, a digit, a special character, and a mandatory change every three months.\n\n## What the theory missed\n\nOn paper, each constraint increases the number of possible combinations, and therefore the theoretical difficulty of guessing a password by brute force. But a password is not chosen at random by a computer: it is chosen by someone who then has to remember it, every quarter, across several accounts at once. In practice, forced to change “Password1!” every three months, most users simply increment a digit: “Password2!,” then “Password3!” Replacing an E with a 3 or an A with an @ follows rules so predictable that password-cracking software has long built them into its dictionaries. The complexity requirement, meant to widen the space of possible passwords, actually shrinks it: it pushes everyone toward the same workaround strategies.\n\nIn 2017, after a thorough review of the scientific literature now available on the subject, NIST publishes a new version of the document, Special Publication 800-63B. It specifies that verifiers should no longer require arbitrary, periodic changes, absent evidence of compromise, nor impose a mandatory mix of character types. It recommends instead comparing each chosen password against a list of values that are already compromised or too common, and it favors length: NIST calculates that a passphrase of six ordinary words reaches about 85 bits of entropy, versus about 65 bits for a complex ten-character password. Nearly a million times more combinations to try, for a sequence that is far easier to remember.\n\n## The author of the rules regrets them\n\nFourteen years after writing these recommendations, Bill Burr, retired from NIST, tells the Wall Street Journal that he regrets much of what he did: “Much of what I did I now regret.” Burr was neither malicious nor negligent. He was a civil servant who had to produce, with the means of his era and without the data he had asked for, a reference that no one else had yet written. What his story shifts is the idea that a computer security rule remains true because it was applied for a long time. Twenty years of complicated passwords changed every quarter did not make systems safer; they mostly made users more predictable.",
+ "citation": {
+  "texte": "Much of what I did I now regret.",
+  "auteur": "Bill Burr",
+  "source": "Quoted by Robert McMillan, “The Man Who Wrote Those Password Rules Has a New Tip: N3v$r M1^d!”, The Wall Street Journal, August 7, 2017",
+  "url": "https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118"
+ },
+ "carte": {
+  "punch": "He wrote the password rules imposed on the whole world, and regrets much of what he did.",
+  "idee": "In 2003, lacking real data, Bill Burr alone writes the password rules that will take hold: uppercase letter, digit, special character, quarterly change. In 2017, NIST drops them: they pushed people toward predictable variations. Burr regrets much of it.",
+  "source_courte": "NIST SP 800-63B, 2017"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NIST — Digital Identity Guidelines SP 800-63-3 (overview)",
+   "url": "https://pages.nist.gov/800-63-3/sp800-63-3.html",
+   "note": "Entry page for the family of documents whose Part B revises the password rules."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the requirement of a complex password changed every three months end up making accounts easier to guess?",
+  "choix": [
+   "Because password-cracking software did not yet exist in 2003",
+   "Because users, in order to remember them, adopted predictable variations from one change to the next",
+   "Because NIST made public the list of passwords used by its employees",
+   "Because special characters like @ or ! are forbidden by most sites"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Forced to change their password every quarter, the typical user does not start from scratch: they increment a digit or swap a letter for a symbol following rules so regular that cracking tools build them into their dictionaries. The requirement meant to make the password more complex mainly made its evolution predictable from one change to the next.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why did Bill Burr rely on a technical report from the 1980s to write the 2003 rules?",
+   "choix": [
+    "Because no study of passwords existed before that date",
+    "Because that report had been commissioned specially for this project",
+    "Because NIST denied him access to the real passwords on its network, for privacy reasons",
+    "Because that report demonstrated a decline in data leaks"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Bill Burr wanted to rely on real data, but NIST refused him access to the passwords used internally, citing privacy; he fell back on a report that predated the web."
+  },
+  {
+   "question": "What does the 2017 version of NIST's rules (SP 800-63B) recommend in place of the old periodic-change requirement?",
+   "choix": [
+    "Comparing the password against a list of values that are already compromised or too common",
+    "Requiring a change every month rather than every quarter",
+    "Requiring two special characters instead of just one"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The 2017 SP 800-63B drops arbitrary changes and imposed composition rules, and recommends instead checking that the password does not appear on a list of compromised or common values."
+  },
+  {
+   "question": "According to NIST's calculation, how does the entropy of a six-word passphrase compare with that of a complex ten-character password?",
+   "choix": [
+    "It is about half as high, around 30 bits",
+    "It is roughly equal, around 70 bits in both cases",
+    "It cannot be calculated with current methods",
+    "It is much higher, about 85 bits versus about 65 bits"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The article states that a passphrase of six ordinary words reaches about 85 bits of entropy, versus about 65 bits for a complex ten-character password, or nearly a million times more combinations."
+  },
+  {
+   "question": "What was Bill Burr's professional situation at the time of his 2017 interview with the Wall Street Journal?",
+   "choix": [
+    "He was working as a security consultant for a bank",
+    "He was retired from NIST",
+    "He still held his position at NIST"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The article specifies that it was fourteen years after writing these rules, by then retired from NIST, that Bill Burr told the Wall Street Journal he regretted much of what he did."
+  }
+ ]
+}

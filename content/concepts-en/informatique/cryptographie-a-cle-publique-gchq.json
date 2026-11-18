@@ -1,0 +1,89 @@
+{
+ "id": "inf-cryptographie-a-cle-publique-gchq",
+ "slug": "cryptographie-a-cle-publique-gchq",
+ "langue": "en",
+ "empreinte_fr": "1464da170dfedc6e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Formule « essentiellement l'algorithme RSA » (James Ellis, historique rédigé plus tard) citée en français, traduite depuis le français ; l'original est probablement anglais, non vérifié."
+  }
+ ],
+ "titre": "Public-Key Cryptography Was Invented in Secret, Before RSA",
+ "accroche": "In 1973, a mathematician at British intelligence finds in one evening what will become RSA. The world will not learn of it for another twenty-four years.",
+ "contenu_vulgarise": "In 1976 and then 1977, two publications change cryptography for good: Whitfield Diffie and Martin Hellman describe a way to exchange a secret key in public; Ron Rivest, Adi Shamir, and Leonard Adleman derive from it a complete public-key encryption system, RSA. These are the names the textbooks remember. What most people do not know is that GCHQ, the British electronic intelligence agency, had reached the same result several years earlier, and kept it secret for nearly a quarter of a century.\n\n## An idea born one night, a solution found in one evening\n\nIt all starts with James Ellis, a mathematician at GCHQ, who comes across a World War II report describing a way to scramble a telephone conversation by adding noise, without a secret key shared in advance. He wonders whether an equivalent exists in digital encryption. He himself recounts: “This question actually occurred to me in bed one night, and the proof of the theoretical possibility took only a few minutes.” He sets the proof down in an internal report dated January 1970, without knowing how to build a system that would implement it.\n\nIn September 1973, Clifford Cocks, fresh out of Cambridge, joins GCHQ. A colleague presents Ellis's problem to him as an unsolved challenge. That same evening, at home, Cocks finds a suitable one-way function: the factoring of large numbers. His report, dated November 20, 1973, describes an algorithm that Ellis would himself call, in the history he wrote later, “essentially the RSA algorithm.” A few months later, in January 1974, a third GCHQ cryptographer, Malcolm Williamson, in turn publishes a key exchange scheme, a later version of which, written down in 1976, would be the exact equivalent of Diffie and Hellman's.\n\n## Why this led nowhere, at the time\n\nNeither an oversight nor an error of judgment let this discovery lie dormant. Cocks himself explains it bluntly in an interview given decades later: “They thought very seriously about how to do it, but came to the conclusion, quite correctly at the time, that it was too expensive.” Implementing such encryption in 1973 would have required specialized, costly hardware, and in any case too slow for the use to which it would have been put. Without cheap microprocessors, without a public network to secure, the idea remained right, and without use.\n\n## What the secret cost, and to whom\n\nGCHQ lifted the veil only in 1997, on the occasion of a public lecture by Cocks on public-key cryptography: to avoid the inevitable questions about priority, the agency chose to declassify its own work before the event. James Ellis dies on November 25, 1997, a month almost to the day before this announcement. He will have known that his work would be recognized, without ever seeing the recognition itself. The episode takes nothing away from Diffie, Hellman, Rivest, Shamir, and Adleman, who published first in the open world and made their ideas usable. It merely reminds us that a scientific discovery is dated, in the history we retain, by the day it becomes public. Not by the day it happened, nor by its correctness alone.",
+ "citation": {
+  "texte": "They thought very seriously about how to do it, but came to the conclusion, quite correctly at the time, that it was too expensive.",
+  "auteur": "Clifford Cocks",
+  "source": "Interview, Chalkdust Magazine, 2016",
+  "url": "https://chalkdustmagazine.com/interviews/clifford-cocks/"
+ },
+ "carte": {
+  "punch": "RSA was invented in secret by British intelligence, even before Diffie and Hellman.",
+  "idee": "In 1973, Clifford Cocks finds the equivalent of RSA in one evening at GCHQ. GCHQ keeps it secret for twenty-four years: the computing power available made the idea correct but unusable. The world learns of it only in 1997, a month after the death of James Ellis, who had posed the problem.",
+  "source_courte": "GCHQ; Chalkdust Magazine"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "GCHQ — Malcolm Williamson",
+   "url": "https://www.gchq.gov.uk/person/malcolm-williamson",
+   "note": "Official biography of the team's third cryptographer, whose final scheme is equivalent to Diffie-Hellman key exchange."
+  },
+  {
+   "titre": "Bruce Schneier — The Secret Story of Non-Secret Encryption",
+   "url": "https://www.schneier.com/essays/archives/1998/04/the_secret_story_of.html",
+   "note": "An immediate analysis, written in 1998, just after declassification."
+  }
+ ],
+ "quiz": {
+  "question": "Why did GCHQ do nothing with Clifford Cocks's 1973 discovery, even though it was correct?",
+  "choix": [
+   "Because implementing it would have required specialized, costly hardware that was too slow for the use envisioned at the time",
+   "Because Cocks had only produced an oral sketch of the idea, never set down in an official GCHQ report",
+   "Because his superiors at GCHQ judged Cocks's mathematical proof incorrect at the time",
+   "Because the idea had already been lost, then independently rediscovered by mistake a few years later"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Cocks himself explains that the assessment was right for its time: without cheap microprocessors or a public network to secure, such encryption would have required specialized, expensive hardware, and remained too slow for the intended use. The assessment was a practical finding, not an error of scientific judgment. The idea was indeed formalized in writing as early as November 1973.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What role did James Ellis play in this story?",
+   "choix": [
+    "He found the one-way function based on factoring",
+    "He demonstrated the theoretical possibility without knowing how to realize it",
+    "He wrote the January 1974 key exchange scheme",
+    "He decided to declassify GCHQ's work in 1997"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Ellis set down in a January 1970 report the proof that encryption without a previously shared key was possible, without knowing how to build it. The one-way function came from Cocks in 1973, the key exchange scheme from Williamson in 1974."
+  },
+  {
+   "question": "What did Clifford Cocks base his solution on, found in one evening?",
+   "choix": [
+    "Noise added to a telephone conversation",
+    "A secret key physically exchanged beforehand",
+    "The factoring of large numbers",
+    "A random number generator shared in advance"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Cocks's report, dated November 20, 1973, describes a one-way function based on the factoring of large numbers, which Ellis would call essentially the RSA algorithm. The noise added to a conversation comes from the wartime report that had set Ellis on the trail."
+  },
+  {
+   "question": "Why did GCHQ declassify this work in 1997?",
+   "choix": [
+    "Because Diffie and Hellman were demanding that the archives be opened",
+    "Because the patent protecting RSA had just expired",
+    "Because James Ellis had made it a condition of his departure",
+    "Because a lecture by Cocks was about to raise the question"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Cocks was to give a public lecture on public-key cryptography. To get ahead of the inevitable questions about priority, the agency chose to declassify its own work before the event, a month after Ellis's death."
+  }
+ ]
+}

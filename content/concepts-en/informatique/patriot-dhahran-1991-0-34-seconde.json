@@ -1,0 +1,66 @@
+{
+ "id": "inf-patriot-dhahran-1991-derive-horloge",
+ "slug": "patriot-dhahran-1991-0-34-seconde",
+ "langue": "en",
+ "empreinte_fr": "6a61f792eee75707",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Patriot at Dhahran: 0.34 Second That Was Worth Half a Kilometer",
+ "accroche": "In February 1991, a Patriot fails to fire at a Scud that kills 28 soldiers. The system's clock had drifted by 0.34 second over 100 hours.",
+ "contenu_vulgarise": "On February 25, 1991, during the Gulf War, an Iraqi Scud missile hits a U.S. barracks at Dhahran, Saudi Arabia. A Patriot battery, supposed to intercept it, does not fire. Twenty-eight American soldiers are killed. The report of the U.S. Government Accountability Office (GAO), published in February 1992, carries an unambiguous title: a software problem led to the system's failure.\n\n## The Mechanism\n\nThe Patriot's radar spots a Scud, then has to know where to look for it a second later. To do that, the system needs the time, counted by an internal clock in tenths of a second. But 1/10 has no finite representation in binary: it is a repeating string of 0s and 1s, 0.0001100110011..., that never ends. The system stores this value in a 24-bit register and chops it off. The error is tiny at each tick. But it always goes in the same direction, and it adds up.\n\nAfter about 100 hours of continuous operation, the clock had fallen 0.34 second behind. A Scud travels at about 1,676 meters per second: 0.34 second is more than half a kilometer. The radar looked for the Scud in the wrong place, could not track it, and the battery did not engage it.\n\n## What the Number Tells Us\n\nThis episode is sometimes summed up as “a random bug.” Nothing here is random. The error is a mathematical consequence of how 0.1 is represented, perfectly predictable, and growing with the time the system has been on. Nothing was broken: the software did exactly what its code told it to do. The difficulty was that a tenth does not fit in a binary number of finite size, and that the effect of this approximation depended on how long the system had been running. The Patriot had never been used against Scuds, and no one expected it to run for long stretches at a time. Two weeks before the disaster, the Army had received Israeli data reporting a loss of accuracy after eight hours of operation; the corrected software did not reach Dhahran until February 26, the next day.\n\nIt is the same principle that makes 0.1 + 0.2 not always come out as exactly 0.3 in everyday computing. On a desktop computer, no one notices. On a system that runs a radar for four days without shutting down, the gap becomes a distance.\n\nThe shift fits in one sentence: an approximation that is harmless at the scale of a second becomes a cause of death at the scale of a hundred hours. What other assumptions about duration are still lurking in systems that are never restarted?",
+ "repere": {
+  "texte": "After about 100 hours of continuous operation, the clock of the Patriot at Dhahran had fallen 0.34 second behind, which meant a gap of more than half a kilometer for a Scud launched at about 1,676 meters per second.",
+  "source": "US General Accounting Office, “Patriot Missile Defense: Software Problem Led to System Failure at Dhahran, Saudi Arabia,” IMTEC-92-26, February 4, 1992",
+  "url": "https://www.gao.gov/products/imtec-92-26"
+ },
+ "carte": {
+  "punch": "A clock drift of 0.34 second was enough for a Patriot to miss a Scud.",
+  "idee": "On February 25, 1991, at Dhahran, 28 soldiers are killed. A tenth of a second cannot be written exactly in binary: the error added up with every tick, and amounted to more than half a kilometer after 100 hours.",
+  "source_courte": "GAO, report IMTEC-92-26, 1992"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "GAO Report IMTEC-92-26 (PDF)",
+   "url": "https://www.gao.gov/assets/imtec-92-26.pdf",
+   "note": "Text of the report."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the Patriot's clock drift?",
+  "choix": [
+   "A tenth of a second has no finite representation in binary, and the rounding error added up with every tick",
+   "The system was hacked by the Iraqi army during the attack on the barracks",
+   "A faulty temperature sensor skewed the frequency of the clock's quartz crystal",
+   "The software contained a defective loop that skipped seconds at random"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The error was systematic and grew with the time the system had been on, not random: 1/10 gets truncated in a 24-bit register. Nothing points to hacking, a faulty sensor, or an erratic loop.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How long had the system been running when the drift reached 0.34 second?",
+   "choix": [
+    "About 100 hours",
+    "About 10 minutes",
+    "About 3 days",
+    "About 100 seconds"
+   ],
+   "bonne_reponse": 0,
+   "explication": "According to excerpts from the GAO report, the 0.34-second drift corresponded to about 100 hours of continuous operation."
+  },
+  {
+   "question": "What does 0.34 second mean for a Scud traveling at about 1,676 m/s?",
+   "choix": [
+    "Less than a meter",
+    "About ten meters",
+    "More than half a kilometer",
+    "Several tens of kilometers"
+   ],
+   "bonne_reponse": 2,
+   "explication": "1,676 × 0.34 comes to about 570 meters: the radar was therefore looking for the Scud more than half a kilometer from its actual position."
+  }
+ ]
+}

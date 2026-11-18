@@ -1,0 +1,71 @@
+{
+ "id": "geo-richter-1935-echelle-sans-plafond",
+ "slug": "richter-1935-echelle-sans-plafond",
+ "langue": "en",
+ "empreinte_fr": "8925a2b0630249a4",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Richter Scale Doesn't Run from 1 to 10",
+ "accroche": "People think it is graded from 1 to 10. In 1935, Richter publishes a logarithmic scale for Southern California, whose zero does not mean “no earthquake.”",
+ "contenu_vulgarise": "We readily picture the Richter scale as a ruler graded from 1 to 10, with absolute catastrophe at the top. The founding text says something else.\n\n## A scale made for Southern California\n\nCharles F. Richter publishes “An Instrumental Earthquake Magnitude Scale” in the *Bulletin of the Seismological Society of America* of January 1935 (manuscript received June 17, 1934). His aim: to rank earthquakes by their energy at the source, independently of the damage seen at any given place. The word “magnitude” is proposed, he writes, at the suggestion of H. O. Wood, to distinguish it from the “intensity” scales of Rossi-Forel or Mercalli-Cancani, which describe local effects. The method rests on the amplitudes recorded at the seven stations of the Southern California network, and draws on a procedure by the Japanese seismologist Wadati.\n\n## A zero that isn't “nothing”\n\nMagnitude is defined as the base-10 logarithm of the maximum amplitude, in microns, that a standard torsion seismometer would record 100 kilometers from the epicenter. Richter notes in a footnote that the 0 should not be read as “no earthquake”: because the scale is logarithmic, 0 designates the standard earthquake, the one in the reference table. A magnitude 1 corresponds to an amplitude ten times greater, a magnitude 2 to one hundred times greater. The zero was deliberately placed at the smallest earthquakes recorded at the time.\n\n## A top that isn't fixed\n\nNothing in the paper sets a maximum. The strongest earthquake to which Richter applies his method, the Nevada earthquake of December 20, 1932, is rated about 7.5. From 0 to 7.5, he estimates the energy gap at no less than a factor of 10 to the 15th power. As for the effects, he describes them this way: magnitudes 0 to 2, not felt; 3 and 4, felt without damage; 5, notable minor damage; 6, destructive over a limited area; 7 and 8, the beginning of the great earthquakes.\n\n## Why it is no longer used as is\n\nIn 1979, Thomas Hanks and Hiroo Kanamori point out that the usual magnitude scales (local, surface-wave, body-wave) have “in principle” no upper bound, but do in practice: narrow-band instruments eventually saturate. For Richter's local magnitude, the maximum recorded in Southern California in more than forty years is 6.8, and they judge its limit to be near 7. They therefore propose a scale based on the seismic moment, the moment magnitude, which does not saturate. The ruler that stops at 10 does not exist: it was the ceiling of the instrument that drove the change of scale.",
+ "repere": {
+  "texte": "Richter (1935) defines magnitude as the logarithm of the maximum amplitude, in microns, that a reference seismometer would record at 100 km; he notes that the scale's 0 is not “no earthquake.” Hanks and Kanamori (1979) point out that the maximum local magnitude observed in Southern California in more than 40 years is 6.8.",
+  "source": "Richter, Bulletin of the Seismological Society of America, 25(1), 1935; Hanks and Kanamori, Journal of Geophysical Research, 84(B5), 1979",
+  "url": "https://ncedc.org/ftp/outgoing/peggy/ML/Richter_1935.pdf"
+ },
+ "carte": {
+  "punch": "The Richter scale never had a “10” printed at the top. It has an instrument that saturates.",
+  "idee": "In 1935, Richter defines magnitude as a logarithm of amplitude measured in Southern California, with a zero that is not “no earthquake” and no fixed ceiling. In 1979, Hanks and Kanamori judge that these measurements saturate around 7 and propose the moment magnitude.",
+  "source_courte": "Richter, BSSA, 1935"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does the 0 of the magnitude scale mean as Richter defines it in 1935?",
+  "choix": [
+   "The total absence of shaking, below which nothing can be measured",
+   "The strongest conceivable earthquake, beyond which the scale comes back down",
+   "A standard reference earthquake, chosen from the smallest recorded, and not the absence of an earthquake",
+   "An earthquake with no energy but felt by the surrounding population"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Richter notes in a footnote that 0 is not “no earthquake”: the scale is logarithmic, and 0 designates the standard earthquake whose amplitudes appear in his reference table, placed at the smallest earthquakes recorded at the time.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What difference does Richter draw between “magnitude” and “intensity”?",
+   "choix": [
+    "Magnitude measures the energy at the earthquake's source, while intensity describes its effects at a given place",
+    "Magnitude describes the damage observed, while intensity measures the energy released",
+    "Magnitude applies to deep earthquakes, intensity to surface earthquakes",
+    "The two words mean the same thing, in two different languages"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Richter wants to rank earthquakes by their energy at the source, independently of the effects at any observation point. The intensity scales of Rossi-Forel or Mercalli-Cancani, for their part, describe local manifestations."
+  },
+  {
+   "question": "Why do Hanks and Kanamori propose a new scale in 1979?",
+   "choix": [
+    "Richter's magnitude did not apply to California earthquakes",
+    "The 1935 seismometers had long since stopped being manufactured",
+    "The base-10 logarithm had been judged too hard to teach to the public",
+    "The usual scales saturate for large earthquakes, which the moment magnitude avoids"
+   ],
+   "bonne_reponse": 3,
+   "explication": "They point out that local, surface-wave, and body-wave magnitudes have no bound in principle, but are in fact limited by narrow-band instruments. Their moment magnitude rests on the seismic moment and does not saturate."
+  },
+  {
+   "question": "What does a difference of one unit of magnitude represent in Richter's scale?",
+   "choix": [
+    "A recorded amplitude two times greater",
+    "A recorded amplitude ten times greater",
+    "An earthquake felt twice as far from the focus",
+    "Shaking that lasts ten times longer"
+   ],
+   "bonne_reponse": 1,
+   "explication": "According to Richter's footnote, a magnitude 1 has ten times the recorded amplitude of the standard earthquake, a magnitude 2 one hundred times: that is the nature of a logarithmic scale."
+  }
+ ]
+}

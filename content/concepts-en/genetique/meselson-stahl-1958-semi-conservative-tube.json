@@ -1,0 +1,66 @@
+{
+ "id": "gen-meselson-stahl-1958-semi-conservative-tube",
+ "slug": "meselson-stahl-1958-semi-conservative-tube",
+ "langue": "en",
+ "empreinte_fr": "503f38a5429adb81",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Biology's most beautiful experiment fits in three bands in a tube",
+ "accroche": "In 1958, Meselson and Stahl read DNA replication in the position of a band in a centrifuge. The beauty lies in what it eliminates.",
+ "contenu_vulgarise": "When Watson and Crick propose the double helix in 1953, they note that it suggests a copying mechanism: separate the two strands, and build a new partner for each. It remains to be shown. Three ways of copying are then conceivable, and no one can tell them apart by looking at a molecule.\n\n## Three models\n\nIn the semiconservative model, each new molecule keeps one old strand and receives one new strand. In the conservative model, the original molecule stays intact and an entirely new copy is added. In the dispersive model, the daughter molecules are a patchwork of old and new fragments.\n\n## The setup\n\nIn 1958, Matthew Meselson and Franklin Stahl, then at Caltech, grow *Escherichia coli* in a medium containing heavy nitrogen, the isotope ¹⁵N, which makes their DNA denser. They transfer them to a light-nitrogen medium (¹⁴N) and take samples at regular intervals. The DNA is then placed in a density-gradient centrifuge, where each type of molecule settles at the height corresponding to its density.\n\n## What the bands say\n\nAt the start, a single band, heavy. After one generation in the light medium, still a single band, but intermediate: no more heavy band. That is enough to rule out the conservative model, which would have given one heavy band and one light band.\n\nAfter two generations, two bands of equal importance: one intermediate and one light. The dispersive model, which predicts a single band growing ever lighter, is in turn ruled out. What remains is the semiconservative model, which the measurements support.\n\n## Why it is called “the most beautiful”\n\nThe phrase is attributed to John Cairns, reported by the historian Horace Judson in 1979; the historian of science Frederic Holmes made it the subtitle of a book in 2001. What is beautiful here is not the image, but the logic: the experiment never looks at a strand of DNA. It reads a density, and it is because three hypotheses predict three different patterns that the observed pattern settles the question.\n\nIt is also an experiment that could have failed: had the bands matched none of the three models, Watson and Crick's theory would have been in serious trouble.\n\nThe lesson goes beyond biology. The best experiments do not seek to confirm an idea; they are built so that every rival loses.",
+ "repere": {
+  "texte": "In 1958, Meselson and Stahl raise bacteria in heavy nitrogen (¹⁵N), then in light nitrogen (¹⁴N), and track the density of their DNA by gradient centrifugation: after one generation, all the DNA is of intermediate density; after two, half intermediate, half light.",
+  "source": "Meselson and Stahl, Proceedings of the National Academy of Sciences, 44(7), 1958",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC528642/"
+ },
+ "carte": {
+  "punch": "Biology's most beautiful experiment never looks at DNA. It looks at a density.",
+  "idee": "In 1958, Meselson and Stahl raise bacteria in heavy then light nitrogen. One generation: an intermediate band, which rules out conservative copying. Two: intermediate and light, which rules out dispersive copying.",
+  "source_courte": "PNAS, 1958"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Holmes, F. L. — Meselson, Stahl, and the Replication of DNA: A History of \"the Most Beautiful Experiment in Biology\" (Yale University Press, 2001)",
+   "url": "https://embryo.asu.edu/pages/meselson-stahl-and-replication-dna-history-most-beautiful-experiment-biology-2001-frederic",
+   "note": "In English; the detailed history of the experiment, based on laboratory notebooks."
+  }
+ ],
+ "quiz": {
+  "question": "What does the single intermediate band observed after one generation show?",
+  "choix": [
+   "That conservative copying is ruled out",
+   "That dispersive copying is the only one possible",
+   "That the bacteria did not divide",
+   "That the heavy nitrogen disappeared from the medium"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The conservative model would have given one heavy band and one light band. The absence of a heavy band after one generation rules it out.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the dispersive model predict after two generations?",
+   "choix": [
+    "An intermediate band and a light band of equal importance",
+    "A heavy band and a light band of equal importance",
+    "A single band growing ever lighter",
+    "No visible band"
+   ],
+   "bonne_reponse": 2,
+   "explication": "If each molecule were a uniform mixture of old and new fragments, we would observe a single band that grows lighter with each generation. After two generations, two distinct bands are observed: the model is ruled out."
+  },
+  {
+   "question": "What makes this experiment so beautiful according to the entry?",
+   "choix": [
+    "The spectacular image of a strand of DNA copying itself",
+    "Its logic: three hypotheses predict three different patterns",
+    "Its very high cost and the rarity of its instruments",
+    "Its ability to describe the complete genetic code"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The experiment does not look at a strand: it reads a density. Because each model predicts its own pattern, the observation settles the question by eliminating the rivals."
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "id": "epi-millikan-1913-charge-de-l-electron-58-gouttes",
+ "slug": "millikan-1913-charge-de-l-electron-58-gouttes",
+ "langue": "en",
+ "empreinte_fr": "c3bf2ff81c2f721b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Millikan, 1913: The Electron's Charge and 58 Drops",
+ "accroche": "Millikan presents 58 oil drops as an “unselected” set. His notebooks contain more, and his value was too low.",
+ "contenu_vulgarise": "In August 1913, Robert Millikan of the University of Chicago published in the *Physical Review* the elementary charge: 4.774 × 10⁻¹⁰ electrostatic units, with an uncertainty he put at 2 parts in 1,000 (plus or minus 0.009). In coulombs, that comes to 1.592 × 10⁻¹⁹. The value given today by NIST is 1.602 176 634 × 10⁻¹⁹ coulomb, exact in the current system of units. Millikan is therefore too low by 0.6%, about three times his stated margin.\n\n## 58 drops\n\nThe result comes from charged oil droplets, which Millikan follows between two capacitor plates 16 millimeters apart, measuring their fall and then their rise under an electric field. The final table of the article has 58 of them. On page 138, he insists: this is not a selected group of drops, but all of those he worked on over 60 consecutive days.\n\nThe laboratory notebooks, examined later, contain data on many more drops between February and April 1912, with marginal notes such as “beauty publish” or “something wrong” (APS News). Some see fraud. Others see a defensible culling: drops too fast to be measured, too small and agitated by Brownian motion, or interrupted series. Some calculations indicate that keeping all the drops would hardly have changed the result. This discussion has not been settled, and this entry does not settle it.\n\n## A gap that closes in small steps\n\nThat leaves the gap with the current value. In his 1974 speech at Caltech, Richard Feynman attributes it to an incorrect value for the viscosity of air. Yet the article assigned it a maximum uncertainty of 0.1%, well below the 0.6% gap.\n\nWhat interests Feynman is what came next. If you plot the measurements of the electron's charge as a function of time, he says, each is a little larger than Millikan's, the next a little larger still, until they settle on a higher number. According to him, when a measurement came out too far from Millikan's figure, people thought something was wrong and looked for a flaw until they found it, whereas a measurement close to it was examined less. The numbers that were too far off were eliminated.\n\n## What this shifts\n\nIn Feynman's account, no one needs to cheat for the error to last. It is enough for a respected result to serve as an anchor and for discrepancies to be examined more severely than agreements: Millikan's figure would then have been corrected in stages, rather than all at once.\n\nThe margin of 2 parts in 1,000 comes from a sum of four factors, each judged reliable to within 0.1%. A stated uncertainty tells you only the errors someone thought to count.",
+ "citation": {
+  "texte": "It is to be remarked, too, that this is not a selected group of drops but represents all of the drops experimented upon during 60 consecutive days, during which time the apparatus was taken down several times and set up anew.",
+  "auteur": "Robert A. Millikan",
+  "source": "“On the Elementary Electrical Charge and the Avogadro Constant,” Physical Review, 2(2), 1913, p. 138",
+  "url": "https://doi.org/10.1103/PhysRev.2.109"
+ },
+ "carte": {
+  "punch": "58 “unselected” drops, and an electron charge too low by 0.6%: Millikan, 1913.",
+  "idee": "In 1913, Millikan publishes the electron's charge with a margin of 0.2%, too low by 0.6%. According to Feynman, the following values crept back up step by step: people looked for faults mainly in measurements that departed from his.",
+  "source_courte": "Millikan, Phys. Rev., 1913; Feynman, 1974"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "According to Feynman, why did measurements of the electron's charge creep back up in small steps after Millikan?",
+  "choix": [
+   "Because each laboratory used an apparatus slightly different from Millikan's",
+   "Because the drops retained were a little smaller each time",
+   "Because the measurement required a skill that only Millikan could achieve",
+   "Because people looked for faults mainly in measurements that departed from Millikan's figure"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Feynman describes a search bias: a figure too far from Millikan's prompted a hunt for a flaw, while a figure close to it was examined less. His account invokes neither different apparatus, nor a change in the drops, nor any skill specific to Millikan.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What margin of error did Millikan announce in 1913, and how large was the actual gap between his result and the current value?",
+   "choix": [
+    "A margin of 2 parts in 1,000, for an actual gap of about three times that margin",
+    "A margin of 5%, for an actual gap that stayed within that margin",
+    "No margin of error was given in the 1913 article",
+    "A margin of 2 parts in 1,000, for an actual gap ten times smaller than that margin"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The 1913 article announces an uncertainty of 2 parts in 1,000, but Millikan is too low by 0.6% relative to the current value, about three times the margin he announced."
+  },
+  {
+   "question": "What do Millikan's laboratory notebooks reveal between February and April 1912, according to APS News?",
+   "choix": [
+    "They contain no data on oil drops at that date",
+    "They contain many more drops than the 58 published, with marginal annotations",
+    "They confirm that Millikan worked on exactly 58 drops only",
+    "They show that Millikan changed the value of the electric charge every week"
+   ],
+   "bonne_reponse": 1,
+   "explication": "According to APS News, Millikan's notebooks between February and April 1912 contain many more drops than the 58 in the article, with marginal annotations such as beauty publish or something wrong."
+  },
+  {
+   "question": "According to Feynman's 1974 speech, what accounted for Millikan's gap, and what does the 1913 article nonetheless say about that factor?",
+   "choix": [
+    "Feynman attributes it to the viscosity of air, and Millikan's article acknowledges a 5% uncertainty on that factor",
+    "Feynman attributes it to drops that were too small, a factor Millikan's article does not mention at all",
+    "Feynman attributes it to the viscosity of air, but Millikan's article allowed it an uncertainty of only 0.1%",
+    "Feynman attributes it to an arithmetic calculation error that Millikan would later have acknowledged"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Feynman attributes the gap to an incorrect value for the viscosity of air, but Millikan's article judged this source of error reliable to within 0.1%, far below the actual gap of 0.6%."
+  }
+ ]
+}

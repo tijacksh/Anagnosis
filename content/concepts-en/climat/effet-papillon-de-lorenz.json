@@ -1,0 +1,83 @@
+{
+ "id": "cli-effet-papillon-de-lorenz",
+ "slug": "effet-papillon-de-lorenz",
+ "langue": "en",
+ "empreinte_fr": "b605dce09e6474d2",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "pour_aller_plus_loin/0/titre",
+   "type": "incertain",
+   "note": "Titre français probablement traduit d'un titre anglais d'origine (Shen et al.) ; à vérifier contre l'intitulé réel de l'article."
+  }
+ ],
+ "titre": "One truncated decimal, and the weather is no longer the same",
+ "accroche": "Lorenz reruns a calculation with rounded values. Two months of simulated time later, nothing matches anymore",
+ "contenu_vulgarise": "In 1961, Edward Lorenz runs a highly simplified model of the atmosphere on a desktop computer. He wants to take another look at a sequence he has already calculated, and to save time, he restarts it from the middle rather than from the beginning.\n\nHe types in the values from his printout. They appear there rounded to a few decimal places, whereas the machine kept more.\n\nHe goes off for a cup of coffee. When he returns, the new sequence has first followed the old one, then drifted away from it, until it has no relation to it at all.\n\n## What the gap means\n\nThe first reaction to such a result is to suspect the machine. Lorenz checks: the calculation is correct.\n\nWhat he has in hand is something else. A fully deterministic system, with the same equations and not the slightest randomness, can amplify a minuscule initial difference until it dominates the entire result.\n\nDeterminism and predictability, which had been taken for the same thing since Laplace, come apart. The equations say exactly what will happen; they are useless if the starting state is not known with infinite precision.\n\nLorenz then reduces his model to three equations, simple enough to write on a single line, which show the same behavior. His 1963 paper appears in a meteorology journal and remains more or less ignored for ten years.\n\n## What the butterfly says, and what it does not\n\nThe phrase comes from a 1972 talk whose title asked whether the flap of a butterfly's wings in Brazil can set off a tornado in Texas.\n\nIt is regularly misunderstood. It does not say that a butterfly *causes* a tornado, in the sense that one could trace a path from one to the other. It says that a disturbance too small to be measured ends up changing the state of the system, and therefore that it is futile to hope to predict beyond a certain horizon, whatever the computing power.\n\nToday that horizon is about two weeks for weather. It is barely receding anymore, and not for lack of computers: it is a property of the atmosphere.\n\n## Why climate can still be projected\n\nA confusion often sets in here. If we cannot say what the weather will be in a month, how can we claim to speak about 2100?\n\nBecause the two questions are not about the same object. Forecasting the weather means following one particular trajectory, and that is what becomes unpredictable. Projecting the climate means describing the statistical properties of the set of all possible trajectories: their average, their spread.\n\nWe cannot say at what moment a pot of water will start to boil at a given point. We can say very well that it will boil if we turn up the heat.",
+ "repere": {
+  "texte": "The 1963 paper appears in the Journal of the Atmospheric Sciences and remains ignored by mathematicians for about ten years. The butterfly phrase comes from a talk Lorenz gave in 1972.",
+  "source": "Étienne Ghys, “The Butterfly Effect,” ENS de Lyon",
+  "url": "https://perso.ens-lyon.fr/ghys/articles/butterflyeffect.pdf"
+ },
+ "carte": {
+  "punch": "Deterministic does not mean predictable. Lorenz discovered this by rounding off decimals.",
+  "idee": "By rerunning a calculation with rounded values, Lorenz gets an entirely different weather. The same equations, with not the slightest randomness, amplify an invisible difference until it dominates everything.",
+  "source_courte": "Ghys, ENS de Lyon"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Shen et al., 50 Years of the Butterfly Metaphor",
+   "url": "https://repository.library.noaa.gov/view/noaa/69596/noaa_69596_DS1.pdf",
+   "note": "In English, open access; untangles the misuses of the phrase."
+  }
+ ],
+ "quiz": {
+  "question": "Why can the climate of 2100 be projected without knowing the weather a month from now?",
+  "choix": [
+   "Because climate models use more reliable equations",
+   "Because climate describes statistical properties, not one particular trajectory",
+   "Because the available computing power has lifted the limit of predictability",
+   "Because tiny disturbances end up canceling each other out over the long term"
+  ],
+  "bonne_reponse": 1,
+  "explication": "These are two different questions: following a precise trajectory becomes impossible beyond about two weeks, but describing the average and the spread of the set of all trajectories remains feasible. The predictability horizon is a property of the atmosphere, which no amount of computing power can push back.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In 1961, why does Lorenz restart his calculation from the middle of the sequence rather than from the beginning?",
+   "choix": [
+    "To check that his computer contained no calculation error",
+    "To save time",
+    "Because the data from the beginning had been lost",
+    "To test a new version of his three-equation model"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text states that Lorenz wants to take another look at a sequence he has already calculated and, to save time, restarts it from the middle rather than from the beginning."
+  },
+  {
+   "question": "According to Lorenz, what explains why the new sequence ends up with no relation to the old one?",
+   "choix": [
+    "A calculation error by the machine, which he discovers while checking the program",
+    "A software bug specific to the desktop computer he was using",
+    "A change in room temperature that would have skewed the sensors",
+    "The values he entered were rounded, whereas the machine kept more of them in memory"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Lorenz verifies that the calculation is correct: the difference comes from the values he entered, rounded to a few decimal places on the printout, whereas the machine kept more."
+  },
+  {
+   "question": "What does the reduced three-equation model that Lorenz then builds show?",
+   "choix": [
+    "The same behavior: the amplification of a minuscule difference until it dominates the result",
+    "That the real atmosphere is in fact more predictable than his first model suggested",
+    "That the error observed in 1961 did indeed come from a defect in his machine",
+    "That a simpler model eliminates sensitivity to initial conditions"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Lorenz reduces his model to three equations simple enough to fit on a single line, which show the same behavior: the amplification of a minuscule difference until it dominates the result."
+  }
+ ]
+}

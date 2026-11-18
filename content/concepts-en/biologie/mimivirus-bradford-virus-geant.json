@@ -1,0 +1,64 @@
+{
+ "id": "bio-mimivirus-bradford-virus-geant",
+ "slug": "mimivirus-bradford-virus-geant",
+ "langue": "en",
+ "empreinte_fr": "9fcdee95a9bce4a4",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Mimivirus, the Bradford Bacterium That Was a Virus",
+ "accroche": "Isolated in 1992 from an English cooling tower, a microbe remains “Bradford coccus” until 2003, then turns out to be a giant virus.",
+ "contenu_vulgarise": "In 1992, a pneumonia outbreak strikes a hospital in Bradford, England. Investigators sample the water of a cooling tower, home to free-living amoebae. In some of them, of the species Acanthamoeba polyphaga, the light microscope shows small cocci that stain like Gram-positive bacteria. They are christened “Bradford coccus.” For more than ten years, this name designates a microbe that no standard method manages to describe.\n\n## A Bacterium That Slips Away\n\nEverything fails. The microbe cannot be isolated. Its 16S ribosomal RNA gene, the marker laboratories then used to identify rare bacteria, cannot be amplified. Antibiotics added to the amoeba cultures do not slow its growth, which raises doubts about whether it is a bacterium at all. In 1995, Richard Birtles brings to Marseille his laboratory's collection of amoeba bacteria, most of whose isolates turn out to be Legionella-like. This one resists.\n\nIn the early 2000s, electron microscopy settles the matter. Inside the infected amoebae appear regular particles with icosahedral symmetry, typical of a virus, but the size of a small bacterium. The replication curve moreover shows an eclipse phase: after infection, the particles vanish for a time from the cell before reappearing in large numbers, a trait almost universal among viruses. The paper appears in Science on March 28, 2003, under the title “A giant virus in amoebae.” The organism becomes Acanthamoeba polyphaga mimivirus.\n\n## A Genome That Blurs the Boundary\n\nIn 2004, the complete sequence is published: 1,181,404 base pairs, 1,262 putative open reading frames, of which only 10% resemble proteins of known function. The most unexpected finding is the presence of genes for core elements of protein manufacturing: four aminoacyl-tRNA synthetases, a termination factor, the elongation factor EF-Tu, an initiation factor, and six transfer RNAs. The particle measures about 400 nanometers, a size comparable to that of a mycoplasma, a small bacterium. Its discoverers write that the size and complexity of this genome challenge the established boundary between viruses and parasitic cellular organisms.\n\nThe name was meant to say “mimicking microbe.” Didier Raoult later recounted that it also evoked “Mimi the amoeba,” a character in the stories his father, a physician and researcher, made up to explain evolution.\n\nThe shift lies in the fact that three criteria meant to classify a microbe, size, Gram staining, and the inventory of its genes, gave the same wrong answer. Seen in 2003 as a sideshow curiosity, mimivirus and its relatives count fifteen years later, according to a review by the Marseille team, among the most diverse microorganisms, at least in seawater. If size and gene content no longer suffice to tell a virus from a cell, one criterion remains that mimivirus respects: it multiplies inside a host cell, here an amoeba.",
+ "repere": {
+  "texte": "Mimivirus genome: 1,181,404 base pairs and 1,262 putative open reading frames, of which only 10% resemble proteins of known function. Among them are protein translation genes, including four aminoacyl-tRNA synthetases.",
+  "source": "Raoult et al., “The 1.2-megabase genome sequence of Mimivirus,” Science, 2004",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/15486256/"
+ },
+ "carte": {
+  "punch": "For more than ten years, a virus carried the name of a bacterium.",
+  "idee": "Isolated in 1992 from a cooling tower in Bradford, the “Bradford coccus” stained like a bacterium, but its 16S gene could not be found. In 2003, electron microscopy discovers a giant virus in it, mimivirus, whose genome comprises 1,181,404 base pairs.",
+  "source_courte": "La Scola, Science, 2003; Raoult, 2004"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Rolland et al., “Discovery and Further Studies on Giant Viruses at the IHU Mediterranee Infection That Modified the Perception of the Virosphere,” Viruses, 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6520786/",
+   "note": "Account of the discovery by the Marseille team: Birtles's collection in 1995, electron microscopy, diversity of giant viruses."
+  }
+ ],
+ "quiz": {
+  "question": "What made it possible, after years of failure, to understand that the “Bradford coccus” was not a bacterium?",
+  "choix": [
+   "Sequencing of its 16S gene, which placed it among rare intracellular bacteria",
+   "Electron microscopy, which showed icosahedral particles and not cells",
+   "An antibiotic treatment after which its growth in amoebae stopped",
+   "A Gram stain that turned negative on new preparations"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The 16S gene could never be amplified, antibiotics did not slow growth, and the microbe stained like a Gram-positive bacterium: all the classic clues pointed to a bacterium or stayed silent. It was the electron microscope image that showed viral particles.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What sign observed in the infected amoebae brought the organism closer to a virus than to a bacterium?",
+   "choix": [
+    "An eclipse phase after infection, a trait almost universal among viruses",
+    "Regular division into two daughter cells visible under the light microscope",
+    "Growth on agar medium in the absence of amoebae"
+   ],
+   "bonne_reponse": 0,
+   "explication": "A bacterium divides and grows on a suitable medium. Here, the replication curve showed an eclipse phase, in which particles vanish from the cell before reappearing in large numbers, as in almost all viruses."
+  },
+  {
+   "question": "Why did the mimivirus genome come as a surprise in 2004?",
+   "choix": [
+    "It is made of single-stranded RNA, like those of other amoeba viruses",
+    "It contains protein translation genes, which was not expected of a virus",
+    "It is identical to that of the bacterium Legionella, the usual host of amoebae"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Mimivirus is a double-stranded DNA virus of 1,181,404 base pairs, which carries genes for core elements of translation (aminoacyl-tRNA synthetases, EF-Tu, initiation and termination factors). These genes blur the boundary between viruses and cellular organisms."
+  }
+ ]
+}

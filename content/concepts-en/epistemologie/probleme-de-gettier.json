@@ -1,0 +1,78 @@
+{
+ "id": "epi-probleme-de-gettier",
+ "slug": "probleme-de-gettier",
+ "langue": "en",
+ "empreinte_fr": "3923c63bdfa6574a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Gettier Problem",
+ "accroche": "His belief is true, he has excellent reasons to hold it, and yet no one would say he knows.",
+ "contenu_vulgarise": "In 1963, the American philosopher Edmund Gettier published in the journal *Analysis* a three-page article that would occupy epistemology for more than half a century. In it he dismantles a definition two thousand years old.\n\nSince Plato, knowing something seemed to come down to three conditions: that it be true, that one believe it, and that one have good reasons to believe it. Justified true belief, the so-called “tripartite” analysis. Gettier constructs a case in which all three hold at once, and in which, plainly, no one knows anything.\n\n## The case\n\nSmith has excellent reasons to believe that Jones owns a Ford: he has seen him drive it for years, and has ridden in it. Smith also has a friend, Brown, whose whereabouts at the moment he knows absolutely nothing about.\n\nStarting from his certainty about Jones, Smith builds a proposition by choosing the name of a city almost at random: “Either Jones owns a Ford, or Brown is in Barcelona.” In logic, if the first half of an “either/or” is true, the whole sentence is true, whatever the second half. Smith is therefore perfectly justified in believing this proposition, even without knowing where Brown is.\n\nNow comes the twist. Jones does not own a Ford: he has recently been driving a rental car, unknown to Smith. And by the purest coincidence, with nothing having prepared him for it, Brown really is in Barcelona at the very moment Smith formulates his proposition.\n\nSmith's proposition is therefore true. He had excellent reasons to believe it. And yet no one would say that he knew Brown was in Barcelona: he got there by accident, clinging to a false premise about Jones.\n\n## What this shifts\n\nGettier does not need to contest that Smith believes, or that his belief is true, or even that it is justified by the ordinary rules of justification. The three conditions are met, and the result nonetheless looks like nothing we would call knowledge. A fourth ingredient is missing, one that no one had thought to name because no one had needed it.\n\nThe difficulty, discovered since, is that no simple patch will do. Forbidding a true belief from resting on a false premise settles Smith's case, but other versions of the problem do without one entirely, built without a single false link in the reasoning. Since 1963, the search for a fourth condition that withstands every counterexample has had a name: the Gettier problem. To date, no proposal has won a consensus.",
+ "citation": {
+  "texte": "Smith is therefore completely justified in believing each of these three propositions […] But imagine now that two further conditions hold. First, Jones does not own a Ford, but is at present driving a rented car. And secondly, by the sheerest coincidence, and entirely unknown to Smith, the place mentioned in proposition (h) happens really to be the place where Brown is.",
+  "auteur": "Edmund L. Gettier",
+  "source": "“Is Justified True Belief Knowledge?”, Analysis, vol. 23, no. 6, 1963, p. 123",
+  "url": "https://doi.org/10.1093/analys/23.6.121"
+ },
+ "carte": {
+  "punch": "His belief is true and justified, yet he knows nothing.",
+  "idee": "Smith believes Jones has a Ford and infers that either Jones has a Ford or Brown is in Barcelona. Jones has no Ford, but Brown is indeed in Barcelona, by sheer chance. A true, justified belief, and still not knowledge.",
+  "source_courte": "Gettier, Analysis, 1963"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy — The Analysis of Knowledge",
+   "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+   "note": "The state of the problem and the “degettiering” attempts that followed."
+  }
+ ],
+ "quiz": {
+  "question": "According to Gettier, why does Smith not know that Brown is in Barcelona, even though his belief is true and justified?",
+  "choix": [
+   "Because his true belief owes itself to a coincidence about Brown, independent of his reasoning about Jones",
+   "Because he actually had no serious reason to believe that Jones owned a Ford",
+   "Because the logic of “either/or” never allows a true conclusion to be drawn from a false premise",
+   "Because Smith did not really believe his own proposition when he formulated it"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Smith had excellent reasons to believe that Jones owned a Ford, and the logic of “either/or” is perfectly valid: a false premise can lead to a true conclusion, which is precisely what happens here. The problem is neither the logic nor the justification, but that the truth of the conclusion owes nothing to Smith's reasoning; it rests on a coincidence.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What logical form does Smith use to build his proposition about Brown?",
+   "choix": [
+    "A disjunction, where it suffices that one of the two parts be true for the whole to be true",
+    "An implication, where a false premise automatically makes the conclusion false",
+    "A conjunction, which requires both parts to be true at the same time",
+    "An equivalence, which requires both parts to have the same truth value"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In logic, a disjunction (an “either/or”) is true as soon as one of its two parts is true, whatever the other; this is what allows Smith to be justified in believing his proposition."
+  },
+  {
+   "question": "Why is forbidding a true belief from resting on a false premise not enough to solve the Gettier problem?",
+   "choix": [
+    "Because this rule would then make all knowledge obtained by logical deduction impossible",
+    "Because no true belief can, by definition, rest on a false premise",
+    "Because other versions of the problem are built with no false premise at all in the reasoning",
+    "Because Gettier himself rejected this solution in a reply published in 1964"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry specifies that other versions of the problem do without a false premise in the reasoning entirely, which makes this patch insufficient against all the counterexamples."
+  },
+  {
+   "question": "Since when had the definition of knowledge as justified true belief, which Gettier challenges, been in use?",
+   "choix": [
+    "Only since Aristotle, a definition Gettier took over without any modification",
+    "Since Plato, a definition about two thousand years old before Gettier's article",
+    "Since the Middle Ages, first formulated by scholastic theologians",
+    "Only since the early 20th century, by Gettier's direct precursors"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text places the origin of the tripartite analysis in Plato, a definition two thousand years old that Gettier's three-page article shakes in 1963."
+  }
+ ]
+}

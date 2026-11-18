@@ -1,0 +1,77 @@
+{
+ "id": "gen-donnees-de-mendel",
+ "slug": "donnees-de-mendel",
+ "langue": "en",
+ "empreinte_fr": "1cfdee93d92dc378",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Mendel's Results Fit His Theory Too Well",
+ "accroche": "In 1936, Fisher reexamines Mendel's pea counts. They are statistically too close to what was expected",
+ "contenu_vulgarise": "Gregor Mendel grows peas for eight years and counts. How many smooth seeds, how many wrinkled; how many purple flowers, how many white. Tens of thousands of plants.\n\nFrom these counts come simple ratios, three to one, nine to three to three to one, from which he draws the laws that underpin genetics.\n\nIn 1936, the statistician Ronald Fisher takes up these data. He does not dispute the laws. He examines how well the counts agree with the theoretical proportions.\n\n## What a good result must have that is imperfect\n\nA theory that predicts three to one does not predict exactly three to one in a finite sample.\n\nIf you flip a coin a hundred times, you don't get fifty and fifty, but forty-seven, or fifty-three. The deviation from the expected result is itself predictable: it has a typical size, which calculation gives.\n\nReal data must therefore deviate from theory, by a calculable amount. An agreement that is too perfect is as suspect as a disagreement.\n\n## What Fisher finds\n\nMendel's counts deviate from the expected far less than they should. Not in one experiment, but across the whole set, over dozens of series, over eight years.\n\nFisher estimates the probability of obtaining by chance an agreement this good across so many experiments. It is very low.\n\nHis conclusion is cautious, and it should be quoted as it is. He praises at length the rigor of the experimental design. He does not accuse Mendel of fraud, and suggests in particular that an assistant, knowing what was expected, may have adjusted some counts.\n\n## What the debate has become\n\nThe controversy has continued ever since. Several explanations have been put forward, none of which wins out entirely.\n\nClassification bias, first: some seeds are ambiguous, and the hand hesitates toward the expected side with no intent to cheat. Then selective stopping: ceasing to count once the ratio looks good is a move that no norm of the time forbade. Some have proposed statistical models that account for the deviation without fraud.\n\nWhat no one has done is show that the data are ordinary.\n\n## Why this invalidates nothing\n\nMendel's laws are true. They were rediscovered independently in 1900, verified across countless species, and later explained by the mechanics of chromosomes.\n\nThat is precisely what makes the case interesting. One can be right and produce doubtful data; one can found a science and have arranged one's counts.\n\nThe result does not hold because Mendel was rigorous. It holds because others redid his experiments.",
+ "repere": {
+  "texte": "Using chi-squared tests, Fisher evaluates dozens of experiments carried out over eight years: the agreement between Mendel's counts and the theoretical proportions is consistently better than what chance produces.",
+  "source": "Fisher, “Has Mendel's work been rediscovered?”, Annals of Science, 1, 1936",
+  "url": "https://genepi.qimr.edu.au/contents/p/staff/1936_Fisher_AnnalsScience.pdf"
+ },
+ "carte": {
+  "punch": "Real data must deviate from theory. Mendel's deviate too little.",
+  "idee": "In 1936, Fisher reexamines Mendel's pea counts: the agreement with the expected proportions is better than chance allows. The laws remain true nonetheless, because others redid the experiments.",
+  "source_courte": "Fisher, Annals of Science, 1936"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Pires & Branco (2010) — A Statistical Model to Explain the Mendel–Fisher Controversy",
+   "url": "https://arxiv.org/pdf/1104.2975",
+   "note": "In English, open access; the introduction summarizes a century of debate."
+  }
+ ],
+ "quiz": {
+  "question": "Why is agreement that is too good between data and theory suspect?",
+  "choix": [
+   "Because it signals that the theory was built after the fact on the data",
+   "Because it indicates that the sample was too small to be representative",
+   "Because a theory can never predict exactly what is observed",
+   "Because the deviation from the expected result has a typical size, which calculation gives"
+  ],
+  "bonne_reponse": 3,
+  "explication": "A hundred coin flips don't give fifty and fifty: they deviate by a predictable amount. Counts that consistently fit better than this margin are therefore improbable. Fisher did not conclude fraud; he showed that the agreement exceeded what chance produces, across dozens of experiments.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Fisher suggest as a possible explanation for the deviation, without accusing Mendel himself of fraud?",
+   "choix": [
+    "That Mendel deliberately rigged his experiments to convince his peers",
+    "That the statistics of the time were too imprecise to detect a real deviation",
+    "That an assistant, knowing the expected result, may have adjusted some counts",
+    "That pea seeds naturally produce ratios of exactly three to one"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Fisher praises the rigor of Mendel's experimental design and does not accuse him of fraud. He suggests instead that an assistant, knowing what was expected, may have adjusted some counts with no intent to cheat."
+  },
+  {
+   "question": "How long did Mendel devote to his pea experiments, according to the card?",
+   "choix": [
+    "About two years",
+    "About eight years",
+    "A single growing season",
+    "About twenty years"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text states that Mendel grew peas for eight years, counting tens of thousands of plants before drawing his laws from them."
+  },
+  {
+   "question": "What made it possible to confirm that Mendel's laws remain true despite doubts about his data?",
+   "choix": [
+    "The fact that Fisher himself reproduced Mendel's counts",
+    "The fact that Mendel published a retraction in 1900",
+    "The fact that no geneticist has studied the question since 1936",
+    "The fact that other researchers redid his experiments"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text concludes that the result holds because others redid Mendel's experiments, and that his laws were also rediscovered independently in 1900."
+  }
+ ]
+}

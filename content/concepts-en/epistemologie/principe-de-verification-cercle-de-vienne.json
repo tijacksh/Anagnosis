@@ -1,0 +1,99 @@
+{
+ "id": "epi-principe-de-verification-cercle-de-vienne",
+ "slug": "principe-de-verification-cercle-de-vienne",
+ "langue": "en",
+ "empreinte_fr": "8d06a4a09bc0a10a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "accroche",
+   "type": "incertain",
+   "note": "Le français « ni l'un ni l'autre » est ambigu (sens/non-sens, ou les deux conditions vérifiable/tautologique). Rendu littéralement : « met neither »."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Anglais, Francis Herbert Bradley (« The Absolute enters into evolution and progress, but is itself incapable of them ») : retraduit depuis le français."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Anglais, A. J. Ayer (« there are mountains on the far side of the Moon ») : retraduit depuis le français."
+  },
+  {
+   "chemin": "quiz_supplementaire/0/question",
+   "type": "citation-traduite",
+   "note": "Anglais, Francis Herbert Bradley : phrase retraduite depuis le français."
+  }
+ ],
+ "titre": "The Principle That Failed Its Own Test",
+ "accroche": "The criterion meant to separate sense from nonsense met neither, by its own rules.",
+ "contenu_vulgarise": "In the 1920s, in Vienna, a group of philosophers and scientists gathered around Moritz Schlick, the Vienna Circle, sought a definitive criterion for separating what has meaning from what has none. Their answer fits in one sentence: a statement has factual meaning only if it can in principle be verified by experience, or if it is true by its logical form alone, like a tautology. Everything else, all of metaphysics, the questions about Being or the Absolute, is not false: it is noise that has the grammatical form of a sentence without having its content.\n\nIn 1932-1933, a young Briton of twenty-two, Alfred Jules Ayer, attends the Circle's meetings. Back in Oxford, he carries the idea into English in a book written at breakneck speed, *Language, Truth and Logic*, published in 1936. The success is immediate, and so is the scandal: in a single stroke, Ayer declares theology, normative ethics, and a good part of Western philosophy since Plato to be devoid of meaning.\n\n## The mechanism\n\nFor Ayer, a sentence has factual meaning only if whoever utters it knows how, in principle, to verify it. At the time he is writing, “there are mountains on the far side of the Moon” is verifiable in principle without being verifiable in practice: we know which observations would settle it, even though we cannot yet make them. “The Absolute enters into evolution and progress, but is itself incapable of them,” the sentence he borrows from the metaphysician Francis Herbert Bradley in order to mock it, is verifiable in no way, at no time: no conceivable observation changes anything about it. The criterion presents itself as surgical, sharper still than Popper's, formulated in the same decade: the aim is no longer merely to distinguish science from pseudoscience, but sense from nonsense, plain and simple.\n\n## What this shifts\n\nThe problem, noted almost at once by critics both outside and inside the movement, is damning: the verification principle itself, “a statement has meaning only if it is verifiable,” is neither verifiable by experience nor true by its logical form alone. Applied to itself, it eliminates itself exactly as it eliminates metaphysics. Ayer had nonetheless distinguished, as early as the first chapter of 1936, a “strong” verification, which would establish a proposition conclusively, from a “weak” verification, which merely renders it probable; he adopts the second, since no general scientific law is ever strictly conclusive. The formulation proves too permissive, and the new introduction he adds to the second edition of 1946 tries to tighten it without succeeding. The breach stays open.\n\nWillard Van Orman Quine delivers the hardest blow in 1951, in the very article that formulates the Duhem-Quine thesis: he attacks the verificationist theory of meaning as one of the two “dogmas” of empiricism, alongside the distinction between analytic and synthetic statements. Logical positivism, which dominated Anglo-American philosophy of science twenty years earlier, is regarded as running out of steam by the turn of the 1960s, a victim, in part, of a criterion that never managed to hold up against itself. The lesson goes beyond the Vienna Circle alone: a criterion that claims to settle what has meaning must first be able to judge itself by its own rule, or else saw off the branch it is sitting on.",
+ "citation": {
+  "texte": "a sentence is factually significant to any given person, if, and only if, he knows how to verify the proposition which it purports to express",
+  "auteur": "Alfred Jules Ayer",
+  "source": "Language, Truth and Logic, chapter 1 “The Elimination of Metaphysics,” 1936",
+  "url": "https://archive.org/stream/AlfredAyer/LanguageTruthAndLogic_djvu.txt"
+ },
+ "carte": {
+  "punch": "The criterion meant to eliminate nonsense failed its own test.",
+  "idee": "The Vienna Circle, then Ayer in 1936, judge any statement that no experience can verify to be devoid of meaning. But this principle is itself neither verifiable nor a tautology: it eliminates itself. Quine delivers the final blow in 1951, attacking it as a “dogma” of empiricism.",
+  "source_courte": "Ayer, 1936 / Quine, 1951"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy — The Vienna Circle",
+   "url": "https://plato.stanford.edu/entries/vienna-circle/",
+   "note": "A full presentation of the movement and its critics."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the Vienna Circle's verification principle accused of destroying itself?",
+  "choix": [
+   "Because it never convinced a single philosopher outside the movement",
+   "Because it wrongly condemns scientific statements that are already well established",
+   "Because it is itself neither verifiable by experience nor true by its logical form alone",
+   "Because it was formulated after most members of the Circle had died"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The principle asserts that a statement has meaning only if it is verifiable or a tautology. But this assertion is itself neither: applied to itself, the criterion judges itself devoid of meaning by its own rule.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why is the sentence borrowed from Bradley, “The Absolute enters into evolution and progress, but is itself incapable of them,” devoid of factual meaning for Ayer?",
+   "choix": [
+    "Because it is true by its logical form alone, like a tautology",
+    "Because no observation can be conceived that would decide whether it is true or false",
+    "Because it was refuted by experience as early as the 19th century",
+    "Because Bradley himself had ended up withdrawing it from his writings"
+   ],
+   "bonne_reponse": 1,
+   "explication": "A sentence has factual meaning, for Ayer, only if we know which observations would verify or refute it. Nothing of the kind exists here: it is not a tautology either, and no experience has ever had to refute it, since it says nothing that an observation could reach."
+  },
+  {
+   "question": "The distinction between “strong” and “weak” verification appears:",
+   "choix": [
+    "only in the introduction added to the 1946 edition",
+    "in an article Quine publishes in 1951",
+    "as early as the first chapter of the 1936 edition",
+    "in a lecture by Schlick, and nowhere in Ayer"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Ayer distinguishes the two senses of “verifiable” and opts for the weak sense as early as chapter 1 of the 1936 edition. The second edition of 1946 adds only an introduction, which tightens this formulation, judged too permissive, without inventing it."
+  },
+  {
+   "question": "What does Quine's 1951 attack on verificationism consist of?",
+   "choix": [
+    "He classes it as one of the two “dogmas” of logical empiricism",
+    "He demonstrates experimentally that the criterion is statistically false",
+    "He proposes replacing it with Popper's demarcation criterion",
+    "He shows that the Vienna Circle had already abandoned it before 1951"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In “Two Dogmas of Empiricism,” Quine attacks the verificationist theory of meaning as one of the two dogmas of empiricism, alongside the distinction between analytic and synthetic statements, contributing to the decline of logical positivism."
+  }
+ ]
+}

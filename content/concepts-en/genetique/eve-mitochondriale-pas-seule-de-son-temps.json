@@ -1,0 +1,77 @@
+{
+ "id": "gen-eve-mitochondriale-pas-seule-de-son-temps",
+ "slug": "eve-mitochondriale-pas-seule-de-son-temps",
+ "langue": "en",
+ "empreinte_fr": "6935914d87a4527b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "« Le nom a fait long feu » est pris au sens de « le nom a perduré » (the name has stuck), cohérent avec la suite de la phrase ; le sens littéral de l'expression (échouer) serait contraire."
+  }
+ ],
+ "titre": "Mitochondrial Eve Was Not the Only Woman of Her Time",
+ "accroche": "All our mitochondria descend from a single woman who lived about 160,000 years ago. She was not alone",
+ "contenu_vulgarise": "In 1987, three Berkeley researchers (Rebecca Cann, Mark Stoneking, and Allan Wilson) publish in Nature a study of the mitochondrial DNA of 147 people from five geographic populations. Mitochondrial DNA is passed down only through mothers, without mixing with the father's at each generation: by comparing the small differences accumulated between maternal lineages, the team reconstructs a family tree that converges on a single woman, in Africa, from whom all present-day human maternal lineages descend. The first estimates placed her at about 200,000 years ago; more complete analyses, covering the entire mitochondrial genome rather than fragments, have since narrowed the date to around 160,000 years.\n\nThe press immediately nicknames this woman “Mitochondrial Eve.” The name has stuck: it still leaves the impression, for anyone who doesn't read the study, that she was a first woman, unique in her time. An Eve in the biblical sense.\n\n## Only one line survives, not only one woman exists\n\nMitochondrial DNA is passed down strictly along the maternal line: a mother passes it to all her children, but only her daughters pass it on in turn. A woman who has only sons, or none of whose direct-line female descendants has a daughter in turn, sees her mitochondrial lineage die out, even if she has many descendants through her sons.\n\nOver tens of thousands of years and a far greater number of women who were contemporaries of Mitochondrial Eve, this phenomenon plays out at every generation. Mechanically, the very long-term result can only be a single surviving maternal lineage. A family name passed down only through sons meets exactly the same fate: over enough generations, it ends up borne by only a handful of families, the others dying out one by one for lack of a male heir. This is not the sign of a demographic bottleneck. It is an arithmetic consequence of any one-way transmission, even in a large and stable population.\n\n## What the lost lineage has not lost\n\nThe contemporaries of Mitochondrial Eve who did not pass their mitochondrial DNA down to us have not for all that disappeared from our genetic heritage. Their nuclear genes, passed on by their sons as well as their daughters and shuffled at every generation, circulate today in the human population just like those of Eve herself. Only their specific mitochondrial signature was lost along the way.\n\nA strictly symmetrical line of reasoning, applied to the Y chromosome passed from father to son, points to a chromosomal “Adam,” whose most recent estimate does not coincide with Eve's. The two never needed to meet: they are two independent statistical artifacts of two different transmission systems, not two people.",
+ "repere": {
+  "texte": "By comparing the mitochondrial DNA of 147 people from five geographic populations, Cann, Stoneking, and Wilson trace in 1987 all present-day human maternal lineages back to a single woman, in Africa. Estimated at first at about 200,000 years ago, her date has since been narrowed to around 160,000 years by analyses covering the entire mitochondrial genome.",
+  "source": "Cann, Stoneking & Wilson (1987); narrowed estimate reported by National Geographic (2004)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/3025745/"
+ },
+ "carte": {
+  "punch": "Mitochondrial Eve was not alone, just the only one whose lineage survived.",
+  "idee": "All of humanity shares a mitochondrial DNA inherited from a single woman, about 160,000 years ago. Not a unique first woman: under strictly maternal transmission, only one lineage ends up surviving, even in a large population, like a family name passed down through sons.",
+  "source_courte": "Cann, Stoneking & Wilson, Nature 1987"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does the mitochondrial DNA of all of present-day humanity trace back to a single woman?",
+  "choix": [
+   "Because a catastrophe reduced the human population to a few individuals at that time",
+   "Because this woman was genetically superior to the other women of her time",
+   "Because mitochondrial DNA mutates faster than the rest of the genome, which erases the other lineages",
+   "Because strictly maternal transmission, generation after generation, extinguishes all lineages but one, by chance"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Nothing points to a demographic bottleneck or a particular advantage: mitochondrial transmission passes only through daughters, so any lineage without direct female descendants stops. Over enough generations, a single lineage remains through the pure effect of accumulated chance, like family names passed down through sons. The mutation rate of mitochondrial DNA is used to date the common ancestor, not to explain why there is one.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which populations were compared in the founding 1987 study?",
+   "choix": [
+    "147 people from five populations of Africa, Asia, Europe, Australia, and New Guinea",
+    "Samples taken from every present-day continent, the Americas included",
+    "Only African populations, to isolate the original ancestral homeland",
+    "Egyptian mummies compared with contemporary European populations"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The study by Cann, Stoneking, and Wilson (1987) examined the mitochondrial DNA of 147 people from five geographic populations, with no samples from the Americas."
+  },
+  {
+   "question": "Why did the estimate of Mitochondrial Eve's age go from about 200,000 to about 160,000 years?",
+   "choix": [
+    "New fossils found in Africa made it possible to date this woman directly",
+    "DNA tests carried out on her direct descendants refined the calculation",
+    "Analyses covering the entire mitochondrial genome replaced the first analyses of fragments",
+    "The mutation rate of mitochondrial DNA was revised downward by geneticists"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The first estimates were based on fragments of mitochondrial DNA; analyses covering the entire mitochondrial genome have since narrowed the date to about 160,000 years."
+  },
+  {
+   "question": "What became of the genetic heritage of the contemporaries of Mitochondrial Eve whose mitochondrial lineage died out?",
+   "choix": [
+    "Their nuclear genes disappeared along with their mitochondrial lineage",
+    "Their nuclear genes still circulate in the population through their sons and daughters",
+    "Their DNA was entirely replaced by that of Mitochondrial Eve",
+    "Only their male descendants kept a trace of their genetic heritage"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Only the specific mitochondrial signature was lost: these women's nuclear genes, passed on by their sons as well as their daughters, still circulate in today's population."
+  }
+ ]
+}

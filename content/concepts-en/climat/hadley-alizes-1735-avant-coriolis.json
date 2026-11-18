@@ -1,0 +1,77 @@
+{
+ "id": "cli-hadley-alizes-1735-avant-coriolis",
+ "slug": "hadley-alizes-1735-avant-coriolis",
+ "langue": "en",
+ "empreinte_fr": "cb7d258883cb6dc2",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Hadley (1735), the trade winds a century before Coriolis",
+ "accroche": "In 1735, an English lawyer explains the trade winds by the rotation of the Earth. Coriolis does not publish his apparent force until 1835.",
+ "contenu_vulgarise": "Sailors have known the trade winds for centuries: steady winds that blow toward the equator, from the northeast in the Northern Hemisphere, from the southeast in the Southern Hemisphere. What remains to be explained is why they blow neither due north nor due east.\n\nIn 1686, Edmond Halley, already famous, suggests that the apparent movement of the Sun from east to west pulls the air along behind it. He himself doubts this part of his theory, but it survives for decades, perhaps thanks to his prestige.\n\n## A lawyer and a difference in speed\n\nIn 1735, George Hadley, a lawyer by training who had joined the Royal Society that year, publishes in the *Philosophical Transactions* a text that opens by judging that the causes of the trade winds have not been fully explained. His reasoning is simple. Suppose the air is at rest relative to the ground. The Sun heats the equator, the air there expands, and air from both hemispheres is drawn toward it.\n\nNow a point near the tropics travels, in one day, a smaller circle than the equator: Hadley puts the difference at a ratio of 917 to 1,000. The air coming from the tropics is therefore carried eastward more slowly than the ground it reaches. To an observer on the ground, it appears to blow toward the west. Combined with its movement toward the equator, this gives a northeast wind in the north and a southeast wind in the south.\n\nHe adds a consequence: if the trade winds push westward, friction on the ground would eventually alter the Earth's rotation. Winds blowing eastward must therefore compensate elsewhere for those of the trade winds.\n\n## A century without a name\n\nThe idea takes a century to catch on. A frictionless motion in a rotating system is hard to grasp, and Hadley is constantly confused with Halley, as well as with his own brother John, the one of the sextant. In 1728, Chambers's *Cyclopaedia* had already copied out Halley's text. In 1880, the German Adolph Sprung finally christens this reasoning “Hadley's principle.”\n\nMeanwhile, Gaspard-Gustave Coriolis introduces his apparent force in 1835, in connection with rotating machines. Around 1856, William Ferrel, who is unaware of Coriolis's work, introduces the same idea into meteorology in the Nashville Journal of Medicine and Surgery.\n\n## What bears his name, and what does not resemble it\n\nThe trade winds are often presented as a Coriolis effect. That is correct in the modern description; Hadley had the reasoning a century before it bore a name.\n\nBut what is today called “Hadley cells” does not resemble what he imagined. He saw circulation cells extending from the equator to the poles. We now know that the conservation of angular momentum, on a fast-rotating planet, confines them to the tropical and subtropical regions. The name survived the shape.",
+ "repere": {
+  "texte": "George Hadley publishes his explanation of the trade winds in 1735; Gaspard-Gustave Coriolis introduces his apparent force in 1835, a hundred years later. The name “Hadley's principle” is given by Adolph Sprung in 1880.",
+  "source": "Anders Persson, “Hadley's Principle: Understanding and Misunderstanding the Trade Winds,” History of Meteorology, vol. 3, 2006, and Birner, Davis, Seidel, “The changing width of Earth's tropical belt,” Physics Today, December 2014",
+  "url": "https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Hadley-cell/more/Persson-2006.pdf"
+ },
+ "carte": {
+  "punch": "Hadley explained the trade winds in 1735. Coriolis arrives a hundred years later.",
+  "idee": "In 1735, George Hadley shows that air coming from the tropics moves eastward more slowly than the ground at the equator: hence the northeast and southeast trade winds. His name stays on the tropical cells, but not on what he thought of them.",
+  "source_courte": "Persson, 2006; Physics Today, 2014"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Persson: Hadley's Principle (in English)",
+   "url": "https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Hadley-cell/more/Persson-2006.pdf",
+   "note": "Cites the 1735 passages and follows the idea into the 19th century."
+  }
+ ],
+ "quiz": {
+  "question": "What reasoning does Hadley apply to the trade winds in 1735?",
+  "choix": [
+   "Air coming from the tropics moves eastward more slowly than the ground, so it appears to blow toward the west",
+   "The Sun, moving westward, drags the air along behind it, as in Halley",
+   "The centrifugal force of rotation pushes air from the poles toward the equator, according to Hooke",
+   "The Coriolis force, calculated by him, deflects the air to the right in the Northern Hemisphere"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Hadley compares the rotation speeds of circles of latitude: air coming from the tropics lags behind the ground at the equator. The other three answers are the ideas of Halley (1686), of Hooke, and the Coriolis force, introduced in 1835, a century later.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who names the 1735 reasoning “Hadley's principle,” and when?",
+   "choix": [
+    "Gaspard-Gustave Coriolis, in 1835",
+    "Adolph Sprung, in 1880",
+    "William Ferrel, in 1856",
+    "Edmond Halley, in 1686"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Persson credits Adolph Sprung with the name “Hadley's principle,” in 1880. Coriolis introduces his force in 1835, Ferrel applies it to the atmosphere around 1856, and Halley died in 1742."
+  },
+  {
+   "question": "What consequence does Hadley draw from the friction of the trade winds on the ground?",
+   "choix": [
+    "The trade winds would gradually slow the Earth's rotation with nothing to compensate for it",
+    "The Earth would spin faster and faster and the trade winds would eventually stop",
+    "Winds blowing eastward must compensate elsewhere for those of the trade winds",
+    "The trade winds would reverse every year to cancel their effect on the ground"
+   ],
+   "bonne_reponse": 2,
+   "explication": "If the trade winds push westward, friction would eventually alter the Earth's rotation: winds blowing from east to west must therefore be compensated elsewhere by winds blowing eastward."
+  },
+  {
+   "question": "What remains of Hadley's vision in today's “Hadley cells”?",
+   "choix": [
+    "Only the name: the cells are confined to the tropics, whereas he saw them reaching the poles",
+    "Everything: they extend from the equator to the poles, as he already thought in 1735",
+    "Only their shape: they keep his outline, but have borne a different name since Sprung",
+    "Nothing at all: they now refer to the Coriolis force applied to the trade winds"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Hadley imagined cells from the equator to the poles. The conservation of angular momentum limits them to the tropical and subtropical regions: the name survived, the shape did not."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "geo-zircon-jack-hills-plus-vieux-fragment-terre",
+ "slug": "zircon-jack-hills-plus-vieux-fragment-terre",
+ "langue": "en",
+ "empreinte_fr": "fd4fffef627a0334",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Oldest Piece of the Earth Fits in a Grain of Sand",
+ "accroche": "In the Jack Hills of Australia, a microscopic crystal has made it through 4.4 billion years without breaking: the oldest fragment of Earth ever found.",
+ "contenu_vulgarise": "In the Jack Hills, a range of arid hills about 800 kilometers north of Perth in Western Australia, geologists have been sifting the sediments of an ancient conglomerate since the 1980s, looking for grains of zircon, a mineral so resistant that it passes almost intact through the erosion, heat, and pressure that destroy most of the surrounding rock. Among thousands of grains, no bigger than a grain of sand, one yields in 2001 an age that exceeds anything measured on Earth until then: 4.404 billion years, give or take 8 million years.\n\n## A clock sealed in the crystal\n\nZircon owes its usefulness to its structure: as it crystallizes, it captures uranium but rejects almost all lead. The lead found in it afterward therefore comes from the radioactive decay of that uranium, at a known and remarkably stable rate. It migrates so little in an intact zircon crystal that the uranium-lead ratio gives a reliable clock, even over several billion years. This is the property exploited in 2001 by the team of Simon Wilde and John Valley, with an ion microprobe able to measure that ratio inside the grain itself, without destroying it.\n\nZircon yields more than an age. Its oxygen isotope composition, measured in the same study, carries the signature of a magma that incorporated rock that had been in contact with liquid water at the surface, at low temperature. The grain therefore doesn't just date a fragment of crust: it suggests that barely 150 million years after the Earth formed, continental crust already existed, and liquid water with it.\n\n## An Earth less infernal than advertised\n\nThe name of this period, the Hadean, comes from Hades, the Greek god of the underworld: it was imagined as a world of molten rock, with no stable surface, hostile to any form of water. A single grain isn't enough to settle the matter, but the hypothesis has stood the test of time. In 2014, a team led by John Valley, at the University of Wisconsin-Madison, redates the same crystal with an independent method, atom probe tomography, which locates individual lead atoms inside the grain. They form clusters that have moved less than fifty atoms' diameter in four billion years: proof that the measured age was not skewed by lead migration.\n\nThe Hadean, a period thought to be devoted to hell, may have harbored liquid water, and so one of the conditions for life, much earlier than was thought. This conclusion rests entirely on a crystal too small to be seen with the naked eye.",
+ "citation": {
+  "texte": "This confirms our view of how the Earth cooled and became habitable.",
+  "auteur": "John Valley",
+  "source": "University of Wisconsin-Madison, press release, February 23, 2014",
+  "url": "https://news.wisc.edu/oldest-bit-of-crust-firms-up-idea-of-a-cool-early-earth/"
+ },
+ "carte": {
+  "punch": "This zircon grain, no bigger than a grain of sand, is 4.404 billion years old.",
+  "idee": "In the Jack Hills of Australia, a zircon was dated in 2001 to 4.404 billion years, older than anything measured on Earth until then. Its composition suggests that continental crust and liquid water already existed barely 150 million years after the Earth formed.",
+  "source_courte": "Wilde et al., Nature, 2001"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "What is the significance of the Jack Hills zircons? — SERC (Carleton College)",
+   "url": "https://serc.carleton.edu/NAGTWorkshops/earlyearth/questions/zircons.html",
+   "note": "An educational overview of what these zircons reveal about the Hadean Earth."
+  }
+ ],
+ "quiz": {
+  "question": "How does a single 4.4-billion-year-old zircon crystal suggest that liquid water already existed on the early Earth?",
+  "choix": [
+   "Because zircon itself is a mineral that can only form submerged in liquid water",
+   "Because its oxygen isotopes signal a magma that incorporated rock wetted at the surface",
+   "Because the zircon was found amid fossilized marine sediments of the same age",
+   "Because the uranium in the zircon can only be explained by earlier dissolution in water"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Zircon forms in a magma, with no direct link to liquid water: it is its composition that informs, not its formation. Its oxygen isotopes show that the magma it came from contained rock altered by liquid water at the surface, at low temperature. The clue lies in this chemical memory of the parent magma, not in marine sediments found alongside nor in the origin of the crystal's uranium.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where are the Jack Hills, where the zircon crystal was found?",
+   "choix": [
+    "About 800 kilometers north of Perth, in Western Australia",
+    "In the Grand Canyon, in the United States",
+    "In the Alps, in Switzerland",
+    "On the island of Greenland"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The Jack Hills are a range of arid hills about 800 kilometers north of Perth, where geologists have been sifting sediments since the 1980s."
+  },
+  {
+   "question": "What method does John Valley's team use in 2014 to redate the same crystal?",
+   "choix": [
+    "Carbon-14 dating",
+    "Atom probe tomography, which locates individual lead atoms",
+    "Conventional mass spectrometry",
+    "Analysis under an optical microscope"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In 2014, atom probe tomography locates the lead atoms in the grain: they form clusters shifted by less than fifty atoms in four billion years, confirming the measured age."
+  },
+  {
+   "question": "Why does zircon allow a rock to be dated precisely?",
+   "choix": [
+    "Because it changes color in a predictable way with age",
+    "Because it contains datable amber inclusions",
+    "Because it captures uranium as it crystallizes but rejects almost all lead",
+    "Because it dissolves in water at a constant rate"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Zircon captures uranium as it crystallizes but rejects almost all lead, so the lead found in it afterward comes from the radioactive decay of that uranium, at a known rate."
+  }
+ ]
+}

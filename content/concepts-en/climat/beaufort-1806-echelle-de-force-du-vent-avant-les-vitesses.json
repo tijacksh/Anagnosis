@@ -1,0 +1,87 @@
+{
+ "id": "cli-beaufort-1806-echelle-de-force-du-vent-avant-les-vitesses",
+ "slug": "beaufort-1806-echelle-de-force-du-vent-avant-les-vitesses",
+ "langue": "en",
+ "empreinte_fr": "f258321703a661be",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Table de douze degrés de Daniel Defoe (anglais, récit de la tempête de 1703) : « table of degrees », « stark calm », « tempest » ; formulation exacte de « table of degrees » non vérifiée sur l'original."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Échelle de la Société météorologique palatine de Mannheim (années 1780) : « calm » à « twigs and branches break », traduit depuis le français ; langue et libellé d'origine non vérifiés."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Critère de la force 1 dans l'échelle de Beaufort imprimée en 1832 (« juste suffisant pour gouverner » rendu par « just enough to steer by »)."
+  }
+ ],
+ "titre": "Beaufort did not invent the wind force scale",
+ "accroche": "Defoe cites twelve degrees of wind for the 1703 storm. Beaufort bases the scale on the wind's effect on a ship, and speeds are only added in 1903.",
+ "contenu_vulgarise": "On January 13, 1806, Francis Beaufort, commanding HMS Woolwich, writes in his personal journal that he will henceforth estimate wind force according to the scale that follows. The scene is told as the invention of the wind force scale. Yet the fact sheet the Met Office devotes to Beaufort begins with a correction: Beaufort was not the first to draw one up.\n\n## What existed before him\n\nDaniel Defoe, in his account of the storm of November 26 and 27, 1703, cites a “table of degrees” of twelve terms borrowed from sailors, from “stark calm” to “tempest.” In 1723, James Jurin, secretary of the Royal Society, recommends a scale to observers for recording wind force. In the 1780s, the Palatine Meteorological Society of Mannheim publishes a scale from 0 to 4, running from “calm” to “twigs and branches break,” with half-degrees.\n\nIn 1801, Colonel Capper, of the East India Company, even reproduces a quantitative table attributed to one Rous: speeds in miles per hour, matched with the force exerted by the wind on a square foot, measured in pounds. Beaufort's scale, for its part, does not count in speeds: it describes an effect on a ship.\n\n## What Beaufort fixes\n\nBeaufort devises his scale in 1805. He modifies it in 1807, merging categories 1 and 2 to obtain forces 0 to 12, and adds a description of the canvas that a full-rigged frigate can carry. The Met Office archive page instead dates this frigate version to 1810. In both cases, the criterion is not the speed of the wind but its effect on a warship.\n\nThe version printed in 1832 shows this clearly. Force 1 is the wind “just enough to steer by.” At forces 2 to 4, a well-conditioned ship makes 1 to 2, 3 to 4, then 5 to 6 knots: these are the ship's knots, not the wind's. From force 5 to force 11, the measure is the canvas it can still carry, from royals down to storm sails alone. At force 12, it can show no canvas at all.\n\nThe scale remains private for a long time. The Met Office notes that there is no mention of it in the official logs of the Woolwich or of any other ship on which Beaufort served. Its first published reference dates from 1832, in the Nautical Magazine. On December 28, 1838, an Admiralty memorandum imposes it on all warships.\n\n## A speed added after the fact\n\nSpeeds arrive only in 1903, with a formula: V = 1.87 √(B³), in miles per hour, at thirty feet above the sea. They were thus pasted onto a scale that had existed for nearly a century. When sail disappears, George Simpson proposes in 1906 a scale based on the appearance of the sea. The International Meteorological Organization does not adopt it until 1939, and forces 13 to 17 come only in 1944.\n\nWe still read “force 8” in marine bulletins. The number has stayed, the canvas criterion disappeared with the sails. What remains of 1807 in a “force 8”?",
+ "repere": {
+  "texte": "The first published reference to the Beaufort scale dates from 1832, in the Nautical Magazine. On December 28, 1838, an Admiralty memorandum orders that wind force be entered every hour in the log of all warships according to the attached scale.",
+  "source": "Met Office, National Meteorological Library and Archive, Fact sheet 6: The Beaufort Scale (version 01), section “A 'private' scale”",
+  "url": "https://web.archive.org/web/20121002134429/http://www.metoffice.gov.uk/media/pdf/4/4/Fact_Sheet_No._6_-_Beaufort_Scale.pdf"
+ },
+ "carte": {
+  "punch": "Beaufort did not invent the wind scale: Defoe cited one as early as the 1703 storm.",
+  "idee": "In 1805, Beaufort fixes a scale based on the effect of the wind on a warship, not on a speed. Speed equivalents are only added in 1903, nearly a century later.",
+  "source_courte": "Met Office, fact sheet 6: Beaufort"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Met Office: fact sheet 6 on the Beaufort scale",
+   "url": "https://web.archive.org/web/20121002134429/http://www.metoffice.gov.uk/media/pdf/4/4/Fact_Sheet_No._6_-_Beaufort_Scale.pdf",
+   "note": "In English; reproduces the 1838 memorandum and the 1832 table."
+  },
+  {
+   "titre": "Met Office: Beaufort and his weather journals",
+   "url": "https://www.metoffice.gov.uk/research/library-and-archive/archive-hidden-treasures/beaufort-scale",
+   "note": "In English; Beaufort's journals have been digitized."
+  }
+ ],
+ "quiz": {
+  "question": "What did the Beaufort scale originally measure?",
+  "choix": [
+   "Wind speed, read from a cup anemometer",
+   "The effect of the wind on a warship, by the canvas it can carry",
+   "Wave height, estimated against the hull",
+   "Air pressure, converted into degrees of force"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The criteria printed in 1832 describe what the wind does to a warship: the ship's speed at low forces, the canvas it can carry at high forces. The speed formula is only added in 1903, and the scale based on the appearance of the sea dates from 1906. No 1832 criterion concerns pressure or an anemometer.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the fact sheet, which document cites twelve degrees of wind as early as 1703, before any Beaufort scale?",
+   "choix": [
+    "Daniel Defoe's account of the 1703 storm",
+    "The quantitative table that Colonel Capper reproduces in 1801",
+    "The half-degree scale of the Palatine Meteorological Society of Mannheim",
+    "The recommendation that James Jurin addresses to observers in 1723"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Defoe cites a table of twelve degrees, from stark calm to tempest, in his account of the storm of November 26 and 27, 1703; Capper (1801), Mannheim (1780s) and Jurin (1723) come after."
+  },
+  {
+   "question": "What imposes the Beaufort scale on all warships on December 28, 1838?",
+   "choix": [
+    "The scale's publication in the Nautical Magazine",
+    "A law passed by the British Parliament",
+    "An Admiralty memorandum",
+    "The 1903 speed conversion formula"
+   ],
+   "bonne_reponse": 2,
+   "explication": "On December 28, 1838, an Admiralty memorandum imposes the scale on all warships; publication in the Nautical Magazine, six years earlier, had only made it public, without imposing it."
+  }
+ ]
+}

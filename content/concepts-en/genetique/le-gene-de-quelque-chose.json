@@ -1,0 +1,77 @@
+{
+ "id": "gen-le-gene-de-quelque-chose",
+ "slug": "le-gene-de-quelque-chose",
+ "langue": "en",
+ "empreinte_fr": "8cd818f7970e4cd5",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "There is no gene for height, there are thousands",
+ "accroche": "For most traits, association studies find thousands of variants, each with a tiny effect",
+ "contenu_vulgarise": "The phrase is everywhere: the gene for intelligence, for obesity, for longevity, for risk. It comes from a real model, that of so-called monogenic diseases, cystic fibrosis, sickle cell disease, where a single altered sequence is enough to produce the disease.\n\nThis model exists. It almost never applies to the traits people commonly talk about.\n\n## What the big studies found\n\nStarting in the 2000s, it became possible to compare the genomes of hundreds of thousands of people and look for which variants are associated with a given trait.\n\nThe result was the same everywhere, and it was not expected.\n\nThere are not a few genes with a strong effect. There are thousands of associated positions, scattered nearly everywhere in the genome, each of which shifts the trait by a tiny amount, a millimeter or two for height, for example.\n\nAnd even adding up all those that are detected, only part of the expected variability is explained. The gap has been given a name: missing heritability.\n\n## The explanation that took hold\n\nA proposal formulated in 2017 draws the consequence of this dispersion.\n\nIn a cell, genes do not function in isolation: they form a network where nearly everything is connected to nearly everything. A variant in a gene seemingly unrelated to height can influence, step by step, the activity of the genes that do act directly.\n\nBecause “peripheral” genes are far more numerous than “core” genes, together they carry most of the effect, each in a negligible way.\n\nHence the deliberately provocative formulation that gives the model its name: for a complex trait, nearly all genes expressed in the relevant tissue contribute a little.\n\n## What this changes\n\nThree consequences deserve to be kept in mind.\n\nLook for “the gene for” something, and you will find an association, because with thousands of positions involved, there is always one that stands out. The announcement of a discovered gene therefore says little.\n\nA score built by adding up thousands of small effects can correctly predict a group average, and remain very poor for an individual. The two uses are not equally valuable, and it is the second one that gets sold.\n\nFinally, these scores are calculated on the populations that have been sequenced, and transfer poorly elsewhere: the structure of the associations depends on the population of origin.\n\nThe single-gene model was a fruitful starting point. For most traits, it has become a figure of speech.",
+ "repere": {
+  "texte": "For a typical complex trait, most of the heritability lies in variants located at positions in the genome that seem unrelated to the trait.",
+  "source": "Boyle, Li & Pritchard, omnigenic model — response from the authors, Journal of Psychiatry and Brain Science",
+  "url": "https://jpbs.hapres.com/htmls/JPBS_923_Detail.html"
+ },
+ "carte": {
+  "punch": "Look for “the gene for” anything: with thousands of positions, you will find one.",
+  "idee": "For height, intelligence or disease risk, the big studies find thousands of scattered variants, each with a tiny effect. The single-gene model holds only for a few rare diseases.",
+  "source_courte": "Omnigenic model, JPBS"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Boyle, Li & Pritchard — The Omnigenic Model: Response from the Authors",
+   "url": "https://jpbs.hapres.com/htmls/JPBS_923_Detail.html",
+   "note": "In English; the authors respond to objections and set limits on what the model claims."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the announcement of a “gene for” a given trait tell us so little?",
+  "choix": [
+   "Because association studies cannot be reproduced from one lab to another",
+   "Because the genes identified almost always turn out to be measurement errors",
+   "Because these traits depend solely on the environment, not on genes",
+   "Because thousands of positions contribute, and there will always be one that stands out"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The big studies find thousands of scattered variants, each with a tiny effect: isolating one of them and calling it “the gene for” says next to nothing. The associations are nonetheless real and reproducible; it is their number and the smallness of their effects that make the phrase misleading.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is missing heritability, as the entry defines it?",
+   "choix": [
+    "The absence of any hereditary transmission for complex traits",
+    "The gap between the expected variability and the variability explained by all the detected variants, even added together",
+    "Researchers' refusal to publish the genes with the strongest effect",
+    "The share of variability due solely to the environment, never to genes"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text defines missing heritability as the gap between the variability that was expected and the variability explained, even adding up all the detected variants, by the sum of the associations found."
+  },
+  {
+   "question": "Why can a polygenic score predict a group average well while remaining poor for an individual, according to the entry?",
+   "choix": [
+    "Because laboratories falsify individual results to preserve confidentiality",
+    "Because individual scores are calculated only for commercial reasons",
+    "Because it adds up thousands of small effects, which smooths out errors at the group level but not at the level of the person",
+    "Because each individual has an entirely different genome from one generation to the next"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text explains that a score built by adding up thousands of small effects can correctly predict a group average, while remaining very poor for a given individual, two uses that the entry explicitly distinguishes."
+  },
+  {
+   "question": "Why do polygenic scores calculated on one population transfer poorly to another, according to the entry?",
+   "choix": [
+    "Because the structure of the associations depends on the population on which the score was built",
+    "Because laboratories refuse to share their data between countries",
+    "Because each population has a totally different number of genes",
+    "Because monogenic diseases vary from one population to another"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text specifies that these scores are calculated on the populations that have been sequenced and transfer poorly elsewhere, because the structure of the associations depends on the population of origin."
+  }
+ ]
+}

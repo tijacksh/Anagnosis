@@ -1,0 +1,78 @@
+{
+ "id": "inf-ver-morris-1988-garde-fou-une-fois-sur-sept",
+ "slug": "ver-morris-1988-garde-fou-une-fois-sur-sept",
+ "langue": "en",
+ "empreinte_fr": "b5a2c41d573c9d1e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The 1988 Morris Worm: No Data Destroyed, Machines Overloaded",
+ "accroche": "On November 2, 1988, a worm disrupts part of the Internet without erasing a single piece of data. A protection rule ignored one time in seven plays a part.",
+ "contenu_vulgarise": "On November 2, 1988, a Wednesday, a program is launched at about 5:01 p.m., according to Cornell University's mail logs (the origin of the launch is disputed), on an Internet that then links about 60,000 computers. Labs disconnect from the network, including MIT's Media Lab, and one might believe that it was destruction. Yet according to the analysis published by MIT engineers, the worm neither destroyed nor tried to destroy any data.\n\n## A Check, and an Exception\n\nThe worm, written by Robert Tappan Morris, copies itself from one machine to another. To avoid saturating machines, it checks before attacking whether another copy of itself is already running there. If so, it moves on. That is the safeguard.\n\nBut the program contains an exception. In Eichin and Rochlis's analysis, it comes down to a single line: one time in seven, the worm does not even test for the presence of another copy. According to the 1991 appeals ruling, as summarized by Wikipedia, this exception was meant to keep computers from defending themselves by faking the worm's presence.\n\n## The Arithmetic of the Exception\n\nOne time in seven is a lot. Each machine is attacked many times, and each attack has a one-in-seven chance of adding a copy, with no test. Copies pile up on a single machine, the load climbs, and the worm gets noticed. According to the MIT analysis, the worm spread much faster than its author had anticipated. The appeals ruling, as summarized by Wikipedia, states the flaw: Morris had underestimated the number of reinfections.\n\n## Figures to Handle with Care\n\nPress accounts repeat that at least “6,000 machines” were affected. That figure comes from an estimate of 10% of MIT's machines, which the authors of the analysis themselves call pure guesswork, then extrapolated to the entire network. Only the size of the network, about 60,000 computers according to a presentation from October 1988, rests on a source separate from these guesses.\n\n## The Law, and What It Retained\n\nConvicted by the federal district court for the Northern District of New York, Morris receives three years' probation, 400 hours of community service, and a $10,050 fine. On March 7, 1991, the federal court of appeals for the Second Circuit upholds the conviction, handed down under a U.S. federal law: paragraph 1030(a)(5)(A) of Title 18 of the United States Code, as worded at the time.\n\nA prudential rule, weakened by an exception designed against decoys, therefore helped cause the congestion. The open question is how many outages come, in the same way, from a safeguard rather than from an attack.",
+ "citation": {
+  "texte": "On a one-in-seven chance, it won't even try to test for another virus.",
+  "auteur": "Mark W. Eichin and Jon A. Rochlis",
+  "source": "With Microscope and Tweezers: An Analysis of the Internet Virus of November 1988, MIT, 1989, appendix A.3.1",
+  "url": "https://people.eecs.berkeley.edu/~daw/teaching/cs261-f98/papers/internet_worm.txt"
+ },
+ "carte": {
+  "punch": "The 1988 worm destroyed no data: a rule ignored one time in seven causes the overload.",
+  "idee": "The Morris worm checked whether a machine was already infected, but skipped that test one time in seven. Copies piled up, the load increased, and no data was destroyed.",
+  "source_courte": "Eichin and Rochlis, MIT, 1989"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Ruling: United States v. Morris, 928 F.2d 504 (2d Cir. 1991)",
+   "url": "https://scholar.google.com/scholar_case?case=551386241451639668",
+   "note": "Text of the appeals decision."
+  }
+ ],
+ "quiz": {
+  "question": "According to the MIT analysis, what helped overload the infected machines?",
+  "choix": [
+   "Multiple copies of the worm on a single machine, made possible by the “one in seven” exception",
+   "The erasing of system files, which forced administrators to reinstall everything",
+   "A boot virus installed on the boot floppy disks of every machine",
+   "A hardware failure of the routers, triggered by a malformed data packet"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The MIT analysis indicates that reinfection increased the load on many machines, the “one in seven” exception skipping the presence test. It also states that the worm neither destroyed nor tried to destroy any data, which rules out file erasure; it describes neither a boot virus on floppy disks nor a router failure.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "At about what time and on what day was the Morris worm launched, according to Cornell's mail logs?",
+   "choix": [
+    "November 2, 1988, at about 5:01 p.m.",
+    "October 31, 1988, at midnight",
+    "December 2, 1988, at about noon",
+    "November 2, 1989, at about 5:01 p.m."
+   ],
+   "bonne_reponse": 0,
+   "explication": "According to Cornell University's mail logs, the program was launched on November 2, 1988, a Wednesday, at about 5:01 p.m., although the exact origin of the launch remains disputed."
+  },
+  {
+   "question": "Where does the often-repeated figure of “6,000 machines” affected by the worm come from?",
+   "choix": [
+    "From an exhaustive count carried out machine by machine across the whole network",
+    "From an estimate of 10% of MIT's machines, called pure guesswork by the authors, then extrapolated to the entire network",
+    "From an official U.S. government report published in 1988",
+    "From the number of machines that filed complaints during Morris's trial"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The figure comes from an estimate of 10% of MIT's machines, which the authors of the analysis themselves call pure guesswork, then extrapolated to the entire network; only the size of the network, about 60,000 computers, rests on a separate source."
+  },
+  {
+   "question": "What sentence did the American courts hand down against Robert Tappan Morris, upheld on appeal on March 7, 1991?",
+   "choix": [
+    "A five-year prison term, with no possibility of parole",
+    "A permanent ban on using a computer",
+    "An acquittal, for lack of an applicable law at the time of the events",
+    "Three years' probation, 400 hours of community service, and a $10,050 fine"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The federal district court for the Northern District of New York sentences Morris to three years' probation, 400 hours of community service, and a $10,050 fine, a sentence upheld by the federal court of appeals for the Second Circuit on March 7, 1991."
+  }
+ ]
+}

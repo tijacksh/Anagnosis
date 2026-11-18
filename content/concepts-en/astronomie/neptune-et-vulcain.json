@@ -1,0 +1,77 @@
+{
+ "id": "ast-neptune-et-vulcain",
+ "slug": "neptune-et-vulcain",
+ "langue": "en",
+ "empreinte_fr": "aab0c2e4ca7e3ba3",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Same Reasoning Found Neptune and Invented a Planet That Doesn't Exist",
+ "accroche": "Le Verrier deduces Neptune by calculation in 1846. Thirteen years later, the same method gives him Vulcan",
+ "contenu_vulgarise": "Uranus does not follow the trajectory that Newton's mechanics assigns to it. The discrepancy is tiny but persistent, and it has embarrassed astronomers for decades.\n\nUrbain Le Verrier makes the most economical bet: the theory is right, it is the inventory that is incomplete. An unknown mass is pulling on Uranus.\n\n## Fourteen Months of Calculation, One Night of Observation\n\nThe problem is formidable. From the observed discrepancy alone, he has to deduce the position, mass, and orbit of an object that no one has seen.\n\nLe Verrier devotes a little over a year to it, from the summer of 1845 to the end of August 1846. He then publishes a position. He writes to the Berlin observatory, where Johann Galle and Heinrich d'Arrest point the telescope on the night of September 23 to 24.\n\nThey find the planet within a degree of the indicated spot, that very evening.\n\nIt is the first time a celestial body is discovered by calculation before being discovered by eye. Newtonian mechanics no longer merely describes what we see: it says where to look.\n\n## The Same Method, Applied to Mercury\n\nAround 1859, Le Verrier turns to another anomaly. The perihelion of Mercury, the point of its orbit closest to the Sun, advances slightly faster than calculation predicts, once the perturbations of all the known planets are taken into account.\n\nThe discrepancy is tiny: a few dozen seconds of arc per century.\n\nThe reasoning applies itself all over again. An unknown mass, this time between Mercury and the Sun. Le Verrier names it Vulcan, and gives its characteristics.\n\nObservers announce having glimpsed it. Campaigns are organized during eclipses, the only moment when an object so close to the Sun would be visible. Nothing is ever confirmed.\n\nVulcan does not exist.\n\n## What the Failure Was Worth\n\nMercury's anomaly, for its part, was quite real. It simply did not come from a missing mass. It came from the theory.\n\nIn 1915, Einstein's general relativity accounts for this advance without adding a single body. The curvature of spacetime in the Sun's vicinity is enough. It was the theory's first observational success, and it concerned a figure that Le Verrier had established.\n\nHence a lesson that cannot be reduced to a recipe. Faced with a gap between theory and observation, two responses always remain open: complete the inventory, or revise the theory. The same man, with the same rigor, was right the first time and wrong the second.\n\nNothing in the discrepancy itself says which of the two gestures it calls for. That is what makes the question interesting, and what forbids turning it into a method.",
+ "repere": {
+  "texte": "Galle and d'Arrest find Neptune on the night of September 23 to 24, 1846, within a degree of the position calculated by Le Verrier after a little over a year of work.",
+  "source": "*La découverte de Neptune par Le Verrier (1846)* (The Discovery of Neptune by Le Verrier, 1846), BibNum, OpenEdition",
+  "url": "https://journals.openedition.org/bibnum/692"
+ },
+ "carte": {
+  "punch": "The same reasoning found Neptune, then invented a planet that does not exist.",
+  "idee": "Uranus deviates: Le Verrier deduces Neptune, found in a single night in 1846. Mercury deviates too: he deduces Vulcan, which does not exist. The anomaly came from the theory, and Einstein explained it in 1915.",
+  "source_courte": "BibNum, OpenEdition"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "BibNum — *La découverte de Neptune par Le Verrier (1846)* (The Discovery of Neptune by Le Verrier, 1846)",
+   "url": "https://journals.openedition.org/bibnum/692",
+   "note": "In French, open access; Le Verrier's reasoning explained step by step."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the method that found Neptune fail on Mercury?",
+  "choix": [
+   "Because Mercury's anomaly came from the theory, not from a missing mass",
+   "Because Le Verrier's calculations contained an error discovered later",
+   "Because the anomaly in Mercury's perihelion was never actually measured",
+   "Because the telescopes of the time could not observe near the Sun"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The discrepancy was real and correctly calculated. It is the anomaly Le Verrier had established that Einstein explained in 1915, through the curvature of spacetime and without adding any body. Faced with a discrepancy, completing the inventory or revising the theory remain two open responses, and nothing in the discrepancy says which one is called for.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who observed Neptune, on the night of September 23 to 24, 1846, at the spot indicated by Le Verrier?",
+   "choix": [
+    "William Herschel, using a private telescope",
+    "A team at the Greenwich observatory, in London",
+    "Johann Galle and Heinrich d'Arrest, at the Berlin observatory",
+    "Urbain Le Verrier himself, from the Paris observatory"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Le Verrier writes to the Berlin observatory, where Johann Galle and Heinrich d'Arrest point the telescope and find the planet that very evening."
+  },
+  {
+   "question": "How far from the position calculated by Le Verrier was Neptune found?",
+   "choix": [
+    "More than ten degrees away",
+    "Exactly at the announced position, to within a tenth of a degree",
+    "About thirty degrees away, which at first sowed doubt",
+    "Within a degree"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The entry specifies that Galle and d'Arrest find the planet within a degree of the spot indicated by Le Verrier, on the very evening of their observation."
+  },
+  {
+   "question": "What became of the observations claiming to have glimpsed Vulcan, the supposed planet between Mercury and the Sun?",
+   "choix": [
+    "They were confirmed during the 1919 eclipse",
+    "None was ever confirmed: Vulcan does not exist",
+    "They made it possible to measure its mass precisely",
+    "They led to its being officially renamed in 1920"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Despite announced sightings and campaigns organized during eclipses, nothing was ever confirmed: the entry is categorical, Vulcan does not exist."
+  }
+ ]
+}

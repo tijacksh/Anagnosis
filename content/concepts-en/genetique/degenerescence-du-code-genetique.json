@@ -1,0 +1,71 @@
+{
+ "id": "gen-degenerescence-du-code-genetique",
+ "slug": "degenerescence-du-code-genetique",
+ "langue": "en",
+ "empreinte_fr": "5116a204507d0ccc",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Genetic Code Has More Words Than Meanings",
+ "accroche": "64 triplets of letters code for only 20 amino acids. The gap is not a waste. It is a safeguard",
+ "contenu_vulgarise": "Life writes its proteins with an alphabet of four letters (A, T, G, and C in DNA) read three at a time. Each triplet, or codon, designates an amino acid, one of the building blocks that make up proteins, or a stop signal.\n\nFour letters taken three at a time give 64 possible combinations. Life, however, uses only 20 standard amino acids, plus three stop codons. The count doesn't add up: that leaves 61 sense codons for 20 meanings, almost three times as many words as meanings to encode.\n\n## The same amino acid, several codons\n\nThis imbalance has a name: the degeneracy of the genetic code. Leucine, serine, and arginine are each coded by six different codons; conversely, tryptophan and methionine have only one. Leucine, for example, responds equally to CUU, CUC, CUA, CUG, UUA, and UUG.\n\nIn 1966, Francis Crick proposed a mechanical explanation for this redundancy: the wobble hypothesis. The cell reads a codon by pairing it with the transfer RNA that carries the corresponding amino acid. The first two letters of the codon pair strictly. The third tolerates a looser pairing. A single transfer RNA can then recognize several codons that differ only in that last letter. One transfer molecule does the work of two or three distinct codons: in bacteria, 31 different transfer RNAs are enough to read the 61 sense codons.\n\n## A bumper against chance\n\nThis structure has a direct consequence for mutations. A DNA copying error that hits the third letter of a codon, the most tolerant position, often lands on a synonymous codon: the protein produced doesn't change. The same error on the first or second letter, by contrast, almost always changes the amino acid, and sometimes the function of the entire protein.\n\nThe genetic code is therefore not merely redundant; it is redundant precisely where copying errors are most frequent and most likely to change nothing. It is a structure that absorbs part of the noise of copying, before any repair mechanism steps in.\n\nOne question remains that biology cannot fully answer: did this code, nearly universal across all life, settle into this form because it tolerated errors better than competing codes at the dawn of life? Or is that tolerance merely a side effect of a choice that, once made, could no longer be undone without bringing down all the proteins that already depended on it?",
+ "repere": {
+  "texte": "Of the 64 possible codons, 61 specify an amino acid and 3 serve as a stop signal. Degeneracy almost always involves the third letter of the triplet, where pairing with transfer RNA tolerates a mismatch: the so-called wobble mechanism, which allows a single transfer RNA molecule to recognize several synonymous codons.",
+  "source": "Molecular Biology of the Cell, 4th edition, chapter “From RNA to Protein” (NCBI Bookshelf)",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+ },
+ "carte": {
+  "punch": "64 words for 20 meanings: life protected itself from mutations.",
+  "idee": "The genetic code translates DNA into proteins in groups of three letters, the codons: 64 possible combinations for only 20 amino acids. This redundancy, explained by Francis Crick's wobble hypothesis (1966), absorbs some mutations without changing the protein produced.",
+  "source_courte": "Crick, 1966 / NCBI Bookshelf"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does a mutation that changes the third letter of a codon often have no effect on the protein?",
+  "choix": [
+   "Because the cell systematically corrects errors at this position before translation",
+   "Because the ribosome never reads this position of the codon",
+   "Because pairing between this letter and the transfer RNA tolerates a mismatch, so several codons designate the same amino acid",
+   "Because mutations at this position are statistically rarer than on the first two letters"
+  ],
+  "bonne_reponse": 2,
+  "explication": "This is the wobble hypothesis proposed by Crick in 1966: pairing between the third base of the codon and the first base of the transfer RNA's anticodon tolerates nonstandard pairs. A single transfer RNA molecule can therefore recognize several synonymous codons, which absorbs some mutations without changing the amino acid produced. The other answers describe mechanisms that do not exist at this step.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How are the 64 codons of the genetic code divided?",
+   "choix": [
+    "61 sense codons and 3 stop codons",
+    "60 sense codons and 4 stop codons",
+    "44 sense codons and 20 stop codons",
+    "64 sense codons, with stopping signaled some other way"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Four letters read three at a time give 64 combinations. Three of them serve as a stop signal; the other 61 designate one of the twenty standard amino acids: almost three times as many words as meanings to encode."
+  },
+  {
+   "question": "Which amino acids are coded by only one codon, according to the card?",
+   "choix": [
+    "Leucine and serine",
+    "Tryptophan and methionine",
+    "Arginine and leucine",
+    "Serine and arginine"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Leucine, serine, and arginine are each coded by six different codons; tryptophan and methionine have only one. The code's redundancy is therefore not evenly distributed among amino acids."
+  },
+  {
+   "question": "How many transfer RNAs are enough for bacteria to read the 61 sense codons?",
+   "choix": [
+    "Sixty-one, one per sense codon",
+    "Twenty, one per standard amino acid",
+    "Sixty-four, one per possible combination",
+    "Thirty-one, with a single molecule reading several codons"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Because the third letter of the codon tolerates a looser pairing, a single transfer RNA recognizes several codons that differ only in that letter. In bacteria, 31 transfer RNAs are enough for the 61 sense codons."
+  }
+ ]
+}

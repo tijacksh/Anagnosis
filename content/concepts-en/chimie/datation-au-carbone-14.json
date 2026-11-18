@@ -1,0 +1,77 @@
+{
+ "id": "chi-datation-au-carbone-14",
+ "slug": "datation-au-carbone-14",
+ "langue": "en",
+ "empreinte_fr": "999d61e2065cf39e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A clock nothing can disturb, and that must constantly be recalibrated",
+ "accroche": "Carbon 14 decays at a rate nothing alters. Yet a raw date is not a date",
+ "contenu_vulgarise": "A living being constantly exchanges carbon with its environment. Most of that carbon is stable, but a tiny fraction, on the order of one atom in a trillion, is carbon 14, a radioactive isotope produced in the upper atmosphere by cosmic bombardment.\n\nAs long as the organism lives, this proportion matches that of its surroundings: what decays is replaced by what it takes in.\n\nAt death, the exchange stops. The stock of carbon 14 is no longer renewed and declines at a rate that nothing speeds up or slows down, neither temperature, nor pressure, nor the surrounding chemistry. It is a clock that cannot be tampered with.\n\n## Measuring what is left\n\nThe half-life of carbon 14 is about 5,700 years: after that time, half of the atoms have decayed; after twice that time, a quarter remain.\n\nWillard Libby realizes in the mid-1940s that this decay makes it possible to date anything that has lived. But it means measuring an extremely faint radioactivity, drowned in the laboratory's background radiation.\n\nHis verification, published with James Arnold in 1949, is what wins people over. Rather than dating unknown objects, they date samples whose age is established by other means, wood from Egyptian tombs among them. The results land on the expected ages. That curve turns an idea into an instrument; Libby receives the Nobel Prize in Chemistry in 1960.\n\n## What the method does not do\n\nThree limits deserve to be known, because they are regularly glossed over.\n\nThe method dates neither stone, nor metal, nor anything that has not lived. It dates the death of an organism, so the felling of a tree, not the construction of the building made from its beams.\n\nIt has a ceiling. Beyond roughly fifty thousand years, too little carbon 14 remains to be measured; other radioactive clocks take over at geological timescales.\n\nAbove all, it assumes that the proportion of carbon 14 in the atmosphere has always been the same. It has not. Cosmic radiation has varied, the massive burning of coal and oil has diluted the isotope, and the atmospheric nuclear tests of the 1950s and 1960s abruptly made it climb again.\n\n## The clock that had to be recalibrated\n\nA raw date is therefore not a date. It is corrected using calibration curves built on independently dated archives: tree rings, corals, annual lake sediments.\n\nThat is the quiet reversal in this story. A method reputed to be absolute, founded on an unalterable physical constant, delivers an age only on the condition that it be tied back to archives that someone has counted one by one.",
+ "repere": {
+  "texte": "The 1949 verification works in reverse: Arnold and Libby date samples whose age is already established by other means, then compare. It is this curve that won people over.",
+  "source": "Arnold & Libby, “Age Determinations by Radiocarbon Content: Checks with Samples of Known Age,” Science, 110, 1949",
+  "url": "https://www.science.org/doi/10.1126/science.110.2869.678"
+ },
+ "carte": {
+  "punch": "A clock nothing can disturb, and that must nonetheless be recalibrated constantly.",
+  "idee": "At death, an organism stops renewing its carbon 14, which then decays at a rate nothing alters. But the atmosphere's carbon 14 content has varied: a raw date is corrected against archives counted year by year.",
+  "source_courte": "Arnold & Libby, Science, 1949"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "ACS — Discovery of Radiocarbon Dating",
+   "url": "https://www.acs.org/education/whatischemistry/landmarks/radiocarbon-dating.html",
+   "note": "In English; an accessible account of the method's development and the first calibrations."
+  }
+ ],
+ "quiz": {
+  "question": "What exactly does the carbon 14 method date?",
+  "choix": [
+   "The formation of the rock in which the object was found",
+   "The moment the object was shaped by a craftsman",
+   "The burial of the object in the archaeological layer",
+   "The death of the organism the analyzed material comes from"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The clock starts at the instant the carbon exchange with the environment is cut off, that is, at death. A dated beam therefore gives the felling of the tree, not the construction of the building, a gap that can reach centuries if the wood was reused. The rock and the burial context, for their part, are entirely beyond the method's reach.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How do Arnold and Libby go about verifying their method in 1949?",
+   "choix": [
+    "They compare two independent laboratories dating the same unknown sample",
+    "They measure the radioactivity of volcanic rocks of known geological age",
+    "They ask foreign archaeologists to validate their results blind",
+    "They date samples whose age is already established by other means, such as wood from Egyptian tombs"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Rather than dating unknown objects, Arnold and Libby date wood from Egyptian tombs whose age is established by other means. Since the results land on the expected ages, this curve of known samples wins people over."
+  },
+  {
+   "question": "Why has the carbon 14 content of the atmosphere not stayed constant?",
+   "choix": [
+    "Cosmic radiation, fossil fuel burning, and nuclear tests have made its content vary",
+    "Because the half-life of carbon 14 itself has gradually changed over the centuries",
+    "Because the oceans have ended up absorbing all the carbon 14 available in the air",
+    "Because the planet's average temperature directly affects its rate of decay"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Nothing speeds up or slows down the decay itself, but the proportion of carbon 14 available in the air has varied: cosmic radiation, the burning of coal and oil, atmospheric nuclear tests of the 1950s and 1960s."
+  },
+  {
+   "question": "What are the calibration curves that correct a raw carbon 14 date based on?",
+   "choix": [
+    "Repeated measurements of the same sample in several separate laboratories",
+    "Computer simulations reconstructing the climate of past eras",
+    "Independently dated archives: tree rings, corals, lake sediments",
+    "Written records from ancient civilizations mentioning solar eclipses"
+   ],
+   "bonne_reponse": 2,
+   "explication": "A raw carbon 14 date is corrected using curves built on independently dated archives, counted one by one: tree growth rings, corals, annual lake sediments."
+  }
+ ]
+}

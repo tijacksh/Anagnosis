@@ -1,0 +1,77 @@
+{
+ "id": "gen-hiver-de-la-faim",
+ "slug": "hiver-de-la-faim",
+ "langue": "en",
+ "empreinte_fr": "4a868be3b6075b5f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A famine of a few months, readable sixty years later",
+ "accroche": "Dutch people conceived during the winter of 1944 still carry, six decades later, a chemical mark on their DNA",
+ "contenu_vulgarise": "In the winter of 1944-1945, the western Netherlands, under occupation, suffers a blockade. Rations fall very low for several months, then liberation abruptly restores supplies.\n\nThis tragedy has a property that researchers almost never encounter: it is clean. An identified population, a severe deprivation, a dated beginning and end, and an administration that went on keeping medical records.\n\nWe therefore have people for whom we know precisely at what stage of their prenatal development they went through the famine, and their brothers and sisters, conceived before or after, who serve as a comparison.\n\n## What timing determines\n\nFollow-up studies showed that the consequences depend less on severity than on timing.\n\nDeprivation late in pregnancy mostly produces smaller newborns. Deprivation at the very beginning, around conception, produces adults of normal birth weight who nevertheless go on to have more metabolic and cardiovascular disorders.\n\nThis gap suggests that it is not a simple growth delay that is or is not caught up, but a setting installed early and kept.\n\n## The chemical mark\n\nA study published in 2008 went looking for this setting in the DNA itself.\n\nDNA can carry small chemical groups attached to certain bases: methylations. These marks do not change the sequence: they modulate gene activity, like annotations in the margin of a text that they leave intact.\n\nThe researchers compared the methylation of a gene involved in growth in people exposed to famine around conception and in their unexposed brothers and sisters. The exposed ones carry less of it.\n\nSixty years after a deprivation of a few months.\n\n## What this result allows, and what it does not\n\nIt is one of the first pieces of empirical evidence showing that conditions at the very start of life leave a lasting molecular trace in humans.\n\nThe field that claims it, epigenetics, has been considerably overinterpreted since, and two limits must accompany this result.\n\nAn association is not a mechanism: the mark is correlated with the exposure, which does not establish that it causes the disorders observed. Later work on the same group has in fact shown that ordinary genetic variation also contributes to the methylation of this region.\n\nAnd transmission to later generations, often asserted, remains in humans far more fragile than public discourse lets on.\n\nWhat the winter of 1944 firmly establishes is more modest and already considerable: a few months, at the right moment, can inscribe something measurable for a whole lifetime.",
+ "repere": {
+  "texte": "Six decades later, people exposed to famine around the time of their conception show lower methylation of the IGF2 gene than their unexposed brothers and sisters. The effect is specific to periconceptional exposure.",
+  "source": "Heijmans et al., “Persistent epigenetic differences associated with prenatal exposure to famine in humans”, PNAS, 105, 2008",
+  "url": "https://www.pnas.org/doi/10.1073/pnas.0806560105"
+ },
+ "carte": {
+  "punch": "A few months of famine, at the right moment, leave a mark in the DNA that was still measurable in 2008.",
+  "idee": "The Dutch people exposed to the famine of winter 1944-1945 around their conception carry lower methylation of the IGF2 gene than their unexposed brothers and sisters. The timing of exposure matters more than its severity.",
+  "source_courte": "Heijmans et al., PNAS, 2008"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Heijmans et al. (2008) — full text",
+   "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0806560105",
+   "note": "In English, four pages, open access; the sibling-comparison protocol is explicit."
+  }
+ ],
+ "quiz": {
+  "question": "What does DNA methylation modify?",
+  "choix": [
+   "Gene activity, without changing the sequence itself",
+   "The sequence of bases, by replacing some with others",
+   "The number of chromosomes passed on to the next generation",
+   "The speed at which cells divide during development"
+  ],
+  "bonne_reponse": 0,
+  "explication": "These are small chemical groups attached to certain bases: they modulate expression without touching the genetic text, like marginal annotations. That is what makes the 2008 result remarkable, since the mark persists for sixty years, and what forbids concluding too quickly that it is passed on to later generations.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the Dutch famine of winter 1944-1945 offer researchers that studies almost always lack?",
+   "choix": [
+    "A group of volunteers followed in the lab from conception until death",
+    "Identical twins exposed to different, measurable levels of deprivation",
+    "An identified population, a precisely dated deprivation, and unexposed brothers and sisters serving as a comparison",
+    "Complete genetic data from every family, sequenced at birth"
+   ],
+   "bonne_reponse": 2,
+   "explication": "What is rare is the cleanness of the episode: an identified population, a dated beginning and end of deprivation, and brothers and sisters conceived before or after, who serve as a direct comparison."
+  },
+  {
+   "question": "According to the follow-up studies mentioned in the entry, what most determines the consequences of prenatal deprivation?",
+   "choix": [
+    "The child's sex, with girls more affected than boys",
+    "The point in the pregnancy when the deprivation occurs, more than its severity",
+    "The mother's weight before pregnancy, regardless of the period of exposure",
+    "The total length of the blockade, regardless of the developmental stage reached"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Deprivation late in pregnancy mostly produces smaller newborns, whereas deprivation around conception produces adults of normal weight but with more metabolic disorders: timing is what counts."
+  },
+  {
+   "question": "What limit accompanies the result of the 2008 methylation study, according to the entry?",
+   "choix": [
+    "The study has since been retracted by the journal PNAS for a methodological error",
+    "The sample of exposed people turned out to be too small to be significant",
+    "None of the exposed people could be traced for a second sample",
+    "Later work has shown that ordinary genetic variation also contributes to this methylation"
+   ],
+   "bonne_reponse": 3,
+   "explication": "An association is not a mechanism: later work on the same group has shown that ordinary genetic variation also contributes to the methylation of this region of the gene."
+  }
+ ]
+}

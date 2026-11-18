@@ -1,0 +1,77 @@
+{
+ "id": "cli-courbe-de-keeling",
+ "slug": "courbe-de-keeling",
+ "langue": "en",
+ "empreinte_fr": "d2c1f284d9ea5bcb",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The curve that breathes",
+ "accroche": "Since 1958, in the same place and with the same method, CO₂ has been measured at the summit of Mauna Loa. The curve rises, and it undulates.",
+ "contenu_vulgarise": "In 1958, no one knows how much carbon dioxide there is in the atmosphere. Measurements exist, but they contradict one another: each is taken in a different place, with a different instrument, and gives a different result. The conclusion drawn is that the content varies greatly from place to place.\n\nCharles David Keeling makes the opposite hypothesis. If the measurements contradict one another, perhaps it is because they are bad.\n\n## One place, one method, all the time\n\nHis method comes down to discipline. An instrument calibrated obstinately, against reference mixtures kept in bottles. A site chosen far from any city, any factory, any dense vegetation: a Hawaiian volcano, at more than three thousand meters, in the middle of the Pacific. And above all, the same measurement repeated, steadily, year after year.\n\nThe first reading, in March 1958, gives 313 parts per million.\n\nAfter a few years, two things appear, and Keeling was looking for neither.\n\n## The breathing\n\nThe curve undulates. It rises until May, falls until October, rises again.\n\nThe explanation lies in geography. Most of the emerged land is in the Northern Hemisphere. In spring and summer, that hemisphere's vegetation grows and absorbs carbon; in autumn, it stops and the dead leaves release some.\n\nThis undulation is thus the breathing of the biosphere, recorded from a single point in the Pacific. A device installed to measure an average starts displaying a planetary seasonal rhythm.\n\n## The slope\n\nThe second discovery is that each autumn minimum is higher than the previous one, and each maximum higher than the maximum before.\n\nThe curve does not merely oscillate: it rises, steadily, year after year, and the increase tracks the consumption of coal and oil.\n\nThis is what made this series the most cited piece of the climate file. It rests on no model. It is not a reconstruction, not a projection, not an average of diverse origins: it is a record, in the same place, with the same method, continued for more than six decades despite two interruptions.\n\n## What the case shows about measurement\n\nKeeling did not have a theoretical idea. He had a demand for protocol, maintained long enough for a signal to emerge from the noise.\n\nWhat passed for geographic variability was instrumental imprecision. Once that was ruled out, the CO₂ content turned out to be remarkably homogeneous across the planet, and its evolution legible.\n\nMany discoveries come from a new instrument. This one comes from an old instrument, used with a constancy that no one had had.",
+ "repere": {
+  "texte": "Keeling's first measurement at Mauna Loa, on March 29, 1958, gives 313 parts per million. Since then, the series has known only two interruptions: budget cuts in 1964, then the volcano's eruption, which cut off access to the observatory from November 2022 to July 2023 (measurements were then taken about thirty kilometers away, at the Maunakea observatories).",
+  "source": "American Physical Society, “March 1958: Charles Keeling begins long-term measurements of atmospheric CO2 on Mauna Loa”",
+  "url": "https://www.aps.org/apsnews/2025/02/keeling-measurements-co2-mauna-loa"
+ },
+ "carte": {
+  "punch": "This curve undulates because the forests of the Northern Hemisphere breathe.",
+  "idee": "Since March 1958, in the same place and with the same method, CO₂ has been measured at the summit of Mauna Loa. The curve rises year after year, and it undulates, to the rhythm of the seasons of northern vegetation.",
+  "source_courte": "APS, Keeling at Mauna Loa"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The Keeling Curve — open-access data and graphs",
+   "url": "https://keelingcurve.ucsd.edu/2013/04/03/the-history-of-the-keeling-curve/",
+   "note": "In English; the full series can be viewed and downloaded."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the Keeling curve undulate over the course of the year?",
+  "choix": [
+   "Because the vegetation of the Northern Hemisphere absorbs and then releases carbon",
+   "Because heating consumption varies strongly with the seasons",
+   "Because the instrument drifts with the temperature at the volcano's summit",
+   "Because the prevailing winds change direction twice a year"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Most of the emerged land lies in the north: when its vegetation grows, it takes up carbon, and it releases some in autumn. This breathing can be read from a single point in the Pacific. Instrument drift is precisely what Keeling's obstinate calibration was meant to rule out.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What was the very first CO₂ measurement taken by Keeling at Mauna Loa, in March 1958?",
+   "choix": [
+    "280 parts per million",
+    "350 parts per million",
+    "313 parts per million",
+    "400 parts per million"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Keeling's first reading, in March 1958, gives 313 parts per million, the starting point of the longest and most cited series in the climate file."
+  },
+  {
+   "question": "Why did Keeling choose the summit of Mauna Loa as his measurement site?",
+   "choix": [
+    "Because it is the highest point in U.S. territory",
+    "Because an observatory already existed there for other scientific purposes",
+    "Because the volcano made it possible to measure gases of volcanic origin as well",
+    "Because the site is far from any city, factory or dense vegetation"
+   ],
+   "bonne_reponse": 3,
+   "explication": "A site chosen far from any local source of pollution or biological absorption makes it possible to measure a concentration representative of the global atmosphere, not of one particular place."
+  },
+  {
+   "question": "What interruptions has Keeling's measurement series known since 1958?",
+   "choix": [
+    "A single interruption, during the Second Gulf War in 1991",
+    "Budget cuts in 1964, then the volcano's eruption from late 2022 to mid-2023",
+    "A strike by the observatory's researchers in 1975",
+    "No interruption since the start of the records in 1958"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 1964 budget cuts, then the volcano's eruption from November 2022 to July 2023, which cut off access to the observatory, are the only two interruptions in the series."
+  }
+ ]
+}

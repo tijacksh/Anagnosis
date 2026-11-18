@@ -1,0 +1,78 @@
+{
+ "id": "inf-therac-25-la-panne-invisible",
+ "slug": "therac-25-la-panne-invisible",
+ "langue": "en",
+ "empreinte_fr": "09767097819f0afc",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A Software Bug Killed Patients in Radiation Therapy Because the Hardware Was Removed",
+ "accroche": "Between 1985 and 1987, a radiation therapy machine delivered massive overdoses. The cause was not a faulty component but a design decision.",
+ "contenu_vulgarise": "The Therac-25 is a radiation therapy machine built by Atomic Energy of Canada Limited. It can treat with either an electron beam, at a low dose, or X-rays, a mode that requires a physical filter to spread out and attenuate a far more powerful beam. Between June 1985 and January 1987, six documented accidents occur on these machines, in the United States and Canada, causing massive overdoses. Two patients treated at the East Texas Cancer Center in Tyler die in the months after their treatment; a third, in Yakima, Washington State, in April 1987.\n\n## A Failure That Appears Only at the Speed of a Practiced Hand\n\nThe cause identified by the investigation led by researcher Nancy Leveson is neither an electronic component nor an isolated calculation error: it is a competition between two tasks in the control software, a race condition. On the Tyler machines, an experienced operator could, within a few seconds, select X-ray mode by mistake, notice it, correct to electron mode with the cursor key, then confirm, faster than the eight seconds that the mechanical setting of the magnetic field took. The software did display the correction on screen. But an internal variable, already reset before the correction was taken into account, did not carry it through in practice: the machine then fired an X-ray-power beam without the corresponding attenuating filter in place.\n\n## What the Therac-20 Had, and the Therac-25 No Longer Did\n\nThis same software bug already existed on the previous model, the Therac-20, without ever hurting anyone. The reason lies in no difference in code. It lies in what Leveson and her co-author Clark Turner put this way in their landmark paper, published in IEEE Computer in 1993: the Therac-20 had independent hardware protective circuits that physically prevented the beam from firing in a dangerous configuration, whereas the Therac-25 relied almost entirely on software for that same function. In other words, the earlier models had a safety net that did not depend on the code; the Therac-25 made the opposite bet, entrusting to the program alone a task that hardware had previously performed in duplicate.\n\n## What the Episode Shifts\n\nThe Therac-25 was not poorly designed out of malice or incompetence: its engineers had simply trusted their software to fill a role that had previously been entrusted, in addition, to physical switches. The accident does not come from a bug that better programming could have avoided in the abstract; a similar bug was already sleeping, harmless, in the previous generation. It comes from having removed the last line of defense that made that bug inconsequential. It has since become a mandatory case study in software engineering: a system's reliability does not reside in any single one of its layers, but in the fact that no single error, on its own, can pass through all the layers at once.",
+ "citation": {
+  "texte": "The software error is just a nuisance on the Therac-20 because this machine has independent hardware protective circuits for monitoring the electron-beam scanning... While the Therac-20 relies on mechanical interlocks for monitoring the machine, the Therac-25 relies largely on software.",
+  "auteur": "Nancy G. Leveson and Clark S. Turner",
+  "source": "An Investigation of the Therac-25 Accidents, IEEE Computer, vol. 26, no. 7, July 1993",
+  "url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_2.html"
+ },
+ "carte": {
+  "punch": "An identical software bug already existed on the previous machine, without ever hurting anyone.",
+  "idee": "Between 1985 and 1987, the Therac-25 caused fatal overdoses because of a software race condition. The same bug existed on the previous model, the Therac-20, which was protected by hardware safeguards that the Therac-25 had removed, entrusting everything to software alone.",
+  "source_courte": "Leveson & Turner, IEEE Computer, 1993"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "IEEE Computer — An Investigation of the Therac-25 Accidents (DOI)",
+   "url": "https://doi.org/10.1109/MC.1993.274940",
+   "note": "Stable publisher reference for Leveson and Turner's original paper."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the same software bug cause fatal overdoses on the Therac-25, when it had already existed harmlessly on the previous model, the Therac-20?",
+  "choix": [
+   "Because the Therac-25 used a programming language far less reliable than the Therac-20's",
+   "Because the Therac-20 kept independent hardware safeguards, which were removed on the Therac-25 in favor of software alone",
+   "Because the Therac-25 systematically delivered stronger doses, whichever treatment mode was chosen",
+   "Because Therac-25 operators received much shorter training than Therac-20 operators"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The software bug, a race condition between two tasks in the control program, already existed on the Therac-20. It remained inconsequential there because the machine had independent hardware protective circuits that physically prevented a dangerous beam from firing. The Therac-25 had removed that hardware safety net, entrusting to software alone the function that hardware had previously performed.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How many documented accidents involving the Therac-25 occur between June 1985 and January 1987?",
+   "choix": [
+    "Two accidents, both fatal, only in Canada",
+    "A dozen accidents, half of them fatal",
+    "Six documented accidents, in the United States and Canada",
+    "A single accident, but with several patients affected at once"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Six documented accidents occur between June 1985 and January 1987, in the United States and Canada, causing massive overdoses."
+  },
+  {
+   "question": "How exactly is the race condition described by Nancy Leveson triggered?",
+   "choix": [
+    "A faulty electronic component sends a random signal to the beam",
+    "A mode correction entered too quickly is not carried through in practice, despite what the display shows",
+    "Processor overheating causes the machine to restart unexpectedly",
+    "An untrained operator deliberately activates the wrong treatment mode"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The mode correction shows on screen, but an internal variable already reset before it was taken into account does not carry it through in practice, triggering the X-ray beam without the filter."
+  },
+  {
+   "question": "What general lesson do Leveson and Turner draw from the Therac-25 accident?",
+   "choix": [
+    "That hardware should always be preferred to software for any safety function",
+    "That medical software should be tested exclusively by its own designers",
+    "That accidents of this kind are impossible to foresee before they happen",
+    "That a system's reliability must rest on no single layer, but on several at once"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The episode becomes a case study in software engineering: reliability does not reside in a single layer, but in the fact that no single error can pass through all the layers at once."
+  }
+ ]
+}

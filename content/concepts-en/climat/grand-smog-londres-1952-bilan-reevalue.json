@@ -1,0 +1,82 @@
+{
+ "id": "cli-grand-smog-londres-1952-bilan-reevalue",
+ "slug": "grand-smog-londres-1952-bilan-reevalue",
+ "langue": "en",
+ "empreinte_fr": "9b87e13893c1a5f0",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Great Smog of London, 1952: 4,000 known deaths, 12,000 excess deaths",
+ "accroche": "The fog of December 1952 lasts five days. The excess mortality lasts three months, and influenza explains only a fraction of it.",
+ "contenu_vulgarise": "To describe the Great Smog of London, people remember a duration and a number: five days, 4,000 deaths. Both are accurate. Neither is the toll.\n\n## Five days under a lid\n\nFrom Friday, December 5, to Tuesday, December 9, 1952, an anticyclone settles over London. The descending air warms as it sinks: the cold air stays at the surface, trapped under a warmer layer, what is called an inversion. According to the Met Office, a very light wind lifts the moisture-saturated air and forms a layer of fog 100 to 200 meters thick. Chimney smoke stays trapped in it.\n\nThe winter has been very cold and snowy, and London burns a great deal of coal to keep warm. At night, visibility drops to a few meters.\n\n## A toll that counts what can be seen\n\nThe Met Office puts the toll at about 4,000 known deaths, specifying that it could have been much higher. In 2001, researchers Michelle Bell and Devra Davis revisit the data: mortality registers, hospital admissions, pollutant and temperature records. They estimate about 12,000 excess deaths between December 1952 and February 1953, roughly triple the accepted figure. Pollutants exceeded current regulatory standards by 5 to 19 times.\n\n## Influenza, a convenient explanation\n\nMortality stays above normal in the following months. According to Bell, Davis, and Fletcher, a government report had attributed this excess to influenza. In 2004, Bell, Davis, and Fletcher estimate the number of influenza deaths by several methods, then test the sensitivity of their calculation. Only a fraction of the deaths in the following months could be attributed to it. To explain the majority, an extremely severe epidemic would have been needed, with a lethality about twice as high and an incidence about four times higher than those observed in general practice during the winter of 1953.\n\n## What counting means\n\nCounting the dead of a catastrophe means choosing a window. The 4,000 correspond to what was seen and linked to the fog at the time. The 12,000 come from a comparison with what mortality would be in ordinary times, over three months: we are no longer counting deaths, we are measuring a gap.\n\nIn the United Kingdom, the Clean Air Acts of 1956 and 1968 banned black smoke emissions and required city dwellers and industry to switch to smokeless fuels. The Met Office presents them as the response to the 1952 episode.\n\nIt remains to be asked which of today's catastrophes are still counted over a few days, when their deaths are spread over months.",
+ "repere": {
+  "texte": "Bell and Davis estimate about 12,000 excess deaths in London from December 1952 to February 1953; pollutant concentrations exceeded current regulatory standards by 5 to 19 times.",
+  "source": "Bell and Davis, “Reassessment of the lethal London fog of 1952,” Environmental Health Perspectives, 109 (suppl. 3), 2001",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1240556/"
+ },
+ "carte": {
+  "punch": "Great Smog of London: 4,000 known deaths in 1952, about 12,000 excess deaths estimated later.",
+  "idee": "The fog of December 1952 lasts five days; the Met Office puts the toll at about 4,000 known deaths. Bell and Davis (2001) estimate about 12,000 excess deaths through February 1953; influenza, invoked at the time, explains only a fraction of them (Bell et al., 2004).",
+  "source_courte": "Met Office; Bell et al., EHP, 2001-2004"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Bell and Davis (2001): Text on PubMed Central",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1240556/",
+   "note": "In English."
+  },
+  {
+   "titre": "Met Office: The Great Smog of 1952",
+   "url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+   "note": "In English."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Bell and Davis's estimate (about 12,000 excess deaths) exceed the 4,000 known deaths?",
+  "choix": [
+   "Because it adds the victims of the influenza epidemic of the winter of 1953",
+   "Because it adds up the deaths of the 1952 smog and those of a later smog",
+   "Because pollutants had been underestimated by a factor of 5 to 19",
+   "Because it measures the excess mortality from December 1952 to February 1953, not just the five days"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The figure of 12,000 is an excess of deaths over three months relative to expected mortality. Their window runs from December 1952 to February 1953, with no other smog episode; influenza is ruled out as a complete explanation; and the ratio of 5 to 19 concerns the standards, not the toll.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What causes the smog of December 1952, according to the Met Office?",
+   "choix": [
+    "A sandstorm from the continent mixes with factory smoke",
+    "An anticyclone creates an inversion that traps cold air and smoke under a warmer layer",
+    "A power grid failure forces Londoners to burn wood",
+    "A sea fog moves up the Thames into central London"
+   ],
+   "bonne_reponse": 1,
+   "explication": "An anticyclone makes air descend, and it warms as it sinks: the cold air stays trapped at the surface under a warmer layer, the inversion, while moisture-saturated air forms a fog in which coal smoke stays trapped."
+  },
+  {
+   "question": "What do the British Clean Air Acts of 1956 and 1968 do, according to the Met Office?",
+   "choix": [
+    "They introduce a toll for vehicles entering London in foggy weather",
+    "They move coal production out of British territory",
+    "They create a meteorological service dedicated to air pollution",
+    "They ban black smoke emissions and require smokeless fuels"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The Met Office presents the 1956 and 1968 Acts as the response to the Great Smog: they ban black smoke emissions and require city dwellers and industry to switch to smokeless fuels."
+  },
+  {
+   "question": "How thick is the layer of fog in December 1952, according to the Met Office?",
+   "choix": [
+    "About 1 kilometer",
+    "Between 100 and 200 meters",
+    "About 500 meters",
+    "Between 10 and 20 meters"
+   ],
+   "bonne_reponse": 1,
+   "explication": "According to the Met Office, a very light wind lifts the moisture-saturated air and forms a layer of fog 100 to 200 meters thick, in which chimney smoke stays trapped."
+  }
+ ]
+}

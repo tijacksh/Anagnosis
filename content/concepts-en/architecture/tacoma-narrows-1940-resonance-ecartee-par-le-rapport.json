@@ -1,0 +1,72 @@
+{
+ "id": "arc-tacoma-narrows-1940-resonance-ecartee-par-le-rapport",
+ "slug": "tacoma-narrows-1940-resonance-ecartee-par-le-rapport",
+ "langue": "en",
+ "empreinte_fr": "a2ea37d7ea000281",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "French « ce contreventement de vent » (deck width 1/72 of span) rendered literally as “this wind bracing”; the report's exact term (stiffening/slenderness ratio) not seen."
+  }
+ ],
+ "titre": "Tacoma Narrows: vortex resonance, judged very unlikely in 1941",
+ "accroche": "Textbooks cite the Tacoma Narrows Bridge as a case of resonance. The official 1941 report judges resonance with vortices very unlikely.",
+ "contenu_vulgarise": "On November 7, 1940, the Tacoma Narrows Bridge, in Washington State, twists and then collapses, four months after opening on July 1. Many physics textbooks have made it the example of resonance: a steady wind supposedly pushed the bridge at its natural frequency, the way you pump a swing. The report submitted on March 28, 1941 to the Federal Works Agency by three engineers, Othmar Ammann, Theodore von Kármán, and Glenn Woodruff, does not tell that story.\n\n## A bridge already restless, then a sudden twist\n\nThe main span measured 2,800 feet, about 850 meters, for a deck 39 feet wide, or 1/72 of its span: the report notes that this wind bracing is the most slender and most flexible of all the large suspension bridges. It undulated vertically from the construction stage. A project engineer records movements 48 inches in amplitude, about 1.2 meters, in winds of three or four miles per hour, and notes that the bridge stayed still at times in winds of up to 35 miles per hour. Until November 7, these undulations were not accompanied by twisting. That morning, a witness on the site reads 38 miles per hour on the anemometer at 7:30 a.m., then 42 later in the morning, or about 61 then 68 km/h. Around 10 a.m., a very violent twisting motion suddenly appears. According to the report, the first failure is the slipping of a cable band at midspan, on the north side, which probably triggered this twisting.\n\n## What the committee rules out\n\nFor there to be resonance, a force must recur at a rhythm close to that of the bridge. The hypothesis put forward at the time is that of alternating vortices, known as “Kármán vortices,” which would shed from the deck at a rate set by the wind. The committee examines it and judges it very unlikely. It finds no clear correlation between wind speed and the frequency of the oscillations, which this resonance would require. Nor does it find evidence of alternating vortices around this profile as long as the structure is not moving. It writes that it seems more accurate to say that the bridge's motion determines the formation of the vortices, and not the reverse.\n\nWhat it retains for the twisting: beyond a certain wind speed, negative aerodynamic damping is to be expected in almost any suspension bridge oscillating in torsion, and this speed is relatively low for narrow bridges. In other words, the motion itself modifies the wind's forces, which then sustain the oscillation instead of braking it. Later syntheses speak of self-sustained aeroelastic flutter. The report, by contrast, attributes the vertical oscillations, probably, to wind turbulence: what it rules out is resonance with regular vortices, not any role for irregular wind.\n\n## Why the nuance matters\n\nIn a resonance, the energy comes from an outside rhythm that can be detuned. For the twisting, it comes from the motion itself, and the report observes that the instability is suppressed when the structure is sufficiently damped. For the vertical oscillations, it speaks of vibration forced by a turbulent wind, with possible partial resonance effects. The question is no longer the bridge's frequency but its damping and the shape of its deck.\n\nIn 1991, fifty years after this report, Billah and Scanlan devote an article in the American Journal of Physics to the undergraduate physics textbooks that present the collapse as a case of resonance. Why could a reading rejected by its own investigators take hold in teaching? The sources read for this card do not give the reason.",
+ "repere": {
+  "texte": "The report of March 28, 1941 judges it very unlikely that resonance with alternating vortices plays an important role in the oscillations of suspension bridges, for lack of a clear correlation between wind speed and oscillation frequency.",
+  "source": "Board of Engineers (Ammann, von Kármán, Woodruff), The Failure of the Tacoma Narrows Bridge, 1941, conclusion 3",
+  "url": "https://authors.library.caltech.edu/records/q1ehq-5e206"
+ },
+ "carte": {
+  "punch": "Tacoma Narrows: the 1941 report judges vortex resonance unlikely.",
+  "idee": "Textbooks cite the Tacoma Narrows Bridge (1940) as an example of resonance. The official 1941 report judges resonance with vortices very unlikely and points instead to negative aerodynamic damping in torsion, on a narrow deck.",
+  "source_courte": "Ammann, von Kármán, Woodruff report, 1941"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "K. Y. Billah and R. H. Scanlan, “Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks,” American Journal of Physics 59(2), 1991",
+   "url": "https://pubs.aip.org/ajp/article/59/2/118/1053909/Resonance-Tacoma-Narrows-bridge-failure-and",
+   "note": "The article that examines the common explanations of the bridge's fall in physics textbooks; not read in full text for this card (restricted access)."
+  }
+ ],
+ "quiz": {
+  "question": "What does the 1941 report conclude about resonance with alternating vortices as the cause of the Tacoma Narrows Bridge's oscillations?",
+  "choix": [
+   "That it is the demonstrated cause, the vortices having exactly the bridge's natural frequency",
+   "That it explains the twisting, but not the vertical oscillations observed in the preceding months",
+   "That it is very unlikely, for lack of a clear correlation between wind speed and oscillation frequency",
+   "That it cannot be judged, no wind measurement having been taken on the day of the collapse"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The committee judges this resonance very unlikely: it finds no clear correlation between wind and frequency, and thinks the bridge's motion determines the vortices rather than the reverse. A witness had, moreover, read 38 then 42 miles per hour on the anemometer that very morning.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the report, what probably triggered the violent twisting of November 7, 1940?",
+   "choix": [
+    "The failure of one of the two main towers under the push of the wind",
+    "The slipping of a cable band at midspan, on the north side",
+    "The simultaneous passage of a large number of heavy vehicles over the deck",
+    "The tearing away of part of the roadway surfacing"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The report judges it reasonably certain that the first failure was the slipping of the north cable band, which probably triggered the twisting. A site engineer also noted that traffic had no measurable effect on the bridge's movements."
+  },
+  {
+   "question": "What do the site observations show about the link between wind speed and the bridge's motion?",
+   "choix": [
+    "The motion grows steadily with wind speed, without exception",
+    "The bridge moves only when the wind exceeds 40 miles per hour",
+    "The motion is greatest when the wind reaches exactly 35 miles per hour",
+    "No simple link: large movements in light wind, the bridge sometimes still in stronger wind"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The project engineer recorded large movements in winds of three or four miles per hour and a bridge sometimes still up to 35 miles per hour. This absence of a clear correlation is one of the arguments against a resonance set by wind speed."
+  }
+ ]
+}

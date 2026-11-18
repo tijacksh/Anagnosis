@@ -1,0 +1,78 @@
+{
+ "id": "inf-eviter-un-examen-a-produit-un-algorithme-de-compression",
+ "slug": "eviter-un-examen-a-produit-un-algorithme-de-compression",
+ "langue": "en",
+ "empreinte_fr": "ca3efdaf08e36cbb",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Avoiding an Exam Produced the Most Widely Used Compression Algorithm",
+ "accroche": "In 1951, an MIT student, to avoid a final exam, solves a compression problem his two professors had been trying to solve for years.",
+ "contenu_vulgarise": "In 1951, in an information theory course at the Massachusetts Institute of Technology, Professor Robert M. Fano lets his students choose between a final exam and a term paper on a single problem: finding the most efficient way to represent letters or symbols as strings of 0s and 1s, so that the most frequent symbols use the fewest bits possible. What Fano does not tell his students is that this is an open problem: he himself, with Claude Shannon, has been looking for a solution for several years, without arriving at a method that can be proved optimal.\n\n## Building the tree from the bottom, not the top\n\nDavid A. Huffman, a graduate student, chooses the paper over the exam. After several weeks with no breakthrough, on the verge of giving up to go back to studying, he changes his angle of attack. The Shannon-Fano method starts from the set of all symbols and successively splits it into two groups of probability as equal as possible, from the top down; this approach does not always guarantee the most compact result. Huffman reverses the approach: he starts from the two least frequent symbols, merges them into a single node whose probability is the sum of the two, then repeats the operation on the reduced set, until only one node remains, the root. By assigning a 0 and a 1 to each branch, the path between the root and each symbol becomes its code: short for frequent symbols, close to the root, long for rare symbols, buried in the branches. No code is the beginning of another, which makes it possible to decode the bit stream without any separator. Huffman proves that this construction, bottom-up rather than top-down, always produces the code of minimum average length for a given probability distribution. Neither Fano nor Shannon had managed to establish this result.\n\n## A student assignment that outdoes his professors\n\nHuffman publishes the method in 1952 in the Proceedings of the IRE, under the title “A Method for the Construction of Minimum-Redundancy Codes.” Decades later, he tells a Scientific American journalist about Fano's reaction on discovering his solution, in a strong Italian accent: “Is that all there is to it!”, as if to say that was all it took.\n\nThe principle remains, more than seventy years later, one of the most widely used building blocks of lossless compression: it is found as a final stage in the ZIP format, in JPEG, or in the fax standards that long carried whole pages in a few seconds of phone line. Huffman himself left MIT in 1953, then joined in 1967 the University of California, Santa Cruz as the first professor of the brand-new computer science department, which he helped build until his retirement in 1994. He died in 1999, at 74. His end-of-semester assignment has since become one of the most-run algorithms in the world, with every compressed photo and every archived file.",
+ "citation": {
+  "texte": "Is that all there is to it!",
+  "auteur": "Robert M. Fano (reported by David Huffman)",
+  "source": "Stix, Gary, “Profile: Information Theorist David A. Huffman,” Scientific American, vol. 265, no. 3, September 1991, pp. 54-58",
+  "url": "https://www.huffmancoding.com/my-uncle/scientific-american"
+ },
+ "carte": {
+  "punch": "To avoid an exam, he finds what Shannon and Fano had been seeking for several years.",
+  "idee": "In 1951, an end-of-semester assignment at MIT gives birth to a lossless compression method, now used in ZIP and JPEG. David Huffman finds what his professor Fano and Shannon were seeking: a code he proves optimal.",
+  "source_courte": "Huffman, Proc. of the IRE, 1952"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia — Huffman coding",
+   "url": "https://en.wikipedia.org/wiki/Huffman_coding",
+   "note": "Full algorithmic detail and contemporary uses (ZIP, JPEG, MP3)."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Huffman's method always produce a more compact code than the earlier Shannon-Fano method?",
+  "choix": [
+   "Because it builds the coding tree starting from the rarest symbols, working up toward the root, which guarantees optimality",
+   "Because it uses more bits for each symbol, which reduces transmission errors",
+   "Because it was tested on more texts than the Shannon-Fano method",
+   "Because it assigns the same number of bits to all symbols, regardless of their frequency"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Building the tree from the bottom, starting with the least frequent symbols, mathematically guarantees the minimum average length: that is what Huffman proved, where the top-down Shannon-Fano method could not ensure it. The number of bits per symbol varies precisely with its frequency, which is the very principle of compression.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What choice does Professor Robert Fano offer his students in 1951?",
+   "choix": [
+    "An oral exam in front of the whole class, or a graduation thesis",
+    "A group project on information theory, or an internship at a company",
+    "A final exam, or a term paper on a compression problem",
+    "A standard final exam, with no other option offered to the students"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Fano offers his students a choice: a final exam, or a written assignment on a single problem, that of the most efficient representation of symbols."
+  },
+  {
+   "question": "What does Fano's reaction on discovering Huffman's solution reveal?",
+   "choix": [
+    "That he is surprised by the simplicity of a solution he had been seeking for years",
+    "That he at first refuses to believe Huffman has solved the problem",
+    "That he reproaches Huffman for not having chosen the final exam",
+    "That he immediately offers to co-sign the 1952 paper with Huffman"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Fano exclaims, in his Italian accent: “Is that all there is to it!”, which conveys his surprise at a solution he had been seeking for years with Shannon."
+  },
+  {
+   "question": "Where is the principle of Huffman coding found today, according to this card?",
+   "choix": [
+    "Only in audio formats like MP3",
+    "In ZIP, JPEG, and fax standards",
+    "In processors, as an arithmetic calculation method",
+    "In encryption protocols like RSA"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text cites the ZIP format, JPEG, and fax standards as current uses of Huffman coding, more than seventy years after its publication."
+  }
+ ]
+}

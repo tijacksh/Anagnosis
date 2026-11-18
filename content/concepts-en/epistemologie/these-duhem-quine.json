@@ -1,0 +1,89 @@
+{
+ "id": "epi-these-duhem-quine",
+ "slug": "these-duhem-quine",
+ "langue": "en",
+ "empreinte_fr": "244b7a72fd62816d",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Anglais, W. V. O. Quine, « Two Dogmas of Empiricism » (1951) : « as a corporate body » aligné sur citation/texte (original anglais) ; le français disait « comme un corps solidaire »."
+  }
+ ],
+ "titre": "The Duhem-Quine Thesis",
+ "accroche": "The same reasoning discovered a planet in 1846, and made people believe in another, which never existed, in 1859.",
+ "contenu_vulgarise": "In 1846, the French astronomer Urbain Le Verrier calculates, from the unexplained perturbations in the orbit of Uranus, the exact position of a planet never yet observed. The Berlin observatory points its telescope at the indicated spot and discovers Neptune that very evening. The triumph is total: Newton's celestial mechanics has just predicted the existence of a heavenly body before any eye had seen it.\n\nIn 1859, Le Verrier applies the same reasoning to another anomaly: Mercury does not quite advance along the orbit Newton predicts. This time, he does not calculate the position of a single body: he postulates an unknown mass, a belt of small bodies, closer to the Sun than Mercury. In December, an amateur-astronomer physician, Edmond Lescarbault, writes to him that on March 26 he saw a black dot cross the disk of the Sun. Le Verrier goes to see him, believes him, and christens Vulcan the body that Lescarbault claims to have observed. No other astronomer will ever confirm the observation. Yet the searches continue for decades, during transits and eclipses, with Le Verrier himself leading an expedition to Spain in 1860.\n\nVulcan never existed: Lescarbault's observation will never be reproduced. Mercury's anomaly, 43 arcseconds per century that Newton does not predict, will be resolved only in 1915, when Einstein shows that general relativity predicts it exactly, with no extra mass near the Sun.\n\n## The mechanism\n\nThe French philosopher and physicist Pierre Duhem draws from episodes like these a general observation, formulated as early as the beginning of the 20th century: a physical theory is never tested alone. To compare a prediction with an observation, one must always rely on a set of auxiliary hypotheses, on the reliability of instruments, on other laws assumed to be settled. When the observation contradicts the prediction, nothing indicates which one, the core of the theory or one of these auxiliary hypotheses, should be abandoned.\n\nIn the case of Neptune, the auxiliary hypothesis, an unknown planet, proved correct: it saved Newton's theory, and rightly so. In the case of Vulcan, the same kind of hypothesis, an unknown mass near the Sun, proved false: it was the theory itself, Newtonian gravitation, that had to be replaced. Nothing, at the moment of the anomaly, made it possible to know which of the two situations one was facing.\n\nThe American logician Willard Van Orman Quine takes up this idea in 1951 and radicalizes it. Our statements about the world, he writes, never face experience one by one, but only “as a corporate body.” A disagreement with observation can always, in theory, be absorbed by adjusting any other part of the system rather than the targeted statement.\n\n## What this shifts\n\nThe Duhem-Quine thesis does not say that every theory can be saved indefinitely in practice, or that no experiment counts. It says that a result contrary to predictions rarely points, by itself, to what must give way. Choosing between revising the theory and revising an auxiliary hypothesis remains, each time, a judgment, not an automatic deduction, and the history of Mercury shows that no rule exists to settle it in advance.",
+ "citation": {
+  "texte": "our statements about the external world face the tribunal of sense experience not individually, but only as a corporate body",
+  "auteur": "Willard Van Orman Quine",
+  "source": "“Two Dogmas of Empiricism,” The Philosophical Review, 1951",
+  "url": "https://doi.org/10.2307/2181906"
+ },
+ "carte": {
+  "punch": "The same reasoning discovered Neptune, and made people believe in a planet that never existed.",
+  "idee": "Le Verrier predicts Neptune in 1846 from an anomaly in Uranus: found that very evening. In 1859, the same logic applied to an anomaly in Mercury leads him to Vulcan, a mass never confirmed. An anomaly never says on its own whether to revise the theory or an auxiliary hypothesis.",
+  "source_courte": "Duhem-Quine, Quine 1951"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy, Pierre Duhem",
+   "url": "https://plato.stanford.edu/entries/duhem/",
+   "note": "Duhem's original work, La théorie physique (Physical Theory), and its reception by the Vienna Circle and then Quine."
+  },
+  {
+   "titre": "Science Friday, “Discovering Planet Vulcan” (excerpt from The Hunt for Vulcan, Thomas Levenson)",
+   "url": "https://www.sciencefriday.com/articles/discovering-planet-vulcan/",
+   "note": "The detailed account of Lescarbault's report and the birth of the name Vulcan."
+  }
+ ],
+ "quiz": {
+  "question": "According to the Duhem-Quine thesis, what does the episode show in which Le Verrier first predicts Neptune, then wrongly postulates the planet Vulcan to explain a similar anomaly?",
+  "choix": [
+   "That Le Verrier was right about Uranus but made a calculation error about Mercury",
+   "That an anomaly never indicates on its own what must be revised, the theory or an auxiliary hypothesis",
+   "That Newtonian mechanics was wrong as early as 1846, even for Neptune",
+   "That planetary anomalies can never be resolved by calculation alone"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Le Verrier did not make a calculation error: both times, an orbital anomaly led him to postulate an unknown body to explain it. This auxiliary hypothesis proved right for Neptune, confirmed that very evening by an observatory; it proved false for Vulcan, which rested only on an amateur's report never confirmed by anyone else. This is exactly what the Duhem-Quine thesis says: an anomaly can be resolved by revising an auxiliary hypothesis or the theory itself, and nothing at the moment of observation makes it possible to know which of the two paths is the right one.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does Le Verrier's approach in 1859, faced with Mercury's anomaly, differ from the one that led to Neptune in 1846?",
+   "choix": [
+    "In 1859, he refuses to apply the same reasoning, judging Mercury's anomaly too small to be significant",
+    "In 1859, he calculates the exact position of a second planet, as he had done for Neptune in 1846",
+    "In 1859, he postulates an unknown mass, a belt of small bodies closer to the Sun than Mercury",
+    "In 1859, he immediately attributes the anomaly to a measurement error by the astronomers of the day"
+   ],
+   "bonne_reponse": 2,
+   "explication": "For Mercury, Le Verrier does not calculate the position of a single body as for Neptune: he postulates an unknown mass, a belt of small bodies closer to the Sun, which will become Vulcan."
+  },
+  {
+   "question": "What was the belief in the existence of Vulcan based on?",
+   "choix": [
+    "Several independent European observatories, which photographed the body on the same date",
+    "A mathematical calculation by Le Verrier, subsequently verified by the Paris Observatory",
+    "A total solar eclipse observed simultaneously from five different countries",
+    "A single report by an amateur-astronomer physician, never confirmed by another astronomer"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Vulcan rests solely on the report of Edmond Lescarbault, an amateur-astronomer physician, whom Le Verrier believed without any other astronomer ever confirming the observation."
+  },
+  {
+   "question": "How was the anomaly in Mercury's orbit finally resolved?",
+   "choix": [
+    "In 1915, when Einstein shows that general relativity predicts it exactly",
+    "In 1900, when Le Verrier publicly acknowledges his error before dying",
+    "It was never resolved and remains an unexplained mystery to this day",
+    "In 1915, when a more powerful telescope finally confirms the existence of Vulcan"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Mercury's anomaly is resolved in 1915, when Einstein shows that general relativity predicts it exactly, with no extra mass near the Sun needed."
+  }
+ ]
+}

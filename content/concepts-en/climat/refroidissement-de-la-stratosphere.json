@@ -1,0 +1,77 @@
+{
+ "id": "cli-refroidissement-de-la-stratosphere",
+ "slug": "refroidissement-de-la-stratosphere",
+ "langue": "en",
+ "empreinte_fr": "48c8bb07c399b4b6",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The upper atmosphere is cooling, and that signature settles the question",
+ "accroche": "A hotter Sun would warm the whole atmosphere. The lower layers are warming and the upper ones are cooling",
+ "contenu_vulgarise": "Observing that the surface is warming does not say why. A more active Sun would produce the same record as a strengthened greenhouse effect, and a temperature curve alone cannot tell them apart.\n\nWhat is needed is an observation that the two hypotheses do not predict in the same way. It exists, and it is found at altitude.\n\n## What each hypothesis predicts\n\nIf the Earth receives more energy from the Sun, that energy passes through the whole column of air. The stratosphere, which the radiation crosses first, would warm; so would the troposphere and the surface. The whole atmosphere would rise together.\n\nA strengthened greenhouse effect produces something else. Greenhouse gases hold near the ground part of the infrared radiation that the Earth emits toward space. What is held back below no longer rises. The upper layers, which cool by radiating to space, therefore receive less energy from below, and cool.\n\nThe two hypotheses diverge on the sign. One predicts warming everywhere, the other warming below and cooling above.\n\n## What is observed\n\nThe prediction is old: it appears in modeling work from the late 1960s, long before it could be checked.\n\nWeather balloons, then satellites, confirmed it. The troposphere is warming, the stratosphere is cooling markedly, and the contrast between the two grows over time.\n\nA 2023 paper showed that including the upper stratospheric layers multiplies the signal-to-noise ratio of the detection by five. In other words: it is at altitude that the human fingerprint is clearest, not at the surface.\n\n## Why this argument is stronger than a curve\n\nThis reasoning deserves to be distinguished from the more common kind, which consists of piling up concordant clues.\n\nHere we do not settle for a fact that is compatible with one hypothesis. We have an observation that the rival hypothesis predicts *backwards*. This is not one more argument in a file: it is a test that tells the hypotheses apart.\n\nTwo honest caveats, all the same. The destruction of stratospheric ozone by chlorine compounds also helped cool that layer, and the two effects had to be separated. And satellite temperature measurements required decades of calibration before they were reliable.\n\nThis does not weaken the conclusion; it says where it comes from. A signature is only worth something if what could imitate it has been ruled out, and it is that thankless work that took up most of the time.",
+ "repere": {
+  "texte": "Taking the middle and upper stratosphere into account multiplies by five the signal-to-noise ratio of detecting the human fingerprint on atmospheric temperature.",
+  "source": "Santer et al., “Exceptional stratospheric contribution to human fingerprints on atmospheric temperature,” PNAS, 120, 2023",
+  "url": "https://www.pnas.org/doi/10.1073/pnas.2300758120"
+ },
+ "carte": {
+  "punch": "A hotter Sun would warm everything. The lower layers warm, the upper ones cool.",
+  "idee": "Greenhouse gases hold near the ground the heat that the Earth was radiating toward space. The upper layers therefore receive less of it and cool, which a solar variation would predict backwards.",
+  "source_courte": "Santer et al., PNAS, 2023"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Santer et al. (2023) — full text, open access",
+   "url": "https://www.atmos.colostate.edu/~davet/ao/ThompsonPapers/Santer_etal_PNAS2023.pdf",
+   "note": "In English; the vertical temperature profiles can be read at a glance."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the cooling of the stratosphere tell the hypotheses apart?",
+  "choix": [
+   "Because it is measured with greater precision than surface records",
+   "Because a solar variation would predict warming of this layer, not cooling",
+   "Because the stratosphere reacts faster than the surface to changes in composition",
+   "Because no other known factor can change the temperature of this layer"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The two hypotheses diverge on the sign: a more active Sun would warm the whole column, while a strengthened greenhouse effect warms the lower layers and deprives the upper ones of energy. It is a test, not one more clue. Ozone destruction also cools this layer, so the two contributions had to be separated.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "When was the prediction of warming below and cooling above made, relative to its observational confirmation?",
+   "choix": [
+    "Well after the first satellite measurements, to dress up a result already observed",
+    "In modeling work from the late 1960s, before it could be checked",
+    "When the 2023 paper was published, as a hypothesis still to be tested",
+    "In the 1990s, at the same time as the first weather-balloon records"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The card specifies that this prediction appears in modeling work from the late 1960s, long before weather balloons and then satellites made it possible to confirm it."
+  },
+  {
+   "question": "What caveat does the card add before concluding that stratospheric cooling is the signature of the greenhouse effect?",
+   "choix": [
+    "No other known phenomenon can change the temperature of the stratosphere",
+    "The warming of the troposphere totally cancels out the signal observed at altitude",
+    "Ozone destruction by chlorine compounds also cooled this layer, so the two effects had to be separated",
+    "Weather balloons could never reach the altitude needed to measure the stratosphere"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The card notes that the destruction of ozone by chlorine compounds also contributed to stratospheric cooling, which required work to separate the two effects."
+  },
+  {
+   "question": "What does the 2023 paper show about including the upper stratospheric layers in the analysis?",
+   "choix": [
+    "It makes detecting the human fingerprint twice as uncertain as before",
+    "It changes nothing about the reliability of the temperature records already obtained at the surface",
+    "It completely replaces surface measurements, now judged unreliable",
+    "It multiplies the signal-to-noise ratio of detecting the human fingerprint by five"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The 2023 paper cited by the card shows that taking the upper stratospheric layers into account multiplies the signal-to-noise ratio of the detection by five, altitude being more telling than the ground."
+  }
+ ]
+}

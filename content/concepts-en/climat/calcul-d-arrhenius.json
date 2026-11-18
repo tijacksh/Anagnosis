@@ -1,0 +1,77 @@
+{
+ "id": "cli-calcul-d-arrhenius",
+ "slug": "calcul-d-arrhenius",
+ "langue": "en",
+ "empreinte_fr": "ec209d5f09d4441f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The first warming calculation, done by hand and welcomed with pleasure",
+ "accroche": "In 1896, Arrhenius calculates the effect of doubling CO₂. He gets it about right, and serenely expects it in three thousand years.",
+ "contenu_vulgarise": "In 1896, Svante Arrhenius publishes a paper that poses a question with no apparent connection to our time: why were there ice ages?\n\nThe hypothesis he examines is that the carbon dioxide content of the atmosphere varied, and that this variation is enough to tip the climate.\n\nTo test it, he has to calculate by how much the surface temperature changes when this content changes. There is as yet no computer, no model, no satellite.\n\n## What the calculation assumes\n\nThe physical principle had been known since Fourier and Tyndall. The atmosphere lets sunlight through, which warms the ground; the ground re-emits toward the sky radiation of a longer wavelength; certain gases absorb that radiation and send part of it back down.\n\nArrhenius wants to put a number on this effect. He divides the globe into latitude bands, relies on measurements of the absorption of moonlight, and accounts for water vapor, which increases when it gets warmer and thus amplifies the initial warming.\n\nThe work is done by hand, and it is long: a laborious numerical calculation that demanded months of effort.\n\nHis conclusion: doubling the carbon dioxide content would raise the average temperature by five to six degrees.\n\n## What the figure is worth today\n\nCurrent estimates of this “climate sensitivity” are closer to three degrees, with an uncertainty that has still not been reduced to zero.\n\nArrhenius is therefore too high. But he is in the right order of magnitude, which is remarkable for a calculation carried out without satellite measurement, without modern spectroscopy and without any representation of clouds, the factor that, even today, accounts for most of the uncertainty.\n\n## Where he was truly wrong\n\nThe interesting error is not in the figure. It is in what he expected from it.\n\nArrhenius is Swedish. A warmer climate seems desirable to him: more abundant harvests at high latitudes, milder winters, a numerous humanity better fed. He also estimates that burning coal at its 1896 pace would take about three thousand years to produce such a doubling, a prospect so distant that it does not worry him.\n\nOn this point, he is completely wrong, and not by a factor of two. Fossil energy consumption has grown at a pace he never imagined, and the doubling is within reach of a century, not a millennium.\n\nThis gap is perhaps the most instructive part. He did not miss the physics, he missed the scale of the human phenomenon. A correct calculation on a wrong pace yields a tranquil conclusion, and the error was not about the atmosphere.",
+ "repere": {
+  "texte": "Arrhenius concludes in 1896 that a doubling of carbon dioxide would raise the average temperature by five to six degrees. Current estimates settle closer to three degrees, the same order of magnitude, a century before models.",
+  "source": "Arrhenius, “On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground,” Philosophical Magazine, 41, 1896",
+  "url": "https://empslocal.ex.ac.uk/people/staff/gv219/classics.d/Arrhenius96.pdf"
+ },
+ "carte": {
+  "punch": "He calculated warming by hand in 1896, unworried: three thousand years, he thought.",
+  "idee": "Arrhenius puts a number on the effect of doubling CO₂: five to six degrees. The order of magnitude still holds. What he missed was the pace: he believed in millennia of coal, not a century.",
+  "source_courte": "Arrhenius, Phil. Mag., 1896"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Arrhenius (1896): full text",
+   "url": "https://empslocal.ex.ac.uk/people/staff/gv219/classics.d/Arrhenius96.pdf",
+   "note": "In English; the results tables can be read without following the detail of the calculation."
+  }
+ ],
+ "quiz": {
+  "question": "What was Arrhenius most badly wrong about?",
+  "choix": [
+   "The physical principle of the absorption of radiation by gases",
+   "The order of magnitude of the effect of doubling carbon dioxide",
+   "The time it would take coal combustion to double the content",
+   "The amplifying role of water vapor in the warming"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The principle was established before him, his figure stays in the right order of magnitude, and he had indeed accounted for amplification by water vapor. His error concerns the human pace: he counted on millennia of burning where a century sufficed, which made his conclusion serene.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What question was Arrhenius trying to settle when he published his 1896 paper?",
+   "choix": [
+    "How to measure the exact carbon dioxide content of the atmosphere",
+    "Why there were ice ages in the Earth's past",
+    "How fast the coal burned by industry would run out",
+    "Why Swedish winters were harsher than a century earlier"
+   ],
+   "bonne_reponse": 1,
+   "explication": "His paper starts from the ice ages: he tests the hypothesis that a variation in the atmosphere's carbon dioxide content is enough to tip the climate. The doubling calculation follows from it; it is not the starting point."
+  },
+  {
+   "question": "How did Arrhenius carry out his calculation, with no computer, no model and no satellite?",
+   "choix": [
+    "By extrapolating temperature records from several European stations",
+    "By reproducing the effect in the laboratory in a heated closed chamber",
+    "By dividing the globe into latitude bands, by hand, at the cost of months of effort",
+    "By entrusting the operations to a team of human computers at his observatory"
+   ],
+   "bonne_reponse": 2,
+   "explication": "He divides the globe into latitude bands, relies on measurements of the absorption of moonlight and accounts for water vapor. The work, done by hand, demanded months of effort."
+  },
+  {
+   "question": "Where does most of the uncertainty about climate sensitivity still lie today?",
+   "choix": [
+    "In the representation of clouds, absent from Arrhenius's calculation",
+    "In the measurement of the atmosphere's current carbon dioxide content",
+    "In the very existence of the greenhouse effect, still debated today",
+    "In the role of water vapor, which Arrhenius had completely ignored"
+   ],
+   "bonne_reponse": 0,
+   "explication": "It is clouds that still account for most of the uncertainty today, and Arrhenius had no representation of them. He did, however, already take water vapor into account, having seen its amplifying effect."
+  }
+ ]
+}

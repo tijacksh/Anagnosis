@@ -1,0 +1,83 @@
+{
+ "id": "gen-lyon-1961-inactivation-du-x-au-hasard",
+ "slug": "lyon-1961-inactivation-du-x-au-hasard",
+ "langue": "en",
+ "empreinte_fr": "aaa3d1edeb836250",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Titre de l'article de Beutler, Yeh et Fairbanks (1962), à l'origine en anglais, retraduit depuis le français (« la femme normale est une mosaïque d'activité du chromosome X »)."
+  }
+ ],
+ "titre": "Mary Lyon (1961): in females, one of the two X chromosomes switches off at random",
+ "accroche": "Cat neurons, a mottled mouse and an unexplained male: in 1961, Mary Lyon connects the clues and proposes random inactivation.",
+ "contenu_vulgarise": "In 1949, two researchers at the University of Western Ontario, Murray Barr and his student Ewart Bertram, examine cat neurons stained with Feulgen reagent, which marks DNA. They notice a strongly stained clump of DNA in the nucleus of some cells, not in others. They gradually realize that the clump appears in the female cat and not in the male. They first call it the “nucleolar satellite”; it would later be called the Barr body.\n\n## A spot waiting for an explanation\n\nWhat does this spot mean? In 1960, Ohno and Hauschka show that the cells of female mammals carry a strongly condensed X chromosome. A dosage problem remains: females have two X chromosomes, males only one, and yet the genes on the X do not seem to produce twice as much in females. Ohno supposes that the condensed X is largely silent.\n\n## Mottled mice\n\nMary Lyon, a geneticist based at Harwell, is studying at the same time mice with coats mottled in light and dark patches, whose transmission is X-linked. One detail bothers her: Falconer gives her a mottled male, though these mice are females. She imagines that a mutation arising very early in the embryo produced two populations of cells, one carrying the normal X, the other the mutant X. If a similar mechanism operates in females, the patches come from an X switched off in some cells and not in others. The Russells show in 1959 that an XO mouse, with a single X, develops normally: one X is enough.\n\nIn April 1961, in Nature, Lyon proposes that the condensed X is inactive and that inactivation takes place at random, early in development. In a single female, one cell expresses the genes of the maternal X, other cells those of the paternal X, never both in the same cell, and the cells of a given group keep the same choice. In 1962, she extends the hypothesis to all mammals, including humans. The inactive X forms the Barr body, and any extra X is inactivated, which explains facts that had been obscure until then, such as the viability of individuals carrying four X chromosomes and a Y. The hypothesis, she writes, was born from bringing together the genetics and the cytology of the mouse.\n\n## The proof in humans\n\nIn 1962, Ernest Beutler, Mary Yeh and Virgil Fairbanks use a gene for G6PD deficiency, an enzyme of red blood cells, as a marker. Their paper is titled: “The normal woman is a mosaic of X-chromosome activity.”\n\n## What this changes\n\nA woman is not made, on this point, of a single type of cell. Each cell expresses one of her two X chromosomes, chosen early, and the body forms a patchwork. Random inactivation is the heart of the hypothesis: the name “lyonization” designates this choice, not the idea of a silent X, which others had already glimpsed.\n\nThe attribution remains nuanced. Beutler credited Ohno as the father of the idea of X inactivation, and Lee Russell published in July 1961 a synthesis similar to Lyon's, which had appeared in April. The hypothesis nevertheless bears Lyon's name, since she formulated the random choice.\n\nBeutler's marker was later used for another question. According to Balderman and Lichtman, Linder and Gartler rely in 1965 on the random inactivation of the two forms of G6PD to support, in informative women, the clonal origin of tumors, leiomyomas: a tumor can descend from a single cell. Later work has confirmed this.",
+ "repere": {
+  "texte": "In April 1961, in Nature, Mary Lyon proposes that one of the two X chromosomes of female mammals is inactivated at random, early in development, hence the mottled coats of mice carrying a color mutation on a single X.",
+  "source": "Lyon, “Gene action in the X-chromosome of the mouse (Mus musculus L.)”, Nature, 190, 1961, as reported by Balderman and Lichtman, 2011",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3678792/"
+ },
+ "carte": {
+  "punch": "In female mammals, one of the two X chromosomes switches off at random, cell by cell.",
+  "idee": "In 1961, Mary Lyon proposes that one of a female's two X chromosomes is inactivated at random, early in the embryo. A mottled mouse is a mosaic of cells with an active maternal X and cells with an active paternal X. In 1962, Beutler and his colleagues show the mosaic in women.",
+  "source_courte": "Lyon, Nature, 1961"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Lyon, “Sex chromatin and gene action in the mammalian X-chromosome”, American Journal of Human Genetics, 14, 1962",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1932279/",
+   "note": "The expanded 1962 text that extends the hypothesis to all mammals."
+  }
+ ],
+ "quiz": {
+  "question": "What does Lyon's hypothesis predict for a female mouse in which only one X carries a coat-color mutation?",
+  "choix": [
+   "A fully mutant coat, since the mutant X always prevails over the normal one",
+   "A normal coat, since the normal X always remains the only active one in the cells",
+   "A mottled coat, since the mutant X is active in some cells and inactive in others",
+   "A mottled coat in males only, since the X only matters in them"
+  ],
+  "bonne_reponse": 2,
+  "explication": "In each cell, only one X remains active, chosen at random early in development: the coat patches are the descendants of cells with an active normal X or an active mutant X. Neither X systematically dominates.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did Barr and Bertram observe in cat neurons in 1949?",
+   "choix": [
+    "A stained clump of DNA present in the female and absent in the male",
+    "A Y chromosome visible in the male only",
+    "Nuclei without chromosomes in the female",
+    "A clump of RNA present in both sexes"
+   ],
+   "bonne_reponse": 0,
+   "explication": "They see a strongly stained clump of DNA in the nuclei of the female cat, not of the male, later called the Barr body. It is neither RNA, nor a Y, nor an absence of chromosomes."
+  },
+  {
+   "question": "What puts Mary Lyon on the trail of X inactivation, in her mottled mice?",
+   "choix": [
+    "Falconer gives her a mottled male, though these mice are females",
+    "The mottled mice gradually lose their patches as they age",
+    "The mottled mice all turn out to be sterile without exception",
+    "Litters of mottled mice never include any males"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Falconer gives Lyon a mottled male, which bothers her since these mice are females: she imagines an early mutation producing two populations of cells. The text says nothing about loss of patches, sterility, or an absence of males."
+  },
+  {
+   "question": "What do the Russells show in 1959 about an XO mouse, carrying a single X chromosome?",
+   "choix": [
+    "That it always dies before birth",
+    "That it develops normally with this single X",
+    "That it develops a fully mutant coat",
+    "That it never carries the Barr body"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The Russells show that an XO mouse develops normally, proof that a single X is enough: this result supports the idea that the extra X is simply inactivated. The text says nothing about early death, a mutant coat, or the absence of a Barr body."
+  }
+ ]
+}

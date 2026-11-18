@@ -1,0 +1,94 @@
+{
+ "id": "hist-telegramme-zimmermann-1917",
+ "slug": "telegramme-zimmermann-1917",
+ "langue": "en",
+ "empreinte_fr": "7e6b4014a2e471b5",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Retraduite depuis le français ; auteur d'origine : Arthur Zimmermann (conférence de presse, probablement en allemand)."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Aveu de Zimmermann retraduit depuis le français ; auteur d'origine : Arthur Zimmermann."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "Dans l'original, la parenthèse ouverte avant « jusqu'à ce que Zimmermann » est fermée après « diplomatie secrète », avant « câbles, codes, agents » : syntaxe confuse, structure conservée telle quelle."
+  }
+ ],
+ "titre": "The Zimmermann Telegram, Decoded by the British (1917)",
+ "accroche": "On January 16, 1917, Berlin proposes that Mexico reconquer Texas, partly over the cable Washington lends it for peace.",
+ "contenu_vulgarise": "On January 16, 1917, the German Secretary of State for Foreign Affairs, Arthur Zimmermann, sends a coded telegram to the German ambassador to Mexico, Heinrich von Eckardt. The message proposes an alliance: if the United States enters the war against Germany, Mexico is to attack them, with German financial support and the promise of recovering Texas, New Mexico and Arizona. A detail long overlooked: this telegram travels in part over an American cable, the very one Washington had opened to Berlin to facilitate possible peace talks.\n\n## A Decryption That Had to Be Hidden Twice\n\nThe message takes several redundant routes (radio, Swedish cable and American commercial cable), one of which passes through British stations. Since the start of the war, the cryptanalysts of Room 40, the British naval intelligence service, have been reading a good share of German diplomatic traffic thanks to captured codes. Nigel de Grey makes a first partial decryption the day after the interception; with William Montgomery, he finishes reconstructing the text in the following weeks.\n\nAdmiral Reginald Hall, who heads Room 40, now faces a delicate problem: revealing the telegram means revealing to Germany that its code is broken, and revealing to the United States that London intercepts their own diplomatic cable. Hall therefore has an agent, who bribes a telegraph employee in Mexico City, obtain a second copy of the message as it was retransmitted to the local German embassy. This Mexican copy, encrypted with an older code already cracked, allows the British to present the telegram as stolen in Mexico, without ever mentioning Room 40 or the American cable. Handed to Ambassador Walter Hines Page on February 23, 1917, the text is published by the American press on March 1.\n\n## An Admission No One Expected\n\nAmerican opinion at first suspects a forgery cooked up by London to hasten the United States into the war (until Zimmermann himself, at a press conference on March 3, 1917, confirms: “I cannot deny it. It is true.” The admission cuts short the doubt and shifts the debate: what is at issue is no longer the telegram's authenticity, but what it reveals about the gap between the means of secret diplomacy) cables, codes, agents, and its real capacity to remain secret. The American Congress declares war on Germany on April 6, 1917, a month after Berlin confirmed, out of its own mouth, having written what London claimed to have stolen.",
+ "citation": {
+  "texte": "I cannot deny it. It is true.",
+  "auteur": "Arthur Zimmermann",
+  "source": "Press conference, Berlin, March 3, 1917",
+  "url": "https://en.wikipedia.org/wiki/Zimmermann_Telegram"
+ },
+ "carte": {
+  "punch": "Germany proposed an alliance to Mexico over the United States' own cable.",
+  "idee": "In January 1917, Berlin proposes to Mexico an alliance against the United States via the diplomatic cable that Washington had lent it for peace. The British decode it, but must invent a false Mexican origin to hide that they read it on that cable.",
+  "source_courte": "NARA, Prologue Magazine, 2016"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Zimmermann Telegram — National WWI Museum and Memorial",
+   "url": "https://www.theworldwar.org/learn/about-wwi/zimmermann-telegram",
+   "note": "Museum presentation of the episode and of its role in the United States' entry into the war."
+  }
+ ],
+ "quiz": {
+  "question": "Why do the British fabricate a second source for the Zimmermann Telegram?",
+  "choix": [
+   "Because the intercepted text was incomplete and had to be completed",
+   "Because Ambassador Page refused to believe a document coming from London",
+   "So as not to reveal that they had cracked the German code and read the American diplomatic cable",
+   "To avoid paying the agent who had obtained the first copy"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Room 40 had broken the German code and read the message on an American cable; admitting it would have revealed both secrets at once, hence the Mexican copy obtained through bribery to disguise the origin: nothing to do with an incomplete text, a doubt on Page's part or a refused payment.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the telegram sent by Arthur Zimmermann to the German ambassador to Mexico on January 16, 1917 propose?",
+   "choix": [
+    "A German-Mexican military alliance, with financial support and the promise of recovering Texas, New Mexico and Arizona",
+    "A secret trade agreement to get around the British naval blockade",
+    "The transfer of part of the German fleet to the port of Veracruz",
+    "A proposal for Mexican mediation between Berlin and Washington"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The telegram proposes that, if the United States enters the war, Mexico attack the United States with German financial support and the promise of recovering Texas, New Mexico and Arizona."
+  },
+  {
+   "question": "Who decrypts the Zimmermann Telegram within Room 40, the British naval intelligence service?",
+   "choix": [
+    "Admiral Reginald Hall, alone, in one night",
+    "Nigel de Grey, then William Montgomery, who finish reconstructing the text",
+    "Walter Hines Page, the American ambassador in London",
+    "A Mexican telegraph employee bribed by the British"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Nigel de Grey makes a first partial decryption the day after the interception, then finishes with William Montgomery reconstructing the complete text in the following weeks."
+  },
+  {
+   "question": "How does Arthur Zimmermann react, on March 3, 1917, when the American press publishes the telegram?",
+   "choix": [
+    "He denounces a forgery fabricated by British services",
+    "He refuses all comment and resigns that same day",
+    "He accuses Mexico of having leaked the document without authorization",
+    "He publicly confirms the message's authenticity at a press conference"
+   ],
+   "bonne_reponse": 3,
+   "explication": "At a press conference on March 3, 1917, Zimmermann himself confirms the telegram's authenticity: “I cannot deny it. It is true.,” cutting short any doubt."
+  }
+ ]
+}

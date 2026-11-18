@@ -1,0 +1,83 @@
+{
+ "id": "hist-colomb-mythe-terre-plate",
+ "slug": "colomb-mythe-terre-plate",
+ "langue": "en",
+ "empreinte_fr": "235558b8a80ef4f1",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Anglais (Washington Irving, A History of the Life and Voyages of Christopher Columbus, 1828) ; formule « ignorants et bigots » retraduite depuis le français"
+  }
+ ],
+ "titre": "Columbus and the Myth of the Flat-Earth Theologians",
+ "accroche": "In 1892, America celebrates Columbus by telling how he had to convince theologians certain that the Earth was flat.",
+ "contenu_vulgarise": "In 1892, for the 400th anniversary of Christopher Columbus's first voyage, America tells itself a scene that will become a staple of school textbooks: the navigator standing before a commission of scowling Spanish theologians, arguing that the Earth is round, while his judges see heresy in it because they believe it flat. Reason would win out through sheer stubbornness, against the obscurantism of a medieval Church clinging to a disk-shaped world. This confrontation never took place: it comes entirely from a biographical novel published in 1828.\n\n## A Debate About Distance, Not Shape\n\nThe author of the novel is Washington Irving, already famous for his short stories, who published *A History of the Life and Voyages of Christopher Columbus* that year. In Book II, Chapter IV, he invents out of whole cloth a commission whose “ignorant and bigoted” members raise objections drawn from Scripture against the Earth's sphericity. The device works: the book, presented as a serious biography, is taken for a historical source for decades.\n\nBut the Earth's sphericity had been in dispute for no educated person since antiquity, and nothing in the Spanish archives mentions a theological objection on this point. What the royal commission, convened starting in 1486, actually called into question was Columbus's calculation of the distance to be traveled: he put Asia at 68 degrees west of the Canary Islands, when the best estimates of the day placed it closer to 180 degrees, more than double. The advisers were right on the substance: the voyage, as Columbus announced it, was unachievable. Only the existence, unknown to all, of a continent between Europe and Asia saved the expedition, and the crew, reaching the Caribbean on the brink of starvation, exactly where Columbus had calculated they would find Japan.\n\n## An Invented Ignorance to Feel Better Enlightened\n\nThe real shift is not just that Columbus was wrong about geography and right about the essentials. It is that the myth of a medieval Church unanimously convinced that the Earth is flat has a precise and recent birth date of its own: in the 19th century, it serves a story in which modern science triumphs over a fantasized, obscurantist Middle Ages. Irving does not invent a scene of confrontation between reason and religious superstition at random: he answers the spirit of an era that likes to tell itself it is emerging from a long night. The most stubborn received idea on this subject is therefore not the one we think we are correcting: it is the idea that the ignorance being corrected ever existed in this form.",
+ "repere": {
+  "texte": "Columbus estimated the distance between the Canary Islands and Asia at 68 degrees; the best Spanish estimates of the time placed it closer to 180 degrees, more than double: a disagreement over the size of the world, not its shape.",
+  "source": "Wikipedia, “Myth of the flat Earth”",
+  "url": "https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth"
+ },
+ "carte": {
+  "punch": "Columbus never had to prove that the Earth is round.",
+  "idee": "In 1828, the writer Washington Irving invents a scene in which Columbus confronts theologians convinced that the Earth is flat. The real debate was about the distance to Asia, which Columbus underestimated by more than half.",
+  "source_courte": "Wikipedia, “Myth of the flat Earth”"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "A History of the Life and Voyages of Christopher Columbus (Volume 1)",
+   "url": "https://archive.org/details/historyoflifeand01irviiala",
+   "note": "Washington Irving's original text (1828), the source of the invented scene of the confrontation with the Salamanca council."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the Spanish commission hesitate for so long over Columbus's project?",
+  "choix": [
+   "Because it considered the idea of a spherical Earth heretical",
+   "Because Columbus's estimate of the distance to Asia seemed far too optimistic",
+   "Because the Spanish royal treasury was empty after the war of Granada",
+   "Because no Spanish sailor agreed to sail westward"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The commission did not doubt the Earth's sphericity, known since antiquity, but the distance Columbus announced: 68° when it estimated about 180°; the other reasons offered here appear in none of the sources consulted.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the scene in which Columbus confronts theologians convinced that the Earth is flat come from?",
+   "choix": [
+    "From the official minutes of the Spanish royal commission convened starting in 1486",
+    "From a biographical novel by Washington Irving published in 1828, which invents this confrontation out of whole cloth",
+    "From a firsthand account by Columbus recorded in his ship's log",
+    "From a fresco commissioned for the 1892 anniversary and inspired by Vatican archives"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Washington Irving invents this scene in his biography of Columbus published in 1828; no Spanish archive mentions such a theological objection."
+  },
+  {
+   "question": "What was the real disagreement between Columbus and the Spanish royal commission about?",
+   "choix": [
+    "The financing of the voyage, which the Spanish crown judged too costly after the war of Granada",
+    "The nationality of the crew, the commission demanding exclusively Spanish sailors",
+    "The distance to Asia: Columbus put it at 68 degrees, the commission closer to 180 degrees",
+    "The route to take, the commission preferring to sail around Africa rather than cross the Atlantic"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Columbus underestimated the distance to Asia by more than half, 68 degrees against about 180 according to the best Spanish estimates of the time."
+  },
+  {
+   "question": "How was Columbus's expedition ultimately saved, despite an underestimated distance?",
+   "choix": [
+    "By a resupply stop in the Canary Islands, which allowed the planned voyage to be extended",
+    "By a change of course decided along the way on the advice of a Portuguese pilot",
+    "By the discovery, planned from the outset, of Japanese islands lying closer than calculated",
+    "By the existence of a continent between Europe and Asia, completely unknown to anyone at the time"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Only the existence of a continent unknown to all saved the expedition; the crew reached the Caribbean on the brink of starvation, believing they had arrived in Japan."
+  }
+ ]
+}

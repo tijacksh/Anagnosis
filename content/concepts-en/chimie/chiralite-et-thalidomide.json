@@ -1,0 +1,83 @@
+{
+ "id": "chi-chiralite-et-thalidomide",
+ "slug": "chiralite-et-thalidomide",
+ "langue": "en",
+ "empreinte_fr": "3aee3c68fd02da69",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "« précipitation sélective des paires mixtes » rendu littéralement par “selective precipitation of mixed pairs” ; le terme technique exact (paires hétérochirales ?) est à vérifier contre Tokunaga et al. 2018."
+  }
+ ],
+ "titre": "Two identical, mirror-image molecules, and a disaster",
+ "accroche": "Thalidomide exists in two versions that are mirror images of each other. The story usually drawn from it is more wrong than you'd think",
+ "contenu_vulgarise": "Lay your two hands flat, side by side. They have the same fingers in the same order, the same length, the same joints. Yet they cannot be superimposed: one is the image of the other in a mirror.\n\nMolecules do the same thing. As soon as a carbon atom bears four different groups, there are two ways of arranging them around it, symmetrical and non-superimposable. These twins are called enantiomers, and the property is chirality (from the Greek *kheir*, hand).\n\n## Why the difference matters\n\nOn paper, two enantiomers are indistinguishable. Same mass, same melting point, same bonds. A chemist analyzing them separately has trouble telling them apart.\n\nLiving things tell them apart at once. A protein is itself chiral: it presents to the incoming molecule a cavity of a given shape, and only one of the two twins fits in it. This is exactly the relationship of a hand to a glove.\n\nHence effects that sometimes have nothing to do with each other. Carvone gives the smell of caraway in one version, that of spearmint in the other. Same formula, same arrangement, same everything, except the handedness.\n\n## The thalidomide affair\n\nIn the late 1950s, thalidomide is sold as a sedative and prescribed for the nausea of pregnancy. It causes severe malformations in several thousand children before its withdrawal.\n\nThe molecule is chiral, and it was marketed as a mixture of the two enantiomers. In 1979, Gerhard Blaschke's team establishes in animals that the so-called (S) version carries the teratogenicity, while the (R) version shows none.\n\nThe conclusion writes itself, and it is everywhere: it would have been enough to separate the two forms and sell only the right one.\n\n## Why this conclusion doesn't hold\n\nIt runs into a fact measured since. Under the conditions of the body, thalidomide *racemizes*: the (R) version converts spontaneously into the (S) version, and vice versa, until it returns to a mixture. Administering the harmless enantiomer therefore amounts, a few hours later, to administering both.\n\nA purified drug would have prevented nothing.\n\nA puzzle remains, often called the thalidomide paradox: if the conversion is so fast, why do animal experiments on the (R) form not produce the expected teratogenicity? Work published in 2018 proposes an explanation through the selective precipitation of mixed pairs, which would remove part of the converted form from circulation. The question remains open.\n\nWhat we take from the affair is therefore right (a chiral drug requires examining both forms separately, which regulators have required ever since), but the reason usually given for it is wrong. The lesson was not that two molecules had been mixed. It was that no one knew which one they were giving, and what it became afterward.",
+ "repere": {
+  "texte": "In 1979, Blaschke's team shows that only the (S) form of thalidomide is teratogenic in animals. But the molecule racemizes in the body: giving the pure (R) form amounts to giving both.",
+  "source": "Tokunaga et al., “Understanding the Thalidomide Chirality in Biological Processes by the Self-disproportionation of Enantiomers,” Scientific Reports, 8, 2018",
+  "url": "https://www.nature.com/articles/s41598-018-35457-6"
+ },
+ "carte": {
+  "punch": "Two molecules symmetrical like your two hands: one heals, the other maims.",
+  "idee": "Thalidomide exists in two versions that are mirror images of each other. It is often repeated that separating out the good one would have been enough, but the molecule converts back in the body. Purifying the drug would have prevented nothing.",
+  "source_courte": "Tokunaga et al., Sci. Reports, 2018"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Tokunaga et al. (2018) — Understanding the Thalidomide Chirality",
+   "url": "https://www.nature.com/articles/s41598-018-35457-6",
+   "note": "In English, open access; the introduction summarizes the state of the debate."
+  }
+ ],
+ "quiz": {
+  "question": "Why not simply sell the harmless form of thalidomide?",
+  "choix": [
+   "Because the molecule converts back in the body and yields both forms again",
+   "Because the two forms are chemically impossible to separate",
+   "Because the harmless form loses all therapeutic effect once isolated",
+   "Because the manufacturing process always produces both in equal quantities"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Racemization in vivo converts one form back into the other, so that a purified drug becomes a mixture again within hours: that is what invalidates the common story. Separation has been technically possible since 1979, and it is indeed ordinary synthesis that yields a mixture, but neither of those two points is the obstacle.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Under what condition does a molecule exist in two non-superimposable versions?",
+   "choix": [
+    "As soon as it contains at least two bonded carbon atoms",
+    "As soon as a carbon atom in it bears four different groups",
+    "As soon as it is produced by a living organism",
+    "As soon as its atoms form a ring rather than a chain"
+   ],
+   "bonne_reponse": 1,
+   "explication": "That is the definition of chirality: four different groups around the same carbon atom can be arranged in two symmetrical, non-superimposable ways, like a right hand and a left hand. These twins are called enantiomers."
+  },
+  {
+   "question": "According to the entry, what distinguishes the two forms of carvone?",
+   "choix": [
+    "One is liquid, the other solid at room temperature",
+    "One is toxic, the other perfectly edible",
+    "One smells of caraway, the other of spearmint",
+    "One dissolves in water, the other only in oil"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Carvone is the example the entry gives to show that two enantiomers can have effects unrelated to each other: same formula and same arrangement, but a smell of caraway on one side, of spearmint on the other."
+  },
+  {
+   "question": "Why do living things tell two enantiomers apart?",
+   "choix": [
+    "Because they have neither the same mass nor the same melting point",
+    "Because the stomach separates the two forms before absorption",
+    "Because the rarer of the two is destroyed immediately",
+    "Because a protein is chiral and accommodates only one of them"
+   ],
+   "bonne_reponse": 3,
+   "explication": "On paper, two enantiomers are indistinguishable: same mass, same melting point, same bonds. But a protein, chiral too, presents a cavity of a given shape in which only one of the two twins fits, like a hand in a glove."
+  }
+ ]
+}

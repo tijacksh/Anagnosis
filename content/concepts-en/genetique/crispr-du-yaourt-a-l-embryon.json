@@ -1,0 +1,77 @@
+{
+ "id": "gen-crispr-du-yaourt-a-l-embryon",
+ "slug": "crispr-du-yaourt-a-l-embryon",
+ "langue": "en",
+ "empreinte_fr": "69e356e1b121bdb9",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Tool That Rewrites Life Comes From a Yogurt Problem",
+ "accroche": "CRISPR was discovered by industrial researchers looking for virus-resistant bacteria in starter cultures",
+ "contenu_vulgarise": "Making yogurt requires living bacteria. These bacteria have viruses, the bacteriophages, and a contamination can ruin an entire production run. It is an ordinary industrial problem, costly, and as old as fermentation.\n\nIn the 2000s, a Danish starter-culture company sets out to select naturally resistant strains. Its researchers compare the genomes of bacteria that survive attacks with those that do not.\n\n## What they find in the genome\n\nCertain regions of the bacterial genome had intrigued people since the 1980s without anyone knowing what they were for: short sequences, repeated at regular intervals, separated by variable segments. They were called CRISPR, after their description.\n\nIn 2005, the team notices that these variable segments resemble virus DNA.\n\nThe reading that then imposes itself is spectacular in its simplicity. These regions are an archive: when a bacterium survives an attack, it files a fragment of the virus in its genome. This fragment then serves as a recognition template; an associated protein compares it with incoming DNA, and cuts if it matches.\n\nA bacterium thus possesses an immune memory, heritable, from which the history of infections can be read.\n\nThe 2007 paper demonstrates it experimentally. Since 2011, industrial starter cultures have been selected on this basis.\n\n## From natural system to tool\n\nWhat follows rests on the fact that a recognition mechanism is an addressing mechanism.\n\nIf the protein cuts the DNA that matches the archived fragment, then changing the fragment changes the target. One can therefore supply it with a guide of one's choosing and make it cut a precise sequence, in any genome.\n\nThis reformulation earned the 2020 Nobel Prize in Chemistry, and turned genome editing into a routine laboratory operation.\n\n## What the story teaches\n\nCRISPR is readily cited as an argument for basic research. That is not quite accurate, and the case is more interesting than that.\n\nThe repeated sequences were described out of curiosity, with no use in sight, which is indeed basic research. But their function was elucidated by industrial researchers working on a very applied problem: saving vats of yogurt.\n\nNeither alone would have been enough. Those who had the object did not have the question; those who had the question were not looking for that object.\n\nAnd no one, in either team, was working on rewriting the human genome.",
+ "repere": {
+  "texte": "In 2005, researchers in the dairy industry notice that the variable segments of bacterial CRISPR regions resemble bacteriophage DNA. Since 2011, industrial starter cultures have been selected on this immunity.",
+  "source": "“QnAs with Rodolphe Barrangou,” Proceedings of the National Academy of Sciences, 2017",
+  "url": "https://www.pnas.org/doi/10.1073/pnas.1710348114"
+ },
+ "carte": {
+  "punch": "The tool that rewrites life comes from a yogurt-vat problem.",
+  "idee": "CRISPR regions had intrigued people since the 1980s. Their function was elucidated by starter-culture industry researchers looking for virus-resistant bacteria: it is an archive of past infections, hence an addressing system.",
+  "source_courte": "PNAS, QnAs with Barrangou"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "iBiology — The CRISPR Apostle: Rodolphe Barrangou",
+   "url": "https://www.ibiology.org/microbiology/crispr-apostle/",
+   "note": "In English; the story told by one of the people who made it."
+  }
+ ],
+ "quiz": {
+  "question": "What are the variable segments of bacterial CRISPR regions?",
+  "choix": [
+   "Fragments of virus DNA, archived after a survived infection",
+   "Copying errors accumulated over cell divisions",
+   "Resistance genes exchanged between neighboring bacteria",
+   "Regulatory sequences that control the rate of reproduction"
+  ],
+  "bonne_reponse": 0,
+  "explication": "A bacterium that survives an attack files a fragment of the virus in its genome: the CRISPR region is an archive of past infections, readable like a history. This fragment then serves as a recognition template, and it is this addressing mechanism that was repurposed to cut any chosen sequence.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What industrial problem led to the elucidation of the function of CRISPR regions?",
+   "choix": [
+    "The rising cost of the milk used in making starter cultures",
+    "The viruses that infect bacteria and ruin an entire production run",
+    "The difficulty of keeping yogurts beyond a few weeks",
+    "The appearance of antibiotic-resistant bacteria in the vats"
+   ],
+   "bonne_reponse": 1,
+   "explication": "A Danish starter-culture company was looking for strains naturally resistant to bacteriophages, whose contamination can ruin an entire production run. Its researchers compared the genomes of bacteria that survive attacks with those that do not."
+  },
+  {
+   "question": "What makes it possible to turn this bacterial system into an editing tool?",
+   "choix": [
+    "The fact that the protein cuts at random, which multiplies the attempts",
+    "The fact that the bacterium passes its cuts on to its descendants",
+    "The fact that changing the archived fragment changes the sequence that is cut",
+    "The fact that the repeated sequences copy themselves from one genome to another"
+   ],
+   "bonne_reponse": 2,
+   "explication": "A recognition mechanism is an addressing mechanism: if the protein cuts the DNA that matches the archived fragment, then supplying it with a guide of one's choosing amounts to designating the target, in any genome."
+  },
+  {
+   "question": "What does the entry conclude about the role of basic research in this story?",
+   "choix": [
+    "It did everything, industry having merely funded the work",
+    "It described the sequences, industry found their function",
+    "It played no role, everything having come from the fermentation vats",
+    "It aimed, as early as the 1980s, at rewriting the human genome"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The repeated sequences were indeed described out of curiosity, with no use in sight. But their function was elucidated by industrial researchers on a very applied problem, saving vats of yogurt: those who had the object did not have the question."
+  }
+ ]
+}

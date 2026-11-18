@@ -1,0 +1,60 @@
+{
+ "id": "bio-lenski-citrate-ecoli-2008",
+ "slug": "lenski-ecoli-citrate-evolution-contingente",
+ "langue": "en",
+ "empreinte_fr": "5bbaaa8d042e63bd",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Twelve E. coli Lines, Only One Learned to Eat Citrate",
+ "accroche": "Twelve identical bacterial populations have been evolving in a laboratory since 1988. After 30,000 generations, only one has acquired a new trait.",
+ "contenu_vulgarise": "In 1988, the biologist Richard Lenski founds twelve initially identical lines of Escherichia coli, six from each of two ancestral clones that differ only by a neutral marker. Each is grown in a medium low in glucose, supplemented with citrate. The lines are raised separately: twelve replicates of the same experiment, launched the same year. The question being asked is an old one: if evolution were replayed, would we get the same story?\n\n## A Trait E. coli “Doesn't Know” It Has\n\nIn the presence of oxygen, E. coli cannot use citrate as a carbon source. Yet the medium contains it, in large quantity: an inaccessible feast. For more than thirty thousand generations, none of the twelve lines managed to touch it, even though each had tried, according to the authors, billions of mutations.\n\nThen, in the line called Ara-3, a variant named Cit+ seems to appear between 31,000 and 31,500 generations, without the authors ruling out an earlier origin. Its population then grows several-fold, because the untapped resource becomes available.\n\n## Chance or History?\n\nTwo readings compete. If the Cit+ mutation is simply very rare, any line could have obtained it, and Ara-3 was lucky. If it depends on preparatory steps, Ara-3 carried earlier mutations that had made it capable. Lenski and his team settle the matter by “replaying” the experiment from frozen samples of the line, preserved at different stages. In cultures derived from clones sampled before 20,000 generations, no Cit+ mutant is observed, whereas later clones produce them markedly more often. The 2008 paper concludes that the innovation was contingent: it needed a particular history. The authors estimate that this “primed” genetic background multiplies the mutation rate toward Cit+ by at least two, without the line having mutated faster in general.\n\nIn 2012, an analysis of the genomes pinned down the mechanism: a duplication placed a citrate transport gene, silent until then, under the control of a promoter active in the presence of oxygen. The trait is thus not a new gene but an old gene, rewired to another switch.\n\n## The Shift\n\nThe experiment shows that a major innovation does not require a miraculous leap: it requires a sequence, in which each step makes the next one possible without making it inevitable. The same conditions, twelve times, give one story out of twelve. What we call chance in biology often resembles a checkout line, where only the first to clear the last obstacle gets through.",
+ "repere": {
+  "texte": "After 1988, none of the twelve lines used citrate for more than 30,000 generations; the Cit+ variant of the Ara-3 line seems to have appeared between 31,000 and 31,500 generations.",
+  "source": "Blount, Borland and Lenski, PNAS, 2008",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2430337"
+ },
+ "carte": {
+  "punch": "Twelve identical lines, 30,000 generations: only one ate the citrate.",
+  "idee": "Since 1988, twelve E. coli populations have been evolving side by side in Richard Lenski's laboratory. Only one acquired the ability to use citrate, after preparatory mutations: evolution keeps the trace of its own past.",
+  "source_courte": "Blount et al., PNAS, 2008; Nature, 2012"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What do the “replay” experiments from frozen samples of the Ara-3 line show?",
+  "choix": [
+   "That every line ends up using citrate if given enough time",
+   "That Cit+ emerges far more often from clones that had already accumulated preparatory mutations",
+   "That the Ara-3 line mutated faster than the other eleven across the whole genome",
+   "That the citrate was imported through contamination with another bacterium"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Late clones of the line give rise to Cit+ again far more often than early clones, which indicates dependence on history. The general mutation rate did not increase, and no contamination is involved.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did the 2012 genomic analysis establish about the origin of the Cit+ trait?",
+   "choix": [
+    "An entirely new gene appeared through a point mutation",
+    "An already present citrate transporter was placed, by duplication, under a promoter active in the presence of oxygen",
+    "The bacterium took up DNA from a virus in the culture medium",
+    "The trait results from the loss of a repressor gene of glucose metabolism"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The duplication rewired an existing transport gene to another promoter, which illustrates a change in regulation more than an invention of a gene."
+  },
+  {
+   "question": "Why did citrate represent an untapped resource in the experiment?",
+   "choix": [
+    "E. coli normally derives no carbon from it in the presence of oxygen",
+    "It is toxic to the ancestral strain at high doses",
+    "It is present only in traces in the medium",
+    "It is consumed first by E. coli, which quickly depletes the stock"
+   ],
+   "bonne_reponse": 0,
+   "explication": "E. coli cannot use citrate as a carbon source under aerobic conditions, whereas the medium contains far more of it than of glucose."
+  }
+ ]
+}

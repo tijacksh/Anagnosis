@@ -1,0 +1,77 @@
+{
+ "id": "chi-verre-vitraux-ne-coule-pas",
+ "slug": "verre-vitraux-ne-coule-pas",
+ "langue": "en",
+ "empreinte_fr": "d1521cf81dbef69b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The glass in stained-glass windows hasn't flowed in eight centuries",
+ "accroche": "Stained-glass windows are supposedly thicker at the bottom because glass flows. In 1998, a calculation gave a flow time far longer than the age of the Universe.",
+ "contenu_vulgarise": "In many cathedrals, they say, the glass in the stained-glass windows is thicker at the bottom than at the top. The explanation circulates in science classes: glass would be an extremely viscous liquid, it would flow, and eight centuries would have been enough to make the material sink. It's a good story. It's also false, and we can show it by calculation.\n\n## A calculation rather than an impression\n\nIn 1998, Edgar Zanotto, a Brazilian materials scientist, published an article in the *American Journal of Physics* titled “Do cathedral glasses flow?” In it he explains where his question came from: students and colleagues kept asking him whether the glass of 12th-century windows had flowed, and no one, he notes, knew where the claim came from. He had first assumed it was Brazilian; a colleague had heard it in Argentina, and a reviewer for the journal knew it to be widespread in the United States.\n\nThe principle of his method is simple. The time a glass takes to rearrange itself is proportional to its viscosity: the higher the viscosity, the slower the motion. Zanotto takes the viscosity curves calculated for modern glasses and for medieval glasses, including a yellow potassium glass from Tours Cathedral, and derives timescales from them.\n\nFirst result: to see appreciable flow in 800 years, this medieval glass would have to be heated to about 414 °C. At room temperature, his equation no longer applies, and he says so: another flow mechanism might come into play. So he proceeds by bounding. Germanium oxide, a glass with an equivalent transition temperature, behaves more simply, and its viscosity can be extrapolated down to room temperature. The characteristic time obtained is 10³² years, a floor value for window glass. The age of the Universe is about 10¹⁰ years.\n\nThe impurities in medieval glasses, iron and manganese, could lower the viscosity. Even dividing it by ten or by a hundred, Zanotto writes, the conclusion doesn't change. Glass vases thousands of years old, kept in museums, have moreover undergone no deformation at all.\n\n## So why thicker at the bottom?\n\nThe unevenness comes from manufacturing. Zanotto points out that old window glass was blown into cylinders, split open and flattened by hand: the pieces did not have uniform thickness, and some lower parts could be thicker than the upper ones. Other sources describe crown glass, a blown disk then spun, of uneven thickness, whose panes were often installed with the thick side down. The two explanations have one thing in common: the unevenness was born in the workshop, not with time.\n\nA more recent study combined glass-transition theory with measurements. In 2017, researchers at Corning, including Ozgur Gulbiten and John Mauro, calculated the flow of a glass from 1268 taken from Westminster Abbey: at most about one nanometer in a billion years.\n\n## The shift\n\nThat leaves the original question: is glass a liquid? Zanotto answers in an appendix, precisely. A liquid cooled below its freezing point without crystallizing is a supercooled liquid, whose viscosity keeps rising. Only below the glass transition temperature, at a viscosity of at least 10¹² to 10¹³ Pa·s, do we speak of glass in the strict sense.\n\nThe label “liquid” therefore settles nothing. What matters is duration: a material can flow in principle and never do so on the scale of human history. A story that explains what we see isn't true for that reason alone, and how many others have never been calculated?",
+ "repere": {
+  "texte": "Zanotto (1998) estimates the relaxation time of germanium oxide at room temperature to be 10³² years, a lower bound for window glass, against about 10¹⁰ years for the age of the Universe.",
+  "source": "Zanotto, “Do cathedral glasses flow?”, American Journal of Physics 66(5), 392-395, 1998",
+  "url": "https://osiris.df.unipi.it/~leporini/DFWebSite/ReviewsTg/CathedralGlasses.pdf"
+ },
+ "carte": {
+  "punch": "The glass in stained-glass windows hasn't flowed: the unevenness dates from the workshop.",
+  "idee": "Stained-glass windows are supposedly thicker at the bottom because glass flows. Edgar Zanotto's calculation (1998) gives, at room temperature, a flow time far greater than the age of the Universe. The uneven thickness comes from how the panels were made.",
+  "source_courte": "Zanotto, American Journal of Physics, 1998"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Physics FAQ — Is glass liquid or solid?",
+   "url": "https://math.ucr.edu/home/baez/physics/General/Glass/glass.html",
+   "note": "A reference page, kept up to date, on the question “is glass a liquid?”, with its references."
+  }
+ ],
+ "quiz": {
+  "question": "What explanation does Zanotto give, in 1998, for windows being thicker at the bottom?",
+  "choix": [
+   "Old glass, being more impure, flowed faster than modern glass",
+   "The pieces were not of uniform thickness from the moment they were made",
+   "Temperature differences deformed the panels through expansion",
+   "The weight of the lead stretched the glass downward over time"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Zanotto calculates that at room temperature glass does not flow on the scale of human history, even with impurities that lower its viscosity. Zanotto puts the thickness unevenness down to manufacturing: glass blown into a cylinder, split and flattened by hand.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What order of magnitude does Zanotto obtain for the relaxation time of germanium oxide at room temperature?",
+   "choix": [
+    "About 10³² years, far greater than the age of the Universe",
+    "About 800 years, the age of the windows studied",
+    "About 10¹⁰ years, roughly the age of the Universe",
+    "About 414 years, the time it would take for visible flow"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Zanotto calculates a characteristic time of 10³² years for germanium oxide at room temperature, a lower bound, against about 10¹⁰ years for the age of the Universe."
+  },
+  {
+   "question": "What does the 2017 study by Corning researchers on a glass from 1268 show?",
+   "choix": [
+    "That the glass deformed by several centimeters in seven centuries",
+    "That the maximum flow is only about one nanometer in a billion years",
+    "That medieval glass is actually an ordinary crystalline solid",
+    "That glass-transition theory does not apply to stained glass"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Gulbiten and Mauro calculate a maximum flow of about one nanometer in a billion years for this glass from Westminster Abbey, dated 1268."
+  },
+  {
+   "question": "According to the appendix of Zanotto's article, above what viscosity threshold do we speak of glass in the strict sense?",
+   "choix": [
+    "As soon as the viscosity exceeds that of water at room temperature",
+    "As soon as the temperature drops below 0 °C",
+    "From about 10¹² to 10¹³ pascal-seconds, below the glass transition temperature",
+    "From the moment the material stops being transparent"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Zanotto specifies that we speak of glass in the strict sense only below the glass transition, at a viscosity of at least 10¹²-10¹³ Pa·s."
+  }
+ ]
+}

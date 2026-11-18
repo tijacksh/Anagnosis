@@ -1,0 +1,66 @@
+{
+ "id": "ast-eclipse-1919-plaques-ecartees",
+ "slug": "eclipse-1919-plaques-ecartees",
+ "langue": "en",
+ "empreinte_fr": "0e7ecea978863efd",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "1919: Eddington’s discarded plates appear in the report",
+ "accroche": "They say Eddington threw out the plates that contradicted Einstein. The 1920 report prints the discarded value, and the reason for discarding it.",
+ "contenu_vulgarise": "On May 29, 1919, the Moon hides the Sun for a few minutes at two points on the equator: the island of Principe, off the coast of Africa, where Arthur Eddington is stationed, and the town of Sobral, in northern Brazil, where Andrew Crommelin and Charles Davidson are stationed. The question is whether the light of stars near the Sun is deflected, and by how much. Einstein’s general relativity predicts 1.75 arcseconds at the Sun’s edge, double the “Newtonian” value.\n\nThe story that gets repeated goes like this. Eddington, convinced in advance, supposedly discarded the plates that contradicted Einstein so as to keep only those that suited him. This version became famous, even among scientists. It deserves a closer look.\n\n## Three instruments, three values\n\nThe Sobral expedition carries two instruments: the Greenwich observatory’s astrograph and a small four-inch telescope. At Principe, clouds hamper the photography. The official report, signed by Dyson, Eddington, and Davidson in 1920, gives three results: about 1.98 arcseconds with the Sobral telescope, 1.61 at Principe, 0.93 with the Sobral astrograph. The last comes closer to the Newtonian figure. It was discarded.\n\n## Why discard, and what was printed\n\nThe reason given has to do with the instrument. During the eclipse, the astrograph’s focus changed: the report attributes this to the Sun’s heat on the mirror, without being able to say whether the scale of the plates was altered or the images are merely blurred. The Greenwich astronomers, moreover, measure these plates in only one direction: Kennefick sees in this proof that they judged the data poor, whereas a former head of astrometry at Greenwich, Andrew Murray, also sees in it a calculation shortcut common at the time.\n\nAbove all, the report prints the discarded value. It even gives a variant: by fixing the scale from refraction and aberration, these same plates give 1.52 arcseconds, much closer to the other two. Nothing was concealed.\n\nThe historian Daniel Kennefick, who has gone back over the file, concludes that there is no reason to believe in personal bias. He notes that Dyson, one of the expedition’s organizers, was not won over to relativity.\n\n## The shift\n\nThe useful question is not whether data were discarded; all experimenters do it. It is whether the reason for discarding them holds up independently of the expected result, and whether it is written down. Here it is, in the report itself.\n\nThe 1919 measurements are, incidentally, not very precise. The precise confirmation of Einstein’s value came later, with radio measurements of quasars occulted by the Sun, which no longer need an eclipse.\n\nA famous experiment can thus be both somewhat less clear-cut than is said, and far more honest than is suspected.",
+ "repere": {
+  "texte": "For the Sobral astrograph, the 1920 report prints a deflection of 0.93 arcseconds at the Sun’s edge, then a second value, 1.52, obtained by fixing the scale from refraction and aberration. The other two instruments give 1.61 (Principe) and 1.98 (Sobral telescope).",
+  "source": "Kennefick, “Not Only Because of Theory” (2007), citing Dyson, Eddington, and Davidson (1920), p. 312",
+  "url": "https://arxiv.org/abs/0709.0685"
+ },
+ "carte": {
+  "punch": "They say Eddington hid the inconvenient plates of 1919. The report prints them, with their value.",
+  "idee": "At Sobral, the astrograph gives 0.93 arcseconds, against 1.98 and 1.61 for the other two instruments. Its plates are discarded for a focus defect. The 1920 report nevertheless publishes its value, and even a variant of 1.52.",
+  "source_courte": "Kennefick, arXiv 2007"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Kennefick — Not Only Because of Theory",
+   "url": "https://arxiv.org/abs/0709.0685",
+   "note": "In English, open access; the historical examination of the 1919 file."
+  }
+ ],
+ "quiz": {
+  "question": "Why were the Sobral astrograph plates discarded?",
+  "choix": [
+   "Because heat had thrown off the focus during the eclipse",
+   "Because they gave a result contrary to Einstein’s theory",
+   "Because clouds had made them unusable at Principe",
+   "Because the expedition had lost some of its plates on the return trip"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The report attributes the change in focus to the Sun’s heat on the mirror. The result is not the reason given, the clouds concern Principe, and nothing indicates lost plates.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the 1920 report do with the value of 0.93 arcseconds?",
+   "choix": [
+    "It omits it, like that of the discarded plates",
+    "It replaces it with Einstein’s value alone",
+    "It prints it, with a variant of 1.52",
+    "It attributes it to the Principe instrument"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The report prints the 0.93 and indicates the variant of 1.52 obtained with a different scale. The discarded value was thus neither omitted nor confused with that of Principe."
+  },
+  {
+   "question": "What deflection value does Einstein predict at the Sun’s edge?",
+   "choix": [
+    "About half the Newtonian value",
+    "1.75 arcseconds, double the Newtonian value",
+    "Triple the Newtonian value",
+    "None, light is not deflected"
+   ],
+   "bonne_reponse": 1,
+   "explication": "General relativity predicts 1.75 arcseconds, double the Newtonian value: this is what made it possible to tell the two theories apart. The deflection is not zero."
+  }
+ ]
+}

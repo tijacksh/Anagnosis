@@ -1,0 +1,67 @@
+{
+ "id": "inf-knuth-1974-optimisation-prematuree-phrase-coupee",
+ "slug": "knuth-1974-optimisation-prematuree-phrase-coupee",
+ "langue": "en",
+ "empreinte_fr": "fc493d8bc06fc377",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "“Premature Optimization”: Knuth's Sentence Is Cut in Half",
+ "accroche": "“Premature optimization is the root of all evil”: Knuth wrote it in 1974, then immediately added that we should not neglect 3% of the code.",
+ "contenu_vulgarise": "In a code review, someone rejects a speed improvement by quoting Donald Knuth: “premature optimization is the root of all evil.” The phrase serves as a license to leave things alone. Yet it comes from a December 1974 paper, “Structured Programming with go to Statements,” published in the journal Computing Surveys. And the section it is taken from is precisely about how to make a program faster.\n\n## What the paper demonstrates\n\nKnuth takes a search for a value in an array. By placing the sought value as a sentinel just after the last cell, he avoids testing for the end of the array on every pass through the loop. In his count, assuming the program is written in assembly language, the loop goes from 6n + 10 memory accesses to 4n + 14: about 33% less execution time.\n\nHe pushes further. A “doubled” loop, which handles two elements per pass, gains only about 12%, at the cost of a few go to statements. Knuth writes that many people would consider this gain insignificant, but that in established engineering disciplines, 12% easily obtained is never considered marginal. The paper thus defends optimization, not its abandonment.\n\n## The whole sentence\n\nThe famous passage comes afterward. Knuth observes that most of a program's execution time, apart from waiting on input and output, is concentrated in about 3% of the source text. He then writes: “We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.” The second sentence is the one that quotations abbreviate away.\n\nThe decisive word is “premature.” Knuth specifies that one should look at the critical code only after it has been identified, and that it is often a mistake to guess in advance which parts matter: the experience of programmers equipped with measurement tools is that their intuitions fail. He goes so far as to ask that every future compiler automatically provide this feedback, indicating which parts of the program cost the most.\n\n## What this shifts\n\nThe maxim therefore does not say “don't optimize.” It says: don't guess, measure, then concentrate the effort where the program spends its time. The same text allows a 12% gain on a hot loop and forbids weeks spent polishing code that never runs for long.\n\nThe truncated sentence mostly serves to end a discussion. The full sentence opens one: where, in this particular program, are the 3% that matter, and have we measured it?",
+ "citation": {
+  "texte": "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.",
+  "auteur": "Donald E. Knuth",
+  "source": "“Structured Programming with go to Statements,” Computing Surveys, vol. 6, no. 4, December 1974, section “Efficiency”",
+  "url": "https://dl.acm.org/doi/10.1145/356635.356640"
+ },
+ "carte": {
+  "punch": "Knuth's sentence about premature optimization has a second half that no one ever quotes.",
+  "idee": "In 1974, Knuth writes that we should set small optimizations aside 97% of the time, then not miss the critical 3%, after identifying it by measurement. The same paper defends a 12% gain on a loop.",
+  "source_courte": "Knuth, Computing Surveys, 1974"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Crossref: record for Knuth's paper (1974)",
+   "url": "https://api.crossref.org/works/10.1145/356635.356640",
+   "note": "Bibliographic metadata (journal, volume, issue, pages)."
+  }
+ ],
+ "quiz": {
+  "question": "What does Knuth's full sentence ask for, in 1974?",
+  "choix": [
+   "Never optimize, since readability should always come before speed",
+   "Optimize all the code first, then measure what was gained",
+   "Identify the critical 3% by measurement, and polish only that",
+   "Let the compiler optimize on its own, without ever intervening by hand"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Knuth sets aside small optimizations in 97% of cases, but wants us to seize the opportunities in the critical code, once measurement has identified it. He does not say never to optimize, nor to optimize everything in advance, nor to leave it all to the compiler.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In Knuth's sentinel search example, by how much does the number of memory accesses drop?",
+   "choix": [
+    "From 6n+10 to 4n+14 accesses, or about 33% less execution time",
+    "From 4n+14 to 6n+10 accesses, or a slowdown of about 33%",
+    "By exactly half, whatever the size n of the array",
+    "By about 12%, the same gain as for the doubled loop"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Knuth calculates that replacing the end-of-array test with a sentinel value takes the loop from 6n+10 to 4n+14 memory accesses in assembly language, a gain of about 33%, well above the 12% of the doubled loop."
+  },
+  {
+   "question": "What does Knuth ask of future compilers, in this same paper?",
+   "choix": [
+    "To refuse to compile a program that contains go to statements",
+    "To automatically provide feedback indicating which parts of the program cost the most",
+    "To systematically replace loops with doubled versions, twice as fast",
+    "To limit to 3% the share of the code allowed to be optimized"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Knuth writes that every future compiler should automatically indicate which parts of the program cost the most, so as to avoid guessing in advance where the critical 3% of the code lies."
+  }
+ ]
+}

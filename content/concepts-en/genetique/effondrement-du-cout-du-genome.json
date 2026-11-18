@@ -1,0 +1,77 @@
+{
+ "id": "gen-effondrement-du-cout-du-genome",
+ "slug": "effondrement-du-cout-du-genome",
+ "langue": "en",
+ "empreinte_fr": "54ee3c704042ddcf",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Price of a Genome Fell Faster Than Moore's Law",
+ "accroche": "In 2001, reading a human genome cost $95 million. In 2022, about $525",
+ "contenu_vulgarise": "In 2001, the Human Genome Project publishes a first draft of the human genome sequence, covering about 90% of its content after roughly ten years of work. Two years later, in 2003, the consortium announces the complete sequence, after thirteen years of work in all and at a final cost of about $2.7 billion, under the initial budget of $3 billion. Already in 2001, however, sequencing one additional human genome at centers funded by the National Institutes of Health still cost nearly $95 million.\n\nTwo decades later, in 2022, the same operation costs about $525. The price of a round-trip train ticket, to read 3 billion letters.\n\n## A curve that isn't a curve\n\nThe National Human Genome Research Institute (NHGRI) has tracked this cost since 2001, item by item, at the sequencing centers it funds. In the early years, the decline follows roughly the pace you would expect of an electronic technology: something comparable to Moore's law, the empirical observation that the density of transistors that can be etched onto a chip (and therefore, roughly, the computing power available for a given price) doubles about every two years.\n\nThen, starting in January 2008, the curve breaks away. The NHGRI itself describes this moment as a sudden and profound overtaking of Moore's law. This is not a continuous improvement of the existing method. It is a change of method.\n\nSo-called “Sanger” sequencing, used since the 1970s and then industrialized for the Human Genome Project, reads DNA fragment by fragment, one strand after another, each read requiring its own chemical reaction. The next-generation instruments that arrived around 2007 read millions of fragments in parallel and let computing reconstruct the complete sequence afterward. The bottleneck is no longer the number of reads a machine can chain one after another, but how many can be multiplied simultaneously, a shift of scale rather than a refinement.\n\n## What Moore's law doesn't predict\n\nMoore's law describes a steady improvement, driven by the miniaturization of a single transistor architecture. In everyday language, it has become a general metaphor for “technology gets cheaper over time.” We therefore expect all technical progress to resemble it: gradual and predictable.\n\nGenome sequencing shows that a methodological break can do much better than continuous optimization, and do so in a few months rather than several years. It is this break, more than the price drop alone, that made possible the sequencing of entire populations, consumer genetic tests, and the use of the genome as a routine diagnostic tool.\n\nStill, reading a genome was never the whole operation: storing it, annotating it, and interpreting its variants costs more today, for a given patient, than the reading itself.",
+ "repere": {
+  "texte": "Between 2001 and 2022, the cost of sequencing a complete human genome at NHGRI-funded centers went from about $95 million to about $525. The NHGRI places the break from Moore's law starting in January 2008, with the arrival of massively parallel sequencing.",
+  "source": "National Human Genome Research Institute (NHGRI), “DNA Sequencing Costs: Data”",
+  "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+ },
+ "carte": {
+  "punch": "NIH centers: a genome cost $95 million in 2001, about $525 in 2022.",
+  "idee": "At NHGRI-funded centers, sequencing a human genome went from about $95 million in 2001 to about $525 in 2022. Not a continuous improvement in the Moore's law style: from 2008, reading millions of fragments in parallel makes the curve break away.",
+  "source_courte": "NHGRI, DNA Sequencing Costs Data"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Our World in Data — Cost of sequencing a full human genome",
+   "url": "https://ourworldindata.org/grapher/cost-of-sequencing-a-full-human-genome",
+   "note": "Interactive chart of the same NHGRI data series, year by year."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the sequencing cost curve break sharply from Moore's law starting in 2008?",
+  "choix": [
+   "Because governments massively subsidized genomic research that year",
+   "Because a new generation of instruments made it possible to read millions of DNA fragments in parallel, replacing a fragment-by-fragment method",
+   "Because the human genome was fully sequenced once and for all in 2003, making later sequencing faster",
+   "Because the price of computers itself fell in this period, reducing the associated computing cost"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The change is not a gradual improvement of existing machines, as Moore's law predicts for transistors. It is a leap in method, from fragment-by-fragment sequencing to massively parallel reading. The other answers mix real facts (funding, the 2003 reference sequence, falling computer prices) without accounting for the specific break seen in the NHGRI data.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which 2003 event marks the completion of the Human Genome Project, thirteen years after its launch?",
+   "choix": [
+    "The announcement of the complete genome sequence, for about $2.7 billion",
+    "The publication of the first draft covering about 90% of the genome",
+    "The filing of the first patent on a human gene sequence",
+    "The launch of massively parallel sequencing by the NIH"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In 2003, the consortium announces the complete sequence after thirteen years of work, at a final cost of about $2.7 billion, under the initial budget of $3 billion."
+  },
+  {
+   "question": "What does the massively parallel sequencing that appeared around 2007 replace, compared with the Sanger method?",
+   "choix": [
+    "Chemical sequencing, replaced by remote optical reading methods",
+    "The use of human DNA, replaced by synthetic DNA reconstituted in the lab",
+    "Data storage on magnetic tape, replaced by online storage",
+    "Fragment-by-fragment reading, replaced by simultaneous reading of millions of fragments"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The Sanger method read DNA fragment by fragment, each read requiring its own chemical reaction, whereas next-generation sequencing reads millions of fragments in parallel."
+  },
+  {
+   "question": "What costs more today, for a given patient, than merely reading their genome?",
+   "choix": [
+    "Transporting biological samples to the analysis laboratories",
+    "Training medical staff to read the results",
+    "Storing, annotating, and interpreting genetic variants",
+    "Buying and maintaining next-generation sequencers"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Reading a genome was never the whole operation: storing it, annotating it, and interpreting its variants costs more today, for a given patient, than the reading itself."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "ast-declassement-de-pluton",
+ "slug": "declassement-de-pluton",
+ "langue": "en",
+ "empreinte_fr": "ad71ceed3129e878",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "texte-officiel-a-verifier",
+   "note": "Résolution 5A de l'UAI (24 août 2006), formule « nettoyé le voisinage de son orbite » traduite depuis le français"
+  }
+ ],
+ "titre": "Pluto hasn’t changed. The definition has",
+ "accroche": "In 2006, the International Astronomical Union defines the word “planet.” Pluto ends up outside",
+ "contenu_vulgarise": "Until 2006, the word “planet” had no official definition. It meant whatever usage made of it, and usage was enough as long as the list stayed short.\n\nWhat forced a definition was not Pluto. It was its neighbors.\n\n## The problem came from elsewhere\n\nStarting in the 1990s, telescopes begin to find, beyond Neptune, a population of icy objects. The Kuiper belt fills up fast: hundreds of bodies, then thousands.\n\nIn 2005, one of them, Eris, is measured as at least as large as Pluto. Its mass, established two years later thanks to the orbit of its moon, will even prove greater.\n\nThe question becomes impossible to sidestep. If Pluto is a planet, Eris is one. And behind Eris there will be others, perhaps dozens. Or else a line is drawn, and one has to say which.\n\n## The three criteria\n\nThe General Assembly of the International Astronomical Union rules in August 2006. A planet is a body that, first, orbits the Sun; second, has enough mass for its own gravity to have made it roughly spherical; and third, has *cleared the neighborhood of its orbit*.\n\nThe first two criteria are old and uncontroversial. The third is new, and it does all the work.\n\nIt means that a body must gravitationally dominate its zone: it must have captured, ejected, or subjugated the objects that share its orbit. Earth has done so. Neptune has done so, except that it trapped Pluto in a resonance rather than eliminating it.\n\nPluto, for its part, travels amid a population it does not dominate. It fails on this third point, and becomes a *dwarf planet*, a category created in the same stroke.\n\n## What the controversy really involves\n\nThe vote was contested, including by Pluto specialists. Two objections deserve to be kept in mind.\n\nThe clearing criterion is not an intrinsic property: it depends on how crowded the zone is. The same body would be a planet near the Sun and not one farther out, where orbits are longer and clearing is slower. The definition thus classifies a context as much as an object.\n\nAnd as written, it says nothing about bodies orbiting other stars, even though thousands of them are known.\n\nNeither of these objections makes the definition useless. They merely remind us what a definition is: a tool for classifying, revisable, judged by what it lets us do.\n\nPluto lost nothing in 2006. It has exactly the same mass, the same orbit, and the same moons as before. What changed is the box, and the box doesn’t belong to the sky.",
+ "repere": {
+  "texte": "IAU Resolution 5A, adopted on August 24, 2006, requires a planet to have “cleared the neighborhood of its orbit.” A dwarf planet meets all the other criteria, but not that one.",
+  "source": "International Astronomical Union, “Result of the IAU Resolution votes,” August 24, 2006",
+  "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/"
+ },
+ "carte": {
+  "punch": "Pluto has the same mass and the same orbit as before 2006. What changed is the box.",
+  "idee": "Pluto was not the problem. Its neighbors were: the Kuiper belt was filling up, and Eris turned out to be as large as it. A line had to be drawn. The IAU chose the clearing of the orbit.",
+  "source_courte": "IAU, Resolution 5A, 2006"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "IAU — Resolutions of the 2006 General Assembly",
+   "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+   "note": "In English; the text runs only a few lines and can be read in full."
+  }
+ ],
+ "quiz": {
+  "question": "On which criterion does Pluto fail?",
+  "choix": [
+   "It is not massive enough to have taken a spherical shape",
+   "It has not cleared the neighborhood of its orbit, which it does not dominate",
+   "Its orbit is too inclined relative to the plane of the other planets",
+   "It has moons comparable in size to itself"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Pluto meets the first two criteria: it orbits the Sun and its gravity has made it spherical. It is the third, added in 2006, that places it among the dwarf planets. It travels amid a Kuiper belt population that it has neither captured nor ejected. Inclination and moons are not part of the definition.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Neptune do, unlike Earth, with Pluto, the object that shares its orbital neighborhood?",
+   "choix": [
+    "It trapped it in an orbital resonance rather than eliminating it",
+    "It ejected it entirely from the solar system",
+    "It absorbed it by collision several billion years ago",
+    "It shares exactly the same orbit with it"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Neptune, like Earth, has gravitationally dominated its zone, but it did so by trapping Pluto in an orbital resonance rather than eliminating or ejecting it, which is enough to meet the third criterion."
+  },
+  {
+   "question": "What is the main objection raised against the 2006 definition, concerning the orbit-clearing criterion?",
+   "choix": [
+    "It applies in the same way regardless of distance from the Sun",
+    "It depends on how crowded the zone is, and so classifies a context as much as an object",
+    "It concerns only objects located beyond Neptune",
+    "It was added without a vote of the IAU General Assembly"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The clearing criterion is not an intrinsic property of the object: the same body would be a planet near the Sun and not one farther out, where orbits are longer and clearing is slower, so the definition classifies a context as much as an object."
+  },
+  {
+   "question": "What made a definition of the word “planet” necessary in 2006?",
+   "choix": [
+    "The loss of one of Pluto’s moons, detected by a space telescope",
+    "A change in Pluto’s own orbital trajectory",
+    "NASA’s designation of Pluto as an asteroid in 2004",
+    "The discovery of Kuiper belt objects as large as Pluto, such as Eris"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The problem came from Pluto’s neighbors: starting in the 1990s the Kuiper belt filled up quickly, and in 2005 Eris was measured as at least as large as Pluto, making a limit necessary."
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "ggr-eratosthene-circonference-terre",
+ "slug": "eratosthene-circonference-terre",
+ "langue": "en",
+ "empreinte_fr": "2a660a900ed5ebb7",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Eratosthenes and the Earth Measured by the Shadow in a Well",
+ "accroche": "Around 240 BCE, a librarian in Alexandria calculates the circumference of the Earth without leaving it, using two shadows.",
+ "contenu_vulgarise": "Around 240 BCE, the head librarian of Alexandria learns that at Syene (present-day Aswan), on the day of the summer solstice, the midday Sun lights the bottom of a well without casting the slightest shadow in it: it is then exactly vertical. Eratosthenes has no need to go there to draw from this a measurement of the whole Earth.\n\n## The Mechanism\n\nOn the same day, at the same hour, in Alexandria, the sunlight does not fall vertically: it forms, with a stake planted straight in the ground, an angle of about 7.2°, one fiftieth of a full circle (360° ÷ 7.2° = 50). If the two cities were at the same point on the globe, the shadow would be identical in both places; the difference therefore measures, very precisely, the portion of the Earth's curvature separating Syene from Alexandria. What remains is to know the distance between the two cities: it is estimated at 5,000 stadia, a value obtained by bematists, professional surveyors whose job was to measure distances by counted paces. The reasoning then closes with a simple proportion: if 5,000 stadia represent one fiftieth of the Earth's circumference, then the circumference is 5,000 × 50, or 250,000 stadia.\n\n## The Shift\n\nThe story usually stops there, with a flattering conclusion: Eratosthenes supposedly calculated the Earth to within 1%. That figure is too precise to be honest. The Greek stadion is not a fixed unit: depending on the city and the period, it is between roughly 150 and 185 meters, and no one knows for certain which one Eratosthenes used, since his own treatise, *On the Measurement of the Earth*, has not come down to us; what we know of it comes from a later summary by the astronomer Cleomedes. Depending on the assumption made about the length of the stadion, the gap between Eratosthenes's result and the true circumference ranges from 0.5% to 17%: a range that runs from an uncanny coincidence to a very rough approximation, with no way to decide which is the right one.\n\nEven the number “250,000 stadia” is not safe from doubt: some ancient sources report 252,000 instead, a figure more convenient because it is divisible by 360, without our knowing whether it is a later rounding or a transmission error. What history truly retains is therefore not a precision that cannot be verified two thousand years later, but a method: measuring the entire Earth from two shadows and a distance covered on foot, without ever leaving Egypt.",
+ "repere": {
+  "texte": "Eratosthenes calculates the Earth's circumference at 250,000 stadia. Depending on the length of the Greek stadion adopted by historians (between roughly 150 and 185 m, uncertain), the gap from the true value varies from 0.5% to 17%.",
+  "source": "Encyclopaedia Britannica, “Eratosthenes”",
+  "url": "https://www.britannica.com/biography/Eratosthenes"
+ },
+ "carte": {
+  "punch": "Eratosthenes measured the Earth without leaving it. But not “to within 1%.”",
+  "idee": "Around 240 BCE, Eratosthenes compares the angle of the Sun at Syene and at Alexandria to calculate the Earth's circumference: 250,000 stadia. The popular account often says he hit the mark to within 1%: an unverifiable figure, since the exact length of the Greek stadion he used remains unknown.",
+  "source_courte": "Britannica, “Eratosthenes”"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why can't we say with certainty that Eratosthenes measured the Earth's circumference “to within 1%”?",
+  "choix": [
+   "Because his instruments for measuring the Sun's angle were too rudimentary to give a usable result",
+   "Because the exact length of the Greek stadion he used is unknown, which makes the calculated error vary between 0.5% and 17% depending on the assumption adopted",
+   "Because the distance between Syene and Alexandria was never measured and remains purely theoretical",
+   "Because the Earth's sphericity was not yet accepted at that time, making the calculation incoherent"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Eratosthenes's method (the Sun's angle, the distance between two cities) is sound and well documented. What is missing is the exact value of the unit he used, the Greek stadion, whose length varied from one ancient city to another, hence an error range that runs from near-exactness to a rough approximation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What observation does Eratosthenes's method rest on?",
+   "choix": [
+    "The regular passage of a solar eclipse visible from both Syene and Alexandria",
+    "The difference in temperature between the waters of the Nile at Syene and those of the delta at Alexandria",
+    "At Syene, the midday Sun casts no shadow at the summer solstice, whereas it forms an angle at Alexandria",
+    "The length of the day, measured with a water clock, which differed between the two cities at the same moment"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The method starts from two observations of the Sun on the same day: at Syene there is no shadow, at Alexandria the measured angle is about 7.2 degrees."
+  },
+  {
+   "question": "Who measured the 5,000-stadia distance between Syene and Alexandria, used by Eratosthenes in his calculation?",
+   "choix": [
+    "Greek astronomers who had calculated this distance from lunar eclipses",
+    "Eratosthenes himself, on a single trip between the two cities",
+    "Egyptian merchants who carried goods between the two cities along the Nile",
+    "Bematists, professional surveyors who measured distances by counted paces"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Bematists were professional surveyors trained to measure distances by counted paces; their estimate gives the 5,000 stadia in the calculation."
+  },
+  {
+   "question": "What do we know about Eratosthenes's original treatise, *On the Measurement of the Earth*?",
+   "choix": [
+    "It was found intact in the library of Alexandria and digitized in the 20th century",
+    "It has not come down to us; what we know of it comes from a later summary by the astronomer Cleomedes",
+    "It never existed: Eratosthenes passed on his method solely by word of mouth",
+    "It was translated into Latin in antiquity, which made it possible to fix the text definitively"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Eratosthenes's original treatise is lost; the account of the calculation comes from a summary handed down by the astronomer Cleomedes, several centuries later."
+  }
+ ]
+}

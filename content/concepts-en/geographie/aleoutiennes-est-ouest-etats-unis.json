@@ -1,0 +1,71 @@
+{
+ "id": "ggr-aleoutiennes-est-ouest-etats-unis",
+ "slug": "aleoutiennes-est-ouest-etats-unis",
+ "langue": "en",
+ "empreinte_fr": "790c568f654a91e4",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Citation de la NASA (NASA Earth Observatory) donnée en français ; original probablement anglais, retraduit depuis le français."
+  },
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "Citation de la NASA (NASA Earth Observatory) donnée en français ; original probablement anglais, retraduit depuis le français."
+  }
+ ],
+ "titre": "The Archipelago Where America Lies Both East and West",
+ "accroche": "The easternmost point of the United States is not in Maine: it is in Alaska, a few dozen kilometers from its westernmost point.",
+ "contenu_vulgarise": "The easternmost point of American territory is not in Maine, contrary to the intuition of a country that reads left to right on a map. It is in Alaska, in the Aleutian Islands, the very same archipelago that holds the westernmost point.\n\n## The Mechanism\n\nLongitude is counted from the Greenwich meridian, from 0° to 180° eastward and from 0° to 180° westward; the two scales meet on the exact opposite side of the globe, at the 180th meridian, close to the International Date Line. A point just west of that line has a longitude close to 180° west; a point just east of it has a longitude close to 180° east: two values numerically very far apart on the scale, for positions that can lie a few dozen kilometers from each other.\n\nThe Aleutian Islands, which extend Alaska far out into the North Pacific, stretch far enough west to cross that line. Amatignak, an island in the Delarof group, lies at 179°08'55\" west: by longitude, it is the westernmost point of the United States, and incidentally the southernmost point of Alaska. A little farther along the archipelago, Pochnoi Point, on Semisopochnoi Island, lies at 179°46'23\" east, only 15.6 km west of the 180th meridian. By the sheer mechanics of the longitude system, this point becomes the easternmost point of the entire American territory.\n\n## The Shift\n\nNASA, on the page it devotes to the volcanic island of Semisopochnoi, sums it up in one sentence: the island would be “both the easternmost and the westernmost point in the United States.” The line is more seductive than rigorous: the western record belongs precisely to Amatignak, a separate island, and not to Semisopochnoi itself, and the official inventory of the country's extreme points distinguishes between the two. Even a source as serious as a space observatory simplifies, in the telling, a fact that is not false but loses a little of its precision when boiled down to a single sentence.\n\nWhat the map teaches, by implication, is that east and west are not intrinsic properties of a place: they are coordinates, and a coordinate can change sign without the place moving a meter. The same archipelago, without having budged, thus holds both ends of a country that on ordinary maps stretches between the Atlantic and the Pacific.",
+ "repere": {
+  "texte": "Pochnoi Point, on Semisopochnoi Island, lies at 179°46'23\" east: only 15.6 km west of the 180th meridian. NASA describes the island as “both the easternmost and the westernmost point in the United States.”",
+  "source": "NASA Earth Observatory, “Semisopochnoi Island, Alaska”",
+  "url": "https://science.nasa.gov/earth/earth-observatory/semisopochnoi-island-alaska-48154/"
+ },
+ "carte": {
+  "punch": "By longitude, the eastern and western extremes of the United States are both... in Alaska.",
+  "idee": "The Aleutian Islands cross the 180th meridian, the line where longitude changes sign. By longitude, Amatignak, at 179°08'55\" west, is the westernmost point of the United States; Pochnoi Point, on Semisopochnoi, 15.6 km west of the line, is its easternmost.",
+  "source_courte": "NASA Earth Observatory"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why are the easternmost and westernmost points of the United States both in the Aleutian Islands?",
+  "choix": [
+   "Because Alaska has kept, since its purchase from Russia in 1867, a longitude system distinct from the rest of the country",
+   "Because a 19th-century topographic survey mistakenly placed some islands on the other side of the map",
+   "Because the archipelago extends far enough west to cross the 180th meridian, where longitude switches from west values to east values",
+   "Because the United States redefined its official method of calculating longitude in the 20th century"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Nothing has moved and no convention has changed: the Aleutian Islands are simply long enough to cross the 180th meridian, the point where the longitude scale switches from west to east. Islands very close to one another thus end up classified at opposite ends of the scale.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which island point does the card identify as the westernmost point of the United States by longitude?",
+   "choix": [
+    "Amatignak Island, in the Delarof group",
+    "Pochnoi Point, on Semisopochnoi Island",
+    "A point in Maine",
+    "A point on the island of Borneo"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The card places Amatignak, in the Delarof group, at 179°08'55\" west: it is the westernmost point of the United States, distinct from Pochnoi Point, which holds the eastern record."
+  },
+  {
+   "question": "How far from the 180th meridian does Pochnoi Point, on Semisopochnoi Island, lie?",
+   "choix": [
+    "179 kilometers to the east",
+    "15.6 kilometers to the west",
+    "Exactly on the meridian, at 0 kilometers",
+    "More than 2,000 kilometers to the west"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The card specifies that Pochnoi Point lies at 179°46'23\" east, only 15.6 kilometers west of the 180th meridian, which makes it the easternmost point of the United States."
+  }
+ ]
+}

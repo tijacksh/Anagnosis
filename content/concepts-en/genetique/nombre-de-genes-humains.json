@@ -1,0 +1,83 @@
+{
+ "id": "gen-nombre-de-genes-humains",
+ "slug": "nombre-de-genes-humains",
+ "langue": "en",
+ "empreinte_fr": "75303151fc52789b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "carte/source_courte",
+   "type": "incertain",
+   "note": "Source courte « Agence de la biomédecine » ne correspond pas à repere/source (GeneSweep, Ensembl) ; traduit tel quel, incohérence à vérifier dans la source."
+  }
+ ],
+ "titre": "We have about as many genes as a worm",
+ "accroche": "People bet on 100,000 human genes. Sequencing found about 20,000, and the surprise says a lot",
+ "contenu_vulgarise": "In the late 1990s, the sequencing of the human genome nears completion, and one question occupies conferences: how many genes will we find?\n\nThe common estimate hovered around a hundred thousand. The reasoning was intuitive: a complex organism requires many instructions, and a human being is more complex than a fly or a worm.\n\nTwo researchers open a bet in 2000, held at annual meetings. Hundreds of wagers are recorded. The average of the first ones is around sixty thousand.\n\n## The result\n\nThe international consortium announces in 2001 a much lower figure, around thirty thousand. Later revisions bring it down further: today the accepted number is about twenty thousand protein-coding genes.\n\nThat is the same order of magnitude as the worm *Caenorhabditis elegans*, a thousand cells, one millimeter long. Some plants have more.\n\nNo one had bet that low.\n\n## Why intuition was wrong\n\nThe error came from an implicit equivalence: one gene, one protein, one function.\n\nIt is false at several levels.\n\nA single gene produces several proteins. Its sequence is cut and spliced back together in different ways depending on tissues and circumstances, alternative splicing, so that twenty thousand genes yield a much broader repertoire of proteins.\n\nThese proteins do not work alone. What makes an organism is a network of regulations: which gene is expressed, in which cell, at what moment, under the control of what. Complexity lies in the wiring, not in the number of components.\n\nA considerable part of the genome, moreover, codes for no protein, and is not inert for all that: it contains sequences that regulate the expression of the others.\n\n## What the surprise shifted\n\nThe figure did more for biology than many positive results, because it closed a path.\n\nThe hope was that, by obtaining the list of genes, we would hold the key to the organism, a catalog to annotate, one function per line. Twenty thousand lines for a human being make that program untenable: the catalog does not say what is going on.\n\nBiology reoriented accordingly toward the study of regulation and networks, that is, toward what connects the elements rather than toward the elements.\n\nAnd a significant share of these twenty thousand genes remains, even today, very little studied, as research keeps concentrating on those already known.",
+ "repere": {
+  "texte": "The bet opened in 2000 collected hundreds of wagers, whose average was close to 60,000 genes. The human genome contains about 20,000 protein-coding genes, the order of magnitude of a worm one millimeter long.",
+  "source": "GeneSweep, the bet opened by Ewan Birney and David Stewart, Ensembl",
+  "url": "https://web.archive.org/web/20001017192401/http://www.ensembl.org:80/genesweep.html"
+ },
+ "carte": {
+  "punch": "We have about as many genes as a worm one millimeter long.",
+  "idee": "100,000 human genes were expected; there are about 20,000. The error came from a false equivalence, one gene, one protein, one function. Complexity lies in the wiring, not in the number of parts.",
+  "source_courte": "French Biomedicine Agency"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Universalis — *Environ 21 000 gènes dans le génome humain* (About 21,000 Genes in the Human Genome)",
+   "url": "https://www.universalis.fr/encyclopedie/genome-humain/4-environ-21-000-genes-dans-le-genome-humain/",
+   "note": "In French; revisits the successive revisions of the estimates."
+  }
+ ],
+ "quiz": {
+  "question": "Why was the estimate of 100,000 genes too high?",
+  "choix": [
+   "Because the sequencing techniques of the time missed part of the genome",
+   "Because it was wrongly believed that one gene corresponds to one protein and one function",
+   "Because the estimates also covered non-coding sequences",
+   "Because the first sequencing projects covered only a few individuals"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A single gene produces several proteins depending on how its sequence is cut and spliced back together, and what makes an organism lies in the network of regulations rather than in the number of components. The intuition of a “one line, one function” catalog is what led to the overestimate, not a technical limitation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What order of magnitude for the number of human genes is accepted today, compared with that of a non-human organism cited in the entry?",
+   "choix": [
+    "About fifty thousand genes, twice those of the fruit fly Drosophila",
+    "About a hundred thousand genes, in line with the 1990s estimate",
+    "About ten thousand genes, fewer than most insects",
+    "About twenty thousand genes, the same order of magnitude as the worm Caenorhabditis elegans"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The current count, about twenty thousand protein-coding genes, is of the same order of magnitude as that of the worm Caenorhabditis elegans, an organism one millimeter long with a thousand cells."
+  },
+  {
+   "question": "What does alternative splicing allow, according to the entry, which partly explains the initial underestimate of genetic complexity?",
+   "choix": [
+    "A single gene to produce several different proteins depending on tissues and circumstances",
+    "Two distinct genes to merge into one during cell division",
+    "A gene to be duplicated identically in every generation to strengthen a function",
+    "Some genes to change function completely from one species to another"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Alternative splicing cuts and splices the sequence of a single gene in different ways depending on tissues, which produces a repertoire of proteins much broader than the number of genes."
+  },
+  {
+   "question": "What did biology reorient toward after the real number of human genes was discovered?",
+   "choix": [
+    "Searching for new genes not yet sequenced in the human genome",
+    "Systematically comparing the human genome with those of primates",
+    "Studying regulation and networks rather than the catalog of elements",
+    "Gradually abandoning sequencing in favor of other analytical techniques"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Twenty thousand genes made the program of a catalog to annotate untenable: research reoriented toward regulation and networks, toward what connects the elements rather than the elements themselves."
+  }
+ ]
+}

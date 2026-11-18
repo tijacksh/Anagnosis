@@ -1,0 +1,77 @@
+{
+ "id": "pal-anchiornis-couleur-retrouvee",
+ "slug": "anchiornis-couleur-retrouvee",
+ "langue": "en",
+ "empreinte_fr": "fa85910457674389",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A Dinosaur's Exact Color, Recovered 160 Million Years Later",
+ "accroche": "In 2010, a team reconstructs the complete coloring of a feathered dinosaur by comparing fossilized microscopic granules with those of living birds.",
+ "contenu_vulgarise": "Anchiornis huxleyi is a small feathered dinosaur, roughly the size of a crow, discovered in the Tiaojishan geological formation in northeastern China and described in 2009 by Xu Xing and colleagues. Its fossils, about 160 million years old, are so well preserved that the outline of its feathers can be made out. But an outline says nothing about color: until 2010, no Mesozoic dinosaur had yielded its own, for lack of a method to read it in the rock.\n\n## Granules That Betray a Hue\n\nThe method rests on melanosomes, microscopic cell structures that contain melanin, the pigment responsible for dark and reddish-brown colors in living birds. Their shape varies with the hue they produce: elongated for black and gray, different for reddish-brown. The principle, developed by doctoral student Jakob Vinther in 2008, consists of statistically comparing the shape of fossilized melanosomes with the known shapes found in the feathers of living birds.\n\n## Twenty-Nine Measurement Points on a Single Fossil\n\nIn 2010, a team led by Quanguo Li, with Vinther and Julia Clarke among others, applied this method to an exceptionally complete Anchiornis specimen held at the Beijing Museum of Natural History. The team sampled melanosomes at twenty-nine points on the body and compared them with a database of modern plumages. Published in the journal Science, the result assigns a color to twenty-four of those twenty-nine samples with more than 90% certainty, the others remaining ambiguous or lacking pigment: a gray and black body, a reddish-brown crest shaped like a tuft on top of the skull, reddish-brown spots on the face, and white wings with black borders on the flight feathers.\n\n## One More Hue, One Less Hidden Behavior\n\nAnchiornis thus becomes the first Mesozoic dinosaur whose complete coloration is reconstructed from direct evidence, rather than from supposition. The result shifts the question we ask of a fossil: we no longer ask only what the animal looked like, but why such contrasting plumage, in a lineage still incapable of sustained flight. In living birds, so marked a pattern most often serves display or recognition between individuals, which suggests that these social functions of plumage came before flight, rather than being added after the fact.",
+ "repere": {
+  "texte": "The team analyzed fossilized melanosomes at twenty-nine points on the body of a single Anchiornis huxleyi specimen, and was able to assign a color to twenty-four of those samples with more than 90% certainty: gray and black on the body, reddish-brown on the crest, white with black borders on the wings.",
+  "source": "Li et al., Science, 2010",
+  "url": "https://doi.org/10.1126/science.1186290"
+ },
+ "carte": {
+  "punch": "We have recovered the exact color of a dinosaur 160 million years old.",
+  "idee": "By comparing the shape of fossilized melanin granules with those of the feathers of living birds, a team reconstructs in 2010 the complete plumage of a small dinosaur: gray and black body, reddish-brown crest, white wings with black borders. A color proven, not guessed.",
+  "source_courte": "Li et al., Science, 2010"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Paint By Number Dinos — Jackson School of Geosciences, UT Austin",
+   "url": "https://www.jsg.utexas.edu/news/2010/02/paint-by-number-dinos-paleontologists-reveal-dinosaurs%E2%80%99-true-colors/",
+   "note": "A presentation of the study by one of the laboratories involved, with background on the melanosome method."
+  }
+ ],
+ "quiz": {
+  "question": "How could the team assert the exact color of Anchiornis's plumage, rather than merely suppose it?",
+  "choix": [
+   "By analyzing chemical traces of pigments still present in the surrounding rock",
+   "By relying on the colors of living birds that share the fossil's geographic range",
+   "By reconstructing the color from the fossil's geological age, each period having a known dominant palette",
+   "By comparing the shape of fossilized melanin granules with the known shape of the same granules in living birds"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The method relies neither on chemical traces of pigment nor on the fossil's geography or age: it compares the shape of fossilized melanosomes, microscopic cell structures, with that of the melanosomes in modern feathers whose color is known. It is this statistical comparison that makes it possible to assign a color with a measurable level of certainty.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How many samples were assigned a color with more than 90% certainty?",
+   "choix": [
+    "All twenty-nine samples, without exception",
+    "Twenty-four out of twenty-nine, the others remaining ambiguous or without pigment",
+    "Nine out of twenty-nine, the others having been destroyed by fossilization",
+    "Only one, taken from the animal's crest"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Of the twenty-nine points sampled along the body, twenty-four were assigned a color with more than 90% certainty. The others remained ambiguous or lacked pigment: the method gives a level of certainty, not an answer in every case."
+  },
+  {
+   "question": "What plumage does the 2010 reconstruction attribute to Anchiornis?",
+   "choix": [
+    "An entirely black body, with no identifiable light area",
+    "A uniform reddish-brown body, with gray wings and crest",
+    "A gray and black body, a reddish-brown crest, white wings with black borders",
+    "A white body, with black spots scattered across the back"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The result describes a gray and black body, reddish-brown spots on the face, a reddish-brown crest shaped like a tuft on top of the skull, and white wings with black borders on the flight feathers."
+  },
+  {
+   "question": "What does such contrasting plumage suggest in an animal still incapable of sustained flight?",
+   "choix": [
+    "That the social functions of plumage came before flight",
+    "That the animal already flew as well as modern birds",
+    "That feather color depended only on age",
+    "That the contrast served as camouflage in a dark understory"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In living birds, so marked a pattern most often serves display or recognition between individuals. Found in an animal that did not yet fly in a sustained way, it suggests that these social functions came before flight."
+  }
+ ]
+}

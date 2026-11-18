@@ -1,0 +1,77 @@
+{
+ "id": "ast-la-couleur-invisible-de-herschel",
+ "slug": "la-couleur-invisible-de-herschel",
+ "langue": "en",
+ "empreinte_fr": "369fe93b7053e29b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Color Herschel Never Saw",
+ "accroche": "In 1800, William Herschel places a thermometer where the prism no longer projects any light. There he measures the greatest heat of the experiment.",
+ "contenu_vulgarise": "William Herschel is first interested in a problem of instruments, not of physics. An astronomer based near Slough, England, he observes the Sun through colored glass filters to protect his eyes, and notices that some filters, of equal tint, let through far more heat than others. Color and heat do not seem to be linked in any simple way.\n\n## The Thermometer Experiment\n\nHerschel sets up a prism in a darkened room, projecting the Sun's spectrum onto a table: violet, blue, green, yellow, orange, red. He places mercury thermometers in each band of color, plus a control thermometer off to the side, out of the beam, to measure the ambient temperature.\n\nThe results first confirm an intuition: the temperature climbs from violet to red. But Herschel pushes the experiment one step further. He moves a thermometer just past the red band, into a zone where the eye perceives no colored light at all, in theory outside the spectrum.\n\nThe thermometer keeps climbing. In this apparent darkness, it records the highest temperature of the whole series.\n\nHerschel reports these results to the Royal Society of London in 1800, in a first paper on the heating power of the prism's colors. A second establishes that this invisible radiation is refracted exactly like visible light, proof that it is of the same nature, lying beyond the reach of the eye.\n\n## What the Eye Does Not Measure\n\nThe experiment is replicable, and Herschel repeats it with variations, glass lenses, rock salt lenses, to rule out the hypothesis of an artifact of his setup. The result holds: beyond the red, something continues to deliver energy, with nothing visible there.\n\nWhat he discovers, he does not yet call “infrared”; the word will not appear until decades later. He speaks of “radiant heat.” But the essential point is there: the Sun's light does not stop where the eye stops seeing it.\n\nThe following year, the German physicist Johann Wilhelm Ritter looks, conversely, for an invisible radiation beyond the violet, and finds it, observing that it blackens silver chloride faster than visible light does. Ultraviolet is discovered in its turn.\n\nTaken together, the two experiments shift the question. What the human eye perceives is not the definition of light. It is a narrow window, opened by a chance of evolution, onto a far wider spectrum. The telescopes that observe in the infrared today, Spitzer, then James Webb, see literally farther than Herschel could ever see, in a band of the spectrum that a thermometer revealed before any eye could confirm it.",
+ "repere": {
+  "texte": "Of the seven colors of the solar spectrum projected by his prism, it is beyond the last one, red, in a zone with no visible light at all, that Herschel measures in 1800 the highest rise in temperature of his entire experiment.",
+  "source": "William Herschel, Philosophical Transactions of the Royal Society of London, vol. 90, 1800",
+  "url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1800.0014"
+ },
+ "carte": {
+  "punch": "The first instrument to detect infrared was a thermometer.",
+  "idee": "In 1800, William Herschel places thermometers beyond the red of the solar spectrum, where the eye sees nothing. The temperature climbs there more than in any of the visible colors: the Sun's light extends far beyond what the human eye perceives.",
+  "source_courte": "Herschel, Phil. Trans. Royal Society, 1800"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Full text of the 1800 paper on the invisible rays of the Sun",
+   "url": "https://archive.org/details/philtrans08733349",
+   "note": "Digitized copy of the original paper, in English."
+  }
+ ],
+ "quiz": {
+  "question": "What does the thermometer Herschel places just beyond the red, where the prism no longer projects any visible color, reveal?",
+  "choix": [
+   "It records no change, confirming that light stops at red",
+   "It records the highest temperature of the whole experiment",
+   "It records a drop in temperature, proof of a void beyond the spectrum",
+   "It records a rise identical to the one measured in the violet"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The thermometer placed in the apparent darkness, beyond the red, records the strongest temperature rise of the whole series. It is neither a confirmation that light stops at red nor a void. The radiation is real, merely invisible to the eye. The violet, at the other end of the spectrum, heats markedly less than the red, contrary to the idea of a symmetrical rise on both sides.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What first leads Herschel to take an interest in the heat of colors, before the prism experiment?",
+   "choix": [
+    "He notices that some colored filters, of equal tint, let through far more heat than others",
+    "A colleague at the Royal Society points out an anomaly in his own measurements",
+    "He is trying to explain why his telescope heats up more in summer than in winter",
+    "He wants to check an already published theory on the nature of sunlight"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Herschel observes the Sun through colored filters to protect his eyes and notices that color and heat do not seem to be linked in any simple way."
+  },
+  {
+   "question": "What does Herschel do to check that the thermometer result beyond the red is not an artifact of his setup?",
+   "choix": [
+    "He repeats the experiment in broad daylight rather than in a dark room",
+    "He repeats the experiment with glass and rock salt lenses",
+    "He has his thermometers checked by a second astronomer",
+    "He redoes the experiment without a prism, with thermometers placed directly in the sun"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text specifies that Herschel repeats the experiment with variations, glass lenses and then rock salt lenses, to rule out the hypothesis of an artifact of his setup."
+  },
+  {
+   "question": "What does the German physicist Johann Wilhelm Ritter discover the year after Herschel's experiment?",
+   "choix": [
+    "An independent confirmation of radiant heat beyond the red",
+    "A method for measuring the speed of light with a prism",
+    "An invisible radiation beyond the violet, detected by blackening silver chloride",
+    "A flaw in Herschel's original experimental setup"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Ritter looks for the opposite of Herschel's finding, a radiation beyond the violet, and finds it by observing that it blackens silver chloride faster than visible light does."
+  }
+ ]
+}

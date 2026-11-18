@@ -1,0 +1,71 @@
+{
+ "id": "ggr-null-island-0-0",
+ "slug": "null-island-0-0",
+ "langue": "en",
+ "empreinte_fr": "f53ed592428144b5",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Null Island, the Point Where the Earth Has No Land",
+ "accroche": "At the crossing of the equator and the Greenwich meridian, a very real buoy has occupied one of the most “visited” points in digital mapping.",
+ "contenu_vulgarise": "For nearly a quarter century, the United States maintained a weather buoy at a very particular spot: the exact point where the equator crosses the Greenwich meridian, in the middle of the Atlantic Ocean, about 600 km south of the coast of West Africa, in nearly 4,940 meters of water. No one lives there. And yet, in databases around the world, this place ranks among the most “visited” on the planet.\n\n## The Mechanism\n\n0° latitude, 0° longitude: the point has no geographic distinction, only a numerical one, two zeros. That is precisely what made it, starting in the 2010s, a classic trap of digital mapping. When geocoding software fails to convert an address into coordinates, or when a GPS sensor returns a missing value, a common programming practice is to return 0,0 by default rather than flag the error. Badly geolocated records (photos, faulty sensors, addresses that can't be found) have thus ended up, on the map, piled up in the same spot: in the middle of the ocean, off the Gulf of Guinea. The Natural Earth map dataset named the place “Null Island” when it incorporated it, around 2010-2011, as a tiny one-square-meter polygon: deliberately too small to show up on a normal map, but real enough in the data for software to detect an anomaly rather than let it pass in silence.\n\n## The Shift\n\nThe place has not always been purely virtual, however. Since the late 1990s, the Pirata oceanographic program (a network of buoys maintained jointly by the United States, France, and Brazil to study ocean-atmosphere interactions in the tropical Atlantic) has moored a buoy named “Soul,” station 13010, at exactly these coordinates. Swept away less than a year after its installation, it was replaced as early as 1998, then measured wind and temperature until it was taken out of service in March 2021.\n\nFor more than two decades, the spot that most databases visited only through software error thus actually carried a very real American object, maintained by three countries. Fiction and fact coexisted at the same degree of latitude and longitude, without ever meeting: one populated the place with statistical noise, the other measured, for real, the weather at a point that nothing distinguished on a map, except that it is, by construction, the one any badly configured software picks as a last resort.",
+ "repere": {
+  "texte": "From 1997 to March 2021, the American buoy “Soul” (station 13010, Pirata network) measured wind and temperature at exactly 0°N 0°E: the same point that geocoding software uses, by default, when it cannot find valid coordinates.",
+  "source": "NOAA National Data Buoy Center, station 13010",
+  "url": "https://www.ndbc.noaa.gov/station_page.php?station=13010"
+ },
+ "carte": {
+  "punch": "A very real weather buoy long occupied the point where the Earth has no land.",
+  "idee": "At the crossing of the equator and the Greenwich meridian, in the middle of the Atlantic, there is no land. Yet from 1997 to 2021, an American buoy measured wind and temperature there, while software around the world returned, by default, the coordinates it couldn't compute.",
+  "source_courte": "NOAA / Wikipedia, “Null Island”"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why is the point 0°N 0°E nicknamed “Null Island” in mapping databases?",
+  "choix": [
+   "Because an island really existed there before disappearing under rising waters",
+   "Because many software programs, unable to locate an address or a position, return the coordinate 0,0 by default instead of flagging an error",
+   "Because undersea telecommunications cables all cross there, creating a permanent zone of GPS interference",
+   "Because an international convention fixed the official reference point of all nautical charts there"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The place has nothing special geographically: it is a software design flaw (returning 0,0 rather than flagging an error) that piled up a large number of badly computed coordinates there, to the point that cartographers gave it a name and even incorporated it as a landmark in a dataset.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where exactly is the point 0°N 0°E nicknamed Null Island?",
+   "choix": [
+    "In the Persian Gulf, about 200 km from the Iranian coast, in about a hundred meters of water",
+    "Off the Azores, in the North Atlantic, on a shallow undersea plateau",
+    "In the Indian Ocean, at the crossing of the equator and the extended Greenwich meridian",
+    "In the middle of the Atlantic Ocean, about 600 km south of the coast of West Africa, in nearly 4,940 meters of water"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The point 0°N 0°E lies in the middle of the Atlantic, off the Gulf of Guinea, about 600 km from the West African coast and nearly 4,940 meters deep."
+  },
+  {
+   "question": "What is the buoy “Soul,” station 13010, installed at this point?",
+   "choix": [
+    "A buoy of the Pirata network, maintained by the United States, France, and Brazil from 1997/1998 to March 2021",
+    "An experimental NASA buoy testing sensors for future Mars missions",
+    "A maritime navigation beacon installed by the International Maritime Organization in 1990",
+    "A former transatlantic undersea telecommunications cable taken out of service in 2005"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The Soul buoy belonged to the Pirata oceanographic network, maintained by the United States, France, and Brazil, and measured wind and temperature until March 2021."
+  },
+  {
+   "question": "Why did the Natural Earth dataset add a polygon at this spot around 2010-2011?",
+   "choix": [
+    "To mark the exact location of the Soul buoy, then the only human structure in the area",
+    "To serve as a standard test for mapping software before each new release",
+    "As a tiny marker, one square meter, deliberately too small to show up on a normal map",
+    "Because a satellite had detected, in error, the presence of a rocky island"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The one-square-meter polygon is too small to display on a normal map, but it lets software detect a default coordinate rather than let it go unnoticed."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "inf-gangnam-style-depassement-entier-youtube",
+ "slug": "gangnam-style-depassement-entier-youtube",
+ "langue": "en",
+ "empreinte_fr": "520db98ffccbab17",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "French « trillions » (10^18) rendered as American « quintillion »; same choice in carte/idee and quiz_supplementaire/1."
+  }
+ ],
+ "titre": "A Music Video Was Watched So Many Times It Broke YouTube's Counter",
+ "accroche": "In early December 2014, the view counter for “Gangnam Style” stops climbing, stuck at 2,147,483,647, a limit that is no accident.",
+ "contenu_vulgarise": "In early December 2014, the music video “Gangnam Style” by South Korean singer PSY shows exactly 2,147,483,647 views on YouTube, then stops moving. YouTube responds with a wink, posted on Google+: “Gangnam Style has been viewed so many times we have to upgrade!” It was not an offhand joke: the number where the counter froze is not round by accident.\n\n## Why that exact number\n\nInside a computer, a whole number takes up a fixed amount of memory, measured in bits. A so-called “signed” 32-bit integer reserves one bit to indicate whether it is positive or negative, and the remaining 31 bits for its value: the largest positive value it can represent is therefore 2 to the 31st power, minus 1, or exactly 2,147,483,647. Beyond that, there is no memory slot left to count any higher: depending on how the program handles the overflow, the counter may freeze, wrap back to zero, or even start over in negative values.\n\nThat is exactly what happened to YouTube's view counter in 2014: the field that stored the number of views had been defined, years earlier, as a signed 32-bit integer, a perfectly reasonable choice at a time when no video came anywhere close to two billion views.\n\n## The fix, and what it changes\n\nThe solution was to move the counter to a 64-bit integer: the sign bit stays, but the part that counts the value goes from 31 to 63 bits, which pushes the limit out to 2 to the 63rd power minus 1, or a little over 9.2 quintillion. At that rate, even the most-watched videos in the world will not come near it for a very, very long time.\n\nThis kind of overflow is far from isolated. Most Unix-based systems measure time in seconds elapsed since January 1, 1970, stored in a signed 32-bit integer: that counter will overflow in turn on January 19, 2038, a problem already identified and documented as the “Year 2038 bug.” What “Gangnam Style” made visible and amusing in 2014, a counter that refuses to go any further, is exactly the same mechanism that quietly threatens systems far more critical than a tally of views. The difference comes down to a single parameter, chosen once and for all when the code is written: the size of the slot where the number is stored.",
+ "citation": {
+  "texte": "\"Gangnam Style\" has been viewed so many times we have to upgrade!",
+  "auteur": "YouTube (Google)",
+  "source": "Official announcement on Google+, December 2014, picked up by CBS News",
+  "url": "https://www.cbsnews.com/news/how-gangnam-style-broke-youtubes-view-counter/"
+ },
+ "carte": {
+  "punch": "“Gangnam Style” was watched so many times it broke YouTube's view counter.",
+  "idee": "In early December 2014, the counter froze at 2,147,483,647 views, the exact limit of a signed 32-bit integer, the memory slot YouTube used to count. YouTube had to migrate to 64-bit integers, pushing the limit out to more than 9.2 quintillion.",
+  "source_courte": "CBS News, 2014"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia — Year 2038 problem",
+   "url": "https://en.wikipedia.org/wiki/Year_2038_problem",
+   "note": "The same 32-bit integer overflow mechanism, this time applied to timekeeping on Unix systems."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the “Gangnam Style” view counter get stuck at exactly 2,147,483,647 in 2014?",
+  "choix": [
+   "Because YouTube deliberately capped the number of views displayed per video",
+   "Because a display bug kept the site from showing more than ten digits",
+   "Because it is the largest value a signed 32-bit integer can represent",
+   "Because the real number of views had actually reached its maximum possible value"
+  ],
+  "bonne_reponse": 2,
+  "explication": "2,147,483,647 is exactly 2 to the 31st power minus 1, the largest positive value a signed 32-bit integer can store. YouTube's counter used that format; beyond it, there was no memory slot left to keep counting, until the migration to 64-bit integers.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How did YouTube respond publicly to the freezing of the “Gangnam Style” counter?",
+   "choix": [
+    "By temporarily removing the video from the platform while it was repaired",
+    "With a Google+ message saying it had to “upgrade”",
+    "By suing PSY for damage to its infrastructure",
+    "By turning off the view counter on all videos"
+   ],
+   "bonne_reponse": 1,
+   "explication": "YouTube responded with a wink on Google+, saying the video had been viewed so many times that it had to “upgrade,” which was not just a joke."
+  },
+  {
+   "question": "To what value was the counter's limit pushed after the switch to a 64-bit integer?",
+   "choix": [
+    "About 2.1 billion",
+    "About 4.2 billion",
+    "About 95 million",
+    "A little over 9.2 quintillion"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Switching to a signed 64-bit integer pushes the limit out to 2 to the 63rd power minus 1, or a little over 9.2 quintillion, far beyond today's view counts."
+  },
+  {
+   "question": "What other signed 32-bit integer overflow bug is predicted for January 19, 2038?",
+   "choix": [
+    "The overflow of the counter of seconds elapsed since January 1, 1970 on Unix systems",
+    "The overflow of the maximum number of user accounts on YouTube",
+    "The overflow of the maximum number of videos the platform can host",
+    "The overflow of the maximum size of video files accepted for upload"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Unix systems count time in seconds since 1970 in a signed 32-bit integer, which will overflow on January 19, 2038, a problem already identified under that name."
+  }
+ ]
+}

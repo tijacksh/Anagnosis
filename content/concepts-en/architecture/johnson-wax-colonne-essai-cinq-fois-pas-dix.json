@@ -1,0 +1,93 @@
+{
+ "id": "arc-johnson-wax-colonne-essai-cinq-fois-pas-dix",
+ "slug": "johnson-wax-colonne-essai-cinq-fois-pas-dix",
+ "langue": "en",
+ "empreinte_fr": "7cc9b9671f072cba",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "SC Johnson company page (quotes “sixty tons, five times the required load” and “ten times higher”), translated from the French; original English wording not seen."
+  },
+  {
+   "chemin": "repere/texte",
+   "type": "texte-officiel-a-verifier",
+   "note": "SC Johnson company page, quote “withstood a load of sixty tons, five times the required load,” translated from the French; original English wording not seen."
+  }
+ ],
+ "titre": "The Johnson Wax test column carried five times the required load, not ten",
+ "accroche": "In 1937, Wright loads a lily pad column to 60 tons when 12 were required: five times. The company's own website also says “ten times.”",
+ "contenu_vulgarise": "In 1937, in Racine, Wisconsin, the State Industrial Commission refuses to approve the columns of a future office building. The inspectors judge them too thin to carry the load shown on the plans: 12 short tons, or about 11 metric tons, per column. The building belongs to the SC Johnson company, and its architect, Frank Lloyd Wright, is not deterred.\n\n## A column thinner at the bottom than at the top\n\nThe columns of the great workroom reverse the usual logic: they are narrow at the base and wide at the top. The foot measures 9 inches in diameter, or 23 centimeters, and the column flares out to a disk-shaped cap about 5.6 meters across. Wright calls them “dendriform,” meaning tree-shaped; they are nicknamed lily pads, and the press compared them to golf tees or ice cream cones. Each one is made of concrete shells 5.1 to 7.6 centimeters thick around a hollow shaft, with a steel mesh core, and rests on a ribbed steel footing.\n\nAccording to Wikipedia, the state authorities refuse approval because the columns are not thick enough to be judged sufficient. Wright is not deterred.\n\n## The June 1937 test\n\nWright has a prototype column built and loaded gradually. The concrete is poured in late May 1937 and the test begins in June. According to the history SC Johnson publishes about its building, hundreds of curious onlookers gather, among them the company's head, H.F. Johnson Jr. According to Wikipedia, the column takes 60 short tons, or about 54 metric tons, before showing any stress; Wright then has the prototype torn down. The authorities then give their approval. The building opens in 1939.\n\nSixty tons for twelve required: the ratio is five. That is what the text on the SC Johnson page says: “They withstood a load of sixty tons, five times the required load.”\n\n## Five times, not ten\n\nYet the same company page contains, in a sidebar, a sentence that says something else: the columns withstood a load “ten times higher” than the one required. With 60 tons for 12, the ratio is five. The two figures would agree only if the page were talking about two different reference loads, which it does not say. The Wikipedia article consulted for this card also gives 60 tons for 12, and does not mention ten.\n\nThe figure of five has its own limit too: it depends on the 12 tons the plans indicated, not on a published failure calculation. It says by how much the test exceeded the planned load, not at what load the column would have given way.\n\n## What the episode shifts\n\nThe authorities were rejecting the columns on their thickness, that is, on a means. The test measured a result: what the column carries. It therefore moved the discussion from shape to load. And the account of the test shows in turn how easily a flattering figure slips into an anecdote people like: on the company's own page, the five and the ten sit side by side. What remains to be learned is where the “ten” comes from: a photo caption, a second test, a copying error. None of the sources consulted says.",
+ "repere": {
+  "texte": "In its account of the building's construction, SC Johnson writes that the columns of the Administration Building, in 1937, “withstood a load of sixty tons, five times the required load.” The plans indicated 12 short tons per column, which does give a ratio of five.",
+  "source": "SC Johnson, The Administration Building Designed by Frank Lloyd Wright",
+  "url": "https://scjohnson.com/fr-fr/news-stories/blog/administration-building"
+ },
+ "carte": {
+  "punch": "Johnson Wax, 1937: the test column carried 60 tons when 12 were required. Five times.",
+  "idee": "Wisconsin inspectors judged Wright's columns too thin to carry 12 tons. In 1937, Wright loads one to 60 tons: five times the planned load. The company's page also says “ten times,” which does not agree with those figures.",
+  "source_courte": "SC Johnson; Wikipedia, 2026"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The Administration Building Designed by Frank Lloyd Wright, SC Johnson",
+   "url": "https://scjohnson.com/fr-fr/news-stories/blog/administration-building",
+   "note": "The company's account, with the text and the caption whose figures differ."
+  },
+  {
+   "titre": "Johnson Wax Headquarters, Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters",
+   "note": "The detailed history of the construction, the 1937 test, and the building's reception, with its press references."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the Wisconsin commission refuse to approve Wright's columns?",
+  "choix": [
+   "It judged them too thin to carry the load shown on the plans",
+   "Reinforced concrete was not permitted for office buildings",
+   "Their flared lily pad shape violated the fire code",
+   "Wright had supplied no structural calculations for the roof of the great workroom"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The inspectors judged the columns too thin for the 12 short tons indicated. The other reasons appear in none of the sources: the refusal was about load capacity, not the material, the shape, or the calculations.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What ratio does the 1937 test give between the load carried and the load required?",
+   "choix": [
+    "Ten times the load, as a sidebar on the SC Johnson page says",
+    "About twice the load, with a column failing at 24 tons",
+    "Five times the load: 60 tons for 12 planned",
+    "Exactly the load: the column failed at 12 tons"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Sixty tons for twelve required gives a ratio of five. The figure of ten, given by a sidebar on the company's page, does not agree with those two numbers."
+  },
+  {
+   "question": "How do the columns of the great workroom differ from ordinary columns?",
+   "choix": [
+    "They are wider at the base than at the top, to resist crushing",
+    "They are narrow at the base, 23 cm in diameter, and flare into a disk at the top",
+    "They are solid and poured as a single block of unreinforced concrete",
+    "They are steel sheathed in concrete, with a constant diameter over their full height"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Unlike usual columns, these columns are narrow at the foot and wide at the top, with concrete shells around a hollow shaft and a steel mesh."
+  },
+  {
+   "question": "What does the SC Johnson page say about the load carried by the test column?",
+   "choix": [
+    "That it gave way as soon as the planned load was applied",
+    "That it was not tested, the commission having finally given in",
+    "That it carried 12 tons and no more, which was enough for the commission",
+    "That it carried five times the load in the text, and ten times in a caption"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The page gives “sixty tons, five times the required load” in the text and “ten times higher” in a sidebar: unless one assumes two reference loads that the page does not specify, the two cannot both be right."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "eco-hutchinson-paradoxe-plancton-1961",
+ "slug": "hutchinson-paradoxe-plancton-1961",
+ "langue": "en",
+ "empreinte_fr": "dcf1930b2a073f36",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The paradox of the plankton: a principle true by construction, caught out",
+ "accroche": "In a lake, dozens of species of algae compete for the same mineral salts. Theory says only one should remain.",
+ "contenu_vulgarise": "Take water from a lake in summer. You find dozens of species of microscopic algae in it. They live in the same volume of water, with no walls or shelters, and compete for the same resources: light, nitrogen, phosphorus, a few trace metals. Ecological theory says this should not last.\n\n## The principle\n\nThe competitive exclusion principle states that two species competing for exactly the same resource do not coexist: at equilibrium, the more efficient one eliminates the other. It follows mathematically from a few postulates and was defended by laboratory experimenters such as Georgy Gause (1934). On December 27, 1960, before the American Society of Naturalists in New York, G. Evelyn Hutchinson, of the Osborn Zoological Laboratory in New Haven, draws from it a consequence that troubles him. In unstructured water, the whole of the phytoplankton should shrink to a single species. Enrichment experiments also show that natural water in summer is desperately short of nutrients, and therefore that competition there is very severe. And yet. The paper appears in 1961 in *The American Naturalist*.\n\n## Reviewing the exits\n\nHutchinson examines the escape routes. Physical gradients first: light by depth, surface film, Langmuir spirals. He dismisses almost all of them: in turbulent water, an organism does not stay in a narrow slice, and the effect would be weak and short-lived.\n\nThen symbiosis. Some algae require vitamins, thiamine, cobalamins, or biotin, which a less efficient species produces in excess. Hutchinson judges this case reasonably certain, and it allows a mixed equilibrium.\n\nFinally predation. With Robert MacArthur he develops a theoretical argument: if a predator limits one of two competing species and not the other, they can coexist.\n\nBut he doubts that symbiosis and predation suffice to make dozens of species coexist in open water. What remains is the absence of equilibrium.\n\n## The environment changes before the end\n\nExclusion takes time. If a species needs, to replace another, a time comparable to that of a seasonal change in the environment, the environment changes before the end. Hutchinson distinguishes three cases. The first: exclusion is completed before the environment moves, as with laboratory animals under controlled conditions or bacteria in a stable medium. The second: the two durations are of the same order, as with plankton, whose generations are counted in days or weeks, or with insects that have several generations a year. The third: animals that live several years, birds and mammals, for which exclusion, if it takes place, plays out in a changing environment. He had already defended the idea in 1941.\n\n## The shift\n\nWe think a paradox is a theory beaten by the facts. Hutchinson says almost the opposite in his conclusion. The principle is analytically true, and in a sense tautological, so it can be relied on to look for what defeats it in nature. If its conclusions are false here, it is because one of its postulates does not apply there: equilibrium, or the homogeneity of the environment. The disagreement becomes an instrument for finding which.\n\nThe lead is not closed. In 2015, JSTOR Daily reported a study drawing on a series of measurements begun in 1959 in Narragansett Bay: two diatoms apparently do not use the same nitrogen, one using dissolved inorganic nitrogen, the other that from organic molecules. The article takes care to say that this might explain the paradox, without asserting it.\n\nWhich of these mechanisms operates in a given drop of water, Hutchinson does not settle.",
+ "repere": {
+  "texte": "Plankton, whose generations are counted in days or weeks, replaces one species with another in a time of the same order as that of a seasonal change in the environment: the equilibrium predicted by the exclusion principle is not reached.",
+  "source": "G. E. Hutchinson, “The Paradox of the Plankton,” The American Naturalist 95 (882), May–June 1961, p. 138",
+  "url": "https://www.jstor.org/stable/2458386"
+ },
+ "carte": {
+  "punch": "In a lake, dozens of algae live on the same salts. Theory says only one should remain.",
+  "idee": "In 1961, Hutchinson notes that plankton contradicts the competitive exclusion principle. He sees no refutation in this: the principle assumes an equilibrium, and this environment changes on a time scale comparable to that of exclusion.",
+  "source_courte": "Hutchinson, Am. Naturalist, 1961"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Paradox of the plankton — Wikipedia (English)",
+   "url": "https://en.wikipedia.org/wiki/Paradox_of_the_plankton",
+   "note": "Overview and references; the list of solutions there differs in places from what Hutchinson himself writes, so read it alongside the original paper."
+  }
+ ],
+ "quiz": {
+  "question": "With symbiosis and predation judged insufficient for dozens of species, what remains, according to Hutchinson, to explain their coexistence in unstructured water?",
+  "choix": [
+   "Well-separated slices of light, where each species occupies its own depth",
+   "A symbiosis among all the species, each depending on another for its vitamins",
+   "A predator that would limit all the competing species in the same way",
+   "An environment that changes before one species' exclusion of another is completed"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Hutchinson rules out light niches in turbulent water, and doubts that symbiosis and predation suffice on their own for dozens of species. Symbiosis through vitamins, judged real, is not enough for that number. Predation helps only if it limits two competing species differently: a predator that limited them identically changes nothing about exclusion. Plankton renews itself in days or weeks, so the environment changes before exclusion is complete.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the competitive exclusion principle, from which Hutchinson draws the consequence that troubles him, state?",
+   "choix": [
+    "Two species competing for exactly the same resource do not coexist: the more efficient one eliminates the other",
+    "Two species occupying the same territory always end up hybridizing",
+    "A species introduced into a new environment systematically eliminates the local species",
+    "The number of species in an environment is proportional to the amount of available nutrients"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The competitive exclusion principle states that at equilibrium, of two species competing for the same resource, the more efficient one eliminates the other: it implies that unstructured water should shelter only a single species of phytoplankton."
+  },
+  {
+   "question": "In his conclusion, how does Hutchinson characterize the status of the competitive exclusion principle itself?",
+   "choix": [
+    "He judges it refuted by the observation of plankton and proposes abandoning it",
+    "He calls it analytically true, in a sense tautological, useful for looking for what defeats it",
+    "He presents it as a hypothesis still to be demonstrated experimentally",
+    "He limits it to laboratory organisms alone, never valid in nature"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Hutchinson does not take the paradox as a refutation: the principle is analytically true and tautological, which makes it possible to use it to spot which of its postulates, equilibrium or the homogeneity of the environment, does not apply here."
+  }
+ ]
+}

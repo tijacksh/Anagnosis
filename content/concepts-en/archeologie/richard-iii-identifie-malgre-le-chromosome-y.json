@@ -1,0 +1,77 @@
+{
+ "id": "arc-richard-iii-identifie-malgre-le-chromosome-y",
+ "slug": "richard-iii-identifie-malgre-le-chromosome-y",
+ "langue": "en",
+ "empreinte_fr": "dcf050ce1cc192e6",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Y Chromosome of Richard III's Skeleton Doesn't Match His Line",
+ "accroche": "The DNA of the Leicester skeleton does not match that of the family's male descendants. The identification holds anyway, by adding up the evidence.",
+ "contenu_vulgarise": "In September 2012, archaeologists from the University of Leicester unearth, on the presumed site of the Franciscan friary, Grey Friars, the skeleton of a man who fits what is known of Richard III, killed at Bosworth in 1485. He was between 30 and 34 years old, with a severe scoliosis that left one shoulder higher than the other, and numerous wounds sustained at the time of death. Radiocarbon dating is consistent with the period.\n\nBut a skeleton that looks like a king is not a king. In 2014, Turi King's team publishes the genetic analysis, and the result is mixed.\n\n## One line fits, the other doesn't\n\nOn the female side, the results converge. The mitochondrial DNA, passed from mother to child, is identical over the full sequence to that of Michael Ibsen, a descendant through the female line of Anne of York, Richard III's older sister. It differs by only one base from that of Wendy Duldig, another descendant in the female line.\n\nOn the male side, nothing matches. The skeleton's Y chromosome, passed from father to son, is not that of any of the five male-line descendants found by the researchers. Yet it takes only a single paternity different from the one recorded in the genealogy, at any of the 19 links separating Richard III from the fifth Duke of Beaufort, from whom these five men descend, for the two lines to diverge. Using a deliberately low rate, the authors estimate at 16% the probability of at least one such break over these 19 generations.\n\n## Adding up rather than deciding\n\nThe team does not choose between the two lines. For each piece of evidence, from the dating to the Y chromosome by way of the age, the scoliosis, and the wounds, it calculates the likelihood of the observation if the skeleton is Richard III's and if it is not, then multiplies the resulting ratios.\n\nThe genetic data alone give a ratio of 79, taking into account the Y-chromosome disagreement. The nongenetic data, 85,000. All together, 6.7 million. Even with a skeptical prior, a 2.5% chance that it is him, the probability that the skeleton is not Richard III's falls below 1 in 100,000.\n\n## A disagreement counted, not erased\n\nThe Y chromosome is not set aside: it is what brings the genetic ratio down from 478 to 79. A piece of evidence that contradicts does not bring down the others, it weighs less than they do. This holds because we know why it may be wrong: the male genealogy is more exposed to hidden paternities than the female one is to hidden maternities.\n\nThe authors also note that the same disagreement, located elsewhere in the tree, would have political consequences: depending on where it fell, a break in paternity would have called into question the Tudors' claim to the throne, or that of Edward IV and Richard III themselves. The Leicester skeleton does not say at which link of this tree it occurred.",
+ "repere": {
+  "texte": "Likelihood ratios: 79 for all the genetic data, 85,000 for the nongenetic data, 6.7 million for all the evidence together.",
+  "source": "King et al., “Identification of the remains of King Richard III,” Nature Communications, 5, article 5631, 2014",
+  "url": "https://doi.org/10.1038/ncomms6631"
+ },
+ "carte": {
+  "punch": "The Y chromosome of Richard III's skeleton doesn't match. The researchers identify him anyway.",
+  "idee": "The mitochondrial DNA of the Leicester skeleton matches that of descendants through the women of the king's sister, but its Y chromosome does not match that of five descendants through the men. The identification rests on the sum of the evidence: likelihood ratio, 6.7 million.",
+  "source_courte": "King et al., Nature Communications, 2014"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "King et al., Nature Communications, 2014: full text on PubMed Central",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4268703/",
+   "note": "In English. The complete article, with the family trees and the details of the Bayesian calculation."
+  }
+ ],
+ "quiz": {
+  "question": "What do the authors do with the disagreement between the skeleton's Y chromosome and that of the family's male descendants?",
+  "choix": [
+   "They attribute it to contamination of the sample by the excavation team's DNA and exclude it from the calculation",
+   "They count it in the calculation, but judge it decisive: the skeleton then cannot be Richard III's",
+   "They remove the male descendants from the calculation and keep only mitochondrial DNA to establish the king's kinship",
+   "They count it in the calculation: a break in paternity over 19 generations is plausible enough to weigh only moderately"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The Y chromosome follows the line of the fathers: a single paternity different from the one recorded over 19 generations is enough, and the authors give it a 16% chance. It is not contamination: the profile was reproduced in two laboratories. The disagreement is counted rather than set aside: it brings the genetic ratio down from 478 to 79, but neither the mitochondrial DNA nor the nongenetic evidence is affected, and the whole stays at 6.7 million.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the match of the Leicester skeleton's mitochondrial DNA show?",
+   "choix": [
+    "That it matches that of the five male-line descendants of the fifth Duke of Beaufort",
+    "That it matches none of the known descendants of the royal house of York",
+    "That it matches that of descendants through the women of Richard III's sister, Anne of York",
+    "That it comes from a modern contaminant introduced during the 2012 dig"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Mitochondrial DNA, passed down through women, is identical to that of Michael Ibsen and close to that of Wendy Duldig, both descendants of Anne of York. It is the Y chromosome, passed down through men, that does not match."
+  },
+  {
+   "question": "Where does the likelihood ratio of 6.7 million cited in the article come from?",
+   "choix": [
+    "From the mitochondrial DNA result alone, judged sufficient on its own to identify the king",
+    "From multiplying the likelihood ratios of each piece of evidence, genetic and nongenetic",
+    "From a single radiocarbon dating, recalculated after the 2014 publication",
+    "From a vote by University of Leicester archaeologists on the probability of identification"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The team calculates a likelihood ratio for each piece of evidence, dating, age, scoliosis, wounds, and DNA, then multiplies these ratios: 79 for the genetic, 85,000 for the nongenetic, 6.7 million in all."
+  },
+  {
+   "question": "What consequence do the authors mention if the paternity disagreement lay elsewhere in the family tree?",
+   "choix": [
+    "It could have called into question the Tudors' claim to the throne, or that of Edward IV and Richard III themselves",
+    "It would have had no consequence, since the crown of England did not follow the male line",
+    "It would have invalidated the radiocarbon dating done on the Leicester skeleton",
+    "It would have rendered void the comparison with Michael Ibsen's mitochondrial DNA"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The authors note that a break in paternity, depending on where it occurs in the tree, could have called into question the claims of the Tudors or those of Edward IV and Richard III, without affecting the dating or the mitochondrial DNA."
+  }
+ ]
+}

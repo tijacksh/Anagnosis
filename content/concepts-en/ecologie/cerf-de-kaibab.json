@@ -1,0 +1,77 @@
+{
+ "id": "eco-cerf-de-kaibab",
+ "slug": "cerf-de-kaibab",
+ "langue": "en",
+ "empreinte_fr": "439fe1bf13d77785",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Kaibab deer, the story textbooks dropped",
+ "accroche": "For decades, an Arizona plateau served as proof that killing wolves makes deer multiply. Then the proof was doubted",
+ "contenu_vulgarise": "On the Kaibab Plateau in Arizona, one story long opened the ecology chapters. In the 1920s, deer supposedly multiplied there after their predators were eliminated, ravaged the vegetation, then suffered a famine. Aldo Leopold, a leading figure of the American wildlife management movement, had made it the canonical account.\n\nBefore the 1970s, the episode appeared in textbooks as the classic example of a prey population held in check by its predators. Remove the one, and the other explodes.\n\nThen the story vanished from the textbooks.\n\n## Why it was dropped\n\nStarting in the 1970s, several papers pointed out that deer numbers had been poorly estimated, and proposed other explanations. The best known is by Graeme Caughley, published in the journal Ecology in 1970. In it he describes the surges of ungulate populations (tahrs among them) introduced or protected in a new environment: they grow, exceed what the vegetation can support, decline, then level off. A pattern that can be observed without any need for predators in the explanation. His interpretation contradicted Leopold's.\n\nThe underlying problem was the evidence. How do you know how many deer lived there a century ago? The counts of the time were uncertain, and people were reasoning from figures that could no longer be redone.\n\n## What the trees said\n\nIn 2006, four researchers, Dan Binkley and his colleagues, got around the problem. Instead of counting vanished deer, they counted trees.\n\nAspen makes up most of what the deer on this plateau browse in summer. A starving deer browses the young shoots, which therefore never reach adulthood. If the deer really were too numerous in the 1920s, a generation of aspens born at that time should be missing from today's forests. The researchers dated the trees.\n\nThe result: the number of aspens more than 1.4 meters tall dating from the 1920s was an order of magnitude lower than expected. The generation is missing. These results support the idea of extreme overbrowsing in the 1920s, without removing all uncertainty, the authors acknowledge.\n\n## The shift\n\nOne might conclude that Leopold was right and Caughley wrong. The authors do not go that far: their data show both limitation by food when deer are numerous, and limitation by predation when they are few.\n\nIn other words, the question “predators or food?” was badly posed. Both controls exist, and one dominates depending on numbers. What was removed from the textbooks was not an error, it was insufficient proof. It no longer quite is.\n\nA story can leave the books because it is false. It can also leave them because no one knew how to check it.",
+ "repere": {
+  "texte": "The number of aspens (measured at 1.4 m) dating from the 1920s is an order of magnitude lower than expected: the generation that should have grown during the deer irruption is missing.",
+  "source": "Binkley, Moore, Romme & Brown, “Was Aldo Leopold right about the Kaibab deer herd?”, Ecosystems 9 (2), 2006, pp. 227-241",
+  "url": "https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/6661129"
+ },
+ "carte": {
+  "punch": "A story of ecology left the textbooks. Trees have partly restored it.",
+  "idee": "The Kaibab deer, 1920s: a textbook proof, then dropped for lack of reliable numbers. In 2006, the missing generation of aspens, an order of magnitude below what was expected, reopened the case.",
+  "source_courte": "Binkley et al., Ecosystems, 2006"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Kaibab Plateau — Wikipedia (English)",
+   "url": "https://en.wikipedia.org/wiki/Kaibab_Plateau",
+   "note": "Summary of the debate and bibliography; read with caution on deer numbers."
+  }
+ ],
+ "quiz": {
+  "question": "What did Binkley and his colleagues measure to judge the Kaibab deer story without knowing past numbers?",
+  "choix": [
+   "The fossilized droppings of 1920s deer",
+   "The age of aspens: a generation is missing",
+   "The width of the trails made by deer on the plateau",
+   "The nitrogen in soils burned by the fires of the time"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Deer browse young aspens, which never become adults. A generation missing from today's trees is therefore the trace of overbrowsing, readable without having counted a single deer. The other measurements do not date browsing pressure.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why did the Kaibab story disappear from textbooks starting in the 1970s?",
+   "choix": [
+    "Because the plateau had been reforested and the episode was judged of no interest to science",
+    "Because the numbers were uncertain and other explanations were possible",
+    "Because it was proven that predators had never been eliminated",
+    "Because Leopold himself withdrew his account"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Papers pointed out the uncertainty of the deer estimates and proposed other explanations, including Caughley's in 1970. It was not proof of an error, but proof that the evidence was fragile."
+  },
+  {
+   "question": "What do the 2006 data show about the control of deer populations?",
+   "choix": [
+    "Only predation limits them",
+    "Only food limits them",
+    "Food if deer are numerous, predation if they are scarce",
+    "Neither: climate explains everything"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The authors conclude there is limitation by food at high numbers and by predation at low numbers: both controls coexist."
+  },
+  {
+   "question": "Why count trees rather than deer?",
+   "choix": [
+    "Trees keep a dated record of what was browsed",
+    "Trees are easier to photograph from the sky",
+    "The deer have all left the region since the 1920s",
+    "Trees can be counted by satellite"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Vanished deer can no longer be counted, but trees keep their age in their rings: a missing generation reveals what the deer ate."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "bio-meduse-immortelle-turritopsis",
+ "slug": "meduse-immortelle-turritopsis-dohrnii",
+ "langue": "en",
+ "empreinte_fr": "ba79d26034379c30",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Jellyfish That Goes Backward, but Is Not Invincible",
+ "accroche": "Wounded or starved, Turritopsis dohrnii does not die: its cells change jobs and the animal turns back into the polyp it was before growing up.",
+ "contenu_vulgarise": "Turritopsis dohrnii is a hydrozoan jellyfish a few millimeters across, found in the Mediterranean and elsewhere in temperate and tropical seas. Like every jellyfish of this group, it is born from a polyp attached to the seafloor, detaches, grows, reproduces, then should die of old age. In 1996, the marine biologist Stefano Piraino and his team observed in the laboratory that adult individuals put under stress by a wound, prolonged starvation, or a temperature shock do not die: their body contracts, loses its tentacles and its bell, and resettles on the bottom as a juvenile polyp, identical to the one it came from years earlier. The team documents this reversal as the first known case, in an animal, of a complete return from a sexually mature stage to a juvenile colonial stage.\n\n## A Mechanism That Is Not Simple Regeneration\n\nThis return owes nothing to ordinary healing, in which stem cells fill in a lost part. Piraino's experiments show that it rests on transdifferentiation: already specialized cells of the jellyfish, those of the outer skin of the bell and part of its digestive system, directly change their cellular identity without passing back through an undifferentiated stem cell stage. By selectively removing certain tissues before triggering the stress, the team observes that the transformation occurs only if these particular cells are still present: it is indeed they, and not others, that convert back.\n\n## What the Genome Has Shown Since 2022\n\nIn 2022, in the journal PNAS, a team led by Maria Pascual-Torner sequenced the genome of Turritopsis dohrnii and compared it with that of a close species, Turritopsis rubra, which cannot return to the polyp stage once adult. It found a clear excess of copies of genes linked to DNA repair and replication: four copies of the POLD1 gene and two of POLA2 in dohrnii, versus only one of each in rubra; comparable duplications for several other repair genes, including XRCC5, RAD51C, and MSH2. Across a list of nearly a thousand genes linked to aging and DNA repair, the rate of amplification observed in dohrnii is 3.77 times higher than that of a random sample of comparable genes. The authors remain cautious: the distance between the two species compared and the limited quality of the two genome assemblies prevent them from claiming that a single mechanism explains everything.\n\n## What “Immortal” Does Not Mean\n\nPiraino himself has had to clarify what his observation does not show: the animal does not die of old age, which justifies calling it biologically immortal, but it remains a creature a few millimeters long, which normally succumbs to a predator or a disease long before having the chance to repeat its cycle indefinitely. The immortality here concerns the internal clock of aging, not the animal's vulnerability to the outside world.",
+ "repere": {
+  "texte": "The genome of Turritopsis dohrnii carries four copies of the DNA repair gene POLD1 and two of POLA2, versus only one of each in its close relative Turritopsis rubra, which cannot return to the polyp stage once adult.",
+  "source": "Pascual-Torner et al., “Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation,” PNAS, 119(36), e2118763119, 2022",
+  "url": "https://doi.org/10.1073/pnas.2118763119"
+ },
+ "carte": {
+  "punch": "Wounded or starved, this jellyfish does not die: it becomes again what it was before growing up.",
+  "idee": "Under stress, this jellyfish a few millimeters across does not die: its adult cells directly change identity and the animal becomes again the juvenile polyp it was before growing up. Its genome carries far more copies of DNA repair genes than its close relative, which is mortal.",
+  "source_courte": "Piraino et al., 1996; Pascual-Torner et al., PNAS, 2022"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Comparative genomics of mortal and immortal cnidarians (full text, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9459311/",
+   "note": "Original article by Pascual-Torner et al. (2022), in English, open access."
+  }
+ ],
+ "quiz": {
+  "question": "By what mechanism does Turritopsis dohrnii revert from the adult jellyfish stage to the juvenile polyp stage?",
+  "choix": [
+   "By ordinary regeneration, from stem cells that replace lost parts",
+   "By transdifferentiation: already specialized cells directly change their cellular identity",
+   "By cloning: the adult animal produces a juvenile copy of itself before dying",
+   "By hibernation: the animal halts its metabolism until more favorable conditions return"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The experiments of Piraino and his team show that already differentiated cells of the jellyfish, notably from the epidermis of the bell, convert directly into cells of an earlier stage, without going through regeneration from stem cells or through cloning.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the 2022 genomic study published in PNAS, what do the authors conclude from their comparison between Turritopsis dohrnii and Turritopsis rubra?",
+   "choix": [
+    "Dohrnii and rubra carry exactly the same number of copies of DNA repair genes",
+    "Rubra carries more copies of these genes than dohrnii, which would explain its ability to return to the polyp stage",
+    "Dohrnii carries more copies of several DNA repair genes, but the authors remain cautious about the full explanation",
+    "The study demonstrates with certainty that a single gene alone explains the rejuvenation of dohrnii"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text specifies that dohrnii carries more copies of genes such as POLD1 and POLA2 than rubra, but that the distance between the two species and the quality of the genome assemblies prevent claiming that a single mechanism explains everything.",
+   "statut": "valide"
+  },
+  {
+   "question": "What exactly does Stefano Piraino mean when he calls Turritopsis dohrnii “biologically immortal”?",
+   "choix": [
+    "That it does not die of old age, but remains vulnerable to predation and disease",
+    "That it is totally invulnerable and cannot be killed by any cause",
+    "That it lives indefinitely without ever changing form",
+    "That it stops reproducing once it has turned back into a polyp"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Piraino specifies that the animal does not die of old age, which justifies the term, but that it remains a tiny creature that normally succumbs to a predator or a disease before being able to repeat its cycle.",
+   "statut": "valide"
+  }
+ ]
+}

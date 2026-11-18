@@ -1,0 +1,78 @@
+{
+ "id": "econ-residu-solow-1957",
+ "slug": "residu-solow-1957",
+ "langue": "en",
+ "empreinte_fr": "6e22e3df4550c889",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Original en anglais, Robert Solow (Review of Economics and Statistics, 1957) ; traduit depuis le français, à rétablir avec le texte original."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Motivation du prix de la Banque de Suède en sciences économiques 1987 (« for his contributions to the theory of economic growth »), traduite depuis le français."
+  }
+ ],
+ "titre": "The Solow Residual, or What Capital Doesn't Explain About Growth",
+ "accroche": "Between 1909 and 1949, U.S. productivity doubled. Machines explain only one-eighth of that rise.",
+ "contenu_vulgarise": "Between 1909 and 1949, output per hour of labor doubled in the United States. The most intuitive answer is that businesses invested in better-performing machines: more capital per worker, more output per hour. In 1957, the economist Robert Solow sets out to check this figure, and publishes an article, “Technical Change and the Aggregate Production Function,” that will overturn this intuition.\n\n## The Mechanism: What Capital Doesn't Explain\n\nSolow builds a model that breaks down the growth in output per worker into two shares: the one due to the increase in capital available per worker, and everything else. To compute the first share, he relies on standard economic theory, according to which capital's contribution to output can be read in the share of income it captures in the economy. Once this calculation is done on U.S. data from 1909 to 1949, the result surprises even him: only one-eighth of the doubling of productivity is explained by the accumulation of capital. The remaining seven-eighths, or 87.5%, are explained by nothing his model knows how to measure directly.\n\nSolow christens this unexplained share the residual: a deliberately neutral name, which does not prejudge its cause. He does not claim that this residual is technical progress in the strict sense of a better machine: it also includes the education of the workforce, the organization of work, public health, or any other lasting improvement in the efficiency with which an economy combines its capital and its labor. What the calculation mostly reveals is the scale of what economics cannot attribute to a specific factor.\n\n## An Embarrassing Figure, Turned Into a Measuring Tool\n\nThe shift this result produces is twofold. First, it overturns the intuitive hierarchy of growth's engines: investing in machines matters, but matters much less than everything that escapes direct counting, invention, training, organization. Second, it turns a methodological nuisance into a tool: rather than ignoring this residual as a measurement error, economists have since used it to compare countries and periods, and to spot where growth really comes from efficiency gains rather than from the mere piling up of machines and hours worked.\n\nIn 1987, the Royal Swedish Academy of Sciences awards Solow the Sveriges Riksbank Prize in Economic Sciences “for his contributions to the theory of economic growth.” The method he devised thirty years earlier, growth accounting, remains today one of the most widely used tools for answering an apparently simple question: where, exactly, does the wealth of a country that is getting richer come from?",
+ "citation": {
+  "texte": "About one-eighth of the increase in labor productivity can be attributed to the increase in capital per hour worked, the remaining seven-eighths going to the residual.",
+  "auteur": "Robert Solow",
+  "source": "Technical Change and the Aggregate Production Function, The Review of Economics and Statistics, vol. 39, no. 3, 1957, pp. 312-320",
+  "url": "https://www.jstor.org/stable/1926047"
+ },
+ "carte": {
+  "punch": "1909-1949: U.S. productivity doubles. Capital explains only one-eighth of the rise.",
+  "idee": "In 1957, Robert Solow calculates the share of growth in output per hour of labor due to capital accumulation. For the United States between 1909 and 1949, it explains only one-eighth of the observed doubling: the rest forms what he christens the residual.",
+  "source_courte": "R. Solow, Rev. of Econ. and Stat., 1957"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Solow residual (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Solow_residual",
+   "note": "Places the residual in the continuation of Solow's growth model, and its later use as a measure of total factor productivity."
+  }
+ ],
+ "quiz": {
+  "question": "What does the Solow residual, calculated on U.S. growth between 1909 and 1949, reveal?",
+  "choix": [
+   "That all of the productivity rise comes from the accumulation of capital",
+   "That U.S. growth over this period had been overestimated by about one-eighth",
+   "That rising wages had no effect on output in this period",
+   "That seven-eighths of the productivity rise is not explained by the accumulation of capital"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Solow finds that only one-eighth of the doubling of productivity is explained by the increase in capital per worker; the rest, seven-eighths, forms a residual that he attributes to everything his model cannot measure directly: technical progress, education, organization.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Beyond technical progress in the strict sense of a better machine, what does the Solow residual cover?",
+   "choix": [
+    "It includes workforce education, the organization of work, and public health",
+    "It refers only to the invention of new, better-performing machines",
+    "It corresponds to the share of growth financed by public borrowing",
+    "It measures exclusively the rise in workers' average wage"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Solow specifies that the residual is not limited to technical progress in the sense of a better machine: it also includes workforce education, the organization of work, public health, and any other lasting improvement in efficiency."
+  },
+  {
+   "question": "For what contribution does Robert Solow receive the Sveriges Riksbank Prize in Economic Sciences in 1987?",
+   "choix": [
+    "For his contributions to the theory of economic growth",
+    "For having shown that capital investment suffices to explain growth",
+    "For creating the model of monopolistic competition",
+    "For his work on game theory applied to financial markets"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text cites the exact wording of the Royal Swedish Academy of Sciences, which honors Solow for his contributions to the theory of economic growth, thirty years after his 1957 article."
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "id": "gen-heritabilite",
+ "slug": "heritabilite",
+ "langue": "en",
+ "empreinte_fr": "25a06e272bca33cf",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Heritability tells you nothing about yourself",
+ "accroche": "“Height is 80% heritable” does not mean that 80% of your height comes from your genes. They are not the same sentence",
+ "contenu_vulgarise": "You regularly read that a given trait is heritable to such-and-such a percent. And the natural reading is this: that share of my trait comes from my genes, the rest from my environment.\n\nThat is not what the number means. Not roughly, not at all.\n\n## What the quantity measures\n\nHeritability is a ratio of variances. It answers the question: in this population, what share of the *differences* observed between individuals is explained by the genetic *differences* between them?\n\nThree consequences follow, and each contradicts common usage.\n\nIt does not apply to an individual. A ratio between differences only makes sense for a group: asking what share of your own height is genetic is a badly formed question, like asking what a single person's birth rate is.\n\nIt depends on the population measured. In a country where every child gets enough to eat, differences in height come mostly from genes: heritability there is high. In a country where nutrition varies widely, the same trait, in the same species, gives a lower figure. The quantity describes a situation, not a nature.\n\nIt says nothing about modifiability. Wearing glasses is highly heritable, and so is myopia, which is perfectly correctable. A highly heritable trait can be changed by outside means, and a barely heritable trait can be impossible to modify.\n\n## The case that makes it concrete\n\nTake two fields sown with the same mix of seeds. One is well watered, the other is not.\n\nWithin each field, the differences in height between plants come almost entirely from the seeds: heritability there is very high, say close to 1.\n\nAnd yet the difference in height *between the two fields* is entirely due to watering.\n\nHigh heritability within groups therefore licenses no conclusion about the origin of differences between those groups. It is the most consequential error the notion allows, and it has been put to many uses.\n\n## Why we still use it\n\nThe quantity remains useful where it was forged: animal and plant breeding. A breeder wants to know to what extent selecting the best breeding animals will shift the average in the next generation; that is exactly what heritability predicts, in this population and in this breeding program.\n\nThe misunderstanding arises when it is carried out of that framework, where the word “heritable” starts to evoke “innate,” “fixed,” “transmitted.”\n\nA well-defined number can be perfectly unusable once it is taken out of the question it answers.",
+ "repere": {
+  "texte": "Heritability measures the share of the variance of a trait, in a given population, attributable to genetic differences between individuals. Its value changes if the population or the environment changes.",
+  "source": "Dominique de Vienne, *Une notion fondamentale en génétique quantitative : l'héritabilité* (A Fundamental Notion in Quantitative Genetics: Heritability), INRA / Université Paris-Saclay",
+  "url": "http://moulon.inra.fr/~ddevienne/UE_GPop_2016-2017/He%CC%81ritabilite%CC%81_D_de_Vienne.pdf"
+ },
+ "carte": {
+  "punch": "Asking what share of your height is genetic is as badly formed as asking for your birth rate.",
+  "idee": "Heritability measures the share of the differences between individuals in a population that is attributable to their genetic differences. It does not apply to an individual, changes with the population, and says nothing about what can be modified.",
+  "source_courte": "de Vienne, INRA"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "de Vienne — *L'héritabilité* (Heritability) (INRA)",
+   "url": "http://moulon.inra.fr/~ddevienne/UE_GPop_2016-2017/He%CC%81ritabilite%CC%81_D_de_Vienne.pdf",
+   "note": "In French; the first few pages are enough to clear up the main misunderstanding."
+  }
+ ],
+ "quiz": {
+  "question": "What exactly does the heritability of a trait measure?",
+  "choix": [
+   "The share of that trait, in an individual, that comes from his or her genes",
+   "The probability that a parent will pass that trait on to a child",
+   "The share of the differences between individuals in a population that is due to their genetic differences",
+   "The degree to which a trait resists outside intervention"
+  ],
+  "bonne_reponse": 2,
+  "explication": "It is a ratio between variances, and therefore a property of a population: it makes no sense for an individual, and it changes if the population or the environment changes. Nor does it say anything about modifiability: myopia is highly heritable, and a pair of glasses corrects it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the example of glasses and myopia show, in the entry?",
+   "choix": [
+    "That a highly heritable trait can be corrected by outside means",
+    "That myopia is not a hereditary trait",
+    "That the heritability of eyesight cannot be measured",
+    "That wearing glasses lowers the heritability of myopia"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text says that glasses and myopia are highly heritable, and yet perfectly correctable, which shows that high heritability does not prevent a trait from being changed."
+  },
+  {
+   "question": "In the entry's example of the two fields, what is the difference in height between the two fields due to?",
+   "choix": [
+    "To the genetic differences between the seeds in each field",
+    "Entirely to watering, which differs between the two fields",
+    "To the high heritability measured within each field"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The two fields are sown with the same mix of seeds: the difference between fields therefore comes entirely from watering, despite a high heritability within each one."
+  },
+  {
+   "question": "According to the entry, in what context does heritability remain a directly useful tool?",
+   "choix": [
+    "The medical diagnosis of an individual",
+    "Calculating the birth rate of a population",
+    "Correcting myopia with glasses",
+    "Animal and plant breeding"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The entry says the quantity remains useful where it was forged, animal and plant breeding, to predict the effect of choosing breeding animals on the next generation."
+  },
+  {
+   "question": "Why can the heritability of height differ between two countries, according to the entry?",
+   "choix": [
+    "Because the genes responsible for height differ from one country to another",
+    "Because heritability is a constant specific to each country",
+    "Because the share of differences in height due to nutrition varies from one population to another"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry explains that where nutrition varies widely, a larger share of the differences in height comes from the environment, so heritability, which describes a situation, drops."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "bio-endosymbiose-margulis",
+ "slug": "endosymbiose-mitochondries-bacteries",
+ "langue": "en",
+ "empreinte_fr": "22d3ef9708610a3a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Mitochondria Were Once Free-Living Bacteria",
+ "accroche": "Every mitochondrion carries a genome separate from the nucleus, in a loop, the signature of a bacterium that never left the cell that swallowed it.",
+ "contenu_vulgarise": "Every cell in your body contains a second genome, cut off from the one in the nucleus, laid out in a loop rather than in linear chromosomes, like that of a bacterium. This is not an isolated anomaly: it is the rule, in the mitochondria that produce the cell's energy, and in the chloroplasts that capture it in plants.\n\nThe idea that these are literally captured bacteria goes back to 1905: the Russian botanist Konstantin Mereschkowsky published, on September 15, a text proposing that chloroplasts descend from cyanobacteria that were once free-living, swallowed by a host cell without being digested. He coined the word “symbiogenesis” for it. The hypothesis then faded for decades, marginal, until a young American biologist, Lynn Margulis, then signing as Lynn Sagan, revived it in 1967 in a paper, “On the Origin of Mitosing Cells.” The text was turned down by more than a dozen journals before finding refuge in the Journal of Theoretical Biology.\n\n## What the Genome Confirms\n\nMargulis argued there that three cellular structures descend from free-living organisms swallowed by an ancestral cell: mitochondria, chloroplasts, and the basal bodies of flagella, the latter derived, in her view, from spiral-shaped bacteria close to spirochetes.\n\nTwo of the three hold up perfectly today. The mitochondria's own genome ties them to the alpha-proteobacteria; that of chloroplasts, to the cyanobacteria, the lineage Mereschkowsky had guessed without proof, a century before sequencing could verify it. Bacterial-type ribosomes, a double membrane inherited from the original engulfment, division independent of the rest of the cell: every detail points to the same conclusion. These two organelles did not appear in the cell; they entered it, and never left.\n\n## The Third That Did Not Hold\n\nThe third part has never been confirmed. A flagellum contains no DNA and shows no structural resemblance to a bacterium, the exact opposite of what is observed for mitochondria and chloroplasts. This part of the hypothesis remains largely discarded today.\n\nThis uneven fate is, in a sense, the most instructive point of the story. A theory rejected fifteen times before publication ended up becoming one of the best-established facts of cell biology, without each of its parts surviving at the same pace. Science did not have to choose between proving Margulis right and proving her wrong: it did both, organelle by organelle, as genomes delivered their evidence.",
+ "repere": {
+  "texte": "The mitochondria's own genome ties them to the lineage of alpha-proteobacteria; that of chloroplasts, to the lineage of cyanobacteria, the double genomic signature that confirms the bacterial origin of both organelles.",
+  "source": "Gray, Michael W., “Lynn Margulis and the endosymbiont hypothesis: 50 years later,” Molecular Biology of the Cell, 2017",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5426843/"
+ },
+ "carte": {
+  "punch": "Your mitochondria have their own genome. That is no accident.",
+  "idee": "The looped genome of mitochondria and chloroplasts ties them to the alpha-proteobacteria and the cyanobacteria: these organelles were free-living bacteria, swallowed and never expelled. The idea, rejected fifteen times before its publication in 1967, is now well established.",
+  "source_courte": "M. W. Gray, Molecular Biology of the Cell, 2017"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Gray (2017) — Lynn Margulis and the endosymbiont hypothesis: 50 years later",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5426843/",
+   "note": "In English; open access on PubMed Central."
+  }
+ ],
+ "quiz": {
+  "question": "Why is Margulis's hypothesis about the origin of mitochondria and chloroplasts now considered confirmed?",
+  "choix": [
+   "Because ancient fossils of these organelles have been found in a totally free-living state",
+   "Because their own looped genome ties them phylogenetically to specific bacterial lineages",
+   "Because Margulis managed to recreate the phenomenon entirely in the laboratory",
+   "Because no other explanation has ever been seriously proposed for these organelles"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The decisive evidence comes from sequencing: the genome of mitochondria ties them to the alpha-proteobacteria, that of chloroplasts to the cyanobacteria. Bacterial-type ribosomes and a double membrane confirm the picture. The flagella hypothesis, by contrast, was discarded for lack of DNA in these structures.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the botanist Konstantin Mereschkowsky propose in 1905?",
+   "choix": [
+    "That chloroplasts descend from cyanobacteria that were once free-living, swallowed without being digested",
+    "That mitochondria descend from viruses that infected the ancestral cell",
+    "That all plant and animal cells share the same bacterial genome",
+    "That photosynthesis appeared independently in each plant lineage"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Mereschkowsky published on September 15, 1905 a text proposing that chloroplasts descend from cyanobacteria that were once free-living, swallowed by a host cell without being digested; he coined the word symbiogenesis for it."
+  },
+  {
+   "question": "What reception does Lynn Margulis's paper, then signed Lynn Sagan, receive in 1967?",
+   "choix": [
+    "It is published immediately and hailed by the entire scientific community",
+    "It is published only after the author's death, posthumously",
+    "It is rejected by more than a dozen journals before being published",
+    "It is withdrawn from publication at the author's own request"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The paper, “On the Origin of Mitosing Cells,” was turned down by more than a dozen journals before finding refuge in the Journal of Theoretical Biology, where it finally appeared in 1967."
+  },
+  {
+   "question": "Why was the hypothesis about the basal bodies of flagella not confirmed?",
+   "choix": [
+    "Because flagella disappear in most of the organisms studied",
+    "Because a flagellum contains no DNA and structurally resembles no bacterium",
+    "Because Margulis herself retracted this part of her hypothesis before 1970",
+    "Because the spirochetes proposed as ancestors have since gone extinct"
+   ],
+   "bonne_reponse": 1,
+   "explication": "A flagellum contains no DNA and shows no structural resemblance to a bacterium, the exact opposite of what is observed for mitochondria and chloroplasts: this part of the hypothesis remains discarded."
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "eco-park-grass-1856-foin-diversite",
+ "slug": "park-grass-1856-foin-diversite",
+ "langue": "en",
+ "empreinte_fr": "a6b408dba19ad7f4",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Park Grass: A Hay Meadow Turned Oldest Experiment in Ecology",
+ "accroche": "Launched in 1856 to measure hay yields, the experiment counts from 3 to 44 species per plot depending on the treatment received.",
+ "contenu_vulgarise": "In 1856, John Bennet Lawes and Joseph Henry Gilbert divide a meadow at the Rothamsted station, in Hertfordshire, and apply a different fertilizer or manure to each plot. The question is agricultural: which combination yields the most hay? The meadow covers 28,000 m². The experiment is still running, 170 years later.\n\n## What Was Measured\n\nThe treatments are applied every year: nitrogen, phosphorus, potassium, manures, with occasional lime. In their 2005 analysis, Crawley and colleagues find that these inputs increase biomass, and that plots receiving nitrogen as ammonium sulfate become much more acidic. The number of species varies from 3 to 44 per 200 m² plot.\n\nThe link with biomass depends on the form of nitrogen. On plots with no nitrogen or with sodium nitrate, the number of species falls steadily as biomass rises. On those receiving ammonium sulfate, it does not vary with biomass. Phosphorus reduces the number of species, potassium added to phosphorus reduces it further, and the biggest drops come from nitrogen and phosphorus applied together. Lime has no effect, except on the ammonium sulfate plots, where the number of species rises sharply as pH goes up.\n\n## The Shift\n\nThe received idea is that richer soil makes a richer meadow. Park Grass says almost the opposite: with several of the treatments, the best-fed plots carry fewer species. But the experiment also rules out the simple answer, \"it's the biomass.\" When the soil acidifies, the relationship between biomass and diversity disappears, and the number of species then follows pH.\n\nDuration matters too. Silvertown and colleagues, in their 2006 review, present Park Grass as the oldest ecological experiment in existence, and draw from it results on the links between species richness, biomass and pH, on how communities respond to climate and nutrients, and on the local adaptation of grasses. According to Wikipedia, ordinary field trials probably underestimate long-term threats to plant diversity, such as acidification.\n\nRothamsted keeps archives of soils, plants and management records. A complete plant survey was redone for the experiment's 170th anniversary, and its data are due to be put online.",
+ "repere": {
+  "texte": "On the Park Grass plots, started at Rothamsted in 1856, the number of plant species varies from 3 to 44 per 200 m² plot.",
+  "source": "Crawley et al., “Determinants of species richness in the Park Grass Experiment,” The American Naturalist 165(2), 2005, pp. 179–192",
+  "url": "https://doi.org/10.1086/427270"
+ },
+ "carte": {
+  "punch": "A hay meadow from 1856: depending on the treatment, from 3 to 44 plant species per plot.",
+  "idee": "At Rothamsted, hay plots treated since 1856 count from 3 to 44 species. With no nitrogen or with sodium nitrate, the more biomass rises, the fewer species remain. With ammonium sulfate, which acidifies, the number of species no longer tracks biomass and rises with pH.",
+  "source_courte": "Crawley et al., Am. Nat., 2005"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does the analysis by Crawley and colleagues (2005) show about the link between biomass and number of species at Park Grass?",
+  "choix": [
+   "The higher the biomass, the more species there are, whatever the fertilizer",
+   "With no nitrogen or with sodium nitrate, it falls as biomass rises; with ammonium sulfate, this link disappears",
+   "The number of species falls with biomass on all plots, whatever the form of nitrogen",
+   "The number of species stays the same from plot to plot, because each keeps the 1856 assemblage"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The relationship depends on the form of nitrogen: with ammonium sulfate, the soil acidifies, the number of species no longer varies with biomass and rises with pH when lime is applied. The number of species ranges from 3 to 44 per 200 m² plot, so the plots do not resemble one another, and in these plots a heavier input does not produce a meadow richer in species.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In 1856, what agricultural question led Lawes and Gilbert to launch the Park Grass experiment?",
+   "choix": [
+    "Which combination of fertilizer and manure yields the most hay",
+    "Which combination of treatments delays flowering the most",
+    "Which treatment best reduces the soil's natural acidity",
+    "Which treatment best limits invasion by non-native species"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The experiment starts from an agricultural question: which combination of fertilizer or manure gives the highest hay yield. The questions about species richness and pH come from later scientific analysis, not from the 1856 objective."
+  },
+  {
+   "question": "According to Crawley and colleagues (2005), what is the effect of phosphorus and potassium on the number of species at Park Grass?",
+   "choix": [
+    "Potassium alone increases the number of species; phosphorus alone has no effect",
+    "Phosphorus reduces the number of species, and potassium added to phosphorus reduces it further",
+    "Neither phosphorus nor potassium changes the number of species; only nitrogen does",
+    "Phosphorus and potassium have an effect only on limed plots"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Phosphorus reduces the number of species, potassium added to phosphorus reduces it further, and the biggest drops come from nitrogen and phosphorus applied together."
+  },
+  {
+   "question": "According to the card, what effect does lime have on the number of species at Park Grass?",
+   "choix": [
+    "It reduces the number of species on every plot without exception",
+    "It has no effect, including on the ammonium sulfate plots",
+    "It has no effect, except on the ammonium sulfate plots, where the number rises with pH",
+    "It has an effect only on plots with neither nitrogen nor manure"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Lime has no effect, except on plots treated with ammonium sulfate: the soil there is acidified, and the number of species rises sharply when liming raises the pH."
+  }
+ ]
+}

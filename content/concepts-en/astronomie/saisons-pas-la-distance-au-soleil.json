@@ -1,0 +1,77 @@
+{
+ "id": "ast-saisons-pas-la-distance-au-soleil",
+ "slug": "saisons-pas-la-distance-au-soleil",
+ "langue": "en",
+ "empreinte_fr": "eedccfda4d62dfed",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Seasons Don't Come From the Distance to the Sun",
+ "accroche": "Earth is closest to the Sun in early January, in the middle of northern winter. The difference in distance, about 5 million kilometers, does not make the seasons.",
+ "contenu_vulgarise": "Ask why it's hot in July. Many people think, NASA notes, that distance from the Sun explains the seasons. The calendar says the opposite. Earth is closest to the Sun, at perihelion, during the first week of January, and farthest, at aphelion, in early July. For the Northern Hemisphere, the closest point falls in the middle of winter.\n\nAccording to NASA's Earth fact sheet, perihelion is at 147.1 million kilometers from the Sun and aphelion at 152.1 million, for an average distance of 149.6 million. The difference, about five million kilometers, is a little over 3% of the average distance. The orbit is almost a circle.\n\n## A decisive test\n\nIf distance made the seasons, the whole Earth would be warm at the same time. Yet when it is summer in Paris, it is winter in Sydney. Whatever produces opposite seasons on a single planet must act differently on its two halves, and distance is the same for both.\n\n## What the tilt does\n\nThe Earth's rotation axis is tilted 23.44 degrees relative to the plane of its orbit. Throughout the year, it always points in the same direction. Depending on the Earth's position in its orbit, it is therefore sometimes the Northern Hemisphere and sometimes the Southern Hemisphere that is tilted toward the Sun and receives its rays more directly. The seasons are reversed from one hemisphere to the other because the tilt distributes them in opposite directions.\n\n## Distance still plays a role\n\nIt is not zero. The radiation received falls off as the square of the distance, and (152.1 ÷ 147.1)² comes to about 1.07: Earth receives roughly 7% more sunlight in January than in July. This calculation, made here from NASA's figures, does not tell us the climate: the tilt dominates, and the effect of distance remains secondary to it.\n\nIt acts mainly on the length of the seasons. Earth moves most slowly near aphelion, so in northern summer: that season is the longest in the Northern Hemisphere, and winter the shortest, with nearly five days' difference. In the Southern Hemisphere, everything is reversed: perihelion falls in the middle of southern summer, with more light and a shorter season.\n\nOn a planet whose orbit was a perfect circle, southern summer would last as long as northern summer. What remains to be seen is what those five days' difference change in the climate of each hemisphere.",
+ "repere": {
+  "texte": "Perihelion: 147.095 million km. Aphelion: 152.100 million km. Tilt of the axis relative to the orbit: 23.44 degrees.",
+  "source": "NASA Space Science Data Coordinated Archive, Earth Fact Sheet",
+  "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+ },
+ "carte": {
+  "punch": "Earth is closest to the Sun in January. It's winter in the north.",
+  "idee": "Perihelion falls in early January (147.1 million km), aphelion in early July (152.1). The seasons come from the 23.44-degree tilt of the axis, not from distance: perihelion, in fact, falls in the middle of southern summer.",
+  "source_courte": "NASA, Earth fact sheet (NSSDC)"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NASA Space Place — What Causes the Seasons?",
+   "url": "https://spaceplace.nasa.gov/seasons/en/",
+   "note": "In English; a short page, with diagrams, on the tilt and the role of the pole tilted toward the Sun."
+  }
+ ],
+ "quiz": {
+  "question": "Why can't the Earth-Sun distance be the cause of the seasons?",
+  "choix": [
+   "Because the light received from the Sun does not vary at all over the year",
+   "Because Earth is farthest from the Sun in January, in the middle of northern winter",
+   "Because the two hemispheres have opposite seasons at the same time",
+   "Because Earth's orbit is a perfect circle, at constant distance"
+  ],
+  "bonne_reponse": 2,
+  "explication": "A single distance for the whole planet cannot give summer in the north and winter in the south at the same time: only the tilt of the axis acts in opposite ways on the two hemispheres. The light received does vary by about 7%, Earth is closest in January, and the orbit is not a perfect circle.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What produces opposite seasons in the two hemispheres?",
+   "choix": [
+    "A change in the speed of the Earth's rotation on its axis during the year",
+    "The tilt of the axis, whose direction stays fixed throughout the year",
+    "The fact that the Northern Hemisphere has more land than the south",
+    "A variation in the Sun's power between January and July"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Because the axis keeps its direction, each hemisphere in turn is tilted toward the Sun and receives its rays more directly. Neither rotation speed, nor the distribution of land, nor the Sun's power reverses the seasons from one hemisphere to the other."
+  },
+  {
+   "question": "According to the card, what does the variation in distance between perihelion and aphelion change?",
+   "choix": [
+    "The date of the solstices, shifted by several months",
+    "The tilt of the axis, greater in January than in July",
+    "The direction of the seasons, reversed every two years",
+    "The length of the seasons: northern summer is longer than northern winter"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Earth moves slowest near aphelion, so in northern summer: that season lasts nearly five days longer than winter. Distance does not shift the solstices and does not change the tilt."
+  },
+  {
+   "question": "What does the card calculate from NASA's two distances?",
+   "choix": [
+    "The ratio of the irradiance received at perihelion and aphelion, about 7% more",
+    "The tilt of the Earth's axis relative to its orbit",
+    "The speed of the Earth's rotation on its axis in January",
+    "The average temperature of each hemisphere"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Radiation falls off as the square of the distance, and the ratio of the squared distances comes to about 1.07. The effect therefore exists, but this calculation gives neither the tilt, nor the rotation speed, nor the temperatures."
+  }
+ ]
+}

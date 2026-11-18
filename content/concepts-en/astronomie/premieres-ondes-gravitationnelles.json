@@ -1,0 +1,77 @@
+{
+ "id": "ast-premieres-ondes-gravitationnelles",
+ "slug": "premieres-ondes-gravitationnelles",
+ "langue": "en",
+ "empreinte_fr": "337b4179877f47e2",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Measuring a Displacement Smaller Than an Atomic Nucleus",
+ "accroche": "On September 14, 2015, two detectors record the collision of two black holes 1.3 billion light-years away",
+ "contenu_vulgarise": "General relativity describes gravity as a deformation of spacetime. A mass that accelerates must therefore produce ripples in it, which propagate at the speed of light.\n\nEinstein draws this conclusion as early as 1916, then spends twenty years doubting that they could ever be detected. His skepticism was reasonable: space is extraordinarily rigid, and the expected effect is minuscule.\n\n## The order of magnitude of the problem\n\nA gravitational wave stretches space in one direction and compresses it in the perpendicular direction. It would therefore be enough to compare two perpendicular lengths and watch for a difference.\n\nOver a four-kilometer path, the expected difference for a violent event is on the order of one thousandth of the diameter of a proton.\n\nThat is the figure that makes the undertaking seem absurd. You have to measure a change in length a thousand times smaller than an atomic nucleus, over a distance of several kilometers, in a world where trucks, earthquakes and ocean waves go by.\n\nThe solution is interferometry. A laser beam is split in two, sent down two perpendicular arms, reflected, then recombined. If the two arms are exactly the same length, the light waves cancel each other out when they recombine. The slightest difference breaks that cancellation, and light appears where there should be none.\n\n## What distinguishes a signal from an artifact\n\nThe problem is not seeing a movement. It is seeing one that is not terrestrial.\n\nHence the setup with two detectors, 3,000 kilometers apart, in Louisiana and Washington State. A truck near one does nothing to the other. A wave from the cosmos crosses both, separated by the light travel time, a few milliseconds.\n\nOn September 14, 2015, the two instruments record the same pattern, offset by seven milliseconds. The signal rises in frequency from 35 to 250 hertz in a fraction of a second, then cuts off abruptly.\n\nThis shape is exactly the one general relativity predicts for two black holes spiraling toward each other, merging, then settling down: the masses inferred are about 36 and 29 times that of the Sun.\n\n## What the detection opens up\n\nAll of astronomy until then had been done with light, or with particles. A gravitational wave is neither.\n\nIt passes through what light cannot: opaque matter, and the epochs when the universe was opaque. And it comes from objects that emit nothing: two merging black holes are invisible to any telescope.\n\nThe sky had been looked at. It becomes, for the first time, something we listen to.",
+ "repere": {
+  "texte": "The signal of September 14, 2015 rises from 35 to 250 hertz in a fraction of a second. It corresponds to the merger of two black holes of about 36 and 29 solar masses, and was recorded by the two detectors seven milliseconds apart.",
+  "source": "Abbott et al. (LIGO/Virgo), “Observation of Gravitational Waves from a Binary Black Hole Merger,” Physical Review Letters, 116, 2016",
+  "url": "https://link.aps.org/doi/10.1103/PhysRevLett.116.061102"
+ },
+ "carte": {
+  "punch": "Measuring, over four kilometers, a difference a thousand times smaller than an atomic nucleus.",
+  "idee": "On September 14, 2015, two detectors 3,000 km apart record the same signal seven milliseconds apart: two black holes merging. The sky stops being only something we look at.",
+  "source_courte": "Abbott et al., Phys. Rev. Lett., 2016"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Properties of the Binary Black Hole Merger GW150914",
+   "url": "https://arxiv.org/pdf/1602.03840",
+   "note": "In English, free to read; read the figures before the equations."
+  }
+ ],
+ "quiz": {
+  "question": "Why are two widely separated detectors needed?",
+  "choix": [
+   "To cover two regions of the sky that a single one could not observe",
+   "To double the sensitivity and detect fainter signals",
+   "To compare measurements and correct for laser drift",
+   "To distinguish a cosmic signal from a purely local disturbance"
+  ],
+  "bonne_reponse": 3,
+  "explication": "A truck, an earthquake or an ocean wave disturbs one detector and not the other, three thousand kilometers away. A wave from the cosmos, on the other hand, crosses both, offset only by the travel time, seven milliseconds for GW150914. The coincidence is what turns a measured movement into a detection.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why does Einstein, having predicted gravitational waves as early as 1916, then doubt for twenty years that they could be detected?",
+   "choix": [
+    "Because he thinks general relativity itself is wrong",
+    "Because space is extraordinarily rigid and the expected effect is minuscule",
+    "Because no telescope of his day could observe black holes",
+    "Because the lasers needed to detect them did not yet exist"
+   ],
+   "bonne_reponse": 1,
+   "explication": "His skepticism was reasonable: space is extraordinarily rigid, and the expected effect, a tiny difference in length over a distance of several kilometers, seemed out of reach."
+  },
+  {
+   "question": "How does the interferometry used to detect a gravitational wave work?",
+   "choix": [
+    "A laser beam split into two perpendicular arms recombines by canceling out, unless the lengths differ",
+    "A radio telescope picks up the waves directly as an amplified sound signal",
+    "An extremely sensitive pendulum continuously records ground vibrations",
+    "A satellite measures the exact position of two black holes orbiting each other"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The laser is split in two, sent down two perpendicular arms, reflected, then recombined: if the arms are exactly the same length, the waves cancel out, and the slightest difference makes light appear."
+  },
+  {
+   "question": "What does detecting gravitational waves make it possible to observe that light could not until now?",
+   "choix": [
+    "Stars too distant for any telescope to make out",
+    "Planets outside the solar system",
+    "Objects such as two merging black holes, which emit no light",
+    "Temperature variations on the surface of the Sun"
+   ],
+   "bonne_reponse": 2,
+   "explication": "A gravitational wave comes from objects that emit nothing: two merging black holes are invisible to any telescope, whereas all of astronomy until then had been done with light or particles."
+  }
+ ]
+}

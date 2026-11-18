@@ -1,0 +1,83 @@
+{
+ "id": "inf-le-poeme-qui-empeche-les-reseaux-de-boucler",
+ "slug": "le-poeme-qui-empeche-les-reseaux-de-boucler",
+ "langue": "en",
+ "empreinte_fr": "392c0290ce1d47f1",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Poem That Keeps Networks From Looping",
+ "accroche": "In 1985, engineer Radia Perlman sums up in a poem the algorithm that keeps large Ethernet networks from collapsing into loops.",
+ "contenu_vulgarise": "In the early 1980s, an Ethernet network is still fragile: plugging a cable into the wrong place can be enough to paralyze it. When two bridges, the devices that link network segments together, find themselves connected by two different paths to the same machines, data packets can start circulating in a loop, indefinitely, until they saturate all the traffic. At Digital Equipment Corporation, engineer Radia Perlman is given the task of solving this problem: keeping the redundant links, useful in case of failure, without ever letting a loop form.\n\n## Electing a root, then cutting the excess\n\nThe solution she publishes in 1985, in an ACM paper titled “An Algorithm for Distributed Computation of a Spanning Tree in an Extended LAN,” comes down to three steps. First, the network's bridges elect a single root bridge through a simple exchange of identifiers. Next, each bridge calculates the least costly path linking it to that root. Finally, any link that belongs to none of these shortest paths is deactivated: not deleted, just put on standby, ready to go back into service if an active link fails.\n\nThe result bears a name borrowed from graph theory: a spanning tree, a structure that connects every point in the network without ever closing a loop. The algorithm is distributed: no bridge needs to know the whole network topology, each simply exchanges short messages with its direct neighbors, and the computation converges in a time proportional to the network's diameter, not its total size. Later adopted by the IEEE as standard 802.1D, this mechanism remains what keeps most corporate networks from collapsing under their own shortcuts.\n\n## A poem published in a scientific paper\n\nOnce the algorithm was finished, Perlman channeled her energy into a six-stanza poem, Algorhyme, which sums up its method in eighteen lines, published as is in the 1985 paper. She reuses it eighteen years later in a U.S. patent (No. 7,339,900, filed in 2003) covering an improvement to the protocol under traffic overloads, where the poem appears in the description of the technical background.\n\nThis way of making a technical result memorable sheds light on what she has repeated since in her interviews: she rejects the title “mother of the Internet” that a journalist gave her in 2011. Not out of false modesty: such a title, she says, has no clear criterion for awarding it, unlike a doctorate, and the Internet never had a single inventor. Hundreds of people each contributed a piece, she hers, and someone else would eventually have solved the loop problem if she had not done so first.",
+ "citation": {
+  "texte": "First the Root must be selected. By ID it is elected. [...] Least cost paths from Root are traced. In the tree these paths are placed.",
+  "auteur": "Radia Perlman",
+  "source": "“An Algorithm for Distributed Computation of a Spanning Tree in an Extended LAN,” ACM SIGCOMM Computer Communication Review, vol. 15, no. 4, 1985, p. 44 (poem “Algorhyme”)",
+  "url": "https://doi.org/10.1145/318951.319004"
+ },
+ "carte": {
+  "punch": "Eighteen lines sum up the algorithm that keeps most corporate networks from looping.",
+  "idee": "In 1985, engineer Radia Perlman publishes the algorithm that keeps Ethernet networks from looping forever when two paths link the same devices. She sums up its method in a six-stanza poem, published in the original scientific paper.",
+  "source_courte": "Perlman, ACM SIGCOMM, 1985"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "National Inventors Hall of Fame — Piano and Protocols: The Story of Inventor Radia Perlman",
+   "url": "https://www.invent.org/blog/inventors/spanning-tree-protocol",
+   "note": "Detailed account of the invention, including the origin of the poem “Algorhyme.”"
+  },
+  {
+   "titre": "Internet Hall of Fame — Radia Perlman",
+   "url": "https://www.internethalloffame.org/inductee/radia-perlman/",
+   "note": "Biographical entry from her 2014 induction."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Radia Perlman's protocol deactivate certain network links rather than delete them?",
+  "choix": [
+   "Because deleting them would require physically reprogramming every bridge in the network",
+   "Because the protocol cannot tell a redundant link from a necessary one",
+   "Because a deactivated link serves as an immediate backup if an active link fails",
+   "Because a deactivated link keeps carrying low-priority traffic"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The link is only put on standby, not deleted: that is what lets the network immediately find a complete path again if an active link fails, without manual reconfiguration. Deleting it would lose the redundancy the bridges were connected that way to preserve.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How do the network's bridges elect the root bridge, in Radia Perlman's algorithm?",
+   "choix": [
+    "By a majority vote organized by the network administrator",
+    "The root bridge is always the one that was installed first",
+    "Through a simple exchange of identifiers among the bridges",
+    "By random draw among the bridges connected to the network"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Each bridge simply exchanges its identifier with its direct neighbors; the root bridge is the one whose identifier is selected at the end of this exchange, with no vote and no installation order."
+  },
+  {
+   "question": "Why does Radia Perlman reject the title “mother of the Internet” given to her in 2011?",
+   "choix": [
+    "Because that title has no clear criterion for awarding it and the Internet never had a single inventor",
+    "Because she considers that her algorithm had no real impact on the Internet",
+    "Because she feels the title should go instead to an anonymous colleague",
+    "Because she signed a nondisclosure agreement with Digital Equipment Corporation"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Perlman explains it herself: unlike a doctorate, this title has no criterion for awarding it, and the Internet is the product of hundreds of contributions, not of a single person."
+  },
+  {
+   "question": "Where is Radia Perlman's poem Algorhyme republished in 2003, eighteen years after its first publication?",
+   "choix": [
+    "In an introductory computer networking textbook",
+    "In the IEEE 802.1D standard that formalizes the protocol",
+    "In a second ACM SIGCOMM paper on network security",
+    "In the description of a U.S. patent covering an improvement to the protocol"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The poem, published in 1985 in the original scientific paper, is reused eighteen years later in the description of the technical background of U.S. patent No. 7,339,900, filed in 2003."
+  }
+ ]
+}

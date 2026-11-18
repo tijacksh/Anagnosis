@@ -1,0 +1,85 @@
+{
+ "id": "ast-bradley-1728-parallaxe-cherchee-aberration-trouvee",
+ "slug": "bradley-1728-parallaxe-cherchee-aberration-trouvee",
+ "langue": "en",
+ "empreinte_fr": "9a829fe722c606bb",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Bradley set out to find a star’s parallax and discovers the aberration of light",
+ "accroche": "In 1725, Bradley and Molyneux watch for the annual shift of Gamma Draconis. The star does move, but not as parallax predicts.",
+ "contenu_vulgarise": "In late 1725, at Kew, near London, Samuel Molyneux has a large fixed telescope set up, pointed almost vertically. It aims at a single star, Gamma Draconis, which passes almost through the zenith: at that spot in the sky, atmospheric refraction interferes least. The goal is to measure its parallax. If the Earth orbits the Sun, a nearby star should trace, over the course of a year, a small ellipse among the distant stars. For Gamma Draconis, the expected pattern is a passage farthest south in December and farthest north in June.\n\nJames Bradley, a friend of Molyneux, comes to help. He tells what follows in a letter to Edmond Halley.\n\n## A star moving the wrong way\n\nThe star is first observed on December 3, 1725. On the 17th, Bradley finds it passing a little farther south than in the earlier readings. A few days later, farther south still. He is all the more surprised because the shift goes in the opposite direction from the one a parallax would have given.\n\nHe suspects the instrument first. But the star keeps going. In early March 1726, it passes 20 arcseconds farther south than at the first observation. Then it climbs back, regains its December position in June, reaches its northernmost point in September, 39 arcseconds above its March position, and returns to its starting point twelve months after the first reading.\n\nThe extremes thus fall in March and September, not in December and June. This quarter-year offset rules out seeing it as a parallax.\n\nBradley dismisses the explanations one by one. A flaw in the instrument: the measurements repeat, and he has a second one set up. A wobble of the Earth’s axis: a small star almost opposite in right ascension varies only about half as much, whereas a wobble would shift them almost equally. The plumb line, refraction: nothing fits. What remains is the idea that light has a finite speed and that the Earth is moving.\n\n## The tilted tube\n\nHe explains it with an image. For a particle of light to travel through a tube while the eye moves forward with the Earth, the tube must be tilted in the direction of motion. The star thus appears slightly shifted toward the direction the Earth is heading, by an angle that depends on the ratio of the two speeds.\n\nFrom these 39 arcseconds, Bradley first derives a ratio of 10,210 to 1 between the speed of light and that of the Earth in its orbit. Sunlight would then take 8 minutes 12 seconds to reach us. Cross-checking with other stars, he settles on 8 minutes 13 seconds (the figure today is about 8 minutes 20 seconds). He himself remarks that this result falls between the two values drawn so far from eclipses of Jupiter’s satellites: about 11 minutes for the figure attributed to Rømer, about 7 for others.\n\nAs for parallax, he found nothing, and he judges it very probably less than one arcsecond, which would put the star at more than 400,000 times the Sun’s distance. He acknowledges that the opponents of the Earth’s motion keep some room, since parallax remains invisible.\n\nParallaxes do exist, however, too small for Bradley’s instrument. Bessel would measure one in 1838, for 61 Cygni.",
+ "repere": {
+  "texte": "For Gamma Draconis, Bradley records a shift of 39 arcseconds between March and September 1726. From it he derives a ratio of 10,210 to 1 between the speed of light and that of the Earth in its orbit, that is, 8 minutes 12 seconds of travel from the Sun to the Earth. Cross-checking with other stars, he then settles on 8 minutes 13 seconds.",
+  "source": "Bradley, letter to Halley, Philosophical Transactions, vol. 35 (1727-1728), p. 637 and following",
+  "url": "https://archive.org/details/paper-doi-10_1098_rstl_1727_0064"
+ },
+ "carte": {
+  "punch": "Bradley was looking for a star’s distance. He found an effect of the speed of light.",
+  "idee": "In 1725, Bradley watches for the annual shift of Gamma Draconis. The star moves, but its extremes fall in March and September, not in December and June: it is not a parallax. It is the effect of the speed of light combined with that of the Earth.",
+  "source_courte": "Bradley, Phil. Trans., 1728"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Bradley, “A New Discovered Motion of the Fix'd Stars,” 1728 (text of the letter)",
+   "url": "https://archive.org/details/paper-doi-10_1098_rstl_1727_0064",
+   "note": "In the English of the day, with the spelling of the day; the tilted-tube reasoning is set out in a single page."
+  },
+  {
+   "titre": "MacTutor, James Bradley",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bradley/",
+   "note": "In English; places the aberration within Bradley’s career, along with the discovery of the nutation of the Earth’s axis that follows."
+  }
+ ],
+ "quiz": {
+  "question": "Why can the observed shift of Gamma Draconis not be a parallax?",
+  "choix": [
+   "It is too large: a star’s parallax always exceeds one arcminute",
+   "Its extremes fall in March and September, not in December and June",
+   "It happens only once, in December, and then the star stays motionless",
+   "It affects every star in the sky by exactly the same amount"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A parallax would bring Gamma Draconis to its farthest south in December and farthest north in June; Bradley observes the extremes in March and September. The motion repeats over the year, and it is not the same for all stars: the other three statements are false.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does Bradley rule out the hypothesis of a flaw in his instrument?",
+   "choix": [
+    "He has a second instrument set up, and the same measurements repeat",
+    "He puts the instrument away for a year and takes it out again to check that it gives the same error",
+    "He asks Halley to check the plumb line adjustment in his place",
+    "He replaces the fixed telescope with a movable one pointed south"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Bradley has a second instrument installed: the same measurements repeat on it, which rules out an adjustment flaw. The text mentions neither Halley, nor a one-year pause, nor a change in the telescope’s orientation.",
+   "statut": "valide"
+  },
+  {
+   "question": "What convinces Bradley that the shift of Gamma Draconis is not an effect of nutation, the wobble of the Earth’s axis?",
+   "choix": [
+    "An opposite star does not vary at all, which a wobble of the axis would completely exclude",
+    "Gamma Draconis and the opposite star vary by the same amount, in the same direction",
+    "A nearly opposite star varies about half as much as a wobble would require",
+    "The opposite star varies twice as much as Gamma Draconis, not half as much"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Bradley compares it with a star nearly opposite in right ascension: it varies about half as much as Gamma Draconis, whereas a wobble of the Earth’s axis would affect them almost equally. The other three figures are not those of the text.",
+   "statut": "valide"
+  },
+  {
+   "question": "What ratio between the speed of light and that of the Earth in its orbit does Bradley first calculate?",
+   "choix": [
+    "A ratio of 20,210 to 1, or about 16 minutes 24 seconds for the light",
+    "A ratio of 10,210 to 1, but he deduces from it that light takes 11 minutes to reach us",
+    "No ratio: he compares the 39 arcseconds directly with Rømer’s results",
+    "A ratio of 10,210 to 1, or 8 minutes 12 seconds for sunlight"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Bradley first derives this ratio from the 39 arcseconds observed, giving 8 minutes 12 seconds for sunlight. The 11 minutes come from the eclipses of Jupiter attributed to Rømer, not from his own calculation, and he does not settle for a simple comparison.",
+   "statut": "valide"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "epi-affaire-sokal",
+ "slug": "affaire-sokal",
+ "langue": "en",
+ "empreinte_fr": "01ef754e974e4881",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Trois citations données en français (« au fond une construction sociale et linguistique », « origines libérales du dix-neuvième siècle », « Depuis quelques années, je suis troublé… ») ; retraduites vers l'anglais. Langue d'origine : français dans la fiche ; auteur : Alan Sokal (article de Social Text et Lingua Franca, vraisemblablement en anglais à l'origine)."
+  }
+ ],
+ "titre": "The Sokal Affair",
+ "accroche": "A physicist submits a deliberately absurd article to a humanities journal. It publishes it.",
+ "contenu_vulgarise": "In the spring-summer of 1996, the American journal *Social Text* publishes an article by the physicist Alan Sokal titled “Transgressing the Boundaries: Toward a Transformative Hermeneutics of Quantum Gravity,” in a special issue devoted to the “science wars.” The article claims, among other things, that physical reality is “at bottom a social and linguistic construct,” that the morphogenetic field of the biologist Rupert Sheldrake would constitute a cutting-edge theory of quantum gravity, and that the mathematical axiom of equality in set theory would bear the mark of “19th-century liberal origins.”\n\nOn the very day of publication, Sokal reveals in the journal *Lingua Franca* that the article was a hoax. He had not submitted a serious piece of work that turned out to be mistaken: he had deliberately stuffed it with claims that any undergraduate physicist or mathematician would have recognized as absurd, laced with flattery of the editors' presumed prejudices.\n\n## The Mechanism\n\nSokal explains his intention without detour: “For some years now, I have been troubled by an apparent decline in intellectual rigor in certain sectors of the American humanities.” He decides to test a specific hypothesis: would a respected journal publish a text stuffed with nonsense if, on the one hand, it sounded good, and, on the other, it flattered the ideological preconceptions of its editors?\n\nThe article contained, by his own admission, no argument actually linking the concepts it borrowed from physics to the theses it claimed to draw from them. The scientific borrowings were real, the theories of relativity, quantum mechanics, and non-Euclidean geometry do exist, but the links woven between them and the announced political conclusions were supported by no reasoning, only by an accumulation of technical vocabulary and flattering references.\n\nThe hoax worked because the article was apparently never submitted for review by a specialist in the scientific notions it invoked. No one in the editorial process checked whether the physical claims held water.\n\n## What It Shifts\n\nThe Sokal affair proves nothing about the value of the humanities as a whole, and Sokal himself has always denied that it does: his target was not a discipline but a specific laxity, a text's being tolerated for its vocabulary and conclusions rather than for the soundness of its reasoning. The episode remains cited in epistemology because it illustrates, in real conditions rather than in a thought experiment, one of the discipline's central questions: what makes a text look learned is not what makes it say something true, and a review system can fail to tell the two apart when no one within it is in a position to check the substance of what is put forward.",
+ "citation": {
+  "texte": "Would a leading North American journal of cultural studies […] publish an article liberally salted with nonsense if (a) it sounded good and (b) it flattered the editors' ideological preconceptions? The answer, unfortunately, is yes.",
+  "auteur": "Alan Sokal",
+  "source": "“A Physicist Experiments With Cultural Studies,” Lingua Franca, May-June 1996",
+  "url": "https://physics.nyu.edu/faculty/sokal/lingua_franca_v4/lingua_franca_v4.html"
+ },
+ "carte": {
+  "punch": "A physicist writes a deliberately absurd article. A scholarly journal publishes it.",
+  "idee": "In 1996, Alan Sokal submits to Social Text an article stuffed with deliberately false physical and mathematical claims, wrapped in flattering vocabulary. The journal publishes it without having a specialist review it. Sokal reveals the hoax the same day.",
+  "source_courte": "Sokal, Lingua Franca, 1996"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NYU — Alan Sokal's page on the affair",
+   "url": "https://physics.nyu.edu/faculty/sokal/",
+   "note": "Collects the original article, the revelation in Lingua Franca, and Sokal's responses to the reactions that followed."
+  }
+ ],
+ "quiz": {
+  "question": "From the standpoint of epistemology, what does the Sokal affair bring to light about how the journal that published the article works?",
+  "choix": [
+   "That the journal's editors did not know general relativity existed",
+   "That no humanities text can ever draw on scientific vocabulary",
+   "That the review process apparently did not check the validity of the text's physical and mathematical claims",
+   "That the journal had already, before Sokal, published other hoaxes that went undetected"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The affair proves nothing about the editors' general knowledge or about possible other hoaxes, which are undocumented. What the episode reveals, as Sokal himself tells it, is that no reviewer competent in physics or mathematics apparently checked the substance of the scientific claims put forward before publication, even though those claims were false in a way recognizable to an undergraduate.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What specific hypothesis does Alan Sokal seek to test by submitting his article to Social Text?",
+   "choix": [
+    "That humanities journals systematically reject any article signed by a physicist",
+    "That a respected journal would publish a text stuffed with nonsense if it sounded good and flattered its editors' ideological prejudices",
+    "That Social Text practiced more rigorous peer review than physics journals",
+    "That Social Text's readers were able to spot an obvious scientific error"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Sokal states it himself in Lingua Franca: he wanted to test whether a journal would publish a text stuffed with nonsense, provided it sounded good and flattered the editors' ideological preconceptions."
+  },
+  {
+   "question": "Which of the following claims does Sokal's hoax article actually make?",
+   "choix": [
+    "That Einstein's theory of general relativity would be entirely false",
+    "That mathematics has produced no verifiable result since the 19th century",
+    "That Rupert Sheldrake's morphogenetic field would constitute a cutting-edge theory of quantum gravity",
+    "That quantum physics was invented by French philosophers"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The article claims, among other things, that the morphogenetic field of the biologist Rupert Sheldrake would constitute a cutting-edge theory of quantum gravity, a claim absurd to any undergraduate physicist."
+  },
+  {
+   "question": "What was Sokal's real target, in his own words as reported in the card?",
+   "choix": [
+    "The humanities as a whole, which he judged devoid of any value",
+    "The journal Social Text in particular, which he sought to have shut down",
+    "The post of editor in chief of Social Text, which he coveted himself",
+    "A specific laxity: tolerating learned vocabulary rather than checking the reasoning"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Sokal has always denied otherwise: his target was not an entire discipline but the laxity of a review system that tolerates learned vocabulary without checking the soundness of the reasoning it carries."
+  }
+ ]
+}

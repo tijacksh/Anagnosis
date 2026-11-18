@@ -1,0 +1,88 @@
+{
+ "id": "chi-fullerene-c60",
+ "slug": "decouverte-du-fullerene-c60",
+ "langue": "en",
+ "empreinte_fr": "a0efad036ff71da6",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Sixty carbon atoms that draw a soccer ball",
+ "accroche": "In 1985, an experiment designed to understand stardust accidentally produces a molecule shaped like a soccer ball.",
+ "contenu_vulgarise": "In September 1985, at Rice University in Texas, a team uses a laser to vaporize a rotating graphite disk, then pushes the resulting carbon cloud into a jet of helium before analyzing it with a mass spectrometer. The experiment is not meant to make a new molecule: the British chemist Harold Kroto wants to reproduce in the laboratory the long carbon chains he has detected by radio astronomy around red giant stars.\n\n## A peak that shouldn't be there\n\nOn the spectrum, one mass stands out sharply above all the others: 720, exactly sixty carbon atoms. Over two weeks of work with the students Sean O'Brien and Jim Heath, the team, which also includes Robert Curl and Richard Smalley, looks for a geometry that would explain such stability. Only one closed figure, made solely of five- and six-sided faces with no two pentagons ever adjacent, closes sixty vertices on itself exactly: twenty hexagons and twelve pentagons, the same figure as the stitching of a soccer ball, or of the geodesic domes designed by the architect Richard Buckminster Fuller. The molecule takes his name: buckminsterfullerene.\n\nThe paper announcing it, barely two pages in Nature in November 1985, can rely only on that mass peak and that hypothesis about shape. No one has yet seen the molecule, or weighed it, or touched it: the laser produces only traces invisible to the naked eye.\n\n## Five years before anyone could hold a gram\n\nThat is where the real obstacle awaits the discovery. A molecule identified in a spectrum is not yet a molecule that can be studied: measurable quantities would be needed to confirm the structure and explore its properties. The blockage lasts five years. In 1990, the German physicist Wolfgang Krätschmer and the American Donald Huffman, who were reproducing carbon-rich interstellar dust grains in the laboratory to study their optical properties, discover that a simple electric discharge between two graphite electrodes, in a helium atmosphere, deposits on the walls a soot containing C60 in abundance. Their paper, published in Nature, suddenly gives access to grams of the molecule, where Kroto and Smalley's apparatus had produced only undetectable traces.\n\nThese grams are what open up the field. C60 can be purified, crystallized, doped, and becomes the origin of an entire chemistry of hollow forms of carbon, extended as early as 1991 by the discovery of nanotubes. Kroto, Curl, and Smalley receive the Nobel Prize in Chemistry in 1996, eleven years after their mass peak, the time it took for the discovery to stop being a mere curve on a screen.",
+ "repere": {
+  "texte": "In 1985, an experiment vaporizing graphite with a laser at Rice University produces a mass peak at 720, that is, sixty carbon atoms assembled into a truncated icosahedron, twenty hexagons and twelve pentagons, immediately named buckminsterfullerene.",
+  "source": "Kroto, Heath, O'Brien, Curl & Smalley, “C60: Buckminsterfullerene,” Nature, 318, 1985",
+  "url": "https://doi.org/10.1038/318162a0"
+ },
+ "carte": {
+  "punch": "An experiment on stardust produced a soccer ball made of carbon.",
+  "idee": "In 1985, at Rice University, a team vaporizes graphite with a laser to study interstellar carbon. An unexpected mass peak reveals a cage of sixty atoms assembled like a soccer ball: C60, named in tribute to the architect Buckminster Fuller.",
+  "source_courte": "Kroto et al., Nature, 1985"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Rice University — Milestones in Science: Discovery of C60",
+   "url": "https://naturalsciences.rice.edu/c60-discovery",
+   "note": "In English. The full account of the discovery, from the university where it took place."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the researchers conclude that the mass peak at 720 corresponded to a cage of sixty carbon atoms?",
+  "choix": [
+   "Because an electron microscope had already photographed the molecule before the experiment",
+   "Because sixty was the only even number tested by the mass spectrometer that day",
+   "Because the color of the carbon cloud changed only at that precise mass",
+   "Because only one closed figure made of nonadjacent pentagons and hexagons closes sixty vertices"
+  ],
+  "bonne_reponse": 3,
+  "explication": "No photograph or color change identified the molecule: geometry decided it. The only closed cage made of five- and six-sided faces, with no two pentagons ever adjacent, closes exactly sixty vertices, which matches the observed peak and explains an unusual stability.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What was Harold Kroto originally trying to do in carrying out this laser vaporization experiment on graphite?",
+   "choix": [
+    "Make a new conducting material for electronics",
+    "Reproduce in the laboratory the carbon chains detected around red giant stars",
+    "Test a hypothesis about the crystal structure of diamond",
+    "Study the thermal resistance of graphite at very high temperature"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Kroto wanted to reproduce in the laboratory the long carbon chains he had detected by radio astronomy around red giant stars."
+  },
+  {
+   "question": "What obstacle prevents the C60 molecule from being truly studied for five years after 1985?",
+   "choix": [
+    "Kroto's apparatus produced only traces invisible to the naked eye",
+    "A patent filed by Rice University kept any other team from working on it",
+    "No sufficiently precise mass spectrometer yet existed",
+    "The scientific community refused to believe it existed"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Kroto and Smalley's apparatus produced only traces of C60, in quantities too small to be studied or weighed."
+  },
+  {
+   "question": "How do Krätschmer and Huffman manage to produce measurable quantities of C60 in 1990?",
+   "choix": [
+    "By heating powdered graphite in a vacuum furnace",
+    "By dissolving graphite in a strong acid and then recrystallizing it",
+    "By an electric discharge between two graphite electrodes in helium",
+    "By irradiating graphite with an X-ray beam"
+   ],
+   "bonne_reponse": 2,
+   "explication": "A simple electric discharge between two graphite electrodes, in a helium atmosphere, deposits a soot rich in C60."
+  },
+  {
+   "question": "Which discovery, in 1991, directly extends the chemistry opened by C60?",
+   "choix": [
+    "Synthetic diamond",
+    "Carbon nanotubes",
+    "Graphene",
+    "Carbon fiber"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The chemistry of hollow forms of carbon opened by C60 is extended as early as 1991 by the discovery of nanotubes."
+  }
+ ]
+}

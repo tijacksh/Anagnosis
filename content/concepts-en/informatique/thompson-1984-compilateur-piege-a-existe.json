@@ -1,0 +1,84 @@
+{
+ "id": "inf-thompson-1984-compilateur-piege-a-existe",
+ "slug": "thompson-1984-compilateur-piege-a-existe",
+ "langue": "en",
+ "empreinte_fr": "44429df02ec90ee8",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Expression « le plus joli programme » traduite depuis le français (« the prettiest program ») ; auteur d'origine : Ken Thompson, texte original en anglais."
+  }
+ ],
+ "titre": "Ken Thompson's Booby-Trapped Compiler: An Experiment That Really Existed",
+ "accroche": "In 1984, Ken Thompson describes a booby-trapped compiler that no review of the code reveals. It is usually read as a thought experiment: the program existed.",
+ "contenu_vulgarise": "In his Turing Award lecture, delivered in October 1983 and published in *Communications of the ACM* in August 1984, Ken Thompson presents “the prettiest program” he ever wrote. He builds it in three stages. Many readers have seen it as a thought experiment: an elegant way of raising a question of trust. The program, however, existed.\n\n## Three Stages\n\nThe first is a program that prints its own text. The second turns on a chicken-and-egg problem: the C compiler is itself written in C. For it to recognize a new sequence, the vertical tab `\\v` for example, you teach it once, recompile it, and its source code no longer needs to keep any trace of it: the knowledge has passed into the binary.\n\nThe third stage applies the same principle to a trap. The compiler is modified so that it miscompiles certain programs. When it recognizes the `login` command, it slips a backdoor into it. When it recognizes its own source, it slips in the code that redoes all of this. Then the trap is removed from the source: the compiler's text is clean, its binary no longer is, and every recompilation reproduces the trap.\n\n## What the Conclusion Says\n\nThompson's moral is plain: no verification or review at the source-code level protects against using code you have not checked all the way down. He could have targeted an assembler, a loader, or even the microcode, the processor's internal program. The lower the level, he says, the harder such flaws will be to spot.\n\n## A True Story\n\nRuss Cox, who got the code running again in 2023, sums up the converging accounts: the booby-trapped compiler existed and was even copied, but it never got beyond the PWB group at Bell Labs. Its members spotted it because the compiler grew with each recompilation. The cause, according to what Thompson told Cox, was a mundane defect: one extra null byte added at each generation. Thompson states that the booby-trapped compiler was never distributed any farther. A copy resurfaced in 2023, on tapes Dennis Ritchie had given to Warren Toomey.\n\n## Where the Idea Comes From, and How to Defend Against It\n\nThompson acknowledges in his paper that he had read of the possibility of such a Trojan horse in a U.S. Air Force review of an early implementation of Multics, an operating system of the time, without being able to find the precise reference again. David A. Wheeler points out that Karger and Schell's 1974 analysis of Multics was the first to identify the problem. He formalized a countermeasure: compile the source of the compiler under test with a second, trusted compiler, recompile that same source with the binary thus obtained, then compare this result, bit for bit, to the suspect executable. His 2009 dissertation gives a proof of it, tested on four compilers including GCC, a very widely used compiler.\n\nThe open question is how far down the chain, from the compiler to the microcode, a review remains possible.",
+ "citation": {
+  "texte": "No amount of source-level verification or scrutiny will protect you from using untrusted code.",
+  "auteur": "Ken Thompson",
+  "source": "Reflections on Trusting Trust, Communications of the ACM 27(8), pp. 761-763, August 1984",
+  "url": "https://doi.org/10.1145/358198.358210"
+ },
+ "carte": {
+  "punch": "The booby-trapped compiler Thompson described in 1984 was not just an idea: it had been written.",
+  "idee": "In 1984, Thompson shows that a compiler can copy a trap into its own binaries without it appearing in the source. According to Russ Cox (2023), this compiler existed and never got beyond the PWB group at Bell Labs.",
+  "source_courte": "Thompson, CACM, 1984; Cox, 2023"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Karger and Schell, security analysis of Multics (1974), cited by Wheeler",
+   "url": "https://dwheeler.com/trusting-trust/",
+   "note": "Reference page on the defense and its antecedents."
+  }
+ ],
+ "quiz": {
+  "question": "According to Thompson, why is reading the compiler's source code not enough to rule out this trap?",
+  "choix": [
+   "Because the trap is hidden in a third-party library that no one reviews",
+   "Because the trap is concealed by encryption that takes too long to break",
+   "Because the compiler's binary copies the trap, which is absent from its own source",
+   "Because the trap only triggers on machines with particular hardware"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The trap is taught to the binary: the compiler copies it at every recompilation, even though its source is clean. It hides neither in a third-party library, nor behind encryption, nor in particular hardware: Thompson mentions microcode only as a lower level still, where the same kind of trap would be harder to find.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How did the PWB group at Bell Labs spot the booby-trapped compiler, according to Russ Cox?",
+   "choix": [
+    "By carefully reading the compiler's source code every week",
+    "Because an employee recognized the backdoor in the binary with the naked eye",
+    "Because the compiler grew with each recompilation, owing to an extra null byte",
+    "Thanks to a security audit ordered by Bell Labs management"
+   ],
+   "bonne_reponse": 2,
+   "explication": "According to what Thompson told Russ Cox, the compiler grew with each generation because of a mundane defect, one extra null byte, which allowed members of the PWB group to spot it."
+  },
+  {
+   "question": "What countermeasure does David A. Wheeler propose against a booby-trapped compiler?",
+   "choix": [
+    "Banning any compiler written in the same language it compiles",
+    "Compiling the source under test with a trusted compiler, recompiling that result, then comparing the final binary bit for bit to the suspect executable",
+    "Rewriting the compiler entirely in microcode to avoid any software dependency",
+    "Having the source code reviewed by at least three independent programmers"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Wheeler formalizes diverse double-compiling: compile the source of the compiler under test with a second, trusted compiler, recompile that same source with the binary obtained, then compare this result, bit for bit, to the suspect executable."
+  },
+  {
+   "question": "According to Wheeler, which analysis was the first to identify this type of problem, before Thompson?",
+   "choix": [
+    "Karger and Schell's security analysis of Multics, in 1974",
+    "The NSA's annual report on cryptography, in 1977",
+    "Thompson's own thesis, defended in 1970",
+    "A paper by Dennis Ritchie published in 1969"
+   ],
+   "bonne_reponse": 0,
+   "explication": "David A. Wheeler points out that Karger and Schell's 1974 analysis of Multics, ten years before Thompson's paper, was the first to identify the problem."
+  }
+ ]
+}

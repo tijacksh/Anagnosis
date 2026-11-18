@@ -1,0 +1,74 @@
+{
+ "id": "econ-jeu-ultimatum-guth-1982",
+ "slug": "jeu-ultimatum-guth-1982",
+ "langue": "en",
+ "empreinte_fr": "81239c49e6d5b3c1",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Ultimatum Game, or Homo Economicus Caught Out",
+ "accroche": "In 1982, a very simple experiment in Cologne shows that sharing money doesn't follow the logic of profit alone.",
+ "contenu_vulgarise": "Imagine someone hands you a hundred euros, to be shared with a person you will never see again. You decide the split; the other person has only one choice: accept, and each walks away with their share, or refuse, and the hundred euros vanish for both. No negotiation, no second round. How much do you offer?\n\n## What theory predicts, what the experiment shows\n\nA perfectly rational and self-interested agent, the “homo economicus” of the textbooks, should offer the minimum possible, one euro for example, and the other should accept: one euro is always better than nothing. It is this prediction that three researchers at the University of Cologne, Werner Güth, Rolf Schmittberger, and Bernd Schwarze, put to the test in 1982, in an experiment that has remained the benchmark of the genre ever since: the ultimatum game. Published in the Journal of Economic Behavior and Organization, their study confirms nothing of what theory predicted. Offers most often cluster around 40% of the sum, far from the rational minimum, and offers below 30% are frequently refused, even though this refusal also deprives the refuser of any gain.\n\n## Punishing costs, and people pay anyway\n\nRefusing three euros out of ten to keep nothing makes no sense if one is only trying to maximize one's gain. It does make sense if one also cares that the split be fair, to the point of accepting a loss in order to sanction the one who didn't respect it. The Cologne experiment, replicated since in dozens of countries and contexts, with sums sometimes equivalent to several months of local wages, finds the same tension everywhere: low offers exist, but they regularly run into a refusal that costs both players dearly.\n\n## What the flaw changed\n\nThe ultimatum game doesn't show that people are irrational; it shows that their rationality is not limited to immediate self-interest. This flaw in the model of purely self-interested choice fed an entire current, behavioral economics, which seeks to formalize what the game brings to light: a preference for fairness that enters the calculation on the same footing as money, and that later models (such as the inequity aversion model formulated by Ernst Fehr and Klaus Schmidt in 1999) try to quantify. The question is no longer only how much you earn, but how much the other earns by comparison, and what you are willing to lose to keep the relationship bearable.",
+ "repere": {
+  "texte": "In the ultimatum game, offers most often cluster around 40% of the sum to be shared, and offers below 30% are frequently refused: even though this refusal also deprives the refuser of any gain.",
+  "source": "Wikipedia, “Ultimatum game”",
+  "url": "https://en.wikipedia.org/wiki/Ultimatum_game"
+ },
+ "carte": {
+  "punch": "Theory says a minimal offer is enough. In 1982, players often refuse less than 30%.",
+  "idee": "In 1982, in Cologne, three researchers have people split a sum of money in a single move. Theory predicts a minimal offer accepted; offers most often cluster around 40%, and those below 30% are frequently refused, even at the cost of losing everything.",
+  "source_courte": "Güth et al., 1982"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does a player sometimes refuse an offer in the ultimatum game, even though this refusal also deprives them of any gain?",
+  "choix": [
+   "Because they didn't understand the rules of the game",
+   "Because they think they can negotiate a second round",
+   "Because they sacrifice their gain to punish a split judged unfair",
+   "Because the proposed sum is always less than one euro"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The refusal is not a sign of error: studies show that players accept losing money to prevent a split they judge too unequal, even though no second round is possible in this game.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "At which university do Werner Güth, Rolf Schmittberger, and Bernd Schwarze conduct the ultimatum game experiment in 1982?",
+   "choix": [
+    "The University of Cologne",
+    "The University of Chicago",
+    "Harvard University",
+    "The University of Vienna"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Werner Güth was a professor of economic theory at the University of Cologne from 1977 to 1986, where he conducts the experiment with Schmittberger and Schwarze.",
+   "statut": "valide"
+  },
+  {
+   "question": "Around what proportion of the total sum do the offers observed in the ultimatum game most often cluster?",
+   "choix": [
+    "40%",
+    "5%",
+    "Exactly 50%, with no variation at all",
+    "90%"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text states that offers most often cluster around 40% of the sum to be shared, far from the rational minimum predicted by theory.",
+   "statut": "valide"
+  },
+  {
+   "question": "What current of research did the ultimatum game help bring about?",
+   "choix": [
+    "Behavioral economics",
+    "Monetarism",
+    "Supply-side economics",
+    "Keynesianism"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The entry states that this flaw in the model of purely self-interested choice fed an entire current, behavioral economics, which seeks to formalize this preference for fairness.",
+   "statut": "valide"
+  }
+ ]
+}

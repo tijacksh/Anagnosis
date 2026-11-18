@@ -1,0 +1,105 @@
+{
+ "id": "econ-courbe-laffer-serviette-1974",
+ "slug": "courbe-laffer-serviette-1974",
+ "langue": "en",
+ "empreinte_fr": "c15ec565603a0dab",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Retraduit du français ; propos d'Arthur Laffer, original anglais (Heritage Foundation, 2004). Mention « traduit de l'anglais » retirée de citation/source puisque la citation est redonnée en anglais."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Trois citations retraduites du français : Laffer (2004), Ibn Khaldoun (Muqaddima, via traduction anglaise citée par Laffer), Keynes (The Means to Prosperity, 1933) ; plus le « rumor has it » de Goolsbee (1999). Originaux anglais ou arabe à restituer."
+  }
+ ],
+ "titre": "The Laffer Curve: A Napkin That Laffer Doesn't Remember",
+ "accroche": "The Laffer curve was reportedly born on a restaurant napkin in 1974. Its author says he doesn't remember it, and the idea is more than six centuries old.",
+ "contenu_vulgarise": "According to the account that Laffer himself retells in 2004, the economist dines in December 1974 at the Two Continents restaurant, in the Washington Hotel, in Washington. Around the table: Jude Wanniski, of the *Wall Street Journal*, and two close associates of President Gerald Ford, Donald Rumsfeld, his chief of staff, and Dick Cheney, Rumsfeld's deputy and a former classmate of Laffer's at Yale. Laffer is then teaching at the University of Chicago. They are discussing Ford's “WIN” plan (*Whip Inflation Now*), which calls for a tax increase. Laffer reportedly took his napkin and a pen and drew a curve linking the tax rate to government revenue.\n\n## A scene whose date varies\n\nThis account comes from Wanniski, in a 1978 article in *The Public Interest*, which also christens the drawing the “Laffer curve.” Laffer writes in 2004: “Personally, I don't remember the details of that evening, but Wanniski's version might well be true.” He adds that only one thing bothers him: the restaurant used cloth napkins, and his mother had raised him not to ruin nice things.\n\nAn object complicates the story. The National Museum of American History, in Washington, holds a cloth napkin, which Wanniski had kept as a souvenir, bearing a Laffer curve and an inscription “To Don Rumsfeld, at our Two Continents Rendezvous, 9/13/74, Art B. Laffer.” The museum dates it to September 1974, not December. The two dates don't match, and the museum's notice doesn't say which one is right.\n\n## What the curve says\n\nAt a tax rate of 0%, the government collects nothing. At 100%, no one has any interest in declaring what they earn, and revenue is almost zero: Wanniski notes that activity doesn't stop for all that, it shifts to barter. Between the two, revenue passes through a maximum. Laffer gives the mechanism as two effects. The arithmetic effect: with an unchanged base, a lower rate brings in less per dollar. The economic effect: a lower rate encourages people to work, to produce, and to declare, which widens the base. Depending on the starting level, one outweighs the other.\n\n## An idea older than the anecdote\n\nLaffer himself writes that he didn't invent it. He cites, in 2004, the philosopher Ibn Khaldun, in the 14th century, in the *Muqaddima*: “At the beginning of the dynasty, taxation yields a lot with small assessments. At the end of the dynasty, it yields little with large assessments.” He also cites Keynes, who writes in 1933, in *The Means to Prosperity*, that the argument shouldn't seem strange “that taxation can be high enough to defeat its own purpose,” and that a cut is more likely than an increase to balance the budget.\n\n## A shape, not a number\n\nThe curve asserts that a peak exists. It doesn't say where it is, and that is where the whole debate plays out. In 1999, the economist Austan Goolsbee recalls in the *Brookings Papers on Economic Activity* that the idea is known as the Laffer curve, “rumor has it” after a sketch on a cocktail napkin, and that the American debate over whether revenue can be raised by cutting rates goes back much further. The shape holds at the two extremes, where revenue is zero or nearly so; the position of the peak, for a given tax and a given country, remains a question that each era must measure anew.",
+ "citation": {
+  "texte": "Personally, I don't remember the details of that evening, but Wanniski's version might well be true.",
+  "auteur": "Arthur Laffer",
+  "source": "“The Laffer Curve: Past, Present, and Future,” Heritage Foundation, June 1, 2004",
+  "url": "https://www.heritage.org/taxes/report/the-laffer-curve-past-present-and-future"
+ },
+ "carte": {
+  "punch": "The Laffer curve was reportedly born on a napkin. Laffer says he doesn't remember it.",
+  "idee": "The account of the December 1974 dinner comes from Wanniski (1978). Laffer writes in 2004 that he doesn't remember it. A napkin signed “9/13/74” is held at the Smithsonian, and Laffer himself cites Ibn Khaldun and Keynes as forerunners.",
+  "source_courte": "Laffer, Heritage Foundation, 2004"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Jude Wanniski, “Taxes, Revenues, and the 'Laffer Curve',” The Public Interest, Winter 1978",
+   "url": "https://web.archive.org/web/20121016190126/http://www.nationalaffairs.com/doclib/20080528_197805001taxesrevenuesandthelaffercurvejudewanniski.pdf",
+   "note": "The article in which the name “Laffer curve” appears; archived PDF copy."
+  },
+  {
+   "titre": "Austan Goolsbee, “Evidence on the High-Income Laffer Curve from Six Decades of Tax Reform,” Brookings Papers on Economic Activity, 1999",
+   "url": "https://www.brookings.edu/articles/evidence-on-the-high-income-laffer-curve-from-six-decades-of-tax-reform/",
+   "note": "The introduction mentions the napkin rumor; only this introduction was read."
+  }
+ ],
+ "quiz": {
+  "question": "What does the Laffer curve claim about the relationship between tax rates and government revenue?",
+  "choix": [
+   "That a cut in rates always increases revenue",
+   "That revenue is highest at the highest possible rate",
+   "That revenue rises with the rate up to a plateau, then never falls",
+   "That there is a peak, beyond which a higher rate brings in less"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The curve claims that a maximum exists: revenue is zero at 0% and almost zero at 100%, so raising a rate that is already beyond the peak reduces revenue. It doesn't say that every rate cut pays for itself, or that revenue levels off without coming back down; the position of the peak is an empirical question.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who coined the term “Laffer curve”?",
+   "choix": [
+    "Arthur Laffer himself, on the evening of the 1974 dinner",
+    "Jude Wanniski, in a 1978 article published in The Public Interest",
+    "Donald Rumsfeld, who kept the signed napkin",
+    "Austan Goolsbee, in his 1999 article for the Brookings Papers"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The term comes from Jude Wanniski's article published in 1978 in The Public Interest. Laffer himself says he doesn't remember the dinner, Rumsfeld only kept the inscribed napkin, and Goolsbee merely picks up the name that already existed in 1999."
+  },
+  {
+   "question": "What does the date written on the napkin held at the Smithsonian reveal?",
+   "choix": [
+    "“12/1974,” which exactly confirms Wanniski's account",
+    "It is undated, which rules out any verification",
+    "“9/13/74,” in September, whereas Wanniski places the dinner in December 1974",
+    "“1978,” the year of the article that christened the curve"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The napkin bears the inscription “9/13/74,” September 13, whereas Wanniski's account places the dinner in December 1974: the two dates don't match, and the museum doesn't settle which one is correct."
+  },
+  {
+   "question": "By what two effects does Laffer explain how government revenue varies with the tax rate?",
+   "choix": [
+    "The psychological effect and the monetary effect",
+    "The arithmetic effect and the economic effect",
+    "The supply effect and the demand effect",
+    "The Wanniski effect and the Khaldun effect"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Laffer describes an arithmetic effect, with an unchanged base a lower rate brings in less per dollar, and an economic effect, a lower rate encourages people to work and to declare, which widens the base. The other pairs of terms don't appear in the entry."
+  },
+  {
+   "question": "Whom does Laffer himself cite as having formulated this idea before him?",
+   "choix": [
+    "Adam Smith and David Ricardo",
+    "Milton Friedman and Jude Wanniski",
+    "Austan Goolsbee and Dick Cheney",
+    "Ibn Khaldun (14th century) and Keynes (1933)"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Laffer himself cites Ibn Khaldun, in the Muqaddima in the 14th century, and Keynes, in The Means to Prosperity in 1933, as forerunners of the idea. Smith, Ricardo, and Friedman are not mentioned in the entry, and Wanniski, Goolsbee, and Cheney did not formulate this idea before Laffer."
+  }
+ ]
+}

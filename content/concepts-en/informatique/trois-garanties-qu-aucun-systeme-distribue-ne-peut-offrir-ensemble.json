@@ -1,0 +1,78 @@
+{
+ "id": "inf-trois-garanties-qu-aucun-systeme-distribue-ne-peut-offrir-ensemble",
+ "slug": "trois-garanties-qu-aucun-systeme-distribue-ne-peut-offrir-ensemble",
+ "langue": "en",
+ "empreinte_fr": "5ee96719131eabf3",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Three Guarantees No Distributed System Can Offer Together",
+ "accroche": "In 2000, Eric Brewer argues that a distributed system can never guarantee consistency, availability, and tolerance to network failures all at once.",
+ "contenu_vulgarise": "A database distributed across several data centers must answer requests from millions of users, keeping the same information synchronized on every copy. One day, the network cable linking two of these centers is cut. Each half of the system keeps receiving requests, but the halves can no longer talk to each other. Should it answer anyway, at the risk of giving different answers depending on which center is queried? Or refuse to answer until the link comes back, even if that makes the service unavailable? In July 2000, computer scientist Eric Brewer poses this alternative as a general principle, in a talk given at the Symposium on Principles of Distributed Computing, in Portland.\n\n## Three Guarantees, Two at Most\n\nBrewer names three properties that a distributed data system would like to offer at the same time. Consistency: every read returns the latest write, whichever node is queried. Availability: every request receives a response, with no error and no infinite delay. Partition tolerance: the system keeps working even when messages are lost or the network splits into several pieces. His conjecture, presented at the opening of the conference, fits in one sentence: a system cannot guarantee all three at once.\n\nTwo years later, researchers Seth Gilbert and Nancy Lynch, of MIT, give a rigorous proof of it in a paper in ACM SIGACT News. Their reasoning concerns exactly what happens during a network partition: a node cut off from the rest of the system must choose between two bad options. Either answer a request immediately, at the risk of returning stale data that it could not check with the other nodes, which breaks consistency. Or wait until communication is restored before answering, which breaks availability. Since a wide-area network can never guarantee that no message will ever be lost, partition tolerance is not a choice. It is a fact of life. The real decision, the one that remains open to design, is therefore between consistency and availability.\n\n## What Brewer Himself Corrects, Twelve Years Later\n\nThe formula “two properties out of three” was taken up, simplified, and brandished as a sales pitch by the NoSQL movement of the 2000s, often as if a system had to choose once and for all between consistency and availability. In 2012, Brewer republishes a paper, CAP Twelve Years Later, to correct this reading, which he himself considers misleading. First, partitions remain rare: the rest of the time, nothing prevents a system from offering both properties at once. Second, the choice does not apply to the whole system: two different operations, or two different subsystems, can each decide for themselves, depending on what matters most to them at that moment. Consistency and availability are, moreover, matters of degree, not binary boxes: a system can aim for near-total consistency rather than perfect consistency, or high availability rather than absolute availability. The CAP theorem therefore does not dictate a compromise fixed once and for all; it sets the one real limit, the one that applies at the precise moment the network breaks.",
+ "citation": {
+  "texte": "The CAP theorem asserts that any networked shared-data system can have only two of three desirable properties. However, by explicitly handling partitions, designers can optimize consistency and availability, thereby achieving some tradeoff of all three.",
+  "auteur": "Eric Brewer",
+  "source": "“CAP Twelve Years Later: How the ‘Rules’ Have Changed,” Computer (IEEE Computer Society), vol. 45, no. 2, 2012, p. 23",
+  "url": "https://doi.org/10.1109/MC.2012.37"
+ },
+ "carte": {
+  "punch": "A distributed system cannot stay both reliable and always available during a network failure.",
+  "idee": "In 2000, Eric Brewer argues that a distributed data system cannot guarantee consistency, availability, and tolerance to network failures all at once: two out of three at best. Proven in 2002, this result has often been misunderstood as a fixed choice; Brewer himself qualified it in 2012.",
+  "source_courte": "Gilbert & Lynch, ACM SIGACT, 2002"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Julian Browne — Brewer's CAP Theorem",
+   "url": "https://www.julianbrowne.com/article/brewers-cap-theorem",
+   "note": "Standard explanation, widely cited in the distributed-systems community."
+  }
+ ],
+ "quiz": {
+  "question": "Why can a distributed system not guarantee both consistency and availability during a network outage?",
+  "choix": [
+   "Because today's computers do not have enough memory to store all the synchronized copies",
+   "Because the law requires hosting providers to choose a single type of guarantee per service",
+   "Because network partitions are so rare that no system has ever had to handle them",
+   "Because a node cut off from the rest of the system must either answer with potentially stale data or wait and become unavailable"
+  ],
+  "bonne_reponse": 3,
+  "explication": "During a network outage, an isolated node has only two options: answer right away, at the risk of returning data not checked against the other copies, which breaks consistency; or wait for the link to come back to be sure, which breaks availability. It is a logical constraint, proven by Gilbert and Lynch in 2002, not a memory problem or a regulatory matter.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who rigorously proves Brewer's conjecture, and when?",
+   "choix": [
+    "A Google team, in 2006",
+    "Leslie Lamport, in 1998",
+    "Eric Brewer himself, in his original 2000 paper",
+    "Seth Gilbert and Nancy Lynch, of MIT, in 2002"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Two years after Brewer presented the conjecture, Seth Gilbert and Nancy Lynch, researchers at MIT, give a rigorous proof of it in 2002 in a paper in ACM SIGACT News."
+  },
+  {
+   "question": "What does Brewer correct himself in 2012, in his paper CAP Twelve Years Later?",
+   "choix": [
+    "He proves that his 2000 conjecture was in fact false",
+    "He claims that partition tolerance is never necessary",
+    "He clarifies that the choice between consistency and availability can be made per operation or per subsystem",
+    "He proposes a fourth guarantee that distributed systems should aim for"
+   ],
+   "bonne_reponse": 2,
+   "explication": "In 2012, Brewer qualifies the simplified reading of his theorem: the choice does not apply to the whole system but can be made operation by operation, depending on what matters most at that moment."
+  },
+  {
+   "question": "Where and when does Eric Brewer first present his conjecture?",
+   "choix": [
+    "In 2005, at a conference in San Francisco",
+    "In July 2000, at the Symposium on Principles of Distributed Computing, in Portland",
+    "In 1998, in a paper published by MIT",
+    "In 2012, in the IEEE journal Computer"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Brewer first poses his conjecture in July 2000, at the opening of a talk given at the Symposium on Principles of Distributed Computing, held in Portland."
+  }
+ ]
+}

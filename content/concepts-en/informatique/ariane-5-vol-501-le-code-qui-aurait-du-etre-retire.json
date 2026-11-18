@@ -1,0 +1,77 @@
+{
+ "id": "inf-ariane-5-vol-501-code-reutilise",
+ "slug": "ariane-5-vol-501-le-code-qui-aurait-du-etre-retire",
+ "langue": "en",
+ "empreinte_fr": "57d5170704cdc575",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Rapport de la commission d'enquête Lions, « ARIANE 5 Flight 501 Failure » (1996) : formule « pour des raisons de communauté » traduite depuis le français (« for reasons of commonality »)."
+  },
+  {
+   "chemin": "repere/texte",
+   "type": "texte-officiel-a-verifier",
+   "note": "Rapport de la commission d'enquête Lions, « ARIANE 5 Flight 501 Failure » (1996) : formule « pour des raisons de communauté » traduite depuis le français (« for reasons of commonality »)."
+  }
+ ],
+ "titre": "Ariane 5, Flight 501: The Code That Should Not Have Been Running",
+ "accroche": "On June 4, 1996, Ariane 5 destroys itself about 37 seconds after H0, the reference time. The cause: a function carried over from Ariane 4, useless for this flight.",
+ "contenu_vulgarise": "On June 4, 1996, the first Ariane 5 lifts off from Kourou. About 37 seconds after H0, the launch reference time, or roughly thirty seconds after liftoff according to the report, it veers off its trajectory, breaks apart, and is destroyed. What doomed it comes down to a single line of software, and above all to a decision that was in no way negligent.\n\n## The mechanism\n\nThe rocket has two inertial reference units, identical, which measure its orientation and movements. Among their calculations, a value called horizontal bias, denoted BH, was first expressed as a 64-bit floating-point number. At one point, the program converts it into a 16-bit signed integer, which can only represent values between -32,768 and 32,767. The inquiry board's report is blunt: the value to be converted exceeded what a 16-bit integer can hold. The conversion fails, and both units stop working: the report places this failure at H0 + 36.7 seconds.\n\n## Why this calculation was still running\n\nThe most astonishing thing is not the conversion, it is its presence. The function in question is an alignment function, which produces a useful result only before liftoff. Yet it kept running afterward, in anticipation of the unlikely event of a countdown interruption: this requirement dated back more than ten years, to the first Ariane models. On Ariane 4, the function stayed active for 50 seconds after the start of flight mode, to allow time for the launcher to be taken back under ground control. For Ariane 5, which has a different preparation sequence, this requirement does not apply: the report specifies that the function was kept “for reasons of commonality” with the previous software.\n\nThe report also notes that seven variables were at risk of causing this overflow, that four received protection, and that three, including BH, did not: reasoning held them to be physically limited or largely safe, reasoning that the report declares wrong in the case of BH. The code was not defective in the sense usually meant: it had flown without trouble on Ariane 4, for whose trajectories it had been designed.\n\n## The shift\n\nThis failure is often told as that of an absent-minded programmer. The report chaired by Professor J. L. Lions, dated July 19, 1996, tells something else: a component that was correct in its original context, carried over into another without rechecking the assumptions that made it correct. The right question is not “who forgot this test?” but “who was supposed to know that this assumption no longer held?” Reusing proven code reduces the bugs we know about, and can introduce those we don't know we are carrying along with it. How many systems today run with functions kept for the same reason, because they have always been there?",
+ "repere": {
+  "texte": "According to the inquiry board, the conversion of a 64-bit floating-point value into a 16-bit signed integer exceeded the latter's capacity at H0 + 36.7 seconds; the function concerned, useful on Ariane 4, had been kept on Ariane 5 “for reasons of commonality” even though it was not required there.",
+  "source": "Inquiry board chaired by J. L. Lions, “ARIANE 5 Flight 501 Failure,” Paris, July 19, 1996",
+  "url": "https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html"
+ },
+ "carte": {
+  "punch": "Ariane 5 destroyed itself because of a calculation it did not need.",
+  "idee": "On June 4, 1996, a 64-bit to 16-bit conversion exceeds its capacity at H0 + 36.7 seconds. The function came from Ariane 4 and was not required for this flight: it had been kept for reasons of commonality.",
+  "source_courte": "Lions Report, 1996"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Inquiry board report (full text)",
+   "url": "https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html",
+   "note": "The section on the BH conversion and the recommendations."
+  }
+ ],
+ "quiz": {
+  "question": "Why was the fatal conversion of the BH value still being executed on Ariane 5?",
+  "choix": [
+   "The Ariane 4 alignment code had been kept for reasons of commonality, even though this requirement does not apply to Ariane 5",
+   "A programmer had forgotten to delete a test line before the first flight",
+   "Both inertial reference units depended on this function to compute Ariane 5's trajectory",
+   "The function was used to measure engine thrust during the climb"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The report states that this requirement came from Ariane 4 and was not required for Ariane 5; it was kept for commonality. It was not a test left in by mistake, nor a trajectory or thrust calculation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What happens when a 64-bit floating-point value is converted to a 16-bit signed integer and the value is too large?",
+   "choix": [
+    "It exceeds what 16 bits can represent and the conversion fails",
+    "It is automatically rounded to the maximum value",
+    "It is truncated with no consequence",
+    "It is ignored and replaced by zero"
+   ],
+   "bonne_reponse": 0,
+   "explication": "A 16-bit signed integer can only represent -32,768 to 32,767. Beyond that, there is overflow, which the report describes as the cause of the units' shutdown."
+  },
+  {
+   "question": "What reading of the origin of the failure does the inquiry board's report offer?",
+   "choix": [
+    "A programmer's typing error",
+    "A component that was correct on Ariane 4, carried over without rechecking its assumptions",
+    "An engine defect",
+    "A failure of the ground computer"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The report describes a function kept for Ariane 5 although not required there, with protection missing for BH, following reasoning that the report judges wrong. It is neither a typo nor an engine defect."
+  }
+ ]
+}

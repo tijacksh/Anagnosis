@@ -1,0 +1,77 @@
+{
+ "id": "inf-eliza-weizenbaum-1966-script-psychotherapeute",
+ "slug": "eliza-weizenbaum-1966-script-psychotherapeute",
+ "langue": "en",
+ "empreinte_fr": "0af3dbe0331fce71",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "ELIZA and the Psychotherapist Role: A Choice to Mask Ignorance",
+ "accroche": "In 1966, Weizenbaum gives his program the role of a psychotherapist, a setting in which one can know nothing about the world without causing surprise.",
+ "contenu_vulgarise": "“It seems that you hate me.” To a sentence like that, an MIT program replies in 1966: “What makes you think I hate you?” It is the example its author, Joseph Weizenbaum, gives to illustrate one of ELIZA's rules. The program often passes for the first machine to have “understood” what it was told. Weizenbaum argued something else.\n\n## An engine and a script\n\nELIZA is written in MAD-SLIP, a programming language of the era, for an IBM 7094 and runs on MIT's MAC time-sharing system, where people converse from remote typewriters. The program reads the sentence from left to right and looks for a keyword; each keyword has a rank, and a higher rank wins out over a word spotted earlier. Decomposition rules chop up the sentence, reassembly rules build the reply from the pieces. All of this is stored in a script, separate from the engine. The most famous script simulates a psychotherapist.\n\n## Why that role\n\nWeizenbaum explains his choice in the January 1966 article, published in *Communications of the ACM*. The psychiatric interview is an exchange in natural language between two people, with clearly framed roles, in which one can strike the pose of knowing nothing about the real world without that being surprising. If the patient talks about boats, replying “tell me about boats” passes as an invitation to go on, not as ignorance. The feeling of being heard and understood comes in large part from the one who speaks: he lends the other a knowledge and a subtlety that the other does not have.\n\n## A program that never meant to heal\n\nELIZA was thus not designed as a therapy tool and, according to the 99% Invisible account, contained no information about human thought or emotions. Weizenbaum argues in the article that a program's apparent intelligence crumbles as soon as its workings are explained: what was magic becomes a collection of procedures.\n\nThe public did the opposite. An anecdote, told by Weizenbaum in an archival interview picked up by the podcast *99% Invisible*, sums it up: his secretary, after a few exchanges with the program, asks him to please leave the room. Alarmed to see the program's responses taken seriously, Weizenbaum would afterward argue that fields requiring compassion, therapy foremost, should not be entrusted to machines.\n\nWhat remains is to ask what a dialogue is worth when one of the two partners hears nothing.",
+ "repere": {
+  "texte": "ELIZA, described in Communications of the ACM (vol. 9, no. 1, January 1966), cuts each sentence apart according to rules and reassembles a reply from it: with the rule (0 YOU 0 ME), “It seems that you hate me” becomes “What makes you think I hate you.”",
+  "source": "Joseph Weizenbaum, “ELIZA — A Computer Program For the Study of Natural Language Communication Between Man and Machine,” CACM 9(1), pp. 36-45, 1966",
+  "url": "https://doi.org/10.1145/365153.365168"
+ },
+ "carte": {
+  "punch": "ELIZA played the therapist: Weizenbaum had chosen a role in which knowing nothing is not surprising.",
+  "idee": "In 1966, Weizenbaum chose the psychiatric interview because an interlocutor can seem to know nothing about the world there without causing surprise. The feeling of being understood comes in large part from the speaker, not from the program.",
+  "source_courte": "Weizenbaum, CACM, 1966"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Copy of the 1966 article (UMBC)",
+   "url": "https://courses.cs.umbc.edu/331/papers/eliza.html",
+   "note": "Readable HTML version, with the decomposition and reassembly rules."
+  }
+ ],
+ "quiz": {
+  "question": "According to Weizenbaum, where does the feeling of being understood by ELIZA come from, in large part?",
+  "choix": [
+   "A knowledge base about emotions built into the script",
+   "The program engine's analysis of the meaning of sentences",
+   "The speed of response of MIT's time-sharing system",
+   "The user, who lends the interlocutor a knowledge it does not have"
+  ],
+  "bonne_reponse": 3,
+  "explication": "In the 1966 article, Weizenbaum writes that the feeling of being heard and understood comes in large part from the speaker, who lends the other a knowledge and a subtlety it does not have. The engine merely spots keywords and reassembles sentence fragments, without analyzing meaning; the 99% Invisible account mentions no knowledge base about emotions, and nothing in the article makes response speed the source of the impression.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What language is ELIZA written in, and on what machine does it run?",
+   "choix": [
+    "In MAD-SLIP, on an IBM 7094, via MIT's MAC time-sharing system",
+    "In Fortran, on a Cray-1 installed at Stanford",
+    "In LISP, on a PDP-11 connected to the Internet",
+    "In COBOL, on an IBM mainframe rented by a bank"
+   ],
+   "bonne_reponse": 0,
+   "explication": "ELIZA is written in MAD-SLIP for an IBM 7094 and runs on MIT's MAC time-sharing system, where people converse from remote typewriters."
+  },
+  {
+   "question": "How does ELIZA build its reply to a sentence?",
+   "choix": [
+    "It translates the sentence into an intermediate language before translating it back",
+    "It consults a database of ready-made replies sorted by topic",
+    "It spots a keyword according to its rank, cuts up the sentence, then reassembles a reply from the pieces",
+    "It computes a statistical probability over a corpus of recorded dialogues"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The program reads the sentence, looks for a keyword ranked by priority, then applies decomposition and reassembly rules stored in a script separate from the engine, to build its reply."
+  },
+  {
+   "question": "What happened when Weizenbaum's secretary conversed with ELIZA, according to the anecdote picked up by 99% Invisible?",
+   "choix": [
+    "She immediately recognized a program and made fun of it",
+    "She asked Weizenbaum to please leave the room",
+    "She refused to continue the conversation after a single sentence",
+    "She offered to improve the psychotherapist script"
+   ],
+   "bonne_reponse": 1,
+   "explication": "After a few exchanges with the program, the secretary asked Weizenbaum to leave the room, taking seriously what the program was only simulating, which alarmed him."
+  }
+ ]
+}

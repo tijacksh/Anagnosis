@@ -1,0 +1,66 @@
+{
+ "id": "gen-dogme-central-crick-1957-1970",
+ "slug": "dogme-central-crick-1957-1970",
+ "langue": "en",
+ "empreinte_fr": "f534eef0ba99cfa4",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "Anglais, Francis Crick, note « Ideas on protein synthesis » (octobre 1956), retraduite depuis le français ; la parenthèse « traduit de l'anglais » a été retirée car sans objet en anglais ; l'original anglais est à rétablir depuis la note de Crick"
+  }
+ ],
+ "titre": "Crick's Central Dogma: A Prohibition, Not a DNA-RNA-Protein Sequence",
+ "accroche": "In 1957, Crick states a prohibition: the information in a protein does not flow back to nucleic acids. The textbook formula says something else.",
+ "contenu_vulgarise": "In many courses, the central dogma of molecular biology fits in a single line: DNA makes RNA, which makes protein. In 1970, Howard Temin and David Baltimore discover reverse transcriptase, an enzyme that copies RNA into DNA. The journal Nature publishes an editorial titled “Central dogma reversed.” Francis Crick, the author of the dogma, replies in the same journal, with some irritation according to Matthew Cobb, that he never claimed this transfer was impossible.\n\n## What Crick had stated\n\nCrick first set out the idea in public on September 19, 1957, at University College London, at a symposium of the Society for Experimental Biology. The talk was first titled “Protein synthesis”; it appeared in 1958 as “On protein synthesis,” at about eleven thousand words. For him, the word “information” has a narrow meaning: the determination of a sequence, whether the bases of a nucleic acid or the amino acids of a protein.\n\nHe sorts the transfers into three categories. Four exist: DNA to DNA (replication), DNA to RNA, RNA to protein, and RNA to RNA (the copying of RNA viruses). Two are possible, though nothing shows it: DNA to protein, and RNA to DNA. Three are judged impossible: protein to protein, protein to RNA and, above all, protein to DNA. The dogma prohibits only those three.\n\nThe transfer from RNA to DNA therefore appeared, as a dotted line, on the diagram in his 1956 note, published in slightly modified form in 1970. Reverse transcriptase did not overturn the dogma: it filled a box that its author had left open.\n\n## Where the textbook version comes from\n\nThe formula “DNA to RNA to protein” is the one James Watson popularized in 1965 in his textbook The Molecular Biology of the Gene. According to Cobb, the even looser version “DNA makes RNA, which makes protein” comes from a suggestion by Jean Brachet in 1960, and the idea goes back to André Boivin in 1949 and Alexander Dounce in 1953. These versions describe a direction of flow. Crick's describes a prohibition.\n\n## A badly chosen word\n\nThe word “dogma” has fed a great many misunderstandings. Crick said later that he had not properly understood its meaning, and that Jacques Monod had had to explain it to him. In the 1957 talk, he in fact presents the idea as speculative and acknowledges that direct proof is negligible. He later admitted that “basic assumption” would have been more accurate.\n\n## What still holds\n\nIn 1970, Crick pointed out that knowledge of the cell remained limited and that surprises were possible. He cited scrapie in sheep, where a protein seemed to act as an infectious agent. Prion diseases have not shaken the argument: according to Cobb, infection there changes the conformation of a protein and does not synthesize anything from scratch. As for transgenerational epigenetic inheritance, Cobb writes that in no organism is there evidence that a DNA sequence is rewritten from the information in a protein.\n\nA prohibition this narrow would fall with a single established counterexample: Cobb's 2017 essay knows of none. It remains to be seen which future case will get past the narrow definition Crick gives to the word “information.”",
+ "repere": {
+  "texte": "In an October 1956 note titled “Ideas on protein synthesis,” Crick writes: “Once information has passed into a protein, it can no longer get out of it.”",
+  "source": "Cobb, “60 years ago, Francis Crick changed the logic of biology,” PLoS Biology, 15(9), 2017, citing Crick's 1956 note",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5602739/"
+ },
+ "carte": {
+  "punch": "Crick's central dogma is not “DNA makes RNA, which makes protein.”",
+  "idee": "In 1957, Crick states that information, once it has entered a protein, does not come back out: protein to DNA, RNA, or protein is judged impossible. The transfer from RNA to DNA, which reverse transcriptase showed in 1970, was left open.",
+  "source_courte": "Cobb, PLoS Biology, 2017"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does Crick's central dogma prohibit, as he states it in 1957?",
+  "choix": [
+   "An enzyme copying an RNA sequence into a DNA sequence",
+   "DNA passing through RNA before forming a protein",
+   "A protein passing its information on to DNA or to RNA",
+   "An RNA virus copying its own RNA inside the cell"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Crick judges impossible the transfer of information from a protein to a protein, an RNA, or a DNA. RNA to DNA was left open, RNA to RNA exists, and DNA passing through RNA is a permitted transfer.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which 1970 discovery gave rise to the editorial “Central dogma reversed” in Nature?",
+   "choix": [
+    "An enzyme that copies RNA into DNA",
+    "A protein able to copy its sequence into DNA",
+    "An RNA able to replicate without DNA",
+    "A DNA producing a protein without passing through RNA"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Temin and Baltimore discover reverse transcriptase. Crick replies that the transfer from RNA to DNA was never excluded by his statement. A transfer from a protein would be a true reversal, and RNA to RNA and DNA to protein are not the 1970 discovery."
+  },
+  {
+   "question": "Where does the approximate formula “DNA makes RNA, which makes protein” come from, according to Cobb?",
+   "choix": [
+    "From Crick's original 1957 talk, which formulated it that way",
+    "From a suggestion by Jean Brachet in 1960, itself inherited from André Boivin (1949) and Alexander Dounce (1953)",
+    "From Watson's textbook, which invented it out of whole cloth in 1965",
+    "From Jacques Monod, who proposed it to Crick after explaining the word dogma to him"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Cobb attributes this formula to a suggestion by Jean Brachet in 1960, itself inherited from André Boivin (1949) and Alexander Dounce (1953); neither Crick in 1957, nor Watson in 1965, nor Monod formulated it that way."
+  }
+ ]
+}

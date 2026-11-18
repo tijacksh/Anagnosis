@@ -1,0 +1,71 @@
+{
+ "id": "chi-bougie-faraday-particules-de-carbone",
+ "slug": "bougie-faraday-particules-de-carbone",
+ "langue": "en",
+ "empreinte_fr": "a606afee62353edb",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A candle flame shines because it contains soot",
+ "accroche": "Faraday burns hydrogen in oxygen: far hotter than a candle, almost no light. The glow comes from solid particles.",
+ "contenu_vulgarise": "Light a candle and ask yourself where the light comes from. The first answer that comes to mind is: heat. Faraday shows that this is not enough. When he burns hydrogen in oxygen, he gets a heat far greater than that of a candle, and very little light.\n\n## A course for children\n\n*The Chemical History of a Candle* collects the lectures Michael Faraday gave at the Royal Institution to a young audience, published by William Crookes (the edition read here dates from 1908). In it, Faraday asserts that there is no better door into natural philosophy than the physical phenomena of a candle.\n\n## What shines is the solid\n\nIn the hydrogen flame burning in oxygen, Faraday places a piece of lime, which neither burns nor vaporizes. The lime glows with a brilliance that Faraday compares to the voltaic light, that of the electric arc, and calls almost equal to that of the sun. He concludes that the flame did not lack heat: it lacked particles able to stay solid.\n\nIn the candle, those particles are carbon. The heat of the flame breaks down the wax vapor and releases grains of carbon, which rise heated and glowing, then burn in turn and leave into the air in the form of an invisible substance, which Faraday promises to discuss later. He demonstrates it through a series of tests:\n\n- a tube dipped into the bright part of the flame brings back a black smoke, very different from the white vapor drawn off lower down, and one that puts out a flame held to it;\n- a wire gauze pressed against this bright part puts it out at once and lets smoke rise;\n- the smoke of a camphene lamp, sent into a hydrogen flame, starts to shine again;\n- a platinum wire, which does not change in the heat, becomes very luminous in the flame.\n\nHis rule: all bright flames contain solid particles, whether it is gunpowder, phosphorus or zinc.\n\n## The gas burner\n\nIlluminating gas contains a lot of carbon. But if Faraday caps the burner with a wire gauze, or blows on the flame, air mixes with the gas before combustion: the carbon burns before it has been released as particles, and the flame turns pale and blue. The difference in light comes down solely, Faraday says, to the solid particles not separating out before the gas has burned.\n\n## The shift\n\nIn a candle flame, light does not measure heat, it measures how much solid the flame contains. A NASA page dated 2020 confirms this in weightlessness: on Earth, convection gives the flame its teardrop shape and carries soot toward its tip, which makes it yellow; in microgravity, without convection, the flame is spherical, sootless and blue.\n\nThe soot a candle gets blamed for is therefore what makes it shine. A flame that burns its carbon before releasing it, like that of the burner capped with a gauze, gives far less light: it is pale and blue.",
+ "repere": {
+  "texte": "A hydrogen flame burning in oxygen produces far more heat than a candle, but very little light: it lacks solid particles. A piece of lime dipped into it glows brilliantly.",
+  "source": "Faraday, The Chemical History of a Candle, ed. W. Crookes, Chatto & Windus, 1908",
+  "url": "https://www.gutenberg.org/ebooks/14474"
+ },
+ "carte": {
+  "punch": "A flame far hotter than a candle can hardly light anything.",
+  "idee": "Faraday burns hydrogen in oxygen: lots of heat, little light. He dips lime into it, a solid, and it glows. In the candle, the light comes from grains of carbon released by the wax, which glow before burning.",
+  "source_courte": "Faraday, Chemical History of a Candle"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Faraday: The Chemical History of a Candle, full text (in English)",
+   "url": "https://www.gutenberg.org/ebooks/14474",
+   "note": "The six lectures, with the experiments described one by one."
+  },
+  {
+   "titre": "NASA: a candle flame in weightlessness (in English)",
+   "url": "https://www.nasa.gov/image-article/candle-flame-1g-vs-microgravity/",
+   "note": "One image and a caption: the spherical blue flame, next to the Earth flame."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the flame of a gas burner turn pale and blue when air mixes with the gas before combustion?",
+  "choix": [
+   "The carbon burns before it has been released as solid particles, so there are no more glowing grains",
+   "The air cools the flame, which can no longer heat the carbon it contains",
+   "The air brings nitrogen, whose signature is the blue flame",
+   "The gas contains less carbon once mixed with air, since it is diluted"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Faraday explains that the gas contains a lot of carbon, but that the air, arriving before combustion, burns it before it separates into solid particles: no heated solid, no glow. Heat is not the cause of the missing brilliance, nitrogen is not the source of the color, and the amount of carbon in the gas does not change. The pale blue that remains is the flame without its incandescent grains.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does a tube dipped into the bright part of a candle flame bring back?",
+   "choix": [
+    "The same white vapor as at the base of the wick, only hotter",
+    "An invisible gas that relights an extinguished match",
+    "Liquid wax thrown off by the heat of the flame",
+    "A black smoke, unburned carbon, that puts out a flame held to it"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Faraday gets a black smoke, which does not burn and puts the flame out: it is the candle's carbon, the one that glows in the flame. The white vapor, by contrast, is drawn off lower down."
+  },
+  {
+   "question": "What does the contrast between a candle flame on Earth and in microgravity show, according to NASA?",
+   "choix": [
+    "That the flame is hotter in weightlessness, so clearer and brighter",
+    "That without convection the flame becomes spherical and sootless, so blue",
+    "That wax melts faster in weightlessness, which puts the flame out",
+    "That gravity makes the flame rise higher, which makes it more yellow"
+   ],
+   "bonne_reponse": 1,
+   "explication": "NASA describes a spherical, sootless, blue flame when convection currents are absent. The yellow color on Earth comes from soot carried toward the tip, not from a higher temperature."
+  }
+ ]
+}

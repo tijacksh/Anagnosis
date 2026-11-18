@@ -1,0 +1,66 @@
+{
+ "id": "inf-knight-capital-2012-power-peg-code-mort-reveille",
+ "slug": "knight-capital-2012-power-peg-code-mort-reveille",
+ "langue": "en",
+ "empreinte_fr": "cccb094010cd6170",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Knight Capital: A Reused Flag Wakes Code Dead Since 2003",
+ "accroche": "On August 1, 2012, one server in eight runs code abandoned in 2003. In 45 minutes, Knight Capital loses more than $460 million.",
+ "contenu_vulgarise": "On August 1, 2012, as the New York Stock Exchange opens, Knight Capital Americas receives 212 small customer orders. Its automated router, called SMARS, is supposed to break them into smaller orders and send them to market venues. In roughly 45 minutes, it generates more than 4 million executions across 154 stocks, for more than 397 million shares. The firm ends up with net positions of about $3.5 billion long in 80 stocks and $3.15 billion short in 74 others. It loses more than $460 million.\n\n## The mechanism\n\nPeople often speak of a “bug in the new software.” The SEC's order, dated October 2013, tells a different story. Knight was deploying code for the New York Stock Exchange's Retail Liquidity Program, which was starting that day. That code reused a flag, a yes-or-no value, that used to activate a function called Power Peg. Knight had stopped using Power Peg in 2003, but the code was still present in the router. In 2005, part of its counting mechanism, the one that stops sending orders as soon as the original order has been fully executed, had been moved without Power Peg being retested.\n\nSMARS ran on eight servers. The deployment was done in stages, starting July 27, and one technician did not copy the new code to one of the eight. No one reviewed it: there was no written procedure requiring a second pair of eyes. On August 1, on the seven updated servers, the flag controlled the new code. On the eighth, it woke up the old Power Peg, which sent orders continuously without knowing that the original order had already been filled.\n\nBefore the open, an internal system had in fact produced 97 “Power Peg disabled” error emails, starting at 8:01 a.m. They had not been designed as alerts, and no one read them. During the incident, an attempted fix even made matters worse: uninstalling the new code from the seven correct servers made them switch to the old code as well.\n\n## What the episode changes\n\nThe culprit is not a line written in 2012. It is code that no one was using anymore, left in place for nearly ten years, and a flag recycled for another meaning. Dead code is not inert code: it waits for a condition to call it back.\n\nThe SEC sanctioned Knight not for a programming error, but for the absence of controls: on October 16, 2013, it fined the firm $12 million under the market access rule. This was, according to the SEC, its first action based on that rule.\n\nHow many production systems still carry, somewhere, a function that no one calls anymore?",
+ "repere": {
+  "texte": "212 customer orders produced more than 4 million executions across 154 stocks, for more than 397 million shares in about 45 minutes, and a loss of more than $460 million for Knight.",
+  "source": "SEC, Order Instituting Administrative and Cease-and-Desist Proceedings against Knight Capital Americas LLC, Release No. 34-70694, October 16, 2013",
+  "url": "https://www.sec.gov/files/litigation/admin/2013/34-70694.pdf"
+ },
+ "carte": {
+  "punch": "Code abandoned in 2003 woke up on one server in eight and cost $460 million.",
+  "idee": "On August 1, 2012, a reused flag reactivated the Power Peg function on one of Knight Capital's eight servers, which had not received the new code. More than 4 million executions in 45 minutes. The SEC imposed a $12 million fine.",
+  "source_courte": "SEC, Order 34-70694, 2013"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "SEC press release of October 16, 2013",
+   "url": "https://www.sec.gov/newsroom/press-releases/2013-222",
+   "note": "Short version of the order, with the SEC's statement on the market access rule."
+  }
+ ],
+ "quiz": {
+  "question": "Why did only one of the eight servers send orders en masse?",
+  "choix": [
+   "It was faster than the others and flooded the market with its orders",
+   "The new code contained a calculation error absent from the other seven servers",
+   "A hacker had modified that server's software the day before the open",
+   "The new code had not been copied to it, and the flag woke up the old Power Peg"
+  ],
+  "bonne_reponse": 3,
+  "explication": "A technician did not copy the new code to this server, and the reused flag activated the old Power Peg function there. It was not a matter of speed, nor an error in the new code, which worked on the other seven, nor an intrusion.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What made the incident worse while Knight Capital was trying to fix it?",
+   "choix": [
+    "A second flag, hidden in the code, activated in turn on the eighth server",
+    "Uninstalling the new code on the seven correct servers made them switch to the old Power Peg as well",
+    "The New York Stock Exchange suspended trading in the 154 stocks involved, blocking any fix",
+    "The vendor of the SMARS software cut off remote access, preventing any intervention"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The seven updated servers were working normally; by uninstalling their new code in an attempt to contain the incident, Knight's technicians made them switch to the old Power Peg as well, worsening the situation instead of stopping it."
+  },
+  {
+   "question": "What did Knight Capital do with the 97 “Power Peg disabled” error emails received starting at 8:01 a.m. on the day of the incident?",
+   "choix": [
+    "It automatically forwarded them to the SEC, which opened an investigation within the hour",
+    "It shut down SMARS upon receiving the first email, limiting the loss to a few million",
+    "Nothing: they had not been designed as alerts, and no one read them",
+    "It forwarded them to the New York Stock Exchange vendor's technical support"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text specifies that these emails had not been designed as alerts and that no one read them before the open, even though they were already flagging the problem at 8:01 a.m., before the incident had even begun."
+  }
+ ]
+}

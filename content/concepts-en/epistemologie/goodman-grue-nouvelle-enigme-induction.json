@@ -1,0 +1,66 @@
+{
+ "id": "epi-goodman-grue-nouvelle-enigme-induction",
+ "slug": "goodman-grue-nouvelle-enigme-induction",
+ "langue": "en",
+ "empreinte_fr": "544faa5d178ea640",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Grue: The New Riddle of Induction",
+ "accroche": "All emeralds seen so far are green. They are also “grue,” a word of Goodman's that predicts blue after a given date.",
+ "contenu_vulgarise": "All the emeralds examined so far are green. One concludes that all emeralds are green, and no one sees any difficulty. The philosopher Nelson Goodman then proposes a word of his own invention, “grue”: an object is grue if it is green when examined before a given instant *t*, and blue if it is not. Let us set *t* at a future date, say January 1, 2100.\n\nAll the emeralds examined so far are green, hence grue: they were examined before *t* and they are green. The reasoning that concludes “all emeralds are green” therefore also concludes “all emeralds are grue.” Both conclusions rest on the same observations. But the first predicts that an emerald examined after *t* will be green, the second that it will be blue.\n\n## A new riddle\n\nHume had already shown that nothing proves the future will resemble the past. Goodman, in *Fact, Fiction, and Forecast* (London, 1954, then Harvard, 1955), shifts the question. Suppose we agree to extend the past to the future: what remains is to know from *which* regularity we draw the prediction. The observations do not decide between “green” and “grue.”\n\nThe objection comes at once: “grue” is a rigged word, one that contains a date. Goodman turns it around. Let us define “bleen”: blue before *t*, green afterward. A speaker whose basic words were “grue” and “bleen” would define “green” as “grue before *t*, bleen afterward,” and would find that it is “green” that hides a date. The two languages, notes the *Stanford Encyclopedia of Philosophy*, are symmetrical in all their semantic and syntactic properties. No criterion of form separates the good word from the bad.\n\n## What this shifts\n\nGoodman's answer comes not from logic but from the history of our usage. We extend “green” to the future rather than “grue” because “green” is better entrenched, what Goodman calls *entrenchment*: we have used it far more often in past predictions. What can legitimately be extended to the future thus depends on the language we use and have used.\n\nGoodman thus describes how we choose our words, without claiming to justify that choice by a rule of form. This is the point where his answer joins Hume's, and the one for which he is criticized.",
+ "repere": {
+  "texte": "For Goodman, an object is “grue” if it is examined before an instant t and is green, or if it is not examined before t and is blue. All emeralds observed before t are therefore both green and grue, and the hypotheses “all emeralds are green” and “all emeralds are grue” predict opposite colors for those examined after t.",
+  "source": "Stanford Encyclopedia of Philosophy, “Nelson Goodman,” section 5.3 (2024 revision)",
+  "url": "https://plato.stanford.edu/entries/goodman/"
+ },
+ "carte": {
+  "punch": "All emeralds seen so far are green. They are also “grue,” a word that predicts blue after t.",
+  "idee": "Goodman defines “grue”: green if examined before a date t, blue otherwise. The same emeralds therefore confirm both “green” and “grue,” two opposite predictions for after t. Observations alone do not say which regularity to project.",
+  "source_courte": "Goodman, 1954-1955"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy: The Problem of Induction",
+   "url": "https://plato.stanford.edu/entries/induction-problem/",
+   "note": "Where the new riddle stands in relation to Hume's problem and Popper's response."
+  }
+ ],
+ "quiz": {
+  "question": "Why is Goodman's riddle not reducible to the problem of induction posed by Hume?",
+  "choix": [
+   "Because Goodman proves that the future will not resemble the past, which Hume had not dared to claim",
+   "Because “grue” is a rigged word that contains a date, which is enough to rule it out of the reasoning",
+   "Because Goodman rejects induction and substitutes refutation for it, in the manner of Popper",
+   "Because, even if one accepts induction, the same observations support “green” and “grue”"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Goodman does not claim that the future differs from the past and does not reject induction. The date contained in “grue” does not rule it out: a language built on “grue” and “bleen” makes “green” the word that contains a date. The riddle lies in the fact that the same observations confirm incompatible regularities.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does Goodman define the word “grue” that he invents for his riddle?",
+   "choix": [
+    "Green if the object is examined before a given instant t, blue if it is not",
+    "Blue during the day, green at night, whatever the instant of observation",
+    "Green for emeralds, blue for all other gemstones",
+    "A color that changes with the temperature of the room where the object is examined"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Goodman defines “grue” as: green if the object is examined before an instant t fixed in advance, and blue if it is not examined before that instant."
+  },
+  {
+   "question": "On what does Goodman base the choice to extend “green” rather than “grue” to the future?",
+   "choix": [
+    "On a physical experiment that demonstrates that emeralds remain green after t",
+    "On entrenchment: “green” is a word we have used far more often in our past predictions",
+    "On a logical rule that forbids, by construction, predicates containing a date",
+    "On the authority of dictionaries, which do not define the word “grue” as a color"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Goodman answers with the history of our usage, entrenchment: we extend “green” rather than “grue” because that word has been used far more often in past predictions, not because of a logical rule of form."
+  }
+ ]
+}

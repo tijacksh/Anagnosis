@@ -1,0 +1,64 @@
+{
+ "id": "bio-cameleon-cristaux-guanine-signal-social",
+ "slug": "cameleon-cristaux-guanine-signal-social",
+ "langue": "en",
+ "empreinte_fr": "6bdcbda7f40c6985",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Chameleon Changes Color to Be Seen",
+ "accroche": "In the chameleon, color changes as guanine crystals move apart, and its evolution tracks social signaling more than camouflage.",
+ "contenu_vulgarise": "A male panther chameleon meets a rival, in Madagascar. In a few minutes, his green background turns yellow or orange, his blue spots go white, his red spots lighten. When the other leaves, the skin goes back to its resting color. This spectacle is readily explained by camouflage: the animal would be disguising itself to blend into the foliage. Two studies, one on the mechanism, the other on evolution, shift the question.\n\n## A skin that tunes itself\n\nThe textbook says that the colored cells of the skin, the chromatophores, disperse or concentrate grains of pigment. That mechanism exists: it regulates the brightness of the skin, in both sexes and at every age. In 2015, Teyssier, Milinkovitch and their colleagues, in Geneva, show that it does not by itself explain the change in color of adult males.\n\nThey film duels, track the color of the skin frame by frame, then observe it under the electron microscope. Beneath the surface, cells called iridophores contain small guanine crystals, about 127 nanometers across, arranged in a regular lattice. Such a stacking behaves like a photonic crystal: it reflects the wavelengths dictated by the spacing between its elements, in the manner of the vivid colors of certain birds and insects. Between a resting animal and an excited one, the size of the crystals does not change. The spacing between them does: on average it is 30% smaller at rest. With a tight lattice, the skin returns blue; with a loosened lattice, the reflection slides toward yellow, orange and red.\n\nTo check this, the researchers immerse excited skin in hypertonic solutions, which make the lattice shrink: its reflectivity shifts toward blue. An optical simulation of the measured spacings recovers the colors observed on the living animal. Color therefore does not depend on pigments alone: a lattice can be tuned.\n\nBeneath this layer, a second population of iridophores carries larger crystals, in disordered bricks, 200 to 600 nanometers long. It shows no visible change of color, but strongly reflects the near infrared: about 45% of the solar radiation in that range is turned away, according to the measurements. The authors see in this a possible thermal protection.\n\n## Hiding or showing off\n\nThe question remains why change at all. In 2008, Devi Stuart-Fox and Adnan Moussalli compare 21 lineages of dwarf chameleons from southern Africa. They have males face off in their habitat, measure their colors, then evaluate them with models of the chameleon's vision and that of its bird predators. The more a species changes color, the more its fighting and courtship signals contrast with the background and between regions of its body. The camouflage hypothesis finds no support in these data. The authors propose that these displays, which are brief, are selected to stand out to the eyes of a conspecific while exposing the animal little to predators.\n\nThe shift comes down to an inversion: the skin's feat is not to erase the animal, it is to make it legible to a rival or a female, on demand. The double layer of iridophores nonetheless allows both, according to the 2015 authors: effective camouflage at rest and a spectacular display at excitement. The 21 lineages studied in 2008 do not exhaust the chameleon family, and the relative weight of the two functions remains to be measured species by species.",
+ "repere": {
+  "texte": "In the male panther chameleon, the average spacing between the guanine nanocrystals of the surface layer is 30% smaller in resting skin (blue or green) than in excited skin (yellow or white), while the size of the crystals does not vary.",
+  "source": "Teyssier, Saenko, van der Marel and Milinkovitch, Nature Communications, 2015",
+  "url": "https://doi.org/10.1038/ncomms7368"
+ },
+ "carte": {
+  "punch": "The chameleon's color is tunable: a lattice of crystals tightens or loosens.",
+  "idee": "The panther chameleon changes color by altering the spacing between guanine nanocrystals, 30% tighter at rest. Across 21 lineages of dwarf chameleons, the more a species changes color, the more its signals contrast with the background: camouflage does not explain this evolution.",
+  "source_courte": "Teyssier, 2015; Stuart-Fox, 2008"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "O'Day, K. E., “Conspicuous chameleons,” PLoS Biology, 2008",
+   "url": "https://doi.org/10.1371/journal.pbio.0060021",
+   "note": "A commentary on the Stuart-Fox and Moussalli study, aimed at a general audience."
+  }
+ ],
+ "quiz": {
+  "question": "What changes in the skin of a male panther chameleon when its color goes from green to yellow or orange?",
+  "choix": [
+   "Yellow pigments rise toward the surface as the animal becomes excited",
+   "The guanine crystals grow and reflect longer wavelengths",
+   "The deep layer of iridophores empties of its crystals and reveals a dark background",
+   "The spacing between the guanine nanocrystals increases and shifts the reflected light toward red"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The size of the crystals does not vary between rest and excitement: it is their spacing that increases (on average it is 30% smaller at rest). Pigments regulate only brightness, and the deep layer shows no visible change of color; it mainly reflects the near infrared.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did the 2008 study of 21 lineages of dwarf chameleons from southern Africa conclude?",
+   "choix": [
+    "The species that change the most are those that match their background best",
+    "The ability to change color first arose to regulate heat",
+    "The more a species changes color, the more its social signals contrast with the background"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The authors find no support for the camouflage hypothesis: the evolution of color change is associated with increasingly conspicuous fighting and courtship signals, as seen by the chameleon, and heat regulation was not the subject of the study."
+  },
+  {
+   "question": "What does the deep layer of iridophores described in 2015 do?",
+   "choix": [
+    "It reflects a large share of the near infrared, hence possible thermal protection",
+    "It changes color faster than the surface layer",
+    "It produces the yellow and red pigments of the skin"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Its larger, disordered crystals show no visible change of color during the osmotic tests. They do, however, send back about 45% of the near-infrared solar radiation, which the authors link to passive thermal protection."
+  }
+ ]
+}

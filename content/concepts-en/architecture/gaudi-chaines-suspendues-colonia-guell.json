@@ -1,0 +1,77 @@
+{
+ "id": "arc-gaudi-chaines-suspendues-colonia-guell",
+ "slug": "gaudi-chaines-suspendues-colonia-guell",
+ "langue": "en",
+ "empreinte_fr": "b0b125fa4d440d01",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Gaudí Calculated a Church by Hanging Lead-Weighted Chains",
+ "accroche": "To design a structure without equations, Gaudí hung ropes weighted with sacks of lead and let gravity draw the shape of the arches.",
+ "contenu_vulgarise": "In 1898, the Catalan industrialist Eusebi Güell commissions Antoni Gaudí to build a church for the workers of his textile colony at Santa Coloma de Cervelló, near Barcelona. Gaudí wants a structure that works only in compression, with no visible ties or buttresses, but no formula of his day can calculate in advance the shape of such a building. He chooses to have gravity itself do the calculation.\n\n## A Church Drawn Upside Down\n\nGaudí hangs from the ceiling of a workshop a network of hemp ropes, weighted at regular intervals with small sacks filled with lead whose weight reproduces, at 1/10 scale, the loads expected at each point of the future church. Left to itself, each rope naturally takes the shape of a catenary, the curve followed by a heavy cord hung from both ends. Turned upside down, this curve is the only arch shape that works in pure compression, with no bending or tension at all. To see the result right side up, Gaudí photographs the network of ropes and then flips the photograph, or places a mirror beneath the model.\n\nGaudí thus spends nearly ten years refining this model before even laying the first stone, adjusting the weights one by one until the resulting form satisfies both the balance of the loads and the look he wants to give the building. Construction begins in 1908. It stops in 1914, when Eusebi Güell's children decide to stop funding the work, and only the lower nave, the crypt, is consecrated, in 1915. Of the two naves and the forty-meter central dome planned in the original project, only this base, with its inclined basalt columns and hyperboloid vaults, came into being. It serves as a full-scale laboratory for the structural solutions that Gaudí will later reuse, on a larger scale, for the Sagrada Família.\n\n## What This Shifts\n\nA century before structural analysis software, a church was thus designed without a single equation, by a device of ropes and weights that anyone can reproduce on a table. The unfinished crypt of the Colonia Güell is not a failed fragment of a more ambitious project: it is proof, in stone, that a calculation can be done by matter itself rather than on paper.",
+ "repere": {
+  "texte": "Gaudí's hanging-rope model for the Colonia Güell reproduces the building's loads at 1/10 scale. Turned upside down, the curve each rope takes under its own weight gives the only arch shape that works in compression alone, with no bending or tension.",
+  "source": "Church of Colònia Güell, Wikipedia (in English)",
+  "url": "https://en.wikipedia.org/wiki/Church_of_Col%C3%B2nia_G%C3%BCell"
+ },
+ "carte": {
+  "punch": "Gaudí calculated an entire church by hanging ropes weighted with lead.",
+  "idee": "For the Colonia Güell, starting in 1898, Gaudí hangs a network of ropes weighted with sacks of lead: each rope naturally takes the shape of an arch that, turned upside down, works only in compression. Construction stops in 1914 for lack of funding, leaving only the crypt completed.",
+  "source_courte": "Colonia Güell, official history"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Colònia Güell, official history of the site",
+   "url": "https://gaudicoloniaguell.org/en/history/",
+   "note": "The full story of the industrial colony and Gaudí's crypt, from the institution that manages the site today."
+  }
+ ],
+ "quiz": {
+  "question": "Why did Gaudí hang ropes weighted with sacks of lead to design the Colonia Güell church?",
+  "choix": [
+   "To represent to scale the stained-glass windows he planned to install once the structure was finished",
+   "Because a hanging chain naturally takes, once turned upside down, the only arch shape that works in compression alone",
+   "To convince Eusebi Güell of the project's cost before launching construction",
+   "Because no architect of the time yet knew how to draw a stone vault"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A hanging chain spontaneously takes the curve of a catenary, which undergoes only tension; turned upside down, that same curve undergoes only compression, with no bending. It is this physical principle, and not a decorative model or a budget argument, that Gaudí exploits to calculate his structure without an equation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What scale did Gaudí use for his network of lead-weighted ropes, relative to the real church?",
+   "choix": [
+    "Twice the real size",
+    "One-tenth of the real size",
+    "The real size, at full scale",
+    "One-hundredth of the real size"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The model reproduces the building's expected loads at 1/10 scale, as confirmed by the Wikipedia source cited in the card's landmark."
+  },
+  {
+   "question": "Why does construction of the Colonia Güell church stop in 1914, after only six years of work?",
+   "choix": [
+    "A fire destroys part of the crypt already built",
+    "The Barcelona city hall withdraws its building permit",
+    "Eusebi Güell's children decide to stop funding the work",
+    "Gaudí dies before finishing the plans"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The card specifies that Eusebi Güell's heirs stop funding the site in 1914; no fire, no death of Gaudí at that date, and no permit withdrawal is mentioned."
+  },
+  {
+   "question": "Of the building Gaudí imagined for the Colonia Güell, two naves and a forty-meter central dome, what was actually built?",
+   "choix": [
+    "The central dome alone, with neither of the two naves",
+    "The complete building, dome included, finished in 1915",
+    "Only the lower nave, the crypt with its inclined basalt columns",
+    "Both naves, but without the central dome"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Only the crypt, the lower nave with its inclined basalt columns and hyperboloid vaults, came into being; the rest of the project, dome and upper nave, was never built."
+  }
+ ]
+}

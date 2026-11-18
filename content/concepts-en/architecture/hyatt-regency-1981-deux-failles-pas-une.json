@@ -1,0 +1,60 @@
+{
+ "id": "arc-hyatt-regency-1981-deux-failles-pas-une",
+ "slug": "hyatt-regency-1981-deux-failles-pas-une",
+ "langue": "en",
+ "empreinte_fr": "a812c042b8956ec8",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Hyatt Regency, 1981: The Change of Rods Was Not the Only Flaw",
+ "accroche": "In Kansas City, two walkways fall in 1981: 113 dead according to the NBS. It sees two factors, a construction-site change and an inadequate design.",
+ "contenu_vulgarise": "On July 17, 1981, at about 7:05 p.m., two suspended walkways in the lobby of the Hyatt Regency in Kansas City, Missouri, fall to the floor of the atrium. The summary of the National Bureau of Standards (NBS) report, published in May 1982, counts 113 dead and 186 injured (the body of the report gives 111 dead and 188 injured, two of whom died afterward). It calls the event, in number of dead and injured, the most devastating structural collapse ever to occur in the United States.\n\n## A Construction-Site Modification\n\nThe plans approved by the city's building permit authority called for a single series of continuous steel rods, fixed to the roof framing, that passed through the fourth-floor walkway beams and then the second-floor ones. Each beam, made of two 8-inch channels welded toe to toe to form a box, rested on a washer and a nut placed beneath it. Each thus transmitted its load to the rods on its own.\n\nDuring construction, the steel fabricator draws up something else: two series of rods, one from the roof to the fourth floor, the other from the fourth to the second. The fourth-floor beam must then carry its own walkway and the one below. The modified shop drawings bear the review stamps of the contractor, the structural engineer, and the architect. The NBS estimates that the load on these connections was thereby essentially doubled.\n\n## A Flaw That Predated the Change\n\nThe report does not stop there. It identifies two factors: the change in layout, and the inadequacy of the original design of the beam-to-rod connection, identical for all three walkways. For a single-rod connection, that is, as originally drawn, its tests give an ultimate capacity of about 60% of what is expected of a connection designed according to the Kansas City code. With the modification, the load on the fourth-floor connection nearly doubled. At the instant of collapse, it reached only 31% of the ultimate capacity expected of a compliant connection.\n\nThe authors draw a plain conclusion: from the day of construction, the walkways had only minimal capacity to carry their own weight and practically none for the load of people.\n\n## What the Calculation Shows Besides\n\nThe third-floor walkway, offset from the other two, was not touched by the change in rod layout: it remained as originally drawn, with the same single-rod connection as the other two walkways before their modification. It did not fall, but the report holds this original connection, common to all three walkways, as a factor in its own right in the collapse, and not only the change that occurred on the other two.\n\nTreating a change made during construction as the sole cause leads one to think it would have been enough to control modifications better. The report describes something else: a connection detail drawn below the expected minimum, in plans nonetheless approved by the city. What remains to be known is who, in the chain of review, could have spotted this flaw: the original plans had been approved by the city, the modified shop drawings stamped by three parties.",
+ "repere": {
+  "texte": "According to the NBS report (1982), at the instant of collapse, the load on a beam-to-rod connection of the fourth-floor walkway represented only 31% of the ultimate capacity expected of a connection designed according to the Kansas City code.",
+  "source": "R. D. Marshall et al., Investigation of the Kansas City Hyatt Regency Walkways Collapse, NBS Building Science Series 143, May 1982",
+  "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience143.pdf"
+ },
+ "carte": {
+  "punch": "Hyatt Regency, 1981: the original connection already had only about 60% of the expected capacity.",
+  "idee": "At the Hyatt Regency in Kansas City, 113 people die in 1981 when two walkways fall. The NBS report identifies two factors: a construction-site modification that essentially doubles the load, and an original connection that already reached only about 60% of the expected capacity.",
+  "source_courte": "NBS, Building Science Series 143, 1982"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "According to the NBS report, why is the change in rod layout not enough to explain the collapse?",
+  "choix": [
+   "Because the original connection, already, reached only about 60% of the expected capacity of a compliant connection",
+   "Because the change affected only the third-floor walkway, which stayed up",
+   "Because the concrete of the walkway slabs was of insufficient quality",
+   "Because the modified plans were never reviewed by anyone before construction"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The NBS identifies two factors: the change, which doubles the load on the fourth floor, and an original connection that was already inadequate. The change did affect the fourth floor, the modified plans were reviewed and stamped, and the report does not implicate the concrete.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did the modification made during construction of the Hyatt Regency change?",
+   "choix": [
+    "The fourth-floor beam had to carry its own walkway and the second-floor one",
+    "The steel rods were replaced by thinner cables, less resistant to tension",
+    "The third-floor walkway was connected to the fourth-floor one by a staircase",
+    "The box beams were replaced by solid, lighter beams"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Instead of continuous rods passing through the beams, two series of rods were used, and the fourth-floor beam had to take on the second floor's load as well. The rods, the box beams, and the third-floor walkway were not modified in this way."
+  },
+  {
+   "question": "What does the case of the third-floor walkway, which remained as originally drawn, show?",
+   "choix": [
+    "That it rested on columns, rather than being suspended from the roof by rods",
+    "That it kept the same original connection as the other two walkways, unmodified on site",
+    "That it had been secretly reinforced after the first load tests",
+    "That it used a different beam material, concrete rather than steel"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The third-floor walkway was not affected by the change in rod layout introduced during construction: it kept the single-rod connection planned originally, common to all three walkways before modification. It remained suspended from the roof by steel rods, like the other two."
+  }
+ ]
+}

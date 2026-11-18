@@ -1,0 +1,83 @@
+{
+ "id": "bio-ornithorynque-shaw-genome-2008",
+ "slug": "ornithorynque-canular-naturalistes-genome-2008",
+ "langue": "en",
+ "empreinte_fr": "a3488e994092e5e5",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Platypus, the Animal Its Discoverer Took for a Fake",
+ "accroche": "In 1799, the naturalist who opens the crate from Australia suspects someone has sewn a duck's bill onto a mammal's body.",
+ "contenu_vulgarise": "In 1799, a tanned skin arrives in London from the colony of Port Jackson, in New South Wales. George Shaw, a naturalist at the British Museum, examines it in order to describe it in his journal, The Naturalist's Miscellany. What he has before him looks like a small furred mammal with a flattened bill and webbed feet. The era is full of naturalist hoaxes sold to collectors, stuffed mermaids that joined a monkey's torso to a fish's tail. Shaw then writes a sentence that became famous: a degree of skepticism is not only pardonable but laudable in the face of so extraordinary a subject. He almost admits doubting the testimony of his own eyes about the structure of the animal's bill, but adds that he can see no appearance of a deceptive preparation: the join between the bill and the rest of the skin withstands a test he performs himself, soaking in water.\n\n## An Animal That Should Not Exist\n\nThe animal, later named Ornithorhynchus anatinus, does not merely look like an improbable assembly. Biologically, it is one. The platypus lays eggs like a bird or a reptile, nurses its young like a mammal, and males carry on their hind legs a spur connected to a venom gland, a weapon almost no other mammal possesses. It belongs to the monotremes, with the echidnas, the only mammal lineage that split off from all the others before egg-laying disappeared in the common ancestor of marsupials and placental mammals. For nearly two centuries, the question stays open: is this mix of traits an isolated curiosity, or the trace of an ancestral state that other mammals lost?\n\n## What the Genome Confirms in 2008\n\nIn 2008, in the journal Nature, a team led by Wesley Warren sequences the platypus genome and answers the question with numbers. Males carry five X chromosomes and five Y chromosomes, which form a chain at meiosis, and one of these chromosomes shows strong sequence similarity to the bird Z chromosome, with no equivalent on the human X chromosome. The genome has kept one functional gene and one pseudogene for vitellogenin, the egg-yolk protein, where the chicken keeps three and where marsupials and placental mammals have none at all: this is the exact molecular trace of egg-laying. The venom, for its part, comes from locally duplicated gene families, the same ones duplicated independently in snakes and lizards: convergent evolution, not a direct reptilian inheritance.\n\nShaw's doubt in 1799 was therefore not unfounded: the animal really does combine parts thought to belong to long-separated lineages. But what Shaw took for a craftsman's fraud turned out to be a fraud of evolution itself, a genome in which bird, reptile, and mammal traits coexist because the platypus diverged before those traits were distributed among today's lineages.",
+ "citation": {
+  "texte": "On a subject so extraordinary as the present, a degree of scepticism is not only pardonable, but laudable; and I ought perhaps to acknowledge that I almost doubt the testimony of my own eyes with respect to the structure of this animal's beak; yet must confess that I can perceive no appearance of any deceptive preparation.",
+  "auteur": "Shaw, George",
+  "source": "The Naturalist's Miscellany, vol. 10, 1799 (reproduced in full in Harry Burrell, The Platypus, Sydney, Angus and Robertson, 1927)",
+  "url": "https://www.gutenberg.org/files/78386/78386-h/78386-h.htm"
+ },
+ "repere": {
+  "texte": "Male platypuses carry five X chromosomes and five Y chromosomes, which form a chain at meiosis; one of them shows strong sequence similarity to the bird Z chromosome, with no alignment of orthologous genes to the human X chromosome.",
+  "source": "Warren et al., “Genome analysis of the platypus reveals unique signatures of evolution,” Nature, 453(7192), 175-183, 2008",
+  "url": "https://doi.org/10.1038/nature06936"
+ },
+ "carte": {
+  "punch": "Its discoverer thought someone had sewn a duck's bill onto a mammal's body.",
+  "idee": "In 1799, George Shaw receives the first platypus skin and doubts his own eyes. In 2008, sequencing of its genome confirms that the animal really does mix bird traits (egg-laying, sex chromosomes close to the avian Z) with mammal traits: a rare evolutionary outcome, not a fraud.",
+  "source_courte": "Shaw, 1799; Warren et al., Nature, 2008"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Genome analysis of the platypus reveals unique signatures of evolution (full text, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803040/",
+   "note": "Original article by Warren et al. (2008), in English, open access."
+  }
+ ],
+ "quiz": {
+  "question": "What does the 2008 sequencing of the platypus genome establish about its venom?",
+  "choix": [
+   "That it comes from a direct gene transfer from common snake ancestors",
+   "That it results from local gene duplications, the same families having also been duplicated independently in reptiles",
+   "That it is an entirely unique trait, with no equivalent in any other venomous animal",
+   "That it has disappeared in present-day populations and survives only in the fossil genome"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Platypus venom comes from local duplications of gene families (defensins, natriuretic peptide, NGF) duplicated independently in snakes and lizards: convergent evolution, not a shared direct inheritance.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where did the platypus skin Shaw received in 1799 come from, and how did he test its authenticity?",
+   "choix": [
+    "It came from Port Jackson, in New South Wales, and he soaked it in water to test the join of the bill",
+    "It came from Tasmania, and he compared the skin with a duck's under a microscope",
+    "It came from New Zealand, and he entrusted a full dissection to a colleague",
+    "It came from Port Jackson, but he made do with a visual examination and no test at all"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Shaw received a tanned skin from Port Jackson and checked the join of the bill by soaking it in water, finding no trace of assembly."
+  },
+  {
+   "question": "What do the sex chromosomes of male platypuses show?",
+   "choix": [
+    "A single X and a single Y chromosome, as in humans, but of unusual size",
+    "Ten X chromosomes and no Y chromosome, a unique case among mammals",
+    "Five X and five Y chromosomes forming a chain at meiosis, one resembling the bird Z chromosome",
+    "Five X and five Y chromosomes with sequences identical to human sex chromosomes"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The 2008 genome shows five X and five Y chromosomes in a chain at meiosis in males, one of them homologous to the avian Z chromosome, with no equivalent in humans."
+  },
+  {
+   "question": "What does the presence of one functional gene and one pseudogene for vitellogenin in the platypus genome indicate?",
+   "choix": [
+    "That it inherited this gene directly from birds through a recent gene transfer",
+    "A molecular trace of egg-laying, which marsupials and placental mammals have lost entirely",
+    "That it has more vitellogenin genes than the chicken",
+    "That egg-laying is a recent evolution in it, later than placental mammals"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The platypus keeps one functional gene and one pseudogene for vitellogenin, the egg-yolk protein, while marsupials and placental mammals have none left."
+  }
+ ]
+}

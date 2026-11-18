@@ -1,0 +1,77 @@
+{
+ "id": "bio-rotiferes-bdelloides",
+ "slug": "rotiferes-bdelloides-scandale-evolutif",
+ "langue": "en",
+ "empreinte_fr": "24395e0c162a58c2",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The rotifer that seemed to have done without sex",
+ "accroche": "An entire class of tiny freshwater animals shows, in no known species, the slightest trace of sexual reproduction.",
+ "contenu_vulgarise": "Sex is costly, in evolutionary theory: it halves each individual's genetic contribution to its offspring, and it shuffles gene combinations that can just as easily destroy a good association as preserve it. Most of the models that explain its persistence assume that no animal lineage could do without it for long without declining, overwhelmed by harmful mutations that no shuffling ever weeds out again.\n\nBdelloid rotifers, a class of several hundred species of freshwater micro-animals, have nonetheless never shown the slightest trace of sexual reproduction: no males, no meiosis, no observed mating. In 2000, in the journal Science, Matthew Meselson and David Mark Welch published molecular evidence of this asexual antiquity: the genome of several species lacks the pairs of closely related sequences expected in an organism that reproduces sexually, and carries instead two sharply diverged lineages, separated well before the group diversified.\n\n## The scandal gets complicated\n\nThe affair earned bdelloids the nickname “evolutionary scandal.” But the story does not end there. Later work by the same teams shows that these animals are in fact ancient, degenerate tetraploids: their genome carries four sets of chromosomes rather than two, inherited from an ancestral hybridization. What looked like the signature of a very long genetic celibacy could partly be explained otherwise. The question of since when, and to what extent, bdelloids truly do without sex remains, more than twenty years after the founding paper, actively debated, without the reassessment ruling it out for all that.\n\n## A genome that absorbs foreign genes\n\nWhat the bdelloid genome reveals unambiguously, however, is an unusual propensity to incorporate DNA from elsewhere. A study published in 2015 puts the share of genes of non-animal origin in the transcriptome of four species of the genus Rotaria at between 9.5% and 14.1%, nearly 41% of bacterial origin, 19% fungal, the rest split between protists and plants. The two species most exposed to repeated cycles of desiccation acquire about three times more than those that live permanently in water.\n\nThe link lies in the animal's very survival. Desiccated, a bdelloid rotifer goes dormant and its DNA fragments; upon rehydration, the cell repairs its genome by stitching the pieces back together, a repair into which fragments of foreign DNA present in the surroundings, captured in passing, may be mixed. The same mechanism that has let these animals survive dry for millions of years would thus, incidentally, have shaped one of the most cosmopolitan genomes in the animal kingdom, whether or not they otherwise do without sex.",
+ "repere": {
+  "texte": "Between 9.5% and 14.1% of the genes expressed by four species of bdelloid rotifers of the genus Rotaria are of non-animal origin, bacterial, fungal, plant, or protist, with acquisition about three times more frequent in species exposed to desiccation.",
+  "source": "Eyres, Boschetti, Crisp, Smith, Fontaneto, Tunnacliffe & Barraclough, BMC Biology, 2015",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4632278/"
+ },
+ "carte": {
+  "punch": "An entire animal class seems to have done without sex for millions of years.",
+  "idee": "No bdelloid rotifer species has ever shown sexual reproduction. Their genome, tetraploid and riddled with genes borrowed from bacteria, fungi, and plants, makes them one of the most debated cases since the founding paper by Meselson and Mark Welch in 2000.",
+  "source_courte": "Umen, Genetics, 2015; Eyres et al., BMC Biology, 2015"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Umen (2015) — Lost and Found: The Secret Sex Lives of Bdelloid Rotifers",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492367/",
+   "note": "In English; open access, traces the whole controversy since 2000."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the discovery that bdelloid rotifers are ancient tetraploids complicate the initial conclusion of Mark Welch and Meselson (2000)?",
+  "choix": [
+   "Because it would prove that these animals in fact reproduce sexually like any other known rotifer",
+   "Because the pattern of highly divergent sequences, first attributed to millions of years without sex, can also be explained by an ancient genomic hybridization",
+   "Because it would have revealed that the samples in the 2000 study were contaminated with DNA from other species",
+   "Because a tetraploid could by definition never be asexual, whatever its own evolutionary history"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The tetraploid genome of bdelloids carries four sets of chromosomes resulting from an ancestral hybridization. The pairs of highly divergent sequences, initially read as proof of a long isolation without recombination, can also result from this hybridization, which does not refute the hypothesis of ancient asexuality, but complicates how to demonstrate it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is the approximate breakdown of the origin of the non-animal genes found in bdelloids of the genus Rotaria?",
+   "choix": [
+    "Mostly of viral origin, with a small bacterial share",
+    "Split equally among bacteria, fungi, plants, and protists",
+    "Almost exclusively of plant origin",
+    "About 41% bacterial, 19% fungal, the rest split between protists and plants"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The 2015 study puts the bacterial share at about 41%, the fungal at 19%, the rest being split between protists and plants, out of 9.5 to 14.1% non-animal genes in total."
+  },
+  {
+   "question": "By what mechanism would bdelloids acquire so much foreign DNA?",
+   "choix": [
+    "Desiccation fragments their DNA, and its repair upon rehydration sometimes incorporates foreign fragments",
+    "They feed exclusively on bacteria and fungi, whose DNA they digest",
+    "A virus specific to rotifers continually inserts new genes into their genome",
+    "They regularly hybridize with other, non-bdelloid rotifer species"
+   ],
+   "bonne_reponse": 0,
+   "explication": "When desiccated, the bdelloid rotifer's DNA fragments; upon rehydration, genome repair can incorporate fragments of foreign DNA present in the surroundings."
+  },
+  {
+   "question": "Which factor most increases the acquisition of foreign genes in bdelloids, according to the 2015 study?",
+   "choix": [
+    "The population size of the species in question",
+    "Repeated exposure to cycles of desiccation",
+    "Geographic proximity to marine bacterial colonies",
+    "The age of the lineage since its evolutionary divergence"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The species most exposed to repeated cycles of desiccation acquire about three times more foreign genes than those living permanently in water."
+  }
+ ]
+}

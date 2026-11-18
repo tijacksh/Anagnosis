@@ -1,0 +1,78 @@
+{
+ "id": "mat-conjecture-de-collatz",
+ "slug": "conjecture-de-collatz",
+ "langue": "en",
+ "empreinte_fr": "e569f70b2ec08618",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A Rule a Child Can Understand, and No One Can Prove",
+ "accroche": "Even, divide by two; odd, multiply by three and add one. Does every sequence fall back to 1?",
+ "contenu_vulgarise": "Take an integer. If it is even, divide it by two. If it is odd, multiply it by three and add one. Repeat.\n\nStart with 6: 6, 3, 10, 5, 16, 8, 4, 2, 1. Nine terms and it's over.\nStart with 7: the sequence climbs to 52, drops, climbs back to 40, and takes sixteen steps to fall back to 1.\nStart with 27: it peaks at 9,232 and takes one hundred eleven steps.\n\nThe conjecture claims that every sequence eventually reaches 1, whatever the starting integer. You can state it to a ten-year-old. No one knows how to prove it.\n\n## Why It's Hard\n\nA rough argument explains both why we believe it and why we can't conclude.\n\nAn odd step is necessarily followed by an even step, since 3n+1 is even. Over those two moves, the number is multiplied by roughly 3/2. But every other even step is itself followed by another even step, and so on. On average, over a long sequence, each step multiplies the number by a factor slightly below 1: the sequence should decrease.\n\nThe argument is statistically sound and logically worthless. It describes what a typical number does; it forbids nothing for a particular number. Two escape routes remain open: a sequence could grow indefinitely, or fall into a cycle that does not contain 1.\n\nNothing rules them out. And computer verification, however far it goes, never will: a conjecture about infinitely many integers cannot be proved by trying them one by one.\n\n## Where Things Stand\n\nComputation has nonetheless been pushed far: every integer up to 2⁶⁸, about 295 billion billion, falls back to 1.\n\nOn the proof side, the strongest result is by Terence Tao, in 2019. He establishes that almost all integers, in the sense of logarithmic density, eventually drop below any function that tends to infinity, however slowly. It is the closest anyone has come to the goal. It is still not the conjecture: “almost all” leaves room for a set of exceptions, and a single one would be enough.\n\n## What the Resistance Teaches\n\nThere is a lesson in this collective failure, and it concerns the nature of arithmetic questions.\n\nThe problem mixes two structures that do not communicate. Division by two is transparent in binary notation: it shifts the digits over by one place. Multiplication by three is transparent in ternary notation. No system of representation makes both operations simple at once, and the iteration spends its time translating from one to the other, destroying with each passage the regularity the other offered.\n\nAlmost all the tools of number theory assume that you hold on to some structure. Here, structure is precisely what the rule destroys, hence the judgment reported by Jeffrey Lagarias, which has become the line attached to the problem.",
+ "citation": {
+  "texte": "Mathematics is not yet ready for such problems.",
+  "auteur": "Paul Erdős",
+  "source": "reported by Jeffrey Lagarias, “The 3x+1 problem and its generalizations,” American Mathematical Monthly, 92, 1985",
+  "url": "http://www.cecm.sfu.ca/organics/papers/lagarias/"
+ },
+ "carte": {
+  "punch": "A rule a child can understand, and that no one has been able to prove.",
+  "idee": "Even: divide by two. Odd: multiply by three and add one. The Collatz conjecture claims that every sequence falls back to 1. Verified up to 2⁶⁸, it still resists any proof.",
+  "source_courte": "Lagarias, Amer. Math. Monthly, 1985"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Terence Tao — Almost all Collatz orbits attain almost bounded values",
+   "url": "https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/",
+   "note": "The blog post where Tao explains his own result, more accessible than the paper."
+  }
+ ],
+ "quiz": {
+  "question": "Why does computer verification not prove the conjecture?",
+  "choix": [
+   "Because no finite computation covers infinitely many integers",
+   "Because computers make rounding errors on very large numbers",
+   "Because the integers tested were chosen at random rather than exhaustively",
+   "Because the conjecture also concerns negative integers, which have not been tested"
+  ],
+  "bonne_reponse": 0,
+  "explication": "A conjecture about all integers cannot be proved by trying them: there will always be infinitely many beyond the last one checked, and that is where a divergent sequence or a cycle could hide. The computation is exact and exhaustive up to its bound; this is neither a matter of precision nor of sampling.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Up to what bound has the Collatz conjecture been verified by computer?",
+   "choix": [
+    "Up to 2 to the 32nd power, about four billion",
+    "Up to 2 to the 50th power, about a thousand billion billion",
+    "Up to 2 to the 68th power, about 295 billion billion",
+    "Up to 2 to the 100th power, a number with thirty-one digits"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Bařina's 2020 computation verifies every integer up to 2 to the 68th power, about 295 billion billion, without thereby proving the conjecture."
+  },
+  {
+   "question": "What exactly does Terence Tao's 2019 result establish?",
+   "choix": [
+    "That the Collatz conjecture is true for all even integers",
+    "That almost all integers drop below any function tending to infinity",
+    "That the Collatz conjecture is equivalent to the Riemann hypothesis",
+    "That any possible cycle would necessarily have to contain the number 1"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Tao proves that, in the sense of logarithmic density, almost all integers eventually drop below any function tending to infinity, even very slowly."
+  },
+  {
+   "question": "Why do division by two and multiplication by three resist a unified mathematical treatment?",
+   "choix": [
+    "Because one of the two operations is defined only for even numbers",
+    "Because no computer can perform both calculations in the same program",
+    "Because multiplication by three changes the parity of the number each time",
+    "Because no notation makes both operations simple at once, one being clear in binary, the other in ternary"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Division by two is transparent in binary notation, multiplication by three in ternary notation, and no system makes both simple together."
+  }
+ ]
+}

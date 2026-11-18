@@ -1,0 +1,77 @@
+{
+ "id": "bio-paradoxe-peto",
+ "slug": "paradoxe-de-peto-elephant-tp53",
+ "langue": "en",
+ "empreinte_fr": "bed0f71f38576498",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Elephant, an Anomaly in Cancer Risk",
+ "accroche": "With a hundred times more cells than a human and a longer life, the elephant should in theory develop far more cancers. It dies of them less often.",
+ "contenu_vulgarise": "In theory, the more cells an organism has and the longer it lives, the more cell divisions it accumulates, hence the more mutations, hence the greater the risk that a line of cells escapes control and turns cancerous. An elephant weighs roughly a hundred times more than an adult human and can live to seventy: on that logic alone, its cancer risk should be markedly higher than ours. In 1977, British epidemiologist Richard Peto observes that this is not what the data show when species are compared with one another: an animal's size and longevity do not predict its cancer rate. The inconsistency has borne his name ever since: Peto's paradox.\n\n## A Measured Resistance, Then Partly Explained\n\nIn 2015, in the Journal of the American Medical Association, a team led by Joshua Schiffman, of the University of Utah, measures the gap in elephants precisely. By cross-referencing fourteen years of necropsy data on 36 species of zoo mammals, it establishes that cancer mortality among 644 elephants is 4.81%, versus 11% to 25% in humans. The team then sequences the elephant genome and finds a possible explanation: where humans have only a single copy of the TP53 gene, the main tumor suppressor gene, the elephant has at least twenty copies. In the lab, elephant lymphocytes exposed to ionizing radiation or a chemotherapy agent trigger their own cell death, apoptosis, at rates markedly higher than human lymphocytes do. That includes those of patients with Li-Fraumeni syndrome, a mutation that strongly predisposes to cancer.\n\n## What This Mechanism Reveals for Humans\n\nTP53 is mutated in the majority of human cancers, and its near-total loss, Li-Fraumeni syndrome, pushes lifetime cancer risk above 90%. The hypothesis Schiffman's team puts forward is that evolution equipped the elephant with a redundant safety system: instead of trying to repair a damaged cell, which leaves a margin for error, its extra copies of TP53 more quickly trigger the outright elimination of the threatened cell. The authors remain cautious: the study, described by the journal itself as a preliminary communication, proposes a plausible mechanism rather than definitive proof, and calls for replication.\n\nIt nonetheless places the elephant within a broader field of research, evolutionary medicine, which asks what other species have developed to solve problems that human medicine still faces. Other large, long-lived animals, such as the whale, have since been studied from the same angle, in the hope of finding transferable mechanisms in them too.",
+ "repere": {
+  "texte": "Among 644 elephants followed over fourteen years of necropsy data, cancer mortality reaches 4.81% (95% confidence interval: 3.14% to 6.49%), versus 11% to 25% in humans, even though the elephant has at least twenty copies of the TP53 gene where humans have only one.",
+  "source": "Abegglen et al., “Potential Mechanisms for Cancer Resistance in Elephants and Comparative Cellular Response to DNA Damage in Humans,” JAMA, 2015",
+  "url": "https://doi.org/10.1001/jama.2015.13134"
+ },
+ "carte": {
+  "punch": "An elephant weighs about a hundred times more than a human, yet dies of cancer less often.",
+  "idee": "The more cells an organism has and the longer it lives, the more cancers it should accumulate, a line of reasoning the elephant contradicts: this is Peto's paradox. In 2015, a team found a lead: the elephant has at least twenty copies of the TP53 gene, versus one in humans.",
+  "source_courte": "Abegglen et al., JAMA, 2015; Peto, 1977"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Core Concept: Solving Peto's Paradox to better understand cancer",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6369797/",
+   "note": "In English; open access, places the 2015 discovery within the broader research on Peto's paradox in other species."
+  }
+ ],
+ "quiz": {
+  "question": "What cellular mechanism does Schiffman's team propose to explain the elephant's low cancer mortality?",
+  "choix": [
+   "A much thicker skin that would block the entry of carcinogens from the environment",
+   "A slowed metabolism that would reduce the total number of cell divisions over a lifetime",
+   "An immune system able to destroy cancer cells after they appear",
+   "Extra copies of the TP53 gene, which trigger the death of damaged cells faster than in humans"
+  ],
+  "bonne_reponse": 3,
+  "explication": "TP53 is the main tumor suppressor gene. The elephant has at least twenty copies versus a single one in humans, and its cells trigger apoptosis, their own destruction, at much higher rates after DNA damage.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does epidemiologist Richard Peto observe in 1977 when comparing species with one another?",
+   "choix": [
+    "That an animal's size and longevity do not make it possible to predict its cancer rate",
+    "That large animals systematically develop more cancers than small ones",
+    "That only marine mammals escape the expected logic of cancer risk",
+    "That cancer risk doubles each time an organism's number of cells doubles"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Peto observes that a species' size and longevity do not predict its cancer rate, contrary to what the logic of cell divisions alone would lead us to expect."
+  },
+  {
+   "question": "What data does Joshua Schiffman's team rely on to measure elephants' resistance to cancer precisely?",
+   "choix": [
+    "Genetic sequencing done on elephants born in captivity in 2015",
+    "Fourteen years of necropsy data covering 36 species of zoo mammals",
+    "A self-reported survey of veterinarians specializing in African wildlife",
+    "A ten-year medical follow-up of a wild elephant population in Kenya"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The team cross-references fourteen years of necropsy data on 36 species of zoo mammals, which lets it establish a cancer mortality rate of 4.81% among 644 elephants."
+  },
+  {
+   "question": "What do laboratory tests on elephant lymphocytes exposed to ionizing radiation show?",
+   "choix": [
+    "They trigger their own cell death more often than the human lymphocytes tested",
+    "They do not react to radiation, unlike human lymphocytes",
+    "They multiply faster to compensate for the damage",
+    "They temporarily become resistant to chemotherapy"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Elephant lymphocytes trigger apoptosis at markedly higher rates than the human lymphocytes tested, including those of patients with Li-Fraumeni syndrome."
+  }
+ ]
+}

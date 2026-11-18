@@ -1,0 +1,88 @@
+{
+ "id": "soc-prophetie-autorealisatrice-merton",
+ "slug": "prophetie-autorealisatrice-merton",
+ "langue": "en",
+ "empreinte_fr": "af912cf3a301e720",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Phrase de William I. Thomas, langue d'origine : anglais ; retraduite depuis le français, formulation originale à vérifier."
+  },
+  {
+   "chemin": "quiz_supplementaire/0/question",
+   "type": "citation-traduite",
+   "note": "Même phrase de William I. Thomas (anglais), retraduite depuis le français."
+  }
+ ],
+ "titre": "The Self-Fulfilling Prophecy According to Merton",
+ "accroche": "The bank whose failure illustrates the self-fulfilling prophecy never existed. Merton invented it in 1948, solvent, so he could bring it down.",
+ "contenu_vulgarise": "1932, a Wednesday. The president of the Last National Bank, Cartwright Millingville, notices as he arrives that his teller windows are under siege: two dozen workers are lining up, though it is not payday. The hubbub grows. By the end of that day, and then of the next, the bank is down. The scene has the look of an episode from the crisis of the 1930s. It is a fable: Robert K. Merton invents it in a 1948 essay to illustrate an idea.\n\n## The Mechanism\n\nMerton takes the idea from William I. Thomas: “If men define situations as real, they are real in their consequences.” The sentence appears in *The Child in America* (Knopf, 1928), whose title page carries two names, William I. Thomas and Dorothy Swaine Thomas. In the book, it follows the case of a prison warden who refuses to let out an inmate who had killed passersby, convinced they were insulting him. Merton, for his part, simply writes “Professor Thomas.”\n\nHis parable draws a rule from it. A public prediction becomes part of the situation and alters what follows. Depositors believe the bank is insolvent, they withdraw their funds, and it becomes so. Merton puts it with a precision that changes everything: the bank was solvent, and would have survived for many years without the rumor. He defines the self-fulfilling prophecy as a false definition of the situation that evokes a new behavior, which makes the originally false idea come true.\n\nHe contrasts this case with nature: announcing the return of Halley's comet does not change its orbit. What is peculiar to human affairs is that the prediction comes into play there.\n\n## What It Shifts\n\nMerton's subject is not the bank. His central example is racial discrimination in the United States in 1948. A well-meaning union man excludes Black workers from his union because, he says, they are strikebreakers. Merton replies that the exclusion produces the very fact it claims to observe: with no jobs and no place in the unions after World War I, thousands of men could not refuse the jobs that employers opened to them during strikes. Where they were able to join the unions, their role as strikebreakers has almost disappeared.\n\nTo get out of such a circle, he writes, the initial definition of the situation must be abandoned. He considers it illusory to count on education alone: false ideas, he says, do not vanish because the truth is shown to them.\n\nA prediction that comes true therefore proves nothing about the world until we know what it made those who believed in it do.",
+ "repere": {
+  "texte": "Merton sets his fictional bank in 1932 and specifies that it was solvent: without the rumor, it would have survived for many years.",
+  "source": "Merton, The Self-Fulfilling Prophecy, The Antioch Review, 8(2), 1948, pp. 193-210",
+  "url": "https://doi.org/10.2307/4609267"
+ },
+ "carte": {
+  "punch": "The bank that failed because of a rumor never existed: Merton made it up.",
+  "idee": "In 1948, Merton imagines a solvent bank brought down only by a rumor, to define the self-fulfilling prophecy: a false definition of the situation provokes behaviors that make it come true. His real subject: discrimination.",
+  "source_courte": "Merton, 1948"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Smith, R. S., “Giving credit where credit is due: Dorothy Swaine Thomas and the ‘Thomas Theorem,’” The American Sociologist, 1995",
+   "note": "An article devoted to Dorothy Swaine Thomas's share in the formula.",
+   "url": "https://doi.org/10.1007/bf02692352"
+  }
+ ],
+ "quiz": {
+  "question": "In Merton's parable, what brings down the Last National Bank?",
+  "choix": [
+   "Risky investments that had already made it insolvent before the rumor",
+   "An embezzlement by its executives, uncovered by the press",
+   "A stock market crash that ruins its main local borrowers",
+   "A rumor of insolvency, believed by enough depositors"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The bank is presented as solvent: it is the belief in its failure, shared by enough depositors, that causes it. Not risky investments, not embezzlement, not a crash: there is no prior objective cause, which is the whole point of the parable.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does Merton take the sentence “If men define situations as real, they are real in their consequences” from?",
+   "choix": [
+    "From a speech Merton himself gives in 1948",
+    "From a study by Cartwright Millingville on bank panics",
+    "From a 1932 article devoted to the economic crisis",
+    "From the book The Child in America (1928), coauthored by William I. Thomas and Dorothy Swaine Thomas"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The sentence comes from The Child in America (1928), signed by William I. Thomas and Dorothy Swaine Thomas, even though Merton credits only “Professor Thomas.”"
+  },
+  {
+   "question": "What example does Merton use to illustrate the self-fulfilling prophecy in the realm of racial discrimination?",
+   "choix": [
+    "A union that excludes Black workers by accusing them of being strikebreakers, which pushes them to accept the jobs opened during strikes",
+    "An employer who refuses to hire white workers for fear of a strike",
+    "A bank that refuses loans to Black shopkeepers as a matter of financial prudence",
+    "A court that systematically acquits white defendants out of prejudice"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Merton describes a union man who excludes Black workers by calling them strikebreakers, when it is that very exclusion that deprives them of any alternative and produces the fact it claims to observe."
+  },
+  {
+   "question": "What does Merton compare human prediction to, in order to mark its singularity?",
+   "choix": [
+    "To meteorology, where forecasting improves the accuracy of models",
+    "To the tides, which can be predicted without ever influencing them",
+    "To the return of Halley's comet, whose announcement does not change its orbit",
+    "To earthquakes, which science still cannot predict"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Merton contrasts human affairs, where the prediction comes into play and can fulfill itself, with the return of Halley's comet, which announcing it does not alter in any way."
+  }
+ ]
+}

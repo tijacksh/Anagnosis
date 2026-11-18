@@ -1,0 +1,88 @@
+{
+ "id": "ast-courbes-de-rotation-des-galaxies",
+ "slug": "courbes-de-rotation-des-galaxies",
+ "langue": "en",
+ "empreinte_fr": "7e2ecc4e05c10578",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Galaxies spin too fast for what we can see in them",
+ "accroche": "Vera Rubin measures the rotation of Andromeda and finds a speed that visible matter cannot explain",
+ "contenu_vulgarise": "In the solar system, the farther a planet is from the Sun, the more slowly it moves. Mercury completes its orbit in 88 days, Neptune in 165 years. Gravity weakens with distance, and speeds follow.\n\nA spiral galaxy concentrates most of its light in its central bulge. If mass follows light, the stars at the edges should likewise move more slowly the farther they are from the center.\n\n## What Rubin measures in Andromeda\n\nIn the late 1960s, Vera Rubin and Kent Ford have an especially sensitive image-tube spectrograph. It allows them to measure the speed of emission regions even in the faintly lit zones of the disk.\n\nThey point it at Andromeda and record the speeds while moving progressively away from the center.\n\nThe expected curve falls. The curve obtained does not fall. The outer regions move as fast as the intermediate regions, out to the measurable edge of the visible disk.\n\nThe 1970 paper also notes that the mass-to-light ratio rises sharply toward the outside: there is more and more mass per unit of light as one moves away from the center.\n\n## What the result forces us to accept\n\nA star spinning too fast for the mass holding it should escape. These galaxies do not come apart.\n\nTwo ways out, and both remain open today.\n\nEither there is mass we cannot see: a component that neither emits nor absorbs light, distributed well beyond the bright disk, in a halo. This is dark matter, and it is the dominant interpretation.\n\nOr gravity itself does not behave, at very low accelerations, as Newton’s law predicts. This is the path of modified gravity, a minority view but not an extinct one.\n\nRubin did not settle the matter, and that is not what she claimed to do. She established a robust discrepancy, measured galaxy after galaxy.\n\n## What the episode says about proof in astronomy\n\nThe idea of invisible mass was not new. Fritz Zwicky had put it forward as early as the 1930s, based on the speeds of galaxies in a cluster. The proposal had remained without effect for forty years.\n\nWhat changed with Rubin is not the hypothesis. It is the mode of proof: a direct, reproducible measurement, taken one object at a time, accumulated until it became impossible to write off as special cases.\n\nAn isolated anomaly remains a curiosity. The same anomaly in every galaxy observed ceases to be one: it becomes a property of the world, which has to be accounted for.",
+ "repere": {
+  "texte": "In Andromeda, rotation speeds do not decline toward the outside of the disk, and the mass-to-light ratio rises sharply there: there is far more mass than the light signals.",
+  "source": "Rubin & Ford, “Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions,” The Astrophysical Journal, 159, 1970",
+  "url": "https://ui.adsabs.harvard.edu/abs/1970ApJ...159..379R/abstract"
+ },
+ "carte": {
+  "punch": "The edges of galaxies spin too fast for the matter we can see there.",
+  "idee": "Gravity weakens with distance: the stars at the edge should slow down. Rubin measures Andromeda in 1970. They do not slow down. Either an invisible mass holds them, or gravity is not what we think.",
+  "source_courte": "Rubin & Ford, ApJ, 1970"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Vera Rubin and Dark Matter (UCLA, CWP)",
+   "url": "http://cwp.library.ucla.edu/articles/rubindm/rubindm.html",
+   "note": "In English, short; traces what Rubin expected and what she found."
+  }
+ ],
+ "quiz": {
+  "question": "What do the rotation curves measured by Rubin show?",
+  "choix": [
+   "That spiral galaxies rotate in the opposite direction from what was expected",
+   "That light from the outer regions is absorbed by dust",
+   "That stars at the edge do not slow down as visible mass would require",
+   "That the center of galaxies contains a supermassive black hole"
+  ],
+  "bonne_reponse": 2,
+  "explication": "If mass followed light, concentrated at the center, speeds should decline toward the outside like those of distant planets. They stay flat. The discrepancy requires either an invisible mass in a halo, or a different gravity at low acceleration. The measurement does not decide between the two.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the 1970 paper add, besides the curve that does not fall?",
+   "choix": [
+    "The mass-to-light ratio rises sharply toward the outside",
+    "Direct proof that a halo of dark matter surrounds Andromeda",
+    "A measurement of the mass of the galaxy’s central black hole",
+    "The exact distance separating Andromeda from the Milky Way"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The farther one moves from the center, the more mass there is per unit of light. The measurement thus establishes a gap between what we see and what holds the stars, without proving anything about the nature of this missing mass."
+  },
+  {
+   "question": "What did Rubin and Ford’s measurements in the Andromeda disk concern?",
+   "choix": [
+    "The total luminosity of the central bulge, recorded photographically",
+    "The position of the stars, compared from one year to the next",
+    "The temperature of the gas between the spiral arms",
+    "The speed of emission regions, with a sensitive spectrograph"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Their image-tube spectrograph made it possible to record the speed of emission regions even in the faintly lit zones of the disk, where earlier methods saw nothing anymore. It is this sensitivity that makes the curve measurable out to the edge."
+  },
+  {
+   "question": "What are the two ways out that the card leaves open?",
+   "choix": [
+    "A spectrograph error, or dust absorbing the light",
+    "A more massive central black hole, or a more extended galactic disk",
+    "An invisible mass in a halo, or a different gravity at low acceleration",
+    "A local expansion of space, or a rotation in the opposite direction"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Either there is a component that neither emits nor absorbs light, distributed well beyond the bright disk: this is dark matter and the dominant interpretation. Or Newton’s law does not hold at very low accelerations, a minority path but not an extinct one."
+  },
+  {
+   "question": "What distinguishes Rubin’s work from Fritz Zwicky’s?",
+   "choix": [
+    "Rubin proposed the idea of an invisible mass, absent in Zwicky",
+    "Rubin provided a direct, reproducible measurement, galaxy after galaxy",
+    "Zwicky had measured no speeds, reasoning by simple analogy",
+    "Rubin observed clusters, whereas Zwicky observed isolated galaxies"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The hypothesis of an invisible mass dated to the 1930s and to the speeds of galaxies in a cluster measured by Zwicky. What changed with Rubin is not the idea. It is the mode of proof: a discrepancy measured one object at a time, accumulated until it became impossible to dismiss."
+  }
+ ]
+}

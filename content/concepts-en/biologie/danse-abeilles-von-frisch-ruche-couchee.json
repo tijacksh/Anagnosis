@@ -1,0 +1,64 @@
+{
+ "id": "bio-danse-abeilles-von-frisch-ruche-couchee",
+ "slug": "danse-abeilles-von-frisch-ruche-couchee",
+ "langue": "en",
+ "empreinte_fr": "6305a57c0f4bb07e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Bee Dance Put to the Test with a Hive on Its Side",
+ "accroche": "Karl von Frisch decodes the bee dance, then an American team argues that recruits get nothing from it. He lays the hive on its side to settle the matter.",
+ "contenu_vulgarise": "Karl von Frisch starts out looking for something else. Sixty years before his 1973 Nobel lecture, he recalls, many biologists believed bees were blind to color. He trains foragers to come to a dish of syrup set on colored paper. During pauses, only a few scouts return to the empty dish. If one of them finds the dish full again and goes home, the whole troop is there a few minutes later. Has she alerted the hive?\n\nHe sets up a glass-walled hive, marks the foragers with numbered colored dots, and watches. Before even handing over their harvest, the returning bees run across the comb in tight circles, alternately to the right and to the left. This round dance sets off a new outing among the numbered bees that follow it.\n\n## A Dance That Gives Distance and Direction\n\nFor a more distant source, the dance changes. The dancer runs along a straight line, wagging her abdomen and buzzing. The farther the source, the longer this wagging run lasts: from about 0.5 second for 200 meters to about 4 seconds for 4,500 meters.\n\nDirection is encoded relative to the sun, then transposed, in the darkness of the hive, into an angle relative to the vertical of the comb. If the source lies in the direction of the sun, the run goes straight up. If it lies 40° to the left of the sun, the run tilts 40° to the left of the vertical. Over the course of the day, the direction of the run turns by the same angle as the sun, in the opposite direction.\n\n## Do the Recruits Use It?\n\nThat the dancer encodes information does not prove that the others read it. A group of American biologists led by A. M. Wenner argues that recruits find the goal by smell alone. Von Frisch does not deny the role of odor: he himself showed that recruits let themselves be guided by the scent the dancers carry. But he judges this thesis incompatible with his results and refutes it, as one example, with the following experiment.\n\nNumbered bees forage 230 meters from the hive. The hive is laid on its side so that the comb is horizontal, and the sky is masked: the dancers have neither gravity nor the sky to orient themselves, and they dance in disorder in every direction. Dishes scented like the source are set out in the direction of the source and in three other directions. The recruits visit them all, in large numbers, with no preference for the right direction. The hive is then tilted upright by 90°, so that the dancers can indicate the direction on the vertical comb. Within minutes, the stream of recruits heads for the source, and none lands any more on the dishes in the other three directions. According to von Frisch, nothing had changed in the scent sources in the field or in the outside conditions: only the message of the dance had been restored.\n\nThe shift here is one of method. Translating a code does not prove it is used: the message had to be scrambled and then restored while leaving everything else in place. In 2005, Riley, Menzel, and their colleagues recorded the actual flight paths of recruits with harmonic radar. They note that, despite initial skepticism, almost all biologists were by then convinced that von Frisch had been right, but that a quantitative description was missing of how recruits translate the code into flight. The question is no longer whether the code is read, but how precisely flight translates it.",
+ "repere": {
+  "texte": "In the waggle dance, the duration of the straight run goes from about 0.5 second for a source 200 meters from the hive to about 4 seconds for a source 4,500 meters away.",
+  "source": "Karl von Frisch, “Decoding the Language of the Bee,” Nobel lecture, December 12, 1973",
+  "url": "https://www.nobelprize.org/prizes/medicine/1973/frisch/lecture/"
+ },
+ "carte": {
+  "punch": "To prove that bees read their dance, von Frisch laid the hive on its side.",
+  "idee": "With the hive flat and the sky masked, the dancers orient poorly and the recruits search in every direction. With the hive upright again, they head for the source within minutes. The scent had not changed: only the dance had returned.",
+  "source_courte": "von Frisch, Nobel lecture, 1973"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Karl von Frisch, “Decoding the Language of the Bee,” text of the Nobel lecture (PDF)",
+   "url": "https://www.nobelprize.org/uploads/2018/06/frisch-lecture.pdf",
+   "note": "The experiments told by the man who ran them, including orientation by the polarized light of the blue sky."
+  }
+ ],
+ "quiz": {
+  "question": "What does the experiment with the hive laid on its side, then set upright again, show?",
+  "choix": [
+   "That bees dance only when a scent signals food",
+   "That recruits find food solely by the scent carried by the dancers",
+   "That recruits follow the direction indicated by the dance, with the scent remaining the same",
+   "That the dance disappears as soon as gravity can no longer serve as a reference"
+  ],
+  "bonne_reponse": 2,
+  "explication": "With the hive on its side and the sky masked, the dancers orient poorly and the recruits search in every direction; once the hive is upright again, the dance indicates direction once more and the recruits head for the source. The scented dishes had not moved, so scent alone does not explain it. The dance does not disappear; it becomes disoriented.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does the waggle dance encode the direction of the source on a vertical comb?",
+   "choix": [
+    "By the speed of the waggle run, the faster the farther the source",
+    "By the angle of the run from the vertical, equal to the angle between the sun and the source",
+    "By the side, right or left, on which the dancer makes her tight circles"
+   ],
+   "bonne_reponse": 1,
+   "explication": "A source 40° to the left of the sun produces a run tilted 40° to the left of the vertical. The duration of the run encodes distance, while the tight circles alternating right and left belong to the round dance."
+  },
+  {
+   "question": "What did the harmonic radar used by Riley and his colleagues in 2005 record?",
+   "choix": [
+    "The number of dance circuits performed in the hive",
+    "The actual flight paths of bees recruited by the dance",
+    "The sugar concentration of the flowers visited"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The radar tracks bees in flight. It made it possible to describe quantitatively how recruits translate the dance code into a flight path, which was still missing despite the consensus already established."
+  }
+ ]
+}

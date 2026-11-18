@@ -1,0 +1,67 @@
+{
+ "id": "econ-kuznets-avertissement-revenu-national",
+ "slug": "kuznets-avertissement-revenu-national",
+ "langue": "en",
+ "empreinte_fr": "500caa4c467e387f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Original en anglais, Simon Kuznets (National Income, 1929-1932, 1934) ; traduit depuis le français, à rétablir avec le texte original."
+  }
+ ],
+ "titre": "Kuznets and the Forgotten Warning on National Income",
+ "accroche": "In 1934, the man who invents the measure of national income writes, in the same report, that it says nothing about a country's well-being.",
+ "contenu_vulgarise": "In January 1934, the U.S. Senate receives a report signed by Simon Kuznets, a researcher at the National Bureau of Economic Research on loan to the Department of Commerce. Since the start of the Great Depression, the country has had no single figure to say whether the economy is getting better or worse: only scattered indicators (steel output, freight traffic, unemployment benefit claims) that no senator knows how to aggregate. Kuznets's report, *National Income, 1929-1932*, fills the gap: for the first time using a consistent method, it adds up everything the country produced over four years and derives a single series of figures from it.\n\n## A Warning Written on Page 7\n\nThe report is an immediate success: national income becomes the benchmark for gauging the depth of the crisis. But on page 7 of the same document, Kuznets cautions that the welfare of a nation can scarcely be inferred from a measurement of its national income. The figure he has just built adds up all market production without distinguishing what it is worth to whoever receives it: a dollar of medicine counts as a dollar of ammunition, and a rise due to five people getting enormously rich counts the same as a rise due to fifty thousand people each earning a little more. Unpaid housework, the upkeep of a subsistence garden, leisure time lost to a second job: none of it enters the calculation, though all of it bears on what a life is really worth.\n\n## What the War Did to the Warning\n\nThe warning does not survive ten years. World War II turns Kuznets's tool into an instrument of planning: the U.S. government uses it to calculate how much steel, rubber, and civilian labor can be diverted to the war effort without collapsing the civilian economy. Milton Gilbert, at the Department of Commerce, generalizes the method into gross national product. The Bretton Woods conference, in 1944, completes its conversion into the common unit of account between nations. The number Kuznets wanted to confine to measuring productive capacity becomes, in the following decades, the thermometer of a country's success: its growth announced at press conferences, compared from one government to the next, targeted by development plans.\n\nKuznets receives the Nobel Prize in economics in 1971 for his body of work on growth and economic structure, not for inventing this indicator, from which he had partly distanced himself. The well-being indicators devised since, which weight output by income distribution or by nonmarket work, do no more than restate, with figures to back it up, the sentence on page 7.",
+ "citation": {
+  "texte": "The welfare of a nation can scarcely be inferred from a measurement of its national income.",
+  "auteur": "Simon Kuznets",
+  "source": "National Income, 1929-1932, Senate Document No. 124, 73rd Congress, 1934, p. 7",
+  "url": "https://en.wikipedia.org/wiki/Simon_Kuznets"
+ },
+ "carte": {
+  "punch": "In 1934, the inventor of national income writes that a country's well-being can scarcely be inferred from it.",
+  "idee": "In 1934, Simon Kuznets presents the U.S. Senate with a first measure of national income and warns, on page 7, that the welfare of a nation can scarcely be inferred from it. World War II then turns it into an instrument of planning.",
+  "source_courte": "Kuznets, Senate Doc. 124, 1934"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does Kuznets judge, in his own report, that national income does not measure a country's well-being?",
+  "choix": [
+   "Because national income counts only agricultural output",
+   "Because the calculation covers only the years of economic crisis",
+   "Because it ignores the distribution of income and nonmarket work",
+   "Because Congress had forbidden the inclusion of military spending"
+  ],
+  "bonne_reponse": 2,
+  "explication": "As early as 1934, Kuznets writes that his calculation adds up all market production without distinguishing who benefits from it, and leaves out everything that has no price, such as housework: not the nature of the products or the years covered.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What becomes of Kuznets's tool during World War II?",
+   "choix": [
+    "An instrument of planning for the war effort",
+    "An indicator withdrawn from the government's official reports",
+    "A measure replaced by net national product",
+    "A tool reserved for comparisons between U.S. states"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The U.S. government uses Kuznets's calculation to determine how much steel, rubber, and civilian labor can be diverted to the war effort without collapsing the civilian economy."
+  },
+  {
+   "question": "For what reason does Kuznets receive the Nobel Prize in economics in 1971?",
+   "choix": [
+    "For his 1934 report on national income",
+    "For his body of work on growth and economic structure",
+    "For his public opposition to gross national product",
+    "For having generalized the method into gross national product"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The Nobel Prize rewards his body of work on growth and economic structure, not the invention of national income, from which Kuznets had partly distanced himself."
+  }
+ ]
+}

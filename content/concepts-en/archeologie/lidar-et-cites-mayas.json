@@ -1,0 +1,77 @@
+{
+ "id": "arc-lidar-et-cites-mayas",
+ "slug": "lidar-et-cites-mayas",
+ "langue": "en",
+ "empreinte_fr": "1bceb5fa20d218d1",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A laser counted what a century of machete work had not seen",
+ "accroche": "In 2018, a laser survey of the Petén reveals beneath the forest a Maya occupation far beyond what had been estimated",
+ "contenu_vulgarise": "Excavating beneath a dense tropical forest is slow work. You clear with a machete, record, advance a few dozen meters. A century of work in the Maya lowlands had produced a map made of scattered sites, separated by blank space.\n\nThat blank was not empty. It was forest that had not been opened up.\n\n## Seeing through the trees\n\nLiDAR reverses the relationship. An airplane sweeps the ground with a laser and measures the return time of each pulse.\n\nUnder forest cover, most pulses bounce off the leaves. But a fraction passes between them, reaches the ground, and comes back. All you have to do is keep only the latest returns, those that traveled farthest, to reconstruct the terrain stripped of vegetation.\n\nThis bare-earth model brings out what an archaeologist on the ground cannot perceive: alignments, platforms, embankments, regular depressions, that is, leveled and overgrown constructions.\n\n## What the 2016 survey delivered\n\nA campaign carried out in northern Guatemala swept more than two thousand square kilometers of Petén forest, the heart of Classic Maya civilization. The results appear in *Science* in 2018.\n\nThey count more than sixty thousand new structures. Causeways linking cities thought to be independent. Systems of terraces and canals covering considerable agricultural areas. And above all fortifications (ramparts, ditches, defensive works), far more numerous than expected.\n\nThe consequences go beyond the count. A population revised sharply upward means also revising the agriculture that fed it, hence the organization of labor, hence the nature of power. And the abundance of defenses runs against the long-prevailing image of ceremonial city-states not much given to war.\n\n## What the instrument does not do\n\nOne point deserves to be held firmly, because media enthusiasm regularly erases it.\n\nLiDAR dates nothing. It delivers a relief, not a chronology: two neighboring structures on the model can be separated by six centuries. Nor does it distinguish a monument from a pile of stones, or continuous occupation from abandonment followed by reoccupation.\n\nEvery interpretation remains dependent on ground probes, pottery, dating. The laser does not replace excavation: it tells it where to dig, and above all it finally provides a denominator, what has been excavated measured against what exists.\n\nThat may be the real contribution. For a century, Maya archaeology reasoned from a sample whose size it did not know.",
+ "repere": {
+  "texte": "The 2016 laser survey covered more than 2,000 km² of Petén forest and revealed more than 60,000 previously unknown structures, including causeways, agricultural terraces, and numerous fortifications.",
+  "source": "Canuto et al., “Ancient lowland Maya complexity as revealed by airborne laser scanning of northern Guatemala,” Science, 361, 2018",
+  "url": "https://www.science.org/doi/10.1126/science.aau0137"
+ },
+ "carte": {
+  "punch": "In a single flyover, a laser counted what a century of machete work had not seen.",
+  "idee": "Beneath the Petén forest, a laser scan revealed more than 60,000 previously unknown Maya structures: causeways, terraces, fortifications. For a century, archaeology had been reasoning from a sample whose size it did not know.",
+  "source_courte": "Canuto et al., Science, 2018"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Phys.org — Unprecedented study confirms massive scale of lowland Maya civilization",
+   "url": "https://phys.org/news/2018-09-unprecedented-massive-scale-lowland-maya.html",
+   "note": "In English; summarizes the study and what it changes about population estimates."
+  }
+ ],
+ "quiz": {
+  "question": "What can LiDAR not do?",
+  "choix": [
+   "Detect structures entirely covered by vegetation",
+   "Cover, in a few days, areas inaccessible on foot",
+   "Spot leveled works that nothing signals on the ground",
+   "Establish what period the structures it reveals date from"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The laser reproduces a terrain stripped of vegetation: it excels at spotting what is buried or leveled, over vast areas and in little time. But a terrain model carries no chronological information. Two neighboring structures can be separated by several centuries, and only ground probes can settle it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does LiDAR work to reveal structures beneath the canopy?",
+   "choix": [
+    "It detects the heat given off by buried stones",
+    "It keeps only the latest pulses, which reached the ground between the leaves",
+    "It analyzes the chemical composition of the soil by spectrometry",
+    "It compares aerial photographs taken in different seasons"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Under the canopy, most laser pulses bounce off the leaves, but a fraction passes between them and reaches the ground. By keeping only the latest returns, the terrain stripped of vegetation is reconstructed."
+  },
+  {
+   "question": "What did the LiDAR survey reveal, in addition to isolated structures?",
+   "choix": [
+    "New glyphic inscriptions making it possible to date the cities",
+    "Organic remains making it possible to identify the inhabitants' diet",
+    "Obsidian tools, previously unknown in the region",
+    "Causeways linking cities thought to be independent, and numerous fortifications"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The survey of more than 2,000 km² delivered more than sixty thousand new structures: causeways linking cities thought to be independent, systems of terraces and canals, and fortifications far more numerous than expected."
+  },
+  {
+   "question": "Why is LiDAR alone not enough to establish a chronology?",
+   "choix": [
+    "Because tropical vegetation systematically skews height measurements",
+    "Because airplanes can fly over only a small part of the territory at a time",
+    "Because it reproduces only a relief, with no information about the age of the structures",
+    "Because only stone structures appear on the model, never wooden ones"
+   ],
+   "bonne_reponse": 2,
+   "explication": "LiDAR delivers a relief, not a chronology: two neighboring structures on the model can be separated by six centuries. Only ground probes, pottery, and dating can settle between them."
+  }
+ ]
+}

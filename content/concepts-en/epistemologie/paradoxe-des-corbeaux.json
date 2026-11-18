@@ -1,0 +1,80 @@
+{
+ "id": "epi-paradoxe-des-corbeaux",
+ "slug": "paradoxe-des-corbeaux",
+ "langue": "en",
+ "empreinte_fr": "f42f413faa908885",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Raven Paradox",
+ "accroche": "Pulling a pink sock out of a drawer confirms, to the letter of logic, that all ravens are black.",
+ "contenu_vulgarise": "Open a drawer and pull out a pink sock. This harmless act, logic says, has just slightly strengthened the thesis that all ravens are black.\n\nThe statement “all ravens are black” has a strict equivalent, obtained by contraposition: “everything that is not black is not a raven.” The two sentences say exactly the same thing; no law of logic allows them to be told apart. Now, confirmation theory retains an old principle, called the instance criterion: observing a case that conforms to a general statement strengthens one's belief in it. Seeing a black raven confirms a little that all ravens are black. Nothing then prevents applying the same principle to the contrapositive version: seeing a non-black object that is not a raven, a pink sock, a green leaf, confirms a little that nothing non-black is a raven, and therefore, by pure logical equivalence, confirms a little that all ravens are black.\n\n## The paradox\n\nThe philosopher Carl Hempel formalized this result in 1945, in the journal *Mind*, in two installments totaling 51 pages. He does not resolve it in one stroke; on the contrary, he shows that no immediate parry holds. Forbidding contraposition would break classical logic as a whole, not just this awkward case. Requiring that the observed object belong to the same domain as the ravens does not work either: nothing in the logical form of the statement distinguishes one domain from another, and the rule holds for any predicates put in place of “raven” and “black.”\n\n## What this shifts\n\nNo solution has to date won a consensus. The most developed line, called Bayesian, gives up the idea that confirmation is all or nothing: it proposes to measure by how much an observation shifts the probability one grants to the statement, given what one otherwise knows about the number of ravens and the number of non-black objects in the world. Under this assumption, the pink sock does confirm the law about ravens a little, but by an amount so tiny, compared with what a real black raven contributes, that it is lost in rounding. The price of this way out remains high: confirmation ceases to be a matter of pure logic between a statement and a piece of evidence, and now depends on what one already believed about the world before having observed anything at all.",
+ "repere": {
+  "texte": "By contraposition, “all ravens are black” is strictly equivalent to “nothing non-black is a raven.” A non-black object that is not a raven, a pink sock, a green leaf, should therefore confirm the law about ravens as much as a real black raven. Carl Hempel formalized this result in 1945, in the journal Mind, in two installments totaling 51 pages, without ever proposing a parry that everyone agrees on.",
+  "source": "Carl G. Hempel, “Studies in the Logic of Confirmation,” Mind, vol. 54, 1945",
+  "url": "https://home.csulb.edu/~cwallis/382/readings/690/hempel.logic.confirmation.I.1945.pdf"
+ },
+ "carte": {
+  "punch": "A pink sock confirms, in strict logical rigor, that all ravens are black.",
+  "idee": "“All ravens are black” is equivalent, by contraposition, to “nothing non-black is a raven.” A non-black object that is not a raven should therefore confirm the same law. Carl Hempel formalized this paradox in 1945, still with no solution that commands consensus.",
+  "source_courte": "Hempel, Mind, 1945"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy — Confirmation",
+   "url": "https://plato.stanford.edu/entries/confirmation/",
+   "note": "The section on the raven paradox and its Bayesian solutions."
+  }
+ ],
+ "quiz": {
+  "question": "Why does a pink sock seem, in strict logical rigor, to confirm that all ravens are black?",
+  "choix": [
+   "Because it is a counterexample that, by contrast, strengthens the general rule",
+   "Because “all ravens are black” is equivalent by contraposition to “nothing non-black is a raven,” of which the sock is an instance",
+   "Because the color pink is statistically close to black in the visible spectrum",
+   "Because no pink raven has ever been observed, which would exclude that color from the domain of ravens"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The sock is not a counterexample (it is even compatible with the law), and its color has nothing to do with either an optical closeness to black or the absence of observed pink ravens. The paradox comes solely from the logical equivalence between a statement and its contrapositive, nothing more.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In what year and in which journal does Carl Hempel formalize the raven paradox?",
+   "choix": [
+    "In 1945, in the journal Mind",
+    "In 1938, in the journal Erkenntnis",
+    "In 1962, in the Journal of Philosophy",
+    "In 1945, in the Proceedings of the Academy of Sciences"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Hempel publishes his article in two installments in the journal Mind in 1945, totaling 51 pages, without ever resolving the paradox in a way that commands consensus.",
+   "statut": "valide"
+  },
+  {
+   "question": "Why does forbidding contraposition not resolve the raven paradox, according to this entry?",
+   "choix": [
+    "Because contraposition has never been accepted by classical logic",
+    "Because it would break classical logic as a whole, not just this awkward case",
+    "Because Hempel demonstrated that contraposition does not apply to general statements",
+    "Because it would strip the statement about ravens of its status as a law"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry is explicit: forbidding contraposition would break classical logic as a whole, not just this awkward case, which makes this parry unworkable in practice.",
+   "statut": "valide"
+  },
+  {
+   "question": "What does the Bayesian line propose for dealing with the raven paradox?",
+   "choix": [
+    "It excludes from the calculation any observation that does not bear directly on a raven",
+    "It replaces classical logic with a three-valued logic",
+    "It measures by how much an observation shifts the probability of the statement, given what is already known about the world",
+    "It limits confirmation to observations made by several independent witnesses"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The Bayesian line gives up the idea of all-or-nothing confirmation: it assesses by how much an observation shifts the probability granted to the statement, according to what was already known about the world.",
+   "statut": "valide"
+  }
+ ]
+}

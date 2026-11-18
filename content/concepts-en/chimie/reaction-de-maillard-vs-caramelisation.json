@@ -1,0 +1,88 @@
+{
+ "id": "chi-reaction-de-maillard",
+ "slug": "reaction-de-maillard-vs-caramelisation",
+ "langue": "en",
+ "empreinte_fr": "98442485c2f2ad92",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Toast never caramelized",
+ "accroche": "Seared steak, toast, sautéed onions: their browning owes almost everything to a reaction discovered by chance in 1912, not to caramelization.",
+ "contenu_vulgarise": "A slice of bread slides into the toaster. Two minutes later, it comes out brown, crisp, with a smell of roasted hazelnut. In most people's mental label, this browning has a name: caramelization. That is almost always wrong.\n\n## Two reactions, not one\n\nCaramelization involves only sugar. Heated alone, with nothing else, a sugar eventually breaks down under the effect of heat: glucose and sucrose get going around 160 °C, fructose as early as 110 °C. The sugar loses water, rearranges, and takes on its brown tint and its own taste.\n\nThe Maillard reaction is something else. It requires two ingredients: a reducing sugar and an amino acid, the basic building block of proteins. Heated together, from about 140 °C, they bind to each other to form first a Schiff base, then, through molecular rearrangement, a series of intermediate compounds. From there, hundreds of cascading reactions start, producing both aroma, volatile molecules such as pyrazines, and color, brown polymers called melanoidins.\n\nBread contains starch, almost no free sugars, and gluten rich in amino acids. The crust that forms in the oven is therefore, almost exclusively, a product of Maillard. The same goes for the crust of a seared steak, the golden skin of a roast chicken, or onions sautéed for a long time in a pan: none of these foods supplies enough free sugar to truly caramelize. True caramel, obtained by heating sugar alone, remains reserved for a few preparations, crème brûlée or liquid caramel.\n\n## A discovery that wasn't looking for any of this\n\nThe name comes from a French physician and chemist, Louis-Camille Maillard, who presents to the Académie des sciences on January 8, 1912 a note titled *“Action des acides aminés sur les sucres ; formation des mélanoïdines par voie méthodique”* (Action of Amino Acids on Sugars; Formation of Melanoidins by a Methodical Route). Maillard is then trying to understand how amino acids assemble to form proteins; cooking does not interest him. Only in 1947 does the reaction receive its current name, and not until 1953 does an American chemist, John Hodge, of the federal agricultural research agency, detail its precise steps, those still taught today.\n\nOne consequence remains that cooking has been slow to get used to: among its hundreds of by-products, the Maillard reaction also produces a molecule classified as probably carcinogenic to humans by the International Agency for Research on Cancer since 1994 (group 2A), acrylamide, in notable amounts in well-done bread or French fries. Since April 2018, a European regulation sets benchmark levels, fifty micrograms per kilogram for standard sandwich bread, up to seven hundred fifty for potato chips. The reaction that gives toast its taste remains, more than a century after its discovery, an object of vigilance as much as of pleasure.",
+ "repere": {
+  "texte": "The Maillard reaction starts at about 140 °C, whereas 160 °C must be reached before glucose even begins to caramelize, and 110 °C for fructose.",
+  "source": "Honig, Nancy, “The Maillard Reaction,” K-State Research and Extension, Wild West District, 2022",
+  "url": "https://blogs.k-state.edu/wildwestdistrict/2022/08/15/the-maillard-reaction/"
+ },
+ "carte": {
+  "punch": "Toast, seared steak, sautéed onions: almost nothing in there has caramelized.",
+  "idee": "We think the browning of toast or a seared steak comes from caramel. That is almost always wrong: caramelization involves only sugar by itself, whereas the Maillard reaction, between sugars and amino acids, produces the crust of bread, steak, or roast chicken.",
+  "source_courte": "El Hosry et al., Foods, 2025"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "El Hosry et al. (2025) — Maillard Reaction: Mechanism, Influencing Parameters...",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12154226/",
+   "note": "In English, open access. A complete and recent review of the mechanism and its industrial applications."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the crust of toast almost never the product of caramelization?",
+  "choix": [
+   "Because caramelization requires a temperature the oven never reaches",
+   "Because bread contains too little free sugar: the dominant reaction involves amino acids",
+   "Because yeast destroys all the available sugar before baking",
+   "Because the crust always stays below glucose's caramelization threshold"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Bread contains starch and gluten rich in amino acids, but almost no free sugars: it is the Maillard reaction, between amino acids and sugars, that dominates, not caramelization. The oven easily reaches caramelization temperatures, yeast does not destroy all the sugar, and nothing indicates that the crust stays below that threshold.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "At what temperature does the Maillard reaction start, according to the entry?",
+   "choix": [
+    "About 100 °C",
+    "About 140 °C",
+    "About 160 °C",
+    "About 200 °C"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry specifies that the Maillard reaction, between a reducing sugar and an amino acid, starts at about 140 °C, whereas the caramelization of glucose and sucrose begins around 160 °C, and that of fructose as early as 110 °C."
+  },
+  {
+   "question": "What was Louis-Camille Maillard really trying to understand in 1912, when he discovered the reaction that bears his name?",
+   "choix": [
+    "How amino acids assemble to form proteins",
+    "How to improve the keeping quality of bread in Parisian bakeries",
+    "How to reduce the sugar content of sweet preparations",
+    "How to speed up the cooking of meat in restaurants"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The entry specifies that Maillard, a physician and chemist, was then trying to understand how amino acids assemble to form proteins: cooking did not interest him, and his discovery took its current name only in 1947."
+  },
+  {
+   "question": "Who details, in 1953, the precise steps of the Maillard reaction, still taught today?",
+   "choix": [
+    "Louis-Camille Maillard himself, in a second paper",
+    "A consortium of toaster manufacturers",
+    "The American chemist John Hodge, of the federal agricultural research agency",
+    "The French physicist Antoine Lavoisier"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry indicates that the reaction receives its current name only in 1947, and that it takes until 1953 for the American chemist John Hodge, of the federal agricultural research agency, to detail its precise steps."
+  },
+  {
+   "question": "What does the European regulation in force since April 2018 set, concerning a by-product of the Maillard reaction?",
+   "choix": [
+    "A total sales ban on any bread containing acrylamide",
+    "A requirement to label the melanoidin content on all packaging",
+    "A cooking temperature ceiling for industrial bakeries",
+    "Benchmark levels for acrylamide, up to 750 µg/kg for potato chips"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The entry specifies that, since April 2018, a European regulation sets benchmark levels for acrylamide, a probable carcinogen (IARC group 2A) produced by the Maillard reaction, up to 750 µg/kg for potato chips."
+  }
+ ]
+}

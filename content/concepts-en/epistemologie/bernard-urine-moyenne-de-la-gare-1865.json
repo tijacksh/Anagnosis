@@ -1,0 +1,72 @@
+{
+ "id": "epi-bernard-urine-moyenne-de-la-gare-1865",
+ "slug": "bernard-urine-moyenne-de-la-gare-1865",
+ "langue": "en",
+ "empreinte_fr": "78320d83a7a0bdf9",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Citation donnée en français ; retraduite vers l'anglais. Langue d'origine : français ; auteur : Claude Bernard (Introduction à l'étude de la médecine expérimentale, 1865)."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Plusieurs citations de Claude Bernard données en français (« le sublime du genre », « précisément des nombres faux », « variant très peu », « confondent en voulant réunir… », « l'expérience la plus parfaite comme type », « une probabilité, mais jamais une certitude », etc.) ; retraduites vers l'anglais. Langue d'origine : français ; auteur : Claude Bernard."
+  }
+ ],
+ "titre": "The Average Urine of the Train Station, According to Claude Bernard",
+ "accroche": "In 1865, Claude Bernard cites a physiologist who analyzes train-station urine to describe the average European's urine.",
+ "contenu_vulgarise": "A physiologist collects urine from the urinal of a railway station, where people of all nations pass through, and believes he can thereby give the analysis of “the average European urine.” Claude Bernard recounts the scene in 1865 in the *Introduction à l'étude de la médecine expérimentale* (An Introduction to the Study of Experimental Medicine). He names no one and files it among the badly made averages, of which it is, he writes, “the pinnacle of the genre.”\n\n## Three Averages, Three Fictions\n\nBernard distinguishes physical, chemical, and physiological averages, and gives an example of each.\n\nThe first: one records blood pressure and pulse rate all day long, then averages them to obtain the “true” pressure. One obtains, he says, “precisely false numbers.” The pulse slows when fasting and speeds up during digestion, and these variations disappear in the average.\n\nThe second: one collects a man's urine over twenty-four hours, mixes it all together, and analyzes it. One then has the analysis of a urine that does not exist, because fasting urine differs from digestive urine and the mixture erases the difference. The train station merely pushes the procedure further: many passersby instead of one.\n\nThe third: a physician gathers many cases of a disease and writes up an average description of the symptoms. He will thus have, says Bernard, a description that will never be found in nature.\n\n## What He Rejects, and What He Does Not\n\nBernard is sometimes presented as an enemy of calculation in medicine. The same paragraph says otherwise: the application of mathematics to natural phenomena “is the goal of all science.” His criticism, he specifies, is not aimed in principle at the use of calculation in physiology, but at its application “in the present state of complexity of the phenomena of life.”\n\nHis criterion is clear. Averages suit only data “varying very little” and relating to cases that are “perfectly determined and absolutely simple.” In other cases, they “confuse in wanting to unite and falsify in wanting to simplify.” In their place, he recommends studying the circumstances of each experiment, then giving “the most perfect experiment as the type,” which will always represent a true fact.\n\n## What It Shifts\n\nIn all three of his examples, what the average crushes is the phenomenon itself. The gap between fasting and digestion is not noise around the true value: it is what physiology seeks to understand. A summary presupposes that we know what we can throw away.\n\nBernard also sets a condition on what is counted. In the hospitals of his day, he observes, the name of diseases was very often given “at random”: a cause of death entered by a student who had not seen the patient, or by a clerk foreign to medicine. Adding up such cases does not produce a statistic.\n\nHis position on statistics itself is sharper, and more tied to his century. It can give, he holds, only “a probability, but never a certainty,” and he does not understand why what it produces is called laws, since scientific law rests for him on “an absolute determinism.”\n\nWhat remains is the question he puts to every average: an average of what, and were these things comparable before they were added up?",
+ "citation": {
+  "texte": "The pinnacle of the genre was devised by a physiologist who, having taken urine from a urinal at the railway station where people of all nations passed, believed he could thereby give the analysis of the average European urine!",
+  "auteur": "Claude Bernard",
+  "source": "*Introduction à l'étude de la médecine expérimentale*, Baillière, 1865, Part 2, ch. II, § IX",
+  "url": "https://fr.wikisource.org/wiki/Introduction_%C3%A0_l%E2%80%99%C3%A9tude_de_la_m%C3%A9decine_exp%C3%A9rimentale/Deuxi%C3%A8me_partie/Chapitre_II"
+ },
+ "carte": {
+  "punch": "Analyzing a train station's urine to describe the average European: Bernard mocks it, in 1865.",
+  "idee": "In 1865, Claude Bernard cites the analysis of a train station's urine as an example of an absurd average: it describes a urine that does not exist. His rule: average only cases that are comparable and simple.",
+  "source_courte": "Bernard, *Introduction à la médecine expérimentale*, 1865"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why, according to Bernard, does the analysis of one man's urine collected over twenty-four hours and mixed together describe “a urine that does not exist”?",
+  "choix": [
+   "Because the instruments of the time were too imprecise to give a reliable figure",
+   "Because mixed urine changes in composition while being stored before analysis",
+   "Because fasting urine and digestive urine differ, and the mixture erases that difference",
+   "Because one man is not enough and the urine of several people should have been mixed"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Bernard does not fault calculation for being wrong; he faults the average for destroying the variation one wanted to study: the gap between fasting and digestion. Mixing the urine of several people, as at the train station, worsens the flaw instead of fixing it, and the storage of samples plays no part in his argument.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Bernard say about applying mathematics to natural phenomena?",
+   "choix": [
+    "That it is the goal of all science, but inapplicable to physiology, which is too complex today",
+    "That it should be ruled out in physiology, since life by nature escapes all calculation",
+    "That it holds only for physics, never for chemistry or physiology",
+    "That it becomes possible only after the discovery of absolute determinism"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Bernard writes that applying mathematics to natural phenomena is the goal of all science: his criticism targets only its use on living phenomena still too complex to lend themselves to it, not calculation itself."
+  },
+  {
+   "question": "Why does Bernard refuse to call what statistics produces laws?",
+   "choix": [
+    "Because the statistics of his day rested on samples too small to be reliable",
+    "Because a law, in his view, must be enacted by a competent authority, which statistics is not",
+    "Because statistics applies to cases too simple to deserve the name of law",
+    "Because scientific law rests for him on absolute determinism, whereas statistics gives only a probability"
+   ],
+   "bonne_reponse": 3,
+   "explication": "For Bernard, a scientific law presupposes absolute determinism, a phenomenon that always reproduces in the same way under the same conditions. Statistics only ever gives a probability, never a certainty."
+  }
+ ]
+}

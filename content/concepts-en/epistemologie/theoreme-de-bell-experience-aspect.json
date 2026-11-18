@@ -1,0 +1,77 @@
+{
+ "id": "epi-theoreme-de-bell-experience-aspect",
+ "slug": "theoreme-de-bell-experience-aspect",
+ "langue": "en",
+ "empreinte_fr": "6a6869c604d76aa0",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A Debate Among Philosophers, Settled Forty-Seven Years Later by an Experiment",
+ "accroche": "Einstein and Bohr argued without any experiment being able to separate them. A theorem published in 1964 changed that.",
+ "contenu_vulgarise": "In 1935, Albert Einstein, with Boris Podolsky and Nathan Rosen, published a paper arguing that quantum mechanics is incomplete. Their position, known as “local realism”: objects possess definite properties independent of any measurement, and no influence can propagate faster than light. Niels Bohr replied by defending the completeness of the theory. The disagreement seems to have no empirical way out, since the two positions predict exactly the same measurement results in every experiment then imaginable. A purely interpretive disagreement, then, lying outside what observation can settle, almost by definition.\n\n## The mechanism\n\nIn 1964, the Northern Irish physicist John Stewart Bell changes the game. He proves mathematically that any local hidden-variable theory, the position Einstein defended, must obey a precise statistical inequality concerning the correlations between two so-called entangled particles. Quantum mechanics, for its part, predicts that this inequality can be violated in certain experimental configurations. A debate thought to be purely philosophical suddenly becomes a question that a measurement can settle.\n\nThe experiment still had to be carried out. John Clauser conducts the first tests in 1972 and already observes a violation of the inequality, but experimental loopholes remain, notably the possibility that the two detectors communicate in some way before the measurement. Between 1980 and 1982, the French physicist Alain Aspect designs at Orsay, near Paris, a series of increasingly rigorous experiments. His most accomplished setup changes the settings of the detectors while the entangled photons are still in flight, within a few billionths of a second, which rules out that any information could have traveled from one to the other at the speed of light or slower.\n\n## What this shifts\n\nThe result is clear: Bell's inequality is violated, exactly as quantum mechanics predicts. The local realism defended by Einstein is empirically ruled out, not simply judged less elegant or less intuitive. A dispute that had every appearance of an insoluble metaphysical quarrel, the very kind of debate that Popper's demarcation criterion would have placed outside the scientific field on principle, was resolved forty-seven years later by a laboratory measurement.\n\nIn 2022, the Nobel Prize in Physics jointly honored Alain Aspect, John Clauser, and the Austrian Anton Zeilinger, who carried this work on to quantum teleportation, for these experiments on entangled particles. The episode remains a rare and instructive case: a boundary thought to be fixed between what belongs to physics and what belongs to philosophy alone proved, with the right theoretical tool, entirely movable.",
+ "repere": {
+  "texte": "In 1964, John Stewart Bell proves that any local hidden-variable theory must obey an inequality that quantum mechanics predicts to be violated in certain experimental configurations. In 1981-1982, Alain Aspect's experiments confirm this violation, empirically ruling out the local realism Einstein had defended since 1935; Aspect receives the 2022 Nobel Prize in Physics for this work, together with John Clauser and Anton Zeilinger.",
+  "source": "The Nobel Prize, Physics 2022 — Popular science background",
+  "url": "https://www.nobelprize.org/prizes/physics/2022/popular-information/"
+ },
+ "carte": {
+  "punch": "A debate among philosophers, settled forty-seven years later by an experiment.",
+  "idee": "Einstein and Bohr clash in 1935 over the completeness of quantum mechanics, with no measurement able to separate them. In 1964, Bell's theorem makes the debate testable. Alain Aspect's experiments (1982) settle it: Einstein's local realism is empirically ruled out.",
+  "source_courte": "Nobel Prize, Physics 2022"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The Nobel Prize — Physics 2022, Popular science background",
+   "url": "https://www.nobelprize.org/prizes/physics/2022/popular-information/",
+   "note": "An accessible presentation of the whole episode, from the EPR debate to the Nobel Prize."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the debate between Einstein and Bohr seem undecidable by experiment before 1964?",
+  "choix": [
+   "Because neither physicist agreed to publish his arguments",
+   "Because the two positions predicted exactly the same measurement results",
+   "Because the technology of the day allowed no measurement on particles",
+   "Because Bohr refused any scientific dialogue with Einstein"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Einstein's local realism and Bohr's quantum mechanics predicted, before 1964, exactly the same results in every experiment then imaginable: nothing allowed them to be told apart by measurement, until Bell's theorem.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What precisely does Bell's theorem, published in 1964, demonstrate?",
+   "choix": [
+    "That quantum mechanics is definitively incomplete",
+    "That any local hidden-variable theory must obey a precise statistical inequality",
+    "That the speed of light is not an absolute limit",
+    "That particle physics experiments are impossible to carry out"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Bell proves that a local hidden-variable theory, like the one Einstein defended, must obey a precise statistical inequality on the correlations between entangled particles: an inequality that quantum mechanics predicts to be violated."
+  },
+  {
+   "question": "What is distinctive about the experimental setup Alain Aspect designed in 1981-1982?",
+   "choix": [
+    "It uses non-entangled particles to avoid any bias",
+    "It changes the detector settings while the entangled photons are still in flight",
+    "It takes place entirely outside any laboratory",
+    "It replicates Clauser's 1972 experiment identically, with no modification"
+   ],
+   "bonne_reponse": 1,
+   "explication": "By changing the detector settings within a few billionths of a second, while the entangled photons are still in flight, Aspect rules out that any information could have traveled from one to the other at the speed of light or slower."
+  },
+  {
+   "question": "What do the results of Aspect's experiments confirm?",
+   "choix": [
+    "That the local realism defended by Einstein is empirically ruled out",
+    "That quantum mechanics must be abandoned entirely",
+    "That Bohr and Einstein were both equally right",
+    "That Bell's inequality can never be tested in practice"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Bell's inequality is found to be violated exactly as quantum mechanics predicts, which empirically rules out Einstein's local realism, rather than merely judging it less convincing."
+  }
+ ]
+}

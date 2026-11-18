@@ -1,0 +1,88 @@
+{
+ "id": "gen-mendel-ignore-trente-quatre-ans",
+ "slug": "mendel-ignore-trente-quatre-ans",
+ "langue": "en",
+ "empreinte_fr": "cc8b1f84f81a208e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Allemand, Gregor Mendel (lettre à Nägeli, juillet 1870) : « exactement opposée » retraduit depuis le français."
+  },
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "Anglais, Milo Keynes (lettre au Journal of the Royal Society of Medicine, 2002) : « ignorée et oubliée pendant trente-quatre ans » retraduit depuis le français ; formulation anglaise exacte non vue."
+  }
+ ],
+ "titre": "Mendel's laws, ignored for thirty-four years",
+ "accroche": "Mendel published his laws of heredity in 1866. They would not really be read until 1900, by three scientists who did not even know he existed",
+ "contenu_vulgarise": "In 1900, the Dutch botanist Hugo de Vries is about to publish his own experiments on plant hybridization. Before going to print, he does what every serious researcher should do: he checks that no one has already obtained the same result.\n\nIn the proceedings of a regional learned society, published thirty-four years earlier, he finds his own laws, already stated, already demonstrated on peas. The author is named Gregor Mendel, an Augustinian monk in Brno, dead for sixteen years.\n\nAt the same moment, without knowing each other, the German Carl Correns and the Austrian Erich von Tschermak make the same discovery: their own hybridization experiments land, almost word for word, on the text of 1866.\n\n## Published is not read\n\nMendel presents his work in 1865 to the Natural History Society of Brno, then publishes it in 1866 in the society's Verhandlungen: a local journal, exchanged with about a hundred other learned societies around the world, but which almost no leading biologist consulted. He has forty offprints made, which he sends to scholars of his choosing.\n\nOnly one correspondent takes the trouble to reply attentively: Carl von Nägeli, a professor in Munich and a recognized authority on plant hybridization, but with a caution that hardly encourages Mendel. Nägeli is then working on a genus reputed to be difficult, the hawkweeds (*Hieracium*). Mendel devotes eight summers to them, from 1866 to 1873, hoping to confirm his laws on a second organism.\n\nThe results contradict almost everything he established on peas: in July 1870, he writes to Nägeli that hawkweed hybrids behave in a way “exactly opposite” to those of peas. The reason, unknown at the time, is that hawkweeds often reproduce without fertilization: a mechanism, apomixis, that produces clonal offspring of the mother plant. Mendel, who is unaware of it, doubts his own laws. Named abbot of his monastery in 1868, then weakened by illness, he gives up research. He dies in 1884, without having seen his work recognized.\n\n## What “no one read it” oversimplifies\n\nThe received idea would have the 1866 paper fall into total silence until 1900. That is not quite accurate: about a dozen mentions of Mendel are recorded in the literature of this period, in the journal *Flora*, in the proceedings of the Vienna Academy of Sciences, in two university theses, in an 1881 book that mentions his experiments on peas.\n\nNone of these mentions served as the starting point for other research. That is the difference that counts: being cited is not enough; you have to be taken up, extended, used by someone who draws the next consequence from it. It was only in 1901, after the triple rediscovery, that the English geneticist William Bateson translated the text into English and gave it the place it holds today.\n\nA correct result can sleep for thirty-four years in a library, visible, cataloged, even cited in passing, and remain scientifically nonexistent as long as no one builds anything on it.",
+ "repere": {
+  "texte": "Between 1866 and 1900, the scientific literature mentions Mendel about a dozen times: in the journal Flora, in the proceedings of the Vienna Academy of Sciences, in two university theses. None of these mentions gave rise to research building on his results: the historian Milo Keynes concludes that the work remained “ignored and forgotten for thirty-four years.”",
+  "source": "Keynes, Milo, “Mendel — both ignored and forgotten” (letter), Journal of the Royal Society of Medicine, 95, 2002",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1279276/"
+ },
+ "carte": {
+  "punch": "Mendel published his laws in 1866. It would take thirty-four years for them to matter.",
+  "idee": "Mendel published the laws of heredity in 1866 in a local journal that almost no one read. In 1900, three botanists rediscovered them independently, each believing he had found something new. Being published is not enough: you have to be used by others.",
+  "source_courte": "Keynes, J. R. Soc. Med., 2002"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Bicknell et al. (2016) — Seeds of doubt: Mendel's choice of Hieracium",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121183/",
+   "note": "In English, open access; reconstructs the Hieracium episode from the correspondence with Nägeli."
+  }
+ ],
+ "quiz": {
+  "question": "Why did Mendel's laws remain without effect for thirty-four years, according to the entry?",
+  "choix": [
+   "Because no scholar ever mentioned his paper in the literature before 1900",
+   "Because the learned society that published it ceased to exist in 1867",
+   "Because the few existing mentions never served as a starting point elsewhere",
+   "Because Mendel himself had asked for his paper to be withdrawn from the catalog"
+  ],
+  "bonne_reponse": 2,
+  "explication": "About a dozen mentions exist between 1866 and 1900, but none served as a starting point for other work: being cited is not enough, you have to be used. Only after the triple rediscovery of 1900 did Bateson establish, in 1901, the real significance of the text.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who is the first to rediscover Mendel's laws, in 1900, by checking earlier work before publishing his own?",
+   "choix": [
+    "Carl von Nägeli, Mendel's correspondent in Munich, who had received an offprint as early as 1866",
+    "Hugo de Vries, who finds the 1866 text in the proceedings of a learned society",
+    "William Bateson, who then translates the text into English for British scientists",
+    "Erich von Tschermak, who was then conducting his own hybridization experiments in Austria"
+   ],
+   "bonne_reponse": 1,
+   "explication": "It is Hugo de Vries who, checking the literature before publishing his own results, finds Mendel's text published thirty-four years earlier."
+  },
+  {
+   "question": "Why does Mendel come to doubt his own laws after 1866?",
+   "choix": [
+    "Because his experiments on hawkweeds give results opposite to those obtained on peas",
+    "Because Nägeli demonstrates to him an error in his calculations on peas",
+    "Because other researchers publish, before 1884, results that contradict his own",
+    "Because the Natural History Society of Brno withdraws its 1866 publication"
+   ],
+   "bonne_reponse": 0,
+   "explication": "His eight summers of experiments on hawkweeds give results exactly opposite to those on peas, for a reason then unknown: apomixis."
+  },
+  {
+   "question": "Who gives Mendel's text the place it holds today, by translating it into English in 1901?",
+   "choix": [
+    "Carl von Nägeli",
+    "Hugo de Vries",
+    "William Bateson",
+    "Carl Correns"
+   ],
+   "bonne_reponse": 2,
+   "explication": "It is the English geneticist William Bateson who translates the text into English in 1901 and gives it the place it holds today."
+  }
+ ]
+}

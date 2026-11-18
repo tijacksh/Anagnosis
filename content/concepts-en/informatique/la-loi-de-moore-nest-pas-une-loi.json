@@ -1,0 +1,88 @@
+{
+ "id": "inf-la-loi-de-moore-nest-pas-une-loi",
+ "slug": "la-loi-de-moore-nest-pas-une-loi",
+ "langue": "en",
+ "empreinte_fr": "963a64018963e98b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Fragment « remain roughly constant for at least ten years » retraduit du français ; auteur d'origine Gordon Moore, 1965, langue d'origine anglais."
+  }
+ ],
+ "titre": "Moore's “Law” Was Never a Law",
+ "accroche": "The number of transistors on a chip has been doubling regularly for sixty years. Yet it is neither a law of physics nor a prediction: it is a target.",
+ "contenu_vulgarise": "On April 19, 1965, in the journal Electronics, a Fairchild Semiconductor research director named Gordon Moore publishes a four-page article, “Cramming more components onto integrated circuits.” In it he observes that the number of components that can be placed on an integrated circuit at lowest cost has doubled every year since the integrated circuit was invented, and he extrapolates: the trend should, he writes, “remain roughly constant for at least ten years.” That cautious engineer's sentence has become, under the name “Moore's law,” one of the most quoted statements in the entire history of technology, and one of the most misnamed.\n\n## An observation, revised once, then distorted\n\nMoore himself revises his pace as early as 1975: the doubling, he says then, will rather happen every two years. The eighteen-month figure, often wrongly attributed to Moore, actually comes from another Intel executive, David House, who combined the doubling of the number of transistors with the increase in their individual speed to estimate the overall performance gain of the chips, a different calculation, which Moore never claimed as his own.\n\nThe word “law” isn't even Moore's: it was the Caltech physicist Carver Mead who put it into circulation around 1970, and decades later he himself was unsure whether he was really its author. Intel says so bluntly in its own official press kit: “Moore's Law is not a scientific law (it's not a natural phenomenon).” Nothing in the physics of silicon requires a regular doubling; unlike a law of thermodynamics, no constraint of the universe guaranteed that the industry would keep up this pace.\n\n## From an observation to an industry goal\n\nWhat actually held this pace for decades, then, is not a regularity of nature but a manufactured one. The same Intel press kit puts it this way: “What started as an empirical observation became a motivating objective, a target for Intel and its competitors to deliver against time and again.” Year after year, the whole industry, Intel at the head but also its competitors and equipment suppliers, took this extrapolation as a roadmap to be met rather than as a mere description: failing to keep pace meant falling behind everyone else at once. The prediction partly fulfilled itself, simply by being believed.\n\n## What people still say sixty years later\n\nThe debate is still not closed, and opinions diverge at the very top of the industry. In September 2022, Nvidia CEO Jensen Huang declared Moore's law flat-out dead. Six months later, in a lecture at MIT on March 17, 2023, whose video was not widely circulated until December of that year, Intel's CEO, Pat Gelsinger, acknowledged a clear slowdown, a doubling closer to three years than two, without considering it over. Two executives, two opposing views, on an observation that was never a law: perhaps that is the best proof that it wasn't one.",
+ "repere": {
+  "texte": "Intel's official press kit says it plainly: “Moore's Law is not a scientific law (it's not a natural phenomenon).” What began as an empirical observation by Gordon Moore in 1965 became, in Intel's own words, “a motivating objective, a target for Intel and its competitors to deliver against time and again.”",
+  "source": "Intel Newsroom, “Press Kit: Moore's Law”",
+  "url": "https://newsroom.intel.com/press-kit/moores-law"
+ },
+ "carte": {
+  "punch": "Moore's law was never a law. Intel says so itself.",
+  "idee": "In 1965, Gordon Moore merely observed and extrapolated a doubling rate for transistors. The word “law” comes from another researcher; the famous “18 months” from a third. What really held this pace is that the whole industry made it a target to hit.",
+  "source_courte": "Intel Newsroom"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "IEEE Spectrum — The Murky Origins of \"Moore's Law\"",
+   "url": "https://spectrum.ieee.org/the-murky-origins-of-moores-law",
+   "note": "On the origin of the term “Moore's law,” attributed to Carver Mead rather than to Moore himself."
+  },
+  {
+   "titre": "TechSpot — Nvidia's Jensen Huang once again claims Moore's law is dead",
+   "url": "https://www.techspot.com/news/96094-nvidia-jensen-huang-once-again-claims-moore-law.html",
+   "note": "Statement by Jensen Huang, September 24, 2022."
+  }
+ ],
+ "quiz": {
+  "question": "Why did “Moore's law” keep up its doubling pace for several decades?",
+  "choix": [
+   "Because it is a physical constraint of silicon that dictates this precise pace",
+   "Because Gordon Moore personally supervised the design of every new generation of chips",
+   "Because a patent filed by Intel prevented its competitors from slowing the pace",
+   "Because the entire industry made it a roadmap goal to be met, rather than a mere observation to be noted"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Nothing in physics dictated this pace: Intel itself acknowledges it is not a natural law. What kept it going is that the entire industry, Intel and its competitors, turned the 1965 extrapolation into a target to be hit with each generation, at the risk of falling behind the others otherwise.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the eighteen-month figure often attributed to Moore's law come from?",
+   "choix": [
+    "From Gordon Moore's original 1965 article published in Electronics",
+    "From David House, an Intel executive, by combining two distinct effects",
+    "From the revision Moore himself made in 1975",
+    "From a study conducted jointly by Intel and Nvidia in 2022"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The eighteen-month figure actually comes from another Intel executive, David House, who combined the doubling of the number of transistors with the increase in their individual speed, a calculation Moore never claimed as his own."
+  },
+  {
+   "question": "Who put the word “law” into circulation to describe Moore's observation?",
+   "choix": [
+    "Gordon Moore himself, in his 1965 article",
+    "David House, in 1975, along with the 18-month figure",
+    "Intel's official press kit, published in 2022",
+    "The physicist Carver Mead, around 1970"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The word “law” is not Moore's: it was the Caltech physicist Carver Mead who put it into circulation around 1970, and decades later he himself was unsure whether he was really its author."
+  },
+  {
+   "question": "In March 2023, at a lecture at MIT, what does Pat Gelsinger, Intel's CEO, say about Moore's law?",
+   "choix": [
+    "That it is flat-out dead",
+    "That on the contrary it has accelerated since 2022",
+    "That it has slowed, closer to three years than two, without being over",
+    "That it never existed, even as an empirical observation"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Six months after Nvidia CEO Jensen Huang declared it dead, Intel CEO Pat Gelsinger acknowledges at a lecture at MIT a clear slowdown, a doubling closer to three years than two, without considering it over."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "geo-oklo-reacteur-nucleaire-naturel-1972",
+ "slug": "oklo-reacteur-nucleaire-naturel-1972",
+ "langue": "en",
+ "empreinte_fr": "6adc991bbfeaba6b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Oklo, the Nuclear Reactor Nobody Built",
+ "accroche": "In 1972, a uranium-235 deficit measured at Pierrelatte reveals that a chain reaction took place in Gabon about 1.7 billion years ago.",
+ "contenu_vulgarise": "In May 1972, at Pierrelatte, in the Drôme department, a routine analysis of uranium yields a result that should not exist. Natural uranium generally contains 0.72% uranium-235, the rest being uranium-238. Samples from the Oklo deposit, in Gabon, contain only 0.60%, about 17% less. Other ores from the same site will later drop as low as 0.44%. The French Atomic Energy Commission (CEA) sets out to find where this uranium-235, the isotope power plants use as fuel, went.\n\n## A Reactor With No Engineer\n\nThe answer comes down to one word: it was consumed by fission. This happened about 1.7 billion years ago (some sources round it to 2 billion). In the Oklo deposit, the reaction continued, on and off, for a few hundred thousand years, at sixteen sites made of patches of ore in centimeter-thick layers. Its power probably never exceeded 100 kilowatts thermal.\n\nTwo conditions are enough to explain it. The first is the concentration. Uranium-235 decays faster than uranium-238, so its share shrinks over time: when Oklo started up, it stood at about 3.1%, a value comparable to that of some modern reactors. The second is water. Groundwater played the role of moderator: it slowed the neutrons, which makes fission more likely. Oxygen was also needed, without which uranium does not dissolve in water.\n\n## A Reactor That Breathes\n\nIn 2004, a team from Washington University in St. Louis reads the rhythm of this fission in the noble gases it left behind. The xenon and krypton isotopes, trapped in a phosphate from the deposit, bear the mark of pulsed operation: 30 minutes of activity, separated by 2.5 hours of rest. The concentrations of fission xenon and krypton, up to 0.03 cm³ per gram, are the highest ever measured in a natural material.\n\n## What This Shifts\n\nWe file nuclear fission among human inventions: a reactor requires a design, a prepared fuel, a chosen moderator. At Oklo, all three came from geology alone, and they predated humanity by more than a billion years. The phenomenon itself cannot replay identically: today's natural uranium, at 0.72%, no longer reaches the concentration Oklo had at its disposal. The 0.12-point deficit, spotted in 1972 during a routine analysis, had stayed in the rock for 1.7 billion years.",
+ "repere": {
+  "texte": "The Oklo reactor operated in pulses of 30 minutes, separated by 2.5 hours of rest: this is what the isotopic composition of fission xenon and krypton trapped in a phosphate from the deposit reveals (Meshik, Hohenberg, and Pravdivtseva, 2004).",
+  "source": "Meshik, Hohenberg, and Pravdivtseva, Physical Review Letters 93, 182302 (October 27, 2004)",
+  "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.182302"
+ },
+ "carte": {
+  "punch": "A nuclear reactor ran in Gabon, with nobody there, 1.7 billion years ago.",
+  "idee": "In 1972, a uranium-235 deficit (0.60% instead of 0.72%) measured at Pierrelatte reveals that a chain reaction took place at Oklo, in Gabon, about 1.7 billion years ago, in pulses of 30 minutes separated by 2.5 hours.",
+  "source_courte": "Meshik et al., Phys. Rev. Lett., 2004"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why was a natural chain reaction possible at Oklo 1.7 billion years ago, when it no longer is today?",
+  "choix": [
+   "Because the Gabonese subsurface was then much hotter, which sped up fission",
+   "Because the rocks then contained another element, now vanished, that served as fuel",
+   "Because uranium-235 was more abundant there (about 3%) and groundwater slowed the neutrons",
+   "Because no water flowed through the deposit, which kept the reaction from stopping"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Uranium-235 decays faster than uranium-238: its share fell from about 3.1% to 0.72%, and the concentration condition is no longer met. Water is not an obstacle but a necessary moderator. No other fuel and no special heat is involved.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How did the 2004 team discover that the Oklo reactor operated in pulses?",
+   "choix": [
+    "By measuring the residual temperature of the deposit's rocks, still high in places",
+    "By reading the isotopic composition of fission xenon and krypton trapped in a phosphate from the deposit",
+    "By finding written records left by engineers who supposedly monitored the site",
+    "By comparing the site's current radioactivity with that measured at its discovery in 1972"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 2004 team read, in the isotopic structure of fission xenon and krypton trapped in a phosphate from the deposit, a cycle of thirty minutes of activity separated by two and a half hours of rest."
+  },
+  {
+   "question": "What discrepancy was measured in May 1972 at Pierrelatte that triggered the investigation of Oklo?",
+   "choix": [
+    "An excess of uranium-238, twice the concentration expected in a natural deposit",
+    "A trace of artificial plutonium, incompatible with a deposit several billion years old",
+    "A temperature anomaly in the processing furnaces, signaling a reaction still active",
+    "A uranium-235 deficit: 0.60% in the Oklo samples versus 0.72% expected"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Natural uranium generally contains 0.72% uranium-235. The Oklo samples contained only 0.60%, a deficit that led the CEA to look for where this uranium-235 had gone, and that led to the discovery of the reactor."
+  }
+ ]
+}

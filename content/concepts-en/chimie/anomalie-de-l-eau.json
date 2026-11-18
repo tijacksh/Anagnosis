@@ -1,0 +1,77 @@
+{
+ "id": "chi-anomalie-de-l-eau",
+ "slug": "anomalie-de-l-eau",
+ "langue": "en",
+ "empreinte_fr": "4807fe0bafb68660",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "If ice sank, no fish would make it through the winter",
+ "accroche": "Water reaches its maximum density at 4 °C, not at 0. That anomaly decides how a lake freezes",
+ "contenu_vulgarise": "Almost all liquids contract as they cool, and their solid form is denser than their liquid form. An ice cube should therefore sink.\n\nIt floats. Ice is about 8% less dense than liquid water, and liquid water reaches its maximum density not at the freezing point, but four degrees above it.\n\nThis anomaly is no laboratory curiosity. It decides how a lake freezes, and therefore what can live in it.\n\n## A molecule that holds its neighbors at a distance\n\nA water molecule is bent: two hydrogens on one side, two lone pairs of electrons on the other. This geometry lets it form up to four hydrogen bonds. Weak one by one, but numerous.\n\nThese bonds are *directional*. They do not merely attract, they impose an angle. Each molecule tends to surround itself with four neighbors placed at the corners of a tetrahedron.\n\nNow, a tetrahedral arrangement is open-work. It leaves empty space between the molecules, far more than if they were stacked like marbles in a bag.\n\n## The two effects that cross\n\nCooling a liquid ordinarily produces a single effect: thermal agitation drops, the molecules draw closer, the volume shrinks.\n\nIn water, a second effect works in the opposite direction. As agitation weakens, the network of hydrogen bonds becomes structured, and this structure pushes the molecules apart.\n\nBetween 100 and 4 degrees, contraction wins: water becomes denser. Below 4 degrees, structuring wins: water expands as it cools. At solidification, the network locks completely into place and the volume jumps.\n\nThe density maximum at 4 degrees is the exact point where the two effects cancel out.\n\n## What this changes for a lake\n\nA cooling lake behaves normally at first. Cooler, and therefore denser, surface water sinks; the column mixes, and the cooling reaches the full depth.\n\nThis mixing stops at 4 degrees. Below that, chilled water becomes lighter and stays at the surface. It freezes in place, and the ice that forms, lighter still, stays on top.\n\nThe lake therefore freezes from the top down, and the layer of ice insulates what lies beneath. The bottom stays liquid, at around 4 degrees.\n\nIf water behaved like other liquids, ice would sink as it formed, and a lake would freeze from the bottom up until it was solid. What we call an abnormal property is the condition for a fish to make it through the winter.",
+ "repere": {
+  "texte": "Ice is about 8% less dense than liquid water, and water reaches its maximum density at 4 °C: not at 0 °C, as the ordinary behavior of a liquid would suggest.",
+  "source": "“The structure of water: A historical perspective,” The Journal of Chemical Physics, 160, 2024",
+  "url": "https://pubs.aip.org/aip/jcp/article/160/6/060901/3262785/The-structure-of-water-A-historical-perspective"
+ },
+ "carte": {
+  "punch": "If ice sank, no fish would make it through the winter.",
+  "idee": "Water reaches its maximum density at 4 °C, not at 0. Below that, hydrogen bonds build an open-work network that makes it expand. Hence ice that is lighter, freezes at the surface and insulates the lake bottom.",
+  "source_courte": "Bernal & Fowler, J. Chem. Phys., 1933"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The structure of water: A historical perspective (2024)",
+   "url": "https://pubs.aip.org/aip/jcp/article/160/6/060901/3262785/The-structure-of-water-A-historical-perspective",
+   "note": "In English; traces a century of models, from the Bernal-Fowler rules to today."
+  }
+ ],
+ "quiz": {
+  "question": "Why does water expand as it cools below 4 °C?",
+  "choix": [
+   "Because dissolved air escapes from it and takes up more room",
+   "Because hydrogen bonds impose an open-work network that pushes the molecules apart",
+   "Because the molecules grow more agitated as freezing approaches",
+   "Because the pressure exerted by the atmosphere decreases with temperature"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Hydrogen bonds do more than attract: they impose an angle, and the resulting tetrahedral arrangement leaves more empty space than a compact stacking. Below 4 °C, this structuring wins out over thermal contraction. Contraction keeps working all the same, since agitation never stops decreasing.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What happens in a cooling lake once 4 °C is reached?",
+   "choix": [
+    "The mixing of the water column stops, and the surface freezes in place",
+    "The mixing speeds up until the whole column is at 0 °C",
+    "Water from the bottom rises to the surface and forms the first crystals there",
+    "Ice forms first at the bottom, where the water is coldest"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Above 4 °C, cooled surface water is denser and sinks, which mixes the whole column. Below that, it becomes lighter and stays on top: it freezes in place, and the ice, lighter still, stays above."
+  },
+  {
+   "question": "What exactly does the density maximum of water at 4 °C represent?",
+   "choix": [
+    "The temperature at which all hydrogen bonds break",
+    "The exact temperature at which ice begins to form",
+    "The point where thermal contraction and structuring cancel each other out",
+    "The limit beyond which water no longer dissolves any gas"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Two effects work in opposite directions as water cools: the dropping agitation brings molecules closer, while the hydrogen-bond network taking shape pushes them apart. At 4 °C, they offset each other exactly."
+  },
+  {
+   "question": "What in the water molecule allows up to four hydrogen bonds?",
+   "choix": [
+    "Its overall charge, higher than that of other small molecules",
+    "Its bent shape, two hydrogens on one side, two lone pairs on the other",
+    "Its very low mass, which makes it more mobile than its neighbors",
+    "The number of neutrons carried by its central oxygen atom"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The molecule's bent geometry gives it four attachment points: two hydrogens and two lone pairs of electrons. These bonds do more than attract, they impose an angle, hence the tetrahedral arrangement."
+  }
+ ]
+}

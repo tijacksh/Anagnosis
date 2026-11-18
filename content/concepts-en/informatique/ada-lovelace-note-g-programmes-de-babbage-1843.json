@@ -1,0 +1,78 @@
+{
+ "id": "inf-ada-lovelace-note-g-programmes-de-babbage-1843",
+ "slug": "ada-lovelace-note-g-programmes-de-babbage-1843",
+ "langue": "en",
+ "empreinte_fr": "c07b1e810d1ccb40",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Ada Lovelace's Note G: A Published Program, but Not the First One Written",
+ "accroche": "In 1843, Ada Lovelace publishes a program for Babbage's machine. He had written some as early as 1837, but had published none.",
+ "contenu_vulgarise": "In 1843, the British journal *Taylor's Scientific Memoirs* publishes a table of numbers, letters, and operations that is now regarded as the earliest computer program. It is signed with the initials A.A.L., those of Ada Augusta Lovelace. It describes, step by step, how Charles Babbage's Analytical Engine would calculate Bernoulli numbers. The label “first programmer” has stuck to her name. It holds up less well than people think.\n\n## What the 1843 text contains\n\nThe starting point is a memoir by the Italian military engineer Luigi Menabrea, published in French in Geneva in October 1842, reporting on a presentation by Babbage. Lovelace translates it into English and adds seven notes to it, from A to G. Together, they are about three times as long as the memoir. The last, Note G, announces that it closes the set with an example of some complexity: the calculation of Bernoulli numbers. In it she describes the state of the machine's columns for the case n = 4, with six starting data, and indicates, according to the note, that 25 operation cards suffice to obtain each Bernoulli number from the first.\n\n## What existed before\n\nBabbage, for his part, had written programs much earlier. Computer scientist Raúl Rojas describes in 2023 a table from 1837, in Babbage's own hand, that solves a system of two equations in two unknowns: a sequence of operations with the memory addresses of their arguments and their result, presented as the trace of a program. Historian Allan Bromley, for his part, counts several dozen examples prepared between 1837 and 1840. None was published at the time.\n\nWhat distinguishes Note G, then, is not priority but publication. It is the program for the machine that the public was able to read, and an example long enough to show what the machine would be used for.\n\n## An error, and a limit\n\nThe Note G program contains an error. At the fourth operation, the division is written the wrong way round: v5 divided by v4, instead of v4 divided by v5. Two programmers who have rewritten it in modern times, one in C, the other in Python, noticed it. It may be a simple printing typo rather than a design flaw.\n\nIn that same note, Lovelace writes that the machine has no pretensions whatever to originate anything: she herself sets the limit of the machine whose program she describes.\n\nIt remains to decide what “first” demands of a program: having conceived it, having written it, or having made it available to read.",
+ "citation": {
+  "texte": "The Analytical Engine has no pretensions whatever to originate anything.",
+  "auteur": "Ada Lovelace",
+  "source": "Note G, in L. F. Menabrea, “Sketch of the Analytical Engine invented by Charles Babbage,” Taylor's Scientific Memoirs, vol. III, 1843",
+  "url": "https://www.fourmilab.ch/babbage/sketch.html"
+ },
+ "carte": {
+  "punch": "In 1843, Ada Lovelace published a program for Babbage's machine, and he had already written some.",
+  "idee": "Babbage had written programs for his Analytical Engine as early as 1837; none had been published. Lovelace's Note G (1843), a calculation of Bernoulli numbers, is the one the public was able to read.",
+  "source_courte": "Lovelace, 1843; Rojas, 2023"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "TwoBitHistory, “What Did Ada Lovelace's Program Actually Do?”",
+   "url": "https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html",
+   "note": "Rewrite of the program in C; division reversed at the fourth operation, possibly a printing typo."
+  }
+ ],
+ "quiz": {
+  "question": "Why can't Note G be called the first program written for Babbage's machine?",
+  "choix": [
+   "It reproduced word for word a program written by Menabrea",
+   "Babbage had already written programs as early as 1837, which remained unpublished",
+   "It described the Difference Engine rather than the Analytical Engine",
+   "It was never printed and circulated only in handwritten copies"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Babbage had prepared programs as early as 1837, including one for a system of two equations in two unknowns, without publishing them. Note G, for its part, appeared in 1843 in Taylor's Scientific Memoirs. It is not Menabrea's: his memoir is the text that was translated, not the source of the program; it concerns the Analytical Engine, like the whole set of notes; and it was indeed printed.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Ada Lovelace's Note G describe as the final example of her seven notes?",
+   "choix": [
+    "The calculation of Bernoulli numbers for the case n = 4, with 25 operation cards",
+    "A program for sorting whole numbers in ascending order",
+    "The machine translation of a French text into English",
+    "A demonstration of a game of chess played by the machine"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Note G, the last of Lovelace's seven notes, takes the calculation of Bernoulli numbers as its example: for n = 4, it describes the state of the columns with six starting data and indicates that 25 operation cards suffice."
+  },
+  {
+   "question": "What error affects the Note G program, according to two programmers who rewrote it in modern times?",
+   "choix": [
+    "An infinite loop at the last operation",
+    "A division written the wrong way round at the fourth operation",
+    "A starting datum forgotten among the six required",
+    "An operation card duplicated by a printing error"
+   ],
+   "bonne_reponse": 1,
+   "explication": "At the fourth operation, the division is written v5 divided by v4 instead of v4 divided by v5. Two programmers who rewrote it, one in C, the other in Python, noticed it; it may be a printing typo."
+  },
+  {
+   "question": "Where does the memoir that Lovelace translates and annotates in her 1843 text come from?",
+   "choix": [
+    "A Royal Society report presented by Babbage himself in English",
+    "A private correspondence between Lovelace and Babbage published after their deaths",
+    "A presentation by Babbage reported by the engineer Luigi Menabrea, published in French in Geneva",
+    "A course given by Lovelace at the University of Cambridge"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The starting point is a memoir by the Italian military engineer Luigi Menabrea, published in French in Geneva in October 1842, reporting on a presentation by Babbage; Lovelace translates it into English and adds seven notes."
+  }
+ ]
+}

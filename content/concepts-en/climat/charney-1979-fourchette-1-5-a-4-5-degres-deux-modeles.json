@@ -1,0 +1,88 @@
+{
+ "id": "cli-charney-1979-fourchette-1-5-a-4-5-degres-deux-modeles",
+ "slug": "charney-1979-fourchette-1-5-a-4-5-degres-deux-modeles",
+ "langue": "en",
+ "empreinte_fr": "620bea6610e3b88a",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Charney et al., Carbon Dioxide and Climate (1979), résumé : « près de 3 °C avec une erreur probable de ± 1,5 °C » traduit depuis le français ; formulation anglaise d'origine à vérifier. Idem pour « at best » dans la même section."
+  }
+ ],
+ "titre": "Charney Report, 1979: the 1.5 to 4.5 °C range comes from two models",
+ "accroche": "The 1979 range for a doubling of CO₂ is not an average: two models give the bounds, two margins set by hand widen them.",
+ "contenu_vulgarise": "From July 23 to 27, 1979, at Woods Hole (Massachusetts), a panel of experts convened by the U.S. National Academy of Sciences, chaired by the meteorologist Jule Charney, must answer a request from the director of the White House Office of Science and Technology Policy: by how much would the climate warm if the carbon dioxide in the air doubled? The report runs 34 pages. Its numerical conclusion is the following: 1.5 to 4.5 °C, the most probable value being close to 3 °C.\n\nIt is often read as an average of many calculations, or as a statistical interval. The text says something else.\n\n## Five simulations and a judgment\n\nThe group has five simulations from three-dimensional atmospheric models. Three come from Syukuro Manabe and his colleagues at NOAA's Geophysical Fluid Dynamics Laboratory (M1, M2, M3), two from James Hansen and his colleagues at NASA's Goddard Institute (H1, H2). A sixth, from the British Met Office, is set aside: sea temperature is imposed in it, whereas it is precisely the rise in that temperature that has to be estimated.\n\nThe file is fragile. Only M1 is published. M2 is a manuscript, H1 appears in a funding application, M3 and H2 are known only through personal communication.\n\nThe models give different warmings. The group judges that the H series overestimates the effect of water vapor and ice, and that the M series underestimates it. It therefore takes the M result as the lower bound, 2 °C, and the H1 result as the upper bound, 3.5 °C. The report writes of these estimates that they are, “at best,” informed guesses.\n\n## Two margins added to the estimate\n\nThe group does not stop there. It has found no evidence of a notable cooling effect from low or middle clouds: it therefore subtracts only 0.5 °C from the lower bound. High clouds are more uncertain: it adds 1 °C to the upper bound. Hence 1.5 °C and 4.5 °C.\n\nThe report's summary puts the same thing differently: “near 3 °C with a probable error of ±1.5 °C.” This probable error is not calculated on a series of measurements. It comes from these two margins, set by judgment.\n\n## The same bounds, other evidence\n\nIn 2013, the IPCC's fifth report retains for equilibrium climate sensitivity a “likely” range of 1.5 to 4.5 °C: the same bounds. Its summary specifies that the lower bound is lower than that of the previous report, 2 °C, and that the upper bound is the same. It bases it on better understanding, a longer temperature record and new estimates of radiative forcing, not on the 1979 margins. In 2021, the sixth report proposes a best estimate of 3 °C and a likely interval of 2.5 to 4 °C, based on several lines of evidence, including past climates.\n\nTwo margins justified by arguments about clouds, but quantified by judgment: the 1979 range reads as an inventory of what was not yet known.",
+ "repere": {
+  "texte": "The report takes 2 °C (M series, Manabe) as the lower bound and 3.5 °C (H1, Hansen) as the upper bound, then widens them by 0.5 °C downward and 1 °C upward: the equilibrium rise for a doubling of CO₂ would be 1.5 to 4.5 °C, the most probable value being close to 3 °C. The text calls these estimates “informed guesses.”",
+  "source": "Charney et al., Carbon Dioxide and Climate: A Scientific Assessment, National Research Council, 1979, chap. 4, p. 16-17",
+  "url": "https://nap.nationalacademies.org/catalog/12181/carbon-dioxide-and-climate-a-scientific-assessment"
+ },
+ "carte": {
+  "punch": "1.5 to 4.5 °C for a doubling of CO₂: two models and two margins, in 1979.",
+  "idee": "In 1979, the Charney report takes 2 °C (Manabe's model) and 3.5 °C (Hansen's model) as bounds, then adds 0.5 and 1 °C of margin. These bounds, 1.5 and 4.5 °C, are still the IPCC's in 2013.",
+  "source_courte": "Charney et al., NRC, 1979"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The 1979 Charney report, full text",
+   "url": "https://nap.nationalacademies.org/catalog/12181/carbon-dioxide-and-climate-a-scientific-assessment",
+   "note": "In English; free PDF, 34 pages."
+  },
+  {
+   "titre": "IPCC, Sixth Assessment Report (2021), Summary for Policymakers",
+   "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+   "note": "In English; see A.4.4 on climate sensitivity."
+  }
+ ],
+ "quiz": {
+  "question": "How was the 1.5 to 4.5 °C range built in 1979?",
+  "choix": [
+   "By averaging dozens of climate models, validated against a century of measured temperatures",
+   "By statistically fitting surface temperature records since 1880",
+   "By taking the results of two models as bounds, then widening them by 0.5 and 1 °C",
+   "By simply discarding the weakest and the strongest of the five available simulations"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The group takes 2 °C (M series) and 3.5 °C (H1) as bounds, then adds 0.5 °C at the bottom and 1 °C at the top, which it describes as informed guesses. It has only five simulations, not dozens, removes no extremes and fits no temperature series.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why is the sixth available simulation, that of the British Met Office, set aside from the five retained?",
+   "choix": [
+    "Because it imposed sea temperature rather than calculating it",
+    "Because it had never been published in any scientific journal",
+    "Because it gave a warming judged implausible, above 6 °C",
+    "Because its laboratory had not responded to the White House's request"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The group sets aside the British Met Office simulation because it imposed sea temperature, whereas it is precisely that rise that had to be estimated."
+  },
+  {
+   "question": "Who chairs the panel of experts convened at Woods Hole in July 1979?",
+   "choix": [
+    "James Hansen, of NASA's Goddard Institute",
+    "Syukuro Manabe, of the Geophysical Fluid Dynamics Laboratory",
+    "Jule Charney, under the aegis of the National Academy of Sciences",
+    "The director of the White House Office of Science and Technology Policy"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The panel convened at Woods Hole in July 1979 is chaired by the meteorologist Jule Charney, under the aegis of the U.S. National Academy of Sciences."
+  },
+  {
+   "question": "How does the report itself describe its estimates of the two bounds, at best?",
+   "choix": [
+    "As established scientific certainties",
+    "As informed guesses, in the text",
+    "As definitive results confirmed by five independent models",
+    "As statistical calculations based on temperature measurements"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The report writes of its estimates that they are, at best, informed guesses, in the original text."
+  }
+ ]
+}

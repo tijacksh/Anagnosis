@@ -1,0 +1,60 @@
+{
+ "id": "epi-lakatos-1970-programmes-de-recherche-progressifs-et-degenerescents",
+ "slug": "lakatos-1970-programmes-de-recherche-progressifs-et-degenerescents",
+ "langue": "en",
+ "empreinte_fr": "c9e8357eb0f4c345",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Lakatos: Judging a Sequence of Theories, Not a Theory",
+ "accroche": "A prediction fails, and the theory stays. For Lakatos, a research program is judged over time, not at the first failure.",
+ "contenu_vulgarise": "A prediction fails. In the most widespread version of Karl Popper, the theory is then refuted and must be abandoned. Imre Lakatos argues that this is almost never what happens in the history of science. His 1970 essay, “Falsification and the Methodology of Scientific Research Programmes,” runs 106 pages (91 to 196) in a volume collecting the proceedings of the 1965 London colloquium on the philosophy of science, where Popper, Kuhn, Carnap, Quine and Tarski, among others, were present.\n\n## The problem Duhem had posed\n\nA theory predicts nothing on its own. To foresee what will be seen in an instrument, one must add auxiliary hypotheses: about the instrument, about the starting conditions, about what is neglected. When the prediction fails, one can correct the theory or one of the auxiliaries, and observation alone does not say which. This is Duhem's thesis, and it rules out immediate refutation.\n\n## The unit of judgment changes\n\nLakatos shifts the object of judgment. It is no longer an isolated theory, but a sequence of theories that share a hard core: a research program. The core is held to be irrefutable by methodological decision. One rule, the negative heuristic, diverts refutations toward the protective belt of auxiliary hypotheses. Another, the positive heuristic, suggests how to modify that belt to obtain richer, more testable versions.\n\nA program is theoretically progressive when each version has more empirical content than the previous one and predicts novel facts. It is empirically progressive when some of those predictions are confirmed. Otherwise, it is degenerating: its modifications serve only to absorb anomalies. A program can progress even though each of its successive theories has been refuted.\n\n## No instant verdict\n\nThe criterion is read over time, and the status of a program depends in part on its history. A degenerating program can even recover. Two cases that the *Stanford Encyclopedia of Philosophy* ties to Lakatos show at least that an anomaly can be tolerated for a long time: the anomaly of the advance of Mercury's perihelion lasted for decades without astronomers abandoning Newton before Einstein's theory arrived. And heliocentrism, which implies an annual parallax of the stars, survived without its being detected until 1838.\n\n## What this shifts\n\nLakatos is sometimes summed up as “Popper, softened.” The *Stanford Encyclopedia of Philosophy* says instead that he in fact abandons falsifiability as a criterion of demarcation. What replaces it is a comparison between rival programs, of which there are always several: a degenerating program is supplanted by a progressive one, and its competitors can survive as minority positions.\n\nThe enterprise has a gray area that the encyclopedia points out: it is not clear whether Lakatos meant that one should always keep a program until a better one has appeared, or whether one could reject one, like Marxism, without a progressive rival. At what date does a degenerating program cease to be reasonable to defend?",
+ "repere": {
+  "texte": "Heliocentrism implies an annual parallax of the stars. It was not detected until 1838, and heliocentrism survived in the meantime: for Lakatos, an anomaly is not an immediate refutation.",
+  "source": "Stanford Encyclopedia of Philosophy, “Imre Lakatos,” § 2.2",
+  "url": "https://plato.stanford.edu/entries/lakatos/"
+ },
+ "carte": {
+  "punch": "A prediction fails, the theory stays: Lakatos judges programs, not isolated theories.",
+  "idee": "For Lakatos (1970), a theory does not fall at the first failure: one can blame its auxiliary hypotheses. What gets judged is a sequence of theories, progressive if it predicts novel facts, degenerating if it merely patches things up.",
+  "source_courte": "Lakatos, 1970"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why, for Lakatos, does the failure of a prediction not require abandoning the theory right away?",
+  "choix": [
+   "Because a false prediction proves only that the experiment was badly conducted",
+   "Because one can blame the auxiliary hypotheses, and the program is judged over time",
+   "Because a well-formulated theory can in practice be contradicted only by another theory",
+   "Because he retains only the internal coherence of the program as a criterion, without looking at the facts"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A theory predicts only with auxiliary hypotheses: failure can be directed toward them, and the program judged over time, according to whether it predicts novel facts or merely absorbs anomalies. Lakatos denies neither observation nor comparison: the novel facts predicted and the rival programs are at the heart of his criterion.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the anomaly of Mercury's perihelion illustrate, according to the Stanford Encyclopedia as reread for this entry?",
+   "choix": [
+    "That an anomaly can be tolerated for decades without abandoning the prevailing theory",
+    "That Newton himself had predicted the advance of the perihelion before it was measured",
+    "That the anomaly was resolved as soon as it was discovered by a correction of the observation tables",
+    "That astronomers abandoned Newtonian mechanics as soon as the anomaly was measured"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The anomaly of the advance of Mercury's perihelion lasted for decades without astronomers abandoning Newtonian mechanics, until Einstein's theory arrived: an anomaly is not an immediate refutation."
+  },
+  {
+   "question": "What does the Stanford Encyclopedia of Philosophy say about the criterion that Lakatos substitutes for Popperian falsifiability?",
+   "choix": [
+    "That he keeps falsifiability intact, but applies it to groups of theories rather than to an isolated theory",
+    "That he replaces falsifiability with a peer vote within the scientific community",
+    "That he gives up any criterion of demarcation, judging the question itself ill-posed",
+    "That he in fact abandons falsifiability as a criterion of demarcation, in favor of a comparison between rival programs"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The Stanford Encyclopedia of Philosophy notes that Lakatos in fact abandons falsifiability as a criterion of demarcation: what replaces it is a comparison between rival research programs, of which there are always several at once."
+  }
+ ]
+}

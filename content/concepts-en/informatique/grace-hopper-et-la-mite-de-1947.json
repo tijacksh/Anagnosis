@@ -1,0 +1,77 @@
+{
+ "id": "inf-grace-hopper-et-la-mite-de-1947",
+ "slug": "grace-hopper-et-la-mite-de-1947",
+ "langue": "en",
+ "empreinte_fr": "20cc066a53ad763e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Grace Hopper Probably Didn't Find the First “Bug”",
+ "accroche": "She told the story through forty-five years of lectures. But nothing indicates that she herself found the moth taped into the logbook.",
+ "contenu_vulgarise": "On September 9, 1947, on the Harvard Mark II, an electromechanical relay refuses to work. The team opens it up, finds a moth crushed between two contacts, pulls it out with tweezers, and tapes it into the logbook with the note: “First actual case of bug being found.” The page still exists; it is now held by the Smithsonian, National Museum of American History.\n\nThis fragment of a logbook came to circulate as the founding anecdote of computing: Grace Hopper, the future admiral and high priestess of the COBOL language, supposedly coined the word “bug” that day. She herself did a great deal to promote this version, telling the story for decades in countless lectures.\n\n## What the logbook actually says\n\nHopper did work on the Mark II team in 1947; she had been part of it since the previous year. But the Smithsonian, which holds the page, is explicit: this notebook was probably not hers, and nothing proves she personally spotted the insect or wrote the line. The identity of the person who actually held the tweezers and wrote the entry remains, to this day, unestablished in the available sources.\n\nThe word “bug” itself is older than the Mark II. Thomas Edison was already using it in 1878, in a letter to his associate Theodore Puskás, to describe the small flaws that appear between the intuition of an invention and its commercial success: “This thing gives out and then that, Bugs, as such little faults and difficulties are called.” The term had even entered American dictionaries well before the war: the 1934 edition of Webster's already lists “bug” as slang for a defect in an apparatus.\n\n## What Hopper actually did\n\nWhat the Mark II team invented that day was not the word. It was its literal use and its staging: taping the real insect next to an already slangy word gave material proof, funny and memorable, of a technical incident. Hopper, for her part, did the work that remains indisputably hers: she popularized the anecdote and the verb that follows from it, “debug,” until it became a vocabulary reflex across an entire profession.\n\nThe story keeps one last irony. The official caption of the archival photograph of this page, distributed by the U.S. Navy, long carried an erroneous date: 1945, when the Mark II was not completed until the summer of 1947, which makes such an incident physically impossible that year. Even the scholarly article that established the history of the word in 1987 still repeated this wrong date. The document that was supposed to close one myth kept a second one alive for a while: proof that an archival source can itself be corrected, and that it should be reopened rather than recopied.",
+ "repere": {
+  "texte": "The Harvard Mark II logbook carries, on the date of September 9, 1947, the note “First actual case of bug being found,” next to a real moth. The Smithsonian, which holds the page, indicates that this notebook was probably not Grace Hopper's own.",
+  "source": "Matthew Wills, “The Bug in the Computer Bug Story,” JSTOR Daily, 2022, relaying the Smithsonian (National Museum of American History) object record",
+  "url": "https://daily.jstor.org/the-bug-in-the-computer-bug-story/"
+ },
+ "carte": {
+  "punch": "The first computer “bug” was probably not found by Grace Hopper.",
+  "idee": "A moth crushed in a Harvard Mark II relay, on September 9, 1947: the logbook documents it. But the word “bug” already existed from Edison's day, and nothing proves that Hopper herself found the insect. Mostly, she told its story for forty-five years.",
+  "source_courte": "Computer History Museum"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikimedia Commons — First Computer Bug (photograph of the logbook page, with the history of the 1945/1947 date error)",
+   "url": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1945.jpg",
+   "note": "Reproduces the original U.S. Navy archive caption and explains the date confusion."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the anecdote of the moth found in 1947 not prove that Grace Hopper coined the word “bug”?",
+  "choix": [
+   "Because the incident actually took place in 1945, not 1947",
+   "Because the word already meant a technical defect well before 1947, notably in Edison's usage as early as 1878",
+   "Because Grace Hopper never worked on the Harvard Mark II",
+   "Because the logbook page was lost and can no longer be consulted"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The word “bug” was in circulation as technical slang well before 1947; Edison was already using it in 1878. Hopper was indeed part of the Mark II team in 1947, and the logbook page is held by the Smithsonian; what is missing is proof that she herself wrote the entry or found the insect, rather than mainly having popularized the story afterward.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who was already using the word bug in a letter in 1878, long before the moth anecdote?",
+   "choix": [
+    "Thomas Edison, in a letter to his associate Theodore Puskás",
+    "Alan Turing, in a letter to a colleague at Bletchley Park",
+    "Charles Babbage, in the notes on his Analytical Engine",
+    "Herman Hollerith, in the patent for his punched-card machine"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Edison was already using the word bug in 1878, in a letter to Theodore Puskás, to describe the small flaws between the intuition of an invention and its commercial success."
+  },
+  {
+   "question": "Where is the logbook page bearing the 1947 bug note held today?",
+   "choix": [
+    "At the Computer History Museum, in California",
+    "In the Harvard University archives",
+    "At the Smithsonian, National Museum of American History",
+    "At the U.S. Navy's national museum"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The Harvard Mark II logbook page, with the moth taped in, is now held by the Smithsonian, National Museum of American History."
+  },
+  {
+   "question": "What error did the official caption of the archival photograph long carry?",
+   "choix": [
+    "It dated the incident to 1945, when the Mark II was not completed until 1947",
+    "It credited the discovery to another team member, identified by name",
+    "It placed the incident on the ENIAC rather than the Harvard Mark II",
+    "It stated that the moth had been found in a vacuum tube, not a relay"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The caption distributed by the U.S. Navy long dated the incident to 1945, when the Mark II was not completed until the summer of 1947, which makes that date physically impossible."
+  }
+ ]
+}

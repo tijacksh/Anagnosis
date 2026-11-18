@@ -1,0 +1,77 @@
+{
+ "id": "econ-ostrom-biens-communs-1990",
+ "slug": "ostrom-biens-communs-1990",
+ "langue": "en",
+ "empreinte_fr": "8ae12c53e658b37f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "texte-officiel-a-verifier",
+   "note": "Motivation du prix de la Banque de Suède en sciences économiques 2009 (« for her analysis of economic governance, especially the commons »), traduite depuis le français."
+  }
+ ],
+ "titre": "Elinor Ostrom, or the Tragedy of the Commons That Never Happened",
+ "accroche": "In the Swiss Alps, farmers have shared a common pasture since 1517 without ever exhausting it. The theory that predicts the opposite nonetheless has a Nobel Prize.",
+ "contenu_vulgarise": "In 1968, the biologist Garrett Hardin publishes in the journal Science a scenario that has become a classic of economic reasoning: herders share a pasture with no owner. Each has an interest in adding one more animal: the benefit goes to him in full, while the cost of the pasture's wear is spread across everyone. All reason the same way, all add an animal, and the pasture is exhausted. Hardin calls this the “tragedy of the commons” and draws a stark conclusion: without private property or an authority imposing quotas, a shared resource is doomed to ruin. For half a century the argument has been used to justify both the privatization of land and the state regulation of fisheries or forests.\n\n## A Resource With No Owner, but Not Without Rules\n\nHardin reasons about a particular case that he presents as general: an open-access resource, where no one can exclude anyone and no rule applies. The political scientist Elinor Ostrom starts from a simple objection: that case exists, but it is not the only one. For several decades, she and her team at Indiana University study real shared resources in the field: irrigation systems in Spain and the Philippines, village forests in Japan, fisheries in Nova Scotia and Indonesia, alpine pastures in the Swiss Alps, some of them used in common without interruption since 1517, by generations of herders who would have had ample time to exhaust them if Hardin's prediction were systematic. In her book *Governing the Commons* (Cambridge University Press, 1990), Ostrom shows that these communities adopted neither of the two remedies the theory proposes: neither privatizing nor waiting for an outside authority. They wrote their own rules (who has the right to take, how much, under what monitoring, with what penalties for violations) and enforced them themselves. Ostrom draws from this eight principles that recur, with local variations, from one continent to another: clear boundaries around the resource and its users, rules adapted to local conditions, collective decision-making, monitoring carried out by the users themselves, graduated sanctions, quick and low-cost conflict resolution, minimal recognition of the community's right to organize itself, and, for the largest systems, organization in nested layers.\n\n## What Hardin's Model Was Missing\n\nOstrom's work does not say that Hardin was wrong about everything: a resource truly open to all, with no rule or sanction whatsoever, does degrade just as he describes. What his model was missing is a third option between private property and the state: self-governance by the users themselves, when it meets the right conditions. In 2009, Ostrom receives the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, shared with Oliver Williamson, “for her analysis of economic governance, especially the commons”: she remains to this day the only woman to have received it. The shift goes beyond pastures and fisheries: whenever a debate pits privatization against top-down regulation as the only two possible outcomes (water, forests, today digital commons), Ostrom's work is a reminder that a community writing its own rules is a third option, not a utopia.",
+ "repere": {
+  "texte": "Some alpine pastures in the Swiss Alps have been managed in common by the same herding communities, without interruption, since 1517: long before any theory about the fate of shared resources was written.",
+  "source": "Wikipedia, “Tragedy of the commons”",
+  "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
+ },
+ "carte": {
+  "punch": "A Swiss pasture has been shared by the same community since 1517. It has never been exhausted.",
+  "idee": "In 1968, Garrett Hardin announces that any resource shared without an owner is doomed to exhaustion. Ostrom, the 2009 economics “Nobel” laureate, shows in the field (Swiss alpine pastures, fisheries, forests) that communities write their own rules and manage these resources without destroying them.",
+  "source_courte": "Ostrom, Governing the Commons, 1990"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why do the Swiss alpine pastures Ostrom studied escape the “tragedy of the commons” that Hardin describes?",
+  "choix": [
+   "Because the Swiss state imposes strict quotas on each herder",
+   "Because the herding community devised and enforced its own rules of use",
+   "Because the pastures belong to a single private owner",
+   "Because no herder has had access to them since 1517"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Ostrom shows that these communities fall under neither private property nor state control: they long ago set for themselves who may take, how much, and with what penalties for abuse, something Hardin, by positing a resource with no rules at all, does not consider.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In which journal does Garrett Hardin publish the “tragedy of the commons” scenario in 1968?",
+   "choix": [
+    "Nature",
+    "The American Economic Review",
+    "Science",
+    "The Quarterly Journal of Economics"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Garrett Hardin publishes his founding article in the journal Science in 1968, where he describes herders exhausting a pasture with no owner."
+  },
+  {
+   "question": "With whom does Elinor Ostrom share the Sveriges Riksbank Prize in Economic Sciences in 2009?",
+   "choix": [
+    "Oliver Williamson",
+    "Milton Friedman",
+    "Paul Samuelson",
+    "Amartya Sen"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Ostrom receives the prize in 2009 jointly with Oliver Williamson, for her analysis of the economic governance of the commons; she remains the only woman to have received it."
+  },
+  {
+   "question": "What does Ostrom's work show, without proving Hardin wrong in every case?",
+   "choix": [
+    "That a resource truly open to all, with no rule or sanction, never degrades",
+    "That only privatization can prevent the exhaustion of a shared resource",
+    "That every shared resource sooner or later gets exhausted, whatever the rules",
+    "That there is a third option between private property and the state, self-governance by the users"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Ostrom shows that between private property and state control there is a third option, self-governance by the users themselves, when it meets certain conditions."
+  }
+ ]
+}

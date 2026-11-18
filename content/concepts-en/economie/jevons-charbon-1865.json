@@ -1,0 +1,94 @@
+{
+ "id": "econ-jevons-charbon-1865",
+ "slug": "jevons-charbon-1865",
+ "langue": "en",
+ "empreinte_fr": "d0deff0896e74eb8",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Retraduit du français (lui-même traduit de l'anglais) ; William Stanley Jevons, The Coal Question, 1865. Mention « traduit de l'anglais » retirée de citation/source."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "Deux citations retraduites du français : « C'est une confusion d'idées complète… » et « Il n'est pas difficile de voir comment ce paradoxe se produit » ; William Stanley Jevons, original anglais. Sous-titre de l'ouvrage repris de la forme anglaise donnée dans le quiz."
+  }
+ ],
+ "titre": "The Jevons Paradox: When Saving Coal Makes You Burn More of It",
+ "accroche": "In 1865, a British economist argues that using coal more efficiently makes people consume more of it, not less. The debate is not closed.",
+ "contenu_vulgarise": "In 1865, Great Britain draws its power from coal, and one question is going around: how long will its mines last? William Stanley Jevons devotes a book to it, *The Coal Question*, subtitled “An Enquiry Concerning the Progress of the Nation, and the Probable Exhaustion of our Coal Mines.” The idea of the day is simple: if machines burn less coal for the same work, the reserves will last longer. Jevons argues the opposite.\n\n## What Jevons writes\n\nIn Chapter VI, “Of the Economy of Fuel,” he writes: “It is a complete confusion of ideas to suppose that the economical use of fuel is equivalent to a diminished consumption. The very opposite is true.” Further on in the chapter, he himself uses the word paradox: “It is not difficult to see how this paradox comes about.”\n\nHis reasoning fits in a few words. The number of tons of coal used in a branch of industry is the product of the number of factories times the average consumption of each. If a blast furnace uses less coal for the same quantity of pig iron, its profits increase, new capital arrives, the price of pig iron falls, and demand for pig iron rises. Eventually, the greater number of furnaces more than offsets the reduced consumption of each.\n\nHe draws from this a reading of industrial history: the British industrial system, he says, was born mostly from successive measures of economy, and the history of the steam engine is that of successive steps of economy. The more efficient the use of coal, the more the industry that uses it prospers and expands.\n\n## A statement debated from the start\n\nThe editor of the 1906 edition, A. W. Flux, adds a note to this passage: the blast furnace argument has been attacked as contrary to experience, notably in a 1878 discussion in the journal of the Statistical Society, in which Jevons took part. Flux puts forward that world pig iron production rose from about 11.75 million tons in 1869 to about 46.5 million in 1903, and that the iron and steel industry's coal consumption has probably roughly doubled. The calculation gives, broadly, half as much coal per ton of pig iron and twice as much coal in total. Flux adds that this extra demand was not placed on Great Britain's mines, which, he writes, does not destroy the general force of the argument.\n\nIn the 1980s, the economists Daniel Khazzoom and Leonard Brookes take up the idea for the energy use of an entire society. This is called the rebound effect: increased efficiency lowers the cost of use, which makes demand rise. The Jevons paradox designates the extreme case, where this increase exceeds the savings achieved. In a single market taken in isolation, reviews of the rebound effect note that an improvement in efficiency generally reduces consumption, even with a rebound.\n\nThe modern question is therefore less about whether Jevons was right than about which markets have demand that responds strongly enough to price for the savings achieved to be more than made up.",
+ "citation": {
+  "texte": "It is a complete confusion of ideas to suppose that the economical use of fuel is equivalent to a diminished consumption. The very opposite is true.",
+  "auteur": "William Stanley Jevons",
+  "source": "The Coal Question, 1st ed., London, Macmillan, 1865, chap. VI, “Of the Economy of Fuel”",
+  "url": "https://archive.org/details/bub_gb_gAAKAAAAIAAJ"
+ },
+ "carte": {
+  "punch": "In 1865, Jevons writes that saving coal doesn't make it last longer.",
+  "idee": "A furnace that consumes less coal earns more, attracts capital, lowers the price of pig iron, and raises demand: the number of furnaces ends up more than offsetting the drop per furnace. Jevons calls this a paradox. The modern rebound effect is its descendant.",
+  "source_courte": "Jevons, The Coal Question, 1865"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "According to Jevons's blast furnace reasoning, why can total coal consumption rise when each furnace consumes less of it?",
+  "choix": [
+   "Because the coal saved is resold to other industries, which in turn burn it",
+   "Because pig iron becomes cheaper, its demand rises, and furnaces multiply",
+   "Because the coal saved lowers its price, and each furnace therefore burns more of it",
+   "Because fuel-efficient machines wear out faster and have to be replaced more often"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A more economical furnace earns more, attracts capital, and lowers the price of pig iron, whose demand rises: furnaces multiply. Jevons reasons about their number, not the consumption of each, which does fall; the resale of coal and the wear of machines are not part of his argument.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is the full title of the book in which Jevons sets out his idea in 1865?",
+   "choix": [
+    "The Iron Question: An Enquiry into the Progress of British Industry and the Probable Exhaustion of our Iron Mines",
+    "The Coal Question: An Enquiry Concerning the Progress of the Nation, and the Probable Exhaustion of our Coal Mines",
+    "The Steam Question: An Enquiry Concerning the Progress of the Nation and the Probable Exhaustion of our Coal Reserves",
+    "The Economy Question: An Enquiry Concerning the Decline of the Nation and the Probable Exhaustion of our Resources"
+   ],
+   "bonne_reponse": 1,
+   "explication": "This is the full title given by the entry for Jevons's work published in 1865 by Macmillan, subtitled an enquiry into the progress of the nation and the probable exhaustion of its coal mines. The other three titles do not appear in the text."
+  },
+  {
+   "question": "According to the editor Flux's note in the 1906 edition, how did world pig iron production change between 1869 and 1903?",
+   "choix": [
+    "It was cut in half, confirming the coal savings",
+    "It rose from about 11.75 million to about 46.5 million tons",
+    "It remained stable despite the fall in price",
+    "It doubled, but only in Great Britain"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Flux gives these two figures, about 11,750,000 tons in 1869 and about 46,500,000 in 1903, to support Jevons's argument, and himself specifies that the extra demand did not fall on British mines."
+  },
+  {
+   "question": "How does Jevons himself describe, in his text, the mechanism by which saving coal makes people burn more of it?",
+   "choix": [
+    "A universal economic law",
+    "A paradox",
+    "A rare and negligible exception",
+    "A miscalculation by engineers"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Jevons himself writes that it is not difficult to see how this paradox comes about, using the word paradox. The text presents it neither as a universal law, nor as negligible, nor as a miscalculation."
+  },
+  {
+   "question": "What does the “rebound effect,” a notion taken up in the 1980s from Jevons's idea, refer to?",
+   "choix": [
+    "The mechanical and automatic drop in all energy consumption after a technical improvement",
+    "The complete replacement of coal by other energy sources",
+    "The total disappearance of the effect described by Jevons in the modern economy",
+    "The rise in energy demand that follows the drop in the cost of use brought by better efficiency"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Khazzoom and Brookes take up Jevons's idea for the energy use of an entire society: increased efficiency lowers the cost of use, which makes demand rise, that is the rebound effect. The Jevons paradox is only the extreme case where this increase exceeds the savings achieved."
+  }
+ ]
+}

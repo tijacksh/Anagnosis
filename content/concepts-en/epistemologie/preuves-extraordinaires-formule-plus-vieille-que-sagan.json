@@ -1,0 +1,74 @@
+{
+ "id": "epi-preuves-extraordinaires-formule-plus-vieille-que-sagan",
+ "slug": "preuves-extraordinaires-formule-plus-vieille-que-sagan",
+ "langue": "en",
+ "empreinte_fr": "55066880b507bf8c",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Extraordinary Evidence: An Idea Older Than Sagan",
+ "accroche": "Carl Sagan made it famous in the late 1970s. Hume already sketched the idea in 1748, and Laplace turned it into a calculation.",
+ "contenu_vulgarise": "*Extraordinary claims require extraordinary evidence.* Carl Sagan phrased it that way in 1977 in an interview with the *Washington Post*, printed it in 1979 in *Broca's Brain*, and applied it in 1980 in the series *Cosmos*, and the line has stayed attached to him. The idea is far older than he is, however, and in Laplace it takes the form of a calculation.\n\n## First, a proportion\n\nIn 1748, in *An Enquiry Concerning Human Understanding*, David Hume writes that a wise man proportions his belief to the evidence. When the fact that the testimony seeks to establish is extraordinary and marvelous, he adds, the value of the testimony suffers a diminution, greater or lesser depending on how unusual the fact is. Hume does not yet speak of extraordinary evidence; he speaks of dosage.\n\nLaplace gives it numerical form. In his *Essai philosophique sur les probabilités* (*A Philosophical Essay on Probabilities*), first published in 1814, he states that the more extraordinary an event is, the more it needs to be supported by strong evidence. The reason fits in a single line: those who attest to it may deceive or may have been mistaken, and these two causes are all the more probable the less probable the reality of the event is. He illustrates it with an urn of black balls containing just one white one. If a witness claims to have drawn the white one, the more black balls the urn holds, the more the probability that his account is false approaches certainty. We would not believe, he writes, a man who claimed to have thrown a hundred dice in the air and to have seen them all land on the same face.\n\n## What “extraordinary” means\n\nLaplace specifies that the word does not designate what is improbable in itself. Drawing number 475813 from an urn of a million numbers seems ordinary, even though it is as improbable as any other. What is extraordinary is what belongs to a class with very few cases: a hundred “heads” in a row, or the single white ball among a million black ones.\n\n## What this shifts\n\nIn a skeptic's mouth, the formula sounds like a posture. In Laplace, it is a result: the weight of testimony falls as the fact becomes rarer. He also notes that some things are so extraordinary that nothing can offset their improbability, and that the effect of a dominant opinion can weaken that improbability until it seems lower than that of the testimonies. He gives an example: in 1656, the miracles of Port-Royal set all of Paris running, and neither witchcraft nor miracles yet seemed improbable.\n\nSagan is only one link. The chronology established by Quote Investigator turns up much earlier formulations, sometimes with “proof,” sometimes with “evidence,” and notes that the journalist Kendrick Frazier credits Marcello Truzzi with the formula in *Science News* in 1976.",
+ "repere": {
+  "texte": "In 1748, David Hume writes that a wise man proportions his belief to the evidence, and that the value of testimony diminishes the more unusual the attested fact is. In 1814, Laplace asserts that the more extraordinary an event is, the more it needs to be supported by strong evidence.",
+  "source": "David Hume, An Enquiry Concerning Human Understanding, section X “Of Miracles” (1748)",
+  "url": "https://www.gutenberg.org/ebooks/9662"
+ },
+ "carte": {
+  "punch": "“Extraordinary evidence”: the formula Sagan made famous is older than he is.",
+  "idee": "Hume (1748) proportions belief to the evidence. Laplace (1814) shows by calculation that the more extraordinary a fact is, the more likely a testimony about it is to be an error or a lie. Sagan popularizes it in the late 1970s.",
+  "source_courte": "Hume, 1748; Laplace, 1814"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia: Extraordinary claims require extraordinary evidence",
+   "url": "https://en.wikipedia.org/wiki/Extraordinary_claims_require_extraordinary_evidence",
+   "note": "The precursors of the formula and its variants, from Hume and Laplace to Truzzi and Sagan."
+  }
+ ],
+ "quiz": {
+  "question": "Why, in Laplace's calculation, does testimony about an extraordinary fact weigh less than testimony about a commonplace one?",
+  "choix": [
+   "Because those who report rare facts are always fewer than those who report commonplace ones",
+   "Because Laplace regards any testimony as suspect once it concerns a singular event",
+   "Because the witness's error or lie becomes all the more probable the less probable the attested fact is",
+   "Because an extraordinary fact is by definition impossible and no evidence can establish it"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Laplace does not suspect every witness and does not confuse the extraordinary with the impossible: he compares the probability that the fact is true with the probability that the witness is mistaken or deceiving. The rarer the event, the more this second probability wins out.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In 1980, in which work does Sagan apply the formula?",
+   "choix": [
+    "In Broca's Brain",
+    "In the series Cosmos",
+    "In an interview with the Washington Post"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text distinguishes three moves: Sagan states the rule in 1977 in an interview with the Washington Post, prints it in 1979 in Broca's Brain, and applies it in 1980 in the series Cosmos."
+  },
+  {
+   "question": "In Science News in 1976, to whom does the journalist Kendrick Frazier attribute the formula?",
+   "choix": [
+    "To Carl Sagan himself",
+    "To David Hume, in 1748",
+    "To Marcello Truzzi"
+   ],
+   "bonne_reponse": 2,
+   "explication": "According to Quote Investigator's chronology, Frazier credits Marcello Truzzi with the formula in Science News in 1976, a year before Sagan's interview with the Washington Post."
+  },
+  {
+   "question": "In Laplace, what makes an event extraordinary?",
+   "choix": [
+    "Belonging to a class that has very few cases",
+    "Having a very low probability taken in isolation, like a number drawn at random",
+    "Belonging to a class that has many possible cases"
+   ],
+   "bonne_reponse": 0,
+   "explication": "What is extraordinary is what belongs to a class with very few cases, like a hundred “heads” in a row. Number 475813 drawn from an urn of a million is not, even though it is as improbable as any other."
+  }
+ ]
+}

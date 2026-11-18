@@ -1,0 +1,77 @@
+{
+ "id": "bio-chauve-souris-compensation-doppler",
+ "slug": "chauve-souris-compensation-doppler",
+ "langue": "en",
+ "empreinte_fr": "c6b19be8fb314b4f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Bat That Corrects for Its Own Doppler Shift",
+ "accroche": "The greater horseshoe bat sings off-key, on purpose, to cancel the Doppler effect of its own flight",
+ "contenu_vulgarise": "A greater horseshoe bat hunts in the dark. It emits an echolocation call of remarkable purity, almost a sustained note, around 83 kilohertz, four times above the limit of human hearing. The echo comes back to it and sketches its surroundings.\n\nBut the animal is flying. And a moving emitter is subject to the Doppler effect: the echo returned by an obstacle ahead of it rises in frequency, the more so the faster it charges. Its reference note therefore shifts constantly.\n\n## The correction\n\nIn 1968, the biologist Hans-Ulrich Schnitzler discovers what the animal does about it. The horseshoe bat does not put up with this shift. It cancels it. In flight, it lowers the frequency of its call by exactly what is needed so that the echo always comes back at the same pitch. It sings off-key, deliberately, to hear true.\n\nThe adjustment is continuous, slaved to the echo received, and of an uncommon fineness: the animal keeps the returning frequency within a window of a few dozen hertz, out of 83,000.\n\n## Why go to the trouble\n\nThe answer is in its ear. The horseshoe bat's auditory system is not equally sensitive across the whole spectrum. A very narrow band, centered on this return frequency, concentrates a disproportionate number of finely tuned neurons. Specialists speak of an *acoustic fovea*, by analogy with the fovea of the eye. That is the tiny zone of the retina where acuity is at its maximum, and to which our eyes constantly bring whatever we want to see sharply.\n\nThe animal thus has a point of auditory sharpness, tiny and very fine. Doppler compensation consists of keeping the echo there permanently, exactly as our eye movements keep an image on the fovea.\n\n## What this lets it hear\n\nOnce the echo is locked onto this window, the background becomes stable, and anything that moves over it stands out. A moth in flight beats its wings dozens of times a second; each beat modulates the echo with a tiny periodic variation, in frequency as well as in amplitude.\n\nOn a moving background, these signals would be drowned out. On a stabilized background, they become a signature. The bat does not merely detect an obstacle: it reads a wingbeat rhythm, and tells an insect in flight from a motionless leaf.\n\nThe Doppler effect is here neither a nuisance nor a curiosity. It is a background noise that an animal has learned to subtract, to get at the signal that really interests it.",
+ "repere": {
+  "texte": "The greater horseshoe bat emits around 83 kHz and keeps the frequency of the received echo constant to within a few dozen hertz, lowering its call as it speeds up.",
+  "source": "Schnitzler & Denzinger, “Auditory fovea and Doppler shift compensation,” Journal of Comparative Physiology A, 2011",
+  "url": "https://link.springer.com/article/10.1007/s00359-010-0569-6"
+ },
+ "carte": {
+  "punch": "This bat sings off-key on purpose, to hear true.",
+  "idee": "In flight, the greater horseshoe bat lowers the frequency of its call by exactly what is needed to cancel its own Doppler shift. The echo always comes back to it at 83 kHz, right where its ear concentrates its maximum sharpness.",
+  "source_courte": "Schnitzler & Denzinger, 2011"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Schnitzler & Denzinger (2011) — Auditory fovea and Doppler shift compensation",
+   "url": "https://link.springer.com/article/10.1007/s00359-010-0569-6",
+   "note": "In English; the introduction can be read without any special background."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the greater horseshoe bat lower the frequency of its call when it speeds up?",
+  "choix": [
+   "To save the energy that emitting the highest-pitched sounds costs",
+   "To avoid being detected by the insects it is hunting",
+   "To carry farther, since low frequencies attenuate less in air",
+   "So that the echo always comes back where its ear is most sensitive"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Its auditory system concentrates an exceptional density of neurons on a very narrow frequency band, the acoustic fovea. By compensating for the Doppler shift caused by its own flight, the animal keeps the echo in this window of sharpness, which lets it detect the modulation produced by the wingbeats of its prey.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is meant by the greater horseshoe bat's acoustic fovea?",
+   "choix": [
+    "An organ of the nose that shapes the call as it is emitted",
+    "A very narrow frequency band where neurons are concentrated",
+    "A membrane of the ear that filters out frequencies that are too low",
+    "The area of the brain that controls the frequency of the call during flight"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The horseshoe bat's auditory system is not equally sensitive across the whole spectrum: a very narrow band, centered on the return frequency, concentrates a disproportionate number of finely tuned neurons, like the fovea of the eye."
+  },
+  {
+   "question": "What does an echo held steady against a stabilized background reveal to the animal?",
+   "choix": [
+    "The exact distance separating it from the nearest wall",
+    "The temperature of the surfaces reflecting the sound back to it",
+    "The rhythm of the wingbeats of an insect in flight",
+    "The composition of the ground flown over during the night hunt"
+   ],
+   "bonne_reponse": 2,
+   "explication": "A moth beats its wings dozens of times a second, and each beat modulates the echo with a tiny periodic variation. On a moving background these signals would be drowned out; on a stabilized background, they become a signature."
+  },
+  {
+   "question": "How precisely does the horseshoe bat keep the frequency of the received echo?",
+   "choix": [
+    "To within a few dozen hertz, out of about 83,000",
+    "To within a few thousand hertz, out of about 83,000",
+    "To within half a kilohertz, but only at constant speed",
+    "With no measurable precision, the adjustment being made in jerks"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The adjustment is continuous and slaved to the echo received. The animal keeps the returning frequency within a window of only a few dozen hertz, whereas its call sits around 83 kilohertz."
+  }
+ ]
+}

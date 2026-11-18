@@ -1,0 +1,95 @@
+{
+ "id": "cli-el-nino-oscillation-australe",
+ "slug": "el-nino-oscillation-australe",
+ "langue": "en",
+ "empreinte_fr": "336b2afa164d6a27",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Langue d'origine : anglais ; auteur : Sir Gilbert Walker (1923-1924). Retraduit depuis le français, à remplacer par le texte original."
+  }
+ ],
+ "titre": "El Niño and the Southern Oscillation: two names, one phenomenon",
+ "accroche": "Peruvian fishermen call a warm Christmas current “the Child.” It took a century to understand why, in certain years, it returns with force.",
+ "contenu_vulgarise": "Since the 16th century, Spanish colonists in South America have described *años de abundancia*: years when rain turns one of the driest deserts in the world, on the coast of Peru, into a garden. The phenomenon occurs around Christmas; it is called El Niño, the Child, in reference to the Nativity. In 1895, the Peruvian diplomat Federico Alfonso Pezet gives one of the first scholarly descriptions of it, in a paper presented at the Sixth International Geographical Congress, held in London. He is certain that this warm current brings the rains. About the rest he knows nothing: its extent, its cause, and why some years differ so much from the others.\n\n## A measured seesaw, with no mechanism\n\nAt the turn of the 20th century, a very different problem occupies the British Empire: the Indian monsoon, whose failure brings deadly famines. Gilbert Walker, a Cambridge mathematician who in 1904 became Director General of Observatories of the India Meteorological Department, is tasked with finding its early warning sign. He mobilizes a network of telegraph stations scattered across the Empire and combs through two decades of records of pressure, rainfall, and temperature. From them he draws a regularity: pressure rises in the Pacific, on the Tahiti side, precisely when it falls on the side of the Indian Ocean and northern Australia, at Darwin, and vice versa. In a series of papers published in 1923 and 1924, he names this movement the Southern Oscillation. Walker establishes the correlation with a statistical rigor remarkable for the time, but he cannot say what produces it physically.\n\n## The missing link\n\nIt takes until 1969. Jacob Bjerknes, a Norwegian-American meteorologist at the University of California, Los Angeles, had turned his attention to the Pacific on the occasion of the International Geophysical Year and the strong El Niño episode of 1957-1958. He then discovers that the tongue of warm water that Peruvian fishermen had reported for centuries does not stay confined to their coast: it extends over thousands of kilometers, all the way to the center of the Pacific. That is the clue that puts him on the trail. In his 1969 paper, Bjerknes shows that Walker's Southern Oscillation and the Peruvian warming are two signatures of one and the same coupled mechanism. Under normal conditions, the trade winds push warm surface waters westward, letting cold, deep water well up on the American side. If these winds weaken, the upwelling weakens in turn, the eastern Pacific warms, and this warming, by altering the distribution of pressure, weakens the trade winds further. Bjerknes christens this great loop the Walker circulation, in honor of the first person to have measured its atmospheric half without being able to explain it.\n\n## A discovery that had to be learned to monitor\n\nUnderstanding the mechanism was not enough to make it predictable overnight: a strong El Niño episode still catches climatologists by surprise in 1982-1983, attributed for a time to a Mexican volcano rather than to the Pacific Ocean. It is this miss that prompts the United States and Japan to fund a network of moored buoys in the tropical Pacific, the TAO/TRITON program, operational since 1994. When a new episode builds in early 1997, these buoys record the warming several months before it affects the climate. Bjerknes's theory, turned into a monitoring system, ended up transforming a seasonal Peruvian mystery into a global early warning.",
+ "citation": {
+  "texte": "By the Southern Oscillation is meant the tendency of pressure at stations in the Pacific—San Francisco, Tokyo, Honolulu, Samoa, and South America—as well as of rainfall in India and Java, to increase, while pressure in the Indian Ocean region—Cairo, northwest India, Port Darwin, Mauritius, southeast Australia, and Cape Town—decreases.",
+  "auteur": "Sir Gilbert Walker",
+  "source": "Correlation in Seasonal Variations of Weather, Memoirs of the India Meteorological Department, 1923-1924 — quoted in Busiek, Bay Nature, 2015",
+  "url": "https://baynature.org/2015/09/15/science-nature/weather/el-nino/whys-it-called-el-nino-and-how-did-scientists-figure-out-what-it-is/"
+ },
+ "carte": {
+  "punch": "Described in 1895, El Niño was not linked to Walker's Southern Oscillation until 1969.",
+  "idee": "In Peru, a warm current that occurs around Christmas is called “the Child.” In 1923, Gilbert Walker measures, without explaining it, a pressure seesaw between the Pacific and the Indian Ocean. In 1969, Jacob Bjerknes connects the two: a single coupled phenomenon, monitored today by buoys.",
+  "source_courte": "Bjerknes, Monthly Weather Review, 1969"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NOAA PMEL — What is El Niño?",
+   "url": "https://www.pmel.noaa.gov/elnino/what-is-el-nino",
+   "note": "Current definition of the phenomenon and origin of the name, from the U.S. laboratory that coordinates the TAO/TRITON buoy network."
+  }
+ ],
+ "quiz": {
+  "question": "Why does an El Niño episode come with a lasting weakening of the trade winds, and not just warmer water?",
+  "choix": [
+   "Because the warming of the eastern Pacific alters the distribution of pressure, which in turn weakens the trade winds",
+   "Because the trade winds automatically reverse as soon as water temperature exceeds a fixed threshold",
+   "Because Walker's Southern Oscillation directly triggers the winds, independently of water temperature",
+   "Because the trade winds follow a strictly annual cycle, unrelated to ocean temperature"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Bjerknes showed that ocean and atmosphere sustain each other: weaker trade winds reduce the upwelling of cold water, which warms the eastern Pacific, which in turn alters the distribution of pressure and weakens the trade winds further. Neither a temperature threshold, nor a fixed annual cycle, nor a one-way link accounts for this feedback loop.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the name El Niño come from, and since when have Spanish colonists been describing the phenomenon?",
+   "choix": [
+    "Since the 19th century, in honor of an explorer named Niño",
+    "Since the 16th century, in reference to the Nativity, because the current occurs at Christmas",
+    "Since the 1920s, when Gilbert Walker named it that",
+    "Since the 1950s, following the 1957-1958 episode"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Spanish colonists have described the phenomenon since the 16th century and gave it this name because it occurs around Christmas."
+  },
+  {
+   "question": "What does Gilbert Walker discover at the turn of the 20th century, without managing to explain it?",
+   "choix": [
+    "A pressure seesaw between the Pacific and the Indian Ocean",
+    "A direct link between the Indian monsoons and volcanic eruptions",
+    "That the Peruvian current extends to the center of the Pacific",
+    "That the trade winds blow twice as hard in a drought year"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Walker measures a pressure seesaw between Tahiti and Darwin, which he names the Southern Oscillation, without knowing its cause."
+  },
+  {
+   "question": "What event leads Jacob Bjerknes to formulate his theory of the coupled mechanism in 1969?",
+   "choix": [
+    "The Indian famine of 1899, caused by the failure of the monsoon",
+    "The sinking of an American research vessel off Peru",
+    "The International Geophysical Year and the strong El Niño episode of 1957-1958",
+    "The discovery of the Peruvian current by divers in 1965"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Bjerknes had turned his attention to the Pacific on the occasion of the International Geophysical Year and the strong 1957-1958 episode."
+  },
+  {
+   "question": "Why does the 1982-1983 El Niño episode surprise climatologists even though Bjerknes's theory was already known?",
+   "choix": [
+    "It was first attributed to a Mexican volcano, for lack of a monitoring network",
+    "Bjerknes's theory had meanwhile been refuted by new data",
+    "No scientist was interested in the phenomenon anymore after 1969",
+    "The TAO/TRITON buoy network already existed but gave erroneous measurements"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The episode is first attributed to a Mexican volcano rather than to the ocean, which prompts the creation of the TAO/TRITON buoy network."
+  }
+ ]
+}

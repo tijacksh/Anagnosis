@@ -1,0 +1,66 @@
+{
+ "id": "gen-genome-humain-complet-2022-t2t-chm13",
+ "slug": "genome-humain-complet-2022-t2t-chm13",
+ "langue": "en",
+ "empreinte_fr": "91540758e6d3a040",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Human Reference Genome: The 8% Filled In 2022",
+ "accroche": "Since 2000, the human genome reference left 8% of the sequence out of reach. A consortium filled it in 2022, apart from the Y chromosome.",
+ "contenu_vulgarise": "We often hear that the human genome was “sequenced” more than twenty years ago. The announcement is real, but the reference that came out of it remained incomplete: since its first version in 2000, it covered only the euchromatic fraction of the genome. The remaining regions, 8% of the genome, were not read.\n\n## Why the gaps\n\nThese 8% are made up of highly repetitive regions: the centromeres, recent copies of segments, the short arms of five so-called acrocentric chromosomes. In the reference, some of these areas appeared as long stretches of unknown bases; others were replaced by computed models, or appeared wrongly duplicated. The authors of the 2022 paper write that these regions were not neglected for lack of importance, but because of technological limits: nearly identical motifs, repeated over long distances, are hard to assemble.\n\n## What 2022 changes\n\nThe Telomere-to-Telomere consortium, of which Karen Miga and Adam Phillippy are two of the corresponding authors, publishes on March 31, 2022 in the journal *Science* a sequence of 3.055 billion base pairs, called T2T-CHM13, gapless for all chromosomes except Y. It introduces nearly 200 million base pairs of new sequence, containing 1,956 predicted genes, 99 of them protein-coding. It also corrects errors in the previous reference: according to the University of California, Santa Cruz press release relayed by ScienceDaily, thousands of structural errors.\n\nThe secret is technical: the assembly combines very long reads, over 100,000 bases for Oxford Nanopore technology, which span the repeats, and high-accuracy reads that distinguish nearly identical copies.\n\n## What these 8% are for\n\nThe regions filled in include all the centromeres, recent segment copies, the short arms of the five acrocentric chromosomes, and other repeated sets, which the authors judge necessary for fundamental cellular processes. Not having their sequence meant not being able to study variation from one individual to another there. The authors write that this reference lifts a twenty-year-old barrier.\n\n## A “complete” genome, but no Y chromosome\n\nThe sequence comes from a cell line, CHM13, derived from a complete hydatidiform mole: a tissue whose genome is nearly uniformly homozygous. CHM13 carries no Y chromosome, and homozygous moles carrying a Y are not viable: another type of sample will be needed to finish this last chromosome. And a reference genome is not the genome of humanity: diversity between populations is measured by comparing many genomes.\n\n## What the episode teaches\n\nIn science, “finished” is rarely a definitive word: it means finished with the tools of the moment. These 8% were not missing because they were of no interest, but because the technique did not know how to read them.",
+ "repere": {
+  "texte": "In 2022, the T2T consortium presents a 3.055-billion-base-pair sequence of the human genome (T2T-CHM13), with gapless assemblies for all chromosomes except Y, which introduces nearly 200 million base pairs of new sequence and fills the remaining 8% of the reference.",
+  "source": "Nurk et al., Science, 376(6588), 2022",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/"
+ },
+ "carte": {
+  "punch": "The human genome reference was missing 8%. Filled in 2022, except for the Y.",
+  "idee": "Since 2000, the reference left 8% of the genome out of reach. In 2022, the T2T consortium publishes a gapless sequence of 3.055 billion base pairs, for all chromosomes except Y, thanks to reads long enough to span the repeats.",
+  "source_courte": "Science, 2022"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Telomere-to-Telomere (T2T) Consortium",
+   "url": "https://www.telomere2telomere.org",
+   "note": "In English; the consortium's data and publications."
+  }
+ ],
+ "quiz": {
+  "question": "Why did some regions of the genome remain unknown for twenty years?",
+  "choix": [
+   "They were made of repeats that were hard to assemble with the available technologies",
+   "They contained no information that could be read",
+   "Sequencing techniques did not work on human DNA",
+   "They existed only in some people"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The regions filled in are highly repetitive: nearly identical motifs, repeated over long distances, are hard to assemble. Very long reads, which span the repeats, made it possible to assemble them. The authors stress that these 8% were not neglected for lack of importance, but for technological limits.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which chromosome is missing from the T2T-CHM13 sequence?",
+   "choix": [
+    "Chromosome 21",
+    "The X chromosome",
+    "The Y chromosome",
+    "Chromosome 1"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The CHM13 cell line carries no Y chromosome: the sequence is complete for all the other chromosomes, but the Y is not in it."
+  },
+  {
+   "question": "Which clarification keeps “complete genome” from being read as “genome of humanity”?",
+   "choix": [
+    "The sequence concerns only cancer cells",
+    "It comes from a single cell line, CHM13, derived from a hydatidiform mole",
+    "It includes no protein-coding gene",
+    "It was obtained from several species"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The sequence comes from a single cell line, CHM13, derived from a complete hydatidiform mole, and therefore nearly uniformly homozygous. Diversity between populations is measured by comparing many genomes."
+  }
+ ]
+}

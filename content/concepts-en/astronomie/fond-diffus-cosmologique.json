@@ -1,0 +1,77 @@
+{
+ "id": "ast-fond-diffus-cosmologique",
+ "slug": "fond-diffus-cosmologique",
+ "langue": "en",
+ "empreinte_fr": "e7ce485ce3d8362f",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Background Noise They Couldn't Silence",
+ "accroche": "Two engineers spend a year hunting an interference signal in their antenna. It was the light of the Big Bang",
+ "contenu_vulgarise": "In 1964, Arno Penzias and Robert Wilson put a horn antenna into service in Holmdel, New Jersey. It had been used for the first satellite links; they want to use it for radio astronomy.\n\nBefore observing anything, you have to know the instrument's own noise. They measure. More is left over than expected.\n\n## A Year Spent Hunting for the Leak\n\nThe excess is faint but stubborn, equivalent to radiation of about three degrees above absolute zero.\n\nThey do what engineers do. They check the circuits, cool the amplifiers, look for urban emissions (New York is not far). Nothing works.\n\nThey take the antenna apart, clean the inside of the horn, reseal the rivets, put it back together. The noise is still there.\n\nThey then hunt it down using finer criteria, and that is what makes the measurement decisive. The signal does not vary with the direction of the aim: it comes from everywhere equally. It does not vary with the time of day, which rules out a terrestrial or solar source. It does not vary with the season, which rules out the Milky Way, whose position shifts over the course of the year.\n\nIsotropic, constant noise is not an antenna flaw. It is something that fills the sky.\n\n## What Others Were Looking For at the Same Time\n\nSixty kilometers away, at Princeton, Robert Dicke's team was building a detector to look for precisely this radiation.\n\nTheir reasoning went like this. If the universe was once dense and scorching, it was opaque: light was constantly being absorbed. As it expanded, it cooled to the point where atoms formed and light could travel freely. That flash of release should still bathe the universe, stretched by expansion to radio wavelengths and cooled to just a few degrees.\n\nA phone call puts the two teams in touch. The papers appear side by side in the same journal in 1965: the measurement on one side, the interpretation on the other.\n\nPenzias and Wilson will receive the Nobel Prize in 1978.\n\n## What This Discovery Settled\n\nTwo cosmologies were in conflict. One posited a universe expanding from a dense, hot state; the other, an eternal universe in which matter would appear continuously to compensate for the expansion.\n\nAn eternal universe has no reason to be bathed in relic radiation. A universe that came out of a hot phase cannot fail to have it.\n\nToday this radiation is the most precise source of information cosmology has. It began its career as a nuisance that two engineers couldn't get rid of.",
+ "repere": {
+  "texte": "The excess measured at Holmdel is equivalent to radiation of about 3.5 kelvins. It is isotropic, unpolarized, and shows no seasonal variation between July 1964 and April 1965, which rules out any local source.",
+  "source": "Penzias & Wilson, “A Measurement of Excess Antenna Temperature at 4080 Mc/s,” The Astrophysical Journal, 142, 1965",
+  "url": "https://www.semanticscholar.org/paper/A-Measurement-of-excess-antenna-temperature-at-s-Penzias-Wilson/1117e91ffa418676df6e65d9f8bb5c5550ec0b50"
+ },
+ "carte": {
+  "punch": "They spent a year hunting an interference signal. It was the light of the Big Bang.",
+  "idee": "A background noise resisted every cleaning of their antenna. It depended on neither direction, nor time of day, nor season. So it did not come from Earth. Penzias and Wilson had picked up the relic radiation.",
+  "source_courte": "Penzias & Wilson, ApJ, 1965"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Nobel Foundation — Nobel Prize in Physics 1978",
+   "url": "https://www.nobelprize.org/prizes/physics/1978/summary/",
+   "note": "In English; the official presentation revisits the sequence of measurement and interpretation."
+  }
+ ],
+ "quiz": {
+  "question": "What showed that the noise did not come from the antenna or from Earth?",
+  "choix": [
+   "The fact that it disappeared after the horn was completely cleaned",
+   "The fact that it was the same in every direction, at every hour, in every season",
+   "The fact that it matched the exact position of the Milky Way in the sky",
+   "The fact that a second antenna, at Princeton, measured a different value"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A terrestrial source would vary with the direction of the aim or the time of day; the Milky Way, whose position shifts over the course of the year, would produce a seasonal variation. The signal showed none: it filled the sky uniformly. The cleaning, for its part, changed nothing. That is precisely what ended up ruling out the instrument-flaw hypothesis.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did Penzias and Wilson do to try to eliminate the noise before understanding it?",
+   "choix": [
+    "They replaced the entire antenna with a more sensitive model",
+    "They took the antenna apart, cleaned the inside of the horn, and resealed the rivets",
+    "They moved the antenna away from New York to avoid any urban interference",
+    "They reduced the antenna's transmission power to isolate the signal"
+   ],
+   "bonne_reponse": 1,
+   "explication": "After checking the circuits, cooling the amplifiers, and looking for an urban emission, they take the antenna apart, clean the inside of the horn, and reseal the rivets. The noise remains all the same."
+  },
+  {
+   "question": "What reasoning guided Robert Dicke's team at Princeton at the same time?",
+   "choix": [
+    "That the Milky Way emitted a residual radiation that was still poorly measured",
+    "That horn-shaped antennas produced a noise that had to be quantified",
+    "That the light released by an ancient, dense, hot universe should still bathe space",
+    "That the Sun emitted a detectable background radiation at night"
+   ],
+   "bonne_reponse": 2,
+   "explication": "If the universe was once dense and opaque, then expanded and cooled, the light released when atoms formed should still bathe the universe, stretched into radio waves by expansion."
+  },
+  {
+   "question": "What cosmological debate did the relic radiation help settle?",
+   "choix": [
+    "The one between the Big Bang and an eternal universe with continuous creation of matter",
+    "The one over the exact age of the Sun compared with other stars of the Milky Way",
+    "The one over the existence of dark matter in spiral galaxies",
+    "The one over the speed at which the Milky Way rotates around its center"
+   ],
+   "bonne_reponse": 0,
+   "explication": "An eternal universe has no reason to be bathed in relic radiation, whereas a universe that came out of a hot phase cannot fail to have it: the discovery decided between the Big Bang and the steady-state theory."
+  }
+ ]
+}

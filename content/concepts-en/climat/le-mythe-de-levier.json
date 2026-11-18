@@ -1,0 +1,77 @@
+{
+ "id": "cli-le-mythe-de-levier",
+ "slug": "le-mythe-de-levier",
+ "langue": "en",
+ "empreinte_fr": "d1a7ef0bf6641cb9",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The sink where the Coriolis force was finally seen to turn",
+ "accroche": "The water draining from your bathtub does not swirl because of the Earth's rotation. Yet someone managed to observe that effect, once, in 1962.",
+ "contenu_vulgarise": "The idea has been around for generations: in the Northern Hemisphere, the water in a sink or bathtub would always spin the same way as it drains; in the Southern Hemisphere, the other way. The cause invoked is always the same: the Coriolis force, the one that deflects winds and makes hurricanes spin. The explanation is false for an ordinary sink, and the way it was demonstrated is almost comical.\n\n## A number that settles the question\n\nThe Coriolis force does exist: the Earth's rotation deflects any object moving over long distances and long durations, to the right in the Northern Hemisphere, to the left in the Southern Hemisphere. To tell whether it matters in a given system, oceanographers compare its effect with that of the fluid's own motion, using a dimensionless number called the Rossby number. The smaller this number, the more the Earth's rotation dominates; the larger it is, the more negligible it becomes. For a hurricane, this number is on the order of one: the size of the system and the speed of the air are such that the Earth's rotation weighs as much as the dynamics of the air itself. For sink water, the same calculation gives a number more than ten thousand times larger. The shape of the basin, the angle of the faucet, or a simple residual current left by the last filling then suffice, on their own, to dictate the direction of rotation. It depends on the plumbing, not on the hemisphere.\n\n## The experiment that finally settled it\n\nIn 1962, the engineer Ascher Shapiro, of the Massachusetts Institute of Technology, wants to check whether the effect remains measurable after all, once every other factor has been eliminated. He sets up a tank about 1.8 meters wide and 15 centimeters deep, covers it with a plastic film to protect it from drafts, and lets it sit for twenty-four hours, long enough for every trace of motion from the filling to disappear. A small wooden cross, placed above the drain opening, is used to detect the rotation.\n\nThe water drains for twenty minutes. The cross barely moves, until, in the last quarter of the draining, it begins to turn, steadily, counterclockwise. Shapiro publishes these results in Nature in December 1962. Nearly three years later, a team from the University of Sydney reproduces the protocol in the Southern Hemisphere and measures the opposite rotation, confirming that the effect, very real, had simply needed an apparatus patient enough to let itself be seen.\n\n## What the protocol reveals\n\nThe sink myth is therefore not a pure invention. It is a real physical prediction, misapplied at a scale where the Rossby number erases it. It took twenty-four hours of rest, a tank protected from every draft, and a wooden cross to observe, once, what popular culture claims to see every day in any bathtub.",
+ "repere": {
+  "texte": "On December 15, 1962, Nature publishes the first measurement of the Coriolis effect on a draining vortex: a tank left at rest for twenty-four hours, protected from drafts, whose counterclockwise rotation appears only in the last quarter of the twenty minutes of draining. On September 1, 1965, the same journal publishes the opposite measurement, made in Sydney.",
+  "source": "Shapiro, Nature, vol. 196, pp. 1080-1081, 1962; Trefethen et al., Nature, vol. 207, pp. 1084-1085, 1965",
+  "url": "https://www.nature.com/articles/1961080b0"
+ },
+ "carte": {
+  "punch": "A myth that is false in your sink, but observed once, after twenty-four hours of waiting.",
+  "idee": "Water swirling in a sink does not do so because of the Earth's rotation: the Coriolis force is more than ten thousand times too weak there compared with the shape of the basin. In 1962, an MIT engineer nonetheless managed to observe it, by isolating a tank for twenty-four hours.",
+  "source_courte": "Shapiro, Nature, 1962"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NOAA SciJinks — What Is the Coriolis Effect?",
+   "url": "https://scijinks.jpl.nasa.gov/coriolis/",
+   "note": "Official general-audience explanation, with the link between the Coriolis effect and the rotation of cyclones."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the Coriolis effect make hurricanes spin, but not the water in your sink?",
+  "choix": [
+   "Because the Rossby number, which compares the Earth's rotation with the fluid's motion, is far larger there",
+   "Because the Coriolis force changes direction depending on the temperature of the water used",
+   "Because a sink is always too close to the equator to feel the Earth's rotation",
+   "Because modern sink plumbing deliberately neutralizes this effect by design"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The Rossby number measures the relative weight of the Earth's rotation against the fluid's own dynamics: close to one for a hurricane, it exceeds ten thousand for a sink, where the shape of the basin largely dominates. Temperature, the sink's latitude, and the plumbing do not come into play; only the scale of the system matters.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who carried out the 1962 experiment that made it possible to observe the Coriolis effect in a tank of water?",
+   "choix": [
+    "The physicist Isaac Newton",
+    "A NASA team",
+    "The engineer Ascher Shapiro, of MIT",
+    "The climatologist Edward Lorenz"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry specifies that it was the engineer Ascher Shapiro, of the Massachusetts Institute of Technology, and not a physicist."
+  },
+  {
+   "question": "How long did Shapiro let his tank sit before starting the draining, and why?",
+   "choix": [
+    "A week, so the water would reach room temperature",
+    "Ten minutes, the time needed to set up the wooden cross",
+    "No resting time: draining starts as soon as the filling is done",
+    "Twenty-four hours, so that all motion from the filling would disappear"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The tank is covered with a plastic film and left to sit for twenty-four hours, long enough for every trace of motion from the filling to disappear."
+  },
+  {
+   "question": "How was the effect confirmed in the Southern Hemisphere?",
+   "choix": [
+    "The same tank was flown to Australia for the experiment",
+    "A team from the University of Sydney reproduced the protocol and measured an opposite rotation",
+    "A satellite directly measured the rotation of the water from orbit",
+    "The experiment was never reproduced in the Southern Hemisphere"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Nearly three years after Shapiro, a team from the University of Sydney reproduces the protocol in the Southern Hemisphere and measures the opposite rotation."
+  }
+ ]
+}

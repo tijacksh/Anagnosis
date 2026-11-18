@@ -1,0 +1,71 @@
+{
+ "id": "econ-ricardo-avantage-comparatif-1817",
+ "slug": "ricardo-avantage-comparatif-1817",
+ "langue": "en",
+ "empreinte_fr": "ce11139e43eead3b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Comparative Advantage: Why Trade Even With the Best at Everything",
+ "accroche": "In 1817, Ricardo imagines a country better at everything than its neighbor, and shows that it still has an interest in trading rather than producing everything alone.",
+ "contenu_vulgarise": "Two countries, two products: England makes cloth and wine, and so does Portugal. Intuitively, we imagine that trade between them makes sense only if each is better at one thing (one at cloth, the other at wine) and specializes accordingly. But what happens if Portugal is better at both, able to produce cloth and wine with fewer hours of labor than England for each? Intuition would say that Portugal has no reason to trade: it needs no one. This is exactly the case that the British economist David Ricardo chooses to study in 1817, in *On the Principles of Political Economy and Taxation*, and his conclusion contradicts intuition.\n\n## What the Comparison Changes, Not the Absolute Level\n\nRicardo puts numbers on his example: in England, producing one unit of cloth takes 100 hours of labor, one unit of wine 120 hours. In Portugal, the same unit of cloth takes 90 hours, the same unit of wine only 80 hours. Portugal is thus more efficient at both: it has what Ricardo calls an absolute advantage across the board. But within each country, the ratio between the two products differs: in England, a unit of wine costs 1.2 times as many hours as a unit of cloth; in Portugal, it costs only 0.89 times as many. Portugal, then, loses relatively less by producing wine than by producing cloth: its advantage there is comparatively greater. Ricardo shows that if each country specializes where its disadvantage is smallest (England in cloth, Portugal in wine) and then trades, both countries end up, for the same total hours worked, with more cloth and more wine than if each had produced everything alone.\n\n## The Shift: Trade Doesn't Require Being the Best\n\nThis result shifts the question most people ask about international trade. We spontaneously assume that a country has nothing to gain from trading with a partner better than itself at everything: a line of reasoning that, at the scale of one individual, is like asking why a great lawyer, who is a better typist than his secretary, doesn't type his own letters himself. Ricardo's answer is the same in both cases: what matters is not being the best in absolute terms, but what one gives up, compared with the other option, to produce one thing rather than another. Comparative advantage remains one of the few results in economic theory that can be demonstrated by calculation and yet keeps running against common sense, so much so that Ricardo wrote it in the midst of a political battle over the British protectionist laws on grain, whose very principle he opposed: closing a market to a partner, even one less efficient than oneself at nearly everything, amounts to giving up a gain that the mere comparison of relative costs is enough to demonstrate.",
+ "repere": {
+  "texte": "In Ricardo's numerical example (1817), England uses 100 hours of labor for one unit of cloth and 120 for one unit of wine; Portugal, more efficient at both, uses only 90 and 80, and yet both countries gain by specializing and trading.",
+  "source": "Wikipedia, “Comparative advantage”",
+  "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+ },
+ "carte": {
+  "punch": "A country better at everything still has an interest in trading. Ricardo demonstrated it by calculation in 1817.",
+  "idee": "Even if Portugal produces cloth and wine in fewer hours than England, Ricardo shows in 1817 that both gain by specializing and then trading: what matters is not being the best, but what one gives up to produce one thing rather than another.",
+  "source_courte": "Ricardo, 1817"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does Portugal have an interest in trading with England in Ricardo's example, even though it produces cloth and wine more efficiently than its neighbor?",
+  "choix": [
+   "Because England threatens to close its market to it otherwise",
+   "Because its relative advantage is greater for wine than for cloth",
+   "Because producing cloth is actually impossible for it",
+   "Because Ricardo assumes that Portugal lacks labor"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Portugal is better at both products, but its advantage is comparatively stronger in wine than in cloth; by specializing where it loses the least, each country gains more in total than by producing everything alone, with no threat or labor shortage involved.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In Ricardo's numerical example, how many hours does it take in England to produce one unit of wine?",
+   "choix": [
+    "80 hours",
+    "90 hours",
+    "100 hours",
+    "120 hours"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Ricardo puts the English figure at 120 hours for one unit of wine, versus only 80 hours in Portugal, which is more efficient at both products."
+  },
+  {
+   "question": "In which 1817 work does Ricardo develop the example of comparative advantage?",
+   "choix": [
+    "The Wealth of Nations",
+    "On the Principles of Political Economy and Taxation",
+    "An Essay on the Principle of Population",
+    "The General Theory of Employment, Interest and Money"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Ricardo develops this example in 1817 in On the Principles of Political Economy and Taxation."
+  },
+  {
+   "question": "In what political debate does Ricardo formulate this argument about trade?",
+   "choix": [
+    "The debate over the British gold standard",
+    "The debate over the creation of the Bank of England",
+    "The debate over the British protectionist grain laws, the Corn Laws",
+    "The debate over the abolition of slavery in the British Empire"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Ricardo wrote this argument in the midst of the political battle against the Corn Laws, the British protectionist grain laws, which he judged contrary to free trade."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "eco-hubbard-brook-bassin-rase-nitrates-1965",
+ "slug": "hubbard-brook-bassin-rase-nitrates-1965",
+ "langue": "en",
+ "empreinte_fr": "0c2d6d5b05ef9acf",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Hubbard Brook: a watershed cleared bare, nitrates multiplied by 41",
+ "accroche": "In 1965, researchers cut all the vegetation in a New Hampshire watershed and measure what comes out through the stream.",
+ "contenu_vulgarise": "In the mountains of New Hampshire, whatever leaves a slope dissolved in water ends up in a stream. If the bedrock is impermeable, you can weigh at that point what the slope loses. That is the principle of the Hubbard Brook Experimental Forest, created in 1955 by the U.S. Forest Service: 31 km² in nine watersheds, each of which works, according to Wikipedia, almost like a closed system. What is changed there can be read in what comes out.\n\n## What was cut\n\nIn November and December 1965, all the vegetation in Watershed 2 is cut. The trees stay where they fall, and for two years herbicide is applied periodically to prevent regrowth. A neighboring watershed, No. 6, is left intact and serves as a comparison.\n\nThe first analyses, in the summer of 1966, show abnormally high nitrates in the stream. Gene Likens would later recount that the team redid three different analyses to be sure.\n\n## What comes out\n\nThe paper by Likens, Bormann, Johnson, Fisher, and Pierce, published in 1970 in *Ecological Monographs*, puts figures on what changed. Annual streamflow increased by 33 cm (39%) in the first year and by 27 cm (28%) in the second, compared with what was expected without deforestation. Nitrates are 41 times more concentrated in the first year, 56 times in the second, and almost continuously exceed the levels recommended for drinking water. On average over the two years, calcium rises by 417%, magnesium by 408%, potassium by 1,558%. Sulfate is the only major ion to fall. The acidity of the water is multiplied by five: pH goes from 5.1 to 4.3.\n\nIn all, the quantity of dissolved matter exported, excluding organic matter, reaches 75 metric tons per km² in 1966–1967, then 97 in 1967–1968, 6 to 8 times more than for an intact watershed.\n\n## The shift\n\nWe readily see the forest as a stock of timber. Hubbard Brook brings out another of its functions, retention. In intact watersheds, the nitrate nitrogen brought by precipitation normally exceeds what leaves in the stream: the forest keeps it. The authors attribute the massive export to an alteration of the nitrogen cycle within the ecosystem. For nitrogen, the balance reads like this: without plants, what the forest retained leaves with the water.\n\nThe setup is extreme, and Likens says so himself: a scientific experiment, not a forest management study. Critics objected that two years of herbicide and an entire watershed do not resemble ordinary logging. The team then studied eight other commercial cutting sites in the White Mountains: same pattern, varying in magnitude.\n\nThe 1970 paper covers only the first two years. How long does a watershed leak afterward, and what determines how large the leak is from one site to the next?",
+ "repere": {
+  "texte": "After the vegetation of Hubbard Brook Watershed 2 was cut in November and December 1965, nitrates in the stream were 41 times more concentrated than in the undisturbed state in the first year, and 56 times in the second.",
+  "source": "Likens, Bormann, Johnson, Fisher & Pierce, “Effects of Forest Cutting and Herbicide Treatment on Nutrient Budgets in the Hubbard Brook Watershed-Ecosystem,” Ecological Monographs 40(1), 1970, pp. 23–47",
+  "url": "https://doi.org/10.2307/1942440"
+ },
+ "carte": {
+  "punch": "A watershed cleared bare in 1965: the nitrates in its stream were multiplied by 41.",
+  "idee": "At Hubbard Brook, all the vegetation in a watershed is cut in 1965 and regrowth is prevented. Nitrates in the stream are 41 times more concentrated in the first year, 56 times in the second. The nitrogen balance shows a forest that retains.",
+  "source_courte": "Likens et al., Ecol. Monogr., 1970"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Revisiting Likens et al. 1970 (interview, in English)",
+   "url": "https://reflectionsonpaperspast.com/2021/01/25/revisiting-likens-et-al-1970/",
+   "note": "The story of the experiment told by its lead author, fifty years later."
+  }
+ ],
+ "quiz": {
+  "question": "According to Likens and his colleagues, where does the massive export of nutrients from the deforested watershed come from?",
+  "choix": [
+   "From an alteration of the nitrogen cycle within the ecosystem",
+   "From the extra water alone, which carried away the same salts as before",
+   "From the herbicide, which itself introduced these ions into the stream",
+   "From rain more heavily loaded with nitrates during those two years"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Streamflow increased by only 39% and then 28%, while the exported dissolved matter was multiplied by 6 to 8: water alone does not explain it. The same rain fell on the neighboring intact watershed, which retained its nitrogen. And eight commercial cutting sites showed the same pattern as Watershed 2, which makes it unlikely that the herbicide alone explains it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Among the dissolved ions measured after the cutting of Watershed 2, which is the exception, decreasing instead of increasing?",
+   "choix": [
+    "Sulfate",
+    "Calcium",
+    "Potassium",
+    "Magnesium"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Sulfate is the only major ion whose concentration fell, while calcium (+417%), magnesium (+408%), and potassium (+1,558%) all rose after the cutting."
+  },
+  {
+   "question": "For how long did the team apply herbicide to Watershed 2 after the November–December 1965 cutting?",
+   "choix": [
+    "One year",
+    "Six months",
+    "Two years",
+    "Five years"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Herbicide was applied periodically for two years after the cutting, to prevent vegetation from regrowing on the cleared watershed."
+  },
+  {
+   "question": "How did Likens's team react, in the summer of 1966, on finding abnormally high nitrates in the stream?",
+   "choix": [
+    "It stopped the experiment as a precaution",
+    "It redid three different analyses to be sure",
+    "It immediately replanted the watershed",
+    "It attributed the result to a sensor error and discarded it"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Gene Likens recounted that the team redid three different analyses before accepting this unexpected result of abnormally high nitrates."
+  }
+ ]
+}

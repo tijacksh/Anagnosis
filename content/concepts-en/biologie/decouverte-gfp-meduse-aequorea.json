@@ -1,0 +1,88 @@
+{
+ "id": "bio-decouverte-gfp",
+ "slug": "decouverte-gfp-meduse-aequorea",
+ "langue": "en",
+ "empreinte_fr": "caaeb2da13783884",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Green Protein Drawn from Ten Thousand Jellyfish",
+ "accroche": "In 1961, at Friday Harbor, two researchers are hunting for a jellyfish's blue glow. What they notice on the side, a green protein, will change biology.",
+ "contenu_vulgarise": "In the summer of 1961, on little San Juan Island in Washington State, the Japanese biochemist Osamu Shimomura and the physiologist Frank Johnson collect about ten thousand jellyfish of the species Aequorea victoria at the Friday Harbor research station. Their target is not a color but a light: they are trying to isolate the protein responsible for the animal's bluish bioluminescence. By squeezing the glowing rings that line the edge of the jellyfish's bell, they extract a protein that emits blue light on contact with calcium. They name it aequorin.\n\n## A Second Protein, Relegated to a Footnote\n\nWhile purifying aequorin by chromatography, Shimomura notices another protein, greenish, that gives off green fluorescence under ultraviolet light. It is not what he is looking for: in the 1962 paper that describes aequorin in detail, this second protein takes up only a footnote. He simply nicknames it the “green protein,” before it is renamed green fluorescent protein, GFP. For more than thirty years, it remains a laboratory curiosity: it is known to exist, but no one knows what it could be used for outside the jellyfish itself.\n\n## From a Footnote to Biology's Most Widely Used Tool\n\nThe turning point comes in 1994. The biologist Martin Chalfie shows that the GFP gene alone, inserted into a bacterium or into the worm Caenorhabditis elegans, is enough to make them glow green, with no other molecule specific to the jellyfish required. In other words, GFP can be attached to any gene of interest like a luminous tag, visible inside a living cell. The chemist Roger Tsien then improves the protein, notably by changing a single amino acid, a mutation called S65T, to make it more stable and to give rise to a whole palette of derived colors: blue, cyan, yellow. In 2008, Shimomura, Chalfie, and Tsien jointly receive the Nobel Prize in Chemistry for this discovery and its sequels.\n\nGFP and its variants now equip biology laboratories around the world: they make it possible to follow, in real time, inside a living cell or organism, when a gene switches on, where a protein travels, how a tumor develops. A property that the jellyfish developed for reasons still poorly understood, probably to protect itself from too bright a light or to signal its presence, has become one of the most widely used observation instruments in modern biology.",
+ "repere": {
+  "texte": "In the 1962 paper that describes in detail aequorin, the blue bioluminescent protein of the jellyfish Aequorea victoria, Osamu Shimomura and his colleagues mention the second protein, green and fluorescent, in only a single footnote.",
+  "source": "Shimomura, Johnson & Saiga, “Extraction, Purification and Properties of Aequorin, a Bioluminescent Protein from the Luminous Hydromedusan, Aequorea,” Journal of Cellular and Comparative Physiology, 1962",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcp.1030590302"
+ },
+ "carte": {
+  "punch": "A protein noticed by chance in 1962 now equips biology labs around the world.",
+  "idee": "In 1961, Osamu Shimomura looks for the protein responsible for a jellyfish's blue glow. He finds a second one, green, mentioned in a mere footnote. Later, its gene alone is enough to make a bacterium glow, and it becomes an essential tool of biology.",
+  "source_courte": "Shimomura et al., 1962; Chalfie et al., Science, 1994"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "A Brief History of GFP",
+   "url": "https://www.asimov.press/p/gfp",
+   "note": "In English; open access, traces in detail Shimomura's discovery and its development by Chalfie and Tsien."
+  }
+ ],
+ "quiz": {
+  "question": "Why was GFP able to become a universal tool of biological research?",
+  "choix": [
+   "Because it makes any living cell immediately visible to the naked eye, without a microscope",
+   "Because its gene alone is enough to produce green fluorescence in another species, without any molecule specific to the jellyfish",
+   "Because it was the first bioluminescent protein ever isolated from a marine animal",
+   "Because it directly replaces the gene being studied rather than simply being attached to it"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Unlike other bioluminescent systems that require cofactors specific to the original organism, GFP folds and fluoresces on its own as soon as its gene is present, which makes it possible to attach it to any gene of interest in any living cell.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What were Shimomura and Johnson looking for at Friday Harbor?",
+   "choix": [
+    "The protein responsible for the jellyfish's blue bioluminescence",
+    "The green fluorescent protein, already spotted by other teams",
+    "A venom that could serve as an anesthetic in surgery",
+    "The gene that controls the reproduction of Aequorea victoria"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Their target was a light, not a color: they wanted to isolate the protein that makes the jellyfish bioluminescent. The green protein was noticed only afterward, on the margins of the purification, and no one was expecting it."
+  },
+  {
+   "question": "What is aequorin?",
+   "choix": [
+    "A green protein, fluorescent under ultraviolet light",
+    "A protein that emits blue light on contact with calcium",
+    "A colored pigment extracted from the jellyfish's bell",
+    "An enzyme that cuts out the GFP gene in the laboratory"
+   ],
+   "bonne_reponse": 1,
+   "explication": "It is the protein that Shimomura and Johnson were looking for, extracted by squeezing the glowing rings that line the edge of the jellyfish's bell. It emits blue on contact with calcium, whereas the second protein, the green one, fluoresces under ultraviolet."
+  },
+  {
+   "question": "What place does the green protein occupy in the 1962 paper?",
+   "choix": [
+    "It occupies the title and the abstract",
+    "It is described there in an entire chapter",
+    "It is not mentioned there at all",
+    "It takes up only a footnote there"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The paper describes aequorin in detail, and the second protein takes up only a footnote there. It remained a laboratory curiosity for more than thirty years before a use was found for it."
+  },
+  {
+   "question": "What did the chemist Roger Tsien contribute?",
+   "choix": [
+    "He isolated the GFP gene from the jellyfish itself",
+    "He showed that this gene alone was enough to make a bacterium glow",
+    "He changed a single amino acid, the S65T mutation, and opened up a palette",
+    "He named the green protein when it was discovered in 1962"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Tsien made the protein more stable by changing a single amino acid, and gave rise to blue, cyan, and yellow variants. The demonstration that the gene alone was sufficient is Chalfie's, in 1994, and the protein had been nicknamed by Shimomura."
+  }
+ ]
+}

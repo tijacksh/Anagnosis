@@ -1,0 +1,83 @@
+{
+ "id": "ast-cepheides-de-leavitt",
+ "slug": "cepheides-de-leavitt",
+ "langue": "en",
+ "empreinte_fr": "dc817b2f53130e20",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "texte-officiel-a-verifier",
+   "note": "Harvard College Observatory Circular 173 (mars 1912), phrase « a été préparée par Miss Leavitt » traduite depuis le français"
+  }
+ ],
+ "titre": "The ruler for measuring the universe, signed by someone else",
+ "accroche": "In 1912, Leavitt finds how to measure cosmic distances. The paper appears under her director’s signature",
+ "contenu_vulgarise": "A star’s brightness in the sky says nothing about its distance. A faint star may be a small, nearby star or a distant lighthouse. As long as a source’s true luminosity is unknown, its apparent brightness is useless information.\n\nParallax solves the problem for neighboring stars. Beyond a few dozen light-years, the angle becomes too small and the method collapses.\n\nWhat was needed were objects whose true luminosity could be deduced from an observable characteristic, independent of distance.\n\n## What Leavitt notices on photographic plates\n\nAt the start of the century, the Harvard College Observatory employs women to go through its photographic plates. They measure, classify, catalog. They are called the computers. They direct no research and sign almost nothing.\n\nHenrietta Leavitt works on the variable stars of the Small Magellanic Cloud. These stars pulsate: their brightness rises and falls in a regular cycle.\n\nShe notices that the brightest ones have the longest cycles.\n\nThe decisive detail is the choice of field. All these stars belong to the same cloud, and so lie at roughly the same distance from us. The differences in brightness she observes therefore cannot come from distance: they reflect differences in true luminosity.\n\nThe relation she establishes between period and luminosity turns these stars, the Cepheids, into gauges. All it takes is to time their pulsation to learn their luminosity, then compare it with their apparent brightness to deduce their distance.\n\n## What the ruler made it possible to measure\n\nThe tool arrives just as astronomy is stumbling over its greatest question: are the spiral nebulae clouds within our galaxy, or other galaxies?\n\nIn 1923, Edwin Hubble spots a Cepheid in the Andromeda Nebula, times its pulsation, and applies Leavitt’s relation. The distance obtained places the object far beyond the Milky Way.\n\nThe universe ceases to be a single galaxy. It was Leavitt’s measurement that made this possible, and it is still her measurement that, applied to other galaxies, will lead to the expansion.\n\n## The signature\n\nThe 1912 paper that states the relation appears in an observatory circular, under the sole signature of Edward Pickering, its director. The text specifies that the conclusion on the periods of these twenty-five variables was prepared by “Miss Leavitt.”\n\nShe was not allowed to pursue this line of work: she was reassigned to other measurement tasks. She died in 1921 without having seen what Hubble would do with her result.\n\nThe ruler for measuring the universe bears her name today. It never did in her lifetime.",
+ "repere": {
+  "texte": "Harvard College Observatory Circular 173, published in March 1912, is signed by Edward Pickering alone. It states that the conclusion on these twenty-five variables “has been prepared by Miss Leavitt.”",
+  "source": "Harvard Plate Stacks, “Henrietta Swan Leavitt,” Center for Astrophysics",
+  "url": "https://platestacks.cfa.harvard.edu/women-at-hco/henrietta-swan-leavitt"
+ },
+ "carte": {
+  "punch": "She found how to measure the universe. The paper is signed by her director.",
+  "idee": "In 1912, Leavitt notices that the brightest variable stars pulsate the most slowly. Timing a pulsation therefore yields a distance. This is how, eleven years later, it will be established that Andromeda is another galaxy.",
+  "source_courte": "Harvard Plate Stacks, CfA"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The Conversation — Henrietta Swan Leavitt, petite main des astronomes (Henrietta Swan Leavitt, the astronomers’ little helper)",
+   "url": "https://theconversation.com/henrietta-swan-leavitt-petite-main-des-astronomes-sur-la-voie-de-lexpansion-de-lunivers-245438",
+   "note": "In French, open access; looks back at the work of Harvard’s computers."
+  }
+ ],
+ "quiz": {
+  "question": "Why was observing the variables of the Small Magellanic Cloud decisive?",
+  "choix": [
+   "Because this cloud was the best-photographed region of the sky at the time",
+   "Because these stars pulsate more regularly than those of our galaxy",
+   "Because they are close enough for their parallax to be measurable",
+   "Because they are all at roughly the same distance from us"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Since all these stars are roughly equally distant, the differences in brightness observed cannot come from distance: they reflect differences in true luminosity. That is what makes it possible to link period to intrinsic luminosity. The Small Cloud is far too distant for any parallax measurement.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "With Leavitt’s relation, what must be done to learn a Cepheid’s distance?",
+   "choix": [
+    "Measure its parallax angle at a six-month interval",
+    "Time its pulsation, then compare its luminosity with its apparent brightness",
+    "Compare its color with that of a nearby star of known luminosity",
+    "Measure the rate at which its brightness fades from one year to the next"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The pulsation period gives the star’s true luminosity; compared with the brightness we see from here, it yields the distance. Parallax, by contrast, collapses beyond a few dozen light-years."
+  },
+  {
+   "question": "What did Edwin Hubble’s measurement in 1923 make it possible to establish?",
+   "choix": [
+    "That the Andromeda Nebula lies far beyond the Milky Way",
+    "That the Small Magellanic Cloud is a satellite of our galaxy",
+    "That Cepheids pulsate faster and faster as they age",
+    "That parallax can be used to measure the distance of spiral nebulae"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Hubble spots a Cepheid in Andromeda, times its pulsation, and applies Leavitt’s relation. The distance obtained places the object far beyond our galaxy, and the universe ceases to be a single galaxy."
+  },
+  {
+   "question": "Under whose signature does the paper stating the relation appear in 1912?",
+   "choix": [
+    "Henrietta Leavitt’s alone, but in an obscure journal",
+    "Edwin Hubble’s, who took it up eleven years later",
+    "Edward Pickering’s alone, the observatory’s director",
+    "No signature at all, like all the observatory’s circulars"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The paper appears in a Harvard College Observatory circular under the sole signature of its director. The text specifies that the conclusion on these twenty-five variables was prepared by “Miss Leavitt.”"
+  }
+ ]
+}

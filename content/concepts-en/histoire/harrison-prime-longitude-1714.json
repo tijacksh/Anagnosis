@@ -1,0 +1,77 @@
+{
+ "id": "hist-harrison-prime-longitude-1714",
+ "slug": "harrison-prime-longitude-1714",
+ "langue": "en",
+ "empreinte_fr": "f35828d61fbe2f85",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The £20,000 Prize That Took Harrison Sixty Years to Collect",
+ "accroche": "In 1714, the English Parliament promises a fortune to whoever can measure longitude at sea. A Yorkshire carpenter earns it, yet is never awarded it.",
+ "contenu_vulgarise": "On July 9, 1714, the British Parliament passes an unusual law: it promises up to £20,000 (nearly £4 million in today's money) to anyone who finds a reliable way to calculate a ship's longitude on the open sea. The problem is not theoretical: in 1707, a British fleet had been smashed on the rocks of the Isles of Scilly, off Cornwall, for lack of knowing where it really was. Between 1,400 and 2,000 sailors had died that night, because of an error in position.\n\n## A Problem of Time, Not Geography\n\nCalculating latitude, the north-south position, is simple: all it takes is measuring the height of the sun or a star. Longitude, by contrast, comes down to a problem of clockmaking. If you know the exact time at the port of departure at the precise moment the sun reaches its zenith on board, the difference between the two gives the east-west position, at the rate of 15 degrees per hour. But you still have to carry that reference time without it drifting, and pendulum clocks, accurate on land, become useless on a rolling deck, in salty humidity and the temperature swings from one ocean to another.\n\nThis is the problem solved by John Harrison, a self-taught Yorkshire carpenter turned clockmaker. He builds a first marine clock in 1730, then three more versions over 30 years, before delivering in 1759 a radically different object: H4, a large pocket watch with ruby-mounted pivots, which compensates for the effects of temperature on its own. Tested in 1761 on a crossing from Portsmouth to Jamaica aboard HMS Deptford, it drifted by only five seconds in 81 days at sea: a position error of about 2 kilometers, well within the threshold set by the law of 1714.\n\n## A Criterion Met, a Prize Refused\n\nHarrison had met the conditions. The Board of Longitude, charged with awarding the prize, nonetheless refuses to pay it: it suspects a stroke of luck and demands a second trial. In 1764, a new voyage to Barbados confirms H4's accuracy, to within 39 seconds. The Board then changes its argument: a clock that required six years of handcrafted construction would not be a “practical” solution within the meaning of the law. Among its members sits the Astronomer Royal Nevil Maskelyne, a champion of a competing method based on the position of the Moon, and little inclined to hand the prize to a rival.\n\nHarrison would never receive the full prize under that name. He gets £10,000 in 1765 in exchange for a detailed description of his mechanism, then must wait until 1772 for King George III to test his fifth clock himself and grow indignant at the treatment being given him, before a special vote of Parliament grants him, in 1773, the remaining £8,750: at the age of 80, three years before his death. In all, he will have received £23,065, a considerable sum, but never presented as the official longitude prize: the mechanism that a law had designed to reward invention proved just as capable of disputing it.",
+ "repere": {
+  "texte": "Between the passing of the law in 1714 and the last payment to Harrison in 1773, 59 years went by, and the Board of Longitude never formally declared that the £20,000 prize had been won.",
+  "source": "Wikipedia, “John Harrison”",
+  "url": "https://en.wikipedia.org/wiki/John_Harrison"
+ },
+ "carte": {
+  "punch": "A clock solved longitude at sea: its inventor took sixty years to get paid.",
+  "idee": "In 1714, the English Parliament promises a fortune to whoever solves longitude at sea. John Harrison, a Yorkshire carpenter, succeeds with a precision clock, but the prize committee invents excuse after excuse before paying him, under pressure from the king himself.",
+  "source_courte": "Wikipedia & Britannica"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Longitude Act (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Longitude_Act",
+   "note": "The details of the accuracy tiers and the amounts set out in the 1714 law."
+  }
+ ],
+ "quiz": {
+  "question": "Why did the Board of Longitude refuse for years to pay Harrison the full prize, even though his H4 clock met the criteria set by the 1714 law?",
+  "choix": [
+   "Because he had not filed his invention within the legal deadlines",
+   "Because the 1714 law excluded self-taught craftsmen",
+   "Because the Board suspected luck and one member championed a rival method",
+   "Because H4 had never been tested on the open sea"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The Board demanded a second trial out of distrust, then judged the clock too handcrafted to be “practical,” while the Astronomer Royal Nevil Maskelyne, a member of the committee, backed a competing method based on the position of the Moon.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What led the British Parliament to pass the 1714 longitude law?",
+   "choix": [
+    "The loss of a British fleet on the rocks of the Isles of Scilly in 1707, for lack of knowing its position",
+    "A request from the Royal Society to fund astronomy research",
+    "The loss of a merchant ship laden with gold off Jamaica",
+    "A petition from London merchants worried about French competition"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In 1707, a British fleet had been smashed on the rocks of the Isles of Scilly for lack of knowing where it really was, killing between 1,400 and 2,000."
+  },
+  {
+   "question": "What result does Harrison's H4 clock achieve on its 1761 test crossing from Portsmouth to Jamaica?",
+   "choix": [
+    "A deviation of several hours, judged insufficient by the Board",
+    "A deviation of five seconds in 81 days at sea",
+    "A complete breakdown by the third week of the crossing",
+    "A deviation of exactly three seconds per day, at the threshold set by the law"
+   ],
+   "bonne_reponse": 1,
+   "explication": "H4 drifted by only five seconds in 81 days at sea, a position error of about 2 kilometers, well under the threshold set by the 1714 law."
+  },
+  {
+   "question": "What finally leads Parliament to pay Harrison the remaining £8,750, in 1773?",
+   "choix": [
+    "A second lawsuit brought by Harrison against the Board of Longitude",
+    "The discovery of a competing clock even more accurate than H4",
+    "George III tests the fifth clock and grows indignant at Harrison's treatment",
+    "Nevil Maskelyne's resignation from his post as Astronomer Royal"
+   ],
+   "bonne_reponse": 2,
+   "explication": "George III personally tests Harrison's fifth clock in 1772 and grows indignant at the treatment being given him, which leads to the special vote of Parliament in 1773."
+  }
+ ]
+}

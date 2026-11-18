@@ -1,0 +1,77 @@
+{
+ "id": "cli-trou-ozone-antarctique",
+ "slug": "trou-ozone-antarctique",
+ "langue": "en",
+ "empreinte_fr": "e3887572d4d3b35b",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The ozone hole is not the cause of global warming",
+ "accroche": "In 1985, a British team confirms over Antarctica an ozone loss so extreme that it first doubts its own instrument.",
+ "contenu_vulgarise": "In 1985, at the British station of Halley, on the Antarctic coast, a team led by Joe Farman confirms something it had hoped, deep down, not to have to confirm. Since the early 1980s, the ozone measured above the station had been dropping every austral spring, more markedly from year to year. Farman first suspects his own instrument, a Dobson spectrophotometer in service since the station's early days, in 1957. A new device, which arrived at the station in October 1982, nonetheless gives the same abnormally low values. The instrument is not at fault.\n\n## A hole the satellites had not seen coming\n\nFarman, with his colleagues Brian Gardiner and Jonathan Shanklin, published his results on May 16, 1985 in Nature. The title of the paper, technical and sober (“Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction”), says nothing spectacular. The scale of the loss, later confirmed by NASA satellites across the entire continent, nonetheless makes it one of the most resounding environmental discoveries of the century.\n\n## Why spring, precisely\n\nThe destruction of stratospheric ozone is triggered by chlorine from chlorofluorocarbons, industrial compounds used since the 1930s in aerosol cans and refrigeration systems. This chlorine usually stays trapped in stable chemical forms. But the extreme cold of the Antarctic winter produces polar stratospheric clouds, fine ice particles that offer a surface where these chlorine reservoirs turn into reactive forms. When the Sun returns, in the austral spring, light frees this reactive chlorine, which destroys ozone through a chain reaction: a single chlorine atom can break down up to 100,000 ozone molecules before being deactivated. It is this seasonal mechanism, specific to polar conditions, that the title of the 1985 paper already announced.\n\n## A hole, not a furnace\n\nThe ozone hole is still, today, often confused with global warming. The two phenomena have neither the same cause nor the same mechanism. Warming comes from greenhouse gases, which trap the heat emitted by the Earth; ozone, for its part, filters the Sun's ultraviolet rays before they reach the ground. A hole in this layer lets a little more ultraviolet through, but its contribution to surface warming is negligible. The dominant effect of the ozone hole is, on the contrary, a cooling of the stratosphere.\n\nThe distinction is no mere anecdote: it shaped the political response. The phase-out of chlorofluorocarbons, agreed as early as 1987 by the Montreal Protocol, targets a specific cause, with no direct link to fossil fuels. Nearly forty years later, the latest scientific assessment conducted under UN auspices finds that the ozone layer is on the road to recovery, with a return to pre-1980 levels projected around 2066 over Antarctica.",
+ "repere": {
+  "texte": "The paper by Farman, Gardiner, and Shanklin, received by Nature on December 24, 1984 and published on May 16, 1985, documents a spring ozone loss over Halley that the models of the day judged impossible for at least another decade. A single chlorine atom from CFCs can break down up to 100,000 ozone molecules there.",
+  "source": "Farman, Gardiner & Shanklin, Nature, vol. 315, pp. 207-210, 1985; NOAA, Twenty Questions and Answers About the Ozone Layer, 2022",
+  "url": "https://www.nature.com/articles/315207a0"
+ },
+ "carte": {
+  "punch": "The ozone hole never warmed the planet. Greenhouse gases do.",
+  "idee": "In 1985, a British team confirms over Antarctica an ozone drop so extreme that it first doubts its instruments. The cause: chlorine from CFCs, activated each spring by polar cold, a mechanism distinct from that of global warming.",
+  "source_courte": "Farman, Gardiner & Shanklin, Nature, 1985"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "British Antarctic Survey — The ozone hole discovery",
+   "url": "https://www.bas.ac.uk/about/history/ozone-hole-discovery/",
+   "note": "The story of the discovery told by the institution that made it, with photos of Halley station and the instrument."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the ozone loss over Antarctica strongest each year in spring?",
+  "choix": [
+   "Because the return of the Sun activates the chlorine accumulated on the winter's polar stratospheric clouds",
+   "Because Northern Hemisphere factories then release the most CFCs into the atmosphere",
+   "Because the ozone hole moves with the seasons and is only passing over Antarctica",
+   "Because global warming reaches its seasonal peak at the same time"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Chlorine from CFCs stays trapped in stable forms until the extreme cold of the Antarctic winter forms polar stratospheric clouds, which convert it into reactive forms. When light returns in spring, this chlorine destroys ozone through a chain reaction. CFC emissions and global warming, for their part, do not follow this precise seasonal rhythm.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is the dominant effect of the ozone hole on the stratosphere, according to the card?",
+   "choix": [
+    "A local warming equivalent to that caused by greenhouse gases",
+    "No measurable effect, the ozone hole being thermally neutral",
+    "An increase in atmospheric pressure over Antarctica",
+    "A cooling of the stratosphere"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text specifies that the dominant effect of the ozone hole is, in contrast to warming, a cooling of the stratosphere, since ozone filters ultraviolet rather than trapping heat."
+  },
+  {
+   "question": "When is the ozone layer expected to recover its pre-1980 levels over Antarctica?",
+   "choix": [
+    "As early as 2030, thanks to the recent acceleration of the Montreal Protocol",
+    "Around 2066, according to the latest scientific assessment conducted under UN auspices",
+    "It already did in 2020, according to NASA",
+    "Never: the damage is considered irreversible"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The latest UN/WMO/NOAA/NASA assessment projects a return to pre-1980 levels around 2066 over Antarctica, nearly forty years after the Montreal Protocol."
+  },
+  {
+   "question": "How did Joe Farman's team first react to the abnormally low ozone values measured at Halley?",
+   "choix": [
+    "It suspected its own instrument, a spectrophotometer in service since 1957",
+    "It immediately published its results without further checking",
+    "It accused the neighboring Argentine station of having rigged its own measurements",
+    "It attributed the drop to a recent volcanic eruption in Antarctica"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Farman first suspected his own Dobson spectrophotometer, in service since the station's early days in 1957, before a new device that arrived in 1982 confirmed the same abnormal values."
+  }
+ ]
+}

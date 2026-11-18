@@ -1,0 +1,60 @@
+{
+ "id": "ggr-mercator-groenland-afrique",
+ "slug": "mercator-groenland-afrique",
+ "langue": "en",
+ "empreinte_fr": "539ab88a467a18bb",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Mercator Projection, or Greenland as Big as Africa",
+ "accroche": "On most wall maps, Greenland looks almost as big as Africa. Africa could hold it fourteen times over.",
+ "contenu_vulgarise": "Open any world map pinned up in a classroom, or the one that shows up by default in most software before you touch anything: Greenland takes up a mass almost as wide as all of Africa. The eye instinctively puts the two in the same size category. That is false, in dizzying proportions: Africa covers more than 30 million square kilometers, Greenland a little over 2 million. Africa is about fourteen times larger.\n\n## The Mechanism\n\nThe culprit for this illusion has a name and a date: the projection devised by the Flemish cartographer Gerardus Mercator in 1569. His goal was not to represent areas faithfully but to preserve angles: on a Mercator map, a route drawn as a straight line corresponds to a constant compass heading, which made it a decisive tool for navigation on the high seas, where you cannot recalculate your course at every moment. This choice has a cost. The projection stretches areas the farther you get from the equator, by a factor that grows with latitude and becomes infinite at the poles. The result: Alaska looks as vast as Australia, which is in fact 4.5 times larger in area; Madagascar looks barely larger than the United Kingdom, though it is more than twice its size. Greenland, very close to the pole, is the most spectacular example.\n\n## The Shift\n\nThe story does not stop at a cartographer's curiosity. In 1973, the German historian Arno Peters presented a rival equal-area projection and attached a political charge to it: according to him, the Mercator, by inflating Europe and North America at the expense of Africa and South America, had installed a Eurocentric view of the world right in the classroom. The projection now bears the name Gall-Peters, after the British cartographer James Gall, who had described it as early as 1855 without Peters mentioning him. It was taken up by UNESCO, widely distributed in British schools, then adopted in 2017 by the Boston public schools, the first American jurisdiction to require it, and by Nebraska in 2024.\n\nThe community of professional cartographers, for its part, has never come down in Peters's favor. In 1989, seven North American geographic and cartographic associations adopted a joint resolution that does not rehabilitate Mercator either: it rejects any world wall map built on a rectangular projection, Gall-Peters included. The reason fits in a sentence: no flat projection can preserve areas, angles, and distances all at once; a sphere cannot be unfolded without distortion somewhere. Choosing Gall-Peters to correct Mercator amounts to trading one distortion for another, less visible in areas but severe in the shapes of continents near the poles. Mercator, for its part, remains today the projection of nautical charts and of most online navigation services, for the same reason as in 1569: it alone keeps you on course.",
+ "repere": {
+  "texte": "Greenland covers about 2.17 million square kilometers, Africa more than 30 million: Africa is fourteen times larger, even though the two look comparable in size on a Mercator map.",
+  "source": "Encyclopaedia Britannica, “Why Does Greenland Look So Big on Some Maps?”",
+  "url": "https://www.britannica.com/place/Why-Does-Greenland-Look-So-Big-on-Some-Maps"
+ },
+ "carte": {
+  "punch": "On a Mercator map, Greenland looks as big as Africa. Greenland fits into Africa fourteen times.",
+  "idee": "In 1569, Gerardus Mercator devises a projection that preserves angles for navigation, at the price of stretching areas toward the poles. The result, four centuries later: Greenland looks as big as Africa, which is in fact fourteen times larger in area.",
+  "source_courte": "Encyclopaedia Britannica"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does Greenland look as big as Africa on a Mercator map?",
+  "choix": [
+   "Because the Mercator projection stretches areas far from the equator, to preserve the angles useful for navigation",
+   "Because Greenland's ice cap enlarges its silhouette as seen from space",
+   "Because early cartographers had not yet precisely measured the outline of Africa",
+   "Because Africa is redrawn at a reduced scale to fit on the page"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The Mercator projection preserves angles so you can navigate on a constant heading, but this choice stretches areas in proportion to latitude: that is what inflates everything far from the equator, like Greenland, without the real size of the continents having changed.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What resolution did seven North American geographic and cartographic associations adopt in 1989?",
+   "choix": [
+    "The rejection of any world wall map built on a rectangular projection, Gall-Peters included",
+    "A recommendation to officially adopt the Gall-Peters projection in schools",
+    "A ban on teaching the Mercator projection in secondary school",
+    "The creation of a new common projection replacing both Mercator and Gall-Peters"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text specifies that the 1989 resolution does not rehabilitate Mercator either: it rejects any world wall map built on a rectangular projection, Gall-Peters included."
+  },
+  {
+   "question": "Who described the equal-area projection before the historian Arno Peters presented it in 1973, without Peters mentioning it?",
+   "choix": [
+    "The British cartographer James Gall, who had described it as early as 1855",
+    "The Flemish cartographer Gerardus Mercator, in a 1569 publication",
+    "UNESCO, which supposedly designed it for school use in 1973",
+    "The German historian himself, in an earlier unsigned article"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text states that the projection now bears the name Gall-Peters, after the British cartographer James Gall, who had described it as early as 1855 without Peters mentioning him."
+  }
+ ]
+}

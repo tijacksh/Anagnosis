@@ -1,0 +1,77 @@
+{
+ "id": "lin-loi-de-grimm",
+ "slug": "loi-de-grimm",
+ "langue": "en",
+ "empreinte_fr": "719c726a4f468bbf",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Grimm's Law",
+ "accroche": "Pater, pes, piscis in Latin; father, foot, fish in English. One rule governs this correspondence, and it holds across the whole vocabulary.",
+ "contenu_vulgarise": "The Latin word *pater*, the English word *father*, the German *Vater*: the resemblance leaps out, but it isn't just a matter of how they sound. It obeys a rule that holds across the whole inherited vocabulary, word after word: wherever Latin, Greek, or Sanskrit has a *p*, English and German have an *f*. *Pater*/*father*, *pes*/*foot*, *piscis*/*fish*, *pellis*/*fell* (skin). The same equivalence holds for other consonants: Latin *t* corresponds to English *th* (*tres*/*three*, *tu*/*thou*), *k* to *h* (*cor*/*heart*, *canis*/*hound*). It's a system.\n\n## From Schlegel to Grimm\n\nThe German philologist Friedrich von Schlegel noted the *p*/*f* correspondence as early as 1806, without drawing a general rule from it. It was the Dane Rasmus Rask who, between 1814 and 1818, methodically extended it to all the consonants and to several Indo-European languages. Jacob Grimm, who with his brother Wilhelm also published the tales that bear their name, took up and systematized the demonstration in the second edition of his *Deutsche Grammatik*, in 1822. The rule that bears his name actually describes three linked correspondences: the voiceless stops of Proto-Indo-European (p, t, k) become voiceless fricatives in Proto-Germanic (f, þ, h); the voiced stops (b, d, g) become voiceless (p, t, k); the voiced aspirated stops (bʰ, dʰ, gʰ) become plain voiced stops (b, d, g). Every consonant in the system moves one notch, with none merging with its neighbor.\n\n## An Exception That Wasn't\n\nFor decades, the rule stumbled on rebellious cases. *Father*, according to Grimm, should have kept the *th* sound of *pater*, as *brother* does against the ancient *bʰréh₂tēr*. But English and the old Germanic languages show a *d* where the rule expects a *þ*. In 1875, the Danish linguist Karl Verner solved the puzzle: the position of the stress in the original Indo-European word decides the consonant's fate. In *pəˈtḗr*, the stress falls after the consonant in question; the resulting voiceless fricative becomes voiced as *đ*, then *d*. In *bʰréh₂tēr*, the stress falls on the first syllable; the consonant stays voiceless. Verner published his demonstration in 1877, in the *Zeitschrift für vergleichende Sprachforschung*, edited by Adalbert Kuhn.\n\n## What This Shifts\n\nThe episode established a conviction that still structures historical linguistics: a sound change is a rule, applying without exception to all the vocabulary concerned and under conditions that can be isolated with precision. Here, the position of an accent vanished millennia ago, recovered by deduction from words still in use today. It is this principle, the regularity of sound laws, that then makes it possible to reconstruct languages that no text attests: Proto-Indo-European itself exists only in this form, deduced from the correspondences among its descendants.",
+ "repere": {
+  "texte": "Jacob Grimm systematizes the p/f, t/th, k/h correspondence between Latin and Germanic in the second edition of his Deutsche Grammatik, in 1822. The exceptions it left unresolved, such as father versus brother, found their explanation 53 years later, in 1875, with Verner's law.",
+  "source": "Jacob Grimm, Deutsche Grammatik, 2nd ed., 1822; Karl Verner, 1877",
+  "url": "https://archive.org/details/deutschegrammat00unkngoog"
+ },
+ "carte": {
+  "punch": "The p of “pater” becomes f in English and German: father, Vater. A rule, not chance.",
+  "idee": "Latin pater/pes/piscis, English father/foot/fish: Latin p systematically becomes f in Germanic, just as t becomes th and k becomes h. Jacob Grimm systematizes the rule in 1822. The rebellious cases, like father versus brother, are explained in 1875 by Karl Verner: a vanished accent.",
+  "source_courte": "Grimm, Deutsche Grammatik, 1822; Verner, 1877"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia — Verner's law",
+   "url": "https://en.wikipedia.org/wiki/Verner's_law",
+   "note": "The detail of the stress mechanism and other examples of Verner's law."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the English word father have a d where Grimm's law would lead you to expect a th, unlike brother?",
+  "choix": [
+   "Because father is a later borrowing from French, which altered its pronunciation",
+   "Because Grimm's law doesn't apply to family words, judged too frequent to change",
+   "Because the two words come from two different Germanic dialects, which didn't undergo the same shift",
+   "Because the position of the stress in the original Indo-European word determined whether the consonant became voiced"
+  ],
+  "bonne_reponse": 3,
+  "explication": "It's the law stated by Karl Verner in 1875: in the Indo-European word behind father, the stress fell after the consonant in question, which made it become voiced as d; in the one behind brother, the stress fell on the first syllable, and the consonant stayed voiceless (th). Neither a borrowing, nor an exemption from the rule, nor a different dialectal lineage is involved.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who first noted the correspondence between Latin p and Germanic f, without drawing a general rule from it?",
+   "choix": [
+    "Rasmus Rask, in 1814",
+    "Friedrich von Schlegel, in 1806",
+    "Jacob Grimm, in 1822",
+    "Karl Verner, in 1875"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The German philologist Friedrich von Schlegel noted the p/f correspondence as early as 1806, without drawing a general rule from it. It was then the Dane Rasmus Rask who, between 1814 and 1818, methodically extended it to all the consonants."
+  },
+  {
+   "question": "What does a voiced aspirated stop of Proto-Indo-European (bʰ, dʰ, gʰ) become in Proto-Germanic, according to Grimm's law?",
+   "choix": [
+    "A voiceless fricative (f, þ, h)",
+    "A voiceless stop (p, t, k)",
+    "A plain voiced stop (b, d, g)",
+    "It stays identical, with no change at all"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Grimm's law describes three linked correspondences: voiceless stops (p, t, k) become voiceless fricatives (f, þ, h); voiced stops (b, d, g) become voiceless (p, t, k); voiced aspirated stops (bʰ, dʰ, gʰ) become plain voiced stops (b, d, g)."
+  },
+  {
+   "question": "According to Karl Verner, what decides whether a consonant becomes voiced or stays voiceless in a word of Indo-European origin?",
+   "choix": [
+    "The number of syllables in the word",
+    "The specific Germanic language in which the word evolved",
+    "The position of the stress in the original word",
+    "How often the word is used in everyday vocabulary"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Verner shows in 1875 that the position of the stress in the original Indo-European word decides the consonant's fate: when the stress falls after the consonant in question, the voiceless fricative becomes voiced; when it falls on the first syllable, it stays voiceless."
+  }
+ ]
+}

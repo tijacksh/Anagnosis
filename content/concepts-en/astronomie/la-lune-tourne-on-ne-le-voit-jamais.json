@@ -1,0 +1,82 @@
+{
+ "id": "ast-la-lune-tourne-on-ne-le-voit-jamais",
+ "slug": "la-lune-tourne-on-ne-le-voit-jamais",
+ "langue": "en",
+ "empreinte_fr": "d9bde187e5fb7a7c",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Moon Rotates, and We Never See It",
+ "accroche": "The Moon takes exactly as long to rotate on its axis as to circle the Earth. It is no coincidence.",
+ "contenu_vulgarise": "A widespread memory, learned without anyone recalling where: the Moon does not rotate on its axis, it merely circles us, its face always pointed in the same absolute direction, like a ball slid along an orbit. That is false, and the error is instructive.\n\n## Two Motions That Match\n\nThe Moon does rotate on its axis. It takes 27 days to complete one full turn on itself, exactly the time it takes to complete one full orbit around the Earth. This equality is no coincidence: it is the result of a mechanism called gravitational locking, or synchronous rotation.\n\nWhen it formed, the Moon was largely molten, and its shape responded to Earth's gravity like soft dough: Earth raised a slight bulge on it, pointed toward Earth. As long as the Moon rotated faster than it orbited, this bulge was constantly carried forward by the rotation, then pulled back by Earth's attraction. This permanent offset created internal friction, which dissipated energy and slowed the rotation, orbit after orbit.\n\nThe braking stopped when there was no longer any offset to correct: the day the Moon's rotation lined up exactly with its revolution. The bulge then stays permanently pointed toward Earth. The Moon still rotates, but at the same speed as it orbits, which amounts, seen from Earth, to showing the same face indefinitely.\n\n## What the Far Side Hides\n\nThe mechanism is not specific to the Moon. Most of the large moons of the Solar System are locked in the same way to their planet. The process is settled quickly on a geological scale: a few hundred thousand orbits are enough for a satellite the size of the Moon.\n\nThe process continues today, in reverse: Earth's oceans, raised by the Moon, exert a force in return that pushes the Moon away, by about four centimeters per year, as measured by the laser reflectors placed on its surface by the Apollo missions. In fifty billion years, if the two bodies survive long enough to escape the death of the Sun, Earth itself will end up locked to face the Moon.\n\nIn the meantime, the half of the Moon hidden by this locking remained theoretical territory until October 7, 1959: that day, the Soviet probe Luna 3 transmitted the first images of it. It is neither a mystery nor a hemisphere plunged into darkness, just the half that never faces Earth.",
+ "repere": {
+  "texte": "The Moon is moving away from Earth by about four centimeters per year: precisely 3.8 cm, measured from Earth by lasers fired at the reflectors left by the Apollo missions, a direct consequence of the same tidal mechanism that locked its rotation.",
+  "source": "NASA JPL, “The Apollo Experiment That Keeps On Giving,” July 24, 2019",
+  "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/"
+ },
+ "carte": {
+  "punch": "The Moon rotates, at exactly the speed needed so that we never see it.",
+  "idee": "The Moon takes 27 days to rotate once on its axis, exactly as long as it takes to orbit the Earth once. This equality is no coincidence: it is gravitational locking, caused by friction between Earth's gravity and the Moon's shape.",
+  "source_courte": "NASA Science, tidal locking"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does the Moon always show the same face to Earth?",
+  "choix": [
+   "Because its rotation and its orbit last exactly the same time",
+   "Because it does not rotate on its axis at all",
+   "Because Earth stops it from rotating through a magnetic effect",
+   "Because its orbit is perfectly circular"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The Moon does rotate on its axis, but in 27 days, exactly the time it takes to orbit Earth: this is gravitational locking, caused by tidal friction between Earth and the Moon. It does not stop rotating, there is no magnetic effect of this kind, and the shape of the orbit has no bearing on this phenomenon.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which probe transmitted the first images of the far side of the Moon, and when?",
+   "choix": [
+    "The American Apollo 11 spacecraft, on July 20, 1969",
+    "The Soviet Sputnik 1 satellite, on October 4, 1957",
+    "The Soviet probe Luna 3, on October 7, 1959",
+    "The European probe Rosetta, in 2014"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The far side remains theoretical territory until October 7, 1959, when the Soviet probe Luna 3 transmits the first images of it."
+  },
+  {
+   "question": "How fast is the Moon moving away from Earth, and how is this figure measured?",
+   "choix": [
+    "About four meters per year, measured by optical telescope",
+    "The Moon is not moving away; its distance from Earth stays constant",
+    "About four kilometers per century, calculated from the tides",
+    "About four centimeters per year, measured by laser on Apollo reflectors"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Lasers fired from Earth at the reflectors placed by the Apollo missions measure a recession of about four centimeters per year."
+  },
+  {
+   "question": "What originally creates the bulge on the Moon's surface, the starting point of gravitational locking?",
+   "choix": [
+    "Repeated meteorite impacts on a single hemisphere",
+    "Earth's gravity acting on a Moon that was still largely molten",
+    "The Sun's attraction during eclipses",
+    "Uneven cooling of the lunar crust after its formation"
+   ],
+   "bonne_reponse": 1,
+   "explication": "When it formed, the Moon was largely molten, and Earth's gravity raised a bulge on it pointed toward Earth."
+  },
+  {
+   "question": "What would happen in about fifty billion years, if Earth and the Moon survive the death of the Sun?",
+   "choix": [
+    "The Moon would break apart under the effect of Earth's tides",
+    "Earth and the Moon would collide",
+    "The Moon would stop rotating on its axis altogether",
+    "Earth itself would end up locked to face the Moon"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The same tidal mechanism that locked the Moon would eventually, over a very long time, lock Earth to face it."
+  }
+ ]
+}

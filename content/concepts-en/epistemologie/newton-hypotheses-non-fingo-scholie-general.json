@@ -1,0 +1,77 @@
+{
+ "id": "epi-newton-hypotheses-non-fingo-scholie-general",
+ "slug": "newton-hypotheses-non-fingo-scholie-general",
+ "langue": "en",
+ "empreinte_fr": "ffc67ceb07944eac",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-langue-originale",
+   "note": "*hypotheses non fingo* : formule latine de Newton, laissée en latin."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "« esprit très subtil » : Newton, Principia, Scholie général (latin ; version anglaise de Motte, 1729) ; traduit depuis le français, à remplacer par la formulation de Motte."
+  }
+ ],
+ "titre": "Hypotheses non fingo: What Newton Really Refuses",
+ "accroche": "“I do not feign hypotheses” passes for the credo of science. Yet in the same text, Newton ends on a conjecture.",
+ "contenu_vulgarise": "In 1713, Newton's theory of gravitation, published 26 years earlier, was still being criticized: it calculates the fall of bodies and the course of the planets without saying what makes gravity act. He was accused of introducing occult agents. He then added to the end of the second edition of the *Principia* a text, the General Scholium, which contains a phrase that became famous: *hypotheses non fingo*, “I do not feign hypotheses” (our translation). Newton writes there, in Andrew Motte's English translation of 1729, that he has not yet been able to discover, from the phenomena, the cause of the properties of gravity, and that he does not frame hypotheses. He then lays down his rule: whatever is not deduced from the phenomena must be called a hypothesis, and hypotheses, whether metaphysical or physical, whether of occult qualities or mechanical, have “no place in experimental philosophy.” It is enough for him, he adds, that gravity really exists and acts according to the laws he has set out.\n\n## What the phrase targets\n\nThe common reading makes it a rejection of hypothesis in general. The “Newton's Philosophy” entry of the *Stanford Encyclopedia of Philosophy* finds this hard to reconcile with the texts themselves: the *Principia* makes hypotheses about rays of light, and the *Opticks* proposes an ether in its Query 21. According to the entry, a philosopher can legitimately propose hypotheses; what he cannot do is treat them as established by experiment, observation, or reasoning. It gives as examples the action of gravity in proportion to mass, which Newton holds to be established, and the ether, which he does not.\n\nThe Scholium itself provides the proof. It ends with a “very subtle spirit” that pervades solid bodies and lies hidden in them, some of whose properties Newton describes before concluding that the laws governing it are not yet determined, for lack of a sufficient number of experiments. It is usually read as an allusion to electricity.\n\n## What this shifts\n\nOn this reading, the phrase is less a prohibition than a label. There is what has been deduced from the phenomena, and what is proposed to account for them. Newton's text is nonetheless severe: hypotheses, he says, have “no place in experimental philosophy.” He bars them from demonstration, not from thought, and the question of exactly where this boundary lies remains open.",
+ "repere": {
+  "texte": "The General Scholium appears in the second edition of the Principia, in 1713. Newton writes there that he has not yet been able to discover, from the phenomena, the cause of the properties of gravity, and that he does not frame hypotheses: whatever is not deduced from the phenomena must be called a hypothesis (Motte's translation, 1729).",
+  "source": "Isaac Newton, Principia, General Scholium, trans. Andrew Motte (1729), Wikisource",
+  "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/General_Scholium"
+ },
+ "carte": {
+  "punch": "“Hypotheses non fingo,” writes Newton. In the same text, he nonetheless puts forward a conjecture.",
+  "idee": "In the General Scholium (1713), Newton refuses to put forward a cause of gravity that he cannot deduce from the phenomena. According to the Stanford Encyclopedia's reading, he does not ban every hypothesis: he refuses to pass them off as established. The text ends on a “very subtle spirit.”",
+  "source_courte": "Newton, General Scholium, 1713"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia: Hypotheses non fingo",
+   "url": "https://en.wikipedia.org/wiki/Hypotheses_non_fingo",
+   "note": "Translations of the formula (“feign,” “frame,” “imagine”) and debates over its scope."
+  }
+ ],
+ "quiz": {
+  "question": "According to the reading that the Stanford Encyclopedia of Philosophy judges best matched to the texts, what does Newton refuse with “hypotheses non fingo”?",
+  "choix": [
+   "Any hypothesis about the nature of light or matter, which he considers foreign to science",
+   "To treat as established a hypothesis that neither experiment, nor observation, nor reasoning has demonstrated",
+   "To admit the existence of gravity as long as its cause is not known",
+   "To use mathematical calculations that cannot be verified by experiment"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Newton holds gravity to be established, with its laws, and sets its cause aside. According to this reading, he does not reject every hypothesis, since the Principia makes some about light and the Opticks proposes an ether: he refuses to present as settled what has not been demonstrated.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why does Newton add the General Scholium to the second edition of the Principia, in 1713?",
+   "choix": [
+    "To answer critics who accused him of introducing occult agents",
+    "To correct a calculation error noted in the first edition of 1687",
+    "To present his theory of universal gravitation for the first time",
+    "To thank the mathematicians who funded the publication of his book"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In 1713, Newton's theory of gravitation was still being criticized for introducing occult agents without stating the cause; the General Scholium answers this reproach."
+  },
+  {
+   "question": "What does the text of Newton's General Scholium end on?",
+   "choix": [
+    "A complete mathematical demonstration of the speed of light",
+    "A tribute to Robert Hooke, for his contribution to the theory of gravity",
+    "A list of the errors he acknowledges having made in the first edition",
+    "A “very subtle spirit,” whose laws are not yet determined for lack of experiments"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The General Scholium ends on a “very subtle spirit” that pervades solid bodies, whose laws Newton says he does not yet know, for lack of sufficient experiments; it is usually read as an allusion to electricity."
+  }
+ ]
+}

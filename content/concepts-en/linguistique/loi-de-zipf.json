@@ -1,0 +1,77 @@
+{
+ "id": "lin-loi-de-zipf",
+ "slug": "loi-de-zipf",
+ "langue": "en",
+ "empreinte_fr": "0f17f4d42b427fbf",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Zipf's Law, or What a Random Keyboard Can Imitate",
+ "accroche": "A language's most frequent word appears about twice as often as the second. A keyboard typing at random produces a similar curve.",
+ "contenu_vulgarise": "Take a sufficiently long English text and rank its words from most to least frequent. The word ranked number 2 appears about half as often as the one ranked number 1; the one ranked number 3, a third as often; the one ranked number 10, a tenth as often. This regularity (a word's frequency multiplied by its rank gives roughly the same number every time) is known as Zipf's law, after the American linguist George Kingsley Zipf, who detailed it in his 1949 book *Human Behavior and the Principle of Least Effort*.\n\n## A Principle Meant to Explain Language\n\nZipf doesn't stop at describing the curve: he proposes a psychological explanation. Speaking costs the speaker effort, and the speaker has an interest in reusing a small number of short words often rather than varying vocabulary with every sentence; listening costs the receiver effort, and the receiver has an interest in the speaker being precise and varied. The law would be the compromise between these two opposing efforts, and the second half of the title, *the Principle of Least Effort*, says explicitly that the statistical regularity reveals a trait of human behavior. The book spills well beyond linguistics: it applies the same principle to economics and even to the distribution of cities by population.\n\n## A Monkey Typing at Random Gets a Similar Curve\n\nIn 1957, the psychologist George Miller published an article that shifts the question entirely. He imagines a keyboard with 26 letters and a space bar, struck at random and independently of one another, with no intention, no meaning, no speaker. A “word” is simply the string of letters between two spaces. In his example, the space has a probability of 0.18 and the 26 letters share the rest equally. All words of the same length are then equally probable, and each additional letter divides a word's probability by about 32, whereas the number of possible words is only multiplied by 26. Short words are therefore, each one, more probable than long ones: ranked by frequency, they occupy the first ranks, in steps (the 26 one-letter words, then the 676 two-letter words, and so on). On a logarithmic scale, these steps trace a staircase whose slope is about -1.06 according to Perline, who takes up Miller's example: very close to the -1 of Zipf's law. The mathematician Richard Perline has since shown that, when the alphabet grows and the letters' probabilities are drawn by a random division of the unit interval, the exponent tends toward -1 under broad conditions.\n\n## What This Shifts\n\nA monkey typing at random has no effort to save, no listener to satisfy, no intention of communicating anything: it doesn't even have language. And yet its purely mechanical output traces a rank-frequency curve close to Zipf's. If a structure as simple as “letters separated by spaces” suffices to produce a similar curve, then observing that curve in a real text proves, on its own, neither a principle of cognitive economy nor anything about the mind of whoever wrote it. The regularity may come from an almost arithmetical property of how a string of symbols is cut into units of varying lengths. What remains is the question the monkey doesn't settle: why do human languages choose precisely that way of cutting?",
+ "repere": {
+  "texte": "In Miller's example (1957) (26 equiprobable letters and a space with probability 0.18), the ranking of randomly typed “words” traces a staircase whose slope, on a log-log scale, is about -1.06 according to Perline: very close to the -1 of Zipf's law, with no communicative intention whatsoever.",
+  "source": "Richard Perline, arXiv:1512.02177, 2015, section 2.2 (taking up George A. Miller's example, 1957)",
+  "url": "https://arxiv.org/abs/1512.02177"
+ },
+ "carte": {
+  "punch": "Zipf's law seems to reveal the economy of language. A random keyboard traces a close one.",
+  "idee": "Zipf (1949) explains through least effort why the most frequent word in a text appears about twice as often as the second. In 1957, Miller shows that a keyboard typing letters at random, spaces included, produces a curve with a slope near -1, with no communication.",
+  "source_courte": "Zipf, 1949; Miller, 1957 (via Perline)"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia — Zipf's law",
+   "url": "https://en.wikipedia.org/wiki/Zipf%27s_law",
+   "note": "Presents the randomly typed text model (Miller 1957, Li 1992), Zipf's least-effort explanation, and the fact that the relationship had been noticed before him (Estoup 1916, Dewey 1923, Condon 1928)."
+  }
+ ],
+ "quiz": {
+  "question": "Why does George Miller's experiment (1957) call for caution about Zipf's “least effort” explanation?",
+  "choix": [
+   "Because Miller shows that Zipf's curve appears only in languages with no spaces between words",
+   "Because a text produced by randomly typed letters, with no communication at all, reproduces roughly the same rank-frequency curve",
+   "Because Miller demonstrates that word frequency actually varies according to another law, unrelated to rank",
+   "Because Miller proves that only Germanic languages follow Zipf's law, contrary to what Zipf thought"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Miller shows that a keyboard typing letters independently at random, with a space as separator, produces a rank-frequency curve whose slope, about -1.06 in his example according to Perline, comes close to that of Zipf's law, with no intention of communicating. This suggests that the curve alone doesn't prove a trade-off in effort: it can come from an almost arithmetical property of cutting a string into units of varying lengths, with no psychological trade-off between the speaker's effort and the listener's. Nothing in his experiment concerns the absence of spaces or a specificity of Germanic languages, and it proposes no replacement law.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Zipf's law itself claim about a sufficiently long text?",
+   "choix": [
+    "That a word's frequency, multiplied by its rank, gives roughly the same number every time",
+    "That all the words of a language appear with the same frequency",
+    "That only the most frequent word follows a rule, the others being random",
+    "That a word's frequency doubles at each rank, whatever the text"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Zipf's law says that the product of a word's rank and its frequency stays roughly constant across a whole text, which gives the ratios described in this entry: the second word about half as frequent, the third a third as frequent."
+  },
+  {
+   "question": "In the random keyboard model taken up by Perline, why are short words individually more probable than long words?",
+   "choix": [
+    "Because the keyboard is set to strike the letters that make up short words more often",
+    "Because short words are retyped several times before the keyboard accepts them",
+    "Because each additional letter divides the word's probability by 32, when the possible words are only multiplied by 26",
+    "Because the space can never appear inside a word of more than three letters"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Each additional letter divides the probability of a given word by about 32, whereas the number of possible words of that length is only multiplied by 26: short words therefore remain, one by one, more probable than long ones."
+  },
+  {
+   "question": "According to Richard Perline (2015), what happens to the exponent of the random keyboard model's rank-frequency curve as the alphabet grows?",
+   "choix": [
+    "It approaches 0, which cancels any regularity",
+    "It tends toward -1, under broad conditions on how the letter probabilities are drawn",
+    "It goes beyond -2, making the curve steeper than Zipf's",
+    "It stays fixed at -1.06, whatever the size of the alphabet"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Perline shows that, when the alphabet grows and the letters' probabilities are drawn by a random division of the unit interval, the exponent tends toward -1 under broad conditions, without staying fixed at -1.06."
+  }
+ ]
+}

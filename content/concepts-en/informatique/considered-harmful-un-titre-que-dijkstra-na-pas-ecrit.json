@@ -1,0 +1,66 @@
+{
+ "id": "inf-considered-harmful-titre-de-wirth",
+ "slug": "considered-harmful-un-titre-que-dijkstra-na-pas-ecrit",
+ "langue": "en",
+ "empreinte_fr": "a733c8a909098500",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "“Considered Harmful”: A Title Dijkstra Did Not Write",
+ "accroche": "In 1968, the most famous letter in computing was called “A Case against the GO TO Statement.” The editor retitled it.",
+ "contenu_vulgarise": "In March 1968, readers of the journal Communications of the ACM find, in their letters section, a two-page letter signed Edsger Dijkstra. It is titled “Go To Statement Considered Harmful.” That phrase has become a genre of its own. Only, Dijkstra had not written it.\n\n## The original title\n\nIn the manuscript Dijkstra sent to the journal, the letter was called “A Case against the GO TO Statement.” The text is preserved in the Dijkstra archives at the University of Texas under reference EWD215, with the title he had given it. The title was changed at publication by Niklaus Wirth, then the journal's editor, according to Wikipedia, who put in the phrase we know. The letter appeared in the March 1968 issue, volume 11, on pages 147 and 148.\n\n## The argument\n\nDijkstra argues there that the unrestrained use of the “go to” statement, which makes execution jump from one point in the program to another, makes it hard to follow what a program does. To understand where one is, one must know through what sequence of steps execution arrived there, and jumps blur that sequence. He argues for more structured constructs, which let the program text mirror its execution. His conclusion is not half-hearted: he writes that go to should be abolished from all high-level programming languages. The exceptions sometimes attributed to the letter, such as emergency exits, do not appear in the manuscript Dijkstra sent to the journal.\n\n## The shift\n\nWirth's title has had a longer afterlife than the letter. According to Wikipedia, at least 65 critical essays in computer science and neighboring fields bore, in 2009, a title modeled on “X considered harmful.” The phrase set a tone: that of the brief, categorical indictment, which leaves little room for nuance. Yet the original text contained more nuance than the title lets one believe.\n\nA title is an editorial act added to the text, and it can change how the text is received. The history of this phrase is thus also that of a possible misreading: we read Wirth's phrase as if it were Dijkstra's argument. What other famous phrase in computing comes to us from an editor, a headline, a conference slide caption rather than from the author?",
+ "repere": {
+  "texte": "Dijkstra's letter, submitted under the title “A Case against the GO TO Statement,” was published under the title “Go To Statement Considered Harmful” in Communications of the ACM, vol. 11, no. 3, March 1968, pp. 147-148.",
+  "source": "E. W. Dijkstra Archives, University of Texas at Austin, EWD215; Communications of the ACM, March 1968",
+  "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html"
+ },
+ "carte": {
+  "punch": "“Considered harmful” is not Dijkstra's.",
+  "idee": "His 1968 letter was called “A Case against the GO TO Statement.” The journal's editor, Niklaus Wirth, retitled it: the formula then served at least 65 computer science essays by 2009.",
+  "source_courte": "Dijkstra Archives EWD215"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Archive page for the letter (EWD215)",
+   "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html",
+   "note": "The manuscript, with the original title."
+  }
+ ],
+ "quiz": {
+  "question": "Who gave the 1968 letter its title “Go To Statement Considered Harmful”?",
+  "choix": [
+   "Dijkstra himself, in the manuscript sent to the journal",
+   "Niklaus Wirth, the journal's editor, who changed the title",
+   "Donald Knuth, in his published reply to the letter",
+   "The journal's printer, through a typesetting error"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The manuscript was titled “A Case against the GO TO Statement”; the change came from the journal's editor. Neither Knuth nor the printer had anything to do with it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In which issue of Communications of the ACM did the letter appear?",
+   "choix": [
+    "March 1968",
+    "January 1958",
+    "September 1975",
+    "December 1990"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The letter appeared in March 1968, volume 11, number 3, pages 147-148."
+  },
+  {
+   "question": "What does the original title show compared with the published phrase?",
+   "choix": [
+    "That it was identical",
+    "That it framed a plea rather than a categorical indictment",
+    "That it targeted another language",
+    "That it did not mention go to"
+   ],
+   "bonne_reponse": 1,
+   "explication": "“A Case against” announces a reasoned plea; “Considered harmful” rules at the outset. The text itself nonetheless concludes bluntly that go to should be abolished from high-level languages."
+  }
+ ]
+}

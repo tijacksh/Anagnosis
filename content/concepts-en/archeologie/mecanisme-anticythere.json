@@ -1,0 +1,100 @@
+{
+ "id": "arc-mecanisme-anticythere",
+ "slug": "mecanisme-anticythere",
+ "langue": "en",
+ "empreinte_fr": "29597a93363dee2e",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Langue d'origine : anglais ; auteur : Derek de Solla Price (1974). Retraduit depuis le français ; remplacer par le texte original de Price. La mention « translated from the English » de citation/source est à retirer une fois le texte original remis."
+  },
+  {
+   "chemin": "carte/idee",
+   "type": "incertain",
+   "note": "Dit 1901 pour la remontée de l'épave, alors que le contenu parle d'un repérage au printemps 1900 et d'un examen en 1902 ; conservé tel quel."
+  }
+ ],
+ "titre": "A mechanism so precise it was thought to be extraterrestrial",
+ "accroche": "In 1902, an archaeologist makes out a gear wheel in a block of bronze raised from a Greek shipwreck. No one was expecting that",
+ "contenu_vulgarise": "In spring 1900, Greek sponge fishermen spot an ancient wreck 45 meters down off the islet of Antikythera, between Crete and the Peloponnese. The salvage work brings up bronze and marble statues, amphorae, and a corroded, shapeless block, which is put away in the National Archaeological Museum of Athens without anyone paying it particular attention.\n\nIt sits there for a year. On May 17, 1902, the archaeologist Valerios Stais examines it more closely and makes out, caught in the corrosion, what looks like a gear wheel. At the time, no one expects to find a gear in a wreck dated to before the Common Era.\n\n## A century to read an object\n\nUnderstanding what Stais saw then takes several generations of researchers.\n\nIn the 1970s, the physicist Derek de Solla Price has the fragments X-rayed and publishes the first overall reconstruction. In the early 2000s, a British team takes the object up again with a three-dimensional X-ray scanner, able to read through the crust of corroded bronze without breaking it. In 2021, a team from University College London publishes a complete digital model.\n\nThe tally comes down to a few figures. Eighty-two known fragments, including three main pieces. About thirty bronze gear wheels have survived; the reconstructed model has sixty-nine, meshed inside a case about thirty centimeters high. The whole simulates the motion of the Sun, the Moon, and the five planets known to the Greeks, predicts eclipses through a system of dials inspired by the Saros cycle, and displays on the back the calendar of the Panhellenic games, including the Olympic Games.\n\n## What people first refused to believe\n\nDerek de Solla Price published the first comprehensive study of the mechanism in 1974. In it he reports, not without irony, a reaction he had come across: some people were so convinced that the object's complexity exceeded what Hellenistic technology allowed that they preferred to attribute it to extraterrestrial astronauts rather than to Greek craftsmen.\n\nThe anecdote says something more interesting than its tone. It is not the object that is extraordinary in the supernatural sense. It is the gap between what the history of technology believed possible in the 2nd century BCE and what a Greek workshop actually built. Precision clockwork, with meshed gear trains, existed (a body of know-how for which no other comparable trace has come down to us, and which was lost along with it).\n\nThe Antikythera mechanism does not prove that the ancient Greeks held extraterrestrial technology. It proves that our categories of what was technically possible in a given era often rest less on evidence than on the absence of objects to contradict them, until a corroded block sleeps one year too long on a museum shelf.",
+ "citation": {
+  "texte": "Some were all too inclined to believe that the complexity of the device and its mechanical sophistication placed it so far beyond the reach of Hellenistic technology that it could only have been designed and created by extraterrestrial astronauts from space.",
+  "auteur": "Derek de Solla Price",
+  "source": "Gears from the Greeks: The Antikythera Mechanism — A Calendar Computer from ca. 80 B.C., Transactions of the American Philosophical Society, vol. 64, part 7 (1974) — translated from the English",
+  "url": "https://www.amphilsoc.org/news/gears-greeks-antikythera-mechanism-derek-de-solla-price"
+ },
+ "carte": {
+  "punch": "Some preferred to believe in extraterrestrials rather than in Greek craftsmen.",
+  "idee": "Raised from a shipwreck in 1901, a corroded block of bronze concealed an astronomical calculator with 69 gears, predicting eclipses and planetary positions. So sophisticated that some saw proof of extraterrestrials rather than lost Greek know-how.",
+  "source_courte": "Price, 1974 · Freeth et al., Scientific Reports, 2021"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Scientific American — An Ancient Greek Astronomical Calculation Machine Reveals New Secrets",
+   "url": "https://www.scientificamerican.com/article/an-ancient-greek-astronomical-calculation-machine-reveals-new-secrets/",
+   "note": "In English; by Tony Freeth himself, on the latest findings from the 2021 model."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Derek de Solla Price bring up, in his 1974 study, the hypothesis of an extraterrestrial origin for the mechanism?",
+  "choix": [
+   "Because unusual traces of corrosion suggested an alloy unknown on Earth",
+   "Because the object's sophistication seemed to exceed what known Greek technology allowed",
+   "Because no Greek inscription could be deciphered on the recovered fragments",
+   "Because the wreck itself did not match any documented Greek trade route"
+  ],
+  "bonne_reponse": 1,
+  "explication": "It is not a material mystery that the object posed. It is the gap between its mechanical precision (gear trains, eclipse prediction) and what the history of technology believed possible in the 2nd century BCE. Rather than revise that estimate, some preferred an explanation external to Greek history.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who is the first to notice, in 1902, what looks like a gear wheel in the corroded bronze block?",
+   "choix": [
+    "The physicist Derek de Solla Price",
+    "Greek sponge fishermen",
+    "The archaeologist Valerios Stais",
+    "A team from University College London"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The archaeologist Valerios Stais examines the block at the National Museum in Athens on May 17, 1902, and makes out a gear wheel in it."
+  },
+  {
+   "question": "How many gear wheels does the complete digital model, published in 2021, reconstruct in total?",
+   "choix": [
+    "About thirty",
+    "Eighty-two",
+    "A dozen",
+    "Sixty-nine"
+   ],
+   "bonne_reponse": 3,
+   "explication": "About thirty wheels physically survived, but the model reconstructed by the 2021 team has sixty-nine in all."
+  },
+  {
+   "question": "What can the Antikythera mechanism simulate and predict, once its operation is understood?",
+   "choix": [
+    "Tides and volcanic eruptions in the Mediterranean",
+    "The motion of the Sun, the Moon, the known planets, and eclipses",
+    "The position of the fixed stars for navigation on the high seas",
+    "The farming calendar and annual harvests"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The mechanism simulates the Sun, the Moon, and the five planets known to the Greeks, and predicts eclipses through a system of dials."
+  },
+  {
+   "question": "Where and by whom was the wreck containing the mechanism discovered?",
+   "choix": [
+    "Off Rhodes, by an amateur French diver, in 1974",
+    "In the port of Piraeus, by shipyard workers, in 1901",
+    "Off the islet of Antikythera, by Greek sponge fishermen, in 1900",
+    "Off Sicily, by British archaeologists, in 1902"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Greek sponge fishermen spot the wreck 45 meters down off Antikythera in the spring of 1900."
+  }
+ ]
+}

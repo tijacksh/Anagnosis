@@ -1,0 +1,85 @@
+{
+ "id": "ast-kepler-1609-huit-minutes-darc-que-ptolemee-ne-pouvait-pas-voir",
+ "slug": "kepler-1609-huit-minutes-darc-que-ptolemee-ne-pouvait-pas-voir",
+ "langue": "en",
+ "empreinte_fr": "d044efa7f7e0e6c1",
+ "traduit_le": "2026-11-16",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Kepler and the Eight Minutes of Arc Ptolemy Couldn't See",
+ "accroche": "Eight minutes of arc separate Ptolemy's calculation from Mars. Ptolemy did not observe below ten: to him, it was noise. To Kepler, a disagreement.",
+ "contenu_vulgarise": "Eight minutes of arc is a little less than a seventh of a degree. In the Astronomia nova, published in 1609, Kepler devotes to them a sentence that commits the whole book: these eight minutes alone, he writes, opened the way to the reform of all astronomy.\n\nThe starting point is Mars. Kepler works from Tycho Brahe's observations, and in chapter 16 he builds a first model, a variant of Ptolemy's equant model, on a circular orbit. This model accounts for the positions of Mars at opposition, when the planet is opposite the Sun in the sky. Later in the book, he calls this model merely “vicarious,” that is, a stand-in, and not “natural”: it deserves trust only to the extent that the observations force it on us.\n\n## Ptolemy's Threshold\n\nIn the following chapters, he puts this model to the test. In chapter 19, he examines a rule of Ptolemy's: placing the center of the circle midway between the Sun and the equant point. For Mars, where the eccentricity is greatest, this rule leaves an error relative to the observations that reaches at most eight minutes of arc.\n\nKepler then thanks divine goodness for giving him Tycho Brahe, a most diligent observer, whose measurements reveal the error in Ptolemy's calculation. He immediately recalls that Ptolemy declares he does not go below ten minutes of arc when observing, a sixth of a degree.\n\nEight is under ten. With Ptolemy's measurements, a discrepancy of that size cannot be told apart from noise. Kepler draws from this the reason why the Greek astronomer was content with his rule.\n\n## A Discrepancy Changes Status\n\nHe adds that he could have been content with it too. Had he judged these eight minutes negligible, his hypothesis from chapter 16 would already be sufficiently corrected, by splitting the eccentricity in two as Ptolemy did. But he does not judge them negligible, because Tycho's measurements no longer allow it. What these eight minutes put in the place of the circle, chapter 19 does not yet say.\n\nThe number did not change from one astronomer to the other. What changed is what the instrument can distinguish. A discrepancy is not large or small in itself: it is so relative to the fineness of the measurements on which it is judged. The same eight is a tolerable imperfection in one case, a refutation in the other.\n\nThe book that comes out of this discrepancy contains Kepler's first two laws: planets describe ellipses with the Sun at one focus, and the line joining them to the Sun sweeps out equal areas in equal times.",
+ "repere": {
+  "texte": "In chapter 19 of the Astronomia nova (1609), Kepler writes that Ptolemy declares he does not go below ten minutes of arc (a sixth of a degree) when observing, and that Tycho Brahe's observations reveal an error of eight minutes of arc in Ptolemy's calculation for Mars.",
+  "source": "Kepler, Astronomia nova, 1609, chapter 19",
+  "url": "https://archive.org/details/den-kbd-pil-20008609-001"
+ },
+ "carte": {
+  "punch": "Eight minutes of arc: noise to Ptolemy, a refutation to Kepler.",
+  "idee": "Ptolemy does not go below ten minutes of arc when observing. With Tycho's measurements, Kepler sees that Ptolemy's calculation is off from Mars by eight minutes, and he can no longer neglect it. The same discrepancy changes status with the instrument.",
+  "source_courte": "Kepler, Astronomia nova, 1609"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Kepler, Astronomia nova, 1609 (digitized Latin text)",
+   "url": "https://archive.org/details/den-kbd-pil-20008609-001",
+   "note": "In Latin; the passage on the eight minutes appears at the end of chapter 19, in the second part."
+  },
+  {
+   "titre": "Wikipedia, Astronomia nova",
+   "url": "https://en.wikipedia.org/wiki/Astronomia_nova",
+   "note": "In English; a chapter-by-chapter summary of the reasoning that leads from the vicarious hypothesis to the ellipse."
+  }
+ ],
+ "quiz": {
+  "question": "Why does a discrepancy of eight minutes of arc matter to Kepler and not to Ptolemy?",
+  "choix": [
+   "Because Kepler has a telescope that Ptolemy did not have",
+   "Because Ptolemy had already corrected this discrepancy in another model",
+   "Because Ptolemy had never observed Mars at opposition",
+   "Because Tycho observes more finely than Ptolemy's ten minutes"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Ptolemy declares he does not go below ten minutes of arc: a discrepancy of eight minutes merges with the noise of his measurements. Tycho Brahe's observations are fine enough to distinguish it. The other reasons are wrong: Tycho's data predate the telescope, Ptolemy did not correct the discrepancy, and he did observe Mars.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What model does Kepler build in chapter 16, before putting it to the test?",
+   "choix": [
+    "A fully elliptical model, which he will then correct to a circular orbit",
+    "A model that places the Sun at the exact center of the circle, with no equant at all",
+    "A variant of Ptolemy's equant model, on a circular orbit",
+    "A model based on Copernicus's observations, without using Tycho's"
+   ],
+   "bonne_reponse": 2,
+   "explication": "In chapter 16, Kepler builds a variant of Ptolemy's equant model on a circular orbit, which accounts for the positions of Mars at opposition. He works from Tycho Brahe's observations, not from an already elliptical model or from Copernicus's observations.",
+   "statut": "valide"
+  },
+  {
+   "question": "Which of Ptolemy's rules does Kepler put to the test in chapter 19?",
+   "choix": [
+    "Ignoring the eccentricity of Mars's orbit altogether",
+    "Placing the center of the circle midway between the Sun and the equant point",
+    "Placing the center of the circle exactly on the equant point itself",
+    "Calculating Mars's position without ever taking the Sun into account"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The rule tested in chapter 19 places the center of the circle midway between the Sun and the equant point, the bisection of the eccentricity. Ptolemy does not ignore it, does not place it on the equant itself, and the rule does take the Sun into account.",
+   "statut": "valide"
+  },
+  {
+   "question": "What does Kepler say about his chapter 16 model, later in the book?",
+   "choix": [
+    "That it is merely vicarious, a stand-in, and not natural",
+    "That it is definitively confirmed by the eight-minute discrepancy",
+    "That it advantageously replaces Kepler's laws later in the book",
+    "That it is more accurate than the one Tycho himself had proposed"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Later in the book, Kepler calls his chapter 16 model merely vicarious, a stand-in, and not natural: it deserves trust only to the extent that the observations force it on us, not because the eight-minute discrepancy confirms it.",
+   "statut": "valide"
+  }
+ ]
+}
