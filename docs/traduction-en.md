@@ -62,3 +62,12 @@ Chaque fiche existe désormais en deux langues. Le français reste la source de 
 - `outils/empreinte-fr.mjs` : empreinte des textes français traduisibles d'une fiche (`node outils/empreinte-fr.mjs content/concepts/<discipline>/<slug>.json`). Elle ne change pas quand seuls le statut, la validation ou le contrôle changent.
 - `outils/atraduire.mjs` (`npm run atraduire`) : l'état de chaque fiche et le prochain lot d'une voie.
 - Un rattrapage de 429 fiches (anglais américain, relu mécaniquement : chiffres, dates, quiz) a été copié ici le 2026-11-18 ; leurs 141 citations retraduites depuis le français portent le drapeau `citation-traduite` et sont à remplacer par l'original anglais publié.
+
+## Routine de rattrapage (une par voie)
+Sert à traduire les fiches qu'aucune autre routine ne touche (l'anglais des fiches nouvelles ou retouchées, lui, est écrit par la routine qui écrit ou retouche le français). Prompt de la routine de la voie « vincent » (le droit) ; pour une autre voie, remplacer `vincent`.
+1. Dans le dépôt : `git status --short` doit être vide (sinon s'arrêter et le dire), puis `git pull --rebase origin main`.
+2. `npm run atraduire -- --pour vincent --max 10 --json`. Si la liste est vide (« Rien à traduire. »), s'arrêter : aucun commit.
+3. Pour chaque fiche de la liste : lire la fiche française, écrire `content/concepts-en/<discipline>/<slug>.json` selon la section « Écrire aussi la fiche en anglais » ci-dessus. Pour le droit : retrouver sur le web le texte officiel anglais de chaque loi, convention, arrêt ou traité cité (ONU, OIT, Cornell, EUR-Lex…), le recopier mot pour mot avec son adresse ; sinon traduire et poser le drapeau.
+4. `npm run validate` et `npm test` à zéro erreur ; un commit « Rattrapage anglais : N fiches (droit) » ; `git pull --rebase origin main` puis `git push origin HEAD:main` (si le push est refusé : re-pull et re-push une fois, jamais de force, et s'arrêter si le rebase échoue).
+5. Rendre compte : fiches traduites, drapeaux posés, et `npm run atraduire -- --pour vincent --stats` (ce qu'il reste).
+Rythme proposé : 2 passages par jour, à des heures où aucune autre routine du même compte ne tourne ; 176 fiches de droit à raison de 10 par passage = environ 9 jours. Modèle : Claude Sonnet 5.5, réglage par défaut. Appliquer la règle d'usage habituelle des routines.
