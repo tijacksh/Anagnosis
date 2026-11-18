@@ -109,12 +109,21 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-18T10:12:45.186Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-18T10:12:45.186Z",
+        "note": "Sources rouvertes : en.wikipedia.org et fr.wikipedia.org lues en intégralité, confirment mot pour mot les onze signataires du 20 mars 1883, le délai de priorité (12 mois brevets, 6 mois marques) et les six révisions (Bruxelles 1900, Washington 1911, La Haye 1925, Londres 1934, Lisbonne 1958, Stockholm 1967). wipo.int (source primaire, repere et pour_aller_plus_loin) reste inaccessible depuis cet environnement (DNS bloqué, restriction réseau de la session, pas un lien mort) ; contenu entièrement corroboré par les deux encyclopédies lues directement. À revérifier sur wipo.int quand l'accès sera possible. Quiz et carte conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-18",

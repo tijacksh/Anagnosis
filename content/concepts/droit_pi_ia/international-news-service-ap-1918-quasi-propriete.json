@@ -65,12 +65,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-18T10:12:45.721Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-18T10:12:45.721Z",
+        "note": "Sources rouvertes : texte intégral extrait du PDF officiel govinfo.gov (248 U.S. 215) confirme mot pour mot les trois citations (Pitney), la date du 23 décembre 1918, les dissidences Holmes (rejoint par McKenna) et Brandeis, et la mention que Clarke n'a pas participé. law.cornell.edu confirme la même chose. en.wikipedia.org confirme le contexte de guerre (lignes télégraphiques alliées fermées à INS) et la composition de la majorité. Carte et quiz conformes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-18",

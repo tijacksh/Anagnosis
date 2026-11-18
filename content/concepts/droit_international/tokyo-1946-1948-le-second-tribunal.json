@@ -58,12 +58,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-18T10:12:44.938Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-18T10:12:44.938Z",
+        "note": "Sources rouvertes : en.wikipedia.org/wiki/International_Military_Tribunal_for_the_Far_East (lu en intégralité, dates, juges, accusés, condamnations, pendaisons, non-poursuite d'Hirohito tous confirmés mot pour mot) ; Cambridge Core (Nakajima, notes de bas de page accessibles) confirme la date d'amendement de la charte (26 avril 1946) et la localisation de l'opinion de Pal dans les Tokyo Major War Crimes Trial Records vol. 105-108. Point resté en suspens au contrôle précédent (Pal acceptant la compétence pour les crimes de guerre ordinaires tout en rejetant le crime contre la paix pour non-rétroactivité) vérifié par recherche croisée indépendante (National WWII Museum, ICDS, Asia-Pacific Journal) : confirmé. Corps, carte et quiz conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-17",
