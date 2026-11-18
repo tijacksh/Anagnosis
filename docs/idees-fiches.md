@@ -29,12 +29,15 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Cinéma | Survie des films muets américains (rapport CLIR/Bibliothèque du Congrès, 2013) | fait | routine-production | 2026-08-30 |
 | Cinéma | Dracula (1931), version espagnole tournée de nuit sur les mêmes décors | fait | routine-production | 2026-08-30 |
 | Cinéma | Effet Koulechov, film fondateur introuvable | fait | routine-production | 2026-08-30 |
-| Droit social | La loi Le Chapelier (1791), interdiction des corporations et coalitions ouvrières | proposé | Orkidea | 2026-08-28 |
+| Droit social | La loi Le Chapelier (1791), interdiction des corporations et coalitions ouvrières | fait (déjà couvert avant cette proposition, voir `1791-liberte-du-travail-contre-les-coalitions.json`) | Orkidea | 2026-08-28 |
 | Droit social | La grève de Pullman (1894, États-Unis) et la fête du Travail fédérale créée six jours après | fait | routine-production-arnaud | 2026-10-12 |
 | Droit social | Le Wagner Act (1935), première reconnaissance fédérale américaine du droit de se syndiquer | fait | routine-production-arnaud | 2026-10-12 |
 | Droit social | Les accords de Grenelle (mai 1968), 25 % de hausse du SMIC négociée en un week-end | fait | routine-production-arnaud | 2026-10-12 |
 | Droit social | Le procès des propriétaires de la Triangle Shirtwaist (New York, 1911) : incendie, acquittement et ce que la loi a changé ensuite | fait | routine-production-arnaud | 2026-10-12 |
-| Droit social | La convention n° 87 de l'OIT (1948) sur la liberté syndicale | proposé | Orkidea | 2026-08-28 |
+| Droit social | La convention n° 87 de l'OIT (1948) sur la liberté syndicale | fait | routine-production | 2026-11-18 |
+| Droit social | Les Combination Acts britanniques : abrogation surprise de 1824, reprise partielle en 1825 | fait | routine-production | 2026-11-18 |
+| Droit social | Le Clayton Act de 1914 (section 6) et Duplex Printing Press Co. v. Deering (1921) | fait | routine-production | 2026-11-18 |
+| Droit social | Le Fair Labor Standards Act de 1938, entre l'échec de Schechter Poultry (1935) et Darby (1941) | fait | routine-production | 2026-11-18 |
 | Droit social | Le Stinnes-Legien (15 novembre 1918) : un contrat patronat-syndicats qui précède la loi allemande sur les conventions collectives | fait | routine-production-arnaud | 2026-10-21 |
 | Droit social | Muller v. Oregon (1908) : la Cour suprême valide la journée de dix heures pour les femmes sur un dossier de données et un argument de dépendance | fait | routine-production-arnaud | 2026-10-21 |
 | Droit social | La loi britannique de 1908 sur le phosphore blanc des allumettes : interdire un produit en forçant la licence du brevet du substitut | fait | routine-production-arnaud | 2026-10-21 |
