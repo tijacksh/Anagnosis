@@ -69,36 +69,66 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le texte de 1948 ne dit jamais « grève » : ce sont les organes de contrôle de l'OIT qui en ont déduit ce droit, ce que les employeurs ont contesté dès 2012. La convention n'a pas été modifiée, aucun État ne l'a dénoncée, et les États-Unis n'étaient qu'autorisés à participer à la procédure devant la Cour, sans y être liés.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
       "question": "En quelle année la convention n° 87 de l'OIT est-elle adoptée ?",
-      "choix": ["1944", "1948", "1950", "1961"],
+      "choix": [
+        "1944",
+        "1948",
+        "1950",
+        "1961"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche indique que la convention est adoptée le 9 juillet 1948 à San Francisco, lors de la 31e session de la Conférence internationale du travail."
     },
     {
       "question": "Par combien de voix la Cour internationale de justice a-t-elle tranché, le 21 mai 2026, que le droit de grève est protégé par la convention n° 87 ?",
-      "choix": ["À l'unanimité", "Dix voix contre quatre", "Huit voix contre six", "Douze voix contre deux"],
+      "choix": [
+        "À l'unanimité",
+        "Dix voix contre quatre",
+        "Huit voix contre six",
+        "Douze voix contre deux"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche précise que la Cour a tranché par dix voix contre quatre, sans trancher le contenu ni la portée du droit."
     },
     {
       "question": "Qu'est-ce qui déclenche, en juin 2012, le blocage à la Conférence internationale du travail ?",
-      "choix": ["Le refus du groupe des employeurs de laisser examiner les cas liés au droit de grève", "La démission du directeur général de l'OIT", "Une grève générale des fonctionnaires de l'OIT à Genève"],
+      "choix": [
+        "Le refus du groupe des employeurs de laisser examiner les cas liés au droit de grève",
+        "La démission du directeur général de l'OIT",
+        "Une grève générale des fonctionnaires de l'OIT à Genève"
+      ],
       "bonne_reponse": 0,
       "explication": "La fiche indique que le groupe des employeurs refuse pour la première fois de laisser la commission de contrôle examiner les cas liés au droit de grève, estimant que le texte ne l'implique pas."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-18T16:17:17.560Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-18T16:17:17.560Z",
+        "note": "Deux points signalés, non corrigés : (1) le repere affirme que l'avis du 21 mai 2026 est la \"toute première fois\" que la CIJ interprète une convention internationale du travail ; or le communiqué de l'OIT cité en source dit explicitement qu'il s'agit de la DEUXIEME demande concernant l'interprétation d'une convention internationale du travail (la septième demande d'avis consultatif au titre de l'article 37 au total). (2) le corps attribue à \"deux organes de contrôle de l'OIT, le Comité de la liberté syndicale et la Commission d'experts\" la déduction de longue date d'un droit de grève protégé par la convention n°87 ; les sources citées (communiqué OIT, Wikipédia) confirment cette position constante pour la seule Commission d'experts (CEACR), et ne mentionnent le Comité de la liberté syndicale qu'à propos d'une déclaration patronale de 1953 niant ce droit, jamais comme organe l'ayant lui-même reconnu. À vérifier avec une source dédiée (p. ex. le recueil de décisions du CLS) avant de remettre en circulation, ou à reformuler pour ne citer que la Commission d'experts."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-11-18",
+    "verdict": "a_revoir",
+    "empreinte": "aade8c855308dd33",
+    "notes": [
+      "Sources rouvertes : ilo.org/fr/node/12591 (communiqué du 21 mai 2026), Wikipédia EN Right to Strike under ILO Convention No. 87, Wikipédia EN Freedom of Association and Protection of the Right to Organise Convention 1948 (dates et articles 2/3 confirmés). Deux points signalés, passés en en_retouche : (1) repere.texte affirme la \"toute première fois\" que la CIJ interprète une convention internationale du travail, alors que le communiqué OIT cité en source dit explicitement qu'il s'agit de la DEUXIEME demande d'interprétation d'une convention internationale du travail (septième demande d'avis consultatif au total depuis 1945) — à corriger en \"deuxième fois\". (2) le corps attribue au Comité de la liberté syndicale, à égalité avec la Commission d'experts, la déduction de longue date du droit de grève ; les sources ne confirment cette position constante que pour la Commission d'experts (CEACR), et ne mentionnent le Comité de la liberté syndicale qu'à propos d'une déclaration patronale de 1953 niant ce droit — à vérifier avec une source dédiée (recueil de décisions du CLS) ou à reformuler en ne citant que la Commission d'experts."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-18",
