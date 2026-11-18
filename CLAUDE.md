@@ -51,6 +51,13 @@ npm run site       # assemble la vitrine + le contenu signé → export/site/
 npm test           # tests
 ```
 
+## Fiches en anglais — consigne à TOUTES les routines de contenu (celles d'Arnaud et celles de Vincent)
+
+Chaque fiche existe aussi en anglais : `content/concepts-en/<discipline>/<slug>.json`. **Lis `docs/traduction-en.md` avant ta première fiche : c'est la référence, elle prime sur tout prompt.** En bref :
+- Une routine qui écrit ou modifie un champ traduisible d'une fiche (titre, accroche, contenu_vulgarise, citation, repere, carte, pour_aller_plus_loin, quiz, quiz_supplementaire) écrit ou met à jour son anglais dans la même passe, après `npm run validate` et `npm test` à zéro, et le commite avec la fiche (« Fiche EN : <slug> »). L'empreinte (`node outils/empreinte-fr.mjs <fiche>`) dit si l'anglais est à jour.
+- Le rattrapage des fiches sans anglais se partage par voies (`content/concepts-en/_attribution.json`, édité à la main, jamais par une routine) : **le droit (`droit_*`) est la voie de Vincent**, le reste celle d'Arnaud. `npm run atraduire -- --pour <voie> --max 10` donne le prochain lot.
+- Une seule routine par fiche ; `git pull --rebase origin main` avant de choisir le lot et avant de pousser ; si le rebase échoue, arrête-toi sans pousser. Jamais de marqueurs de conflit dans un fichier.
+
 ## Réseaux sociaux (`reseaux/`) — hors routines
 
 Décidé le 2026-09-28 : une chaîne qui prépare des Reels et des carrousels à partir des
