@@ -30,6 +30,7 @@ testables en direct sur simulateur/appareil réel — la garder aurait été du 
 - `docs/charte-visuelle.md` — **les valeurs** : couleur, surimpression, grain, typo
 - `docs/systeme-illustration.md` — grille, six opérations, champ `illustration`
 - `docs/ecrans.md` — carte partageable, lecture, notification, quiz, profil, verrou
+- `docs/traduction-en.md` — **les fiches en anglais** : où elles vivent (`content/concepts-en/`), qui traduit quoi, `npm run atraduire`
 
 ## Commandes
 
