@@ -16,6 +16,7 @@ on:
     branches: [main]
     paths:
       - 'content/**'
+      - '!content/concepts-en/**'   # les fiches anglaises ne sont pas encore publiées : inutile de reconstruire le site pour elles
       - 'audio/index.json'   # la nuit de l'audio : ses fiches sonorisées en ligne dans la foulée
       - 'site/**'
       - 'src/**'
