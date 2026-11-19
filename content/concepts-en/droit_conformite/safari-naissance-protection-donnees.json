@@ -1,0 +1,78 @@
+{
+  "id": "dro-safari-naissance-protection-donnees",
+  "slug": "safari-naissance-protection-donnees",
+  "langue": "en",
+  "empreinte_fr": "dad62b6eb8d18826",
+  "traduit_le": "2026-11-19",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "repere.source",
+      "type": "citation-langue-originale",
+      "note": "The cited Le Monde article is in French and has no published English translation; its title is glossed in English, and the source link goes to the French facsimile."
+    }
+  ],
+  "titre": "A Newspaper Article Kills a Database, and Founds the CNIL",
+  "accroche": "March 1974: Le Monde reveals a project that would link all the French State's files through a single number. Eight days later, it is suspended.",
+  "contenu_vulgarise": "On March 21, 1974, *Le Monde* publishes on page 9, in the Justice section, an article by Philippe Boucher titled “Safari” ou la chasse aux Français (“SAFARI,” or the Hunt for the French). It reveals the existence of a project of the Ministry of the Interior: an automated system for administrative files and the register of individuals (in French, SAFARI). Behind the acronym lies a simple idea, until then unnoticed by the public. Each person would be designated in all of the administration's files by one and the same identifier, the number assigned by INSEE, the one the French call their social security number.\n\n## What a Common Identifier Changes\n\nThe project created no new file. The police files, the tax files, the labor files already existed, each on its own, each with its own references. What SAFARI added was a single key, and therefore the possibility of cross-referencing these files with one another. What was scattered became searchable in a single motion.\n\nThis is the nature of the danger the article brings to light, and it is worth pausing on, because it is not intuitive. No additional data was collected. No new surveillance was decided. The power came solely from linking data that the State already held legitimately, each for a separate and accepted purpose. Interconnection alone turned ordinary files into a complete portrait.\n\nThe reaction is immediate. On March 29, 1974, eight days after the article, Prime Minister Pierre Messmer suspends the project by circular and bans the interconnection of files between ministries. The same circular announces a commission, then set up by decree of November 8, 1974, whose report will serve as the basis for a bill.\n\n## From a One-Off Ban to a General Principle\n\nThe French law of January 6, 1978, known as *Informatique et Libertés* (Data Processing and Freedoms), comes out of this episode. It creates the Commission nationale de l'informatique et des libertés (CNIL), an authority in charge of overseeing data processing, and sets principles found today in the European data protection regulation: a declared purpose for each processing operation, a right of access for the person to what concerns them, and strict limits on the linking of files.\n\nThe shift is here. Data protection was not born of reflection on privacy, nor of worry about what machines might learn. It was born of a question of architecture: who has the right to link what to what. That is why the principle of purpose remains, half a century later, the backbone of the whole field. Data collected for one reason cannot be used for another, not because it would be secret, but because the linking creates, by itself, a power to which no one has consented.",
+  "citation": null,
+  "repere": {
+    "texte": "Eight days separate the publication of the *Le Monde* article, on March 21, 1974, from the suspension of the SAFARI project by circular of the French Prime Minister, on March 29, 1974.",
+    "source": "Philippe Boucher, “Safari” ou la chasse aux Français (“SAFARI,” or the Hunt for the French), *Le Monde*, March 21, 1974, page 9, facsimile published by the CNIL",
+    "url": "https://www.cnil.fr/sites/default/files/atoms/files/le_monde_0.pdf"
+  },
+  "carte": {
+    "punch": "SAFARI collected no new data. It simply gave all of it the same number.",
+    "idee": "In 1974, a French Ministry of the Interior project plans to identify everyone by their INSEE number in all the State's files. No new data, only a common key. Revealed by *Le Monde*, it is suspended within eight days and gives birth to the CNIL.",
+    "source_courte": "Le Monde, March 21, 1974"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "What made the SAFARI project dangerous, according to the criticism that got it suspended?",
+    "choix": [
+      "It authorized the Ministry of the Interior to collect information on the political opinions of the French",
+      "It entrusted the hosting of the French administration's files to a private company",
+      "It made the State's files accessible to anyone who asked for them",
+      "It assigned a single common identifier to files until then kept separate, making it possible to link them"
+    ],
+    "bonne_reponse": 3,
+    "explication": "SAFARI created no new file and no new collection. It gave all administrative files the same key, the INSEE number, which was enough to make them linkable to one another. The power came from the linking, not from the data.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How much time passed between the publication of the Le Monde article and the suspension of the SAFARI project, and who decided it?",
+      "choix": [
+        "Eight days, by a circular from Prime Minister Pierre Messmer",
+        "One month, by a vote of the French Parliament",
+        "One year, following a trial before the Council of State",
+        "The same day, by presidential decree"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Philippe Boucher's article appears on March 21, 1974; eight days later, on March 29, Prime Minister Pierre Messmer suspends the project by circular."
+    },
+    {
+      "question": "What does the French law of January 6, 1978, known as Informatique et Libertés, create, according to the entry?",
+      "choix": [
+        "A single file bringing together all State services under a common identifier",
+        "A total ban on the use of the INSEE number in the French administration",
+        "A supervisory authority, the CNIL, with principles such as the declared purpose of each processing operation",
+        "An electronic voting right for all citizens registered by the State"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The 1978 law creates the CNIL, in charge of overseeing data processing, and sets principles such as declared purpose, the right of access, and limits on the linking of files."
+    },
+    {
+      "question": "Where does the principle of purpose that structures data protection today come from, according to the entry?",
+      "choix": [
+        "From a philosophical debate on privacy conducted in the 1960s",
+        "From a question of architecture: who has the right to link what to what, rather than from reflection on privacy",
+        "From a European directive adopted before the 1978 French law",
+        "From a lawsuit brought by a citizen whose data had been hacked"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The entry stresses this shift: data protection was not born of worry about privacy, but of a question of architecture, that of the right to link files to one another."
+    }
+  ]
+}
