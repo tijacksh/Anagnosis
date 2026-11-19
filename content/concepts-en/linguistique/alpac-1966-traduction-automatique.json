@@ -1,0 +1,38 @@
+{
+ "id": "lin-alpac-1966-traduction-automatique",
+ "slug": "alpac-1966-traduction-automatique",
+ "langue": "en",
+ "empreinte_fr": "f5d69e8b03bb1f6f",
+ "traduit_le": "2026-11-19",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "ALPAC, 1966: Machine Translation Put on Hold",
+ "accroche": "In 1966, a committee judges machine translation more expensive and less reliable than human translators. American funding falls for a decade.",
+ "contenu_vulgarise": "In April 1964, the American government convened seven scientists to evaluate ten years of funded research on machine translation: the Automatic Language Processing Advisory Committee, ALPAC, chaired by engineer John R. Pierce, of Bell Labs. Since the Georgetown demonstration in 1954, which had publicly translated Russian sentences into English, federal agencies had been funding entire programs on the promise of a soon-usable machine translation. The committee issues its report, *Language and Machines*, in 1966: machine translation of the time costs more, runs slower, and proves less reliable than a human translator, with no near prospect of catching up to that level.\n\n## What the Report Actually Says\n\nThe common belief holds that the report declared machine translation impossible, and that it ordered a stop to it. Its recommendations, on page 34, say something else: they concern evaluating translation quality, speeding up human translators' work, comparing costs between methods, and tools to help translation, not banning a field of research. What the committee judges ready for massive funding isn't machine translation as practiced at the time, but the basic research in computational linguistics that might, one day, make it possible.\n\n## A Retreat, Not a Halt\n\nThe nuance didn't prevent the concrete effect: American federal agencies sharply cut their funding for machine translation, and research on the topic there stayed almost entirely interrupted for more than a decade. The episode went down in the history of computing as the first AI winter. But the halt is neither worldwide nor total: Canada, France, and Germany keep pursuing their own programs, and even within the United States, the Systran system, developed by Peter Toma starting in 1968, keeps being used by the Department of Defense, then by the US Air Force starting in 1970, outside the funding circuit the report targeted.\n\n## What This Shifts\n\nThe ALPAC story resembles many scientific verdicts that get simplified afterward into a final condemnation. The report doesn't say machine translation will never work; it says it doesn't yet work well enough to justify the funding level of the time, and that investment should go elsewhere in the chain, basic research included. Funding would return later, carried by other methods, statistical in the 1990s then based on neural networks after 2014, with no report ever needing to revisit the first one to allow it.",
+ "citation": null,
+ "repere": {
+  "texte": "The ALPAC committee, seven scientists convened starting in April 1964 under the chairmanship of John R. Pierce, publishes the report Language and Machines in 1966; its recommendations, on page 34, concern basic research and aid to human translators. American federal funding for machine translation then drops sharply, and the field there stays almost entirely interrupted for more than a decade.",
+  "source": "ALPAC, Language and Machines: Computers in Translation and Linguistics, National Academy of Sciences — National Research Council, 1966",
+  "url": "https://en.wikipedia.org/wiki/ALPAC"
+ },
+ "carte": {
+  "punch": "In 1966, a report judges machine translation too expensive and unreliable. People say it killed the field.",
+  "idee": "ALPAC (1966), a committee chaired by John R. Pierce, judges machine translation of the time more expensive and less reliable than a human translator. Its recommendations concern basic research, not a halt: American federal funding drops for more than a decade all the same.",
+  "source_courte": "ALPAC, Language and Machines, 1966"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does the ALPAC report (1966), often presented as the outright end of machine translation, actually recommend?",
+  "choix": [
+   "Banning all public research on machine translation in the United States",
+   "Redirecting funding toward basic research in computational linguistics and aid to human translators",
+   "Transferring every American machine translation program to Canada and France",
+   "Replacing human translators with automatic dictionaries within five years"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The report's recommendations, on page 34, concern evaluating translations, aiding human translators, and basic research, not a ban. Federal funding did drop sharply in practice, but none of the other three proposals matches the report's actual content.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": []
+}
