@@ -72,12 +72,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-19T10:11:18.146Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-19T10:11:18.146Z",
+        "note": "Sources rouvertes : blog LOC (date 31 juillet 1790, examen par trois membres du cabinet, simplification 1793, incendie décembre 1836 ~10 000 brevets et 7 000 maquettes), Wikisource (transcription du brevet X1 : Samuel Hopkins de Philadelphie, Pennsylvanie, quatorze ans, signatures Washington et Randolph confirmées), govinfo.gov (phrase exacte « Samuel Hopkins of Vermont » confirmée, erreur bien réelle), Wikipédia EN X-Patent (confirme ~9957 brevets 1790-1836, incendie du 15 décembre 1836, numérotation X). Repere et carte tiennent mot pour mot face aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-18",

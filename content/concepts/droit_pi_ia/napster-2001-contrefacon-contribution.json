@@ -67,12 +67,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-19T10:11:11.945Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-19T10:11:11.945Z",
+        "note": "Opinion du 9e circuit (Wikisource) rouverte en entier : les huit citations techniques (serveur n'indexe que les noms de fichiers, critères de contribution et de représentation, rejet de la défense Sony, distinction architecture/conduite) retrouvées mot pour mot, dont la citation sourcée. Chronologie (lancement juin 1999, plainte RIAA décembre 1999, injonction juillet 2000, décision février 2001) confirmée par Wikipédia EN. Résumé U.S. Copyright Office rouvert (confirme juridiction et accusations, PDF illisible en texte mais métadonnées cohérentes). Carte et quiz conformes aux sources."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-18",
