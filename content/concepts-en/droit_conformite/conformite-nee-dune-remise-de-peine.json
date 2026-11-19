@@ -1,0 +1,83 @@
+{
+ "id": "dro-conformite-nee-dune-remise-de-peine",
+ "slug": "conformite-nee-dune-remise-de-peine",
+ "langue": "en",
+ "empreinte_fr": "798d0b8bf26c819f",
+ "traduit_le": "2026-11-19",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "quiz_supplementaire[0].choix",
+   "type": "erreur-possible-fr",
+   "note": "This supplementary question has only 3 choices in the French entry (the others have 4). Kept at 3, with the same bonne_reponse index; the French entry may need a fourth distractor."
+  }
+ ],
+ "titre": "The Profession Born of a Sentence Reduction",
+ "accroche": "In 1991, an American sentencing scale grants a discount to companies that police themselves. An entire industry comes out of that line.",
+ "contenu_vulgarise": "Today, in almost every large company in the world, there is a function called compliance. Teams there draft codes of conduct, train employees, keep records, run whistleblower hotlines, and investigate internally. This profession barely existed before the 1990s. It does not come from a law that would have mandated it. It comes from a sentencing scale.\n\n## A line in a calculation grid\n\nOn November 1, 1991, chapter eight of the federal sentencing guidelines, devoted to organizations, takes effect in the United States. Until then, a company convicted of a federal offense was sentenced according to the judge's assessment, with no public method. The new text provides a grid: one starts from the seriousness of the offense, then calculates a culpability score that modulates the fine.\n\nFour factors aggravate this score, including the involvement or tolerance of senior management, prior history, and obstruction of the investigation. Two reduce it: voluntary self-reporting with cooperation, and the existence, at the time of the facts, of an effective compliance program. This second circumstance is worth a reduction of three points, which, on a corporate fine, is counted in millions.\n\nThe effect is not that of a prohibition. No new rule of behavior is issued. What is created is a price: policing oneself becomes economically rational, because not doing so costs more the day something goes wrong.\n\n## What an incentive produces, rather than an obligation\n\nCompanies do this calculation, and they do it fast. Programs are needed, hence people to design them, firms to audit them, software to track training, and proof that all of this works, since the program must be effective and not merely written. In 2004, an amendment would in fact specify what such a program must contain.\n\nThe shift lies in the nature of the tool. The state does not say here what must be done. It makes it attractive to organize oneself to find out. It outsources oversight to the party best placed to exercise it, who is also the one that needs to be overseen.\n\nThis ambiguity is structural and has never been lifted. A compliance program serves to prevent offenses, and it also serves to document that one tried to prevent them, which is not the same thing. The American commission that administers these guidelines has itself devoted a report to the thirty years of this mechanism and its influence.\n\nOne of the great professions of contemporary law was not created by a rule. It was born of the sentence reduction offered to whoever would impose one on themselves.",
+ "citation": null,
+ "repere": {
+  "texte": "Chapter eight of the U.S. federal sentencing guidelines, in force since November 1, 1991, subtracts three points from the culpability score of a company with an effective compliance program at the time of the offense.",
+  "source": "United States Sentencing Commission, Guidelines Manual, Chapter 8, in force since November 1, 1991",
+  "url": "https://www.ussc.gov/guidelines/2018-guidelines-manual/2018-chapter-8"
+ },
+ "carte": {
+  "punch": "Compliance was not born of a prohibition. It was born of a sentence reduction.",
+  "idee": "Since November 1, 1991, a U.S. federal scale reduces the fine of a convicted company if it had an effective compliance program. No new obligation, only a price. The whole compliance industry came out of that line of calculation.",
+  "source_courte": "US Sentencing Guidelines, Chapter 8, 1991"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Amendment 673 (2004), which introduces section 8B2.1 defining the effective program",
+   "url": "https://www.ussc.gov/guidelines/amendment/673",
+   "note": "Specifies the seven elements expected of a compliance and ethics program."
+  }
+ ],
+ "quiz": {
+  "question": "How did the 1991 American scale give rise to the compliance function in companies?",
+  "choix": [
+   "By requiring every listed company to appoint a compliance officer and publish a code of conduct",
+   "By transferring oversight of companies' internal practices to approved outside firms",
+   "By reducing the fine of those that already had an effective monitoring program at the time of the facts",
+   "By creating a new offense punishing the absence of a risk prevention system"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Chapter 8 imposes no new obligation of behavior. It subtracts three points from the culpability score of the company with an effective program, which makes it rational to police oneself without the law requiring it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Before chapter eight took effect in 1991, how was an American company convicted of a federal offense sentenced?",
+   "choix": [
+    "According to an automatic scale set by Congress",
+    "According to the judge's assessment, with no public method",
+    "According to a fine capped by industry sector"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text specifies that before 1991, the sentence depended on the judge's assessment, with no public method; chapter eight precisely introduces a calculation grid that replaces this absence of method."
+  },
+  {
+   "question": "By how many points is a company's culpability score reduced if it had an effective compliance program at the time of the offense?",
+   "choix": [
+    "One point",
+    "Two points",
+    "Three points",
+    "Five points"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text indicates that this mitigating circumstance is worth a three-point reduction in the culpability score, which translates into millions of dollars on a large company's fine."
+  },
+  {
+   "question": "What does the 2004 amendment bring to the chapter eight mechanism?",
+   "choix": [
+    "It specifies what an effective compliance program must contain",
+    "It doubles the sentence reduction granted to cooperating companies",
+    "It extends the scale to offenses committed outside the United States",
+    "It removes the requirement of having a program at the time of the offense"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text indicates that in 2004, an amendment specifies what an effective compliance program must contain, without going back on the principle of the sentence reduction established in 1991."
+  }
+ ]
+}
