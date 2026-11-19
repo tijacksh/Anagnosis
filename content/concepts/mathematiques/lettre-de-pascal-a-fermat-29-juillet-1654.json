@@ -61,10 +61,25 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-19",
+    "verdict": "a_revoir",
+    "empreinte": "15142021043180e8",
+    "notes": [
+      "Citation vérifiée mot pour mot dans le texte intégral numérisé (archive.org, oeuvresdefermat02ferm_djvu.txt) : la lettre LXX de Pascal à Fermat, mercredi 29 juillet 1654, contient bien « Votre méthode est très-sûre et est celle qui m'est la première venue à la pensée » et « Je vois bien que la vérité est la même à Toulouse et à Paris », dans le cadre du problème à deux joueurs. Mais la fiche attribue à cette même lettre le passage où Pascal explique que la méthode de Fermat cesse de fonctionner à trois joueurs — ce n'est pas exact : dans le texte intégral, c'est la lettre suivante, LXXII, de Pascal à Fermat, lundi 24 août 1654, qui porte cette critique (« quand il y en a trois, je crois avoir démontré qu'elle est mal juste »), développée ensuite par Fermat (LXXIII, 29 août) puis recontestée (LXXIV, 25 septembre) avant accord (LXXV, 27 octobre). Le troisième paragraphe du corps et le quiz principal datent donc à tort du 29 juillet un argument qui vient de la lettre du 24 août. À revoir : soit retirer la date précise pour ce point, soit la corriger en 24 août 1654 (LXXII), et adapter le quiz en conséquence."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-19",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -70,10 +70,25 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-19",
+    "verdict": "a_revoir",
+    "empreinte": "d8d8b2dc77dd8066",
+    "notes": [
+      "Sources rouvertes : Wikipedia EN citations de Riemann confirmées mot pour mot (allemand et traduction anglaise), statut de problème du millénaire confirmé. Mais la section finale sur le nombre de Skewes ne tient pas : Wikipedia EN « Skewes's number » dit explicitement qu'on ne sait pas si 1,397×10³¹⁶ est le plus petit renversement (« It is not known whether this is the smallest crossing »), alors que la fiche affirme comme un fait établi que « le premier renversement réel se situe [...] près de 1,4×10³¹⁶ ». De plus, cette valeur précise (1,397×10³¹⁶) vient de travaux postérieurs (Saouter et Demichel 2010, Zegowitz 2010), pas de Bays et Hudson (2000) comme l'indique la note de la source — Bays et Hudson donnent ~1,39822×10³¹⁶, une estimation voisine mais distincte, sous une autre hypothèse. À revoir : soit retirer l'affirmation de certitude sur « le premier renversement réel », soit la reformuler en gardant l'incertitude dite par la source, et corriger l'attribution du chiffre 1,397×10³¹⁶."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-19",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
