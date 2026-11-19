@@ -1,0 +1,43 @@
+{
+  "id": "mat-cardan-et-la-formule-en-vers-de-tartaglia",
+  "slug": "cardan-et-la-formule-en-vers-de-tartaglia",
+  "langue": "en",
+  "empreinte_fr": "fcc1162c616fc1f5",
+  "traduit_le": "2026-11-19",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "citation-originale-anglaise",
+      "note": "Traduction anglaise déjà publiée et vérifiée (reproduite par Wikipedia, « Ars Magna (Cardano book) »), reprise mot pour mot plutôt que retraduite depuis le français."
+    }
+  ],
+  "titre": "The Formula Tartaglia Only Handed Over in Verse, Under Oath",
+  "accroche": "In 1539, Cardano obtains the secret of the cubic equation under a promise of silence, and publishes it six years later.",
+  "contenu_vulgarise": "In 1535, in Venice, a strange mathematical challenge makes the rounds: Antonio Fior, an obscure teacher, stakes thirty problems against thirty others set by Niccolò Fontana, known as Tartaglia, over a dinner. All thirty of Fior's problems turn on a single type of equation (a cube and an unknown equal a number), which his teacher, Scipione del Ferro, had managed to solve before dying in 1526 without ever publishing it, confiding the method only to Fior. Tartaglia finds the solution in the middle of the night, a few days before the deadline, and answers every one of Fior's questions. Fior solves almost none of his own.\n\n## A Secret Handed Over as a Poem\n\nWord reaches Girolamo Cardano, a Milanese physician and mathematician preparing a treatise on algebra. In 1539, he presses Tartaglia to reveal his method. Tartaglia eventually gives in, but only on the promise that Cardano will not publish it before he does, and he hands it over not as a formula but as a twenty-five-line poem, a form that at the time protected a discovery without committing it to algebraic notation, still far from common. Cardano, helped by his student Lodovico Ferrari, deciphers the poem, extends it to every form of the cubic equation, and Ferrari goes further still, solving the equation of the fourth degree.\n\nThe outcome arrives in 1545. Cardano learns that Scipione del Ferro, dead for nearly twenty years, had found the same method before Tartaglia: the promise, he reasons, only held as long as Tartaglia's discovery was exclusive, and that claim no longer holds. He publishes everything in the Ars Magna, explicitly crediting del Ferro, Tartaglia, and Ferrari. Tartaglia, furious, wages a letter-writing campaign against Cardano; in 1548, it is Ferrari who defends his teacher in a public debate in Milan, where Tartaglia, far from his own supporters, eventually backs down.\n\n## What No One Remembers About the Ars Magna\n\nThe story that gets told is the one about the broken promise. But the book contains, almost in passing, something more important than the dispute that made it famous. In chapter 37, Cardano poses an ordinary problem (two numbers whose sum is ten and whose product is forty) and finds a solution that requires taking the square root of a negative number. He calls it “sophistic,” checks anyway, by a formal calculation, that the product does come out to forty, then concludes that this quantity is as subtle as it is useless.\n\nCardano builds nothing on this remark: he closes the question as soon as he opens it. It will take Rafael Bombelli, a generation later, to turn these quantities into an object of calculation in their own right, and centuries more before they become indispensable, from electricity to quantum mechanics. The dispute over credit died out with its two protagonists; what neither of them saw coming in that chapter outlived them both.",
+  "citation": {
+    "texte": "As subtle as it is useless.",
+    "auteur": "Girolamo Cardano",
+    "source": "Ars Magna, chapter 37, Nuremberg, 1545 (English translation as quoted by Wikipedia, “Ars Magna (Cardano book)”)",
+    "url": "https://en.wikipedia.org/wiki/Ars_Magna_(Cardano_book)"
+  },
+  "carte": {
+    "punch": "Tartaglia hands over the formula in verse, under a promise of silence. Cardano publishes it six years later.",
+    "idee": "In 1539, Cardano obtains from Tartaglia, under a promise of secrecy, the solution to the cubic equation, handed over as a poem. In 1545, discovering that Scipione del Ferro had found it before Tartaglia, he publishes it in the Ars Magna, triggering a public dispute between the two men.",
+    "source_courte": "Cardano, Ars Magna, 1545"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does Cardano consider himself released from his promise to Tartaglia in 1545?",
+    "choix": [
+      "Because Tartaglia had published the method himself in the meantime",
+      "Because he discovers that Scipione del Ferro had found the same solution before Tartaglia, making Tartaglia's discovery no longer exclusive",
+      "Because the Pope authorized him to break his promise",
+      "Because Ferrari had found an entirely different method that made Tartaglia's obsolete"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Cardano justifies the 1545 publication by del Ferro's priority, who died in 1526, over Tartaglia's method: the promise only protected an exclusive discovery, which he judges void once that priority is established. Tartaglia had published nothing, and no religious authority plays any part in the episode."
+  },
+  "quiz_supplementaire": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "mat-lettre-de-pascal-a-fermat-29-juillet-1654",
+  "slug": "lettre-de-pascal-a-fermat-29-juillet-1654",
+  "titre": "Deux méthodes différentes, le même résultat, à 600 kilomètres d'écart",
+  "accroche": "En 1654, Pascal à Paris et Fermat à Toulouse répondent à la même énigme sur le jeu, par deux voies distinctes, et tombent sur le même nombre.",
+  "discipline": "mathematiques",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1654, le chevalier de Méré, joueur assidu, pose à Blaise Pascal une question qui semble anodine : si une partie d'argent s'interrompt avant la fin, comment répartir équitablement les mises entre les joueurs selon l'avance de chacun ? Ce « problème des partis » traîne depuis la Renaissance : Luca Pacioli puis Gerolamo Cardano s'y étaient déjà essayés, sans trancher. Pascal ne le résout pas seul : il écrit à Pierre de Fermat, magistrat et mathématicien installé à Toulouse, à plus de six cents kilomètres de Paris.\n\n## Deux méthodes, un seul résultat\n\nFermat attaque le problème en dénombrant : il énumère toutes les suites de jeu possibles, équiprobables, et compte celles qui favorisent chaque joueur : une méthode directe, mais qui suppose de jouer un nombre de coups fixé à l'avance. Pascal procède à l'inverse : il part de la fin de la partie et remonte, coup par coup, en calculant à chaque étape ce que chaque joueur peut espérer recevoir si le jeu s'arrêtait là. Les deux hommes, qui n'ont pas pu se concerter sur la méthode, obtiennent le même partage à deux joueurs.\n\nLa lettre de Pascal à Fermat du mercredi 29 juillet 1654 est celle qui a le mieux traversé le temps. Pascal y confirme que la méthode de Fermat est juste à deux joueurs, note qu'elle était la première qui lui soit venue à l'esprit à lui aussi, mais explique qu'elle cesse d'être exacte dès qu'un troisième joueur entre en jeu : le dénombrement de Fermat suppose qu'on joue un nombre de coups fixé, alors qu'il faut, selon Pascal, raisonner sur le moment où un joueur atteint effectivement le total qui le fait gagner, ce que sa propre méthode, qui remonte la partie à rebours, calcule correctement quel que soit le nombre de joueurs.\n\n## Ce que cette correspondance change\n\nNi Pascal ni Fermat ne publient leurs lettres : elles ne circuleront imprimées qu'après leur mort, dans les œuvres de Fermat rassemblées à la fin du siècle. Mais l'échange installe une idée qui n'existait pas clairement avant lui : on peut calculer, par le seul raisonnement, la valeur présente d'un gain futur et incertain, ce que les probabilistes appelleront plus tard l'espérance. Avant 1654, le hasard se gérait par habitude de table de jeu ; après, il devient un objet qu'on peut soumettre au calcul, au même titre qu'une figure de géométrie.\n\nL'historien qui lit cette correspondance aujourd'hui est frappé par autre chose que la méthode : par le ton de la lettre de Pascal, qui ne cherche pas à l'emporter sur Fermat mais à vérifier que les deux approches, indépendantes, se recoupent. « Je vois bien que la vérité est la même à Toulouse et à Paris », écrit-il : une phrase qui ferme la discussion sur le fond en ouvrant sur autre chose : si deux esprits séparés trouvent la même réponse par deux chemins différents, c'est peut-être le signe qu'ils ont touché quelque chose qui ne dépend ni de l'un ni de l'autre.",
+  "citation": {
+    "texte": "Je vois bien que la vérité est la même à Toulouse et à Paris.",
+    "auteur": "Blaise Pascal",
+    "source": "Lettre à Pierre de Fermat, mercredi 29 juillet 1654, dans Œuvres de Fermat, tome II (Correspondance), éd. Paul Tannery et Charles Henry, Paris, Gauthier-Villars, 1891, p. 179-183",
+    "url": "https://archive.org/details/oeuvresdefermat02ferm"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Pascal et Fermat, séparés de 600 km, trouvent la même réponse par deux chemins différents.",
+    "idee": "En 1654, Pascal à Paris et Fermat à Toulouse échangent des lettres sur le partage équitable d'une partie de jeu interrompue. Leurs méthodes diffèrent (dénombrement chez Fermat, calcul à rebours chez Pascal) mais s'accordent sur le résultat, posant les bases du calcul des probabilités.",
+    "source_courte": "Pascal à Fermat, 29 juillet 1654"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Fermat, Pierre de (éd. Paul Tannery et Charles Henry)",
+      "titre": "Œuvres de Fermat, tome II — Correspondance",
+      "publication": "Gauthier-Villars",
+      "annee": 1891,
+      "url": "https://archive.org/details/oeuvresdefermat02ferm",
+      "note": "Lettre LXX, Pascal à Fermat, mercredi 29 juillet 1654 (p. 179-183 de la pagination interne de la correspondance, p. 289-296 du volume numérisé) : contient mot pour mot « Votre méthode est très-sûre [...] » et « Je vois bien que la vérité est la même à Toulouse et à Paris. » Vérifié dans le texte intégral numérisé (oeuvresdefermat02ferm_djvu.txt)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (anglais)",
+      "titre": "Problem of points",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Problem_of_points",
+      "note": "Contexte : la question posée par le chevalier de Méré à Pascal en 1654, les tentatives antérieures de Pacioli et Cardano, et le repérage des lettres conservées entre Fermat, Pascal et Carcavi."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Composition sur grille 8×8 modules, opération « recouvrement ». Deux lignes brisées distinctes partent de deux coins opposés du cadre et convergent, en se superposant sans jamais se confondre, vers un même module plein situé hors du centre ; l'une des deux lignes dépasse légèrement le cadre avant d'atteindre ce module. Aplats pleins uniquement, aucun dégradé. Deux encres : #00838A (mathematiques) et noir.",
+    "alt": "Deux lignes brisées venues de coins opposés convergent vers un même module, en se superposant",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Selon la lettre de Pascal du 29 juillet 1654, qu'est-ce qui cesse de fonctionner dans la méthode de Fermat dès qu'un troisième joueur entre en jeu ?",
+    "choix": [
+      "Le dénombrement des suites de jeu, qui suppose un nombre de coups fixé au lieu de s'arrêter dès qu'un joueur gagne",
+      "Le calcul des probabilités lui-même, qui ne vaudrait plus que pour les jeux de dés",
+      "La notion d'espérance, que Fermat n'avait pas encore formulée à cette date",
+      "Rien : Pascal confirme que la méthode de Fermat reste exacte quel que soit le nombre de joueurs"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La méthode de Fermat dénombre les suites de jeu sur un nombre de coups fixé, ce qui reste exact à deux joueurs mais cesse de l'être à trois ; Pascal propose de raisonner sur le moment où un joueur atteint effectivement son total, ce que sa méthode récursive calcule correctement quel que soit le nombre de joueurs.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+}

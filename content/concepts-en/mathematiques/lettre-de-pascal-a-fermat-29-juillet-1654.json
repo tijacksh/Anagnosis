@@ -1,0 +1,43 @@
+{
+  "id": "mat-lettre-de-pascal-a-fermat-29-juillet-1654",
+  "slug": "lettre-de-pascal-a-fermat-29-juillet-1654",
+  "langue": "en",
+  "empreinte_fr": "4cb5a5b772e66e94",
+  "traduit_le": "2026-11-19",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "citation-traduite",
+      "note": "Traduction propre, fidèle, de la citation originale en français (lettre de Pascal à Fermat, 29 juillet 1654). Aucune traduction anglaise publiée n'a pu être vérifiée depuis cet environnement (la traduction Pulskamp est hébergée sur un domaine hors de l'allowlist réseau)."
+    }
+  ],
+  "titre": "Two Different Methods, the Same Result, 600 Kilometers Apart",
+  "accroche": "In 1654, Pascal in Paris and Fermat in Toulouse answer the same riddle about a game of chance, by two different routes, and land on the same number.",
+  "contenu_vulgarise": "In 1654, the Chevalier de Méré, an avid gambler, puts a question to Blaise Pascal that sounds harmless: if a game played for money breaks off before the end, how should the stakes be fairly divided between the players according to each one's lead? This “problem of points” had been dragging on since the Renaissance: Luca Pacioli, then Gerolamo Cardano, had already tried their hand at it, without settling it. Pascal does not solve it alone: he writes to Pierre de Fermat, a magistrate and mathematician living in Toulouse, more than six hundred kilometers from Paris.\n\n## Two Methods, One Result\n\nFermat attacks the problem by counting: he lists every possible sequence of play, all equally likely, and counts those that favor each player, a direct method, but one that assumes a fixed number of rounds decided in advance. Pascal works the other way: he starts from the end of the game and works backward, round by round, calculating at each step what each player can expect to receive if play stopped there. The two men, who had no way to compare methods beforehand, arrive at the same split for two players.\n\nPascal's letter to Fermat of Wednesday, July 29, 1654, is the one that has traveled best through time. In it, Pascal confirms that Fermat's method is correct for two players, notes that it was also the first one that occurred to him, but explains that it stops being exact as soon as a third player enters the game: Fermat's counting assumes a fixed number of rounds, whereas, Pascal argues, one must reason instead from the moment a player actually reaches the total needed to win, which is exactly what his own method, working the game backward, computes correctly whatever the number of players.\n\n## What This Correspondence Changes\n\nNeither Pascal nor Fermat publishes these letters: they will only circulate in print after both men's deaths, in Fermat's collected works gathered at the end of the century. But the exchange installs an idea that did not clearly exist before it: by reasoning alone, one can compute the present value of an uncertain future gain, what probabilists will later call expectation. Before 1654, chance was managed by the habits of the gaming table; afterward, it becomes something one can subject to calculation, on the same footing as a figure in geometry.\n\nA historian reading this correspondence today is struck by something other than the method: by the tone of Pascal's letter, which does not try to outdo Fermat but to check that the two independent approaches line up. “I can see clearly that the truth is the same in Toulouse as in Paris,” he writes: a sentence that closes the discussion on substance while opening onto something else. If two separate minds reach the same answer by two different paths, that may be the sign that they have touched something that depends on neither one of them.",
+  "citation": {
+    "texte": "I can see clearly that the truth is the same in Toulouse as in Paris.",
+    "auteur": "Blaise Pascal",
+    "source": "Letter to Pierre de Fermat, Wednesday, July 29, 1654, in Œuvres de Fermat, vol. II (Correspondance), ed. Paul Tannery and Charles Henry, Paris, Gauthier-Villars, 1891, p. 179-183",
+    "url": "https://archive.org/details/oeuvresdefermat02ferm"
+  },
+  "carte": {
+    "punch": "Pascal and Fermat, 600 km apart, reach the same answer by two different paths.",
+    "idee": "In 1654, Pascal in Paris and Fermat in Toulouse exchange letters on how to fairly split the stakes of an interrupted game of chance. Their methods differ (counting for Fermat, backward calculation for Pascal) but agree on the result, laying the groundwork for probability theory.",
+    "source_courte": "Pascal to Fermat, July 29, 1654"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "According to Pascal's letter of July 29, 1654, what stops working in Fermat's method as soon as a third player enters the game?",
+    "choix": [
+      "Counting the sequences of play, which assumes a fixed number of rounds instead of stopping once a player wins",
+      "The calculation of probability itself, which would then only hold for dice games",
+      "The notion of expectation, which Fermat had not yet formulated at that date",
+      "Nothing: Pascal confirms that Fermat's method stays exact no matter how many players there are"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Fermat's method counts sequences of play over a fixed number of rounds, which stays exact for two players but stops being so for three; Pascal proposes reasoning instead from the moment a player actually reaches their total, which his own backward-working method computes correctly for any number of players."
+  },
+  "quiz_supplementaire": []
+}
