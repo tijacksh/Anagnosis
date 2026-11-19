@@ -74,31 +74,52 @@
   "quiz_supplementaire": [
     {
       "question": "En quelle année la convention n° 87 de l'OIT est-elle adoptée ?",
-      "choix": ["1944", "1948", "1950", "1961"],
+      "choix": [
+        "1944",
+        "1948",
+        "1950",
+        "1961"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche indique que la convention est adoptée le 9 juillet 1948 à San Francisco, lors de la 31e session de la Conférence internationale du travail."
     },
     {
       "question": "Par combien de voix la Cour internationale de justice a-t-elle tranché, le 21 mai 2026, que le droit de grève est protégé par la convention n° 87 ?",
-      "choix": ["À l'unanimité", "Dix voix contre quatre", "Huit voix contre six", "Douze voix contre deux"],
+      "choix": [
+        "À l'unanimité",
+        "Dix voix contre quatre",
+        "Huit voix contre six",
+        "Douze voix contre deux"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche précise que la Cour a tranché par dix voix contre quatre, sans trancher le contenu ni la portée du droit."
     },
     {
       "question": "Qu'est-ce qui déclenche, en juin 2012, le blocage à la Conférence internationale du travail ?",
-      "choix": ["Le refus du groupe des employeurs de laisser examiner les cas liés au droit de grève", "La démission du directeur général de l'OIT", "Une grève générale des fonctionnaires de l'OIT à Genève"],
+      "choix": [
+        "Le refus du groupe des employeurs de laisser examiner les cas liés au droit de grève",
+        "La démission du directeur général de l'OIT",
+        "Une grève générale des fonctionnaires de l'OIT à Genève"
+      ],
       "bonne_reponse": 0,
       "explication": "La fiche indique que le groupe des employeurs refuse pour la première fois de laisser la commission de contrôle examiner les cas liés au droit de grève, estimant que le texte ne l'implique pas."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": null,
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-11-19",
+    "verdict": "a_revoir",
+    "empreinte": "f807c9792e1ae02c",
+    "notes": [
+      "Erreur de fond x2, vérifiée sur ilo.org et en.wikipedia.org (sources citées) : (1) contenu_vulgarise et repere disent 'depuis la création de l'Organisation, en 1945' — l'OIT a été créée en 1919 (traité de Versailles), pas en 1945 ; la source ilo.org dit 'depuis sa création en 1945' en parlant de la Cour internationale de justice (créée en 1945), pas de l'OIT. (2) repere affirme que c'est 'la toute première fois' que l'OIT fait interpréter une convention par la CIJ, alors que la fiche elle-même (sources[0].note) et l'article ilo.org disent que c'est la DEUXIEME fois (la première en 1932, convention n°4, devant la Cour permanente de Justice internationale). A corriger : dater correctement la création de l'OIT (1919) ou reformuler pour viser la création de la CIJ, et corriger toute-première/deuxième fois dans le repere."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-18",

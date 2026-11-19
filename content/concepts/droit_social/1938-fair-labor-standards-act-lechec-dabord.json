@@ -74,19 +74,32 @@
   "quiz_supplementaire": [
     {
       "question": "Quelle entreprise est au cœur de l'arrêt Schechter Poultry Corp. v. United States (1935) ?",
-      "choix": ["Une aciérie de Pennsylvanie", "Un abattoir de volailles de Brooklyn", "Une filature de coton du Massachusetts"],
+      "choix": [
+        "Une aciérie de Pennsylvanie",
+        "Un abattoir de volailles de Brooklyn",
+        "Une filature de coton du Massachusetts"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche précise qu'il s'agit d'un abattoir de volailles tenu par les frères Schechter, à Brooklyn, poursuivi pour avoir enfreint le code de la volaille vivante."
     },
     {
       "question": "Quel salaire minimum horaire le Fair Labor Standards Act fixe-t-il à son adoption en 1938 ?",
-      "choix": ["Dix cents", "Vingt-cinq cents", "Un dollar", "Deux dollars"],
+      "choix": [
+        "Dix cents",
+        "Vingt-cinq cents",
+        "Un dollar",
+        "Deux dollars"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche indique que la loi de 1938 fixe un salaire minimum de vingt-cinq cents de l'heure."
     },
     {
       "question": "Que renverse explicitement l'arrêt United States v. Darby Lumber Co. (1941) ?",
-      "choix": ["L'arrêt Schechter Poultry de 1935", "L'arrêt Hammer v. Dagenhart de 1918, sur le travail des enfants", "Le quatorzième amendement de la Constitution"],
+      "choix": [
+        "L'arrêt Schechter Poultry de 1935",
+        "L'arrêt Hammer v. Dagenhart de 1918, sur le travail des enfants",
+        "Le quatorzième amendement de la Constitution"
+      ],
       "bonne_reponse": 1,
       "explication": "La fiche précise que la Cour écarte explicitement, en 1941, la distinction entre fabrication et commerce posée dans Hammer v. Dagenhart (1918)."
     }
@@ -98,7 +111,14 @@
     "decide_le": null,
     "historique": []
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-11-19",
+    "verdict": "ok",
+    "empreinte": "3ade245041b48803",
+    "notes": [
+      "Sources rouvertes : govinfo.gov (PDF du volume 312 US, confirmé par le texte parallèle sur Darby Lumber Wikipedia), Wikipedia Darby Lumber Co., Wikipedia Schechter Poultry, Wikipedia FLSA 1938. Dates, vote unanime, faits (Fred Darby/Statesboro, frères Schechter/Brooklyn), renversement de Hammer v. Dagenhart (1918) tous confirmés. Salaire de 25 cents/heure en 1938 vérifié par recoupement (Wikipedia Minimum_wage_in_the_United_States). Fiche traite le droit comme histoire (dates et affaires situées), conforme à la ligne éditoriale §3.1. Rien à corriger."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-18",
