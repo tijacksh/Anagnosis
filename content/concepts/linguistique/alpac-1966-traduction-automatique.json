@@ -69,12 +69,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-19T22:14:54.111Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-19T22:14:54.111Z",
+        "note": "Sources rouvertes : Wikipedia ALPAC (composition du comité à sept membres dont Pierce, Carroll, Hamp, Hays, Hockett, Oettinger, Perlis depuis avril 1964, titre exact et éditeur du rapport Language and Machines 1966, recommandations p.34 : évaluation des traductions, aide aux traducteurs, recherche fondamentale, effet sur le financement fédéral confirmé) et Wikipedia History of machine translation (jugement du rapport - plus cher, moins fiable, plus lent -, recherche américaine quasiment abandonnée plus d'une décennie, poursuite Canada/France/Allemagne, Systran de Peter Toma 1968 employé par le DoD puis installé pour l'US Air Force en 1970, démonstration de Georgetown 1954 confirmée). PDF original toujours bloqué par la politique réseau, comme déjà noté. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-19",
