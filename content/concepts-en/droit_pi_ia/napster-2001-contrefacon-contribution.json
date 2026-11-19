@@ -1,0 +1,82 @@
+{
+  "id": "dro-napster-2001-contrefacon-contribution",
+  "slug": "napster-2001-contrefacon-contribution",
+  "langue": "en",
+  "empreinte_fr": "4b04d0ef8c42264e",
+  "traduit_le": "2026-11-19",
+  "moteur": "claude-sonnet-5",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "L'opinion du 9e circuit est rédigée en anglais ; la citation est recopiée mot pour mot depuis la source originale, jamais retraduite."
+    }
+  ],
+  "titre": "Napster Loses the Case Sony Had Won",
+  "accroche": "In 2001, the Ninth Circuit Court of Appeals found Napster liable for infringement, seventeen years after it had shielded Sony in the Betamax case.",
+  "contenu_vulgarise": "In June 1999, college student Shawn Fanning launches Napster from a dorm room in Boston. The software lets every user search the hard drives of millions of other connected users, then copy a song straight from their computer, without ever going through a store or a sales platform. In December 1999, A&M Records and several other record labels, grouped behind the RIAA, file suit: their entire catalog is circulating, free of charge, with not a single copy purchased. They are not suing any individual user. They are targeting Napster itself, the company that made this exchange possible.\n\n## The mechanism\n\nIn July 2000, a federal district court in California grants the record labels a preliminary injunction. Napster appeals. On February 12, 2001, the United States Court of Appeals for the Ninth Circuit upholds the bulk of that ruling, in an opinion written by Judge Robert Beezer.\n\nThe system itself can be described in a few words. Napster's server indexes the names of the files each user shares, to make them searchable, but, in the court's own words, “the Napster server does not search the contents of any MP3 file”: it never reads what those files contain. Once a match is found, the searching computer connects directly to the one holding the file, and copies it without ever passing through the company's servers.\n\nThe court distinguishes two grounds of liability. The first, contributory infringement, reaches anyone who, with knowledge of the infringing activity, “induces, causes or materially contributes to the infringing conduct of another”: merely general awareness of the phenomenon is not enough, one must know that a specific file keeps circulating while doing nothing about it. The court finds that Napster meets this standard: “Napster has actual knowledge that specific infringing material is available using its system.” The second ground, vicarious infringement, reaches anyone who has “the right and ability to supervise the infringing activity” while drawing from that activity “a direct financial interest,” the protected content serving as bait to attract users. Napster, which controlled the central index and could remove a listed file from it, meets this second test as well.\n\n## The shift\n\nNapster then invokes the defense that had saved Sony seventeen years earlier, in the Betamax videocassette recorder case: a device capable of substantial non-infringing uses escapes its manufacturer's liability, even when misused by others. The court refuses to extend it as is. It rules that this defense “has no application to Napster's potential liability for vicarious copyright infringement”: at best, it applies only to the contributory claim. And even there, it writes that Napster's specific, actual knowledge “renders Sony's holding of limited assistance to Napster.” Sony turned only on knowledge that was merely possible, that of a manufacturer who sells a device and then has no further link to it. Napster, by contrast, operated an ongoing service, keeping its hand on the architecture long after each user had signed up.\n\nThe court sums up the gap in a sentence that outlives the Napster case alone: “We are compelled to make a clear distinction between the architecture of the Napster system and Napster's conduct.” Judging a technology and judging the use made of it by whoever controls it are not the same question, and answering one never excuses answering the other.",
+  "citation": {
+    "texte": "Napster's actual, specific knowledge of direct infringement renders Sony's holding of limited assistance to Napster.",
+    "auteur": "Robert Beezer",
+    "source": "A&M Records, Inc. v. Napster, Inc., 239 F.3d 1004 (9th Cir. 2001), opinion of the court",
+    "url": "https://en.wikisource.org/wiki/A%26M_Records,_Inc._v._Napster,_Inc./Opinion_of_the_Court"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Sony won with this defense. Napster lost with it.",
+    "idee": "In 2001, the U.S. Court of Appeals found Napster liable for infringement, even though Sony had escaped all liability for the VCR in 1984. The difference: Napster knew precisely which protected files were circulating, and kept the power to remove them.",
+    "source_courte": "A&M Records v. Napster, 9th Circuit, 2001"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the court refuse to apply to Napster the defense that had protected Sony in the Betamax videocassette recorder case?",
+    "choix": [
+      "Because the VCR was a physical product, while digital music is not protectable under any statute",
+      "Because the record labels had not registered their works before they were posted online",
+      "Because Napster had signed a licensing agreement with Sony before launching its service",
+      "Because Napster had specific, actual knowledge of particular infringing files, and kept the power to remove them"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The court rules that the merely possible knowledge of a manufacturer who sells a device, like Sony, does not compare to Napster's specific knowledge of particular files, combined with a power of control over an ongoing service. No contract with Sony ever existed, and prior registration of the works plays no part in this reasoning.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What exactly does Napster's central server do, according to the court's description?",
+      "choix": [
+        "It copies every MP3 file onto its own disks before transmitting it",
+        "It indexes the names of shared files, without ever reading their content",
+        "It automatically checks the copyright attached to each file",
+        "It charges users for every download they make"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The court quotes how the system works: “the Napster server does not search the contents of any MP3 file.” The server only indexes file names to make them searchable; the transfer then happens directly between the two computers, without passing through Napster or any billing.",
+      "statut": "valide"
+    },
+    {
+      "question": "Who filed suit against Napster, and who was the suit primarily aimed at?",
+      "choix": [
+        "Individual users, each sued for downloading songs",
+        "A&M Records and other record labels, grouped behind the RIAA, targeting the company itself",
+        "The federal government, for violating telecommunications regulation",
+        "Shawn Fanning, against the record labels that rejected his service"
+      ],
+      "bonne_reponse": 1,
+      "explication": "In December 1999, A&M Records and several record labels, grouped behind the RIAA, filed suit against Napster the company, not against individual users: it is the company that made the exchange possible that they were targeting.",
+      "statut": "valide"
+    },
+    {
+      "question": "On what second ground, distinct from contributory infringement, does the court also find Napster liable?",
+      "choix": [
+        "Vicarious infringement, for having had the power of control and a direct financial interest",
+        "Breach of contract, for having changed the terms of use without notice",
+        "Unfair competition, for having copied the record labels' business model",
+        "Defamation, for having publicly disputed the RIAA's accusations"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The court also finds vicarious infringement: Napster had the right and ability to supervise the infringing activity, through the central index it could modify, and drew from that activity a direct financial interest, the protected content serving to attract users.",
+      "statut": "valide"
+    }
+  ]
+}

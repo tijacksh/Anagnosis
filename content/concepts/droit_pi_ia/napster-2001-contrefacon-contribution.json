@@ -66,7 +66,44 @@
     "explication": "La cour juge que la connaissance seulement possible d'un fabricant qui vend un appareil, comme Sony, ne se compare pas à la connaissance spécifique de Napster sur des fichiers précis, doublée d'un pouvoir de contrôle sur un service permanent. Aucun contrat avec Sony n'existait, et le dépôt préalable des œuvres n'entre pas dans ce raisonnement.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que fait exactement le serveur central de Napster, selon la description de la cour ?",
+      "choix": [
+        "Il copie chaque fichier MP3 sur ses propres disques avant de le transmettre",
+        "Il indexe les noms des fichiers partagés, sans jamais lire leur contenu",
+        "Il vérifie automatiquement les droits d'auteur attachés à chaque fichier",
+        "Il facture les utilisateurs à chaque téléchargement effectué"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La cour cite le fonctionnement du système : « the Napster server does not search the contents of any MP3 file ». Le serveur indexe seulement les noms de fichiers pour permettre la recherche ; le transfert se fait ensuite directement entre les deux ordinateurs, sans passer par Napster ni facturation.",
+      "statut": "valide"
+    },
+    {
+      "question": "Qui a porté plainte contre Napster, et contre qui la plainte visait-elle en premier lieu ?",
+      "choix": [
+        "Des utilisateurs individuels, poursuivis chacun pour avoir téléchargé des morceaux",
+        "A&M Records et d'autres maisons de disques, regroupées derrière la RIAA, visant l'entreprise elle-même",
+        "Le gouvernement fédéral, pour atteinte à la régulation des télécommunications",
+        "Shawn Fanning, contre les maisons de disques qui refusaient son service"
+      ],
+      "bonne_reponse": 1,
+      "explication": "En décembre 1999, A&M Records et plusieurs maisons de disques, regroupées derrière la RIAA, portent plainte contre Napster l'entreprise, et non contre des utilisateurs individuels : c'est l'entreprise qui a rendu l'échange possible qu'elles visent.",
+      "statut": "valide"
+    },
+    {
+      "question": "Sur quel second fondement, distinct de la contrefaçon par contribution, la cour retient-elle aussi la responsabilité de Napster ?",
+      "choix": [
+        "La contrefaçon par représentation, pour avoir eu le pouvoir de contrôle et un intérêt financier direct",
+        "La rupture de contrat, pour avoir modifié les conditions d'utilisation sans préavis",
+        "La concurrence déloyale, pour avoir copié le modèle commercial des maisons de disques",
+        "La diffamation, pour avoir publiquement contesté les accusations de la RIAA"
+      ],
+      "bonne_reponse": 0,
+      "explication": "La cour retient aussi la contrefaçon par représentation : Napster avait le pouvoir et la capacité de superviser l'activité contrefaisante, via son index central qu'elle pouvait modifier, et tirait de cette activité un intérêt financier direct, le contenu protégé attirant les utilisateurs.",
+      "statut": "valide"
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
