@@ -2,7 +2,7 @@
  "id": "lin-alpac-1966-traduction-automatique",
  "slug": "alpac-1966-traduction-automatique",
  "langue": "en",
- "empreinte_fr": "f5d69e8b03bb1f6f",
+ "empreinte_fr": "8a88cf0d6385dd10",
  "traduit_le": "2026-11-19",
  "moteur": "claude-code",
  "relu": false,
@@ -34,5 +34,39 @@
   "explication": "The report's recommendations, on page 34, concern evaluating translations, aiding human translators, and basic research, not a ban. Federal funding did drop sharply in practice, but none of the other three proposals matches the report's actual content.",
   "statut": "valide"
  },
- "quiz_supplementaire": []
+ "quiz_supplementaire": [
+  {
+   "question": "How many scientists made up the ALPAC committee, and who chaired it?",
+   "choix": [
+    "Seven scientists, chaired by John R. Pierce",
+    "Three linguists, chaired by Noam Chomsky",
+    "Twelve experts, with no designated chair",
+    "Five engineers, chaired by Peter Toma"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The ALPAC committee brought together seven scientists starting in April 1964, chaired by engineer John R. Pierce, of Bell Labs."
+  },
+  {
+   "question": "What survived machine translation after American federal funding collapsed?",
+   "choix": [
+    "Nothing at all: research stopped worldwide for a decade",
+    "Only the public Georgetown demonstration, held in 1954, kept being shown afterward",
+    "Programs in Canada, France, and Germany, plus the Systran system used by the American military",
+    "A single laboratory stayed active, funded continuously by the same federal agencies"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The halt was neither worldwide nor total: Canada, France, and Germany kept pursuing their programs, and the Systran system kept being used by the Department of Defense, then by the US Air Force starting in 1970."
+  },
+  {
+   "question": "What earlier event had sparked the optimism that led to the funding evaluated by the ALPAC report?",
+   "choix": [
+    "The publication of the ALPAC report itself, right at its first meeting in April 1964",
+    "The Georgetown demonstration, in 1954, which had publicly translated Russian sentences into English",
+    "The creation of the Systran system by engineer Peter Toma, starting in 1968",
+    "The international congress that had officially launched computational linguistics in 1956"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The Georgetown demonstration, in 1954, had publicly translated Russian sentences into English and sparked the optimism that funded a decade of machine translation research."
+  }
+ ]
 }
