@@ -2,8 +2,8 @@
  "id": "lin-alpac-1966-traduction-automatique",
  "slug": "alpac-1966-traduction-automatique",
  "langue": "en",
- "empreinte_fr": "f5d69e8b03bb1f6f",
- "traduit_le": "2026-11-19",
+ "empreinte_fr": "4d375614b2f73296",
+ "traduit_le": "2026-11-20",
  "moteur": "claude-code",
  "relu": false,
  "drapeaux": [],
@@ -34,5 +34,39 @@
   "explication": "The report's recommendations, on page 34, concern evaluating translations, aiding human translators, and basic research, not a ban. Federal funding did drop sharply in practice, but none of the other three proposals matches the report's actual content.",
   "statut": "valide"
  },
- "quiz_supplementaire": []
+ "quiz_supplementaire": [
+  {
+   "question": "Which public demonstration, before the ALPAC report, had fueled hope for a soon-usable machine translation?",
+   "choix": [
+    "The Georgetown demonstration in 1954, publicly translating Russian sentences into English",
+    "The Systran demonstration in 1968, translating German sentences into French",
+    "A demonstration led by John R. Pierce in 1964 before the US Congress",
+    "The first complete machine translation of a novel, in 1970, by the Air Force"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The Georgetown demonstration in 1954 publicly translates Russian sentences into English; it is what launches the federal funding ALPAC later takes over a decade on. None of the other three proposals matches any fact in the text."
+  },
+  {
+   "question": "What happened to machine translation research outside the United States after the ALPAC report?",
+   "choix": [
+    "It stopped everywhere in the world, as in the United States",
+    "It was transferred under the control of American federal agencies",
+    "Canada, France, and Germany kept pursuing their own programs",
+    "It only resumed after neural networks appeared in 2014"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text notes that the halt is neither worldwide nor total: Canada, France, and Germany keep pursuing their own programs, unlike the other three proposals, which contradict this passage."
+  },
+  {
+   "question": "Which machine translation system remains in use by the US Department of Defense, outside the funding circuit targeted by ALPAC?",
+   "choix": [
+    "A system developed by the Institute of Ethnography in Moscow",
+    "The federal program relaunched directly after the report's publication in 1966",
+    "A system jointly developed by Canada and France",
+    "The Systran system, developed by Peter Toma starting in 1968"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text names Systran, developed by Peter Toma starting in 1968, used by the Department of Defense and then by the Air Force from 1970, outside the circuit ALPAC targeted. None of the other three proposals matches any fact in the text."
+  }
+ ]
 }
