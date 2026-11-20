@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-20T10:15:12.021Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-20T10:15:12.021Z",
+        "note": "Sources rouvertes indépendamment : archive.org (table des matières confirmée, article p.81, « Ueber die aspiraten... von H. Grafsmann/Grassmann »), en.wikipedia.org/wiki/Grassmann's_law (exemples φύω/πέφυκα et θύω/ἐτύθη confirmés mot pour mot, débat racine diaspirée vs lecture indienne confirmé, développement séparé grec/sanskrit sans héritage commun confirmé : 'developed separately', 'was not inherited from Proto-Indo-European'). Carte et quiz conformes aux sources, distracteurs faux. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-20",
