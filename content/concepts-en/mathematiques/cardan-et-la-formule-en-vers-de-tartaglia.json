@@ -2,7 +2,7 @@
   "id": "mat-cardan-et-la-formule-en-vers-de-tartaglia",
   "slug": "cardan-et-la-formule-en-vers-de-tartaglia",
   "langue": "en",
-  "empreinte_fr": "5027a98f0fa24498",
+  "empreinte_fr": "290ec21448e19cc9",
   "traduit_le": "2026-11-20",
   "moteur": "claude-code",
   "relu": false,
@@ -39,5 +39,28 @@
     "bonne_reponse": 1,
     "explication": "Cardano justifies the 1545 publication by del Ferro's priority, who died in 1526, over Tartaglia's method: the promise only protected an exclusive discovery, which he judges void once that priority is established. Tartaglia had published nothing, and no religious authority plays any part in the episode."
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "In 1535, how does the mathematical challenge between Antonio Fior and Tartaglia end?",
+      "choix": [
+        "Tartaglia solves nearly all of Fior's problems, while Fior solves almost none of his own",
+        "Both men abandon the challenge before the thirty-day deadline, unable to agree on the rules",
+        "Fior wins the entire stake thanks to Scipione del Ferro's secret method",
+        "The challenge is cancelled by the authorities of Venice, who rule the wager illegal"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Tartaglia answers all of Fior's questions before the thirty-day deadline, while Fior, despite holding Scipione del Ferro's method, solves almost none of his own; no source mentions a cancellation or any intervention by the authorities."
+    },
+    {
+      "question": "What does Cardano discover, almost in passing, in chapter 37 of the Ars Magna?",
+      "choix": [
+        "An ordinary problem whose solution requires taking the square root of a negative number",
+        "A general method for solving every equation of degree higher than four",
+        "A proof that Tartaglia's method had in fact been wrong from the start",
+        "The complete text of the poem Tartaglia had handed him in 1539"
+      ],
+      "bonne_reponse": 0,
+      "explication": "In chapter 37, an ordinary problem, two numbers whose sum is ten and product is forty, leads Cardano to a solution involving the square root of a negative number, which he judges as subtle as it is useless without taking it further; Rafael Bombelli will turn it into an object of calculation a generation later."
+    }
+  ]
 }

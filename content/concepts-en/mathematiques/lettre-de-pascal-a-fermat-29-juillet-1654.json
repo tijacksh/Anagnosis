@@ -2,7 +2,7 @@
   "id": "mat-lettre-de-pascal-a-fermat-29-juillet-1654",
   "slug": "lettre-de-pascal-a-fermat-29-juillet-1654",
   "langue": "en",
-  "empreinte_fr": "01bfa608c8001633",
+  "empreinte_fr": "33f47ea773cf0683",
   "traduit_le": "2026-11-20",
   "moteur": "claude-code",
   "relu": false,
@@ -39,5 +39,28 @@
     "bonne_reponse": 0,
     "explication": "Fermat's method counts sequences of play over a fixed number of rounds, which stays exact for two players but stops being so for three; Pascal proposes reasoning instead from the moment a player actually reaches their total, which his own backward-working method computes correctly for any number of players."
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What question does the Chevalier de Méré put to Pascal in 1654?",
+      "choix": [
+        "How to fairly divide the stakes of a game of money interrupted before the end, according to each player's lead",
+        "How to calculate the probability of winning a game of dice with three faces, before it even begins",
+        "How to prove that two parallel lines never meet, whatever figure is drawn",
+        "How to divide an inheritance among several heirs according to their age and birth order"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The Chevalier de Méré, an avid gambler, asks how to fairly divide the stakes of a game of money interrupted before the end, according to each player's lead, the problem of points: it has nothing to do with dice, geometry, or inheritance."
+    },
+    {
+      "question": "How does Fermat go about solving the problem of points?",
+      "choix": [
+        "He lists every possible, equally likely sequence of play, then counts those that favor each player",
+        "He starts from the end of the game and works backward round by round, as Pascal will later do",
+        "He measures, on games actually played, how often each player wins",
+        "He adopts, unchanged, the method already published by Luca Pacioli in 1494"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Fermat counts every equally likely sequence of play and tallies those that favor each player, a method that assumes a fixed number of rounds decided in advance; it is Pascal, not Fermat, who works the game backward, and Pacioli's method had in fact already failed, according to Tartaglia."
+    }
+  ]
 }

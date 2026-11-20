@@ -60,7 +60,30 @@
     "explication": "La méthode de Fermat dénombre les suites de jeu sur un nombre de coups fixé, ce qui reste exact à deux joueurs mais cesse de l'être à trois ; Pascal propose de raisonner sur le moment où un joueur atteint effectivement son total, ce que sa méthode récursive calcule correctement quel que soit le nombre de joueurs.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quelle question le chevalier de Méré pose-t-il à Pascal en 1654 ?",
+      "choix": [
+        "Comment répartir équitablement les mises d'une partie d'argent interrompue avant la fin, selon l'avance de chacun",
+        "Comment calculer la probabilité de gagner une partie de dés à trois faces, avant même qu'elle ne commence",
+        "Comment prouver que deux droites parallèles ne se rencontrent jamais, quelle que soit la figure tracée",
+        "Comment répartir un héritage entre plusieurs héritiers selon leur âge et leur rang de naissance"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le chevalier de Méré, joueur assidu, demande comment répartir équitablement les mises d'une partie d'argent interrompue avant la fin, selon l'avance de chacun, c'est le problème des partis : il ne s'agit ni de dés, ni de géométrie, ni d'héritage."
+    },
+    {
+      "question": "Comment procède Fermat pour résoudre le problème des partis ?",
+      "choix": [
+        "Il énumère toutes les suites de jeu possibles et équiprobables, puis compte celles qui favorisent chaque joueur",
+        "Il part de la fin de la partie et remonte coup par coup, comme le fera Pascal",
+        "Il mesure, sur des parties réellement jouées, la fréquence à laquelle chaque joueur l'emporte",
+        "Il reprend sans modification la méthode déjà publiée par Luca Pacioli en 1494"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Fermat dénombre toutes les suites de jeu équiprobables et compte celles qui favorisent chaque joueur, une méthode qui suppose un nombre de coups fixé à l'avance ; c'est Pascal, non Fermat, qui remonte la partie à rebours, et la méthode de Pacioli avait justement échoué, selon Tartaglia."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
