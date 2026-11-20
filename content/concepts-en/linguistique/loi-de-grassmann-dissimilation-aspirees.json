@@ -2,8 +2,8 @@
  "id": "lin-loi-de-grassmann-dissimilation-aspirees",
  "slug": "loi-de-grassmann-dissimilation-aspirees",
  "langue": "en",
- "empreinte_fr": "2b12a1e8b54c48a2",
- "traduit_le": "2026-11-19",
+ "empreinte_fr": "d7b32ab5909da6a3",
+ "traduit_le": "2026-11-20",
  "moteur": "claude-code",
  "relu": false,
  "drapeaux": [],
@@ -34,5 +34,39 @@
   "explication": "Grassmann's law (1863) shows that Ancient Greek and Sanskrit forbid two aspirated consonants in two neighboring syllables of the same word: when a grammatical form would produce two, as here with perfect reduplication, the first loses its aspiration and the second stays intact. φύω doesn't have a vowel-initial root, πέφυκα isn't a loanword, and Grassmann describes an ancient pronunciation rule, not a spelling reform.",
   "statut": "valide"
  },
- "quiz_supplementaire": []
+ "quiz_supplementaire": [
+  {
+   "question": "What form was expected for the aorist passive of θύω (\"I sacrifice\"), and which one is actually attested?",
+   "choix": [
+    "ἐτύθη was expected and that is the attested form, θύω escaping the rule that affects πέφυκα",
+    "*ethythē* was expected, and that is the attested form: Greek tolerates two consecutive aspirates in this verb",
+    "*ethythē* was expected, but the attested form is ἐτύθη: the first of the two aspirates lost its breath, as with πέφυκα",
+    "No form is attested for this verb, the example is a reconstruction proposed by Grassmann in 1863"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text gives this example alongside πέφυκα: the expected form *ethythē* would carry two neighboring aspirates, which Greek forbids, so the first loses its aspiration and only the second survives in ἐτύθη."
+  },
+  {
+   "question": "In which journal and what year does Hermann Grassmann publish the article that states this rule?",
+   "choix": [
+    "In the Zeitschrift für vergleichende Sprachforschung, in 1863",
+    "In the Comptes rendus de l'Académie des sciences, in 1863",
+    "In the Zeitschrift für vergleichende Sprachforschung, in 1913, half a century after his death",
+    "In a Sanskrit grammar book published in India, in 1863"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The landmark note and the sources date the article precisely: Zeitschrift für vergleichende Sprachforschung, volume 12, 1863, pages 81 to 138, where Grassmann demonstrates the rule for Greek and Sanskrit."
+  },
+  {
+   "question": "How does Grassmann's law differ from Grimm's law, another Indo-European sound correspondence?",
+   "choix": [
+    "Both Grimm's law and Grassmann's law describe a direct inheritance from Proto-Indo-European, with no independent development",
+    "Grimm's law only concerns Sanskrit, while Grassmann's law only concerns Greek",
+    "Grimm's law was stated by Grassmann himself in 1863, the same year as his law on aspirates",
+    "Grimm's law helped reconstruct the common ancestor of the Germanic languages, while Grassmann's law turned out to be a development specific to each of the two languages where it operates"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text contrasts the two laws: Grimm's law is an inheritance traceable back to the common Germanic ancestor, while Grassmann's law arose separately in Greek and Sanskrit, owing nothing to one another."
+  }
+ ]
 }
