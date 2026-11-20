@@ -1,0 +1,84 @@
+{
+  "id": "dro-decision-62-20-dc-1962-loi-referendaire",
+  "slug": "decision-62-20-dc-1962-loi-referendaire",
+  "langue": "en",
+  "empreinte_fr": "ed246e78a996dc15",
+  "traduit_le": "2026-11-20",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "texte-officiel-a-verifier",
+      "note": "L'article premier de la décision 62-20 DC est traduit du français ; la traduction anglaise officielle du Conseil constitutionnel n'a pas pu être lue pendant cette passe (accès web refusé). À remplacer par le texte publié, avec son adresse, puis changer le drapeau en texte-officiel-anglais."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "texte-officiel-a-verifier",
+      "note": "Mêmes remarques pour les autres passages cités de la décision (compétence, « lois votées par le Parlement », « organe régulateur de l'activité des pouvoirs publics ») : traduits du français."
+    }
+  ],
+  "titre": "The Constitutional Council Refuses to Judge the 1962 Referendum Law",
+  "accroche": "On November 6, 1962, the Constitutional Council declares itself without jurisdiction to judge the law on the direct election of the president.",
+  "contenu_vulgarise": "On October 28, 1962, the French approve by referendum the law providing for the election of the President of the Republic by direct universal suffrage. Shortly afterward, the President of the Senate refers the matter to the Constitutional Council under Article 61, paragraph 2, of the French Constitution of 1958. On November 6, 1962, the decision comes down, and it says neither yes nor no.\n\n## An answer that is not one\n\nThe Council does not declare the law consistent or inconsistent with the Constitution. It says: “The Constitutional Council has no jurisdiction to rule on the aforementioned application of the President of the Senate.” The reasoning takes a few steps. The Council's jurisdiction is strictly delimited: it may rule only in the cases provided for by the Constitution and by the Organic Law of November 7, 1958. Now, it writes, “the laws which the Constitution intended to refer to in its Article 61 are only laws passed by Parliament.” Laws adopted by the people, it adds, constitute the direct expression of national sovereignty.\n\n## Where the limit really lies\n\nThe text of Article 61 does not say that it excludes referendums. It does not specify, the Council itself notes, whether its jurisdiction also covers texts adopted by referendum. The Council fills that silence by reading the Constitution in its spirit: the latter has made it “a body regulating the activity of the public authorities,” and Article 61 therefore covers only laws passed by Parliament, not those that directly express national sovereignty. It also relies on the 1958 Organic Law, whose Article 17 covers only laws adopted by Parliament.\n\nThe reasoning is thus economical: the Council discusses neither the content of the law nor the procedure that led to it. It refuses to examine the question, and that is all.\n\n## What this changes\n\nThis decision is not an endorsement of the 1962 reform: the Council declared itself out of the game, and the text's conformity with the Constitution was therefore not examined by it. That yields a rare lesson: a court can shape the constitutional order as much by what it refuses to judge as by what it judges.\n\nThe decision thus leaves one question unanswered: if the constitutional judge cannot examine the direct expression of the people, who else can examine its procedure?",
+  "citation": {
+    "texte": "The Constitutional Council has no jurisdiction to rule on the aforementioned application of the President of the Senate.",
+    "auteur": "Constitutional Council",
+    "source": "Decision no. 62-20 DC of November 6, 1962, Article 1",
+    "url": "https://www.conseil-constitutionnel.fr/decision/1962/6220DC.htm"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "In 1962, the Constitutional Council refuses to judge the law on direct universal suffrage.",
+    "idee": "On November 6, 1962, referred by the President of the Senate against a law adopted by referendum on October 28, the Constitutional Council declares itself without jurisdiction: Article 61 covers only laws passed by Parliament. It therefore does not validate the reform, it refuses to examine it.",
+    "source_courte": "Constitutional Council, 62-20 DC"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the decision of November 6, 1962 not validate the reform on the election of the president?",
+    "choix": [
+      "Because the Council found the law constitutional, subject to a reservation of interpretation",
+      "Because the Council annulled it before promulgation, for a procedural defect",
+      "Because the Council declared itself without jurisdiction to examine a law adopted by referendum",
+      "Because the Council sent the law back to Parliament, which was to rule in turn"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The Council holds that Article 61 covers only laws passed by Parliament and declares itself without jurisdiction: it concludes neither that the law is consistent nor that it is annulled, and refers nothing back to Parliament. The substance of the procedure followed by the government is therefore not examined.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who refers the 1962 referendum law to the Constitutional Council, and on what basis?",
+      "choix": [
+        "The President of the Senate, under Article 61, paragraph 2, of the Constitution",
+        "The President of the Republic, under Article 89 on constitutional revision",
+        "Sixty deputies, under Article 61, paragraph 2, as amended in 1974",
+        "The Prime Minister, on his own initiative, before the law's promulgation"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text specifies that it is the President of the Senate who refers the matter to the Council, under Article 61, paragraph 2, of the 1958 Constitution."
+    },
+    {
+      "question": "On what reasoning does the Constitutional Council rely to declare itself without jurisdiction?",
+      "choix": [
+        "It finds that the law, though adopted by referendum, was passed after the legal deadline for promulgation",
+        "It considers that only the President of the Republic can challenge a referendum law before it",
+        "It holds that Article 61 covers only laws passed by Parliament, not those that directly express national sovereignty",
+        "It finds that the question put to the referendum was ambiguously worded, which deprives it of jurisdiction"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The Council writes that the laws covered by Article 61 are only those passed by Parliament, laws adopted by the people being the direct expression of national sovereignty."
+    },
+    {
+      "question": "What question does the decision of November 6, 1962 leave unanswered?",
+      "choix": [
+        "Whether the President of the Republic can dissolve the National Assembly after a referendum",
+        "Whether a referendum can concern a revision of the Constitution itself",
+        "Whether the Senate can refer the same law to the Council again after its promulgation",
+        "Who can examine the procedure of a law adopted by referendum, if not the Constitutional Council"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The text concludes that if the constitutional judge cannot examine the direct expression of the people, the question of who else can examine its procedure remains unanswered."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "dro-bonham-1610-juge-de-sa-propre-cause",
+  "slug": "bonham-1610-juge-de-sa-propre-cause",
+  "langue": "en",
+  "empreinte_fr": "9c190d339a8d0443",
+  "traduit_le": "2026-11-20",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "texte-officiel-a-verifier",
+      "note": "Citation déjà en anglais dans la fiche française, recopiée telle quelle ; le web n'était pas accessible pendant cette passe : à re-confirmer sur constitution.org (Dr. Bonham's Case)."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "texte-officiel-a-verifier",
+      "note": "La citation de Blackstone (« je ne connais aucun pouvoir qui puisse le contrôler ») est traduite du français ; l'original anglais des Commentaries (Book 1, Introduction) n'a pas pu être retrouvé pendant cette passe. À remplacer par le texte publié."
+    }
+  ],
+  "titre": "Judicial Review of Laws Was Born in England, Then Vanished From It",
+  "accroche": "In 1610, the English judge Edward Coke asserts that a law contrary to reason can be annulled by the courts: an idea England would reject.",
+  "contenu_vulgarise": "## A physician in prison\n\nIn 1606, Thomas Bonham, a doctor of medicine from the University of Cambridge, settles in London to practice. He does not have a license from the Royal College of Physicians, the only body empowered by a 1553 statute to authorize the practice of medicine in the city. Summoned, examined, and judged insufficiently competent by the College's censors, he keeps seeing patients anyway. The College fines him and then, when he refuses to pay, has him locked up in the Counter, a London prison, for seven days in November 1606.\n\n## Judge and party in the same case\n\nBonham sues the College for arbitrary imprisonment before the Court of Common Pleas. His lawyer points out a detail that the 1553 statute states plainly: half of every fine collected by the College goes to the College itself. The institution that judges the competence of London's physicians therefore has a direct stake in the outcome of its own judgments: judge and party in its own cause, which English law had long forbidden elsewhere.\n\nIn 1610, the chief justice of the court, Edward Coke, rules in Bonham's favor and goes further than the case requires: he declares that the common law can review statutes passed by Parliament itself, and annul them when they are “against Common right and reason, or repugnant, or impossible to be performed.” A statute that makes one body both the judge and the beneficiary of its own fines, he writes in essence, falls into that category.\n\n## An idea sent into exile\n\nCoke's assertion is the earliest known formulation of judicial review of legislation: the idea that a judge can assess the validity of a law, and not merely apply it. But it does not take root at home. The Revolution of 1688 installs the opposite principle in England: the sovereignty of Parliament, whose acts no court may revise. The jurist William Blackstone would write, a century and a half later, that if Parliament legislates unreasonably, “I know of no power that can control it.” Coke himself would go back on his position in later cases.\n\nYet the idea crosses the Atlantic. It resurfaces in *Marbury v. Madison* in 1803, which founds American judicial review, though it is not known for certain whether Coke was read directly there or rediscovered through parallel reasoning. Two centuries after it first appeared in the lawsuit of an obstinate London physician, the idea that a court can annul a law passed by Parliament now governs dozens of countries, except the one where it was born.",
+  "citation": {
+    "texte": "When an Act of Parliament is against Common right and reason, or repugnant, or impossible to be performed, the Common Law will controll it, and adjudge such Act to be void.",
+    "auteur": "Edward Coke",
+    "source": "Thomas Bonham v. College of Physicians (Dr. Bonham's Case), 8 Co. Rep. 107a, Court of Common Pleas, 1610",
+    "url": "https://constitution.org/1-History/trials/bonham/dr_bonham's_case.htm"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "An English judge invents judicial review in 1610: his country would abandon it.",
+    "idee": "In 1610, the English judge Edward Coke asserts that courts can annul a law passed by Parliament if it is contrary to reason. England rejects the idea as early as 1688; the United States would take it up two centuries later in Marbury v. Madison.",
+    "source_courte": "Dr. Bonham's Case, 1610"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does Judge Edward Coke hold void, in 1610, the statute that allowed Bonham to be imprisoned?",
+    "choix": [
+      "Because the King of England had personally asked for his release",
+      "Because the statute gave the College half of the fines it itself imposed, making it judge and party",
+      "Because Bonham had meanwhile obtained a second medical license from Cambridge",
+      "Because Parliament had in fact never formally adopted that statute"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The 1553 statute gives the College half of each fine it imposes: it is thus both judge of physicians' competence and the financial beneficiary of its own convictions, which Coke finds contrary to reason and therefore void.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What event installs in England the opposite principle to Coke's, the total sovereignty of Parliament?",
+      "choix": [
+        "The Marbury v. Madison case, in 1803, in the United States",
+        "The judgment Coke delivered in 1610 in the Bonham case",
+        "The Revolution of 1688",
+        "Coke's reversal of his position in a later case"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The Revolution of 1688 installs in England the sovereignty of Parliament, whose acts no court may revise, the reverse of what Coke had asserted in 1610."
+    },
+    {
+      "question": "Why is Thomas Bonham imprisoned in 1606?",
+      "choix": [
+        "He refuses to pay the fine imposed by the College",
+        "He forged his Cambridge medical degree",
+        "He refused to treat a patient sent by the College",
+        "He publicly criticized King James I"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Summoned and judged insufficiently competent by the College, Bonham keeps seeing patients without a license, and it is his refusal to pay the fine that lands him in prison."
+    },
+    {
+      "question": "Which English jurist states, a century and a half after Coke, that no power can control a Parliament that legislates unreasonably?",
+      "choix": [
+        "John Marshall, in Marbury v. Madison",
+        "William Blackstone",
+        "Edward Coke, who maintains his position to the end of his life",
+        "Nicholas Hyde, Chief Justice of the Court of King's Bench"
+      ],
+      "bonne_reponse": 1,
+      "explication": "William Blackstone writes, a century and a half after Coke, that if Parliament legislates unreasonably, no power can control it, recording the abandonment of the 1610 principle."
+    }
+  ]
+}
