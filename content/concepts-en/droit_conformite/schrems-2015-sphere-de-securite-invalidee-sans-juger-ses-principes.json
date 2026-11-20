@@ -1,0 +1,78 @@
+{
+ "id": "dro-schrems-2015-sphere-de-securite-invalidee-sans-juger-ses-principes",
+ "slug": "schrems-2015-sphere-de-securite-invalidee-sans-juger-ses-principes",
+ "langue": "en",
+ "empreinte_fr": "b04716df5afe1739",
+ "traduit_le": "2026-11-20",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere.texte",
+   "type": "texte-officiel-a-verifier",
+   "note": "The French repère paraphrases the operative part of the judgment. The English text of the operative part (curia.europa.eu, doclang=EN) could not be opened during this run; the sentence is translated from the French, not copied from the official English version. To be checked against the published English operative part."
+  }
+ ],
+ "titre": "Schrems (2015): The “Safe Harbor” Invalidated Without Ruling on Its Principles",
+ "accroche": "On October 6, 2015, the Court of Justice of the European Union invalidates the 2000 decision on data transfers to the United States, without examining its principles.",
+ "contenu_vulgarise": "After Edward Snowden's revelations about U.S. intelligence services, a Facebook user, Maximillian Schrems, asks the Data Protection Commissioner, the Irish data protection authority, to prohibit Facebook Ireland from transferring his data to servers in the United States. The Commissioner rejects the complaint as unfounded: nothing shows that the NSA accessed Mr. Schrems's data, and the question must be settled in accordance with Decision 2000/520 of the European Commission, which found that the United States ensures an adequate level of protection.\n\n## A 2000 Decision That Binds the Authorities\n\nThis decision of July 26, 2000 was taken on the basis of Directive 95/46/EC of October 24, 1995, the text then governing personal data in the Union. It concerns the “safe harbor,” a set of principles published by the U.S. Department of Commerce: American companies that sign on to them benefit from a presumption of an adequate level of protection, and data may be transferred to them from the Union.\n\nWhen Mr. Schrems brings the matter before it, the High Court of Ireland finds that Snowden's revelations showed considerable excesses by the NSA, and refers questions to the Court of Justice by a decision of July 17, 2014. The Grand Chamber answers on October 6, 2015 in Case C-362/14.\n\n## What the Court Rules\n\nFirst point: even when the Commission has adopted an adequacy decision, a national supervisory authority must be able to examine a person's complaint with complete independence. Yet Article 3 of Decision 2000/520 deprived the authorities of those powers; in adopting it, the Commission exceeded its competence.\n\nSecond point: the validity of the decision. The safe harbor principles apply only to American organizations that self-certify, and U.S. public authorities are not required to comply with them. The decision finds neither that U.S. rules exist limiting interference by the state, nor that effective legal protection against such interference exists. The Court further holds that legislation permitting generalized access to the content of communications compromises the essence of the fundamental right to respect for private life.\n\n## The Shift\n\nThe judgment is often summed up in one sentence: the Court ruled that American protections were insufficient. The operative part says something else. It declares invalid an act of the Commission, because the Commission had not found that the United States ensures an adequate level of protection through its domestic law or its international commitments. And the Court expressly concludes without having to examine the content of the safe harbor principles themselves.\n\nThe power that emerges strengthened from the judgment is that of the national authorities: they can examine the complaint even when a finding of adequacy exists. That finding is an act of the institution that signs it, and its value goes no further than the findings it contains. What remains is the question posed by any compliance regime built on a finding of equivalence: who checks it, and as of what date?",
+ "citation": null,
+ "repere": {
+  "texte": "On October 6, 2015, the Grand Chamber of the Court of Justice of the European Union declares invalid Commission Decision 2000/520, adopted on July 26, 2000.",
+  "source": "Court of Justice of the European Union, Grand Chamber, judgment of October 6, 2015, Schrems, C-362/14, operative part",
+  "url": "https://curia.europa.eu/juris/document/document.jsf?docid=169195&doclang=FR"
+ },
+ "carte": {
+  "punch": "The EU Court of Justice invalidates the “safe harbor” without ruling on its principles themselves.",
+  "idee": "On October 6, 2015, the Schrems judgment invalidates the Commission's 2000 decision on data transfers to the United States. The reason: the Commission had not found that U.S. law ensured adequate protection.",
+  "source_courte": "CJEU, C-362/14, October 6, 2015"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "On what ground does the Court invalidate Article 1 of the “safe harbor” decision?",
+  "choix": [
+   "It examined each safe harbor principle and found that it protected less well than European law",
+   "The Commission had not found that the United States ensures an adequate level of protection through its law or its commitments",
+   "It established that the NSA had accessed Mr. Schrems's personal data hosted by Facebook",
+   "The 1995 directive prohibited the Commission from making any adequacy decision concerning a third country"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The Court invalidates the decision for lack of an adequacy finding by the Commission, without examining the content of the principles. It did not establish any NSA access to Mr. Schrems's data (the Irish Commissioner noted the absence of evidence), and the 1995 directive provided for such adequacy decisions.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How had the Irish Data Protection Commissioner first rejected Mr. Schrems's complaint?",
+   "choix": [
+    "As inadmissible, since Mr. Schrems was not domiciled in Ireland",
+    "As premature, since the High Court had not yet ruled on the case",
+    "As unfounded, for lack of proof of NSA access, and in light of Decision 2000/520",
+    "As moot, since Facebook Ireland had stopped all data transfers in 2013"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The Commissioner rejected the complaint as unfounded: nothing proved NSA access to Mr. Schrems's data, and the question had to be settled according to the 2000 adequacy decision."
+  },
+  {
+   "question": "What does the Court rule on the power of national supervisory authorities, even when the Commission has adopted an adequacy decision?",
+   "choix": [
+    "They must be able to examine a person's complaint with complete independence",
+    "They must wait for the Commission's written authorization before any examination",
+    "They may act only if a national court has first invited them to do so",
+    "They lose all competence over the transfers covered by the decision"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The Court holds that a Commission adequacy decision does not take away from national authorities the power to examine a person's complaint with complete independence; Article 3 of Decision 2000/520, which removed it from them, exceeded the Commission's competence."
+  },
+  {
+   "question": "On what legal basis had the Commission adopted Decision 2000/520 on the “safe harbor”?",
+   "choix": [
+    "On the Treaty of Lisbon, which entered into force in 2009",
+    "On a bilateral agreement signed between Ireland and the United States",
+    "On the General Data Protection Regulation, adopted in 2016",
+    "On Directive 95/46/EC of 1995, the text then in force on personal data"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The July 26, 2000 decision was taken on the basis of Directive 95/46/EC of October 24, 1995, the text then governing personal data in the Union, which predates the 2016 regulation by many years."
+  }
+ ]
+}
