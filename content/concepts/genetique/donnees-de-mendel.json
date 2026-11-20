@@ -44,9 +44,9 @@
       "auteur": "Piegorsch, Walter W.",
       "titre": "Whatever happened to the Gregor Mendel controversy?",
       "publication": "Cornell University eCommons",
-      "annee": 1990,
+      "annee": 1981,
       "url": "https://ecommons.cornell.edu/bitstreams/e701bfb8-db34-4c80-8ad2-945a2caec083/download",
-      "note": "Accès libre. Passe en revue les explications avancées depuis 1936."
+      "note": "Rapport technique Biometrics Unit BU-734-M (édition révisée), daté octobre 1981 selon la notice eCommons — et non 1990, à ne pas confondre avec un autre article de Piegorsch (Biometrics, 1990) sur un sujet voisin mais distinct. Accès libre. Passe en revue les explications avancées depuis 1936."
     }
   ],
   "pour_aller_plus_loin": [
@@ -131,11 +131,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "2f879928fdcc5da6",
+    "fait_le": "2026-11-20",
+    "verdict": "corrige",
+    "empreinte": "dcf7df0768f975d2",
     "notes": [
-      "Re-confirmé après repassage en file causé par un changement purement administratif : quiz.statut est passé de brouillon à valide lors d'une validation en lot postérieure au contrôle du 2026-07-30, ce qui a fait bouger l'empreinte (quiz.statut fait partie de l'objet quiz inclus dans le calcul) sans toucher au fond. Vérifié : aucun autre champ de fond n'a changé (titre, accroche, contenu_vulgarise, citation, repere, carte, sources, pour_aller_plus_loin, quiz hors statut identiques ; empreinte recalculée avec quiz.statut=brouillon retombe exactement sur l'empreinte enregistrée b9a35adfdfcaf849). Spot-check : Fisher 1936 Annals of Science (PDF direct, genepi.qimr.edu.au) toujours en ligne, contenu conforme (réexamen chi carré des comptages de Mendel, accord trop bon, pas d'accusation de fraude, hypothèse d'un biais d'assistant). Pires & Branco 2010 (arXiv 1104.2975) toujours en ligne, résumé confirmé (modèle de biais inconscient, sans fraude, compatible avec l'analyse de Fisher)."
+      "Corrigé : année de la source Piegorsch ('Whatever happened to the Gregor Mendel controversy?') 1990 -> 1981. La notice Cornell eCommons (trouvée par recherche, ecommons.cornell.edu hors liste réseau autorisée) date ce rapport technique Biometrics Unit BU-734-M (édition révisée) d'octobre 1981, et non 1990 : 1990 correspond à un autre article de Piegorsch (Biometrics, titre différent sur les contributions de Fisher), à ne pas confondre. Reste vérifié et conforme : citation exacte de Fisher 1936 ('the data ... have been falsified so as to agree closely with Mendel's expectations'), l'absence d'accusation de Mendel lui-même et l'hypothèse de l'assistant (confirmées par recherche croisée), le résumé Pires & Branco 2010 (Statistical Science 25(4), modèle de biais sans fraude, confirmé via arXiv 1104.2975), la durée de huit ans et les dizaines de milliers de plants (1856-1863, ~28-30 000 plants), et la redécouverte de 1900. Sources genepi.qimr.edu.au et ecommons.cornell.edu hors liste réseau de cette session, vérifiées par recherche croisée à défaut d'ouverture directe."
     ]
   }
 }
