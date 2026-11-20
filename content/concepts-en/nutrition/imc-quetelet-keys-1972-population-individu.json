@@ -1,0 +1,77 @@
+{
+  "id": "nut-imc-quetelet-keys-1972-population-individu",
+  "slug": "imc-quetelet-keys-1972-population-individu",
+  "langue": "en",
+  "empreinte_fr": "89fe786dbab7467c",
+  "traduit_le": "2026-11-20",
+  "moteur": "claude-sonnet-5-5",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Body Mass Index Was Never Meant to Judge One Person",
+  "accroche": "In 1972, Ancel Keys renamed an 1832 index the “body mass index.” His own paper found it useful for comparing populations, not for judging a single person.",
+  "contenu_vulgarise": "A doctor divides a patient's weight by the square of their height, reads the number off a four-box chart, underweight, normal weight, overweight, obese, and enters it in the file like a test result. The body mass index has the look of a clinical measurement, precise, built to judge a body. Its two inventors did not have that in mind.\n\n## An index to describe an average, not a person\n\nThe first, Adolphe Quetelet, is a Belgian astronomer and statistician who, around 1832, sets out to describe what he calls “the average man”: not a real individual, but the statistical summary of an entire population, the same kind of quantity as a nation's average height. To compare builds independently of height, he proposes dividing weight by height squared. His index describes a population distribution, exactly as a national average height describes no one in particular among the people it summarizes.\n\nThe second, Ancel Keys, is an American physiologist known for the Seven Countries Study on diet and heart disease. In 1972, with four co-authors, he publishes in the Journal of Chronic Diseases a comparison of several weight-for-height indices, the percentage of average weight, the simple ratio of weight to height, the ponderal index (the cube root of weight divided by height), and the ratio of weight to height squared, against actually measured body fat (skinfold thickness, body density) in 7,424 “healthy” men drawn from twelve cohorts in five countries.\n\n## Why this ratio won out\n\nThe ratio of weight to height squared, which Keys and his co-authors then name the “body mass index,” is not the most accurate of the lot: it does not account for more than half of the total variance in measured body fatness. It wins for two more modest reasons. First, it is calculated with a single division, with no reference table needed. Second, and this is the point the authors stress themselves, it stays applicable to all populations at all times, unlike the percentage of average weight, which requires knowing the average weight specific to the population and era being measured.\n\nKeys is not claiming, then, to have found the best indicator of an individual's body fat, but the most practical one for comparing groups. In the decades since, the index has nonetheless migrated from statistical tables into the individual medical record, where it serves as a diagnostic threshold. A 2023 review notes, in fact, that it poorly distinguishes fat mass from muscle mass and does not separate abdominal fat, the kind most linked to cardiovascular disease, from fat carried elsewhere on the body.\n\nTwo of its inventors, a hundred and forty years apart, had built a tool to summarize entire populations. It is to judge a single person that it is used most often today.",
+  "repere": {
+    "texte": "The 1972 paper that gives the body mass index its current name covers 7,424 “healthy” men in twelve cohorts across five countries. Judged by correlation with height and with measures of body fatness, the authors find the ratio of weight to height squared preferable to the other indices studied, not for its accuracy, since it does not account for more than half of the variance in body fatness, but for the simplicity of its calculation and, unlike percentage of average weight, its applicability to all populations at all times.",
+    "source": "Keys, A., Fidanza, F., Karvonen, M.J., Kimura, N., Taylor, H.L., “Indices of relative weight and obesity,” Journal of Chronic Diseases, vol. 25, no. 6, 1972, p. 329-343 (republished in the International Journal of Epidemiology, vol. 43, no. 3, 2014, p. 655-665)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24691951/"
+  },
+  "carte": {
+    "punch": "The body mass index was never designed to judge a single person.",
+    "idee": "Adolphe Quetelet invents this weight-to-height-squared ratio in 1832 to describe a population, not an individual. Ancel Keys renames it the “body mass index” in 1972 and prefers it to other indices for its simplicity, not its accuracy: it accounts for less than half of the variance in measured body fat.",
+    "source_courte": "Keys et al., 1972"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Body mass index — the history of the index, from Quetelet to Keys (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Body_mass_index",
+      "note": "Section on the origin of the index with Adolphe Quetelet (around 1832) and its renaming by Ancel Keys (1972)."
+    }
+  ],
+  "quiz": {
+    "question": "Why did Ancel Keys and his co-authors prefer, in 1972, the ratio of weight to height squared over the other weight-for-height indices studied?",
+    "choix": [
+      "Because it accounts for the entire variance in an individual's measured body fat",
+      "Because it had already been validated in clinical trials on obese patients",
+      "Because it accounts for the sex and ethnic background of the people measured",
+      "Because it is simple to calculate and stays applicable to all populations at all times, with no reference table needed"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Keys and his co-authors prefer the ratio of weight to height squared not for its accuracy, since it does not account for more than half of the variance in body fatness, but for its simplicity of calculation and its applicability to all populations, unlike percentage of average weight, which requires a reference table.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who created the ancestor of the body mass index, around 1832, and for what purpose?",
+      "choix": [
+        "Adolphe Quetelet, to statistically describe “the average man” of a population",
+        "Ancel Keys, to diagnose obesity in a patient",
+        "Edward Mellanby, to study rickets in puppies",
+        "Elmer McCollum, to name a new vitamin"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Adolphe Quetelet, a Belgian astronomer and statistician, proposes this ratio around 1832 to describe “the average man” of a population, a statistical quantity, not an individual diagnosis."
+    },
+    {
+      "question": "How many men, and from how many countries, does Keys and his co-authors' 1972 study cover?",
+      "choix": [
+        "74 men, from two countries",
+        "7,424 men, drawn from twelve cohorts in five countries",
+        "742 men, from a single country",
+        "74,240 men, from twenty countries"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The 1972 study covers 7,424 men drawn from twelve cohorts in five countries, whose body fat is measured by skinfold thickness and body density in smaller subsamples."
+    },
+    {
+      "question": "According to the 2023 review by Pray and Riskin, what acknowledged flaw of the body mass index do they cite?",
+      "choix": [
+        "It can only be calculated for people over 50",
+        "It requires a blood test to be measured",
+        "It has been abandoned by every health system since 2010",
+        "It poorly distinguishes fat mass from muscle mass and does not separate abdominal fat from fat carried elsewhere"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The 2023 review notes that the body mass index poorly distinguishes fat mass from muscle mass and does not separate abdominal fat, the kind most linked to cardiovascular disease, from fat carried elsewhere on the body."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "nut-indice-glycemique-jenkins-pain-blanc-sucre",
+  "slug": "indice-glycemique-jenkins-pain-blanc-sucre",
+  "langue": "en",
+  "empreinte_fr": "faa61d4a9a0521f4",
+  "traduit_le": "2026-11-20",
+  "moteur": "claude-sonnet-5-5",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "White Bread Raises Blood Sugar More Than Table Sugar",
+  "accroche": "In 1981, a Toronto team ranked 62 foods by their effect on blood sugar. White bread climbed higher than the sugar we call “fast.”",
+  "contenu_vulgarise": "A complex carbohydrate, like the starch in bread or potatoes, was thought to raise blood sugar slowly, because it takes time to break it down into simple sugars. A simple carbohydrate, like table sugar, was thought to raise it fast, since there is nothing left to break down. This distinction between “slow sugars” and “fast sugars,” based on molecule size, long served as the basis for dietary advice, especially for people with diabetes.\n\n## A measurement instead of a guess\n\nIn 1981, at the University of Toronto, David Jenkins, Thomas Wolever and their colleagues decide to measure the actual effect of foods rather than infer it from their chemical makeup. Sixty-two common foods and sugars are each given separately to groups of five to ten healthy, fasting volunteers. Their blood sugar is tracked for two hours, then expressed as a percentage of the response obtained with the same amount of carbohydrate taken as pure glucose. This is the birth of the glycemic index.\n\nThe results are surprising. Vegetables produce the strongest average rise (70% of the glucose response), followed by breakfast cereals (65%), then cereals and biscuits (60%), fruit (50%), dairy products (35%) and legumes (31%). A stronger rise is associated with a lower fat and protein content. Neither fiber content nor sugar content, however, is correlated with how much the response rises.\n\n## Bread ahead of sugar\n\nThis last point overturns the taught distinction. If sugar content does not predict absorption speed, a starchy food can very well raise blood sugar more than a simple sugar does. That is exactly what the reference tables built on the same principle later show: with pure glucose set at 100, white wheat bread gets an average glycemic index of 75, against 65 for sucrose, table sugar itself. The starch that school calls “slow” therefore raises blood sugar more than the sugar it calls “fast.”\n\nWhat matters is not the size of the molecule, but the speed at which the food releases its carbohydrates into the gut: how fine the flour is milled, how it is cooked, its acidity, the presence of fats or fibers that slow digestion. A highly refined bread, with a fine, airy crumb, offers an enormous surface to digestive enzymes and therefore empties fast into the blood, while a spoonful of sugar eaten with a full meal mixes with fats and fibers that slow its absorption.\n\nThe glycemic index was designed to give people with diabetes a more reliable exchange tool than the simple-or-complex box that school chemistry sorts foods into. It has also changed what can be said about a food: neither its sweet taste nor its apparent chemical structure, on their own, predicts what it does to blood sugar.",
+  "repere": {
+    "texte": "In the international reference table, where pure glucose is set at 100, white wheat bread gets an average glycemic index of 75 ± 2, against 65 ± 4 for sucrose, table sugar itself: the starchy food raises blood sugar more than the sugar we call “fast.”",
+    "source": "Atkinson, F.S., Foster-Powell, K., Brand-Miller, J.C., “International Tables of Glycemic Index and Glycemic Load Values: 2008,” Diabetes Care, vol. 31, no. 12, 2008, p. 2281-2283",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2584181/"
+  },
+  "carte": {
+    "punch": "White bread raises blood sugar more than table sugar does.",
+    "idee": "In 1981, a Toronto team invents the glycemic index to replace the “slow sugar / fast sugar” distinction. The ranking holds a surprise: with pure glucose set at 100, white bread (75) raises blood sugar more than sucrose, table sugar (65).",
+    "source_courte": "Jenkins et al., 1981"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Foster-Powell, Holt, Brand-Miller, “International table of glycemic index and glycemic load values: 2002”",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12081815/",
+      "note": "The earlier version of the reference table, published in the American Journal of Clinical Nutrition."
+    }
+  ],
+  "quiz": {
+    "question": "Why can white bread raise blood sugar faster than table sugar?",
+    "choix": [
+      "Because white bread actually contains more added sugar than table sugar itself",
+      "Because how fast a carbohydrate digests depends on its structure, not just the size of its molecule",
+      "Because table sugar is barely absorbed by the gut, unlike starch",
+      "Because baking bread destroys the fibers that normally slow down table sugar"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The 1981 study shows that a food's sugar content is not correlated with its absorption speed: what matters is the carbohydrate's physical structure, how it is milled, cooked, and its fat and fiber content, not the simple-or-complex box of school chemistry.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How many foods and sugars did Jenkins and his colleagues test in their 1981 study?",
+      "choix": [
+        "62 foods and sugars",
+        "12 foods and sugars",
+        "200 foods and sugars",
+        "6 foods and sugars"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The 1981 study tested 62 common foods and sugars, each given separately to groups of 5 to 10 healthy, fasting volunteers."
+    },
+    {
+      "question": "Which factors are associated with a weaker rise in blood sugar after a meal, according to the 1981 study?",
+      "choix": [
+        "A food's fiber and sugar content",
+        "A food's fat and protein content",
+        "A food's color and visual texture",
+        "The temperature at which the food is eaten"
+      ],
+      "bonne_reponse": 1,
+      "explication": "A higher fat and protein content is associated with a weaker rise in blood sugar, while fiber or sugar content shows no correlation at all."
+    },
+    {
+      "question": "In the 2008 international reference table, which has the higher glycemic index, pure glucose set at 100?",
+      "choix": [
+        "Sucrose, at 75",
+        "They are strictly equal, at 70",
+        "White wheat bread, at 75, against 65 for sucrose",
+        "Sucrose, at 90, against 40 for white bread"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The 2008 table gives an average glycemic index of 75 for white wheat bread, against 65 for sucrose: the starchy food raises blood sugar more than table sugar."
+    }
+  ]
+}
