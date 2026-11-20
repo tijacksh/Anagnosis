@@ -60,12 +60,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-20T22:13:42.559Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-20T22:13:42.559Z",
+        "note": "Sources rouvertes : en.wikipedia.org/wiki/Grassmann's_law (exemples φύω/πέφυκα et θύω/ἐτύθη, mécanisme de désaspiration, citations exactes 'developed separately in Greek and Sanskrit' et 'was not inherited from Proto-Indo-European' confirmées, les deux lectures théoriques concurrentes et leur point de désaccord sur les racines à consonne sourde confirmés) et archive.org/details/zeitschriftfurve0012adal (table des matières du tome 12, 1863, confirme l'article de H. Grafsmann/Grassmann débutant page 81 ; fin à la page 138 non vérifiable directement sur la page archive.org mais déjà confirmée par le contrôle via l'OCR). Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-20",
