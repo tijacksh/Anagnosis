@@ -61,10 +61,25 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-20",
+    "verdict": "a_revoir",
+    "empreinte": "31911f9c816799a4",
+    "notes": [
+      "Sources rouvertes : en.wikipedia.org/wiki/Golden_ratio, section Disputed observations (confirme : Devlin, The Math Instinct, 'is not supported by actual measurements' pour le Parthénon ; Foutakis 2014 sur '15 temples, 18 monumental tombs, 8 sarcophagi, and 58 grave stelae' concluant à l'absence totale du nombre d'or dans l'architecture grecque classique du Ve siècle av. notre ère ; citation Markowsky vérifiée). Deux points à revoir : (1) la fiche écrit 'une soixantaine de stèles funéraires' et omet les '8 sarcophages' du corpus de Foutakis — à compléter pour la précision du chiffre. (2) La fiche attribue à Herz-Fischler (2000) à la fois l'argument du niveau de mathématiques incompatible avec l'Ancien Empire ET le fait qu''aucune source écrite égyptienne ne mentionne cette proportion'. Sur Wikipédia, ce second point ('no direct evidence' dans les sources mathématiques égyptiennes) est attribué à une note distincte citant Rossi (2004), pas à Herz-Fischler — source non citée par la fiche. Probable fusion de deux attributions distinctes sous un seul nom : à vérifier et corriger l'attribution, ou neutraliser la phrase ('les relevés et sources égyptiennes connues ne mentionnent pas...') si la paternité exacte ne peut pas être confirmée."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-19",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -47,7 +47,7 @@
       "publication": "Wikipedia",
       "annee": 2026,
       "url": "https://en.wikipedia.org/wiki/Skewes%27s_number",
-      "note": "Littlewood (1914) : la différence π(x) − li(x) change de signe une infinité de fois. Skewes (1933 puis 1955) : bornes effectives, en tours d'exponentielles. Premier renversement situé près de 1,397 × 10³¹⁶ (Bays et Hudson, 2000)."
+      "note": "Littlewood (1914) : la différence π(x) − li(x) change de signe une infinité de fois, sans point de passage concret. Skewes (1933 puis 1955) : bornes effectives, en tours d'exponentielles. Premier renversement réel situé dans l'intervalle calculé par Bays et Hudson (2000) : [1,39821924 × 10³¹⁶, 1,39821925 × 10³¹⁶] — corrigé au contrôle du 2026-11-20, la note précédente (« près de 1,397 × 10³¹⁶ ») reprenait par erreur un affinement plus tardif (Zegowitz, 2010), non cité dans la fiche."
     }
   ],
   "pour_aller_plus_loin": [],
@@ -72,8 +72,23 @@
   "quiz_supplementaire": [],
   "statut": "brouillon",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-20",
+    "verdict": "corrige",
+    "empreinte": "e0e22de2897a514d",
+    "notes": [
+      "Sources rouvertes : en.wikipedia.org/wiki/On_the_Number_of_Primes... (citation allemande et traduction confirmées mot pour mot, seul article de Riemann en théorie des nombres, novembre 1859), en.wikipedia.org/wiki/Riemann_hypothesis (1,2363 × 10^13 zéros jusqu'à 3×10^12, Platt et Trudgian 2021, confirmé), en.wikipedia.org/wiki/Millennium_Prize_Problems (annonce du 24 mai 2000 à Paris, seule la conjecture de Poincaré résolue, Perelman a refusé le prix le 18 mars 2010 — ces trois points, attribués par la fiche à la page Riemann hypothesis, se trouvent en fait sur la page Millennium Prize Problems ; contenu exact, référence à préciser si on veut être pointilleux, mais sans effet sur le sens), en.wikipedia.org/wiki/Skewes%27s_number. Corrigé : la note de la source Skewes's number attribuait à Bays et Hudson (2000) la valeur '1,397 × 10^316', qui est en réalité un affinement plus tardif de Zegowitz (2010) non cité dans la fiche ; remplacée par l'intervalle exact calculé par Bays et Hudson [1,39821924 ; 1,39821925] × 10^316. Le corps de la fiche ('près de 1,4 × 10^316') reste compatible avec les deux valeurs et n'a pas été modifié."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-19",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

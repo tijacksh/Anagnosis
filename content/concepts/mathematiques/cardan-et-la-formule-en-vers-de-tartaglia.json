@@ -70,10 +70,25 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-20",
+    "verdict": "a_revoir",
+    "empreinte": "8c4b0d8791bd39d4",
+    "notes": [
+      "Sources rouvertes : en.wikipedia.org/wiki/Ars_Magna_(Cardano_book) (confirme le chapitre 37, la citation 'as subtle as it is useless', le crédit à del Ferro/Tartaglia/Ferrari), encyclopedia.com/Tartaglia (confirme le défi de 1535, les 30 problèmes de chaque côté, del Ferro mort en 1526 ayant transmis la méthode à Fior, le débat de Milan en 1548), en.wikipedia.org/wiki/Gerolamo_Cardano (confirme 1539, la transmission 'in the form of a poem', Nuremberg 1545). Deux affirmations du corps ne sont soutenues par aucune des trois sources, et sont même contredites par d'autres sources consultées (en.wikipedia.org/wiki/Niccolò_Fontana_Tartaglia, en.wikipedia.org/wiki/Cubic_equation) : (1) 'pour un dîner' — les sources parlent d'un enjeu en argent ('each put up money', règle du gain de tout l'argent au vainqueur en 30 jours), aucune ne mentionne un dîner ; (2) 'Tartaglia trouve la solution en pleine nuit, quelques jours avant l'échéance' — détail introuvable dans les trois sources citées par la fiche ni dans les sources de contrôle consultées. (3) 'un poème de vingt-cinq vers' — la forme en poème est confirmée, mais aucune source ne donne le nombre de vers (25) ; à vérifier ou à généraliser ('un poème') si la source exacte n'est pas retrouvée."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-19",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

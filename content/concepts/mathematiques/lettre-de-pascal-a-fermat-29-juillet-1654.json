@@ -61,10 +61,25 @@
     "statut": "brouillon"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-20",
+    "verdict": "a_revoir",
+    "empreinte": "15142021043180e8",
+    "notes": [
+      "Sources rouvertes : archive.org/oeuvresdefermat02ferm (texte intégral OCR) et en.wikipedia.org/wiki/Problem_of_points. Deux points à revoir : (1) la fiche dit 'Luca Pacioli puis Gerolamo Cardano s'y étaient déjà essayés' — la source citée (Problem of points) ne mentionne PAS Cardano : elle mentionne Pacioli (1494) puis Tartaglia, qui montre que la méthode de Pacioli échoue dès qu'une seule manche a été jouée. Aucune source consultée (y compris en.wikipedia.org/wiki/Problem_of_points vérifié deux fois) n'attribue de tentative à Cardano sur ce problème précis : probable confusion avec Tartaglia. (2) La fiche attribue à la lettre du 29 juillet 1654 (Lettre LXX, citée pour « Je vois bien que la vérité est la même à Toulouse et à Paris », confirmé mot pour mot dans le texte intégral) le passage où Pascal explique que la méthode de Fermat 'cesse d'être exacte dès qu'un troisième joueur entre en jeu'. Dans le texte intégral (oeuvresdefermat02ferm_djvu.txt), ce passage sur l'échec à trois joueurs ('mal juste' au-delà de deux) se trouve dans une lettre ultérieure, datée du lundi 24 août 1654 (Lettre LXXII), pas dans celle du 29 juillet. La citation elle-même est bien dans la lettre de juillet, mais le contenu_vulgarise et le quiz attribuent à cette même lettre une analyse qui vient en réalité d'une lettre distincte un mois plus tard — à corriger (soit en déplaçant l'explication sur les trois joueurs vers la lettre du 24 août, soit en vérifiant si une autre occurrence existe que nous n'avons pas retrouvée)."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-19", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-19",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
