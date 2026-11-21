@@ -1,0 +1,82 @@
+{
+ "id": "dro-marbury-madison-controle-des-lois",
+ "slug": "marbury-madison-controle-des-lois",
+ "langue": "en",
+ "empreinte_fr": "2cf612445a7b1342",
+ "traduit_le": "2026-11-21",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Original English text of the opinion (Cornell LII), already quoted verbatim in the French entry."
+  }
+ ],
+ "titre": "The Court Takes a Power by Refusing to Use It",
+ "accroche": "In 1803, the U.S. Supreme Court rules that it has no right to decide the case. And in passing, it claims the power to review all laws.",
+ "contenu_vulgarise": "March 1801, Washington. John Adams has lost the election and will leave the presidency within hours. In haste, he appoints a series of justices of the peace, among them one William Marbury. The commissions are signed and sealed, but not all are delivered to their recipients before the change of power. Thomas Jefferson takes office, discovers the undelivered commissions, and orders his Secretary of State, James Madison, to withhold them. Marbury turns to the Supreme Court and asks it to order Madison to hand over his.\n\n## Three questions, and an answer that turns around\n\nOn February 24, 1803, Chief Justice John Marshall breaks the case into three questions. Does Marbury have a right to his commission? Yes: the appointment was complete once signed and sealed, delivery being a mere formality. Is there a remedy against this refusal? Yes, and it is precisely the writ he requests. Can the Court issue it? No.\n\nThis no is the heart of the decision. Marbury had gone directly to the Supreme Court, relying on a provision of the Judiciary Act of 1789 that seemed to allow it. But the Constitution lists exhaustively the cases the Court may hear at first instance, and this one is not among them. Marshall draws the conclusion: on this point, the 1789 law extends a jurisdiction that the Constitution does not grant, and a law contrary to the Constitution cannot apply. Marbury, who is right on the merits, leaves without his commission.\n\n## What the Court actually won that day\n\nNothing in the American Constitution then said expressly that courts may set aside a law passed by Congress. Marshall establishes it by assuming it, in a famous formula: it is the judicial department's province to say what the law is. Judicial review, today considered an institutional given in much of the world, is born there, in a decision where the Court begins by finding that it has no jurisdiction.\n\nThe maneuver is what makes the decision unassailable at the time. Had Marshall ordered Madison to hand over the commission, the Jefferson administration could have ignored the writ, and the Court's weakness would have been exposed for all to see. By declaring itself without jurisdiction, it asks nothing of anyone, so it cannot be refused, and yet it lays down the principle that will later make it able to strike down laws. Power is taken by renouncing a particular case.\n\nThe Supreme Court will not invalidate another federal law until 1857. The principle laid down in 1803 lay dormant for a long time, which is perhaps the best proof that it had been laid down quietly.",
+ "citation": {
+  "texte": "It is emphatically the province and duty of the judicial department to say what the law is.",
+  "auteur": "John Marshall",
+  "source": "Marbury v. Madison, 5 U.S. (1 Cranch) 137, opinion of the Court, February 24, 1803",
+  "url": "https://www.law.cornell.edu/supremecourt/text/5/137"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "By ruling that it had no right to decide, the Court gave itself the review of laws.",
+  "idee": "In 1803, the U.S. Supreme Court finds that it lacks jurisdiction over the Marbury case, because the law that gave it that jurisdiction conflicts with the Constitution. In doing so, it establishes, with no one able to object, that a judge can set aside a law.",
+  "source_courte": "Marbury v. Madison, 1803"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does the Supreme Court refuse to order Madison to hand Marbury his commission?",
+  "choix": [
+   "Because the appointment had never been signed or sealed by the outgoing president",
+   "Because Madison's refusal fell within the president's discretionary power and was beyond a judge's reach",
+   "Because the law giving it jurisdiction to hear the case directly was contrary to the Constitution",
+   "Because the justice of the peace term Marbury sought had expired in the meantime"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Marshall acknowledges that Marbury has a right to his commission and that a remedy exists, but holds that the provision of the 1789 Judiciary Act allowing direct filing with the Court extends a jurisdiction the Constitution does not grant. By setting that law aside, the Court establishes its power to review laws.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does Marshall structure his February 24, 1803 decision?",
+   "choix": [
+    "By deciding three successive questions, on the right, the remedy, and the Court's jurisdiction",
+    "By first consulting several British precedents on the appointment of justices of the peace",
+    "By sending the case straight to a federal trial court in Washington",
+    "By asking Congress for its prior opinion on the exact scope of the 1789 Judiciary Act"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Marshall breaks the case into three questions: does Marbury have a right to his commission, is there a remedy, and can the Court issue it, answering yes, yes, then no to the last.",
+   "statut": "valide"
+  },
+  {
+   "question": "Why does the Court's refusal, rather than an order to Madison, shield its decision from any challenge?",
+   "choix": [
+    "Because a judicial order then bound only state courts, never the federal government",
+    "Because by asking nothing of anyone, it could not be defied by the Jefferson administration",
+    "Because the Constitution explicitly forbade the Court from ruling on presidential appointments",
+    "Because Madison had already announced publicly that he would disobey any writ"
+   ],
+   "bonne_reponse": 1,
+   "explication": "By declaring itself without jurisdiction, the Court asks nothing of the Jefferson administration, so it exposes itself to no refusal. A direct order to Madison could have been ignored, exposing the Court's weakness for all to see.",
+   "statut": "valide"
+  },
+  {
+   "question": "When does the Supreme Court invalidate another federal law after Marbury v. Madison?",
+   "choix": [
+    "The very next year, in 1804, in a case involving Congress",
+    "Never: Marbury v. Madison remains the only federal law the Court has invalidated",
+    "Not until 1857, fifty-four years later",
+    "About a dozen times in the following twenty years, under Marshall's chief justiceship"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry states it: the Supreme Court does not invalidate another federal law until 1857, which suggests that the principle laid down in 1803 lay dormant, quietly, for more than half a century.",
+   "statut": "valide"
+  }
+ ]
+}
