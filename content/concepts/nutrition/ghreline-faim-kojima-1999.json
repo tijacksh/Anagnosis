@@ -55,14 +55,30 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-21T00:00:00.000Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-21T00:00:00.000Z",
+        "note": "Contrôle des sources : le corps situe la connaissance du récepteur GHS-R dans les années 1970, alors qu'il n'a été cloné et caractérisé qu'en 1996 (Howard et al., Science 1996). Seules des molécules de synthèse agissant par un mécanisme alors inconnu existaient depuis les années 1970-1980."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-11-21",
+    "verdict": "a_revoir",
+    "empreinte": "a4a3a6c6dc0f8559",
+    "notes": [
+      "Les deux sources rouvertes via l'API officielle PubMed (PMID 10604470 et 11473029) confirment mot pour mot les chiffres et faits cités (peptide de 28 acides aminés octanoylé sur la sérine 3, homologie rat/humain à deux acides aminés près, hausse quasi double de la ghréline avant chaque repas chez 10 volontaires, retour au niveau minimal en moins d'une heure, rythme inverse de celui de l'insuline). Mais le corps affirme que Kojima cherchait le ligand naturel d'« un récepteur connu depuis les années 1970 ». Le récepteur GHS-R n'a été cloné et caractérisé qu'en 1996 (Howard et al., Science 273(5277):974-7, PMID 8688086) ; seules des molécules de synthèse (growth hormone secretagogues) agissant par un mécanisme alors inconnu étaient utilisées depuis les années 1970-1980. Le récepteur lui-même n'était donc pas « connu » avant 1996, trois ans seulement avant la découverte de la ghréline, et non depuis les années 1970. À corriger : la date attribuée à la connaissance du récepteur, ou reformuler pour distinguer la molécule de synthèse (1970s) du récepteur cloné (1996)."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-21",

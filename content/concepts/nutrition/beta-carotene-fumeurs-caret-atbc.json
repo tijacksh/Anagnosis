@@ -55,14 +55,30 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-21T00:00:00.000Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-21T00:00:00.000Z",
+        "note": "Contrôle des sources : l'accroche et carte.idee affirment que les deux essais (ATBC et CARET) ont dû être arrêtés avant leur terme, mais seul CARET l'a été ; ATBC a mené son suivi jusqu'au terme planifié de cinq à huit ans, sans arrêt anticipé documenté par le résumé NEJM."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-11-21",
+    "verdict": "a_revoir",
+    "empreinte": "a65abeb28af8e6e5",
+    "notes": [
+      "Sources rouvertes via l'API officielle PubMed (PMID 8127329 et 8901853) : tous les chiffres sont exacts (ATBC : +18% d'incidence du cancer du poumon, +8% de mortalité totale ; CARET : RR 1,36 pour l'incidence, RR 1,59 pour la mortalité, essai arrêté 21 mois avant son terme). Mais l'accroche (« deux essais sur des fumeurs ont dû être arrêtés ») et carte.idee (« Les deux ont dû être arrêtés ») affirment que les DEUX essais ont été interrompus avant leur terme. Seul CARET l'a été, sur décision du comité de surveillance, 21 mois avant la fin prévue. Le résumé NEJM de l'essai ATBC ne mentionne aucun arrêt anticipé : le suivi a duré cinq à huit ans comme prévu, et les résultats ont été publiés à l'issue de cette période planifiée (ce que dit d'ailleurs correctement le corps de la fiche, qui ne revendique un arrêt anticipé que pour CARET). À corriger : l'accroche et la carte prêtent à ATBC un arrêt anticipé qu'aucune source ne documente."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-21",

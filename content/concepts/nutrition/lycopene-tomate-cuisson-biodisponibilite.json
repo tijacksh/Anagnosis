@@ -55,14 +55,30 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-21T00:00:00.000Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-21T00:00:00.000Z",
+        "note": "Contrôle des sources : deux affirmations du corps dépassent ce que les sources établissent — le lien entre séchage prolongé et baisse de biodisponibilité (la revue ne parle que d'isomérisation/oxydation), et l'extension du mécanisme au bêta-carotène des carottes, absente des deux sources citées."
+      }
+    ]
   },
-  "controle": null,
+  "controle": {
+    "fait_le": "2026-11-21",
+    "verdict": "a_revoir",
+    "empreinte": "e0db1add83fd7bec",
+    "notes": [
+      "Les deux sources rouvertes confirment l'essentiel : PMID 9209178 (API PubMed) confirme 23 mg de lycopène, 15g d'huile de maïs, pic ×2,5, aire sous la courbe ×3,8 en faveur de la purée cuite. La revue Antioxidants 2021 (PMC7996133, texte intégral lu) confirme les cristaux de lycopène piégés dans les chromoplastes de la tomate crue et leur dissociation par la cuisson/le broyage. Deux points non étayés par ces sources : (1) le corps affirme qu'un séchage prolongé « réduit sa disponibilité » — la revue parle d'isomérisation, d'oxydation et d'instabilité du lycopène pendant le séchage à l'air, sans relier explicitement ce phénomène à une biodisponibilité mesurée en baisse ; (2) la dernière phrase du corps étend le mécanisme au bêta-carotène des carottes (« cuisson et broyage augmentent de la même façon la part réellement absorbée ») — aucune des deux sources citées ne traite des carottes ni du bêta-carotène dans ce sens : c'est une généralisation non sourcée dans la fiche. À vérifier et sourcer spécifiquement, ou retirer/atténuer."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-21",
