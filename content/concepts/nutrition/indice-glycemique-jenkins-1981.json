@@ -55,12 +55,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-21T22:11:04.942Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-21T22:11:04.942Z",
+        "note": "Sources rouvertes : résumé PubMed PMID 6259925 via l'API NCBI eutils (groupes de 5 à 10 volontaires sains à jeun, légumineuses 31% ±3, fruits 50% ±5, céréales et biscuits 60% ±3 par rapport au glucose pur, corrélation négative lipides/protéines, absence de lien fibres/sucre — tout confirmé mot pour mot) ; article Harvard Chan (hsph.harvard.edu, 17 octobre 2024) confirme le contexte des régimes pauvres en glucides à la mode fin des années 1970. Affiliation université de Toronto de Jenkins vérifiée sur Wikipédia (fr. non citée dans la fiche, détail de contexte, exact). Repère, carte et quiz conformes aux sources ; position et longueur de la bonne réponse correctes."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-21",
