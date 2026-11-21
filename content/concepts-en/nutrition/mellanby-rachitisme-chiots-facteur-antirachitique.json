@@ -1,0 +1,83 @@
+{
+  "id": "nut-mellanby-rachitisme-chiots-facteur-antirachitique",
+  "slug": "mellanby-rachitisme-chiots-facteur-antirachitique",
+  "langue": "en",
+  "empreinte_fr": "a2befcf08188057d",
+  "traduit_le": "2026-11-21",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Mellanby a publié en anglais (The Lancet, 1919) ; la citation reprend le texte original, non une traduction."
+    }
+  ],
+  "titre": "Curing rickets without knowing what did the curing",
+  "accroche": "In London in 1918, a researcher gives puppies rickets with porridge, then cures them with cod liver oil, without knowing the real remedy.",
+  "contenu_vulgarise": "In 1918, Britain's Medical Research Committee asked Edward Mellanby, a researcher at the Brown Institute of the University of London, to find the cause of rickets, the disease that deforms the bones of children in poor neighborhoods. Mellanby picked an unexpected animal: the puppy, which grows fast and develops the disease within a few months. He confined entire litters and fed them oatmeal porridge or bread, with milk and salt. Deprived of sunlight and kept on this diet, the puppies began to limp, their joints swelled, and their bones bowed, exactly as in the rachitic child.\n\n## A cure found before it was understood\n\nMellanby then tested, one by one, dozens of additions to this rickets-producing diet. Butter protected the puppies, as did most animal fats, to varying degrees. Only linseed oil failed outright. At the top of this scale stood cod liver oil, which cured already-sick puppies almost without fail. In 1919, in two lectures delivered at the Royal College of Surgeons, Mellanby could already report that his work had already involved two hundred puppies and was still incomplete. He concluded that rickets was a deficiency disease: the diet lacked a fat-soluble accessory factor, one that closely resembled a substance already known as fat-soluble vitamin A, isolated a few years earlier by McCollum and his colleagues from growth experiments.\n\n## The right cure, the wrong explanation\n\nThis is exactly where Mellanby went wrong. In 1922, McCollum, the very scientist who had named vitamin A, took cod liver oil and bubbled oxygen through it for several hours. The treatment destroyed its activity against night blindness, a sign that vitamin A was gone. Yet the depleted oil still cured rickets just as effectively as before. The conclusion was inescapable: a second substance, distinct from vitamin A, was at work. McCollum named it vitamin D.\n\nA second blind spot accompanied the first, and it was built into the protocol itself. Mellanby's puppies lived indoors, never seeing the sun, which made a dietary source of vitamin D strictly indispensable. Outdoors, exposed to light, skin makes this vitamin on its own; this is in fact why rickets stayed rare in the countryside and common in the smoke-filled industrial cities of Edwardian England. Mellanby had therefore been right about the essential point: a missing dietary factor causes the disease, and cod liver oil cures it. He had only been wrong about the factor's identity, and his own protocol, by excluding daylight by design, kept him from seeing that diet was, for the slum child, only one of two possible remedies.",
+  "citation": {
+    "texte": "It may not be out of place to record that this investigation, undertaken for the Medical Research Committee, has already involved the use of 200 puppies and is still incomplete.",
+    "auteur": "Edward Mellanby",
+    "source": "An Experimental Investigation on Rickets, Lecture I, reprinted from The Lancet, March 15, 1919, p. 4",
+    "url": "https://archive.org/details/b30622219"
+  },
+  "carte": {
+    "punch": "A researcher cured rickets four years before knowing with what.",
+    "idee": "In 1918, Edward Mellanby gives puppies rickets with porridge, then cures them with cod liver oil. He believes he has found vitamin A. In 1922, McCollum proves a different substance is at work alone: vitamin D, which the puppies, kept indoors without sunlight, could not make for themselves.",
+    "source_courte": "The Lancet, 1919"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "An Experimental Investigation on Rickets (1919), full digitized text",
+      "url": "https://archive.org/details/b30622219",
+      "note": "Mellanby's two lectures, with the complete tables of diets and fats tested on several hundred puppies."
+    }
+  ],
+  "quiz": {
+    "question": "Why does Mellanby wrongly conclude that the factor curing rickets is vitamin A?",
+    "choix": [
+      "Because cod liver oil contained only vitamin A",
+      "Because the factor's distribution in foods resembled that of vitamin A",
+      "Because he had not considered any other hypothesis",
+      "Because his puppies received vitamin A by injection"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Mellanby links the antirachitic factor to vitamin A because their distribution across foods looks similar. Only in 1922 does McCollum prove, by destroying a cod liver oil's vitamin A activity while its antirachitic power stays intact, that two distinct substances are involved."
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Which fat, among those Mellanby tested, fails completely against rickets?",
+      "choix": [
+        "Butter",
+        "Cod liver oil",
+        "Linseed oil",
+        "Pork fat"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Among the many animal and vegetable fats tested, almost all protect against rickets to some degree. Only linseed oil proves entirely ineffective in Mellanby's experiments."
+    },
+    {
+      "question": "How does McCollum prove, in 1922, that the antirachitic factor is not vitamin A?",
+      "choix": [
+        "By comparing two cod liver oils from different fish",
+        "By destroying an oil's vitamin A through oxidation, while its antirachitic power stayed intact",
+        "By feeding puppies only synthetic vitamin A",
+        "By measuring vitamin A levels in the blood of cured puppies"
+      ],
+      "bonne_reponse": 1,
+      "explication": "By bubbling oxygen through cod liver oil, McCollum destroys its activity against night blindness, a sign that vitamin A is gone. The oil still cures rickets just as well: a second, distinct substance must be responsible."
+    },
+    {
+      "question": "Why did Mellanby's own protocol keep him from seeing the role of sunlight in rickets?",
+      "choix": [
+        "Because his puppies lived indoors, never exposed to daylight",
+        "Because he only worked at night, for lack of staff",
+        "Because the Royal College in London received no natural light",
+        "Because he believed light made rickets worse"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Mellanby's puppies were raised in cages, without daylight, which made a dietary source of vitamin D strictly necessary. His protocol thus excluded, by design, the other possible source of that vitamin: skin exposed to the sun."
+    }
+  ]
+}

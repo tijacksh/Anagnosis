@@ -1,0 +1,69 @@
+{
+  "id": "nut-jenkins-index-glycemique-glace-pain",
+  "slug": "jenkins-index-glycemique-glace-pain",
+  "langue": "en",
+  "empreinte_fr": "3658adfeb73cae7a",
+  "traduit_le": "2026-11-21",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Ice cream that raises blood sugar less than a slice of bread",
+  "accroche": "In 1981, a Toronto team measures post-meal blood sugar and finds that ice cream raises it less than the same amount of carbohydrate as white bread.",
+  "contenu_vulgarise": "In the late 1970s, diabetics watching their diet thought in terms of \"carbohydrate exchanges\": a portion of bread, pasta, or fruit was worth a given amount of carbohydrate, and any portion with the same carbohydrate weight was assumed to affect blood sugar the same way. David Jenkins and his team, at the University of Toronto, doubted this equivalence: in practice, the same patients reacted very differently depending on the food, even at equal carbohydrate amounts.\n\n## Measuring, rather than assuming\n\nIn 1981, the team published a simple protocol in the American Journal of Clinical Nutrition. Sixty-two common foods and sugars were each given, in a quantity providing 50 grams of carbohydrate, to groups of five to ten healthy, fasting volunteers. Repeated blood draws over the following two hours traced the blood sugar curve, whose area was then measured. This area was compared to the one obtained with 50 grams of pure glucose, arbitrarily set at 100: a food's glycemic index is the percentage its own area represents relative to glucose's.\n\nThe resulting ranking by category roughly matches intuition: root vegetables and breakfast cereals climb high, around 65 to 70, fruits sit around 50, dairy products and legumes stay low, around 30 to 35. But the detailed, food-by-food table flatly contradicts the starting equivalence. In that same table, ice cream scores 36, lentils 29, against 69 for white bread: at strictly equal carbohydrate amounts, ice cream raises blood sugar less than a slice of bread.\n\n## It is not the sugar that matters most\n\nThe team then looked for what, in a food's composition, actually predicts its glycemic response. The answer came from neither its sugar content nor its fiber content, whose correlation with the blood sugar rise stays weak. It was fat and protein content that proved significantly associated, and in the opposite direction: the more a food contains, the more the blood sugar rise is blunted. White bread, almost pure starch, releases its glucose fast and unchecked. Ice cream, fatty and protein-rich, slows stomach emptying and the digestion of the starch it still contains, smoothing out the glycemic response accordingly.\n\nThe glycemic index thus overturns a firmly held intuition, the one that sorted foods into fast sugars to avoid and reassuring complex starches. But it immediately shifts the problem rather than closing it: it measures a response to 50 grams of carbohydrate, not to the portion actually eaten on a plate. A cooked carrot shows a high index, but contains so little carbohydrate per portion that its real effect on blood sugar stays minor. It is to correct this blind spot that the notion of glycemic load, which weighs the index by the amount of carbohydrate actually eaten, would come to complete Jenkins's work a few years later.",
+  "repere": {
+    "texte": "In the original table from Jenkins and his team, ice cream scores a glycemic index of 36 and lentils 29, against 69 for white bread, each compared to a reference load of pure glucose set at 100.",
+    "source": "Jenkins et al., American Journal of Clinical Nutrition, 1981, table reproduced in Bantle, Journal of Nutrition, 2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2714385/"
+  },
+  "carte": {
+    "punch": "Ice cream raises blood sugar less than white bread, at equal carbohydrate amounts.",
+    "idee": "In 1981, David Jenkins's team measures post-meal blood sugar for sixty-two foods. The result runs against the carbohydrate-exchange assumptions of the time: ice cream 36, lentils 29, white bread 69. It is not sugar content that predicts the glycemic response, but fat and protein content, which blunt it.",
+    "source_courte": "AJCN, Jenkins et al., 1981"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why can ice cream raise blood sugar less than a slice of white bread, at equal carbohydrate amounts?",
+    "choix": [
+      "Because it contains less added sugar than bread",
+      "Because its fat and protein slow down its digestion",
+      "Because cold slows absorption in the intestine",
+      "Because white bread contains far more fiber"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Jenkins's study finds a relationship between fat/protein content and a blunted glycemic response, not with sugar or fiber content. White bread, almost pure starch, releases its glucose fast; ice cream, fatty and protein-rich, slows digestion and smooths out the response."
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How is a food's glycemic index calculated in the 1981 study?",
+      "choix": [
+        "By comparing the area under a food's blood sugar curve to that of an equal amount of pure glucose",
+        "By directly measuring the food's sugar content",
+        "By asking volunteers how hungry they feel after the meal",
+        "By comparing the food's weight before and after digestion"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The glycemic index is the percentage that a food's blood sugar area, measured over two hours after eating 50 g of carbohydrate, represents relative to the area obtained with the same amount of pure glucose, set at 100."
+    },
+    {
+      "question": "How many common foods and sugars does Jenkins's team test in the 1981 study?",
+      "choix": [
+        "Twelve",
+        "Sixty-two",
+        "Two hundred"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The 1981 study tests sixty-two common foods and sugars, each given to groups of five to ten healthy, fasting volunteers, in an amount providing 50 grams of carbohydrate."
+    },
+    {
+      "question": "Why does the notion of glycemic load come to complement the glycemic index a few years later?",
+      "choix": [
+        "Because the glycemic index did not account for the amount of carbohydrate actually eaten in a portion",
+        "Because the glycemic index turned out to be entirely wrong",
+        "Because the glycemic index only applied to diabetics",
+        "Because pure glucose was no longer considered a reliable reference"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The glycemic index measures a response to a fixed 50 g of carbohydrate, not to the portion actually eaten. A food with a high index but little carbohydrate per portion, like a cooked carrot, has a small real effect: glycemic load weighs the index by the amount actually consumed."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nut-rose-threonine-derniere-acide-amine",
+  "slug": "rose-threonine-derniere-acide-amine",
+  "langue": "en",
+  "empreinte_fr": "80360aee67f9eee7",
+  "traduit_le": "2026-11-21",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Threonine, found because a rat refused to grow",
+  "accroche": "In the 1930s, rats fed nineteen pure amino acids wasted away; fed whole casein, they grew normally: a twentieth one was missing.",
+  "contenu_vulgarise": "At the University of Illinois, in the 1930s, biochemist William Cumming Rose fed rats purified mixtures of amino acids, the building blocks that make up proteins, instead of whole proteins like meat or milk. The idea was to start from scratch: if you know exactly which amino acids an animal receives, you can determine which ones it truly cannot do without. There was a problem: fed the nineteen amino acids known to science at the time, his rats did not grow. Fed casein, milk's protein, known to be made of those very same building blocks, they grew normally. One conclusion followed: an amino acid was missing from the list.\n\n## A missing building block, found in a bowl of casein\n\nRose and his team set out to chemically fractionate casein to isolate whatever was still escaping their synthetic mixtures. In 1935, in a paper signed McCoy, Meyer, and Rose, they identified and named this compound: threonine, the last of the twenty common protein building blocks to be discovered. With the list complete, Rose switched methods: instead of adding amino acids one by one to an insufficient diet, he removed them one by one from a complete diet, and watched which withdrawal stopped the animal's growth. In the rat, ten amino acids turned out to be truly indispensable this way, the body being unable to make them from anything else.\n\n## A test redone, species by species\n\nRose did not stop there. Nothing guaranteed that the list established in the rat held for humans, whose metabolism differs on several points. Starting in the 1940s, he reproduced the same withdrawal protocol, this time on volunteer students at Illinois, placed on synthetic diets stripped of one amino acid at a time. The signal he looked for was no longer growth, already achieved in an adult, but nitrogen balance: as long as the body absorbs as much nitrogen as it eliminates, it is not drawing on its own tissues to make up a shortfall; the moment an indispensable amino acid disappears from the diet, that balance tips. The result was surprising: in the adult human, the same method retained only eight, two fewer than in the rat.\n\nWhat the story of threonine mainly shows is that a nutritional requirement cannot be deduced by analogy from one species to another, even a closely related one: it has to be measured directly on the organism in question. The laboratory rat had supplied the method and the first list; the whole protocol had to be redone, start to finish, to find out what actually held true for the human who ate in those same laboratories.",
+  "repere": {
+    "texte": "In the rat Rose had been studying since the 1930s, ten amino acids prove indispensable; applied to the adult human, the same withdrawal method retains only eight.",
+    "source": "Based on EBSCO Research Starters, \"Hopkins Announces the Discovery of Tryptophan,\" Significance section",
+    "url": "https://ebsco.com/research-starters/history/hopkins-announces-discovery-tryptophan"
+  },
+  "carte": {
+    "punch": "An amino acid was missing from the list: found because a rat refused to grow.",
+    "idee": "In the 1930s, William Rose discovers that rats fed pure amino acids do not grow, unlike those fed whole casein. Searching for the missing building block, he isolates threonine in 1935, then establishes eight indispensable amino acids in the adult human, against ten in the rat, using the same method.",
+    "source_courte": "McCoy, Meyer, Rose, 1935"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "What leads Rose to suspect an amino acid is missing from the list of nineteen then known?",
+    "choix": [
+      "Rats fed whole casein grow, while rats fed the nineteen pure amino acids do not",
+      "Chemical analyses of casein directly reveal an unknown amino acid",
+      "Volunteer students show unexplained deficiencies",
+      "Another laboratory publishes the existence of a missing amino acid"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Casein is made of the very same building blocks as Rose's synthetic mixtures, yet only casein lets the rats grow normally. This gap, between a reconstituted mixture and the whole protein, is what drives Rose to search for the missing building block: threonine, isolated in 1935."
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What method does Rose use to establish the list of indispensable amino acids, once threonine is identified?",
+      "choix": [
+        "He adds amino acids one by one to an insufficient diet",
+        "He removes amino acids one by one from a complete diet and watches the effect on growth",
+        "He compares the proteins of several animal species with each other",
+        "He measures the amount of each amino acid present in the blood"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Once the full list of amino acids is known, Rose switches methods: he starts from a complete diet and removes one amino acid at a time, to see which one, once absent, stops the animal's growth."
+    },
+    {
+      "question": "What signal does Rose use in the adult human, for whom growth is no longer an available indicator?",
+      "choix": [
+        "Weight loss",
+        "Nitrogen balance, between nitrogen absorbed and nitrogen eliminated",
+        "Resting heart rate",
+        "Skin color"
+      ],
+      "bonne_reponse": 1,
+      "explication": "In the adult, Rose monitors nitrogen balance: as long as the body absorbs as much nitrogen as it eliminates, it is not drawing on its own tissues. The moment an indispensable amino acid is missing, that balance tips, which reveals the amino acids truly indispensable in humans."
+    },
+    {
+      "question": "How many indispensable amino acids does Rose's method retain in the adult human, versus the rat?",
+      "choix": [
+        "Eight in humans, versus ten in the rat",
+        "Ten in humans, versus eight in the rat",
+        "The same number, nine, in both cases",
+        "Twenty in humans, versus nineteen in the rat"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The withdrawal method, applied first to the rat and then to humans, does not give the same result across species: ten indispensable amino acids in the rat, only eight in the adult human. A nutritional requirement cannot therefore be assumed to carry over automatically from one species to another."
+    }
+  ]
+}
