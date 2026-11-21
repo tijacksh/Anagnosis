@@ -2,7 +2,7 @@
   "id": "nut-ghreline-faim-kojima-1999",
   "slug": "ghreline-faim-kojima-1999",
   "langue": "en",
-  "empreinte_fr": "61177f344dba4977",
+  "empreinte_fr": "fc813b38270f4f66",
   "traduit_le": "2026-11-21",
   "moteur": "claude-code",
   "relu": false,
@@ -34,5 +34,28 @@
     "explication": "Leptin, discovered in 1994, signals satiety to the brain. Ghrelin, isolated in 1999, turned out to be the opposing hunger signal, its level nearly doubling before each meal in humans. The other three statements contradict the two studies cited in the entry.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What is distinctive about the 28-amino-acid peptide isolated by Kojima's team in 1999?",
+      "choix": [
+        "It is no different from dozens of other peptides already known in the stomach",
+        "It carries an unusual chemical modification on one amino acid, essential to its activity",
+        "It breaks down within seconds and cannot be measured in the blood",
+        "It exists only in rats and has never been found in humans"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The peptide isolated by Kojima's team carries an unusual chemical modification on one of its amino acids, essential to its biological activity; the human version differs from the rat's by only two amino acids, contradicting the last statement."
+    },
+    {
+      "question": "How does the ghrelin level change over 24 hours, according to the 2001 study?",
+      "choix": [
+        "It stays perfectly stable, whether or not a meal occurs",
+        "It climbs steadily throughout the day and never drops",
+        "It almost doubles before each meal, then drops within the hour that follows",
+        "It follows exactly the same rhythm as insulin, in the same direction"
+      ],
+      "bonne_reponse": 2,
+      "explication": "According to the 2001 study, plasma ghrelin almost doubles before each meal then drops within the following hour, a rhythm opposite to insulin's, not identical as the last statement claims."
+    }
+  ]
 }

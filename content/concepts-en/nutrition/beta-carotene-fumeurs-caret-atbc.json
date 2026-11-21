@@ -2,7 +2,7 @@
   "id": "nut-beta-carotene-fumeurs-caret-atbc",
   "slug": "beta-carotene-fumeurs-caret-atbc",
   "langue": "en",
-  "empreinte_fr": "e6057ac7da5eae96",
+  "empreinte_fr": "aea850ef8478fc0d",
   "traduit_le": "2026-11-21",
   "moteur": "claude-code",
   "relu": false,
@@ -34,5 +34,28 @@
     "explication": "Both trials found the opposite of what they were testing: beta-carotene pills increased lung cancer incidence and mortality in smokers. CARET was even stopped 21 months early for exactly this reason; ATBC, for its part, ran its follow-up to its planned end and found the same signal. The other three statements contradict the two studies cited in the entry.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "How many Finnish smokers did the ATBC trial recruit?",
+      "choix": [
+        "18,314 Finnish smokers aged 40 to 60",
+        "5,000 Finnish smokers aged 30 to 50",
+        "29,133 Finnish smokers aged 50 to 69",
+        "50,000 Finnish smokers with no age limit"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The ATBC trial recruited 29,133 Finnish smokers aged 50 to 69, split between beta-carotene alone, vitamin E alone, both, or a placebo. The other numbers do not match either trial described in the entry."
+    },
+    {
+      "question": "What population, besides smokers and former smokers, took part in the CARET trial?",
+      "choix": [
+        "Children followed from birth through adolescence",
+        "Asbestos-exposed workers",
+        "Patients hospitalized for chronic pneumonia",
+        "Elite athletes followed throughout their careers"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The CARET trial recruited smokers, former smokers, and asbestos-exposed workers, a population carrying two risk factors for lung cancer at once. None of the other groups is mentioned in the entry."
+    }
+  ]
 }

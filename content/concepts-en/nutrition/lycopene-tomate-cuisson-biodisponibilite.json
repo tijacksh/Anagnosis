@@ -2,7 +2,7 @@
   "id": "nut-lycopene-tomate-cuisson-biodisponibilite",
   "slug": "lycopene-tomate-cuisson-biodisponibilite",
   "langue": "en",
-  "empreinte_fr": "f15cfebb69ac6ae8",
+  "empreinte_fr": "cb8edec6ceae7d03",
   "traduit_le": "2026-11-21",
   "moteur": "claude-code",
   "relu": false,
@@ -34,5 +34,28 @@
     "explication": "In raw tomato, lycopene stays locked inside crystals within the fruit's cells. Cooking and crushing destroy this structure and release the pigment. Both arms of the study received the same amount of lycopene and added oil, which rules out the other explanations.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "How did the researchers measure the lycopene that actually enters the bloodstream, in the 1997 study?",
+      "choix": [
+        "By testing urine collected for 48 hours after the meal",
+        "Via the chylomicron fraction, the particles that carry fat absorbed from the intestine",
+        "By counting lycopene crystals visible under a microscope in a blood sample",
+        "Through an intestinal wall biopsy taken after each meal"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The Düsseldorf team measured absorbed lycopene via the chylomicron fraction, the particles that carry fat from the intestine through the blood, not through urine, a biopsy, or a microscope count."
+    },
+    {
+      "question": "What does the 2021 review say about overly intense heat treatment, such as prolonged air drying, on lycopene?",
+      "choix": [
+        "That it has no effect whatsoever, regardless of duration",
+        "That it multiplies the absorbable lycopene tenfold",
+        "That it makes lycopene unstable and eventually isomerizes and oxidizes it",
+        "That it turns lycopene into vitamin C"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The 2021 review notes that overly intense heat treatment, such as prolonged air drying, makes lycopene unstable and eventually isomerizes and oxidizes it: cooking is a trade-off, not something to push indefinitely."
+    }
+  ]
 }

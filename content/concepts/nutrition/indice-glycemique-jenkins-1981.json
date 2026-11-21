@@ -54,7 +54,30 @@
     "explication": "Les légumineuses sèches, classées comme féculents complexes, obtiennent un score plus bas (31 %) que les fruits (50 %), qui contiennent des sucres simples : la mesure directe de la glycémie contredit la distinction chimique attendue entre les deux catégories.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Comment l'indice glycémique de chaque aliment testé par Jenkins est-il exprimé ?",
+      "choix": [
+        "En pourcentage de la réponse glycémique obtenue avec la même quantité de glucose pur",
+        "En grammes de sucre absorbés par heure",
+        "En nombre de calories libérées par portion",
+        "En durée, en minutes, avant le retour à la glycémie de départ"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Jenkins rapporte chaque résultat en pourcentage de la réponse glycémique obtenue avec la même quantité de glucides pris sous forme de glucose pur : c'est la définition même de l'indice glycémique dans son étude de 1981."
+    },
+    {
+      "question": "Quels facteurs de l'aliment sont corrélés négativement à la hausse glycémique dans l'étude de Jenkins ?",
+      "choix": [
+        "Les fibres et la teneur en sucre, prises isolément",
+        "Les lipides et les protéines",
+        "La couleur et la texture de l'aliment",
+        "Le prix et la disponibilité en supermarché"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Dans l'étude de 1981, les lipides et les protéines de l'aliment sont corrélés négativement à la hausse glycémique ; les fibres et la teneur en sucre, prises isolément, n'y sont pas liées de façon significative, contrairement à la première proposition."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

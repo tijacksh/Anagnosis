@@ -2,7 +2,7 @@
   "id": "nut-indice-glycemique-jenkins-1981",
   "slug": "indice-glycemique-jenkins-1981",
   "langue": "en",
-  "empreinte_fr": "cfee1d92647e6f61",
+  "empreinte_fr": "1e54019e9c657827",
   "traduit_le": "2026-11-21",
   "moteur": "claude-code",
   "relu": false,
@@ -34,5 +34,28 @@
     "explication": "Dried legumes, classified as complex starches, score lower (31%) than fruit (50%), which contains simple sugars: direct measurement of blood sugar contradicts the chemical distinction expected between the two categories.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "How is the glycemic index of each food tested by Jenkins expressed?",
+      "choix": [
+        "As a percentage of the glycemic response produced by the same amount of pure glucose",
+        "In grams of sugar absorbed per hour",
+        "In the number of calories released per serving",
+        "In the number of minutes before blood sugar returns to baseline"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Jenkins reports each result as a percentage of the glycemic response produced by the same amount of carbohydrate taken as pure glucose: that is the very definition of the glycemic index in his 1981 study."
+    },
+    {
+      "question": "Which factors in a food are negatively correlated with the glycemic rise in Jenkins's study?",
+      "choix": [
+        "Fiber and sugar content, taken on their own",
+        "Fat and protein",
+        "The food's color and texture",
+        "Its price and availability in supermarkets"
+      ],
+      "bonne_reponse": 1,
+      "explication": "In the 1981 study, a food's fat and protein are negatively correlated with the glycemic rise; fiber and sugar content, taken on their own, are not significantly linked to it, unlike the first statement claims."
+    }
+  ]
 }
