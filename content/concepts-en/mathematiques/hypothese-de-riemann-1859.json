@@ -2,7 +2,7 @@
   "id": "mat-hypothese-de-riemann-1859",
   "slug": "hypothese-de-riemann-1859",
   "langue": "en",
-  "empreinte_fr": "aad4381b9f54b529",
+  "empreinte_fr": "7307006775fcb874",
   "traduit_le": "2026-11-21",
   "moteur": "claude-code",
   "relu": false,
@@ -39,5 +39,39 @@
     "bonne_reponse": 1,
     "explication": "Skewes' number shows that a pattern confirmed on an enormous number of cases (here, π(x) < li(x)) can still reverse beyond the reach of any possible check; the zeros verified so far cover only a bounded range, and nothing guarantees the critical line holds beyond it."
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "Who announced the seven Millennium Prize Problems, on May 24, 2000?",
+      "choix": [
+        "The Berlin Academy of Sciences",
+        "The Clay Mathematics Institute",
+        "The Nobel Foundation",
+        "The Fields Institute"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The entry specifies that the seven Millennium Prize Problems, including the Riemann hypothesis, were announced on May 24, 2000, by the Clay Mathematics Institute, each carrying a million-dollar reward."
+    },
+    {
+      "question": "Which of the seven Millennium Prize Problems has been solved since the year 2000, according to the entry?",
+      "choix": [
+        "The Birch and Swinnerton-Dyer conjecture",
+        "The Riemann hypothesis",
+        "The Poincaré conjecture",
+        "The P versus NP problem"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The entry says only one of the seven problems has been solved since 2000, the Poincaré conjecture, proved by Grigori Perelman, who turned the prize down in 2010, with the other six still open."
+    },
+    {
+      "question": "According to the entry, what does Riemann's 1859 sentence about the zeros of his function literally say?",
+      "choix": [
+        "That it is certain that all roots are real",
+        "That no root is real",
+        "That it is impossible to know whether the roots are real",
+        "That it is very probable that all roots are real"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The translated quotation in the entry says it is very probable that all roots are real, so Riemann states a probability rather than a certainty, and does not prove the claim."
+    }
+  ]
 }
