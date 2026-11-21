@@ -78,7 +78,41 @@
     "explication": "Le nombre de Skewes illustre qu'une régularité confirmée sur des quantités énormes de cas (ici, π(x) < li(x)) peut s'inverser au-delà de toute vérification possible ; les zéros vérifiés ne couvrent qu'un intervalle borné, et rien ne garantit que la ligne critique continue au-delà.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Sur quoi porte précisément l'hypothèse de Riemann, telle que la fiche la décrit ?",
+      "choix": [
+        "Que les nombres premiers suivent une règle de répartition périodique",
+        "Que tous les zéros non triviaux de la fonction zêta ont pour partie réelle 1/2",
+        "Que la fonction zêta ne s'annule qu'en un nombre fini de points",
+        "Que tous les zéros, triviaux et non triviaux, se trouvent sur la même droite"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'hypothèse porte sur les zéros non triviaux de la fonction zêta, que Riemann a trouvés alignés sur la droite de partie réelle 1/2, la ligne critique, sans le démontrer."
+    },
+    {
+      "question": "Quel institut a doté l'hypothèse de Riemann d'un million de dollars, et à quelle date ?",
+      "choix": [
+        "L'Académie des sciences de Berlin, en 1859",
+        "Le Clay Mathematics Institute, le 18 mars 2010",
+        "Le Clay Mathematics Institute, le 24 mai 2000",
+        "L'Académie des sciences de Berlin, en 2000"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le Clay Mathematics Institute a annoncé les sept problèmes du prix du millénaire, dont l'hypothèse de Riemann, le 24 mai 2000, chacun doté d'un million de dollars."
+    },
+    {
+      "question": "Quel est le seul des sept problèmes du prix du millénaire résolu à ce jour, et par qui ?",
+      "choix": [
+        "La conjecture de Poincaré, par John Littlewood",
+        "Le nombre de Skewes, par Stanley Skewes",
+        "L'hypothèse de Riemann, par Bernhard Riemann lui-même",
+        "La conjecture de Poincaré, par Grigori Perelman"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Grigori Perelman a résolu la conjecture de Poincaré et s'est vu attribuer le prix en 2010, qu'il a refusé, seul des sept problèmes résolu depuis l'annonce de 2000."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {

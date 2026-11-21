@@ -2,7 +2,7 @@
   "id": "mat-hypothese-de-riemann-1859",
   "slug": "hypothese-de-riemann-1859",
   "langue": "en",
-  "empreinte_fr": "aad4381b9f54b529",
+  "empreinte_fr": "5c6867cd69d65397",
   "traduit_le": "2026-11-21",
   "moteur": "claude-code",
   "relu": false,
@@ -39,5 +39,39 @@
     "bonne_reponse": 1,
     "explication": "Skewes' number shows that a pattern confirmed on an enormous number of cases (here, π(x) < li(x)) can still reverse beyond the reach of any possible check; the zeros verified so far cover only a bounded range, and nothing guarantees the critical line holds beyond it."
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What exactly does the Riemann hypothesis claim, as the entry describes it?",
+      "choix": [
+        "That prime numbers follow a periodic distribution rule",
+        "That every non-trivial zero of the zeta function has real part 1/2",
+        "That the zeta function vanishes at only a finite number of points",
+        "That all zeros, trivial and non-trivial alike, lie on the same line"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The hypothesis concerns the non-trivial zeros of the zeta function, which Riemann found all aligned on the line of real part 1/2, the critical line, without proving it."
+    },
+    {
+      "question": "Which institute put a million-dollar reward on the Riemann hypothesis, and when?",
+      "choix": [
+        "The Berlin Academy of Sciences, in 1859",
+        "The Clay Mathematics Institute, on March 18, 2010",
+        "The Clay Mathematics Institute, on May 24, 2000",
+        "The Berlin Academy of Sciences, in 2000"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The Clay Mathematics Institute announced the seven Millennium Prize Problems, including the Riemann hypothesis, on May 24, 2000, each carrying a million-dollar reward."
+    },
+    {
+      "question": "Which is the only one of the seven Millennium Prize Problems solved so far, and by whom?",
+      "choix": [
+        "The Poincaré conjecture, by John Littlewood",
+        "Skewes' number, by Stanley Skewes",
+        "The Riemann hypothesis, by Bernhard Riemann himself",
+        "The Poincaré conjecture, by Grigori Perelman"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Grigori Perelman solved the Poincaré conjecture and was awarded the prize in 2010, which he turned down, the only one of the seven problems solved since the 2000 announcement."
+    }
+  ]
 }
