@@ -1,0 +1,84 @@
+{
+ "id": "soc-cartes-pauvrete-charles-booth",
+ "slug": "cartes-pauvrete-charles-booth",
+ "langue": "en",
+ "empreinte_fr": "f3f44fe9953c43ca",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "The phrase “grossly overstated the case” and the yellow legend “Upper-middle and Upper classes. Wealthy” are copied from the English wording already quoted in the French entry's source and validation notes (LSE, Fearon 2002), not seen by me on the page. The other legend phrases (black, light blue, pink) are translated from the French; the original English wording was not retrieved. Original not retrieved."
+  }
+ ],
+ "titre": "Charles Booth's Poverty Maps",
+ "accroche": "In 1885, a businessman judges a socialist estimate of poverty in London to be exaggerated. He launches a survey to refute it",
+ "contenu_vulgarise": "In the fall of 1885, Henry Hyndman, leader of the Social Democratic Federation, published a shocking estimate: a quarter of Londoners were supposedly living in extreme poverty. Charles Booth, a shipowner and leather-trade industrialist, judged the figure exaggerated. In early 1886, he paid Hyndman a visit and told him, according to the latter's recollections, that they had “grossly overstated the case,” then announced that he would check for himself, at his own expense. The first meeting of what would become his survey was held on April 17, 1886.\n\n## Street by Street, Building by Building\n\nBooth was not content with an estimate: he had every street of London visited, literally. A first series of investigators interviewed school inspectors, who knew the families in their district. In 1889, Booth published the first map to result, coloring each street according to seven social classes, from black, “lowest class, vicious, semi-criminal,” to yellow, “Upper-middle and Upper classes. Wealthy.” In between, light blue designates streets that are “poor, 18 to 21 shillings a week for a moderate family,” and pink streets that are “fairly comfortable, with good ordinary earnings.” Between 1897 and 1899, Booth had the exercise redone: his investigators this time accompanied police officers on their rounds, to gather their observations on the character of each street and its inhabitants. Sixty hand-colored preparatory maps resulted, later condensed into twelve printed sheets.\n\n## A Survey That Turned Out Badly for Its Sponsor\n\nBooth had launched his survey thinking that reality would be less bleak than Hyndman claimed. He got the opposite: his first estimate, drawn from the study of the East End and published in 1889, put poverty at around 30% of the population; the second survey, conducted street by street ten years later, reassessed it at about 35% in some districts. In both cases, the survey meant to correct a socialist exaggeration ended up exceeding it. Published in seventeen volumes in 1902 and 1903 under the title Life and Labour of the People in London, it convinces not only by its figures: it imposes a method, that of systematic visiting rather than estimation, which became a reference for social investigation, well beyond the single debate that had triggered it.",
+ "citation": null,
+ "repere": {
+  "texte": "Convinced that the socialist estimate of 25% of Londoners being poor was exaggerated, Charles Booth launched his own survey to check it. His first estimate, published in 1889, already exceeds it, at around 30%; his second survey, conducted street by street ten years later, raises it to about 35% in some districts.",
+  "source": "Fearon, Charles Booth: Mapping London's Poverty, 1885-1903, CSISS Classics, University of California Santa Barbara, 2002",
+  "url": "https://escholarship.org/uc/item/3g26f143"
+ },
+ "carte": {
+  "punch": "He wanted to prove that socialists exaggerated poverty in London. He proved the opposite",
+  "idee": "In 1885, a socialist leader put poverty in London at 25%. Charles Booth, skeptical, launched his own survey, street by street, to refute him. Published in seventeen volumes in 1902-1903, it found a rate higher still, around 30 to 35% depending on the districts and years.",
+  "source_courte": "Fearon, CSISS Classics, 2002"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Charles Booth's London (interactive map)",
+   "url": "https://booth.lse.ac.uk/",
+   "note": "All of Booth's poverty maps, which can be browsed street by street."
+  }
+ ],
+ "quiz": {
+  "question": "Why did Charles Booth's survey of poverty in London remain famous beyond its colored maps?",
+  "choix": [
+   "Because it was funded by the British government from its launch in 1886",
+   "Because it immediately convinced Hyndman to give up his 1885 estimates",
+   "Because it was conducted in a single visit to each district, with no follow-up over time",
+   "Because its method, the systematic visiting of every street, became a reference for social investigation"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Booth funded the survey himself, not the state; it did not convince Hyndman immediately, since it ended up confirming and exceeding his estimate; and it was precisely redone ten years later, street by street, rather than conducted all at once: it is this systematic method, more than its maps alone, that durably marked social investigation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Charles Booth tell Henry Hyndman when they meet in early 1886?",
+   "choix": [
+    "That he fully shares his 25% estimate and intends to spread it more widely",
+    "That they had, in the words Hyndman recalls, “grossly overstated the case”",
+    "That he refuses to talk with a leader of the Social Democratic Federation",
+    "That he proposes to merge their two surveys into a single joint publication"
+   ],
+   "bonne_reponse": 1,
+   "explication": "According to Hyndman's recollections, Booth told him that they had “grossly overstated the case,” before announcing that he would check for himself, at his own expense, which gave rise to his survey."
+  },
+  {
+   "question": "How did Booth's survey change method between 1889 and 1897-1899?",
+   "choix": [
+    "It went from interviews with school inspectors to rounds accompanied by police officers",
+    "It stopped coloring maps to keep only tables of figures",
+    "It limited itself to the districts already studied by Hyndman in 1885",
+    "It was entrusted to a second investigator after Booth's death in 1889"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The first series of investigators interviewed school inspectors; between 1897 and 1899, Booth had the exercise redone with investigators this time accompanying police officers on their rounds."
+  },
+  {
+   "question": "What gap exists between the first and the second poverty estimate published by Booth?",
+   "choix": [
+    "The two estimates, ten years apart, give exactly the same figure of 25%",
+    "The second estimate is far lower than the first, only about 10%",
+    "The first (1889) gives about 30%, the second, ten years later, about 35% in some districts",
+    "Booth published only a single estimate, in 1902, without ever revising it"
+   ],
+   "bonne_reponse": 2,
+   "explication": "His first estimate, drawn from the study of the East End and published in 1889, puts poverty at around 30%; the second, conducted street by street ten years later, reassesses it at about 35% in some districts."
+  }
+ ]
+}

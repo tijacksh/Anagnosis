@@ -1,0 +1,72 @@
+{
+ "id": "pol-theoreme-electeur-median-black-downs",
+ "slug": "theoreme-electeur-median-black-downs",
+ "langue": "en",
+ "empreinte_fr": "a23fd0f831775d09",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Median Voter Theorem: Why Parties Resemble Each Other",
+ "accroche": "Black (1948), then Downs (1957), explain why candidates move toward the center, provided that four assumptions hold.",
+ "contenu_vulgarise": "Why do two big parties so often end up holding similar platforms? A simple model answers: because the voter in the middle decides. The median voter theorem, whose first derivation is attributed to Duncan Black in 1948 (“On the Rationale of Group Decision-making,” *Journal of Political Economy*), states that if voters and candidates are spread along a single dimension and preferences are single-peaked, any voting method consistent with the Condorcet criterion elects the candidate preferred by the median voter. In 1957, Anthony Downs drew from it a model of competition between parties, transposing to politics the principle of minimum differentiation described by Harold Hotelling in 1929 for competition between firms.\n\n## The Idea, as a First Approximation\n\nImagine opinions lined up along an axis, from left to right, and voters spread along that axis. The median voter is the one who has as many people to the left as to the right. If a candidate positions himself to the left of the median voter, his opponent can move closer to the center and sweep up the entire right side plus a share of the left side. Each therefore has an interest in moving closer to the median position, and the two end up meeting there. This is the logic of Hotelling's minimum differentiation, applied to parties.\n\n## Four Conditions\n\nThe result is not general. The English-language Wikipedia's summary says that Downs's model predicts convergence toward the median voter under four conditions: candidates can choose their ideological position without consequence; they care only about winning the election, not about their convictions; the other criteria of the theorem are met (in particular, voters rank candidates according to their ideological distance); and the voting system satisfies the median voter criterion. It also notes that with primaries, politicians must balance the median voter of the primary against that of the general election, so that candidates do not necessarily converge toward the center.\n\n## The Shift\n\nAs soon as we leave a single axis, the result comes apart: the McKelvey–Schofield chaos theorem shows that, in a space of several dimensions, there may be no Condorcet winner at all. Parties therefore do not converge through a law of politics, but because a particular case happens to be met. The model remains useful, but for the opposite reason from the one attributed to it: it does not describe politics, it describes a simplified case, and it is the gap with that case that is instructive: by listing what it assumes, it indicates where to look when parties, in reality, polarize instead of converging.",
+ "citation": null,
+ "repere": {
+  "texte": "If voters and candidates are spread along a single dimension, with single-peaked preferences, any voting method consistent with the Condorcet criterion elects the candidate preferred by the median voter. The first derivation of the theorem is attributed to Duncan Black (1948); Downs (1957) applies it to competition between parties.",
+  "source": "Wikipedia, Median voter theorem; reference: Black, Journal of Political Economy 56(1), 1948, pp. 23-34",
+  "url": "https://en.wikipedia.org/wiki/Median_voter_theorem"
+ },
+ "carte": {
+  "punch": "Two parties moving toward the center: a result with four conditions.",
+  "idee": "Black (1948), then Downs (1957): on a single axis, with single-peaked preferences, candidates who seek only victory, and a vote that picks the median voter's candidate, parties converge toward the median voter. Outside these conditions, the result comes apart.",
+  "source_courte": "Black, J. Polit. Econ., 1948; Downs, 1957"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "In Downs's model, why does a candidate move closer to the median voter's position?",
+  "choix": [
+   "Because his personal convictions lead him toward moderate positions",
+   "Because he seeks only to win and the median voter tips the majority",
+   "Because the law forbids him to defend positions too far from the political center",
+   "Because voters in the center are always the most numerous of all"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The model assumes candidates who care only about winning, not about their convictions, and voters who rank candidates by distance: the median voter has as many voters on each side, so the candidate who joins him wins the majority. It is neither a legal obligation nor the “most populated” center: the median divides the electorate into two halves.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What principle does Anthony Downs transpose to politics in 1957, according to the entry?",
+   "choix": [
+    "The McKelvey–Schofield chaos theorem",
+    "The principle of minimum differentiation described by Harold Hotelling in 1929",
+    "The Condorcet criterion stated by Duncan Black",
+    "The law of diminishing returns of classical economics"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In 1957, Downs applies to competition between parties the principle of minimum differentiation that Harold Hotelling had described in 1929 for competition between firms, says the entry."
+  },
+  {
+   "question": "What does the McKelvey–Schofield chaos theorem show, according to the entry?",
+   "choix": [
+    "That the median voter always exists, even in several dimensions",
+    "That Downs was wrong to speak of a single left-right axis",
+    "That parties converge faster with primaries",
+    "That in several dimensions, there may be no Condorcet winner"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The McKelvey–Schofield theorem shows that as soon as we leave a single axis, there may be no Condorcet winner: parties no longer converge through a general law of politics."
+  },
+  {
+   "question": "In which journal does Duncan Black publish the first derivation of the theorem in 1948?",
+   "choix": [
+    "Journal of Political Economy",
+    "American Political Science Review",
+    "The Economic Journal",
+    "Public Choice"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Black's theorem appears in 1948 in the Journal of Political Economy (vol. 56, no. 1, pp. 23-34), under the title “On the Rationale of Group Decision-making,” the entry specifies."
+  }
+ ]
+}

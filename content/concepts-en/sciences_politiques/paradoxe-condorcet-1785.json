@@ -1,0 +1,61 @@
+{
+ "id": "pol-paradoxe-condorcet-1785",
+ "slug": "paradoxe-condorcet-1785",
+ "langue": "en",
+ "empreinte_fr": "ed5495845eb38c0c",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Condorcet's Paradox (1785): When the Majority Contradicts Itself",
+ "accroche": "Three perfectly rational voters are enough to produce a majority that contradicts itself: A beats B, B beats C, C beats A.",
+ "contenu_vulgarise": "In 1785, the mathematician and philosopher Nicolas de Condorcet published in Paris, with the Imprimerie royale (the Royal Press), a treatise of nearly 500 pages with an austere title: *Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix* (*Essay on the Application of Analysis to the Probability of Majority Decisions*). In it he poses a question that seemed to call for only one obvious answer: if every voter reasons consistently, is the majority's choice consistent too? The answer, demonstrated by calculation, is no.\n\n## A Cycle With No Winner\n\nImagine three candidates, A, B, and C, and three voters with perfectly ordered preferences: the first ranks A before B before C, the second B before C before A, the third C before A before B. Each reasons without the slightest internal contradiction. Yet, when the votes are pitted two against two, one majority prefers A to B, another majority prefers B to C, and a third prefers C to A. The collective result loops back on itself: A beats B, B beats C, C beats A, and none of the three can be named the winner. Condorcet builds fuller numerical examples, with electorates of several dozen voters, to show that this cycle is not an exotic borderline case: in a vote with three or more options, it can arise whenever individual preferences vary enough among the voters.\n\n## What the Majority Cannot Guarantee\n\nThe paradox says nothing against the intelligence of voters: each, taken separately, votes rationally. It says something more uncomfortable about the addition of votes itself, which can lose transitivity (if A beats B and B beats C, one would expect A to beat C) that each voter nevertheless respects in their own ranking. A century and a half later, the economist Kenneth Arrow would generalize this result in 1951: no voting system aggregating individual preferences can satisfy at the same time a small number of otherwise reasonable conditions, including the absence of a dictator and the consistency of the collective choice. Condorcet had, without naming it so, opened the breach into which social choice economics would rush nearly one hundred and seventy years later. What we call “the will of the majority” is therefore not always something that exists in the strict sense: depending on the order in which the questions are put to the same electorate, a vote can give opposite results, without any individual preference having changed.",
+ "citation": null,
+ "repere": {
+  "texte": "In the numerical example given by Condorcet, out of 60 voters, 33 prefer A to B, 42 prefer B to C, and 35 prefer C to A: each majority is real, and yet A, B, and C each beat another in turn, with none able to prevail over the other two.",
+  "source": "Wikipedia (French), “Paradoxe de Condorcet”",
+  "url": "https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet"
+ },
+ "carte": {
+  "punch": "Three perfectly rational voters can vote a majority that contradicts itself.",
+  "idee": "In 1785, Condorcet demonstrates by calculation that a majority can contradict itself: A beats B, B beats C, C beats A, even though each voter votes perfectly consistently. A century and a half later, Arrow would draw from it a general theorem on the limits of any vote.",
+  "source_courte": "Wikipedia (French), “Paradoxe de Condorcet”"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does Condorcet's paradox show that a majority can contradict itself?",
+  "choix": [
+   "Because some voters vote irrationally or change their minds during the ballot",
+   "Because adding up consistent individual preferences can produce a cycle with no winner",
+   "Because Condorcet limited his analysis to votes pitting only two candidates",
+   "Because voters confer in secret to name a winner in turn"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Each voter is consistent, but the majority can form a cycle A>B>C>A: it is not a voting error or a conspiracy, it is a property of aggregation itself, which Condorcet demonstrates with examples of three or more candidates.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In the numerical example given by Condorcet, how many voters out of 60 prefer B to C?",
+   "choix": [
+    "33",
+    "42",
+    "35",
+    "60"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Of the 60 voters in the example, 42 prefer B to C, 33 prefer A to B, and 35 prefer C to A: each majority is real, but none of the three candidates prevails over the other two."
+  },
+  {
+   "question": "Who generalizes Condorcet's result in 1951, with a theorem on voting systems?",
+   "choix": [
+    "John Rawls",
+    "Max Weber",
+    "Kenneth Arrow",
+    "James Madison"
+   ],
+   "bonne_reponse": 2,
+   "explication": "In 1951, the economist Kenneth Arrow demonstrates that no voting system aggregating individual preferences can satisfy several otherwise reasonable conditions at the same time."
+  }
+ ]
+}
