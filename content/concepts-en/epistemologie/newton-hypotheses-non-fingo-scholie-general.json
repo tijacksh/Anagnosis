@@ -9,18 +9,13 @@
  "drapeaux": [
   {
    "chemin": "contenu_vulgarise",
-   "type": "citation-langue-originale",
-   "note": "*hypotheses non fingo* : formule latine de Newton, laissée en latin."
-  },
-  {
-   "chemin": "contenu_vulgarise",
-   "type": "citation-traduite",
-   "note": "« esprit très subtil » : Newton, Principia, Scholie général (latin ; version anglaise de Motte, 1729) ; traduit depuis le français, à remplacer par la formulation de Motte."
+   "type": "citation-originale-anglaise",
+   "note": "English wordings quoted verbatim from Andrew Motte's published 1729 translation of the Principia (the English source given in url/sources, Wikisource: https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/General_Scholium): “no place in experimental philosophy”; “a certain most subtle Spirit, which pervades and lies hid in all gross bodies.” The Latin phrase hypotheses non fingo is as printed in the Principia (checked on the English Wikipedia article “Hypotheses non fingo”); “I do not feign hypotheses” matches the Cohen-Whitman (1999) rendering."
   }
  ],
  "titre": "Hypotheses non fingo: What Newton Really Refuses",
  "accroche": "“I do not feign hypotheses” passes for the credo of science. Yet in the same text, Newton ends on a conjecture.",
- "contenu_vulgarise": "In 1713, Newton's theory of gravitation, published 26 years earlier, was still being criticized: it calculates the fall of bodies and the course of the planets without saying what makes gravity act. He was accused of introducing occult agents. He then added to the end of the second edition of the *Principia* a text, the General Scholium, which contains a phrase that became famous: *hypotheses non fingo*, “I do not feign hypotheses” (our translation). Newton writes there, in Andrew Motte's English translation of 1729, that he has not yet been able to discover, from the phenomena, the cause of the properties of gravity, and that he does not frame hypotheses. He then lays down his rule: whatever is not deduced from the phenomena must be called a hypothesis, and hypotheses, whether metaphysical or physical, whether of occult qualities or mechanical, have “no place in experimental philosophy.” It is enough for him, he adds, that gravity really exists and acts according to the laws he has set out.\n\n## What the phrase targets\n\nThe common reading makes it a rejection of hypothesis in general. The “Newton's Philosophy” entry of the *Stanford Encyclopedia of Philosophy* finds this hard to reconcile with the texts themselves: the *Principia* makes hypotheses about rays of light, and the *Opticks* proposes an ether in its Query 21. According to the entry, a philosopher can legitimately propose hypotheses; what he cannot do is treat them as established by experiment, observation, or reasoning. It gives as examples the action of gravity in proportion to mass, which Newton holds to be established, and the ether, which he does not.\n\nThe Scholium itself provides the proof. It ends with a “very subtle spirit” that pervades solid bodies and lies hidden in them, some of whose properties Newton describes before concluding that the laws governing it are not yet determined, for lack of a sufficient number of experiments. It is usually read as an allusion to electricity.\n\n## What this shifts\n\nOn this reading, the phrase is less a prohibition than a label. There is what has been deduced from the phenomena, and what is proposed to account for them. Newton's text is nonetheless severe: hypotheses, he says, have “no place in experimental philosophy.” He bars them from demonstration, not from thought, and the question of exactly where this boundary lies remains open.",
+ "contenu_vulgarise": "In 1713, Newton's theory of gravitation, published 26 years earlier, was still being criticized: it calculates the fall of bodies and the course of the planets without saying what makes gravity act. He was accused of introducing occult agents. He then added to the end of the second edition of the *Principia* a text, the General Scholium, which contains a phrase that became famous: *hypotheses non fingo*, “I do not feign hypotheses” (our translation). Newton writes there, in Andrew Motte's English translation of 1729, that he has not yet been able to discover, from the phenomena, the cause of the properties of gravity, and that he does not frame hypotheses. He then lays down his rule: whatever is not deduced from the phenomena must be called a hypothesis, and hypotheses, whether metaphysical or physical, whether of occult qualities or mechanical, have “no place in experimental philosophy.” It is enough for him, he adds, that gravity really exists and acts according to the laws he has set out.\n\n## What the Phrase Targets\n\nThe common reading makes it a rejection of hypothesis in general. The “Newton's Philosophy” entry of the *Stanford Encyclopedia of Philosophy* finds this hard to reconcile with the texts themselves: the *Principia* makes hypotheses about rays of light, and the *Opticks* proposes an ether in its Query 21. According to the entry, a philosopher can legitimately propose hypotheses; what he cannot do is treat them as established by experiment, observation, or reasoning. It gives as examples the action of gravity in proportion to mass, which Newton holds to be established, and the ether, which he does not.\n\nThe Scholium itself provides the proof. It ends with “a certain most subtle Spirit” that “pervades and lies hid in all gross bodies”, some of whose properties Newton describes before concluding that the laws governing it are not yet determined, for lack of a sufficient number of experiments. It is usually read as an allusion to electricity.\n\n## What This Shifts\n\nOn this reading, the phrase is less a prohibition than a label. There is what has been deduced from the phenomena, and what is proposed to account for them. Newton's text is nonetheless severe: hypotheses, he says, have “no place in experimental philosophy.” He bars them from demonstration, not from thought, and the question of exactly where this boundary lies remains open.",
  "repere": {
   "texte": "The General Scholium appears in the second edition of the Principia, in 1713. Newton writes there that he has not yet been able to discover, from the phenomena, the cause of the properties of gravity, and that he does not frame hypotheses: whatever is not deduced from the phenomena must be called a hypothesis (Motte's translation, 1729).",
   "source": "Isaac Newton, Principia, General Scholium, trans. Andrew Motte (1729), Wikisource",
@@ -28,7 +23,7 @@
  },
  "carte": {
   "punch": "“Hypotheses non fingo,” writes Newton. In the same text, he nonetheless puts forward a conjecture.",
-  "idee": "In the General Scholium (1713), Newton refuses to put forward a cause of gravity that he cannot deduce from the phenomena. According to the Stanford Encyclopedia's reading, he does not ban every hypothesis: he refuses to pass them off as established. The text ends on a “very subtle spirit.”",
+  "idee": "In the General Scholium (1713), Newton refuses to put forward a cause of gravity that he cannot deduce from the phenomena. According to the Stanford Encyclopedia's reading, he does not ban every hypothesis: he refuses to pass them off as established. The text ends on a “most subtle Spirit.”",
   "source_courte": "Newton, General Scholium, 1713"
  },
  "pour_aller_plus_loin": [
@@ -68,10 +63,10 @@
     "A complete mathematical demonstration of the speed of light",
     "A tribute to Robert Hooke, for his contribution to the theory of gravity",
     "A list of the errors he acknowledges having made in the first edition",
-    "A “very subtle spirit,” whose laws are not yet determined for lack of experiments"
+    "A “most subtle Spirit,” whose laws are not yet determined for lack of experiments"
    ],
    "bonne_reponse": 3,
-   "explication": "The General Scholium ends on a “very subtle spirit” that pervades solid bodies, whose laws Newton says he does not yet know, for lack of sufficient experiments; it is usually read as an allusion to electricity."
+   "explication": "The General Scholium ends on a “most subtle Spirit” that pervades solid bodies, whose laws Newton says he does not yet know, for lack of sufficient experiments; it is usually read as an allusion to electricity."
   }
  ]
 }

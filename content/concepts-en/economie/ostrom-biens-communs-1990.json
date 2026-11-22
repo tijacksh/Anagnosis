@@ -9,8 +9,23 @@
  "drapeaux": [
   {
    "chemin": "contenu_vulgarise",
-   "type": "texte-officiel-a-verifier",
-   "note": "Motivation du prix de la Banque de Suède en sciences économiques 2009 (« for her analysis of economic governance, especially the commons »), traduite depuis le français."
+   "type": "texte-officiel-anglais",
+   "note": "Prize motivation checked verbatim against the official page: https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ (“for her analysis of economic governance, especially the commons”)."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says Ostrom “remains to this day the only woman” to have received the economics prize; this is no longer true (Esther Duflo 2019, Claudia Goldin 2023). Translated as written; the French needs fixing (ex: “the first woman”)."
+  },
+  {
+   "chemin": "quiz_supplementaire/1/explication",
+   "type": "erreur-possible-fr",
+   "note": "Same claim as in the body: “she remains the only woman to have received it” is outdated (Duflo 2019, Goldin 2023). Translated as written."
+  },
+  {
+   "chemin": "accroche",
+   "type": "erreur-possible-fr",
+   "note": "“La théorie qui prédit l'inverse a pourtant un prix Nobel” reads as if Hardin's theory (the one predicting ruin of shared resources) had won a Nobel Prize; Hardin never did, Ostrom did. Translated as written; the French sentence is misleading and needs rewording."
   }
  ],
  "titre": "Elinor Ostrom, or the Tragedy of the Commons That Never Happened",
