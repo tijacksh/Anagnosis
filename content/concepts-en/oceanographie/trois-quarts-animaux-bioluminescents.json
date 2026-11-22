@@ -1,0 +1,85 @@
+{
+ "id": "oce-trois-quarts-animaux-bioluminescents",
+ "slug": "trois-quarts-animaux-bioluminescents",
+ "langue": "en",
+ "empreinte_fr": "4819c6949896f994",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "The French already gives the English wording of the study and the URL (DOI) points to the English paper; copied verbatim as given in the French entry."
+  }
+ ],
+ "titre": "Three Out of Four Marine Animals Make Their Own Light",
+ "accroche": "A study of 350,000 animals filmed off California shows that producing one's own light is the norm in the ocean, not the exception.",
+ "contenu_vulgarise": "Ever since the explorer William Beebe descended into the depths in a metal sphere in the 1930s, we have known that some deep-sea animals produce their own light. What was missing was a measurement: across an entire water column, what proportion of organisms is actually capable of it? For seventeen years, from 1999 to 2016, the underwater robots of the research institute MBARI filmed the water column off California, from the surface down to 3,900 meters deep. Every animal larger than one centimeter visible on screen was identified and entered into a common database.\n\n## A Light That Does Not Fade With Depth\n\nIn 2017, the researchers Séverine Martini and Steven Haddock cross-reference this catalog, more than 350,000 observations covering 553 species, genera or families, with what the scientific literature knows about each group's ability to produce light. The result: 76% of the individuals observed are bioluminescent, a proportion that remains remarkably stable at all depths, even though the total number of animals filmed drops sharply beyond a few hundred meters. Some groups are so almost without exception: 99.7% of siphonophores, 100% of hydrozoan jellyfish, 97.6% of scyphozoan jellyfish. Others, conversely, barely are: 2.4% of salps, 6.1% of pteropods, those small swimming mollusks, 11.4% of chaetognaths, small transparent marine worms.\n\n## The Rule, Not the Exception\n\nThe most striking result is the absence of a gradient. Intuition would have it that the light produced by organisms becomes more frequent as sunlight disappears, between the lit zone and total darkness. That is not what the data show: bioluminescence already dominates just below the surface, driven by jellyfish and ctenophores, and stays that way all the way down. Different groups take over at successive depths, from worms around 1,800 meters to larvaceans beyond 2,250 meters. Making one's own light is therefore not an adaptation reserved for the total darkness of the abyss. It is a condition close to the norm for life in open water, at all depths, in the largest habitat on the planet by volume, far larger than all the continents combined.",
+ "citation": {
+  "texte": "76% of the observed individuals have bioluminescence capability.",
+  "auteur": "Séverine Martini, Steven H. D. Haddock",
+  "source": "“Quantification of bioluminescence from the surface to the deep sea demonstrates its predominance as an ecological trait,” Scientific Reports, vol. 7, article 45750, 2017",
+  "url": "https://doi.org/10.1038/srep45750"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "76% of the animals filmed off California can make their own light.",
+  "idee": "A study based on more than 350,000 observations filmed by MBARI's robots off California, from 1999 to 2016, shows that 76% of the individuals observed are bioluminescent, a proportion stable from the surface down to 3,900 meters deep.",
+  "source_courte": "Martini & Haddock, Sci. Rep., 2017"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Bioluminescence — Know Your Ocean",
+   "url": "https://www.mbari.org/know-your-ocean/bioluminescence/",
+   "note": "MBARI explainer page on marine bioluminescence and ongoing research on this language of light."
+  }
+ ],
+ "quiz": {
+  "question": "According to the study conducted off California, how does the proportion of bioluminescent animals change with depth?",
+  "choix": [
+   "It rises gradually, from almost nil at the surface to total in complete darkness",
+   "It peaks around 500 meters before falling back to almost zero at depth",
+   "It is nil everywhere except among a few isolated abyssal species",
+   "It stays stable at around 76%, from the surface down to 3,900 meters"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The study shows that the share of animals capable of bioluminescence stays between 69 and 78% at all depths studied, while the total number of animals observed drops sharply beyond a few hundred meters. The phenomenon therefore does not intensify with darkness. It is already dominant near the surface.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which group of animals shows the lowest rate of bioluminescence in the study?",
+   "choix": [
+    "Siphonophores, at 99.7%",
+    "Salps, at 2.4%",
+    "Hydrozoan jellyfish, at 100%",
+    "Ctenophores, at 76%"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Salps show the lowest rate recorded in the study, at 2.4%, well behind pteropods (6.1%) and chaetognaths (11.4%), whereas siphonophores and jellyfish are almost all capable of it."
+  },
+  {
+   "question": "Which groups take over bioluminescence at the greatest depths observed?",
+   "choix": [
+    "Worms around 1,800 meters, then larvaceans beyond 2,250 meters",
+    "Jellyfish and ctenophores, dominant at all depths",
+    "Abyssal fish only, from 3,000 meters",
+    "Salps and pteropods, which dominate beyond 2,000 meters"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The study shows that different groups take over at successive depths: worms around 1,800 meters, then larvaceans beyond 2,250 meters, whereas jellyfish and ctenophores already dominate near the surface."
+  },
+  {
+   "question": "Over what period and by what means were this study's data collected?",
+   "choix": [
+    "Over five years, by scientific scuba divers",
+    "Over seventeen years, from 1999 to 2016, by the underwater robots of the MBARI institute",
+    "Over one year, during a single oceanographic cruise off California",
+    "Over thirty years, by fishing nets brought up to the surface"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The underwater robots of the MBARI institute filmed the water column off California for seventeen years, from 1999 to 2016, down to 3,900 meters deep."
+  }
+ ]
+}

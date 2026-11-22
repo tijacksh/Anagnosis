@@ -1,0 +1,84 @@
+{
+ "id": "oce-marees-deux-bourrelets-theorie-dynamique-laplace",
+ "slug": "marees-deux-bourrelets-theorie-dynamique-laplace",
+ "langue": "en",
+ "empreinte_fr": "e3bd02c89c276adf",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "accroche",
+   "type": "erreur-possible-fr",
+   "note": "The accroche says Laplace put tides into equations as early as 1775, but the body says he described the ocean's real response in 1775 and wrote the equations in 1776 (the carte also says 1775). Rendered as in the French; to be checked."
+  }
+ ],
+ "titre": "Tides Are Not Two Bulges Waiting Beneath the Moon",
+ "accroche": "The two-bulge diagram describes an Earth without continents. Real tides come from the shape of the basins, which Laplace put into equations as early as 1775.",
+ "contenu_vulgarise": "Almost everyone has seen the diagram: the Earth surrounded by a shell of water shaped like a rugby ball, one tip facing the Moon, with a second bulge on the opposite side. The Earth turns beneath these two bulges, hence two high tides a day. The tutorial of the American ocean service (NOAA) teaches it this way: the Moon pulls the water on the side facing it, inertia forms the other bulge, and a lunar day of 24 hours and 50 minutes brings two high tides 12 hours and 25 minutes apart. This diagram is the correct result of a simplified model. It does not describe the tides we observe.\n\n## What the Model Assumes\n\nIt is Newton's model, in the *Principia* of 1687, known as the equilibrium theory. It makes three simplifications: the Earth has no continents, the water has no viscosity and reacts instantly to gravity, and nothing rubs between the water and the ground. It describes a planet entirely covered by a uniform ocean. The tide it computes has a height of less than half a meter, whereas real tides reach up to 15 meters, according to Wikipedia's article on tidal theory.\n\n## What Laplace Changed\n\nIn 1775, Pierre-Simon Laplace describes the ocean's real response. His so-called dynamic theory takes into account the Earth's rotation, friction, resonance and the natural periods of each basin, and he writes its equations in 1776. The Moon and the Sun do not lift the water as a single mass: they sustain very long waves that rotate in each basin around points where the tide is almost zero, the amphidromic points, from the Greek for “running around.” The first to spot them is William Whewell: by extending the lines of equal tide time recorded along the North Sea coasts, he found that they had to meet at a single point.\n\nIn 2006, in the journal *Marine Geology*, E. P. Kvale recalls what the equilibrium theory does not explain: the circulation around the amphidromic points, tides with a single high water per day at low latitudes, and the regions where the spring-neap cycles follow the 27.32-day tropical month rather than the 29.52 days of the Moon's phases. In the dynamic model, the tide at a place is the sum of constituents, each produced by a “phantom satellite” whose motion creates its own wave. The geometry of the basins amplifies some of these waves and not others.\n\n## What This Changes\n\nA high tide is therefore neither the moment when the Moon passes over you, nor the moment when a bulge sweeps across you: it is the arrival of a wave shaped by the form of the basin where you are. To predict tides, in fact, the bulges have been abandoned. Lord Kelvin applies harmonic analysis in the 1860s, A. T. Doodson distinguishes 388 frequencies in the tide-generating potential in 1921, and mechanical machines computed the tide tables from the 1870s until around 1960. Satellites now measure the world's tides to within a few centimeters. The rugby ball remains right about the force that sets the water in motion. It says nothing about how each sea responds to it, and it is that response you read on the harbor's tide gauge.",
+ "citation": null,
+ "repere": {
+  "texte": "The equilibrium model explains neither the circulation of the tide around the amphidromic points, nor diurnal tides at low latitudes, nor the spring-neap cycles tied to the 27.32-day tropical month rather than the 29.52-day synodic month.",
+  "source": "E. P. Kvale, “The origin of neap-spring tidal cycles,” Marine Geology, vol. 235, 2006, pp. 5-18",
+  "url": "https://pubs.usgs.gov/publication/70028755"
+ },
+ "carte": {
+  "punch": "The two bulges beneath the Moon describe an Earth without continents.",
+  "idee": "The two-bulge diagram (Newton, 1687) computes a tide of less than half a meter on an Earth without land. Laplace (1775) showed that the real tide is a wave shaped by each basin, rotating around points with almost no tide.",
+  "source_courte": "Kvale, Marine Geology, 2006"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Kvale, “The origin of neap-spring tidal cycles,” Marine Geology, 2006",
+   "url": "https://doi.org/10.1016/j.margeo.2006.10.001",
+   "note": "The article that sets the equilibrium theory against the dynamic theory point by point."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the two-bulge diagram not enough to explain the tide at a given port?",
+  "choix": [
+   "Because the Moon exerts no force on the water, only the Sun counts",
+   "Because inertia is too weak to form the bulge on the opposite side",
+   "Because it assumes an Earth without continents, whereas the real tide depends on the basin",
+   "Because real tides are smaller than the ones it computes"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The equilibrium model ignores land, viscosity and friction, and computes less than half a meter. Laplace's theory treats the ocean as a rotating fluid whose response depends on the basin. The Moon does act, and real tides are larger, not smaller.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What are the three simplifications of Newton's equilibrium theory (Principia, 1687)?",
+   "choix": [
+    "An Earth without rotation, a salty ocean everywhere, and a motionless Moon",
+    "An Earth without continents, water without viscosity reacting instantly, and no friction with the ground",
+    "An Earth covered with continents, viscous water, and strong friction with the ground",
+    "A Moon with no gravitational influence, a dominant Sun, and deep basins"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Newton's model assumes an Earth without continents, water without viscosity that reacts instantly to gravity, and no friction at all between the water and the ground, which gives a computed tide of less than half a meter."
+  },
+  {
+   "question": "Who first spots the amphidromic points, and how?",
+   "choix": [
+    "Isaac Newton, by measuring tide heights at several ports",
+    "Pierre-Simon Laplace, by solving his equations of 1776",
+    "Lord Kelvin, by applying harmonic analysis in the 1860s",
+    "William Whewell, by extending the lines of equal tide time recorded in the North Sea"
+   ],
+   "bonne_reponse": 3,
+   "explication": "It is William Whewell who first spots the amphidromic points, by extending the lines of equal tide time recorded along the North Sea coasts and finding that they had to meet at a single point. Neither Newton, nor Laplace, nor Kelvin is credited with it."
+  },
+  {
+   "question": "What does Kvale (2006) show about the rhythm of spring and neap tides in certain regions?",
+   "choix": [
+    "It follows the 27.32-day tropical month rather than the Moon's phases (29.52 days)",
+    "It follows the Moon's phases exactly, confirming the equilibrium theory",
+    "It depends on no celestial body, only on the shape of the coasts",
+    "It changes rhythm every year with no measurable regularity"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Kvale (2006) shows that, in certain regions, the spring-neap cycle follows the 27.32-day tropical month rather than the 29.52-day synodic month of the lunar phases, which the equilibrium theory cannot explain since it ignores the basins."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "oce-migration-verticale-zooplancton",
+ "slug": "migration-verticale-zooplancton",
+ "langue": "en",
+ "empreinte_fr": "380e0cdc371d784b",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "The French already gives Allen Collins's English wording and the URL points to the English NOAA source; copied verbatim as given in the French entry."
+  }
+ ],
+ "titre": "The Largest Animal Migration on the Planet",
+ "accroche": "Every night, billions of marine animals rise toward the surface, a movement so dense that it long fooled military sonars",
+ "contenu_vulgarise": "In the early 1940s, aboard the USS Jasper, a yacht converted for military research, US Navy sonar operators detect a powerful echo at 300 or 500 meters deep, even though the bathymetric chart of the area shows a much deeper bottom. Stranger still: this echo rises at night and sinks again by day, as if the ocean floor were moving. The phenomenon, described in 1948 in the *Journal of the Acoustical Society of America* by Eyring, Christensen and Raitt, is given a provisional name: the “ECR” layer, after the initials of its three discoverers.\n\n## A False Bottom That Breathes\n\nMartin W. Johnson, a researcher at the Scripps Institution of Oceanography, formulates a simple hypothesis: if this layer is biological in origin, it should disperse in the morning and re-form each evening. To test it, he sets plankton nets at different depths during a trip at sea on June 26 and 27, 1945, and finds that the concentrations of zooplankton captured match exactly the depth of the layer detected by sonar at the same moment. His demonstration, also published in 1948, confirms what no acoustic signal could prove on its own: the “false bottom” was not geological, but alive.\n\nWhat Johnson had just confirmed today has a name: diel vertical migration. Every day, billions of zooplankton and small fish of the mesopelagic zone stay several hundred meters deep, sheltered from predators that hunt by sight. At nightfall, protected by darkness, they rise near the surface to feed on phytoplankton; at dawn, they descend again. NOAA and the Woods Hole Oceanographic Institution each independently describe this synchronized movement as the largest migration on the planet, a displacement of biomass that repeats every twenty-four hours, everywhere in the world ocean, largely invisible from the surface.\n\n## A Reservoir of Life Whose Size Is Still Unknown\n\nThe exact scale of this reservoir remains, to this day, uncertain. For decades, the estimate of the global biomass of mesopelagic fish rested on trawling surveys, which undersample animals able to dodge the nets. A 2014 study, conducted with acoustic measurements during the Malaspina expedition, multiplied this estimate by about ten, raising it to several billion tons. More recent work from the Woods Hole Oceanographic Institution, using an acoustic vehicle designed specifically for this measurement, suggests in turn that this new figure was probably an overestimate.\n\nThe shift is therefore not only the daily one of the animals themselves: it is also that of scientific knowledge. One of the planet's largest reservoirs of animal life, detected by mistake by military sonars more than eighty years ago, still eludes precise measurement today.",
+ "citation": {
+  "texte": "As the greatest migration on Earth, the daily vertical movement of zooplankton in the ocean has a massive influence on sea life and the global climate.",
+  "auteur": "Allen Collins",
+  "source": "“What is vertical migration of zooplankton and why does it matter?”, NOAA Ocean Exploration",
+  "url": "https://oceanexplorer.noaa.gov/ocean-fact/vertical-migration/"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "For NOAA, the largest migration on the planet repeats every day, largely invisible.",
+  "idee": "Detected by mistake by the military sonars of the 1940s, which saw it as a moving false bottom, this layer proved to be biological: billions of zooplankton and small fish rise near the surface at night to feed, then descend again. Biomass poorly known.",
+  "source_courte": "NOAA Ocean Exploration / WHOI"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Understanding Life in the Ocean Twilight Zone",
+   "url": "https://twilightzone.whoi.edu/understanding-life-in-the-otz/",
+   "note": "Details the recent downward revision of mesopelagic biomass estimates."
+  }
+ ],
+ "quiz": {
+  "question": "Why did US Navy sonar operators at first think they had detected a moving “false bottom” in the 1940s?",
+  "choix": [
+   "Because their instruments were poorly calibrated and gave random results",
+   "Because a dense layer of marine animals reflected their signal, and moved every day",
+   "Because enemy submarines were deliberately imitating a seafloor echo",
+   "Because the real seafloor was actually changing depth from one day to the next"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The echo came from a dense layer of zooplankton and small fish that rises near the surface every night and descends every day; Martin W. Johnson demonstrated it in 1945 by comparing the depth of the echo with that of the plankton concentrations captured in nets. The real seafloor, of course, does not move from one day to the next.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where and when does Martin W. Johnson verify that the layer detected by sonar is biological in origin?",
+   "choix": [
+    "On June 26 and 27, 1945, by setting plankton nets at different depths",
+    "In 1948, by analyzing marine sediment samples",
+    "In the 1930s, aboard a research submarine",
+    "In 1952, thanks to a new-generation sonar"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Johnson sets plankton nets at different depths during a trip at sea on June 26 and 27, 1945, and finds that the zooplankton concentrations match exactly the depth detected by sonar."
+  },
+  {
+   "question": "Why do animals of the mesopelagic zone rise near the surface at night rather than by day?",
+   "choix": [
+    "To avoid sunlight, which damages their light-sensitive organs",
+    "To feed on phytoplankton, protected by darkness from predators that hunt by sight",
+    "To escape temperature variations that occur only by day",
+    "To reproduce, a behavior that takes place only at night according to the entry"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Protected by darkness from predators that hunt by sight, they rise at night to feed on phytoplankton, then descend again at dawn to shelter at depth."
+  },
+  {
+   "question": "What do more recent studies by the Woods Hole Oceanographic Institution suggest about the estimate of global mesopelagic biomass, after the upward revision of 2014?",
+   "choix": [
+    "That the real biomass is still ten times greater than the 2014 figure",
+    "That mesopelagic fish have in fact disappeared since 2014",
+    "That this new estimate was probably an overestimate",
+    "That the 2014 estimate was in fact an underestimate by a factor of one hundred"
+   ],
+   "bonne_reponse": 2,
+   "explication": "More recent work from the Woods Hole Oceanographic Institution, using a dedicated acoustic vehicle, suggests that the tenfold estimate of 2014 was probably an overestimate."
+  }
+ ]
+}

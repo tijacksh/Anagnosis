@@ -1,0 +1,84 @@
+{
+ "id": "pal-dater-un-fossile",
+ "slug": "dater-un-fossile-sans-horloge",
+ "langue": "en",
+ "empreinte_fr": "37ce12a9864c8983",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "quiz_supplementaire/1/question",
+   "type": "erreur-possible-fr",
+   "note": "The question asks for the method that dates the oldest layers “beyond the range of potassium-argon,” but the body gives potassium-argon as reliable from 200,000 years to more than 4 billion years, nearly the same range as uranium-lead (about one million to more than 4.5 billion years). Rendered as in the French; to be checked."
+  }
+ ],
+ "titre": "A Dinosaur Is Never Dated Directly",
+ "accroche": "Carbon-14, the best-known method, is useless beyond 50,000 years. A dinosaur fossil is dated quite differently.",
+ "contenu_vulgarise": "Ask someone how we know the age of a dinosaur fossil, and the most common answer invokes carbon-14. It is the most widespread intuition, and it is wrong for nearly all the fossils that interest us. Carbon-14 decays relatively fast, with a half-life of about 5,700 years: past about 50,000 years, not enough of it remains in a sample to be measured reliably. A dinosaur that died 70 million years ago has not had a single trace of carbon-14 for tens of millions of years. For it, this method measures nothing at all.\n\n## The Rock Itself Stands in the Way\n\nA second, more fundamental obstacle adds to the first: most fossils are found in sedimentary rocks, sandstones, limestones, clays, formed by the gradual accumulation of particles torn from older rocks. Dating this accumulation by radioisotopes would amount to measuring the average age of a pile of rubble, not the day the pile formed. Only a rock born from a single crystallization event, a lava flow, a fall of volcanic ash, allows a radioisotope to freeze into the mineral at a precise instant and begin decaying from zero.\n\n## The Method: Bracketing, Not Dating Directly\n\nGeologists then exploit a favorable coincidence: many fossil-bearing sites are sandwiched between two layers of volcanic ash, fallen during eruptions before and after the fossil was deposited. By dating these two ashes, most often by the potassium-argon method, which exploits the very slow decay of potassium-40 into argon-40 and remains reliable from 200,000 years to more than 4 billion years, one obtains a minimum age and a maximum age for the layer between them. The fossil it contains is necessarily younger than the ash below and older than the ash above: it has been “bracketed,” without ever having directly measured a single one of its atoms. For the oldest layers, uranium-lead dating on zircon crystals, reliable from about a million years to more than 4.5 billion years, completes this toolkit.\n\n## What This Indirect Method Reveals\n\nAt bottom, the precision of a geological date almost never depends on the fossil itself: it depends on the luck of having, somewhere nearby, a bit of volcanic ash that fell at the right moment. A site with no ash around can be dated only by relative comparison, its position relative to other layers already dated elsewhere, or the species it contains. This is why some textbook dates remain wide ranges, while others, falling near an ancient volcano, are known to within a few thousand years over tens of millions of years.",
+ "citation": null,
+ "repere": {
+  "texte": "Carbon-14 can only date organic matter less than about 50,000 years old. The volcanic rocks that bracket a dinosaur site are dated, for their part, by the potassium-40 / argon-40 pair, reliable from 200,000 years to more than 4 billion years.",
+  "source": "Australian Museum; Understanding Evolution, UC Berkeley",
+  "url": "https://australian.museum/learn/australia-over-time/fossils/dating-dinosaurs-and-other-fossils/"
+ },
+ "carte": {
+  "punch": "A dinosaur is never dated directly, never.",
+  "idee": "Carbon-14, the best-known method, becomes useless beyond 50,000 years: a dinosaur fossil keeps no trace of it. Geologists instead date the volcanic ash above and below the fossil, by potassium-argon, to bracket its age without ever measuring it.",
+  "source_courte": "Australian Museum"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Tephrochronology — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tephrochronology",
+   "note": "On the use of volcanic ash layers as chronological markers in geology and archaeology."
+  }
+ ],
+ "quiz": {
+  "question": "Why can't carbon-14 be used to date a dinosaur fossil?",
+  "choix": [
+   "Because dinosaurs contained no carbon in their bones",
+   "Because its half-life is too short: beyond about 50,000 years, not enough remains to measure",
+   "Because carbon-14 forms only in volcanic rocks",
+   "Because this method was invented only after the first dinosaurs were discovered"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Carbon-14's half-life is about 5,700 years: past about 50,000 years, the remaining quantity becomes too small to be measured reliably. Dinosaurs, dead for tens of millions of years, have long been without it, hence the recourse to volcanic layers dated by potassium-argon or uranium-lead.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why can't a sedimentary rock be dated directly by radioisotopes?",
+   "choix": [
+    "Because it formed by the accumulation of particles of different, older ages",
+    "Because it contains no measurable isotope",
+    "Because it is too soft to extract a mineral sample from",
+    "Because it forms too fast for an isotope to accumulate in it"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Dating a sedimentary rock would amount to measuring the average age of a pile of rubble made of older particles, not the day the pile formed."
+  },
+  {
+   "question": "Which method dates the oldest rock layers, beyond the reach of potassium-argon?",
+   "choix": [
+    "Rubidium-strontium dating on fossilized wood",
+    "Carbon-14 dating on residual organic remains",
+    "Uranium-lead dating on zircon crystals",
+    "Thermoluminescence on quartz grains"
+   ],
+   "bonne_reponse": 2,
+   "explication": "For the oldest layers, uranium-lead dating on zircon crystals complements potassium-argon, reliable from about a million years to more than 4.5 billion years."
+  },
+  {
+   "question": "How is a fossil-bearing site with no volcanic ash nearby dated?",
+   "choix": [
+    "It remains impossible to date and falls outside any chronology",
+    "By measuring residual radioactivity directly in the fossil's bones",
+    "By comparing its magnetic orientation to a known calendar of reversals",
+    "By relative comparison, its position relative to other layers already dated, or the species it contains"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Without datable volcanic ash nearby, a site can be dated only by relative comparison, with other layers already placed in time, or with the species it holds."
+  }
+ ]
+}

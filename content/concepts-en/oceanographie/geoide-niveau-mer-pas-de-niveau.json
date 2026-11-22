@@ -1,0 +1,78 @@
+{
+ "id": "oce-geoide-niveau-mer-pas-de-niveau",
+ "slug": "geoide-niveau-mer-pas-de-niveau",
+ "langue": "en",
+ "empreinte_fr": "310af4823f800a84",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Sea Level Is Not Level: A 106-Meter Gap South of India",
+ "accroche": "Without tides or currents, the ocean surface would not be smooth: it would follow gravity, from +85 m to −106 m relative to a flattened sphere.",
+ "contenu_vulgarise": "“At sea level” seems to name a simple altitude: zero, everywhere. Yet if you erased the tides, the currents and the wind, the ocean surface would not be smooth. It would undulate, with nearly 200 meters between its extreme points.\n\n## A Surface Drawn by Gravity\n\nThe reason is that water settles where gravity pushes it. That gravity is not uniform: the Earth is not a sphere, its radius is greater at the equator than at the poles, and its masses are unevenly distributed, a mountain weighing more than a valley. Water at rest rises where gravity is stronger and sinks where it is weaker. The resulting shape is called the geoid, and it is what defines the zero of altitudes: an imaginary, irregular surface, extended beneath the continents as if narrow channels ran through them.\n\nIt is expressed relative to a smooth mathematical reference, the ellipsoid, a slightly flattened sphere. The gap runs from about +85 meters to −106 meters, the latter south of India: less than 200 meters of variation in all. The European satellite GOCE, launched in March 2009, was used to produce a precise map of it, presented in March 2011, whose color scale runs from −100 to +100 meters.\n\n## A Low Whose Cause Is Still Being Sought\n\nThe lowest point, the “Indian Ocean geoid low,” is the weakest gravity anomaly known on Earth. Earlier explanations mostly invoked remnants of ancient plates sunk into the mantle. In 2017, a team bringing together the Indian Institute of Science and the German Research Centre for Geosciences GFZ proposed another lead, based on numerical models: a mass deficit due to hotter, lighter material between 300 and 900 kilometers deep, linked to the African “superplume” and deflected eastward. This is the result of numerical simulations, not of a direct observation of the mantle.\n\n## What This Changes\n\nThe shift: “sea level” is a surface that is calculated, not a body of water that is observed. Water does not flow toward the low: it has settled where gravity places it, and it is relative to a reference sphere that the 106-meter gap is measured. What counts as “flat” therefore depends on the reference chosen, a flattened sphere or gravity itself. And if the simulations are right, what happens hundreds of kilometers below the Indian Ocean can be read at the sea surface.",
+ "citation": null,
+ "repere": {
+  "texte": "The Indian Ocean geoid low, south of India, departs from the reference by about 106 m: it is the weakest gravity anomaly known on Earth.",
+  "source": "Indian Institute of Science, on Ghosh, Thyagarajulu and Steinberger, Geophysical Research Letters 44, 2017",
+  "url": "https://www.iisc.ac.in/scientists-find-out-the-cause-for-geoid-low-in-the-indian-ocean/"
+ },
+ "carte": {
+  "punch": "South of India, the sea is 106 meters below a flattened reference sphere.",
+  "idee": "Without tides or currents, the ocean would follow gravity: its surface, the geoid, departs from a flattened sphere by +85 m to −106 m. The Indian Ocean low, south of India, is the weakest gravity anomaly known; its origin is still debated.",
+  "source_courte": "Ghosh et al., GRL, 2017; NOAA"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Ghosh, Thyagarajulu and Steinberger, “The importance of upper mantle heterogeneity in generating the Indian Ocean geoid low,” GRL, 2017",
+   "url": "https://doi.org/10.1002/2017GL075392",
+   "note": "The modeling paper from which the hypothesis about the low's origin is drawn."
+  }
+ ],
+ "quiz": {
+  "question": "What does the 106-meter “low” of the geoid south of India represent?",
+  "choix": [
+   "A trench where the ocean water is 106 meters deeper than elsewhere",
+   "A departure of water at rest from a flattened sphere, due to weaker gravity",
+   "A current that drains water toward the bottom and lowers the surface",
+   "The effect of the Moon's tides, stronger in the Indian Ocean"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The geoid is the shape water would take without tides or currents, under gravity alone. The low is a departure from a smooth reference, due to weaker gravity. It is neither a trench, nor a current, nor tides.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What would the ocean surface be if tides, currents and wind were erased?",
+   "choix": [
+    "A perfectly smooth surface, the water always seeking the absolute horizontal",
+    "An undulating surface that follows gravity, with nearly 200 meters between its extreme points",
+    "A sphere identical to the reference ellipsoid used to compute altitudes",
+    "A surface aligned on the equator, where the Earth's radius is greatest"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Without tides or currents, water settles according to gravity alone, which is not uniform: the resulting surface, the geoid, varies from +85 m to -106 m, nearly 200 meters, and is neither a smooth surface nor a sphere."
+  },
+  {
+   "question": "What did the European satellite GOCE, launched in March 2009, make possible?",
+   "choix": [
+    "Continuously measuring the surface temperature of the Indian Ocean from orbit",
+    "Producing a precise map of the geoid, presented in March 2011",
+    "Directly observing the Earth's mantle beneath the Indian Ocean, 900 kilometers down",
+    "Correcting for ocean tides to obtain a smooth reference surface"
+   ],
+   "bonne_reponse": 1,
+   "explication": "GOCE was used to produce a precise map of the geoid, presented in March 2011. The Indian Ocean low comes from numerical models of the mantle, not from a direct observation by the satellite."
+  },
+  {
+   "question": "What explanation does the 2017 team bringing together the IISc and GFZ propose for the Indian Ocean geoid low?",
+   "choix": [
+    "A pocket of active volcanic magma just under the Indian Ocean floor",
+    "A local variation in the water's salinity, which would change its density",
+    "A mass deficit due to hotter, lighter material, linked to the African superplume",
+    "A deep ocean current that would mechanically carve out the seafloor"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The team proposes, through numerical modeling, a mass deficit linked to hotter, lighter material between 300 and 900 km deep, tied to the African superplume: not magma, not salinity, not a current."
+  }
+ ]
+}

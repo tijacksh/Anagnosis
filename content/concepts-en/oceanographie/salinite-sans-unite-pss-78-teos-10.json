@@ -1,0 +1,89 @@
+{
+ "id": "oce-salinite-sans-unite-pss-78-teos-10",
+ "slug": "salinite-sans-unite-pss-78-teos-10",
+ "langue": "en",
+ "empreinte_fr": "0e6baca9084c6268",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says the answer to “35 what?” has changed three times, but the body describes only two changes (Knudsen salinity to PSS-78 in 1978, then TEOS-10). Rendered as in the French; to be checked."
+  }
+ ],
+ "titre": "Seawater Salinity Is Not an Amount of Salt: A 35 With No Unit",
+ "accroche": "Since 1978, the salinity on a map has been a ratio of conductivities, not grams of salt. Since 2010, the reference quantity has been g/kg.",
+ "contenu_vulgarise": "On an ocean map, the average salinity is written 35. Thirty-five what? The ready answer is: 35 grams of salt per kilogram of water, or 35 parts per thousand. The answer has changed three times, and the number carried by databases is not what you think it is.\n\n## From Chlorine to Salt\n\nBefore the 1980s, the chlorine and bromine in a sample were measured by titration with silver nitrate, which gave the chlorinity, then multiplied by a factor meant to account for all the other constituents. The “Knudsen salinities” obtained this way were expressed in parts per thousand. Water with a chlorinity of 19.37 parts per thousand has a Knudsen salinity of 35.00, according to Wikipedia's article on salinity.\n\n## 1978: A Ratio With No Unit\n\nThe Practical Salinity Scale of 1978, known as PSS-78, abandoned this chain. It defines salinity by the ratio K15 between the electrical conductivity of the sample, at 15 °C and one atmosphere, and that of a potassium chloride solution containing 32.4356 grams of KCl per kilogram of solution. A ratio exactly equal to 1 corresponds, by definition, to a salinity of 35. Two waters with the same conductivity thus have the same salinity, even if their salts are in different proportions. The designers of the scale judged conductivity better than chlorinity for determining density, and more precise than titration. A PSS-78 salinity has no unit: it measures a relative conductivity, not a mass. The suffix “psu,” sometimes added, does not give it one.\n\n## 2010: Back to Grams per Kilogram\n\nIn June 2009, the Intergovernmental Oceanographic Commission adopted TEOS-10 to replace the equation of state of 1980. This official description of the properties of seawater describes salt content by Absolute Salinity, the mass fraction of salt, in grams per kilogram, a unit of the International System. For water of reference composition, a practical salinity of 35 corresponds to a Reference Salinity of 35.16504 g/kg, according to the documentation of the TEOS-10 toolbox. The same sample, according to Wikipedia, is therefore worth about 35.2 g/kg in TEOS-10, about 35.0 in PSS-78 and 35.00 in Knudsen salinity, with a chlorinity of 19.37 parts per thousand.\n\n## What This Changes\n\nSalinity is not a measurement of salt; it is a measurement of conductivity that has been calibrated to resemble a measurement of salt. TEOS-10 says so in so many words: because of variations in the composition of seawater from place to place, Absolute Salinity is not simply proportional to practical salinity, and a correction is needed. To compute density, it is Absolute Salinity that is needed. Yet national databases must keep archiving practical salinity, because that is the quantity actually measured. The 35 you will read on most maps is not the result of a weighing.",
+ "citation": null,
+ "repere": {
+  "texte": "The ratio K15 of a sample's conductivity to that of a KCl solution at 32.4356 g per kilogram of solution, at 15 °C and one atmosphere, equals exactly 1 for a practical salinity of 35, by definition.",
+  "source": "Definition of PSS-78 adopted by the UNESCO/ICES/SCOR/IAPSO panel in 1980, reproduced by salinometry.com",
+  "url": "https://salinometry.com/pss-78/"
+ },
+ "carte": {
+  "punch": "The 35 on salinity maps is not a weight of salt: it is a ratio with no unit.",
+  "idee": "Since 1978, a salinity of 35 means: conductivity equal to that of a KCl solution at 32.4356 g/kg. Not a mass of salt. The same sample is worth about 35.2 g/kg in TEOS-10, the standard adopted in 2009.",
+  "source_courte": "PSS-78; TEOS-10, IOC"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Lewis, “The practical salinity scale 1978 and its antecedents,” IEEE JOE, 1980",
+   "url": "https://doi.org/10.1109/JOE.1980.1145448",
+   "note": "The presentation of the scale by one of its designers."
+  },
+  {
+   "titre": "TEOS-10, official site",
+   "url": "https://www.teos-10.org/",
+   "note": "The manual, the primer and the software of the standard adopted in 2009."
+  }
+ ],
+ "quiz": {
+  "question": "What does a practical salinity of 35 mean on the PSS-78 scale?",
+  "choix": [
+   "That the water contains exactly 35 grams of dissolved salt per kilogram",
+   "That the water's chlorinity reaches 35 parts per thousand, measured by titration",
+   "That the sample's conductivity equals that of a KCl solution at 32.4356 g/kg, at 15 °C",
+   "That the water's density exceeds that of pure water by 35 units"
+  ],
+  "bonne_reponse": 2,
+  "explication": "PSS-78 defines salinity by a ratio of conductivities, with no unit: K15 equal to 1 gives 35. It is not a mass of salt (the Absolute Salinity of TEOS-10, for its part, is about 35.2 g/kg), and it comes neither from a titration nor from a density.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Before the 1980s, how was the “Knudsen salinity” of a seawater sample obtained?",
+   "choix": [
+    "By directly measuring the mass of salt after the water was completely evaporated",
+    "By titrating chlorine and bromine with silver nitrate, then applying a factor to the resulting chlorinity",
+    "By comparing the water's conductivity with that of a KCl solution",
+    "By weighing a fixed volume of seawater at constant temperature"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Before the 1980s, chlorine and bromine were measured by titration with silver nitrate to obtain the chlorinity, which was multiplied by a factor to obtain the Knudsen salinity, in parts per thousand. Neither evaporation, nor conductivity, nor direct weighing enters into this method."
+  },
+  {
+   "question": "What does the Intergovernmental Oceanographic Commission adopt in June 2009, and what does this standard describe?",
+   "choix": [
+    "PSS-78, which replaces chlorinity with a more precise titration",
+    "Knudsen salinities, expressed in parts per thousand",
+    "A new measurement method by evaporation of the water volume",
+    "TEOS-10, which describes salt content by Absolute Salinity, in grams per kilogram"
+   ],
+   "bonne_reponse": 3,
+   "explication": "In June 2009, the Intergovernmental Oceanographic Commission adopts TEOS-10, which replaces the equation of state of 1980 and describes salt content by Absolute Salinity, a mass fraction in grams per kilogram, the unit of the International System. PSS-78 and Knudsen predate it."
+  },
+  {
+   "question": "For the same seawater sample with a chlorinity of 19.37 parts per thousand, roughly what are its salinity in PSS-78 and its Absolute Salinity in TEOS-10?",
+   "choix": [
+    "About 35.0 in PSS-78 and about 35.2 g/kg in TEOS-10",
+    "About 19.37 on both scales, the two being identical",
+    "About 35.0 in PSS-78 and about 19.37 g/kg in TEOS-10",
+    "About 70 in PSS-78 and about 35.2 g/kg in TEOS-10"
+   ],
+   "bonne_reponse": 0,
+   "explication": "According to Wikipedia, a sample with a chlorinity of 19.37 parts per thousand is worth about 35.00 in Knudsen salinity, about 35.0 in PSS-78 and about 35.2 g/kg in TEOS-10 Absolute Salinity: three different scales for the same sample, not identical or doubled values."
+  }
+ ]
+}
