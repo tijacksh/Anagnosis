@@ -9,8 +9,8 @@
  "drapeaux": [
   {
    "chemin": "quiz/explication",
-   "type": "incertain",
-   "note": "« aucune occultation n'est en cause » : sens peu clair en français (peut-être le changement de forme du choix 1) ; traduit littéralement."
+   "type": "erreur-possible-fr",
+   "note": "The French phrase “aucune occultation n'est en cause” (rendered literally as “no occultation is involved”) matches none of the answer choices: no choice mentions an occultation (perhaps it refers to choice 1, the comet's change of shape). Translation kept literal; the French needs a check by the controler/repair routine."
   }
  ],
  "titre": "Halley and Clairaut: The Comet of 1759, Predicted and Then Corrected",
@@ -69,11 +69,11 @@
    "explication": "Halley identifies three appearances as a single comet and notes alternating intervals of 75 and 76 years. He has no calculation of planetary perturbations, which remains to be done in 1757-1758."
   },
   {
-   "question": "What does Lepaute's absence from Clairaut's *Théorie des comètes* in 1760 show?",
+   "question": "What does Lepaute's absence from Clairaut's Théorie des comètes in 1760 show?",
    "choix": [
     "That Lepaute had not taken part in the calculations of 1757-1758",
     "That a computer's role was left out, and that Lalande and Clairaut would no longer collaborate",
-    "That Lalande had written the entire *Théorie des comètes* alone",
+    "That Lalande had written the entire Théorie des comètes alone",
     "That Clairaut had redone all of Lalande's calculations alone"
    ],
    "bonne_reponse": 1,
