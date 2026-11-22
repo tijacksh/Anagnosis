@@ -1,0 +1,229 @@
+{
+ "racine.volet_vide_titre": {
+  "fr": "CHOISISSEZ UNE FICHE",
+  "en": "CHOOSE AN ENTRY",
+  "note": "Volet de droite vide (iPad, Duo déplié) : titre en capitales. « fiche » = entry."
+ },
+ "racine.volet_vide_calendrier": {
+  "fr": "Touchez un jour du calendrier : la fiche s'ouvre ici, à côté.",
+  "en": "Tap a day in the calendar: the entry opens here, beside it.",
+  "note": "Volet vide, onglet Calendrier."
+ },
+ "racine.volet_vide_archive": {
+  "fr": "Touchez une fiche de la liste : elle s'ouvre ici, à côté.",
+  "en": "Tap an entry in the list: it opens here, beside it.",
+  "note": "Volet vide, onglet Archive."
+ },
+ "carte.pied_marque": {
+  "fr": "UN CONCEPT PAR JOUR · ANAGNOSIS.FR · @ANAGNOSIS_APP",
+  "en": "ONE CONCEPT A DAY · ANAGNOSIS.FR · @ANAGNOSIS_APP",
+  "note": "Pied de la carte partageable (image publiée) : une seule ligne, capitales. L'adresse et le compte ne changent pas."
+ },
+ "carte.mention_serie": {
+  "fr": {
+   "un": "SÉRIE {n} JOUR",
+   "autre": "SÉRIE {n} JOURS"
+  },
+  "en": {
+   "un": "{n}-DAY STREAK",
+   "autre": "{n}-DAY STREAK"
+  },
+  "note": "Mention de série en haut à droite du pied de la carte partageable, capitales. fr : un pour 0 et 1."
+ },
+ "carte.mention_serie_quiz": {
+  "fr": "{serie} · QUIZ {quiz}",
+  "en": "{serie} · QUIZ {quiz}",
+  "note": "Mention de série suivie de la série de quiz ; {serie} = le texte de carte.mention_serie."
+ },
+ "carte.palier_serie_lecture": {
+  "fr": "SÉRIE DE LECTURE",
+  "en": "READING STREAK",
+  "note": "Android : libellé de la carte de palier (image publiée), capitales."
+ },
+ "carte.palier_serie_quiz": {
+  "fr": "SÉRIE DE QUIZ",
+  "en": "QUIZ STREAK",
+  "note": "Android : libellé de la carte de palier pour la série de quiz."
+ },
+ "carte.partage_instagram_absent": {
+  "fr": "Instagram n'est pas installé",
+  "en": "Instagram isn't installed",
+  "note": "Android : message bref quand l'app Instagram manque."
+ },
+ "carte.partage_titre_carte": {
+  "fr": "Partager la carte",
+  "en": "Share the card",
+  "note": "Android : titre de la feuille de partage système pour la carte."
+ },
+ "carte.partage_titre": {
+  "fr": "Partager",
+  "en": "Share",
+  "note": "Android : titre générique de la feuille de partage système."
+ },
+ "carte.partage_titre_story": {
+  "fr": "Partager la story",
+  "en": "Share the story",
+  "note": "Android : titre de la feuille de partage pour la story vidéo."
+ },
+ "carte.partage_titre_fiche": {
+  "fr": "Exporter la fiche",
+  "en": "Export the entry",
+  "note": "Android : titre de la feuille de partage pour le PDF de la fiche."
+ },
+ "carte.presse_papiers_libelle": {
+  "fr": "Carte Anagnosis",
+  "en": "Anagnosis card",
+  "note": "Android : libellé du presse-papiers pour l'image de la carte."
+ },
+ "ecoute.vitesse_libelle": {
+  "fr": "Vitesse d'écoute",
+  "en": "Listening speed",
+  "note": "Accessibilité du bouton de vitesse."
+ },
+ "ecoute.vitesse_indication": {
+  "fr": "Appuyer pour accélérer",
+  "en": "Tap to speed up",
+  "note": "Indication d'accessibilité du bouton de vitesse (iOS)."
+ },
+ "ecoute.bouton_pause": {
+  "fr": "Mettre l'écoute en pause",
+  "en": "Pause listening",
+  "note": "Accessibilité du bouton d'écoute de la barre de titre pendant la lecture."
+ },
+ "ecoute.bouton_ecouter": {
+  "fr": "Écouter la fiche",
+  "en": "Listen to the entry",
+  "note": "Accessibilité du bouton d'écoute."
+ },
+ "ecoute.bouton_ecouter_verrou": {
+  "fr": "Écouter la fiche, réservé à l'abonnement",
+  "en": "Listen to the entry, subscribers only",
+  "note": "Accessibilité du bouton d'écoute chez un lecteur gratuit."
+ },
+ "ecoute.erreur_chargement": {
+  "fr": "LA VOIX NE S'EST PAS CHARGÉE : VÉRIFIEZ VOTRE CONNEXION",
+  "en": "THE VOICE DIDN'T LOAD: CHECK YOUR CONNECTION",
+  "note": "Incident d'écoute, capitales : téléchargement de la voix échoué."
+ },
+ "ecoute.erreur_demarrage": {
+  "fr": "LA VOIX NE DÉMARRE PAS : RÉESSAYEZ",
+  "en": "THE VOICE WON'T START: TRY AGAIN",
+  "note": "Incident d'écoute, capitales : fichier illisible."
+ },
+ "ecoute.voix_femme": {
+  "fr": "Femme",
+  "en": "Female",
+  "note": "Genre de la voix, affiché en capitales à côté de la vitesse."
+ },
+ "ecoute.voix_homme": {
+  "fr": "Homme",
+  "en": "Male",
+  "note": "Genre de la voix, affiché en capitales à côté de la vitesse."
+ },
+ "ecoute.voix_a11y": {
+  "fr": "Voix {genre}",
+  "en": "{genre} voice",
+  "note": "Accessibilité : {genre} = ecoute.voix_femme ou voix_homme, en minuscules."
+ },
+ "ecoute.arreter": {
+  "fr": "ARRÊTER",
+  "en": "STOP",
+  "note": "Bouton d'arrêt du lecteur, capitales."
+ },
+ "ecoute.reperage_vide": {
+  "fr": "ÉCOUTE",
+  "en": "LISTENING",
+  "note": "Repère du lecteur tant que la durée est inconnue, capitales."
+ },
+ "ecoute.reculer": {
+  "fr": "Reculer de quinze secondes",
+  "en": "Back 15 seconds",
+  "note": "Accessibilité de la commande du lecteur."
+ },
+ "ecoute.reprendre": {
+  "fr": "Reprendre",
+  "en": "Resume",
+  "note": "Accessibilité de la commande du lecteur."
+ },
+ "ecoute.mettre_en_pause": {
+  "fr": "Mettre en pause",
+  "en": "Pause",
+  "note": "Accessibilité de la commande du lecteur."
+ },
+ "ecoute.avancer": {
+  "fr": "Avancer de quinze secondes",
+  "en": "Forward 15 seconds",
+  "note": "Accessibilité de la commande du lecteur."
+ },
+ "ecoute.service_pause": {
+  "fr": "Pause",
+  "en": "Pause",
+  "note": "Android : action de la notification d'écoute."
+ },
+ "ecoute.service_lecture": {
+  "fr": "Lecture",
+  "en": "Play",
+  "note": "Android : action de la notification d'écoute."
+ },
+ "ecoute.service_arreter": {
+  "fr": "Arrêter",
+  "en": "Stop",
+  "note": "Android : action de la notification d'écoute."
+ },
+ "ecoute.canal_nom": {
+  "fr": "Écoute",
+  "en": "Listening",
+  "note": "Android : nom du canal de la notification d'écoute."
+ },
+ "ecoute.canal_description": {
+  "fr": "Les commandes de lecture, pendant l'écoute d'une fiche.",
+  "en": "Playback controls while an entry is playing.",
+  "note": "Android : description du canal de la notification d'écoute."
+ },
+ "raccourci.concept_du_jour": {
+  "fr": "Concept du jour",
+  "en": "Today's concept",
+  "note": "Android : raccourci de l'icône (appui long). Même texte que le raccourci Siri iOS, résolu par le système."
+ },
+ "widget.serie_jours": {
+  "fr": {
+   "un": "{n} JOUR",
+   "autre": "{n} JOURS"
+  },
+  "en": {
+   "un": "{n} DAY",
+   "autre": "{n} DAYS"
+  },
+  "note": "Widget : compte de jours d'affilée, capitales, au coin du surtitre."
+ },
+ "widget.serie_avec_quiz": {
+  "fr": "{serie} · QUIZ {quiz}",
+  "en": "{serie} · QUIZ {quiz}",
+  "note": "Widget : série suivie de la série de quiz ; {serie} = widget.serie_jours."
+ },
+ "widget.masque_verrou": {
+  "fr": "Masqué, comme vous l'avez réglé.",
+  "en": "Hidden, as you set it.",
+  "note": "Widget (écran verrouillé) en mode muet."
+ },
+ "widget.masque_titre": {
+  "fr": "Titre masqué, comme vous l'avez réglé.",
+  "en": "Title hidden, as you set it.",
+  "note": "Widget (écran d'accueil) en mode muet."
+ },
+ "widget.rien": {
+  "fr": "Rien à montrer aujourd'hui.",
+  "en": "Nothing to show today.",
+  "note": "Widget quand aucune fiche n'est à montrer."
+ },
+ "widget.ouvrir_verrou": {
+  "fr": "Ouvrez l'app une fois.",
+  "en": "Open the app once.",
+  "note": "iOS : widget (écran verrouillé) avant tout dépôt de l'app. Résolu par l'extension elle-même."
+ },
+ "widget.ouvrir_titre": {
+  "fr": "Ouvrez l'app une fois pour commencer.",
+  "en": "Open the app once to get started.",
+  "note": "iOS : widget (écran d'accueil) avant tout dépôt de l'app. Résolu par l'extension elle-même."
+ }
+}

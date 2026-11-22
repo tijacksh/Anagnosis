@@ -1,0 +1,343 @@
+{
+ "bloc_epreuve.surtitre": {
+  "fr": "L'ÉPREUVE, OFFERTE",
+  "en": "THE FREE QUIZ",
+  "note": "Sur-titre du bloc d'invitation à l'épreuve offerte (capitales d'origine). Glossaire : épreuve = quiz ; « offerte » = gratuite, une fois."
+ },
+ "bloc_epreuve.titre": {
+  "fr": "Que reste-t-il d'un mois de lecture ?",
+  "en": "What's left of a month of reading?",
+  "note": "Titre du bloc de l'épreuve offerte."
+ },
+ "bloc_epreuve.corps": {
+  "fr": "Cinq questions sur des fiches lues il y a plus d'un mois. Une seule fois, et le résultat ne sera montré qu'à vous.",
+  "en": "Five questions on entries you read over a month ago. One time only, and the result is shown only to you.",
+  "note": "Corps du bloc de l'épreuve offerte : ne promet rien, propose de constater."
+ },
+ "bloc_epreuve.mention": {
+  "fr": "SANS ABONNEMENT",
+  "en": "NO SUBSCRIPTION NEEDED",
+  "note": "Mention en bas du bloc (capitales d'origine) : l'épreuve ne demande pas d'abonnement."
+ },
+ "bloc_rappel.surtitre": {
+  "fr": "LE RAPPEL",
+  "en": "THE RECALL",
+  "note": "Sur-titre du bloc de rappel espacé. Glossaire : rappel = reminder (doute : c'est le rappel espacé des fiches déjà lues ; à valider par Arnaud)."
+ },
+ "bloc_rappel.titre": {
+  "fr": {
+   "un": "Une question sur ce que vous avez lu",
+   "autre": "{n} questions sur ce que vous avez lu"
+  },
+  "en": {
+   "un": "One question on what you've read",
+   "autre": "{n} questions on what you've read"
+  },
+  "note": "Titre du bloc de rappel ; {n} = nombre de questions attendues. Règle fr : un pour 0 et 1 (comme l'original : n > 1 pour le pluriel)."
+ },
+ "bloc_rappel.cadence_premium": {
+  "fr": "IL Y A DIX JOURS, SIX SEMAINES, SIX MOIS",
+  "en": "FROM TEN DAYS, SIX WEEKS, SIX MONTHS AGO",
+  "note": "Mention du bloc de rappel (capitales d'origine) : de quand datent les fiches revues. Compte Premium."
+ },
+ "bloc_rappel.cadence_gratuit": {
+  "fr": "UNE FOIS PAR SEMAINE, TOUS LES JOURS AVEC PREMIUM",
+  "en": "ONCE A WEEK, EVERY DAY WITH PREMIUM",
+  "note": "Mention du bloc de rappel (capitales d'origine) sans abonnement : fréquence, et ce que Premium ajoute."
+ },
+ "note_en_marge.titre": {
+  "fr": "EN MARGE",
+  "en": "IN THE MARGIN",
+  "note": "Titre de section de la note en fin de fiche (capitales d'origine)."
+ },
+ "note_en_marge.ecrire": {
+  "fr": "Écrire en marge",
+  "en": "Write in the margin",
+  "note": "Bouton d'entrée vers l'offre, sans abonnement et sans note déjà écrite."
+ },
+ "note_en_marge.premium": {
+  "fr": "PREMIUM",
+  "en": "PREMIUM",
+  "note": "Étiquette Premium du bouton « Écrire en marge » : le nom du produit ne se traduit pas."
+ },
+ "note_en_marge.placeholder": {
+  "fr": "Une idée, un lien, une objection.",
+  "en": "An idea, a link, an objection.",
+  "note": "Texte d'invite du champ de note, tant qu'il est vide."
+ },
+ "bloc_verrou.titre_prochain": {
+  "fr": "Le prochain concept",
+  "en": "The next concept",
+  "note": "Titre par défaut du verrou du lendemain (l'écran Aujourd'hui peut en fournir un autre)."
+ },
+ "bloc_verrou.relire_archive": {
+  "fr": "Relire l'archive",
+  "en": "Reread the archive",
+  "note": "Bande basse du verrou, compte Premium : ouvre l'archive."
+ },
+ "bloc_verrou.relire_archive_sous": {
+  "fr": "TOUT LE PASSÉ EST OUVERT",
+  "en": "THE ENTIRE PAST IS OPEN",
+  "note": "Sous-titre de la bande « Relire l'archive » (capitales d'origine)."
+ },
+ "bloc_verrou.relire_passe": {
+  "fr": "Relire le passé",
+  "en": "Reread the past",
+  "note": "Bande basse du verrou, compte gratuit : ouvre l'offre."
+ },
+ "bloc_verrou.relire_passe_sous": {
+  "fr": "AVEC PREMIUM",
+  "en": "WITH PREMIUM",
+  "note": "Sous-titre de la bande « Relire le passé » (capitales d'origine)."
+ },
+ "ecran_lecture.meta": {
+  "fr": "{date} · {duree} MIN DE LECTURE",
+  "en": "{date} · {duree} MIN READ",
+  "note": "Ligne au-dessus du titre : {date} = date complète déjà en capitales (G4), {duree} = minutes de lecture (nombre, pas un pluriel)."
+ },
+ "ecran_lecture.garder": {
+  "fr": "GARDER",
+  "en": "SAVE",
+  "note": "Bouton marque-page d'une fiche non gardée (capitales d'origine). « Garder » absent du glossaire : à valider (Saved)."
+ },
+ "ecran_lecture.gardee": {
+  "fr": "GARDÉE",
+  "en": "SAVED",
+  "note": "Bouton marque-page d'une fiche gardée (capitales d'origine)."
+ },
+ "ecran_lecture.garder_a11y": {
+  "fr": "Garder cette fiche",
+  "en": "Save this entry",
+  "note": "Libellé d'accessibilité du marque-page, fiche non gardée."
+ },
+ "ecran_lecture.gardee_a11y": {
+  "fr": "Fiche gardée, ne plus la garder",
+  "en": "Entry saved, unsave it",
+  "note": "Libellé d'accessibilité du marque-page, fiche gardée : un appui la retire."
+ },
+ "ecran_lecture.voix_telechargement": {
+  "fr": "TÉLÉCHARGEMENT DE LA VOIX…",
+  "en": "DOWNLOADING THE VOICE…",
+  "note": "Bandeau en bas de l'écran pendant le téléchargement de la voix (capitales d'origine)."
+ },
+ "ecran_lecture.voix_bientot": {
+  "fr": "LA VOIX ARRIVE BIENTÔT",
+  "en": "THE VOICE IS COMING SOON",
+  "note": "Bandeau quand la fiche n'a pas encore de voix produite (builds internes seulement)."
+ },
+ "ecran_lecture.appui_citation": {
+  "fr": "CITATION",
+  "en": "QUOTE",
+  "note": "Étiquette de l'encadré d'appui quand il s'agit d'une citation."
+ },
+ "ecran_lecture.appui_repere": {
+  "fr": "REPÈRE",
+  "en": "KEY FACT",
+  "note": "Étiquette de l'encadré d'appui quand il s'agit d'un repère : fait sourcé, frappant et chiffré (ligne éditoriale)."
+ },
+ "ecran_lecture.sources": {
+  "fr": "SOURCES",
+  "en": "SOURCES",
+  "note": "Titre de section de la liste des sources (capitales d'origine)."
+ },
+ "ecran_lecture.aller_plus_loin": {
+  "fr": "POUR ALLER PLUS LOIN",
+  "en": "FURTHER READING",
+  "note": "Titre de section des lectures complémentaires (capitales d'origine)."
+ },
+ "ecran_lecture.partager": {
+  "fr": "Partager",
+  "en": "Share",
+  "note": "Bloc plein de fin de lecture : ouvre l'écran de partage de la carte."
+ },
+ "ecran_lecture.partager_sous": {
+  "fr": "STORY 9:16",
+  "en": "STORY 9:16",
+  "note": "Sous-titre du bloc Partager : le format de la story ; identique dans les deux langues."
+ },
+ "ecran_lecture.quiz": {
+  "fr": "Quiz",
+  "en": "Quiz",
+  "note": "Bloc de fin de lecture qui ouvre le quiz."
+ },
+ "ecran_lecture.quiz_aucun": {
+  "fr": "AUCUN",
+  "en": "NONE",
+  "note": "Sous-titre du bloc Quiz quand la fiche n'a pas de quiz (capitales d'origine)."
+ },
+ "ecran_lecture.quiz_questions": {
+  "fr": {
+   "un": "{n} QUESTION",
+   "autre": "{n} QUESTIONS"
+  },
+  "en": {
+   "un": "{n} QUESTION",
+   "autre": "{n} QUESTIONS"
+  },
+  "note": "Sous-titre du bloc Quiz : nombre de questions (capitales d'origine). Reconstruit : l'original écrit « 1 QUESTION » et « n QUESTIONS » en deux littéraux."
+ },
+ "ecran_lecture.quiz_deja_repondu": {
+  "fr": "DÉJÀ RÉPONDU",
+  "en": "ALREADY ANSWERED",
+  "note": "Sous-titre du bloc Quiz quand la seule question a déjà reçu sa réponse (capitales d'origine)."
+ },
+ "ecran_quiz.entete_position": {
+  "fr": "QUIZ · {rang} / {total}",
+  "en": "QUIZ · {rang} / {total}",
+  "note": "En-tête d'un parcours de plusieurs questions : {rang} de {total} (nombres, pas un pluriel)."
+ },
+ "ecran_quiz.entete_facultatif": {
+  "fr": "QUIZ · FACULTATIF",
+  "en": "QUIZ · OPTIONAL",
+  "note": "En-tête du quiz d'une seule question (capitales d'origine)."
+ },
+ "ecran_quiz.fermer": {
+  "fr": "FERMER ✕",
+  "en": "CLOSE ✕",
+  "note": "Bouton de sortie d'un parcours de plusieurs questions (capitales d'origine ; la croix fait partie du texte)."
+ },
+ "ecran_quiz.compte_serie": {
+  "fr": "COMPTE DANS LA SÉRIE DE QUIZ",
+  "en": "COUNTS TOWARD THE QUIZ STREAK",
+  "note": "Mention à droite de l'en-tête du quiz d'une seule question : il compte dans la série de quiz (glossaire : série = streak)."
+ },
+ "ecran_quiz.facultatif_compte_serie": {
+  "fr": "FACULTATIF · COMPTE DANS LA SÉRIE DE QUIZ",
+  "en": "OPTIONAL · COUNTS TOWARD THE QUIZ STREAK",
+  "note": "Seconde ligne d'en-tête d'un parcours de plusieurs questions."
+ },
+ "ecran_quiz.pourquoi": {
+  "fr": "POURQUOI",
+  "en": "WHY",
+  "note": "Titre de l'encadré d'explication après la réponse (capitales d'origine)."
+ },
+ "ecran_quiz.passer": {
+  "fr": "Passer",
+  "en": "Skip",
+  "note": "Bouton du pied de page avant toute réponse : quitte le quiz ou passe à la question suivante."
+ },
+ "ecran_quiz.revenir_fiche": {
+  "fr": "Revenir à la fiche",
+  "en": "Back to the entry",
+  "note": "Bouton du pied de page après la réponse, dernière question."
+ },
+ "ecran_quiz.question_suivante": {
+  "fr": "Question suivante",
+  "en": "Next question",
+  "note": "Bouton du pied de page après la réponse, dans un parcours de plusieurs questions."
+ },
+ "ecran_recap.vide": {
+  "fr": "Vos mois s'écriront à mesure que vous lirez. Chaque page réunit ce que le mois a apporté, dans l'ordre où il l'a apporté.",
+  "en": "Your months will write themselves as you read. Each page gathers what the month brought, in the order it brought it.",
+  "note": "Texte du récap tant qu'aucun mois n'a de lecture."
+ },
+ "ecran_recap.surtitre": {
+  "fr": "LE RÉCAP",
+  "en": "THE RECAP",
+  "note": "Sur-titre du récap mensuel (capitales d'origine)."
+ },
+ "ecran_recap.titre": {
+  "fr": "Vos mois, un par un",
+  "en": "Your months, one by one",
+  "note": "Titre du récap mensuel."
+ },
+ "ecran_recap.en_cours": {
+  "fr": "EN COURS",
+  "en": "IN PROGRESS",
+  "note": "Mention du mois en cours (capitales d'origine) : sa page n'est pas close."
+ },
+ "ecran_recap.compte_concepts": {
+  "fr": {
+   "un": "{n} concept",
+   "autre": "{n} concepts"
+  },
+  "en": {
+   "un": "{n} concept",
+   "autre": "{n} concepts"
+  },
+  "note": "Nombre de concepts lus dans le mois (toujours au moins 1)."
+ },
+ "ecran_recap.bilan_quiz": {
+  "fr": {
+   "un": "{n} bonne réponse sur {total} quiz",
+   "autre": "{n} bonnes réponses sur {total} quiz"
+  },
+  "en": {
+   "un": "{n} of {total} correct",
+   "autre": "{n} of {total} correct"
+  },
+  "note": "Bilan de quiz du mois : {n} = bonnes réponses (clé du pluriel), {total} = quiz répondus. Reconstruit : l'original assemble « bonne(s) réponse(s) » par suffixes. L'anglais ne varie pas avec {total}."
+ },
+ "ecran_recap.legende_disciplines": {
+  "fr": {
+   "un": "{n} discipline",
+   "autre": "{n} disciplines"
+  },
+  "en": {
+   "un": "{n} field",
+   "autre": "{n} fields"
+  },
+  "note": "Légende de la bande d'encres quand aucune discipline ne se détache : nombre de disciplines (glossaire : discipline = field)."
+ },
+ "ecran_recap.legende_et_autres": {
+  "fr": {
+   "un": "{debut} · et {n} autre",
+   "autre": "{debut} · et {n} autres"
+  },
+  "en": {
+   "un": "{debut} · and {n} other",
+   "autre": "{debut} · and {n} others"
+  },
+  "note": "Fin de la légende de la bande : {debut} = disciplines nommées avec leur compte (déjà composé), {n} = nombre d'autres disciplines (au moins 1)."
+ },
+ "ecran_releve.surtitre": {
+  "fr": "LE RELEVÉ",
+  "en": "THE REPORT",
+  "note": "Sur-titre de l'écran Relevé (capitales d'origine) : liste de fiches à rouvrir, pas un bulletin. À valider par Arnaud."
+ },
+ "ecran_releve.titre": {
+  "fr": "Ce qui tient,\nce qui s'efface",
+  "en": "What sticks,\nwhat fades",
+  "note": "Titre en deux lignes (retour à la ligne volontaire)."
+ },
+ "ecran_releve.intro": {
+  "fr": "Les questions du rappel reviennent dix jours, six semaines et six mois après la lecture. Voici ce qu'elles ont donné, la dernière fois.",
+  "en": "Recall questions come back ten days, six weeks, and six months after you read. Here is how they went the last time.",
+  "note": "Introduction de l'écran Relevé (rappel = reminder, voir bloc_rappel.surtitre)."
+ },
+ "ecran_releve.vide": {
+  "fr": "Le rappel ne vous a pas encore interrogé. Revenez quand vos premières fiches auront dix jours.",
+  "en": "Recall hasn't quizzed you yet. Come back when your first entries are ten days old.",
+  "note": "Texte du Relevé tant que le rappel n'a rien demandé : vide ne veut pas dire nul."
+ },
+ "ecran_releve.s_efface": {
+  "fr": "Ce qui s'efface",
+  "en": "What fades",
+  "note": "Titre de la colonne des fiches mal retenues."
+ },
+ "ecran_releve.tient": {
+  "fr": "Ce qui tient",
+  "en": "What sticks",
+  "note": "Titre de la colonne des fiches bien retenues."
+ },
+ "ecran_palier.serie_lecture": {
+  "fr": "SÉRIE DE LECTURE",
+  "en": "READING STREAK",
+  "note": "Étiquette d'un palier de série de lecture (capitales d'origine). La carte du palier utilise carte.palier_serie_lecture (G5)."
+ },
+ "ecran_palier.serie_quiz": {
+  "fr": "SÉRIE DE QUIZ",
+  "en": "QUIZ STREAK",
+  "note": "Étiquette d'un palier de série de quiz (capitales d'origine). La carte du palier utilise carte.palier_serie_quiz (G5)."
+ },
+ "ecran_palier.montrer": {
+  "fr": "Le montrer",
+  "en": "Show it",
+  "note": "Bouton qui ouvre le partage de la carte du palier."
+ },
+ "ecran_palier.continuer": {
+  "fr": "Continuer",
+  "en": "Continue",
+  "note": "Bouton qui ferme la fenêtre du palier."
+ }
+}

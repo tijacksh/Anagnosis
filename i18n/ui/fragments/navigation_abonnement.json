@@ -1,0 +1,556 @@
+{
+ "ecran_aujourdhui.attente_titre": {
+  "fr": "La cadence est posée.",
+  "en": "The cadence is set.",
+  "note": "Titre de l'écran d'attente avant le premier jour."
+ },
+ "ecran_aujourdhui.attente_texte": {
+  "fr": "Votre premier concept arrive demain matin. D'ici là, il n'y a rien à faire, c'est exactement le principe.",
+  "en": "Your first concept arrives tomorrow morning. Until then, there is nothing to do. That is exactly the point.",
+  "note": "Corps de l'écran d'attente avant le premier jour."
+ },
+ "ecran_aujourdhui.attente_verrou": {
+  "fr": "Votre premier concept",
+  "en": "Your first concept",
+  "note": "Titre du verrou (BlocVerrou) avant le premier jour."
+ },
+ "ecran_incident.titre": {
+  "fr": "Impossible de charger le contenu.",
+  "en": "Couldn't load the content.",
+  "note": "Écran d'incident : corpus embarqué introuvable."
+ },
+ "ecran_incident.texte_ios": {
+  "fr": "Réinstallez l'app depuis l'App Store, ça devrait suffire. Votre série et vos lectures sont gardées.",
+  "en": "Reinstall the app from the App Store. That should be enough. Your streak and your reading history are kept.",
+  "note": "Écran d'incident iOS (boutique : App Store)."
+ },
+ "ecran_incident.texte_android": {
+  "fr": "Réinstallez l'app depuis le Play Store, ça devrait suffire. Votre série et vos lectures sont gardées.",
+  "en": "Reinstall the app from the Play Store. That should be enough. Your streak and your reading history are kept.",
+  "note": "Écran d'incident Android (boutique : Play Store)."
+ },
+ "ecran_calendrier.titre_section": {
+  "fr": "CALENDRIER",
+  "en": "CALENDAR",
+  "note": "Surtitre de l'écran, déjà en capitales dans le texte d'origine."
+ },
+ "ecran_calendrier.jour_lun": {
+  "fr": "lun",
+  "en": "mon",
+  "note": "En-tête de colonne (affiché en capitales) ; la semaine commence le lundi dans les deux langues."
+ },
+ "ecran_calendrier.jour_mar": {
+  "fr": "mar",
+  "en": "tue",
+  "note": "En-tête de colonne (affiché en capitales)."
+ },
+ "ecran_calendrier.jour_mer": {
+  "fr": "mer",
+  "en": "wed",
+  "note": "En-tête de colonne (affiché en capitales)."
+ },
+ "ecran_calendrier.jour_jeu": {
+  "fr": "jeu",
+  "en": "thu",
+  "note": "En-tête de colonne (affiché en capitales)."
+ },
+ "ecran_calendrier.jour_ven": {
+  "fr": "ven",
+  "en": "fri",
+  "note": "En-tête de colonne (affiché en capitales)."
+ },
+ "ecran_calendrier.jour_sam": {
+  "fr": "sam",
+  "en": "sat",
+  "note": "En-tête de colonne (affiché en capitales)."
+ },
+ "ecran_calendrier.jour_dim": {
+  "fr": "dim",
+  "en": "sun",
+  "note": "En-tête de colonne (affiché en capitales)."
+ },
+ "ecran_calendrier.legende_lu": {
+  "fr": "Lu, l'encre de la discipline",
+  "en": "Read, in the field's ink",
+  "note": "Légende : jour lu."
+ },
+ "ecran_calendrier.legende_ouvert": {
+  "fr": "Ouvert, pas encore lu",
+  "en": "Open, not read yet",
+  "note": "Légende : jour ouvert mais pas lu."
+ },
+ "ecran_calendrier.legende_verrouille": {
+  "fr": "Verrouillé, l'encre en sourdine",
+  "en": "Locked, ink muted",
+  "note": "Légende : jour verrouillé (lecteur gratuit)."
+ },
+ "ecran_calendrier.legende_premium": {
+  "fr": "Premium ouvre la consultation rétroactive illimitée. Le concept du jour reste unique.",
+  "en": "Premium opens unlimited access to the past. Today's concept stays unique.",
+  "note": "Sous la légende, lecteur gratuit seulement."
+ },
+ "ecran_calendrier.legende_disciplines": {
+  "fr": "DISCIPLINES DU MOIS",
+  "en": "FIELDS THIS MONTH",
+  "note": "Titre de la légende des disciplines du mois (déjà en capitales)."
+ },
+ "ecran_planche.titre_section": {
+  "fr": "LES PLANCHES",
+  "en": "THE PLATES",
+  "note": "Surtitre de l'écran ; aussi libellé de la carte d'appel du Profil. Planche = relevé d'impression par discipline (plate)."
+ },
+ "ecran_planche.titre": {
+  "fr": "Ce que vous avez imprimé",
+  "en": "What you've printed",
+  "note": "Titre de l'écran ; aussi sous-titre de la carte d'appel du Profil."
+ },
+ "ecran_planche.vide": {
+  "fr": "Vos planches se composeront à mesure que vous lirez. Chaque fiche y pose sa forme, à l'encre de sa discipline.",
+  "en": "Your plates will build up as you read. Each entry adds its shape, in the ink of its field.",
+  "note": "Texte d'une planche encore vide."
+ },
+ "ecran_planche.compte": {
+  "fr": "{compte} sur {publiees}",
+  "en": "{compte} of {publiees}",
+  "note": "Fiches lues sur fiches publiées dans la discipline (jamais un pourcentage)."
+ },
+ "ecran_archive.titre_section": {
+  "fr": "ARCHIVE",
+  "en": "ARCHIVE",
+  "note": "Surtitre de l'écran (déjà en capitales)."
+ },
+ "ecran_archive.titre_servis": {
+  "fr": {
+   "un": "{n} concept servi",
+   "autre": "{n} concepts servis"
+  },
+  "en": {
+   "un": "{n} concept served",
+   "autre": "{n} concepts served"
+  },
+  "note": "Titre quand tout ce qui a été servi est ouvert. Règle fr : un pour 0 et 1."
+ },
+ "ecran_archive.titre_ouverts": {
+  "fr": {
+   "un": "{n} ouvert sur {total} servis",
+   "autre": "{n} ouverts sur {total} servis"
+  },
+  "en": {
+   "un": "{n} of {total} open",
+   "autre": "{n} of {total} open"
+  },
+  "note": "Titre quand une partie seulement est ouverte : {n} = jours ouverts (accord), {total} = jours servis."
+ },
+ "ecran_archive.titre_rien": {
+  "fr": "Rien trouvé",
+  "en": "Nothing found",
+  "note": "Titre d'une recherche sans résultat."
+ },
+ "ecran_archive.titre_trouvees": {
+  "fr": {
+   "un": "{n} fiche trouvée",
+   "autre": "{n} fiches trouvées"
+  },
+  "en": {
+   "un": "{n} entry found",
+   "autre": "{n} entries found"
+  },
+  "note": "Titre d'une recherche avec résultats. fiche = entry."
+ },
+ "ecran_archive.vide_demain": {
+  "fr": "L'archive se remplira à partir de demain.",
+  "en": "The Archive will start filling up tomorrow.",
+  "note": "Archive encore vide."
+ },
+ "ecran_archive.vide_gardees": {
+  "fr": "Touchez « Garder » en tête d'une fiche pour la retrouver ici.",
+  "en": "Tap “Save” at the top of an entry to find it here.",
+  "note": "Filtre des gardées vide ; « Garder » est le libellé du bouton de l'écran de lecture : l'anglais doit être le même que le sien."
+ },
+ "ecran_archive.vide_recherche": {
+  "fr": "Aucune fiche ne contient ces mots.",
+  "en": "No entry contains these words.",
+  "note": "Recherche sans résultat."
+ },
+ "ecran_archive.filtre_gardees": {
+  "fr": "GARDÉES",
+  "en": "SAVED",
+  "note": "Filtre : seulement les fiches gardées (déjà en capitales)."
+ },
+ "ecran_archive.filtre_toutes": {
+  "fr": "TOUTES",
+  "en": "ALL",
+  "note": "Filtre : toutes les fiches (déjà en capitales)."
+ },
+ "ecran_archive.recherche_placeholder": {
+  "fr": "un mot, un nom, une affaire",
+  "en": "a word, a name, a case",
+  "note": "Texte indicatif du champ de recherche ; affaire = affaire de droit (case)."
+ },
+ "ecran_archive.effacer": {
+  "fr": "EFFACER",
+  "en": "CLEAR",
+  "note": "Efface la recherche."
+ },
+ "ecran_archive.appel_recherche": {
+  "fr": "Chercher dans toute l'archive",
+  "en": "Search the whole Archive",
+  "note": "Ligne d'appel de la recherche pour le lecteur gratuit."
+ },
+ "ecran_archive.premium": {
+  "fr": "PREMIUM",
+  "en": "PREMIUM",
+  "note": "Mention Premium (appel de recherche et lignes verrouillées)."
+ },
+ "ecran_archive.lu": {
+  "fr": "LU",
+  "en": "READ",
+  "note": "Mention d'une fiche déjà lue."
+ },
+ "ecran_profil.serie_titre": {
+  "fr": "SÉRIE EN COURS",
+  "en": "CURRENT STREAK",
+  "note": "Surtitre du bloc série (capitales d'origine)."
+ },
+ "ecran_profil.serie_jours": {
+  "fr": {
+   "un": "JOUR D'AFFILÉE",
+   "autre": "JOURS D'AFFILÉE"
+  },
+  "en": {
+   "un": "DAY STREAK",
+   "autre": "DAY STREAK"
+  },
+  "note": "Légende sous le grand nombre de la série. Règle fr : un pour 0 et 1. En anglais, « DAY STREAK » vaut pour tout nombre."
+ },
+ "ecran_profil.donnee_record": {
+  "fr": "RECORD",
+  "en": "BEST",
+  "note": "Record de série (capitales d'origine)."
+ },
+ "ecran_profil.donnee_total": {
+  "fr": "TOTAL LU",
+  "en": "TOTAL READ",
+  "note": "Nombre total de fiches lues."
+ },
+ "ecran_profil.donnee_serie_quiz": {
+  "fr": "SÉRIE DE QUIZ",
+  "en": "QUIZ STREAK",
+  "note": "Série de quiz en cours."
+ },
+ "ecran_profil.donnee_record_quiz": {
+  "fr": "RECORD QUIZ",
+  "en": "QUIZ BEST",
+  "note": "Record de série de quiz."
+ },
+ "ecran_profil.prochain_palier": {
+  "fr": {
+   "un": "PROCHAIN PALIER · {prochain} JOURS · PLUS QUE {n} JOUR",
+   "autre": "PROCHAIN PALIER · {prochain} JOURS · PLUS QUE {n} JOURS"
+  },
+  "en": {
+   "un": "NEXT MILESTONE · {prochain} DAYS · {n} DAY TO GO",
+   "autre": "NEXT MILESTONE · {prochain} DAYS · {n} DAYS TO GO"
+  },
+  "note": "Palier = milestone. {prochain} = jours du prochain palier (toujours >= 7, jamais un seul) ; {n} = jours restants (le pluriel suit n)."
+ },
+ "ecran_profil.gel_actif": {
+  "fr": "Gel de série : si vous manquez un jour, rouvrez l'app le lendemain et la série tient. Une fois par semaine.",
+  "en": "Streak freeze: if you miss a day, reopen the app the next day and your streak holds. Once a week.",
+  "note": "Explication du gel de série pour un abonné Premium."
+ },
+ "ecran_profil.gel_inactif": {
+  "fr": "Avec Premium, un jour manqué est couvert une fois par semaine si vous revenez dès le lendemain.",
+  "en": "With Premium, a missed day is covered once a week if you come back the very next day.",
+  "note": "Explication du gel de série pour un lecteur gratuit."
+ },
+ "ecran_profil.quatorze_jours": {
+  "fr": "QUATORZE DERNIERS JOURS",
+  "en": "LAST FOURTEEN DAYS",
+  "note": "Titre de la bande des quatorze jours (capitales d'origine)."
+ },
+ "ecran_profil.repartition_titre": {
+  "fr": "RÉPARTITION",
+  "en": "BREAKDOWN",
+  "note": "Répartition des lectures par discipline (capitales d'origine)."
+ },
+ "ecran_profil.repartition_vide": {
+  "fr": "Vous n'avez encore rien lu.",
+  "en": "You haven't read anything yet.",
+  "note": "Répartition sans aucune lecture."
+ },
+ "ecran_profil.pourcentage": {
+  "fr": "{valeur} %",
+  "en": "{valeur}%",
+  "note": "Part d'une discipline dans les lectures ; espace avant % en français seulement."
+ },
+ "ecran_profil.recap_titre": {
+  "fr": "LE RÉCAP",
+  "en": "THE RECAP",
+  "note": "Carte d'appel du récap (capitales d'origine)."
+ },
+ "ecran_profil.recap_texte": {
+  "fr": "Vos mois, un par un",
+  "en": "Your months, one by one",
+  "note": "Sous-titre de la carte du récap."
+ },
+ "ecran_profil.revision_titre": {
+  "fr": "LA RÉVISION",
+  "en": "THE REVIEW",
+  "note": "Carte d'appel de la révision (capitales d'origine) ; révision = review (réviser avant un examen)."
+ },
+ "ecran_profil.revision_possible": {
+  "fr": "Dix questions, au hasard de vos lectures",
+  "en": "Ten questions, drawn from what you've read",
+  "note": "Sous-titre de la révision quand elle est possible."
+ },
+ "ecran_profil.revision_impossible": {
+  "fr": "Revenez avec quelques fiches de plus",
+  "en": "Come back after a few more entries",
+  "note": "Sous-titre de la révision quand il manque des fiches lues."
+ },
+ "ecran_profil.releve_titre": {
+  "fr": "LE RELEVÉ",
+  "en": "THE REPORT",
+  "note": "Carte d'appel du relevé (capitales d'origine) ; relevé = report : à aligner sur le titre de l'écran Relevé (G2)."
+ },
+ "ecran_profil.releve_texte": {
+  "fr": "Ce qui tient, ce qui s'efface",
+  "en": "What sticks, what fades",
+  "note": "Sous-titre de la carte du relevé."
+ },
+ "ecran_profil.premium": {
+  "fr": "PREMIUM",
+  "en": "PREMIUM",
+  "note": "Mention Premium des cartes verrouillées et du bloc de vente."
+ },
+ "ecran_profil.paywall_titre": {
+  "fr": "Relire le passé",
+  "en": "Reread the past",
+  "note": "Titre du bloc de vente du Profil ; même texte que le motif d'abonnement « archive » (noyau.offre.motif_archive_titre) : garder les deux alignés."
+ },
+ "ecran_profil.paywall_texte": {
+  "fr": "Votre série remonte jusqu'à {anterieurs} jours avant l'inscription, et tout reste ouvert ensuite, rien ne se referme. Sans abonnement, seuls les {libres} derniers jours restent consultables. Le concept du jour reste unique : ce n'est pas ce qui s'achète.",
+  "en": "Your streak reaches back up to {anterieurs} days before you signed up, and everything stays open afterward. Nothing closes again. Without a subscription, only the last {libres} days can be viewed. Today's concept stays unique: that is not what you pay for.",
+  "note": "Bloc de vente du Profil. {anterieurs} et {libres} viennent des règles (60 et 2 aujourd'hui, toujours pluriels)."
+ },
+ "ecran_profil.voir_offre": {
+  "fr": "VOIR L'OFFRE",
+  "en": "SEE THE OFFER",
+  "note": "Pied du bloc de vente (capitales d'origine)."
+ },
+ "ecran_abonnement.these": {
+  "fr": "Un concept par jour, pour tout le monde, toujours.\nPremium ne donne pas plus de jours, il donne plus de chaque jour.",
+  "en": "One concept a day, for everyone, always.\nPremium doesn't give you more days. It gives you more of each day.",
+  "note": "La thèse de l'offre, deux phrases sur deux lignes (le saut de ligne fait partie du texte)."
+ },
+ "ecran_abonnement.ce_qui_est_ouvert": {
+  "fr": "CE QUI EST OUVERT",
+  "en": "WHAT'S UNLOCKED",
+  "note": "Titre de la liste des fonctions Premium (capitales d'origine)."
+ },
+ "ecran_abonnement.fermer": {
+  "fr": "FERMER",
+  "en": "CLOSE",
+  "note": "Bouton de fermeture de l'offre (capitales d'origine)."
+ },
+ "ecran_abonnement.chargement": {
+  "fr": "CHARGEMENT DE L'OFFRE…",
+  "en": "LOADING THE OFFER…",
+  "note": "Pendant que la boutique répond (capitales d'origine)."
+ },
+ "ecran_abonnement.indisponible": {
+  "fr": "L'abonnement n'est pas disponible pour l'instant.",
+  "en": "The subscription isn't available right now.",
+  "note": "La boutique n'a rendu aucun produit."
+ },
+ "ecran_abonnement.restaurer": {
+  "fr": "RESTAURER MES ACHATS",
+  "en": "RESTORE PURCHASES",
+  "note": "Exigé par la boutique : lien de restauration (capitales d'origine)."
+ },
+ "ecran_abonnement.conditions": {
+  "fr": "CONDITIONS",
+  "en": "TERMS",
+  "note": "Lien vers les conditions (capitales d'origine). La page liée reste en français."
+ },
+ "ecran_abonnement.confidentialite": {
+  "fr": "CONFIDENTIALITÉ",
+  "en": "PRIVACY",
+  "note": "Lien vers la politique de confidentialité (capitales d'origine). La page liée reste en français."
+ },
+ "ecran_abonnement.renouvellement_ios": {
+  "fr": "L'abonnement se renouvelle tout seul jusqu'à ce que vous l'arrêtiez, depuis les réglages de votre identifiant Apple. L'essai gratuit s'arrête sans frais si vous résiliez avant la fin.",
+  "en": "The subscription renews automatically until you cancel it in your Apple Account settings. The free trial ends at no charge if you cancel before it runs out.",
+  "note": "Mention légale du pied de l'offre, iOS."
+ },
+ "ecran_abonnement.renouvellement_android": {
+  "fr": "L'abonnement se renouvelle tout seul jusqu'à ce que vous l'arrêtiez, depuis Google Play. L'essai gratuit s'arrête sans frais si vous résiliez avant la fin.",
+  "en": "The subscription renews automatically until you cancel it in Google Play. The free trial ends at no charge if you cancel before it runs out.",
+  "note": "Mention légale du pied de l'offre, Android."
+ },
+ "ecran_abonnement.periode_mois": {
+  "fr": "PAR MOIS",
+  "en": "PER MONTH",
+  "note": "Période du palier mensuel, sous le nom du produit (nom et prix viennent de la boutique)."
+ },
+ "ecran_abonnement.periode_an": {
+  "fr": "PAR AN",
+  "en": "PER YEAR",
+  "note": "Période du palier annuel."
+ },
+ "ecran_abonnement.essai_jours": {
+  "fr": {
+   "un": "{n} JOUR OFFERTS",
+   "autre": "{n} JOURS OFFERTS"
+  },
+  "en": {
+   "un": "{n} DAY FREE",
+   "autre": "{n} DAYS FREE"
+  },
+  "note": "Durée de l'essai gratuit annoncée par la boutique, en jours. « OFFERTS » reste invariable en français comme dans l'original."
+ },
+ "ecran_abonnement.essai_semaines": {
+  "fr": {
+   "un": "{n} SEMAINE OFFERTS",
+   "autre": "{n} SEMAINES OFFERTS"
+  },
+  "en": {
+   "un": "{n} WEEK FREE",
+   "autre": "{n} WEEKS FREE"
+  },
+  "note": "Essai gratuit, en semaines."
+ },
+ "ecran_abonnement.essai_mois": {
+  "fr": {
+   "un": "{n} MOIS OFFERTS",
+   "autre": "{n} MOIS OFFERTS"
+  },
+  "en": {
+   "un": "{n} MONTH FREE",
+   "autre": "{n} MONTHS FREE"
+  },
+  "note": "Essai gratuit, en mois (« mois » ne varie pas en français)."
+ },
+ "ecran_abonnement.essai_ans": {
+  "fr": {
+   "un": "{n} AN OFFERTS",
+   "autre": "{n} ANS OFFERTS"
+  },
+  "en": {
+   "un": "{n} YEAR FREE",
+   "autre": "{n} YEARS FREE"
+  },
+  "note": "Essai gratuit, en années."
+ },
+ "boutique.incident_confirmation_ios": {
+  "fr": "Apple n'a pas pu confirmer l'achat. Réessayez dans un instant.",
+  "en": "Apple couldn't confirm the purchase. Try again in a moment.",
+  "note": "Message d'achat non confirmé, iOS."
+ },
+ "boutique.incident_attente": {
+  "fr": "L'achat attend une validation. Il s'activera tout seul une fois accepté.",
+  "en": "The purchase is waiting for approval. It will activate on its own once approved.",
+  "note": "Achat en attente (contrôle parental, etc.), iOS."
+ },
+ "boutique.incident_echec": {
+  "fr": "L'achat n'a pas abouti. Réessayez dans un instant.",
+  "en": "The purchase didn't go through. Try again in a moment.",
+  "note": "Échec d'achat, iOS."
+ },
+ "boutique.incident_aucun_ios": {
+  "fr": "Aucun abonnement trouvé sur cet identifiant Apple.",
+  "en": "No subscription found for this Apple Account.",
+  "note": "Restauration sans résultat, iOS."
+ },
+ "boutique.incident_indisponible": {
+  "fr": "Cette formule n'est pas disponible pour l'instant.",
+  "en": "This plan isn't available right now.",
+  "note": "Forfait introuvable, Android."
+ },
+ "boutique.incident_aucun_android": {
+  "fr": "Aucun abonnement trouvé sur ce compte Google.",
+  "en": "No subscription found for this Google account.",
+  "note": "Restauration sans résultat, Android."
+ },
+ "boutique.incident_confirmation_android": {
+  "fr": "Google Play n'a pas pu confirmer l'achat. Réessayez dans un instant.",
+  "en": "Google Play couldn't confirm the purchase. Try again in a moment.",
+  "note": "Message d'achat non confirmé, Android."
+ },
+ "onglet.aujourdhui": {
+  "fr": "Aujourd'hui",
+  "en": "Today",
+  "note": "Nom de l'onglet ; la barre de menu Android l'affiche en capitales."
+ },
+ "onglet.calendrier": {
+  "fr": "Calendrier",
+  "en": "Calendar",
+  "note": "Nom de l'onglet."
+ },
+ "onglet.archive": {
+  "fr": "Archive",
+  "en": "Archive",
+  "note": "Nom de l'onglet."
+ },
+ "onglet.profil": {
+  "fr": "Profil",
+  "en": "Profile",
+  "note": "Nom de l'onglet."
+ },
+ "onglet.reglages": {
+  "fr": "Réglages",
+  "en": "Settings",
+  "note": "Nom de l'onglet."
+ },
+ "barre_titre.fermer": {
+  "fr": "FERMER",
+  "en": "CLOSE",
+  "note": "Bouton de fermeture de la barre de titre d'une fiche archivée (capitales d'origine)."
+ },
+ "barre_titre.pourcentage": {
+  "fr": "{valeur} %",
+  "en": "{valeur}%",
+  "note": "Avancement de la lecture dans la barre de titre ; sert aussi de gabarit de largeur (« 100 % »)."
+ },
+ "barre_retour.retour": {
+  "fr": "RETOUR",
+  "en": "BACK",
+  "note": "Bouton en haut d'un écran incrusté (capitales d'origine)."
+ },
+ "barre_retour.retour_acces": {
+  "fr": "Retour",
+  "en": "Back",
+  "note": "Libellé d'accessibilité du bouton de retour (Android)."
+ },
+ "surfenetre.fermer": {
+  "fr": "Fermer",
+  "en": "Close",
+  "note": "Bouton par défaut de la petite fenêtre incrustée."
+ },
+ "succes_premium.surtitre": {
+  "fr": "PREMIUM",
+  "en": "PREMIUM",
+  "note": "Surtitre du popup de bienvenue."
+ },
+ "succes_premium.titre": {
+  "fr": "Bienvenue dans\nPremium.",
+  "en": "Welcome to\nPremium.",
+  "note": "Titre du popup de bienvenue, sur deux lignes (le saut de ligne fait partie du texte)."
+ },
+ "succes_premium.merci": {
+  "fr": "Merci de soutenir Anagnosis. Tout est ouvert, à vous de lire.",
+  "en": "Thank you for supporting Anagnosis. Everything is unlocked, so it's all yours to read.",
+  "note": "Texte après un abonnement (durée non comptée en jours)."
+ },
+ "succes_premium.tout_ouvert": {
+  "fr": "Tout est ouvert {suite}",
+  "en": "Everything is unlocked {suite}",
+  "note": "Texte après un code promo ; {suite} = « pour 30 jours. » : composé par l'écran du code (G1), dans la langue courante."
+ },
+ "succes_premium.commencer": {
+  "fr": "Commencer à lire",
+  "en": "Start reading",
+  "note": "Bouton du popup de bienvenue."
+ }
+}

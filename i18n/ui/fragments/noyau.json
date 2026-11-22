@@ -1,0 +1,796 @@
+{
+ "noyau.disciplines.mathematiques": {
+  "fr": "Mathématiques",
+  "en": "Mathematics",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.physique": {
+  "fr": "Physique",
+  "en": "Physics",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.chimie": {
+  "fr": "Chimie",
+  "en": "Chemistry",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.astronomie": {
+  "fr": "Astronomie",
+  "en": "Astronomy",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.informatique": {
+  "fr": "Informatique",
+  "en": "Computer science",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.statistiques": {
+  "fr": "Statistiques",
+  "en": "Statistics",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.biologie": {
+  "fr": "Biologie",
+  "en": "Biology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.medecine": {
+  "fr": "Médecine / Santé",
+  "en": "Medicine / Health",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.neurosciences": {
+  "fr": "Neurosciences",
+  "en": "Neuroscience",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.genetique": {
+  "fr": "Génétique",
+  "en": "Genetics",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.ecologie": {
+  "fr": "Écologie",
+  "en": "Ecology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.nutrition": {
+  "fr": "Nutrition",
+  "en": "Nutrition",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.geologie": {
+  "fr": "Sciences de la Terre",
+  "en": "Earth sciences",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.climat": {
+  "fr": "Climat et météorologie",
+  "en": "Climate and meteorology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.oceanographie": {
+  "fr": "Océanographie",
+  "en": "Oceanography",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.paleontologie": {
+  "fr": "Paléontologie",
+  "en": "Paleontology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.philosophie": {
+  "fr": "Philosophie",
+  "en": "Philosophy",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.epistemologie": {
+  "fr": "Épistémologie",
+  "en": "Epistemology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.psychologie": {
+  "fr": "Psychologie",
+  "en": "Psychology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.sociologie": {
+  "fr": "Sociologie",
+  "en": "Sociology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.anthropologie": {
+  "fr": "Anthropologie",
+  "en": "Anthropology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.linguistique": {
+  "fr": "Linguistique",
+  "en": "Linguistics",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.archeologie": {
+  "fr": "Archéologie",
+  "en": "Archaeology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.geographie": {
+  "fr": "Géographie",
+  "en": "Geography",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.histoire": {
+  "fr": "Histoire",
+  "en": "History",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.economie": {
+  "fr": "Économie",
+  "en": "Economics",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_institutions": {
+  "fr": "Institutions judiciaires",
+  "en": "Judicial institutions",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_preuve": {
+  "fr": "Preuve et erreur judiciaire",
+  "en": "Evidence and judicial error",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_international": {
+  "fr": "Droit international",
+  "en": "International law",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_pi_ia": {
+  "fr": "Propriété intellectuelle et IA",
+  "en": "Intellectual property and AI",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_constitutionnel": {
+  "fr": "Droit constitutionnel",
+  "en": "Constitutional law",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_social": {
+  "fr": "Droit social",
+  "en": "Labor and social law",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.droit_conformite": {
+  "fr": "Conformité",
+  "en": "Compliance",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.sciences_politiques": {
+  "fr": "Sciences politiques",
+  "en": "Political science",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.religions": {
+  "fr": "Religions et mythologies",
+  "en": "Religions and mythology",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.litterature": {
+  "fr": "Littérature",
+  "en": "Literature",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.histoire_art": {
+  "fr": "Histoire de l'art",
+  "en": "Art history",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.musique": {
+  "fr": "Musique",
+  "en": "Music",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.cinema": {
+  "fr": "Cinéma",
+  "en": "Film",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.disciplines.architecture": {
+  "fr": "Architecture",
+  "en": "Architecture",
+  "note": "Nom de discipline (interface, pas le contenu des fiches). Même id que la clé du pipeline ; coordonné avec G5 (titre de la notification du concept)."
+ },
+ "noyau.familles.sciences_exactes": {
+  "fr": "Sciences exactes",
+  "en": "Exact sciences",
+  "note": "Famille de disciplines (présentation seulement)."
+ },
+ "noyau.familles.vivant_et_sante": {
+  "fr": "Vivant et santé",
+  "en": "Life and health",
+  "note": "Famille de disciplines (présentation seulement)."
+ },
+ "noyau.familles.terre_et_environnement": {
+  "fr": "Terre et environnement",
+  "en": "Earth and environment",
+  "note": "Famille de disciplines (présentation seulement)."
+ },
+ "noyau.familles.sciences_humaines": {
+  "fr": "Sciences humaines",
+  "en": "Humanities",
+  "note": "« Sciences humaines » = Humanities ; le long libellé « Humanities and social sciences » passait sur deux lignes dans les Réglages iOS."
+ },
+ "noyau.familles.droit_et_justice": {
+  "fr": "Droit et justice",
+  "en": "Law and justice",
+  "note": "Famille de disciplines (présentation seulement)."
+ },
+ "noyau.familles.arts_et_lettres": {
+  "fr": "Arts et lettres",
+  "en": "Arts and letters",
+  "note": "Famille de disciplines (présentation seulement)."
+ },
+ "noyau.niveaux.introductif": {
+  "fr": "Introductif",
+  "en": "Introductory",
+  "note": "Niveau d'une fiche."
+ },
+ "noyau.niveaux.intermediaire": {
+  "fr": "Intermédiaire",
+  "en": "Intermediate",
+  "note": "Niveau d'une fiche."
+ },
+ "noyau.theme.auto": {
+  "fr": "Automatique",
+  "en": "Automatic",
+  "note": "Réglage du thème (Réglages)."
+ },
+ "noyau.theme.clair": {
+  "fr": "Clair",
+  "en": "Light",
+  "note": "Réglage du thème."
+ },
+ "noyau.theme.sombre": {
+  "fr": "Sombre",
+  "en": "Dark",
+  "note": "Réglage du thème."
+ },
+ "noyau.materiau.riso": {
+  "fr": "Aplat riso",
+  "en": "Riso flat",
+  "note": "Matériau de la barre de menu (Android)."
+ },
+ "noyau.materiau.verre": {
+  "fr": "Verre dépoli",
+  "en": "Frosted glass",
+  "note": "Matériau de la barre de menu (Android ; le réglage n'existe plus mais l'énumération reste)."
+ },
+ "noyau.widget_mode.ce_jour_la": {
+  "fr": "Ce jour-là",
+  "en": "On this day",
+  "note": "Réglage du widget : segment court. Même texte que le mode « On this day » du glossaire."
+ },
+ "noyau.widget_mode.du_jour": {
+  "fr": "Du jour",
+  "en": "Today",
+  "note": "Réglage du widget : le concept du jour. Segment court."
+ },
+ "noyau.widget_mode.muet": {
+  "fr": "Masqué",
+  "en": "Hidden",
+  "note": "Réglage du widget : rien n'est nommé."
+ },
+ "noyau.paliers.titre_semaine": {
+  "fr": "Une semaine d'affilée.",
+  "en": "A week in a row.",
+  "note": "Titre de la carte de palier : 7 jours."
+ },
+ "noyau.paliers.titre_mois": {
+  "fr": "Un mois d'affilée.",
+  "en": "A month in a row.",
+  "note": "Titre de la carte de palier : 30 jours."
+ },
+ "noyau.paliers.titre_cent_jours": {
+  "fr": "Cent jours d'affilée.",
+  "en": "A hundred days in a row.",
+  "note": "Titre de la carte de palier : 100 jours."
+ },
+ "noyau.paliers.titre_annee": {
+  "fr": "Une année entière.",
+  "en": "A whole year.",
+  "note": "Titre de la carte de palier : 365 jours."
+ },
+ "noyau.paliers.titre_autre": {
+  "fr": {
+   "un": "{n} jour d'affilée.",
+   "autre": "{n} jours d'affilée."
+  },
+  "en": {
+   "un": "{n} day in a row.",
+   "autre": "{n} days in a row."
+  },
+  "note": "Titre de repli d'un palier (n'arrive pas avec 7/30/100/365)."
+ },
+ "noyau.paliers.sous_titre_lecture": {
+  "fr": {
+   "un": "Vous avez lu un concept chaque jour pendant {n} jour.",
+   "autre": "Vous avez lu un concept chaque jour pendant {n} jours."
+  },
+  "en": {
+   "un": "You've read a concept every day for {n} day.",
+   "autre": "You've read a concept every day for {n} days."
+  },
+  "note": "Sous-titre de la carte de palier (série de lecture)."
+ },
+ "noyau.paliers.sous_titre_quiz": {
+  "fr": {
+   "un": "Vous avez répondu au quiz chaque jour pendant {n} jour.",
+   "autre": "Vous avez répondu au quiz chaque jour pendant {n} jours."
+  },
+  "en": {
+   "un": "You've answered the quiz every day for {n} day.",
+   "autre": "You've answered the quiz every day for {n} days."
+  },
+  "note": "Sous-titre de la carte de palier (série de quiz)."
+ },
+ "noyau.offre.fonction_ecoute_titre": {
+  "fr": "L'écoute",
+  "en": "Listening",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_ecoute_texte": {
+  "fr": "La fiche lue à voix haute, écran éteint. Le texte suit la voix, et vous reprenez où vous vous étiez arrêté.",
+  "en": "The entry read aloud, screen off. The text follows the voice, and you pick up where you left off.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_passe_titre": {
+  "fr": "Tout le passé",
+  "en": "All past days",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_passe_texte": {
+  "fr": "Votre série remonte jusqu'à {jours_premium} jours avant votre inscription, et rien ne se referme ensuite. Sans abonnement, seuls les {jours_libres} derniers jours restent ouverts.",
+  "en": "Your streak reaches back up to {jours_premium} days before you signed up, and nothing closes afterward. Without a subscription, only the last {jours_libres} days stay open.",
+  "note": "Texte d'un argument de l'offre Premium. Jetons {jours_premium} et {jours_libres} (nombres de jours)."
+ },
+ "noyau.offre.fonction_disciplines_titre": {
+  "fr": "Toutes les disciplines",
+  "en": "All fields",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_disciplines_texte": {
+  "fr": "Toutes les disciplines, et vous en changez quand vous voulez. Sans abonnement, deux disciplines et un seul changement offert.",
+  "en": "All fields, and you can change them whenever you like. Without a subscription, two fields and one free change.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_recherche_titre": {
+  "fr": "La recherche",
+  "en": "Search",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_recherche_texte": {
+  "fr": "Retrouvez une fiche par un mot, une source ou une discipline. Sans abonnement, l'archive n'est qu'une liste par date.",
+  "en": "Find an entry by a word, a source, or a field. Without a subscription, the Archive is just a list by date.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_rappel_titre": {
+  "fr": "Le rappel",
+  "en": "Recall",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_rappel_texte": {
+  "fr": "Trois questions chaque jour sur ce que vous avez lu dix, quarante-cinq ou cent quatre-vingts jours plus tôt. Sans abonnement, une fois par semaine. C'est ce qui fait qu'une lecture reste.",
+  "en": "Three questions every day about what you read ten, forty-five, or one hundred eighty days earlier. Without a subscription, once a week. This is what makes a reading stick.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_revision_titre": {
+  "fr": "La révision",
+  "en": "Review",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_revision_texte": {
+  "fr": "Dix questions tirées au hasard dans tout ce que vous avez lu, quand vous voulez. Le rappel suit un calendrier, la révision n'en a pas.",
+  "en": "Ten random questions drawn from everything you've read, whenever you want. Recall follows a schedule; the review doesn't.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_planches_titre": {
+  "fr": "Les planches",
+  "en": "Plates",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_planches_texte": {
+  "fr": "Les figures de vos fiches rangées côte à côte, une planche par discipline.",
+  "en": "The figures from your entries laid side by side, one plate per field.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_document_titre": {
+  "fr": "La fiche en PDF",
+  "en": "Entry as PDF",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_document_texte": {
+  "fr": "La fiche emportée en PDF, ses sources cliquables comprises.",
+  "en": "The entry to take with you as a PDF, clickable sources included.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_notes_titre": {
+  "fr": "Les notes en marge",
+  "en": "Margin notes",
+  "note": "Titre d'un argument de l'offre Premium."
+ },
+ "noyau.offre.fonction_notes_texte": {
+  "fr": "Une note à vous en marge de chaque fiche, retrouvée sur vos autres appareils.",
+  "en": "A note to yourself in the margin of every entry, available on your other devices.",
+  "note": "Texte d'un argument de l'offre Premium."
+ },
+ "noyau.offre.motif_ecoute_titre": {
+  "fr": "Écouter la fiche",
+  "en": "Listen to the entry",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_ecoute_amorce": {
+  "fr": "La fiche lue à voix haute, pour le trajet ou la cuisine.",
+  "en": "The entry read aloud, for the commute or the kitchen.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_archive_titre": {
+  "fr": "Relire le passé",
+  "en": "Reread the past",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_calendrier_titre": {
+  "fr": "Rouvrir ce jour-là",
+  "en": "Reopen that day",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_disciplines_titre": {
+  "fr": "Choisir plus de deux disciplines",
+  "en": "Choose more than two fields",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_disciplines_amorce": {
+  "fr": "Deux disciplines sans abonnement, toutes avec.",
+  "en": "Two fields without a subscription, all of them with one.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_recherche_titre": {
+  "fr": "Chercher dans vos lectures",
+  "en": "Search your reading",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_recherche_amorce": {
+  "fr": "Un mot, une source, une discipline : l'archive répond.",
+  "en": "A word, a source, a field: the Archive answers.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_rappel_titre": {
+  "fr": "Se souvenir de ce qu'on a lu",
+  "en": "Remember what you've read",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_rappel_amorce": {
+  "fr": "Trois questions par jour, sur ce que vous avez lu il y a longtemps.",
+  "en": "Three questions a day, about what you read a while ago.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_revision_titre": {
+  "fr": "Vous mettre à l'épreuve",
+  "en": "Put yourself to the test",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_revision_amorce": {
+  "fr": "Dix questions au hasard de vos lectures, quand vous voulez.",
+  "en": "Ten random questions from your reading, whenever you want.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_releve_titre": {
+  "fr": "Savoir ce qui vous reste",
+  "en": "Know what stays with you",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_releve_amorce": {
+  "fr": "Ce qui vous revient, et ce qui s'est effacé, discipline par discipline.",
+  "en": "What comes back to you, and what has faded, field by field.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_recap_titre": {
+  "fr": "Revoir votre mois",
+  "en": "Look back on your month",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_recap_amorce": {
+  "fr": "Ce que le mois a contenu, en une page.",
+  "en": "What the month held, on one page.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_planches_titre": {
+  "fr": "Voir vos planches",
+  "en": "See your plates",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_planches_amorce": {
+  "fr": "Les figures de vos fiches, rangées côte à côte.",
+  "en": "The figures from your entries, laid side by side.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_document_titre": {
+  "fr": "Emporter la fiche",
+  "en": "Take the entry with you",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_document_amorce": {
+  "fr": "La fiche en PDF, ses sources cliquables comprises.",
+  "en": "The entry as a PDF, clickable sources included.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_notes_titre": {
+  "fr": "Écrire en marge",
+  "en": "Write in the margin",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_notes_amorce": {
+  "fr": "Une note à vous, en marge de chaque fiche.",
+  "en": "A note to yourself, in the margin of every entry.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_reglages_titre": {
+  "fr": "Plus de chaque jour",
+  "en": "More from every day",
+  "note": "Titre du motif d'ouverture de l'offre Premium (MotifAbonnement)."
+ },
+ "noyau.offre.motif_reglages_amorce": {
+  "fr": "Le concept du jour ne change pas. Ce qu'on en tire, oui.",
+  "en": "Today's concept doesn't change. What you take from it does.",
+  "note": "Amorce du motif d'ouverture de l'offre Premium."
+ },
+ "noyau.offre.motif_passe_amorce": {
+  "fr": "Les journées déjà passées, rouvertes quand vous voulez.",
+  "en": "Past days, reopened whenever you want.",
+  "note": "Amorce commune des motifs archive et calendrier."
+ },
+ "noyau.epreuve.verdict_tout": {
+  "fr": "Tout est resté, un mois après. C'est rare, et ce n'est pas un hasard : ce qui a été lu une fois avec attention se retrouve. Le rappel sert à ce que ça continue.",
+  "en": "Everything stayed, a month later. That's rare, and it's no accident: what you read once with attention comes back. The reminder is there to keep it going.",
+  "note": "Verdict du quiz de rappel : toutes les réponses justes."
+ },
+ "noyau.epreuve.verdict_rien": {
+  "fr": "Rien n'est remonté, et c'est le cas ordinaire. Un texte lu une fois s'efface en quelques semaines, quelle que soit l'attention qu'on y a mise. C'est précisément ce que le rappel travaille.",
+  "en": "Nothing came back, and that's the usual case. A text read once fades within a few weeks, no matter how much attention you gave it. That is exactly what the reminder works on.",
+  "note": "Verdict du quiz de rappel : aucune réponse juste."
+ },
+ "noyau.epreuve.verdict_partiel": {
+  "fr": "Le reste s'est effacé, et c'est le cas ordinaire : un texte lu une fois s'efface en quelques semaines. Revoir la même idée à un mois d'intervalle change ce résultat, et c'est tout ce que fait le rappel.",
+  "en": "The rest has faded, and that's the usual case: a text read once fades within a few weeks. Seeing the same idea again a month later changes that result, and that's all the reminder does.",
+  "note": "Verdict du quiz de rappel : réponses partielles."
+ },
+ "noyau.rappel.ecart_dix_jours": {
+  "fr": "Il y a dix jours",
+  "en": "Ten days ago",
+  "note": "Écart d'une question du rappel : 10 jours."
+ },
+ "noyau.rappel.ecart_six_semaines": {
+  "fr": "Il y a six semaines",
+  "en": "Six weeks ago",
+  "note": "Écart d'une question du rappel : 45 jours."
+ },
+ "noyau.rappel.ecart_six_mois": {
+  "fr": "Il y a six mois",
+  "en": "Six months ago",
+  "note": "Écart d'une question du rappel : 180 jours."
+ },
+ "noyau.rappel.ecart_jours": {
+  "fr": {
+   "un": "Il y a {n} jour",
+   "autre": "Il y a {n} jours"
+  },
+  "en": {
+   "un": "{n} day ago",
+   "autre": "{n} days ago"
+  },
+  "note": "Écart d'une question du rappel : cas général."
+ },
+ "noyau.notes.avertissement_plein": {
+  "fr": "Vos notes ont atteint la place dont elles disposent. Raccourcissez-en une pour en écrire d'autres.",
+  "en": "Your notes have reached their space limit. Shorten one to write more.",
+  "note": "Avertissement sous la note : volume plein."
+ },
+ "noyau.notes.avertissement_proche": {
+  "fr": "Vos notes approchent de la place dont elles disposent.",
+  "en": "Your notes are nearing their space limit.",
+  "note": "Avertissement sous la note : volume presque plein."
+ },
+ "noyau.notes.refus_premium": {
+  "fr": "Les notes en marge viennent avec Premium.",
+  "en": "Margin notes come with Premium.",
+  "note": "Refus d'écrire une note sans Premium."
+ },
+ "noyau.notes.refus_trop_longue": {
+  "fr": "Cette note est trop longue : gardez-la à un paragraphe.",
+  "en": "This note is too long: keep it to one paragraph.",
+  "note": "Refus d'une note trop longue."
+ },
+ "noyau.regles.refus_changement": {
+  "fr": "Vous avez utilisé votre changement de disciplines. Avec Premium, vous en changez quand vous voulez.",
+  "en": "You've used your free field change. With Premium, you can change fields whenever you like.",
+  "note": "Refus de changer de disciplines (gratuit : un seul changement)."
+ },
+ "noyau.etat.mention_jour": {
+  "fr": "JOUR {n}",
+  "en": "DAY {n}",
+  "note": "Barre de titre de la lecture : rang du jour dans la série (déjà en capitales). {n} = nombre, pas un pluriel."
+ },
+ "noyau.etat.statut_abonnement": {
+  "fr": "Par abonnement",
+  "en": "By subscription",
+  "note": "Source du Premium actif."
+ },
+ "noyau.etat.statut_code": {
+  "fr": "Par code, jusqu'au {date}",
+  "en": "By code, until {date}",
+  "note": "Source du Premium actif : code promotionnel ; {date} = date complète localisée."
+ },
+ "noyau.etat.statut_demo": {
+  "fr": "Démonstration",
+  "en": "Demo",
+  "note": "Source du Premium actif : bascule de l'atelier."
+ },
+ "noyau.dates.mois_1": {
+  "fr": "janvier",
+  "en": "January",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_2": {
+  "fr": "février",
+  "en": "February",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_3": {
+  "fr": "mars",
+  "en": "March",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_4": {
+  "fr": "avril",
+  "en": "April",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_5": {
+  "fr": "mai",
+  "en": "May",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_6": {
+  "fr": "juin",
+  "en": "June",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_7": {
+  "fr": "juillet",
+  "en": "July",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_8": {
+  "fr": "août",
+  "en": "August",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_9": {
+  "fr": "septembre",
+  "en": "September",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_10": {
+  "fr": "octobre",
+  "en": "October",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_11": {
+  "fr": "novembre",
+  "en": "November",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.mois_12": {
+  "fr": "décembre",
+  "en": "December",
+  "note": "Nom du mois (fr : minuscules ; en : majuscule initiale). Dates écrites en dur, jamais par un formateur système."
+ },
+ "noyau.dates.jour_0": {
+  "fr": "dim",
+  "en": "Sun",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.jour_1": {
+  "fr": "lun",
+  "en": "Mon",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.jour_2": {
+  "fr": "mar",
+  "en": "Tue",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.jour_3": {
+  "fr": "mer",
+  "en": "Wed",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.jour_4": {
+  "fr": "jeu",
+  "en": "Thu",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.jour_5": {
+  "fr": "ven",
+  "en": "Fri",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.jour_6": {
+  "fr": "sam",
+  "en": "Sat",
+  "note": "Jour abrégé, 0 = dimanche."
+ },
+ "noyau.dates.format_longue": {
+  "fr": "{jour_abrege} {jour} {mois}",
+  "en": "{jour_abrege}, {mois} {jour}",
+  "note": "Date longue : « mer 30 juillet » / « Wed, July 30 »."
+ },
+ "noyau.dates.format_courte": {
+  "fr": "{jour} {mois}",
+  "en": "{mois} {jour}",
+  "note": "Date courte : « 30 juillet » / « July 30 »."
+ },
+ "noyau.dates.format_complete": {
+  "fr": "{jour} {mois} {annee}",
+  "en": "{mois} {jour}, {annee}",
+  "note": "Date complète : « 30 juillet 2026 » / « July 30, 2026 »."
+ },
+ "noyau.heure.format_matin": {
+  "fr": "{h}:{m}",
+  "en": "{h}:{m} a.m.",
+  "note": "Heure écrite avant midi ; {h} = heure sur deux chiffres (24 h) en français, sur 1 à 12 en anglais ; {m} = minutes sur deux chiffres. Texte nouveau (HeureLocale.affichee)."
+ },
+ "noyau.heure.format_apres_midi": {
+  "fr": "{h}:{m}",
+  "en": "{h}:{m} p.m.",
+  "note": "Heure écrite à partir de midi (mêmes jetons). Texte nouveau (HeureLocale.affichee)."
+ },
+ "noyau.accueil.arret": {
+  "fr": "Le scroll passif,",
+  "en": "Passive scrolling,",
+  "note": "Onboarding, flot : la phrase d'arrêt (première partie). Les mots qui défilent restent tels quels."
+ },
+ "noyau.accueil.suite": {
+  "fr": "remplacé par",
+  "en": "replaced by",
+  "note": "Onboarding, flot : deuxième partie."
+ },
+ "noyau.accueil.source": {
+  "fr": "une source.",
+  "en": "a source.",
+  "note": "Onboarding, flot : troisième partie, imprimée sur un aplat."
+ },
+ "noyau.document.entete": {
+  "fr": "{discipline} · {date} · {minutes} MIN",
+  "en": "{discipline} · {date} · {minutes} MIN",
+  "note": "En-tête du PDF d'une fiche ; {discipline} et {date} déjà en capitales."
+ },
+ "noyau.document.sources": {
+  "fr": "Sources",
+  "en": "Sources",
+  "note": "Titre de section du PDF."
+ },
+ "noyau.document.aller_plus_loin": {
+  "fr": "Pour aller plus loin",
+  "en": "Further reading",
+  "note": "Titre de section du PDF."
+ },
+ "noyau.document.citation": {
+  "fr": "« {texte} »",
+  "en": "“{texte}”",
+  "note": "Citation d'appui dans le PDF : guillemets de la langue de l'interface."
+ },
+ "noyau.source.annee_av_jc": {
+  "fr": "{n} av. J.-C.",
+  "en": "{n} BCE",
+  "note": "Année avant notre ère d'une source (n = valeur absolue)."
+ }
+}

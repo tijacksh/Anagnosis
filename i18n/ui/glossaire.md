@@ -1,0 +1,13 @@
+# Glossaire français -> anglais (propositions, à valider par Arnaud ; une seule traduction par terme dans toute l'app)
+- concept du jour -> Today's concept ; « le concept » -> the concept
+- fiche (un concept présenté) -> entry (« la fiche » -> the entry) ; jamais « card » (réservé à la carte partageable)
+- carte partageable -> share card
+- série (de jours) -> streak ; « série de N jours » -> N-day streak
+- Ce jour-là (mode) -> On this day
+- discipline -> field (« Disciplines » -> Fields) ; noms de disciplines : voir ui/fragments/communs.json
+- quiz -> quiz ; épreuve -> quiz ; rappel -> reminder ; réglages -> Settings ; archive -> Archive ; calendrier -> Calendar ; profil -> Profile
+- Premium -> Premium ; abonnement -> subscription ; essai -> trial ; restaurer les achats -> Restore purchases
+- lire / lu -> read ; marquer comme lu -> mark as read ; écouter -> listen
+- notifications -> notifications ; widget -> widget ; onglet -> tab
+- Registre : vouvoiement en français -> anglais courant sans « please » ; phrases courtes comme l'original.
+- Dates : « June 10, 2000 » ; heures : 24 h en français, 12 h avec a.m./p.m. en anglais.

@@ -1,0 +1,743 @@
+{
+ "ecran_onboarding.langue_surtitre": {
+  "fr": "LANGUE · LANGUAGE",
+  "en": "LANGUE · LANGUAGE",
+  "note": "NOUVEAU. Surtitre de l'écran de choix de langue (premier écran de l'onboarding) : volontairement dans les deux langues, jamais traduit, pour qu'un lecteur dont le téléphone parle une langue inconnue s'y retrouve."
+ },
+ "ecran_onboarding.langue_titre": {
+  "fr": "Choisissez votre langue",
+  "en": "Choose your language",
+  "note": "NOUVEAU. Titre (grand, display 40) de l'écran de choix de langue."
+ },
+ "ecran_onboarding.langue_texte": {
+  "fr": "Par défaut, l'app suit la langue du téléphone. Vous pourrez la changer plus tard, dans les réglages.",
+  "en": "By default, the app follows your phone's language. You can change it later in Settings.",
+  "note": "NOUVEAU. Texte sous le titre de l'écran de langue. « Réglages » = l'onglet Settings."
+ },
+ "ecran_onboarding.presentation_titre": {
+  "fr": "Un concept par jour, et sa source.",
+  "en": "One concept a day, and its source.",
+  "note": "Étape 1, titre display 40."
+ },
+ "ecran_onboarding.presentation_texte_1": {
+  "fr": "Chaque matin, une notion expliquée en trois minutes. Vérifiée, sourcée, et la source reste visible jusque dans la carte que vous partagez.",
+  "en": "Every morning, a concept explained in three minutes. Verified, sourced, and the source stays visible all the way into the share card you send.",
+  "note": "Étape 1, premier paragraphe. « carte » = la carte partageable (share card)."
+ },
+ "ecran_onboarding.presentation_texte_2": {
+  "fr": "Un seul concept par jour. Pas de fil, pas de rattrapage sans fin, c'est la contrainte qui fait tenir l'habitude.",
+  "en": "Just one concept a day. No feed, no endless catching up: the constraint is what makes the habit stick.",
+  "note": "Étape 1, second paragraphe (opacité 0,7). « fil » = fil d'actualité infini (feed)."
+ },
+ "ecran_onboarding.choix_surtitre": {
+  "fr": "VOS DISCIPLINES",
+  "en": "YOUR FIELDS",
+  "note": "Étape 2, surtitre en capitales (discipline = field)."
+ },
+ "ecran_onboarding.choix_titre": {
+  "fr": "Deux disciplines",
+  "en": "Two fields",
+  "note": "Étape 2, titre display 29."
+ },
+ "ecran_onboarding.choix_texte": {
+  "fr": "Deux, sinon la même discipline reviendrait trop souvent. Vous pourrez en changer une fois ; avec Premium, toutes les disciplines, quand vous voulez.",
+  "en": "Two, otherwise the same field would come up too often. You can change one once; with Premium, all fields, whenever you want.",
+  "note": "Étape 2, explication du nombre et de sa contrepartie (un changement offert)."
+ },
+ "ecran_onboarding.recap_surtitre": {
+  "fr": "C'EST PRÊT",
+  "en": "YOU'RE ALL SET",
+  "note": "Étape 3, surtitre en capitales."
+ },
+ "ecran_onboarding.recap_titre": {
+  "fr": "Votre premier concept vous attend.",
+  "en": "Your first concept is waiting for you.",
+  "note": "Étape 3, titre display 32."
+ },
+ "ecran_onboarding.recap_texte": {
+  "fr": {
+   "un": "Le jour précédent vous attend déjà dans le calendrier. Le suivant arrivera demain à {heure}.",
+   "autre": "Les {n} jours précédents vous attendent déjà dans le calendrier. Le suivant arrivera demain à {heure}."
+  },
+  "en": {
+   "un": "The previous day is already waiting for you in the Calendar. The next one arrives at {heure} tomorrow.",
+   "autre": "The previous {n} days are already waiting for you in the Calendar. The next one arrives at {heure} tomorrow."
+  },
+  "note": "Étape 3 (en anglais l'heure n'est pas en fin de phrase : « 8:00 a.m. » + point final ferait « a.m.. »). {n} = Regles.joursAnterieurs (15 aujourd'hui, donc toujours « autre » ; la forme « un » est écrite par correction, inatteignable). {heure} = l'heure du concept déjà formatée (G4). Les « jours précédents » sont des fiches à rattraper (catch up), pas des jours lus."
+ },
+ "ecran_onboarding.recap_modifier": {
+  "fr": "Vous pourrez les modifier plus tard, dans les réglages.",
+  "en": "You can change them later in Settings.",
+  "note": "Étape 3, dernière ligne (opacité 0,6). « les » = les disciplines choisies."
+ },
+ "ecran_onboarding.bouton_choisir": {
+  "fr": "Choisir mes disciplines",
+  "en": "Choose my fields",
+  "note": "Bouton plein de l'étape 1 (une ligne, 17 pt)."
+ },
+ "ecran_onboarding.bouton_continuer": {
+  "fr": "Continuer",
+  "en": "Continue",
+  "note": "Bouton plein de l'étape 2 et de l'écran de langue."
+ },
+ "ecran_onboarding.bouton_lire": {
+  "fr": "Lire mon premier concept",
+  "en": "Read my first concept",
+  "note": "Bouton plein de l'étape 3."
+ },
+ "ecran_onboarding.revenir": {
+  "fr": "REVENIR",
+  "en": "BACK",
+  "note": "Bouton discret en capitales sous le bouton plein (étapes 2 et 3)."
+ },
+ "ecran_onboarding.encore_disciplines": {
+  "fr": {
+   "un": "ENCORE {n} DISCIPLINE",
+   "autre": "ENCORE {n} DISCIPLINES"
+  },
+  "en": {
+   "un": "{n} MORE FIELD",
+   "autre": "{n} MORE FIELDS"
+  },
+  "note": "Au-dessus du bouton, étape 2, tant que le minimum n'est pas atteint. {n} = disciplines manquantes. Règle fr : « un » pour 0 et 1."
+ },
+ "ecran_reglages.titre": {
+  "fr": "Réglages",
+  "en": "Settings",
+  "note": "Titre de l'écran (display 40)."
+ },
+ "ecran_reglages.disciplines_titre": {
+  "fr": "DISCIPLINES",
+  "en": "FIELDS",
+  "note": "Titre de section en capitales."
+ },
+ "ecran_reglages.disciplines_texte_premium": {
+  "fr": "Changez la sélection quand vous voulez. Ça ne touche pas à votre historique : le calendrier et l'archive gardent ce qui vous a été servi, seuls les jours à venir changent.",
+  "en": "Change your selection whenever you want. Your history stays untouched: the Calendar and the Archive keep what you were served, only upcoming days change.",
+  "note": "Aide sous DISCIPLINES, lecteur Premium."
+ },
+ "ecran_reglages.disciplines_texte_gratuit": {
+  "fr": "Deux disciplines, et un seul changement offert. Changer ne touche pas à votre historique : seuls les jours à venir changent.",
+  "en": "Two fields, and one free change. Changing doesn't touch your history: only upcoming days change.",
+  "note": "Aide sous DISCIPLINES, lecteur gratuit."
+ },
+ "ecran_reglages.disciplines_minimum": {
+  "fr": "C'EST LE MINIMUM : AJOUTEZ-EN UNE AVANT D'EN RETIRER UNE",
+  "en": "THAT'S THE MINIMUM: ADD ONE BEFORE REMOVING ONE",
+  "note": "Capitales, 9 pt, sous la sélection d'un lecteur Premium au minimum."
+ },
+ "ecran_reglages.heure_titre": {
+  "fr": "HEURE DU CONCEPT",
+  "en": "CONCEPT TIME",
+  "note": "Titre de section en capitales ; aussi sur l'étape 2 de l'onboarding. L'heure à laquelle arrive la notification du concept du jour."
+ },
+ "ecran_reglages.rappel_serie_ligne": {
+  "fr": "Rappel de série",
+  "en": "Streak reminder",
+  "note": "Étiquette du sélecteur activé / coupé (mise en capitales par l'écran)."
+ },
+ "ecran_reglages.etat_active": {
+  "fr": "Activé",
+  "en": "On",
+  "note": "Segment du rappel de série. Court : trois lignes de segments sur petit écran."
+ },
+ "ecran_reglages.etat_coupe": {
+  "fr": "Coupé",
+  "en": "Off",
+  "note": "Segment du rappel de série."
+ },
+ "ecran_reglages.rappel_texte_actif": {
+  "fr": "En fin de journée, si votre série est en jeu et que le concept n'est pas lu.",
+  "en": "Late in the day, if your streak is on the line and the concept hasn't been read.",
+  "note": "Aide du rappel de série activé."
+ },
+ "ecran_reglages.rappel_texte_coupe": {
+  "fr": "Pas de rappel : vous ne serez pas prévenu quand votre série est en jeu.",
+  "en": "No reminder: you won't be notified when your streak is on the line.",
+  "note": "Aide du rappel de série coupé."
+ },
+ "ecran_reglages.apparence_titre": {
+  "fr": "APPARENCE",
+  "en": "APPEARANCE",
+  "note": "Titre de section en capitales."
+ },
+ "ecran_reglages.theme_ligne": {
+  "fr": "Thème",
+  "en": "Theme",
+  "note": "Étiquette du sélecteur de thème (clair, sombre, système : libellés dans Etat/, G4)."
+ },
+ "ecran_reglages.compte_titre": {
+  "fr": "ABONNEMENT",
+  "en": "SUBSCRIPTION",
+  "note": "Titre de section en capitales."
+ },
+ "ecran_reglages.premium_actif": {
+  "fr": "Premium actif",
+  "en": "Premium is active",
+  "note": "Statut d'un lecteur Premium (display 16)."
+ },
+ "ecran_reglages.debloquer": {
+  "fr": "Débloquer Premium",
+  "en": "Unlock Premium",
+  "note": "Grand bouton noir de l'offre."
+ },
+ "ecran_reglages.ce_que_ca_ouvre": {
+  "fr": "CE QUE ÇA OUVRE",
+  "en": "WHAT IT UNLOCKS",
+  "note": "Sous « Débloquer Premium », capitales 9 pt."
+ },
+ "ecran_reglages.code_bouton": {
+  "fr": "J'AI UN CODE",
+  "en": "I HAVE A CODE",
+  "note": "Lien discret en capitales qui ouvre la saisie du code promotionnel."
+ },
+ "ecran_reglages.atelier_etat": {
+  "fr": "État",
+  "en": "Status",
+  "note": "Atelier (builds de test) : étiquette de la bascule Premium / Gratuit."
+ },
+ "ecran_reglages.atelier_premium": {
+  "fr": "Premium",
+  "en": "Premium",
+  "note": "Atelier : segment."
+ },
+ "ecran_reglages.atelier_gratuit": {
+  "fr": "Gratuit",
+  "en": "Free",
+  "note": "Atelier : segment."
+ },
+ "ecran_reglages.atelier_note": {
+  "fr": "Réglage réservé aux testeurs.",
+  "en": "Setting reserved for testers.",
+  "note": "Atelier : sous la bascule."
+ },
+ "ecran_reglages.code_reinit": {
+  "fr": "RÉINITIALISER LE CODE PROMO",
+  "en": "RESET THE PROMO CODE",
+  "note": "Atelier : lien en capitales."
+ },
+ "ecran_reglages.code_reinit_aide": {
+  "fr": "Oublie la fenêtre ouverte par un code, pour rejouer l'échange sans réinstaller. Le code lui-même reste consommé côté serveur.",
+  "en": "Forgets the window opened by a code, so you can replay the exchange without reinstalling. The code itself stays used up on the server.",
+  "note": "Atelier : aide."
+ },
+ "ecran_reglages.widget_titre": {
+  "fr": "WIDGET",
+  "en": "WIDGET",
+  "note": "Titre de section en capitales."
+ },
+ "ecran_reglages.widget_ligne": {
+  "fr": "Contenu",
+  "en": "Content",
+  "note": "Étiquette du sélecteur du widget (valeurs dans Etat/, G4)."
+ },
+ "ecran_reglages.widget_explication_ce_jour_la": {
+  "fr": "Le widget vous remontre ce que vous lisiez le même jour, un mois plus tôt.",
+  "en": "The widget shows you again what you were reading on the same day, a month earlier.",
+  "note": "Mode « Ce jour-là » (On this day)."
+ },
+ "ecran_reglages.widget_explication_fiche_du_jour": {
+  "fr": "Le widget affiche le concept du jour, avec sa discipline et son titre, avant même que vous ouvriez l'app.",
+  "en": "The widget shows today's concept, with its field and title, before you even open the app.",
+  "note": "Mode « Du jour »."
+ },
+ "ecran_reglages.widget_explication_muet": {
+  "fr": "Le widget reste là, mais ne dit rien de la fiche du jour.",
+  "en": "The widget stays there, but says nothing about today's entry.",
+  "note": "Mode « Masqué »."
+ },
+ "ecran_reglages.contenu_titre": {
+  "fr": "NOUVELLES FICHES",
+  "en": "NEW ENTRIES",
+  "note": "Titre de section en capitales (fiche = entry)."
+ },
+ "ecran_reglages.contenu_ligne": {
+  "fr": "Mise à jour",
+  "en": "Updates",
+  "note": "Étiquette du sélecteur activée / coupée de la mise à jour du contenu."
+ },
+ "ecran_reglages.maj_activee": {
+  "fr": "Activée",
+  "en": "On",
+  "note": "Segment (féminin en français : « mise à jour activée »)."
+ },
+ "ecran_reglages.maj_coupee": {
+  "fr": "Coupée",
+  "en": "Off",
+  "note": "Segment."
+ },
+ "ecran_reglages.contenu_texte_actif": {
+  "fr": "Les nouvelles fiches arrivent d'elles-mêmes, au plus une fois par jour, sans attendre une mise à jour de l'app.",
+  "en": "New entries arrive on their own, at most once a day, without waiting for an app update.",
+  "note": "Aide, mise à jour activée."
+ },
+ "ecran_reglages.contenu_texte_coupe": {
+  "fr": "Vous ne verrez que les fiches livrées avec l'app.",
+  "en": "You'll only see the entries that ship with the app.",
+  "note": "Aide, mise à jour coupée."
+ },
+ "ecran_reglages.contenu_derniere_maj": {
+  "fr": "DERNIÈRE MISE À JOUR · {date}",
+  "en": "LAST UPDATE · {date}",
+  "note": "Capitales 9 pt. {date} = date et heure de la dernière réception, déjà formatées et mises en capitales par l'écran."
+ },
+ "ecran_reglages.contenu_aucune": {
+  "fr": "AUCUNE NOUVELLE FICHE REÇUE",
+  "en": "NO NEW ENTRIES RECEIVED",
+  "note": "Capitales 9 pt, mise à jour activée mais rien reçu."
+ },
+ "ecran_reglages.contenu_format_date": {
+  "fr": "d MMM yyyy 'à' HH:mm",
+  "en": "MMM d, yyyy 'at' h:mm a",
+  "note": "ANDROID seulement : motif SimpleDateFormat de la date de dernière mise à jour (iOS formate avec la locale de la langue). Ne pas traduire les lettres de motif, seulement 'à' / 'at' et l'ordre. 12 h en anglais (a.m./p.m. du glossaire : à aligner avec G4 si besoin)."
+ },
+ "ecran_reglages.suivre_titre": {
+  "fr": "SUIVRE",
+  "en": "FOLLOW",
+  "note": "Titre de section en capitales."
+ },
+ "ecran_reglages.suivre_texte": {
+  "fr": "Chaque jour, un concept en story sur le compte d'Anagnosis. Même nom sur Instagram et TikTok.",
+  "en": "Every day, a concept in a story on Anagnosis's account. Same name on Instagram and TikTok.",
+  "note": "Aide de la section SUIVRE."
+ },
+ "ecran_reglages.reprise_titre": {
+  "fr": "REPRISE",
+  "en": "RESTORE",
+  "note": "ANDROID seulement (export / import de l'état, absent d'iOS qui s'appuie sur iCloud). Titre de section en capitales."
+ },
+ "ecran_reglages.reprise_texte": {
+  "fr": "Réinstaller l'app sur ce téléphone ne perd rien : votre programme se reconstitue tout seul.\n\nChanger de téléphone ou le réinitialiser demande la sauvegarde d'Android — active par défaut, chiffrée avec votre verrou d'écran, illisible par Google.\n\nPour repartir d'un iPhone, ou si vous préférez ne dépendre de rien, exportez un fichier et réimportez-le : c'est vous qui déplacez le fichier.",
+  "en": "Reinstalling the app on this phone loses nothing: your schedule rebuilds itself.\n\nSwitching phones or resetting this one relies on Android's backup — on by default, encrypted with your screen lock, unreadable by Google.\n\nTo start over from an iPhone, or if you'd rather depend on nothing, export a file and import it back: you're the one moving the file.",
+  "note": "ANDROID seulement. Trois paragraphes séparés par une ligne vide. « programme » = la suite des concepts attribués au lecteur."
+ },
+ "ecran_reglages.reprise_exporter": {
+  "fr": "Exporter",
+  "en": "Export",
+  "note": "ANDROID seulement : bouton filet."
+ },
+ "ecran_reglages.reprise_importer": {
+  "fr": "Importer",
+  "en": "Import",
+  "note": "ANDROID seulement : bouton filet."
+ },
+ "ecran_reglages.reprise_exporte": {
+  "fr": "ÉTAT EXPORTÉ",
+  "en": "PROGRESS EXPORTED",
+  "note": "ANDROID seulement : résultat, capitales 9 pt."
+ },
+ "ecran_reglages.reprise_export_impossible": {
+  "fr": "EXPORT IMPOSSIBLE",
+  "en": "EXPORT FAILED",
+  "note": "ANDROID seulement : résultat."
+ },
+ "ecran_reglages.reprise_repris": {
+  "fr": "ÉTAT REPRIS — RIEN N'A ÉTÉ PERDU",
+  "en": "PROGRESS RESTORED — NOTHING WAS LOST",
+  "note": "ANDROID seulement : résultat."
+ },
+ "ecran_reglages.reprise_fichier_invalide": {
+  "fr": "CE FICHIER N'EST PAS UN ÉTAT ANAGNOSIS",
+  "en": "THIS FILE IS NOT AN ANAGNOSIS SAVE",
+  "note": "ANDROID seulement : résultat."
+ },
+ "ecran_reglages.reprise_lecture_impossible": {
+  "fr": "LECTURE IMPOSSIBLE",
+  "en": "CAN'T READ THE FILE",
+  "note": "ANDROID seulement : résultat."
+ },
+ "ecran_reglages.reprise_import_aide": {
+  "fr": "L'import n'efface jamais rien : les deux historiques se réunissent, et un jour lu quelque part reste lu.",
+  "en": "Importing never erases anything: the two histories merge, and a day read anywhere stays read.",
+  "note": "ANDROID seulement : aide sous les boutons."
+ },
+ "ecran_code.titre": {
+  "fr": "Code promotionnel",
+  "en": "Promo code",
+  "note": "Titre de la fenêtre de saisie (display 22)."
+ },
+ "ecran_code.fermer": {
+  "fr": "Fermer",
+  "en": "Close",
+  "note": "Lien discret en haut à droite de la fenêtre."
+ },
+ "ecran_code.valider": {
+  "fr": "Valider",
+  "en": "Redeem",
+  "note": "Bouton plein sous la saisie (capitales 11 pt, une ligne)."
+ },
+ "ecran_code.succes_suite": {
+  "fr": {
+   "un": "pour {n} jour.",
+   "autre": "pour {n} jours."
+  },
+  "en": {
+   "un": "for {n} day.",
+   "autre": "for {n} days."
+  },
+  "note": "Suite de la phrase de ContenuSuccesPremium (G3), qui précède par « Premium … » : durée accordée par le code. Règle fr : « un » pour 0 et 1."
+ },
+ "ecran_code.erreur_inconnu": {
+  "fr": "Ce code n'existe pas.",
+  "en": "This code doesn't exist.",
+  "note": "Message d'erreur sous la saisie."
+ },
+ "ecran_code.erreur_epuise": {
+  "fr": "Ce code n'est plus utilisable : il a déjà servi.",
+  "en": "This code can no longer be used: it has already been redeemed.",
+  "note": "Message d'erreur."
+ },
+ "ecran_code.erreur_deja_utilise": {
+  "fr": "Ce code a déjà servi sur cet appareil.",
+  "en": "This code has already been used on this device.",
+  "note": "Message d'erreur."
+ },
+ "ecran_code.erreur_invalide": {
+  "fr": "Ce code semble incomplet. Vérifiez-le et réessayez.",
+  "en": "This code looks incomplete. Check it and try again.",
+  "note": "Message d'erreur."
+ },
+ "ecran_code.erreur_reseau": {
+  "fr": "La vérification n'a pas abouti. Vérifiez votre connexion et réessayez.",
+  "en": "The check didn't go through. Check your connection and try again.",
+  "note": "Message d'erreur."
+ },
+ "ecran_rappel.surtitre_rappel": {
+  "fr": "LE RAPPEL",
+  "en": "THE RECALL",
+  "note": "Surtitre du bilan, capitales (rappel = reminder)."
+ },
+ "ecran_rappel.surtitre_revision": {
+  "fr": "LA RÉVISION",
+  "en": "THE REVIEW",
+  "note": "Surtitre du bilan, capitales."
+ },
+ "ecran_rappel.surtitre_epreuve": {
+  "fr": "L'ÉPREUVE",
+  "en": "THE QUIZ",
+  "note": "Surtitre du bilan, capitales (épreuve = quiz)."
+ },
+ "ecran_rappel.titre_rien_rappel": {
+  "fr": "Rien à rappeler",
+  "en": "Nothing to review yet",
+  "note": "Titre du bilan quand il n'y a aucune question (rappel)."
+ },
+ "ecran_rappel.titre_rien_revision": {
+  "fr": "Rien à réviser",
+  "en": "Nothing to review",
+  "note": "Titre du bilan, révision sans question."
+ },
+ "ecran_rappel.titre_trop_tot": {
+  "fr": "Trop tôt",
+  "en": "Too early",
+  "note": "Titre du bilan, épreuve sans question."
+ },
+ "ecran_rappel.bilan_score": {
+  "fr": "{justes} sur {total}",
+  "en": "{justes} out of {total}",
+  "note": "Titre du bilan : un décompte, pas une note."
+ },
+ "ecran_rappel.rien_rappel": {
+  "fr": "Le rappel interroge ce que vous avez lu il y a dix jours, six semaines et six mois. Revenez quand votre lecture aura pris un peu d'âge.",
+  "en": "Recall quizzes you on what you read ten days, six weeks and six months ago. Come back once your reading has aged a little.",
+  "note": "Texte du bilan, rappel sans question."
+ },
+ "ecran_rappel.rien_revision": {
+  "fr": "La révision pioche au hasard dans ce que vous avez lu. Revenez quand vous aurez quelques fiches derrière vous.",
+  "en": "The review draws at random from what you've read. Come back once you have a few entries behind you.",
+  "note": "Texte du bilan, révision sans question."
+ },
+ "ecran_rappel.rien_epreuve": {
+  "fr": "Il est trop tôt pour vous interroger : revenez dans quelques jours.",
+  "en": "It's too early to quiz you: come back in a few days.",
+  "note": "Texte du bilan, épreuve sans question."
+ },
+ "ecran_rappel.tout_tenu_rappel": {
+  "fr": "Tout est resté. Rendez-vous demain, sur d'autres jours.",
+  "en": "Everything stuck. See you tomorrow, on other days.",
+  "note": "Bilan : toutes les réponses justes (rappel)."
+ },
+ "ecran_rappel.tout_tenu_revision": {
+  "fr": "Tout est resté. Le prochain tirage piochera d'autres fiches.",
+  "en": "Everything stuck. The next draw will pick other entries.",
+  "note": "Bilan : toutes les réponses justes (révision)."
+ },
+ "ecran_rappel.bilan_relire": {
+  "fr": "Ce qui s'efface se relit : les fiches sont dans votre archive, à leur date.",
+  "en": "What fades can be reread: the entries are in your Archive, on their date.",
+  "note": "Bilan : au moins une erreur. Jamais un reproche."
+ },
+ "ecran_rappel.juste": {
+  "fr": "C'EST ÇA",
+  "en": "THAT'S IT",
+  "note": "Capitales 9 pt au-dessus de l'explication, bonne réponse."
+ },
+ "ecran_rappel.autre": {
+  "fr": "C'ÉTAIT L'AUTRE",
+  "en": "IT WAS THE OTHER ONE",
+  "note": "Capitales 9 pt au-dessus de l'explication, mauvaise réponse."
+ },
+ "ecran_rappel.question_suivante": {
+  "fr": "Question suivante",
+  "en": "Next question",
+  "note": "Bouton plein du pied de page."
+ },
+ "ecran_rappel.terminer": {
+  "fr": "Terminer",
+  "en": "Finish",
+  "note": "Bouton plein du pied de page, dernière question."
+ },
+ "ecran_rappel.plus_tard": {
+  "fr": "Plus tard",
+  "en": "Later",
+  "note": "Bouton filet avant d'avoir répondu : quitter sans clore la journée."
+ },
+ "ecran_partage.titre": {
+  "fr": "PARTAGER",
+  "en": "SHARE",
+  "note": "En-tête, capitales 10 pt."
+ },
+ "ecran_partage.fermer": {
+  "fr": "FERMER ✕",
+  "en": "CLOSE ✕",
+  "note": "Bouton de l'en-tête, capitales 10 pt, une ligne."
+ },
+ "ecran_partage.fermer_acces": {
+  "fr": "Fermer",
+  "en": "Close",
+  "note": "Libellé d'accessibilité du bouton FERMER (iOS)."
+ },
+ "ecran_partage.apercu_acces": {
+  "fr": "Aperçu de la carte",
+  "en": "Share card preview",
+  "note": "Libellé d'accessibilité de l'aperçu (iOS)."
+ },
+ "ecran_partage.format": {
+  "fr": "FORMAT",
+  "en": "FORMAT",
+  "note": "Titre de réglage en capitales (valeurs : FormatCarte.libelle, G5)."
+ },
+ "ecran_partage.support": {
+  "fr": "SUPPORT",
+  "en": "MEDIA",
+  "note": "Titre de réglage : image ou vidéo."
+ },
+ "ecran_partage.support_image": {
+  "fr": "IMAGE",
+  "en": "IMAGE",
+  "note": "Segment."
+ },
+ "ecran_partage.support_video": {
+  "fr": "VIDÉO",
+  "en": "VIDEO",
+  "note": "Segment."
+ },
+ "ecran_partage.preparation_video_majuscules": {
+  "fr": "PRÉPARATION DE LA VIDÉO…",
+  "en": "PREPARING THE VIDEO…",
+  "note": "Sous le segment VIDÉO pendant la fabrication, capitales 9 pt."
+ },
+ "ecran_partage.sur_la_carte": {
+  "fr": "SUR LA CARTE",
+  "en": "ON THE CARD",
+  "note": "Titre de réglage en capitales."
+ },
+ "ecran_partage.ma_serie": {
+  "fr": "MA SÉRIE",
+  "en": "MY STREAK",
+  "note": "Bascule en capitales : afficher la série sur la carte."
+ },
+ "ecran_partage.credit_source": {
+  "fr": "CRÉDIT SOURCE",
+  "en": "SOURCE CREDIT",
+  "note": "Libellé raccourci exprès (une ligne, 9 pt), ligne non modifiable."
+ },
+ "ecran_partage.toujours": {
+  "fr": "TOUJOURS",
+  "en": "ALWAYS",
+  "note": "À droite de CRÉDIT SOURCE : le crédit n'est pas une option."
+ },
+ "ecran_partage.publier_story": {
+  "fr": "Publier en story Instagram",
+  "en": "Post to Instagram Story",
+  "note": "Action principale pleine (display 17)."
+ },
+ "ecran_partage.partager_ailleurs": {
+  "fr": "Partager ailleurs",
+  "en": "Share elsewhere",
+  "note": "Action quand Instagram est proposé."
+ },
+ "ecran_partage.partager": {
+  "fr": "Partager",
+  "en": "Share",
+  "note": "Action quand Instagram n'est pas proposé."
+ },
+ "ecran_partage.enregistrer": {
+  "fr": "Enregistrer",
+  "en": "Save",
+  "note": "Action filet (moitié de largeur)."
+ },
+ "ecran_partage.copier_image": {
+  "fr": "Copier l'image",
+  "en": "Copy image",
+  "note": "Action filet (moitié de largeur)."
+ },
+ "ecran_partage.exporter_pdf": {
+  "fr": "Exporter la fiche en PDF",
+  "en": "Export the entry as PDF",
+  "note": "Action filet pleine largeur, lecteur Premium."
+ },
+ "ecran_partage.exporter_pdf_premium": {
+  "fr": "Exporter en PDF · Premium",
+  "en": "Export as PDF · Premium",
+  "note": "Action filet pleine largeur, lecteur gratuit."
+ },
+ "ecran_partage.message_video_echec": {
+  "fr": "La vidéo n'a pas pu être préparée, réessayez",
+  "en": "The video couldn't be prepared, try again",
+  "note": "Message du pied de page (affiché en capitales)."
+ },
+ "ecran_partage.message_export_echec": {
+  "fr": "L'export n'a pas marché, réessayez.",
+  "en": "The export didn't work, try again.",
+  "note": "Message du pied de page."
+ },
+ "ecran_partage.message_carte_echec": {
+  "fr": "La carte n'a pas pu être préparée, réessayez",
+  "en": "The card couldn't be prepared, try again",
+  "note": "Message du pied de page."
+ },
+ "ecran_partage.message_video_attente": {
+  "fr": "Préparation de la vidéo…",
+  "en": "Preparing the video…",
+  "note": "Message du pied de page : appui trop tôt."
+ },
+ "ecran_partage.message_carte_attente": {
+  "fr": "Préparation de la carte…",
+  "en": "Preparing the card…",
+  "note": "Message du pied de page : appui trop tôt."
+ },
+ "ecran_partage.message_instagram_absent": {
+  "fr": "Instagram n'est pas installé",
+  "en": "Instagram isn't installed",
+  "note": "Message du pied de page."
+ },
+ "ecran_partage.message_instagram_echec": {
+  "fr": "Instagram ne s'est pas ouvert, réessayez",
+  "en": "Instagram didn't open, try again",
+  "note": "Message du pied de page."
+ },
+ "ecran_partage.message_enregistree_photos": {
+  "fr": "Enregistrée dans Photos",
+  "en": "Saved to Photos",
+  "note": "iOS : message du pied de page (Photos = l'app système)."
+ },
+ "ecran_partage.message_photos_refuse": {
+  "fr": "Photos n'est pas autorisé : activez l'accès dans Réglages",
+  "en": "Photos access isn't allowed: turn it on in Settings",
+  "note": "iOS : message du pied de page ; Réglages = l'app Réglages du système (Settings)."
+ },
+ "ecran_partage.message_image_copiee": {
+  "fr": "Image copiée",
+  "en": "Image copied",
+  "note": "Message du pied de page."
+ },
+ "ecran_partage.message_enregistree_galerie": {
+  "fr": "Enregistrée dans la galerie",
+  "en": "Saved to the gallery",
+  "note": "ANDROID : message du pied de page."
+ },
+ "ecran_partage.message_acces_photos_refuse": {
+  "fr": "Accès aux photos refusé, à autoriser dans les réglages",
+  "en": "Photo access denied, allow it in Settings",
+  "note": "ANDROID : message du pied de page."
+ },
+ "ecran_partage.message_enregistrement_echec": {
+  "fr": "L'enregistrement n'a pas abouti",
+  "en": "Saving didn't go through",
+  "note": "ANDROID : message du pied de page."
+ },
+ "ecran_partage.message_copie_echec": {
+  "fr": "La copie n'a pas abouti",
+  "en": "Copying didn't go through",
+  "note": "ANDROID : message du pied de page."
+ },
+ "choix_disciplines.plafond_complet": {
+  "fr": "C'EST COMPLET · PREMIUM LES OUVRE TOUTES",
+  "en": "THAT'S FULL · PREMIUM OPENS ALL FIELDS",
+  "note": "À côté du compteur « 2 / 2 » : plafond atteint. Capitales 9 pt."
+ },
+ "choix_disciplines.plafond_libre": {
+  "fr": "DISCIPLINES SANS ABONNEMENT",
+  "en": "FIELDS WITHOUT A SUBSCRIPTION",
+  "note": "À côté du compteur « 1 / 2 » : le plafond gratuit. Capitales 9 pt."
+ },
+ "choix_disciplines.refus_plafond": {
+  "fr": {
+   "un": "{n} DISCIPLINE SANS ABONNEMENT · PREMIUM LES OUVRE TOUTES",
+   "autre": "{n} DISCIPLINES SANS ABONNEMENT · PREMIUM LES OUVRE TOUTES"
+  },
+  "en": {
+   "un": "{n} FIELD WITHOUT A SUBSCRIPTION · PREMIUM OPENS ALL FIELDS",
+   "autre": "{n} FIELDS WITHOUT A SUBSCRIPTION · PREMIUM OPENS ALL FIELDS"
+  },
+  "note": "Sous la famille, après un appui refusé au plafond. {n} = plafond gratuit (2 aujourd'hui, donc « autre » : la forme « un » est écrite par correction, inatteignable)."
+ },
+ "choix_disciplines.refus_fige": {
+  "fr": "VOUS AVEZ UTILISÉ VOTRE CHANGEMENT OFFERT · PREMIUM ROUVRE LE CHOIX",
+  "en": "YOU'VE USED YOUR FREE CHANGE · PREMIUM REOPENS THE CHOICE",
+  "note": "Sous la famille, sélection figée. Capitales 9 pt."
+ },
+ "choix_disciplines.refus_plancher": {
+  "fr": "POUR RETIRER « {nom} », EN COCHER D'ABORD UNE AUTRE ({n} AU MINIMUM)",
+  "en": "TO REMOVE “{nom}”, SELECT ANOTHER FIELD FIRST ({n} MINIMUM)",
+  "note": "Sous la famille, décochage refusé. {nom} = nom de la discipline DÉJÀ en capitales (résolu par l'écran), {n} = le plancher (2)."
+ },
+ "choix_disciplines.tuile_fiches": {
+  "fr": {
+   "un": "{n} FICHE",
+   "autre": "{n} FICHES"
+  },
+  "en": {
+   "un": "{n} ENTRY",
+   "autre": "{n} ENTRIES"
+  },
+  "note": "Sous le nom de la discipline sur la tuile, capitales 9 pt. Règle fr : « un » pour 0 et 1 (comme l'original)."
+ },
+ "choix_disciplines.tuile_premium": {
+  "fr": "PREMIUM",
+  "en": "PREMIUM",
+  "note": "Sous le nom, sur une tuile fermée par le plafond."
+ },
+ "choix_disciplines.tuile_acces": {
+  "fr": {
+   "un": "{nom}, {n} fiches",
+   "autre": "{nom}, {n} fiches"
+  },
+  "en": {
+   "un": "{nom}, {n} entry",
+   "autre": "{nom}, {n} entries"
+  },
+  "note": "Libellé d'accessibilité d'une tuile (iOS). En français les deux formes sont identiques exprès : l'original disait toujours « fiches » (à corriger plus tard si souhaité)."
+ },
+ "reglage_heure.indice": {
+  "fr": "↕ GLISSEZ SUR UN CHIFFRE · ▾ TOUCHEZ POUR LA LISTE",
+  "en": "↕ DRAG A DIGIT · ▾ TAP FOR THE LIST",
+  "note": "Indice sous le cadre de l'heure, capitales 8,5 pt, une ligne. Garder les deux glyphes."
+ },
+ "reglage_lecture.acces": {
+  "fr": "Réglage de lecture",
+  "en": "Reading settings",
+  "note": "Libellé d'accessibilité du bouton « Aa »."
+ },
+ "reglage_lecture.interligne_serre": {
+  "fr": "SERRÉ",
+  "en": "TIGHT",
+  "note": "Cran d'interligne, capitales 10 pt (bouton étroit)."
+ },
+ "reglage_lecture.interligne_aere": {
+  "fr": "AÉRÉ",
+  "en": "LOOSE",
+  "note": "Cran d'interligne, capitales 10 pt."
+ }
+}

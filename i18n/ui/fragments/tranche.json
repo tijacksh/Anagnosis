@@ -1,0 +1,105 @@
+{
+ "ecran_reglages.langue_titre": {
+  "fr": "Langue",
+  "en": "Language",
+  "note": "Titre de section des Réglages (affiché en capitales par l'écran)."
+ },
+ "ecran_reglages.langue_ligne": {
+  "fr": "Langue de l'app",
+  "en": "App language",
+  "note": "Étiquette du sélecteur à trois valeurs (capitales à l'affichage)."
+ },
+ "ecran_reglages.langue_aide": {
+  "fr": "Par défaut, l'app suit la langue du téléphone. Le changement est immédiat.",
+  "en": "By default, the app follows your phone's language. The change is immediate.",
+  "note": "Aide sous le titre de section Langue."
+ },
+ "ecran_reglages.langue_systeme": {
+  "fr": "Système",
+  "en": "System",
+  "note": "Libellé de segment étroit (3 segments sur petit écran) : rester court."
+ },
+ "ecran_reglages.langue_francais": {
+  "fr": "Français",
+  "en": "Français",
+  "note": "Option du sélecteur : reste dans sa propre langue, jamais traduit."
+ },
+ "ecran_reglages.langue_anglais": {
+  "fr": "English",
+  "en": "English",
+  "note": "Option du sélecteur : reste dans sa propre langue, jamais traduit."
+ },
+ "rappel_serie.titre_ce_soir": {
+  "fr": {
+   "un": "Votre série de {n} jour se joue ce soir",
+   "autre": "Votre série de {n} jours se joue ce soir"
+  },
+  "en": {
+   "un": "Your {n}-day streak is on the line tonight",
+   "autre": "Your {n}-day streak is on the line tonight"
+  },
+  "note": "Titre du rappel de série pour ce soir ; {n} = jours d'affilée. Règle fr : un pour 0 et 1."
+ },
+ "rappel_serie.titre_demain": {
+  "fr": "Votre série se joue ce soir",
+  "en": "Your streak is on the line tonight",
+  "note": "Titre du rappel de série posé pour demain : sans nombre."
+ },
+ "rappel_serie.corps": {
+  "fr": "Le concept du jour vous attend, trois minutes suffisent.",
+  "en": "Today's concept is waiting for you: three minutes is all it takes.",
+  "note": "Corps du rappel de série."
+ },
+ "notification.concept_serie": {
+  "fr": {
+   "un": "Série {n} jour",
+   "autre": "Série {n} jours"
+  },
+  "en": {
+   "un": "{n}-day streak",
+   "autre": "{n}-day streak"
+  },
+  "note": "Sous-titre de la notification du concept du jour (Android) quand une série tourne."
+ },
+ "notification.canal_concept_nom": {
+  "fr": "Le concept du jour",
+  "en": "Today's concept",
+  "note": "Nom du canal de notification du concept (Android)."
+ },
+ "notification.canal_concept_description": {
+  "fr": "Une notification par jour, à l'heure que vous avez choisie.",
+  "en": "One notification a day, at the time you chose.",
+  "note": "Description du canal du concept (Android)."
+ },
+ "notification.canal_serie_nom": {
+  "fr": "Rappel de série",
+  "en": "Streak reminder",
+  "note": "Nom du canal du rappel de série (Android)."
+ },
+ "notification.canal_serie_description": {
+  "fr": "En fin de journée, si votre série est en jeu et que le concept n'est pas lu.",
+  "en": "Late in the day, if your streak is at stake and today's concept is unread.",
+  "note": "Description du canal du rappel de série (Android)."
+ },
+ "widget.surtitre_aujourdhui": {
+  "fr": "AUJOURD'HUI",
+  "en": "TODAY",
+  "note": "Surtitre du widget en mode fiche du jour (capitales)."
+ },
+ "widget.surtitre_ce_jour_la": {
+  "fr": "CE JOUR-LÀ",
+  "en": "ON THIS DAY",
+  "note": "Surtitre du widget quand il n'y a aucun souvenir à ressortir (capitales)."
+ },
+ "widget.surtitre_il_y_a_mois": {
+  "fr": {
+   "un": "IL Y A UN MOIS",
+   "autre": "IL Y A {n} MOIS"
+  },
+  "en": {
+   "un": "ONE MONTH AGO",
+   "autre": "{n} MONTHS AGO"
+  },
+  "note": "Surtitre du widget en mode ce jour-là ; {n} = mois écoulés (capitales)."
+ }
+}
