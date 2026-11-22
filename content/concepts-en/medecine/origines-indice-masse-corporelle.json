@@ -1,0 +1,89 @@
+{
+ "id": "med-origines-indice-masse-corporelle",
+ "slug": "origines-indice-masse-corporelle",
+ "langue": "en",
+ "empreinte_fr": "c1759bbaaf342205",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quote already in English in the French entry, copied as is; source URL points to the English-language IJE commentary quoting Keys 1972. Not re-checked against the page."
+  }
+ ],
+ "titre": "An Index Designed for Crowds",
+ "accroche": "The body mass index was conceived in the 1830s to describe population averages, never to diagnose an individual",
+ "contenu_vulgarise": "A number displayed on a bathroom scale, calculated by dividing a weight by the square of a height, now decides whether a patient is classed as “normal,” “overweight,” or “obese.” Its inventor never examined a single patient: he studied entire populations.\n\n## A Statistician's Tool, Not a Physician's\n\nAdolphe Quetelet, a Belgian astronomer and statistician, introduces this weight/height² ratio in the 1830s, within a project he calls “social physics.” His goal: to characterize “the average man,” a statistical ideal around which the traits of a population are distributed, on the model of the laws that govern the stars. The ratio that will become the BMI is then only one tool among others for describing crowd averages, with not the slightest ambition of serving to diagnose an individual.\n\n## From a Crowd Index to a Consultation Number\n\nIt is not until 1972 that a medical use really takes hold. The American physiologist Ancel Keys compares, across more than 7,400 men divided into twelve cohorts in five countries, several indices relating weight and height to actually measured body fat. Quetelet's ratio comes out best of the lot, and Keys renames it “body mass index.” His measured conclusion is that it is an index “if not fully satisfactory, at least as good as any other” for estimating adiposity, at the scale of a population studied in cohorts, exactly like Quetelet a century earlier.\n\nNothing in this 1972 study turns the BMI into an instrument of individual diagnosis. It is clinical use that, afterward, made it slide from the statistical table to the consultation sheet.\n\n## What the Number Does Not See\n\nThe BMI does not distinguish fat mass from muscle mass, and says nothing about how it is distributed in the body. A 2025 study of 1,351 adults in northern Italy, comparing BMI classification with a reference measurement of fat mass by absorptiometry, found one adult in three misclassified, underweight or obesity included. The thresholds, established on Western populations, also classify differently people of the same actual body composition depending on their origin: at identical BMI, the risk of diabetes or cardiovascular disease varies appreciably between populations, to the point that the World Health Organization had to add specific alert thresholds for Asian populations as early as 2004.\n\nThe shift lies in this genealogy: a number born to describe crowds ended up judging bodies one by one, without any study ever having established that it could do so with this precision. Between 1830 and today, it is the use made of it that has slid, without the number itself gaining anything in individual resolution.",
+ "citation": {
+  "texte": "if not fully satisfactory, at least as good as any other relative weight index as an indicator of relative obesity",
+  "auteur": "Ancel Keys",
+  "source": "Keys A. et al., “Indices of relative weight and obesity,” Journal of Chronic Diseases, 1972, quoted in Blackburn H, Jacobs D, “Commentary: Origins and evolution of body mass index (BMI),” International Journal of Epidemiology, 2014",
+  "url": "https://academic.oup.com/ije/article/43/3/665/2949550"
+ },
+ "repere": {
+  "texte": "Among 1,351 adults in northern Italy, compared by dual-energy X-ray absorptiometry (the reference method for fat mass), one adult in three (32.5%) was misclassified by the WHO body mass index.",
+  "source": "Milanese C, Itani L, Cavedon V, El Ghoch M, “The WHO BMI System Misclassifies Weight Status in Adults...,” Nutrients, 2025",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252079/"
+ },
+ "carte": {
+  "punch": "The body mass index was never designed to judge an individual body.",
+  "idee": "Adolphe Quetelet introduces this weight/height² ratio in the 1830s to describe population averages. A 2025 study of 1,351 adults in northern Italy shows it misclassifies 32.5% of them, compared with measured fat mass.",
+  "source_courte": "Nutrients, 2025"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "A Treatise on Man and the Development of his Faculties (1842)",
+   "url": "https://archive.org/details/treatiseonmandev00quet",
+   "note": "Quetelet's original text, in English translation."
+  }
+ ],
+ "quiz": {
+  "question": "What did Ancel Keys's 1972 study actually establish about the index he named “body mass index”?",
+  "choix": [
+   "That it should henceforth be used as the sole criterion of individual diagnosis in consultation",
+   "That weight alone, unrelated to height, remained the most reliable indicator of body size",
+   "That this index should replace direct measurement of fat mass in all cases",
+   "That it was the best available index for comparing adiposity between populations studied in cohorts"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Keys compared several indices on population cohorts and concluded that Quetelet's ratio was the best of the simple indices for relative adiposity, a conclusion of statistical scope, not a recommendation for individual diagnosis nor a replacement for direct measurement of fat mass.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In what context does Adolphe Quetelet introduce, in the 1830s, the ratio of weight divided by the square of height?",
+   "choix": [
+    "In an individual diagnosis project intended for country doctors",
+    "In a “social physics” project aimed at describing population averages",
+    "In a study commissioned by the Belgian army to select its recruits",
+    "In an anatomy textbook intended for medical students"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Quetelet, a Belgian astronomer and statistician, introduces this ratio in his “social physics” project, to characterize the average man of a population, not to diagnose an individual."
+  },
+  {
+   "question": "What does the 2025 study of 1,351 adults in northern Italy show?",
+   "choix": [
+    "That the BMI correctly classifies all the adults tested",
+    "That dual-energy X-ray absorptiometry is a less reliable method than the BMI",
+    "That one adult in three is misclassified by the BMI compared with fat mass measured by absorptiometry",
+    "That the BMI systematically underestimates weight in all the people tested"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The study compares BMI classification with a reference measurement of fat mass by absorptiometry and finds one adult in three misclassified, underweight or obesity included."
+  },
+  {
+   "question": "Why did the World Health Organization add, as early as 2004, specific alert thresholds for Asian populations?",
+   "choix": [
+    "Because at identical BMI, the risk of diabetes or cardiovascular disease varies appreciably between populations",
+    "Because people in Asia are on average shorter than the world average",
+    "Because the BMI did not yet exist in Asia before that date",
+    "Because Quetelet had established his thresholds solely by observing Asian populations"
+   ],
+   "bonne_reponse": 0,
+   "explication": "BMI thresholds, established on Western populations, classify differently people of the same actual body composition depending on their origin: at identical BMI, the risk varies appreciably."
+  }
+ ]
+}

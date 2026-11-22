@@ -1,0 +1,89 @@
+{
+ "id": "med-framingham-facteur-de-risque",
+ "slug": "framingham-facteur-de-risque",
+ "langue": "en",
+ "empreinte_fr": "fcf7ef45671d6727",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quote already in English in the French entry, copied as is; source URL points to the English-language PBS interview."
+  }
+ ],
+ "titre": "A Town Under Heart Surveillance",
+ "accroche": "Since 1948, the monitoring of a Massachusetts town has given rise to the very notion of risk factor in medicine",
+ "contenu_vulgarise": "In 1948, a small Massachusetts town becomes, without knowing it, the laboratory of an idea that did not yet exist in medicine: that of the “risk factor.”\n\n## Following a Town Rather Than Patients\n\nThe National Heart Institute launches a new kind of study in Framingham. Instead of studying patients already suffering from cardiovascular disease, it follows over the long term 5,209 healthy adults, drawn at random from among the residents, to observe who develops the disease and under what conditions of life. At the time, no solid link has been established between high blood pressure, cholesterol, or tobacco on one side and heart disease on the other: these are suspicions, not certainties.\n\n## A Word That Did Not Yet Exist\n\nA first report, published in 1957 after four years of follow-up, already links blood pressure, overweight, and serum cholesterol to the occurrence of coronary disease. But it is a 1961 article, signed by William Kannel and his colleagues, that popularizes the expression destined to become a pillar of medical vocabulary: “factors of risk,” the risk factors. Kannel would later recount, in an interview, that he had simply written that they were studying important “factors of risk” in the development of cardiovascular disease, a phrase then taken up as is by the whole discipline.\n\nThe link with tobacco took a few more years: it was only in 1962, by combining the Framingham data with those of a study conducted in Albany, in New York State, that it was clearly established.\n\n## A Study That Spans Generations\n\nThe children of the original cohort join the study starting in 1971, then their own children starting in 2002, bringing the total number of participants followed across three generations to more than 15,000, in the same town, with the same protocol. The study continues today.\n\n## What Framingham Shifts\n\nBefore this study, cardiology had no framework for anticipating a disease: Kannel himself would say that “preventive cardiology did not exist” before these data began to accumulate. The concept of risk factor moved cardiovascular medicine from a discipline that treats after the fact to one that measures, in healthy people, what raises a future probability. This reversal of stance now structures the prevention of most chronic diseases, well beyond the heart.",
+ "citation": {
+  "texte": "I had written a paper, and I said that we were looking at 'factors of risk' important in the development of cardiovascular disease. That then became 'risk factors.'",
+  "auteur": "William B. Kannel",
+  "source": "PBS interview, “Take One Step,” 2006",
+  "url": "https://www.pbs.org/wgbh/takeonestep/heart/interviews-kannel.html"
+ },
+ "repere": {
+  "texte": "5,209 Framingham residents recruited in 1948; their children starting in 1971, then their grandchildren starting in 2002: more than 15,000 people followed across three generations, in the same town, with the same protocol.",
+  "source": "Framingham Heart Study — About",
+  "url": "https://www.framinghamheartstudy.org/fhs-about/"
+ },
+ "carte": {
+  "punch": "The term “risk factor” did not exist until this town was studied.",
+  "idee": "Since 1948, the Framingham Heart Study has followed several generations of the same Massachusetts town. It established the first solid links between high blood pressure, cholesterol, tobacco, and heart disease, and gave its name to the concept of risk factor.",
+  "source_courte": "Framingham Heart Study"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Exercise, Eat Well, Don't Smoke: 10 Ways the Framingham Heart Study Has Revolutionized Healthcare",
+   "url": "https://www.bu.edu/articles/2026/heart-healthcare-framingham-heart-study/",
+   "note": "Overview by Boston University, the study's academic partner since 1971."
+  }
+ ],
+ "quiz": {
+  "question": "How did the design of the Framingham study, launched in 1948, differ from the usual medical approach of the time?",
+  "choix": [
+   "It focused exclusively on patients hospitalized for heart attacks",
+   "It relied solely on autopsies performed after the participants' deaths",
+   "It followed healthy people over time, rather than studying patients already affected",
+   "It involved only twins, to isolate genetic factors from lifestyle"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Framingham followed healthy adults over time, drawn at random from the population, to observe who developed the disease and under what conditions: a prospective approach in the general population, the opposite of a study of patients already hospitalized, of autopsies, or of twins.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the entry, which text popularized the expression “risk factors”?",
+   "choix": [
+    "The study's first report, published in 1957 after four years of follow-up",
+    "A 1961 article signed by William Kannel and his colleagues",
+    "The combined analysis with the Albany study, published in 1962",
+    "The study's launch protocol, written in 1948"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 1957 report already linked blood pressure, overweight, and cholesterol to coronary disease, but it was the 1961 article by Kannel and his colleagues that put the expression “factors of risk” into circulation, then taken up by the whole discipline."
+  },
+  {
+   "question": "How was the link between cigarettes and coronary disease clearly established?",
+   "choix": [
+    "By combining, in 1962, the Framingham data with those of Albany",
+    "As early as the study's first report, published in 1957 after four years",
+    "By following the children of the original cohort starting in 1971",
+    "Through a comparison with a cohort of twins recruited in 1948"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The link with tobacco was not settled in 1957: it took until 1962 and the pooling of the Framingham data with those of a study conducted in Albany, in New York State, for it to be clearly established."
+  },
+  {
+   "question": "How did the study continue after the cohort recruited in 1948?",
+   "choix": [
+    "It was transferred to another Massachusetts town in 1971",
+    "It recruited a new town each decade, for comparison",
+    "The cohort's children joined it in 1971, then their children in 2002",
+    "It stopped in 1971, for lack of volunteer participants"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The study followed three generations in the same town and with the same protocol: the original cohort of 5,209 adults, their children starting in 1971, then their grandchildren starting in 2002, for more than 15,000 participants."
+  }
+ ]
+}

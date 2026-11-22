@@ -1,0 +1,85 @@
+{
+ "id": "med-fraude-wakefield-vaccin-ror",
+ "slug": "fraude-wakefield-vaccin-ror",
+ "langue": "en",
+ "empreinte_fr": "72783a89cf3a6565",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quote already in English in the French entry, copied as is; the DOI points to the English-language BMJ editorial."
+  }
+ ],
+ "titre": "The Fraud That Set Measles Back",
+ "accroche": "In 1998, a fraudulent paper linking the MMR vaccine to autism caused vaccination coverage to fall for more than a decade",
+ "contenu_vulgarise": "In February 1998, a press conference in London announces a link between the measles-mumps-rubella vaccine and autism in children. Twelve years later, the scientific paper on which it was based is fully retracted, and its lead author is struck off the British medical register. Between the two dates, vaccination coverage collapses in several countries.\n\n## One Paper, Twelve Children\n\nAndrew Wakefield and twelve coauthors publish in *The Lancet*, on February 28, 1998, a study of twelve children referred to a London hospital, described as presenting a new form of intestinal inflammation linked to a developmental regression following MMR vaccination. The paper suggests a causal link, supported by presenting the children as consecutively referred, a description that will prove false.\n\n## What the Investigation Uncovered\n\nThe journalist Brian Deer spends several years retracing, medical record by medical record, the story of these twelve children. His series of articles, published by the *British Medical Journal* in January 2011, establishes that the data had been altered: of nine children presented as having regressive autism, only one actually had it according to his own record; intervals between vaccination and first symptoms, in reality several months, had been reduced to a few days in the published paper.\n\nThe investigation also reveals that Wakefield received, without disclosing it to the journal, fees from a law firm preparing a class action against vaccine manufacturers, and that he had filed, eight months before publication, a patent for a measles vaccine competing with the trivalent MMR.\n\n## The Sanction and the Retraction\n\nThe British General Medical Council, after a disciplinary inquiry, concludes on May 24, 2010, that Wakefield acted dishonestly and irresponsibly, notably by having clinically unjustified invasive tests performed on children, without the required ethics committee approval. He is struck off the medical register. *The Lancet* fully retracts the paper on February 2, 2010. The *BMJ* editorial accompanying Deer's investigation sums up the affair bluntly: “Science is based on trust. Such a breach of trust is deeply shocking.”\n\n## What the Fraud Cost\n\nThe British health security agency (UKHSA) puts MMR vaccination coverage at a little over 90% at the time the study was published; it fell to about 80% nationally in the years after it received media attention, and took many years to recover. This undervaccinated cohort would be directly associated with a measles epidemic that affected British adolescents starting in 2012.\n\nWhat this affair forces us to see is not only medical: a single study, fraudulent and never reproduced by anyone else, was enough to durably change the behavior of millions of families, long after science itself had disowned it.",
+ "citation": {
+  "texte": "Science is based on trust. Such a breach of trust is deeply shocking.",
+  "auteur": "Fiona Godlee",
+  "source": "“The fraud behind the MMR scare,” BMJ, January 6, 2011",
+  "url": "https://doi.org/10.1136/bmj.d22"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "One fraudulent paper: British MMR coverage drops from a little over 90% to about 80%.",
+  "idee": "In 1998, Andrew Wakefield publishes a study of twelve children linking the MMR vaccine to autism. A journalistic investigation reveals falsified data and undisclosed conflicts of interest. British vaccination coverage takes years to recover.",
+  "source_courte": "BMJ, 2011; UKHSA, 2023"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "How the case against the MMR vaccine was fixed",
+   "url": "https://briandeer.com/solved/bmj-wakefield-1-1.htm",
+   "note": "The full text of Brian Deer's investigation, freely accessible."
+  }
+ ],
+ "quiz": {
+  "question": "What exactly did Brian Deer's investigation bring to light in the data of the 1998 paper?",
+  "choix": [
+   "A statistical calculation error in the number of children included in the study",
+   "Intervals between vaccination and symptoms that were shortened in the paper compared with the records",
+   "A lack of statistical power due to a sample that was too small",
+   "A laboratory error in the analysis of blood samples"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Deer showed, record by record, that the intervals between vaccination and first symptoms had been shortened in the published paper compared with what the actual medical records indicated: a falsification of the data, not a mere methodological weakness or a laboratory error.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What other undisclosed financial benefit did Andrew Wakefield receive at the time his study was published?",
+   "choix": [
+    "A salary paid by the manufacturer of the MMR vaccine he was criticizing",
+    "Fees from a law firm preparing a lawsuit against vaccine manufacturers",
+    "A government research grant that went unmentioned",
+    "Royalties on a textbook intended for pediatricians"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Wakefield received, without disclosing it to the journal, fees from a law firm preparing a lawsuit against vaccine manufacturers, a conflict of interest that remained hidden at the time of publication."
+  },
+  {
+   "question": "What does the British General Medical Council conclude on May 24, 2010?",
+   "choix": [
+    "That he acted dishonestly, performing invasive tests without ethical approval",
+    "That the 1998 study contained an excusable statistical error",
+    "That the main responsibility lay with the journal The Lancet",
+    "That the fraud remained insufficiently established to sanction Wakefield"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The GMC concluded that Wakefield acted dishonestly and irresponsibly, notably through invasive tests performed on children without the required ethics committee approval, which led to his being struck off."
+  },
+  {
+   "question": "What happened in Great Britain starting in 2012, as a direct consequence of the drop in vaccination coverage?",
+   "choix": [
+    "A national shortage of MMR vaccines",
+    "The closure of several pediatric hospitals",
+    "A measles epidemic affecting adolescents",
+    "A new British Medical Journal investigation into Wakefield"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The UKHSA directly links the undervaccinated cohort resulting from the media attention given to the study to a measles epidemic that affected British adolescents starting in 2012."
+  }
+ ]
+}

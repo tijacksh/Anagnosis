@@ -1,0 +1,67 @@
+{
+ "id": "med-streptomycine-1948-enveloppes-scellees-essai-mrc",
+ "slug": "streptomycine-1948-enveloppes-scellees-essai-mrc",
+ "langue": "en",
+ "empreinte_fr": "430137c64503a688",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Sealed Envelopes of the Streptomycin Trial",
+ "accroche": "In 1948, the Medical Research Council draws lots for 107 tuberculosis patients using sealed envelopes: 4 deaths at six months among the treated, 14 among the controls",
+ "contenu_vulgarise": "When the Medical Research Council launches its trial of streptomycin against pulmonary tuberculosis, the quantity of drug available is limited: the report says so itself. Not being able to treat everyone poses a problem, and opens a possibility: since some patients will go without the drug, better that chance, and not a physician's choice, decide which ones.\n\n## The Design\n\nThe report appears in the *British Medical Journal* of October 30, 1948. It concerns 107 patients with an acute, progressive, bilateral form of pulmonary tuberculosis, judged until then inaccessible to any treatment other than rest. Fifty-two receive bed rest alone. Fifty-five also receive two grams of streptomycin a day, in four injections. Assignment to one group or the other is by random draw, and only after the patient has been accepted for the trial: a physician cannot exclude a patient because he would already know which group awaits him.\n\nThis precaution is the central point. The series of assignments is kept in sealed envelopes, which bear on the outside only the name of the hospital and a number, and whose contents remain unknown to the investigators as well as to the coordinator (report cited by Iain Chalmers). The X-rays are read separately by two radiologists and a clinician who do not know whether the film comes from a treated patient or not.\n\n## The Result\n\nAt six months, 4 of the 55 treated patients have died (7%), against 14 of the 52 controls (27%). The report judges the difference statistically significant, with a probability of chance below one in a hundred. It also reports frequent vestibular disorders in the treated and the appearance of resistant strains of the bacillus, on average on the 53rd day of treatment (median the 45th), with a gloomier prognosis as resistance increases.\n\n## The Shift\n\nThis trial is often presented as the first randomized trial. What it brought that was new was not the control group, but the way of constituting it. In 1896 and 1897, in Copenhagen, Johannes Fibiger had compared antidiphtheria serum with a standard treatment by alternating admission days: 8 deaths among 239 treated patients, 30 among 245 controls. An alternation can be guessed, and a physician who knows which group is next can slip a patient into it or keep one out. As early as 1933, an internal MRC report written by Austin Bradford Hill noted that an alternation had not been strictly followed.\n\nAccording to Chalmers, who relies on a text by Cox (2009), the first reason for drawing lots is not statistical: it is to prevent a patient's assignment from being known in advance. Chance was used here to take from physicians the power to choose. The report does not discuss the question this setup still raises: at what point does a shortage justify leaving a group without treatment?",
+ "citation": null,
+ "repere": {
+  "texte": "Of 107 patients assigned by random draw, 4 of the 55 patients on streptomycin (7%) and 14 of the 52 controls (27%) had died after six months.",
+  "source": "Medical Research Council, “Streptomycin treatment of pulmonary tuberculosis,” British Medical Journal, October 30, 1948, vol. 2, pp. 769-782",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2091872/"
+ },
+ "carte": {
+  "punch": "In 1948, sealed envelopes decided who would receive the drug.",
+  "idee": "The MRC streptomycin trial (BMJ, 1948) draws lots for 107 tuberculosis patients, 55 treated against 52 controls. The assignments are in sealed envelopes that neither the investigators nor the coordinator know. At six months: 4 deaths among the treated, 14 among the controls.",
+  "source_courte": "MRC, BMJ, October 30, 1948"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Medical Research Council (1948), James Lind Library entry",
+   "url": "https://www.jameslindlibrary.org/records/medical-research-council-1948b/",
+   "note": "Entry for the report, which stresses the measures taken to prevent advance knowledge of the assignments."
+  }
+ ],
+ "quiz": {
+  "question": "What precaution makes this random draw more than a simple alternation between patients?",
+  "choix": [
+   "Patients chose their own group after being informed",
+   "The most serious cases were assigned first to the treated group",
+   "The group depended on the day the patient was admitted to the hospital",
+   "The assignments were in sealed envelopes, unknown to the investigators"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The sealed envelopes prevent the physician from knowing which group awaits the patient and from slipping in a chosen patient. Letting the patient choose, sorting by severity, or following the day of admission would on the contrary open the door to choice, conscious or not.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why is Fibiger's trial in Copenhagen, in 1896-1897, not a randomized trial?",
+   "choix": [
+    "Patients were assigned by alternating admission days",
+    "It had no control group",
+    "Patients chose the serum or the standard treatment",
+    "It compared only two hospitals, without assigning patients"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Fibiger did compare two groups, of 239 and 245 patients, but assigned by alternating admission days. An alternation can be guessed and circumvented, which concealed random drawing avoids."
+  },
+  {
+   "question": "What does the 1948 report show about the bacillus's resistance to streptomycin?",
+   "choix": [
+    "No resistance was observed during the six months",
+    "Resistance appeared only after treatment stopped",
+    "Resistant strains appeared, on average, around the 53rd day",
+    "Resistance protected patients against relapses"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The report notes resistant strains appearing on average on the 53rd day of treatment, with a gloomier prognosis as resistance increases. It thus does not wait for treatment to stop and does not protect patients."
+  }
+ ]
+}

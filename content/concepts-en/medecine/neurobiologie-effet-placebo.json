@@ -1,0 +1,94 @@
+{
+ "id": "med-neurobiologie-effet-placebo",
+ "slug": "neurobiologie-effet-placebo",
+ "langue": "en",
+ "empreinte_fr": "d3bb7730f652bfc0",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quote already in English in the French entry, copied as is; source URL points to the English-language Harvard Magazine article. Not re-checked against the page."
+  },
+  {
+   "chemin": "quiz.question",
+   "type": "erreur-possible-fr",
+   "note": "The body attributes the 2010 study to “the same team” as de la Fuente-Fernández's 2001 study, while the quiz question names it as the study of “Lidstone and colleagues (2010).” The authorship attribution should be checked in the French."
+  }
+ ],
+ "titre": "An Empty Pill That Releases Dopamine",
+ "accroche": "In Parkinson's patients, a placebo presented as a drug triggers a real release of dopamine in the brain",
+ "contenu_vulgarise": "A Parkinson's patient receives a capsule presented to him as an active treatment. It is a placebo: no pharmacological molecule in it. Yet in his brain, a scanner measures a real release of dopamine, the neurotransmitter that is precisely missing in this disease.\n\n## A Belief That Activates a Real Circuit\n\nIn 2001, Raúl de la Fuente-Fernández's team publishes in *Science* the first direct proof of this mechanism: using PET imaging, it measures in Parkinson's patients a substantial release of dopamine in the striatum in response to a placebo presented as an active drug. The dopaminergic circuit damaged by the disease, the very one that real treatments target, thus responds to an expectation, with no active molecule to trigger it.\n\nA later study by the same team, in 2010, spells out the mechanics, and the result defies intuition: the release of dopamine appears significantly only when patients have been told there is a 75% probability of receiving the active treatment. Not at 25%, not at 50%, and not even at 100%, the total certainty of receiving the drug, is the effect present. So it is not the capsule that acts, nor even the conviction of a guaranteed benefit: it is a specific zone of uncertainty that activates the dopaminergic circuit.\n\n## A Mechanism, Not a Sleight of Hand\n\nThe placebo effect is not specific to dopamine. As early as 1978, a study of patients who had their wisdom teeth removed shows that naloxone, a molecule that blocks opioid receptors, cancels the pain-relieving effect of a placebo in the patients who had responded to it, proof that the body mobilizes its own opioids in response to an expectation of relief, not merely a subjective impression of less pain.\n\n## What Really Shifts the Understanding of Placebo\n\nThe most counterintuitive result overturns a received idea: that the placebo effect requires deceiving the patient. In 2010, a Harvard team gives patients suffering from irritable bowel syndrome capsules explicitly labeled “placebo,” explaining to them that inert pills had, in earlier trials, improved this type of symptom through the body's self-healing mechanisms. Three weeks later, this group reports a markedly greater improvement than a group with no treatment at all, even though no one has lied to anyone.\n\nThe shift is here: the placebo effect is not an illusion that needs to be dispelled, nor an artifact of the patient's credulity. It is a measurable neurobiological mechanism, one that can be mobilized even openly, which in no way cancels the need for active treatments, but reminds us that a good part of what we attribute to the drug comes down to what the brain does with the expectation we place in it.",
+ "citation": {
+  "texte": "Placebos have limitations, and we need to know what they are.",
+  "auteur": "Ted Kaptchuk",
+  "source": "Cara Feinberg, “The Placebo Phenomenon,” Harvard Magazine, January-February 2013",
+  "url": "https://www.harvardmagazine.com/2012/12/the-placebo-phenomenon"
+ },
+ "repere": {
+  "texte": "Patients suffering from irritable bowel syndrome, receiving capsules explicitly labeled “placebo,” reported a markedly greater improvement than a no-treatment group, without anything having been hidden from them.",
+  "source": "Kaptchuk TJ et al., “Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome,” PLOS ONE, 2010",
+  "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0015591"
+ },
+ "carte": {
+  "punch": "A placebo can release real dopamine in a real brain.",
+  "idee": "In Parkinson's patients, a capsule presented as a treatment but with no active molecule triggers a real release of dopamine, measured by imaging. In 2010, the effect appears only when a 75% probability of active treatment is announced, not at 25%, 50%, or 100%.",
+  "source_courte": "Science, 2001"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The Placebo Phenomenon",
+   "url": "https://www.harvardmagazine.com/2012/12/the-placebo-phenomenon",
+   "note": "Profile of Ted Kaptchuk and his research at Harvard."
+  }
+ ],
+ "quiz": {
+  "question": "In the study by Lidstone and colleagues (2010), when does the dopamine release under placebo appear in Parkinson's patients?",
+  "choix": [
+   "Systematically, as soon as they are given any capsule, whatever the information provided",
+   "Only after several weeks of continuous treatment with the placebo",
+   "Only when they are told there is a 75% probability of receiving the active treatment; the effect disappears at 25%, at 50%, and even at 100%",
+   "Only in patients who are totally unaware that a placebo exists in the study"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The study shows that dopamine release is significant only when a 75% probability is announced, an isolated peak: it is absent at 25% and 50%, but also, even more counterintuitively, at 100%; total certainty is not enough. Neither total ignorance of the placebo nor the duration of treatment are the determining factors identified by this study.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did Raúl de la Fuente-Fernández's team demonstrate in 2001?",
+   "choix": [
+    "That Parkinson's patients never feel a placebo effect",
+    "Through PET imaging, a real release of dopamine in the striatum in response to a placebo presented as an active drug",
+    "That dopamine plays no role in Parkinson's disease",
+    "That only patients informed of the placebo produce dopamine"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Published in Science in 2001, this study provides the first direct proof of the mechanism: using PET imaging, it measures in Parkinson's patients a substantial release of dopamine in the striatum in response to a placebo presented as an active treatment."
+  },
+  {
+   "question": "What does the 1978 study using naloxone in patients who had their wisdom teeth removed show?",
+   "choix": [
+    "That naloxone strengthens the pain-relieving effect of the placebo",
+    "That naloxone, which blocks opioid receptors, cancels the pain-relieving effect of the placebo in the patients who had responded to it",
+    "That the placebo effect is purely psychological and involves no molecule",
+    "That dental pain never responds to a placebo"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Naloxone blocks opioid receptors. By canceling the pain-relieving effect of the placebo in the patients who had responded to it, the study proves that the body mobilizes its own opioids in response to an expectation of relief, not merely a subjective impression."
+  },
+  {
+   "question": "What does the 2010 Harvard study of patients with irritable bowel syndrome reveal?",
+   "choix": [
+    "That a placebo labeled as such no longer has any effect, the illusion being necessary",
+    "That a placebo explicitly labeled “placebo” nonetheless improved symptoms, without anyone having lied to anyone",
+    "That only unlabeled placebos produce a measurable effect",
+    "That irritable bowel syndrome responds to no treatment, active or placebo"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Patients receiving capsules explicitly labeled “placebo,” informed that inert pills had improved this type of symptom through self-healing mechanisms, report a markedly greater improvement than a no-treatment group, even though no one has lied to anyone."
+  }
+ ]
+}

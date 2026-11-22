@@ -1,0 +1,81 @@
+{
+ "id": "med-landsteiner-groupes-sanguins",
+ "slug": "landsteiner-groupes-sanguins",
+ "langue": "en",
+ "empreinte_fr": "7169d92e34dc81ef",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere.texte",
+   "type": "erreur-possible-fr",
+   "note": "The reference note says the 1902 discoverers of group AB were two of Landsteiner's “collègues” (colleagues), while the body, the quiz and the explanation call them his “élèves” (students). Translated as written; the wording should be harmonized in the French."
+  }
+ ],
+ "titre": "The Blood That Refused to Mix",
+ "accroche": "In 1900 in Vienna, Karl Landsteiner notices that the blood of two colleagues, when mixed, sometimes forms clumps, and looks for the reason",
+ "contenu_vulgarise": "At the end of the 19th century, transfusing blood from one person to another remains a lottery: sometimes the patient survives, sometimes he dies within hours, and no physician understands why the same procedure produces such opposite results. Many physicians ended up abandoning the practice.\n\n## A Mixture That Clumps\n\nIn 1900, at the Institute of Pathological Anatomy in Vienna, Karl Landsteiner systematically mixes samples of serum and red blood cells taken from his laboratory colleagues. He observes that some mixtures remain homogeneous, while others make the red blood cells agglutinate into visible clumps. The phenomenon is not random: it repeats identically according to the pairs of blood tested.\n\nIn 1901, Landsteiner publishes his conclusion: there are several types of human blood, which he names A, B, and C, the latter later renamed O. In 1902, two of his students, Alfred von Decastello and Adriano Sturli, identify a fourth group, AB, in people whose blood reacts to the first two at once. The cause of fatal transfusions becomes clear: it is the mixing of two incompatible bloods. The recipient's immune system attacks the donor's cells as a foreign body.\n\n## A Discovery Set Aside, Then Rediscovered\n\nFor nearly a decade, Landsteiner's discovery remains little exploited: the medicine of the time has neither the means nor the urgency to generalize blood typing before a transfusion. It is the First World War, and the number of wounded requiring massive transfusions, that makes blood transfusion widespread, along with the use of blood grouping that makes it safe.\n\nLandsteiner does not stop there. Settled in New York from 1922, at the Rockefeller Institute, he continues his work on blood, and in 1940 discovers, with his colleague Alexander Wiener, a second system of groups, the Rh factor, named after the monkey used in the experiments. This second system is responsible for a sometimes fatal hemolytic disease in the newborn when mother and child are incompatible.\n\n## The Shift\n\nWhat Landsteiner demonstrated, by implication, is that an invisible biological system can determine life or death in an apparently simple medical gesture. Sometimes it is enough to systematize a laboratory observation, without prior theory, to turn a dangerous practice into a routine one. He dies on June 26, 1943, two days after a heart attack in his laboratory at the Rockefeller Institute, pipette in hand, thirteen years after receiving the Nobel Prize in Physiology or Medicine for this discovery.",
+ "citation": null,
+ "repere": {
+  "texte": "In 1901, Karl Landsteiner describes three blood groups (A, B, and C, renamed O). In 1902, two of his colleagues identify the fourth, AB, completing in two years the classification still used before every transfusion today.",
+  "source": "The Rockefeller University, “Karl Landsteiner — Nobel Prize in Physiology or Medicine”",
+  "url": "https://www.rockefeller.edu/our-scientists/karl-landsteiner/2554-nobel-prize/"
+ },
+ "carte": {
+  "punch": "A mixture that clumped in a Vienna test tube made blood transfusions safe.",
+  "idee": "In 1900, Karl Landsteiner notices that mixing the blood of two people sometimes makes the red blood cells agglutinate. He deduces the existence of different blood groups, the cause of transfusions that killed without explanation. His discovery earns him the 1930 Nobel Prize.",
+  "source_courte": "Nobel Prize in Physiology or Medicine, 1930"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why were 19th-century blood transfusions so unpredictable?",
+  "choix": [
+   "Because the transfused blood almost always clotted before reaching the patient",
+   "Because the syringes of the time did not allow the transfused quantity to be measured",
+   "Because blood donors were rarely in good health",
+   "Because human blood divides into mutually incompatible groups, still unknown at the time"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Before 1900, no one had identified that human blood divides into mutually incompatible groups: transfusing blood from one group into a person of another triggers an immune reaction that destroys the donor's cells. Neither clotting, nor the precision of syringes, nor the donor's health explained these unexplained deaths.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What event made the practice of blood transfusion and the use of blood grouping widespread?",
+   "choix": [
+    "The awarding of the Nobel Prize to Landsteiner in 1930",
+    "The discovery of the Rh factor in 1940",
+    "The First World War and the large number of wounded to transfuse",
+    "The invention of the disposable syringe in the early 20th century"
+   ],
+   "bonne_reponse": 2,
+   "explication": "It is the First World War, with its influx of wounded requiring massive transfusions, that makes blood transfusion widespread, along with the use of blood grouping to make it safer.",
+   "statut": "valide"
+  },
+  {
+   "question": "Who identifies the fourth blood group, AB, and in what year?",
+   "choix": [
+    "Karl Landsteiner alone, in 1901",
+    "Alfred von Decastello and Adriano Sturli, in 1902",
+    "Alexander Wiener, in 1940",
+    "Two anonymous Austrian physicians, in 1910"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In 1902, two students of Landsteiner, Alfred von Decastello and Adriano Sturli, identify the fourth group, AB, in people whose blood reacts to both of the first two groups at once.",
+   "statut": "valide"
+  },
+  {
+   "question": "Where does the name of the Rh factor, discovered by Landsteiner and Wiener in 1940, come from?",
+   "choix": [
+    "From the monkey used in the experiments that led to its discovery",
+    "From the surname of the patient in whom it was identified",
+    "From an Egyptian city where the experiment took place",
+    "From a Greek deity associated with blood in mythology"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The Rh factor takes its name from the rhesus monkey used in Landsteiner and Wiener's experiments in 1940, this second blood system being responsible for sometimes fatal diseases in the newborn in case of incompatibility.",
+   "statut": "valide"
+  }
+ ]
+}

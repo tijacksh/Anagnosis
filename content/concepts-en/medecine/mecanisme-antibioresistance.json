@@ -1,0 +1,89 @@
+{
+ "id": "med-mecanisme-antibioresistance",
+ "slug": "mecanisme-antibioresistance",
+ "langue": "en",
+ "empreinte_fr": "23f1b80a0b3dcfc1",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quote already in English in the French entry, copied as is; source URL points to the English-language Nobel lecture (the same sentence is rendered in the body from the French entry's English text). Not re-checked against the PDF."
+  }
+ ],
+ "titre": "A Resistance That Travels Without Kinship",
+ "accroche": "An antibiotic resistance gene can be passed directly between two bacteria of totally different species",
+ "contenu_vulgarise": "In 1945, the man who has just received the Nobel Prize for discovering penicillin uses his acceptance speech to warn of a danger that his own discovery already contains in embryo.\n\n## A Warning Delivered on the Day of Glory\n\nIn his speech of December 11, 1945, Alexander Fleming describes a precise scenario: a man buys penicillin for a sore throat, takes too little to kill the streptococci but enough to accustom them to the drug, then passes to his wife bacteria that have become resistant. She dies of a pneumonia that penicillin can no longer treat. Fleming writes it in black and white: “It is not difficult to make microbes resistant to penicillin in the laboratory by exposing them to concentrations not sufficient to kill them, and the same thing has occasionally happened in the body.” By the mid-1940s, penicillin-resistant staphylococci are indeed observed in hospitals.\n\n## The Mechanism: A Gene That Travels Without Kinship\n\nWhat Fleming described as a risk of individual use has been joined by a mechanism far faster than classical natural selection. A bacterium that develops a resistance gene by mutation can pass it directly to another bacterium, even of an entirely different species, without any reproduction or lineage between them. This gene most often travels on a plasmid, a small ring of DNA independent of the bacterial chromosome. During direct contact between two bacteria, a structure called a pilus allows one strand of the plasmid to migrate into the neighboring cell, which then reconstitutes its own circular copy of the DNA received.\n\nThis horizontal transfer explains how a resistance that appeared just once, somewhere, can spread to bacterial species that have never encountered the antibiotic in question: resistance propagates like information, independently of the reproduction of the organisms that carry it.\n\n## The Scale of the Problem Today\n\nA global analysis published in *The Lancet* in 2022 directly attributes 1.27 million deaths in 2019 to antibiotic-resistant bacteria, out of a total of nearly 5 million deaths associated with the phenomenon. Its authors judge this toll to be at least as heavy as that of HIV or malaria taken separately, and potentially much higher.\n\n## What the 1945 Warning Shifts\n\nFleming did not imagine the molecular mechanism of plasmid transfer; he was unaware of it, like everyone in his time. But he had identified, without naming it, the principle that makes the problem so hard to contain: resistance is not an accident that stays confined to the place where it appears, it behaves like information that circulates, carried by organisms whose only link to one another is proximity.",
+ "citation": {
+  "texte": "It is not difficult to make microbes resistant to penicillin in the laboratory by exposing them to concentrations not sufficient to kill them, and the same thing has occasionally happened in the body.",
+  "auteur": "Alexander Fleming",
+  "source": "Nobel Prize acceptance lecture, “Penicillin,” December 11, 1945",
+  "url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf"
+ },
+ "repere": {
+  "texte": "In 2019, bacterial antimicrobial resistance was directly responsible for 1.27 million deaths worldwide, out of a total of nearly 5 million deaths associated with the phenomenon.",
+  "source": "Antimicrobial Resistance Collaborators, “Global burden of bacterial antimicrobial resistance in 2019,” The Lancet, 2022",
+  "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)02724-0/fulltext"
+ },
+ "carte": {
+  "punch": "Antibiotic resistance can travel between two bacteria that have nothing in common.",
+  "idee": "A resistance gene carried by a plasmid can pass from one bacterial species to another without any reproduction between them. Fleming sensed it as early as 1945; in 2019, this resistance caused 1.27 million deaths worldwide.",
+  "source_courte": "The Lancet, 2022"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Antimicrobial resistance — Fact sheet",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+   "note": "Up-to-date figures and projections from the World Health Organization."
+  }
+ ],
+ "quiz": {
+  "question": "Why does horizontal gene transfer by plasmid make antibiotic resistance particularly hard to contain?",
+  "choix": [
+   "Because it speeds up the reproduction of resistant bacteria by ordinary cell division",
+   "Because it prevents antibiotics from penetrating the wall of all bacteria at once",
+   "Because it concerns only bacteria already directly exposed to the antibiotic in question",
+   "Because a resistance that appeared in one bacterium can be passed to species with no reproductive link"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Horizontal transfer by plasmid allows a resistance gene to circulate between bacteria of different species, without any lineage or reproduction between them; this is what distinguishes it from classical natural selection, and what explains how species never exposed to a given antibiotic can become resistant.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In his 1945 Nobel speech, what precise scenario does Alexander Fleming imagine to illustrate the danger of resistance?",
+   "choix": [
+    "A man underdoses his penicillin for a sore throat and passes resistant bacteria to his wife",
+    "An entire hospital has to close after an epidemic of unidentified resistant bacteria",
+    "A laboratory loses control of a strain of genetically modified bacteria",
+    "A penicillin manufacturer mistakenly sells insufficiently purified doses"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Fleming describes a man who underdoses his penicillin for a sore throat, making the streptococci resistant, then passes these bacteria to his wife, who dies of a pneumonia that has become incurable."
+  },
+  {
+   "question": "Through what structure does a bacterium directly pass a resistance-carrying plasmid to a neighboring bacterium?",
+   "choix": [
+    "A flagellum that pierces the neighboring cell wall",
+    "A pilus, during direct contact between the two bacteria",
+    "A capsule that fuses with the neighboring membrane",
+    "An intermediary virus that carries the gene from one cell to the other"
+   ],
+   "bonne_reponse": 1,
+   "explication": "During direct contact, a structure called a pilus allows one strand of the plasmid to migrate into the neighboring cell, which then reconstitutes its own circular copy of the DNA received."
+  },
+  {
+   "question": "How do the authors of the 2022 Lancet study judge the global toll of antibiotic resistance, compared with other major causes of mortality?",
+   "choix": [
+    "Clearly lower than that of malaria alone",
+    "Negligible compared with HIV or malaria",
+    "At least as heavy as HIV or malaria taken separately, and potentially much higher",
+    "Impossible to compare, for lack of comparable data"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The authors judge this toll, 1.27 million deaths directly attributable in 2019, to be at least as heavy as that of HIV or malaria taken separately, and potentially much higher."
+  }
+ ]
+}
