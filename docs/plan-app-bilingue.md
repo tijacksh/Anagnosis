@@ -93,3 +93,6 @@ Budget : limite hebdomadaire à 67 % le 16/11 ; pause à 90 % ; point d'arrêt (
 - Décisions proposées à Arnaud : sélecteur d'heure des Réglages reste en 24 h (texte du récap en 12 h en anglais) ; « IT WAS THE OTHER ONE » -> « IT WAS ANOTHER ONE » ; « 1 JOUR OFFERTS » (français) à part.
 - Non vérifié (vrai appareil) : texte des alarmes, contenu des widgets, changement de langue système en direct (ACTION_LOCALE_CHANGED), prix/essai StoreKit, petit iPhone SE.
 - Après ça : fichier combiné éteint (worktree Anagnosis-repo, garde empreinte, décodeurs i18n-base), Release Android, amendement decisions.md, relecture complète @code-reviewer du diff depuis i18n-base, fusion dans main, publication (mémoires « publier après modif majeure » et « test public »).
+
+## 22/11/2026 : lecture du champ `en` livrée (interrupteur éteint)
+Les deux apps savent servir une fiche en anglais (garde pure par fiche, résolution `Concept.dans(langue)`, écoute par fiche, recherche et Spotlight selon la langue servie). Spécification, amendements et conditions d'activation : `docs/lecture-en-apps.md`. Builds internes : iOS 85, Android 0.65 (68). Rien en externe.

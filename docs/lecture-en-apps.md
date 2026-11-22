@@ -1,0 +1,44 @@
+# Lecture du champ `en` dans les apps (iOS et Android)
+
+Spécification figée le 22/11/2026, **amendée après relectures et vérification à l'écran** (section finale). État : livrée dans `main` des deux apps (iOS 3f7f393+, Android 01cd4a0+), **interrupteur éteint**.
+
+Relue par @code-reviewer et l'Advisor. Les deux apps doivent se comporter à l'identique.
+
+## Contrat du fichier
+Chaque concept peut porter `en` : `titre`, `accroche`, `contenu_vulgarise`, `citation` | `repere`, `carte{punch,idee,source_courte}`, `pour_aller_plus_loin[{titre,url,note}]`, `quiz{question,choix,bonne_reponse?,explication,statut?}`, `quiz_supplementaire[]`. Fichier de test réel (982 fiches, 433 avec `en`, **ne pas le modifier**) : `/Volumes/SSD 1To/Anagnosis/traduction-en/fichier-test/concepts-fr-en.json`. Il répète `bonne_reponse` et `statut` dans `en` ; le pipeline peut cesser de le faire.
+
+## Règles
+1. **Interrupteur client** : `Langue.langueDesFiches` reste `FR` par défaut (`langueDesFichesForcee` pour les tests). Tant qu'il vaut FR, l'app se comporte à l'identique, même si le fichier porte `en`. Passer à « suit la langue de l'interface » sera une ligne, décidée plus tard par Arnaud : NE PAS la changer.
+2. **Modèle** : `Concept` reçoit `en` (iOS : décodé via `Tolere<>`, forme brute EN **à part** de `QuizBrut` : `bonne_reponse` facultative ; Android : lire `en` comme `JsonElement` puis décoder sous `runCatching`, `ConceptEn` **sans valeur par défaut** sur les champs obligatoires). Un `en` illisible ne rejette JAMAIS la fiche : elle reste française.
+3. **Garde client unique et pure** (`Concept.traductionSure` ou équivalent, même logique des deux côtés, miroir exact) : l'anglais n'est servi que si (a) tous les textes obligatoires sont non vides après trim ; (b) même cas citation/repère que le français ; carte présente ssi présente en français ; (c) même nombre de questions (`quiz` + `quiz_supplementaire`), même nombre de choix par question — **compté sur le JSON brut du français, puis en retirant les mêmes positions que celles que le décodage français retire** (iOS retire les quiz dont `bonne_reponse` est hors bornes, Android ne retire rien : aligner Android sur iOS ou documenter) ; (d) si `bonne_reponse` ou `statut` sont présents dans `en` et diffèrent du français : fiche refusée. Sinon : fiche entièrement française, jamais de mélange.
+4. **Résolution** : fonction pure `Concept.dans(langue)` (dans `Corpus/` iOS, `core` Android). Superpose les textes EN (titre, accroche, corps, citation/repère texte+auteur+source, carte, liens titre+note, quiz question/choix/explication). **Toujours du français** : `bonneReponse`, statut, **toutes les url** (v1), audio, durée, discipline, thème, niveau, sources, illustration. `langueServie` = `.en` ou `.fr`. Le concept résolu n'a plus `en` (égalité/hash sur le reste + `langueServie`). iOS : analyser le corps anglais en blocs au décodage (comme le français), pas à chaque accès.
+5. **Un seul point** : le corpus garde un index FR et un index EN construits une fois (iOS `@ObservationIgnored`, indexés par langue ; Android `by lazy` comme `parID`), le dépôt choisit selon `Langue.langueDesFiches`. Pas de cache rempli pendant un `body`. Suite du jour, programme, ordre : toujours construits sur le français (inchangés par la langue). Corriger aussi `conceptAVenir` (iOS DepotEtat ~87-95) et tous les accès directs : iOS `EcranProfil:306`, `Racine:123-125` (Spotlight), `Indexation:25` ; Android `DepotEtat` 255/263/450/468/477, `Notifications:295`, `WidgetCeJourLa:68-96` (le widget doit aussi voir le contenu reçu, comme le reste).
+6. **Écoute par fiche** : `ecouteDisponible(concept)` = `concept.langueServie != .en`. Repères de blocs et phrases (UTF-16) audio : seulement si `langueServie == .fr`. Arrêter l'écoute si on bascule vers l'anglais pendant la lecture d'une fiche qui devient servie en anglais (iOS `Racine.swift:213`, Android `LangueApp.kt:79`). `Offre`/`ContenuSuccesPremium` : inchangés (global).
+7. **Recherche** : suit la langue servie de chaque fiche (matière EN pour une fiche servie en EN), locale non figée à `fr_FR` ; l'index se recalcule au changement de langue. **Spotlight iOS** : réindexer au changement de langue (`Racine:122`, `task(id:)` avec la langue). Notifications/widget : texte pris dans le concept résolu, replanifiés/rafraîchis au changement de langue (déjà le cas, vérifier).
+8. **Android clés de cache** : seuls `EcranLecture.kt` ~152 (blocs : clé sur le contenu servi), ~285 et ~306 dépendent de `langueServie`. Ne PAS changer les clés de ~143/144/158/204 (défilement, impression) ni `EcranQuiz`.
+9. **iOS `appliquerCorpusFrais`** (DepotEtat ~274) : ne compare que le nombre de fiches. Faire aussi suivre `genereLe` à la fusion (`Corpus.swift` ~134-136 le perd) et détecter un changement de contenu (date ou empreinte) ; un fichier régénéré le même jour porte la même date → comparer une empreinte (hash du fichier reçu) ou l'ETag.
+10. **Partages** (carte, PDF, story, impression) : les libellés d'habillage suivent `langueServie` de la fiche partagée. Rester minimal si le code est profond ; noter ce qui est laissé.
+11. Ne pas toucher : `~/.anagnosis/*`, le workflow du dépôt des fiches, `ANAGNOSIS_LANGUES`. Aucune publication, aucun push sur `main`.
+
+## Tests exigés (les deux apps)
+- Décoder le fichier de test réel : zéro rejet, 982 fiches, **433** fiches `traductionSure` des deux côtés ; diff complet des 433 : lister tout écart d'url FR/EN (informatif).
+- Le fichier embarqué actuel : comportement strictement identique à avant (suite des tests existants verte).
+- `en` corrompu/tronqué/vide → fiche française ; quiz à nombre de choix différent → française ; `bonne_reponse` différente → française.
+- Suite du jour identique avec langue forcée FR et EN ; `quiz`/`quiz_supplementaire` : `bonneReponse` du français.
+- Écoute masquée seulement sur une fiche servie en anglais ; bascule de langue en cours d'écoute.
+- Recherche en EN trouve un mot anglais d'une fiche servie en EN.
+
+## Amendements du 22/11/2026 (ce qui a changé depuis la spécification ci-dessus)
+- **Garde plus stricte**, identique des deux côtés (jeu doré commun `test/fixtures/garde-en-doree.json`, 115 cas, lu par les tests des deux apps) : même nombre de liens, note de lien quand le français en a une, `citation.auteur` non vide, présence égale de citation ET de repère, `quiz` présent des deux côtés, `statut` et `bonne_reponse` de `en` stricts (chaîne/entier ou nul ; mal typés = fiche française). Codes de refus communs (`texte_vide:titre`, `nombre_de_liens`, `quiz_principal_different`…). **Divergence connue** : un quiz français à `bonne_reponse` hors bornes est retiré au décodage par iOS, pas par Android (4 cas déclarés `divergence_connue`).
+- **Textes courts servis en anglais** : les paires d'astérisques `*x*` sont retirées (titre, accroche, carte, citation, repère, liens, questions, choix, explications). Le corps garde ses marques. Les routines n'écrivent plus d'astérisques hors de `contenu_vulgarise` (voir `docs/traduction-en.md`).
+- **Guillemets** autour d'une citation servie en anglais : “ ” (au lieu de « »).
+- **Widget Android** : lit toujours l'embarqué seul (risque d'ANR et de mémoire si on fusionnait le reçu dans `onUpdate`), avec la résolution `dans(langue)`.
+- **iOS `appliquerCorpusFrais`** : comportement d'avant tant que `langueDesFiches == .fr` (remplacement seulement si le nombre de fiches change) ; date et empreinte ne comptent qu'en `.en`.
+- **Coût au lancement iOS** (Debug) : embarqué seul +1 ms ; avec un fichier à 433 `en` (16 Mo) +91 ms, fusion +12 ms.
+- **Écoute** : coupée aussi quand la voix est en cours de téléchargement ; garde de défense dans `Ecoute.lire/basculer` (les deux apps).
+
+## Conditions pour LEVER l'interrupteur (décision d'Arnaud) — rien de tout cela n'est fait
+1. **Publier `en` dans le fichier signé du site** (`ANAGNOSIS_LANGUES=fr,en`, avec la politique de drapeaux choisie) AVANT d'activer les apps : un fichier reçu sans `en` écrase l'`en` embarqué (la fusion est fiche par fiche, le reçu gagne).
+2. **Rendre l'interrupteur observable** : `Langue.langueDesFiches` doit lire `Langue.courante` (iOS : `LangueStockage` ; Android : état Compose), sinon les `onChange`/`task(id:)` de `Racine` et `EcranArchive` (iOS), la recomposition (Android) ne réagissent pas.
+3. **Décisions produit** : politique des drapeaux (par défaut 347 fiches sûres ; 421 en tolérant `citation-traduite`) ; écoute dans l'offre Premium en interface anglaise (aujourd'hui l'offre est globale) ; listes mixtes (549/982 fiches encore françaises : titres d'archive, rappel, révision en deux langues) ; sources laissées en français ; lancement externe (TestFlight public, test fermé Play) ; « 1 JOUR OFFERTS » (français).
+4. **Vérifier sur appareil réel** : widget, notifications, Spotlight iOS, petit écran, story vidéo, `ACTION_LOCALE_CHANGED`.
