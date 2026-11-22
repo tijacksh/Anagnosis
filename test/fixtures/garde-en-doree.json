@@ -20,6 +20,7 @@
   "quiz_bonne_reponse": "bonne reponse du quiz principal servi par dans(en), null s'il n'y en a pas",
   "urls_servies": "url de l'appui (citation sinon repere) puis des liens, dans dans(en) : toujours celles du francais",
   "nb_questions_servies": "nombre de questions (quiz + quiz_supplementaire) de dans(en)",
+  "textes_servis": "facultatif : textes courts servis par dans(en) (accroche, corps, appui_texte, appui_auteur, appui_source, carte_punch, carte_idee, carte_source_courte, lien_titre, lien_note, lien2_titre, lien2_note, quiz_question, quiz_choix, quiz_explication, quiz2_question, quiz2_choix) ; les marques d'italique *x* y sont retirees, sauf du corps",
   "divergence_connue": "{raison, ios?, android?} : valeurs par plateforme qui remplacent `attendu` ; chaque app assert la sienne, pour casser le jour ou le comportement change"
  },
  "cas": [
@@ -10353,6 +10354,3030 @@
      "https://fr.example/lien"
     ],
     "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_titre",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*The Red Vineyard*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "The Red Vineyard",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_titre_au_milieu",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "On *Plessy v. Ferguson* and after",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "On Plessy v. Ferguson and after",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_deux_paires",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*A* and *B*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "A and B",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_accents",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*L'\u0152uvre au noir*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "L'\u0152uvre au noir",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_asterisque_isole_reste",
+   "note": "Un asterisque seul n'est pas une paire.",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "5 * 3 = 15",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "5 * 3 = 15",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_deux_asterisques_isoles_restent",
+   "note": "Les deux asterisques sont entoures d'espaces : ni ouvrant ni fermant, rien n'est apparie.",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "5 * 3 and 4 * 2",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "5 * 3 and 4 * 2",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_asterisque_non_apparie_reste",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*alone",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "*alone",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_blancs_dedans_reste",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "* x *",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "* x *",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_gras_reste",
+   "note": "Une paire doublee (gras) n'est pas de l'italique : intacte.",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "**Bold** title",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "**Bold** title",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_paire_simple_a_cote_du_gras",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*a* and **b**",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "a and **b**",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_paire_vide_reste",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "** and ****",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "** and ****",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_francais_jamais_touche",
+   "note": "Fiche refusee : le francais est servi tel quel, ast\u00e9risques compris (seul l'anglais est nettoye).",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "*Titre FR*",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*Title EN*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": false,
+    "refus": "presence_differente:carte",
+    "titre_servi_en": "*Titre FR*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_tous_les_champs_courts_sauf_le_corps",
+   "note": "Le corps (contenu_vulgarise) garde ses marques : MarkdownLeger les analyse.",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*T1* EN",
+     "accroche": "Hook on *Plessy v. Ferguson*",
+     "contenu_vulgarise": "Body *kept* EN.\n\n## Heading EN",
+     "repere": {
+      "texte": "*Landmark* text EN",
+      "source": "Source *Landmark* EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "*Punch* EN",
+      "idee": "Idea *EN* one",
+      "source_courte": "*Short* EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link *EN*",
+       "url": "https://en.example/lien",
+       "note": "Note *EN*"
+      }
+     ],
+     "quiz": {
+      "question": "Which is *Plessy v. Ferguson*?",
+      "choix": [
+       "*A* EN",
+       "B *EN*",
+       "C EN"
+      ],
+      "explication": "Because *Plessy* EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "T1 EN",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2,
+    "textes_servis": {
+     "accroche": "Hook on Plessy v. Ferguson",
+     "corps": "Body *kept* EN.\n\n## Heading EN",
+     "appui_texte": "Landmark text EN",
+     "appui_source": "Source Landmark EN",
+     "carte_punch": "Punch EN",
+     "carte_idee": "Idea EN one",
+     "carte_source_courte": "Short EN",
+     "lien_titre": "Link EN",
+     "lien_note": "Note EN",
+     "quiz_question": "Which is Plessy v. Ferguson?",
+     "quiz_choix": [
+      "A EN",
+      "B EN",
+      "C EN"
+     ],
+     "quiz_explication": "Because Plessy EN."
+    }
+   }
+  },
+  {
+   "nom": "italique_citation",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "Title EN",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ],
+     "citation": {
+      "texte": "*Quote* EN",
+      "auteur": "*Author* EN",
+      "source": "Source *Quote* EN",
+      "url": "https://en.example/citation"
+     }
+    },
+    "citation": {
+     "texte": "Citation FR",
+     "auteur": "Auteur FR",
+     "source": "Source de la citation FR",
+     "url": "https://fr.example/citation"
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "Title EN",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/citation",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2,
+    "textes_servis": {
+     "appui_texte": "Quote EN",
+     "appui_auteur": "Author EN",
+     "appui_source": "Source Quote EN"
+    }
+   }
+  },
+  {
+   "nom": "italique_limite_a_deux_asterisques_colles",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*a**b*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "*a**b*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_triple",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "***x***",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "***x***",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_intra_mot",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "a*b*c",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "abc",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_saut_de_ligne_dans_la_paire",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*a\nb*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "a\nb",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_ferme_par_un_troisieme",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*a*b*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "ab*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_espace_insecable_apres_ouvrant",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*\u00a0x*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "*\u00a0x*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_espace_insecable_avant_fermant",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*x\u00a0*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "*x\u00a0*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_espace_apres_ouvrant",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "* x*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "* x*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_espace_avant_fermant",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*x *",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "*x *",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_limite_deux_paires_collees",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "*a**b*c*d*",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "Landmark EN",
+      "source": "Landmark source EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "Question EN ?",
+       "choix": [
+        "Choice EN 1",
+        "Choice EN 2",
+        "Choice EN 3",
+        "Choice EN 4"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "*a**bcd*",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien"
+    ],
+    "nb_questions_servies": 2
+   }
+  },
+  {
+   "nom": "italique_repere_et_liens_suivants",
+   "concept": {
+    "id": "bio-garde-001",
+    "slug": "bio-garde-001",
+    "titre": "Titre FR",
+    "accroche": "Accroche FR",
+    "discipline": "biologie",
+    "niveau": "introductif",
+    "duree_lecture_min": 3,
+    "contenu_vulgarise": "Corps FR.\n\n## Intertitre FR\n\nSuite FR.",
+    "repere": {
+     "texte": "Repere FR",
+     "source": "Source du repere FR",
+     "url": "https://fr.example/repere"
+    },
+    "carte": {
+     "punch": "Punch FR",
+     "idee": "Idee FR",
+     "source_courte": "Source FR"
+    },
+    "sources": [
+     {
+      "type": "livre",
+      "titre": "Source FR",
+      "auteur": "Auteur FR",
+      "url": "https://fr.example/source"
+     }
+    ],
+    "pour_aller_plus_loin": [
+     {
+      "titre": "Lien FR",
+      "url": "https://fr.example/lien",
+      "note": "Note FR"
+     },
+     {
+      "titre": "Lien 2 FR",
+      "url": "https://fr.example/lien2",
+      "note": "Note 2 FR"
+     }
+    ],
+    "quiz": {
+     "question": "Question FR ?",
+     "choix": [
+      "Choix FR 1",
+      "Choix FR 2",
+      "Choix FR 3"
+     ],
+     "bonne_reponse": 1,
+     "explication": "Explication FR.",
+     "statut": "valide"
+    },
+    "quiz_supplementaire": [
+     {
+      "question": "Question FR ?",
+      "choix": [
+       "Choix FR 1",
+       "Choix FR 2",
+       "Choix FR 3",
+       "Choix FR 4"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication FR."
+     }
+    ],
+    "en": {
+     "titre": "Title EN",
+     "accroche": "Hook EN",
+     "contenu_vulgarise": "Body EN.\n\n## Heading EN\n\nSecond EN.",
+     "repere": {
+      "texte": "*Landmark* EN",
+      "source": "*Source* EN",
+      "url": "https://en.example/repere"
+     },
+     "carte": {
+      "punch": "Punch EN",
+      "idee": "Idea EN",
+      "source_courte": "Source EN"
+     },
+     "pour_aller_plus_loin": [
+      {
+       "titre": "Link EN",
+       "url": "https://en.example/lien",
+       "note": "Note EN"
+      },
+      {
+       "titre": "Link 2 *EN*",
+       "url": "https://en.example/lien2",
+       "note": "Note 2 *EN*"
+      }
+     ],
+     "quiz": {
+      "question": "Question EN ?",
+      "choix": [
+       "Choice EN 1",
+       "Choice EN 2",
+       "Choice EN 3"
+      ],
+      "explication": "Explanation EN.",
+      "bonne_reponse": 1,
+      "statut": "valide"
+     },
+     "quiz_supplementaire": [
+      {
+       "question": "*Q2* EN ?",
+       "choix": [
+        "*a* EN",
+        "b EN",
+        "c EN",
+        "d EN"
+       ],
+       "explication": "Explanation EN.",
+       "bonne_reponse": 2
+      }
+     ]
+    }
+   },
+   "attendu": {
+    "sure": true,
+    "refus": null,
+    "titre_servi_en": "Title EN",
+    "quiz_bonne_reponse": 1,
+    "urls_servies": [
+     "https://fr.example/repere",
+     "https://fr.example/lien",
+     "https://fr.example/lien2"
+    ],
+    "nb_questions_servies": 2,
+    "textes_servis": {
+     "appui_texte": "Landmark EN",
+     "appui_source": "Source EN",
+     "lien2_titre": "Link 2 EN",
+     "lien2_note": "Note 2 EN",
+     "quiz2_question": "Q2 EN ?",
+     "quiz2_choix": [
+      "a EN",
+      "b EN",
+      "c EN",
+      "d EN"
+     ]
+    }
    }
   }
  ]
