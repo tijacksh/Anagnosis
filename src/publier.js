@@ -23,6 +23,7 @@ import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
 import { empreinteAudio, lireIndex } from './audio.js';
 import { empreinteDecoupage, phrasesParBloc, reperesParBloc } from './surlignage.js';
+import { ajouterAnglais, lireAnglais, optionsDepuisEnv } from './traduction.js';
 
 /** Où la clé privée est cherchée, dans cet ordre. */
 export const CLE_ENV = 'ANAGNOSIS_CLE_PRIVEE';
@@ -115,21 +116,41 @@ function reperes(fiche, chapitres) {
 }
 
 /**
- * Les fiches telles que le client les reçoit.
+ * Les fiches telles que le client les reçoit, et le compte rendu de la garde anglaise.
  *
  * Même projection que `npm run export` : `_path`, `validation`, `meta` et `controle`
  * restent au pipeline. Une seule définition, pour que le fichier téléchargé et le
  * fichier embarqué ne puissent pas diverger de forme.
+ *
+ * ## Les deux langues (éteintes par défaut)
+ *
+ * `ANAGNOSIS_LANGUES=fr,en` ajoute à chaque concept dont la version anglaise est sûre un
+ * objet `en` (voir `src/traduction.js`). Avec « fr » — le défaut —, rien ne change : les
+ * octets produits sont ceux d'avant, et c'est un test. L'audio, les identifiants, les
+ * retraits et la date restent ceux du français seul.
+ *
+ * @param {object} [options]
+ * @param {string[]} [options.langues]   défaut : `ANAGNOSIS_LANGUES`, sinon `['fr']`
+ * @param {object}   [options.index]     l'index audio (défaut : celui du disque)
+ * @param {string}   [options.dossierEn] où lire les fiches anglaises
  */
-export async function fichesPubliables(fiches = null) {
+export async function publication(fiches = null, options = {}) {
+  const reglages = { ...optionsDepuisEnv(), ...options };
   const toutes = fiches ?? (await loadAll());
-  const index = await lireIndex();
-  return toutes
+  const index = options.index ?? (await lireIndex());
+  const publiables = toutes
     .filter((f) => ['valide', 'publie'].includes(f.statut))
     .map(({ _path, validation, meta, controle, ...publique }) => {
       const audio = audioPour(publique, index);
       return audio ? { ...publique, audio } : publique;
     });
+  if (!reglages.langues.includes('en')) return { fiches: publiables, rapport: null };
+  return ajouterAnglais(publiables, await lireAnglais(reglages.dossierEn), reglages);
+}
+
+/** Les fiches seules : ce que `publication` rend, sans le compte rendu. */
+export async function fichesPubliables(fiches = null, options = {}) {
+  return (await publication(fiches, options)).fiches;
 }
 
 /**

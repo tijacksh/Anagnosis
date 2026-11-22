@@ -26,7 +26,8 @@ import { decharger as dechargerMoteur } from './voicestudio.js';
 import { file as fileHeberger, afficher as afficherHeberger, televerserTout } from './heberger.js';
 import { file as fileDroit, afficher as afficherDroit, marquer as marquerDroit } from './droit.js';
 import { cmdExiste, cmdDoublons } from './existe.js';
-import { fichesPubliables, serialiser, retirees } from './publier.js';
+import { publication, serialiser, retirees } from './publier.js';
+import { resumeRapport } from './traduction.js';
 
 const C = {
   reset: '\x1b[0m', dim: '\x1b[2m', bold: '\x1b[1m',
@@ -141,7 +142,7 @@ async function cmdExport() {
   // forme selon qu'elle est embarquée ou reçue par le réseau, et le décodeur du
   // client casserait sur l'une des deux — en clientèle, et seulement chez les gens
   // qui ont déjà téléchargé.
-  const aExporter = await fichesPubliables(resultats.map((r) => r.fiche));
+  const { fiches: aExporter, rapport: rapportAnglais } = await publication(resultats.map((r) => r.fiche));
 
   const dir = path.join(ROOT, 'export');
   await mkdir(dir, { recursive: true });
@@ -150,6 +151,7 @@ async function cmdExport() {
   await writeFile(cible, serialiser(aExporter, sorties));
 
   console.log(c('green', `${aExporter.length} fiche(s) exportée(s) → ${path.relative(ROOT, cible)}`));
+  for (const ligne of resumeRapport(rapportAnglais)) console.log(ligne);
   return 0;
 }
 
