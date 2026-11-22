@@ -1,0 +1,44 @@
+{
+  "id": "phy-rutherford-geiger-marsden-1909-noyau-atomique",
+  "slug": "rutherford-geiger-marsden-1909-noyau-atomique",
+  "langue": "en",
+  "empreinte_fr": "6bc151f1c173e629",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "One Particle in 8,000 Bounces Back: The Gold Foil That Found the Nucleus",
+  "accroche": "Fired at a gold foil, massive particles should never bounce back. Some did, straight back toward their source.",
+  "contenu_vulgarise": "In Manchester, in 1909, Ernest Rutherford assigns Hans Geiger and his student Ernest Marsden a task that looks like a routine check: bombard a thin gold foil with alpha particles, and watch whether a few of them, rarely, bounce backward instead of passing through the foil.\n\n## A Pudding with Plums, and a Projectile Too Heavy for It\n\nThe accepted model of the atom, proposed by J. J. Thomson in 1904, describes a sphere of diffuse positive charge, studded with negative electrons like plums in a pudding. In this model, an alpha particle, far heavier and faster than an electron, should pass through a gold foil almost without deflecting: the positive charge, spread across the atom's whole volume, is never concentrated enough to repel so massive a projectile.\n\nGeiger and Marsden's setup, described in their 1909 paper, is simple. A small glass bulb containing radium emanation (radon) emits alpha particles through a mica opening. A lead plate blocks the direct beam; only particles that bounce off a metal foil, tried in turn in gold, lead, tin, aluminum, copper, silver, iron, and platinum, can reach a fluorescent screen, where each impact produces a small flash.\n\nThe result, with a platinum reflector: about one particle in 8,000 that strikes the foil comes back, some at more than 90 degrees, that is, straight back the way it came.\n\n## A Nucleus Ten Thousand Times Smaller Than the Atom\n\nRutherford takes two years to publish his interpretation, in 1911. Such a bounce-back, he explains, can only result from a single collision with a concentrated, positively charged mass, never from the sum of many tiny deflections through a diffuse cloud. His calculations place this mass in a nucleus whose radius does not exceed one ten-thousandth of the whole atom's, and assign it, for gold, a central positive charge on the order of a hundred elementary units, confirmed as positive two years later.\n\nThomson's pudding fades away, replaced by a tiny, dense nucleus surrounded by vast empty space where the electrons move. Matter that feels solid to the touch turns out, at this scale, to be almost entirely empty: if a gold atom's nucleus were the size of a marble placed at the center of a stadium, the electrons would be orbiting somewhere near the bleachers.\n\nOne question this result does not answer remains: what keeps electrons orbiting a positive charge from collapsing into it? Classical physics has no answer, and it is this question, raised by Rutherford's nucleus, that will open the way, two years later, to Niels Bohr's atomic model.",
+  "citation": null,
+  "repere": {
+    "texte": "In the 1909 experiment, about one alpha particle in 8,000 fired at the metal foil came back toward the screen instead of passing through it, some at more than 90 degrees.",
+    "source": "Geiger, H. & Marsden, E., “On a Diffuse Reflection of the α-Particles,” Proceedings of the Royal Society A, 82 (557), 495-500, 1909",
+    "url": "https://doi.org/10.1098/rspa.1909.0054"
+  },
+  "carte": {
+    "punch": "One particle in 8,000 bounced back where none should have deflected at all",
+    "idee": "In 1909, alpha particles fired at a gold foil should have passed through almost without deflecting, according to the atomic model of the time. One in 8,000 bounced straight back. In 1911, Rutherford deduces a concentrated nucleus, ten thousand times smaller than the atom, surrounded by vast empty space.",
+    "source_courte": "Geiger & Marsden, 1909; Rutherford, 1911"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Rutherford, E., “The Scattering of α and β Particles by Matter and the Structure of the Atom,” Philosophical Magazine, 1911",
+      "url": "https://doi.org/10.1080/14786440508637080",
+      "note": "The paper that proposes the atomic nucleus model, with the full scattering calculation."
+    }
+  ],
+  "quiz": {
+    "question": "Why did the bounce-back observed in 1909 force the abandonment of Thomson's pudding model of the atom?",
+    "choix": [
+      "Because a positive charge spread across the whole atom cannot produce the single impact needed to send a heavy particle back",
+      "Because the 1909 experiment showed that gold atoms contain no electrons at all",
+      "Because alpha particles turned out to be lighter than the electrons in Thomson's pudding",
+      "Because Thomson's model predicted that nearly all alpha particles would bounce straight back"
+    ],
+    "bonne_reponse": 0,
+    "explication": "A charge spread across the atom's whole volume can only deflect a massive projectile very slightly, through many small cumulative nudges; a large deflection angle requires a single collision with a concentrated mass, which only a dense nucleus explains. Gold keeps its electrons, and the pudding model predicted the absence of large bounces, not their near-universality.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}
