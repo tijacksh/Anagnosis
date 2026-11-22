@@ -496,3 +496,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-22 05:58 | reparer | arnaud | RIEN À FAIRE : 1010 fiches en base, aucune en retouche (areparer). Aucune fiche modifiée. git status vide avant le pull, pull --rebase sans conflit. |
 | 2026-11-22 08:03 | questionner | arnaud | RIEN À FAIRE : 982 fiches servies, toutes à au moins 2 questions de plus (aquestionner). Aucune fiche modifiée, aucune signalée. git status vide avant le pull, pull --rebase sans conflit. |
 | 2026-11-22 11:58 | reparer | arnaud | RIEN À FAIRE : 1010 fiches en base, aucune en retouche (areparer). Aucune fiche modifiée. git status vide avant le pull, pull --rebase sans conflit. |
+| 2026-11-22 12:26 | corriger-cartes | arnaud | liste terminée : les 147 fiches signalées figurent toutes au suivi. Aucune fiche modifiée. Désactivation de la routine refusée (approbation requise, run non supervisé) : à désactiver à la main. |
