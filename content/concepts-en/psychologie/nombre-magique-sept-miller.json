@@ -1,0 +1,72 @@
+{
+ "id": "psy-nombre-magique-sept-miller",
+ "slug": "nombre-magique-sept-miller",
+ "langue": "en",
+ "empreinte_fr": "6bb605a591b117bb",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Miller's Magical Number Seven",
+ "accroche": "Seven items in memory, “plus or minus two”: the figure comes from a 1956 paper whose author doubted it himself.",
+ "contenu_vulgarise": "A phone number, a shopping list, a code: everywhere you read that immediate memory holds seven items, “plus or minus two.” The figure comes from an article by George Miller, published in 1956 in *Psychological Review* under the title “The Magical Number Seven, Plus or Minus Two.” In the text itself, the phrase “plus or minus two” appears only once: in the title.\n\n## The Mechanism\n\nMiller begins by saying that he is being followed around by an integer. The same order of magnitude keeps coming back to him in measurements that have nothing to do with one another. When someone is asked to identify an isolated sound with no point of comparison, the channel capacity, that is, the number of categories one can tell apart, is about 2.5 bits for pitch according to Pollack. One bit separates two equally likely alternatives, two bits separate four: 2.5 bits make roughly six alternatives. For loudness, Garner finds 2.3 bits. For immediate memory, the span is about seven items, across many different materials.\n\nBut Miller carefully separates the two limits. Absolute judgment is limited by the amount of information; immediate memory is limited by the number of items. His example is precise: people repeat back eight decimal digits, but only nine binary digits. A binary digit carries far less information than a decimal digit, and yet the span stays of the same order. What matters, then, is not the total information, but the number of packets, or *chunks*, to which it is reduced.\n\nThe chunk is made by recoding. Miller describes a string of binary digits grouped in pairs, then renamed (00 becomes 0, 01 becomes 1, 10 becomes 2, 11 becomes 3): one remembers half as many items for the same information. In the example he reports, the twelve chunks the subject retains represent 24 binary digits with recoding by twos, 36 with recoding by threes, then about 40 with recoding by fours and fives. He sees in recoding an extremely powerful means of increasing the information one can process, and admits that one is imprecise about what constitutes a chunk.\n\n## What This Shifts\n\nSeven was not, in the text, a constant of nature. Miller does not settle the matter: he suspects that these “sevens” everywhere are only a coincidence, which he calls Pythagorean and pernicious.\n\nIn 2001, Nelson Cowan took up the question in *Behavioral and Brain Sciences*. He writes that Miller's number was more of a rough estimate and a rhetorical device than a true capacity limit, recalls that others had proposed a limit of three to five chunks, and defends, with data, a central limit of about four chunks. The abstract of the article lists four conditions in which this limit is observed, and distinguishes “pure” limits from “compound” limits: the figure does not read as “we remember four things” under all circumstances.\n\nThe figure that circulated is the easiest to remember, not the best established. Miller, however, had put something else at the center, the chunk, and acknowledged that he did not know how to define it precisely. What, exactly, makes a chunk?",
+ "citation": null,
+ "repere": {
+  "texte": "Cowan (2001) recalls that Miller's number seven was a rough estimate and a rhetorical device more than a true capacity limit, and defends, with data, a limit of about four chunks.",
+  "source": "Cowan, “The magical number 4 in short-term memory: A reconsideration of mental storage capacity,” Behavioral and Brain Sciences, 24(1), 87-114, 2001",
+  "url": "https://doi.org/10.1017/S0140525X01003922"
+ },
+ "carte": {
+  "punch": "“Seven, plus or minus two”: in Miller's article, the phrase appears only in the title.",
+  "idee": "In 1956, George Miller finds about seven items in immediate memory and wonders whether it is not a coincidence. In 2001, Nelson Cowan instead defends a limit of about four chunks. What matters is not the information, but the number of chunks.",
+  "source_courte": "Miller 1956 · Cowan 2001"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What is the link, in Miller, between the limit of immediate memory and the amount of information?",
+  "choix": [
+   "Immediate memory holds about seven bits of information, whatever the material",
+   "The more information an item carries, the fewer items one retains: the span drops with the number of bits per item",
+   "Immediate memory is limited by the number of items, which recoding can make richer in information",
+   "Immediate memory and absolute judgment have the same limit, because both are bounded by information"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Miller contrasts absolute judgment, limited by information, with immediate memory, limited by the number of items. Eight decimal digits versus nine binary digits show that the span is not measured in bits and does not drop when each item carries more; recoding into chunks makes it possible to retain far more.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to Miller, what is the channel capacity observed for absolute judgment of the pitch of a sound, based on Pollack's measurements?",
+   "choix": [
+    "About 2.5 bits, or roughly six distinguishable categories",
+    "About seven bits, the same order of magnitude as the memory span",
+    "About 2.3 bits, the value Garner found for loudness",
+    "About four bits, the central limit later defended by Cowan"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Pollack finds a channel capacity of about 2.5 bits for the pitch of an isolated sound, or roughly six categories one can tell apart without a point of comparison."
+  },
+  {
+   "question": "In the recoding example Miller gives, how many binary digits do the subject's twelve chunks represent with recoding in pairs?",
+   "choix": [
+    "36 binary digits",
+    "24 binary digits",
+    "40 binary digits",
+    "9 binary digits"
+   ],
+   "bonne_reponse": 1,
+   "explication": "With recoding by twos, the twelve chunks the subject retains represent 24 binary digits; recoding by threes brings it to 36, and by fours or fives to about 40."
+  },
+  {
+   "question": "What does Nelson Cowan defend in 2001, taking up Miller's work on immediate memory?",
+   "choix": [
+    "That the memory span is indeed seven items, but only for verbal material",
+    "That recoding into chunks is a myth, and that only information in bits matters",
+    "That Miller had underestimated the limit, which would in fact be eight to nine chunks",
+    "That a central limit of about four chunks describes short-term memory better"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Cowan takes up the question in 2001 and defends, with data, a central limit of about four chunks, rather than Miller's seven."
+  }
+ ]
+}

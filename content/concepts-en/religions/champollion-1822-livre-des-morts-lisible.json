@@ -1,0 +1,88 @@
+{
+ "id": "rel-champollion-1822-livre-des-morts-lisible",
+ "slug": "champollion-1822-livre-des-morts-lisible",
+ "langue": "en",
+ "empreinte_fr": "8190343955e7f056",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Champollion's text is in French and was translated here faithfully; no published English translation was retrieved (no web lookup in this pass). The url still points to the French source on Wikisource."
+  },
+  {
+   "chemin": "quiz/choix",
+   "type": "erreur-possible-fr",
+   "note": "In the French, choices 3 and 4 of the main quiz open with a “because” clause (“Parce que…”) although the question asks what Champollion establishes in the Précis, so they do not read as answers to it. Rendered as in the French, not corrected."
+  }
+ ],
+ "titre": "The Rosetta Stone, or How a Religious Text Becomes Readable Again",
+ "accroche": "In 1822, Champollion identifies the phonetic hieroglyphs. Two years later, he describes a system that mixes three kinds of signs.",
+ "contenu_vulgarise": "In 1799, French soldiers found near Rosetta, in the Nile delta, a stele carved with the same decree in three scripts: hieroglyphic, demotic, and Greek. For more than twenty years, it circulated among European scholars without yielding its secret: Greek could be read, which offered a foothold for the other two scripts, but no one could read ancient Egyptian anymore.\n\n## A System, Not a Code\n\nThe Briton Thomas Young identified, in 1814, phonetic signs spelling the name of Ptolemy in the hieroglyphic text of the stone, without going any further. Jean-François Champollion picked up this thread. On the obelisk of Philae, two cartouches follow one another: one contains the name of Ptolemy, the second that of a queen, Cleopatra. He could thus compare the signs of two different names. On September 27, 1822, he read before the Académie des Inscriptions et Belles-Lettres (Academy of Inscriptions and Letters) his *Lettre à M. Dacier* (Letter to M. Dacier), published the same year by Firmin-Didot, in a booklet of 44 pages and four plates: it is the founding text of the systematic decipherment of hieroglyphs.\n\n## What This Shifts\n\nThe *Lettre à M. Dacier* concerns the alphabet of the phonetic hieroglyphs. It is two years later, in his *Précis du système hiéroglyphique des anciens Égyptiens* (Summary of the Hieroglyphic System of the Ancient Egyptians, 1824), that Champollion formulates the overall result: hieroglyphic writing is a complex system, at once figurative, symbolic, and phonetic, sometimes within the same word. In the same passage, he rules out two simpler explanations: a script that is entirely ideographic, proceeding only through a mix of figurative and symbolic signs, and a script that is entirely phonetic. There is therefore more than an alphabet to recover: an Egyptian text mixes several ways of notation, and one must learn to recognize which is at work in each sign.\n\nIt is this framework that gradually makes Egyptian religious texts accessible in their own words, and no longer only through their decoration or through what the authors of Antiquity said about them. The collection that Egyptologists call the Book of the Dead, formulas meant to accompany the deceased into the afterlife, is part of it: it is read today in translation, such as the one Wallis Budge gave in English.\n\nThe work remains shared between two men: Young had seen that one had to look for sound in the signs; Champollion draws a system from it.",
+ "citation": {
+  "texte": "Hieroglyphic writing is a complex system, a script that is at once figurative, symbolic, and phonetic, in a single text, a single sentence, I would almost say in a single word.",
+  "auteur": "Jean-François Champollion",
+  "source": "Précis du système hiéroglyphique des anciens Égyptiens (Summary of the Hieroglyphic System of the Ancient Egyptians), Chapter IX, 1824",
+  "url": "https://fr.wikisource.org/wiki/Pr%C3%A9cis_du_syst%C3%A8me_hi%C3%A9roglyphique_des_anciens_%C3%89gyptiens/Chapitre_IX"
+ },
+ "repere": {
+  "texte": "The Lettre à M. Dacier, read by Champollion on September 27, 1822 before the Académie des Inscriptions et Belles-Lettres (Academy of Inscriptions and Letters), was published the same year by Firmin-Didot in a booklet of 44 pages and four plates.",
+  "source": "Wikipedia entry “Lettre à M. Dacier”",
+  "url": "https://en.wikipedia.org/wiki/Lettre_%C3%A0_M._Dacier"
+ },
+ "carte": {
+  "punch": "A bilingual stone from 1799 opens the way to reading Egyptian religious texts.",
+  "idee": "The Rosetta Stone (1799) bears the same text in hieroglyphs, demotic, and Greek. Young spots phonetic signs in it in 1814; Champollion draws the decipherment from it in 1822, then describes in 1824 a system that is at once figurative, symbolic, and phonetic.",
+  "source_courte": "Champollion, Précis, 1824"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does Champollion establish about hieroglyphic writing in his 1824 Précis?",
+  "choix": [
+   "That the Rosetta Stone directly gives a complete French translation of the hieroglyphs",
+   "That it is at once figurative, symbolic, and phonetic, sometimes within a single word",
+   "Because Thomas Young alone discovers the entire phonetic system in 1814",
+   "Because the Coptic Church preserves a continuous oral tradition of reading hieroglyphs"
+  ],
+  "bonne_reponse": 1,
+  "explication": "In the 1824 Précis, Champollion describes hieroglyphic writing as a complex system, at once figurative, symbolic, and phonetic, sometimes within the same word. Neither the Rosetta Stone (which gives no French translation), nor Young alone, nor a Coptic oral tradition supplied it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What clue does Champollion use to test the phonetic reading of the signs?",
+   "choix": [
+    "The comparison of the names of Ptolemy and Cleopatra in two different cartouches",
+    "An Egyptian-Greek dictionary found in Alexandria",
+    "The oral testimony of contemporary Coptic priests",
+    "A medieval Latin translation preserved in the Vatican"
+   ],
+   "bonne_reponse": 0,
+   "explication": "On the obelisk of Philae, two cartouches follow one another: one contains the name of Ptolemy, the second that of a queen, Cleopatra. Champollion thus compares the signs of two different names; no ancient dictionary, oral testimony, or Vatican document is involved."
+  },
+  {
+   "question": "What is the Rosetta Stone, found in 1799 in the Nile delta?",
+   "choix": [
+    "A papyrus scroll containing the entire Book of the Dead",
+    "A stele carved with the same decree in three scripts, hieroglyphic, demotic, and Greek",
+    "A list of Egyptian pharaohs translated into Latin by Coptic monks",
+    "The carved plan of the temple of Philae and its obelisk"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The stele bears the same decree carved in three scripts, hieroglyphic, demotic, and Greek, which provides a foothold through Greek, the only script still readable at the time. It is neither a papyrus of the Book of the Dead, nor a list of pharaohs, nor a temple plan."
+  },
+  {
+   "question": "Which simpler explanations does Champollion rule out, in the 1824 Précis, to describe hieroglyphic writing?",
+   "choix": [
+    "That it was invented by the Greek scribes of Alexandria",
+    "That it was only ever used for decorative purposes on temples",
+    "That it is entirely ideographic or entirely phonetic",
+    "That it derives directly from the demotic alphabet"
+   ],
+   "bonne_reponse": 2,
+   "explication": "In the Précis, Champollion rules out two simpler explanations: a script that is entirely ideographic, mixing only figurative and symbolic signs, and a script that is entirely phonetic. The other three propositions do not appear in his reasoning."
+  }
+ ]
+}
