@@ -9,8 +9,13 @@
   "drapeaux": [
     {
       "chemin": "citation.texte",
-      "type": "texte-officiel-a-verifier",
-      "note": "Citation déjà en anglais dans la fiche française (contrôlée mot pour mot à Cornell LII lors des contrôles) ; recopiée telle quelle. Le web n'était pas accessible pendant cette passe : à re-confirmer sur https://www.law.cornell.edu/supremecourt/text/32/243. La citation du corps du texte reprend ses mots."
+      "type": "citation-originale-anglaise",
+      "note": "Original English text of the opinion, already quoted verbatim in the French entry and checked word for word against Cornell LII (https://www.law.cornell.edu/supremecourt/text/32/243). The body text quotes the same words."
+    },
+    {
+      "chemin": "accroche",
+      "type": "erreur-possible-fr",
+      "note": "The French teaser calls Barron an \"armateur\" (shipowner), while the French body and the card describe him as the owner of a wharf (\"propriétaire de quai\"). The English follows the body (\"wharf owner\"); the French teaser is inexact."
     }
   ],
   "titre": "The Bill of Rights Applied Only to the Federal Government, Not the States",
