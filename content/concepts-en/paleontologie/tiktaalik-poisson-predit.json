@@ -1,0 +1,84 @@
+{
+ "id": "pal-tiktaalik-predit",
+ "slug": "tiktaalik-poisson-predit",
+ "langue": "en",
+ "empreinte_fr": "b77ea18e3a59c6aa",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says the team went “every summer starting in 2000” and that the find came in 2004 “at the end of the fourth expedition” (the repere and the share card also say “four summers” from 2000 to 2004), but 2000 to 2004 inclusive is five summers. Rendered as in the French, not corrected."
+  }
+ ],
+ "titre": "A Fish Found Because It Had Been Predicted",
+ "accroche": "Rather than digging at random, a team searches a geological map for where the missing link between fish and tetrapod should be.",
+ "contenu_vulgarise": "In the late 1990s, the paleontologist Neil Shubin and his colleagues Edward Daeschler and Farish Jenkins start from a precise problem: the fossil record documents lobe-finned fishes dated to about 380 million years ago, and tetrapods already equipped with legs around 365 million years ago, but almost nothing in between. Rather than searching at random in already known deposits, the team reasons backward. It wants sedimentary rocks deposited in fresh water, dated to the exact time that separates these two groups, and not too transformed by later geology, so that the fossils remain legible. Consulting geological maps of the Canadian High Arctic, they spot a suitable formation on Ellesmere Island, in Nunavut, about 966 kilometers from the North Pole, an icy, hard-to-reach territory where almost no one had ever looked for fossils of this age.\n\n## Four Summers of Digging Before the Find\n\nThe team goes there every summer starting in 2000. The work is slow: the field season lasts barely a few weeks, access requires a light aircraft, and the outcropping rock has to be cleared block by block. It is only in 2004, at the end of the fourth expedition, that a member of the team spots the first bones sticking out of a rock wall. The fossils that come out of it, several individuals, one of them very well preserved, belong to a fish about two meters long, dated to about 375 million years ago: exactly within the targeted time window.\n\n## Neither Quite Fish, Nor Quite Tetrapod\n\nThe animal is christened *Tiktaalik roseae*, from the Inuktitut word for a large freshwater fish, chosen with elders of the local community. It still has scales and fins, but its skull has flattened like a crocodile's, its neck detaches from the rest of the body for the first time in a known fish, and its sturdier rib cage suggests an animal able to support its own weight. Above all, the anatomical description of the pectoral fin, published in 2006 in the journal *Nature*, shows that it contains bones arranged in a pattern comparable to the humerus, radius, ulna and even wrist bones of a tetrapod, a fin that prefigures an arm without yet being one.\n\n## What a Verified Prediction Changes\n\nBeyond a new piece of comparative anatomy, this discovery demonstrates that a precise prediction, based on the age and type of a rock, can point in advance to the place where a still unknown fossil must be found. The theory of evolution was not content here with explaining after the fact what had been found by chance; it said where to look, and the team found exactly what had been announced: the scientific method tested on itself, and validated by a shovel.",
+ "citation": null,
+ "repere": {
+  "texte": "It took four summers of digging, from 2000 to 2004, on Ellesmere Island about 966 km from the North Pole, before the team found the first bones of Tiktaalik roseae, dated to about 375 million years ago, exactly the age targeted by their search.",
+  "source": "Shubin, Daeschler & Jenkins, Nature, 2006",
+  "url": "https://doi.org/10.1038/nature04637"
+ },
+ "carte": {
+  "punch": "They found this fish because they had predicted where it should be.",
+  "idee": "Rather than digging at random, a team searches geological maps for a rock 375 million years old, deposited in fresh water, where the missing link between fish and tetrapod should exist. Four summers later, they find Tiktaalik roseae.",
+  "source_courte": "Shubin, Daeschler & Jenkins, Nature, 2006"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Tiktaalik - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tiktaalik",
+   "note": "Overview of the transitional anatomical features and of the three dated specimens (375, 379 and 383 million years old)."
+  }
+ ],
+ "quiz": {
+  "question": "What makes the discovery of Tiktaalik particularly convincing as scientific evidence, beyond its anatomy?",
+  "choix": [
+   "The fossil is the largest ever found from this period",
+   "The team predicted, before digging, the place and age where such an animal should be found",
+   "It is the first fossil ever discovered in the Canadian Arctic",
+   "The animal was found with its internal organs fossilized"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Neither the size of the fossil nor the place of the discovery makes the demonstration. What matters is that the team targeted a precise rock, the right age, the right depositional environment, before even digging. Finding exactly what had been predicted strengthens the tested theory far more than a chance find.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where did the team of Shubin, Daeschler and Jenkins choose to search, and why?",
+   "choix": [
+    "On Ellesmere Island, in Nunavut, spotted in advance on geological maps",
+    "In already explored deposits, simply digging deeper than before",
+    "In Antarctica, where the icy climate preserves fossils exceptionally well",
+    "In the Gobi Desert, long known for its deposits of ancient vertebrates"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Rather than digging at random, the team searched geological maps for a freshwater sedimentary rock of the right age and little transformed, and spotted it on Ellesmere Island, in Nunavut."
+  },
+  {
+   "question": "What anatomical features distinguish Tiktaalik roseae from the lobe-finned fishes that preceded it?",
+   "choix": [
+    "A total and permanent absence of scales and of any visible fin",
+    "A body size ten times greater than that of known contemporary fishes",
+    "A flattened skull, a neck detached from the body, and a sturdier rib cage",
+    "Lungs as developed and functional as those of living tetrapods"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Tiktaalik still has scales and fins, but its skull flattens, its neck detaches from the body for the first time in a known fish, and its sturdier rib cage suggests an animal able to support its own weight."
+  },
+  {
+   "question": "Where does the name Tiktaalik given to this fossil come from?",
+   "choix": [
+    "From the name of the paleontologist who spotted the first bones in 2004",
+    "From an Inuktitut word for a large freshwater fish",
+    "From a scientific abbreviation drawn from the Latin word for tetrapods",
+    "From the name given to Ellesmere Island in an old Scandinavian language"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The animal is christened from the Inuktitut word for a large freshwater fish, a name chosen with elders of the local Nunavut community where it was found."
+  }
+ ]
+}
