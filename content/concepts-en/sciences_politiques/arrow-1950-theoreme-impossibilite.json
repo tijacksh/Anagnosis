@@ -1,0 +1,67 @@
+{
+ "id": "pol-arrow-1950-theoreme-impossibilite",
+ "slug": "arrow-1950-theoreme-impossibilite",
+ "langue": "en",
+ "empreinte_fr": "8f83cd4aeca7ccfe",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "The Nobel Prize citation is an English text, but it is translated here from the French quotation; the published English wording on the Nobel Prize page was not retrieved (original not retrieved). To be replaced by the exact published citation."
+  }
+ ],
+ "titre": "Arrow's Theorem (1950–1951): What It Really Says About Voting",
+ "accroche": "Arrow's theorem does not prove that no vote is fair: it shows that a collective ranking is impossible under four precise conditions.",
+ "contenu_vulgarise": "Arrow's theorem is sometimes summed up like this: “there is no fair voting system.” The phrase makes a good conference title and a bad summary. The result is narrower, and that narrowness is what makes it interesting.\n\n## A Difficulty, Published in 1950\n\nThe American economist Kenneth Arrow first presents it in a 1950 article, “A Difficulty in the Concept of Social Welfare,” published in the *Journal of Political Economy*, then develops it in a 1951 book, *Social Choice and Individual Values*. The original question is one of welfare economics: can a coherent ranking of options for society be derived from each person's preferences?\n\n## The Mechanism\n\nImagine that each voter ranks options, from most preferred to least liked. We look for a rule that turns all these individual rankings into a single collective ranking. Arrow asks what such a rule must respect, and retains four reasonable conditions.\n\nThe first, unrestricted domain, requires the rule to work whatever the voters' rankings. The second, Pareto efficiency, holds that if everyone prefers A to B, so does society. The third, independence of irrelevant alternatives, requires that the collective ranking between A and B depend only on how each person ranks A and B, and not on a third option C. The fourth, non-dictatorship, forbids a single voter from always imposing his ranking.\n\nThe theorem states that, as soon as there are at least three options, no rule satisfies all four conditions at once. The underlying idea goes back to the Condorcet paradox: a majority can prefer A to B, B to C, and C to A, so that the “ranking of society” goes in circles.\n\n## The Shift\n\nThe trap is to read the impossibility as a condemnation of democracy. It concerns a class of rules, those that use only ordinal rankings, and four requirements each of which can be debated. If one gives up one of them, for example by letting voters score the options rather than rank them, the theorem no longer applies as is: this is what contemporary presentations stress, noting that scoring systems escape its statement.\n\nIt also holds for many things other than voting: any procedure that aggregates ordinal preferences, in a market, an assembly, or a constitution, falls within its scope. Arrow received the Nobel Prize in economics in 1972, together with John Hicks, for his contributions to the theory of general economic equilibrium and to welfare theory.\n\nWhat the theorem imposes is a choice: to give up a condition, and to know which one, rather than look for a perfect rule that does not exist. It remains to be seen which of the four one agrees to sacrifice.",
+ "citation": null,
+ "repere": {
+  "texte": "In 1972, Kenneth J. Arrow received the Nobel Prize in economics, together with John R. Hicks, “for their pioneering contributions to general economic equilibrium theory and welfare theory.”",
+  "source": "Nobel Prize Outreach, “The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 1972”",
+  "url": "https://www.nobelprize.org/prizes/economic-sciences/1972/summary/"
+ },
+ "carte": {
+  "punch": "Arrow does not prove that no vote is fair: he targets rankings.",
+  "idee": "Arrow shows that, with at least three options, no rule that turns individual rankings into a collective ranking respects unrestricted domain, Pareto efficiency, independence of irrelevant alternatives, and non-dictatorship all at once. He does not target scoring-based voting.",
+  "source_courte": "Arrow, J. Polit. Econ., 1950"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What exactly does Arrow's theorem demonstrate?",
+  "choix": [
+   "That no voting system, whatever it is, can be considered fair",
+   "That representative democracy can never produce a stable majority, whatever the number of options",
+   "That simple majority voting is always worse than voting by ranking preferences",
+   "That with three or more options, no rule for aggregating rankings respects four conditions"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The result is limited: it concerns the aggregation of rankings and four given conditions, and it does not compare systems with one another. It condemns neither democracy nor voting in general, and leaves open rules that fall outside the framework, such as scoring.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which older paradox lies at the origin of the idea developed by Arrow's theorem?",
+   "choix": [
+    "Zeno's paradox of impossible motion",
+    "Russell's paradox of sets that contain themselves",
+    "Simpson's paradox of reversed correlations",
+    "The Condorcet paradox, in which a majority goes in circles among three options"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text links the theorem to the Condorcet paradox: a majority can prefer A to B, B to C, and C to A, so that the collective ranking goes in circles without ever settling."
+  },
+  {
+   "question": "Which condition forbids a single voter from always imposing his ranking on society?",
+   "choix": [
+    "Non-dictatorship",
+    "Unrestricted domain",
+    "Pareto efficiency",
+    "Independence of irrelevant alternatives"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Non-dictatorship is the fourth condition retained by Arrow: it forbids a single voter from systematically imposing his own ranking on the whole of society."
+  }
+ ]
+}
