@@ -1,0 +1,85 @@
+{
+  "id": "phy-decalage-vers-le-rouge",
+  "slug": "decalage-vers-le-rouge",
+  "langue": "en",
+  "empreinte_fr": "23d56038915ac597",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Lemaître's text is in French and no published English translation of this passage was retrieved; translated faithfully from the French (original not retrieved)."
+    }
+  ],
+  "titre": "Redshift",
+  "accroche": "Distant galaxies are moving away from us. But it is not a Doppler effect, and the nuance changes everything.",
+  "contenu_vulgarise": "In 1929, Edwin Hubble publishes a disturbing observation: almost all galaxies are moving away from us, and the farther away they are, the faster they recede. The signature is spectral: the light reaching us is shifted toward longer wavelengths, toward the red.\n\nThe immediate reading is Doppler: galaxies would be streaking through space, like cosmic ambulances. That is the image people retain everywhere. It describes poorly what is happening.\n\n## What the Reddening Records\n\nTwo years earlier, in 1927, the Belgian canon and physicist Georges Lemaître had drawn from Einstein's equations a conclusion no one expected: the universe cannot be static, it is expanding. He had even estimated the rate of this expansion from the available data, in a paper published in French, in a little-read Brussels journal, and long left ignored.\n\nIn this framework, distant galaxies do not travel through space to move away from us. It is the space between them and us that stretches. Light emitted billions of years ago has traveled through a space that was growing during its entire journey, and its wavelength has grown with it. Redshift therefore does not record a speed: it records by how much the universe has expanded since the emission.\n\n## Why It Is Not a Detail\n\nAn ordinary Doppler shift is capped: nothing moves faster than light, so the shift remains bounded. An expansion shift is not. Some galaxies are receding from us today faster than light without violating relativity, precisely because they are not moving: it is the distance between them and us that is increasing.\n\nConfusing the two leads to unanswerable questions, of the “where was the center of the explosion?” kind. There is none. No point in the universe is the center of its own expansion: from any galaxy, you would see all the others fleeing in exactly the same way.\n\nThe Doppler analogy remains useful for local motions. Andromeda, our neighbor, is genuinely approaching us, and its spectrum is shifted toward the blue. But beyond a few tens of millions of light-years, expansion dominates, and the vocabulary of the siren becomes misleading.\n\n## A Belated Repair\n\nIn October 2018, the International Astronomical Union put a recommendation to its members: to speak from now on of the Hubble-Lemaître law. Of the 4,060 voters, 78% approved it. Ninety-one years after a paper that almost no one had read.",
+  "citation": {
+    "texte": "The evolution of the world can be compared to a fireworks display that has just ended: a few red wisps, ashes and smoke.",
+    "auteur": "Georges Lemaître",
+    "source": "“L'expansion de l'espace” (The Expansion of Space), Revue des Questions Scientifiques, November 20, 1931",
+    "url": "https://doi.org/10.1007/s10714-011-1213-7"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Distant galaxies are fleeing. It is not a Doppler effect.",
+    "idee": "They are not traveling through space: it is the space between them and us that stretches. Hence some recede faster than light without violating relativity: they are not moving.",
+    "source_courte": "Davis & Lineweaver, PASA, 2004"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Davis & Lineweaver — Expanding Confusion",
+      "url": "https://arxiv.org/abs/astro-ph/0310808",
+      "note": "The reference text on common misunderstandings, very readable despite the equations."
+    }
+  ],
+  "quiz": {
+    "question": "Why can some galaxies recede from us faster than light without contradicting relativity?",
+    "choix": [
+      "Because it is not a movement: it is the space between them and us that stretches",
+      "Because the speed-of-light limit does not apply to massive objects",
+      "Because their light takes so long to reach us that the measurement is distorted",
+      "Because they are actually receding more slowly: it is a distance illusion"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Relativity forbids exceeding the speed of light by moving through space. Expansion is not a movement: it is distance itself that grows, and nothing caps that rate of growth. This is why cosmological redshift is not calculated with the Doppler formula.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who first draws from Einstein's equations the conclusion that the universe is expanding, and under what conditions?",
+      "choix": [
+        "Edwin Hubble, in a widely read 1929 paper",
+        "Georges Lemaître, in 1927, in a little-read Brussels journal",
+        "Albert Einstein himself, as soon as general relativity was published",
+        "Tamara Davis, in 2004, from Hubble's data"
+      ],
+      "bonne_reponse": 1,
+      "explication": "It is Georges Lemaître who, in 1927, draws from Einstein's equations the idea of an expanding universe, in a paper published in French in a little-read Brussels journal, long left ignored."
+    },
+    {
+      "question": "What example of local motion does the entry give as a case where the Doppler analogy remains useful?",
+      "choix": [
+        "The Andromeda galaxy, which is approaching us and whose spectrum is shifted toward the blue",
+        "The Milky Way itself, rotating around its center",
+        "The Sun, whose spectrum varies with the season",
+        "The Moon, whose orbit around the Earth produces a measurable shift"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The entry cites Andromeda, our neighbor, which is genuinely approaching us, with a spectrum shifted toward the blue: the Doppler analogy remains useful for this kind of local motion, unlike for distant galaxies."
+    },
+    {
+      "question": "What does the International Astronomical Union decide in October 2018, and with what vote result?",
+      "choix": [
+        "To drop Hubble's name in favor of Lemaître's alone, unanimously",
+        "To strip Lemaître of credit for the discovery, by a simple majority",
+        "To recommend the name Hubble-Lemaître law, approved by 78% of voters",
+        "To create an international prize in honor of Lemaître, approved by 51%"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The International Astronomical Union put a recommendation to its members to speak of the Hubble-Lemaître law, approved by 78% of the 4,060 voters, ninety-one years after the 1927 paper."
+    }
+  ]
+}

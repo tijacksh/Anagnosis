@@ -1,0 +1,67 @@
+{
+  "id": "phy-romer-1676-aucune-vitesse-dans-la-note",
+  "slug": "romer-1676-aucune-vitesse-dans-la-note",
+  "langue": "en",
+  "empreinte_fr": "7316e6e3dc8a2001",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Rømer Never Gave the Speed of Light",
+  "accroche": "In 1676, Ole Rømer proves that light takes time to travel. Yet the 1676 account contains no speed: the calculation comes from Huygens.",
+  "contenu_vulgarise": "In the textbooks, Ole Rømer “measures the speed of light” in 1676. Open the note in the *Journal des Sçavans* (Journal of the Scholars) that reports his demonstration, published that year: no speed appears in it.\n\n## A Ten-Minute Delay\n\nAt the Royal Observatory in Paris, where Rømer has worked since 1672, the eclipses of Io, the moon of Jupiter that regularly plunges into its planet's shadow, are being timed. Huygens's pendulum clocks keep the second over a month: enough to establish that the observations depart from Cassini's predictions by about ten minutes.\n\nRømer reads this discrepancy as the time light takes to cross the distance, which varies, between Jupiter and us. From it he draws a forecast: the eclipse expected on November 9, 1676 will be ten minutes late. It is observed with that delay. He presents his result to the Academy of Sciences on November 21, and the *Journal des Sçavans* publishes it on December 7.\n\n## What the Note Says\n\nIt speaks of delay, not of speed. It asserts that, over a distance of about 3,000 leagues, roughly the diameter of the Earth, light needs less than one second. It also rules out one second per Earth diameter. The distance between the Earth and Jupiter varies by at least 210 Earth diameters during one revolution of the satellite: at that rate, light would take three and a half minutes to cover it, and two revolutions observed from opposite sides would differ by about half a quarter of an hour, which is not noticed. The delay that the note retains for an actual distance is 22 minutes, to cross the diameter of the Earth's orbit. No value for the speed of light is given in it: Rømer establishes that it is finite, and very great.\n\nThe calculation is Huygens's. In his *Traité de la lumière* (Treatise on Light), whose preface is dated January 8, 1690, he takes up the 22 minutes, estimates the diameter of the orbit at some 24,000 Earth diameters, but calculates with 22,000: crossed in 22 minutes, that makes a thousand Earth diameters per minute, or more than six hundred thousand times the speed of sound. With the present-day Earth diameter, that comes to about 212,000 km/s, roughly 70% of the modern value.\n\n## A Figure Without an Author\n\nThe formula “Rømer found…” has nonetheless made its way. In 1985, the physicist Andrzej Wróblewski counted nearly fifty numerical values attributed to Rømer; according to the astronomer Suzanne Débarbat, none of their authors had likely read the text of December 7, 1676.\n\nCassini, for his part, rejects the idea: the three other large moons of Jupiter show no comparable discrepancy. Work in celestial mechanics has since shown that these discrepancies were masked there by gravitational effects.\n\nWho, then, measured in 1676 what the textbooks credit him with?",
+  "citation": null,
+  "repere": {
+    "texte": "In the note in the Journal des Sçavans of December 7, 1676, light takes 22 minutes to cross the diameter of the Earth's orbit and needs less than one second for about 3,000 leagues. No speed appears in it.",
+    "source": "Suzanne Débarbat, “La lumière en ses états, ou la controverse Roemer–Cassini” (extracts from the Journal des Sçavans reproduced from Gallica)",
+    "url": "https://bibnum.publimath.fr/AVM/AVM15085.pdf"
+  },
+  "carte": {
+    "punch": "Rømer proved that light has a speed. He never calculated it.",
+    "idee": "The 1676 account gives only durations: 22 minutes to cross the Earth's orbit, less than a second for 3,000 leagues. The first numerical speed is Huygens's, who takes up that time. Nearly fifty values have been attributed to Rømer since.",
+    "source_courte": "Journal des Sçavans, 1676; Huygens, 1690"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Débarbat, “La lumière en ses états, ou la controverse Roemer–Cassini”",
+      "url": "https://bibnum.publimath.fr/AVM/AVM15085.pdf",
+      "note": "Reproduces at the end of the article the original 1676 note, from Gallica."
+    }
+  ],
+  "quiz": {
+    "question": "What does the account of Rømer's demonstration published in the Journal des Sçavans in December 1676 contain?",
+    "choix": [
+      "A speed of about 300,000 km/s, deduced from his observations of Io",
+      "A speed calculated from the distance between the Earth and Mars",
+      "Delays (22 minutes for the Earth's orbit), but no speed",
+      "The demonstration that light propagates instantaneously"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The note gives only delays, including 22 minutes for the diameter of the Earth's orbit: it establishes a finite speed without putting a number on it. The first speed calculation is Huygens's. Instantaneous light is precisely the idea Rømer refutes, and no distance to Mars is involved.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who is the first to derive a numerical value for the speed of light from the delay observed by Rømer?",
+      "choix": [
+        "Cassini, who sees in it the proof of his own tables",
+        "Christiaan Huygens, in his Treatise on Light",
+        "Rømer himself, in his 1676 note",
+        "James Bradley, after his discovery of aberration"
+      ],
+      "bonne_reponse": 1,
+      "explication": "It is Huygens who converts the 22 minutes into a speed. Cassini rejected the explanation, Rømer published no value, and Bradley comes in only in 1728, after the death of both astronomers."
+    },
+    {
+      "question": "Why does Cassini reject Rømer's explanation by a propagation time?",
+      "choix": [
+        "The Observatory's clocks did not measure minutes",
+        "He had himself measured the speed of light on Earth",
+        "Jupiter was judged too distant to be observed",
+        "The three other large moons of Jupiter showed no comparable discrepancy"
+      ],
+      "bonne_reponse": 3,
+      "explication": "If light took time to arrive, Cassini thought, all of Jupiter's moons should show the same discrepancy. The pendulum clocks kept the second, and the discrepancies of the other moons were in fact masked by gravitational effects."
+    }
+  ]
+}

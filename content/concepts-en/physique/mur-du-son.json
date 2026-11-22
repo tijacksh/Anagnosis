@@ -1,0 +1,78 @@
+{
+  "id": "phy-mur-du-son",
+  "slug": "mur-du-son",
+  "langue": "en",
+  "empreinte_fr": "5bafbe23538d2c52",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Sound Barrier",
+  "accroche": "The sonic boom is not an instant you pass through. It is a trail of noise you leave behind",
+  "contenu_vulgarise": "Push the Doppler effect to its limit. A source that approaches bunches up the crests of its wave; the faster it goes, the more tightly they pack. What happens when it reaches the speed of its own waves?\n\nThey stop getting ahead of it. All the emitted crests pile up in the same place, on a single front where the overpressures add together. That is the sound barrier, a misleading name for something that is nothing like a barrier.\n\n## A Cone, Not an Instant\n\nThe stock image shows an airplane that “breaks through” something, with a crack, once. The reality is different. Beyond Mach 1, the aircraft permanently trails behind it a cone of overpressure, like the V-shaped wake of a boat. This cone sweeps the ground for the entire duration of the supersonic flight.\n\nThe boom is therefore not an event. It is a trace. Each person overflown hears a detonation at the moment the cone reaches them, and the aircraft produces them without interruption. The pilot, for his part, is upstream of the front: he hears nothing.\n\nIt is this corridor of noise that doomed the Concorde over land. Banned from supersonic flight over most inhabited areas, it could take advantage of its speed only over the Atlantic.\n\n## The Cloud That Proves Nothing\n\nWe have all seen those photographs of fighter jets wrapped in a disk of vapor, captioned “the instant the aircraft passes the sound barrier.” The caption is wrong.\n\nThis cloud is condensation. Where air accelerates sharply around the airframe, pressure and temperature drop, and the ambient humidity condenses into droplets. The phenomenon appears in the transonic regime, below as well as above Mach 1, and depends mainly on the humidity of the air. In dry weather, an aircraft can exceed Mach 1 without the slightest cloud; in humid weather, one can produce a cloud without being supersonic.\n\n## Why “Barrier,” Then\n\nThe term dates from the 1940s. On approaching Mach 1, drag climbs sharply and the controls become erratic; several prototypes disintegrated. It was believed to be an impassable physical limit. On October 14, 1947, Chuck Yeager takes the Bell X-1 to Mach 1.06: there was no barrier, only a poorly understood aerodynamic regime.\n\nThe boom, for its part, has not gone away. Research programs are working today to reduce it to a dull thump rather than a detonation, a condition for one day reopening commercial supersonic flight over land.",
+  "citation": null,
+  "repere": {
+    "texte": "The boom corridor on the ground widens by about 1.6 km for every 300 m of altitude. At 15,000 m, a supersonic aircraft sweeps a strip nearly 80 km wide, along the entire length of its path.",
+    "source": "NASA, fact sheet “Sonic Booms” (FS-2003-11-016-DFRC) — rule of thumb of one mile of width per 1,000 feet of altitude",
+    "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf"
+  },
+  "carte": {
+    "punch": "The sonic boom is not an instant. At 15,000 m of altitude, it is a strip nearly 80 km wide.",
+    "idee": "The cone of overpressure follows the aircraft permanently and sweeps the ground throughout the flight. Each person overflown hears a detonation, hence the illusion of a single event. The pilot hears nothing.",
+    "source_courte": "NASA, “Sonic Booms” fact sheet"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NASA — “Sonic Booms” fact sheet",
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf",
+      "note": "Two pages, text only (no diagram)."
+    }
+  ],
+  "quiz": {
+    "question": "An aircraft flies at Mach 1.5 for an hour. What happens on the ground?",
+    "choix": [
+      "A single boom, produced at the instant it exceeded Mach 1",
+      "A boom roughly every ten minutes, as long as it stays supersonic",
+      "No boom, as long as the aircraft flies above 10,000 meters",
+      "A continuous boom corridor, swept by the cone throughout the flight"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The boom is not the event of crossing the barrier. It is the permanent signature of supersonic flight: the cone trails behind the aircraft and sweeps the ground continuously. A given observer hears only one detonation, that of the cone passing over them, hence the illusion of a single event. Altitude attenuates the boom; it does not eliminate it.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Why does the condensation cloud that sometimes surrounds a fighter jet not prove that it has just crossed Mach 1?",
+      "choix": [
+        "Because this cloud appears only several minutes after Mach 1 is actually passed",
+        "Because it is condensation linked to the humidity of the air, which can appear below as well as above Mach 1",
+        "Because this cloud is actually smoke produced by the jet engines, unrelated to speed",
+        "Because this cloud appears only on civilian aircraft, never on military ones"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The condensation cloud depends mainly on ambient humidity and appears in the transonic regime, below as well as above Mach 1: in dry weather an aircraft can exceed Mach 1 without a cloud, and vice versa."
+    },
+    {
+      "question": "Why could the Concorde exploit its supersonic speed only over the Atlantic?",
+      "choix": [
+        "Because its fuel tanks did not last long enough to fly over land",
+        "Because land-based military radars jammed its navigation instruments",
+        "Because the boom corridor on the ground forbade it supersonic flight over most inhabited areas",
+        "Because no land airport was equipped for its landing"
+      ],
+      "bonne_reponse": 2,
+      "explication": "It is the boom corridor swept across the ground that earned the Concorde its ban on supersonic flight over most inhabited areas, forcing it to exceed Mach 1 only over the Atlantic."
+    },
+    {
+      "question": "What made people believe, in the 1940s, in the existence of a real impassable barrier?",
+      "choix": [
+        "The sharp rise in drag and the erratic controls on approaching Mach 1, which made several prototypes disintegrate",
+        "The fact that no material could then withstand the heat produced beyond Mach 1",
+        "A calculation error widespread among engineers of the time, never corrected since",
+        "The total absence of engines capable of exceeding the speed of sound before 1947"
+      ],
+      "bonne_reponse": 0,
+      "explication": "On approaching Mach 1, drag climbed sharply and the controls became erratic, to the point that several prototypes disintegrated, which made people believe in an impassable physical limit."
+    }
+  ]
+}

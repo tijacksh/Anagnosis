@@ -1,0 +1,67 @@
+{
+  "id": "phy-goddard-new-york-times-fusee-dans-le-vide",
+  "slug": "goddard-new-york-times-fusee-dans-le-vide",
+  "langue": "en",
+  "empreinte_fr": "1aba02b58fbf5db4",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Rocket in a Vacuum: The New York Times's Error, Corrected in 1969",
+  "accroche": "In 1920, an editorial mocks Robert Goddard: without air, a rocket would have nothing to push against. The paper does not correct itself until July 17, 1969.",
+  "contenu_vulgarise": "In a vacuum, a rocket would have nothing to push against: the idea seemed obvious to many people, and it was spread across an editorial in the *New York Times* of January 13, 1920. The paper would not correct it until July 17, 1969.\n\n## What Goddard Had Published\n\nIn 1919, the physicist Robert Goddard publishes, through the Smithsonian, *A Method of Reaching Extreme Altitudes*. It is not a work of science fiction: it is a report full of measurements. Goddard test-fired steel chambers in a vacuum, to check that the measured velocities were those of a jet of gas, and not a mere effect of reaction against the air. They were, and they tended to be greater in a vacuum than in air. In his summary, he writes that the rocket “does not depend upon the presence of air for propulsion.”\n\nToward the end, he considers sending to the dark side of the Moon the smallest possible mass of flash powder, which would ignite on impact: a powerful telescope would see the flash. This is, he says, the only reliable way of proving that such an altitude has been reached.\n\n## Where the Error Lies\n\nThe *Times* editorial maintains that a rocket would need something better than a vacuum to react against. It is the image that misleads: a rocket does not push against the air. It ejects gas toward the rear, and that gas pushes it forward. Action and reaction act between the vehicle and its jet, not between the jet and the outside. A rifle recoils in a vacuum just as it does in air.\n\nOn March 16, 1926, at Auburn, Massachusetts, Goddard launches the first liquid-fueled rocket: it climbs to 41 feet, flies for 2.5 seconds, and falls back 184 feet away, in a cabbage field.\n\n## The Correction\n\nOn July 17, 1969, the day after the launch of Apollo 11, the *Times* publishes a brief item titled “A Correction.” Research and experiments since then, it says, have confirmed the conclusions of Isaac Newton in the 17th century: it is now definitely established that a rocket can function in a vacuum as well as in the atmosphere. It ends with: “The Times regrets the error.”\n\nForty-nine years earlier, it was the law of action and reaction, Newton's law, that the paper invoked against Goddard, who, for his part, had found in his 1919 measurements only a tendency toward greater velocities in a vacuum, without settling whether the cause was the ignition or the nozzle air hindering the jet.",
+  "citation": null,
+  "repere": {
+    "texte": "On July 17, 1969, a day after Apollo 11's departure, the New York Times publishes “A Correction”: it is established that “a rocket can function in a vacuum as well as in an atmosphere.”",
+    "source": "NASA, “95 Years Ago: Goddard's First Liquid-Fueled Rocket” (quotes the January 13, 1920 editorial and the July 17, 1969 correction)",
+    "url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/"
+  },
+  "carte": {
+    "punch": "In 1920, the New York Times mocked Goddard. It corrected itself in 1969.",
+    "idee": "A rocket does not push against the air: it ejects gas toward the rear, and that gas propels it. Goddard had measured this in a vacuum as early as 1919. The New York Times published its correction on July 17, 1969, a day after Apollo 11's departure.",
+    "source_courte": "Goddard, Smithsonian, 1919; NASA"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Goddard, A Method of Reaching Extreme Altitudes (1919), digitized text",
+      "url": "https://archive.org/stream/methodreachinge00Godd/methodreachinge00Godd_djvu.txt",
+      "note": "The report itself: the section on the vacuum tests and the final summary."
+    }
+  ],
+  "quiz": {
+    "question": "In a vacuum, what pushes a rocket forward?",
+    "choix": [
+      "The few air molecules that remain at high altitude",
+      "Its own gases, ejected toward the rear",
+      "The ground it has just left, through a residual effect of the launch",
+      "The solar wind, which blows continuously around the Earth"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Thrust comes from the ejection of gas toward the rear: action and reaction act between the vehicle and its jet. Air has nothing to do with it: Goddard's measurements showed a tendency toward greater jet velocities in a vacuum. The launch leaves no residual effect, and the solar wind is far too tenuous to propel a vehicle.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What did Goddard's tests in a vacuum show?",
+      "choix": [
+        "That the jet existed only thanks to the surrounding air",
+        "That the measured velocities were real and tended to be greater in a vacuum than in air",
+        "That thrust vanished when the outside pressure fell to zero",
+        "That only a liquid fuel could work without air"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Goddard test-fired steel chambers in a vacuum: the velocities were those of a real jet of gas and not an effect of the air, and they tended to be greater in a vacuum. Liquid fuel plays no part in these 1919 tests."
+    },
+    {
+      "question": "What does the New York Times correction of July 17, 1969 say?",
+      "choix": [
+        "That Goddard had been right about the Moon but wrong about the vacuum",
+        "That a rocket can work only with an atmosphere, except beyond the Moon",
+        "That studies and experiments have confirmed Newton: a rocket works in a vacuum as in the atmosphere",
+        "That the paper stood by its 1920 editorial for lack of new evidence"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The correction cites Newton's conclusions and states that a rocket works in a vacuum as in the atmosphere, then expresses the paper's regret. It does not distinguish the Moon from the vacuum and does not maintain anything."
+    }
+  ]
+}

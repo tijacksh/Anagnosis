@@ -1,0 +1,95 @@
+{
+  "id": "phy-foucault-1851-pendule-sinus-de-la-latitude",
+  "slug": "foucault-1851-pendule-sinus-de-la-latitude",
+  "langue": "en",
+  "empreinte_fr": "ab4b0ecbc93c3e1f",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Foucault's 1851 note is in French; translated faithfully from the French entry (original French passage kept in the French file; no published English translation retrieved)."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-traduite",
+      "note": "The short phrases quoted from Foucault's note (“moves to the pole,” “the phenomenon becomes more complicated,” “vanishes at the equator,” “in the very direction of the horizontal component”) are translated from the French; English originals not retrieved."
+    },
+    {
+      "chemin": "pour_aller_plus_loin/0/note",
+      "type": "erreur-possible-fr",
+      "note": "The French calls the note “three pages” while giving its pagination as pp. 135-138 (four pages, unless the note starts or ends mid-page). Rendered as written; low confidence."
+    }
+  ],
+  "titre": "Foucault's Pendulum Does Not Turn in 24 Hours in Paris",
+  "accroche": "Foucault writes it in his very first 1851 note: at our latitudes, the pendulum's plane does not make a full turn per day. The sine of the latitude decides.",
+  "contenu_vulgarise": "It is often repeated that Foucault's pendulum makes a complete turn in twenty-four hours, since the Earth turns in one day. Foucault himself writes the opposite in his first note to the Academy of Sciences: at our latitudes, the plane of oscillation does not make a full turn within twenty-four hours.\n\n## A Cellar and a Two-Meter Wire\n\nThe note appears in volume 32 of the Academy's *Comptes rendus* (Proceedings), in 1851 (pp. 135-138). In it Foucault describes his setup: at the top of a cellar's vault, a cast-iron fitting sealed in place holds a 2-meter steel wire, carrying a 5-kilogram brass sphere. It is pulled aside by 15 to 20 degrees, the thread holding it is burned, and it swings. After half an hour, he says, the shift of the plane of oscillation is so great that it is plainly visible. Later in the note, the Salle de la Méridienne at the Observatory allows him to extend the wire to 11 meters.\n\nFoucault first poses the simplest case: the observer “moves to the pole.” The pendulum swings in a plane that does not follow the Earth. Beneath it, the ground makes a complete turn in one sidereal day, that is 23 hours 56 minutes 4 seconds.\n\n## The Sine of the Latitude\n\nAway from the pole, Foucault writes, “the phenomenon becomes more complicated.” The plane of a place's horizon is more and more oblique relative to the Earth's axis as one descends toward the equator. He states the result without proving it, for lack of space: the angular shift of the plane of oscillation equals the Earth's angular motion over the same time, multiplied by the sine of the latitude.\n\nThe consequences can be read at three places. At the pole, the sine is 1: one turn per sidereal day. At the equator, it is 0: the motion, writes Foucault, “vanishes at the equator, to change direction in the other hemisphere.” At Paris (48° 50′ north latitude), the period lengthens to 31 hours 47 minutes 16 seconds, or about 11° 19′ per hour, according to the Wikipedia article on the pendulum.\n\nThe Panthéon pendulum, presented the same year, has a 67-meter wire and a 28.3-kilogram sphere. A visitor who waits an hour sees it drift by about eleven degrees, not fifteen. In a week, its plane makes a little over five turns, not seven.\n\n## A Law Rather Than a Turn\n\nThe turn in one day is exact only at the pole, the simplest case. Foucault does not merely show that the Earth turns: he announces how the speed of the drift varies with latitude. What his observation confirms, in the note, is that at Paris the turn is not complete in twenty-four hours, in accordance with the theory.\n\nThe usual explanation is thereby corrected. The pendulum does not “turn” on its own: at the pole, the plane of oscillation stays fixed relative to the stars while the ground turns beneath it. Elsewhere, only part of the Earth's rotation counts, the part that takes place around the local vertical. At Paris, it amounts to about three quarters of the total rotation, the sine of 48° 50′.\n\nFoucault ends his note, moreover, by relating his observations to a memoir that Poisson had read to the Academy on Monday, November 13, 1837, on the deflection of projectiles due to the Earth's rotation.\n\nFoucault notes that the deviation takes place “in the very direction of the horizontal component of the apparent motion of the celestial sphere”: why that direction, and not the opposite?",
+  "citation": {
+    "texte": "at our latitudes the horizontal trace of the plane of oscillation does not make a full turn within twenty-four hours",
+    "auteur": "Léon Foucault",
+    "source": "“Démonstration physique du mouvement de rotation de la Terre au moyen du pendule” (Physical Demonstration of the Earth's Rotation by Means of the Pendulum), Comptes rendus hebdomadaires des séances de l'Académie des sciences, vol. 32, 1851, pp. 135-138",
+    "url": "https://fr.wikisource.org/wiki/D%C3%A9monstration_physique_du_mouvement_de_rotation_de_la_Terre_au_moyen_du_pendule"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Foucault's pendulum does not make a turn in 24 hours in Paris: 31 h 47 min.",
+    "idee": "At the pole, the plane of oscillation makes one turn in a sidereal day. At Paris, the motion is multiplied by the sine of the latitude: 31 hours 47 minutes for one turn. At the equator, it does not turn. Foucault writes it as early as 1851.",
+    "source_courte": "Foucault, Comptes rendus, 1851"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Foucault, “Démonstration physique du mouvement de rotation de la Terre au moyen du pendule” (1851)",
+      "url": "https://fr.wikisource.org/wiki/D%C3%A9monstration_physique_du_mouvement_de_rotation_de_la_Terre_au_moyen_du_pendule",
+      "note": "The text of the note, three pages, that the pendulum illustrates."
+    }
+  ],
+  "quiz": {
+    "question": "At Paris, why does the plane of oscillation of a Foucault pendulum take more than 24 hours to make a turn?",
+    "choix": [
+      "Air friction gradually slows the pendulum, and so its drift",
+      "Only part of the Earth's rotation counts beneath it, the part that depends on latitude",
+      "The very long wire delays the plane of oscillation relative to the sphere",
+      "Paris is farther from the Earth's axis than the poles, so it turns more slowly"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Foucault states that the shift of the plane equals the Earth's angular motion multiplied by the sine of the latitude: only part of the rotation counts. Friction damps the amplitude, not the drift speed. The length of the wire plays no part in the drift period. And Paris does turn with the Earth: it is the orientation of the horizon that matters.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What is the rotation period of the Foucault pendulum's plane of oscillation at the pole?",
+      "choix": [
+        "23 hours 56 minutes and 4 seconds, one sidereal day",
+        "Exactly 24 hours, one solar day",
+        "31 hours 47 minutes and 16 seconds, as at Paris",
+        "12 hours, a half turn per day"
+      ],
+      "bonne_reponse": 0,
+      "explication": "At the pole, the sine of the latitude is 1: the plane stays fixed while the ground makes a turn in one sidereal day, not in a solar day of exactly 24 hours."
+    },
+    {
+      "question": "According to Foucault's note, what happens to the pendulum's plane of oscillation at the equator?",
+      "choix": [
+        "The plane turns twice as fast as at the pole",
+        "The motion vanishes, and the plane does not drift",
+        "The plane makes a turn in 24 hours, as people believe it does at Paris",
+        "The pendulum stops swinging for lack of rotation"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Foucault writes that the motion vanishes at the equator, where the sine of the latitude is zero, before changing direction in the other hemisphere."
+    },
+    {
+      "question": "To which earlier memoir does Foucault relate his observations at the end of his 1851 note?",
+      "choix": [
+        "Coriolis's memoir on the force that bears his name",
+        "Laplace's memoir on the precession of the equinoxes",
+        "Poisson's 1837 memoir on the deflection of projectiles",
+        "Newton's memoir on the fall of bodies"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Foucault cites the memoir that Poisson read to the Academy on November 13, 1837, on the deflection of projectiles caused by the Earth's rotation."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "phy-foudre-empire-state-building",
+  "slug": "foudre-empire-state-building",
+  "langue": "en",
+  "empreinte_fr": "2e803bce6b0d10ea",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Quotation is already in English in the French entry and is copied unchanged; the URL is the National Weather Service page (English source)."
+    }
+  ],
+  "titre": "Lightning Strikes Twice, and Often in the Same Place",
+  "accroche": "The Empire State Building is struck by lightning about twenty times every year, proof that lightning does not know this saying.",
+  "contenu_vulgarise": "The Empire State Building rises to 443 meters with its antenna, above Manhattan. Every summer, the storm comes back to it, and lightning with it, again and again, on the same metal spire.\n\n## Twenty-Three Times a Year, on Average\n\nThe saying has it that lightning never strikes the same place twice. The National Weather Service, the American federal weather agency, refutes it in the most direct terms: lightning often strikes the same place repeatedly, especially if it is a tall, pointy, isolated object. The Empire State Building is the best-documented illustration: it is struck on average 23 times a year according to that same agency, a figure close to the 25 a year put forward by the building's operator. Much higher estimates, up to a hundred a year, also circulate online, but with no verifiable source behind them, and should not be taken at face value.\n\nThe mechanism explains why tall, pointy structures concentrate strikes rather than avoid them. A storm accumulates a negative charge at its base; an ionized channel, the leader, descends from it toward the ground in rapid, invisible steps. From the ground, a positive charge naturally concentrates around anything that sticks up, a tree, a steeple, an antenna, and rises to meet it in the form of a second channel, the streamer. The taller and more isolated an object, the closer it brings this meeting point: less insulating air to cross, and so a better chance of being the point of contact. Nothing in this mechanism reserves a single strike to a place: as long as the storm passes overhead and the geometry of the terrain does not change, the same summit remains the most likely point, storm after storm.\n\n## A Study Site, Not an Accident\n\nFar from being a curiosity one merely endures, this regularity made the Empire State Building a research ground. In February 1938, Time magazine reports the results of three summers of observation carried out by the engineer Karl McEachron, of General Electric, who deliberately chose the skyscraper as a study site because it is struck so frequently that its metal frame offered nearly guaranteed access, storm after storm, the exact opposite of the chance the saying assumes.\n\nThe proverb is therefore not merely false for skyscrapers: it is false in the opposite direction from what people believe. For any tall, pointy, isolated object, a telecommunications tower, a tree alone in the middle of a field, a pylon, repetition is not the exception. It is the normal mechanism.",
+  "citation": {
+    "texte": "Lightning often strikes the same place repeatedly, especially if it's a tall, pointy, isolated object.",
+    "auteur": "National Weather Service (NOAA)",
+    "source": "“Lightning Myths and Facts,” weather.gov",
+    "url": "https://www.weather.gov/safety/lightning-myths"
+  },
+  "repere": {
+    "texte": "The National Weather Service puts the average number of lightning strikes on the Empire State Building at 23 a year, a figure close to the one put forward by the building's operator itself, which gives 25. Other estimates, up to 100 a year, circulate with no verifiable source and should not be relied on.",
+    "source": "National Weather Service (NOAA), “Lightning Myths and Facts”",
+    "url": "https://www.weather.gov/safety/lightning-myths"
+  },
+  "carte": {
+    "punch": "The Empire State Building is struck by lightning 23 times a year, on average.",
+    "idee": "The saying goes that lightning never strikes the same place twice. It is the opposite: tall, pointy, isolated structures bring closer the meeting point between the descending leader and the ground's charge, and are therefore struck repeatedly, storm after storm.",
+    "source_courte": "National Weather Service (NOAA)"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "National Weather Service — Lightning Myths and Facts",
+      "url": "https://www.weather.gov/safety/lightning-myths",
+      "note": "Other common misconceptions about lightning, reviewed one by one."
+    }
+  ],
+  "quiz": {
+    "question": "Why are tall, pointy structures like the Empire State Building struck by lightning several times a year?",
+    "choix": [
+      "They bring closer the meeting point between the leader and the ground's charge",
+      "The metal of their structure magnetically attracts the surrounding lightning",
+      "They are statistically more often located under the path of storms",
+      "Their height holds the lightning longer before it falls back"
+    ],
+    "bonne_reponse": 0,
+    "explication": "A storm produces a leader that descends in steps from the base of the cloud; the ground's positive charge concentrates on anything that sticks up and rises to meet it. The taller and more isolated a structure, the more it shortens this distance. No magnetism, no chance of trajectory: the geometry of the terrain makes the same point the most likely one at every storm.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Which estimate of the annual number of strikes on the Empire State Building circulates with no verifiable source, according to the entry?",
+      "choix": [
+        "About 50 a year, according to an MIT study",
+        "About 10 a year, a figure rarely cited",
+        "Up to a hundred a year",
+        "About 200 a year, according to the New York firefighters"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Higher estimates, up to a hundred a year, circulate online, but with no verifiable source behind them: the entry specifies that they should not be taken at face value."
+    },
+    {
+      "question": "Who carries out the three-summer study of the Empire State Building reported by Time in 1938, and why this site?",
+      "choix": [
+        "The physicist Nikola Tesla, to test his theories on wireless energy transmission there",
+        "Karl McEachron, an engineer at General Electric, because the frequent strikes guaranteed access to data",
+        "A meteorologist of the U.S. Weather Bureau, to track the path of storms over Manhattan",
+        "A team of insurance actuaries, tasked with assessing the skyscraper's structural risk"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The engineer Karl McEachron, of General Electric, deliberately chooses the skyscraper as a study site because its strike frequency offered nearly guaranteed access to data, storm after storm."
+    },
+    {
+      "question": "What does the ground produce in response to the leader descending from the cloud?",
+      "choix": [
+        "A sound wave that pushes the leader back upward",
+        "An electric current that immediately neutralizes the leader",
+        "An additional negative charge that repels the leader",
+        "A positive charge that rises to meet it in the form of a streamer"
+      ],
+      "bonne_reponse": 3,
+      "explication": "From the ground, a positive charge concentrates around anything that sticks up and rises to meet the descending leader, in the form of a second channel called a streamer."
+    }
+  ]
+}

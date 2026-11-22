@@ -1,0 +1,94 @@
+{
+  "id": "phy-mouvement-brownien-preuve-atomes",
+  "slug": "mouvement-brownien-preuve-atomes",
+  "langue": "en",
+  "empreinte_fr": "93ac0f55d233b419",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Quotation is already in English in the French entry (official English translation of Perrin's Nobel lecture) and is copied unchanged; the URL is the Nobel Prize lecture page (English source)."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-traduite",
+      "note": "Two short quotations in the body are translated from the French (“uncertainty close to 100%” from Perrin's Nobel lecture, and the wording of the 1926 Nobel Prize citation); the published English wording was not retrieved. The Lucretius-Buffon-Brown phrase reuses the English text of the citation field."
+    }
+  ],
+  "titre": "Brownian Motion, Indirect Proof of Atoms",
+  "accroche": "A grain of pollen trembles ceaselessly in water, for no visible reason, and that trembling ended up proving that matter is made of atoms.",
+  "contenu_vulgarise": "In 1827, the botanist Robert Brown observes, under the microscope, grains of pollen suspended in water. They jiggle ceaselessly, in all directions, with no visible cause pushing them. Brown publishes his observations in 1828 in the Philosophical Magazine; he rules out the simplest explanation, a vital phenomenon specific to pollen, but finds no physical explanation. The motion has borne his name ever since, though its cause went ununderstood for nearly eighty years.\n\n## What the Trembling Actually Measures\n\nThe answer comes from Albert Einstein, in a paper received in May 1905 and published in July of the same year by the Annalen der Physik. His proposal: the grain visible under the microscope is constantly bombarded by the water molecules around it, far too small to be seen. At every instant, these impacts never balance out exactly from one side of the grain to the other, and this statistical imbalance is enough to make it drift erratically. From this, Einstein draws a precise quantitative prediction: the average distance traveled by the grain must grow with time according to a given mathematical law, which depends directly on the number of molecules present in a given volume.\n\nThis is a verifiable prediction, provided one can follow a grain, frame by frame, under a microscope. That is exactly what the French physicist Jean Perrin does, between 1908 and 1913. By measuring the displacement of suspended particles, their distribution at equilibrium under the effect of gravity, and their Brownian rotation, Perrin obtains, by three independent methods, the same estimate of the number of molecules contained in a mole of hydrogen: on the order of 6.5 to 6.9 × 10²³. The three methods, which have no reason to agree if Einstein's theory is wrong, converge.\n\n## A Doubt That Was Not Merely Pedagogical\n\nIt is easy, today, to forget that at the beginning of the 20th century the very existence of atoms remained a working hypothesis among physicists, not an established fact: the kinetic theory of gases gave estimates of the number of molecules that varied by a factor of three, with an uncertainty that Perrin himself would describe, in his Nobel Prize lecture, as an “uncertainty close to 100%.” Brownian motion changes the game because it makes visible, under an ordinary microscope, the statistical effect of individual collisions too small to be observed one by one. No one sees an atom. One counts their effects, with enough precision to settle a debate that had lasted since Antiquity.\n\nPerrin receives the 1926 Nobel Prize in Physics “for his work on the discontinuous structure of matter, and especially for his discovery of sedimentation equilibrium.” In his lecture, he places his own discovery in a much older lineage: Brownian motion is a phenomenon “predicted by Lucretius, suspected by Buffon, and established with certainty by Brown.” Twenty centuries separate the Latin poet's intuition from its verification in the laboratory.",
+  "citation": {
+    "texte": "This phenomenon which was predicted by Lucretius, suspected by Buffon, and established with certainty by Brown, constitutes the Brownian movement.",
+    "auteur": "Jean Perrin",
+    "source": "Discontinuous Structure of Matter, Nobel lecture, December 11, 1926 (official English translation)",
+    "url": "https://www.nobelprize.org/prizes/physics/1926/perrin/lecture/"
+  },
+  "repere": {
+    "texte": "By combining three independent methods, Brownian sedimentation, displacement, and rotation, Perrin obtains three consistent estimates of the number of molecules contained in a mole of hydrogen: 68.2, 68.8, and 65 (in tens of thousands of billions of billions), or about 6.5 to 6.9 × 10²³.",
+    "source": "C. W. Oseen, presentation speech for the 1926 Nobel Prize in Physics awarded to Jean Perrin, December 10, 1926",
+    "url": "https://www.nobelprize.org/prizes/physics/1926/ceremony-speech/"
+  },
+  "carte": {
+    "punch": "A trembling grain of pollen ended up proving that atoms exist.",
+    "idee": "In 1827, Robert Brown observes an inexplicable erratic motion under his microscope. In 1905, Einstein ties it mathematically to the impacts of invisible molecules. By verifying these predictions in the laboratory, Jean Perrin convinces the last skeptics and receives the 1926 Nobel Prize in Physics.",
+    "source_courte": "Nobel Prize, 1926 Physics prize"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Jean Perrin — Nobel lecture “Discontinuous Structure of Matter” (1926)",
+      "url": "https://www.nobelprize.org/prizes/physics/1926/perrin/lecture/",
+      "note": "Full text; reconstructs the historical debate on the reality of atoms."
+    }
+  ],
+  "quiz": {
+    "question": "Why did the erratic motion observed by Robert Brown end up convincing the last skeptics of the existence of atoms?",
+    "choix": [
+      "Because Brown saw the atoms directly under the microscope",
+      "Because Einstein tied it statistically to the impacts of invisible molecules",
+      "Because Perrin managed to isolate a single hydrogen atom",
+      "Because this motion occurs only in pure water"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Brown sees the particles move, not the atoms themselves. Einstein shows in 1905 that this trembling results statistically from the incessant impacts of invisible water molecules; Perrin verifies these predictions in the laboratory by three independent methods between 1908 and 1913, which earns him the 1926 Nobel Prize in Physics.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What did Robert Brown himself establish in 1828, and what did he leave unanswered?",
+      "choix": [
+        "He shows that the motion is due to air currents in the observation room",
+        "He proves that the phenomenon is caused by the gradual evaporation of the water",
+        "He attributes the motion to mechanical vibrations of the microscope itself",
+        "He rules out the explanation of a vital phenomenon specific to pollen, without finding a physical explanation"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Brown rules out the simplest explanation, a vital phenomenon specific to pollen, but finds no physical explanation: the motion has borne his name ever since, without being understood for nearly eighty years."
+    },
+    {
+      "question": "What did Jean Perrin measure between 1908 and 1913, by three independent methods?",
+      "choix": [
+        "The temperature, pressure, and volume of the gas, three measurements that diverge widely",
+        "The size, color, and density of the pollen grains, unrelated to the number of molecules",
+        "The displacement, the sedimentation at equilibrium, and the Brownian rotation, three converging methods",
+        "The speed of light by three independent experiments, all contradictory"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Perrin measures the displacement of particles, their distribution at equilibrium under gravity, and their Brownian rotation: three independent methods that have no reason to agree if Einstein's theory is wrong, and yet converge."
+    },
+    {
+      "question": "For exactly what reason does Jean Perrin receive the 1926 Nobel Prize in Physics?",
+      "choix": [
+        "For his direct, undisputed experimental discovery of the existence of atoms under the optical microscope",
+        "For his work on the discontinuous structure of matter, and especially his discovery of sedimentation equilibrium",
+        "For being the first to formulate mathematically the complete theory of Brownian motion in 1905",
+        "For his work on special relativity applied to the motion of viscous fluids"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Perrin receives the 1926 Nobel Prize in Physics for his work on the discontinuous structure of matter, and especially for his discovery of sedimentation equilibrium, the exact wording cited by the Nobel committee."
+    }
+  ]
+}

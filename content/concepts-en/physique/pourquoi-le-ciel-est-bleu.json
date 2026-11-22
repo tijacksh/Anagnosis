@@ -1,0 +1,78 @@
+{
+  "id": "phy-pourquoi-le-ciel-est-bleu",
+  "slug": "pourquoi-le-ciel-est-bleu",
+  "langue": "en",
+  "empreinte_fr": "de86bd595b1fb4c0",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Why the Sky Is Blue",
+  "accroche": "The sky is not blue because it reflects the sea. It is the air itself that sorts the colors of sunlight.",
+  "contenu_vulgarise": "You look up on a fine day: the sky is blue. You look up again an hour before sunset: it turns red and orange. The same air, the same sunlight, and yet two opposite colors.\n\n## A Sort by Wave Size\n\nSunlight contains all the colors mixed together. Passing through the atmosphere, it meets molecules of nitrogen and oxygen, far smaller than its wavelength. These molecules scatter light in all directions, but not equally: the shorter the wavelength, the more effective the scattering. Blue, whose wave is shorter than red's, is scattered far more strongly. This dependence follows a precise law, established by the British physicist John William Strutt, Lord Rayleigh, in 1871: the scattered intensity varies as the inverse of the fourth power of the wavelength.\n\nThe result: blue light is sent back in all directions of the sky, wherever you look, while red light continues straight on toward the ground. It is this scattered blue, coming from everywhere at once, that forms the vault you see above your head.\n\nThere remains a question that is rarely asked: violet has an even shorter wavelength than blue, and therefore theoretically even stronger scattering. Why do we not see a violet sky? Two reasons combine: the human eye is more sensitive to blue than to violet, and sunlight itself contains less violet than blue to begin with. The perceived mixture therefore leans toward blue.\n\n## What the Sky Is Not\n\nA common misconception holds that the sky is blue because it reflects the color of the oceans. The color of the sky is entirely explained by the scattering of light in the air, with no need for water nearby. A blue sky above the Sahara confirms it. The blue of the sea, for its part, owes nothing to a reflection of the sky either: water absorbs the long wavelengths, red and orange, and sends back to the eye only the blue, which is very little absorbed. This mechanism is distinct, and does not need a blue sky to work.\n\nAt sunset, light passes through a far greater thickness of atmosphere than at noon: it grazes the horizon instead of falling vertically. Over this longer path, an even larger share of the blue is scattered along the way and never reaches the eye; only the red and orange remain, in a straight line, the colors least easily deflected.\n\nRayleigh's theory itself was refined after the fact: his 1871 papers precede the 1881 demonstration that his equations do follow from Maxwell's electromagnetic theory of light. He extends this framework in 1899 to the molecules themselves. Modern theories attribute the scattering more precisely to local fluctuations in the density of the air, a lead opened by Smoluchowski in 1908 and made quantitative by Einstein in 1910. An explanation that has worked for a century and a half can therefore still be made more precise without being called into question.",
+  "citation": null,
+  "repere": {
+    "texte": "The intensity of the light scattered by the atmosphere varies as the inverse of the fourth power of the wavelength (a law established by Lord Rayleigh in 1871): halving the wavelength multiplies the scattering by sixteen, which explains the sharp gap between the scattered blue and the red that passes straight through.",
+    "source": "Lord Rayleigh (J. W. Strutt), 1871, referenced in Optica, “Lord Rayleigh: A Scientific Life”",
+    "url": "https://www.optica-opn.org/home/articles/volume_20/issue_6/features/lord_rayleigh_a_scientific_life/"
+  },
+  "carte": {
+    "punch": "The sky is not blue because it reflects the sea. It is the air that sorts the light.",
+    "idee": "Sunlight contains all the colors. The air scatters blue, with its short wave, far more than red, a law established by Lord Rayleigh in 1871. At sunset, light travels a longer path: even more blue is lost along the way, leaving only red and orange.",
+    "source_courte": "NASA Space Place; Royal Observatory Greenwich"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Royal Museums Greenwich — “Why is the sky blue?”",
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/why-sky-blue",
+      "note": "Full article, with the myth of the ocean reflection and the question of violet."
+    }
+  ],
+  "quiz": {
+    "question": "Why is the sky not violet, when violet has an even shorter wavelength than blue and should therefore be scattered even more?",
+    "choix": [
+      "Because violet is totally absorbed by the ozone layer",
+      "Because the atmosphere does not contain enough nitrogen to scatter violet",
+      "Because the eye is more sensitive to blue, and the Sun already emits less of it",
+      "Because violet mixes with the red of the ground to form blue"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Violet is scattered even more strongly than blue, but the human eye is less sensitive to it and the Sun naturally emits less of it than of blue to begin with: the perceived mixture therefore leans toward blue, not violet.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the law established by Lord Rayleigh in 1871 say about the intensity of the light scattered by the atmosphere?",
+      "choix": [
+        "It varies as the inverse of the fourth power of the wavelength",
+        "It is identical for all wavelengths of visible light",
+        "It depends only on the temperature of the air, not on the wavelength",
+        "It varies proportionally, not inversely, with the wavelength"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Rayleigh's law establishes that the scattered intensity varies as the inverse of the fourth power of the wavelength: halving the wavelength multiplies the scattering by sixteen."
+    },
+    {
+      "question": "Why does the sky turn red and orange at sunset?",
+      "choix": [
+        "Because the Sun stops emitting blue light at that time of day",
+        "Because nitrogen and oxygen molecules change their chemical composition in the evening",
+        "Because the atmosphere warms up and then scatters the long wavelengths more",
+        "Because the light then passes through a far greater thickness of atmosphere, scattering more of the blue along the way"
+      ],
+      "bonne_reponse": 3,
+      "explication": "At sunset, light travels a far longer path through the atmosphere: an even larger share of the blue is scattered there, letting only the red and orange through."
+    },
+    {
+      "question": "Where does the blue of the sea actually come from, according to the text?",
+      "choix": [
+        "From a direct reflection of the sky's color on the water's surface, as the misconception has it",
+        "From the water's absorption of the long wavelengths, leaving only the little-absorbed blue to come back out",
+        "From microscopic algae that naturally tint the water a deep blue",
+        "From the diffraction of sunlight by salt crystals dissolved in the water"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Water absorbs the long wavelengths, red and orange, and sends back to the eye only the blue, which is very little absorbed: an absorption mechanism independent of the color of the sky."
+    }
+  ]
+}

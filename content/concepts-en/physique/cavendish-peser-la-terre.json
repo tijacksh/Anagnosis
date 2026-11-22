@@ -1,0 +1,99 @@
+{
+  "id": "phy-cavendish-peser-la-terre",
+  "slug": "cavendish-peser-la-terre",
+  "langue": "en",
+  "empreinte_fr": "239a3b7e7d15930b",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Quotation is already in English in the French entry and is copied unchanged; the URL is a secondary page (course notes) quoting the 1798 paper, not the paper itself."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-traduite",
+      "note": "The phrase from Cavendish's 1783 letter to Michell (“weighing the world”) is rendered from the French; the original English wording of the letter was not retrieved."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "erreur-possible-fr",
+      "note": "The French says the phrase appears “fourteen years earlier” than the 1798 paper, but 1783 to 1798 is fifteen years (fourteen years before the 1797 experiments). The same “fourteen years” appears in quiz_supplementaire/1. Rendered as written."
+    }
+  ],
+  "titre": "Cavendish Weighed the Earth, but Not in His Paper",
+  "accroche": "In 1797, in a garden shed, Henry Cavendish measures a tiny force and deduces from it the density of the entire Earth.",
+  "contenu_vulgarise": "In a shed at the bottom of his garden in Clapham, south of London, Henry Cavendish observes in 1797 the movement of a forty-inch wire, through a telescope, through two small windows, from a neighboring room. What he is measuring is a force that no one before him had managed to isolate in a laboratory: the gravitational attraction between two ordinary objects.\n\n## An Instrument Inherited from a Dead Man\n\nThe idea is not Cavendish's. The Reverend John Michell, an English geologist and astronomer, conceives before 1783 an instrument capable of detecting this tiny force: a torsion balance, an arm hung from a wire so fine that it turns under the effect of an attraction that is nonetheless minuscule. Michell builds a first apparatus, but dies on April 21, 1793, without having had time to carry out the experiment. The device passes through other hands, then ends up with Cavendish, who rebuilds it almost entirely, on a much larger scale, while keeping Michell's principle.\n\nCavendish himself describes his final setup in his 1798 paper: the apparatus is very simple, he says, a wooden arm six feet long, hung horizontally from a forty-inch wire, with a lead ball about two inches in diameter at each end, the whole enclosed in a wooden case to protect it from the wind. Two large lead balls, much heavier, brought near the small ones, are enough to rotate the arm by a fraction of a degree, enough for Cavendish to derive a numerical value from it.\n\n## An Expression Born in a Letter, Absent from the Paper\n\nStarting from this force measured in the laboratory, and knowing the strength of gravity at the Earth's surface, Cavendish calculates the Earth's mean density: 5.48 times that of water, against 5.51 for the value accepted today, a gap of less than one percent, obtained with a wire and lead balls in a shed.\n\nThe title of his paper, however, speaks only of density: “Experiments to Determine the Density of the Earth.” Nowhere in this 1798 text does Cavendish write that he is “weighing the Earth”; the expression does not belong to the vocabulary of the science he publishes. Yet it exists from his pen fourteen years earlier: in a 1783 letter to Michell, whose failing health threatened to prevent the experiment, Cavendish hopes that it will at least allow him “the easier and less laborious undertaking of weighing the world.” The phrase is therefore no legend added after the fact: it is an image from private correspondence, set aside when it came time to write the scientific paper, which later resurfaces in everyday language without ever having passed through the publication itself. Another notable absence from the 1798 text: the gravitational constant G, whose name and symbol will appear only decades later. Historians of science still debate whether one should say that Cavendish measured G or “only” the density of the Earth, a debate that shows how much a result can change its name without anything in the experiment itself having changed.",
+  "citation": {
+    "texte": "The apparatus is very simple; it consists of a wooden arm, 6 feet long, made so as to unite great strength with little weight. This arm is suspended in an horizontal position, by a slender wire 40 inches long, and to each extremity is hung a leaden ball, about 2 inches in diameter; and the whole is inclosed in a narrow wooden case, to defend it from the wind.",
+    "auteur": "Henry Cavendish",
+    "source": "Experiments to Determine the Density of the Earth, Philosophical Transactions of the Royal Society of London, vol. 88, 1798, pp. 469-526",
+    "url": "https://www.michaelbeeson.com/interests/GreatMoments/Cavendish.pdf"
+  },
+  "repere": {
+    "texte": "Cavendish obtains a mean density for the Earth of 5.48 times that of water. The value accepted today is 5.51, a gap of less than 1%, obtained with no instrument other than a wire, lead balls, and a garden shed.",
+    "source": "Henry Cavendish, Experiments to Determine the Density of the Earth, Philosophical Transactions, 1798",
+    "url": "https://archive.org/details/philtrans07861996"
+  },
+  "carte": {
+    "punch": "“Weighing the world”: Cavendish wrote it in a 1783 letter, not in his paper.",
+    "idee": "In 1797, in a garden shed, Cavendish uses a wire and a telescope to measure the attraction between lead balls and finds a density of the Earth of 5.48 times that of water, against 5.51 today. The image “weighing the world” appears in a 1783 letter to Michell.",
+    "source_courte": "Cavendish, Philosophical Transactions, 1798"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Michael Beeson — “Cavendish Weighs the Earth”",
+      "url": "https://www.michaelbeeson.com/interests/GreatMoments/Cavendish.pdf",
+      "note": "Detailed lecture notes, with direct quotations from the 1798 paper."
+    }
+  ],
+  "quiz": {
+    "question": "What exactly does Cavendish measure with his torsion balance in 1797?",
+    "choix": [
+      "The exact distance between the Earth and the Moon at that time",
+      "The exact speed at which identical objects fall in a vacuum",
+      "The gravitational attraction between two laboratory masses",
+      "The exact weight of a cubic meter of pure water at room temperature"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Cavendish measures neither an astronomical distance nor a falling speed: his torsion balance detects the tiny attraction between lead balls in the laboratory. From this measured force, combined with the known gravity of the Earth, he deduces the Earth's mean density, without ever using the symbol G.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Where does the idea of the torsion balance used by Cavendish come from?",
+      "choix": [
+        "From Cavendish himself, who designed it for the occasion in 1797",
+        "From the Reverend John Michell, who died in 1793 before he could use it",
+        "From a surveying instrument diverted from its usual purpose",
+        "From work published by the Royal Society a decade earlier"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Michell, an English geologist and astronomer, conceives the instrument before 1783 and builds a first example, but dies on April 21, 1793. The device ends up with Cavendish, who rebuilds it almost entirely on a much larger scale."
+    },
+    {
+      "question": "Where does the expression “weighing the Earth” appear from Cavendish's pen?",
+      "choix": [
+        "In the very title of the paper he publishes in 1798",
+        "In the account of his experiments read to the Royal Society",
+        "In a 1783 letter to Michell, fourteen years before the paper",
+        "Nowhere, the image having been coined by his later biographers"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The 1798 paper speaks only of density, and the expression does not appear in it. But Cavendish writes it fourteen years earlier to Michell, whose health was failing, hoping for the easier and less laborious undertaking of weighing the world."
+    },
+    {
+      "question": "What place does the gravitational constant G have in the 1798 paper?",
+      "choix": [
+        "None, its name and its symbol both being well after the text",
+        "Cavendish calculates it but gives up publishing it, for lack of confidence",
+        "It appears there under a notation different from today's",
+        "It had already been measured by Michell before his death in 1793"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The 1798 result is expressed as a mean density of the Earth, and the name and symbol of G will appear only decades later. Historians still debate whether one should say that Cavendish measured G."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "phy-marteau-et-plume-sur-la-lune",
+  "slug": "marteau-et-plume-sur-la-lune",
+  "langue": "en",
+  "empreinte_fr": "9c4f55fbb277e056",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Quotation is already in English in the French entry and is copied unchanged; the URL is the NASA Apollo Lunar Surface Journal transcript (English source)."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "erreur-possible-fr",
+      "note": "The French dates Thomas Settle's reproduction of the Pisa experiment to the early 1980s; Settle's well-known replication is usually dated 1961 (Science). Not verified here (no web search); rendered as written. Same date in quiz_supplementaire/2."
+    }
+  ],
+  "titre": "The Hammer and the Feather, on the Moon",
+  "accroche": "In 1971, an astronaut drops a hammer and a feather on the Moon to check an experiment that Galileo may never have performed.",
+  "contenu_vulgarise": "On August 2, 1971, on the Moon, astronaut David Scott holds a geologist's hammer in one hand and a falcon feather in the other. He releases them at the same time, from a height of about 1.6 meters. Both hit the ground at the exact same instant.\n\nThe scene is filmed and narrated live: before dropping the two objects, Scott recalls Galileo's name and the discovery attributed to him about falling bodies. Once the objects are on the ground, his conclusion fits in a single sentence, which has remained in the mission's archives.\n\n## Why the Feather Doesn't Lag\n\nOn Earth, a feather visibly falls more slowly than a hammer. Intuition draws a false conclusion from this: that heavy objects would fall faster than light ones. In reality, the acceleration due to gravity does not depend on the mass of the falling object; it is the air that slows the feather, not a weaker gravity for it. Remove the air, and the hammer and the feather undergo exactly the same acceleration.\n\nThe Moon has no atmosphere. It is the only place where this principle could be verified on a large scale, without having to enclose the objects in a vacuum chamber.\n\n## An Experiment That May Never Have Happened\n\nThe story as taught has Galileo dropping two balls of different masses from the top of the Tower of Pisa to demonstrate this same principle, before astonished witnesses. The problem: Galileo himself never mentions it in his writings. The only source for this episode is a biography of Galileo written by his secretary and disciple, Vincenzo Viviani, in 1654, which remained unpublished until 1717, seventy-five years after Galileo's death in 1642.\n\nMost historians of science see in it a thought experiment turned into an anecdote over the course of retellings, rather than an event actually observed. One historian dissents, however: Stillman Drake, who argued that the demonstration did take place more or less as Viviani describes it. In the early 1980s, the historian of science Thomas Settle reproduced the experiment with real balls: it is physically feasible, and the difference in fall, real but slight, due to air resistance, remains perceptible to the naked eye from the top of a tower.\n\nWhat Galileo may never have shown at Pisa, the Moon therefore showed unambiguously, three and a half centuries later, not because one place would be more convincing than another, but because it is the only one where air, that inconvenient witness of all earthly experiments on falling, was at last absent.",
+  "citation": {
+    "texte": "Which proves that Mr. Galileo was correct in his findings.",
+    "auteur": "David Scott",
+    "source": "Apollo 15, transcript of extravehicular activity EVA-3, August 2, 1971 — Apollo Lunar Surface Journal (NASA)",
+    "url": "https://www.apollojournals.org/alsj/a15/a15.clsout3.html"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "On the Moon, a hammer and a feather fall at exactly the same speed.",
+    "idee": "In 1971, astronaut David Scott drops a hammer and a feather on the Moon: with no air to slow the feather, both hit the ground at the same instant. The experiment attributed to Galileo at the Tower of Pisa, for its part, may be only a legend written after his death.",
+    "source_courte": "NASA, Apollo 15 (1971)"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NASA — Apollo Lunar Surface Journal, complete EVA-3",
+      "url": "https://www.apollojournals.org/alsj/a15/a15.clsout3.html",
+      "note": "The complete transcript of the moonwalk, minute by minute."
+    }
+  ],
+  "quiz": {
+    "question": "On the Moon, why do the hammer and the feather hit the ground at the same instant?",
+    "choix": [
+      "With no air to slow the feather, both undergo the same acceleration",
+      "Lunar gravity, six times weaker, would act less on the feather",
+      "The hammer and the feather have the same mass once on the Moon",
+      "In a vacuum, all objects become weightless"
+    ],
+    "bonne_reponse": 0,
+    "explication": "On Earth, the feather falls more slowly because of air resistance, not because gravity would act differently depending on mass: in a vacuum, the acceleration of gravity is the same for all objects, whatever their mass. The Moon, with no atmosphere, makes it possible to verify this directly.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What is the only historical source for Galileo's experiment at the Tower of Pisa?",
+      "choix": [
+        "A paper Galileo himself publishes in 1638 on falling bodies",
+        "A biography written by his secretary and disciple Vincenzo Viviani",
+        "The logbook kept by the authorities of the University of Pisa",
+        "Testimony gathered from the students present at the demonstration"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Galileo himself never mentions this episode in his writings. The only source is the biography written by Vincenzo Viviani, his secretary and disciple, in 1654, published only in 1717."
+    },
+    {
+      "question": "What position does the historian Stillman Drake take on the Tower of Pisa experiment?",
+      "choix": [
+        "It never took place and is entirely a literary invention",
+        "It did take place more or less as Viviani describes it",
+        "It took place, but with feathers rather than balls",
+        "It was carried out by another scholar, before being attributed to Galileo"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Unlike most historians of science, Stillman Drake dissents and argues that the demonstration did take place more or less as Viviani describes it."
+    },
+    {
+      "question": "What did the historian Thomas Settle's replication of the experiment, in the early 1980s, show?",
+      "choix": [
+        "That the experiment is physically impossible from the top of a tower",
+        "That the difference in fall, due to air, is too slight to be visible to the naked eye",
+        "That the experiment is feasible, with a slight but naked-eye-visible difference",
+        "That the balls Galileo used did not yet exist in 1590"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Settle reproduced the experiment with real balls: it is physically feasible, and the difference in fall due to air resistance, real but slight, remains perceptible to the naked eye from the top of a tower."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "phy-boson-de-higgs",
+  "slug": "boson-de-higgs",
+  "langue": "en",
+  "empreinte_fr": "a1f02061cf8c8597",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Quotation is already in English in the French entry and is copied unchanged; the URL is the CERN press release (English source)."
+    }
+  ],
+  "titre": "The Higgs Boson, or Why Mass Exists",
+  "accroche": "On July 4, 2012, at CERN, two experiments announce they have seen the particle that explains why matter has mass.",
+  "contenu_vulgarise": "On July 4, 2012, at CERN, near Geneva, two research teams present their results to a packed auditorium. Fabiola Gianotti, spokesperson for the ATLAS experiment, announces it in a single sentence that has remained in the CERN archives ever since. The competing experiment, CMS, reports an independent signal of the same magnitude. Two collaborations of about 3,000 physicists each have just spotted, each on its own, the same particle.\n\n## A Field, Not a Weight\n\nIn the equations that describe elementary particles, electrons, quarks, and the other building blocks that cannot be broken down any further, mass is not an intrinsic property. It appears only when these particles interact with a field that fills all of space, proposed independently in 1964 by Robert Brout and François Englert on one side, and by Peter Higgs on the other. The stronger the interaction with this field, the heavier the particle; the photon, which does not interact with it at all, remains massless. The Higgs boson is the excitation of this field, its manifestation as a detectable particle, but so rare that it appears in only about one collision in a billion at the Large Hadron Collider (LHC).\n\nThat explains the caution of the CERN press release published that day: it does not yet speak of a confirmed Higgs boson, but of a particle “consistent with” the long-sought boson. It would take until March 2013, and two and a half times more data, for the two collaborations to conclude that it is indeed a form of Higgs boson. The measurement of its zero spin, in particular, settles the question. In October 2013, the Nobel Prize in Physics rewards Englert and Higgs for the theoretical discovery of the mechanism, since confirmed by the experimental discovery of the particle. Robert Brout, who had developed the theory with Englert, cannot share the prize: he died in 2011, and the Nobel is never awarded posthumously.\n\n## What the Higgs Field Does Not Explain\n\nThe mechanism gives elementary particles their mass, but these make up only a tiny fraction of the mass of ordinary matter. Most of the mass of a proton or a neutron does not come from the Higgs field: it comes from the binding energy of the strong force, which holds the quarks and gluons together inside. Most of your own mass owes almost nothing to the particle whose discovery made headlines in 2012. It comes from another interaction, harder to sum up in a single image but responsible for almost everything that actually weighs anything around you.",
+  "citation": {
+    "texte": "We observe in our data clear signs of a new particle, at the level of 5 sigma, in the mass region around 126 GeV.",
+    "auteur": "Fabiola Gianotti",
+    "source": "spokesperson for the ATLAS experiment, CERN press release, July 4, 2012",
+    "url": "https://home.cern/cern-experiments-observe-particle-consistent-with-long-sought-higgs-boson/"
+  },
+  "repere": {
+    "texte": "At the Large Hadron Collider, about one collision in a billion produces a Higgs boson, which is why it took years of collisions and two independent detectors to isolate it with certainty.",
+    "source": "CERN, “The Higgs boson”",
+    "url": "https://home.cern/science/physics/higgs-boson"
+  },
+  "carte": {
+    "punch": "The Higgs boson explains the mass of particles, not that of your protons.",
+    "idee": "Discovered at CERN on July 4, 2012, the Higgs boson reveals the mechanism by which elementary particles acquire mass. But most of a proton's mass does not come from this field: it comes from the binding energy of the strong force between its quarks.",
+    "source_courte": "CERN, press release of July 4, 2012"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "CERN — The Higgs boson",
+      "url": "https://home.cern/science/physics/higgs-boson",
+      "note": "The full explanation of the mechanism, from the institution that confirmed it."
+    }
+  ],
+  "quiz": {
+    "question": "Where does most of a proton's mass come from?",
+    "choix": [
+      "From the Higgs field, which gives mass to each quark that makes it up",
+      "From the binding energy of the strong force between its quarks and gluons",
+      "From the fusion of the three quarks into a single, heavier particle",
+      "From the Higgs boson itself, absorbed when the proton forms"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The Higgs field gives mass to quarks taken individually, but on their own they weigh almost nothing. Most of the proton's mass comes from the binding energy of the strong force that holds its quarks and gluons together, a mechanism distinct from the one discovered in 2012.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Why does the photon have no mass, according to the mechanism described?",
+      "choix": [
+        "Because it travels too fast to interact with anything",
+        "Because it does not interact at all with the field that fills space",
+        "Because it is made of quarks whose masses cancel each other out",
+        "Because its mass is absorbed by the Higgs boson in every collision"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Mass is not an intrinsic property of elementary particles: it arises from their interaction with the Higgs field, and the stronger that interaction, the heavier the particle. The photon, which does not interact with this field, remains massless."
+    },
+    {
+      "question": "Why does CERN speak, on July 4, 2012, of a particle “consistent with” the Higgs boson?",
+      "choix": [
+        "Because only one of the two experiments had observed a signal",
+        "Because the Nobel committee had not yet settled the question",
+        "Because more data was needed to establish that it was indeed this boson",
+        "Because the observed particle was too heavy to match the theory"
+      ],
+      "bonne_reponse": 2,
+      "explication": "It took until March 2013, and two and a half times more data, for the two collaborations to conclude that it was indeed a form of Higgs boson, with the measurement of a zero spin in particular settling the question."
+    },
+    {
+      "question": "Why did Robert Brout not share the 2013 Nobel Prize in Physics?",
+      "choix": [
+        "Because he had published his version of the theory several years after Higgs",
+        "Because he had refused to associate himself with CERN's 2012 announcement",
+        "Because his work was about the particle's spin, not about mass",
+        "Because he died in 2011 and the prize is never awarded posthumously"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Brout had proposed the mechanism with François Englert in 1964, independently of Peter Higgs. Having died in 2011, he could not be among the 2013 laureates, since the Nobel is never awarded posthumously."
+    }
+  ]
+}

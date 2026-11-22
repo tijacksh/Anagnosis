@@ -1,0 +1,85 @@
+{
+  "id": "phy-effet-doppler",
+  "slug": "effet-doppler",
+  "langue": "en",
+  "empreinte_fr": "78801ef9b66d2347",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Doppler Effect",
+  "accroche": "Why an ambulance siren changes its note at the precise instant it passes you",
+  "contenu_vulgarise": "An ambulance approaches, siren wailing. At the precise instant it passes you, the note drops to a lower pitch, as if someone had turned a knob. Yet inside the vehicle, the driver hears nothing of the sort: the siren has been emitting the same note since the start.\n\nSo it is not the sound that changes. It is the way it reaches you.\n\n## Crests Jostling Each Other\n\nA sound is a wave: a succession of compressions of the air, like ripples on the surface of a pond. The siren emits a fixed number of them per second, its frequency, and that is what the ear translates into the pitch of the note.\n\nIf the source stays still, these ripples move away in regular circles and you receive exactly as many as it produces. But if it advances toward you, it moves between two emissions. Each new ripple starts from a point slightly closer than the previous one. The crests bunch up, reach you closer together, and your ear counts more of them per second: the note rises. Behind the vehicle, exactly the opposite: each ripple starts from a point farther away, the crests stretch out, the note drops.\n\nThe shift does not depend on distance, but on the speed of approach or recession. Hence the abruptness of the switch: it happens at the moment of crossing, when the ambulance stops getting closer and starts moving away.\n\n## The Asymmetry That Changed Everything\n\nThere is a subtlety here that textbooks often gloss over. For sound, a source rushing toward a stationary listener does not produce quite the same shift as a listener rushing toward a stationary source, at the same speed. The reason lies in the medium: sound needs air to propagate, and that air provides a reference. One can be motionless *relative to the air*, so the two situations are not interchangeable.\n\nLight does not have that luxury. It crosses a vacuum, with no carrying medium, and therefore no reference for being at rest. Only the *relative* speed between source and observer can matter. This impossibility of designating “the one who moves” would eventually force physics to rewrite its formulas: it is one of the threads leading to special relativity.\n\n## What It Opens Up\n\nEverything that vibrates while moving is concerned: the whistle of a train, the buzzing of a mosquito that brushes past you, the rumble of a motorcycle moving away. But the essential lies elsewhere. Pointed at the sky, the principle becomes a measuring instrument of unexpected reach: analyzing the light of a star is enough to know whether it is approaching or receding, and how fast.\n\nA sidewalk observation, turned into one of the most fruitful yardsticks in science.",
+  "citation": null,
+  "repere": {
+    "texte": "At 60 km/h, an approaching siren rises by about a half step, and drops by as much once it has passed: nearly a whole step of difference on either side of the crossing.",
+    "source": "Calculation based on the relation established by Doppler (1842), with c = 343 m/s (dry air, 20 °C)",
+    "url": "https://archive.org/details/ueberdasfarbigel00doppuoft"
+  },
+  "carte": {
+    "punch": "The siren doesn't change its note. You are the one receiving it differently.",
+    "idee": "A source that approaches bunches up its waves: your ear counts more of them per second, the note rises. The switch is abrupt because it depends on the speed of approach, not on distance; it changes sign at the crossing.",
+    "source_courte": "Doppler, Prague, 1842"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "The Feynman Lectures on Physics — Chapter 34",
+      "url": "https://www.feynmanlectures.caltech.edu/I_34.html",
+      "note": "The reasoning is almost entirely graphical."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the siren's note seem to switch so abruptly at the moment the ambulance passes you?",
+    "choix": [
+      "Because sound loses energy as it moves away from its source",
+      "Because the vehicle stops getting closer and starts moving away",
+      "Because the siren is designed to change its note when crossing",
+      "Because the engine noise gradually drowns out the siren's sound"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The shift depends on the speed of approach or recession, not on distance: it therefore changes sign at the exact moment of crossing. Energy loss affects the volume, never the pitch of the note, and the siren emits the same frequency from start to finish.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the ambulance driver, inside the vehicle, hear while the siren sounds?",
+      "choix": [
+        "A note that rises and then falls, as for an outside observer",
+        "The same note since the start",
+        "No sound, the siren being pointed outward"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The text specifies that the driver hears nothing special at the moment of crossing: the siren has been emitting the same note since the start, so it is not the sound that changes, but the way it reaches the outside listener."
+    },
+    {
+      "question": "Why does a sound source approaching a stationary listener not produce exactly the same shift as a listener approaching a stationary source, at the same speed?",
+      "choix": [
+        "Because the human ear perceives low and high sounds differently",
+        "Because the speed of sound varies with the wind direction",
+        "Because sound needs a medium, air, which provides a reference for being at rest"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text explains that sound propagates in air, which provides a reference: one can be motionless relative to the air, which makes the two situations non-interchangeable, unlike light, which has no such medium."
+    },
+    {
+      "question": "Why does this source-observer asymmetry, valid for sound, not apply to light?",
+      "choix": [
+        "Because light crosses a vacuum, with no carrying medium and no reference for being at rest",
+        "Because light always travels at the same speed whatever the direction of the source",
+        "Because light is not a wave, unlike sound"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text specifies that light crosses a vacuum, with no carrying medium, and therefore no reference for being at rest: only the relative speed between source and observer can matter, which contributed to special relativity."
+    },
+    {
+      "question": "What, according to the entry, is the Doppler effect's principle used for when pointed at the sky?",
+      "choix": [
+        "Measuring the surface temperature of a star",
+        "Knowing whether a star is approaching or receding, and how fast",
+        "Calculating a star's mass from its luminosity"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The text indicates that analyzing the light of a star is enough to know whether it is approaching or receding, and how fast, making this sidewalk principle an astronomical measuring instrument."
+    }
+  ]
+}

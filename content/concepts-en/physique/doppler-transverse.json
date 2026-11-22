@@ -1,0 +1,85 @@
+{
+  "id": "phy-doppler-transverse",
+  "slug": "doppler-transverse",
+  "langue": "en",
+  "empreinte_fr": "d2b055f90172e819",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Einstein's letter is in German; translated faithfully from the French entry (original not retrieved). The URL is the one given in the French entry."
+    }
+  ],
+  "titre": "The Doppler Effect That Proves Time Slows Down",
+  "accroche": "A light source passing perpendicular to you is neither approaching nor receding. And yet its light reddens.",
+  "contenu_vulgarise": "Let's go back to the siren. At the precise instant the ambulance draws level with you, it is no longer getting closer and not yet moving away, and the note becomes exactly the one it had at the start. No more approach speed, so no more shift.\n\nThat is true for sound. For light, it is false.\n\n## The Shift That Should Not Be There\n\nAt the moment of perpendicular passage, a fast light source nonetheless appears shifted toward the red. No approach speed can account for it: the component of the motion in our direction is zero.\n\nThis residue has a name, the transverse Doppler effect, and it has no acoustic equivalent. It does not come from the geometry of waves, but from time itself. A moving clock ticks more slowly as seen from our frame of reference, and a light source is a clock: its frequency is its rate. If its own rate appears slowed to us, its light appears redder to us.\n\nThe transverse shift is therefore a direct measurement of time dilation. Where the ordinary Doppler effect tells us about a motion, this one tells us about the flow of time for the other party.\n\n## Measuring What You Cannot Aim At\n\nThe trouble is practical: the effect is minuscule, and drowned out by the classical Doppler effect as soon as the slightest approach component remains. Aiming at exactly 90° is out of reach.\n\nIn 1938, Herbert Ives and G. R. Stilwell get around the obstacle. Rather than looking for the right angle, they observe a beam of fast ions, canal rays, along the axis of motion, and simultaneously its image sent back by a concave mirror, and so along the opposite axis. The two measurements carry a classical shift of opposite signs, which disappears when you take the average. What remains is the relativistic term.\n\nThe result matches Einstein's prediction. It is one of the first direct experimental confirmations of time dilation, thirty-three years after the 1905 paper, and the experiment has since been redone in storage rings, with a precision thousands of times greater.\n\n## What It Shifts\n\nThe name “Doppler effect” actually covers two distinct phenomena. The first is a matter of geometry: wave crests bunching up or stretching out. The second is a matter of time: two observers in relative motion do not agree on the rate of each other's clocks.\n\nAt ordinary speeds, the second is undetectable and only the first shows up. That is why a siren and a galaxy seem to follow the same principle. At the scale of a particle accelerator, the hierarchy reverses. And on navigation satellites, the relativistic drift of the clocks reaches a few tens of microseconds per day: without constant correction, positioning would become unusable within a few hours.",
+  "citation": {
+    "texte": "For us convinced physicists, the distinction between past, present and future is only an illusion, however stubborn.",
+    "auteur": "Albert Einstein",
+    "source": "Letter to the family of Michele Besso, March 21, 1955 — translated from German",
+    "url": "https://quoteinvestigator.com/2024/03/18/stubborn-illusion/"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "It passes perpendicular, doesn't approach, and its light reddens anyway.",
+    "idee": "At 90°, no approach speed can explain the shift. What remains comes from time itself: a moving clock ticks more slowly. Ives and Stilwell measured it in 1938.",
+    "source_courte": "Ives & Stilwell, JOSA, 1938"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Modern Ives-Stilwell Experiments at Storage Rings",
+      "url": "https://arxiv.org/abs/1309.0549",
+      "note": "How a 1938 experiment is redone today."
+    }
+  ],
+  "quiz": {
+    "question": "Where does the redshift of a fast source passing exactly perpendicular to us come from?",
+    "choix": [
+      "From time dilation: the moving source ticks more slowly",
+      "From a leftover approach speed, impossible to cancel in practice",
+      "From the absorption of part of the light by the medium it passes through",
+      "From the source's gravity, which stretches the light escaping from it"
+    ],
+    "bonne_reponse": 0,
+    "explication": "At 90°, the approach component is zero: the geometry of waves predicts no shift. What remains comes from the slowing of the moving clock; a light source being a clock, its perceived frequency drops. It is a purely relativistic effect, with no equivalent for sound. Gravitational redshift, for its part, is a distinct phenomenon, tied to mass and not to speed.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Why did Ives and Stilwell not simply aim at a 90-degree angle in 1938?",
+      "choix": [
+        "Because aiming at exactly that angle is out of reach, and the effect there is minuscule",
+        "Because special relativity forbids any measurement at a right angle",
+        "Because their instrument could only measure beams parallel to the ground",
+        "Because Einstein had recommended another method in his 1905 paper"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Aiming at exactly the right angle is out of reach in practice, and the effect there is minuscule, immediately drowned out by the classical Doppler effect as soon as the slightest approach component remains."
+    },
+    {
+      "question": "How do Ives and Stilwell measure the effect without aiming at the right angle, in 1938?",
+      "choix": [
+        "By using a circular accelerator that cancels any approach motion",
+        "By comparing the light from two sources placed at different speeds",
+        "By averaging two measurements of opposite signs, along the axis of motion and along the opposite axis",
+        "By measuring the shift on thousands of stars to smooth out the aiming error"
+      ],
+      "bonne_reponse": 2,
+      "explication": "They observe the beam along the axis of motion and its image reversed by a mirror: the two classical shifts, of opposite signs, cancel on average and leave only the relativistic term."
+    },
+    {
+      "question": "What does the entry say about the acoustic Doppler effect during an exactly perpendicular passage?",
+      "choix": [
+        "It still produces a slight redshift, weaker than on approach",
+        "The note becomes exactly the one it had at the start, because the approach speed is zero",
+        "It reverses abruptly, going from a high-pitched sound to a low one",
+        "It becomes unpredictable and varies with the observer's distance"
+      ],
+      "bonne_reponse": 1,
+      "explication": "For sound, at the precise moment of perpendicular passage, there is neither approach speed nor receding speed, so no shift: the note becomes exactly the one it had at the start."
+    }
+  ]
+}

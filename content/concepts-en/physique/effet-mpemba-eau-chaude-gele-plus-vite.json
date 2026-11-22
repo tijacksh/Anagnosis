@@ -1,0 +1,67 @@
+{
+  "id": "phy-effet-mpemba-eau-chaude-gele-plus-vite",
+  "slug": "effet-mpemba-eau-chaude-gele-plus-vite",
+  "langue": "en",
+  "empreinte_fr": "d58ed8f3be95836c",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Does Hot Water Freeze Faster Than Cold Water?",
+  "accroche": "Observed by a Tanzanian schoolboy, challenged in 2016 on water, reproduced in 2020 on a particle: the answer depends on what you measure.",
+  "contenu_vulgarise": "Put two bowls of water in the freezer, one lukewarm, the other scalding. Which freezes first? Common sense answers: the lukewarm one, which has less distance to travel. The Mpemba effect claims the opposite. The question is older, and more disputed, than you might think.\n\n## An Old Intuition, a Schoolboy, a Paper\n\nIn their 2016 study, Burridge and Linden trace the prehistory of the idea. Aristotle, in the 4th century BCE, in the *Meteorologica*, mentions fishermen of Pontus who pour hot water around their reeds so that it freezes faster. Francis Bacon, in the 17th century, writes in the *Novum Organum* that slightly warm water freezes more easily than water that is quite cold. Descartes, in his *Meteorology* (*Les Météores*), invokes evaporation.\n\nThe name comes from a Tanzanian schoolboy, Mpemba, who notices that his ice cream mixture, put to freeze still hot after boiling, sets before that of a classmate who had not boiled his. The physicist Denis Osborne, of University College in Dar es Salaam, takes up the observation with his students. Their paper, titled “Cool?”, appears in 1969 in *Physics Education*.\n\n## A Careful Experiment, a Contrary Result\n\nIn 2016, Henry Burridge and Paul Linden redo the experiment rigorously and publish in *Scientific Reports*. Three 400 g samples, brought to 21.8, 57.3, and 84.7 °C, are placed in a freezer: they reach 0 °C in 6,397, 9,504, and 10,812 seconds. The hotter the water, the longer it takes.\n\nTheir conclusion fits in one sentence: no evidence of significant observations of the effect. They measure only the cooling down to 0 °C, not the freezing itself. But they also review the studies that did measure freezing, and attribute their variability to nucleation (the formation of the first ice crystals), which is very sensitive to tiny differences in container and impurities. A report in *Chemistry World* is headlined on the frosty reception given to this conclusion.\n\n## The Same Effect, Without a Freezer\n\nIn 2020, Avinash Kumar and John Bechhoefer, of Simon Fraser University, publish in *Nature* an experiment of an entirely different kind: a colloidal particle (a tiny grain in suspension) immersed in water, which serves as a heat reservoir. The authors observe the Mpemba effect there: the system that is initially hotter cools faster than the lukewarmer one. With well-chosen parameters, the cooling is even exponentially faster than with usual parameters, as a “strong Mpemba effect” predicted. The results are reproducible and consistent with a recent theoretical framework.\n\nThe effect therefore exists, in a system simple enough to be understood. In the water where it was first seen, the question remains disputed, and it depends on what you measure: the time to reach 0 °C, the appearance of the first crystal, or complete ice.\n\nDoes the water in your freezer obey the same mechanics as that grain?",
+  "citation": null,
+  "repere": {
+    "texte": "Three 400 g samples of water, brought to 21.8 °C, 57.3 °C, and 84.7 °C, took 6,397, 9,504, and 10,812 seconds to reach 0 °C in a freezer.",
+    "source": "Burridge & Linden, “Questioning the Mpemba effect,” Scientific Reports 6:37665, November 24, 2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121640"
+  },
+  "carte": {
+    "punch": "Does hot water freeze faster? It depends on what you measure.",
+    "idee": "In 2016, three water samples at 21.8, 57.3, and 84.7 °C took longer and longer to reach 0 °C. In 2020, however, a particle in water cooled faster while starting hotter. The Mpemba effect depends on the system and on the definition.",
+    "source_courte": "Burridge & Linden, 2016; Kumar & Bechhoefer, Nature, 2020"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Burridge & Linden, “Questioning the Mpemba effect,” Scientific Reports, 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121640",
+      "note": "Full open-access text, with the details of the protocol and the history of the idea."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the question “does hot water freeze faster?” not have a simple answer?",
+    "choix": [
+      "Because no one has ever measured the cooling time of water",
+      "Because thermodynamics forbids a hot body from cooling faster than a lukewarm one",
+      "Because hot water and cold water always reach 0 °C at the same instant",
+      "Because the answer depends on what is measured and on conditions that are hard to control"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Reaching 0 °C, forming a first crystal, and freezing completely are three different measurements, and nucleation varies with the container and impurities. Thermodynamics does not forbid the effect: in 2020, a particle in water reproduced it. The cooling time down to 0 °C was indeed measured in 2016: from 6,397 s to 10,812 s depending on the sample.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In the 2016 experiment, which sample takes the longest to reach 0 °C?",
+      "choix": [
+        "The one at 21.8 °C, the coldest at the start",
+        "The one at 57.3 °C, halfway between the other two",
+        "All three take exactly the same time",
+        "The one at 84.7 °C, the hottest at the start"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The sample at 84.7 °C takes 10,812 seconds, against 9,504 at 57.3 °C and 6,397 at 21.8 °C: the hotter the water, the longer it takes. All three times are measured and different."
+    },
+    {
+      "question": "What does Kumar and Bechhoefer's 2020 experiment show?",
+      "choix": [
+        "That hot water always freezes faster than lukewarm water",
+        "That a colloidal system that is initially hotter can cool faster than a lukewarmer one",
+        "That the Mpemba effect was a measurement error with no physical basis",
+        "That evaporation entirely explains the effect observed in water"
+      ],
+      "bonne_reponse": 1,
+      "explication": "In a simple, controlled system, a colloidal particle immersed in water, the effect exists for certain parameters and can be calculated. This proves nothing for freezer water, and says nothing about evaporation."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "phy-exoplanetes-vitesse-radiale",
+  "slug": "exoplanetes-vitesse-radiale",
+  "langue": "en",
+  "empreinte_fr": "d3ca975c2cc54fa1",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Weighing a World We Will Never See",
+  "accroche": "The first exoplanet around a Sun-like star was not seen. We saw its star stagger.",
+  "contenu_vulgarise": "On October 6, 1995, at a conference in Florence, Michel Mayor and Didier Queloz announce the discovery of a planet orbiting 51 Pegasi, a star comparable to the Sun, about fifty light-years away. The paper that establishes it appears in *Nature* only six weeks later, on November 23. The measurements were made in France, at the Haute-Provence Observatory, with the ELODIE spectrograph.\n\nThey never saw this planet. They never will. What they measured was a tremor.\n\n## The Star Moves, Too\n\nA planet does not orbit its star: the two orbit their common center of mass. Since the star is overwhelmingly more massive, this center lies very close to it, often inside the star itself. The motion is no less real: the star traces a small circle, periodically, at the pace of the planet.\n\nSeen from Earth, this becomes an alternation. The star moves very slightly closer, then farther away, indefinitely. And a light source that approaches and then recedes means a spectrum that slides toward the blue, then toward the red, then toward the blue again.\n\nThe task is therefore no longer to photograph a planet, but to measure a periodic spectral shift and deduce what causes it: the period gives the length of the orbit, the amplitude gives a minimum mass.\n\n## The Scale of the Problem\n\nUnder the influence of its planet, 51 Pegasi moves at about 55 meters per second. The speed of a train. Compared with the 300,000 kilometers per second of light, it shifts the lines of the spectrum by barely two ten-millionths of their position.\n\nThe Sun, seen from afar, wobbles at 13 meters per second under the influence of Jupiter. Under that of the Earth: 9 centimeters per second. Today, speeds on the order of a meter per second are measured routinely, at tens of light-years' distance, the pace of a leisurely walk.\n\n## What the Waiting Cost\n\n51 Pegasi b should not have existed. It is a gas giant on the order of Jupiter's mass, but it completes its orbit in a little over four days, seven times closer to its star than Mercury is to the Sun. The planetary formation models of the day ruled out such a configuration.\n\nOther teams, however, had instruments capable of detecting it. They were looking for periods of several years, modeled on our own solar system, and were not examining short periods. The signal was within the instruments' reach; it was expectation that was not.\n\nMayor and Queloz received the Nobel Prize in Physics in 2019. Several thousand exoplanets are listed today.",
+  "citation": null,
+  "repere": {
+    "texte": "Under the influence of Jupiter, the Sun seen from afar wobbles at 13 meters per second. Under the influence of the Earth: 9 centimeters per second.",
+    "source": "Nobel Committee, “Scientific Background on the Nobel Prize in Physics 2019,” orders of magnitude for the radial velocity method",
+    "url": "https://www.nobelprize.org/prizes/physics/2019/queloz/facts/"
+  },
+  "carte": {
+    "punch": "The first exoplanet was not seen. We saw its star stagger.",
+    "idee": "51 Pegasi moves at 55 m/s under the influence of its planet, enough to shift its spectrum by two ten-millionths. Other teams had the instruments: they were looking for orbits of several years, not four days.",
+    "source_courte": "Mayor & Queloz, Nature, 1995"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Mayor & Queloz (1995), Nature",
+      "url": "https://www.nature.com/articles/378355a0",
+      "note": "Five pages (Nature, 378, pp. 355-359), including a radial velocity curve that is enough to understand the method."
+    }
+  ],
+  "quiz": {
+    "question": "What exactly does the radial velocity method measure?",
+    "choix": [
+      "The drop in the star's brightness when the planet passes in front of it",
+      "The light that the planet itself reflects toward our instruments",
+      "The back-and-forth motion of the star around its common center of mass",
+      "The distortion of space-time caused by the planet's mass"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The planet remains invisible: it is the star's periodic spectral shift, alternately toward the blue and toward the red, that betrays its presence. The drop in brightness corresponds to another method, transits; reflected light belongs to direct imaging, which is much harder.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How much time passes between the announcement in Florence and the publication of the paper in Nature?",
+      "choix": [
+        "Exactly one year",
+        "About six months",
+        "About six weeks",
+        "Barely three days"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The announcement takes place on October 6, 1995, at a conference in Florence, but the paper that establishes the discovery appears in Nature only on November 23, about six weeks later."
+    },
+    {
+      "question": "Why did 51 Pegasi b surprise astronomers of the time so much?",
+      "choix": [
+        "Because it completes its orbit in a little over four days, much closer to its star than expected",
+        "Because it is far more massive than all the planets of the solar system combined",
+        "Because it was detected by direct imaging, a method thought impossible at the time",
+        "Because it orbits two stars at once"
+      ],
+      "bonne_reponse": 0,
+      "explication": "51 Pegasi b is a gas giant whose orbit lasts a little over four days, seven times closer to its star than Mercury is to the Sun. The planetary formation models of the day ruled this out."
+    },
+    {
+      "question": "Why did other teams, which nonetheless had instruments capable of detecting 51 Pegasi b, not find it first?",
+      "choix": [
+        "They were working on stars too distant to obtain a usable signal",
+        "They did not yet have spectrographs precise enough for this kind of measurement",
+        "They were concentrating their observations on stars very different from the Sun",
+        "They were looking for orbital periods of several years, and were not examining short periods"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The signal was within reach of their instruments, but these teams were looking for orbits of several years, modeled on the solar system, and were not examining short periods like that of 51 Pegasi b."
+    }
+  ]
+}
