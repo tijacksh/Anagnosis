@@ -1,0 +1,78 @@
+{
+ "id": "phi-moulin-de-leibniz",
+ "slug": "moulin-de-leibniz",
+ "langue": "en",
+ "empreinte_fr": "467ee34ed2b9ae97",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The body says Leibniz's argument precedes the “hard problem of consciousness” by two and a half centuries, and later says “three centuries before brain imaging”; the two round figures are mutually inconsistent and approximate (1714 to the 1990s is about 280 years). Translated as written."
+  },
+  {
+   "chemin": "quiz_supplementaire/0/choix/1",
+   "type": "erreur-possible-fr",
+   "note": "The French says the Monadology was “published in 1714” (also in the explanation); it was written in 1714 but, to my knowledge, first published posthumously (about 1720-1721). To be checked by the French repair routine; translated as written."
+  }
+ ],
+ "titre": "Leibniz's Mill",
+ "accroche": "Step into a brain enlarged to the size of a mill. You will see nothing but gears, never a thought.",
+ "contenu_vulgarise": "Imagine that one could build a machine capable of thinking, feeling, perceiving, and enlarge it, without changing its proportions, until it was the size of a mill. One could then walk around inside it as inside a windmill, among the gears.\n\nWhat would one find? In 1714, in his *Monadologie* (*Monadology*), the German philosopher and mathematician Gottfried Wilhelm Leibniz answers: parts pushing one another, nothing more. No part, no gear, no connection between two parts would resemble, even remotely, a perception. One would look in vain, in this building-sized machine, for the place where thought resides.\n\n## The Argument\n\nLeibniz has a precise target: the idea, already defended in his day, that thought could be reduced entirely to matter in motion, to shapes, collisions, mechanisms. His thought experiment consists of taking this idea at its word and examining it at the scale where it should, if true, become visible. If thought were nothing but mechanism, enlarging the mechanism should let us see the thought lodged in it, as we see the teeth of gears bite into one another.\n\nBut that is not what happens. One finds only parts acting on one another by contact, at whatever scale one examines them. Leibniz draws a precise conclusion: perception is not explained by mechanical reasons, neither by shapes nor by motions; one must look for it elsewhere than in an assemblage of parts, in what he calls the simple substance, or monad, a true and uncomposed unity, whereas matter divides to infinity without ever touching a final unity.\n\n## What This Shifts\n\nLeibniz's argument precedes by two and a half centuries what philosophers of mind now call the hard problem of consciousness: explaining why physical processes, however complex, are accompanied by lived experience rather than by nothing at all. Describing every neuron, every synapse, every electrical impulse of a brain still does not explain what it is like to see red or feel pain: exactly the gap Leibniz spots in his enlarged mill, three centuries before brain imaging.\n\nThe argument does not prove that consciousness escapes all scientific explanation: it shows only that a certain way of explaining it (by simply equating it with gearwork) always runs into the same absence, whatever the size of the machine built to look for it.",
+ "citation": null,
+ "repere": {
+  "texte": "The argument appears in paragraph 17 of the Monadology (1714). Leibniz had already sketched its conclusion twelve years earlier, in his 1702 letter to Bayle: perception is not explained by shapes or motions. It is in the Monadology that the image takes form of the mill that one would enlarge without ever seeing a thought appear in it.",
+  "source": "Gottfried Wilhelm Leibniz, Monadology, §17, 1714",
+  "url": "https://plato.stanford.edu/entries/leibniz-mind/"
+ },
+ "carte": {
+  "punch": "Enlarge a brain to the size of a mill. Walk in. You will never see a thought.",
+  "idee": "In 1714, Leibniz imagines a machine that would think, enlarged to the size of a mill one could visit. One would find only gears pushing one another: never a shadow of a perception. Hence his conclusion: thought is not reducible to mechanism.",
+  "source_courte": "Leibniz, Monadology, 1714"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy - Leibniz's Philosophy of Mind",
+   "url": "https://plato.stanford.edu/entries/leibniz-mind/",
+   "note": "The role of the argument in the theory of monads, and its place in contemporary debates on consciousness."
+  }
+ ],
+ "quiz": {
+  "question": "What does Leibniz conclude from his thought experiment of the enlarged mill?",
+  "choix": [
+   "That the machine would be too big for anyone to actually walk around in",
+   "That thought escapes mechanism and resides in a simple, uncomposed substance",
+   "That perception resides precisely in the smallest gears of the machine",
+   "That only a machine more perfected than the one he imagines could ever think"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Walking through the enlarged machine, one finds only parts pushing one another, never anything resembling a perception. Leibniz concludes that thought escapes mechanism and must reside in a simple substance: not in the size of the machine, nor in a particular gear, nor in some future technical improvement.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In which text and at which paragraph does the mill argument appear, according to the entry's reference point?",
+   "choix": [
+    "In the New Essays on Human Understanding, preface",
+    "In the Monadology, at paragraph 17, published in 1714",
+    "In the Discourse on Metaphysics, at paragraph 9",
+    "In the 1702 letter to Bayle, in its entirety"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The enlarged-mill argument takes form at paragraph 17 of the Monadology, published in 1714, with numbering identical in all editions of the text."
+  },
+  {
+   "question": "What precise idea does Leibniz target with his mill thought experiment?",
+   "choix": [
+    "That thought would be reducible entirely to matter in motion, shapes and collisions",
+    "That eighteenth-century windmills were poorly designed to produce energy",
+    "That only human monads, and not animal ones, can perceive anything at all",
+    "That the Monadology was meant to entirely replace Descartes's work on the soul"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Leibniz targets an idea already defended in his day, that thought would be reducible entirely to matter in motion, shapes, collisions, pure physical mechanisms."
+  }
+ ]
+}

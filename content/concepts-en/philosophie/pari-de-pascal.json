@@ -1,0 +1,90 @@
+{
+ "id": "phi-pari-de-pascal",
+ "slug": "pari-de-pascal",
+ "langue": "en",
+ "empreinte_fr": "4c9da5ea9d2cf299",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Translated from the French original (Pascal, Pensées); a published English translation was not retrieved (original not retrieved)."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "“A century before decision theory existed” is questionable: Pascal's wager dates from the 1650s-1660s; expected-utility reasoning is usually dated to Bernoulli (1738) and formal decision theory to the 20th century. Translated as written."
+  }
+ ],
+ "titre": "Pascal's Wager",
+ "accroche": "It is not an argument for believing. It is an argument for those for whom proofs are not enough.",
+ "contenu_vulgarise": "The fragment is famous and rarely read. In the *Pensées* (*Thoughts*), under the title “Infinite, Nothing,” Pascal develops a line of reasoning usually summed up this way: wager that God exists, you have nothing to lose and everything to gain.\n\nSummed up like that, the wager seems cynical, almost commercial. The text does something else.\n\n## Whom It Addresses\n\nPascal does not claim to prove the existence of God. He writes it explicitly: reason cannot decide. God is, or he is not, but to which side shall we incline? Reason can determine nothing here.\n\nThe argument is therefore tailored to a precise situation: that of someone whom proofs have not convinced, and who cannot settle into indifference either, because he is staking his life anyway. This is the point most often glossed over: according to Pascal, one cannot *not* wager. To live is already to have placed a stake.\n\n## The Structure\n\nNext comes the calculation. If you bet on the existence of God and you are right, the gain is infinite. If you are wrong, the loss is finite, a few pleasures. A chance of infinite gain against a bounded loss: whatever the probability, even a very small one, the calculation tips the same way.\n\nThis is, formally, an expected-value argument applied to a decision, a century before decision theory existed. Pascal, who had just founded the calculus of probabilities in his correspondence with Fermat, applies his own tool here to an unexpected object.\n\n## The Objections, Some of Which He Knew\n\nThe strongest is an old one: why that god? The reasoning works for any divinity promising an infinite gain, and these divinities exclude one another. The wager, if it holds, proves too much.\n\nAnother concerns sincerity: one does not decide to believe as one decides to bet. Pascal anticipated it, and his answer is disconcerting: he advises acting first, following the gestures and habits, admitting that conviction may follow. Belief, for him, has less to do with intellectual assent than with habituation.\n\n## What This Shifts\n\nThe wager is cited as a curiosity, sometimes as a weakness. It is in fact one of the first texts to treat a question of meaning as a problem of decision under uncertainty, and to accept that reason, at times, supplies not the answer but only the form of the choice.",
+ "citation": {
+  "texte": "God is, or he is not. But to which side shall we incline? Reason can determine nothing here.",
+  "auteur": "Blaise Pascal",
+  "source": "Pensées, fragment 418 (Lafuma ed.) / 233 (Brunschvicg ed.)",
+  "url": "https://fr.wikisource.org/wiki/Pens%C3%A9es_(Pascal,_%C3%A9d._Brunschvicg)/Pens%C3%A9es/Section_III"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Pascal's wager is not an argument for believing in God.",
+  "idee": "Pascal begins by admitting that reason cannot decide: “God is, or he is not... reason can determine nothing here.” The wager addresses the person whom proofs have not convinced, and it holds that one cannot abstain from betting.",
+  "source_courte": "Pascal, Pensées, fr. 418 (Lafuma)"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy - Pascal's Wager",
+   "url": "https://plato.stanford.edu/entries/pascal-wager/",
+   "note": "Including the objection of competing gods, the soundest one."
+  }
+ ],
+ "quiz": {
+  "question": "On what premise does Pascal rest his whole wager?",
+  "choix": [
+   "That the rational proofs of God's existence are ultimately convincing",
+   "That reason cannot decide, and yet one cannot abstain from wagering",
+   "That religious belief provides a happier life here and now",
+   "That doubt is a moral fault as much as an error of judgment"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Pascal grants from the outset that reason is powerless to establish God's existence; this is the starting point, not a late concession. The wager therefore addresses only the person whom proofs leave undecided, and it rests on the idea that one stakes one's life anyway: abstention is not an available option.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is the oldest and strongest objection raised against Pascal's wager?",
+   "choix": [
+    "The reasoning holds for any divinity promising an infinite gain, and these divinities exclude one another",
+    "The calculus of probabilities that Pascal was developing with Fermat does not apply to religious questions",
+    "No one can decide to believe in God by a mere calculation, even sincerely wanting to",
+    "A gain described as infinite has, according to the objectors, strictly no mathematical meaning"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The strongest objection, known as the competing gods objection, is that the reasoning works for any divinity promising an infinite gain, and that these divinities exclude one another."
+  },
+  {
+   "question": "How does Pascal answer the objection that one does not decide to believe as one decides to bet?",
+   "choix": [
+    "He acknowledges that the objection is decisive and abandons his reasoning",
+    "He advises acting first, following the gestures and habits, admitting that conviction may follow",
+    "He asserts that sincere belief is not necessary to win the wager",
+    "He proposes replacing inner belief entirely with a mere public declaration of faith"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Pascal advises acting first, following the gestures and habits, admitting that conviction may follow: belief, for him, has less to do with assent than with habituation."
+  },
+  {
+   "question": "Which tool had Pascal just developed, with Fermat, at the time of writing his wager?",
+   "choix": [
+    "Differential calculus",
+    "Analytic geometry",
+    "The calculus of probabilities",
+    "Modern formal logic"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Pascal, who had just founded the calculus of probabilities in his correspondence with Fermat, applies his own tool here to an unexpected object, a wager on the existence of God."
+  }
+ ]
+}

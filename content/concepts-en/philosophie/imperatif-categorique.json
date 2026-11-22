@@ -1,0 +1,85 @@
+{
+ "id": "phi-imperatif-categorique",
+ "slug": "imperatif-categorique",
+ "langue": "en",
+ "empreinte_fr": "73badbeb5c2369b9",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "Translated from the French translation cited in the entry (Delbos); a published English translation of the Groundwork was not retrieved (original not retrieved)."
+  }
+ ],
+ "titre": "The Categorical Imperative",
+ "accroche": "It is not “do not do to others what you would not want done to you.” Kant cared a great deal about the difference.",
+ "contenu_vulgarise": "In 1785 Kant published the *Groundwork of the Metaphysics of Morals*, a short and demanding book from which one formula is remembered: act only according to that maxim which you can will to become a universal law.\n\nIt is almost always compared to the golden rule, do not do to others what you would not want done to you. Kant rejects the comparison, and his reason sheds light on what he is really after.\n\n## What the Test Asks\n\nThe imperative does not ask what you would accept suffering. It asks whether the rule on which you act could be followed by everyone without destroying itself.\n\nTake the false promise. Its maxim would be: “I make promises without keeping them when it suits me.” Universalized, it cancels itself: if everyone promised this way, no one would give the slightest credit to a promise anymore, and the act of promising would cease to exist. The problem is not that the result would be unpleasant: it is that the maxim becomes incoherent. To work, it needs others not to follow it.\n\nThat is the whole difference from the golden rule. The golden rule questions your preferences; the imperative questions the coherence of your rule. Kant objects, moreover, that reciprocity leads to absurd conclusions: a defendant could invoke the fact that he would not want to be convicted in order to contest his judge's legitimacy.\n\n## The Second Formula\n\nKant gives several versions, one of them more immediately telling: act so that you treat humanity, in yourself as in others, always also as an end, and never merely as a means.\n\nThe decisive word is “merely.” Kant does not forbid making use of others; all social life is an exchange of services. He forbids reducing them to that.\n\n## What This Shifts\n\nKantian morality has a consequence that many judge unacceptable, and that he embraces: consequences do not count. Lying to save a life remains a lie. Kant devoted an entire text to this case, in 1797, and did not yield an inch.\n\nThis is the point where one decides whether to follow him. A morality that judges the act by its form, independently of its effects, has a rare solidity: it is not renegotiated case by case, which makes it very hard to instrumentalize. It is also what makes it, in certain situations, almost untenable. The discussion has not been closed for two centuries, and Kant never claimed it would be comfortable.",
+ "citation": {
+  "texte": "Act only according to the maxim by which you can at the same time will that it become a universal law.",
+  "auteur": "Immanuel Kant",
+  "source": "Groundwork of the Metaphysics of Morals (1785) - translated from the German",
+  "url": "https://fr.wikisource.org/wiki/Fondements_de_la_m%C3%A9taphysique_des_m%C5%93urs_(trad._Delbos)"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "The categorical imperative is not the golden rule. Kant cared about the difference.",
+  "idee": "The golden rule questions your preferences. Kant questions the coherence of your rule: the false promise collapses if everyone practices it, because no one would believe promises anymore. To work, it requires that others not follow it.",
+  "source_courte": "Kant, Groundwork of the Metaphysics of Morals, 1785"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy - Kant's Moral Philosophy",
+   "url": "https://plato.stanford.edu/entries/kant-moral/",
+   "note": "The different formulas of the imperative and how they relate."
+  }
+ ],
+ "quiz": {
+  "question": "What distinguishes the categorical imperative from the golden rule?",
+  "choix": [
+   "It questions the coherence of the rule, not what you would accept suffering",
+   "It applies to collective institutions rather than to private persons",
+   "It evaluates the foreseeable consequences of the act rather than its intention",
+   "It tolerates exceptions when the situation is serious enough"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The golden rule goes through your preferences; Kant sets them aside and asks whether your maxim, universalized, would destroy itself. He explicitly rejects reciprocity, which would allow a defendant to contest his judge. And he refuses both the calculation of consequences and circumstantial exceptions, even in the case of the lie that would save a life.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Kant maintain in his 1797 text on lying?",
+   "choix": [
+    "A lie remains a lie, even if it is meant to save a life",
+    "Lying is admissible only if the truth threatens another person's life",
+    "Lying is blameworthy only when it causes measurable harm",
+    "Lying to an illegitimate tyrant is not a moral fault"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Kant devotes this entire text to refusing any exception: lying to save a life remains a lie, and he did not yield an inch on this point, however uncomfortable the conclusion."
+  },
+  {
+   "question": "According to the second formula of the categorical imperative, what must one avoid in one's relation to others?",
+   "choix": [
+    "Making use of others for services, which is always illegitimate",
+    "Reducing humanity, in oneself as in others, to a mere means",
+    "Expressing a moral judgment on another person's acts",
+    "Concluding an agreement from which both parties do not profit equally"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The decisive word is merely: Kant does not forbid making use of others, social life depends on it; he forbids only reducing humanity, in oneself or in others, to a pure means."
+  },
+  {
+   "question": "Why does the maxim of the false promise collapse, once universalized, according to Kant?",
+   "choix": [
+    "Because a judge would eventually forbid it explicitly in every country",
+    "Because it would make every commercial contract impossible to draft",
+    "Because it would be rejected by the greatest number of people",
+    "Because, to work, it requires that others not follow it"
+   ],
+   "bonne_reponse": 3,
+   "explication": "If everyone promised without keeping their word, no one would give credit to a promise anymore: to work, the maxim needs others not to follow it, which makes it incoherent once universalized."
+  }
+ ]
+}

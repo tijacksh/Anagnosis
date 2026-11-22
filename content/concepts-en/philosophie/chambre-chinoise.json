@@ -1,0 +1,85 @@
+{
+ "id": "phi-chambre-chinoise",
+ "slug": "chambre-chinoise",
+ "langue": "en",
+ "empreinte_fr": "76e5f7812c214e3c",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Chinese Room",
+ "accroche": "A locked-in man follows a rulebook and answers perfectly in Chinese. Does he understand Chinese?",
+ "contenu_vulgarise": "In 1980, the philosopher John Searle published in *Behavioral and Brain Sciences* a thought experiment that has never stopped being debated.\n\nA man is locked in a room. Sheets covered with Chinese characters are slipped under the door. He does not know a word of Chinese. But he has a rulebook, written in his own language, that tells him which characters to produce in response to which characters received. He applies the rules and sends his sheets back out.\n\nOutside, a Chinese speaker finds the answers flawless. He concludes that his interlocutor understands Chinese.\n\n## The Argument\n\nSearle asks: does the man in the room understand Chinese?\n\nObviously not. He manipulates symbols according to their shape, with no access to what they mean. Yet that is exactly, says Searle, what a program does: it transforms symbols according to rules.\n\nHence his conclusion. A system can pass any test of linguistic behavior without understanding anything. Syntax is not enough to produce semantics; manipulating symbols correctly is not grasping their meaning.\n\nThe target is precise: what Searle calls strong AI, the thesis that a suitably designed program would, by that very fact, have a mind. He does not deny that a machine can be useful, or even that one might someday think. He denies that running a program is enough.\n\n## The Serious Objection\n\nThe most discussed reply is the so-called systems reply. The man alone does not understand, granted, but the question concerns the whole: the man, the rulebook, the sheets, the room. Perhaps it is this overall system that understands, just as no single neuron understands French.\n\nSearle replies by asking us to imagine that he memorizes the entire rulebook: he becomes the whole system by himself, and still understands nothing. The exchange has not been settled, and it has structured forty years of debate.\n\n## What This Shifts\n\nThe experiment has taken on a relevance Searle did not anticipate. Systems now converse fluently about almost anything, and knowing what happens, or does not happen, inside them is no longer an academic question.\n\nIt has also become harder to wield. Searle's rulebook was finite, written by hand, and one could say what it contained. A contemporary model has no rulebook one can consult. So one can no longer, as he did, describe the room from the inside and calmly draw a conclusion. The thought experiment remains; the intuition it relied on is less easy to summon.",
+ "citation": null,
+ "repere": {
+  "texte": "The argument targets what Searle calls “strong AI”: the thesis that a suitably designed program would, by that fact alone, have a mind. He does not claim that a machine could never think.",
+  "source": "John Searle, “Minds, Brains, and Programs,” Behavioral and Brain Sciences, 1980",
+  "url": "https://doi.org/10.1017/s0140525x00005756"
+ },
+ "carte": {
+  "punch": "He answers perfectly in Chinese without knowing a word of Chinese.",
+  "idee": "Searle's man applies a rulebook: his answers are flawless, yet he understands nothing. Searle's thesis: manipulating symbols according to their shape does not produce meaning. The debate, opened in 1980, has never been settled.",
+  "source_courte": "Searle, Behavioral and Brain Sciences, 1980"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy - The Chinese Room Argument",
+   "url": "https://plato.stanford.edu/entries/chinese-room/",
+   "note": "Forty years of objections, sorted and discussed."
+  }
+ ],
+ "quiz": {
+  "question": "Which precise thesis is the Chinese room argument trying to refute?",
+  "choix": [
+   "That a machine could someday match human intelligence",
+   "That language is the best indicator of the presence of a mind",
+   "That artificial neural networks poorly imitate the biological brain",
+   "That running the right program is enough to have a mind"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Searle targets what he calls “strong AI”: the idea that a suitably designed program would, by that very fact, possess a mind. He does not rule out that a machine might someday think; he denies that running a program is enough. His argument concerns the nature of symbolic computation, not the biological fidelity of models.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does the Chinese speaker outside the room react to the answers of the locked-in man?",
+   "choix": [
+    "He finds the answers flawless and concludes that his interlocutor understands Chinese",
+    "He immediately guesses that his interlocutor does not understand Chinese",
+    "He refuses to continue the exchange, judging the answers incoherent"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text states that the Chinese speaker finds the answers flawless and concludes, wrongly according to Searle, that his interlocutor understands Chinese."
+  },
+  {
+   "question": "How does Searle answer the so-called systems reply, according to which the whole of man, rulebook, and room would understand Chinese?",
+   "choix": [
+    "He admits that the objection is decisive and abandons his argument",
+    "He asks us to imagine that he memorizes the entire rulebook, becoming the whole system, with no more understanding",
+    "He claims that only a computer, not a human system, could understand"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Searle replies by imagining that he memorizes the entire rulebook: he then becomes, by himself, the whole system described by the objection, and yet he still does not understand Chinese."
+  },
+  {
+   "question": "How does a contemporary conversational model, according to the entry, complicate the way Searle's argument can be taken up?",
+   "choix": [
+    "Because it no longer manipulates any symbols, unlike the man in the room",
+    "Because it now provably understands the meaning of the words it produces",
+    "Because it has no rulebook one can consult, whereas Searle's was finite and describable"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text stresses that Searle's rulebook was finite and one could say what it contained, whereas a contemporary model has no rulebook one can consult: one can no longer describe the room from the inside so simply."
+  },
+  {
+   "question": "What does Searle not deny, about machines, in his Chinese room argument?",
+   "choix": [
+    "That a machine can be useful, or even that it might someday think",
+    "That the Turing test is a good indicator of the presence of a mind",
+    "That artificial neural networks faithfully imitate the brain"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text states that Searle does not deny that a machine can be useful, or even that it might someday think: he denies only that running a program is enough, by itself, to produce a mind."
+  }
+ ]
+}

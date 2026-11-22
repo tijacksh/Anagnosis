@@ -1,0 +1,85 @@
+{
+ "id": "phi-probleme-de-l-induction",
+ "slug": "probleme-de-l-induction",
+ "langue": "en",
+ "empreinte_fr": "c97d7f1b70cbf02e",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "The French is a translation of Hume's English (Enquiry, Section V); the English original was not retrieved in this pass, so the sentence is translated back from the French (original not retrieved). The url already points to the English text."
+  }
+ ],
+ "titre": "The Problem of Induction",
+ "accroche": "The sun has risen every morning for as long as anyone knows. Nothing proves it will rise tomorrow.",
+ "contenu_vulgarise": "You have seen the sun rise thousands of times. You conclude that it will rise tomorrow, and this conclusion seems to you the best-established thing in the world.\n\nIn the eighteenth century, David Hume asks a question that does not close: what exactly does this passage from the past to the future rest on?\n\n## The Circle\n\nWe infer from what has been to what will be. But this inference presupposes a principle: nature will go on behaving as it has up to now. Let us call it the uniformity of nature.\n\nHow can it be justified? Two routes, both closed.\n\nBy logic alone? No. There is no contradiction in imagining that things change tomorrow. A world in which the sun does not rise is perfectly conceivable, therefore logically possible.\n\nBy experience? Here the trap closes. Saying “this principle has always worked, so it will work” amounts to using induction to justify induction. The reasoning assumes what it was supposed to establish.\n\nHume does not conclude that we should stop inducing; he observes that we cannot help it. He concludes that our confidence in the future rests on habit, not on reason: a psychological disposition, not a deduction.\n\n## Popper's Way Out, and Its Price\n\nIn the twentieth century, Karl Popper proposes a radical solution: give up induction. Science, he says, never proves its theories; it exposes them to refutation. A scientific theory is not a confirmed theory. It is a theory that could be contradicted by an observation, and has not been yet.\n\nThe shift is elegant. Its cost is rarely mentioned: if theories are never confirmed, what does the engineer building a bridge rely on? Popper speaks of corroboration, but it remains to be explained why a corroborated theory deserves to have one's life entrusted to it. Hume's problem is not dissolved; it is moved one notch.\n\n## What This Shifts\n\nThe matter seems academic. It is not. It is exactly the problem of everything that predicts from past data: a statistical model, a credit score, a weather forecast. Each assumes that tomorrow will resemble yesterday enough. That is often true. It is never demonstrated.\n\nHume did not find a flaw in our reasoning. He showed that there was no reasoning at that spot, only a habit that works, and that no one can say why.",
+ "citation": {
+  "texte": "All inferences from experience are therefore effects of custom, and not of reasoning.",
+  "auteur": "David Hume",
+  "source": "An Enquiry Concerning Human Understanding, Section V (1748)",
+  "url": "https://www.gutenberg.org/ebooks/9662"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "The sun has risen every morning for as long as anyone knows. That proves strictly nothing.",
+  "idee": "Justifying that the future will resemble the past already assumes that the future resembles the past: the reasoning goes in circles. Hume concludes that our confidence comes from habit, not reason. Every predictive model still rests on this hole.",
+  "source_courte": "Hume, An Enquiry Concerning Human Understanding, 1748"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy - The Problem of Induction",
+   "url": "https://plato.stanford.edu/entries/induction-problem/",
+   "note": "Why three centuries of attempts have not closed the question."
+  }
+ ],
+ "quiz": {
+  "question": "Why can induction not be justified by experience?",
+  "choix": [
+   "Because past experience is always too limited in number of cases",
+   "Because formal logic forbids reasoning about particular cases",
+   "Because that would be invoking induction to justify induction itself",
+   "Because past observations always contain measurement errors"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Saying “this principle has always worked, so it will work” uses precisely the inference that was supposed to be grounded: the reasoning presupposes its conclusion. The problem is neither the number of observations nor their precision. Even a perfect and unlimited experience would leave the circle intact.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why can logic alone not justify the principle of the uniformity of nature?",
+   "choix": [
+    "Because imagining that nature changes tomorrow is not contradictory",
+    "Because logic does not apply to natural phenomena",
+    "Because no philosopher had formalized this proof before Hume",
+    "Because logic demands prior experimental proofs"
+   ],
+   "bonne_reponse": 0,
+   "explication": "There is no contradiction in imagining that things change in the future: a world in which the sun does not rise remains logically conceivable."
+  },
+  {
+   "question": "What does Karl Popper propose in order to do without the problem of induction?",
+   "choix": [
+    "Replace science with pure mathematics",
+    "Found science on refutability rather than on confirmation",
+    "Definitively prove every theory by experience",
+    "Give up any claim of science to speak about the future"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Popper proposes that science never has to prove its theories, but only to expose them to possible refutation by observation."
+  },
+  {
+   "question": "What is the cost of Popper's solution, according to the entry?",
+   "choix": [
+    "It makes all scientific experimentation impossible in practice",
+    "It has been rejected by the entire scientific community",
+    "It does not say why a corroborated theory deserves trust",
+    "It henceforth forbids building bridges or machines"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Popper speaks of corroboration without explaining why a corroborated theory deserves trust: Hume's problem is moved, not solved."
+  }
+ ]
+}
