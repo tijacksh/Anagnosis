@@ -23,7 +23,8 @@
 import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
 import { loadAll, ROOT } from './store.js';
-import { fichesPubliables, serialiser, signer, retirees, CLE_ENV } from './publier.js';
+import { publication, serialiser, signer, retirees, CLE_ENV } from './publier.js';
+import { resumeRapport } from './traduction.js';
 
 const SRC = path.join(ROOT, 'site');
 const DEST = path.join(ROOT, 'export', 'site');
@@ -160,7 +161,11 @@ for (const nom of pagesVitrine) {
 // les apps de toute façon ; le publier quand même donnerait un endpoint qui a
 // l'air de marcher et ne marche pas. Mieux vaut qu'il soit absent, et que le
 // build le dise.
-const octetsContenu = serialiser(await fichesPubliables(publiables), retirees(toutes));
+//
+// `ANAGNOSIS_LANGUES=fr,en` y ajoute l'anglais, fiche par fiche, quand il est sûr
+// (`src/traduction.js`). Éteint par défaut : le fichier est alors celui d'avant, à l'octet.
+const { fiches: fichesContenu, rapport: rapportAnglais } = await publication(publiables);
+const octetsContenu = serialiser(fichesContenu, retirees(toutes));
 const signature = await signer(octetsContenu);
 if (signature) {
   const dossier = path.join(DEST, 'contenu');
@@ -175,3 +180,4 @@ console.log(`  export/site/            vitrine + contenu`);
 console.log(signature
   ? `  export/site/contenu/    contenu signé (${ko(octetsContenu.length)})`
   : `  export/site/contenu/    NON PUBLIÉ — aucune clé de signature (${CLE_ENV})`);
+for (const ligne of resumeRapport(rapportAnglais)) console.log(ligne);
