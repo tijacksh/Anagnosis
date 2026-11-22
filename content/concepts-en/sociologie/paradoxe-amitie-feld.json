@@ -1,0 +1,78 @@
+{
+  "id": "soc-paradoxe-amitie-feld",
+  "slug": "paradoxe-amitie-feld",
+  "langue": "en",
+  "empreinte_fr": "55ce4cdee2a82b00",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Friendship Paradox",
+  "accroche": "Your friends have, on average, more friends than you do, and this is true for almost everyone at once",
+  "contenu_vulgarise": "Take a small group of eight people and count, for each one, the number of friends in the group. Then, for each person, take the average number of friends that their own friends have. The sociologist Scott Feld did this calculation in 1991, and the result is surprising: in his example, the average number of friends per person is 2.5, but the average number of friends of friends climbs to 2.99. And five of the eight people each have fewer friends than the average of their own friends.\n\n## The Mechanism\n\nThis is not a fluke of this particular example: it is an almost inevitable mathematical consequence of the way a social network is built. A person with many friends appears, logically, on the friend lists of many people. A person with few appears on very few lists. Now when you average the friends of your friends, you count each popular person once for each of their ties, so they weigh more heavily in this calculation than in the calculation of the raw average, where each person counts only once.\n\nFeld proves the result in full generality: in almost any network where the number of friends varies from one person to another, the average of friends of friends exceeds the average of friends. It is therefore not a psychological effect; no one is mistaken in feeling less surrounded than their friends. It is a pure artifact of how the sample is drawn: by going through friends rather than through the people themselves, you systematically overrepresent well-connected people.\n\n## What It Shifts\n\nThe paradox is more than a dinner-party curiosity. It has found a concrete use in epidemiology: during a seasonal flu outbreak at Harvard in late 2009, researchers followed a group of randomly chosen students and a second group made up of the friends named by the first. The friends, more central in the social network by construction, came down with the flu on average two weeks before the control group, up to forty-six days before the epidemic's peak according to one of the measurement methods. Monitoring people's friends, rather than the people themselves, makes it possible to spot an epidemic that is starting before it becomes visible.\n\nThe same mechanism sheds a different light on the impression, in society or on social networks, that everyone around you is better surrounded than you are. This feeling is neither trivial nor purely subjective: it follows almost mechanically from the very structure of a network where popularity is not evenly distributed.",
+  "citation": null,
+  "repere": {
+    "texte": "In Feld's example, eight people, 2.5 friends on average, the average number of friends of friends reaches 2.99, and five people out of eight have fewer friends than the average of their own friends.",
+    "source": "Feld, Why Your Friends Have More Friends Than You Do, American Journal of Sociology, 1991",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/229693"
+  },
+  "carte": {
+    "punch": "Your friends have more friends than you do, on average: a network artifact, not an impression.",
+    "idee": "Well-surrounded people appear on more friend lists than others: the average of one's friends' friends therefore weighs more than the raw average. This 1991 mathematical paradox is used today to spot an epidemic before it becomes visible.",
+    "source_courte": "Feld, American Journal of Sociology, 1991"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Why Your Friends Have More Friends Than You Do (full text)",
+      "note": "Scott Feld's original article, with the details of the calculation.",
+      "url": "https://pdodds.w3.uvm.edu/research/papers/others/1991/feld1991a.pdf"
+    }
+  ],
+  "quiz": {
+    "question": "Why is the average number of friends of your friends almost always higher than your own number of friends?",
+    "choix": [
+      "Because people systematically overestimate, through pure psychological bias, the number of friends of those close to them",
+      "Because well-connected people appear on more friend lists, and therefore weigh more heavily in this particular calculation",
+      "Because the strongest and oldest friendships are, in general, never fully reciprocal",
+      "Because digital social networks artificially inflate, for commercial purposes, the number of friends displayed"
+    ],
+    "bonne_reponse": 1,
+    "explication": "It is neither a subjective overestimate, nor a lack of reciprocity, nor an effect of digital media: a highly connected person appears on a large number of friend lists, so they count several times when you calculate the average of friends of friends, a pure effect of how the calculation is built, true long before digital social networks.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In Feld's numerical example with eight people, how many of them have fewer friends than the average of their own friends?",
+      "choix": [
+        "None, since the paradox affects only larger groups",
+        "Two people out of eight",
+        "Five people out of eight",
+        "All eight people in the group, without exception"
+      ],
+      "bonne_reponse": 2,
+      "explication": "In Feld's example, five of the eight people each have fewer friends than the average number of friends of their own friends, despite a group average of 2.5."
+    },
+    {
+      "question": "How was the friendship paradox used during a flu outbreak at Harvard in late 2009?",
+      "choix": [
+        "It made it possible to vaccinate the most popular students first",
+        "It made it possible to spot the epidemic earlier by following the friends named by a randomly chosen group",
+        "It made it possible to calculate the economic cost of the epidemic for the university",
+        "It made it possible to identify students who had lied about their symptoms"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The group of named friends, more central in the network by construction, came down with the flu on average two weeks before the randomly chosen control group, up to 46 days before the epidemic peak."
+    },
+    {
+      "question": "According to the entry, why is the friendship paradox not a psychological effect?",
+      "choix": [
+        "Because it is a pure artifact of how the sample is drawn, which overrepresents well-connected people",
+        "Because laboratory tests ruled out any psychological explanation",
+        "Because the phenomenon shows up only among very sociable people",
+        "Because it disappears entirely once you ask people directly rather than their friends"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Feld proves that the result comes from how the sample is drawn: by going through friends rather than through the people themselves, you systematically overrepresent well-connected people."
+    }
+  ]
+}

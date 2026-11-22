@@ -1,0 +1,78 @@
+{
+  "id": "soc-segregation-schelling",
+  "slug": "segregation-schelling",
+  "langue": "en",
+  "empreinte_fr": "0fb3524141157e0c",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Schelling's Segregation Model",
+  "accroche": "Coins on a checkerboard are enough to show how a city separates itself without any of its inhabitants having wanted it",
+  "contenu_vulgarise": "In 1971, the economist Thomas Schelling places one-cent coins and five-cent coins on a checkerboard, with a few squares left empty. Each coin represents a household, each type of coin a group membership. The only rule: a coin stays on its square if a sufficient share of its immediate neighbors resemble it; otherwise, it moves to the nearest empty square that satisfies it. Then you start again, square after square, until no one wants to move anymore.\n\n## The Mechanism\n\nSchelling gives his coins only a preference that, at both levels he tests, remains compatible with a broad mix: wanting a third of their neighbors to resemble them, or wanting half to resemble them. Never exclusivity: even at the highest threshold tested, half of the neighborhood can remain different. And yet the collective result depends strongly on this threshold. At a third, the resulting segregation is slight: the ratio of similar neighbors to different neighbors stays below 1.5 to 1. Raised to a half, this same preference tips the board into near-complete segregation, with a ratio above 4 to 1. Between these two thresholds, from 35% to 50% of neighbors required, Schelling observes a “rapidly increasing function”: a small change in the requirement, in this range, produces a very different result at the scale of the entire board.\n\nWhat is striking in this thought experiment is not that it produces segregation. It is the gap between the modesty of the individual preference and the scale of the collective result. No one on this board seeks to live surrounded only by their own kind. Each coin would be perfectly content with a largely mixed neighborhood. Segregation is therefore not the sum of individual preferences. It is an aggregation effect, a by-product of thousands of small local adjustments that none of the actors chose or even anticipated.\n\n## What It Shifts\n\nThe model claims to demonstrate nothing about the real historical causes of urban segregation. That of American cities, for example, owes enormously to very real, documented discriminatory practices, such as the drawing of zones that banks judged insufficiently creditworthy. What Schelling establishes is narrower, and more disturbing in its own way: even in the absence of any organized discrimination, even if each individual accepts broad mixing, a moderate and widespread preference is enough to produce near-total segregation.\n\nThe methodological consequence goes beyond the question of housing alone: one can no longer deduce a group's intention from the large-scale result alone. A massive collective phenomenon can arise from individual choices that, one by one, aimed at nothing of the sort.",
+  "citation": null,
+  "repere": {
+    "texte": "In Schelling, a preference for a third of neighbors being similar produces only slight segregation (ratio below 1.5 similar neighbors to 1 different); raised to a half, a threshold that still tolerates a half-different neighborhood, this preference tips a population into near-complete segregation (ratio above 4 to 1).",
+    "source": "Schelling, Dynamic Models of Segregation, Journal of Mathematical Sociology, 1971",
+    "url": "https://doi.org/10.1080/0022250X.1971.9989794"
+  },
+  "carte": {
+    "punch": "Coins on a checkerboard simulate how a city separates itself without anyone having wanted it",
+    "idee": "Schelling gives each coin on a checkerboard a modest preference: not to be too isolated among different neighbors. No one demands an exclusive neighborhood, and yet the board ends up splitting into large homogeneous stretches. Segregation there is a by-product of individual adjustments.",
+    "source_courte": "Schelling, 1971"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Interactive simulation of Schelling's model",
+      "note": "A working implementation of the checkerboard, to watch the tipping point live.",
+      "url": "http://nifty.stanford.edu/2014/mccown-schelling-model-segregation/"
+    }
+  ],
+  "quiz": {
+    "question": "What does Schelling's checkerboard model show about residential segregation?",
+    "choix": [
+      "That it always proves the existence of organized, deliberate discrimination behind the observed settlement pattern",
+      "That moderate individual preferences, with no desire for exclusion at all, can produce massive segregation",
+      "That it disappears automatically once residents tolerate a large majority of neighbors different from themselves",
+      "That it can appear only if a minority actively imposes its own housing choices on the majority"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The model proves neither organized discrimination nor imposition by a minority, and shows on the contrary that tolerating a large share of different neighbors is not enough to prevent segregation: a preference for half of one's neighbors being similar, which still tolerates a half-different neighborhood, is enough to produce, collectively, near-complete separation.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "According to the entry, what does the real segregation of American cities owe enormously to, historically?",
+      "choix": [
+        "Documented discriminatory practices, such as bank redlining",
+        "Solely the moderate individual preferences modeled by Schelling",
+        "The total absence of public housing policies",
+        "Federal laws explicitly prohibiting mixing"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text specifies that the segregation of American cities owes enormously to documented discriminatory practices, such as the drawing of zones judged insufficiently creditworthy by banks."
+    },
+    {
+      "question": "What objects does Schelling use to represent households on his checkerboard, in 1971?",
+      "choix": [
+        "Poker chips of two colors",
+        "One-cent coins and five-cent coins",
+        "Grains of rice and grains of corn",
+        "Red and black playing cards"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Schelling places one-cent coins and five-cent coins on a checkerboard, each coin representing a household and each type a group membership."
+    },
+    {
+      "question": "What is the ratio of similar neighbors to different neighbors when the required preference goes from a third to a half?",
+      "choix": [
+        "It stays the same at both thresholds, around 2 to 1",
+        "It decreases, going from 4 to 1 to below 1.5 to 1",
+        "It goes from below 1.5 to 1 to above 4 to 1",
+        "It becomes infinite as soon as the threshold exceeds a third"
+      ],
+      "bonne_reponse": 2,
+      "explication": "At a third, the ratio stays below 1.5 to 1; raised to a half, this same preference pushes the ratio above 4 to 1."
+    }
+  ]
+}

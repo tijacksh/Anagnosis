@@ -1,0 +1,85 @@
+{
+  "id": "soc-mythe-effet-hawthorne",
+  "slug": "mythe-effet-hawthorne",
+  "langue": "en",
+  "empreinte_fr": "9ff1a6c40ce18736",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Levitt and List wrote in English, but the original sentence was not retrieved (no web search in this pass); this is a faithful rendering of the French. To be replaced by the published English text."
+    }
+  ],
+  "titre": "The Myth of the Hawthorne Effect",
+  "accroche": "Even dimming the lights supposedly made the women workers' output climb. The recovered data say no",
+  "contenu_vulgarise": "In 1924, at the Hawthorne plant of Western Electric, in Cicero, a suburb of Chicago, a committee of the National Research Council, honorarily chaired by Thomas Edison, launches a simple experiment: to measure whether better lighting improves the productivity of the women workers who assemble telephone relays. The result, recounted ever since in countless textbooks, is surprising: every change in lighting, including those that darkened the workshop, supposedly made output climb. When the engineers, as a last trial, return to the worst lighting conditions from the beginning, output would keep rising, almost perversely. From this anecdote comes the idea that the mere fact of being observed changes people's behavior, a phenomenon later to be baptized the Hawthorne effect.\n\n## Data Believed Destroyed\n\nThe problem is that this story spread without any researcher ever having examined the raw data from the lighting experiments, conducted between 1924 and 1927 by the engineers George Pennock and Clarence Stoll. They were believed lost. In 2011, the economists Steven Levitt and John List announce, in the *American Economic Journal: Applied Economics*, that they have found them, preserved in two university archive collections. Their analysis is clear: the data patterns presented for decades as remarkable do not withstand examination of the raw figures. No systematic evidence shows that output jumped with every change in lighting, in one direction or the other. The most cited anecdote in the history of the social sciences of work, that of output climbing even in the dark, is simply not found in the numbers.\n\n## What It Shifts\n\nDebunking a myth does not mean that nothing was going on at Hawthorne. Levitt and List find subtler traces of a real phenomenon: output tends to be slightly higher during periods when an experiment is actively under way than during periods without manipulation, and it responds more to changes in light decided by the experimenters than to natural variations in brightness. A real effect therefore exists, but it is narrower, more conditional, and above all harder to generalize than the version that went around the world. The comparison sometimes drawn between the Hawthorne effect and Heisenberg's uncertainty principle, as if observing a behavior always changed it in a predictable way, does not hold: unlike quantum physics, nothing guarantees that observing someone at work changes anything about how they work. It depends, the authors specify, on economic and psychological conditions that remain to be understood case by case.",
+  "citation": {
+    "texte": "The existing descriptions of supposedly remarkable data patterns turn out to be entirely fictional.",
+    "auteur": "Steven D. Levitt and John A. List",
+    "source": "Was There Really a Hawthorne Effect at the Hawthorne Plant? An Analysis of the Original Illumination Experiments, American Economic Journal: Applied Economics, 3(1), pp. 224-238, 2011",
+    "url": "https://doi.org/10.1257/app.3.1.224"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Even dimming the lights supposedly made output climb. The recovered data say no",
+    "idee": "The Hawthorne effect, the idea that we work better simply because we are being watched, rests on experiments from 1924-1927 whose data could not be found. Recovered and analyzed in 2011, they show no evidence of the pattern told in textbooks.",
+    "source_courte": "Levitt & List, AEJ Applied Econ., 2011"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Was There Really a Hawthorne Effect at the Hawthorne Plant? (full working paper)",
+      "url": "https://www.nber.org/papers/w15016",
+      "note": "The full text in open access, with the details of the three waves of experimentation between 1924 and 1927."
+    }
+  ],
+  "quiz": {
+    "question": "What does the 2011 reanalysis of the original data from the Hawthorne plant's lighting experiments show?",
+    "choix": [
+      "That no systematic evidence confirms the spectacular pattern told for decades, even though subtler traces of a real effect remain",
+      "That output did indeed jump with every change in lighting, exactly as the textbooks tell it",
+      "That the original data could never be found, which rules out any conclusion",
+      "That lighting never had the slightest influence, even indirect, on the women workers' output"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The data were indeed found, contrary to what was believed, and output did not jump systematically with every change in light: what the reanalysis shows is the absence of the spectacular pattern usually told, while leaving subtler traces of a real effect, tied to the presence of an ongoing experiment rather than to the light itself.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who honorarily chairs the committee, and at which plant does the 1924 lighting experiment take place?",
+      "choix": [
+        "A committee of the American Red Cross, chaired by Henry Ford, at the Ford River Rouge plant",
+        "A Harvard university committee, chaired by Elton Mayo, at the General Electric plant in Schenectady",
+        "A British government committee, chaired by Winston Churchill, in a Manchester factory",
+        "A committee of the National Research Council, honorarily chaired by Thomas Edison, at the Western Electric Hawthorne plant"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The experiment takes place in 1924 at the Western Electric Hawthorne plant in Cicero, a suburb of Chicago, under the aegis of a committee of the National Research Council honorarily chaired by Thomas Edison."
+    },
+    {
+      "question": "In 2011, Levitt and List nonetheless detect a real effect, subtler than the classic story. What does output do, according to their analysis?",
+      "choix": [
+        "It drops sharply and systematically as soon as any experiment begins in the workshop",
+        "It is slightly higher during active experimentation, and responds mostly to changes decided by the experimenters",
+        "It actually depends only on the workshop's ambient temperature, never on light or observation",
+        "It rises only on the specific days when the engineers Pennock and Stoll are absent from the workshop"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Levitt and List find subtler traces of a real phenomenon: output is slightly higher during periods when an experiment is actively under way, and responds more to changes decided by the experimenters than to natural variations in brightness."
+    },
+    {
+      "question": "Why does the text say that the comparison between the Hawthorne effect and Heisenberg's uncertainty principle does not hold?",
+      "choix": [
+        "Because Heisenberg's uncertainty principle has since been scientifically refuted",
+        "Because the Hawthorne effect, unlike Heisenberg's principle, occurs with perfect mathematical regularity",
+        "Because nothing guarantees that observing someone at work changes how they work, unlike in quantum physics",
+        "Because Heisenberg himself took part in the Hawthorne lighting experiments in 1927"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Unlike quantum physics, where observation always changes the observed system in a predictable way, nothing guarantees that observing someone at work changes how they work: it depends on economic and psychological conditions to be understood case by case."
+    }
+  ]
+}

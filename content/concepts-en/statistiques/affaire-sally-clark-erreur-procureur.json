@@ -1,0 +1,85 @@
+{
+  "id": "sta-affaire-sally-clark-erreur-procureur",
+  "slug": "affaire-sally-clark-erreur-procureur",
+  "langue": "en",
+  "empreinte_fr": "e61203ed98d8e42e",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "The passage is already in English in the French entry and the url points to the Royal Statistical Society's English letter; copied as is. Wording not re-checked against the PDF in this pass (no web access)."
+    }
+  ],
+  "titre": "The Number That Weighed on a Mother's Conviction",
+  "accroche": "An expert puts the odds at 1 in 73 million before a court. A learned society of statisticians writes to the minister: this calculation is invalid.",
+  "contenu_vulgarise": "On November 9, 1999, at Chester Crown Court, the British lawyer Sally Clark is convicted, by a majority of ten votes to two, of the murder of her two sons, Christopher and Harry, each of whom died at only a few weeks of age. The prosecution relies in part on the testimony of the pediatrician Sir Roy Meadow, who tells the jury that a family like hers, well-off and nonsmoking, has only a 1 in 8,543 chance of experiencing an unexplained sudden infant death. Two such deaths in the same family, multiplying this figure by itself, then come down to about 1 chance in 73 million.\n\n## A Calculation That Statisticians Judge Invalid\n\nThis figure circulates widely in the British press at the time of the trial. In October 2001, the Royal Statistical Society publishes a statement to challenge it publicly, and its president sends a letter in January 2002 to the Lord Chancellor, the minister of justice, to spell out the objection: multiplying a probability by itself assumes that the two events are independent, which has never been shown for sudden infant deaths. Genetic or environmental factors specific to a family may on the contrary make a second death far more likely once a first has occurred.\n\nThe learned society points out a second error, more insidious still, which it calls the “prosecutor's fallacy.” Even if the figure of 1 in 73 million had been right, it does not answer the question put to the jury. This figure measures only the probability that two natural deaths occur by chance in the same family, not the probability, once the two deaths are established, that the mother is innocent. To decide, this probability would have had to be compared with that, just as rare, of a double murder committed by the same mother on infants a few weeks old. Confusing the two, the society writes, amounts to a classic logical error in the courts.\n\n## A Conviction Overturned, on a Different Ground Than Expected\n\nSally Clark spends three years in prison. A first appeal, in 2000, is dismissed; the court already acknowledges that the figure of 1 in 73 million is of no help in judging whether the deaths were natural or not, but does not consider it decisive. It is a second appeal, in January 2003, that overturns the conviction, on a distinct and more decisive ground: the failure, at the first trial, to disclose microbiological test results suggesting that Harry, the second child, had died of a natural bacterial infection. The appeal court nonetheless notes, in its judgment, that it is very likely that the statistical figure strongly exaggerated the chances of a double natural death, and that it may have weighed on the jury despite the judge's efforts to minimize its importance.\n\nSally Clark never fully recovers from those years of detention. She dies at home in March 2007; the inquest will conclude it was accidental acute alcohol intoxication. The case remains, for British forensic statistics, the most cited example of what a badly posed figure can do to a life, when no one in the courtroom is in a position to challenge it at the time.",
+  "citation": {
+    "texte": "The calculation leading to 1 in 73 million is invalid. [...] Leaving aside the matter of validity, figures such as the 1 in 73 million are very easily misinterpreted. Some press reports at the time stated that this was the chance that the deaths of Sally Clark's two children were accidental. This (mis-)interpretation is a serious error of logic known as the Prosecutor's Fallacy.",
+    "auteur": "Royal Statistical Society",
+    "source": "Letter from the president of the Royal Statistical Society to the Lord Chancellor, January 23, 2002",
+    "url": "https://rss.org.uk/RSS/media/File-library/Membership/Sections/2020/Sally-Clark-RSS-letter-2002.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "A 1 in 73 million chance, put forward at the trial. Statisticians judge the calculation wrong.",
+    "idee": "In 1999, an expert states that a family has only a 1 in 73 million chance of experiencing two sudden infant deaths. The Royal Statistical Society challenges this calculation: it wrongly assumes independence between the two events, and confuses the probability of chance with that of innocence.",
+    "source_courte": "Royal Statistical Society, 2002"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Royal Statistical Society — statement of October 23, 2001",
+      "url": "https://rss.org.uk/RSS/media/File-library/Membership/Sections/2020/Sally-Clark-RSS-statement-2001.pdf",
+      "note": "The Society's first public statement, before the January 2002 letter."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the Royal Statistical Society judge invalid the calculation “1 chance in 8,543, squared” presented at Sally Clark's trial?",
+    "choix": [
+      "Because the figure of 1 in 8,543 itself had been poorly measured by the original medical study",
+      "Because British law forbids using probabilities below one in a million before a jury",
+      "Because the calculation should have included the exact age of the two children at the time of death",
+      "Because the multiplication wrongly assumes the independence of the two deaths, whereas shared family factors link them to each other"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Multiplying a probability by itself is valid only if the two events are independent. But genetic or environmental factors specific to a family may make a second sudden infant death far more likely once a first has occurred, which invalidates the simple squaring, regardless of the reliability of the starting figure.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the “prosecutor's fallacy” pointed out by the Royal Statistical Society consist of?",
+      "choix": [
+        "Confusing the probability of chance with that of the defendant's innocence",
+        "Rounding a very small probability to the nearest round number",
+        "Presenting the jury with a figure obtained by an expert for the opposing party",
+        "Adding two probabilities instead of multiplying them"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The figure put forward measures only the probability that two natural deaths occur by chance in the same family, not that the mother is innocent once the two deaths are established. It would have had to be compared with the probability, just as rare, of a double murder."
+    },
+    {
+      "question": "On what ground was Sally Clark's conviction overturned in January 2003?",
+      "choix": [
+        "Because the court judged that the figure of 1 in 73 million had misled the jury",
+        "Because the Royal Statistical Society had petitioned the minister of justice",
+        "Because the pediatrician Roy Meadow had retracted before the appeal court",
+        "Because test results suggesting a bacterial infection had been withheld"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The decisive ground is the failure, at the first trial, to disclose microbiological results suggesting that Harry had died of a natural infection. The court notes separately that the figure may have weighed on the jury, but that is not what grounds the overturning."
+    },
+    {
+      "question": "What did the court do at the first appeal, in 2000?",
+      "choix": [
+        "It overturned the conviction, before a new trial reinstated it",
+        "It dismissed the appeal, while already acknowledging that the figure did not help in judging",
+        "It refused to examine the statistical argument, for lack of an expert in the room",
+        "It ordered a statistical second opinion entrusted to the learned society"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The 2000 appeal is dismissed. The court nonetheless already acknowledges that the figure of 1 in 73 million is of no help in judging whether the deaths were natural, but does not consider it decisive, and Sally Clark remains in prison."
+    }
+  ]
+}

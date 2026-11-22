@@ -1,0 +1,95 @@
+{
+  "id": "soc-moi-miroir-cooley",
+  "slug": "moi-miroir-cooley",
+  "langue": "en",
+  "empreinte_fr": "f568fc55fda91da2",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Cooley wrote in English, but the original passage was not retrieved (no web search in this pass); this is a faithful rendering of the French. To be replaced by the published English text."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-traduite",
+      "note": "The two verses and the sentence on pride and shame, quoted from Cooley (English original), are rendered from the French; original wording not retrieved."
+    },
+    {
+      "chemin": "carte/punch",
+      "type": "citation-traduite",
+      "note": "The verse quoted in the punch line is rendered from the French; original English wording not retrieved."
+    }
+  ],
+  "titre": "Cooley's Looking-Glass Self",
+  "accroche": "A two-line poem slipped into a 1902 treatise still explains today why other people's gaze shapes the idea we have of ourselves",
+  "contenu_vulgarise": "In 1902, the American sociologist Charles Horton Cooley, then teaching at the University of Michigan, publishes *Human Nature and the Social Order*. In the middle of a chapter on what he calls the “social self,” he slips in two lines borrowed from a poem: “Each to each a mirror, reflecting the other who passes.” The image is beautiful, but misleading if taken literally: a mirror does not judge what it reflects, whereas it is precisely the supposed judgment of others that, according to Cooley, shapes the idea we have of ourselves.\n\n## Three Elements, Not a Reflection\n\nCooley calls this mechanism the “looking-glass self,” and distinguishes three elements in it: the imagination of our appearance to another person, the imagination of the judgment that person passes on this appearance, and a resulting self-feeling, such as pride or shame. He insists on the second element, the one that the comparison with a mirror does not suggest by itself: “what moves us to pride or shame is not the mere mechanical reflection of ourselves, but a sentiment imputed to the other, the imagined effect of this reflection on his mind.” Feeling ashamed before a person we regard as upright, or cowardly before someone brave, therefore does not depend on what that person actually thinks. It depends on what we imagine they think, whether that image is accurate or not.\n\n## A Century Later, a Test\n\nCooley's thesis remains, for the most part, an introspective observation, with no data to back it. In 2003, the sociologists King-To Yeung and John Levi Martin put it to an empirical test, using network data collected in fifty-six communities. Their results confirm part of the mechanism: individuals do incorporate, into the idea they have of themselves, the perceived judgment of people who occupy a higher social position than their own. But the study, conducted over time, also reveals a reverse movement that Cooley had not foreseen: through constant actions, a person can gradually change the judgment others hold of them, rather than simply adjusting to it. The mirror, in short, does not merely return an image: in the long run, it sometimes happens that we redraw it.",
+  "citation": {
+    "texte": "A self-idea of this kind seems to have three principal elements: the imagination of our appearance to the other person, the imagination of his judgment of that appearance, and a sort of self-feeling, such as pride or mortification.",
+    "auteur": "Charles Horton Cooley",
+    "source": "Human Nature and the Social Order, Charles Scribner's Sons, 1902, ch. 5 “The Social Self,” p. 152",
+    "url": "https://archive.org/details/humannaturesocia00cooluoft"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "“Each to each a mirror”: a poem slipped into a 1902 book on the gaze of others",
+    "idee": "In 1902, Cooley describes the “looking-glass self”: the idea we have of ourselves depends less on others' actual gaze than on the judgment we imagine in them. A century later, a study of fifty-six communities confirms the mechanism, and shows that it also works the other way around.",
+    "source_courte": "Cooley, 1902; Yeung & Martin, 2003"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Human Nature and the Social Order (full text)",
+      "url": "https://archive.org/details/humannaturesocia00cooluoft",
+      "note": "The full 1902 text, open access on Archive.org."
+    }
+  ],
+  "quiz": {
+    "question": "According to Cooley, what shapes the feeling of pride or shame in the “looking-glass self”?",
+    "choix": [
+      "The actual judgment that others express publicly out loud",
+      "The judgment we imagine the other holds of our appearance, whether accurate or not",
+      "The mere fact of being observed, independent of any idea of judgment",
+      "The social position of the person looking at us, whatever their judgment"
+    ],
+    "bonne_reponse": 1,
+    "explication": "It is neither the judgment actually expressed, nor mere observation, nor the other's social position alone that produces self-feeling: Cooley insists that it is the judgment we imagine in the other, accurate or not, that provokes pride or shame, which the comparison with a mechanical mirror does not suggest by itself.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Where was Cooley teaching when he published Human Nature and the Social Order in 1902?",
+      "choix": [
+        "At Harvard University",
+        "At the University of Chicago",
+        "At Columbia University, in New York",
+        "At the University of Michigan"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The text specifies that Cooley, then teaching at the University of Michigan, published this book in 1902, in which he slips the poem of the looking-glass self into the middle of a chapter on the social self."
+    },
+    {
+      "question": "What did Yeung and Martin's empirical test in 2003 reveal that Cooley had not foreseen?",
+      "choix": [
+        "That the looking-glass self mechanism works only in children",
+        "That a person can, through constant actions, change the judgment of others",
+        "That others' judgment has no measurable effect on self-feeling",
+        "That the looking-glass self is observed only in nonindustrialized societies"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The study, conducted over time in fifty-six communities, reveals a reverse movement that Cooley had not foreseen: through constant actions, a person can change others' judgment of them."
+    },
+    {
+      "question": "What data did Yeung and Martin use to test Cooley's thesis in 2003?",
+      "choix": [
+        "Clinical interviews with patients in psychotherapy",
+        "Court records of character testimony",
+        "Network data collected in fifty-six communities",
+        "Opinion polls conducted in ten different countries"
+      ],
+      "bonne_reponse": 2,
+      "explication": "In 2003, Yeung and Martin put Cooley's thesis to an empirical test using network data collected in fifty-six communities, whereas Cooley had offered only an introspective observation."
+    }
+  ]
+}

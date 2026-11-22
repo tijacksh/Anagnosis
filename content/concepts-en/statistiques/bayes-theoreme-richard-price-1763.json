@@ -1,0 +1,89 @@
+{
+  "id": "sta-bayes-theoreme-richard-price-1763",
+  "slug": "bayes-theoreme-richard-price-1763",
+  "langue": "en",
+  "empreinte_fr": "e4c1306b49937366",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "The sentence is already in English in the French entry and the url points to the English text of the Philosophical Transactions; copied as is. Wording not re-checked against the page in this pass (no web access)."
+    }
+  ],
+  "titre": "Bayes Dies Two Years Before the Publication of His Theorem",
+  "accroche": "In 1763, a friend finds among a dead minister's papers an unfinished essay: the first formulation of the reasoning that goes back from an effect to its cause.",
+  "contenu_vulgarise": "In April 1761, the minister Thomas Bayes dies in Tunbridge Wells, England. His family entrusts his papers to a friend, the philosopher and minister Richard Price, who finds among them an unfinished essay on a problem of probability. Price reworks it for two years before sending it, on November 10, 1763, in a letter addressed to John Canton, a member of the Royal Society. The text is read there on December 23, 1763, then published in volume 53 of the *Philosophical Transactions*, dated that same year but actually distributed in 1764: Bayes will never see it in print.\n\n## A Table, Not a Billiard Table\n\nThe essay poses its problem through a thought experiment: a perfectly level, square table, on which a first ball rolls and comes to rest at a spot unknown to the observer. Other balls are then thrown, one by one, and one notes only whether each comes to rest to the left or to the right of the first. After a certain number of throws, what can be deduced about the position, never seen, of the first ball? Textbooks often tell this scene as taking place on a billiard table; Bayes's original text speaks only of a “square table ABCD,” set level. The ball has gained a billiard table in two centuries of retellings; Bayes never wrote one.\n\nThe problem is far from anecdotal: it formalizes, for the first time, an inverse reasoning. We ordinarily know how to calculate the probability of a result when the cause is known, for example that of getting heads twice when flipping a fair coin. Bayes asks the question the other way around: starting from a result already observed, what probability should be assigned to each of the causes that could have produced it? His manuscript offered two proofs of the rule that makes this backward step possible; in preparing the text for the Royal Society, Price chooses to publish only one. An essay signed Bayes, but shaped, in its details, by another's hand.\n\n## A Theorem That Bears One Name, a Tool That Bears Another\n\nThe essay sleeps for nearly eleven years without anyone really taking it up. In 1774, Pierre-Simon Laplace publishes, quite independently and apparently without knowing Bayes's work, a memoir that sets out the same relation in a far more general form, valid for any number of causes. It is this version, taken up and developed in his *Théorie analytique des probabilités* (*Analytical Theory of Probabilities*) of 1812, that really spreads the tool through the sciences of the 19th century. The name that remains in history is nonetheless that of the first to arrive, not that of the one who turned it into a working instrument.\n\nBayes's theorem thus owes its name to a text found after the fact, edited by a friend over two years, then fairly quickly overtaken by a more general version, written by someone who knew nothing of it. What is called Bayesian reasoning today rests, for most of its current form, far more on Laplace than on the 1763 essay. The eponym kept the first to arrive, not the one who built the most.",
+  "citation": {
+    "texte": "Every judicious person will be sensible that the problem now mentioned is by no means merely a curious speculation.",
+    "auteur": "Richard Price",
+    "source": "Letter to John Canton introducing Thomas Bayes's essay, Philosophical Transactions of the Royal Society of London, vol. 53, 1763, p. 371",
+    "url": "https://en.wikisource.org/wiki/Page:Philosophical_Transactions_-_Volume_053.djvu/437"
+  },
+  "repere": {
+    "texte": "Bayes's essay, read before the Royal Society on December 23, 1763, appears in volume 53 of the Philosophical Transactions (pp. 370-418): eleven years later, in 1774, Laplace independently publishes a general version of the same principle, without knowing this text.",
+    "source": "Philosophical Transactions of the Royal Society of London, vol. 53, 1763, pp. 370-418",
+    "url": "https://en.wikisource.org/wiki/Page:Philosophical_Transactions_-_Volume_053.djvu/436"
+  },
+  "carte": {
+    "punch": "Bayes dies two years before the publication of the theorem that bears his name.",
+    "idee": "In 1763, Richard Price publishes, after Thomas Bayes's death, an essay found among his papers: the first reasoning that goes back from an observed effect to its cause. Eleven years later, Laplace rediscovers the same idea without knowing this text, and it is his version that will truly spread the tool.",
+    "source_courte": "Bayes & Price, Phil. Trans. Royal Society, 1763"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — Bayes' Theorem",
+      "url": "https://plato.stanford.edu/entries/bayes-theorem/",
+      "note": "Gives the exact bibliographic reference (Philosophical Transactions, vol. 53, pp. 370-418) and details the role of Price's introduction."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the theorem bear Bayes's name, when it was Laplace who gave it its general form?",
+    "choix": [
+      "Because the eponym kept the 1763 essay, the first to pose the problem, even though Laplace generalized it eleven years later without knowing it",
+      "Because Bayes and Laplace wrote the same memoir together, published under both their names",
+      "Because Richard Price asked the Royal Society to keep Bayes's name rather than Laplace's",
+      "Because Laplace withdrew his own memoir after discovering Bayes's essay"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Bayes poses the problem in 1763, but it is Laplace who, in 1774 and without knowing this essay, gives it its general form and really spreads it through the sciences of the 19th century. The eponym kept the first to arrive, not the one who built the tool the most.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How does Bayes's essay reach the Royal Society, after his death?",
+      "choix": [
+        "His family entrusts his papers to Richard Price, who reworks them and sends them to Canton",
+        "Bayes sends it to the Royal Society himself before his death in 1761",
+        "Laplace discovers it in a library and passes it on to the Royal Society",
+        "A Royal Society competition invites Bayes to submit an essay"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text says that Bayes's family entrusts his papers to Richard Price, who reworks them for two years before sending them to John Canton."
+    },
+    {
+      "question": "In Bayes's thought experiment, what does the first ball roll on?",
+      "choix": [
+        "A rectangular billiard table, as most textbooks say",
+        "A square table, set level, and not a billiard table",
+        "A round table, drawn specially for the experiment",
+        "An inclined plane meant to measure the ball's speed"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Bayes's original text speaks only of a square table ABCD: the billiard table is a later reformulation that appeared in the retellings."
+    },
+    {
+      "question": "How many proofs does Bayes offer in his manuscript, and how many does Price publish?",
+      "choix": [
+        "A single proof, which Price develops in two versions",
+        "Three proofs, all published without modification",
+        "Two proofs in the manuscript, but Price publishes only one",
+        "No complete proof, only a statement of the problem"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text specifies that Bayes's manuscript offered two proofs, and that Price chooses to publish only one."
+    }
+  ]
+}

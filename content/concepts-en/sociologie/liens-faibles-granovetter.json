@@ -1,0 +1,78 @@
+{
+  "id": "soc-liens-faibles-granovetter",
+  "slug": "liens-faibles-granovetter",
+  "langue": "en",
+  "empreinte_fr": "efbf3ccf1a7bf16f",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Strength of Weak Ties",
+  "accroche": "To find a job, a vague acquaintance you run into twice a year often helps more than a close friend",
+  "contenu_vulgarise": "In 1973, the sociologist Mark Granovetter interviews 282 executives and employees in Newton, a suburb of Boston, about how they found their last job. Among those who got it through a personal contact, he then asks how often they saw that contact.\n\n## The Mechanism\n\nIntuition would have it that a close relation, family or intimate friend, is the one who does this kind of favor. It is the opposite. Only 16.7% of the people concerned saw their contact often; 55.6% saw the contact occasionally, and 27.8% rarely. A vague acquaintance broke the logjam far more often than a close friend.\n\nGranovetter draws a structural explanation from this. Your close friends already share, for the most part, your own network: you spend time with the same people, you already know what they know. A more distant acquaintance, on the other hand, belongs to a social circle different from yours, another neighborhood, another employer, another circle of friends. It is precisely because the tie is weak, occasional, and not emotionally charged that it crosses the boundary between two closed networks and carries information that no one in your close circle already held.\n\nGranovetter generalizes this finding: strong ties close groups in on themselves, redundant in information; weak ties are the bridges that connect groups to one another, and they are what circulate whatever is new, a job opening, a rumor, an idea. A network made only of strong ties would be a collection of small clans sealed off from one another.\n\n## What It Shifts\n\nOrdinary social intuition values strong ties: we count on our close ones and distrust surface relationships. Granovetter reverses the hierarchy without denying the emotional value of strong ties; he shows only that they are structurally ill placed to circulate new information.\n\nNearly fifty years later, an experiment run on LinkedIn tested the thesis on a completely different scale: by varying, for more than 20 million users, the proportion of weak ties suggested by the algorithm, researchers observed a real causal effect of weak ties on job changes, though with a limit that Granovetter had not measured: beyond a certain degree of weakness, the tie becomes too tenuous to transmit much. It is therefore not the weakest tie that helps most, but a moderately weak one, distant enough to bring something new, present enough that someone will answer it.",
+  "citation": null,
+  "repere": {
+    "texte": "Of the people who found a job through a personal contact, only 17% saw that contact often; the majority, 83%, saw them only occasionally or rarely.",
+    "source": "Granovetter, Newton (Massachusetts) survey, 1973",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/225469"
+  },
+  "carte": {
+    "punch": "To find a job, a vague acquaintance often helps more than a close friend",
+    "idee": "A 1973 survey shows it: among people who found a job through a contact, most saw that contact only occasionally. Your close friends already share your network; a distant acquaintance brings information that no one around you held.",
+    "source_courte": "Granovetter, 1973"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Getting a Job: A Study of Contacts and Careers",
+      "note": "Granovetter's book detailing the Newton survey in full.",
+      "url": "https://www.bibliovault.org/BV.landing.epl?ISBN=9780226518404"
+    }
+  ],
+  "quiz": {
+    "question": "Why does a distant acquaintance often help more than a close friend in finding a job?",
+    "choix": [
+      "Because close friends more often refuse to do this kind of favor",
+      "Because a distant acquaintance belongs to another network and holds information that your close ones do not have",
+      "Because employers prefer to hire through vague acquaintances rather than direct co-optation",
+      "Because close friends generally do not work in the same sector"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Close friends already share your network and often know what you already know. A distant acquaintance belongs to a different social circle: it is this bridge between two distinct networks, not a character trait or a sector, that carries new information.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In the 1973 survey, what share of the people who found a job through a contact saw that contact often?",
+      "choix": [
+        "16.7%",
+        "55.6%",
+        "83%",
+        "27.8%"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Of the 282 people interviewed in Newton, only 16.7% of those who found a job through a contact saw that contact often; the majority saw the contact occasionally or rarely."
+    },
+    {
+      "question": "What does the experiment run on LinkedIn in 2022 add to Granovetter's original thesis?",
+      "choix": [
+        "It confirms that the weakest possible tie always helps the most",
+        "It shows that weak ties have no measurable effect on employment",
+        "It shows that beyond a certain degree of weakness, the tie becomes too tenuous to transmit much",
+        "It establishes that strong ties are more effective than weak ties online"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The experiment confirms a causal effect of weak ties, but adds a limit: past a certain degree of weakness, the tie becomes too tenuous, so it is not the weakest that helps most."
+    },
+    {
+      "question": "According to Granovetter, what would a network made only of strong ties be?",
+      "choix": [
+        "A system in which information would circulate faster than in a mixed network",
+        "A network unable to form in reality",
+        "A network more resistant to broken ties than average",
+        "A collection of small clans sealed off from one another"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Granovetter says it explicitly: a network made only of strong ties would be a collection of small clans sealed off from one another, with no bridge to circulate new information."
+    }
+  ]
+}

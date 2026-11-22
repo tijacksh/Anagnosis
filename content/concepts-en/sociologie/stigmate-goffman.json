@@ -1,0 +1,78 @@
+{
+  "id": "soc-stigmate-goffman",
+  "slug": "stigmate-goffman",
+  "langue": "en",
+  "empreinte_fr": "593a7c52e81bceff",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-traduite",
+      "note": "The terms in quotation marks (the three families of stigma) are Goffman's English terms, here rendered from the French; his exact English wording was not retrieved."
+    },
+    {
+      "chemin": "repere/texte",
+      "type": "citation-traduite",
+      "note": "The quoted term for the second family of stigma is rendered from the French; Goffman's exact English wording was not retrieved."
+    }
+  ],
+  "titre": "Stigma According to Goffman",
+  "accroche": "In 1963, a sociologist places a visible disability, a criminal record, and a sexual orientation under a single concept (stigma)",
+  "contenu_vulgarise": "A person walks into a room. Before they have even spoken, the others have already formed an idea of who they are supposed to be: their age, their clothes, their bearing are enough to summon an expectation. Erving Goffman calls this the virtual social identity, the character that the situation assigns in advance to someone. Opposite it stands the actual social identity: the attributes that person actually possesses. Stigma is born of the gap between the two.\n\n## The Mechanism\n\nIn *Stigma*, published in 1963, Goffman distinguishes three broad families of stigma. First the “abominations of the body,” visible physical deformities. Then the “blemishes of character,” inferred from a known past: mental illness, drug addiction, a stay in prison, a suicide attempt, and (reflecting the nomenclature of his time) homosexuality, which American psychiatry itself would remove from the list of mental disorders ten years later, in 1973. Finally “tribal stigma”: race, nation, religion. A stigma that is transmitted through descent and contaminates, says Goffman, all members of the same lineage.\n\nWhat interests Goffman is not the attribute in itself. It is the relation it creates. The same trait can stigmatize in one context and go unnoticed in another: nothing in the nature of an attribute makes it intrinsically discrediting. This is why he distinguishes “discredited” persons, whose stigma is already visible, from “discreditable” ones, whose stigma might be discovered, and who devote constant energy to concealing it: a strategy he calls passing.\n\n## What It Shifts\n\nBy refusing to make stigma a property of the individual, Goffman shifts the question: it is no longer “what is wrong with this person?” but “what identity does this situation, this gaze, this local social norm demand in order not to be discredited?” Stigma ceases to be an individual defect and becomes a social relation, situated and revisable.\n\nThe removal of homosexuality from the American diagnostic manual, barely ten years after the book's publication, illustrates this revisability well: what Goffman places in 1963 among the blemishes of character, the very profession that supplied this classification removes from it. Stigma therefore says nothing fixed about the person who bears it; it says what a society, at a given moment, still refuses to consider normal.",
+  "citation": null,
+  "repere": {
+    "texte": "In 1963, Goffman distinguishes three families of stigma: physical deformities, “blemishes of character,” where he then places mental illness and homosexuality, and membership in an entire group, transmissible to a whole lineage.",
+    "source": "Goffman, Stigma: Notes on the Management of Spoiled Identity, 1963",
+    "url": "https://archive.org/details/stigmanotesonman0000goff"
+  },
+  "carte": {
+    "punch": "In 1963, a sociologist brings a disability and a sexual orientation together under a single concept",
+    "idee": "Goffman calls stigma the gap between who a person is expected to be and who they actually are. Ten years after his book, American psychiatry itself would remove homosexuality from the list of mental disorders, proof that stigma says nothing fixed about the person who bears it.",
+    "source_courte": "Goffman, Stigma, 1963"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stigma: Notes on the Management of Spoiled Identity (full text)",
+      "note": "The complete book, in open access on the Internet Archive.",
+      "url": "https://archive.org/details/stigmanotesonman0000goff"
+    }
+  ],
+  "quiz": {
+    "question": "According to Goffman, what makes an attribute become a stigma?",
+    "choix": [
+      "Its medical or physical severity, judged objectively by a competent outside eye",
+      "The fact that it is immediately visible, from the very first glance at the person",
+      "Its statistical frequency within the general population, measured at a given moment",
+      "The gap it creates between the identity expected in a situation and the identity actually observed"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The same attribute can stigmatize in one context and go unnoticed in another: neither its severity, nor its immediate visibility, nor its statistical rarity decides the matter, but the gap it produces between the expected virtual social identity and the observed actual social identity.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "According to Goffman, what does the strategy of passing consist of?",
+      "choix": [
+        "Concealing a discreditable attribute to prevent it from being discovered",
+        "Publicly claiming one's stigma in order to reverse its symbolic charge",
+        "Changing social group to escape a tribal stigma",
+        "Asking a third party to vouch for one's normality to others"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Goffman calls passing the strategy of discreditable persons, whose stigma is not yet visible, to conceal it and prevent it from being discovered."
+    },
+    {
+      "question": "What does Goffman distinguish between a discredited person and a discreditable person?",
+      "choix": [
+        "The fact that the first has committed a wrong, and the second has not",
+        "The medical severity of their respective stigma",
+        "The first's stigma is already visible, the second's might only be discovered",
+        "The first's membership in a tribal stigma, the second's in a blemish of character"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Goffman calls discredited those persons whose stigma is already visible, and discreditable those whose stigma might be discovered, and who work to conceal it."
+    }
+  ]
+}

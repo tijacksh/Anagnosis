@@ -1,0 +1,83 @@
+{
+  "id": "soc-petit-monde-travers-milgram-1969",
+  "slug": "petit-monde-travers-milgram-1969",
+  "langue": "en",
+  "empreinte_fr": "c1ae3a8ddedfbba9",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Milgram's Small World: What 64 Letters That Arrived Measure",
+  "accroche": "In 1969, 296 volunteers must forward a folder to a Boston stockbroker. 64 chains arrive; the average of 5.2 intermediaries holds only for them.",
+  "contenu_vulgarise": "A volunteer in Nebraska receives a folder. Inside, the name of a stranger: a stockbroker who lives in Sharon, in the suburbs of Boston, and works in the city. The instruction is simple. If you know this man personally, on a first-name basis, send him the folder. If not, send it to a personal acquaintance who is more likely than you to know him. Everyone signs the attached roster and sends a card back to Harvard. This protocol is that of Jeffrey Travers and Stanley Milgram, published in the journal *Sociometry* in December 1969.\n\n## The Mechanism\n\nThe researchers recruit 296 starting people: 100 stockholders of large companies and 96 other Nebraska residents, plus 100 Bostonians recruited through a newspaper ad. Of these 296, 217 actually send the folder to someone. 64 folders reach the stockbroker, that is 29% of the 217 chains launched. In these 64 chains, the average number of intermediaries between the first sender and the target is 5.2. Starts from Boston average 4.4, those from the randomly drawn Nebraska group 5.7.\n\nThe figure counts intermediaries, not mailings: five intermediaries make six hand-to-hand transmissions. The expression “six degrees of separation” does not appear in the article.\n\n## What It Shifts\n\nThe 5.2 is the average of the chains that succeeded. The other 232 chains (79 of which never left the first volunteer) stopped along the way, on average after 2.6 transmissions. The authors pose the problem themselves: if dropouts strike precisely those who would not have known how to move the folder forward, the completed chains underestimate the real distance, by an unknown amount. On four variables (age, sex, relationship with the sender, reason for choosing the recipient), they find no significant difference between those who drop out and the others. A footnote reports an adjustment by Harrison White, of Harvard, for a random dropout rate of about 25%: the median of complete chains would go from 5 to 7, without substantially changing the authors' conclusions.\n\nThey in fact present their result as an upper bound on the minimum number of intermediaries: participants cannot always foresee the most efficient path, so their chains are longer than the shortest path.\n\nIn 2003, Peter Sheridan Dodds, Roby Muhamad, and Duncan Watts redo the experiment by email: more than 60,000 people, 18 targets in 13 countries. 384 chains out of 24,163 arrive. Their raw average over completed chains, 4.05 steps, is judged misleading by the authors themselves, because short chains are more likely to be completed; once corrected for dropouts, the estimated median runs from 5 steps within a single country to 7 between different countries. They also do not find the funnel of 1969, where just three people had served as the last link for 48% of the chains that arrived.\n\nThe two teams count differently (intermediaries in 1969, steps in 2003) and correct differently for interrupted chains: what would have become of those that stopped along the way?",
+  "citation": null,
+  "repere": {
+    "texte": "Of 296 starting volunteers, 217 send the folder to an acquaintance; 64 chains reach the target, that is 29% of the 217. In these 64 chains, the average number of intermediaries is 5.2.",
+    "source": "Travers & Milgram, “An Experimental Study of the Small World Problem,” Sociometry 32(4), 1969, pp. 425-443",
+    "url": "https://doi.org/10.2307/2786545"
+  },
+  "carte": {
+    "punch": "Milgram's “small world”: 64 chains arrived out of 296 volunteers, 5.2 intermediaries.",
+    "idee": "In 1969, Travers and Milgram have folders forwarded to a Boston stockbroker: of 296 starting volunteers, 64 chains arrive, with 5.2 intermediaries on average. This figure describes only the completed chains; an email replication in 2003 saw 384 arrive out of 24,163.",
+    "source_courte": "Travers & Milgram, 1969"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Travers and Milgram, 1969: full text",
+      "url": "https://www.cse.cuhk.edu.hk/~cslui/CMSC5734/travers69smallworld.pdf",
+      "note": "The original article, with Table 1 of dropouts at each step."
+    },
+    {
+      "titre": "Dodds, Muhamad, and Watts, 2003: full text",
+      "url": "https://www.cs.princeton.edu/~chazelle/courses/BIB/dodds2003pa.pdf",
+      "note": "The email replication and its correction for attrition."
+    }
+  ],
+  "quiz": {
+    "question": "What exactly does the average of 5.2 intermediaries in the 1969 experiment measure?",
+    "choix": [
+      "The average number of intermediaries between two randomly chosen Americans, across the whole country",
+      "The average number of transmissions of all the folders sent, whether or not they arrive",
+      "The average number of intermediaries of only the chains that reached the stockbroker",
+      "The smallest number of intermediaries that exists between Nebraska and Boston"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The average covers the 64 chains carried through to the end. The other 232 chains were interrupted, on average after 2.6 transmissions: the measure holds neither for every pair of Americans, nor for all the folders, nor as the shortest path, which the authors claim to bound only from above.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How many starting volunteers do the researchers recruit for the 1969 experiment, and how are they divided?",
+      "choix": [
+        "Only 64 volunteers, all recruited by a single ad in a Boston newspaper",
+        "296 volunteers: 100 stockholders and 96 other Nebraska residents, plus 100 Bostonians recruited by an ad",
+        "1,000 volunteers divided equally among Nebraska, Massachusetts, and California",
+        "296 volunteers, all stockholders of large companies listed on the New York Stock Exchange"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The researchers recruit 296 starting people: 100 stockholders and 96 other Nebraska residents, to whom are added 100 Bostonians recruited by a newspaper ad, not only stockholders or Bostonians."
+    },
+    {
+      "question": "What does the funnel observed in the chains that arrived in 1969 show?",
+      "choix": [
+        "That every chain that arrived passes through a different intermediary",
+        "That the Boston stockbroker himself sent half of the folders",
+        "That 48% of the chains that arrived pass through just three people as the last link",
+        "That the funnel proves all Americans share the same circle of acquaintances"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The authors note that barely three people serve as the last link for 48% of the 64 chains that arrived, a funnel that the 2003 replication does not find."
+    },
+    {
+      "question": "What effect does the adjustment proposed by Harrison White for a random dropout rate of about 25% have, according to a note in the article?",
+      "choix": [
+        "The total number of chains reaching the stockbroker would immediately double, with no other change",
+        "The average of 5.2 intermediaries would be halved in all the chains studied",
+        "The entire experiment would have to be redone with a brand-new recruitment protocol",
+        "The median of complete chains would go from 5 to 7 intermediaries, without changing the authors' conclusions"
+      ],
+      "bonne_reponse": 3,
+      "explication": "A footnote reports that Harrison White's adjustment, for a random dropout of about 25%, would raise the median of complete chains from 5 to 7, without substantially changing the authors' conclusions."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "sta-anscombe-quatre-jeux-memes-statistiques",
+  "slug": "anscombe-quatre-jeux-memes-statistiques",
+  "langue": "en",
+  "empreinte_fr": "ab3e9a705972514b",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Four Data Sets of Eleven Points, the Same Statistics and Four Shapes",
+  "accroche": "Same mean, same variance, same correlation of 0.816, same regression line. Plotted, Anscombe's four data sets have nothing in common.",
+  "contenu_vulgarise": "Four series of eleven points, each with an x value and a y value. Calculate the usual figures for each. The mean of x is 9, their variance 11. The mean of y is 7.50, their variance about 4.12. The correlation between x and y is 0.816. The least-squares regression line is y = 3 + 0.5 x, and it explains roughly two thirds of the variation in y (R² close to 0.67). These figures are the same, to rounding, for all four series.\n\nThe statistician Francis J. Anscombe published them in 1973 in *The American Statistician*, under the title “Graphs in Statistical Analysis.” The title already states the point.\n\n## What the Numbers Do Not Say\n\nAll you have to do is plot the points. Each series then tells a different story, and each defeats a habit of reading numbers.\n\nThe first series is an ordinary cloud around the line: the summary suits it. In the second, the points trace a regular curve: the line makes no sense, and the correlation poorly describes a relationship that is not linear. In the third, ten points are almost aligned on another line, and a single one strays from it; without it, the correlation is 0.99999 and the line becomes y = 4.01 + 0.345 x. In the fourth, ten of the eleven points have the same x value, 8, and show no relationship; the eleventh, isolated at x = 19, produces the correlation and the slope all by itself.\n\nThe last three series illustrate three distinct flaws: a nonlinear shape, an outlier, a point with high leverage. None of the numerical summaries signals which is at work, or even that a flaw exists. Software that returns the line and the correlation returns them without flinching in all four cases.\n\n## Shift\n\nThe calculations are not wrong: they answer exactly the question asked, “which line best fits these points?”, and this question has no sensible answer when the points do not follow a line. The graph is not an illustrative supplement to the calculation: it is what lets you know whether the calculation made sense.\n\nThe four series come to 44 points, few enough to copy by hand. What other summary could have told them apart without plotting them?",
+  "citation": null,
+  "repere": {
+    "texte": "In Anscombe's series IV, ten of the eleven points have the same value x = 8; the eleventh is at x = 19. The four series nonetheless all have mean x = 9, correlation 0.816, and the line y = 3 + 0.5 x.",
+    "source": "Anscombe, data sets reproduced by ETH Zurich (anscombe.dat), checked by recalculation",
+    "url": "https://stat.ethz.ch/Teaching/Datasets/anscombe.dat"
+  },
+  "carte": {
+    "punch": "Four data sets, one line, four different shapes.",
+    "idee": "Anscombe (1973): four series of eleven points have the same mean, the same variance, the same correlation (0.816), and the same regression line. Plotted, one is a cloud, another a curve, the third has an outlier, the last a single point that does everything.",
+    "source_courte": "Anscombe, The American Statistician, 1973"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Anscombe's data sets — anscombe.dat (ETH Zurich)",
+      "url": "https://stat.ethz.ch/Teaching/Datasets/anscombe.dat",
+      "note": "The values of the four series, to redo the calculations and the graphs yourself."
+    }
+  ],
+  "quiz": {
+    "question": "What do Anscombe's four series show about the usual numerical summaries (mean, variance, correlation, line)?",
+    "choix": [
+      "That correlation is useless as soon as a series has fewer than a hundred points",
+      "That these summaries can be identical for data of very different shape, which only a graph reveals",
+      "That the least-squares regression line cannot be calculated when a value is an outlier",
+      "That the four series come from four phenomena that obey the same linear law"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The four series have the same means, variances, correlation, and line, but different shapes: cloud, curve, outlier, high-leverage point. The number of points (eleven) is not the issue, the line can always be calculated, and these series do not describe the same linear phenomenon: only their numerical appearance is shared.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In 1973, in which journal does Francis Anscombe publish the four series that bear his name?",
+      "choix": [
+        "The American Statistician",
+        "Nature",
+        "Behavioral and Brain Sciences",
+        "Psychological Review"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Anscombe's article, “Graphs in Statistical Analysis,” appears in 1973 in The American Statistician, volume 27, issue 1."
+    },
+    {
+      "question": "In Anscombe's series II, why is the regression line unsuitable for describing the points?",
+      "choix": [
+        "Because the eleven points of series II are in fact identical to those of series I",
+        "Because a single point, isolated at x = 19, entirely determines the line",
+        "Because the points trace a regular curve, not a linear relationship",
+        "Because the variance of y is much larger than in the other three series"
+      ],
+      "bonne_reponse": 2,
+      "explication": "In series II, the eleven points follow a regular curve: the relationship is not linear, and the line, although it can be calculated, describes nothing real."
+    },
+    {
+      "question": "In Anscombe's third series, what does the point that strays from the line formed by the other ten represent?",
+      "choix": [
+        "A high-leverage point that by itself creates the observed relationship",
+        "A point that, if removed, would make the correlation drop to 0.816 instead of making it rise",
+        "A point identical in every respect to the other ten, with no deviation",
+        "An outlier that strays from an almost perfect alignment on another line"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Ten of the eleven points of series III are almost aligned; a single one, the outlier, strays from them, which changes the slope and the correlation calculated on the whole."
+    }
+  ]
+}

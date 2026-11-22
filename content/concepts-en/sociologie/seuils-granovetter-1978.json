@@ -1,0 +1,83 @@
+{
+  "id": "soc-seuils-granovetter-1978",
+  "slug": "seuils-granovetter-1978",
+  "langue": "en",
+  "empreinte_fr": "6ae5530335c986d2",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Granovetter's Thresholds: Two Nearly Identical Crowds",
+  "accroche": "A hundred people in a square, thresholds from 0 to 99: everyone riots. Replace the threshold of 1 with a threshold of 2, and a single rioter remains.",
+  "contenu_vulgarise": "A hundred people stand in a square. A man breaks a shop window. A second joins him, then a third, and within moments all hundred people are taking part in the riot. In another crowd of a hundred, nearly identical, a man breaks the window and no one moves. In 1978, the sociologist Mark Granovetter builds these two crowds to show that the outcome hinges on something the average does not tell.\n\n## The Mechanism\n\nGranovetter calls a person's threshold the number, or proportion, of people they must see act before acting themselves: the point at which, for them, the perceived benefits outweigh the costs. A threshold of 0 designates the instigator, who acts even alone; a threshold of 100% designates someone who will never act. For a riot, the reasoning is plausible: the risk of being arrested decreases as the crowd grows. The individuals in the model are assumed to be rational and different from one another: each has their own threshold.\n\nFirst crowd: a hundred people whose thresholds run from 0 to 99, one person for each value. The one with threshold 0 acts. The one with threshold 1 sees this and acts in turn. The one with threshold 2 sees two people act, and so on: the equilibrium is a hundred participants. Second crowd: the person with threshold 1 is removed and replaced by a person with threshold 2. The average threshold goes from 49.5 to 49.51. The instigator acts, but no one has a threshold of 1 anymore, and the riot stops at one participant.\n\n## What It Shifts\n\nGranovetter notes that, by all our ordinary ways of describing groups, these two crowds are nearly identical. Their press accounts, however, would be opposite: a crowd of radicals in one case, an isolated hothead in front of peaceful citizens in the other. The difference comes only from the way the thresholds add up, and from a gap in their distribution. Hence his conclusion: it is hazardous to deduce the dispositions of individuals from the collective result.\n\nThe model does not say why each person has their threshold: it starts from preferences and computes their aggregation. Granovetter proposes it for other two-outcome choices, such as the adoption of an innovation, the spread of a rumor, a strike, a vote, or a migration. He notes that he takes the idea of a threshold from Schelling's models of residential segregation. He judges the approach useful when average preferences clearly push toward an action and the action nevertheless does not take place.\n\nIn 2020, Michael Macy and Anna Evtushenko revisit this model: collective action can fail, despite the group's strong interest, because cascades react very sensitively to small random perturbations in the composition of the group and in the distribution of thresholds.\n\nIt remains to be seen where, in a real crowd, the gaps in the distribution of thresholds lie: the model does not say, it asks that they be measured.",
+  "citation": null,
+  "repere": {
+    "texte": "With a hundred individuals whose thresholds run from 0 to 99, the equilibrium is 100 participants; if the individual with threshold 1 is replaced by an individual with threshold 2, the riot stops at one participant.",
+    "source": "Granovetter, “Threshold Models of Collective Behavior,” American Journal of Sociology 83(6), 1978, pp. 1424-1425",
+    "url": "https://doi.org/10.1086/226707"
+  },
+  "carte": {
+    "punch": "Two nearly identical crowds: in one, a hundred rioters; in the other, just one.",
+    "idee": "Granovetter (1978): if everyone acts when enough others have done so, replacing a threshold of 1 with a threshold of 2 takes the riot from 100 participants to 1. Two crowds with nearly equal averages, two opposite outcomes: it is hazardous to deduce the dispositions of individuals from the collective result.",
+    "source_courte": "Granovetter, AJS, 1978"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Granovetter, 1978: journal page",
+      "url": "https://www.jstor.org/stable/2778111",
+      "note": "Record of the article in the American Journal of Sociology."
+    },
+    {
+      "titre": "Macy and Evtushenko, 2020: full text",
+      "url": "https://sociologicalscience.com/download/vol-7/december/SocSci_v7_628to648.pdf",
+      "note": "A recent revisiting of the model, in open access."
+    }
+  ],
+  "quiz": {
+    "question": "In Granovetter's example, why does the riot stop at one participant in the second crowd?",
+    "choix": [
+      "Because no individual has a threshold of 1: after the instigator, no one feels supported enough to act",
+      "Because the second crowd has, on average, fewer people ready to join the riot",
+      "Because the instigator of the second crowd waits to see more people act before starting",
+      "Because the second crowd lacks radicals, its average threshold being markedly higher"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The two crowds have nearly equal average thresholds (49.5 and 49.51) and the same instigator, with threshold 0. The difference is a gap in the distribution: without an individual at threshold 1, the cascade does not start beyond the first act. The model simplifies, with exactly one person per threshold, to make the effect visible.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How does Granovetter define an individual's threshold in his model?",
+      "choix": [
+        "The number of people they must see act before acting themselves",
+        "The time it takes them to decide after collective action begins",
+        "The proportion of their close ones who share their initial opinion",
+        "The level of legal risk to which they are personally exposed"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The threshold is the number, or proportion, of people one must see act before the perceived benefits outweigh the costs."
+    },
+    {
+      "question": "From which models does Granovetter say he borrowed the idea of a threshold?",
+      "choix": [
+        "Downs's rational choice models of voting",
+        "Rogers's models of the diffusion of innovations",
+        "Schelling's models of residential segregation",
+        "Milgram's models of social networks"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Granovetter himself notes that he takes the idea of a threshold from the models of residential segregation developed by Thomas Schelling."
+    },
+    {
+      "question": "What do Macy and Evtushenko show in 2020, revisiting Granovetter's model?",
+      "choix": [
+        "That individual thresholds never vary from one person to another within a group",
+        "That collective action can fail despite strong group interest, because of the sensitivity of cascades",
+        "That the threshold model proposed in 1978 applies only to riots, never to other collective behaviors",
+        "That real crowds never have the slightest gap in their distribution of individual thresholds"
+      ],
+      "bonne_reponse": 1,
+      "explication": "They show that collective action can fail despite strong group interest, since cascades are very sensitive to small perturbations."
+    }
+  ]
+}
