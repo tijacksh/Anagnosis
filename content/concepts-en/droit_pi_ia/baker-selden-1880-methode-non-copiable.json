@@ -1,0 +1,70 @@
+{
+  "id": "dro-baker-selden-1880-methode-non-copiable",
+  "slug": "baker-selden-1880-methode-non-copiable",
+  "langue": "en",
+  "empreinte_fr": "95ab02afceb3985a",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "English original, already quoted in English in the French entry; the exact phrase was matched by web search to the cited case (Cornell LII, 101 U.S. 99) and kept word for word with the same URL. The page text itself could not be re-read in this run (no page-fetch tool), so a human spot-check against the cited page is advisable."
+    }
+  ],
+  "titre": "A Bookkeeping Manual, and the Method No One Can Own",
+  "accroche": "In 1880, the Supreme Court rules that a book can be protected by copyright without the bookkeeping method it explains being protected.",
+  "contenu_vulgarise": "In 1859, Charles Selden publishes, and copyrights, a book with a blunt title: *Selden's Condensed Ledger, or Book-keeping Simplified*. It explains an accounting system designed to fit a business's complete financial picture on a single two-page spread, thanks to a particular arrangement of ruled columns and headings. The book sells poorly, and Selden dies without ever profiting from his invention. Years later, W. C. M. Baker sells blank account books whose ruled columns and headings produce the same result, with a different arrangement in the details. The commercial success is immediate: Baker sells his books in some forty counties within five years. Selden's widow sues him in 1872 for infringing her copyright, and wins in the lower courts.\n\n## The book is not the method it describes\n\nThe U.S. Supreme Court reverses the decision on January 19, 1880, in a unanimous opinion written by Justice Joseph P. Bradley. His reasoning rests on one distinction: copyright protects Selden's book as a composition, the precise text that explains the system, but does not protect the system itself. “The use of the art is a totally different thing from a publication of the book explaining it,” Bradley writes. The blank account books, with their ruled columns and headings, are not a reproduction of the book: they are a tool necessary to practicing the method, just as a scale is necessary to practicing the chemistry that a chemistry treatise explains.\n\nWhat Selden could have obtained to secure exclusive use of his bookkeeping method was not a copyright but a patent, which he never applied for. Without a patent, the method itself belonged to anyone who could read it in the book. “Any person may practise and use the art itself which he has described and illustrated therein,” the Court concludes, and the blank account books, in particular, have nothing to do with copyright.\n\n## A boundary written into statute\n\nThis distinction between the idea, method or system on one side and its particular expression on the other would remain a judge-made principle for nearly a century before Congress wrote it directly into the statute. The Copyright Act of 1976 provides that copyright never extends to any idea, procedure, process, system or method of operation, regardless of the form in which a work describes or illustrates it. A rule forged to settle a dispute over columns of figures ended up deciding, a century later, whether the way a piece of software works can itself be copyrighted, independently of the code that expresses it.",
+  "citation": {
+    "texte": "The use of the art is a totally different thing from a publication of the book explaining it. [...] any person may practise and use the art itself which he has described and illustrated therein.",
+    "auteur": "Justice Joseph P. Bradley, opinion of the Court",
+    "source": "Baker v. Selden, 101 U.S. 99, 104 (1880)",
+    "url": "https://www.law.cornell.edu/supremecourt/text/101/99"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "A failed bookkeeping manual ended up deciding what copyright never protects.",
+    "idee": "In 1880, the U.S. Supreme Court rules that a book's copyright protects its text, but never the method or system it explains. That distinction between an idea and its expression would be written into American law nearly a century later, in 1976.",
+    "source_courte": "Baker v. Selden, Supreme Court, 1880"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the Supreme Court side with Baker against Selden's widow in 1880?",
+    "choix": [
+      "Because Selden's copyright had expired by the time of the 1872 lawsuit",
+      "Because copyright protects the book, never the method it explains",
+      "Because Baker had registered his own copyright before Selden in 1859",
+      "Because Selden had never formally published his bookkeeping work"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The Court distinguishes the book, protected as a literary composition, from the bookkeeping method it describes, which cannot be protected by copyright: only a patent, which Selden had not applied for, could have reserved exclusive use of the method itself.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What would have become of Baker's blank account books had the Court upheld the lower courts' decision?",
+      "choix": [
+        "They would remain sellable, since the decision would not change their status",
+        "They would constitute an infringement of Selden's copyright",
+        "They would themselves become patentable in Baker's name",
+        "They would immediately fall into the public domain"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The lower courts had found Baker's account books infringing and granted an injunction against their sale; the Supreme Court reverses that decision in 1880.",
+      "statut": "valide"
+    },
+    {
+      "question": "Which American statute writes into law, nearly a century later, the distinction laid down in Baker v. Selden?",
+      "choix": [
+        "The Patent Act of 1952",
+        "The Copyright Act of 1976, which excludes ideas, processes, systems and methods from copyright",
+        "The Digital Millennium Copyright Act of 1998",
+        "The Statute of Anne of 1710"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The Copyright Act of 1976 explicitly provides that copyright never extends to any idea, procedure, process, system or method of operation, regardless of the form in which a work describes it, echoing the distinction laid down in 1880.",
+      "statut": "valide"
+    }
+  ]
+}

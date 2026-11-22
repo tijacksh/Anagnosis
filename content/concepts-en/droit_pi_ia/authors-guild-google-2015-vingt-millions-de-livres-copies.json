@@ -1,0 +1,82 @@
+{
+  "id": "dro-authors-guild-google-2015-vingt-millions-de-livres-copies",
+  "slug": "authors-guild-google-2015-vingt-millions-de-livres-copies",
+  "langue": "en",
+  "empreinte_fr": "98399b0cd517d3c4",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Original English text of the Second Circuit opinion, already quoted verbatim in the French entry (same URL, courtlistener copy of the opinion). Search results confirmed the passage exists in the opinion (govinfo, copyright.gov, Justia copies), but the full text was not reopened word by word during this pass."
+    }
+  ],
+  "titre": "Copying an Entire Book to Show Only Fragments",
+  "accroche": "In 2015, a federal court rules that scanning millions of books without permission can be fair, as long as it shows only crumbs of them.",
+  "contenu_vulgarise": "Since 2004, Google has struck agreements with major university libraries (Michigan, California, Harvard, Stanford, Oxford, Columbia, Princeton, Ghent, Keio, the Austrian National Library, the New York Public Library) to scan their collections. Since 2004, more than twenty million books have been digitized, copyrighted works and public-domain works alike; the vast majority are nonfiction, and most are out of print. In 2005, three authors (Jim Bouton, Betty Miles and Joseph Goulden) whose books were scanned without their permission, along with the Authors Guild, the association that represents them, sue Google.\n\n## Searching a book without ever reading it\n\nThe Google Books search engine lets anyone search for a word or phrase and see, for each book in which it appears, the number of occurrences and up to three short “snippets.” Each page is cut into eight non-overlapping horizontal segments; in a given book, the same word, searched from any computer, always displays the same three segments. A separate tool, based on the same corpus, makes it possible to track the frequency of a word or phrase over several centuries: one of the new forms of search that the opinion refers to as text mining. No advertising accompanies the search function, and Google earns nothing when a reader buys the book that was found.\n\nThe district court sides with Google: the copying is fair use, the exception that allows certain unauthorized uses of a protected work. The authors appeal. On October 16, 2015, the Second Circuit Court of Appeals, in an opinion by Judge Pierre Leval, affirms. “Google's making of a digital copy to provide a search function is a transformative use”: the copy serves a purpose different from that of the original work, it makes available information about the book (the presence and frequency of a term) without offering the public a substantial substitute for the book itself. The snippets are brief, scattered and incomplete: the court finds it very rare that they stand in for the book, rarer still that they replace buying it. The full copies, for their part, stay on servers isolated from the public Internet, protected by the measures Google applies to its own confidential information.\n\n## A ruling reopened for a different machine\n\nThe opinion relies explicitly on the test set in 1994 by the Supreme Court in *Campbell v. Acuff-Rose Music*, twenty-one years earlier: the more a use transforms the work rather than reproducing it as is, the less the other fair use factors, such as profit, weigh against it. Twenty million books copied in their entirety, in order to make only crumbs of them visible, thus become a fair use because what the public receives is never the book, but information about the book.\n\nThe court also relies on its own 2014 decision, *Authors Guild v. HathiTrust*: libraries partnering in that project had pooled their digital copies to offer full-text search, without displaying a single snippet, and the court had seen there a “quintessentially transformative” use. The difference with Google lies in the snippets, which the 2015 opinion accepts “at least under present conditions,” that is, as things currently stand. The reservation is written into the decision itself: it judges what the engine displayed at the time, three snippets of one-eighth of a page, and leaves open the question of what a full copy might one day return in other ways.",
+  "citation": {
+    "texte": "Google's making of a digital copy to provide a search function is a transformative use, which augments public knowledge by making available information about Plaintiffs' books without providing the public with a substantial substitute for matter protected by the Plaintiffs' copyright interests in the original works or derivatives of them.",
+    "auteur": "Pierre Leval",
+    "source": "Authors Guild, Inc. v. Google, Inc., 804 F.3d 202, opinion of the U.S. Court of Appeals for the Second Circuit, October 16, 2015",
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.ca2.13-4829.230.0.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Copying twenty million entire books can be fair if you show only crumbs of them.",
+    "idee": "In 2015, a U.S. appeals court rules that Google's digitization of more than twenty million books, to allow word search and display short snippets, is fair use: the use turns the text into information about the text, without ever substituting for it.",
+    "source_courte": "Authors Guild v. Google, 2015"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the appeals court rule in 2015 that Google's digitization of twenty million books is fair use?",
+    "choix": [
+      "Because Google scans only books that have fallen into the public domain, never works still under copyright",
+      "Because the copy serves a transformative purpose (producing information about the books, not offering a reading of them) without substituting for the purchase of the work",
+      "Because the partner libraries had themselves assigned their copyrights to Google when the agreement was signed",
+      "Because the 1976 federal law explicitly authorizes any digitization for academic research purposes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The court finds that creating a search index and word-frequency tools transforms the use of the text: the public receives information about the books, not a substitute, and the snippets, brief and scattered, only very rarely replace a purchase. The corpus also includes works still under copyright, and the decision rests on fair use, not on an assignment of rights by the libraries or an express statutory authorization to digitize for research.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What is the maximum number of snippets the Google Books search engine displays for a given word in a book?",
+      "choix": [
+        "Three snippets, always the same ones regardless of the computer",
+        "A single snippet, always the same one",
+        "Ten different snippets each time you search",
+        "All the pages containing the word searched"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Each page is cut into eight horizontal segments, and the engine never displays more than three snippets, always the same ones from any computer.",
+      "statut": "valide"
+    },
+    {
+      "question": "On which earlier Supreme Court decision does Authors Guild v. Google explicitly rely?",
+      "choix": [
+        "A 1976 decision on digital legal deposit",
+        "Campbell v. Acuff-Rose Music, twenty-one years earlier",
+        "Authors Guild v. HathiTrust, the year before",
+        "None, the opinion invents a new test"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The opinion adopts the test from Campbell v. Acuff-Rose Music (1994), set by the Supreme Court twenty-one years earlier: the more a use transforms the work, the less the other factors weigh against it.",
+      "statut": "valide"
+    },
+    {
+      "question": "What difference separates the use judged in Authors Guild v. HathiTrust (2014) from that of Google Books?",
+      "choix": [
+        "HathiTrust digitized only public-domain books",
+        "HathiTrust charged for access to its search, unlike Google",
+        "HathiTrust displayed no snippets, only full-text search",
+        "HathiTrust had no partner libraries"
+      ],
+      "bonne_reponse": 2,
+      "explication": "HathiTrust's libraries pooled their copies for full-text search without displaying a single snippet, a use the same court found quintessentially transformative.",
+      "statut": "valide"
+    }
+  ]
+}
