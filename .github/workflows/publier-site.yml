@@ -45,6 +45,9 @@ jobs:
       - name: Construire la vitrine et signer le contenu
         env:
           ANAGNOSIS_CLE_PRIVEE: ${{ secrets.ANAGNOSIS_CLE_PRIVEE }}
+          # Politique de drapeaux des fiches anglaises (décidée par Arnaud le 2026-11-22) : en plus des drapeaux d'information,
+          # `citation-traduite` est accepté. SANS EFFET tant que ANAGNOSIS_LANGUES n'est pas posée (anglais éteint). Voir docs/traduction-en.md.
+          ANAGNOSIS_EN_DRAPEAUX_TOLERES: citation-traduite
         run: npm run site
       - name: Refuser de publier un site sans contenu signé
         run: |

@@ -81,3 +81,22 @@ Rythme proposé : 2 passages par jour, à des heures où aucune autre routine du
 - Chaque construction affiche le compte rendu (avec / sans / refusées par motif).
 - **Pour allumer** : poser `ANAGNOSIS_LANGUES=fr,en` dans `.github/workflows/publier-site.yml` (étape « Construire »), retirer l'exclusion `!content/concepts-en/**` des `paths`, décider des drapeaux tolérés et de l'exigence de relecture, et que les apps lisent `en` (choix de la langue, repli par fiche, pas d'audio).
 - **Taille** : le fichier passe de 12,96 Mo (français) à environ 16,7 Mo avec les 516 fiches anglaises à jour (+7,2 Ko par fiche, soit environ 20 Mo pour 982) ; limite d'un fichier statique Cloudflare : 25 MiB.
+
+## Politique de drapeaux (décidée par Arnaud le 2026-11-22)
+Quand le fichier à deux langues sera activé (`ANAGNOSIS_LANGUES=fr,en`, éteint aujourd'hui), les apps servent l'anglais d'une fiche si la garde l'accepte. **Drapeaux acceptés** : `citation-originale-anglaise`, `texte-officiel-anglais` (information) et **`citation-traduite`** (posé dans `.github/workflows/publier-site.yml`, sans effet tant que l'anglais est éteint). **Tout autre drapeau retient la fiche** : `incertain`, `texte-officiel-a-verifier`, `citation-langue-originale`, `erreur-possible-fr`. Elle reste servie en français jusqu'à ce que le contrôle qualité (ci-dessous) lève le drapeau.
+Chiffres au 2026-11-22 : 731 fiches servies en anglais avec cette politique ; `npm run averifier-en -- --stats` donne le reste (182 fiches, dont 65 `erreur-possible-fr` qui attendent que le français soit réparé).
+
+## Routine de contrôle qualité des fiches anglaises (à créer ; remplace tout contrôle manuel)
+Sert à traiter les fiches retenues par la politique de drapeaux. Une routine par voie comme pour le rattrapage (le droit, voie « vincent », avec le web ; le reste, voie « arnaud »). Modèle : Claude Sonnet 5.5, réglage par défaut. Prompt :
+1. `git status --short` doit être vide, puis `git pull --rebase origin main`.
+2. `npm run averifier-en -- --json --max 10` (ajouter `--discipline <d>` pour une voie ; exclure les fiches `attend_le_francais: true` : elles attendent `controler`/`réparer`). Si la liste est vide, s'arrêter, aucun commit.
+3. Pour chaque fiche : lire le français `content/concepts/<d>/<slug>.json` et l'anglais `content/concepts-en/<d>/<slug>.json`, puis traiter CHAQUE drapeau avec le web :
+   - `texte-officiel-a-verifier` : retrouver le texte anglais officiel (loi, convention, arrêt, traité), le recopier mot pour mot avec son adresse, drapeau → `texte-officiel-anglais` ; sinon garder la traduction et passer à `citation-traduite` (note en anglais).
+   - `citation-langue-originale` : la citation est dans sa langue d'origine (latin, grec, allemand…) : vérifier le texte, puis retirer le drapeau si la glose anglaise est fidèle ; sinon traduire et poser `citation-traduite`.
+   - `incertain` : relire le choix de traduction signalé dans la note du drapeau avec le français ; trancher (corriger la traduction ou confirmer), retirer le drapeau, ou le remplacer par `citation-traduite` si seul le texte d'une citation reste non vérifié.
+   - Vérification de fidélité de toute la fiche contre le français : chiffres, dates, noms, sens ; corriger sans rien ajouter ni retirer. Citation d'un auteur anglophone : retrouver l'original anglais mot pour mot (téléchargement de la page, pas un simple résumé) et poser `citation-originale-anglaise`, sinon `citation-traduite`.
+   - Ne jamais corriger le français ici : une incohérence du français = drapeau `erreur-possible-fr` (la fiche attend `controler`/`réparer`).
+4. Le champ `relu` reste `false` (décision humaine). `empreinte_fr` ne change pas (le français ne change pas).
+5. `npm run validate` et `npm test` à zéro erreur ; commit « Contrôle EN : N fiches (<voie>) » par chemin ; `git pull --rebase origin main` puis `git push origin HEAD:main` (re-pull et re-push une fois si refusé, jamais de force).
+6. Rendre compte : fiches traitées, drapeaux levés par type, drapeaux restants, et `npm run averifier-en -- --stats`.
+Rythme proposé : 1 à 2 passages par jour de 10 fiches. Appliquer la règle d'usage habituelle des routines.

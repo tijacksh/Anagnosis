@@ -1698,3 +1698,7 @@ Contexte : Anagnosis devient bilingue sur iOS et Android (décision d'Arnaud, 20
 - **Dates et heures suivent la langue de l'interface** (amende la règle d'origine, qui les écrivait en dur en français pour qu'un téléphone en anglais ne montre pas « Wed 30 July » sous une fiche française) : « 10 juin 2000 » / « June 10, 2000 » ; 24 h en français, « 8:10 a.m. » en anglais dans les phrases (le sélecteur d'heure reste en 24 h). Les noms et modèles sont écrits dans la table de chaînes, sans formateur système, identiques sur iOS et Android. Les calculs de jours ne changent pas.
 - **Glossaire anglais** : fiche = entry, série = streak, Ce jour-là = On this day, discipline = field, rappel (questions espacées) = Recall, planches = Plates (voir `docs/traduction-en.md`).
 - **Les prix et noms de produits viennent des boutiques** ; les pages légales liées restent en français.
+
+
+## 2026-11-22 : politique de drapeaux des fiches anglaises
+Arnaud retient **731 fiches servies en anglais** : drapeaux d'information (`citation-originale-anglaise`, `texte-officiel-anglais`) et `citation-traduite` acceptés ; `incertain`, `texte-officiel-a-verifier`, `citation-langue-originale` et `erreur-possible-fr` retiennent la fiche, qui repasse par le contrôle qualité (`npm run averifier-en`, routine décrite dans `docs/traduction-en.md`). Contrôle qualité complet des fiches traduites : reporté à cette routine. L'anglais reste éteint (`ANAGNOSIS_LANGUES` non posée) tant qu'Arnaud n'a pas dit go.
