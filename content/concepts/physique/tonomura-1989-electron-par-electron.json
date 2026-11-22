@@ -75,10 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-22",
+    "verdict": "a_revoir",
+    "empreinte": "b9654885b3021972",
+    "notes": [
+      "Sources rouvertes (Rosa 2012 sur PMC, lu en détail ; Wikipedia EN) : la chronologie 1976 (Merli/Missiroli/Pozzi, AJP), 1989 (Tonomura, AJP), la lettre de Steeds en 2003 et la conclusion de Rosa sur la priorité bolognaise sont toutes confirmées. MAIS le chiffre '20 votes' du champ repere ('recueille 20 votes, davantage qu'aucune autre') n'apparaît dans aucune des sources citées : Rosa (2012) ne donne aucun nombre de votes ni pourcentage pour le sondage Physics World 2002, et l'article Wikipedia dédié non plus. À vérifier où ce chiffre a été pris, ou le retirer du repere si aucune source ne le confirme — c'est un chiffre précis et vérifiable qui ne doit pas rester sans appui."
+    ]
+  },
   "controle_juridique": null,
   "meta": {
     "genere_le": "2026-11-22",
