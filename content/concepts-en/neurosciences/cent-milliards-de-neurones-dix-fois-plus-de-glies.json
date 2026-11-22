@@ -1,0 +1,75 @@
+{
+ "id": "neu-cent-milliards-de-neurones-dix-fois-plus-de-glies",
+ "slug": "cent-milliards-de-neurones-dix-fois-plus-de-glies",
+ "langue": "en",
+ "empreinte_fr": "7eb8695e9d6d1959",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "100 Billion Neurons, Ten Times More Glia: What 2009 Corrected",
+ "accroche": "The 100 billion neurons were roughly right; it is the “ten times more glia” that the counts did not support.",
+ "contenu_vulgarise": "Open a neuroscience textbook from the 1990s or 2000s: the human brain has one hundred billion neurons and about ten times as many glial cells. Both numbers pass from book to book. In 2009, a Brazilian team around Suzana Herculano-Houzel writes in the Journal of Comparative Neurology that, to their knowledge, these numbers had never been backed by an experimental study.\n\n## Counting a Whole Brain\n\nThe problem is first of all practical. A human brain is large and very uneven from one region to another: you cannot, as with a small nucleus, count the cells on a few sections and then extrapolate. The team uses another method, the isotropic fractionator. The fixed tissue is ground up in a detergent solution until only the cell nuclei remain in suspension. The suspension is stirred so that the nuclei are spread uniformly, then their density is counted under a fluorescence microscope. A marker, called NeuN, distinguishes neuron nuclei from all the others. A single brain takes four to six weeks of counting.\n\nFour brains of men aged 50, 51, 54, and 71, who died of non-neurological causes and had no cognitive disorder, go through this process. Result: 86.1 billion neurons, plus or minus 8.1, and 84.6 billion non-neuronal cells, plus or minus 9.8. The ratio between the two is 0.99. The authors point out a limitation: NeuN does not label certain brainstem neurons, so their number is probably slightly underestimated.\n\n## What Was Wrong, and What Was Not\n\nThe hundred billion neurons were not far off. Earlier estimates, based on cell densities, gave between 70 and 85 billion, and the 2009 measurement joins them rather than overturning them. The figure that falls is the other one: ten glial cells for one neuron. Non-neuronal cells, which include glia but also other types such as the cells of blood vessels, are as numerous as neurons, so glia alone are necessarily fewer. To make the ten-to-one true across the whole brain, the authors calculate, nearly a trillion glial cells would have to be hidden outside the cortex and the cerebellum. Their counts do not find them there.\n\nA historical review published in 2016, by Christopher von Bartheld, Jami Bahney, and Herculano-Houzel, takes up the file over a hundred and fifty years of counts. According to it, the published counting data were already heading toward a ratio close to one to one, but they were not confronted with the textbooks, where ten to one remained the standard value from the 1960s to 2009.\n\n## What This Shifts\n\nThe ten to one was not absurd everywhere. In the deep structures, outside the cortex and the cerebellum, the maximum ratio of non-neuronal cells per neuron reaches 11.35; it falls to 0.23 in the cerebellum. The ratio therefore varies greatly from one region to another, and the whole-brain average says nothing about these gaps.\n\nMass is also misleading. The cerebral cortex, white matter included, weighs 82% of the brain but contains only 19% of the neurons. The cerebellum, 10% of the mass, houses 69 billion, about 80%.",
+ "citation": null,
+ "repere": {
+  "texte": "On four brains of men aged 50 to 71, the isotropic fractionator gives 86.1 ± 8.1 billion neurons and 84.6 ± 9.8 billion non-neuronal cells, a ratio of 0.99 where textbooks announced ten.",
+  "source": "Azevedo et al., Journal of Comparative Neurology, 513(5), 2009",
+  "url": "https://doi.org/10.1002/cne.21974"
+ },
+ "carte": {
+  "punch": "100 billion neurons: roughly right. Ten times more glia: the count says no.",
+  "idee": "In 2009, a direct count of four human brains gives 86 billion neurons and as many non-neuronal cells, a ratio close to 1 to 1. For the authors, the value of ten glia per neuron, repeated in textbooks, rested on no measurement known to them.",
+  "source_courte": "Azevedo et al., J. Comp. Neurol., 2009"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The search for true numbers of neurons and glial cells in the human brain: A review of 150 years of cell counting",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5063692/",
+   "note": "The history of the estimates since the 19th century, open access."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the figure of ten glial cells per neuron undermined by the 2009 count?",
+  "choix": [
+   "Because the brain actually contains ten times fewer neurons than announced",
+   "Because the four brains counted came from people with neurological diseases",
+   "Because direct counting of nuclei gives about as many non-neuronal cells as neurons",
+   "Because the method could only detect neurons and not glia"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The 2009 count gives 86 billion neurons and 85 billion non-neuronal cells (glia included), a ratio close to 1 and not 10. The number of neurons was not ten times too high (earlier estimates ranged from 70 to 85 billion), the four brains were those of men who died of non-neurological causes and had no cognitive disorder, and the method counts all nuclei, non-neurons as well as neurons.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What method did the 2009 team use to count the cells of an entire human brain?",
+   "choix": [
+    "The isotropic fractionator, which reduces the tissue to a suspension of nuclei counted under the microscope",
+    "Extrapolation from tissue sections counted on a limited sample",
+    "Magnetic resonance imaging of the volume of gray matter"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The fixed tissue is ground up in a detergent solution so that only the cell nuclei remain in suspension, and their density is counted under a fluorescence microscope, with the NeuN marker distinguishing neurons from non-neurons."
+  },
+  {
+   "question": "According to the entry, what does the comparison between mass and number of neurons in the cortex and the cerebellum reveal?",
+   "choix": [
+    "That mass and number of neurons are proportional throughout the brain",
+    "That the cerebellum contains almost no neurons",
+    "That the mass of a structure says nothing about its number of neurons"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The cerebellum weighs only 10% of the brain's mass but contains about 69 billion neurons, nearly 80% of the total, while the cortex, which weighs 82% of the mass, contains only 19% of them: mass is misleading about the real number of neurons."
+  },
+  {
+   "question": "What does the 2016 review by von Bartheld, Bahney, and Herculano-Houzel conclude about the origin of the ten-to-one ratio?",
+   "choix": [
+    "That it came from a solid experimental study that had simply been forgotten since",
+    "That published counts were already leaning toward one to one, but had never been confronted with the textbooks",
+    "That the 2009 isotropic fractionator overestimated the number of glial cells"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 2016 review shows that the counts published before 2009 were already leaning toward a ratio close to one to one, but that this data had not been brought together with the textbooks, where ten to one remained the standard value between the 1960s and 2009."
+  }
+ ]
+}

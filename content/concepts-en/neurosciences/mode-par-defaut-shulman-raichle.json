@@ -1,0 +1,72 @@
+{
+ "id": "neu-mode-par-defaut-shulman-raichle",
+ "slug": "mode-par-defaut-shulman-raichle",
+ "langue": "en",
+ "empreinte_fr": "a7b86f5685fdd731",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Default Mode: The Brain's Rest Is Not a Zero",
+ "accroche": "In nine tomography studies, the same regions decrease in activity as soon as the brain has a task. In 2001, Raichle draws a default mode from this.",
+ "contenu_vulgarise": "To find out what a region of the brain does, imaging researchers compare two states: a task, for example looking at an image and processing its content, and a control condition, looking at the same image without doing anything with it. What activates during the task is attributed to the task. One anomaly resists this reasoning, however: some regions decrease in activity.\n\n## Decreases That Do Not Depend on the Task\n\nIn 1997, Gordon Shulman and his colleagues, including Marcus Raichle, go back over nine positron emission tomography studies on the processing of visual images. They compare activity during an active task with that of passive viewing of the same scene. The increases vary from one study to another. The decreases, for their part, fall in the same places: the posterior cingulate cortex and the precuneus, the inferior parietal cortex, frontal regions including a medial strip, the right amygdala. Raichle and his colleagues take up this synthesis in 2001. It brings together 132 people, and these decreases seem largely independent of the task.\n\n## A Rest That Is Not a Zero\n\nAn objection remains: these decreases may be increases hidden in the control condition, where volunteers, left to themselves, would activate other regions. No control would then be a true zero, each being one more task. To settle it, Raichle and his colleagues look for a baseline state defined without comparing two tasks. They measure by tomography the fraction of oxygen that the brain extracts from the blood supplying it. In awake adults lying with their eyes closed, this fraction is remarkably uniform throughout the brain, which indicates a balance between local energy demand and blood flow. The authors take the average as the baseline level and any deviation as a change in activity.\n\nThe result is clear: no area of activation appears. The only significant deviations are increases in the extracted fraction, hence deactivations, almost all in the visual system. The regions that decrease during tasks thus do not deviate from the resting average: they decrease from a baseline state, which the authors call a default mode of brain function, suspended during goal-directed activities.\n\n## What This Mode Does Not Say\n\nThe brain weighs about 2% of the body and consumes nearly 20% of the oxygen that the body extracts from the air it breathes, the 2001 article reminds us at the outset. In a 2006 review, Raichle and Mintun argue that the brain's intrinsic activity, continuous and costly, most likely represents the largest share of its functional activity. Rest is therefore not a brain at a standstill, and a control condition is not a zero.\n\nAs for the role of these regions, caution is the rule. Shulman and his colleagues considered in 1997 unconstrained verbal thoughts and monitoring of the environment, the body, and the emotional state. Raichle writes in 2001 that understanding their functions would require much additional work. In 2003, Michael Greicius and his colleagues show by functional MRI that these regions form a network whose activity is coupled at rest, and they speak of a default mode network. What exactly these regions do when nothing is asked of the brain, the 2001 article leaves open.",
+ "citation": null,
+ "repere": {
+  "texte": "In awake adults at rest with eyes closed (two independent groups of 19), all significant deviations of the oxygen extraction fraction from the hemispheric mean are increases, which mean deactivations, almost all in the visual system. Areas of activation are absent.",
+  "source": "Abstract of Raichle, MacLeod, Snyder, Powers, Gusnard & Shulman, “A default mode of brain function,” PNAS, 2001, vol. 98, no. 2, pp. 676-682",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC14647/"
+ },
+ "carte": {
+  "punch": "Nine studies, one surprise: regions decrease in activity as soon as the brain has a task.",
+  "idee": "In 1997, Shulman and his colleagues note that the same brain regions decrease during varied visual tasks. In 2001, Raichle measures a baseline state in adults at rest and names it the default mode.",
+  "source_courte": "Shulman, 1997; Raichle et al., PNAS, 2001"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why do Raichle and his colleagues measure the fraction of oxygen extracted from the blood rather than compare two tasks?",
+  "choix": [
+   "To define a baseline state without a control condition, which can itself activate regions",
+   "To directly count the neurons firing in each region of the human brain",
+   "To prove that the brain consumes far more energy during a task than at rest",
+   "To locate the regions that activate when looking at an image"
+  ],
+  "bonne_reponse": 0,
+  "explication": "A control condition can be one more task, with its own activations. The fraction of oxygen extracted from the blood gives a baseline state defined by physiology, from which one can say whether a region decreases. Tomography does not count the neurons firing, and the article seeks neither to compare the energy expenditure of a task and of rest nor to locate activations.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which regions do Shulman and his colleagues identify in 1997 as consistently less active during active visual tasks?",
+   "choix": [
+    "The primary visual cortex, the primary auditory cortex, the cerebellum, and the medulla",
+    "The posterior cingulate cortex and the precuneus, the inferior parietal cortex, a medial frontal strip, the right amygdala",
+    "The hippocampus, the thalamus, the primary motor cortex, and the primary somatosensory cortex",
+    "The lateral prefrontal cortex, the anterior insular cortex, the putamen, and the caudate nucleus"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Shulman and his colleagues note these consistent decreases in the posterior cingulate cortex and the precuneus, the inferior parietal cortex, a medial frontal strip, and the right amygdala, in nine tomography studies of varied visual tasks."
+  },
+  {
+   "question": "What fraction of the body's oxygen does the brain consume, even though it weighs about 2% of body weight?",
+   "choix": [
+    "Nearly 50%",
+    "Less than 5%",
+    "About 35%",
+    "Nearly 20%"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The 2001 article reminds us that the brain weighs about 2% of the body but consumes nearly 20% of the oxygen extracted from the air breathed, a sign of continuous and costly intrinsic activity even without a task."
+  },
+  {
+   "question": "What do Greicius and his colleagues show in 2003, by functional MRI?",
+   "choix": [
+    "That only the right amygdala is involved in the default mode, no other region",
+    "That the oxygen extraction fraction varies strongly from one region to another at rest",
+    "That the regions that decrease during tasks form a network coupled at rest",
+    "That the default mode appears only during deep sleep, never while awake"
+   ],
+   "bonne_reponse": 2,
+   "explication": "By functional MRI, Greicius and his colleagues show in 2003 that these regions form a network whose activity is coupled at rest, which they call the default mode network, neither limited to the amygdala nor specific to sleep."
+  }
+ ]
+}

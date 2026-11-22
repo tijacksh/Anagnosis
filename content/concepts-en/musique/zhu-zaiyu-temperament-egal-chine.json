@@ -1,0 +1,74 @@
+{
+ "id": "mus-zhu-zaiyu-temperament-egal-chine",
+ "slug": "zhu-zaiyu-temperament-egal-chine",
+ "langue": "en",
+ "empreinte_fr": "06bcf03088b3704a",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "English rendering already given in the French entry, taken from the English Wikipedia article it cites; copied unchanged. The treatise itself is in Chinese, so this is a published English rendering, not re-checked against the page."
+  }
+ ],
+ "titre": "Zhu Zaiyu and the Equal Temperament Invented in China",
+ "accroche": "In 1584, a Chinese scholar calculates the twelfth root of two and solves, before Europe, the problem that keeps an instrument from sounding in tune everywhere",
+ "contenu_vulgarise": "In 1593, the Chinese prince Zhu Zaiyu inherits the title of Prince of Zheng, and almost immediately yields it to his cousin. Nine years earlier, in 1584, he had already solved by calculation a problem that had occupied music theorists since antiquity, in China as in Europe, and that no Western musician would formulate with the same precision before the turn of the following century.\n\n## Dividing the Octave Without Cheating\n\nTuning an instrument on pure fifths, as the Pythagorean theorists did, poses a problem: by stacking twelve pure fifths, you never land exactly on the starting octave. The gap, the famous “Pythagorean comma,” forces a choice of which key will sound in tune and which will sound off. Zhu Zaiyu proposes a radical mathematical solution: divide the length of a string twelve times in a row by the same factor (the twelfth root of two, about 1.059463), so that after the twelve divisions the length is exactly cut in half, the octave. Each semitone thus becomes rigorously identical to its neighbor, at the cost of a slight deviation everywhere, but nowhere more than anywhere else. For the length of pipes, he applies a different division, by the twenty-fourth root of two. He publishes this method in 1584, in his treatise *Lü Xue Xin Shuo* (“New Theory on the Study of Pitches”), declaring: “I have founded a new system.”\n\n## An Invention That Did Not Travel\n\nNothing indicates that this discovery crossed the borders of Ming China: no evidence confirms a transmission to Europe by the Jesuit missionaries installed at court, though they were Zhu's contemporaries. In Europe, the same problem finds its solution independently, in the Flemish mathematician Simon Stevin, in a manuscript dated to around 1605: it remained unpublished until its posthumous publication in 1884. Two mathematically identical solutions, obtained with no contact between their authors, and yet a radically different fate: Zhu Zaiyu's is printed and preserved in the musicological corpus he presents to the imperial court in 1606, even though it receives no official recognition there, neither under the Ming nor under the following dynasty; Stevin's sleeps in a drawer for nearly three centuries. The historian James Murray Barbour would later call Zhu Zaiyu's solution “brilliant,” and its complete lack of recognition in his own time remains, in his view, a mystery.",
+ "citation": {
+  "texte": "I have founded a new system.",
+  "auteur": "Zhu Zaiyu",
+  "source": "Lü Xue Xin Shuo (1584), quoted in Wikipedia, “Equal temperament”",
+  "url": "https://en.wikipedia.org/wiki/Equal_temperament"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "A Chinese prince solves equal temperament in 1584, twenty years before Europe, to general indifference.",
+  "idee": "In 1584, the Chinese scholar Zhu Zaiyu calculates the twelfth root of two and divides the octave into twelve equal semitones: equal temperament. Simon Stevin arrives at it on his own around 1605, but his manuscript stays unpublished until 1884. Neither sees his solution adopted in his lifetime.",
+  "source_courte": "Wikipedia, “Equal temperament”"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wikipedia — Twelfth root of two",
+   "url": "https://en.wikipedia.org/wiki/Twelfth_root_of_two",
+   "note": "The history of this mathematical constant and its uses in music theory, in China as in Europe."
+  }
+ ],
+ "quiz": {
+  "question": "What problem does Zhu Zaiyu's equal temperament solve?",
+  "choix": [
+   "The fact that Chinese wind instruments could not play more than five notes",
+   "The fact that silk strings slackened faster than European strings",
+   "The fact that stacking twelve pure fifths never lands exactly on the starting octave",
+   "The fact that two musicians could never tune together without a common tuning fork"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Stacked pure fifths never close the octave exactly: this is the Pythagorean comma. By dividing the octave into twelve rigorously equal intervals using the twelfth root of two, Zhu Zaiyu spreads this gap equally across all keys, rather than concentrating it on one.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "By what factor does Zhu Zaiyu divide the length of a string, twelve times in a row, to obtain rigorously equal semitones?",
+   "choix": [
+    "By the twelfth root of two, about 1.059463",
+    "By one twelfth of the total length of the string, removed at each step",
+    "By the square root of two, applied six times",
+    "By the pure fifth ratio, 3/2, repeated twelve times"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Zhu Zaiyu divides the string twelve times in a row by the twelfth root of two, about 1.059463, so that the twelve divisions cut the length exactly in half, the octave, with each semitone remaining identical to its neighbor."
+  },
+  {
+   "question": "Who, in Europe, independently finds the same solution as Zhu Zaiyu, and what becomes of his manuscript?",
+   "choix": [
+    "Matteo Ricci, who immediately passes it on to the musicians of the Chinese imperial court",
+    "Johannes Kepler, who publishes it in his lifetime in a treatise on harmony",
+    "Galileo Galilei, whose manuscript is lost in a fire",
+    "Simon Stevin, around 1605; the manuscript stays unpublished until its posthumous publication in 1884"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The Flemish mathematician Simon Stevin finds the same solution around 1605, with no contact with Zhu Zaiyu, but his manuscript stays unpublished for nearly three centuries, until its posthumous publication in 1884."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "neu-loewi-reve-vagusstoff",
+ "slug": "loewi-reve-vagusstoff",
+ "langue": "en",
+ "empreinte_fr": "6e5ea38619c588ab",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-traduite",
+   "note": "The French gives a translation of Loewi's English Nobel lecture; the original English wording was not retrieved (original not retrieved), so this is a faithful back-translation. To be replaced with the published English text."
+  }
+ ],
+ "titre": "The Dream That Proved Neurons Transmit Chemically",
+ "accroche": "One night, Otto Loewi jots down an idea in the dark, forgets it, finds it again the next night, and proves in 1921 that neurons talk to each other chemically.",
+ "contenu_vulgarise": "One night, Otto Loewi wakes up, turns on the light, scribbles a few words on a scrap of paper, and goes back to sleep. In the morning, he finds the sheet but cannot decipher his own handwriting. The following night, at three o'clock, the idea comes back intact: the experimental setup that will settle, in a single night in the laboratory, a debate decades old.\n\n## A Debate Between Soup and Sparks\n\nAt the beginning of the 20th century, two camps disagree over how a nerve transmits its signal to an organ. Some hold the transmission to be purely electrical, a current jumping from one cell to the next. Others, including Loewi himself since 1903, suspect that a chemical messenger intervenes at the junction, without any means of demonstrating it.\n\nThe experiment Loewi designs comes down to a simple setup. He takes two frog hearts that are still beating, places each in a saline bath, and leaves the vagus nerve attached to only one of the two. By stimulating this nerve, he slows the first heart. But when he transfers the fluid from this bath to the second heart, which has no nerve at all, it slows in turn. No electric current could have traveled from one jar to the other: only a chemical component dissolved in the fluid can explain the effect. Loewi names this component *vagusstoff*, the “substance of the vagus.” The manuscript, received on March 20, 1921, by the Pflügers Archiv, appears in December of the same year.\n\n## Identifying the Substance\n\nFinding an effect does not say what it carries. In 1926, with his collaborator Ernst Navratil, Loewi shows that vagusstoff is broken down by an enzyme of the heart, and that this breakdown is blocked by eserine, an alkaloid. Acetylcholine, already known to chemists, behaves in exactly the same way toward the same enzyme and the same blocker: the two substances are, for all practical purposes, identical. The first neurotransmitter in history has just been identified.\n\n## A Prize, but Not an Immediate Conversion\n\nIn 1936, Loewi shares the Nobel Prize in Physiology or Medicine with Henry Dale, for their discoveries on the chemical transmission of the nerve impulse. The proof is published, rewarded. It does not, however, close the debate. Physiologists studying the central nervous system go on, for nearly twenty years, defending electricity as the general rule, conceding vagusstoff only at the very particular junction of the heart. It takes the intracellular recordings of the 1950s to establish that chemical transmission is the rule at nearly all synapses.\n\nOne last detail remains, more solid than an anecdote. The 1921 manuscript bears a date of receipt: March 20, a week before Easter Sunday of that year. If the founding dream had really taken place “the night before Easter,” as Loewi would tell decades later in his memoirs, it could not have inspired an experiment already written up and mailed six days earlier. The dream therefore more likely dates to the spring of 1920: a Nobel laureate's memory of his own discovery drifted, too, by a year.",
+ "citation": {
+  "texte": "In 1921, I succeeded for the first time in obtaining certain proof that, on stimulating the nerves of a frog's heart, substances were released, passing partly into the fluid bathing this heart, and that this fluid, transferred to a second heart, made it react exactly as the direct stimulation of the corresponding nerves would have done.",
+  "auteur": "Otto Loewi",
+  "source": "The Chemical Transmission of Nerve Action, Nobel lecture, December 12, 1936 (retranslated from the French; original wording not retrieved)",
+  "url": "https://www.nobelprize.org/prizes/medicine/1936/loewi/lecture/"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "An idea jotted down in the dark, found again the next night, proves that a nerve acts chemically.",
+  "idee": "In 1921, Otto Loewi publishes the experiment proving that a nerve acts on an organ through a chemical substance: the bath fluid of a frog heart slowed by the vagus nerve, poured onto a second heart, slows it in turn. Nobel Prize in 1936, with Henry Dale.",
+  "source_courte": "Loewi, Pflügers Archiv, 1921 · Nobel 1936"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "How Dreams and Frog Hearts Led to the Discovery of Neurotransmitters",
+   "url": "https://www.acsh.org/news/2026/03/05/how-dreams-and-frog-hearts-led-discovery-neurotransmitters-49994",
+   "note": "An accessible account, which extends the story to Loewi's arrest by the Gestapo in 1938 and his exile."
+  }
+ ],
+ "quiz": {
+  "question": "What did Loewi's two-frog-heart experiment make it possible to demonstrate?",
+  "choix": [
+   "That the vagus nerve speeds up the heartbeat by releasing adrenaline into it",
+   "That nerves can communicate through a chemical substance, not only through an electrical signal",
+   "That acetylcholine, once released into the blood, causes cardiac arrhythmias",
+   "That the heart can keep beating independently of any nerve connection"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Before Loewi, the dominant theory saw nerve transmission as purely electrical. Slowing a second heart by transferring to it only the bath of the first showed that a chemical messenger (vagusstoff, later identified as acetylcholine) carries the signal. The vagus nerve slows the heart, it does not speed it up, and the experiment says nothing about arrhythmias.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How do Loewi and his collaborator Ernst Navratil identify vagusstoff as acetylcholine, in 1926?",
+   "choix": [
+    "By showing that the same heart enzyme breaks down both substances, a breakdown blocked by the same alkaloid, eserine",
+    "By observing the molecule directly under the electron microscope",
+    "By comparing their chemical composition using mass spectrometry",
+    "By injecting pure acetylcholine into a frog heart and comparing the effects with the naked eye"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Loewi and Navratil show that vagusstoff is broken down by an enzyme of the heart, a breakdown blocked by eserine, an alkaloid; acetylcholine behaves in exactly the same way toward the same enzyme and the same blocker."
+  },
+  {
+   "question": "What finally established, in the 1950s, that chemical transmission is not a cardiac exception?",
+   "choix": [
+    "Intracellular recordings of neurons",
+    "The discovery of a second neurotransmitter, dopamine",
+    "Repeating the two-frog-heart experiment on mammals",
+    "A second Nobel Prize awarded to Loewi for his work on the brain"
+   ],
+   "bonne_reponse": 0,
+   "explication": "It takes the intracellular recordings of the 1950s to establish that chemical transmission is the rule at nearly all synapses, and not an exception specific to the heart."
+  },
+  {
+   "question": "Why does Loewi's account that his dream took place the night before Easter 1921 pose a problem?",
+   "choix": [
+    "The manuscript describing the experiment was received a week before Easter that year, even before the supposed dream",
+    "Loewi never mentioned Easter in his memoirs, this date was invented after his death",
+    "Easter fell a month later in 1921, which makes the dream impossible to place",
+    "The manuscript bears no date of receipt that would allow the account to be checked"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The manuscript bears a date of receipt, March 20, 1921, a week before Easter that year: it could therefore not have been inspired by a dream occurring just before Easter, which places the dream rather in the spring of 1920."
+  }
+ ]
+}

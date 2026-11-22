@@ -1,0 +1,69 @@
+{
+ "id": "neu-dopamine-erreur-de-prediction-schultz-1997",
+ "slug": "dopamine-erreur-de-prediction-schultz-1997",
+ "langue": "en",
+ "empreinte_fr": "5498284b9a3f37d9",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Dopamine, the Pleasure Molecule? Schultz (1997), Berridge (1998)",
+ "accroche": "Dopamine neurons stop reacting to an expected reward; rats almost depleted of dopamine still react normally to sugar.",
+ "contenu_vulgarise": "A monkey sits in front of a small light. An electrode records a dopamine neuron in its midbrain. Before any training, a drop of fruit juice falls into its mouth, without warning: the neuron fires a brief burst of impulses. After several days, the light always precedes the juice, and the monkey presses a lever as soon as it comes on. The neuron no longer reacts to the juice. It reacts to the light.\n\nThen the juice does not come, because the monkey made the wrong move. At the exact moment it should have arrived, more than a second after the light, the neuron's activity falls below its baseline.\n\n## A Signal of Difference\n\nThis type of recording is the work of Wolfram Schultz's team, in Fribourg. In 1997, with Peter Dayan and P. Read Montague, he reinterprets it in Science (vol. 275, pp. 1593-1599). The dopamine neurons of the ventral tegmental area and the substantia nigra respond in a relatively homogeneous way: responses occur in 55 to 80% of them. They do not tell a piece of apple from a sip of juice. Puffs of air on the hand or drops of salty water in the mouth do not activate them. Their response follows the gap between what happens and what was expected: a burst if it is better than expected, nothing if it is as expected, a dip if it is worse.\n\nThe authors link this reading to a temporal-difference learning algorithm, introduced into psychology and biology by Richard Sutton and Andrew Barto in the early 1980s. It also joins a result from conditioning experiments: learning is driven by the gaps between what was expected and what was experienced. A rat that knows a light announces food does not learn that an added sound announces anything at all, since the light already predicts everything.\n\n## A Pleasure That Does Not Come From There\n\nThe 1997 text does not speak of pleasure. It uses “reward” as an operational concept: the positive value that an animal attributes to an object or an act. The idea of the pleasure molecule comes from elsewhere, from facts that the authors themselves recall: rats that use a lever to stimulate an electrode placed near these pathways often prefer it to food, and addictive drugs prolong the action of dopamine.\n\nIn 1998, Kent Berridge and Terry Robinson examine the same question in a review that also includes an experiment. In rats whose dopamine in the nucleus accumbens and striatum is destroyed by up to 99%, taste reactions, pleasure at sugar, rejection of quinine, remain normal. Learning a new hedonic value of a taste also remains normal. Their conclusion: dopamine is necessary neither for pleasure nor for the hedonic learning of rewards. It would rather be necessary for “wanting,” incentive salience, and not for “liking.”\n\nThe two readings diverge on the role of dopamine, and this entry does not claim to adjudicate between them. What, then, is being read in the firing of these neurons?",
+ "citation": null,
+ "repere": {
+  "texte": "In the monkey, a dopamine neuron responds to the unexpected drop of juice; after learning, it responds to the signal announcing it and no longer to the juice; if the juice does not come, its activity drops below baseline at the moment it should have arrived.",
+  "source": "Schultz, W., Dayan, P. & Montague, P.R., Science, 275(5306), 1997, fig. 1",
+  "url": "https://doi.org/10.1126/science.275.5306.1593"
+ },
+ "carte": {
+  "punch": "In the monkey, dopamine neurons track the gap with the expected reward.",
+  "idee": "In 1997, Schultz, Dayan, and Montague show that monkey dopamine neurons respond to unexpected juice, no longer to announced juice, and see their activity drop if it is missing. Berridge and Robinson (1998) read something else in it, “wanting,” but not pleasure.",
+  "source_courte": "Schultz et al., Science, 1997 · Berridge, 1998"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "A monkey has learned that a light announces juice. What does a dopamine neuron do on the day the expected juice does not come?",
+  "choix": [
+   "It fires harder than usual, to signal the disappointment",
+   "Its activity stays unchanged, since no juice was received",
+   "It fires throughout the whole interval, as if the juice were about to arrive",
+   "Its activity falls below its baseline at the moment the juice was expected"
+  ],
+  "bonne_reponse": 3,
+  "explication": "In the trained monkey, dopamine tracks the gap with the prediction: a burst if it is better than expected, nothing if it matches, a dip if it is worse. A stronger burst would signal a good surprise, and unchanged activity would correspond to juice arriving as expected, not to missing juice. The 1997 recording shows a dip precisely at the time the juice should have arrived.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the experiment of Berridge and Robinson (1998) show in rats almost depleted of dopamine in the nucleus accumbens and striatum?",
+   "choix": [
+    "They no longer show any reaction of pleasure or rejection to any taste whatsoever",
+    "They lose the ability to learn to associate an announcing signal with an expected reward",
+    "Their taste reactions to sugar and quinine remain normal"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Despite a dopamine depletion of up to 99% in the nucleus accumbens and striatum, the rats keep normal taste reactions and still learn a new hedonic value: for Berridge and Robinson, dopamine is therefore necessary neither for pleasure nor for this learning."
+  },
+  {
+   "question": "According to the 1997 text by Schultz, Dayan, and Montague, what does the term “reward” designate?",
+   "choix": [
+    "The sensation of pleasure felt by the animal at the moment it receives the juice",
+    "An operational concept, the positive value that an animal attributes to an object or an act",
+    "A purely motor signal, with no link to the value attributed to the object received"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The 1997 article does not speak of pleasure: it uses “reward” as an operational concept, the positive value that an animal attributes to an object or an act, the idea of the pleasure molecule coming from other facts reported by the authors themselves."
+  },
+  {
+   "question": "How does the 1997 article connect the dopamine signal to a broader theoretical framework?",
+   "choix": [
+    "By linking it to a temporal-difference learning algorithm, introduced by Sutton and Barto",
+    "By linking it to a short-term memory model unrelated to learning",
+    "By presenting it as proof that dopamine acts independently of any prediction"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The authors link the response of dopamine neurons to a temporal-difference learning algorithm, introduced into psychology and biology by Richard Sutton and Andrew Barto in the early 1980s."
+  }
+ ]
+}

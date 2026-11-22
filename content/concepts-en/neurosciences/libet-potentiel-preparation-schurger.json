@@ -1,0 +1,61 @@
+{
+ "id": "neu-libet-potentiel-preparation-schurger",
+ "slug": "libet-potentiel-preparation-schurger",
+ "langue": "en",
+ "empreinte_fr": "225d7a6ca1b411e8",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Libet, 1983: Does the Decision Come Before Consciousness?",
+ "accroche": "A brain signal precedes the declared intention to move by several hundred milliseconds. A 2012 model proposes reading it differently.",
+ "contenu_vulgarise": "In 1983, the physiologist Benjamin Libet and his colleagues ask five volunteers to flex their wrist whenever they wish, with no external signal. In front of them, a spot of light rotates like the hand of a clock. After each movement, the subject indicates the position of the spot at the moment they became aware of wanting to move. In parallel, electrodes record the “readiness potential,” a slow negative drift in brain activity that precedes voluntary movements.\n\n## What the Experiment Measures\n\nThe result is a landmark. In the series where subjects judge they acted spontaneously, the drift begins on average about 350 milliseconds before the instant at which they place their intention, and at least 150 milliseconds before. When they acknowledge having prepared their movement somewhat, the gap rises to about 800 milliseconds. Libet concludes that the brain's initiation of a voluntary act can begin unconsciously, before any awareness, at least a recallable one, of having decided.\n\nThe common reading has turned this into a verdict: the brain would decide before we do, and free will would be an illusion. The 1983 text is more cautious. Libet speaks of “constraints” on the possibility of consciously initiating an act, and his protocol rests on a fragile measurement, the subject's memory of the position of a hand on a dial.\n\n## Another Reading of the Same Curve\n\nIn 2012, Aaron Schurger, Jacobo Sitt, and Stanislas Dehaene propose a different interpretation of the same signal. Their model assumes that the brain constantly produces spontaneous fluctuations of activity. When nothing is pressing, the movement occurs at the moment one of them crosses a threshold by chance. Now, the readiness potential is calculated by aligning many trials on the onset of movement: this alignment makes a gradual rise appear, on average, even if each trial has known only an isolated fluctuation.\n\nThe model makes a prediction that the authors say they confirmed in a second experiment: when the subject is interrupted by an unpredictable signal, fast responses are preceded by a slow negative drift, even when the subject was not preparing to move at that moment. This drift would therefore not be the trace of a decision already made.\n\n## What This Shifts\n\nLibet's curve has not been refuted: it exists, and it is found again. It is its meaning that is at stake. Depending on the reading, it signals either a decision taken behind the scenes, or the background noise of a system that waits, without urgency, for a fluctuation to clear the bar. The same measurement then serves as proof for two opposing theses, and it is the way of calculating it that decides, not metaphysics.",
+ "citation": null,
+ "repere": {
+  "texte": "In the series where subjects judged they had acted spontaneously, the rise of the readiness potential preceded on average by about 350 ms the instant at which they placed their intention to move, and by at least 150 ms.",
+  "source": "Libet, Gleason, Wright & Pearl, Brain, 106, 1983",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/6640273/"
+ },
+ "carte": {
+  "punch": "The brain activates 350 ms before you know you want to move. Or not.",
+  "idee": "In 1983, Libet measures a brain signal that precedes the declared intention to act. In 2012, a model proposes that this signal is an averaging artifact: spontaneous fluctuations, aligned on the movement, draw a ramp.",
+  "source_courte": "Libet et al., 1983; Schurger et al., 2012"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "According to the model of Schurger, Sitt, and Dehaene, why is a gradual rise observed before the movement?",
+  "choix": [
+   "Because the brain prepares the motor command several seconds before the subject is aware of it",
+   "Because the subject voluntarily anticipates the moment of the movement and prepares for it in advance",
+   "Because, when trials are aligned on the movement, spontaneous fluctuations that cross a threshold draw an average ramp",
+   "Because the clock used in the protocol distorts the measurement of the moment of intention"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The model does not deny the signal: it changes its meaning. It is neither a command prepared seconds in advance, nor a voluntary anticipation, nor a clock defect. The ramp arises from the average calculated on the onset of movement, and the drift is found even before responses to unpredictable interruptions.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How did the subjects in Libet's experiment indicate the moment they became aware of wanting to move?",
+   "choix": [
+    "By pressing a button as soon as they felt the intention",
+    "By indicating, after the movement, the position of a spot of light rotating like a clock",
+    "By counting aloud the seconds elapsed since the start of the trial",
+    "By answering yes or no to a question asked by the experimenter after each trial"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The protocol asks the subject, after moving, to place the position of the rotating spot at the moment they became aware of wanting to act, not to press a button or count."
+  },
+  {
+   "question": "What does Libet's 1983 text itself say, more cautious than the reading later made of it?",
+   "choix": [
+    "That free will does not exist and the brain decides alone",
+    "That consciousness always precedes the measured brain activity",
+    "That his protocol measures intention with total precision, with no margin of error",
+    "That there are “constraints” on the possibility of consciously initiating an act"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The 1983 text is cautious: Libet speaks of constraints on the conscious initiation of an act, not of an absence of free will, and his protocol rests on a fragile measurement."
+  }
+ ]
+}

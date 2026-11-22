@@ -1,0 +1,78 @@
+{
+ "id": "neu-hodgkin-huxley-1952-equations-justes-membrane-inconnue",
+ "slug": "hodgkin-huxley-1952-equations-justes-membrane-inconnue",
+ "langue": "en",
+ "empreinte_fr": "ed179ec92319e7fe",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Hodgkin and Huxley (1952): Equations That Fit an Unknown Membrane",
+ "accroche": "Calculated by hand, their equations give the speed of a fiber's impulse to within 11%, but their authors doubt their own picture of the membrane.",
+ "contenu_vulgarise": "In 1952, Alan Hodgkin and Andrew Huxley publish, from the Physiological Laboratory in Cambridge, a forty-five-page article in the Journal of Physiology. It concludes a series of five. Its aim: to show that a few equations are enough to calculate a nerve impulse, its shape as well as its speed. Their material is a giant squid axon, large enough for wires to be slid along its axis. The one in the final comparison has a radius of 238 micrometers.\n\n## Measuring Without Understanding\n\nThe measurements rely on the voltage clamp, or imposed potential. A feedback amplifier sends across the membrane the current needed to hold the voltage at the chosen level, so that the measured current no longer depends on a voltage that would be changing at the same time. By changing the composition of the outside fluid, the authors separate the share of sodium, the share of potassium, and a small leakage current.\n\nThe result fits in two sentences. A depolarization causes a brief increase in sodium conductance, and a slower increase, which is maintained, in potassium conductance. Both changes are gradual and reversible. Hodgkin and Huxley then write an equation for each, with variables between 0 and 1: potassium depends on n to the power 4, sodium on m to the power 3 multiplied by h.\n\n## Weeks of Calculation\n\nThere is no computer. In his 1963 Nobel lecture, Huxley specifies that these calculations were done by hand: a membrane action potential took a few days, a propagated one a few weeks. The article describes a step-by-step integration following Hartree's method. For propagation, you have to guess the speed, observe that the solution runs off toward plus or minus infinity depending on whether the guess is too low or too high, then start over.\n\nFor one particular fiber, at 18.5 °C, the calculation gives 18.8 meters per second. The same fiber, measured, conducts at 21.2. For the shape of the membrane action potential, the authors list discrepancies: a weaker start to the fall, sharper peaks, a small bump on the descent, an end of descent that is too abrupt.\n\n## What This Shifts\n\nSuch agreement invites taking the equations for a description of the membrane. The authors themselves reject this. As early as the second page, they note that the thickness and composition of the excitable membrane are unknown and that their experiments will hardly provide, with certainty, information on the molecular nature of the permeability changes. Further on, they propose a picture: potassium would pass only when four particles occupy the same region, sodium when three activating molecules are in place and an inactivating molecule does not block the site. They immediately specify that this interpretation probably does not give a correct picture of the membrane. In 1963, Huxley still speaks of a first approximation, to be refined in the search for the real mechanism at the molecular scale.\n\nThe 1963 Nobel Prize in Medicine, shared with John Eccles, rewards discoveries concerning the ionic mechanisms of excitation and inhibition in the membrane of nerve cells. In 1976, Erwin Neher and Bert Sakmann record the current of an isolated ion channel, in the membrane of a frog muscle. What is an equation worth that predicts correctly, as long as we do not know what it is talking about?",
+ "citation": null,
+ "repere": {
+  "texte": "At 18.5 °C, the equation for the propagated action potential gives a speed of 18.8 m/s; the same squid fiber, measured, conducts at 21.2 m/s.",
+  "source": "Hodgkin, A.L. & Huxley, A.F., Journal of Physiology, 117(4), 1952, p. 528",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/"
+ },
+ "carte": {
+  "punch": "Equations calculated by hand predict the nerve impulse. Their authors doubt the picture.",
+  "idee": "In 1952, Hodgkin and Huxley calculate a nerve impulse by hand: 18.8 m/s predicted, 21.2 m/s measured on the same squid axon. But they note that their interpretation of the membrane probably does not give a correct picture of it.",
+  "source_courte": "Hodgkin & Huxley, J. Physiol., 1952"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Neher, E. & Sakmann, B., “Single-channel currents recorded from membrane of denervated frog muscle fibres,” Nature, 260, 1976, pp. 799-802",
+   "url": "https://doi.org/10.1038/260799a0",
+   "note": "The recording of the current of an isolated channel; reference verified, article not read in full text for this entry."
+  }
+ ],
+ "quiz": {
+  "question": "What do Hodgkin and Huxley say about the physical picture (particles, sites) they attach to their equations?",
+  "choix": [
+   "That it illustrates the equations but probably does not give a correct picture of the membrane",
+   "That it is established by their voltage clamp measurements and describes the membrane's channels",
+   "That it is proven by the agreement between calculated and measured speed",
+   "That they propose it for potassium only, sodium being left without interpretation"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The authors write that their experiments will hardly give certain information on the molecular nature of the permeability changes and that the proposed interpretation probably does not give a correct picture of the membrane. An agreement of 18.8 m/s against 21.2 m/s shows that the equations describe the currents well, not that the picture is true. And the picture is given for both ions, four particles for potassium, three activating molecules plus one inactivating molecule for sodium.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How do Hodgkin and Huxley isolate, in their measurements, the share of sodium and the share of potassium in the membrane current?",
+   "choix": [
+    "By changing the composition of the outside fluid, under voltage clamp, to see which share of the current disappears",
+    "By surgically removing the two channels one after the other on the giant squid axon",
+    "By calculating the difference between the measured speed and the speed predicted by their equations"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The voltage clamp imposes the voltage and measures the current needed to hold it; by changing the composition of the outside fluid, the authors see which share of the current depends on sodium and which on potassium. The other two propositions correspond to no method described in the entry.",
+   "statut": "valide"
+  },
+  {
+   "question": "Why does calculating a propagated action potential take weeks, according to the entry?",
+   "choix": [
+    "Because the experiment has to be repeated on several squid axons before a stable measurement is obtained",
+    "Because there is no computer: the integration is done by hand, step by step, and the speed has to be guessed and then corrected by successive trials",
+    "Because the authors must first establish the picture of the particles and sites before calculating anything"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry specifies that there is no computer, that the integration follows Hartree's method step by step, and that for propagation you have to guess the speed, see the solution diverge, then start over: it is this manual trial and error that takes weeks. The other two propositions do not appear in the text.",
+   "statut": "valide"
+  },
+  {
+   "question": "For the fiber cited as an example, what is observed between the calculated speed and the measured speed of the impulse?",
+   "choix": [
+    "The two speeds are strictly identical, to the hundredth",
+    "The calculated speed far exceeds the measured speed, by more than half",
+    "The calculated speed, 18.8 m/s, is close to the measured speed, 21.2 m/s, without being equal to it"
+   ],
+   "bonne_reponse": 2,
+   "explication": "At 18.5 degrees, the equation gives 18.8 meters per second while the same fiber, measured, conducts at 21.2 meters per second: the two values are close, within 11% according to the teaser, but not identical. The other two propositions contradict the figures given in the entry.",
+   "statut": "valide"
+  }
+ ]
+}

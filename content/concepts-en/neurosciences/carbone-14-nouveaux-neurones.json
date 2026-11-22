@@ -1,0 +1,78 @@
+{
+ "id": "neu-carbone-14-nouveaux-neurones",
+ "slug": "carbone-14-nouveaux-neurones",
+ "langue": "en",
+ "empreinte_fr": "4876dadfc25fb05f",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Seven Hundred New Neurons a Day, Dated With Carbon-14",
+ "accroche": "The atmospheric nuclear tests of the 1950s unintentionally gave every neuron born since a birth date readable in its DNA.",
+ "contenu_vulgarise": "For most of the 20th century, neuroscience teaching took one rule for granted: the adult human brain makes no new neurons, its stock being fixed at the end of development. This rule has proved false, at least for one specific region of the brain. The proof came from a side effect entirely foreign to biology.\n\n## A Clock Made by Nuclear Tests\n\nAtmospheric nuclear weapons tests carried out between 1955 and 1963 doubled, within a few years, the concentration of carbon-14 in Earth's atmosphere. This radioactive carbon enters the food chain through photosynthesis, then the DNA of every cell that divides, at a concentration that faithfully reflects the atmospheric level at the moment of division. Since the tests stopped, that level has fallen year after year, in a known and measurable way: every cell carries, written in its DNA, the date of its birth.\n\nIn 2013, a Swedish team led by Kirsty Spalding and Jonas Frisén applies this dating to hippocampal neurons collected post-mortem. The researchers isolate the cell nuclei, separate the neurons from the rest by flow cytometry, then measure their carbon-14 concentration by mass spectrometry. Result: about 700 new neurons appear each day in an adult's hippocampus, an annual turnover of 1.75% within the fraction concerned (about a third of the total). This rate declines between the beginning and the end of adult life, but only by a factor of about four.\n\n## A Debate That Is Not Closed\n\nThe result confirms, with numbers, an earlier observation: in 1998, Peter Eriksson and his colleagues had already detected new neurons in the hippocampus of five patients at the end of life, using a DNA tracer that had been injected into them for tumor monitoring. But the question remains disputed. In 2018, two teams examining human hippocampal tissue with more classic cell markers reach opposite conclusions: one no longer detects any new neuron after childhood, the other finds them at every age, including in very old patients. Spalding's method, independent of these contested markers, does not settle the disagreement. It indicates only that a measurable turnover does exist, dated to the day by a clock that nobody had planned to install in the brain.",
+ "citation": null,
+ "repere": {
+  "texte": "By measuring carbon-14 from nuclear tests in the DNA of hippocampal neurons collected post-mortem, the team established that about 700 new neurons appear each day in an adult's hippocampus, a 1.75% annual turnover of the fraction concerned.",
+  "source": "Spalding et al., Cell, 153(6), 2013",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4394608/"
+ },
+ "carte": {
+  "punch": "The nuclear tests of the 1950s made it possible to date neurons born in adulthood.",
+  "idee": "The carbon-14 released by nuclear tests became integrated into the DNA of every cell born since, like a birth date written into the genome. Applying it to hippocampal neurons, a Swedish team measured in 2013 about 700 new neurons per day in adults.",
+  "source_courte": "Spalding et al., Cell, 2013"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Dating the Birth of Human Cells—Carbon 14 Runs Rings around Competition",
+   "url": "https://www.alzforum.org/news/research-news/dating-birth-human-cells-carbon-14-runs-rings-around-competition",
+   "note": "Explains the carbon-14 dating method and its uses beyond the hippocampus."
+  }
+ ],
+ "quiz": {
+  "question": "How did the study by Spalding and colleagues (2013) measure the age of neurons in the adult hippocampus?",
+  "choix": [
+   "By measuring the concentration of carbon-14, from nuclear tests, built into each neuron's DNA when it divided",
+   "By counting the cell divisions observed under the electron microscope on fresh sections",
+   "By comparing the size of the hippocampus at different ages with magnetic resonance imaging",
+   "By injecting a fluorescent tracer into patients several years before their death"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The method relies on a side effect of the 1955-1963 atmospheric nuclear tests, which doubled the concentration of carbon-14 in the atmosphere: this carbon is built into the DNA of every cell at the moment it divides, at a concentration that dates that division. Neither brain imaging nor a simple count under the microscope allows this precision; the injection of a tracer, for its part, corresponds to Eriksson's earlier method (1998), not Spalding's.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did the atmospheric nuclear tests of 1955 to 1963 do, according to the entry?",
+   "choix": [
+    "They destroyed part of the DNA present in human cells",
+    "They interrupted the formation of new neurons in the hippocampus",
+    "They doubled the concentration of carbon-14 in Earth's atmosphere",
+    "They halved the concentration of carbon-14 in the atmosphere"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text states that the atmospheric nuclear tests carried out between 1955 and 1963 doubled, within a few years, the concentration of carbon-14 in Earth's atmosphere."
+  },
+  {
+   "question": "How had Peter Eriksson detected new neurons in the human hippocampus as early as 1998?",
+   "choix": [
+    "Using a DNA tracer injected into patients at the end of life",
+    "Using the same carbon-14 dating method as Spalding in 2013",
+    "By counting neurons directly under the electron microscope",
+    "By comparing MRIs taken several years apart in the same patients"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In 1998, Eriksson detects new neurons in the hippocampus of five patients at the end of life, using a DNA tracer injected for tumor monitoring."
+  },
+  {
+   "question": "What do the two teams that examine hippocampal tissue with classic cell markers show in 2018?",
+   "choix": [
+    "Both confirm Spalding's 2013 figures exactly",
+    "Both show that neurogenesis stops completely at birth",
+    "Both date neurons with the carbon-14 method, like Spalding",
+    "Opposite conclusions, one with no new neurons after childhood, the other at every age"
+   ],
+   "bonne_reponse": 3,
+   "explication": "In 2018, two teams using classic cell markers reach opposite conclusions: one detects no new neuron after childhood, the other finds them at every age."
+  }
+ ]
+}

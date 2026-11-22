@@ -1,0 +1,72 @@
+{
+ "id": "neu-cluster-failure-irmf-eklund-2016-faux-positifs",
+ "slug": "cluster-failure-irmf-eklund-2016-faux-positifs",
+ "langue": "en",
+ "empreinte_fr": "0d81dfde5723d624",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "“Cluster Failure” (2016): fMRI False Positives and the Replaced Sentence",
+ "accroche": "On resting brains, three fMRI software packages find far more false activations than expected. The sentence about “40,000 studies” was replaced.",
+ "contenu_vulgarise": "On June 28, 2016, the journal PNAS puts online an article whose title is a diagnosis: “Cluster failure.” Its authors, Anders Eklund, Thomas Nichols, and Hans Knutsson, show that the three most widely used software packages for analyzing functional magnetic resonance imaging, SPM, FSL, and AFNI, can produce, with cluster-wise inference, false-positive rates of up to 70%, where 5% is expected. The article's significance statement added that these results called into question the validity of some 40,000 studies. The authors replaced it with a more cautious wording, in a correction published in August.\n\n## A Test Where There Is Nothing to Find\n\nThe principle is simple. The authors take the recordings of 499 healthy volunteers at rest, performing no task. They draw groups at random from them, of 20 subjects for example, and analyze them as if the participants had performed a task, under four fictitious experimental designs. In these data, nothing is actually activated: every area declared significant is a false positive. For a 5% threshold, they should be found in 5% of analyses. In all, three million group analyses, with a thousand repetitions per configuration.\n\nThe result depends on how one decides that an area is activated. When testing voxel by voxel, parametric methods are valid, even conservative. When looking at clusters of neighboring voxels, they do not hold their threshold. A common practice, a threshold of P = 0.001 combined with a minimum cluster of ten voxels, gives an error rate of 60 to 90%, except with one FSL option. A permutation test, which assumes no particular shape of noise, stays close to the nominal threshold, with deviations on some settings.\n\nFor the main cause, the authors point to the way noise is correlated from one voxel to its neighbor: it does not follow the Gaussian shape that the software assumes. For AFNI, there is also a fifteen-year-old bug in one of its programs, 3dClustSim, which made results too optimistic; it was fixed in May 2015, while the manuscript was being prepared.\n\n## What This Shifts\n\nThe figure of 40,000 was, in the body of the text, the number of fMRI articles indexed by PubMed. It did not measure the ones affected. In their correction, the authors replace the wording with a narrower challenge to weakly significant results. They specify that these errors do not affect the article's conclusions; these concern parametric cluster-wise inference.\n\nThey add a more worrying finding: about 40% of a sample of 241 recent articles did not report a correction for multiple comparisons, which exposes their results to something worse than what they measured. As for redoing the problematic analyses, they judge this unlikely, for lack of data archiving and sharing. How many studies, then? The article does not put a number on it.",
+ "citation": null,
+ "repere": {
+  "texte": "On fMRI data from 499 volunteers at rest, where no activation should be found, SPM, FSL, and AFNI produce, with cluster-wise inference, up to 70% false positives for a nominal threshold of 5%.",
+  "source": "Eklund, A., Nichols, T.E. & Knutsson, H., PNAS, 113(28), 2016, pp. 7900-7905",
+  "url": "https://doi.org/10.1073/pnas.1602413113"
+ },
+ "carte": {
+  "punch": "Resting brains: fMRI software finds up to 70% cluster-wise false positives.",
+  "idee": "In 2016, Eklund, Nichols, and Knutsson analyze 499 resting brains as if they had performed a task. Where 5% false positives are expected, SPM, FSL, and AFNI give up to 70% with cluster-wise inference. The sentence about “40,000 studies” at issue was replaced by the authors.",
+  "source_courte": "Eklund et al., PNAS, 2016"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why test fMRI software on recordings of subjects at rest?",
+  "choix": [
+   "Because the resting brain produces less noise, which makes the images sharper",
+   "Because, without a task, any activation found is a false positive, hence a measurable error rate",
+   "Because subjects move less at rest, which removes motion artifacts",
+   "Because the software can only process recordings without a task"
+  ],
+  "bonne_reponse": 1,
+  "explication": "In resting data, no activation is expected: every area declared significant is an error, and their frequency directly gives the false-positive rate. Rest neither sharpens the images nor cancels movement, and the software normally analyzes recordings with a task, which is precisely what the authors simulate with fictitious designs.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "With a common threshold (P = 0.001 and a minimum cluster of ten voxels), what false-positive rate do the authors measure for most configurations?",
+   "choix": [
+    "About 5%, in line with the expected threshold",
+    "About 20%, four times the expected threshold",
+    "Between 60 and 90%, except with one particular FSL option",
+    "0%, because this threshold eliminates all false positives"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text specifies that a threshold of P = 0.001 combined with a minimum cluster of ten voxels gives an error rate of 60 to 90%, except with one FSL option, well above the 5% expected."
+  },
+  {
+   "question": "What is the main cause of the high false-positive rate, according to the authors?",
+   "choix": [
+    "The correlation of noise between neighboring voxels does not follow the Gaussian shape assumed by the software",
+    "The volunteers moved too much during the recording",
+    "The three software packages used different statistical thresholds from one another",
+    "The MRI scanners used in 2016 were less precise than today's"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The authors point to the way noise is correlated from one voxel to its neighbor, which does not follow the Gaussian shape the software assumes, as the main cause, with, for AFNI, an additional fifteen-year-old bug in 3dClustSim."
+  },
+  {
+   "question": "What did the correction published in August 2016 change in the article?",
+   "choix": [
+    "It removed the article entirely from the journal PNAS",
+    "It added a fourth software package tested in addition to SPM, FSL, and AFNI",
+    "It doubled the number of volunteers analyzed, from 499 to nearly 1,000",
+    "It replaced the sentence about “40,000 studies” with a narrower challenge"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The correction replaces the significance statement mentioning “40,000 studies” with a more cautious wording, centered on weakly significant results; the authors specify that the errors do not affect the article's main conclusions."
+  }
+ ]
+}

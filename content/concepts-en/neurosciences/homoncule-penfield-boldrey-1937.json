@@ -1,0 +1,78 @@
+{
+ "id": "neu-homoncule-penfield-boldrey-1937",
+ "slug": "homoncule-penfield-boldrey-1937",
+ "langue": "en",
+ "empreinte_fr": "2c971cf0b3e33990",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Penfield's Homunculus: A Sharper Figure Than Its Data",
+ "accroche": "In 1937, 126 patients operated on while awake yield 170 maps that overlap. The little man the authors draw from them has the body parts neatly lined up.",
+ "contenu_vulgarise": "In almost every neurology textbook, a small, misshapen little man stretches along a cross-section of the brain: feet at the top, tongue at the bottom, hands and mouth out of all proportion. He is called the homunculus. What people take from him is that the body parts are arranged in the cortex in a neat order, and that the size of each on the drawing is the surface of cortex that belongs to it. The 1937 data that produced him confirm a general order, but neither that neatness nor that scale.\n\n## One Hundred Twenty-Six Patients, One Hundred Seventy Maps\n\nOn December 1, 1937, Wilder Penfield and Edwin Boldrey publish in the journal Brain a 55-page article, “Somatic motor and sensory representation in the cerebral cortex of man as studied by electrical stimulation.” It rests on 126 patients operated on by Penfield between 1928 and 1936 under local anesthesia. Awake, they say what an electrode placed on their cortex provokes: a finger that moves, a tingling in the lip. Boldrey records the number and location of stimulation points on 170 summary maps, by body part, drawn by hand from operative notes, photographs, and sketches.\n\nTo sum up this volume of data in a single image, the authors draw a silhouette. Its caption presents it as a visualization of the order and relative size of body parts, seen from above on the Rolandic cortex. The word chosen is visualization, not measurement.\n\n## What the Maps Were Already Saying\n\nGoing back over the article's data, the neurologist Marco Catani points out several gaps with the drawing. The central sulcus, believed to be the boundary between motor and sensory cortex, does not separate them so cleanly: many stimulations that provoke a movement fall behind the sulcus, and an even greater proportion of tactile sensations fall in front of it. The maps of several body parts overlap, and on the sensory maps, some areas host four body parts or more. The drawing, by contrast, lines up the body parts one after another.\n\nScale poses a second problem. Penfield and Boldrey set the size of each part to the vertical length it occupies along the central sulcus, not to a surface of cortex. This precision was lost in the textbooks, where the size was read as an area. Recalculated from the article's figures, the first silhouette does not even follow its own measurements: the tongue is exaggerated, which Penfield corrects in 1950 in a publication with Rasmussen. The figures in the text themselves diverge: 21 motor stimulations for the mouth and lips on page 405, 64 in figure 7, more than 100 in figure 26.\n\n## A Little Man Interrupted\n\nNone of this takes away from Penfield and Boldrey the essential: a general order of body regions and a disproportionate place for the hands and mouth, which Leyton and Sherrington had already noted in 1917 in great apes. Catani judges this feature still largely valid. He also describes the drawing as probably the most reproduced and least replicated figure in neuroscience.\n\nIn 2023, Evan Gordon and his team map the motor cortex by precision functional MRI in seven people, with 172 to 356 minutes of data per person. Between the foot, hand, and mouth regions, they find interleaved regions, which stand out by their connectivity, their structure, and their function. They are strongly connected to each other and to a network involved in the control of action. They are not specific to one movement: they activate during the planning of coordinated hand and foot gestures and trunk movements. The authors propose to see in them a somato-cognitive action network, which plans whole-body action. The one-piece little man is thus interrupted. It remains to be seen what this network will leave of him in the textbooks.",
+ "citation": null,
+ "repere": {
+  "texte": "In the 1937 article, the text counts 21 motor stimulations for the mouth and lips (page 405), figure 7 indicates 64, and figure 26 more than 100. The maps take into account neither the number of patients stimulated nor the number of stimulations per patient, and the silhouette is drawn from them.",
+  "source": "Survey by Marco Catani, “A little man of some importance,” Brain, 2017, vol. 140, no. 11, pp. 3055-3061",
+  "url": "https://doi.org/10.1093/brain/awx270"
+ },
+ "carte": {
+  "punch": "Its size on the drawing is not a surface of cortex: it is a length.",
+  "idee": "Penfield and Boldrey's homunculus (1937) comes from 126 patients stimulated while awake. Its size follows the vertical length of cortex of each body part, not its surface, and their maps overlap more than the drawing shows.",
+  "source_courte": "Penfield and Boldrey, Brain, 1937; Catani, 2017"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Gandhoke et al., Edwin Boldrey and Wilder Penfield's Homunculus: A Life Given by Mrs. Cantlie (In and Out of Realism), World Neurosurgery, 2019",
+   "url": "https://doi.org/10.1016/j.wneu.2019.08.116",
+   "note": "An analysis of the history and accuracy of the drawing: plotted according to the data, it would never have looked like a human body."
+  }
+ ],
+ "quiz": {
+  "question": "What does the size of each body part represent in the 1937 homunculus?",
+  "choix": [
+   "The surface of cortex occupied by each body part, measured on histological sections",
+   "The number of neurons counted under the stimulation electrodes",
+   "The vertical length that each body part occupies along the central sulcus",
+   "The density of nerve endings in the skin of each body part"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Penfield and Boldrey set the size of each body part to the vertical length it occupies along the central sulcus. Textbooks read it as a surface of cortex, which the figure does not measure. Neither the number of neurons nor the density of nerve endings served as a scale: the article rests on stimulation points.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "On what basis did Penfield and Boldrey build their 1937 article?",
+   "choix": [
+    "126 patients operated on under local anesthesia, awake, between 1928 and 1936",
+    "Autopsies of brains preserved in an anatomy institute",
+    "Functional MRIs performed on healthy volunteers",
+    "Psychological tests conducted on medical students"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Penfield and Boldrey's article rests on 126 patients operated on by Penfield between 1928 and 1936, awake under local anesthesia, who described what stimulation of their cortex provoked."
+  },
+  {
+   "question": "How does Marco Catani describe the homunculus drawing in his 2017 reanalysis?",
+   "choix": [
+    "As a diagram now abandoned by neurology textbooks",
+    "As the most reproduced and least replicated figure in neuroscience",
+    "As a measurement error with no consequence for clinical practice",
+    "As the first map of the cortex ever published"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Catani judges the drawing widely reproduced in textbooks but never really checked against the original data, hence his formula about the most reproduced and least replicated figure in neuroscience."
+  },
+  {
+   "question": "What did Evan Gordon and his team find in 2023 between the foot, hand, and mouth regions of the motor cortex?",
+   "choix": [
+    "A clear, continuous boundary, confirming the 1937 drawing",
+    "A total absence of connectivity between the three areas",
+    "Interleaved regions, connected to the action-control network",
+    "A single area dedicated exclusively to speech"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Gordon and his team found interleaved regions between the foot, hand, and mouth areas, strongly connected to an action-control network and active during the planning of coordinated gestures."
+  }
+ ]
+}
