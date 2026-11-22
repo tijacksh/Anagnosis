@@ -1,0 +1,78 @@
+{
+  "id": "chi-decouverte-de-l-oxygene",
+  "slug": "decouverte-de-l-oxygene",
+  "langue": "en",
+  "empreinte_fr": "005439ad8f3c5206",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Verbatim from Priestley’s English text (Experiments and Observations on Different Kinds of Air, vol. II, 1775, section III), seen in the scanned full text at the cited archive.org URL; the French entry already quoted it in English."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-originale-anglaise",
+      "note": "The phrase “with a remarkably vigorous flame” is Priestley’s own English wording, seen in the same scanned text, instead of a back-translation of the French."
+    }
+  ],
+  "titre": "Lavoisier Did Not Discover Oxygen, He Gave It Meaning",
+  "accroche": "Priestley obtains it in 1774, Scheele most likely obtained it before him, and it is Lavoisier who gives it its name in 1777, three years later.",
+  "contenu_vulgarise": "On August 1, 1774, the British clergyman Joseph Priestley focuses the sun’s rays with a lens on mercurius calcinatus, mercuric oxide. A gas is released very easily. A candle burns in it, in his own words, “with a remarkably vigorous flame,” like the enlarged flame he had seen in nitrous air exposed to iron, and he admits that it surprises him more than he can say. In the same work, he notes further on that he has since obtained an even better air, between five and six times as good as the best common air he had known: this measurement concerns another sample, not the August 1 experiment.\n\n## Three chemists, one discovery, three different dates\n\nPriestley has isolated an air of unusual purity, which he calls “dephlogisticated air.” The Swedish chemist Carl Wilhelm Scheele had obtained the same gas as early as around 1771, by heating mercuric oxide, silver carbonate and various nitrates. Scheele hands his manuscript to the printer in 1775, but the book does not come out until 1777, under the title *Chemische Abhandlung von der Luft und dem Feuer* (Chemical Treatise on Air and Fire). Priestley publishes his own results as early as 1775. The gas is thus already circulating under two pens before either has given it the name we use today.\n\nIt is Antoine Lavoisier who understands what Priestley and Scheele had in their hands. Priestley visits him in October 1774 and tells him about his experiment. Lavoisier carries out his own experiments, the first to be satisfactorily quantitative, and concludes that the substance discovered by Priestley and Scheele is a chemical element, which ruins the “phlogiston” theory, the substance that fire was believed to release. In 1777, he christens this gas oxygen, from the Greek for “that which generates acid,” because he wrongly believed that oxygen enters into the composition of all acids.\n\n## Who “discovered” oxygen\n\nThe question has no simple answer, and that is exactly what matters. Scheele obtained it first, but published last, and without understanding that he had just overturned a theory. Priestley isolated and described it precisely, but in the vocabulary of phlogiston chemistry. Lavoisier, who was not the first to obtain this gas, is nevertheless the one who grasped its significance and gave it its name.\n\nReducing this story to a single name, as the phrase “Lavoisier discovered oxygen” does, erases what is most instructive about it: a scientific discovery is not always a moment, attributable to a single hand. It can be a gas obtained by several chemists, independently, before one of them understands its nature.",
+  "citation": {
+    "texte": "A candle burned in this air with a remarkably vigorous flame, very much like that enlarged flame with which a candle burns in nitrous air",
+    "auteur": "Joseph Priestley",
+    "source": "Experiments and Observations on Different Kinds of Air, vol. II, London, 1775, section III, “Of Dephlogisticated Air,” p. 34",
+    "url": "https://archive.org/details/experimentsobser02prie"
+  },
+  "carte": {
+    "punch": "Lavoisier did not discover oxygen: Priestley and Scheele already had it in their hands.",
+    "idee": "Priestley isolates it in 1774 and describes it precisely. Scheele had obtained it even earlier, around 1771, but published late. Only in 1777 does Lavoisier grasp its chemical nature and give it its name. Three chemists, three roles, not a single discoverer.",
+    "source_courte": "Priestley, 1775; Scheele, 1777"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Priestley, Experiments and Observations on Different Kinds of Air (full text)",
+      "url": "https://archive.org/details/experimentsobser02prie",
+      "note": "The original 1775 work, digitized."
+    }
+  ],
+  "quiz": {
+    "question": "Why is saying that “Lavoisier discovered oxygen” a misleading simplification?",
+    "choix": [
+      "Because Lavoisier never worked with this gas, he only theorized about it",
+      "Because oxygen does not really exist as a pure gas in nature",
+      "Because it was actually one of Lavoisier’s assistants who performed the decisive experiment",
+      "Because Priestley and Scheele had already isolated this same gas before him, without understanding its significance"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Priestley isolates the gas in 1774 and Scheele had obtained it even earlier without publishing before 1777; Lavoisier was not the first to obtain it, but he understood and named what this gas implied.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Where does the name “oxygen,” given by Lavoisier in 1777, come from?",
+      "choix": [
+        "From a Greek word meaning “that which generates acid”",
+        "From the surname of the chemist who first isolated it",
+        "From an abbreviation of the term “mercurius calcinatus”",
+        "From a reference to the color of the flame it produces"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Lavoisier builds this word on the Greek for “that which generates acid,” convinced, wrongly, that oxygen enters into the composition of all acids."
+    },
+    {
+      "question": "What exactly does Priestley do experimentally on August 1, 1774?",
+      "choix": [
+        "He heats silver carbonate in contact with a candle flame",
+        "He reacts liquid mercury with nitric acid in a sealed flask",
+        "He focuses the sun’s rays with a lens on mercurius calcinatus",
+        "He exposes iron to nitrous air to measure the enlargement of its flame"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text specifies that Priestley uses a lens to focus the sun on mercuric oxide, which readily releases the gas observed that day."
+    }
+  ]
+}

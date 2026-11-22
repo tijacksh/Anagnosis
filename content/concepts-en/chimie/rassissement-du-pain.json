@@ -1,0 +1,71 @@
+{
+  "id": "chi-rassissement-du-pain",
+  "slug": "rassissement-du-pain",
+  "langue": "en",
+  "empreinte_fr": "1e9fe36af87d09c6",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Bread Goes Stale Without Really Drying Out",
+  "accroche": "A loaf closed in its bag loses almost no water, and yet it hardens. It is not drying out that makes it hard: it is its starch recrystallizing.",
+  "contenu_vulgarise": "A loaf bought the day before, left in its closed bag, is already hard the next morning. Yet the bag has let through almost no moisture. The most common explanation, “it dried out,” does not hold up against this simple fact: a loaf that loses almost no water hardens all the same, and quickly.\n\n## A starch that reorganizes, not a crumb that dries out\n\nDuring baking, heat disorganizes the starch granules of the flour: their glucose chains, amylose and amylopectin, lose the ordered structure they had in the raw grain. It is this disorder that gives fresh crumb its soft texture. As it cools and then ages, these chains do the reverse: they reassociate into more ordered structures, a phenomenon chemists call retrogradation. A study published in 2016 in *Scientific Reports* describes this transition precisely as a shift from disorder to order, with the appearance of so-called B-type crystals, less stable and less ordered than the crystals of native starch, but very real.\n\nThe process unfolds in two distinct stages. Amylose reorganizes first, within a few hours, and sets the initial framework of the crumb. Amylopectin recrystallizes much more slowly, over several days, and it is what drives the gradual hardening we associate with staling. A 2016 study on composite bread shows that loaves whose water loss was nonetheless comparable hardened at very different rates, a sign that firmness does not simply track the amount of water lost.\n\n## The refrigerator reflex, exactly backwards\n\nThe most useful detail comes from a 2011 study on storage temperature. Three conditions are compared: bread at room temperature, bread refrigerated at 4 degrees Celsius, bread frozen at minus 18 degrees Celsius. Retrogradation is fastest of the three at 4 degrees, exactly the temperature of a household refrigerator. In the freezer, by contrast, the crystals already formed can grow but no new ones form, and the amount of available water stays stable throughout the three weeks of the experiment.\n\nThe reflex of putting bread in the refrigerator to preserve it therefore produces the opposite of the intended effect: this temperature range is precisely the one where starch recrystallizes fastest. A loaf left on the counter goes stale more slowly than one put in the cold, and a loaf frozen as soon as it is bought barely goes stale at all. It was not the intuition about water that was wrong, it was the intuition about cold.",
+  "repere": {
+    "texte": "Comparing bread at room temperature, bread refrigerated at 4 degrees Celsius and bread frozen at minus 18 degrees Celsius, a 2011 study shows that starch recrystallization is fastest of the three at 4 degrees, the temperature of a household refrigerator; in the freezer, water activity stays almost stable throughout the 23 days of the experiment.",
+    "source": "Aguirre, M. J. et al., “Effect of storage temperature on starch retrogradation of bread staling,” Starch/Stärke, vol. 63, no. 9, 2011, pp. 587-593",
+    "url": "https://doi.org/10.1002/star.201100023"
+  },
+  "carte": {
+    "punch": "Bread does not go stale by drying out: its starch recrystallizes, even in a closed bag.",
+    "idee": "We think bread hardens because it loses its water. In reality, cooked starch gradually reorganizes into crystals, mainly amylopectin, over several days. And the refrigerator, at four degrees Celsius, is exactly the temperature at which this recrystallization goes fastest.",
+    "source_courte": "Eduardo et al., 2016; Aguirre et al., 2011"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does bread stored in the refrigerator go stale faster than bread left at room temperature?",
+    "choix": [
+      "Because the cold of the refrigerator speeds up the evaporation of the water in the crumb",
+      "Because this temperature is precisely the one where starch recrystallizes fastest",
+      "Because the refrigerator promotes the growth of mold that hardens the crumb",
+      "Because the air in the refrigerator is drier than the ambient air of a kitchen"
+    ],
+    "bonne_reponse": 1,
+    "explication": "A 2011 study compared bread at room temperature, refrigerated and frozen: starch recrystallization, which hardens the crumb, is fastest at four degrees Celsius, the typical temperature of a household refrigerator.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In the staling of bread, what distinguishes amylose from amylopectin?",
+      "choix": [
+        "Amylopectin reorganizes quickly, and it is amylose that then recrystallizes very slowly",
+        "The two starch chains recrystallize at exactly the same speed, with no distinct stage",
+        "Amylose reorganizes quickly and sets the initial framework, amylopectin recrystallizes slowly and causes the gradual hardening",
+        "Only amylopectin reorganizes after baking, the amylose in bread never changes structure"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Amylose first sets the framework of the crumb within a few hours; it is the much slower recrystallization of amylopectin, over several days, that causes the gradual hardening of the bread."
+    },
+    {
+      "question": "According to the 2011 study, what happens to the starch crystals of bread frozen at minus 18 degrees Celsius?",
+      "choix": [
+        "The crystals already formed can still grow, but no new crystal forms, and the available water stays stable",
+        "No crystal grows or forms, the bread stays frozen in time exactly as it came out of the oven",
+        "The crystals already formed gradually dissolve under the effect of the intense cold",
+        "New crystals form faster than at room temperature, but they stay small"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The 2011 study shows that in the freezer the existing crystals can grow, but no new ones form, and the amount of available water stays almost stable throughout the three weeks of the experiment."
+    },
+    {
+      "question": "How do Wang et al. (2016) describe the crystals that appear during starch retrogradation?",
+      "choix": [
+        "A-type crystals, more ordered and more stable than those of native starch",
+        "B-type crystals, less ordered and less stable than the crystals of native starch, but very real",
+        "A mere theoretical hypothesis, never actually observed in bread crumb",
+        "Crystals identical in every respect to those present in the raw flour grain"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The study describes retrogradation as a transition from disorder to order, with the appearance of B-type crystals, less ordered and less stable than the native crystals of starch."
+    }
+  ]
+}

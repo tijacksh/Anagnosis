@@ -1,0 +1,60 @@
+{
+  "id": "chi-luminol-chimiluminescence",
+  "slug": "luminol-chimiluminescence",
+  "langue": "en",
+  "empreinte_fr": "e26b7c795124eccb",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Blue of Luminol Is Not Fluorescence",
+  "accroche": "In the dark, a spray bottle is enough to make an invisible bloodstain glow. This light comes neither from a battery nor from anything radioactive.",
+  "contenu_vulgarise": "At a cleaned-up crime scene, a technician sprays a colorless liquid, turns off the light, and stains begin to glow a pale blue where no one could see anything anymore. No battery, no phosphorescence stored up during the day, no radioactive trace: the light comes from a chemical reaction taking place live, before the team’s eyes.\n\n## A light that comes from the molecule, not from heat\n\nThe sprayed compound, luminol, was first synthesized in 1902 by Aloys Josef Schmitz, in a thesis at the University of Heidelberg. In 1928, the German chemist H. O. Albrecht notices that blood markedly boosts the luminescence of luminol mixed with hydrogen peroxide in a basic medium, without yet understanding why. In 1936, Karl Gleu and Karl Pfannstiel confirm this amplifying effect in the presence of hematin, a component of blood. In between, in 1934, the name “luminol” appears in the title of an article by Huntress, Stanley and Parker devoted to a classroom demonstration.\n\nThe mechanism is not mysterious once stated: in a basic medium, luminol loses a proton, then is oxidized on contact with hydrogen peroxide to form an unstable compound that breaks down, releasing energy directly as light rather than heat. A catalyst such as iron, that of hemoglobin in the case of blood, triggers this reaction. The light emitted, around 425 nanometers, a violet-tinged blue, is chemiluminescence: a chemical reaction that glows.\n\n## A sensitivity long poorly measured\n\nIn 1937, the German forensic scientist Walter Specht carries out in-depth studies on the use of luminol to detect blood at crime scenes. But for decades, no one agrees on its real sensitivity: depending on the study, estimates of the dilution still detectable range from one hundred times to five million times, a gap that owes less to the compound itself than to the poorly controlled protocols used to measure it. In 2017, an American study takes up the question with a standardized method and sets, for a specific formulation of luminol on cotton, a limit of about two hundred thousand times dilution.\n\nThe shift lies in this poorly closed gap. A test used in forensic science since the 1930s had not received a sensitivity measurement truly comparable from one study to the next. The chemistry that reveals the invisible says nothing, by itself, about the limit of what it can reveal: it takes an equally rigorous method to fix it.",
+  "repere": {
+    "texte": "Depending on the study, the dilution of blood still detectable by the luminol test ranged, before 2017, from one hundred times to five million times depending on the protocol used; a 2017 American study, with a standardized method, sets this limit at about two hundred thousand times for a specific formulation on cotton.",
+    "source": "Cassidy, B. M. et al., “A quantitative method for determining a representative detection limit of the forensic luminol test for latent bloodstains,” Forensic Science International, vol. 278, 2017, pp. 396-403",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28837893/"
+  },
+  "carte": {
+    "punch": "The blue light that reveals invisible blood is neither a battery nor radioactivity.",
+    "idee": "Luminol sprayed on a crime scene glows on contact with blood, in the dark. It is not fluorescence: it is a chemical reaction that releases energy as light rather than heat.",
+    "source_courte": "Albrecht, 1928; Gleu and Pfannstiel, 1936"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Where exactly does the blue light produced by luminol on contact with blood come from?",
+    "choix": [
+      "From fluorescence triggered by the ambient ultraviolet light in the room",
+      "From a radioactive trace naturally present in the hemoglobin of blood",
+      "From the energy released by a chemical oxidation reaction, catalyzed by the iron in blood",
+      "From a static electric discharge produced by the spray bottle itself"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Luminol is oxidized on contact with hydrogen peroxide, and this reaction releases its energy as light rather than heat; the iron in hemoglobin catalyzes the reaction, which makes the blood visible.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who first synthesizes luminol, and in what context?",
+      "choix": [
+        "Walter Specht, in a forensic science laboratory, in 1937",
+        "Aloys Josef Schmitz, in a thesis at the University of Heidelberg, in 1902",
+        "H. O. Albrecht, during a classroom demonstration in 1928",
+        "Karl Gleu and Karl Pfannstiel, in a joint article published in 1936"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Luminol was first synthesized in 1902 by Aloys Josef Schmitz, in a thesis defended at the University of Heidelberg."
+    },
+    {
+      "question": "Why did estimates of the luminol test’s sensitivity vary so much before 2017?",
+      "choix": [
+        "Because human blood and animal blood react very differently to luminol",
+        "Because luminol chemically degrades within a few years",
+        "Because each laboratory used a different definition of the word dilution",
+        "Because the protocols used to measure this sensitivity were poorly controlled"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The text attributes this gap, which runs from one hundred times to five million times depending on the study, less to the compound itself than to measurement protocols that were poorly controlled from one study to the next."
+    }
+  ]
+}
