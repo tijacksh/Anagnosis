@@ -1,0 +1,93 @@
+{
+ "id": "nut-james-lind-essai-scorbut",
+ "slug": "james-lind-essai-scorbut",
+ "langue": "en",
+ "empreinte_fr": "89a207b671d964ed",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "The original is Lind's English text (A Treatise of the Scurvy, 1753, as quoted by Milne), but the French entry only gave a French translation; this is a retranslation from the French, original wording not retrieved (no web access). Replace with the published English sentence."
+  }
+ ],
+ "titre": "The First Clinical Trial Fit in a Ship's Log",
+ "accroche": "In 1747, a naval surgeon compares six remedies for scurvy on twelve sailors; without knowing it, he invents a method",
+ "contenu_vulgarise": "Twelve sailors aboard HMS Salisbury all suffer from scurvy to the same degree in mid-May 1747: blackened gums, painful joints, purple spots on the skin. The ship's surgeon, James Lind, puts them in the same quarters of the ship and gives them all the same basic ration. This is where the experiment begins.\n\n## Six Pairs, Six Remedies\n\nLind divides the twelve men into six pairs, each receiving a different treatment: cider, elixir of vitriol (diluted sulfuric acid), vinegar, seawater, a paste made of garlic and horseradish, and finally two oranges and a lemon a day. Nothing else changes between the groups: same lodging, same food, same duration. It is this equality of everything but one variable that makes his trial one of the first comparative clinical trials in the history of medicine, nearly two centuries before the word “randomization” existed.\n\nThe stock of citrus fruit runs out after only six days. That is enough: one of the two sailors who received oranges and lemon is again fit for duty, the other is the best recovered of all the sick on board, to the point that he is named nurse to look after the others. No other group shows a comparable improvement.\n\n## Proof Ignored for Forty Years\n\nLind publishes his results in 1753 in *A Treatise of the Scurvy*, nearly five hundred pages, in which the Salisbury trial occupies only a few paragraphs in the middle of an exhaustive review of all the existing literature on the disease. The Royal Navy does not listen. It will take until 1795, a year after Lind's death, for lemon juice to become mandatory aboard British warships, under the impetus of another physician, Gilbert Blane, who had carried out his own demonstration in 1793.\n\nThis delay is not a mere anecdotal detail. Lind had demonstrated that a remedy worked, not why it worked: he knew nothing of vitamin C, isolated only in 1932, one hundred seventy-nine years after his treatise. With no mechanism to explain it, his empirical proof remained one observation among others, drowned in a work that also recommended fresh air and exercise as possible remedies. The method had preceded the theory by a century and a half, and it is perhaps the method, more than the result, that the history of science remembers today: comparing groups while varying only one thing remains, even now, the foundation of every clinical trial.",
+ "citation": {
+  "texte": "The most sudden and visible effects were observed in the patients who took oranges and lemons; one of them, at the end of six days, was fit for duty again.",
+  "auteur": "James Lind",
+  "source": "A Treatise of the Scurvy, 1753, quoted in Milne I., “Who was James Lind, and what exactly did he achieve?”, Journal of the Royal Society of Medicine, vol. 105, no. 12, 2012 (retranslated from the French; original wording not retrieved)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3536506/"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "One of the first comparative clinical trials in history played out aboard a ship.",
+  "idee": "In 1747, James Lind compares six remedies for scurvy on twelve sailors. Of the two sailors given citrus fruit, one is fit for duty again, the other the best recovered on board. The Royal Navy will wait until 1795, a year after Lind's death, to make lemon juice mandatory.",
+  "source_courte": "Milne, J R Soc Med, 2012"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "A Treatise of the Scurvy (1753), digitized full text",
+   "url": "https://archive.org/details/treatisescurvyt00lind",
+   "note": "The HMS Salisbury trial is told in the second part of the work, in the middle of a critical review of existing treatments."
+  }
+ ],
+ "quiz": {
+  "question": "Why is Lind's trial considered one of the first comparative clinical trials in history, rather than a simple observation?",
+  "choix": [
+   "Because he ran the trial on a large number of sailors",
+   "Because he already knew the role of vitamin C",
+   "Because he tested several remedies on groups that were otherwise identical",
+   "Because the Royal Navy immediately adopted his conclusions"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Only twelve sailors, but divided into pairs differing only in the remedy received, same lodging, same ration, same duration. It is this single-variable comparison that makes the method, not the size of the sample. Lind knew nothing of vitamin C, and the Navy took forty-two years to act on his results.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How long did it take before the stock of citrus fruit used in Lind's trial ran out?",
+   "choix": [
+    "Six days",
+    "Six weeks",
+    "Six months"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text specifies that the stock of citrus fruit runs out after only six days, which is nonetheless enough to clearly set apart the two sailors who received this treatment from the other ten."
+  },
+  {
+   "question": "Which of the six remedies tested by Lind corresponds to diluted sulfuric acid?",
+   "choix": [
+    "Vinegar",
+    "Elixir of vitriol",
+    "Seawater",
+    "The paste made of garlic and horseradish"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text explicitly states that the elixir of vitriol given to one of the pairs of sailors is diluted sulfuric acid, one of the six remedies compared in the Salisbury trial."
+  },
+  {
+   "question": "Why did the proof provided by Lind remain one observation among others for decades, according to the entry?",
+   "choix": [
+    "Because he had tested his remedy on only two sailors",
+    "Because no scientist had access to his treatise before 1795",
+    "Because there was no mechanism to explain why the remedy worked"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text explains that Lind had demonstrated that a remedy worked, not why it worked: without a mechanism, his proof stayed drowned among other observations, vitamin C being isolated only in 1932."
+  },
+  {
+   "question": "Who carried out, in 1793, a demonstration that helped make lemon juice mandatory in the Royal Navy?",
+   "choix": [
+    "James Lind himself, shortly before his death",
+    "Gilbert Blane",
+    "The authors of the 1753 Treatise of the Scurvy"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text specifies that it was Gilbert Blane, another physician, who carried out his own demonstration in 1793, contributing to lemon juice becoming mandatory in 1795, a year after Lind's death."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "nut-leptine-resistance-obesite",
+ "slug": "leptine-resistance-obesite",
+ "langue": "en",
+ "empreinte_fr": "3ada269afe9fa86f",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-traduite",
+   "note": "The French entry gives this sentence as translated from the English of Flier and Ahima (2024); this is a retranslation from the French, original wording not retrieved (no web access). Replace with the published English sentence."
+  }
+ ],
+ "titre": "The Hormone That Was Meant to Cure Obesity First Revealed Its Complexity",
+ "accroche": "In 1994, a team discovers the hormone that tells the brain how much fat the body holds. The hope of a treatment ran into an unexpected obstacle",
+ "contenu_vulgarise": "Laboratory mice, obese for generations, eat without ever feeling full: this is the “ob/ob” phenotype, known since the 1950s without anyone understanding its cause. In 1994, Jeffrey Friedman's team, at Rockefeller University, clones the responsible gene and identifies the protein it encodes: a hormone produced by fat cells themselves, which they name leptin, from the Greek leptos, “thin.”\n\n## A Signal, a Hope\n\nThe mechanism seems crystal clear. The larger an individual's adipose tissue, the more leptin it secretes; the hormone travels to the hypothalamus, in the brain, where it signals that energy reserves are sufficient and that it is time to cut food intake. The ob/ob mice are obese precisely because a mutation prevents them from producing leptin: their brain never receives the stop signal. The following year, in 1995, three teams show that injecting leptin into these mice makes them lose weight. The pharmaceutical industry sees in it, for a time, the long-sought treatment for human obesity: one hormone, one deficiency, one injection that corrects everything.\n\nClinical trials in humans disappoint almost at once. The cause of the problem, in nearly all obese people, is not a lack of leptin; on the contrary, their larger fat mass produces more of it than average. Their brain receives a strong, continuous signal, but no longer responds to it: this is what researchers call leptin resistance, a mechanism still imperfectly understood, comparable in principle to the insulin resistance of type 2 diabetes. Giving more leptin to a brain already saturated with this signal produced, unsurprisingly, almost no effect.\n\n## The Rare Cases Where the Initial Hypothesis Holds\n\nThere do exist very rare humans in whom the ob/ob mouse scenario repeats identically: a genetic mutation prevents them entirely from producing leptin, causing severe obesity from early childhood. In these patients, first documented in 1997 by the team of Sadaf Farooqi and Stephen O'Rahilly in Cambridge, injection of recombinant leptin works remarkably well: a child treated from 1999 saw their weight gradually normalize under treatment.\n\nThis contrast is the real lesson of the leptin story, thirty years after its discovery: a biological mechanism perfectly elucidated in mice does not guarantee a treatment in humans, because the cause of the dysregulation can lie anywhere along the signal chain, its production, its transport, or its reception. Leptin remains a reference treatment today, but only for the rare genetic deficiencies it helped us understand, not for obesity as it affects most people.",
+ "citation": null,
+ "repere": {
+  "texte": "In the majority of obese people, leptin treatment had little or no effect on weight loss and was quickly abandoned as a general strategy; its only established use remains the treatment of the rare cases of total leptin deficiency and of certain lipodystrophies.",
+  "source": "Flier J.S., Ahima R.S., “Leptin physiology and pathophysiology: knowns and unknowns 30 years after its discovery,” Journal of Clinical Investigation, vol. 134, no. 1, 2024 (retranslated from the French; original wording not retrieved)",
+  "url": "https://www.jci.org/articles/view/174595"
+ },
+ "carte": {
+  "punch": "The hormone meant to cure obesity first revealed its complexity.",
+  "idee": "Discovered in 1994, leptin tells the brain the level of fat reserves. But in most obese people, the brain becomes resistant to this signal: leptin is not lacking, it is no longer heard. The treatment works only in very rare genetic deficiencies.",
+  "source_courte": "J Clin Invest, 2024"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Effects of recombinant leptin therapy in a child with congenital leptin deficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10486419/",
+   "note": "Farooqi et al., New England Journal of Medicine, 1999: treatment with recombinant leptin in a child with a total genetic deficiency."
+  }
+ ],
+ "quiz": {
+  "question": "Why did leptin injection, effective in ob/ob mice, not work as a general treatment for human obesity?",
+  "choix": [
+   "Because the majority of obese people already produce a lot of leptin, but their brain no longer responds to it",
+   "Because human leptin has a different chemical structure from that of mice",
+   "Because leptin cannot cross the blood-brain barrier in humans",
+   "Because no human naturally produces leptin"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Unlike ob/ob mice, whose mutation prevents any production of leptin, most obese humans produce more of it than average, their brain becoming resistant to the signal. Only the rare cases of total genetic deficiency, discovered in 1997, respond to treatment like the laboratory mice.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the name leptin, given by Jeffrey Friedman's team in 1994, come from?",
+   "choix": [
+    "From the Greek leptos, meaning thin",
+    "From the name of the laboratory mouse in which the hormone was discovered",
+    "From the initials of the researchers who cloned the ob gene",
+    "From the Latin leptus, designating adipose tissue"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Jeffrey Friedman's team names the hormone leptin, from the Greek leptos, thin, in reference to the weight-loss effect it triggers in mice."
+  },
+  {
+   "question": "In whom did recombinant leptin injection prove remarkably effective?",
+   "choix": [
+    "In the very rare patients with a mutation that totally prevents leptin production",
+    "In everyone with a high body mass index",
+    "In laboratory mice that are not genetically modified",
+    "In type 2 diabetes patients who are resistant to insulin"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In the very rare humans in whom a mutation totally prevents leptin production, documented in 1997 by Farooqi and O'Rahilly, recombinant leptin injection works remarkably well, as in ob/ob mice."
+  },
+  {
+   "question": "What does leptin normally signal to the hypothalamus, when the mechanism works?",
+   "choix": [
+    "That energy reserves are sufficient and that it is time to cut food intake",
+    "That the body is short of fat and food intake must increase",
+    "That the blood sugar level is too high",
+    "That muscle mass has decreased and must be rebuilt"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The larger the adipose tissue, the more leptin it secretes, which signals to the hypothalamus that energy reserves are sufficient and that it is time to cut food intake."
+  }
+ ]
+}

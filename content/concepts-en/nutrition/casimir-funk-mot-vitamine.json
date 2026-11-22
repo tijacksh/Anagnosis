@@ -1,0 +1,90 @@
+{
+ "id": "nut-casimir-funk-mot-vitamine",
+ "slug": "casimir-funk-mot-vitamine",
+ "langue": "en",
+ "empreinte_fr": "f9d5c19740e0275b",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-traduite",
+   "note": "The original is Funk's English text (1912), but the French entry only gave a French translation; this is a retranslation from the French, original wording not retrieved (no web access). Replace with the published English sentence."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "The phrase “of the nature of organic bases” in the body is a retranslation from the French quotation of Funk's English; original wording not retrieved."
+  }
+ ],
+ "titre": "The Word “Vitamin” Rests on a 1912 Error",
+ "accroche": "By isolating a molecule against beriberi, Casimir Funk coins the word vitamine, convinced, wrongly, that they would all be amines",
+ "contenu_vulgarise": "In 1911, in London, the Polish biochemist Casimir Funk is working at the Lister Institute on a disease that decimates sailors and prisoners in Asia: beriberi. Earlier experiments, conducted by Christiaan Eijkman in the Dutch East Indies, showed that it strikes those who live on polished rice and heals those who are fed again with the husk of the grain, removed by polishing. Something is hidden there, but what?\n\n## An Extraction, a Word\n\nFunk extracts from rice bran a crystalline substance that cures, within hours, pigeons made sick by a diet of white rice. Convinced he holds the responsible molecule, he christens it, in his 1912 article “The Etiology of the Deficiency Diseases,” with the name “vitamine,” a contraction of “vital amine.” The word is a chemical wager as much as a name: Funk writes that these missing substances, “of the nature of organic bases,” must all belong to the amine family, like the one he has just isolated.\n\nThe wager is half right. His molecule against beriberi, thiamine, or vitamin B1, is indeed an amine. But the substances discovered in the following decades against scurvy, rickets, or night blindness are not: vitamin C is an acid, vitamin D a derivative of cholesterol, vitamin A a retinoid. Of the dozen or so vitamins now catalogued, only one truly shares the chemical structure that gave its name to all the others.\n\n## A Name That Outlives Its Own Error\n\nThe scientific community quietly corrects the anomaly in the 1920s: in English-speaking countries, the word loses its final “e,” “vitamin” rather than “vitamine,” to mark that the amine hypothesis is no longer taken for granted. In French, the original word stays intact. Anyone who reads today a cereal box “enriched with vitamins” is reading, without knowing it, the fossil trace of a biochemical hypothesis that is false for nearly all the substances it designates.\n\nFunk himself had not made a discovery cut off from all context: Eijkman had established as early as 1897 the link between polished rice and polyneuritis in chickens, without drawing either a molecule or a name from it. This swing between clinical observation and chemical isolation, establishing that a remedy exists before knowing precisely what it is, echoes, a century and a half later, the logic of James Lind's scurvy trial: empirical proof almost always comes before understanding of the mechanism, and sometimes the name given to it comes first too.",
+ "citation": {
+  "texte": "These substances, whose absence from the diet causes the disease and which are of the nature of organic bases, we shall call “vitamines.”",
+  "auteur": "Casimir Funk",
+  "source": "The Etiology of the Deficiency Diseases, Journal of State Medicine, vol. 20, 1912, p. 342 (retranslated from the French; original wording not retrieved)",
+  "url": "https://www.mv.helsinki.fi/home/hemila/history/Funk_1912.pdf"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "The word “vitamin” rests on a chemistry error dating from 1912.",
+  "idee": "By isolating thiamine against beriberi in 1911, the biochemist Casimir Funk coins the word “vitamine,” convinced that they would all be amines. False for most: vitamin C is an acid, D a derivative of cholesterol. The name outlived the hypothesis that produced it.",
+  "source_courte": "Journal of State Medicine, 1912"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Casimir Funk and a Century of Vitamins",
+   "url": "https://paulingblog.wordpress.com/2011/06/15/casimir-funk-and-a-century-of-vitamins/",
+   "note": "Traces Funk's path at the Lister Institute and his work on beriberi, through the archives of Oregon State University."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the word “vitamin,” strictly speaking in chemical terms, a poorly chosen name for most of the substances it designates today?",
+  "choix": [
+   "Because no vitamin plays an essential role in the body",
+   "Because Funk thought they would all be amines, which is true only for a minority",
+   "Because the word was coined before the discovery of the first vitamin",
+   "Because the chemical composition of vitamins changed in the 20th century"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Funk isolates thiamine in 1911, a true amine, and generalizes his hypothesis to all the protective substances to come. Vitamin C, D, or A are not amines. The name keeps the trace of a hypothesis that is false for nearly all the vitamins now catalogued.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did Christiaan Eijkman's earlier experiments in the Dutch East Indies show?",
+   "choix": [
+    "That beriberi is caused by a bacterium found in stagnant water",
+    "That beriberi affects only populations living at high altitude",
+    "That whole rice worsens the symptoms of beriberi in affected patients",
+    "That beriberi strikes eaters of polished rice and is cured with the husk of the grain"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Eijkman's experiments show that beriberi strikes those who live on polished rice, and heals those who are fed again with the husk of the grain, removed by polishing."
+  },
+  {
+   "question": "On which animals does Funk test the substance he extracts from rice bran?",
+   "choix": [
+    "Rats fed exclusively on refined sugar",
+    "Monkeys showing symptoms of scurvy",
+    "Pigeons made sick by a diet of white rice",
+    "Guinea pigs put on a protein-free diet"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Funk extracts from rice bran a crystalline substance that cures, within hours, pigeons made sick by a diet of white rice."
+  },
+  {
+   "question": "Why did the English word lose its final “e” in the 1920s, going from vitamine to vitamin?",
+   "choix": [
+    "To mark that the general amine hypothesis was no longer taken for granted",
+    "To simplify the pronunciation of the word in everyday language",
+    "Because Funk himself demanded this correction before his death",
+    "Because thiamine had been reclassified as an acid rather than an amine"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The scientific community quietly corrects the anomaly in the 1920s: the word loses its final e to mark that the hypothesis of a general amine is no longer taken for granted."
+  }
+ ]
+}

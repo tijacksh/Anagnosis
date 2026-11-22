@@ -1,0 +1,67 @@
+{
+ "id": "nut-lactase-persistance-evolution-convergente-tishkoff",
+ "slug": "lactase-persistance-evolution-convergente-tishkoff",
+ "langue": "en",
+ "empreinte_fr": "82e3af526ba63c35",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-originale-anglaise",
+   "note": "Already in English in the French entry (the French gave its own translation only in the source line); the cited URL is the English PubMed record of the 2007 Nature Genetics paper. Copied unchanged (including the original's punctuation); not re-read on the page in this pass (no web access). The French translation was dropped from the source line."
+  }
+ ],
+ "titre": "Digesting Milk as an Adult: The Genetic Solution Found Several Times",
+ "accroche": "In 2007, 470 people from East Africa reveal three lactase variants, distinct from the European mutation: herding played a part twice.",
+ "contenu_vulgarise": "In most mammals, lactase, the enzyme that digests milk sugar, switches off after weaning. In humans too, on average: in adulthood, the majority of people on the planet digest milk poorly. But a minority keeps an active lactase for life. This is “lactase persistence,” and its story is a textbook case of recent evolution.\n\n## A Known European Mutation\n\nIn the 2000s, a single one-letter DNA change was known in Europeans, labeled C/T-13910, located upstream of the lactase gene (LCT) and associated with the ability to digest milk in adulthood. The simplest hypothesis held that a single mutation, which appeared a few thousand years ago, spread with herding, and that it would be found wherever milk is drunk.\n\n## Three More Variants, Elsewhere\n\nIn 2007, Sarah Tishkoff and her colleagues test this hypothesis in East Africa, where dairy herding is ancient. They study 470 people from Tanzania, Kenya, and Sudan, from many ethnic groups. There they spot three other variants, labeled G/C-14010, T/G-13915, and C/G-13907, associated with lactase persistence. In the laboratory, each increases the activity of the lactase gene. They are not the European mutation: they appeared on distinct genetic backgrounds, independently of it and of one another.\n\nThe C-14010 variant is carried on long stretches of identical DNA, of more than two million letters, a sign that it spread very quickly under the effect of natural selection. The authors estimate this selective sweep at about 7,000 years ago at most. In the full text, the dates vary across populations, from about 3,000 to 7,000 years, with wide margins of uncertainty. This period coincides with the expansion of herding in East Africa, which reaches northern Kenya about 4,500 years ago and northern Tanzania about 3,300 years ago. For the authors, milk there is also a source of water in arid regions, and diarrhea caused by lactose intolerance makes that water be lost.\n\n## The Shift\n\nMilk tolerance is sometimes called a “herding mutation.” This is more precise than it seems: herding created, at least twice, the pressure that made different mutations preferred for the same effect. Biology follows culture here, and it is the practice that came before the gene. This is not a “European” trait: it is a trait tied to pastoralism, which appeared and became fixed in several places. The 2007 work was, moreover, only a first survey: later studies have added other variants, as in Ethiopia. How many other adaptations to our eating habits are still waiting to be looked for somewhere other than where we first looked?",
+ "citation": null,
+ "repere": {
+  "texte": "These data provide a marked example of convergent evolution due to strong selective pressure resulting from shared cultural traits-animal domestication and adult milk consumption.",
+  "source": "Tishkoff et al., Nature Genetics, 39(1), 2007",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/17159977/"
+ },
+ "carte": {
+  "punch": "Digesting milk as an adult: nature found the solution several times.",
+  "idee": "In 2007, the analysis of 470 people from East Africa reveals three lactase variants, independent of the European mutation. The same cultural pressure, herding, produced distinct genetic solutions.",
+  "source_courte": "Nature Genetics, 2007"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does “convergent evolution” mean in the case of lactase persistence?",
+  "choix": [
+   "That the same mutation was passed from Europe to Africa through migrations",
+   "That different mutations, arising separately, produced the same effect under the same cultural pressure",
+   "That all herders ended up sharing exactly the same genotype",
+   "That lactase began working in adulthood because people drank milk"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The African variants appeared on genetic backgrounds different from that of the European variant and from one another. The shared pressure is domestication and adult milk consumption. It is neither a migration of the same mutation nor a change acquired through habit.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why do the authors place the selection on C-14010 at about 7,000 years ago at most?",
+   "choix": [
+    "Because ancient DNA from herders of that time was sequenced in the study",
+    "Because long stretches of identical DNA surround this variant, a sign of recent, rapid spread",
+    "Because lactase could not have appeared before the invention of agriculture",
+    "Because the populations studied were compared with fossils"
+   ],
+   "bonne_reponse": 1,
+   "explication": "A variant that spreads fast carries long pieces of neighboring DNA along with it: their length (more than 2 million letters) makes it possible to date the sweep. The study covers living people, not ancient DNA or fossils."
+  },
+  {
+   "question": "What does the 2013 Ethiopian study show?",
+   "choix": [
+    "That there is yet another variant, associated with lactase persistence",
+    "That the European variant is present everywhere in Ethiopia",
+    "That lactase persistence is a trait with no genetic basis",
+    "That the three 2007 variants do not exist"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The researchers find one additional variant (−14009T>G) in more than 350 Ethiopians and confirm that it increases gene expression in the laboratory. It completes the 2007 picture without contradicting it or removing its genetic basis."
+  }
+ ]
+}

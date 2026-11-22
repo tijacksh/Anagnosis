@@ -1,0 +1,67 @@
+{
+ "id": "nut-minnesota-coronary-experiment-cholesterol-mortalite",
+ "slug": "minnesota-coronary-experiment-cholesterol-mortalite",
+ "langue": "en",
+ "empreinte_fr": "33fe1cceada5ef93",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-originale-anglaise",
+   "note": "Already in English in the French entry (the French gave its own translation only in the source line); the cited URL is the English PubMed record of the 2016 BMJ paper. Copied unchanged; not re-read on the page in this pass (no web access). The French translation was dropped from the source line."
+  }
+ ],
+ "titre": "The Diet That Lowered Cholesterol Without Changing Mortality",
+ "accroche": "A 1968-73 trial replaced saturated fats with corn oil. Data recovered in 2016: cholesterol falls, survival does not change.",
+ "contenu_vulgarise": "Between 1968 and 1973, in six psychiatric hospitals and one nursing home in Minnesota, thousands of residents eat what others have chosen for them. Some receive a diet rich in animal fats, the others a diet in which saturated fat is replaced by corn oil and corn margarine. No one, neither the patients nor the staff, knows who is eating what: it is a randomized, double-blind trial, rare for a nutrition trial. The aim is to test an idea that was then dominant: lowering cholesterol through diet reduces deaths from heart disease.\n\n## What Is Published, and What Is Not\n\nThe diet works on what it targets. In 1989, Ivan Frantz's team publishes a report in the journal Arteriosclerosis: mean serum cholesterol falls from 207 to 175 mg/dl in the treated group, against 203 in the control group. On the other hand, no difference appears between the groups for cardiovascular events, deaths from heart causes, or total mortality. This result is published sixteen years after the end of the trial, in a specialized journal.\n\nIn 2016, Christopher Ramsden and his colleagues recover unpublished documents and raw data from the trial. They analyze the randomized cohort of 9,423 women and men aged 20 to 97, of whom 2,355 had followed the diet for at least a year, and 149 autopsy records. In this subgroup, cholesterol falls by 13.8% versus 1.0%. Yet no mortality benefit appears, either in the whole cohort or in the subgroups planned at the outset. More surprising, in a statistical model adjusted for other variables, each 30 mg/dl drop in cholesterol goes with a 22% higher risk of death. This figure must be read with caution: it is an association observed within the trial, not proof that lowering cholesterol kills.\n\n## The Shift\n\nThe Minnesota trial does not demonstrate that saturated fats are harmless. Its authors themselves conclude more modestly: replacing saturated fats with linoleic acid does lower cholesterol, but nothing proves that it reduces mortality, and the incomplete publication of results may have contributed to overestimating the benefits of this replacement. In their meta-analysis of five randomized trials, covering 10,808 people, coronary mortality is at 1.13 (95% confidence interval: 0.83 to 1.54) and all-cause mortality at 1.07 (0.90 to 1.27): no net benefit, no established harm.\n\nWhat the episode reveals lies in the chain of reasoning. “Cholesterol goes down” is a laboratory result; “people live longer” is a health result. The 2016 authors stress that this second result had not been fully published. What is a marker worth, as long as the survival curve is not in front of us?",
+ "citation": null,
+ "repere": {
+  "texte": "Available evidence from randomized controlled trials shows that replacement of saturated fat in the diet with linoleic acid effectively lowers serum cholesterol but does not support the hypothesis that this translates to a lower risk of death from coronary heart disease or all causes.",
+  "source": "Ramsden et al., BMJ, 2016",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/27071971/"
+ },
+ "carte": {
+  "punch": "Cholesterol fell by 13.8%. Mortality did not move.",
+  "idee": "Between 1968 and 1973, a double-blind trial replaced saturated fats with corn oil in thousands of residents. In 2016, the reanalysis of the recovered data shows falling cholesterol, but no benefit for survival.",
+  "source_courte": "BMJ, 2016"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What is concluded from the 2016 reanalysis of the Minnesota trial?",
+  "choix": [
+   "That lowering cholesterol through diet makes people die sooner",
+   "That the diet did lower cholesterol, with no demonstrated benefit on mortality",
+   "That saturated fats are harmless for the heart, whatever the dose",
+   "That the trial was too poorly conducted for its results to have any value"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Cholesterol fell (−13.8% versus −1.0%) without mortality benefiting. The link with a higher risk is an association internal to the trial, not proof of harm. The trial does not clear saturated fats either, and its double-blind conduct is not called into question.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is the difference between the “cholesterol” endpoint and the “mortality” endpoint in this trial?",
+   "choix": [
+    "The first measures a biological marker, the second a real consequence for health",
+    "The first is subjective, the second objective",
+    "The first is measured in the patients, the second in the staff",
+    "The first concerns men, the second women"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Cholesterol is an intermediate marker that can move without survival changing. Both endpoints are objective, concern the same residents, and cover both sexes."
+  },
+  {
+   "question": "What makes this trial unusual for nutrition?",
+   "choix": [
+    "Participants freely chose what they ate",
+    "It lasted less than six months",
+    "Neither the patients nor the staff knew who was on which diet",
+    "It compared a diet with a drug"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The hospitals and nursing home made a double-blind design possible, which is rare when comparing foods. The trial lasted up to four and a half years, the meals were provided, and it compared two diets, not a drug."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "neu-patient-db-blindsight",
+ "slug": "patient-db-blindsight",
+ "langue": "en",
+ "empreinte_fr": "d1e14740764ab141",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Patient Who Saw Without Knowing He Saw",
+ "accroche": "In 1973, a man loses half his visual field after an operation, and keeps precisely locating, without knowing it, what he can no longer see.",
+ "contenu_vulgarise": "In 1973, at the age of thirty-three, a man loses a fragment of his right visual cortex: surgeons remove a benign angioma lodged in the striate cortex, at the occipital pole. The operation leaves him blind across the entire left half of his visual field, a hemianopia. Placed in front of a screen and told to guess where a point of light is, a light he swears he cannot see, this man, referred to in the scientific literature only by the initials D.B., points correctly all the same, far beyond what chance would allow. Again and again.\n\n## A Second, Older Pathway\n\nThe neuropsychologist Lawrence Weiskrantz, with Elizabeth Warrington, Michael Sanders, and John Marshall, documents the case in 1974 in two parallel publications: a brief note in *The Lancet*, titled with the word destined for a long career (blindsight), and the full study in the journal *Brain*. The explanation lies in the architecture of the visual system. The main pathway, the one that builds conscious perception, passes through the striate cortex, precisely the region removed in D.B. But an evolutionarily older pathway links the retina directly to the superior colliculus and the pulvinar, two subcortical structures, before joining other visual areas without ever passing through the destroyed cortex. Cut off from its main route, this second road keeps carrying enough information to locate a point, direct a gaze, or discriminate a crude shape, without ever reaching the threshold that would produce a conscious experience.\n\nLater work on D.B. puts precise numbers on this dissociation. In a shape discrimination task published in 2007 by Trevethan, Sahraie, and Weiskrantz, D.B. tells a square from a rectangle with 86% success, and a circle from an oval with 73%, while reporting any awareness of the stimulus only once in a hundred presentations.\n\n## What This Shifts\n\nThe D.B. case has long served as a central argument in a debate that goes beyond neurology: visual consciousness is not a mere by-product of information processing, since a brain can evidently process that information without it. Seeing and knowing that one sees are two distinct operations, carried by partly separate circuits. The discovery also opened a clinical lead: rehabilitation protocols now exploit this residual pathway to train hemianopic patients, after a stroke, to better detect obstacles in their blind field, without their needing to be aware of them in order to improve.",
+ "citation": null,
+ "repere": {
+  "texte": "Tested on simple geometric shapes, D.B. tells a square from a rectangle with 86% success and a circle from an oval with 73%, while reporting awareness of the stimulus only once in a hundred presentations.",
+  "source": "Trevethan, Sahraie & Weiskrantz, Neuropsychologia, 45(9), 2007",
+  "url": "https://www.sciencedirect.com/science/article/abs/pii/S0028393207000541"
+ },
+ "carte": {
+  "punch": "Blind in half his visual field, he still located what he swore he could not see.",
+  "idee": "In 1973, a man loses, along with his right visual cortex, all conscious vision of the left half of his field. Tested by Lawrence Weiskrantz, he nonetheless locates stimuli he says he cannot see: an older visual pathway keeps working without ever reaching consciousness.",
+  "source_courte": "Weiskrantz et al., Brain, 1974"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Looking back: Blindsight in hindsight",
+   "url": "https://www.bps.org.uk/psychologist/looking-back-blindsight-hindsight",
+   "note": "Weiskrantz himself looks back, in 2010, on the circumstances of the discovery."
+  }
+ ],
+ "quiz": {
+  "question": "How can D.B. locate a visual stimulus that he swears he cannot see?",
+  "choix": [
+   "He guesses by logical deduction, relying on the ambient sounds in the room",
+   "His good eye compensates by discreetly scanning the whole visual field for him",
+   "An older visual pathway bypasses the destroyed cortex and provides information without ever reaching consciousness",
+   "The removed cortex has partly regenerated since the 1973 operation"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The primary visual cortex (V1), removed in D.B., carries the pathway that builds conscious perception. But the retina also projects to the superior colliculus and the pulvinar, older structures that keep processing information without ever producing awareness. It is not auditory deduction, compensatory eye scanning, or cortical regeneration: none of the three is documented in D.B.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which surgical operation, in 1973, leaves D.B. blind in the left half of his visual field?",
+   "choix": [
+    "The removal of a benign angioma in the striate cortex, at the right occipital pole",
+    "A corneal transplant poorly tolerated by the right eye",
+    "The removal of a malignant tumor in the left frontal lobe",
+    "An operation to correct a bilateral retinal detachment"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Surgeons remove a benign angioma lodged in the striate cortex, at the right occipital pole, which leaves D.B. blind across the entire left half of his visual field."
+  },
+  {
+   "question": "According to the 2007 study by Trevethan, Sahraie, and Weiskrantz, how often does D.B. report awareness of a stimulus that he nonetheless manages to discriminate?",
+   "choix": [
+    "Once in two presentations",
+    "Once in a hundred presentations",
+    "Never, across all the presentations tested",
+    "Nine times in ten presentations"
+   ],
+   "bonne_reponse": 1,
+   "explication": "D.B. tells a square from a rectangle at 86% and a circle from an oval at 73%, while reporting awareness of the stimulus only once in a hundred presentations."
+  },
+  {
+   "question": "What is the clinical use today of the discovery of this residual visual pathway that bypasses the destroyed cortex?",
+   "choix": [
+    "Surgically restoring conscious vision in hemianopic patients",
+    "Diagnosing brain tumors earlier through a simple reflex test",
+    "Training hemianopic patients to better detect obstacles, without their being aware of them",
+    "Replacing corrective glasses in presbyopic patients"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Rehabilitation protocols exploit this residual pathway to train hemianopic patients, after a stroke, to better detect obstacles in their blind field, without their needing to be aware of them in order to improve."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "nut-capsaicine-recepteur-chaleur-trpv1",
+ "slug": "capsaicine-recepteur-chaleur-trpv1",
+ "langue": "en",
+ "empreinte_fr": "258dcb0e26114f01",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "repere/texte",
+   "type": "citation-originale-anglaise",
+   "note": "Already in English in the French entry (the French gave its own translation only in the source line); the cited URL is the English PubMed record of the 1997 Nature paper. Copied unchanged; not re-read on the page in this pass (no web access). The French back-translation was dropped from the source line."
+  }
+ ],
+ "titre": "Chili Pepper Activates the Same Sensor as Truly Scalding Water",
+ "accroche": "A single receptor, discovered in 1997, lights up as readily at the touch of chili pepper as at water above 43 degrees Celsius. Hence the burning sensation.",
+ "contenu_vulgarise": "Biting into a chili pepper should, strictly speaking in chemical terms, cause no burn at all: nothing in it reaches a dangerous temperature. Yet the mouth reacts exactly as if it did. In the late 1990s, the pharmacologist David Julius, at the University of California, San Francisco, wants to understand why capsaicin, the compound responsible for the pepper's heat, triggers a burning sensation identical to that of a real source of heat.\n\n## A Library of Genes, a Single Suspect\n\nJulius and his team build a library of several million DNA fragments corresponding to the genes active in sensory neurons, those that transmit pain, heat, and touch to the brain. Their hypothesis: one of these fragments encodes the protein able to react to capsaicin. They insert the genes one by one into cultured cells that normally ignore capsaicin entirely, and look for the one that, once modified, starts to respond to it. After a long search, a single gene makes the cells sensitive to capsaicin. The team publishes its discovery in Nature in 1997: the gene encodes an ion channel of a new type, soon named the TRPV1 receptor.\n\nTesting next how this channel reacts to temperature, Julius makes the discovery that gives these studies their full significance: TRPV1 also activates directly on contact with a heat perceived as painful, around 43 degrees Celsius. The same molecular receptor thus responds to capsaicin and to real heat. This is why eating a chili pepper triggers, in the neurons, exactly the same signal as a true burn, even though no dangerous temperature is involved.\n\n## One Sensor, Then a Whole Family\n\nThe discovery of TRPV1 opens the way to a series of related receptors, each sensitive to a different temperature range. Julius and the researcher Ardem Patapoutian thus identify, independently of each other, TRPM8 thanks to menthol. This channel activates in the cold, and explains, symmetrically, why mint gives a sensation of coolness without lowering the temperature of the mouth. The two researchers jointly receive the 2021 Nobel Prize in Physiology or Medicine for their discoveries on receptors for temperature and touch. What the kitchen files under taste (hot, minty) in reality comes down to temperature sensors hijacked by food molecules.",
+ "citation": null,
+ "repere": {
+  "texte": "The cloned capsaicin receptor is also activated by increases in temperature in the noxious range, suggesting that it functions as a transducer of painful thermal stimuli in vivo.",
+  "source": "Caterina et al., “The capsaicin receptor: a heat-activated ion channel in the pain pathway,” Nature, 1997",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/9349813/"
+ },
+ "carte": {
+  "punch": "Chili pepper doesn't burn. It activates the same receptor as water at 43 degrees Celsius.",
+  "idee": "In 1997, David Julius discovered the TRPV1 receptor, activated as much by the capsaicin of chili pepper as by painful heat. A related receptor, TRPM8, activates in the cold and with menthol, hence the coolness of mint. 2021 Nobel Prize in Medicine, with Ardem Patapoutian.",
+  "source_courte": "Caterina, Julius et al., Nature, 1997"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does the capsaicin in chili pepper cause a burning sensation, even though no real heat is involved?",
+  "choix": [
+   "Because it chemically irritates the mucous membrane, which the brain wrongly interprets as a burn",
+   "Because it speeds up blood circulation in the tongue, producing a sensation of heat",
+   "Because it temporarily blocks the cold receptors, leaving only the sensation of heat",
+   "Because it activates TRPV1, the same molecular receptor triggered by truly painful heat"
+  ],
+  "bonne_reponse": 3,
+  "explication": "David Julius showed in 1997 that capsaicin and painful heat activate exactly the same channel, TRPV1: the brain receives a signal indistinguishable from a real burn, even though the temperature of the mouth has not changed.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does David Julius's team identify the gene responsible for sensitivity to capsaicin?",
+   "choix": [
+    "By comparing twins exposed and not exposed to chili pepper",
+    "By inserting millions of gene fragments, one by one, into cells that ignore capsaicin",
+    "By observing slices of rodent tongue under an electron microscope",
+    "By analyzing patents filed by the food industry on spices"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The team built a library of millions of DNA fragments from sensory neurons, then inserted them one by one into cultured cells until finding the one that made them sensitive to capsaicin."
+  },
+  {
+   "question": "At about what temperature does the TRPV1 receptor activate directly, without capsaicin?",
+   "choix": [
+    "About 30°C",
+    "About 37°C",
+    "About 43°C",
+    "About 55°C"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Julius showed that TRPV1 also activates directly on contact with a heat perceived as painful, around 43°C, which explains why chili pepper triggers the same signal as a real burn."
+  },
+  {
+   "question": "Which receptor related to TRPV1 do Julius and Patapoutian identify thanks to menthol?",
+   "choix": [
+    "TRPA1, sensitive to mustard",
+    "TRPV2, sensitive to high temperatures",
+    "PIEZO1, sensitive to mechanical pressure",
+    "TRPM8, a channel activated by cold"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Julius and Patapoutian identify, independently of each other, TRPM8 thanks to menthol, a channel that activates in the cold and explains why mint gives a sensation of coolness."
+  }
+ ]
+}

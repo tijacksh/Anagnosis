@@ -1,0 +1,68 @@
+{
+ "id": "neu-neurones-miroirs-1992-comprendre-action",
+ "slug": "neurones-miroirs-1992-comprendre-action",
+ "langue": "en",
+ "empreinte_fr": "6ae68ce18a8a6035",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-originale-anglaise",
+   "note": "Already in English in the French entry (Hickok's own wording); the cited URL is the English-language PubMed record. Copied unchanged; the French validation notes confirm it word for word against that abstract. The same wording is used in the body."
+  }
+ ],
+ "titre": "Mirror Neurons: What the Macaque Showed in 1992",
+ "accroche": "Neurons in a macaque's premotor cortex fire when it grasps an object and when it sees someone else grasp it. What came next is less certain.",
+ "contenu_vulgarise": "In the early 1990s, in Parma, a team records the activity of single neurons in a macaque's premotor cortex. The targeted region commands goal-directed hand movements: grasping, holding, tearing. What the team of Giacomo Rizzolatti observes was not part of the protocol.\n\n## A Neuron That Responds to What It Sees\n\nThe 1992 article by Giuseppe di Pellegrino, Luciano Fadiga, Leonardo Fogassi, Vittorio Gallese, and Rizzolatti reports that many of these neurons also become active when the monkey watches the experimenter perform precise, meaningful movements: placing a piece of food on a table, picking it up again, taking food from another person's hand, handling objects.\n\nThe link between the observed movement and the executed movement is always clear. Often, only a movement identical to the one the neuron commands will activate it. The authors draw a measured conclusion: these neurons may retrieve movements not only from stimuli, but from the meaning of the observed action.\n\n## What the Recording Establishes\n\nThe precision of the link matters. The authors do not describe a vague reaction to the presence of a movement: for a given neuron, it is the observed movement that matches the one it commands, grasping rather than tearing, for example, that triggers the response. That is what made the finding more than a measurement artifact. By itself, though, it says nothing about what the monkey perceives or what it does with it.\n\n## From Discovery to Theory\n\nThese cells, now called “mirror” neurons, fed a powerful idea: if the brain replays in us what others do, perhaps that is how we understand their acts. This thesis was extended well beyond the macaque's hand, toward imitation, language, and empathy.\n\nThe neuroscientist Gregory Hickok opposes it in a 2009 critical review. He argues that “there is no evidence from monkey data that directly tests this theory,” and that human data argue strongly against it. He does not dispute that the neurons exist: he disputes the leap from measurement to explanation.\n\n## What This Shifts\n\nThe 1992 result is a recording fact: some neurons respond to both the execution and the observation of the same movement. That this fact explains the understanding of actions, in monkeys or in humans, is a hypothesis, one that the original article advances only with caution and that later work contests. One question remains that the discovery leaves untouched: does a neuron that fires on seeing a movement understand it, or does it merely accompany it?",
+ "citation": {
+  "texte": "there is no evidence from monkey data that directly tests this theory",
+  "auteur": "Gregory Hickok",
+  "source": "Eight problems for the mirror neuron theory of action understanding in monkeys and humans, Journal of Cognitive Neuroscience, 2009",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/19199415/"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "A neuron that fires when you grasp an object and when you see someone else grasp it.",
+  "idee": "In 1992, Rizzolatti's team recorded these neurons in the macaque. That they explain the understanding of actions is a thesis Hickok challenged in 2009, for lack of data that test it directly.",
+  "source_courte": "di Pellegrino et al., 1992; Hickok, 2009"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does the 1992 article demonstrate about neurons in the macaque's premotor cortex?",
+  "choix": [
+   "That these neurons let the monkey understand the intentions of others, as human studies later established",
+   "That many of these neurons also fire when the monkey observes a precise movement, often one identical to the movement they command",
+   "That the monkey systematically imitates the experimenter's movements as soon as it observes them",
+   "That these neurons are unique to the macaque and never respond to another's action"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The article reports a recording fact: activity during both the execution and the observation of the same movement. It does not establish the understanding of intentions, which Hickok's 2009 review disputes. It does not report systematic imitation, and these neurons respond precisely to another's action.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Gregory Hickok argue in his 2009 critical review of mirror neurons?",
+   "choix": [
+    "That mirror neurons do not exist in monkeys",
+    "That mirror neurons explain language as well as empathy",
+    "That monkey data do not directly test the theory",
+    "That the 1992 study had too small a sample"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Hickok does not deny that the neurons exist, but points out that nothing in monkeys directly tests the theory, and that human data argue against it."
+  },
+  {
+   "question": "What precision does the 1992 article observe in the response of these neurons to an observed movement?",
+   "choix": [
+    "Generally, only a movement identical to the one the neuron commands activates it",
+    "Any hand movement by the experimenter triggers the same response",
+    "The neurons respond only if the experimenter touches the monkey",
+    "The response depends only on the speed of the observed movement, not on its nature"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text specifies that, for a given neuron, only a movement identical to the one it commands is most often enough to activate it, not an arbitrary movement or a mere touch."
+  }
+ ]
+}

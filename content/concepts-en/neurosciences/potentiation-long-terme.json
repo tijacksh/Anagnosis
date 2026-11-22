@@ -1,0 +1,84 @@
+{
+ "id": "neu-potentiation-long-terme",
+ "slug": "potentiation-long-terme",
+ "langue": "en",
+ "empreinte_fr": "cc5848265120e85e",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "“her little saying” is a back-translation of the French « son petit dicton »; Shatz's exact English wording was not retrieved (no web access). The phrase “cells that fire together wire together” is the standard English wording of the formula quoted in the French."
+  }
+ ],
+ "titre": "The Discovery of Long-Term Potentiation",
+ "accroche": "In 1973, repeated stimulation leaves a rabbit's synapse strengthened for hours, the first proof of a mechanism foreseen since 1949.",
+ "contenu_vulgarise": "In 1949, the psychologist Donald Hebb puts forward a hypothesis he cannot yet prove: when one neuron repeatedly takes part in activating a second neuron, the connection between the two grows stronger. Twenty-four years pass before its physical trace is seen.\n\n## An Observation That Sleeps, Then a Confirmation\n\nIn 1966, Terje Lømo, then a young doctoral student in Per Andersen's laboratory in Oslo, electrically stimulates the perforant path, a bundle of fibers that reaches the hippocampus, in anesthetized rabbits. He notices that the response of the target cells remains stronger after repeated stimulation, well after the stimulus has ended. The observation is noted, published as an abstract, then set aside: Lømo is absorbed in writing his thesis.\n\nIn 1968, Tim Bliss joins the laboratory to study the physiological basis of memory. The two researchers take up Lømo's observation and document it rigorously. Their article, published in 1973 in *The Journal of Physiology*, reports the phenomenon in fifteen of eighteen rabbits: after repeated stimulation of the perforant path, synaptic transmission in the dentate gyrus of the hippocampus remains strengthened for a period ranging from thirty minutes to ten hours. The name that sticks: long-term potentiation, or LTP.\n\nThis is the first concrete physiological demonstration of what Hebb had only postulated: a synapse can literally change in strength according to how it is used, and keep the trace of that change.\n\n## A Phrase That Isn't Hebb's\n\nHebb's theory ended up boiled down, in popular scientific culture, to a short phrase: “cells that fire together wire together.” This phrase is not Hebb's. It was coined by the neuroscientist Carla Shatz, who first uses it in her talks before publishing it in 1992 in a *Scientific American* article on the development of the visual brain, the same year as a similar formulation that appeared in *Science* by Siegrid Löwel. Shatz herself presents it as “her little saying,” a condensed summary of the Hebbian idea, not a quotation from Hebb.\n\nThe distinction matters. The original 1949 statement is more cautious and more technical: it concerns a process of growth or a metabolic change triggered by repeated activation, without claiming that a single coincidence is enough. The popularized phrase flattens that nuance, but it has also let generations of students remember, in one sentence, what LTP took twenty-four years to demonstrate in a rabbit's hippocampus.",
+ "citation": null,
+ "repere": {
+  "texte": "Bliss and Lømo observed potentiation in fifteen of eighteen rabbits, synaptic transmission remaining strengthened from thirty minutes to ten hours after repeated stimulation of the perforant path.",
+  "source": "Bliss, T.V.P. & Lømo, T., The Journal of Physiology, 1973",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1350458/"
+ },
+ "carte": {
+  "punch": "The line about memory that people attribute to Hebb is not Hebb's.",
+  "idee": "In 1949, Hebb supposes that a connection between two neurons grows stronger with use. It takes until 1973 for Bliss and Lømo to provide the first proof, in the rabbit. The phrase “cells that fire together wire together” comes from Carla Shatz, in 1992, not from Hebb.",
+  "source_courte": "Bliss & Lømo, 1973 · Shatz, Scientific American, 1992"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "The discovery of long-term potentiation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12740104/",
+   "note": "Terje Lømo's own account of the discovery, in 2003."
+  }
+ ],
+ "quiz": {
+  "question": "What did Bliss and Lømo's experiment (1973) provide that Hebb's hypothesis (1949) did not?",
+  "choix": [
+   "Proof that memory resides only in the hippocampus",
+   "The first physiological demonstration that a repeatedly stimulated synapse remains strengthened",
+   "The phrase “cells that fire together wire together”",
+   "Proof that memories fade after ten hours"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Hebb had formulated only a theoretical hypothesis in 1949. Bliss and Lømo verified it experimentally twenty-four years later: in the rabbit, repeated stimulation durably strengthens synaptic transmission. The short phrase associated with Hebb, for its part, was coined by Carla Shatz in 1992, not by Hebb himself.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who formulated the phrase “cells that fire together wire together,” commonly attributed to Hebb?",
+   "choix": [
+    "Donald Hebb himself, in his 1949 book",
+    "Carla Shatz, in a 1992 article",
+    "Terje Lømo, in his doctoral thesis",
+    "Tim Bliss, in the 1973 article"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The phrase comes from Carla Shatz, who first used it in talks before publishing it in 1992 in Scientific American, never from Hebb."
+  },
+  {
+   "question": "Where, and in what animal, does Terje Lømo make the initial observation behind the discovery in 1966?",
+   "choix": [
+    "In Per Andersen's laboratory in Oslo, in anesthetized rabbits",
+    "In a Harvard laboratory, in laboratory mice",
+    "In Donald Hebb's laboratory in Montreal, in cats",
+    "In a Stanford laboratory, in macaque monkeys"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In 1966, Lømo works as a young doctoral student in Per Andersen's laboratory in Oslo, where he stimulates the perforant path in anesthetized rabbits."
+  },
+  {
+   "question": "Why does Lømo's 1966 observation go nowhere for two years?",
+   "choix": [
+    "It was judged impossible to reproduce by other researchers",
+    "The Oslo laboratory closed for lack of funding",
+    "Lømo, absorbed in writing his thesis, set it aside",
+    "Andersen forbade publication of the result"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The observation is noted and published as an abstract, but Lømo, then absorbed in writing his thesis, sets it aside until Bliss arrives in 1968."
+  }
+ ]
+}

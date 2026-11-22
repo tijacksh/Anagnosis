@@ -1,0 +1,78 @@
+{
+ "id": "neu-portillon-melzack-wall-1965",
+ "slug": "portillon-melzack-wall-1965",
+ "langue": "en",
+ "empreinte_fr": "49385a846acff5d2",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Pain Gate: An Inexact Circuit, an Idea That Remains",
+ "accroche": "In 1965, Melzack and Wall propose a circuit that experiments have since corrected. The idea it carried, that the spinal cord modulates pain, has held up.",
+ "contenu_vulgarise": "After shingles, some patients suffer atrociously at the slightest touch of the affected area. In the late 1950s, Noordenbos observes that the nerves of these regions have lost some of their large fibers. He draws an idea from it: large fibers ordinarily hold back the effect of small ones, and when they are missing, the balance tips toward pain.\n\n## A Circuit for an Idea\n\nIn 1965, this balance becomes the centerpiece of a theory. In “Pain mechanisms: a new theory,” published in Science on November 19, 1965, Ronald Melzack, trained under Donald Hebb at McGill, and Patrick Wall, who runs a spinal cord physiology laboratory, collaborating since the early 1960s at MIT, oppose the view inherited from von Frey: one pain receptor, one pain pathway, one pain sensation. They argue that pain results from a computation performed by the central nervous system on the full set of incoming impulses.\n\nTheir diagram places a gate in the dorsal horn of the spinal cord, at the level of the substantia gelatinosa. Large fibers tend to close it, small ones to open it. The cells that transmit the message to the brain fire strongly only if the balance tips toward the small fibers, and descending commands from the brain can also bias the gate.\n\n## A Test as Early as 1967\n\nThe diagram contains a prediction that can be checked: stimulating only the large fibers should close the gate and reduce pain. Wall tests it with Sweet on eight patients suffering from intense chronic skin pain, and publishes the result in Science in January 1967. During electrical stimulation of the sensory nerves, pressure on previously tender areas no longer causes pain. In four patients whose peripheral nerves are diseased, the relief lasts more than half an hour after two minutes of stimulation. In the other four, according to Mendell's 2014 review of the work, the pain returns within five to ten minutes. Mendell links this protocol to transcutaneous electrical stimulation, TENS.\n\n## What Came Next Corrected\n\nThe circuit itself did not hold up. In that 2014 review, Mendell, who had published with Wall on fine fibers, writes that the model is not correct in detail. One of its starting points, that small fibers alone are always painful, was abandoned by Wall himself: in Friedreich's ataxia or the polyneuropathy of kidney failure, large fibers degenerate without the sensation being painful. The 1965 diagram showed presynaptic inhibition, but its authors noted that it could be postsynaptic, which a recent reference textbook (Basbaum and Jessell) now draws. Finally, Melzack and Wall saw in high-threshold fibers only the extreme of a continuous distribution, whereas fibers and cells selectively sensitive to intense stimulation have since been discovered.\n\nWhat remains goes beyond the diagram. Pain is not a direct line from the skin to the brain: the input is sorted in the spinal cord, and the brain can adjust that sorting. Mendell notes that these ideas and the experiments they prompted transformed the understanding of pain mechanisms, and that they extended to other systems, such as the rostroventral medulla neurons that act like an opioid-dependent gate. Wall would himself be a pioneer in the study of spinal cord plasticity, which can, after an injury or inflammation, amplify the painful input.",
+ "citation": null,
+ "repere": {
+  "texte": "Eight patients suffering from intense chronic skin pain: pulses of 0.1 millisecond at 100 per second applied to the sensory nerves or the roots of the painful area, voltage raised up to tingling sensations. During the stimulation, pressure on tender areas no longer causes pain. Four patients with a peripheral nerve disease are relieved for more than half an hour after two minutes of stimulation.",
+  "source": "Summary of Wall & Sweet, “Temporary abolition of pain in man,” Science, 1967, vol. 155, no. 3758, pp. 108-109",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/6015561/"
+ },
+ "carte": {
+  "punch": "A theory of pain with an inexact circuit nonetheless opened the way to new treatments.",
+  "idee": "In 1965, Melzack and Wall propose that a gate in the spinal cord modulates pain according to the balance between large and small fibers. The circuit proved inexact in detail. Stimulating the large fibers nonetheless relieves patients (Wall and Sweet, 1967).",
+  "source_courte": "Melzack and Wall, Science, 1965; Mendell, 2014"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Moayedi and Davis, Theories of pain: from specificity to gate control, Journal of Neurophysiology, 2013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23034364/",
+   "note": "A historical overview of theories of pain, from Antiquity to gate control theory."
+  }
+ ],
+ "quiz": {
+  "question": "What does the 1965 diagram predict for stimulation of the large fibers alone?",
+  "choix": [
+   "It opens the gate and worsens the pain transmitted to the brain",
+   "It has no effect, the gate being controlled only by signals from the brain",
+   "It activates the small fibers, which permanently abolish pain in the spinal cord",
+   "It closes the gate and reduces the pain transmitted to the brain"
+  ],
+  "bonne_reponse": 3,
+  "explication": "In the 1965 diagram, large fibers tend to close the gate: stimulating them alone should therefore reduce pain, which Wall and Sweet observe in 1967 in patients. It is the small fibers that tend to open it, and descending commands from the brain modulate the gate without controlling it alone.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the 1965 diagram place the gate that modulates pain?",
+   "choix": [
+    "In the primary somatosensory cortex, at the level of the ocular dominance columns",
+    "In the dorsal horn of the spinal cord, at the level of the substantia gelatinosa",
+    "In the thalamus, at the level of the ventral posterolateral nucleus",
+    "In the dorsal root ganglion, before the fibers enter the spinal cord"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Melzack and Wall place the gate in the dorsal horn of the spinal cord, at the level of the substantia gelatinosa, where large fibers tend to close it and small ones to open it."
+  },
+  {
+   "question": "What observation leads Wall himself to abandon the premise that small fibers alone are always painful?",
+   "choix": [
+    "In Friedreich's ataxia or the polyneuropathy of kidney failure, large fibers degenerate without pain",
+    "In the eight patients of the 1967 trial, electrical stimulation causes immediate pain",
+    "Imaging shows that small fibers do not exist in the dorsal horn of the spinal cord",
+    "Noordenbos observes that missing large fibers always restore chronic pain"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Wall himself abandons this premise on observing that, in Friedreich's ataxia or the polyneuropathy of kidney failure, large fibers degenerate without the sensation becoming painful."
+  },
+  {
+   "question": "According to Mendell, to what other systems has the gate principle extended?",
+   "choix": [
+    "To the rostroventral medulla neurons that act as an opioid-dependent gate",
+    "To the cells of the retina that filter light before the optic nerve",
+    "To the slow muscle fibers that regulate the force of contraction",
+    "To the hair cells of the inner ear that turn sound into nerve impulses"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Mendell notes that the gate principle has extended to other systems, such as the rostroventral medulla neurons that act like an opioid-dependent gate; nothing of the kind is said for the retina, the muscles, or the inner ear."
+  }
+ ]
+}
