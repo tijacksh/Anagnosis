@@ -1,0 +1,78 @@
+{
+ "id": "mat-probleme-de-monty-hall",
+ "slug": "probleme-de-monty-hall",
+ "langue": "en",
+ "empreinte_fr": "4cb79c2186959e1d",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Three Doors, One Car, and Thousands of Letters of Protest",
+ "accroche": "Switching doors doubles your chances of winning. Academics wrote in to say the opposite",
+ "contenu_vulgarise": "September 1990. Marilyn vos Savant writes a column in the American weekly *Parade*. A reader sends her a situation inspired by a television game show.\n\nThree doors. Behind one, a car; behind the other two, a goat. You point to one. The host, who knows where the car is, then opens one of the two remaining doors and shows a goat. He offers you the chance to change your mind. Should you switch?\n\nShe answers that you should switch, and that the probability of winning goes from one third to two thirds.\n\nThe column receives thousands of letters of protest, many of them signed by academics. The consensus among the correspondents is clear: the two remaining doors are equal, a fifty-fifty chance, and switching is pointless.\n\n## Why the Two Doors Are Not Equal\n\nThe mistake is to believe that the host has provided information about your door. He has provided none.\n\nAt the moment of the initial choice, you had a one-in-three chance of aiming right. That probability no longer moves, because nothing that follows depends on your door: the host will open a goat door no matter what.\n\nThe remaining two chances in three were spread across the other two doors. The host eliminates one, not at random, but knowingly, systematically avoiding the car. All of that probability shifts onto the door he left closed.\n\nA variant makes the matter clearer. Take a hundred doors, one car, and a host who, after your choice, opens ninety-eight goat doors. Two remain: yours, chosen from a hundred, and the single door the host carefully spared. Few people still hesitate.\n\n## The Real Trap Is in the Statement\n\nWhat makes Monty Hall a textbook case is not the calculation, which takes three lines. It is that it depends entirely on an assumption that the usual statement does not spell out.\n\nSuppose a host who opens a door at random from the two remaining, and happens by luck to land on a goat. The reasoning collapses: in that case, the two remaining doors are indeed each worth a fifty-fifty chance, and switching gains nothing.\n\nSame apparent statement, same open door, same goat, and two different answers, depending on a rule of behavior of the host that the reader was never told.\n\nThis is the shift the problem brings about, and it has outlasted the controversy. A probability is never attached to the visible configuration alone: it depends on the process that produced what we observe. The question \"what is the probability?\" remains incomplete until we have described what the observation would have shown in the other cases.\n\nThe problem was in circulation well before 1990, in fact. Steve Selvin had posed it as early as 1975 in a letter to *The American Statistician*, with boxes rather than doors, and already the same answer.",
+ "citation": null,
+ "repere": {
+  "texte": "Steve Selvin poses the problem as early as 1975 in a letter to The American Statistician: three boxes labeled A, B, and C, one of which contains the keys to a car. The answer, switch, is already there.",
+  "source": "Selvin, “A Problem in Probability,” The American Statistician, 29, 1975",
+  "url": "https://philpapers.org/rec/SELAPI-2"
+ },
+ "carte": {
+  "punch": "Switching doors doubles your chances. Thousands of readers wrote in to say the opposite.",
+  "idee": "Three doors, one car. You choose, the host, who knows where it is, opens a goat door and offers you the chance to switch. You should switch: your door is still worth one third, the other is now worth two thirds.",
+  "source_courte": "Selvin, American Statistician, 1975"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Utah State University — The Monty Hall Problem",
+   "url": "https://www.usu.edu/math/schneit/StatsHistory/ProbabilityPrompts/MontyHall",
+   "note": "In English; revisits the 1990 controversy and the mail received."
+  }
+ ],
+ "quiz": {
+  "question": "Why does switching doors double the chances of winning?",
+  "choix": [
+   "Because the number of closed doors has decreased, which improves the draw",
+   "Because the host avoids the car, which concentrates the two thirds on the door he leaves",
+   "Because the car was placed before your choice and does not move afterward",
+   "Because a first choice made at random is less reliable than a second, better-informed one"
+  ],
+  "bonne_reponse": 1,
+  "explication": "It all comes down to the fact that the host knows where the car is and deliberately avoids it: his opening teaches nothing about your door, which stays at one third, and shifts the remaining two thirds onto the single door he spared. If he opened at random and happened by luck to land on a goat, the two doors would each be worth a fifty-fifty chance and switching would gain nothing.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How did the consensus of the readers who wrote to Marilyn vos Savant sum up her supposed mistake?",
+   "choix": [
+    "The two remaining doors are equal, a fifty-fifty chance, and switching is pointless",
+    "She should have reopened the initially chosen door before deciding",
+    "The probability of winning drops to zero as soon as the host opens a door",
+    "She should have ignored the host and recounted only the closed doors"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The consensus of the correspondents, many of them academics, was clear: the two remaining doors are equal, a fifty-fifty chance each, and switching is pointless. This is precisely the reasoning that this entry shows to be wrong."
+  },
+  {
+   "question": "What happens if the host opens a door at random from the two remaining, and happens by luck to land on a goat?",
+   "choix": [
+    "The reasoning collapses, the two remaining doors are indeed each worth a fifty-fifty chance",
+    "Nothing changes, switching doors remains twice as advantageous",
+    "The probability of winning by switching drops to only one third",
+    "It becomes impossible to calculate a probability in that case"
+   ],
+   "bonne_reponse": 0,
+   "explication": "If the host opens at random and happens by luck to land on a goat, he did not use his knowledge of the car's location to systematically avoid revealing it. In that case, the two remaining doors are indeed each worth a fifty-fifty chance, and switching gains nothing."
+  },
+  {
+   "question": "Who had already posed an equivalent problem, with boxes rather than doors, fifteen years before the 1990 controversy?",
+   "choix": [
+    "Steve Selvin, in 1975",
+    "Marilyn vos Savant, in 1975",
+    "A host of the game show Let's Make a Deal",
+    "A group of academics who wrote to Parade"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The problem was in circulation well before 1990: Steve Selvin had posed it as early as 1975 in a letter to The American Statistician, with boxes rather than doors, and already gave the same answer, switch."
+  }
+ ]
+}

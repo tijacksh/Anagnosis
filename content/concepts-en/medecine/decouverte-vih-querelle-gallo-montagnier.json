@@ -1,0 +1,82 @@
+{
+ "id": "med-decouverte-vih-querelle-gallo-montagnier",
+ "slug": "decouverte-vih-querelle-gallo-montagnier",
+ "langue": "en",
+ "empreinte_fr": "94a70671c72cd0ec",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-traduite",
+   "note": "Gallo wrote in English (Retrovirology, 2006), but the English wording was not retrieved; this is a translation of the French text, which itself may paraphrase the original (original not retrieved)."
+  }
+ ],
+ "titre": "The Patent That Settled Who Discovered AIDS",
+ "accroche": "In 1987, an agreement between Paris and Washington shares the credit for discovering the AIDS virus, after a patent dispute.",
+ "contenu_vulgarise": "In May 1984, Robert Gallo, of the American National Cancer Institute, publishes in *Science* four papers presenting a retrovirus, named HTLV-III, as the cause of AIDS, along with a blood test to detect antibodies. The problem: a year earlier, the Pasteur Institute in Paris had published the isolation of a retrovirus that would prove to be the same one. The test turns this question of priority into a matter of money: the dispute is not settled in a laboratory, but around a patent, then between governments.\n\n## Two Publications, a Year Apart\n\nOn May 20, 1983, Françoise Barré-Sinoussi, Jean-Claude Chermann, Luc Montagnier, and their colleagues publish in *Science* the isolation of a retrovirus taken from a patient at risk of AIDS, which they name LAV, for lymphadenopathy-associated virus. The paper remains cautious: it concludes that this virus and its relatives may be involved in several syndromes, including AIDS, without deciding. In May 1984, Gallo in turn publishes four papers in *Science*. He names his isolate HTLV-III, identifies it as the cause of AIDS, and describes a test to detect antibodies in the blood.\n\nIt is this test, much more than the scientific publication, that carries the financial stakes of the affair: patents, and royalties to be shared. The American patent on the test is granted on May 28, 1985, to the U.S. Department of Health. The Pasteur Institute challenges it in court on December 12 of the same year.\n\n## A Virus, a Patent, an Agreement\n\nThe dispute is not cleared up by scientific expertise, but by diplomacy. In 1987, the American and French governments reach an agreement: Gallo and Montagnier are named co-discoverers of the virus, and the two countries split the proceeds of the blood test patent equally. The agreement settles a dispute over industrial property. It does not settle the question of who actually isolated the virus first.\n\nPart of an answer will come later, from Gallo's own mouth. In 2006, in the journal *Retrovirology*, he writes that one of his cultures had turned out to be contaminated by a virus sent by Luc Montagnier. His team at first refused to believe it, because the Paris strain showed other characteristics in culture. But Montagnier had, without knowing it, sent a very different strain, which grows well in cell lines, and which had contaminated his own LAV culture before contaminating Gallo's.\n\nIn 2008, the Nobel Prize in Physiology or Medicine rewards Barré-Sinoussi and Montagnier for the discovery of the human immunodeficiency virus. Gallo is not among them. The Nobel committee's archives remain sealed until 2058: the precise reason for this exclusion is, to this day, known only to the committee itself.\n\nWhat this affair shifts is the idea of a scientific discovery that would impose itself, by the sheer force of proof. Isolating a virus was not enough to be recognized as its author: it took a patent, a lawsuit, and a state agreement to decide, officially, to share the paternity of the discovery.",
+ "citation": {
+  "texte": "Montagnier had, without knowing it, sent a very different HIV strain, which grows well in cell lines.",
+  "auteur": "Robert C. Gallo",
+  "source": "“A reflection on HIV/AIDS research after 25 years,” Retrovirology, vol. 3, art. 72, 2006",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1629027/"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "In 2006, Gallo acknowledges that one of his cultures had been contaminated by a virus sent from Paris.",
+  "idee": "In 1987, an agreement between the American and French governments names Gallo and Montagnier co-discoverers of the AIDS virus and splits the proceeds of the test patent. In 2006, Gallo writes that one of his cultures had been contaminated, unbeknownst to him, by a virus from Paris.",
+  "source_courte": "Gallo, Retrovirology, 2006"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why does the 1987 agreement declare Gallo and Montagnier \"co-discoverers\" rather than decide who isolated the virus first?",
+  "choix": [
+   "Because independent genetic analyses had already confirmed a strictly simultaneous discovery",
+   "Because it settles a patent dispute between two governments, not a scientific question, and avoids having to decide",
+   "Because Montagnier had given up any claim to the discovery in exchange for financial compensation",
+   "Because the Nobel committee had already announced that it would split its prize between the two teams"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The 1987 agreement settles a dispute over the patent on a blood test and shares the credit: it does not claim to establish who isolated the virus first. The other three propositions do not match the sources: no analysis had established a strictly simultaneous discovery, nothing indicates that Montagnier gave up his claim in exchange for compensation, and the Nobel was awarded only in 2008.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who publishes, on May 20, 1983, the first isolation of the virus designated LAV?",
+   "choix": [
+    "Robert Gallo, at the National Cancer Institute",
+    "Luc Montagnier, Françoise Barré-Sinoussi, and Jean-Claude Chermann, at the Pasteur Institute",
+    "Harald zur Hausen, at the University of Heidelberg",
+    "A joint Franco-American consortium created for the occasion"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The Pasteur Institute team publishes the isolation of LAV in Science on May 20, 1983, a year before Robert Gallo's four papers on HTLV-III.",
+   "statut": "valide"
+  },
+  {
+   "question": "What does Robert Gallo himself admit in 2006 about the sample used to isolate his HTLV-III virus?",
+   "choix": [
+    "That he had deliberately taken up the strain sent by Montagnier without saying so",
+    "That one of his cultures had been contaminated, without his knowing, by a virus sent by Montagnier's laboratory",
+    "That he had never received any sample from Paris",
+    "That his team had lost the original sample before any genetic analysis"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In his 2006 piece for Retrovirology, Gallo writes that one of his cultures was contaminated by a virus sent by Montagnier, unbeknownst to him: it is not a deliberate reuse of the strain.",
+   "statut": "valide"
+  },
+  {
+   "question": "What distinguishes the 2008 Nobel Prize in Medicine from the 1987 diplomatic agreement?",
+   "choix": [
+    "It rewards both teams equally, like the 1987 agreement",
+    "It honors only Barré-Sinoussi and Montagnier for the discovery of HIV, without Gallo",
+    "It is withdrawn shortly after being announced, because of the controversy over the contamination",
+    "It honors Gallo alone, as symbolic redress for the 1987 agreement"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Unlike the 1987 agreement, which assigned shared credit to settle a patent dispute, the 2008 Nobel rewards only Barré-Sinoussi and Montagnier; Gallo is excluded, with no official reason made public.",
+   "statut": "valide"
+  }
+ ]
+}

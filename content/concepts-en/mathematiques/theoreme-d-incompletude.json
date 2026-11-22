@@ -1,0 +1,78 @@
+{
+ "id": "mat-theoreme-d-incompletude",
+ "slug": "theoreme-d-incompletude",
+ "langue": "en",
+ "empreinte_fr": "e886d98bb2f2d675",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The True Statement No Proof Reaches",
+ "accroche": "Gödel, 1931: any system rich enough to contain arithmetic leaves truths out of reach",
+ "contenu_vulgarise": "In 1928, at the International Congress of Mathematicians in Bologna, David Hilbert lays out a program. He wants an axiomatic foundation for all of mathematics of which three things can be proved: that it never contradicts itself, that it makes it possible to settle every statement, and that a mechanical procedure decides, for any given statement, whether it is provable in that system.\n\nThree years later, a twenty-five-year-old Viennese logician publishes a paper that puts the first two goals out of reach.\n\n## The Idea of Coding\n\nKurt Gödel begins with a sleight of hand that is not one. He assigns to each symbol, each formula, and each sequence of formulas a number, an integer, computed mechanically and without ambiguity.\n\nThe point of this numbering is that it makes mathematics capable of speaking about itself. \"This formula is provable in this system\" becomes an arithmetic property of its number, that is, a statement about integers, of the same kind as \"this number is prime.\" The system, which already knew how to talk about arithmetic, begins to talk about its own proofs.\n\n## The Statement That Slips Away\n\nGödel then constructs a formula that, read through this coding, asserts: \"this statement is not provable in this system.\"\n\nLet us examine the two outcomes. If the statement were provable, the system would prove something false; it would contradict itself. If it is not, then what it asserts is correct: here is a true statement that the system does not prove.\n\nA consistent system, rich enough to contain arithmetic, therefore contains true statements that it cannot reach. Adding the recalcitrant statement to the axioms settles nothing: the procedure applies again to the new system, which in turn produces its own blind spot.\n\nThe second theorem, stated in the same paper, is harder still. The consistency of the system is itself an arithmetic statement, and it is among those that the system cannot prove. A system can establish its own non-contradiction only on condition of being already contradictory.\n\n## What the Theorem Does Not Say\n\nIncompleteness is probably the mathematical result most cited outside mathematics, and most often twisted. Three clarifications put a stop to the most common uses.\n\nIt does not say that mathematics is false, or fragile. It says that no formal system exhausts arithmetic truth, which is a claim about systems, not about numbers.\n\nIt does not apply to just any discourse. The theorem targets consistent formal systems, whose axioms can be enumerated mechanically, and which are expressive enough to contain arithmetic. A poorer theory can be complete, and some are.\n\nIt does not say that the human mind surpasses the machine. Gödel produces a statement unprovable in a given system, from that system; he provides no faculty that would escape this reasoning.\n\nWhat remains is what Hilbert was looking for, and what does not exist: a definitive foundation, able to guarantee itself.",
+ "citation": null,
+ "repere": {
+  "texte": "The paper appears in 1931 in the Monatshefte für Mathematik und Physik, volume 38, pp. 173-198. Its title announces a sequel, “I,” that Gödel never needed to write, the proof having been accepted at once.",
+  "source": "Gödel, “Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I,” Monatshefte für Mathematik und Physik, 38, 1931",
+  "url": "https://link.springer.com/article/10.1007/BF01700692"
+ },
+ "carte": {
+  "punch": "A consistent system rich enough for arithmetic cannot prove that it is consistent.",
+  "idee": "Gödel, 1931: any consistent formal system, with mechanically enumerable axioms and rich enough to contain arithmetic, contains true statements that it does not prove. Its own consistency is one of them: it can establish it only by being already contradictory.",
+  "source_courte": "Gödel, Monatshefte, 1931"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Gödel (1931) — Complete English Translation",
+   "url": "https://homepages.uc.edu/~martinj/History_of_Logic/Godel/Godel%20%E2%80%93%20On%20Formally%20Undecidable%20Propositions%20of%20Principia%20Mathematica%201931.pdf",
+   "note": "Technical, but the introduction lays out the idea of coding without formalism."
+  }
+ ],
+ "quiz": {
+  "question": "What does the first incompleteness theorem prove?",
+  "choix": [
+   "That a consistent system containing arithmetic leaves true statements out of its reach",
+   "That certain arithmetic operations give contradictory results",
+   "That there are mathematical statements with no truth value",
+   "That no mathematical proof can be checked mechanically"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The theorem concerns what a formal system can prove, not the truth of the statements themselves: Gödel's statement is true, it is simply out of the system's reach. Arithmetic does not become contradictory, and mechanical verification of a given proof remains possible, which is precisely what makes the coding work.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does Gödel numbering, this \"coding\" that assigns an integer to each formula, make possible?",
+   "choix": [
+    "Replacing mathematical symbols with drawings that are easier to remember",
+    "Making the system something that, once coded, can speak about its own proofs",
+    "Directly proving that arithmetic is inconsistent",
+    "Checking by computer the validity of any philosophical proof"
+   ],
+   "bonne_reponse": 1,
+   "explication": "By assigning an integer to each formula, Gödel turns a statement about the provability of a formula into an ordinary arithmetic statement, which allows the system to speak about itself."
+  },
+  {
+   "question": "What does the second incompleteness theorem, stated in the same 1931 paper, say?",
+   "choix": [
+    "That a system can establish its own non-contradiction only on condition of being already contradictory",
+    "That arithmetic contains more errors than was thought before 1931",
+    "That no computer will ever be able to check a mathematical proof",
+    "That mathematicians must give up the use of axioms"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The second theorem concerns consistency itself: it is an arithmetic statement that the system cannot prove, unless it is already contradictory."
+  },
+  {
+   "question": "What happens if Gödel's unprovable statement is added as a new axiom of the system?",
+   "choix": [
+    "The system becomes complete and has no blind spot left",
+    "The problem is settled for all systems except this one in particular",
+    "The same procedure applies to the augmented system and produces a new unprovable statement",
+    "The system immediately becomes contradictory and unusable"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Adding the recalcitrant statement to the axioms settles nothing: the procedure applies again to the new system, which in turn produces its own blind spot."
+  }
+ ]
+}

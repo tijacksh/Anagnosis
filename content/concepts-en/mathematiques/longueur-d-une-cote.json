@@ -1,0 +1,83 @@
+{
+ "id": "mat-longueur-d-une-cote",
+ "slug": "longueur-d-une-cote",
+ "langue": "en",
+ "empreinte_fr": "edf22be50491e817",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Coast That Grows When You Measure It Better",
+ "accroche": "Portugal reports 987 km of border with Spain. Spain reports 1,214. Neither is wrong",
+ "contenu_vulgarise": "Portugal reports 987 kilometers of shared border with Spain. Spain reports 1,214. Both countries are talking about the same line, and the gap reaches 23%.\n\nThis is neither a diplomatic quarrel nor a surveying error. It is the first symptom of a measurement problem that Lewis Fry Richardson identified while compiling statistics on conflicts between neighboring countries.\n\n## The Instrument Makes the Result\n\nMeasuring a coast means choosing a unit, a pair of dividers set at a fixed opening, which you step along the coastline.\n\nWith an opening of one hundred kilometers, the dividers jump over bays and capes. With an opening of ten kilometers, they enter the bays and follow their curves: the length increases. With one meter, they trace the coves, the rocks, the crevices. With one centimeter, the pebbles.\n\nEach time the unit shrinks, the measured length grows. And it does not converge toward any limiting value, unlike a circle, whose inscribed polygons have perimeters that steadily approach 2πr.\n\nA coast therefore has no length in the ordinary sense. The question \"how long is it?\" remains ill-posed until you say with what.\n\n## What Stays Stable\n\nRichardson observes that the growth is not arbitrary: when the measured length and the size of the unit are plotted on logarithmic scales, the points line up. The slope of that line is a constant specific to each shoreline.\n\nIn 1967, Benoit Mandelbrot takes up these data and reads the slope differently. The coast, he says, is being measured with the wrong dimension. An exponent *D*, drawn directly from Richardson's slope, behaves like a dimension, except that it is not a whole number.\n\nThe west coast of Great Britain gives D ≈ 1.25. That of South Africa, much smoother, gives D ≈ 1.02, very close to an ordinary line. This number measures a roughness, and it does not depend on the unit chosen. Eight years later, Mandelbrot will propose a name for objects that behave this way: fractals.\n\n## What the Case Shifts\n\nThe matter does not concern only geographers. It reaches an idea that seemed self-evident: that a physical quantity exists before its measurement, and that the instrument merely reveals it with more or less precision.\n\nHere, the instrument does not reveal, it co-produces. Length is a property of the pair formed by the coast and the ruler. Improving the precision makes the result diverge.\n\nThe same effect reappears wherever a quantity is defined on an irregular object: the unfolded surface of a lung, the length of the blood network, the perimeter of a cloud. In each case, the right question is \"at what scale.\"",
+ "citation": null,
+ "repere": {
+  "texte": "Portugal gives 987 km for its border with Spain, Spain 1,214 km: a 23% gap on the same line, for lack of a common unit of measurement.",
+  "source": "Richardson, “Fractals,” in The Collected Papers of Lewis Fry Richardson, vol. 1, Cambridge University Press, 1993, pp. 45-46 (cited by Wikipedia, article “Coastline paradox”)",
+  "url": "https://en.wikipedia.org/wiki/Coastline_paradox"
+ },
+ "carte": {
+  "punch": "Lisbon and Madrid do not agree on the length of their shared border.",
+  "idee": "987 km according to Portugal, 1,214 according to Spain. Neither is wrong: the shorter the unit of measurement, the longer a coastline becomes, without ever converging. Mandelbrot would draw from this, in 1967, the notion of fractal dimension.",
+  "source_courte": "Richardson 1993; Mandelbrot 1967"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Mandelbrot (1967) — How Long Is the Coast of Britain?",
+   "url": "https://web.archive.org/web/20240104183158/https://users.math.yale.edu/~bbm3/web_pdfs/howLongIsTheCoastOfBritain.pdf",
+   "note": "In English, three pages, put online by Mandelbrot himself. Gives the D values, not the lengths in kilometers."
+  },
+  {
+   "titre": "Coastline paradox — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coastline_paradox",
+   "note": "In English. Details the origin of the 987 km / 1,214 km figures in Richardson (1993)."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the length of a coast increase when the measurement is refined?",
+  "choix": [
+   "Because old maps systematically underestimated distances",
+   "Because tides shift the coastline during the operation",
+   "Because measurement errors accumulate and inflate the total",
+   "Because a shorter unit follows details that the previous one stepped over"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Each reduction of the unit brings into the count bays, coves, and then rocks that the previous unit skipped, and the process does not stop, so the length diverges instead of converging. The measurement is exact at every scale; it is length that is not a property of the coast alone.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What is the gap between the shared border length reported by Portugal and the one reported by Spain?",
+   "choix": [
+    "500 km versus 620 km, a 24% gap",
+    "987 km versus 1,214 km, a 23% gap",
+    "987 km versus 1,214 km, a 5% gap",
+    "1,214 km versus 987 km, a gap judged impossible to explain"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Portugal reports 987 kilometers of shared border with Spain, Spain reports 1,214: both countries are talking about the same line, and the gap reaches 23%."
+  },
+  {
+   "question": "What does the exponent D that Mandelbrot introduced in 1967 from Richardson's data represent?",
+   "choix": [
+    "The exact length of the coast, expressed in a new unit",
+    "The number of years needed to measure a coast precisely",
+    "The proportion of the coast covered by rocks rather than sand",
+    "A roughness of the shoreline, independent of the unit of measurement chosen"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Mandelbrot reads Richardson's slope as an exponent D, which behaves like a dimension without being a whole number. This number measures a roughness, and it does not depend on the unit chosen."
+  },
+  {
+   "question": "Why does measuring the perimeter of a circle not pose the same problem as measuring a coast, according to this entry?",
+   "choix": [
+    "Because a circle has, by definition, no irregularity at any scale",
+    "Because the perimeter of a circle does not depend on its radius",
+    "Because the perimeters of inscribed polygons converge steadily toward a limiting value, 2πr",
+    "Because no instrument can measure a circle precisely"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Unlike a coast, a circle has a length in the ordinary sense: the perimeters of inscribed polygons steadily approach a limiting value, 2πr, as the measurement is refined."
+  }
+ ]
+}

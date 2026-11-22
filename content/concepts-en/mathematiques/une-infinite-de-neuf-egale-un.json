@@ -1,0 +1,67 @@
+{
+ "id": "mat-une-infinite-de-neuf-egale-un",
+ "slug": "une-infinite-de-neuf-egale-un",
+ "langue": "en",
+ "empreinte_fr": "fd075530c8e879ee",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Not “Almost 1”: 0.999… Is 1",
+ "accroche": "0.999… does not approach 1, does not tend toward 1: it is another way of writing the same number",
+ "contenu_vulgarise": "Ask someone whether 0.999… (a 9 after the decimal point, then another, to infinity) is equal to 1, and the most frequent answer is no: \"it is very close, but something is always missing.\" The intuition is solid, even natural, and it is wrong. 0.999… is not close to 1. It is 1, written another way.\n\n## The Calculation That Leaves No Escape\n\nLet x = 0.999…. Multiply both sides by 10: 10x = 9.999…. Subtract x from the left side and 0.999… from the right side: this is legitimate, since they are the same two numbers: 10x − x = 9.999… − 0.999…. On the left, 9x remains. On the right, all the decimals after the decimal point cancel exactly, since there is the same infinite number of them on both sides: 9 remains. So 9x = 9, so x = 1.\n\nThe calculation rarely convinces on the spot, because it relies on manipulating an infinite sum without ever saying so. The rigorous version does so explicitly: 0.999… is the sum of the series 9/10 + 9/100 + 9/1000 + …, a geometric progression with ratio 1/10. Its sum, by the standard formula, is (9/10) / (1 − 1/10) = 1. This is not an approximation of the sum: it is its exact value, in the precise sense that mathematicians give to \"sum of infinitely many terms\" since Augustin-Louis Cauchy defined, in 1821 in his *Cours d'analyse* (Course of Analysis), the sum of a series as the limit toward which the sequence of its partial sums tends.\n\n## Why the Gap Refuses to Exist\n\nThe resistance to the idea comes from an image: two different numbers, however close, should be separated by a tiny interval. Except that if 0.999… and 1 were two distinct real numbers, their difference would be a positive number, call it d, strictly smaller than 0.1, than 0.01, than 0.001, and so on indefinitely: smaller than any positive number one can write. No positive real has this property. The real line simply does not contain room for such a gap: this is what mathematicians call the Archimedean property, satisfied by construction since the rigorous definitions of the real numbers given independently by Richard Dedekind and Georg Cantor in 1872.\n\nWhat makes the story more interesting still is that the intuition of an infinitesimal gap is not absurd in itself: it simply describes a different number system from the reals. In 1961, Abraham Robinson constructs non-standard analysis, a framework in which infinitesimal quantities exist, smaller than any positive real but nonzero. In that system, one can indeed write a number infinitely close to 1 without being equal to it. But that number is no longer 0.999… with infinitely many 9s: it would require a final 9 at a position that is itself no longer an ordinary integer. The intuition was therefore not wrong in the absolute: it described a real mathematical territory, just not the one where the string of 9s before our eyes lives.",
+ "citation": null,
+ "repere": {
+  "texte": "In 1821, in chapter VI of his Cours d'analyse, Cauchy defines the sum of a convergent series as the limit toward which the sequence of its partial sums tends: the definition that makes 0.999… equal to 1 by construction, and not by approximation.",
+  "source": "Cauchy, Cours d'analyse de l'École royale polytechnique, 1re partie : Analyse algébrique, 1821",
+  "url": "https://archive.org/details/coursdanalysedel00cauc"
+ },
+ "carte": {
+  "punch": "0.999… is not close to 1. It is 1, written with infinitely many 9s.",
+  "idee": "If 0.999… and 1 were two different numbers, their gap would be smaller than 0.1, than 0.01, than any imaginable positive number, hence zero. The rigor comes from Cauchy in 1821: the sum of an infinite series is the limit of its partial sums, not an approximation of it.",
+  "source_courte": "Cauchy, Cours d'analyse, 1821"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "0.999... — History and Complete Proofs",
+   "url": "https://en.wikipedia.org/wiki/0.999...",
+   "note": "Covers the algebraic proofs, the proof by series, and the context of non-standard analysis."
+  }
+ ],
+ "quiz": {
+  "question": "Why is 0.999… (infinitely many 9s) exactly equal to 1, and not merely very close?",
+  "choix": [
+   "Because infinitely many identical decimals are always rounded up to the next number",
+   "Because a gap between the two would have to be smaller than any positive number, which does not exist among the reals",
+   "Because calculators display 1 as soon as there are too many 9s in a row",
+   "Because 0.999… is not a real number, only a way of writing a limit"
+  ],
+  "bonne_reponse": 1,
+  "explication": "This is not a rounding convention or a display limit: if 0.999… and 1 were distinct, their difference would be a positive number smaller than 0.1, 0.01, 0.001… indefinitely, which no positive real number can be. 0.999… is a perfectly legitimate real number, simply equal to 1.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does Cauchy define, in 1821, the sum of an infinite series?",
+   "choix": [
+    "As the largest of the partial sums that can be computed",
+    "As the limit toward which the sequence of partial sums tends",
+    "As an approximation that gets closer without ever reaching an exact value",
+    "As the average of all the terms of the series"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Cauchy defines the sum of a convergent series as the limit of the sequence of its partial sums. It is this definition, and not a rounding convention, that makes the sum 9/10 + 9/100 + 9/1000 + … exactly equal to 1."
+  },
+  {
+   "question": "What does Abraham Robinson's non-standard analysis (1961) change in this story?",
+   "choix": [
+    "It proves that 0.999… was actually less than 1 all along",
+    "It constructs a number system in which infinitesimal gaps exist, nonzero but smaller than any positive real",
+    "It replaces the theory of reals of Dedekind and Cantor, judged wrong",
+    "It proves that the notation 0.999… has no precise mathematical meaning"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Robinson constructs a framework, distinct from the usual real numbers, in which nonzero infinitesimal quantities exist. The intuition of a tiny gap finds a real meaning there, but in that system, it is no longer the sequence 0.999… with an ordinary infinity of 9s that carries this gap."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "med-echographie-doppler",
+ "slug": "echographie-doppler",
+ "langue": "en",
+ "empreinte_fr": "514056fd7a90e037",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Listening to Blood Flow",
+ "accroche": "The first medical Doppler device did not look at blood: it listened to a heart muscle move",
+ "contenu_vulgarise": "There is one thing an ordinary ultrasound image does not show: movement. It gives shapes, densities, outlines. It does not say whether blood is flowing, in which direction, or how fast.\n\nThis is exactly what the Doppler effect makes it possible to recover.\n\n## The Principle\n\nThe probe sends a beam of ultrasound into the tissues. Most of it is reflected off motionless structures and returns at the starting frequency. But red blood cells, for their part, are moving: the wave they send back returns shifted, upward if they are approaching the probe, downward if they are moving away from it.\n\nThe device compares the transmitted frequency and the received frequency. The difference gives a speed, its sign gives a direction. The rough, pulsing sound heard during an exam is precisely this difference in frequencies, brought back into the audible range.\n\n## A Discovery That Did Not Begin with Blood\n\nThe story is often told backward. Shigeo Satomura, at Osaka University, publishes his first work in 1956 in Japanese, then in 1957 in English. His target is not blood circulation: it is the movements of the heart muscle itself. The very first medical Doppler device is therefore, technically, a tissue Doppler device.\n\nBlood comes next. In 1959, Satomura publishes the study of flows in peripheral arteries and develops, with Ziro Kaneko, the first Doppler flowmeter, marketed the same year. He dies in 1960, the following year, without seeing what his principle would become.\n\n## What We Do with It Today\n\nColor Doppler overlays on the anatomical image a map of velocities: red for what is coming toward the probe, blue for what is moving away from it. These colors represent neither temperature, nor oxygenation, nor the nature of the vessel, only a direction of flow relative to the probe. The same artery changes color if the operator turns the probe around.\n\nThe rest follows: an arterial narrowing locally accelerates the flow, and the acceleration can be read directly; a leaking heart valve sends back a flow in the opposite direction; obstetric Doppler tracks the circulation in the umbilical cord.\n\nOne practical consequence often baffles patients. The measurement depends on the angle: a flow strictly perpendicular to the beam produces no shift and becomes invisible. Hence the awkward positions the operator imposes on the probe: he is not looking for the prettiest image, he is looking for the right angle.",
+ "citation": null,
+ "repere": {
+  "texte": "The first medical Doppler device, published in 1956, did not measure blood but the movements of the heart muscle. The first blood flow study dates from 1959.",
+  "source": "Cardiovascular Ultrasound, “Shigeo Satomura: 60 years of Doppler ultrasound in medicine,” 2015",
+  "url": "https://cardiovascularultrasound.biomedcentral.com/articles/10.1186/s12947-015-0042-3"
+ },
+ "carte": {
+  "punch": "The first medical Doppler device did not look at blood.",
+  "idee": "In 1956, Shigeo Satomura measured the movements of the heart muscle: the first blood flow study dates from 1959. And on a color ultrasound, red says nothing about oxygenation, only that the flow is coming toward the probe.",
+  "source_courte": "Cardiovascular Ultrasound, 2015"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Shigeo Satomura: 60 Years of Doppler in Medicine",
+   "url": "https://cardiovascularultrasound.biomedcentral.com/articles/10.1186/s12947-015-0042-3",
+   "note": "Open-access article, with a portrait of Satomura."
+  }
+ ],
+ "quiz": {
+  "question": "On a color Doppler ultrasound, what exactly does red mean?",
+  "choix": [
+   "That the blood flowing there is arterial, hence oxygenated",
+   "That the flow is approaching the probe, whatever its nature",
+   "That circulation is abnormally fast at that spot",
+   "That the temperature of the tissues passed through is higher there"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The color code conveys only a direction of flow relative to the probe, deduced from the sign of the Doppler shift. The same artery appears red or blue depending on the orientation of the probe. Neither oxygenation, nor the nature of the vessel, nor temperature comes into play.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did the very first medical Doppler device look at?",
+   "choix": [
+    "Blood flows in the peripheral arteries",
+    "The movements of the heart muscle itself",
+    "Circulation in the umbilical cord during pregnancy",
+    "Leaks observed at the level of the heart valves"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Satomura's device, published in 1956, was technically a tissue Doppler device: it measured the movement of the heart muscle. The study of flows in peripheral arteries and the first flowmeter date from 1959."
+  },
+  {
+   "question": "Why does a flow strictly perpendicular to the beam become invisible?",
+   "choix": [
+    "Because ultrasound does not pass through tissues in that direction",
+    "Because the device filters out echoes it judges too weak to be reliable",
+    "Because such a flow produces no frequency shift to measure",
+    "Because red blood cells slow down at the exact crossing of the beam"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Only a movement that brings the target closer to or farther from the probe shifts the frequency of the echo. This is why the operator imposes awkward positions on the probe: he is looking for the right angle, not the prettiest image."
+  },
+  {
+   "question": "What are the rough, pulsing sounds heard during the exam?",
+   "choix": [
+    "The mechanical noise of the probe sweeping the surface of the skin",
+    "The beating of the heart muscle picked up by a contact microphone",
+    "An alert signal emitted when the device detects a narrowing",
+    "The difference between transmitted and received frequency, brought into the audible range"
+   ],
+   "bonne_reponse": 3,
+   "explication": "What we hear is the difference between the transmitted frequency and the one sent back by red blood cells, transposed into the audible range. The difference gives a speed, its sign gives a direction of flow."
+  }
+ ]
+}

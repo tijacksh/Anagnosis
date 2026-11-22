@@ -1,0 +1,67 @@
+{
+ "id": "mat-perelman-refuse-le-prix",
+ "slug": "perelman-refuse-le-prix",
+ "langue": "en",
+ "empreinte_fr": "8d0a77bcb2dc5fe7",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "He Solves a Million-Dollar Problem and Turns Down the Money",
+ "accroche": "In 2010, Grigori Perelman becomes the first mathematician to refuse a million-dollar Millennium Prize",
+ "contenu_vulgarise": "Stretch a rubber band around a balloon: wherever you place it, you can always slide it and tighten it down to a point, without ever leaving the surface. Do the same around an inner tube: if the band passes through the central hole, it stays stuck, impossible to shrink to a point without leaving the surface. This difference alone is enough to tell a sphere from a torus, without measuring either curvature or distance.\n\nIn 1904, the French mathematician Henri Poincaré asks the same question one notch higher, for three-dimensional spaces rather than two-dimensional surfaces: if such a space is finite, without boundary, and every rubber band drawn in it can always be tightened down to a point, is that space necessarily equivalent to the three-dimensional sphere? Poincaré does not claim to know the answer; he merely poses the question, in the last supplement of a paper titled *Analysis situs*.\n\n## A Century of Attempts, Then a Method That Works\n\nThe conjecture resists for nearly a century, and attracts its share of false proofs, published and then refuted. In 1982, Richard Hamilton introduces a new tool, the Ricci flow, which gradually deforms a space to smooth out its curvature: somewhat as heat diffuses and evens out a temperature. The method works, but it runs into points where the space pinches in an instant until it collapses, singularities that Hamilton does not know how to get through.\n\nBetween November 2002 and July 2003, Grigori Perelman, a mathematician working alone in Saint Petersburg, posts three papers on arXiv, the open archive of preprints, without going through any peer-reviewed journal. In them he solves the problem of singularities with a technique he calls \"Ricci flow with surgery\": cut the space at the precise spot where it collapses, analyze each piece separately, then glue them back together. It then takes three years for several independent teams to verify, line by line, that the proof holds.\n\n## What He Does, Once the Proof Is Recognized\n\nIn 2006, the Poincaré conjecture is confirmed: every space of the type described is indeed a three-dimensional sphere. The journal *Science* names it the scientific discovery of the year. Perelman is offered the Fields Medal, the most prestigious distinction in mathematics, at the International Congress in Madrid on August 22, 2006. He refuses it, and does not attend the ceremony.\n\nIn March 2010, the Clay Mathematics Institute confirms that his proof meets the conditions for the Millennium Prize, worth one million dollars, one of the seven great unsolved problems of the turn of the century. Perelman refuses that too, without appearing at the prize ceremony in Paris. His reason fits in one sentence: he finds it unfair that the recognition is not shared with Richard Hamilton, whose Ricci flow remains the foundation without which his own method could never have existed. The refusal is therefore not about the value of the proof, but about a precise conviction: a mathematical proof is never the work of one person alone, and a reward that ignores this rewards poorly what it claims to honor.",
+ "citation": null,
+ "repere": {
+  "texte": "Perelman posts his three papers on arXiv between November 11, 2002 and July 2003. It then takes until 2006 for several independent teams to fully verify the proof, before the Clay Mathematics Institute confirms in 2010 that it meets the conditions for the million-dollar Millennium Prize, which Perelman refuses.",
+  "source": "Perelman, “The entropy formula for the Ricci flow and its geometric applications,” arXiv:math/0211159, November 11, 2002",
+  "url": "https://arxiv.org/abs/math/0211159"
+ },
+ "carte": {
+  "punch": "He solves a century-old problem and refuses the medal, then the million that goes with it.",
+  "idee": "In 2002-2003, Grigori Perelman publishes online, with no journal or committee, the proof of the Poincaré conjecture, open since 1904. In 2006 he refuses the Fields Medal; in 2010 the million dollars of the Millennium Prize, judging it unfair that Richard Hamilton, a pioneer of his method, goes unrewarded.",
+  "source_courte": "Perelman, arXiv, 2002-2003"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Poincaré Conjecture — Statement and History of the Proof",
+   "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+   "note": "Details Hamilton's program from 1982 on and the Ricci flow \"surgery\" technique used by Perelman."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Grigori Perelman refuse the million-dollar Millennium Prize in 2010?",
+  "choix": [
+   "He believes his proof still contains an unresolved flaw",
+   "He finds it unfair that Richard Hamilton, whose method underlies his own proof, is not rewarded too",
+   "He demands that the prize be paid directly to the university that employed him",
+   "He disputes the legitimacy of the Clay Mathematics Institute to award this kind of prize"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Perelman does not call into question his own proof or the institute that evaluates it: he refuses because he considers that a reward honoring him alone, without recognizing Richard Hamilton and the Ricci flow on which his entire method rests, rewards poorly a discovery that was never the work of a single mathematician.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What exactly does the conjecture posed by Henri Poincaré in 1904 ask?",
+   "choix": [
+    "Whether every finite three-dimensional space in which each loop tightens to a point is equivalent to the three-dimensional sphere",
+    "Whether all two-dimensional surfaces can be classified into a finite number of categories",
+    "Whether the universe necessarily has a spherical shape on a large scale",
+    "Whether two spaces of the same volume are always topologically equivalent"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Poincaré poses the question for three-dimensional spaces, finite and without boundary: if every loop drawn in such a space can always be tightened to a point, is that space necessarily a three-dimensional sphere? He does not claim to know the answer, he only formulates the question."
+  },
+  {
+   "question": "What obstacle did Richard Hamilton's program run into before Perelman stepped in?",
+   "choix": [
+    "A lack of computing power to simulate the Ricci flow",
+    "Singularities, points where the space collapses, that his method did not know how to get through",
+    "The absence of any concrete example to which to apply the Ricci flow",
+    "A disagreement with Poincaré over the exact statement of the conjecture"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Hamilton's Ricci flow gradually smooths the curvature of a space, but it runs into singularities where the space collapses in an instant. Perelman resolves this blockage with a \"surgery\" technique: cut the space at those precise points, analyze each piece, then glue them back together."
+  }
+ ]
+}

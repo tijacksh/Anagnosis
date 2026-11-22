@@ -1,0 +1,78 @@
+{
+ "id": "mat-theoreme-des-quatre-couleurs",
+ "slug": "theoreme-des-quatre-couleurs",
+ "langue": "en",
+ "empreinte_fr": "a775fe9cd554a56c",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The First Proof No One Could Reread",
+ "accroche": "In 1976, a computer settles a 124-year-old problem. The community splits over what a proof is",
+ "contenu_vulgarise": "In 1852, a London student named Francis Guthrie colors a map of the counties of England. He wants two neighboring counties never to receive the same color, and finds that four always suffice. He asks his brother whether this is chance. The question reaches the mathematician Augustus De Morgan, then circulates.\n\nIt looks like an exercise. It will resist for one hundred twenty-four years.\n\n## What Makes the Statement Tough\n\nChecking that a given map can be colored with four colors is easy. Proving that no map, among infinitely many possible maps, requires five is of another order.\n\nTwo false proofs were published and accepted; the one by Alfred Kempe, in 1879, held for eleven years before a flaw was found in it. Kempe's idea nonetheless survives his proof, and it structures everything that follows. The aim is to find an *unavoidable* set of configurations, that is, a catalog of patterns such that every map contains at least one of them; and then to show that each of these patterns is *reducible*: if it appears, we know how to reduce the problem to a smaller map.\n\nIf the catalog is finite, the proof closes by induction. The whole difficulty is building it.\n\n## A Month of Computation\n\nIn 1976, at the University of Illinois, Kenneth Appel and Wolfgang Haken succeed, with John Koch for the computing part. Their catalog has 1,482 configurations in its published version, and checking their reducibility takes more than a month of machine time.\n\nThe proof appears in two parts in the Illinois Journal of Mathematics the following year. It is correct. It is also unreadable: no mathematician can follow the enumeration of cases by hand.\n\n## What Became of the Idea of Proof\n\nThe community splits, and the disagreement is not about the result. It is about what we expect of a proof.\n\nA proof has never had the sole function of establishing that a statement is true. It also serves to make us understand *why* it is, and an enumeration of 1,482 cases explains nothing. The objection has remained intact: the theorem is established, understanding is still lacking.\n\nThe other objection, the one about reliability, received its answer in 2005. Georges Gonthier and Benjamin Werner rebuilt the entire proof in the Coq proof assistant, combinatorial part included, so that its correctness now rests only on a verification kernel of a few thousand lines.\n\nDoubt has thus changed its object rather than disappeared. We no longer trust a program that enumerates cases; we trust a program that checks proofs. Computer-assisted proofs have since become ordinary, and the question posed in 1976, is a proof that no human can walk through still a proof?, has never received a clear-cut answer.",
+ "citation": null,
+ "repere": {
+  "texte": "Appel and Haken's proof appears in two parts in the Illinois Journal of Mathematics in 1977; the computer verification had taken more than a month of machine time.",
+  "source": "Appel & Haken, “Every Planar Map is Four Colorable,” Illinois Journal of Mathematics, 21, 1977",
+  "url": "https://celebratio.org/Appel_KI/article/796/"
+ },
+ "carte": {
+  "punch": "A proof no mathematician can follow by hand: 1,482 cases checked by computer.",
+  "idee": "Four colors suffice to color any map without two neighbors looking alike. Appel and Haken proved it in 1976: a computer checked 1,482 configurations over more than a month of machine time. The proof is correct, but unreadable by hand.",
+  "source_courte": "Appel & Haken, 1977"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Gonthier (2008) — Formal Proof: The Four-Color Theorem",
+   "url": "https://www.ams.org/notices/200811/tx081101382p.pdf",
+   "note": "In English; the first pages tell the story without formalism."
+  }
+ ],
+ "quiz": {
+  "question": "Why was the 1976 proof contested?",
+  "choix": [
+   "Because it left out maps with enclaves",
+   "Because a calculation error was discovered in it a few years later",
+   "Because no human could check the enumeration of cases by hand",
+   "Because it only held for flat maps, and not on the surface of a sphere"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The contestation was not about the result, which has never been faulted, but about the status of a proof whose decisive part is beyond the reach of human reading, hence the double objection: reliability, and the absence of explanation. The 2005 formalization in Coq answered the first, not the second. The case of the sphere, for its part, is equivalent to that of the plane.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does it all begin, in 1852, with Francis Guthrie?",
+   "choix": [
+    "He is looking for a mathematical proof for a university competition",
+    "He colors a map of the counties of England and notices that four colors always suffice",
+    "He tries to prove a theorem already known in Euclidean geometry",
+    "He is working on a military mapmaking problem commissioned by the British army"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Guthrie colors a map of the counties of England, wanting two neighboring counties never to have the same color, and finds that four colors always suffice."
+  },
+  {
+   "question": "What is an \"unavoidable\" set of configurations, in the proof strategy inherited from Kempe?",
+   "choix": [
+    "A catalog of patterns such that every map necessarily contains at least one of them",
+    "A list of maps that no proof can ever solve",
+    "A set of colors that it is impossible to avoid using",
+    "A sequence of calculations that the computer cannot fully verify"
+   ],
+   "bonne_reponse": 0,
+   "explication": "An unavoidable set is a catalog of patterns such that every map contains at least one of them; one must then show that each of these patterns is reducible."
+  },
+  {
+   "question": "What did the reconstruction of the proof by Gonthier and Werner in the Coq proof assistant, in 2005, make it possible to establish?",
+   "choix": [
+    "Reducing the theorem to only three necessary colors instead of four",
+    "Entirely replacing computing with purely manual reasoning",
+    "Making the proof's reliability rest on a verification kernel of a few thousand lines",
+    "Demonstrating that Appel and Haken's proof actually contained an error"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The reconstruction in Coq makes the correctness of the proof rest on a verification kernel of a few thousand lines, answering the objection about reliability."
+  }
+ ]
+}

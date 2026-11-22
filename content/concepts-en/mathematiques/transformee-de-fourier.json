@@ -1,0 +1,78 @@
+{
+ "id": "mat-transformee-de-fourier",
+ "slug": "transformee-de-fourier",
+ "langue": "en",
+ "empreinte_fr": "340bafe28287664f",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Rejected Memoir That Powers JPEG and MRI",
+ "accroche": "Lagrange and Laplace rejected Fourier's idea in 1807. It now describes almost every signal",
+ "contenu_vulgarise": "On December 21, 1807, Joseph Fourier submits to the Academy of Sciences a memoir on the propagation of heat in solids. Lagrange and Laplace reject it.\n\nThe point of contention is not the physics. It is a claim that Fourier uses along the way, and that then seems indefensible: any periodic function, including those with corners or sudden jumps, can be written as a sum of sinusoids.\n\nLagrange holds it to be false. Fourier nonetheless wins the Academy's grand prize in 1812 with a reworked version, without obtaining its publication. It will take until 1822 and the *Théorie analytique de la chaleur* (The Analytical Theory of Heat), then a century of work, to establish under what exact conditions he was right.\n\n## Changing Point of View, Not Object\n\nThe idea can be described without calculation.\n\nA signal (a musical note, a temperature variation, a stock price) is ordinarily given as a value that changes over time. That is one description among others, not *the* description.\n\nThe Fourier transform offers the conjugate description. It no longer asks \"what is the signal's value at each instant,\" but \"how much of each frequency makes it up.\" A tuning-fork A becomes a single line at 440 hertz. A chord becomes three lines. A sharp snap, which barely lasts, becomes a spread across all frequencies.\n\nNothing is lost in the process: the operation is reversible, and we get back to the original signal. We have only changed the axis of reading.\n\n## What the Change of Axis Makes Possible\n\nMany operations that are impractical on one side become elementary on the other.\n\nFiltering out background noise, in time, would require deciding what to do with each instant. In the frequency domain, it is a subtraction: you remove the unwanted lines.\n\nCompressing an image amounts to noticing that the human eye is not very sensitive to rapid spatial variations; you break the image down into frequencies and throw away the highest ones. This is the principle of the JPEG format, and MP3 proceeds the same way on sound. An MRI, for its part, directly measures frequency components, and the image appears only after the inverse transform.\n\nThis shift of workload explains the importance of the algorithm published in 1965 by James Cooley and John Tukey, which lowers the cost of the computation to the point of making it practical in real time. Without it, most of these applications would have remained theoretical.\n\n## A Limit That Is Not Technical\n\nA signal perfectly localized in time is totally spread out in frequency, and vice versa. We cannot know both the instant and the frequency precisely at the same time.\n\nThis is a property of the transform itself. A musician knows it in another form: a very brief note has no well-defined pitch.\n\nThe same relation, applied to the wave function of a particle, goes by another name, Heisenberg's uncertainty principle. The constraint there is identical, and it is mathematical before it is physical.",
+ "citation": null,
+ "repere": {
+  "texte": "Fourier submits his memoir on December 21, 1807. Rejected by Lagrange and Laplace, awarded the Academy's prize in 1812 without being published, it will not appear until 1822 in the Théorie analytique de la chaleur.",
+  "source": "Fourier, Théorie analytique de la chaleur, Firmin Didot, 1822",
+  "url": "https://archive.org/details/thorieanalytiq00four"
+ },
+ "carte": {
+  "punch": "A memoir rejected by Lagrange powers JPEG, MP3, and MRI.",
+  "idee": "Fourier, 1807: any periodic function, even one with corners or sudden jumps, can be written as a sum of sinusoids. Read in time, a sound is a curve; read in frequencies, it is a mix of notes. Nothing is lost in the process, and many operations become elementary.",
+  "source_courte": "Fourier, 1822"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Bulletin de la Sabix — Fourier et la Théorie analytique de la chaleur",
+   "url": "https://journals.openedition.org/sabix/683",
+   "note": "In French, open access; traces the reception of the 1807 memoir."
+  }
+ ],
+ "quiz": {
+  "question": "What does the Fourier transform do to a signal?",
+  "choix": [
+   "It rids it of noise by smoothing out variations that are too rapid",
+   "It rewrites it as a mix of frequencies, without removing anything from it",
+   "It compresses it by removing the least audible portions",
+   "It computes its average over successive time intervals"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The transform neither removes nor adds anything: it is reversible, and we recover the original signal intact. Filtering and compression are operations performed afterward, once in the frequency domain. It is precisely this change of axis that makes them simple, but it does not contain them.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What happens for Fourier in 1812?",
+   "choix": [
+    "He obtains a chair at the French Academy",
+    "He wins the Academy of Sciences' grand prize with a reworked version of his memoir, without obtaining its publication",
+    "He finally publishes his 1807 memoir without changes",
+    "He definitively abandons the idea of decomposing periodic functions"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Fourier wins the Academy of Sciences' grand prize in 1812 with a reworked version of his memoir, but without obtaining its publication; it will take until 1822 for the Théorie analytique de la chaleur."
+  },
+  {
+   "question": "What does the algorithm published by Cooley and Tukey in 1965 bring?",
+   "choix": [
+    "It demonstrates for the first time that the Fourier transform is reversible",
+    "It invents the JPEG format for image compression",
+    "It establishes the link between the Fourier transform and Heisenberg's uncertainty principle",
+    "It lowers the cost of computing the transform to the point of making it practical in real time"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The Cooley-Tukey algorithm, published in 1965, lowers the cost of computing the Fourier transform to the point of making it practical in real time, without which most of its uses would have remained theoretical."
+  },
+  {
+   "question": "How does an MRI use the Fourier transform?",
+   "choix": [
+    "It directly measures frequency components, and the image appears only after the inverse transform",
+    "It filters out the ambient noise of the exam room before photographing the patient",
+    "It compresses the images obtained to reduce their size in memory",
+    "It computes the average of several shots taken at different times"
+   ],
+   "bonne_reponse": 0,
+   "explication": "An MRI directly measures frequency components of the signal, and the image becomes visible only once the inverse Fourier transform is applied to it."
+  }
+ ]
+}

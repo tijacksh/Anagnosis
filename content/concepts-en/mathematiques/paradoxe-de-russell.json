@@ -1,0 +1,67 @@
+{
+ "id": "mat-paradoxe-de-russell",
+ "slug": "paradoxe-de-russell",
+ "langue": "en",
+ "empreinte_fr": "d0c98774849013a7",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Catalog That Cannot Include Itself",
+ "accroche": "In June 1902, a letter of a few lines brings twenty years of Gottlob Frege's work crashing down",
+ "contenu_vulgarise": "A librarian imagines a peculiar catalog: the catalog of all catalogs that do not list themselves. Most catalogs do not appear in their own list (a catalog of novels does not file itself among the novels), so this catalog-of-catalogs-that-do-not-list-themselves should contain nearly everyone. One simple question remains: should it include itself?\n\nIf it includes itself, it ceases to be \"a catalog that does not list itself,\" the very condition that got it onto the list: so it must come off. If it does not include itself, it meets exactly that condition: so it must go on. Neither answer holds.\n\n## The Letter That Arrives Too Late\n\nThis is the question, asked not about catalogs but about sets, that Bertrand Russell sends to Gottlob Frege on June 16, 1902. Frege had been working for twenty years to found all of arithmetic on the logic of sets, and the second volume of his great work, the *Grundgesetze der Arithmetik*, was already at the printer.\n\nHis Basic Law V allowed him to form, from any property whatsoever, the set of everything that satisfies it. Applied to the property \"not containing itself,\" it produces exactly the librarian's impossible catalog: the set R of all sets that do not contain themselves. Does R belong to R? By construction, neither yes nor no can be true.\n\nFrege has time only to add a last-minute appendix before printing, in which he acknowledges the flaw without knowing how to repair it. The rest of his career bears the mark: he abandons his grand project of founding arithmetic on logic alone.\n\n## What the Flaw Points To\n\nWhat strikes us, in hindsight, is not that Frege was wrong: it is where. Law V seemed the most innocent in his whole system, the kind one grants without thinking. The paradox does not come from a shaky argument but from a construction principle that is too generous: allowing a set for every imaginable property amounts to letting language alone decide what exists, and language is perfectly able to produce sentences that turn against themselves.\n\nThe lasting answer arrives six years later. In 1908, Ernst Zermelo replaces Frege's free construction with a narrower principle: a set is no longer formed from a property alone, but by carving out a subset within a set that has already been built. The catalog-of-catalogs then no longer has the right to ask itself the question, for lack of a starting set from which to carve it.\n\nThe price to pay lies there, and it endures: set theory ceases to be a natural consequence of logic alone, as Frege had hoped, and becomes an edifice built on a list of axioms chosen one by one, for what they allow, but above all for what they forbid.",
+ "citation": null,
+ "repere": {
+  "texte": "The second volume of Frege's Grundgesetze der Arithmetik is already at the printer when Russell's letter arrives, on June 16, 1902. Frege replies on June 22, and has time only to add a last-minute appendix before printing.",
+  "source": "Wikipedia (en), “Russell's paradox,” citing the correspondence published by van Heijenoort (1967)",
+  "url": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+ },
+ "carte": {
+  "punch": "A catalog that must include itself if it does not, and exclude itself if it does.",
+  "idee": "In 1902, Bertrand Russell shows that Gottlob Frege's set theory allows the construction of the set of all sets that do not contain themselves: an object that can neither belong to itself nor not belong to itself. Frege's book was already at the printer.",
+  "source_courte": "Russell to Frege, June 16, 1902"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Russell's Paradox — Zermelo's Separation Axiom (1908) and After",
+   "url": "https://fr.wikipedia.org/wiki/Paradoxe_de_Russell",
+   "note": "Details the attempts at repair, including Zermelo's, and the popular formulations of the paradox (barber, librarian)."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the set \"of all sets that do not contain themselves\" pose a problem?",
+  "choix": [
+   "Because an infinite set cannot, by nature, contain itself",
+   "Because Frege had poorly defined the notion of set from the start of his work",
+   "Because neither \"it contains itself\" nor \"it does not contain itself\" can be true of it",
+   "Because no set can be defined by a property that concerns the set itself"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The problem is not the size of the set or self-reference in general, but this precise construction: supposing that it contains itself contradicts its definition, and supposing that it does not contain itself brings it in. The two answers destroy each other, which is the mark of a true paradox, not a mere error of definition.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did Frege's Basic Law V, at the origin of the paradox, allow?",
+   "choix": [
+    "Forming the set of everything that satisfies any chosen property",
+    "Comparing the size of two infinite sets with each other",
+    "Defining a whole number as the limit of a sequence of fractions",
+    "Ranking sets by their order of historical discovery"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Law V allowed one to construct, from any property, the set of all objects that satisfy it. It is this freedom of construction, applied to the property \"not containing itself,\" that produces Russell's contradictory set."
+  },
+  {
+   "question": "How does Ernst Zermelo respond to the paradox in 1908?",
+   "choix": [
+    "By flatly forbidding any talk of infinite sets",
+    "By allowing a subset to be carved out only within a set that has already been built",
+    "By replacing set theory with the arithmetic of whole numbers alone",
+    "By proving that Russell's paradox rested on a calculation error"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Zermelo restricts the construction of sets: a set is no longer formed from a property taken in isolation, but by separating out, within an already given set, the elements that satisfy the property. The catalog-of-catalogs then has no starting set from which to carve itself."
+  }
+ ]
+}

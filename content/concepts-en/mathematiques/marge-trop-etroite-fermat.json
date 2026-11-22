@@ -1,0 +1,90 @@
+{
+ "id": "mat-marge-trop-etroite-fermat",
+ "slug": "marge-trop-etroite-fermat",
+ "langue": "en",
+ "empreinte_fr": "36b2af43a154c51e",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-traduite",
+   "note": "Fermat's marginal note is in Latin; this English wording is a translation of the French text, not a retrieved published English translation (original not retrieved)."
+  },
+  {
+   "chemin": "carte.idee",
+   "type": "erreur-possible-fr",
+   "note": "The French card says Wiles finally proved it in 1994, while the headline and card punch say 358 years after 1637 (that is 1995, the year of publication in the Annals of Mathematics) and the quiz also says 1994. Kept as written; the dating should be harmonized in the French."
+  }
+ ],
+ "titre": "The Margin Too Narrow for a Proof",
+ "accroche": "In 1637, Fermat jots in a book that he has a marvelous proof. It will take 358 years to find it again.",
+ "contenu_vulgarise": "In 1637, Pierre de Fermat, a councillor at the parliament of Toulouse and a passionate amateur mathematician, is reading his personal copy of Diophantus's *Arithmetica* (*Arithmétiques*), in Claude-Gaspard Bachet's Latin translation. Beside problem 8 of Book II (how to split a square into two squares) he scribbles a remark in the margin: it is impossible, he writes, to do the same thing with cubes, fourth powers, or any power higher than two. And he adds the sentence that will haunt mathematicians for more than three centuries: he has a marvelous proof of this fact, but the margin is too narrow to contain it.\n\nFermat dies in 1665 without ever having published this proof, or even taken it up again in his letters to the scholars he corresponds with. It is his son, Samuel de Fermat, who in 1670 republishes his father's annotated copy, marginal notes included. The statement then takes the name \"Fermat's Last Theorem\": last because it was the last of his claims that no one had yet managed to prove.\n\n## A Problem That Resists\n\nThe statement is simple to formulate: for every integer n greater than 2, there are no positive integers x, y, z such that xⁿ + yⁿ = zⁿ. For n = 2, solutions exist by the thousands: these are the Pythagorean triples, 3² + 4² = 5² at their head. All it takes is adding one to the exponent for them all to vanish, without exception, and for 358 years no one manages to explain why.\n\nMathematicians advance case by case. Euler proves n = 3 in 1770 (with a gap filled later), Legendre and Dirichlet n = 5 in 1825, building on the work of Sophie Germain, Gabriel Lamé n = 7 in 1839. In 1847, Ernst Kummer invents a whole theory of \"ideal numbers\" to handle a large family of prime exponents at once, without covering the general case.\n\nThe breakthrough comes from elsewhere. In 1984, Gerhard Frey notices that a hypothetical solution to Fermat's theorem would make it possible to construct an elliptic curve with properties so strange that, by all logic, it should not exist: provided that another conjecture, the modularity conjecture, is true. Ken Ribet proves this link in 1986. All that remains is to prove the modularity conjecture, at least for the curves concerned: this is the project to which Andrew Wiles devotes himself in secret for seven years.\n\nHe announces his proof on June 23, 1993, in Cambridge, to a stunned silence. A reviewer spots a flaw three months later. Wiles takes more than a year to fill it, with the help of his former student Richard Taylor, before publishing the definitive version in May 1995 in the *Annals of Mathematics*: one hundred twenty-nine pages in two papers.\n\n## What the Margin Could Not Hold\n\nNothing in the mathematical tools of the 17th century made it possible to establish a link between an equation in whole-number powers and an elliptic curve. Modular forms, Galois representations, the modularity conjecture itself: all of this belongs to the 20th century. If Fermat had a proof, it took an entirely different path, now lost, or it contained an error he never spotted, even though he did prove and publish the simpler case n = 4, without ever returning to the general statement in the thirty years of correspondence that follow.\n\nThe too-narrow margin may be more than a quip about the layout of a book. It is a textbook case: a mathematician who believes he holds a proof, states it in one sentence, and never sets it down on paper can no longer be told apart, centuries later, between truth and error. What finally settled the matter was not a closer reading of the margin, but the invention, long after him, of a toolkit that no margin could have contained anyway.",
+ "citation": {
+  "texte": "It is impossible to split a cube into two cubes, a fourth power into two fourth powers, and in general any power higher than the square into two powers of the same exponent: I have discovered a truly marvelous proof of this, which this margin is too narrow to contain.",
+  "auteur": "Pierre de Fermat",
+  "source": "Marginal note in his copy of Diophantus's Arithmetica (Bachet ed., 1621), translated from the Latin — published by his son in Diophanti Alexandrini Arithmeticorum libri sex, Toulouse, 1670",
+  "url": "https://archive.org/details/bub_gb_WyzWlCX-pqUC"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Fermat promised a proof in a margin too narrow for it. It took 358 years to find it there.",
+  "idee": "In 1637, Pierre de Fermat notes in the margin of a book that he holds a marvelous proof of a theorem, but that there is not enough room to write it. In 1994, Andrew Wiles finally proves it, with tools, elliptic curves and modular forms, that did not yet exist in the 17th century.",
+  "source_courte": "Wiles, Annals of Mathematics, 1995"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wiles's proof of Fermat's Last Theorem",
+   "url": "https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem",
+   "note": "The detailed account of the 1993 announcement, of the flaw spotted by Nick Katz, and of the 1994 fix."
+  }
+ ],
+ "quiz": {
+  "question": "Why do historians doubt that Fermat really held a correct general proof in 1637?",
+  "choix": [
+   "The 1994 proof relies on elliptic curves and modular forms, unknown in his lifetime",
+   "He never proved any particular case of the theorem before his death",
+   "The 1670 edition that reproduces his note contains a mistranslation from the Greek",
+   "He himself retracted his claim in a letter to Blaise Pascal"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Fermat did prove the case n = 4, and never retracted his note or flagged a translation error: the 1994 proof draws on elliptic curves and modular forms, 20th-century theories, which makes it unlikely that he held a correct general proof in the 17th century.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Which mathematician proves the case n = 3 of the theorem in 1770, with a gap filled later?",
+   "choix": [
+    "Leonhard Euler",
+    "Ernst Kummer",
+    "Gabriel Lamé",
+    "Ken Ribet"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text states that Euler proves n = 3 in 1770, with a gap filled later; Kummer handles a large family of prime exponents in 1847, Lamé proves n = 7 in 1839, and Ribet establishes the link with the modularity conjecture in 1986."
+  },
+  {
+   "question": "What does a reviewer discover in Andrew Wiles's proof, three months after his June 1993 announcement?",
+   "choix": [
+    "A calculation error in the case n = 4, already solved by Fermat",
+    "A duplicate of a paper published by Kummer in 1847",
+    "A flaw, which Wiles takes more than a year to fill with Richard Taylor",
+    "A contradiction with the modularity conjecture itself"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text specifies that a reviewer spots a flaw three months after the June 1993 announcement, and that Wiles fills it in more than a year, with the help of his former student Richard Taylor, before the definitive publication of May 1995."
+  },
+  {
+   "question": "For n = 2, what solutions exist in whole numbers to the equation xⁿ + yⁿ = zⁿ?",
+   "choix": [
+    "None, Fermat's statement holds for n = 2 as well",
+    "The Pythagorean triples, such as 3² + 4² = 5²",
+    "Only solutions using negative numbers",
+    "Solutions found only by Andrew Wiles in 1994"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text specifies that for n = 2 solutions exist by the thousands, the Pythagorean triples such as 3² + 4² = 5²; Fermat's statement concerns exponents strictly greater than 2, where they all vanish."
+  }
+ ]
+}

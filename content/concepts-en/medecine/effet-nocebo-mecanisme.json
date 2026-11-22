@@ -1,0 +1,78 @@
+{
+ "id": "med-effet-nocebo-mecanisme",
+ "slug": "effet-nocebo-mecanisme",
+ "langue": "en",
+ "empreinte_fr": "5e79703cad3a422e",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says the 2019 review covers six trials but that framing reduced symptoms in \"three trials out of four\" (and the quiz repeats \"six trials\" and \"three out of four\"). The denominators do not match; presumably four of the six trials tested this framing, but the French does not say so. Kept as written."
+  }
+ ],
+ "titre": "Warning Can Make You Sick",
+ "accroche": "In 1985, warning patients of a possible digestive side effect multiplied the frequency of that same effect by six",
+ "contenu_vulgarise": "In 1985, a Canadian team publishes the results of a clinical trial testing aspirin against unstable angina. One detail goes almost unnoticed: the patients whose consent form precisely described the possible digestive disorders reported, once treatment had begun, gastrointestinal symptoms six times as frequent as the other participants, and stopped the treatment more often, on their own initiative.\n\n## The Negative of the Placebo\n\nThe word nocebo, \"I shall harm\" in Latin, on the model of placebo, \"I shall please,\" was proposed in 1961 by the researcher Walter Kennedy to designate the opposite effect: the appearance or worsening of symptoms caused not by an active substance, but by the negative expectation one has of a treatment. Contrary to the intuition that puts this phenomenon on the side of imagination or suggestibility, the nocebo effect is accompanied by measurable biological changes: release of stress hormones, changes in the activity of cholecystokinin and dopamine, activation on brain imaging of specific regions involved in pain processing (insular cortex, anterior cingulate cortex, amygdala).\n\n## A Mechanism That Responds to Expectation, Not Substance\n\nThe effect depends on what one expects, not on what one swallows. A patient warned that a treatment may cause nausea produces, in a measurable proportion of cases, that same nausea even when receiving an inert pill. In mirror image, the placebo mechanism can relieve a real pain without any active ingredient. Conditioned learning, the physician's communication, the observation of other suffering patients, and the context of care all contribute to triggering it.\n\n## The Shift\n\nThis mechanism confronts medicine with a concrete dilemma: informed consent, which requires informing a patient of the possible side effects of a treatment, can itself produce some of those effects by the mere fact of having named them. Hiding the information is out of the question, law and medical ethics forbid it. The challenge is to word it differently: a 2019 review of six trials shows that presenting the same risk by emphasizing the probability of not experiencing the effect, rather than that of experiencing it, without changing anything in the informational content, modestly reduces the frequency of reported symptoms in three trials out of four (small effect, r = 0.11 to 0.24). The nocebo effect is therefore not only a matter of the patient's psychology: it is also, in part, a side effect of the language used to warn of side effects.",
+ "citation": null,
+ "repere": {
+  "texte": "In an aspirin clinical trial published in 1985, the patients informed by the consent form of the possible digestive disorders reported gastrointestinal symptoms six times as frequent as the other participants.",
+  "source": "Colloca L., “The Nocebo Effect,” Annual Review of Pharmacology and Toxicology, 2024 (citing Cairns et al., New England Journal of Medicine, 1985)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10868531/"
+ },
+ "carte": {
+  "punch": "Warning a patient of a side effect can, by itself, make it appear.",
+  "idee": "In 1985, a clinical trial of aspirin shows that patients informed of a risk of digestive disorders suffer from them six times as often as the others. This is the nocebo effect: negative expectations that produce real symptoms, measurable on brain imaging.",
+  "source_courte": "Colloca, Annual Review of Pharmacology, 2024"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What distinguishes the nocebo effect from a mere imagined suggestion?",
+  "choix": [
+   "It is accompanied by measurable changes, such as the activation of brain regions linked to pain",
+   "It occurs only in patients who have previously suffered from psychiatric disorders",
+   "It disappears completely as soon as the patient knows he is receiving a placebo",
+   "It concerns only digestive side effects, never pain"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Brain imaging shows a measurable activation of regions linked to pain processing, and specific biochemical pathways such as cholecystokinin are involved: it is not a mere suggestion. The effect affects patients with no particular psychiatric history, does not automatically disappear once revealed, and concerns many symptoms other than digestive disorders.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who proposed the word \"nocebo,\" and in what year?",
+   "choix": [
+    "The researcher Walter Kennedy, in 1961, on the model of placebo",
+    "The Canadian team of the aspirin trial, in 1985",
+    "The authors of the review on risk framing, in 2019",
+    "The pharmacology journal that is now the reference, in 2024"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The word, \"I shall harm\" in Latin, was proposed in 1961 by Walter Kennedy to name the opposite of placebo, \"I shall please.\" The 1985 aspirin trial and the 2019 and 2024 reviews document the phenomenon, they did not name it."
+  },
+  {
+   "question": "What does presenting a risk by emphasizing the probability of not experiencing the effect change?",
+   "choix": [
+    "Nothing at all: the frequency of reported symptoms stays the same",
+    "Reported symptoms disappear in all six trials of the review",
+    "The frequency of symptoms falls modestly, in three trials out of four",
+    "Symptoms become more frequent, as attention is drawn to them"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The 2019 review covers six trials and concludes a modest reduction in three trials out of four, with a small effect (r = 0.11 to 0.24). It is neither a disappearance of symptoms nor a null result: the informational content does not change, only its wording."
+  },
+  {
+   "question": "What else did the patients informed of the possible digestive disorders do in the 1985 trial?",
+   "choix": [
+    "They asked for a lower dose than the one provided in the protocol",
+    "They stopped the treatment more often, on their own initiative",
+    "They reported less chest pain than the others",
+    "More of them refused to sign the form"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Besides gastrointestinal symptoms six times as frequent, these patients interrupted the treatment more often than the other participants, without anyone asking them to."
+  }
+ ]
+}

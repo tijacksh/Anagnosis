@@ -1,0 +1,81 @@
+{
+ "id": "mat-paradoxe-des-anniversaires",
+ "slug": "paradoxe-des-anniversaires",
+ "langue": "en",
+ "empreinte_fr": "5720fc4acf631165",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Twenty-Three People Are Enough",
+ "accroche": "In a room of 23 people, there is better than an even chance that two of them were born on the same day",
+ "contenu_vulgarise": "In a room of twenty-three people, there is better than an even chance that two of them were born on the same day of the year.\n\nThe result jars, because we instinctively measure it against the 365 days of the calendar. Twenty-three against 365: intuition says \"very unlikely.\" It is looking at the wrong object.\n\n## We Are Not Counting People\n\nThe question is not about people, but about pairs.\n\nTwenty-three people form 253 pairs: each can be matched with the other twenty-two, and we divide by two so as not to count the same pair twice. Each of these 253 pairs is an opportunity for a coincidence. Set against 365 days, 253 opportunities are no longer negligible.\n\nThe exact calculation goes through the complement. The probability that all the dates are distinct is 365/365 × 364/365 × 363/365, and so on up to the twenty-third person. This product falls just below 0.5, so there is better than an even chance that at least two dates coincide.\n\nOne nuance often escapes notice. We are not asking for a *specific* date to be shared. To have an even chance of finding someone born on the same day as you, you need to gather about 253 people, exactly the number of pairs from earlier, which is no accident.\n\n## The Threshold Is a Square Root\n\nBehind the example lies a general rule, and it is this rule that made the problem's fortune outside classrooms.\n\nWhen you draw at random from a set of N possibilities, the first repeat typically occurs after about the square root of N draws, not after N/2, as intuition suggests. For N = 365, the square root is a little over 19, and the 50% threshold sets in at 23.\n\n## What It Costs in Cryptography\n\nA digital fingerprint, the output of a hash function, assigns a document a signature of fixed length. Two different documents producing the same fingerprint constitute a collision, and a collision that can be manufactured at will ruins an electronic signature.\n\nA 128-bit fingerprint offers 2¹²⁸ possible values. One might think that you need to try on the order of 2¹²⁸ documents to hit a collision. The previous reasoning says otherwise: you need on the order of the square root, or 2⁶⁴.\n\nThe gap is not a nuance. It turns an out-of-reach task into a feasible one, and it is what doomed several hash functions that were once standard. NIST draws an explicit rule from it: an n-bit fingerprint offers only n/2 bits of collision resistance. Designers call this attack the *birthday attack*, after the classroom problem that makes it understandable.\n\nA rare coincidence is therefore a matter of point of view. Rare for a given pair; almost certain as soon as you agree not to say which one.",
+ "citation": null,
+ "repere": {
+  "texte": "An n-bit digital fingerprint offers only n/2 bits of collision resistance: SHA-256 provides 128, not 256. This is the birthday problem, transposed.",
+  "source": "NIST, Recommendation for Applications Using Approved Hash Algorithms (SP 800-107 Rev. 1), 2012",
+  "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-107r1.pdf"
+ },
+ "carte": {
+  "punch": "Twenty-three people in a room, and the bet is already in your favor.",
+  "idee": "We think we are comparing 23 people to 365 days. In reality, 23 people form 253 pairs, and each is an opportunity for a coincidence, hence better than an even chance that two birth dates meet.",
+  "source_courte": "NIST SP 800-107, 2012"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "NIST SP 800-107 Rev. 1 — Applications Using Approved Hash Algorithms",
+   "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-107r1.pdf",
+   "note": "In English; the section on collision resistance is short and explicit."
+  }
+ ],
+ "quiz": {
+  "question": "Why are twenty-three people enough to exceed an even chance?",
+  "choix": [
+   "Because births are concentrated in certain months of the year",
+   "Because February 29 is ignored, which tightens the calendar",
+   "Because twenty-three people form 253 pairs, not twenty-three opportunities",
+   "Because the probability adds up with each new person entering the room"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Intuition compares twenty-three people to 365 days, whereas the coincidence plays out between pairs: there are 253 of them, each one an opportunity. The result holds even with births perfectly uniform across the year, real seasonality only reinforces it slightly, and probabilities do not add up, they compound.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How many people must you gather to have an even chance of finding someone born on the same day as you, specifically?",
+   "choix": [
+    "23 people, as for the coincidence between any two people",
+    "About 253 people",
+    "365 people, one for each day of the year",
+    "182 people, half the year"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Sharing a specific date, yours, requires far more people than sharing any date between two people: you need about 253 people, exactly the number of pairs that 23 people form.",
+   "statut": "valide"
+  },
+  {
+   "question": "When you draw at random from a set of N possibilities, after how many draws does the first repeat typically occur?",
+   "choix": [
+    "After about N draws",
+    "After about N/2 draws",
+    "After about the square root of N draws",
+    "After about twice N draws"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Contrary to the intuition that suggests N/2, the first repeat typically occurs after about the square root of N draws; for 365 days the square root is a little over 19, hence the threshold of 23 people.",
+   "statut": "valide"
+  },
+  {
+   "question": "According to NIST, what collision resistance does an n-bit digital fingerprint offer?",
+   "choix": [
+    "n bits of resistance",
+    "2n bits of resistance",
+    "n minus one bit of resistance",
+    "n/2 bits of resistance"
+   ],
+   "bonne_reponse": 3,
+   "explication": "NIST sets the collision resistance of an n-bit fingerprint at only n/2 bits: a 128-bit fingerprint therefore offers only 64 bits of real resistance against the birthday attack.",
+   "statut": "valide"
+  }
+ ]
+}

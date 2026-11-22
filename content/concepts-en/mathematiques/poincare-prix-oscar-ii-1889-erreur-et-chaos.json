@@ -1,0 +1,67 @@
+{
+ "id": "mat-poincare-prix-oscar-ii-1889-erreur-et-chaos",
+ "slug": "poincare-prix-oscar-ii-1889-erreur-et-chaos",
+ "langue": "en",
+ "empreinte_fr": "2d6fdfd03a5754d8",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Error in Poincaré's Prize-Winning Memoir, and the Chaos It Concealed",
+ "accroche": "The memoir crowned by the King of Sweden was already printed when Poincaré admitted his proof was wrong. He paid to take it back.",
+ "contenu_vulgarise": "Henri Poincaré's memoir had been crowned by a king, printed, and it was wrong. Almost the entire print run had to be recalled.\n\n## A Prize for a King\n\nIn 1887, for his sixtieth birthday, which falls in 1889, King Oscar II of Sweden and Norway launches a mathematics competition, which the journal Acta Mathematica of Gösta Mittag-Leffler joins. The question concerns the n-body problem: the motion of bodies that attract each other according to Newton's gravitation. The jury, made up of Hermite, Mittag-Leffler, and Weierstrass, crowns Poincaré's memoir. Weierstrass himself notes that it cannot be regarded as providing the complete solution to the question posed.\n\n## An Error Already Printed\n\nWhile the text is being prepared for Acta Mathematica, the sub-editor Edvard Phragmén spots, in December 1888, passages he does not understand well. He writes that, were the author not who he is, he would not hesitate to speak of a big mistake. A year later, in December 1889, Poincaré acknowledges the error: the stability proof that his memoir claimed to establish does not hold. Sources differ on who saw it first, Phragmén or Poincaré himself.\n\nThe memoir is already printed and Mittag-Leffler has begun distributing it. He manages, not without difficulty, to recall almost all the copies. Poincaré writes a corrected version, about twice as long, published in 1890 in volume 13 of Acta Mathematica. The printing costs, which Poincaré takes on himself, exceed the amount of the prize, by 1,000 crowns according to Gottlieb. He gauges what was at stake in the letter Poincaré had to write: the error threatened his reputation, that of the jury and the organizers, and the king's birthday celebration.\n\n## What the Correction Brought to Light\n\nThe error was not a detail of calculation. According to Richard Brent, Poincaré had overlooked the possibility of chaotic behavior. According to MacTutor, the corrected memoir contains the first description of chaotic motion. Gottlieb quotes the historian June Barrow-Green, for whom what the error concealed is, arguably, the first description of chaotic motion in a dynamical system.\n\nThe prize therefore did not reward a solution, but a text whose correction contained a result greater than the one it aimed at: systems governed by Newton's laws can behave chaotically, which rules out drawing from them the stability that Poincaré believed he had demonstrated. Brent attributes part of the credit for this discovery to Phragmén.",
+ "citation": null,
+ "repere": {
+  "texte": "The printing costs of Poincaré's withdrawn memoir exceeded the amount of the 1889 prize by 1,000 crowns; Poincaré paid them.",
+  "source": "Daniel Henry Gottlieb, review of Poincaré and the Three Body Problem by June Barrow-Green, American Mathematical Monthly 106 (10), 1999",
+  "url": "https://www.math.purdue.edu/~gottlieb/Bibliography/55.pdf"
+ },
+ "carte": {
+  "punch": "The memoir prized by the King of Sweden was wrong. Its correction already describes chaos.",
+  "idee": "In December 1889, Poincaré acknowledges that the stability proof in his memoir, prized by Oscar II, is wrong, even though it is already printed. Mittag-Leffler recalls almost all the copies, Poincaré pays. His corrected version contains the first description of chaotic motion.",
+  "source_courte": "Brent, Gottlieb, Acta Math., 1890"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Daniel Henry Gottlieb, review of Poincaré and the Three Body Problem, American Mathematical Monthly, 1999 (in English)",
+   "url": "https://www.math.purdue.edu/~gottlieb/Bibliography/55.pdf",
+   "note": "Five pages on June Barrow-Green's book, which rediscovered the suppressed memoir and the letter of confession."
+  }
+ ],
+ "quiz": {
+  "question": "What happened between the awarding of Oscar II's prize to Poincaré and the publication of his memoir?",
+  "choix": [
+   "Poincaré acknowledged a fundamental error, and the correction brought chaos to light",
+   "The jury withdrew the prize, because Weierstrass had spotted a calculation error",
+   "The jury confirmed the prize after checking the stability proof, which turned out to be correct",
+   "Poincaré merely added notes, the memoir having been correct from the start"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Poincaré admitted in December 1889 that his stability proof was wrong, the memoir already being printed; his corrected version, published in 1890, takes into account chaotic behavior that he had overlooked. The prize was not withdrawn, the proof was not correct, and the text did not merely receive notes: Poincaré wrote a corrected version twice as long, at his own expense.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who spotted, before Poincaré's admission, passages he did not understand well in the already printed memoir?",
+   "choix": [
+    "King Oscar II, who commissioned the competition",
+    "Karl Weierstrass, a mathematician on the jury",
+    "Edvard Phragmén, sub-editor of Acta Mathematica",
+    "June Barrow-Green, a historian of the twentieth century"
+   ],
+   "bonne_reponse": 2,
+   "explication": "It is Edvard Phragmén, sub-editor of Acta Mathematica, who in December 1888 spots passages he does not understand well in the already printed memoir, and not Weierstrass, who had only given his opinion at the time of the prize, nor Barrow-Green, a historian from much later."
+  },
+  {
+   "question": "What did Mittag-Leffler have to do after the error in Poincaré's memoir was discovered?",
+   "choix": [
+    "Recall almost all the copies already printed and distributed",
+    "Republish the already printed memoir without changes",
+    "Flatly withdraw the prize awarded to Poincaré",
+    "Have the matter retried by a second jury appointed by the king"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Mittag-Leffler, who had begun distributing the printed memoir, manages, not without difficulty, to recall almost all the copies; the prize was not withdrawn, no second jury steps in, and the text was not republished unchanged, Poincaré writing a version twice as long."
+  }
+ ]
+}

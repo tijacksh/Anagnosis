@@ -1,0 +1,82 @@
+{
+ "id": "mat-taxi-1729",
+ "slug": "taxi-1729",
+ "langue": "en",
+ "empreinte_fr": "b7ebdda6ad6b7a52",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "The quotation is already in English in the French entry (Hardy wrote in English) and is copied verbatim; the url points to the English book. Not re-checked against the page in this pass."
+  }
+ ],
+ "titre": "The Taxi Number Hardy Found Dull",
+ "accroche": "In 1918, in the hospital, Ramanujan recognizes in a second what an ordinary taxi number was hiding.",
+ "contenu_vulgarise": "In 1918, Srinivasa Ramanujan's health is deteriorating. The Indian mathematician, who arrived in Cambridge two years earlier at the invitation of G. H. Hardy, alternates stays in sanatoriums. Hardy visits him in Putney, in south London, and tries to make conversation: he says he came in a taxi numbered 1729, a number that seems to him, he says, rather dull, and he hopes it is not a bad omen.\n\nRamanujan replies instantly that it is not: 1729 is, on the contrary, a very interesting number, the smallest that can be written as the sum of two cubes in two different ways. Hardy will tell the story twenty-two years later in a book of reminiscences, and the number will remain attached to both names: Hardy-Ramanujan number, or first taxicab number.\n\n## What Ramanujan Sees in a Second\n\nThe answer itself can be checked in two lines: 1³ + 12³ equals 1 + 1728, or 1729; and 9³ + 10³ equals 729 + 1000, or 1729 as well. Two different pairs of integers, the same sum of cubes.\n\nWhat is striking is not the calculation (anyone can redo it with paper and pencil) but the speed. Finding that 1729 has this property, starting from nothing, requires going through sums of two cubes until you stumble on a coincidence; Ramanujan recognizes it from the bare statement of the number. His notebooks, filled from adolescence with thousands of formulas and identities noted without proof, give the measure of this familiarity: many of them, judged unverifiable or false at his death in 1920, proved exact decades later, once the tools to prove them were finally available.\n\nThe next number in the same family (the one that can be written in three different ways as a sum of two cubes) was found only in 1957, by the mathematician John Leech, with the help of a computer: 87,539,319.\n\n## A Misunderstanding to Clear Up\n\nThe anecdote sometimes feeds a confusion. The equality 1³ + 12³ = 9³ + 10³ involves cubes on both sides; one might think it clashes with Fermat's theorem, which forbids a sum of two cubes from being itself a cube: the case n = 3, proved by Euler as early as 1770. It does not: 1729 is written nowhere as a perfect cube, only as two sums of cubes equal to each other, an equation of an entirely different nature, which nothing forbids.\n\nWhat the episode shows is therefore not a feat of memory, but a way of holding numbers to be singular objects rather than an undifferentiated mass. Hardy would say that Ramanujan knew every integer as a personal friend. A taxi number chosen at random was never, for him, entirely ordinary.",
+ "citation": {
+  "texte": "I remember going to see him once when he was lying ill in Putney. I had ridden in taxi-cab No. 1729, and remarked that the number seemed to me rather a dull one, and that I hoped that it was not an unfavourable omen. \"No,\" he replied, \"it is a very interesting number; it is the smallest number expressible as a sum of two cubes in two different ways.\"",
+  "auteur": "G. H. Hardy",
+  "source": "Ramanujan: Twelve Lectures on Subjects Suggested by his Life and Work, Cambridge University Press, 1940, p. 12",
+  "url": "https://archive.org/details/ramanujan-hardy"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Hardy found this taxi dull. Ramanujan saw in it the smallest sum of two cubes, twice over.",
+  "idee": "In 1918, Hardy tells the ailing Ramanujan he came in taxi no. 1729, a number he finds rather dull. Ramanujan answers at once that it is, on the contrary, very interesting: 1729 is the smallest number that can be written as a sum of two cubes in two different ways.",
+  "source_courte": "Hardy, Ramanujan, 1940"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Does the equality 1³+12³ = 9³+10³ contradict Fermat's theorem for cubes, which forbids x³+y³=z³?",
+  "choix": [
+   "Yes, since two sums of cubes are equal to each other",
+   "No, because the equation at play is an equality between two sums of cubes, not between a sum and a single cube",
+   "Yes, but only because 1729 is a composite number",
+   "No, because Fermat's theorem only concerns exponents greater than three"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The case n=3 of Fermat's theorem forbids a sum of two cubes from being itself a cube (x³+y³=z³); 1729 violates nothing, since it involves two sums of two cubes equal to each other, an entirely different configuration that nothing forbids, and the theorem holds from n=3 on, not only beyond.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In which district does Hardy visit the ailing Ramanujan in 1918?",
+   "choix": [
+    "Putney, in south London",
+    "Cambridge, on the university campus",
+    "Chelsea, near the Thames",
+    "Oxford"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The text places the visit in Putney, in south London, where Ramanujan is staying in a sanatorium.",
+   "statut": "valide"
+  },
+  {
+   "question": "What is the third taxicab number, which can be written in three different ways as a sum of two cubes, and who found it?",
+   "choix": [
+    "87,539,319, found by John Leech in 1957",
+    "1729, found by Ramanujan in 1918",
+    "12,345, found by Euler in 1770",
+    "1,000,000, found by Hardy in 1940"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The entry specifies that this next number in the family was found only in 1957, by John Leech, with the help of a computer: 87,539,319.",
+   "statut": "valide"
+  },
+  {
+   "question": "In which work does Hardy tell the anecdote of taxi 1729?",
+   "choix": [
+    "Ramanujan: Twelve Lectures on Subjects Suggested by his Life and Work",
+    "A Mathematician's Apology",
+    "The Indian Clerk",
+    "Principia Mathematica"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Hardy tells the story twenty-two years later in this book of reminiscences, published in 1940 in Cambridge.",
+   "statut": "valide"
+  }
+ ]
+}

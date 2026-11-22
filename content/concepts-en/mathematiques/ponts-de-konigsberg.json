@@ -1,0 +1,78 @@
+{
+ "id": "mat-ponts-de-konigsberg",
+ "slug": "ponts-de-konigsberg",
+ "langue": "en",
+ "empreinte_fr": "1f376f0ce4921dc0",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Seven Bridges No One Ever Crossed",
+ "accroche": "An impossible Sunday stroll in Königsberg founded graph theory and topology",
+ "contenu_vulgarise": "Königsberg, the 1730s. The city is built on both banks of the Pregel, around two islands connected to the rest by seven bridges. A question circulates among the inhabitants: is it possible to walk around the city crossing each bridge once and only once?\n\nNo one manages it. But no one can say whether it is because the route is hard to find, or because it does not exist.\n\n## What Euler Takes Out of the Problem\n\nOn August 26, 1735, Leonhard Euler reads before the St. Petersburg Academy a paper that settles the question, and in passing founds an entire branch of mathematics.\n\nHis first move is a subtraction. He notices that the length of the bridges does not matter, nor does the shape of the islands, nor the distance between the banks. A walker who crosses a bridge passes from one mass of land to another: that is all the problem contains. Euler therefore reduces the city to four points, the two banks and the two islands, and to seven lines that connect them.\n\n## The Count That Settles It\n\nOn this skeleton, the argument comes down to one observation. Take any point on the route that is neither the start nor the finish. Each time the walker enters it by one bridge, he must leave it by another. The bridges at such a point are used up in pairs: their number is necessarily even.\n\nBut a route has only one start and one finish. At most two points can therefore carry an odd number of bridges.\n\nIn Königsberg, all four points carry an odd number: five for the main island, three for each of the others. The route is not difficult, it is impossible. And the proof requires no map: it holds for any city, whatever the number of bridges.\n\n## A Geometry Without Measurement\n\nEuler was aware of doing something other than solving a puzzle. He files his paper under a name borrowed from Leibniz: *geometria situs*, the geometry of position, one where magnitudes do not matter.\n\nThis is a break. Until then, geometry measures: lengths, angles, areas. Euler treats an object of which he measures nothing, and retains only what is connected to what.\n\nThis abstraction has become so commonplace that we handle it every day without thinking. A subway map lies about distances, straightens curves, and moves stations; it remains usable because the only information the traveler needs is the one Euler had isolated, which line leads where. The same points and the same lines now describe a social network, a supply chain, or the links between web pages.\n\nThe 1735 paper is cited as the first paper of graph theory, and as one of the first texts of topology. It begins with a Sunday stroll that no one has ever completed.",
+ "citation": null,
+ "repere": {
+  "texte": "Euler reads his paper before the St. Petersburg Academy on August 26, 1735. It appears in 1741 in the Commentarii academiae scientiarum Petropolitanae, volume 8, pp. 128-140.",
+  "source": "Euler, “Solutio problematis ad geometriam situs pertinentis,” 1741 (Euler Archive, E53)",
+  "url": "https://scholarlycommons.pacific.edu/euler-works/53/"
+ },
+ "carte": {
+  "punch": "An impossible stroll founded graph theory.",
+  "idee": "In Königsberg, seven bridges and four banks. Euler proves in 1735 that no route can cross them all exactly once: at most two banks would have to carry an odd number of bridges. All four do.",
+  "source_courte": "Euler, 1741"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "MAA Convergence — Euler's Solution to the Königsberg Bridge Problem",
+   "url": "https://old.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem",
+   "note": "In English; follows Euler's reasoning step by step, with no prerequisites."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the route over the seven bridges impossible?",
+  "choix": [
+   "Because there are seven bridges, an odd total that makes it impossible to return to the start",
+   "Because each of the four banks and islands is served by an odd number of bridges",
+   "Because two of the bridges connect the same banks, which forces a round trip",
+   "Because the city has four land masses for only seven bridges, which connects it poorly"
+  ],
+  "bonne_reponse": 1,
+  "explication": "A crossing point is passed through in pairs of bridges: you enter by one, you leave by the other. Only the start and the finish escape this rule, so at most two points can carry an odd number of bridges. Königsberg has four. The total number of bridges, their arrangement, and the geography of the city do not enter into the argument.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "When and where does Euler first present the solution to the Königsberg bridge problem?",
+   "choix": [
+    "On August 26, 1735, before the St. Petersburg Academy",
+    "In 1741, in a private letter to Leibniz",
+    "On August 26, 1735, before the Royal Society of London",
+    "In 1758, during a trip to Königsberg itself"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Euler reads his paper before the St. Petersburg Academy on August 26, 1735; it appears in a journal, in the Commentarii, only in 1741."
+  },
+  {
+   "question": "Under what name does Euler himself file his paper, borrowing the expression from Leibniz?",
+   "choix": [
+    "Arithmetica situs",
+    "Geometria situs",
+    "Topologia generalis",
+    "Analysis infinitorum"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Euler names his approach geometria situs, the geometry of position, in which magnitudes such as lengths or angles do not matter, unlike classical geometry."
+  },
+  {
+   "question": "How many of Königsberg's four land masses, banks and islands, are served by an odd number of bridges, which makes the route impossible?",
+   "choix": [
+    "Only one",
+    "Two",
+    "Three",
+    "All four"
+   ],
+   "bonne_reponse": 3,
+   "explication": "All four land masses each carry an odd number of bridges, five for the main island and three for each of the other three, whereas at most two can carry an odd number for a route to exist."
+  }
+ ]
+}
