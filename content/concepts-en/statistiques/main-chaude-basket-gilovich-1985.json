@@ -1,0 +1,84 @@
+{
+ "id": "sta-main-chaude-basket-gilovich-1985",
+ "slug": "main-chaude-basket-gilovich-1985",
+ "langue": "en",
+ "empreinte_fr": "416ccdad2de0654c",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says 26 Cornell players each took 100 shots, then later reports '19 players out of 25' in the corrected analysis, with no explanation of the drop from 26 to 25. Rendered as in the French; to be checked."
+  }
+ ],
+ "titre": "The Hot Hand in Basketball, Refuted in 1985 and Found Again in 2018",
+ "accroche": "A landmark study concludes in 1985 that the hot hand in basketball does not exist. In 2018, an error in its calculation reverses the verdict.",
+ "contenu_vulgarise": "In 1985, one hundred basketball fans surveyed on the Cornell and Stanford campuses say, at 84%, that it is important to pass the ball to a teammate who has just made several shots in a row. The intuition is shared by the players themselves and by commentators: a shooter who has just strung together baskets is supposed to have, for a time, the hot hand.\n\n## A Statistical Illusion, According to the Founding Study\n\nThomas Gilovich, Robert Vallone, and Amos Tversky test the idea with the data available to them. They take the shots of the Philadelphia 76ers over 48 home games of the 1980-1981 season, then have 26 players from the Cornell varsity team shoot, one hundred shots each, from a distance adjusted to each player's level. In both cases, the probability of making a shot after making several in a row does not significantly exceed the probability of making one after a streak of misses. Published in *Cognitive Psychology* under the title “The Hot Hand in Basketball: On the Misperception of Random Sequences,” the study concludes that the streak perceived by players and spectators does not appear in the numbers: a sequence of made or missed shots behaves, statistically, like a series of independent coin tosses. The verdict becomes a classic taught for more than thirty years as the very example of a cognitive bias, the human tendency to see streaks in pure chance.\n\n## A Calculation Error Found Thirty-Three Years Later\n\nIn 2018, the economists Joshua Miller and Adam Sanjurjo publish in *Econometrica* a methodical redo of the 1985 calculation. They show that the very way of measuring a streak introduces a bias: if, in a finite sequence, one selects only the shots that directly follow k consecutive hits, the proportion of successes found there is, on average, lower than the player's true probability of success, even if each shot is perfectly independent of the others. Over three tosses of a balanced coin, the expected proportion of tails after a first tails thus falls to 5 out of 12, not 1 out of 2. The bias worsens with the length of the streak sought, and it vanishes only at infinity.\n\nApplied to the data from the Cornell experiment, the correction changes the answer: the gap between shots following a streak of hits and those following a streak of misses, on the order of 3 to 4 percentage points and judged nonsignificant by Gilovich, Vallone, and Tversky, climbs to about 13 points once the bias is corrected, with nineteen players out of twenty-five going in the same direction. Miller and Sanjurjo compare this gap to the one that separated, in the 2015-2016 NBA season, the best three-point shooter from the median three-point shooter.\n\nThe 1985 study did not have bad data: it had a statistical test poorly calibrated for the question asked, and this flaw, invisible for three decades, was enough to mask part of the effect it was supposed to refute.",
+ "citation": null,
+ "repere": {
+  "texte": "Once the streak-selection bias is corrected, the gap between shots following a streak of hits and those following a streak of misses goes, on the data from the Cornell experiment (1985), from 3-4 percentage points (nonsignificant) to about 13 points (p < 0.01), with 19 players out of 25 going in the same direction.",
+  "source": "Miller & Sanjurjo, “Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers,” Econometrica, 86(6), 2019-2047, 2018",
+  "url": "https://doi.org/10.3982/ECTA14943"
+ },
+ "carte": {
+  "punch": "A study says in 1985 that the hot hand does not exist. In 2018, an error reverses the verdict.",
+  "idee": "84% of the fans surveyed in 1985 believe in the hot hand in basketball. The landmark study by Gilovich, Vallone, and Tversky concludes that it is an illusion. In 2018, a bias found in their calculation moves the gap between streaks of hits and streaks of misses from 3 to 13 percentage points.",
+  "source_courte": "Gilovich, Vallone & Tversky 1985 · Miller & Sanjurjo 2018"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Hot Hand — Wikipedia (in English)",
+   "url": "https://en.wikipedia.org/wiki/Hot_hand",
+   "note": "Traces the full history of the debate, from the 1985 study to later reanalyses (Koehler 2003, Miller & Sanjurjo 2018, Pelechrinis & Winston 2022)."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Miller and Sanjurjo's 2018 study change the conclusion of the 1985 hot hand study, without any new data having been collected?",
+  "choix": [
+   "Because new data were collected between 1985 and 2018, showing an effect that did not exist before",
+   "Because Gilovich, Vallone, and Tversky had incorrectly transcribed the Cornell players' scores",
+   "Because their calculation method systematically underestimated the proportion of successes after a streak, a statistical bias that went unnoticed for 33 years",
+   "Because today's players shoot statistically better than those of 1985, which changes the measurement"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Miller and Sanjurjo show that selecting the shots that follow a streak of k hits mechanically biases the observed proportion of successes, and downward, even on a perfectly balanced coin. It is this methodological flaw, not new data, that reverses the 1985 conclusion once corrected.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What percentage of fans surveyed in 1985 judged it important to pass the ball to a shooter on a streak of hits?",
+   "choix": [
+    "12%, a marginal minority among the fans surveyed",
+    "84% of the one hundred fans surveyed on the Cornell and Stanford campuses",
+    "50%, an even split between believers and skeptics",
+    "100%, all the fans surveyed without exception"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text says that 84% of the one hundred fans surveyed on the Cornell and Stanford campuses judged it important to pass the ball."
+  },
+  {
+   "question": "On what simple example do Miller and Sanjurjo illustrate the streak-selection bias?",
+   "choix": [
+    "Ten dice rolls, where the probability of a consecutive six is mistakenly doubled",
+    "The shots of the 2015-2016 NBA season, taken in isolation from any other data",
+    "A deck of cards, where drawing two consecutive aces would be systematically underestimated",
+    "Three tosses of a balanced coin, where the proportion of tails after a first tails falls to 5 out of 12"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text says that over three tosses of a balanced coin, the expected proportion of tails after a first tails falls to 5 out of 12."
+  },
+  {
+   "question": "By how many percentage points does the measured gap between shots after hits and shots after misses change, once the bias is corrected?",
+   "choix": [
+    "From 13 points to only 3-4 points, the bias largely reducing the gap initially observed",
+    "From 3 to 4 points up to 50 points, a gap judged totally disproportionate by the authors",
+    "From 3-4 nonsignificant points to about 13 points, 19 players out of 25 going in the same direction",
+    "It remains strictly unchanged at 3-4 points, in both versions of the calculation"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text says that the gap goes from 3 to 4 nonsignificant points to about 13 corrected points, 19 players out of 25 going in the same direction."
+  }
+ ]
+}

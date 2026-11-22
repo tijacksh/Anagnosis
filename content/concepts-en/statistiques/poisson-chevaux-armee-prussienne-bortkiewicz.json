@@ -1,0 +1,75 @@
+{
+ "id": "sta-poisson-chevaux-armee-prussienne-bortkiewicz",
+ "slug": "poisson-chevaux-armee-prussienne-bortkiewicz",
+ "langue": "en",
+ "empreinte_fr": "555c6d1dfa90383f",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French states that a Poisson law with a mean of 0.7 death per corps per year predicts about 143, 92, 33, 9 and 2 corps-years; a Poisson distribution with mean 0.7 over 280 corps-years gives about 139, 97, 34, 8 and 1. The predicted counts do not match the stated mean. Rendered as in the French; to be checked against Bortkiewicz's table."
+  }
+ ],
+ "titre": "The Prussian Army's Horse Kicks and the Law of Small Numbers",
+ "accroche": "It is impossible to predict whom a horse will kill with a kick in the Prussian army. How many, each year, could be predicted almost exactly.",
+ "contenu_vulgarise": "In 1898, the statistician Ladislaus von Bortkiewicz publishes in Leipzig a booklet of about fifty pages, *Das Gesetz der kleinen Zahlen* (“The Law of Small Numbers”). In it he takes the records of the Prussian army and counts, for fourteen army corps followed for twenty years in a row, how many soldiers die each year from a horse's kick. Nothing, in these 280 corps-years, makes it possible to foresee which corps will be hit, or how many times: a horse bolts, a rider positions himself badly, the accident never warns anyone in advance.\n\n## A Regularity Hidden in Chance\n\nBortkiewicz nonetheless draws up the complete table: 144 corps-years with no death at all, 91 with a single one, 32 with two, 11 with three, and 2 with four, for 196 deaths in all over the period. He compares these figures with a law published sixty years earlier by Siméon Denis Poisson, in his *Recherches sur la probabilité des jugements en matière criminelle et en matière civile* (Research on the Probability of Judgments in Criminal and Civil Matters) (1837), for an unrelated problem: estimating the reliability of verdicts rendered by juries. This law describes the frequency of a rare, independent event, repeated a large number of times at a low probability each. Applied to the Prussian corps-years, with a mean of 0.7 death per corps per year, it predicts about 143 corps-years with no death, 92 with one, 33 with two, 9 with three, and 2 with four. The gap between what the formula announces and what the records contain is minimal.\n\nThe paradox fits in one sentence: no one can say, at the start of a given year, how many soldiers of a specific corps will die from a horse's kick, or which ones. But add up fourteen corps over twenty years, and the total falls almost exactly where the formula expected it. The unpredictability of each accident and the regularity of their sum do not contradict each other: they are the same law, seen at two different scales. Bortkiewicz even redoes the calculation on a subset of ten corps, setting aside the Guards Corps and three others, and finds an equally sharp fit with 122 deaths over 200 corps-years.\n\n## From a Courtroom to a Stable, and Then Everywhere Else\n\nWhat Poisson had formulated to judge the reliability of juries, Bortkiewicz finds in the stables of the Prussian army one of its first empirical verifications this sharp. His title gives its name to a principle that goes well beyond the case of horses: as soon as an event is individually rare, independent from one case to the next, and observed over a large number of occasions, its total count becomes predictable, even though each occurrence remains, for its part, totally random. The Poisson law is used today to model the calls received by a help center, the failures of a mass-produced part, or the claims an insurer must cover during the year. None of these events announces itself individually. Counted by the thousands, they cease to be unpredictable.",
+ "citation": null,
+ "repere": {
+  "texte": "In fourteen Prussian army corps followed for twenty years, von Bortkiewicz records 196 deaths from horse kicks over 280 corps-years: 144 years with no death at all, 91 with one, 32 with two, 11 with three, and 2 with four, an almost perfect fit to the Poisson law he describes in his 1898 book.",
+  "source": "Bortkiewicz, Das Gesetz der kleinen Zahlen, B.G. Teubner, Leipzig, 1898, §12",
+  "url": "https://archive.org/details/dasgesetzderklei00bortrich"
+ },
+ "carte": {
+  "punch": "No one predicts whom a horse will kill. The total number, yes.",
+  "idee": "In 1898, in fourteen Prussian army corps followed for twenty years, von Bortkiewicz counts 196 deaths from horse kicks. Their distribution fits the Poisson law almost exactly, written sixty years earlier to judge the reliability of juries, not of horses.",
+  "source_courte": "Bortkiewicz, Das Gesetz der kleinen Zahlen, 1898"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Poisson Distribution — Full History of the Law",
+   "url": "https://en.wikipedia.org/wiki/Poisson_distribution",
+   "note": "History section, for the mathematical context, from de Moivre (1711) to Poisson (1837) and Bortkiewicz (1898)."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the total number of deaths from horse kicks, counted each year over fourteen army corps, follow a law as regular as the Poisson law, even though no individual accident is predictable?",
+  "choix": [
+   "Because the Prussian army adjusted its official records to make them match Poisson's theory",
+   "Because a rare, independent event, repeated a large number of times at a low probability each, produces a predictable total even if each case remains random",
+   "Because each army corps had exactly the same number of horses and riders on duty each year",
+   "Because the recorded horse kicks were not real accidents but disciplinary punishments disguised as incidents"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The regularity comes neither from rigging nor from a hidden common cause: it arises from the large number of independent occasions at a low probability each, exactly what the Poisson law describes, whatever the cause of each accident taken in isolation.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the law that von Bortkiewicz applies in 1898 to the horse kicks of the Prussian army come from?",
+   "choix": [
+    "Siméon Denis Poisson published it in 1837 to estimate the reliability of verdicts rendered by juries",
+    "Bortkiewicz invented it himself by observing the records of the Prussian army",
+    "Poisson formulated it in 1898 by directly studying cavalry accidents",
+    "Abraham de Moivre published it in 1837 in his work on games of chance"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The law comes from Poisson, published in 1837 for an unrelated problem, judging the reliability of jury verdicts; Bortkiewicz merely applies it sixty years later to Prussian horses.",
+   "statut": "valide"
+  },
+  {
+   "question": "Of the 280 corps-years studied by von Bortkiewicz, how many have exactly zero deaths from horse kicks that year?",
+   "choix": [
+    "91",
+    "144",
+    "32",
+    "196"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Bortkiewicz's complete table gives 144 corps-years with no death at all, against 91 with a single one, 32 with two, and 196, which is the total number of deaths over the whole period, not a count of years.",
+   "statut": "valide"
+  }
+ ]
+}

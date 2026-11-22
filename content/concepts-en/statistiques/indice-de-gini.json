@@ -1,0 +1,83 @@
+{
+ "id": "sta-indice-de-gini",
+ "slug": "indice-de-gini",
+ "langue": "en",
+ "empreinte_fr": "f3cae07e68e288c7",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A Neutral Tool, Inherited from a Statistician Who Was Not",
+ "accroche": "The index that measures inequality around the world comes from an Italian statistician who later became an architect of Fascism's demographic propaganda.",
+ "contenu_vulgarise": "The Gini index measures, in a single number between 0 and 1, how unequally income or wealth is distributed in a population. Zero would mean perfect equality; one, that a single person would hold everything. In France, in 2024, it stands at 0.302 according to Insee, its highest level since the statistical series began in 1996. The World Bank, Insee, and the OECD all use it today as a common reference for comparing inequality from one country to another.\n\n## A Curve, an Area, a Ratio\n\nThe calculation starts from an object called the Lorenz curve, which plots the cumulative share of income held by an increasing cumulative share of the population, the poorest 10%, then 20%, and so on. In a perfectly egalitarian society, this curve would be a straight line: the poorest 10% would hold exactly 10% of total income. The Gini index measures the gap between this theoretical line and the actual curve, almost always sagging below it: the larger the area between the two, the closer the index gets to 1, and the further the actual distribution moves from perfect equality.\n\nThis tool comes from a text published in 1912 in Bologna by the Italian statistician Corrado Gini, titled *Variabilità e mutabilità* (Variability and Mutability). In it, Gini lays the mathematical foundations of an indicator that, a century later, would become one of the most cited figures in the world economy, taken up without changing a term by institutions whose values have nothing to do with those of its author.\n\n## The Author the Tool Ended Up Outgrowing\n\nGini did not in fact remain just one statistician among others. He signs the Manifesto of Fascist Intellectuals in 1925, presides from 1926 over the Italian Central Institute of Statistics, and becomes so close to Mussolini that the two consult each other, according to an academic study published in 2014 in the journal *Medicina nei Secoli*, twice a month. He had already cofounded, as early as 1919 with Cesare Artom and Ernesto Pestalozza, the Italian society of genetics and eugenics. That same study describes him as a link between nascent Italian eugenics, Fascism, and the state racism that would follow: in 1919, he asks in a letter to the British eugenicist Leonard Darwin for a legal ban on marriages between Europeans and Africans; in 1929, in Chicago, he theorizes the inferiority of people of mixed race and Black people; and his theory of the “senescence of nations” provides a scientific justification for the Italian colonization of Ethiopia.\n\nNone of this carried over to the tool itself. The Gini index encodes none of its inventor's theses: it is a pure measure of statistical dispersion, mathematically indifferent to what Gini thought of it. Its use today, from the World Bank's annual report to the figure Insee publishes every year, owes nothing to the biography of its author, and this is precisely what distinguishes a measuring instrument from the intentions of the one who forged it. The number outlives the man, without keeping any trace of him.",
+ "citation": null,
+ "repere": {
+  "texte": "France's Gini index reaches 0.302 in 2024, up for the second consecutive year, its highest level since the start of Insee's statistical series in 1996.",
+  "source": "Insee Première no. 2117, “Standard of Living and Poverty in 2024,” Insee",
+  "url": "https://www.insee.fr/fr/statistiques/9019316"
+ },
+ "carte": {
+  "punch": "The tool that measures global inequality comes from a statistician of Italian Fascism.",
+  "idee": "The Gini index (0 = perfect equality, 1 = maximum inequality) comes from Corrado Gini, an Italian statistician who became close to Mussolini and an architect of the regime's eugenics. The tool kept nothing of his theses: a pure statistical measure, taken up as is by the World Bank and Insee.",
+  "source_courte": "Insee, 2026; Medicina nei Secoli, 2014"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Insee — Definition of the Gini Index",
+   "url": "https://www.insee.fr/fr/metadonnees/definition/c1551",
+   "note": "A short institutional definition, with the 0-1 range of values."
+  },
+  {
+   "titre": "Corrado Gini and the Scientific Basis of Fascist Racism (full text)",
+   "url": "https://rosa.uniroma1.it/rosa01/medicina_nei_secoli/article/download/160/144/290",
+   "note": "Daniele Macuglia's study, with the primary quotations on Gini's involvement."
+  }
+ ],
+ "quiz": {
+  "question": "What exactly does the Gini index measure?",
+  "choix": [
+   "A population's average income, compared with that of a reference country",
+   "A country's poverty rate, defined as the share of the population below a fixed income threshold",
+   "The gap between the actual distribution of income in a population and a perfectly egalitarian distribution",
+   "The growth of inequality from one year to the next, as a percentage"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The Gini index compares a population's actual Lorenz curve, which accumulates the share of income held by the poorest segments of the population, with the line one would get if income were distributed perfectly equally. The larger the gap between the two, the closer the index gets to 1. It is neither an average income, nor a poverty threshold, nor a measure of annual change.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In what year and in what city does Corrado Gini publish the founding text of the index that bears his name?",
+   "choix": [
+    "1912, in Bologna",
+    "1926, in Rome",
+    "1919, in Turin",
+    "1929, in Chicago"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The index comes from a text titled Variabilità e mutabilità, published by Corrado Gini in 1912 in Bologna, several years before his Fascist and eugenicist commitments of the following decades."
+  },
+  {
+   "question": "What institutional role does Corrado Gini hold from 1926?",
+   "choix": [
+    "The leadership of the World Bank",
+    "The presidency of the Italian Central Institute of Statistics",
+    "The secretary-generalship of the League of Nations",
+    "The chair of economics at the University of Bologna"
+   ],
+   "bonne_reponse": 1,
+   "explication": "From 1926, Gini presides over the Italian Central Institute of Statistics, while growing close to Mussolini, according to a 2014 study that documents up to two consultations a month between the two men."
+  },
+  {
+   "question": "What does the 2014 study published in Medicina nei Secoli document about Gini?",
+   "choix": [
+    "His public opposition to the racial laws of Mussolini's regime",
+    "His exile in the United States after the fall of Fascism",
+    "His break with the Central Institute of Statistics in 1930",
+    "A link between Italian eugenics, Fascism, and state racism"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Daniele Macuglia's study describes Gini as a link between nascent Italian eugenics, Fascism, and the state racism that would follow, notably through his 1919 letter and his 1929 remarks in Chicago."
+  }
+ ]
+}

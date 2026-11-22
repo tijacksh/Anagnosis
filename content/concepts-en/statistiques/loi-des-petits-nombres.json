@@ -1,0 +1,83 @@
+{
+ "id": "sta-loi-des-petits-nombres",
+ "slug": "loi-des-petits-nombres",
+ "langue": "en",
+ "empreinte_fr": "29bf8eb2994c0d25",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Even Psychologists Overestimate What a Small Sample Says",
+ "accroche": "In 1969, a questionnaire given to 84 professional psychologists reveals that they themselves give too much credit to far-too-small samples.",
+ "contenu_vulgarise": "In 1969, the psychologists Amos Tversky and Daniel Kahneman give a questionnaire to 84 psychology researchers, gathered at two conferences, that of the Mathematical Psychology Group and that of the American Psychological Association. The article analyzing their answers will not appear until 1971, in *Psychological Bulletin*. One of the questions: after a first experiment on twenty subjects whose result confirms a hypothesis in a statistically significant way (z = 2.23, p < 0.05), what is the probability that a second experiment, run on only ten additional subjects, will also confirm the same result? Most of the researchers surveyed answer with a figure far too optimistic, even though their job consists, every day, in reasoning about samples.\n\n## A Small Sample Is Not a Large Population in Miniature\n\nThe error, which Tversky and Kahneman christen “belief in the law of small numbers,” consists in treating a small sample as if it faithfully reproduced, to scale, the properties of the entire population from which it is drawn, when the smaller a sample is, the more it varies from one draw to the next, through chance alone. A perfectly balanced coin can very well land heads four times out of five without any cheating or rigged coin; the gap is nothing exceptional over so few tosses. A researcher who obtains a significant result on twenty subjects, then generalizes that result as if it were a firmly established truth, makes the same error: he lends a small number of observations the stability that only a large number can guarantee.\n\n## An Intuition That Costs Research Dearly\n\nThe consequence, documented by Tversky and Kahneman among researchers who were nonetheless trained in statistics, is concrete: misplaced confidence in small samples leads to running studies too underpowered to answer the questions they pose, then to interpreting their results, significant or not, as if they necessarily were. The 1971 article is now considered one of the founding texts in the study of cognitive biases, cited several thousand times; it paves the way for the two authors' later work on judgment heuristics, for which Kahneman will receive alone, in 2002, the Bank of Sweden prize in economic sciences, Tversky, who died in 1996, having been unable to share it. Half a century later, hasty reading of statistical results remains one of the most documented weak points of scientific research, a problem that Tversky and Kahneman had already brought to light, figures in hand, long before anyone spoke of the replication crisis.",
+ "citation": null,
+ "repere": {
+  "texte": "Asked in 1969 about the probability that a significant result obtained on twenty subjects will repeat on ten additional subjects, 84 professional psychologists systematically overestimate that probability: their answers would not be published until 1971, even though their discipline rests entirely on statistical reasoning.",
+  "source": "Tversky & Kahneman, Psychological Bulletin, 76(2), 1971",
+  "url": "https://doi.org/10.1037/h0031322"
+ },
+ "carte": {
+  "punch": "Even researchers trained in statistics are wrong about what a small sample says.",
+  "idee": "In 1969, 84 professional psychologists overestimate the reliability of a result obtained on twenty subjects, in a questionnaire by Tversky and Kahneman. Their 1971 article names this error the “law of small numbers”: even specialists are wrong about a small sample.",
+  "source_courte": "Tversky & Kahneman, 1971"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What does Tversky and Kahneman's 1971 study reveal about how researchers judge a small sample?",
+  "choix": [
+   "That researchers systematically underestimate the reliability of large samples, out of excess caution",
+   "That only inexperienced researchers are wrong about the reach of a small sample",
+   "That the size of a sample actually has no influence on the reliability of a result",
+   "That even researchers trained in statistics overestimate the stability of a result obtained on a small number of subjects"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Asked about a concrete scenario (twenty subjects, then ten more), 84 professional psychologists overestimated the probability of replicating a significant result, proof that statistical training is not enough to correct this intuition, the “law of small numbers.”",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "In 1969, on what occasion is Tversky and Kahneman's questionnaire given to the 84 psychologists?",
+   "choix": [
+    "At a single private seminar organized at Princeton University",
+    "By postal mail, sent directly to their home laboratory",
+    "At the conferences of the Mathematical Psychology Group and the American Psychological Association",
+    "At the annual conference of the French Psychological Society, in Paris"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The questionnaire was given at two conferences in 1969, that of the Mathematical Psychology Group and that of the American Psychological Association; the article analyzing it does not appear until 1971, in Psychological Bulletin."
+  },
+  {
+   "question": "What does the coin example given in the entry show?",
+   "choix": [
+    "That a slightly unbalanced coin always reveals itself within five tosses",
+    "That a perfectly balanced coin can land heads four times out of five without cheating",
+    "That the probability of getting heads increases with the number of tosses already made",
+    "That at least a hundred tosses are needed to judge a coin's real balance"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry thus illustrates the normal variability of a small sample: a gap of four out of five is nothing exceptional over so few tosses, with no cheating or rigged coin."
+  },
+  {
+   "question": "What concrete consequence do Tversky and Kahneman document among researchers?",
+   "choix": [
+    "Misplaced confidence in small samples, which leads to underpowered studies",
+    "A tendency to systematically ask for larger samples than necessary",
+    "A marked preference for nonsignificant results over significant ones",
+    "A habitual refusal to publish results obtained on fewer than a hundred subjects"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Misplaced confidence in small samples leads to running underpowered studies, then to interpreting their results, significant or not, as if they necessarily were."
+  },
+  {
+   "question": "Why does Amos Tversky not receive the Bank of Sweden prize in 2002 with Kahneman?",
+   "choix": [
+    "Because the committee judged his contribution to the work secondary",
+    "Because he had refused to share the distinction with Kahneman",
+    "Because the prize can be awarded only to an economist by training",
+    "Because he had died in 1996, before the prize was awarded"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Tversky dies in 1996. The Bank of Sweden prize in economic sciences, often called the Nobel in economics, is awarded in 2002 to Kahneman alone, who cannot share it with a departed colleague."
+  }
+ ]
+}

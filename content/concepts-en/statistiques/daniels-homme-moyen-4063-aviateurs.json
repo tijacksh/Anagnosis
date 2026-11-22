@@ -1,0 +1,85 @@
+{
+ "id": "sta-daniels-homme-moyen-4063-aviateurs",
+ "slug": "daniels-homme-moyen-4063-aviateurs",
+ "langue": "en",
+ "empreinte_fr": "fdf3444de56d098c",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged (only the inner quotation marks are typographic). The url points to the English report on archive.org (DTIC AD0010203)."
+  }
+ ],
+ "titre": "Of 4,063 Airmen Measured, None Was Average on Ten Measurements",
+ "accroche": "In 1952, the U.S. Air Force looks for the average man in its files. After ten successive sorts, no one is left.",
+ "contenu_vulgarise": "December 1952, Wright-Patterson Air Force Base, Ohio. Lieutenant Gilbert S. Daniels, of the U.S. Air Force's Aero Medical Laboratory, has the body measurements of more than 4,000 aircrew members, taken in 1950. Out of 131 available measurements, he selects ten, the kind used to design clothing: height, chest circumference, sleeve length, crotch height, vertical trunk circumference, hip circumference (sitting), neck circumference, waist circumference, thigh circumference, crotch length.\n\nHis question is simple: how many men are “average” on all ten at once?\n\n## What “Average” Means\n\nBeing exactly at the average catches almost no one: taking height to the nearest centimeter, less than 7% of the group. Daniels therefore defines a generous “approximate average”: within plus or minus three tenths of a standard deviation of the mean. By his account, this catches 25 to 30% of the group on each measurement, or at least the equivalent of one clothing size. For height, the range runs from about 174 to 178 centimeters: 1,055 men out of 4,063.\n\n## Ten Sorts\n\nHe then eliminates, measurement after measurement, those who fall outside the range. 1,055 men remain after height, 302 after chest circumference, then 143, 73, 28, 12, 6, 3, and 2. At the tenth measurement, none remain. For one of the last two men, Daniels examines one hundred measurements: 62 fall in the central zone, between the 30th and 70th percentiles, 29 are smaller, 9 clearly larger. Even the most “average” of the 4,063 is not average everywhere.\n\n## Why Ten Filters Are Enough\n\nA calculation in this entry, using the 26% proportion observed for height and assuming the measurements are independent, would leave about 5 men at the fifth step and, in expectation, about six thousandths of a man at the tenth. The measurements are not independent: a tall man has long sleeves, which is consistent with the 28 survivors observed at the fifth step instead of 5. This correlation delays the elimination; it does not prevent it.\n\n## A Population Without a Center\n\nThe popular account talks about pilots and cockpits. The report talks about aircrew and measurements chosen for clothing; it adds that cockpit or seat measurements would have given roughly the same results. Daniels sees nothing specific to airmen in this: the average man, he writes, is a very rare and very hard-to-clothe specimen, and the conclusion would hold for almost any group.\n\nHis recommendation is not to calculate the average better but to design for a range: a door designed for 6 feet 1 inch lets 95% of the group through. He adds that the combinations of several measurements at once are practically infinite in number, and that each is a problem of its own.",
+ "citation": {
+  "texte": "Thus it can be seen that the “average man” is a misleading and illusory concept as a basis for design criteria, and is particularly so when more than one dimension is being considered.",
+  "auteur": "Gilbert S. Daniels",
+  "source": "The “Average Man”?, Wright Air Development Center, Aero Medical Laboratory, December 1952",
+  "url": "https://archive.org/details/DTIC_AD0010203"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Of 4,063 airmen measured, none was average on ten measurements.",
+  "idee": "In 1952, Daniels removes, measurement after measurement, the men who fall outside the average range: 1,055, 302, 143, 73, 28, 12, 6, 3, 2, then 0. The average man, he concluded, is a misleading notion for designing an object: everyone departs from the average somewhere.",
+  "source_courte": "Daniels, Wright Air Development Center, 1952"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Daniels (1952) — The “Average Man”?",
+   "url": "https://archive.org/details/DTIC_AD0010203",
+   "note": "Six pages: the method of approximate ranges and the cascade of eliminations."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Daniels find no “average” man on all ten measurements at once?",
+  "choix": [
+   "Because the sample of 4,063 men was too small to contain a single man close to the average",
+   "Because the population of aircrew members was more varied than any civilian population",
+   "Because the range used was too narrow, and included only about one man in a hundred on each measurement",
+   "Because each average range catches only about a quarter of the group, and ten successive filters, even correlated, end up eliminating everyone"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Each measurement catches about a quarter of the group, and ten such filters stacked leave no one, even if the measurements are correlated. The sample was large, Daniels writes that the conclusion would hold for almost any group, and the range was deliberately wide, not narrow.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How does Daniels define an “approximately average” man on a given measurement?",
+   "choix": [
+    "A man exactly at the arithmetic mean, to the nearest centimeter",
+    "A man within plus or minus three tenths of a standard deviation of the mean",
+    "A man between the 30th and 70th percentiles on all measurements at once",
+    "A man among the 7% closest to the mean on each measurement"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Daniels defines the “approximate average” as the range of plus or minus three tenths of a standard deviation around the mean, which catches 25 to 30% of the group."
+  },
+  {
+   "question": "In the example of the last man Daniels analyzes on one hundred measurements, what does the distribution of his results show?",
+   "choix": [
+    "62 measurements fall in the central zone, 29 are smaller, 9 clearly larger",
+    "All one hundred measurements are centered between the 30th and 70th percentiles",
+    "Half the measurements are smaller than the average, the other half larger",
+    "None of his one hundred measurements falls in the central zone of the group"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Of this last man's one hundred measurements, 62 fall in the central zone between the 30th and 70th percentiles, 29 are smaller, and 9 clearly larger: even he is not average everywhere."
+  },
+  {
+   "question": "What practical conclusion does Daniels draw from this absence of an average man, regarding the design of objects?",
+   "choix": [
+    "The average must be recalculated on a larger sample before designing",
+    "A single object adjusted to the median of each measurement must be designed",
+    "Measuring aircrew members must be abandoned, as they are judged unrepresentative",
+    "One must design for a range of values, like a door that lets 95% of the group through"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Daniels recommends designing for a range rather than for an average: he gives the example of a door at 6 feet 1 inch, which lets 95% of the group through."
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "id": "sta-nightingale-diagramme-mortalite",
+ "slug": "nightingale-diagramme-mortalite",
+ "langue": "en",
+ "empreinte_fr": "3d0f5ba086168551",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "accroche",
+   "type": "erreur-possible-fr",
+   "note": "The French hook says that during the Crimean War 'almost no one dies in combat', but the body gives 21,097 deaths of which 16,323 from disease, i.e. about 4,774 (nearly a quarter) from combat and other causes. Rendered as in the French."
+  }
+ ],
+ "titre": "The Nurse Who Converted an Army with a Diagram",
+ "accroche": "During the Crimean War, almost no one dies in combat. It took a graph, not a report, for London to notice.",
+ "contenu_vulgarise": "Between 1854 and 1856, the Crimean War costs the British army 21,097 dead. Of these, 16,323, more than three quarters, die of disease: cholera, typhus, dysentery, encouraged by unsanitary military hospitals. Florence Nightingale, who leads the nurses sent there, returns convinced that this sanitary slaughter is largely avoidable. She runs into a very concrete problem: how to make a government understand, a government that will never read a statistical table in full?\n\n## A Graph Designed to Be Seen, Not Read\n\nIn 1858, Nightingale designs a diagram that remains famous as the “Nightingale rose,” two wheels divided into twelve monthly sectors, where the area of each sector represents the number of deaths that month, in three colors: blue for preventable diseases, red for combat wounds, black for other causes. Published in a work presented to the Secretary of State for War, it compares a first year of war with a second, after the improvement of sanitary conditions, the spectacular reduction of the blue area, at a glance, being worth more than a column of figures.\n\nThis choice is anything but incidental. Nightingale does not merely collect statistics: she stages them for a specific audience, which has neither the time nor the training to dissect a numerical report. The form of the diagram is an argument in its own right, as much as the data it carries.\n\n## A Statistician Before Her Time\n\nIn 1858, Nightingale becomes the first woman elected a member of the Statistical Society of London, today the Royal Statistical Society, which itself claims this distinction in its official history. She will remain a member there for more than fifty years, until her death.\n\nHer work durably shifts the focus of the public debate on the war: opinion and government, obsessed with combat losses, discover that the deadliest enemy was not on the battlefield, but in the military hospital itself. The sanitary reforms that follow, ventilation, drainage, ward hygiene, rest directly on this visual demonstration. The diagram becomes one of the first documented examples where a graphic representation, rather than a written report, changes public policy at the scale of a state. More than a century and a half before data visualization became a profession in its own right, Nightingale had understood that a correct figure, poorly presented, convinces no one.",
+ "citation": null,
+ "repere": {
+  "texte": "Of the 21,097 British deaths of the Crimean War (1854-1856), 16,323 are due to disease rather than combat, more than three quarters of total losses.",
+  "source": "Iris Veysey, Science Museum Group Journal, “A Statistical Campaign: Florence Nightingale and Harriet Martineau's England and Her Soldiers,” 2016",
+  "url": "https://journal.sciencemuseum.ac.uk/article/nightingale-and-martineau/"
+ },
+ "carte": {
+  "punch": "Of 21,097 British soldiers who died in the Crimea, more than three quarters died of disease.",
+  "idee": "In 1858, Florence Nightingale designs a colorful wheel diagram to show that disease, not combat, killed the most British soldiers in the Crimea. The same year, she becomes the first woman elected to the Statistical Society. An image succeeded where a numerical report would have failed.",
+  "source_courte": "Veysey, Science Museum Group Journal, 2016"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Science Museum — Florence Nightingale, pioneer statistician",
+   "url": "https://www.sciencemuseum.org.uk/objects-and-stories/florence-nightingale-pioneer-statistician",
+   "note": "Broader context on Nightingale's contribution to statistics applied to public health."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Florence Nightingale choose to present her mortality statistics as a diagram rather than a numerical table?",
+  "choix": [
+   "Because numerical tables were forbidden in reports addressed to the British government of the time",
+   "Because she did not have enough precise data to build a detailed table",
+   "Because the Statistical Society of London required illustrations for all publications by its members",
+   "Because a diagram makes visible at a glance a comparison that an audience without statistical training would not have read in a table"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Nightingale was addressing a government and a public that had neither the time nor the training to dissect a column of figures. The colored area of her diagram's sectors made immediately visible the spectacular drop in deaths from disease after the sanitary reform, an argument that figures alone would have made invisible at first glance.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Of the 21,097 British deaths of the Crimean War, what proportion is due to disease rather than combat?",
+   "choix": [
+    "More than three quarters",
+    "About half",
+    "Less than a quarter",
+    "Nearly all, more than 95%"
+   ],
+   "bonne_reponse": 0,
+   "explication": "16,323 of the 21,097 deaths are due to disease, more than three quarters of the total, which Nightingale's diagram makes visible."
+  },
+  {
+   "question": "What do the three colors of the wheel diagram designed by Nightingale represent?",
+   "choix": [
+    "Blue for officers, red for soldiers, black for civilians",
+    "Blue for preventable diseases, red for wounds, black for other causes",
+    "Blue for the British army, red for the French army, black for the Russian army",
+    "Blue for summer, red for winter, black for the in-between seasons"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Each monthly sector of the diagram distinguishes by color the deaths due to a preventable disease, to a combat wound, or to another cause."
+  },
+  {
+   "question": "What does Nightingale's diagram compare, from one wheel to the other?",
+   "choix": [
+    "A first year of war with a second, after the sanitary reform",
+    "The British army with the strength of the allied French army",
+    "Military hospitals with civilian hospitals in London",
+    "The losses of the army with those of the Royal Navy"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Comparing the two wheels shows the spectacular reduction of the blue area after the reform of sanitary conditions."
+  },
+  {
+   "question": "What distinction does Florence Nightingale obtain in 1858, the same year as her diagram?",
+   "choix": [
+    "She is appointed head of a British military hospital",
+    "She becomes the first woman elected a member of the Statistical Society of London",
+    "She receives the title of baroness for her services to the Crown",
+    "She is appointed an official adviser to the War Office"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Nightingale joins the Statistical Society of London in 1858, today the Royal Statistical Society, which claims this distinction."
+  }
+ ]
+}

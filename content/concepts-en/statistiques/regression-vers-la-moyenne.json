@@ -1,0 +1,90 @@
+{
+ "id": "sta-regression-vers-la-moyenne",
+ "slug": "regression-vers-la-moyenne",
+ "langue": "en",
+ "empreinte_fr": "2ae21f6fb7d6a45e",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged. The url points to the English source (Nobel Prize biographical page). Source line translated from the French."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French heading says the regularity was observed 'a century earlier' than Kahneman's 1960s teaching, but Galton's work is from 1886, i.e. roughly 80 years earlier. Rendered as in the French."
+  }
+ ],
+ "titre": "A Flight Instructor Convinced That Yelling Works Better Than Praise",
+ "accroche": "Praise a pilot after a fine flight, and he does worse next time. Punish him after a botched flight, and he improves. The instructor is wrong about the cause.",
+ "contenu_vulgarise": "In the 1960s, the psychologist Daniel Kahneman teaches Israeli Air Force flight instructors that praise makes students progress better than reprimands. A seasoned instructor interrupts him: he has often praised a cadet after an impeccable maneuver, and the cadet does worse on the next flight; he has often reprimanded him after a botched maneuver, and the cadet improves afterward. Conclude from this, he says, that punishment works better than reward.\n\n## A Regularity Observed a Century Earlier, Elsewhere\n\nThe instructor is not wrong about what he observes. He is wrong about what he deduces from it. Kahneman recounts, in his Nobel Prize autobiography, having understood on the spot that he was witnessing a live demonstration of a phenomenon already described by Francis Galton in 1886: regression to the mean.\n\nGalton had observed it in human height. The children of very tall parents are, on average, slightly less tall than their parents; the children of short parents are slightly taller than theirs. Children's height “regresses” toward the population mean, and Galton puts the ratio at two thirds: a child's deviation from the mean is, on average, two thirds of the deviation of his parents.\n\nThe mechanism is purely statistical, with nothing causal about it. An exceptional performance, a cadet's best flight, or the greatest height of a couple, always combines a share of real skill and a share of luck, or measurement noise. An extreme result has a good chance of having benefited from a bit of luck on top of skill; on the next flight, that luck has little reason to recur, and the result naturally falls back closer to the mean, whether or not there was praise in between. Symmetrically, a botched flight has a good chance of having piled up a bit of bad luck, which does not repeat either.\n\n## What the Instructor Could Not See\n\nThe instructor praised after the best flights and reprimanded after the worst. In both cases, the next flight mechanically moved closer to the cadet's mean, better after a reprimand, worse after praise. Nothing in these two observations made it possible to tell the real effect of punishment from this simple statistical return. Kahneman will draw a more general conclusion from it: because we reward after a success and punish after a failure, and because regression to the mean takes its course in both cases, it becomes almost impossible to learn from experience that punishment is no more effective than reward, as experience seems, each time, to confirm the opposite.\n\nThe same trap awaits anyone who judges a treatment, a training program, or a reform from the most extreme cases: the worst students in a class almost always improve the following year, the best salespeople of a quarter often disappoint the next quarter, with no intervention responsible for it.",
+ "citation": {
+  "texte": "This was a joyous moment, in which I understood an important truth about the world: because we tend to reward others when they do well and punish them when they do badly, and because there is regression to the mean, it is part of the human condition that we are statistically punished for rewarding others and rewarded for punishing them.",
+  "auteur": "Daniel Kahneman",
+  "source": "Autobiography for the Nobel Prize in Economic Sciences, Nobel Foundation, 2002",
+  "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "A flight instructor swore that yelling works better than praise.",
+  "idee": "Praise after a good flight, and the next one is often worse; reprimand after a bad flight, and it improves. Not the effect of punishment: regression to the mean, described by Galton as early as 1886, an extreme result naturally falls back closer to the mean, luck or no luck.",
+  "source_courte": "Kahneman, Nobel autobiography, 2002"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Galton (1886) — Regression towards Mediocrity in Hereditary Stature",
+   "url": "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf",
+   "note": "The founding text, with the original diagram linking parents' height to children's."
+  }
+ ],
+ "quiz": {
+  "question": "Why is the next flight of a praised cadet often worse, without the praise being the cause?",
+  "choix": [
+   "Because praise relaxes the cadet, who lets his attention slip on the next flight",
+   "Because an exceptional performance mixes luck and skill, and the luck has little reason to repeat on the next flight",
+   "Because instructors grade more harshly after complimenting a student",
+   "Because the effect is specific to military aviation and is not found in other contexts"
+  ],
+  "bonne_reponse": 1,
+  "explication": "An extreme performance, good or bad, always mixes skill and chance. The favorable chance of an excellent flight does not generally repeat on the next one, which therefore falls back closer to the cadet's real mean, independently of any punishment or reward. It is this same mechanism, symmetrically, that makes a botched flight followed by a better one, even without a reprimand.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What ratio does Francis Galton establish, in 1886, for children's height relative to that of their parents?",
+   "choix": [
+    "A child's deviation from the mean is, on average, two thirds of the deviation of his parents",
+    "Children always have exactly the same average height as their parents",
+    "A child's deviation from the mean systematically doubles that of his parents",
+    "No measurable relationship exists between the height of parents and that of children"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Galton puts the ratio at two thirds: a child's deviation from the mean is, on average, two thirds of the deviation of his parents, whether they are very tall or very short."
+  },
+  {
+   "question": "According to the more general conclusion Kahneman draws from this anecdote, why is it hard to learn from experience that punishment is no more effective than reward?",
+   "choix": [
+    "Because military instructors refuse on principle to question their methods",
+    "Because we reward after a success and punish after a failure, while regression to the mean takes its course in both cases",
+    "Because scientific studies on the subject are still too few",
+    "Because human memory retains failures better than successes"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Because reward and punishment follow, respectively, the best and the worst performances, and regression to the mean acts in both cases, experience seems each time to confirm that punishing works better."
+  },
+  {
+   "question": "What other example does the entry give of the same statistical trap, outside aviation?",
+   "choix": [
+    "Airline pilots who progress faster than military pilots",
+    "Statistics students who understand this bias faster than others",
+    "Children of very tall parents who systematically become taller than them",
+    "The best salespeople of a quarter who often disappoint the following quarter, with no particular intervention"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The entry also cites the worst students in a class who almost always improve the following year, and the best salespeople of a quarter who often disappoint the next quarter, with no intervention responsible for it."
+  }
+ ]
+}

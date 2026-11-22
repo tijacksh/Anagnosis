@@ -1,0 +1,78 @@
+{
+ "id": "sta-crise-de-la-replication",
+ "slug": "crise-de-la-replication",
+ "langue": "en",
+ "empreinte_fr": "0683dcf6251abdef",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Redo a Hundred Studies, and Find Only a Third of the Results",
+ "accroche": "97% of published psychology studies reported a significant effect. When a team repeated them identically, it found only 36%.",
+ "contenu_vulgarise": "In 2015, a consortium of more than two hundred researchers, the Open Science Collaboration project, publishes in *Science* the result of an unusual undertaking: taking one hundred psychology studies that had already been published and redoing them identically, with the same protocols, to see whether they would find the same results. The hundred original studies reported, without exception or nearly so, a statistically significant effect: 97% of them. Once replayed, only 36% of the replications find a significant result.\n\n## A Threshold That Does Not Guarantee What We Think\n\nThe conventional threshold for statistical significance, the famous p-value below 0.05, is supposed to limit to 5% the risk of wrongly concluding that an effect exists. That figure, however, assumes that only a single analysis was attempted on the data. Yet a 2011 article, remembered as “False-Positive Psychology,” shows by simulation that by combining four ordinary, harmless analysis choices (adding observations along the way, testing two different measures of the same effect, controlling or not for a variable such as gender, or choosing after the fact which conditions to compare), the false-positive rate at p < 0.05 climbs to 61%. The authors, Joseph Simmons, Leif Nelson, and Uri Simonsohn, insist: this behavior is not deliberate dishonesty. It is the consequence of decisions that each seem reasonable taken in isolation, which they call “researcher degrees of freedom.”\n\nThe epidemiology researcher John Ioannidis had anticipated the problem as early as 2005, in an article whose title does not mince words: “Why Most Published Research Findings Are False.” He shows, through probabilistic reasoning, that the more flexibility a field of research leaves in the design of studies, the definitions adopted, and the analyses run, the less likely the findings published in it are to be true, even if each study taken in isolation followed the rules.\n\n## What the Crisis Changed, Concretely\n\nThe Open Science Collaboration's result is not an accusation of widespread fraud: the great majority of the replayed studies honestly followed the rules in force at the time of their publication. It was the system of incentives that produced the problem: publishing almost exclusively positive results pushes researchers, without any of them needing to cheat consciously, to keep only the analyses that “work.”\n\nThe discipline has drawn from this practices that are now common: preregistering the hypotheses and the analysis plan before collecting the data, to rule out choosing the analysis after seeing the result, and also publishing negative results. The lesson goes beyond psychology: a statistically significant result says nothing, by itself, about the probability that it will be reproduced. One also needs to know how many analyses were tried before it was found.",
+ "citation": null,
+ "repere": {
+  "texte": "97% of the hundred original psychology studies reported a statistically significant result. Once reproduced identically by the Open Science Collaboration project, only 36% of the replications find a significant result.",
+  "source": "Open Science Collaboration, “Estimating the Reproducibility of Psychological Science,” Science, vol. 349, no. 6251, 2015",
+  "url": "https://doi.org/10.1126/science.aac4716"
+ },
+ "carte": {
+  "punch": "97% of studies reported a significant effect. Redone, only 36% find it.",
+  "idee": "In 2015, the Open Science Collaboration takes up one hundred psychology studies: 97% had reported a significant result, and 36% of the replications find it. No widespread fraud: according to a 2011 simulation, harmless analysis choices push false positives up to 61%, against the 5% expected.",
+  "source_courte": "Open Science Collaboration, Science, 2015"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Ioannidis (2005) — Why Most Published Research Findings Are False",
+   "url": "https://doi.org/10.1371/journal.pmed.0020124",
+   "note": "Fully open access, without excessive statistical jargon."
+  }
+ ],
+ "quiz": {
+  "question": "Why can the rate of significant results drop sharply when a study is reproduced identically?",
+  "choix": [
+   "Because the researchers who reproduce a study generally lack experience compared with the original authors",
+   "Because some real effects naturally fade with the time between two measurements",
+   "Because flexibility in the choice of analyses inflates, without fraud, the false-positive rate of the original studies well beyond the targeted 5% threshold",
+   "Because scientific journals require stricter significance thresholds for replications than for original studies"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The 5% false-positive threshold holds only if a single analysis was attempted. In practice, several reasonable choices (which observations to keep, which measures to compare) are often tried until one turns out significant, which mechanically inflates the real false-positive rate, without any researcher needing to cheat consciously. A preregistered replication, which fixes the analysis in advance, then finds the announced effect less often.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the 2011 simulation, how high does the false-positive rate climb when four ordinary analysis choices are combined?",
+   "choix": [
+    "To about 10%, double the targeted threshold",
+    "To 36%, the rate found by the replications",
+    "To 61%, well beyond the 5% expected",
+    "To 97%, the share of significant studies originally"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The 5% guaranteed by the p < 0.05 threshold assumes that only a single analysis was attempted. By combining four mundane decisions, the simulation pushes the false-positive rate up to 61%. The 97% and the 36% are figures from the 2015 replication study, not from this simulation."
+  },
+  {
+   "question": "What do the authors of “False-Positive Psychology” call these analysis choices?",
+   "choix": [
+    "The publication bias specific to scientific journals",
+    "The measurement error inherent in the instruments used",
+    "The natural drift of effects over the years",
+    "Researcher degrees of freedom"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Simmons, Nelson, and Simonsohn insist on one point: these decisions are not dishonest; each seems reasonable taken in isolation. It is their accumulation that inflates the false-positive rate, and they call it researcher degrees of freedom."
+  },
+  {
+   "question": "What does John Ioannidis show in his 2005 article?",
+   "choix": [
+    "That deliberate fraud explains the majority of false results",
+    "That the flexibility left in a field lowers the reliability of its results",
+    "That the 0.05 threshold is enough to guarantee the reliability of a study",
+    "That replications fail mainly for lack of resources"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Ioannidis reasons in probabilities: the more latitude a field leaves in the design of studies, the definitions adopted, and the analyses run, the less likely its published results are to be true, even if each study followed the rules. He does not speak of fraud."
+  }
+ ]
+}

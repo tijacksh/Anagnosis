@@ -1,0 +1,78 @@
+{
+ "id": "sta-john-graunt-naissance-demographie",
+ "slug": "john-graunt-naissance-demographie",
+ "langue": "en",
+ "empreinte_fr": "b803272ff0bf6d8c",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says Quetelet spoke of the average man 'a century and a half' after Graunt (1662); Quetelet's average man dates from the 1830s, about 170 years later. Rendered as in the French."
+  }
+ ],
+ "titre": "A London Merchant Invents Demography by Counting the Dead",
+ "accroche": "In 1662, a London merchant with no scientific training goes through half a century of death records, and single-handedly founds a discipline that did not exist.",
+ "contenu_vulgarise": "In 1662, the London merchant John Graunt publishes *Natural and Political Observations Made upon the Bills of Mortality*, a book that looks like nothing much: the methodical analysis of the weekly records of deaths that the city of London has published since 1604, originally to track the progress of the plague. Graunt is neither a physician nor a mathematician; he is a haberdasher, later a city councilman. But his book presents the world with an entirely new idea: the deaths of a city, added up and classified year after year, obey regularities that no single death taken in isolation lets one guess.\n\n## Counting the Dead to Understand the Living\n\nGraunt sorts decades of records by cause of death, by parish, by season. He thus builds the first mortality table in history: for every hundred children born in London, he calculates how many are still alive at 6, at 16, at 36. He has no data on the actual age of the deceased, only on the causes of death and their frequency, which he cross-checks through reasoning of his own. He also establishes that the proportion of boys among births slightly exceeds that of girls (a regularity stable from year to year), and puts forward an estimate of London's population from the annual number of deaths alone, for lack of a census. None of this existed before him in a quantified and verifiable form: the very word “statistics,” in its modern sense, has not yet been invented.\n\n## A Method That Invents Its Own Object\n\nOn February 5, 1662, Graunt presents fifty copies of his book to the Royal Society, which elects him a member despite his lack of a university degree. King Charles II personally approves this decision, so impressed is he by the work. Historians now regard Graunt as the joint founder of two disciplines that did not exist before him in a rigorous form: demography and statistical epidemiology. What strikes one, in hindsight, is not only the scale of the work (decades of records analyzed by hand), but the gesture itself: turning columns of administrative figures, originally kept to monitor an epidemic, into an instrument able to reveal regularities invisible at the scale of a single human life. A century and a half before Quetelet spoke of the average man, Graunt had already shown that a large number of individual cases, added up, say something that no single case can say on its own.",
+ "citation": null,
+ "repere": {
+  "texte": "In 1662, Graunt builds the first mortality table in history from the weekly records of deaths in London kept since 1604: for every hundred children born in the city, he calculates how many would still be alive at 6, 16, and 36, without any data on the actual age of the deceased.",
+  "source": "John Graunt, Natural and Political Observations Made upon the Bills of Mortality, London, 1662",
+  "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-graunt/"
+ },
+ "carte": {
+  "punch": "A merchant with no scientific training invented demography in 1662.",
+  "idee": "In 1662, the London merchant John Graunt goes through half a century of death records and builds the first mortality table in history, with no scientific training. The Royal Society elects him despite his lack of a university degree. He single-handedly founds statistical demography.",
+  "source_courte": "Graunt, Bills of Mortality, 1662"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "On what does John Graunt base, in 1662, the first mortality table in history?",
+  "choix": [
+   "On a complete census of the London population, carried out house by house",
+   "On parish birth registers, cross-checked with residents' declarations of age",
+   "On surveys of London physicians about their patients' life expectancy",
+   "On the weekly records of causes of death in London, kept since 1604 to track the plague"
+  ],
+  "bonne_reponse": 3,
+  "explication": "No census and no data on age at death existed at the time: Graunt builds his mortality table solely from the records of deaths classified by cause, kept since 1604 to monitor plague epidemics, a methodological tour de force with no equivalent before him.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where did the weekly death records that Graunt analyzes originally come from?",
+   "choix": [
+    "They had been compiled by Graunt himself, by questioning families one by one",
+    "They came from parish birth registers, kept since the Middle Ages",
+    "They were kept by the city of London since 1604, originally to track the progress of the plague",
+    "They had been commissioned by the Royal Society specifically for his study"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The weekly death records had been published by the city of London since 1604, originally to track the progress of the plague; Graunt merely analyzed them methodically."
+  },
+  {
+   "question": "What regularity among births does Graunt establish in his 1662 book?",
+   "choix": [
+    "That births double every year in the poorest parishes of London",
+    "That no regularity appears from one year to the next in the proportion of boys and girls",
+    "That the number of girls born always exceeds that of boys, by about ten percent",
+    "That the number of boys born slightly exceeds, but stably from year to year, that of girls"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Graunt establishes that the proportion of boys among births slightly exceeds that of girls, a regularity he observes to be stable from year to year."
+  },
+  {
+   "question": "How does Graunt estimate the population of London, in the absence of a census?",
+   "choix": [
+    "By counting the taxable houses listed by the city",
+    "From the annual number of deaths alone",
+    "By multiplying the number of parishes by a standard average of inhabitants",
+    "By taking up an earlier Royal Society estimate, which he adjusts slightly"
+   ],
+   "bonne_reponse": 1,
+   "explication": "For lack of a census, Graunt puts forward an estimate of London's population from the annual number of deaths alone that he went through in the records."
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "id": "sta-paradoxe-du-depistage",
+ "slug": "paradoxe-du-depistage",
+ "langue": "en",
+ "empreinte_fr": "3e739b7376009dd8",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "A Test That Is 90% Accurate, and Yet Wrong Nine Times Out of Ten",
+ "accroche": "Faced with a screening test that is 90% reliable, most of the doctors surveyed are completely wrong about the real chance of being ill.",
+ "contenu_vulgarise": "In 2007, the German psychologist Gerd Gigerenzer and his colleagues put a question to 160 gynecologists during continuing education: in a population of 40-year-old women with no symptoms, the probability of having breast cancer is 1%. A woman has a mammogram and the result is positive. This test detects 90% of actual cancers, but also gives a positive result in 9% of women who do not have cancer. What is the probability that this woman actually has cancer? Only 21% of the gynecologists surveyed answer correctly. Most put forward a figure close to 90%, or 81%. The right answer is in fact around 9%.\n\n## The Number Almost No One Looks At\n\nThe error, known as base rate bias, consists in focusing on the reliability of the test, 90% detection, while forgetting a figure that was nonetheless given in the problem: the rarity of the disease itself. Out of 1,000 women, only 10 actually have cancer (1%); the test detects 9 of them (90% of 10). But among the 990 healthy women, 9% still get a positive result, about 89 women. Of the 98 positive results in all (9 true cases plus 89 false alarms), only 9 are actually ill: 9 divided by 98, or about 9%. The test remains useful, it multiplies the initial 1% probability by nine, but it is very far from pointing to a certainty, because the group of healthy women is huge compared with the group of ill women, and a low false-alarm rate draws a large absolute number of people from it.\n\n## A Problem of Presentation, Not Only of Calculation\n\nGigerenzer shows that the error is not specific to doctors or to a lack of aptitude for probabilities: it comes largely from the way the problem is worded. Reworded in natural frequencies rather than percentages, out of 1,000 women, 10 have cancer; among them, 9 have a positive test; among the 990 women without cancer, 89 also have a positive test, the same question becomes markedly easier to solve correctly, including for health professionals with no particular statistical training. The consequence goes beyond the case of breast cancer: whenever a screening test, a fraud-detection algorithm, or a security check is applied to a population where the event sought is rare, a positive result remains, most of the time, a false alarm, and mistaking it for a diagnosis amounts to announcing, wrongly, a near-certainty to people who are in reality very probably healthy.",
+ "citation": null,
+ "repere": {
+  "texte": "Of 1,000 40-year-old women tested, 10 actually have breast cancer. The test detects 9, but also produces about 89 false alarms among the healthy women: of 98 positive results in all, only 9 correspond to an actual cancer, about 9%, against the 90% or more estimated by the majority of the 160 gynecologists surveyed.",
+  "source": "Gigerenzer, Gaissmaier, Kurz-Milcke, Schwartz & Woloshin, Psychological Science in the Public Interest, 8(2), 2007",
+  "url": "https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2008.00033.x"
+ },
+ "carte": {
+  "punch": "A test that is 90% reliable can be wrong nine times out of ten when it says “positive.”",
+  "idee": "In 2007, 160 gynecologists answer a simple probability problem: for a disease affecting 1% of women, with a test that is 90% reliable, what is the real probability of being ill after a positive result? Only 21% answer correctly: about 9%, not 90%.",
+  "source_courte": "Gigerenzer et al., 2007"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "A disease affects 1% of a population. A test detects it in 90% of ill cases, and errs (false positive) in 9% of healthy people. A person tests positive: what is, roughly, their real probability of being ill?",
+  "choix": [
+   "About 90%, since that is the test's announced reliability",
+   "About 9%, because the very numerous healthy people produce almost as many false positives as true positives",
+   "About 50%, a positive result splitting the probability evenly between ill and healthy",
+   "About 99%, by multiplying the test's reliability by the complement of the false-positive rate"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Out of 1,000 people, only 10 are ill (1%) and the test detects 9. But among the 990 healthy people, 9% still get a positive result, about 89 people. Of 98 positive results, only 9 are actually ill: about 9%, not 90%.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What proportion of the 160 gynecologists surveyed by Gigerenzer answers correctly, and what does the majority answer instead?",
+   "choix": [
+    "21% are wrong, but 79% give the right answer of about 9%",
+    "All 160 gynecologists are wrong, with none coming close to the right answer",
+    "Only 21% answer correctly; the majority put forward a figure close to 90% or 81%",
+    "50% answer correctly, the other half putting forward a figure close to 50%"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Of the 160 gynecologists surveyed by Gigerenzer in 2007, only 21% give the right answer, around 9%. Most put forward a figure close to the test's reliability itself, 90% or 81%, forgetting the rarity of the disease."
+  },
+  {
+   "question": "What rewording does Gigerenzer show can make the same problem markedly easier to solve correctly?",
+   "choix": [
+    "Giving the doctors a calculator during the test, without changing the problem",
+    "Reducing the number of women tested in the problem, from 1,000 to only 100",
+    "Replacing breast cancer with an even rarer disease in the problem",
+    "Rewording the problem in natural frequencies rather than percentages"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Reworded in natural frequencies, out of 1,000 women, 10 have cancer, among them 9 have a positive test, among the 990 without cancer 89 also have a positive test, the same question becomes markedly easier to solve, including without statistical training."
+  },
+  {
+   "question": "Beyond cancer screening, to what other fields does the text extend this same reasoning about false positives?",
+   "choix": [
+    "Only to other cancers, never to fields outside medicine",
+    "To any screening, fraud detection, or security check applied to a rare event",
+    "Only to university statistics exams, with no real practical application",
+    "Exclusively to prenatal genetic tests, to the exclusion of any other screening"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text extends the finding beyond breast cancer: whenever a screening test, a fraud-detection algorithm, or a security check is applied to a population where the event sought is rare, a positive result most often remains a false alarm."
+  }
+ ]
+}

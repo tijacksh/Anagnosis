@@ -1,0 +1,72 @@
+{
+ "id": "sta-sondage-literary-digest-1936",
+ "slug": "sondage-literary-digest-1936",
+ "langue": "en",
+ "empreinte_fr": "81fe892449258f04",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Biggest Poll in History, and the Most Wrong",
+ "accroche": "In 1936, a magazine surveys ten million Americans and picks the wrong president: sample size never suffices to correct a bias.",
+ "contenu_vulgarise": "In October 1936, the American magazine *The Literary Digest* publishes its prediction for the presidential election, an exercise it has practiced successfully since 1920: in every previous election, it had guessed the winner. This time, the method is more massive than ever: ten million ballots mailed out, 2.3 million responses tallied. The verdict seems beyond appeal: the Republican candidate Alf Landon would win with 57.1% of the vote against the incumbent president Franklin Roosevelt, with 370 electoral votes to 161. On election day, Roosevelt gets 60.8% of the vote and wins 46 of the 48 states, with 523 electoral votes to 8. The gap between the prediction and the result, well over fifteen points, remains one of the biggest errors ever made by a major poll.\n\n## The List That Skewed Everything\n\nThe magazine had built its mailing list from telephone directories, automobile registrations, and private club rolls, the same files that had worked well in earlier elections. In the depths of the Great Depression, owning a telephone, a car, or a club card leans toward the well-off, more Republican than the country as a whole. A 1988 study by the political scientist Peverill Squire, based on a 1937 Gallup survey that asked respondents the question directly, puts this first bias at about eleven points in favor of Landon. But this bias alone does not suffice to explain the error: even among households owning both a telephone and an automobile, Roosevelt remains the majority choice, at 55%. The second, heavier bias lies in the response: of the ten million ballots sent, only 2.3 million come back, and Squire shows that Landon's supporters returned theirs markedly more often than Roosevelt's, which adds about seven further points. A 2012 study by the researcher Dominic Lusinchi will go further: it is Roosevelt's voters who primarily did not respond, and it is this, not the composition of the list, that carries most of the error.\n\n## The Myth That the Failure Destroyed\n\nThat same year, a statistician still little known, George Gallup, correctly predicts Roosevelt's victory, with a sample of about 50,000 people, fifty times smaller than that of the *Literary Digest*. His method, however, is not a random draw. In 1936, Gallup allocates his interviewers by quotas, designed so that the sample reflects the makeup of the whole country. Neither the *Literary Digest*'s list nor the responses it receives do so. This contrast fixed a lesson of method that remains true: a gigantic sample built on a list and on responses that both lean the same way remains biased, whereas a small sample built to represent the entire country is not. Size reassures, but it corrects nothing: it reproduces the same bias ten times, a hundred times, ten million times. The *Literary Digest*, which had built its reputation on the scale of its survey, ceases publication a year and a half later. Since then, it is the representativeness of the sample (obtained by quotas in 1936, by a truly random draw after the failure of 1948), and not its size, that distinguishes a reliable poll from a massive but vain collection of data.",
+ "citation": null,
+ "repere": {
+  "texte": "The Literary Digest surveyed ten million Americans and collected 2.3 million responses; it was off by more than fifteen points on the final score, the biggest error ever recorded by a major poll before the modern era.",
+  "source": "Peverill Squire, “Why the 1936 Literary Digest Poll Failed,” Public Opinion Quarterly, 52(1), 1988",
+  "url": "https://doi.org/10.1086/269085"
+ },
+ "carte": {
+  "punch": "Ten million ballots sent, and still the wrong president predicted.",
+  "idee": "In 1936, the Literary Digest surveys ten million Americans and predicts Alf Landon's victory. Roosevelt wins with 60.8% of the vote: the list leaned right, and Landon's supporters returned their ballots far more often. Size corrected nothing.",
+  "source_courte": "Squire, Public Opinion Quarterly, 1988"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why was the Literary Digest's 1936 poll so wrong, despite ten million ballots sent?",
+  "choix": [
+   "The number of ballots sent was actually too small for a country the size of the United States",
+   "Polling firms did not yet exist and the method was purely experimental",
+   "The list already leaned right, and Landon's supporters also returned their ballots far more often",
+   "Roosevelt changed his campaign platform between the poll and the election, altering voters' choices"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Even households with a telephone and an automobile voted mostly for Roosevelt: the list alone does not explain the error. It is its combination with nonresponse, more marked among Landon's supporters, that produced such a wrong poll, and not the number of ballots, the absence of competing polling firms, or a change of platform.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What score did the Literary Digest predict for Alf Landon, and what was Roosevelt's actual result?",
+   "choix": [
+    "Landon at 45%, Roosevelt at 55% of the vote",
+    "Landon at 50%, Roosevelt at 50%, a virtual tie",
+    "Landon at 65%, Roosevelt at 35% of the vote",
+    "Landon at 57.1%, with Roosevelt actually getting 60.8% of the vote"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The Literary Digest predicted 57.1% for Landon; Roosevelt actually won 60.8% of the vote and 523 electoral votes to 8, a gap of more than fifteen points."
+  },
+  {
+   "question": "According to Peverill Squire's study (1988), what additional bias was added to the composition of the mailing list?",
+   "choix": [
+    "Landon's supporters returned their ballots far more often than Roosevelt's",
+    "Many ballots were lost in postal delivery",
+    "The magazine deliberately excluded voters in the Southern states from its survey",
+    "The households surveyed mostly changed their minds between the mailing and the election"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Squire puts the response bias at about seven additional points: Landon's supporters returned their ballots markedly more often than Roosevelt's, among the 2.3 million responses received."
+  },
+  {
+   "question": "According to Dominic Lusinchi (2012), what explains most of the error in the 1936 poll?",
+   "choix": [
+    "The composition of the mailing list, overrepresenting well-off households",
+    "A calculation error in tallying the 2.3 million ballots received",
+    "Nonresponse, overwhelmingly on the part of Roosevelt's voters",
+    "Roosevelt's refusal to take part publicly in the magazine's poll"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Lusinchi goes further than Squire: he attributes most of the error to nonresponse, overwhelmingly on the part of Roosevelt's voters, rather than to the composition of the list itself."
+  }
+ ]
+}

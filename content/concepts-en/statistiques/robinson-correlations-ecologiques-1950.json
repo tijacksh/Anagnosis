@@ -1,0 +1,85 @@
+{
+ "id": "sta-robinson-correlations-ecologiques-1950",
+ "slug": "robinson-correlations-ecologiques-1950",
+ "langue": "en",
+ "empreinte_fr": "384dc0eca4abeec2",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged. The url points to the English original (Robinson, American Sociological Review, 1950, PDF)."
+  }
+ ],
+ "titre": "Foreign-Born and Illiteracy: +0.118 Between Persons, −0.619 Between Divisions",
+ "accroche": "1930 census: states with more foreign-born residents tend to have fewer illiterate people, even though those persons are more often illiterate.",
+ "contenu_vulgarise": "U.S. census of 1930, white and Black population aged ten and over, the only groups Robinson keeps: about 97 million people, of whom 3.9 million can neither read nor write. Among the 13.2 million foreign-born, 9.9% are illiterate; among the 84.1 million born in the United States, 3.1%. At the level of persons, being foreign-born goes with illiteracy: the correlation is +0.118.\n\nLet us move from persons to territories, state by state, across the 48 states of the time: the percentage of foreign-born against the percentage of illiterates. Robinson publishes a correlation of −0.526 (a calculation corrected below). States with proportionally more foreign-born residents tend to have fewer illiterates. Grouping the states into nine large census divisions, the correlation reaches −0.619.\n\n## A Practice in the Crosshairs, Not a Case\n\nIn 1950, the sociologist William S. Robinson publishes these figures in the *American Sociological Review*. He is not seeking to study immigration. He is targeting a habit: many studies, from tuberculosis to voting in Chicago, were calculating “ecological correlations,” between percentages of territories, for lack of data on persons. Their goal, however, was to understand the behavior of individuals. Robinson notes that the substitution was made tacitly.\n\n## Why the Two Numbers Diverge\n\nA territory's percentage is a marginal total: how many foreign-born, how many illiterates, out of how many inhabitants. It says nothing about how these two properties cross among the same persons, and it is this crossing that fixes the individual correlation. Yet a four-cell table is not determined by its totals: very different crossings give the same margins. For a single correlation between territories, many correlations between persons may therefore correspond.\n\nRobinson also establishes the exact relationship between the two. The ecological correlation generally exceeds the individual one in absolute value, and it grows when territories are grouped: −0.526 for the states, −0.619 for the divisions (figures published by Robinson).\n\n## An Error Corrected Sixty Years Later\n\nIn 2011, Manfred te Grotenhuis, Rob Eisinga, and S. V. Subramanian noted that Robinson's calculation by state mixed different populations: at the state level, he had included persons from groups other than whites and Blacks, whom he had excluded at the person level, and he had not weighted the states by their population. Corrected, the correlation by state between foreign-born and illiteracy is −0.462 instead of −0.526. The figures by division (−0.619) and the correlation between persons (+0.118) are not affected. The gap remains sharp: negative between territories, positive between persons.\n\n## What the Result Shifts\n\nA correlation between territories is not a blurry version of the correlation between persons: it can have the opposite sign. Robinson draws from it the article's clearest conclusion: ecological correlations cannot be used as substitutes for individual ones. He acknowledges that this casts doubt on several important studies of his time.\n\nCaution does not apply in only one direction. In 2009, Subramanian and his colleagues reopen these data and recall that reasoning solely about individuals also has its pitfalls. Still, every map of percentages by département or by region is, in Robinson's sense, an ecological correlation in the making.",
+ "citation": {
+  "texte": "The relation between ecological and individual correlations which is discussed in this paper provides a definite answer as to whether ecological correlations can validly be used as substitutes for individual correlations. They cannot.",
+  "auteur": "W. S. Robinson",
+  "source": "“Ecological Correlations and the Behavior of Individuals,” American Sociological Review, vol. 15, p. 357, 1950",
+  "url": "https://www.stats.uwo.ca/faculty/aim/2015/9938/articles/Robinson1950AmericanSociologicalReview.pdf"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Between persons, +0.118. Between census divisions, −0.619. Same data.",
+  "idee": "1930 census: individually, the foreign-born are more often illiterate (9.9% versus 3.1%). But territories with more immigrants tend to have fewer illiterates. Robinson (1950): a correlation between territories says nothing reliable about persons.",
+  "source_courte": "Robinson, American Sociological Review, 1950"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Subramanian et al. (2009) — Revisiting Robinson",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663721/",
+   "note": "A modern rereading of the 1950 article, with the 1930 census data."
+  }
+ ],
+ "quiz": {
+  "question": "Why can the correlation calculated on the 48 states have the opposite sign to the one calculated on persons?",
+  "choix": [
+   "Because percentages by state retain only the totals, which do not fix how the two properties cross among the same persons",
+   "Because with only 48 observations, a correlation calculated on states is too unstable to mean anything",
+   "Because the foreign-born were actually less often illiterate than those born in the United States",
+   "Because the states where most immigrants lived were not included in the 1930 census"
+  ],
+  "bonne_reponse": 0,
+  "explication": "A state's percentage summarizes marginal totals; yet a four-cell table is not fixed by its margins, so the correlation between persons can be very different. The number of states is not at issue, nor is the census coverage, and immigrants were indeed much more often illiterate (9.9% versus 3.1%), which is precisely what the +0.118 measures.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What calculation error, noted in 2011 by te Grotenhuis, Eisinga, and Subramanian, affects the correlation Robinson published for the 48 states?",
+   "choix": [
+    "Robinson had reversed the sign of the correlation through an arithmetic error",
+    "Robinson had counted some states twice in his table of correlations",
+    "Robinson had included groups other than whites and Blacks at the state level, without weighting by population",
+    "Robinson had used data from the 1920 census instead of 1930"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The 2011 correction establishes that Robinson had mixed, at the state level, persons from groups other than whites and Blacks whom he had excluded at the individual level, and failed to weight by population."
+  },
+  {
+   "question": "What is the correlation between foreign-born and illiteracy calculated on the nine large census divisions?",
+   "choix": [
+    "+0.118, as at the level of persons",
+    "-0.462, the value corrected by te Grotenhuis and his colleagues in 2011",
+    "-0.526, the value published by Robinson for the 48 states",
+    "-0.619"
+   ],
+   "bonne_reponse": 3,
+   "explication": "By grouping the 48 states into nine large census divisions, Robinson obtains a correlation of -0.619, stronger than the one calculated at the state level, and this value is not affected by the 2011 correction."
+  },
+  {
+   "question": "What conclusion does Robinson draw from the gap between individual correlation and ecological correlation?",
+   "choix": [
+    "That ecological correlations are always more reliable than individual correlations",
+    "That the 1930 census largely underestimated the real number of foreign-born persons",
+    "That ecological correlations cannot serve as valid substitutes for individual correlations",
+    "That the correlation between two variables can never change sign depending on the level of aggregation"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Robinson concludes that the relationship between ecological and individual correlations shows that the former cannot validly replace the latter, a conclusion that casts doubt on several studies of his time."
+  }
+ ]
+}

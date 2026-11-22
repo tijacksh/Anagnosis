@@ -1,0 +1,78 @@
+{
+ "id": "sta-paradoxe-de-simpson-berkeley",
+ "slug": "paradoxe-de-simpson-berkeley",
+ "langue": "en",
+ "empreinte_fr": "e4a584e1f43e7338",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Bias That Exists in No Berkeley Department",
+ "accroche": "In 1973, Berkeley shows a clear bias against women applicants to graduate studies. Department by department, it vanishes almost everywhere.",
+ "contenu_vulgarise": "In the fall of 1973, the University of California, Berkeley receives 12,763 applications for its graduate programs. The overall result is clear: 44% of men are admitted (8,442 applications), against only 35% of women (4,321 applications). On paper, the gap looks like proof of discrimination in graduate admissions, the kind of figure that triggers an investigation.\n\n## The Bias That Vanishes Department by Department\n\nThree Berkeley statisticians, Peter Bickel, Eugene Hammel, and J. William O'Connell, decide to check where, precisely, this bias lies. Each department recruits autonomously there; they therefore go back over the decisions unit by unit rather than at the scale of the whole university. The result, published in *Science* in 1975, upends their own expectations: within each department, almost no unit shows a significant gap unfavorable to women, and about as many favor women as men.\n\nThe mechanism lies in a hidden variable: the choice of department. Women applied proportionally more to fields where competition was tougher for everyone, men included, often those that required the least mathematics as preparation. Conversely, the departments easiest to get into were those that required the most mathematics in prior coursework, and men applied to them more. The overall admission rate is then only an average weighted by these field choices: when the weights differ between two groups being compared, the aggregate can reverse or mask a trend present in each of the subgroups that compose it. This is what is now called Simpson's paradox.\n\n## A Name That Belongs to None of the Three\n\nThe phenomenon, however, is nothing new in 1973. Karl Pearson had already pointed it out in 1899, Udny Yule in 1903. Edward H. Simpson, who will give it his name, does not discover it either: he publishes a technical formalization of it in 1951, without ever claiming to attach his name to it. It is a third statistician, Colin Blyth, who christens the phenomenon “Simpson's paradox” in a 1972 article, one year before the Berkeley admissions, and twenty-one years after Simpson's own article. Bickel, Hammel, and O'Connell, incidentally, cite this article by Blyth as a reference in their own study.\n\nTheir conclusion does not stop at “the aggregate misleads, the detail reassures.” Once the data are correctly grouped, taking into account the autonomy of each department, they find a statistically significant bias, but in favor of women, this time, and not against them. The shocking figure at the outset did not merely conceal the absence of discrimination: once corrected, it pointed in the opposite direction from the one it seemed to demonstrate.",
+ "citation": null,
+ "repere": {
+  "texte": "Berkeley graduate admissions, fall 1973: 44% of the 8,442 male applicants admitted, against 35% of the 4,321 female applicants, a gap that reverses into a significant bias favoring women once the data are grouped department by department.",
+  "source": "Bickel, Hammel & O'Connell, “Sex Bias in Graduate Admissions: Data from Berkeley,” Science, vol. 187, no. 4175, 1975",
+  "url": "https://doi.org/10.1126/science.187.4175.398"
+ },
+ "carte": {
+  "punch": "A bias unfavorable to women, which vanishes almost everywhere, department by department.",
+  "idee": "44% of male applicants admitted against 35% of women: an accusing figure. Department by department, the bias vanishes, and even reverses slightly in favor of women once the fields are compared correctly. The cause: women aimed at fields that were more selective overall.",
+  "source_courte": "Bickel, Hammel & O'Connell, Science, 1975"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Bickel, Hammel & O'Connell (1975) — Abstract and Metrics",
+   "url": "https://doi.org/10.1126/science.187.4175.398",
+   "note": "Publisher's page, abstract in open access."
+  }
+ ],
+ "quiz": {
+  "question": "Why does the overall admission rate at Berkeley disadvantage women when almost no department taken in isolation does?",
+  "choix": [
+   "Because each department's admissions committees secretly applied different criteria depending on the applicant's gender",
+   "Because women applied more to fields that were more selective overall, which lowers their average rate without any department disadvantaging them",
+   "Because the 1973 data contained a data-entry error corrected only after the study's publication",
+   "Because the departments most in demand among women received less funding that year"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The overall rate is an average weighted by department. Since women applied proportionally more to fields that were harder to get into for everyone, the aggregate mechanically disadvantages them, without any committee having actually discriminated. This is the very mechanism of Simpson's paradox: a trend can reverse through mere aggregation, without hidden bias in the subgroups.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who named Simpson's paradox, and when?",
+   "choix": [
+    "Edward Simpson himself, in his 1951 article",
+    "Karl Pearson, in his foundational 1899 article",
+    "Colin Blyth, in a 1972 article",
+    "The authors of the Berkeley study, in their 1975 article"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Simpson never claims to attach his name to the phenomenon he formalizes in 1951. It is Colin Blyth who christens it Simpson's paradox in a 1972 article, twenty-one years later."
+  },
+  {
+   "question": "Once the data are correctly grouped by department, what bias did Bickel, Hammel, and O'Connell find?",
+   "choix": [
+    "No statistically significant bias, in either direction",
+    "A significant bias, this time in favor of women",
+    "The same bias unfavorable to women, but half as large",
+    "A bias favoring men, but concentrated in a single department"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Their conclusion does not stop at the absence of discrimination: once the data are grouped taking into account the departments' autonomy, they find a significant bias, but in favor of women."
+  },
+  {
+   "question": "What hidden variable explains the paradox observed in Berkeley's 1973 admissions?",
+   "choix": [
+    "The choice of department, women aiming at fields that were more selective overall",
+    "The average age of applicants, higher among women that year",
+    "The applicants' place of residence, urban or rural",
+    "The score obtained on an entrance exam common to all departments"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The mechanism lies in the choice of department: women applied proportionally more to fields where competition was tougher for everyone, which lowers their average admission rate."
+  }
+ ]
+}

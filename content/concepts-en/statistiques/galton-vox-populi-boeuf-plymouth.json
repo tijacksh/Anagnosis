@@ -1,0 +1,85 @@
+{
+ "id": "sta-galton-vox-populi-boeuf-plymouth",
+ "slug": "galton-vox-populi-boeuf-plymouth",
+ "langue": "en",
+ "empreinte_fr": "324ae176a1d20065",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged. The url points to the English original (Galton, Nature, 1907, PDF on galton.org)."
+  }
+ ],
+ "titre": "The Plymouth Ox: What Galton Wrote in 1907, and What He Misprinted",
+ "accroche": "In 1907, 787 visitors to a contest estimate the weight of an ox. Galton publishes the median; it is the mean, added afterward, that lands on target.",
+ "contenu_vulgarise": "In March 1907, in Plymouth, a livestock show, the West of England Fat Stock and Poultry Exhibition, offers a game: guess the weight a fat ox will have once slaughtered and dressed. For sixpence, you buy a numbered card on which you write your name, your address, and your estimate; the best estimates win prizes. Francis Galton, eighty-five years old, obtains permission to examine the cards after the contest. About 800 had been issued. He discards thirteen, defective or illegible, and ranks the other 787 in ascending order.\n\n## A Median Chosen in the Name of the Vote\n\nGalton is not writing to celebrate crowds. His question is the reliability of popular judgment, “in these democratic times.” As a summary he keeps the middle value, the median: according to the principle “one vote, one value,” any other estimate would be judged too low or too high by a majority of voters. He calls it the vox populi.\n\nIn *Nature* of March 7, he gives: median 1,207 pounds, dressed weight 1,198 pounds, a difference of 9 pounds, 0.8% of the weight. His conclusion is cautious: this result is more creditable to the trustworthiness of democratic judgment than might have been expected. He specifies that the participants included butchers and farmers, some of them highly competent. This is not a crowd of ignoramuses.\n\n## The Mean Arrives Two Weeks Later\n\nOn March 21, a reader of the journal, R. H. Hooker, regrets that Galton did not give the arithmetic mean. From the published table, it would be about 1,196 pounds, closer to the weight than the median. Galton replies on March 28: the exact mean of the 787 cards is 1,197 pounds. This is the figure that James Surowiecki would place at the opening of *The Wisdom of Crowds* in 2004 to conclude that collective judgment was almost perfect.\n\n## Figures Off by a Pound\n\nIn 2014, the economist Kenneth Wallis reopens Galton's archives, at University College London. In the ordered list, the 394th estimate, the median of 787 values, is 1,208 pounds and not 1,207. The contest organizer had communicated the dressed weight: 10 cwt 2 qr 21 lb, or 1,197 pounds and not 1,198. Galton's draft does give a median of 1,208 and a difference of 11 pounds; in trying to correct the transcription of the weight, he changed the wrong figure. The three printed numbers are consistent with one another, and all three are wrong. Galton repeats them in his *Memories of My Life* (1908).\n\nWith the correct weight, the mean of the 787 estimates does not depart from the weight. The median, the summary he had chosen in the name of the vote, departs from it by 11 pounds.\n\n## What the “Wisdom of Crowds” Owes to This Contest\n\nThis account therefore rests on a prize contest, attended by connoisseurs, whose most striking result is not the one the author had chosen to publish, and whose printed numbers contained an error. The statistical lesson nonetheless holds, as a first approximation: estimates that do not all err in the same direction partly cancel out when averaged. In this one contest, Galton's voting principle gave the worse of the two summaries.\n\nGalton, incidentally, asked contest organizers to keep the cards from their competitions, so as to lend them, under conditions, to statistics. Wallis redid the calculation from his archives one hundred seven years later.",
+ "citation": {
+  "texte": "This result is, I think, more creditable to the trustworthiness of a democratic judgment than might have been expected.",
+  "auteur": "Francis Galton",
+  "source": "“Vox Populi,” Nature, vol. 75, pp. 450-451, March 7, 1907",
+  "url": "https://galton.org/essays/1900-1911/galton-1907-vox-populi.pdf"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "787 strangers guess the weight of an ox. Their mean lands within a pound.",
+  "idee": "In 1907, Galton publishes the median of the 787 estimates from a Plymouth contest: 1,207 pounds for an ox of 1,198. His mean, given two weeks later at a reader's request, is 1,197 pounds, the actual weight according to the archives reexamined in 2014.",
+  "source_courte": "Galton, Nature, 1907; Wallis, 2014"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Wallis (2014) — Revisiting Francis Galton's Forecasting Competition (arXiv version)",
+   "url": "https://arxiv.org/abs/1410.3989",
+   "note": "Four pages, readable without training: the mean, the median, and the errors in the 1907 article."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Galton summarize the 787 estimates by the median rather than the mean?",
+  "choix": [
+   "Because the mean of 787 cards was impossible to calculate by hand in 1907, for lack of machines",
+   "Because the median turned out, once the ox was weighed, to be closer to the actual weight than the mean",
+   "Because, according to his principle “one vote, one value,” it is the only estimate that no majority judges too high or too low",
+   "Because the most extreme estimates were copying errors that had to be removed from the calculation"
+  ],
+  "bonne_reponse": 2,
+  "explication": "Galton ties the median to the democratic principle “one vote, one value”: any other estimate is judged too high or too low by a majority of voters. It is neither a matter of calculation nor of accuracy: the mean, 1,197 pounds, landed closer to the weight than the median, and the thirteen discarded cards were discarded because they were defective or illegible, not because they were extreme.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What figures does Galton publish in Nature on March 7, 1907, for the median and the dressed weight of the ox?",
+   "choix": [
+    "Median of 1,207 pounds, dressed weight of 1,198 pounds",
+    "Median of 1,208 pounds, dressed weight of 1,197 pounds",
+    "Mean of 1,197 pounds, dressed weight of 1,198 pounds",
+    "Median of 1,197 pounds, dressed weight of 1,196 pounds"
+   ],
+   "bonne_reponse": 0,
+   "explication": "In Nature of March 7, 1907, Galton gives a median of 1,207 pounds for a dressed weight of 1,198 pounds, a difference of 9 pounds."
+  },
+  {
+   "question": "Who first asks Galton to publish the arithmetic mean of the 787 estimates?",
+   "choix": [
+    "Kenneth Wallis, in his 2014 article",
+    "The organizer of the Plymouth contest, in his announcement of the weight",
+    "R. H. Hooker, in a letter published by Nature on March 21, 1907",
+    "Galton himself, in his reply of March 28, 1907"
+   ],
+   "bonne_reponse": 2,
+   "explication": "On March 21, 1907, a reader of Nature, R. H. Hooker, regrets that Galton did not give the arithmetic mean, and Galton replies on March 28."
+  },
+  {
+   "question": "What does Kenneth Wallis discover in 2014 when reopening Galton's archives?",
+   "choix": [
+    "That the 787 cards Galton analyzed had in fact been rigged by the organizers",
+    "That the actual median is 1,208 pounds and the dressed weight 1,197 pounds, which makes the mean's error zero",
+    "That Galton had counted 800 cards instead of 787, a counting error",
+    "That the mean of 1,197 pounds published in 1907 was itself inaccurate"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Wallis finds an actual median of 1,208 pounds and a dressed weight of 1,197 pounds: with these correct figures, the error of Galton's mean becomes zero."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "sta-biais-du-survivant-wald",
+ "slug": "biais-du-survivant-wald",
+ "langue": "en",
+ "empreinte_fr": "698781872be5c315",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged. The url points to the English source (Casselman, AMS Feature Column), which quotes Wallis's 1980 JASA article."
+  }
+ ],
+ "titre": "Armor the Plane Where You Never See a Hit",
+ "accroche": "The military wants to armor planes where hits pile up on the aircraft that came back. A statistician answers: armor the rest.",
+ "contenu_vulgarise": "During World War II, the American military studies the bullet hits recorded on its bombers returning from missions, to decide where to add armor, a heavy protection that cannot be fitted everywhere without weighing down the aircraft's performance. The records show a clear concentration of hits on the fuselage, and very few around the engines. The conclusion seems obvious: reinforce the fuselage, where the planes take the most fire.\n\n## What the Missing Planes Cannot Show\n\nThe mathematician Abraham Wald, a member of the Statistical Research Group, a group of civilian scientists formed at Columbia University to support the war effort, objects: these records cover only the planes that came back. A plane hit in the engine has a much smaller chance of making it home to have its hit counted. The absence of engine damage on the planes studied therefore does not mean that engines are spared by enemy fire, but that the shots that hit them are more likely to be fatal. It is the fuselage, which absorbs hits without bringing the plane down, that should logically show the most hits on the survivors.\n\nWald formalizes this reasoning in a series of eight technical memoranda written in 1943, now available in a free archive: equations for estimating, from the returning planes alone, the probability of surviving a given number of hits, including for the areas that the downed planes can no longer testify about. The biomathematician Marc Mangel, who devoted a detailed study to these memoranda with Francisco Samaniego in 1984, sums up the central difficulty: the command never knows the distribution of hits on the planes that did not return, which makes exactly the most important piece of data unobservable.\n\n## A Story More Legendary Than Its Memoranda\n\nOnce you open them, Wald's memoranda tell nothing spectacular: a dry succession of definitions and proofs, without a single line about what the military should do with these calculations. The mathematician Bill Casselman, who researched the sources of the anecdote for the American Mathematical Society, finds in the available archives only two brief mentions of this work, in the memoir of the group's former director, W. Allen Wallis, who does not even mention Wald's name, and the memoranda themselves. Everything else in the commonly told story, dialogue and details included, is in his view plausible reconstruction rather than a document of the period, including the diagram of a plane riddled with red dots that illustrates most online versions, which Casselman notes matches no documented aircraft (most often a DC-3, a cargo plane that saw little combat). The designer Cameron Moll has since said that he drew it himself around 2005, for his presentations on problem solving, long after the events and with no connection to Wald.\n\nThis collision is not merely ironic. Wald's calculation was already about what the absence of evidence does not prove; the story told about it today has followed the same slope: the lively version has traveled, while the hundred pages of equations that actually produced it have remained, for the most part, invisible.",
+ "citation": {
+  "texte": "The problem of aircraft vulnerability led SRG to devise a technique for determining vulnerability from damage survived by our own planes.",
+  "auteur": "W. Allen Wallis",
+  "source": "“The Statistical Research Group, 1942-1945,” Journal of the American Statistical Association, vol. 75, 1980, p. 323 — quoted in Casselman, B., “The Legend of Abraham Wald,” American Mathematical Society, Feature Column",
+  "url": "https://www.ams.org/publicoutreach/feature-column/fc-2016-06"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Armor where the returning planes show hits? A statistician proved the opposite.",
+  "idee": "In 1943, the American military wants to armor planes where hits abound on the aircraft that came back. The mathematician Abraham Wald objects: the planes missing from the statistics are precisely the ones hit elsewhere, where a hit does not forgive.",
+  "source_courte": "Mangel & Samaniego, JASA, 1984"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Casselman — The Legend of Abraham Wald",
+   "url": "https://www.ams.org/publicoutreach/feature-column/fc-2016-06",
+   "note": "The full account of the investigation, with the detail of the sources that are available and those that are missing."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Abraham Wald recommend armoring the areas that show the fewest hits on the returning planes?",
+  "choix": [
+   "Because planes hit in those places were statistically less likely to have come back to have their hits counted",
+   "Because enemy fire deliberately targeted the fuselage rather than the engines",
+   "Because armor is technically easier to install on the lightly damaged areas",
+   "Because pilots instinctively avoided flying over the areas where the enemy aimed at the engines"
+  ],
+  "bonne_reponse": 0,
+  "explication": "The data cover only the planes that returned to the ground. A hit on a vital area is more likely to bring the plane down before it gets back, which is why those areas look lightly damaged in the survivors' statistics when they are in fact the most vulnerable. This is the very mechanism of survivorship bias: what is missing from the data sometimes says more than what they show.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What do the memoranda Wald wrote in 1943 actually contain?",
+   "choix": [
+    "An explicit recommendation to armor the engines of the bombers",
+    "A series of definitions and proofs, with no instruction to the military",
+    "The minutes of the meetings held with the American command",
+    "A photographic record of the hits observed on the returning planes"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Once opened, these eight memoranda tell nothing spectacular: a dry succession of definitions and proofs, without a single line about what the military should do with these calculations."
+  },
+  {
+   "question": "Where does the diagram of a plane riddled with red dots that illustrates the story come from?",
+   "choix": [
+    "From the archives of the Statistical Research Group, rediscovered in 2016",
+    "From Wald's memoranda, whose first chapter it opens",
+    "From a U.S. military report declassified after the war",
+    "From a designer who says he drew it around 2005 for his presentations"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Cameron Moll has said that he himself produced this diagram around 2005, for his presentations on problem solving, long after the events and with no connection to Wald. Casselman also notes that it matches no documented aircraft."
+  },
+  {
+   "question": "What does Bill Casselman find in the available archives about this episode?",
+   "choix": [
+    "Two brief mentions in Wallis, the memoranda, and nothing else",
+    "The complete minutes of the exchanges between Wald and the command",
+    "A sustained correspondence between Wald and Mangel on the method used",
+    "The field notebook in which Wald noted the hits recorded on the planes"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Casselman finds only two brief mentions of this work in W. Allen Wallis, the group's former director, who does not even cite Wald's name, and the memoranda themselves. Everything else, in his view, is plausible reconstruction."
+  }
+ ]
+}

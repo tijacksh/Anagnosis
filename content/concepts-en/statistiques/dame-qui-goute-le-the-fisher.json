@@ -1,0 +1,96 @@
+{
+ "id": "sta-dame-qui-goute-le-the-fisher",
+ "slug": "dame-qui-goute-le-the-fisher",
+ "langue": "en",
+ "empreinte_fr": "e52cd05907cddfc9",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged (the ellipsis in brackets is in the French). The url points to the English text of The Design of Experiments on archive.org."
+  }
+ ],
+ "titre": "A Cup of Tea Gave Birth to the Modern Experiment",
+ "accroche": "A woman claims she can tell whether the milk was poured before or after the tea. In 1935, a statistician invents a method that still governs clinical trials.",
+ "contenu_vulgarise": "In a garden at the Rothamsted experimental station in England, a woman claims she can tell, by tasting a cup of tea with milk, whether the milk was poured before or after the tea. The claim amuses the onlookers. The statistician Ronald Fisher, who is present, sees above all a problem to formalize: how can such a claim be tested scientifically, without relying on a single cup that might be guessed right by sheer chance?\n\n## A Protocol Designed to Leave Nothing to Chance\n\nFisher designs the experiment in detail, which he publishes in 1935 in his book *The Design of Experiments*. Eight cups are prepared, four with the milk poured first, four with the tea poured first, then presented to the lady in a randomly drawn order. Fisher insists on this point: the order must come from a truly random procedure, not from a choice that seems arbitrary to the experimenter.\n\nIf the lady has no real faculty of discrimination and answers at random, what is the chance that she nonetheless sorts all eight cups correctly into their two categories of four? Fisher calculates that there are exactly 70 ways to choose a group of four cups out of eight. A perfect sorting, obtained by sheer chance, would therefore occur only once in 70 times. This calculation, popularized since under the name Fisher's exact test, makes it possible to judge whether a performance exceeds what chance alone would produce.\n\nThe same chapter of the book introduces a concept that still structures all scientific experimentation: the null hypothesis, the one that assumes the absence of any real effect. It is never proven; it can only be refuted by the data. Fisher adds randomization to it, the random drawing of the order of the cups, as the only guarantee that the test remains valid: without it, nothing rules out a hidden bias explaining a result that seems significant.\n\n## An Experiment Whose Outcome Became a Case Study Itself\n\nFisher, in his book, never recounts the actual outcome of the experiment: he treats it as a theoretical exercise, discussing several hypothetical results. The most repeated version today, in which the lady identifies all eight cups without error, comes from an oral account collected forty years later by the historian of statistics David Salsburg, from a witness who claimed to have been present at the scene. No written record from the time confirms it. A biography of Fisher published by his own daughter, based on the recollections of another witness, suggests on the contrary a more ambiguous result, with a few errors. Even the lady's identity, often given as that of the biologist Muriel Bristol, does not come from Fisher's text, which never names her, but from that same biography, written nearly half a century after the events.\n\nThe anecdote that inspired the most rigorous method for telling chance from a real effect therefore rests, for its own outcome, on late and conflicting recollections, exactly the kind of evidence that this method was designed never to accept at face value.",
+ "citation": {
+  "texte": "Our experiment consists in mixing eight cups of tea, four in one way and four in the other, and presenting them to the subject for judgment in a random order. [...] A subject without any faculty of discrimination would in fact divide the 8 cups correctly into two sets of 4 in one trial out of 70.",
+  "auteur": "Ronald A. Fisher",
+  "source": "The Design of Experiments, Oliver and Boyd, 1935, Chapter II",
+  "url": "https://archive.org/stream/in.ernet.dli.2015.502684/2015.502684.The-Design_djvu.txt"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Eight cups of tea, 70 ways to choose four: Fisher's test, published in 1935.",
+  "idee": "A woman claims she can tell whether the milk was poured before or after the tea. In The Design of Experiments (1935), Fisher draws from it an eight-cup protocol: a perfect sorting by sheer chance happens only once in 70 times. The same chapter introduces the null hypothesis and randomization.",
+  "source_courte": "Fisher, The Design of Experiments, 1935"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Richardson (2021) — A closer look at the lady tasting tea",
+   "url": "https://academic.oup.com/jrssig/article/18/5/34/7038291",
+   "note": "Details the two conflicting versions of the experiment's outcome and their respective sources."
+  }
+ ],
+ "quiz": {
+  "question": "Why does Fisher insist that the order in which the eight cups are presented be drawn at random, rather than chosen by the experimenter?",
+  "choix": [
+   "Because an order chosen by hand might seem arbitrary yet still hide a bias that would invalidate the test",
+   "Because the lady already knew the usual order used by the Rothamsted experimenters",
+   "Because eight cups prepared in a fixed order would cool unevenly and distort the taste",
+   "Because the rules of the experimental station required a random draw for any published experiment"
+  ],
+  "bonne_reponse": 0,
+  "explication": "An order that looks arbitrary to the eye can still follow a hidden regularity, perceptible or exploitable without the experimenter being aware of it. Only a truly random draw guarantees that no hidden factor skews the test. This is what Fisher calls the physical basis of the validity of the test.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Where does the figure of one chance in 70 come from?",
+   "choix": [
+    "From the number of possible orders in which to present the eight cups",
+    "From the number of ways to choose four cups out of the eight",
+    "From the number of times the experiment was repeated at Rothamsted",
+    "From the number of cups prepared for each of the two series"
+   ],
+   "bonne_reponse": 1,
+   "explication": "There are exactly 70 ways to form a group of four cups from eight. Only one matches the correct sorting: someone answering at random would therefore get there only once in 70 times, and it is against this gap that the performance is measured."
+  },
+  {
+   "question": "What is the null hypothesis, as Fisher introduces it?",
+   "choix": [
+    "It assumes the absence of any real effect and can only be refuted",
+    "It is proven as soon as a result exceeds the threshold of chance",
+    "It describes the effect the experimenter expects before the test",
+    "It sets the number of cups needed for a valid test"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The null hypothesis is the one that assumes no real effect exists, here that the lady has no faculty of discrimination. It is never proven: the data can only make it implausible, never confirm it."
+  },
+  {
+   "question": "What is known about the actual outcome of the eight-cup experiment?",
+   "choix": [
+    "Fisher reports in his book that the lady sorted all eight cups",
+    "The outcome is recorded in the archives of the Rothamsted station",
+    "Fisher gave up on conducting the experiment, judging it uninteresting",
+    "The two known versions come from late and conflicting accounts"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Fisher treats the case as a theoretical exercise and says nothing of the result. The flawless version comes from an oral account collected forty years later, the imperfect one from a biography written by his daughter: two late recollections that contradict each other."
+  },
+  {
+   "question": "Where does the name Muriel Bristol, often given to the lady, come from?",
+   "choix": [
+    "From Fisher's text, which names her from the first edition",
+    "From the personnel register of the experimental station",
+    "From a biography of Fisher written nearly half a century later",
+    "From the oral account collected by David Salsburg"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Fisher never names the participant. The identity of Muriel Bristol comes from the biography written by Fisher's daughter, nearly fifty years after the events, and not from the 1935 book or from the late account, which concerns the result instead."
+  }
+ ]
+}

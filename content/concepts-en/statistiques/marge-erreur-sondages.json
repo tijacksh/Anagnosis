@@ -1,0 +1,72 @@
+{
+ "id": "sta-marge-erreur-sondages",
+ "slug": "marge-erreur-sondages",
+ "langue": "en",
+ "empreinte_fr": "b126831c23931794",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "Four Points Ahead, and Yet the Election Stays Open",
+ "accroche": "A candidate leads by four points in the polls. That may mean nothing: when comparing two candidates, the margin of error nearly doubles.",
+ "contenu_vulgarise": "A week before an election, a polling firm publishes a poll showing one candidate at 52% of voting intentions against 48% for his opponent, with an announced margin of error of 3 points. The most common reading concludes that the leading candidate will win, since the four-point gap exceeds the announced margin. This reading is wrong, and the error does not come from a dishonest polling firm: it comes from a confusion between the margin of error of a single figure and the margin of error of a difference between two figures.\n\n## Why the Gap Widens When Compared\n\nA 95% confidence interval and a margin of error of 3 points mean this: if the same poll were repeated a hundred times on different samples, about 95 of those hundred polls would give a result within 3 points of the population's true figure, for that candidate taken in isolation. But a candidate at 52% and his opponent at 48% are not two independent measurements: if the sample happened to overestimate one, it mechanically underestimated the other. The uncertainty on the gap between the two candidates therefore accumulates, and approaches double the margin announced for a single candidate, nearly 6 points here, and not 3. An observed gap of 4 points, once this double uncertainty is taken into account, can correspond to a reality ranging from -2 to +10 points: nothing allows us to rule out that the opponent is actually ahead.\n\n## A Gap Between the Confidence Shown and Reality\n\nA study published in 2018 in the *Journal of the American Statistical Association*, covering 4,221 polls conducted between 1998 and 2014 for 608 American elections, measures the scale of the problem: the average error of the polls, in the last three weeks of the campaign, reaches about 3.5 points, nearly double what the announced margins of error would lead one to expect. The reason is that the classic margin of error captures only one source of uncertainty, random sampling, and ignores everything else: the people who refuse to answer, and the population categories poorly represented in the sample used for polling. A polling firm that displays a margin of 3 points therefore displays, strictly speaking, a confidence that its own data cannot guarantee alone.",
+ "citation": null,
+ "repere": {
+  "texte": "Of 4,221 polls conducted between 1998 and 2014 for 608 American elections, the average error reaches about 3.5 points, nearly double what the margins of error announced by the polling firms would lead one to expect.",
+  "source": "Shirani-Mehr, Rothschild, Goel & Gelman, Journal of the American Statistical Association, 113(522), 2018",
+  "url": "https://doi.org/10.1080/01621459.2018.1448823"
+ },
+ "carte": {
+  "punch": "A 4-point lead in a poll can mean nothing at all.",
+  "idee": "The margin of error applies to a single figure: comparing two candidates accumulates the uncertainty, the real gap possibly approaching double the announced margin. A separate study, on 4,221 polls (1998-2014), shows that a single candidate already displays a real error close to double his margin.",
+  "source_courte": "Shirani-Mehr et al., JASA, 2018"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "A poll puts one candidate at 52%, the other at 48%, with a margin of error of 3 points each. What can be concluded?",
+  "choix": [
+   "The candidate at 52% is surely the winner, since the 4-point gap exceeds the 3-point margin",
+   "Nothing certain: the uncertainty on the gap between the two candidates is almost double the margin shown for a single candidate",
+   "The poll is invalid, because the sum of the two scores plus the margins of error exceeds 100%",
+   "The two candidates are in a strict tie, the margin of error canceling any gap below 10 points"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The announced margin of error holds only for a single figure. Comparing two candidates accumulates their respective uncertainties: the real gap can approach double the margin shown, which makes a 4-point gap, here, statistically inconclusive.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does the study published in 2018 in the Journal of the American Statistical Association measure?",
+   "choix": [
+    "The gap between voting intention and the final result of the election",
+    "The number of voters who change their minds in the last three weeks of the campaign",
+    "The proportion of polling firms that publish an erroneous margin of error",
+    "The real average error of 4,221 polls, compared with the announced margins of error"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The study covers 4,221 polls conducted between 1998 and 2014 for 608 American elections: the measured average error reaches about 3.5 points, nearly double the margins of error announced by the polling firms."
+  },
+  {
+   "question": "Why is the uncertainty on the gap between two candidates greater than the margin of error announced for a single candidate?",
+   "choix": [
+    "Because polling firms deliberately apply a smaller margin to seem more precise",
+    "Because the two candidates are not measured independently: overestimating one amounts to underestimating the other",
+    "Because the law imposes a minimum margin of error of 3 points per candidate",
+    "Because undecided voters are never counted in the sample"
+   ],
+   "bonne_reponse": 1,
+   "explication": "A candidate at 52% and his opponent at 48% are not two independent measurements: if the sample happened to overestimate one, it mechanically underestimated the other, which nearly doubles the uncertainty on their gap."
+  },
+  {
+   "question": "According to the entry, what sources of error does the classic margin of error ignore?",
+   "choix": [
+    "Refusals to answer and population categories poorly represented in the sample",
+    "Computer data-entry errors in the answers",
+    "Voters changing their minds between the poll and the vote",
+    "Electoral fraud on election day"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The classic margin of error captures only random sampling. It ignores the people who refuse to answer and the population categories poorly represented in the sample used for polling."
+  }
+ ]
+}

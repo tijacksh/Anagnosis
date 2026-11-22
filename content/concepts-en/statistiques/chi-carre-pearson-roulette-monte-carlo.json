@@ -1,0 +1,87 @@
+{
+ "id": "sta-chi-carre-pearson-roulette-monte-carlo",
+ "slug": "chi-carre-pearson-roulette-monte-carlo",
+ "langue": "en",
+ "empreinte_fr": "276326be4ce392ff",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Quotation was already in English in the French entry; copied unchanged. The url points to the English source (archive.org copy of The Chances of Death, 1897)."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "erreur-possible-fr",
+   "note": "The French says Pearson divided 16,563 spins into 148 'weekly groups' while using only four weeks of records; four weeks cannot yield 148 weekly groups. Rendered as in the French (also in quiz_supplementaire/0); to be checked against Pearson's text."
+  }
+ ],
+ "titre": "The Monte Carlo Roulette Wheel Was Too Regular to Be Honest",
+ "accroche": "In 1892, Karl Pearson goes through sixteen thousand roulette spins published by a Paris newspaper, and finds chance abnormally well behaved.",
+ "contenu_vulgarise": "In 1892, the Paris weekly *Le Monaco* publishes, table by table, the numbers that came up at the roulette tables of the Monte Carlo casinos. Karl Pearson, professor of applied mathematics at University College London, obtains four weeks of these records and asks himself a simple question: do these numbers really obey the laws of chance, as the casino claims?\n\n## A Chance Too Regular to Be Honest\n\nPearson goes through 16,563 spins, which he divides into 148 weekly groups to measure, group by group, how far the results depart from what a truly random draw would produce. The standard deviation he observes, 7.2, is markedly smaller than the 10.34 expected in theory: the numbers come up too regularly, with too few runs and too few long absences, to be the product of real chance. He calculates that the odds of such a narrowing are about two million to one, and that a month this atypical should, on average, recur only once every one hundred sixty-seven thousand years of continuous play. To check that he has not simply been unlucky enough to land on an out-of-the-ordinary sample, he compares his calculation with a second record, unrelated to his own, kept over the following four weeks by an independent correspondent, a Mr. de Whalley: nothing comparable appears in it. Pearson concludes, in the *Fortnightly Review* of 1894, that roulette as played at Monte Carlo is not a scientific game of chance, and urges the French Academy of Sciences to check his calculations, then the French government to close the gaming rooms if it confirms them.\n\n## Neither the Wheel nor Chance, but the Newspaper Itself\n\nPearson considers a faulty wheel, but he himself notes the mechanical precision of the instrument. More than a century later, the mathematician Adam Kucharski reopens the case and shifts the suspicion: it was not the wheel, but *Le Monaco*. The editors in charge of recording each number at the table, rather than observing them one by one, are said to have preferred to invent most of them. Kucharski explains it this way: someone who makes up a sequence of numbers at random almost always produces a version that is too regular, because he instinctively avoids the long repeated runs that a real draw tolerates without difficulty. This is precisely the anomaly Pearson had measured without knowing its cause: a chance too well behaved to be true.\n\n## One Tool for Two Very Different Culprits\n\nSix years after this episode, Pearson formalizes the chi-square criterion, which generalizes the question he had already asked about roulette: is an observed deviation too large, or here too small, to come from chance alone? The same test that could have unmasked a rigged wheel ended up unmasking journalists too lazy to observe what they claimed to report, which says as much about roulette wheels as about how hard it is, for anyone, to truly imitate chance.",
+ "citation": {
+  "texte": "Roulette as played at Monte Carlo is not a scientific game of chance.",
+  "auteur": "Karl Pearson",
+  "source": "The Scientific Aspect of Monte Carlo Roulette (The Fortnightly Review, new series, vol. 55, pp. 183-193, 1894; reprinted in The Chances of Death and Other Studies in Evolution, vol. 1, London, Edward Arnold, 1897)",
+  "url": "https://archive.org/details/chancesdeathand00peargoog"
+ },
+ "repere": {
+  "texte": "Of the 16,563 spins that he goes through himself (four weeks, 1892), Pearson measures a standard deviation of 7.2 against the 10.34 expected from chance: a regularity so improbable that, by his own calculation, it should recur only once every one hundred sixty-seven thousand years of continuous play.",
+  "source": "Pearson, The Scientific Aspect of Monte Carlo Roulette, 1894/1897",
+  "url": "https://archive.org/details/chancesdeathand00peargoog"
+ },
+ "carte": {
+  "punch": "Pearson judged the Monte Carlo roulette rigged. The real culprit was not the wheel.",
+  "idee": "In 1892, Karl Pearson goes through 16,563 roulette results published by a Paris newspaper and concludes that Monte Carlo is not an honest game of chance. More than a century later, another explanation emerges: the journalists in charge of recording the numbers are said to have simply made them up.",
+  "source_courte": "Pearson, 1894/1897 · Kucharski, 2016"
+ },
+ "quiz": {
+  "question": "Why does the anomaly Pearson measures on the Monte Carlo roulette in 1892 not prove, in hindsight, that the wheel was biased?",
+  "choix": [
+   "Because the standard deviation he calculates turns out, on review, to be within the normal limits of chance",
+   "Because the casino is said to have set the wheel differently from table to table, which Pearson would not have detected",
+   "Because Le Monaco published the results of only one table out of several, which would bias his average",
+   "Because the editors in charge of recording the numbers are said, according to later research, to have made them up rather than observed them"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Pearson himself checks the mechanical precision of the wheel: the flaw is not there. Adam Kucharski's later research (2016) shows that the anomaly probably came from the editors of Le Monaco, who are said to have fabricated runs of numbers too regular to be a real random draw, rather than from the wheel itself.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "How many roulette spins does Pearson go through himself, and over what period?",
+   "choix": [
+    "165,630 spins, over the whole of 1892",
+    "1,656 spins, over a single week of play",
+    "16,563 spins, divided into 148 groups over four weeks",
+    "16,563 spins, but spread over ten years of records"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The text specifies that Pearson goes through 16,563 spins, which he divides into 148 weekly groups over four weeks."
+  },
+  {
+   "question": "How does Pearson check that he has not been unlucky enough to land on an out-of-the-ordinary sample?",
+   "choix": [
+    "He redoes the calculation himself a second time on the same data",
+    "He asks the casino for an official record of the same weeks",
+    "He waits four more weeks and republishes the same Le Monaco record",
+    "He compares his calculation with an independent record by a Mr. de Whalley, in which nothing comparable appears"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The text says that Pearson compares his calculation with a second, independent record, kept by a Mr. de Whalley, in which nothing comparable appears."
+  },
+  {
+   "question": "What does Pearson do six years after this roulette episode, according to the text?",
+   "choix": [
+    "He republishes his 1894 article unchanged in a French journal",
+    "He formalizes the chi-square criterion, which generalizes his question about a deviation that is too large or too small",
+    "He permanently abandons the study of games of chance",
+    "He joins the scientific team of the Monte Carlo casino"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text says that Pearson, six years later, formalizes the chi-square criterion, which generalizes the question asked about roulette."
+  }
+ ]
+}

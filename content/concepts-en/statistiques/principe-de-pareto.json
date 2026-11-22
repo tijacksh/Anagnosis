@@ -1,0 +1,94 @@
+{
+ "id": "sta-principe-de-pareto",
+ "slug": "principe-de-pareto",
+ "langue": "en",
+ "empreinte_fr": "88e815d79dd663c9",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "titre",
+   "type": "erreur-possible-fr",
+   "note": "The French title and hook say '20% of landowners held 80% of the land', while the body and the quiz say 80% of the land belongs to 20% of the population. Owners and population are different claims. Rendered as in the French."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "incertain",
+   "note": "The French gives Juran's phrase in two wordings (the first with the English 'the vital few and the trivial many' in parentheses, the second as a more cautious variant). The English original of the second wording was not retrieved; it is rendered as a literal translation of the French."
+  }
+ ],
+ "titre": "In Italy, 20% of Owners Held 80% of the Land",
+ "accroche": "In 1896, an Italian economist notices a proportion that keeps recurring: 20% of causes produce 80% of effects. An engineer will generalize it later.",
+ "contenu_vulgarise": "In 1896, the Italian economist Vilfredo Pareto publishes the first volume of his *Cours d'économie politique* (Course in Political Economy). In it he observes that about 80% of the land of the Kingdom of Italy belongs to only 20% of the population, a distribution so unequal that it contradicts any idea of a gradual and regular distribution of wealth. Pareto finds comparable proportions in other countries and at other times, and draws from them a mathematical law of income distribution, without giving it the name it bears today. In 1906, while teaching at the University of Lausanne, he refines this observation further in his lectures, never suspecting that it will become, a century later, one of the most cited shortcuts in the world of management.\n\n## From an Economic Observation to a Universal Principle\n\nPareto's figure remains confined to economics for more than forty years. It is the Romanian-born engineer, naturalized American, Joseph Juran who gives it its current reach: in 1941, while working on questions of industrial quality, Juran comes across Pareto's work and recognizes in it a regularity he had already observed on his own, without naming it. In a production line, a small minority of causes (machines, workstations, suppliers) produces the great majority of defects. Juran generalizes Pareto's observation to this industrial finding, and coins a formula that remains famous to sum it up: “the vital few and the trivial many.” The 80/20 principle becomes a quality management tool, then a shortcut applied well beyond: sales, computer code, customer service calls.\n\n## A Proportion, Not a Law of Nature\n\nThe main risk of the Pareto principle is not that it is false. It is that it is taken literally. The numbers 80 and 20 are neither fixed nor universal, and vary greatly depending on the field observed. Pareto himself found similar but never identical proportions from one country to another. Juran insisted on this point from the start, preferring to the numerical formula the more cautious expression “a few vital causes and a multitude of trivial causes.” What Pareto and Juran brought to light is therefore not a fixed number. It is a more general and more disturbing observation: in a surprising number of systems, most of the effect comes from a small part of the causes, and the rest, the great majority, weighs almost nothing.",
+ "citation": null,
+ "repere": {
+  "texte": "In his Cours d'économie politique (1896-1897), Vilfredo Pareto observes that about 80% of the land of the Kingdom of Italy belongs to only 20% of the population, the proportion that Joseph Juran will generalize in 1941 to industrial quality management.",
+  "source": "Vilfredo Pareto, Cours d'économie politique, Lausanne, 1896-1897",
+  "url": "https://en.wikipedia.org/wiki/Pareto_principle"
+ },
+ "carte": {
+  "punch": "In 1896, Pareto observes that about 80% of Italy's land belongs to 20% of the population.",
+  "idee": "In 1896, Vilfredo Pareto observes that about 80% of Italian land belongs to 20% of the population. In 1941, Joseph Juran extends this proportion to industrial quality: “the vital few and the trivial many.” The numbers 80 and 20 vary by field.",
+  "source_courte": "Pareto, Cours d'économie politique, 1896"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "What exactly did Vilfredo Pareto observe in 1896, in his Cours d'économie politique?",
+  "choix": [
+   "That a small share of the Italian population owned the great majority of the country's land",
+   "That 80% of Italian companies of his time went bankrupt within the first five years",
+   "That 20% of the laws passed in Italy concentrated 80% of the state's tax revenue",
+   "That wealth was distributed perfectly evenly among the twenty Italian regions"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Pareto observes that the distribution of land in Italy is extremely unequal, about 80% belonging to 20% of the population. It is neither an observation about bankruptcies nor about taxation: it is Juran, in 1941, who will generalize this proportion to other fields.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Who generalizes Pareto's observation to industrial quality management, and in what year?",
+   "choix": [
+    "The Italian economist Vilfredo Pareto himself, in 1906",
+    "The Romanian-born engineer, naturalized American, Joseph Juran, in 1941",
+    "The British statistician Ronald Fisher, in 1925",
+    "The Austrian economist Joseph Schumpeter, in 1934"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry specifies that it is the Romanian-born engineer, naturalized American, Joseph Juran who, in 1941, while working on questions of industrial quality, generalizes Pareto's observation beyond economics."
+  },
+  {
+   "question": "What formula does Joseph Juran coin to sum up his generalization of the Pareto principle?",
+   "choix": [
+    "The vital few and the trivial many",
+    "Chance never plays dice with the economy",
+    "Not everything that counts can always be counted",
+    "Quality has no price, but it has a cost"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The entry quotes Juran's famous formula, “the vital few and the trivial many,” to sum up his generalization of the Pareto principle to quality management."
+  },
+  {
+   "question": "What does the entry say about the numbers 80 and 20 themselves?",
+   "choix": [
+    "They have never been confirmed outside 19th-century Italy",
+    "They apply only to the distribution of agricultural land",
+    "They are fixed and hold identically in all fields observed",
+    "They are neither fixed nor universal, and vary greatly depending on the field"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The entry insists on this point: the numbers 80 and 20 are neither fixed nor universal, and Pareto himself found similar but never identical proportions from one country to another; it is the disproportion that is general, not the number."
+  },
+  {
+   "question": "Where does Vilfredo Pareto refine his observation in 1906?",
+   "choix": [
+    "At the Academy of Sciences in Paris",
+    "At the University of Turin, his native city",
+    "At the University of Lausanne, where he teaches",
+    "In the parliament of the Kingdom of Italy, of which he is a member"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry indicates that in 1906, while teaching at the University of Lausanne, Pareto refines this observation further in his lectures, never suspecting the reach it would take a century later."
+  }
+ ]
+}

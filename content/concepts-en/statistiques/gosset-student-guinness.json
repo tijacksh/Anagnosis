@@ -1,0 +1,72 @@
+{
+ "id": "sta-gosset-student-guinness",
+ "slug": "gosset-student-guinness",
+ "langue": "en",
+ "empreinte_fr": "a11fa40c525ae65d",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "At Guinness, a Brewer Invents a Tool Under a False Name",
+ "accroche": "Forbidden by his employer to publish under his own name, a brewer signs “Student” and invents one of the most widely used statistical tools in the world.",
+ "contenu_vulgarise": "In 1893, the Guinness brewery in Dublin hires its first scientific brewer, Thomas Bennett Case, who is convinced that the resin content of hops influences the quality of beer. From a single batch, he takes eleven fifty-gram samples and measures their resin; a colleague takes fourteen more, for comparison. The two series do not quite agree, with no way to say whether the gap reflects a real difference in quality or the mere chance of sampling. The statistical methods of the day, designed by Karl Pearson, require samples of at least one hundred fifty measurements to remain reliable, a luxury no brewery can afford. In 1899, William Sealy Gosset, a young Oxford graduate in chemistry and mathematics, joins Guinness in turn as a brewer, where the same problem arises with every batch inspection.\n\n## A Tool Cut for Small Numbers\n\nSent to study with Pearson at University College London in 1906, Gosset develops a method able to measure the real uncertainty of a mean calculated on a small sample, around ten measurements rather than hundreds. He publishes the result in 1908 in the journal *Biometrika*, under the title “The Probable Error of a Mean”: the distribution that today bears his pseudonym, Student's distribution, the basis of the t-test. Guinness then formally forbids its employees to publish under their own names, for fear that a rival brewery will learn it is using sophisticated scientific methods. Gosset therefore signs “Student”; most of his twenty-one publications will appear under that pseudonym alone, until his death in 1937, when his real identity is finally revealed publicly.\n\n## From Hops to the Laboratory\n\nPearson, who trained Gosset, never grasps the full scope of his work: it is Ronald Fisher, with whom Gosset exchanges more than one hundred fifty letters between 1912 and 1934, who first understands that this tool, designed to compare batches of hops, applies to any scientific measurement based on a small number of observations. Student's t-test becomes, over the course of the 20th century, one of the most taught and most used statistical tools in the world, from biology to psychology to medicine, whenever the question is whether a difference measured on only a few subjects reflects a real effect or the mere noise of sampling. None of the students who learn it today, in any statistics lecture hall, is trying to compare batches of beer.",
+ "citation": null,
+ "repere": {
+  "texte": "At the Guinness brewery, comparing two batches of hops involved only eleven, then fourteen, fifty-gram measurements drawn from a single batch, when the statistical methods of the day, designed by Karl Pearson, required at least one hundred fifty to remain reliable: the practical problem that motivated Gosset's method.",
+  "source": "The Conversation, “The Genius at Guinness and His Statistical Legacy,” 2018; W. S. Gosset (“Student”), Biometrika, 1908",
+  "url": "https://theconversation.com/the-genius-at-guinness-and-his-statistical-legacy-93134"
+ },
+ "carte": {
+  "punch": "Guinness forbids him to sign his own name: he publishes his method as “Student.”",
+  "idee": "In 1908, the brewer William Sealy Gosset publishes a method for measuring the uncertainty of a mean on a small sample, around ten measurements rather than hundreds. His employer forbidding him to sign, he chooses “Student.” His t-test distinguishes a real effect from mere noise.",
+  "source_courte": "Biometrika, 1908"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why did William Sealy Gosset publish his statistical work under the pseudonym “Student” in 1908?",
+  "choix": [
+   "Because the Guinness brewery, his employer, forbade its employees to publish under their own names",
+   "Because Karl Pearson, who trained him, required his students to publish under a pseudonym until their doctorate",
+   "Because the journal Biometrika refused to publish authors without a university title in statistics",
+   "Because Gosset feared that his results, still uncertain, would harm his scientific reputation"
+  ],
+  "bonne_reponse": 0,
+  "explication": "Guinness formally forbade its employees to publish under their own names, for fear that rival breweries would learn it was using advanced scientific methods. Gosset therefore signed most of his twenty-one publications “Student,” until his death in 1937.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What practical obstacle did the statistical methods of the day pose for the brewery?",
+   "choix": [
+    "They applied only to temperature measurements",
+    "They required knowing the quality of the batch in advance",
+    "They required at least one hundred fifty measurements per series",
+    "They could be calculated only by a mathematician"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Karl Pearson's methods called for samples of at least one hundred fifty measurements to remain reliable, a luxury no brewery could afford with every batch inspection. This is the problem that Gosset's method solved."
+  },
+  {
+   "question": "Who first understood the general scope of Gosset's work?",
+   "choix": [
+    "Karl Pearson, who had trained him at University College London",
+    "Ronald Fisher, with whom he exchanged more than one hundred fifty letters",
+    "Thomas Bennett Case, Guinness's first scientific brewer",
+    "The journal Biometrika, which circulated the method as early as 1908"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Pearson, who had nonetheless trained Gosset, never grasped the scope of his work. It was Fisher, in a correspondence of more than one hundred fifty letters between 1912 and 1934, who saw that the tool applied to any measurement based on few observations."
+  },
+  {
+   "question": "What does the method Gosset published in 1908 make it possible to measure?",
+   "choix": [
+    "The resin content of hops, without taking a sample",
+    "The number of missing measurements in an incomplete series",
+    "The quality of a beer from its chemical composition alone",
+    "The uncertainty of a mean calculated on a small sample"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Gosset wanted to know whether the gap between two series of about ten measurements reflected a real difference or the mere chance of sampling. His distribution, known as Student's, gives the real uncertainty of a mean calculated on few observations."
+  }
+ ]
+}
