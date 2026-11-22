@@ -1,0 +1,94 @@
+{
+  "id": "nut-paradoxe-francais-mortalite-coronarienne",
+  "slug": "paradoxe-francais-mortalite-coronarienne",
+  "langue": "en",
+  "empreinte_fr": "e9b8deaf8f67ab27",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation/texte",
+      "type": "citation-traduite",
+      "note": "The French marks this as translated from English (Ducimetiere et al., BMJ, 2000); the original English wording was not retrieved, so this is a translation back from the French."
+    },
+    {
+      "chemin": "citation/source",
+      "type": "citation-traduite",
+      "note": "English article title restored from the French source line; see the note on citation/texte."
+    }
+  ],
+  "titre": "The French Paradox Never Came Down to a Single Factor",
+  "accroche": "In the 1990s, a whole country seemed to escape the consequences of its diet. The explanation is more complicated than red wine",
+  "contenu_vulgarise": "In the 1980s, epidemiologists puzzle over a statistical anomaly: the French eat almost as much saturated fat (butter, cheese, cured meats) as the British, but die of coronary heart disease roughly four times less often. The best-documented risk factor in all of cardiovascular epidemiology seems, in France, not to produce the expected effect.\n\n## A Hypothesis That Becomes a Phrase\n\nIn 1992, in *The Lancet*, the researchers Serge Renaud and Michel de Lorgeril propose a mechanism: moderate wine consumption, common in France, would inhibit blood platelet aggregation and reduce the risk of clotting. In this article they coin the phrase \"French paradox.\" The hypothesis spreads widely, until it becomes, among the general public, a shortcut, \"wine protects the heart,\" that goes beyond the caution of the original paper, which proposed only one mechanism among others to explore.\n\nThe mortality data, for their part, are solid. The World Health Organization's MONICA project confirms, across thirty-seven populations in twenty-one countries, a markedly lower rate of coronary events in France than in northern Europe. But a team of French epidemiologists led by Pierre Ducimetière publishes in 2000 a useful rereading of that same picture: the French rates (274 events per 100,000 men) are in fact at the same level as those of Italy (266) or Switzerland (261), much closer to a general north-south European gradient than to anything distinctively French. The interesting question, they write, may not be why France is an exception, but why northern Europe stands out.\n\n## What the Puzzle Owes to the Way We Count\n\nTwo mechanisms unrelated to wine shrink the mystery further. First, a measurement bias: a study published in the *British Medical Journal* in 1999 estimates that underreporting of coronary deaths on French death certificates explains about 20% of the mortality gap observed with the United Kingdom, a significant figure, though it does not explain the whole gap. Second, a time-lag effect: cardiovascular disease takes decades to reflect a change in diet, and French consumption of saturated fat rose later than in the United Kingdom. French mortality would simply not have caught up with French diet yet.\n\nOn top of this comes a misleading picture of the French diet itself: regional comparisons historically show a higher consumption of fruits and vegetables than the cliché of \"butter and cheese\" suggests. The specific role of wine, for its part, remains debated: reviews published in 2020 and 2025 continue to discuss its own effect without settling the matter. The French paradox therefore has no single solution. It has dissolved into several partial explanations, none of which suffices alone to close the gap.",
+  "citation": {
+    "texte": "The interesting question is therefore not why mortality from heart disease is low in France, but why it is less frequent in southern Europe than in the north.",
+    "auteur": "Pierre Ducimetière et al.",
+    "source": "Why mortality from heart disease is low in France: rates of coronary events are similar in France and Southern Europe, BMJ, 2000",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117444"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The French paradox never came down to a single factor.",
+    "idee": "In the 1990s, France's low heart mortality was explained by red wine. The data actually show a north-south European gradient: France joins Italy and Switzerland. A bias in death underreporting also explains part of the gap with the United Kingdom.",
+    "source_courte": "BMJ, 2000"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "The French paradox three decades later: Role of inflammation and thrombosis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32653485/",
+      "note": "A 2020 review showing that the specific role of wine in the protective effect remains debated."
+    },
+    {
+      "titre": "Examining the French paradox: a systematic review of red wine consumption and cardiovascular risk",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41377232/",
+      "note": "A 2025 systematic review (Annals of Medicine and Surgery) that surveys 36 studies on the cardiovascular effect of red wine, without definitively settling the mechanism."
+    }
+  ],
+  "quiz": {
+    "question": "What does the rereading of European coronary mortality data (the MONICA project) published by Ducimetière and his colleagues in 2000 show?",
+    "choix": [
+      "That red wine is scientifically proven to be the only protective factor",
+      "That the French actually consume less saturated fat than the British",
+      "That the French mortality rate is comparable to that of Italy and Switzerland, rather than an isolated exception"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The MONICA project shows that French rates join those of Italy and Switzerland, which draws a north-south European gradient rather than a French exception. The specific role of wine remains debated, and a bias in underreporting explains part, but not all, of the gap with the United Kingdom.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What mechanism do Renaud and de Lorgeril propose in 1992 to explain the French paradox?",
+      "choix": [
+        "Moderate wine consumption would inhibit blood platelet aggregation",
+        "A genetic resistance specific to the French population",
+        "A milder climate reducing cardiovascular stress",
+        "A salt intake half that of the United Kingdom"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Renaud and de Lorgeril propose that moderate wine consumption inhibits blood platelet aggregation and reduces the risk of clotting, one mechanism among others to explore according to the original article."
+    },
+    {
+      "question": "According to the study published in the British Medical Journal in 1999, what share of the mortality gap with the United Kingdom would underreporting of French coronary deaths explain?",
+      "choix": [
+        "About 5%",
+        "About 20%",
+        "About 50%",
+        "The entire gap"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The study estimates that underreporting of coronary deaths on French death certificates explains about 20% of the mortality gap with the United Kingdom, without explaining the whole gap."
+    },
+    {
+      "question": "What time-lag effect is also invoked to explain part of the French paradox?",
+      "choix": [
+        "The French started smoking later than the British",
+        "French hospitals adopted statins earlier than British hospitals",
+        "French preventive medicine began twenty years before the British",
+        "French consumption of saturated fat rose later than in the United Kingdom"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Cardiovascular disease takes decades to reflect a change in diet, and French consumption of saturated fat rose later than in the United Kingdom."
+    }
+  ]
+}

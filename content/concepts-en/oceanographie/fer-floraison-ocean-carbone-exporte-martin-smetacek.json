@@ -1,0 +1,83 @@
+{
+  "id": "oce-fer-floraison-ocean-carbone-exporte-martin-smetacek",
+  "slug": "fer-floraison-ocean-carbone-exporte-martin-smetacek",
+  "langue": "en",
+  "empreinte_fr": "1675e0c7351415de",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Iron Makes the Ocean Bloom, but Blooming Is Not Storing Carbon",
+  "accroche": "In 1994, Nature publishes an iron-induced bloom in the Pacific. What becomes of the carbon? A partial answer dates from 2012.",
+  "contenu_vulgarise": "In the equatorial Pacific, the surface water contains nitrate and phosphate in quantity, those algal fertilizers, and yet it is poor in plankton. Boyd and his colleagues estimate in 2007 that this situation concerns a third of the world ocean: major nutrients always abundant at the surface, and plant production that does not keep up.\n\n## A Hypothesis from 1990\n\nIn 1990, the oceanographer John Martin publishes in Paleoceanography an explanation: these waters lack iron. He applies the idea to the Southern Ocean and to the ice ages. According to his abstract, iron input from atmospheric dust was 50 times higher at the last glacial maximum. Plankton would then have made better use of the nutrients upwelled from the depths, which would have helped bring the carbon dioxide in the air down from 280 ppm to less than 200 ppm. It is a hypothesis, put forward with its arguments, not a result.\n\n## The Test at Sea\n\nIn 1994, Martin and his colleagues report in Nature on an open-sea trial: a 64 km² area of the equatorial Pacific is enriched with iron. Plant biomass doubles, chlorophyll triples, and plant production quadruples. A chlorophyll-rich plume downstream of the Galápagos Islands, naturally enriched in iron, shows similar increases. The authors conclude that lack of iron can limit plankton production and biomass.\n\nOther trials follow. In 2007, Boyd et al. draw a synthesis from them in Science, covering twelve experiments carried out from 1993 to 2005, and conclude that iron supply limits production in a third of the world ocean. They add a caveat: the results transfer poorly to regional and seasonal scales, because iron does not reach the ocean in the same way in the experiments and in the present-day or ancient ocean.\n\n## Blooming Is Not Storing\n\nFor the climate, the bloom does not count in itself. The fixed carbon has to sink below the surface and stay there. Yet, according to Smetacek and his colleagues, the fate of the biomass had not been properly followed in earlier experiments. Their trial, carried out in the closed core of an eddy of the Antarctic Circumpolar Current (EIFEX, in 2004 according to Wikipedia), lasted five weeks and followed the particles from the surface to the bottom. A large diatom bloom peaked in the fourth week, then many cells died and clumped into sticky aggregates that sink quickly. According to the authors, at least half of the biomass sank well below 1,000 meters, and a substantial share probably reached the bottom. They specify that each line of evidence carries important uncertainties.\n\n## What This Changes\n\nA bloom is a fact of biology, which a handful of iron is enough to trigger. A carbon sink is a fact of circulation and sedimentation, which has to be followed for weeks in a body of water that does not mix. Confusing the two amounts to believing that a fertilized field is a stock of grain. And the 2012 result holds for one eddy and one experiment; what a large-scale fertilization would do remains another question, which the 2007 synthesis already left open.",
+  "citation": null,
+  "repere": {
+    "texte": "Iron enrichment of a 64 km² area of the equatorial Pacific: plant biomass doubles, chlorophyll triples, and plant production quadruples.",
+    "source": "J. H. Martin et al., “Testing the iron hypothesis in ecosystems of the equatorial Pacific Ocean,” Nature, vol. 371, 1994, pp. 123-129",
+    "url": "https://www.nature.com/articles/371123a0"
+  },
+  "carte": {
+    "punch": "Iron tripled the chlorophyll in the Pacific. The fate of the carbon was not being tracked.",
+    "idee": "An iron enrichment of 64 km² tripled the chlorophyll in the equatorial Pacific (Nature, 1994). Blooming is not storing: it took a five-week experiment in an eddy to show that at least half of the biomass sank below 1,000 m.",
+    "source_courte": "Martin 1994; Smetacek 2012"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Smetacek et al., “Deep carbon export from a Southern Ocean iron-fertilized diatom bloom,” Nature, 2012",
+      "url": "https://doi.org/10.1038/nature11229",
+      "note": "The experiment that followed the biomass from the surface to the bottom."
+    },
+    {
+      "titre": "Boyd et al., “Mesoscale iron enrichment experiments 1993-2005,” Science, 2007",
+      "url": "https://doi.org/10.1126/science.1131669",
+      "note": "The synthesis of the first twelve experiments."
+    }
+  ],
+  "quiz": {
+    "question": "What did the experiment in a Southern Ocean eddy (Smetacek et al., 2012) show that the first trials did not?",
+    "choix": [
+      "That iron makes plankton grow, which the 1994 trial had not established",
+      "That at least half of the bloom's biomass sank below 1,000 meters",
+      "That glacial dust did not contain more iron than today",
+      "That iron limits production in no region of the ocean"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The first trials showed the bloom, but not the fate of the biomass. Followed from the surface to the bottom, at least half sank below 1,000 m. Iron-driven growth was already established in 1994, and nothing here contradicts limitation by iron.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "According to Martin's hypothesis (1990), what would the atmospheric dust, richer in iron during the last glacial maximum, have done?",
+      "choix": [
+        "It would have let plankton make better use of nutrients upwelled from the depths, lowering the CO2 in the air",
+        "It would have directly cooled the atmosphere by reflecting sunlight",
+        "It would have increased the salinity of surface waters, which would have slowed ice melt",
+        "It would have absorbed the CO2 in the air without going through any living organism"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Martin's hypothesis (1990) links the iron in glacial dust to better use by plankton of upwelled nutrients, which would have helped bring CO2 down from 280 to less than 200 ppm. The dust acts neither on light, nor on salinity, nor directly on CO2."
+    },
+    {
+      "question": "What did the open-sea trial by Martin and his colleagues, published in Nature in 1994, show?",
+      "choix": [
+        "That a natural iron enrichment near the Galápagos lowered chlorophyll",
+        "That equatorial plankton needs no additional nutrient to bloom",
+        "That an iron enrichment over 64 km² doubled plant biomass and tripled chlorophyll",
+        "That adding iron mostly lowered plant production in the tested area"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The 1994 trial in the equatorial Pacific enriches 64 km² with iron; plant biomass doubles, chlorophyll triples, and production quadruples. The natural Galápagos plume shows similar increases, not a decrease, and adding iron raises production, it does not reduce it."
+    },
+    {
+      "question": "What caveat does the synthesis by Boyd et al. (2007), covering twelve iron enrichment experiments, attach to its own conclusion?",
+      "choix": [
+        "That iron limits production only in the Southern Ocean",
+        "That the twelve experiments completely contradict each other on the existence of iron limitation",
+        "That none of the twelve experiments measured an increase in chlorophyll",
+        "That the results transfer poorly to regional and seasonal scales, because iron does not reach the real ocean in the same way"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The synthesis by Boyd et al. concludes that iron limits production over a third of the ocean, but warns that these results do not extrapolate well to regional and seasonal scales, because iron does not reach the real ocean in the same way as in an experiment."
+    }
+  ]
+}

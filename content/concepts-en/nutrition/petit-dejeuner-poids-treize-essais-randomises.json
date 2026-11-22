@@ -1,0 +1,78 @@
+{
+  "id": "nut-petit-dejeuner-poids-treize-essais-randomises",
+  "slug": "petit-dejeuner-poids-treize-essais-randomises",
+  "langue": "en",
+  "empreinte_fr": "746ad9ae436887a9",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Breakfast and Weight: Thirteen Trials Against an Association",
+  "accroche": "Observational studies link breakfast to leanness. Thirteen randomized trials, pooled in the BMJ in 2019, do not find this effect.",
+  "contenu_vulgarise": "\"Breakfast is the most important meal of the day.\" The phrase has been recurring in the media since 1917, according to the authors of a review published in the BMJ in 2019. It comes with a health tip: eating in the morning would help you not gain weight. This advice rests on a solid observation and on a fragile inference.\n\n## The Observation and the Inference\n\nThe observation: in observational studies, skipping breakfast is associated with obesity. The inference: skipping this meal would therefore make you gain weight, because you would compensate later in the day. According to the authors of the 2019 review, most recommendations rest on observational studies and on this presumption of compensation. But an observational study compares people who differ in many ways other than one meal: income, sleep, activity, habits. The authors speak of selection bias and confounding.\n\n## What Randomized Trials Show\n\nTo settle it, you have to assign people at random between \"breakfast\" and \"no breakfast.\" Sievert and his colleagues gather all the trials of this type published between January 1990 and January 2018, conducted on adults in high-income countries: 13 trials, of which 7 measure weight and 10 measure energy intake.\n\nThe results run opposite to the advice. On weight, the mean difference is 0.44 kg in favor of the participants who skipped breakfast (95% confidence interval: 0.07 to 0.82). Participants assigned to breakfast also consume more energy over the day: 259.79 kcal more per day on average (interval of 78.87 to 440.71). The morning meal therefore seems to add to the rest rather than replace any of it.\n\n## The Shift\n\nIt would be wrong to conclude that you should skip breakfast. The trials are short: seven weeks on average for weight, two weeks for energy intake. All of them have a high or unclear risk of bias in at least one domain. Heterogeneity is high for energy. The authors conclude only that adding breakfast might not be a good strategy for losing weight, and that caution is needed before recommending it for that purpose.\n\nA 2016 review by Emily Dhurandhar points the same way on weight, while noting that skipping breakfast seems to harm insulin sensitivity. Breakfast is therefore not useless; it is just poorly defended by the weight argument. What remains to be seen is which other reason for eating in the morning would also survive a random draw.",
+  "citation": null,
+  "repere": {
+    "texte": "Meta-analysis of 13 randomized trials of adults in high-income countries: the weight difference is 0.44 kg in favor of the participants who skipped breakfast (95% CI: 0.07 to 0.82), and those who eat it consume 259.79 kcal more per day (95% CI: 78.87 to 440.71). Mean follow-up: 7 weeks for weight, 2 weeks for energy.",
+    "source": "Abstract of Sievert et al., “Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials,” BMJ, 2019, vol. 364, l42",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30700403/"
+  },
+  "carte": {
+    "punch": "Does eating in the morning help you slim down? In 13 randomized trials, the difference tips toward those who skip.",
+    "idee": "Observational studies link breakfast to leanness. A meta-analysis of 13 randomized trials (BMJ, 2019) finds the opposite: a 0.44 kg difference in favor of those who skip the meal, and 260 kcal more per day for the others. Short trials, at risk of bias.",
+    "source_courte": "Sievert et al., BMJ, 2019"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Sievert et al., BMJ 2019: full text, open access (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6352874/",
+      "note": "Table of the 13 trials, durations, sample sizes, and risk-of-bias assessment."
+    }
+  ],
+  "quiz": {
+    "question": "Why can randomized trials contradict observational studies on breakfast?",
+    "choix": [
+      "Because the random draw rules out lifestyle differences between the two groups",
+      "Because they last several years and follow thousands of adults",
+      "Because they involve children, who are far more sensitive to morning meals",
+      "Because they measure only energy intake, never the participants' weight"
+    ],
+    "bonne_reponse": 0,
+    "explication": "In an observational study, those who skip breakfast also differ in their habits and circumstances, hence confounding bias. The random draw removes this obstacle. The review's trials, by contrast, are short (7 and 2 weeks on average), involve adults, and measure both weight and energy.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Since when has the phrase “breakfast is the most important meal of the day” been circulating in the media, according to the authors of the 2019 review?",
+      "choix": [
+        "Since 1917",
+        "Since 1954",
+        "Since 1990",
+        "Since 1968"
+      ],
+      "bonne_reponse": 0,
+      "explication": "According to the authors of the review published in the BMJ in 2019, this phrase has been recurring in the media since 1917, long before the randomized trials that put it to the test."
+    },
+    {
+      "question": "How many randomized trials does the review by Sievert and his colleagues cover, and how many measure weight?",
+      "choix": [
+        "13 trials, of which 7 measure weight",
+        "20 trials, of which 12 measure weight",
+        "13 trials, all of which measure weight",
+        "7 trials, of which 3 measure weight"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Sievert and his colleagues gather 13 randomized trials published between 1990 and 2018, of which 7 measure weight and 10 measure energy intake, not all 13 on each measure."
+    },
+    {
+      "question": "What does Emily Dhurandhar's 2016 review suggest about skipping breakfast?",
+      "choix": [
+        "That it harms insulin sensitivity, while pointing the same way on weight",
+        "That it improves insulin sensitivity with no effect on weight",
+        "That it systematically causes weight gain, contradicting the 2019 review",
+        "That it has no measurable effect, on either weight or insulin"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Dhurandhar's 2016 review points the same way as the 2019 one on weight, while noting that skipping breakfast seems to harm insulin sensitivity, an effect distinct from weight."
+    }
+  ]
+}

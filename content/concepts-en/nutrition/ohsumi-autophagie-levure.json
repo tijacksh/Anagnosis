@@ -1,0 +1,81 @@
+{
+  "id": "nut-ohsumi-autophagie-levure",
+  "slug": "ohsumi-autophagie-levure",
+  "langue": "en",
+  "empreinte_fr": "deab72451598a247",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "repere/texte",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives this Nobel Prize Outreach sentence in English; copied unchanged, with the English source title restored."
+    }
+  ],
+  "titre": "The Yeast That Revealed How Cells Recycle Themselves",
+  "accroche": "In 1988, a Japanese biologist bets that baker's yeast hides the mechanism that lets any cell devour itself in order to survive.",
+  "contenu_vulgarise": "In 1988, Yoshinori Ohsumi opens his own laboratory at the University of Tokyo and picks a subject that almost no one is studying anymore: how the cell breaks down and recycles its own contents. The phenomenon has had a name since the 1960s (autophagy, literally \"eating oneself,\" proposed by the Belgian biologist Christian de Duve), but no one has managed to observe it clearly, for lack of an organism in which to follow it step by step.\n\n## Making the Invisible Visible\n\nOhsumi chooses baker's yeast, a simple organism that is easy to manipulate genetically, but whose internal structures are tiny, barely visible under an optical microscope. He has an idea: if degradation is blocked inside the vacuole (the yeast's equivalent of the lysosome in human cells) while autophagy keeps working, the sacs that carry the contents to be recycled should accumulate there instead of being destroyed, and become visible. He grows mutant yeast lacking the vacuolar degradation enzymes, then deprives them of food to trigger autophagy. Within a few hours, their vacuoles fill with small intact vesicles. Autophagy does exist in yeast. Ohsumi publishes this result in 1992.\n\nBut above all the experiment gives him a tool: a way to spot, among randomly mutated yeast, those in which autophagy no longer works, because the vesicles no longer accumulate in their vacuole. In less than a year, he thus identifies the first fifteen genes essential to the process, then characterizes the proteins they encode: a cascade in which each one triggers the next step in the formation of the autophagic sac.\n\n## A Cellular Kitchen, Not a Diet\n\nWhat followed showed that an almost identical machinery works in human cells. Autophagy switches on there when food is scarce, during infection, or simply to eliminate proteins and organelles that have been damaged over time. It is a maintenance mechanism linked to aging, and its disruptions are associated with Parkinson's disease, type 2 diabetes, and certain cancers. Ohsumi receives the 2016 Nobel Prize in Physiology or Medicine for this discovery.\n\nThis is also the mechanism that the intermittent fasting fad invokes to justify itself. Autophagy does switch on in response to fasting. Ohsumi demonstrated it in starved yeast. But the timing, the intensity, and the real benefits of this activation in a human who skips a meal remain poorly established: what the Nobel Prize validated is a cellular mechanism, not a dietary protocol.",
+  "citation": null,
+  "repere": {
+    "texte": "Yoshinori Ohsumi conducted a series of groundbreaking experiments with yeast, where he detected autophagy and identified genes important for the process.",
+    "source": "Nobel Prize Outreach, The Nobel Prize in Physiology or Medicine 2016",
+    "url": "https://www.nobelprize.org/prizes/medicine/2016/ohsumi/facts/"
+  },
+  "carte": {
+    "punch": "A biologist watched, under the microscope, a cell devouring itself to survive.",
+    "idee": "In 1988, Yoshinori Ohsumi observes, in starved yeast, the buildup of sacs carrying the cell's own contents to its internal trash bin. He thereby identifies the first genes of autophagy, a cellular recycling mechanism now linked to aging and several diseases.",
+    "source_courte": "Nobel Prize in Medicine, 2016"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "How did Ohsumi make autophagy visible, a process until then undetectable under the microscope in yeast?",
+    "choix": [
+      "By blocking degradation in the vacuole while autophagy remained active",
+      "By labeling the cell's proteins with a fluorescent dye visible under the microscope",
+      "By artificially enlarging the yeast through genetic mutation",
+      "By comparing normal yeast with yeast that had no vacuole at all"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Ohsumi prevented the vacuole from degrading what it received while keeping autophagy active: the transport sacs, normally destroyed right away, accumulated and became visible under the microscope.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who coined the term “autophagy,” and when?",
+      "choix": [
+        "Yoshinori Ohsumi himself, in 1988",
+        "An anonymous Japanese researcher, in the 1930s",
+        "The Belgian biologist Christian de Duve, in the 1960s",
+        "Alexander Fleming, in the 1920s"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The term, which literally means “eating oneself,” was proposed in the 1960s by the Belgian biologist Christian de Duve, long before Ohsumi managed to observe the phenomenon in yeast.",
+      "statut": "valide"
+    },
+    {
+      "question": "How many genes essential to autophagy does Ohsumi identify in less than a year, thanks to his screen of mutant yeast?",
+      "choix": [
+        "Five",
+        "Fifteen",
+        "Fifty",
+        "Two"
+      ],
+      "bonne_reponse": 1,
+      "explication": "By spotting the mutated yeast in which vesicles no longer accumulate in the vacuole, Ohsumi identifies in less than a year the first fifteen genes essential to the autophagy process.",
+      "statut": "valide"
+    },
+    {
+      "question": "What does the entry say about the link between intermittent fasting and the benefits of autophagy in humans?",
+      "choix": [
+        "Ohsumi's Nobel Prize validated a precise dietary protocol, with each effect measured",
+        "Autophagy never switches on in humans, unlike in yeast",
+        "Skipping a meal systematically triggers the same effects as in starved yeast",
+        "The timing, intensity, and real benefits of this activation in humans remain poorly established"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Autophagy does switch on in response to fasting, as demonstrated in starved yeast, but the timing, intensity, and real benefits of this activation in a human who skips a meal remain poorly established.",
+      "statut": "valide"
+    }
+  ]
+}

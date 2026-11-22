@@ -1,0 +1,87 @@
+{
+  "id": "oce-eaux-mortes-nansen-ekman-fram",
+  "slug": "eaux-mortes-nansen-ekman-fram",
+  "langue": "en",
+  "empreinte_fr": "f26a8cf2d7337823",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "titre",
+      "type": "incertain",
+      "note": "\"Eaux mortes\" is rendered \"dead water,\" the term used in the English literature (Ekman's title \"On dead water\" is kept in the body)."
+    }
+  ],
+  "titre": "The Fram, Held Back on a Flat Sea by a Wave You Cannot See",
+  "accroche": "In 1893, the engines of Nansen's ship run at full power and it barely moves forward: the brake is a hidden wave between two waters.",
+  "contenu_vulgarise": "In August 1893, the Fram, Fridtjof Nansen's ship, is sailing off Taymyr Island, in the Russian Arctic. The weather is calm, the sea flat, the engines running at full pressure. And yet the ship barely moves forward. Nansen tells it in *Farthest North*: they make loops, they turn on the spot, they try all sorts of maneuvers, and nothing changes. As soon as the engine stops, the Fram seems to be sucked backward. The night it covers about twenty miles, its speed is reduced to about a fifth of what it would be elsewhere.\n\n## What Nansen Sees\n\nHe describes the scene precisely. The surface water is fresh, but the water that the engine room's sea cock lets through is far too salty for the boiler. A layer of fresh water rests on the seawater, and the ship carries it along with it, as if sliding on a fixed base. In the wake appear regular ripples, one behind the other, which sometimes start almost in the middle of the hull. On September 3, around 6 in the morning, thin ice scrapes this fresh water under the hull: the Fram leaps forward and immediately resumes its ordinary speed.\n\n## What Ekman Demonstrates\n\nNansen asks the physicists for an explanation. Vilhelm Bjerknes entrusts the question to his student Vagn Walfrid Ekman, who reproduces the effect in the laboratory and publishes it in 1904 in the reports of the Norwegian expedition, under the title \"On dead water.\" The ship is not fighting the surface water: it generates waves at the interface between the fresh water and the denser salt water. These internal waves, almost invisible from above, absorb the propeller's energy. The effect is clearest when the thickness of the fresh layer is close to the ship's draft, and it is often encountered in fjords where glacial melt pours into the sea.\n\n## Two Drags, Not One\n\nIn 2020, a French team (Fourdrinoy, Dambrine, Petcu, Pierre, and Rousseaux) redid the experiment in a basin about three meters long. Fresh water, poured through floating sponges so as not to mix, covers colored salt water. A small boat of the Playmobil brand, pulled by a constant weight, crosses the basin. The researchers distinguish two regimes. Nansen's drag is an internal wake that accompanies the boat and keeps it at a slow, steady speed. Ekman's drag is made of speed oscillations, caused by an internal undulation formed during acceleration: it is only a transient regime, and the boat ends up joining Nansen's case.\n\nIn both cases, the drag is greatest when the boat's speed approaches that of the internal waves. Beyond that, it decreases until it becomes negligible compared with the ordinary friction of the water. Accelerating would therefore be enough to free oneself from it.\n\n## What This Shifts\n\nWe imagine that the sea's resistance to a ship plays out at the surface, in the bow wave that we see forming. Dead water shows a resistance lodged under the hull, at an interface that cannot be seen from the deck. Wikipedia reports that the effect may be even more pronounced for a submarine operating at depth: water that appears free can brake a body that leaves no visible wake in it.",
+  "citation": null,
+  "repere": {
+    "texte": "On September 3, 1893, around 6 in the morning, thin ice scrapes the fresh water under the hull of the Fram, which immediately resumes its ordinary speed after days of dead water.",
+    "source": "Nansen, Farthest North, vol. I, 1897, pp. 195-199 (Project Gutenberg, no. 30197)",
+    "url": "https://gutenberg.org/cache/epub/30197/pg30197-images.html"
+  },
+  "carte": {
+    "punch": "A layer of fresh water over salt water cut the Fram to a fifth of its speed.",
+    "idee": "In 1893, off Taymyr Island, Nansen's ship barely moves forward despite its engines. Below the surface, fresh water resting on salt water sustains internal waves that absorb the propeller's energy. Ekman establishes it in the laboratory in 1904.",
+    "source_courte": "Nansen, 1897; PNAS, 2020"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Fourdrinoy et al., PNAS, 2020: full text, open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7382212/",
+      "note": "The basin setup, the two regimes, and the internal Froude number."
+    }
+  ],
+  "quiz": {
+    "question": "Why was the Fram moving so slowly in dead water, with a flat sea and engines at full pressure?",
+    "choix": [
+      "A contrary surface current, born of melting ice, pushed back the hull",
+      "Algae and debris wrapped around the propeller reduced its thrust",
+      "Fresh water over salt water created internal waves that absorbed the energy",
+      "The denser salt water increased the hull's friction along its whole length"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Nansen notes the layer of fresh water resting on the seawater and the ripples in the wake; Ekman showed in 1904 that the ship generates internal waves at the interface. Nansen mentions neither a contrary current nor algae: the drag gave way when thin ice scraped the fresh water layer, which a fouled propeller would not do.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who reproduced dead water in the laboratory and published it in 1904?",
+      "choix": [
+        "Fridtjof Nansen himself",
+        "Vilhelm Bjerknes in person",
+        "Vagn Walfrid Ekman, a student of Bjerknes",
+        "The French team of 2020, the first to study it"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text says that Bjerknes entrusts the question to his student Ekman, who reproduces the effect in the laboratory and publishes it in 1904 under the title \"On dead water.\"",
+      "statut": "valide"
+    },
+    {
+      "question": "How did the French team of 2020 set up its experiment?",
+      "choix": [
+        "A basin about three meters long, fresh water poured through sponges over colored salt water, a Playmobil boat pulled by a constant weight",
+        "A thirty-meter basin with a remote-controlled miniature ship",
+        "A wave flume with a wooden boat pulled by an electric motor",
+        "A pool of salt water alone, with no fresh water layer"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text describes a basin about three meters long, fresh water poured with floating sponges over colored salt water, and a small Playmobil boat pulled by a constant weight.",
+      "statut": "valide"
+    },
+    {
+      "question": "What allowed the Fram to resume its ordinary speed on September 3, 1893?",
+      "choix": [
+        "A storm mixed the two layers of water",
+        "The crew emptied the ship's fresh water tanks",
+        "The ship left the fresh water after several turns",
+        "Thin ice scraped the fresh water under the hull"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The text places the change around 6 in the morning, when thin ice scrapes the fresh water under the hull; the maneuvers tried before had changed nothing.",
+      "statut": "valide"
+    }
+  ]
+}

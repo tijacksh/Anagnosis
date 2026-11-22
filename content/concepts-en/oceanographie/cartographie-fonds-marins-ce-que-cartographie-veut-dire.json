@@ -1,0 +1,81 @@
+{
+  "id": "oce-cartographie-fonds-marins-ce-que-cartographie-veut-dire",
+  "slug": "cartographie-fonds-marins-ce-que-cartographie-veut-dire",
+  "langue": "en",
+  "empreinte_fr": "295cc1e222f3f476",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "27.3% of the Ocean Floor Mapped: What “Mapped” Means",
+  "accroche": "In 2025, Seabed 2030 counts 27.3% of the seafloor as mapped. Under less than 1,500 m of water, a 100 m cell counts as soon as a single sounding falls in it.",
+  "contenu_vulgarise": "When the ocean floor is displayed on a digital globe, the map is continuous: no holes, no blank patches. What it does not say is the share that has actually been measured. Specialists separate depths sounded directly from depths estimated or interpolated, and only the former count as \"mapped.\"\n\n## A Counter Launched in 2017\n\nIn 2017, the Nippon Foundation and the General Bathymetric Chart of the Oceans (GEBCO) launch Seabed 2030 at the first United Nations Ocean Conference, in New York. The goal: compile all available data into a continuous digital map of the global seafloor by 2030. In 2017, only 6 percent of the seafloor is mapped at a sufficient resolution. On June 21, 2025, the project announces 27.3 percent, versus 26.1 percent a year earlier. More than four million square kilometers of newly mapped seafloor are announced, roughly the size of the Indian subcontinent. The GEBCO 2025 grid, at 15 arc-second spacing, is published on August 6, 2025.\n\n## One Cell, One Sounding\n\nWhat does \"mapped\" mean? According to the Seabed 2030 criterion, as reported by a 2025 study, a grid cell is mapped as soon as at least one sounding falls in it. The size of the cell depends on depth: 100 meters on a side above 1,500 meters of depth, 200 meters between 1,500 and 3,000, 400 meters between 3,000 and 5,750, 800 meters beyond. A cell is therefore not surveyed meter by meter: a single pass makes it count.\n\nThe percentage itself depends on the method. The authors of this study, Niyazi, Thomas, Pucino, Swanborn, Stewart, and Jamieson, count 28.5 percent of seafloor directly measured at the end of 2024, of which 24.2 percent by multibeam echo sounder, versus 12.4 percent in 2019. They specify that Seabed 2030 gives 26.1 percent for the same year, because of differences in method.\n\n## Where We Have Measured\n\nThe distribution is surprising. The North Atlantic and the North Pacific are the best mapped, the Indian Ocean the least, at 17.5 percent. By depth range, it is the deepest trenches, the hadal zones, that are best covered, at 55.6 percent, while shallow waters and abyssal plains are covered only about a quarter each.\n\n## What This Shifts\n\nWe imagine an exploration that would advance from the most accessible to the most distant. The study notes that the work instead follows the size of exclusive economic zones, the wealth of states, and offshore resources. At the rate of 3.2 percent of the seafloor area per year, it estimates that about twenty more years would be needed to finish the map, beyond the 2030 goal: who decides, today, where we measure?",
+  "citation": null,
+  "repere": {
+    "texte": "According to the Seabed 2030 criterion, a cell 100 meters on a side, at less than 1,500 meters of depth, is mapped as soon as a single sounding falls in it; the cell grows to 800 meters beyond 5,750 meters.",
+    "source": "Niyazi et al., “Status of global seafloor mapping effort and priority areas for future mapping,” Frontiers in Marine Science, 2025",
+    "url": "https://doi.org/10.3389/fmars.2025.1543885"
+  },
+  "carte": {
+    "punch": "27.3% of the ocean floor is mapped. One sounding per cell is enough.",
+    "idee": "Seabed 2030 counts a cell as mapped as soon as a single sounding falls in it: 100 meters on a side under 1,500 meters of depth, up to 800 meters beyond 5,750. In 2025, that amounts to 27.3% of the seafloor, versus about 6% in 2017.",
+    "source_courte": "GEBCO, 2025; Niyazi et al., 2025"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Seabed 2030: project overview",
+      "url": "https://seabed2030.org/about/",
+      "note": "The project's backers and its 2030 goal."
+    }
+  ],
+  "quiz": {
+    "question": "In the Seabed 2030 count, what makes a grid cell \"mapped\"?",
+    "choix": [
+      "Its depth was estimated or interpolated from neighboring cells",
+      "A multibeam echo sounder covered it without leaving an unmeasured strip",
+      "A satellite image of the ocean surface makes it possible to read the relief there",
+      "At least one direct sounding has fallen in it, in a cell of 100 to 800 meters"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The criterion reported by the 2025 study is one direct sounding per cell, 100 to 800 meters on a side depending on depth. Only direct measurements count: estimated or interpolated depths are held to be unmapped, and a cell does not need to be fully covered: that is what allows a continuous map to be measured at only 27.3%.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Who launched Seabed 2030, and in what year?",
+      "choix": [
+        "NOAA and UNESCO, in 2015",
+        "The Nippon Foundation and GEBCO, in 2017",
+        "The United Nations alone, in 2020",
+        "GEBCO alone, with no partner, in 2017"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The text dates it to 2017, at the first United Nations Ocean Conference, by the Nippon Foundation and GEBCO together, not by the UN or by GEBCO alone.",
+      "statut": "valide"
+    },
+    {
+      "question": "According to the 2025 study, which ocean area is the least mapped?",
+      "choix": [
+        "The North Atlantic",
+        "The North Pacific",
+        "The Indian Ocean",
+        "The hadal zones"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text gives 17.5% for the Indian Ocean, the lowest rate cited, while the North Atlantic and the North Pacific are said to be the best mapped and the hadal zones are covered at 55.6%.",
+      "statut": "valide"
+    },
+    {
+      "question": "According to the study cited, what best explains where the seafloor has already been measured?",
+      "choix": [
+        "The size of exclusive economic zones, the wealth of states, and offshore resources",
+        "The distance from inhabited coasts, accessible areas being measured first",
+        "The average depth, the deepest waters being measured last",
+        "The age of national mapping programs"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text rules out the idea of an exploration that would go from the most accessible to the most distant: the study instead ties coverage to exclusive economic zones, wealth, and offshore resources.",
+      "statut": "valide"
+    }
+  ]
+}

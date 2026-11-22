@@ -1,0 +1,93 @@
+{
+  "id": "nut-umami-cinquieme-gout-ikeda",
+  "slug": "umami-cinquieme-gout-ikeda",
+  "langue": "en",
+  "empreinte_fr": "0d6b7a9d6980e723",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation/texte",
+      "type": "citation-traduite",
+      "note": "The French marks this as translated from English (the published English translation of Ikeda's 1909 article); the original English wording was not retrieved, so this is a translation back from the French."
+    },
+    {
+      "chemin": "citation/source",
+      "type": "citation-traduite",
+      "note": "English source line restored from the French; see the note on citation/texte."
+    }
+  ],
+  "titre": "A Fifth Taste Was Waiting to Be Given a Name",
+  "accroche": "In 1907, a Japanese chemist tastes a seaweed broth and wonders why none of the four known tastes is enough to describe it",
+  "contenu_vulgarise": "Sweet, salty, sour, bitter: since ancient Greece, the list of basic tastes has fit in four words, and no one thinks of questioning it. Yet in 1907 Kikunae Ikeda, a chemist at the University of Tokyo, tastes a dashi broth made with kombu seaweed and finds in it something those four words do not cover: a full, savory flavor.\n\n## Isolating the Molecule of a Taste with No Name\n\nIkeda sets out to chemically extract the substance responsible. In 1908, he isolates glutamic acid, a common amino acid, demonstrates that it carries this particular flavor, and files a patent to industrially produce a flavor enhancer based on glutamate. The following year, in a scientific article published in 1909, he gives this flavor a name: \"umami,\" from umai (savory) and mi (taste). That same year, monosodium glutamate is put on the Japanese market under the name AJI-NO-MOTO, literally \"the essence of taste.\"\n\nIkeda's proposal does not immediately convince Western science. For nearly a century, outside Japan, umami remains classified as a nuance of saltiness or a mere matter of flavor enhancement, not as a fundamental fifth taste in its own right. The turning point comes from molecular biology: in 2000, an American team identifies a taste receptor specifically sensitive to glutamate on the tongue, then in 2002 another team precisely characterizes the pair of receptors (T1R1 and T1R3) that, assembled, detect the amino acids responsible for umami, the same family of receptors that, combined differently, also detects sweetness.\n\n## What the Late Discovery Changes\n\nThis biological confirmation, nearly a century after Ikeda's intuition, shifts a received idea. The glutamate added to industrial foods does not imitate an existing taste: it directly activates a dedicated receptor, just as sugar activates the sweet receptors. Umami is not the preserve of Japanese cooking either: Parmesan, soy sauce, ripe tomatoes, and long-simmered meat broth naturally contain high concentrations of it, which explains why these foods, in very different cuisines, produce the same sensation of fullness in the mouth.\n\nThis gap between a chemist's intuition and its biological validation a century later illustrates a regularity that runs through the history of food science: perception almost always precedes the explanation of the mechanism that produces it. It often takes decades for the second to catch up with the first.",
+  "citation": {
+    "texte": "The particular flavor I sense as “umai” [...] comes from broth prepared from dried bonito and seaweed [kombu]. I propose to call this flavor “umami” for convenience.",
+    "auteur": "Kikunae Ikeda",
+    "source": "New Seasonings, Chemical Senses, vol. 27, no. 9, 2002 (English translation of the original 1909 Japanese article)",
+    "url": "https://academic.oup.com/chemse/article/27/9/847/295610"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "A fifth taste had always been waiting to be given a name.",
+    "idee": "In 1908, Kikunae Ikeda isolates glutamate from a seaweed broth; the following year, he proposes the word “umami.” It will take until 2000-2002 and the discovery of a dedicated taste receptor on the tongue for science to confirm that it is indeed a fifth taste, distinct from the other four.",
+    "source_courte": "Chemical Senses, 2002"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "An amino-acid taste receptor (Nelson et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11894099/",
+      "note": "Characterizes in 2002 the T1R1/T1R3 receptor pair responsible for detecting umami."
+    }
+  ],
+  "quiz": {
+    "question": "Why did it take until the 2000s for umami to be recognized as a fundamental fifth taste in its own right?",
+    "choix": [
+      "Because glutamate did not exist naturally before the invention of the flavor enhancer",
+      "Because Ikeda had not managed to isolate the responsible molecule in 1908",
+      "Because Western cuisines knew no food rich in umami",
+      "Because a dedicated taste receptor had to be identified to biologically confirm Ikeda's intuition"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Ikeda had isolated glutamate as early as 1908, but without biological proof of a dedicated receptor, umami was still seen as a nuance of saltiness. The characterization of the T1R1/T1R3 receptors in 2000-2002 confirmed that it is a distinct detection mechanism. Parmesan and soy sauce contain it naturally, long before any industrial flavor enhancer.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In what year does Kikunae Ikeda isolate the glutamic acid responsible for the umami taste?",
+      "choix": [
+        "1907, the year he tastes the dashi broth",
+        "1908",
+        "1909, the year of his scientific article",
+        "1900, before he even begins his research"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Ikeda tastes the dashi in 1907, isolates glutamate and files a patent in 1908, then publishes his article proposing the word umami in 1909: three years, three distinct steps.",
+      "statut": "valide"
+    },
+    {
+      "question": "Which foods naturally contain high concentrations of umami, outside Japanese cooking?",
+      "choix": [
+        "Parmesan, soy sauce, ripe tomatoes, and simmered meat broth",
+        "White rice, plain pasta, and boiled potatoes",
+        "Citrus fruits, red berries, and sweetened sodas",
+        "Refined sugar, honey, and fruit syrups"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text cites Parmesan, soy sauce, ripe tomatoes, and long-simmered meat broth as natural sources of umami, in cuisines very different from Japanese cooking.",
+      "statut": "valide"
+    },
+    {
+      "question": "Under what name is monosodium glutamate put on the Japanese market in 1909?",
+      "choix": [
+        "Umami, literally “savory taste”",
+        "AJI-NO-MOTO, literally “the essence of taste”",
+        "Dashi-Extract, a name given by the University of Tokyo",
+        "Glutamix, a trademark registered by Ikeda himself"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Ikeda files a patent in 1908 to industrially produce a flavor enhancer based on glutamate, marketed from 1909 under the name AJI-NO-MOTO, literally “the essence of taste.”",
+      "statut": "valide"
+    }
+  ]
+}

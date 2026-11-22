@@ -1,0 +1,85 @@
+{
+  "id": "oce-acidification-oceans-autre-crise-co2",
+  "slug": "acidification-oceans-autre-crise-co2",
+  "langue": "en",
+  "empreinte_fr": "cfd525b80bf7fb50",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation/texte",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives Lubchenco's sentence in English; copied unchanged, with the English source title restored."
+    }
+  ],
+  "titre": "Ocean Acidification, the Other CO2 Crisis",
+  "accroche": "About a third of the CO2 emitted by humans ends up in the ocean, where it changes the chemistry of the water, not just its temperature",
+  "contenu_vulgarise": "In December 2009, during the United Nations climate negotiations in Copenhagen, Jane Lubchenco, then NOAA administrator, looks for a phrase to designate a phenomenon that has remained in the shadow of global warming. She finds it: \"I call this ocean acidification climate change's equally evil twin, if you will,\" the equally evil twin of climate change. The phrase strikes because it shifts attention: the CO2 emitted by human activities does not merely warm the atmosphere, it also directly changes the chemistry of seawater.\n\n## A Chemical Reaction, Not a Greenhouse Effect\n\nThe mechanism has nothing to do with temperature. Part of the atmospheric CO2 dissolves in the ocean and reacts with seawater to form carbonic acid (H2CO3), which dissociates into bicarbonate ions (HCO3–) and free hydrogen ions (H+). These hydrogen ions in turn react with the carbonate ions (CO32–) already present in the water, making them relatively less abundant. Yet these are precisely the carbonate ions that calcifying organisms, corals, mollusks, certain plankton, use to build their shells and skeletons out of calcium carbonate. Fewer carbonate ions available means construction that is more costly, sometimes impossible, for a whole swath of marine life.\n\n## A Small Number Hiding a Bigger One\n\nAccording to a reference document published by NOAA in December 2018, the average surface pH of the oceans has dropped by about 0.1 unit since the Industrial Revolution. The figure seems minimal, until you remember that the pH scale is logarithmic: each unit represents a factor of ten. A drop of 0.1 unit therefore corresponds to a rise of about 30% in the acidity of seawater, a rate that the same document describes as ten times faster, at minimum, than anything the ocean has experienced over the last fifty million years. NOAA projects a further drop of about 0.3 unit by the end of the century if emissions continue at the current rate.\n\nThis chemical transformation is not a by-product of warming. It is a direct and independent consequence of the absorption of CO2 by the water itself. According to NOAA's pages on the subject, the ocean thus absorbs about a third of the CO2 emitted by human activities. This enormous fraction has so far limited atmospheric warming, but at the price of an acidification that nothing in the climate negotiations, focused on temperature, made it possible to anticipate before it was given a name.",
+  "citation": {
+    "texte": "I call this ocean acidification climate change's equally evil twin, if you will.",
+    "auteur": "Jane Lubchenco",
+    "source": "Quoted in “Acid oceans: the 'evil twin' of climate change,” Associated Press dispatch reprinted by phys.org, December 18, 2009",
+    "url": "https://phys.org/news/2009-12-acid-oceans-evil-twin-climate.html"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "CO2 doesn't just warm the air: it also changes the chemistry of the ocean.",
+    "idee": "The ocean absorbs about a third of the CO2 emitted by humans, which makes scarcer the carbonate ions that corals and shellfish use to make their skeletons. Surface pH has dropped by about 0.1 unit since the Industrial Revolution, or about 30% more acidity according to NOAA.",
+    "source_courte": "NOAA, State of the Science, 2018"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "What is Ocean Acidification? (NOAA Ocean Acidification Program)",
+      "url": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
+      "note": "Reference page of the U.S. federal program dedicated to the subject."
+    }
+  ],
+  "quiz": {
+    "question": "Why does a drop of only 0.1 pH unit represent a rise of about 30% in ocean acidity?",
+    "choix": [
+      "Because the pH scale is logarithmic: each unit corresponds to a factor of ten",
+      "Because pH measurements vary widely with the depth at which they are taken",
+      "Because the actual increase in CO2 dissolved in the water in fact exceeds 30%",
+      "Because the instruments used to measure pH have changed since the Industrial Revolution"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The pH scale is logarithmic: a change of one full unit corresponds to a factor of ten in hydrogen ion concentration. A drop of 0.1 unit, which seems minimal, therefore does correspond to a rise of about 30% in acidity, a scale effect, not a variation in measurement method or sampling depth.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What becomes of the hydrogen ions released in seawater?",
+      "choix": [
+        "They escape to the atmosphere as a gas",
+        "They react with carbonate ions, which become less abundant",
+        "They attach directly to mollusk shells",
+        "They recombine into dissolved oxygen, usable by fish"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Dissolved CO2 forms carbonic acid, which dissociates into bicarbonate ions and hydrogen ions. The latter react with the carbonate ions already present, the very ones that corals and shellfish need to build their calcium carbonate."
+    },
+    {
+      "question": "By how much does NOAA project a further drop in pH by the end of the century?",
+      "choix": [
+        "About 0.01 unit, an almost undetectable variation",
+        "About 3 units, a thousandfold factor in acidity",
+        "About 0.3 unit, if emissions continue",
+        "None: the observed drop should stop on its own"
+      ],
+      "bonne_reponse": 2,
+      "explication": "NOAA projects a further drop of about 0.3 unit by the end of the century if emissions continue at the current rate, on top of the 0.1 unit already lost since the Industrial Revolution."
+    },
+    {
+      "question": "How fast is this acidification occurring, according to NOAA's 2018 document?",
+      "choix": [
+        "At about the same rate as over the last fifty million years",
+        "Ten times slower than the warming of the atmosphere",
+        "At a rate that cannot yet be estimated",
+        "At least ten times faster than over the last fifty million years"
+      ],
+      "bonne_reponse": 3,
+      "explication": "NOAA's document describes this rate as ten times faster, at minimum, than anything the ocean has experienced over the last fifty million years. This acceleration does not come from warming. It comes from the direct absorption of CO2 by the water."
+    }
+  ]
+}

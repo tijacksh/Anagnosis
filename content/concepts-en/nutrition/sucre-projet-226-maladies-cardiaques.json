@@ -1,0 +1,89 @@
+{
+  "id": "nut-sucre-projet-226-maladies-cardiaques",
+  "slug": "sucre-projet-226-maladies-cardiaques",
+  "langue": "en",
+  "empreinte_fr": "cd8584c455f6eeb7",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "erreur-possible-fr",
+      "note": "The heading \"Un article, deux chercheurs, cinq cents dollars\" gives $500 as the price, while the text says the researchers were offered $500 and $1,000 and that final funding reached $6,500 (as in the title); the heading may be inconsistent with the body. Translated as written."
+    },
+    {
+      "chemin": "repere/texte",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives this sentence from Cristin Kearns, quoted by UC San Francisco, in English; copied unchanged, with the French gloss dropped."
+    }
+  ],
+  "titre": "The Heart Disease Study That Sugar Paid $6,500 For",
+  "accroche": "In 1965, the sugar industry funds a scientific review that will divert decades of heart research toward fats, without falsifying a single piece of data.",
+  "contenu_vulgarise": "On July 13, 1965, the executive committee of a sugar lobby approves a research project with a neutral name, \"Project 226\": a review of the scientific literature on fats, carbohydrates, and cardiovascular disease. The timing is not chosen at random. A few days earlier, the American press had seized on studies published the previous month that pointed to sugar as a risk factor for heart disease. The subject had worried the industry since 1954: its own internal calculations showed that if Americans adopted low-fat diets, their sugar consumption would rise by more than a third.\n\n## One Article, Two Researchers, Five Hundred Dollars\n\nTo write this review, the Sugar Research Foundation approaches two researchers in the nutrition department of the Harvard School of Public Health, D. Mark Hegsted and Robert McGandy, under the supervision of the department chair, Fredrick Stare. It offers them $500 and $1,000, half paid at the outset, the balance once the article is accepted for publication. The final funding will reach $6,500, the equivalent of $50,000 today. But the foundation does not merely pay: it sets the objective of the review, suggests articles to include, and reads successive drafts before publication.\n\nThe article, \"Dietary fats, carbohydrates and atherosclerotic vascular disease,\" appears in two parts in the New England Journal of Medicine in the summer of 1967. Its conclusion leaves no room for doubt: according to the authors, reducing dietary cholesterol and replacing saturated fats with polyunsaturated fats is enough to prevent cardiovascular disease. The studies that implicated sugar are systematically downplayed. The sugar industry's funding, for its part, appears nowhere in the article; the journal did not yet require it at the time.\n\n## Found in Two Archives, Fifty Years Later\n\nThe affair might have stayed buried if Cristin Kearns, a dentist turned public health researcher at the University of California, San Francisco, had not come across the correspondence between the foundation and one of its scientific advisers in the archives of the University of Illinois. She cross-checks it against the correspondence exchanged with Hegsted, held at the Harvard medical library: more than 340 documents, 1,582 pages. Kearns publishes her analysis with Laura Schmidt and Stanton Glantz in 2016 in JAMA Internal Medicine. Glantz, a recognized specialist in the tobacco industry's maneuvers, applies here to the sugar archives the method he honed on the cigarette makers' internal documents.\n\nNothing in this story required falsifying a single experimental datum. It was enough to choose who writes a synthesis, which studies appear in it, and what objective is set for it at the outset, to steer fifty years of heart disease research away from a very real risk factor. The sugar-versus-fat debate, reopened since, owes part of its delay to this article.",
+  "citation": null,
+  "repere": {
+    "texte": "The literature review helped shape not only public opinion on what causes heart problems but also the scientific community's view of how to evaluate dietary risk factors for heart disease.",
+    "source": "Cristin Kearns, quoted by UC San Francisco, “Sugar Papers Reveal Industry Role in Shifting National Heart Disease Focus to Saturated Fat,” September 12, 2016",
+    "url": "https://www.ucsf.edu/news/2016/09/404081/sugar-papers-reveal-industry-role-shifting-national-heart-disease-focus"
+  },
+  "carte": {
+    "punch": "A 1967 review turned attention from sugar to fats, for $6,500.",
+    "idee": "In 1965, the sugar industry funds a scientific synthesis published by Harvard researchers in 1967, which downplays the role of sugar and blames saturated fats for heart disease. This funding, absent from the article, is found in 2016 in two university archives.",
+    "source_courte": "JAMA Internal Medicine, 2016"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Dietary fats, carbohydrates and atherosclerotic vascular disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5339697/",
+      "note": "McGandy, Hegsted & Stare, New England Journal of Medicine, 1967 — the original article funded by the Sugar Research Foundation."
+    }
+  ],
+  "quiz": {
+    "question": "How did the Sugar Research Foundation steer heart disease research in 1967 without falsifying any data?",
+    "choix": [
+      "By funding rigged clinical trials on cardiac patients",
+      "By directly bribing the editors of the medical journal that published the article",
+      "By defining the objective of the synthesis and choosing the studies to cite in it",
+      "By funding a counter-study that was never published"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The foundation did not fabricate data: it paid Harvard researchers to write a synthesis whose angle and content it defined, without disclosing it. The influence worked on the choice of studies, not on the invention of results.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Since 1954, what has worried the sugar industry according to its own internal calculations?",
+      "choix": [
+        "A projected rise in sugar consumption of more than a third",
+        "A projected drop in sugar consumption of more than a third",
+        "An imminent ban on refined sugar in the United States",
+        "A fall in the world price of sugar of more than half"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The internal calculations of 1954 showed that if Americans adopted low-fat diets, their sugar consumption would rise by more than a third."
+    },
+    {
+      "question": "Who brought this affair to light, fifty years later, by finding archival correspondence?",
+      "choix": [
+        "A journalist from the New England Journal of Medicine",
+        "A U.S. congressional investigating committee",
+        "Cristin Kearns, a dentist turned public health researcher",
+        "Fredrick Stare, by publishing his own memoirs"
+      ],
+      "bonne_reponse": 2,
+      "explication": "It is Cristin Kearns, a dentist turned researcher at UCSF, who finds the correspondence in the archives of the University of Illinois and of Harvard."
+    },
+    {
+      "question": "What was the total funding paid to the Harvard researchers for the 1967 review?",
+      "choix": [
+        "$500, or about $4,000 in today's dollars",
+        "$50,000, or about $400,000 in today's dollars",
+        "$1,000, or about $8,000 in today's dollars",
+        "$6,500, or about $50,000 in today's dollars"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The funding, paid in two installments, reaches $6,500 in the end, the equivalent of about $50,000 today."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "nut-sel-tension-arterielle-dash-sodium",
+  "slug": "sel-tension-arterielle-dash-sodium",
+  "langue": "en",
+  "empreinte_fr": "f73f5dc3fb04caed",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Cutting Salt Does Not Lower Blood Pressure the Same Way for Everyone",
+  "accroche": "A 2001 clinical trial tested three salt levels on 412 people. No single threshold, but a slope, steeper in some than in others",
+  "contenu_vulgarise": "That salt raises blood pressure is not a recent discovery. What the DASH-Sodium trial, published in 2001 in the New England Journal of Medicine, made it possible to pin down is the exact shape of this relationship: a continuous slope, with no clear plateau, whose size varies depending on who is being measured.\n\n## Three Salt Levels, One Extra Diet\n\nThe trial recruits 412 adults with normal or mildly elevated blood pressure. Each follows, in a randomized order, three sodium levels for thirty days: about 1.15 grams, 2.3 grams, then 3.45 grams per day, under two different diets, a typical American diet and the DASH diet, rich in fruits, vegetables, and low-fat dairy products, already tested on its own in 1997.\n\nThe central result: blood pressure falls at each step of sodium reduction, with no threshold effect that would make a reduction pointless below a certain level. Going from the highest sodium level to the lowest, on the typical American diet, drops systolic pressure by several millimeters of mercury; combined with the DASH diet, the effect is greater still, up to 11.5 mmHg lower in people who already have high blood pressure, compared with the typical high-sodium diet. Cutting salt and changing what you eat are therefore not two redundant levers: they add up.\n\n## The Same Diet, Unequal Effects\n\nWhat the trial does not show, however, is a uniform effect. A reanalysis of the same data, published in 2017, confirms that the size of the drop depends strongly on starting blood pressure: compared with the typical high-sodium diet, the low-sodium DASH diet lowers systolic pressure by 5 mmHg in participants whose starting pressure was below 130 mmHg, versus 21 mmHg in those whose starting pressure was 150 or above. This individual variability has a name in medicine: salt sensitivity, a phenotype that affects about half of people with high blood pressure but only a quarter of people with normal blood pressure, according to the American Heart Association, and that is more common in older people and in certain ethnic groups.\n\nThis variability shifts the question we usually ask about salt. It does not invalidate the dose-effect relationship demonstrated by DASH-Sodium: less sodium lowers blood pressure, on average, with no floor threshold observed in the trial. But it explains why one and the same public health guideline, useful across a population, produces very unequal results from one individual to the next: cutting salt helps almost everyone a little, and some people much more than others, without our being able yet, at the individual level, to easily predict who belongs to which group before having measured it.",
+  "citation": null,
+  "repere": {
+    "texte": "Systolic blood pressure decreased with each reduction in the sodium level tested, with no threshold effect; combined with the DASH diet, the drop reaches 11.5 mmHg in people with high blood pressure compared with the typical high-sodium diet, versus 7.1 mmHg in people without high blood pressure.",
+    "source": "Sacks F.M., Svetkey L.P., Vollmer W.M. et al., “Effects on Blood Pressure of Reduced Dietary Sodium and the Dietary Approaches to Stop Hypertension (DASH) Diet,” New England Journal of Medicine, 2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11136953/"
+  },
+  "carte": {
+    "punch": "Cutting salt does not lower blood pressure the same way for everyone.",
+    "idee": "A 2001 trial of 412 adults shows that blood pressure falls at each step of sodium reduction, with no threshold effect. The DASH diet with low sodium lowers systolic pressure by 11.5 mmHg in people with high blood pressure, 7.1 in people without, compared with a typical high-salt diet.",
+    "source_courte": "Sacks et al., NEJM, 2001"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Salt Sensitivity of Blood Pressure: An Enigmatic Hypertension Phenotype",
+      "url": "https://professional.heart.org/en/science-news/salt-sensitivity-of-blood-pressure/commentary",
+      "note": "American Heart Association: salt sensitivity would affect about 51% of people with high blood pressure versus 26% of people with normal blood pressure."
+    }
+  ],
+  "quiz": {
+    "question": "What exactly does the DASH-Sodium trial (2001) show about the relationship between sodium and blood pressure?",
+    "choix": [
+      "That there is a sodium threshold below which reducing further has no effect",
+      "That only the DASH diet lowers blood pressure, regardless of the sodium consumed",
+      "That blood pressure falls with each sodium reduction, with no plateau, and more markedly in people with high blood pressure",
+      "That salt sensitivity does not depend on any individual factor"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The trial shows a continuous slope: blood pressure falls with each sodium reduction tested, with no floor threshold, and the effect is markedly stronger in people who already have high blood pressure. A 2017 reanalysis confirms this individual variability, linked to salt sensitivity, a phenotype that affects about half of people with high blood pressure.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How long does each participant in the DASH-Sodium trial spend at each sodium level tested?",
+      "choix": [
+        "Two weeks",
+        "Thirty days",
+        "Three months",
+        "A full year"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Each participant follows, in a randomized order, each of the three sodium levels tested for thirty days.",
+      "statut": "valide"
+    },
+    {
+      "question": "What does the 2017 reanalysis of the DASH-Sodium trial data show?",
+      "choix": [
+        "That the effect of the low-sodium DASH diet depends strongly on starting blood pressure",
+        "That the 2001 trial had overestimated the effect of sodium on blood pressure",
+        "That the DASH diet alone, without sodium reduction, is enough to normalize every participant's blood pressure",
+        "That salt sensitivity affects only people under thirty"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The 2017 reanalysis confirms that the size of the blood pressure drop depends strongly on starting blood pressure: 5 mmHg if it was below 130, 21 mmHg if it was 150 or above.",
+      "statut": "valide"
+    },
+    {
+      "question": "What does the text say about salt sensitivity?",
+      "choix": [
+        "It affects all people with high blood pressure, without exception",
+        "It affects only people following a strict vegetarian diet",
+        "It affects about half of people with high blood pressure, versus a quarter of people with normal blood pressure",
+        "It was first discovered by the DASH-Sodium trial in 2001"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Salt sensitivity is a phenotype that affects about half of people with high blood pressure but only a quarter of people with normal blood pressure, according to the American Heart Association.",
+      "statut": "valide"
+    }
+  ]
+}

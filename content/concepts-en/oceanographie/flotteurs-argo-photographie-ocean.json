@@ -1,0 +1,90 @@
+{
+  "id": "oce-flotteurs-argo-photographie-ocean",
+  "slug": "flotteurs-argo-photographie-ocean",
+  "langue": "en",
+  "empreinte_fr": "bc7dbf849d30d5b1",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation/texte",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives Piotrowicz's sentence in English; copied unchanged, with the English source title restored."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-originale-anglaise",
+      "note": "The two sentences quoted in the body (Lumpkin; Piotrowicz) are already in English in the French and are copied unchanged. The source of the Lumpkin sentence is not given in the entry and was not checked."
+    }
+  ],
+  "titre": "Four Thousand Robots Giving the World Ocean a Checkup",
+  "accroche": "Since 2000, a network of floats dives, drifts, and resurfaces every ten days to measure the entire ocean, without pause",
+  "contenu_vulgarise": "Somewhere in the Pacific Ocean, a metal cylinder 1.3 meters long drifts silently at a depth of 2000 meters. For ten days, no one knows exactly where it is. Then an internal motor pumps oil into an external bladder, reducing its density: the float slowly rises toward the surface, measuring, all along its ascent, the temperature and salinity of the water it passes through. Once at the surface, it determines its position by satellite, transmits its measurements, then deflates and dives again to start over. This is the cycle of an Argo float, one of the four thousand that today make up the first systematic observation network of the world ocean.\n\n## From a Test Float to a Planetary Network\n\nThe very first Argo float is put in the water in 1999; the deployment of the international network officially begins in 2000. The initial goal, 3000 floats active at all times to obtain global coverage, is reached in November 2007. Each float is designed for about 150 cycles, a lifespan of three to five years, before being replaced. The current network, maintained by 28 countries, with the United States alone supplying nearly half, today has nearly 4000 floats active at the same time, spread across all the world's oceans.\n\nThis continuous deployment has produced an unprecedented volume of data: more than three million temperature and salinity profiles delivered in twenty-five years, the three-millionth reached in July 2024. Rick Lumpkin, an oceanographer at the NOAA Atlantic Oceanographic and Meteorological Laboratory, sums up what this changes: the floats \"provide a much more detailed view of seasonal to interannual fluctuations of upper ocean heat and salt than we had before,\" a far more detailed view of the seasonal and interannual fluctuations of heat and salt in the upper ocean than before.\n\n## What We Could Not Measure Before\n\nBefore Argo, less than 1% of the ocean below the first few hundred meters was routinely monitored: knowledge of the deep ocean rested on isolated measurements, and vast regions, like the Southern Hemisphere, were rarely visited by research ships, and so almost never measured. Steve Piotrowicz, who has directed the Argo program since its creation, gauges the shift: \"anyone studying oceanography in grad school in the '70s, including myself, couldn't have envisioned anything like this in terms of how we are now able to observe the ocean and the expansion of knowledge and scientific research going on.\"\n\nThis change of scale has a direct and verifiable consequence: according to NOAA AOML, Argo has considerably reduced the uncertainty in estimating the amount of heat stored by the world ocean, and therefore in projections of sea level rise, which depend directly on this accumulated heat. An ocean that could previously only be sampled in fragments is now followed, almost continuously, as a whole.",
+  "citation": {
+    "texte": "anyone studying oceanography in grad school in the '70s, including myself, couldn't have envisioned anything like this in terms of how we are now able to observe the ocean and the expansion of knowledge and scientific research going on.",
+    "auteur": "Steve Piotrowicz",
+    "source": "“The Argo revolution,” NOAA Climate.gov, December 5, 2014",
+    "url": "https://www.climate.gov/news-features/features/argo-revolution"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Four thousand robots dive and resurface without pause to give the world ocean a checkup.",
+    "idee": "Since 2000, the international Argo network has deployed floats that dive to 2000 m, drift for ten days, then rise while measuring temperature and salinity before transmitting their data by satellite. Nearly 4000 active floats have already delivered more than three million profiles in 25 years.",
+    "source_courte": "NOAA AOML / Argo Program"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Argo's status (implementation status)",
+      "url": "https://argo.ucsd.edu/about/status/",
+      "note": "A regularly updated dashboard of the number of active floats."
+    }
+  ],
+  "quiz": {
+    "question": "How does an Argo float transmit its measurements to researchers on land?",
+    "choix": [
+      "It stays anchored to the bottom and transmits continuously by undersea cable",
+      "It is recovered every year by an oceanographic ship that downloads its data",
+      "It surfaces every ten days and transmits its data by satellite before diving again",
+      "It transmits continuously by radio throughout its drift, at 2000 meters of depth"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The float is never anchored and is not regularly recovered: it changes its buoyancy to rise every ten days, measures the water column on the way up, then transmits its data by satellite once at the surface, before sinking again. Continuous radio transmission at 2000 meters would be impossible: the waves do not travel through water over such a distance.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What goal was reached in November 2007?",
+      "choix": [
+        "The deployment of the first Argo float",
+        "The threshold of 3000 floats active at all times, aiming at global coverage",
+        "Passing the mark of three million profiles",
+        "The 28th country joining the Argo network"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The very first float is put in the water in 1999, and the international network starts in 2000. The initial goal of 3000 active floats for global coverage is not reached until eight years later, in November 2007."
+    },
+    {
+      "question": "What share of the deep ocean was routinely monitored before Argo, according to the entry?",
+      "choix": [
+        "A little over half",
+        "About 10%",
+        "Less than 1%",
+        "About 25%, mainly in the Northern Hemisphere"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Before the Argo network was deployed, less than 1% of the ocean below the first few hundred meters was routinely monitored, and vast regions like the Southern Hemisphere were rarely visited."
+    },
+    {
+      "question": "What share of the active floats does the United States supply to the network, on its own?",
+      "choix": [
+        "Nearly half",
+        "About a quarter",
+        "Almost all of them, the other 27 countries contributing only marginally",
+        "Less than a tenth"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The network is maintained by 28 countries, but the United States alone supplies nearly half of the active floats, a share far greater than that of any other participating country."
+    }
+  ]
+}

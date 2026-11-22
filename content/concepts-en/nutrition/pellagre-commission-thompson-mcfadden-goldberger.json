@@ -1,0 +1,69 @@
+{
+  "id": "nut-pellagre-commission-thompson-mcfadden-goldberger",
+  "slug": "pellagre-commission-thompson-mcfadden-goldberger",
+  "langue": "en",
+  "empreinte_fr": "91da70cac847f870",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "repere/texte",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives this sentence from Mooney, Knox and Morabia in English; copied unchanged, with the French gloss dropped."
+    }
+  ],
+  "titre": "Pellagra: Two Investigations in the Same Villages, Two Opposite Conclusions",
+  "accroche": "In 1914, a commission rules out diet; in 1916, Goldberger blames it. In the same villages, the difference comes down to how things were measured.",
+  "contenu_vulgarise": "In 1912, an American commission sets its investigators up in six cotton mill villages near Spartanburg, South Carolina. It counts the cases of pellagra, the disease that covers the skin with symmetrical patches and can lead to dementia. It also asks every household what it eats. Two years later, the Thompson-McFadden Commission concludes that no dietary cause appears and that an infectious disease is more likely. It notes that incidence falls the farther one moves from known cases, and that it is lower where hygiene is better.\n\n## Same Ground, a Different Measure\n\nIn 1916, a team from the U.S. Public Health Service, led by Joseph Goldberger, returns to almost identical villages: seven mill villages, several of them already visited by the commission. It concludes the opposite: pellagra is a deficiency disease, linked to what people eat. The disagreement does not come from a different site or a rigged file. It comes from the way of measuring.\n\nThe commission asked one person per household, usually an adult woman, how often each food was eaten, on seven levels. This self-reported answer is vague, and it says nothing about the quantity available to the whole family. Goldberger's team measured the household's food supply over fifteen days, using the company store's records and surveys of housewives, then related it to the number of people to be fed. It also tightened the definition of a case: a skin rash symmetrical on both sides of the body. With these measurements, pellagra turns out to be far more common in poor households, and the village's hygiene does not track the observed rates.\n\n## What Measurement Noise Can Hide\n\nIn 2014, three epidemiologists redid the experiment on paper. The individual data could not be found; they therefore worked from the aggregate figures of the four villages common to both investigations, and simulated, a thousand times at each level, a double measurement error: on the diagnosis of pellagra, with a specificity of 98.6%, and on the meat supply, from 0 to 30%. At 25% error on meat, the median slope between meat supply and pellagra drops to −0.010, versus −0.022 in Goldberger's original data. Their conclusion is cautious: small measurement errors, in the diagnosis as well as in the diet, would have been enough to weaken the link between diet and disease sharply in the commission's data. This is a simulation, not proof that the commission went wrong in this way.\n\n## The Shift\n\nPellagra is often told as a victory of common sense over prejudice: all it took was opening one's eyes. The episode says something else. Two serious teams, facing the same villages, drew opposite conclusions, and the first had good reasons to believe in infection, since the disease clustered around cases. What tipped the balance was not a more brilliant idea but a more precise instrument. A poorly measured risk factor does not vanish from the data: it leaves a weak association there, which can be read as an absence of any link. How many causes held to be ruled out are so because of a questionnaire that was too crude?",
+  "citation": null,
+  "repere": {
+    "texte": "The first, the Thompson-McFadden Commission, concluded that pellagra was likely infectious. The second, a Public Health Service investigation led by Joseph Goldberger, concluded that pellagra was caused by a dietary deficiency.",
+    "source": "Mooney, Knox & Morabia, American Journal of Epidemiology, 2014",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4108042/"
+  },
+  "carte": {
+    "punch": "Same villages, two investigations, two opposite conclusions about pellagra. The difference: measurement.",
+    "idee": "In 1914, the Thompson-McFadden Commission concludes it is an infectious disease; in 1916, Goldberger concludes it is a deficiency. He measured the household's food supply over fifteen days. A 2014 simulation shows that a moderate measurement error sharply weakens the link.",
+    "source_courte": "Am J Epidemiol, 2014"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why did the two pellagra investigations reach opposite conclusions in comparable villages?",
+    "choix": [
+      "Because the commission falsified its records to defend the infection hypothesis",
+      "Because diet and the type of disease differed from one village to another depending on the year",
+      "Because Goldberger studied hospitalized patients rather than village residents",
+      "Because they did not measure diet in the same way, nor define a case in the same way"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The disagreement comes from measurement: frequency reported by one member of the household on one side, a fifteen-day supply related to the number of people on the other. No falsification is established, and the villages largely overlapped. A hospital study would not have made it possible to compare households either.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the 2014 simulation show about Goldberger's data?",
+      "choix": [
+        "That with a combined error in diagnosis (98.6% specificity) and of 25% on meat, the median slope between meat and pellagra drops by about half",
+        "That the link between diet and pellagra disappears at just 5% error on meat",
+        "That the commission was right: the village's hygiene explained the disease better",
+        "That Goldberger's data stay the same whatever measurement error is added"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The median slope goes from −0.022 to −0.010 for a diagnostic specificity of 98.6% combined with 25% error on meat: the association is sharply weakened, not eliminated. Nor does the simulation cancel the link at 5%, side with the sanitation hypothesis, or leave the data unchanged.",
+      "statut": "valide"
+    },
+    {
+      "question": "What, in the commission's findings, argued for an infectious disease?",
+      "choix": [
+        "The fact that only newcomers to the villages fell ill",
+        "The lower incidence at a distance from known cases and in villages with better sanitation",
+        "The discovery of a microbe in the patients' skin rashes",
+        "The absence of cases among children from the poorest families"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The commission had noted an incidence that decreased with distance from known cases and was lower with better hygiene, which suggested contagion. Poor households, by contrast, were the hardest hit according to Goldberger.",
+      "statut": "valide"
+    }
+  ]
+}

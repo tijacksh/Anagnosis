@@ -1,0 +1,86 @@
+{
+  "id": "nut-reaction-de-maillard",
+  "slug": "reaction-de-maillard",
+  "langue": "en",
+  "empreinte_fr": "6c1ade001fb82cc4",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "incertain",
+      "note": "The French says the reaction stayed a laboratory curiosity \"for forty years\" (1912 to 1953), while the repere says forty-one years; kept as written, since \"forty years\" can be read as a rounding."
+    }
+  ],
+  "titre": "The Browning of a Steak Has Nothing to Do with Caramel",
+  "accroche": "The reaction that gives bread its crust and meat its grilled flavor was discovered in 1912, by a physician who was not thinking about cooking",
+  "contenu_vulgarise": "A bread crust, a seared steak, a roasted coffee bean: three brown surfaces, three smells that no raw food has. What they have in common cannot be seen; it happens between molecules too small to make out, and it bears the name of a man who never picked up a frying pan for his research.\n\n## A Note on the Kidneys, Not on Cooking\n\nLouis-Camille Maillard is a physician and chemist, a specialist in urea metabolism and kidney disease. In January 1912, he presents a short note to the Académie des sciences (the French Academy of Sciences): by heating amino acids and sugars together, he obtains brown compounds that he names melanoidins. His interest is not culinary: he is trying to understand how certain pigments form in the body. The reaction he describes, a reducing sugar and an amino acid reacting under the effect of heat to produce, in a cascade, hundreds of aromatic compounds and brown pigments, will remain a laboratory curiosity for forty years.\n\nIt is an American chemist, John E. Hodge, employed by the U.S. Department of Agriculture, who closes the loop in 1953: he shows that this same reaction explains the browning of dehydrated foods, and details its mechanism in several steps. The name \"Maillard reaction\" becomes widespread in the vocabulary of food chemistry from then on.\n\n## Two Kinds of Browning, One Chemical Difference\n\nThis mechanism has nothing to do with caramelization, with which it is often confused. Caramelization involves only a sugar on its own, broken down by heat; a pure sugar heated with nothing else browns and changes flavor, with no amino acid involved. The Maillard reaction, for its part, requires the meeting of a sugar and a protein or an amino acid: that is why a pure egg white never caramelizes, but a piece of meat, rich in protein and low in sugar, browns very well when cooked despite its low carbohydrate content.\n\nThis distinction has concrete consequences in the kitchen. A moist food never exceeds 100 °C until it has lost its water: that is why boiled meat stays gray and a simmered stew never develops the crust of a piece seared dry. The Maillard reaction starts significantly above 140 °C, a threshold that water, as long as it is present on the surface, almost always prevents from being reached. Browning a food is therefore never just a matter of the heat of the fire: it is first a matter of surface moisture, and that is what distinguishes, in the same pan, what browns from what stays pale.",
+  "citation": null,
+  "repere": {
+    "texte": "The reaction that Louis-Camille Maillard describes in 1912 in a research note on the kidneys will be formally associated with culinary browning only forty-one years later, in 1953, by the American chemist John E. Hodge.",
+    "source": "Hodge, J.E., “Chemistry of Browning Reactions in Model Systems,” Journal of Agricultural and Food Chemistry, vol. 1, no. 15, 1953",
+    "url": "https://doi.org/10.1021/jf60015a004"
+  },
+  "carte": {
+    "punch": "The browning of a steak has nothing to do with caramel.",
+    "idee": "Discovered in 1912 by a physician who was studying the kidneys, the Maillard reaction was not linked to the browning of foods until 1953. It requires an amino acid and a sugar, unlike caramelization, which involves only a sugar on its own.",
+    "source_courte": "J. Agric. Food Chem., 1953"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "The Maillard Reaction Turns 100",
+      "url": "https://cen.acs.org/articles/90/i40/Maillard-Reaction-Turns-100.html",
+      "note": "Chemical & Engineering News looks back over the century since the 1912 note, from kidney biochemistry to molecular gastronomy."
+    }
+  ],
+  "quiz": {
+    "question": "Why does meat simmered in liquid never develop the brown crust of meat seared dry?",
+    "choix": [
+      "Because water keeps the surface from reaching the temperature at which the Maillard reaction starts",
+      "Because simmering destroys the proteins needed for the reaction",
+      "Because simmered meat contains less sugar than seared meat"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The Maillard reaction starts significantly above 140 °C, a threshold that water present on the surface prevents from being reached until it has evaporated; a cooking liquid tops out around 100 °C. Neither the proteins nor the sugar disappear when simmering: it is the surface temperature that is missing.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What was Louis-Camille Maillard's field of research when he presented his 1912 note?",
+      "choix": [
+        "Food chemistry and food preservation",
+        "Urea metabolism and kidney disease",
+        "Bread fermentation and industrial baking",
+        "Animal nutrition in livestock farming"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Maillard is a physician and chemist, a specialist in urea metabolism and kidney disease: his 1912 note on melanoidins answers a biological question, not a culinary one.",
+      "statut": "valide"
+    },
+    {
+      "question": "Who formally links, in 1953, the reaction discovered by Maillard to the browning of foods?",
+      "choix": [
+        "The American chemist John E. Hodge, employed by the U.S. Department of Agriculture",
+        "Louis-Camille Maillard himself, in a second article",
+        "A group of French cooks gathered at the Académie des sciences",
+        "The World Health Organization, in a report on nutrition"
+      ],
+      "bonne_reponse": 0,
+      "explication": "It is the American chemist John E. Hodge, employed by the U.S. Department of Agriculture, who shows in 1953 that the reaction described by Maillard explains the browning of dehydrated foods.",
+      "statut": "valide"
+    },
+    {
+      "question": "Why does a pure egg white never caramelize, unlike meat, which browns well when cooked?",
+      "choix": [
+        "Because egg white contains too much water ever to reach 100°C",
+        "Because caramelization destroys proteins before they can brown",
+        "Because caramelization involves only a sugar on its own, heated without an amino acid, and egg white contains none",
+        "Because a raw egg white is always kept in the refrigerator, which prevents the reaction"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Caramelization involves only a sugar on its own, broken down by heat, with no amino acid, which rules out egg white, low in sugar but rich in protein.",
+      "statut": "valide"
+    }
+  ]
+}

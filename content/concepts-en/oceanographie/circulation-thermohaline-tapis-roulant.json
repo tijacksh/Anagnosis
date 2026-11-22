@@ -1,0 +1,90 @@
+{
+  "id": "oce-circulation-thermohaline-tapis-roulant",
+  "slug": "circulation-thermohaline-tapis-roulant",
+  "langue": "en",
+  "empreinte_fr": "e15cf8b2e0461ae2",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation/texte",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives Broecker's sentence in English; copied unchanged, with the English source title restored."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-originale-anglaise",
+      "note": "The two Broecker sentences quoted in the body are already in English in the French; copied unchanged. Only the first has been matched to the cited page (citation/url)."
+    }
+  ],
+  "titre": "The Great Conveyor Belt of the Oceans",
+  "accroche": "A drop of water takes about a thousand years to loop around the oceans, driven not by the wind but by salt and cold",
+  "contenu_vulgarise": "Near Greenland and Iceland, in winter, surface water cools in contact with polar air. When part of this water freezes, the salt it contained does not enter the ice: it stays in the surrounding water, which becomes even saltier, and therefore denser. This cold, salty water, heavier than what surrounds it, sinks in a continuous column toward the ocean floor. It is the starting point of a movement that owes almost nothing to the wind, unlike surface currents: the thermohaline circulation, driven solely by differences in temperature and salinity.\n\n## A Current That Loses Its Identity Along the Way\n\nThis North Atlantic deep water then flows south, along the bottom, until it meets the waters that encircle Antarctica. The climatologist Wallace Broecker, who was the first to formalize this circuit in the 1980s, describes this mixing precisely: \"So efficient is this blending that the NADW entering from the Atlantic loses its identity before it passes even one half of a revolution around the Antarctic!\" In other words, the mixing is so efficient that this water loses all trace of its origin before even having covered half a circuit of the Antarctic continent.\n\nFrom there, the water gradually rises toward the surface as it warms, a phenomenon that the diagram popularized by Broecker shows as concentrated in the Indian and Pacific Oceans. Broecker himself, however, specified that this upwelling is in reality far more dispersed, with a significant share occurring near Antarctica, a simplification he regrets: the diagram, first published in 1987 to illustrate an article on an abrupt climate cooling in the past, became such a widely reused logo that he writes in 1991: \"Had I suspected that it would be widely adopted as a logo, I would have tried to 'improve' its accuracy.\"\n\n## A Thousand Years for One Loop, and an Unknown at the End\n\nThe American agency NOAA sums up the order of magnitude of the phenomenon: any cubic meter of water takes about a thousand years to complete this circuit, which carries more than a hundred times the flow of the Amazon River, but at a speed of only a few centimeters per second, far slower than any surface current or tide.\n\nThe Gulf Stream, for its part, is only the fast, shallow surface branch of this larger system, technically named the Atlantic meridional overturning circulation (AMOC). Yet this branch shows signs of slowing, measured over the last century: NOAA puts it cautiously, research shows a weakening, but whether this slowdown will continue, or even stop completely, remains uncertain. What seemed a mechanism of immutable slowness, on the scale of a millennium, is now observed from year to year.",
+  "citation": {
+    "texte": "So efficient is this blending that the NADW entering from the Atlantic loses its identity before it passes even one half of a revolution around the Antarctic!",
+    "auteur": "Wallace S. Broecker",
+    "source": "“The Great Ocean Conveyor,” Oceanography, vol. 4, no. 2, 1991, p. 80",
+    "url": "https://tos.org/oceanography/assets/docs/4-2_broecker.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "A drop of water takes about a thousand years to circle the oceans completely.",
+    "idee": "Formed by cold and salt rather than by the wind, a dense water sinks near Greenland and travels along the ocean floor before rising elsewhere. It carries more than a hundred times the flow of the Amazon, at a few centimeters per second, for a full loop of about a thousand years.",
+    "source_courte": "NOAA / Broecker, Oceanography, 1991"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "AMOC: Is global warming tipping key Atlantic ocean currents towards 'collapse'?",
+      "url": "https://interactive.carbonbrief.org/amoc-explainer/index.html",
+      "note": "Explains the current scientific projections on the slowing of the AMOC and their margins of uncertainty."
+    }
+  ],
+  "quiz": {
+    "question": "In what way did Wallace Broecker himself judge that his famous \"ocean conveyor belt\" diagram oversimplified reality?",
+    "choix": [
+      "It ignores the existence of a deep water formed in the North Atlantic",
+      "It assumes the full cycle lasts a century, when it actually lasts a millennium",
+      "It does not mention the role of the Gulf Stream in surface circulation",
+      "It places the upwelling of deep water in the Indian and Pacific Oceans, when it is far more widely distributed"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Broecker specifies in his 1991 article that the upwelling of deep waters is in reality widely distributed, with a significant share occurring near Antarctica, while the popular diagram shows it concentrated in the Indian and Pacific Oceans. The diagram ignores neither the North Atlantic deep water nor the Gulf Stream, and the figure of a thousand years does concern the full cycle, not a century.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How does the dense water that sinks near Greenland and Iceland form?",
+      "choix": [
+        "Polar wind pushes surface water toward the ocean floor",
+        "Salt rejected by ice makes the surrounding water saltier and denser",
+        "Melting glaciers dilute the surface water, which becomes lighter and sinks",
+        "High atmospheric pressure in winter compresses the surface water"
+      ],
+      "bonne_reponse": 1,
+      "explication": "When water freezes, the salt it contained stays in the surrounding water, which becomes saltier and therefore denser, which makes it sink toward the ocean floor."
+    },
+    {
+      "question": "What does Broecker say about how fast North Atlantic deep water mixes as it approaches Antarctica?",
+      "choix": [
+        "The mixing is almost nil before the water has made a full circuit",
+        "The mixing begins only after several thousand years of travel",
+        "The mixing is so efficient that the water loses its identity before half a circuit of Antarctica",
+        "The mixing depends only on the air temperature, not on the water itself"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Broecker writes that the mixing is so efficient that North Atlantic deep water loses its identity before even having covered half a circuit of the Antarctic continent."
+    },
+    {
+      "question": "What is the Gulf Stream, relative to the thermohaline circulation described in the entry?",
+      "choix": [
+        "The fast, shallow surface branch of a larger system called the AMOC",
+        "A totally independent current, unrelated to the thermohaline circulation",
+        "The deep branch that sinks near Greenland and rises near Antarctica",
+        "The name Broecker gave to his conveyor belt diagram in 1987"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text specifies that the Gulf Stream is only the fast, shallow surface branch of this larger system, technically named the Atlantic meridional overturning circulation."
+    }
+  ]
+}
