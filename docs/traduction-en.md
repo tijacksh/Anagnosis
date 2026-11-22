@@ -39,7 +39,7 @@ Chaque fiche existe désormais en deux langues. Le français reste la source de 
 **Traduction.**
 - Anglais américain naturel, registre d'un bon magazine de vulgarisation, phrases courtes et rythme de l'original. Fidèle : rien d'ajouté, rien de retiré, rien de simplifié.
 - Chiffres, noms propres et unités gardés ; chiffres en chiffres. Dates « June 10, 2000 » ; siècles « 2nd century BCE » ; guillemets “ ”.
-- Titres d'œuvres françaises en italique entre astérisques, avec le titre anglais entre parenthèses à la première occurrence. Termes de droit français entre guillemets avec une glose anglaise à la première occurrence.
+- Titres d'œuvres françaises en italique entre astérisques **dans `contenu_vulgarise` seulement** (dans tous les autres champs : titre, accroche, carte, citation, repère, liens, questions, choix, explications, le titre s'écrit en clair, sans astérisque : les apps l'affichent tel quel), avec le titre anglais entre parenthèses à la première occurrence. Termes de droit français entre guillemets avec une glose anglaise à la première occurrence.
 - Traduis aussi `citation.auteur`, `citation.source` et `carte.source_courte`.
 - Glossaire : concept du jour = Today's concept ; fiche = entry (jamais « card », réservé à la carte partageable) ; carte partageable = share card ; série = streak ; Ce jour-là = On this day ; discipline = field ; épreuve = quiz.
 
