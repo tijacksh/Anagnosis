@@ -1,0 +1,83 @@
+{
+  "id": "mus-nouveau-nes-detectent-le-temps-fort-winkler-2009",
+  "slug": "nouveau-nes-detectent-le-temps-fort-winkler-2009",
+  "langue": "en",
+  "empreinte_fr": "9ef051dc25788aae",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Newborns Detect the Downbeat",
+  "accroche": "At two or three days old, fourteen sleeping babies react when a drum hit is missing on the first beat. The sense of the beat may be innate.",
+  "contenu_vulgarise": "At Semmelweis University in Budapest, newborns two or three days old sleep, wearing electrodes that record their brain activity. In their ears plays a rock drum rhythm: a snare, a bass drum, and a hi-hat spread over eight equal positions, played in a loop. From time to time, the first hit of the pattern disappears. Something then changes on the electrodes.\n\n## A silence in the right place\n\nWhat István Winkler's team is testing is called beat induction: perceiving, in a sound signal, a regular beat that organizes the rest, and in particular expecting the “downbeat” that opens each cycle. In an adult, removing that first beat gives the impression that the rhythm stumbles. In a newborn, one cannot ask the question, but one can measure surprise: the brain produces a recognizable electrical response when an expected sound does not arrive, even in a sleeping baby.\n\nThe setup is precise. The basic pattern and three variants that omit a single sound, the hi-hat, at inconspicuous places make up the ordinary sequences: they do not break the rhythm. A fourth, “deviant” variant omits both the hi-hat and the bass drum on the first beat, and appears only rarely, among the others. In all 14 babies, the response to this pattern differs from the response to the ordinary patterns by two negative waves, around 200 and 316 milliseconds after the omission, then a positive wave around 428 milliseconds. One control matters just as much: when the same pattern, stripped of its first beat, is repeated alone, over and over, the brain does not react differently from how it does to the ordinary patterns. It is therefore the expectation of a hit at that spot, created by the context, that is disappointed, not the pattern itself.\n\nThe authors themselves examine the competing explanations: a double omission more conspicuous than a single one, a baby who would follow each instrument separately, or who would compute the probabilities of how sounds follow one another. They discuss them one by one and test the separate-tracking one with a complementary experiment in adults. A follow-up study by the same group, published in 2024 in Cognition, compared regular sequences and sequences with irregular intervals in sleeping newborns: it concludes that statistical learning alone does not explain this processing of the beat.\n\n## What this shifts\n\nWe often read that the sense of rhythm forms during the first year, from being rocked to music by one's parents. This thesis is defended by several researchers, and the 2009 article cites it in order to contradict it: with this protocol, the ability to detect the beat is already in place at birth. The authors stop there. Even if it is innate, they say, the origin and role of music in evolution remain open. They also leave open another, finer question: does the baby perceive only a beat, or does it already build the hierarchy of rhythm, the meter itself?",
+  "citation": null,
+  "repere": {
+    "texte": "Fourteen newborns two or three days old, asleep, reacted to the omission of the first beat of a drum rhythm with a brain response of expectation violation, absent when the same pattern was repeated alone.",
+    "source": "Winkler et al., “Newborn infants detect the beat in music,” PNAS, 2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2631079/"
+  },
+  "carte": {
+    "punch": "Asleep, babies a few days old react when the first beat of a rhythm disappears.",
+    "idee": "In 2009, researchers had 14 sleeping newborns listen to a drum rhythm. When the first beat was missing, their brains reacted as to a disappointed expectation, but not when the same pattern was repeated alone.",
+    "source_courte": "Winkler et al., PNAS, 2009"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Winkler et al., Newborn infants detect the beat in music (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2631079/",
+      "note": "The full article, with diagrams of the rhythmic pattern and the brain-activity curves."
+    },
+    {
+      "titre": "Háden et al., Beat processing in newborn infants cannot be explained by statistical learning (Cognition, 2024)",
+      "url": "https://doi.org/10.1016/j.cognition.2023.105670",
+      "note": "The follow-up study that rules out statistical learning as the sole explanation."
+    }
+  ],
+  "quiz": {
+    "question": "Why did the researchers also play the pattern without a first beat, repeated alone, in a loop?",
+    "choix": [
+      "To check that the reaction comes from the expectation created by the context, not from the pattern itself",
+      "To get the babies used to the deviant pattern before the main sequence",
+      "To measure whether newborns prefer rhythms without a downbeat",
+      "To make sure the electrodes were recording properly during sleep"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Played alone in a loop, the pattern stripped of its first beat gives responses similar to those of the ordinary patterns: the reaction appears only when it pops up in the middle of a regular sequence, which betrays an expectation of the downbeat. The control served neither to habituate the babies, nor to measure a preference, nor to test the electrodes.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In which city did the experiment on newborns take place?",
+      "choix": [
+        "At the Neurosciences Institute in La Jolla",
+        "At Semmelweis University in Budapest",
+        "At the Max Planck Institute in Leipzig",
+        "At the University of Vienna"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Winkler and his colleagues' experiment took place at Semmelweis University in Budapest, where sleeping newborns were fitted with electrodes while listening to the drum rhythm."
+    },
+    {
+      "question": "What distinguishes the rare deviant pattern from the three ordinary variants, which also omit a sound?",
+      "choix": [
+        "It replaces all the instruments with a simple click",
+        "It appears only in the experiment carried out on adults",
+        "It omits the hi-hat and the bass drum on the first beat",
+        "It is played at double the tempo of the other patterns in the block"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The three ordinary variants omit only the hi-hat, at an inconspicuous spot, and do not break the rhythm. The deviant variant also omits the bass drum on the first beat, which makes it rare and detectable."
+    },
+    {
+      "question": "Which later study sought to rule out the explanation by statistical learning of the probabilities of how sounds follow one another?",
+      "choix": [
+        "A study by Háden et al., comparing regular and irregular rhythms, in Cognition",
+        "A replication of the 2009 experiment in rhesus macaques",
+        "A survey of the musical preferences of six-month-old infants",
+        "A study comparing newborns and adults on classical music"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The study by Háden et al., published in 2024 in Cognition, compared regular and irregular rhythmic sequences in sleeping newborns, concluding that statistical learning alone does not explain downbeat detection."
+    }
+  ]
+}

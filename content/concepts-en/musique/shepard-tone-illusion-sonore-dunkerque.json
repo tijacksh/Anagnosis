@@ -1,0 +1,85 @@
+{
+  "id": "mus-shepard-tone-illusion-sonore-dunkerque",
+  "slug": "shepard-tone-illusion-sonore-dunkerque",
+  "langue": "en",
+  "empreinte_fr": "14017713e25052b8",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "The French entry already gives the quotation in English; copied verbatim from the French. The Yahoo Finance page named in the url was not re-opened."
+    }
+  ],
+  "titre": "A 1964 Sound Illusion Structures the Script of Dunkirk",
+  "accroche": "A note seems to rise forever, never reaching a peak, and yet it never leaves its own register.",
+  "contenu_vulgarise": "In 1964, the American researcher Roger Shepard, then at Bell Labs, publishes in the Journal of the Acoustical Society of America a paper on a phenomenon he has just produced by computer: a series of sounds that seems to rise endlessly in pitch, without ever exceeding a given register. The trick lies in superposition. Each sound in the series is not a single frequency but a stack of several frequencies separated pairwise by an exact octave. As the series rises, the highest frequencies fade out gradually while new low frequencies appear beneath, invisible to the ear because they come in playing very softly. One hears a continuous ascent; what one cannot hear is where it starts over.\n\n## A sound ribbon folded back on itself\n\nThe French composer Jean-Claude Risset extends the idea by making the glide continuous rather than in steps, what is now called the Shepard-Risset glissando. In both versions, the principle recalls a Penrose staircase in painting: each step, taken in isolation, is coherent, but the whole closes back on itself without one being able to spot where. The ear, used to judging the pitch of a sound by its frequency, lets itself be guided by the movement of the sound envelope rather than by the frequency itself, and perceives a motion that, strictly speaking, goes nowhere.\n\n## What it shifts\n\nIn 2017, director Christopher Nolan pushes the principle beyond the score. He explains in an interview that the script of *Dunkirk* interweaves three timelines (a week on the beach, a day at sea, an hour in the air) according to this same principle of continuous ascent, for a tension that rises without ever falling back or resolving: the narrative structure reproduces, scene after scene, what the Shepard tone does to the ear. Nolan had already explored the idea in 2006 with composer David Julyan on *The Prestige*, before entrusting it to Hans Zimmer, who builds the entire score of *Dunkirk* around a ticking watch that, likewise, never stops. An illusion born in a hearing-research laboratory thus becomes a principle of staging: sustaining a tension that never resolves, without the viewer being able to say why it does not fall back.",
+  "citation": {
+    "texte": "It's an illusion where there's a continuing ascension of tone. It's a corkscrew effect. It's always going up and up and up but it never goes outside of its range.",
+    "auteur": "Christopher Nolan",
+    "source": "Interview with Business Insider, July 2017, quoted by Yahoo Finance",
+    "url": "https://finance.yahoo.com/news/christopher-nolan-explains-audio-illusion-145736681.html"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "A note seems to rise forever, but it never leaves its own register.",
+    "idee": "In 1964, Roger Shepard synthesizes a sound illusion: a series of sounds seems to rise indefinitely without ever exceeding a given register. In 2017, Christopher Nolan writes the script of Dunkirk on this same principle, for a tension that rises without ever falling back.",
+    "source_courte": "Business Insider, 2017"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia, Shepard tone",
+      "url": "https://en.wikipedia.org/wiki/Shepard_tone",
+      "note": "The full technical detail, with other uses in music and film."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the Shepard tone give the illusion of a pitch that rises forever?",
+    "choix": [
+      "Because the frequency of the sound really does increase continuously, without ever stopping",
+      "Because frequencies separated by octaves rise together, the high ones fading out beneath new low ones",
+      "Because the recording is sped up with each repetition, as on a vinyl turntable",
+      "Because the human ear systematically confuses two notes less than an octave apart"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The Shepard tone superposes frequencies each spaced an exact octave apart: as the series rises, the high frequencies fade out softly while new low frequencies appear beneath, with no audible break. The frequency therefore does not climb forever, contrary to what one hears: nothing is sped up as on a record, and the ear distinguishes octaves very well. It is only guided by the sound envelope rather than by the absolute frequency.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the composer Jean-Claude Risset bring to the Shepard tone principle?",
+      "choix": [
+        "He adds a second sung voice over the tone",
+        "He makes the glide continuous rather than in steps",
+        "He transposes the principle to classical symphonic music",
+        "He doubles the speed of the sound ascent"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Risset extends Shepard's idea by making the glide continuous instead of proceeding in steps, what is called the Shepard-Risset glissando."
+    },
+    {
+      "question": "Before Dunkirk, in which film had Christopher Nolan already explored this principle of continuous ascent, according to the entry?",
+      "choix": [
+        "Interstellar, in 2014, with a composer who remained anonymous",
+        "The Dark Knight, in 2012, with Hans Zimmer",
+        "The Prestige, in 2006, with composer David Julyan",
+        "Insomnia, in 1998, with David Julyan"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Nolan had explored this principle as early as 2006 in The Prestige, with composer David Julyan, before entrusting Dunkirk to Hans Zimmer."
+    },
+    {
+      "question": "On what recurring sound motif does Hans Zimmer build the entire score of Dunkirk?",
+      "choix": [
+        "A heartbeat that gradually accelerates",
+        "A chorus of voices that rises and falls",
+        "The sound of a siren repeating identically",
+        "A ticking watch that never stops"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The text specifies that Zimmer builds the entire score around a ticking watch that, like the Shepard tone, never stops."
+    }
+  ]
+}

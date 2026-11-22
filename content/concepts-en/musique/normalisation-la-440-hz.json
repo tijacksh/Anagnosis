@@ -1,0 +1,81 @@
+{
+  "id": "mus-normalisation-la-440-hz",
+  "slug": "normalisation-la-440-hz",
+  "langue": "en",
+  "empreinte_fr": "73015669653f146e",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Standardization of A at 440 Hertz",
+  "accroche": "In May 1939, delegates from five countries meet in London to settle a question that seems absurd: at exactly what pitch should a piano be tuned?",
+  "contenu_vulgarise": "In May 1939, at Broadcasting House in London, headquarters of the BBC, delegates from France, Germany, the Netherlands, Italy, and England gather, joined by mail by Switzerland and the United States. Their agenda: to fix once and for all the pitch of the tuning fork's A, the reference note to which an entire orchestra tunes before a concert. Without it, a piano tuned in Paris and a violin tuned in Berlin simply do not play the same note when playing the same A.\n\n## An even number won out over a local habit\n\nThe debate is not new: for centuries, each country, sometimes each orchestra, has tuned its instruments to its own pitch, and that pitch has drifted slowly upward over time, musicians seeking a brighter sound. British piano makers had already adopted, in 1899, an A at 439 hertz as a national reference. But at the 1939 conference, engineer James Swinburne puts forward an unexpected argument: 439 is a prime number, hard to divide, whereas 440 lends itself far better to calculation and to the nascent electronic synthesis of frequency generators. The other delegations rally to his reasoning, and the conference adopts 440 hertz as the international reference.\n\n## What it shifts\n\nWe readily imagine that such a figure, once chosen by scientists and industrialists gathered in a room, takes hold immediately and forever: that is not what happened. World War II breaks out a few months later, and it is not until 1955 that the International Organization for Standardization officially takes up this figure under the name Recommendation R 16, then 1975 for it to become full ISO 16 standard. Between 1939 and 1975, thirty-six years, the A at 440 hertz thus had, in practice, no binding existence: orchestras and instrument makers continue, each on their own, to drift toward higher pitches, for reasons of sonic brilliance rather than conformity to a text. The standard never caught up with this drift: even today, many European orchestras tune above 440 hertz, perfectly legally, since no law obliges an orchestra to follow an ISO standard. What stabilized in 1939 is therefore not a universal practice, but a common reference point: the one followed by the record industry, the makers of electronic tuners, and the orchestras that choose to stick to it.",
+  "citation": null,
+  "repere": {
+    "texte": "The A at 440 hertz, chosen in London in 1939, was only taken up as a recommendation by the International Organization for Standardization in 1955, then as a full ISO 16 standard only in 1975: thirty-six years later.",
+    "source": "Wikipedia (contributors), “A440 (pitch standard)”",
+    "url": "https://en.wikipedia.org/wiki/A440_(pitch_standard)"
+  },
+  "carte": {
+    "punch": "A at 440 Hz was chosen in 1939 because 440 divides better than 439. A real argument.",
+    "idee": "In May 1939 in London, delegates from five countries fix the reference A at 440 hertz rather than 439, an even number easier to synthesize electronically. The official ISO standard only arrives in 1955, then 1975, and even today, no law obliges an orchestra to stick to it.",
+    "source_courte": "Wikipedia, “A440”"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — A440 (pitch standard)",
+      "url": "https://en.wikipedia.org/wiki/A440_(pitch_standard)",
+      "note": "The full history of attempts to standardize pitch, from 19th-century France to ISO 16."
+    }
+  ],
+  "quiz": {
+    "question": "Why did the London conference choose 440 hertz rather than the 439 hertz already used by British piano makers?",
+    "choix": [
+      "Because 440 matches the average pitch measured in the great European orchestras of the day",
+      "Because 440 is an even number, easier to divide and to synthesize electronically than the prime number 439",
+      "Because the French delegates imposed their own national pitch, already set at 440 Hz",
+      "Because a famous composer had publicly asked for this round figure a few years earlier"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The argument adopted at the conference, put forward by engineer James Swinburne, is mathematical and technical: 439 is an unwieldy prime number, whereas 440 divides and synthesizes more easily, an already concrete concern with the nascent electronic frequency generators. No orchestra measurement, no French national imposition, and no composer lies behind the choice.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Where and when is the conference that fixes A at 440 hertz held?",
+      "choix": [
+        "In May 1939, at Broadcasting House in London",
+        "In 1899, in the workshops of British piano makers",
+        "In 1955, at the headquarters of the International Organization for Standardization in Geneva",
+        "In 1975, at an international music congress in Paris"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The conference is held in May 1939 at Broadcasting House, headquarters of the BBC in London, bringing together delegates from France, Germany, the Netherlands, Italy, and England, joined by mail by Switzerland and the United States.",
+      "statut": "valide"
+    },
+    {
+      "question": "How much time passes between the 1939 conference and the adoption of A at 440 Hz as a full ISO 16 standard?",
+      "choix": [
+        "Five years, the standard follows immediately after World War II",
+        "Thirty-six years, the ISO 16 standard only arrives in 1975",
+        "One year, the standard is adopted as early as 1940",
+        "One hundred years, the standard is only adopted in the 21st century"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Thirty-six years separate the May 1939 conference from the 1975 ISO 16 standard: the International Organization for Standardization only takes up the figure in 1955 as a recommendation, then as a full standard twenty years later.",
+      "statut": "valide"
+    },
+    {
+      "question": "Today, does an orchestra that tunes above 440 hertz break a rule?",
+      "choix": [
+        "Yes, it risks a fine provided for by the ISO 16 standard",
+        "Yes, but only in countries that have ratified the standard in domestic law",
+        "No, no law obliges an orchestra to follow an ISO standard",
+        "No, but the orchestra loses its accreditation with an international federation of musicians"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The ISO 16 standard is a technical recommendation, not a law: no text obliges an orchestra to comply with it, and many European orchestras today legally tune above 440 hertz.",
+      "statut": "valide"
+    }
+  ]
+}

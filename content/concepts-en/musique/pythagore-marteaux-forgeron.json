@@ -1,0 +1,72 @@
+{
+  "id": "mus-pythagore-marteaux-forgeron",
+  "slug": "pythagore-marteaux-forgeron",
+  "langue": "en",
+  "empreinte_fr": "6aaac2956e8ff5ed",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Legend of Pythagoras's Hammers",
+  "accroche": "Pythagoras walks past a forge, hears hammers ring true or false, and deduces the laws of harmony. A lovely story, which physics contradicts",
+  "contenu_vulgarise": "Pythagoras, who lives in the 6th century BCE, walks past a forge. Four craftsmen are striking the anvil there with hammers of different weights. Certain pairs of blows sound right together (an octave, a fifth, a fourth), one pair sounds wrong. Intrigued, Pythagoras goes in and weighs the tools: twelve, nine, eight, and six pounds. Back home, he stretches four identical strings, loads them with those same weights, and finds the same intervals. He has just discovered, says the legend, that music obeys ratios of whole numbers: 2:1 for the octave, 3:2 for the fifth, 4:3 for the fourth.\n\n## A physics that does not work\n\nThe story is lovely, and physics contradicts it on both counts. For the Stanford Encyclopedia of Philosophy, the accounts of this discovery are clearly false: none of the techniques attributed to Pythagoras would work.\n\nAs for the hammers, pitch does not depend directly on weight. For a bar vibrating along its length, the lowest frequency depends on its length and on the speed of sound in the material, neither on its mass nor on the force of the blow. According to Wikipedia, a steel hammer that a person can wield generally resonates in the ultrasonic range, out of reach of the ear.\n\nAs for the strings, the frequency is proportional to the square root of the tension, not to the tension itself. Doubling the frequency requires quadrupling the weight. With loads of twelve and six pounds, the ratio of the frequencies would be the square root of two, about 1.41, not 2. Vincenzo Galilei, Galileo's father, notes as early as 1589 that the account of strings loaded with weights is inaccurate, and Marin Mersenne gives the explanation in the *Harmonie universelle* (Universal Harmony), in 1636.\n\n## Five centuries apart\n\nPythagoras dies around 490 BCE. He wrote nothing, and no contemporary left a detailed account of his thought. The oldest surviving version of the forge story is that of Nicomachus of Gerasa, in his *Manual of Harmonics*, in the 1st or 2nd century CE: more than five centuries after him. The only ancient witness who links Pythagoras to ratios of numbers is Xenocrates, in the 4th century BCE, but it is not known whether he knew of the forge. The ratios themselves appear clearly in the fragments of Philolaus, in the second half of the 5th century BCE: after Pythagoras's death.\n\nWho found them, then? According to the Stanford Encyclopedia, Pythagoras perhaps knew them without having discovered or demonstrated them. They were perhaps already known to his contemporary Lasus, who was not a Pythagorean, and they were probably first discovered by instrument makers.\n\n## From Hippasus to Gaffurio\n\nAn experiment attributed to Hippasus of Metapontum, active in the first half of the 5th century BCE, would have worked: it involved bronze discs vibrating freely, whose frequency does depend on their thickness. Jørgen Raasted, following Leonid Zhmud, proposes that the legend arose from an account of these experiments: the Greek word *sphaírai* would have been changed by a copyist's error into *sphýrai*, “hammers,” and then Pythagoras's name would have replaced Hippasus's.\n\nThe story then kept growing. Boethius, in the early 6th century, speaks of five hammers and sets aside the fifth, dissonant with all the others. Franchino Gaffurio, in his *Theorica musice* of 1492, adds a sixth, which extends the series to two octaves.",
+  "citation": null,
+  "repere": {
+    "texte": "The oldest surviving version of the forge story is that of Nicomachus of Gerasa, in the 1st or 2nd century CE: more than five centuries after Pythagoras's death, around 490 BCE.",
+    "source": "Wikipedia, “Pythagorean hammers”; date of Pythagoras's death: Huffman, Stanford Encyclopedia of Philosophy, “Pythagoras”",
+    "url": "https://en.wikipedia.org/wiki/Pythagorean_hammers"
+  },
+  "carte": {
+    "punch": "Pythagoras and the forge: the oldest surviving version dates from more than five centuries after him.",
+    "idee": "The legend says that Pythagoras, hearing forge hammers, deduced the ratios of the octave and the fifth. Physics contradicts it: the pitch of a hammer does not depend directly on its weight. Its oldest surviving version dates from more than five centuries after him.",
+    "source_courte": "Wikipedia; Stanford Encyclopedia of Philosophy"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — Pythagorean hammers",
+      "url": "https://en.wikipedia.org/wiki/Pythagorean_hammers",
+      "note": "The details of the legend, its ancient sources, and its embellishment up to the Renaissance."
+    },
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — Pythagoras",
+      "url": "https://plato.stanford.edu/entries/pythagoras/",
+      "note": "What can be established about Pythagoras, his ratios of numbers, and the tradition surrounding him."
+    }
+  ],
+  "quiz": {
+    "question": "In the legend, Pythagoras stretches four identical strings with weights of 12, 9, 8, and 6 pounds and finds the octave, the fifth, and the fourth. Why would this experiment fail?",
+    "choix": [
+      "The frequency of a string is inversely proportional to its tension: the tighter it is stretched, the lower it sounds",
+      "The frequency of a string depends only on its length: the weight stretching it does not change the note",
+      "The frequency of a string follows the square root of its tension: doubling the pitch requires four times the weight",
+      "Identical strings all sound the same note, whatever the load stretching them"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The frequency of a string is proportional to the square root of its tension: to rise by an octave, the weight must be quadrupled, and loads of 12 and 6 pounds would give a ratio of only about 1.41. The other answers are contradicted by the same law: a tighter string sounds higher, and tension, not just length, fixes the note.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Which ancient author is, according to the entry, the only witness to link Pythagoras to ratios of numbers?",
+      "choix": [
+        "Nicomachus of Gerasa, in his Manual of Harmonics",
+        "Xenocrates, in the 4th century BCE",
+        "Pythagoras himself, in a text in his own hand",
+        "No ancient witness before Nicomachus of Gerasa"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The entry names Xenocrates, in the 4th century BCE, as the only ancient witness who links Pythagoras to ratios of numbers, even though it is not known whether he knew of the forge. Xenocrates predates Nicomachus, so the proposition ruling out any witness before him is false."
+    },
+    {
+      "question": "Why does Boethius, in the early 6th century, set aside the fifth hammer?",
+      "choix": [
+        "It sounds in unison with another hammer",
+        "It sounds an octave above all the others",
+        "It gives a fifth with the first hammer",
+        "It is dissonant with all the other hammers"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Boethius sets aside the fifth hammer because it is dissonant with all the others. The other three propositions assume agreement with at least one hammer, which the text rules out."
+    }
+  ]
+}
