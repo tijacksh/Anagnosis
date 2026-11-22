@@ -10,17 +10,17 @@
   {
    "chemin": "citation/texte",
    "type": "citation-traduite",
-   "note": "Retraduite depuis le français ; auteur d'origine : Arthur Zimmermann (conférence de presse, probablement en allemand)."
+   "note": "Wording copied word for word from English Wikipedia, \"Zimmermann Telegram\" (checked in the page text: at a March 3, 1917 press conference he told an American journalist, \"I cannot deny it. It is true.\"). The original statement was spoken to a journalist, its original language was not established and no verbatim transcript or primary English source was found, so the English wording is that of a secondary source."
   },
   {
    "chemin": "contenu_vulgarise",
    "type": "citation-traduite",
-   "note": "Aveu de Zimmermann retraduit depuis le français ; auteur d'origine : Arthur Zimmermann."
+   "note": "Same quotation as in citation/texte, with the same English wording and the same limits."
   },
   {
    "chemin": "contenu_vulgarise",
-   "type": "incertain",
-   "note": "Dans l'original, la parenthèse ouverte avant « jusqu'à ce que Zimmermann » est fermée après « diplomatie secrète », avant « câbles, codes, agents » : syntaxe confuse, structure conservée telle quelle."
+   "type": "erreur-possible-fr",
+   "note": "In the French, the parenthesis opened before \"jusqu'à ce que Zimmermann\" is closed only after \"diplomatie secrète\" (before \"câbles, codes, agents\"), which makes the sentence unreadable; the structure was kept as is in English and the French needs to be repaired."
   }
  ],
  "titre": "The Zimmermann Telegram, Decoded by the British (1917)",
@@ -88,7 +88,7 @@
     "He publicly confirms the message's authenticity at a press conference"
    ],
    "bonne_reponse": 3,
-   "explication": "At a press conference on March 3, 1917, Zimmermann himself confirms the telegram's authenticity: “I cannot deny it. It is true.,” cutting short any doubt."
+   "explication": "At a press conference on March 3, 1917, Zimmermann himself confirms the telegram's authenticity: “I cannot deny it. It is true,” cutting short any doubt."
   }
  ]
 }
