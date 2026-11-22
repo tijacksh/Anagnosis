@@ -1,0 +1,78 @@
+{
+ "id": "mat-argument-diagonal-de-cantor",
+ "slug": "argument-diagonal-de-cantor",
+ "langue": "en",
+ "empreinte_fr": "78c17412897d3275",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Argument That Broke Infinity into Pieces",
+ "accroche": "In four pages, Cantor proves in 1891 that not all infinities are the same size",
+ "contenu_vulgarise": "Count the integers: 1, 2, 3… the list never ends. Now count the even numbers. There are obviously “half as many,” and yet they can be paired off one by one with the integers, by matching 1 with 2, 2 with 4, 3 with 6. None is left out, on either side.\n\nGeorg Cantor takes this pairing seriously and turns it into a definition: two sets have the same size when their elements can be paired off with none left over. Harmless on finite sets, the definition yields results on infinite ones that scandalized his contemporaries. There are as many even numbers as integers. As many fractions as integers.\n\nThe intuition that forms then is that all infinities are equal. It is false.\n\n## The Diagonal\n\nIn 1891, Cantor publishes a proof of disconcerting brevity.\n\nSuppose we have managed to list all the real numbers between 0 and 1, each written out with its decimal digits, in any order whatsoever. This list is infinite, but it is a list: there is a first number, a second, a third.\n\nLet us now build a new number, digit by digit. Its first digit we choose different from the first digit of the first number on the list. Its second, different from the second digit of the second number. Its third, different from the third of the third. We thus move down along the diagonal.\n\nThe number obtained is indeed between 0 and 1. And it cannot appear anywhere on the list: it differs from the first by its first digit, from the second by its second, from the nth by its nth.\n\nThe list was therefore incomplete. Since nothing was assumed about it, no list can be complete. The real numbers are not countable.\n\n## What the Diagonal Opens\n\nThere are therefore at least two infinities of different sizes, and the argument, applied to itself, produces an endless hierarchy of them.\n\nA question arises at once: is there an infinity strictly between that of the integers and that of the real numbers? Cantor thought not, without ever managing to prove it. This is the continuum hypothesis.\n\nThe answer came in two stages, and it is of an unexpected kind. Gödel shows in 1940 that it cannot be refuted from the usual axioms of set theory; Paul Cohen shows in 1963 that it cannot be proved either. The question is not open in the sense that we lack ingenuity: it is undecidable, the axioms do not determine it.\n\nA more discreet consequence deserves to be noted. The numbers that can be described, by a formula, an algorithm, a finite sentence, form a countable list, since finite descriptions are countable. Almost all real numbers therefore escape any description. They are there, they are overwhelmingly in the majority, and not one of them will ever be named.",
+ "citation": null,
+ "repere": {
+  "texte": "Cantor's article takes up four pages, in the first volume of the Jahresbericht der Deutschen Mathematiker-Vereinigung, the learned society that he had himself just founded and which he presided over.",
+  "source": "Cantor, “Über eine elementare Frage der Mannigfaltigkeitslehre,” Jahresbericht der DMV, 1, 1891, pp. 75-78",
+  "url": "https://eudml.org/doc/144383"
+ },
+ "carte": {
+  "punch": "There are more numbers between 0 and 1 than there are integers in all.",
+  "idee": "Cantor, 1891: give him any infinite list of real numbers, and he builds one that is not on it, by changing the first digit of the first, the second digit of the second, and so on. No list can contain them all.",
+  "source_courte": "Cantor, 1891"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Cantor (1891) — digitized original text",
+   "url": "https://eudml.org/doc/144383",
+   "note": "In German, four pages; the argument can be followed even without reading the language."
+  }
+ ],
+ "quiz": {
+  "question": "What exactly does the diagonal argument prove?",
+  "choix": [
+   "That it is impossible to write out all the decimal digits of a real number",
+   "That there exist real numbers of which no decimal digit is known",
+   "That no list can contain all the real numbers, whatever the list",
+   "That the real numbers are more numerous than the fractions, but not than the integers"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The argument is not about any particular list: it starts from an arbitrary list and builds a number that is absent from it. Since nothing was assumed about the list, the conclusion holds for all of them. It is not a limit of writing or of knowledge of the digits, and the gap holds against the fractions too, which can be paired off with the integers.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "According to the definition Cantor takes seriously, when do two sets have the same size?",
+   "choix": [
+    "When their elements can be paired off one by one, with none left aside",
+    "When they contain the same number of even numbers",
+    "When one is included in the other without exceeding it",
+    "When their elements can all be listed in increasing order"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Cantor defines two sets as having the same size when their elements can be paired off one by one, with none left without a partner on either side."
+  },
+  {
+   "question": "What did Gödel and then Cohen show about the continuum hypothesis?",
+   "choix": [
+    "That it is false, as Cohen proved as early as 1963",
+    "That it is true, as Cantor had supposed without proof",
+    "That it depends on the number of even integers in the interval under study",
+    "That it is undecidable, neither provable nor refutable from the usual axioms"
+   ],
+   "bonne_reponse": 3,
+   "explication": "Gödel shows in 1940 that the continuum hypothesis cannot be refuted from the usual axioms, and Cohen shows in 1963 that it cannot be proved either: it is undecidable."
+  },
+  {
+   "question": "What can be said about the real numbers that no formula or algorithm can describe?",
+   "choix": [
+    "They do not exist, since they cannot be named",
+    "They make up the overwhelming majority of the real numbers",
+    "They are equal in number to those that can be described",
+    "They are limited to a few rare and exotic exceptions"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The numbers describable by a formula or an algorithm form a countable list; almost all real numbers therefore escape any description, and are overwhelmingly in the majority."
+  }
+ ]
+}

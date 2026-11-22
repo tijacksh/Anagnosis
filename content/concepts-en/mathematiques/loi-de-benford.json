@@ -1,0 +1,78 @@
+{
+ "id": "mat-loi-de-benford",
+ "slug": "loi-de-benford",
+ "langue": "en",
+ "empreinte_fr": "9f20981f9497b43d",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Dirty Pages of a Logarithm Table",
+ "accroche": "In real data, one number in three begins with 1. Invented numbers ignore it",
+ "contenu_vulgarise": "In 1881, the astronomer Simon Newcomb consults a table of logarithms in a library. He notices a detail of no apparent importance: the first pages of the volume are more worn than the last. Yet the first pages are for numbers beginning with 1.\n\nHe draws from it a two-page note, published in the *American Journal of Mathematics*, and forgets it. It remains without echo for fifty-seven years.\n\n## What Frank Benford Counts\n\nIn 1938, the engineer Frank Benford, at General Electric, repeats the observation and decides to measure it. He gathers thousands of numbers taken from anywhere: areas of river basins, populations of cities, physical constants, addresses of prominent people, numbers encountered in newspaper articles.\n\nThe first digit of these numbers is not distributed as one would expect. A 1 opens about 30% of the numbers. A 2, a little under 18%. A 9, under 5%. A uniform distribution would give 11% to each.\n\nThe formula that describes this slope is simple: the frequency of the digit *d* equals the base-10 logarithm of 1 + 1/*d*.\n\n## Why This Slope\n\nThe explanation lies in what it means to “go from one leading digit to the next.”\n\nTake a quantity that grows steadily, a population for example. To go from 1,000 to 2,000 inhabitants, it must double. To go from 8,000 to 9,000, it needs to grow by only an eighth. The quantity therefore spends much more time with a 1 in front than with an 8.\n\nHence the condition of application, often forgotten: the law holds for quantities that spread over several orders of magnitude and are bounded neither above nor below. Human heights in centimeters, all between 150 and 200, obey nothing of the kind. Neither do postal codes, telephone numbers, or psychological prices.\n\n## Use in Court, and Its Limit\n\nA fraudster who invents accounting entries produces numbers that seem arbitrary to him. They are not: invented numbers start too often with a 5, a 6, or a 7, and not often enough with a 1. The deviation from Benford's law can be measured, and it has been used in forensic accounting as well as in the analysis of election results.\n\nIt is the absence of regularity that betrays the fraud. The forger fails precisely where he thinks himself free, in choosing at random.\n\nStill, the test proves nothing by itself. A deviation flags a dataset to look at more closely; it names no culprit, and honest books covering bounded amounts can deviate from it without anyone having cheated. Benford's law opens an investigation, it does not close it.",
+ "citation": null,
+ "repere": {
+  "texte": "The law predicts that a 1 opens 30.1% of numbers and a 9 only 4.6%: the frequency of the digit d equals log₁₀(1 + 1/d).",
+  "source": "Benford, “The Law of Anomalous Numbers,” Proceedings of the American Philosophical Society, 78, 1938",
+  "url": "https://isidore.co/misc/Physics%20papers%20and%20books/Zotero/storage/ZEBWDL73/Benford%20-%201938%20-%20The%20Law%20of%20Anomalous%20Numbers.pdf"
+ },
+ "carte": {
+  "punch": "An accountant who invents numbers puts in too many 5s and not enough 1s.",
+  "idee": "In real data spread over several orders of magnitude, a 1 opens 30% of numbers and a 9 under 5%. Invented numbers, by contrast, are too uniform, and that is what gives them away in forensic accounting.",
+  "source_courte": "Benford, 1938"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Benford (1938) — The Law of Anomalous Numbers",
+   "url": "https://isidore.co/misc/Physics%20papers%20and%20books/Zotero/storage/ZEBWDL73/Benford%20-%201938%20-%20The%20Law%20of%20Anomalous%20Numbers.pdf",
+   "note": "In English; the data tables can be read on their own."
+  }
+ ],
+ "quiz": {
+  "question": "Why does 1 open nearly a third of real numbers?",
+  "choix": [
+   "Because small numbers are more frequent than large ones in nature",
+   "Because human measurements often stop on a round count",
+   "Because rounding errors pull measured values downward",
+   "Because a growing quantity must double to leave 1, and much less to leave 8"
+  ],
+  "bonne_reponse": 3,
+  "explication": "The law says nothing about the size of numbers, only about the time a quantity spends with each leading digit: crossing the 1 mark requires doubling, crossing the 8 mark only adding an eighth. Neither rounding nor human habits come into play, and the law also holds for physical constants that no one chose.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What did Simon Newcomb notice in 1881, even before Benford's observation?",
+   "choix": [
+    "That the first pages of a table of logarithms were more worn than the last",
+    "That the numbers invented by accountants almost always began with a 5",
+    "That the frequency of the digit 9 was exactly equal to that of the digit 1",
+    "That city populations followed a perfectly uniform distribution"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Newcomb notices in 1881 that the first pages of a table of logarithms, consulted for numbers beginning with 1, are more worn than the last."
+  },
+  {
+   "question": "How long does Newcomb's note remain without echo before Benford makes the same observation again?",
+   "choix": [
+    "Fifty-seven years",
+    "Seventeen years",
+    "One hundred years",
+    "It was never rediscovered; Benford was unaware of it"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Published in 1881, Newcomb's note remains without echo for fifty-seven years, until Frank Benford makes the same observation again in 1938."
+  },
+  {
+   "question": "Why does Benford's law not apply to human heights in centimeters?",
+   "choix": [
+    "Because they all stay within a narrow range, without spreading over several orders of magnitude",
+    "Because human heights are measured with too little precision",
+    "Because the first digit of a height depends on the unit of measurement chosen",
+    "Because human heights follow a normal distribution, never a logarithmic one"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Benford's law assumes quantities spread over several orders of magnitude and unbounded: human heights, all between 150 and 200 cm, obey nothing of the kind."
+  }
+ ]
+}

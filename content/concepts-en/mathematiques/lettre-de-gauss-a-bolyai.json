@@ -1,0 +1,84 @@
+{
+ "id": "mat-lettre-de-gauss-a-bolyai",
+ "slug": "lettre-de-gauss-a-bolyai",
+ "langue": "en",
+ "empreinte_fr": "18676c4abc5ec5d3",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-traduite",
+   "note": "Gauss wrote in German; the French entry gives the German original, translated here without a published English translation retrieved (original not retrieved)."
+  },
+  {
+   "chemin": "citation/texte",
+   "type": "erreur-possible-fr",
+   "note": "The German in the French citation reads 'seinen eigenen' (his own, i.e. Johann's), while the body renders the same letter as 'my own meditations' (Gauss's). The sense of the quotation depends on this; translated as in the German given, not corrected."
+  },
+  {
+   "chemin": "contenu_vulgarise",
+   "type": "citation-traduite",
+   "note": "The sentence from Gauss's letter in the body is translated from the French; no published English wording was retrieved (original not retrieved), and it does not match the German of the citation word for word."
+  }
+ ],
+ "titre": "Three Men Discovered the Same Thing Without Knowing It",
+ "accroche": "A twenty-eight-year-old Hungarian geometer sends his discovery to Gauss, who replies that he had made it thirty years earlier",
+ "contenu_vulgarise": "A young officer of the Austro-Hungarian army spends his nights trying to prove what two thousand years of geometers had taken for granted without ever having proved it: that through a point outside a line, only one parallel passes. Around 1823, János Bolyai gives up trying to prove it and takes the problem backward: he builds an entire geometry in which this postulate is false, in which several parallels pass through the same point, and in which nothing collapses. Euclid's geometry was therefore not the only possible one: it was only one choice among others, equally coherent.\n\n## A Letter That Arrives at a Bad Moment\n\nIn 1832, Bolyai publishes his result in twenty-four pages, as an appendix to a treatise by his father. Farkas Bolyai, a longtime friend of Carl Friedrich Gauss (then the most respected mathematician in Europe), sends him his son's text.\n\nGauss's reply, dated March 6, 1832, runs to a few lines that wounded János for the rest of his life: “The entire content of your son's work coincides almost exactly with my own meditations, which have occupied my mind for thirty to thirty-five years.” Gauss had thus thought the same thing decades earlier, without ever publishing anything.\n\nThe blow does not stop there. In 1848, Bolyai discovers that a Russian mathematician, Nikolai Lobachevsky, had published an equivalent non-Euclidean geometry as early as 1829 at the University of Kazan, three years before him, with neither knowing anything of the other. János Bolyai never publishes anything again.\n\n## What Three Independent Discoveries Signal\n\nThe most natural reaction is to pity Bolyai, deprived of the recognition he deserved. But the episode says something else above all, more interesting than the injustice: three minds, without consulting one another, arrive at the same result a few years apart. This is not a statistical accident. Euclid's fifth postulate had resisted every attempt at proof from the other four since antiquity; at the beginning of the 19th century, several generations of mathematicians had exhausted the indirect routes and were all closing in on the same conclusion, which none of the earlier attempts had dared to formulate: what if the postulate were simply independent of the others, neither true nor false, only a choice?\n\nGauss himself never published, although he possessed the result before the other two. This silence is no mere anecdote: it shows that a correct mathematical discovery is not enough to make history if it stays in a drawer. What Bolyai and Lobachevsky produced, each on his own, was not only a theorem: it was the courage to make it public when it contradicted what everyone held to be a truth of pure reason, in the sense in which Kant had set it out a few decades earlier. Non-Euclidean geometry was not waiting for an isolated genius: it was waiting for someone ready to publish.",
+ "citation": {
+  "texte": "The entire content of Johann's work coincides almost throughout with his own meditations, undertaken already 30 to 35 years ago.",
+  "auteur": "Carl Friedrich Gauss",
+  "source": "Letter to Wolfgang (Farkas) Bolyai, Göttingen, March 6, 1832, in Briefwechsel zwischen Carl Friedrich Gauss und Wolfgang Bolyai (ed. Schmidt & Stäckel, 1899), letter no. 35, pp. 108-113",
+  "url": "https://archive.org/stream/briefwechselzwi00gausgoog/briefwechselzwi00gausgoog_djvu.txt"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "Bolyai discovers a geometry without Euclid. Gauss: “I was already thinking of it thirty years ago.”",
+  "idee": "In 1832, János Bolyai sends Gauss his proof that a geometry without Euclid's single parallel holds together. Gauss replies that he had already thought of it thirty to thirty-five years earlier without publishing it. In 1848, Bolyai learns that the Russian Lobachevsky had published it as early as 1829.",
+  "source_courte": "Gauss to Bolyai, March 6, 1832"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "János Bolyai — biography and legacy of the Appendix",
+   "url": "https://en.wikipedia.org/wiki/J%C3%A1nos_Bolyai",
+   "note": "Traces Bolyai's career after 1848 and the mathematical community's late rediscovery of the Appendix."
+  }
+ ],
+ "quiz": {
+  "question": "What does the discovery of Bolyai, Gauss, and Lobachevsky show about Euclid's fifth postulate?",
+  "choix": [
+   "That it was false and that Euclid had been wrong since antiquity",
+   "That it could not be deduced from the other four axioms, and that a coherent geometry existed without it",
+   "That it applied only to figures drawn on a sphere",
+   "That it first had to be reformulated in algebraic language to be understood"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The parallel postulate is neither true nor false in the absolute: it is a choice independent of Euclid's other four axioms. Replacing it with its opposite yields an equally coherent geometry, which the three mathematicians each demonstrate on their own without knowing it.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why does Gauss's reply of March 6, 1832 wound János Bolyai lastingly?",
+   "choix": [
+    "Because Gauss entirely rejects the validity of his proof",
+    "Because Gauss claims to have already thought the same thing thirty to thirty-five years earlier, without ever publishing it",
+    "Because Gauss demands that Bolyai give up any future publication",
+    "Because Gauss accuses Bolyai of having copied Lobachevsky's work"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Gauss does not dispute the result: he says he had already obtained it decades earlier without publishing it, which deprives Bolyai of the priority he believed he held over a discovery that had cost him years of solitary work."
+  },
+  {
+   "question": "What does Bolyai discover in 1848?",
+   "choix": [
+    "That Gauss had finally published his own results under his own name",
+    "That the Russian Lobachevsky had published an equivalent geometry as early as 1829, before him",
+    "That his proof contained an error that no one had noticed",
+    "That his father had removed the Appendix from the reissue of his treatise"
+   ],
+   "bonne_reponse": 1,
+   "explication": "Bolyai learns that Nikolai Lobachevsky had published, as early as 1829 at the University of Kazan, a non-Euclidean geometry equivalent to his own: three years before his own publication of 1832, and with neither having known the other's work."
+  }
+ ]
+}

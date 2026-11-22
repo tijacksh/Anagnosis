@@ -1,0 +1,84 @@
+{
+ "id": "mat-invention-du-signe-egal",
+ "slug": "invention-du-signe-egal",
+ "langue": "en",
+ "empreinte_fr": "add16b3f94fce002",
+ "traduit_le": "2026-11-22",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation",
+   "type": "citation-originale-anglaise",
+   "note": "Recorde's sentence is already in English (original spelling) in the French entry (The Whetstone of Witte, 1557, Internet Archive); copied unchanged."
+  },
+  {
+   "chemin": "carte/idee",
+   "type": "erreur-possible-fr",
+   "note": "The card says Descartes preferred another symbol 'until 1637', while the body says he used another symbol in La Géométrie (1637) and adopted Recorde's “=” only in a letter of 1640. Rendered as in the French, not corrected."
+  }
+ ],
+ "titre": "Two Parallel Lines, Because Nothing Is More Equal",
+ "accroche": "In 1557, a Welsh physician, tired of writing “is equal to,” invents a sign. It will take 61 years before it is seen in print again.",
+ "contenu_vulgarise": "In 1557, in London, the Welsh physician and mathematician Robert Recorde publishes *The Whetstone of Witte*, a treatise on algebra: the first time the subject is taught in English rather than in Latin. Recorde sets out in it what he calls the “cossic practice,” from the Italian *cosa*, the thing, which designates the unknown of an equation.\n\nThe manuscript endlessly repeats the phrase “is equalle to.” Recorde proposes a shortcut: two horizontal parallel lines, of the same length, because no pair of things, he writes, can be more equal. He calls this sign “Gemowe lines,” from the Latin *gemellus*, twin: a word then used in heraldry and jewelry for a pair of linked rings or bars.\n\n## Writing Equality Before the Sign\n\nBefore Recorde, equality was written out in full, in every learned language: *aequatur* in Latin, *esgale à* in French. This is the stage that historians of mathematics call “rhetorical”: algebra described in sentences, with no dedicated notation. Local abbreviations already existed for other operations (Recorde himself introduces in the same book the signs + and −, borrowed from German printers), but equality still had no symbol of its own in English.\n\nRecorde's choice is not arbitrary. Two strictly parallel segments of identical length cannot be told apart from each other at a distance: a concrete image for an abstract relation. It is the find of a teacher as much as of a notation: it makes visible what the relation of equality means.\n\n## A Slow Adoption\n\nOne might think that so convenient a sign would catch on at once. Nothing of the sort. The historian of notations Florian Cajori noted that Recorde's sign does not reappear in print anywhere before 1618, sixty-one years later. On the Continent, mathematicians prefer other solutions: René Descartes, in *La Géométrie* (*The Geometry*) (1637), uses a distinct symbol, derived from the Latin *aequalis*, for a specific reason according to Cajori: the sign = was then also used, by some authors, to denote a difference between two quantities, and Descartes wants to avoid the ambiguity. He will himself end up adopting Recorde's “=” in a letter of 1640.\n\nIt will take nearly another century, and the influence of authors such as Leibniz, for the sign to take hold wherever mathematics is done. A notation, even a right one, does not win by the quality of its idea alone: it must still convince, book after book, a community that already has its habits.\n\nWhat Recorde's formula retains, at bottom, comes down to one word: *gemowe*, twin. Two ways of writing can look totally different, 3+4 and 12−5, and yet designate exactly the same thing. The sign does not say that the two sides look alike; it says that they are, from the point of view that counts, interchangeable.",
+ "citation": {
+  "texte": "And to avoide the tediouse repetition of these woordes: is equalle to: I will sette as I doe often in woorke use, a paire of parralleles, or Gemowe lines of one lengthe, thus: =, bicause noe 2 thynges, can be moare equalle.",
+  "auteur": "Robert Recorde",
+  "source": "The Whetstone of Witte, London, John Kyngstone, 1557",
+  "url": "https://archive.org/details/TheWhetstoneOfWitte"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "In 1557, a Welsh physician invented the sign = because he was tired of writing “is equal to.”",
+  "idee": "Robert Recorde proposes two parallel lines, because nothing is more equal, in an algebra book of 1557. The sign takes sixty-one years to reappear in print, and Descartes prefers another symbol until 1637: adoption was anything but immediate.",
+  "source_courte": "Recorde, Whetstone of Witte, 1557"
+ },
+ "pour_aller_plus_loin": [],
+ "quiz": {
+  "question": "Why was Recorde's sign = not in immediate use after 1557?",
+  "choix": [
+   "Because the printers of the time had no type for two parallel lines",
+   "Because Recorde himself later abandoned it in favor of another symbol",
+   "Because adopting a new notation takes time, and Descartes at first preferred another symbol",
+   "Because Recorde's book was only rediscovered in the 19th century"
+  ],
+  "bonne_reponse": 2,
+  "explication": "The sign takes sixty-one years to reappear in print, and Descartes uses another symbol in La Géométrie (1637) before adopting “=” only in a letter of 1640: nothing points to a typographic problem, a disavowal by Recorde, or a late rediscovery of a book that had always circulated.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What argument does Recorde himself give to justify his choice of two parallel lines, according to the quotation reproduced in the entry?",
+   "choix": [
+    "That no pair of things can be more equal than two parallel lines of the same length",
+    "That this sign already existed in heraldry to represent a relation of equality",
+    "That Italian mathematicians used it to designate an unknown thing",
+    "That a short sign is easier for a printer to cut in wood"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Recorde writes that no pair of things can be more equal, bicause noe 2 thynges can be moare equalle, which justifies two strictly parallel lines of the same length."
+  },
+  {
+   "question": "What does the Italian word “cosa,” from which the expression “cossic practice” used by Recorde in his treatise derives, mean?",
+   "choix": [
+    "The equals sign used by the Italians",
+    "A method of calculation from Germany",
+    "The unknown of an equation, called the thing",
+    "The name given to addition in medieval algebra"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Cosa means the thing in Italian; Recorde takes up this term to designate the unknown of an equation in his cossic practice, the algebra of the time."
+  },
+  {
+   "question": "What else does Recorde introduce in The Whetstone of Witte, the same book in which he proposes the sign =?",
+   "choix": [
+    "Arabic numerals, then unknown in England",
+    "The signs + and −, borrowed from German printers",
+    "The symbols × and ÷ for multiplication and division",
+    "The word algebra, until then absent from the English language"
+   ],
+   "bonne_reponse": 1,
+   "explication": "In the same work, Recorde introduces the signs + and −, which he borrows from German printers, in addition to the equals sign that he invents."
+  }
+ ]
+}
