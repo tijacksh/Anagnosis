@@ -1,0 +1,78 @@
+{
+  "id": "psy-dissonance-cognitive",
+  "slug": "dissonance-cognitive",
+  "langue": "en",
+  "empreinte_fr": "93db508f3d87d992",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Cognitive Dissonance",
+  "accroche": "Paid twenty dollars to lie, they still find the task boring. Paid one dollar, they like it.",
+  "contenu_vulgarise": "An experiment from 1959, at Stanford. Students spend an hour on a deliberately deadening task: turning pegs a quarter turn, endlessly. At the end, the experimenter asks them a favor: to tell the next participant that it was fascinating.\n\nA first group is paid one dollar for this small lie. A second, twenty dollars.\n\nThen they are asked what they really thought of the task.\n\n## The Counterintuitive Result\n\nIntuition says that those who received twenty dollars should be the most favorable: better paid, more inclined to play along to the end.\n\nIt is the opposite. Those who got one dollar report finding the task markedly more enjoyable.\n\nLeon Festinger and James Carlsmith draw from this what will become the theory of cognitive dissonance. Those who received twenty dollars have no problem: they lied, but for a sufficient reason. The contradiction between “it was boring” and “I said the opposite” resolves itself: I was paid to.\n\nThose who received one dollar have no such way out. One dollar does not justify a lie. An uncomfortable tension remains, and only one way to dissolve it: revise one's opinion. After all, it was not so boring.\n\n## Where We Find It\n\nThe conclusion is more disturbing than the experiment. We often adjust our beliefs to our actions, and not the other way around. When a behavior can no longer be undone, it is the belief that bends.\n\nThe mechanism turns up everywhere. We like more what we paid dearly for or obtained with difficulty, otherwise the effort would have been absurd. We defend a position more firmly after expressing it in public. Costly initiation rites produce tight-knit groups, precisely because they cost.\n\nThe picture is, however, more nuanced than it seems. A 2024 multi-laboratory replication, carried out in 39 laboratories and 19 countries with nearly 5,000 participants, tested a pillar added to the theory after the original study: the idea that free choice, and not the mere fact of lying, would be necessary for the effect. It found no significant difference between freely choosing to lie and being forced to. The specific point comes out weakened; the underlying effect holds: writing a text contrary to one's opinion continues to shift attitude, whether or not there was choice.\n\n## What This Shifts\n\nThe effect has a counterintuitive consequence for anyone who wants to persuade: a small incentive changes opinions more durably than a big one. A big one supplies an external justification, and so spares you from moving inwardly.\n\nIt has another, more personal one. When you catch yourself warmly defending a choice you had not really made, the right question may not be “am I right?” but “what have I already done that this opinion suits?”",
+  "citation": null,
+  "repere": {
+    "texte": "Paid twenty dollars to say that a deadening task was interesting, participants still find it boring. Paid one dollar, they report having found it enjoyable.",
+    "source": "Festinger & Carlsmith, Journal of Abnormal and Social Psychology, 1959",
+    "url": "https://doi.org/10.1037/h0041593"
+  },
+  "carte": {
+    "punch": "Paid one dollar to lie, they ended up believing it. Paid twenty, not.",
+    "idee": "Twenty dollars justify the lie: no tension to resolve. One dollar justifies nothing, so the opinion has to be revised. We often adjust our beliefs to our actions, and not the other way around.",
+    "source_courte": "Festinger & Carlsmith, 1959"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Festinger & Carlsmith (1959)",
+      "note": "Five pages, including the full protocol, one of the most reproduced articles in the field.",
+      "url": "https://doi.org/10.1037/h0041593"
+    }
+  ],
+  "quiz": {
+    "question": "Why did the participants paid one dollar end up enjoying the task?",
+    "choix": [
+      "Because a small sum made them more attentive to what they were doing",
+      "Because the sum is too small to justify the lie: all that is left is to change one's mind",
+      "Because they hoped to be called back for a better-paid experiment",
+      "Because they had understood the instructions less well than the second group"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Twenty dollars provide a sufficient external justification: the contradiction is settled without changing any beliefs. One dollar provides none, and the tension can only be dissolved by revising the opinion itself. This is the heart of the theory: the weaker the external incentive, the deeper the internal change.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What exactly was the deadening task given to the students in the 1959 experiment?",
+      "choix": [
+        "Copying columns of numbers for an hour",
+        "Turning pegs a quarter turn, endlessly, for an hour",
+        "Solving anagrams with no time limit",
+        "Sorting cards by color and then by value, in a loop"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The students spent an hour turning pegs a quarter turn, endlessly, a deliberately boring task designed to test what would follow the small lie requested next."
+    },
+    {
+      "question": "What does the 2024 multi-laboratory replication test, and what does it find?",
+      "choix": [
+        "It tests whether the amount paid changes the effect, and confirms the original experiment point for point",
+        "It tests the experiment on children, and finds no dissonance effect",
+        "It tests the effect in a digital context, and finds it amplified",
+        "It tests whether free choice is necessary for the effect, and finds no difference from constraint"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The 2024 replication, carried out in 39 laboratories and 19 countries, tests a pillar added after the original study, the idea that free choice would be necessary, and finds no significant difference from constraint."
+    },
+    {
+      "question": "Among the examples cited, which one illustrates the mechanism of cognitive dissonance outside the laboratory?",
+      "choix": [
+        "Costly initiation rites, which produce tight-knit groups because they cost",
+        "Commercial discounts, which push people to buy more than planned",
+        "Waiting lines, which increase the perceived value of a product",
+        "Repeated ads, which end up wearing out the public"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The entry cites costly initiation rites as an example of the mechanism outside the laboratory: they produce tight-knit groups precisely because they cost, the effort not being allowed to seem absurd after the fact."
+    }
+  ]
+}

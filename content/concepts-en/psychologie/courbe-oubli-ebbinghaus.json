@@ -1,0 +1,72 @@
+{
+  "id": "psy-courbe-oubli-ebbinghaus",
+  "slug": "courbe-oubli-ebbinghaus",
+  "langue": "en",
+  "empreinte_fr": "6980cf18514a0c44",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Ebbinghaus's Forgetting Curve",
+  "accroche": "Ebbinghaus fabricates 2,300 nonsense syllables to measure forgetting. His 1885 curve does not say what we think.",
+  "contenu_vulgarise": "A curve that drops fast and then flattens out, presented as the curve of forgetting: it is a classic figure of psychology. It comes from a book of 1885, *Über das Gedächtnis*, whose 1913 English translation is titled *Memory: A Contribution to Experimental Psychology*. Its author, Hermann Ebbinghaus, is both the experimenter and the sole subject.\n\n## The Mechanism\n\nTo measure memory without help from meaning, Ebbinghaus fabricates about 2,300 syllables: a vowel between two consonants, so that none means anything. He assembles them into series of thirteen syllables that he learns through repeated readings, until he can recite them twice without error.\n\nHe does not ask whether the series is still known: he relearns it later and compares the effort. This is the savings method: the time saved on the second learning, expressed as a percentage of the time of the first. After 19 minutes, he saves 58%. After a day, 33.7%. After thirty-one days, about a fifth of the initial work is still saved.\n\n## What This Shifts\n\nFirst shift: the curve does not measure the share of memories retained. A figure of 33.7% at one day means that relearning costs a third less time, not that two thirds of the series have disappeared.\n\nSecond shift: these results rest on one person, with deliberately meaningless material. What holds for meaningless syllables is not automatically true of a poem or a face.\n\nThird: the curve has been redone. In 2015, Jaap Murre and Joeri Dros publish in *PLOS ONE* a replication of the savings method. A single subject, Dros himself, 22 years old, spends 70 hours learning lists and relearning them after 20 minutes, 1 hour, 9 hours, 1 day, 2 days, 6 days, or 31 days. The authors speak of a successful replication: the curve closely resembles Ebbinghaus's.\n\nIt is not a copy of it, however. The authors conclude that the curve is not completely smooth, and that it very probably shows an upward jump from the 24-hour point. They mention a link with sleep, while noting that it remains to be established. And this subject's savings at 31 days are much lower than in the other curves; the authors consider, without asserting it, that these lists were learned at the start of the experiment, perhaps in massed practice, that is, concentrated in time.\n\nA curve more than a century old, taken up again with the same method, still moves a little. What would it do with ten subjects?",
+  "citation": null,
+  "repere": {
+    "texte": "Murre and Dros (2015) successfully replicate Ebbinghaus's curve with the savings method, but conclude that it is not completely smooth and very probably shows an upward jump from 24 hours.",
+    "source": "Murre & Dros, “Replication and Analysis of Ebbinghaus' Forgetting Curve,” PLOS ONE, 10(7), e0120644, 2015",
+    "url": "https://doi.org/10.1371/journal.pone.0120644"
+  },
+  "carte": {
+    "punch": "Ebbinghaus's curve does not show what we forgot, but the time saved by relearning.",
+    "idee": "In his 1885 book, Ebbinghaus measures forgetting on himself with nonsense syllables: after a day, relearning costs 33.7% less time. That is not the share of memories retained. A 2015 replication finds the curve again, with a probable jump after 24 hours.",
+    "source_courte": "Ebbinghaus 1885 · Murre & Dros 2015"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "In Ebbinghaus, what does “savings” of 33.7% after one day mean?",
+    "choix": [
+      "That relearning the series takes a third less time than learning it the first time",
+      "That 33.7% of the series' syllables can still be recited without error after one day",
+      "That 66.3% of the series has completely disappeared from memory in one day",
+      "That the series was relearned in 33.7 seconds"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The savings method compares the relearning time to the time of the first learning. It is neither a percentage of syllables recited nor a percentage of syllables lost, and it compares the same series with itself, before and after.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How does Ebbinghaus construct the syllables he uses for his experiments?",
+      "choix": [
+        "A vowel between two consonants, chosen so as to mean nothing",
+        "Common words drawn at random from a dictionary",
+        "Ancient Greek first names, chosen for their sound",
+        "Numbers paired with letters, according to a secret code"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The entry specifies that the syllables are built with a vowel between two consonants, so that none means anything, to rule out help from meaning."
+    },
+    {
+      "question": "What do Murre and Dros conclude, in 2015, about the curve they obtain by replicating Ebbinghaus's method?",
+      "choix": [
+        "That it is not completely smooth, with a probable jump after 24 hours",
+        "That it is strictly identical to Ebbinghaus's, point for point",
+        "That it does not confirm at all the forgetting described by Ebbinghaus",
+        "That it can be measured only with several hundred subjects"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Murre and Dros speak of a successful replication, but note that the curve is not completely smooth and very probably shows an upward jump after 24 hours."
+    },
+    {
+      "question": "How many subjects do the Ebbinghaus results presented in the entry rest on?",
+      "choix": [
+        "One, Ebbinghaus himself",
+        "A dozen or so students from his laboratory",
+        "Several hundred anonymous volunteers",
+        "Twenty-two subjects, as in the 2015 replication"
+      ],
+      "bonne_reponse": 0,
+      "explication": "In his 1885 book, Ebbinghaus is both the experimenter and the sole subject, which the entry presents as a limitation to keep in mind."
+    }
+  ]
+}

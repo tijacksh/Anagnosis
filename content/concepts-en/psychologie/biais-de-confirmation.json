@@ -1,0 +1,89 @@
+{
+  "id": "psy-biais-de-confirmation",
+  "slug": "biais-de-confirmation",
+  "langue": "en",
+  "empreinte_fr": "f28cd4a69851b2d3",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Confirmation Bias",
+  "accroche": "Four cards, one rule to check. Fewer than one in ten educated adults picks the right combination.",
+  "contenu_vulgarise": "Four cards are laid out in front of you: **E**, **K**, **4**, **7**. Each one has a letter on one side and a number on the other.\n\nHere is the rule to check: *if a card has a vowel on one side, then it has an even number on the other.*\n\nWhich cards must you turn over, and only those, to find out whether the rule is respected?\n\n## The Answer, and Why We Miss It\n\nMost people turn over the **E**, often the **E** and the **4**. That is wrong.\n\nYou must turn over the **E** and the **7**.\n\nThe E is obvious: it is a vowel, so you have to check that an even number is on the back. The 4, on the other hand, is useless: whether the hidden letter is a vowel or a consonant, the rule is not violated; it says nothing about what even numbers must carry. The 7 is decisive: if it hides a vowel, the rule is false.\n\nPeter Wason designed this task in the 1960s. The success rate among educated adults is very low, often under ten percent.\n\n## What the Error Reveals\n\nWe spontaneously look for what would confirm the rule, a vowel with an even number, and not for what could refute it. Turning over the 7 amounts to looking for a counterexample, that is, to trying to prove ourselves wrong. That move is not natural at all.\n\nThis is confirmation bias: the tendency to seek out, notice, and remember what supports what we already think, while neglecting what could challenge it.\n\n## What This Shifts\n\nThe bias is not laziness. In ordinary life, looking for confirmations is often efficient and far less costly than constantly questioning everything.\n\nIt becomes costly as soon as we seek truth rather than convenience: in a medical diagnosis, an investigation, a hiring decision, an experiment. This is exactly why the scientific method is built against the reflex: we do not try to confirm a hypothesis, we try to bring it down.\n\nThe protocol does not exist because researchers would be more honest than others. It exists because they are no more so, and they know it.\n\nA practical consequence follows. Faced with a conviction, the useful question is not “what confirms it?” It is “what, if I observed it, would force me to change it?” If nothing comes to mind, it was not a conviction. It was a preference.",
+  "citation": null,
+  "repere": {
+    "texte": "On the four-card task, the success rate among educated adults is often under ten percent; the error almost always consists in looking for a confirmation rather than a counterexample.",
+    "source": "Peter Wason, selection task, 1966",
+    "url": "https://philpapers.org/rec/WASR"
+  },
+  "carte": {
+    "punch": "Four cards, one rule. Fewer than one in ten adults finds the right answer.",
+    "idee": "E, K, 4, 7. Rule: a vowel on one side implies an even number on the other. Almost everyone turns over the 4, which proves nothing. You have to turn over the 7, that is, try to prove yourself wrong.",
+    "source_courte": "Wason, 1966 · Nickerson, 1998"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Nickerson (1998) — Confirmation Bias",
+      "note": "A long but very readable review, field by field.",
+      "url": "https://doi.org/10.1037/1089-2680.2.2.175"
+    }
+  ],
+  "quiz": {
+    "question": "Cards E, K, 4, 7. Rule: a vowel on one side implies an even number on the other. Which ones should you turn over?",
+    "choix": [
+      "E and 4, the vowel and the even number from the rule",
+      "E only: it is the only visible vowel",
+      "E and 7, the vowel, and the odd number",
+      "E, 4, and 7, all the ones that could violate it"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The 4 cannot refute anything: the rule says nothing about what even numbers carry, so any letter on its back is compatible. The 7, for its part, refutes it if it hides a vowel. The E remains necessary. Turning over the 4 amounts to looking for a confirmation; turning over the 7, to looking for a counterexample.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Why does turning over the 4 card prove nothing?",
+      "choix": [
+        "Because the rule says nothing about what even numbers must carry",
+        "Because the 4 is already even, which verifies the rule on its own",
+        "Because we know in advance the letter written on the back of the 4",
+        "Because the rule only concerns cards showing a letter"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The rule says that a vowel implies an even number, not the reverse. Whether the 4 hides a vowel or a consonant, the rule remains intact either way. The 7, for its part, demolishes it if it hides a vowel, and that is why it has to be turned over."
+    },
+    {
+      "question": "What does the entry say about confirmation bias in ordinary life?",
+      "choix": [
+        "It is an intellectual laziness that a little effort is enough to correct",
+        "It is often efficient, and less costly than questioning everything",
+        "It shows up only in the least educated people",
+        "It disappears the moment we become aware of its existence"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Looking for what confirms is not a character flaw. It is an economy that works most of the time. The bias becomes costly only when we seek truth rather than convenience, in a diagnosis, an investigation, a hiring decision, or an experiment."
+    },
+    {
+      "question": "Why does the scientific method require protocols, according to the entry?",
+      "choix": [
+        "Because researchers are more honest than others",
+        "Because the bias cancels out as soon as people work in a team",
+        "Because researchers are no more immune to it, and know it",
+        "Because the law requires them to publish negative results"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The protocol exists precisely because the confirmation reflex affects researchers like everyone else. It is built against that reflex: we do not try to confirm a hypothesis, we try to bring it down."
+    },
+    {
+      "question": "What question does the entry suggest asking when faced with a conviction?",
+      "choix": [
+        "How many people around me share this conviction?",
+        "How long have I held it to be true?",
+        "What confirms it most solidly?",
+        "What, if I observed it, would force me to change it?"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The useful question is not what supports an idea. It is what would bring it down. The entry adds a harsh consequence: if nothing comes to mind, it was not a conviction, it was a preference."
+    }
+  ]
+}

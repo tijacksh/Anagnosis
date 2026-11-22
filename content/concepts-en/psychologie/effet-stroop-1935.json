@@ -1,0 +1,66 @@
+{
+  "id": "psy-effet-stroop-1935",
+  "slug": "effet-stroop-1935",
+  "langue": "en",
+  "empreinte_fr": "4218b22132a4d0f5",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The 1935 Stroop Effect",
+  "accroche": "Naming the ink color of mismatched words takes 74% more time. Reading those same words, not reliably.",
+  "contenu_vulgarise": "Read aloud the color of the ink, not the word: RED written in green, BLUE written in yellow. You can do it, but more slowly than for plain colored squares. The test bears the name of John Ridley Stroop, who published it in 1935 in the *Journal of Experimental Psychology* under the title “Studies of interference in serial verbal reactions.”\n\n## The Mechanism\n\nStroop uses five colors: red, blue, green, brown, and purple. Each word is printed in a color other than its own, and each sheet has one hundred items. In experiment 2, one hundred subjects, 88 students and 12 graduate students, first name the color of solid squares, then the ink of color words in conflict. The average is 63.3 seconds for the squares and 110.3 seconds for the words: 47 seconds more, or 74% more time. Stroop calls the interference marked.\n\nThe slowdown does not appear in the other direction. In experiment 1, 70 students read color names printed in discordant ink, then the same names printed in black. Reading is slowed by 2.3 seconds, or 5.6%, and the difference is not reliable. Reading a word is therefore not reliably hindered by the color of the ink, whereas naming a color is clearly hindered by the word. Stroop attributes this asymmetry to the fact that reading is far more practiced than naming colors.\n\nExperiment 3 tests this idea. Thirty-two University of Arizona students are recruited to practice the task with mismatched words, three are then set aside. Their naming time drops by 16.8 seconds, or 33.9% of the first-day average, without the interference disappearing.\n\n## What This Shifts\n\nThe first shift concerns what the test establishes. Stroop's figures are more precise than the idea of an irrepressible reading: a word you want to ignore slows the response by three quarters, but only when the requested task is the weaker of the two. When the requested task is reading, the color does not reliably get in the way.\n\nThe second concerns the explanation, which is not unique. Common presentations of the effect list several: the automaticity of reading (we read without thinking, leaving less attention for the color), a faster processing speed for the word than for the color, a selective attention that has to set aside the wrong answer, network models in which the stronger reading pathway overflows the color pathway, or models in which the two pieces of information compete for the response. Stroop's measurement is solid; its theoretical reading is not agreed upon.\n\nStroop explains the asymmetry by practice; what remains is to find out how much reading makes a word impossible to ignore.",
+  "citation": null,
+  "repere": {
+    "texte": "In Stroop's experiment 2 (1935), one hundred subjects take an average of 110.3 seconds to name the ink of one hundred mismatched color words, versus 63.3 seconds to name one hundred colored squares: 74% more time.",
+    "source": "Stroop, “Studies of interference in serial verbal reactions,” Journal of Experimental Psychology, 18(6), 643-662, 1935",
+    "url": "https://psychclassics.yorku.ca/Stroop/"
+  },
+  "carte": {
+    "punch": "Naming the ink of a color word takes 74% more time. Reading the word, not really.",
+    "idee": "In 1935, John Stroop has one hundred subjects name the ink color of words written in another color: 110.3 seconds for one hundred words, versus 63.3 for colored squares. The reverse, reading a word despite the ink color, is not reliably hindered.",
+    "source_courte": "Stroop, J. Exp. Psychol., 1935"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "MacLeod, “Half a century of research on the Stroop effect: An integrative review,” Psychological Bulletin, 109(2), 163-203 (1991)",
+      "url": "https://doi.org/10.1037/0033-2909.109.2.163"
+    }
+  ],
+  "quiz": {
+    "question": "What does the comparison of Stroop's experiments 1 and 2 show?",
+    "choix": [
+      "That the ink color hinders reading as much as the word hinders color naming",
+      "That reading words in discordant ink takes 74% more time than reading them in black",
+      "That the interference disappears as soon as the subject is trained on the task",
+      "That the word hinders color naming, but the color does not reliably hinder reading the word"
+    ],
+    "bonne_reponse": 3,
+    "explication": "In experiment 2, naming the ink of discordant words takes 74% more time; in experiment 1, reading those same words is slowed by only 5.6%, an unreliable difference. And the training in experiment 3 cuts the time by 33.9% without eliminating the interference.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the entry say about the explanations of the Stroop effect?",
+      "choix": [
+        "A single explanation, the automaticity of reading, is unanimously accepted",
+        "Several explanations coexist, and their theoretical reading is not agreed upon",
+        "No explanation is offered, Stroop's measurement being sufficient in itself",
+        "The measurement is disputed, and the explanation by practice is accepted by all"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The entry lists several competing explanations (automaticity, processing speed, selective attention, network models, models in which the two pieces of information compete for the response) and says that the measurement is solid but that its theoretical reading is not agreed upon."
+    },
+    {
+      "question": "What does experiment 3 show about training on the mismatched-word task?",
+      "choix": [
+        "It eliminates the interference, so that naming reaches the time for the squares",
+        "It lengthens the naming time, the subjects tiring over the course of the trials",
+        "It clearly reduces the naming time, without the interference disappearing",
+        "It changes nothing about the naming time, which stays what it was on the first day"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Experiment 3 lowers the naming time by 16.8 seconds, or 33.9% of the first-day average, without the interference disappearing: practice reduces the effect without eliminating it."
+    }
+  ]
+}

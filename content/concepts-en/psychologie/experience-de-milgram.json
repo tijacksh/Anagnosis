@@ -1,0 +1,84 @@
+{
+  "id": "psy-experience-de-milgram",
+  "slug": "experience-de-milgram",
+  "langue": "en",
+  "empreinte_fr": "d4843f3615863e6e",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "incertain",
+      "note": "The experimenter's prods (“please continue,” “the experiment requires that you continue”) are rendered from the French; the exact wording in Milgram's published protocol was not retrieved (no web lookup in this pass)."
+    }
+  ],
+  "titre": "The Milgram Experiment",
+  "accroche": "The result, at least, has been reproduced. It is the twenty-four variants that we forget to mention.",
+  "contenu_vulgarise": "New Haven, 1961. One participant plays the “teacher.” Another, in the next room, plays the “learner.” At each mistake, the teacher must administer an electric shock of increasing intensity. The learner is in fact an actor, and the shocks do not exist.\n\nFrom a certain level, the learner protests, screams, begs, then goes silent. An experimenter in a lab coat repeats prods: “please continue,” “the experiment requires that you continue.”\n\nIn the best-known version, about 65% of participants go all the way to the last switch.\n\n## Why It Holds Up Better Than Others\n\nUnlike the Stanford experiment, Milgram's has been reproduced, in several countries, and up to recent versions compliant with current ethical rules. The rates vary, the order of magnitude holds. This is not a fragile study.\n\nThe difference from the Stanford experiment deserves to be stated: one collapses when the archives are opened, the other comes out complicated but standing. Not all famous experiments have the same status, and treating them as a block would be as lazy as taking them on faith.\n\nWhat is being qualified today is not the result. It is its interpretation.\n\n## What the Archives Add\n\nMilgram's documents, studied notably by the psychologist Gina Perry, show first that “the experiment” is not one. It is a series of twenty-four variants, whose obedience rates range from almost zero to more than 90%. The famous 65% corresponds to one configuration among others.\n\nThey show next that the experimenter improvised, sometimes insisting well beyond the four prods provided for by the protocol. And that a not insignificant number of participants doubted the reality of the shocks.\n\nAbove all, the variants say something precise. Obedience collapses as soon as the experimenter gives his orders by telephone, as soon as the victim is in the same room, or as soon as another “teacher” refuses first.\n\n## What This Shifts\n\nThe usual interpretation, we blindly obey authority, is too flat to account for these gaps. The variants show people who negotiate, hesitate, look for reasons, and stop obeying as soon as they are given one.\n\nA more recent reading puts it differently: participants do not so much submit as buy into a project that is presented to them as scientific and legitimate. It is not fear of authority that holds them. It is the feeling of taking part in something useful.\n\nThat is markedly less reassuring.",
+  "citation": null,
+  "repere": {
+    "texte": "Milgram did not run one experiment but twenty-four variants, whose obedience rates range from almost zero to more than 90%. The 65% figure corresponds to only one of them.",
+    "source": "Gina Perry, Behind the Shock Machine (2012), based on Milgram's archives",
+    "url": "https://doi.org/10.1515/9781595589255"
+  },
+  "carte": {
+    "punch": "“Milgram” is not one experiment. It is twenty-four variants.",
+    "idee": "Obedience rates range from almost zero to more than 90% depending on the configuration. Obedience collapses if the order comes by telephone, if the victim is in the same room, or if someone else refuses first.",
+    "source_courte": "Milgram, 1963 · Perry, 2012"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Haslam & Reicher (2012), PLoS Biology",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001426",
+      "note": "Open access, and the best entry point to the current debate."
+    }
+  ],
+  "quiz": {
+    "question": "What do the twenty-four variants of Milgram's experiment reveal?",
+    "choix": [
+      "That the 65% rate was a calculation error, since corrected",
+      "That almost all participants knew the shocks were fake",
+      "That the result could never be reproduced by other teams",
+      "That obedience varies enormously with conditions, from almost zero to more than 90%"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The result itself has indeed been reproduced, including recently. It is the variants that complicate the interpretation: obedience drops when the order comes by telephone, when the victim is visible, or when a peer refuses first. People who blindly obey would not react to such details.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What do the archives studied by Gina Perry show about the experimenter's behavior?",
+      "choix": [
+        "That he merely read the four prescribed prods, never saying more",
+        "That he improvised, sometimes insisting well beyond the four prods provided for by the protocol",
+        "That he himself did not know whether the shocks administered were real",
+        "That he switched roles with the participant midway through the experiment"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The documents studied by Gina Perry show that the experimenter improvised, sometimes going well beyond the four prods provided for by the official protocol, which qualifies the rigor of the experiment."
+    },
+    {
+      "question": "Under what conditions does obedience collapse, according to the variants studied?",
+      "choix": [
+        "When the experimenter wears a white coat rather than a suit",
+        "When the session takes place in the afternoon rather than the morning",
+        "When the participant is paid for taking part",
+        "When the orders come by telephone, or when the victim is in the same room"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Obedience collapses as soon as the experimenter gives his orders by telephone, as soon as the victim is in the same room as the participant, or as soon as another teacher refuses first to obey."
+    },
+    {
+      "question": "How does Milgram's experiment differ from the Stanford one, according to the entry?",
+      "choix": [
+        "Milgram's was reproduced in several countries and holds up under examination of the archives, unlike Stanford's",
+        "Milgram's was run on a much larger sample of participants",
+        "Milgram's archives have never been subjected to critical examination",
+        "Milgram's was funded by a different, more rigorous institution"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Unlike the Stanford experiment, which collapses when its archives are opened, Milgram's has been reproduced in several countries, including recently, and comes out complicated but standing."
+    }
+  ]
+}

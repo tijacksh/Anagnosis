@@ -1,0 +1,84 @@
+{
+  "id": "psy-effet-dunning-kruger",
+  "slug": "effet-dunning-kruger",
+  "langue": "en",
+  "empreinte_fr": "dbac406a0906b7f2",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "incertain",
+      "note": "The labels of the viral curve (“mountain of stupidity,” “valley of despair”) are rendered from the French; the wording of the English-language meme versions was not checked. Same for “peak of stupidity” in accroche and carte/punch."
+    }
+  ],
+  "titre": "The Dunning-Kruger Effect",
+  "accroche": "The famous curve with its “peak of stupidity” appears in no article by Dunning or Kruger.",
+  "contenu_vulgarise": "You have seen it go by: a curve that shoots up to a summit dubbed the “mountain of stupidity,” plunges into a “valley of despair,” then climbs back gently toward wisdom. It is supposed to illustrate the Dunning-Kruger effect.\n\nThis curve appears in none of their articles. It was fabricated online, then retroactively attributed to researchers who never drew it.\n\n## What the Article Really Says\n\nIn 1999, Justin Kruger and David Dunning publish “Unskilled and Unaware of It.” They give tests, grammar, logic, humor, then ask participants to estimate their own ranking.\n\nThe result has two parts, and only one is ever remembered.\n\nThe lowest performers clearly overestimate their level, which is the famous part. But the highest performers **underestimate** it: they assume that what is easy for them is easy for everyone. The effect does not say that incompetent people think they are geniuses; it describes a calibration flaw that works at both extremes.\n\nThe thesis is subtler still. What the least competent lack is precisely the competence that would let them gauge their incompetence: judging the quality of a line of reasoning and producing a good line of reasoning draw on the same resources.\n\n## The Statistical Objection\n\nA serious criticism has since appeared. In 2020, Gilles Gignac and Marcin Zajenkowski argue in *Intelligence* that the effect is in large part an artifact.\n\nThe argument: when you ask anyone to estimate their level, the estimates are noisy and pull toward the average. The weak therefore mechanically overestimate themselves, the strong underestimate themselves, and one would get a very similar graph from purely random data. Part of the effect would be a regression to the mean mistaken for a psychological phenomenon.\n\nStill, the calibration flaw has been observed in very diverse domains, from driving to medical practice, and it does not depend entirely on the contested graph. It is the size of the effect that is in question, more than its existence.\n\nThe debate is not settled. It does not do away with the idea of a calibration flaw, but it significantly reduces its scope.\n\n## What This Shifts\n\nThere remains an irony that is hard to dodge. The Dunning-Kruger effect is massively invoked to disqualify someone else, never oneself. Yet if it exists, it implies exactly the opposite: you cannot spot from the inside the areas in which you are poorly calibrated.\n\nUsing it as an argument against others is already to have missed what it says.",
+  "citation": null,
+  "repere": {
+    "texte": "The lowest performers overestimate their level, but the highest performers underestimate it: the effect describes a calibration flaw at both extremes, not an arrogance of the ignorant.",
+    "source": "Kruger & Dunning, “Unskilled and Unaware of It,” Journal of Personality and Social Psychology, 1999",
+    "url": "https://doi.org/10.1037/0022-3514.77.6.1121"
+  },
+  "carte": {
+    "punch": "The “peak of stupidity” curve does not come from Dunning-Kruger.",
+    "idee": "It was fabricated online. The 1999 article says something else: the least competent overestimate themselves, but the most competent underestimate themselves. And a 2020 critique argues that a good part of the effect is a statistical artifact.",
+    "source_courte": "Kruger & Dunning, 1999 · Gignac & Zajenkowski, 2020"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Gignac & Zajenkowski (2020), Intelligence",
+      "note": "The most cited statistical critique, to be read alongside the 1999 article.",
+      "url": "https://doi.org/10.1016/j.intell.2020.101449"
+    }
+  ],
+  "quiz": {
+    "question": "What does Kruger and Dunning's 1999 article actually describe?",
+    "choix": [
+      "A confidence curve going through a peak and then a long valley",
+      "A tendency of experts to systematically overestimate their level",
+      "A direct link between low intelligence and high self-assurance",
+      "Poor calibration at both extremes, weak and strong alike"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The article describes symmetrical poor calibration, not an arrogance of the ignorant: the best underestimate themselves by assuming that what is easy for them is easy for everyone. The famous curve with its peak appears nowhere in the authors' work; it was fabricated online and attributed after the fact.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What do Gignac and Zajenkowski argue in their 2020 critique?",
+      "choix": [
+        "That the Dunning-Kruger effect is in large part a statistical artifact, linked to regression to the mean",
+        "That the 1999 article chose its tests poorly, too easy to be discriminating",
+        "That the effect concerns only logic tests, not other domains",
+        "That Dunning and Kruger falsified part of their original data"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Gignac and Zajenkowski argue, in Intelligence in 2020, that the effect is in large part an artifact: noisy estimates pulling toward the average would be enough to produce a similar graph."
+    },
+    {
+      "question": "According to the entry, what exactly do the least competent lack to gauge their own incompetence?",
+      "choix": [
+        "The time needed to retake the test a second time",
+        "The very competence that would let them judge the quality of a line of reasoning",
+        "External feedback from an expert in the field",
+        "The motivation to honestly compare their score with that of others"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The entry specifies that judging the quality of a line of reasoning and producing a good line of reasoning draw on the same resources: it is this competence that is missing, not just information or time."
+    },
+    {
+      "question": "What irony does the entry point out in the everyday use of the Dunning-Kruger effect?",
+      "choix": [
+        "It is in reality never mentioned outside specialized scientific journals",
+        "It has been renamed several times since 1999 without the public noticing",
+        "It is mostly invoked against others, whereas, if it exists, you cannot spot it in yourself from the inside",
+        "It applies only to technical domains, never to human relationships"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The effect is massively invoked to disqualify someone else, never oneself; yet if it exists, it implies the opposite: you cannot spot from the inside the areas where you are poorly calibrated."
+    }
+  ]
+}

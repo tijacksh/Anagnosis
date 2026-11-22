@@ -1,0 +1,85 @@
+{
+  "id": "phy-train-trompettistes-buys-ballot",
+  "slug": "train-trompettistes-buys-ballot",
+  "langue": "en",
+  "empreinte_fr": "28756b25ee1c39b1",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Feynman wrote in English, but the original wording was not retrieved (no web lookup in this pass); translated faithfully from the French. The French source line says \"translated from English\"; that remark was dropped as meaningless in English. To be replaced by the published English text."
+    }
+  ],
+  "titre": "Buys Ballot's Trumpeter Train",
+  "accroche": "In 1845, a Dutch scholar rents a locomotive to prove Doppler wrong. He shows the opposite.",
+  "contenu_vulgarise": "On June 3, 1845, on the railway line between Utrecht and Maarssen, a locomotive runs back and forth all day. On an open car, professional trumpeters hold a note, for a long time, without faltering. Along the track, other musicians with trained ears write down what they hear. In charge: Christophorus Buys Ballot, a young doctor from the University of Utrecht.\n\nHe is not trying to confirm the Doppler effect. He is trying to bury it.\n\n## A Poorly Received Theory\n\nThree years earlier, on May 25, 1842, Christian Doppler had read a paper before the Royal Bohemian Society of Sciences in Prague. The assembly counted five full members. His thesis: the motion of a source changes the perceived frequency of the wave it emits, and this holds for sound as well as for light.\n\nIt is this second point that triggers the hostility. Doppler draws from it an explanation of the color of stars: stars moving toward us would look bluish, those moving away reddish. Buys Ballot does not believe it. And he is right: the speed of stars is far too low to visibly shift their color, which depends first of all on their temperature. But he does better than object, he designs an experiment.\n\n## Two Attempts\n\nThe first try, in February 1845, comes to nothing: hail and snow keep the musicians from playing cleanly. The experiment is put off until the warmer season.\n\nIn June, it works. As the train approaches, the observers posted beside the track hear the note rise by about a half tone; after it passes, drop by the same amount. The shift is there, audible, in line with what Doppler had calculated for sound.\n\n## What the Heroic Account Erases\n\nBuys Ballot publishes his results and remains, to the end, a critic of Doppler. Posterity has simplified things: the episode is often presented as an enthusiastic confirmation, when it was born of a wish to refute.\n\nThis is precisely what makes it a good case in the history of science. The skeptic supplied the strongest proof of the theory he was fighting, while being right on the point he actually contested, since Doppler had indeed been wrong about the color of stars. Two truths that sit poorly together in a good story, and that a good story therefore ends up erasing.\n\nBuys Ballot himself will build his career elsewhere: in 1854 he founds the Dutch meteorological institute, the KNMI, and leaves his name to a law linking wind direction to the distribution of pressure.",
+  "citation": {
+    "texte": "It doesn't matter how beautiful your hypothesis is, it doesn't matter how smart you are, what your name is, or what your reputation is: if it disagrees with experiment, it is wrong.",
+    "auteur": "Richard Feynman",
+    "source": "The Character of Physical Law, ch. 7, “Seeking New Laws” (1965)",
+    "url": "https://archive.org/details/characterofphysi0000feyn_a6t9"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "In 1845, he rents a locomotive to prove Doppler wrong.",
+    "idee": "Buys Ballot has trumpeters play on a railcar between Utrecht and Maarssen. The result: a half tone higher on approach, lower on departure. The skeptic had just supplied the best proof of the theory he was fighting.",
+    "source_courte": "KNMI · Utrecht University, June 3, 1845"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Utrechtse muurformules: The Buys Ballot Mural",
+      "url": "https://muurformules.sites.uu.nl/mural-paintings/christophorus-buys-ballot/?lang=en",
+      "note": "Utrecht painted Doppler's formula on a wall of the city."
+    }
+  ],
+  "quiz": {
+    "question": "What was Buys Ballot's intention in organizing the trumpeters experiment?",
+    "choix": [
+      "To confirm a theory he had been publicly defending since 1842",
+      "To measure the speed of sound in open air for the first time",
+      "To refute Doppler's theory, whose conclusions he disputed",
+      "To test the sound power of the new steam locomotives"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Buys Ballot was an avowed opponent of Doppler and hoped to catch him out. The experiment nevertheless confirmed the acoustic shift, while Buys Ballot's fundamental objection was right: the color of stars is not explained by their motion. As for the speed of sound, it had been measured since the 17th century.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Why does the first attempt at the experiment, in February 1845, fail?",
+      "choix": [
+        "The rented locomotive breaks down before the trials begin",
+        "Hail and snow keep the musicians from playing cleanly",
+        "The hired trumpeters back out at the last moment",
+        "The railway line is closed for works that day"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The first try, in February 1845, comes to nothing because hail and snow keep the musicians from playing cleanly; the experiment is put off until the warmer season, in June."
+    },
+    {
+      "question": "On what point was Christian Doppler actually wrong, according to the text?",
+      "choix": [
+        "On the very existence of a frequency shift for sound",
+        "On the date of his own presentation before the Royal Bohemian Society",
+        "On the idea that the motion of stars is enough to visibly explain their color",
+        "On the fact that the effect he describes also applies to light"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Doppler was right about the frequency shift, for sound as well as for light, but wrong about applying it to stars: their speed is far too low to visibly shift their color."
+    },
+    {
+      "question": "What does Buys Ballot accomplish after his 1845 experiment?",
+      "choix": [
+        "He founds the Dutch meteorological institute in 1854 and leaves his name to a law on wind and pressure",
+        "He becomes a music professor at the University of Utrecht",
+        "He joins Christian Doppler in Prague to continue his research",
+        "He gives up physics to devote himself entirely to marine meteorology"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Buys Ballot founds the Dutch meteorological institute, the KNMI, in 1854 and leaves his name to a law linking wind direction to the distribution of pressure, a career separate from his episode with Doppler."
+    }
+  ]
+}

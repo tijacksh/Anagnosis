@@ -1,0 +1,78 @@
+{
+  "id": "psy-gorille-invisible",
+  "slug": "gorille-invisible",
+  "langue": "en",
+  "empreinte_fr": "09f738fa0fd2d7a9",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Invisible Gorilla",
+  "accroche": "Count the passes made by the white team. One viewer in two will not see the gorilla cross the screen.",
+  "contenu_vulgarise": "A simple instruction: watch this video and count the passes made by the players in white shirts. A second team, in black, also moves around; ignore them.\n\nIn the middle of the sequence, a person in a gorilla suit walks into the frame, stops at the center, beats their chest, then walks off. They remain visible for several seconds.\n\nAbout half of the viewers do not see them.\n\nThe rate varies with the difficulty of the instruction: the more attention the counting demands, for example if you have to tell direct passes from bounce passes, the more the gorilla disappears.\n\n## What It Shows\n\nDaniel Simons and Christopher Chabris publish this experiment in 1999. The phenomenon has a name: inattentional blindness. We do not perceive what we are not looking for, even when it is perfectly visible, even at the center of our gaze.\n\nBut the essential point lies elsewhere. Those who did not see the gorilla almost always refuse to believe it. They are convinced that something like that would have jumped out at them, and the video has to be replayed before they give in.\n\nWe are therefore blind twice: to what we are not looking for, and to the very existence of this blind spot.\n\n## It Is Not a Matter of Distraction\n\nIn 2013, Trafton Drew and his colleagues insert the image of a gorilla, much larger than a typical lung nodule, into a series of chest CT scans. They then ask experienced radiologists to look for nodules in them.\n\nEighty-three percent do not see the gorilla. Eye tracking shows, however, that most of them looked right at it.\n\nExpertise does not immunize; it may rather make the phenomenon worse. A trained eye is a selective eye, and selection is precisely what manufactures the blind spot.\n\n## What This Shifts\n\nThe result contradicts a very solid intuition: that of an eye that would record the whole scene, with attention then sorting through it. The opposite happens. Attention decides what is seen, and the rest never reaches consciousness.\n\nThis concerns testimony, driving, surveillance, medical diagnosis. And it ruins a sentence we utter without thinking: “I would have seen it.”\n\nNot necessarily. And you would have no way of knowing.\n\nThe corollary is more useful than the finding itself. Since the blind spot is invisible from the inside, it is not corrected by promising to be more attentive. It is corrected by changing method: a second pair of eyes, a checklist, a protocol that forces you to look for what you do not expect.",
+  "citation": null,
+  "repere": {
+    "texte": "In a series of chest CT scans into which the image of a gorilla had been inserted, 83% of experienced radiologists did not see it, even though eye tracking shows that most of them had looked right at it.",
+    "source": "Drew, Võ & Wolfe, Psychological Science, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23863753/"
+  },
+  "carte": {
+    "punch": "Count the passes. One viewer in two will not see the gorilla.",
+    "idee": "It crosses the screen at the center, stops, beats its chest. Half of people miss it, and refuse to believe it. Among radiologists looking for nodules, 83% missed a gorilla slipped into the scan that they had nonetheless looked right at.",
+    "source_courte": "Simons & Chabris, 1999 · Drew et al., 2013"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Drew, Võ & Wolfe (2013) — The invisible gorilla strikes again",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23863753/",
+      "note": "The study on radiologists, with the eye-tracking maps."
+    }
+  ],
+  "quiz": {
+    "question": "What does the 2013 study of radiologists add?",
+    "choix": [
+      "That the phenomenon disappears as soon as observers are warned in advance",
+      "That expertise does not protect: 83% missed a gorilla they had nonetheless looked right at",
+      "That experts detect the anomaly but choose not to report it",
+      "That inattentional blindness concerns only moving images"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The eye tracking is decisive: most radiologists had laid their eyes on the gorilla without seeing it. Expertise may even make the phenomenon worse, as a trained eye is a selective eye, and selection is what manufactures the blind spot. The effect also holds for still images.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What makes the rate of viewers who do not see the gorilla vary, in Simons and Chabris's original experiment?",
+      "choix": [
+        "The rate depends only on the viewers' age, the youngest systematically missing it",
+        "The rate never varies, whatever the difficulty of the task requested",
+        "The rate varies with the difficulty of the instruction: the more attention the counting demands, the more the gorilla disappears",
+        "The rate decreases when the video is watched on a smaller screen"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The more attention the counting instruction demands, for example telling direct passes from bounce passes, the more likely the gorilla is to go unnoticed: it is the difficulty of the task that governs the detection rate."
+    },
+    {
+      "question": "How do most viewers who did not see the gorilla react when it is pointed out to them?",
+      "choix": [
+        "They accept it immediately without showing the slightest surprise",
+        "They immediately accuse the experimenters of having rigged the video",
+        "They then recall having noticed a blurry silhouette, without certainty",
+        "They almost always refuse to believe it, and the video has to be replayed before they give in"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Convinced that something like that would have jumped out at them, those who did not see the gorilla almost always refuse to take it on faith, and the video has to be replayed before they give in: a blindness to the blind spot itself."
+    },
+    {
+      "question": "How does the text say inattentional blindness is effectively corrected, since promising to be attentive is not enough?",
+      "choix": [
+        "By training for several months with intensive visual concentration exercises",
+        "By changing method: a second pair of eyes, a checklist, a protocol that looks for the unexpected",
+        "By consciously promising to be more attentive next time",
+        "By slowing down the speed at which the images observed scroll by"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Since the blind spot is invisible from the inside, promising to be more attentive is not enough: the text specifies that it is corrected by changing method, a second pair of eyes, a checklist, a protocol that forces you to look for the unexpected."
+    }
+  ]
+}

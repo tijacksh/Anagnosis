@@ -1,0 +1,84 @@
+{
+  "id": "psy-faux-souvenirs",
+  "slug": "faux-souvenirs",
+  "langue": "en",
+  "empreinte_fr": "d832b290294e0d82",
+  "traduit_le": "2026-11-22",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "incertain",
+      "note": "The three French verbs (heurtés, percutés, fracassés) are rendered as “hit,” “collided,” “smashed,” keeping the escalation; Loftus and Palmer's exact English verbs were not checked (no web lookup in this pass). Same choice in repere/texte, carte/idee, quiz and quiz_supplementaire."
+    }
+  ],
+  "titre": "Memories Rewrite Themselves",
+  "accroche": "A single changed word in a question is enough to alter what witnesses remember.",
+  "contenu_vulgarise": "Participants watch a film of a car accident. They are then asked how fast the vehicles were going. But the verb changes from group to group: when they *hit*, when they *collided*, when they *smashed*.\n\nThe speed estimates follow the verb. The more violent it is, the higher the speed reported.\n\nA week later, the participants are called back and asked a new question: was there any broken glass on the road? There was none. Those who had heard “smashed” are markedly more likely to have seen some.\n\n## What It Establishes\n\nElizabeth Loftus and John Palmer publish this experiment in 1974. It demonstrates what common sense refuses: a memory is not a recording that you consult. It is a reconstruction redone at each recall, which takes in along the way whatever has happened since.\n\nThe word slipped into the question did not merely steer an answer. It entered the memory.\n\nLoftus will continue for decades, going as far as implanting in the laboratory the memory of entire events that never took place (getting lost in a shopping mall, for example). A substantial minority of participants end up remembering it, with details and emotion.\n\n## The Two Symmetrical Errors\n\nThe first is to conclude that memory is worthless. That is false: it is reliable in the vast majority of ordinary situations, and its plasticity is functional, a memory that adjusts is a useful memory.\n\nThe second is to believe that a false memory can be recognized. It cannot. Neither the witness's confidence, nor the richness of detail, nor the intensity of emotion distinguishes an accurate memory from a reconstructed one. That is precisely what makes the phenomenon formidable.\n\nElizabeth Loftus paid fairly dearly for this work. Called as an expert in many trials, she has been the target of hostile campaigns and threats: the question of recovered memories is one of the most inflammable in the discipline, and it touches people who really suffered.\n\n## What This Shifts\n\nThe consequences are judicial. Eyewitness testimony long remained one of the most convincing pieces of evidence for a jury, and one of the most fragile in reality. Identification procedures have been reformed in several countries following this work.\n\nOn a personal level, the finding is more intimate: your most vivid memories are not your most reliable. They are the ones you have told most often, and therefore rewritten most often.",
+  "citation": null,
+  "repere": {
+    "texte": "One week after watching a film of an accident, participants questioned with the verb “smashed” remember broken glass that did not exist.",
+    "source": "Loftus & Palmer, Journal of Verbal Learning and Verbal Behavior, 1974",
+    "url": "https://doi.org/10.1016/s0022-5371(74)80011-3"
+  },
+  "carte": {
+    "punch": "One word changed in a question alters what witnesses remember.",
+    "idee": "“Hit,” “collided,” “smashed”: the verb changes the estimated speed, and, a week later, brings up broken glass that did not exist. Memory is not consulted. It is reconstructed at each recall.",
+    "source_courte": "Loftus & Palmer, 1974"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Loftus & Palmer (1974)",
+      "note": "Four pages, and one of the most elegant protocols in the discipline.",
+      "url": "https://doi.org/10.1016/s0022-5371(74)80011-3"
+    }
+  ],
+  "quiz": {
+    "question": "What makes it possible to tell an accurate memory from a reconstructed one?",
+    "choix": [
+      "Nothing perceptible: neither confidence, nor detail, nor emotion gives it away",
+      "The richness of detail, far greater in an authentic memory",
+      "The intensity of the emotion attached to the memory at the time of recall",
+      "The witness's confidence, which remains a reliable indicator of accuracy"
+    ],
+    "bonne_reponse": 0,
+    "explication": "That is what makes the phenomenon formidable: false memories come with the same confidence, the same details, and the same emotional charge as true ones. A witness's confidence, long treated by juries as a guarantee of reliability, is not one.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In the Loftus and Palmer experiment, what varied between the groups of participants?",
+      "choix": [
+        "The number of times the accident film was shown to them",
+        "The verb used in the question about the vehicles' speed",
+        "The time between watching the film and the questioning",
+        "The number of vehicles visible in the accident film"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The verb changed between groups (hit, collided, or smashed), and the speed estimates followed its violence: the stronger it was, the higher the speed reported."
+    },
+    {
+      "question": "What did the Loftus and Pickrell study, known as the shopping mall study, show in 1995?",
+      "choix": [
+        "That a substantial minority come to remember an event that never happened",
+        "That all participants immediately reject a suggested false memory",
+        "That children are the only ones to develop memories implanted in the laboratory",
+        "That an implanted memory always disappears after a few days"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Loftus continued her work to the point of implanting in the laboratory the memory of an entire event that never took place; a substantial minority of participants end up remembering it, with details and emotion."
+    },
+    {
+      "question": "What was one judicial consequence of Loftus's work on memory?",
+      "choix": [
+        "Eyewitness testimony was banned from courts in most countries",
+        "Juries ceased to be used in murder trials",
+        "Witness identification procedures were reformed in several countries",
+        "Police lost the right to question eyewitnesses"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Eyewitness testimony, long one of the most convincing pieces of evidence for a jury, turned out to be one of the most fragile: identification procedures have been reformed in several countries."
+    }
+  ]
+}
