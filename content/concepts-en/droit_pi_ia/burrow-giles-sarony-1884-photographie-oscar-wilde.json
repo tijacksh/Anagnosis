@@ -1,0 +1,73 @@
+{
+  "id": "dro-burrow-giles-sarony-1884-photographie-oscar-wilde",
+  "slug": "burrow-giles-sarony-1884-photographie-oscar-wilde",
+  "langue": "en",
+  "empreinte_fr": "d7be394d74f91a7f",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "texte-officiel-a-verifier",
+      "note": "Quote copied from the French entry, whose url points to the official text; could not be re-opened in this run (web access denied)."
+    },
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "erreur-possible-fr",
+      "note": "Possible factual slip in the French: the damages figures (600 dollars for the plates, 85,000 copies sold or exposed to sale, 10 dollars for copies found) could not be checked in this run and look odd for an award under section 4965 (per-copy sums); the opinion's wording should be rechecked by controler. Translated as written."
+    }
+  ],
+  "titre": "The Portrait of Oscar Wilde and Photography Before the Supreme Court",
+  "accroche": "In 1884, the U.S. Supreme Court rules that a photograph can have an author: the person who poses, dresses, lights, and composes.",
+  "contenu_vulgarise": "A lithography company sells copies of a photograph of Oscar Wilde without the photographer's permission. What it disputes before the Supreme Court is that a photograph can have an author at all.\n\n## The photograph “Oscar Wilde, No. 18”\n\nThe photographer Napoleon Sarony has Oscar Wilde pose in front of his camera: the trial judge dates the sitting to April 14, 1882. The print is called *Oscar Wilde, No. 18*. The Burrow-Giles Lithographic Company makes and sells lithographic copies of it. Sarony sues. The federal court for the Southern District of New York finds for him, under section 4965 of the Revised Statutes: it counts 600 dollars for the plates and 85,000 copies sold or exposed for sale, plus 10 dollars for copies found at the company. Burrow-Giles appeals to the Supreme Court.\n\n## The machine argument\n\nThe American Constitution allows Congress to secure to “authors” a right in their “writings.” The company argues that a photograph is not a writing and that its operator is not an author: the image would be merely the mechanical reproduction of an object's features, with no room for novelty or originality. The argument has a historical basis. The 1802 federal statute does not mention photographs, and the Court gives the probable reason: in 1802, photography did not exist. The Court notes, however, that section 4952 of the Revised Statutes lists photographs among the things that can be protected.\n\n## What the Court holds\n\nOn March 17, 1884, Justice Samuel Miller writes the opinion of the Court. It does not settle the objection as it is posed, which would apply to every photograph: it writes that it decides nothing on the question as thus stated. It looks at what Sarony did. The trial judge found that the image was produced entirely from his own original mental conception, to which he gave visible form: he posed Wilde in front of the camera, selected and arranged the costume, draperies, and accessories, and adjusted the light and shade.\n\nThe Court relies on Worcester's dictionary to define the author: the one to whom anything owes its origin, its creator, the one who completes a work of science or literature. It holds that the Constitution is broad enough to cover photographs, but only insofar as they represent original intellectual conceptions of their author. This one does.\n\n## A narrow door\n\nThe decision does not say that every photograph has an author. The case of the ordinary photograph, which the objection targeted, is set aside. The argument that the machine does nearly everything is rejected for one specific case, where the photographer decided everything that precedes the click. What remains to be settled is what, in an image, must precede the click for it to have an author: in 1884, the Court named only the one who poses, dresses, and lights.",
+  "citation": {
+    "texte": "entirely from his own original mental conception, to which he gave visible form",
+    "auteur": "U.S. Supreme Court (opinion of Justice Samuel Miller, restating the trial judge's finding)",
+    "source": "Burrow-Giles Lithographic Co. v. Sarony, 111 U.S. 53, March 17, 1884",
+    "url": "https://www.law.cornell.edu/supremecourt/text/111/53"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "In 1884, the Supreme Court recognizes an author in a photograph of Oscar Wilde.",
+    "idee": "Burrow-Giles copies a portrait of Oscar Wilde and argues that a photograph is merely a mechanical reproduction. The Supreme Court answers that Sarony is its author: he had Wilde pose, chose the costume, set the light. Ordinary photographs, it leaves aside.",
+    "source_courte": "Burrow-Giles v. Sarony, 1884"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "What allows the Supreme Court to recognize Sarony as the author of the photograph of Wilde?",
+    "choix": [
+      "His choices before the click: the pose, the costume, the accessories, and the lighting",
+      "The large number of copies the company sold",
+      "The fact that photography is an entirely mechanical process",
+      "Oscar Wilde's fame, which gave the image its value"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The Court holds that Sarony had Wilde pose, arranged the costume and accessories, and adjusted the light: the image comes from his original mental conception. The number of copies serves to calculate the award, not to establish the author. The mechanical nature of the process is the company's objection, which the Court sets aside for this case without settling it for every photograph. The sitter's celebrity plays no part in the reasoning.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What does the Supreme Court decide about ordinary photographs, not staged like Sarony's?",
+      "choix": [
+        "That they never have an author, for lack of an original intellectual conception",
+        "That they all have an author, just like the photograph of Wilde",
+        "It decides nothing on that case, which it deliberately leaves aside",
+        "That they fall under another provision, section 4965 of the Revised Statutes"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Justice Miller writes that he decides nothing on the question generally posed by Burrow-Giles, which targeted every photograph. The Court judges only Sarony's case, where he chose the pose, the costume, and the light; it says neither that ordinary photographs always have an author, nor that they never do. Section 4965 serves to calculate the award, not to settle this question."
+    },
+    {
+      "question": "Why does the 1802 federal statute not mention photographs?",
+      "choix": [
+        "Because Congress judged photographs too mechanical to be protected",
+        "Because photography did not yet exist in 1802, according to the Court",
+        "Because the 1802 statute protected only literary works",
+        "Because Congress had deliberately excluded this process"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The Court itself gives the probable reason for this omission: in 1802, photography did not yet exist. It is neither a judgment on the mechanical nature of the process, nor a deliberate exclusion, nor a limitation of the 1802 statute to literary works alone, which the text does not state."
+    }
+  ]
+}

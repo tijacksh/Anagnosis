@@ -1,0 +1,88 @@
+{
+  "id": "dro-diamond-chakrabarty-1980-bacterie-brevetable",
+  "slug": "diamond-chakrabarty-1980-bacterie-brevetable",
+  "langue": "en",
+  "empreinte_fr": "2c883829ee41d7b8",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "texte-officiel-a-verifier",
+      "note": "Quote copied from the French entry, whose url points to the official text; could not be re-opened in this run (web access denied)."
+    }
+  ],
+  "titre": "An Oil-Eating Bacterium Before the Supreme Court",
+  "accroche": "In 1980, nine justices decide, by five votes to four, whether a bacterium engineered in a lab can be patented as an object.",
+  "contenu_vulgarise": "In 1972, the microbiologist Ananda Chakrabarty is working in General Electric's laboratories. Bacteria of the Pseudomonas genus naturally break down hydrocarbons, but each can destroy only one type of component of crude oil. Chakrabarty transfers several plasmids, fragments of DNA able to replicate independently of the bacterial chromosome, into a single bacterium: it now breaks down several components at once, a property that no strain known in nature possesses. The appeal is immediate, cleaning up oil spills, and General Electric files a patent application containing thirty-six claims: the manufacturing process, a carrier inoculated with the bacterium, and the bacterium itself.\n\n## A 1952 law, two centuries of interpretation\n\nThe examiner grants the process and the carrier but rejects the bacterium as such, for two reasons: microorganisms are products of nature, and living things do not fall within the categories the law lists. That law, Section 101 of Title 35 of the United States Code, recodified in 1952 from the Patent Act of 1793, authorizes a patent for any new and useful process, machine, manufacture or composition of matter. The Board of Patent Appeals upholds the rejection on the second ground. Chakrabarty takes the case to the Court of Customs and Patent Appeals, which reverses, relying on its own precedent, a purified bacterial culture used to produce an antibiotic. The case makes a round trip to the Supreme Court of the United States, sent back once in light of a ruling on another point of patent law, before returning intact.\n\nOn June 16, 1980, the Court rules by five votes to four. Chief Justice Warren Burger, for the majority, writes that the question is not whether the invention is alive, but whether it has a distinctive name, character and use that it did not owe to nature alone. The Congressional reports accompanying the 1952 law state that the legislature meant to cover “anything under the sun that is made by man.” The dissent, written by Justice William Brennan, objects that Congress had legislated separately, in 1930 and then 1970, to extend patents to new plants: a sign, in his view, that it did not consider ordinary patent law as already covering living matter, and that it fell to Congress, not the Court, to settle the question.\n\n## A boundary, not an open door\n\nThe line drawn in 1980 does not separate the living from the inert: it separates what nature produces on its own from what human intervention transforms. It is this same line that the Supreme Court finds again thirty-three years later, in 2013, in ruling that a segment of isolated human DNA as it exists in the cell remains a product of nature, not patentable, whereas complementary DNA made in a laboratory is. Chakrabarty's bacterium did not invent anything in that debate; it simply fixed, first, its two sides.",
+  "citation": {
+    "texte": "The Committee Reports accompanying the 1952 Act inform us that Congress intended statutory subject matter to include anything under the sun that is made by man.",
+    "auteur": "Chief Justice Warren E. Burger, opinion of the Court",
+    "source": "Diamond v. Chakrabarty, 447 U.S. 303, 309 (1980)",
+    "url": "https://www.law.cornell.edu/supremecourt/text/447/303"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "A lab bacterium once forced the Supreme Court to define what an invention is.",
+    "idee": "In 1980, the U.S. Supreme Court rules, five votes to four, that a bacterium genetically modified by Ananda Chakrabarty can be patented: the question is not whether it is alive, but whether man, and not nature alone, made it.",
+    "source_courte": "Diamond v. Chakrabarty, Supreme Court, 1980"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — Association for Molecular Pathology v. Myriad Genetics, Inc. (2013)",
+      "url": "https://en.wikipedia.org/wiki/Association_for_Molecular_Pathology_v._Myriad_Genetics,_Inc.",
+      "note": "The 2013 ruling that takes up the same boundary between a product of nature and a human-made creation, this time applied to human DNA."
+    }
+  ],
+  "quiz": {
+    "question": "According to the 1980 majority opinion, what criterion decides that a modified bacterium can be patented?",
+    "choix": [
+      "The fact that it is useful for cleaning up oil spills",
+      "The fact that it has a character and a use it does not owe to nature alone",
+      "The fact that General Electric had already invested in developing it",
+      "The fact that the bacterium is a living organism able to reproduce"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The Court explicitly sets aside the living-or-not criterion: the question is whether the invention owes its distinctive character to human intervention, and not to nature alone. Practical usefulness and investment are not the legal criterion adopted, and the ability to reproduce does not come into play.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "On what ground does Justice William Brennan write the dissent in Diamond v. Chakrabarty?",
+      "choix": [
+        "Congress had legislated separately for new plants, a sign that it did not think ordinary patent law applied to living things",
+        "Chakrabarty's bacterium was not different enough from natural strains",
+        "General Electric had no right to file a patent in an employee's name",
+        "The patent should have been examined by an office other than the patent office"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Brennan notes that Congress legislated separately, in 1930 and then 1970, to extend patents to new plants: a step that would not have been needed if, in his view, ordinary patent law already covered living things.",
+      "statut": "valide"
+    },
+    {
+      "question": "What exactly does the patent examiner reject in Chakrabarty's application?",
+      "choix": [
+        "All thirty-six claims, process and carrier included",
+        "Only the claims on the bacterium itself, not the process or the inoculated carrier",
+        "The application as a whole, for lack of novelty of the invention",
+        "Only the commercial name given to the modified bacterium"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The examiner grants the manufacturing process and the inoculated carrier, but rejects only the claims on the bacterium as such, on the ground that it would be a product of nature and that living things fall outside the law's categories.",
+      "statut": "valide"
+    },
+    {
+      "question": "What link does the entry draw between Diamond v. Chakrabarty (1980) and Association for Molecular Pathology v. Myriad Genetics (2013)?",
+      "choix": [
+        "Both rulings concern the same patent, renewed after thirty years",
+        "Both rulings apply the same boundary between a product of nature and a human-made creation, this time to DNA",
+        "The second ruling explicitly overturns the first",
+        "Both cases pit the same parties against each other before the same court"
+      ],
+      "bonne_reponse": 1,
+      "explication": "In 2013, the Supreme Court rules that a segment of isolated human DNA as it exists in the cell remains a product of nature, not patentable, whereas complementary DNA made in a laboratory is: the same distinction laid down in 1980 for the bacterium.",
+      "statut": "valide"
+    }
+  ]
+}

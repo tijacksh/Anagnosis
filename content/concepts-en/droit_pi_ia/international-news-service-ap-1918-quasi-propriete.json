@@ -1,0 +1,74 @@
+{
+  "id": "dro-international-news-service-ap-1918-quasi-propriete",
+  "slug": "international-news-service-ap-1918-quasi-propriete",
+  "langue": "en",
+  "empreinte_fr": "ce26ba2327c3ac09",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "texte-officiel-a-verifier",
+      "note": "Quote copied from the French entry, whose url points to the official text; could not be re-opened in this run (web access denied)."
+    }
+  ],
+  "titre": "Reaping Where One Has Not Sown",
+  "accroche": "In 1918, in the middle of a war, a news agency copies its rival's dispatches. The Supreme Court invents a form of property that no statute provided for.",
+  "contenu_vulgarise": "December 1918. The guns in Europe fell silent a month ago, but another battle is being fought before the U.S. Supreme Court, between two American news agencies. The Associated Press (AP), a cooperative of newspapers, accuses the International News Service (INS), owned by press magnate William Randolph Hearst, of pillaging its dispatches: employees of AP member newspapers are bribed to hand over the news before it is published, and INS editors copy AP's bulletin boards and early editions, sometimes barely reworded, to resell them to their own clients without ever naming the source. Part of the problem comes from the war itself: the Allied governments have closed their telegraph lines to INS, judged too close to the Central Powers, and the agency has fallen back on what its rival had just published.\n\n## Reaping where one has not sown\n\nThe law does not protect AP under copyright. In the opinion issued on December 23, 1918, Justice Mahlon Pitney recalls that a news item is not the creation of its writer, but the report of facts that ordinarily belong to the public domain: in the Court's words, it is the history of the day. Once published, nothing prevents the public from repeating it.\n\nBut the Court distinguishes this right, enforceable against everyone, from the relationship between two direct competitors. Between AP and INS, it holds, the news is a commodity, financed by the organization, labor and money of whoever gathers it, then sold to anyone willing to pay for it: as such, and between them alone, it must be treated as quasi property, irrespective of the rights of either as against the public. By reselling as its own dispatches it has not paid for, INS, in the Court's phrase, is endeavoring to reap where it has not sown, and appropriates the harvest of the one who has sown.\n\n## A property no one voted for\n\nTwo justices reject this reasoning, for opposite reasons. Holmes, joined by McKenna, finds the remedy badly cut: unfair competition in principle requires a deception of the public, not merely an unearned gain. Brandeis goes further: he doubts that a court, ruling on a single dispute, is in a position to invent a new property right and set its limits itself; that task, he argues, belongs to a legislature, not to nine judges.\n\nThis reasoning should not be confused with the one the same Supreme Court would hold seventy-three years later, in Feist Publications v. Rural Telephone (1991): Feist refuses any copyright in a work of compilation, because facts are discovered, not created. Here, the Court does not touch copyright: it creates a different tool, unfair competition, to protect a different interest, not the expression of an idea, but the labor of gathering news between direct rivals, for as long as the information keeps its commercial value. The question Brandeis raised, who should decide that information has a price and for how long, a judge ruling case by case or a legislator setting a general rule, remains open every time a new technique for gathering the news comes back before a court.",
+  "citation": {
+    "texte": "Defendant in appropriating it and selling it as its own is endeavoring to reap where it has not sown, and by disposing of it to newspapers that are competitors of complainant's members is appropriating to itself the harvest of those who have sown.",
+    "auteur": "Mahlon Pitney",
+    "source": "International News Service v. Associated Press, 248 U.S. 215, opinion of the Court, December 23, 1918",
+    "url": "https://www.law.cornell.edu/supremecourt/text/248/215"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "In 1918, a judge invents a property right that no statute had ever written.",
+    "idee": "In December 1918, the U.S. Supreme Court refuses any copyright in news of the day, but recognizes, between two rival news agencies, a temporary “quasi property” in freshly gathered information: it is forbidden to reap where one has not sown.",
+    "source_courte": "INS v. AP, Supreme Court, 1918"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Official text of volume 248 of the United States Reports (pp. 215-246), including the two dissents",
+      "url": "https://www.govinfo.gov/content/pkg/USREPORTS-248/pdf/USREPORTS-248-215.pdf",
+      "note": "Official publication of the Government Publishing Office; the opinions of Holmes and Brandeis appear there in full, from page 246 onward."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the Supreme Court protect the Associated Press against the International News Service in 1918, even though news of the day is not protected by copyright?",
+    "choix": [
+      "Because between direct competitors, information gathered at cost becomes a quasi property for as long as it keeps its commercial value",
+      "Because Congress had passed a specific statute protecting press dispatches during World War I",
+      "Because the International News Service had signed a license agreement with the Associated Press, which it later broke",
+      "Because the Court ruled that the dispatches were works protected by copyright from the moment of publication"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The Court rules out any copyright protection, since facts of the day belong to the public domain once published. But between AP and INS, direct competitors selling the same commodity, it recognizes a temporary quasi property: it must not be permitted to reap where one has not sown. No act of Congress and no contract plays a part in this case.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "Which of these practices did INS use against AP, according to the entry?",
+      "choix": [
+        "Scrupulously crediting AP on every dispatch it reused",
+        "Buying a license from AP to reuse its dispatches",
+        "Copying AP's bulletin boards and early editions",
+        "Sending its dispatches over the Allied telegraph lines"
+      ],
+      "bonne_reponse": 2,
+      "explication": "INS editors copy AP's bulletin boards and early editions, then resell those dispatches without paying for them or naming the source."
+    },
+    {
+      "question": "What argument does Justice Brandeis raise against the quasi property created by the majority?",
+      "choix": [
+        "He approves of the quasi property, which protects the labor of gathering news between rivals",
+        "He argues that INS had paid AP for each dispatch it reused",
+        "He believes the dispatches are protected by copyright from the moment of publication",
+        "He doubts that a court hearing a single dispute can create a property right"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Brandeis doubts that a court, ruling on a single dispute, can invent a property right and set its limits: in his view, that is for the legislature to do."
+    }
+  ]
+}

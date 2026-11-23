@@ -1,0 +1,87 @@
+{
+  "id": "dro-convention-paris-1883-propriete-industrielle",
+  "slug": "convention-paris-1883-propriete-industrielle",
+  "langue": "en",
+  "empreinte_fr": "f3d1ab6df69aa645",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "repere",
+      "type": "texte-officiel-a-verifier",
+      "note": "Faithful translation of the French entry's paraphrase of Article 4C; the official English wording of Article 4C could not be re-opened in this run (web access denied)."
+    }
+  ],
+  "titre": "The 1883 Paris Convention, a Grace Period Rather Than an Automatic Right",
+  "accroche": "On March 20, 1883, eleven countries give an inventor one year to file elsewhere. Three years later, another treaty chooses the opposite, for books.",
+  "contenu_vulgarise": "On March 20, 1883, in a hall in Paris, delegates from eleven countries sign a text whose problem fits in a single sentence: a patent filed in Brussels in the morning protects nothing in Berlin in the afternoon. Each state decides alone who has the right to exploit an invention on its soil, and none recognizes the patent granted by its neighbor. An inventor who wants protection everywhere must therefore file everywhere, on the same day if possible, before a competitor reads the application in one country and refiles it elsewhere in his own name.\n\n## A grace period, not an automatic right\n\nThe Convention for the Protection of Industrial Property solves this problem without claiming to create a worldwide patent, something it never will. It sets up two mechanisms. The first is national treatment: a foreigner who files in a member country receives exactly the protection that country grants its own nationals, no more, no less. The second is the right of priority: whoever has filed an application in one member country has twelve months, for a patent or a utility model, or six months, for a trademark or an industrial design, to file the same application elsewhere while keeping the date of the first filing as the reference. During that period, no one can set an intervening filing against them, or even their own disclosure in the meantime.\n\nEleven countries sign the text on March 20, 1883: Belgium, Brazil, France, Guatemala, Italy, the Netherlands, Portugal, El Salvador, Serbia, Spain and Switzerland. It will be revised six times in less than a century, in Brussels in 1900, in Washington in 1911, in The Hague in 1925, in London in 1934, in Lisbon in 1958 and in Stockholm in 1967, without ever abandoning these two founding mechanisms.\n\n## Three years later, another treaty, another logic\n\nIn 1886, ten countries sign, a few hundred kilometers away, a second treaty, the Berne Convention, to protect literary and artistic works. The two texts resemble each other in ambition, but not in mechanics: Berne forbids any formality, a book is protected as soon as it exists, in all member countries at once, with no filing and no deadline to meet. The Paris Convention, for its part, protects nothing automatically: each country keeps examining, granting or refusing a patent under its own rules, independently of what the others decide.\n\nThis difference is not an oversight by the drafters of 1883, it comes from the very nature of what they protect. A copyright is born of a gesture of creation that no one needs to verify; a patent requires an examination, an administrative decision, a risk of refusal, specific to each country. You cannot harmonize a right that exists only after an office's decision: you can only give its holder the time to run the same race elsewhere without losing the benefit. That time, twelve months or six, is what the Paris Convention invents in 1883, and what the Berne Convention, three years later, will never need.",
+  "citation": null,
+  "repere": {
+    "texte": "The priority period set by the Paris Convention is twelve months for a patent or a utility model, and six months for a trademark or an industrial design.",
+    "source": "Paris Convention for the Protection of Industrial Property, March 20, 1883, Article 4",
+    "url": "https://www.wipo.int/en/web/treaties/ip/paris/summary_paris"
+  },
+  "carte": {
+    "punch": "In 1883, a patent filed in Paris could wait a year before being refiled elsewhere.",
+    "idee": "On March 20, 1883, eleven countries agree on a grace period: twelve months for a patent, six for a trademark, during which a first filing remains protected wherever it is refiled. Three years later, the Berne Convention will choose the opposite for books: no grace period, because no formality.",
+    "source_courte": "Paris Convention, March 20, 1883"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "WIPO, treaty page, Paris Convention for the Protection of Industrial Property",
+      "url": "https://www.wipo.int/en/web/treaties/ip/paris",
+      "note": "WIPO's reference page, the organization that has administered the convention from Geneva."
+    }
+  ],
+  "quiz": {
+    "question": "Why does the 1883 Paris Convention give the inventor a priority period, rather than making the patent automatically valid in all member countries?",
+    "choix": [
+      "Because the signatory countries did not yet have an administration able to examine foreign applications",
+      "Because the convention imposes a single patent common to all member countries, to be issued within the year",
+      "Because each country keeps examining and granting the patent under its own rules, independently of decisions made elsewhere",
+      "Because filing fees must be paid in each country before the period starts to run"
+    ],
+    "bonne_reponse": 2,
+    "explication": "The convention does not create a worldwide patent: each country keeps its own independent decision. The priority period merely leaves time to file elsewhere without losing the benefit of the first filing date.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "How many countries sign the Paris Convention on March 20, 1883?",
+      "choix": [
+        "Six",
+        "Eleven",
+        "Eighteen",
+        "Twenty-five"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Eleven countries sign the text on March 20, 1883: Belgium, Brazil, France, Guatemala, Italy, the Netherlands, Portugal, El Salvador, Serbia, Spain and Switzerland.",
+      "statut": "valide"
+    },
+    {
+      "question": "What period does the Paris Convention allow for filing a trademark in another member country while keeping the date of the first filing?",
+      "choix": [
+        "Three months",
+        "Twelve months",
+        "Six months",
+        "Eighteen months"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The priority period is six months for a trademark or an industrial design, and double that, twelve months, for a patent or a utility model.",
+      "statut": "valide"
+    },
+    {
+      "question": "Why could the Paris Convention not exempt patents from every formality, as the Berne Convention would do for books three years later?",
+      "choix": [
+        "Because patents had no commercial value comparable to that of books in 1883",
+        "Because the signatory countries of 1883 did not yet have a ministry in charge of patents",
+        "Because the Berne Convention was discussed before the Paris one",
+        "Because a patent exists only after an administrative decision specific to each country, which no treaty can make automatic"
+      ],
+      "bonne_reponse": 3,
+      "explication": "A copyright is born of a gesture of creation that no examination validates; a patent requires an administrative decision specific to each country, which no convention could standardize in 1883.",
+      "statut": "valide"
+    }
+  ]
+}
