@@ -2,25 +2,20 @@
  "id": "nut-amandes-calories-facteurs-atwater",
  "slug": "amandes-calories-facteurs-atwater",
  "langue": "en",
- "empreinte_fr": "561d40fe5742d3a1",
- "traduit_le": "2026-11-22",
+ "empreinte_fr": "e30ba7168f6aae45",
+ "traduit_le": "2026-11-23",
  "moteur": "claude-code",
  "relu": false,
  "drapeaux": [
   {
    "chemin": "repere/texte",
    "type": "citation-originale-anglaise",
-   "note": "Already in English in the French entry (the French gave the translation only in the source line); the cited URL is the English PubMed record of the 2012 article. Copied unchanged; not re-read on the page in this pass (no web access). The French back-translation was dropped from the source line."
-  },
-  {
-   "chemin": "carte/idee",
-   "type": "erreur-possible-fr",
-   "note": "The French card says “32% fewer calories than Atwater predicts”, but 129 vs. 170 calories is about 24% fewer; the 32% figure in the body is the overestimate relative to the measured value (Atwater is 32% higher). Translated as in the French."
+   "note": "Already in English in the French entry; the cited URL is the English PubMed record of the 2012 article. Checked word for word against the abstract (read on Europe PMC, since PubMed served a cookie wall): 4.6 ± 0.8 kcal/g, 129 kcal/28-g serving, 6.0-6.1 kcal/g by the Atwater factors."
   }
  ],
  "titre": "The Calculation That Overstates the Calories in a Handful of Almonds",
  "accroche": "The number printed on the label of a bag of almonds is not measured. It comes from a century-old formula that ignores what the body digests.",
- "contenu_vulgarise": "A 28-gram serving of almonds shows about 170 calories on the nutrition label. That number comes from no direct measurement: it results from a calculation, devised in the late 19th century by the American chemist Wilbur O. Atwater, which assigns a fixed energy value to each macronutrient (4 calories per gram of protein, 4 per gram of carbohydrate, 9 per gram of fat), whatever the food that contains them.\n\n## What the Body Never Absorbs\n\nIn 2012, a team from the USDA's human nutrition laboratory in Beltsville, Maryland, directly tests this assumption on almonds. Eighteen adults follow, in rotation and for eighteen days each, three controlled diets containing 0, 42, or 84 grams of almonds per day. During the last nine days of each period, the researchers collect all of the participants' urine and feces and precisely measure their energy content. This is the same balance method used to establish the Atwater tables themselves, but applied this time to a whole food rather than to its isolated components, so as to count only the energy actually absorbed by the body.\n\nThe result: almonds in fact provide 4.6 calories per gram, versus 6.0 to 6.1 calculated by the Atwater method, that is, 129 calories per 28-gram serving rather than 168 to 170. A gap of 32%. The cause lies in the structure of the almond itself: part of its fat remains locked inside plant cell walls that digestion cannot fully break, and comes out intact, measurable in the feces, without ever having nourished the body.\n\n## A Calorie Is Not Just a Matter of Grams\n\nThe gap is no mere anecdote for the Atwater method itself: designed for average food mixtures, it remains broadly reliable for a complete meal, but is systematically wrong for certain foods whose structure holds back part of their energy, beginning with whole tree nuts. Two grams of fat are therefore not always worth the same, depending on the food that encloses them and on how the body manages, or fails, to extract them. Digestion is itself a step in the calculation, not just the composition shown on the package. The same discrepancy is found, to varying degrees, in other whole tree nuts, such as walnuts and pistachios, also studied by the same USDA team.",
+ "contenu_vulgarise": "A 28-gram serving of almonds shows about 170 calories on the nutrition label. That number comes from no direct measurement: it results from a calculation, devised in the late 19th century by the American chemist Wilbur O. Atwater, which assigns a fixed energy value to each macronutrient (4 calories per gram of protein, 4 per gram of carbohydrate, 9 per gram of fat), whatever the food that contains them.\n\n## What the Body Never Absorbs\n\nIn 2012, a team from the USDA's human nutrition laboratory in Beltsville, Maryland, directly tests this assumption on almonds. Eighteen adults follow, in rotation and for eighteen days each, three controlled diets containing 0, 42, or 84 grams of almonds per day. During the last nine days of each period, the researchers collect all of the participants' urine and feces and precisely measure their energy content. This is the same balance method used to establish the Atwater tables themselves, but applied this time to a whole food rather than to its isolated components, so as to count only the energy actually absorbed by the body.\n\nThe result: almonds in fact provide 4.6 calories per gram, versus 6.0 to 6.1 calculated by the Atwater method, that is, 129 calories per 28-gram serving rather than 168 to 170. That amounts to a 32% overestimate. The cause lies in the structure of the almond itself: part of its fat remains locked inside plant cell walls that digestion cannot fully break, and comes out intact, measurable in the feces, without ever having nourished the body.\n\n## A Calorie Is Not Just a Matter of Grams\n\nThe gap is no mere anecdote for the Atwater method itself: designed for average food mixtures, it remains broadly reliable for a complete meal, but is systematically wrong for certain foods whose structure holds back part of their energy, beginning with whole tree nuts. Two grams of fat are therefore not always worth the same, depending on the food that encloses them and on how the body manages, or fails, to extract them. Digestion is itself a step in the calculation, not just the composition shown on the package. The same discrepancy is found, to varying degrees, in other whole tree nuts, such as walnuts and pistachios, also studied by the same USDA team.",
  "citation": null,
  "repere": {
   "texte": "4.6 ± 0.8 kcal/g, which is equivalent to 129 kcal/28-g serving [...] significantly less than the energy density of 6.0-6.1 kcal/g as determined by the Atwater factors.",
@@ -29,7 +24,7 @@
  },
  "carte": {
   "punch": "The label on a bag of almonds measures nothing. It calculates, with a 19th-century formula.",
-  "idee": "A USDA team measured, in the urine and feces of eighteen volunteers, the energy actually drawn from servings of almonds. Result: 32% fewer calories than the Atwater method predicts, because part of the fat stays locked in cell walls that are never digested.",
+  "idee": "A USDA team measured, in the urine and feces of eighteen volunteers, the energy actually drawn from servings of almonds. Result: the Atwater method overestimates the measured energy by 32%, because part of the fat stays locked in cell walls that are never digested.",
   "source_courte": "Am J Clin Nutr, 2012"
  },
  "pour_aller_plus_loin": [],
