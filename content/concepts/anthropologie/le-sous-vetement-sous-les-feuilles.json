@@ -112,10 +112,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "bbd50b7b7e39ced1",
+    "notes": [
+      "Sources rouvertes : Encyclopedia.com (annonce de 1971, PANAMIN, Nance 1975, Iten en mars 1986, Stern et sous-vêtement, huit faits non contestés, outils fabriqués par des Manobo), archive.org (Headland 1992), Wikipédia Tasaday.",
+      "À REVOIR : (1) Encyclopedia.com date l'ouvrage de Headland de 1991 et le titre The Tasaday Hoax Controversy, alors que la fiche et archive.org donnent 1992 / The Tasaday Controversy: Assessing the Evidence : harmoniser la référence du repère. (2) « grottes désertes » : Encyclopedia.com dit seulement que les Tasaday vivaient dans des maisons ; le détail vient de Wikipédia, absent des sources. (3) « Quinze ans » sans visite indépendante : la source parle de treize ans de silence (1974-1986). (4) L'enjeu de gestion forestière attribué au régime Marcos n'est dans aucune source."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-22", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-22",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

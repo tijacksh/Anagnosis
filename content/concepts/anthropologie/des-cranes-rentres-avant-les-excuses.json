@@ -112,10 +112,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "26031a570971ec91",
+    "notes": [
+      "Sources rouvertes (The Conversation 2018 et 2017, Wikipédia en). Chiffres, dates (2 octobre et 6 décembre 1904, 29 août 2018, 2015, 2021) et récit d'Eugen Fischer confirmés.",
+      "À REVOIR (sens) : le corps, la carte et le quiz affirment qu'aucune excuse n'est formulée lors de la cérémonie du 29 août 2018. The Conversation écrit « no official apology » mais rapporte aussi que la ministre d'État Michelle Müntefering s'est inclinée « en deuil profond » et a demandé « du fond du cœur pardon » (« forgiveness »), dans un discours jugé sans excuse profonde. À reformuler (aucune reconnaissance formelle du génocide, aucune excuse officielle de l'État, mais une demande de pardon de la ministre) ; la bonne réponse du quiz (« toute excuse ») est à corriger en conséquence."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-22", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-22",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

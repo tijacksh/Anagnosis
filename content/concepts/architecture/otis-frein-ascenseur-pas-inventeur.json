@@ -100,10 +100,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "773c8700248ac429",
+    "notes": [
+      "Sources rouvertes : Scientific American (25 novembre 1854, citations « sustained » et « prevented from falling » confirmées, Crystal Palace 1854), Wikipédia Elisha Otis et Elevator (Maize & Burns, Haughwout le 23 mars 1857, 488 Broadway, Cooper 1853, Equitable 1870).",
+      "À REVOIR : (1) l'invention du frein est datée de 1852 dans l'accroche, la carte, le corps et le quiz ; Wikipédia (Elisha Otis) donne 1853 (Otis est à Yonkers dès 1852) : la date est à trancher. (2) L'Equitable Life Building est « thought to be » le premier immeuble de bureaux à ascenseurs de passagers : « conçu autour de l'ascenseur » est plus fort que la source. (3) « cinq ou six étages » (carte) et « tombe de quelques centimètres » ne sont dans aucune source."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-23", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-23",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

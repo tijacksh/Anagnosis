@@ -91,10 +91,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "27794b94a0bcf575",
+    "notes": [
+      "Sources rouvertes : PNAS 2007 (2 848 km², 900-1 000 km², Tikal 100-150 km², « the most extensive urban complex of the preindustrial world », 94 temples) et Antiquity 2015 (lidar 2012, blocs de 100 x 100 m, 250-300 bassins, 4 500 / 25 000 / 125 000).",
+      "À REVOIR : (1) « 370 kilomètres carrés » absent des deux sources. (2) Les 250 à 300 bassins et la grille se situent dans l'enceinte à douves d'Angkor Wat d'après Antiquity, pas « autour du temple » ; la bonne réponse de Q1 (« bien au-delà des douves ») n'est pas soutenue pour Angkor Wat (c'est vrai pour la grille d'Angkor Thom). (3) Accroche « que personne n'avait cartographiée » : la carte de 2007 et les relevés de 2010 montraient déjà des bassins et monticules. (4) 4 500 est un maximum dans la source, pas une estimation centrale."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-23", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-23",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

@@ -101,10 +101,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "e29c2c1c52862ab6",
+    "notes": [
+      "Sources rouvertes : Smithsonian (via web.archive.org, accès direct 403), Wikipédia Florence Cathedral (19 août 1418, 1420-1436, 25 mars 1436, pénurie de bois, 4 millions de briques).",
+      "À REVOIR : (1) titre, accroche et carte affirment que 2020 a expliqué pourquoi la coupole de Brunelleschi tient ; l'étude porte sur des coupoles Sangallo à double hélice, la source dit seulement que les chercheurs « suspectent » et « argumentent » que les mêmes principes valent pour Brunelleschi (simple hélice). Le quiz Q3 le reconnaît comme hypothèse : le titre est contradictoire. (2) « Ghiberti, soutenu par Cosimo de Médicis » : Wikipédia dit que Cosimo soutenait Brunelleschi. (3) Citation tronquée : l'original continue « , particularly suited for unmanned aerial vehicles. ». (4) Wikipédia mentionne des plates-formes sur poutres dans les nervures : « sans aucun support temporaire » est trop absolu."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-23", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-23",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

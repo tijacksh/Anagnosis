@@ -117,10 +117,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "f7deae591a1a2e8a",
+    "notes": [
+      "Sources rouvertes : Wikipédia en « Death of James Cook » (17 janvier, 4, 11 et 14 février 1779, avarie du mât, Makahiki, Lono/Kū), notices archive.org et Persée (Zimmermann 1998) : thèses de Sahlins et d'Obeyesekere confirmées.",
+      "À REVOIR : « un numéro entier de Current Anthropology consacré en 1997 à la controverse » ne figure dans aucune source de la fiche ni dans les pages Wikipédia rouvertes ; non vérifié, à sourcer ou retirer. Aussi non sourcés : le pouvoir du chef « rituellement suspendu » pendant le Makahiki et Islands of History (1985) (confirmé seulement par la page Wikipédia de Sahlins, absente des sources)."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-22", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-22",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

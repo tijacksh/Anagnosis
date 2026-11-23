@@ -112,10 +112,26 @@
       "statut": "valide"
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": {
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "0355b3762cb0478a",
+    "notes": [
+      "Sources rouvertes : texte de la déclaration du 18 juillet 1950 (copie web.archive.org du PDF UNESCO : « not so much a biological phenomenon as a social myth », liste des huit experts), Encyclopedia.com (Fisher, Darlington, Gates, Dunn, 96 scientifiques, juin 1951), archive.org (Montagu).",
+      "À REVOIR : (1) le corps dit que le comité de 1949 comptait « un généticien » : la liste des huit experts ne contient aucun généticien, et Encyclopedia.com le dit composé en majorité de spécialistes de sciences sociales. (2) La date « décembre 1949 » ne figure dans aucune source rouverte. (3) Le second comité est décrit « dominé par des généticiens » alors qu'Encyclopedia.com parle de généticiens et d'anthropologues physiques, Montagu y siégeant aussi. (4) L'url UNESCO enregistrée renvoie à une page d'archive sans texte, le PDF n'est lisible que via web.archive.org."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-22", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-22",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
