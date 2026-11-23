@@ -2,29 +2,23 @@
  "id": "phi-rasoir-d-ockham",
  "slug": "rasoir-d-ockham",
  "langue": "en",
- "empreinte_fr": "6cf571b802eafcad",
+ "empreinte_fr": "db12187f44866654",
  "traduit_le": "2026-11-22",
  "moteur": "claude-code",
  "relu": false,
- "drapeaux": [
-  {
-   "chemin": "quiz_supplementaire/0/explication",
-   "type": "erreur-possible-fr",
-   "note": "The French explanation says the formula appears in Punch in 1639, “nearly three centuries after the death of Ockham, who presents it himself as a common axiom”: grammatically this attributes to Ockham what the body text says of Punch (Punch gave it as an axioma vulgare). The question also asks who “first” formulated it, which the entry does not strictly establish. Translated as written."
-  }
- ],
+ "drapeaux": [],
  "titre": "Ockham's Razor",
  "accroche": "The Latin formula attributed to him is not his, and that is not the only misreading of this principle",
- "contenu_vulgarise": "“Entities must not be multiplied beyond necessity.” In Latin, *entia non sunt multiplicanda praeter necessitatem*. It is the canonical formula of Ockham's razor, cited everywhere, textbooks included.\n\nWilliam of Ockham never wrote it. It is absent from everything we have of his.\n\n## Where It Comes From\n\nIt is found in this form in John Punch, an Irish theologian, in 1639, nearly three centuries after Ockham's death. And Punch does not present it as a find of his predecessor: he gives it as an *axioma vulgare*, a common axiom among the scholastics. The attribution to Ockham settled in later, by drift, and was never undone.\n\nWhat Ockham actually writes is close but more cautious: one must not posit a plurality without necessity. The principle is thus indeed found in him. It is the striking sentence, the one that gets quoted, that is not his.\n\n## What the Razor Does Not Say\n\nSecond misreading, costlier than the first. The razor is often heard as: “the simplest explanation is the right one.” That is not what it states.\n\nThe razor arbitrates between two explanations that account for the same facts, equally well. In that case only, it recommends preferring the one that postulates the least. The condition is decisive: if the complicated explanation explains more, the razor does not apply. It says nothing against complexity in general; it says something against gratuitous complexity, the kind that explains nothing more.\n\nThird point: it is not a law of nature. Nothing guarantees that the world is simple. It is a principle of economy, a rule about how to choose our hypotheses, not a discovery about how things are made. Biology, history, and law abound in situations where the right answer is the complicated one.\n\n## What This Shifts\n\nThe razor is massively invoked to close a discussion, against the opposing thesis, never against one's own. Yet it only kicks in in one precise case: at equal explanatory power. Establishing that equality takes far more work than citing the formula, and it is precisely this work that the invocation lets one avoid.\n\nA principle of caution turned into an argument from authority, under a sentence its supposed author did not write.",
+ "contenu_vulgarise": "“Entities must not be multiplied beyond necessity.” In Latin, *entia non sunt multiplicanda praeter necessitatem*. It is the canonical formula of Ockham's razor, cited everywhere, textbooks included.\n\nWilliam of Ockham never wrote it. It is absent from everything we have of his.\n\n## Where It Comes From\n\nIt is found in nearly identical form in John Punch, an Irish theologian, in 1639, nearly three centuries after Ockham's death. And Punch does not present it as a find of his predecessor: he gives it as an *axioma vulgare*, a common axiom among the scholastics. The attribution to Ockham settled in later, by drift, and was never undone.\n\nWhat Ockham actually writes is close but more cautious: one must not posit a plurality without necessity. The principle is thus indeed found in him. It is the striking sentence, the one that gets quoted, that is not his.\n\n## What the Razor Does Not Say\n\nSecond misreading, costlier than the first. The razor is often heard as: “the simplest explanation is the right one.” That is not what it states.\n\nThe razor arbitrates between two explanations that account for the same facts, equally well. In that case only, it recommends preferring the one that postulates the least. The condition is decisive: if the complicated explanation explains more, the razor does not apply. It says nothing against complexity in general; it says something against gratuitous complexity, the kind that explains nothing more.\n\nThird point: it is not a law of nature. Nothing guarantees that the world is simple. It is a principle of economy, a rule about how to choose our hypotheses, not a discovery about how things are made. Biology, history, and law abound in situations where the right answer is the complicated one.\n\n## What This Shifts\n\nThe razor is massively invoked to close a discussion, against the opposing thesis, never against one's own. Yet it only kicks in in one precise case: at equal explanatory power. Establishing that equality takes far more work than citing the formula, and it is precisely this work that the invocation lets one avoid.\n\nA principle of caution turned into an argument from authority, under a sentence its supposed author did not write.",
  "citation": null,
  "repere": {
-  "texte": "The formula “entia non sunt multiplicanda praeter necessitatem” appears in the theologian John Punch in 1639, nearly three centuries after Ockham's death, and Punch gave it as an axiom common to the scholastics, not as a sentence of Ockham's.",
+  "texte": "The formula “entia non sunt multiplicanda praeter necessitatem” appears, give or take a few words, in the theologian John Punch in 1639, nearly three centuries after Ockham's death, and Punch gave it as an axiom common to the scholastics, not as a sentence of Ockham's.",
   "source": "W. M. Thorburn, “The Myth of Occam's Razor,” Mind, 1918",
   "url": "https://en.wikisource.org/wiki/The_Myth_of_Occam's_Razor"
  },
  "carte": {
   "punch": "The canonical formula of Ockham's razor is not William of Ockham's.",
-  "idee": "It appears in 1639, nearly three centuries after his death, in John Punch, who gave it as a common axiom of the scholastics. And the razor does not say that the simplest is true: only that, at equal explanatory power, one prefers the explanation that postulates the least.",
+  "idee": "It appears, give or take a few words, in 1639, nearly three centuries after his death, in John Punch, who gave it as a common axiom of the scholastics. And the razor does not say that the simplest is true: only that, at equal explanatory power, one prefers the explanation that postulates the least.",
   "source_courte": "W. M. Thorburn, Mind, 1918"
  },
  "pour_aller_plus_loin": [
@@ -48,7 +42,7 @@
  },
  "quiz_supplementaire": [
   {
-   "question": "Who first formulates the Latin sentence “entia non sunt multiplicanda praeter necessitatem” as we know it today?",
+   "question": "Who first formulates the Latin sentence “entia non sunt multiplicanda praeter necessitatem” more or less as we know it today?",
    "choix": [
     "William of Ockham himself, in a lost treatise",
     "John Punch, an Irish theologian, in 1639",
@@ -56,7 +50,7 @@
     "An anonymous thirteenth-century scholastic, a contemporary of Ockham"
    ],
    "bonne_reponse": 1,
-   "explication": "The formula appears in John Punch in 1639, nearly three centuries after the death of Ockham, who presents it himself as a common axiom among the scholastics, not as a personal find."
+   "explication": "The formula appears in John Punch in 1639, nearly three centuries after the death of Ockham; Punch himself presents it as a common axiom among the scholastics, not as a personal find."
   },
   {
    "question": "What does William of Ockham really say, in his own writings, about this principle?",

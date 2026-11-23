@@ -2,7 +2,7 @@
   "id": "phy-marteau-et-plume-sur-la-lune",
   "slug": "marteau-et-plume-sur-la-lune",
   "langue": "en",
-  "empreinte_fr": "9c4f55fbb277e056",
+  "empreinte_fr": "fe9f61742ef49e38",
   "traduit_le": "2026-11-22",
   "moteur": "claude-code",
   "relu": false,
@@ -11,16 +11,11 @@
       "chemin": "citation",
       "type": "citation-originale-anglaise",
       "note": "Quotation is already in English in the French entry and is copied unchanged; the URL is the NASA Apollo Lunar Surface Journal transcript (English source)."
-    },
-    {
-      "chemin": "contenu_vulgarise",
-      "type": "erreur-possible-fr",
-      "note": "The French dates Thomas Settle's reproduction of the Pisa experiment to the early 1980s; Settle's well-known replication is usually dated 1961 (Science). Not verified here (no web search); rendered as written. Same date in quiz_supplementaire/2."
     }
   ],
   "titre": "The Hammer and the Feather, on the Moon",
   "accroche": "In 1971, an astronaut drops a hammer and a feather on the Moon to check an experiment that Galileo may never have performed.",
-  "contenu_vulgarise": "On August 2, 1971, on the Moon, astronaut David Scott holds a geologist's hammer in one hand and a falcon feather in the other. He releases them at the same time, from a height of about 1.6 meters. Both hit the ground at the exact same instant.\n\nThe scene is filmed and narrated live: before dropping the two objects, Scott recalls Galileo's name and the discovery attributed to him about falling bodies. Once the objects are on the ground, his conclusion fits in a single sentence, which has remained in the mission's archives.\n\n## Why the Feather Doesn't Lag\n\nOn Earth, a feather visibly falls more slowly than a hammer. Intuition draws a false conclusion from this: that heavy objects would fall faster than light ones. In reality, the acceleration due to gravity does not depend on the mass of the falling object; it is the air that slows the feather, not a weaker gravity for it. Remove the air, and the hammer and the feather undergo exactly the same acceleration.\n\nThe Moon has no atmosphere. It is the only place where this principle could be verified on a large scale, without having to enclose the objects in a vacuum chamber.\n\n## An Experiment That May Never Have Happened\n\nThe story as taught has Galileo dropping two balls of different masses from the top of the Tower of Pisa to demonstrate this same principle, before astonished witnesses. The problem: Galileo himself never mentions it in his writings. The only source for this episode is a biography of Galileo written by his secretary and disciple, Vincenzo Viviani, in 1654, which remained unpublished until 1717, seventy-five years after Galileo's death in 1642.\n\nMost historians of science see in it a thought experiment turned into an anecdote over the course of retellings, rather than an event actually observed. One historian dissents, however: Stillman Drake, who argued that the demonstration did take place more or less as Viviani describes it. In the early 1980s, the historian of science Thomas Settle reproduced the experiment with real balls: it is physically feasible, and the difference in fall, real but slight, due to air resistance, remains perceptible to the naked eye from the top of a tower.\n\nWhat Galileo may never have shown at Pisa, the Moon therefore showed unambiguously, three and a half centuries later, not because one place would be more convincing than another, but because it is the only one where air, that inconvenient witness of all earthly experiments on falling, was at last absent.",
+  "contenu_vulgarise": "On August 2, 1971, on the Moon, astronaut David Scott holds a geologist's hammer in one hand and a falcon feather in the other. He releases them at the same time, from a height of about 1.6 meters. Both hit the ground at the exact same instant.\n\nThe scene is filmed and narrated live: before dropping the two objects, Scott recalls Galileo's name and the discovery attributed to him about falling bodies. Once the objects are on the ground, his conclusion fits in a single sentence, which has remained in the mission's archives.\n\n## Why the Feather Doesn't Lag\n\nOn Earth, a feather visibly falls more slowly than a hammer. Intuition draws a false conclusion from this: that heavy objects would fall faster than light ones. In reality, the acceleration due to gravity does not depend on the mass of the falling object; it is the air that slows the feather, not a weaker gravity for it. Remove the air, and the hammer and the feather undergo exactly the same acceleration.\n\nThe Moon has no atmosphere. It is the only place where this principle could be verified on a large scale, without having to enclose the objects in a vacuum chamber.\n\n## An Experiment That May Never Have Happened\n\nThe story as taught has Galileo dropping two balls of different masses from the top of the Tower of Pisa to demonstrate this same principle, before astonished witnesses. The problem: Galileo himself never mentions it in his writings. The only source for this episode is a biography of Galileo written by his secretary and disciple, Vincenzo Viviani, in 1654, which remained unpublished until 1717, seventy-five years after Galileo's death in 1642.\n\nMost historians of science see in it a thought experiment turned into an anecdote over the course of retellings, rather than an event actually observed. One historian dissents, however: Stillman Drake, who argued that the demonstration did take place more or less as Viviani describes it. In the early 1980s, the historian of science Thomas Settle tried to repeat Galileo's falling-body experiments: like Galileo, he found that the lighter object pulls slightly ahead at first, which he attributes to fatigue in the hand holding the heavier object, which lets go more slowly.\n\nWhat Galileo may never have shown at Pisa, the Moon therefore showed unambiguously, three and a half centuries later, not because one place would be more convincing than another, but because it is the only one where air, that inconvenient witness of all earthly experiments on falling, was at last absent.",
   "citation": {
     "texte": "Which proves that Mr. Galileo was correct in his findings.",
     "auteur": "David Scott",
@@ -76,15 +71,15 @@
       "explication": "Unlike most historians of science, Stillman Drake dissents and argues that the demonstration did take place more or less as Viviani describes it."
     },
     {
-      "question": "What did the historian Thomas Settle's replication of the experiment, in the early 1980s, show?",
+      "question": "What did the historian Thomas Settle find when he repeated Galileo's falling-body experiments in the early 1980s?",
       "choix": [
-        "That the experiment is physically impossible from the top of a tower",
-        "That the difference in fall, due to air, is too slight to be visible to the naked eye",
-        "That the experiment is feasible, with a slight but naked-eye-visible difference",
+        "That these experiments are physically impossible to perform by hand",
+        "That the two objects fall exactly together, with no difference at all",
+        "That the lighter object pulls ahead at first, probably because of the hand that lets go of the other",
         "That the balls Galileo used did not yet exist in 1590"
       ],
       "bonne_reponse": 2,
-      "explication": "Settle reproduced the experiment with real balls: it is physically feasible, and the difference in fall due to air resistance, real but slight, remains perceptible to the naked eye from the top of a tower."
+      "explication": "Like Galileo before him, Settle found that the lighter object pulls slightly ahead at first. He attributes it to fatigue in the hand holding the heavier object, which lets go more slowly, even when one believes both are released together."
     }
   ]
 }
