@@ -2,7 +2,7 @@
  "id": "mat-lettre-de-gauss-a-bolyai",
  "slug": "lettre-de-gauss-a-bolyai",
  "langue": "en",
- "empreinte_fr": "18676c4abc5ec5d3",
+ "empreinte_fr": "27ab3ac895e1796b",
  "traduit_le": "2026-11-22",
  "moteur": "claude-code",
  "relu": false,
@@ -10,24 +10,19 @@
   {
    "chemin": "citation",
    "type": "citation-traduite",
-   "note": "Gauss wrote in German; the French entry gives the German original, translated here without a published English translation retrieved (original not retrieved)."
-  },
-  {
-   "chemin": "citation/texte",
-   "type": "erreur-possible-fr",
-   "note": "The German in the French citation reads 'seinen eigenen' (his own, i.e. Johann's), while the body renders the same letter as 'my own meditations' (Gauss's). The sense of the quotation depends on this; translated as in the German given, not corrected."
+   "note": "Gauss wrote in German; the French entry gives the German original (checked against the 1899 edition on archive.org, letter no. 35), translated here; the only published English wording found is a shortened extract, so this is a fresh translation."
   },
   {
    "chemin": "contenu_vulgarise",
    "type": "citation-traduite",
-   "note": "The sentence from Gauss's letter in the body is translated from the French; no published English wording was retrieved (original not retrieved), and it does not match the German of the citation word for word."
+   "note": "The sentence from Gauss's letter in the body is translated from the French, which follows a loose published English rendering (the German original is quoted in the citation); no exact English wording was retrieved, and it does not match the German of the citation word for word."
   }
  ],
  "titre": "Three Men Discovered the Same Thing Without Knowing It",
  "accroche": "A twenty-eight-year-old Hungarian geometer sends his discovery to Gauss, who replies that he had made it thirty years earlier",
  "contenu_vulgarise": "A young officer of the Austro-Hungarian army spends his nights trying to prove what two thousand years of geometers had taken for granted without ever having proved it: that through a point outside a line, only one parallel passes. Around 1823, János Bolyai gives up trying to prove it and takes the problem backward: he builds an entire geometry in which this postulate is false, in which several parallels pass through the same point, and in which nothing collapses. Euclid's geometry was therefore not the only possible one: it was only one choice among others, equally coherent.\n\n## A Letter That Arrives at a Bad Moment\n\nIn 1832, Bolyai publishes his result in twenty-four pages, as an appendix to a treatise by his father. Farkas Bolyai, a longtime friend of Carl Friedrich Gauss (then the most respected mathematician in Europe), sends him his son's text.\n\nGauss's reply, dated March 6, 1832, runs to a few lines that wounded János for the rest of his life: “The entire content of your son's work coincides almost exactly with my own meditations, which have occupied my mind for thirty to thirty-five years.” Gauss had thus thought the same thing decades earlier, without ever publishing anything.\n\nThe blow does not stop there. In 1848, Bolyai discovers that a Russian mathematician, Nikolai Lobachevsky, had published an equivalent non-Euclidean geometry as early as 1829 at the University of Kazan, three years before him, with neither knowing anything of the other. János Bolyai never publishes anything again.\n\n## What Three Independent Discoveries Signal\n\nThe most natural reaction is to pity Bolyai, deprived of the recognition he deserved. But the episode says something else above all, more interesting than the injustice: three minds, without consulting one another, arrive at the same result a few years apart. This is not a statistical accident. Euclid's fifth postulate had resisted every attempt at proof from the other four since antiquity; at the beginning of the 19th century, several generations of mathematicians had exhausted the indirect routes and were all closing in on the same conclusion, which none of the earlier attempts had dared to formulate: what if the postulate were simply independent of the others, neither true nor false, only a choice?\n\nGauss himself never published, although he possessed the result before the other two. This silence is no mere anecdote: it shows that a correct mathematical discovery is not enough to make history if it stays in a drawer. What Bolyai and Lobachevsky produced, each on his own, was not only a theorem: it was the courage to make it public when it contradicted what everyone held to be a truth of pure reason, in the sense in which Kant had set it out a few decades earlier. Non-Euclidean geometry was not waiting for an isolated genius: it was waiting for someone ready to publish.",
  "citation": {
-  "texte": "The entire content of Johann's work coincides almost throughout with his own meditations, undertaken already 30 to 35 years ago.",
+  "texte": "The entire content of the work, the path your son has taken, and the results to which he has been led, coincide almost throughout with my own meditations, some of them undertaken as long as 30 to 35 years ago.",
   "auteur": "Carl Friedrich Gauss",
   "source": "Letter to Wolfgang (Farkas) Bolyai, Göttingen, March 6, 1832, in Briefwechsel zwischen Carl Friedrich Gauss und Wolfgang Bolyai (ed. Schmidt & Stäckel, 1899), letter no. 35, pp. 108-113",
   "url": "https://archive.org/stream/briefwechselzwi00gausgoog/briefwechselzwi00gausgoog_djvu.txt"
