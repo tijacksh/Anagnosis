@@ -3,16 +3,10 @@
  "slug": "main-chaude-basket-gilovich-1985",
  "langue": "en",
  "empreinte_fr": "416ccdad2de0654c",
- "traduit_le": "2026-11-22",
+ "traduit_le": "2026-11-23",
  "moteur": "claude-code",
  "relu": false,
- "drapeaux": [
-  {
-   "chemin": "contenu_vulgarise",
-   "type": "erreur-possible-fr",
-   "note": "The French says 26 Cornell players each took 100 shots, then later reports '19 players out of 25' in the corrected analysis, with no explanation of the drop from 26 to 25. Rendered as in the French; to be checked."
-  }
- ],
+ "drapeaux": [],
  "titre": "The Hot Hand in Basketball, Refuted in 1985 and Found Again in 2018",
  "accroche": "A landmark study concludes in 1985 that the hot hand in basketball does not exist. In 2018, an error in its calculation reverses the verdict.",
  "contenu_vulgarise": "In 1985, one hundred basketball fans surveyed on the Cornell and Stanford campuses say, at 84%, that it is important to pass the ball to a teammate who has just made several shots in a row. The intuition is shared by the players themselves and by commentators: a shooter who has just strung together baskets is supposed to have, for a time, the hot hand.\n\n## A Statistical Illusion, According to the Founding Study\n\nThomas Gilovich, Robert Vallone, and Amos Tversky test the idea with the data available to them. They take the shots of the Philadelphia 76ers over 48 home games of the 1980-1981 season, then have 26 players from the Cornell varsity team shoot, one hundred shots each, from a distance adjusted to each player's level. In both cases, the probability of making a shot after making several in a row does not significantly exceed the probability of making one after a streak of misses. Published in *Cognitive Psychology* under the title “The Hot Hand in Basketball: On the Misperception of Random Sequences,” the study concludes that the streak perceived by players and spectators does not appear in the numbers: a sequence of made or missed shots behaves, statistically, like a series of independent coin tosses. The verdict becomes a classic taught for more than thirty years as the very example of a cognitive bias, the human tendency to see streaks in pure chance.\n\n## A Calculation Error Found Thirty-Three Years Later\n\nIn 2018, the economists Joshua Miller and Adam Sanjurjo publish in *Econometrica* a methodical redo of the 1985 calculation. They show that the very way of measuring a streak introduces a bias: if, in a finite sequence, one selects only the shots that directly follow k consecutive hits, the proportion of successes found there is, on average, lower than the player's true probability of success, even if each shot is perfectly independent of the others. Over three tosses of a balanced coin, the expected proportion of tails after a first tails thus falls to 5 out of 12, not 1 out of 2. The bias worsens with the length of the streak sought, and it vanishes only at infinity.\n\nApplied to the data from the Cornell experiment, the correction changes the answer: the gap between shots following a streak of hits and those following a streak of misses, on the order of 3 to 4 percentage points and judged nonsignificant by Gilovich, Vallone, and Tversky, climbs to about 13 points once the bias is corrected, with nineteen players out of twenty-five going in the same direction. Miller and Sanjurjo compare this gap to the one that separated, in the 2015-2016 NBA season, the best three-point shooter from the median three-point shooter.\n\nThe 1985 study did not have bad data: it had a statistical test poorly calibrated for the question asked, and this flaw, invisible for three decades, was enough to mask part of the effect it was supposed to refute.",
