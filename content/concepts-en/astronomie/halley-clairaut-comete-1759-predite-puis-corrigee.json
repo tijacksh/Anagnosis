@@ -2,17 +2,11 @@
  "id": "ast-halley-clairaut-comete-1759-predite-puis-corrigee",
  "slug": "halley-clairaut-comete-1759-predite-puis-corrigee",
  "langue": "en",
- "empreinte_fr": "a3f0d87a97bfde0f",
+ "empreinte_fr": "0dbd07ba551a3b88",
  "traduit_le": "2026-11-16",
  "moteur": "claude-sonnet-5-5",
  "relu": false,
- "drapeaux": [
-  {
-   "chemin": "quiz/explication",
-   "type": "erreur-possible-fr",
-   "note": "The French phrase “aucune occultation n'est en cause” (rendered literally as “no occultation is involved”) matches none of the answer choices: no choice mentions an occultation (perhaps it refers to choice 1, the comet's change of shape). Translation kept literal; the French needs a check by the controler/repair routine."
-  }
- ],
+ "drapeaux": [],
  "titre": "Halley and Clairaut: The Comet of 1759, Predicted and Then Corrected",
  "accroche": "In 1705, Halley announces the return of the comet of 1682. It is Clairaut who, in 1758, calculates the effect of Jupiter and Saturn, with a month's margin.",
  "contenu_vulgarise": "The story is sometimes summed up in one sentence: Edmond Halley predicted the return of the comet of 1682, and it came back. That is true, and it is not enough. Halley died in 1742. The date the comet finally kept does not come from him.\n\n## What Halley Saw\n\nHalley studies comet orbits starting around 1695. He calculates that the comet of 1682 is the same as those of 1531 and 1607, whose returns are spaced 75 or 76 years apart, alternately. He concludes that the next appearance should not be expected before the end of 1758 or the beginning of 1759. A comet thus becomes a body that returns, and not an event that passes.\n\nHalley also notes what complicates the prediction. The comet passed close to Jupiter in 1681, and the planet may have slowed its course. He notes that Jupiter's action on Saturn is enough to change the length of Saturn's period by a month. These discrepancies, he does not calculate.\n\n## A Calculation by Three, Six Months of Work\n\nIn 1757, Joseph Lalande wants to establish a precise date for the return. It means calculating, step by step, what Jupiter and Saturn do to the comet. Alexis Clairaut supplies the basic plan, and Lalande asks Nicole-Reine Lepaute for help. Lalande will write that they calculated for six months, from morning to night, and that without her he could never have undertaken this enormous work.\n\nOn November 14, 1758, Clairaut announces to the Academy of Sciences that the comet will pass closest to the Sun, its perihelion, around mid-April 1759. He leaves a margin: so many small neglected quantities could easily make a month's difference. His calculation gives the period that is to end in 1759 about 618 days more than the previous one.\n\nThe comet is sighted as early as December 25, 1758. Charles Messier spots it in Paris on January 21, 1759. It passes its perihelion on the morning of March 13, a month before the announced date, at the edge of the margin Clairaut had declared.\n\n## What the Episode Shows\n\nThe comet's return confirmed two distinct things. First, that comets return, which Halley had seen. Second, that Newton's gravitation makes it possible to calculate, planet by planet, what delays a body along its way: that is the work of Clairaut, Lalande, and Lepaute, which Halley had not been able to do.\n\nIn his 1760 *Théorie des comètes* (Theory of Comets), Clairaut does not name Lepaute among those who helped him with the calculations. He and Lalande will never again work together on an astronomy project.",
@@ -42,7 +36,7 @@
    "Because these planets alter the comet's path and lengthen its period"
   ],
   "bonne_reponse": 3,
-  "explication": "The attractions of Jupiter and Saturn delay the comet: Clairaut counts about 618 more days for the period ending in 1759. Halley had identified the comet correctly, no occultation is involved, and Newton's law did apply, but using it required this calculation.",
+  "explication": "The attractions of Jupiter and Saturn delay the comet: Clairaut counts about 618 more days for the period ending in 1759. Halley had identified the comet correctly, the comet's shape is not at issue, and Newton's law did apply, but using it required this calculation.",
   "statut": "valide"
  },
  "quiz_supplementaire": [
