@@ -2,14 +2,14 @@
   "id": "phy-penzias-wilson-1965-bruit-de-fond-cosmique",
   "slug": "penzias-wilson-1965-bruit-de-fond-cosmique",
   "langue": "en",
-  "empreinte_fr": "f22d7074e69a27ab",
-  "traduit_le": "2026-11-22",
+  "empreinte_fr": "06b9e5d46849a6ba",
+  "traduit_le": "2026-11-23",
   "moteur": "claude-code",
   "relu": false,
   "drapeaux": [],
   "titre": "The Noise They Couldn't Silence Was the Echo of the Big Bang",
-  "accroche": "An antenna picks up a constant noise, from every direction, that no cleaning makes go away. Another team was already looking for it, without either side knowing.",
-  "contenu_vulgarise": "In 1964, at Crawford Hill, New Jersey, Arno Penzias and Robert Wilson test a horn antenna built five years earlier for NASA's Echo communications satellite project. They want to reuse it for radio astronomy, and start by measuring its background noise, so they can later subtract it from their observations.\n\n## An Excess of Noise That Nothing Explains\n\nTheir instrument picks up an excess antenna temperature they cannot explain: at a frequency of 4,080 megahertz, it measures 3.5 kelvins more than every known source of noise predicts (the atmosphere, the equipment itself, interference from the nearby city). The signal is the same by day and by night, in winter and in summer, whatever direction the sky is pointed at: isotropic, with no variation between July 1964 and April 1965.\n\nSuspecting an equipment fault, the two engineers go over the antenna piece by piece. Two pigeons had nested inside the horn; they capture the birds and clean out the accumulated droppings. The noise does not change. They consider, in turn, fallout from a recent nuclear test, the Van Allen radiation belts, a soldering defect: nothing explains the excess.\n\n## One Team Was Searching for It, the Other Found It Without Looking\n\nWhat they do not know is that, some twenty-five miles away, at Princeton University, Robert Dicke's team (with James Peebles, Peter Roll, and David Wilkinson) is at that very moment building a receiver specifically designed to search for this exact signal: a leftover radiation that, according to their theoretical calculations, should fill the whole universe if it was born in a hot, dense state. One phone call between the two teams is enough to make the connection: the noise Penzias and Wilson could not silence is the radiation the Princeton team was actively searching for, without yet having an instrument sensitive enough to detect it.\n\nThe two teams publish side by side, in the same July 1965 issue of The Astrophysical Journal: the observation, signed by Penzias and Wilson, and its cosmological interpretation, signed by Dicke's group. Only Penzias and Wilson will receive the 1978 Nobel Prize in Physics, for a discovery they had not been looking for, one that another team, at the very same time and only a few miles away, was searching for with method.\n\nThe lesson usually drawn from this, chance favors the prepared mind, leaves out half the story: here, two separate kinds of preparation, one theoretical and one instrumental, had to meet through a single phone call for the discovery to happen.",
+  "accroche": "An antenna picks up a constant noise, from every direction, that no cleaning makes go away. Another team was about to look for it.",
+  "contenu_vulgarise": "In 1964, at Crawford Hill, New Jersey, Arno Penzias and Robert Wilson test a horn antenna built five years earlier for NASA's Echo communications satellite project. They want to reuse it for radio astronomy, and start by measuring its background noise, so they can later subtract it from their observations.\n\n## An Excess of Noise That Nothing Explains\n\nTheir instrument picks up an excess antenna temperature they cannot explain: at a frequency of 4,080 megahertz, it measures 3.5 kelvins more than the known sources of noise predict (the atmosphere, losses in the antenna itself, radiation from the ground). The signal is the same by day and by night, in winter and in summer, whatever direction the sky is pointed at: isotropic, with no variation between July 1964 and April 1965.\n\nSuspecting an equipment fault, the two researchers go over the antenna piece by piece. Pigeons had nested inside the horn; they remove the birds and clean out the accumulated droppings. The noise does not change. They also check the horn's joints: aluminum tape laid over the seams changes nothing either. Nothing explains the excess.\n\n## One Team Was Searching for It, the Other Found It Without Looking\n\nWhat they do not know is that, in the same state, at Princeton University, Robert Dicke's team (with James Peebles, Peter Roll, and David Wilkinson) is at that very moment preparing a receiver to search for this exact signal: a leftover radiation that, according to their theoretical calculations, should fill the whole universe if it was born in a hot, dense state. One phone call between the two teams is enough to make the connection: the noise Penzias and Wilson could not silence is the radiation the Princeton team was about to go looking for, without yet having a result.\n\nThe two teams publish side by side, in the same July 1965 issue of The Astrophysical Journal: the observation, signed by Penzias and Wilson, and its cosmological interpretation, signed by Dicke's group. Only Penzias and Wilson will receive the 1978 Nobel Prize in Physics, for a discovery they had not been looking for, one that another team, at the very same time and in the same state, was about to search for with method.\n\nThe lesson usually drawn from this, chance favors the prepared mind, leaves out half the story: here, two separate kinds of preparation, one theoretical and one instrumental, had to meet through a single phone call for the discovery to happen.",
   "citation": null,
   "repere": {
     "texte": "The Holmdel antenna measured, at 4,080 megahertz, an excess noise temperature of 3.5 kelvins (margin of error 1.0), isotropic and unchanging between July 1964 and April 1965.",
@@ -18,26 +18,26 @@
   },
   "carte": {
     "punch": "The noise they couldn't silence was the echo of the Big Bang",
-    "idee": "In 1964, two Bell Labs engineers measure a constant radio noise, coming from every direction, that cleaning the antenna does not make go away. A few miles away, a Princeton team was already searching for this very signal, predicted by Big Bang theory.",
+    "idee": "In 1964, two Bell Labs researchers measure a constant radio noise, coming from every direction, that cleaning the antenna does not make go away. In the same state, a Princeton team was about to search for this very signal, predicted by Big Bang theory.",
     "source_courte": "Penzias & Wilson, 1965; Dicke et al., 1965"
   },
   "pour_aller_plus_loin": [
     {
-      "titre": "“Discovery of Cosmic Microwave Background Radiation,” Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Discovery_of_cosmic_microwave_background_radiation",
-      "note": "The full timeline of both teams, from Gamow's theoretical prediction in the 1940s to the joint 1965 publication."
+      "titre": "Penzias & Wilson, “A Measurement of Excess Antenna Temperature at 4080 Mc/s,” full text (ADS)",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1965ApJ...142..419P",
+      "note": "The full tally of contributions to the antenna's noise: atmosphere, losses, ground radiation, and the remaining excess."
     }
   ],
   "quiz": {
     "question": "Why was the phone call between Bell Labs and Princeton decisive?",
     "choix": [
       "Because Princeton's team had a more sensitive instrument, which Penzias and Wilson then borrowed",
-      "Because it linked an unexplained observation to a theoretical prediction that the other side was precisely trying to verify",
+      "Because it linked an unexplained observation to a theoretical prediction that the other side was just about to try to verify",
       "Because the two teams had actually been working on the same project from the start",
       "Because it revealed that the measured noise actually came from the pigeons, not from cosmic radiation"
     ],
     "bonne_reponse": 1,
-    "explication": "Dicke's team had predicted and was actively searching for this leftover radiation, without yet having an instrument sensitive enough to detect it; Penzias and Wilson had the instrument and the signal, but not the theory. The two teams remained separate, and cleaning out the pigeons had not made the noise go away.",
+    "explication": "Dicke's team had predicted this leftover radiation and was preparing a receiver to search for it, without yet having a result; Penzias and Wilson had the instrument and the signal, but not the theory. The two teams remained separate, and cleaning out the pigeons had not made the noise go away.",
     "statut": "valide"
   },
   "quiz_supplementaire": []
