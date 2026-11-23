@@ -86,7 +86,7 @@ Rythme proposé : 2 passages par jour, à des heures où aucune autre routine du
 Quand le fichier à deux langues sera activé (`ANAGNOSIS_LANGUES=fr,en`, éteint aujourd'hui), les apps servent l'anglais d'une fiche si la garde l'accepte. **Drapeaux acceptés** : `citation-originale-anglaise`, `texte-officiel-anglais` (information) et **`citation-traduite`** (posé dans `.github/workflows/publier-site.yml`, sans effet tant que l'anglais est éteint). **Tout autre drapeau retient la fiche** : `incertain`, `texte-officiel-a-verifier`, `citation-langue-originale`, `erreur-possible-fr`. Elle reste servie en français jusqu'à ce que le contrôle qualité (ci-dessous) lève le drapeau.
 Chiffres au 2026-11-22 : 731 fiches servies en anglais avec cette politique ; `npm run averifier-en -- --stats` donne le reste (182 fiches, dont 65 `erreur-possible-fr` qui attendent que le français soit réparé).
 
-## Routine de contrôle qualité des fiches anglaises (à créer ; remplace tout contrôle manuel)
+## Routine de contrôle qualité des fiches anglaises (créée le 2026-11-23 pour la voie « arnaud » : tâche `anagnosis-controle-en` ; la voie droit reste à la main de Vincent)
 Sert à traiter les fiches retenues par la politique de drapeaux. Une routine par voie comme pour le rattrapage (le droit, voie « vincent », avec le web ; le reste, voie « arnaud »). Modèle : Claude Sonnet 5.5, réglage par défaut. Prompt :
 1. `git status --short` doit être vide, puis `git pull --rebase origin main`.
 2. `npm run averifier-en -- --json --max 10` (ajouter `--discipline <d>` pour une voie ; exclure les fiches `attend_le_francais: true` : elles attendent `controler`/`réparer`). Si la liste est vide, s'arrêter, aucun commit.
@@ -96,7 +96,16 @@ Sert à traiter les fiches retenues par la politique de drapeaux. Une routine pa
    - `incertain` : relire le choix de traduction signalé dans la note du drapeau avec le français ; trancher (corriger la traduction ou confirmer), retirer le drapeau, ou le remplacer par `citation-traduite` si seul le texte d'une citation reste non vérifié.
    - Vérification de fidélité de toute la fiche contre le français : chiffres, dates, noms, sens ; corriger sans rien ajouter ni retirer. Citation d'un auteur anglophone : retrouver l'original anglais mot pour mot (téléchargement de la page, pas un simple résumé) et poser `citation-originale-anglaise`, sinon `citation-traduite`.
    - Ne jamais corriger le français ici : une incohérence du français = drapeau `erreur-possible-fr` (la fiche attend `controler`/`réparer`).
+   - **Fiches `erreur-possible-fr` hors droit (ajouté le 2026-11-23)** : la routine `reparer` ne voit que les fiches `en_retouche` ; personne d'autre ne les reprendrait. La routine de contrôle qualité les traite donc elle-même, selon la méthode « Réparer le français signalé par l'anglais » ci-dessous, une fiche à la fois, sources ouvertes vues. Jamais pour une discipline `droit_*`.
 4. Le champ `relu` reste `false` (décision humaine). `empreinte_fr` ne change pas (le français ne change pas).
 5. `npm run validate` et `npm test` à zéro erreur ; commit « Contrôle EN : N fiches (<voie>) » par chemin ; `git pull --rebase origin main` puis `git push origin HEAD:main` (re-pull et re-push une fois si refusé, jamais de force).
 6. Rendre compte : fiches traitées, drapeaux levés par type, drapeaux restants, et `npm run averifier-en -- --stats`.
 Rythme proposé : 1 à 2 passages par jour de 10 fiches. Appliquer la règle d'usage habituelle des routines.
+
+## Réparer le français signalé par l'anglais (`erreur-possible-fr`, hors droit)
+Méthode éprouvée le 2026-11-23 sur 91 fiches. Chaque note de drapeau est une HYPOTHÈSE d'un traducteur : trancher avec des sources ouvertes (une phrase ne compte comme vue que lue dans le texte même) et avec la cohérence interne de la fiche (titre, accroche, corps, repère, carte, quiz, quiz supplémentaire, sources). Trois issues :
+1. **Français faux ou incohérent** → le corriger **au minimum** (voix, rythme et longueur gardés), à **tous** les endroits qui répètent la même chose ; un fait non établi par une source ouverte se retire ou s'adoucit, jamais de chiffre, date ou citation de mémoire.
+2. **Français juste** → ne pas y toucher, retirer le drapeau côté anglais.
+3. **Impossible à trancher** → ne rien toucher, garder le drapeau avec une note anglaise mise à jour.
+Ne jamais toucher `id`, `slug`, `statut` (la fiche reste `valide` : le changement de texte la fait repasser au contrôle et à la voix tout seul), `validation`, `controle`, `controle_juridique`, `meta`, `illustration`, ni le nombre de choix ; `bonne_reponse` seulement si une correction l'impose (alors le dire). Reporter chaque correction dans l'anglais, retirer le drapeau traité, recalculer `empreinte_fr` (`node outils/empreinte-fr.mjs <fiche FR>`). Commit unique FR + EN par chemin.
+
