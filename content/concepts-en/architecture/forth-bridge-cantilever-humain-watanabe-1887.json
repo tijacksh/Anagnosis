@@ -1,0 +1,66 @@
+{
+ "id": "arc-forth-bridge-cantilever-humain-watanabe-1887",
+ "slug": "forth-bridge-cantilever-humain-watanabe-1887",
+ "langue": "en",
+ "empreinte_fr": "3d9e2b05be640b42",
+ "traduit_le": "2026-11-23",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [],
+ "titre": "The Forth Bridge, Explained by an Engineer Seated Between Two Chairs",
+ "accroche": "In 1887, two Scottish engineers sat their Japanese colleague between two chairs to show how the bridge they had just begun would hold up.",
+ "contenu_vulgarise": "In 1879, the Tay rail bridge in Scotland collapses in high wind while a train is crossing it: the inquiry judges engineer Thomas Bouch's design badly conceived, for failing to properly account for wind force. The Board of Trade then requires every new bridge to withstand a lateral load of 56 pounds per square foot, more than five times the 10 pounds allowed for in Bouch's first design for crossing the Forth, a little further west. That design is dropped on January 13, 1881; two other engineers, John Fowler and Benjamin Baker, take over the project with an entirely different structure, a steel double cantilever.\n\n## Showing With a Body What a Diagram Cannot\n\nThe cantilever principle is not intuitive: two arms reaching toward each other stand with no support at the center, because each is anchored on its other side by a weight that holds it down. In 1887, during construction, Fowler and Baker devise a demonstration that remains famous: seated each on a chair, arms stretched out and held up by sticks in compression, they support between them Japanese engineer Kaichi Watanabe, seated on a plank. Bricks weigh down the chairs, just as stone abutments weigh down the real bridge's ends. Watanabe, then training in the United Kingdom, thus represents the central load that the two cantilever arms support together without ever touching.\n\n## A Photograph That Became a Textbook\n\nThe scene is photographed, and that photograph has circulated ever since in engineering schools to explain, in a single image, what a cantilever does to tension and compression forces. The National Records of Scotland holds a print of it in its Forth Bridge collections. The bridge itself opens in 1890: 2.5 kilometers (1.5 miles) long, with two main spans of 521 meters (1,710 feet), unprecedented at that scale for a steel structure. More than a century later, it still carries its trains, on the frame that Watanabe once held up, for the length of a photograph, between two chairs.\n\n## What the Demonstration Does Not Prove\n\nIt proves nothing by itself: a scaled-down model does not guarantee that a bridge several hundred meters long will behave the same way once built in steel and exposed to real wind. Its role is educational, not evidential. But it has done more to explain the cantilever principle to generations of students than any cross-section diagram, precisely because it replaces an invisible force with a body one can see holding on.",
+ "repere": {
+  "texte": "After the Tay Bridge collapsed in 1879, judged badly conceived by the official inquiry, the Board of Trade required every new bridge to withstand 56 pounds per square foot of wind load, more than five times the 10 pounds allowed for in Thomas Bouch's first design for the Forth.",
+  "source": "Wikipedia, “Forth Bridge”",
+  "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+ },
+ "carte": {
+  "punch": "A Japanese engineer explained the Forth Bridge, seated between two chairs.",
+  "idee": "In 1887, during construction of the Forth Bridge, engineers Fowler and Baker seated their Japanese colleague Kaichi Watanabe between them: their outstretched arms reenact, with bodies, how a cantilever stands with no support at its center. The photo is still used to teach it.",
+  "source_courte": "National Records of Scotland / Wikipedia"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Forth Bridge, Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Forth_Bridge",
+   "note": "Details the human cantilever demonstration and the context of the Tay Bridge disaster."
+  }
+ ],
+ "quiz": {
+  "question": "In the 1887 “human cantilever” demonstration, what does Japanese engineer Kaichi Watanabe, seated on a plank between Fowler and Baker, represent?",
+  "choix": [
+   "The weight of the train that will one day cross the bridge",
+   "The force of the wind that had brought down the Tay Bridge in 1879",
+   "The budget overrun needed to replace Thomas Bouch's original design",
+   "The central load that the two cantilever arms support together with no support on the ground"
+  ],
+  "bonne_reponse": 3,
+  "explication": "Watanabe represents the central load that the two cantilever arms support together with no support on the ground; neither the future train's weight, nor the 1879 wind force, nor a budget are enacted in this demonstration.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "Why was Thomas Bouch's original design for the Forth Bridge abandoned in 1881?",
+   "choix": [
+    "It allowed for wind resistance five times lower than the new standard imposed",
+    "Bouch had been found guilty of fraud over the materials used",
+    "The underwater ground chosen proved too soft for the planned foundations",
+    "The Scottish government withdrew funding for the project"
+   ],
+   "bonne_reponse": 0,
+   "explication": "After the Tay Bridge collapsed in 1879, the Board of Trade required 56 pounds per square foot of wind resistance, against only 10 in Bouch's original design for the Forth; no fraud, ground problem, or funding issue is involved."
+  },
+  {
+   "question": "What structure does the Forth Bridge adopt, unlike Bouch's original design?",
+   "choix": [
+    "A steel double cantilever",
+    "A deck suspended by cables",
+    "A single stone arch",
+    "A bridge with beams simply resting on piers"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Fowler and Baker replace Bouch’s design with a steel double cantilever, the structure the 1887 demonstration acts out with human bodies."
+  }
+ ]
+}
