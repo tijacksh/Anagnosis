@@ -1,0 +1,72 @@
+{
+  "id": "dro-affaire-mayfield-empreinte-faillible",
+  "slug": "affaire-mayfield-empreinte-faillible",
+  "langue": "en",
+  "empreinte_fr": "0bcb53d8fca8f71e",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Three experts, one certainty, and the wrong man",
+  "accroche": "2004: the FBI identifies an Oregon lawyer from a fingerprint found after the Madrid bombings. Spanish police say no. The FBI insists.",
+  "contenu_vulgarise": "On March 11, 2004, ten bombs explode on commuter trains in Madrid. Spanish police lift prints from a bag containing detonators and send them through Interpol. The FBI runs them through its automated database, which returns about twenty candidates. On March 20, the laboratory concludes that there is a match with Brandon Mayfield, an Oregon lawyer whose prints had been on file since his military service. Three examiners, including an outside expert appointed by the defense, reach the same conclusion.\n\n## A disagreement no one hears\n\nOn April 13, the Spanish national police write that the comparison is negative. The FBI stands by its conclusion. Mayfield is arrested on May 6 as a material witness and held without the facts being clearly laid out to him. On May 19, the Spanish authorities announce that the print belongs to an Algerian national, Ouhnane Daoud. Mayfield is released the next day. The FBI will issue a public apology.\n\nThe investigation later conducted by the Inspector General of the U.S. Department of Justice is the interesting document, because it does not stop at noting the error: it describes the mechanism. The examiners had first noted about ten points of unusual similarity. From there, they stopped reading the print and began reading it through Mayfield's print. Blurry or ambiguous details in the latent print were interpreted as points of agreement, not because they were there, but because the comparison print suggested seeing them there. The report calls this circular reasoning.\n\n## What was peculiar about the method\n\nComparing fingerprints does not mean measuring an object, but concluding that an examiner recognizes a pattern. And it was practiced, and still largely is, while knowing the print being compared against. The examiner sees the mark on one side, the suspect on the other. Verification by a second expert was done the same way, knowing the first one's conclusion: it mostly confirmed that the first had been convincing.\n\nThe Inspector General recommended attacking precisely this point, in particular through blind verifications, where the second examiner does not know the first one's conclusion. This is a reasoning medicine had followed a century earlier in generalizing the double-blind trial, and for the same reason: when observers know what they are supposed to find, they find it more often.\n\nThe shift lies in putting two dates side by side. In 1892, the fingerprint enters the courts because it depends on no human. In 2004, it turns out to depend on one entirely, not for what the mark contains, but for what a human eye decides to recognize in it. For a century, physical evidence had been treated as if it read itself.",
+  "citation": null,
+  "repere": {
+    "texte": "The report of the Inspector General of the U.S. Department of Justice identifies, among the causes of the error, a bias arising from the comparison prints, which it calls circular reasoning.",
+    "source": "U.S. Department of Justice, Office of the Inspector General, A Review of the FBI's Handling of the Brandon Mayfield Case, 2006, Chapter VII",
+    "url": "https://oig.justice.gov/sites/default/files/legacy/special/s0601/Chapter7.pdf"
+  },
+  "carte": {
+    "punch": "The experts stopped reading the print and began reading it through the suspect.",
+    "idee": "In 2004, three FBI examiners formally identify an Oregon lawyer from a print found after the Madrid attacks. It belonged to another man. The official report describes circular reasoning: the mark was interpreted from the suspect's print.",
+    "source_courte": "Inspector General's report, 2006"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "What does the official report on the FBI's error in the Mayfield case call circular reasoning?",
+    "choix": [
+      "Having submitted the print to three examiners in succession instead of just one",
+      "Having interpreted the ambiguous details of the print from the suspect's print",
+      "Having searched for the print in a very large automated database",
+      "Having sent a court a Spanish conclusion presented as inconclusive"
+    ],
+    "bonne_reponse": 1,
+    "explication": "After noting about ten points of unusual similarity, the examiners read the latent print through Mayfield's print, identifying as matches blurry details that the comparison print suggested they see there.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "When do the Spanish national police tell the FBI that their comparison is negative?",
+      "choix": [
+        "On March 20, 2004, even before the FBI's conclusion",
+        "On April 13, 2004",
+        "On May 6, 2004, the day of Mayfield's arrest",
+        "On May 19, 2004, at the same time as the identification of Ouhnane Daoud"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The text places the Spanish disagreement on April 13, 2004, several weeks before the FBI backed away from its conclusion and Mayfield was released."
+    },
+    {
+      "question": "Who finally identifies the true owner of the print lifted in Madrid?",
+      "choix": [
+        "A second American laboratory independent of the FBI",
+        "The outside expert appointed by Mayfield's defense",
+        "The Spanish authorities, who attribute it to Ouhnane Daoud",
+        "The federal court in Oregon, after a new trial"
+      ],
+      "bonne_reponse": 2,
+      "explication": "On May 19, 2004, the Spanish authorities announce that the print belongs to an Algerian national, Ouhnane Daoud; Mayfield is released the next day."
+    },
+    {
+      "question": "Why did verification by a second examiner not protect, in 2004, against the error made on Mayfield?",
+      "choix": [
+        "Because the law required no double verification at the time",
+        "Because only one examiner was allowed to analyze each print",
+        "Because the second examiner had no access to Mayfield's print",
+        "Because the second examiner already knew the first one's conclusion"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Verification was done while already knowing the first examiner's conclusion, which made it a confirmation rather than an independent check."
+    }
+  ]
+}

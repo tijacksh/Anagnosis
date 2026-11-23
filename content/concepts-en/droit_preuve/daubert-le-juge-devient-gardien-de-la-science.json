@@ -1,0 +1,61 @@
+{
+  "id": "dro-daubert-le-juge-devient-gardien-de-la-science",
+  "slug": "daubert-le-juge-devient-gardien-de-la-science",
+  "langue": "en",
+  "empreinte_fr": "00e4dccec45b0764",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Daubert: the judge becomes the gatekeeper of science",
+  "accroche": "In 1993, the U.S. Supreme Court takes away from scientists the last word on what a jury may hear from an expert, and gives it to the judge.",
+  "contenu_vulgarise": "Jason Daubert and Eric Schuller were born with severe birth defects. Their mothers had taken Bendectin, a morning sickness drug sold by the company Merrell Dow. Their families sue the manufacturer in California courts; the case moves to a federal court. Merrell Dow produces an epidemiologist's expert opinion: the published studies show no link. The plaintiffs respond with experts who rely on animal tests, pharmacological studies and a reanalysis of those same studies. The court excludes these experts, on the grounds that their work had been neither published nor submitted to peer review, and grants summary judgment to the manufacturer. The Ninth Circuit Court of Appeals affirms in 1991.\n\n## A poll rather than an examination\n\nBoth courts apply the rule born in 1923 in *Frye v. United States*: a new scientific technique can be put before the jury only if it is “generally accepted” in the relevant scientific community. The test is easy to apply: the judge does not have to examine the method itself, only to note who approves it. For seventy years, it had been the dominant standard in American courts.\n\nOn June 28, 1993, the Supreme Court, in an opinion by Justice Blackmun, sets this test aside as an exclusive condition. Its reasoning is textual: the Federal Rules of Evidence, adopted by Congress, and their Rule 702 on experts do not mention general acceptance. The rule requires only that testimony set out “scientific knowledge” that helps the trier of fact. The judge must therefore check, before the jury hears the expert, that the reasoning or method is scientifically valid. The Court declines to set a closed list, but points to markers: can the theory be tested, in the sense that it could be refuted? Has it been subjected to peer criticism? What is its known or potential error rate? Are there standards governing its use? General acceptance remains one factor among others. The focus must be on principles and methodology, not on the conclusions they generate.\n\n## A deliberate trade-off\n\nTwo received ideas fall here. The first: *Daubert* does not side with the families. The Court vacates the appeals ruling and sends the case back to be retried under this new test; it nowhere says that Bendectin causes birth defects.\n\nThe second is more uncomfortable. Entrusting the sorting to the judge means entrusting to lawyers a task that requires judging a scientific method. The Court knows it: it acknowledges that a judge, even a flexible one, will sometimes exclude real discoveries, and it accepts that cost. A courtroom is not a laboratory, it says in essence: it settles a particular dispute, quickly and finally, where science advances by successive conjectures.\n\nThis change holds only in American federal procedure, under specific rules of evidence; each state, and each country, decides for itself. What remains is the question the ruling leaves open: who teaches the judge to recognize a good test?",
+  "citation": null,
+  "repere": {
+    "texte": "The Daubert decision (1993) recalls that the “general acceptance” test, born in the 1923 Frye decision, had for seventy years been the dominant standard for judging the admissibility of new scientific evidence before being set aside as an exclusive condition.",
+    "source": "Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579 (1993), U.S. Supreme Court, opinion of Justice Blackmun, June 28, 1993",
+    "url": "https://www.law.cornell.edu/supct/html/92-102.ZO.html"
+  },
+  "carte": {
+    "punch": "In 1993, an American judge has to judge the science before the jury hears it",
+    "idee": "Since 1923, most American courts admitted new expert evidence only if the scientific community accepted it. In 1993, in Daubert, the Supreme Court asks the judge to check the method personally: can it be tested, peer-reviewed, given an error rate?",
+    "source_courte": "Daubert v. Merrell Dow, U.S. Supreme Court, 1993"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the U.S. Supreme Court set aside, in 1993, the “general acceptance” test as the exclusive condition for admitting expert evidence?",
+    "choix": [
+      "Because it finds that science is too uncertain for experts to be able to inform a jury",
+      "Because Rule 702 of the Federal Rules of Evidence does not require it and asks the judge to check the validity of the method",
+      "Because the Daubert and Schuller families had proved that Bendectin caused birth defects",
+      "Because the 1923 test had been repealed by a vote of Congress a few months earlier"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The text of Rule 702 does not mention general acceptance; it requires scientific knowledge that helps the trier of fact, hence the judge's examination of the method. The Court does not reject expert evidence itself, does not rule on Bendectin (it sends the case back) and relies on no repeal by Congress.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What decision does the Supreme Court take in the Daubert case itself?",
+      "choix": [
+        "It rules that Bendectin causes birth defects and holds Merrell Dow liable",
+        "It affirms the appeals ruling and the summary judgment for the manufacturer",
+        "It definitively rejects the families' claim for lack of sufficient proof",
+        "It vacates the appeals ruling and sends the case back to be retried with the new test"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The Court vacates the Ninth Circuit's ruling and remands. It nowhere says that Bendectin causes birth defects: it only changes the test for admitting experts."
+    },
+    {
+      "question": "Which of these points is among the markers given by the Court for evaluating a method?",
+      "choix": [
+        "The prestige of the institution that employs the expert",
+        "The known or potential error rate of the technique",
+        "The cost of the expert evidence for each party",
+        "The number of years of the expert's experience"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The markers cited are testability, peer review, error rate, standards for use and general acceptance. Neither prestige, nor cost, nor the expert's seniority is among them."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dro-detecteur-de-mensonge-refuse-par-la-justice",
+  "slug": "detecteur-de-mensonge-refuse-par-la-justice",
+  "langue": "en",
+  "empreinte_fr": "dde575b03879b3ef",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "texte-officiel-a-verifier",
+      "note": "The passage is the English text carried over from the French entry (same URL, Wikisource), where it was already quoted verbatim. The page could not be reopened in this pass (web fetch permission was not granted), so it was not re-read against the opinion."
+    }
+  ],
+  "titre": "The lie detector the courts refused to hear",
+  "accroche": "Washington, 1923: a court excludes a test meant to clear an accused man, and sets a standard that will govern scientific evidence for decades.",
+  "contenu_vulgarise": "On November 28, 1920, in Washington, Dr. R. W. Brown is shot dead. In August 1921, police arrest James Alphonzo Frye for a separate robbery and obtain from him a confession to the murder. He will later claim, in a clemency petition, that the confession followed a deal with a detective, never proven: the robbery charges would be dropped, the officer would collect the reward promised for arresting the murderer, and a good alibi would then make the prosecution fail at trial. Before his court-appointed lawyers, Frye retracts his confession and proclaims his innocence.\n\n## Evidence excluded before being judged on the merits\n\nTo establish his sincerity, the defense has Frye examined by William Moulton Marston, a psychologist who had developed a test based on the variation of systolic blood pressure during questioning, the ancestor of the modern lie detector. Marston concludes that Frye's account of his innocence is true from beginning to end, and that his confession to murder is a lie. The trial judge excludes this testimony before the jury even hears it. The reported reasons differ: according to Marston, the test had been given several weeks before the hearing; according to another account, lie detection was not yet well enough known to be admitted. Frye is convicted of second-degree murder.\n\nOn appeal, the D.C. Circuit court upholds the exclusion on December 3, 1923, in a two-page decision signed by Judge Josiah Van Orsdel. It lays down a principle that goes well beyond the case: “Just when a scientific principle or discovery crosses the line between the experimental and demonstrable stages is difficult to define,” but before that tipping point, “the thing from which the deduction is made must be sufficiently established to have gained general acceptance in the particular field in which it belongs.” Marston's test, the court finds, has not reached that threshold among physiological and psychological authorities.\n\n## A standard sturdier than the trial that produced it\n\nThis rule of general acceptance does not stay confined to that trial: on June 28, 1993, in *Daubert v. Merrell Dow Pharmaceuticals*, the U.S. Supreme Court rules that it has been superseded, in federal courts, by the Federal Rules of Evidence, which entrust the judge with examining the reliability of expert testimony. That ruling binds only federal courts: many states have kept the Frye standard.\n\nThe shift lies in a contrast. The test that might have cleared Frye was judged too poorly established to be put before the jury. The prosecution, for its part, had detailed confessions, and the accused's alibi did not hold: the test that challenged those confessions, which Marston judged to be lies, was never heard by the jury.",
+  "citation": {
+    "texte": "Just when a scientific principle or discovery crosses the line between the experimental and demonstrable stages is difficult to define. Somewhere in this twilight zone the evidential force of the principle must be recognized, and while courts will go a long way in admitting expert testimony deduced from a well-recognized scientific principle or discovery, the thing from which the deduction is made must be sufficiently established to have gained general acceptance in the particular field in which it belongs.",
+    "auteur": "Josiah Van Orsdel",
+    "source": "Frye v. United States, 293 F. 1013 (D.C. Cir.), opinion of the Court, December 3, 1923",
+    "url": "https://en.wikisource.org/wiki/Frye_v._United_States/Opinion_of_the_Court"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The standard that closed the door on the lie detector in 1923 is still applied in some states",
+    "idee": "In 1923, a Washington appeals court excludes a blood pressure test meant to clear a murder suspect, for lack of general acceptance in its field. That standard was set aside in 1993 in federal courts, but many states have kept it.",
+    "source_courte": "Frye v. United States, 293 F. 1013, 1923"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "What does the 1923 appeals court object to in the blood pressure test offered to exonerate James Frye?",
+    "choix": [
+      "That it was administered by a psychologist rather than a forensic physician",
+      "That it concluded Frye was guilty rather than innocent",
+      "That it contradicted the confessions Frye had made to the detectives",
+      "That it had not gained sufficient general acceptance in its scientific field"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The court does not judge whether the test tells the truth about Frye: it judges whether, as a scientific discipline, it had reached sufficient general acceptance among specialists for a court to rely on its conclusions. That standard, and not the test's result or the confessions made and then retracted, is the reason for its exclusion.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "For what offense do the police arrest James Alphonzo Frye in August 1921?",
+      "choix": [
+        "The murder of Dr. Brown",
+        "A robbery, separate from the murder",
+        "An assault on a detective",
+        "An insurance fraud"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The text states that Frye is arrested in August 1921 for a separate robbery, before the police obtain from him confessions about the murder of Dr. Brown."
+    },
+    {
+      "question": "On what principle does the test that psychologist Marston gave Frye for the defense rest?",
+      "choix": [
+        "The variation of blood pressure during questioning",
+        "The handwriting analysis of the confessions signed by Frye",
+        "The reaction time to words linked to the crime"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Marston developed this test, presented in the entry as the ancestor of the modern lie detector, by observing systolic blood pressure during questioning."
+    },
+    {
+      "question": "What does Marston conclude after examining Frye?",
+      "choix": [
+        "That the test cannot settle the matter in either direction",
+        "That Frye is lying across the board, confessions included",
+        "That Frye is innocent of the murder, and that his confessions are a lie",
+        "That Frye is guilty of the murder, but that his alibi is solid"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text states that Marston concludes that Frye's account of his innocence is true from beginning to end, and that his confessions to murder are a lie."
+    },
+    {
+      "question": "In what circumstances does Frye claim, in a clemency petition, to have confessed to the murder?",
+      "choix": [
+        "After failing the blood pressure test that the psychologist Marston had given him",
+        "In exchange, he says, for dropping the robbery charges and a share of the reward promised to the detective, a deal never proven",
+        "On the advice of his court-appointed lawyers, who hoped in this way to get a faster trial for their client"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Frye maintains, in his clemency petition, that he confessed in exchange for the dropping of the robbery charges and a share of the reward, a deal with the detective that no one has ever proven. He did not fail Marston's test, which concluded he was innocent, and his court-appointed lawyers received from him the claim that he was innocent."
+    }
+  ]
+}

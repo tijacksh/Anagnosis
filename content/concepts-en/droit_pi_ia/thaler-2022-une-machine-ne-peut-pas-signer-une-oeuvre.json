@@ -1,0 +1,79 @@
+{
+  "id": "dro-thaler-2022-une-machine-ne-peut-pas-signer-une-oeuvre",
+  "slug": "thaler-2022-une-machine-ne-peut-pas-signer-une-oeuvre",
+  "langue": "en",
+  "empreinte_fr": "02ef09ed0533a636",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "texte-officiel-a-verifier",
+      "note": "The Review Board sentence is carried over in English from the French entry (same URL, copyright.gov PDF), where it was already quoted verbatim. The PDF could not be reopened in this pass (web fetch permission was not granted). The Burrow-Giles definition and the Howell phrase in the body text are translated from the French, not copied from the opinions."
+    }
+  ],
+  "titre": "A machine cannot sign a work",
+  "accroche": "In 2022, the Copyright Office refuses to register an image whose stated author is an artificial intelligence. The courts uphold the refusal through 2026.",
+  "contenu_vulgarise": "On November 3, 2018, computer scientist Stephen Thaler files an application with the U.S. Copyright Office to register an image titled A Recent Entrance to Paradise. In the author field, he enters not his own name but that of the Creativity Machine, the artificial intelligence system he built, which produced the image autonomously. Thaler presents himself as the owner of the machine, claiming copyright by transfer from it.\n\n## A century of case law, a single answer\n\nThe Copyright Office refuses registration on August 12, 2019. Thaler asks for reconsideration twice; the agency's Review Board upholds the refusal on February 14, 2022. The decision rests on an 1884 precedent, Burrow-Giles Lithographic Co. v. Sarony, in which the Supreme Court defined an author as “he to whom anything owes its origin; originator; maker; one who completes a work of science or literature.” The Board concludes, after reviewing the text of the statute, the case law and its own practice: “the Board again concludes that human authorship is a prerequisite to copyright protection in the United States and that the Work therefore cannot be registered.”\n\nThaler takes the case to the federal courts. On August 18, 2023, Judge Beryl Howell of the D.C. district court upholds the refusal: human creativity, she writes, is the “sine qua non at the core of copyright.” The U.S. Court of Appeals for the D.C. Circuit affirms in turn on March 18, 2025, ruling that human authorship is a substantive requirement of the Copyright Act, not just an administrative practice. On March 2, 2026, the Supreme Court declines to review the case any further, without giving a reason, the usual outcome of a denial of certiorari.\n\n## What none of these decisions settles\n\nNone of these four bodies rules that a work made with the help of artificial intelligence is excluded from copyright: the question Thaler raised was narrower, and easier to settle cleanly, an image produced by the machine alone, with no human creative input in the result, and the program itself as the only claimed author. The threshold of human contribution that would be enough to ground a right in less clear-cut cases, an author who selects, arranges or retouches elements produced by a machine, remains unsettled after this case.",
+  "citation": {
+    "texte": "the Board again concludes that human authorship is a prerequisite to copyright protection in the United States and that the Work therefore cannot be registered.",
+    "auteur": "Review Board, U.S. Copyright Office",
+    "source": "Second Request for Reconsideration for Refusal to Register A Recent Entrance to Paradise, February 14, 2022",
+    "url": "https://www.copyright.gov/rulings-filings/review-board/docs/a-recent-entrance-to-paradise.pdf"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The Copyright Office says no: a machine cannot be the author of a work.",
+    "idee": "In 2019, the Copyright Office refuses to register an image whose only stated author is an artificial intelligence. Its Review Board upholds the refusal in 2022, the courts in 2023 and 2025, and the Supreme Court declines to review the case in 2026.",
+    "source_courte": "USCO Review Board, 2022"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the Copyright Office refuse to register the image A Recent Entrance to Paradise?",
+    "choix": [
+      "Because the image reused, without permission, protected elements from other works",
+      "Because its only stated author was an artificial intelligence program, not a human being",
+      "Because Stephen Thaler had not paid the registration fees the Copyright Office requires",
+      "Because the image had already been published without a copyright notice before the application was filed"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The Copyright Office and the courts that uphold its refusal rely on a principle established for a century: only a human being can be an author under U.S. copyright law. Since Thaler named the Creativity Machine, and not himself, as the author, the image could not be registered.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What precedent does the Copyright Office rely on to refuse registration of the image?",
+      "choix": [
+        "A federal law passed in 2019 to specifically govern works produced by artificial intelligence",
+        "An international agreement signed by the United States and the European Union on copyright protection",
+        "The 1884 precedent, Burrow-Giles Lithographic Co. v. Sarony, which defines the author as the source of the work",
+        "A 1998 decision on digital copyright applied to works published online"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The Copyright Office's decision relies on the 1884 precedent, Burrow-Giles Lithographic Co. v. Sarony, in which the Supreme Court defines the author as the one to whom a work owes its origin."
+    },
+    {
+      "question": "What does Judge Beryl Howell write in her August 18, 2023 decision?",
+      "choix": [
+        "That U.S. copyright law must now also apply to works produced by an AI",
+        "That Stephen Thaler must pay a fine for filing an application judged fraudulent",
+        "That a new federal law must be passed before the case can be decided",
+        "That human creativity is the sine qua non at the core of copyright"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Judge Beryl Howell writes in her August 18, 2023 decision that human creativity is the sine qua non at the core of copyright, upholding the refusal to register the image."
+    },
+    {
+      "question": "According to the entry, what do none of the four decisions in this case settle?",
+      "choix": [
+        "The threshold of human contribution that would be enough to ground a right in an AI-assisted work",
+        "Whether a Copyright Office decision can be appealed to the federal courts",
+        "The name of the machine Stephen Thaler used to produce the disputed image",
+        "The date on which Stephen Thaler filed his initial registration application"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The entry points out that none of the four decisions settles the threshold of human contribution that would be enough to ground a copyright when a person selects, arranges or retouches what a machine produced."
+    }
+  ]
+}

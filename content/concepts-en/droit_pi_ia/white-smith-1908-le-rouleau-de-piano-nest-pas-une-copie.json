@@ -1,0 +1,79 @@
+{
+  "id": "dro-white-smith-1908-le-rouleau-de-piano-nest-pas-une-copie",
+  "slug": "white-smith-1908-le-rouleau-de-piano-nest-pas-une-copie",
+  "langue": "en",
+  "empreinte_fr": "5a29087e95e40a97",
+  "traduit_le": "2026-11-23",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "texte-officiel-a-verifier",
+      "note": "The sentence is carried over from the French entry (same URL, Cornell LII), where it was already quoted verbatim in English. The page could not be reopened in this pass (web fetch permission was not granted)."
+    }
+  ],
+  "titre": "A piano roll, and what the law cannot read",
+  "accroche": "In 1908, the Supreme Court rules that a mechanical piano roll is not a copy of a song. Congress immediately invents a right that did not exist.",
+  "contenu_vulgarise": "In 1908, White-Smith Music Publishing Company, a publisher based in Boston, Massachusetts, sues Apollo Company, a maker of player pianos, for infringement. Apollo sells perforated rolls that, once inserted into an automatic piano, work the hammers and replay two songs whose copyright White-Smith holds, “Little Cotton Dolly” and “Kentucky Babe.” White-Smith receives no royalty on these rolls, and regards their manufacture as an unauthorized reproduction of its sheet music.\n\n## What the eye can read, what the ear hears\n\nThe Supreme Court rules on February 24, 1908, unanimously, in an opinion written by Justice William R. Day. The question is narrow: is a perforated roll a “copy” within the meaning of the 1831 copyright law? Day answers no. A copy, he writes, is a written or printed record of the work in intelligible notation, something the eye can read the way it reads a score. The perforated roll is readable by no one: its perforations speak only to a mechanism, they are part of the machine rather than a reproduction of the work for a human reader. Day puts it plainly: “In no sense can musical sounds which reach us through the sense of hearing be said to be copies, as that term is generally understood.”\n\nJustice Oliver Wendell Holmes writes a concurring opinion in which he accepts the strict reading of the text but says he is dissatisfied with it: the law, he writes in essence, has not kept up with the invention. Apollo can sell as many rolls as it likes without paying composers a cent, and nothing in today's decision remedies that.\n\n## A right that did not yet exist\n\nCongress acts quickly. The revision of the Copyright Act passed the following year, 1909, creates the first compulsory license in American law: once a composer has authorized a first mechanical recording of a work, any manufacturer may in turn reproduce its music without asking permission, provided it pays a royalty set by law, two cents per copy at the outset. From the start, the mechanism applies to perforated rolls as well as to phonograph records.\n\nThe Court's decision is therefore not corrected by a reversal of case law, but bypassed by a new law, which invents what the 1831 text did not provide for: a right to reproduce without consent, in exchange for a mandatory payment fixed in advance rather than negotiated case by case. The perforated roll disappeared long ago; the compulsory license it gave birth to has served as a model for every new mechanical medium for music that followed.",
+  "citation": {
+    "texte": "In no sense can musical sounds which reach us through the sense of hearing be said to be copies, as that term is generally understood.",
+    "auteur": "William R. Day",
+    "source": "White-Smith Music Publishing Co. v. Apollo Co., 209 U.S. 1, opinion of the Court, February 24, 1908",
+    "url": "https://www.law.cornell.edu/supremecourt/text/209/1"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The Court says a piano roll copies nothing. Congress invents a right to contradict it.",
+    "idee": "In 1908, the Supreme Court rules that a mechanical piano roll is not a “copy” of a song, because it speaks only to the ear, not to the eye. Congress reacts as early as 1909 by creating the first American compulsory license: reproduce without consent, against a royalty set by law.",
+    "source_courte": "White-Smith v. Apollo, 1908"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the Supreme Court rule that a perforated piano roll is not a “copy” of the song it plays?",
+    "choix": [
+      "Because a copy must be readable by the eye like a score, whereas the perforations speak only to a mechanism",
+      "Because Apollo Company had obtained an oral license from White-Smith before making its perforated rolls",
+      "Because the two songs in question had already fallen into the public domain by the time of the trial",
+      "Because the 1831 copyright protected only sheet music published after the year 1900"
+    ],
+    "bonne_reponse": 0,
+    "explication": "The 1831 law protects “copies,” which Justice Day defines as a record readable by the eye, in intelligible notation. A perforated roll speaks only to a mechanism and so cannot, according to the Court, be called a copy, even though it faithfully reproduces the melody once played.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "What criterion does Justice Day rely on to rule that the perforated piano roll is not a “copy”?",
+      "choix": [
+        "The fact that Apollo Company paid no contractual royalty to White-Smith before making its rolls",
+        "The fact that the melody remains perfectly recognizable once the perforated roll is inserted into the player piano",
+        "The fact that a copy must be readable by the eye, which the roll, readable only by a mechanism, is not",
+        "The fact that the two songs in question were no longer protected by copyright at the time of the trial"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Day defines a copy as a record written in intelligible notation, which the eye can read; the roll speaks only to a mechanism, not to a human reader."
+    },
+    {
+      "question": "What is Justice Oliver Wendell Holmes's position in his concurring opinion?",
+      "choix": [
+        "He withdraws from the case entirely, citing a personal conflict of interest with Apollo Company",
+        "He accepts the strict reading of the text, while saying he is dissatisfied that the law has not kept up with the invention",
+        "He disagrees completely with the majority and holds, on the contrary, that the roll is indeed a copy",
+        "He proposes in his opinion that Congress simply abolish copyright in music"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Holmes writes a concurring opinion: he accepts the majority's reasoning, but regrets that the law has not kept up with technical change, leaving Apollo free to act without paying anything."
+    },
+    {
+      "question": "What exactly does the 1909 revision of the Copyright Act introduce?",
+      "choix": [
+        "It overturns the Supreme Court's decision and retroactively declares that the rolls are copies",
+        "It bans the sale of perforated piano rolls outright",
+        "It requires each manufacturer to negotiate a license individually",
+        "It creates the first compulsory license, opening reproduction without permission against a royalty set by law"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Congress invents a right that did not exist: once a composer has authorized a first mechanical recording, any manufacturer may reproduce without permission, against a statutory royalty."
+    }
+  ]
+}
