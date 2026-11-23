@@ -1,6 +1,6 @@
 # Lecture du champ `en` dans les apps (iOS et Android)
 
-Spécification figée le 22/11/2026, **amendée après relectures et vérification à l'écran** (section finale). État : livrée dans `main` des deux apps (iOS 3f7f393+, Android 01cd4a0+), **interrupteur éteint**.
+Spécification figée le 22/11/2026, **amendée après relectures et vérification à l'écran** (section finale). État : livrée dans `main` des deux apps (iOS 3f7f393+, Android 01cd4a0+), **interrupteur ALLUMÉ le 2026-11-23** dans le code des apps (la langue des fiches suit celle de l'interface) ; l'anglais est publié dans le fichier signé du site ; builds INTERNES seulement, pas de lancement externe.
 
 Relue par @code-reviewer et l'Advisor. Les deux apps doivent se comporter à l'identique.
 
@@ -37,7 +37,7 @@ Chaque concept peut porter `en` : `titre`, `accroche`, `contenu_vulgarise`, `cit
 - **Coût au lancement iOS** (Debug) : embarqué seul +1 ms ; avec un fichier à 433 `en` (16 Mo) +91 ms, fusion +12 ms.
 - **Écoute** : coupée aussi quand la voix est en cours de téléchargement ; garde de défense dans `Ecoute.lire/basculer` (les deux apps).
 
-## Conditions pour LEVER l'interrupteur (décision d'Arnaud) — rien de tout cela n'est fait
+## Conditions pour LEVER l'interrupteur (décision d'Arnaud) — 1 et 2 faits le 2026-11-23, 3 et 4 restent ouverts
 1. **Publier `en` dans le fichier signé du site** (`ANAGNOSIS_LANGUES=fr,en`, avec la politique de drapeaux choisie) AVANT d'activer les apps : un fichier reçu sans `en` écrase l'`en` embarqué (la fusion est fiche par fiche, le reçu gagne).
 2. **Rendre l'interrupteur observable** : `Langue.langueDesFiches` doit lire `Langue.courante` (iOS : `LangueStockage` ; Android : état Compose), sinon les `onChange`/`task(id:)` de `Racine` et `EcranArchive` (iOS), la recomposition (Android) ne réagissent pas.
 3. **Décisions produit** : politique des drapeaux (par défaut 347 fiches sûres ; 421 en tolérant `citation-traduite`) ; écoute dans l'offre Premium en interface anglaise (aujourd'hui l'offre est globale) ; listes mixtes (549/982 fiches encore françaises : titres d'archive, rappel, révision en deux langues) ; sources laissées en français ; lancement externe (TestFlight public, test fermé Play) ; « 1 JOUR OFFERTS » (français).
