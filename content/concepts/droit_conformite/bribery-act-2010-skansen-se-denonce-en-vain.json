@@ -79,7 +79,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La seule défense prévue par l'article 7 porte sur les procédures adéquates en place au moment des faits, en 2013 ; une dénonciation spontanée en 2014, aussi complète soit-elle, ne peut pas rattraper leur absence antérieure.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -116,11 +116,11 @@
       "explication": "Faute d'activité et d'actifs, la société n'écope que d'une dispense de peine, mais le verdict de culpabilité fait date pour les entreprises visées par l'article 7."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-20T19:16:00.790Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.768Z",
     "historique": [
       {
         "action": "retoucher",
@@ -137,15 +137,23 @@
         "par": "routine-reparation",
         "le": "2026-08-20T19:16:00.790Z",
         "note": "Fiche entière revérifiée en rouvrant les 5 sources : legislation.gov.uk (art. 7 texte intégral, confirme la défense de « procédures adéquates » et la charge de preuve inversée) et ses notes explicatives ; Addleshaw Goddard et Cooley LLP (faits, montants, la dispense de peine faute d'actifs, le licenciement de Stephen Banks distinct de Graham Deakin chez DTZ, première défense de l'art. 7§2 devant un jury et première à être rejetée) ; Wikipedia EN (sanction royale 8/4/2010, entrée en vigueur 1/7/2011). Comparaison FCPA 1977 et Sapin II 2016 revérifiée indépendamment (Wikipedia EN/FR) : FCPA n'a pas de défense équivalente, Sapin II impose un programme à huit volets contrôlé par l'AFA en amont plutôt qu'une défense pénale. Corps, repère, carte, sources et quiz tous conformes. Les deux corrections de la relecture précédente confirmées exactes. Rien à changer."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.768Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-03",
-    "verdict": "ok",
-    "empreinte": "826c8afa75eaf616",
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "1236530a943caf5a",
     "notes": [
-      "Recontrôle (empreinte modifiée depuis le contrôle du 21/08, aucune trace de changement de fond). legislation.gov.uk art. 7§2 rouvert : défense de « procédures adéquates » à la charge de la preuve de l'entreprise confirmée mot pour mot. Wikipedia EN rouvert : sanction royale 8/4/2010 et entrée en vigueur 1/7/2011 confirmées. Addleshaw Goddard et Cooley LLP bloqués par le proxy réseau ce passage, déjà vérifiés conformes à deux reprises (relecture et réparation du 20/08). Rien à corriger."
+      "Sources rouvertes le 2026-11-23. Affirmation non soutenue : « première entreprise à invoquer la défense de l'article 7(2) devant un jury et première à la voir rejetée » (corps, repere, carte). Cooley dit : première condamnation sur l'article 7 après un procès contesté. Aussi : « six millions de livres » est un total (pas par marché), 2013 date l'obtention des contrats (pas les versements), FCPA 1977 et Sapin II non sourcés, repere.source attribue l'art. 7 au ministère de la Justice au lieu de legislation.gov.uk."
     ]
   },
   "controle_juridique": {

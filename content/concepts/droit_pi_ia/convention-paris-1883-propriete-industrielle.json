@@ -85,7 +85,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "La convention ne crée pas de brevet mondial : chaque pays garde une décision propre et indépendante. Le délai de priorité laisse seulement le temps de déposer ailleurs sans perdre le bénéfice de la date du premier dépôt.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -125,11 +125,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-11-18T10:12:45.186Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.770Z",
     "historique": [
       {
         "action": "valider",
@@ -138,15 +138,23 @@
         "par": "routine-relecture",
         "le": "2026-11-18T10:12:45.186Z",
         "note": "Sources rouvertes : en.wikipedia.org et fr.wikipedia.org lues en intégralité, confirment mot pour mot les onze signataires du 20 mars 1883, le délai de priorité (12 mois brevets, 6 mois marques) et les six révisions (Bruxelles 1900, Washington 1911, La Haye 1925, Londres 1934, Lisbonne 1958, Stockholm 1967). wipo.int (source primaire, repere et pour_aller_plus_loin) reste inaccessible depuis cet environnement (DNS bloqué, restriction réseau de la session, pas un lien mort) ; contenu entièrement corroboré par les deux encyclopédies lues directement. À revérifier sur wipo.int quand l'accès sera possible. Quiz et carte conformes."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.770Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-11-18",
-    "verdict": "ok",
-    "empreinte": "e510c133c7afda28",
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "fc089a08110db573",
     "notes": [
-      "wipo.int inaccessible depuis l'environnement (réseau bloqué) — contenu corroboré indépendamment par en.wikipedia.org et fr.wikipedia.org, à revérifier directement sur wipo.int quand l'accès sera possible"
+      "Sources rouvertes le 2026-11-23. Convention de Berne 1886 (dix pays, aucune formalité) absente des sources et règle sans formalité en 1886 non vérifiée ; « quelques centaines de kilomètres » non sourcé ; repere.url pointe vers wipo summary_paris qui ne donne que les délais actuels, Wikisource 1883 conviendrait ; note de source : le 20 mars 1883 figure sur wipo.int/ip/paris, pas summary_paris. Onze signataires, délais 1883 et six révisions confirmés."
     ]
   },
   "controle_juridique": {

@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le texte de 1950 affirmait que la race relevait moins d'un phénomène biologique que d'un mythe social ; des critiques d'envergure, dont Darlington, Fisher et Gates, ont suivi. Sous pression, l'UNESCO réunit un second comité de généticiens et d'anthropologues physiques, dont la version de 1951 est plus tentative.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -112,11 +112,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-23T17:08:00.072Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.771Z",
     "historique": [
       {
         "action": "valider",
@@ -125,16 +125,23 @@
         "par": "routine-reparation",
         "le": "2026-11-23T17:08:00.072Z",
         "note": "Sources rouvertes : PDF de la déclaration (copie web.archive.org), Encyclopedia.com UNESCO Statements on Race. Corrigé : comité de 1949 sans généticien (huit experts listés), décembre 1949 confirmé, second comité de généticiens et d'anthropologues physiques, citation d'origine, titre adouci (démolie, corrigée), url UNESCO remplacée, quiz refait."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.771Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-11-23",
     "verdict": "a_revoir",
-    "empreinte": "0355b3762cb0478a",
+    "empreinte": "7fc92825c1473fb3",
     "notes": [
-      "Sources rouvertes : texte de la déclaration du 18 juillet 1950 (copie web.archive.org du PDF UNESCO : « not so much a biological phenomenon as a social myth », liste des huit experts), Encyclopedia.com (Fisher, Darlington, Gates, Dunn, 96 scientifiques, juin 1951), archive.org (Montagu).",
-      "À REVOIR : (1) le corps dit que le comité de 1949 comptait « un généticien » : la liste des huit experts ne contient aucun généticien, et Encyclopedia.com le dit composé en majorité de spécialistes de sciences sociales. (2) La date « décembre 1949 » ne figure dans aucune source rouverte. (3) Le second comité est décrit « dominé par des généticiens » alors qu'Encyclopedia.com parle de généticiens et d'anthropologues physiques, Montagu y siégeant aussi. (4) L'url UNESCO enregistrée renvoie à une page d'archive sans texte, le PDF n'est lisible que via web.archive.org."
+      "Sources rouvertes le 2026-11-23. PDF UNESCO inaccessible (web.archive refusé, unesdoc 403) : 18/07/1950, citation « social myth », « fraternité universelle », liste des huit experts et décembre 1949 non vérifiés. Wikipédia (Montagu) parle de dix scientifiques invités, la fiche dit huit. sources[1] Encyclopedia.com : année 2003 non confirmée (© 2019). Confirmé : comité sans généticien, second comité juin 1951, projet envoyé à 96 scientifiques."
     ]
   },
   "controle_juridique": null,

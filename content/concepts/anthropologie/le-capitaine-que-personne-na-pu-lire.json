@@ -90,7 +90,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Pour Sahlins, l'arrivée de Cook coïncidait avec la saison du dieu Lono pendant le Makahiki ; son retour après le départ rituel de ce dieu aurait heurté le cycle cosmologique cédant alors la place à Kū, dieu de la guerre, ce qui expliquerait la bascule vers l'affrontement. Obeyesekere contestera précisément cette lecture.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -130,11 +130,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-23T17:07:59.857Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.770Z",
     "historique": [
       {
         "action": "valider",
@@ -143,16 +143,23 @@
         "par": "routine-reparation",
         "le": "2026-11-23T17:07:59.857Z",
         "note": "Sources rouvertes : Wikipédia en Death of James Cook, Persée (Zimmermann 1998), notices archive.org (Sahlins 1995, Obeyesekere 1992, Islands of History 1985), Wikipédia Obeyesekere/Sahlins. Retiré : numéro Current Anthropology 1997 et lien JSTOR (invérifiables), pouvoir du chef suspendu, né au Sri Lanka ; mât du Resolution corrigé (tempête) ; divergence des spécialistes sourcée ; deux sources ajoutées."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.770Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-11-23",
     "verdict": "a_revoir",
-    "empreinte": "f7deae591a1a2e8a",
+    "empreinte": "1f19e01f818a48cc",
     "notes": [
-      "Sources rouvertes : Wikipédia en « Death of James Cook » (17 janvier, 4, 11 et 14 février 1779, avarie du mât, Makahiki, Lono/Kū), notices archive.org et Persée (Zimmermann 1998) : thèses de Sahlins et d'Obeyesekere confirmées.",
-      "À REVOIR : « un numéro entier de Current Anthropology consacré en 1997 à la controverse » ne figure dans aucune source de la fiche ni dans les pages Wikipédia rouvertes ; non vérifié, à sourcer ou retirer. Aussi non sourcés : le pouvoir du chef « rituellement suspendu » pendant le Makahiki et Islands of History (1985) (confirmé seulement par la page Wikipédia de Sahlins, absente des sources)."
+      "Sources rouvertes le 2026-11-23. Fond confirmé (dates 1779, Sahlins, Obeyesekere, Zimmermann 1998). À vérifier : quiz_supplementaire[2], réciproque « Sahlins reproche en retour à Obeyesekere » absente des sources listées ; ajouter Wikipédia Obeyesekere/Sahlins ou reformuler."
     ]
   },
   "controle_juridique": null,

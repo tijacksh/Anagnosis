@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Bien que le ministère allemand des Affaires étrangères ait confirmé dès 2015 que le mot « génocide » pouvait s'appliquer, les cérémonies d'août 2018 ne comportent ni reconnaissance formelle, ni excuse officielle, ni mention de réparation. La ministre Müntefering y demande pardon, mais ses mots sont jugés loin d'une excuse profonde de l'État ; un accord d'aide n'est proposé qu'en 2021.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -112,11 +112,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-23T17:07:59.742Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.770Z",
     "historique": [
       {
         "action": "valider",
@@ -125,16 +125,23 @@
         "par": "routine-reparation",
         "le": "2026-11-23T17:07:59.742Z",
         "note": "Sources rouvertes : The Conversation 2018 (Kössler/Melber) et Wikipédia en Herero and Nama genocide, The Conversation 2017. Corrigé : absence d'excuse officielle (et non de toute excuse), demande de pardon de la ministre Müntefering rapportée, 2e cérémonie au jardin du Parlement, camps Swakopmund/Lüderitz, Fischer anthropologue physique, quiz et distracteurs refaits, fin du corps sans surinterprétation."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.770Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-11-23",
     "verdict": "a_revoir",
-    "empreinte": "26031a570971ec91",
+    "empreinte": "044ad262cd1f414a",
     "notes": [
-      "Sources rouvertes (The Conversation 2018 et 2017, Wikipédia en). Chiffres, dates (2 octobre et 6 décembre 1904, 29 août 2018, 2015, 2021) et récit d'Eugen Fischer confirmés.",
-      "À REVOIR (sens) : le corps, la carte et le quiz affirment qu'aucune excuse n'est formulée lors de la cérémonie du 29 août 2018. The Conversation écrit « no official apology » mais rapporte aussi que la ministre d'État Michelle Müntefering s'est inclinée « en deuil profond » et a demandé « du fond du cœur pardon » (« forgiveness »), dans un discours jugé sans excuse profonde. À reformuler (aucune reconnaissance formelle du génocide, aucune excuse officielle de l'État, mais une demande de pardon de la ministre) ; la bonne réponse du quiz (« toute excuse ») est à corriger en conséquence."
+      "Sources rouvertes le 2026-11-23. À vérifier : « Verschuer a succédé à Fischer en 1942 » (source : dirige l'institut en 1942) ; mariages mixtes interdits en Namibie « depuis 1905 » absent des sources (The Conversation cite 1907) ; distracteur du quiz sur l'église de Berlin non vérifiable. Reste confirmé : dates 1904, chiffres, 27 restes 2018, citations Müntefering, 1,1 md€. Note de contrôle antérieure obsolète."
     ]
   },
   "controle_juridique": null,

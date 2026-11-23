@@ -55,7 +55,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le Code a été imposé dans les territoires contrôlés, mais il a surtout été conservé et imité ensuite. Il offrait aux États en construction un droit civil cohérent, publié et disponible immédiatement : c'est cette forme, plus que le détail de ses articles, qui s'est exportée.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -92,11 +92,11 @@
       "explication": "Le Code est organisé de façon systématique, en livres consacrés aux personnes, aux biens, puis aux manières d'acquérir la propriété, ce qui permet d'y chercher une réponse sans être juriste."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-08-16T11:26:54.966Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.769Z",
     "historique": [
       {
         "action": "valider",
@@ -105,15 +105,23 @@
         "par": "routine-relecture",
         "le": "2026-08-16T11:26:54.966Z",
         "note": "Numérisation Gallica vérifiée comme étant bien l'édition originale annoncée, après correction d'un ark mort. La fiche ne dit rien du contenu actuel du code, seulement de sa forme et de sa diffusion. Carte et quiz conformes. Relecture menée dans la même session que le contrôle et que l'écriture, sur décision explicite d'Arnaud pour ouvrir la discipline sans attendre le passage de nuit. C'est un écart assumé au principe des deux passages indépendants séparés dans le temps (CLAUDE.md) : il est consigné ici plutôt que dissimulé, et le garde-fou de rattrapage subsiste — la fiche reste dans la file du contrôle ordinaire, et la revue juridique hebdomadaire la reprendra."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.769Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-10-03",
-    "verdict": "ok",
-    "empreinte": "287d59c90d120448",
+    "fait_le": "2026-11-23",
+    "verdict": "a_revoir",
+    "empreinte": "ee76735022c0fb3d",
     "notes": [
-      "Recontrôle (empreinte modifiée depuis le contrôle du 23/08, aucune trace de changement de fond). Wikipedia Napoleonic Code rouvert et conforme (promulgation 21 mars 1804, remplacement des coutumes et du droit romain, langue vernaculaire, non-rétroactivité, interdiction des arrêts de règlement, rôle de Napoléon, diffusion Louisiane/Maurice/Roumanie). Gallica a renvoyé un 403 anti-robot à ce passage, déjà vérifiée conforme à deux reprises (édition originale, 579 p., imprimerie de la République) lors des contrôles du 16/08 et du 23/08. Rien à corriger."
+      "Sources rouvertes le 2026-11-23. Coquille de fond : « présidé de nombreuses séances du Conseil d'État » alors que Wikipedia EN dit 55 des 107 séances de la commission de rédaction. « centaines de coutumes » (accroche) sans source. Droit romain du sud et droit canonique non sourcés. 21 mars 1804 = entrée en vigueur, pas promulgation. Gallica en 403 anti-robot, édition originale non revérifiée."
     ]
   },
   "controle_juridique": {

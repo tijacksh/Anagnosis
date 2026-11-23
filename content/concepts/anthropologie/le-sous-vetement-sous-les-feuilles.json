@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La synthèse relève des faits qu'aucun anthropologue ne conteste : le groupe existait, mais sa mise en scène de « peuple de l'âge de pierre » (outils exposés fabriqués à la demande, tissu déjà présent, échanges avec les voisins) ne tient pas. Ni l'un ni l'autre récit extrême ne résiste donc à l'examen.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -121,11 +121,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-23T17:07:59.964Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-23T17:15:25.770Z",
     "historique": [
       {
         "action": "valider",
@@ -134,16 +134,23 @@
         "par": "routine-reparation",
         "le": "2026-11-23T17:07:59.964Z",
         "note": "Sources rouvertes : Encyclopedia.com Tasaday, Wikipédia en Tasaday, notices archive.org (Headland 1992, Nance). Corrigé : 26 personnes, treize ans de silence (1974-1986), grottes désertes attribuées à Iten (Wikipédia), motif forestier retiré, référence Headland harmonisée, outils non authentiques (Manobo), quiz refait, lien Britannica (403) remplacé par Wikipédia."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-23T17:15:25.770Z",
+        "note": "Signalée par le contrôle du 2026-11-23, voir controle.notes."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-11-23",
     "verdict": "a_revoir",
-    "empreinte": "bbd50b7b7e39ced1",
+    "empreinte": "44268364e74e3eef",
     "notes": [
-      "Sources rouvertes : Encyclopedia.com (annonce de 1971, PANAMIN, Nance 1975, Iten en mars 1986, Stern et sous-vêtement, huit faits non contestés, outils fabriqués par des Manobo), archive.org (Headland 1992), Wikipédia Tasaday.",
-      "À REVOIR : (1) Encyclopedia.com date l'ouvrage de Headland de 1991 et le titre The Tasaday Hoax Controversy, alors que la fiche et archive.org donnent 1992 / The Tasaday Controversy: Assessing the Evidence : harmoniser la référence du repère. (2) « grottes désertes » : Encyclopedia.com dit seulement que les Tasaday vivaient dans des maisons ; le détail vient de Wikipédia, absent des sources. (3) « Quinze ans » sans visite indépendante : la source parle de treize ans de silence (1974-1986). (4) L'enjeu de gestion forestière attribué au régime Marcos n'est dans aucune source."
+      "Sources rouvertes le 2026-11-23. À vérifier : attribution aux Manobo des outils fabriqués (Encyclopedia.com dit « à la demande de PANAMIN » ; quiz_supplementaire[2]) ; « ignorent poterie, tissu, métal » non sourcé (attribuer à Nance 1975) ; « Elizalde proche du régime Marcos » non sourcé. Chiffres, dates et Headland 1992 confirmés."
     ]
   },
   "controle_juridique": null,
