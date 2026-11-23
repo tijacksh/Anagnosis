@@ -2,29 +2,18 @@
  "id": "eco-pourquoi-les-feuilles-rougissent",
  "slug": "pourquoi-les-feuilles-rougissent",
  "langue": "en",
- "empreinte_fr": "3ef53f6b92bfe2dc",
+ "empreinte_fr": "466ca8d9333de84b",
  "traduit_le": "2026-11-22",
  "moteur": "claude-code",
  "relu": false,
- "drapeaux": [
-  {
-   "chemin": "contenu_vulgarise",
-   "type": "erreur-possible-fr",
-   "note": "The French body says German researchers painted red “half the trees” of a rowan population, then speaks of “painted branches” (and the extra quiz question speaks of half the branches). Translated as in the French; the trees/branches wording should be reconciled in the French."
-  },
-  {
-   "chemin": "repere/source",
-   "type": "erreur-possible-fr",
-   "note": "The French source line lists the authors as “Lee, Lee, O'Keefe, Holbrook & Feild” (two Lees), whereas sources[0] lists only one Lee (David W. Lee; O'Keefe; Holbrook; Feild). Copied as in the French; the author list should be reconciled."
-  }
- ],
+ "drapeaux": [],
  "titre": "Why Leaves Turn Red in Autumn Remains an Open Question",
  "accroche": "Autumn yellow is chlorophyll withdrawing. Red, on the other hand, is made on purpose, at a real cost, and no one really knows why.",
- "contenu_vulgarise": "Every autumn, leaves turn yellow because chlorophyll, which masked the other pigments all year long, breaks down and lets carotenoids and xanthophylls show through, which have been there since spring. This mechanism is well understood and costs the tree almost nothing: the yellow pigments were already present, and the leaf simply stops hiding them.\n\nRed does not work that way. The anthocyanin that colors many species red, red maple, dogwood, sumac, does not exist in the green leaf of summer: the tree makes it from scratch at the very moment it is getting ready to lose the leaf, investing sugar and energy in it. A study of eighty-nine tree species at the Harvard Forest finds that 70% of them synthesize anthocyanin in autumn. The question this figure raises is simple: why spend a resource on a leaf that is going to fall anyway?\n\n## Two Hypotheses, and Neither Prevails\n\nThe first, photoprotection, proposes that anthocyanin acts as a screen, limiting the light that reaches a chlorophyll in the process of breaking down, in order to protect the recovery of nitrogen before the leaf falls. The Harvard Forest study, however, finds a weak correlation between anthocyanin content and the efficiency of that recovery, which the authors themselves describe as tenuous evidence.\n\nThe second hypothesis, put forward by the biologist William Hamilton in 2001, is more surprising: red may be a costly signal addressed to the aphids that choose their host tree in autumn, a way for the tree to advertise its defenses and discourage the most demanding insects. The idea has been tested directly: in 2005, German researchers painted half the trees in a population of rowans red, and left the others green, to isolate the effect of color alone. The number of aphids trapped on the painted branches does not differ from that on the green ones; it is the quantity of fruit the tree bears, not its color, that predicts infestation.\n\n## What This Shifts\n\nThe two best-documented hypotheses have each been undermined by the very data meant to confirm them. It remains possible that anthocyanin serves yet another purpose, or that it does a little of all this without any one effect dominating enough to show up in an experiment. For a pigment that millions of people photograph every autumn, the explanation for its very existence remains, for now, without a firm answer.",
+ "contenu_vulgarise": "Every autumn, leaves turn yellow because chlorophyll, which masked the other pigments all year long, breaks down and lets carotenoids and xanthophylls show through, which have been there since spring. This mechanism is well understood and costs the tree almost nothing: the yellow pigments were already present, and the leaf simply stops hiding them.\n\nRed does not work that way. The anthocyanin that colors many species red, red maple, dogwood, sumac, does not exist in the green leaf of summer: the tree makes it from scratch at the very moment it is getting ready to lose the leaf, investing sugar and energy in it. A study of eighty-nine tree species at the Harvard Forest finds that 70% of them synthesize anthocyanin in autumn. The question this figure raises is simple: why spend a resource on a leaf that is going to fall anyway?\n\n## Two Hypotheses, and Neither Prevails\n\nThe first, photoprotection, proposes that anthocyanin acts as a screen, limiting the light that reaches a chlorophyll in the process of breaking down, in order to protect the recovery of nitrogen before the leaf falls. The Harvard Forest study, however, finds a weak correlation between anthocyanin content and the efficiency of that recovery, which the authors themselves describe as tenuous evidence.\n\nThe second hypothesis, put forward by the biologist William Hamilton in 2001, is more surprising: red may be a costly signal addressed to the aphids that choose their host tree in autumn, a way for the tree to advertise its defenses and discourage the most demanding insects. The idea has been tested directly: in 2005, German researchers painted half the trees in a population of rowans red, and the others green, to isolate the effect of color alone. The number of aphids trapped on the red trees does not differ from that on the green trees; it is the quantity of fruit the tree bears, not its color, that predicts infestation.\n\n## What This Shifts\n\nThe two best-documented hypotheses have each been undermined by the very data meant to confirm them. It remains possible that anthocyanin serves yet another purpose, or that it does a little of all this without any one effect dominating enough to show up in an experiment. For a pigment that millions of people photograph every autumn, the explanation for its very existence remains, for now, without a firm answer.",
  "citation": null,
  "repere": {
   "texte": "Of 89 tree species examined at the Harvard Forest, 70% (62 of 89) synthesize anthocyanin in autumn, but anthocyanin content is only weakly correlated with the efficiency of nitrogen recovery before leaf fall, the authors themselves speaking of tenuous evidence.",
-  "source": "Lee, Lee, O'Keefe, Holbrook & Feild, “Pigment dynamics and autumn leaf senescence in a New England deciduous forest, eastern USA,” Ecological Research, 18, 2003",
+  "source": "Lee, O'Keefe, Holbrook & Feild, “Pigment dynamics and autumn leaf senescence in a New England deciduous forest, eastern USA,” Ecological Research, 18, 2003",
   "url": "https://harvardforest1.fas.harvard.edu/publications/pdfs/Lee_EcologicalResearch_2003.pdf"
  },
  "carte": {
@@ -64,15 +53,15 @@
    "explication": "The study by Lee et al. (2003) at Harvard Forest finds that 62 species out of 89, or 70%, synthesize anthocyanin de novo at the time of senescence."
   },
   {
-   "question": "What did the 2005 experiment show, in which German researchers colored red half the branches of a population of rowans?",
+   "question": "What did the 2005 experiment show, in which German researchers colored red half the trees in a population of rowans, and the others green?",
    "choix": [
-    "The branches painted red attracted significantly more aphids than the green ones",
-    "No aphids were observed on the painted branches, whatever the color",
+    "The trees painted red attracted significantly more aphids than the green ones",
+    "No aphids were observed on the painted trees, whatever the color",
     "The number of aphids trapped does not depend on color, but on the quantity of fruit the tree bears",
-    "The aphids avoided both the red and the green branches in favor of the unpainted ones"
+    "The aphids avoided both the red and the green trees in favor of unpainted ones"
    ],
    "bonne_reponse": 2,
-   "explication": "The number of aphids trapped does not differ between red and green branches; it is the quantity of fruit the tree bears that predicts infestation, not its color."
+   "explication": "The number of aphids trapped does not differ between red and green trees; it is the quantity of fruit the tree bears that predicts infestation, not its color."
   },
   {
    "question": "According to the photoprotection hypothesis, what would the red anthocyanin made just before the leaf falls be for?",
