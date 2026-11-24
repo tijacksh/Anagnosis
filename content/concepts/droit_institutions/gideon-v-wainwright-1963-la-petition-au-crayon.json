@@ -57,12 +57,12 @@
   "quiz": {
     "question": "Que juge la Cour suprême des États-Unis dans Gideon v. Wainwright (1963) ?",
     "choix": [
-      "Le droit à un avocat pour les accusés indigents s'impose aussi aux États",
       "Seules les infractions capitales ouvrent droit à un avocat commis d'office dans tous les États",
+      "Le droit à un avocat pour les accusés indigents s'impose aussi aux États",
       "Les pétitions manuscrites ne peuvent plus être examinées par la Cour suprême",
       "Betts v. Brady (1942) reste applicable, mais seulement en Floride"
     ],
-    "bonne_reponse": 0,
+    "bonne_reponse": 1,
     "explication": "La Cour juge à l'unanimité que le droit à un avocat, garanti par le sixième amendement, est protégé contre les États par le quatorzième amendement, et renverse Betts v. Brady (1942). La loi de Floride, qui limitait l'avocat commis d'office aux infractions capitales, est précisément ce que l'arrêt censure ; les pétitions manuscrites restent recevables, c'est même par l'une d'elles que l'affaire est née.",
     "statut": "en_retouche"
   },
@@ -70,34 +70,34 @@
     {
       "question": "Qu'avait décidé la Cour suprême dans Betts v. Brady (1942), que Gideon v. Wainwright renverse vingt ans plus tard ?",
       "choix": [
-        "L'absence d'avocat dans un procès d'État ne rend pas, en soi, ce procès inéquitable",
         "Aucun accusé, même fédéral, n'a droit à un avocat commis d'office",
         "Seuls les avocats agréés par la Cour suprême peuvent plaider dans les affaires pénales",
+        "L'absence d'avocat dans un procès d'État ne rend pas, en soi, ce procès inéquitable",
         "Les États ne peuvent juger aucune affaire pénale sans l'accord d'un juge fédéral"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 2,
       "explication": "Betts v. Brady (1942) jugeait que l'absence d'avocat ne rendait pas, en soi, un procès d'État inéquitable, laissant les États libres de ne pas en fournir hors infraction capitale. L'arrêt ne niait pas le droit à l'avocat devant les juridictions fédérales, ne réservait pas la plaidoirie à des avocats agréés par la Cour suprême, et ne soumettait pas les procès d'État à l'accord d'un juge fédéral."
     },
     {
       "question": "Qui la Cour suprême désigne-t-elle pour défendre Clarence Earl Gideon devant elle ?",
       "choix": [
-        "Abe Fortas, avocat réputé de Washington",
         "Hugo Black, qui rédigera ensuite l'opinion de la Cour",
         "Un avocat de Floride, désigné par l'État qui poursuivait Gideon",
-        "Aucun avocat : Gideon assure seul sa défense devant la Cour"
+        "Aucun avocat : Gideon assure seul sa défense devant la Cour",
+        "Abe Fortas, avocat réputé de Washington"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 3,
       "explication": "La Cour désigne Abe Fortas, avocat réputé de Washington, qui deviendra juge à la Cour suprême quelques années plus tard. Hugo Black est le juge qui écrit l'opinion de la Cour, non l'avocat de Gideon ; l'État de Floride est la partie adverse, et Gideon est bien représenté devant la Cour suprême, à la différence de son premier procès."
     },
     {
       "question": "Que se passe-t-il pour Clarence Earl Gideon après la décision de la Cour suprême ?",
       "choix": [
-        "Il est rejugé avec un avocat, et il est acquitté",
         "Sa condamnation initiale est définitivement annulée, sans nouveau procès",
+        "Il est rejugé avec un avocat, et il est acquitté",
         "Il reste en prison : la décision ne s'applique qu'aux futures affaires",
         "Il est rejugé mais condamné une seconde fois, à une peine plus lourde"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 1,
       "explication": "Gideon obtient un second procès, cette fois avec un avocat, et il est acquitté. La Cour suprême ne prononce pas elle-même un acquittement définitif sans nouveau procès, la décision s'applique à son affaire même et pas seulement aux affaires futures, et il n'est pas condamné une seconde fois."
     }
   ],
@@ -124,10 +124,11 @@
   },
   "controle": {
     "fait_le": "2026-11-24",
-    "verdict": "ok",
-    "empreinte": "f2e6e884ebc7faab",
+    "verdict": "corrige",
+    "empreinte": "e0a4be15fd9e7f73",
     "notes": [
-      "Sources rouvertes (Cornell LII, uscourts.gov, NARA Prologue) : pétition du 5/1/1962 au crayon sur papier ligné, salle de billard (poolroom), 5 ans, loi de Floride limitée aux crimes capitaux, 15 janvier / 18 mars 1963, unanimité, Black, citation « Betts v. Brady should be overruled » authentique, Fortas, second procès et acquittement, Rubenstein Gallery."
+      "Cornell LII (texte intégral), uscourts.gov, NARA Prologue rouverts.",
+      "Faits et citation (mot pour mot) confirmés sans réserve. Corrigé moi-même (piège CLAUDE.md) : les 4 questions (quiz principal + 3 supplémentaires) avaient toutes leur bonne réponse en position 0, malgré une note de relecture affirmant le contraire. Repositionnées : 1, 2, 3, 1. npm run validate (0 erreur) et npm test (136/136) relancés après correction."
     ]
   }
 }
