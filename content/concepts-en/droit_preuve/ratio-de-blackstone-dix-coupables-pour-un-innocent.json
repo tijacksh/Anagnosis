@@ -1,0 +1,84 @@
+{
+  "id": "dro-ratio-de-blackstone-dix-coupables-pour-un-innocent",
+  "slug": "ratio-de-blackstone-dix-coupables-pour-un-innocent",
+  "langue": "en",
+  "empreinte_fr": "dd711957485c88b1",
+  "traduit_le": "2026-11-24",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "texte-officiel-a-verifier",
+      "note": "The quotation is already English in the French entry and is copied unchanged, with the Yale Avalon Project url. The Avalon page itself could not be opened in this session; secondary sources give it with slightly different punctuation (no comma after “escape”), so the exact wording and punctuation should be checked against https://avalon.law.yale.edu/18th_century/blackstone_bk4ch27.asp."
+    },
+    {
+      "chemin": "quiz_supplementaire[1].question",
+      "type": "erreur-possible-fr",
+      "note": "The question says the court cites “Blackstone and Hale by name,” but the body text only says the 1895 Coffin v. United States ruling cites Blackstone's formula by name; Hale is not mentioned as cited by the Court. Translated as written; to be checked by controler."
+    }
+  ],
+  "titre": "Blackstone's ten, a number that varies by author",
+  "accroche": "In 1769, an English jurist writes that it is better to let ten guilty men go free than to punish one innocent. Others chose a different number.",
+  "contenu_vulgarise": "London, 1769. The jurist William Blackstone completes the fourth and last volume of his *Commentaries on the Laws of England*, a work that will become the standard text of English law for more than a century. In chapter 27, devoted to criminal trial, he notes five differences between civil and criminal proof. The fourth concerns the caution required with presumptive evidence, and fits in one sentence: the law holds that it is better that ten guilty persons escape than that one innocent suffer.\n\n## A number to settle a trade-off\n\nThe sentence answers a concrete problem. A court that judges on clues, and not on a confession or an eyewitness, will sometimes get it wrong: either it will convict an innocent person or it will acquit a guilty one. Both risks cannot be eliminated at once; one can only shift the dial between them, by demanding more or less certainty before convicting. Blackstone asserts that the two errors are not equal: better to release ten guilty persons than to punish a single innocent one. The number ten is not calculated; it illustrates a proportion, the idea that the error that strikes an innocent person costs ten times more than a missed chance to punish a guilty one. The formula will become the matrix of the presumption of innocence and of the requirement of proof beyond a reasonable doubt in common-law countries: in 1895, the U.S. Supreme Court cites it by name in *Coffin v. United States* to ground the presumption of innocence in federal law.\n\n## A number that never won consensus\n\nWhat Blackstone's posterity conceals is that his ten has never been agreed upon, neither before him nor after. The English jurist John Fortescue, around 1470, preferred to let twenty guilty men escape rather than convict one innocent. Judge Matthew Hale, whose text published after his death in 1736 directly inspires Blackstone, brought the figure down to five. The Jewish philosopher and codifier Maimonides, in the twelfth century, went much further: better to acquit a thousand guilty men than to put a single innocent one to death. In 1785, sixteen years after Blackstone, Benjamin Franklin proposed a hundred. Each defends the same principle, the asymmetry between the two errors, but picks a different number, without ever explaining where it comes from or why this number rather than another.\n\nTwo and a half centuries later, the question remains open: contemporary jurists still debate whether a single ratio makes sense, or whether it should vary with the gravity of the crime being tried. Blackstone's ten was never a measurement, only a conviction that became a quotation.",
+  "citation": {
+    "texte": "it is better that ten guilty persons escape, than that one innocent suffer",
+    "auteur": "William Blackstone",
+    "source": "Commentaries on the Laws of England, Book IV, chapter 27, 1769",
+    "url": "https://avalon.law.yale.edu/18th_century/blackstone_bk4ch27.asp"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Famous since 1769, yet Fortescue, Hale, Maimonides and Franklin each had their own number.",
+    "idee": "In 1769, William Blackstone writes that it is better that ten guilty persons escape than that one innocent be punished. Before him, Fortescue proposed twenty, Hale five, and Maimonides already a thousand. After him, in 1785, Franklin proposed a hundred. The principle wins consensus; the number never does.",
+    "source_courte": "Blackstone, Commentaries on the Laws of England, 1769"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why does the exact number (ten, five, twenty...) vary so much among the authors who formulated this rule?",
+    "choix": [
+      "Because none of them sought an exact number: each expresses the same idea through an estimate of his own",
+      "Because the courts of each era applied a legally different standard of proof, which each author recorded",
+      "Because the number depends on how many jurors sat in the trial each author describes",
+      "Because successive translations of Blackstone's text gradually altered the original number"
+    ],
+    "bonne_reponse": 0,
+    "explication": "None of these authors is measuring a legal threshold or a jury size: each picks a number to illustrate, without proving it, the idea that punishing an innocent costs more than releasing a guilty person. The number changes; the principle stays.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [
+    {
+      "question": "In which text and at what point does Blackstone state his formula about the ten guilty persons?",
+      "choix": [
+        "In a speech delivered before the English Parliament in 1769",
+        "In a private letter to another jurist, long unpublished",
+        "In the first volume of his work, devoted to the rights of persons",
+        "In the fourth volume of his Commentaries, in the chapter on criminal trial"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Blackstone states his rule in the fourth and last volume of his Commentaries on the Laws of England, in chapter 27, devoted to criminal trial."
+    },
+    {
+      "question": "Which court cites Blackstone and Hale by name to ground the presumption of innocence?",
+      "choix": [
+        "The British House of Lords, in 1850, in a debate on criminal reform",
+        "The U.S. Supreme Court, in 1895, in Coffin v. United States",
+        "The French Court of Cassation, in 1900, in a ruling on circumstantial evidence",
+        "The Permanent Court of International Justice, in 1922, in The Hague"
+      ],
+      "bonne_reponse": 1,
+      "explication": "In 1895, the U.S. Supreme Court cites Blackstone and Hale by name in Coffin v. United States to ground the presumption of innocence in American federal law."
+    },
+    {
+      "question": "What number does Maimonides propose, and how does it compare with Blackstone's?",
+      "choix": [
+        "A thousand guilty rather than one innocent, far more than Blackstone's ten",
+        "Five guilty rather than one innocent, half of Blackstone's ten",
+        "Ten guilty as well, exactly the same number as Blackstone",
+        "No precise number, only a principle he refused to quantify"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Maimonides, in the twelfth century, went much further than Blackstone: he judged it preferable to acquit a thousand guilty men rather than put a single innocent one to death."
+    }
+  ]
+}
