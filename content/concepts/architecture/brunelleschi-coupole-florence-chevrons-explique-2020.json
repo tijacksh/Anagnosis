@@ -73,7 +73,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "La modélisation par éléments discrets de 2020 montre que les rangées de briques verticales, croisées en double hélice (double loxodromie), calent les briques fraîches et répartissent poids et poussée à chaque étape, ce qui permet à la coupole de se porter elle-même avant d'être achevée.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -101,11 +101,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-23T19:14:15.434Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-24T03:15:19.537Z",
     "historique": [
       {
         "action": "valider",
@@ -114,16 +114,23 @@
         "par": "routine-reparation",
         "le": "2026-11-23T19:14:15.434Z",
         "note": "Sources rouvertes : Wikipédia Florence Cathedral et Smithsonian Magazine (26 mai 2020). (1) Titre, accroche et carte reformulés : l'étude de 2020 (Engineering Structures, Adriaenssens/Paris/Pizzigoni) modélise les coupoles Sangallo à double hélice ; le lien avec la coupole de Brunelleschi (simple hélice) est présenté comme une hypothèse des chercheurs ('suspect', 'argue'), jamais comme une démonstration pour Florence elle-même — cohérent avec le corps et le quiz_supplementaire Q2 qui le disaient déjà. (2) Corrigé : Wikipédia confirme que c'est Brunelleschi, pas Ghiberti, qui était soutenu par Cosimo de Médicis. (3) Citation complétée avec la phrase manquante sur les véhicules aériens sans pilote, confirmée mot pour mot par Smithsonian. (4) Nuancé 'sans aucun support temporaire' : Wikipédia mentionne des plateformes de travail portées par des poutres logées dans les nervures, donc pas d'échafaudage/cintre continu mais pas non plus une absence totale de support de travail."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-24T03:15:19.537Z",
+        "note": "Contrôle 2026-11-24 : affirmations absentes des sources de la fiche (voir trace de contrôle)."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-11-23",
+    "fait_le": "2026-11-24",
     "verdict": "a_revoir",
-    "empreinte": "e29c2c1c52862ab6",
+    "empreinte": "9da3b2b2fa36d2cd",
     "notes": [
-      "Sources rouvertes : Smithsonian (via web.archive.org, accès direct 403), Wikipédia Florence Cathedral (19 août 1418, 1420-1436, 25 mars 1436, pénurie de bois, 4 millions de briques).",
-      "À REVOIR : (1) titre, accroche et carte affirment que 2020 a expliqué pourquoi la coupole de Brunelleschi tient ; l'étude porte sur des coupoles Sangallo à double hélice, la source dit seulement que les chercheurs « suspectent » et « argumentent » que les mêmes principes valent pour Brunelleschi (simple hélice). Le quiz Q3 le reconnaît comme hypothèse : le titre est contradictoire. (2) « Ghiberti, soutenu par Cosimo de Médicis » : Wikipédia dit que Cosimo soutenait Brunelleschi. (3) Citation tronquée : l'original continue « , particularly suited for unmanned aerial vehicles. ». (4) Wikipédia mentionne des plates-formes sur poutres dans les nervures : « sans aucun support temporaire » est trop absolu."
+      "Sources rouvertes (Smithsonian via archive.org, Wikipedia Florence Cathedral). Corrections du 23/11 vérifiées (Cosimo soutient Brunelleschi, citation complète, hypothèse présentée comme telle, plates-formes sur poutres). À REVOIR : affirmations absentes des trois sources de la fiche : (1) machines de levage « à trois vitesses, actionnées par des bœufs » (Wikipedia dit seulement « hoisting machines ») ; (2) Florence rejette le gothique et les arcs-boutants « comme style étranger » (ni source, ni mention de contreforts) ; (3) « n'a laissé ni plan ni carnet de chantier » (Wikipedia : s'est appuyé sur l'intuition et des maquettes) ; (4) « des millions de visiteurs chaque année »."
     ]
   },
   "controle_juridique": null,
