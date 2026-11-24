@@ -57,14 +57,14 @@
   "quiz": {
     "question": "Que juge la Cour suprême des États-Unis dans Gideon v. Wainwright (1963) ?",
     "choix": [
-      "Le droit à un avocat pour les accusés indigents s'impose aussi aux tribunaux des États, pas seulement aux juridictions fédérales",
+      "Le droit à un avocat pour les accusés indigents s'impose aussi aux États",
       "Seules les infractions capitales ouvrent droit à un avocat commis d'office dans tous les États",
       "Les pétitions manuscrites ne peuvent plus être examinées par la Cour suprême",
       "Betts v. Brady (1942) reste applicable, mais seulement en Floride"
     ],
     "bonne_reponse": 0,
     "explication": "La Cour juge à l'unanimité que le droit à un avocat, garanti par le sixième amendement, est protégé contre les États par le quatorzième amendement, et renverse Betts v. Brady (1942). La loi de Floride, qui limitait l'avocat commis d'office aux infractions capitales, est précisément ce que l'arrêt censure ; les pétitions manuscrites restent recevables, c'est même par l'une d'elles que l'affaire est née.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -81,10 +81,10 @@
     {
       "question": "Qui la Cour suprême désigne-t-elle pour défendre Clarence Earl Gideon devant elle ?",
       "choix": [
-        "Abe Fortas, avocat de Washington qui deviendra lui-même juge à la Cour suprême",
-        "Hugo Black, le juge qui rédigera ensuite l'opinion de la Cour",
+        "Abe Fortas, avocat réputé de Washington",
+        "Hugo Black, qui rédigera ensuite l'opinion de la Cour",
         "Un avocat de Floride, désigné par l'État qui poursuivait Gideon",
-        "Aucun avocat : Gideon a continué d'assurer lui-même sa défense devant la Cour"
+        "Aucun avocat : Gideon assure seul sa défense devant la Cour"
       ],
       "bonne_reponse": 0,
       "explication": "La Cour désigne Abe Fortas, avocat réputé de Washington, qui deviendra juge à la Cour suprême quelques années plus tard. Hugo Black est le juge qui écrit l'opinion de la Cour, non l'avocat de Gideon ; l'État de Floride est la partie adverse, et Gideon est bien représenté devant la Cour suprême, à la différence de son premier procès."
@@ -101,12 +101,21 @@
       "explication": "Gideon obtient un second procès, cette fois avec un avocat, et il est acquitté. La Cour suprême ne prononce pas elle-même un acquittement définitif sans nouveau procès, la décision s'applique à son affaire même et pas seulement aux affaires futures, et il n'est pas condamné une seconde fois."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-24T13:35:32.851Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-24T13:35:32.851Z",
+        "note": "Sources rouvertes (Cornell LII texte intégral, uscourts.gov, NARA Prologue) : tous les faits, la citation (mot pour mot), la carte et les distracteurs vérifiés, rien à corriger côté faits. J'ai retouché le quiz (bonne réponse du quiz principal et de la question sur Fortas trop repérable : la plus longue, seule détaillée ; distracteurs équilibrés, FR et EN). Cette retouche invalide le contrôle : il reste à faire passer la fiche par /controler (contrôle du seul quiz retouché), puis elle pourra être validée sans autre doute."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-11-24",
