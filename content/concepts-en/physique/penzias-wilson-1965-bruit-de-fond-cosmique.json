@@ -2,7 +2,7 @@
   "id": "phy-penzias-wilson-1965-bruit-de-fond-cosmique",
   "slug": "penzias-wilson-1965-bruit-de-fond-cosmique",
   "langue": "en",
-  "empreinte_fr": "9c53a0d0b6172e71",
+  "empreinte_fr": "ed8bc0375fa11eab",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,39 @@
     "explication": "Dicke's team had predicted this leftover radiation and was preparing a receiver to search for it, without yet having a result; Penzias and Wilson had the instrument and the signal, but not the theory. The two teams remained separate, and cleaning out the pigeons had not made the noise go away.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What did Penzias and Wilson do when they suspected a hardware flaw in their antenna?",
+      "choix": [
+        "They waited six months to see whether the signal varied with the seasons",
+        "They took the antenna apart piece by piece, removed pigeons, and cleaned out the accumulated droppings",
+        "They replaced the whole antenna with a newer model",
+        "They sent the receiver to Princeton's team for verification"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Suspecting a hardware flaw, Penzias and Wilson take the antenna apart piece by piece; they remove pigeons that had nested in it and clean out the accumulated droppings, but the noise does not change."
+    },
+    {
+      "question": "What project was the Holmdel antenna built for, five years before the 1964 measurements?",
+      "choix": [
+        "NASA's Echo communications satellite program",
+        "Listening for possible extraterrestrial radio signals",
+        "A radar program for the United States Army",
+        "Robert Dicke's team at Princeton University"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The Crawford Hill horn antenna had been built in 1959, five years before the 1964 measurements, for NASA's Echo communications satellite project, not to search for cosmic radiation."
+    },
+    {
+      "question": "How was the link made between Penzias and Wilson's observation and Dicke's team's theory?",
+      "choix": [
+        "A national newspaper announced the discovery before the two teams met",
+        "Dicke read Penzias and Wilson's paper in the Astrophysical Journal before contacting them",
+        "Bernard Burke, a friend of Penzias, told him about a paper by Peebles, and Penzias called Dicke",
+        "The two teams shared the same lab director at Bell Labs"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Bernard Burke, a friend of Penzias, tells him about a paper by Peebles on this predicted radiation; Penzias then calls Dicke, linking the unexplained observation to the theory Princeton was about to verify."
+    }
+  ]
 }

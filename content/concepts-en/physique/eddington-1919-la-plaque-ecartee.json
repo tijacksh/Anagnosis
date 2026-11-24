@@ -2,7 +2,7 @@
   "id": "phy-eddington-1919-la-plaque-ecartee",
   "slug": "eddington-1919-la-plaque-ecartee",
   "langue": "en",
-  "empreinte_fr": "500c405243f3352b",
+  "empreinte_fr": "2bff273098cd0fab",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,39 @@
     "explication": "The astrographic plate gave 0.93'' in 1919, close to the Newtonian half-value; remeasured in 1979 with a more precise instrument, it gives 1.55'' ± 0.34'', consistent with Einstein. Kennefick establishes that the decision to set aside the astrograph is recorded in what appears to be Dyson's hand, and the 1920 report keeps two instruments, not one.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "According to Andrew Murray, cited by Kennefick, what actually caused the problem with the 1919 measurement?",
+      "choix": [
+        "A permanent optical defect in the astrograph, never repaired afterward",
+        "The cloudy sky that hampered all three expeditions during the eclipse",
+        "The reduction method, which poorly separated the plate scale from the deflection",
+        "A disagreement between Dyson and Eddington over which theoretical prediction to keep"
+      ],
+      "bonne_reponse": 2,
+      "explication": "According to Murray, cited by Kennefick, the problem lay in the data reduction method, which poorly separated the plate scale from the measured deflection, rather than in the quality of the images themselves."
+    },
+    {
+      "question": "Why does the Príncipe measurement rest on only five stars?",
+      "choix": [
+        "Cloudy skies let Eddington photograph only five stars on two plates",
+        "Eddington deliberately limited the number of stars to simplify the calculation",
+        "The astrographic lens carried to Príncipe lost its alignment during the eclipse",
+        "Local authorities restricted access to the observation site"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text states that at Príncipe, cloudy skies let Eddington photograph only five stars on two plates, using a reduction method specific to that expedition."
+    },
+    {
+      "question": "What does Daniel Kennefick's 2007 study establish?",
+      "choix": [
+        "That Eddington himself wrote the official 1920 report without Dyson's agreement",
+        "That the astrographic plate was lost before any remeasurement was possible",
+        "That the Newtonian prediction of 0.87 arcseconds was itself mistaken",
+        "That excluding the astrograph was Dyson's doing, decided at Greenwich without Eddington"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Kennefick studied the correspondence between Dyson and Eddington: the exclusion of the astrograph is noted in handwriting close to Dyson's, and the Sobral data were reduced at Greenwich, very probably without Eddington."
+    }
+  ]
 }
