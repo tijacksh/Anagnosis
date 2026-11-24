@@ -2,7 +2,7 @@
   "id": "dro-gideon-v-wainwright-1963-la-petition-au-crayon",
   "slug": "gideon-v-wainwright-1963-la-petition-au-crayon",
   "langue": "en",
-  "empreinte_fr": "46a3f232d3ac386b",
+  "empreinte_fr": "2d353e2292834772",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -32,12 +32,12 @@
   "quiz": {
     "question": "What does the Supreme Court of the United States rule in Gideon v. Wainwright (1963)?",
     "choix": [
-      "The right to a lawyer for indigent defendants also applies to the states",
       "Only capital offenses entitle a defendant to a court-appointed lawyer in every state",
-      "Handwritten petitions can no longer be considered by the Supreme Court",
-      "Betts v. Brady (1942) remains applicable, but only in Florida"
+      "Betts v. Brady (1942) remains applicable, but only in Florida",
+      "The right to a lawyer for indigent defendants also applies to the states",
+      "Handwritten petitions can no longer be considered by the Supreme Court"
     ],
-    "bonne_reponse": 0,
+    "bonne_reponse": 2,
     "explication": "The Court rules unanimously that the right to counsel, guaranteed by the Sixth Amendment, is protected against the states by the Fourteenth Amendment, and overrules Betts v. Brady (1942). Florida's law, which limited court-appointed lawyers to capital offenses, is precisely what the ruling strikes down; handwritten petitions remain admissible, and it is in fact through one that the case began.",
     "statut": "valide"
   },
@@ -45,34 +45,34 @@
     {
       "question": "What had the Supreme Court decided in Betts v. Brady (1942), which Gideon v. Wainwright overturns twenty years later?",
       "choix": [
-        "The absence of a lawyer in a state trial does not, in itself, make that trial unfair",
         "No defendant, even a federal one, has a right to a court-appointed lawyer",
+        "The absence of a lawyer in a state trial does not, in itself, make that trial unfair",
         "Only lawyers approved by the Supreme Court may argue criminal cases",
         "States may not try any criminal case without the consent of a federal judge"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 1,
       "explication": "Betts v. Brady (1942) held that the absence of a lawyer did not, in itself, make a state trial unfair, leaving states free not to provide one outside capital offenses. The ruling did not deny the right to counsel in federal courts, did not reserve advocacy to lawyers approved by the Supreme Court, and did not make state trials subject to a federal judge's consent."
     },
     {
       "question": "Whom does the Supreme Court appoint to defend Clarence Earl Gideon before it?",
       "choix": [
-        "Abe Fortas, a prominent Washington lawyer",
         "Hugo Black, who will go on to write the Court's opinion",
         "A Florida lawyer, appointed by the state that was prosecuting Gideon",
-        "No lawyer: Gideon argues his own case before the Court"
+        "No lawyer: Gideon argues his own case before the Court",
+        "Abe Fortas, a prominent Washington lawyer"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 3,
       "explication": "The Court appoints Abe Fortas, a well-known Washington lawyer who will become a Supreme Court justice a few years later. Hugo Black is the justice who writes the opinion of the Court, not Gideon's lawyer; the State of Florida is the opposing party, and Gideon is indeed represented before the Supreme Court, unlike at his first trial."
     },
     {
       "question": "What happens to Clarence Earl Gideon after the Supreme Court's decision?",
       "choix": [
-        "He is retried with a lawyer, and he is acquitted",
-        "His original conviction is permanently overturned, with no new trial",
         "He stays in prison: the decision applies only to future cases",
+        "His original conviction is permanently overturned, with no new trial",
+        "He is retried with a lawyer, and he is acquitted",
         "He is retried but convicted a second time, with a heavier sentence"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 2,
       "explication": "Gideon gets a second trial, this time with a lawyer, and he is acquitted. The Supreme Court does not itself pronounce a final acquittal without a new trial, the decision applies to his own case and not only to future ones, and he is not convicted a second time."
     }
   ]
