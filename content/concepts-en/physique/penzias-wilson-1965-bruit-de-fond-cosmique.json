@@ -2,7 +2,7 @@
   "id": "phy-penzias-wilson-1965-bruit-de-fond-cosmique",
   "slug": "penzias-wilson-1965-bruit-de-fond-cosmique",
   "langue": "en",
-  "empreinte_fr": "9c53a0d0b6172e71",
+  "empreinte_fr": "1158dea478e54945",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,28 @@
     "explication": "Dicke's team had predicted this leftover radiation and was preparing a receiver to search for it, without yet having a result; Penzias and Wilson had the instrument and the signal, but not the theory. The two teams remained separate, and cleaning out the pigeons had not made the noise go away.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "In what year did Penzias and Wilson receive the Nobel Prize in Physics?",
+      "choix": [
+        "2019, the year of Peebles's prize",
+        "1959, the year the antenna was built",
+        "1965, the year of the joint publication",
+        "1978, for their detection of the signal"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The Nobel Prize in Physics was awarded in 1978 to Penzias and Wilson for their detection. Peebles received his in 2019, for his theoretical work in cosmology."
+    },
+    {
+      "question": "How does the measured noise vary with the time of day and the direction of the sky pointed at?",
+      "choix": [
+        "The same by day and by night, in every direction",
+        "Stronger at night, when the sky is colder",
+        "Stronger toward the Sun, in the direction aimed at",
+        "Stronger by day, heated by the Sun"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The signal stays the same by day and by night, whatever direction of sky is aimed at: it therefore comes neither from the Sun nor from one specific region of the sky."
+    }
+  ]
 }

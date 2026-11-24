@@ -2,7 +2,7 @@
   "id": "phy-eddington-1919-la-plaque-ecartee",
   "slug": "eddington-1919-la-plaque-ecartee",
   "langue": "en",
-  "empreinte_fr": "500c405243f3352b",
+  "empreinte_fr": "7ea4ddb8faacf746",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,28 @@
     "explication": "The astrographic plate gave 0.93'' in 1919, close to the Newtonian half-value; remeasured in 1979 with a more precise instrument, it gives 1.55'' ± 0.34'', consistent with Einstein. Kennefick establishes that the decision to set aside the astrograph is recorded in what appears to be Dyson's hand, and the 1920 report keeps two instruments, not one.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What deflection does Newtonian gravity predict at the edge of the Sun?",
+      "choix": [
+        "1.75 arcseconds, according to Einstein's relativity",
+        "1.98 arcseconds, the 4-inch lens at Sobral",
+        "0.87 arcseconds, according to Newton's gravity",
+        "1.61 arcseconds, measured at Príncipe"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Newtonian gravity treats light as an ordinary mass and predicts 0.87 arcseconds at the Sun's edge. Einstein predicts twice that, 1.75."
+    },
+    {
+      "question": "How many stars could Eddington photograph at Príncipe, and on how many plates?",
+      "choix": [
+        "One star, on one plate",
+        "Twelve stars, on two plates",
+        "Five stars, on four plates",
+        "Five stars, on two plates"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Cloudy skies at Príncipe left Eddington only five stars, spread over two plates. His result, 1.61 arcseconds, has an error margin of 0.30."
+    }
+  ]
 }
