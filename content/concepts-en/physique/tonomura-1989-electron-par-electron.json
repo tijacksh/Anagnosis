@@ -2,7 +2,7 @@
   "id": "phy-tonomura-1989-electron-par-electron",
   "slug": "tonomura-1989-electron-par-electron",
   "langue": "en",
-  "empreinte_fr": "da0f62e4bd2ec862",
+  "empreinte_fr": "fc2f0791c312555f",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,39 @@
     "explication": "The Bologna team (Merli, Missiroli, Pozzi) had published, in 1976, in the same journal as Hitachi, the gradual electron-by-electron buildup of an interference pattern, thirteen years before the paper cited by the 2002 poll. Jönsson, in 1961, sent several electrons at once, not one at a time; the poll was never invalidated, and Tonomura never admitted to copying anyone.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What role does the electron biprism play in Tonomura's apparatus?",
+      "choix": [
+        "It stands in for the two slits, splitting the beam into two possible paths",
+        "It amplifies the beam so several electrons pass through at once",
+        "It directly counts the number of impacts on the screen",
+        "It converts the electrons into photons before the screen"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The text states that the electron biprism stands in for the two slits, leaving two possible paths for a beam so weak that only one electron passes through at a time."
+    },
+    {
+      "question": "Who writes to the magazine, and when, to reveal the existence of the 1976 film shot in Bologna?",
+      "choix": [
+        "Rodolfo Rosa, in his 2012 reconstruction of the episode",
+        "John Steeds, in a letter sent to the magazine in May 2003",
+        "Peter Rodgers, the author of the article on the poll in 2002",
+        "Akira Tonomura, in reply to his own team"
+      ],
+      "bonne_reponse": 1,
+      "explication": "It is John Steeds who writes to the magazine in May 2003 to report having seen the 1976 film shot in Bologna, showing the same gradual buildup."
+    },
+    {
+      "question": "What conclusion does historian Rodolfo Rosa reach in his 2012 reconstruction of the episode?",
+      "choix": [
+        "That the two experiments, thirteen years apart, had in fact taken place the same calendar year",
+        "That the 2002 Physics World poll had to be cancelled over a procedural error in the count",
+        "That Tonomura's team had knowingly falsified the results published in its 1989 paper",
+        "That Merli, Missiroli, and Pozzi had carried out the first conclusive double-slit experiment with single electrons"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Rosa concludes without hedging, in his 2012 reconstruction, that priority belongs to Merli, Missiroli, and Pozzi, whom he credits with the first conclusive double-slit experiment with single electrons."
+    }
+  ]
 }

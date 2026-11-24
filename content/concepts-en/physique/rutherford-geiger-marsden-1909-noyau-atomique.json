@@ -2,7 +2,7 @@
   "id": "phy-rutherford-geiger-marsden-1909-noyau-atomique",
   "slug": "rutherford-geiger-marsden-1909-noyau-atomique",
   "langue": "en",
-  "empreinte_fr": "6a592a1015a19070",
+  "empreinte_fr": "031b2e54fee29548",
   "traduit_le": "2026-11-24",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,39 @@
     "explication": "A charge spread across the atom's whole volume can only deflect a massive projectile very slightly, through many small cumulative nudges; a large deflection angle requires a single collision with a concentrated mass, which only a dense nucleus explains. Gold keeps its electrons, and the pudding model predicted the absence of large bounces, not their near-universality.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What device served as the alpha-particle source in the 1909 experiment?",
+      "choix": [
+        "A small glass bulb containing radium emanation (radon)",
+        "A linear particle accelerator",
+        "An unshielded polonium source, with no containment",
+        "A vacuum tube fitted with an electron gun"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Geiger and Marsden's setup used a radon bulb, whose alpha particles passed through a mica opening before reaching the reflecting foil."
+    },
+    {
+      "question": "On what order of magnitude does Rutherford estimate, in 1911, the gold nucleus's positive charge?",
+      "choix": [
+        "A single elementary unit of charge",
+        "On the order of a hundred elementary units of charge",
+        "Several thousand elementary units of charge",
+        "Zero charge, the nucleus being electrically neutral"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Rutherford's scattering calculations assign gold's central charge a value on the order of a hundred elementary units, whose positive sign he only established in 1913."
+    },
+    {
+      "question": "How far did some alpha particles bounce back in the 1909 experiment?",
+      "choix": [
+        "At most about 45 degrees",
+        "Only about 10 degrees, a barely measurable deflection",
+        "More than 90 degrees, straight back toward their source",
+        "No deflection at all was measured, only a slowdown"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text states that some particles came back at more than 90 degrees, that is, straight back the way they came, which a diffuse nucleus could not have explained."
+    }
+  ]
 }

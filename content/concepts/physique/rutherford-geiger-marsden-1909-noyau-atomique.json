@@ -65,7 +65,41 @@
     "explication": "Une charge étalée sur tout le volume de l'atome ne peut dévier un projectile massif que très faiblement et par petites touches cumulées ; un grand angle de déviation suppose une collision unique avec une masse concentrée, ce que seul un noyau dense explique. L'or garde ses électrons, et le pudding prévoyait l'absence de grands rebonds, pas leur quasi-totalité.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Quel appareil a servi de source de particules alpha dans l'expérience de 1909 ?",
+      "choix": [
+        "Une petite ampoule de verre contenant de l'émanation de radium (du radon)",
+        "Un accélérateur de particules linéaire",
+        "Une source de polonium à l'air libre, sans confinement",
+        "Un tube à vide équipé d'un canon à électrons"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Le dispositif de Geiger et Marsden utilisait une ampoule de radon, dont les particules alpha traversaient une ouverture en mica avant d'atteindre la feuille réflectrice."
+    },
+    {
+      "question": "À quel ordre de grandeur Rutherford estime-t-il, en 1911, la charge positive du noyau d'un atome d'or ?",
+      "choix": [
+        "Une seule unité élémentaire de charge",
+        "Une centaine d'unités élémentaires de charge",
+        "Plusieurs milliers d'unités élémentaires de charge",
+        "Une charge nulle, le noyau étant électriquement neutre"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les calculs de diffusion de Rutherford attribuent à la charge centrale de l'or une valeur de l'ordre d'une centaine d'unités élémentaires, dont il n'établit le signe positif qu'en 1913."
+    },
+    {
+      "question": "Jusqu'à quel angle certaines particules alpha sont-elles revenues dans l'expérience de 1909 ?",
+      "choix": [
+        "Jusqu'à environ 45 degrés tout au plus",
+        "Jusqu'à 10 degrés, une déviation à peine mesurable",
+        "Jusqu'à plus de 90 degrés, revenant droit vers leur source",
+        "Aucune déviation mesurée, seulement un ralentissement"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le texte précise que certaines particules sont revenues à plus de 90 degrés, c'est-à-dire droit dans la direction d'où elles étaient venues, ce qu'un noyau diffus ne pouvait pas expliquer."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
