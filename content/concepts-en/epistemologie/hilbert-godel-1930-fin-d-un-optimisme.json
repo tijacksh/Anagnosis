@@ -1,0 +1,51 @@
+{
+  "id": "epi-hilbert-godel-1930-fin-d-un-optimisme",
+  "slug": "hilbert-godel-1930-fin-d-un-optimisme",
+  "langue": "en",
+  "empreinte_fr": "6e8b8fb0fe62a47b",
+  "traduit_le": "2026-11-24",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-traduite",
+      "note": "Citation originale en allemand (« Wir müssen wissen. Wir werden wissen. »). Rendue ici par la traduction anglaise consacrée et largement publiée (« We must know. We shall know. », reprise notamment par l'article anglais de Wikipédia sur David Hilbert), et non une traduction maison depuis le français."
+    }
+  ],
+  "titre": "Hilbert, Gödel, and the End of an Optimism (1930)",
+  "accroche": "On September 8, 1930, a mathematician promises we will know everything. The day before, in the same city, another has just proven otherwise.",
+  "contenu_vulgarise": "On September 8, 1930, German mathematician David Hilbert delivers, in Königsberg, the farewell address of his career before the Society of German Natural Scientists and Physicians. He rejects a Latin maxim popularized by physiologist Emil du Bois-Reymond, “ignoramus et ignorabimus” (we do not know and we shall never know), and closes with a now-famous formula: “Wir müssen wissen. Wir werden wissen.” We must know. We shall know. For a mathematician, he says, there is no unsolvable problem; it is the culmination of a program he had defended for decades, that of a single system of rules capable, in principle, of proving every mathematical truth.\n\n## One Day Earlier, in the Same City\n\nHilbert does not attend the epistemology conference held in parallel, from September 5 to 7, in the same city. On the last day, during a general discussion, a twenty-four-year-old Austrian logician, Kurt Gödel, announces without warning and almost in passing the first formulation of what will become his incompleteness theorem: in any formal system powerful enough to express arithmetic, there exist true statements that the system can neither prove nor refute from within. The announcement passes largely unnoticed at the time, according to accounts later gathered by his biographer John Dawson. Gödel will publish the complete proof the following year, in Vienna, with a second result just as consequential: a system cannot prove its own consistency using only its own means.\n\nHilbert, for his part, delivers his address the next day without a word about this announcement. Nothing indicates he had any knowledge of it before taking the podium, since he himself had not attended the round table where it took place.\n\n## What This Shifts\n\nOne might think that a discovery as important as Gödel's would have imposed itself at once, in the moment, on an entire room of logicians gathered to discuss it. It did not happen that way: the significance of a result does not depend only on its truth, but on the place it finds in what the audience is prepared to hear, and no one, that day, expected a limit to be placed precisely on the program Hilbert had carried for decades.\n\nGödel's theorem does not say that mathematics is false, nor that it lacks rigor: it says that no formal system can, by itself, exhaust all the truths it allows one to state. The ignorabimus that Hilbert believed he had definitively dismissed was returning, in a form that neither he nor his audience had anticipated, on the very day he was burying it.",
+  "citation": {
+    "texte": "We must know. We shall know.",
+    "auteur": "David Hilbert",
+    "source": "Closing address (“Naturerkennen und Logik”), Society of German Natural Scientists and Physicians, Königsberg, September 8, 1930; German original: “Wir müssen wissen. Wir werden wissen.”",
+    "url": "https://en.wikipedia.org/wiki/David_Hilbert"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The day a mathematician promised to know everything, another had just proven otherwise.",
+    "idee": "On September 8, 1930 in Königsberg, David Hilbert closes his career by promising that no mathematical problem will remain unsolvable. The day before, in the same city, Kurt Gödel had just announced, almost in passing, the theorem that would prove the opposite.",
+    "source_courte": "Hilbert, 1930; Gödel, 1930"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Second Conference on the Epistemology of the Exact Sciences (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Second_Conference_on_the_Epistemology_of_the_Exact_Sciences",
+      "note": "Details the Königsberg conference (September 5-7, 1930) where Gödel made his first announcement, and its other participants (Carnap, Heyting, von Neumann, Heisenberg)."
+    }
+  ],
+  "quiz": {
+    "question": "Why does Hilbert's address in Königsberg, on September 8, 1930, remain famous for a reason he had not anticipated?",
+    "choix": [
+      "Because it was interrupted live by Kurt Gödel, who came to publicly challenge his claim",
+      "Because it contradicted a German law on the teaching of mathematics passed that same year",
+      "Because the day before, in the same city, Gödel had just announced a result that precisely limits the program Hilbert was defending there",
+      "Because Hilbert himself had, without saying so, already abandoned his own research program"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Gödel's incompleteness theorem, announced the day before in a round table Hilbert did not attend, limits exactly the ambition Hilbert claimed achievable in his address; there was neither a public interruption, nor a law, nor any prior abandonment of the program by Hilbert himself.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}

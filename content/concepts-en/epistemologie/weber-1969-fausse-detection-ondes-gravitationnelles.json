@@ -1,0 +1,44 @@
+{
+  "id": "epi-weber-1969-fausse-detection-ondes-gravitationnelles",
+  "slug": "weber-1969-fausse-detection-ondes-gravitationnelles",
+  "langue": "en",
+  "empreinte_fr": "d1a333a27379d1ab",
+  "traduit_le": "2026-11-24",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Joseph Weber and the Gravitational Waves That Weren't There",
+  "accroche": "In 1969, a physicist announces he has detected gravitational waves. Ten teams redo the experiment. None recovers his result.",
+  "contenu_vulgarise": "On June 16, 1969, the journal Physical Review Letters publishes an article by physicist Joseph Weber, of the University of Maryland, titled “Evidence for Discovery of Gravitational Radiation.” Weber announces having picked up, with two detectors about 1,000 kilometers apart (one in Maryland, the other at Argonne National Laboratory, near Chicago), seventeen significant coincidences over three months. He concludes that his data are consistent with the existence of gravitational waves, predicted by Einstein in 1916 but never observed.\n\n## The Mechanism, and What Went Wrong\n\nEach of Weber's detectors is a massive aluminum cylinder, meant to vibrate very slightly when a gravitational wave passes. Ordinary noise (ground vibration, thermal agitation of the metal) affects each bar independently; a true gravitational wave, by contrast, should make both bars vibrate at the same instant, despite the distance. It is this coincidence that Weber is tracking.\n\nThe problem is that no one else finds it. About ten teams, at IBM, Bell Labs, Glasgow, Munich, Moscow, build their own bars to check the result: none succeeds. In 1973, Richard Garwin and James Levine, of IBM, publish in the same journal a detector far more sensitive than Weber's; over nine days of measurement, they observe only a single pulse exceeding their detection threshold, whereas the rate Weber announced should have produced several a day. Other physicists point out that, if Weber's signal were real, the Milky Way should have lost, in gravitational waves, the equivalent of its entire mass within a few million years, a physically absurd rate.\n\nWeber never retracts his claim. He dies in 2000 still maintaining that he had detected the first signal.\n\n## What This Shifts\n\nOne might think that a detector, once built, sees what it is designed to see, and that it is enough to look at its readings to settle the matter. Weber's story shows the opposite: a new instrument has, by definition, never yet seen the thing it is looking for, and nothing guarantees that a signal it produces comes from there rather than from misunderstood noise. The only way to know is for another instrument, built elsewhere by another team, to see the same thing.\n\nGravitational waves do exist: they are detected unambiguously for the first time on September 14, 2015, by LIGO's two laser interferometers, at Hanford and Livingston, about 3,000 kilometers apart, whose signal matches the precise waveform that general relativity predicts for the merger of two black holes. The technology has nothing to do with Weber's bars. One of his bars is today displayed at LIGO's Hanford site, in tribute to the physicist who launched the search, without ever managing to complete it himself.",
+  "citation": null,
+  "repere": {
+    "texte": "Over nine days of measurement with a detector more sensitive than Weber's, Richard Garwin and James Levine observed, in 1973, only a single pulse exceeding their detection threshold, whereas Weber had announced seventeen significant coincidences over three months, in 1969.",
+    "source": "Garwin, Richard L.; Levine, James L., “Absence of Gravity-Wave Signals in a Bar at 1695 Hz,” Physical Review Letters, vol. 31, p. 173-176, 1973",
+    "url": "https://doi.org/10.1103/PhysRevLett.31.173"
+  },
+  "carte": {
+    "punch": "In 1969, a physicist announces a discovery that no one else will ever manage to recover.",
+    "idee": "In 1969, Joseph Weber announces having detected gravitational waves with aluminum bars. About ten teams try to redo the experiment: none succeeds. Real gravitational waves will only be detected, with an entirely different technology, in 2015.",
+    "source_courte": "Weber, 1969; LIGO, 2015"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "First observation of gravitational waves (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves",
+      "note": "The confirmed detection of September 14, 2015 (event GW150914, merger of two black holes), with a technology entirely different from Weber's."
+    }
+  ],
+  "quiz": {
+    "question": "Why was the lack of replication by other teams decisive against Joseph Weber's claim?",
+    "choix": [
+      "Because the laws of physics ruled out, in 1969, the very existence of gravitational waves",
+      "Because funding for experimental physics research then required prior consensus",
+      "Because a real signal should also have appeared on detectors built elsewhere, independently, which none confirmed",
+      "Because Weber refused to share the technical plans of his own detectors with his colleagues"
+    ],
+    "bonne_reponse": 2,
+    "explication": "A real physical signal must appear, under the same conditions, on any properly built detector elsewhere; it is the total absence of independent confirmation, not an a priori theoretical impossibility, a funding issue, or a technical secret, that discredited the claim.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}
