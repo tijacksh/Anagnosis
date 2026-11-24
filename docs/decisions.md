@@ -1702,3 +1702,12 @@ Contexte : Anagnosis devient bilingue sur iOS et Android (décision d'Arnaud, 20
 
 ## 2026-11-22 : politique de drapeaux des fiches anglaises
 Arnaud retient **731 fiches servies en anglais** : drapeaux d'information (`citation-originale-anglaise`, `texte-officiel-anglais`) et `citation-traduite` acceptés ; `incertain`, `texte-officiel-a-verifier`, `citation-langue-originale` et `erreur-possible-fr` retiennent la fiche, qui repasse par le contrôle qualité (`npm run averifier-en`, routine décrite dans `docs/traduction-en.md`). Contrôle qualité complet des fiches traduites : reporté à cette routine. L'anglais reste éteint (`ANAGNOSIS_LANGUES` non posée) tant qu'Arnaud n'a pas dit go.
+
+---
+
+## 2026-11-24 — Écran de lecture : « Dépouillé »
+
+**Décidé :** l'écran de lecture garde le parti « Dépouillé » (1g) : le titre entre le premier, la figure s'intercale dans le flux. « Encre habillée » (1f, illustration pleine largeur en tête) est écartée.
+
+**Pourquoi :** l'app se lit et s'écoute, le texte passe d'abord ; 1g est déjà en place et identique sur iOS et Android.
+

@@ -82,7 +82,7 @@ de fiche est tronqué par ellipse si nécessaire, jamais replié sur deux lignes
 Empilement : la barre de titre est en `z-index: 5`, sous la barre d'état du
 système (niveau effectif 10) et au-dessus du contenu. La barre de menu est en 8.
 
-Deux partis maquettés :
+Deux partis maquettés (**tranché le 2026-11-24 : « Dépouillé », 1g ; « Encre habillée » est écartée**) :
 
 - **Encre habillée** (1f) — illustration pleine largeur en tête, encadré
   `citation` en aplat d'encre, intertitres marqués d'un filet de discipline.
