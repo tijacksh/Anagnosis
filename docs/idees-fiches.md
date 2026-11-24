@@ -494,6 +494,10 @@ peut rouvrir directement le texte du décret.)*
 | Institutions judiciaires | Magna Carta (1215), article 17 : les plaids communs ne suivront plus la cour du roi mais siégeront en un lieu fixe | fait | routine-production-arnaud | 2026-10-21 |
 | Institutions judiciaires | Les gacaca du Rwanda (2001-2012) : environ 12 000 juridictions pour 1,2 million d'affaires, une « tradition » devenue institution d'État | fait | routine-production-arnaud | 2026-10-21 |
 | Institutions judiciaires | L'Assise de Clarendon (1166) : un jury qui accuse, l'ordalie de l'eau qui tranche | fait | routine-production-arnaud | 2026-10-21 |
+| Institutions judiciaires | L'Althing islandais (930) et le lögsögumaður : la loi récitée de mémoire jusqu'à sa mise par écrit en 1117-1118 | fait | routine-production | 2026-11-24 |
+| Institutions judiciaires | Les Douze Tables romaines (450-449 av. J.-C.) : la loi écrite exigée par les plébéiens, disparue sans laisser de fragment | fait | routine-production | 2026-11-24 |
+| Institutions judiciaires | *Gideon v. Wainwright* (1963) : la pétition manuscrite d'un détenu qui étend le droit à l'avocat aux tribunaux des États | fait | routine-production | 2026-11-24 |
+| Institutions judiciaires | Le Statute of Westminster (1275), chapitre XV : la première liste écrite des prisonniers libérables sous caution | fait | routine-production | 2026-11-24 |
 | Linguistique | La préface du Dictionnaire de Johnson (1755) : l'auteur du « dictionnaire qui fixe l'anglais » écrit qu'enchaîner les syllabes, c'est fouetter le vent | fait | routine-production-arnaud | 2026-10-22 |
 | Linguistique | Le silbo gomero : une langue sifflée qui transpose l'espagnol, et ce que l'imagerie cérébrale y lit (Carreiras et al., Nature, 2005) | fait | routine-production-arnaud | 2026-10-22 |
 | Linguistique | Bouba/kiki : de baluba/takete (Köhler) à l'étude de 25 langues (2021), un effet robuste mais pas universel | fait | routine-production-arnaud | 2026-10-22 |
