@@ -77,7 +77,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "La loi laissait en place la qualification de propriété héritée de 1825 et permettait au juge d'ordonner un jury d'hommes seuls ou de femmes seules. Elle n'exigeait ni mariage ni accord du mari et ne réservait pas les affaires criminelles aux hommes : Bristol juge un vol devant un jury mixte dès juillet 1920. Aucun quota n'y figure.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -114,7 +114,7 @@
       "explication": "Dans la Law and History Review, K. Crosby écrit que la loi de 1919 a élargi le droit de siéger pour certaines femmes, et que des restrictions ont suivi presque aussitôt."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-20",
@@ -131,7 +131,7 @@
   },
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-21T07:22:55.645Z",
+    "decide_le": "2026-11-24T17:02:33.647Z",
     "historique": [
       {
         "action": "retoucher",
@@ -148,6 +148,14 @@
         "par": "routine-reparation",
         "le": "2026-10-21T07:22:55.645Z",
         "note": "Deuxième passage de réparation. Les trois adresses bloquées au passage précédent (legalhistorymiscellany.com, regionalhistorianuwe.org, et le lien secondaire womenslegallandmarks.com) restent inaccessibles par WebFetch direct depuis cet environnement (DNS), mais le contrôle du 20/10 les a rouvertes avec succès dans l'intervalle et corrigé lui-même deux formulations mineures (« ont grogné... pendant un temps » ; « K. Crosby ») ; je revérifie indépendamment par WebSearch : 80 femmes et 333 hommes convoqués à Bristol en 1921 confirmé mot pour mot (legalhistorymiscellany.com, snippet direct) ; écart d'âge de quatre à neuf ans confirmé ; premier dossier jugé le 29 juillet 1920 par un jury de six femmes et six hommes confirmé être un vol avec condamnation de l'accusé (regionalhistorianuwe.org, snippet direct), ce qui lève le doute vol/agression déjà signalé comme levé par le contrôle. legislation.gov.uk (Sex Disqualification (Removal) Act 1919) revérifié par WebFetch direct : article premier, jury d'un seul sexe, dispense pour nature des preuves, abrogation des lois de 1870/1871, tout conforme. Cambridge/Crosby revérifié par WebFetch direct : « some women », restrictions immédiates confirmées ; le prénom complet de l'auteur (Kevin) trouvé dans les notes 10 et 84 du même article et ajouté (la page n'indique que « K Crosby », sans genre — corrigé dans le corps et la source). Aucun doute de fond restant."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-11-24T17:02:33.647Z",
+        "note": "Déjà réparée deux fois et revenue : carte.punch contredit le corps (qualification de propriété maintenue), lien causal écart d'âge / quarter sessions non établi par les sources, attributions de sources erronées (womenslegallandmarks, UWE, Bristol Archives). Rejet selon la règle des deux réparations."
       }
     ]
   },
