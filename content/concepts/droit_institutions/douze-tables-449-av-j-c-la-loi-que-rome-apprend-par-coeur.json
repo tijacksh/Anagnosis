@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Avant les Douze Tables, le droit romain restait largement coutumier, interprété par les pontifes et administré par les patriciens, d'abord dans leur propre intérêt. L'écrit ne supprime pas la distinction patriciens-plébéiens, toujours présente à la table XI, ne touche à aucune magistrature et ne reprend pas directement les lois de Solon : l'ambassade en Grèce rapportée par Tite-Live est elle-même mise en doute.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -101,12 +101,21 @@
       "explication": "Tite-Live rapporte qu'une ambassade aurait été envoyée en Grèce pour étudier la constitution de Solon à Athènes, un récit que des historiens modernes mettent en doute, penchant plutôt pour un contact avec les cités grecques du sud de l'Italie. Rien n'indique une rédaction confiée aux pontifes, aux plébéiens eux-mêmes, ou une simple reprise du droit coutumier existant."
     }
   ],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-24T08:15:46.613Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-24T08:15:46.613Z",
+        "note": "Contrôle : « administré par les patriciens, d'abord dans leur propre intérêt » non soutenu par les sources."
+      }
+    ]
   },
   "meta": {
     "genere_le": "2026-11-24",
@@ -115,10 +124,10 @@
   },
   "controle": {
     "fait_le": "2026-11-24",
-    "verdict": "corrige",
-    "empreinte": "91aa4448d84253a8",
+    "verdict": "a_revoir",
+    "empreinte": "59d70c9b64f5f526",
     "notes": [
-      "Sources rouvertes (Gutenberg/archive.org, Avalon, Wikipedia). Corrigé : annee de la source 2 (1904 faux) remplacée par 1961 (Coleman-Norton dans Pharr, Ancient Roman Statutes). Confirmé : bronze/ivoire (Pomponius), 451/450/449, destruction probable en 387, aucun fragment, citation « ut carmen necessarium » (De Legibus II, 23, 59), tables V, VIII, X, XI, ambassade grecque contestée."
+      "Sources rouvertes (Avalon, Gutenberg/Coleman-Norton, Wikipédia). Confirmé : bronze/ivoire, 451/450/449, destruction probable 387, aucun fragment, ut carmen necessarium, tables V, VIII, X, XI, sécession, ambassade grecque contestée. À vérifier : « administré par les patriciens, d'abord dans leur propre intérêt » (contenu_vulgarise et explication du quiz) : aucune des trois sources ne dit cela ; Wikipédia dit seulement droit non écrit, interprété par les pontifes, prêtres de l'élite. Reformuler sur la source ou sourcer."
     ]
   }
 }
