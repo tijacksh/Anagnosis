@@ -543,3 +543,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-25 06:00 | reparer | arnaud | 3 fiches : convention-paris-1883 et gideon-v-wainwright revalidées (détails corrigés : salle de Paris non sourcée, exposition NARA datée), selfie-de-naruto rejetée (déjà réparée deux fois) ; EN mises à jour pour les deux revalidées |
 | 2026-11-25 08:03 | questionner | arnaud | Rien à faire : chaque fiche servie (993) porte au moins 2 questions de plus. Rattrapage terminé. |
 | 2026-11-25 08:34 | relire | arnaud | Rien à faire : aucun brouillon décidable (2 en attente de contrôle). |
+| 2026-11-25 08:46 | controler-droit | arnaud | 8 fiches revues, toutes ok (1824-combination-acts, 1914-clayton-act, 1938-fair-labor-standards-act, 1948-convention-oit-87, althing-930, douze-tables, gideon-v-wainwright, miranda) ; aucune correction, aucune version EN touchée. Note : détail Darby (tribunal de district, pas appel) à voir au prochain contrôle |
