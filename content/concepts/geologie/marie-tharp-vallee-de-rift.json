@@ -73,7 +73,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Ce qui a fait basculer Heezen n'est pas une nouvelle mesure du relief. C'est une carte totalement indépendante : celle des épicentres des séismes de l'Atlantique, qui suivait précisément la même ligne que la vallée repérée par Tharp. La coïncidence entre deux données indépendantes a rendu la vallée de rift impossible à écarter.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -110,11 +110,11 @@
       "explication": "La théorie de la dérive des continents de Wegener, proposée quarante ans plus tôt, restait sans mécanisme convaincant. Une vallée de rift active sur toute la longueur d'une chaîne sous-marine mondiale offre la preuve d'un endroit où la croûte océanique s'écarte réellement."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-31T07:33:47.168Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-25T12:17:15.990Z",
     "historique": [
       {
         "action": "valider",
@@ -123,6 +123,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-31T07:33:47.168Z",
         "note": "Validation en lot après contrôle des sources (verdict ok)."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-25T12:17:15.990Z",
+        "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
       }
     ]
   },
@@ -132,11 +140,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "bd07b43de04c27a2",
+    "fait_le": "2026-11-25",
+    "verdict": "a_revoir",
+    "empreinte": "3cfc7adc103adedb",
     "notes": [
-      "Écart d'empreinte confirmé purement administratif : quiz.statut est passé de \"brouillon\" à \"valide\" lors de la validation en lot du 2026-07-31, postérieure au contrôle du 2026-07-30 — aucun changement de fond (vérifié en recalculant l'empreinte avec quiz.statut remis à brouillon : elle correspond exactement à celle enregistrée). Spot-check de la citation Heezen sur NOAA Ocean Exploration : page toujours en ligne, texte reproduit à l'identique (« In three of the transatlantic profiles... didn't believe it for a year »), toujours attribué à Wertenbaker, The Floor of the Sea (1974, p.144). Aucune autre vérification nécessaire, notes du contrôle du 2026-07-30 confirmées."
+      "Sources rouvertes (AIP, NOAA, page Lamont). Concordent : citation de Heezen, textuelle, d'après Wertenbaker 1974 p. 144 (NOAA) ; elle n'était pas autorisée à embarquer ; travail avec Heezen sur les profils ; 1952 ; épicentres cartographiés à la même échelle et dans la vallée de rift (AIP) ; carte de Berann 1977. Non soutenu par les sources de la fiche : 1) « le règlement de la marine américaine interdit aux femmes les campagnes en mer » (corps, quiz supplémentaire 1) : AIP dit seulement qu'elle n'avait pas le droit d'embarquer ; la Navy n'est nommée nulle part. 2) « présentent leurs résultats à l'AGU en 1956 » : aucune source. 3) « n'embarquera qu'en 1968, seize ans après » : AIP dit que dès le milieu des années 1960 elle a pu accompagner Heezen sur d'autres navires, 1968 n'est que la date d'une photo sur l'USNS Kane. 4) Heezen convaincu « un an après » par la carte des épicentres : AIP dit seulement que les séismes tombent dans la vallée, et NOAA que Heezen n'y crut pas pendant un an ; le lien causal et le délai ne sont pas dans les sources citées (corps, carte, quiz). 5) Wegener « quarante ans plus tôt » non sourcé. À reprendre ou à sourcer (Wertenbaker, Tharp, Barton 2002)."
     ]
   }
 }

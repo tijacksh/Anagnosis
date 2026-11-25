@@ -68,25 +68,45 @@
   "quiz_supplementaire": [
     {
       "question": "Qu'est-ce qui explique l'odeur d'œufs pourris sentie par de nombreux survivants, selon la fiche ?",
-      "choix": ["Le CO2, à dose non mortelle, peut faire sentir des composés soufrés qui n'existent pas", "Le gaz contenait réellement du sulfure d'hydrogène en grande quantité", "L'odeur venait de la combustion des lampes à huile renversées", "Le gaz avait entraîné des algues en décomposition depuis le fond du lac"],
+      "choix": [
+        "Le CO2, à dose non mortelle, peut faire sentir des composés soufrés qui n'existent pas",
+        "Le gaz contenait réellement du sulfure d'hydrogène en grande quantité",
+        "L'odeur venait de la combustion des lampes à huile renversées",
+        "Le gaz avait entraîné des algues en décomposition depuis le fond du lac"
+      ],
       "bonne_reponse": 0,
       "explication": "Le texte dit que le CO2, à doses non mortelles, agit comme un anesthésique et peut faire sentir des composés soufrés qui n'existent pas ; ce n'est ni du sulfure d'hydrogène réel, ni une autre cause citée dans la fiche."
     },
     {
       "question": "Comment le monde extérieur apprend-il la catastrophe du lac Nyos ?",
-      "choix": ["Un appel radio des villageois survivants dès le 22 août", "Un satellite météorologique détecte le nuage le 21 août au soir", "Deux pilotes d'une mission suisse survolent la zone le 24 août", "Des sismographes internationaux enregistrent l'événement en direct"],
+      "choix": [
+        "Un appel radio des villageois survivants dès le 22 août",
+        "Un satellite météorologique détecte le nuage le 21 août au soir",
+        "Deux pilotes d'une mission suisse survolent la zone le 24 août",
+        "Des sismographes internationaux enregistrent l'événement en direct"
+      ],
       "bonne_reponse": 2,
       "explication": "Le texte dit que le monde extérieur n'apprend rien avant le 24 août, quand deux pilotes d'une mission suisse survolent la zone ; les trois autres propositions ne figurent pas dans la fiche."
     },
     {
       "question": "Quel autre lac la fiche cite-t-elle comme ayant connu un dégazage mortel comparable, deux ans plus tôt ?",
-      "choix": ["Le lac Monoun, en 1984, avec 37 morts", "Le lac Kivu, en 1990, sans victime", "Le lac Tchad, en 1986, sans aucun gaz", "Le lac Victoria, en 1988, asséché net"],
+      "choix": [
+        "Le lac Monoun, en 1984, avec 37 morts",
+        "Le lac Kivu, en 1990, sans victime",
+        "Le lac Tchad, en 1986, sans aucun gaz",
+        "Le lac Victoria, en 1988, asséché net"
+      ],
       "bonne_reponse": 0,
       "explication": "Le texte mentionne un épisode semblable au lac Monoun en 1984, qui avait fait 37 morts ; aucun des trois autres lacs n'apparaît dans la fiche."
     },
     {
       "question": "Qu'est-il arrivé au niveau du lac après la libération du gaz, selon les estimations de Kling et ses coauteurs ?",
-      "choix": ["Il a monté d'environ 110 cm, le gaz ayant déplacé de l'eau vers la surface", "Il a baissé d'environ 110 cm, correspondant au volume de gaz libéré", "Il est resté rigoureusement stable, aucun changement n'a été mesuré", "Il a baissé de plusieurs mètres, vidant presque entièrement le lac"],
+      "choix": [
+        "Il a monté d'environ 110 cm, le gaz ayant déplacé de l'eau vers la surface",
+        "Il a baissé d'environ 110 cm, correspondant au volume de gaz libéré",
+        "Il est resté rigoureusement stable, aucun changement n'a été mesuré",
+        "Il a baissé de plusieurs mètres, vidant presque entièrement le lac"
+      ],
       "bonne_reponse": 1,
       "explication": "Kling et ses coauteurs estiment que 1,2 km³ de gaz libérés auraient abaissé le niveau du lac d'environ 110 cm, en accord avec les observations des pilotes et des villageois, non une hausse ni une stabilité du niveau."
     }
@@ -108,11 +128,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-10-13",
-    "verdict": "a_revoir",
-    "empreinte": "44d44bde44f71f26",
+    "fait_le": "2026-11-25",
+    "verdict": "ok",
+    "empreinte": "7fea5019d23133c1",
     "notes": [
-      "Kling et al. 1987 lu en entier (extraction du PDF) : tous les chiffres concordent (21h30, grondements de 15 à 20 s, 1 700 morts et 3 000 bovins jusqu'à 10 km, réveil entre 6 et 36 h, lampes éteintes, alerte du 24 août par deux pilotes de Helimission, équipe sur place le 27 août, mesures des 4-5 septembre, Soufrière 82 °C, refroidissement maximal de 0,5 °C en 12 jours, pas de constituant volcanique frais dans le sédiment, 1,5 km3 à saturation, 1,2 km3 libérés, baisse d'environ 110 cm, nuage à 100 m au-dessus du rebord, 208 m, Kumba à 220 km sans secousse, cicatrice de glissement non datée, Monoun 37 morts, CO2 anesthésiant et odeur soufrée) ; Eos 2016 confirme dégazage de quinze ans, lac relativement sûr, accord sur l'explication limnique. À réviser : « Les lésions cutanées des survivants sont des escarres, non des brûlures chimiques ». Kling écrit que, thermiques exceptées (peu de cas, surtout liées à une chute près d'une source de chaleur), les lésions semblent être des effets traumatiques de position dus à l'inconscience prolongée, et que plusieurs relèvent de maladies antérieures au 21 août ; il ne parle pas de brûlures chimiques. La phrase généralise et introduit une opposition absente de la source. Écart de sens mineur, à reformuler au plus près de l'article. Accessoire : « s'est accumulé dans les 208 mètres du fond » est ambigu (208 m est la profondeur maximale ; l'hypolimnion commence bien plus haut)."
+      "Eos 2016 rouvert : 1 746 morts et plus de 3 000 têtes de bétail, tubes de dégazage français, 15 ans de dégazage, lac relativement sûr, accord sur l'explication limnique : conforme. Kling et al. 1987 (Science) derrière paywall, non rouvert cette fois : tous les chiffres ont été vérifiés sur le PDF intégral le 2026-10-13 (contrôle) et le 2026-10-14 (réparation, y compris « aucune preuve de brûlure chimique »), et le texte du corps n'a pas changé depuis ; seules des questions ont été ajoutées, reprenant des faits du corps."
     ]
   },
   "controle_juridique": null,

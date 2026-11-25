@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le charbon est une roche sédimentaire qui s'enfouit rarement au-delà de quelques kilomètres, alors que les diamants cristallisent à 150-200 km de profondeur. Beaucoup de diamants sont d'ailleurs bien plus anciens que les premières plantes terrestres, qui sont pourtant la matière première du charbon.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -109,11 +109,11 @@
       "explication": "Des chercheurs de l'observatoire Lamont-Doherty ont daté certaines inclusions jusqu'à 2,6 milliards d'années, largement avant les premières plantes terrestres, apparues il y a environ 450 millions d'années."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-25T11:01:59.999Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-25T12:17:15.988Z",
     "historique": [
       {
         "action": "valider",
@@ -138,6 +138,14 @@
         "par": "routine-reparation",
         "le": "2026-11-25T11:01:59.999Z",
         "note": "Sources rouvertes : geology.com (la plupart des diamants datés plus vieux que les premières plantes, charbon jusqu'à 3,2 km), Columbia/Lamont-Doherty (inclusions jusqu'à 2,6 Ga), GIA (150-200 km). Corrigé : « plus d'un milliard d'années » retiré de l'accroche, du punch et de la carte (aucune source), remplacé par « la plupart des diamants datés plus vieux que les premières plantes » ; « au moins 1050 °C » ; charbon « rarement » sous 3,2 km ; « gisements commerciaux » retiré ; quiz aligné. Anglais mis à jour."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-25T12:17:15.988Z",
+        "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
       }
     ]
   },
@@ -149,9 +157,9 @@
   "controle": {
     "fait_le": "2026-11-25",
     "verdict": "a_revoir",
-    "empreinte": "ecc68f35d9456d1f",
+    "empreinte": "28b3e98411f20015",
     "notes": [
-      "Sources rouvertes (GIA, geology.com, Columbia). Accroche et carte « souvent plus d'un milliard d'années » : aucune source ne l'affirme (geology.com : la plupart des diamants datés sont bien plus vieux que les premières plantes, soit plus de 450 Ma ; Columbia : 2,6 Ga à 700 Ma pour les inclusions). À reformuler. Mineurs : « plus de 1050 °C » devient « au moins 1050 °C » ; charbon « rarement » sous 3,2 km ; « gisements commerciaux » devient « gisements dans la roche ». OK : 150-200 km, 450 Ma, 2,6 Ga, carbone du manteau ou subduction."
+      "Sources rouvertes (GIA, geology.com, Columbia). Concordent : 150-200 km, 1050 °C minimum, charbon rarement sous 3,2 km, plantes terrestres vers 450 Ma, « la plupart des diamants datés » plus vieux, inclusions jusqu'à 2,6 Ga (Columbia : 2,6 Ga à 700 Ma), subduction. À corriger : « du carbone piégé dans le manteau depuis les débuts de la Terre » (corps, quiz supplémentaire 2 bonne réponse et explication) n'est dans aucune des trois sources : GIA parle de recyclage de matière de surface et de fusion profonde, Columbia de carbone venant de la plaque océanique en subduction pour une des périodes. Reformuler au plus près (carbone du manteau ou recyclé par subduction) sans « depuis les débuts de la Terre ». « recyclé sur des centaines de millions d'années » : GIA ne cite que des fluides de plus de 200 Ma, à ajuster."
     ]
   }
 }
