@@ -70,7 +70,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "La cour reconnaît à Naruto la qualité pour agir au sens de la Constitution, un préjudice concret étant allégué, mais lui refuse la qualité pour agir prévue par le Copyright Act, qui n'autorise pas explicitement les animaux à porter plainte. Elle ne tranche pas qui, de Slater ou de personne, détient le droit d'auteur.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -107,11 +107,11 @@
       "explication": "L'Office refuse la protection des images de Zarya of the Dawn en s'appuyant sur l'exigence d'auteur humain posée neuf ans plus tôt à cause du singe : sans main humaine derrière le résultat, personne ne peut être désigné comme auteur."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-10-24T07:15:35.860Z",
+    "decide_le": "2026-11-25T05:00:46.444Z",
     "historique": [
       {
         "action": "valider",
@@ -128,6 +128,14 @@
         "par": "routine-reparation",
         "le": "2026-10-24T07:15:35.860Z",
         "note": "Sources rouvertes : opinion 9e circuit (cdn.ca9.uscourts.gov, pdftotext integral), Wikisource (passage de la citation), Wikipedia Monkey selfie copyright dispute (WebFetch, dates et statut de l'espece). Point signale par le controle confirme et corrige : la citation 'If Congress and the President...' n'est pas de Bea mais du tribunal de district dans Citizens to End Animal Suffering & Exploitation, Inc. v. New England Aquarium, 836 F. Supp. 45, 49 (D. Mass. 1993), relayee par Cetacean Community v. Bush, 386 F.3d 1169, 1175-76 (9th Cir. 2004), elle-meme citee par Bea dans Naruto v. Slater (confirme mot pour mot dans le pdftotext de l'opinion officielle, note de bas de page 8 citant explicitement Citizens). citation.auteur et citation.source corriges en consequence. Vérification complète par ailleurs : le corps attribuait aussi a tort a 'la cour' le reproche fait a PETA d'avoir instrumentalise Naruto malgre l'accord de septembre 2017 — ce reproche est en realite celui du juge N.R. Smith dans son opinion separee (footnote 11 : 'PETA used Naruto as a pawn'), alors que l'opinion de Bea se limite a noter, pour les honoraires d'avocat, que Naruto n'etait pas partie a cet accord (footnote 12). Corps et quiz_supplementaire corriges pour distinguer les deux opinions. Confirme sans reserve : citation exacte mot pour mot ; accord Slater/PETA du 11 septembre 2017 et quote-part de 25% (Wikipedia) ; dates 4 et 9 juillet 2011, reserve de Tangkoko, macaque a crete en danger critique, 'une trentaine de minutes' et 'des centaines de photos' (Wikipedia, citation de Slater) ; plainte PETA du 22 septembre 2015 ; rejet Orrick du 28 janvier 2016 ; decision du 23 avril 2018 ; Compendium §313.2 et sa troisieme edition du 22 decembre 2014 ; Zarya of the Dawn du 21 fevrier 2023. Carte et quiz principal relus, conformes aux sources."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-11-25T05:00:46.444Z",
+        "note": "Déjà réparée deux fois et revenue. Reste trois affirmations non soutenues : la carte (« ni le Copyright Office ni la cour d'appel ne reconnaissent d'auteur », alors que la cour ne statue que sur la qualité pour agir et que le Compendium cite l'exemple sans examiner la photo), « premier roman graphique assisté par IA générative » absent de la décision Zarya, et « préjudice reconnu » alors que la cour retient un préjudice allégué. Pas de troisième réparation."
       }
     ]
   },
