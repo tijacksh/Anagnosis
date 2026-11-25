@@ -1,0 +1,83 @@
+{
+ "id": "dro-1914-clayton-act-le-mot-qui-ne-suffit-pas",
+ "slug": "1914-clayton-act-le-mot-qui-ne-suffit-pas",
+ "langue": "en",
+ "empreinte_fr": "aa8a645f286c62e1",
+ "traduit_le": "2026-11-25",
+ "moteur": "claude-code",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation.texte",
+   "type": "texte-officiel-a-verifier",
+   "note": "Statutory text (15 U.S.C. § 17, same URL as French). Wording taken from the repo's own validation record, which quoted Cornell LII word for word; the page itself could not be reopened in this unattended run. Re-check against Cornell."
+  }
+ ],
+ "titre": "The 1914 Clayton Act Frees Unions; the Supreme Court Reins Them Back In",
+ "accroche": "In 1914, Congress writes that labor is not a commodity and takes unions out of antitrust law. Seven years later, a justice empties the clause of its meaning.",
+ "contenu_vulgarise": "On October 15, 1914, the United States Congress passes the Clayton Antitrust Act. Its section 6 opens with a statement of principle unusual for an economic law: the labor of a human being is not a commodity or an article of commerce. It adds that the antitrust laws cannot forbid the existence or operation of labor organizations formed for mutual help, nor stop their members from carrying out the legitimate objects of their organization. Unions, which since 1890 had feared being prosecuted as cartels under the Sherman Antitrust Act, hail a text they present as their emancipation.\n\n## A Boycott Tests the Limit of the Text\n\nThe test comes quickly. The Duplex Printing Press company, of Michigan, refuses to unionize its plant. Unions of New York machinists then organize a secondary boycott: they pressure Duplex's customers and carriers to stop delivering, installing, or repairing its presses. Duplex asks the federal courts for an injunction. The case, Duplex Printing Press Co. v. Deering, reaches the Supreme Court, which rules on January 3, 1921, by six votes to three.\n\n## What Section 6 Protects, and What It Does Not\n\nJustice Mahlon Pitney, for the majority, reads section 6 narrowly. It presumes a union's ordinary aims to be legitimate, he writes, and prevents it from being labeled a cartel merely because it exists; but it does not exempt a union that departs from them to join a combination restraining trade. The secondary boycott, which targets third parties with no direct link to the dispute, is not the peaceful persuasion the law protects. The Court therefore grants the injunction Duplex asked for. Justice Louis Brandeis, in dissent, holds on the contrary that the action defended a common interest of union members, and that the 1914 law covered it.\n\n## The Law That Repairs the Court's Reading\n\nThe Duplex decision empties part of the 1914 promise: through the 1920s, courts keep issuing injunctions against striking unions. It takes a new law, the Norris-LaGuardia Act, passed on March 23, 1932, for Congress to explicitly forbid the federal courts from issuing injunctions in labor disputes, except by following a procedure strictly framed by that text. What section 6 of the Clayton Act asserted in principle, the 1932 law finally makes hard to get around in court.\n\nA statement of principle written into law is not enough on its own to close a door: a court had to spell out how narrow it was, then a second text had to shut what the court had left open.",
+ "citation": {
+  "texte": "The labor of a human being is not a commodity or article of commerce.",
+  "auteur": "United States Congress",
+  "source": "Clayton Antitrust Act, section 6, codified at 15 U.S.C. § 17 (1914)",
+  "url": "https://www.law.cornell.edu/uscode/text/15/17"
+ },
+ "repere": null,
+ "carte": {
+  "punch": "In 1914, the law says labor is not a commodity. In 1921, a justice empties it of meaning.",
+  "idee": "In 1914, the Clayton Act declares that labor is not a commodity and puts unions outside antitrust law. In 1921, the Supreme Court reads this clause so narrowly that it still allows an injunction against a union. A 1932 law will finally limit such injunctions.",
+  "source_courte": "Clayton Act, 1914; Supreme Court, Duplex v. Deering, 1921"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Duplex Printing Press Co. v. Deering, Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Duplex_Printing_Press_Co._v._Deering",
+   "note": "Details the procedure and the aftermath of the decision in the 1920s."
+  }
+ ],
+ "quiz": {
+  "question": "What does the U.S. Supreme Court decide in Duplex Printing Press Co. v. Deering (1921), despite section 6 of the 1914 Clayton Act?",
+  "choix": [
+   "That no union can henceforth be prosecuted under the antitrust laws",
+   "That section 6 does not protect a secondary boycott aimed at third parties, and upholds the injunction",
+   "That the 1914 Clayton Act is unconstitutional and must be repealed",
+   "That only agricultural unions benefit from the antitrust exemption"
+  ],
+  "bonne_reponse": 1,
+  "explication": "The Court reads section 6 narrowly: it protects a union's existence and legitimate aims, but not a secondary boycott aimed at third parties. It does not challenge the law itself, does not limit the exemption to agricultural unions, and declares the law neither unconstitutional nor repealed.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": [
+  {
+   "question": "What does section 6 of the 1914 Clayton Act say about human labor?",
+   "choix": [
+    "That it must be paid at least the federal minimum wage",
+    "That it is not a commodity or an article of commerce",
+    "That it falls exclusively under state law, not federal law"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry quotes the exact wording of section 6: the labor of a human being is not a commodity or article of commerce."
+  },
+  {
+   "question": "What kind of union action does the Supreme Court find unprotected in Duplex v. Deering?",
+   "choix": [
+    "A strike at the targeted employer's workplace",
+    "A secondary boycott aimed at third parties with no direct link to the dispute",
+    "Collective bargaining over a wage agreement"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The entry specifies that the secondary boycott, which pressures customers and carriers foreign to the dispute, is not held to be protected by section 6."
+  },
+  {
+   "question": "In what year does Congress pass the Norris-LaGuardia Act, which restricts federal injunctions against unions?",
+   "choix": [
+    "1914",
+    "1921",
+    "1932",
+    "1947"
+   ],
+   "bonne_reponse": 2,
+   "explication": "The entry states that this law is passed on March 23, 1932, to answer the Supreme Court's narrow reading of section 6 of the Clayton Act in Duplex v. Deering."
+  }
+ ]
+}
