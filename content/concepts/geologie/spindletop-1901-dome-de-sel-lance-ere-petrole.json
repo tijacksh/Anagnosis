@@ -66,10 +66,10 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le sel flue lentement vers le haut sous la charge inégale des sédiments, déforme et courbe les couches qu'il traverse, puis agit comme un couvercle imperméable : le pétrole et le gaz, plus légers que l'eau, s'accumulent contre lui. Les autres propositions ne décrivent aucun mécanisme réel.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-25",
@@ -82,6 +82,20 @@
     "empreinte": "a8499b0831ef0e0e",
     "notes": [
       "Sources rouvertes : Wikipédia Spindletop (date du 10 janvier 1901, profondeur 1139 pieds/347 m, jaillissement >150 pieds/50 m, débit ~100 000 barils/j, Higgins et Lucas, financement Mellon avec Galey et Guffey, 13 jaillissements en juin 1901, 285 puits fin 1902, Gulf Oil et Texaco nées du site, confirmés) ; USGS Open-File Report 73-7 (263 dômes de sel connus ou suspectés dans la région Texas-Louisiane-Mississippi-Alabama, confirmé mot pour mot) ; Wikipédia Salt dome (mécanisme de la charge différentielle faisant fluer le sel ductile, qui perce et courbe les strates, confirmé — la fiche attribue bien le moteur à « la charge inégale des couches », pas à la seule flottabilité) ; recherche croisée (Wikipédia Petroleum trap, SLB Energy Glossary) confirmant le rôle de couvercle imperméable du sel et le piège qui en résulte pour les hydrocarbures, mécanisme standard en géologie pétrolière. Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-25T20:36:48.570Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-25T20:36:48.570Z",
+        "note": "Sources rouvertes : Wikipedia Spindletop, Wikipedia Salt dome, USGS notice des dômes de sel (date, profondeur, jet, débit, 9 jours, 575 pieds, Mellon, Jurassique, 263 dômes, 285 puits : confirmés). Non soutenu : « le prix du baril s'effondre localement » (la source ne parle d'aucune chute) ; Lucas « ingénieur des mines » ayant observé l'association sel/soufre/gaz/pétrole en Louisiane (la source dit seulement expert des dômes de sel) ; Higgins « sans formation géologique », « peine à convaincre » (absent) ; « treize puits » en six mois : la source dit 13 gushers fin juin ; Texaco et Gulf issues « des financements réunis pour Lucas » : lien non établi. Réécrire au plus près de la source."
+      }
     ]
   }
 }

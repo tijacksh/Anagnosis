@@ -58,10 +58,10 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le séisme a déjà commencé quand l'alerte part : l'onde P, rapide, déclenche les capteurs, et le message électronique qui en résulte voyage à la vitesse de la lumière, plus vite que l'onde S qui cause le plus de dégâts. Ce n'est en rien une prédiction, et les autres mécanismes proposés n'existent pas.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-25",
@@ -74,6 +74,20 @@
     "empreinte": "7aced554968b9e09",
     "notes": [
       "Sources rouvertes : USGS Earthquake Early Warning Overview (vitesses des ondes P ~3,7 mi/s et S/surface ~2,5 mi/s confirmées, citation exacte « ShakeAlert® is not earthquake prediction », dates du 17 octobre 2019 et du 4 mai 2021/50 millions de personnes confirmées — les seuils MMI III/4,5+ ne figurent que dans la note de source, pas dans le texte publié de la fiche) et USGS Ridgecrest 2019 (détection/caractérisation en 6,9 s, alertes limitées au comté de L.A. via ShakeAlertLA, sous-estimation de 0,8 point confirmées). Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-25T20:36:48.467Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-25T20:36:48.467Z",
+        "note": "Sources rouvertes : USGS Earthquake Early Warning Overview (citation, vitesses P/S, 17 oct 2019, 4 mai 2021 et 50 M : confirmés), USGS Ridgecrest 2019 (6,9 s et sous-estimation de 0,8 confirmés). Doutes : la fiche dit que seul le comté de LA reçoit des alertes publiques, or la page dit que l'alerte publique n'y était disponible mais qu'aucune alerte n'a été envoyée par ShakeAlertLA pour les deux séismes ; les dates 4 et 5 juillet 2019 ne figurent pas dans la page (à sourcer ou retirer) ; l'arrêt de machines n'est pas dans la page (elle cite ralentir un train, fermer des vannes). Corriger ces trois points puis revalider."
+      }
     ]
   }
 }

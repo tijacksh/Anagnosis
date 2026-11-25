@@ -67,10 +67,10 @@
     ],
     "bonne_reponse": 1,
     "explication": "Slack et Cannon, chercheurs à l'USGS, relient la fin brutale du dépôt à l'impact du bolide de Sudbury, daté du même 1,85 milliard d'années, qui aurait mélangé d'un coup les eaux océaniques. Les autres propositions contredisent soit la chronologie (le fer rubané existe dès 3,7-3,8 Ga), soit le mécanisme chimique d'oxydation qui fonde ces roches.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-11-25",
@@ -83,6 +83,20 @@
     "empreinte": "f5496a959ca2acd1",
     "notes": [
       "Sources rouvertes : Wikipédia Banded iron formation (mécanisme chimique, Preston Cloud 1968, Isua 3,7-3,8 Ga, pic de dépôt 2800-2500 Ma, Hamersley 2470-2450 Ma sur plus de 900 m, fin du dépôt à 1,85 Ga — tous confirmés mot pour mot) ; Wikipédia Sudbury Basin (âge de 1,849 Ga par datation isotopique du zircon — Davis 2008 —, diamètre d'origine de 130 km, parmi les plus grandes structures d'impact connues après Vredefort et Chicxulub, confirmés) ; USGS, page de l'étude Slack & Cannon 2009 (Geology, DOI 10.1130/G30259A.1, mécanisme de mélange des eaux de surface oxygénées et profondes anoxiques empêchant le transport du Fe(II) hydrothermal, citation exacte confirmée mot pour mot). Rien à redire."
+    ]
+  },
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-25T20:36:48.775Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-25T20:36:48.775Z",
+        "note": "Sources rouvertes : USGS notice Slack & Cannon 2009 (notice seule, pas l'article), Wikipedia Banded iron formation, Wikipedia Sudbury Basin (1,85 Ga, 130 km, Isua 3,7-3,8 Ga, Hamersley 2470-2450 Ma >900 m confirmés). Doutes : la citation met « [the impact] » en sujet de « prevented » alors que la source dit « This suboxic state » (substitution trompeuse) ; « en quelques millions d'années » absent ; « au million d'années près » non soutenu ; « aurait accéléré ce que la photosynthèse mettait des centaines de millions d'années à faire » absent ; fer rubané = minerai du Minnesota généralisé ; Cloud 1968 et cyanobactéries non reliés dans la source ; titre dit « comète » alors que la source dit « bolide »."
+      }
     ]
   }
 }
