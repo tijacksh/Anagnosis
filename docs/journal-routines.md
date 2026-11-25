@@ -541,3 +541,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-25 03:24 | controle-en | arnaud | Rien à faire : 19 fiches à vérifier, toutes en droit_* (voie de Vincent), 0 traitée. |
 | 2026-11-25 04:13 | controler | arnaud | 8 fiches de Génétique contrôlées (hiver-de-la-faim, le-gene-de-quelque-chose, lyon-1961, mendel-ignore, meselson-stahl, nombre-de-genes-humains, photo-51, tjio-levan) : 7 ok, 1 corrigée (auteur de la source PNAS 2024 de hiver-de-la-faim). Aucune signalée en retouche ; 459 restent à contrôler. |
 | 2026-11-25 06:00 | reparer | arnaud | 3 fiches : convention-paris-1883 et gideon-v-wainwright revalidées (détails corrigés : salle de Paris non sourcée, exposition NARA datée), selfie-de-naruto rejetée (déjà réparée deux fois) ; EN mises à jour pour les deux revalidées |
+| 2026-11-25 08:03 | questionner | arnaud | Rien à faire : chaque fiche servie (993) porte au moins 2 questions de plus. Rattrapage terminé. |
