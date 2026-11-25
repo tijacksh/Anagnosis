@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Pardee documente le lac glaciaire Missoula, retenu par un barrage de glace, comme source plausible. Les rides de courant en graviers qui coiffent des buttes décrites par Bretz comptent parmi les preuves qui convainquent les sceptiques.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
       "explication": "Il laisse le débat aux autres, persuadé que d'autres études de terrain le résoudraient, et se consacre aux glaciers du Groenland puis, de 1938 à 1961, à l'origine des grottes calcaires."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -110,8 +110,8 @@
     ]
   },
   "validation": {
-    "decide_par": "routine-controler",
-    "decide_le": "2026-11-25T08:14:44.690Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-25T17:00:46.904Z",
     "historique": [
       {
         "action": "retoucher",
@@ -136,6 +136,14 @@
         "par": "routine-controler",
         "le": "2026-11-25T08:14:44.690Z",
         "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-11-25T17:00:46.904Z",
+        "note": "Sources rouvertes : Baker GSA Today mai 2022 (PDF, texte extrait et relu : naissance 1882, Seattle 1907, doctorat Chicago 1913, étés 1922-1923, citation debacle, plus d'une douzaine d'articles 1923-1932, titularisation et comité du Journal of Geology, départ 1933, Pardee/Missoula, rides de courant, acceptation fin 1960-début 1970, Penrose 1979 à 97 ans) ; HistoryLink (530 miles cubes, 2 000 pieds, centaine de crues, 20 000 à 13 000 ans). Aucun écart de sens, texte inchangé."
       }
     ]
   }

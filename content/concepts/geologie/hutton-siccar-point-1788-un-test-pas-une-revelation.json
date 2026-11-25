@@ -70,7 +70,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Hutton avait déjà exposé sa théorie en 1785, qui remettait en cause l'âge de 6 000 ans admis alors par presque tous : l'excursion ne la lui a pas révélée. Il avait aussi visité deux autres discordances écossaises, et des textes sur les Alpes en décrivaient déjà : ce n'était pas la première. Enfin, selon Kerr, le texte de 1788 était achevé et ne mentionne pas la sortie : le cap a servi d'épreuve, pas d'origine.",
-    "statut": "en_retouche"
+    "statut": "valide"
   },
   "quiz_supplementaire": [
     {
@@ -118,11 +118,11 @@
       "explication": "Le texte cite la NASA pour chiffrer l'écart entre les deux ensembles à plusieurs dizaines de millions d'années, bien plus que les autres options proposées."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controler",
-    "decide_le": "2026-11-25T08:14:44.690Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-25T17:00:47.007Z",
     "historique": [
       {
         "action": "valider",
@@ -139,6 +139,14 @@
         "par": "routine-controler",
         "le": "2026-11-25T08:14:44.690Z",
         "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
+      },
+      {
+        "action": "valider",
+        "de": "en_retouche",
+        "vers": "valide",
+        "par": "routine-reparation",
+        "le": "2026-11-25T17:00:47.007Z",
+        "note": "Sources rouvertes : Kerr, Geoscience Canada 2018 (PDF, texte extrait et relu : juin 1788 par beau temps, Dunglass Burn, Hall 27 ans, exposé de 1785, critiques et Terre éternelle, discordances d'Arran 1786 et Jedburgh 1787, textes français sur les Alpes, fragments à angles vifs, Playfair, phrase finale du texte de 1788 achevé avant la sortie, Silurien/Dévonien, 6000 ans) ; NASA Earth Observatory (des dizaines de millions d'années, citation de Playfair). Aucun écart de sens, texte inchangé."
       }
     ]
   },

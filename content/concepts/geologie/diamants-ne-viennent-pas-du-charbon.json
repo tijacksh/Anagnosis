@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le charbon est une roche sédimentaire qui s'enfouit rarement au-delà de quelques kilomètres, alors que les diamants cristallisent à 150-200 km de profondeur. Beaucoup de diamants sont d'ailleurs bien plus anciens que les premières plantes terrestres, qui sont pourtant la matière première du charbon.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -109,11 +109,11 @@
       "explication": "Des chercheurs de l'observatoire Lamont-Doherty ont daté certaines inclusions jusqu'à 2,6 milliards d'années, largement avant les premières plantes terrestres, apparues il y a environ 450 millions d'années."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controler",
-    "decide_le": "2026-11-25T12:17:15.988Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-25T17:00:47.111Z",
     "historique": [
       {
         "action": "valider",
@@ -146,6 +146,14 @@
         "par": "routine-controler",
         "le": "2026-11-25T12:17:15.988Z",
         "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-11-25T17:00:47.111Z",
+        "note": "Fiche déjà réparée deux fois et revenue : règle de la routine, pas de troisième réparation. Reste non sourcé : « carbone piégé dans le manteau depuis les débuts de la Terre » (corps, quiz supplémentaire 2), absent de GIA, geology.com et Columbia ; durée de recyclage au-delà de ce que GIA établit."
       }
     ]
   },
