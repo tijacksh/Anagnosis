@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Pardee documente le lac glaciaire Missoula, retenu par un barrage de glace, comme source plausible. Les rides de courant en graviers qui coiffent des buttes décrites par Bretz comptent parmi les preuves qui convainquent les sceptiques.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -94,7 +94,7 @@
       "explication": "Il laisse le débat aux autres, persuadé que d'autres études de terrain le résoudraient, et se consacre aux glaciers du Groenland puis, de 1938 à 1961, à l'origine des grottes calcaires."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "meta": {
     "genere_le": "2026-10-08",
@@ -102,16 +102,16 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-10-08",
+    "fait_le": "2026-11-25",
     "verdict": "a_revoir",
-    "empreinte": "a673f17e4919044e",
+    "empreinte": "75029a2ee6c13efa",
     "notes": [
-      "Baker (GSA Today 2022) et HistoryLink relus : faits confirmés (voir détail ci-dessous). Corrigé : « réhabiliter » traduisait « reviving » → « ressusciter ». A REVOIR : accroche et punch (« on ne le croyait pas parce qu'on ne savait pas d'où venait l'eau ») ne sont pas dans Baker, qui présente d'abord le désaccord comme un conflit de principes (uniformitarisme) ; le corps de la fiche dit lui-même « un problème de méthode, pas d'abord de preuves ». Contradiction interne à trancher."
+      "Baker (GSA Today, PDF) illisible depuis cet environnement : naissance 1882, doctorat 1913, étés 1922-1923, douzaine d'articles, comité du Journal of Geology, départ de 1933, Penrose 1979, acceptation fin années 1960 : non vérifiés. HistoryLink confirme 530 miles cubes, 2 000 pieds, plus de cent crues, 20 000 à 13 000 ans, mais ne nomme pas Pardee, ne parle pas de rides sur des buttes prises pour des bancs, et place la fin du scepticisme dans les années 1970 grâce aux photos satellites. À revérifier sur le texte de Baker."
     ]
   },
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-09T07:32:44.983Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-25T08:14:44.690Z",
     "historique": [
       {
         "action": "retoucher",
@@ -128,6 +128,14 @@
         "par": "routine-reparation",
         "le": "2026-10-09T07:32:44.983Z",
         "note": "Point signalé par le contrôle : accroche et punch contredisaient le corps sur la cause du retard d'acceptation (attribuaient tout au manque de source d'eau, alors que le corps dit lui-même « un problème de méthode, pas d'abord de preuves »). Corrigés pour refléter le corps déjà vérifié par le contrôle du 2026-10-08 (Baker GSA Today 2022 et HistoryLink, faits confirmés) : le refus initial tient au principe d'uniformitarisme, la source d'eau plausible (lac Missoula) et le terrain lèvent ensuite le doute. Aucun autre point en suspens. Baker (rock.geosociety.org) et HistoryLink inaccessibles ce jour (politique réseau de la session) : je n'ai pas pu les rouvrir moi-même, je me fonde sur la relecture indépendante déjà faite hier avec accès à ces deux sources."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-25T08:14:44.690Z",
+        "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
       }
     ]
   }

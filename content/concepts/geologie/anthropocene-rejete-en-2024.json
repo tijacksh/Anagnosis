@@ -66,7 +66,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le rejet ne porte pas sur la réalité de l'impact humain, largement reconnue, mais sur la forme proposée : fixer un instant unique vers 1952 cadre mal avec un phénomène qui a commencé bien avant et dont l'intensité varie selon les régions. Le vote a bien réuni un quorum valide, ratifié ensuite par l'exécutif de la Commission.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -103,11 +103,11 @@
       "explication": "Le rejet laisse l'échelle inchangée : nous restons dans l'Holocène, et plus précisément dans le Méghalayen, son âge le plus récent. Le mot Anthropocène continue d'être employé, mais sans statut chronostratigraphique officiel."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-31T07:33:47.168Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-25T08:14:44.689Z",
     "historique": [
       {
         "action": "valider",
@@ -116,6 +116,14 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-31T07:33:47.168Z",
         "note": "Validation en lot après contrôle des sources (verdict corrige)."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-25T08:14:44.689Z",
+        "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
       }
     ]
   },
@@ -125,11 +133,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "5bd84d5ae71edf26",
+    "fait_le": "2026-11-25",
+    "verdict": "a_revoir",
+    "empreinte": "71eb82ae1e9be0d7",
     "notes": [
-      "Empreinte décalée uniquement par un changement administratif : quiz.statut brouillon → valide lors de la validation en lot (aucun changement de fond). Contenu de fond identique mot pour mot à ce qu'avait vérifié le contrôle du 2026-07-30 (verdict corrige, empreinte 106a09d9706560e9). Spot-check : communiqué IUGS/ICS (court et étendu, 20 mars 2024) toujours en ligne, confirme toujours vote 4/12/3, ratification 15 oui/1 abstention/1 conflit d'intérêt, site du lac Crawford, rejet du statut formel et maintien de l'usage informel."
+      "Sources rouvertes (IUGS, ICS, Eos). Chiffres 4/12/3 du vote SQS : non lus (communiqué en PDF illisible). Vote du 20 mars 2024 des 17 présidents, 15 contre 1 abstention : introuvable ; l'ICS date l'approbation du 26 mars 2024 par la présidence et le secrétariat de l'IUGS, pas par l'exécutif de l'ICS. L'idée de traiter l'Anthropocène comme un « événement » vient de Gibbard et al., pas du communiqué, et Eos cite la Grande Biodiversification ordovicienne, pas la Grande Oxygénation. Groupe de travail désormais ancien. Motifs du rejet attribués au communiqué : non trouvés ; Head et al. contestent la validité du vote. À reprendre avec le PDF du communiqué."
     ]
   }
 }

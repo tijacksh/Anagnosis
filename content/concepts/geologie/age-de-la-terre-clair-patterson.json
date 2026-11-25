@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Les roches terrestres ont été fondues, recyclées et remaniées par la tectonique des plaques : elles n'enregistrent donc plus l'âge de la planète elle-même. Les météorites comme celle de Canyon Diablo se sont formées en même temps que la Terre, à partir du même nuage originel, mais sont restées géologiquement inertes depuis.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -109,11 +109,11 @@
       "explication": "Patterson a passé deux décennies à documenter et à dénoncer publiquement cette contamination, face à une industrie qui finançait des études contradictoires et tentait de le faire écarter des comités scientifiques fédéraux."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-07-31T19:04:00.054Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-25T08:14:44.687Z",
     "historique": [
       {
         "action": "valider",
@@ -122,6 +122,14 @@
         "par": "routine-reparation",
         "le": "2026-07-31T19:04:00.054Z",
         "note": "Sources rouvertes : mémoire biographique NAS (https://www.nationalacademies.org/read/6201/chapter/16, confirme 4,55 Ga, facteur ~80, x100 au Groenland), Caltech \"Getting the Lead Out\" et \"Clair Patterson and Lead\", EPA archive, Wikipédia EPA/Clean Air Act, recherche web (Kehoe/Ethyl Corporation). « huit pages » déjà corrigé (confirmé : Geochimica et Cosmochimica Acta 1956, vol.10, p.230-237 = 8 pages). Corrigé la chronologie inversée : l'EPA a été créée le 2 décembre 1970 (Reorganization Plan No. 3), avant la signature du Clean Air Act amendé le 31 décembre 1970 qui lui a donné l'essentiel de ses pouvoirs — le texte disait l'inverse. Confirmé par ailleurs : opposition de l'industrie (Kehoe/Ethyl Corporation, exclusion du panel NRC de 1971) soutenue par le mémoire NAS et une recherche complémentaire. Reste du texte (carte, repere, quiz, sources) relu et cohérent."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-25T08:14:44.687Z",
+        "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
       }
     ]
   },
@@ -131,11 +139,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-08-02",
-    "verdict": "ok",
-    "empreinte": "2797c9e27ecfd34c",
+    "fait_le": "2026-11-25",
+    "verdict": "a_revoir",
+    "empreinte": "7f877e9d52e2c6ee",
     "notes": [
-      "Re-contrôle après réparation du 31/07 (chronologie EPA/Clean Air Act). Mémoire NAS confirme 4,55 Ga (±70 Ma), facteur ~80 (sédiments océaniques), facteur ~100 (Groenland). Caltech confirme la contamination généralisée. EPA archive confirme l'interdiction totale au 1er janvier 1996. Chronologie EPA/Clean Air Act vérifiée par recherche croisée indépendante (Wikipedia Reorganization Plan No. 3, EPA.gov Origins of EPA) : EPA bien créée le 2 décembre 1970, avant la signature du Clean Air Act amendé le 31 décembre 1970 qui lui donne l'essentiel de ses pouvoirs — la correction de la réparation précédente (qui avait inversé cet ordre) est confirmée exacte. Article de 1956 : 8 pages (p.230-237) confirmées."
+      "Sources rouvertes (NAP, Caltech, EPA). 1) « 80 fois plus de plomb que l'érosion naturelle » : la NAP dit que l'apport anthropique annuel vaut environ 80 fois le taux de dépôt dans les sédiments océaniques (provisoire), pas l'inverse. 2) « carottes de glace du Groenland » : la NAP parle de neige groenlandaise, et un travail ultérieur a ramené le chiffre à 2. 3) Études contradictoires financées par l'industrie et tentative d'écarter Patterson : non trouvées (la NAP dit seulement qu'il fut exclu du panel NRC de 1971). 4) EPA créée le 2 décembre 1970 et Clean Air Act fin décembre : dates absentes ; interdiction du 1er janvier 1996 limitée à la vente routière (usages hors route permis) ; Caltech dit 1986 et la NAP 1987 pour le retrait. Le repère et la carte reprennent les points 1 et 2."
     ]
   }
 }

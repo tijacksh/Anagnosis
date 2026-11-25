@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Le charbon est une roche sédimentaire qui ne s'enfouit jamais au-delà de quelques kilomètres, alors que les diamants cristallisent à 150-200 km de profondeur. Beaucoup de diamants sont d'ailleurs bien plus anciens que les premières plantes terrestres, qui sont pourtant la matière première du charbon.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -109,11 +109,11 @@
       "explication": "Des chercheurs de l'observatoire Lamont-Doherty ont daté certaines inclusions jusqu'à 2,6 milliards d'années, largement avant les premières plantes terrestres, apparues il y a environ 450 millions d'années."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-07-31T19:09:36.556Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-25T08:14:44.690Z",
     "historique": [
       {
         "action": "valider",
@@ -122,6 +122,14 @@
         "par": "routine-reparation",
         "le": "2026-07-31T19:09:36.556Z",
         "note": "Sources rouvertes : Columbia Climate School / Lamont-Doherty (confirme l'âge maximal daté de 2,6 Ga pour les inclusions, le « 3,5 milliards d'années » étant une remarque générale sur le processus de formation — « The process may go back as far as 3.5 billion years » — et non le résultat de datation rapporté), recherche web GIA (150-200 km, 900-1300°C, confirmant >1050°C dans la fourchette), Geology.com (charbon jusqu'à ~3,2 km, plantes terrestres il y a 450 Ma, confirmés), thenakedscientists.com (mythe confirmé faux, cohérent). Corrigé : « datées jusqu'à 3,5 milliards d'années » → « datées jusqu'à 2,6 milliards d'années » dans le corps et dans le repere — l'argument général de la fiche reste vrai avec ce chiffre corrigé (toujours bien avant les plantes terrestres, -450 Ma). sources[2].auteur déjà corrigé en « Krajick, Kevin ». Reste du texte (carte, quiz, autres sources) relu et cohérent."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-25T08:14:44.690Z",
+        "note": "Signalée par le contrôle du 2026-11-25, voir controle.notes."
       }
     ]
   },
@@ -131,11 +139,11 @@
     "version": 1
   },
   "controle": {
-    "fait_le": "2026-08-02",
-    "verdict": "ok",
-    "empreinte": "bbe07a192d844d0d",
+    "fait_le": "2026-11-25",
+    "verdict": "a_revoir",
+    "empreinte": "ecc68f35d9456d1f",
     "notes": [
-      "Re-contrôle après réparation du 31/07 (3,5→2,6 milliards d'années). GIA confirme 150-200km de profondeur. Geology.com confirme profondeur max du charbon (~3,2km), apparition des plantes terrestres (450 Ma) et le seuil de température (1050°C, littéralement dans cette source, pas dans GIA). Columbia/Krajick relu en détail : les DEUX chiffres (3,5 Ga = remarque générale sur le processus de formation des diamants ; 2,6 Ga = résultat de datation effectif des inclusions sud-africaines) distingués et confirmés — la correction précédente est exacte. Coquille corrigée : titre de la source 3 (trait d'union manquant dans 'Deep-Earth')."
+      "Sources rouvertes (GIA, geology.com, Columbia). Accroche et carte « souvent plus d'un milliard d'années » : aucune source ne l'affirme (geology.com : la plupart des diamants datés sont bien plus vieux que les premières plantes, soit plus de 450 Ma ; Columbia : 2,6 Ga à 700 Ma pour les inclusions). À reformuler. Mineurs : « plus de 1050 °C » devient « au moins 1050 °C » ; charbon « rarement » sous 3,2 km ; « gisements commerciaux » devient « gisements dans la roche ». OK : 150-200 km, 450 Ma, 2,6 Ga, carbone du manteau ou subduction."
     ]
   }
 }
