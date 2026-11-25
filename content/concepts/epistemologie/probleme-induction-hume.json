@@ -1,0 +1,76 @@
+{
+  "id": "epi-probleme-induction-hume",
+  "slug": "probleme-induction-hume",
+  "titre": "Le problème de l'induction de Hume",
+  "accroche": "Le soleil s'est levé chaque jour de votre vie. Aucun raisonnement logique ne garantit qu'il se lèvera demain.",
+  "discipline": "epistemologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Chaque matin, vous mangez un morceau de pain sans vous demander s'il va vous nourrir. Hier il l'a fait, avant-hier aussi, et toute votre vie il en a été ainsi. Vous ne vérifiez rien : vous tenez pour acquis que ce pain se comportera comme les précédents.\n\nEn 1748, le philosophe écossais David Hume s'arrête sur ce geste ordinaire et pose une question qui paraît absurde tant la réponse semble évidente : qu'est-ce qui vous autorise à le faire ?\n\n## Le raisonnement introuvable\n\nToute inférence de ce genre, du pain mangé au pain à venir, du passé à l'avenir, repose sur un principe qu'on énonce rarement : la nature se comportera demain comme elle s'est comportée hier. Hume l'appelle le principe d'uniformité. Sans lui, aucune observation passée ne dit rien sur l'avenir.\n\nReste à savoir d'où vient ce principe. Hume examine les deux seules voies disponibles pour le justifier. La première est démonstrative, celle des mathématiques : nier que la nature change demain ne produit aucune contradiction logique, on peut parfaitement concevoir un monde qui bascule. Cette voie est donc fermée.\n\nLa seconde voie est probable, celle qui s'appuie sur l'expérience passée. Mais c'est ici que le piège se referme : dire que la nature a toujours été régulière jusqu'ici, et que c'est pour cela qu'elle le restera, suppose déjà ce qu'on voulait prouver, à savoir que l'avenir ressemble au passé. Dans son Essai IV sur l'entendement humain, Hume l'écrit sans détour : toutes nos conclusions tirées de l'expérience supposent, comme leur fondement, que l'avenir ressemblera au passé. L'argument tourne en rond.\n\n## Ce que Hume ne nie pas\n\nHume ne prétend pas qu'il faille cesser d'attendre que le pain nourrisse ou que le soleil se lève. Il ne recommande aucun scepticisme pratique. Ce qu'il montre, c'est que cette attente ne vient pas de la raison : elle vient de l'habitude, de la coutume, un mécanisme de l'esprit qui associe automatiquement ce qui s'est toujours suivi, sans passer par un argument démonstratif.\n\n## Ce que ça déplace\n\nLe déplacement tient dans cet écart. La science tout entière, de la chute des corps aux lois de la génétique, construit ses lois générales à partir de cas observés en nombre fini, puis les étend à des cas qu'on n'a jamais vus. Hume ne dit pas que cette extension est illégitime. Il dit qu'aucune démonstration ne la soutient, et que personne, depuis 1748, n'a réfuté son argument sans simplement le déplacer ailleurs, vers l'habitude, vers la probabilité, ou vers un pari qu'on assume sans le prouver.",
+  "citation": {
+    "texte": "all our experimental Conclusions proceed upon the Supposition, that the future will be conformable to the past",
+    "auteur": "David Hume",
+    "source": "Philosophical Essays Concerning Human Understanding, Essai IV, Partie II, 1748",
+    "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding/Essay_4"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Hume : aucune logique ne prouve que demain ressemblera à hier.",
+    "idee": "David Hume montre en 1748 que croire que l'avenir ressemblera au passé n'est fondé sur aucune démonstration : le justifier par l'expérience suppose déjà ce qu'on veut prouver. C'est l'habitude qui nous guide, pas la raison.",
+    "source_courte": "Hume, Essai IV, 1748"
+  },
+  "sources": [
+    {
+      "type": "livre",
+      "auteur": "Hume, David",
+      "titre": "Philosophical Essays Concerning Human Understanding, Essai IV, Partie II",
+      "publication": "Wikisource",
+      "annee": 1748,
+      "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding/Essay_4",
+      "note": "Le texte original de 1748 : « all our experimental Conclusions proceed upon the Supposition, that the future will be conformable to the past », et l'argument du cercle qui précède."
+    },
+    {
+      "type": "institution",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "The Problem of Induction",
+      "publication": "plato.stanford.edu",
+      "annee": 2026,
+      "url": "https://plato.stanford.edu/entries/induction-problem/",
+      "note": "Reconstruit précisément l'argument de Hume (Treatise I.3.6 et Enquiry IV), le dilemme démonstratif/probable, et la solution par la coutume."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — The Problem of Induction",
+      "url": "https://plato.stanford.edu/entries/induction-problem/",
+      "note": "La reconstruction standard de l'argument, avec les réponses qui lui ont été apportées depuis."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : une rangée de cercles identiques qui se répètent régulièrement de gauche à droite, à intervalle et taille strictement égaux. Le dernier cercle à droite, à la place attendue, est absent, remplacé par un contour vide en pointillés fins. Encre Smoky Teal et noir uniquement, aplats nets, aucun dégradé, une forme déborde légèrement du cadre en bas à gauche.",
+    "alt": "Une rangée de cercles identiques dont le dernier est un simple contour en pointillés",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi, selon Hume, ne peut-on pas prouver par le raisonnement que l'avenir ressemblera au passé ?",
+    "choix": [
+      "Parce qu'aucune observation n'a jamais confirmé la régularité de la nature",
+      "Parce que la logique interdit de tirer une conclusion sur l'avenir à partir du passé",
+      "Parce que toute tentative de le prouver par l'expérience présuppose déjà ce qu'elle voudrait établir",
+      "Parce que Hume pensait que la nature change effectivement d'un jour à l'autre"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Hume montre que justifier l'induction par l'expérience passée suppose déjà que l'avenir ressemblera au passé, ce qui est précisément ce qu'il fallait prouver : l'argument tourne en rond, il ne manque pas simplement d'observations.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-11-25", "genere_par": "claude-code", "version": 1 }
+}

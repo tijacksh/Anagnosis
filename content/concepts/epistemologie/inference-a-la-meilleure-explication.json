@@ -1,0 +1,76 @@
+{
+  "id": "epi-inference-a-la-meilleure-explication",
+  "slug": "inference-a-la-meilleure-explication",
+  "titre": "L'inférence à la meilleure explication",
+  "accroche": "Le gazon est mouillé sous un ciel bleu. Vous n'avez vu personne l'arroser, et vous concluez pourtant qu'il a plu.",
+  "discipline": "epistemologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Vous rentrez chez vous et trouvez le gazon mouillé alors qu'il fait grand soleil. Vous ne l'avez pas vu pleuvoir, le voisin n'a pas arrosé, mais un nuage isolé est passé une heure plus tôt, vous l'avez aperçu depuis la fenêtre du bus. Vous concluez qu'il a plu. Rien ne le prouve au sens strict : vous choisissez, parmi plusieurs explications possibles, celle qui rend le mieux compte de ce que vous observez.\n\n## Un troisième mode de raisonnement\n\nDans ses écrits de logique des années 1860, puis jusqu'à ses derniers textes du début du vingtième siècle, le logicien américain Charles Sanders Peirce distingue ce mode de raisonnement de la déduction, qui part de prémisses vraies pour une conclusion nécessairement vraie, et de l'induction, qui généralise à partir de cas déjà observés. Peirce nomme ce troisième mode l'abduction : partir d'un fait surprenant et remonter à l'hypothèse qui, si elle était vraie, rendrait ce fait normal. Dans ses derniers écrits, il résume le procédé sans détour : « Abduction is guessing », l'abduction, c'est deviner, mais deviner guidé par ce qui expliquerait le mieux ce qu'on observe.\n\n## Harman rebat les cartes\n\nEn 1965, le philosophe américain Gilbert Harman republie cette idée sous un autre nom, dans un article de huit pages de la revue Philosophical Review : l'inférence à la meilleure explication. Sa thèse va plus loin que celle de Peirce : l'induction elle-même, celle qui généralise à partir de cas déjà observés, ne serait qu'un cas particulier de ce raisonnement plus large. Généraliser revient toujours, selon lui, à choisir, parmi les hypothèses compatibles avec les cas observés, celle qui les explique le mieux, plutôt qu'à simplement les compter.\n\n## Ce que ça déplace\n\nLe raisonnement scientifique ordinaire repose largement sur ce mode d'inférence sans le nommer. Un médecin qui pose un diagnostic à partir d'un ensemble de symptômes, un détective qui désigne un suspect, un astronome qui postule une planète invisible pour expliquer une orbite perturbée, un généticien qui retient un gène candidat parmi des milliers, raisonnent tous par la meilleure explication disponible, pas par démonstration logique. La difficulté, non résolue depuis Harman, est de dire ce qui rend une explication meilleure qu'une autre : plus simple, plus large, ou simplement la seule à laquelle on a pensé pour l'instant. Une bonne part de l'activité scientifique consiste justement à se méfier de cette dernière possibilité.",
+  "citation": {
+    "texte": "Abduction is guessing",
+    "auteur": "Charles Sanders Peirce",
+    "source": "Collected Papers, vol. 7, §219 (manuscrits de la fin de sa vie)",
+    "url": "https://en.wikipedia.org/wiki/Abductive_reasoning"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Deviner la meilleure explication n'est pas une preuve, mais c'est déjà un raisonnement.",
+    "idee": "Peirce nomme abduction le raisonnement qui part d'un fait surprenant pour remonter à l'hypothèse qui l'expliquerait le mieux. En 1965, Gilbert Harman en fait l'inférence à la meilleure explication, et avance que l'induction elle-même n'en est qu'un cas particulier.",
+    "source_courte": "Harman, Philosophical Review, 1965"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "Stanford Encyclopedia of Philosophy",
+      "titre": "Abduction",
+      "publication": "plato.stanford.edu",
+      "annee": 2026,
+      "url": "https://plato.stanford.edu/entries/abduction/",
+      "note": "Confirme la référence bibliographique exacte de Harman 1965 (Philosophical Review, vol. 74, p. 88-95) et situe l'origine du terme chez Peirce."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Abductive reasoning",
+      "publication": "en.wikipedia.org",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Abductive_reasoning",
+      "note": "Reproduit la citation de Peirce « Abduction is guessing » (Collected Papers, vol. 7, §219) et la chronologie de ses textes, de 1867 à 1908."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — Abduction",
+      "url": "https://plato.stanford.edu/entries/abduction/",
+      "note": "Le panorama complet, de Peirce aux débats contemporains sur l'inférence à la meilleure explication."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition graphique en aplats : plusieurs formes géométriques différentes (triangle, carré, forme irrégulière) alignées côte à côte, surmontées d'une même empreinte en creux qui ne correspond exactement qu'à l'une d'entre elles, mise en évidence par un contraste de teinte net. Encre Smoky Teal et noir uniquement, contours nets, aucune texture, une forme déborde légèrement du cadre à droite.",
+    "alt": "Plusieurs formes géométriques dont une seule correspond exactement à une empreinte en creux",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "En quoi la thèse de Gilbert Harman en 1965 va-t-elle plus loin que la notion d'abduction proposée par Peirce ?",
+    "choix": [
+      "Elle avance que l'induction elle-même n'est qu'un cas particulier du raisonnement par la meilleure explication",
+      "Elle affirme que seule la déduction logique permet d'atteindre une conclusion certaine",
+      "Elle rejette l'idée que l'on puisse choisir entre plusieurs explications compatibles avec les mêmes faits",
+      "Elle limite l'abduction au seul domaine des sciences expérimentales, à l'exclusion du raisonnement courant"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Harman ne se contente pas de renommer l'abduction de Peirce : il soutient que généraliser à partir de cas observés revient toujours à choisir l'hypothèse qui explique le mieux ces cas, ce qui fait de l'induction un cas particulier de l'inférence à la meilleure explication.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-11-25", "genere_par": "claude-code", "version": 1 }
+}

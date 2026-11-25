@@ -1,0 +1,50 @@
+{
+  "id": "epi-probleme-induction-hume",
+  "slug": "probleme-induction-hume",
+  "langue": "en",
+  "empreinte_fr": "662f05b31658c4d4",
+  "traduit_le": "2026-11-25",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Hume a écrit en anglais ; citation reprise verbatim, aucune traduction nécessaire."
+    }
+  ],
+  "titre": "Hume's Problem of Induction",
+  "accroche": "The sun has risen every day of your life. No logical argument guarantees it will rise tomorrow.",
+  "contenu_vulgarise": "Every morning, you eat a piece of bread without wondering whether it will nourish you. It did yesterday, the day before, and your whole life has gone this way. You check nothing: you take it for granted that this bread will behave like the ones before it.\n\nIn 1748, the Scottish philosopher David Hume pauses on this ordinary gesture and asks a question that seems absurd, so obvious does the answer appear: what entitles you to do this?\n\n## The argument that cannot be found\n\nEvery inference of this kind, from the bread eaten to the bread to come, from the past to the future, rests on a principle rarely stated: nature will behave tomorrow as it has behaved yesterday. Hume calls this the principle of uniformity. Without it, no past observation says anything about the future.\n\nThe question is where this principle comes from. Hume examines the only two routes available to justify it. The first is demonstrative, the route of mathematics: denying that nature will change tomorrow produces no logical contradiction; one can perfectly well conceive of a world that shifts. This route is therefore closed.\n\nThe second route is probable, resting on past experience. But this is where the trap closes: to say that nature has always been regular so far, and that this is why it will remain so, already assumes what it was supposed to prove, namely that the future resembles the past. In his Essay IV on human understanding, Hume states it without detour: all our experimental conclusions proceed upon the supposition that the future will be conformable to the past. The argument goes in a circle.\n\n## What Hume does not deny\n\nHume does not claim that one should stop expecting bread to nourish or the sun to rise. He recommends no practical skepticism. What he shows is that this expectation does not come from reason: it comes from habit, from custom, a mechanism of the mind that automatically associates what has always followed, without going through a demonstrative argument.\n\n## What this shifts\n\nThe shift lies in this gap. The whole of science, from the fall of bodies to the laws of genetics, builds its general laws from a finite number of observed cases, then extends them to cases never seen. Hume does not say that this extension is illegitimate. He says that no demonstration supports it, and that no one, since 1748, has refuted his argument without simply moving it elsewhere, toward habit, toward probability, or toward a wager one accepts without proving it.",
+  "citation": {
+    "texte": "all our experimental Conclusions proceed upon the Supposition, that the future will be conformable to the past",
+    "auteur": "David Hume",
+    "source": "Philosophical Essays Concerning Human Understanding, Essay IV, Part II, 1748",
+    "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding/Essay_4"
+  },
+  "carte": {
+    "punch": "Hume: no logic proves that tomorrow will resemble yesterday.",
+    "idee": "David Hume shows in 1748 that believing the future will resemble the past rests on no demonstration: justifying it through experience already assumes what it set out to prove. It is habit that guides us, not reason.",
+    "source_courte": "Hume, Essay IV, 1748"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — The Problem of Induction",
+      "url": "https://plato.stanford.edu/entries/induction-problem/",
+      "note": "The standard reconstruction of the argument, with the responses it has received since."
+    }
+  ],
+  "quiz": {
+    "question": "Why, according to Hume, can reason not prove that the future will resemble the past?",
+    "choix": [
+      "Because no observation has ever confirmed the regularity of nature",
+      "Because logic forbids drawing any conclusion about the future from the past",
+      "Because any attempt to prove it through experience already presupposes what it sets out to establish",
+      "Because Hume believed that nature does in fact change from one day to the next"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Hume shows that justifying induction through past experience already assumes that the future will resemble the past, which is exactly what needed proving: the argument goes in a circle, it is not simply short of observations.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}

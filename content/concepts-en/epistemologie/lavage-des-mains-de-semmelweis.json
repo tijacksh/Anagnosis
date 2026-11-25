@@ -1,0 +1,43 @@
+{
+  "id": "epi-lavage-des-mains-de-semmelweis",
+  "slug": "lavage-des-mains-de-semmelweis",
+  "langue": "en",
+  "empreinte_fr": "74116ef9dab7796b",
+  "traduit_le": "2026-11-25",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Semmelweis and Handwashing",
+  "accroche": "In Vienna in 1847, washing hands before delivering a baby made mortality fall from 18% to 1%, with no one knowing why.",
+  "contenu_vulgarise": "In 1847, at the First Obstetrical Clinic of Vienna General Hospital, a woman giving birth has nearly a one-in-five chance of dying of fever in the days that follow. At the Second Clinic of the same hospital, separated by a corridor, this risk falls below 4%. The only difference between the two services: the first trains medical students, the second trains midwives.\n\n## The clue of the dead colleague\n\nIgnaz Semmelweis, a young Hungarian assistant at the First Clinic, has been searching for this difference for months when his friend Jakob Kolletschka dies after cutting his finger during an autopsy. Kolletschka's own autopsy shows lesions similar to those of the women who died of childbed fever. Semmelweis draws a hypothesis from this: the students, who spend their mornings in the dissection room before examining women in labor in the afternoon, carry invisible “cadaverous particles” on their hands. The midwives, who never touch a corpse, have nothing to carry.\n\nIn mid-May 1847, Semmelweis requires the entire service to wash their hands in a chlorinated lime solution before examining a patient, a substance chosen for its smell, the only clue available at the time that a hand remained soiled after a simple rinse with water. The following month, mortality at the First Clinic falls to 2.2%, then 1.2% in July. It matches that of the Second Clinic.\n\n## A fact without a theory\n\nThe result is clear, but Semmelweis cannot explain it: the germ theory of disease does not yet exist, Pasteur and Lister are decades away from their own work. Part of Vienna's medical establishment meets him with a refusal that is not merely a matter of ego: without a known mechanism, a correlation remains an isolated fact, and admitting a single cause for all post-partum fevers contradicted the humoral medicine then taught, which saw these deaths as distinct diseases.\n\nSemmelweis publishes his demonstration only in 1861, thirteen years after his first results, in a dense and polemical book that fails to convince most of his peers during his lifetime. He dies in 1865, committed to an asylum, without having seen germ theory confirm what his own numbers had already shown.\n\n## What this shifts\n\nThe story is often told as that of a man ignored out of stupidity or professional pride. It says something else, more uncomfortable: a correlation can be real, reproduced, verified on hundreds of patients, and still be rejected as long as no one can say why it works. The mechanism eventually arrived, under another name, two decades later.",
+  "repere": {
+    "texte": "At the First Clinic of Vienna General Hospital, mortality from childbed fever fell from 18.3% in April 1847 to 2.2% in June, then 1.2% in July, after handwashing with chlorinated lime was introduced.",
+    "source": "Loudon, Journal of the Royal Society of Medicine, 106(11), 2013",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807776"
+  },
+  "carte": {
+    "punch": "Handwashing made mortality fall from 18% to 1%, with no one knowing why.",
+    "idee": "In 1847 in Vienna, Ignaz Semmelweis introduced handwashing with chlorinated lime after linking the death of an autopsied colleague to the fever that was killing women after childbirth. Mortality collapsed at once, though no germ theory yet existed to explain it.",
+    "source_courte": "Semmelweis, Vienna, 1847"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Journal of the Royal Society of Medicine — Ignaz Phillip Semmelweis' studies of death in childbirth",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807776",
+      "note": "A short, precise historical analysis, with month-by-month figures."
+    }
+  ],
+  "quiz": {
+    "question": "Why did part of Vienna's medical establishment reject Semmelweis's method despite clear results?",
+    "choix": [
+      "Because mortality had not actually fallen significantly after 1847",
+      "Because chlorinated lime was too expensive a product to use in every hospital",
+      "Because Semmelweis himself had refused to publish his results before his death",
+      "Because no known mechanism explained at the time why handwashing lowered mortality"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The drop in mortality was real and marked, but germ theory did not yet exist: without an identified cause, a correlation, however strong, remained hard to accept against the humoral medicine then taught.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}

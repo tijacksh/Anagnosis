@@ -1,0 +1,50 @@
+{
+  "id": "epi-inference-a-la-meilleure-explication",
+  "slug": "inference-a-la-meilleure-explication",
+  "langue": "en",
+  "empreinte_fr": "3acbc87b44d74756",
+  "traduit_le": "2026-11-25",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "Peirce a écrit en anglais ; citation reprise verbatim, aucune traduction nécessaire."
+    }
+  ],
+  "titre": "Inference to the Best Explanation",
+  "accroche": "The lawn is wet under a clear blue sky. You saw no one water it, yet you conclude it must have rained.",
+  "contenu_vulgarise": "You come home and find the lawn wet although the sun is shining brightly. You did not see it rain, the neighbor did not water it, but a single cloud passed by an hour earlier, which you glimpsed from the bus window. You conclude that it rained. Nothing proves this in the strict sense: among several possible explanations, you choose the one that best accounts for what you observe.\n\n## A third mode of reasoning\n\nIn his logical writings of the 1860s, and on through his last texts of the early twentieth century, the American logician Charles Sanders Peirce distinguishes this mode of reasoning from deduction, which moves from true premises to a necessarily true conclusion, and from induction, which generalizes from cases already observed. Peirce names this third mode abduction: starting from a surprising fact and working back to the hypothesis that, if true, would make that fact unsurprising. In his last writings, he sums up the procedure without detour: “Abduction is guessing”, abduction is guessing, but guessing guided by whatever would best explain what one observes.\n\n## Harman reshuffles the deck\n\nIn 1965, the American philosopher Gilbert Harman republishes this idea under another name, in an eight-page article in the journal Philosophical Review: inference to the best explanation. His thesis goes further than Peirce's: induction itself, the kind that generalizes from cases already observed, would be only a special case of this broader reasoning. Generalizing, on his account, always comes down to choosing, among the hypotheses compatible with the observed cases, the one that best explains them, rather than simply counting them.\n\n## What this shifts\n\nOrdinary scientific reasoning relies heavily on this mode of inference without naming it. A doctor making a diagnosis from a set of symptoms, a detective naming a suspect, an astronomer positing an invisible planet to explain a disturbed orbit, a geneticist singling out one candidate gene among thousands, all reason by the best explanation available, not by logical demonstration. The difficulty, unresolved since Harman, is saying what makes one explanation better than another: simpler, broader, or simply the only one anyone has thought of so far. A good part of scientific activity consists precisely in guarding against that last possibility.",
+  "citation": {
+    "texte": "Abduction is guessing",
+    "auteur": "Charles Sanders Peirce",
+    "source": "Collected Papers, vol. 7, §219 (late manuscripts)",
+    "url": "https://en.wikipedia.org/wiki/Abductive_reasoning"
+  },
+  "carte": {
+    "punch": "Guessing the best explanation is not proof, but it is already reasoning.",
+    "idee": "Peirce names abduction the reasoning that starts from a surprising fact and works back to the hypothesis that would best explain it. In 1965, Gilbert Harman turns this into inference to the best explanation, and argues that induction itself is just a special case of it.",
+    "source_courte": "Harman, Philosophical Review, 1965"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Stanford Encyclopedia of Philosophy — Abduction",
+      "url": "https://plato.stanford.edu/entries/abduction/",
+      "note": "The full picture, from Peirce to contemporary debates on inference to the best explanation."
+    }
+  ],
+  "quiz": {
+    "question": "How does Gilbert Harman's 1965 thesis go further than Peirce's notion of abduction?",
+    "choix": [
+      "It argues that induction itself is only a special case of reasoning by the best explanation",
+      "It claims that only logical deduction can reach a certain conclusion",
+      "It rejects the idea that one could choose among several explanations compatible with the same facts",
+      "It restricts abduction to the experimental sciences alone, excluding everyday reasoning"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Harman does not merely rename Peirce's abduction: he argues that generalizing from observed cases always comes down to choosing the hypothesis that best explains those cases, which makes induction a special case of inference to the best explanation.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}
