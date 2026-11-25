@@ -1,0 +1,71 @@
+{
+  "id": "geo-shakealert-course-contre-onde-s",
+  "slug": "shakealert-course-contre-onde-s",
+  "titre": "ShakeAlert ne prédit pas le séisme, il gagne la course contre l'onde S",
+  "accroche": "ShakeAlert ne devine rien : il détecte une secousse déjà commencée et transmet l'alerte plus vite qu'elle ne se propage dans le sol.",
+  "discipline": "geologie",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Une alerte sismique annonce une secousse avant qu'elle n'arrive. Vue de l'extérieur, l'affaire ressemble à une prédiction. Elle n'en est pas une : le séisme a déjà commencé au moment où l'alerte part.\n\n## Deux ondes, deux vitesses\n\nQuand une faille rompt, l'énergie se propage sous deux formes. L'onde P, de compression, la plus rapide, avance à environ 3,7 miles (6 km) par seconde dans la croûte terrestre, et secoue peu. L'onde S et les ondes de surface, plus lentes (environ 2,5 miles, soit 4 km, par seconde), arrivent ensuite et causent le plus gros des dégâts. Un signal électronique, lui, voyage à la vitesse de la lumière dans les câbles et les ondes radio. ShakeAlert, le système de l'USGS sur la côte ouest des États-Unis, place des capteurs près des failles pour détecter l'onde P dès son passage, estime en quelques secondes la position, la magnitude et l'intensité attendue, puis, si le séisme dépasse un seuil fixé, transmet un message à des partenaires qui déclenchent l'alerte publique ou des actions automatiques, comme l'arrêt de machines sensibles. Le site de l'USGS le dit sans détour : l'alerte précoce n'est pas une prédiction de séisme.\n\n## Un test grandeur réelle, et ses limites\n\nLe 4 juillet 2019, la séquence de Ridgecrest, en Californie, frappe un système encore en test : un choc précurseur de magnitude 6,4, suivi le lendemain d'un séisme principal de magnitude 7,1. ShakeAlert détecte et caractérise les deux séismes en 6,9 secondes à peine après leur origine, selon l'étude que l'USGS publie ensuite sur cette séquence. Mais seul le comté de Los Angeles reçoit alors des alertes publiques, via l'application ShakeAlertLA, et l'algorithme sous-estime la magnitude du séisme de 7,1 d'environ 0,8 point : l'alerte, exacte sur l'instant de détection, sous-évalue l'ampleur de la secousse à venir.\n\n## Ce que cela change\n\nLe système s'est depuis étendu : test public en Californie à partir du 17 octobre 2019, puis ouverture à toute la côte ouest le 4 mai 2021, pour plus de 50 millions de personnes. Mais la physique impose une limite que ni les capteurs ni les algorithmes ne lèveront : près de l'épicentre, l'onde P et l'onde S arrivent presque ensemble, et l'alerte n'a pas le temps de devancer la secousse. Plus on s'éloigne de la faille, plus l'écart se creuse, et plus l'alerte devient utile. ShakeAlert ne raccourcit donc pas le séisme : il vend les quelques secondes d'avance que la vitesse de la lumière a sur celle du sol qui tremble, et seulement là où la distance le permet.",
+  "citation": {
+    "texte": "ShakeAlert® is not earthquake prediction.",
+    "auteur": "U.S. Geological Survey",
+    "source": "Earthquake Early Warning Overview, programme ShakeAlert",
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "ShakeAlert ne prédit rien : il gagne juste la course contre l'onde qui secoue.",
+    "idee": "Un séisme émet une onde rapide et peu destructrice, puis une onde lente qui cause les dégâts. ShakeAlert détecte la première et transmet une alerte quasi instantanée avant l'arrivée de la seconde. Plus on est loin de l'épicentre, plus l'écart profite au système.",
+    "source_courte": "USGS, ShakeAlert"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "U.S. Geological Survey",
+      "titre": "Earthquake Early Warning Overview",
+      "publication": "usgs.gov, programme ShakeAlert",
+      "annee": 2026,
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview",
+      "note": "Page relue directement : vitesses des ondes P (~3,7 mi/s) et S/surface (~2,5 mi/s), principe de l'alerte quasi instantanée, citation « ShakeAlert is not earthquake prediction », dates du 17 octobre 2019 (test public Californie) et du 4 mai 2021 (ouverture côte ouest, 50 millions de personnes), seuils d'alerte (MMI III, magnitude 4,5+)."
+    },
+    {
+      "type": "institution",
+      "auteur": "U.S. Geological Survey",
+      "titre": "ShakeAlert Earthquake Early Warning System Performance During the 2019 Ridgecrest Earthquake Sequence",
+      "publication": "usgs.gov, publications USGS",
+      "annee": 2020,
+      "url": "https://www.usgs.gov/publications/shakealert-earthquake-early-warning-system-performance-during-2019-ridgecrest",
+      "note": "Page relue directement : détection et caractérisation des séismes M6,4 et M7,1 en 6,9 secondes après leur origine, alertes publiques limitées au comté de Los Angeles (application ShakeAlertLA, seuil MMI 4,0), sous-estimation de la magnitude du M7,1 de 0,8 point."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Deux fronts d'onde en arcs de cercle concentriques partant d'un point central, l'un rapproché et rapide, l'autre plus large et plus lent, avec un éclair graphique fin qui dépasse les deux fronts d'onde vers l'extérieur. Encre bleu nuit sur papier crème, un aplat orange pour l'éclair, léger hors-repérage. Aucune figure humaine.",
+    "alt": "Deux fronts d'onde concentriques depuis un point central, dépassés par un éclair graphique",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi une alerte ShakeAlert peut-elle arriver avant la secousse la plus forte d'un séisme ?",
+    "choix": [
+      "Parce que le système prévoit la date et l'heure du séisme avant qu'il ne se produise",
+      "Parce qu'un signal électronique voyage plus vite que l'onde S, détectée après l'onde P qui a déjà déclenché l'alerte",
+      "Parce que les capteurs mesurent la pression atmosphérique, qui change avant tout séisme",
+      "Parce que l'USGS retarde volontairement la diffusion des secousses réelles pour les lisser"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le séisme a déjà commencé quand l'alerte part : l'onde P, rapide, déclenche les capteurs, et le message électronique qui en résulte voyage à la vitesse de la lumière, plus vite que l'onde S qui cause le plus de dégâts. Ce n'est en rien une prédiction, et les autres mécanismes proposés n'existent pas.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "meta": {
+    "genere_le": "2026-11-25",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

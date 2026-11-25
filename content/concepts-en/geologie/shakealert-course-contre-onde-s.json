@@ -1,0 +1,45 @@
+{
+  "id": "geo-shakealert-course-contre-onde-s",
+  "slug": "shakealert-course-contre-onde-s",
+  "langue": "en",
+  "empreinte_fr": "0e20c779f1f4c51d",
+  "traduit_le": "2026-11-25",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "La citation est le texte anglais authentique publié par l'USGS, ouvert en ligne et recopié mot pour mot à l'identique en français et en anglais."
+    }
+  ],
+  "titre": "ShakeAlert Doesn't Predict the Quake, It Outruns the S Wave",
+  "accroche": "ShakeAlert doesn't guess anything: it detects a quake already underway and sends an alert faster than the ground itself can shake.",
+  "contenu_vulgarise": "An earthquake early warning announces a shake before it arrives. Seen from outside, this looks like prediction. It is not: the earthquake has already begun by the time the alert goes out.\n\n## Two waves, two speeds\n\nWhen a fault ruptures, energy spreads in two forms. The P wave, a compression wave and the faster of the two, travels at about 3.7 miles (6 km) per second through the crust, and shakes little. The S wave and surface waves, slower (about 2.5 miles, or 4 km, per second), arrive next and cause most of the damage. An electronic signal, by contrast, travels at the speed of light through cables and radio waves. ShakeAlert, the USGS system covering the U.S. West Coast, places sensors near faults to detect the P wave as it passes, estimates location, magnitude, and expected shaking within seconds, then, if the earthquake exceeds a set threshold, sends a message to partners who issue public alerts or trigger automated actions, such as shutting down sensitive equipment. The USGS site says it plainly: early warning is not earthquake prediction.\n\n## A real-world test, and its limits\n\nOn July 4, 2019, the Ridgecrest sequence, in California, hits a system still in testing: a magnitude-6.4 foreshock, followed the next day by a magnitude-7.1 mainshock. ShakeAlert detects and characterizes both earthquakes within 6.9 seconds of their origin, according to the study the USGS later publishes on this sequence. But only Los Angeles County receives public alerts at the time, through the ShakeAlertLA app, and the algorithm underestimates the magnitude of the 7.1 event by about 0.8 points: the alert, accurate about the moment of detection, understates the size of the shaking to come.\n\n## What this changes\n\nThe system has since expanded: public testing in California starting October 17, 2019, then opening to the whole West Coast on May 4, 2021, for more than 50 million people. But physics imposes a limit that neither sensors nor algorithms will lift: near the epicenter, the P wave and the S wave arrive almost together, and the alert has no time to beat the shaking. The farther away, the wider the gap, and the more useful the alert becomes. ShakeAlert does not shorten the earthquake, then: it sells the few seconds of lead that the speed of light has over the speed of shaking ground, and only where distance allows it.",
+  "citation": {
+    "texte": "ShakeAlert® is not earthquake prediction.",
+    "auteur": "U.S. Geological Survey",
+    "source": "Earthquake Early Warning Overview, ShakeAlert program",
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "ShakeAlert doesn't predict anything — it just wins the race against the shaking wave.",
+    "idee": "An earthquake sends out a fast, mild wave, then a slow wave that causes the damage. ShakeAlert detects the first and sends a near-instant alert before the second arrives. The farther from the epicenter, the more the system's lead time pays off.",
+    "source_courte": "USGS, ShakeAlert"
+  },
+  "pour_aller_plus_loin": [],
+  "quiz": {
+    "question": "Why can a ShakeAlert warning arrive before an earthquake's strongest shaking?",
+    "choix": [
+      "Because the system forecasts the date and time of the earthquake before it happens",
+      "Because an electronic signal travels faster than the S wave, detected after the P wave that already triggered the alert",
+      "Because the sensors measure atmospheric pressure, which changes before every earthquake",
+      "Because the USGS deliberately delays the broadcast of real shaking to smooth it out"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The earthquake has already started when the alert goes out: the fast P wave triggers the sensors, and the resulting electronic message travels at the speed of light, faster than the S wave that causes most damage. This is not prediction at all, and none of the other mechanisms exist.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}
