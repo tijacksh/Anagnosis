@@ -84,25 +84,45 @@
   "quiz_supplementaire": [
     {
       "question": "Que représentait l'Apatosaurus vert de la marque Sinclair, utilisé depuis 1930 ?",
-      "choix": ["Un emblème publicitaire pour des lubrifiants tirés de pétroles de Pennsylvanie", "Une preuve scientifique que le pétrole est fait de dinosaures", "Le nom d'un gisement pétrolier découvert par la société Sinclair", "Un symbole adopté après la découverte de fossiles dans un puits de la société"],
+      "choix": [
+        "Un emblème publicitaire pour des lubrifiants tirés de pétroles de Pennsylvanie",
+        "Une preuve scientifique que le pétrole est fait de dinosaures",
+        "Le nom d'un gisement pétrolier découvert par la société Sinclair",
+        "Un symbole adopté après la découverte de fossiles dans un puits de la société"
+      ],
       "bonne_reponse": 0,
       "explication": "Le texte dit que ce dinosaure sert d'emblème depuis 1930 pour promouvoir des lubrifiants tirés de pétroles bruts de Pennsylvanie, et que l'historique ne prétend pas que l'huile est faite de dinosaures."
     },
     {
       "question": "Selon le Service géologique des États-Unis, à quelle époque datent les grès pétrolifères de Venango, en Pennsylvanie ?",
-      "choix": ["Au Mésozoïque, comme l'affirme la publicité Sinclair", "Au Jurassique, à l'époque des grands dinosaures", "Au Dévonien supérieur, bien avant le Mésozoïque", "Au Crétacé, juste avant la disparition des dinosaures"],
+      "choix": [
+        "Au Mésozoïque, comme l'affirme la publicité Sinclair",
+        "Au Jurassique, à l'époque des grands dinosaures",
+        "Au Dévonien supérieur, bien avant le Mésozoïque",
+        "Au Crétacé, juste avant la disparition des dinosaures"
+      ],
       "bonne_reponse": 2,
       "explication": "Le texte cite l'USGS : ces grès sont du Dévonien supérieur, bien avant le Mésozoïque où la publicité Sinclair situe à tort ces pétroles."
     },
     {
       "question": "Quelle exception Müller cite-t-il, où un peu de pétrole pourrait venir d'un animal autre que des algues ou du plancton ?",
-      "choix": ["Des troupeaux de dinosaures herbivores fossilisés dans des marais tropicaux", "Des reptiles marins trouvés dans la même couche du Svalbard que du pétrole", "Des coraux fossilisés ayant piégé du pétrole dans leurs squelettes anciens", "Des forêts tropicales entières englouties par une inondation très soudaine"],
+      "choix": [
+        "Des troupeaux de dinosaures herbivores fossilisés dans des marais tropicaux",
+        "Des reptiles marins trouvés dans la même couche du Svalbard que du pétrole",
+        "Des coraux fossilisés ayant piégé du pétrole dans leurs squelettes anciens",
+        "Des forêts tropicales entières englouties par une inondation très soudaine"
+      ],
       "bonne_reponse": 1,
       "explication": "Le texte dit qu'un peu d'huile pourrait venir de reptiles marins, plésiosaures et ichtyosaures, trouvés avec du pétrole au Svalbard, mais que ce ne sont pas des dinosaures."
     },
     {
       "question": "En 1936, que publie Alfred Treibs, selon la fiche ?",
-      "choix": ["Un rapport officiel sur la datation précise des grès de Pennsylvanie", "Une étude détaillée sur la température de cuisson du pétrole", "Un article démontrant que le pétrole contient de l'ADN de dinosaure", "Un article sur des dérivés de la chlorophylle dans des matières organiques"],
+      "choix": [
+        "Un rapport officiel sur la datation précise des grès de Pennsylvanie",
+        "Une étude détaillée sur la température de cuisson du pétrole",
+        "Un article démontrant que le pétrole contient de l'ADN de dinosaure",
+        "Un article sur des dérivés de la chlorophylle dans des matières organiques"
+      ],
       "bonne_reponse": 3,
       "explication": "Le texte dit que Treibs publie en 1936 un article sur des dérivés de la chlorophylle et de l'hémine dans des matières minérales organiques, ce qui en fait, pour Kvenvolden, le père de la géochimie organique."
     }
@@ -124,11 +144,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-10-13",
-    "verdict": "a_revoir",
-    "empreinte": "b7287ee0f55f7ba7",
+    "fait_le": "2026-11-25",
+    "verdict": "ok",
+    "empreinte": "a6603b0fc14cd2b7",
     "notes": [
-      "Sources rouvertes : Sciencenorway/Müller (algues et plancton, 60-120 °C, mer pauvre en oxygène il y a 150 Ma, os de dinosaure dans un puits norvégien, plésiosaures et ichtyosaures du Svalbard, « pure fantasy »), Kvenvolden 2006 (Treibs 1936, porphyrines, père de la géochimie organique), Sinclair (Dino 1930, marque 1932, Chicago 1933-1934 plus de 24 000 visiteurs par jour), Crossref pour Treibs 1936 (Angew. Chem. 49, 682-686). À réviser : la fiche rapporte, « selon l'historique de l'entreprise », des pétroles bruts de Pennsylvanie « déposés au Mésozoïque » et en tire « l'époque n'est pas la matière ». Or les réservoirs de Pennsylvanie (Venango, Bradford) sont du Dévonien supérieur (USGS Geolex, Pittsburgh Geological Society), donc bien avant les dinosaures : la page Sinclair affirme une datation fausse, et la fiche la répète sans correction. L'argument central (époque ≠ matière) tient avec un autre exemple (pétroles de mer du Nord vers 150 Ma, dans la source Müller) ; reste à décider quoi faire du récit Sinclair (le corriger explicitement ou le remplacer)."
+      "Rouvert : Sciencenorway (Müller, 60-120 °C, 150 Ma, mer pauvre en oxygène, os de dinosaure, reptiles marins du Svalbard, pure fantasy, 14 mai 2022), Sinclair (Dino 1930, Pennsylvanie, Mésozoïque, Apatosaurus 1932, Chicago 24 000 par jour). Le texte corrige désormais la datation de Sinclair. Geolex Venango et Kvenvolden en 403, non rouverts (vérifiés au contrôle du 13/10)."
     ]
   },
   "controle_juridique": null,

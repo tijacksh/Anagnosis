@@ -84,25 +84,45 @@
   "quiz_supplementaire": [
     {
       "question": "Qui a eu, indépendamment de Vine et Matthews, la même idée de bandes magnétiques symétriques ?",
-      "choix": ["Harry Hess", "Lawrence Morley", "Walter Pitman", "James Heirtzler"],
+      "choix": [
+        "Harry Hess",
+        "Lawrence Morley",
+        "Walter Pitman",
+        "James Heirtzler"
+      ],
       "bonne_reponse": 1,
       "explication": "Le texte dit que le géologue canadien Lawrence Morley a eu la même idée de son côté, d'où le nom d'hypothèse de Vine, Matthews et Morley ; les trois autres noms jouent un rôle différent dans l'histoire."
     },
     {
       "question": "Quel rôle Matthews jouait-il auprès de Vine à Cambridge, au moment de l'article de 1963 ?",
-      "choix": ["Son directeur de thèse", "Son étudiant de licence", "Un rival d'un laboratoire concurrent", "Le directeur du département de géologie"],
+      "choix": [
+        "Son directeur de thèse",
+        "Son étudiant de licence",
+        "Un rival d'un laboratoire concurrent",
+        "Le directeur du département de géologie"
+      ],
       "bonne_reponse": 0,
       "explication": "Le texte dit que Vine était alors doctorant à Cambridge et Matthews son directeur ; les trois autres rôles ne sont pas ceux décrits dans la fiche."
     },
     {
       "question": "Quelle propriété du basalte lui permet d'enregistrer les inversions du champ magnétique terrestre, selon la fiche ?",
-      "choix": ["Il devient radioactif en refroidissant, ce qui marque sa date", "Il se fissure selon des angles liés au champ magnétique", "Il contient de la magnétite, qui s'oriente dans le champ et en garde la polarité", "Il change de couleur selon l'intensité du champ magnétique"],
+      "choix": [
+        "Il devient radioactif en refroidissant, ce qui marque sa date",
+        "Il se fissure selon des angles liés au champ magnétique",
+        "Il contient de la magnétite, qui s'oriente dans le champ et en garde la polarité",
+        "Il change de couleur selon l'intensité du champ magnétique"
+      ],
       "bonne_reponse": 2,
       "explication": "Le texte dit que le basalte contient de la magnétite, qui s'oriente dans le champ magnétique terrestre et en garde la polarité une fois refroidie ; les autres propriétés ne figurent pas dans la fiche."
     },
     {
       "question": "Quel écartement annuel du fond océanique Pitman et Heirtzler déduisent-ils de leurs profils magnétiques, le 2 décembre 1966 ?",
-      "choix": ["45 centimètres par an", "4,5 millimètres par an", "0,45 centimètre par an", "4,5 centimètres par an"],
+      "choix": [
+        "45 centimètres par an",
+        "4,5 millimètres par an",
+        "0,45 centimètre par an",
+        "4,5 centimètres par an"
+      ],
       "bonne_reponse": 3,
       "explication": "Le texte dit que leurs quatre profils magnétiques indiquent un écartement du fond de 4,5 centimètres par an, et non l'une des trois autres valeurs proposées."
     }
@@ -124,11 +144,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-10-14",
-    "verdict": "a_revoir",
-    "empreinte": "5c3c6da880426016",
+    "fait_le": "2026-11-25",
+    "verdict": "ok",
+    "empreinte": "09dc33799937ef69",
     "notes": [
-      "À vérifier (corps, §« Trois ans de vérification », 2e paragraphe) : « Les vitesses d'écartement qu'il en déduit pour toutes les parties actives du système de dorsales dont on dispose de profils s'accordent exactement, écrit-il, avec celles que demande la dérive ». Le résumé de Vine (Science 154, 1966, tel que reproduit par EarthRef) dit seulement « deduced rates of spreading are in exact agreement with those needed to account for continental drift » ; la restriction « toutes les parties actives… dont on dispose de profils » n'y figure pas, et le texte intégral de Science n'a pas pu être rouvert (science.org 403, PDF Harvard illisible) : la retrouver dans le corps de l'article ou la retirer. Confirmés : Pitman et Heirtzler (Crossref : 2 décembre 1966, p. 1164-1171 ; profils parallèles et symétriques, 3,4 Ma, 4,5 cm/an ; quatre profils), Vine (16 décembre 1966, échelle de 4 Ma, profils calculés et observés), Nature 199, 7 septembre 1963, Hess publié en 1962, Cox 1964 sur les laves continentales, Morley indépendant (Wikipédia EN, Geological Society). Nature 1963 non ouvert (DOI redirigé vers un mur d'authentification). Carte et quiz cohérents."
+      "Rouvert : Geological Society (Vine doctorant, Morley indépendant), Wikipédia VMM (Nature 199, 7 sept 1963, Hess publié en 1962, Cox 1964 laves « land sites »). Science (Pitman-Heirtzler, Vine) en 403, non rouverts cette fois ; passage de Vine vérifié lors de la réparation du 14/10. Rien à redire."
     ]
   },
   "controle_juridique": null,
