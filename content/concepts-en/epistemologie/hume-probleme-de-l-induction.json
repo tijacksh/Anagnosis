@@ -2,7 +2,7 @@
  "id": "epi-hume-probleme-de-l-induction",
  "slug": "hume-probleme-de-l-induction",
  "langue": "en",
- "empreinte_fr": "9cca02d33e06901e",
+ "empreinte_fr": "04302b5047756f67",
  "traduit_le": "2026-11-26",
  "moteur": "claude-sonnet-5-5",
  "relu": false,
@@ -46,5 +46,42 @@
   "explication": "Hume does not question the number of observations, nor does he claim that logic forbids reasoning about the future, and he does not hand the question over to the sciences alone either. His argument is precise: grounding confidence in the future on past experience amounts to taking for granted the very principle that would need to be demonstrated, the uniformity of nature.",
   "statut": "valide"
  },
- "quiz_supplementaire": []
+ "quiz_supplementaire": [
+  {
+   "question": "According to Hume, why does the argument from demonstration fail to prove the uniformity of nature?",
+   "choix": [
+    "Because no philosopher before him had attempted this demonstration",
+    "Because demonstration requires already knowing the future in advance",
+    "Because denying this uniformity involves no logical contradiction",
+    "Because only experience, never logic, can demonstrate a fact"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Hume writes that conceiving a world where nature stopped being uniform, where the sun would not rise tomorrow for instance, involves no logical contradiction: nothing in pure demonstration rules out that possibility.",
+   "statut": "valide"
+  },
+  {
+   "question": "What does Hume conclude about what makes us believe bread will nourish us again tomorrow?",
+   "choix": [
+    "It is habit, not reason, that produces this belief",
+    "It is a scientific law already proven in the eighteenth century",
+    "It is a religious certainty, in his view, specific to his era",
+    "It is an instinct identical in all animals and in humans"
+   ],
+   "bonne_reponse": 0,
+   "explication": "Hume concludes that reason does not support this expectation: it is habit, born from repeatedly seeing the same events follow one another, that carries us there, and he makes it the great guide of human life.",
+   "statut": "valide"
+  },
+  {
+   "question": "How do contemporary authors such as Okasha or Norton, per the entry, approach Hume's circularity?",
+   "choix": [
+    "They accept Hume's conclusion and give up on induction altogether",
+    "They show that Hume was mistaken about the definition of logic",
+    "They replace the uniformity of nature with a single mathematical law",
+    "They deny that all inductive inferences rest on one same uniformity principle"
+   ],
+   "bonne_reponse": 3,
+   "explication": "The entry notes that Okasha and Norton try to escape the circularity by denying that all inductive inferences rest on one single uniformity principle of nature, rather than by refuting Hume outright.",
+   "statut": "valide"
+  }
+ ]
 }

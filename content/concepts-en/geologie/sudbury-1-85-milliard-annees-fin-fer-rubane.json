@@ -2,7 +2,7 @@
   "id": "geo-sudbury-1-85-milliard-annees-fin-fer-rubane",
   "slug": "sudbury-1-85-milliard-annees-fin-fer-rubane",
   "langue": "en",
-  "empreinte_fr": "df0b3676acb15db1",
+  "empreinte_fr": "fad859e616d18bfb",
   "traduit_le": "2026-11-26",
   "moteur": "claude-code",
   "relu": false,
@@ -41,5 +41,42 @@
     "explication": "Slack and Cannon, USGS researchers, link the end of deposition to the impact of the Sudbury bolide, dated to 1.85 billion years ago, which may have mixed the ocean's waters. The other options do not appear in their study.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "According to the entry, how does the dissolved iron of the early oceans turn into a banded iron deposit?",
+      "choix": [
+        "It combines directly with dissolved carbon to form black crystals",
+        "It solidifies only under the effect of the deep ocean's cold",
+        "It reacts with sea salt to form long blocks of pure silica",
+        "It oxidizes into insoluble ferric iron on contact with oxygen-rich water, and settles"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The entry describes dissolved ferrous iron that, on meeting water where photosynthetic organisms had produced oxygen, oxidizes into insoluble ferric iron and settles to the bottom in layers alternating with silica.",
+      "statut": "valide"
+    },
+    {
+      "question": "According to the entry, where are the oldest known banded iron formations found?",
+      "choix": [
+        "In Western Australia, with an age of 2.47 billion years",
+        "In Greenland, with an estimated age of 3.7 to 3.8 billion years",
+        "In Canada, with an estimated age of about 1.85 billion years",
+        "In South Africa, with an age close to 4.5 billion years"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The entry places the oldest known formations in Greenland, with an estimated age between 3.7 and 3.8 billion years, well before the massive formations in Western Australia dated to 2,470 to 2,450 million years ago.",
+      "statut": "valide"
+    },
+    {
+      "question": "According to the entry, what age is assigned to the Sudbury crater, and by what method?",
+      "choix": [
+        "1.849 billion years, by uranium-lead dating of zircons",
+        "66 million years, by carbon-14 dating of sediments",
+        "2.45 billion years, by counting banded iron layers",
+        "550 million years, by paleomagnetic analysis of the rocks"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The entry assigns the Sudbury crater an age of 1.849 billion years, established by Donald Davis in 2008 through uranium-lead dating of zircons, the same period as the end of banded iron deposition near Lake Superior.",
+      "statut": "valide"
+    }
+  ]
 }

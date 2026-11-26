@@ -2,7 +2,7 @@
   "id": "geo-steno-1669-dent-de-requin-strates-du-temps",
   "slug": "steno-1669-dent-de-requin-strates-du-temps",
   "langue": "en",
-  "empreinte_fr": "8e18c59bb207e1cd",
+  "empreinte_fr": "231911cf2b072da8",
   "traduit_le": "2026-11-26",
   "moteur": "claude-code",
   "relu": false,
@@ -41,5 +41,42 @@
     "explication": "Steno writes that when one of the upper strata was being formed, the lower stratum had already gained the consistency of a solid: the lowest is therefore the oldest. The other options do not appear in his reasoning.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What do two fishermen catch near Livorno in October 1666, according to the entry?",
+      "choix": [
+        "A huge female shark, whose head is sent to Steno",
+        "A fossil tooth found directly inside a rock layer",
+        "A tongue stone said to have fallen from the Moon",
+        "An ancient human skull kept in the grand duke's collections"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The entry traces the whole story back to October 1666: two fishermen catch a huge female shark near Livorno, and Grand Duke Ferdinand II de' Medici has its head sent to Nicolas Steno.",
+      "statut": "valide"
+    },
+    {
+      "question": "According to the entry, what are the four principles of stratigraphy the 1669 Prodromus contains?",
+      "choix": [
+        "Radiometric dating, plate tectonics, erosion, and sedimentation",
+        "Fossilization, petrification, crystallization, and mineralization",
+        "Superposition, original horizontality, lateral continuity, and cross-cutting relationships",
+        "The verticality of layers, their rotation, their fusion, and their dislocation"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The entry credits the 1669 Prodromus, per Wikipedia, with four principles: superposition, original horizontality, lateral continuity, and cross-cutting relationships, which order a pile of rocks into a chronology.",
+      "statut": "valide"
+    },
+    {
+      "question": "According to the entry, what does Steno compare the shark's teeth he dissects to?",
+      "choix": [
+        "Round pebbles found in the beds of Tuscan rivers",
+        "Fossilized shells already classified by Pliny the Elder",
+        "Quartz crystals observed in nearby caves",
+        "Glossopetrae, tongue stones found inside rock"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The entry reports that Steno notices a troubling resemblance between the shark's teeth and glossopetrae, tongue stones found inside rock, which Pliny believed had fallen from the sky or the Moon.",
+      "statut": "valide"
+    }
+  ]
 }
