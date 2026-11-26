@@ -122,16 +122,21 @@
     },
     {
       "question": "En quelle année le laboratoire de restauration florentin fusionne-t-il avec l'ancien Opificio delle Pietre Dure ?",
-      "choix": ["1970", "1975", "1980", "1966, la même année que la crue"],
+      "choix": [
+        "1970",
+        "1975",
+        "1980",
+        "1966, la même année que la crue"
+      ],
       "bonne_reponse": 1,
       "explication": "Le texte précise que la fusion avec l'ancien Opificio delle Pietre Dure, manufacture médicéenne du seizième siècle, a lieu en 1975, neuf ans après la crue de 1966."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-21T22:11:25.371Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-26T17:15:31.000Z",
     "historique": [
       {
         "action": "valider",
@@ -140,15 +145,23 @@
         "par": "routine-relecture",
         "le": "2026-09-21T22:11:25.371Z",
         "note": "Sources rouvertes via WebSearch (WebFetch bloqué par le proxy réseau, comme au contrôle). Confirmé indépendamment : crue de l'Arno le 4 novembre 1966, submersion du sous-sol et rez-de-chaussée de la BNCF avec plus d'un million de livres/journaux/manuscrits touchés (BNCF, The Florentine) ; Crucifix de Cimabue submergé 12h à Santa Croce avec perte d'environ 60% de sa couche picturale (Santa Croce, Daily Beast) ; Peter Waters Conservation Officer à la Library of Congress de 1971 à 1995, conservation par phases (LOC, Wikipedia) ; abstraction chromatique (tratteggio) inventée par Baldini et Casazza pour le Crucifix (Conservation Wiki) ; fusion 1975 du Gabinetto del Restauro avec l'Opificio delle Pietre Dure à la Fortezza da Basso (Wikipedia, OPD). Carte et quiz conformes au texte et aux sources. Rien à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-26T17:15:31.000Z",
+        "note": "Contrôle du 2026-11-26 : « presque un million » (BNCF), nom du laboratoire, lyophilisation et conservation par phases non retrouvés dans les sources citées. Voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-19",
-    "verdict": "ok",
-    "empreinte": "f38bf8bf29e9887b",
+    "fait_le": "2026-11-26",
+    "verdict": "a_revoir",
+    "empreinte": "5b0a984407495881",
     "notes": [
-      "Sources rouvertes (WebSearch, WebFetch bloqué par le proxy réseau). Crue du 4 novembre 1966 confirmée, Crucifix de Cimabue submergé avec perte d'environ 60% de sa couche picturale (confirmé par plusieurs sources dont Uffizi et Santa Croce). Plus d'un million de livres de la BNCF touchés confirmé. Peter Waters, les 'angeli del fango', la lyophilisation et la conservation par phases, et son rôle fondateur à la Library of Congress (Conservation Officer 1971-1995) confirmés. Baldini et Casazza et l'abstraction chromatique (tratteggio) confirmés. Fusion 1975 du Gabinetto del Restauro avec l'Opificio delle Pietre Dure à la Fortezza da Basso confirmée. Carte et quiz conformes. Rien à corriger."
+      "BNCF rouverte : « almost one million books » (1,3 million d'objets à sauver), la fiche et le repère disent « plus d'un million ». MiC : le laboratoire de la Surintendance s'appelle « Laboratorio di restauro » (1932), pas « Gabinetto del Restauro ». Non retrouvés dans les sources : lyophilisation par Waters, séchoirs à tabac, « conservation par phases » (page LOC), submersion de plusieurs heures, 1976. conservation-wiki.com en 403. A reformuler ou resourcer."
     ]
   },
   "controle_juridique": null,

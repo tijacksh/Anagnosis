@@ -94,11 +94,11 @@
       "explication": "Le nom d'Ambroise Vollard, qui organise la première exposition personnelle de Picasso à Paris en 1901, circule sans qu'aucun document ne le confirme."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-26T19:23:20.425Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-26T17:15:31.000Z",
     "historique": [
       {
         "action": "valider",
@@ -107,18 +107,23 @@
         "par": "routine-reparation",
         "le": "2026-08-26T19:23:20.425Z",
         "note": "Sources rouvertes (Phillips Collection, CBS/AP). Repere reformule pour ne plus s'appuyer que sur des faits presents dans la page Phillips citee (annees 1990 sans image nette, reprise de l'etude par Patricia Favero en 2007, campagne a quatre institutions en 2012) ; les faits dates a 1954 et 2008 restent dans le corps, sources a CBS. Corps corrige : 'Le musee relance l'enquete en 2008' distingue desormais la reprise de l'etude par Favero en 2007 de la revelation infrarouge en 2008 (confirmee par CBS : 'In 2008, improved infrared imagery revealed...'). La phrase sur les pigments identiques ne dit plus qu'elle 'confirme' l'ecart de quelques mois : elle est separee en deux, l'identite des pigments soutenant l'hypothese d'une meme main, et l'ecart de trois-quatre mois venant de l'examen des coupes de peinture au microscope (Phillips : 'increasing the likelihood' / 'possibly with as little as three or four months in between'). La raison invoquee pour ecarter l'autoportrait, introuvable dans les sources, est retiree ; le fait lui-meme (autoportrait ecarte) reste, sourcee CBS. Reste de la fiche (1901, 1927, description du portrait, Vollard, citation de Susan Behrends Frank y compris le detail du carton) verifie mot pour mot conforme."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-26T17:15:31.000Z",
+        "note": "Contrôle du 2026-11-26 : acquisition 1928 (source) contre 1927 (fiche) ; plusieurs détails absents du communiqué Phillips. Voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-25",
+    "fait_le": "2026-11-26",
     "verdict": "a_revoir",
-    "empreinte": "105ce5179bab49e8",
+    "empreinte": "6919769baaad1c6a",
     "notes": [
-      "Repere mal source : les phrases sur 1954 (note du restaurateur) et sur 2008 (revelation du visage) ne sont pas dans la page Phillips Collection citee en repere.url — 1954 vient de la source CBS (deja dans sources[]) et Phillips ne date pas precisement 2008 (elle situe seulement le debut de l'etude en 2007). A corriger : reformuler le repere pour qu'il ne s'appuie que sur ce que dit reellement l'URL citee, ou lui adjoindre la bonne reference.",
-      "Corps : 'ce qui confirme que Picasso a peint les deux a quelques mois d'intervalle' est plus fort que la source Phillips, qui dit seulement 'increasing the likelihood' et 'possibly with as little as three or four months in between' — a reformuler avec la nuance de probabilite, pas de certitude.",
-      "Corps : 'Le musee relance l'enquete en 2008' — Phillips situe le debut de l'etude de Patricia Favero en 2007, le 2008 concerne seulement l'obtention de l'image nette ameliroee ; a corriger ou distinguer les deux dates.",
-      "Corps : la raison donnee pour ecarter l'hypothese d'un autoportrait ('les traits ne correspondant pas a ceux de Picasso') n'est retrouvee dans aucune des deux sources citees (Phillips, CBS) ni dans les reprises de la depeche AP consultees ; a sourcer ou a reformuler de facon plus prudente."
+      "Communiqué Phillips (2014) rouvert : il dit « Acquired by The Phillips Collection in 1928 », la fiche écrit 1927. Absents de cette source : restaurateur de 1954, caméra infrarouge de 2008, détails de l'homme (barbe, nœud papillon, bagues), Susan Behrends Frank (carton), hypothèse Vollard, autoportrait écarté. Le communiqué dit aussi « largement sec » (pas « pas tout à fait sec ») et « possiblement trois ou quatre mois ». Vérifier dans les autres sources ou retirer."
     ]
   },
   "controle_juridique": null,
