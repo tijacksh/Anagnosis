@@ -72,7 +72,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Aucune règle géologique ne distingue plus nettement l'Europe de l'Asie, une seule masse de terre continue, que l'Amérique du Nord de l'Amérique du Sud, reliées par l'isthme de Panama : le découpage retenu dépend de conventions historiques propres à chaque tradition scolaire, pas de la tectonique ni de l'imagerie satellite.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -98,11 +98,11 @@
       "explication": "Le modèle russe fusionne Europe et Asie en une seule Eurasie mais garde les deux Amériques séparées, à l'inverse du modèle francophone qui unifie les Amériques en séparant Europe et Asie."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-27T22:15:57.899Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-26T00:00:00.000Z",
     "historique": [
       {
         "action": "valider",
@@ -111,15 +111,23 @@
         "par": "routine-relecture",
         "le": "2026-09-27T22:15:57.899Z",
         "note": "Trois sources rouvertes indépendamment : unstats.un.org/m49 confirme 5 régions géographiques (Afrique, Amériques, Asie, Europe, Océanie), Amériques comme bloc unique à ce niveau macro (sous-régions distinctes en dessous, non contradictoire), Antarctique hors classification. fr.wikipedia Continent confirme les modèles à six (Amérique unifiée, francophonie) et cinq continents (ONU, CIO, sans Antarctique) et l'absence de définition scientifique unique. en.wikipedia Boundaries between the continents et Continent confirment Strahlenberg 1725 (Don->Volga->Oural), le modèle à sept continents anglophone et le modèle à six avec Eurasie unifiée (Russie/Europe de l'Est). Carte et quiz conformes au texte. Rien à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-26T00:00:00.000Z",
+        "note": "Signalée par le contrôle du 2026-11-26, voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-27",
-    "verdict": "ok",
-    "empreinte": "90dedfef96a989d4",
+    "fait_le": "2026-11-26",
+    "verdict": "a_revoir",
+    "empreinte": "fa85920d7be5fc08",
     "notes": [
-      "Trois sources rouvertes : unstats.un.org/unsd/methodology/m49/ confirme la classification en « régions géographiques » (pas « continents »), 5 régions (Afrique, Amériques, Asie, Europe, Océanie), Amériques comme bloc unique au niveau macro, Antarctique absent des régions habitées listées par pays. fr.wikipedia Continent confirme le modèle à six continents (Amérique unifiée, francophonie), le modèle à cinq (ONU, CIO, sans Antarctique), et l'absence de définition scientifique unique. en.wikipedia Boundaries between the continents confirme Strahlenberg 1725 (Don → Volga → Oural) et le caractère de construction historique/culturelle de la frontière Europe-Asie. Rien à corriger."
+      "Source ré-ouverte en détail (unstats.un.org/unsd/methodology/m49/) : elle ne soutient pas « six « régions continentales » (Afrique, Amériques, Antarctique, Asie, Europe, Océanie) » affirmé dans le repere et dans le dernier paragraphe du corps du texte. La page dit seulement « These geographic regions are based on continental regions », sans donner de nombre, et son premier niveau de classification compte CINQ régions continentales (Afrique, Amériques, Asie, Europe, Océanie) — l'Antarctique (code M49 010, ISO ATA) y figure comme une entrée de pays/zone listée après les Amériques, jamais présentée comme une sixième région continentale au même rang que les cinq autres. C'est le même écart que le premier contrôle du 27/09 avait déjà repéré (notes : « confirme 5 régions géographiques [...] Antarctique hors classification ») sans qu'il soit corrigé dans le texte à l'époque — verdict « ok » erroné. À reformuler : soit citer le nombre réel (cinq régions continentales, Antarctique listée à part), soit retirer l'affirmation d'un sixième rang pour l'Antarctique dans ce décompte onusien. Reste de la fiche (modèles à sept/six/cinq continents, Strahlenberg 1725, Wikipedia fr Continent et en Boundaries between the continents) confirmé exact et non concerné."
     ]
   },
   "controle_juridique": null,
