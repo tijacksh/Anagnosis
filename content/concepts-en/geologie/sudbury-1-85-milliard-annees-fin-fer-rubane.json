@@ -2,7 +2,7 @@
   "id": "geo-sudbury-1-85-milliard-annees-fin-fer-rubane",
   "slug": "sudbury-1-85-milliard-annees-fin-fer-rubane",
   "langue": "en",
-  "empreinte_fr": "df0b3676acb15db1",
+  "empreinte_fr": "80f39759ec27f3fc",
   "traduit_le": "2026-11-26",
   "moteur": "claude-code",
   "relu": false,
@@ -41,5 +41,28 @@
     "explication": "Slack and Cannon, USGS researchers, link the end of deposition to the impact of the Sudbury bolide, dated to 1.85 billion years ago, which may have mixed the ocean's waters. The other options do not appear in their study.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "According to the text, how old are the oldest known banded iron formations, in Greenland?",
+      "choix": [
+        "About 500 million years",
+        "1.85 billion years",
+        "3.7 to 3.8 billion years",
+        "2,470 to 2,450 million years"
+      ],
+      "bonne_reponse": 2,
+      "explication": "The text gives 3.7 to 3.8 billion years for the oldest known formations, in Greenland. The 2,470 to 2,450 million years figure belongs to Hamersley, and 1.85 billion years marks the end of deposition in the Lake Superior region."
+    },
+    {
+      "question": "How is the age of 1.849 billion years of the Sudbury crater established?",
+      "choix": [
+        "By comparison with the iridium layer of another impact",
+        "By uranium-lead dating of zircons",
+        "By counting the layers of banded iron formation",
+        "By measuring the crater's present diameter"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The text says the age was established by uranium-lead dating of zircons, by Donald Davis in 2008. The other methods offered do not appear in the text."
+    }
+  ]
 }
