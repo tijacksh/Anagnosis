@@ -2,7 +2,7 @@
   "id": "geo-shakealert-course-contre-onde-s",
   "slug": "shakealert-course-contre-onde-s",
   "langue": "en",
-  "empreinte_fr": "c94d9126bf173fef",
+  "empreinte_fr": "b77e97f8ae9796d1",
   "traduit_le": "2026-11-26",
   "moteur": "claude-code",
   "relu": false,
@@ -41,5 +41,28 @@
     "explication": "The earthquake has already started when the alert goes out: the faster P wave is detected by the sensors, and today's telecommunications are far faster than seismic waves, so the alert can arrive before the most damaging waves. This is not prediction at all, and none of the other mechanisms exist.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "Why did ShakeAlertLA send no public alert during the magnitude 6.4 Ridgecrest earthquake?",
+      "choix": [
+        "The system only handles earthquakes of magnitude above 7",
+        "Los Angeles County had not yet been given the ShakeAlertLA app",
+        "The sensors did not detect the earthquake within 6.9 seconds",
+        "The shaking expected in Los Angeles was below the app's threshold"
+      ],
+      "bonne_reponse": 3,
+      "explication": "For the magnitude 6.4 shock, the shaking expected in Los Angeles stayed below the app's threshold, an intensity of 4.0 on the Mercalli scale, so no public alert was sent."
+    },
+    {
+      "question": "How many people does the opening of ShakeAlert to the whole West Coast, on May 4, 2021, cover?",
+      "choix": [
+        "Fewer than 5 million people",
+        "More than 50 million people",
+        "About 500,000 people, all in California",
+        "Only the residents of Los Angeles County"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The USGS puts the coverage at more than 50 million people. The other answers are contradicted by the text, which describes an opening to the whole West Coast."
+    }
+  ]
 }

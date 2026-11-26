@@ -2,7 +2,7 @@
   "id": "epi-bacon-quatre-idoles-de-l-esprit",
   "slug": "bacon-quatre-idoles-de-l-esprit",
   "langue": "en",
-  "empreinte_fr": "72d49d5c1666121b",
+  "empreinte_fr": "657e6082584d063f",
   "traduit_le": "2026-11-26",
   "moteur": "claude-sonnet-5-5",
   "relu": false,
@@ -46,5 +46,28 @@
     "explication": "Bacon does not say the senses lie about the shape of objects, that is not an optical flaw, nor does he hold the trait to be unique to Antiquity, he treats it as universal: the idol of the tribe is that human judgment mixes its own nature into what it perceives, like a mirror that distorts as it reflects.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "Which idol arises from the way words settle into common use?",
+      "choix": [
+        "The idol of the cave, specific to each person's upbringing and reading",
+        "The idol of the tribe, tied to human nature itself",
+        "The idol of the marketplace, born of language",
+        "The idol of the theatre, coming from philosophical dogmas"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Bacon ascribes to the marketplace the words fixed according to the understanding of ordinary people, which then impose their division on thought. The other three idols have different origins: the individual, human nature, or philosophical systems."
+    },
+    {
+      "question": "According to Bacon, where do the idols of the theatre come from?",
+      "choix": [
+        "From the dogmas of philosophies and from wrongly applied rules of demonstration",
+        "From the reading and upbringing peculiar to each person",
+        "From everyday language, which fixes words according to the common understanding of people",
+        "From human nature itself, common to all men"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The idols of the theatre are not innate: they are received into the mind from philosophical systems and from wrong rules of demonstration. Reading belongs to the cave, language to the marketplace, and human nature to the tribe."
+    }
+  ]
 }

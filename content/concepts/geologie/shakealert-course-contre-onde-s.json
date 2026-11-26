@@ -60,7 +60,30 @@
     "explication": "Le séisme a déjà commencé quand l'alerte part : l'onde P, plus rapide, est détectée par les capteurs, et les télécommunications d'aujourd'hui sont bien plus rapides que les ondes sismiques, ce qui permet à l'alerte d'arriver avant les ondes les plus dommageables. Ce n'est en rien une prédiction, et les autres mécanismes proposés n'existent pas.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Pourquoi aucune alerte publique n'est-elle partie de ShakeAlertLA lors du séisme de magnitude 6,4 de Ridgecrest ?",
+      "choix": [
+        "Le système ne traite que les séismes de magnitude supérieure à 7",
+        "Le comté de Los Angeles n'avait pas encore reçu l'application ShakeAlertLA",
+        "Les capteurs n'ont pas détecté le séisme dans les 6,9 secondes",
+        "La secousse prévue pour Los Angeles était sous le seuil de l'application"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Pour le choc de magnitude 6,4, la secousse prévue à Los Angeles restait sous le seuil de l'application, d'intensité 4,0 sur l'échelle de Mercalli, si bien qu'aucune alerte publique n'a été envoyée."
+    },
+    {
+      "question": "Combien de personnes sont couvertes par l'ouverture de ShakeAlert à toute la côte ouest, le 4 mai 2021 ?",
+      "choix": [
+        "Moins de 5 millions de personnes",
+        "Plus de 50 millions de personnes",
+        "Environ 500 000 personnes, toutes en Californie",
+        "Seulement les habitants du comté de Los Angeles"
+      ],
+      "bonne_reponse": 1,
+      "explication": "L'USGS chiffre cette couverture à plus de 50 millions de personnes. Les autres réponses sont contredites par le texte, qui décrit une ouverture à toute la côte ouest."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {
