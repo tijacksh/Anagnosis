@@ -1,0 +1,50 @@
+{
+ "id": "epi-hume-probleme-de-l-induction",
+ "slug": "hume-probleme-de-l-induction",
+ "langue": "en",
+ "empreinte_fr": "ad205bba77772093",
+ "traduit_le": "2026-11-26",
+ "moteur": "claude-sonnet-5-5",
+ "relu": false,
+ "drapeaux": [
+  {
+   "chemin": "citation/texte",
+   "type": "citation-originale-anglaise",
+   "note": "English original verified verbatim against the full text of An Enquiry Concerning Human Understanding on archive.org, Section IV, Part II: \"must be evidently going in a circle, and taking that for granted, which is the very point in question.\""
+  }
+ ],
+ "titre": "Hume's Problem of Induction",
+ "accroche": "Bread nourished yesterday: nothing, David Hume argued in 1748, logically guarantees that it will nourish again tomorrow.",
+ "contenu_vulgarise": "A baker has sold bread for twenty years without ever poisoning anyone. No one hesitates, walking into the shop tomorrow, to believe the same will hold. David Hume, in 1748, in *An Enquiry Concerning Human Understanding* (Section IV), asks exactly what this confidence rests on, and his answer disappoints: on nothing reason can defend.\n\n## The dilemma\n\nEvery inference of this kind, Hume notes, assumes a principle he calls the uniformity of nature: cases not yet observed will resemble those already observed. How can this principle itself be proven? Only two routes exist for proving anything, for Hume as for the whole logic of his century: demonstration, and probable reasoning grounded in experience.\n\nDemonstration fails outright: denying that nature stays uniform involves no logical contradiction, nothing prevents conceiving, without contradiction, a world where bread would suddenly start poisoning people. What remains is probable reasoning, grounded in the fact that nature has been uniform so far. But relying on past experience to guarantee future experience already assumes that the past informs the future, that is, it assumes the very uniformity of nature it is meant to prove. Hume states it plainly: such an argument “must be evidently going in a circle, and taking that for granted, which is the very point in question.”\n\n## What this shifts\n\nHume does not conclude that one should stop expecting bread to nourish. He concludes that this expectation owes nothing to reason: it is habit, he says, that carries us there, once the mind has seen two events follow one another often enough. He insists, in the same breath, that this habit is not a flaw to correct: no creature capable of acting has ever lived without it, and none has ever managed to replace it with a proper demonstration. The shift reaches the whole of science, not just the bakery: every physical law, from falling bodies to the regularity of the seasons, rests on the same extrapolation from the known to the unknown, with no logical demonstration behind it. Two centuries of philosophy of science will set out again from this exact gap rather than fill it, seeking not to patch it but to describe, as best they can, what we are doing when we reason in spite of it: we do not prove that the future will resemble the past, we decide, out of habit or convention, to keep acting as though it should, and the whole question becomes under what conditions that decision stays reasonable rather than blind.",
+ "citation": {
+  "texte": "must be evidently going in a circle, and taking that for granted, which is the very point in question.",
+  "auteur": "David Hume",
+  "source": "An Enquiry Concerning Human Understanding, Section IV, Part II, 1748",
+  "url": "https://archive.org/details/enquiryconcerni00hume"
+ },
+ "carte": {
+  "punch": "Nothing, Hume argued in 1748, logically proves that tomorrow will resemble yesterday.",
+  "idee": "In 1748, David Hume shows that no logical demonstration guarantees that the future will resemble the past: proving it through experience would already assume what it sets out to establish. It is habit, not reason, that makes us believe bread will nourish us again tomorrow.",
+  "source_courte": "Hume, Enquiry, 1748"
+ },
+ "pour_aller_plus_loin": [
+  {
+   "titre": "Stanford Encyclopedia of Philosophy — The Problem of Induction",
+   "url": "https://plato.stanford.edu/entries/induction-problem/",
+   "note": "The attempted answers (Papineau, Okasha, Norton) and why none has won consensus."
+  }
+ ],
+ "quiz": {
+  "question": "Why, according to Hume, can reasoning based on past experience not prove that the future will resemble the past?",
+  "choix": [
+   "Because no past experience has ever been numerous enough to be convincing",
+   "Because such reasoning must already assume that nature is uniform, which is exactly what needs to be proven",
+   "Because the formal logic of his time forbade any reasoning about the future",
+   "Because only the experimental sciences, not philosophy, can settle this question"
+  ],
+  "bonne_reponse": 1,
+  "explication": "Hume does not question the number of observations, nor does he claim that logic forbids reasoning about the future, and he does not hand the question over to the sciences alone either. His argument is precise: grounding confidence in the future on past experience amounts to taking for granted the very principle that would need to be demonstrated, the uniformity of nature.",
+  "statut": "valide"
+ },
+ "quiz_supplementaire": []
+}
