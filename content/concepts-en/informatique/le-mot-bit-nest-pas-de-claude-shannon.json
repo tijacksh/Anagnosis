@@ -1,0 +1,51 @@
+{
+  "id": "inf-le-mot-bit-nest-pas-de-claude-shannon",
+  "slug": "le-mot-bit-nest-pas-de-claude-shannon",
+  "langue": "en",
+  "empreinte_fr": "fecf122de6e396b9",
+  "traduit_le": "2026-11-26",
+  "moteur": "claude-sonnet-5",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "La citation de Shannon est déjà rédigée en anglais dans l'article original (Bell System Technical Journal, 1948) : texte recopié mot pour mot, non retraduit."
+    }
+  ],
+  "titre": "The Word “Bit” Isn't Claude Shannon's",
+  "accroche": "In 1948, the paper that founded information theory credits computing's most-cited unit to someone else, on its very first page.",
+  "contenu_vulgarise": "In July 1948, the Bell System Technical Journal published a forty-six-page paper by Claude Shannon, “A Mathematical Theory of Communication.” It is the founding text of information theory: it defines, for the first time with rigor, what a quantity of information actually measures. Yet on its very first page, one sentence stands out. Shannon explains that if base two is chosen to measure this quantity, the resulting unit may be called a “binary digit,” or more briefly a “bit,” and he adds: “a word suggested by J. W. Tukey.” The most repeated word in all of computing is therefore not, by the words of the very person who made it famous, the word of its most famous author.\n\n## An office shorthand, eighteen months earlier\n\nJohn Wilder Tukey was then a young statistician, already active at both Bell Labs and Princeton University. On January 9, 1947, a year and a half before Shannon's paper appeared, he wrote an internal memo in which he contracted the phrase “binary digit” into a single word, “bit,” shorter and easier to repeat in a technical sentence. This was not a scientific discovery: it was an office abbreviation, meant to avoid writing two words where one would do. Nothing suggests that Tukey was trying to define anything; he simply gave a more convenient name to a unit that others, including Ralph Hartley twenty years earlier, had already begun measuring in base two.\n\nShannon's work is of a different nature. What he contributes in 1948 is not a name but a working definition: a bit becomes the amount of information needed to distinguish between two equally likely outcomes, a quantity that can be calculated, added up, sent through a noisy channel and bounded by a formula. Tukey's word happened to be at hand just when he needed a short label for this new quantity; he says so, in a footnote, with a precision that few founding papers bother to include.\n\n## Naming isn't defining\n\nThis distinction between naming and defining explains why history has remembered Shannon, rather than Tukey, as the “father” of the word. It isn't that Tukey was forgotten by accident: it's that the public generally remembers whoever gives an idea its usable form, not whoever gives it its label. The confusion is so common that the ambiguity eventually received its own technical fix: the unit of information as Shannon defined it, base-two entropy, is sometimes given the distinct name “shannon,” precisely to separate it from the plain binary “bit” that Tukey had shortened without measuring anything. Two words for two different acts, born eighteen months apart, only one of which kept the name of its true inventor.",
+  "citation": {
+    "texte": "If the base 2 is used the resulting units may be called binary digits, or more briefly bits, a word suggested by J. W. Tukey.",
+    "auteur": "Claude E. Shannon",
+    "source": "“A Mathematical Theory of Communication,” Bell System Technical Journal, vol. 27, no. 3, July 1948, p. 379",
+    "url": "https://archive.org/details/bstj27-3-379"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The word “bit” isn't Claude Shannon's. He says so himself, in a footnote.",
+    "idee": "In 1948, Claude Shannon invented information theory and the measure of the bit. But he credits the word “bit” itself to someone else: John Tukey, who had simply shortened “binary digit” eighteen months earlier, in an office memo.",
+    "source_courte": "Shannon, Bell System Technical Journal, 1948"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia — John W. Tukey",
+      "url": "https://en.wikipedia.org/wiki/John_Tukey",
+      "note": "Biography of the statistician who shortened “binary digit” to “bit.”"
+    }
+  ],
+  "quiz": {
+    "question": "According to the 1948 paper itself, what is credited to John Tukey rather than to Claude Shannon?",
+    "choix": [
+      "Defining information as a calculable quantity, measured in bits",
+      "The word “bit,” a shortening of “binary digit” proposed in a 1947 memo",
+      "The entropy formula that bounds the capacity of a noisy channel",
+      "The publication of the paper in the Bell System Technical Journal"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Shannon himself writes, on the very first page of his paper, that the word “bit” is “a word suggested by J. W. Tukey.” The other three items, the definition of information, the entropy formula and the paper's publication, are indeed Shannon's own work.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": []
+}

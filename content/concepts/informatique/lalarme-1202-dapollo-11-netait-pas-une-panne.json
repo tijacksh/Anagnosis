@@ -1,0 +1,83 @@
+{
+  "id": "inf-lalarme-1202-dapollo-11-netait-pas-une-panne",
+  "slug": "lalarme-1202-dapollo-11-netait-pas-une-panne",
+  "titre": "L'alarme 1202 d'Apollo 11 n'était pas une panne",
+  "accroche": "Minutes avant de poser Eagle sur la Lune, le 20 juillet 1969, l'ordinateur de bord affiche une alarme que presque personne ne sait lire sur l'instant.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 20 juillet 1969, pendant la descente finale du module lunaire Eagle, l'ordinateur de bord affiche une alarme : « 1202 ». Dans les secondes qui suivent, quatre autres alarmes se déclenchent, 1202, 1201, 1202, 1202. Neil Armstrong et Buzz Aldrin ne savent pas, sur l'instant, ce que ce code signifie précisément, et au sol, l'équipe de contrôle n'a que quelques secondes pour décider si la mission doit continuer ou être interrompue. L'épisode est souvent raconté comme le moment où l'ordinateur a presque fait échouer l'atterrissage. C'est l'inverse qui s'est produit.\n\n## Une mémoire limitée, répartie par petits lots\n\nLe logiciel de bord répartissait sa mémoire effaçable en petites réserves attribuées à chaque tâche en cours : sept « core sets » de douze mots chacun pour les tâches ordinaires, et cinq « zones VAC » de quarante-quatre mots pour celles qui avaient besoin de stocker des vecteurs. À chaque nouvelle tâche, le programme exécutif cherchait d'abord une zone VAC si nécessaire, puis un core set ; s'il n'en restait aucun de libre, il basculait vers la routine d'alarme. Ce jour-là, un interrupteur du radar de rendez-vous, laissé dans une position qui n'aurait pas dû être la sienne à ce stade du vol, a fait planifier sans cesse des tâches de traitement de données radar dont l'ordinateur n'avait, en réalité, pas besoin. Les sept core sets se sont remplis de ces tâches inutiles, déclenchant le code 1202, « plus aucun core set disponible ».\n\n## Le redémarrage qui a sauvé l'atterrissage plutôt que de le menacer\n\nÀ chaque alarme, l'ordinateur effectuait un redémarrage complet du logiciel, puis relançait immédiatement les tâches jugées indispensables, le pilotage du moteur de descente et l'affichage destiné à l'équipage, sans jamais relancer les tâches radar erronées qui avaient saturé la mémoire. Le journal officiel de la mission, tenu par la NASA, précise que le Massachusetts Institute of Technology avait testé de façon approfondie cette capacité de redémarrage avant le vol, si bien que les équipes au sol savaient déjà, lorsque les alarmes se sont déclenchées, que la mission pouvait continuer. Un jeune ingénieur chargé des simulations, Jack Garman, a reconnu les codes affichés et donné le feu vert : l'alarme ne signalait pas une panne, mais un ordinateur qui, débordé de tâches, abandonnait délibérément les moins essentielles pour continuer celles qui comptaient.\n\n## Un garde-fou pensé avant le vol, pas improvisé pendant\n\nCe mécanisme de priorité n'est pas né d'une improvisation en vol : il avait été conçu par l'équipe dirigée par Margaret Hamilton, au Laboratoire d'instrumentation du MIT, responsable du logiciel de vol d'Apollo. Avant la mission, raconte un article consacré à son travail, sa propre fille, alors âgée de quatre ans, avait par erreur fait planter un simulateur en lançant le programme de prélancement en plein vol simulé, les deux programmes se disputant la même portion de mémoire. Cet incident avait renforcé sa conviction qu'un tel système devait savoir protéger ses tâches critiques contre n'importe quelle surcharge imprévue, plutôt que de s'effondrer avec elles. Ce que l'alarme 1202 a montré, le 20 juillet 1969, n'est donc pas la fragilité du logiciel d'Apollo 11, mais la preuve, en conditions réelles, que ce garde-fou fonctionnait exactement comme prévu.",
+  "citation": null,
+  "repere": {
+    "texte": "Pendant la descente d'Apollo 11, le 20 juillet 1969, les sept « core sets » de mémoire effaçable de l'ordinateur de bord se remplissent de tâches radar inutiles, déclenchant l'alarme 1202 à plusieurs reprises en moins de cinq minutes. À chaque fois, l'ordinateur redémarre et relance les tâches essentielles à l'atterrissage, sans jamais relancer les tâches erronées.",
+    "source": "NASA, Apollo 11 Lunar Surface Journal, « Program Alarms »",
+    "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html"
+  },
+  "carte": {
+    "punch": "L'alarme 1202 d'Apollo 11 n'était pas une panne. C'était le logiciel qui faisait son travail.",
+    "idee": "Pendant la descente d'Apollo 11, l'ordinateur de bord affiche une alarme que personne ne comprend sur l'instant. Il n'était pas en train de flancher : débordé par des tâches inutiles, il abandonnait les moins essentielles pour continuer celles qui comptaient, comme son équipe l'avait prévu.",
+    "source_courte": "NASA, Lunar Surface Journal"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "NASA",
+      "titre": "Apollo 11 Lunar Surface Journal — Program Alarms",
+      "publication": "nasa.gov",
+      "annee": null,
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html",
+      "note": "Source institutionnelle primaire : détail des alarmes 1201 (zones VAC) et 1202 (core sets), de la cause (mauvaise configuration du radar de rendez-vous) et du mécanisme de redémarrage qui relance les tâches essentielles sans relancer les tâches radar erronées ; confirme que le MIT avait testé cette capacité avant le vol."
+    },
+    {
+      "type": "web",
+      "auteur": "Scientific American",
+      "titre": "NASA's Apollo Moon Missions Relied on This Computer Scientist and Differential Equations",
+      "publication": "scientificamerican.com",
+      "annee": null,
+      "url": "https://www.scientificamerican.com/article/nasas-apollo-moon-missions-relied-on-this-computer-scientist-and-differential-equations/",
+      "note": "Confirme le rôle de Margaret Hamilton à la tête du logiciel de vol au Laboratoire d'instrumentation du MIT, l'enchaînement des alarmes 1202/1201 pendant 278 secondes le 20 juillet 1969, le rôle de l'ingénieur Jack Garman dans la reconnaissance des codes, et l'anecdote de sa fille ayant fait planter un simulateur avant le vol."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NASA — The First Lunar Landing (Apollo 11 Lunar Surface Journal)",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html",
+      "note": "Le récit minute par minute de la descente et de l'atterrissage d'Eagle."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une grille régulière de petites formes identiques. La plupart, vers le centre, sont vidées et laissées en contour seul ; une poignée d'entre elles, pleines dans l'encre informatique, s'alignent et débordent nettement du cadre sur un côté, comme poursuivant leur trajet sans les autres. Aplats stricts, aucun dégradé, aucun visage, aucune figure reconnaissable.",
+    "alt": "Une grille de formes majoritairement vidées, sauf une rangée pleine qui déborde du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que s'est-il réellement passé quand l'ordinateur d'Apollo 11 a affiché l'alarme 1202 pendant la descente ?",
+    "choix": [
+      "Le logiciel a planté complètement, et l'équipage a dû reprendre le pilotage à la main",
+      "Une panne matérielle a empêché l'affichage de poursuivre son fonctionnement normal",
+      "Débordé par des tâches radar inutiles, il a redémarré puis relancé uniquement les tâches essentielles à l'atterrissage",
+      "L'ordinateur a transmis l'alarme à la Terre pour qu'un ingénieur la corrige à distance en temps réel"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Un interrupteur radar mal positionné a rempli la mémoire disponible de tâches inutiles. À chaque alarme, l'ordinateur redémarrait et relançait seulement les tâches indispensables à l'atterrissage, sans jamais relancer les tâches radar erronées : c'est exactement le comportement que son système de priorité avait été conçu pour produire.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-11-26",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

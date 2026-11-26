@@ -1,0 +1,50 @@
+{
+  "id": "inf-le-web-est-arrive-vingt-ans-apres-internet",
+  "slug": "le-web-est-arrive-vingt-ans-apres-internet",
+  "langue": "en",
+  "empreinte_fr": "1f3e2120b680014f",
+  "traduit_le": "2026-11-26",
+  "moteur": "claude-sonnet-5",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "contenu_vulgarise",
+      "type": "citation-originale-anglaise",
+      "note": "La pancarte manuscrite « This machine is a server. DO NOT POWER IT DOWN!! » et le titre du document « WorldWideWeb: Proposal for a HyperText Project » sont des artefacts originaux déjà rédigés en anglais (CERN) : conservés tels quels, non retraduits."
+    }
+  ],
+  "titre": "The Web Arrived Twenty Years After the Internet",
+  "accroche": "On October 29, 1969, two computers exchanged their first message over a fledgling network. The Web wouldn't exist for another twenty years.",
+  "contenu_vulgarise": "On October 29, 1969, at 10:30 p.m., an UCLA student named Charley Kline typed the command “login” on a terminal connected by a brand-new cable to a computer at the Stanford Research Institute, nearly 500 kilometers away. The first two letters, “l” and “o,” arrived fine; then the remote system crashed. It took an SRI engineer, Bill Duvall, to fix the problem before the full connection succeeded, a little over an hour later. That interrupted message remains the first documented exchange on ARPANET, the network that would become the Internet. By December 5 of that same year, four nodes were connected: UCLA, SRI, the University of California, Santa Barbara, and the University of Utah.\n\n## A network, then a layer placed on top\n\nARPANET then grew for years, switched transport protocols on January 1, 1983 (the “flag day” when every computer on the network switched over at once to TCP/IP, the same protocol the Internet still uses today), and gradually connected hundreds, then thousands, of machines around the world. It was within this already twenty-year-old network that Tim Berners-Lee, a computer scientist at CERN, wrote a proposal in March 1989 to help the physicists in his lab share documents with one another. With the Belgian engineer Robert Cailliau, he formalized it in November 1990 under the name “WorldWideWeb: Proposal for a HyperText Project.” By the end of that same year, 1990, he had already written the code for the three building blocks that still make up the Web today: the page language (HTML), the transfer protocol (HTTP), and the universal address (the URL), along with the first server and the first browser, both installed on a NeXT computer he kept in his office. To make sure no one switched it off by accident, a handwritten label in red ink was taped to the machine: “This machine is a server. DO NOT POWER IT DOWN!!”\n\n## What the Web added, and what it didn't create\n\nBerners-Lee released his software in 1991; in August, he announced it on Internet discussion forums, and interest spread worldwide. The first American web server, meanwhile, didn't go online until December 1991, at the Stanford Linear Accelerator Center. More than twenty-two years, then, separate ARPANET's first message from the first web server.\n\nThe Web, then, invented nothing about the network itself: it merely added, on top of an already old infrastructure, a particular way of presenting and linking documents. The Internet is the plumbing, the cables, the protocols that carry data packets from one machine to another; the Web is just one of the uses that run through that pipe, alongside email, which is older than it, or file transfer. Confusing the two is like confusing the power grid with the washing machine plugged into it. The phrase “surfing the Internet,” now part of everyday speech, has kept that confusion alive for more than thirty years: people surf the Web, on a network that had already existed for an entire generation.",
+  "citation": null,
+  "repere": {
+    "texte": "When Tim Berners-Lee wrote his proposal for the World Wide Web, in March 1989, the network it would run on was already twenty years old: ARPANET sent its first message between UCLA and the Stanford Research Institute on October 29, 1969. The first American web server wouldn't open until December 1991, at Stanford.",
+    "source": "CERN, “A short history of the Web”",
+    "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+  },
+  "carte": {
+    "punch": "The Web didn't invent the Internet. It arrived twenty years later, on top of it.",
+    "idee": "The Internet has existed since 1969: it's the network, the cables, the protocols. The Web, invented by Tim Berners-Lee at CERN in 1989-1991, is just one use among others, laid twenty years later on top of infrastructure already a generation old.",
+    "source_courte": "CERN, home.cern"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "CERN — Where the Web was born",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
+      "note": "The detailed story of the Web's birth inside CERN's buildings."
+    }
+  ],
+  "quiz": {
+    "question": "What did the Web actually add to the existing Internet network?",
+    "choix": [
+      "The cables and protocols that move data between machines",
+      "A way of presenting and linking documents, laid on top of an already existing network",
+      "The first message ever exchanged between two remote computers",
+      "The switch to the TCP/IP protocol in 1983"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The Web, invented by Tim Berners-Lee in 1989-1991, is one use among others (like email) that runs over the Internet: it created none of the cables, the protocols, or the 1969 first message, all of which belong to the network itself, already twenty years old by the time the Web arrived.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": []
+}

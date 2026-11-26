@@ -1,0 +1,83 @@
+{
+  "id": "inf-le-web-est-arrive-vingt-ans-apres-internet",
+  "slug": "le-web-est-arrive-vingt-ans-apres-internet",
+  "titre": "Le Web est arrivé vingt ans après Internet",
+  "accroche": "Le 29 octobre 1969, deux ordinateurs échangent leur premier message sur un réseau naissant. Le Web, lui, n'existera que vingt ans plus tard.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "Le 29 octobre 1969, à 22 h 30, un étudiant de l'UCLA nommé Charley Kline tape la commande « login » sur un terminal relié par un câble tout neuf à un ordinateur du Stanford Research Institute, à près de 500 kilomètres de là. Les deux premières lettres, « l » et « o », arrivent bien ; puis le système distant plante. Il faudra attendre qu'un ingénieur du SRI, Bill Duvall, règle le problème pour que la connexion complète réussisse, un peu plus d'une heure plus tard. Ce message interrompu est resté le premier échange documenté d'ARPANET, le réseau qui deviendra Internet. Au 5 décembre de la même année, quatre nœuds sont reliés : UCLA, SRI, l'université de Californie à Santa Barbara et celle de l'Utah.\n\n## Un réseau, puis une couche posée dessus\n\nARPANET grandit ensuite pendant des années, change de protocole de transport le 1er janvier 1983 (le « flag day » où tous les ordinateurs du réseau basculent d'un coup vers TCP/IP, celui qu'Internet utilise encore aujourd'hui), et relie progressivement des centaines puis des milliers de machines à travers le monde. C'est dans ce réseau déjà vieux de vingt ans que Tim Berners-Lee, informaticien employé au CERN, rédige en mars 1989 une proposition pour aider les physiciens de son laboratoire à partager leurs documents entre eux. Avec le Belge Robert Cailliau, il la formalise en novembre 1990 sous le nom de « WorldWideWeb : Proposal for a HyperText Project ». À la fin de cette même année 1990, il a déjà écrit le code des trois briques qui composent encore le Web aujourd'hui, le langage de page (HTML), le protocole de transfert (HTTP) et l'adresse universelle (l'URL), ainsi que le premier serveur et le premier navigateur, tous deux installés sur un ordinateur NeXT qu'il garde dans son bureau. Pour que personne ne l'éteigne par erreur, une étiquette manuscrite à l'encre rouge est collée sur la machine : « This machine is a server. DO NOT POWER IT DOWN!! ».\n\n## Ce que le Web a ajouté, ce qu'il n'a pas créé\n\nBerners-Lee diffuse son logiciel en 1991 ; en août, il l'annonce sur les forums de discussion d'Internet, et l'intérêt se répand dans le monde entier. Le premier serveur web américain n'ouvre, lui, qu'en décembre 1991, à l'accélérateur linéaire de Stanford. Entre le premier message d'ARPANET et le premier serveur web, il s'est donc écoulé plus de vingt-deux ans.\n\nLe Web n'a donc rien inventé du réseau lui-même : il s'est contenté d'ajouter, par-dessus une infrastructure déjà ancienne, une façon particulière de présenter et de relier des documents. Internet, c'est la plomberie, les câbles, les protocoles qui font parvenir des paquets de données d'une machine à une autre ; le Web n'est qu'un des usages qu'on fait passer par ce tuyau, au même titre que le courrier électronique, plus ancien que lui, ou le transfert de fichiers. Confondre les deux revient à confondre le réseau électrique avec la machine à laver qu'on y branche. L'expression « naviguer sur Internet », pourtant entrée dans l'usage courant, entretient cette confusion depuis plus de trente ans : on navigue sur le Web, sur un réseau qui, lui, existait déjà depuis une génération entière.",
+  "citation": null,
+  "repere": {
+    "texte": "Quand Tim Berners-Lee rédige sa proposition pour le World Wide Web, en mars 1989, le réseau sur lequel elle tournera a déjà vingt ans : ARPANET a envoyé son premier message entre l'UCLA et le Stanford Research Institute le 29 octobre 1969. Le premier serveur web américain, lui, n'ouvrira qu'en décembre 1991, à Stanford.",
+    "source": "CERN, « A short history of the Web »",
+    "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+  },
+  "carte": {
+    "punch": "Le Web n'a pas inventé Internet. Il est arrivé vingt ans plus tard, par-dessus.",
+    "idee": "Internet existe depuis 1969 : c'est le réseau, les câbles, les protocoles. Le Web, inventé par Tim Berners-Lee au CERN en 1989-1991, n'en est qu'un usage parmi d'autres, posé vingt ans plus tard sur une infrastructure déjà vieille d'une génération.",
+    "source_courte": "CERN, home.cern"
+  },
+  "sources": [
+    {
+      "type": "institution",
+      "auteur": "CERN",
+      "titre": "A short history of the Web",
+      "publication": "home.cern",
+      "annee": null,
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "note": "Source institutionnelle : dates de la proposition de mars 1989, de sa formalisation avec Robert Cailliau en novembre 1990, du premier serveur/navigateur sur machine NeXT fin 1990, de l'étiquette manuscrite, et de la diffusion publique en 1991 (annonce sur les forums en août, premier serveur américain au SLAC de Stanford en décembre 1991)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "ARPANET",
+      "publication": "Wikipédia (en anglais)",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/ARPANET",
+      "note": "Confirme la date et l'heure du premier message (29 octobre 1969, 22 h 30 heure du Pacifique, UCLA vers SRI, plantage après « lo »), la mise en place du réseau à quatre nœuds au 5 décembre 1969, et le passage à TCP/IP le 1er janvier 1983 (« flag day »)."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "CERN — Where the Web was born",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
+      "note": "Le récit détaillé de la naissance du Web dans les bâtiments du CERN."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une grande forme irrégulière, ancienne et étendue, occupe tout le cadre en aplat noir et déborde largement sur les quatre côtés. Une petite forme nette et distincte, dans l'encre informatique, vient se superposer en haut à droite, nettement plus petite, sans jamais couvrir l'ensemble. Aucune ombre, aucun dégradé, aucune figure reconnaissable.",
+    "alt": "Une petite forme nette superposée sur une grande forme ancienne qui déborde du cadre",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Qu'est-ce que le Web a réellement ajouté au réseau Internet existant ?",
+    "choix": [
+      "Les câbles et les protocoles qui font circuler les données entre les machines",
+      "Une façon de présenter et de relier des documents, posée par-dessus un réseau déjà ancien",
+      "Le premier message jamais échangé entre deux ordinateurs à distance",
+      "Le passage au protocole TCP/IP en 1983"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le Web, inventé par Tim Berners-Lee en 1989-1991, est un usage parmi d'autres (comme le courrier électronique) qui circule sur Internet : il n'a rien créé des câbles, des protocoles ni du premier message de 1969, qui appartiennent au réseau lui-même, vieux de vingt ans à l'arrivée du Web.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-11-26",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}

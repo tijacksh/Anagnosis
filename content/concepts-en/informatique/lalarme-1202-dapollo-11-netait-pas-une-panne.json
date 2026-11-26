@@ -1,0 +1,44 @@
+{
+  "id": "inf-lalarme-1202-dapollo-11-netait-pas-une-panne",
+  "slug": "lalarme-1202-dapollo-11-netait-pas-une-panne",
+  "langue": "en",
+  "empreinte_fr": "dd491fc40c4e1114",
+  "traduit_le": "2026-11-26",
+  "moteur": "claude-sonnet-5",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "Apollo 11's 1202 Alarm Wasn't a Malfunction",
+  "accroche": "Minutes before Eagle touched down on the Moon, on July 20, 1969, the onboard computer displayed an alarm that almost no one could read on the spot.",
+  "contenu_vulgarise": "On July 20, 1969, during the final descent of the lunar module Eagle, the onboard computer displayed an alarm: “1202.” In the seconds that followed, four more alarms fired: 1202, 1201, 1202, 1202. Neil Armstrong and Buzz Aldrin didn't know, in the moment, exactly what the code meant, and on the ground, mission control had only seconds to decide whether the mission should continue or be aborted. The episode is often told as the moment the computer nearly wrecked the landing. The opposite happened.\n\n## A limited memory, handed out in small batches\n\nThe flight software divided its erasable memory into small reserves assigned to each running job: seven “core sets” of twelve words each for ordinary jobs, and five “VAC areas” of forty-four words for jobs that needed to store vectors. For each new job, the executive program first looked for a VAC area if one was needed, then for a core set; if none were free, it jumped to the alarm routine. That day, a switch on the rendezvous radar, left in a position it shouldn't have been in at that stage of the flight, kept scheduling radar-data-processing jobs the computer didn't actually need. The seven core sets filled up with these useless jobs, triggering code 1202, “no core sets available.”\n\n## The restart that saved the landing instead of threatening it\n\nWith every alarm, the computer performed a full software restart, then immediately relaunched the jobs deemed essential, steering the descent engine and driving the display meant for the crew, without ever relaunching the faulty radar jobs that had filled up memory. NASA's own mission journal notes that the Massachusetts Institute of Technology had thoroughly tested this restart capability before the flight, so ground teams already knew, by the time the alarms went off, that the mission could continue. A young simulation engineer, Jack Garman, recognized the codes on display and gave the go-ahead: the alarm wasn't signaling a malfunction, but a computer that, overloaded with jobs, was deliberately dropping the less essential ones to keep running the ones that mattered.\n\n## A safeguard designed before the flight, not improvised during it\n\nThis priority mechanism wasn't born of some in-flight improvisation: it had been designed by the team led by Margaret Hamilton, at MIT's Instrumentation Laboratory, which was responsible for Apollo's flight software. Before the mission, according to an article about her work, her own daughter, then four years old, had accidentally crashed a simulator by launching the pre-launch program in the middle of a simulated flight, with both programs fighting over the same block of memory. That incident had reinforced her conviction that such a system needed to be able to protect its critical jobs against any unexpected overload, rather than collapsing along with them. What the 1202 alarm showed, on July 20, 1969, is therefore not the fragility of Apollo 11's software, but real-world proof that this safeguard worked exactly as intended.",
+  "citation": null,
+  "repere": {
+    "texte": "During Apollo 11's descent, on July 20, 1969, the onboard computer's seven “core sets” of erasable memory filled up with useless radar jobs, triggering the 1202 alarm several times in under five minutes. Each time, the computer restarted and relaunched the jobs essential to the landing, without ever relaunching the faulty ones.",
+    "source": "NASA, Apollo 11 Lunar Surface Journal, “Program Alarms”",
+    "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html"
+  },
+  "carte": {
+    "punch": "Apollo 11's 1202 alarm wasn't a malfunction. It was the software doing its job.",
+    "idee": "During Apollo 11's descent, the onboard computer displayed an alarm nobody understood in the moment. It wasn't failing: overloaded with useless jobs, it dropped the less essential ones to keep running the ones that mattered, exactly as its team had planned.",
+    "source_courte": "NASA, Lunar Surface Journal"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "NASA — The First Lunar Landing (Apollo 11 Lunar Surface Journal)",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html",
+      "note": "A minute-by-minute account of Eagle's descent and landing."
+    }
+  ],
+  "quiz": {
+    "question": "What actually happened when Apollo 11's computer displayed the 1202 alarm during the descent?",
+    "choix": [
+      "The software crashed completely, and the crew had to take over manual control",
+      "A hardware failure kept the display from working normally",
+      "Overloaded with useless radar jobs, it restarted and relaunched only the jobs essential to the landing",
+      "The computer sent the alarm to Earth so an engineer could fix it remotely in real time"
+    ],
+    "bonne_reponse": 2,
+    "explication": "A misaligned radar switch filled the available memory with useless jobs. With every alarm, the computer restarted and relaunched only the jobs essential to the landing, without ever relaunching the faulty radar jobs: that is exactly the behavior its priority system had been designed to produce.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": []
+}

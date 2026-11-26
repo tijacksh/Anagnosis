@@ -1,0 +1,84 @@
+{
+  "id": "inf-le-mot-bit-nest-pas-de-claude-shannon",
+  "slug": "le-mot-bit-nest-pas-de-claude-shannon",
+  "titre": "Le mot « bit » n'est pas de Claude Shannon",
+  "accroche": "En 1948, l'article qui fonde la théorie de l'information attribue dès sa première page la mesure la plus citée de l'informatique à quelqu'un d'autre.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En juillet 1948, le Bell System Technical Journal publie un article de quarante-six pages signé Claude Shannon, « A Mathematical Theory of Communication ». C'est le texte fondateur de la théorie de l'information : il y définit, pour la première fois avec rigueur, ce que mesure une quantité d'information. Pourtant, dès la première page, une phrase surprend. Shannon explique que si l'on choisit la base deux pour mesurer cette quantité, l'unité qui en résulte peut s'appeler « binary digit », ou plus brièvement « bit », et il ajoute : « a word suggested by J. W. Tukey ». Le mot le plus répété de toute l'informatique n'est donc pas, par les mots de celui qui l'a rendu célèbre, de son auteur le plus célèbre.\n\n## Un raccourci de bureau, dix-huit mois plus tôt\n\nJohn Wilder Tukey est alors un jeune statisticien, déjà actif aux Bell Labs comme à l'université de Princeton. Le 9 janvier 1947, soit un an et demi avant la publication de Shannon, il rédige une note interne où il contracte l'expression « binary digit » en un seul mot, « bit », plus court et plus facile à répéter dans une phrase technique. Ce n'est pas une trouvaille scientifique : c'est une abréviation de bureau, pensée pour ne plus avoir à écrire deux mots là où un seul suffit. Rien n'indique que Tukey ait cherché à définir quoi que ce soit ; il a simplement nommé plus commodément une unité que d'autres, dont Ralph Hartley vingt ans plus tôt, avaient déjà commencé à mesurer en base deux.\n\nLe travail de Shannon est d'une autre nature. Ce qu'il apporte en 1948, ce n'est pas un nom, c'est une définition opératoire : un bit devient la quantité d'information nécessaire pour distinguer entre deux résultats également probables, une grandeur qu'on peut calculer, additionner, faire circuler dans un canal bruité et borner par une formule. Le mot de Tukey lui tombait sous la main au moment où il avait besoin d'une étiquette courte pour cette grandeur nouvelle ; il le dit, en note de bas de page, avec une précision que peu d'articles fondateurs prennent la peine d'avoir.\n\n## Nommer n'est pas définir\n\nCette distinction entre nommer et définir explique pourquoi l'histoire a retenu Shannon plutôt que Tukey comme « père » du mot. Ce n'est pas que Tukey ait été oublié par accident : c'est que le public retient en général celui qui donne à une idée sa forme utilisable, pas celui qui lui donne son étiquette. La confusion est si fréquente que l'ambiguïté a fini par recevoir sa propre réparation technique : l'unité d'information telle que Shannon l'a définie, l'entropie en base deux, porte parfois le nom distinct de « shannon », précisément pour la séparer du simple « bit » binaire que Tukey avait raccourci sans rien mesurer. Deux mots pour deux gestes différents, nés à dix-huit mois d'écart, et dont un seul a gardé le nom de son véritable inventeur.",
+  "citation": {
+    "texte": "If the base 2 is used the resulting units may be called binary digits, or more briefly bits, a word suggested by J. W. Tukey.",
+    "auteur": "Claude E. Shannon",
+    "source": "« A Mathematical Theory of Communication », Bell System Technical Journal, vol. 27, n° 3, juillet 1948, p. 379",
+    "url": "https://archive.org/details/bstj27-3-379"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Le mot « bit » n'est pas de Claude Shannon. Il le dit lui-même, en note de bas de page.",
+    "idee": "En 1948, Claude Shannon invente la théorie de l'information et la mesure du bit. Mais le mot « bit » lui-même, il l'attribue à un autre : John Tukey, qui avait simplement raccourci « binary digit » dix-huit mois plus tôt, dans une note de bureau.",
+    "source_courte": "Shannon, Bell System Technical Journal, 1948"
+  },
+  "sources": [
+    {
+      "type": "revue",
+      "auteur": "Shannon, Claude E.",
+      "titre": "A Mathematical Theory of Communication",
+      "publication": "Bell System Technical Journal, vol. 27, n° 3",
+      "annee": 1948,
+      "url": "https://archive.org/details/bstj27-3-379",
+      "note": "Article original, p. 379-423. La phrase attribuant le mot « bit » à J. W. Tukey figure page 379, dès l'introduction. Texte intégral consulté via le fichier djvu de l'exemplaire archivé."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "Bit",
+      "publication": "Wikipédia (en anglais)",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Bit",
+      "note": "Confirme la note interne des Bell Labs du 9 janvier 1947 où Tukey contracte « binary digit » en « bit » ; confirme l'antériorité de Ralph Hartley (1928) sur la mesure logarithmique de l'information ; mentionne l'unité « shannon » distincte du bit."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipédia — John W. Tukey",
+      "url": "https://en.wikipedia.org/wiki/John_Tukey",
+      "note": "Biographie du statisticien qui a raccourci « binary digit » en « bit »."
+    }
+  ],
+  "illustration": {
+    "prompt": "Une forme carrée pleine, coupée en deux par une diagonale nette : une moitié dans l'encre informatique, l'autre en noir plein. Une petite marque abstraite, détachée du carré et débordant du cadre, désigne depuis l'extérieur la moitié noire plutôt que l'autre. Aplats stricts, aucun dégradé, aucune ombre, aucune figure reconnaissable.",
+    "alt": "Un carré coupé en deux par une diagonale, une marque extérieure désignant une des deux moitiés",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "D'après l'article de 1948 lui-même, qu'est-ce qui revient à John Tukey plutôt qu'à Claude Shannon ?",
+    "choix": [
+      "La définition de l'information comme quantité calculable, mesurée en bits",
+      "Le mot « bit », raccourci de « binary digit » proposé dans une note de 1947",
+      "La formule de l'entropie qui borne le débit d'un canal bruité",
+      "La publication de l'article dans le Bell System Technical Journal"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Shannon écrit lui-même, dès la première page de son article, que le mot « bit » est « a word suggested by J. W. Tukey ». Les trois autres éléments, la définition de l'information, la formule d'entropie et la publication de l'article, sont bien le travail de Shannon.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": {
+    "genere_le": "2026-11-26",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
