@@ -64,13 +64,37 @@
     ],
     "bonne_reponse": 1,
     "explication": "Bacon ne dit pas que les sens mentent sur la forme des objets, ce n'est pas un défaut optique, ni qu'il s'agit d'un trait propre à l'Antiquité, il le tient pour universel : l'idole de la tribu, c'est que le jugement humain mélange sa propre nature à ce qu'il perçoit, comme un miroir qui déforme en réfléchissant.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-26T03:14:13.231Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-26T03:14:13.231Z",
+        "note": "Contrôle : voir notes (idoles inévitables, aphorisme LXX/CXXI)"
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-11-26",
+    "verdict": "a_revoir",
+    "empreinte": "f39f6a1e74917ce7",
+    "notes": [
+      "1) Le contenu dit que Bacon tient les idoles pour inévitables (« ancrées comme la poussière dans l'air ») : Spedding aph. 38 les dit enracinées mais invite à s'en prémunir, et Bacon veut les renoncer et les écarter (aph. LXVIII) ; les idoles du théâtre ne sont pas innées (LXI). À rééquilibrer. 2) « expériences de lumière, pas de fruit » est cité à l'aphorisme LXX alors que Wikisource le place à l'aphorisme CXXI : corriger contenu et note de source (39 à 44, 121). Citation XLI authentique et ouvrable."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-26", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-26",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }

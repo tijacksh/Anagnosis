@@ -64,13 +64,37 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les trois premières méthodes procurent elles aussi un vrai soulagement du doute, et la méthode scientifique ne doit rien à une autorité ni à un nombre de pratiquants : ce qui la distingue, dit Peirce, c'est qu'elle prévoit sa propre remise en cause face à un désaccord, alors que les autres s'effondrent dès qu'il survient.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-26T03:14:13.331Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-relecture",
+        "le": "2026-11-26T03:14:13.331Z",
+        "note": "Contrôle : glose « prévoit sa propre remise en cause » non sourcée"
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-11-26",
+    "verdict": "a_revoir",
+    "empreinte": "ff29cd7b9bcbc9c1",
+    "notes": [
+      "Citations (Chance, Love and Logic) retrouvées mot pour mot. Mais « la méthode scientifique est la seule à prévoir sa propre remise en cause », glose centrale de la carte, du quiz et de la conclusion, n'est pas dans le texte : Peirce écrit que c'est la seule des quatre méthodes qui distingue une bonne et une mauvaise manière de s'y prendre. Reformuler ou sourcer."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-26", "genere_par": "claude-code", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-26",
+    "genere_par": "claude-code",
+    "version": 1
+  }
 }
