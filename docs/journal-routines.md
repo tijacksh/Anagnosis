@@ -559,3 +559,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-26 00:34 | relire | arnaud | Rien à faire : aucun brouillon décidable (2 en attente de contrôle). |
 | 2026-11-26 02:03 | questionner | arnaud | Rien à faire : chaque fiche servie (992) porte au moins 2 questions de plus. Rattrapage toujours terminé. |
 | 2026-11-26 02:26 | corriger-cartes | arnaud | Liste terminée : les 147 fiches de l'audit 2026-10-07 sont toutes au suivi, rien à corriger. Routine désactivée. |
+| 2026-11-26 03:24 | controle-en | arnaud | Rien à faire : les 5 fiches à vérifier sont toutes en droit_* (voie de Vincent), non touchées. |
