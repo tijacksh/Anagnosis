@@ -81,33 +81,48 @@
     ],
     "bonne_reponse": 0,
     "explication": "La Cour ne juge pas les faits de 1938, mais la portée d'une loi de 1976 : rien dans son texte ne réserve son application aux faits postérieurs à son vote. L'Autriche n'a jamais renoncé elle-même à son immunité, le tableau est resté à Vienne jusqu'en 2006, et aucune Convention de Vienne ne traite spécifiquement de ce point.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
       "question": "Qu'est-ce que les révélations du journaliste Hubertus Czernin, publiées en 1998, mettent en cause ?",
-      "choix": ["La valeur juridique du testament d'Adele Bloch-Bauer invoqué par le Belvédère", "L'authenticité des portraits peints par Gustav Klimt", "La nationalité autrichienne de Maria Altmann", "Le montant payé par le Belvédère pour acquérir les tableaux en 1938"],
+      "choix": [
+        "La valeur juridique du testament d'Adele Bloch-Bauer invoqué par le Belvédère",
+        "L'authenticité des portraits peints par Gustav Klimt",
+        "La nationalité autrichienne de Maria Altmann",
+        "Le montant payé par le Belvédère pour acquérir les tableaux en 1938"
+      ],
       "bonne_reponse": 0,
       "explication": "Czernin révèle que le testament d'Adele Bloch-Bauer, invoqué par le Belvédère, n'exprimait qu'un souhait sans valeur contraignante, et que c'est son mari, seul propriétaire légal, qui fut spolié."
     },
     {
       "question": "Pourquoi Maria Altmann renonce-t-elle à poursuivre la procédure devant les instances autrichiennes ?",
-      "choix": ["Parce que la loi autrichienne de restitution de 1998 a été abrogée avant l'ouverture du procès", "Parce que les frais de justice, proportionnels à la valeur des tableaux, dépassent le million de dollars", "Parce que le tribunal autrichien s'est déclaré incompétent sur le fond de l'affaire", "Parce que le Belvédère avait déjà détruit les archives nécessaires à sa preuve"],
+      "choix": [
+        "Parce que la loi autrichienne de restitution de 1998 a été abrogée avant l'ouverture du procès",
+        "Parce que les frais de justice, proportionnels à la valeur des tableaux, dépassent le million de dollars",
+        "Parce que le tribunal autrichien s'est déclaré incompétent sur le fond de l'affaire",
+        "Parce que le Belvédère avait déjà détruit les archives nécessaires à sa preuve"
+      ],
       "bonne_reponse": 1,
       "explication": "Le texte précise que les frais de justice autrichiens, calculés en proportion de la valeur des tableaux, dépassaient le million de dollars, une somme trop lourde pour une retraitée installée à Los Angeles."
     },
     {
       "question": "Comment l'affaire se conclut-elle après la décision de la Cour suprême de 2004 ?",
-      "choix": ["Par un nouveau procès devant un tribunal fédéral américain", "Par un vote du Congrès américain forçant la restitution", "Par le rejet de la demande d'Altmann faute de preuve", "Par un arbitrage confié à trois juristes autrichiens, qui statue en 2006"],
+      "choix": [
+        "Par un nouveau procès devant un tribunal fédéral américain",
+        "Par un vote du Congrès américain forçant la restitution",
+        "Par le rejet de la demande d'Altmann faute de preuve",
+        "Par un arbitrage confié à trois juristes autrichiens, qui statue en 2006"
+      ],
       "bonne_reponse": 3,
       "explication": "L'affaire ne retourne jamais devant un tribunal : l'Autriche et la famille choisissent un arbitrage confié à trois juristes autrichiens, qui ordonne en janvier 2006 la restitution de cinq tableaux sur six."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-21T10:14:13.365Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-26T16:18:17.058Z",
     "historique": [
       {
         "action": "valider",
@@ -116,15 +131,24 @@
         "par": "routine-relecture",
         "le": "2026-09-21T10:14:13.365Z",
         "note": "Sources rouvertes (WebFetch : Cornell LII confirme date 7 juin 2004, référence 541 U.S. 677, vote 6-3, majorité Stevens, dissidence Kennedy/Rehnquist/Thomas, et le raisonnement sur l'application non rétroactive du FSIA de 1976 ; WebSearch en complément pour jusmundi.com, aljazeera.com, paw.princeton.edu et jwa.org, bloqués par le proxy réseau, et pour Wikipédia EN sur Republic of Austria v. Altmann) : sentence arbitrale du 15 janvier 2006 confirmée (jusmundi, corroborée), restitution de 5 tableaux sur les 6 initialement revendiqués (le 6e, Amalie Zuckerkandl, objet d'un accord de jonction séparé) — confirme exactement la formulation de la fiche. Vente à Ronald Lauder pour 135 millions de dollars en juin 2006 confirmée. Révélations de Czernin en 1998 dans Der Standard sur le testament d'Adele Bloch-Bauer confirmées, ainsi que le surnom « la Femme en or ». Carte et quiz cohérents. Rien à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-26T16:18:17.058Z",
+        "note": "Contrôle : le raisonnement de la Cour suprême sur la rétroactivité du FSIA porte sur les actes de 1948 (réclamation de la Galerie, permis dexportation), pas sur la confiscation nazie de 1938 comme lécrit la fiche. Voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-19",
-    "verdict": "ok",
-    "empreinte": "cee1eaaca2ff7f04",
+    "fait_le": "2026-11-26",
+    "verdict": "a_revoir",
+    "empreinte": "9997fe949e362140",
     "notes": [
-      "Sources rouvertes (WebSearch, WebFetch bloqué par le proxy réseau sur tous les domaines testés) : date (7 juin 2004), référence 541 U.S. 677, vote 6 voix contre 3 (majorité Stevens, dissidence Kennedy/Rehnquist/Thomas) confirmés indépendamment. Sentence arbitrale du 15 janvier 2006 confirmée (jusmundi + recoupement), restitution de 5 tableaux sur 6. Vente à Ronald Lauder pour 135 millions de dollars en juin 2006, alors record, confirmée. Révélations de Czernin en 1998 dans Der Standard sur le testament d'Adele Bloch-Bauer confirmées, ainsi que le surnom nazi « la Femme en or ». Carte et quiz conformes aux faits vérifiés. Rien à corriger."
+      "Cornell LII (law.cornell.edu/supremecourt/text/03-13), texte intégral de l'arrêt rouvert en plusieurs passes (137 579 caractères) : la section « faits » confirme bien la confiscation de 1938 (Anschluss, aryanisation, saisie des Klimt par l'avocat nazi Erich Führer) et les événements de 1948 (Rinesch réclame la restitution, la Galerie invoque faussement le testament d'Adele, permis d'exportation obtenus en échange d'une reconnaissance écrite non autorisée par Altmann).",
+      "MAIS le raisonnement de la Cour sur la rétroactivité ne porte PAS sur les actes de 1938 : le texte dit explicitement que l'analyse part de « petitioners' 1948 actions » et conclut « the FSIA may be applied to petitioners' 1948 actions » — la Cour ne se prononce ni sur les événements de 1938 ni sur les actes nazis eux-mêmes, seulement sur la conduite reprochée à l'Autriche et à la Galerie à partir de 1948. Or le corps de la fiche écrit : « la spoliation remonte à 1938, bien avant l'existence de cette loi » et « la majorité juge [...] pas la légalité des actes de 1938 » — ce qui attribue au raisonnement de la Cour une année qui n'est pas la sienne. À reformuler en situant la question de rétroactivité sur les actes de 1948 (réclamation, faux testament invoqué, permis d'exportation), et non sur la confiscation nazie de 1938, qui reste correcte comme fait de fond mais n'est pas ce que la Cour évalue pour la rétroactivité du FSIA."
     ]
   },
   "controle_juridique": null,
