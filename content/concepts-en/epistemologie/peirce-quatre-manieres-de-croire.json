@@ -2,7 +2,7 @@
   "id": "epi-peirce-quatre-manieres-de-croire",
   "slug": "peirce-quatre-manieres-de-croire",
   "langue": "en",
-  "empreinte_fr": "cd2eb237075b6377",
+  "empreinte_fr": "7fc91a4b40d673d4",
   "traduit_le": "2026-11-26",
   "moteur": "claude-sonnet-5-5",
   "relu": false,
@@ -46,5 +46,39 @@
     "explication": "The first three methods also bring relief from doubt, and the scientific method owes nothing to any authority or to a number of practitioners. Peirce writes that it is the only one of the four where one can go about it rightly or wrongly: in the others, the test comes down to what one already thinks, what the state thinks, or what one is inclined to think.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "Why, according to Peirce, does the method of tenacity eventually collapse?",
+      "choix": [
+        "Because an official authority eventually forbids it",
+        "Because it brings no real peace of mind",
+        "Because a neighbor believes the opposite with the same confidence",
+        "Because it requires too much accumulated experience"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Peirce writes that tenacity brings real peace of mind as long as no one else interferes; it collapses as soon as a neighbor believes the opposite with the same confidence."
+    },
+    {
+      "question": "According to Peirce, what makes the method of authority more stable than tenacity?",
+      "choix": [
+        "It erases contradiction by forbidding it",
+        "It relies on experience and verifiable facts",
+        "It lets each individual judge for themselves",
+        "It changes from century to century, like fashion"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Peirce writes that the method of authority hands belief over to an institution that imposes a doctrine and represses deviations, which erases contradiction by forbidding it rather than resolving it."
+    },
+    {
+      "question": "What, according to Peirce, characterizes the a priori method?",
+      "choix": [
+        "It relies entirely on experience to settle questions",
+        "It imposes a single doctrine on the whole of society",
+        "It rests on what a majority of experts recognizes",
+        "It picks whatever seems reasonable, like a fashion that changes with the era"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Peirce compares the a priori method to a fashion: it picks whatever seems agreeable to reason, but that judgment depends on era and taste, and changes from century to century without converging."
+    }
+  ]
 }

@@ -60,7 +60,41 @@
     "explication": "Le séisme a déjà commencé quand l'alerte part : l'onde P, plus rapide, est détectée par les capteurs, et les télécommunications d'aujourd'hui sont bien plus rapides que les ondes sismiques, ce qui permet à l'alerte d'arriver avant les ondes les plus dommageables. Ce n'est en rien une prédiction, et les autres mécanismes proposés n'existent pas.",
     "statut": "valide"
   },
-  "quiz_supplementaire": [],
+  "quiz_supplementaire": [
+    {
+      "question": "Que s'est-il passé lors de la séquence de Ridgecrest en juillet 2019 ?",
+      "choix": [
+        "ShakeAlert a prédit l'heure exacte du séisme principal deux jours avant",
+        "ShakeAlert a détecté et caractérisé les deux séismes en 6,9 secondes",
+        "Aucun capteur n'a enregistré les deux séismes",
+        "Le système a été désactivé pendant toute la séquence"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Selon l'étude de l'USGS sur la séquence de Ridgecrest, ShakeAlert a détecté et caractérisé les deux séismes, de magnitude 6,4 puis 7,1, dans les 6,9 secondes qui suivent leur origine."
+    },
+    {
+      "question": "Pourquoi aucune alerte publique n'a-t-elle été envoyée pour le séisme de magnitude 7,1 de Ridgecrest ?",
+      "choix": [
+        "Parce que l'application ShakeAlertLA n'existait pas encore en 2019",
+        "Parce que le séisme a eu lieu hors de la zone couverte par les capteurs",
+        "Parce que l'USGS a jugé l'alerte inutile pour un séisme déjà annoncé",
+        "Parce que les deux algorithmes ont sous-estimé sa magnitude de 0,8 unité"
+      ],
+      "bonne_reponse": 3,
+      "explication": "L'étude de l'USGS montre que les deux algorithmes ont sous-estimé la magnitude du séisme de 7,1 de 0,8 unité, donc la secousse attendue, ce qui a empêché l'alerte publique que la situation justifiait."
+    },
+    {
+      "question": "D'après l'USGS, qui a le plus de temps pour recevoir une alerte avant l'arrivée de la secousse ?",
+      "choix": [
+        "Celui qui se trouve le plus éloigné de l'origine du séisme",
+        "Celui qui se trouve le plus près de l'origine du séisme",
+        "Celui qui dispose du capteur sismique le plus récent",
+        "Celui qui a téléchargé l'application en premier"
+      ],
+      "bonne_reponse": 0,
+      "explication": "L'USGS précise que quelqu'un de plus éloigné de l'origine du séisme a plus de temps pour recevoir une alerte avant l'arrivée de la secousse : la marge grandit avec la distance, pas l'inverse."
+    }
+  ],
   "statut": "valide",
   "date_publication_prevue": null,
   "meta": {

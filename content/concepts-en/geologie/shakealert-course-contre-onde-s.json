@@ -2,7 +2,7 @@
   "id": "geo-shakealert-course-contre-onde-s",
   "slug": "shakealert-course-contre-onde-s",
   "langue": "en",
-  "empreinte_fr": "c94d9126bf173fef",
+  "empreinte_fr": "cea0d8542bed4b39",
   "traduit_le": "2026-11-26",
   "moteur": "claude-code",
   "relu": false,
@@ -41,5 +41,39 @@
     "explication": "The earthquake has already started when the alert goes out: the faster P wave is detected by the sensors, and today's telecommunications are far faster than seismic waves, so the alert can arrive before the most damaging waves. This is not prediction at all, and none of the other mechanisms exist.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What happened during the Ridgecrest sequence in July 2019?",
+      "choix": [
+        "ShakeAlert predicted the exact time of the mainshock two days ahead",
+        "ShakeAlert detected and characterized both earthquakes within 6.9 seconds",
+        "No sensor recorded either earthquake",
+        "The system was switched off for the entire sequence"
+      ],
+      "bonne_reponse": 1,
+      "explication": "According to the USGS study on the Ridgecrest sequence, ShakeAlert detected and characterized both earthquakes, magnitude 6.4 then 7.1, within 6.9 seconds of their origin."
+    },
+    {
+      "question": "Why was no public alert sent for the magnitude-7.1 Ridgecrest earthquake?",
+      "choix": [
+        "Because the ShakeAlertLA app did not yet exist in 2019",
+        "Because the earthquake occurred outside the area covered by sensors",
+        "Because the USGS judged an alert unnecessary for an already-announced quake",
+        "Because both algorithms underestimated its magnitude by 0.8 units"
+      ],
+      "bonne_reponse": 3,
+      "explication": "The USGS study shows that both algorithms underestimated the magnitude of the 7.1 earthquake by 0.8 units, and so the expected shaking, which kept back the public alert the situation warranted."
+    },
+    {
+      "question": "According to the USGS, who has the most time to receive an alert before shaking arrives?",
+      "choix": [
+        "Someone farther from the earthquake's origin",
+        "Someone closer to the earthquake's origin",
+        "Someone with the most recent seismic sensor",
+        "Someone who downloaded the app first"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The USGS notes that someone farther from the earthquake's origin has more time to receive an alert before shaking arrives: the margin grows with distance, not the reverse."
+    }
+  ]
 }
