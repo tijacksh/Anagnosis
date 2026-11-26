@@ -67,12 +67,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-26T10:10:39.784Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-26T10:10:39.784Z",
+        "note": "Texte intégral de Hume rouvert sur archive.org (enquiryconcerni00hume_djvu.txt) : citation « must be evidently going in a circle... » retrouvée mot pour mot en Sect. IV part. II §30 ; « no less intelligible » sur le soleil en Sect. IV part. I §21 ; « Custom, then, is the great guide of human life » en Sect. V part. I §36 — tous confirmés exactement. SEP The Problem of Induction rouverte : dilemme démonstration/raisonnement probable, argument de circularité, positions d'Okasha (sophisme de quantificateur, régression plutôt que cercle) et de Norton (inductions matérielles) confirmées. Carte et quiz conformes, distracteurs faux. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-26",
