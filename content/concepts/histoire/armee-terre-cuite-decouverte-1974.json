@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les ateliers produisaient séparément têtes, bras, jambes et torses avant assemblage, et gravaient leur nom sur les pièces pour le contrôle qualité, d'où des visages tous différents sur des corps standardisés, et non une sculpture individuelle ni un moule unique.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,11 +83,11 @@
       "explication": "Le vernis à base de laque qui fixait les couleurs commence à se craqueler quinze secondes après l'exhumation et s'écaille entièrement en quatre minutes, emportant la couleur avec lui."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-10-03T19:11:14.484Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-26T21:15:22.426Z",
     "historique": [
       {
         "action": "valider",
@@ -96,15 +96,24 @@
         "par": "routine-reparation",
         "le": "2026-10-03T19:11:14.484Z",
         "note": "Sources rouvertes : Wikipedia EN Terracotta Army, Britannica Qin tomb. Deux précisions non soutenues retirées du corps : la profondeur 'à un peu plus de trois mètres' (ni Wikipedia ni Britannica ne la donnent, et les sources tierces se contredisent entre 2m et 15m) remplacée par une formulation sans chiffre ; le nombre 'plusieurs dizaines' d'ateliers (non chiffré dans aucune source) retiré, en gardant la distinction État/local qui elle est soutenue par Wikipedia ('manufactured in workshops by government laborers and local craftsmen'). Reste de la fiche revérifié conforme : date mars 1974, 6 frères Yang + Wang Puzhi, 8000+ soldats/130 chars/3 fosses, fabrication modulaire et marquage des ateliers, couleurs d'origine et dégradation du vernis en 15s/4min, tombeau partiellement inexploré pour préservation. Carte et quiz conformes."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-26T21:15:22.426Z",
+        "note": "Contrôle du 2026-11-26 : voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-30",
+    "fait_le": "2026-11-26",
     "verdict": "a_revoir",
-    "empreinte": "749ac1975ba925c0",
+    "empreinte": "b97dcb9b15382bff",
     "notes": [
-      "Deux sources rouvertes (Wikipedia EN, Britannica Qin tomb) : la plupart des faits collent exactement (date mars 1974/29 mars, 6 frères Yang + Wang Puzhi = 7 découvreurs, 8000+ soldats/130 chars/3 fosses, fabrication modulaire, marquage des ateliers, couleurs et vernis 15s/4min, tombeau non fouillé pour préservation, quiz et carte cohérents). Mais deux détails du corps ne sont soutenus par aucune des deux sources citées et doivent être vérifiés ou retirés : 1) 'à un peu plus de trois mètres de profondeur' pour le coup de pelle de Yang Zhifa — ni Wikipedia ni Britannica ne donnent cette profondeur (Wikipedia ne mentionne que le soulevement de terre du site en général, 5m/7m, sans rapport avec le puits de 1974) ; 2) 'plusieurs dizaines d'ateliers distincts, certains dépendant de l'État, d'autres locaux' — Wikipedia confirme le principe du marquage des ateliers pour le contrôle qualité mais ne donne aucun chiffre ni distinction État/local. Trouver une source qui les confirme, sinon retirer ces deux précisions."
+      "Britannica en 403. Non soutenus : couche de charbon et terre rougie, tête d'argile, « dieu de poterie » ; distinction ouvriers de l'État / artisans locaux ; lien entre perte des couleurs et fouilles ralenties ; fin du repère (« avant même d'avoir pu être photographiés ») ; carte.source_courte « Britannica » à remplacer par Wikipédia (la couleur n'y est pas).",
+      "Corrections à faire : « trois fosses » (Wikipédia en décrit quatre, la 4e vide) ; « les artisans devaient graver leur nom » → les ateliers inscrivaient leur nom ; sources[].annee null."
     ]
   },
   "controle_juridique": null,

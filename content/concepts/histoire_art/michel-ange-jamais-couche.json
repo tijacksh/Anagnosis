@@ -85,7 +85,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Michel-Ange a dessiné une caricature de lui-même peignant debout, tête renversée, dans la marge du sonnet envoyé à Giovanni da Pistoia vers 1509 ; l'historien William E. Wallace a recoupé ce dessin avec les documents décrivant l'échafaudage. Aucun contrat ni analyse chimique n'entre en jeu.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -122,11 +122,11 @@
       "explication": "L'échafaudage prenait appui dans des trous percés en haut des murs de la chapelle, sous la ligne des fenêtres, ce qui laissait l'espace libre en dessous pour continuer les offices religieux."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-26T19:23:30.750Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-26T21:15:21.964Z",
     "historique": [
       {
         "action": "valider",
@@ -135,17 +135,27 @@
         "par": "routine-reparation",
         "le": "2026-08-26T19:23:30.750Z",
         "note": "Sources rouvertes (Smithsonian, Deseret News) et deux nouvelles sources ajoutees et verifiees : Harvard Magazine 1997 (sonnet a Giovanni da Pistoia, date 1509 ou 1510, traduction John Frederick Nims) et Gallenga et al., 'Michelangelo's Eye Disease', Medical Hypotheses 2012, DOI 10.1016/j.mehy.2012.02.024 (trouble oculaire transitoire a partir de 1510) ; plus une notice Wikimedia Commons creditee au Metropolitan Museum of Art pour la caricature (Casa Buonarroti, Archivio Buonarroti XIII fol. 111). Citation corrigee : la phrase sur la 'harpie', absente du texte reel de Smithsonian, est remplacee par la suite verifiee mot pour mot de la meme citation ('My loins have penetrated to my paunch... I'm not in a good place, and I'm no painter'). Corps corrige en miroir. La consultation 'par le Vatican' de William E. Wallace, non confirmee par Deseret (qui decrit une bourse NEH), est remplacee par la description exacte. L'anecdote sur la vue est corrigee : non plus 'des annees plus tard... durablement adaptee' mais 'des 1510... reste transitoire', conforme a Gallenga et al. Reste de la fiche (posture debout, echafaudage, film de 1965, Piero Basso, treize assistants, duree 1508-1512) deja confirme et non retouche."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-26T21:15:21.964Z",
+        "note": "Contrôle du 2026-11-26 : voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-25",
+    "fait_le": "2026-11-26",
     "verdict": "a_revoir",
-    "empreinte": "cd90ae29d2c8ab90",
+    "empreinte": "ef15a61a1962431f",
     "notes": [
-      "Citation fabriquee/mal attribuee : la fiche cite 'ma poitrine se tord comme celle d'une harpie' en l'attribuant a Smithsonian Magazine, mais le texte reel de Smithsonian (verifie sur le HTML complet) poursuit apres 'back of my brain upon my neck' par une tout autre phrase ('My loins have penetrated to my paunch... I'm not in a good place, and I'm no painter'), sans aucune mention de harpie. La comparaison a la harpie existe dans une AUTRE traduction du meme sonnet (ex. traduction Gail Mazur), non celle de la source citee. La citation melange donc deux traductions differentes sous une seule attribution — a corriger en priorite : soit citer fidelement la traduction Smithsonian (sans la harpie), soit sourcer explicitement l'autre traduction utilisee.",
-      "Plusieurs details du corps ne sont confirmes par aucune des deux sources assignees (Smithsonian, Deseret News) : le destinataire nomme du sonnet (Giovanni da Pistoia), l'annee du sonnet (1509), la caricature dans la marge du sonnet, la consultation officielle par le Vatican dans les annees 1980 (Deseret decrit une recherche independante de Wallace financee par une bourse NEH, pas un mandat du Vatican), et l'anecdote sur la vue abimee (lire les lettres au-dessus de la tete). A verifier ailleurs et sourcer explicitement, ou a retirer si non confirmable.",
-      "Le reste (posture debout, mythe du film de 1965, echafaudage perce dans les murs, William E. Wallace, Piero Basso, treize assistants, duree 1508-1512) est bien confirme par les deux sources."
+      "Smithsonian en 403 (WebFetch, curl, archive) : citation, 33 ans, trous sous les fenêtres, film 1965 non relus.",
+      "Non soutenu par Deseret : Wallace n'y mentionne ni caricature ni sonnet, donc « Wallace a recoupé ce dessin avec les documents » (contenu, quiz.explication) est un recoupement non sourcé ; la bonne réponse du quiz en dépend.",
+      "Non soutenu : assistants qui préparent les enduits et peignent des éléments secondaires (Deseret : broient les couleurs, mélangent, nettoient les pinceaux) ; description « corps cambré, bras levé » de la caricature absente de la notice Commons ; « pas même à mi-parcours » déduit ; sonnet daté 1509 ou 1510 (Harvard).",
+      "Citation française : retraduction d'une version anglaise Smithsonian différente de Nims (Harvard) ; préciser la source.",
+      "« dans la marge d'un sonnet » : la notice dit seulement un feuillet associant sonnet et caricature."
     ]
   },
   "controle_juridique": null,

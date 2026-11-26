@@ -37,7 +37,7 @@
       "publication": "franceinfo.fr",
       "annee": 2016,
       "url": "https://www.franceinfo.fr/culture/arts-expos/peinture/il-y-a-100-ans-vincenzo-peruggia-volait-la-joconde-au-louvre_3374635.html",
-      "note": "Confirme le mobile patriotique invoqué par Peruggia et sa tentative de revente en 1913. Situe cependant le vol lui-même au 22 août 1911, jour où sa disparition est constatée au Louvre, et non au 21 août retenu ici, jour où Peruggia décroche réellement le tableau (voir Wikipédia)."
+      "note": "Confirme le mobile patriotique invoqué par Peruggia et situe le vol au 22 août 1911. La tentative de revente de 1913 n'y figure pas (elle vient de Wikipédia FR)."
     },
     {
       "type": "institution",
@@ -81,7 +81,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Le lien tient à une affaire antérieure et sans rapport avec le vol de la Joconde : Géry Pieret, ancien secrétaire occasionnel d'Apollinaire, avait dérobé des statuettes ibériques au Louvre et en avait vendu deux à Picasso. C'est cette affaire de recel qui met les deux hommes sous les projecteurs, pas le moindre indice les reliant au vol du tableau lui-même.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -118,11 +118,11 @@
       "explication": "Peruggia est vitrier de métier et avait autrefois posé la vitre de protection de la Joconde, ce qui lui donnait une connaissance du dispositif de sécurité du tableau."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-25T11:23:52.739Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-26T21:15:22.289Z",
     "historique": [
       {
         "action": "valider",
@@ -131,17 +131,26 @@
         "par": "routine-reparation",
         "le": "2026-08-25T11:23:52.739Z",
         "note": "Accroche corrigée : un mois devient six jours (Apollinaire incarcéré à la Santé du 7 au 12 septembre 1911, source Criminocorpus ajoutée en sources, corroboré par Vice.fr) ; date de sortie ajoutée au corps pour cohérence avec l'accroche. Peur d'expulsion de Picasso désormais sourcée (Artsy, Ian Shank, 2017, citation directe verifiee sur la page). Note de la source franceinfo corrigee : elle situe le vol au 22 aout, pas au 21 aout retenu par la fiche et par Wikipedia, la note ne pretend plus confirmer la date. Repere, corps, carte et quiz relus phrase a phrase contre Wikipedia FR (occupation de vitrier de Peruggia, nationalite belge de Pieret, adresse rue de l Hopital-Saint-Louis, peine d un an reduite a sept mois, affluence sur l emplacement vide) : conformes mot a mot. Distracteurs du quiz confirmes faux par toutes les sources consultees."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-26T21:15:22.289Z",
+        "note": "Contrôle du 2026-11-26 : voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-25",
+    "fait_le": "2026-11-26",
     "verdict": "a_revoir",
-    "empreinte": "e98aadd807d78a91",
+    "empreinte": "9d1a7fffcaf78200",
     "notes": [
-      "Accroche fausse : « passe un mois en prison » — Apollinaire a été incarcéré à la Santé du 7 au 12 (ou 13) septembre 1911, soit environ six jours, puis libéré en liberté provisoire (non-lieu seulement le 19/01/1912, mais aucune détention jusque-là). Confirmé par Criminocorpus (criminocorpus.org, rubrique « Les prisons de Guillaume Apollinaire ») et par plusieurs biographies convergentes. Aucune des deux sources de la fiche ne donne « un mois ». À corriger dans l'accroche (et vérifier que rien d'autre ne suppose cette durée).",
-      "Corps : « Picasso... terrifié à l'idée d'être expulsé de France » n'est appuyé par aucune des deux sources citées (Wikipédia FR ne mentionne que son audition ; l'article franceinfo ne parle ni d'Apollinaire ni de Picasso). Le détail est plausible et documenté ailleurs (Vice.fr, Slate.fr, sur la peur d'expulsion de Picasso et Apollinaire à l'époque) mais pas dans les sources actuelles de la fiche — ajouter une source qui le confirme ou retirer la précision.",
-      "Source franceinfo (sources[1]) : sa note affirme qu'elle « confirme la date du vol », mais l'article dit lui-même « Le 22 août 1911... Peruggia... volait la Joconde », soit un jour de décalage avec la fiche et avec Wikipédia, qui datent le vol du 21 août (jour retenu aussi par Britannica, Herodote.net et History.com — le 22 correspond à la découverte du vol, pas au vol lui-même). La date de la fiche (21 août) est correcte, mais la note de cette source est trompeuse : à corriger, ou remplacer la source."
+      "Corrigé : note de la source franceinfo (ne mentionne pas la revente de 1913).",
+      "Artsy en 403 : « Picasso terrifié à l'idée d'être expulsé » non relu ; non retrouvé : Pieret « secrétaire occasionnel » qui hébergeait Apollinaire, « relâchés, affaire des statuettes traitée séparément ».",
+      "Wikipédia FR dit « apparemment » pour la toile cachée sous les vêtements : atténuer.",
+      " 12 septembre : source Criminocorpus, pas Wikipédia (déjà dans sources)."
     ]
   },
   "controle_juridique": null,
