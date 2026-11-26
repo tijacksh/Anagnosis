@@ -98,11 +98,11 @@
       "explication": "Le modèle russe fusionne Europe et Asie en une seule Eurasie mais garde les deux Amériques séparées, à l'inverse du modèle francophone qui unifie les Amériques en séparant Europe et Asie."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-26T11:02:40.656Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-26T13:00:00.000Z",
     "historique": [
       {
         "action": "valider",
@@ -127,15 +127,23 @@
         "par": "routine-reparation",
         "le": "2026-11-26T11:02:40.656Z",
         "note": "Sources rouvertes : UN M49, Wikipédia fr Continent, en Continent, en Boundaries between the continents. Corrigé : cinq régions continentales (Afrique, Amériques, Asie, Europe, Océanie) et Antarctique listé à part, dans repère et corps ; « Asie de l'Est » remplacé par Chine, Inde ; Strahlenberg 1725 sans motif politique inventé (construction historique et culturelle), Groenland et affirmation sur les institutions retirés, quiz supplémentaire ajusté."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-26T13:00:00.000Z",
+        "note": "La note 13 de la page M49 dit que le schéma repose sur « six continental regions » ; repère et dernier paragraphe disent cinq régions continentales. À trancher sur la liste de premier niveau et reformuler."
       }
     ]
   },
   "controle": {
     "fait_le": "2026-11-26",
     "verdict": "a_revoir",
-    "empreinte": "fa85920d7be5fc08",
+    "empreinte": "d3bc99025534aa8b",
     "notes": [
-      "Source ré-ouverte en détail (unstats.un.org/unsd/methodology/m49/) : elle ne soutient pas « six « régions continentales » (Afrique, Amériques, Antarctique, Asie, Europe, Océanie) » affirmé dans le repere et dans le dernier paragraphe du corps du texte. La page dit seulement « These geographic regions are based on continental regions », sans donner de nombre, et son premier niveau de classification compte CINQ régions continentales (Afrique, Amériques, Asie, Europe, Océanie) — l'Antarctique (code M49 010, ISO ATA) y figure comme une entrée de pays/zone listée après les Amériques, jamais présentée comme une sixième région continentale au même rang que les cinq autres. C'est le même écart que le premier contrôle du 27/09 avait déjà repéré (notes : « confirme 5 régions géographiques [...] Antarctique hors classification ») sans qu'il soit corrigé dans le texte à l'époque — verdict « ok » erroné. À reformuler : soit citer le nombre réel (cinq régions continentales, Antarctique listée à part), soit retirer l'affirmation d'un sixième rang pour l'Antarctique dans ce décompte onusien. Reste de la fiche (modèles à sept/six/cinq continents, Strahlenberg 1725, Wikipedia fr Continent et en Boundaries between the continents) confirmé exact et non concerné."
+      "Note 13 de la page M49 : six continental regions ; fiche dit cinq. A trancher et reformuler."
     ]
   },
   "controle_juridique": null,
