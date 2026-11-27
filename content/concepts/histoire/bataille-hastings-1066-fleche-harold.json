@@ -75,12 +75,21 @@
     "statut": "valide"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "valide",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": null,
-    "decide_le": null,
-    "historique": []
+    "decide_par": "routine-relecture",
+    "decide_le": "2026-11-27T22:14:31.574Z",
+    "historique": [
+      {
+        "action": "valider",
+        "de": "brouillon",
+        "vers": "valide",
+        "par": "routine-relecture",
+        "le": "2026-11-27T22:14:31.574Z",
+        "note": "Sources rouvertes indépendamment (en.wikipedia Battle of Hastings, Bayeux Tapestry, Carmen de Hastingae Proelio ; abstract Cambridge de Bernstein, désormais lisible) : récits divergents confirmés mot pour mot (Carmen attribue la mort à Guillaume, Jumièges la place le matin, Poitiers reste muet, Battle Abbey dit que personne ne savait), Aimé du Mont-Cassin années 1080 jugé peu fiable (100 000 hommes), Malmesbury et Wace confirmés, Walker et Rex confirmés, gravures de 1729 (Benoît) et 1730 (Montfaucon) montrant une lance confirmées, trous d'aiguille confirmés, ambiguïté de la figure confirmée, abstract Bernstein confirme l'absence de mention écrite contemporaine de la blessure à l'œil. Citation/repère et carte tiennent sans le reste. Quiz exact, distracteurs faux, bonne réponse non repérable par la longueur. Rien à corriger."
+      }
+    ]
   },
   "controle": {
     "fait_le": "2026-11-27",
