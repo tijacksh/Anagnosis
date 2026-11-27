@@ -68,13 +68,37 @@
     ],
     "bonne_reponse": 0,
     "explication": "La commission délibère plusieurs mois sans jamais consigner de vote collectif ; Charles Quint ne tranche pas non plus, si bien que Las Casas et Sepúlveda se déclarent ensuite chacun vainqueur, faute d'une décision écrite qui les contredise.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [],
-  "statut": "brouillon",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
-  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
-  "controle": null,
+  "validation": {
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T16:17:02.669Z",
+    "historique": [
+      {
+        "action": "retoucher",
+        "de": "brouillon",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T16:17:02.669Z",
+        "note": "Contrôle 2026-11-27 : l'argument prêté à Las Casas sur les Cananéens comme seul précédent biblique de guerre justement menée n'est confirmé par aucune des deux sources citées (Wikipédia en, « Valladolid debate » et « Bartolomé de las Casas », lues en entier) ; voir notes de contrôle."
+      }
+    ]
+  },
+  "controle": {
+    "fait_le": "2026-11-27",
+    "verdict": "a_revoir",
+    "empreinte": "092a77ccf54e4fab",
+    "notes": [
+      "Sources rouvertes (Wikipédia en, « Valladolid debate » et « Bartolomé de las Casas », lues en entier) : convocation par Charles Quint, Colegio de San Gregorio, 1550-1551, douze réfutations de Sepúlveda, rôle de résumé de Domingo de Soto, absence de verdict collectif, avis isolé du docteur Anaya, suspension des licences de conquête levée en mai 1556, mort de Las Casas en 1566 : tout confirmé. À REVOIR : l'argument prêté à Las Casas selon lequel l'Écriture ne fournirait qu'un seul précédent de guerre religieusement justifiée, contre les Cananéens, n'apparaît dans aucune des deux sources citées ni dans une recherche complémentaire — à sourcer précisément ou à retirer."
+    ]
+  },
   "controle_juridique": null,
-  "meta": { "genere_le": "2026-11-27", "genere_par": "routine-production", "version": 1 }
+  "meta": {
+    "genere_le": "2026-11-27",
+    "genere_par": "routine-production",
+    "version": 1
+  }
 }
