@@ -2,7 +2,7 @@
   "id": "har-venus-de-milo-socle-disparu",
   "slug": "venus-de-milo-socle-disparu",
   "langue": "en",
-  "empreinte_fr": "6f8c32163c0e05d7",
+  "empreinte_fr": "21eced6947e010f6",
   "traduit_le": "2026-11-27",
   "moteur": "claude-code",
   "relu": false,
@@ -44,5 +44,38 @@
     "bonne_reponse": 1,
     "explication": "The lost base can neither prove nor rule out that it belonged to the statue, since it no longer exists to be examined. The Hellenistic dating widely accepted today was put forward by Furtwängler in 1893, against the general opinion of the time."
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "How was the statue obtained from the local authorities of Milos?",
+      "choix": [
+        "It was given to the French free of charge",
+        "It was seized by Napoleon's troops",
+        "It was bought for 1,000 francs, after negotiations",
+        "It was exchanged for the Apollo Belvedere"
+      ],
+      "bonne_reponse": 2,
+      "explication": "After negotiations with the local authorities, the statue was bought for 1,000 francs, then reached Paris in February 1821."
+    },
+    {
+      "question": "Which date did Adolf Furtwängler propose for the statue in 1893?",
+      "choix": [
+        "To the 1st century CE",
+        "To the 4th century BCE, like the consensus",
+        "To the classical age of Phidias and Praxiteles",
+        "Between 150 and 50 BCE"
+      ],
+      "bonne_reponse": 3,
+      "explication": "Furtwängler dated the work between 150 and 50 BCE, against the general opinion of the 19th century, which leaned toward the 4th century BCE."
+    },
+    {
+      "question": "Which official position did France hold for more than 130 years?",
+      "choix": [
+        "It belonged to Praxiteles' school",
+        "It was Roman, unrelated to Greece",
+        "It was Hellenistic, dated by the base"
+      ],
+      "bonne_reponse": 0,
+      "explication": "The Louvre and the Académie des beaux-arts linked the statue to Praxiteles' school, and this official position lasted more than 130 years."
+    }
+  ]
 }
