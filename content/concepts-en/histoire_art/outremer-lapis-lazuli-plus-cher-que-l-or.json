@@ -2,7 +2,7 @@
  "id": "har-outremer-lapis-lazuli",
  "slug": "outremer-lapis-lazuli-plus-cher-que-l-or",
  "langue": "en",
- "empreinte_fr": "3211a6dde8500a4f",
+ "empreinte_fr": "3df8ad776eb98173",
  "traduit_le": "2026-11-27",
  "moteur": "claude-code",
  "relu": false,
@@ -45,5 +45,39 @@
   "explication": "According to the National Gallery, ultramarine was expensive because the mineral was hard to obtain, imported from Badakhshan, and because it needed lengthy processing to purify it. It does not come from a shellfish or a plant, and no Church tax is involved.",
   "statut": "valide"
  },
- "quiz_supplementaire": []
+ "quiz_supplementaire": [
+  {
+   "question": "What does the name \"ultramarine\" given to this pigment mean?",
+   "choix": [
+    "The blue of the sea, referring to its color",
+    "Beyond the sea, because the stone came from Afghanistan",
+    "Sold overseas, referring to its trade in England",
+    "Dyed twice, to set it apart from a paler blue"
+   ],
+   "bonne_reponse": 1,
+   "explication": "The text says the name ultramarine means beyond the sea, because the lapis lazuli was shipped in from Badakhshan, in Afghanistan, one of the only places where this stone exists."
+  },
+  {
+   "question": "What does the 2020 X-ray analysis make it possible to know about an old painting?",
+   "choix": [
+    "Whether the lapis lazuli stone was heated red-hot before being ground",
+    "Who painted it, from the chemical makeup of the blue",
+    "The exact age of the painting, to within a few years",
+    "The precise country of origin of the stone used"
+   ],
+   "bonne_reponse": 0,
+   "explication": "The Rijksmuseum team recreated the extraction in the lab and showed that heating the stone makes purification easier, which makes it possible to tell, more than four hundred years later, whether a painting went through that step."
+  },
+  {
+   "question": "In the 2020 experiment recreating the pigment's purification, who managed to cleanly isolate ultramarine?",
+   "choix": [
+    "The men on the team, by following the recipe exactly",
+    "None of the researchers, the operation having failed for everyone",
+    "The female students on the team, while the men did not succeed",
+    "An algorithm that automated the washing of the pigment"
+   ],
+   "bonne_reponse": 2,
+   "explication": "Old recipes recommended washing the pigment with the hands of a young girl; in the experiment, the men on the team were unable to cleanly isolate ultramarine, unlike the female students."
+  }
+ ]
 }
