@@ -75,7 +75,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le dispositif de Brunelleschi montre qu'une scène vue depuis un point fixe peut être reproduite avec exactitude sur une surface plane : le spectateur compare le reflet du tableau à la scène réelle. Il ne s'agit ni d'une comparaison de techniques picturales, ni d'un jugement sur le baptistère, ni d'un usage décoratif du miroir, qui ne sert ici que d'outil de vérification.",
-    "statut": "en_retouche"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -112,11 +112,11 @@
       "explication": "Brunelleschi ne publie rien, sa démonstration reste un dispositif à montrer. C'est Leon Battista Alberti qui rédige en 1435 le traité De pictura, première description de la perspective linéaire géométrique, et qui en attribue la découverte à Brunelleschi."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-controler",
-    "decide_le": "2026-11-27T12:15:10.000Z",
+    "decide_par": "routine-reparation",
+    "decide_le": "2026-11-27T17:00:33.399Z",
     "historique": [
       {
         "action": "valider",
@@ -149,6 +149,14 @@
         "par": "routine-controler",
         "le": "2026-11-27T12:15:10.000Z",
         "note": "Contrôle 2026-11-27 : affirmations non sourcées (unicité, quiz, datation), voir notes de contrôle"
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-11-27T17:00:33.399Z",
+        "note": "Déjà réparée deux fois (2026-08-26 et 2026-11-27) et revenue du contrôle : rejet sans troisième réparation. Reste non soutenu : unicité (« n'existe dans aucune peinture avant lui », « pas d'équivalent connu »), « Brunelleschi ne publie rien » (fonde un distracteur), « démontre le report exact » (interprétation), « Vers 1415 » alors que la datation est discutée (1401-1425), « ainsi naît la perspective occidentale », date de la dédicace d'Alberti (1435 ou 1436) à trancher. Le fond (protocole du trou et du miroir selon Manetti) mériterait une fiche neuve plus prudente."
       }
     ]
   },
