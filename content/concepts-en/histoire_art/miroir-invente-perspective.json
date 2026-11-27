@@ -2,9 +2,9 @@
  "id": "har-miroir-invente-perspective",
  "slug": "miroir-invente-perspective",
  "langue": "en",
- "empreinte_fr": "9e82fa6acb10135c",
- "traduit_le": "2026-11-16",
- "moteur": "claude-sonnet-5-5",
+ "empreinte_fr": "6c04a3ce18af2282",
+ "traduit_le": "2026-11-27",
+ "moteur": "claude-code",
  "relu": false,
  "drapeaux": [
   {
@@ -15,7 +15,7 @@
  ],
  "titre": "The Mirror That Invented Perspective",
  "accroche": "Around 1415, a Florentine architect drills a hole in a painting and holds up a mirror. What he lets us see exists in no painting before him.",
- "contenu_vulgarise": "In the early 15th century, the Florentine architect Filippo Brunelleschi paints a small panel showing the Florence Baptistery, seen from inside the neighboring cathedral, then unfinished. Nothing in the subject distinguishes this painting from any other city view. The apparatus Brunelleschi builds around it, however, has no known equivalent before that date.\n\nThe most detailed account of this experiment comes from a biography of Brunelleschi written in the 1480s by an admiring younger contemporary, Antonio di Tuccio Manetti, who claims to have held the panel in his hands and examined it several times.\n\n## Looking Through a Hole to See a Mirror\n\nAt the center of the panel there is a small hole, drilled from the painted side, about as wide as a lentil. On the back, the opening widens like a pyramid to the size of a coin. Manetti describes the procedure precisely: the viewer places an eye against the hole, on the unpainted side, and with the other hand holds a mirror up facing the painting. What he sees then is the reflection of the painting, not the painting itself. The part of the panel showing the sky was covered with a thin sheet of polished silver, which reflects the real sky and its moving clouds, blurring the boundary between the painted image and the real scene even further.\n\nThe effect, according to Manetti, was striking: seeing the reflection in the mirror, you believed you were looking at the real thing. What Brunelleschi works out with this device is a single vanishing point, toward which all the parallel lines of a scene observed from a fixed position converge. The mathematical principle was known to Greek and Roman geometers, but lost to Western painting throughout the Middle Ages.\n\nThe exact date of the experiment is still debated among art historians: the Encyclopædia Britannica places it around 1410-1415, while others propose different dates, from 1401 to 1425. The original panel has not survived.\n\n## From a Private Experiment to a Public Rule\n\nBrunelleschi publishes nothing: his demonstration remains an apparatus to be shown, not a treatise to be read. It is the architect and humanist Leon Battista Alberti who, in 1435, sets down the rules of linear perspective in writing for the first time, in his treatise *Della pittura*, which he explicitly dedicates to Brunelleschi. The dedication directly acknowledges a debt.\n\nWhat perspective changes is not just the appearance of paintings. Before Brunelleschi, the size of a painted figure could signal its importance rather than its actual distance: a king larger than his subjects, a saint larger than the faithful. Once linear perspective is codified, Western painting adopts a system in which distance alone governs apparent size, whatever the importance of the subject depicted. A mirror held up in front of a hole, one day in early 15th-century Florence, ended up redefining what a painting is supposed to show: no longer a hierarchy, but a point of view.",
+ "contenu_vulgarise": "In the early 15th century, the Florentine architect Filippo Brunelleschi paints a small panel showing the Florence Baptistery, seen from inside the neighboring cathedral, then unfinished. Nothing in the subject distinguishes this painting from any other city view. The apparatus Brunelleschi builds around it, however, has no known equivalent before that date.\n\nThe most detailed account of this experiment comes from a biography of Brunelleschi written in the 1480s by an admiring younger contemporary, Antonio di Tuccio Manetti, who claims to have held the panel in his hands and examined it several times.\n\n## Looking Through a Hole to See a Mirror\n\nAt the center of the panel there is a small hole, drilled from the painted side, about as wide as a lentil. On the back, the opening widens like a pyramid to the size of a coin. Manetti describes the procedure precisely: the viewer places an eye against the hole, on the unpainted side, and with the other hand holds a mirror up facing the painting. What he sees then is the reflection of the painting, not the painting itself. The part of the panel showing the sky was covered with a thin sheet of polished silver, which reflects the real sky and its moving clouds, blurring the boundary between the painted image and the real scene even further.\n\nThe effect, according to Manetti, was striking: seeing the reflection in the mirror, you believed you were looking at the real thing. What Brunelleschi works out with this device is a single vanishing point, toward which all the parallel lines of a scene observed from a fixed position converge. The Greeks and Romans had glimpsed elements of the problem (trompe-l'œil theatrical scenery, Euclid's work on optics) without arriving at a coherent system; medieval painters, for their part, knew that a distant object looks smaller, but often preferred a symbolic hierarchy of size instead. Brunelleschi is the first to formalize this single vanishing point by means of a verifiable device.\n\nThe exact date of the experiment is still debated among art historians: the Encyclopædia Britannica places it around 1410-1415, while others propose different dates, from 1401 to 1425. The original panel has not survived.\n\n## From a Private Experiment to a Public Rule\n\nBrunelleschi publishes nothing: his demonstration remains an apparatus to be shown, not a treatise to be read. It is the architect and humanist Leon Battista Alberti who sets down the rules of linear perspective in writing: an autograph note dates the completion of his Latin treatise *De pictura* to August 26, 1435, in Florence. He completes a vernacular version, *Della pittura*, on July 17, 1436 (historians still debate the exact order of the two versions), and it is this version that carries the dedication to Brunelleschi, called “Pippo architetto.” The dedication directly acknowledges a debt.\n\nWhat perspective changes is not just the appearance of paintings. Before Brunelleschi, the size of a painted figure could signal its importance rather than its actual distance: a king larger than his subjects, a saint larger than the faithful. Once linear perspective is codified, Western painting adopts a system in which distance alone governs apparent size, whatever the importance of the subject depicted. A mirror held up in front of a hole, one day in early 15th-century Florence, ended up redefining what a painting is supposed to show: no longer a hierarchy, but a point of view.",
  "repere": {
   "texte": "The hole drilled on the painted side is described by the biographer Manetti as “as small as a lentil”; the flared opening on the eye side, “the size of a coin.” The original panel has not survived, but Manetti claims to have held it in his hands and examined it several times.",
   "source": "Antonio di Tuccio Manetti, Life of Brunelleschi (c. 1480), cited by webexhibits.org",
@@ -43,13 +43,13 @@
   {
    "question": "How does the viewer look at Brunelleschi's painted panel, according to the procedure described by Manetti?",
    "choix": [
-    "He places his eye against a hole drilled on the painted side and holds a mirror up facing the painting with his other hand",
+    "He places his eye against the hole, on the unpainted side, and with the other hand holds a mirror up facing the painting",
     "He observes the panel from a distance, without any special device, from the Baptistery's forecourt",
     "He looks at the panel through a magnifying lens fixed on a stand",
     "He observes only the panel's reflection in the water of a basin"
    ],
    "bonne_reponse": 0,
-   "explication": "Manetti describes the procedure precisely: the viewer places his eye against the hole drilled on the painted side, and with the other hand holds a mirror up facing the painting. What he sees then is the reflection of the painting in the mirror, not the painting itself."
+   "explication": "Manetti describes the procedure precisely: the hole is drilled on the painted side, but the viewer places an eye against its opening on the unpainted side, and with the other hand holds a mirror up facing the painting. What he sees then is the reflection of the painting in the mirror, not the painting itself."
   },
   {
    "question": "What covers the sky portion of the panel, and what effect does it produce?",
@@ -63,15 +63,15 @@
    "explication": "The part of the panel showing the sky was covered with a thin sheet of polished silver, which reflects the real sky and its moving clouds, blurring the boundary between the painted image and the real scene a little further still."
   },
   {
-   "question": "Who first sets down the rules of linear perspective in writing, and in what year?",
+   "question": "Who first sets down the rules of linear perspective in writing, and when?",
    "choix": [
-    "Leon Battista Alberti, in 1435, in Della pittura",
+    "Leon Battista Alberti, in his Latin treatise De pictura, completed in 1435",
     "Filippo Brunelleschi himself, in 1415, in a treatise that remained in manuscript",
     "Antonio di Tuccio Manetti, in his biography of the 1480s",
     "Andreas Werckmeister, in 1425, in an architecture treatise"
    ],
    "bonne_reponse": 0,
-   "explication": "Brunelleschi publishes nothing; his demonstration remains an apparatus to be shown. It is Leon Battista Alberti who, in 1435, sets down the rules of linear perspective in writing for the first time, in his treatise Della pittura, which he explicitly dedicates to Brunelleschi."
+   "explication": "Brunelleschi publishes nothing; his demonstration remains an apparatus to be shown. It is Leon Battista Alberti who sets down the rules of linear perspective in writing, in his Latin treatise De pictura, completed on August 26, 1435; the following year he publishes a vernacular version, Della pittura, dedicated to Brunelleschi."
   }
  ]
 }
