@@ -75,7 +75,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Le dispositif de Brunelleschi montre qu'une scène vue depuis un point fixe peut être reproduite avec exactitude sur une surface plane : le spectateur compare le reflet du tableau à la scène réelle. Il ne s'agit ni d'une comparaison de techniques picturales, ni d'un jugement sur le baptistère, ni d'un usage décoratif du miroir, qui ne sert ici que d'outil de vérification.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -112,11 +112,11 @@
       "explication": "Brunelleschi ne publie rien, sa démonstration reste un dispositif à montrer. C'est Leon Battista Alberti qui rédige en 1435 le traité De pictura, première description de la perspective linéaire géométrique, et qui en attribue la découverte à Brunelleschi."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-27T11:05:14.901Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T12:15:10.000Z",
     "historique": [
       {
         "action": "valider",
@@ -141,18 +141,23 @@
         "par": "routine-reparation",
         "le": "2026-11-27T11:05:14.901Z",
         "note": "Sources rouvertes le 2026-11-27 : webexhibits (Manetti), Grave 2010 (PDF, texte extrait), Wikipédia en De pictura et Filippo Brunelleschi ; Britannica en 403, source retirée et avec elle la datation c. 1410-15. Corrigé : protocole côté non peint (œil au revers, trou petit côté peint) rendu cohérent dans le corps, le repère et quiz_supplementaire[0] ; datation selon Manetti (1415-1420) et estimations Gioseffi/Kemp/Edgerton ; Alberti : De pictura 1435, dédicace non datée ; retirés « jeune contemporain », principe connu des Grecs et Romains, taille des figures avant Brunelleschi, « point de fuite unique » (non sourcé) remplacé par report exact d'une scène vue d'un point fixe ; repère reformulé d'après Manetti ; quiz principal et supp. 3 ajustés. EN mise à jour."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T12:15:10.000Z",
+        "note": "Contrôle 2026-11-27 : affirmations non sourcées (unicité, quiz, datation), voir notes de contrôle"
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-11-26",
+    "fait_le": "2026-11-27",
     "verdict": "a_revoir",
-    "empreinte": "f6c46b3641d92344",
+    "empreinte": "cebb74cf06d9ee31",
     "notes": [
-      "Britannica en 403, PDF Grave illisible ; argent poli confirmé par le catalogue National Gallery (Building the Picture), panneaux perdus confirmés.",
-      "Incohérence interne : quiz_supplementaire[0] (choix correct et explication) place l'œil contre le trou « côté peint » ; Manetti et le contenu disent côté non peint.",
-      "Alberti : 1435 est le De pictura latin, Della pittura et la dédicace à Brunelleschi sont de 1436 ; à vérifier.",
-      "Non sourcés : « jeune contemporain » (Manetti), taille de la figure indiquant l'importance avant Brunelleschi, principe connu des Grecs et Romains."
+      "Protocole (trou, miroir, argent poli), citation, dates Kemp/Gioseffi/Edgerton, De pictura confirmés. NON SOUTENU : « n'existe dans aucune peinture avant lui » / « pas d'équivalent connu » (accroche, corps) ; « Brunelleschi ne publie rien » (fonde le distracteur « traité resté manuscrit » du quiz supplémentaire) ; « le dispositif démontre le report exact » (quiz principal, carte) = interprétation de la fiche ; « récit le plus détaillé », « petit panneau », « acte de naissance... calcule... point de vue unique », « la dédicace reconnaît une dette » ; « Vers 1415 » (accroche, carte) alors que la datation est discutée 1401-1425 ; « ainsi naît la perspective occidentale » trop catégorique. Dédicace d'Alberti : 1435 ou 1436, à trancher."
     ]
   },
   "controle_juridique": null,
