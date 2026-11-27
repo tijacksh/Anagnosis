@@ -95,7 +95,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "La ville n'était pas préparée : le transport des livres à l'étranger a été écarté pour des raisons logistiques, et l'essentiel du travail sur place a été fait par des conservateurs et des volontaires italiens, l'étranger apportant surtout fonds et renforts. La conservation par phases et la désacidification de masse sont conçues à cette période, pas d'après des instructions laissées par Cimabue.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -132,11 +132,11 @@
       "explication": "La fusion des laboratoires de l'Opificio, de la Surintendance et d'autres petits laboratoires florentins date de 1975, neuf ans après la crue de 1966."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-11-27T05:08:28.684Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T08:15:27.751Z",
     "historique": [
       {
         "action": "valider",
@@ -161,15 +161,24 @@
         "par": "routine-reparation",
         "le": "2026-11-27T05:08:28.684Z",
         "note": "Sources rouvertes le 2026-11-27 : Wikipédia (crue de l'Arno, Opificio delle Pietre Dure, Crucifix de Cimabue), Library of Congress, Opera di Santa Croce, Il Post, The Art Newspaper. BNCF, cultura.gov.it et conservation-wiki inaccessibles : retirées des sources. Corrigé : 1,3 million d'objets (et non « plus d'un million de livres ») ; 6,7 m au lieu de cinq ou six ; submersion « plusieurs heures », tête sous la boue, date de 1288 retirées ; lyophilisation, Waters inventeur de la conservation par phases, abstraction chromatique, 30 pays retirés ; Waters limité à ce que dit la LOC ; séchoirs à tabac confirmés (Wikipédia) ; Baldini et Casazza, dix ans, 1976 confirmés par Wikipédia ; laboratoire fondé en 1932, fusion de 1975 reformulée ; titre adouci. Repère, carte, quiz et quiz supplémentaires réécrits sur les faits vérifiés."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T08:15:27.751Z",
+        "note": "Contrôle des sources : « Selon The Art Newspaper… travail essentiellement italien » absent des sources de la fiche et de Wikipédia ; porte le quiz principal."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-11-26",
+    "fait_le": "2026-11-27",
     "verdict": "a_revoir",
-    "empreinte": "5b0a984407495881",
+    "empreinte": "831afdae14c062c0",
     "notes": [
-      "BNCF rouverte : « almost one million books » (1,3 million d'objets à sauver), la fiche et le repère disent « plus d'un million ». MiC : le laboratoire de la Surintendance s'appelle « Laboratorio di restauro » (1932), pas « Gabinetto del Restauro ». Non retrouvés dans les sources : lyophilisation par Waters, séchoirs à tabac, « conservation par phases » (page LOC), submersion de plusieurs heures, 1976. conservation-wiki.com en 403. A reformuler ou resourcer."
+      "Confirmés (Wikipédia crue, Wikipédia Crucifix, OPD, LOC) : 6,7 m, 1,3 million d'objets, séchoirs à tabac, 144 personnes, méthode en neuf étapes, 70 à 100 livres par jour, Waters, conservation par phases, Cimabue (60 %, naphte, dix ans, 1976), laboratoire de 1932 et fusion de 1975.",
+      "Non soutenu : « Selon The Art Newspaper, l'essentiel du travail sur place est fait par des conservateurs et des volontaires italiens ; l'aide étrangère apporte surtout des fonds et du personnel d'appoint ». The Art Newspaper n'est dans aucune source de la fiche et la page Wikipédia dit seulement « Italian and foreign volunteers alike ». Cette affirmation porte aussi le quiz principal (explication et distracteur « volontaires étrangers »). À sourcer en rouvrant l'article, ou à retirer."
     ]
   },
   "controle_juridique": null,

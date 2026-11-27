@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les chiffres de cortège (hommes, chameaux) relèvent d'une rhétorique de l'émerveillement, non d'un inventaire, selon les historiens actuels, de même pour les conversions en dollars, anachroniques. La baisse du cours de l'or rapportée par Al-Umari reste la donnée la plus solide et la plus mesurable, même si l'historien Warren Schultz en relativise depuis l'ampleur, la resituant dans les fluctuations ordinaires du marché mamelouk plutôt que d'y voir un choc isolé ; aucune mosquée n'est mentionnée dans les sources sur ce séjour précis.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -94,11 +94,11 @@
       "explication": "Warren Schultz montre que ce mouvement de prix restait dans la fourchette normale des fluctuations entre or et argent en Égypte mamelouke, une perturbation parmi d'autres et non la preuve isolée et exceptionnelle qu'on en fait parfois."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-29T19:17:42.256Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T08:15:27.753Z",
     "historique": [
       {
         "action": "valider",
@@ -107,15 +107,24 @@
         "par": "routine-reparation",
         "le": "2026-09-29T19:17:42.256Z",
         "note": "Sources rouvertes (Britannica, en.wikipedia Mansa Musa). La réévaluation de l'historien Warren Schultz, signalée par le contrôle comme absente des sources, est en fait présente mot pour mot dans en.wikipedia/Mansa_Musa (déjà citée dans la fiche) : mouvement de prix d'Al-Umari resitué dans la fourchette normale des fluctuations or/argent en Égypte mamelouke, pas un choc isolé. Le déplacement du corps réécrit pour intégrer cette réserve (le passage de Musa a pesé sur les prix, sans à lui seul les 'ruiner'), quiz et note de source mis à jour en conséquence. Chiffres d'Al-Umari (25→22 dirhams, effet sur 12 ans) confirmés mot pour mot, inchangés."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T08:15:27.753Z",
+        "note": "Contrôle des sources : « sans marchander », 60 000 hommes, Al-Umari jamais rencontré non retrouvés ; quiz principal en tension avec Schultz."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-29",
+    "fait_le": "2026-11-27",
     "verdict": "a_revoir",
-    "empreinte": "4fc42b1cf6bfb47f",
+    "empreinte": "ccc4d118d558ebb3",
     "notes": [
-      "Les chiffres rapportés par Al-Umari (25 à 22 dirhams par mithqal, effet mesuré 12 ans plus tard) sont bien confirmés mot pour mot par les deux sources citées (Britannica, Wikipédia EN). Mais le déplacement central de la fiche — « ce n'est pas le nombre de chameaux qui prouve la richesse du Mali, c'est [la] capacité... à déranger durablement les prix » — passe sous silence une réévaluation savante que ni l'une ni l'autre source ne mentionne : l'historien Warren Schultz (spécialiste de l'histoire monétaire mamelouke, chapitre Cambridge History of Egypt), dans « Mansa Musa's Gold in Mamluk Cairo : A Reappraisal of a World Civilizations Anecdote », montre que le mouvement de prix décrit par Al-Umari reste dans la fourchette normale des fluctuations or/argent en Égypte mamelouke (ratio courant 20:1 à 25:1) et qu'il n'est qu'une parmi plusieurs perturbations du marché de l'époque, pas une preuve isolée et exceptionnelle. En l'état, la fiche présente comme solide et incontestable une lecture de la donnée chiffrée que l'historiographie récente nuance fortement — à réécrire pour intégrer cette réserve, ou à sourcer directement l'article de Schultz (via academia.edu, non ouvert pour vérification directe faute d'accès)."
+      "Confirmés (Wikipédia) : neuvième mansa, juillet à octobre 1324 (trois mois), Al-Umari 25 puis moins de 22 dirhams pendant au moins douze ans, Ibn Amir Hajib, Schultz (fluctuations normales), chiffres jugés rhétoriques, 12 000 esclaves, 80 chameaux (23 à 136 kg), or distribué aux pauvres.",
+      "Non retrouvé : « achète les marchandises au prix annoncé, sans marchander » ; « 60 000 hommes » ; « Al-Umari ne rencontre jamais Musa » (Wikipédia dit seulement qu'il écrit douze ans après). Britannica, source de ces chiffres, est inaccessible en direct. Le quiz principal présente la baisse du cours comme « la donnée la plus solide » selon « les historiens actuels », ce qui est en tension avec la relativisation de Schultz exposée dans le corps."
     ]
   },
   "controle_juridique": null,

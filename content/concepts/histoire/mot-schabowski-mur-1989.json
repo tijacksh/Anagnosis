@@ -58,7 +58,7 @@
     ],
     "bonne_reponse": 2,
     "explication": "Aucun ordre officiel n'existait pour ouvrir la frontière ce soir-là : c'est Harald Jäger, à Bornholmer Straße, qui choisit seul de laisser passer la foule plutôt que d'employer la force, pas un vote du Bundestag, pas une décision préparée du régime est-allemand, et l'URSS n'intervient pas.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -98,11 +98,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-29T10:11:56.255Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T08:15:27.753Z",
     "historique": [
       {
         "action": "valider",
@@ -111,15 +111,24 @@
         "par": "routine-relecture",
         "le": "2026-09-29T10:11:56.255Z",
         "note": "Sources rouvertes (NARA, Wikipédia EN Günter Schabowski) : citation exacte de Schabowski vérifiée mot pour mot en allemand (sofort, unverzüglich) et sa traduction ; incertitude sur le journaliste (Ehrman ou Brinkmann) confirmée ; décision de Harald Jäger à 23h30 au poste de Bornholmer Straße confirmée ; mauvaise interprétation du communiqué et débordement du poste confirmés par NARA. Rien à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T08:15:27.753Z",
+        "note": "Contrôle des sources : reprise ARD à 20 h et décision identique aux autres postes-frontières non sourcées."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-29",
-    "verdict": "ok",
-    "empreinte": "f603210f3ab0f95f",
+    "fait_le": "2026-11-27",
+    "verdict": "a_revoir",
+    "empreinte": "4e6e73bb36b9d4e4",
     "notes": [
-      "Sources rouvertes (NARA, Wikipédia EN Günter Schabowski) : confirment la mauvaise interprétation du communiqué est-allemand, le débordement du poste de Bornholmer Straße, la citation exacte de Schabowski (« sofort, unverzüglich »), l'incertitude sur le journaliste (Ehrman ou Brinkmann), et la décision de Harald Jäger à 23h30. Rien à corriger."
+      "Confirmés (Wikipédia Schabowski, NARA) : citation « sofort, unverzüglich », incertitude Ehrman ou Brinkmann, texte censé s'appliquer le lendemain, Jäger ouvre Bornholmer Straße à 23h30, aucun ordre d'employer la force.",
+      "Non soutenu : reprise « dès 20 heures par l'ARD sous le titre la RDA ouvre sa frontière » (aucune des deux sources) ; « aux autres postes-frontières, des officiers prennent la même décision, chacun seul, sans ordre » (rien dans les sources, qui ne citent que Jäger), affirmation reprise dans un quiz supplémentaire et dans le dernier paragraphe."
     ]
   },
   "controle_juridique": null,

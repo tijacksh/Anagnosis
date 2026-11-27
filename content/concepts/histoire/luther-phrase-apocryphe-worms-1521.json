@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Les comptes rendus du 18 avril 1521 donnent une réponse plus sobre, centrée sur la conscience et l'Écriture ; la formule reste attribuée à Luther, mais rien n'indique un mensonge, une diète fictive, ou une prise de parole uniquement écrite.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -104,11 +104,11 @@
       "statut": "valide"
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-09-29T10:11:54.229Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T08:15:27.753Z",
     "historique": [
       {
         "action": "valider",
@@ -117,15 +117,24 @@
         "par": "routine-relecture",
         "le": "2026-09-29T10:11:54.229Z",
         "note": "Sources rouvertes (Britannica, Wikipédia EN Diet of Worms, Wikipédia EN Here I Stand) : dates 17-18 avril 1521 confirmées par les deux premières ; citation exacte du refus de Luther vérifiée mot pour mot (fondé sur l'Écriture et la conscience) ; les deux sources qualifient explicitement 'Here I stand' de récit traditionnel/apocryphe, jamais consigné dans les comptes rendus du jour ; édit de Worms du 25 mai 1521 confirmé ; titre exact et année (1950) de la biographie de Bainton confirmés. Rien à corriger."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T08:15:27.753Z",
+        "note": "Contrôle des sources : Britannica inaccessible, origine imprimée de la formule et consensus des historiens non resourcés (Wikipédia : « selon la tradition »)."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-29",
-    "verdict": "ok",
-    "empreinte": "a5d31e1a5c4c44ce",
+    "fait_le": "2026-11-27",
+    "verdict": "a_revoir",
+    "empreinte": "0b2f71fe8f1ef6ac",
     "notes": [
-      "Sources rouvertes (Britannica, Wikipédia EN Diet of Worms, Wikipédia EN Here I Stand) : confirment les dates 17-18 avril 1521, le texte documenté du refus de Luther (fondé sur l'Écriture et la conscience), la citation exacte reproduite dans la fiche, la qualification explicite de « Here I stand » comme récit traditionnel mais apocryphe, l'édit de Worms du 25 mai 1521, et le titre de la biographie de Bainton (1950). Rien à corriger."
+      "Confirmés : texte de la conclusion (Wikipédia), « according to tradition » pour Here I stand, édit du 25 mai 1521, Bainton 1950.",
+      "Non vérifié : Britannica est inaccessible en direct (page refusée, pas de contournement) ; la fiche lui attribue le caractère apocryphe et l'apparition de la formule « dans la plus ancienne version imprimée du discours ». Wikipédia ne dit que « selon la tradition ». « La plupart des historiens jugent probable… » et l'origine imprimée de la formule sont donc à resourcer (source rouvrable) ou à adoucir."
     ]
   },
   "controle_juridique": null,
