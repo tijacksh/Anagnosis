@@ -57,7 +57,7 @@
     ],
     "bonne_reponse": 3,
     "explication": "Colvin était mineure et est devenue enceinte hors mariage durant l'été 1955 ; les dirigeants ont préféré Rosa Parks, secrétaire de la NAACP mariée et employée, jugée moins exposée à une campagne de presse hostile : les trois autres propositions sont inventées.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -83,11 +83,11 @@
       "explication": "Claudette Colvin restait assise près d'une femme enceinte, Ruth Hamilton, quand les policiers Thomas Ward et Paul Headley l'ont fait sortir du bus de force."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-relecture",
-    "decide_le": "2026-10-03T22:11:41.427Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T03:16:26.420Z",
     "historique": [
       {
         "action": "valider",
@@ -96,15 +96,24 @@
         "par": "routine-relecture",
         "le": "2026-10-03T22:11:41.427Z",
         "note": "Sources Wikipédia EN 'Claudette Colvin' et 'Browder v. Gayle' rouvertes à nouveau (second passage indépendant). Toutes les affirmations confirmées mot pour mot : date, âge, chauffeur, policiers, menottage et coup, passagère enceinte Ruth Hamilton, charges et amende, raisons du choix de Rosa Parks sur Colvin, quatre plaignantes de Browder v. Gayle, dates du dépôt, du jugement 2-1, de la confirmation Cour suprême et de l'application. Carte, repère et quiz conformes. Aucune correction."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T03:16:26.420Z",
+        "note": "Contrôle des sources : Sources rouvertes (Wikipédia Colvin, Browder v. Gayle) : date, chauffeur, policiers, charges, amende de 10 dollars, quatre plaignantes, dates 1er février / 5 juin / 13 novembre / 20 décembre 1956 confirmés. Non soutenus par les deux sources : « elle l'apprend au cours de l'été 1955 » ; « Parks mariée » ; « le mouvement savait dès mars 1955 que le geste pouvait fonder une action en justice, il ne l'a pas fait tout de suite » ; « décision de communication prise en toute connaissance de cause ». Le procès de Parks « reste bloqué en appel » est présenté comme un fait alors que Browder v. Gayle dit seulement que Durr craignait que l'appel s'enlise devant les tribunaux de l'Alabama. Wikipédia précise aussi qu'en appel (6 mai 1955) deux charges sont abandonnées : à mentionner ou à ne pas contredire. Chercher une source qui porte ces points ou les retirer."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-30",
-    "verdict": "ok",
-    "empreinte": "0186fe1064908e23",
+    "fait_le": "2026-11-27",
+    "verdict": "a_revoir",
+    "empreinte": "d6ca7d4ca9833392",
     "notes": [
-      "Sources Wikipédia EN 'Claudette Colvin' et 'Browder v. Gayle' rouvertes (pages correctes, pas de redirection). Vérifié et conforme : date 2 mars 1955, âge 15 ans, chauffeur Robert W. Cleere, policiers Thomas J. Ward et Paul Headley, menottage et coup (source dit 'kicked'), passagère enceinte Ruth Hamilton, trois charges et amende de 10$, raisons du choix de Rosa Parks (âge, statut marital, grossesse hors mariage, image publique face à la presse). Browder v. Gayle : dépôt 1er février 1956, quatre plaignantes finales exactes (Browder, McDonald, Smith, Colvin — Jeanetta Reese bien exclue, elle s'était retirée), jugement 5 juin 1956 (2 contre 1), confirmation Cour suprême 13 novembre 1956, application 20 décembre 1956, nom de Colvin sur la décision. Quiz : bonne réponse (index 3) bien soutenue par les sources, les trois distracteurs sont clairement faux. Carte et repère exacts. Aucune correction nécessaire."
+      "Sources rouvertes (Wikipédia Colvin, Browder v. Gayle) : date, chauffeur, policiers, charges, amende de 10 dollars, quatre plaignantes, dates 1er février / 5 juin / 13 novembre / 20 décembre 1956 confirmés.",
+      "Non soutenus par les deux sources : « elle l'apprend au cours de l'été 1955 » ; « Parks mariée » ; « le mouvement savait dès mars 1955 que le geste pouvait fonder une action en justice, il ne l'a pas fait tout de suite » ; « décision de communication prise en toute connaissance de cause ». Le procès de Parks « reste bloqué en appel » est présenté comme un fait alors que Browder v. Gayle dit seulement que Durr craignait que l'appel s'enlise devant les tribunaux de l'Alabama. Wikipédia précise aussi qu'en appel (6 mai 1955) deux charges sont abandonnées : à mentionner ou à ne pas contredire. Chercher une source qui porte ces points ou les retirer."
     ]
   },
   "controle_juridique": null,

@@ -64,7 +64,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Young avait repéré que des cartouches de souverains étrangers, comme Ptolémée, notaient des sons, mais restait persuadé que les noms égyptiens d'origine s'écrivaient uniquement de façon symbolique : ce que Champollion a réfuté avec Ramsès et Thoutmôsis, sans rapport avec la pierre de Rosette, les cartouches ou un travail solitaire.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -101,11 +101,11 @@
       "explication": "C'est le jour où Champollion présente sa méthode à l'Académie, dans la Lettre à M. Dacier, un texte qui ne paraîtra imprimé qu'à la fin du mois d'octobre 1822."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-28T19:11:10.328Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T03:16:26.562Z",
     "historique": [
       {
         "action": "retoucher",
@@ -122,15 +122,24 @@
         "par": "routine-reparation",
         "le": "2026-09-28T19:11:10.328Z",
         "note": "Sources rouvertes : Smithsonian Magazine (confirme 14 sept. 1822, citation, pierre de Rosette, rivalité avec Young qui refusait le phonétique pour les noms égyptiens propres, et surtout ~1400 ans d'illisibilité — dernière inscription hiéroglyphique connue vers 400 apr. J.-C.), fr.wikipedia.org/Jean-François_Champollion (confirme la citation attribuée au neveu Aimé-Louis Champollion-Figeac et la date du 27 septembre pour la Lettre à Dacier), archive.org/details/bnf-bpt6k1040333p (fac-similé de la Lettre à M. Dacier, titre et métadonnées vérifiés). Gallica renvoie une erreur bot (403/500) au fetch automatisé mais son contenu est confirmé par le mirroir archive.org identique. Correction : « seize siècles » (1600 ans, incohérent) remplacé par « quatorze siècles » dans le corps ET dans la carte partageable, pour rejoindre les « plus de mille quatre cents ans » du début, chiffre confirmé par la source Smithsonian. Quiz revérifié : bonne réponse (Young refusait le phonétique pour les noms égyptiens propres) confirmée par la source, distracteurs faux."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T03:16:26.562Z",
+        "note": "Contrôle des sources : Sources rouvertes : Wikipédia fr Champollion, Smithsonian (archive), archive.org, Gallica (notice, page bloquée en direct). Confirmés : 14 septembre 1822, « Je tiens mon affaire ! », cinq jours (légende), Rosette 196 av. J.-C. et 1799, vingt ans, 1 400 ans, Abou Simbel, Rê-M-SS, Thoutmôsis, lettre à Dacier du 27 septembre, neveu Aimé-Louis. Non soutenus par les sources ouvertes : lettre « lue » devant l'Académie, « salle comble », « fait sensation » (Wikipédia dit « écrit ») ; publication « fin octobre chez Firmin-Didot » ; « base d'un obélisque rapporté en Angleterre » (Wikipédia : base d'un obélisque, sans l'Angleterre) ; opinion de Young sur les seuls noms étrangers (Smithsonian : phonétique « en de rares circonstances »). La note de la source Gallica affirme la lecture du 27 septembre, que la notice ne montre pas."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-28",
+    "fait_le": "2026-11-27",
     "verdict": "a_revoir",
-    "empreinte": "7de165066186784c",
+    "empreinte": "447b7caff489b5d4",
     "notes": [
-      "Incohérence interne sur la durée d'illisibilité des hiéroglyphes : « plus de mille quatre cents ans » (cohérent, dernière inscription hiéroglyphique connue le 24 août 394) puis « seize siècles » (1600 ans, faux) pour la même durée dans la conclusion. Statut passé à en_retouche."
+      "Sources rouvertes : Wikipédia fr Champollion, Smithsonian (archive), archive.org, Gallica (notice, page bloquée en direct). Confirmés : 14 septembre 1822, « Je tiens mon affaire ! », cinq jours (légende), Rosette 196 av. J.-C. et 1799, vingt ans, 1 400 ans, Abou Simbel, Rê-M-SS, Thoutmôsis, lettre à Dacier du 27 septembre, neveu Aimé-Louis.",
+      "Non soutenus par les sources ouvertes : lettre « lue » devant l'Académie, « salle comble », « fait sensation » (Wikipédia dit « écrit ») ; publication « fin octobre chez Firmin-Didot » ; « base d'un obélisque rapporté en Angleterre » (Wikipédia : base d'un obélisque, sans l'Angleterre) ; opinion de Young sur les seuls noms étrangers (Smithsonian : phonétique « en de rares circonstances »). La note de la source Gallica affirme la lecture du 27 septembre, que la notice ne montre pas."
     ]
   },
   "controle_juridique": null,

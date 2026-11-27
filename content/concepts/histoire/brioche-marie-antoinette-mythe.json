@@ -67,7 +67,7 @@
     ],
     "bonne_reponse": 1,
     "explication": "Rousseau écrit les six premiers livres des Confessions entre 1765 et 1769, quand Marie-Antoinette, née en 1755, vit encore en Autriche : elle n'arrive en France qu'en 1770. Rien n'indique une version allemande, une aversion pour la brioche ou une origine parlementaire : l'association à la reine apparaît dans un article de presse de 1841, avec doute, et son auteur la remettra lui-même en cause en 1843.",
-    "statut": "valide"
+    "statut": "en_retouche"
   },
   "quiz_supplementaire": [
     {
@@ -104,11 +104,11 @@
       "explication": "Rousseau écrit que faute de pouvoir s'offrir le vin dont il rêvait, il s'est rappelé le mot de la grande princesse sur la brioche et en a acheté."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-09-29T19:17:20.388Z",
+    "decide_par": "routine-controler",
+    "decide_le": "2026-11-27T03:16:26.489Z",
     "historique": [
       {
         "action": "valider",
@@ -117,16 +117,24 @@
         "par": "routine-reparation",
         "le": "2026-09-29T19:17:20.388Z",
         "note": "Sources rouvertes (Wikisource Confessions Livre VI, fr.wikipedia « Qu'ils mangent de la brioche ! », en.wikipedia « Let them eat cake »). Corrigé : le texte de Karr d'avril 1843 doute de l'attribution à Marie-Antoinette (il vient d'y trouver un livre de 1760 sur une duchesse de Toscane) au lieu de l'affirmer sans réserve comme l'écrivait la fiche — c'est le contraire ; l'écart chronologique de l'accroche et de la carte corrigé de neuf à cinq ans (1770-1765), conforme au corps et aux sources. Reste du texte, citation, repère, carte et quiz vérifiés mot à mot, inchangés."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controler",
+        "le": "2026-11-27T03:16:26.489Z",
+        "note": "Contrôle des sources : Sources rouvertes (Wikisource Livre VI, Wikipédia fr, Wikipédia en) : citation verbatim confirmée ; Karr 1841 / 1843, livre de 1760 (duchesse de Toscane), Boigne / Madame Victoire, publication 1782, naissance 1755, arrivée en 1770 confirmés. À revoir : (1) « à Môtiers » absent de toutes les sources ; (2) « près de cinquante ans plus tard » (Karr 1841) est faux par rapport à Rousseau (environ 76 ans après 1765) : la durée juste est près d'un demi-siècle après la mort de la reine ; (3) Wikipédia en donne 1765 pour la rédaction des six premiers livres mais aussi 1769 (« finished thirteen years prior in 1769 ») : l'accroche et la carte « cinq ans avant l'arrivée » reposent sur 1765 seul ; (4) « mai 1770 » et « Vienne » non portés par les sources ouvertes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-09-29",
+    "fait_le": "2026-11-27",
     "verdict": "a_revoir",
-    "empreinte": "f5a3e8862585c633",
+    "empreinte": "4a33e1b5f5b5f500",
     "notes": [
-      "Karr, avril 1843 (Les Guêpes) : la fiche affirme qu'il « impute sans réserve » la phrase à Marie-Antoinette. Faux d'après le texte même, rouvert sur fr.wikipedia.org/wiki/Qu'ils_mangent_de_la_brioche_! : dans ce texte d'avril 1843, Karr rappelle le bruit qui courait contre « la malheureuse reine », puis rapporte sa découverte d'un livre de 1760 attribuant le même mot à une duchesse de Toscane, et conclut explicitement que « le mot n'a pas été dit par Marie-Antoinette, mais retrouvé et mis en circulation contre elle » — c'est l'inverse d'une imputation sans réserve. À réécrire : Karr est bien le premier à rapporter la phrase (1841, avec prudence), mais son texte de 1843 est justement celui où il doute de l'attribution, pas celui où il l'affirme.",
-      "Accroche : « neuf ans avant l'arrivée de Marie-Antoinette en France » (1770-9=1761) ne colle pas avec le corps (Rousseau écrit le Livre VI vers 1765, confirmé par recherche indépendante : 1765-1767) ni avec aucune source de la fiche — l'écart réel est d'environ 5 ans, pas 9. À corriger ou sourcer."
+      "Sources rouvertes (Wikisource Livre VI, Wikipédia fr, Wikipédia en) : citation verbatim confirmée ; Karr 1841 / 1843, livre de 1760 (duchesse de Toscane), Boigne / Madame Victoire, publication 1782, naissance 1755, arrivée en 1770 confirmés.",
+      "À revoir : (1) « à Môtiers » absent de toutes les sources ; (2) « près de cinquante ans plus tard » (Karr 1841) est faux par rapport à Rousseau (environ 76 ans après 1765) : la durée juste est près d'un demi-siècle après la mort de la reine ; (3) Wikipédia en donne 1765 pour la rédaction des six premiers livres mais aussi 1769 (« finished thirteen years prior in 1769 ») : l'accroche et la carte « cinq ans avant l'arrivée » reposent sur 1765 seul ; (4) « mai 1770 » et « Vienne » non portés par les sources ouvertes."
     ]
   },
   "controle_juridique": null,
