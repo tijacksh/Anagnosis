@@ -166,6 +166,10 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Histoire | Henry Dunant, fondateur de la Croix-Rouge (1863) ruiné en 1867, redécouvert par hasard à Heiden en 1895 | fait | routine-production | 2026-10-01 |
 | Histoire | La révolte Nika (532) à Constantinople et la reconstruction de Sainte-Sophie en moins de six ans | fait | routine-production | 2026-10-01 |
 | Histoire | Thermopyles (480 av. J.-C.) : la vraie coalition grecque derrière le chiffre de « trois cents » | fait | routine-production | 2026-10-01 |
+| Histoire | Hastings (1066) : la flèche dans l'œil de Harold, une image reconstruite par les restaurations de la tapisserie de Bayeux (gravures de 1729-1730) et les textes tardifs | fait | routine-production | 2026-11-27 |
+| Histoire | Le débat de Valladolid (1550-1551) entre Las Casas et Sepúlveda sur l'humanité des Indiens, resté sans verdict officiel | fait | routine-production | 2026-11-27 |
+| Histoire | La manie dansante de Strasbourg (été 1518) : Frau Troffea, la réponse du conseil municipal, et le débat Waller contre l'ergotisme (The Lancet, 2009) | fait | routine-production | 2026-11-27 |
+| Histoire | La guerre anglo-zanzibarite du 27 août 1896, la plus courte de l'histoire (38 à 45 minutes), et ce qu'elle révèle sur le protectorat de Zanzibar | fait | routine-production | 2026-11-27 |
 | Religions et mythologies | Les terreurs de l'an mille, un mythe forgé à partir d'une seule plume (Raoul Glaber, puis Michelet 1833) | fait | routine-production | 2026-10-04 |
 | Religions et mythologies | La tablette du déluge (George Smith, 1872) et la place de la Genèse dans la tradition mésopotamienne | fait | routine-production | 2026-10-04 |
 | Religions et mythologies | Le concile de Nicée (325) : le vote sur la nature du Christ, et le chiffre symbolique de 318 évêques | fait | routine-production | 2026-10-04 |
