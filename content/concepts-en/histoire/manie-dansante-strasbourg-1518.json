@@ -2,7 +2,7 @@
   "id": "hist-manie-dansante-strasbourg-1518",
   "slug": "manie-dansante-strasbourg-1518",
   "langue": "en",
-  "empreinte_fr": "cbd26be753836a45",
+  "empreinte_fr": "96f2e460a6629e9d",
   "traduit_le": "2026-11-27",
   "moteur": "claude-code",
   "relu": false,
@@ -40,5 +40,39 @@
     "explication": "Waller finds it unlikely that people poisoned by ergot could have danced for days on end, or all reacted in the same way, and notes that dancing epidemics cluster along the Rhine and the Moselle, regions with different climates and crops.",
     "statut": "valide"
   },
-  "quiz_supplementaire": []
+  "quiz_supplementaire": [
+    {
+      "question": "What remedy do Strasbourg's physicians prescribe first for the dancers, in 1518?",
+      "choix": [
+        "Complete rest and a fast of several days",
+        "More dancing, to cool blood judged too hot",
+        "Ice baths followed by repeated bloodletting",
+        "An immediate pilgrimage to the shrine of Saint Vitus"
+      ],
+      "bonne_reponse": 1,
+      "explication": "The physicians put forward the idea of overheated blood, which continuous dancing followed by rest would cool, and prescribe dancing it out. The pilgrimage to Saint Vitus only comes after this remedy fails and public dancing is banned; neither fasting nor bloodletting is mentioned."
+    },
+    {
+      "question": "According to accounts from the time, what religious treatment is applied to the dancers once the medical approach is abandoned?",
+      "choix": [
+        "Red shoes sprinkled with holy water, painted crosses, and incense",
+        "A group bath in the Rhine followed by a midnight mass",
+        "The public reading of an edict accusing the dancers of witchcraft",
+        "A forty-day fast imposed by the Bishop of Strasbourg"
+      ],
+      "bonne_reponse": 0,
+      "explication": "According to accounts from the time, the dancers taken to the shrine of Saint Vitus wore red shoes sprinkled with holy water, had crosses painted on them, and were surrounded by incense and Latin incantations. The entry mentions no bath in the Rhine, no witchcraft accusation, and no fast imposed by a bishop."
+    },
+    {
+      "question": "What alternative explanation does John Waller propose instead of ergotism for the 1518 dancing plague?",
+      "choix": [
+        "Collective poisoning from the city's contaminated water",
+        "A viral epidemic spread by rats from the port",
+        "A crisis of collective stress linked to famine, disease, and belief in Saint Vitus",
+        "A scheme organized by the city council to distract from a famine"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Waller leans toward a crisis of collective stress: the starvation and disease afflicting Alsace, combined with the belief that Saint Vitus punished sinners by forcing them to dance, would have plunged part of the population into a shared trance. The entry mentions no contaminated water, no viral epidemic, and no scheme by the council."
+    }
+  ]
 }
