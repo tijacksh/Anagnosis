@@ -82,7 +82,7 @@
     ],
     "bonne_reponse": 0,
     "explication": "Young avait repéré que des cartouches de souverains étrangers, comme Ptolémée, notaient des sons, mais restait persuadé que les noms égyptiens d'origine s'écrivaient uniquement de façon symbolique : ce que Champollion a réfuté avec Ramsès et Thoutmôsis, sans rapport avec la pierre de Rosette, les cartouches ou un travail solitaire.",
-    "statut": "valide"
+    "statut": "rejete"
   },
   "quiz_supplementaire": [
     {
@@ -119,11 +119,11 @@
       "explication": "C'est le jour où Champollion présente sa méthode à l'Académie, dans la Lettre à M. Dacier, un texte qui ne paraîtra imprimé qu'à la fin du mois d'octobre 1822."
     }
   ],
-  "statut": "en_retouche",
+  "statut": "rejete",
   "date_publication_prevue": null,
   "validation": {
     "decide_par": "routine-reparation",
-    "decide_le": "2026-11-28T07:16:26.371Z",
+    "decide_le": "2026-11-28T11:00:47.985Z",
     "historique": [
       {
         "action": "retoucher",
@@ -156,6 +156,14 @@
         "par": "routine-reparation",
         "le": "2026-11-28T07:16:26.371Z",
         "note": "Sources rouvertes : Wikipédia fr Champollion, Wikipédia fr « Lettre à M. Dacier » (article dédié, non consulté au contrôle précédent), Smithsonian Magazine, Wikipédia en « Philae obelisk ». Confirmé : la lettre du 27 septembre 1822 a bien été exposée devant une salle pleine qui a fait sensation (Wikipédia, Lettre à M. Dacier), publication fin octobre 1822 chez Firmin-Didot (même source) ; Young jugeait l'écriture phonétique réservée aux noms étrangers, excluant un nom égyptien comme Ramsès (citation exacte du Smithsonian) ; l'obélisque de Philae, portant un cartouche de Cléopâtre, a bien été rapporté en Angleterre par William Bankes et a servi à Champollion (Wikipédia en, Philae obelisk). Corrigé : « lue » remplacé par « exposée » dans la note de la source Gallica ; précisé le rôle de Bankes et le cartouche de Cléopâtre sur l'obélisque, et retiré « aussitôt » (chronologie non prouvée). Deux sources ajoutées. Quiz revérifié, bonne réponse et distracteurs confirmés faux."
+      },
+      {
+        "action": "rejeter",
+        "de": "en_retouche",
+        "vers": "rejete",
+        "par": "routine-reparation",
+        "le": "2026-11-28T11:00:47.985Z",
+        "note": "Déjà réparée deux fois, revenue une troisième : rejet sans nouvelle réparation. Le contrôle signale « cinq jours plus tard » non soutenu (Wikipédia EN : rédaction du 14 au 22 septembre), cartouche de Cléopâtre sur le fût et non la base de l'obélisque, « quatorze siècles » non vérifié, sources Gallica et Smithsonian inaccessibles."
       }
     ]
   },
