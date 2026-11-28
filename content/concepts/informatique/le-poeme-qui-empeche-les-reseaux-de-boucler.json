@@ -124,11 +124,11 @@
       "explication": "Le poème, publié en 1985 dans l'article scientifique original, est repris dix-huit ans plus tard dans la description du contexte technique du brevet américain n°7 339 900, déposé en 2003."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "routine-reparation",
-    "decide_le": "2026-08-08T19:18:00.333Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-28T12:15:01.000Z",
     "historique": [
       {
         "action": "valider",
@@ -137,15 +137,23 @@
         "par": "routine-reparation",
         "le": "2026-08-08T19:18:00.333Z",
         "note": "Fiche entière revérifiée à partir des notes du contrôle et des sources déjà rouvertes (PDF original de l'article ACM SIGCOMM CCR 1985 vol.15 n°4 p.44-53, invent.org, siliconvalleywatcher.com interview du 21/04/2011) : citation, sources, carte et quiz conformes. Point signalé corrigé : la phrase affirmant que l'article de 1985 'en fait probablement le seul brevet logiciel avec une œuvre en vers' conflait l'article scientifique avec un brevet distinct — vérifié en ouvrant directement le brevet américain US7339900B2 sur Google Patents (déposé le 26/09/2003 par Radia J. Perlman/Sun Microsystems, accordé en 2008) : le poème Algorhyme y figure bien, mais dans la description du contexte technique de ce brevet de 2003, pas dans l'article de 1985. Texte reformulé pour distinguer les deux (poème publié en 1985, repris dans le brevet de 2003) et source du brevet ajoutée à sources[]. La superlative 'probablement le seul brevet logiciel avec un poème', trouvée uniquement dans un blog non citable comme preuve (netguru/Hidden Heroes, assertion éditoriale non sourcée de son auteur), a été retirée faute de source vérifiable soutenant l'exclusivité."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-28T12:15:01.000Z",
+        "note": "Contrôle du 2026-11-28 : voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-08-08",
+    "fait_le": "2026-11-28",
     "verdict": "a_revoir",
-    "empreinte": "c5f1ba42e801bf87",
+    "empreinte": "c888ce33bcda3ccc",
     "notes": [
-      "Sources rouvertes : le PDF original de l'article (people.cs.umass.edu, p.44, ACM SIGCOMM CCR vol 15 n°4, 1985) confirme mot pour mot le poème « Algorhyme » cité en citation.texte, juste après l'abstract p.44 — pagination 44-53 confirmée par Crossref. invent.org (National Inventors Hall of Fame) confirme intronisation 2016, DEC 1980, diplômes MIT. siliconvalleywatcher.com confirme mot pour mot les citations de Perlman sur son refus du titre de « mère d'Internet » (interview du 21 avril 2011). PROBLÈME : la dernière phrase du corps affirme que la publication du poème dans l'article de 1985 'en fait probablement le seul brevet logiciel déposé accompagné d'une œuvre en vers'. Aucune des 3 sources de la fiche ne mentionne de brevet. Recherche complémentaire (hiddenheroes.netguru.com, lemelson.mit.edu, autres) : le fait 'probablement le seul brevet logiciel avec un poème' est réel, mais concerne un brevet DIFFÉRENT et POSTÉRIEUR — déposé en 2003 pour une amélioration du protocole, dans lequel Perlman a inséré en 'background description' le même poème écrit en 1985. La fiche conflate donc l'article scientifique de 1985 (où le poème est bien publié, ce point est exact) avec ce brevet de 2003 (non mentionné, non sourcé) en attribuant le statut de brevet à l'article. La carte (idee) dit correctement 'article scientifique' et n'a pas ce problème. À revoir : soit retirer la phrase sur le brevet, soit la reformuler pour distinguer clairement l'article de 1985 du brevet de 2003 avec une source dédiée. Reste (citation, sources, carte, quiz) vérifié conforme."
+      "Le poème Algorhyme compte 12 vers (6 distiques) dans le texte du brevet US7339900, pas dix-huit : corriger « dix-huit vers » (contenu et punch de la carte). Le temps de convergence « proportionnel au diamètre » n'est dans aucune source de la fiche. Le reste (poème, brevet 2003, 802.1D, citations 2011) est soutenu."
     ]
   },
   "meta": {

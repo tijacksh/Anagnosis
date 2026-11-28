@@ -105,11 +105,11 @@
       "explication": "Le théorème de Rice étend le résultat de Turing à toute propriété non triviale du comportement d'un programme, pas seulement l'arrêt, mais par exemple le fait de toujours calculer la bonne réponse. C'est cette généralisation, et non l'arrêt seul, qui explique par exemple pourquoi aucun antivirus ne peut détecter à coup sûr tous les programmes malveillants."
     }
   ],
-  "statut": "valide",
+  "statut": "en_retouche",
   "date_publication_prevue": null,
   "validation": {
-    "decide_par": "arnaud@louvigny.pro",
-    "decide_le": "2026-07-31T07:33:47.168Z",
+    "decide_par": "routine-controle",
+    "decide_le": "2026-11-28T12:15:01.000Z",
     "historique": [
       {
         "action": "valider",
@@ -118,15 +118,23 @@
         "par": "arnaud@louvigny.pro",
         "le": "2026-07-31T07:33:47.168Z",
         "note": "Validation en lot après contrôle des sources (verdict corrige)."
+      },
+      {
+        "action": "retoucher",
+        "de": "valide",
+        "vers": "en_retouche",
+        "par": "routine-controle",
+        "le": "2026-11-28T12:15:01.000Z",
+        "note": "Contrôle du 2026-11-28 : voir controle.notes."
       }
     ]
   },
   "controle": {
-    "fait_le": "2026-07-31",
-    "verdict": "ok",
-    "empreinte": "ffbd1ef3ba86932e",
+    "fait_le": "2026-11-28",
+    "verdict": "a_revoir",
+    "empreinte": "99f6ca8a8ceb1b4b",
     "notes": [
-      "Re-contrôle : seul quiz.statut avait changé (brouillon→valide lors de la validation en lot du 31/07), empreinte périmée pour cette seule raison administrative. Sondage : Stanford Encyclopedia of Philosophy reconfirme la preuve par l'absurde du problème de l'arrêt. Rien de plus à vérifier."
+      "Non soutenus par les deux sources de la fiche (OUP illisible en direct, SEP) : théorème de Rice, démonstration de Fred Cohen en 1987 « par réduction directe au problème de l'arrêt » (la preuve de Cohen est une diagonalisation propre aux virus), conséquence sur les antivirus, âge de 23 ans. À sourcer (Wikipédia Halting problem cite Rice ; Cohen 1987 à ouvrir) ou à retirer."
     ]
   },
   "meta": {
