@@ -1,0 +1,51 @@
+{
+  "id": "inf-web-nest-pas-internet-cern-1989",
+  "slug": "web-nest-pas-internet-cern-1989",
+  "langue": "en",
+  "empreinte_fr": "d866a262db6669ed",
+  "traduit_le": "2026-11-28",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "texte-officiel-anglais",
+      "note": "Déclaration officielle du CERN déjà rédigée en anglais ; recopiée mot pour mot, non retraduite."
+    }
+  ],
+  "titre": "The Web Tim Berners-Lee Invented Is Not the Internet",
+  "accroche": "The Internet is twenty years old when Tim Berners-Lee invents the Web at CERN, in 1989: a system of documents laid on a network he did not create.",
+  "contenu_vulgarise": "In March 1989, at CERN, near Geneva, a young English computer scientist named Tim Berners-Lee writes a note for his supervisor. In it, he proposes a system to link together the documents that thousands of physicists, spread across the world, constantly produce about the laboratory's workings. Nothing in this text speaks of inventing the Internet. The Internet already exists, and has for a long time.\n\n## A network, then a system laid on top of it\n\nThe network that will become the Internet is born with ARPANET, whose first link connects the University of California, Los Angeles, and the Stanford Research Institute on October 29, 1969. Through the 1970s, several networks of this kind multiply, before a common protocol, TCP/IP, unifies them in January 1983, when ARPANET itself switches over, on orders from the US Department of Defense. It is this network of networks, already twenty years old, that Tim Berners-Lee finds on arriving at CERN.\n\nWhat Berners-Lee invents in 1989, with Belgian engineer Robert Cailliau, who formalizes the project in November 1990, is not that network: it is a layer placed on top of it, a “hypertext project” he names “WorldWideWeb.” Documents, called pages, link to one another through links; a browser displays them; a server serves them. By the end of 1990, the first server and the first browser are already running at CERN.\n\n## A decision, not just an invention\n\nWhat makes the Web universal does not rest on this architecture alone. On April 30, 1993, CERN publishes a declaration signed by its directors of research and administration, Walter Hoogland and Helmut Weber: “CERN relinquishes all intellectual property rights to this code.” From then on, anyone can use, copy, modify, and redistribute the Web's software without owing anything to anyone.\n\nThe confusion between the two persists all the same, down to the way people speak of “connecting to the Internet” to mean, most often, opening a browser. But email, for instance, travels over the Internet without going through the Web, and already existed before it, as did file transfer and Usenet newsgroups. The Web is only one of the uses the Internet makes possible, the most visible one, not the network itself: it is a more recent occupant of it, by about twenty years, not its synonym.",
+  "citation": {
+    "texte": "CERN relinquishes all intellectual property rights to this code.",
+    "auteur": "CERN (declaration signed by Walter Hoogland and Helmut Weber)",
+    "source": "Declaration placing the World Wide Web software in the public domain, CERN, April 30, 1993",
+    "url": "https://home.cern/30-years-free-and-open-web/"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "The Internet already existed for twenty years when the Web was born at CERN",
+    "idee": "In 1989, Tim Berners-Lee invents at CERN a system of documents linked by links: the Web. The Internet, the network it runs on, has existed since 1969. In 1993, CERN relinquishes all its rights to the software, which makes it universal.",
+    "source_courte": "CERN, 1993"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "A short history of the Web (CERN)",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "note": "CERN's official timeline, from the 1989 proposal to the 1993 release of the code."
+    }
+  ],
+  "quiz": {
+    "question": "Why aren't the Web and the Internet the same thing?",
+    "choix": [
+      "Because CERN renamed the Internet the Web in its 1993 intellectual property declaration",
+      "Because the Internet has historically only served email, with the Web handling everything else",
+      "Because the Internet was invented after the Web, to replace its technical architecture",
+      "Because the Web is a system of linked documents, laid on a network that already existed twenty years before it"
+    ],
+    "bonne_reponse": 3,
+    "explication": "The Internet, the network, has existed since the 1969 ARPANET and unifies around TCP/IP in 1983. The Web, meanwhile, is a system of pages linked by links that Tim Berners-Lee invents at CERN in 1989, to run on that already old network; no renaming or reversal of the chronological order is involved.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": []
+}

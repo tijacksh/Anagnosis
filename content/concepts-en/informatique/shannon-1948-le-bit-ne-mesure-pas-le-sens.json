@@ -1,0 +1,51 @@
+{
+  "id": "inf-shannon-1948-le-bit-ne-mesure-pas-le-sens",
+  "slug": "shannon-1948-le-bit-ne-mesure-pas-le-sens",
+  "langue": "en",
+  "empreinte_fr": "061a3b2d5f5b6b6d",
+  "traduit_le": "2026-11-28",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation.texte",
+      "type": "citation-originale-anglaise",
+      "note": "Citation déjà en anglais dans l'article original de Shannon (1948) ; recopiée mot pour mot, non retraduite."
+    }
+  ],
+  "titre": "Shannon's Bit Knows Nothing of a Message's Meaning",
+  "accroche": "In 1948, Claude Shannon invents a unit to measure information: it ignores what the message says, counting only how unexpected it is.",
+  "contenu_vulgarise": "In 1948, at Bell Labs, an engineer wonders how to measure the amount of information carried by an electrical signal, whether it carries a voice, a telegram, or a string of digits. The question looks simple. It is not: until then, no one had a rigorous definition of what “informing” meant, only intuitions.\n\nClaude Shannon publishes that year, in two parts in the Bell System Technical Journal, “A Mathematical Theory of Communication.” The very first sentence states the problem without detour: reproducing at one point, either exactly or approximately, a message selected at another point. He builds on two earlier papers, by Harry Nyquist (1924) and Ralph Hartley (1928), already published in the same journal, which had shown that the logarithm was the right way to count a signal's possible choices.\n\n## Counting the unexpected, not the meaning\n\nShannon takes up that choice and draws a definition from it: the information of a message is measured by the reduction in uncertainty it brings, not by what it means. A highly probable, nearly certain event carries almost nothing when it occurs; an improbable one carries a great deal. For a sequence of equally likely binary choices, Shannon proposes calling the unit a “bit,” in base two, a word he credits, in his own paper, to J. W. Tukey: Tukey had proposed it as a shorthand for “binary digit” in an internal Bell Labs memo dated January 9, 1947.\n\nThis definition makes it possible to calculate precisely how many bits any source carries: a letter of the alphabet, a telephone signal, a strand of DNA, decades later. It also yields a theoretical limit, the channel's capacity, beyond which no reliable transmission is possible, whatever code is used.\n\n## Meaning has nothing to do with it\n\nThe consequence surprises almost everyone the first time they meet it: in this theory, a message's meaning is beside the point. Shannon says so himself, right in his paper's introduction: “These semantic aspects of communication are irrelevant to the engineering problem.” A nonsensical sentence, like a string of randomly drawn letters, can therefore carry more bits than a meaningful one, if it is less predictable. Conversely, a message one already knows in full, the result of a match one has already watched, the answer to a question one is certain of, carries zero bits of information in Shannon's sense, even if it remains, for whoever receives it, the most important news of their life.\n\nIt is precisely this detachment from meaning that made Shannon's theory universal. It applies just as well to a telephone cable as to a radio channel or, later, to a strand of DNA, because it never asks what the message means, only how many possibilities it rules out.",
+  "citation": {
+    "texte": "The fundamental problem of communication is that of reproducing at one point, either exactly or approximately, a message selected at another point.",
+    "auteur": "Claude Shannon",
+    "source": "A Mathematical Theory of Communication, Bell System Technical Journal, vol. 27, 1948",
+    "url": "https://archive.org/details/bstj27-3-379"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Shannon defined information without ever mentioning meaning",
+    "idee": "In 1948, Claude Shannon invents the bit to measure information: not what a message means, but how much uncertainty it removes. A message you already knew carries zero bits, even if it changes your life.",
+    "source_courte": "C. Shannon, Bell System Technical Journal, 1948"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "A Mathematical Theory of Communication (context and influence)",
+      "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
+      "note": "Publication context of the paper and its place in the birth of information theory."
+    }
+  ],
+  "quiz": {
+    "question": "Why does a fully predictable message carry zero bits of information, in Shannon's theory?",
+    "choix": [
+      "Because it is always too short to be coded in binary",
+      "Because Shannon measured information in the number of useful words",
+      "Because it removes no uncertainty: it was already known in advance",
+      "Because Shannon reserved the word bit for messages judged false"
+    ],
+    "bonne_reponse": 2,
+    "explication": "In Shannon's theory, information measures the reduction in uncertainty a message brings, not its meaning or length. A message already known removes none: it is worth zero bits, even if it changes a life, while a nonsensical but unpredictable message can be worth more.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": []
+}

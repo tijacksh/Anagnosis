@@ -70,7 +70,7 @@ Cinéma, Musique, Architecture, Preuve et erreur judiciaire.
 | Sciences politiques | L'origine du mot « gerrymander » (Massachusetts, 1812) | fait | routine-production | 2026-10-06 |
 | Linguistique | L'hypothèse Sapir-Whorf et le mythe du vocabulaire inuit de la neige : déjà traité sous `content/concepts/linguistique/hypothese-sapir-whorf.json` et `content/concepts/linguistique/mythe-des-mots-inuits-pour-la-neige.json` | fait | routine-production | 2026-11-19 |
 | Histoire de l'art | Le scandale du Salon des Refusés (1863) et le *Déjeuner sur l'herbe* de Manet | fait | routine-production | 2026-08-24 |
-| Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » | proposé | Orkidea | 2026-08-28 |
+| Informatique | La mite retrouvée dans le relais du Harvard Mark II (1947), origine du mot « bug » : déjà traité sous `content/concepts/informatique/grace-hopper-et-la-mite-de-1947.json` | fait | routine-production-arnaud | 2026-11-28 |
 | Musique | La normalisation du « la » à 440 Hz (conférence de Londres, 1939 ; norme ISO 16, 1955) | fait | routine-production | 2026-09-20 |
 | Histoire de l'art | Le vol du musée Isabella Stewart Gardner (1990), jamais élucidé | fait | routine-production | 2026-09-19 |
 | Propriété intellectuelle et IA | Diamond v. Chakrabarty (1980), la bactérie modifiée jugée brevetable par la Cour suprême | fait | routine-production | 2026-09-23 |
@@ -668,3 +668,7 @@ peut rouvrir directement le texte du décret.)*
 | Histoire de l'art | La Vénus de Milo (découverte à Milos, 1820) et le socle inscrit, retrouvé puis disparu, qui la datait de l'époque hellénistique plutôt que classique (Smithsonian Magazine, « Base Deception », Curtis, 2003 ; Furtwängler, 1893) | fait | routine-production | 2026-11-27 |
 | Histoire de l'art | L'Armory Show de 1913 et le scandale du *Nu descendant un escalier n° 2* de Duchamp à New York, qui lance sa carrière américaine | fait | routine-production | 2026-11-27 |
 | Histoire de l'art | L'outremer tiré du lapis-lazuli afghan, plus cher que l'or au dix-septième siècle, et son rôle dans les contrats de commande et le bleu du manteau de la Vierge (étude aux rayons X, Rijksmuseum/UvA/VU/ESRF, *Science Advances*, 2020) | fait | routine-production | 2026-11-27 |
+| Informatique | Shannon, « A Mathematical Theory of Communication » (Bell System Technical Journal, 1948) : le bit mesure la réduction d'incertitude, pas le sens du message | fait | routine-production-arnaud | 2026-11-28 |
+| Informatique | La « Mother of All Demos » de Douglas Engelbart (9 décembre 1968, Fall Joint Computer Conference) : souris, hypertexte, traitement de texte et visioconférence vingt ans avant leur diffusion, et un laboratoire qui perd son financement malgré l'accueil | fait | routine-production-arnaud | 2026-11-28 |
+| Informatique | Le Web n'est pas Internet : la proposition de Tim Berners-Lee au CERN en 1989, posée sur un réseau déjà vieux de vingt ans, et la déclaration de 1993 qui en fait don à tous | fait | routine-production-arnaud | 2026-11-28 |
+| Informatique | Le premier spam de l'histoire (Gary Thuerk, DEC, 3 mai 1978) : une liste d'adresses ARPANET tapée à la main, faute d'outil pour en envoyer une à plusieurs | fait | routine-production-arnaud | 2026-11-28 |

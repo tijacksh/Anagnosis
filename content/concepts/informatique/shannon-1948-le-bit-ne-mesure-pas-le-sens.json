@@ -1,0 +1,83 @@
+{
+  "id": "inf-shannon-1948-le-bit-ne-mesure-pas-le-sens",
+  "slug": "shannon-1948-le-bit-ne-mesure-pas-le-sens",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 3,
+  "titre": "Le bit de Shannon ne sait rien du sens d'un message",
+  "accroche": "En 1948, Claude Shannon invente une unité pour mesurer l'information : elle ignore ce que dit le message, seule compte sa part d'imprévu.",
+  "contenu_vulgarise": "En 1948, aux Bell Labs, un ingénieur se demande comment mesurer la quantité d'information que transporte un signal électrique, qu'il porte une voix, un télégramme ou une suite de chiffres. La question paraît simple. Elle ne l'est pas : jusque-là, personne n'avait de définition rigoureuse de ce qu'« informer » voulait dire, seulement des intuitions.\n\nClaude Shannon publie cette année-là, en deux parties dans le Bell System Technical Journal, « A Mathematical Theory of Communication ». La toute première phrase pose le problème sans détour : reproduire en un point, exactement ou approximativement, un message choisi en un autre point. Il s'appuie sur deux articles plus anciens, ceux de Harry Nyquist (1924) et Ralph Hartley (1928), déjà publiés dans la même revue, qui avaient montré que le logarithme était la bonne façon de compter les choix possibles d'un signal.\n\n## Compter l'imprévu, pas le sens\n\nShannon reprend ce choix et en tire une définition : l'information d'un message se mesure à la réduction d'incertitude qu'il apporte, pas à ce qu'il signifie. Un événement très probable, presque sûr, n'apporte presque rien quand il se produit ; un événement improbable, lui, apporte beaucoup. Pour une suite de choix binaires équiprobables, Shannon propose d'appeler l'unité « bit », en base deux, un mot qu'il attribue, dans son propre article, à J. W. Tukey : celui-ci l'avait proposé comme raccourci de « binary digit » dans un mémo interne des Bell Labs daté du 9 janvier 1947.\n\nCette définition permet de calculer précisément combien de bits transporte n'importe quelle source : une lettre d'alphabet, un signal téléphonique, une séquence d'ADN, des décennies plus tard. Elle donne aussi une limite théorique, la capacité du canal, au-delà de laquelle aucune transmission fiable n'est possible, quel que soit le code employé.\n\n## Le sens n'y est pour rien\n\nLa conséquence surprend presque tout le monde la première fois qu'on la rencontre : dans cette théorie, le sens d'un message est hors sujet. Shannon l'écrit lui-même, dès l'introduction de son article : « these semantic aspects of communication are irrelevant to the engineering problem », ces aspects sémantiques de la communication sont sans rapport avec le problème technique. Une phrase absurde, comme une suite de lettres tirées au hasard, peut ainsi transporter davantage de bits qu'une phrase chargée de sens, si elle est moins prévisible. À l'inverse, un message qu'on connaît déjà entièrement, le résultat d'un match qu'on a déjà regardé, la réponse à une question dont on est sûr, transporte zéro bit d'information au sens de Shannon, même s'il reste, pour qui le reçoit, la nouvelle la plus importante de sa vie.\n\nC'est précisément ce détachement du sens qui a rendu la théorie de Shannon universelle. Elle s'applique aussi bien à un câble téléphonique qu'à un canal radio ou, plus tard, à un brin d'ADN, parce qu'elle ne demande jamais ce que le message veut dire, seulement combien de possibilités il permet d'éliminer.",
+  "citation": {
+    "texte": "The fundamental problem of communication is that of reproducing at one point, either exactly or approximately, a message selected at another point.",
+    "auteur": "Claude Shannon",
+    "source": "A Mathematical Theory of Communication, Bell System Technical Journal, vol. 27, 1948",
+    "url": "https://archive.org/details/bstj27-3-379"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "Shannon a défini l'information sans jamais parler de sens",
+    "idee": "En 1948, Claude Shannon invente le bit pour mesurer l'information : non pas ce qu'un message signifie, mais la part d'imprévu qu'il contient. Un message déjà connu transporte zéro bit, même s'il bouleverse une vie.",
+    "source_courte": "C. Shannon, Bell System Technical Journal, 1948"
+  },
+  "sources": [
+    {
+      "type": "article",
+      "auteur": "Shannon, Claude E.",
+      "titre": "A Mathematical Theory of Communication",
+      "publication": "Bell System Technical Journal, vol. 27, n° 3 et 4",
+      "annee": 1948,
+      "url": "https://archive.org/details/bstj27-3-379",
+      "note": "Article fondateur, consulté en texte intégral (OCR) sur Internet Archive : première phrase confirmée mot pour mot, attribution du mot « bit » à J. W. Tukey, citation sur les aspects sémantiques « irrelevant to the engineering problem », et renvois à Nyquist (1924) et Hartley (1928)."
+    },
+    {
+      "type": "web",
+      "auteur": "Wikipedia (contributeurs)",
+      "titre": "Bit",
+      "publication": "Wikipedia",
+      "annee": 2026,
+      "url": "https://en.wikipedia.org/wiki/Bit",
+      "note": "Confirme le mémo interne de J. W. Tukey aux Bell Labs daté du 9 janvier 1947, où il réduit « binary digit » à « bit », avant la reprise du mot par Shannon en 1948."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "A Mathematical Theory of Communication (contexte et influence)",
+      "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
+      "note": "Contexte de publication de l'article et de sa place dans la naissance de la théorie de l'information."
+    }
+  ],
+  "illustration": {
+    "prompt": "Composition sur grille modules, opération « répétition & écart ». Une rangée de petits carrés pleins identiques, régulièrement espacés ; le dernier carré de la rangée est coupé net en diagonale, à moitié vide, et rompt seul la régularité de la série. Aplats pleins uniquement, aucun dégradé, rien d'imprimé ni de symbolique en surimpression, aucune figure humaine. Deux encres : #5EC8E5 (informatique) et noir, papier crème.",
+    "alt": "Une rangée de petits carrés pleins identiques, et un dernier carré coupé en diagonale qui rompt seul la régularité",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Pourquoi un message totalement prévisible transporte-t-il zéro bit d'information, selon la théorie de Shannon ?",
+    "choix": [
+      "Parce qu'il est toujours trop court pour être codé en binaire",
+      "Parce que Shannon mesurait l'information en nombre de mots utiles",
+      "Parce qu'il ne réduit aucune incertitude : il était déjà connu d'avance",
+      "Parce que Shannon réservait le mot bit aux messages jugés faux"
+    ],
+    "bonne_reponse": 2,
+    "explication": "L'information, chez Shannon, mesure la réduction d'incertitude qu'apporte un message, pas son sens ni sa longueur. Un message déjà connu n'en réduit aucune : il vaut zéro bit, même s'il change une vie, alors qu'un message absurde mais imprévisible peut en valoir davantage.",
+    "statut": "brouillon"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": {
+    "decide_par": null,
+    "decide_le": null,
+    "historique": []
+  },
+  "controle": null,
+  "meta": {
+    "genere_le": "2026-11-28",
+    "genere_par": "claude-code",
+    "version": 1
+  }
+}
