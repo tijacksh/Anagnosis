@@ -1,0 +1,44 @@
+{
+  "id": "inf-p-contre-np-le-probleme-a-un-million-de-dollars",
+  "slug": "p-contre-np-le-probleme-a-un-million-de-dollars",
+  "langue": "en",
+  "empreinte_fr": "7d67de05f9389256",
+  "traduit_le": "2026-11-28",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [],
+  "titre": "The Million-Dollar Problem Nobody Can Solve",
+  "accroche": "Checking a solution is sometimes easy. Finding one, nobody knows if it can be just as easy. The question has been worth a million dollars since 2000.",
+  "contenu_vulgarise": "Some problems can be checked in the blink of an eye but seem to take forever to solve. A giant sudoku, once filled in, can be checked in a few seconds: you just need to scan each row, each column, and each block to make sure no digit repeats. But filling it in from a nearly empty grid can require trying a number of combinations that explodes as the grid grows. Whether that gap is real, or whether some still-unknown algorithm could solve these problems just as fast as they can be checked, has had a name since 1971: P versus NP.\n\n## Two letters, one precise distinction\n\nP denotes the problems a computer can solve in a time that grows reasonably, computer scientists say polynomially, with the size of the input. NP denotes the problems whose proposed solution can be checked within that same reasonable time, whether or not anyone knows how to find it that fast. Every problem in P obviously belongs to NP, since solving fast allows checking fast. The open question runs the other way: is there, within NP, a problem that no fast algorithm will ever be able to solve?\n\n## A theorem that changes the whole question\n\nIn 1971, Canadian computer scientist Stephen Cook published a paper proving the existence of problems, called NP-complete, to which every other problem in NP can be reduced in a reasonable amount of time. Soviet mathematician Leonid Levin independently proved an equivalent result in 1973: the pairing is known since as the Cook-Levin theorem. Its consequence is staggering: if someone ever found a fast algorithm to solve a single NP-complete problem, such as boolean satisfiability, that algorithm would solve every problem in NP at once, since each one reduces to it.\n\n## A million dollars, still on the table\n\nIn 2000, the Clay Mathematics Institute listed P versus NP among its seven Millennium Prize Problems and promised a million dollars to whoever settles it, either way. A survey conducted by computer scientist William Gasarch among researchers in the field, in 2018, found that 88 percent of respondents believed P differs from NP, a share that rose to 99 percent among complexity theory specialists. A belief shared by nearly an entire field is not, however, a proof, and the question remains, half a century after Cook's paper, entirely open.",
+  "citation": null,
+  "repere": {
+    "texte": "In 2018, a survey by William Gasarch among theoretical computer scientists found that 88 percent of respondents, and 99 percent of complexity theory specialists, believed P differs from NP, with no proof having settled the question since Stephen Cook's founding paper, in 1971.",
+    "source": "Wikipedia, \"P versus NP problem\" article",
+    "url": "https://en.wikipedia.org/wiki/P_versus_NP_problem"
+  },
+  "carte": {
+    "punch": "A million dollars awaits whoever proves whether P equals NP, or not.",
+    "idee": "Checking a solution and finding one do not necessarily take the same amount of computing time. Since Stephen Cook's 1971 paper, this question has had a name, P versus NP, and since 2000 a prize: a million dollars, still on the table.",
+    "source_courte": "Wikipedia, \"P versus NP problem\""
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia (French) — NP-completeness",
+      "url": "https://fr.wikipedia.org/wiki/NP-complet",
+      "note": "Details the notion of polynomial reduction and gives further examples of NP-complete problems beyond boolean satisfiability."
+    }
+  ],
+  "quiz": {
+    "question": "What exactly does Stephen Cook's 1971 paper prove?",
+    "choix": [
+      "That P differs from NP, settling the debate",
+      "That every problem in NP reduces, in a reasonable amount of time, to problems called NP-complete",
+      "That sudoku cannot be solved by any algorithm",
+      "That the Clay Mathematics Institute must fund research on this problem"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Cook proves in 1971 the existence of NP-complete problems, to which every other problem in NP can be reduced in a reasonable amount of time, a result independently matched by Leonid Levin in 1973. Whether P equals NP itself remains entirely open.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "inf-qwerty-n-a-pas-ete-concu-pour-ralentir-la-frappe",
+  "slug": "qwerty-n-a-pas-ete-concu-pour-ralentir-la-frappe",
+  "langue": "en",
+  "empreinte_fr": "47c5eaad6188ce47",
+  "traduit_le": "2026-11-28",
+  "moteur": "claude-code",
+  "relu": false,
+  "drapeaux": [
+    {
+      "chemin": "citation",
+      "type": "citation-originale-anglaise",
+      "note": "La citation de Koichi et Motoko Yasuoka est nativement en anglais ; recopiée mot pour mot, avec la même source que dans la fiche française."
+    }
+  ],
+  "titre": "QWERTY Was Not Designed to Slow Down Typing",
+  "accroche": "Legend has it that the letters were scattered to keep typists from moving too fast. No evidence backs that up.",
+  "contenu_vulgarise": "The legend has circulated for decades: the inventor of the QWERTY keyboard supposedly scattered the most common letters in English on purpose, to force typists to slow down and keep the typebars from jamming against each other. The story is appealing. Nothing in the record supports it.\n\n## An inventor, six years of trial and error\n\nChristopher Latham Sholes, a printer and amateur inventor from Milwaukee, filed a typewriter patent in 1868 with several colleagues. The original keyboard looked like a piano's: an alphabetical layout of about two dozen keys, which the team likely assumed would be the most efficient arrangement. Over the next six years, Sholes reworked the order of the keys to limit mechanical collisions between the typebars, which jammed whenever two neighboring letters were struck in quick succession.\n\nIn 1874, the arms manufacturer Remington bought the rights and brought the machine to market. Its mechanics rearranged the keyboard once more so that the letters of the word \"TYPE WRITER\" would all sit on the same row, a sales demonstration gimmick rather than a technical requirement.\n\n## What the Japanese study found\n\nIn 2011, Kyoto University researchers Koichi and Motoko Yasuoka published a study retracing the history of keyboards that predated the Remington machine. Their conclusion: the final layout owes less to Sholes than to telegraph operators, who typed out Morse code messages as they came in and needed certain letters that are close to each other in American Morse code, such as S and Z, to stay close together on the keyboard to avoid mistyping. The layout thus took shape through successive adjustments, over the needs of several generations of telegraph equipment, not through a single decision by Sholes.\n\nOn the question of an intent to slow the user down, the two researchers are categorical: nothing in the sources shows that Sholes aimed for such a result, and the idea strikes them as absurd for an inventor who sold his machine on its speed.\n\n## Why the keyboard survived anyway\n\nOnce businesses had bought the machines, they trained their employees in touch-typing on QWERTY, training that Remington itself offered. Switching to a competing keyboard, even a more efficient one, would have meant paying to retrain an entire office, which discouraged change. This mechanism, documented by the economist Paul David in 1985 under the name path dependence, is what explains the keyboard's survival long after the mechanical reason behind its layout disappeared along with the machines themselves.",
+  "citation": {
+    "texte": "We don't believe that Sholes had such a nonsense intention during his development of [the] typewriter.",
+    "auteur": "Koichi and Motoko Yasuoka",
+    "source": "Study cited by Jimmy Stamp, \"Fact or Fiction: The Legend of the QWERTY Keyboard,\" Smithsonian Magazine, 2013",
+    "url": "https://www.smithsonianmag.com/arts-culture/fact-of-fiction-the-legend-of-the-qwerty-keyboard-49863249/"
+  },
+  "repere": null,
+  "carte": {
+    "punch": "QWERTY was never designed to slow anyone down.",
+    "idee": "Long presented as a trap against typists who typed too fast, the QWERTY layout actually owes more to nineteenth-century telegraph operators than to any wish by inventor Christopher Latham Sholes to slow down typing.",
+    "source_courte": "Smithsonian Magazine, 2013"
+  },
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipedia (French) — QWERTY layout",
+      "url": "https://fr.wikipedia.org/wiki/QWERTY",
+      "note": "An overview of the keyboard's history and of competing layouts, such as AZERTY or Dvorak."
+    }
+  ],
+  "quiz": {
+    "question": "According to Koichi and Motoko Yasuoka's 2011 study, why did the QWERTY layout settle into this particular form?",
+    "choix": [
+      "To force beginning typists to type more slowly",
+      "Through successive adjustments tied to the needs of telegraph operators",
+      "Because Remington imposed it with no link to Sholes's earlier work",
+      "To reproduce the alphabetical key order of pianos of the era"
+    ],
+    "bonne_reponse": 1,
+    "explication": "The 2011 study traces the layout back to telegraph operators, who needed certain letters that are close together in Morse code to stay close together on the keyboard, rather than to any wish by Sholes to slow down typing.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": []
+}
