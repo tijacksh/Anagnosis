@@ -600,3 +600,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-28 00:34 | relire | arnaud | rien à faire (0 brouillon décidable, 2 en attente de contrôle) |
 | 2026-11-28 02:04 | questionner | arnaud | rien à faire : 994 fiches servies, toutes avec au moins 2 questions de plus ; aucune fiche touchée |
 | 2026-11-28 02:26 | corriger-cartes | arnaud | liste terminée : 147 fiches de l'audit déjà au suivi, rien à corriger ; routine désactivée |
+| 2026-11-28 03:25 | controle-en | arnaud | rien à faire : 5 fiches à vérifier, toutes droit_* (voie de Vincent), aucune touchée |
