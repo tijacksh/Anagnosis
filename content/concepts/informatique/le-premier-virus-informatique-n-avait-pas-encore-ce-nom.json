@@ -1,0 +1,78 @@
+{
+  "id": "inf-le-premier-virus-informatique-n-avait-pas-encore-ce-nom",
+  "slug": "le-premier-virus-informatique-n-avait-pas-encore-ce-nom",
+  "titre": "Le premier « virus » informatique n'avait pas encore ce nom",
+  "accroche": "En 1971, un programme inoffensif se promène sur les ordinateurs de l'ARPANET en laissant un message au passage. Le mot « virus » naîtra douze ans plus tard.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "introductif",
+  "duree_lecture_min": 3,
+  "contenu_vulgarise": "En 1971, l'ingénieur Bob Thomas écrit, chez BBN (Bolt Beranek and Newman), un programme expérimental destiné aux ordinateurs PDP-10 qui font tourner le système TENEX sur l'ARPANET, le réseau qui précède Internet. Son programme, Creeper, se déplace d'une machine à l'autre et affiche un message sur l'écran : « I'M THE CREEPER : CATCH ME IF YOU CAN », je suis le fouineur, attrape-moi si tu peux. Dans sa version d'origine, il ne se copie pas : il se déplace simplement, en s'effaçant de la machine qu'il quitte.\n\n## Une version qui se multiplie\n\nRay Tomlinson, autre ingénieur de BBN, surtout connu pour avoir choisi l'arobase comme séparateur dans les adresses électroniques, écrit ensuite une variante de Creeper capable de se copier sans s'effacer derrière elle. C'est cette version, qui laisse une trace sur chaque machine plutôt que de simplement s'y déplacer, que l'histoire retient comme le premier programme auto-réplicant sur un réseau. Au maximum, vingt-huit ordinateurs, la totalité des machines TENEX alors reliées à l'ARPANET, ont pu l'héberger en même temps. Tomlinson a confirmé plus tard qu'aucun dégât ni effet imprévu n'avait suivi cette expérience.\n\n## Le premier antivirus, avant le premier virus\n\nEn 1972, Tomlinson écrit un second programme, Reaper, chargé de retrouver Creeper sur le réseau et de le supprimer. Les historiens de l'informatique le présentent couramment comme le premier programme antivirus, alors même que le terme n'existe pas encore : il faudra attendre 1983 et les travaux du chercheur Fred Cohen pour que l'expression « virus informatique » soit formellement définie et popularisée dans le monde académique.\n\n## Ce que l'épisode montre\n\nCreeper et Reaper ne visaient à nuire à personne : il s'agissait de démonstrations techniques sur un réseau qui ne comptait encore que quelques dizaines de machines, utilisées par des chercheurs qui se connaissaient. L'identité exacte de l'auteur de Reaper repose sur un nombre restreint de témoignages d'époque, et le code source de Creeper lui-même n'a pas été conservé : ce que l'histoire retient aujourd'hui vient surtout des souvenirs recueillis auprès des personnes impliquées, des années plus tard. L'épisode annonce malgré tout une dynamique qui ne cessera plus ensuite : dès qu'un réseau relie plusieurs machines entre elles, un programme peut s'y déplacer ou s'y copier de lui-même, et quelqu'un, tôt ou tard, doit en écrire un autre pour l'en déloger.",
+  "citation": null,
+  "repere": {
+    "texte": "Au plus vingt-huit ordinateurs, l'ensemble des machines tournant sous TENEX alors reliées à l'ARPANET, ont pu héberger Creeper en 1971, et son chasseur Reaper, écrit par Ray Tomlinson en 1972 pour le supprimer, précède de onze ans la définition formelle du terme « virus informatique » par le chercheur Fred Cohen, en 1983.",
+    "source": "Wikipédia, article « Creeper and Reaper »",
+    "url": "https://en.wikipedia.org/wiki/Creeper_and_Reaper"
+  },
+  "carte": {
+    "punch": "Le premier programme à se copier seul sur un réseau n'a jamais fait de mal à personne.",
+    "idee": "En 1971, Creeper se promène sur les ordinateurs de l'ARPANET sans rien détruire. Reaper, écrit l'année suivante pour le supprimer, devient le premier antivirus de l'histoire, onze ans avant que le mot « virus informatique » n'existe.",
+    "source_courte": "Wikipédia, « Creeper and Reaper »"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "Creeper and Reaper",
+      "publication": "en.wikipedia.org",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/Creeper_and_Reaper",
+      "note": "Auteurs, dates, message affiché, limite de vingt-huit machines, et incertitudes sur le code source de Creeper et l'attribution de Reaper."
+    },
+    {
+      "type": "web",
+      "auteur": "Encyclopaedia Britannica",
+      "titre": "Computer security",
+      "publication": "britannica.com",
+      "annee": null,
+      "url": "https://www.britannica.com/technology/computer-security",
+      "note": "Confirme que Tomlinson a écrit Reaper en 1972 pour supprimer Creeper, publié l'année précédente sur l'ARPANET, et le qualifie de premier programme antivirus."
+    },
+    {
+      "type": "web",
+      "auteur": "Scientific American",
+      "titre": "Electronic Pathogens",
+      "publication": "scientificamerican.com",
+      "annee": 2010,
+      "url": "https://www.scientificamerican.com/article/electronic-pathogens/",
+      "note": "Confirme le message affiché par Creeper et son caractère inoffensif, dans un panorama plus large de l'histoire des logiciels malveillants."
+    }
+  ],
+  "pour_aller_plus_loin": [],
+  "illustration": {
+    "prompt": "Une rangée de petits points pleins qui diminuent de taille en s'éloignant vers un bord de la page, comme une trace de pas, en aplat noir sur papier crème. Un second point, identique au premier de la rangée mais en encre aqua saturée et légèrement en hors-repérage, apparaît juste à côté de lui sans effacer celui-ci. Aucune figure humaine, aucun symbole reconnaissable.",
+    "alt": "Une rangée de points noirs qui diminuent en s'éloignant, avec un point aqua dédoublé au départ de la rangée",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Qu'est-ce qui rend l'histoire de Reaper (1972) particulière dans le vocabulaire de la sécurité informatique ?",
+    "choix": [
+      "Il a été conçu pour détruire les données laissées par Creeper",
+      "Il a nécessité la collaboration de toutes les machines de l'ARPANET pour fonctionner",
+      "Il a servi de modèle à l'antivirus commercial le plus vendu des années 1980",
+      "Il précède de onze ans la définition formelle du terme « virus informatique »"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Reaper, écrit par Ray Tomlinson en 1972 pour supprimer Creeper, est présenté comme le premier antivirus alors que le mot « virus informatique » lui-même ne sera défini formellement qu'en 1983, par le chercheur Fred Cohen.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-11-28", "genere_par": "claude-code", "version": 1 }
+}

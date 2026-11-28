@@ -1,0 +1,75 @@
+{
+  "id": "inf-p-contre-np-le-probleme-a-un-million-de-dollars",
+  "slug": "p-contre-np-le-probleme-a-un-million-de-dollars",
+  "titre": "Le problème à un million de dollars que personne ne sait résoudre",
+  "accroche": "Vérifier une solution est parfois facile. La trouver, personne ne sait si ça peut l'être aussi. La question vaut un million de dollars depuis 2000.",
+  "discipline": "informatique",
+  "theme": null,
+  "theme_ordre": null,
+  "niveau": "intermediaire",
+  "duree_lecture_min": 4,
+  "contenu_vulgarise": "Certains problèmes se vérifient en un clin d'oeil mais semblent demander une éternité à résoudre. Un sudoku géant, une fois rempli, se contrôle en quelques secondes : il suffit de parcourir chaque ligne, chaque colonne et chaque carré pour s'assurer qu'aucun chiffre n'y est répété. Mais le remplir en partant d'une grille presque vide peut demander d'essayer un nombre de combinaisons qui explose avec la taille de la grille. La question de savoir si cet écart est réel, ou si un algorithme encore inconnu permettrait de résoudre ces problèmes aussi vite qu'on les vérifie, porte un nom depuis 1971 : P contre NP.\n\n## Deux lettres, une distinction précise\n\nP désigne les problèmes qu'un ordinateur résout en un temps qui croît raisonnablement, disent les informaticiens polynomialement, avec la taille de l'entrée. NP désigne les problèmes dont une solution proposée se vérifie dans ce même temps raisonnable, qu'on sache ou non la trouver aussi vite. Tout problème de P appartient évidemment à NP, puisque résoudre vite permet de vérifier vite. La question ouverte porte sur l'inverse : existe-t-il, dans NP, un problème qu'aucun algorithme rapide ne pourra jamais résoudre ?\n\n## Un théorème qui change toute la question\n\nEn 1971, l'informaticien canadien Stephen Cook publie un article qui démontre l'existence de problèmes, dits NP-complets, vers lesquels tout autre problème de NP peut être ramené en un temps raisonnable. Le mathématicien soviétique Leonid Levin démontre, de façon indépendante, un résultat équivalent en 1973 : on parle depuis du théorème de Cook-Levin. Sa conséquence est vertigineuse : si quelqu'un trouvait un jour un algorithme rapide pour résoudre un seul problème NP-complet, comme le problème de satisfiabilité booléenne, cet algorithme réglerait d'un coup tous les problèmes de NP, puisque chacun s'y ramène.\n\n## Un million de dollars, toujours sur la table\n\nEn 2000, le Clay Mathematics Institute inscrit P contre NP parmi ses sept problèmes du millénaire et promet un million de dollars à qui le résoudra, dans un sens comme dans l'autre. Un sondage mené par l'informaticien William Gasarch auprès de chercheurs du domaine, en 2018, trouve que 88 % des répondants pensent que P est différent de NP, une proportion qui monte à 99 % chez les spécialistes de la théorie de la complexité. Une intuition partagée par la quasi-totalité d'une discipline ne constitue cependant pas une preuve, et la question reste, un demi-siècle après l'article de Cook, entièrement ouverte.",
+  "citation": null,
+  "repere": {
+    "texte": "En 2018, un sondage de William Gasarch auprès de chercheurs en informatique théorique trouve que 88 % des répondants, et 99 % des spécialistes de la théorie de la complexité, pensent que P est différent de NP, sans qu'aucune démonstration ne vienne trancher la question depuis l'article fondateur de Stephen Cook, en 1971.",
+    "source": "Wikipédia, article « P versus NP problem »",
+    "url": "https://en.wikipedia.org/wiki/P_versus_NP_problem"
+  },
+  "carte": {
+    "punch": "Un million de dollars attend qui prouvera si P égale NP, ou pas.",
+    "idee": "Vérifier une solution et la trouver ne demandent pas forcément le même temps de calcul. Depuis l'article de Stephen Cook en 1971, cette question porte un nom, P contre NP, et un prix depuis 2000 : un million de dollars, toujours sur la table.",
+    "source_courte": "Wikipédia, « P versus NP problem »"
+  },
+  "sources": [
+    {
+      "type": "web",
+      "auteur": "Wikipédia (contributeurs)",
+      "titre": "P versus NP problem",
+      "publication": "en.wikipedia.org",
+      "annee": null,
+      "url": "https://en.wikipedia.org/wiki/P_versus_NP_problem",
+      "note": "Énoncé du problème, article de Cook (1971), résultat indépendant de Levin (1973), désignation comme Millennium Prize Problem et sondage de Gasarch (2018)."
+    },
+    {
+      "type": "web",
+      "auteur": "Encyclopaedia Britannica",
+      "titre": "NP-complete problem",
+      "publication": "britannica.com",
+      "annee": null,
+      "url": "https://www.britannica.com/science/NP-complete-problem",
+      "note": "Confirme la définition de la NP-complétude et son lien avec le théorème de Cook-Levin."
+    }
+  ],
+  "pour_aller_plus_loin": [
+    {
+      "titre": "Wikipédia — NP-complétude",
+      "url": "https://fr.wikipedia.org/wiki/NP-complet",
+      "note": "Détaille la notion de réduction polynomiale et donne d'autres exemples de problèmes NP-complets que la satisfiabilité booléenne."
+    }
+  ],
+  "illustration": {
+    "prompt": "Deux formes géométriques pleines de même taille posées côte à côte sur la page : à gauche, un polygone régulier et compact ; à droite, une forme aux contours irréguliers et éclatés en plusieurs fragments disjoints. Les deux en aplat noir sur papier crème, sauf un fin contour en encre aqua saturée autour de la forme éclatée, légèrement en hors-repérage. Aucune figure humaine, aucun symbole reconnaissable.",
+    "alt": "Deux formes de même taille côte à côte, l'une compacte et régulière, l'autre éclatée en fragments cernés d'aqua",
+    "url": null,
+    "statut": "a_generer"
+  },
+  "quiz": {
+    "question": "Que démontre précisément l'article de Stephen Cook publié en 1971 ?",
+    "choix": [
+      "Que P est différent de NP, mettant fin au débat",
+      "Que tout problème de NP se ramène, en temps raisonnable, à des problèmes dits NP-complets",
+      "Que le sudoku ne peut être résolu par aucun algorithme",
+      "Que le Clay Mathematics Institute doit financer la recherche sur ce problème"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Cook démontre en 1971 l'existence de problèmes NP-complets, vers lesquels tout autre problème de NP peut être ramené en temps raisonnable, un résultat retrouvé indépendamment par Leonid Levin en 1973. La question de savoir si P égale NP reste, elle, entièrement ouverte.",
+    "statut": "valide"
+  },
+  "quiz_supplementaire": [],
+  "statut": "brouillon",
+  "date_publication_prevue": null,
+  "validation": { "decide_par": null, "decide_le": null, "historique": [] },
+  "controle": null,
+  "controle_juridique": null,
+  "meta": { "genere_le": "2026-11-28", "genere_par": "claude-code", "version": 1 }
+}
