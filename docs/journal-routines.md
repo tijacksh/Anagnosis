@@ -601,3 +601,4 @@ Bloc ajouté aux consignes de produire, contrôler, contrôler-droit, réparer, 
 | 2026-11-28 02:04 | questionner | arnaud | rien à faire : 994 fiches servies, toutes avec au moins 2 questions de plus ; aucune fiche touchée |
 | 2026-11-28 02:26 | corriger-cartes | arnaud | liste terminée : 147 fiches de l'audit déjà au suivi, rien à corriger ; routine désactivée |
 | 2026-11-28 03:25 | controle-en | arnaud | rien à faire : 5 fiches à vérifier, toutes droit_* (voie de Vincent), aucune touchée |
+| 2026-11-28 04:15 | controler | arnaud | 8 fiches contrôlées : 6 ok (zanzibar-1896, gangnam-style, heartbleed, knight-capital, knuth-1974, loi-de-moore), 2 signalées en retouche : eviter-un-examen-compression (Huffman « quitte le MIT en 1953 » alors qu'il y reste professeur jusqu'en 1967), grace-hopper-mite-1947 (« quarante-cinq ans » de conférences non sourcé) |
