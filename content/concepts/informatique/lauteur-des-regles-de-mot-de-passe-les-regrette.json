@@ -136,11 +136,11 @@
     ]
   },
   "controle": {
-    "fait_le": "2026-08-08",
+    "fait_le": "2026-11-28",
     "verdict": "ok",
-    "empreinte": "31af26fb4265a595",
+    "empreinte": "e78492231b8a60d4",
     "notes": [
-      "Sources rouvertes : NIST SP 800-63B §5.1.1.2 confirme mot pour mot l'abandon du changement périodique arbitraire et des règles de composition, remplacées par comparaison à une liste de valeurs compromises/courantes. Le blog NIST (Garcia, 2017) confirme 65 bits vs 85 bits d'entropie et le facteur ~1 050 000x, conforme au 'près d'un million de fois plus' de la fiche. L'article WSJ (McMillan) est paywall et inaccessible en direct (WebFetch bloqué + archive.ph inaccessible), mais la citation exacte de Burr et le récit (demande d'accès aux mots de passe réels du NIST refusée pour confidentialité, appui sur un livre blanc des années 1980) sont corroborés mot pour mot par de multiples reprises journalistiques indépendantes (BizTech, Engadget, TechSpot, Gizmodo) citant toutes le même article WSJ du 7 août 2017."
+      "Recontrôle après modification de la fiche : NIST SP 800-63B (abandon du changement périodique et des règles de composition) et calcul d'entropie (85 bits vs 65 bits) déjà confirmés mot pour mot lors du contrôle précédent ; citation WSJ de Bill Burr toujours corroborée par plusieurs reprises journalistiques indépendantes (paywall direct inaccessible). Les 4 questions de quiz_supplementaire reprennent fidèlement des faits déjà vérifiés dans le texte (refus d'accès du NIST, recommandation 2017, entropie, statut de retraité de Burr). Rien à redire."
     ]
   },
   "meta": {
